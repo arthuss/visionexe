@@ -31,6 +31,8 @@ Direct actor sources:
 
 Dynamic subjects:
 - All subjects are included in the registry. Dynamic ones are flagged and get per-segment or per-scene state slots.
+- In the template, dynamic states are phase-based (static policy): 2-3 sequential changes per character.
+ - Control the phase cap per story via `dynamic_phase_max` in story_config.
 
 Viewer:
 - `engine/scripts/run_subjects_view.ps1` starts a local server and opens the subjects page.

@@ -11,6 +11,9 @@ does not drift and the pipeline stays consistent.
 - Dynamic subjects need LoRA training, multi-masking, and pose sets.
 - Non-dynamic subjects still get reference images to define their look,
   but do not require LoRA training (use img2img or cutouts).
+- Dynamic changes are structural/long-term (body/tech/identity), not clothing-only.
+- Keep dynamic phases sequential and capped (target 2-3 states per character).
+- Control the cap per story via `dynamic_phase_max` in story_config.
 
 Suggested structure (timeline-scoped):
 

@@ -41,7 +41,8 @@
   "scene_label": "scene",
   "scene_index_padding": 3,
   "scene_layout_default": true,
-  "dynamic_state_policy_default": "per_segment",
+  "dynamic_state_policy_default": "static",
+  "dynamic_phase_max": 3,
   "timeline_label": "timeline",
   "timeline_index_padding": 2
 }

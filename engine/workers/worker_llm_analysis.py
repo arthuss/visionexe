@@ -173,13 +173,18 @@ def iter_segments(chapter_dir, segment_label):
             yield name, full
 
 
-def build_prompt(text_content):
+def build_prompt(text_content, phase_limit):
     return (
         "Extract all actors, props, environments, and scenes.\n"
-        "Goal: production consistency so characters, props, and places are recognizable.\n\n"
+        "Goal: production consistency so characters, props, and places are recognizable.\n"
+        "Dynamic vs static is based on CHANGE OVER TIME (not just presence).\n\n"
         "Rules:\n"
         "- Use only information from the text.\n"
         "- Do not invent new actors/props/places/scenes.\n"
+        "- 'changes' must be structural or long-term (body mods, tech upgrades, identity shifts).\n"
+        "- Ignore clothing-only changes unless the text says it's a permanent transformation.\n"
+        f"- Limit changes to at most {phase_limit} sequential phases; merge minor shifts into the closest phase.\n"
+        "- Use stable phase labels across segments (e.g., 'Phase 1: pre-tech', 'Phase 2: mid', 'Phase 3: full').\n"
         "- If details are missing, omit or mark unknown.\n"
         "- Preserve verse/beat order.\n\n"
         "Output JSON keys:\n"
@@ -216,6 +221,7 @@ def main():
 
     segment_label = story_config.get("segment_label", "segment")
     segment_type = story_config.get("segment_type", "segment")
+    phase_limit = int(story_config.get("dynamic_phase_max", 3))
 
     target_chapters = [int(ch) for ch in args.chapters] if args.chapters else []
     completed = load_completed(progress_csv, args.per_segment)
@@ -266,7 +272,7 @@ def main():
                 if not args.include_wave:
                     text_content = strip_wave_sections(text_content)
 
-                prompt = build_prompt(text_content)
+                prompt = build_prompt(text_content, phase_limit)
                 start_time = time.time()
                 result = call_ollama(prompt, model_name, ollama_url)
                 duration = time.time() - start_time
@@ -304,7 +310,7 @@ def main():
             if not args.include_wave:
                 text_content = strip_wave_sections(text_content)
 
-            prompt = build_prompt(text_content)
+            prompt = build_prompt(text_content, phase_limit)
             start_time = time.time()
             result = call_ollama(prompt, model_name, ollama_url)
             duration = time.time() - start_time
