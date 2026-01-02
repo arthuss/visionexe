@@ -108,7 +108,8 @@ def add_subject(subjects, subject_id, name, subject_type):
             "aliases": set(),
             "roles": set(),
             "visual_traits": set(),
-            "changes": set(),
+            "changes": [],
+            "change_set": set(),
             "notes": set(),
             "sources": set(),
             "first_chapter": None,
@@ -122,6 +123,14 @@ def add_subject(subjects, subject_id, name, subject_type):
     if name:
         subject["aliases"].add(name)
     return subject
+
+
+def append_changes(subject, values):
+    for change in values:
+        if change in subject["change_set"]:
+            continue
+        subject["changes"].append(change)
+        subject["change_set"].add(change)
 
 
 def update_chapter_range(subject, chapter_value):
@@ -211,9 +220,12 @@ def main():
                 subject["state_policy"] = str(profile.get("state_policy"))
             if profile.get("states"):
                 subject["seed_states"] = profile.get("states")
-            for field in ["roles", "visual_traits", "changes", "notes"]:
+            for field in ["roles", "visual_traits", "notes"]:
                 values = normalize_list(profile.get(field))
                 subject[field].update(values)
+            seed_changes = normalize_list(profile.get("changes"))
+            if seed_changes:
+                append_changes(subject, seed_changes)
 
     records = load_jsonl(analysis_master_path)
     for record in records:
@@ -288,7 +300,7 @@ def main():
                             if isinstance(item, dict) and item.get(field_name):
                                 change_values = normalize_list(item.get(field_name))
                                 if change_values:
-                                    subject["changes"].update(change_values)
+                                    append_changes(subject, change_values)
                                     segment_label = record.get("segment_label")
                                     scene_label = record.get("scene_label") or ""
                                     if segment_label:
@@ -455,7 +467,7 @@ def main():
                     "notes": [],
                 }
             ]
-            for idx, change in enumerate(sorted(subject["changes"]), start=1):
+            for idx, change in enumerate(subject["changes"], start=1):
                 states.append({
                     "state_id": f"change_{idx:02d}",
                     "label": change,
@@ -487,7 +499,7 @@ def main():
             "aliases": sorted(subject["aliases"]),
             "roles": sorted(subject["roles"]),
             "visual_traits": sorted(subject["visual_traits"]),
-            "changes": sorted(subject["changes"]),
+            "changes": subject["changes"],
             "notes": sorted(subject["notes"]),
             "sources": sorted(subject["sources"]),
             "occurrence_count": subject["occurrence_count"],
