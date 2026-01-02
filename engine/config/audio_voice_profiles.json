@@ -1,0 +1,113 @@
+{
+  "version": "1.0",
+  "defaults": {
+    "lufs_target": -16,
+    "sample_rate": 48000,
+    "channel_mode": "mono"
+  },
+  "tts_defaults": {
+    "model": "turbo",
+    "language_id": "de",
+    "temperature": 0.8,
+    "top_p": 0.95,
+    "top_k": 1000,
+    "repetition_penalty": 1.2,
+    "min_p": 0.0,
+    "exaggeration": 0.5,
+    "cfg_weight": 0.5,
+    "norm_loudness": true,
+    "max_new_tokens": 400,
+    "n_variations": 1,
+    "seed_base": null
+  },
+  "profiles": {
+    "henoch": {
+      "tts_provider": "elevenlabs",
+      "voice_id": "old_prophet_v2",
+      "style": "elder_male_calm_emotional",
+      "fx_chain": ["close_mic_dry", "low_mid_boost"],
+      "notes": "Internal monologue",
+      "tts": {
+        "model": "turbo",
+        "speaker_id": null
+      }
+    },
+    "azazel": {
+      "tts_provider": "elevenlabs",
+      "voice_id": "whisper_siren_m",
+      "style": "seductive_whisper_hiss",
+      "fx_chain": ["subtle_pitch_shift", "slapback_delay"],
+      "notes": "Low, tempting, slightly unstable",
+      "tts": {
+        "model": "mtl",
+        "speaker_id": null
+      }
+    },
+    "michael": {
+      "tts_provider": "local_tts",
+      "voice_id": "admin_male_1",
+      "style": "authoritative_timeless",
+      "fx_chain": ["metallic_hall", "light_chorus"],
+      "notes": "Security admin voice",
+      "tts": {
+        "model": "turbo",
+        "speaker_id": null
+      }
+    },
+    "gabriel": {
+      "tts_provider": "local_tts",
+      "voice_id": "admin_male_2",
+      "style": "authoritative_timeless",
+      "fx_chain": ["metallic_hall", "light_chorus"],
+      "notes": "Security admin voice",
+      "tts": {
+        "model": "turbo",
+        "speaker_id": null
+      }
+    },
+    "uriel": {
+      "tts_provider": "local_tts",
+      "voice_id": "admin_male_3",
+      "style": "authoritative_timeless",
+      "fx_chain": ["metallic_hall", "light_chorus"],
+      "notes": "Security admin voice",
+      "tts": {
+        "model": "turbo",
+        "speaker_id": null
+      }
+    },
+    "system_admin": {
+      "tts_provider": "local_tts",
+      "voice_id": "kernel_female_neutral",
+      "style": "synthetic_neutral",
+      "fx_chain": ["no_room_reverb", "bitcrush_line_end"],
+      "notes": "OS voice",
+      "tts": {
+        "model": "mtl",
+        "speaker_id": null
+      }
+    },
+    "kernel": {
+      "tts_provider": "local_tts",
+      "voice_id": "kernel_female_neutral",
+      "style": "synthetic_neutral",
+      "fx_chain": ["no_room_reverb", "bitcrush_line_end"],
+      "notes": "OS voice",
+      "tts": {
+        "model": "mtl",
+        "speaker_id": null
+      }
+    },
+    "timearchitect": {
+      "tts_provider": "local_tts",
+      "voice_id": "metronome_male",
+      "style": "precise_rhythmic",
+      "fx_chain": ["tempo_echo_sync"],
+      "notes": "Tempo-locked delivery",
+      "tts": {
+        "model": "mtl",
+        "speaker_id": null
+      }
+    }
+  }
+}

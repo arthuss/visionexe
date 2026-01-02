@@ -1,0 +1,26 @@
+{
+  "description": "Analysis master index (JSONL records).",
+  "required": [
+    "source_id",
+    "source_path",
+    "chapter",
+    "segment_label",
+    "segment_type"
+  ],
+  "fields": {
+    "source_id": "Stable identifier derived from source_path or row index.",
+    "source_path": "Original source path or reference string from the CSV.",
+    "chapter": "Chapter number (int) or label.",
+    "segment_index": "Numeric segment index when available.",
+    "segment_label": "Filesystem label (e.g., segment_001).",
+    "segment_type": "Semantic label (verse/paragraph/scene/segment).",
+    "scene_index": "Numeric scene index when available.",
+    "scene_label": "Scene label when available (e.g., scene_001).",
+    "source_index": "Row index in the source CSV (1-based).",
+    "summary": "Short summary if available.",
+    "analysis_blocks": "Parsed JSON blocks from LLM output (optional).",
+    "analysis_paths": "Matched analysis file paths (optional).",
+    "raw_content": "Raw LLM output (optional).",
+    "meta": "Extra metadata (optional)."
+  }
+}

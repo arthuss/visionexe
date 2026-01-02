@@ -1,0 +1,152 @@
+{
+  "1": {
+    "inputs": {
+      "ckpt_name": "juggernautXL_ragnarokBy.safetensors"
+    },
+    "class_type": "CheckpointLoaderSimple",
+    "_meta": {
+      "title": "Load Checkpoint"
+    }
+  },
+  "2": {
+    "inputs": {
+      "seed": 655187230562153,
+      "steps": 20,
+      "cfg": 8,
+      "sampler_name": "res_multistep",
+      "scheduler": "beta",
+      "denoise": 1,
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "3",
+        0
+      ],
+      "negative": [
+        "4",
+        0
+      ],
+      "latent_image": [
+        "7",
+        0
+      ]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "KSampler"
+    }
+  },
+  "3": {
+    "inputs": {
+      "text": [
+        "12",
+        0
+      ],
+      "clip": [
+        "1",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Prompt)"
+    }
+  },
+  "4": {
+    "inputs": {
+      "text": "",
+      "clip": [
+        "1",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Prompt)"
+    }
+  },
+  "5": {
+    "inputs": {
+      "samples": [
+        "2",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE Decode"
+    }
+  },
+  "6": {
+    "inputs": {
+      "filename_prefix": [
+        "8",
+        0
+      ],
+      "images": [
+        "5",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  },
+  "7": {
+    "inputs": {
+      "width": 1024,
+      "height": 1024,
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "Empty Latent Image"
+    }
+  },
+  "8": {
+    "inputs": {
+      "text": "PROP_LEDGER__r01"
+    },
+    "class_type": "Text Multiline",
+    "_meta": {
+      "title": "MASTER_FILENAME"
+    }
+  },
+  "9": {
+    "inputs": {
+      "rem_mode": "BEN2",
+      "image_output": "Save",
+      "save_prefix": [
+        "8",
+        0
+      ],
+      "torchscript_jit": false,
+      "add_background": "none",
+      "refine_foreground": false,
+      "images": [
+        "5",
+        0
+      ]
+    },
+    "class_type": "easy imageRemBg",
+    "_meta": {
+      "title": "Image Remove Bg"
+    }
+  },
+  "12": {
+    "inputs": {
+      "text": "Cinematic shot, photorealistic, Ancient Aliens style, Egypt-Punk aesthetic, Stargate atmosphere, ancient Ethiopian context, 1 Enoch Tech-Exegesis,  ## [PROP] The Master Ledger / Mäṣḥaf (ID: PROP_LEDGER)\n**Description:** The \"Buch\" mentioned in Chapter 103. The Persistent System Registry where the \"Righteous\" are backed up.\n**Tags:** #Artifact #Hologram #StoneTablet\n\n### 1. VISUAL ANATOMY / DESIGN\n*   **Form:** A fusion of a heavy **Obsidian Slab** and a **Holographic Server Blade**.\n*   **Surface:** The black stone is etched with Ethiopic Ge'ez characters that glow with a steady **Gold Light**.\n*   **Function:** When opened or activated, it projects a vertical stream of binary code or glyphs upwards, listing names (Unique IDs) in an \"Immutable\" list.\n*   **Texture:** Matte black stone vs. immaterial light.\n\n### 4. AI PROMPT KEYWORDS\n`obsidian tablet with glowing gold glyphs`, `ancient ethiopic text`, `holographic projection from stone`, `floating data stream`, `mystical artifact`, `cinematic close-up`"
+    },
+    "class_type": "Text Multiline",
+    "_meta": {
+      "title": "MASTER_PROMPT"
+    }
+  }
+}

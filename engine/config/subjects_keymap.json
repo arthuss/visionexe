@@ -1,0 +1,61 @@
+{
+  "actors": {
+    "type": "character",
+    "name_fields": ["name", "id"],
+    "role_fields": ["role"],
+    "visual_fields": ["visualTraits", "visual_traits"],
+    "change_fields": ["changes", "evolution"]
+  },
+  "characters": {
+    "type": "character",
+    "name_fields": ["name", "id"],
+    "role_fields": ["role", "description"],
+    "visual_fields": ["visualTraits", "visual_traits"],
+    "change_fields": ["changes", "evolution"]
+  },
+  "props": {
+    "type": "prop",
+    "name_fields": ["name", "id", "prop"],
+    "role_fields": ["role", "description"],
+    "visual_fields": ["visualTraits", "visual_traits"],
+    "change_fields": ["changes", "evolution"]
+  },
+  "places": {
+    "type": "set_environment",
+    "name_fields": ["name", "location", "place"],
+    "role_fields": ["role", "description"],
+    "visual_fields": ["visualTraits", "visual_traits"],
+    "change_fields": ["changes", "evolution"]
+  },
+  "locations": {
+    "type": "set_environment",
+    "name_fields": ["name", "location", "place"],
+    "role_fields": ["role", "description"],
+    "visual_fields": ["visualTraits", "visual_traits"],
+    "change_fields": ["changes", "evolution"]
+  },
+  "environments": {
+    "type": "set_environment",
+    "name_fields": ["name", "location", "place"],
+    "role_fields": ["role", "description"],
+    "visual_fields": ["visualTraits", "visual_traits"],
+    "change_fields": ["changes", "evolution"]
+  },
+  "geo_environments": {
+    "type": "geo_environment",
+    "name_fields": ["name", "location", "place"],
+    "role_fields": ["role", "description"],
+    "visual_fields": ["visualTraits", "visual_traits"],
+    "change_fields": ["changes", "evolution"]
+  },
+  "scenes": {
+    "type": "scene",
+    "name_fields": ["title"],
+    "location_fields": ["location"],
+    "role_fields": ["location"],
+    "visual_fields": [],
+    "change_fields": [],
+    "create_location_subjects": true,
+    "location_subject_type": "set_environment"
+  }
+}

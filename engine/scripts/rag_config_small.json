@@ -1,0 +1,14 @@
+{
+  "qdrant_url": "http://localhost:6337",
+  "qdrant_api_key": "",
+  "collection": "visionexe_small_memory",
+  "distance": "Cosine",
+  "qdrant_timeout_sec": 180,
+  "embedding": {
+    "endpoint": "http://localhost:11434/api/embeddings",
+    "model": "dengcao/Qwen3-Embedding-0.6B:Q8_0",
+    "api": "ollama",
+    "timeout_sec": 90,
+    "api_key": ""
+  }
+}

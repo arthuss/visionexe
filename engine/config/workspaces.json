@@ -1,0 +1,219 @@
+{
+  "notes": [
+    "Workspaces expose local APIs on localhost when running.",
+    "GPU bound; run sequentially for max quality.",
+    "Models auto-unload when idle to free VRAM.",
+    "WSL routing is required when using localhost APIs from Windows."
+  ],
+  "api_defaults": {
+    "gradio_port": 7860,
+    "fastapi_port": 8000
+  },
+  "workspaces": [
+    {
+      "id": "post_production",
+      "name": "Post Production Stack",
+      "category": "post",
+      "host": "windows",
+      "path": "C:\\Users\\sasch\\post_production",
+      "readme": "C:\\Users\\sasch\\post_production\\README.md",
+      "apis": [],
+      "tools": [
+        {
+          "path": "C:\\Users\\sasch\\post_production\\depth\\sam3_endpoint.py",
+          "venv": "C:\\Users\\sasch\\post_production\\depth\\.venv",
+          "notes": "SAM3 depth endpoint."
+        }
+      ],
+      "start_command": null
+    },
+    {
+      "id": "qwen_image_to_lora",
+      "name": "Qwen Image to LoRA",
+      "category": "lora",
+      "host": "wsl",
+      "distro": "Ubuntu24Old",
+      "path": "/root/Qwen-Image-to-LoRA",
+      "windows_path": "\\\\wsl.localhost\\Ubuntu24Old\\root\\Qwen-Image-to-LoRA",
+      "readme": "\\\\wsl.localhost\\Ubuntu24Old\\root\\Qwen-Image-to-LoRA\\README.md",
+      "venv": "/root/Qwen-Image-to-LoRA/.venv",
+      "venv_windows": "\\\\wsl.localhost\\Ubuntu24Old\\root\\Qwen-Image-to-LoRA\\.venv",
+      "apis": [
+        {
+          "id": "gradio",
+          "type": "gradio",
+          "base_url": "http://127.0.0.1:7860",
+          "port": 7860,
+          "notes": "Default gradio port; update to avoid conflicts."
+        }
+      ],
+      "start_command": "source .venv/bin/activate && python app.py --port 7860"
+    },
+    {
+      "id": "comfyui_py314",
+      "name": "ComfyUI Py314",
+      "category": "image",
+      "host": "wsl",
+      "distro": "Ubuntu24Old",
+      "path": "/root/ComfyUI_Py314",
+      "windows_path": "\\\\wsl.localhost\\Ubuntu24Old\\root\\ComfyUI_Py314",
+      "conda_env": "py314",
+      "notes": "PyTorch + xformers + sage-attention + flash-attention build.",
+      "output_path": "/root/ComfyUI_Py314/output",
+      "windows_output_path": "\\\\wsl.localhost\\Ubuntu24Old\\root\\ComfyUI_Py314\\output",
+      "apis": [
+        {
+          "id": "comfyui",
+          "type": "http",
+          "base_url": "http://127.0.0.1:8188",
+          "port": 8188,
+          "notes": "Default ComfyUI port; update if different."
+        }
+      ],
+      "start_command": "conda activate py314 && python main.py"
+    },
+    {
+      "id": "diffusion_pipe",
+      "name": "Diffusion Pipe",
+      "category": "image",
+      "host": "wsl",
+      "distro": "Ubuntu24Old",
+      "path": "/root/diffusion-pipe",
+      "windows_path": "\\\\wsl.localhost\\Ubuntu24Old\\root\\diffusion-pipe",
+      "tools": [
+        "/root/diffusion-pipe/tools/qwen_batch_app.py",
+        "/root/diffusion-pipe/tools/smoothmix_batch.py"
+      ],
+      "notes": "Batch dataset manager and SmoothMix config generator.",
+      "apis": [
+        {
+          "id": "gradio",
+          "type": "gradio",
+          "base_url": "http://127.0.0.1:7860",
+          "port": 7860,
+          "notes": "Default gradio port; update to avoid conflicts."
+        }
+      ],
+      "start_command": null
+    },
+    {
+      "id": "liveportrait",
+      "name": "LivePortrait",
+      "category": "video",
+      "host": "wsl",
+      "distro": "Ubuntu22Old",
+      "path": "/home/sasch/LivePortrait",
+      "windows_path": "\\\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\LivePortrait",
+      "readme": "\\\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\LivePortrait\\readme.md",
+      "notes": "Requires driving video.",
+      "apis": [],
+      "start_command": null
+    },
+    {
+      "id": "sadtalker",
+      "name": "SadTalker",
+      "category": "video",
+      "host": "wsl",
+      "distro": "Ubuntu22Old",
+      "path": "/home/sasch/SadTalker",
+      "windows_path": "\\\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\SadTalker",
+      "readme": "\\\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\SadTalker\\README.md",
+      "apis": [],
+      "start_command": null
+    },
+    {
+      "id": "wan2gp",
+      "name": "Wan2GP (Hunyuan Video Avatar)",
+      "category": "video",
+      "host": "wsl",
+      "distro": "Ubuntu22Old",
+      "path": "/home/sasch/Wan2GP",
+      "windows_path": "\\\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\Wan2GP",
+      "readme": "\\\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\Wan2GP\\README.md",
+      "apis": [],
+      "start_command": null
+    },
+    {
+      "id": "audiophil",
+      "name": "Audiophil",
+      "category": "audio",
+      "host": "wsl",
+      "distro": "Ubuntu22Old",
+      "path": "/home/sasch/audiophil",
+      "windows_path": "\\\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\audiophil",
+      "readme": "\\\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\audiophil\\README.md",
+      "notes": "AI music studio (FastAPI + Gradio).",
+      "apis": [
+        {
+          "id": "fastapi",
+          "type": "fastapi",
+          "base_url": "http://127.0.0.1:8000",
+          "port": 8000,
+          "notes": "Default FastAPI port; update if different."
+        }
+      ],
+      "start_command": null
+    },
+    {
+      "id": "chatterbox",
+      "name": "Chatterbox TTS",
+      "category": "audio",
+      "host": "wsl",
+      "distro": "Ubuntu22Old",
+      "path": "/home/sasch/chatterbox",
+      "windows_path": "\\\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\chatterbox",
+      "readme": "\\\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\chatterbox\\README.md",
+      "extra_docs": [
+        "\\\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\chatterbox\\README_queue.md"
+      ],
+      "apis": [
+        {
+          "id": "queue",
+          "type": "fastapi",
+          "base_url": "http://127.0.0.1:8000",
+          "port": 8000,
+          "notes": "Default FastAPI port; update if different."
+        }
+      ],
+      "start_command": null
+    },
+    {
+      "id": "chatterbox_turbo_demo",
+      "name": "Chatterbox Turbo Demo",
+      "category": "audio",
+      "host": "wsl",
+      "distro": "Ubuntu22Old",
+      "path": "/home/sasch/chatterbox-turbo-demo",
+      "windows_path": "\\\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\chatterbox-turbo-demo",
+      "readme": "\\\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\chatterbox-turbo-demo\\README.md",
+      "apis": [],
+      "start_command": null
+    },
+    {
+      "id": "audio_editing",
+      "name": "Audio Editing",
+      "category": "audio",
+      "host": "wsl",
+      "distro": "Ubuntu22Old",
+      "path": "/home/sasch/audioEditing",
+      "windows_path": "\\\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\audioEditing",
+      "readme": "\\\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\audioEditing\\README.md",
+      "notes": "FX overlays and scene sound layers.",
+      "apis": [],
+      "start_command": null
+    },
+    {
+      "id": "tts_local",
+      "name": "Local TTS/STT Pipeline",
+      "category": "audio",
+      "host": "wsl",
+      "distro": "Ubuntu22Old",
+      "path": "/home/sasch/TTS",
+      "windows_path": "\\\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\TTS",
+      "readme": "\\\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\TTS\\local_tts\\README_audio_pipeline.md",
+      "notes": "stt_worker uses Whisper small/large, GPU transcription, SequenceMatcher similarity, and word-level WER.",
+      "apis": [],
+      "start_command": null
+    }
+  ]
+}

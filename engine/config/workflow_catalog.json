@@ -1,0 +1,290 @@
+{
+  "notes": [
+    "Workflow catalog for agentic selection and orchestration.",
+    "Update entries when workflows change or new variants are added.",
+    "Most workflows are GPU-bound; run sequentially for max quality."
+  ],
+  "workflows": [
+    {
+      "id": "multi_view_actor_8",
+      "label": "Actor 8-view angles",
+      "path": "engine/workflows/templates-1_click_multiple_character_angles-v1.0.json",
+      "category": "actor_multiview",
+      "view_count": 8,
+      "view_mode": "multi_view",
+      "inputs": [
+        "master_image",
+        "master_filename"
+      ],
+      "estimated_runtime_sec": 180,
+      "view_order": [
+        "wide_shot",
+        "45_left",
+        "45_right",
+        "low_angle",
+        "90_right",
+        "aerial_view",
+        "close_up",
+        "90_left"
+      ],
+      "uses": [
+        "actorbuilder",
+        "multiview_startimage"
+      ],
+      "outputs": {
+        "image_description": true
+      },
+      "notes": "Generates 8 views around the subject; pick a single view for camera-angle shifts."
+    },
+    {
+      "id": "multi_view_env_8",
+      "label": "Scene 8-view angles",
+      "path": "engine/workflows/templates-1_click_multiple_scene_angles-v1.0.json",
+      "category": "env_multiview",
+      "view_count": 8,
+      "view_mode": "multi_view",
+      "inputs": [
+        "master_image",
+        "master_filename"
+      ],
+      "estimated_runtime_sec": 180,
+      "view_order": [
+        "wide_shot",
+        "45_left",
+        "45_right",
+        "low_angle",
+        "90_right",
+        "aerial_view",
+        "close_up",
+        "90_left"
+      ],
+      "uses": [
+        "scenebuilder",
+        "multiview_startimage"
+      ],
+      "outputs": {
+        "image_description": true
+      },
+      "notes": "Generates 8 environment views; can branch a new video from a mid-frame."
+    },
+    {
+      "id": "view_shift_90",
+      "label": "View shift 90deg",
+      "path": null,
+      "category": "view_shift",
+      "view_mode": "select_from_multiview",
+      "angle_deg": 90,
+      "view_labels": [
+        "90_right",
+        "90_left"
+      ],
+      "view_indices": [
+        4,
+        7
+      ],
+      "outputs": {
+        "image_description": true
+      },
+      "notes": "Selects the 90-degree view from a multi-view output set using the defined view_order."
+    },
+    {
+      "id": "realism_edit",
+      "label": "Realism boost",
+      "path": "engine/workflows/REALISM-makes_anything_real.json",
+      "category": "realism",
+      "view_mode": "image_edit",
+      "inputs": [
+        "image"
+      ],
+      "outputs": {
+        "image_description": true
+      },
+      "notes": "Pushes stylized images toward photorealistic output (image-only, no prompt)."
+    },
+    {
+      "id": "keyframes_6",
+      "label": "6 keyframes video guide",
+      "path": "engine/workflows/templates-6-key-frames.json",
+      "category": "video_keyframes",
+      "view_mode": "video_guide",
+      "inputs": [
+        "start_frame",
+        "end_frame",
+        "frame_1",
+        "frame_2",
+        "frame_3",
+        "frame_4",
+        "frame_5",
+        "master_filename",
+        "global_frame_count"
+      ],
+      "optional_inputs": [
+        "master_prompt_1",
+        "master_prompt_2",
+        "master_prompt_3",
+        "master_prompt_4",
+        "master_prompt_5"
+      ],
+      "defaults": {
+        "global_frame_count": 81
+      },
+      "presets": {
+        "slow_pan": 81,
+        "fast_motion": 25
+      },
+      "output_fps": 24,
+      "notes": "Uses 6 keyframes to guide a video (slow pan/hover). Ensure global_frame_count is an int. Duration = frames/24."
+    },
+    {
+      "id": "layered_image_edit",
+      "label": "Layered image edit",
+      "path": "engine/workflows/image_qwen_image_layered.json",
+      "category": "layered_edit",
+      "view_mode": "image_edit",
+      "outputs": {
+        "image_description": true,
+        "layers": [
+          "actor",
+          "background",
+          "effects"
+        ]
+      },
+      "notes": "Splits a single image into layered outputs for compositing."
+    },
+    {
+      "id": "relight_edit",
+      "label": "Relight edit",
+      "path": "engine/workflows/image_qwen_image_edit_2509_relight.json",
+      "category": "relight",
+      "view_mode": "image_edit",
+      "inputs": [
+        "image",
+        "prompt"
+      ],
+      "outputs": {
+        "image_description": true
+      },
+      "notes": "Relights an existing image (sun position, day/night, shadow control) driven by prompt."
+    },
+    {
+      "id": "atomic_2flux_schnell",
+      "label": "Atomic 2flux schnell",
+      "path": "engine/workflows/2flux_schnell.json",
+      "category": "atomic",
+      "view_mode": "raw",
+      "notes": "Unclassified atomic workflow."
+    },
+    {
+      "id": "atomic_flux_img2img",
+      "label": "Atomic Flux img2img",
+      "path": "engine/workflows/Flux_img2img.json",
+      "category": "atomic",
+      "view_mode": "raw",
+      "notes": "Unclassified atomic workflow."
+    },
+    {
+      "id": "atomic_flux_schnell",
+      "label": "Atomic flux schnell",
+      "path": "engine/workflows/flux_schnell.json",
+      "category": "atomic",
+      "view_mode": "raw",
+      "notes": "Unclassified atomic workflow."
+    },
+    {
+      "id": "atomic_hidreamfast",
+      "label": "Atomic hidreamfast",
+      "path": "engine/workflows/hidreamfast.json",
+      "category": "atomic",
+      "view_mode": "raw",
+      "notes": "Unclassified atomic workflow."
+    },
+    {
+      "id": "atomic_juggernaut",
+      "label": "Atomic juggernaut",
+      "path": "engine/workflows/juggernaut.json",
+      "category": "atomic",
+      "view_mode": "raw",
+      "notes": "Unclassified atomic workflow."
+    },
+    {
+      "id": "atomic_juggernaut_multi",
+      "label": "Atomic juggernaut multi",
+      "path": "engine/workflows/juggernaut_multi.json",
+      "category": "atomic",
+      "view_mode": "raw",
+      "notes": "Unclassified atomic workflow."
+    },
+    {
+      "id": "atomic_load_image_from_path_and_set_count_name_images_with_numbers_the_first_number_gets_taken_first_thats_the_background_then_layerwise_to_front_1",
+      "label": "Atomic load image from path and set count name images with numbers the first number gets taken first thats the background then layerwise to front (1)",
+      "path": "engine/workflows/load image from path and set count name images with numbers the first number gets taken first thats the background then layerwise to front (1).json",
+      "category": "atomic",
+      "view_mode": "raw",
+      "notes": "Unclassified atomic workflow."
+    },
+    {
+      "id": "atomic_qwen_edit_multiple_view_api",
+      "label": "Atomic Qwen edit multiple view api",
+      "path": "engine/workflows/Qwen_edit_multiple_view_api.json",
+      "category": "atomic",
+      "view_mode": "raw",
+      "notes": "Unclassified atomic workflow."
+    },
+    {
+      "id": "atomic_text_to_img",
+      "label": "Atomic TEXT TO IMG",
+      "path": "engine/workflows/TEXT_TO_IMG.json",
+      "category": "atomic",
+      "view_mode": "raw",
+      "notes": "Unclassified atomic workflow."
+    },
+    {
+      "id": "atomic_text_to_img_multilora",
+      "label": "Atomic TEXT TO IMG multilora",
+      "path": "engine/workflows/TEXT_TO_IMG_multilora.json",
+      "category": "atomic",
+      "view_mode": "raw",
+      "notes": "Unclassified atomic workflow."
+    },
+    {
+      "id": "atomic_wan22_image",
+      "label": "Atomic wan22 image",
+      "path": "engine/workflows/wan22_image.json",
+      "category": "atomic",
+      "view_mode": "raw",
+      "notes": "Unclassified atomic workflow."
+    },
+    {
+      "id": "atomic_wan22_image1",
+      "label": "Atomic wan22 image1",
+      "path": "engine/workflows/wan22_image1.json",
+      "category": "atomic",
+      "view_mode": "raw",
+      "notes": "Unclassified atomic workflow."
+    },
+    {
+      "id": "atomic_wan22_image_dif",
+      "label": "Atomic wan22 image dif",
+      "path": "engine/workflows/wan22_image_dif.json",
+      "category": "atomic",
+      "view_mode": "raw",
+      "notes": "Unclassified atomic workflow."
+    },
+    {
+      "id": "atomic_zimage",
+      "label": "Atomic zimage",
+      "path": "engine/workflows/zimage.json",
+      "category": "atomic",
+      "view_mode": "raw",
+      "notes": "Unclassified atomic workflow."
+    },
+    {
+      "id": "atomic_zimages",
+      "label": "Atomic zimages",
+      "path": "engine/workflows/zimages.json",
+      "category": "atomic",
+      "view_mode": "raw",
+      "notes": "Unclassified atomic workflow."
+    }
+  ]
+}

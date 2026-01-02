@@ -1,0 +1,39 @@
+{
+  "media_root": "filmsets/{chapter}/Media",
+  "audio_root": "filmsets/{chapter}/audio",
+  "defaults": {
+    "require_actor": true,
+    "require_env": true,
+    "require_composite": true,
+    "require_props_if_named": true
+  },
+  "patterns": {
+    "actor_raw": [
+      "{media}/scene_{scene}_actor_raw.*",
+      "{media}/scene_{scene}_actor.*"
+    ],
+    "actor_alpha": [
+      "{media}/scene_{scene}_actor_alpha.*",
+      "{media}/scene_{scene}_actor_*_alpha.*"
+    ],
+    "env_base": [
+      "{media}/scene_{scene}_env.*",
+      "{media}/scene_{scene}_background.*",
+      "{media}/scene_{scene}_bg.*"
+    ],
+    "prop_image": [
+      "{media}/scene_{scene}_prop_*.*"
+    ],
+    "prop_alpha": [
+      "{media}/scene_{scene}_prop_*_alpha.*"
+    ],
+    "composite": [
+      "{media}/scene_{scene}_start.*",
+      "{media}/scene_{scene}_master.*",
+      "{media}/scene_{scene}_composite.*"
+    ],
+    "visual_audit": [
+      "{media}/scene_{scene}_audit.*"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "ollama_local": {
+    "type": "ollama",
+    "base_url": "http://127.0.0.1:11434",
+    "model": "qwen2.5:14b"
+  },
+  "lmstudio_local": {
+    "type": "openai_compat",
+    "base_url": "http://127.0.0.1:1234/v1",
+    "model": "local-model"
+  },
+  "lmstudio_remote": {
+    "type": "openai_compat",
+    "base_url": "http://<lmstudio-host>:1234/v1",
+    "model": "local-model"
+  }
+}

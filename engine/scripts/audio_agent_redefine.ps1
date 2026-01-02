@@ -1,0 +1,1 @@
+for ($i=1; $i -le 39; $i++) { python audio_agent.py $i }

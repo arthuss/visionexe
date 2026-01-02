@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Subjects Viewer</title>
+    <style>
+      :root {
+        --bg: #0f0f0f;
+        --panel: #1b1b1b;
+        --text: #f2f2f2;
+        --muted: #9aa0a6;
+        --accent: #70c1ff;
+      }
+      body {
+        margin: 0;
+        font-family: "Segoe UI", Tahoma, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+      }
+      header {
+        padding: 16px 20px;
+        background: #111;
+        border-bottom: 1px solid #2a2a2a;
+      }
+      header h1 {
+        margin: 0 0 8px 0;
+        font-size: 18px;
+      }
+      header .controls {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+      }
+      input, select {
+        background: var(--panel);
+        color: var(--text);
+        border: 1px solid #333;
+        padding: 6px 8px;
+        border-radius: 4px;
+      }
+      main {
+        display: grid;
+        grid-template-columns: 320px 1fr;
+        height: calc(100vh - 70px);
+      }
+      #list {
+        overflow: auto;
+        border-right: 1px solid #2a2a2a;
+        background: var(--panel);
+      }
+      #list .item {
+        padding: 10px 12px;
+        border-bottom: 1px solid #2a2a2a;
+        cursor: pointer;
+      }
+      #list .item:hover {
+        background: #242424;
+      }
+      #list .item .id {
+        color: var(--accent);
+        font-size: 12px;
+      }
+      #details {
+        padding: 16px 20px;
+        overflow: auto;
+      }
+      .tag {
+        display: inline-block;
+        padding: 2px 6px;
+        margin-right: 6px;
+        background: #2a2a2a;
+        border-radius: 4px;
+        font-size: 12px;
+        color: var(--muted);
+      }
+      .section {
+        margin-top: 18px;
+      }
+      .section h3 {
+        margin: 0 0 6px 0;
+        font-size: 14px;
+        color: var(--accent);
+      }
+      .muted {
+        color: var(--muted);
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 12px;
+      }
+      th, td {
+        padding: 6px;
+        border-bottom: 1px solid #2a2a2a;
+        text-align: left;
+      }
+      .state-block {
+        padding: 8px 0;
+        border-bottom: 1px solid #2a2a2a;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Subjects Viewer</h1>
+      <div class="controls">
+        <input id="search" type="text" placeholder="Search subjects..." />
+        <select id="typeFilter">
+          <option value="">All types</option>
+        </select>
+        <span id="count" class="muted"></span>
+      </div>
+    </header>
+    <main>
+      <div id="list"></div>
+      <div id="details">
+        <div class="muted">Select a subject to view details.</div>
+      </div>
+    </main>
+    <script>
+      const registryPath = "registry.json";
+      const profilesPath = "profiles.jsonl";
+      const occurrencesPath = "occurrences.jsonl";
+
+      const listEl = document.getElementById("list");
+      const detailsEl = document.getElementById("details");
+      const searchEl = document.getElementById("search");
+      const typeFilterEl = document.getElementById("typeFilter");
+      const countEl = document.getElementById("count");
+
+      const state = {
+        registry: [],
+        profiles: new Map(),
+        occurrences: [],
+        filtered: []
+      };
+
+      function parseJsonl(text) {
+        return text
+          .split("\n")
+          .map(line => line.trim())
+          .filter(Boolean)
+          .map(line => JSON.parse(line));
+      }
+
+      async function loadData() {
+        const [registryRes, profilesRes, occurrencesRes] = await Promise.all([
+          fetch(registryPath),
+          fetch(profilesPath),
+          fetch(occurrencesPath)
+        ]);
+        state.registry = await registryRes.json();
+        const profiles = parseJsonl(await profilesRes.text());
+        profiles.forEach(profile => state.profiles.set(profile.id, profile));
+        state.occurrences = parseJsonl(await occurrencesRes.text());
+        populateTypes();
+        applyFilters();
+      }
+
+      function populateTypes() {
+        const types = Array.from(new Set(state.registry.map(item => item.type))).sort();
+        types.forEach(type => {
+          const option = document.createElement("option");
+          option.value = type;
+          option.textContent = type;
+          typeFilterEl.appendChild(option);
+        });
+      }
+
+      function applyFilters() {
+        const query = searchEl.value.trim().toLowerCase();
+        const type = typeFilterEl.value;
+        state.filtered = state.registry.filter(item => {
+          const matchesQuery =
+            !query ||
+            item.id.toLowerCase().includes(query) ||
+            (item.name && item.name.toLowerCase().includes(query));
+          const matchesType = !type || item.type === type;
+          return matchesQuery && matchesType;
+        });
+        renderList();
+      }
+
+      function renderList() {
+        listEl.innerHTML = "";
+        state.filtered.forEach(item => {
+          const div = document.createElement("div");
+          div.className = "item";
+          div.innerHTML = `
+            <div class="id">${item.id}</div>
+            <div>${item.name || "(unnamed)"} - ${item.type}</div>
+            <div class="muted">occurrences: ${item.occurrence_count}${item.is_dynamic ? " - dynamic" : ""}</div>
+          `;
+          div.onclick = () => showDetails(item.id);
+          listEl.appendChild(div);
+        });
+        countEl.textContent = `${state.filtered.length} subjects`;
+      }
+
+      function showDetails(subjectId) {
+        const profile = state.profiles.get(subjectId);
+        if (!profile) {
+          detailsEl.innerHTML = "<div class=\"muted\">Profile not found.</div>";
+          return;
+        }
+        const occs = state.occurrences.filter(o => o.subject_id === subjectId).slice(0, 50);
+        const roles = (profile.roles || []).map(r => `<span class="tag">${r}</span>`).join("");
+        const traits = (profile.visual_traits || []).join(", ");
+        const changes = (profile.changes || []).join(", ");
+        const states = (profile.states || []).map(state => {
+          const segmentLabels = (state.segment_labels || []).join(", ");
+          const sceneLabels = (state.scene_labels || []).join(", ");
+          const notes = (state.notes || []).join(", ");
+          return `
+            <div class="state-block">
+              <strong>${state.label}</strong>
+              <div class="muted">chapters: ${state.chapter_start} - ${state.chapter_end}</div>
+              ${segmentLabels ? `<div class="muted">segments: ${segmentLabels}</div>` : ""}
+              ${sceneLabels ? `<div class="muted">scenes: ${sceneLabels}</div>` : ""}
+              ${notes ? `<div class="muted">notes: ${notes}</div>` : ""}
+            </div>
+          `;
+        }).join("");
+        detailsEl.innerHTML = `
+          <h2>${profile.name || subjectId}</h2>
+          <div class="section">
+            <span class="tag">${profile.type}</span>
+            <span class="tag">occurrences: ${profile.occurrence_count}</span>
+            <span class="tag">${profile.is_dynamic ? "dynamic" : "static"}</span>
+          </div>
+          <div class="section">
+            <h3>State Policy</h3>
+            <div>${profile.state_policy || "manual"}</div>
+          </div>
+          <div class="section">
+            <h3>Roles</h3>
+            ${roles || "<div class=\"muted\">None</div>"}
+          </div>
+          <div class="section">
+            <h3>Visual Traits</h3>
+            <div>${traits || "<span class=\"muted\">None</span>"}</div>
+          </div>
+          <div class="section">
+            <h3>Changes</h3>
+            <div>${changes || "<span class=\"muted\">None</span>"}</div>
+          </div>
+          <div class="section">
+            <h3>States</h3>
+            <div>${states || "<span class=\"muted\">None</span>"}</div>
+          </div>
+          <div class="section">
+            <h3>Occurrences (first 50)</h3>
+            ${renderOccurrences(occs)}
+          </div>
+        `;
+      }
+
+      function renderOccurrences(items) {
+        if (!items.length) {
+          return "<div class=\"muted\">No occurrences.</div>";
+        }
+        const rows = items.map(item => `
+          <tr>
+            <td>${item.chapter}</td>
+            <td>${item.segment_label}</td>
+            <td>${item.scene_label || ""}</td>
+            <td>${item.source_id}</td>
+            <td>${item.source_path || ""}</td>
+          </tr>
+        `).join("");
+        return `
+          <table>
+            <thead>
+              <tr>
+                <th>Chapter</th>
+                <th>Segment</th>
+                <th>Scene</th>
+                <th>Source ID</th>
+                <th>Source Path</th>
+              </tr>
+            </thead>
+            <tbody>${rows}</tbody>
+          </table>
+        `;
+      }
+
+      searchEl.addEventListener("input", applyFilters);
+      typeFilterEl.addEventListener("change", applyFilters);
+
+      loadData().catch(err => {
+        detailsEl.innerHTML = `<div class=\"muted\">Failed to load data: ${err}</div>`;
+      });
+    </script>
+  </body>
+</html>

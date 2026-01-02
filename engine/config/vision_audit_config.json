@@ -1,0 +1,15 @@
+{
+  "enabled": false,
+  "endpoint": "",
+  "api_key": "",
+  "model": "",
+  "timeout_sec": 120,
+  "max_tokens": 400,
+  "output_dir": "filmsets/{chapter}/vision",
+  "queue_filename": "vision_audit_queue.json",
+  "results_filename": "vision_audit.json",
+  "summary_filename": "vision_audit_summary.md",
+  "image_max_mb": 6,
+  "include_components": false,
+  "system_prompt": "You are a visual QA agent. Compare the image to the provided prompt and action. Return JSON: {\"pass\":true|false,\"score\":0-1,\"issues\":[...],\"notes\":\"...\"}."
+}

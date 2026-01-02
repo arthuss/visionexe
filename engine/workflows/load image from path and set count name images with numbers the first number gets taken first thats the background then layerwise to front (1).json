@@ -1,0 +1,98 @@
+{
+  "123": {
+    "inputs": {
+      "fit_on_add": true,
+      "show_preview": false,
+      "auto_refresh_after_generation": false,
+      "trigger": 115,
+      "node_id": "123",
+      "mainContainer": "",
+      "input_image": [
+        "135",
+        0
+      ]
+    },
+    "class_type": "LayerForgeNode",
+    "_meta": {
+      "title": "Layer Forge (Editor, outpaintintg, Canvas Node)"
+    }
+  },
+  "133": {
+    "inputs": {
+      "images": [
+        "123",
+        0
+      ]
+    },
+    "class_type": "PreviewImage",
+    "_meta": {
+      "title": "Preview Image"
+    }
+  },
+  "135": {
+    "inputs": {
+      "folder": [
+        "140",
+        0
+      ],
+      "width": 1024,
+      "height": 1024,
+      "keep_aspect_ratio": "crop",
+      "image_load_cap": [
+        "144",
+        3
+      ],
+      "start_index": 0,
+      "include_subfolders": false
+    },
+    "class_type": "LoadImagesFromFolderKJ",
+    "_meta": {
+      "title": "Load Images From Folder (KJ)"
+    }
+  },
+  "139": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "123",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  },
+  "140": {
+    "inputs": {
+      "text": "CHAR_GLITCH_001__r09"
+    },
+    "class_type": "Text Multiline",
+    "_meta": {
+      "title": "MASTER_images_folder"
+    }
+  },
+  "144": {
+    "inputs": {
+      "find": "",
+      "replace": "",
+      "text": [
+        "145",
+        0
+      ]
+    },
+    "class_type": "Text Find and Replace",
+    "_meta": {
+      "title": "Text Find and Replace"
+    }
+  },
+  "145": {
+    "inputs": {
+      "text": ""
+    },
+    "class_type": "Text Multiline",
+    "_meta": {
+      "title": "MASTER_images_count"
+    }
+  }
+}
