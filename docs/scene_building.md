@@ -84,6 +84,7 @@ Non-dynamic subjects: generate reference images + masks only.
 - Foley base: Hunyuan Foley per clip.
 - Detail FX: audioEditing workspace plus zeta_worker for small overlays (example: crickets).
 - Mix logic must respect: dialogue vs message vs internal monologue.
+ - Music planning is handled by the Drehbuch agent (multi-pass per chapter).
 
 ## 5.1) Multi-language audio
 
@@ -91,11 +92,10 @@ Non-dynamic subjects: generate reference images + masks only.
 - Generate TTS per language and keep separate tracks.
 - Use STT alignment when needed to sync timings across languages.
 
-## 5.2) Music cues (gap)
+## 5.2) Music cues (scripted)
 
-- No dedicated music planner worker yet.
-- Add a cue planner that reads director_intent + scene beats and outputs:
-  cue type, intensity, length, and MusicGen/Magnet prompts.
+- The Drehbuch agent writes music cues during its multi-pass planning.
+- Cues should specify type, intensity, length, and MusicGen/Magnet prompts.
 
 ## 6) Task planning (future)
 
