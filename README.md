@@ -56,5 +56,8 @@ Video docking:
 - Capture library lives under `stories/<story>/data/capture`.
 - `engine/workers/capture_library_builder.py` indexes capture clips into `subjects/pose_library.json` and `subjects/viseme_library.json`.
 
+Scene building:
+- `docs/scene_building.md` captures the timeline-scoped subject library, start image flow, camera logic, and audio pipeline assumptions.
+
 RAG (small):
 - `engine/scripts/run_rag_small.ps1` indexes `stories/template/data/raw` into Qdrant using `engine/scripts/rag_config_small.json`.
