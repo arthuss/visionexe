@@ -5,6 +5,7 @@ import os
 import re
 import time
 import urllib.request
+from pathlib import Path
 
 from visionexe_paths import ensure_dir, load_story_config, resolve_path
 
@@ -118,9 +119,6 @@ def call_ollama(prompt, model_name, ollama_url):
         with urllib.request.urlopen(req) as response:
             resp_json = json.loads(response.read().decode("utf-8"))
             main_response = resp_json.get("response", "")
-            reasoning = resp_json.get("reasoning_content", "")
-            if reasoning:
-                return f"--- REASONING ---\n{reasoning}\n\n--- ANALYSIS ---\n{main_response}"
             return main_response
     except Exception as e:
         log(f"Ollama request failed: {e}")
@@ -177,15 +175,20 @@ def iter_segments(chapter_dir, segment_label):
 
 def build_prompt(text_content):
     return (
-        "Extract all actors (names, visual traits, changes) and scenes (location, action/beat).\n"
-        "Goal: production consistency so characters and places are recognizable.\n\n"
+        "Extract all actors, props, environments, and scenes.\n"
+        "Goal: production consistency so characters, props, and places are recognizable.\n\n"
         "Rules:\n"
         "- Use only information from the text.\n"
-        "- Do not invent new actors/places/props/scenes.\n"
+        "- Do not invent new actors/props/places/scenes.\n"
         "- If details are missing, omit or mark unknown.\n"
         "- Preserve verse/beat order.\n\n"
+        "Output JSON keys:\n"
+        "- actors: [{name, visualTraits, changes, role}]\n"
+        "- props: [{name, visualTraits, changes, role}]\n"
+        "- environments: [{name, visualTraits, changes, role}]\n"
+        "- scenes: [{title, location, action, actorsInvolved}]\n\n"
         f"Text:\n{text_content[:12000]}\n\n"
-        "Respond as structured JSON."
+        "Return JSON only."
     )
 
 
@@ -205,7 +208,11 @@ def main():
         return
 
     data_root = resolve_path(story_config.get("data_root"), repo_root)
-    progress_csv = args.progress_csv or str(Path(data_root) / "analysis" / "analysis_progress_python.csv")
+    progress_csv = args.progress_csv or story_config.get("analysis_progress_csv_path")
+    if not progress_csv:
+        progress_csv = str(Path(data_root) / "analysis" / "analysis_progress_python.csv")
+    else:
+        progress_csv = str(resolve_path(progress_csv, repo_root))
 
     segment_label = story_config.get("segment_label", "segment")
     segment_type = story_config.get("segment_type", "segment")

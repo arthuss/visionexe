@@ -11,10 +11,11 @@ Story layout:
 - Subjects: `stories/<story>/subjects/` (registry, profiles, occurrences, asset_bible.json).
 
 Core data flow (minimal):
-1. `analysis_master_builder.py` -> `data/analysis/analysis_master.jsonl`
-2. `subject_registry_builder.py` -> subjects registry + profiles + occurrences + scenes
-3. `asset_bible_builder.py` -> `subjects/asset_bible.json`
-4. `scene_instruction_builder.py` -> `subjects/scene_instructions.jsonl` (REGIE_JSON extraction)
+1. `worker_llm_analysis.py` -> analysis CSV at `analysis_progress_csv_path` (story_config).
+2. `analysis_master_builder.py` -> `data/analysis/analysis_master.jsonl`
+3. `subject_registry_builder.py` -> subjects registry + profiles + occurrences + scenes
+4. `asset_bible_builder.py` -> `subjects/asset_bible.json`
+5. `scene_instruction_builder.py` -> `subjects/scene_instructions.jsonl` (REGIE_JSON extraction)
 
 Ge'ez subjects (optional):
 - `engine/workers/subjects_from_geez.py` -> `subjects/subject_candidates_geez.json` + `subjects/subject_occurrences_geez.jsonl`

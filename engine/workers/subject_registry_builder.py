@@ -6,7 +6,7 @@ from pathlib import Path
 from visionexe_paths import ensure_dir, load_story_config, resolve_path
 
 
-JSON_BLOCK_RE = re.compile(r"```json\s*(\{.*?\})\s*```", re.DOTALL)
+JSON_BLOCK_RE = re.compile(r"```(?:json)?\s*([\[{].*?[\]}])\s*```", re.DOTALL | re.IGNORECASE)
 
 TYPE_PREFIX = {
     "character": "CHAR",
@@ -47,6 +47,26 @@ def extract_json_blocks(text):
         raw = match.group(1)
         try:
             blocks.append(json.loads(raw))
+        except json.JSONDecodeError:
+            continue
+    if blocks:
+        return blocks
+    stripped = text.strip()
+    if not stripped:
+        return blocks
+    try:
+        blocks.append(json.loads(stripped))
+        return blocks
+    except json.JSONDecodeError:
+        pass
+    decoder = json.JSONDecoder()
+    for idx, ch in enumerate(stripped):
+        if ch not in "{[":
+            continue
+        try:
+            payload, _ = decoder.raw_decode(stripped[idx:])
+            blocks.append(payload)
+            return blocks
         except json.JSONDecodeError:
             continue
     return blocks

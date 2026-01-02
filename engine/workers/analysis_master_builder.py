@@ -8,7 +8,7 @@ from pathlib import Path
 from visionexe_paths import ensure_dir, load_story_config, resolve_path
 
 
-JSON_BLOCK_RE = re.compile(r"```json\s*(\{.*?\})\s*```", re.DOTALL)
+JSON_BLOCK_RE = re.compile(r"```(?:json)?\s*([\[{].*?[\]}])\s*```", re.DOTALL | re.IGNORECASE)
 CHAPTER_RE = re.compile(r"chapter_(\d+)", re.IGNORECASE)
 VERSE_RE = re.compile(r"verse_(\d+)", re.IGNORECASE)
 SEGMENT_RE = re.compile(r"segment_(\d+)", re.IGNORECASE)
@@ -33,6 +33,26 @@ def extract_json_blocks(text):
         raw = match.group(1)
         try:
             blocks.append(json.loads(raw))
+        except json.JSONDecodeError:
+            continue
+    if blocks:
+        return blocks
+    stripped = text.strip()
+    if not stripped:
+        return blocks
+    try:
+        blocks.append(json.loads(stripped))
+        return blocks
+    except json.JSONDecodeError:
+        pass
+    decoder = json.JSONDecoder()
+    for idx, ch in enumerate(stripped):
+        if ch not in "{[":
+            continue
+        try:
+            payload, _ = decoder.raw_decode(stripped[idx:])
+            blocks.append(payload)
+            return blocks
         except json.JSONDecodeError:
             continue
     return blocks
@@ -102,7 +122,7 @@ def main():
     parser = argparse.ArgumentParser(description="Build analysis_master.jsonl from CSV + analysis outputs.")
     parser.add_argument("--story-root", help="Story root path (defaults to engine_config default_story_root).")
     parser.add_argument("--story-config", help="Path to story_config.json (overrides story-root).")
-    parser.add_argument("--csv", help="CSV input path (defaults to data/raw/first_analysis_progress_python.csv).")
+    parser.add_argument("--csv", help="CSV input path (defaults to story_config analysis_progress_csv_path).")
     parser.add_argument("--analysis-dir", help="Optional analysis directory to scan for analysis_llm files.")
     parser.add_argument("--output", help="Output JSONL path (defaults to story_config analysis_master_path).")
     parser.add_argument("--include-raw", action="store_true", help="Include raw LLM content in output.")
@@ -116,7 +136,9 @@ def main():
         story_config_path=args.story_config,
     )
 
-    csv_path = args.csv or str(Path(story_config["data_root"]) / "raw" / "first_analysis_progress_python.csv")
+    csv_path = args.csv or story_config.get("analysis_progress_csv_path")
+    if not csv_path:
+        csv_path = str(Path(story_config["data_root"]) / "raw" / "first_analysis_progress_python.csv")
     csv_path = resolve_path(csv_path, repo_root)
     if not csv_path.exists():
         raise SystemExit(f"CSV not found: {csv_path}")
