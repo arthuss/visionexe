@@ -1,0 +1,82 @@
+```json
+{
+  "actors": [
+    {
+      "name": "Creation",
+      "visualTraits": null,
+      "changes": null,
+      "role": "subject"
+    },
+    {
+      "name": "Water",
+      "visualTraits": null,
+      "changes": null,
+      "role": "subject"
+    },
+    {
+      "name": "People",
+      "visualTraits": null,
+      "changes": null,
+      "role": "object"
+    },
+    {
+      "name": "Mind",
+      "visualTraits": null,
+      "changes": null,
+      "role": "subject"
+    },
+    {
+      "name": "Earth",
+      "visualTraits": null,
+      "changes": null,
+      "role": "object"
+    }
+  ],
+  "props": [
+    {
+      "name": "Rain",
+      "visualTraits": null,
+      "changes": null,
+      "role": "prop"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Sky",
+      "visualTraits": null,
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Creation speaks to People about Water",
+      "location": null,
+      "action": "Creation addresses People, mentioning Water.",
+      "actorsInvolved": ["Creation", "People", "Water"]
+    },
+    {
+      "title": "Mind creates Water",
+      "location": null,
+      "action": "Mind (the mind) creates Water.",
+      "actorsInvolved": ["Mind", "Water"]
+    },
+    {
+      "title": "Water's Voice for Earth",
+      "location": null,
+      "action": "Water's voice is likened to a song for Earth.",
+      "actorsInvolved": ["Water", "Earth"]
+    },
+    {
+      "title": "Rain from Sky",
+      "location": "Sky",
+      "action": "Rain falls from the Sky.",
+      "actorsInvolved": ["Rain", "Sky"]
+    }
+  ],
+  "blocking": {
+    "anchors": [],
+    "paths": []
+  }
+}
+```

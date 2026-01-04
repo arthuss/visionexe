@@ -1,0 +1,45 @@
+```json
+{
+  "actors": [],
+  "props": [],
+  "environments": [
+    {
+      "name": "earth",
+      "role": "setting"
+    },
+    {
+      "name": "rain",
+      "role": "setting"
+    },
+    {
+      "name": "water",
+      "role": "setting"
+    },
+    {
+      "name": "day",
+      "role": "setting"
+    },
+    {
+      "name": "light",
+      "role": "setting"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Natural Cycle",
+      "location": "earth",
+      "action": "rain falls, water flows, day brings justice, light is sacred",
+      "actorsInvolved": []
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "earth_anchor",
+        "description": "earth surface"
+      }
+    ],
+    "paths": []
+  }
+}
+```

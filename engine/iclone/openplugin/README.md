@@ -26,8 +26,8 @@ New-Item -ItemType Junction `
   -Target "C:\Users\sasch\visionexe\engine\iclone\openplugin\visionexe_md_probe"
 ```
 
-Now launch via **Plugins > Python > visionexe_remote_server** or
-**visionexe_md_probe**.
+Now launch via **Plugins > VisionExe > Start VisionExe Remote Server** or
+**Run VisionExe MD Probe**.
 
 You can also use the helper installer:
 
@@ -43,4 +43,4 @@ New-Item -ItemType Junction `
   -Target "C:\Users\sasch\visionexe\engine\iclone\openplugin\visionexe_content_indexer"
 ```
 
-Launch via **Plugins > Python > visionexe_content_indexer**.
+Launch via **Plugins > VisionExe > Run VisionExe Content Indexer**.

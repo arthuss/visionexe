@@ -1,0 +1,81 @@
+```json
+{
+  "actors": [
+    {
+      "name": "ነፋሳተ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "wind"
+    },
+    {
+      "name": "ወርኢኩ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "እብነ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ርባዕተ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ወለጽንዐ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    }
+  ],
+  "props": [],
+  "environments": [
+    {
+      "name": "ምድር",
+      "visualTraits": null,
+      "changes": null,
+      "role": "earth"
+    },
+    {
+      "name": "ሰማይ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "sky"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Wind's Journey",
+      "location": "from ምድር to ሰማይ",
+      "action": "ነፋሳተ moves from the earth to the sky",
+      "actorsInvolved": ["ነፋሳተ"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "anchor1",
+        "description": "ምድር (earth)"
+      },
+      {
+        "id": "anchor2",
+        "description": "ሰማይ (sky)"
+      }
+    ],
+    "paths": [
+      {
+        "actor": "ነፋሳተ",
+        "start_anchor": "anchor1",
+        "end_anchor": "anchor2",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": null
+      }
+    ]
+  }
+}
+```

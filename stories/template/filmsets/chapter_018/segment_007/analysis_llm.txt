@@ -1,0 +1,54 @@
+```json
+{
+  "actors": [
+    {
+      "name": "እግዚብ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "deity"
+    },
+    {
+      "name": "ሰንፔር",
+      "visualTraits": null,
+      "changes": null,
+      "role": "spirit"
+    }
+  ],
+  "props": [],
+  "environments": [
+    {
+      "name": "ሰማይ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "sky"
+    },
+    {
+      "name": "ወድማሑ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "gate"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Chant Segment 7",
+      "location": "unknown",
+      "action": "Praise to God",
+      "actorsInvolved": ["እግዚብ", "ሰንፔር"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "A1",
+        "description": "sky"
+      },
+      {
+        "id": "A2",
+        "description": "gate"
+      }
+    ],
+    "paths": []
+  }
+}
+```

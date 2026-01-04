@@ -11,7 +11,11 @@ Story layout:
 - Subjects: `stories/<story>/subjects/` (registry, profiles, occurrences, asset_bible.json).
 
 Core data flow (minimal):
+0. `setup_filmsets_from_geez.py` -> scaffold `filmsets/chapter_###/segment_###/scene_###/timeline_##/` from Ge'ez verse JSONL.
+   - Run: `python engine/workers/setup_filmsets_from_geez.py --story-root stories/template --include-chapter-text`
 1. `worker_llm_analysis.py` -> analysis CSV at `analysis_progress_csv_path` (story_config).
+   - Use `--use-gemini` to run via Gemini CLI (model from `--model` or `GEMINI_MODEL`).
+   - Analysis JSON can include `blocking` anchors + paths when staging is implied.
 2. `analysis_master_builder.py` -> `data/analysis/analysis_master.jsonl`
 3. `subject_registry_builder.py` -> subjects registry + profiles + occurrences + scenes
 4. `asset_bible_builder.py` -> `subjects/asset_bible.json`
@@ -43,6 +47,17 @@ Launchers:
 Workspace registry:
 - `engine/config/workspaces.json` tracks external Windows/WSL workspaces and entry points.
 - `docs/workspaces.md` summarizes usage and notes.
+
+Reallusion library:
+- `engine/workers/reallusion_library_indexer.py` indexes Reallusion assets (Motion Director, Motion Plus, iTalk, paths, terrains).
+- Defaults to `C:\Users\Public\Documents\Reallusion` (override with `--library-root` or `REALLUSION_LIBRARY_ROOT`).
+- Output defaults to `<library-root>/reallusion_library_index.json`.
+
+iClone bridge:
+- `engine/iclone/iclone_remote_server.py` runs inside iClone (RLPy) and exposes a local HTTP API.
+- `engine/workers/iclone_remote_client.py` sends actions (apply A2F JSON, export iTalk).
+- `engine/workers/iclone_lipsync_runner.py` runs a full audio->clip->iTalk pass (LoadVocal or A2F JSON).
+- Usage notes in `docs/iclone_bridge.md`.
 
 Workflow catalog:
 - `engine/config/workflow_catalog.json` lists agentic workflow mappings.

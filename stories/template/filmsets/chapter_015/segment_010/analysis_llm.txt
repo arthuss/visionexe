@@ -1,0 +1,75 @@
+```json
+{
+  "actors": [
+    {
+      "name": "Spirit of the Sky",
+      "visualTraits": ["intangible", "luminous"],
+      "changes": [],
+      "role": "primary"
+    }
+  ],
+  "props": [],
+  "environments": [
+    {
+      "name": "Sky",
+      "visualTraits": [],
+      "changes": [],
+      "role": "ambient"
+    },
+    {
+      "name": "Earth",
+      "visualTraits": [],
+      "changes": [],
+      "role": "ambient"
+    },
+    {
+      "name": "Mähedirihomu",
+      "visualTraits": [],
+      "changes": [],
+      "role": "gate/threshold"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Entry of the Spirit",
+      "location": "Mähedirihomu",
+      "action": "Spirit of the Sky moves from the sky through the gate into the earth",
+      "actorsInvolved": ["Spirit of the Sky"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "sky",
+        "description": "the upper celestial realm"
+      },
+      {
+        "id": "gate",
+        "description": "Mähedirihomu, the threshold between sky and earth"
+      },
+      {
+        "id": "earth",
+        "description": "the terrestrial realm"
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Spirit of the Sky",
+        "start_anchor": "sky",
+        "end_anchor": "gate",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "movement implied by text"
+      },
+      {
+        "actor": "Spirit of the Sky",
+        "start_anchor": "gate",
+        "end_anchor": "earth",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "movement implied by text"
+      }
+    ]
+  }
+}
+```

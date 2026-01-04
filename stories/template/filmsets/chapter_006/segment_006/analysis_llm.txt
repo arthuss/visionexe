@@ -1,0 +1,87 @@
+```json
+{
+  "actors": [
+    {
+      "name": "ርሞን",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "መሐሉ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ድማሑ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    }
+  ],
+  "props": [],
+  "environments": [
+    {
+      "name": "ርዲስ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "ለደብረ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "location"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Inside Ridi",
+      "location": "ርዲስ",
+      "action": "Characters enter or are inside",
+      "actorsInvolved": ["ርሞን", "መሐሉ", "ድማሑ"]
+    },
+    {
+      "title": "Rimon Leaves",
+      "location": "ርዲስ",
+      "action": "Rimon exits the interior",
+      "actorsInvolved": ["ርሞን"]
+    },
+    {
+      "title": "Rimon and Mema Halu",
+      "location": "ርዲስ",
+      "action": "Rimon and Mema Halu together",
+      "actorsInvolved": ["ርሞን", "መሐሉ"]
+    },
+    {
+      "title": "Rimon Goes to House",
+      "location": "ለደብረ",
+      "action": "Rimon moves to the house",
+      "actorsInvolved": ["ርሞን"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "inside_ridi",
+        "description": "Inside the location ርዲስ"
+      },
+      {
+        "id": "house",
+        "description": "The house ለደብረ"
+      }
+    ],
+    "paths": [
+      {
+        "actor": "ርሞን",
+        "start_anchor": "inside_ridi",
+        "end_anchor": "house",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Leaves interior to house"
+      }
+    ]
+  }
+}
+```

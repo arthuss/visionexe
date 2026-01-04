@@ -1,0 +1,85 @@
+```json
+{
+  "actors": [
+    {
+      "name": "Rii",
+      "visualTraits": null,
+      "changes": null,
+      "role": "character"
+    },
+    {
+      "name": "Zaziel",
+      "visualTraits": null,
+      "changes": null,
+      "role": "character"
+    },
+    {
+      "name": "Ametsa",
+      "visualTraits": null,
+      "changes": null,
+      "role": "character"
+    },
+    {
+      "name": "Ile",
+      "visualTraits": null,
+      "changes": null,
+      "role": "character"
+    }
+  ],
+  "props": [],
+  "environments": [
+    {
+      "name": "Mider",
+      "visualTraits": null,
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "Hibu'ate alem",
+      "visualTraits": null,
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "Semayat",
+      "visualTraits": null,
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Chapter 9 Segment 6",
+      "location": null,
+      "action": "Rii Zegebre Zaziel Zeme; Ametsa lo ametsa di; Mider woghada hibu'ate alem; Ile yitgera semayat.",
+      "actorsInvolved": ["Rii", "Zaziel", "Ametsa", "Ile"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "anchor1",
+        "description": "Mider (earth)"
+      },
+      {
+        "id": "anchor2",
+        "description": "Hibu'ate alem (world)"
+      },
+      {
+        "id": "anchor3",
+        "description": "Semayat (heaven)"
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Ile",
+        "start_anchor": "anchor1",
+        "end_anchor": "anchor3",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Ile moves from earth to heaven as implied by \"Ile yitgera semayat\"."
+      }
+    ]
+  }
+}
+```

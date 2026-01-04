@@ -28,6 +28,8 @@ stories/<story>/subjects/timeline_##/library/<SUBJECT_ID>/
 
 - Do not filter early extraction. Capture *everything* so later steps can
   decide what is needed.
+- Extract blocking when the text implies staging (anchors + paths with
+  motion + duration hints).
 - A verse (or segment) is the atomic unit for evaluation and scene health.
 - Each verse should be treated as a 3-act unit (setup, turn, resolve) and
   must have assets + regie + audio planned.

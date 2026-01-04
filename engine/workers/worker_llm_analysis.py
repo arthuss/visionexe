@@ -3,6 +3,8 @@ import csv
 import json
 import os
 import re
+import shutil
+import subprocess
 import time
 import urllib.request
 from pathlib import Path
@@ -42,6 +44,7 @@ def parse_args():
     parser.add_argument("--progress-csv", help="Override progress CSV path.")
     parser.add_argument("--model", help="Override model name.")
     parser.add_argument("--ollama-url", help="Override Ollama URL.")
+    parser.add_argument("--use-gemini", action="store_true", help="Use Gemini CLI instead of Ollama.")
     return parser.parse_args()
 
 
@@ -125,6 +128,65 @@ def call_ollama(prompt, model_name, ollama_url):
         return None
 
 
+def resolve_gemini_command():
+    gemini_path = shutil.which("gemini") or shutil.which("gemini.cmd")
+    if gemini_path:
+        return [gemini_path]
+
+    npx_path = shutil.which("npx") or shutil.which("npx.cmd")
+    if npx_path:
+        return [npx_path, "-y", "@google/gemini-cli"]
+
+    return None
+
+
+def parse_gemini_response(raw_output):
+    if not raw_output:
+        return None
+    json_start = raw_output.find("{")
+    if json_start == -1:
+        return raw_output.strip()
+    json_text = raw_output[json_start:]
+    json_end = json_text.rfind("}")
+    if json_end != -1:
+        json_text = json_text[:json_end + 1]
+    try:
+        payload = json.loads(json_text)
+        response = payload.get("response")
+        if isinstance(response, str):
+            return response.strip()
+    except json.JSONDecodeError:
+        return raw_output.strip()
+    return None
+
+
+def call_gemini(prompt, model=None):
+    cmd = resolve_gemini_command()
+    if not cmd:
+        log("Gemini CLI nicht gefunden (gemini/npx).")
+        return None
+    cmd = cmd + ["--output-format", "json"]
+    if model:
+        cmd += ["--model", model]
+    try:
+        process = subprocess.Popen(
+            cmd,
+            stdin=subprocess.PIPE,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            text=True,
+            encoding="utf-8",
+        )
+        stdout, stderr = process.communicate(input=prompt)
+        if process.returncode != 0:
+            log(f"Gemini Fehler: {stderr}")
+            return None
+        return parse_gemini_response(stdout)
+    except OSError as exc:
+        log(f"Gemini Start fehlgeschlagen: {exc}")
+        return None
+
+
 def find_text_file(target_dir):
     for name in TRIGGER_FILES:
         path = os.path.join(target_dir, name)
@@ -177,7 +239,8 @@ def build_prompt(text_content, phase_limit):
     return (
         "Extract all actors, props, environments, and scenes.\n"
         "Goal: production consistency so characters, props, and places are recognizable.\n"
-        "Dynamic vs static is based on CHANGE OVER TIME (not just presence).\n\n"
+        "Dynamic vs static is based on CHANGE OVER TIME (not just presence).\n"
+        "Also extract blocking (anchors + movement paths) when the text implies staging.\n\n"
         "Rules:\n"
         "- Use only information from the text.\n"
         "- Do not invent new actors/props/places/scenes.\n"
@@ -186,12 +249,16 @@ def build_prompt(text_content, phase_limit):
         f"- Limit changes to at most {phase_limit} sequential phases; merge minor shifts into the closest phase.\n"
         "- Use stable phase labels across segments (e.g., 'Phase 1: pre-tech', 'Phase 2: mid', 'Phase 3: full').\n"
         "- If details are missing, omit or mark unknown.\n"
-        "- Preserve verse/beat order.\n\n"
+        "- Preserve verse/beat order.\n"
+        "- Blocking anchors: use only locations implied by the text (altar, gate, ridge, center).\n"
+        "- Blocking paths: only include explicit movement; use motion = walk/run/hover/stand/unknown.\n"
+        "- If duration is not implied, set duration_sec to null.\n\n"
         "Output JSON keys:\n"
         "- actors: [{name, visualTraits, changes, role}]\n"
         "- props: [{name, visualTraits, changes, role}]\n"
         "- environments: [{name, visualTraits, changes, role}]\n"
         "- scenes: [{title, location, action, actorsInvolved}]\n\n"
+        "- blocking: {anchors: [{id, description}], paths: [{actor, start_anchor, end_anchor, motion, duration_sec, notes}]}\n\n"
         f"Text:\n{text_content[:12000]}\n\n"
         "Return JSON only."
     )
@@ -199,7 +266,9 @@ def build_prompt(text_content, phase_limit):
 
 def main():
     args = parse_args()
+    use_gemini = bool(args.use_gemini)
     model_name = args.model or MODEL_NAME
+    gemini_model = args.model or os.environ.get("GEMINI_MODEL", "")
     ollama_url = args.ollama_url or OLLAMA_API_URL
 
     story_config, _, repo_root = load_story_config(
@@ -226,7 +295,10 @@ def main():
     target_chapters = [int(ch) for ch in args.chapters] if args.chapters else []
     completed = load_completed(progress_csv, args.per_segment)
 
-    log(f"Model: {model_name}")
+    if use_gemini:
+        log(f"LLM: Gemini ({gemini_model or 'default'})")
+    else:
+        log(f"LLM: Ollama ({model_name})")
     log(f"Filmsets: {filmsets_root}")
     log(f"Progress CSV: {progress_csv}")
 
@@ -274,7 +346,10 @@ def main():
 
                 prompt = build_prompt(text_content, phase_limit)
                 start_time = time.time()
-                result = call_ollama(prompt, model_name, ollama_url)
+                if use_gemini:
+                    result = call_gemini(prompt, gemini_model)
+                else:
+                    result = call_ollama(prompt, model_name, ollama_url)
                 duration = time.time() - start_time
 
                 if result:
@@ -312,7 +387,10 @@ def main():
 
             prompt = build_prompt(text_content, phase_limit)
             start_time = time.time()
-            result = call_ollama(prompt, model_name, ollama_url)
+            if use_gemini:
+                result = call_gemini(prompt, gemini_model)
+            else:
+                result = call_ollama(prompt, model_name, ollama_url)
             duration = time.time() - start_time
 
             if result:

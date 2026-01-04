@@ -1,0 +1,125 @@
+```json
+{
+  "actors": [
+    {
+      "name": "Moon",
+      "visualTraits": null,
+      "changes": null,
+      "role": "natural element"
+    },
+    {
+      "name": "Fire",
+      "visualTraits": null,
+      "changes": null,
+      "role": "natural element"
+    },
+    {
+      "name": "Wind",
+      "visualTraits": null,
+      "changes": null,
+      "role": "natural element"
+    },
+    {
+      "name": "Sun",
+      "visualTraits": null,
+      "changes": null,
+      "role": "natural element"
+    }
+  ],
+  "props": [
+    {
+      "name": "Path",
+      "visualTraits": null,
+      "changes": null,
+      "role": "abstract"
+    },
+    {
+      "name": "Message",
+      "visualTraits": null,
+      "changes": null,
+      "role": "abstract"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Earth",
+      "visualTraits": null,
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "Sky",
+      "visualTraits": null,
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "Temple Interior",
+      "visualTraits": null,
+      "changes": null,
+      "role": "location"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Moon at Night of Earth",
+      "location": "Earth",
+      "action": "Moon is present at night",
+      "actorsInvolved": ["Moon"]
+    },
+    {
+      "title": "I am for the Fire",
+      "location": "Fire",
+      "action": "Moon is for the fire",
+      "actorsInvolved": ["Fire"]
+    },
+    {
+      "title": "Moon inside the Temple",
+      "location": "Temple Interior",
+      "action": "Moon is inside the temple",
+      "actorsInvolved": ["Moon"]
+    },
+    {
+      "title": "Sky with Fire",
+      "location": "Sky",
+      "action": "Fire present in the sky",
+      "actorsInvolved": ["Fire"]
+    },
+    {
+      "title": "Wind",
+      "location": "Wind",
+      "action": "Wind present",
+      "actorsInvolved": ["Wind"]
+    },
+    {
+      "title": "Path, Message",
+      "location": "Path",
+      "action": "Message present on the path",
+      "actorsInvolved": ["Path", "Message"]
+    },
+    {
+      "title": "Path, Sun",
+      "location": "Path",
+      "action": "Sun present on the path",
+      "actorsInvolved": ["Path", "Sun"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "Earth",
+        "description": "Earth surface"
+      },
+      {
+        "id": "Sky",
+        "description": "Sky above"
+      },
+      {
+        "id": "TempleInterior",
+        "description": "Inside the temple"
+      }
+    ],
+    "paths": []
+  }
+}
+```

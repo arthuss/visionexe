@@ -1,0 +1,91 @@
+```json
+{
+  "actors": [
+    {
+      "name": "ፃዕር",
+      "visualTraits": null,
+      "changes": null,
+      "role": "actor"
+    }
+  ],
+  "props": [
+    {
+      "name": "እሳት",
+      "visualTraits": null,
+      "changes": null,
+      "role": "prop"
+    }
+  ],
+  "environments": [
+    {
+      "name": "ወውእቱ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "environment"
+    },
+    {
+      "name": "መዋዕል",
+      "visualTraits": null,
+      "changes": null,
+      "role": "environment"
+    },
+    {
+      "name": "መትሕተ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "environment"
+    },
+    {
+      "name": "ወቤተ ሞቅሕ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "environment"
+    },
+    {
+      "name": "ለዓለመ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "environment"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Line 1",
+      "location": ["ወውእቱ", "መዋዕል"],
+      "action": "Wind and day are present",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Line 2",
+      "location": ["መትሕተ"],
+      "action": "Something is brought inside the house",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Line 3",
+      "location": ["ወቤተ ሞቅሕ"],
+      "action": "Fire and bird are present",
+      "actorsInvolved": ["ፃዕር"]
+    },
+    {
+      "title": "Line 4",
+      "location": ["ለዓለመ"],
+      "action": "Wind blows to the world",
+      "actorsInvolved": []
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "inside_house",
+        "description": "inside the house (መትሕተ)"
+      },
+      {
+        "id": "outside_world",
+        "description": "outside world (ለዓለመ)"
+      }
+    ],
+    "paths": []
+  }
+}
+```

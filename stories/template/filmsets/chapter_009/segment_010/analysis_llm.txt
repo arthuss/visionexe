@@ -1,0 +1,138 @@
+```json
+{
+  "actors": [
+    {
+      "name": "We",
+      "visualTraits": null,
+      "changes": null,
+      "role": "speaker"
+    }
+  ],
+  "props": [
+    {
+      "name": "breaths",
+      "visualTraits": null,
+      "changes": null,
+      "role": "concept"
+    },
+    {
+      "name": "gate",
+      "visualTraits": null,
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "mountain path",
+      "visualTraits": null,
+      "changes": null,
+      "role": "location"
+    }
+  ],
+  "environments": [
+    {
+      "name": "sky",
+      "visualTraits": null,
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "earth",
+      "visualTraits": null,
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Lament of breaths",
+      "location": "earth",
+      "action": "We lament the breaths of death",
+      "actorsInvolved": ["We"]
+    },
+    {
+      "title": "Approach to death",
+      "location": "death",
+      "action": "We approach death",
+      "actorsInvolved": ["We"]
+    },
+    {
+      "title": "Ascension to sky",
+      "location": "sky",
+      "action": "We ascend to the sky",
+      "actorsInvolved": ["We"]
+    },
+    {
+      "title": "Crossing the gate",
+      "location": "gate",
+      "action": "We cross the gate",
+      "actorsInvolved": ["We"]
+    },
+    {
+      "title": "Journey along the mountain path",
+      "location": "mountain path",
+      "action": "We travel the mountain path",
+      "actorsInvolved": ["We"]
+    },
+    {
+      "title": "Return to earth",
+      "location": "earth",
+      "action": "We return to the earth",
+      "actorsInvolved": ["We"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "anchor_earth",
+        "description": "earth"
+      },
+      {
+        "id": "anchor_sky",
+        "description": "sky"
+      },
+      {
+        "id": "anchor_gate",
+        "description": "gate"
+      },
+      {
+        "id": "anchor_mountain",
+        "description": "mountain path"
+      }
+    ],
+    "paths": [
+      {
+        "actor": "We",
+        "start_anchor": "anchor_earth",
+        "end_anchor": "anchor_sky",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "implied ascent"
+      },
+      {
+        "actor": "We",
+        "start_anchor": "anchor_sky",
+        "end_anchor": "anchor_gate",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "implied crossing"
+      },
+      {
+        "actor": "We",
+        "start_anchor": "anchor_gate",
+        "end_anchor": "anchor_mountain",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "implied travel"
+      },
+      {
+        "actor": "We",
+        "start_anchor": "anchor_mountain",
+        "end_anchor": "anchor_earth",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "implied return"
+      }
+    ]
+  }
+}
+```

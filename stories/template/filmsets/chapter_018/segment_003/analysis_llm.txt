@@ -1,0 +1,54 @@
+```json
+{
+  "actors": [
+    {
+      "name": "wind",
+      "visualTraits": "invisible, moving air",
+      "changes": null,
+      "role": "environmental element"
+    },
+    {
+      "name": "breath",
+      "visualTraits": "invisible, subtle",
+      "changes": null,
+      "role": "environmental element"
+    }
+  ],
+  "props": [],
+  "environments": [
+    {
+      "name": "sky",
+      "visualTraits": "vast, blue",
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "earth",
+      "visualTraits": "ground, terrestrial",
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Chant of Sky and Wind",
+      "location": "sky/earth",
+      "action": "chanting",
+      "actorsInvolved": ["wind", "breath"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "anchor_sky",
+        "description": "sky"
+      },
+      {
+        "id": "anchor_earth",
+        "description": "earth"
+      }
+    ],
+    "paths": []
+  }
+}
+```
