@@ -86,9 +86,13 @@ def _collect_files(root_key, root_folder, scope, recursive, max_files):
     return entries
 
 
-def main():
+def get_content_index(config_overrides=None):
     config, config_path = load_config()
     settings = config.get("content_index", {})
+    
+    if config_overrides:
+        settings.update(config_overrides)
+
     root_keys = settings.get("root_keys") or []
     include_default = bool(settings.get("include_default", True))
     include_custom = bool(settings.get("include_custom", True))
@@ -136,8 +140,7 @@ def main():
                 except Exception:
                     pass
         
-        # Strategy B: Fallback to folder name append if Enum failed or produced no results (and it's a "custom" name like MotionDirector?)
-        # Actually, only fallback if Enum was NOT found. If Enum found but folder empty, that's valid.
+        # Strategy B: Fallback to folder name append if Enum failed or produced no results
         if enum_value is None:
             missing_enums.append(name)
             # Try path fallback
@@ -155,10 +158,10 @@ def main():
                     fallback_found = True
             
             if fallback_found:
-                # Remove from missing if we found it via fallback
-                missing_enums.pop()
+                if name in missing_enums:
+                    missing_enums.remove(name)
 
-    payload = {
+    return {
         "ok": True,
         "config_path": str(config_path),
         "root_keys": root_keys,
@@ -167,6 +170,14 @@ def main():
         "total_files": len(results),
         "entries": results,
     }
+
+
+def main():
+    payload = get_content_index()
+    
+    # Check if output_path is defined in the config used
+    config, _ = load_config()
+    output_path = config.get("content_index", {}).get("output_path")
 
     output = json.dumps(payload, indent=2, ensure_ascii=False)
     print(output)

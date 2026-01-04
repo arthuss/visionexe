@@ -53,5 +53,7 @@ def load_story_config(
     return config, story_root_path, repo_root
 
 
-def ensure_dir(path: Path):
-    path.mkdir(parents=True, exist_ok=True)
+def ensure_dir(path: Path | str | None):
+    if not path:
+        return
+    Path(path).mkdir(parents=True, exist_ok=True)

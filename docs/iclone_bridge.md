@@ -23,7 +23,7 @@ Config file (recommended for iClone scripts, since no CLI args):
 
 If you want menu entries instead of browsing for scripts, use the wrappers in:
 `engine/iclone/openplugin/`. See `engine/iclone/openplugin/README.md` for the
-one-time setup.
+one-time setup. After restart, look under `Plugins > VisionExe`.
 
 Quick install helper:
 
@@ -155,6 +155,21 @@ Sets camera parameters directly.
       "focus": 200.0,
       "range": 50.0
     }
+  }
+}
+```
+
+**`list_content`**
+
+Dynamically indexes content (template/custom) via the remote server.
+
+```json
+{
+  "action": "list_content",
+  "payload": {
+    "root_keys": ["MotionDirector", "Props"],
+    "max_files": 100,
+    "recursive": true
   }
 }
 ```

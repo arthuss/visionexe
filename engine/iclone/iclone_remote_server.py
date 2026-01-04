@@ -11,6 +11,8 @@ import RLPy
 sys.path.append(str(Path(__file__).resolve().parent))
 from iclone_config import load_config  # noqa: E402
 
+import content_indexer  # noqa: E402
+
 
 DEFAULT_HOST = "127.0.0.1"
 DEFAULT_PORT = 8123
@@ -675,6 +677,12 @@ class ICloneRemoteHandler(BaseHTTPRequestHandler):
             if not camera:
                 return self._send_json(404, {"ok": False, "error": "No camera found."})
             result = _set_camera_params(camera, data)
+            status = 200 if result.get("ok") else 400
+            return self._send_json(status, result)
+
+        if action == "list_content":
+            # Pass payload directly as config overrides
+            result = content_indexer.get_content_index(data)
             status = 200 if result.get("ok") else 400
             return self._send_json(status, result)
 
