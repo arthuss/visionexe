@@ -1,0 +1,22 @@
+{
+  "remote": {
+    "host": "127.0.0.1",
+    "port": 8123
+  },
+  "md_probe": {
+    "run_command_test": false,
+    "start_md": false,
+    "avatar": "CC3_Base_Plus",
+    "output_path": "C:/temp/iclone_md_probe.json"
+  },
+  "content_index": {
+    "root_keys": [
+      "MotionDirector"
+    ],
+    "include_default": true,
+    "include_custom": true,
+    "recursive": true,
+    "max_files": null,
+    "output_path": null
+  }
+}
