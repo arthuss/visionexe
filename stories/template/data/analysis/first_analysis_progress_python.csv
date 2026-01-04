@@ -8246,3 +8246,46 @@ ChapterID,SegmentLabel,SegmentType,Status,SourcePath,RawContent
 ```"
 39,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\chapter_039\segment_001\segment.txt,"{""actors"":[],""props"":[],""environments"":[],""scenes"":[],""blocking"":{""anchors"":[],""paths"":[]}}"
 39,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\chapter_039\segment_002\segment.txt,"{""actors"":[],""props"":[],""environments"":[],""scenes"":[],""blocking"":{""anchors"":[],""paths"":[]}}"
+39,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\chapter_039\segment_003\segment.txt,"```json
+{
+  ""actors"": [],
+  ""props"": [],
+  ""environments"": [],
+  ""scenes"": [],
+  ""blocking"": {
+    ""anchors"": [],
+    ""paths"": []
+  }
+}
+```"
+39,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\chapter_039\segment_004\segment.txt,"```json
+{
+  ""actors"": [],
+  ""props"": [],
+  ""environments"": [
+    {
+      ""name"": ""altar"",
+      ""visualTraits"": [],
+      ""changes"": [],
+      ""role"": ""place of worship""
+    }
+  ],
+  ""scenes"": [
+    {
+      ""title"": ""Invocation"",
+      ""location"": ""altar"",
+      ""action"": ""chanting"",
+      ""actorsInvolved"": []
+    }
+  ],
+  ""blocking"": {
+    ""anchors"": [
+      {
+        ""id"": ""altar"",
+        ""description"": ""altar""
+      }
+    ],
+    ""paths"": []
+  }
+}
+```"
