@@ -30,7 +30,7 @@ def _load_qt():
     except ImportError:
         try:
             from PySide2 import QtWidgets
-            from PySide2.shiboken2 import wrapInstance
+            from shiboken2 import wrapInstance
             return QtWidgets, wrapInstance
         except ImportError:
             return None, None
