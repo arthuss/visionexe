@@ -1,50 +1,119 @@
 param (
     [int]$Start = 2,
     [int]$End = 108,
-    [string]$Model = ""
+    [string]$Model = "",
+    [string]$StoryRoot = "",
+    [string]$StoryConfig = "",
+    [switch]$Resume
 )
 
-# 1. SICHERHEITSGURT: Sicherstellen, dass wir im Ordner des Scripts arbeiten
-# Das verhindert, dass Python Pfade relativ zu System32 oder deinem User-Profil sucht.
-Set-Location -Path $PSScriptRoot
+$ScriptRoot = $PSScriptRoot
+$EngineRoot = Split-Path -Parent $ScriptRoot
+$RepoRoot = Split-Path -Parent $EngineRoot
+
+# Work from repo root so relative paths are stable.
+Set-Location -Path $RepoRoot
 
 Write-Host "--- EXEGET:OS BATCH ENGINE ---" -ForegroundColor Cyan
 Write-Host "Verarbeite Kapitel $Start bis $End"
-Write-Host "Arbeitsverzeichnis: $PSScriptRoot" -ForegroundColor Gray
+Write-Host "Arbeitsverzeichnis: $RepoRoot" -ForegroundColor Gray
 
-# 2. UTF-8 Unterstützung für die Konsole (wichtig für die Ge'ez Zeichen/Umlaute)
+# UTF-8 output for console.
 $OutputEncoding = [System.Text.Encoding]::UTF8
+
+if ($StoryConfig) {
+    $StoryConfigPath = (Resolve-Path -LiteralPath $StoryConfig).Path
+    if (-not $StoryRoot) {
+        $StoryRoot = Split-Path -Parent (Split-Path -Parent $StoryConfigPath)
+    }
+} else {
+    if (-not $StoryRoot) {
+        $engineConfigPath = Join-Path $RepoRoot "engine\\config\\engine_config.json"
+        $engineConfig = Get-Content -Path $engineConfigPath -Raw | ConvertFrom-Json
+        $StoryRoot = $engineConfig.default_story_root
+    }
+    if (-not [System.IO.Path]::IsPathRooted($StoryRoot)) {
+        $StoryRoot = Join-Path $RepoRoot $StoryRoot
+    }
+    $StoryConfigPath = Join-Path $StoryRoot "config\\story_config.json"
+}
+
+if (-not (Test-Path -LiteralPath $StoryConfigPath)) {
+    Write-Host "FEHLER: story_config.json nicht gefunden: $StoryConfigPath" -ForegroundColor Red
+    exit 1
+}
+
+$storyConfig = Get-Content -Path $StoryConfigPath -Raw | ConvertFrom-Json
+$filmsetsRoot = $storyConfig.filmsets_root
+if (-not $filmsetsRoot) {
+    $filmsetsRoot = Join-Path $StoryRoot "filmsets"
+}
+if (-not [System.IO.Path]::IsPathRooted($filmsetsRoot)) {
+    $filmsetsRoot = Join-Path $RepoRoot $filmsetsRoot
+}
+$chapterLabel = if ($storyConfig.chapter_label) { $storyConfig.chapter_label } else { "chapter" }
+$chapterPad = if ($storyConfig.chapter_index_padding) { [int]$storyConfig.chapter_index_padding } else { 3 }
+
+# If chapter_label is missing, try to infer it from existing filmset folders.
+if (-not $storyConfig.chapter_label) {
+    $storyProbe = Join-Path $filmsetsRoot ("story_{0}" -f (1).ToString(("D{0}" -f $chapterPad)))
+    $chapterProbe = Join-Path $filmsetsRoot ("chapter_{0}" -f (1).ToString(("D{0}" -f $chapterPad)))
+    if (Test-Path -LiteralPath $storyProbe) {
+        $chapterLabel = "story"
+    } elseif (Test-Path -LiteralPath $chapterProbe) {
+        $chapterLabel = "chapter"
+    }
+}
+
+Write-Host "StoryConfig: $StoryConfigPath" -ForegroundColor DarkGray
+Write-Host "Filmsets:   $filmsetsRoot" -ForegroundColor DarkGray
+Write-Host "Label/Pad:  $chapterLabel / $chapterPad" -ForegroundColor DarkGray
+
+$drehbuchScript = Join-Path $RepoRoot "engine\\workers\\drehbuch.py"
 
 for ($i = $Start; $i -le $End; $i++) {
     Write-Host "`n================================================================" -ForegroundColor Yellow
     Write-Host "   KAPITEL $i / $End" -ForegroundColor Yellow
     Write-Host "================================================================" -ForegroundColor Yellow
-    
-    # Prüfen, ob das Kapitel-Verzeichnis überhaupt existiert, bevor wir Python rufen
-    $chapterFolder = "filmsets\chapter_$( $i.ToString('000') )"
-    if (-not (Test-Path $chapterFolder)) {
-        Write-Host "SKIPPING: Ordner $chapterFolder nicht gefunden." -ForegroundColor Magenta
-        continue
+
+    $chapterFolder = Join-Path $filmsetsRoot ("{0}_{1}" -f $chapterLabel, $i.ToString(("D{0}" -f $chapterPad)))
+    if (-not (Test-Path -LiteralPath $chapterFolder)) {
+        if ($chapterLabel -ne "chapter") {
+            $fallbackFolder = Join-Path $filmsetsRoot ("chapter_{0}" -f $i.ToString('000'))
+            if (Test-Path -LiteralPath $fallbackFolder) {
+                $chapterFolder = $fallbackFolder
+            } else {
+                Write-Host "SKIPPING: Ordner $chapterFolder nicht gefunden." -ForegroundColor Magenta
+                continue
+            }
+        } else {
+            Write-Host "SKIPPING: Ordner $chapterFolder nicht gefunden." -ForegroundColor Magenta
+            continue
+        }
     }
 
-    # Führe das Python-Skript aus
-    # Wir nutzen --% um sicherzugehen, dass Argumente sauber an Python gehen
-    if ($Model) {
-        python drehbuch.py $i --model $Model
-    } else {
-        python drehbuch.py $i
+    if ($Resume) {
+        $outputPath = Join-Path $chapterFolder "DREHBUCH_HOLLYWOOD.md"
+        if (Test-Path -LiteralPath $outputPath) {
+            Write-Host "SKIPPING (resume): $outputPath bereits vorhanden." -ForegroundColor DarkGray
+            continue
+        }
     }
-    
+
+    if ($Model) {
+        python $drehbuchScript $i --model $Model --story-config $StoryConfigPath
+    } else {
+        python $drehbuchScript $i --story-config $StoryConfigPath
+    }
+
     if ($LASTEXITCODE -ne 0) {
         Write-Host "!!! FEHLER in Kapitel $i !!!" -ForegroundColor Red
-        Write-Host "Der Agent hat abgebrochen. Drücke eine Taste zum Weitermachen oder STRG+C zum Abbrechen..." -ForegroundColor White
-        # Kurze Pause für den User zum Lesen, aber kein Hard-Stop
+        Write-Host "Der Agent hat abgebrochen. Druecke eine Taste zum Weitermachen oder STRG+C zum Abbrechen..." -ForegroundColor White
         Start-Sleep -Seconds 3
     } else {
         Write-Host "Erfolg: Kapitel $i abgeschlossen." -ForegroundColor Green
     }
-    
-    # Abkühlzeit für die API (verhindert Rate-Limits bei Gemini)
+
     Start-Sleep -Seconds 2
 }
 

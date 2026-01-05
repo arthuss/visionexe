@@ -4,8 +4,9 @@ import json
 import argparse
 import subprocess
 import shutil
+from visionexe_paths import load_story_config, resolve_path
 
-DEFAULT_BASE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "filmsets")
+DEFAULT_BASE_PATH = ""
 
 
 def load_text(path):
@@ -233,27 +234,56 @@ def process_script(script_text, concept_excerpt, overwrite=False, dry_run=False)
     return "\n---\n".join(updated_blocks), changed
 
 
-def list_chapters(base_path, chapter_args):
+def list_chapters(base_path, chapter_args, chapter_label, chapter_padding):
     if chapter_args:
-        return [f"chapter_{ch:03d}" for ch in chapter_args]
+        return [f"{chapter_label}_{ch:0{chapter_padding}d}" for ch in chapter_args]
     candidates = [
         d for d in os.listdir(base_path)
-        if d.startswith("chapter_") and os.path.isdir(os.path.join(base_path, d))
+        if d.startswith(f"{chapter_label}_") and os.path.isdir(os.path.join(base_path, d))
     ]
-    return sorted(candidates)
+    if candidates:
+        return sorted(candidates)
+    if chapter_label != "chapter":
+        fallback = [
+            d for d in os.listdir(base_path)
+            if d.startswith("chapter_") and os.path.isdir(os.path.join(base_path, d))
+        ]
+        if fallback:
+            return sorted(fallback)
+    return []
 
 
 def main():
     parser = argparse.ArgumentParser(description="Generate REGIE_JSON blocks for screenplay scenes.")
     parser.add_argument("chapters", nargs="*", type=int, help="Chapter numbers (e.g. 1 2 3).")
     parser.add_argument("--base-path", default=DEFAULT_BASE_PATH)
+    parser.add_argument("--story-config", default=None, help="Path to story_config.json.")
+    parser.add_argument("--chapter-label", default=None, help="Prefix for chapter folders (defaults from story_config).")
+    parser.add_argument("--chapter-padding", type=int, default=None, help="Zero padding width for chapter folders.")
     parser.add_argument("--overwrite", action="store_true", help="Overwrite existing REGIE blocks.")
     parser.add_argument("--dry-run", action="store_true", help="Show output without writing.")
     args = parser.parse_args()
 
-    chapters = list_chapters(args.base_path, args.chapters)
+    base_path = args.base_path
+    chapter_label = args.chapter_label
+    chapter_padding = args.chapter_padding
+    if args.story_config or not base_path:
+        story_config, _, repo_root = load_story_config(story_config_path=args.story_config)
+        filmsets_root = resolve_path(story_config.get("filmsets_root"), repo_root)
+        if filmsets_root:
+            base_path = str(filmsets_root)
+        if not chapter_label:
+            chapter_label = story_config.get("chapter_label", "chapter")
+        if chapter_padding is None:
+            chapter_padding = int(story_config.get("chapter_index_padding", 3))
+    if not chapter_label:
+        chapter_label = "chapter"
+    if chapter_padding is None:
+        chapter_padding = 3
+
+    chapters = list_chapters(base_path, args.chapters, chapter_label, chapter_padding)
     for chapter in chapters:
-        chapter_path = os.path.join(args.base_path, chapter)
+        chapter_path = os.path.join(base_path, chapter)
         script_path = os.path.join(chapter_path, "DREHBUCH_HOLLYWOOD.md")
         if not os.path.exists(script_path):
             print(f"[WARN] Skip {chapter}: no script found.")

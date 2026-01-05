@@ -1,0 +1,117 @@
+```json
+{
+  "actors": [
+    {
+      "name": "እግዚእየ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "deity"
+    },
+    {
+      "name": "እመላእት",
+      "visualTraits": null,
+      "changes": null,
+      "role": "angel"
+    },
+    {
+      "name": "ወነዮው",
+      "visualTraits": null,
+      "changes": null,
+      "role": "entity"
+    },
+    {
+      "name": "ቡየ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "entity"
+    },
+    {
+      "name": "ኅለፋ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "entity"
+    },
+    {
+      "name": "ወየኀልፋ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "entity"
+    },
+    {
+      "name": "ወምስለ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "entity"
+    },
+    {
+      "name": "ንሳት",
+      "visualTraits": null,
+      "changes": null,
+      "role": "entity"
+    },
+    {
+      "name": "ኀጢተ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "entity"
+    }
+  ],
+  "props": [
+    {
+      "name": "ሥርዓተ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "system"
+    }
+  ],
+  "environments": [
+    {
+      "name": "ሰማይ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "sky"
+    },
+    {
+      "name": "ትውልዱ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "generation"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Invocation",
+      "location": "ሰማይ",
+      "action": "invoke and request the bringing of entities and system",
+      "actorsInvolved": [
+        "እግዚእየ",
+        "እመላእት",
+        "ወነዮው",
+        "ቡየ",
+        "ኅለፋ",
+        "ወየኀልፋ",
+        "ወምስለ",
+        "ንሳት",
+        "ኀጢተ"
+      ]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "sky",
+        "description": "the sky"
+      },
+      {
+        "id": "generation",
+        "description": "the generation"
+      },
+      {
+        "id": "system",
+        "description": "the system"
+      }
+    ],
+    "paths": []
+  }
+}
+```

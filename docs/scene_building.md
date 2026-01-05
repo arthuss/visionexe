@@ -61,6 +61,12 @@ Goal: a perfect start image for every requested scene.
 - Non-dynamic subjects: generate minimal reference images + masks.
 - Start image is the anchor for all downstream video.
 
+## 3.2) Pose extraction (SAM3 BVH -> CC4)
+
+- Extract a pose from the start image (SAM3 BVH) and map it to CC4/iClone.
+- Use `engine/workers/pose_bvh_importer.py` to parse `skeleton.bvh` and create a pose JSON.
+- Keep upper-body poses flagged so the runtime can apply a default lower-body pose.
+
 ## 3.1) LoRA shooting order (dynamic subjects)
 
 1) Generate style seeds (20+).

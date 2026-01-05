@@ -8,8 +8,9 @@ import time
 import urllib.request
 import urllib.error
 import sys
+from visionexe_paths import load_story_config, resolve_path, resolve_repo_root
 
-DEFAULT_BASE_PATH = r"C:\Users\sasch\henoch\filmsets"
+DEFAULT_BASE_PATH = ""
 DEFAULT_VOICE_PROFILES = os.path.join(
     os.path.dirname(os.path.abspath(__file__)),
     "audio_voice_profiles.json",
@@ -703,6 +704,8 @@ def write_voice_meta(output_dir, slug, actor_key, profile, monologue_path, speak
 def run(
     chapter_num,
     base_path,
+    chapter_label,
+    chapter_padding,
     output_dir,
     voice_profiles_path,
     default_actor,
@@ -721,7 +724,7 @@ def run(
     skip_existing,
     no_monologue,
 ):
-    chapter_folder = f"chapter_{chapter_num:03d}"
+    chapter_folder = f"{chapter_label}_{chapter_num:0{chapter_padding}d}"
     chapter_path = os.path.join(base_path, chapter_folder)
     script_path = os.path.join(chapter_path, "DREHBUCH_HOLLYWOOD.md")
     if not os.path.exists(script_path):
@@ -973,6 +976,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Parse audio-related blocks from screenplay.")
     parser.add_argument("chapter", type=int, help="Chapter number (e.g. 74)")
     parser.add_argument("--base-path", default=DEFAULT_BASE_PATH)
+    parser.add_argument("--story-config", default=None, help="Path to story_config.json.")
+    parser.add_argument("--chapter-label", default=None, help="Prefix for chapter folders (defaults from story_config).")
+    parser.add_argument("--chapter-padding", type=int, default=None, help="Zero padding width for chapter folders.")
     parser.add_argument("--output-dir", default=None)
     parser.add_argument("--voice-profiles", default=DEFAULT_VOICE_PROFILES)
     parser.add_argument("--default-actor", default=DEFAULT_ACTOR_KEY)
@@ -1006,9 +1012,28 @@ if __name__ == "__main__":
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
+    base_path = args.base_path
+    chapter_label = args.chapter_label
+    chapter_padding = args.chapter_padding
+    if args.story_config or not base_path:
+        story_config, _, repo_root = load_story_config(story_config_path=args.story_config)
+        filmsets_root = resolve_path(story_config.get("filmsets_root"), repo_root)
+        if filmsets_root:
+            base_path = str(filmsets_root)
+        if not chapter_label:
+            chapter_label = story_config.get("chapter_label", "chapter")
+        if chapter_padding is None:
+            chapter_padding = int(story_config.get("chapter_index_padding", 3))
+    if not chapter_label:
+        chapter_label = "chapter"
+    if chapter_padding is None:
+        chapter_padding = 3
+
     ok = run(
         chapter_num=args.chapter,
-        base_path=args.base_path,
+        base_path=base_path,
+        chapter_label=chapter_label,
+        chapter_padding=chapter_padding,
         output_dir=args.output_dir,
         voice_profiles_path=args.voice_profiles,
         default_actor=args.default_actor,

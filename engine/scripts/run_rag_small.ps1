@@ -1,6 +1,6 @@
 param(
-    [string]$Root = "C:\\Users\\sasch\\visionexe\\stories\\template\\data\\raw",
-    [string]$Config = "$PSScriptRoot\\rag_config_small.json",
+    [string]$Root = "",
+    [string]$Config = "engine\\scripts\\rag_config_small.json",
     [string]$Extensions = "md,json,txt,csv",
     [int]$BatchSize = 8,
     [int]$MaxChars = 1800,
@@ -8,12 +8,49 @@ param(
     [switch]$Reset,
     [switch]$KeepCheckpoint,
     [switch]$NoResume,
-    [switch]$DryRun
+    [switch]$DryRun,
+    [string]$StoryRoot = "",
+    [string]$StoryConfig = ""
 )
 
 $ErrorActionPreference = "Stop"
-Set-Location -Path $PSScriptRoot
+$ScriptRoot = $PSScriptRoot
+$EngineRoot = Split-Path -Parent $ScriptRoot
+$RepoRoot = Split-Path -Parent $EngineRoot
+Set-Location -Path $RepoRoot
 $OutputEncoding = [System.Text.Encoding]::UTF8
+
+if (-not $Root) {
+    if ($StoryConfig) {
+        $StoryConfigPath = (Resolve-Path -LiteralPath $StoryConfig).Path
+    } else {
+        if (-not $StoryRoot) {
+            $engineConfigPath = Join-Path $RepoRoot "engine\\config\\engine_config.json"
+            $engineConfig = Get-Content -Path $engineConfigPath -Raw | ConvertFrom-Json
+            $StoryRoot = $engineConfig.default_story_root
+        }
+        if (-not [System.IO.Path]::IsPathRooted($StoryRoot)) {
+            $StoryRoot = Join-Path $RepoRoot $StoryRoot
+        }
+        $StoryConfigPath = Join-Path $StoryRoot "config\\story_config.json"
+    }
+
+    if (Test-Path -LiteralPath $StoryConfigPath) {
+        $storyConfig = Get-Content -Path $StoryConfigPath -Raw | ConvertFrom-Json
+        $dataRoot = $storyConfig.data_root
+        if ($dataRoot) {
+            if (-not [System.IO.Path]::IsPathRooted($dataRoot)) {
+                $dataRoot = Join-Path $RepoRoot $dataRoot
+            }
+            $Root = Join-Path $dataRoot "raw"
+        }
+    }
+}
+
+if (-not $Root) {
+    Write-Host "Root folder missing. Provide -Root or ensure story_config.json has data_root." -ForegroundColor Red
+    exit 1
+}
 
 function Test-DockerReady {
     try {
@@ -69,15 +106,28 @@ if (-not $existing) {
     Write-Host "Qdrant container already running." -ForegroundColor Green
 }
 
+$configPath = ""
+if ($Config) {
+    if ([System.IO.Path]::IsPathRooted($Config)) {
+        $configPath = $Config
+    } else {
+        $configPath = Join-Path $RepoRoot $Config
+    }
+    if (-not (Test-Path -LiteralPath $configPath)) {
+        $configPath = ""
+    }
+}
+
+$ragIndexer = Join-Path $RepoRoot "engine\\workers\\rag_indexer_folder.py"
 $args = @(
-    "rag_indexer_folder.py",
+    $ragIndexer,
     "--root", $Root,
-    "--config", $Config,
     "--extensions", $Extensions,
     "--batch-size", $BatchSize,
     "--max-chars", $MaxChars,
     "--overlap", $Overlap
 )
+if ($configPath) { $args += @("--config", $configPath) }
 if ($Reset) { $args += "--reset" }
 if ($KeepCheckpoint) { $args += "--keep-checkpoint" }
 if ($NoResume) { $args += "--no-resume" }

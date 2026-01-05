@@ -1,0 +1,58 @@
+```json
+{
+  "actors": [
+    {
+      "name": "the king",
+      "visualTraits": "unknown",
+      "changes": null,
+      "role": "central figure"
+    }
+  ],
+  "props": [
+    {
+      "name": "altar",
+      "visualTraits": "unknown",
+      "changes": null,
+      "role": "central prop"
+    }
+  ],
+  "environments": [
+    {
+      "name": "gate",
+      "visualTraits": "unknown",
+      "changes": null,
+      "role": "location"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Chant at gate and altar",
+      "location": "gate/altar",
+      "action": "chanting",
+      "actorsInvolved": ["the king"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "anchor1",
+        "description": "gate"
+      },
+      {
+        "id": "anchor2",
+        "description": "altar"
+      }
+    ],
+    "paths": [
+      {
+        "actor": "the king",
+        "start_anchor": "anchor1",
+        "end_anchor": "anchor2",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "unknown"
+      }
+    ]
+  }
+}
+```

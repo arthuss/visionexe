@@ -1,0 +1,45 @@
+```json
+{
+  "actors": [
+    {
+      "name": "God",
+      "visualTraits": [],
+      "changes": [],
+      "role": "divine"
+    }
+  ],
+  "props": [],
+  "environments": [
+    {
+      "name": "Wind",
+      "visualTraits": ["moving"],
+      "changes": [],
+      "role": "environment"
+    },
+    {
+      "name": "Water",
+      "visualTraits": ["fluid"],
+      "changes": [],
+      "role": "environment"
+    },
+    {
+      "name": "Light",
+      "visualTraits": ["bright"],
+      "changes": [],
+      "role": "environment"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Wind, Water, Light",
+      "location": "unknown",
+      "action": "Descriptive verse about wind, water, light, and God",
+      "actorsInvolved": ["God"]
+    }
+  ],
+  "blocking": {
+    "anchors": [],
+    "paths": []
+  }
+}
+```

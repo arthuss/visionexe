@@ -5,10 +5,10 @@ import argparse
 import subprocess
 import time
 import unicodedata
+from visionexe_paths import load_story_config, resolve_path, resolve_repo_root
 
 # Configuration
 ROOT_PATH = os.path.dirname(os.path.abspath(__file__))
-FILMSETS_PATH = os.path.join(ROOT_PATH, "filmsets")
 GENERATE_SCRIPT = os.path.join(ROOT_PATH, "generate.py")
 
 # Workflows
@@ -24,8 +24,14 @@ LORA_DEFAULT_ROOTS = [
 ]
 MAX_LORA_SLOTS = 2
 
-def get_chapters(chapter_arg):
-    all_chapters = sorted([d for d in os.listdir(FILMSETS_PATH) if d.startswith("chapter_")])
+def get_chapters(chapter_arg, filmsets_path, chapter_label, chapter_padding):
+    all_chapters = sorted(
+        [d for d in os.listdir(filmsets_path) if d.startswith(f"{chapter_label}_")]
+    )
+    if not all_chapters and chapter_label != "chapter":
+        all_chapters = sorted(
+            [d for d in os.listdir(filmsets_path) if d.startswith("chapter_")]
+        )
     
     if chapter_arg == "all":
         return all_chapters
@@ -37,12 +43,12 @@ def get_chapters(chapter_arg):
         if '-' in part:
             start, end = map(int, part.split('-'))
             for i in range(start, end + 1):
-                ch_name = f"chapter_{i:03d}"
+                ch_name = f"{chapter_label}_{i:0{chapter_padding}d}"
                 if ch_name in all_chapters:
                     selected.append(ch_name)
         else:
             ch_num = int(part)
-            ch_name = f"chapter_{ch_num:03d}"
+            ch_name = f"{chapter_label}_{ch_num:0{chapter_padding}d}"
             if ch_name in all_chapters:
                 selected.append(ch_name)
                 
@@ -73,6 +79,13 @@ def normalize_timeline_tag(value):
         return f"r{number:02d}"
     cleaned = re.sub(r"[^a-z0-9]+", "", raw)
     return cleaned or None
+
+def extract_chapter_number(chapter_name, chapter_label):
+    for prefix in (f"{chapter_label}_", "chapter_"):
+        if chapter_name.startswith(prefix):
+            return chapter_name[len(prefix):]
+    match = re.search(r"(\\d+)$", chapter_name)
+    return match.group(1) if match else chapter_name
 
 
 def load_trigger_map(path=LORA_TRIGGER_FILE):
@@ -499,22 +512,62 @@ def main():
     parser.add_argument("--image-workflow", default=WORKFLOW_IMAGE, help="Workflow for image prompts")
     parser.add_argument("--video-workflow", default=WORKFLOW_VIDEO, help="Workflow for video prompts")
     parser.add_argument("--timeline", help="Timeline tag (e.g. 1 or r01) appended to output filename")
+    parser.add_argument("--story-root", default=None, help="Story root folder (defaults from engine_config).")
+    parser.add_argument("--story-config", default=None, help="Path to story_config.json.")
     
     args = parser.parse_args()
-    
-    trigger_map = load_trigger_map()
-    phase_aliases = load_phase_aliases()
-    phase_index = load_phase_index()
-    lora_roots = args.lora_root or LORA_DEFAULT_ROOTS
+
+    story_config = None
+    repo_root = resolve_repo_root()
+    if args.story_config or args.story_root:
+        story_config, _, repo_root = load_story_config(
+            story_root=args.story_root,
+            story_config_path=args.story_config,
+        )
+
+    filmsets_path = os.path.join(ROOT_PATH, "filmsets")
+    chapter_label = "chapter"
+    chapter_padding = 3
+    trigger_file = LORA_TRIGGER_FILE
+    training_set_file = LORA_TRAINING_SET_FILE
+    phase_alias_file = LORA_PHASE_ALIAS_FILE
+    lora_roots_default = LORA_DEFAULT_ROOTS
+
+    if story_config:
+        filmsets_root = resolve_path(story_config.get("filmsets_root"), repo_root)
+        if filmsets_root:
+            filmsets_path = str(filmsets_root)
+        chapter_label = story_config.get("chapter_label", chapter_label)
+        chapter_padding = int(story_config.get("chapter_index_padding", chapter_padding))
+        trigger_path = resolve_path(story_config.get("lora_triggers_path"), repo_root)
+        if trigger_path:
+            trigger_file = str(trigger_path)
+        training_path = resolve_path(story_config.get("lora_training_set_path"), repo_root)
+        if training_path:
+            training_set_file = str(training_path)
+        alias_path = resolve_path(story_config.get("lora_phase_aliases_path"), repo_root)
+        if alias_path:
+            phase_alias_file = str(alias_path)
+        lora_training_root = resolve_path(story_config.get("lora_training_root"), repo_root)
+        if lora_training_root:
+            lora_roots_default = [
+                os.path.join(str(lora_training_root), "loras"),
+                os.path.join(str(lora_training_root), "actors"),
+            ]
+
+    trigger_map = load_trigger_map(trigger_file)
+    phase_aliases = load_phase_aliases(phase_alias_file)
+    phase_index = load_phase_index(training_set_file)
+    lora_roots = args.lora_root or lora_roots_default
     lora_index = [] if args.no_lora else build_lora_index(lora_roots)
 
-    chapters = get_chapters(args.chapter)
+    chapters = get_chapters(args.chapter, filmsets_path, chapter_label, chapter_padding)
     print(f"Scanning {len(chapters)} chapters...")
     
     all_tasks = []
     
     for ch in chapters:
-        script_path = os.path.join(FILMSETS_PATH, ch, "DREHBUCH_HOLLYWOOD.md")
+        script_path = os.path.join(filmsets_path, ch, "DREHBUCH_HOLLYWOOD.md")
         if os.path.exists(script_path):
             tasks = parse_script(script_path, ch, args.image_workflow, args.video_workflow)
             all_tasks.extend(tasks)
@@ -534,7 +587,7 @@ def main():
 
     for i, task in enumerate(all_tasks):
         # Construct ID: CH003_SC1.1_IMG
-        ch_num = task['chapter'].replace("chapter_", "")
+        ch_num = extract_chapter_number(task['chapter'], chapter_label)
         chapter_num = int(ch_num) if ch_num.isdigit() else None
         task_id = f"CH{ch_num}_SC{task['scene']}_{task['type'].upper()}"
         if timeline_tag:

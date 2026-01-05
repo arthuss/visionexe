@@ -1,0 +1,45 @@
+```json
+{
+  "actors": [
+    {
+      "name": "ፀሐይ",
+      "visualTraits": ["radiant", "celestial"],
+      "changes": null,
+      "role": "source of light"
+    }
+  ],
+  "props": [
+    {
+      "name": "ብርሃና",
+      "visualTraits": ["glowing"],
+      "changes": null,
+      "role": "illumination"
+    }
+  ],
+  "environments": [
+    {
+      "name": "ሰማይ",
+      "visualTraits": ["vast", "azure"],
+      "changes": null,
+      "role": "space"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Chapter 78 Segment 11",
+      "location": "ሰማይ",
+      "action": "Sun shines, light radiates inside the sky",
+      "actorsInvolved": ["ፀሐይ", "ብርሃና"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "center_sky",
+        "description": "center of the sky"
+      }
+    ],
+    "paths": []
+  }
+}
+```

@@ -1,0 +1,83 @@
+```json
+{
+  "actors": [
+    {
+      "name": "ወርኢኩ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "primary speaker / initiator"
+    },
+    {
+      "name": "ሰይፍ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "secondary speaker / holy figure"
+    },
+    {
+      "name": "እግዚእ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "deity invoked"
+    }
+  ],
+  "props": [
+    {
+      "name": "ባግዕ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "gate"
+    },
+    {
+      "name": "ቤቱ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "house"
+    },
+    {
+      "name": "ገጹ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "face / visage"
+    }
+  ],
+  "environments": [],
+  "scenes": [
+    {
+      "title": "Invocation and Movement to Gate and House",
+      "location": "Gate and House",
+      "action": "The chant calls for the speaker to approach the gate, then enter the house, while invoking the holy figure and the deity.",
+      "actorsInvolved": ["ወርኢኩ", "ሰይፍ", "እግዚእ"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "gate",
+        "description": "the gate (ባግዕ)"
+      },
+      {
+        "id": "house",
+        "description": "the house (ቤቱ)"
+      }
+    ],
+    "paths": [
+      {
+        "actor": "ወርኢኩ",
+        "start_anchor": null,
+        "end_anchor": "gate",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "implied by the phrase 'ወግብእዎ' (go to the gate)"
+      },
+      {
+        "actor": "ወርኢኩ",
+        "start_anchor": "gate",
+        "end_anchor": "house",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "implied by the phrase 'ቤቱ' (enter the house)"
+      }
+    ]
+  }
+}
+```

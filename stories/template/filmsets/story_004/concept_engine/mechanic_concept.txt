@@ -1,0 +1,54 @@
+CONCEPT: THERMAL_STRESS_TEST // SECTOR_HAGAY
+
+1. BIO-INJECTION:
+Henoch's epidermis initiates an emergency cooling protocol. Subdermal capillaries flush with a bioluminescent blue coolant fluid (`COOLANT_CYCLE_ACTIVE`), visible through translucent skin layers. His ocular apertures contract to pinholes, deploying polarized gold-tinted lenses (`SOLAR_SHIELD_DEPLOYED`) to filter the excessive lux output from the orbital emitter.
+
+2. MESH-BREAK:
+The environment suffers from `THERMAL_THROTTLING`. The geometry of the rocky terrain vibrates not from heat haze, but from vertex displacement errors caused by the simulation engine running at maximum load. Textures on the ground flicker between high-res rock and low-poly wireframe as the rendering budget is consumed by the light source.
+
+3. PACING-STRATEGIE:
+Oppressive and static. Long, high-exposure shots that feel "too bright" and uncomfortable. Minimal camera movement, simulating the lethargy of extreme heat. The editing rhythm is slow, heavy, interrupted only by digital artifact glitches when the "sensor" is blinded by the light source.
+
+4. AUDIO-DESIGN:
+The "burning earth" is sonically represented by the deafening, low-frequency drone of a massive fusion reactor containment field under stress. Layered over this is the high-pitched whine of cooling fans spinning at max RPM and the digital crackle of Geiger counters detecting radiation spikes. No organic wind; only industrial ventilation.
+
+5. ÜBERGÄNGE:
+Transition from normal vision to `THERMAL_DATA_VIEW`. The screen washes out in white (overexposure), then snaps into a false-color infrared spectrum (Ironbow palette) where the ground glows white-hot and "shade" areas appear as cool deep blues. This is a UI-overlay boot sequence.
+
+6. FRAMEWORK & TIMING:
+Total Duration: ~60 Seconds.
+Clip Count: 14 Clips (High detail on environmental stress).
+Structure:
+- Clips 1-3: Establishing the "Sun" (Orbital Plasma Array) and the scorched landscape.
+- Clips 4-6: Henoch's arrival and physiological reaction (Coolant flush).
+- Clips 7-9: POV shots of the ground "glitching" from heat.
+- Clips 10-12: Interaction with Uriel (The Guide) pointing out safe zones.
+- Clips 13-14: Henoch stepping into the "Shadow" (Occlusion Zone).
+
+7. DIALOG-CHECK:
+Yes. Uriel (The Guide) instructs Henoch on survival protocols.
+Shot-Reverse-Shot required.
+Uriel: "Thermal saturation at 98%. Seek occlusion vectors immediately."
+Henoch: "The substrate... it is melting."
+Uriel: "Geometry is unstable. Proceed to the shadow node."
+
+8. SPATIAL CONTEXT (ARRIVAL):
+Instantaneous Node-Transfer. The air shimmers, and Henoch "drops" into the scene from a distortion field, stumbling slightly as gravity re-aligns.
+Establishing Shot: A wide angle, low-to-the-ground shot looking up at the artificial sun, dominating 50% of the skybox, lens flares obliterating the upper frame.
+
+9. PROMPT EXAMPLES (WAN 2.5 STYLE):
+
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Henoch (User_ID_7). **Physique:** Lean, dehydrated aesthetic, sweat replaced by viscous blue coolant fluid beading on forehead. **Skin-Shader:** `CERAMIC_MATTE_WHITE`. Surface is hot to the touch, micro-cracks appearing on the cheekbones revealing glowing orange heat-sinks beneath. **Optics:** `HELIOS_FILTER_AR`. Eyes are completely covered by deployable gold-mirror shields sliding out from the orbital bone. **Hair:** Wet, matted down by the coolant, steaming slightly.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Garment:** Thermal-Reflective Poncho. Material: `MYLAR_INSULATION_FOIL`. Silver, crinkled texture, highly reflective, flapping slowly in the hot convection currents. **Primary Prop:** `ENVIRONMENTAL_SCANNER`. A handheld device resembling a Geiger counter, displaying a red holographic warning: "TEMP_CRITICAL". **Interface-VFX:** A projected dome of faint blue hexagonal force-fields trying to form around Henoch but failing/flickering due to energy depletion.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Sector_Hagay_Test_Range. **Architecture:** The ground is cracked dry mud, but the cracks reveal glowing red server circuitry underneath. **Atmosphere:** Super-heated air, visible distortion waves. **Background:** The "Sun" is clearly artificial—a massive, blindingly bright circular fusion ring suspended in a low orbit, tethered by faint space-elevator cables. **Ground:** Rocks are rendering with low-poly edges, texture popping in and out.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** `ORBITAL_OVEREXPOSURE`. Primary: Blinding white top-down light from the fusion ring. Secondary: Red bounce light from the heated ground. **Palette:** Blinding White, Scorched Earth Orange, Warning Red, Coolant Blue. **Shadows:** Pitch black, extremely sharp, almost unnatural contrast (Ray-Tracing hard shadows).
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Low Angle, looking up at Henoch shielding his face. **Lens:** 35mm Wide Angle. **Focus:** Deep focus, keeping both Henoch and the artificial sun sharp. **Aperture:** f/16 (Star-burst effect on light sources). **Style:** High-contrast sci-fi survival, overexposed highlights, heat-haze post-processing, 8k resolution, raw sensor data look.

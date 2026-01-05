@@ -1,0 +1,72 @@
+```json
+{
+  "actors": [
+    {"name":"ወጌጋየ","visualTraits":null,"changes":null,"role":"entity"},
+    {"name":"እደዊሆሙ","visualTraits":null,"changes":null,"role":"entity"},
+    {"name":"ወሎሙ","visualTraits":null,"changes":null,"role":"entity"},
+    {"name":"ጌጋይ","visualTraits":null,"changes":null,"role":"entity"},
+    {"name":"ኃጥን","visualTraits":null,"changes":null,"role":"entity"},
+    {"name":"ወእምገጹ","visualTraits":null,"changes":null,"role":"entity"},
+    {"name":"እግዚ","visualTraits":null,"changes":null,"role":"entity"},
+    {"name":"መንፈሳት","visualTraits":null,"changes":null,"role":"entity"},
+    {"name":"ምድር","visualTraits":null,"changes":null,"role":"entity"},
+    {"name":"ዚሁ","visualTraits":null,"changes":null,"role":"entity"},
+    {"name":"ወኢየኀልቁ","visualTraits":null,"changes":null,"role":"entity"},
+    {"name":"ዓለም","visualTraits":null,"changes":null,"role":"entity"},
+    {"name":"ለዓለመ","visualTraits":null,"changes":null,"role":"entity"}
+  ],
+  "props": [],
+  "environments": [
+    {"name":"ምድር","visualTraits":null,"changes":null,"role":"place"},
+    {"name":"ዓለም","visualTraits":null,"changes":null,"role":"place"}
+  ],
+  "scenes": [
+    {
+      "title":"Line 1",
+      "location":null,
+      "action":"ይገብሩ",
+      "actorsInvolved":["ወጌጋየ","እደዊሆሙ"]
+    },
+    {
+      "title":"Line 2",
+      "location":null,
+      "action":"ይጻምዉ",
+      "actorsInvolved":["ወሎሙ","ጌጋይ"]
+    },
+    {
+      "title":"Line 3",
+      "location":null,
+      "action":"ይልዑ",
+      "actorsInvolved":["ኃጥን","ወእምገጹ"]
+    },
+    {
+      "title":"Line 4",
+      "location":null,
+      "action":"ይትሐጐሉ",
+      "actorsInvolved":["እግዚ","መንፈሳት"]
+    },
+    {
+      "title":"Line 5",
+      "location":null,
+      "action":"ወእምገጻ",
+      "actorsInvolved":["ኃጥን","ምድር"]
+    },
+    {
+      "title":"Line 6",
+      "location":null,
+      "action":"ይቀወሙ",
+      "actorsInvolved":["ዚሁ","ወኢየኀልቁ"]
+    },
+    {
+      "title":"Line 7",
+      "location":null,
+      "action":null,
+      "actorsInvolved":["ለዓለመ","ዓለም"]
+    }
+  ],
+  "blocking": {
+    "anchors": [],
+    "paths": []
+  }
+}
+```

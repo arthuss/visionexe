@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VisionExeDialog</class>
+ <widget class="QDialog" name="VisionExeDialog">
+  <property name="windowTitle">
+   <string>VisionExe</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="qtTitleLabel">
+     <property name="text">
+      <string>VisionExe Remote Server</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="qtStatusLabel">
+     <property name="text">
+      <string>Status: stopped</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="buttonLayout">
+     <item>
+      <widget class="QPushButton" name="qtStartServerBtn">
+       <property name="text">
+        <string>Start Server</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="qtStopServerBtn">
+       <property name="text">
+        <string>Stop Server</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="qtCloseBtn">
+       <property name="text">
+        <string>Close</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

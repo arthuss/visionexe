@@ -4,11 +4,15 @@ param(
     [int]$MaxChars = 1200,
     [int]$Overlap = 200,
     [switch]$Reset,
-    [switch]$NoMedia
+    [switch]$NoMedia,
+    [string]$Config = "rag_config.json"
 )
 
 $ErrorActionPreference = "Stop"
-Set-Location -Path $PSScriptRoot
+$ScriptRoot = $PSScriptRoot
+$EngineRoot = Split-Path -Parent $ScriptRoot
+$RepoRoot = Split-Path -Parent $EngineRoot
+Set-Location -Path $RepoRoot
 $OutputEncoding = [System.Text.Encoding]::UTF8
 
 function Test-DockerReady {
@@ -72,13 +76,27 @@ if (-not $existing) {
     Write-Host "Qdrant container already running." -ForegroundColor Green
 }
 
+$configPath = ""
+if ($Config) {
+    if ([System.IO.Path]::IsPathRooted($Config)) {
+        $configPath = $Config
+    } else {
+        $configPath = Join-Path $RepoRoot $Config
+    }
+    if (-not (Test-Path -LiteralPath $configPath)) {
+        $configPath = ""
+    }
+}
+
+$ragIndexer = Join-Path $RepoRoot "engine\\workers\\rag_indexer.py"
 $args = @(
-    "rag_indexer.py",
+    $ragIndexer,
     "--chapter", $Chapter,
     "--batch-size", $BatchSize,
     "--max-chars", $MaxChars,
     "--overlap", $Overlap
 )
+if ($configPath) { $args += @("--config", $configPath) }
 if ($Reset) { $args += "--reset" }
 if ($NoMedia) { $args += "--no-media" }
 

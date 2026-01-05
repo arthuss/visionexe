@@ -4,6 +4,9 @@ import argparse
 import time
 import shutil
 import json
+from pathlib import Path
+
+from visionexe_paths import load_story_config, resolve_path
 
 # --- KONSTANTEN & REGELWERKE ---
 
@@ -76,10 +79,10 @@ def parse_gemini_response(raw_output):
         return raw_output.strip()
     return None
 
-def get_chapter_data(chapter_path):
+def get_chapter_data(chapter_path, include_wave=False, segment_label="segment"):
     data = {}
     
-    # 1. Master Assets für visuelle Konsistenz einlesen
+    # 1. Master Assets fuer visuelle Konsistenz einlesen
     master_assets_path = os.path.join(os.path.dirname(chapter_path), "master_assets.txt")
     if os.path.exists(master_assets_path):
         with open(master_assets_path, "r", encoding="utf-8") as f:
@@ -87,33 +90,68 @@ def get_chapter_data(chapter_path):
     else:
         data["master_assets"] = "No master assets defined. Refer to Henoch_v1 and Uriel_v1 as default."
 
-    # 2. Kapitel Text
+    # 2. Kapitel Text (legacy: chapter.txt, new: story.txt)
     chapter_file = os.path.join(chapter_path, "chapter.txt")
-    if os.path.exists(chapter_file):
-        with open(chapter_file, "r", encoding="utf-8") as f:
-            data["raw_text"] = f.read()
+    story_file = os.path.join(chapter_path, "story.txt")
+    source_file = chapter_file if os.path.exists(chapter_file) else story_file
+    if os.path.exists(source_file):
+        with open(source_file, "r", encoding="utf-8") as f:
+            raw_text = f.read()
+        if not include_wave:
+            raw_text = strip_wave_sections(raw_text)
+        data["raw_text"] = raw_text
 
     # 3. Story Analysen aus den Unterordnern
-    sub_folders = ["analysis_linguistik", "tech_hypothesen", "visual_abc", "einleitung", "integration_wave"]
+    sub_folders = ["analysis_linguistik", "tech_hypothesen", "visual_abc", "einleitung"]
+    if include_wave:
+        sub_folders.append("integration_wave")
     for folder in sub_folders:
         story_file = os.path.join(chapter_path, folder, "story.txt")
         if os.path.exists(story_file):
             with open(story_file, "r", encoding="utf-8") as f:
-                data[folder] = f.read()
+                story_text = f.read()
+            if not include_wave:
+                story_text = strip_wave_sections(story_text)
+            data[folder] = story_text
 
-    # 4. Einzelne Verse (Rohmaterial)
+    # 4. Segmente/Verse (Rohmaterial)
     data["verses"] = {}
-    verse_folders = sorted([d for d in os.listdir(chapter_path) if d.startswith("verse_")])
-    for vf in verse_folders:
-        v_file = os.path.join(chapter_path, vf, "verse.txt")
-        if os.path.exists(v_file):
-            with open(v_file, "r", encoding="utf-8") as f:
-                data["verses"][vf] = f.read()
+    data["segment_analysis"] = {}
+    segment_prefix = f"{segment_label}_"
+    segment_folders = sorted([d for d in os.listdir(chapter_path) if d.startswith(segment_prefix)])
+    if not segment_folders:
+        segment_folders = sorted([d for d in os.listdir(chapter_path) if d.startswith("verse_")])
+    for seg in segment_folders:
+        seg_dir = os.path.join(chapter_path, seg)
+        seg_file = os.path.join(seg_dir, "segment.txt")
+        verse_file = os.path.join(seg_dir, "verse.txt")
+        story_file = os.path.join(seg_dir, "story.txt")
+        source_file = seg_file if os.path.exists(seg_file) else verse_file
+        if not os.path.exists(source_file) and os.path.exists(story_file):
+            source_file = story_file
+        if os.path.exists(source_file):
+            with open(source_file, "r", encoding="utf-8") as f:
+                seg_text = f.read()
+            if not include_wave:
+                seg_text = strip_wave_sections(seg_text)
+            analysis_path = os.path.join(seg_dir, "analysis_llm.txt")
+            analysis_text = None
+            if os.path.exists(analysis_path):
+                with open(analysis_path, "r", encoding="utf-8") as f:
+                    analysis_text = f.read().strip()
+            if analysis_text:
+                data["segment_analysis"][seg] = analysis_text
+                seg_text = f"{seg_text}\n\n[ANALYSIS]\n{analysis_text}"
+            data["verses"][seg] = seg_text
     return data
 
-def load_knowledge_base(base_path):
-    """Lädt globale Definitionen für Konsistenz über alle Kapitel hinweg."""
+def load_knowledge_base(story_root: Path, story_config: dict, repo_root: Path):
+    """Load global definitions to keep consistency across chapters."""
     kb = {}
+    search_paths = [
+        story_root,
+        story_root / "briefings",
+    ]
     
     # Mapping: Dateiname -> Key im Prompt
     files = {
@@ -129,12 +167,24 @@ def load_knowledge_base(base_path):
     }
 
     for filename, key in files.items():
-        path = os.path.join(base_path, filename)
-        if os.path.exists(path):
-            with open(path, "r", encoding="utf-8") as f:
+        found = None
+        for base in search_paths:
+            candidate = base / filename
+            if candidate.exists():
+                found = candidate
+                break
+        if found:
+            with open(found, "r", encoding="utf-8") as f:
                 kb[key] = f.read()
         else:
             kb[key] = f"[Warning: {filename} not found]"
+
+    briefings = story_config.get("briefings") or []
+    for idx, briefing in enumerate(briefings, 1):
+        briefing_path = resolve_path(briefing, repo_root)
+        if briefing_path and briefing_path.exists():
+            with open(briefing_path, "r", encoding="utf-8") as f:
+                kb[f"BRIEFING_{idx:02d}"] = f.read()
     
     return kb
 
@@ -146,6 +196,7 @@ def load_existing_content(path):
 
 def build_concept_prompt(data, kb, chapter_num, existing_concept=None):
     verses_str = "\n".join([f"[{k}]: {v}" for k, v in data["verses"].items()])
+    segment_analysis_str = "\n".join([f"[{k}]: {v}" for k, v in data.get("segment_analysis", {}).items()])
     
     # Falls ein altes Konzept existiert, bauen wir es in den Prompt ein
     refinement_instruction = ""
@@ -186,6 +237,8 @@ Theorie: {data.get('tech_hypothesen', '')}
 Raw Text: {data.get('raw_text', '')}
 Verse:
 {verses_str}
+Segment Analysis:
+{segment_analysis_str}
 
 AUFGABE (The Visionary Worker):
 Entwickle ein radikales visuelles Konzept. Ignoriere "Wunder". Erkläre "Technologie".
@@ -284,6 +337,8 @@ Die Länge der Clips ist FLEXIBEL (2s bis 10s).
 
 CHAPTER RAW TEXT:
 {data.get('raw_text', '')}
+SEGMENT ANALYSIS:
+{segment_analysis_str}
 
 OUTPUT REQUIREMENTS:
 1. ACTOR IDENTIFICATION: Wer ist in der Szene? Welches Gear?
@@ -356,7 +411,7 @@ OUTPUT FORMAT (Markdown):
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor|environment|prop|interface|mixed", "shot_type": "establishing|insert|close_up|medium|wide|full_body", "framing": "extreme_close_up|close_up|medium|wide|full_body", "environment": "Scene location or system set", "env_change": true, "actors": [{"name": "Name", "phase": "Phase", "presence": "on_screen|off_screen", "focus": "primary|secondary"}], "props": ["Prop A", "Prop B"], "camera": "Lens / angle short note", "mood": ["awe", "tension"], "director_intent": "Short, poetic intent sentence for the shot.", "start_image_keywords": ["keyword1", "keyword2"], "start_image_mode": "env_only|actor_in_env|actor_only|prop_only|ui_only|composite", "video_plan": {"start_comp": {"mode": "actor_first|env_first|composite", "actor_pose_id": "POSE_ID", "env_id": "ENV_ID", "props": ["PROP_ID"], "notes": ""}, "motion_driver": {"type": "a2f|pose|liveportrait|none", "audio_id": "scene_audio_id", "pose_source": "data/capture/poses/pose_id.mp4", "driver_notes": ""}, "reference_footage": {"id": "ref_id", "path": "data/reference/clip.mp4", "use": "lighting|motion|palette|none", "notes": ""}, "overlay_badge": {"asset": "media/badges/geez_logo_v1.mov", "blend": "screen|overlay|normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted|live_action|mixed", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {{"subject": "actor|environment|prop|interface|mixed", "shot_type": "establishing|insert|close_up|medium|wide|full_body", "framing": "extreme_close_up|close_up|medium|wide|full_body", "environment": "Scene location or system set", "env_change": true, "actors": [{{"name": "Name", "phase": "Phase", "presence": "on_screen|off_screen", "focus": "primary|secondary"}}], "props": ["Prop A", "Prop B"], "camera": "Lens / angle short note", "mood": ["awe", "tension"], "director_intent": "Short, poetic intent sentence for the shot.", "start_image_keywords": ["keyword1", "keyword2"], "start_image_mode": "env_only|actor_in_env|actor_only|prop_only|ui_only|composite", "video_plan": {{"start_comp": {{"mode": "actor_first|env_first|composite", "actor_pose_id": "POSE_ID", "env_id": "ENV_ID", "props": ["PROP_ID"], "notes": ""}}, "motion_driver": {{"type": "a2f|pose|liveportrait|none", "audio_id": "scene_audio_id", "pose_source": "data/capture/poses/pose_id.mp4", "driver_notes": ""}}, "reference_footage": {{"id": "ref_id", "path": "data/reference/clip.mp4", "use": "lighting|motion|palette|none", "notes": ""}}, "overlay_badge": {{"asset": "media/badges/geez_logo_v1.mov", "blend": "screen|overlay|normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}}, "provenance": {{"source": "ai_assisted|live_action|mixed", "notes": ""}}}}, "voice_words_max": 10}}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
 [Hier den Prompt einfügen - Fokus auf Licht, Textur, Komposition, Actor Details]
 
@@ -426,12 +481,27 @@ def call_ai_agent(prompt, label="AI Task"):
 def main():
     parser = argparse.ArgumentParser(description="Exeget:OS Double-Think Script Generator")
     parser.add_argument("chapter", type=int, help="Kapitelnummer (z.B. 1)")
+    parser.add_argument("--story-root", help="Story root path (defaults to engine_config default_story_root).")
+    parser.add_argument("--story-config", help="Path to story_config.json (overrides story-root).")
+    parser.add_argument("--include-wave", action="store_true", help="Include WAVE sections in inputs.")
     args = parser.parse_args()
-
-    base_path = os.path.abspath(r"C:\Users\sasch\henoch\filmsets")
-    root_path = os.path.abspath(r"C:\Users\sasch\henoch") # Root for global files
-    chapter_folder = f"chapter_{args.chapter:03d}"
-    chapter_path = os.path.join(base_path, chapter_folder)
+    story_config, story_root, repo_root = load_story_config(
+        story_root=args.story_root,
+        story_config_path=args.story_config,
+    )
+    filmsets_root = resolve_path(story_config.get("filmsets_root"), repo_root)
+    if not filmsets_root:
+        raise SystemExit("filmsets_root missing in story_config.json")
+    chapter_label = story_config.get("chapter_label", "chapter")
+    chapter_padding = int(story_config.get("chapter_index_padding", 3))
+    chapter_folder = f"{chapter_label}_{args.chapter:0{chapter_padding}d}"
+    chapter_path = os.path.join(str(filmsets_root), chapter_folder)
+    if not os.path.exists(chapter_path) and chapter_label != "chapter":
+        fallback_folder = f"chapter_{args.chapter:03d}"
+        fallback_path = os.path.join(str(filmsets_root), fallback_folder)
+        if os.path.exists(fallback_path):
+            chapter_folder = fallback_folder
+            chapter_path = fallback_path
     concept_dir = os.path.join(chapter_path, "concept_engine")
 
     if not os.path.exists(chapter_path):
@@ -441,11 +511,15 @@ def main():
     # Ordner für Konzepte anlegen
     os.makedirs(concept_dir, exist_ok=True)
 
-    data = get_chapter_data(chapter_path)
+    data = get_chapter_data(
+        chapter_path,
+        include_wave=args.include_wave,
+        segment_label=story_config.get("segment_label", "segment"),
+    )
     
     # Globale Knowledge Base laden
     print("Lade globale Knowledge Base...")
-    kb = load_knowledge_base(root_path)
+    kb = load_knowledge_base(story_root, story_config, repo_root)
 
     # --- SCHRITT 1: KONZEPT ---
     concept_file = os.path.join(concept_dir, "mechanic_concept.txt")

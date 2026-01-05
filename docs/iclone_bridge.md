@@ -6,30 +6,23 @@ clip export.
 
 ## Start the server (inside iClone)
 
-1. Open iClone.
-2. Run the script: `engine/iclone/iclone_remote_server.py` via the iClone Python
-   script menu.
-3. The server listens on `http://127.0.0.1:8123` by default.
+1. Install the VisionExe OpenPlugin folder:
+   `engine/iclone/openplugin/visionexe` → `C:\Program Files\Reallusion\iClone 8\Bin64\OpenPlugin\visionexe`.
+2. Restart iClone.
+3. Open **Plugins > VisionExe > Open VisionExe Panel** and click **Start Server**.
+4. The server listens on `http://127.0.0.1:8123` by default.
 
 Environment overrides (optional):
 - `ICLONE_REMOTE_HOST`
 - `ICLONE_REMOTE_PORT`
 - `ICLONE_CONFIG_PATH`
 
-Config file (recommended for iClone scripts, since no CLI args):
-- `engine/iclone/iclone_config.json`
+Config file (edit after install or override via `ICLONE_CONFIG_PATH`):
+- `C:\Program Files\Reallusion\iClone 8\Bin64\OpenPlugin\visionexe\iclone_config.json`
 
-## OpenPlugin wrappers
-
-If you want menu entries instead of browsing for scripts, use the wrappers in:
-`engine/iclone/openplugin/`. See `engine/iclone/openplugin/README.md` for the
-one-time setup. After restart, look under `Plugins > VisionExe`.
-
-Quick install helper:
-
-```powershell
-engine\launchers\Install-iCloneOpenPlugin.ps1
-```
+Reallusion index path (optional):
+- `reallusion_index_path` defaults to `C:/Users/Public/Documents/Reallusion/reallusion_library_index.json`.
+- Override via `REALLUSION_INDEX_PATH` or per-request `index_path`.
 
 ## Client usage
 
@@ -42,6 +35,34 @@ python engine/workers/iclone_remote_client.py --action list_cameras
 python engine/workers/iclone_remote_client.py --action select_avatar --payload "{\"name\":\"Henoch\"}"
 python engine/workers/iclone_remote_client.py --action select_camera --payload "{\"name\":\"Camera\"}"
 ```
+
+Load a character by name (Reallusion library index):
+
+```powershell
+python engine/workers/reallusion_library_indexer.py
+python engine/workers/iclone_remote_client.py --action load_actor_by_name --payload "{\"name\":\"vx_henoch_p01\"}"
+```
+
+Optional fields: `prefer` (`iavatar` or `ccavatar`), `index_path`, `library_root`,
+`content_manager_first` (default true).
+If the Content Manager lookup fails, the bridge falls back to the JSON index.
+Disable CM lookup with `use_content_manager=false`.
+
+Debug actor lookup:
+
+```powershell
+python engine/workers/iclone_remote_client.py --action debug_actor_lookup --payload "{\"name\":\"vx_henoch_p01\"}"
+```
+
+Returns index path + match plus Content Manager roots/match.
+
+Queue-based loading (subjects):
+
+```powershell
+engine/scripts/load_actors.ps1 -StoryConfig stories/template/config/story_config.json
+```
+
+Uses `subjects/actor_queue.jsonl` (fields: `name`, optional `prefer`).
 
 Apply A2F JSON to the selected avatar:
 
@@ -56,6 +77,29 @@ python engine/workers/iclone_remote_client.py --action apply_a2f_json --payload 
   \"use_mocap_order\":false
 }"
 ```
+
+Apply a pose JSON (from `pose_bvh_importer.py`) to the avatar:
+
+```powershell
+python engine/workers/iclone_remote_client.py --action apply_pose_json --payload "{\"
+  \"pose_path\":\"C:/path/to/pose.json\",
+  \"avatar_name\":\"vx_henoch_p01\",
+  \"time_seconds\":0.0,
+  \"clip_index\":0,
+  \"apply_root_translation\":true
+}\" 
+```
+
+Note: the pose mapping targets CC4 bone names (e.g. `CC_Base_Hip`). Update
+`engine/config/pose_mappings/sam3_bvh_to_cc4.json` to match your skeleton.
+Axis rotation offsets are applied automatically from
+`engine/config/pose_mappings/cc4_axis_rotation.json` (extracted from the CC4
+default profile). You can override per call with `axis_rotation_path` or
+inline `axis_rotation_map` in the payload.
+
+If your pose JSON still contains raw BVH joint names, `apply_pose_json` will
+auto-resolve using the mapping path embedded in the pose JSON (or `joint_map_path`
+from the request).
 
 Load an audio file directly (uses iClone lip-sync backend):
 
@@ -103,6 +147,38 @@ python engine/workers/iclone_remote_client.py --action apply_camera_keys --paylo
     }
   ]
 }"
+```
+
+### Avatar Placement
+
+**`get_avatar_info`**
+
+Fetch the current transform of an avatar.
+
+```json
+{
+  "action": "get_avatar_info",
+  "payload": {
+    "avatar_name": "Henoch"
+  }
+}
+```
+
+**`set_avatar_transform`**
+
+Set the avatar transform at the current time (or `time_seconds`).
+
+```json
+{
+  "action": "set_avatar_transform",
+  "payload": {
+    "avatar_name": "Henoch",
+    "time_seconds": 0.0,
+    "position": { "x": 0, "y": 0, "z": 0 },
+    "rotation": { "x": 0, "y": 0, "z": 0, "w": 1 },
+    "scale": { "x": 1, "y": 1, "z": 1 }
+  }
+}
 ```
 
 ## Batch runner
@@ -222,3 +298,97 @@ If you are using mocap-ordered expression lists, set `use_mocap_order` to true.
 - You can throttle key density with `key_step` for large clips.
 - Timing uses iClone FPS-aware conversions (`FrameTimeFromSecond`,
   `IndexedFrameTime`) to respect custom project FPS settings.
+
+## Motion Director (remote)
+
+Status/start/stop:
+
+```powershell
+python engine/workers/iclone_remote_client.py --action md_status
+python engine/workers/iclone_remote_client.py --action md_start
+python engine/workers/iclone_remote_client.py --action md_stop
+```
+
+List MD props:
+
+```powershell
+python engine/workers/iclone_remote_client.py --action md_list_props
+```
+
+Begin + end command (target specific MD props by name/id):
+
+```powershell
+python engine/workers/iclone_remote_client.py --action md_begin_command --payload "{\"
+  avatar_name\":\"CC3_Base_Plus\",
+  \"record\":true,
+  \"preserve_one_key\":false
+}"
+
+python engine/workers/iclone_remote_client.py --action md_end_command --payload "{\"
+  avatar_name\":\"CC3_Base_Plus\",
+  \"md_props\":[\"MDPropName\"]
+}"
+```
+
+One-shot trigger (Begin + End):
+
+```powershell
+python engine/workers/iclone_remote_client.py --action md_trigger --payload "{\"
+  avatar_name\":\"CC3_Base_Plus\",
+  \"md_props\":[\"MDPropName\"],
+  \"start_md\":true,
+  \"record\":true
+}"
+```
+
+UI injection (alt-click waypoints):
+
+```powershell
+python engine/workers/iclone_remote_client.py --action md_viewport_info
+python engine/workers/iclone_remote_client.py --action md_viewport_candidates --payload "{\"limit\":25}"
+
+python engine/workers/iclone_remote_client.py --action md_click_world --payload "{\"
+  \"camera_name\":\"Camera\",
+  \"world\":{\"x\":0,\"y\":-200,\"z\":0},
+  \"button\":\"left\",
+  \"modifiers\":[\"alt\"]
+}"
+
+python engine/workers/iclone_remote_client.py --action md_waypoints --payload "{\"
+  \"camera_name\":\"Camera\",
+  \"points\":[
+    {\"x\":0,\"y\":-200,\"z\":0},
+    {\"x\":50,\"y\":-300,\"z\":0}
+  ],
+  \"delay_ms\":200,
+  \"start_md\":true,
+  \"button\":\"left\",
+  \"modifiers\":[\"alt\"]
+}"
+
+python engine/workers/iclone_remote_client.py --action md_click_screen --payload "{\"
+  \"x\":0.5,
+  \"y\":0.5,
+  \"normalized\":true,
+  \"button\":\"right\",
+  \"modifiers\":[\"alt\"]
+}"
+```
+
+Keyboard injection (MD hotkeys):
+
+```powershell
+python engine/workers/iclone_remote_client.py --action md_key --payload "{\"key\":\"F1\",\"start_md\":true}"
+python engine/workers/iclone_remote_client.py --action md_key --payload "{\"key\":\"1\"}"
+python engine/workers/iclone_remote_client.py --action md_key --payload "{\"keys\":[\"F2\",\"3\"],\"delay_ms\":150}"
+```
+
+Viewport selection hint (optional):
+
+```json
+{
+  "viewport_hint": {
+    "contains": "Viewport"
+  }
+}
+```

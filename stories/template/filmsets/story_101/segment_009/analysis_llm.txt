@@ -1,0 +1,64 @@
+```json
+{
+  "actors": [
+    {
+      "name": "እ፡ውእቱ",
+      "visualTraits": null,
+      "changes": [],
+      "role": "subject"
+    },
+    {
+      "name": "ነገሥተ፡ሕማር",
+      "visualTraits": null,
+      "changes": [],
+      "role": "subject"
+    },
+    {
+      "name": "ለልዑል",
+      "visualTraits": null,
+      "changes": [],
+      "role": "subject"
+    }
+  ],
+  "props": [
+    {
+      "name": "ወኃጥን",
+      "visualTraits": null,
+      "changes": [],
+      "role": "object"
+    }
+  ],
+  "environments": [
+    {
+      "name": "ለባሕር",
+      "visualTraits": null,
+      "changes": [],
+      "role": "setting"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Verse 1",
+      "location": "unknown",
+      "action": "Invocation to እ፡ውእቱ ነገሥተ፡ሕማር",
+      "actorsInvolved": ["እ፡ውእቱ", "ነገሥተ፡ሕማር"]
+    },
+    {
+      "title": "Verse 2",
+      "location": "unknown",
+      "action": "Request for ወኃጥን at ለባሕር",
+      "actorsInvolved": ["ወኃጥን", "ለባሕር"]
+    },
+    {
+      "title": "Verse 3",
+      "location": "unknown",
+      "action": "Child’s request",
+      "actorsInvolved": ["ለልዑል"]
+    }
+  ],
+  "blocking": {
+    "anchors": [],
+    "paths": []
+  }
+}
+```

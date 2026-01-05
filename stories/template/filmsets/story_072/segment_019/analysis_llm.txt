@@ -1,0 +1,38 @@
+```json
+{
+  "actors": [],
+  "props": [
+    {
+      "name": "Sun",
+      "visualTraits": [],
+      "changes": null,
+      "role": "light source"
+    }
+  ],
+  "environments": [
+    {
+      "name": "West",
+      "visualTraits": [],
+      "changes": null,
+      "role": "direction"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Sun and West Chant",
+      "location": "West",
+      "action": "Chanting about the sun and west",
+      "actorsInvolved": []
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "west",
+        "description": "West direction"
+      }
+    ],
+    "paths": []
+  }
+}
+```

@@ -1,0 +1,76 @@
+```json
+{
+  "actors": [
+    {
+      "name": "Uriel",
+      "visualTraits": null,
+      "changes": null,
+      "role": "protagonist"
+    }
+  ],
+  "props": [
+    {
+      "name": "Light",
+      "visualTraits": null,
+      "changes": null,
+      "role": "source of illumination"
+    },
+    {
+      "name": "Fire",
+      "visualTraits": null,
+      "changes": null,
+      "role": "environmental hazard"
+    },
+    {
+      "name": "Sun",
+      "visualTraits": null,
+      "changes": null,
+      "role": "ultimate destination"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Wale'ete Sir'ate R'yni",
+      "visualTraits": null,
+      "changes": null,
+      "role": "starting location"
+    },
+    {
+      "name": "Inside Fire",
+      "visualTraits": null,
+      "changes": null,
+      "role": "intermediate environment"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Uriel's Journey to Light and Sun",
+      "location": "Wale'ete Sir'ate R'yni",
+      "action": "Uriel moves toward Light, enters Fire, and will go to Sun",
+      "actorsInvolved": ["Uriel"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "A1",
+        "description": "Wale'ete Sir'ate R'yni"
+      },
+      {
+        "id": "A2",
+        "description": "Sun"
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Uriel",
+        "start_anchor": "A1",
+        "end_anchor": "A2",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "movement implied by text"
+      }
+    ]
+  }
+}
+```

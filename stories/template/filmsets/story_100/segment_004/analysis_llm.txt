@@ -1,0 +1,149 @@
+```json
+{
+  "actors": [
+    {
+      "name": "ወእማንቱ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "መላእት",
+      "visualTraits": null,
+      "changes": null,
+      "role": "angel"
+    },
+    {
+      "name": "ሎሎ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "lion"
+    },
+    {
+      "name": "ነ፡ዐቢየ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    }
+  ],
+  "props": [
+    {
+      "name": "ምኅባት",
+      "visualTraits": null,
+      "changes": null,
+      "role": "house"
+    },
+    {
+      "name": "ወያገብእዎሙ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "gate"
+    },
+    {
+      "name": "ሐዱ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "door"
+    },
+    {
+      "name": "መን",
+      "visualTraits": null,
+      "changes": null,
+      "role": "path"
+    },
+    {
+      "name": "ወይትነሣእ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "fruit"
+    },
+    {
+      "name": "ልዑል",
+      "visualTraits": null,
+      "changes": null,
+      "role": "fruit"
+    }
+  ],
+  "environments": [
+    {
+      "name": "መዋዕል",
+      "visualTraits": null,
+      "changes": null,
+      "role": "day"
+    },
+    {
+      "name": "ምኅባት",
+      "visualTraits": null,
+      "changes": null,
+      "role": "house"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Verse 1",
+      "location": null,
+      "action": "Mention of the one, the day, and the angel",
+      "actorsInvolved": ["ወእማንቱ", "መላእት"]
+    },
+    {
+      "title": "Verse 2",
+      "location": "house",
+      "action": "They bring inside the house",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Verse 3",
+      "location": "gate/door/path",
+      "action": "Gate, door, and path are referenced",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Verse 4",
+      "location": null,
+      "action": "Lion will bring",
+      "actorsInvolved": ["ሎሎ"]
+    },
+    {
+      "title": "Verse 5",
+      "location": null,
+      "action": "To mouth, fruit, fruit",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Verse 6",
+      "location": "day",
+      "action": "They will speak day",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Verse 7",
+      "location": null,
+      "action": "The one, faith",
+      "actorsInvolved": ["ነ፡ዐቢየ"]
+    },
+    {
+      "title": "Verse 8",
+      "location": null,
+      "action": "End",
+      "actorsInvolved": []
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "anchor_gate",
+        "description": "gate"
+      },
+      {
+        "id": "anchor_house",
+        "description": "house"
+      },
+      {
+        "id": "anchor_day",
+        "description": "day"
+      }
+    ],
+    "paths": []
+  }
+}
+```

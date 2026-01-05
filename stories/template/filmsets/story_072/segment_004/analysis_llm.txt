@@ -1,0 +1,70 @@
+```json
+{
+  "actors": [
+    {
+      "name": "ፀሐይ",
+      "visualTraits": ["radiant", "glowing"],
+      "changes": null,
+      "role": "celestial body"
+    },
+    {
+      "name": "ሰማይ",
+      "visualTraits": ["expansive", "blue"],
+      "changes": null,
+      "role": "celestial body"
+    }
+  ],
+  "props": [
+    {
+      "name": "እሳተ",
+      "visualTraits": ["burning", "flaming"],
+      "changes": null,
+      "role": "natural element"
+    }
+  ],
+  "environments": [
+    {
+      "name": "ወቀዳሚ",
+      "visualTraits": ["first light", "dawn"],
+      "changes": null,
+      "role": "time of day"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Line 1",
+      "location": "ወቀዳሚ",
+      "action": "The dawn is described as a source of light.",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Line 2",
+      "location": "ወቀዳሚ",
+      "action": "The sun rises and shines.",
+      "actorsInvolved": ["ፀሐይ"]
+    },
+    {
+      "title": "Line 3",
+      "location": "ሰማይ",
+      "action": "The sky is mentioned, implying its presence.",
+      "actorsInvolved": ["ሰማይ"]
+    },
+    {
+      "title": "Line 4",
+      "location": "ወቀዳሚ",
+      "action": "The world is described as full of fire.",
+      "actorsInvolved": ["እሳተ"]
+    },
+    {
+      "title": "Line 5",
+      "location": "ወቀዳሚ",
+      "action": "A concluding statement about the dawn.",
+      "actorsInvolved": []
+    }
+  ],
+  "blocking": {
+    "anchors": [],
+    "paths": []
+  }
+}
+```

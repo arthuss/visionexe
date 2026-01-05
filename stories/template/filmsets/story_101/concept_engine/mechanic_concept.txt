@@ -1,0 +1,108 @@
+CONCEPT ANALYSIS: CHAPTER 101 - SYSTEM INTEGRITY AUDIT V2.0
+
+1. BIO-INJECTION (DIAGNOSTIC OVERLAY)
+Manifestation: `DERMAL_DISPLAY_MATRIX`.
+Henoch's skin does not just freeze; it becomes a translucent OLED interface. The "sweat" is actually liquid coolant leaking from pores to manage the heat of processing the audit.
+Visual: His epidermis turns semi-transparent gray. Beneath the surface, vascular systems glow neon-blue, pulsing in sync with the "thunder". Scrolling Ge'ez error logs appear directly on his forehead and cheekbones, projected from within. His eyes are `LIDAR_SCANNERS`, emitting a fanned red laser grid that sweeps across the environment to measure physics compliance.
+
+2. MESH-BREAK (RENDER FAILURE)
+Event: The "Kings of Ships" (Verses 4-6).
+Visual: `VOXEL_DECIMATION`.
+The ocean simulation exceeds the allocated memory buffer.
+- Phase 1: Photorealism.
+- Phase 2: As waves crash against the ships, the water spray fails to render transparency and turns into solid black cubes (voxels).
+- Phase 3: The ships themselves experience "clipping". The hull passes *through* the water surface without resistance because collision detection has been disabled to save resources. The sailors (Kings) are glitching—their animations loop frantically (T-pose flickering) as they try to navigate a broken physics engine.
+
+3. PACING-STRATEGIE (LATENCY RHYTHM)
+Style: Lag & Buffer.
+00s-20s (The Pause): Extremely slow, almost static. Simulating a system waiting for input. The rain hangs in the air (Buffer Underrun).
+20s-50s (The Crash): The edit mimics a dropping frame rate. Cuts are jagged, skipping frames. We see the same action (a wave hitting a ship) repeated three times in rapid succession (stuttering), each time with lower texture resolution.
+50s-65s (The Reboot): Smooth, sterile, high-frame-rate motion. The system has stabilized by purging the "Sinners" (corrupted entities).
+
+4. AUDIO-DESIGN (HARDWARE STRESS)
+Ambient: The "Wind" is the sound of a massive server room air intake, a constant, deafening suction noise.
+Events: "Thunder" is the sound of a high-voltage transformer arcing (Jacob's Ladder buzz).
+Voice: Henoch's voice is dual-layered. Track 1: Human whisper. Track 2: A synthetic text-to-speech synthesis reading the same lines 0.5 seconds delayed, creating a phasing effect.
+Foley: The ocean doesn't splash; it "crunches" like broken glass and distorted digital static (bit-crushed white noise).
+
+5. ÜBERGÄNGE (LOD_POPPING)
+Transition Logic: `LEVEL_OF_DETAIL_SNAP`.
+No fades or dissolves. The camera pans, and the world snaps from "Low Poly" proxy assets to "High Res" assets instantly in front of the viewer.
+Entrance: Henoch does not walk. He `NODE_SHIFTS`. One frame he is in the arid desert (Segment 2), the next frame (hard cut) he is standing on the deck of a ship in the storm (Segment 4), with no motion blur connecting the two.
+
+6. FRAMEWORK & TIMING
+Total Duration: ~65 Seconds.
+Clip Count: 18 Clips (High density for glitch effects).
+Structure:
+- [01-04] Heaven's Lock (Frozen Rain/Drought) - 4 Clips.
+    - *Focus: Static water droplets, Henoch's scanning eyes.*
+- [05-12] The Glitch Storm (Ships & Chaos) - 8 Clips.
+    - *Focus: Voxel water, clipping ships, terrified "Kings" (User Profiles).*
+- [13-15] The Sandbox Boundary (Sand/Limit) - 3 Clips.
+    - *Focus: The hard line where water stops.*
+- [16-18] The Audit Log (Verdict) - 3 Clips.
+    - *Focus: Henoch's final report.*
+
+7. DIALOG-CHECK
+Type: System Log / Monologue.
+Speaker: Henoch (Auditor).
+Interaction: None. He is speaking to the "Log", not a person.
+Visual: Lip-sync is minimal. The "Voice" is internal system narration.
+Shot-Reverse-Shot: Not needed. The "Reverse" is the environment reacting to his audit.
+
+8. SPATIAL CONTEXT (ARRIVAL)
+Method: `NODE_SHIFT` (Instant Teleportation).
+Establishing Shot: Not a traditional panorama. We start with a "Satellite View" (Orthographic Top-Down) of the cloud layer, overlaid with a vector grid map. The camera "clicks" zoom levels: 100km -> 10km -> 1km -> Surface.
+Henoch appears instantly at the target coordinates (x,y,z).
+
+9. PROMPT EXAMPLES (WAN 2.5 SPEC)
+
+**[CLIP 02: THE_BUFFER_UNDERRUN]**
+> **[BLOCK 1: SUBJECT_CONTEXT]**
+> **Subject:** Raindrops. **Focus:** Physics Anomaly.
+> **[BLOCK 2: ENVIRONMENT_&_PHYSICS]**
+> **Location:** Arid Sector 101. **Atmosphere:** Heavy grey sky. **Event:** `PHYSICS_PAUSE`. Raindrops are frozen in mid-air, arranged in a perfect grid pattern. They are not liquid but chrome spheres reflecting the dry earth below.
+> **[BLOCK 3: LIGHTING_&_VFX]**
+> **Lighting:** Flat, shadowless ambient occlusion. **VFX:** A red "ERROR: TIMEOUT" glyph floats faintly in the depth of field behind the drops.
+> **[BLOCK 4: CAMERA]**
+> **Shot:** Macro tracking shot. **Movement:** Camera moves sideways through the grid of frozen drops. **Lens:** 100mm Macro.
+
+**[CLIP 06: THE_VOXEL_WAVE]**
+> **[BLOCK 1: SUBJECT_ANATOMY]**
+> **Subject:** Phoenician Cargo Ship. **Material:** Dark, wet wood, but the texture is stretching and tearing (UV mapping error).
+> **[BLOCK 2: ENVIRONMENT_&_FLUIDS]**
+> **Location:** The Glitch Ocean. **Sea State:** Critical Failure. **Physics:** A massive wave crests, but instead of foam, the tip of the wave breaks down into thousands of black untextured cubes (voxels) tumbling down.
+> **[BLOCK 3: TECH_LAYER]**
+> **Glitch:** The water surface flickers between "Water Shader" and "Wireframe Grid" every few frames.
+> **[BLOCK 4: CINEMATOGRAPHY]**
+> **Shot:** Wide Angle Action. **Movement:** Handheld shake. **Lighting:** Strobe lightning illuminating the black cubes.
+
+**[CLIP 08: THE_CLIPPING_HULL]**
+> **[BLOCK 1: SUBJECT_ACTION]**
+> **Subject:** The Ship's Hull. **Action:** Collision Failure.
+> **[BLOCK 2: PHYSICS_VIOLATION]**
+> **Event:** The ship plunges into a wave, but instead of displacing water, the wood passes ghost-like *through* the water surface. The water inside the ship renders as if the ship isn't there.
+> **[BLOCK 3: VISUALS]**
+> **VFX:** Bright red "COLLISION_OFF" text warning flashing on the hull surface.
+> **[BLOCK 4: CAMERA]**
+> **Shot:** Medium Shot, water level. **Focus:** The intersection point of wood and water.
+
+**[CLIP 14: THE_HARD_LIMIT]**
+> **[BLOCK 1: ENVIRONMENT_DETAIL]**
+> **Location:** The Shoreline Boundary. **Elements:** Raging digital ocean vs. Static white sand.
+> **[BLOCK 2: PHYSICS_CONSTRAINT]**
+> **Action:** The water rushes up the beach and hits an invisible geometric wall. It flattens instantly against the barrier, sliding up like a texture on a glass pane, unable to cross onto the sand.
+> **[BLOCK 3: VISUALS]**
+> **VFX:** Hexagonal orange barrier grid appears briefly on impact. The sand is perfectly flat, zero displacement.
+> **[BLOCK 4: CAMERA]**
+> **Shot:** Low angle, looking along the shoreline. **Lens:** 35mm.
+
+**[CLIP 18: THE_SYSTEM_VERDICT]**
+> **[BLOCK 1: SUBJECT_IDENTITY]**
+> **Actor:** Henoch (Auditor). **Skin:** Translucent gray with internal blue vascular glow. **Eyes:** `LIDAR` active—emitting fanned red laser beams directly into the lens.
+> **[BLOCK 2: APPAREL]**
+> **Garment:** Obsidian Exosuit, matte finish, wet with coolant.
+> **[BLOCK 3: LIGHTING_&_ATMOSPHERE]**
+> **Lighting:** High-contrast "Interrogation" spot. Background is pure void.
+> **[BLOCK 4: CAMERA]**
+> **Shot:** Extreme Close-Up. **Action:** Henoch stares into the camera. The scrolling text on his face stops and displays a single static Ge'ez symbol for "DELETE". **Lens:** 85mm.

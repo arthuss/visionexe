@@ -1,0 +1,88 @@
+```json
+{
+  "actors": [
+    {
+      "name": "ወኑኃ",
+      "visualTraits": "unknown",
+      "changes": "unknown",
+      "role": "unknown"
+    },
+    {
+      "name": "ወሕፀራ",
+      "visualTraits": "unknown",
+      "changes": "unknown",
+      "role": "unknown"
+    },
+    {
+      "name": "ምሕዋረ",
+      "visualTraits": "unknown",
+      "changes": "unknown",
+      "role": "unknown"
+    }
+  ],
+  "props": [],
+  "environments": [
+    {
+      "name": "day",
+      "visualTraits": "unknown",
+      "changes": "unknown",
+      "role": "time"
+    },
+    {
+      "name": "night",
+      "visualTraits": "unknown",
+      "changes": "unknown",
+      "role": "time"
+    },
+    {
+      "name": "above",
+      "visualTraits": "unknown",
+      "changes": "unknown",
+      "role": "location"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Line 1",
+      "location": "unknown",
+      "action": "unknown",
+      "actorsInvolved": ["ወኑኃ"]
+    },
+    {
+      "title": "Line 2",
+      "location": "unknown",
+      "action": "unknown",
+      "actorsInvolved": ["ወሕፀራ"]
+    },
+    {
+      "title": "Line 3",
+      "location": "unknown",
+      "action": "unknown",
+      "actorsInvolved": ["ምሕዋረ"]
+    },
+    {
+      "title": "Line 4",
+      "location": "unknown",
+      "action": "unknown",
+      "actorsInvolved": []
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "anchor_day",
+        "description": "day"
+      },
+      {
+        "id": "anchor_night",
+        "description": "night"
+      },
+      {
+        "id": "anchor_above",
+        "description": "above"
+      }
+    ],
+    "paths": []
+  }
+}
+```

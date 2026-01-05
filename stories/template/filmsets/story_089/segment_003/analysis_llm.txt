@@ -1,0 +1,93 @@
+```json
+{
+  "actors": [
+    {
+      "name": "Wind",
+      "visualTraits": ["moving air"],
+      "changes": [],
+      "role": "natural element that moves and interacts with other elements"
+    },
+    {
+      "name": "Water",
+      "visualTraits": ["liquid"],
+      "changes": [],
+      "role": "natural element that can be moved by wind or storm"
+    }
+  ],
+  "props": [
+    {
+      "name": "Storm",
+      "visualTraits": ["cloudy mass"],
+      "changes": [],
+      "role": "weather phenomenon that can carry rain"
+    },
+    {
+      "name": "Rain",
+      "visualTraits": ["drops"],
+      "changes": [],
+      "role": "precipitation that falls from the storm"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Earth",
+      "visualTraits": ["solid ground"],
+      "changes": [],
+      "role": "setting for all interactions"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Wind over Earth",
+      "location": "Earth",
+      "action": "Wind moves across the earth",
+      "actorsInvolved": ["Wind", "Earth"]
+    },
+    {
+      "title": "Storm over Earth",
+      "location": "Earth",
+      "action": "Storm moves across the earth",
+      "actorsInvolved": ["Storm", "Earth"]
+    },
+    {
+      "title": "Storm Rainfall over Earth",
+      "location": "Earth",
+      "action": "Storm carries rain that falls onto the earth",
+      "actorsInvolved": ["Storm", "Rain", "Earth"]
+    },
+    {
+      "title": "Water movement",
+      "location": "Earth",
+      "action": "Water moves across the earth",
+      "actorsInvolved": ["Water", "Earth"]
+    },
+    {
+      "title": "Earth movement",
+      "location": "Earth",
+      "action": "Earth is the backdrop for all actions",
+      "actorsInvolved": ["Earth"]
+    },
+    {
+      "title": "Storm over Earth again",
+      "location": "Earth",
+      "action": "Storm moves across the earth",
+      "actorsInvolved": ["Storm", "Earth"]
+    },
+    {
+      "title": "Storm and Water",
+      "location": "Earth",
+      "action": "Storm interacts with water on the earth",
+      "actorsInvolved": ["Storm", "Water", "Earth"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "Earth",
+        "description": "solid ground"
+      }
+    ],
+    "paths": []
+  }
+}
+```

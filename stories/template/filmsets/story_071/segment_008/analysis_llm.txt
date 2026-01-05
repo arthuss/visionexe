@@ -1,0 +1,122 @@
+```json
+{
+  "actors": [
+    {
+      "name": "ወሚኤል",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ወፋኑኤል",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ወመላእት",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ቅዱ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ሳን",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ሳማያት",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ውኡ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ወይወፅኡ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ውእቱ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    }
+  ],
+  "props": [],
+  "environments": [
+    {
+      "name": "ቤት",
+      "visualTraits": null,
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Scene 1",
+      "location": null,
+      "action": null,
+      "actorsInvolved": null
+    },
+    {
+      "title": "Scene 2",
+      "location": null,
+      "action": null,
+      "actorsInvolved": null
+    },
+    {
+      "title": "Scene 3",
+      "location": null,
+      "action": null,
+      "actorsInvolved": null
+    },
+    {
+      "title": "Scene 4",
+      "location": "ቤት",
+      "action": null,
+      "actorsInvolved": ["ወሚኤል"]
+    },
+    {
+      "title": "Scene 5",
+      "location": null,
+      "action": null,
+      "actorsInvolved": ["ወፋኑኤል", "ወመላእት", "ቅዱ"]
+    },
+    {
+      "title": "Scene 6",
+      "location": null,
+      "action": null,
+      "actorsInvolved": ["ሳን", "ሳማያት"]
+    },
+    {
+      "title": "Scene 7",
+      "location": "ቤት",
+      "action": null,
+      "actorsInvolved": ["ውኡ", "ወይወፅኡ", "ውእቱ"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "A1",
+        "description": "house"
+      }
+    ],
+    "paths": []
+  }
+}
+```

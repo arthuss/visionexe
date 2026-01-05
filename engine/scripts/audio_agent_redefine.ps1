@@ -1,1 +1,11 @@
-for ($i=1; $i -le 39; $i++) { python audio_agent.py $i }
+param(
+    [int]$Start = 1,
+    [int]$End = 39,
+    [string]$StoryRoot = "",
+    [string]$StoryConfig = ""
+)
+
+$ScriptRoot = $PSScriptRoot
+$Runner = Join-Path $ScriptRoot "run_audio_agent.ps1"
+
+& $Runner -Start $Start -End $End -StoryRoot $StoryRoot -StoryConfig $StoryConfig

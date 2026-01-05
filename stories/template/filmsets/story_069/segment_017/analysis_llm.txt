@@ -1,0 +1,38 @@
+```json
+{
+  "actors": [],
+  "props": [],
+  "environments": [
+    {
+      "name": "Ground",
+      "visualTraits": ["solid surface"],
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "Water",
+      "visualTraits": ["fluid surface"],
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "World",
+      "visualTraits": ["cosmic expanse"],
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Creation of the World",
+      "location": "World",
+      "action": "world formation",
+      "actorsInvolved": []
+    }
+  ],
+  "blocking": {
+    "anchors": [],
+    "paths": []
+  }
+}
+```

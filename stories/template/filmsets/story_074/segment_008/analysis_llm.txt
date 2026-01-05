@@ -1,0 +1,49 @@
+{
+  "actors": [
+    {
+      "name": "Sun",
+      "visualTraits": ["bright"],
+      "changes": null,
+      "role": "source of light"
+    }
+  ],
+  "props": [],
+  "environments": [
+    {
+      "name": "Sky",
+      "visualTraits": ["open"],
+      "changes": null,
+      "role": "background"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Sunrise",
+      "location": "Sky",
+      "action": "Sun rises, day brightens",
+      "actorsInvolved": ["Sun"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "anchor1",
+        "description": "horizon"
+      },
+      {
+        "id": "anchor2",
+        "description": "sky"
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Sun",
+        "start_anchor": "anchor1",
+        "end_anchor": "anchor2",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Sun rises"
+      }
+    ]
+  }
+}

@@ -138,6 +138,7 @@ def main():
 
     segment_label = story_config.get("segment_label", "segment")
     segment_padding = int(story_config.get("segment_index_padding", 3))
+    chapter_label = story_config.get("chapter_label", "chapter")
     scene_label = story_config.get("scene_label", "scene")
     scene_padding = int(story_config.get("scene_index_padding", 3))
     scene_default = bool(story_config.get("scene_layout_default", False))
@@ -164,7 +165,7 @@ def main():
         if target_type != "all" and asset_type != target_type:
             continue
 
-        chapter_folder = f"chapter_{chapter}"
+        chapter_folder = f"{chapter_label}_{chapter}"
         dest_parts = [filmsets_root, chapter_folder]
 
         if args.layout == "segment":

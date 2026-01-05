@@ -7,7 +7,7 @@ Repo layout (engine + stories).
   - template/    Empty story template (copy or clone).
 
 Story layout:
-- Filmsets: `chapter_###/segment_###/scene_###/timeline_##/` (scene folders are on by default).
+- Filmsets: `<chapter_label>_###/segment_###/scene_###/timeline_##/` (chapter_label defaults to `chapter`, template uses `story`).
 - Subjects: `stories/<story>/subjects/` (registry, profiles, occurrences, asset_bible.json).
 
 Core data flow (minimal):
@@ -48,16 +48,26 @@ Workspace registry:
 - `engine/config/workspaces.json` tracks external Windows/WSL workspaces and entry points.
 - `docs/workspaces.md` summarizes usage and notes.
 
+Batch scripts:
+- `engine/scripts/run_all_chapters.ps1` and `engine/scripts/run_all_chapters_gemini.ps1` support `-Resume` to skip chapters with an existing `DREHBUCH_HOLLYWOOD.md`.
+
 Reallusion library:
-- `engine/workers/reallusion_library_indexer.py` indexes Reallusion assets (Motion Director, Motion Plus, iTalk, paths, terrains).
+- `engine/workers/reallusion_library_indexer.py` indexes Reallusion assets (Motion Director, Motion Plus, iTalk, paths, terrains, ccAvatar/iAvatar).
 - Defaults to `C:\Users\Public\Documents\Reallusion` (override with `--library-root` or `REALLUSION_LIBRARY_ROOT`).
 - Output defaults to `<library-root>/reallusion_library_index.json`.
 
 iClone bridge:
-- `engine/iclone/iclone_remote_server.py` runs inside iClone (RLPy) and exposes a local HTTP API.
+- Install the VisionExe OpenPlugin folder (`engine/iclone/openplugin/visionexe`) into iClone's OpenPlugin path and start the server from **Plugins > VisionExe > Open VisionExe Panel**.
 - `engine/workers/iclone_remote_client.py` sends actions (apply A2F JSON, export iTalk).
+- `load_actor_by_name` uses the Reallusion library index to load actors by asset name (e.g. `vx_henoch_p01`).
+- Default index path comes from `reallusion_index_path` in `engine/iclone/openplugin/visionexe/iclone_config.json` (defaults to Public); override via `REALLUSION_INDEX_PATH`.
+- Actor loading prefers iClone’s Content Manager API (custom/template character roots) and falls back to the JSON index.
+- Use `debug_actor_lookup` to see which source is resolving a name (see `docs/iclone_bridge.md`).
 - `engine/workers/iclone_lipsync_runner.py` runs a full audio->clip->iTalk pass (LoadVocal or A2F JSON).
-- Usage notes in `docs/iclone_bridge.md`.
+- Usage notes (including MD UI waypoint injection) in `docs/iclone_bridge.md`.
+
+Actor loading:
+- `engine/scripts/load_actors.ps1` loads actors by name or from `subjects/actor_queue.jsonl` via the iClone bridge (example: `engine/scripts/load_actors.ps1 -StoryConfig stories/template/config/story_config.json`).
 
 Workflow catalog:
 - `engine/config/workflow_catalog.json` lists agentic workflow mappings.
@@ -78,4 +88,11 @@ Scene building:
 - `docs/scene_building.md` captures the timeline-scoped subject library, start image flow, camera logic, and audio pipeline assumptions.
 
 RAG (small):
-- `engine/scripts/run_rag_small.ps1` indexes `stories/template/data/raw` into Qdrant using `engine/scripts/rag_config_small.json`.
+- `engine/scripts/run_rag_small.ps1` indexes `<data_root>/raw` (from story_config) into Qdrant; override with `-Root` or `-StoryConfig`.
+
+Pose extraction (BVH):
+- `engine/workers/pose_bvh_importer.py` converts SAM3 BVH output into a pose JSON + mapping stub for CC4/iClone.
+- `engine/tools/blender_joint_mapper.py` can auto-build `sam3_bvh_to_cc4.json` from SAM3 + CC4 armatures in Blender.
+- Apply poses in iClone via `apply_pose_json` (see `docs/iclone_bridge.md`).
+- CC4 axis rotation offsets are pulled from `engine/config/pose_mappings/cc4_axis_rotation.json` unless overridden.
+- `apply_pose_json` will also resolve raw BVH joints using the mapping path stored in the pose JSON.

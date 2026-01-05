@@ -1,0 +1,68 @@
+```json
+{
+  "actors": [
+    {
+      "name": "Speaker",
+      "visualTraits": null,
+      "changes": [],
+      "role": "speaker"
+    },
+    {
+      "name": "God",
+      "visualTraits": null,
+      "changes": [],
+      "role": "deity"
+    },
+    {
+      "name": "King",
+      "visualTraits": null,
+      "changes": [],
+      "role": "royal"
+    }
+  ],
+  "props": [],
+  "environments": [],
+  "scenes": [
+    {
+      "title": "Verse 1",
+      "location": null,
+      "action": "reciting prayer",
+      "actorsInvolved": ["Speaker"]
+    },
+    {
+      "title": "Verse 2",
+      "location": null,
+      "action": "reciting prayer",
+      "actorsInvolved": ["Speaker", "God"]
+    },
+    {
+      "title": "Verse 3",
+      "location": null,
+      "action": "reciting prayer",
+      "actorsInvolved": ["Speaker", "King", "God"]
+    },
+    {
+      "title": "Verse 4",
+      "location": null,
+      "action": "reciting prayer",
+      "actorsInvolved": ["Speaker", "King"]
+    },
+    {
+      "title": "Verse 5",
+      "location": null,
+      "action": "reciting prayer",
+      "actorsInvolved": ["Speaker", "King"]
+    },
+    {
+      "title": "Verse 6",
+      "location": null,
+      "action": "reciting prayer",
+      "actorsInvolved": ["Speaker"]
+    }
+  ],
+  "blocking": {
+    "anchors": [],
+    "paths": []
+  }
+}
+```

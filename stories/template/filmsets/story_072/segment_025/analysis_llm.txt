@@ -1,0 +1,116 @@
+```json
+{
+  "actors": [
+    {
+      "name": "Sun",
+      "visualTraits": "bright",
+      "changes": null,
+      "role": "celestial body"
+    },
+    {
+      "name": "Day",
+      "visualTraits": "bright",
+      "changes": null,
+      "role": "celestial body"
+    },
+    {
+      "name": "Night",
+      "visualTraits": "dark",
+      "changes": null,
+      "role": "celestial body"
+    },
+    {
+      "name": "Moon",
+      "visualTraits": "lunar",
+      "changes": null,
+      "role": "celestial body"
+    },
+    {
+      "name": "Star",
+      "visualTraits": "sparkling",
+      "changes": null,
+      "role": "celestial body"
+    },
+    {
+      "name": "West",
+      "visualTraits": "directional",
+      "changes": null,
+      "role": "celestial body"
+    },
+    {
+      "name": "East",
+      "visualTraits": "directional",
+      "changes": null,
+      "role": "celestial body"
+    }
+  ],
+  "props": [],
+  "environments": [
+    {
+      "name": "Sky",
+      "visualTraits": "vast",
+      "changes": null,
+      "role": "environment"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Line 1",
+      "location": "Sky",
+      "action": "You are the Sun and Day",
+      "actorsInvolved": ["Sun", "Day"]
+    },
+    {
+      "title": "Line 2",
+      "location": "Sky",
+      "action": "You are the Night, Moon, and Star",
+      "actorsInvolved": ["Night", "Moon", "Star"]
+    },
+    {
+      "title": "Line 3",
+      "location": "Sky",
+      "action": "You are the West, East, and an unspecified entity",
+      "actorsInvolved": ["West", "East"]
+    },
+    {
+      "title": "Line 4",
+      "location": "Sky",
+      "action": "Star, you are an unspecified entity and East",
+      "actorsInvolved": ["Star", "East"]
+    },
+    {
+      "title": "Line 5",
+      "location": "Sky",
+      "action": "An unspecified entity, Star, and an unspecified entity",
+      "actorsInvolved": ["Star"]
+    },
+    {
+      "title": "Line 6",
+      "location": "Sky",
+      "action": "You are the West and Day",
+      "actorsInvolved": ["West", "Day"]
+    },
+    {
+      "title": "Line 7",
+      "location": "Sky",
+      "action": "Star and East",
+      "actorsInvolved": ["Star", "East"]
+    },
+    {
+      "title": "Line 8",
+      "location": "Sky",
+      "action": "Sky itself",
+      "actorsInvolved": []
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "sky_center",
+        "description": "Center of the sky"
+      }
+    ],
+    "paths": []
+  }
+}
+```

@@ -1,46 +1,34 @@
-# iClone OpenPlugin wrappers
+# iClone OpenPlugin (VisionExe)
 
-These folders are thin wrappers so VisionExe iClone scripts appear in the
-Plugins menu and can be launched without browsing for files.
+Use the **single** VisionExe plugin folder. No loose scripts, no junctions.
 
 ## Install (one-time)
 
-1. Set user environment variables (recommended):
-   - `VISIONEXE_ROOT` = `C:\Users\sasch\visionexe`
-   - `ICLONE_CONFIG_PATH` = `C:\Users\sasch\visionexe\engine\iclone\iclone_config.json`
-2. Create a junction or copy the wrapper folders into iClone's OpenPlugin path:
+Copy this folder to iClone's OpenPlugin path:
 
 ```
-C:\Program Files\Reallusion\iClone 8\Bin64\OpenPlugin
+engine\iclone\openplugin\visionexe
 ```
 
-Recommended (junction):
+Target:
+
+```
+C:\Program Files\Reallusion\iClone 8\Bin64\OpenPlugin\visionexe
+```
+
+Optional helper:
 
 ```powershell
-New-Item -ItemType Junction `
-  -Path "C:\Program Files\Reallusion\iClone 8\Bin64\OpenPlugin\visionexe_remote_server" `
-  -Target "C:\Users\sasch\visionexe\engine\iclone\openplugin\visionexe_remote_server"
-
-New-Item -ItemType Junction `
-  -Path "C:\Program Files\Reallusion\iClone 8\Bin64\OpenPlugin\visionexe_md_probe" `
-  -Target "C:\Users\sasch\visionexe\engine\iclone\openplugin\visionexe_md_probe"
+engine\launchers\Install-iCloneOpenPlugin.ps1 -Mode Copy
 ```
 
-Now launch via **Plugins > VisionExe > Start VisionExe Remote Server** or
-**Run VisionExe MD Probe**.
+## Usage
 
-You can also use the helper installer:
+Restart iClone. Launch via **Plugins > VisionExe > Open VisionExe Panel**,
+then click **Start Server**.
 
-```powershell
-engine\launchers\Install-iCloneOpenPlugin.ps1
+Config lives next to the plugin (edit after install):
+
 ```
-
-Content indexer:
-
-```powershell
-New-Item -ItemType Junction `
-  -Path "C:\Program Files\Reallusion\iClone 8\Bin64\OpenPlugin\visionexe_content_indexer" `
-  -Target "C:\Users\sasch\visionexe\engine\iclone\openplugin\visionexe_content_indexer"
+C:\Program Files\Reallusion\iClone 8\Bin64\OpenPlugin\visionexe\iclone_config.json
 ```
-
-Launch via **Plugins > VisionExe > Run VisionExe Content Indexer**.

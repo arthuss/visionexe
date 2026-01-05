@@ -1,0 +1,53 @@
+```json
+{
+  "actors": [
+    {
+      "name": "Sun",
+      "visualTraits": ["bright"],
+      "changes": [],
+      "role": "celestial body"
+    }
+  ],
+  "props": [],
+  "environments": [
+    {
+      "name": "Day",
+      "visualTraits": ["bright"],
+      "changes": [],
+      "role": "time of day"
+    },
+    {
+      "name": "New Year",
+      "visualTraits": [],
+      "changes": [],
+      "role": "time period"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Pre-Year Dawn",
+      "location": "Day",
+      "action": "Sun rises",
+      "actorsInvolved": ["Sun"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "anchor1",
+        "description": "East horizon"
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Sun",
+        "start_anchor": "anchor1",
+        "end_anchor": null,
+        "motion": "rise",
+        "duration_sec": null,
+        "notes": "Sun moves from horizon into the sky"
+      }
+    ]
+  }
+}
+```

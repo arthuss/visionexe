@@ -1,0 +1,44 @@
+```json
+{
+  "actors": [
+    {
+      "name": "ወእግዚኦሙ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "deity"
+    }
+  ],
+  "props": [],
+  "environments": [
+    {
+      "name": "ቤት",
+      "visualTraits": null,
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "ሰማይ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Chant in the House",
+      "location": "ቤት",
+      "action": "A chant praising ወእግዚኦሙ, referencing the sky and the house.",
+      "actorsInvolved": ["ወእግዚኦሙ"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "house_anchor",
+        "description": "inside the house"
+      }
+    ],
+    "paths": []
+  }
+}
+```

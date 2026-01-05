@@ -1,0 +1,74 @@
+```json
+{
+  "actors": [
+    {"name":"ወልዑ","visualTraits":null,"changes":null,"role":"character"},
+    {"name":"ወውኅጡ","visualTraits":null,"changes":null,"role":"character"},
+    {"name":"መብዝኅቶሙ","visualTraits":null,"changes":null,"role":"character"},
+    {"name":"ለዝኩ","visualTraits":null,"changes":null,"role":"character"},
+    {"name":"ባግዕ","visualTraits":null,"changes":null,"role":"character"},
+    {"name":"ናብስት","visualTraits":null,"changes":null,"role":"character"},
+    {"name":"ወንምርት","visualTraits":null,"changes":null,"role":"character"},
+    {"name":"ወሐራውያ","visualTraits":null,"changes":null,"role":"character"},
+    {"name":"ገዳም","visualTraits":null,"changes":null,"role":"character"},
+    {"name":"ልዑ","visualTraits":null,"changes":null,"role":"character"},
+    {"name":"ምስሌሆሙ","visualTraits":null,"changes":null,"role":"character"},
+    {"name":"ወውዐይዎ","visualTraits":null,"changes":null,"role":"character"},
+    {"name":"ማኅፈድ","visualTraits":null,"changes":null,"role":"character"},
+    {"name":"ወረይዎ","visualTraits":null,"changes":null,"role":"character"}
+  ],
+  "props": [],
+  "environments": [
+    {"name":"ቤት","visualTraits":"house","changes":null,"role":"setting"}
+  ],
+  "scenes": [
+    {
+      "title":"Line 1",
+      "location":"ቤት",
+      "action":"ወልዑ፡ወውኅጡ፡",
+      "actorsInvolved":["ወልዑ","ወውኅጡ"]
+    },
+    {
+      "title":"Line 2",
+      "location":"ቤት",
+      "action":"መብዝኅቶሙ፡ለዝኩ፡ባግዕ፡",
+      "actorsInvolved":["መብዝኅቶሙ","ለዝኩ","ባግዕ"]
+    },
+    {
+      "title":"Line 3",
+      "location":"ቤት",
+      "action":"ናብስት፡ወንምርት፡",
+      "actorsInvolved":["ናብስት","ወንምርት"]
+    },
+    {
+      "title":"Line 4",
+      "location":"ቤት",
+      "action":"ወሐራውያ፡ገዳም፡ልዑ፡",
+      "actorsInvolved":["ወሐራውያ","ገዳም","ልዑ"]
+    },
+    {
+      "title":"Line 5",
+      "location":"ቤት",
+      "action":"ምስሌሆሙ፡ወውዐይዎ፡ለዝኩ፡",
+      "actorsInvolved":["ምስሌሆሙ","ወውዐይዎ","ለዝኩ"]
+    },
+    {
+      "title":"Line 6",
+      "location":"ቤት",
+      "action":"ማኅፈድ፡ወረይዎ፡ለዝኩ፡",
+      "actorsInvolved":["ማኅፈድ","ወረይዎ","ለዝኩ"]
+    },
+    {
+      "title":"Line 7",
+      "location":"ቤት",
+      "action":"ቤት፨",
+      "actorsInvolved":null
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {"id":"house","description":"house"}
+    ],
+    "paths": []
+  }
+}
+```

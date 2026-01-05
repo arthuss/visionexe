@@ -1,0 +1,75 @@
+```json
+{
+  "actors": [
+    {
+      "name": "ሰማዕኩ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "speaker"
+    },
+    {
+      "name": "መላእት",
+      "visualTraits": null,
+      "changes": null,
+      "role": "messenger"
+    },
+    {
+      "name": "ምድር",
+      "visualTraits": null,
+      "changes": null,
+      "role": "receiver"
+    },
+    {
+      "name": "ሰብእ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "receiver"
+    }
+  ],
+  "props": [],
+  "environments": [
+    {
+      "name": "ሰማዕኩ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "environment"
+    },
+    {
+      "name": "ምድር",
+      "visualTraits": null,
+      "changes": null,
+      "role": "environment"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Heavenly Message",
+      "location": "Heaven and Earth",
+      "action": "Heaven speaks; an angel descends; earth and people receive the message.",
+      "actorsInvolved": ["ሰማዕኩ", "መላእት", "ምድር", "ሰብእ"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "anchor_heaven",
+        "description": "heaven"
+      },
+      {
+        "id": "anchor_earth",
+        "description": "earth"
+      }
+    ],
+    "paths": [
+      {
+        "actor": "መላእት",
+        "start_anchor": "anchor_heaven",
+        "end_anchor": "anchor_earth",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "angel descends from heaven to earth"
+      }
+    ]
+  }
+}
+```

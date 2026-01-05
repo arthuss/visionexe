@@ -1,0 +1,5222 @@
+{
+  "schema_version": "pose_bvh_v1",
+  "generated_at": "2026-01-05 12:16:23",
+  "pose_id": "cctestbvh",
+  "coverage": "full_body",
+  "source": {
+    "path": "C:\\Users\\sasch\\visionexe\\cctestbvh.bvh",
+    "frame_time": 0.033333,
+    "frame_count": 250,
+    "joint_order": [
+      "RL_BoneRoot",
+      "CC_Base_Hip",
+      "CC_Base_Pelvis",
+      "CC_Base_L_Thigh",
+      "CC_Base_L_Calf",
+      "CC_Base_L_Foot",
+      "CC_Base_L_ToeBaseShareBone",
+      "CC_Base_L_ToeBase",
+      "CC_Base_L_PinkyToe1",
+      "CC_Base_L_RingToe1",
+      "CC_Base_L_MidToe1",
+      "CC_Base_L_IndexToe1",
+      "CC_Base_L_BigToe1",
+      "CC_Base_L_CalfTwist01",
+      "CC_Base_L_CalfTwist02",
+      "CC_Base_L_KneeShareBone",
+      "CC_Base_L_ThighTwist01",
+      "CC_Base_L_ThighTwist02",
+      "CC_Base_R_Thigh",
+      "CC_Base_R_Calf",
+      "CC_Base_R_KneeShareBone",
+      "CC_Base_R_Foot",
+      "CC_Base_R_ToeBase",
+      "CC_Base_R_BigToe1",
+      "CC_Base_R_PinkyToe1",
+      "CC_Base_R_RingToe1",
+      "CC_Base_R_IndexToe1",
+      "CC_Base_R_MidToe1",
+      "CC_Base_R_ToeBaseShareBone",
+      "CC_Base_R_CalfTwist01",
+      "CC_Base_R_CalfTwist02",
+      "CC_Base_R_ThighTwist01",
+      "CC_Base_R_ThighTwist02",
+      "CC_Base_Waist",
+      "CC_Base_Spine01",
+      "CC_Base_Spine02",
+      "CC_Base_NeckTwist01",
+      "CC_Base_NeckTwist02",
+      "CC_Base_Head",
+      "CC_Base_FacialBone",
+      "CC_Base_JawRoot",
+      "CC_Base_Tongue01",
+      "CC_Base_Tongue02",
+      "CC_Base_Tongue03",
+      "CC_Base_Teeth02",
+      "CC_Base_R_Eye",
+      "CC_Base_L_Eye",
+      "CC_Base_UpperJaw",
+      "CC_Base_Teeth01",
+      "CC_Base_L_Clavicle",
+      "CC_Base_L_Upperarm",
+      "CC_Base_L_Forearm",
+      "CC_Base_L_ForearmTwist01",
+      "CC_Base_L_ForearmTwist02",
+      "CC_Base_L_ElbowShareBone",
+      "CC_Base_L_Hand",
+      "CC_Base_L_Pinky1",
+      "CC_Base_L_Pinky2",
+      "CC_Base_L_Pinky3",
+      "CC_Base_L_Ring1",
+      "CC_Base_L_Ring2",
+      "CC_Base_L_Ring3",
+      "CC_Base_L_Mid1",
+      "CC_Base_L_Mid2",
+      "CC_Base_L_Mid3",
+      "CC_Base_L_Index1",
+      "CC_Base_L_Index2",
+      "CC_Base_L_Index3",
+      "CC_Base_L_Thumb1",
+      "CC_Base_L_Thumb2",
+      "CC_Base_L_Thumb3",
+      "CC_Base_L_UpperarmTwist01",
+      "CC_Base_L_UpperarmTwist02",
+      "CC_Base_L_RibsTwist",
+      "CC_Base_L_Breast",
+      "CC_Base_R_RibsTwist",
+      "CC_Base_R_Breast",
+      "CC_Base_R_Clavicle",
+      "CC_Base_R_Upperarm",
+      "CC_Base_R_Forearm",
+      "CC_Base_R_ElbowShareBone",
+      "CC_Base_R_ForearmTwist01",
+      "CC_Base_R_ForearmTwist02",
+      "CC_Base_R_Hand",
+      "CC_Base_R_Ring1",
+      "CC_Base_R_Ring2",
+      "CC_Base_R_Ring3",
+      "CC_Base_R_Mid1",
+      "CC_Base_R_Mid2",
+      "CC_Base_R_Mid3",
+      "CC_Base_R_Thumb1",
+      "CC_Base_R_Thumb2",
+      "CC_Base_R_Thumb3",
+      "CC_Base_R_Index1",
+      "CC_Base_R_Index2",
+      "CC_Base_R_Index3",
+      "CC_Base_R_Pinky1",
+      "CC_Base_R_Pinky2",
+      "CC_Base_R_Pinky3",
+      "CC_Base_R_UpperarmTwist01",
+      "CC_Base_R_UpperarmTwist02"
+    ]
+  },
+  "pose": {
+    "RL_BoneRoot": {
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": -0.0
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "CC_Base_Hip": {
+      "rotation": {
+        "x": -7e-06,
+        "y": 0.0,
+        "z": -0.0
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 98.345078,
+        "z": 1e-06
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.0,
+        98.345078,
+        0.0
+      ]
+    },
+    "CC_Base_Pelvis": {
+      "rotation": {
+        "x": -1.4e-05,
+        "y": 0.0,
+        "z": -0.0
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 8e-06,
+        "z": 8e-06
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.0,
+        8e-06,
+        6e-06
+      ]
+    },
+    "CC_Base_L_Thigh": {
+      "rotation": {
+        "x": 6e-06,
+        "y": 3e-06,
+        "z": -5e-06
+      },
+      "translation": {
+        "x": 9.244802,
+        "y": -2.41993,
+        "z": 2.002783
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        9.244802,
+        -2.419914,
+        2.002799
+      ]
+    },
+    "CC_Base_L_Calf": {
+      "rotation": {
+        "x": -2.1e-05,
+        "y": 1e-06,
+        "z": -0.0
+      },
+      "translation": {
+        "x": -0.864114,
+        "y": -44.065022,
+        "z": 1.64003
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -0.864112,
+        -44.065022,
+        1.640021
+      ]
+    },
+    "CC_Base_L_Foot": {
+      "rotation": {
+        "x": 4e-06,
+        "y": -2e-06,
+        "z": 0.0
+      },
+      "translation": {
+        "x": -1.154068,
+        "y": -42.589905,
+        "z": -0.282021
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -1.154069,
+        -42.589909,
+        -0.282025
+      ]
+    },
+    "CC_Base_L_ToeBaseShareBone": {
+      "rotation": {
+        "x": -1.4e-05,
+        "y": 4e-06,
+        "z": -1e-06
+      },
+      "translation": {
+        "x": 0.492021,
+        "y": -5.638465,
+        "z": 11.537759
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -0.18892,
+        -1.20684,
+        12.793047
+      ]
+    },
+    "CC_Base_L_ToeBase": {
+      "rotation": {
+        "x": -8e-06,
+        "y": 2e-06,
+        "z": -0.0
+      },
+      "translation": {
+        "x": 0.492021,
+        "y": -5.638466,
+        "z": 11.537758
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.492022,
+        -5.638462,
+        11.537758
+      ]
+    },
+    "CC_Base_L_PinkyToe1": {
+      "rotation": {
+        "x": 1e-06,
+        "y": 2e-06,
+        "z": -0.0
+      },
+      "translation": {
+        "x": 2.377009,
+        "y": -0.444553,
+        "z": 0.224958
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -0.0769,
+        -1.136328,
+        2.195532
+      ]
+    },
+    "CC_Base_L_RingToe1": {
+      "rotation": {
+        "x": 1e-06,
+        "y": 1e-06,
+        "z": -1e-06
+      },
+      "translation": {
+        "x": 1.194618,
+        "y": -0.175758,
+        "z": 1.180245
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.042587,
+        -1.2856,
+        2.112566
+      ]
+    },
+    "CC_Base_L_MidToe1": {
+      "rotation": {
+        "x": 3e-06,
+        "y": -0.0,
+        "z": -3e-06
+      },
+      "translation": {
+        "x": -0.029241,
+        "y": -0.186989,
+        "z": 1.982125
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.06654,
+        -0.961016,
+        2.278055
+      ]
+    },
+    "CC_Base_L_IndexToe1": {
+      "rotation": {
+        "x": 4e-06,
+        "y": 0.0,
+        "z": -0.0
+      },
+      "translation": {
+        "x": -1.378447,
+        "y": 0.028817,
+        "z": 2.12583
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.074155,
+        -1.007245,
+        2.257759
+      ]
+    },
+    "CC_Base_L_BigToe1": {
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      },
+      "translation": {
+        "x": -3.199511,
+        "y": -0.160054,
+        "z": 1.900293
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.027124,
+        -0.386895,
+        2.442762
+      ]
+    },
+    "CC_Base_L_CalfTwist01": {
+      "rotation": {
+        "x": -5e-06,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "translation": {
+        "x": -0.0,
+        "y": 1.9e-05,
+        "z": 1e-06
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -2e-06,
+        0.0,
+        2e-06
+      ]
+    },
+    "CC_Base_L_CalfTwist02": {
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      },
+      "translation": {
+        "x": -0.577032,
+        "y": -21.294958,
+        "z": -0.141009
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -0.577777,
+        -21.294935,
+        -0.14159
+      ]
+    },
+    "CC_Base_L_KneeShareBone": {
+      "rotation": {
+        "x": -1e-05,
+        "y": -0.0,
+        "z": 0.0
+      },
+      "translation": {
+        "x": -1e-06,
+        "y": 2e-05,
+        "z": 1e-06
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -0.331302,
+        -14.196632,
+        0.217269
+      ]
+    },
+    "CC_Base_L_ThighTwist01": {
+      "rotation": {
+        "x": -2.6e-05,
+        "y": 1e-06,
+        "z": -1e-06
+      },
+      "translation": {
+        "x": 3e-06,
+        "y": 2.4e-05,
+        "z": 2e-06
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        3e-06,
+        2.3e-05,
+        -9e-06
+      ]
+    },
+    "CC_Base_L_ThighTwist02": {
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "translation": {
+        "x": -0.432057,
+        "y": -22.032524,
+        "z": 0.820011
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -0.43062,
+        -22.032486,
+        0.821744
+      ]
+    },
+    "CC_Base_R_Thigh": {
+      "rotation": {
+        "x": 8e-06,
+        "y": -4e-06,
+        "z": 5e-06
+      },
+      "translation": {
+        "x": -9.244801,
+        "y": -2.419923,
+        "z": 2.002794
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -9.244802,
+        -2.419907,
+        2.00281
+      ]
+    },
+    "CC_Base_R_Calf": {
+      "rotation": {
+        "x": 4e-06,
+        "y": -0.0,
+        "z": -1e-06
+      },
+      "translation": {
+        "x": 0.86411,
+        "y": -44.065022,
+        "z": 1.640033
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.864109,
+        -44.065033,
+        1.640021
+      ]
+    },
+    "CC_Base_R_KneeShareBone": {
+      "rotation": {
+        "x": -5e-06,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "translation": {
+        "x": 2e-06,
+        "y": 1.6e-05,
+        "z": -1e-06
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.331302,
+        -14.196644,
+        0.217268
+      ]
+    },
+    "CC_Base_R_Foot": {
+      "rotation": {
+        "x": 8e-06,
+        "y": 1e-06,
+        "z": 1e-06
+      },
+      "translation": {
+        "x": 1.154071,
+        "y": -42.589912,
+        "z": -0.282014
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        1.154073,
+        -42.589924,
+        -0.282017
+      ]
+    },
+    "CC_Base_R_ToeBase": {
+      "rotation": {
+        "x": -1.4e-05,
+        "y": -1e-06,
+        "z": -1e-06
+      },
+      "translation": {
+        "x": -0.492021,
+        "y": -5.638465,
+        "z": 11.53776
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -0.492022,
+        -5.638468,
+        11.537759
+      ]
+    },
+    "CC_Base_R_BigToe1": {
+      "rotation": {
+        "x": 2e-06,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "translation": {
+        "x": 3.199509,
+        "y": -0.160054,
+        "z": 1.900302
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -0.027125,
+        -0.386896,
+        2.442764
+      ]
+    },
+    "CC_Base_R_PinkyToe1": {
+      "rotation": {
+        "x": 9e-06,
+        "y": -1e-06,
+        "z": 1e-06
+      },
+      "translation": {
+        "x": -2.377012,
+        "y": -0.444552,
+        "z": 0.224962
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.076901,
+        -1.136328,
+        2.195534
+      ]
+    },
+    "CC_Base_R_RingToe1": {
+      "rotation": {
+        "x": -1.1e-05,
+        "y": 1e-06,
+        "z": -0.0
+      },
+      "translation": {
+        "x": -1.194619,
+        "y": -0.175757,
+        "z": 1.180242
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -0.042588,
+        -1.285601,
+        2.112566
+      ]
+    },
+    "CC_Base_R_IndexToe1": {
+      "rotation": {
+        "x": -7e-06,
+        "y": 1e-06,
+        "z": 1e-06
+      },
+      "translation": {
+        "x": 1.378446,
+        "y": 0.028818,
+        "z": 2.125837
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -0.074156,
+        -1.007245,
+        2.257759
+      ]
+    },
+    "CC_Base_R_MidToe1": {
+      "rotation": {
+        "x": 1e-06,
+        "y": -0.0,
+        "z": 2e-06
+      },
+      "translation": {
+        "x": 0.029238,
+        "y": -0.186988,
+        "z": 1.98212
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -0.06654,
+        -0.961017,
+        2.278057
+      ]
+    },
+    "CC_Base_R_ToeBaseShareBone": {
+      "rotation": {
+        "x": -9e-06,
+        "y": -1e-06,
+        "z": 0.0
+      },
+      "translation": {
+        "x": -0.492021,
+        "y": -5.638465,
+        "z": 11.53776
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.18892,
+        -1.20685,
+        12.79305
+      ]
+    },
+    "CC_Base_R_CalfTwist01": {
+      "rotation": {
+        "x": -1e-05,
+        "y": -0.0,
+        "z": 1e-06
+      },
+      "translation": {
+        "x": 1e-06,
+        "y": 2.4e-05,
+        "z": -0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        2e-06,
+        8e-06,
+        0.0
+      ]
+    },
+    "CC_Base_R_CalfTwist02": {
+      "rotation": {
+        "x": 5e-06,
+        "y": 0.0,
+        "z": -1e-06
+      },
+      "translation": {
+        "x": 0.577037,
+        "y": -21.294956,
+        "z": -0.141007
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.577776,
+        -21.294922,
+        -0.14159
+      ]
+    },
+    "CC_Base_R_ThighTwist01": {
+      "rotation": {
+        "x": -1e-06,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "translation": {
+        "x": -5e-06,
+        "y": -8e-06,
+        "z": 7e-06
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -2e-06,
+        -8e-06,
+        -7e-06
+      ]
+    },
+    "CC_Base_R_ThighTwist02": {
+      "rotation": {
+        "x": -0.0,
+        "y": -0.0,
+        "z": -0.0
+      },
+      "translation": {
+        "x": 0.432061,
+        "y": -22.032471,
+        "z": 0.820007
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.430618,
+        -22.032455,
+        0.821746
+      ]
+    },
+    "CC_Base_Waist": {
+      "rotation": {
+        "x": -3e-06,
+        "y": 0.0,
+        "z": -0.0
+      },
+      "translation": {
+        "x": -0.0,
+        "y": 9.679558,
+        "z": 6.167155
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -0.0,
+        9.679573,
+        6.167155
+      ]
+    },
+    "CC_Base_Spine01": {
+      "rotation": {
+        "x": 1.1e-05,
+        "y": -0.0,
+        "z": 0.0
+      },
+      "translation": {
+        "x": -0.0,
+        "y": 4.839804,
+        "z": 0.496908
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -0.0,
+        4.839821,
+        0.496908
+      ]
+    },
+    "CC_Base_Spine02": {
+      "rotation": {
+        "x": -1e-05,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "translation": {
+        "x": -0.0,
+        "y": 12.099511,
+        "z": 0.496904
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -0.0,
+        12.099503,
+        0.496905
+      ]
+    },
+    "CC_Base_NeckTwist01": {
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": 0.0
+      },
+      "translation": {
+        "x": 2e-06,
+        "y": 24.19902,
+        "z": 0.497943
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        2e-06,
+        24.19902,
+        0.497941
+      ]
+    },
+    "CC_Base_NeckTwist02": {
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.0,
+        4.680695,
+        1.948614
+      ]
+    },
+    "CC_Base_Head": {
+      "rotation": {
+        "x": 3e-06,
+        "y": 0.0,
+        "z": -0.0
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.0,
+        4.68071,
+        1.948609
+      ]
+    },
+    "CC_Base_FacialBone": {
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "translation": {
+        "x": -0.0,
+        "y": 4.6e-05,
+        "z": 1.4e-05
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -0.0,
+        4.6e-05,
+        1.2e-05
+      ]
+    },
+    "CC_Base_JawRoot": {
+      "rotation": {
+        "x": 6e-06,
+        "y": -5e-06,
+        "z": -6e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.899748,
+        "z": 2.605408
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.0,
+        0.899765,
+        2.605409
+      ]
+    },
+    "CC_Base_Tongue01": {
+      "rotation": {
+        "x": -5e-06,
+        "y": 6e-06,
+        "z": 9e-06
+      },
+      "translation": {
+        "x": 1e-06,
+        "y": -1.380705,
+        "z": 2.894319
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.0,
+        -1.380722,
+        2.894316
+      ]
+    },
+    "CC_Base_Tongue02": {
+      "rotation": {
+        "x": -7e-06,
+        "y": 0.0,
+        "z": -5e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": -0.286756,
+        "z": 1.057733
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.0,
+        -0.286789,
+        1.057735
+      ]
+    },
+    "CC_Base_Tongue03": {
+      "rotation": {
+        "x": 3e-06,
+        "y": -1e-06,
+        "z": 2e-06
+      },
+      "translation": {
+        "x": -2e-06,
+        "y": -0.666459,
+        "z": 1.459818
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -0.000214,
+        -1.459854,
+        -0.666412
+      ]
+    },
+    "CC_Base_Teeth02": {
+      "rotation": {
+        "x": -1e-05,
+        "y": 2e-06,
+        "z": 2.2e-05
+      },
+      "translation": {
+        "x": 1e-06,
+        "y": -1.358441,
+        "z": 2.973691
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -5.5e-05,
+        3.1987,
+        0.503197
+      ]
+    },
+    "CC_Base_R_Eye": {
+      "rotation": {
+        "x": -1.1e-05,
+        "y": -0.009375,
+        "z": 0.006032
+      },
+      "translation": {
+        "x": -3.187505,
+        "y": 5.79549,
+        "z": 8.464163
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -0.001134,
+        1.212952,
+        -7.707895
+      ]
+    },
+    "CC_Base_L_Eye": {
+      "rotation": {
+        "x": -1e-05,
+        "y": 0.009373,
+        "z": -0.006037
+      },
+      "translation": {
+        "x": 3.187506,
+        "y": 5.795505,
+        "z": 8.464167
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.001133,
+        1.212952,
+        -7.707895
+      ]
+    },
+    "CC_Base_UpperJaw": {
+      "rotation": {
+        "x": -1.2e-05,
+        "y": 0.0,
+        "z": -0.0
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 1.652882,
+        "z": 6.771815
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.0,
+        1.652893,
+        6.771813
+      ]
+    },
+    "CC_Base_Teeth01": {
+      "rotation": {
+        "x": -2e-06,
+        "y": -0.0,
+        "z": -6e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": -0.002731,
+        "z": 0.030773
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        1e-06,
+        0.030518,
+        0.004803
+      ]
+    },
+    "CC_Base_L_Clavicle": {
+      "rotation": {
+        "x": 0.0,
+        "y": -7e-06,
+        "z": 7e-06
+      },
+      "translation": {
+        "x": 4.622401,
+        "y": 19.359268,
+        "z": 0.497944
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        4.622401,
+        19.359253,
+        0.497941
+      ]
+    },
+    "CC_Base_L_Upperarm": {
+      "rotation": {
+        "x": 0.0,
+        "y": 1.2e-05,
+        "z": 5e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        11.782274,
+        -3.1e-05,
+        -2.912083
+      ]
+    },
+    "CC_Base_L_Forearm": {
+      "rotation": {
+        "x": 2e-06,
+        "y": -0.0,
+        "z": 0.0
+      },
+      "translation": {
+        "x": 27.711304,
+        "y": 1.188782,
+        "z": -0.077748
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        27.711315,
+        1.188797,
+        -0.077748
+      ]
+    },
+    "CC_Base_L_ForearmTwist01": {
+      "rotation": {
+        "x": -1e-06,
+        "y": 4e-06,
+        "z": -6e-06
+      },
+      "translation": {
+        "x": -8e-06,
+        "y": -4e-06,
+        "z": 1e-06
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        3e-06
+      ]
+    },
+    "CC_Base_L_ForearmTwist02": {
+      "rotation": {
+        "x": 7e-06,
+        "y": -9e-06,
+        "z": -1e-06
+      },
+      "translation": {
+        "x": 10.210191,
+        "y": 0.433929,
+        "z": 1.608002
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        10.210175,
+        0.434296,
+        1.608105
+      ]
+    },
+    "CC_Base_L_ElbowShareBone": {
+      "rotation": {
+        "x": -1e-06,
+        "y": 1e-05,
+        "z": -6e-06
+      },
+      "translation": {
+        "x": -3e-06,
+        "y": 1.1e-05,
+        "z": 1e-06
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        6.875801,
+        0.265884,
+        0.466823
+      ]
+    },
+    "CC_Base_L_Hand": {
+      "rotation": {
+        "x": -5e-06,
+        "y": -4e-06,
+        "z": -3e-06
+      },
+      "translation": {
+        "x": 20.420387,
+        "y": 0.86792,
+        "z": 3.216007
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        20.420387,
+        0.867905,
+        3.216011
+      ]
+    },
+    "CC_Base_L_Pinky1": {
+      "rotation": {
+        "x": 8e-06,
+        "y": 2e-06,
+        "z": -2e-06
+      },
+      "translation": {
+        "x": 9.773047,
+        "y": 0.285776,
+        "z": -2.814831
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        9.773033,
+        0.285812,
+        -2.814838
+      ]
+    },
+    "CC_Base_L_Pinky2": {
+      "rotation": {
+        "x": -7e-06,
+        "y": 1e-06,
+        "z": 1e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        2.502243,
+        0.431992,
+        -0.937594
+      ]
+    },
+    "CC_Base_L_Pinky3": {
+      "rotation": {
+        "x": -3e-06,
+        "y": -4e-06,
+        "z": 3e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        1.383156,
+        0.268433,
+        -0.648903
+      ]
+    },
+    "CC_Base_L_Ring1": {
+      "rotation": {
+        "x": 1e-06,
+        "y": 4e-06,
+        "z": 4e-06
+      },
+      "translation": {
+        "x": 10.230474,
+        "y": 0.774049,
+        "z": -1.430985
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        10.230453,
+        0.774094,
+        -1.430986
+      ]
+    },
+    "CC_Base_L_Ring2": {
+      "rotation": {
+        "x": 6e-06,
+        "y": -2.1e-05,
+        "z": -1e-05
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        3.865189,
+        0.281006,
+        -0.62769
+      ]
+    },
+    "CC_Base_L_Ring3": {
+      "rotation": {
+        "x": -4e-06,
+        "y": 1.8e-05,
+        "z": 1e-05
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        1.964272,
+        0.174927,
+        -0.427748
+      ]
+    },
+    "CC_Base_L_Mid1": {
+      "rotation": {
+        "x": 0.0,
+        "y": -1.8e-05,
+        "z": 1e-06
+      },
+      "translation": {
+        "x": 11.013775,
+        "y": 1.247541,
+        "z": 0.267275
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        11.013763,
+        1.247543,
+        0.26727
+      ]
+    },
+    "CC_Base_L_Mid2": {
+      "rotation": {
+        "x": 1e-06,
+        "y": 6e-06,
+        "z": 1e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        4.06543,
+        -0.105621,
+        -0.564656
+      ]
+    },
+    "CC_Base_L_Mid3": {
+      "rotation": {
+        "x": 2e-06,
+        "y": 1.1e-05,
+        "z": 1e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        2.522667,
+        0.219238,
+        -0.725791
+      ]
+    },
+    "CC_Base_L_Index1": {
+      "rotation": {
+        "x": 6e-06,
+        "y": -9e-06,
+        "z": -6e-06
+      },
+      "translation": {
+        "x": 11.512151,
+        "y": 0.724537,
+        "z": 2.261808
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        11.512138,
+        0.724579,
+        2.261798
+      ]
+    },
+    "CC_Base_L_Index2": {
+      "rotation": {
+        "x": -0.0,
+        "y": 7e-06,
+        "z": 4e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        3.255089,
+        0.025101,
+        -0.392437
+      ]
+    },
+    "CC_Base_L_Index3": {
+      "rotation": {
+        "x": 8e-06,
+        "y": -2.2e-05,
+        "z": -3e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        2.344467,
+        -0.052673,
+        -0.618134
+      ]
+    },
+    "CC_Base_L_Thumb1": {
+      "rotation": {
+        "x": -7e-06,
+        "y": -7e-06,
+        "z": -8e-06
+      },
+      "translation": {
+        "x": 2.93819,
+        "y": -0.485486,
+        "z": 1.901926
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        2.938164,
+        -0.485428,
+        1.901904
+      ]
+    },
+    "CC_Base_L_Thumb2": {
+      "rotation": {
+        "x": 0.0,
+        "y": -2e-06,
+        "z": 5e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        4.407372,
+        -0.728088,
+        2.852875
+      ]
+    },
+    "CC_Base_L_Thumb3": {
+      "rotation": {
+        "x": 2e-06,
+        "y": 4e-06,
+        "z": -4e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        2.872017,
+        -0.071198,
+        1.814013
+      ]
+    },
+    "CC_Base_L_UpperarmTwist01": {
+      "rotation": {
+        "x": 1e-05,
+        "y": 1e-06,
+        "z": -7e-06
+      },
+      "translation": {
+        "x": -2e-05,
+        "y": -4.9e-05,
+        "z": -3e-06
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -1.9e-05,
+        -4.6e-05,
+        -0.0
+      ]
+    },
+    "CC_Base_L_UpperarmTwist02": {
+      "rotation": {
+        "x": -1e-05,
+        "y": -1e-06,
+        "z": 6e-06
+      },
+      "translation": {
+        "x": 13.855665,
+        "y": 0.594487,
+        "z": -0.038881
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        13.855709,
+        0.593201,
+        -0.037598
+      ]
+    },
+    "CC_Base_L_RibsTwist": {
+      "rotation": {
+        "x": 1.2e-05,
+        "y": -0.0,
+        "z": 2.3e-05
+      },
+      "translation": {
+        "x": 8.461515,
+        "y": 5.554139,
+        "z": 7.758372
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        8.461514,
+        5.554153,
+        7.758374
+      ]
+    },
+    "CC_Base_L_Breast": {
+      "rotation": {
+        "x": -1e-06,
+        "y": -0.0,
+        "z": -0.0
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -1.5e-05,
+        -0.367584,
+        1.73583
+      ]
+    },
+    "CC_Base_R_RibsTwist": {
+      "rotation": {
+        "x": 1.3e-05,
+        "y": 0.0,
+        "z": -1.8e-05
+      },
+      "translation": {
+        "x": -8.461518,
+        "y": 5.554138,
+        "z": 7.758384
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -8.46152,
+        5.554138,
+        7.758379
+      ]
+    },
+    "CC_Base_R_Breast": {
+      "rotation": {
+        "x": -0.0,
+        "y": 0.0,
+        "z": -0.0
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        1.5e-05,
+        -0.367584,
+        1.735815
+      ]
+    },
+    "CC_Base_R_Clavicle": {
+      "rotation": {
+        "x": -5e-06,
+        "y": -0.0,
+        "z": -1.2e-05
+      },
+      "translation": {
+        "x": -4.622398,
+        "y": 19.35927,
+        "z": 0.497946
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -4.622398,
+        19.359253,
+        0.497944
+      ]
+    },
+    "CC_Base_R_Upperarm": {
+      "rotation": {
+        "x": 1e-06,
+        "y": -7e-06,
+        "z": 9e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -11.782269,
+        -1.5e-05,
+        -2.912085
+      ]
+    },
+    "CC_Base_R_Forearm": {
+      "rotation": {
+        "x": 6e-06,
+        "y": -4e-06,
+        "z": 7e-06
+      },
+      "translation": {
+        "x": -27.711327,
+        "y": 1.188792,
+        "z": -0.07774
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -27.711315,
+        1.188812,
+        -0.077745
+      ]
+    },
+    "CC_Base_R_ElbowShareBone": {
+      "rotation": {
+        "x": 4e-06,
+        "y": 1.8e-05,
+        "z": -1e-05
+      },
+      "translation": {
+        "x": 5e-06,
+        "y": -5.4e-05,
+        "z": 2e-06
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -6.875816,
+        0.265884,
+        0.466823
+      ]
+    },
+    "CC_Base_R_ForearmTwist01": {
+      "rotation": {
+        "x": -0.0,
+        "y": 4e-06,
+        "z": 0.0
+      },
+      "translation": {
+        "x": 7e-06,
+        "y": -4.6e-05,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        2e-06
+      ]
+    },
+    "CC_Base_R_ForearmTwist02": {
+      "rotation": {
+        "x": -1e-05,
+        "y": -9e-06,
+        "z": -2e-06
+      },
+      "translation": {
+        "x": -10.210196,
+        "y": 0.433947,
+        "z": 1.608002
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -10.210175,
+        0.434296,
+        1.608107
+      ]
+    },
+    "CC_Base_R_Hand": {
+      "rotation": {
+        "x": -3e-06,
+        "y": 1e-05,
+        "z": -3e-06
+      },
+      "translation": {
+        "x": -20.42038,
+        "y": 0.867862,
+        "z": 3.216009
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -20.420395,
+        0.86792,
+        3.216007
+      ]
+    },
+    "CC_Base_R_Ring1": {
+      "rotation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -4e-06
+      },
+      "translation": {
+        "x": -10.230458,
+        "y": 0.774096,
+        "z": -1.430975
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -10.230461,
+        0.774048,
+        -1.430978
+      ]
+    },
+    "CC_Base_R_Ring2": {
+      "rotation": {
+        "x": 1e-06,
+        "y": -4e-06,
+        "z": -0.0
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -3.865196,
+        0.280945,
+        -0.627684
+      ]
+    },
+    "CC_Base_R_Ring3": {
+      "rotation": {
+        "x": 1e-06,
+        "y": -4e-06,
+        "z": -1e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -1.964241,
+        0.174911,
+        -0.427742
+      ]
+    },
+    "CC_Base_R_Mid1": {
+      "rotation": {
+        "x": 1e-06,
+        "y": 1e-05,
+        "z": -3e-06
+      },
+      "translation": {
+        "x": -11.013784,
+        "y": 1.247559,
+        "z": 0.267291
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -11.013779,
+        1.247559,
+        0.267288
+      ]
+    },
+    "CC_Base_R_Mid2": {
+      "rotation": {
+        "x": 3e-06,
+        "y": 5e-06,
+        "z": 1e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -4.065414,
+        -0.105667,
+        -0.564648
+      ]
+    },
+    "CC_Base_R_Mid3": {
+      "rotation": {
+        "x": 1e-05,
+        "y": 0.0,
+        "z": 6e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -2.522644,
+        0.219193,
+        -0.725783
+      ]
+    },
+    "CC_Base_R_Thumb1": {
+      "rotation": {
+        "x": -1.1e-05,
+        "y": 1.6e-05,
+        "z": 5e-06
+      },
+      "translation": {
+        "x": -2.938204,
+        "y": -0.485397,
+        "z": 1.901911
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -2.938202,
+        -0.485428,
+        1.901922
+      ]
+    },
+    "CC_Base_R_Thumb2": {
+      "rotation": {
+        "x": 1.7e-05,
+        "y": -2.4e-05,
+        "z": -4e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -4.407326,
+        -0.728149,
+        2.852894
+      ]
+    },
+    "CC_Base_R_Thumb3": {
+      "rotation": {
+        "x": -1.4e-05,
+        "y": 2.6e-05,
+        "z": -1e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -2.872032,
+        -0.071213,
+        1.814013
+      ]
+    },
+    "CC_Base_R_Index1": {
+      "rotation": {
+        "x": 7e-06,
+        "y": 7e-06,
+        "z": 3e-06
+      },
+      "translation": {
+        "x": -11.512145,
+        "y": 0.724586,
+        "z": 2.261819
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -11.512154,
+        0.724548,
+        2.261814
+      ]
+    },
+    "CC_Base_R_Index2": {
+      "rotation": {
+        "x": 1e-06,
+        "y": 6e-06,
+        "z": 0.0
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -3.255104,
+        0.02504,
+        -0.392432
+      ]
+    },
+    "CC_Base_R_Index3": {
+      "rotation": {
+        "x": -8e-06,
+        "y": -1e-05,
+        "z": -9e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -2.344482,
+        -0.052673,
+        -0.618134
+      ]
+    },
+    "CC_Base_R_Pinky1": {
+      "rotation": {
+        "x": -2e-06,
+        "y": -1.3e-05,
+        "z": -1.9e-05
+      },
+      "translation": {
+        "x": -9.773032,
+        "y": 0.285862,
+        "z": -2.814822
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -9.773033,
+        0.285828,
+        -2.81482
+      ]
+    },
+    "CC_Base_R_Pinky2": {
+      "rotation": {
+        "x": 1e-05,
+        "y": -2e-06,
+        "z": 2.1e-05
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -2.502159,
+        0.432037,
+        -0.937572
+      ]
+    },
+    "CC_Base_R_Pinky3": {
+      "rotation": {
+        "x": 1e-06,
+        "y": 2.4e-05,
+        "z": 4e-06
+      },
+      "translation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -1.383202,
+        0.268417,
+        -0.648922
+      ]
+    },
+    "CC_Base_R_UpperarmTwist01": {
+      "rotation": {
+        "x": 5e-06,
+        "y": 9e-06,
+        "z": 1e-06
+      },
+      "translation": {
+        "x": 2e-05,
+        "y": -1.6e-05,
+        "z": -2e-06
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        1.7e-05,
+        -3.1e-05,
+        -1e-06
+      ]
+    },
+    "CC_Base_R_UpperarmTwist02": {
+      "rotation": {
+        "x": -0.0,
+        "y": -1e-06,
+        "z": -1e-06
+      },
+      "translation": {
+        "x": -13.855664,
+        "y": 0.594451,
+        "z": -0.03888
+      },
+      "rotation_order": "XYZ",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Xrotation",
+        "Yrotation",
+        "Zrotation"
+      ],
+      "offset": [
+        -13.855724,
+        0.593216,
+        -0.037598
+      ]
+    }
+  },
+  "mapping": {
+    "path": "C:\\Users\\sasch\\visionexe\\engine\\config\\pose_mappings\\cc_bvh_identity.json",
+    "mapped_count": 101,
+    "unmapped": []
+  },
+  "mapped_pose": {
+    "target": "cc4",
+    "bones": {
+      "RL_BoneRoot": {
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": -0.0
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "CC_Base_Hip": {
+        "rotation": {
+          "x": -7e-06,
+          "y": 0.0,
+          "z": -0.0
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 98.345078,
+          "z": 1e-06
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.0,
+          98.345078,
+          0.0
+        ]
+      },
+      "CC_Base_Pelvis": {
+        "rotation": {
+          "x": -1.4e-05,
+          "y": 0.0,
+          "z": -0.0
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 8e-06,
+          "z": 8e-06
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.0,
+          8e-06,
+          6e-06
+        ]
+      },
+      "CC_Base_L_Thigh": {
+        "rotation": {
+          "x": 6e-06,
+          "y": 3e-06,
+          "z": -5e-06
+        },
+        "translation": {
+          "x": 9.244802,
+          "y": -2.41993,
+          "z": 2.002783
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          9.244802,
+          -2.419914,
+          2.002799
+        ]
+      },
+      "CC_Base_L_Calf": {
+        "rotation": {
+          "x": -2.1e-05,
+          "y": 1e-06,
+          "z": -0.0
+        },
+        "translation": {
+          "x": -0.864114,
+          "y": -44.065022,
+          "z": 1.64003
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -0.864112,
+          -44.065022,
+          1.640021
+        ]
+      },
+      "CC_Base_L_Foot": {
+        "rotation": {
+          "x": 4e-06,
+          "y": -2e-06,
+          "z": 0.0
+        },
+        "translation": {
+          "x": -1.154068,
+          "y": -42.589905,
+          "z": -0.282021
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -1.154069,
+          -42.589909,
+          -0.282025
+        ]
+      },
+      "CC_Base_L_ToeBaseShareBone": {
+        "rotation": {
+          "x": -1.4e-05,
+          "y": 4e-06,
+          "z": -1e-06
+        },
+        "translation": {
+          "x": 0.492021,
+          "y": -5.638465,
+          "z": 11.537759
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -0.18892,
+          -1.20684,
+          12.793047
+        ]
+      },
+      "CC_Base_L_ToeBase": {
+        "rotation": {
+          "x": -8e-06,
+          "y": 2e-06,
+          "z": -0.0
+        },
+        "translation": {
+          "x": 0.492021,
+          "y": -5.638466,
+          "z": 11.537758
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.492022,
+          -5.638462,
+          11.537758
+        ]
+      },
+      "CC_Base_L_PinkyToe1": {
+        "rotation": {
+          "x": 1e-06,
+          "y": 2e-06,
+          "z": -0.0
+        },
+        "translation": {
+          "x": 2.377009,
+          "y": -0.444553,
+          "z": 0.224958
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -0.0769,
+          -1.136328,
+          2.195532
+        ]
+      },
+      "CC_Base_L_RingToe1": {
+        "rotation": {
+          "x": 1e-06,
+          "y": 1e-06,
+          "z": -1e-06
+        },
+        "translation": {
+          "x": 1.194618,
+          "y": -0.175758,
+          "z": 1.180245
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.042587,
+          -1.2856,
+          2.112566
+        ]
+      },
+      "CC_Base_L_MidToe1": {
+        "rotation": {
+          "x": 3e-06,
+          "y": -0.0,
+          "z": -3e-06
+        },
+        "translation": {
+          "x": -0.029241,
+          "y": -0.186989,
+          "z": 1.982125
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.06654,
+          -0.961016,
+          2.278055
+        ]
+      },
+      "CC_Base_L_IndexToe1": {
+        "rotation": {
+          "x": 4e-06,
+          "y": 0.0,
+          "z": -0.0
+        },
+        "translation": {
+          "x": -1.378447,
+          "y": 0.028817,
+          "z": 2.12583
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.074155,
+          -1.007245,
+          2.257759
+        ]
+      },
+      "CC_Base_L_BigToe1": {
+        "rotation": {
+          "x": 0.0,
+          "y": -0.0,
+          "z": -0.0
+        },
+        "translation": {
+          "x": -3.199511,
+          "y": -0.160054,
+          "z": 1.900293
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.027124,
+          -0.386895,
+          2.442762
+        ]
+      },
+      "CC_Base_L_CalfTwist01": {
+        "rotation": {
+          "x": -5e-06,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "translation": {
+          "x": -0.0,
+          "y": 1.9e-05,
+          "z": 1e-06
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -2e-06,
+          0.0,
+          2e-06
+        ]
+      },
+      "CC_Base_L_CalfTwist02": {
+        "rotation": {
+          "x": 0.0,
+          "y": -0.0,
+          "z": -0.0
+        },
+        "translation": {
+          "x": -0.577032,
+          "y": -21.294958,
+          "z": -0.141009
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -0.577777,
+          -21.294935,
+          -0.14159
+        ]
+      },
+      "CC_Base_L_KneeShareBone": {
+        "rotation": {
+          "x": -1e-05,
+          "y": -0.0,
+          "z": 0.0
+        },
+        "translation": {
+          "x": -1e-06,
+          "y": 2e-05,
+          "z": 1e-06
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -0.331302,
+          -14.196632,
+          0.217269
+        ]
+      },
+      "CC_Base_L_ThighTwist01": {
+        "rotation": {
+          "x": -2.6e-05,
+          "y": 1e-06,
+          "z": -1e-06
+        },
+        "translation": {
+          "x": 3e-06,
+          "y": 2.4e-05,
+          "z": 2e-06
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          3e-06,
+          2.3e-05,
+          -9e-06
+        ]
+      },
+      "CC_Base_L_ThighTwist02": {
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "translation": {
+          "x": -0.432057,
+          "y": -22.032524,
+          "z": 0.820011
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -0.43062,
+          -22.032486,
+          0.821744
+        ]
+      },
+      "CC_Base_R_Thigh": {
+        "rotation": {
+          "x": 8e-06,
+          "y": -4e-06,
+          "z": 5e-06
+        },
+        "translation": {
+          "x": -9.244801,
+          "y": -2.419923,
+          "z": 2.002794
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -9.244802,
+          -2.419907,
+          2.00281
+        ]
+      },
+      "CC_Base_R_Calf": {
+        "rotation": {
+          "x": 4e-06,
+          "y": -0.0,
+          "z": -1e-06
+        },
+        "translation": {
+          "x": 0.86411,
+          "y": -44.065022,
+          "z": 1.640033
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.864109,
+          -44.065033,
+          1.640021
+        ]
+      },
+      "CC_Base_R_KneeShareBone": {
+        "rotation": {
+          "x": -5e-06,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "translation": {
+          "x": 2e-06,
+          "y": 1.6e-05,
+          "z": -1e-06
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.331302,
+          -14.196644,
+          0.217268
+        ]
+      },
+      "CC_Base_R_Foot": {
+        "rotation": {
+          "x": 8e-06,
+          "y": 1e-06,
+          "z": 1e-06
+        },
+        "translation": {
+          "x": 1.154071,
+          "y": -42.589912,
+          "z": -0.282014
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          1.154073,
+          -42.589924,
+          -0.282017
+        ]
+      },
+      "CC_Base_R_ToeBase": {
+        "rotation": {
+          "x": -1.4e-05,
+          "y": -1e-06,
+          "z": -1e-06
+        },
+        "translation": {
+          "x": -0.492021,
+          "y": -5.638465,
+          "z": 11.53776
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -0.492022,
+          -5.638468,
+          11.537759
+        ]
+      },
+      "CC_Base_R_BigToe1": {
+        "rotation": {
+          "x": 2e-06,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "translation": {
+          "x": 3.199509,
+          "y": -0.160054,
+          "z": 1.900302
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -0.027125,
+          -0.386896,
+          2.442764
+        ]
+      },
+      "CC_Base_R_PinkyToe1": {
+        "rotation": {
+          "x": 9e-06,
+          "y": -1e-06,
+          "z": 1e-06
+        },
+        "translation": {
+          "x": -2.377012,
+          "y": -0.444552,
+          "z": 0.224962
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.076901,
+          -1.136328,
+          2.195534
+        ]
+      },
+      "CC_Base_R_RingToe1": {
+        "rotation": {
+          "x": -1.1e-05,
+          "y": 1e-06,
+          "z": -0.0
+        },
+        "translation": {
+          "x": -1.194619,
+          "y": -0.175757,
+          "z": 1.180242
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -0.042588,
+          -1.285601,
+          2.112566
+        ]
+      },
+      "CC_Base_R_IndexToe1": {
+        "rotation": {
+          "x": -7e-06,
+          "y": 1e-06,
+          "z": 1e-06
+        },
+        "translation": {
+          "x": 1.378446,
+          "y": 0.028818,
+          "z": 2.125837
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -0.074156,
+          -1.007245,
+          2.257759
+        ]
+      },
+      "CC_Base_R_MidToe1": {
+        "rotation": {
+          "x": 1e-06,
+          "y": -0.0,
+          "z": 2e-06
+        },
+        "translation": {
+          "x": 0.029238,
+          "y": -0.186988,
+          "z": 1.98212
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -0.06654,
+          -0.961017,
+          2.278057
+        ]
+      },
+      "CC_Base_R_ToeBaseShareBone": {
+        "rotation": {
+          "x": -9e-06,
+          "y": -1e-06,
+          "z": 0.0
+        },
+        "translation": {
+          "x": -0.492021,
+          "y": -5.638465,
+          "z": 11.53776
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.18892,
+          -1.20685,
+          12.79305
+        ]
+      },
+      "CC_Base_R_CalfTwist01": {
+        "rotation": {
+          "x": -1e-05,
+          "y": -0.0,
+          "z": 1e-06
+        },
+        "translation": {
+          "x": 1e-06,
+          "y": 2.4e-05,
+          "z": -0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          2e-06,
+          8e-06,
+          0.0
+        ]
+      },
+      "CC_Base_R_CalfTwist02": {
+        "rotation": {
+          "x": 5e-06,
+          "y": 0.0,
+          "z": -1e-06
+        },
+        "translation": {
+          "x": 0.577037,
+          "y": -21.294956,
+          "z": -0.141007
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.577776,
+          -21.294922,
+          -0.14159
+        ]
+      },
+      "CC_Base_R_ThighTwist01": {
+        "rotation": {
+          "x": -1e-06,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "translation": {
+          "x": -5e-06,
+          "y": -8e-06,
+          "z": 7e-06
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -2e-06,
+          -8e-06,
+          -7e-06
+        ]
+      },
+      "CC_Base_R_ThighTwist02": {
+        "rotation": {
+          "x": -0.0,
+          "y": -0.0,
+          "z": -0.0
+        },
+        "translation": {
+          "x": 0.432061,
+          "y": -22.032471,
+          "z": 0.820007
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.430618,
+          -22.032455,
+          0.821746
+        ]
+      },
+      "CC_Base_Waist": {
+        "rotation": {
+          "x": -3e-06,
+          "y": 0.0,
+          "z": -0.0
+        },
+        "translation": {
+          "x": -0.0,
+          "y": 9.679558,
+          "z": 6.167155
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -0.0,
+          9.679573,
+          6.167155
+        ]
+      },
+      "CC_Base_Spine01": {
+        "rotation": {
+          "x": 1.1e-05,
+          "y": -0.0,
+          "z": 0.0
+        },
+        "translation": {
+          "x": -0.0,
+          "y": 4.839804,
+          "z": 0.496908
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -0.0,
+          4.839821,
+          0.496908
+        ]
+      },
+      "CC_Base_Spine02": {
+        "rotation": {
+          "x": -1e-05,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "translation": {
+          "x": -0.0,
+          "y": 12.099511,
+          "z": 0.496904
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -0.0,
+          12.099503,
+          0.496905
+        ]
+      },
+      "CC_Base_NeckTwist01": {
+        "rotation": {
+          "x": 0.0,
+          "y": -0.0,
+          "z": 0.0
+        },
+        "translation": {
+          "x": 2e-06,
+          "y": 24.19902,
+          "z": 0.497943
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          2e-06,
+          24.19902,
+          0.497941
+        ]
+      },
+      "CC_Base_NeckTwist02": {
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.0,
+          4.680695,
+          1.948614
+        ]
+      },
+      "CC_Base_Head": {
+        "rotation": {
+          "x": 3e-06,
+          "y": 0.0,
+          "z": -0.0
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.0,
+          4.68071,
+          1.948609
+        ]
+      },
+      "CC_Base_FacialBone": {
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "translation": {
+          "x": -0.0,
+          "y": 4.6e-05,
+          "z": 1.4e-05
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -0.0,
+          4.6e-05,
+          1.2e-05
+        ]
+      },
+      "CC_Base_JawRoot": {
+        "rotation": {
+          "x": 6e-06,
+          "y": -5e-06,
+          "z": -6e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.899748,
+          "z": 2.605408
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.0,
+          0.899765,
+          2.605409
+        ]
+      },
+      "CC_Base_Tongue01": {
+        "rotation": {
+          "x": -5e-06,
+          "y": 6e-06,
+          "z": 9e-06
+        },
+        "translation": {
+          "x": 1e-06,
+          "y": -1.380705,
+          "z": 2.894319
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.0,
+          -1.380722,
+          2.894316
+        ]
+      },
+      "CC_Base_Tongue02": {
+        "rotation": {
+          "x": -7e-06,
+          "y": 0.0,
+          "z": -5e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": -0.286756,
+          "z": 1.057733
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.0,
+          -0.286789,
+          1.057735
+        ]
+      },
+      "CC_Base_Tongue03": {
+        "rotation": {
+          "x": 3e-06,
+          "y": -1e-06,
+          "z": 2e-06
+        },
+        "translation": {
+          "x": -2e-06,
+          "y": -0.666459,
+          "z": 1.459818
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -0.000214,
+          -1.459854,
+          -0.666412
+        ]
+      },
+      "CC_Base_Teeth02": {
+        "rotation": {
+          "x": -1e-05,
+          "y": 2e-06,
+          "z": 2.2e-05
+        },
+        "translation": {
+          "x": 1e-06,
+          "y": -1.358441,
+          "z": 2.973691
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -5.5e-05,
+          3.1987,
+          0.503197
+        ]
+      },
+      "CC_Base_R_Eye": {
+        "rotation": {
+          "x": -1.1e-05,
+          "y": -0.009375,
+          "z": 0.006032
+        },
+        "translation": {
+          "x": -3.187505,
+          "y": 5.79549,
+          "z": 8.464163
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -0.001134,
+          1.212952,
+          -7.707895
+        ]
+      },
+      "CC_Base_L_Eye": {
+        "rotation": {
+          "x": -1e-05,
+          "y": 0.009373,
+          "z": -0.006037
+        },
+        "translation": {
+          "x": 3.187506,
+          "y": 5.795505,
+          "z": 8.464167
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.001133,
+          1.212952,
+          -7.707895
+        ]
+      },
+      "CC_Base_UpperJaw": {
+        "rotation": {
+          "x": -1.2e-05,
+          "y": 0.0,
+          "z": -0.0
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 1.652882,
+          "z": 6.771815
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.0,
+          1.652893,
+          6.771813
+        ]
+      },
+      "CC_Base_Teeth01": {
+        "rotation": {
+          "x": -2e-06,
+          "y": -0.0,
+          "z": -6e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": -0.002731,
+          "z": 0.030773
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          1e-06,
+          0.030518,
+          0.004803
+        ]
+      },
+      "CC_Base_L_Clavicle": {
+        "rotation": {
+          "x": 0.0,
+          "y": -7e-06,
+          "z": 7e-06
+        },
+        "translation": {
+          "x": 4.622401,
+          "y": 19.359268,
+          "z": 0.497944
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          4.622401,
+          19.359253,
+          0.497941
+        ]
+      },
+      "CC_Base_L_Upperarm": {
+        "rotation": {
+          "x": 0.0,
+          "y": 1.2e-05,
+          "z": 5e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          11.782274,
+          -3.1e-05,
+          -2.912083
+        ]
+      },
+      "CC_Base_L_Forearm": {
+        "rotation": {
+          "x": 2e-06,
+          "y": -0.0,
+          "z": 0.0
+        },
+        "translation": {
+          "x": 27.711304,
+          "y": 1.188782,
+          "z": -0.077748
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          27.711315,
+          1.188797,
+          -0.077748
+        ]
+      },
+      "CC_Base_L_ForearmTwist01": {
+        "rotation": {
+          "x": -1e-06,
+          "y": 4e-06,
+          "z": -6e-06
+        },
+        "translation": {
+          "x": -8e-06,
+          "y": -4e-06,
+          "z": 1e-06
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.0,
+          0.0,
+          3e-06
+        ]
+      },
+      "CC_Base_L_ForearmTwist02": {
+        "rotation": {
+          "x": 7e-06,
+          "y": -9e-06,
+          "z": -1e-06
+        },
+        "translation": {
+          "x": 10.210191,
+          "y": 0.433929,
+          "z": 1.608002
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          10.210175,
+          0.434296,
+          1.608105
+        ]
+      },
+      "CC_Base_L_ElbowShareBone": {
+        "rotation": {
+          "x": -1e-06,
+          "y": 1e-05,
+          "z": -6e-06
+        },
+        "translation": {
+          "x": -3e-06,
+          "y": 1.1e-05,
+          "z": 1e-06
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          6.875801,
+          0.265884,
+          0.466823
+        ]
+      },
+      "CC_Base_L_Hand": {
+        "rotation": {
+          "x": -5e-06,
+          "y": -4e-06,
+          "z": -3e-06
+        },
+        "translation": {
+          "x": 20.420387,
+          "y": 0.86792,
+          "z": 3.216007
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          20.420387,
+          0.867905,
+          3.216011
+        ]
+      },
+      "CC_Base_L_Pinky1": {
+        "rotation": {
+          "x": 8e-06,
+          "y": 2e-06,
+          "z": -2e-06
+        },
+        "translation": {
+          "x": 9.773047,
+          "y": 0.285776,
+          "z": -2.814831
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          9.773033,
+          0.285812,
+          -2.814838
+        ]
+      },
+      "CC_Base_L_Pinky2": {
+        "rotation": {
+          "x": -7e-06,
+          "y": 1e-06,
+          "z": 1e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          2.502243,
+          0.431992,
+          -0.937594
+        ]
+      },
+      "CC_Base_L_Pinky3": {
+        "rotation": {
+          "x": -3e-06,
+          "y": -4e-06,
+          "z": 3e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          1.383156,
+          0.268433,
+          -0.648903
+        ]
+      },
+      "CC_Base_L_Ring1": {
+        "rotation": {
+          "x": 1e-06,
+          "y": 4e-06,
+          "z": 4e-06
+        },
+        "translation": {
+          "x": 10.230474,
+          "y": 0.774049,
+          "z": -1.430985
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          10.230453,
+          0.774094,
+          -1.430986
+        ]
+      },
+      "CC_Base_L_Ring2": {
+        "rotation": {
+          "x": 6e-06,
+          "y": -2.1e-05,
+          "z": -1e-05
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          3.865189,
+          0.281006,
+          -0.62769
+        ]
+      },
+      "CC_Base_L_Ring3": {
+        "rotation": {
+          "x": -4e-06,
+          "y": 1.8e-05,
+          "z": 1e-05
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          1.964272,
+          0.174927,
+          -0.427748
+        ]
+      },
+      "CC_Base_L_Mid1": {
+        "rotation": {
+          "x": 0.0,
+          "y": -1.8e-05,
+          "z": 1e-06
+        },
+        "translation": {
+          "x": 11.013775,
+          "y": 1.247541,
+          "z": 0.267275
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          11.013763,
+          1.247543,
+          0.26727
+        ]
+      },
+      "CC_Base_L_Mid2": {
+        "rotation": {
+          "x": 1e-06,
+          "y": 6e-06,
+          "z": 1e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          4.06543,
+          -0.105621,
+          -0.564656
+        ]
+      },
+      "CC_Base_L_Mid3": {
+        "rotation": {
+          "x": 2e-06,
+          "y": 1.1e-05,
+          "z": 1e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          2.522667,
+          0.219238,
+          -0.725791
+        ]
+      },
+      "CC_Base_L_Index1": {
+        "rotation": {
+          "x": 6e-06,
+          "y": -9e-06,
+          "z": -6e-06
+        },
+        "translation": {
+          "x": 11.512151,
+          "y": 0.724537,
+          "z": 2.261808
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          11.512138,
+          0.724579,
+          2.261798
+        ]
+      },
+      "CC_Base_L_Index2": {
+        "rotation": {
+          "x": -0.0,
+          "y": 7e-06,
+          "z": 4e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          3.255089,
+          0.025101,
+          -0.392437
+        ]
+      },
+      "CC_Base_L_Index3": {
+        "rotation": {
+          "x": 8e-06,
+          "y": -2.2e-05,
+          "z": -3e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          2.344467,
+          -0.052673,
+          -0.618134
+        ]
+      },
+      "CC_Base_L_Thumb1": {
+        "rotation": {
+          "x": -7e-06,
+          "y": -7e-06,
+          "z": -8e-06
+        },
+        "translation": {
+          "x": 2.93819,
+          "y": -0.485486,
+          "z": 1.901926
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          2.938164,
+          -0.485428,
+          1.901904
+        ]
+      },
+      "CC_Base_L_Thumb2": {
+        "rotation": {
+          "x": 0.0,
+          "y": -2e-06,
+          "z": 5e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          4.407372,
+          -0.728088,
+          2.852875
+        ]
+      },
+      "CC_Base_L_Thumb3": {
+        "rotation": {
+          "x": 2e-06,
+          "y": 4e-06,
+          "z": -4e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          2.872017,
+          -0.071198,
+          1.814013
+        ]
+      },
+      "CC_Base_L_UpperarmTwist01": {
+        "rotation": {
+          "x": 1e-05,
+          "y": 1e-06,
+          "z": -7e-06
+        },
+        "translation": {
+          "x": -2e-05,
+          "y": -4.9e-05,
+          "z": -3e-06
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -1.9e-05,
+          -4.6e-05,
+          -0.0
+        ]
+      },
+      "CC_Base_L_UpperarmTwist02": {
+        "rotation": {
+          "x": -1e-05,
+          "y": -1e-06,
+          "z": 6e-06
+        },
+        "translation": {
+          "x": 13.855665,
+          "y": 0.594487,
+          "z": -0.038881
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          13.855709,
+          0.593201,
+          -0.037598
+        ]
+      },
+      "CC_Base_L_RibsTwist": {
+        "rotation": {
+          "x": 1.2e-05,
+          "y": -0.0,
+          "z": 2.3e-05
+        },
+        "translation": {
+          "x": 8.461515,
+          "y": 5.554139,
+          "z": 7.758372
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          8.461514,
+          5.554153,
+          7.758374
+        ]
+      },
+      "CC_Base_L_Breast": {
+        "rotation": {
+          "x": -1e-06,
+          "y": -0.0,
+          "z": -0.0
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -1.5e-05,
+          -0.367584,
+          1.73583
+        ]
+      },
+      "CC_Base_R_RibsTwist": {
+        "rotation": {
+          "x": 1.3e-05,
+          "y": 0.0,
+          "z": -1.8e-05
+        },
+        "translation": {
+          "x": -8.461518,
+          "y": 5.554138,
+          "z": 7.758384
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -8.46152,
+          5.554138,
+          7.758379
+        ]
+      },
+      "CC_Base_R_Breast": {
+        "rotation": {
+          "x": -0.0,
+          "y": 0.0,
+          "z": -0.0
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          1.5e-05,
+          -0.367584,
+          1.735815
+        ]
+      },
+      "CC_Base_R_Clavicle": {
+        "rotation": {
+          "x": -5e-06,
+          "y": -0.0,
+          "z": -1.2e-05
+        },
+        "translation": {
+          "x": -4.622398,
+          "y": 19.35927,
+          "z": 0.497946
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -4.622398,
+          19.359253,
+          0.497944
+        ]
+      },
+      "CC_Base_R_Upperarm": {
+        "rotation": {
+          "x": 1e-06,
+          "y": -7e-06,
+          "z": 9e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -11.782269,
+          -1.5e-05,
+          -2.912085
+        ]
+      },
+      "CC_Base_R_Forearm": {
+        "rotation": {
+          "x": 6e-06,
+          "y": -4e-06,
+          "z": 7e-06
+        },
+        "translation": {
+          "x": -27.711327,
+          "y": 1.188792,
+          "z": -0.07774
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -27.711315,
+          1.188812,
+          -0.077745
+        ]
+      },
+      "CC_Base_R_ElbowShareBone": {
+        "rotation": {
+          "x": 4e-06,
+          "y": 1.8e-05,
+          "z": -1e-05
+        },
+        "translation": {
+          "x": 5e-06,
+          "y": -5.4e-05,
+          "z": 2e-06
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -6.875816,
+          0.265884,
+          0.466823
+        ]
+      },
+      "CC_Base_R_ForearmTwist01": {
+        "rotation": {
+          "x": -0.0,
+          "y": 4e-06,
+          "z": 0.0
+        },
+        "translation": {
+          "x": 7e-06,
+          "y": -4.6e-05,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          0.0,
+          0.0,
+          2e-06
+        ]
+      },
+      "CC_Base_R_ForearmTwist02": {
+        "rotation": {
+          "x": -1e-05,
+          "y": -9e-06,
+          "z": -2e-06
+        },
+        "translation": {
+          "x": -10.210196,
+          "y": 0.433947,
+          "z": 1.608002
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -10.210175,
+          0.434296,
+          1.608107
+        ]
+      },
+      "CC_Base_R_Hand": {
+        "rotation": {
+          "x": -3e-06,
+          "y": 1e-05,
+          "z": -3e-06
+        },
+        "translation": {
+          "x": -20.42038,
+          "y": 0.867862,
+          "z": 3.216009
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -20.420395,
+          0.86792,
+          3.216007
+        ]
+      },
+      "CC_Base_R_Ring1": {
+        "rotation": {
+          "x": 0.0,
+          "y": -0.0,
+          "z": -4e-06
+        },
+        "translation": {
+          "x": -10.230458,
+          "y": 0.774096,
+          "z": -1.430975
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -10.230461,
+          0.774048,
+          -1.430978
+        ]
+      },
+      "CC_Base_R_Ring2": {
+        "rotation": {
+          "x": 1e-06,
+          "y": -4e-06,
+          "z": -0.0
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -3.865196,
+          0.280945,
+          -0.627684
+        ]
+      },
+      "CC_Base_R_Ring3": {
+        "rotation": {
+          "x": 1e-06,
+          "y": -4e-06,
+          "z": -1e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -1.964241,
+          0.174911,
+          -0.427742
+        ]
+      },
+      "CC_Base_R_Mid1": {
+        "rotation": {
+          "x": 1e-06,
+          "y": 1e-05,
+          "z": -3e-06
+        },
+        "translation": {
+          "x": -11.013784,
+          "y": 1.247559,
+          "z": 0.267291
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -11.013779,
+          1.247559,
+          0.267288
+        ]
+      },
+      "CC_Base_R_Mid2": {
+        "rotation": {
+          "x": 3e-06,
+          "y": 5e-06,
+          "z": 1e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -4.065414,
+          -0.105667,
+          -0.564648
+        ]
+      },
+      "CC_Base_R_Mid3": {
+        "rotation": {
+          "x": 1e-05,
+          "y": 0.0,
+          "z": 6e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -2.522644,
+          0.219193,
+          -0.725783
+        ]
+      },
+      "CC_Base_R_Thumb1": {
+        "rotation": {
+          "x": -1.1e-05,
+          "y": 1.6e-05,
+          "z": 5e-06
+        },
+        "translation": {
+          "x": -2.938204,
+          "y": -0.485397,
+          "z": 1.901911
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -2.938202,
+          -0.485428,
+          1.901922
+        ]
+      },
+      "CC_Base_R_Thumb2": {
+        "rotation": {
+          "x": 1.7e-05,
+          "y": -2.4e-05,
+          "z": -4e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -4.407326,
+          -0.728149,
+          2.852894
+        ]
+      },
+      "CC_Base_R_Thumb3": {
+        "rotation": {
+          "x": -1.4e-05,
+          "y": 2.6e-05,
+          "z": -1e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -2.872032,
+          -0.071213,
+          1.814013
+        ]
+      },
+      "CC_Base_R_Index1": {
+        "rotation": {
+          "x": 7e-06,
+          "y": 7e-06,
+          "z": 3e-06
+        },
+        "translation": {
+          "x": -11.512145,
+          "y": 0.724586,
+          "z": 2.261819
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -11.512154,
+          0.724548,
+          2.261814
+        ]
+      },
+      "CC_Base_R_Index2": {
+        "rotation": {
+          "x": 1e-06,
+          "y": 6e-06,
+          "z": 0.0
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -3.255104,
+          0.02504,
+          -0.392432
+        ]
+      },
+      "CC_Base_R_Index3": {
+        "rotation": {
+          "x": -8e-06,
+          "y": -1e-05,
+          "z": -9e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -2.344482,
+          -0.052673,
+          -0.618134
+        ]
+      },
+      "CC_Base_R_Pinky1": {
+        "rotation": {
+          "x": -2e-06,
+          "y": -1.3e-05,
+          "z": -1.9e-05
+        },
+        "translation": {
+          "x": -9.773032,
+          "y": 0.285862,
+          "z": -2.814822
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -9.773033,
+          0.285828,
+          -2.81482
+        ]
+      },
+      "CC_Base_R_Pinky2": {
+        "rotation": {
+          "x": 1e-05,
+          "y": -2e-06,
+          "z": 2.1e-05
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -2.502159,
+          0.432037,
+          -0.937572
+        ]
+      },
+      "CC_Base_R_Pinky3": {
+        "rotation": {
+          "x": 1e-06,
+          "y": 2.4e-05,
+          "z": 4e-06
+        },
+        "translation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -1.383202,
+          0.268417,
+          -0.648922
+        ]
+      },
+      "CC_Base_R_UpperarmTwist01": {
+        "rotation": {
+          "x": 5e-06,
+          "y": 9e-06,
+          "z": 1e-06
+        },
+        "translation": {
+          "x": 2e-05,
+          "y": -1.6e-05,
+          "z": -2e-06
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          1.7e-05,
+          -3.1e-05,
+          -1e-06
+        ]
+      },
+      "CC_Base_R_UpperarmTwist02": {
+        "rotation": {
+          "x": -0.0,
+          "y": -1e-06,
+          "z": -1e-06
+        },
+        "translation": {
+          "x": -13.855664,
+          "y": 0.594451,
+          "z": -0.03888
+        },
+        "rotation_order": "XYZ",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Xrotation",
+          "Yrotation",
+          "Zrotation"
+        ],
+        "offset": [
+          -13.855724,
+          0.593216,
+          -0.037598
+        ]
+      }
+    }
+  }
+}

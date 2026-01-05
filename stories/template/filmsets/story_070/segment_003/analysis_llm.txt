@@ -1,0 +1,93 @@
+```json
+{
+  "actors": [
+    {
+      "name": "Lord",
+      "visualTraits": null,
+      "changes": null,
+      "role": "deity"
+    },
+    {
+      "name": "Spirit",
+      "visualTraits": null,
+      "changes": null,
+      "role": "spiritual presence"
+    },
+    {
+      "name": "Angel",
+      "visualTraits": null,
+      "changes": null,
+      "role": "messenger"
+    }
+  ],
+  "props": [
+    {
+      "name": "Gate",
+      "visualTraits": null,
+      "changes": null,
+      "role": "portal"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Day",
+      "visualTraits": null,
+      "changes": null,
+      "role": "time"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Beat 1",
+      "location": "Day",
+      "action": "ወእምይእቲ፡ዕለት፡ኢተስሕብኩ፡",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Beat 2",
+      "location": null,
+      "action": "ማእሎሙ፡ወንረኒ፡",
+      "actorsInvolved": ["Lord"]
+    },
+    {
+      "title": "Beat 3",
+      "location": null,
+      "action": "ማእለ፡ል፡መንፈሳት፡",
+      "actorsInvolved": ["Lord", "Spirit"]
+    },
+    {
+      "title": "Beat 4",
+      "location": "Gate",
+      "action": "ማእለ፡መስዕ፡ወዐረብ፡ኀ፡",
+      "actorsInvolved": ["Lord", "Angel"]
+    },
+    {
+      "title": "Beat 5",
+      "location": null,
+      "action": "ነሥኡ፡ሕባለ፡መላእት፡መ፡",
+      "actorsInvolved": ["Angel"]
+    },
+    {
+      "title": "Beat 6",
+      "location": null,
+      "action": "ይስፍሩ፡ሊተ፡መነ፡ለኅሩያን፡",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Beat 7",
+      "location": null,
+      "action": "ወለጻድቃን፨",
+      "actorsInvolved": []
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "gate",
+        "description": "Gate"
+      }
+    ],
+    "paths": []
+  }
+}
+```

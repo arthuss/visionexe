@@ -1,0 +1,54 @@
+```json
+{
+  "actors": [],
+  "props": [
+    {
+      "name": "drum",
+      "visualTraits": null,
+      "changes": null,
+      "role": "instrument"
+    }
+  ],
+  "environments": [
+    {
+      "name": "earth",
+      "visualTraits": null,
+      "changes": null,
+      "role": "natural surface"
+    },
+    {
+      "name": "water",
+      "visualTraits": null,
+      "changes": null,
+      "role": "natural body"
+    },
+    {
+      "name": "outside",
+      "visualTraits": null,
+      "changes": null,
+      "role": "open area"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Drum Chant",
+      "location": "earth and water",
+      "action": "chanting about drum",
+      "actorsInvolved": []
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "anchor1",
+        "description": "earth"
+      },
+      {
+        "id": "anchor2",
+        "description": "water"
+      }
+    ],
+    "paths": []
+  }
+}
+```

@@ -1,0 +1,69 @@
+```json
+{
+  "actors": [
+    {
+      "name": "Wind",
+      "visualTraits": "invisible, airy",
+      "changes": null,
+      "role": "narrator/protagonist"
+    },
+    {
+      "name": "Firstborn",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    }
+  ],
+  "props": [],
+  "environments": [
+    {
+      "name": "Path",
+      "visualTraits": "open, directional",
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "Sky",
+      "visualTraits": "vast, blue",
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "East",
+      "visualTraits": "directional",
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Wind's Journey",
+      "location": "Path to East",
+      "action": "Wind moves along the path",
+      "actorsInvolved": ["Wind"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "anchor_start",
+        "description": "Start of Path"
+      },
+      {
+        "id": "anchor_east",
+        "description": "East"
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Wind",
+        "start_anchor": "anchor_start",
+        "end_anchor": "anchor_east",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": null
+      }
+    ]
+  }
+}
+```

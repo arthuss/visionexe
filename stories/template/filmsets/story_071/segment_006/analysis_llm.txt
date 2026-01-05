@@ -1,0 +1,109 @@
+```json
+{
+  "actors": [
+    {
+      "name": "ወርእየት",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "መንፈስየ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ዘየውዶ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ወእምርባዕቱ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ጽናፊሁ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ወየውድዎ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    }
+  ],
+  "props": [
+    {
+      "name": "እሳት",
+      "visualTraits": null,
+      "changes": null,
+      "role": "prop"
+    }
+  ],
+  "environments": [
+    {
+      "name": "ቤት",
+      "visualTraits": null,
+      "changes": null,
+      "role": "environment"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Line 1",
+      "location": "unknown",
+      "action": "unknown",
+      "actorsInvolved": ["ወርእየት", "መንፈስየ"]
+    },
+    {
+      "title": "Line 2",
+      "location": "ቤት",
+      "action": "house",
+      "actorsInvolved": ["ዘየውዶ"]
+    },
+    {
+      "title": "Line 3",
+      "location": "fire",
+      "action": "fire",
+      "actorsInvolved": ["ወእምርባዕቱ"]
+    },
+    {
+      "title": "Line 4",
+      "location": "unknown",
+      "action": "desire",
+      "actorsInvolved": ["ጽናፊሁ"]
+    },
+    {
+      "title": "Line 5",
+      "location": "fire",
+      "action": "fire",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Line 6",
+      "location": "ቤት",
+      "action": "house",
+      "actorsInvolved": ["ወየውድዎ"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "anchor1",
+        "description": "house"
+      },
+      {
+        "id": "anchor2",
+        "description": "fire"
+      }
+    ],
+    "paths": []
+  }
+}
+```

@@ -1,3 +1,5 @@
+rl_plugin_info = {"ap": "iClone", "ap_version": "8.0"}
+
 import json
 import os
 import sys

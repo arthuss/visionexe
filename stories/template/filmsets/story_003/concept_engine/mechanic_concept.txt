@@ -1,0 +1,40 @@
+CONCEPT: SYSTEM_AUDIT_FOREST // CHAPTER 003
+
+1. BIO-INJECTION:
+OPTICAL_LIDAR_ARRAY. Henochs Augen projizieren ein sichtbares, fächerförmiges Laser-Gitter (Amber/Gold) über die Vegetation. Bei Fokussierung auf Objekte rotieren mechanische Iris-Lamellen (Aperture-Ring). Die Datenverarbeitung erzeugt Abwärme: Feiner Dampf (Coolant Mist) entweicht aus den Ventilen an seinem Nackenkragen.
+
+2. MESH-BREAK:
+LOD_STRIPPING. Die "verdorrten" Bäume sind Assets im "Low Power State". Sie werden als graue Low-Poly-Modelle oder reine Wireframes dargestellt. Texturen flackern zwischen Rinde und rohem Polygon-Gitter. Die 14 "nicht entlaubten" Bäume sind High-Fidelity "Hero Assets" mit `ALWAYS_LOADED` Flag – sie besitzen volle Sättigung, hyper-realistische Texturen und ein subtiles, internes Pulsieren (Emissive Shader), das sie vom grauen Rauschen der Umgebung isoliert.
+
+3. PACING-STRATEGIE:
+OBSERVATION_MODE. Ruhige, gleitende Kamerabewegungen (Steadicam / Drone Hover), die die Statik der Szene betonen. Der Rhythmus ist hypnotisch und langsam, passend zum "Warten" der Natur. Harte "Zoom-Snaps" (digitaler Zoom ohne Interpolation) nur beim Identifizieren der 14 Ausnahme-Bäume.
+
+4. AUDIO-DESIGN:
+IDLE_STATE_HUM. Statt Wind: Das tiefe, elektrische Brummen eines Transformators im Leerlauf (50Hz Hum). Das "Rascheln" der Blätter ist digitales Artefakt-Rauschen (Bitcrushing). Die 14 lebenden Bäume haben eine eigene akustische Signatur: Ein klarer, isolierter Synthesizer-Pad-Sound, der Reinheit signalisiert.
+
+5. ÜBERGÄNGE:
+TEXTURE_STREAMING. Der Wechsel von der Normal-Sicht zur Analyse erfolgt durch sichtbares "Texture Pop-in". Die Welt ist erst unscharf/pixelig und schärft sich erst, wenn Henochs Blick (der Cursor) darauf fällt.
+
+6. FRAMEWORK & TIMING:
+Total Duration: 60s.
+Clip Count: 14 Clips.
+Struktur:
+- Clips 1-4: Materialisierung & Umgebungsscan (Wide/Extreme Wide).
+- Clips 5-9: Analyse der "toten" Daten (Close-Ups von Glitch-Texturen).
+- Clips 10-14: Fokus auf die 14 persistenten Bäume (Hero Shots, Lighting Change).
+
+7. DIALOG-CHECK:
+Status: NEGATIVE.
+Keine externe Kommunikation. Henoch führt einen internen System-Check durch.
+Visualisierung: HUD-Elemente oder schwebende Hologramm-Logfiles, die er betrachtet. Keine sprechenden Köpfe.
+
+8. SPATIAL CONTEXT (ARRIVAL):
+COLD_BOOT. Henoch "fällt" nicht vom Himmel. Er steht plötzlich da (Spawn). Ein radialer Schockwellen-Effekt (Displacement Map) am Boden markiert seinen Spawn-Punkt. Die Umgebung baut sich konzentrisch um ihn herum auf (Procedural Generation in Echtzeit).
+
+9. SCENE_FLOW_EXAMPLE (Prompt Logic):
+- Clip 1 (Wide): "Hyper-realistic cinematic shot, wide angle. A forest of grey, translucent obsidian trees. The ground is a mirror-black grid. Fog is static data-noise."
+- Clip 2 (Mid): "Noah (System Build 2.0) spawns instantly in center frame. Shockwave of digital distortion ripples through the floor. He is motionless, glowing white."
+- Clip 3 (Close): "Noah's eyes open. Mechanical aperture sound. Two beams of gold light scan the dead trees."
+- Clip 4 (POV): "Through Noah's eyes. The dead trees are marked with red 'OFFLINE' tags. Wireframe overlays visible."
+- Clip 5 (Mid): "Camera pans to a cluster of 14 trees. They are vibrant green, photorealistic, contrasting sharply with the grey wireframe world. They emit a soft holy light."
+- Clip 6 (Close): "Noah touches a green leaf. The contact point ripples like liquid mercury. The system recognizes the persistent data."

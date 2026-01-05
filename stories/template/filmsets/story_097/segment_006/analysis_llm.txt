@@ -1,0 +1,122 @@
+```json
+{
+  "actors": [
+    {
+      "name": "ወይትነብ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ሉ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ነገረ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ዐመፃሙ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ቅድመ፡ዐቢይ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ወቅዱስ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ወይትኃፈር",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ገጽሙ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ወይትገደፍ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ተግባር",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ዘጸንዓ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ዐመፃ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    }
+  ],
+  "props": [],
+  "environments": [],
+  "scenes": [
+    {
+      "title": "Beat 1",
+      "location": null,
+      "action": "ወይትነብ፡ሉ፡ነገረ፡",
+      "actorsInvolved": ["ወይትነብ", "ሉ", "ነገረ"]
+    },
+    {
+      "title": "Beat 2",
+      "location": null,
+      "action": "ዐመፃሙ፡ቅድመ፡ዐቢይ፡",
+      "actorsInvolved": ["ዐመፃሙ", "ቅድመ፡ዐቢይ"]
+    },
+    {
+      "title": "Beat 3",
+      "location": null,
+      "action": "ወቅዱስ፨ወይትኃፈር፡ገጽሙ፡",
+      "actorsInvolved": ["ወቅዱስ", "ወይትኃፈር", "ገጽሙ"]
+    },
+    {
+      "title": "Beat 4",
+      "location": null,
+      "action": "ወይትገደፍ፡ሉ፡ተግባር፡",
+      "actorsInvolved": ["ወይትገደፍ", "ሉ", "ተግባር"]
+    },
+    {
+      "title": "Beat 5",
+      "location": null,
+      "action": "ዘጸንዓ፡ዐመፃ፡",
+      "actorsInvolved": ["ዘጸንዓ", "ዐመፃ"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      { "id": "beat1", "description": "Line 1" },
+      { "id": "beat2", "description": "Line 2" },
+      { "id": "beat3", "description": "Line 3" },
+      { "id": "beat4", "description": "Line 4" },
+      { "id": "beat5", "description": "Line 5" }
+    ],
+    "paths": []
+  }
+}
+```

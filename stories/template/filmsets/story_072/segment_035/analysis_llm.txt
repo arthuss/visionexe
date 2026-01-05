@@ -1,0 +1,58 @@
+```json
+{
+  "actors": [
+    {
+      "name": "Sun",
+      "visualTraits": "unknown",
+      "changes": null,
+      "role": "source of light"
+    },
+    {
+      "name": "Abiy",
+      "visualTraits": "unknown",
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "Wind",
+      "visualTraits": "unknown",
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "Command",
+      "visualTraits": "unknown",
+      "changes": null,
+      "role": "unknown"
+    }
+  ],
+  "props": [
+    {
+      "name": "Light",
+      "visualTraits": "unknown",
+      "changes": null,
+      "role": "source of illumination"
+    }
+  ],
+  "environments": [
+    {
+      "name": "World",
+      "visualTraits": "unknown",
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Invocation to the Sun",
+      "location": "World",
+      "action": "Prayer/command to the sun",
+      "actorsInvolved": ["Sun", "Abiy", "Wind", "Command"]
+    }
+  ],
+  "blocking": {
+    "anchors": [],
+    "paths": []
+  }
+}
+```

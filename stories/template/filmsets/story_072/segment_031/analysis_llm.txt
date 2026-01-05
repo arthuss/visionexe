@@ -1,0 +1,90 @@
+```json
+{
+  "actors": [],
+  "props": [
+    {
+      "name": "star",
+      "visualTraits": null,
+      "changes": null,
+      "role": "celestial object"
+    }
+  ],
+  "environments": [
+    {
+      "name": "day",
+      "visualTraits": null,
+      "changes": null,
+      "role": "time of day"
+    },
+    {
+      "name": "sun",
+      "visualTraits": null,
+      "changes": null,
+      "role": "celestial body"
+    },
+    {
+      "name": "earth",
+      "visualTraits": null,
+      "changes": null,
+      "role": "planetary surface"
+    },
+    {
+      "name": "sky",
+      "visualTraits": null,
+      "changes": null,
+      "role": "atmospheric expanse"
+    },
+    {
+      "name": "horizon",
+      "visualTraits": null,
+      "changes": null,
+      "role": "boundary line"
+    },
+    {
+      "name": "desert",
+      "visualTraits": null,
+      "changes": null,
+      "role": "landscape"
+    },
+    {
+      "name": "gate",
+      "visualTraits": null,
+      "changes": null,
+      "role": "structure"
+    },
+    {
+      "name": "west",
+      "visualTraits": null,
+      "changes": null,
+      "role": "direction"
+    },
+    {
+      "name": "east",
+      "visualTraits": null,
+      "changes": null,
+      "role": "direction"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Sunrise",
+      "location": "sky",
+      "action": "sun rises over the horizon",
+      "actorsInvolved": []
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "sun",
+        "description": "the sun"
+      },
+      {
+        "id": "horizon",
+        "description": "the horizon line"
+      }
+    ],
+    "paths": []
+  }
+}
+```

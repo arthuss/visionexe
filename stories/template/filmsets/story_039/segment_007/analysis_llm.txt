@@ -1,0 +1,82 @@
+```json
+{
+  "actors": [
+    {
+      "name": "I",
+      "visualTraits": null,
+      "changes": null,
+      "role": "speaker"
+    },
+    {
+      "name": "God",
+      "visualTraits": null,
+      "changes": null,
+      "role": "deity"
+    }
+  ],
+  "props": [
+    {
+      "name": "spirit",
+      "visualTraits": null,
+      "changes": null,
+      "role": "spiritual element"
+    },
+    {
+      "name": "light",
+      "visualTraits": null,
+      "changes": null,
+      "role": "light source"
+    },
+    {
+      "name": "fire",
+      "visualTraits": null,
+      "changes": null,
+      "role": "fire element"
+    },
+    {
+      "name": "flame",
+      "visualTraits": null,
+      "changes": null,
+      "role": "flame element"
+    }
+  ],
+  "environments": [
+    {
+      "name": "world",
+      "visualTraits": null,
+      "changes": null,
+      "role": "global environment"
+    },
+    {
+      "name": "sanctuary",
+      "visualTraits": null,
+      "changes": null,
+      "role": "sanctuary"
+    },
+    {
+      "name": "temple",
+      "visualTraits": null,
+      "changes": null,
+      "role": "temple"
+    },
+    {
+      "name": "gate",
+      "visualTraits": null,
+      "changes": null,
+      "role": "gate"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Prayer to God",
+      "location": "sanctuary/temple",
+      "action": "Speaker addresses God, invokes spirit, light, and fire, praises God.",
+      "actorsInvolved": ["I", "God"]
+    }
+  ],
+  "blocking": {
+    "anchors": [],
+    "paths": []
+  }
+}
+```

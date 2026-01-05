@@ -1,0 +1,124 @@
+```json
+{
+  "actors": [
+    {
+      "name": "ያስተርኢ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ብእሲ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ወመዐልተ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "መ፡",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "እስመ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ልእ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ምንትኒ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ልባቲ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ዘእንለ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ዚሃ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    }
+  ],
+  "props": [
+    {
+      "name": "ብርሃነ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "light"
+    }
+  ],
+  "environments": [
+    {
+      "name": "ሌሊት",
+      "visualTraits": null,
+      "changes": null,
+      "role": "night"
+    },
+    {
+      "name": "ሰማይ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "sky"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Night Sky",
+      "location": "Night sky",
+      "action": "ሌሊት፡ያስተርኢ፡፳፡መ፡\nብእሲ፡ወመዐልተ፡መ፡ሰማይ፡\nእስመ፡ልእ፡ምንትኒ፡ልባቲ፡\nዘእንለ፡ብርሃነ፡ዚሃ፨",
+      "actorsInvolved": [
+        "ያስተርኢ",
+        "ብእሲ",
+        "ወመዐልተ",
+        "መ፡",
+        "እስመ",
+        "ልእ",
+        "ምንትኒ",
+        "ልባቲ",
+        "ዘእንለ",
+        "ዚሃ"
+      ]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "night",
+        "description": "night"
+      },
+      {
+        "id": "sky",
+        "description": "sky"
+      },
+      {
+        "id": "light",
+        "description": "light"
+      }
+    ],
+    "paths": []
+  }
+}
+```

@@ -1,0 +1,63 @@
+```json
+{
+  "actors": [
+    {
+      "name": "እግዚሙ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "deity"
+    },
+    {
+      "name": "ነገሥት",
+      "visualTraits": null,
+      "changes": null,
+      "role": "ruler"
+    },
+    {
+      "name": "ንሰብሕ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "people"
+    }
+  ],
+  "props": [
+    {
+      "name": "ወንባር",
+      "visualTraits": null,
+      "changes": null,
+      "role": "altar"
+    }
+  ],
+  "environments": [],
+  "scenes": [
+    {
+      "title": "Invocation",
+      "location": null,
+      "action": "Invocation of name",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Offering to God",
+      "location": null,
+      "action": "People present altar to God",
+      "actorsInvolved": ["ንሰብሕ", "ወንባር", "እግዚሙ"]
+    },
+    {
+      "title": "Offering to King",
+      "location": null,
+      "action": "Offering to king",
+      "actorsInvolved": ["ንሰብሕ", "ነገሥት"]
+    },
+    {
+      "title": "King's Presence",
+      "location": null,
+      "action": "King present",
+      "actorsInvolved": ["ነገሥት"]
+    }
+  ],
+  "blocking": {
+    "anchors": [],
+    "paths": []
+  }
+}
+```

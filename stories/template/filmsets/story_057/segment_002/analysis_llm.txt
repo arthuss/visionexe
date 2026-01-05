@@ -1,0 +1,58 @@
+```json
+{
+  "actors": [
+    {
+      "name": "You",
+      "visualTraits": "audience",
+      "changes": null,
+      "role": "listener"
+    },
+    {
+      "name": "Holy One",
+      "visualTraits": "unknown",
+      "changes": null,
+      "role": "spiritual presence"
+    }
+  ],
+  "props": [
+    {
+      "name": "Word",
+      "visualTraits": "spoken",
+      "changes": null,
+      "role": "prop"
+    },
+    {
+      "name": "Voice",
+      "visualTraits": "audible",
+      "changes": null,
+      "role": "prop"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Earth",
+      "visualTraits": "ground",
+      "changes": null,
+      "role": "environment"
+    },
+    {
+      "name": "Sky",
+      "visualTraits": "celestial",
+      "changes": null,
+      "role": "environment"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Prayer Chant",
+      "location": "unknown",
+      "action": "recitation of words and voices",
+      "actorsInvolved": ["You", "Holy One"]
+    }
+  ],
+  "blocking": {
+    "anchors": [],
+    "paths": []
+  }
+}
+```

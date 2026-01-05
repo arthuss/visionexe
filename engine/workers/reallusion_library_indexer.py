@@ -6,7 +6,7 @@ from pathlib import Path
 
 
 DEFAULT_LIBRARY_ROOT = Path(
-    os.environ.get("REALLUSION_LIBRARY_ROOT", r"C:\Users\Public\Documents\Reallusion")
+    os.environ.get("REALLUSION_LIBRARY_ROOT", r"C:\\Users\\Public\\Documents\\Reallusion")
 )
 DEFAULT_INDEX_NAME = "reallusion_library_index.json"
 
@@ -21,6 +21,8 @@ EXTENSION_MAP = {
     ".ipath": {"category": "motion_path", "asset_type": "path"},
     ".iterrain": {"category": "terrain", "asset_type": "terrain"},
     ".iavatar": {"category": "character", "asset_type": "avatar"},
+    ".ccavatar": {"category": "character", "asset_type": "cc_avatar"},
+    ".ccproject": {"category": "character", "asset_type": "cc_project"}, # Added .ccProject
 }
 
 
@@ -42,6 +44,9 @@ def iter_assets(root: Path, include_unknown: bool, extensions: set[str] | None):
     if not root.exists():
         return []
     items = []
+    # Using rglob("*") can be slow on huge directories.
+    # But for Custom/Template it's okay.
+    # Optimization: If we could filter by extension in rglob, but rglob only takes one pattern.
     for path in sorted(root.rglob("*")):
         if not path.is_file():
             continue
@@ -57,7 +62,12 @@ def iter_assets(root: Path, include_unknown: bool, extensions: set[str] | None):
 
 
 def build_entry(path: Path, root: Path):
-    rel = path.relative_to(root)
+    try:
+        rel = path.relative_to(root)
+    except ValueError:
+        # If path is not relative to root (e.g. symlinks or weirdness), use name
+        rel = Path(path.name)
+        
     ext = path.suffix.lower()
     meta = EXTENSION_MAP.get(ext, {"category": "unknown", "asset_type": "unknown"})
     folder = "/".join(rel.parts[:-1])
@@ -66,7 +76,8 @@ def build_entry(path: Path, root: Path):
         "id": rel.as_posix(),
         "name": path.stem,
         "label": path.stem.replace("_", " "),
-        "path": rel.as_posix(),
+        "path": rel.as_posix(), # Relative path for portability
+        "abs_path": str(path), # Absolute path for direct loading
         "ext": ext,
         "category": meta["category"],
         "asset_type": meta["asset_type"],
@@ -98,12 +109,30 @@ def main():
     args = parser.parse_args()
 
     library_root = Path(args.library_root) if args.library_root else DEFAULT_LIBRARY_ROOT
-    output_path = Path(args.output) if args.output else library_root / DEFAULT_INDEX_NAME
+    # If no output specified, place next to script or in engine/config?
+    # Defaulting to library root is okay but maybe write protected.
+    # Let's default to engine/config if possible or current dir.
+    
+    # Heuristic: If inside visionexe/engine, use ../config
+    script_dir = Path(__file__).resolve().parent
+    if not args.output:
+        # Try to find engine/config
+        config_dir = script_dir.parent / "config"
+        if config_dir.exists():
+            output_path = config_dir / DEFAULT_INDEX_NAME
+        else:
+            output_path = Path.cwd() / DEFAULT_INDEX_NAME
+    else:
+        output_path = Path(args.output)
+
     extensions = normalize_extensions(args.extensions)
 
     if not library_root.exists():
-        raise SystemExit(f"Library root not found: {library_root}")
+        print(f"Warning: Library root not found: {library_root}")
+        # Don't crash, maybe user just hasn't installed content yet.
+        return
 
+    print(f"Indexing library: {library_root}")
     assets = iter_assets(library_root, args.include_unknown, extensions)
     entries = [build_entry(path, library_root) for path in assets]
     entries.sort(key=lambda item: item["id"])

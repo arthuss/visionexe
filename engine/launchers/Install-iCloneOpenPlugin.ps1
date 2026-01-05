@@ -1,6 +1,7 @@
 param(
     [ValidateSet("Junction", "Copy")]
-    [string]$Mode = "Junction",
+    [string]$Mode = "Copy",
+    [string]$PluginName = "visionexe",
     [string]$TargetPath = "C:\\Program Files\\Reallusion\\iClone 8\\Bin64\\OpenPlugin"
 )
 
@@ -21,10 +22,20 @@ if (-not (Test-Path $TargetPath)) {
     exit 1
 }
 
-$folders = Get-ChildItem -Path $sourceRoot -Directory
-if (-not $folders) {
-    Write-Error "No plugin folders found in $sourceRoot"
-    exit 1
+$folders = @()
+if ($PluginName) {
+    $candidate = Join-Path $sourceRoot $PluginName
+    if (-not (Test-Path $candidate)) {
+        Write-Error "Plugin folder not found: $candidate"
+        exit 1
+    }
+    $folders = @((Get-Item $candidate))
+} else {
+    $folders = Get-ChildItem -Path $sourceRoot -Directory
+    if (-not $folders) {
+        Write-Error "No plugin folders found in $sourceRoot"
+        exit 1
+    }
 }
 
 Write-Host "Installing OpenPlugin wrappers from $sourceRoot to $TargetPath"

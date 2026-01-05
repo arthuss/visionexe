@@ -1,0 +1,32 @@
+```json
+{
+  "actors": [
+    {
+      "name": "Michael",
+      "visualTraits": null,
+      "changes": null,
+      "role": "recipient"
+    },
+    {
+      "name": "Messenger (angel)",
+      "visualTraits": null,
+      "changes": null,
+      "role": "messenger"
+    }
+  ],
+  "props": [],
+  "environments": [],
+  "scenes": [
+    {
+      "title": "Message Delivery",
+      "location": null,
+      "action": "Messenger delivers a message to Michael",
+      "actorsInvolved": ["Michael", "Messenger (angel)"]
+    }
+  ],
+  "blocking": {
+    "anchors": [],
+    "paths": []
+  }
+}
+```

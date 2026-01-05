@@ -1,0 +1,87 @@
+[KONZEPT_MECHANIK]
+
+1. BIO-INJECTION:
+Enoch (Subject 01) operiert im "Deep Storage Sector" (Abyss). Die Umgebungstemperatur liegt bei 0 Kelvin (absolute Daten-Stasis).
+Mechanik: "Thermal-Regulation-Field".
+Visualisierung: Seine Haut ist nicht gefroren, sondern von einem hyper-aktiven, transparenten Hitzeschild umgeben, der wie flüssiges Glas wirkt (Refraction-Shader). Wo dieser Schild die kalte Umgebung berührt, entstehen mikroskopische Dampf-Explosionen (Sublimation). Seine internen Systeme laufen auf Übertaktung (Overclocking), sichtbar durch hell leuchtende Kühlleitungen unter der Haut (Arterien leuchten Magma-Orange statt Blau).
+
+2. MESH-BREAK:
+Die Realität ist hier "Corrupted Legacy Code".
+Mechanik: "Vertex-Displacement-Error".
+Visualisierung: Die Gefallenen Engel sind nicht "Monster", sondern wunderschöne Geometrien, deren Koordinaten-Daten beschädigt sind. Ihre Gesichter "glitchen" zwischen perfekter Symmetrie und chaotischem Polygon-Rauschen (Spikes, die aus dem Mesh schießen). Die Umgebung selbst (Wände) flackert zwischen Textur (Stein) und Wireframe-Gitternetz.
+
+3. PACING-STRATEGIE:
+"Latency-Horror".
+Rhythmus: Die Kamera bewegt sich extrem flüssig und stabil (60fps), aber die Objekte im Bild bewegen sich mit unterschiedlichen Framerates (Stop-Motion-Effekt bei den Gefallenen, Realtime bei Enoch).
+Schnitt: Keine Hektik. Lange, analysierende Einstellungen (Scanning), unterbrochen von "Buffer-Underruns" – das Bild friert für 2 Frames komplett ein (Black Frame), bevor es springt.
+
+4. AUDIO-DESIGN:
+Atmosphäre: "Data-Center White Noise". Ein massives, konstantes Rauschen von Millionen Lüftern und Festplattenzugriffen.
+Stimme: Die Erklärung des Engels ist kein Schall, sondern ein "Direct-Feed". Der Sound ist trocken, binaural, direkt im Zentrum des Kopfes, ohne jeglichen Raumhall.
+
+5. ÜBERGÄNGE:
+Eintritt: "Packet-Reassembly". Enoch kommt nicht als Ganzes an. Er baut sich Schicht für Schicht auf: Erst das Skelett (Wireframe), dann das Nervensystem (Licht), dann die Hülle (Marble-Skin).
+Flashbacks: "Overlay-Projection". Die Bilder der Vergangenheit ersetzen nicht die Umgebung, sondern werden als riesige, halbtransparente Hologramme ÜBER die Gefängniszellen gelegt.
+
+6. FRAMEWORK & TIMING:
+Total: 75 Sekunden (Erweitert für Dialog-Pacing). 16 Clips.
+Fokus: 50% Exploration (Mechanik des Ortes), 30% Database-Analysis (Flashback/Erklärung), 20% Reaction/Exit.
+
+7. DIALOG-CHECK:
+Ja. Die Stimme des Engels ist der Erzähler (Off-Text aus Vers 2).
+Visualisierung: Wir sehen keine sprechende Person. Wir sehen Enochs Reaktion und die Visualisierung der Audiospur als Waveform auf seinem Interface-Block.
+Shot-Reverse-Shot: Enoch (Close-Up) <-> POV (Blick auf die Zellen).
+
+8. SPATIAL CONTEXT (ARRIVAL):
+Kein Laufweg. Enoch materialisiert direkt vor Sektor 64.
+Establishing Shot: Nötig. Zeigt die unendliche Vertikalität des Speicherschachts (Deep Storage), um die Isolation zu betonen.
+
+[DREHBUCH_SCENE_LIST]
+
+**[CLIP 1: ESTABLISHING_DEEP_STORAGE]**
+> **Actor:** None. **Location:** The Hidden Place (Deep Storage Partition). **Architecture:** A vertical shaft of infinite height, lined with millions of black obsidian server-slabs (sarcophagi). **Atmosphere:** Absolute darkness, punctured only by the rhythmically pulsing red status LEDs of the corrupted units. **VFX:** Volumetric fog hangs heavy and frozen at the bottom. **Camera:** Slow tilt down, emphasizing the sheer scale of the archive. **Style:** Megastructure Brutalism, cold, sterile, terrifying scale.
+
+**[CLIP 2: ENOCH_PACKET_REASSEMBLY]**
+> **Actor:** Enoch (Prototype 2.0). **Action:** Arrival Sequence. In the center of the dark void, a wireframe skeleton glows into existence (Cyan light). **VFX:** Rapid layer-building: Nervous system (Orange glow), Musculature (Grey fiber), Skin (Marble White). **Physics:** A shockwave of heat displaces the frozen fog around him upon completion. **Sound:** High-pitch capacitor charge sound. **Camera:** Medium Shot, centered.
+
+**[CLIP 3: THERMAL_REGULATION_ACTIVE]**
+> **Actor:** Enoch. **Detail:** Close-up on his skin surface. **Texture:** The `MARBLE_SHIMMER` skin is coated in a refractive "Liquid Glass" shield. **Interaction:** Frost particles in the air hit the shield and instantly vaporize into tiny steam wisps. **Lighting:** His internal magma-orange cooling veins pulse rhythmically on his neck. **Expression:** Clinical focus, adjusting to the hostile environment.
+
+**[CLIP 4: SECTOR_64_INSPECTION]**
+> **Actor:** Enoch. **Action:** He steps forward (magnetic boot lock sound implies heavy gravity). He holds up the `WAVE_INTERFACE_BLOCK` (Obsidian Tablet). **Prop:** The tablet illuminates, casting a harsh gold light onto the nearest prison unit. **Camera:** Tracking shot from behind, looking over his shoulder at the looming black monolith.
+
+**[CLIP 5: THE_PRISON_UNIT_REVEAL]**
+> **Actor:** The Fallen (Form 01). **Object:** A massive slab of translucent amber-resin, embedded in the black metal wall. **Content:** Inside the amber, a vaguely humanoid figure is suspended in a screaming pose. **Glitch:** The figure is not static; it vibrates violently. Its geometry tears apart (Mesh-Break) and snaps back together every few seconds. **Camera:** Slow push-in.
+
+**[CLIP 6: INTERFACE_CONNECTION]**
+> **Actor:** Enoch. **Action:** Enoch places his hand near the amber surface (without touching). **VFX:** Digital streams of red code (Corruption Data) leak from the amber and are absorbed/analyzed by his tablet. **UI:** The tablet displays "ERROR: UNAUTHORIZED_MODIFICATION" in floating Ge'ez glyphs. **Camera:** Extreme Close-Up on the data transfer between amber and tablet.
+
+**[CLIP 7: THE_VOICE_INITIATION]**
+> **Actor:** Enoch. **Action:** He touches his ear-piece/temple. **VFX:** An audio-waveform visualization appears in his HUD (augmented reality overlay), syncing with the "voice" (Text Segment 2). **Expression:** Listening intensely. **Lighting:** The HUD casts a faint blue glow on his face. **Camera:** Frontal Close-Up.
+
+**[CLIP 8: FLASHBACK_THE_DESCENT_VECTOR]**
+> **Actor:** Angels (Archival Hologram). **Scene:** A holographic projection overlays the dark prison. **Visual:** We see 200 streams of light (The Watchers) striking the summit of Mount Hermon like orbital kinetic strikes. **Style:** Wireframe/Point-Cloud aesthetic, distinct from the photorealistic reality. **Camera:** High-Angle, God-View of the impact.
+
+**[CLIP 9: FLASHBACK_THE_UNAUTHORIZED_SHARE]**
+> **Actor:** Watcher & Human (Archival Hologram). **Scene:** A glowing Watcher figure handing a complex geometric object (Weapon Tech) to a primitive human. **VFX:** The human's hands turn black (Corruption) upon touching it. **Meaning:** "Revealed what was hidden". **Camera:** Side profile, focusing on the transaction.
+
+**[CLIP 10: ENOCH_REACTION_TO_DATA]**
+> **Actor:** Enoch. **Action:** Watching the hologram. He looks disturbed. **Blocking:** He turns his head from the hologram back to the prisoner in the amber. **Context:** Connecting the crime (Flashback) to the punishment (Prison). **Camera:** Medium Shot, low angle, showing the scale of the prison behind him.
+
+**[CLIP 11: PRISONER_GLITCH_MANIFESTATION]**
+> **Actor:** The Fallen (Form 01). **Action:** Inside the amber, the entity's face suddenly morphs into a chaotic spike-ball of polygons (Vertex Explosion) and then resolves into a perfect, beautiful, yet terrifying face for one frame. **VFX:** The amber cracks slightly, leaking black smoke. **Camera:** Sudden Crash-Zoom (Snap Zoom) for impact.
+
+**[CLIP 12: THE_SEDUCTION_METAPHOR]**
+> **Actor:** None (Abstract Data). **Scene:** The holographic map of Earth. **VFX:** A red virus spreads rapidly from the contact points, turning the blue wireframe world into a diseased red/black grid. **Overlay:** Text "SYSTEM INTEGRITY: 0%". **Camera:** Static wide shot of the map corruption.
+
+**[CLIP 13: VERDICT_CONFIRMATION]**
+> **Actor:** Enoch. **Action:** He swipes across his tablet, archiving the data. The holographic flashbacks dissolve into digital dust. **Prop:** The tablet turns from Gold (Scanning) to Blue (Saved). **Expression:** Grim determination. **Camera:** Medium Close-Up.
+
+**[CLIP 14: PREPARING_EXIT_VECTOR]**
+> **Actor:** Enoch. **Action:** He activates his departure sequence. **VFX:** The "Merkabah-Field" (tetrahedral geometry) begins to spin around him, displacing the fog. **Lighting:** The spinning field creates a strobing light effect in the dark corridor. **Camera:** Wide shot.
+
+**[CLIP 15: THE_PHASE_SHIFT_OUT]**
+> **Actor:** Enoch. **Action:** The field collapses. Enoch vanishes instantly, leaving a vacuum pocket that implodes with a thunderclap sound (visualized as a shockwave). **Camera:** Static shot.
+
+**[CLIP 16: LINGERING_VOID]**
+> **Actor:** None. **Subject:** The empty space where Enoch was. **Action:** The fog slowly rolls back in to fill the void. The red lights of the prison continue to pulse indifferently. **Camera:** Slow fade to black.

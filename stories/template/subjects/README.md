@@ -11,6 +11,7 @@ Core files:
 - scenes.jsonl: parsed scene records from analysis blocks.
 - environment_route.jsonl: linear environment route derived from scenes.
 - lora_index.json: consolidated LoRA catalog (actors/props/set-envs).
+- actor_queue.jsonl: actor load queue for iClone (name + optional prefer).
 - pose_library.json: indexed pose capture clips.
 - viseme_library.json: indexed phoneme/viseme capture clips.
 - scene_instructions.jsonl: regie-derived scene records with all REGIE_JSON fields, including video_plan metadata.

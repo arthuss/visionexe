@@ -1,0 +1,136 @@
+```json
+{
+  "actors": [
+    {
+      "name": "እግዚእ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "deity"
+    },
+    {
+      "name": "መላእት",
+      "visualTraits": null,
+      "changes": null,
+      "role": "angel"
+    },
+    {
+      "name": "ሰይጣን",
+      "visualTraits": null,
+      "changes": null,
+      "role": "demon"
+    },
+    {
+      "name": "People",
+      "visualTraits": null,
+      "changes": null,
+      "role": "human"
+    }
+  ],
+  "props": [
+    {
+      "name": "ወትእዛዝ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "command"
+    },
+    {
+      "name": "ኀይሎሙ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "power"
+    },
+    {
+      "name": "ሥራያተ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "work"
+    }
+  ],
+  "environments": [
+    {
+      "name": "ምድር",
+      "visualTraits": null,
+      "changes": null,
+      "role": "earth"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Scene 1: Command",
+      "location": null,
+      "action": "A command is issued",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Scene 2: God's Speech",
+      "location": null,
+      "action": "God speaks",
+      "actorsInvolved": ["እግዚእ"]
+    },
+    {
+      "title": "Scene 3: Dead and ???",
+      "location": null,
+      "action": "Mention of the dead and another entity",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Scene 4: Becoming Kingdom",
+      "location": null,
+      "action": "Reference to becoming a kingdom",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Scene 5: Unknown",
+      "location": null,
+      "action": "Unspecified action",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Scene 6: Angel",
+      "location": null,
+      "action": "Angel receives or responds to the command",
+      "actorsInvolved": ["መላእት"]
+    },
+    {
+      "title": "Scene 7: Satan",
+      "location": null,
+      "action": "Satan receives or responds to the command",
+      "actorsInvolved": ["ሰይጣን"]
+    },
+    {
+      "title": "Scene 8: Unknown",
+      "location": null,
+      "action": "Unspecified action",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Scene 9: Power Brings",
+      "location": null,
+      "action": "Power brings something unspecified",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Scene 10: Work to People",
+      "location": null,
+      "action": "Work is directed to the people",
+      "actorsInvolved": ["People"]
+    },
+    {
+      "title": "Scene 11: Power Gathers",
+      "location": null,
+      "action": "Power gathers something unspecified",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Scene 12: Gather on Earth",
+      "location": "ምድር",
+      "action": "Gathering occurs on earth",
+      "actorsInvolved": ["People"]
+    }
+  ],
+  "blocking": {
+    "anchors": [],
+    "paths": []
+  }
+}
+```

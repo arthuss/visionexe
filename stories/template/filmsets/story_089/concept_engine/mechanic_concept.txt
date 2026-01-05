@@ -1,0 +1,91 @@
+### TECHNICAL CONCEPT: CHAPTER 89 [THE ANIMAL_SIMULATION_V2]
+
+**1. BIO-INJECTION [THE NEURAL_SPIKE]**
+**Hardware:** `CORTEX_JACK_MK1`.
+**Manifestation:** Kein mystisches Augenverdrehen. Ein physischer, 10cm langer Dorn aus schwarzem Chrom fährt aus der Kopfstütze des `MALAK_THRONES` direkt in Henochs Hirnstamm (Cerebellum).
+**Physical Toll:** Der Körper krampft sofort in eine Tetanus-Starre. Die Augen bleiben offen, aber die Pupillen verengen sich auf Nadelstichgröße (0mm) und zeigen statisches Rauschen. Kein Dampf, sondern das Surren von Hochleistungslüftern im Thron, die anspringen.
+
+**2. MESH-BREAK [THE VOXEL_DECIMATION]**
+**Phenomenon:** `LOD_ERROR_FORCED`.
+**Description:** Die Simulation rendert keine organischen Texturen mehr. Um die Jahrtausende der Geschichte in Sekunden zu verarbeiten, schaltet das System auf "Debug View".
+**Geometry:** Die Welt besteht aus untexturierten Polygonen. Wenn der "Stern" fällt, bricht er nicht den Boden, sondern verursacht "Dead Pixels" – schwarze Löcher im Grid, durch die man den "Code" (Matrix-ähnliche Datenströme) sieht. Die "Tiere" sind Low-Poly-Platzhalter.
+
+**3. PACING-STRATEGIE [TIMELINE_SCRUBBING]**
+**Rhythm:** `NON_LINEAR_ACCELERATION`.
+*   **00s-10s (Creation):** 24fps. Stabil. Klare Linien.
+*   **10s-25s (The Fall):** 60fps, aber mit Frame-Skipping. Die Bewegung der "Sterne" wirkt abgehackt, unnatürlich schnell.
+*   **25s-45s (The Flood):** Variable Framerate. Zeitraffer-Effekt. Das Wasser steigt nicht fließend, sondern in ruckartigen Stufen (Quantisierung).
+*   **45s-60s (Reset):** Freeze-Frame für 1 Sekunde, dann Instant-Reboot in eine saubere, sterile Umgebung.
+
+**4. AUDIO-DESIGN [THE_HDD_GRIND]**
+**Base Layer:** Das rhythmische Klicken und Kratzen eines massiven Lese-/Schreibkopfes auf einer physischen Festplatte, verstärkt zu einem industriellen Beat.
+**Event Sounds:**
+*   **Geburt:** Ein kurzes, digitales "Ping" (Sonar).
+*   **Sternenfall:** Das Geräusch einer durchbrennenden Sicherung (elektrisches Knallen).
+*   **Flut:** Weißes Rauschen (White Noise), das langsam alle anderen Frequenzen überlagert und "verschluckt".
+
+**5. ÜBERGÄNGE [THE_GLITCH_WIPE]**
+**Mechanism:** `DATAMOSHING`.
+Keine weichen Überblendungen. Szenenwechsel geschehen durch Kompressionsartefakte. Die Pixel des vorherigen Bildes "schmieren" in das neue Bild hinein, bevor der Keyframe einrastet. Dies simuliert einen beschädigten Videostream.
+
+**6. FRAMEWORK & TIMING [60s TOTAL / 18 CLIPS]**
+Wir erhöhen auf 18 Clips, um die Detaildichte der "Tiere" zu zeigen.
+*   **Clip 1-3 (8s):** Henochs Neural-Link Aktivierung. POV-Shot: Boot-Sequenz.
+*   **Clip 4-6 (10s):** Die "Weiße Ebene". Der erste "Bulle" (Adam-Unit) wird kompiliert.
+*   **Clip 7-9 (10s):** Injektion des Virus (Stern). Rote Voxel breiten sich aus.
+*   **Clip 10-12 (12s):** System-Purge (Flut). Schwarze Pixel-Masse löscht Assets.
+*   **Clip 13-15 (10s):** Die "Ark" (Backup-Container) schwebt im Nichts.
+*   **Clip 16-18 (10s):** Restore Complete. Neue Einheiten (Schafe) werden instanziiert.
+
+**7. DIALOG-CHECK [ERROR_LOGS]**
+Kein gesprochener Dialog.
+**Visual:** Rote Terminal-Fenster poppen kurz auf: `CRITICAL_ERROR: GENETIC_CORRUPTION_DETECTED` und `EXECUTING: FLOOD_PROTOCOL.EXE`.
+
+**8. SPATIAL CONTEXT [THE_TABLETOP]**
+Henoch steht nicht *in* der Szene. Er blickt auf einen holografischen "Tisch" oder eine "Kugel" in der Mitte des Raumes.
+**Perspective:** Tilt-Shift-Effekt. Die Simulation wirkt wie eine Miniaturwelt, was die Distanz und Kälte des Beobachters unterstreicht.
+
+---
+
+### SCENE SCRIPT & PROMPTS (WAN 2.5 OPTIMIZED)
+
+**SCENE 1: THE NEURAL HANDSHAKE**
+> **[BLOCK 1: SUBJECT_ANATOMY]** Actor: Enoch (Observer). **Physique:** Pale, sweat-drenched skin, rigid neck muscles. **Tech:** A thick, black chrome spike is visibly inserted into the base of his skull. **Eyes:** Wide open, displaying static noise patterns instead of irises.
+> **[BLOCK 2: ACTION]** Extreme Close-Up (ECU). The camera jitters slightly. The spike pulses with a faint red light. Enoch's pupil dilates rapidly until the eye is entirely black.
+> **[BLOCK 3: ENVIRONMENT]** The Malak Throne Room. Dark, industrial, claustrophobic. Cables hang from the ceiling like vines.
+
+**SCENE 2: SIMULATION BOOT - THE WHITE BULL (ADAM)**
+> **[BLOCK 1: SUBJECT]** The "White Bull" Unit. **Design:** Not an animal. A quadrupedal robot with a chassis made of smooth, white porcelain. No face, just a glowing sensor strip. **Joints:** Exposed hydraulic pistons.
+> **[BLOCK 2: ACTION]** The unit materializes from a wireframe grid. It takes a clumsy first step. The wireframe floor solidifies into a flat, grey texture under its feet.
+> **[BLOCK 3: ENVIRONMENT]** The Simulation Void. An infinite grid of glowing blue lines on a black background. Minimalist, sterile. **Lighting:** Flat, shadowless ambient light.
+
+**SCENE 3: THE VIRUS INJECTION (FALLING STAR)**
+> **[BLOCK 1: SUBJECT]** The "Star". **Visual:** A jagged, burning red polygon shard, trailing corrupted texture artifacts. It looks like a graphical error tearing through the screen.
+> **[BLOCK 2: ACTION]** The shard impacts the grid. It doesn't explode; it infects. The blue grid lines turn blood-red instantly upon contact.
+> **[BLOCK 3: CINEMATOGRAPHY]** High Angle / God View. The red infection spreads geometrically (Manhattan distance) across the grid.
+
+**SCENE 4: THE CORRUPTION (BLACK CATTLE)**
+> **[BLOCK 1: SUBJECTS]** "Black Cattle" Units. **Design:** Similar to the White Bull, but their porcelain chassis is cracked, revealing oily black internal machinery. They look rusted and industrial.
+> **[BLOCK 2: ACTION]** The Black Units swarm around a White Unit. They merge and clip through each other (glitching), creating a chaotic mass of polygons.
+> **[BLOCK 3: VFX]** Datamoshing effects. The movement leaves trails of pixels. The scene looks like a low-bitrate video stream breaking down.
+
+**SCENE 5: THE PURGE (THE FLOOD)**
+> **[BLOCK 1: FLUID_SIM]** The "Water". **Material:** Not water. A rising tide of Vantablack static noise (TV snow). It consumes the geometry.
+> **[BLOCK 2: ACTION]** The static rises. The "Animals" caught in it simply vanish (de-rez) without animation. A perfect, orange glowing Cube (The Ark) floats steadily on top of the static.
+> **[BLOCK 3: ENVIRONMENT]** The world is being deleted. The background turns into a "No Signal" test pattern.
+
+**SCENE 6: THE ARK (BACKUP DRIVE)**
+> **[BLOCK 1: SUBJECT]** The Ark. **Design:** A translucent orange force-field cube, humming with energy. Inside, we see the silhouette of the White Bull Unit, frozen in stasis.
+> **[BLOCK 2: ACTION]** The Cube rotates slowly in a void of total darkness. The black static recedes downwards.
+> **[BLOCK 3: LIGHTING]** The Cube is the only light source, casting an orange glow into the nothingness.
+
+**SCENE 7: SYSTEM RESTORE (THE SHEEP)**
+> **[BLOCK 1: SUBJECTS]** "Sheep" Units. **Design:** Small, spherical floating drones with soft white emission shaders. They hover in formation.
+> **[BLOCK 2: ACTION]** The dark void is replaced by a fresh, clean white floor. The drones deploy from the dissolving Orange Cube.
+> **[BLOCK 3: ANTAGONIST]** "Wolves". Sharp, angular, stealth-bomber aesthetic mechs appearing on the horizon.
+> **[BLOCK 4: CINEMATOGRAPHY]** Tilt-Shift lens effect. The drones look like tiny toys on a vast, clean table.
+
+**SCENE 8: THE OBSERVER DISCONNECT**
+> **[BLOCK 1: SUBJECT]** Enoch. **Action:** He gasps for air, the neural spike retracting with a wet, mechanical sound. His eyes return to normal but look exhausted.
+> **[BLOCK 2: ENVIRONMENT]** Back in the dark Throne Room. Smoke rises from the neural port on the chair.
+> **[BLOCK 3: LIGHTING]** Low-key, red emergency lighting pulsing in the room.

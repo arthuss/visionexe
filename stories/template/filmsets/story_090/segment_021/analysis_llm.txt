@@ -1,0 +1,85 @@
+```json
+{
+  "actors": [
+    {
+      "name": "እግዚእ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "deity"
+    },
+    {
+      "name": "ሰብእ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "speaker"
+    },
+    {
+      "name": "ስብዐቱ",
+      "visualTraits": null,
+      "changes": null,
+      "role": "congregation"
+    }
+  ],
+  "props": [
+    {
+      "name": "ፀዓድው",
+      "visualTraits": null,
+      "changes": null,
+      "role": "altar"
+    }
+  ],
+  "environments": [
+    {
+      "name": "ቀዳሚያት",
+      "visualTraits": null,
+      "changes": null,
+      "role": "front of altar"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Prayer at the altar",
+      "location": "ፀዓድው",
+      "action": [
+        "ወጸውዐ፡እግዚእ፡ለዝኩ፡ሰብእ፡",
+        "ስብዐቱ፡ፀዓድው፡ቀዳሚያት፡",
+        "ወዘዘ፡መ፡ያምጽኡ፡ቅድሜሁ፡",
+        "እምብ፡ቀዳማዊ፡ዘይቀድም፡",
+        "እምነ፡ዝኩ፡ዋብት፡እለ፡",
+        "ኀፍረቶሙ፡መ፡ኀፍረተ፡",
+        "ፍራስ፨፨ወለብ፡",
+        "ቀዳማዊ፡ዘወድቀ፡ቅድመ፡",
+        "ወምጽእዎሙ፡ለሎሙ፡",
+        "ቅድሜሁ፨"
+      ],
+      "actorsInvolved": [
+        "እግዚእ",
+        "ሰብእ",
+        "ስብዐቱ"
+      ]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "altar",
+        "description": "the altar (ፀዓድው)"
+      },
+      {
+        "id": "front",
+        "description": "front of the altar (ቀዳሚያት)"
+      }
+    ],
+    "paths": [
+      {
+        "actor": "ሰብእ",
+        "start_anchor": "front",
+        "end_anchor": "altar",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "no explicit movement indicated"
+      }
+    ]
+  }
+}
+```

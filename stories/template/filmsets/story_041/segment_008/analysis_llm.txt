@@ -1,0 +1,140 @@
+```json
+{
+  "actors": [
+    {
+      "name": "እግዚእ",
+      "visualTraits": [],
+      "changes": [],
+      "role": "deity"
+    },
+    {
+      "name": "ሰብእ",
+      "visualTraits": [],
+      "changes": [],
+      "role": "human"
+    },
+    {
+      "name": "ጻድቃን",
+      "visualTraits": [],
+      "changes": [],
+      "role": "judge"
+    }
+  ],
+  "props": [
+    {
+      "name": "ፀሐይ",
+      "visualTraits": [],
+      "changes": [],
+      "role": "celestial body"
+    },
+    {
+      "name": "ብርሃን",
+      "visualTraits": [],
+      "changes": [],
+      "role": "light source"
+    },
+    {
+      "name": "ወማእለ",
+      "visualTraits": [],
+      "changes": [],
+      "role": "moon"
+    },
+    {
+      "name": "ጽልመት",
+      "visualTraits": [],
+      "changes": [],
+      "role": "soul"
+    },
+    {
+      "name": "መንፈሶሙ",
+      "visualTraits": [],
+      "changes": [],
+      "role": "spirit"
+    }
+  ],
+  "environments": [
+    {
+      "name": "ለረት",
+      "visualTraits": [],
+      "changes": [],
+      "role": "forest"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Beat 1",
+      "location": "sun",
+      "action": "እስመ፡ፀሐይ፡ብዙኅ፡ምያጤ፡",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Beat 2",
+      "location": "forest",
+      "action": "ቦቱ፡ለረት፡",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Beat 3",
+      "location": "unknown",
+      "action": "ወለመርገም፨ወምርዋጸ፡ፍኖቱ፡",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Beat 4",
+      "location": "unknown",
+      "action": "ለወርኅ፡ለጻድቃን፡ብርሃን፡",
+      "actorsInvolved": ["ጻድቃን"]
+    },
+    {
+      "title": "Beat 5",
+      "location": "unknown",
+      "action": "ወለኃጥን፡ጽልመት፡ስሙ፡",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Beat 6",
+      "location": "unknown",
+      "action": "ለእግዚእ፡ዘፈጠረ፡ማእለ፡",
+      "actorsInvolved": ["እግዚእ"]
+    },
+    {
+      "title": "Beat 7",
+      "location": "unknown",
+      "action": "ብርሃን፡ወማእለ፡",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Beat 8",
+      "location": "unknown",
+      "action": "ጽልመት፨ወፈለ፡መንፈሶሙ፡",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Beat 9",
+      "location": "unknown",
+      "action": "ለሰብእ፡ወጽንዐ፡መንፈሶሙ፡",
+      "actorsInvolved": ["ሰብእ"]
+    },
+    {
+      "title": "Beat 10",
+      "location": "unknown",
+      "action": "ለጻድቃን፡ስመ፡ጽድቀ፡ዚሁ፨",
+      "actorsInvolved": ["ጻድቃን"]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      { "id": "anchor1", "description": "sun" },
+      { "id": "anchor2", "description": "forest" },
+      { "id": "anchor3", "description": "moon" },
+      { "id": "anchor4", "description": "light" },
+      { "id": "anchor5", "description": "soul" },
+      { "id": "anchor6", "description": "spirit" },
+      { "id": "anchor7", "description": "human" },
+      { "id": "anchor8", "description": "judge" },
+      { "id": "anchor9", "description": "God" }
+    ],
+    "paths": []
+  }
+}
+```

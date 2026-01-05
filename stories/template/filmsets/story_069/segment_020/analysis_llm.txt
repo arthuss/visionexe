@@ -1,0 +1,68 @@
+```json
+{
+  "actors": [
+    {
+      "name": "Wind",
+      "visualTraits": ["blowing", "invisible"],
+      "changes": [],
+      "role": "natural element"
+    },
+    {
+      "name": "Sun",
+      "visualTraits": ["radiant", "bright"],
+      "changes": [],
+      "role": "natural element"
+    },
+    {
+      "name": "Stars",
+      "visualTraits": ["sparkling"],
+      "changes": [],
+      "role": "natural element"
+    },
+    {
+      "name": "Earth",
+      "visualTraits": ["solid"],
+      "changes": [],
+      "role": "natural element"
+    },
+    {
+      "name": "World",
+      "visualTraits": ["vast"],
+      "changes": [],
+      "role": "natural element"
+    }
+  ],
+  "props": [],
+  "environments": [],
+  "scenes": [
+    {
+      "title": "Wind and Sun",
+      "location": "sky",
+      "action": "Wind and Sun",
+      "actorsInvolved": ["Wind", "Sun"]
+    },
+    {
+      "title": "Wind and Stars",
+      "location": "sky",
+      "action": "Wind and Stars",
+      "actorsInvolved": ["Wind", "Stars"]
+    },
+    {
+      "title": "Earth Commands",
+      "location": "earth",
+      "action": "Earth commands",
+      "actorsInvolved": ["Earth"]
+    },
+    {
+      "title": "World to World",
+      "location": "world",
+      "action": "World to World",
+      "actorsInvolved": ["World"]
+    }
+  ],
+  "blocking": {
+    "anchors": [],
+    "paths": []
+  }
+}
+```

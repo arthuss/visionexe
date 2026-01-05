@@ -31,6 +31,14 @@ def main():
     body = {"action": args.action, "payload": payload}
     try:
         response = post_json(url, body)
+    except urllib.error.HTTPError as exc:
+        detail = exc.read().decode("utf-8", errors="replace")
+        try:
+            detail_json = json.loads(detail)
+            print(json.dumps(detail_json, indent=2, ensure_ascii=False))
+        except json.JSONDecodeError:
+            print(detail)
+        raise SystemExit(f"iClone remote server returned {exc.code}: {exc.reason}") from exc
     except urllib.error.URLError as exc:
         raise SystemExit(f"Failed to reach iClone remote server: {exc}") from exc
 

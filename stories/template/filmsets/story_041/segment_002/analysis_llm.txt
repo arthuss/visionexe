@@ -1,0 +1,39 @@
+```json
+{
+  "actors": [
+    {
+      "name": "Speaker",
+      "visualTraits": null,
+      "changes": null,
+      "role": "prayer speaker"
+    },
+    {
+      "name": "God",
+      "visualTraits": null,
+      "changes": null,
+      "role": "deity"
+    }
+  ],
+  "props": [],
+  "environments": [
+    {
+      "name": "unknown",
+      "visualTraits": null,
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Prayer to God",
+      "location": "unknown",
+      "action": "prayer",
+      "actorsInvolved": ["Speaker", "God"]
+    }
+  ],
+  "blocking": {
+    "anchors": [],
+    "paths": []
+  }
+}
+```
