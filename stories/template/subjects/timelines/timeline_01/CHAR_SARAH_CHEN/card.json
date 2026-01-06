@@ -1,0 +1,92 @@
+{
+  "id": "CHAR_SARAH_CHEN",
+  "name": "Sarah Chen",
+  "type": "character",
+  "card": {
+    "description": "Sarah Chen, a Tech Archaeologist and Meta-Analyst, operates at the intersection of historical excavation and industrial mysticism. She deciphers the functioning of ancient, incomprehensible machinery, wearing gear that blends tactical field utility with retro-fitted analysis tech. Her appearance suggests a professional who is comfortable in deep subterranean vaults, illuminated by the cold glow of her analytical instruments.",
+    "tags": [
+      "character",
+      "tech_archaeologist",
+      "industrial_mysticism",
+      "cybernetic_wear",
+      "field_researcher"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Lean, pragmatic build, posture of intense focus and observation, weathered skin from field exposure.",
+      "**Face/Sensors:** Sharp, analytical features partially obscured by specialized HUD glasses—bulky, modified eyewear with multi-spectral lenses and scrolling amber data glyphs reflecting in her eyes.",
+      "**Clothing/Armor:** High-collar reinforced field jacket in muted olive or slate grey, adorned with sensor harnesses and data-ports. Heavy canvas cargo pants with knee reinforcements. Fingerless tactical gloves for fine manipulation of artifacts.",
+      "**Key Features:** A wrist-mounted diagnostic gauntlet consisting of brass dials and a small CRT screen, cabled directly into her jacket's power supply."
+    ],
+    "evolution": [
+      "Phase 1 (Default): Standard field operations configuration, fully equipped for analysis and observation in hazardous ancient environments."
+    ],
+    "props": [
+      "Portable Spectrometer: A heavy, handheld device with vacuum tubes and a directional antenna.",
+      "Field Journal: A physical leather-bound notebook stuffed with loose papers and schematics, clipped to her belt.",
+      "Data-Spike: A jagged, crystalline interface tool used to probe ancient sockets."
+    ],
+    "prompt_keywords": [
+      "Sarah Chen",
+      "tech archaeologist",
+      "HUD glasses",
+      "industrial mysticism",
+      "field gear",
+      "analog-digital hybrid",
+      "cinematic lighting",
+      "detailed texture",
+      "8k",
+      "photorealistic"
+    ],
+    "prompt_block": "Cinematic shot of Sarah Chen, a tech archaeologist, investigating an ancient industrial vault. She wears a reinforced field jacket with visible cabling and sensor harnesses. Her face is illuminated by the amber glow of bulky, modified HUD glasses displaying scrolling data glyphs. She holds a heavy, retro-tech diagnostic device with brass dials and a small glowing screen. The atmosphere is dusty and thick, lit by shaft lighting and the bioluminescent hum of surrounding ancient machinery. Realistic textures, weathered fabric, tactile technology, sharp focus, volumetric lighting, 8k resolution.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Sarah Chen in standard field analysis gear with HUD glasses active.",
+        "prompt_keywords": [
+          "field gear",
+          "HUD glasses",
+          "analysis",
+          "ancient tech"
+        ],
+        "prompt_block": "Medium shot of Sarah Chen, tech archaeologist, wearing tactical field gear and bulky HUD glasses with amber digital overlays. She is looking intently at an off-screen artifact. Her jacket is detailed with pockets, cables, and a wrist-mounted computer. Lighting is dramatic, highlighting the dust in the air and the reflection in her lenses. Background suggests a dimly lit, metallic ancient structure. Photorealistic, cinematic composition, highly detailed textures."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_SARAH_CHEN",
+    "name": "Sarah Chen",
+    "type": "character",
+    "aliases": [
+      "Sarah Chen"
+    ],
+    "roles": [
+      "meta_analyst",
+      "observer"
+    ],
+    "visual_traits": [
+      "hud glasses",
+      "tech archaeologist"
+    ],
+    "changes": [],
+    "notes": [
+      "Meta-layer analyst/observer for ExeOS branding."
+    ],
+    "sources": [],
+    "occurrence_count": 0,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": null,
+        "chapter_end": null,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

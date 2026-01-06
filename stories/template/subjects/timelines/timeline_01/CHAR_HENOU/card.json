@@ -1,0 +1,90 @@
+{
+  "id": "CHAR_HENOU",
+  "name": "Henou",
+  "type": "character",
+  "card": {
+    "description": "An ascended 'Author' entity functioning as a living interface within the simulation. Henou appears as a high-tech construct composed of translucent, frosted-white plasma material housing complex internal gold circuitry. He embodies the fusion of ancient biological form and advanced industrial mysticism, serving as a conduit for the narrative code.",
+    "tags": [
+      "character",
+      "henou",
+      "author",
+      "translucent_skin",
+      "cyborg",
+      "industrial_mysticism",
+      "obsidian",
+      "gold_circuitry"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Translucent white plasma skin with the texture of high-end frosted glass or semi-opaque quartz. Subsurface scattering reveals a complex network of liquid gold circuitry and vascular wiring pulsing beneath the surface.",
+      "**Face/Sensors:** Featureless nose and mouth area or smoothed, idealized features. Eyes are solid black obsidian spheres with visible mechanical iris shutters and micro-apertures. No whites or pupils.",
+      "**Clothing/Armor:** Minimalist attire to showcase the internal mechanics. A structured, matte-black obsidian ceremonial gorget (neck armor) and a heavy, dark-weave waist wrap or skirt that absorbs light, contrasting with his glowing upper body.",
+      "**Key Features:** Hands often appear fused with data streams; wrists emit liquid gold particles. The overall silhouette is elegant, regal, and sterile."
+    ],
+    "evolution": [
+      "Phase 1 (Default): The 'Master Phase'. Fully ascended tech-form. White translucent skin, gold internals, obsidian eyes. Interfacing with the narrative console."
+    ],
+    "props": [
+      "Obsidian Console (Environment integrated)",
+      "Holographic Glyphs (Gold/Blue)",
+      "Liquid Gold Data Streams"
+    ],
+    "prompt_keywords": [
+      "translucent white skin",
+      "internal gold circuitry",
+      "frosted glass texture",
+      "solid black obsidian eyes",
+      "mechanical iris",
+      "industrial mysticism",
+      "cinematic lighting",
+      "hyper-realistic",
+      "8k"
+    ],
+    "prompt_block": "cinematic medium shot of Henou, a humanoid entity with translucent frosted-white plasma skin, internal glowing gold circuitry veins visible beneath surface, solid black obsidian eyes with mechanical aperture shutters, wearing matte black ceremonial obsidian neck-guard and dark waist-drape, liquid gold data streams floating around hands, high contrast lighting, stark white background with digital static, industrial mysticism style, photorealistic, 8k, highly detailed textures",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Master Phase",
+        "summary": "Translucent white tech-skin with gold internals and obsidian eyes.",
+        "prompt_keywords": [
+          "translucent skin",
+          "gold wiring",
+          "obsidian eyes",
+          "master phase"
+        ],
+        "prompt_block": "cinematic portrait of Henou in Master Phase, translucent frosted-white plasma skin, internal gold vascular circuitry pulsing, solid black obsidian eyes with mechanical shutters, wearing dark obsidian ceremonial attire, soft gold rim light, stark featureless background, industrial mysticism, hyper-realistic, 8k"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_HENOU",
+    "name": "Henou",
+    "type": "character",
+    "aliases": [
+      "Henou"
+    ],
+    "roles": [
+      "author"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1032"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 108,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

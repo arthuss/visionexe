@@ -1,0 +1,88 @@
+{
+  "id": "CHAR_LEBIT_SUMU",
+  "name": "Lebit'sumu",
+  "type": "character",
+  "card": {
+    "description": "A silent, imposing figure serving as a lesser Archive Keeper within the celestial industrial complex. Lebit'sumu functions as a living witness, recording events onto crystalline storage wafers. The entity fuses ancient priestly aesthetics with cold, precise surveillance technology, embodying the 'industrial mysticism' of the Enochian hierarchy.",
+    "tags": [
+      "watcher",
+      "cyborg",
+      "scribe",
+      "industrial",
+      "ancient",
+      "mystic"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Tall, gaunt frame wrapped in heavy, multi-layered robes of woven basalt fiber and tarnished copper mesh. Posture is rigidly vertical, statue-like.",
+      "**Face/Sensors:** The face is obscured by a partially translucent obsidian visor or mask that displays faint, shifting glyphs in amber light. Where human eyes would be, complex multi-lens optical arrays adjust constantly with mechanical clicks.",
+      "**Clothing/Armor:** Ceremonial vestments reinforced with functional exo-skeletal bracing along the spine and arms to support prolonged periods of immobility. Symbols of the Watchers are etched into bronze plating on the shoulders.",
+      "**Key Features:** Hands are gloved in articulated metal, tipped with fine stylus-fingers for direct data inscription. A low-frequency hum emanates from a chest-mounted power core."
+    ],
+    "evolution": [
+      "Phase 1 (Default): The standard operational state, fully equipped for observation and archiving duties within the industrial sanctuaries."
+    ],
+    "props": [
+      "Item: Crystalline Data Tablet (translucent, glowing edges)",
+      "Item: Stylus-finger extensions (integrated)"
+    ],
+    "prompt_keywords": [
+      "Lebit'sumu",
+      "ancient sci-fi",
+      "industrial mystic",
+      "obsidian visor",
+      "basalt robes",
+      "cyborg scribe",
+      "cinematic lighting",
+      "photorealistic",
+      "8k"
+    ],
+    "prompt_block": "Full body shot of Lebit'sumu, a mystical industrial archivist in a dimly lit ancient tech corridor. Tall gaunt figure wearing heavy woven basalt robes and tarnished copper mesh. Face obscured by a translucent obsidian visor with faint glowing amber glyphs. Complex multi-lens optical sensors. Articulated metal hands with stylus fingers. Chest-mounted faint power core. Atmosphere of dust and sacred machinery. Cinematic lighting, photorealistic, octane render, 8k, tactile textures.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Standard operational appearance as an archive keeper.",
+        "prompt_keywords": [
+          "Lebit'sumu",
+          "archive keeper",
+          "standing",
+          "neutral",
+          "observing"
+        ],
+        "prompt_block": "Full body shot of Lebit'sumu, a mystical industrial archivist in a dimly lit ancient tech corridor. Tall gaunt figure wearing heavy woven basalt robes and tarnished copper mesh. Face obscured by a translucent obsidian visor with faint glowing amber glyphs. Complex multi-lens optical sensors. Articulated metal hands with stylus fingers. Chest-mounted faint power core. Atmosphere of dust and sacred machinery. Cinematic lighting, photorealistic, octane render, 8k, tactile textures."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_LEBIT_SUMU",
+    "name": "Lebit'sumu",
+    "type": "character",
+    "aliases": [
+      "Lebit'sumu"
+    ],
+    "roles": [
+      "unknown"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_947"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 99,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

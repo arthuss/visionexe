@@ -1,0 +1,10 @@
+## [STATE] Ile :: Default
+**State ID:** default
+**Chapters:** 9 - 99
+
+**Phase Summary:** The standard travel-worn observer state.
+**Phase Keywords:** travel-worn, observer, dusty linens, bronze collar
+**Phase Prompt:**
+Medium shot of Ile, a young tech-nomad character with deep obsidian skin and matte texture. They have faint gold circuitry scarification on their temples. Wearing dust-colored layered linens made of ballistic mesh and a rigid oxidized bronze collar. Short braided hair interwoven with copper wire. They are holding a bone-like stylus. Background is a blur of ancient stone and industrial machinery. Cinematic lighting, photorealistic, 8k resolution, highly detailed texture, atmospheric depth.
+
+---

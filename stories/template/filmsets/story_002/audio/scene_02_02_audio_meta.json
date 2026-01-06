@@ -1,0 +1,65 @@
+{
+  "scene": {
+    "act": 2,
+    "scene_id": "2.2",
+    "timecode": "00:24-00:28",
+    "title": "Enoch Observing Mesh"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "actor_in_env",
+    "shot_type": "medium",
+    "framing": "medium",
+    "environment": "Merkabah Interior",
+    "env_change": false,
+    "actors": [
+      {
+        "name": "Enoch",
+        "phase": "System Prototype Build 2.0",
+        "presence": "on_screen",
+        "focus": "primary"
+      }
+    ],
+    "props": [
+      "Holographic Data Stream"
+    ],
+    "camera": "Low Angle",
+    "mood": [
+      "cyberpunk",
+      "mystical"
+    ],
+    "director_intent": "Enoch is immersed in the raw data of the world.",
+    "start_image_keywords": [
+      "binary_rain",
+      "hologram_face",
+      "blue_light"
+    ],
+    "start_image_mode": "actor_in_env",
+    "video_plan": {},
+    "voice_words_max": 0
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_02_02_voice.wav",
+    "target_media": "Media/scene_02_02.mp4",
+    "output": "Media/scene_02_02_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_02_02_avatar_manifest.json",
+    "pose_source": "Media/scene_02_02_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_02_02_avatar_normal.exr",
+      "depth": "Media/scene_02_02_avatar_depth.exr",
+      "motion": "Media/scene_02_02_avatar_motion.exr",
+      "mask": "Media/scene_02_02_avatar_mask.exr"
+    }
+  }
+}

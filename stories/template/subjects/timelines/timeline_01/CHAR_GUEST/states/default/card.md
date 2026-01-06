@@ -1,0 +1,10 @@
+## [STATE] Guest :: Default
+**State ID:** default
+**Chapters:** 100 - 100
+
+**Phase Summary:** The Guest in their primary state of decadent consumption.
+**Phase Keywords:** wealthy guest, holding drink, neon blue, baroque tech, golden walls background
+**Phase Prompt:**
+A hyper-realistic portrait of a wealthy aristocrat, the Guest, standing in a dissolving golden hall. They wear lavish robes of gold and velvet with subtle circuit-board patterns embroidered in thread. They hold a delicate crystal glass containing a viscous neon blue liquid. Their expression is one of dawning horror. Above their head, a faint, translucent red 'X' marker glows ominously. Cinematic lighting, volumetric fog, high detail.
+
+---

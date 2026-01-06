@@ -37,6 +37,7 @@ DIRECTOR_MANUAL = f"""
    - PORTAL INGRESS: Vertical rift, heat-lensing interference, stepping from dust into sterile mainframe.
    - GRAVITY SHIFT: Dust lifting, robe fluttering upward, vector-based levitation.
    - TOUCHDOWN: Macro shot of feet hitting floor, golden data-sync ripples on contact.
+   -just to name some, ideate yourself what makes more sense!
 5. ACTOR EVOLUTION (Gear Tracking):
    - Kap 1-13 (PROXY): Human, weathered, simple linen, "Opened Eye" effect (overload).
    - Kap 14-70 (VOYAGER): Silver-skin shader, HUD-Visor, Idris-Gloves (golden light), floating in spheres.
@@ -53,7 +54,7 @@ DIRECTOR_MANUAL = f"""
 STRICT_SOURCE_RULES = """
 ### SOURCE-OF-TRUTH (EXEGETICAL LOCK) ###
 1. Verwende ausschliesslich Informationen aus dem Kapiteltext/Versen und den gelieferten Analysen.
-2. Keine neuen Szenen, Actors, Props oder Orte erfinden. Keine modernen Analogien hinzufuegen.
+2. Keine neuen Szenen, Actors, Props oder Orte erfinden. 
 3. Wenn Details fehlen: weglassen oder als "unknown" markieren, nicht auffuellen.
 4. Szene-/Vers-Reihenfolge beibehalten. Keine Umstellungen ohne Textbasis.
 """
@@ -381,6 +382,8 @@ CHAPTER RAW TEXT:
 {data.get('raw_text', '')}
 SEGMENT ANALYSIS:
 {segment_analysis_str}
+STORYTELLING Q1/Q2/Q3:
+{data.get('visual_abc', '')}
 
 OUTPUT REQUIREMENTS:
 1. ACTOR IDENTIFICATION: Wer ist in der Szene? Welches Gear?

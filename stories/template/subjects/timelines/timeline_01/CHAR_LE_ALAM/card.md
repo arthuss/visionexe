@@ -1,0 +1,29 @@
+## [CHARACTER] Le'alam (ID: CHAR_LE_ALAM)
+**Description:** Le'alam, the Eternal Witness, appears as a towering fusion of geological permanence and incomprehensible processing power. Acting as a sentinel entity, its form suggests a living statue carved from meteoric iron and polished basalt, housing a radiant, heat-generating core.
+**Tags:** #entity #ancient-tech #sentinel #obsidian #industrial-mysticism #guardian #faceless
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** 2.3-meter frame encased in segmented, heavy plating that mimics the texture of volcanic glass and weathered bronze. The chassis is non-humanoid in proportion, with elongated limbs and a dense, gravity-anchored torso.
+*   **Face/Sensors:** A monolithic, cowl-like head structure with no mouth or nose. The 'face' is a concave dish of matte Vantablack material, centered by a single, vertical aperture that emits a scanning laser-grid in deep crimson.
+*   **Clothing/Armor:** Draped in heavy, oil-stained layered linens reminiscent of ancient mummification wraps, secured by oxidized copper cabling. The fabrics are weighed down by gravity-glyphs etched into lead weights at the hems.
+*   **Key Features:** Sub-dermal heat vents release periodic bursts of steam/vapor. The entity does not walk but glides slightly above the ground using anti-gravitic nodes located in the shins.
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Default): The entity is in its standard monitoring state. Heat vents are closed, optical aperture is dim red, and the posture is rigid and observational.
+
+### 3. PROPS & EQUIPMENT
+*   Item: The Giza-Key - A heavy, stone-tech slab resembling an ankh but composed of circuitry and fiber-optics.
+*   Item: Data-Censer - A swinging thurible that emits data-fog instead of incense.
+
+### 4. AI PROMPT KEYWORDS
+`Le'alam`, `ancient cyborg`, `volcanic glass armor`, `crimson sensor eye`, `ethiopian technological aesthetic`, `industrial sci-fi`, `heavy linen robes`, `atmospheric smoke`, `cinematic`, `unreal engine 5`
+
+### 5. PROMPT BLOCK (T2I)
+Cinematic full shot of Le'alam, a massive ancient-tech entity. The character has a body of polished black volcanic glass and weathered bronze components. Its face is a void with a vertical red laser slit. It wears heavy, oil-stained linen wraps secured with copper cables. It floats slightly off the ground in a dusty, dimly lit ancient industrial chamber. Atmospheric steam, intricate mechanical details, harsh shadows, photorealistic, 8k.
+
+### 6. PHASE PROMPTS
+*   **Default:** Le'alam in its standard sentinel mode, observing silently.
+    Prompt: Le'alam standing guard, medium-long shot. The entity's black glass armor reflects the low light. The vertical red eye slit is glowing faintly. Heavy linen robes hang still. Background of ancient stone walls with tech-etchings. Moody lighting, sharp focus, texture-heavy, 8k.
+    Keywords: Le'alam, idle state, vertical red eye, black glass armor, ancient robes
+
+---

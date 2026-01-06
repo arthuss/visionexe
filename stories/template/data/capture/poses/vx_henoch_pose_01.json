@@ -1,6 +1,6 @@
 {
   "schema_version": "pose_bvh_v1",
-  "generated_at": "2026-01-05 12:01:34",
+  "generated_at": "2026-01-05 18:41:04",
   "pose_id": "skeleton",
   "coverage": "upper_body",
   "source": {
@@ -8,7 +8,7 @@
     "frame_time": 0.033333,
     "frame_count": 1,
     "joint_order": [
-      "Hips",
+      "Joint_000",
       "Joint_001",
       "Joint_002",
       "Joint_003",
@@ -31,32 +31,6 @@
     ]
   },
   "pose": {
-    "Hips": {
-      "rotation": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 0.0
-      },
-      "translation": {
-        "x": 0.0,
-        "y": -0.0,
-        "z": -0.0
-      },
-      "rotation_order": "ZXY",
-      "channels": [
-        "Xposition",
-        "Yposition",
-        "Zposition",
-        "Zrotation",
-        "Xrotation",
-        "Yrotation"
-      ],
-      "offset": [
-        0.0,
-        -0.0,
-        -0.0
-      ]
-    },
     "Joint_001": {
       "rotation": {
         "x": 0.0,
@@ -493,18 +467,68 @@
         0.0,
         0.0
       ]
+    },
+    "Joint_000": {
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "translation": {
+        "x": 0.0,
+        "y": -0.0,
+        "z": -0.0
+      },
+      "rotation_order": "ZXY",
+      "channels": [
+        "Xposition",
+        "Yposition",
+        "Zposition",
+        "Zrotation",
+        "Xrotation",
+        "Yrotation"
+      ],
+      "offset": [
+        0.0,
+        -0.0,
+        -0.0
+      ]
     }
   },
   "mapping": {
     "path": "C:\\Users\\sasch\\visionexe\\engine\\config\\pose_mappings\\sam3_bvh_to_cc4.json",
-    "mapped_count": 19,
-    "unmapped": [
-      "Hips"
-    ]
+    "mapped_count": 20,
+    "unmapped": []
   },
   "mapped_pose": {
     "target": "Armature",
     "bones": {
+      "CC_Base_Hip": {
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "translation": {
+          "x": 0.0,
+          "y": -0.0,
+          "z": -0.0
+        },
+        "rotation_order": "ZXY",
+        "channels": [
+          "Xposition",
+          "Yposition",
+          "Zposition",
+          "Zrotation",
+          "Xrotation",
+          "Yrotation"
+        ],
+        "offset": [
+          0.0,
+          -0.0,
+          -0.0
+        ]
+      },
       "CC_Base_NeckTwist01": {
         "rotation": {
           "x": 0.0,

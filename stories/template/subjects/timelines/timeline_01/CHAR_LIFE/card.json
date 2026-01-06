@@ -1,0 +1,87 @@
+{
+  "id": "CHAR_LIFE",
+  "name": "Life",
+  "type": "character",
+  "card": {
+    "description": "The sentient avatar of the Tree of Life Node; a bio-digital construct protecting the source code of existence. 'Life' appears not as flesh, but as a convergence of hyper-advanced preservation technology and ancient biological symbolism. As an antagonist, it represents the ruthless preservation of the system over the individual, standing as a radiant, blinding obstacle to Henoch in the data-void.",
+    "tags": [
+      "avatar",
+      "bio-digital",
+      "amber",
+      "gold",
+      "industrial-mysticism",
+      "construct"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** A humanoid figure composed of translucent, hardened amber resin. Inside the semi-transparent shell, a nervous system of glowing golden circuitry and fiber-optic filaments pulses rhythmically.",
+      "**Face/Sensors:** The face is a smooth, featureless mask of hexagonal mesh (honeycomb pattern) that glows with inner golden light. No eyes or mouth, only the radiating heat of processing power.",
+      "**Clothing/Armor:** Draped in 'garments' that are actually cascading roots and data-cables, weaving together to form a regal, robe-like silhouette. The cables trail off into the surrounding void, connecting physically to the environment.",
+      "**Key Features:** Surrounded by a perpetual cloud of floating gold dust and particulate matter. The entity levitates slightly, defying gravity/physics of the simulation."
+    ],
+    "evolution": [
+      "Phase 1 (Default): The Guardian of the Node. Radiant, static, and imposing. Composed of amber and light."
+    ],
+    "props": [
+      "Amber Fruit (held in hand, glowing)",
+      "Data-Root Tendrils"
+    ],
+    "prompt_keywords": [
+      "translucent amber skin",
+      "glowing gold circuitry",
+      "hexagonal mesh face",
+      "fiber-optic hair",
+      "bio-mechanical goddess",
+      "floating gold dust",
+      "cinematic lighting",
+      "8k",
+      "octane render"
+    ],
+    "prompt_block": "Full body shot of the entity 'Life', a bio-mechanical avatar standing in the Tree of Life Node. The character is made of translucent amber resin, revealing a skeletal structure of glowing golden circuitry inside. The face is a blank hexagonal mesh mask emitting blinding yellow light. It wears robes made of weaving fiber-optic cables and tree roots. Floating particles of gold dust surround it. Background is deep bokeh darkness with faint cyan data streaks. Cinematic lighting, photorealistic, macro details on the resin texture.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The radiant, amber-construct guardian of the Tree Node.",
+        "prompt_keywords": [
+          "amber resin body",
+          "gold circuitry veins",
+          "hexagonal face mask",
+          "fiber-optic robes"
+        ],
+        "prompt_block": "The entity 'Life' standing as a guardian in the Tree of Life Node. A humanoid figure sculpted from translucent amber, inner golden light illuminating complex circuitry veins. Face is a featureless golden hexagonal grid. Robes of dark roots and glowing cables. Atmosphere of heavy gold dust and static. Cinematic, hyper-realistic, 8k resolution, ancient-tech aesthetic."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_LIFE",
+    "name": "Life",
+    "type": "character",
+    "aliases": [
+      "Life"
+    ],
+    "roles": [
+      "antagonist"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_991"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 103,
+        "chapter_end": 103,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

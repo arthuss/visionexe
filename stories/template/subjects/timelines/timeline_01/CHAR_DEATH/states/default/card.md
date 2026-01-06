@@ -1,0 +1,10 @@
+## [STATE] Death :: Default
+**State ID:** default
+**Chapters:** 103 - 103
+
+**Phase Summary:** The entity in its standard, imposing state, ready to terminate.
+**Phase Keywords:** stalking pose, red sensor glow, shimmering air distortion, imposing stature
+**Phase Prompt:**
+A photorealistic medium shot of the character 'Death', a towering ancient-tech cyborg executioner. It stands menacingly, its matte-black armor absorbing light. The vertical red sensor on its obsidian face-plate pierces the darkness. It wears a golden industrial collar and tattered cable-shrouds. Heat shimmer and digital distortion ripple around its body. It holds a technical staff with a tuning-fork tip. Dark, atmospheric lighting, volumetric fog, cinematic composition, 8k, highly detailed textures of stone and metal.
+
+---

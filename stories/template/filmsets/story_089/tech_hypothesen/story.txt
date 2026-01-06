@@ -1,0 +1,20 @@
+Basierend auf der Interpretation als **Simulation Manual (OS)**:
+
+1.  **Die Tier-Avatare (Skinning-Protokolle):**
+    *   Die Geschichte ist keine biologische Evolution, sondern eine **Avatar-Migration**. Die "User" (Seelen/Bewusstsein) werden in verschiedene "Gehäuse" (Skins) gerendert, um ihre Hierarchie und Zugriffsrechte im System darzustellen.
+    *   *Stiere (Bulls):* Admin-Rechte, direkter Zugriff auf den Kernel (Generation Adam bis Abraham).
+    *   *Schafe (Sheep):* Standard-User, eingeschränkte Rechte, benötigen "Hirten" (Middleware/Manager).
+    *   *Wölfe/Wildtiere:* Malware, korrupte Prozesse oder externe Angreifer-Bots, die Ressourcen (Schafe) tilgen.
+
+2.  **Die 70 Hirten (The 70 Daemons):**
+    *   Nach der Zerstörung des "Hauses" (Tempel/Server-Crash) wird die Verwaltung der User-Datenbank (Israel) an 70 automatisierte Hintergrundprozesse (Hirten) delegiert.
+    *   **Der Bug:** Diese Prozesse haben eine "Kill-Quote" (zulässige Löschungen), überschreiten diese aber massiv (Korruption/Memory Leak).
+    *   **Der Schreiber (Audit-Log):** Ein separater Prozess (Engel/Schreiber), der *read-only* Zugriff hat, protokolliert jeden illegalen Löschvorgang der Hirten für das spätere Gericht (System-Audit).
+
+3.  **Wasser & Geografie als Systemgrenzen:**
+    *   Die Sintflut und das Rote Meer sind **Firewalls** oder **Partitionierungs-Events**. Das "Trockenfallen" des Wassers ist das Öffnen eines Tunnels (VPN/Bridge) durch eine feindliche Zone.
+
+4.  **Das "Haus" (The Server Rack):**
+    *   Der Bau des "Hauses" für den "Herrn der Schafe" ist das Aufsetzen einer dedizierten Instanz für die Kommunikation mit dem Master-Controller. Wenn das Haus brennt (Tempelzerstörung), ist die Verbindung offline (Error 404 / Connection Refused).
+
+---

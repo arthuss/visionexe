@@ -1,0 +1,96 @@
+{
+  "scene": {
+    "act": 2,
+    "scene_id": "2.1",
+    "timecode": "00:18-00:25",
+    "title": "KING_PRIME_SPEAKING_A"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "actor",
+    "shot_type": "extreme_close_up",
+    "framing": "extreme_close_up",
+    "environment": "The_Terminal_Throne_Room",
+    "env_change": false,
+    "actors": [
+      {
+        "name": "Prime_King_Unit_01",
+        "phase": "Glitch_Speech",
+        "presence": "on_screen",
+        "focus": "primary"
+      }
+    ],
+    "props": [
+      "AUDIO_WAVEFORM_VFX"
+    ],
+    "camera": "100mm Macro",
+    "mood": [
+      "discomfort",
+      "glitch"
+    ],
+    "director_intent": "Uncomfortable intimacy with the glitching avatar. Visualizing the corrupted audio output.",
+    "start_image_keywords": [
+      "macro mouth",
+      "black fluid leaking",
+      "yellow waveform"
+    ],
+    "start_image_mode": "actor_only",
+    "video_plan": {
+      "start_comp": {
+        "mode": "actor_first",
+        "actor_pose_id": "",
+        "env_id": "",
+        "props": [],
+        "notes": ""
+      },
+      "motion_driver": {
+        "type": "a2f",
+        "audio_id": "CH63_SC03_AUDIO",
+        "pose_source": "",
+        "driver_notes": "Lip sync must be erratic and slightly out of sync"
+      },
+      "reference_footage": {
+        "id": "",
+        "path": "",
+        "use": "none",
+        "notes": ""
+      },
+      "overlay_badge": {
+        "asset": "",
+        "blend": "normal",
+        "opacity": 0.0,
+        "position": "top_right",
+        "safe_margin": 0.04
+      },
+      "provenance": {
+        "source": "ai_assisted",
+        "notes": ""
+      }
+    },
+    "voice_words_max": 10
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_02_01_voice.wav",
+    "target_media": "Media/scene_02_01.mp4",
+    "output": "Media/scene_02_01_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_02_01_avatar_manifest.json",
+    "pose_source": "Media/scene_02_01_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_02_01_avatar_normal.exr",
+      "depth": "Media/scene_02_01_avatar_depth.exr",
+      "motion": "Media/scene_02_01_avatar_motion.exr",
+      "mask": "Media/scene_02_01_avatar_mask.exr"
+    }
+  }
+}

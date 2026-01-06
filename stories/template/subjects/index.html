@@ -121,6 +121,7 @@
       const registryPath = "registry.json";
       const profilesPath = "profiles.jsonl";
       const occurrencesPath = "occurrences.jsonl";
+      const cardsPath = "asset_bible_cards.jsonl";
 
       const listEl = document.getElementById("list");
       const detailsEl = document.getElementById("details");
@@ -132,6 +133,7 @@
         registry: [],
         profiles: new Map(),
         occurrences: [],
+        cards: new Map(),
         filtered: []
       };
 
@@ -144,15 +146,18 @@
       }
 
       async function loadData() {
-        const [registryRes, profilesRes, occurrencesRes] = await Promise.all([
+        const [registryRes, profilesRes, occurrencesRes, cardsRes] = await Promise.all([
           fetch(registryPath),
           fetch(profilesPath),
-          fetch(occurrencesPath)
+          fetch(occurrencesPath),
+          fetch(cardsPath)
         ]);
         state.registry = await registryRes.json();
         const profiles = parseJsonl(await profilesRes.text());
         profiles.forEach(profile => state.profiles.set(profile.id, profile));
         state.occurrences = parseJsonl(await occurrencesRes.text());
+        const cards = parseJsonl(await cardsRes.text());
+        cards.forEach(card => state.cards.set(card.id, card));
         populateTypes();
         applyFilters();
       }
@@ -204,6 +209,7 @@
           return;
         }
         const occs = state.occurrences.filter(o => o.subject_id === subjectId).slice(0, 50);
+        const cardEntry = state.cards.get(subjectId);
         const roles = (profile.roles || []).map(r => `<span class="tag">${r}</span>`).join("");
         const traits = (profile.visual_traits || []).join(", ");
         const changes = (profile.changes || []).join(", ");
@@ -252,6 +258,7 @@
             <h3>Occurrences (first 50)</h3>
             ${renderOccurrences(occs)}
           </div>
+          ${renderAssetCard(cardEntry)}
         `;
       }
 
@@ -281,6 +288,70 @@
             </thead>
             <tbody>${rows}</tbody>
           </table>
+        `;
+      }
+
+      function renderAssetCard(cardEntry) {
+        if (!cardEntry || !cardEntry.card) {
+          return `<div class="section"><h3>Asset Card</h3><div class="muted">No asset card found.</div></div>`;
+        }
+        const card = cardEntry.card;
+        const tags = (card.tags || []).map(tag => `<span class="tag">${tag}</span>`).join("");
+        const anatomy = (card.visual_anatomy || []).map(item => `<div>${item}</div>`).join("");
+        const evolution = (card.evolution || []).map(item => `<div>${item}</div>`).join("");
+        const props = (card.props || []).map(item => `<div>${item}</div>`).join("");
+        const keywords = (card.prompt_keywords || []).join(", ");
+        const prompt = card.prompt_block || "";
+        const phasePrompts = (card.phase_prompts || []).map(phase => {
+          if (!phase || typeof phase !== "object") {
+            return "";
+          }
+          const label = phase.label || phase.state_id || "Phase";
+          const summary = phase.summary ? `<div class="muted">${phase.summary}</div>` : "";
+          const phaseKeywords = (phase.prompt_keywords || []).join(", ");
+          const phasePrompt = phase.prompt_block ? `<div class="muted">${phase.prompt_block}</div>` : "";
+          const keywordBlock = phaseKeywords ? `<div class="muted">Keywords: ${phaseKeywords}</div>` : "";
+          return `
+            <div class="state-block">
+              <strong>${label}</strong>
+              ${summary}
+              ${keywordBlock}
+              ${phasePrompt}
+            </div>
+          `;
+        }).join("");
+        const subjectDir = cardEntry.subject_dir ? `<div class="muted">Folder: ${cardEntry.subject_dir}</div>` : "";
+        return `
+          <div class="section">
+            <h3>Asset Card</h3>
+            ${subjectDir}
+            <div><strong>Description:</strong> ${card.description || ""}</div>
+            ${tags ? `<div>${tags}</div>` : ""}
+            <div class="section">
+              <h3>Visual Anatomy</h3>
+              ${anatomy || `<div class="muted">None</div>`}
+            </div>
+            <div class="section">
+              <h3>Evolution / Variants</h3>
+              ${evolution || `<div class="muted">None</div>`}
+            </div>
+            <div class="section">
+              <h3>Props & Equipment</h3>
+              ${props || `<div class="muted">None</div>`}
+            </div>
+            <div class="section">
+              <h3>Prompt Keywords</h3>
+              <div>${keywords || `<span class="muted">None</span>`}</div>
+            </div>
+            <div class="section">
+              <h3>Prompt Block</h3>
+              <div class="muted">${prompt || "None"}</div>
+            </div>
+            <div class="section">
+              <h3>Phase Prompts</h3>
+              ${phasePrompts || `<div class="muted">None</div>`}
+            </div>
+          </div>
         `;
       }
 

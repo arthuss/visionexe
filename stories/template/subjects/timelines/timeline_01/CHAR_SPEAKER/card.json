@@ -1,0 +1,95 @@
+{
+  "id": "CHAR_SPEAKER",
+  "name": "Speaker",
+  "type": "character",
+  "card": {
+    "description": "A towering 2.5-meter entity of pure, polished chrome, functioning as a herald of the divine architecture. Faceless and impassive, its surface acts as a perfect mirror, reflecting not just the environment but the chaotic spiritual state of observers. It blends the stiff, imposing silhouette of an ancient hierophant with advanced, seamless liquid-metal technology.",
+    "tags": [
+      "character",
+      "chrome",
+      "faceless",
+      "giant",
+      "industrial_mysticism",
+      "reflective",
+      "monolith"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** 2.5 meters tall, elongated humanoid structure composed of seamless, high-gloss chrome. The silhouette mimics the static grandeur of an ancient Egyptian statue but with hidden, fluid articulation.",
+      "**Face/Sensors:** A completely featureless, convex mirror faceplate. No eyes, mouth, or sensory clusters; the surface reflects the viewer with disturbing clarity.",
+      "**Clothing/Armor:** The chassis is sculpted to suggest heavy ceremonial robes or tectonic plating fused directly into the form. Faint, laser-etched Ge'ez-inspired circuit glyphs run along the 'lapels' and shoulders, visible only in glancing light.",
+      "**Key Features:** The hyper-reflective surface seems to manipulate light, creating impossible reflections that emphasize the contrast between shadow and holy light."
+    ],
+    "evolution": [
+      "Phase 1 (Default): The eternal, unchanging chrome sentinel observed in the Buffer Zone and beyond."
+    ],
+    "props": [
+      "Dais: A raised geometric platform, industrial stone with metallic inlay.",
+      "Staff (Optional): Sometimes depicted with a long, thin rod of matte black metal."
+    ],
+    "prompt_keywords": [
+      "The Speaker",
+      "chrome humanoid",
+      "faceless",
+      "2.5m tall",
+      "reflective surface",
+      "ancient tech",
+      "industrial mysticism",
+      "Ge'ez glyphs",
+      "imposing"
+    ],
+    "prompt_block": "cinematic shot of The Speaker, a towering 2.5m humanoid figure made of polished seamless chrome, featureless mirror face, standing on a raised industrial dais, silhouette resembling an ancient hierophant, etched circuitry glyphs on metal skin, hyper-realistic reflections showing a chaotic environment, dramatic low angle, ray-tracing, ancient ethiopian aesthetic fused with sci-fi, 8k, unreal engine 5 render style",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The standard polished chrome appearance of The Speaker.",
+        "prompt_keywords": [
+          "polished chrome",
+          "mirror face",
+          "pristine"
+        ],
+        "prompt_block": "full body shot of The Speaker, a giant 2.5m chrome android with a smooth faceless head, polished mirror finish reflecting the surroundings, standing stoically, ancient egyptian robotic design, industrial lighting, sharp focus, metallic texture, photorealistic, cinematic composition"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_SPEAKER",
+    "name": "Speaker",
+    "type": "character",
+    "aliases": [
+      "Speaker"
+    ],
+    "roles": [
+      "Speaker",
+      "chanting group",
+      "prayer speaker",
+      "speaker"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1017",
+      "row_281",
+      "row_332",
+      "row_35",
+      "row_449",
+      "row_844"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 7,
+        "chapter_end": 106,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

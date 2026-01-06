@@ -1,0 +1,98 @@
+{
+  "scene": {
+    "act": 2,
+    "scene_id": "2.2",
+    "timecode": "00:30-00:38",
+    "title": "READING THE CODE"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "actor",
+    "shot_type": "medium",
+    "framing": "medium",
+    "environment": "Waters of Dan Cooling Facility",
+    "env_change": false,
+    "actors": [
+      {
+        "name": "Henoch",
+        "phase": "PROXY",
+        "presence": "on_screen",
+        "focus": "primary"
+      }
+    ],
+    "props": [
+      "Obsidian Tablet"
+    ],
+    "camera": "50mm side profile",
+    "mood": [
+      "ritualistic",
+      "technological"
+    ],
+    "director_intent": "Visualize the voice interacting with the environment.",
+    "start_image_keywords": [
+      "Henoch profile",
+      "vapor shapes",
+      "glowing tablet"
+    ],
+    "start_image_mode": "actor_in_env",
+    "video_plan": {
+      "start_comp": {
+        "mode": "actor_first",
+        "actor_pose_id": "HENOCH_SIT_READ",
+        "env_id": "DAN_COOLING_01",
+        "props": [
+          "TABLET_01"
+        ],
+        "notes": ""
+      },
+      "motion_driver": {
+        "type": "a2f",
+        "audio_id": "scene_2_2_audio",
+        "pose_source": "",
+        "driver_notes": "Lip sync to Ge'ez reading"
+      },
+      "reference_footage": {
+        "id": "",
+        "path": "",
+        "use": "none",
+        "notes": ""
+      },
+      "overlay_badge": {
+        "asset": "",
+        "blend": "normal",
+        "opacity": 0.0,
+        "position": "top_right",
+        "safe_margin": 0.04
+      },
+      "provenance": {
+        "source": "ai_assisted",
+        "notes": ""
+      }
+    },
+    "voice_words_max": 10
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_02_02_voice.wav",
+    "target_media": "Media/scene_02_02.mp4",
+    "output": "Media/scene_02_02_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_02_02_avatar_manifest.json",
+    "pose_source": "Media/scene_02_02_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_02_02_avatar_normal.exr",
+      "depth": "Media/scene_02_02_avatar_depth.exr",
+      "motion": "Media/scene_02_02_avatar_motion.exr",
+      "mask": "Media/scene_02_02_avatar_mask.exr"
+    }
+  }
+}

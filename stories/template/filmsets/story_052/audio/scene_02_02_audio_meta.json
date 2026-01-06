@@ -1,0 +1,99 @@
+{
+  "scene": {
+    "act": 2,
+    "scene_id": "2.2",
+    "timecode": "00:20-00:25",
+    "title": "THE ANSWER"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "actor",
+    "shot_type": "over_shoulder",
+    "framing": "close_up",
+    "environment": "Obsidian Plain",
+    "env_change": false,
+    "actors": [
+      {
+        "name": "Angel of Peace",
+        "phase": "Hologram",
+        "presence": "on_screen",
+        "focus": "primary"
+      },
+      {
+        "name": "Henoch",
+        "phase": "Voyager",
+        "presence": "off_screen",
+        "focus": "secondary"
+      }
+    ],
+    "props": [],
+    "camera": "Reverse Shot (Angel POV)",
+    "mood": [
+      "serene",
+      "informative"
+    ],
+    "director_intent": "The system guide explains the function of the server nodes.",
+    "start_image_keywords": [
+      "angel_hologram",
+      "data_scroll"
+    ],
+    "start_image_mode": "actor_only",
+    "video_plan": {
+      "start_comp": {
+        "mode": "actor_first",
+        "actor_pose_id": "",
+        "env_id": "",
+        "props": [],
+        "notes": ""
+      },
+      "motion_driver": {
+        "type": "liveportrait",
+        "audio_id": "2.2_dialog",
+        "pose_source": "",
+        "driver_notes": "Lip sync for Angel"
+      },
+      "reference_footage": {
+        "id": "",
+        "path": "",
+        "use": "none",
+        "notes": ""
+      },
+      "overlay_badge": {
+        "asset": "",
+        "blend": "normal",
+        "opacity": 0.0,
+        "position": "top_right",
+        "safe_margin": 0.0
+      },
+      "provenance": {
+        "source": "ai_assisted",
+        "notes": ""
+      }
+    },
+    "voice_words_max": 10
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_02_02_voice.wav",
+    "target_media": "Media/scene_02_02.mp4",
+    "output": "Media/scene_02_02_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_02_02_avatar_manifest.json",
+    "pose_source": "Media/scene_02_02_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_02_02_avatar_normal.exr",
+      "depth": "Media/scene_02_02_avatar_depth.exr",
+      "motion": "Media/scene_02_02_avatar_motion.exr",
+      "mask": "Media/scene_02_02_avatar_mask.exr"
+    }
+  }
+}

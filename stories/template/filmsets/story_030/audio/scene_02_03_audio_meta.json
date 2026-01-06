@@ -1,0 +1,62 @@
+{
+  "scene": {
+    "act": 2,
+    "scene_id": "2.3",
+    "timecode": "00:25-00:30",
+    "title": "PROCESSING (MASTIC)"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "actor",
+    "shot_type": "close_up",
+    "framing": "extreme_close_up",
+    "environment": "Eastern_Node_Sector_30",
+    "env_change": false,
+    "actors": [
+      {
+        "name": "Henoch",
+        "phase": "Voyager",
+        "presence": "on_screen",
+        "focus": "primary"
+      }
+    ],
+    "props": [],
+    "camera": "Extreme Close-Up / Zoom",
+    "mood": [
+      "intense",
+      "sensory"
+    ],
+    "director_intent": "Show the physiological reaction to the data input.",
+    "start_image_keywords": [
+      "amber implants",
+      "dilated pupils"
+    ],
+    "start_image_mode": "actor_only",
+    "video_plan": {},
+    "voice_words_max": 10
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_02_03_voice.wav",
+    "target_media": "Media/scene_02_03.mp4",
+    "output": "Media/scene_02_03_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_02_03_avatar_manifest.json",
+    "pose_source": "Media/scene_02_03_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_02_03_avatar_normal.exr",
+      "depth": "Media/scene_02_03_avatar_depth.exr",
+      "motion": "Media/scene_02_03_avatar_motion.exr",
+      "mask": "Media/scene_02_03_avatar_mask.exr"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "scene": {
+    "act": 1,
+    "scene_id": "1.2",
+    "timecode": "00:05-00:08",
+    "title": "THE DORMITORY"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "actor",
+    "shot_type": "close_up",
+    "framing": "high_angle",
+    "environment": "House_of_Mahalalel_Server_Dorm",
+    "env_change": true,
+    "actors": [
+      {
+        "name": "Enoch V1",
+        "phase": "Voyager_Youth",
+        "presence": "on_screen",
+        "focus": "primary"
+      }
+    ],
+    "props": [
+      "data_cables"
+    ],
+    "camera": "Slow Dolly In",
+    "mood": [
+      "tech_dormant",
+      "peaceful"
+    ],
+    "director_intent": "Show the physical connection to the system before the crash.",
+    "start_image_keywords": [
+      "Enoch V1 Sleeping",
+      "Cables",
+      "Green LED"
+    ],
+    "start_image_mode": "actor_in_env",
+    "video_plan": {
+      "start_comp": {
+        "mode": "actor_in_env",
+        "actor_pose_id": "SLEEP_SLAB",
+        "env_id": "SERVER_DORM",
+        "props": [
+          "CABLES"
+        ],
+        "notes": ""
+      },
+      "motion_driver": {
+        "type": "none",
+        "audio_id": "",
+        "pose_source": "",
+        "driver_notes": ""
+      },
+      "reference_footage": {
+        "id": "",
+        "path": "",
+        "use": "none",
+        "notes": ""
+      },
+      "overlay_badge": {
+        "asset": "",
+        "blend": "normal",
+        "opacity": 0.0,
+        "position": "top_right",
+        "safe_margin": 0.0
+      },
+      "provenance": {
+        "source": "ai_assisted",
+        "notes": ""
+      }
+    },
+    "voice_words_max": 0
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_01_02_voice.wav",
+    "target_media": "Media/scene_01_02.mp4",
+    "output": "Media/scene_01_02_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_01_02_avatar_manifest.json",
+    "pose_source": "Media/scene_01_02_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_01_02_avatar_normal.exr",
+      "depth": "Media/scene_01_02_avatar_depth.exr",
+      "motion": "Media/scene_01_02_avatar_motion.exr",
+      "mask": "Media/scene_01_02_avatar_mask.exr"
+    }
+  }
+}

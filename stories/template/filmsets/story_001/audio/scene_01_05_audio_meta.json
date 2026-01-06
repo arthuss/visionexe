@@ -1,0 +1,56 @@
+{
+  "scene": {
+    "act": 1,
+    "scene_id": "1.5",
+    "timecode": "00:13-00:15",
+    "title": "SINAI_HARDLINE_CONNECT"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "environment",
+    "shot_type": "medium",
+    "framing": "medium",
+    "environment": "Mount Sinai Summit",
+    "env_change": true,
+    "actors": [],
+    "props": [],
+    "camera": "Medium Shot / Impact Zone",
+    "mood": [
+      "impact",
+      "silence"
+    ],
+    "director_intent": "Show the immediate physical transformation of the terrain upon contact.",
+    "start_image_keywords": [
+      "beam hitting mountain",
+      "obsidian rock",
+      "frozen dust"
+    ],
+    "start_image_mode": "env_only",
+    "video_plan": {},
+    "voice_words_max": 10
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_01_05_voice.wav",
+    "target_media": "Media/scene_01_05.mp4",
+    "output": "Media/scene_01_05_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_01_05_avatar_manifest.json",
+    "pose_source": "Media/scene_01_05_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_01_05_avatar_normal.exr",
+      "depth": "Media/scene_01_05_avatar_depth.exr",
+      "motion": "Media/scene_01_05_avatar_motion.exr",
+      "mask": "Media/scene_01_05_avatar_mask.exr"
+    }
+  }
+}

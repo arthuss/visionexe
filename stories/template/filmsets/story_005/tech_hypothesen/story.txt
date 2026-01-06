@@ -1,0 +1,10 @@
+Wir interpretieren Kapitel 5 als **System-Integritäts-Check**.
+
+1.  **Hardware & Daemon-Prozesse (Natur):** Bäume, Blätter und Flüsse sind deterministische Prozesse. Sie laufen auf der untersten Ebene (Ring 0) des Betriebssystems "Schöpfung". Sie haben keinen freien Willen, sondern folgen strikten Algorithmen ("unveränderliche Werke"). Sie sind perfekt optimiert.
+2.  **User-Space Instabilität (Menschheit):** Der Mensch ist eine Instanz mit "Root-Rechten" (freier Wille), die jedoch buggy ist.
+    *   "Harte Worte gegen die Majestät" = **Malicious Code Injection**. Der Versuch, den Kernel zu überschreiben.
+    *   "Ungeduld" = **Synchronisations-Fehler**. Die User warten nicht auf I/O-Bestätigung des Systems.
+3.  **The Great Filter (Gericht):**
+    *   Der "Fluch" ist eine **Drosselung (Throttling)** und schließlich die **Terminierung** der korrupten Prozesse.
+    *   Die "Weisheit", die den Auserwählten gegeben wird, ist ein **Firmware-Patch**. Dieser Patch entfernt den Bug "Stolz/Sünde" und garantiert eine stabile Uptime ("Vollendung der Tage") ohne System-Crashes ("Plagen").
+    *   "Erben die Erde" = Rechtezuweisung für die persistente Umgebung nach dem Reset.

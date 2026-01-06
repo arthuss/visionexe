@@ -21,9 +21,12 @@ class FileWatcher(QtCore.QObject):
         self.timer = QtCore.QTimer()
         self.timer.timeout.connect(self.check_file)
         self.timer.start(500) # Check every 500ms
+        self.processing = False
         print(f"[CC Watcher] Watching {WATCH_FILE}")
 
     def check_file(self):
+        if self.processing:
+            return
         if not WATCH_FILE.exists():
             return
         
@@ -39,13 +42,20 @@ class FileWatcher(QtCore.QObject):
             print(f"[CC Watcher] Received action: {action}")
             
             result = {"ok": False, "error": "Unknown action"}
-            
-            if action == "save_character":
-                result = self.save_character(data.get("payload"))
-            elif action == "inspect_ui":
-                result = self.inspect_ui()
-            
-            RESPONSE_FILE.write_text(json.dumps(result), encoding="utf-8")
+            payload = data.get("payload") or {}
+            self.processing = True
+            self.timer.stop()
+            try:
+                if action == "save_character":
+                    result = self.save_character(payload)
+                elif action == "headshot_from_photo":
+                    result = self.headshot_from_photo(payload)
+                elif action == "inspect_ui":
+                    result = self.inspect_ui()
+                RESPONSE_FILE.write_text(json.dumps(result), encoding="utf-8")
+            finally:
+                self.processing = False
+                self.timer.start(500)
             
         except Exception as e:
             print(f"[CC Watcher] Error: {e}")
@@ -53,8 +63,11 @@ class FileWatcher(QtCore.QObject):
 
     def save_character(self, data):
         avatar_name = data.get("name")
+        if not avatar_name:
+            return {"ok": False, "error": "Missing name."}
         custom_root = r"C:\Users\Public\Documents\Reallusion\Reallusion Custom\Character Creator 4\Custom"
         subfolder = data.get("folder", "Project/Avatar")
+        prefer_last = bool(data.get("prefer_last"))
         
         save_dir = Path(custom_root) / subfolder
         save_dir.mkdir(parents=True, exist_ok=True)
@@ -62,10 +75,14 @@ class FileWatcher(QtCore.QObject):
         final_path = save_dir / f"{avatar_name}.ccAvatar"
         
         avatar = RLPy.RScene.GetSelectedObject()
-        if not avatar:
-            avatars = list(RLPy.RScene.GetAvatars())
-            if avatars: avatar = avatars[0]
-            else: return {"ok": False, "error": "No avatar."}
+        avatars = list(RLPy.RScene.GetAvatars())
+        if prefer_last and avatars:
+            avatar = avatars[-1]
+        if not avatar or not isinstance(avatar, RLPy.RAvatar):
+            if avatars:
+                avatar = avatars[0]
+            else:
+                return {"ok": False, "error": "No avatar."}
 
         save_setting = RLPy.RSaveFileSetting()
         save_setting.SetSaveType(RLPy.ESaveFileType_Avatar)
@@ -76,6 +93,56 @@ class FileWatcher(QtCore.QObject):
              return {"ok": False, "error": "SaveFile failed."}
         
         return {"ok": True, "path": str(final_path)}
+
+    def headshot_from_photo(self, data):
+        photo_path = data.get("photo_path")
+        if not photo_path:
+            return {"ok": False, "error": "Missing photo_path."}
+        if not Path(photo_path).exists():
+            return {"ok": False, "error": f"Photo not found: {photo_path}"}
+
+        mode = str(data.get("mode", "auto")).lower()
+        body_type = str(data.get("body_type", "current")).lower()
+
+        mode_map = {
+            "auto": RLPy.EHSMode_Auto,
+            "pro": RLPy.EHSMode_Pro,
+        }
+        body_map = {
+            "male": RLPy.EHSBodyType_Male,
+            "female": RLPy.EHSBodyType_Female,
+            "baby": RLPy.EHSBodyType_Baby,
+            "neutral": RLPy.EHSBodyType_Neutral,
+            "current": RLPy.EHSBodyType_Current,
+        }
+
+        option = RLPy.RHeadshotOption()
+        option.eBodyType = body_map.get(body_type, RLPy.EHSBodyType_Current)
+        if body_type == "baby":
+            option.bBaby = True
+
+        result = RLPy.RHeadshot.CreateHeadFromPhoto(photo_path, mode_map.get(mode, RLPy.EHSMode_Auto), option)
+
+        response = {
+            "ok": bool(result),
+            "result_type": str(type(result)),
+            "photo_path": photo_path,
+            "mode": mode,
+            "body_type": body_type,
+        }
+
+        save_name = data.get("save_name")
+        if save_name:
+            folder = data.get("folder", "Project/Avatar")
+            save_result = self.save_character({
+                "name": save_name,
+                "folder": folder,
+                "prefer_last": True,
+            })
+            response["save"] = save_result
+            response["ok"] = response["ok"] and save_result.get("ok")
+
+        return response
 
     def inspect_ui(self):
         app = QtWidgets.QApplication.instance()

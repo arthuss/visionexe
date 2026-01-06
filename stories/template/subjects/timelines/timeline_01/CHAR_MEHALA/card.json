@@ -1,0 +1,85 @@
+{
+  "id": "CHAR_MEHALA",
+  "name": "Mehala",
+  "type": "character",
+  "card": {
+    "description": "An enigmatic entity functioning as a silent observer within the celestial machinery. Mehala represents a fusion of ancient priestly aesthetics and high-fidelity industrial conduits. Her physical form appears sculpted from polished geological materials, serving as a grounded vessel for advanced, incomprehensible processing power.",
+    "tags": [
+      "entity",
+      "ancient-tech",
+      "observer",
+      "industrial-mysticism",
+      "biomechanical",
+      "priestess"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Tall, statuesque humanoid frame with a heavy, grounded presence. Skin texture resembles polished matte basalt or dark ceramic, possessing a stone-like coldness rather than biological warmth.",
+      "**Face/Sensors:** The face is rigid and mask-like, devoid of human micro-expressions. The eyes are replaced by intricate, asymmetrical multi-lensed optical arrays that glow with a faint, warm amber light. The mouth area is a smooth, unbroken surface or a stylized grille.",
+      "**Clothing/Armor:** Draped in heavy, coarse-weave linens stained with ritual oils and machine grease. The fabric is visibly interwoven with thick copper filaments and gold conductive threads, functioning as shielding or antennae. A heavy mantle of oxidized bronze rests on her shoulders.",
+      "**Key Features:** Geometric glyphs are etched shallowly into her basalt skin, pulsing with a barely visible subsurface luminescence. Her hands are elegant but elongated, with fingertips ending in fine, metallic precision instruments."
+    ],
+    "evolution": [
+      "Phase 1 (Default): The entity in her standard operating state, a static and imposing figure of observation."
+    ],
+    "props": [
+      "Flexible crystalline data-scroll",
+      "Oxidized bronze staff"
+    ],
+    "prompt_keywords": [
+      "basalt skin",
+      "amber optical sensors",
+      "copper weave robes",
+      "ancient industrial",
+      "oxidized bronze",
+      "cinematic lighting",
+      "photorealistic"
+    ],
+    "prompt_block": "Cinematic medium shot of Mehala, an ancient biomechanical entity. She has skin resembling polished matte basalt and wears heavy, oil-stained linen robes explicitly woven with copper wires. Her eyes are complex, glowing amber multi-lens arrays. She stands in a dimly lit, ancient industrial temple environment. Photorealistic, 8k, tactile textures, volumetric lighting, atmospheric dust, sharp focus.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Mehala in her standard observational state.",
+        "prompt_keywords": [
+          "basalt skin",
+          "amber optical sensors",
+          "copper weave robes",
+          "ancient industrial"
+        ],
+        "prompt_block": "Full body shot of Mehala, a mysterious entity with polished black basalt skin. She is draped in heavy, textured robes embroidered with conductive copper thread and wears an oxidized bronze mantle. Her face features amber optical sensors instead of eyes. Background is a dark, brutalist stone corridor filled with ancient machinery. Cinematic lighting, photorealistic, sharp focus, 8k, tactile details."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_MEHALA",
+    "name": "Mehala",
+    "type": "character",
+    "aliases": [
+      "Mehala"
+    ],
+    "roles": [
+      "entity"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_506"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 69,
+        "chapter_end": 69,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "CHAR_I",
+  "name": "I",
+  "type": "character",
+  "card": {
+    "description": "The Narrator and Witness, a solemn observer bridging the ancient world and the incomprehensible machinery of the Watchers. An entity of recording and testimony, fused with subtle instrumentation to chronicle the metaphysical architecture around them.",
+    "tags": [
+      "character",
+      "narrator",
+      "observer",
+      "ancient-tech",
+      "scribe"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Gaunt, ascetic build suggesting long endurance; skin is weathered and deeply textured, mapping the geography of his travels.",
+      "**Face/Sensors:** Noble, ancient Ethiopian features; the left eye is replaced by a multi-aperture brass optical sensor for analyzing spectral auras.",
+      "**Clothing/Armor:** Heavy woven linen robes in earth tones, reinforced with flexible metallic threading; a yoke of oxidized copper rests on the shoulders, housing data-cabling that feeds into the cranial sensors.",
+      "**Key Features:** Bio-luminescent glyphs faintly visible beneath the skin of the hands, pulsing with a rhythmic golden light."
+    ],
+    "evolution": [
+      "Phase 1 (Default): The Witness equipped for the journey, robes dusted with obsidian sand, sensors active and scanning."
+    ],
+    "props": [
+      "Item: Crystalline Tablet (Data-slate formed of raw quartz and circuitry)",
+      "Item: Resonator Staff (Ironwood embedded with amplifier coils)"
+    ],
+    "prompt_keywords": [
+      "ancient scribe",
+      "cybernetic enhancements",
+      "ethiopian aesthetics",
+      "industrial mysticism",
+      "brass optics",
+      "weathered robes",
+      "cinematic lighting"
+    ],
+    "prompt_block": "Medium shot of The Narrator, an ancient Ethiopian figure with weathered skin, wearing heavy linen robes interwoven with oxidized copper cabling, a complex brass optical sensor replacing the left eye, faint bio-luminescent glyphs on hands, holding a rough-hewn crystalline data-tablet, backdrop of a dark industrial temple, volumetric lighting, tactile textures, photorealistic, 8k, unreal engine 5 render, muted earth tones and metallic gold highlights.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The Narrator in standard travel gear, observing the environment.",
+        "prompt_keywords": [
+          "observing",
+          "recording",
+          "travel gear"
+        ],
+        "prompt_block": "Cinematic portrait of The Narrator standing in a void-like industrial corridor, ancient linen robes swaying, brass optical eye glowing faintly red, holding a quartz tablet, intricate cable details on collar, weathered skin texture, atmospheric dust, low-key lighting, photorealistic, 8k, industrial mysticism style."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_I",
+    "name": "I",
+    "type": "character",
+    "aliases": [
+      "I"
+    ],
+    "roles": [
+      "speaker"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_262",
+      "row_275"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 39,
+        "chapter_end": 40,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

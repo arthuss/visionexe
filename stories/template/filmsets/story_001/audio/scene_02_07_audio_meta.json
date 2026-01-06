@@ -1,0 +1,56 @@
+{
+  "scene": {
+    "act": 2,
+    "scene_id": "2.7",
+    "timecode": "00:37-00:41",
+    "title": "THE_SCANNING_WAVE"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "environment",
+    "shot_type": "medium",
+    "framing": "medium",
+    "environment": "Forest / Rock Field",
+    "env_change": true,
+    "actors": [],
+    "props": [],
+    "camera": "Tracking Shot / Lateral",
+    "mood": [
+      "analytical",
+      "threatening"
+    ],
+    "director_intent": "Visualize the judgment as a system scan.",
+    "start_image_keywords": [
+      "red laser scan",
+      "wireframe cross section",
+      "trees sliced by light"
+    ],
+    "start_image_mode": "env_only",
+    "video_plan": {},
+    "voice_words_max": 10
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_02_07_voice.wav",
+    "target_media": "Media/scene_02_07.mp4",
+    "output": "Media/scene_02_07_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_02_07_avatar_manifest.json",
+    "pose_source": "Media/scene_02_07_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_02_07_avatar_normal.exr",
+      "depth": "Media/scene_02_07_avatar_depth.exr",
+      "motion": "Media/scene_02_07_avatar_motion.exr",
+      "mask": "Media/scene_02_07_avatar_mask.exr"
+    }
+  }
+}

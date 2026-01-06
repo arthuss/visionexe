@@ -1,0 +1,29 @@
+## [CHARACTER] Emenomu (ID: CHAR_EMENOMU)
+**Description:** Emenomu is a towering, silent entity of the Watcher hierarchy, functioning as a static observer or surveyor. Its form is a disturbing fusion of geological permanence and high-fidelity surveillance technology. Resembling a statue carved from living basalt, its surface is interrupted by veins of pulsing amber light and exposed, oxidized copper circuitry that mimics a nervous system. Emenomu exists in the periphery, a looming architectural presence that blurs the line between a biological being and an ancient monitoring device.
+**Tags:** #entity #watcher #biomechanical #ancient-tech #basalt #industrial-mysticism #surveillance
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** Elongated, non-humanoid proportions, standing approximately 3 meters tall. The skin resembles matte-black basalt stone, cracked and weathered, revealing a subsurface layer of gold-laced cabling and wet, organic machinery.
+*   **Face/Sensors:** The head is devoid of human features, replaced by a single, vertical aperture running from crown to chin. Inside this slit, a complex array of optical lenses shifts and focuses with mechanical precision, glowing with a faint, sickly yellow light.
+*   **Clothing/Armor:** It wears heavy, ceremonial plating fused directly to its shoulders and chest—tarnished bronze etched with incomprehensible Enochian glyphs. Tattered, oil-stained ceremonial wrappings hang from its waist, trailing on the ground.
+*   **Key Features:** Its hands are multi-jointed manipulators with too many fingers, designed for delicate interaction with the fabric of reality or complex machinery. It moves with a heavy, grinding silence.
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Default): The entity is fully operational, its stone carapace intact but showing aeons of wear. The amber lights of its internal systems are stable and rhythmic.
+
+### 3. PROPS & EQUIPMENT
+*   Item: The Gaze-Rod - A long, fluted staff made of unknown black metal that acts as a grounding rod for data collection.
+*   Item: Glyph-Tablet - A stone slate integrated into its forearm, displaying constantly shifting holographic geometry.
+
+### 4. AI PROMPT KEYWORDS
+`Emenomu`, `ancient-tech entity`, `living basalt`, `vertical sensor eye`, `industrial mysticism`, `oxidized copper circuitry`, `Enochian glyphs`, `matte black stone skin`, `cinematic lighting`, `photorealistic`, `8k`, `unreal engine 5 render`
+
+### 5. PROMPT BLOCK (T2I)
+cinematic full shot of Emenomu, a towering ancient-tech entity made of living matte-black basalt and fused oxidized copper circuitry, standing in a dim industrial temple. The entity has an elongated, non-humanoid frame with heavy tarnished bronze shoulder plating etched with glowing Enochian glyphs. Its face is a featureless stone slab with a single vertical aperture revealing shifting complex optical lenses glowing sickly amber. It holds a black metal grounding staff. Texture of weathered stone and wet organic machinery. Volumetric lighting, dust particles, ominous atmosphere, hyper-detailed, photorealistic, 8k, distinct separation from background.
+
+### 6. PHASE PROMPTS
+*   **Default:** Emenomu in its standard operational state, a looming observer of basalt and circuitry.
+    Prompt: full body shot of Emenomu, an ancient bio-mechanical entity, standing stoic. Matte-black basalt skin cracked to reveal gold cabling. Heavy bronze armor plates. A vertical slit in the face glows with a stable amber light. Cinematic, dark moody lighting, ancient industrial background, 8k, highly detailed textures.
+    Keywords: Emenomu, default state, living basalt, amber sensor light, tarnished bronze
+
+---

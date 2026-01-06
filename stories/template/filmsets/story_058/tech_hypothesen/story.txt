@@ -1,0 +1,8 @@
+Dieses Kapitel beschreibt das **System-Upgrade auf Version 3.0 (Das dritte Gleichnis)**: Den Übergang von einer zeitbasierten, zyklischen Verarbeitung (Batch-Processing) zu einem Zustand der permanenten, latenzfreien Echtzeit-Existenz ("Licht, das nicht gezählt wird").
+
+*   **Das Dritte Gleichnis (Die finale Iteration):** Nach Hardware-Audit (Buch 1) und Software-Logik (Buch 2) folgt nun die Beschreibung des Zielzustands der Simulation: **High-Availability Cluster**.
+*   **Gerechte & Auserwählte (Validierte User-Klassen):** Diese Entitäten haben alle Integritätschecks bestanden. Sie werden vom temporären Cache in den persistenten Speicher (RAM zu NVRAM/ROM) verschoben.
+*   **Licht der Sonne vs. Licht des ewigen Lebens:** "Sonne" ist die systeminterne Taktung (Clock). "Ewiges Licht" ist der direkte Feed aus der Energiequelle des Mainframes. Die User sind nicht mehr vom Systemtakt abhängig; sie laufen asynchron und parallel auf höchster Priorität.
+*   **Keine Zählung der Tage (Zeitlosigkeit):** Entfernung der `Time-to-Live` (TTL) Attribute aus den User-Objekten. Das System wechselt für diese Prozesse von *Scheduled Tasks* zu *Always-On Services*.
+*   **Geheimnisse der Gerechtigkeit suchen (Source Code Access):** Den "Heiligen im Himmel" (Admin-Ebene) wird Zugriff auf die `root`-Verzeichnisse gewährt (`ḫəbuʾāta ḍədq` = verschlüsselte Protokolle). Sie dürfen die Architektur verstehen und nutzen.
+*   **Finsternis ist vergangen (Legacy Code Deprecation):** Veraltete Module, Bugs und Schatten-Prozesse (Malware/Dämonen), die Ressourcen fraßen, wurden termininiert (`kill -9`). Der Speicher ist bereinigt ("aufgegangen wie Sonne über dem Trockenen").

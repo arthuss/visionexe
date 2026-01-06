@@ -1,0 +1,94 @@
+{
+  "scene": {
+    "act": 3,
+    "scene_id": "3.4",
+    "timecode": "01:15-01:20",
+    "title": "PURGE: SAFE MODE"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "environment",
+    "shot_type": "wide",
+    "framing": "wide",
+    "environment": "Null Void Blue Safe Mode",
+    "env_change": true,
+    "actors": [
+      {
+        "name": "Enoch",
+        "phase": "Phase 3 (Master)",
+        "presence": "on_screen",
+        "focus": "secondary"
+      }
+    ],
+    "props": [],
+    "camera": "Static Wide",
+    "mood": [
+      "calm",
+      "relief"
+    ],
+    "director_intent": "System stabilized. The threat is quarantined.",
+    "start_image_keywords": [
+      "blue void",
+      "calm",
+      "order"
+    ],
+    "start_image_mode": "env_first",
+    "video_plan": {
+      "start_comp": {
+        "mode": "env_first",
+        "actor_pose_id": "",
+        "env_id": "",
+        "props": [],
+        "notes": ""
+      },
+      "motion_driver": {
+        "type": "none",
+        "audio_id": "",
+        "pose_source": "",
+        "driver_notes": ""
+      },
+      "reference_footage": {
+        "id": "",
+        "path": "",
+        "use": "none",
+        "notes": ""
+      },
+      "overlay_badge": {
+        "asset": "",
+        "blend": "normal",
+        "opacity": 0.0,
+        "position": "top_right",
+        "safe_margin": 0.04
+      },
+      "provenance": {
+        "source": "ai_assisted",
+        "notes": ""
+      }
+    },
+    "voice_words_max": 4
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_03_04_voice.wav",
+    "target_media": "Media/scene_03_04.mp4",
+    "output": "Media/scene_03_04_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_03_04_avatar_manifest.json",
+    "pose_source": "Media/scene_03_04_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_03_04_avatar_normal.exr",
+      "depth": "Media/scene_03_04_avatar_depth.exr",
+      "motion": "Media/scene_03_04_avatar_motion.exr",
+      "mask": "Media/scene_03_04_avatar_mask.exr"
+    }
+  }
+}

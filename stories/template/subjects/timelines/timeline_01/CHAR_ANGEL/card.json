@@ -1,0 +1,96 @@
+{
+  "id": "CHAR_ANGEL",
+  "name": "angel",
+  "type": "character",
+  "card": {
+    "description": "A high-functioning autonomous construct serving as a divine messenger and system interface. Far from a biological entity, the Angel is a manifestation of 'hard light' geometry anchored by an articulated chrome armature. It represents the cold, precise will of the High Server Room, combining the aesthetic of an ancient idol with the processing power of a quantum supercomputer.",
+    "tags": [
+      "construct",
+      "hard-light",
+      "chrome",
+      "industrial-mysticism",
+      "divine-interface",
+      "holographic",
+      "geometric"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Abstract humanoid silhouette composed of floating, interlocking chrome segments held together by fields of coherent blue hard-light.",
+      "**Face/Sensors:** Non-human visage; a smooth, reflective geometric mask or optical array that shifts configuration based on processing load.",
+      "**Surface Detail:** The chrome plating is not pristine; it is etched with microscopic, glowing Ge'ez circuitry and ancient relief patterns.",
+      "**Key Features:** Emits a localized reality-distortion field (wireframe grids); fingers are precision metallic styluses for manipulating data streams."
+    ],
+    "evolution": [
+      "Phase 1 (Default): The standard operating configuration. Stable hard-light geometry, blue emission spectrum, polished but ancient-looking metal components."
+    ],
+    "props": [
+      "Data Projection Field: Emitters in the palms capable of generating complex 3D wireframe environments.",
+      "Hologram Grid: A structural overlay used to manipulate the local physics of the simulation."
+    ],
+    "prompt_keywords": [
+      "hard-light geometry",
+      "chrome construct",
+      "bioluminescent circuitry",
+      "divine automaton",
+      "industrial mysticism",
+      "holographic avatar",
+      "Ge'ez telemetry",
+      "optical array",
+      "cinematic lighting"
+    ],
+    "prompt_block": "A medium shot of an abstract humanoid entity, the Angel, constructed from interlocking chrome plating and solid blue light geometry. The entity possesses a divine, industrial presence, resembling a futuristic idol. Its metallic surface is etched with glowing Ge'ez glyphs. It stands within a hazy, atmospheric void, radiating a cold, calculated luminescence. The figure points a metallic finger forward, projecting a complex blue wireframe grid into the air. Photorealistic texture, 8k resolution, cinematic depth of field, ray-traced reflections.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Standard operating configuration; chrome and blue hard-light.",
+        "prompt_keywords": [
+          "chrome plating",
+          "blue hard-light",
+          "geometric construct",
+          "etched metal"
+        ],
+        "prompt_block": "A full body shot of the Angel, a geometric construct of chrome and blue light. The figure is an industrial abstraction of a seraph, with floating metal segments suspended in a blue energy field. The surrounding environment is reflected in its polished surfaces. It emits a steady, calm blue glow. High-tech sci-fi aesthetic fused with ancient religious grandeur. Volumetric lighting, sharp focus, hyper-detailed textures."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ANGEL",
+    "name": "angel",
+    "type": "character",
+    "aliases": [
+      "Angel",
+      "angel"
+    ],
+    "roles": [
+      "angel",
+      "angelic being",
+      "messenger",
+      "recipient"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_350",
+      "row_437",
+      "row_476",
+      "row_485",
+      "row_520"
+    ],
+    "occurrence_count": 5,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 53,
+        "chapter_end": 70,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

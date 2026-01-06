@@ -1,0 +1,65 @@
+{
+  "scene": {
+    "act": 2,
+    "scene_id": "2.2",
+    "timecode": "00:20-00:25",
+    "title": "INTERACTION"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "prop",
+    "shot_type": "insert",
+    "framing": "close_up",
+    "environment": "Eastern_Node_Sector_30",
+    "env_change": false,
+    "actors": [
+      {
+        "name": "Henoch",
+        "phase": "Voyager",
+        "presence": "on_screen",
+        "focus": "secondary"
+      }
+    ],
+    "props": [
+      "Idris-Glove",
+      "Glass Leaf"
+    ],
+    "camera": "Close-Up",
+    "mood": [
+      "intimate",
+      "tech"
+    ],
+    "director_intent": "Visualize the data transfer of scent.",
+    "start_image_keywords": [
+      "glove touch",
+      "data sparks"
+    ],
+    "start_image_mode": "prop_only",
+    "video_plan": {},
+    "voice_words_max": 0
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_02_02_voice.wav",
+    "target_media": "Media/scene_02_02.mp4",
+    "output": "Media/scene_02_02_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_02_02_avatar_manifest.json",
+    "pose_source": "Media/scene_02_02_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_02_02_avatar_normal.exr",
+      "depth": "Media/scene_02_02_avatar_depth.exr",
+      "motion": "Media/scene_02_02_avatar_motion.exr",
+      "mask": "Media/scene_02_02_avatar_mask.exr"
+    }
+  }
+}

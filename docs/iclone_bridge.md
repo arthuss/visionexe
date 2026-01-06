@@ -7,10 +7,13 @@ clip export.
 ## Start the server (inside iClone)
 
 1. Install the VisionExe OpenPlugin folder:
-   `engine/iclone/openplugin/visionexe` → `C:\Program Files\Reallusion\iClone 8\Bin64\OpenPlugin\visionexe`.
+   `engine/iclone/openplugin/visionexe` -> `C:\Program Files\Reallusion\iClone 8\Bin64\OpenPlugin\visionexe`.
+   To refresh an existing install, run:
+   `engine/launchers/Install-iCloneOpenPlugin.ps1 -Mode Copy -Force`.
 2. Restart iClone.
 3. Open **Plugins > VisionExe > Open VisionExe Panel** and click **Start Server**.
 4. The server listens on `http://127.0.0.1:8123` by default.
+5. The panel now includes **Find Actor**, **Scan Content**, and **Load Path** buttons for Content Manager + direct file debugging.
 
 Environment overrides (optional):
 - `ICLONE_REMOTE_HOST`
@@ -36,6 +39,12 @@ python engine/workers/iclone_remote_client.py --action select_avatar --payload "
 python engine/workers/iclone_remote_client.py --action select_camera --payload "{\"name\":\"Camera\"}"
 ```
 
+List skeleton bones for the active avatar (debug missing names):
+
+```powershell
+python engine/workers/iclone_remote_client.py --action list_skeleton_bones --payload "{\"avatar_name\":\"vx_henoch_p01\"}"
+```
+
 Load a character by name (Reallusion library index):
 
 ```powershell
@@ -55,6 +64,14 @@ python engine/workers/iclone_remote_client.py --action debug_actor_lookup --payl
 ```
 
 Returns index path + match plus Content Manager roots/match.
+
+Content Manager scan (enumerate folders/files via the API):
+
+```powershell
+python engine/workers/iclone_remote_client.py --action content_manager_scan --payload "{\"root_key\":\"Character\",\"max_folders\":100,\"max_files\":200}"
+```
+
+Optional fields: `include_default`, `include_custom`, `root_key` (e.g. `Character`, `Props`, or full enum name).
 
 Queue-based loading (subjects):
 
@@ -91,7 +108,9 @@ python engine/workers/iclone_remote_client.py --action apply_pose_json --payload
 ```
 
 Note: the pose mapping targets CC4 bone names (e.g. `CC_Base_Hip`). Update
-`engine/config/pose_mappings/sam3_bvh_to_cc4.json` to match your skeleton.
+`engine/config/pose_mappings/sam3_bvh_to_cc4.json` to match your skeleton. If a
+mapped bone is missing (twist/share/eye/pelvis/toe/facial), the bridge falls back
+to the closest base bone (e.g. `UpperarmTwist01` → `Upperarm`).
 Axis rotation offsets are applied automatically from
 `engine/config/pose_mappings/cc4_axis_rotation.json` (extracted from the CC4
 default profile). You can override per call with `axis_rotation_path` or
@@ -100,6 +119,37 @@ inline `axis_rotation_map` in the payload.
 If your pose JSON still contains raw BVH joint names, `apply_pose_json` will
 auto-resolve using the mapping path embedded in the pose JSON (or `joint_map_path`
 from the request).
+
+Capture or save a pose preset (writes quaternion rotations for exact replay).
+Defaults are body-only (face/eyes/tongue/toes disabled; twist enabled):
+
+```powershell
+$payload = @{
+  avatar_name = "vx_henoch_p01"
+  output_path = "C:/temp/henoch_pose_01.json"
+  include_translation = $true
+  bone_source = "animation"
+  include_face = $false
+  include_tongue = $false
+  include_eyes = $false
+} | ConvertTo-Json -Compress
+python engine/workers/iclone_remote_client.py --action save_pose_preset --payload $payload
+```
+
+Apply a saved preset:
+
+```powershell
+$payload = @{
+  avatar_name = "vx_henoch_p01"
+  preset_path = "C:/temp/henoch_pose_01.json"
+  time_seconds = 0.0
+  clip_index = 0
+  apply_root_translation = $true
+} | ConvertTo-Json -Compress
+python engine/workers/iclone_remote_client.py --action apply_pose_preset --payload $payload
+```
+
+If capture crashes, try `bone_source="animation"` and disable facial/tongue/eye/toe bones.
 
 Load an audio file directly (uses iClone lip-sync backend):
 

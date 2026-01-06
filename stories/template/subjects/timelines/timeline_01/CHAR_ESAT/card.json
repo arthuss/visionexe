@@ -1,0 +1,87 @@
+{
+  "id": "CHAR_ESAT",
+  "name": "Esat",
+  "type": "character",
+  "card": {
+    "description": "An elemental construct of containment and combustion, acting as a living reactor. Esat represents the element of Fire through the lens of Industrial Mysticism—a synthesis of angelic radiance and heavy thermal-dissipating machinery. The entity appears as a humanoid figure encased in scorched containment armor, suppressing a volatile core of star-matter.",
+    "tags": [
+      "elemental",
+      "fire",
+      "industrial_mysticism",
+      "construct",
+      "reactor",
+      "ancient_tech"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Heavy, bulk-loaded silhouette resembling a walking blast furnace. The chassis is constructed from scorched basalt stone and tarnished bronze plating.",
+      "**Face/Sensors:** Devoid of human features. The head is a heavy geometric helm with a vertical slit visor that glows with blinding white heat, reminiscent of a high-intensity welding arc.",
+      "**Clothing/Armor:** Layered ceramic heat shields adorned with conductive gold circuitry in intricate Ethiopian patterns. Massive exhaust vents on the shoulders and back release constant jets of steam and drifting embers.",
+      "**Key Features:** Internal glow illuminates the armor seams. The air around the figure ripples with aggressive heat distortion. The surface texture is rough, pitted, and stained with soot."
+    ],
+    "evolution": [
+      "Phase 1 (Default): Standard containment state, steady burn, controlled venting."
+    ],
+    "props": [
+      "Internal Core: Visible blinding light through chest vents",
+      "Venting Gas: Atmospheric steam effects"
+    ],
+    "prompt_keywords": [
+      "industrial_mysticism",
+      "living_furnace",
+      "scorched_basalt",
+      "glowing_magma",
+      "ethiopian_filigree",
+      "heat_distortion",
+      "cinematic_lighting",
+      "volumetric_smoke",
+      "photorealistic",
+      "8k"
+    ],
+    "prompt_block": "A cinematic full body shot of Esat, the Industrial Fire Elemental. The character is a towering construct of scorched black basalt and hot bronze, designed to contain a blinding internal nuclear fire. The armor features cooling fins and radiator grilles resembling ancient Egyptian architectural columns. Molten light bleeds through cracks in the plating. The face is a void of heat behind a vertical obsidian slit. Atmospheric embers, volumetric smoke, heavy industrial machinery background. 8k, photorealistic, textural, tactile realism, desaturated grunge with high contrast light.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Standard containment state with steady internal combustion.",
+        "prompt_keywords": [
+          "steady_burn",
+          "contained_energy",
+          "welding_arc_light"
+        ],
+        "prompt_block": "A cinematic full body shot of Esat, the Industrial Fire Elemental. The character is a towering construct of scorched black basalt and hot bronze, designed to contain a blinding internal nuclear fire. The armor features cooling fins and radiator grilles resembling ancient Egyptian architectural columns. Molten light bleeds through cracks in the plating. The face is a void of heat behind a vertical obsidian slit. Atmospheric embers, volumetric smoke, heavy industrial machinery background. 8k, photorealistic, textural, tactile realism, desaturated grunge with high contrast light."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ESAT",
+    "name": "Esat",
+    "type": "character",
+    "aliases": [
+      "Esat"
+    ],
+    "roles": [
+      "element"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_108"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 14,
+        "chapter_end": 14,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

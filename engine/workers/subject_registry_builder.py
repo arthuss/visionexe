@@ -19,6 +19,64 @@ TYPE_PREFIX = {
 }
 
 DYNAMIC_POLICIES = {"per_segment", "per_scene", "per_occurrence"}
+PHASE_POLICY = "phases"
+
+
+def split_sequence(values, parts):
+    if parts <= 0:
+        return []
+    if not values:
+        return [[] for _ in range(parts)]
+    total = len(values)
+    groups = []
+    for idx in range(parts):
+        start = int(idx * total / parts)
+        end = int((idx + 1) * total / parts)
+        groups.append(values[start:end])
+    return groups
+
+
+def build_phase_states(subject, chapter_start, chapter_end, phase_count, phase_labels):
+    if phase_count <= 0:
+        return []
+
+    try:
+        start_int = int(chapter_start) if chapter_start is not None else None
+        end_int = int(chapter_end) if chapter_end is not None else None
+    except (ValueError, TypeError):
+        start_int = None
+        end_int = None
+
+    if start_int is None or end_int is None:
+        chapter_ranges = [(chapter_start, chapter_end) for _ in range(phase_count)]
+    else:
+        total_chapters = max(1, end_int - start_int + 1)
+        chapter_ranges = []
+        for idx in range(phase_count):
+            phase_start = start_int + int(idx * total_chapters / phase_count)
+            phase_end = start_int + int((idx + 1) * total_chapters / phase_count) - 1
+            if idx == phase_count - 1:
+                phase_end = end_int
+            chapter_ranges.append((phase_start, phase_end))
+
+    change_groups = split_sequence(subject.get("changes") or [], phase_count)
+    labels = phase_labels if isinstance(phase_labels, list) else []
+
+    states = []
+    for idx in range(phase_count):
+        label = labels[idx] if idx < len(labels) and labels[idx] else f"Phase {idx + 1}"
+        chapter_start_value, chapter_end_value = chapter_ranges[idx]
+        states.append({
+            "state_id": f"phase_{idx + 1:02d}",
+            "label": label,
+            "chapter_start": chapter_start_value,
+            "chapter_end": chapter_end_value,
+            "segment_labels": [],
+            "scene_labels": [],
+            "source_ids": [],
+            "notes": change_groups[idx],
+        })
+    return states
 
 
 def load_json(path: Path):
@@ -177,6 +235,8 @@ def main():
     analysis_master_path = resolve_path(analysis_master_path, repo_root)
 
     default_dynamic_policy = story_config.get("dynamic_state_policy_default", "per_segment")
+    dynamic_phase_max = int(story_config.get("dynamic_phase_max", 0) or 0)
+    dynamic_phase_labels = story_config.get("dynamic_phase_labels") or []
 
     keymap_path = args.keymap or "engine/config/subjects_keymap.json"
     keymap_path = resolve_path(keymap_path, repo_root)
@@ -358,7 +418,7 @@ def main():
 
         if state_policy is None:
             state_policy = default_dynamic_policy if is_dynamic else "static"
-        if state_policy in DYNAMIC_POLICIES:
+        if state_policy in DYNAMIC_POLICIES or state_policy == PHASE_POLICY:
             is_dynamic = True
 
         registry.append({
@@ -454,6 +514,17 @@ def main():
                     "source_ids": sorted({sid for sid in data.get("source_ids") if sid}),
                     "notes": sorted(notes),
                 })
+        elif state_policy == PHASE_POLICY or (is_dynamic and dynamic_phase_max > 0 and state_policy == "static"):
+            if state_policy == "static":
+                state_policy = PHASE_POLICY
+            phase_count = dynamic_phase_max if dynamic_phase_max > 0 else 1
+            states = build_phase_states(
+                subject,
+                chapter_start,
+                chapter_end,
+                phase_count,
+                dynamic_phase_labels,
+            )
         else:
             states = [
                 {
@@ -467,17 +538,8 @@ def main():
                     "notes": [],
                 }
             ]
-            for idx, change in enumerate(subject["changes"], start=1):
-                states.append({
-                    "state_id": f"change_{idx:02d}",
-                    "label": change,
-                    "chapter_start": chapter_start,
-                    "chapter_end": chapter_end,
-                    "segment_labels": [],
-                    "scene_labels": [],
-                    "source_ids": [],
-                    "notes": [],
-                })
+            if subject["changes"]:
+                states[0]["notes"] = subject["changes"]
 
         if not states:
             states = [

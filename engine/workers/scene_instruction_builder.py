@@ -7,10 +7,14 @@ from visionexe_paths import load_story_config, resolve_path
 
 
 SCENE_HEADER_RE = re.compile(
-    r"^##\s+\[ACT\s+(?P<act>\d+)\]\s+\[SCENE\s+(?P<scene>[0-9.]+)\]\s+\[Timecode:\s*(?P<timecode>[^\]]+)\]\s+\[(?P<title>[^\]]+)\]",
+    r"^##\s+\[ACT\s+(?P<act>\d+)\]\s+\[SCENE\s+(?P<scene>[0-9.]+)\]\s+\[(?:Timecode:\s*)?(?P<timecode>[0-9:\s.-]+)\]\s+\[(?P<title>[^\]]+)\]",
     re.MULTILINE,
 )
-CHAPTER_RE = re.compile(r"chapter_(\d+)", re.IGNORECASE)
+
+
+def build_chapter_regex(label: str):
+    safe_label = re.escape(label or "chapter")
+    return re.compile(rf"{safe_label}_(\d+)", re.IGNORECASE)
 
 
 def parse_timecode(value: str):
@@ -107,14 +111,17 @@ def build_scene_id(chapter, scene_number):
     return f"SCENE_{int(chapter):03d}_{scene_number}"
 
 
-def extract_chapter_number(path: Path):
-    match = CHAPTER_RE.search(str(path))
-    if not match:
-        return None
-    try:
-        return int(match.group(1))
-    except ValueError:
-        return None
+def extract_chapter_number(path: Path, primary_regex, fallback_regex=None):
+    for regex in (primary_regex, fallback_regex):
+        if not regex:
+            continue
+        match = regex.search(str(path))
+        if match:
+            try:
+                return int(match.group(1))
+            except ValueError:
+                return None
+    return None
 
 
 def main():
@@ -142,9 +149,15 @@ def main():
         if digits:
             chapter_filter = int(digits)
 
+    chapter_label = story_config.get("chapter_label", "chapter")
+    chapter_regex = build_chapter_regex(chapter_label)
+    fallback_regex = None
+    if chapter_label.lower() != "chapter":
+        fallback_regex = build_chapter_regex("chapter")
+
     records = []
     for path in filmsets_root.rglob("DREHBUCH_HOLLYWOOD.md"):
-        chapter = extract_chapter_number(path)
+        chapter = extract_chapter_number(path, chapter_regex, fallback_regex)
         if chapter_filter and chapter != chapter_filter:
             continue
         text = path.read_text(encoding="utf-8")

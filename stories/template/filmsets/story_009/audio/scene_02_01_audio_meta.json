@@ -1,0 +1,66 @@
+{
+  "scene": {
+    "act": 2,
+    "scene_id": "2.1",
+    "timecode": "00:16-00:20",
+    "title": "THE CRY VISUALIZED"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "environment",
+    "shot_type": "wide",
+    "framing": "wide",
+    "environment": "Earth_Atmosphere",
+    "env_change": true,
+    "actors": [],
+    "props": [
+      "SOUL_BEAMS"
+    ],
+    "camera": "Tracking Shot / Fast vertical ascent",
+    "mood": [
+      "urgent",
+      "mystical"
+    ],
+    "director_intent": "Visualize the 'cry' as data transmission.",
+    "start_image_keywords": [
+      "blue light beams",
+      "dark sky",
+      "red pools"
+    ],
+    "start_image_mode": "env_only",
+    "video_plan": {
+      "start_comp": {},
+      "motion_driver": {},
+      "reference_footage": {},
+      "overlay_badge": {},
+      "provenance": {
+        "source": "ai_assisted"
+      }
+    },
+    "voice_words_max": 0
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_02_01_voice.wav",
+    "target_media": "Media/scene_02_01.mp4",
+    "output": "Media/scene_02_01_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_02_01_avatar_manifest.json",
+    "pose_source": "Media/scene_02_01_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_02_01_avatar_normal.exr",
+      "depth": "Media/scene_02_01_avatar_depth.exr",
+      "motion": "Media/scene_02_01_avatar_motion.exr",
+      "mask": "Media/scene_02_01_avatar_mask.exr"
+    }
+  }
+}

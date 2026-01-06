@@ -1,0 +1,89 @@
+{
+  "id": "CHAR_EMMALEM",
+  "name": "Emmalem",
+  "type": "character",
+  "card": {
+    "description": "A high-ranking administrative entity of the Enochian order, functioning as a living archive. Emmalem fuses organic stature with calcified technological augmentations, serving as a silent witness and recorder of events. The design bridges the gap between a temple priestess and a mainframe terminal, embodying the cold, logical mysticism of the ancient machinery.",
+    "tags": [
+      "character",
+      "entity",
+      "ancient-tech",
+      "enochian",
+      "cybernetic",
+      "priestess"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Tall, elongated stature with a rigid, almost statue-like posture. Skin is deep basalt-grey, etched with faint, gold-circuitry scarification patterns that glow faintly when processing data.",
+      "**Face/Sensors:** The eyes are replaced by a singular, horizontal optical visor set into the bone structure, glowing with a low amber hum. The mouth is covered by a filigreed vocal synthesizer grille, resembling an ornate golden muzzle.",
+      "**Clothing/Armor:** Draped in heavy, textured robes of dark weave that resemble carbon-fiber linen. A stiff, high collar of oxidized copper frames the head. Shoulders are adorned with crystalline epaulettes that refract ambient light.",
+      "**Key Features:** Hands are multi-jointed, tipped with fine stylus-like digits for interfacing with stone tablets. A halo of faint holographic glyphs often drifts lazily around the head."
+    ],
+    "evolution": [
+      "Phase 1 (Default): The standard operating state, pristine and imposing, serving as a stoic observer within the machine-city."
+    ],
+    "props": [
+      "Crystalline Data-Tablet: A slab of transparent, glowing crystal used for input.",
+      "Resonance Staff: A long rod topped with a tuning-fork structure."
+    ],
+    "prompt_keywords": [
+      "Emmalem",
+      "ancient cyborg",
+      "Ethiopian futurism",
+      "basalt skin",
+      "gold circuitry",
+      "optical visor",
+      "tech-priestess",
+      "cinematic lighting",
+      "industrial mysticism",
+      "8k",
+      "unreal engine 5"
+    ],
+    "prompt_block": "Full body shot of Emmalem, a tall ancient-tech entity with deep basalt-grey skin and gold circuit scarification. She wears heavy carbon-fiber linen robes with a high oxidized copper collar. Eyes replaced by a horizontal amber optical visor. Mouth covered by an ornate golden vocal grille. Multi-jointed fingers holding a glowing crystalline tablet. Atmospheric lighting, cathedral-like industrial background, dust motes, volumetric fog, photorealistic texture, sharp focus, cinematic composition.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Standard administrative appearance, stoic and imposing.",
+        "prompt_keywords": [
+          "statuesque",
+          "administrator",
+          "amber visor",
+          "basalt skin"
+        ],
+        "prompt_block": "Medium shot of Emmalem, an ancient-tech administrator entity. Basalt-grey skin with faint gold etchings. Horizontal amber visor eyes, golden vocal grille. Wearing dark textured robes and a copper collar. Standing stoically in a dimly lit, high-tech stone corridor. Cinematic lighting, photorealistic, 8k, highly detailed textures."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_EMMALEM",
+    "name": "Emmalem",
+    "type": "character",
+    "aliases": [
+      "Emmalem"
+    ],
+    "roles": [
+      "entity"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_506"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 69,
+        "chapter_end": 69,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

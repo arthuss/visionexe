@@ -95,6 +95,29 @@ def parse_bvh(path: Path):
     }
 
 
+def normalize_root_name(parsed: dict) -> dict:
+    joint_order = parsed.get("joint_order") or []
+    if not joint_order:
+        return parsed
+    root_name = joint_order[0]
+    if str(root_name).lower() != "hips":
+        return parsed
+    if "Joint_000" in joint_order:
+        return parsed
+    new_name = "Joint_000"
+    joint_order[0] = new_name
+    for key in ("offsets", "channels", "pose"):
+        data = parsed.get(key) or {}
+        if root_name in data:
+            data[new_name] = data.pop(root_name)
+            continue
+        for existing in list(data.keys()):
+            if str(existing).lower() == "hips":
+                data[new_name] = data.pop(existing)
+                break
+    return parsed
+
+
 def infer_coverage(joint_count: int) -> str:
     if joint_count <= 20:
         return "upper_body"
@@ -182,7 +205,7 @@ def main():
     )
 
     input_path = resolve_path(args.input, repo_root)
-    parsed = parse_bvh(Path(input_path))
+    parsed = normalize_root_name(parse_bvh(Path(input_path)))
 
     pose_id = args.pose_id or Path(input_path).stem
     coverage = args.coverage or infer_coverage(len(parsed["joint_order"]))

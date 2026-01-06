@@ -1,0 +1,30 @@
+## [CHARACTER] Moon (ID: CHAR_MOON)
+**Description:** A colossal, artificial construct masquerading as a celestial body. The Moon is not a rock, but a perfect luminescent silver core encased within a massive, orbital mechanism of matte black interlocking panels and ancient industrial brass gears. Its phases are not shadows, but the physical closing of a gigantic mechanical iris (shutter system) that occludes the light source. It functions as a rendering engine for the night, casting 'selective' cold blue light that interacts with data-compliant entities while passing harmlessly through others (glitches).
+**Tags:** #Celestial Mechanism #Artificial Construct #Industrial Mysticism #Mechanical Sphere #Tech-Noir
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Core:** A blindingly perfect sphere of cold, silver-white luminescence. Not a surface reflecting the sun, but an internal reactor or light source.
+*   **Shell/Housing:** Surrounded by a massive, complex mechanical iris system. Matte black metal panels that slide and interlock.
+*   **Internal Mechanism:** Deep beneath the panels, gigantic brass gears and clockwork machinery are visible, grinding silently in the void.
+*   **Light Emission:** Emits a sharp, focused beam of blue-silver light. The light has a 'data' quality to it, sometimes appearing as a solid volume or revealing Ge'ez glyphs in dust motes.
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Default): The standard operating mode. A mechanical sphere appearing in the sky, its phase determined by the degree of shutter closure. Cold, distant, watching.
+
+### 3. PROPS & EQUIPMENT
+*   Mechanical Iris Shutter
+*   Silver Data Beam
+*   Brass Gear Substructure
+
+### 4. AI PROMPT KEYWORDS
+`mechanical moon`, `celestial construct`, `matte black metal`, `brass gears`, `mechanical iris`, `cold silver light`, `industrial mysticism`, `cinematic`, `8k`, `photorealistic`
+
+### 5. PROMPT BLOCK (T2I)
+A massive mechanical sphere floating in the void, acting as the Moon. The surface is a perfect, glowing silver core partially obscured by a gigantic mechanical iris made of matte black interlocking panels. Massive brass gears and industrial clockwork mechanisms are visible behind the shifting plates. Cold blue-silver light spills from the aperture. High contrast, ancient-tech aesthetic, tactile metal textures, deep space background, cinematic lighting, photorealistic, 8k.
+
+### 6. PHASE PROMPTS
+*   **Default:** The Moon as a mechanical construct with iris shutters.
+    Prompt: A colossal artificial moon in the night sky. It is a glowing silver sphere encased in a dark, matte black mechanical shell. A massive shutter mechanism like a camera iris is partially closed, creating a crescent shape. Intricate brass gears and heavy industrial machinery are visible within the mechanism. Cold, sharp blue moonlight beams down. Cinematic, mysterious, ancient technology, hyper-detailed, 8k.
+    Keywords: mechanical moon, iris shutter, brass gears, silver light
+
+---

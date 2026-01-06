@@ -1,0 +1,104 @@
+{
+  "scene": {
+    "act": 1,
+    "scene_id": "1.2",
+    "timecode": "00:04-00:08",
+    "title": "URIEL'S COMMAND"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "mixed",
+    "shot_type": "medium",
+    "framing": "medium",
+    "environment": "Stationary Orbit Platform Deck",
+    "env_change": false,
+    "actors": [
+      {
+        "name": "Uriel",
+        "phase": "Admin Class",
+        "presence": "on_screen",
+        "focus": "primary"
+      },
+      {
+        "name": "Henoch",
+        "phase": "Voyager Phase II",
+        "presence": "on_screen",
+        "focus": "secondary"
+      }
+    ],
+    "props": [
+      "Hologram_Console"
+    ],
+    "camera": "50mm / Focus on Hand",
+    "mood": [
+      "clinical",
+      "authoritative"
+    ],
+    "director_intent": "Show the control Uriel has over the celestial mechanics via the interface.",
+    "start_image_keywords": [
+      "Uriel hand",
+      "hologram moon",
+      "Henoch silhouette"
+    ],
+    "start_image_mode": "composite",
+    "video_plan": {
+      "start_comp": {
+        "mode": "composite",
+        "actor_pose_id": "URIEL_COMMAND_01",
+        "env_id": "ORBIT_DECK_01",
+        "props": [
+          "HOLO_EMITTER"
+        ],
+        "notes": ""
+      },
+      "motion_driver": {
+        "type": "none",
+        "audio_id": "",
+        "pose_source": "",
+        "driver_notes": ""
+      },
+      "reference_footage": {
+        "id": "",
+        "path": "",
+        "use": "none",
+        "notes": ""
+      },
+      "overlay_badge": {
+        "asset": "",
+        "blend": "normal",
+        "opacity": 0.0,
+        "position": "top_right",
+        "safe_margin": 0.0
+      },
+      "provenance": {
+        "source": "ai_assisted",
+        "notes": ""
+      }
+    },
+    "voice_words_max": 3
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_01_02_voice.wav",
+    "target_media": "Media/scene_01_02.mp4",
+    "output": "Media/scene_01_02_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_01_02_avatar_manifest.json",
+    "pose_source": "Media/scene_01_02_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_01_02_avatar_normal.exr",
+      "depth": "Media/scene_01_02_avatar_depth.exr",
+      "motion": "Media/scene_01_02_avatar_motion.exr",
+      "mask": "Media/scene_01_02_avatar_mask.exr"
+    }
+  }
+}

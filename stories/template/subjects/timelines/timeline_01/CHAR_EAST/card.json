@@ -1,0 +1,88 @@
+{
+  "id": "CHAR_EAST",
+  "name": "East",
+  "type": "character",
+  "card": {
+    "description": "The Eastern region, a cardinal domain defined by the intersection of hyper-real desert geology and active procedural generation. It is a transitional zone where the simulation's geometry is frequently unstable, characterized by mathematical dust patterns, glitching terrain textures, and semi-materialized vegetation. It represents the raw 'loading zone' of the world.",
+    "tags": [
+      "environment",
+      "location",
+      "glitch",
+      "desert",
+      "procedural",
+      "surreal"
+    ],
+    "visual_anatomy": [
+      "**Terrain:** Endless flat expanses of hyper-realistic baked earth and silica. In the distance, mountain ranges exhibit 'Z-fighting' and texture stretching, appearing as low-poly or jagged geometry.",
+      "**Atmosphere:** The air shimmers with digital heat distortion. Dust does not drift randomly but rises in perfect Fibonacci spirals.",
+      "**Vegetation:** 'Glitching Trees'—monolithic black ceramic structures that fade into wireframe geometry at their extremities, looking like unrendered assets.",
+      "**Lighting:** Harsh, sterile sunlight casting razor-sharp, pitch-black shadows. The sky is a pale, uniform blue, devoid of natural cloud variation."
+    ],
+    "evolution": [
+      "Phase 1 (Default): The stable yet glitch-prone horizon of the Eastern Desert."
+    ],
+    "props": [
+      "Item: Black Ceramic Monolith Trees (Procedural)",
+      "Item: Fibonacci Dust Clouds"
+    ],
+    "prompt_keywords": [
+      "Eastern Desert",
+      "Glitch Art",
+      "Wireframe",
+      "Monolithic Trees",
+      "Hyper-realistic",
+      "Digital Haze",
+      "Low-poly Mountains"
+    ],
+    "prompt_block": "Cinematic wide shot of the Eastern Desert Horizon. A vast, hyper-realistic desert floor stretching into infinity, interrupted by jagged, low-poly mountain peaks with stretched rock textures. In the foreground, monolithic black trees made of smooth ceramic are half-materialized, their branches dissolving into glowing wireframe geometry. Dust particles rise from the ground in perfect mathematical spirals. The lighting is harsh, vertical sunlight against a pale, sterile blue sky. The atmosphere feels like a simulation struggling to render, combining ancient earth tones with digital artifacts. 8k resolution, industrial mysticism.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The Eastern Desert environment with glitch elements.",
+        "prompt_keywords": [
+          "Eastern Desert",
+          "Glitch Art",
+          "Wireframe",
+          "Monolithic Trees",
+          "Hyper-realistic"
+        ],
+        "prompt_block": "Cinematic wide shot of the Eastern Desert Horizon. A vast, hyper-realistic desert floor stretching into infinity, interrupted by jagged, low-poly mountain peaks with stretched rock textures. In the foreground, monolithic black trees made of smooth ceramic are half-materialized, their branches dissolving into glowing wireframe geometry. Dust particles rise from the ground in perfect mathematical spirals. The lighting is harsh, vertical sunlight against a pale, sterile blue sky. The atmosphere feels like a simulation struggling to render, combining ancient earth tones with digital artifacts. 8k resolution, industrial mysticism."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_EAST",
+    "name": "East",
+    "type": "character",
+    "aliases": [
+      "East"
+    ],
+    "roles": [
+      "celestial body"
+    ],
+    "visual_traits": [
+      "directional"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_561"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 72,
+        "chapter_end": 72,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+**Synchronisation asynchroner Subsysteme (Clock Drift):**
+Kapitel 74 ist das technische Handbuch für das "System Clock Alignment". Die Simulation läuft auf zwei konkurrierenden Taktgebern:
+1.  **Solar-Takt (Mainframe):** 364 Ticks pro Zyklus. Dies ist der "Admin-Standard", der absolute Stabilität garantiert (Ewigkeit).
+2.  **Lunar-Takt (User-Interface):** 354 Ticks pro Zyklus. Dies ist der dynamische, für den Beobachter sichtbare Wechsel.
+
+Das System generiert absichtlich einen "Lag" (Latenz) von 10 Tagen pro Zyklus zwischen Backend (Sonne) und Frontend (Mond).
+**Warum?**
+*   **Buffer-Management:** Die 10 fehlenden Tage dienen als "Garbage Collection" Phase oder System-Wartungsfenster, das im Lunarkalender ausgeblendet wird.
+*   **Variable Render-Pipeline:** Uriel erklärt, wie die Mond-Textur (Licht) dynamisch geladen wird, abhängig von der relativen Position zur Sonne. Der Mond hat keine eigene Lichtquelle (Emissive Map = 0), sondern nutzt Raytracing-Reflexionen der Sonne.
+
+**Die 8-Jahres-Periode (Oktaeteris):**
+Die explizite Erwähnung des 8-Jahres-Zyklus deutet auf einen "System Reset" oder einen "Re-Sync" hin, bei dem die aufgelaufenen Differenzen (80 Tage) in einem Schalt-Algorithmus korrigiert werden müssen, um einen Systemabsturz (Desynchronisation der Jahreszeiten) zu verhindern.

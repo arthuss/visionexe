@@ -1,0 +1,96 @@
+{
+  "scene": {
+    "act": 3,
+    "scene_id": "99.13",
+    "timecode": "00:48-00:53",
+    "title": "THE BAD BUILD START"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "actor",
+    "shot_type": "medium",
+    "framing": "medium",
+    "environment": "Tower_of_Babel_Site",
+    "env_change": true,
+    "actors": [
+      {
+        "name": "Sinner_Builder",
+        "phase": "GLITCH_STATE",
+        "presence": "on_screen",
+        "focus": "primary"
+      }
+    ],
+    "props": [
+      "GLITCH_BLOCK"
+    ],
+    "camera": "35mm / Medium",
+    "mood": [
+      "frustrated",
+      "unstable"
+    ],
+    "director_intent": "The futility of building on corrupt code.",
+    "start_image_keywords": [
+      "glitching block",
+      "construction site",
+      "scaffolding"
+    ],
+    "start_image_mode": "actor_in_env",
+    "video_plan": {
+      "start_comp": {
+        "mode": "actor_in_env",
+        "actor_pose_id": "",
+        "env_id": "",
+        "props": [],
+        "notes": ""
+      },
+      "motion_driver": {
+        "type": "none",
+        "audio_id": "",
+        "pose_source": "",
+        "driver_notes": ""
+      },
+      "reference_footage": {
+        "id": "",
+        "path": "",
+        "use": "none",
+        "notes": ""
+      },
+      "overlay_badge": {
+        "asset": "",
+        "blend": "normal",
+        "opacity": 0.0,
+        "position": "top_right",
+        "safe_margin": 0.04
+      },
+      "provenance": {
+        "source": "ai_assisted",
+        "notes": ""
+      }
+    },
+    "voice_words_max": 0
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_03_13_voice.wav",
+    "target_media": "Media/scene_03_13.mp4",
+    "output": "Media/scene_03_13_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_03_13_avatar_manifest.json",
+    "pose_source": "Media/scene_03_13_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_03_13_avatar_normal.exr",
+      "depth": "Media/scene_03_13_avatar_depth.exr",
+      "motion": "Media/scene_03_13_avatar_motion.exr",
+      "mask": "Media/scene_03_13_avatar_mask.exr"
+    }
+  }
+}

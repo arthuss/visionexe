@@ -1,6 +1,7 @@
 param(
     [ValidateSet("Junction", "Copy")]
     [string]$Mode = "Copy",
+    [switch]$Force,
     [string]$PluginName = "visionexe",
     [string]$TargetPath = "C:\\Program Files\\Reallusion\\iClone 8\\Bin64\\OpenPlugin"
 )
@@ -44,8 +45,18 @@ Write-Host "Mode: $Mode"
 foreach ($folder in $folders) {
     $dest = Join-Path $TargetPath $folder.Name
     if (Test-Path $dest) {
-        Write-Warning "Target exists, skipping: $dest"
-        continue
+        if (-not $Force) {
+            Write-Warning "Target exists, skipping: $dest (use -Force to replace)"
+            continue
+        }
+        try {
+            Remove-Item -Path $dest -Recurse -Force
+            Write-Host "Removed existing: $dest"
+        } catch {
+            Write-Warning "Failed to remove existing target: $dest"
+            Write-Warning $_.Exception.Message
+            continue
+        }
     }
 
     if ($Mode -eq "Junction") {

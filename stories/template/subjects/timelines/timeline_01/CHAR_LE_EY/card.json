@@ -1,0 +1,88 @@
+{
+  "id": "CHAR_LE_EY",
+  "name": "Le'ey",
+  "type": "character",
+  "card": {
+    "description": "Le'ey is a technician-scribe of the ancient order, tasked with maintaining the peripheral glyph-circuits of the Watchers' infrastructure. A figure of quiet intensity, he bridges the gap between human tradition and incomprehensible celestial technology. His appearance blends the aesthetic of an ancient Ethiopian scholar with the grime of an industrial mechanic, wearing garments that are half-vestment, half-workwear.",
+    "tags": [
+      "character",
+      "scribe",
+      "technician",
+      "industrial_mysticism",
+      "ancient_tech",
+      "ethiopian_aesthetic"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Lean, wiry build indicating a life of precise labor rather than brute force. Dark, weathered skin with a matte texture. Sharp, attentive facial features.",
+      "**Face/Sensors:** The left eye is augmented with a 'Lector's Monocle'—a brass and crystal assembly grafted directly into the orbital bone, emitting a faint amber scanning light. Faint geometric scarification (circuit-tattoos) runs down the neck.",
+      "**Clothing/Armor:** Wears a heavy, layered tunic of unbleached linen and rough-spun wool, stained with oil and coolant. Over this, a leather harness supports a modular tool-kit and scroll cases. Bronze greaves protect his shins.",
+      "**Key Features:** Hands are stained dark from handling carbon-filters and ink. He moves with calculated precision."
+    ],
+    "evolution": [
+      "Phase 1 (Default): The standard appearance of Le'ey as he performs his maintenance duties, equipped with his diagnostic tools and protective gear."
+    ],
+    "props": [
+      "**Glyph-Stylus:** A heavy, rod-like tool made of oxidized copper used to carve or activate light-circuits.",
+      "**Data-Satchel:** A stiff leather bag hanging from the hip, containing crystalline data-shards and parchment maps."
+    ],
+    "prompt_keywords": [
+      "Le'ey",
+      "ancient technician",
+      "Ethiopian male",
+      "cybernetic monocle",
+      "brass and crystal tech",
+      "dirty linen robes",
+      "industrial mysticism",
+      "cinematic lighting",
+      "hyperrealistic"
+    ],
+    "prompt_block": "Medium shot of Le'ey, an ancient Ethiopian technician-scribe, standing in a dim, steam-filled industrial temple. He has dark, weathered skin and a lean build. His left eye is replaced by a complex brass and crystal ocular implant glowing with faint amber light. He wears layered, oil-stained linen robes under a heavy leather work-harness filled with metallic tools. In his hand, he holds a copper Glyph-Stylus. The background features towering basalt walls etched with glowing blue circuitry. Cinematic lighting, volumetric atmosphere, texture-heavy, photorealistic, 8k.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Le'ey in his standard technician attire with ocular implant and tools.",
+        "prompt_keywords": [
+          "Le'ey",
+          "technician",
+          "work gear",
+          "ocular implant",
+          "amber light"
+        ],
+        "prompt_block": "Medium shot of Le'ey, an ancient Ethiopian technician-scribe, standing in a dim, steam-filled industrial temple. He has dark, weathered skin and a lean build. His left eye is replaced by a complex brass and crystal ocular implant glowing with faint amber light. He wears layered, oil-stained linen robes under a heavy leather work-harness filled with metallic tools. In his hand, he holds a copper Glyph-Stylus. The background features towering basalt walls etched with glowing blue circuitry. Cinematic lighting, volumetric atmosphere, texture-heavy, photorealistic, 8k."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_LE_EY",
+    "name": "Le'ey",
+    "type": "character",
+    "aliases": [
+      "Le'ey"
+    ],
+    "roles": [
+      "unknown"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_947"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 99,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+## [CHARACTER] Isme (ID: CHAR_ISME)
+**Description:** Isme is a young adept and archivist within the technological temples, tasked with maintaining the interface between ancient stone and living data. She embodies the quiet intersection of tradition and industrial mysticism, wearing garments that blend ceremonial reverence with practical protection against the humming radiation of the machinery she tends. Her presence is grounding, a human element amidst the colossal scale of the ancient-tech architecture.
+**Tags:** #character #adept #archivist #ethiopian_fusion #ancient_tech
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** Young adult female with distinct East African features, sharp cheekbones, and intricate braided hair adorned with copper data-beads.
+*   **Face/Sensors:** A subtle, faint bio-luminescent geometric pattern traces her left temple, pulsing slowly in sync with the environment's ambient energy.
+*   **Clothing/Armor:** Layered, hand-woven off-white linen robes (Shamma style) reinforced with heavy, oil-stained leather shoulder pads and a thick apron for handling heated artifacts. Boots are heavy, industrial rubberized leather.
+*   **Key Features:** She carries an aura of focused calm. Her hands are often stained with soot or cooling fluids from her work.
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Default): The steady maintainer, clean but worn, equipped for daily rituals of maintenance and observation.
+
+### 3. PROPS & EQUIPMENT
+*   Crystalline Stylus: A slender, glowing tool for carving light-data into stone.
+*   Holographic Scroll: A roll of parchment that projects floating glyphs when unfurled.
+
+### 4. AI PROMPT KEYWORDS
+`Isme`, `East African female`, `tech-adept`, `woven linen robes`, `copper braids`, `industrial mysticism`, `volumetric lighting`, `cinematic`, `highly detailed`, `ancient technology`
+
+### 5. PROMPT BLOCK (T2I)
+cinematic shot of Isme, a young Ethiopian adept standing in a dusty, sun-drenched ancient industrial temple. She wears layered off-white linen robes with a heavy leather apron and intricate copper wiring woven into her braided hair. Subtle bioluminescent geometric tattoos on her temple. She holds a glowing crystalline stylus. Atmosphere of sacred technology, dust motes dancing in shafts of light, photorealistic, 8k, tactile textures of fabric and stone.
+
+### 6. PHASE PROMPTS
+*   **Default:** Standard appearance as an archive keeper and tech-adept.
+    Prompt: full body shot of Isme, East African female character, wearing white linen shamma robes modified with industrial leather straps and heavy boots. She stands calmly in a corridor of carved obsidian machinery. Intricate braided hair with metallic beads, faint glowing circuit tattoos on skin. Soft cinematic lighting, grounded realism, earthy tones mixed with cyan tech-glow, photorealistic, highly detailed.
+    Keywords: Isme, maintenance gear, linen and leather, calm expression
+
+---

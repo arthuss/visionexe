@@ -1,0 +1,96 @@
+{
+  "scene": {
+    "act": 1,
+    "scene_id": "1.2",
+    "timecode": "00:03-00:05",
+    "title": "THE CORE PROCESSOR"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "mixed",
+    "shot_type": "medium",
+    "framing": "medium",
+    "environment": "CPU_Core_Level_0",
+    "env_change": false,
+    "actors": [
+      {
+        "name": "The_Prime_Unit",
+        "phase": "Manifestation",
+        "presence": "on_screen",
+        "focus": "primary"
+      }
+    ],
+    "props": [
+      "Throne of Hard Drives",
+      "Fiber Optic Cables"
+    ],
+    "camera": "Low Angle, looking up",
+    "mood": [
+      "awe",
+      "terror"
+    ],
+    "director_intent": "Show the overwhelming power source causing the instability.",
+    "start_image_keywords": [
+      "blinding white silhouette",
+      "throne of hard drives"
+    ],
+    "start_image_mode": "actor_in_env",
+    "video_plan": {
+      "start_comp": {
+        "mode": "composite",
+        "actor_pose_id": "PRIME_SIT_01",
+        "env_id": "CPU_CORE_THRONE",
+        "props": [],
+        "notes": ""
+      },
+      "motion_driver": {
+        "type": "none",
+        "audio_id": "",
+        "pose_source": "",
+        "driver_notes": ""
+      },
+      "reference_footage": {
+        "id": "",
+        "path": "",
+        "use": "none",
+        "notes": ""
+      },
+      "overlay_badge": {
+        "asset": "",
+        "blend": "normal",
+        "opacity": 0.0,
+        "position": "top_right",
+        "safe_margin": 0.0
+      },
+      "provenance": {
+        "source": "ai_assisted",
+        "notes": ""
+      }
+    },
+    "voice_words_max": 0
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_01_02_voice.wav",
+    "target_media": "Media/scene_01_02.mp4",
+    "output": "Media/scene_01_02_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_01_02_avatar_manifest.json",
+    "pose_source": "Media/scene_01_02_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_01_02_avatar_normal.exr",
+      "depth": "Media/scene_01_02_avatar_depth.exr",
+      "motion": "Media/scene_01_02_avatar_motion.exr",
+      "mask": "Media/scene_01_02_avatar_mask.exr"
+    }
+  }
+}

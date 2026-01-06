@@ -1,0 +1,94 @@
+{
+  "scene": {
+    "act": 3,
+    "scene_id": "3.4",
+    "timecode": "01:04-01:10",
+    "title": "The Return Jump"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "actor",
+    "shot_type": "medium",
+    "framing": "full_body",
+    "environment": "Crystal_Sanctum",
+    "env_change": false,
+    "actors": [
+      {
+        "name": "Henoch",
+        "phase": "Voyager",
+        "presence": "on_screen",
+        "focus": "primary"
+      }
+    ],
+    "props": [],
+    "camera": "Static Shot",
+    "mood": [
+      "transition",
+      "end"
+    ],
+    "director_intent": "The user logs out of the admin console.",
+    "start_image_keywords": [
+      "datamosh",
+      "pixels",
+      "dissolve"
+    ],
+    "start_image_mode": "composite",
+    "video_plan": {
+      "start_comp": {
+        "mode": "actor_first",
+        "actor_pose_id": "",
+        "env_id": "",
+        "props": [],
+        "notes": ""
+      },
+      "motion_driver": {
+        "type": "none",
+        "audio_id": "",
+        "pose_source": "",
+        "driver_notes": ""
+      },
+      "reference_footage": {
+        "id": "",
+        "path": "",
+        "use": "none",
+        "notes": ""
+      },
+      "overlay_badge": {
+        "asset": "",
+        "blend": "normal",
+        "opacity": 0.0,
+        "position": "top_right",
+        "safe_margin": 0.04
+      },
+      "provenance": {
+        "source": "ai_assisted",
+        "notes": ""
+      }
+    },
+    "voice_words_max": 0
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_03_04_voice.wav",
+    "target_media": "Media/scene_03_04.mp4",
+    "output": "Media/scene_03_04_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_03_04_avatar_manifest.json",
+    "pose_source": "Media/scene_03_04_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_03_04_avatar_normal.exr",
+      "depth": "Media/scene_03_04_avatar_depth.exr",
+      "motion": "Media/scene_03_04_avatar_motion.exr",
+      "mask": "Media/scene_03_04_avatar_mask.exr"
+    }
+  }
+}

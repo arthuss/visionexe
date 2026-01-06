@@ -1,0 +1,90 @@
+{
+  "id": "CHAR_SPIRIT",
+  "name": "Spirit",
+  "type": "character",
+  "card": {
+    "description": "A metaphysical anomaly manifesting as a localized ontological distortion. The 'Spirit' is not composed of matter but exists as a refractive void—a semi-transparent heat-haze that bends light and reality around a vague, negative-space silhouette. It suggests a breach in the physical layer, marked by static discharge and gravitational lensing rather than biological form. It moves with a drifting, unsettling fluidity, disturbing the particulate matter of the environment without touching it.",
+    "tags": [
+      "entity",
+      "distortion",
+      "spectral",
+      "void-silhouette",
+      "heat-haze",
+      "anomaly",
+      "ethereal"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Non-corporeal manifestation appearing as a violent optical distortion, similar to intense heat haze or a gravitational lens, roughly humanoid in scale.",
+      "**Core:** A faint, obsidian-black silhouette visible deep within the refractive field, acting as a 'hole' in the background environment.",
+      "**Atmosphere:** The air immediately surrounding the entity ripples and blurs; dust and debris float in a low-gravity suspension field beneath it.",
+      "**Tech-Exegesis:** Interpreted as a 'coherent etheric resonance' or 'data-ghost' that fails to fully render in the physical plane, resulting in visual clipping and chromatic aberration."
+    ],
+    "evolution": [
+      "Phase 1 (Default): The standard manifestation as a wandering distortion field with a hollow core."
+    ],
+    "props": [
+      "Static Discharge",
+      "Levitating Dust"
+    ],
+    "prompt_keywords": [
+      "heat-haze distortion",
+      "semi-transparent entity",
+      "negative space silhouette",
+      "refractive air",
+      "chromatic aberration",
+      "gravitational lensing",
+      "void core",
+      "cinematic atmosphere"
+    ],
+    "prompt_block": "A semi-transparent spectral anomaly floating above the ground, manifesting as a violent heat-haze distortion that bends light around a vague, void-black silhouette. The background environment is warped through the entity's form. The ground beneath it is slightly disturbed, with dust particles levitating in a static field. Cinematic lighting, high contrast, photorealistic, 8k, ethereal industrial mysticism, ominous presence.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The entity as a refractive distortion field with a dark core.",
+        "prompt_keywords": [
+          "heat-haze distortion",
+          "semi-transparent",
+          "faint black silhouette",
+          "optical warping"
+        ],
+        "prompt_block": "A semi-transparent spectral anomaly floating above the ground, manifesting as a violent heat-haze distortion that bends light around a vague, void-black silhouette. The background environment is warped through the entity's form. The ground beneath it is slightly disturbed, with dust particles levitating in a static field. Cinematic lighting, high contrast, photorealistic, 8k, ethereal industrial mysticism, ominous presence."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_SPIRIT",
+    "name": "Spirit",
+    "type": "character",
+    "aliases": [
+      "Spirit"
+    ],
+    "roles": [
+      "spiritual entity",
+      "spiritual presence"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_422",
+      "row_436",
+      "row_520"
+    ],
+    "occurrence_count": 3,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 61,
+        "chapter_end": 70,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

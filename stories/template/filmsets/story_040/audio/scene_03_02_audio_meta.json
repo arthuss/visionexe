@@ -1,0 +1,96 @@
+{
+  "scene": {
+    "act": 3,
+    "scene_id": "3.2",
+    "timecode": "00:50-00:55",
+    "title": "GUIDE EXPLANATION"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "actor",
+    "shot_type": "close_up",
+    "framing": "close_up",
+    "environment": "Central Mainframe Core",
+    "env_change": false,
+    "actors": [
+      {
+        "name": "Angel of Peace",
+        "phase": "Guide",
+        "presence": "on_screen",
+        "focus": "primary"
+      }
+    ],
+    "props": [
+      "Hologram"
+    ],
+    "camera": "Reverse Shot, Close Up",
+    "mood": [
+      "informative",
+      "stoic"
+    ],
+    "director_intent": "The System Guide provides the decryption keys.",
+    "start_image_keywords": [
+      "Angel of Peace",
+      "fiber optic robe",
+      "forehead hologram"
+    ],
+    "start_image_mode": "actor_only",
+    "video_plan": {
+      "start_comp": {
+        "mode": "actor_only",
+        "actor_pose_id": "GUIDE_NOD",
+        "env_id": "CORE_ENV",
+        "props": [],
+        "notes": ""
+      },
+      "motion_driver": {
+        "type": "a2f",
+        "audio_id": "guide_explanation_audio",
+        "pose_source": "",
+        "driver_notes": "Stoic nod, hologram projection"
+      },
+      "reference_footage": {
+        "id": "",
+        "path": "",
+        "use": "none",
+        "notes": ""
+      },
+      "overlay_badge": {
+        "asset": "",
+        "blend": "normal",
+        "opacity": 0.0,
+        "position": "",
+        "safe_margin": 0.0
+      },
+      "provenance": {
+        "source": "ai_assisted",
+        "notes": ""
+      }
+    },
+    "voice_words_max": 10
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_03_02_voice.wav",
+    "target_media": "Media/scene_03_02.mp4",
+    "output": "Media/scene_03_02_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_03_02_avatar_manifest.json",
+    "pose_source": "Media/scene_03_02_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_03_02_avatar_normal.exr",
+      "depth": "Media/scene_03_02_avatar_depth.exr",
+      "motion": "Media/scene_03_02_avatar_motion.exr",
+      "mask": "Media/scene_03_02_avatar_mask.exr"
+    }
+  }
+}

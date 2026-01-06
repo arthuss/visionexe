@@ -1,0 +1,58 @@
+{
+  "scene": {
+    "act": 2,
+    "scene_id": "2.3",
+    "timecode": "00:28-00:32",
+    "title": "Immutable Object Focus"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "environment",
+    "shot_type": "medium",
+    "framing": "medium",
+    "environment": "Desert",
+    "env_change": false,
+    "actors": [],
+    "props": [
+      "Ancient Boulder"
+    ],
+    "camera": "Static Timelapse",
+    "mood": [
+      "timeless",
+      "solid"
+    ],
+    "director_intent": "Establish the concept of immutable anchor points in the simulation.",
+    "start_image_keywords": [
+      "desert_rock",
+      "timelapse_shadows",
+      "harsh_sun"
+    ],
+    "start_image_mode": "env_only",
+    "video_plan": {},
+    "voice_words_max": 0
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_02_03_voice.wav",
+    "target_media": "Media/scene_02_03.mp4",
+    "output": "Media/scene_02_03_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_02_03_avatar_manifest.json",
+    "pose_source": "Media/scene_02_03_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_02_03_avatar_normal.exr",
+      "depth": "Media/scene_02_03_avatar_depth.exr",
+      "motion": "Media/scene_02_03_avatar_motion.exr",
+      "mask": "Media/scene_02_03_avatar_mask.exr"
+    }
+  }
+}

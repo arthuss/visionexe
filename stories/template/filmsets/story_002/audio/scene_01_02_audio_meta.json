@@ -1,0 +1,63 @@
+{
+  "scene": {
+    "act": 1,
+    "scene_id": "1.2",
+    "timecode": "00:04-00:08",
+    "title": "Optical Shunt Activation"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "actor_only",
+    "shot_type": "extreme_close_up",
+    "framing": "extreme_close_up",
+    "environment": "Merkabah Interior",
+    "env_change": false,
+    "actors": [
+      {
+        "name": "Enoch",
+        "phase": "System Prototype Build 2.0",
+        "presence": "on_screen",
+        "focus": "primary"
+      }
+    ],
+    "props": [],
+    "camera": "Macro Lens",
+    "mood": [
+      "mechanical",
+      "intense"
+    ],
+    "director_intent": "Visualize the transition from biological sight to data recording.",
+    "start_image_keywords": [
+      "eye_macro",
+      "mechanical_iris",
+      "red_led"
+    ],
+    "start_image_mode": "actor_only",
+    "video_plan": {},
+    "voice_words_max": 0
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_01_02_voice.wav",
+    "target_media": "Media/scene_01_02.mp4",
+    "output": "Media/scene_01_02_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_01_02_avatar_manifest.json",
+    "pose_source": "Media/scene_01_02_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_01_02_avatar_normal.exr",
+      "depth": "Media/scene_01_02_avatar_depth.exr",
+      "motion": "Media/scene_01_02_avatar_motion.exr",
+      "mask": "Media/scene_01_02_avatar_mask.exr"
+    }
+  }
+}

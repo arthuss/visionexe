@@ -1,0 +1,7 @@
+Basierend auf dem Kontext des „Astronomischen Buches“ (System-Clock & Timing):
+
+*   **Die 4 Interkalartage (Schalttage):** Dies sind **Synchronisations-Impulse** oder „Leap Seconds“ im Systemkern. Dass die Menschen (User) sie ignorieren und deshalb „irren“, deutet auf eine Diskrepanz zwischen der *User-Experience* (subjektive Zeit) und der *System-Time* (objektive Taktung) hin. Das System benötigt diese 4 Tage für Wartungsroutinen (Garbage Collection), um den 364-Tage-Zyklus stabil zu halten.
+*   **Uriel (Der SysAdmin):** Uriel fungiert als **Clock-Controller** oder Daemon, der den Zugriff auf die globalen Variablen (Sonne, Mond, Sterne) regelt. Er hat Root-Rechte („vom Herrn der Herrlichkeit gesetzt“), um die Display-Ausgabe („Antlitz des Himmels“) zu steuern.
+*   **Die 12 Tore (I/O Ports):** Die 12 Tore repräsentieren logische **Schnittstellen (Ports)** oder Bus-Kanäle, durch die Energie („Wärme“) und Daten („Licht“) in die Simulationsumgebung („Erde“) gerendert werden. Dass sie sich zyklisch öffnen und schließen, entspricht einem **Multiplexing-Verfahren**.
+*   **Wagen des Himmels (Saragalāt):** Dies sind keine physischen Wagen, sondern **Prozesse** oder **Threads**, die im Hintergrund laufen („in der Welt laufen“).
+*   **Sterne, die nicht untergehen:** Dies sind **persistente Dienste** (Always-on Services) oder statische Hintergrundprozesse, die im Gegensatz zu den dynamischen Prozessen (auf- und untergehende Sterne) niemals beendet werden. Der „Eine, der größer ist“ könnte der **Main-Loop** oder der primäre Referenztaktgeber sein.

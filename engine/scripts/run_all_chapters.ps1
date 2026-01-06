@@ -4,7 +4,9 @@ param (
     [string]$Model = "",
     [string]$StoryRoot = "",
     [string]$StoryConfig = "",
-    [switch]$Resume
+    [switch]$Resume,
+    [switch]$Sanitize,
+    [switch]$FixHeaders
 )
 
 $ScriptRoot = $PSScriptRoot
@@ -70,6 +72,8 @@ Write-Host "Filmsets:   $filmsetsRoot" -ForegroundColor DarkGray
 Write-Host "Label/Pad:  $chapterLabel / $chapterPad" -ForegroundColor DarkGray
 
 $drehbuchScript = Join-Path $RepoRoot "engine\\workers\\drehbuch.py"
+$sanitizeScript = Join-Path $RepoRoot "engine\\workers\\screenplay_sanitizer.py"
+$headerFixScript = Join-Path $RepoRoot "engine\\workers\\scene_header_fixer.py"
 
 for ($i = $Start; $i -le $End; $i++) {
     Write-Host "`n================================================================" -ForegroundColor Yellow
@@ -96,6 +100,12 @@ for ($i = $Start; $i -le $End; $i++) {
         $outputPath = Join-Path $chapterFolder "DREHBUCH_HOLLYWOOD.md"
         if (Test-Path -LiteralPath $outputPath) {
             Write-Host "SKIPPING (resume): $outputPath bereits vorhanden." -ForegroundColor DarkGray
+            if ($Sanitize) {
+                python $sanitizeScript --story-config $StoryConfigPath --start $i --end $i
+            }
+            if ($FixHeaders) {
+                python $headerFixScript --story-config $StoryConfigPath --start $i --end $i
+            }
             continue
         }
     }
@@ -112,6 +122,12 @@ for ($i = $Start; $i -le $End; $i++) {
         Start-Sleep -Seconds 3
     } else {
         Write-Host "Erfolg: Kapitel $i abgeschlossen." -ForegroundColor Green
+        if ($Sanitize) {
+            python $sanitizeScript --story-config $StoryConfigPath --start $i --end $i
+        }
+        if ($FixHeaders) {
+            python $headerFixScript --story-config $StoryConfigPath --start $i --end $i
+        }
     }
 
     Start-Sleep -Seconds 2

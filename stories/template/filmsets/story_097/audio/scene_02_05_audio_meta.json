@@ -1,0 +1,64 @@
+{
+  "scene": {
+    "act": 2,
+    "scene_id": "2.5",
+    "timecode": "00:38-00:45",
+    "title": "THE ASCENSION"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "environment",
+    "shot_type": "wide",
+    "framing": "wide",
+    "environment": "Treasury Vault",
+    "env_change": false,
+    "actors": [],
+    "props": [
+      "LIQUID_GOLD_STREAMS"
+    ],
+    "camera": "High Angle / Bird's Eye",
+    "mood": [
+      "epic",
+      "catastrophic"
+    ],
+    "director_intent": "The total loss of inventory. A reverse rain event.",
+    "start_image_keywords": [
+      "upward_rain",
+      "gold_streams",
+      "vault_ceiling"
+    ],
+    "start_image_mode": "env_only",
+    "video_plan": {
+      "start_comp": {},
+      "motion_driver": {},
+      "reference_footage": {},
+      "overlay_badge": {},
+      "provenance": {}
+    },
+    "voice_words_max": 0
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_02_05_voice.wav",
+    "target_media": "Media/scene_02_05.mp4",
+    "output": "Media/scene_02_05_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_02_05_avatar_manifest.json",
+    "pose_source": "Media/scene_02_05_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_02_05_avatar_normal.exr",
+      "depth": "Media/scene_02_05_avatar_depth.exr",
+      "motion": "Media/scene_02_05_avatar_motion.exr",
+      "mask": "Media/scene_02_05_avatar_mask.exr"
+    }
+  }
+}

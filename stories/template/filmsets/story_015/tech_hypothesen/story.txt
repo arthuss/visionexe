@@ -1,0 +1,12 @@
+**Die Inkompatibilität von Kernel-Mode und User-Mode**
+Das "Böse" wird hier nicht moralisch, sondern technisch definiert. Die Wächter sind **Kernel-Prozesse** (System-Level), die direkten Zugriff auf die Hardware haben und "ewig" laufen (kein Reboot nötig). Menschen sind **User-Space-Anwendungen** (Sandbox), die instabil sind und sich durch Forks (Kinder) replizieren müssen, um Datenverlust zu vermeiden.
+
+**Der Hybrid-Fehler (Riesen als Memory Leaks)**
+Die Wächter haben versucht, Kernel-Code in die User-Sandbox zu injizieren ("Fleisch annehmen"). Das Resultat, die Riesen (*Nephilim*), sind instabile Laufzeitumgebungen mit Root-Rechten, aber ohne Sicherheitsbeschränkungen. Sie verbrauchen alle Systemressourcen (Fressen die Ernte, siehe Kap 7).
+
+**Dämonen als "Zombie-Prozesse"**
+Kapitel 15 liefert die technische Erklärung für Spuk und Besessenheit:
+Wenn die Riesen physisch terminiert werden (Sintflut/Schwert), wird ihre Hardware zerstört. Aber ihr Code (der "Geist" der Wächter-Komponente) wurde nicht sauber beendet. Sie verbleiben als **Zombie-Prozesse** im RAM des Systems "Erde".
+*   Sie haben kein I/O-Interface mehr (können nicht essen/trinken).
+*   Sie laufen im Hintergrund weiter und korrumpieren aktive User-Sessions (Menschen).
+*   Sie sind "böse", weil sie Systemressourcen blockieren und Fehler (Krankheit, Wahnsinn) verursachen, ohne einen Zweck zu erfüllen.

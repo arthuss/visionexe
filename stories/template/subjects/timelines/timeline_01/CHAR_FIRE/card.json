@@ -1,0 +1,86 @@
+{
+  "id": "CHAR_FIRE",
+  "name": "Fire",
+  "type": "character",
+  "card": {
+    "description": "An elemental manifestation of energy serving as both a primal force and a 'System Purge' mechanism. In this setting, Fire oscillates between organic combustion and 'Digital Plasma'—a state where superheated matter reveals underlying command grids and judgment protocols. It is the visual exhaust of high-tech ceramic heat-shields and the punitive tool of the overarching machine architecture.",
+    "tags": [
+      "element",
+      "plasma",
+      "hazard",
+      "industrial_mysticism",
+      "light_source",
+      "fx_volumetric"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Volumetric luminance that glitches between fluid organic tongues and rigid, voxelated 'digital fire' structures.",
+      "**Color/Temperature:** Gradients shifting from 'Human Warmth' (deep orange/amber) to 'Re-entry Burn' (blinding cyan/cobalt) depending on intensity.",
+      "**Texture:** High-frequency detail; flames do not just blur but show 'interlocking hexagonal' micro-patterns within the heat bloom.",
+      "**Particulates:** Emits 'Data-Ash' instead of soot—geometric, glowing cinders that fade into digital noise."
+    ],
+    "evolution": [
+      "Phase 1 (Default): The universal state, varying from the warm glow of human encampments to the terrifying, structured burn of atmospheric friction and 'Judgment Protocols'."
+    ],
+    "props": [
+      "Item: Glowing Ceramic Heat-Shield Tiles",
+      "Item: Digital Command Glyphs (floating in flame)",
+      "Item: Sonic Boom Rings"
+    ],
+    "prompt_keywords": [
+      "industrial plasma",
+      "digital fire",
+      "volumetric",
+      "heat shimmer",
+      "hexagonal bokeh",
+      "cinematic",
+      "photorealistic"
+    ],
+    "prompt_block": "cinematic close-up of industrial mysticism fire, flames transitioning from organic heat to digital pixelation, glowing geometric glyphs visible within the plasma, intense heat distortion, sparks resembling circuitry, dark atmospheric background, high contrast, 8k, unreal engine 5 render, tactile realism",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The manifestation of fire as a high-tech/ancient-tech hybrid force.",
+        "prompt_keywords": [
+          "judgment protocol",
+          "digital artifacts",
+          "plasma",
+          "blue streaks"
+        ],
+        "prompt_block": "photorealistic shot of living industrial fire, flames flickering with digital artifacting and judgment protocol text, intense orange and electric blue plasma gradients, heat shimmer distorting the air, embers floating like glowing data bits, cinematic lighting, heavy atmosphere, 8k"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_FIRE",
+    "name": "Fire",
+    "type": "character",
+    "aliases": [
+      "Fire"
+    ],
+    "roles": [
+      "natural element"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_150"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 18,
+        "chapter_end": 18,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

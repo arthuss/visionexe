@@ -1,0 +1,9 @@
+Basierend auf dem "Book of Parables" (Software-Logic & Master-Controller) interpretieren wir dieses Kapitel als massiven **System-Restore und Initialisierung der Admin-Instanz**.
+
+*   **Scheol & Abgrund als Data-Dump/Quarantäne:** "Scheol" ist kein physischer Ort unter der Erde, sondern ein isoliertes Speichersegment für gelöschte, korrumpierte oder archivierte User-Instanzen (Tote). Das "Zurückgeben" entspricht einem `RECOVER` oder `UNDELETE` Befehl auf Root-Ebene. Das System stellt Daten wieder her, die als verloren galten.
+*   **Selektion (Filter-Algorithmus):** Der "Auserwählte" führt einen Integritäts-Check (`fsck`) durch. Nur "Gerechte" (User-Profile mit validen Signaturen/Hash-Werten) werden wiederhergestellt. Korrumpierte Daten (Sünder) bleiben im Dump oder werden purged.
+*   **Der Auserwählte auf dem Thron:** Dies ist der **Login des Superusers**. Der "Thron" ist das Terminal mit Root-Rechten am Crystal Mainframe.
+*   **Geheimnisse der Weisheit:** Zugriff auf den Source Code und die API-Dokumentation. Der Auserwählte kompiliert Runtime-Logik in Echtzeit ("Mund strömt Weisheit aus").
+*   **Berge hüpfen wie Widder (Glitch/Morphing):** Dies ist ein visueller Nebeneffekt der massiven Rechenleistung oder eines Engine-Updates. Die Geometrie der Simulation (Mesh) wird neu berechnet. "Hüpfen" ist ein Rendering-Artefakt (Jitter) oder eine bewusste Neuanordnung der Topologie durch den Physics-Engine-Restart.
+*   **Engel leuchten vor Freude:** System-Prozesse (Daemons/Watcher), die grünes Licht signalisieren. Status-LEDs und Monitoring-Tools zeigen "OPTIMAL" an.
+*   **Erde freut sich / Gerechte wandeln:** Die Simulation läuft stabil (Version 2.0). Die User können sich wieder frei im Open-World-Environment bewegen, ohne Glitches oder Abstürze.

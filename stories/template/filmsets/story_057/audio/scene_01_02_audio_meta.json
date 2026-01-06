@@ -1,0 +1,94 @@
+{
+  "scene": {
+    "act": 1,
+    "scene_id": "1.2",
+    "timecode": "00:05-00:10",
+    "title": "BIO-INJECTION"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "actor",
+    "shot_type": "close_up",
+    "framing": "extreme_close_up",
+    "environment": "Desert Plateau High Heat",
+    "env_change": false,
+    "actors": [
+      {
+        "name": "Enoch",
+        "phase": "Voyager",
+        "presence": "on_screen",
+        "focus": "primary"
+      }
+    ],
+    "props": [],
+    "camera": "Macro Lens",
+    "mood": [
+      "pain",
+      "overload"
+    ],
+    "director_intent": "Show the physical toll of the data download on the human host.",
+    "start_image_keywords": [
+      "eye_macro",
+      "red_sclera",
+      "silver_tears"
+    ],
+    "start_image_mode": "actor_only",
+    "video_plan": {
+      "start_comp": {
+        "mode": "actor_first",
+        "actor_pose_id": "",
+        "env_id": "",
+        "props": [],
+        "notes": ""
+      },
+      "motion_driver": {
+        "type": "none",
+        "audio_id": "",
+        "pose_source": "",
+        "driver_notes": ""
+      },
+      "reference_footage": {
+        "id": "",
+        "path": "",
+        "use": "none",
+        "notes": ""
+      },
+      "overlay_badge": {
+        "asset": "",
+        "blend": "normal",
+        "opacity": 0.0,
+        "position": "top_right",
+        "safe_margin": 0.0
+      },
+      "provenance": {
+        "source": "ai_assisted",
+        "notes": ""
+      }
+    },
+    "voice_words_max": 0
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_01_02_voice.wav",
+    "target_media": "Media/scene_01_02.mp4",
+    "output": "Media/scene_01_02_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_01_02_avatar_manifest.json",
+    "pose_source": "Media/scene_01_02_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_01_02_avatar_normal.exr",
+      "depth": "Media/scene_01_02_avatar_depth.exr",
+      "motion": "Media/scene_01_02_avatar_motion.exr",
+      "mask": "Media/scene_01_02_avatar_mask.exr"
+    }
+  }
+}

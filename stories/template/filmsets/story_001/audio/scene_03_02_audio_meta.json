@@ -1,0 +1,58 @@
+{
+  "scene": {
+    "act": 3,
+    "scene_id": "3.2",
+    "timecode": "00:45-00:49",
+    "title": "FIREWALL_DEFLECTION"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "prop",
+    "shot_type": "close_up",
+    "framing": "close_up",
+    "environment": "Shield Surface",
+    "env_change": false,
+    "actors": [],
+    "props": [
+      "Gold Hex Grid"
+    ],
+    "camera": "Slow Motion / Close Up",
+    "mood": [
+      "conflict",
+      "protection"
+    ],
+    "director_intent": "Detail the interaction between the judgment scan and the protection protocol.",
+    "start_image_keywords": [
+      "red laser hitting gold shield",
+      "sparks of code",
+      "fluid light simulation"
+    ],
+    "start_image_mode": "prop_only",
+    "video_plan": {},
+    "voice_words_max": 10
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_03_02_voice.wav",
+    "target_media": "Media/scene_03_02.mp4",
+    "output": "Media/scene_03_02_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_03_02_avatar_manifest.json",
+    "pose_source": "Media/scene_03_02_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_03_02_avatar_normal.exr",
+      "depth": "Media/scene_03_02_avatar_depth.exr",
+      "motion": "Media/scene_03_02_avatar_motion.exr",
+      "mask": "Media/scene_03_02_avatar_mask.exr"
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "scene": {
+    "act": 3,
+    "scene_id": "3.4",
+    "timecode": "01:08-01:15",
+    "title": "FINAL RESET"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "mixed",
+    "shot_type": "extreme_close_up",
+    "framing": "extreme_close_up",
+    "environment": "Prison of Stars",
+    "env_change": false,
+    "actors": [
+      {
+        "name": "Henoch",
+        "phase": "Voyager",
+        "presence": "on_screen",
+        "focus": "primary"
+      }
+    ],
+    "props": [
+      "Burning Star"
+    ],
+    "camera": "Extreme Close-Up",
+    "mood": [
+      "finality",
+      "judgment"
+    ],
+    "director_intent": "Show the futility of the rebellion and the system's absolute control.",
+    "start_image_keywords": [
+      "visor reflection",
+      "burning star close up",
+      "henoch turning"
+    ],
+    "start_image_mode": "composite",
+    "video_plan": {
+      "start_comp": {
+        "mode": "composite",
+        "actor_pose_id": "",
+        "env_id": "",
+        "props": [],
+        "notes": ""
+      },
+      "motion_driver": {
+        "type": "a2f",
+        "audio_id": "3.4_angel",
+        "pose_source": "",
+        "driver_notes": "Angel voice over"
+      },
+      "reference_footage": {
+        "id": "",
+        "path": "",
+        "use": "none",
+        "notes": ""
+      },
+      "overlay_badge": {
+        "asset": "",
+        "blend": "normal",
+        "opacity": 0.0,
+        "position": "top_right",
+        "safe_margin": 0.04
+      },
+      "provenance": {
+        "source": "ai_assisted",
+        "notes": ""
+      }
+    },
+    "voice_words_max": 15
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_03_04_voice.wav",
+    "target_media": "Media/scene_03_04.mp4",
+    "output": "Media/scene_03_04_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_03_04_avatar_manifest.json",
+    "pose_source": "Media/scene_03_04_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_03_04_avatar_normal.exr",
+      "depth": "Media/scene_03_04_avatar_depth.exr",
+      "motion": "Media/scene_03_04_avatar_motion.exr",
+      "mask": "Media/scene_03_04_avatar_mask.exr"
+    }
+  }
+}

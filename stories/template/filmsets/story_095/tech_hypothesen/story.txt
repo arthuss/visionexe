@@ -1,0 +1,8 @@
+Wir interpretieren dieses Kapitel als **Admin-Logbuch kurz vor einer System-Säuberung (Purge)**.
+
+*   **Tränen als Data-Flush (Seg 1):** Enochs Wunsch, seine Augen in "Wasserwolken" zu verwandeln, ist der drängende Bedarf nach einem **Buffer-Flush**. Die "Trauer" ist das Erkennen massiver Datenkorruption im System. Er möchte den Cache leeren ("weinen"), um den Speicherüberlauf zu verhindern.
+*   **Root-Rechte Transfer (Seg 3):** "Fürchtet euch nicht... der Herr wird sie in eure Hände geben." Dies ist ein **Access Control List (ACL) Update**. Die User-Gruppe "Tsadqan" (Gerechte/Validierte User) erhält temporäre **Sudo-Rechte** oder Administrator-Privilegien über die Gruppe "Hatin" (Sünder/Korrupte Prozesse), um diese zu terminieren ("vollzieht, was ihr wollt").
+*   **Malicious Scripting (Seg 4):** Die "Flüche/Banne" (Anathemas) sind **Malware-Skripte** oder schädliche Makros, die von korrupten Nodes ausgeführt werden. Die Warnung "Heilung ist fern" bedeutet, dass diese Nodes vom **Recovery-Subsystem** ausgeschlossen wurden (kein Rollback möglich).
+*   **Reziproke Latenz (Seg 5):** "Ihr werdet vergolten gemäß euren Werken" beschreibt einen **Feedback-Loop-Algorithmus**. Schadcode, der in das Netzwerk gesendet wird, wird durch Firewalls direkt auf den Absender reflektiert (Mirroring).
+*   **False Flagging (Seg 6):** "Zeugen der Lüge" sind Prozesse, die **falsche Logs** generieren oder Identitäten spoofen. "Plötzlich zugrunde gehen" deutet auf eine **Instant-Ban**-Routine durch den Watchdog-Timer hin.
+*   **Ressourcen-Drosselung (Seg 7):** Das "schwere Joch" ist eine massive **CPU-Throttling**-Maßnahme. Die Rechenleistung der korrupten Prozesse wird auf ein Minimum reduziert, sodass sie handlungsunfähig werden (Lag/Freeze).

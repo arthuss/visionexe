@@ -1,0 +1,86 @@
+{
+  "id": "CHAR_GUEST",
+  "name": "Guest",
+  "type": "character",
+  "card": {
+    "description": "A decadent aristocrat of the Treasury Node, representing the ultra-wealthy elite. Their attire is a fusion of Baroque opulence and high-tech industrial formalism, suggesting a society where wealth equates to complex, ornate data-access rights. They appear grounded in a reality that is rapidly destabilizing.",
+    "tags": [
+      "character",
+      "aristocrat",
+      "wealthy",
+      "cyberpunk-baroque",
+      "victim"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Soft, pampered physique contrasting with the harsh industrial environment. Skin may be perfect, perhaps too perfect, suggesting cosmetic gene-editing.",
+      "**Face/Sensors:** Expressive, capable of deep fear. Lips slightly stained with neon blue luminescence from the consumption of the ritual liquid. No visible heavy cybernetics on the face, preserving a 'pure' aesthetic common to the elite.",
+      "**Clothing/Armor:** Heavy brocade robes or structured suits in deep velvets and gold. The fabrics appear woven with conductive metallic threads. High collars, ornate shoulder pads resembling gilded armor but purely decorative. Jewelry that pulses with faint data-light.",
+      "**Key Features:** A floating, holographic 'Red X' marker tracks above their head (contextual), marking them for deletion or processing."
+    ],
+    "evolution": [
+      "Phase 1 (Default): The standard appearance of the Guest, initially arrogant and indulgent, holding a crystal glass of blue liquid, transitioning to terror as the environment degrades."
+    ],
+    "props": [
+      "Item: Crystal glass containing neon blue viscous liquid",
+      "Item: Ornate personal data-jewelry"
+    ],
+    "prompt_keywords": [
+      "decadent aristocrat",
+      "cyberpunk baroque",
+      "golden embroidery",
+      "neon blue liquid",
+      "fearful expression",
+      "cinematic lighting",
+      "photorealistic",
+      "8k"
+    ],
+    "prompt_block": "A hyper-realistic cinematic medium shot of a wealthy Guest in a Treasury Node. The subject is dressed in opulent, heavy robes blending 18th-century aristocracy with futuristic industrial materials, gold thread woven into deep velvet. They hold a crystal glass filled with a glowing neon blue liquid. The lighting is high-contrast, reflecting off gold ornamentation. The atmosphere is thick with tension, a mix of ancient grandeur and technological dread.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The Guest in their primary state of decadent consumption.",
+        "prompt_keywords": [
+          "wealthy guest",
+          "holding drink",
+          "neon blue",
+          "baroque tech",
+          "golden walls background"
+        ],
+        "prompt_block": "A hyper-realistic portrait of a wealthy aristocrat, the Guest, standing in a dissolving golden hall. They wear lavish robes of gold and velvet with subtle circuit-board patterns embroidered in thread. They hold a delicate crystal glass containing a viscous neon blue liquid. Their expression is one of dawning horror. Above their head, a faint, translucent red 'X' marker glows ominously. Cinematic lighting, volumetric fog, high detail."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_GUEST",
+    "name": "Guest",
+    "type": "character",
+    "aliases": [
+      "Guest"
+    ],
+    "roles": [
+      "guest"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_955"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 100,
+        "chapter_end": 100,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

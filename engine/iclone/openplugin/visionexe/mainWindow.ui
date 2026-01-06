@@ -45,6 +45,49 @@
      </item>
     </layout>
    </item>
+   <item>
+    <layout class="QHBoxLayout" name="searchLayout">
+     <item>
+      <widget class="QLineEdit" name="qtActorSearchInput">
+       <property name="placeholderText">
+        <string>Actor name (e.g. vx_henoch_p01)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="qtFindActorBtn">
+       <property name="text">
+        <string>Find Actor</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="pathLayout">
+     <item>
+      <widget class="QLineEdit" name="qtActorPathInput">
+       <property name="placeholderText">
+        <string>Actor/Project path (e.g. C:\Users\sasch\Documents\Avatar(1).ccProject)</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="qtLoadActorPathBtn">
+       <property name="text">
+        <string>Load Path</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="qtScanContentBtn">
+     <property name="text">
+      <string>Scan Content</string>
+      </property>
+    </widget>
+   </item>
   </layout>
  </widget>
  <resources/>

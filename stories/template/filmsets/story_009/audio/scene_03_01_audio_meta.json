@@ -1,0 +1,71 @@
+{
+  "scene": {
+    "act": 3,
+    "scene_id": "3.1",
+    "timecode": "00:44-00:48",
+    "title": "APPEAL TO THE THRONE"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "actor",
+    "shot_type": "medium",
+    "framing": "medium",
+    "environment": "Exosphere",
+    "env_change": true,
+    "actors": [
+      {
+        "name": "Archangel_Unit_Michael",
+        "phase": "Observer",
+        "presence": "on_screen",
+        "focus": "primary"
+      }
+    ],
+    "props": [],
+    "camera": "Low Angle / Slow tilt up",
+    "mood": [
+      "reverent",
+      "anticipatory"
+    ],
+    "director_intent": "The observer turns to the Administrator.",
+    "start_image_keywords": [
+      "camera aperture",
+      "deep space",
+      "divine light"
+    ],
+    "start_image_mode": "actor_in_env",
+    "video_plan": {
+      "start_comp": {},
+      "motion_driver": {},
+      "reference_footage": {},
+      "overlay_badge": {},
+      "provenance": {
+        "source": "ai_assisted"
+      }
+    },
+    "voice_words_max": 0
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_03_01_voice.wav",
+    "target_media": "Media/scene_03_01.mp4",
+    "output": "Media/scene_03_01_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_03_01_avatar_manifest.json",
+    "pose_source": "Media/scene_03_01_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_03_01_avatar_normal.exr",
+      "depth": "Media/scene_03_01_avatar_depth.exr",
+      "motion": "Media/scene_03_01_avatar_motion.exr",
+      "mask": "Media/scene_03_01_avatar_mask.exr"
+    }
+  }
+}

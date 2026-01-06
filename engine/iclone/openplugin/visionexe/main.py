@@ -30,7 +30,7 @@ def _log(msg):
 
 def _safe_message_box(message, title):
     try:
-        RLPy.RUi.ShowMessageBox(message, title, RLPy.EMsgButton_Ok)
+        RLPy.RUi.ShowMessageBox(title, message, RLPy.EMsgButton_Ok)
     except Exception as exc:
         _log(f"{title}: {message} ({exc})")
 
@@ -81,6 +81,90 @@ def _refresh_status():
         pass
 
 
+def _find_actor_clicked():
+    try:
+        import iclone_remote_server
+        if _dialog is None:
+            return
+        input_field = _dialog.findChild(QtWidgets.QLineEdit, "qtActorSearchInput")
+        if input_field is None:
+            _safe_message_box("Actor input field not found.", "VisionExe")
+            return
+        name = input_field.text().strip()
+        if not name:
+            _safe_message_box("Enter an actor name first.", "VisionExe")
+            return
+        roots = iclone_remote_server._get_content_roots(RLPy.ETemplateRootFolder_Character)
+        cm_path = iclone_remote_server._find_actor_in_content_manager(
+            name,
+            include_default=True,
+            include_custom=True,
+        )
+        entry = iclone_remote_server._find_asset_in_index(name, None)
+        index_path = entry.get("abs_path") if entry else None
+        message = (
+            f"Content roots:\nDefault: {roots.get('default')}\nCustom: {roots.get('custom')}\n\n"
+            f"CM match: {cm_path or 'None'}\n"
+            f"Index match: {index_path or 'None'}"
+        )
+        _safe_message_box(message, "Actor Lookup")
+    except Exception as exc:
+        traceback.print_exc()
+        _safe_message_box(f"Actor lookup failed:\n{exc}", "VisionExe")
+
+
+def _scan_content_clicked():
+    try:
+        import iclone_remote_server
+        root_key = iclone_remote_server._resolve_root_key("Character")
+        roots = iclone_remote_server._get_content_roots(root_key)
+        folders = []
+        if roots.get("default"):
+            folders.extend(iclone_remote_server._collect_content_folders(roots["default"], max_folders=50))
+        if roots.get("custom"):
+            folders.extend(iclone_remote_server._collect_content_folders(roots["custom"], max_folders=50))
+        files = iclone_remote_server._collect_content_files(folders, max_files=200)
+        preview = "\n".join(str(item) for item in files[:10]) if files else "None"
+        message = (
+            f"Folders: {len(folders)}\nFiles: {len(files)}\n\n"
+            f"First files:\n{preview}"
+        )
+        _safe_message_box(message, "Content Scan")
+    except Exception as exc:
+        traceback.print_exc()
+        _safe_message_box(f"Content scan failed:\n{exc}", "VisionExe")
+
+
+def _load_actor_path_clicked():
+    try:
+        if _dialog is None:
+            return
+        input_field = _dialog.findChild(QtWidgets.QLineEdit, "qtActorPathInput")
+        if input_field is None:
+            _safe_message_box("Path input field not found.", "VisionExe")
+            return
+        path = input_field.text().strip()
+        if not path:
+            _safe_message_box("Enter a path first.", "VisionExe")
+            return
+        if not Path(path).exists():
+            _safe_message_box(f"Path not found:\n{path}", "VisionExe")
+            return
+        try:
+            suffix = Path(path).suffix.lower()
+            if suffix in {".iproject", ".ccproject"} and hasattr(RLPy.RFileIO, "LoadFile"):
+                RLPy.RFileIO.LoadFile(path)
+            else:
+                RLPy.RFileIO.LoadObject(path, True)
+            _safe_message_box(f"Loaded:\n{path}", "VisionExe")
+        except Exception as exc:
+            traceback.print_exc()
+            _safe_message_box(f"Load failed:\n{exc}", "VisionExe")
+    except Exception as exc:
+        traceback.print_exc()
+        _safe_message_box(f"Load failed:\n{exc}", "VisionExe")
+
+
 def _load_ui():
     ui_path = PLUGIN_DIR / "mainWindow.ui"
     if not ui_path.exists():
@@ -124,6 +208,9 @@ def _create_dialog():
     start_btn = ui_widget.findChild(QtWidgets.QPushButton, "qtStartServerBtn")
     stop_btn = ui_widget.findChild(QtWidgets.QPushButton, "qtStopServerBtn")
     close_btn = ui_widget.findChild(QtWidgets.QPushButton, "qtCloseBtn")
+    find_btn = ui_widget.findChild(QtWidgets.QPushButton, "qtFindActorBtn")
+    scan_btn = ui_widget.findChild(QtWidgets.QPushButton, "qtScanContentBtn")
+    load_path_btn = ui_widget.findChild(QtWidgets.QPushButton, "qtLoadActorPathBtn")
     _status_label = ui_widget.findChild(QtWidgets.QLabel, "qtStatusLabel")
 
     if start_btn:
@@ -132,6 +219,12 @@ def _create_dialog():
         stop_btn.clicked.connect(_stop_server_clicked)
     if close_btn:
         close_btn.clicked.connect(dlg.close)
+    if find_btn:
+        find_btn.clicked.connect(_find_actor_clicked)
+    if scan_btn:
+        scan_btn.clicked.connect(_scan_content_clicked)
+    if load_path_btn:
+        load_path_btn.clicked.connect(_load_actor_path_clicked)
 
     _set_status("Status: stopped")
     return dlg

@@ -364,6 +364,8 @@ CHAPTER RAW TEXT:
 {data.get('raw_text', '')}
 SEGMENT ANALYSIS:
 {segment_analysis_str}
+STORYTELLING Q1/Q2/Q3:
+{data.get('visual_abc', '')}
 
 OUTPUT REQUIREMENTS:
 1. ACTOR IDENTIFICATION: Wer ist in der Szene? Welches Gear?

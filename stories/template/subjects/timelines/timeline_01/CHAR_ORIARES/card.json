@@ -1,0 +1,87 @@
+{
+  "id": "CHAR_ORIARES",
+  "name": "Oriares",
+  "type": "character",
+  "card": {
+    "description": "Oriares is a massive, artificially constructed stellar unit—a contained fusion reactor functioning as a mobile sun. It appears as a perfect sphere of blinding white plasma held in check by a visible, geometric magnetic containment lattice. It represents the pinnacle of industrial mysticism: a celestial body treated as heavy manufacturing inventory, capable of being transported via massive rail systems and dimensional gates.",
+    "tags": [
+      "artificial_sun",
+      "plasma_sphere",
+      "containment_field",
+      "industrial_celestial",
+      "ancient_tech",
+      "luminary_unit"
+    ],
+    "visual_anatomy": [
+      "**Core Form:** A perfect sphere of roiling, blinding white fusion plasma, temperature approx 5778K.",
+      "**Containment Layer:** A glowing, high-contrast hexagonal magnetic net (forcefield) that overlays the plasma surface, visibly pulsing as it suppresses solar flares.",
+      "**Surface Details:** Turbulence beneath the hex-grid, coronal loops trapped by the magnetic geometry, creating a 'caged star' aesthetic.",
+      "**Atmosphere:** Intense heat distortion (shimmering air), blinding bloom, and high-contrast volumetric lighting. Surrounding space is often pitch black due to exposure compensation.",
+      "**Scale:** Massive, comparable to a large building or city block, capable of rolling on titantic industrial rails."
+    ],
+    "evolution": [
+      "Phase 1 (Default): Fully active, generating peak luminosity. The containment net is taut and bright, struggling against the internal pressure."
+    ],
+    "props": [
+      "Magnetic Containment Net (Integrated)",
+      "Titanium Transport Rail (Environmental Context)"
+    ],
+    "prompt_keywords": [
+      "artificial sun",
+      "Oriares",
+      "hexagonal containment field",
+      "white plasma",
+      "industrial mysticism",
+      "magnetic net",
+      "5778K",
+      "glowing sphere",
+      "heat distortion",
+      "cinematic lighting"
+    ],
+    "prompt_block": "cinematic shot of Oriares the artificial sun unit, a massive perfect sphere of blinding 5778K white plasma contained within a visible glowing hexagonal magnetic forcefield net, roiling solar surface, industrial mysticism, ancient technology, heat distortion, high contrast, pitch black void background, 8k, photorealistic, telephoto lens",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Active solar unit with stabilizing hex-grid.",
+        "prompt_keywords": [
+          "active plasma",
+          "stable containment",
+          "white hot",
+          "hex grid"
+        ],
+        "prompt_block": "cinematic shot of Oriares the artificial sun unit, a massive perfect sphere of blinding 5778K white plasma contained within a visible glowing hexagonal magnetic forcefield net, roiling solar surface, industrial mysticism, ancient technology, heat distortion, high contrast, pitch black void background, 8k, photorealistic"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ORIARES",
+    "name": "Oriares",
+    "type": "character",
+    "aliases": [
+      "Oriares"
+    ],
+    "roles": [],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_629"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 78,
+        "chapter_end": 78,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

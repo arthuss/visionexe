@@ -1,0 +1,89 @@
+{
+  "id": "CHAR_MICHAEL",
+  "name": "Michael",
+  "type": "character",
+  "card": {
+    "description": "A towering 8ft archangelic entity, representing the fusion of ancient divinity and advanced surveillance technology. Michael is not flesh, but a construct of prismatic glass and seamless metal, designed for the observation and enforcement of cosmic order. His presence is commanding, strictly symmetrical, and radiates a warm, synthetic golden light.",
+    "tags": [
+      "character",
+      "angel",
+      "sci-fi",
+      "industrial_mysticism",
+      "mechanized_divinity"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Towering 8ft tall frame. Under-structure composed of perfectly polished, seamless golden metallic plates, strictly symmetrical and geometric.",
+      "**Face/Sensors:** A featureless silver face-plate/mask. No mouth or nose. A single, vertical blue slit runs down the center of the face, pulsing with intense light (sensor array).",
+      "**Clothing/Armor:** Prismatic Plate armor overlaid on the golden chassis, made of shifting glass shards that refract environmental light. The armor appears both physical and ephemeral.",
+      "**Key Features:** Gauntleted hands, warm inviting golden light radiating from the core, vertical blue sensor pulse."
+    ],
+    "evolution": [
+      "Phase 1 (Default): The standard angelic form seen guiding Henoch—armored in prismatic glass and gold, face masked by the silver sensor-slit."
+    ],
+    "props": [
+      "Prismatic Plate Armor",
+      "Silver Sensor Mask"
+    ],
+    "prompt_keywords": [
+      "Archangel Michael",
+      "Prismatic Plate Armor",
+      "Silver Mask Vertical Blue Slit",
+      "Towering Sci-Fi Entity",
+      "Industrial Mysticism",
+      "Seamless Golden Metal",
+      "Shifting Glass Shards",
+      "8k",
+      "Cinematic Lighting"
+    ],
+    "prompt_block": "A photorealistic, cinematic medium shot of Archangel Michael, a towering 8ft entity of industrial mysticism. He wears Prismatic Plate armor composed of shifting glass shards over a seamless golden metallic chassis. His face is a featureless smooth silver mask with a single vertical blue slit sensor pulsing with light. Strictly symmetrical and geometric design. Warm golden light radiates from his form. The texture is a mix of polished metal and refractive glass. High contrast, volumetric lighting, 8k resolution, ancient-tech aesthetic.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Towering armored entity, silver mask with blue vertical slit, prismatic glass armor over gold.",
+        "prompt_keywords": [
+          "Prismatic Plate Armor",
+          "Silver Mask Vertical Blue Slit",
+          "Seamless Golden Metal"
+        ],
+        "prompt_block": "A photorealistic, cinematic medium shot of Archangel Michael, a towering 8ft entity of industrial mysticism. He wears Prismatic Plate armor composed of shifting glass shards over a seamless golden metallic chassis. His face is a featureless smooth silver mask with a single vertical blue slit sensor pulsing with light. Strictly symmetrical and geometric design. Warm golden light radiates from his form. The texture is a mix of polished metal and refractive glass. High contrast, volumetric lighting, 8k resolution, ancient-tech aesthetic."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_MICHAEL",
+    "name": "Michael",
+    "type": "character",
+    "aliases": [
+      "Michael"
+    ],
+    "roles": [
+      "angel",
+      "recipient"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_163",
+      "row_392",
+      "row_482",
+      "row_485"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 20,
+        "chapter_end": 68,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+## [CHARACTER] Tsenu (ID: CHAR_TSENU)
+**Description:** A silent, observant entity functioning as a recorder of the forbidden oaths. Tsenu appears as a fusion of statuesque basalt and high-fidelity surveillance technology, bridging the gap between ancient geology and incomprehensible future-tech. The figure possesses a heavy, grounded presence, often motionless, acting as a living archive within the scene.
+**Tags:** #entity #watcher #basalt #gold-circuitry #obsidian-mask #industrial-mysticism #ancient-tech
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** Tall, statuesque physique composed of matte, dark grey basalt-like synthetic skin. The surface is etched with fine, gold-inlaid circuitry that glows faintly with distinct rhythmic pulses.
+*   **Face/Sensors:** The face is a smooth, featureless oval of polished obsidian glass. Behind the glass, faint red lidar arrays and data-stream lights shift deep within, suggesting active scanning without human eyes.
+*   **Clothing/Armor:** Draped in heavy, robe-like garments made of woven fiber-optic cabling and tattered ceremonial linen. The shoulders are adorned with heavy, oxidized copper mantle pieces that resemble ancient Egyptian broad collars but function as heat sinks.
+*   **Key Features:** Floating data-glyphs (Ge'ez script) drift subtly around the head. Hands are multi-jointed manipulators, resembling brass clockwork precision tools rather than organic fingers.
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Default): The entity in its primary observational state. Static, imposing, with internal lights humming at a low, steady frequency. The basalt skin is unmarred, and the copper mantle has a dull patina.
+
+### 3. PROPS & EQUIPMENT
+*   Item: Tablet of Oaths - A thick slab of translucent quartz-glass held in the left hand, scrolling with holographic star charts and binding text.
+*   Item: Stylus - A long, needle-like instrument of tarnished silver connected to the wrist by a thin wire coil.
+
+### 4. AI PROMPT KEYWORDS
+`Tsenu entity`, `basalt skin`, `gold circuitry inlays`, `obsidian face mask`, `woven cable robes`, `oxidized copper mantle`, `ancient-tech fusion`, `cinematic lighting`, `photorealistic texture`, `unreal engine 5 render`, `8k`, `volumetric fog`
+
+### 5. PROMPT BLOCK (T2I)
+Tsenu entity, a statuesque figure made of matte grey basalt with gold circuitry inlays, wearing heavy robes of woven fiber-optic cables and tattered linen. Face is a smooth polished obsidian oval with deep internal red sensor lights. Shoulders bear heavy oxidized copper heat-sink mantles. Ancient industrial aesthetic, cinematic lighting, photorealistic textures, 8k resolution, grounded realism.
+
+### 6. PHASE PROMPTS
+*   **Default:** Tsenu in standard observational mode, basalt skin and obsidian face, holding quartz tablet.
+    Prompt: Tsenu entity, statuesque basalt figure with gold circuitry, smooth obsidian face mask with faint internal red lights. Wearing woven cable robes and oxidized copper mantle. Holding a translucent quartz-glass tablet with holographic Ge'ez text. Standing motionless in a dusty ancient hall. Cinematic lighting, photorealistic, 8k, highly detailed textures.
+    Keywords: holding quartz tablet, observant pose, steady sensor glow
+
+---

@@ -1,0 +1,73 @@
+{
+  "scene": {
+    "act": 2,
+    "scene_id": "2.3",
+    "timecode": "00:24-00:28",
+    "title": "AZAZEL ARCHIVE"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "actor",
+    "shot_type": "close_up",
+    "framing": "close_up",
+    "environment": "The_Forge",
+    "env_change": true,
+    "actors": [
+      {
+        "name": "Azazel",
+        "phase": "Instructor",
+        "presence": "on_screen",
+        "focus": "primary"
+      }
+    ],
+    "props": [
+      "WEAPON_BLUEPRINT"
+    ],
+    "camera": "85mm / Slow motion",
+    "mood": [
+      "industrial",
+      "threatening"
+    ],
+    "director_intent": "Reveal the source of the forbidden technology.",
+    "start_image_keywords": [
+      "welding mask",
+      "holographic blueprint",
+      "sparks"
+    ],
+    "start_image_mode": "actor_in_env",
+    "video_plan": {
+      "start_comp": {},
+      "motion_driver": {},
+      "reference_footage": {},
+      "overlay_badge": {},
+      "provenance": {
+        "source": "ai_assisted"
+      }
+    },
+    "voice_words_max": 0
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_02_03_voice.wav",
+    "target_media": "Media/scene_02_03.mp4",
+    "output": "Media/scene_02_03_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_02_03_avatar_manifest.json",
+    "pose_source": "Media/scene_02_03_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_02_03_avatar_normal.exr",
+      "depth": "Media/scene_02_03_avatar_depth.exr",
+      "motion": "Media/scene_02_03_avatar_motion.exr",
+      "mask": "Media/scene_02_03_avatar_mask.exr"
+    }
+  }
+}

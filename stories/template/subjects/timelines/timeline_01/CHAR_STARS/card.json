@@ -1,0 +1,86 @@
+{
+  "id": "CHAR_STARS",
+  "name": "Stars",
+  "type": "character",
+  "card": {
+    "description": "The Stars are not merely distant celestial bodies but high-luminosity anchor nodes within a planetary-scale atmospheric construct. To the unaided eye, they appear as cold, sparkling points of light set against a deep obsidian void. Under augmented analysis or during specific atmospheric events, they reveal their true nature as vertices in a vast, geodetic control grid—connected by neon-blue vector lines and laser-mapped coordinate systems. They function as the visual interface of the 'Sky Mechanism,' capable of mechanical occlusion where hexagonal segments of the firmament retract like camera irises.",
+    "tags": [
+      "celestial_nodes",
+      "vector_grid",
+      "atmospheric_construct",
+      "ancient_tech",
+      "industrial_firmament"
+    ],
+    "visual_anatomy": [
+      "**Form:** High-intensity points of cold white light, perfectly circular and non-diffracting in vacuum, suggesting artificial emitters rather than fusion bodies.",
+      "**Grid Interconnects:** Visible faint neon-blue vector lines connecting stars, forming complex 3D wireframe polygons reminiscent of CAD software or ancient star charts.",
+      "**Mechanical Context:** The surrounding 'space' occasionally reveals hard-surface edges of hexagonal panels, implying the stars are embedded in a physical dome structure.",
+      "**Key Features:** High contrast between the pitch-black void and the sharp, digital precision of the stellar layout."
+    ],
+    "evolution": [
+      "Phase 1 (Default): The standard appearance, ranging from a naturalistic sparkling night sky to a revealed wireframe analytic overlay used by the Watchers."
+    ],
+    "props": [
+      "Orbital Vectors Overlay",
+      "Laser Grid Projection",
+      "Hexagonal Sky Panels"
+    ],
+    "prompt_keywords": [
+      "vector_lines",
+      "celestial_grid",
+      "CAD_blueprint_sky",
+      "mechanical_firmament",
+      "neon_blue_geometry",
+      "obsidian_void",
+      "industrial_mysticism"
+    ],
+    "prompt_block": "Cinematic shot of the night sky, the stars appearing as intense, cold white distinct nodes connected by faint, glowing neon-blue vector lines forming a complex 3D geodesic grid. The aesthetic is a fusion of ancient astronomical charts and futuristic CAD blueprints. The background is a terrifyingly deep matte black, emphasizing the artificial precision of the constellation network. Hints of hexagonal mechanical seams faintly visible in the negative space. Photorealistic, 8k, sharp focus, technical overlay aesthetic.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The stars visualized as nodes in a high-tech planetary grid.",
+        "prompt_keywords": [
+          "wireframe_constellations",
+          "laser_grid",
+          "deep_space_schematic"
+        ],
+        "prompt_block": "Vertical 9:16 aspect ratio. Low angle view of the night sky where stars are connected by luminous blue wireframe lines, forming a mechanical engine part structure rather than organic constellations. The sky functions as a HUD interface, with data overlays analyzing the stellar geometry. The aesthetic is grounded, industrial sci-fi mixed with mystical geometry. High contrast, deep blacks, sharp glowing lines."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_STARS",
+    "name": "Stars",
+    "type": "character",
+    "aliases": [
+      "Stars"
+    ],
+    "roles": [
+      "natural element"
+    ],
+    "visual_traits": [
+      "sparkling"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_507"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 69,
+        "chapter_end": 69,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

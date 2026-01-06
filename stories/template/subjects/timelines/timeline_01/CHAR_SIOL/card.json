@@ -1,0 +1,86 @@
+{
+  "id": "CHAR_SIOL",
+  "name": "SioL",
+  "type": "character",
+  "card": {
+    "description": "SioL is an enigmatic observer construct, a fusion of geological permanence and high-fidelity surveillance technology. It serves as a silent witness, recording history through a sensor array disguised as a ceremonial mask. The entity appears to be carved from living rock and metal, draped in vestments that blur the line between religious habit and industrial insulation.",
+    "tags": [
+      "character",
+      "ancient-tech",
+      "observer",
+      "construct",
+      "industrial-mysticism"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Tall and gaunt frame, composed of matte black basalt-like segments connected by exposed, fluid-filled copper hydraulics. The posture is rigid and statuesque.",
+      "**Face/Sensors:** The head is a seamless, featureless slab of polished obsidian. Instead of eyes, a single vertical aperture runs down the center of the faceplate, glowing with a faint, pulsing amber light. Sub-surface sensors ripple beneath the glass.",
+      "**Clothing/Armor:** Draped in heavy, layered robes of coarse linen interwoven with metallic threading. Oxidized bronze pauldrons are etched with microscopic circuitry that resembles ancient Ge'ez calligraphy.",
+      "**Key Features:** One hand is replaced by a multi-tool interface, consisting of fine, needle-like manipulators for interacting with ancient interfaces."
+    ],
+    "evolution": [
+      "Phase 1 (Default): The standard operating mode. The obsidian faceplate is dark, reflecting the environment, with the central sensor slit active."
+    ],
+    "props": [
+      "Item: Data-Stela (a stone tablet with holographic overlay)",
+      "Item: Resonance Staff (bronze rod with tuning fork prongs)"
+    ],
+    "prompt_keywords": [
+      "SioL",
+      "ancient-tech construct",
+      "obsidian faceplate",
+      "amber sensor slit",
+      "basalt skin",
+      "oxidized bronze armor",
+      "Ge'ez circuitry",
+      "industrial mysticism",
+      "cinematic lighting",
+      "photorealistic"
+    ],
+    "prompt_block": "Full body shot of SioL, a mysterious ancient-tech observer construct. The figure has a body made of matte basalt stone segments and exposed copper hydraulics, draped in heavy, tattered ceremonial robes with metallic weave. The face is a featureless slab of polished obsidian with a single vertical amber light slit in the center. intricate oxidized bronze armor details etched with glowing Ge'ez glyphs. Atmospheric, dusty lighting, cinematic composition, photorealistic, 8k, tactile textures, serious tone, industrial mysticism.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "SioL in standard observer mode with amber sensor active.",
+        "prompt_keywords": [
+          "active sensor",
+          "amber glow",
+          "standard mode"
+        ],
+        "prompt_block": "Full body shot of SioL, a mysterious ancient-tech observer construct. The figure has a body made of matte basalt stone segments and exposed copper hydraulics, draped in heavy, tattered ceremonial robes with metallic weave. The face is a featureless slab of polished obsidian with a single vertical amber light slit in the center. intricate oxidized bronze armor details etched with glowing Ge'ez glyphs. Atmospheric, dusty lighting, cinematic composition, photorealistic, 8k, tactile textures, serious tone, industrial mysticism."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_SIOL",
+    "name": "SioL",
+    "type": "character",
+    "aliases": [
+      "SioL"
+    ],
+    "roles": [
+      "unknown"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_947"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 99,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

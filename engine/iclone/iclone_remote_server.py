@@ -6,6 +6,7 @@ import os
 import sys
 import threading
 import time
+import queue
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 from typing import Optional
@@ -24,6 +25,9 @@ DEFAULT_KEY_STEP = 1
 DEFAULT_STRENGTH_SCALE = 1.0
 _VIEWPORT_CACHE = {"widget": None, "info": None}
 DEFAULT_REALLUSION_INDEX_PATH = Path("C:/Users/Public/Documents/Reallusion/reallusion_library_index.json")
+_MAIN_THREAD_ID = None
+_MAIN_THREAD_QUEUE = queue.Queue()
+_MAIN_THREAD_TIMER = None
 
 # ... (omitting unchanged constants EFFECTOR_MAP, TRANSITION_TYPE_MAP for brevity, assume they are here) ...
 EFFECTOR_MAP = {
@@ -107,6 +111,54 @@ def _load_qt():
     except ImportError:  # pragma: no cover - fallback if shiboken2 missing
         from shiboken6 import wrapInstance  # type: ignore
     return QtCore, QtGui, QtWidgets, wrapInstance
+
+
+def _is_main_thread():
+    return _MAIN_THREAD_ID is not None and threading.get_ident() == _MAIN_THREAD_ID
+
+
+def _drain_main_thread_queue():
+    processed = 0
+    while True:
+        try:
+            func, event, result = _MAIN_THREAD_QUEUE.get_nowait()
+        except queue.Empty:
+            break
+        try:
+            result["value"] = func()
+        except Exception as exc:
+            result["error"] = str(exc)
+        finally:
+            event.set()
+        processed += 1
+    return processed
+
+
+def _init_main_thread_dispatch():
+    global _MAIN_THREAD_ID, _MAIN_THREAD_TIMER
+    if _MAIN_THREAD_ID is None:
+        _MAIN_THREAD_ID = threading.get_ident()
+    if _MAIN_THREAD_TIMER is None:
+        QtCore, _, _, _ = _load_qt()
+        _MAIN_THREAD_TIMER = QtCore.QTimer()
+        _MAIN_THREAD_TIMER.setInterval(50)
+        _MAIN_THREAD_TIMER.timeout.connect(_drain_main_thread_queue)
+        _MAIN_THREAD_TIMER.start()
+
+
+def _dispatch_main_thread(func, timeout=30.0):
+    if _is_main_thread():
+        return func()
+    if _MAIN_THREAD_ID is None:
+        _init_main_thread_dispatch()
+    event = threading.Event()
+    result = {"value": None, "error": None}
+    _MAIN_THREAD_QUEUE.put((func, event, result))
+    if not event.wait(timeout):
+        raise RuntimeError("Timed out waiting for main-thread dispatch.")
+    if result["error"]:
+        raise RuntimeError(result["error"])
+    return result["value"]
 
 
 def _get_main_window():
@@ -711,10 +763,19 @@ def _quat_from_euler(order, rotation, axis_offsets=None):
     order_enum = _resolve_euler_order(order)
     try:
         maybe = matrix.FromEulerAngle(order_enum, rx, ry, rz)
-        if maybe is not None:
-            matrix = maybe
+        candidate = None
+        if isinstance(maybe, (list, tuple)) and maybe:
+            candidate = maybe[0]
+        elif maybe is not None and hasattr(maybe, "GetRow"):
+            candidate = maybe
+        if candidate is not None:
+            matrix = candidate
     except Exception:
-        matrix = matrix.FromEulerAngle(order_enum, rx, ry, rz)
+        maybe = matrix.FromEulerAngle(order_enum, rx, ry, rz)
+        if isinstance(maybe, (list, tuple)) and maybe:
+            matrix = maybe[0]
+        elif maybe is not None and hasattr(maybe, "GetRow"):
+            matrix = maybe
     quat = RLPy.RQuaternion()
     quat.FromRotationMatrix(matrix)
     offset_quat = _quat_from_axis_offsets(axis_offsets)
@@ -737,8 +798,33 @@ def _load_pose_payload(data):
     return payload
 
 
+def _gather_skeleton_bones(skeleton):
+    if not skeleton:
+        return []
+    methods = ("GetAllAnimationBone", "GetAllBone", "GetAllBoneNodes", "GetBoneNodes")
+    bones = []
+    for method in methods:
+        func = getattr(skeleton, method, None)
+        if func is None:
+            continue
+        try:
+            result = func()
+        except Exception:
+            continue
+        if not result:
+            continue
+        if isinstance(result, (list, tuple)):
+            bones.extend(result)
+            continue
+        try:
+            bones.extend(list(result))
+        except Exception:
+            continue
+    return bones
+
+
 def _build_bone_map(skeleton):
-    bones = skeleton.GetAllAnimationBone() if skeleton else []
+    bones = _gather_skeleton_bones(skeleton)
     bone_map = {}
     for bone in bones:
         try:
@@ -751,21 +837,109 @@ def _build_bone_map(skeleton):
     return bone_map
 
 
-def _resolve_bone_node(bone_name, bone_map):
+def _list_skeleton_bones(skeleton):
+    if not skeleton:
+        return {}
+    methods = ("GetAllAnimationBone", "GetAllBone", "GetAllBoneNodes", "GetBoneNodes")
+    output = {}
+    for method in methods:
+        func = getattr(skeleton, method, None)
+        if func is None:
+            continue
+        try:
+            result = func()
+        except Exception:
+            continue
+        if not result:
+            output[method] = []
+            continue
+        if not isinstance(result, (list, tuple)):
+            try:
+                result = list(result)
+            except Exception:
+                output[method] = []
+                continue
+        names = []
+        for bone in result:
+            try:
+                name = bone.GetName()
+            except Exception:
+                continue
+            if name:
+                names.append(name)
+        output[method] = names
+    return output
+
+
+def _lookup_bone_node(bone_map, bone_name):
     if not bone_name:
         return None
     direct = bone_map.get(bone_name)
     if direct:
         return direct
-    lowered = bone_map.get(str(bone_name).lower())
+    lowered_key = str(bone_name).lower()
+    lowered = bone_map.get(lowered_key)
     if lowered:
         return lowered
-    prefixed = bone_map.get(f"CC_Base_{bone_name}")
-    if prefixed:
-        return prefixed
-    prefixed_lower = bone_map.get(f"cc_base_{str(bone_name).lower()}")
-    if prefixed_lower:
-        return prefixed_lower
+    if not lowered_key.startswith("cc_base_"):
+        prefixed = bone_map.get(f"CC_Base_{bone_name}")
+        if prefixed:
+            return prefixed
+        prefixed_lower = bone_map.get(f"cc_base_{lowered_key}")
+        if prefixed_lower:
+            return prefixed_lower
+    return None
+
+
+def _bone_aliases(bone_name):
+    if not bone_name:
+        return []
+    name = str(bone_name)
+    prefix = ""
+    base = name
+    if name.startswith("CC_Base_"):
+        prefix = "CC_Base_"
+        base = name[len(prefix):]
+    aliases = []
+    for suffix in ("Twist01", "Twist02"):
+        if base.endswith(suffix):
+            aliases.append(prefix + base[: -len(suffix)])
+    if base == "Pelvis":
+        aliases.append(prefix + "Hip")
+    if base.endswith("ShareBone"):
+        trimmed = base[: -len("ShareBone")]
+        aliases.append(prefix + trimmed)
+        if "KneeShareBone" in base:
+            aliases.append(prefix + base.replace("KneeShareBone", "Calf"))
+        if "ElbowShareBone" in base:
+            aliases.append(prefix + base.replace("ElbowShareBone", "Forearm"))
+        if "ToeBaseShareBone" in base:
+            aliases.append(prefix + base.replace("ToeBaseShareBone", "ToeBase"))
+    for toe_suffix in ("BigToe1", "IndexToe1", "MidToe1", "RingToe1", "PinkyToe1"):
+        if base.endswith(toe_suffix):
+            aliases.append(prefix + base.replace(toe_suffix, "ToeBase"))
+    if base.endswith("Eye"):
+        aliases.append(prefix + "Head")
+    for facial in ("FacialBone", "JawRoot", "UpperJaw", "Teeth01", "Teeth02", "Tongue01", "Tongue02", "Tongue03"):
+        if base == facial:
+            aliases.append(prefix + "Head")
+    seen = set()
+    unique = []
+    for alias in aliases:
+        if alias and alias not in seen:
+            unique.append(alias)
+            seen.add(alias)
+    return unique
+
+
+def _resolve_bone_node(bone_name, bone_map):
+    resolved = _lookup_bone_node(bone_map, bone_name)
+    if resolved:
+        return resolved
+    for alias in _bone_aliases(bone_name):
+        resolved = _lookup_bone_node(bone_map, alias)
+        if resolved:
+            return resolved
     return None
 
 
@@ -821,6 +995,11 @@ def _apply_pose_json(
             continue
 
         rotation = bone_data.get("rotation", {}) if isinstance(bone_data, dict) else {}
+        rotation_quat = (
+            bone_data.get("rotation_quat")
+            or bone_data.get("rotation_quaternion")
+            or bone_data.get("rotation_q")
+        ) if isinstance(bone_data, dict) else None
         translation = bone_data.get("translation", {}) if isinstance(bone_data, dict) else {}
         order = bone_data.get("rotation_order") if isinstance(bone_data, dict) else None
 
@@ -831,7 +1010,13 @@ def _apply_pose_json(
                 "axis_offset"
             )
         axis_offsets = axis_overrides or _lookup_axis_offsets(axis_map, axis_map_lower, bone_name, node_name)
-        quat = _quat_from_euler(order, rotation, axis_offsets)
+        if rotation_quat:
+            quat = _quat_from_dict(rotation_quat, RLPy.RQuaternion.IDENTITY)
+            offset_quat = _quat_from_axis_offsets(axis_offsets)
+            if offset_quat is not None:
+                quat = offset_quat.Multiply(quat)
+        else:
+            quat = _quat_from_euler(order, rotation, axis_offsets)
         transform.R().SetX(quat.x)
         transform.R().SetY(quat.y)
         transform.R().SetZ(quat.z)
@@ -860,6 +1045,103 @@ def _apply_pose_json(
         "skipped": skipped,
         "clip_index": int(clip_index) if clip_index is not None else None,
         "time_seconds": time_seconds,
+    }
+
+
+def _capture_pose_json(
+    avatar,
+    time_value,
+    clip_index=None,
+    include_translation=True,
+    include_scale=False,
+    bone_source="animation",
+    include_face=True,
+    include_tongue=True,
+    include_eyes=True,
+    include_twist=True,
+    include_toes=True,
+):
+    if not avatar:
+        return {"ok": False, "error": "Avatar not found."}
+    skeleton = avatar.GetSkeletonComponent()
+    if not skeleton:
+        return {"ok": False, "error": "Skeleton component not found."}
+
+    clip = None
+    if clip_index is not None:
+        try:
+            clip = skeleton.GetClip(int(clip_index))
+        except Exception:
+            clip = None
+    if clip is None:
+        try:
+            clip = skeleton.GetClipByTime(time_value)
+        except Exception:
+            clip = None
+    if clip is None:
+        try:
+            clip = skeleton.GetClip(0)
+        except Exception:
+            clip = None
+    if clip is None:
+        try:
+            clip = skeleton.AddClip(time_value)
+        except Exception:
+            clip = None
+    if clip is None:
+        return {"ok": False, "error": "Unable to resolve motion clip."}
+
+    pose = {}
+    skipped = []
+    seen = set()
+    bones = []
+    if bone_source == "all":
+        bones = _gather_skeleton_bones(skeleton)
+    else:
+        try:
+            bones = list(skeleton.GetAllAnimationBone())
+        except Exception:
+            bones = _gather_skeleton_bones(skeleton)
+    for bone in bones:
+        try:
+            name = bone.GetName()
+        except Exception:
+            continue
+        if not name or name in seen:
+            continue
+        if not _should_capture_bone(
+            name,
+            include_face=include_face,
+            include_tongue=include_tongue,
+            include_eyes=include_eyes,
+            include_twist=include_twist,
+            include_toes=include_toes,
+        ):
+            continue
+        seen.add(name)
+        control = clip.GetControl("Layer", bone)
+        if not control:
+            skipped.append({"bone": name, "reason": "control_missing"})
+            continue
+        transform = RLPy.RTransform()
+        try:
+            control.GetValue(time_value, transform)
+        except Exception as exc:
+            skipped.append({"bone": name, "reason": str(exc)})
+            continue
+        rot = transform.R()
+        entry = {"rotation_quat": _quat_to_dict(rot)}
+        if include_translation:
+            entry["translation"] = _vector3_to_dict(transform.T())
+        if include_scale:
+            entry["scale"] = _vector3_to_dict(transform.S())
+        pose[name] = entry
+
+    return {
+        "ok": True,
+        "pose": pose,
+        "skipped": skipped,
+        "clip_index": int(clip_index) if clip_index is not None else None,
     }
 
 
@@ -1196,6 +1478,70 @@ def _quat_from_dict(data, fallback):
     quat.z = float(data.get("z", fallback.z))
     quat.w = float(data.get("w", fallback.w))
     return quat
+
+
+def _read_component(obj, name, fallback=0.0):
+    for attr in (name, name.upper()):
+        if hasattr(obj, attr):
+            value = getattr(obj, attr)
+            if callable(value):
+                try:
+                    return float(value())
+                except Exception:
+                    pass
+            else:
+                try:
+                    return float(value)
+                except Exception:
+                    pass
+    getter = f"Get{name.upper()}"
+    if hasattr(obj, getter):
+        try:
+            return float(getattr(obj, getter)())
+        except Exception:
+            pass
+    return fallback
+
+
+def _vector3_to_dict(vec):
+    return {
+        "x": _read_component(vec, "x"),
+        "y": _read_component(vec, "y"),
+        "z": _read_component(vec, "z"),
+    }
+
+
+def _quat_to_dict(quat):
+    return {
+        "x": _read_component(quat, "x"),
+        "y": _read_component(quat, "y"),
+        "z": _read_component(quat, "z"),
+        "w": _read_component(quat, "w"),
+    }
+
+
+def _should_capture_bone(
+    name,
+    include_face=True,
+    include_tongue=True,
+    include_eyes=True,
+    include_twist=True,
+    include_toes=True,
+):
+    if not name:
+        return False
+    lowered = name.lower()
+    if not include_face and any(token in lowered for token in ("face", "facial", "jaw", "teeth", "mouth")):
+        return False
+    if not include_tongue and "tongue" in lowered:
+        return False
+    if not include_eyes and "eye" in lowered:
+        return False
+    if not include_twist and any(token in lowered for token in ("twist", "share")):
+        return False
+    if not include_toes and "toe" in lowered:
+        return False
+    return True
 
 
 def _get_object_transform(obj):
@@ -1658,6 +2004,12 @@ class ICloneRemoteHandler(BaseHTTPRequestHandler):
         action = payload.get("action")
         data = payload.get("payload") or {}
 
+        try:
+            return _dispatch_main_thread(lambda: self._handle_action(action, data))
+        except Exception as exc:
+            return self._send_json(500, {"ok": False, "error": str(exc)})
+
+    def _handle_action(self, action, data):
         if action == "ping":
             return self._send_json(200, {"ok": True, "message": "pong"})
 
@@ -1666,6 +2018,16 @@ class ICloneRemoteHandler(BaseHTTPRequestHandler):
 
         if action == "list_cameras":
             return self._send_json(200, {"ok": True, "cameras": _list_camera_names()})
+
+        if action == "list_skeleton_bones":
+            avatar = _find_avatar(data.get("avatar_name"))
+            if not avatar:
+                return self._send_json(404, {"ok": False, "error": "No avatar found."})
+            skeleton = avatar.GetSkeletonComponent()
+            if not skeleton:
+                return self._send_json(404, {"ok": False, "error": "Skeleton component not found."})
+            bones = _list_skeleton_bones(skeleton)
+            return self._send_json(200, {"ok": True, "bones": bones})
 
         if action == "select_avatar":
             avatar = _find_avatar(data.get("name"))
@@ -1732,9 +2094,11 @@ class ICloneRemoteHandler(BaseHTTPRequestHandler):
                     include_default=bool(data.get("include_default", True)),
                     include_custom=bool(data.get("include_custom", True)),
                 )
-        if not abs_path:
-            return self._send_json(404, {"ok": False, "error": f"Actor '{name}' not found in index or content manager."})
-            
+            if not abs_path:
+                return self._send_json(
+                    404, {"ok": False, "error": f"Actor '{name}' not found in index or content manager."}
+                )
+
             try:
                 RLPy.RFileIO.LoadObject(abs_path, True)
                 return self._send_json(200, {"ok": True, "loaded": name, "path": abs_path})
@@ -1864,6 +2228,104 @@ class ICloneRemoteHandler(BaseHTTPRequestHandler):
             bake_fk_to_ik = bool(data.get("bake_fk_to_ik"))
             bake_all = bool(data.get("bake_all"))
             result = _apply_ik_effector_keys(avatar, effector, keys, bake_fk_to_ik, bake_all)
+            status = 200 if result.get("ok") else 400
+            return self._send_json(status, result)
+
+        if action in {"capture_pose_json", "save_pose_preset"}:
+            avatar = _find_avatar(data.get("avatar_name"))
+            if not avatar:
+                return self._send_json(404, {"ok": False, "error": "No avatar found."})
+            time_seconds = data.get("time_seconds")
+            time_value = _time_from_seconds(float(time_seconds)) if time_seconds is not None else RLPy.RGlobal.GetTime()
+            clip_index = data.get("clip_index")
+            include_translation = bool(data.get("include_translation", True))
+            include_scale = bool(data.get("include_scale", False))
+            bone_source = data.get("bone_source") or "animation"
+            include_face = bool(data.get("include_face", False))
+            include_tongue = bool(data.get("include_tongue", False))
+            include_eyes = bool(data.get("include_eyes", False))
+            include_twist = bool(data.get("include_twist", True))
+            include_toes = bool(data.get("include_toes", False))
+            try:
+                capture = _capture_pose_json(
+                    avatar,
+                    time_value,
+                    clip_index=clip_index,
+                    include_translation=include_translation,
+                    include_scale=include_scale,
+                    bone_source=bone_source,
+                    include_face=include_face,
+                    include_tongue=include_tongue,
+                    include_eyes=include_eyes,
+                    include_twist=include_twist,
+                    include_toes=include_toes,
+                )
+            except Exception as exc:
+                return self._send_json(500, {"ok": False, "error": f"capture_pose_json failed: {exc}"})
+            if not capture.get("ok"):
+                return self._send_json(400, capture)
+            pose_payload = {
+                "pose": capture.get("pose", {}),
+                "meta": {
+                    "source": "iclone",
+                    "avatar": avatar.GetName(),
+                    "time_seconds": float(time_seconds) if time_seconds is not None else None,
+                    "clip_index": int(clip_index) if clip_index is not None else None,
+                    "rotation_format": "quaternion",
+                },
+            }
+            output_path = data.get("output_path") or data.get("preset_path")
+            preset_dir = data.get("preset_dir") or data.get("output_dir")
+            preset_name = data.get("preset_name") or data.get("pose_name") or data.get("name")
+            if not output_path and preset_dir and preset_name:
+                output_path = str(Path(preset_dir) / f"{preset_name}.json")
+            if output_path:
+                output_path = str(output_path)
+                _ensure_dir(Path(output_path))
+                Path(output_path).write_text(json.dumps(pose_payload, indent=2), encoding="utf-8")
+                return self._send_json(200, {
+                    "ok": True,
+                    "output_path": output_path,
+                    "bone_count": len(pose_payload["pose"]),
+                    "skipped": capture.get("skipped", []),
+                })
+            return self._send_json(200, {
+                "ok": True,
+                "pose": pose_payload,
+                "bone_count": len(pose_payload["pose"]),
+                "skipped": capture.get("skipped", []),
+            })
+
+        if action == "apply_pose_preset":
+            payload_data = dict(data)
+            if payload_data.get("preset_path") and not payload_data.get("pose_path"):
+                payload_data["pose_path"] = payload_data.get("preset_path")
+            avatar = _find_avatar(payload_data.get("avatar_name"))
+            if not avatar:
+                return self._send_json(404, {"ok": False, "error": "No avatar found."})
+            pose_payload = _load_pose_payload(payload_data)
+            time_seconds = payload_data.get("time_seconds")
+            time_value = _time_from_seconds(float(time_seconds)) if time_seconds is not None else RLPy.RGlobal.GetTime()
+            clip_index = payload_data.get("clip_index", 0)
+            apply_root_translation = bool(payload_data.get("apply_root_translation", True))
+            axis_rotation_map = payload_data.get("axis_rotation_map")
+            axis_rotation_path = payload_data.get("axis_rotation_path")
+            joint_map = payload_data.get("joint_map")
+            joint_map_path = payload_data.get("joint_map_path") or payload_data.get("mapping_path")
+            try:
+                result = _apply_pose_json(
+                    avatar,
+                    pose_payload,
+                    time_value,
+                    clip_index=clip_index,
+                    apply_root_translation=apply_root_translation,
+                    axis_rotation_map=axis_rotation_map,
+                    axis_rotation_path=axis_rotation_path,
+                    joint_map=joint_map,
+                    joint_map_path=joint_map_path,
+                )
+            except Exception as exc:
+                return self._send_json(500, {"ok": False, "error": f"apply_pose_preset failed: {exc}"})
             status = 200 if result.get("ok") else 400
             return self._send_json(status, result)
 
@@ -2306,6 +2768,8 @@ class ICloneRemoteHandler(BaseHTTPRequestHandler):
                     return self._send_json(400, {"ok": False, "error": str(exc)})
             return self._send_json(400, {"ok": False, "error": "Unknown md_action command (use md_start/md_stop)."})
 
+        return self._send_json(400, {"ok": False, "error": f"Unknown action: {action}"})
+
     def log_message(self, format, *args):
         return
 
@@ -2319,6 +2783,7 @@ def start_server(host=DEFAULT_HOST, port=DEFAULT_PORT):
         return _SERVER_INSTANCE, None
 
     try:
+        _init_main_thread_dispatch()
         server = HTTPServer((host, port), ICloneRemoteHandler)
         thread = threading.Thread(target=server.serve_forever, daemon=True)
         thread.start()

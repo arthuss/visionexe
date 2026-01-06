@@ -1,0 +1,29 @@
+## [CHARACTER] Tesefhew (ID: CHAR_TESEFHEW)
+**Description:** A venerated archivist of the middle-period, bridging the gap between neolithic tradition and the sudden influx of Watcher technology. Tesefhew serves as a custodian of the 'Living Records,' wearing garments that function as data-storage substrates. His aesthetic characterizes the uneasy integration of divine machinery into human society—functional, ritualistic, and heavy with purpose. He carries the weight of history literally on his shoulders.
+**Tags:** #character #archivist #ancient-tech #ethiopian #elder #scribe
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** Elderly male, gaunt frame, dark umber skin with deep topographic wrinkles, white beard braided with copper filaments.
+*   **Face/Sensors:** Eyes show signs of extensive exposure to high-energy readouts; wearing a 'Sight-Stone' (a crude, monocle-like distinct augmented reality lens held in a bronze wire frame) over the left eye.
+*   **Clothing/Armor:** Heavy woven linen robes in ochre and indigo. The fabric is interthreaded with dull gold circuitry traces. A heavy mantle (yolk) made of basalt and gold sits on his shoulders, serving as a portable power source and data bank.
+*   **Key Features:** Fingers are stained with ink and dielectric grease. He moves with the slow, deliberate pace of someone carrying fragile, dangerous knowledge.
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Default): The Archivist at work. Fully adorned in ceremonial yet functional data-keeping attire. The 'Sight-Stone' is active, glowing faintly.
+
+### 3. PROPS & EQUIPMENT
+*   Item: Stylus-Wand (Obsidian shaft with a glowing diamond tip for etching light into stone)
+*   Item: Memory-Slate (A slab of dark slate that displays shifting holographic glyphs on its surface)
+
+### 4. AI PROMPT KEYWORDS
+`Tesefhew`, `ancient archivist`, `Ethiopian elder`, `cybernetic robes`, `bronze punk`, `basalt tech`, `cinematic lighting`, `hyperrealistic`, `8k`, `Arri Alexa`
+
+### 5. PROMPT BLOCK (T2I)
+Cinematic medium shot of Tesefhew, an elderly Ethiopian archivist from an ancient high-tech civilization. He has dark, weathered skin and a white beard braided with copper wires. He wears heavy ochre linen robes interwoven with dull gold circuitry patterns. Over his left eye is a primitive bronze-rimmed augmented reality lens. He wears a heavy basalt and gold mantle on his shoulders. He holds a dark slate tablet emitting faint holographic glyphs. The lighting is moody, chiaroscuro, illuminating the texture of the fabric and the weathered skin. Background is a dimly lit stone temple archive with floating dust motes. Photorealistic, 8k, unreal engine 5 render style, tactile texture.
+
+### 6. PHASE PROMPTS
+*   **Default:** Tesefhew in his standard archivist attire with active tech-integration.
+    Prompt: Cinematic medium shot of Tesefhew, an elderly Ethiopian archivist from an ancient high-tech civilization. He has dark, weathered skin and a white beard braided with copper wires. He wears heavy ochre linen robes interwoven with dull gold circuitry patterns. Over his left eye is a primitive bronze-rimmed augmented reality lens. He wears a heavy basalt and gold mantle on his shoulders. He holds a dark slate tablet emitting faint holographic glyphs. The lighting is moody, chiaroscuro, illuminating the texture of the fabric and the weathered skin. Background is a dimly lit stone temple archive with floating dust motes. Photorealistic, 8k, unreal engine 5 render style, tactile texture.
+    Keywords: archivist, working, tablet, lens
+
+---

@@ -1,0 +1,10 @@
+## [STATE] Stars :: Default
+**State ID:** default
+**Chapters:** 69 - 69
+
+**Phase Summary:** The stars visualized as nodes in a high-tech planetary grid.
+**Phase Keywords:** wireframe_constellations, laser_grid, deep_space_schematic
+**Phase Prompt:**
+Vertical 9:16 aspect ratio. Low angle view of the night sky where stars are connected by luminous blue wireframe lines, forming a mechanical engine part structure rather than organic constellations. The sky functions as a HUD interface, with data overlays analyzing the stellar geometry. The aesthetic is grounded, industrial sci-fi mixed with mystical geometry. High contrast, deep blacks, sharp glowing lines.
+
+---

@@ -1,0 +1,73 @@
+{
+  "scene": {
+    "act": 1,
+    "scene_id": "1.2",
+    "timecode": "00:04-00:08",
+    "title": "THE FOUR NODES"
+  },
+  "actor": "henoch",
+  "regie": {
+    "subject": "mixed",
+    "shot_type": "wide",
+    "framing": "wide",
+    "environment": "Exosphere_Station_Alpha",
+    "env_change": false,
+    "actors": [
+      {
+        "name": "The_Four_Watchers",
+        "phase": "Observer",
+        "presence": "on_screen",
+        "focus": "primary"
+      }
+    ],
+    "props": [
+      "DATA_STREAM_CABLES"
+    ],
+    "camera": "35mm / Top-Down View",
+    "mood": [
+      "technological",
+      "divine"
+    ],
+    "director_intent": "Show the network connection between the entities.",
+    "start_image_keywords": [
+      "four pillars of light",
+      "fiber optic cables",
+      "earth background"
+    ],
+    "start_image_mode": "composite",
+    "video_plan": {
+      "start_comp": {},
+      "motion_driver": {},
+      "reference_footage": {},
+      "overlay_badge": {},
+      "provenance": {
+        "source": "ai_assisted"
+      }
+    },
+    "voice_words_max": 0
+  },
+  "music_automation": null,
+  "zeta_dynamic_edits": {
+    "edits": []
+  },
+  "spot_fx": {},
+  "facesync": {
+    "enabled": false,
+    "method": "none",
+    "source_audio": "Media/scene_01_02_voice.wav",
+    "target_media": "Media/scene_01_02.mp4",
+    "output": "Media/scene_01_02_avatar.mp4"
+  },
+  "gbuffer": {
+    "enabled": false,
+    "manifest": "Media/scene_01_02_avatar_manifest.json",
+    "pose_source": "Media/scene_01_02_bodytrack.txt",
+    "pose_source_type": "maxine_bodytrack_txt",
+    "passes": {
+      "normal": "Media/scene_01_02_avatar_normal.exr",
+      "depth": "Media/scene_01_02_avatar_depth.exr",
+      "motion": "Media/scene_01_02_avatar_motion.exr",
+      "mask": "Media/scene_01_02_avatar_mask.exr"
+    }
+  }
+}

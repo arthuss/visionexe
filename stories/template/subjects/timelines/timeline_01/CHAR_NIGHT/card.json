@@ -1,0 +1,86 @@
+{
+  "id": "CHAR_NIGHT",
+  "name": "Night",
+  "type": "character",
+  "card": {
+    "description": "The nocturnal state of the firmament, functioning not merely as the absence of light but as a concealing interface for celestial mechanics. A deep, obsidian void occasionally interrupted by digital artifacts, glitching starfields, and the unseen pressure of descending entities. It acts as a pressurized dome over the ancient world, exhibiting traits of a corrupted simulation.",
+    "tags": [
+      "environment",
+      "celestial",
+      "atmosphere",
+      "ancient-tech",
+      "abstract"
+    ],
+    "visual_anatomy": [
+      "**Firmament:** Deepest obsidian black, exhibiting a subtle, synthetic texture like a turned-off screen or interference pattern rather than organic empty space.",
+      "**Starfield:** Cold white pinpricks arranged with suspicious mathematical precision. Occasional clusters flicker in unison or exhibit 'dead pixel' rectangular voids.",
+      "**Atmosphere:** Thick, particulate-heavy darkness. Light sources (moon, stars) create sharp, volumetric beams through the suspended dust.",
+      "**Anomalies:** Faint, momentary wireframe grid overlays visible in the zenith, suggesting a failing cloaking render or dimensional stress."
+    ],
+    "evolution": [
+      "Phase 1 (Default): The quiescent but tension-filled night sky, characterized by deep blacks and subtle digital imperfections in the starfield."
+    ],
+    "props": [
+      "Artifact: Dead Pixel Cluster (Black rectangular voids in the stars)",
+      "Phenomenon: Wireframe Sky Grid (Faint blue overlay)",
+      "Atmosphere: Volumetric Moonbeams"
+    ],
+    "prompt_keywords": [
+      "obsidian void",
+      "glitching stars",
+      "digital firmament",
+      "ancient night",
+      "wireframe anomaly",
+      "volumetric darkness"
+    ],
+    "prompt_block": "Cinematic night sky over ancient desert terrain, deep velvet blackness, stars appearing as cold data points, a subtle digital glitch tearing through the Milky Way like a corrupt video file, dead pixel artifacts in the upper atmosphere, faint blue wireframe grid visible in the zenith, volumetric lighting from a cold moon cutting through heavy dust, photorealistic 8k, Unreal Engine 5 render, ominous atmosphere.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The standard night sky, heavy with anticipation and subtle technological glitches.",
+        "prompt_keywords": [
+          "obsidian sky",
+          "glitch stars",
+          "ancient desert night",
+          "dead pixels"
+        ],
+        "prompt_block": "Cinematic low angle shot of the night sky, deep obsidian void, stars arranged in rigid constellations, a single horizontal dead pixel line cutting across the moon, faint digital noise in the dark gradients, heavy volumetric atmosphere over ancient ruins, photorealistic 8k, mysterious and oppressive."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_NIGHT",
+    "name": "Night",
+    "type": "character",
+    "aliases": [
+      "Night"
+    ],
+    "roles": [
+      "celestial body"
+    ],
+    "visual_traits": [
+      "dark"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_561"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 72,
+        "chapter_end": 72,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+## [STATE] mighbari :: Default
+**State ID:** default
+**Chapters:** 100 - 100
+
+**Phase Summary:** Standard appearance as the Master Builder/Engineer.
+**Phase Keywords:** Mighbari, neutral expression, standing, bronze tools
+**Phase Prompt:**
+Full body shot of Mighbari, a master ancient-tech engineer. Deep umber skin with metallic scarification on jaw. He wears heavy charcoal linen robes under a leather and oxidized bronze industrial apron. Articulated basalt plates on shoulders. Standing in a dimly lit, cavernous temple-factory. Cinematic lighting, volumetric atmosphere, 8k resolution, photorealistic, textures of rough stone and cold metal.
+
+---
