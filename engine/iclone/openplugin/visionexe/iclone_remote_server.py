@@ -28,6 +28,7 @@ DEFAULT_REALLUSION_INDEX_PATH = Path("C:/Users/Public/Documents/Reallusion/reall
 _MAIN_THREAD_ID = None
 _MAIN_THREAD_QUEUE = queue.Queue()
 _MAIN_THREAD_TIMER = None
+UI_AUTOMATION_ENABLED = True
 
 # ... (omitting unchanged constants EFFECTOR_MAP, TRANSITION_TYPE_MAP for brevity, assume they are here) ...
 EFFECTOR_MAP = {
@@ -99,6 +100,12 @@ def _safe_call(func, default=None):
         return func()
     except Exception:
         return default
+
+
+def _require_ui_automation():
+    if not UI_AUTOMATION_ENABLED:
+        return {"ok": False, "error": "UI automation disabled (enable ui_automation.enabled in iclone_config.json)."}
+    return None
 
 
 def _load_qt():
@@ -1017,10 +1024,10 @@ def _apply_pose_json(
                 quat = offset_quat.Multiply(quat)
         else:
             quat = _quat_from_euler(order, rotation, axis_offsets)
-        transform.R().SetX(quat.x)
-        transform.R().SetY(quat.y)
-        transform.R().SetZ(quat.z)
-        transform.R().SetW(quat.w)
+        _set_component(transform.R(), "x", _read_component(quat, "x"))
+        _set_component(transform.R(), "y", _read_component(quat, "y"))
+        _set_component(transform.R(), "z", _read_component(quat, "z"))
+        _set_component(transform.R(), "w", _read_component(quat, "w"))
 
         if apply_root_translation or bone_name.lower() == "hips":
             tx = _to_float(translation.get("x"), 0.0)
@@ -1205,19 +1212,74 @@ def _get_md_props():
 def _list_md_props():
     entries = []
     for prop in _get_md_props():
-        entry = {
-            "name": prop.GetName(),
-            "id": prop.GetID(),
-            "type": int(prop.GetType()),
-            "enable_follow_mode": _safe_call(prop.IsEnableFollowMode),
-            "changed_follow_object": _safe_call(prop.IsChangedFollowObject),
-        }
-        try:
-            entry["tag_ratio_map"] = prop.GetTagRatioMap().asdict()
-        except Exception:
-            entry["tag_ratio_map"] = {}
-        entries.append(entry)
+        entries.append(_md_prop_info(prop))
     return entries
+
+
+def _md_prop_info(prop):
+    entry = {
+        "name": prop.GetName(),
+        "id": prop.GetID(),
+        "type": int(prop.GetType()),
+        "enable_follow_mode": _safe_call(prop.IsEnableFollowMode),
+        "changed_follow_object": _safe_call(prop.IsChangedFollowObject),
+        "world_transform": _get_object_transform(prop),
+    }
+    try:
+        entry["tag_ratio_map"] = prop.GetTagRatioMap().asdict()
+    except Exception:
+        entry["tag_ratio_map"] = {}
+    return entry
+
+
+def _find_md_prop(identifier):
+    if identifier is None:
+        return None
+    target = str(identifier).strip().lower()
+    if not target:
+        return None
+    for prop in _get_md_props():
+        if str(prop.GetID()) == target:
+            return prop
+        if prop.GetName().strip().lower() == target:
+            return prop
+    return None
+
+
+def _find_md_prop_in_content_manager(name, prefer_ext=None, include_default=True, include_custom=True):
+    name_lower = str(name).strip().lower()
+    if not name_lower:
+        return None
+    prefer_ext = prefer_ext or ".imdprop"
+    matches = []
+    files = _iter_content_files(
+        RLPy.ETemplateRootFolder_MotionDirector,
+        include_default=include_default,
+        include_custom=include_custom,
+    )
+    for file_path in files:
+        if not file_path:
+            continue
+        candidate = Path(str(file_path))
+        if candidate.stem.lower() == name_lower or candidate.name.lower() == name_lower:
+            if prefer_ext and candidate.suffix.lower() != prefer_ext:
+                matches.append(candidate)
+                continue
+            return str(candidate)
+    if prefer_ext:
+        for candidate in matches:
+            if candidate.suffix.lower() == prefer_ext:
+                return str(candidate)
+    if matches:
+        return str(matches[0])
+    return None
+
+
+def _load_md_prop_asset(path):
+    before_ids = {prop.GetID() for prop in _get_md_props()}
+    RLPy.RFileIO.LoadObject(path, True)
+    new_props = [prop for prop in _get_md_props() if prop.GetID() not in before_ids]
+    return new_props
 
 
 def _resolve_md_props(names):
@@ -1459,24 +1521,49 @@ def _apply_ik_effector_keys(avatar, effector_name, keys, bake_fk_to_ik, bake_all
     return {"ok": True, "applied_keys": applied, "effector": effector_name}
 
 
+def _set_component(obj, axis, value):
+    setter = f"Set{axis.upper()}"
+    if hasattr(obj, setter):
+        try:
+            getattr(obj, setter)(float(value))
+            return True
+        except Exception:
+            pass
+    for attr in (axis, axis.upper()):
+        if hasattr(obj, attr):
+            try:
+                setattr(obj, attr, float(value))
+                return True
+            except Exception:
+                pass
+    return False
+
+
 def _vector3_from_dict(data, fallback):
     if not data:
         return fallback
-    vec = RLPy.RVector3(fallback.x, fallback.y, fallback.z)
+    fx = _read_component(fallback, "x")
+    fy = _read_component(fallback, "y")
+    fz = _read_component(fallback, "z")
+    vec = RLPy.RVector3(fx, fy, fz)
     for axis in ("x", "y", "z"):
         if axis in data:
-            setattr(vec, axis, float(data[axis]))
+            _set_component(vec, axis, data[axis])
     return vec
 
 
 def _quat_from_dict(data, fallback):
     if not data:
         return fallback
+    fx = _read_component(fallback, "x")
+    fy = _read_component(fallback, "y")
+    fz = _read_component(fallback, "z")
+    fw = _read_component(fallback, "w")
     quat = RLPy.RQuaternion()
-    quat.x = float(data.get("x", fallback.x))
-    quat.y = float(data.get("y", fallback.y))
-    quat.z = float(data.get("z", fallback.z))
-    quat.w = float(data.get("w", fallback.w))
+    _set_component(quat, "x", data.get("x", fx))
+    _set_component(quat, "y", data.get("y", fy))
+    _set_component(quat, "z", data.get("z", fz))
+    _set_component(quat, "w", data.get("w", fw))
     return quat
 
 
@@ -1550,9 +1637,9 @@ def _get_object_transform(obj):
     rot = transform.R()
     scale = transform.S()
     return {
-        "position": {"x": pos.x, "y": pos.y, "z": pos.z},
-        "rotation": {"x": rot.x, "y": rot.y, "z": rot.z, "w": rot.w},
-        "scale": {"x": scale.x, "y": scale.y, "z": scale.z},
+        "position": _vector3_to_dict(pos),
+        "rotation": _quat_to_dict(rot),
+        "scale": _vector3_to_dict(scale),
     }
 
 
@@ -1650,9 +1737,9 @@ def _get_camera_info(camera):
     return {
         "name": camera.GetName(),
         "transform": {
-            "position": {"x": pos.x, "y": pos.y, "z": pos.z},
-            "rotation": {"x": rot.x, "y": rot.y, "z": rot.z, "w": rot.w},
-            "scale": {"x": scale.x, "y": scale.y, "z": scale.z},
+            "position": _vector3_to_dict(pos),
+            "rotation": _quat_to_dict(rot),
+            "scale": _vector3_to_dict(scale),
         },
         "focal_length": camera.GetFocalLength(time),
         "angle_of_view": camera.GetAngleOfView(time),
@@ -2486,9 +2573,75 @@ class ICloneRemoteHandler(BaseHTTPRequestHandler):
         if action == "list_md_props":
             return self._send_json(200, {"ok": True, "props": _list_md_props()})
 
+        if action == "md_prop_info":
+            identifier = data.get("id") or data.get("name")
+            prop = _find_md_prop(identifier)
+            if not prop:
+                return self._send_json(404, {"ok": False, "error": "MD prop not found."})
+            return self._send_json(200, {"ok": True, "prop": _md_prop_info(prop)})
+
+        if action == "md_create_prop":
+            path = data.get("path")
+            name = data.get("name")
+            prefer_ext = data.get("prefer_ext") or data.get("prefer")
+            include_default = bool(data.get("include_default", True))
+            include_custom = bool(data.get("include_custom", True))
+            if not path and name:
+                path = _find_md_prop_in_content_manager(
+                    name,
+                    prefer_ext=str(prefer_ext).lower() if prefer_ext else None,
+                    include_default=include_default,
+                    include_custom=include_custom,
+                )
+            if not path:
+                return self._send_json(404, {"ok": False, "error": "MD prop asset not found."})
+            try:
+                new_props = _load_md_prop_asset(path)
+            except Exception as exc:
+                return self._send_json(500, {"ok": False, "error": f"Failed to load MD prop: {exc}"})
+            if not new_props:
+                return self._send_json(500, {"ok": False, "error": "MD prop did not register in scene."})
+            prop = new_props[-1]
+            rename = data.get("rename") or data.get("set_name")
+            if rename:
+                try:
+                    prop.SetName(str(rename))
+                except Exception:
+                    pass
+            transform_data = data.get("transform") or data
+            if any(key in transform_data for key in ("position", "translation", "rotation", "scale")):
+                _set_object_transform(prop, transform_data)
+            return self._send_json(
+                200,
+                {
+                    "ok": True,
+                    "path": path,
+                    "prop": _md_prop_info(prop),
+                    "created": [p.GetName() for p in new_props],
+                },
+            )
+
+        if action == "md_set_prop_transform":
+            identifier = data.get("id") or data.get("name")
+            prop = _find_md_prop(identifier)
+            if not prop:
+                return self._send_json(404, {"ok": False, "error": "MD prop not found."})
+            result = _set_object_transform(prop, data.get("transform") or data)
+            status = 200 if result.get("ok") else 400
+            result["prop"] = _md_prop_info(prop)
+            return self._send_json(status, result)
+
         if action == "md_status":
             md = RLPy.RGlobal.GetMotionDirector()
-            return self._send_json(200, {"ok": True, "running": md.IsRunning(), "ready": md.IsReady()})
+            return self._send_json(
+                200,
+                {
+                    "ok": True,
+                    "running": md.IsRunning(),
+                    "ready": md.IsReady(),
+                    "ui_automation": UI_AUTOMATION_ENABLED,
+                },
+            )
 
         if action == "md_viewport_info":
             hint = data.get("viewport_hint")
@@ -2517,6 +2670,9 @@ class ICloneRemoteHandler(BaseHTTPRequestHandler):
                 md = RLPy.RGlobal.GetMotionDirector()
                 if not md.IsRunning():
                     md.Start()
+            guard = _require_ui_automation()
+            if guard:
+                return self._send_json(403, guard)
             target = str(data.get("target") or "viewport").lower()
             hint = data.get("viewport_hint")
             if target == "main":
@@ -2559,6 +2715,9 @@ class ICloneRemoteHandler(BaseHTTPRequestHandler):
                 md = RLPy.RGlobal.GetMotionDirector()
                 if not md.IsRunning():
                     md.Start()
+            guard = _require_ui_automation()
+            if guard:
+                return self._send_json(403, guard)
             hint = data.get("viewport_hint")
             widget, info = _resolve_viewport_widget(force=bool(data.get("force_refresh")), hint=hint)
             if not widget or not info:
@@ -2587,6 +2746,9 @@ class ICloneRemoteHandler(BaseHTTPRequestHandler):
                 md = RLPy.RGlobal.GetMotionDirector()
                 if not md.IsRunning():
                     md.Start()
+            guard = _require_ui_automation()
+            if guard:
+                return self._send_json(403, guard)
             hint = data.get("viewport_hint")
             widget, info = _resolve_viewport_widget(force=bool(data.get("force_refresh")), hint=hint)
             if not widget or not info:
@@ -2624,6 +2786,9 @@ class ICloneRemoteHandler(BaseHTTPRequestHandler):
                 md = RLPy.RGlobal.GetMotionDirector()
                 if not md.IsRunning():
                     md.Start()
+            guard = _require_ui_automation()
+            if guard:
+                return self._send_json(403, guard)
             hint = data.get("viewport_hint")
             widget, info = _resolve_viewport_widget(force=bool(data.get("force_refresh")), hint=hint)
             if not widget or not info:
@@ -2820,10 +2985,22 @@ def main():
     remote_cfg = config.get("remote", {})
     host = os.environ.get("ICLONE_REMOTE_HOST", remote_cfg.get("host", DEFAULT_HOST))
     port = _to_int(os.environ.get("ICLONE_REMOTE_PORT", remote_cfg.get("port", DEFAULT_PORT)), DEFAULT_PORT)
+    ui_cfg = config.get("ui_automation", {})
+    ui_enabled = True
+    if isinstance(ui_cfg, dict):
+        ui_enabled = bool(ui_cfg.get("enabled", True))
+    else:
+        ui_enabled = bool(ui_cfg)
+    env_ui = os.environ.get("ICLONE_UI_AUTOMATION")
+    if env_ui is not None:
+        ui_enabled = str(env_ui).strip().lower() in {"1", "true", "yes", "on"}
+    global UI_AUTOMATION_ENABLED
+    UI_AUTOMATION_ENABLED = ui_enabled
     
     server, thread = start_server(host, port)
     if server:
         print(f"[iClone Remote] Listening on http://{host}:{port} (config: {config_path})")
+        print(f"[iClone Remote] UI automation {'enabled' if UI_AUTOMATION_ENABLED else 'disabled'}.")
     else:
         print("[iClone Remote] Could not start server. Check logs/console.")
     

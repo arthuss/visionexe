@@ -105,6 +105,11 @@ Reallusion library:
 - Defaults to `C:\Users\Public\Documents\Reallusion` (override with `--library-root` or `REALLUSION_LIBRARY_ROOT`).
 - Output defaults to `<library-root>/reallusion_library_index.json`.
 
+RLPy hidden API:
+- The local `RLPy.py` files are the authoritative API surface for CC4/iClone.
+- Use `engine/tools/rlpy_api_finder.py` for quick symbol searches.
+- Notes and examples in `docs/rlpy_hidden_api.md`.
+
 iClone bridge:
 - Install the VisionExe OpenPlugin folder (`engine/iclone/openplugin/visionexe`) into iClone's OpenPlugin path and start the server from **Plugins > VisionExe > Open VisionExe Panel**.
 - Refresh an existing install with `engine/launchers/Install-iCloneOpenPlugin.ps1 -Mode Copy -Force`.
@@ -117,7 +122,8 @@ iClone bridge:
 - Use `debug_actor_lookup` to see which source is resolving a name (see `docs/iclone_bridge.md`).
 - Use `content_manager_scan` to enumerate CM folders/files when debugging missing actors (see `docs/iclone_bridge.md`).
 - `engine/workers/iclone_lipsync_runner.py` runs a full audio->clip->iTalk pass (LoadVocal or A2F JSON).
-- Usage notes (including MD UI waypoint injection) in `docs/iclone_bridge.md`.
+- UI automation (viewport clicks/hotkeys) is disabled by default; enable `ui_automation.enabled` in `iclone_config.json` or set `ICLONE_UI_AUTOMATION=1`.
+- Usage notes (including MD prop creation/triggering and UI injection) in `docs/iclone_bridge.md`.
 
 Character Creator (Headshot automation):
 - Load `engine/character_creator/cc_file_watcher.py` via **Script > Load Python Script** (runs in CC4 main thread).

@@ -23,6 +23,9 @@ DEFAULT_CONFIG = {
         "max_files": None,
         "output_path": None,
     },
+    "ui_automation": {
+        "enabled": False,
+    },
 }
 
 

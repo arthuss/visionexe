@@ -23,6 +23,10 @@ Environment overrides (optional):
 Config file (edit after install or override via `ICLONE_CONFIG_PATH`):
 - `C:\Program Files\Reallusion\iClone 8\Bin64\OpenPlugin\visionexe\iclone_config.json`
 
+UI automation (viewport clicks/keyboard injection) is disabled by default. Enable it in
+`iclone_config.json` under `ui_automation.enabled` or set `ICLONE_UI_AUTOMATION=1`
+before starting the server.
+
 Reallusion index path (optional):
 - `reallusion_index_path` defaults to `C:/Users/Public/Documents/Reallusion/reallusion_library_index.json`.
 - Override via `REALLUSION_INDEX_PATH` or per-request `index_path`.
@@ -362,7 +366,27 @@ python engine/workers/iclone_remote_client.py --action md_stop
 List MD props:
 
 ```powershell
-python engine/workers/iclone_remote_client.py --action md_list_props
+python engine/workers/iclone_remote_client.py --action list_md_props
+```
+
+Create or place an MD prop (Content Manager lookup + transform):
+
+```powershell
+$payload = @{
+  name = "Actionable"
+  position = @{ x = 0; y = 0; z = 0 }
+} | ConvertTo-Json -Compress
+python engine/workers/iclone_remote_client.py --action md_create_prop --payload $payload
+```
+
+Update an existing MD prop transform:
+
+```powershell
+$payload = @{
+  name = "Actionable"
+  position = @{ x = 0; y = 0; z = 50 }
+} | ConvertTo-Json -Compress
+python engine/workers/iclone_remote_client.py --action md_set_prop_transform --payload $payload
 ```
 
 Begin + end command (target specific MD props by name/id):
@@ -424,6 +448,8 @@ python engine/workers/iclone_remote_client.py --action md_click_screen --payload
   \"modifiers\":[\"alt\"]
 }"
 ```
+
+Note: UI injection requires `ui_automation.enabled=true` in `iclone_config.json`.
 
 Keyboard injection (MD hotkeys):
 
