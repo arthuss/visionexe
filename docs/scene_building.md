@@ -87,6 +87,8 @@ Non-dynamic subjects: generate reference images + masks only.
   - using the new angle as the next start image
 - This creates natural cut transitions without re-rolling the scene.
 - The Drehbuch agent must be told these regie tools explicitly.
+- Use the Motion Director 3-phase flow (setup -> record -> render) for iClone takes
+  so timeline motion stays deterministic.
 
 ## 5) Audio pipeline (no gaps)
 

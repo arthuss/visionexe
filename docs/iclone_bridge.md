@@ -363,6 +363,12 @@ python engine/workers/iclone_remote_client.py --action md_start
 python engine/workers/iclone_remote_client.py --action md_stop
 ```
 
+Record a Motion Director sequence from a plan file (Begin/EndCommand + triggers):
+
+```powershell
+python engine/workers/md_record_sequence.py --plan C:\temp\md_plan.json
+```
+
 List MD props:
 
 ```powershell

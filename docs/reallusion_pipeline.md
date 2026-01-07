@@ -14,6 +14,13 @@
 - Start images will be composed by a composition LLM (multi-image input), with pose extraction
   (OpenPose/BodyPoseNet/SAM3) used to align iClone placement.
 
+## Motion Director (3-phase)
+1) Setup: IMD profile + trigger mapping per actor.
+2) Execute: run MD commands and record to timeline.
+3) AI Render: render the recorded take via Comfy/AI Render workflows.
+
+See `docs/motion_director_flow.md` for the detailed playbook and sample plans.
+
 ## Snippets
 ### CC4 Headshot (file watcher)
 1) In CC4: `Script -> Load Python Script` -> `engine/character_creator/cc_file_watcher.py`

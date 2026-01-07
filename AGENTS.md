@@ -282,3 +282,4 @@
 - 2026-01-07 20:58 - Allowed unlimited chunk processing when max-chunks is set to 0 so output can flush more frequently without truncation (C:\Users\sasch\dump\worker.py).
 - 2026-01-07 21:05 - Reviewed CMDPropCrowdInteraction analysis outputs and mapped crowd usage to available RLPy MDProp getters; no repo changes.
 - 2026-01-07 23:22 - Added RLPy wiki compatibility checker and documented usage (engine/tools/rlpy_wiki_compat.py, docs/rlpy_hidden_api.md, docs/reallusion_pipeline.md, README.md).
+- 2026-01-07 23:44 - Added Motion Director 3-phase flow doc + MD recorder worker, and updated pipeline/bridge/readme docs (docs/motion_director_flow.md, engine/workers/md_record_sequence.py, docs/reallusion_pipeline.md, docs/iclone_bridge.md, docs/scene_building.md, README.md).
