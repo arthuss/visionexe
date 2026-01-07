@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 69 - 69
 
-**Phase Summary:** Standard operating mode, stoic and observant.
-**Phase Keywords:** obsidian mask, vertical lens array, ballistic weave robes, amber glow
+**Phase Summary:** Qelayat in a low‑energy dormant state, glyphs dim, veins barely pulsing.
+**Phase Keywords:** dormant, low‑energy, dim glyphs, subtle veins
 **Phase Prompt:**
-Cinematic medium shot of Qelayat, an ancient-tech entity. The face is a smooth, featureless mask of polished black obsidian with a single vertical slit containing multiple camera lenses emitting faint amber light. Wearing tattered ceremonial robes made of high-tech ballistic weave in desert earth tones, adorned with oxidized copper circuitry. Background is a hazy industrial temple. Lighting is dramatic, chiaroscuro, highlighting the texture of the stone mask and the metallic weave. 8k resolution, hyper-detailed textures.
+Qelayat in a dormant state, 3‑meter tall humanoid with basaltic exoskeleton, copper plating, glyph‑etched quartz, bio‑luminescent veins barely pulsing, crystalline core inactive, obsidian face with a single dim eye, rendered photorealistically with subdued cinematic lighting, emphasizing the quiet, almost imperceptible hum of ancient technology.
 
 ---

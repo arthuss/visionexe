@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 103 - 103
 
-**Phase Summary:** The radiant, amber-construct guardian of the Tree Node.
-**Phase Keywords:** amber resin body, gold circuitry veins, hexagonal face mask, fiber-optic robes
+**Phase Summary:** Life fully manifested, towering presence in the Null Void.
+**Phase Keywords:** ancient-tech, Ethiopian, Egyptian, obsidian, gold, crystalline, bioluminescent, fiber-optic, silicon dust, holographic glyphs
 **Phase Prompt:**
-The entity 'Life' standing as a guardian in the Tree of Life Node. A humanoid figure sculpted from translucent amber, inner golden light illuminating complex circuitry veins. Face is a featureless golden hexagonal grid. Robes of dark roots and glowing cables. Atmosphere of heavy gold dust and static. Cinematic, hyper-realistic, 8k resolution, ancient-tech aesthetic.
+A towering, photorealistic antagonist named Life stands in a Null Void, its massive obsidian body fused with gold filigree and crystalline circuitry, illuminated by bioluminescent glyphs and cyan data streams, ancient Ethiopian and Egyptian hieroglyphs etched into its surface, surrounded by swirling golden nano‑particulates, with a massive obsidian throne base anchoring it, rendered in high contrast, sharp edges, cinematic, 9:16 vertical composition
 
 ---

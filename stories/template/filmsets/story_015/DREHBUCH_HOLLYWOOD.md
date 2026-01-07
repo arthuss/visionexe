@@ -1,247 +1,311 @@
-✓ List stories directory to find the correct folder for Chapter 15
- $ Get-ChildItem stories
-    └ 6 lines...
-
-✗ Create directory for Chapter 15
- $ New-Item -ItemType Directory -Force -Path stories\story_015
-   Permission denied and could not request permission from user
-
-✗ Create directory using cmd
- $ cmd /c mkdir stories\story_015
-   Permission denied and could not request permission from user
-
 # DREHBUCH KAPITEL 15 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Der System-Administrator initiiert das Protokoll zur Bereinigung. Die Wächter haben die Trennung von Geist und Fleisch missachtet – ein fataler Fehler im Quellcode der Schöpfung. Nun wird die Firewall hochgefahren, und das Urteil ist endgültig: Geist zu Geist, Fleisch zu Fleisch.
+NARRATOR_TEXT: Die Log-Dateien der Schöpfung offenbaren den fatalen Fehler. Es war kein Sündenfall aus Leidenschaft, sondern eine korrupte Kompilierung von inkompatiblen Datensätzen. Geist und Fleisch sollten niemals verschmelzen, doch die Wächter erzwangen diesen verbotenen Merge. Nun starren wir auf das Ergebnis: Verzerrte Geometrie und Geister, die keinen Speicherplatz mehr finden. Das System verlangt nach einer Formatierung.
 
-## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:05] [The Uplink]
-**Action:** ECU on Enoch's ear. Blue micro-circuitry flares white-hot. Eyes dilate with blinding light. Muscle spasms in neck indicate high-bandwidth write operation.
-**Dialog:** VOICE: "Do not fear, Enoch..." (Garbled data-stream)
+## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:05] [Status Check]
+**Action:** Enoch stands perfectly still in the center of the Crystal Sanctum. The blue fire walls are in idle mode, humming with low energy. The symmetry is absolute.
+**Dialog:** (Silence)
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Crystal_Sanctum", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "100mm Macro, shaky focus", "mood": ["pain", "awe"], "director_intent": "Show the physical intensity of a kernel-level data injection.", "start_image_keywords": ["ear", "circuitry", "veins"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
+REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "full_body", "environment": "Crystal_Sanctum", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Wave_Interface_Block"], "camera": "Wide Shot, Low Angle, Vertical Framing 9:16", "mood": ["clinical", "dormant"], "director_intent": "Establish the perfect order of the system before the intrusion.", "start_image_keywords": ["symmetry", "blue fire", "obsidian floor"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme close-up of a human ear and temple area, skin texture transforming into translucent marble with glowing blue micro-circuitry veins underneath. The veins are flaring white-hot. Sweat beads on the skin. Cinematic lighting, high contrast, 85mm macro lens, hyper-realistic texture, 8k resolution.
+Full body wide shot of Enoch standing in the center of a colossal server-room cathedral. Vertical 9:16 composition. He wears a pristine pearl-white Liquid_Linen tunic that reflects the environment like mercury. The floor is mirror-polished obsidian. The walls are lined with dormant blue plasma fire contained in glass cooling tubes. Symmetrical, architectural, hyper-clean, 8k resolution, path-traced lighting, cold color temperature.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah (Voyager Phase), silver-skin shader, eyes dilating rapidly with blinding white light. Involuntary muscle spasms in the neck.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None visible in macro shot.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred background of blue fire and obsidian reflections.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Intense blue rim light, white internal glow from veins.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 100mm Macro lens, shaky handheld camera movement, shallow depth of field.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah (Voyager Phase), statuesque, completely motionless.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Liquid_Linen tunic, pearl-white, hanging heavy and still.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Crystal Sanctum, idle state, mirrored floor reflections.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft ambient blue glow, clinical sterility.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Locked-off tripod shot, zero camera movement, high contrast.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitch digital modem handshake screech mixed with a deep sub-bass throb. Electrical crackling sounds.
+Deep, rhythmic 40Hz server drone. The sound of a sterile room with heavy air pressure. Minimal wind hiss.
 
-## [ACT 1] [SCENE 1.2] [Timecode: 00:05-00:10] [System Context]
-**Action:** Enoch stands in the Crystal Sanctum. Walls are blue fire. He is paralyzed by the "Voice" (Server Hum). Ge'ez characters float aggressively into his auditory cortex.
-**Dialog:** VOICE: "...Scribe of Righteousness."
+## [ACT 1] [SCENE 1.2] [Timecode: 00:05-00:08] [Injection Start]
+**Action:** A sudden massive data influx hits Enoch. His neck snaps back involuntarily (galvanic response). Subdermal circuits overheat from blue to warning-orange.
+**Dialog:** VOICE: (Garbled Modem Handshake)
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Crystal_Sanctum", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Medium Shot, low angle, stabilizing", "mood": ["overwhelmed", "static"], "director_intent": "Establish the scale of the environment and Enoch's isolation.", "start_image_keywords": ["blue fire", "crystal walls"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Crystal_Sanctum", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Profile Close-Up, High Shutter Speed", "mood": ["pain", "shock"], "director_intent": "Show the physical violence of a kernel-level data write.", "start_image_keywords": ["neck spasm", "orange veins", "sweat"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot of Enoch standing in a vast hall made of crystal blocks. The walls are burning with cold blue fire. The floor is polished obsidian reflecting the flames. Enoch wears a shimmering silver tunic. Floating glowing Ge'ez characters surround his head. Symmetrical composition, low angle, cinematic lighting.
+Profile close-up of Enoch's neck and jawline. The skin is translucent, revealing a network of subdermal bio-circuitry that is glowing intense warning-orange, indicating thermal throttling. Sweat beads are vaporizing instantly on his skin. Muscles are taut and straining. 85mm portrait lens, dramatic rim lighting, sense of immediate physical stress.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah (Voyager Phase), silver-skin shader, standing rigid and paralyzed.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Liquid_Linen tunic, silver and white.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Crystal Sanctum, walls of blue fire, mirror obsidian floor.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold blue ambient light, sharp reflections.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Medium shot, low angle, camera stabilizing from a shake.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah (Voyager Phase), violent neck spasm, head snapping back.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Liquid_Linen collar vibrating from muscle tension.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred blue background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal orange glow from veins contrasting with external blue light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** High shutter speed, handheld shake, profile framing.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep 40Hz resonant server hum. The sound of fire roaring but digital and controlled.
+High-pitch digital screech (modem handshake) mixed with the wet sound of muscle tearing. Steam hissing.
 
-## [ACT 1] [SCENE 1.3] [Timecode: 00:10-00:15] [The Watchers Archive]
-**Action:** Orthographic view of "Heaven" (Geometric Ceiling). Gold code-pillars descend towards "Earth" (Organic Floor). As they touch, they turn Red (Corruption).
-**Dialog:** VOICE: "Go, speak to the Watchers of Heaven."
+## [ACT 1] [SCENE 1.3] [Timecode: 00:08-00:12] [Ocular Projection]
+**Action:** Enoch's eyes snap open. No pupils visible. The mechanical iris projects solid beams of white light containing scrolling Ge'ez binary code.
+**Dialog:** VOICE: "Analysis complete."
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "wide", "environment": "Abstract_Data_Space", "env_change": true, "actors": [], "props": [], "camera": "Top-Down Orthographic", "mood": ["analytical", "ominous"], "director_intent": "Visualize the descent of the Watchers as a data corruption event.", "start_image_keywords": ["gold code", "red corruption"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Crystal_Sanctum", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Macro 100mm on Eye", "mood": ["supernatural", "intense"], "director_intent": "Enoch becomes the projector for the history simulation.", "start_image_keywords": ["eye beam", "no pupil", "geez code"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 2}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Orthographic top-down view of a split composition. Top half is perfect geometric gold fractals. Bottom half is dark, organic, textured soil. Vertical pillars of gold light descend from top to bottom. Where they touch the soil, they turn into glitching red code. High contrast, abstract data visualization style.
+Extreme Macro close-up of a single eye. The organic iris has retracted to reveal a complex mechanical lens aperture. A solid, volumetric beam of blinding white light is shooting out of the eye. Inside the light beam, microscopic gold Ge'ez characters are scrolling rapidly. Cybernetic aesthetic, hyper-detailed, depth of field focused on the eyelashes and lens edge.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Abstract representation of Watchers as vertical light columns.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah (Voyager Phase), eye opening rapidly.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Abstract void, geometric ceiling, organic floor.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Gold light turning to red neon upon contact.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Top-down orthographic camera, slow zoom in.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark surroundings illuminated by the eye-beam.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Overexposed white light source from the eye, lens flares.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Macro shot, extremely shallow depth of field, steady focus.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sound of heavy blast doors opening. Digital chime turning into a distorted error buzz.
+Cinema projector fan spin-up sound layered with high-voltage electrical arcing.
 
-## [ACT 2] [SCENE 2.1] [Timecode: 00:15-00:20] [Hybridization Error]
-**Action:** Abstract visualization. A perfect Glass Sphere (Spirit) slams into a Red Clay Sphere (Flesh). The collision creates a jagged, tearing mesh artifact.
-**Dialog:** VOICE: "You have defiled yourselves with the blood of women."
+## [ACT 1] [SCENE 1.4] [Timecode: 00:12-00:17] [Simulation Descent]
+**Action:** Holographic playback: Golden data-pillars (The Watchers) descend from a fractal "Heaven" geometry into a dark, textured "Earth" terrain.
+**Dialog:** VOICE: "Log entry: Descent."
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "close_up", "framing": "close_up", "environment": "Abstract_Void", "env_change": true, "actors": [], "props": [], "camera": "Center Framed, High Speed", "mood": ["violent", "glitch"], "director_intent": "Show the incompatibility of spirit and flesh through physics simulation.", "start_image_keywords": ["glass sphere", "clay sphere", "collision"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "wide", "environment": "Simulation_Space", "env_change": true, "actors": [], "props": [], "camera": "Orthographic Side View", "mood": ["analytical", "diagrammatic"], "director_intent": "Visualize the Watchers' descent as a data migration event.", "start_image_keywords": ["fractal sky", "gold pillars", "dark earth"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 3}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Abstract 3D render of a perfect transparent glass sphere colliding with a rough red clay sphere. The point of impact is a jagged, glitching mess of polygons and digital artifacts. Strobe lighting, red and blue alarm colors, hyper-realistic materials, 8k.
+A schematic, orthographic side-view of two distinct realms separated by a void. Above: Golden, self-similar Mandelbulb fractal geometry, perfect and mathematical. Below: Dark, chaotic, muddy organic terrain. Thick pillars of vertical golden light are plunging from the fractals into the mud. High contrast, data-visualization aesthetic, 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Two spheres: one glass, one red clay.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Abstract data streams (Watchers) as solid light beams.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Split screen: Fractal order above, organic chaos below.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Gold vs. Mud Brown.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Orthographic camera, slow vertical pan, diagrammatic motion.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Shepard Tone (continuously falling pitch) ending in a heavy, dull thud.
+
+## [ACT 2] [SCENE 2.1] [Timecode: 00:17-00:20] [Corruption Event]
+**Action:** A perfect glass sphere (Spirit) intersects with a rough red clay sphere (Flesh). At the contact point, the geometry shatters into glitch artifacts.
+**Dialog:** VOICE: "Critical Error: Boolean Union Failed."
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Simulation_Space", "env_change": false, "actors": [], "props": ["Glass_Sphere", "Clay_Sphere"], "camera": "Extreme Close-Up", "mood": ["violent", "glitch"], "director_intent": "Show the incompatibility of the two materials at a physics engine level.", "start_image_keywords": ["glass sphere", "clay sphere", "collision", "shatter"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 4}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+3D render of a flawless transparent glass sphere forcibly intersecting with a rough, textured red clay sphere. The intersection line is a disaster of jagged polygons, black void shards, and red pixelated artifacts. The glass is cracking in a digital pattern. Dramatic lighting, studio setup, hyper-real materials, focus on the destruction.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Two spheres colliding.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark void.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Strobe lighting, red and blue flashes.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** High speed camera, center framed, slow motion impact.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red strobe warning light flashing on impact.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** High speed camera, slow motion impact, fixed focus.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sound of glass shattering underwater. Low frequency impact thud.
+Sound of shattering glass mixed with a loud, distorted digital "crunch" or bit-crushed explosion.
 
-## [ACT 2] [SCENE 2.2] [Timecode: 00:20-00:28] [The Giants Render]
-**Action:** A Nephilim Giant (10m tall) screams silently in a grey wasteland. Its texture is a flickering mix of stone and bleeding meat. Vertex displacement explodes outward.
-**Dialog:** VOICE: "And produced giants..."
+## [ACT 2] [SCENE 2.2] [Timecode: 00:20-00:25] [Giant Render Fail]
+**Action:** A Nephilim Giant (15m) spawns in the wasteland. It is a rendering error: textures of gold and raw meat stretch and flicker (Z-Fighting). Limbs clip through the torso.
+**Dialog:** VOICE: "Output: Abomination."
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "full_body", "environment": "Grey_Wasteland", "env_change": true, "actors": [{"name": "Nephilim_Giant", "phase": "Glitch", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Worm's Eye View (looking up)", "mood": ["horror", "chaos"], "director_intent": "Depict the Giant not as a creature but as a rendering error.", "start_image_keywords": ["giant", "glitch", "stone flesh"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
+REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "full_body", "environment": "Grey_Wasteland", "env_change": true, "actors": [{"name": "Nephilim_Giant", "phase": "Glitch", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Worm's Eye View", "mood": ["horror", "grotesque"], "director_intent": "Depict the Giant not as a monster, but as a software bug.", "start_image_keywords": ["giant", "raw meat texture", "gold armor", "glitch"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 2}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Low angle shot looking up at a 10-meter tall humanoid giant. The giant's texture is a horrific mix of grey stone and raw bleeding meat. The geometry is unstable, with spikes of vertex displacement shooting outwards. Grey barren wasteland background. Overcast lighting, muted colors except for the red flesh.
+Low angle worm's-eye view looking up at a 15-meter tall humanoid entity. The creature is a horrifying glitch: its surface flickers between polished gold armor and raw, bleeding muscle tissue. The textures are stretched and mapping incorrectly. The geometry is unstable. Grey barren wasteland background with fog. Cinematic horror, photorealistic textures, 8k.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Nephilim Giant, massive scale, texture flickering between stone and meat.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Barren grey wasteland (Earth_V0).
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flat overcast light, high contrast textures.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Worm's eye view, camera shaking violently.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Nephilim Giant, massive scale, malfunctioning mesh.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Gold plating clipping into red meat.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Grey fog, barren ground.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flat overcast light, low contrast.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld camera shaking violently from the footsteps, looking up.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud digital tearing noise, datamosh sound effects, deep roaring.
+Heavy industrial grinding sound (metal on bone). Low frequency thuds. Audio clipping/distortion.
 
-## [ACT 2] [SCENE 2.3] [Timecode: 00:28-00:34] [Death of the Body]
-**Action:** The Giant collapses. The physical mesh crumbles to grey ash instantly. A dark, oily smoke (The Spirit) remains hovering, retaining the shape of the body.
-**Dialog:** VOICE: "Evil spirits shall they be called on earth."
+## [ACT 2] [SCENE 2.3] [Timecode: 00:25-00:27] [Scream of Entropy]
+**Action:** ECU of the Giant's face. Vertices explode outward in spikes. Eyes are misplaced. It screams silently.
+**Dialog:** (Scream FX)
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Grey_Wasteland", "env_change": false, "actors": [{"name": "Nephilim_Giant", "phase": "Ash", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Time-lapse speed", "mood": ["decay", "supernatural"], "director_intent": "Show the separation of the corrupt spirit from the destroyed hardware.", "start_image_keywords": ["ash pile", "black smoke", "silhouette"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Grey_Wasteland", "env_change": false, "actors": [{"name": "Nephilim_Giant", "phase": "Glitch", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Extreme Close-Up Shaky", "mood": ["chaos", "agony"], "director_intent": "The entity's very existence is painful to the physics engine.", "start_image_keywords": ["face glitch", "vertex explosion", "spikes"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A massive pile of grey ash in the shape of a collapsed giant. Hovering directly above the ash is a dark, oily black smoke that retains the humanoid silhouette of the giant. Grey wasteland background. Eerie atmosphere, sharp focus on the smoke entity.
+Extreme close-up of a giant distorted face. The geometry is exploding outward in long, sharp needle-like spikes (vertex displacement error). One eye is located on the cheek, the mouth is a vertical tear. The material is wet, red organic matter mixed with grey stone. terrifying, abstract horror, high detail.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Giant collapsing into dust. Black smoke entity emerging.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Giant's face deforming rapidly.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Grey void.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flickering lighting changes.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Extreme shake, datamosh transitions, focal length glitching.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A scream that sounds like a corrupted audio file—square wave distortion and white noise.
+
+## [ACT 2] [SCENE 2.4] [Timecode: 00:27-00:31] [Hardware Termination]
+**Action:** The Giant collapses. The physical mesh is deleted instantly, crumbling into a pile of grey ash.
+**Dialog:** VOICE: "Process terminated."
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "wide", "environment": "Grey_Wasteland", "env_change": false, "actors": [{"name": "Nephilim_Giant", "phase": "Ash", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "High Angle Wide", "mood": ["finality", "dust"], "director_intent": "The hardware has failed. Only dust remains.", "start_image_keywords": ["ash pile", "collapse", "dust cloud"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 2}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+High angle wide shot of a massive pile of grey bone dust and ash in the middle of a barren plain. The shape of the pile vaguely resembles a fallen giant. A heavy cloud of dust is settling around it. The atmosphere is quiet and dead. Muted colors, realistic particle effects.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Giant body collapsing into physics particles (ash).
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Grey wasteland.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dim lighting, dark silhouette against grey.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Medium shot, time-lapse speed, fast decay.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flat light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Wide shot, static camera, fast motion collapse then slow settling.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sound of a collapsing building played in reverse. Hissing of escaping gas.
+Sound of a collapsing building played in reverse, ending in a vacuum-like silence.
 
-## [ACT 2] [SCENE 2.4] [Timecode: 00:34-00:40] [Daemon Release]
-**Action:** The oily smoke entity detaches from the ash pile. It does not ascend. It floats at ground level, a heat-haze distortion seeking a new host.
-**Dialog:** VOICE: "The spirits of the giants..."
+## [ACT 2] [SCENE 2.5] [Timecode: 00:31-00:36] [Process Persistence]
+**Action:** An oily, heat-haze shadow (The Daemon) rises from the ash. It has no mass but retains the silhouette. It hovers, tethered to the ground.
+**Dialog:** VOICE: "Error: Process still running."
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "medium", "framing": "medium", "environment": "Grey_Wasteland", "env_change": false, "actors": [], "props": ["Evil_Spirit_Entity"], "camera": "Tracking Shot, handheld", "mood": ["predatory", "unsettling"], "director_intent": "Establish the Evil Spirit as a roaming, ground-level threat.", "start_image_keywords": ["heat haze", "distortion", "wasteland"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
+REGIE_JSON: {"subject": "prop", "shot_type": "medium", "framing": "medium", "environment": "Grey_Wasteland", "env_change": false, "actors": [], "props": ["Evil_Spirit_Entity"], "camera": "Static Shot Timelapse", "mood": ["ominous", "unnatural"], "director_intent": "The spirit survives the hardware death as a corrupt background process.", "start_image_keywords": ["heat haze", "black smoke", "silhouette"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 4}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A semi-transparent heat-haze distortion floating just above the ground in a grey wasteland. Inside the distortion is a faint black silhouette. The ground beneath it is slightly disturbed. Cinematic tracking shot, ominous atmosphere.
+A medium shot of a refractive heat-haze distortion hovering over a pile of ash. Inside the distortion is a faint, oily black smoke forming a humanoid silhouette. The background scenery is warped through the entity. It looks like a mirage or a gas leak. Dark, moody, high contrast.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Evil Spirit entity, heat-haze distortion, black silhouette.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Evil Spirit Entity (Heat Haze).
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Grey wasteland, ground level.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Low contrast, visual distortion effects.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Tracking shot moving sideways, handheld camera shake.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Ash pile on grey ground.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Backlit to show the refraction.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static camera, time-lapse speed (clouds moving fast, entity twitching).
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-voltage electrical arcing sound. Low frequency drone.
+High-voltage electrical hum that slowly rises in pitch.
 
-## [ACT 2] [SCENE 2.5] [Timecode: 00:40-00:45] [Invisible Oppression]
-**Action:** Surveillance view of primitive humans cowering. The invisible distortion moves through them like a shockwave. Their wireframes flash Red upon contact.
-**Dialog:** VOICE: "...shall oppress, corrupt, and fall."
+## [ACT 2] [SCENE 2.6] [Timecode: 00:36-00:41] [Resource Consumption]
+**Action:** The invisible Daemon passes through a wireframe human. The human mesh flashes red and turns necrotic black where touched.
+**Dialog:** VOICE: "Targeting user space."
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "wide", "environment": "Primitive_Settlement", "env_change": true, "actors": [{"name": "Primitive_Humans", "phase": "Wireframe", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "High Angle CCTV", "mood": ["panic", "surveillance"], "director_intent": "Show the effect of the spirits on humans as a system attack.", "start_image_keywords": ["cctv", "wireframe", "red glitch"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
+REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Primitive_Settlement", "env_change": true, "actors": [{"name": "Primitive_Humans", "phase": "Wireframe", "presence": "on_screen", "focus": "primary"}], "props": ["Evil_Spirit_Entity"], "camera": "Thermal/X-Ray Vision", "mood": ["predatory", "technical"], "director_intent": "Visualize the demonic oppression as a virus infecting a file.", "start_image_keywords": ["wireframe human", "necrosis", "thermal vision"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 3}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-High angle surveillance footage style shot of a group of primitive humans cowering on the ground. They are rendered with a faint wireframe overlay. A visible distortion wave is passing through them. The humans touched by the wave are flashing bright red. Grainy texture, scanlines, muted colors.
+Simulation view: A primitive human rendered in low-fidelity wireframe mesh. A cloud of digital distortion is passing through the torso. Where the cloud touches, the wireframe turns from white to necrotic black and glowing red. Data readouts in the corners. Tech-noir aesthetic, HUD overlay, dark background.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Primitive humans, low-poly aesthetic, wireframe overlay.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Simple rags.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Mud ground, primitive settlement.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Desaturated, red flashes on impact.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** High angle CCTV static shot, digital interference.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Wireframe human figure.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Black void / HUD interface.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Green wireframe turning Red/Black.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld tracking shot, digital interference effects.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Muffled screams, wind distortion, digital glitch noises.
+Geiger counter clicking rapidly increasing in frequency. Wet squelching sound.
 
-## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:52] [Enoch Reaction]
-**Action:** Cut back to Crystal Sanctum. Enoch looks at his own hands (translucent code). He realizes he is "System" while they are "Malware". Spotlight isolates him.
-**Dialog:** VOICE: "But you were formerly spiritual..."
+## [ACT 2] [SCENE 2.7] [Timecode: 00:41-00:45] [Enoch Processing]
+**Action:** Cut back to Enoch. He is illuminated by the red warning light of the hologram. He stares with clinical horror.
+**Dialog:** (Silence)
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "medium_close_up", "environment": "Crystal_Sanctum", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Medium Close-Up, Slow push in", "mood": ["realization", "holy"], "director_intent": "Enoch recognizes his own nature as distinct from the corrupted flesh.", "start_image_keywords": ["hands", "code", "translucent"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Crystal_Sanctum", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Frontal Medium Shot", "mood": ["realization", "horror"], "director_intent": "Enoch understands the systemic nature of the evil.", "start_image_keywords": ["red lighting", "reflection in eyes", "silver tunic"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium close-up of Enoch looking down at his own hands. His skin is translucent and glowing with scrolling golden code. The background is dark blue fire, but a single bright spotlight illuminates him from above. High contrast, mystical tech aesthetic.
+Frontal medium shot of Enoch. The room is dark, but he is bathed in a harsh, flashing red warning light coming from off-screen (the hologram). His silver tunic reflects the red light. His expression is one of stoic, clinical realization. High contrast, cinematic lighting, shallow depth of field.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah (Voyager Phase), looking at hands. Hands are translucent with code.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Silver tunic.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Crystal Sanctum, dark background.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Spotlight from above, internal glow from hands.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow push in, sharp focus on hands and face.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah (Voyager Phase), staring intently.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Liquid_Linen tunic reflecting red light.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark Crystal Sanctum.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red alarm pulse lighting.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow push in, steady cam.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Slow, rhythmic heartbeat monitor sound. Ambient hum.
+The server drone intensifies into an alarm-like throbbing pulse.
 
-## [ACT 3] [SCENE 3.2] [Timecode: 00:52-00:58] [The Verdict Text]
-**Action:** Close up on the Obsidian Tablet. Laser-etching burns new text: "SPIRIT_TO_SPIRIT / FLESH_TO_FLESH". The text glows dangerous Red (Firewall Rule).
-**Dialog:** VOICE: "Therefore I have not appointed wives for you."
+## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:50] [Tablet Update]
+**Action:** Laser etching of new Ge'ez protocol onto the Obsidian Tablet. The text glows molten gold, then cools to white.
+**Dialog:** VOICE: "Protocol updated."
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Crystal_Sanctum", "env_change": false, "actors": [], "props": ["Obsidian_Tablet"], "camera": "Extreme Close-Up, Rack Focus", "mood": ["finality", "danger"], "director_intent": "The law is written into the system kernel.", "start_image_keywords": ["obsidian tablet", "laser text", "red glow"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Crystal_Sanctum", "env_change": false, "actors": [], "props": ["Obsidian_Tablet"], "camera": "Top-Down Macro", "mood": ["authoritative", "ancient"], "director_intent": "The verdict is written in stone and code.", "start_image_keywords": ["obsidian tablet", "laser etching", "molten gold text"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 2}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme close-up of a polished black obsidian surface. Glowing red text is being burned into the stone by an invisible laser. The text reads "SPIRIT_TO_SPIRIT". Smoke rises from the letters. High contrast, macro detail, red and black palette.
+Top-down macro shot of a sleek black obsidian tablet surface. An invisible laser is burning deep grooves into the stone. The grooves are filled with molten gold light forming Ge'ez characters. Smoke wisps rise from the burning text. The surrounding stone is cool and black. 8k texture, highly detailed.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Obsidian Tablet prop.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark void background.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red glow from the text, reflections on black stone.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Extreme close-up, rack focus revealing the text.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark void.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright gold light from the text, fading to white.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static camera, macro focus on the etching process.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud laser etching sound, sizzling stone.
+Loud laser burning sound (hissing) followed by a metallic cooling "ping".
 
-## [ACT 3] [SCENE 3.3] [Timecode: 00:58-01:04] [Mission Parameter]
-**Action:** Enoch turns away from the light source, facing the dark void of Earth. His Liquid_Linen tunic flows in zero-g. He accepts the burden of the message.
-**Dialog:** VOICE: "For spiritual ones have their dwelling in heaven."
+## [ACT 3] [SCENE 3.2] [Timecode: 00:50-00:55] [Verdict Delivery]
+**Action:** Enoch nods once. The room's red alarm light stabilizes back to a cool, sterile blue. The Liquid Linen tunic smooths out.
+**Dialog:** VOICE: "Go."
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "wide", "environment": "Crystal_Sanctum", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Rear View, Wide", "mood": ["determined", "epic"], "director_intent": "Enoch accepts his mission to return to the corrupted world.", "start_image_keywords": ["silhouette", "void", "flowing robes"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Crystal_Sanctum", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle Hero Shot", "mood": ["calm", "heroic"], "director_intent": "Enoch accepts the burden. Order is restored.", "start_image_keywords": ["blue light", "smooth tunic", "nod"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 1}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Rear view of Enoch standing on the edge of the Crystal Sanctum, facing a vast dark void. He is silhouetted against the blue fire behind him. His silver tunic flows upwards as if in zero gravity. Epic scale, cinematic composition, rule of thirds.
+Low angle hero shot of Enoch. The red lighting from the previous scene fades into a calm, sterile blue. His pearl-white tunic, previously rippling, snaps smooth and rigid. He nods his head once, decisively. Background is the ordered Crystal Sanctum. Clean, sharp focus, triumphant but cold atmosphere.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah (Voyager Phase), rear view.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Liquid_Linen tunic flowing in zero-g.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Edge of the Sanctum, facing darkness.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Backlit by blue fire, silhouette.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Wide shot, static camera, slow cloth simulation.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah (Voyager Phase), nodding.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Liquid_Linen tunic smoothing out.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Crystal Sanctum walls turning Blue.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Transition from Red to Blue light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Low angle, slow motion stability.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep synthetic orchestral swell, majestic and sad.
+A pleasant, harmonic "System Boot Complete" chime. The server drone drops to a whisper.
 
-## [ACT 3] [SCENE 3.4] [Timecode: 01:04-01:10] [The Return Jump]
-**Action:** Enoch steps forward. The floor dissolves into pixels. A "Datamosh" transition smears his figure into the darkness, sending him back to the simulation.
+## [ACT 3] [SCENE 3.3] [Timecode: 00:55-00:59] [The Turn]
+**Action:** Enoch turns 180 degrees away from the camera. He is now a silhouette against the bright blue core of the room.
 **Dialog:** (Silence)
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "full_body", "environment": "Crystal_Sanctum", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Static Shot", "mood": ["transition", "end"], "director_intent": "The user logs out of the admin console.", "start_image_keywords": ["datamosh", "pixels", "dissolve"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "full_body", "environment": "Crystal_Sanctum", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Rear View Wide", "mood": ["departure", "epic"], "director_intent": "The protagonist leaves the safe zone to enter the corruption.", "start_image_keywords": ["silhouette", "rear view", "blue core"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Enoch stepping forward into darkness, his body and the floor dissolving into digital pixels and datamosh artifacts. The image is smearing downwards. Glitch art style, high contrast, blue and black.
+Rear view of Enoch standing in silhouette against a massive wall of bright blue energy. He is turning away from the viewer. His outline is crisp against the light. The floor reflections stretch out before him. Epic scale, cinematic framing, 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah (Voyager Phase) dissolving.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Silver tunic.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Floor dissolving into pixels.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Fading light.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static shot, heavy digital transition effects.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah (Voyager Phase), turning 180 degrees.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Tunic flowing with the turn.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Bright Blue Energy Wall in background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Backlit silhouette.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Wide shot, smooth rotation.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Power-down sound effect, abrupt silence.
+Heavy, metallic footsteps that resonate with a delay/reverb.
+
+## [ACT 3] [SCENE 3.4] [Timecode: 00:59-01:03] [Merkabah Spin Up]
+**Action:** A tetrahedral wireframe (Merkabah Field) manifests around Enoch. It spins rapidly, creating a motion-blur sphere. The room walls warp.
+**Dialog:** (Turbine Sound)
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "wide", "environment": "Crystal_Sanctum", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Merkabah_Field"], "camera": "Wide Shot", "mood": ["tech", "warp"], "director_intent": "The transition mechanism is a physics-based vehicle, not magic.", "start_image_keywords": ["tetrahedron", "wireframe", "spin blur"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Wide shot of Enoch enclosed in a glowing blue wireframe tetrahedron. The geometry is spinning so fast it is blurring into a translucent sphere. The surrounding room architecture is stretching and warping towards the center (lensing effect). Sci-fi, quantum computing aesthetic, particle effects.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah (Voyager Phase) inside geometry.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Walls warping (warp drive effect).
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue light streaks.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static camera, subject spinning rapidly.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Jet engine turbine spin-up sound, rising in pitch to ultrasonic levels.
+
+## [ACT 3] [SCENE 3.5] [Timecode: 01:03-01:05] [Node Jump]
+**Action:** The sphere implodes to a single pixel and vanishes. A "Datamosh" smear lingers for a split second. Fade to Black.
+**Dialog:** (Sonic Boom)
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "vfx", "shot_type": "wide", "framing": "wide", "environment": "Abstract_Void", "env_change": true, "actors": [], "props": ["Merkabah_Sphere"], "camera": "Static Shot", "mood": ["impact", "void"], "director_intent": "Instantaneous displacement.", "start_image_keywords": ["light point", "implosion", "black void"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Abstract composition. A single, intensely bright white pixel in the center of a pitch-black void. Faint blue datamosh streaks radiate from the center, lingering like a visual echo. Minimalist, high contrast.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Sphere imploding.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Black Void.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flash of white then darkness.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static shot, instant movement.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A sharp Sonic Boom crack, followed immediately by total vacuum silence.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Ich höre den Code... er brennt sich in mein Fleisch.","words_max":10},{"scene":"2.3","text":"Sie wollten Götter sein, doch sie bauten nur Monster.","words_max":10},{"scene":"3.1","text":"Ich bin System. Sie sind der Fehler.","words_max":8},{"scene":"3.3","text":"Ich kehre zurück. Mit dem Urteil.","words_max":6}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Ein Code... heißer als Feuer. Er schreibt mich neu.","words_max":9},{"scene":"2.2","text":"Das ist keine Schöpfung. Das ist ein Glitch.","words_max":8},{"scene":"2.7","text":"Sie haben den Quellcode vergiftet.","words_max":6},{"scene":"3.2","text":"Formatierung akzeptiert. Ich bringe das Ende.","words_max":7}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

@@ -92,6 +92,13 @@ def build_lora_path(root: Path, category: str, actor_slug: str, phase_slug: str,
     return str(Path(*parts) / filename)
 
 
+def normalize_dir(path_value, repo_root):
+    if not path_value:
+        return ""
+    resolved = resolve_path(path_value, repo_root)
+    return str(resolved) if resolved else ""
+
+
 def apply_lora_override(entry, overrides):
     if not overrides:
         return
@@ -192,11 +199,13 @@ def main():
             base_path = build_lora_path(lora_root, "actors", actor_slug, phase_slug, base_filename)
             style_path = build_lora_path(lora_root, "actors", actor_slug, phase_slug, style_filename)
             master_entry = master_actor_images.get(actor_name, {}).get(phase_name, {}) if isinstance(master_actor_images, dict) else {}
-            style_seed_dir = None
-            multiangle_dir = None
+            style_seed_dir = normalize_dir(phase.get("style_seed_dir"), repo_root)
+            multiangle_dir = normalize_dir(phase.get("multiangle_dir"), repo_root)
             if lora_training_root:
-                style_seed_dir = str(lora_training_root / "actors" / actor_slug / phase_slug / "style_seed")
-                multiangle_dir = str(lora_training_root / "actors" / actor_slug / phase_slug / "multiangle")
+                if not style_seed_dir:
+                    style_seed_dir = str(lora_training_root / "actors" / actor_slug / phase_slug / "style_seed")
+                if not multiangle_dir:
+                    multiangle_dir = str(lora_training_root / "actors" / actor_slug / phase_slug / "multiangle")
 
             phase_entry = {
                 "phase_name": phase_name,

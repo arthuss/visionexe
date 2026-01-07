@@ -1,0 +1,30 @@
+## [SCENE] Chapter 75 Segment 4 (ID: SCENE_CHAPTER_75_SEGMENT_4)
+**Description:** The Obsidian Scepter of the Veiled Sun is a 3‑meter monolith of jet‑black glass, its surface etched with luminous, bioluminescent glyphs that pulse in a slow, rhythmic cadence. Embedded within its core is a lattice of translucent crystalline circuitry that glows with a faint azure light, interfacing with an ancient runic interface at the base. The scepter’s tip is a polished obsidian sphere, surrounded by a halo of swirling, iridescent vapor that hints at its temporal‑conduit function. Weathered by centuries of ritual use, the scepter bears faint scratches and mineral deposits, yet its crystalline veins remain pristine, reflecting a tactile, almost living quality. In the scene, it serves as the focal point for a ritual of time‑folding, its glow illuminating the surrounding stone chamber in a dramatic interplay of light and shadow.
+**Tags:** #ancient-tech #obsidian #crystalline circuitry #glyphs #temporal conduit #photorealistic #tactile
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** 3‑meter tall monolith of obsidian glass, tapered to a polished sphere at the tip, with a base ring of carved stone.
+*   **Face/Sensors:** Embedded crystalline circuitry forms a translucent lattice that emits a soft azure glow, interfacing with runic glyphs that pulse like a heartbeat.
+*   **Clothing/Armor:** The scepter is encased in a layer of mineral‑infused obsidian that resists wear, with a faint iridescent vapor halo at the tip acting as a protective aura.
+*   **Key Features:** Bioluminescent glyphs, crystalline circuitry, temporal‑conduit sphere, weathered surface with mineral deposits, iridescent vapor halo
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Dormant): The scepter rests in a stone pedestal, glyphs dim, crystalline lattice inactive, surface weathered and covered in dust.
+*   Phase 2 (Activated): Glyphs flare to bright luminescence, crystalline circuitry hums with azure light, vapor halo intensifies, the scepter emits a low, resonant hum as it channels temporal energy.
+
+### 3. PROPS & EQUIPMENT
+*   Item: Ancient Scroll of the Veiled Sun, parchment with faded glyphs
+*   Item: Crystal Lens, a translucent prism that refracts light into a spectrum of colors
+
+### 4. AI PROMPT KEYWORDS
+`obsidian`, `crystalline circuitry`, `bioluminescent glyphs`, `temporal conduit`, `photorealistic`, `tactile`, `ancient Ethiopian/Egyptian aesthetics`
+
+### 5. PROMPT BLOCK (T2I)
+A towering 3‑meter obsidian scepter, its surface etched with glowing bioluminescent glyphs that pulse rhythmically, embedded with a lattice of translucent crystalline circuitry emitting a faint azure light, a polished obsidian sphere tip surrounded by swirling iridescent vapor, weathered by centuries of ritual use yet pristine in its crystalline veins, set in a stone chamber illuminated by dramatic interplay of light and shadow, photorealistic, tactile, ancient Ethiopian/Egyptian aesthetic with advanced incomprehensible technology
+
+### 6. PHASE PROMPTS
+*   **Default:** The scepter in its dormant state, glyphs dim and circuitry inactive, resting in a stone pedestal.
+    Prompt: A 3‑meter obsidian scepter resting in a stone pedestal, its surface etched with faint, dim glyphs, crystalline circuitry dormant and emitting no light, weathered surface with mineral deposits, surrounded by a subtle dust haze, photorealistic, tactile, ancient Ethiopian/Egyptian aesthetic with advanced technology
+    Keywords: obsidian, dormant, glyphs dim, crystalline circuitry inactive, stone pedestal
+
+---

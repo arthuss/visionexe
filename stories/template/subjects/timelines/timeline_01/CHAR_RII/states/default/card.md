@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 9 - 9
 
-**Phase Summary:** Standard scout attire with optical gear.
-**Phase Keywords:** scout gear, optical lenses, traveling
+**Phase Summary:** Rii in his ascended state, fully equipped with crystalline scepter and bio‑luminescent glyphs.
+**Phase Keywords:** ancient-tech, Ethiopian, Egyptian, crystalline, bio-luminescent, industrial-mysticism, photorealistic
 **Phase Prompt:**
-Full body shot of Rii, a nimble scout character in standard travel gear. Wearing a grey rough-spun linen tunic, leather vest with faint blue glowing spine, and reinforced boots. Face partially hidden by a metallic scarf, eyes shielded by brass-framed crystal lenses. Holding a hexagonal crystalline data-rod. Background is a hazy, ancient industrial landscape. Cinematic lighting, photorealistic, tactile textures, 8k.
+Rii stands in the temple’s inner sanctum, his basalt‑fiber tunic and brass filigree gleaming under the flickering torchlight, a crystalline scepter of the Sun in his hand, its obsidian core refracting light into warm golds and cool blues, faint phosphorescent glyphs pulsing along his forearms and jawline, his left eye replaced by a translucent iridescent sensor visor projecting glyphic data streams, all rendered in photorealistic detail with tactile textures and realistic light behavior.
 
 ---

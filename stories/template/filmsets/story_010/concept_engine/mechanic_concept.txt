@@ -1,68 +1,94 @@
-CONCEPT: SYSTEM_PURGE_PROTOCOL_10
+CONCEPT: SYSTEM_PURGE_PROTOCOL_2.0
 
 1. BIO-INJECTION & PHYSICAL MANIFESTATION
-Die "Bindung" von Azazel ist kein physisches Seil, sondern ein Code-Freeze. Sein Avatar wird von "Jagged Stones" umschlossen – dies visualisieren wir als aggressive Polygon-Displacement-Spikes, die aus seiner eigenen Geometrie herausbrechen und ihn in einer T-Pose einfrieren. Seine Textur wechselt von "Skin" zu "Statue/Bedrock" (Grau-Rauschen). Die "Dunkelheit", die sein Gesicht bedeckt, ist ein Vantablack-Shader ohne Reflexionen, der jegliche Render-Informationen schluckt.
+Das "Binden" Azazels ist eine erzwungene Hardware-Limitierung. Raphael injiziert keinen magischen Zauber, sondern einen "Statue-State"-Virus.
+**Visuell:** Azazels Hauttextur (Skin Shader) wird Sektor für Sektor durch eine "Dead Geometry"-Textur ersetzt (grauer, unpolierter Granit ohne Subsurface Scattering). Seine Gelenke versteifen sich nicht organisch, sondern rasten mechanisch ein (Rigid Body Lock). Die "Dunkelheit" auf seinem Gesicht ist eine **Render-Occlusion**: Ein schwarzes Voxel-Cluster wächst über seinen Kopf und blockiert jeglichen Licht-Input (Blindheit durch Sensor-Cap).
 
 2. MESH-BREAK & GEOMETRY
-Die Wüste "Dudael" ist ein korrupter Sektor. Das "Öffnen der Wüste" ist kein Erdbeben, sondern ein Chunk-Error. Der Boden rendert nicht mehr und zeigt den darunterliegenden "Void" (Grid-Lines im unendlichen Schwarz). Azazel wird in diesen Render-Fehler geworfen. Die "scharfen Steine" sind untexturierte Rohdaten-Blöcke, die ihn begraben.
+Dudael ist ein "Null-Pointer"-Sektor. Die Öffnung der Wüste ist ein **Physics-Layer-Collapse**.
+**Visuell:** Der Sandboden explodiert nicht, er verschwindet einfach (De-Spawn). Darunter liegt kein Gestein, sondern der **Wireframe-Void** (grünes Gitternetz auf schwarzem Grund). Azazel fällt nicht physikalisch, er "glitcht" nach unten (y-Axis Translation), während scharfe, untexturierte Polygon-Platten (die "spitzen Steine") über ihm spawnen und das Loch versiegeln. Dies ist eine "Sandbox-Isolation".
 
 3. PACING-STRATEGIE
-Der Rhythmus ist binär und gnadenlos.
-00-10s: Root-Command (Die Stimme). Statisch, symmetrisch, überwältigend.
-10-30s: Execution (Raphael & Gabriel). Schnelle, harte Schnitte. Keine Kampf-Choreographie, sondern sofortige Ausführung. Befehl -> Resultat.
-30-50s: The Glitch War (Nephilim). Chaotische Frame-Skips und Datamoshing-Effekte, während sich die Riesen gegenseitig auslöschen.
-50-60s: System Stability (Michael). Langsame, ruhige Kamerafahrten über die bereinigte, leere Landschaft.
+Rhythmus: **Staccato-Verarbeitung**.
+Keine fließenden Bewegungen in den Action-Momenten. Die Frames werden bei jedem "Befehl" eingefroren (Freeze-Frame), um den Impact der Code-Ausführung zu betonen.
+*   **00-15s:** Instruction (Noah/Uriel). Schnell, informativ, Interface-lastig.
+*   **15-35s:** Isolation (Azazel/Raphael). Schwer, statisch, industriell.
+*   **35-50s:** Termination (Nephilim/Gabriel). Hektisch, fragmentiert, visuelles Rauschen.
+*   **50-60s:** Defrag (Michael/Reset). Linear, glatt, symmetrisch.
 
 4. AUDIO-DESIGN
-Keine Chöre. Der "Herr" spricht in Frequenzen, die das Mikrofon übersteuern (Clipping).
-Background: Ein tiefes, konstantes 50Hz-Brummen (Server-Room).
-Action-Sounds: Das "Binden" klingt wie das Einrasten von schweren Sicherheitsschleusen und hydraulischen Pressen.
-Die Nephilim-Schlacht ist unterlegt mit digitalem Screeching und Bit-Crushing-Artefakten.
+**Primary Sound:** High-Voltage Coil Whine (Spulenfiepen) bei Präsenz der Engel.
+**Voice:** Die Stimme des "Höchsten" ist ein **Dual-Layer-Signal**: Ein tiefer Infraschall-Bass (fühlt man eher als dass man ihn hört) überlagert mit einem extrem schnellen Modem-Handshake-Geräusch (Datenübertragung).
+**VFX Audio:** Das Verwandeln in Stein klingt wie das Abkühlen von Metall (Knacken) kombiniert mit dem "Error-Buzzer" eines abgestürzten Systems. Die Nephilim-Schlacht nutzt Sounds von kollidierenden Server-Racks und digitalen Artefakten (Glitch-Noise).
 
 5. ÜBERGÄNGE
-Vom "Thron" (Interface-Ebene) zur Erde (Simulationsebene) durch "Satellite-Zoom". Die Kamera stürzt aus dem Orbit direkt auf die Koordinaten von Dudael.
-Zwischen den Szenen nutzen wir "Vertical Sync Failures" – das Bild zerreißt kurzzeitig horizontal, um den nächsten Clip zu laden.
+**Methodik:** "Bad Sector Scan".
+Der Übergang von einem Ort (z.B. Orbit) zum nächsten (Dudael) erfolgt durch einen horizontalen **Scan-Line-Sweep**. Das alte Bild wird Zeile für Zeile vom neuen Bild überschrieben. Keine weichen Überblendungen. Harte Schnitte, unterstützt durch "Datamoshing" (Pixel ziehen nach).
 
-6. FRAMEWORK & TIMING (60s PLAN)
-Clip 01 (5s): Establishing Shot. Der "Thron" als abstraktes Interface. Goldene Datenströme pulsieren.
-Clip 02 (5s): Uriel (Avatar: Chrom/Licht) überträgt Datenpaket an Noah (Silhouette).
-Clip 03 (5s): Raphael materialisiert sich in der Wüste (Dudael). Kein Flug, Instant-Spawn.
-Clip 04 (5s): Azazel Close-Up. Panik in den Augen (Linsen-Fokus).
-Clip 05 (5s): Der Befehl "BIND". Azazels Haut verhärtet sich zu Polygon-Spikes.
-Clip 06 (5s): Der Boden öffnet sich (Void-Textur). Azazel fällt in die Schwärze.
-Clip 07 (5s): Gabriel sendet das "Hate-Virus" (Rotes Signal) an die Nephilim.
-Clip 08 (5s): Die Riesen (massive, leuchtende Silhouetten) kollidieren. Glitch-Effekte.
-Clip 09 (5s): Michael steht über Semjaza. Semjaza kniet, gefesselt in Licht-Ketten.
-Clip 10 (5s): Panorama der "Hügel der Erde". Semjaza wird unter die Topographie geschoben.
-Clip 11 (5s): Die Reinigung. Ein weißer Scan-Balken fegt über die Landschaft.
-Clip 12 (5s): Reset Complete. Ein einzelner, perfekter Baum (Der Baum der Weisheit) wächst im Zeitraffer aus dem Grid.
+6. FRAMEWORK & TIMING (60s EXPANDED PLAN)
+
+**PHASE 1: THE BACKUP (Noah/Uriel)**
+*   **Clip 01 (3s):** [ESTABLISHING] Orbit View. Die Erde ist rot eingefärbt (Error-Map). Ein goldener Daten-Cursor (Uriel) bewegt sich rasant Richtung Oberfläche.
+*   **Clip 02 (3s):** [ACTION] Uriel materialisiert vor Noah. Noah steht in einer dunklen Kammer. Uriel ist ein blendendes Licht-Konstrukt.
+*   **Clip 03 (4s):** [DETAIL] Uriel berührt Noahs Stirn. Ein Hex-Code-Overlay "CMD: HIDE_KERNEL" projiziert sich auf Noahs Iris.
+*   **Clip 04 (3s):** [REACTION] Noah tritt zurück in den Schatten (Stealth Mode aktiviert).
+
+**PHASE 2: THE QUARANTINE (Azazel/Raphael)**
+*   **Clip 05 (3s):** [ARRIVAL] Dudael Wüste. Flimmernde Hitze. Raphael "buffert" in die Existenz (Pop-in).
+*   **Clip 06 (3s):** [ACTION] Raphael streckt die Hand aus. Azazel versucht zu fliehen, aber seine Beine werden grau und eckig (Low-Poly).
+*   **Clip 07 (3s):** [DETAIL] Azazels Hände verschmelzen zu einem einzigen Steinblock. Sein Gesicht wird von schwarzen Voxel-Würfeln überwuchert.
+*   **Clip 08 (4s):** [VFX] Der Boden unter Azazel wird transparent (Grid). Er fällt durch die Map.
+*   **Clip 09 (3s):** [CLOSING] Massive, scharfkantige Felsplatten "spawnen" instantan über dem Loch. Layer sealed.
+
+**PHASE 3: THE TERMINATION (Nephilim/Gabriel)**
+*   **Clip 10 (3s):** [INJECTION] Gabriel steht auf einer Klippe. Er sendet einen roten Impuls (Friendly Fire Flag) über das Tal.
+*   **Clip 11 (3s):** [CHAOS] Zwei Riesen (Nephilim) schlagen aufeinander ein. Beim Aufprall zersplittern ihre Texturen in bunte Polygone.
+*   **Clip 12 (3s):** [GLITCH] Close-Up eines Riesen-Gesichts, das sich in Datenmüll auflöst (Z-Fighting).
+*   **Clip 13 (3s):** [WIPE] Ein Feld aus toten Pixeln breitet sich aus, wo die Riesen fallen.
+
+**PHASE 4: THE DEFRAG (Michael/Reset)**
+*   **Clip 14 (3s):** [ARREST] Michael steht vor Semjaza. Semjaza kniet, transparente "Licht-Kabel" fesseln ihn an den Boden.
+*   **Clip 15 (3s):** [STORAGE] Die Topographie (Hügel) schiebt sich flüssig über Semjaza wie eine Decke (Mesh-Morphing).
+*   **Clip 16 (4s):** [CLEANSE] Ein weißer "Format"-Balken fegt horizontal über die Landschaft. Alles Rote (Korrupte) wird Weiß (Rein).
+*   **Clip 17 (4s):** [RESULT] Symmetrische Plantagen (Weinstöcke) wachsen im Zeitraffer aus dem weißen Grid. Perfekte Ordnung.
 
 7. DIALOG-CHECK
-Kein verbaler Dialog. Die Befehle werden als holographische Text-Overlays (Ge'ez/Binary) in die Luft projiziert, bevor die Handlung passiert.
-Beispiel: "CMD: BIND_AZAZEL [EXECUTE]" erscheint kurz vor dem Zugriff.
+Kein akustischer Dialog.
+**Overlay-Text (Holographic HUD):**
+*   Bei Uriel: `WARNING: SYSTEM_WIPE_IMMINENT`
+*   Bei Raphael: `TARGET: AZAZEL >> STATUS: QUARANTINED`
+*   Bei Gabriel: `PROTOCOL: MUTUAL_DESTRUCTION`
+*   Bei Michael: `ARCHIVE: SEMJAZA >> LOCK: 70_GEN`
 
 8. SPATIAL CONTEXT (ARRIVAL)
-Die Erzengel "reisen" nicht. Sie werden instanziiert.
-Effekt: Ein vertikaler Lichtstrahl (Beacon), der die Wolkendecke durchbricht. In einem Frame ist die Wüste leer, im nächsten Frame steht Raphael dort. Die Luft um ihn herum flimmert vor Hitze (Thermal Throttling durch hohe Prozessorlast).
+**Instancing:** Die Engel reisen nicht linear. Sie werden vom System an den Koordinaten *instanziiert*.
+**Visual:** Ein vertikaler "Light-Column" (wie ein Beacon in einem Spiel), der kurz aufblitzt. In diesem Lichtstrahl werden die Polygone des Engels von unten nach oben aufgebaut (Materialize Effect).
 
 9. PROMPT-BEISPIELE (SCENE GENERATION)
 
-[SCENE: AZAZEL_BINDING]
+[SCENE: RAPHAEL_BINDS_AZAZEL]
 **[BLOCK 1: SUBJECT_ACTION]**
-> **Actor:** Raphael (System Agent). **Action:** Extending hand towards Azazel. **Target:** Azazel (Corrupted Watcher). **Effect:** Azazel's limbs are turning into jagged, low-poly grey rock formations, locking him in place. **Expression:** Raphael is emotionless, Azazel is screaming silently.
+> **Actor:** Raphael (System Admin). **Action:** Casting a suspension command. His arm is outstretched, palm open, emitting a cone of wireframe-suppression data. **Target:** Azazel (Corrupted Watcher). **State:** Azazel is mid-scream, but his body is freezing into a jagged, grey low-poly rock formation starting from his extremities. **Expression:** Raphael is clinical, focused. Azazel is in digital agony.
 
-**[BLOCK 2: ENVIRONMENT_VOID]**
-> **Location:** Dudael Desert Sector. **Terrain:** The sandy ground beneath Azazel is missing, replaced by a sharp geometric hole revealing a pitch-black void with faint green grid lines. **Atmosphere:** Harsh sunlight, heat distortion, floating dust particles freezing in mid-air.
-
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Low Angle, looking up at Raphael from the edge of the pit. **Lens:** 24mm Wide Angle. **Lighting:** High contrast, blinding overhead sun (Hard Light), deep black shadows in the pit. **Style:** Unreal Engine 5, Glitch Art, Photorealistic textures mixed with wireframe artifacts.
-
-[SCENE: NEPHILIM_GLITCH_WAR]
-**[BLOCK 1: SUBJECT_MASS]**
-> **Actors:** The Giants (Nephilim). **Appearance:** Massive humanoid figures, 10 meters tall, translucent skin revealing glowing red skeletal structures. **Action:** They are colliding with each other, their meshes intersecting and tearing apart. **VFX:** Heavy chromatic aberration, digital artifacting, motion blur.
-
-**[BLOCK 2: ENVIRONMENT_CHAOS]**
-> **Location:** Valley of Destruction. **Background:** Burning cities in the distance, smoke columns forming data-patterns. **Ground:** Cracked earth, glowing fissures emitting red light.
+**[BLOCK 2: ENVIRONMENT_GLITCH]**
+> **Location:** Dudael Desert Quarantine Zone. **Terrain:** The hyper-realistic sand is violently transitioning into a raw green-on-black wireframe grid directly beneath Azazel's feet. **Lighting:** Harsh, un-diffused sunlight (12:00 PM position), casting pitch-black hard shadows. **Atmosphere:** The air is filled with floating "Error" icons and dust particles that are frozen in time.
 
 **[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** High-speed drone shot, orbiting the chaos. **Lens:** 35mm. **Focus:** Rapid rack focus between foreground giants and background destruction. **Style:** War journalism, shaky cam, high grain, intense color saturation (Red/Orange).
+> **Camera:** Dutch Angle (tilted), looking down into the opening void. **Lens:** 16mm Ultra-Wide. **Focus:** Deep focus, keeping both Raphael (foreground) and the falling Azazel (background) sharp. **Style:** Unreal Engine 5 Tech-Demo, Glitch Art, High-Fidelity textures contrasting with missing geometry.
+
+[SCENE: NOAH_RECEIVES_WARNING]
+**[BLOCK 1: SUBJECT_INTERACTION]**
+> **Actor 1:** Uriel (The Photon Messenger). **Appearance:** A construct of pure refractive light and chrome, no distinct facial features, just a silhouette of blinding luminance. **Actor 2:** Noah (The Backup). **Appearance:** Wearing simple linen, but his skin has a subtle marble subsurface scattering. **Action:** Uriel touches Noah's forehead with a finger made of fiber-optics. Noah recoils slightly into the shadows.
+
+**[BLOCK 2: ENVIRONMENT_INTERIOR]**
+> **Location:** Noah's Dwelling (The Safe Mode Chamber). **Architecture:** Minimalist stone walls, dark and cool. **Lighting:** The only light source is Uriel, illuminating the room with harsh, cold blueish-white light. **VFX:** Holographic warning text `HIDE_KERNEL` floating in the air between them in Ge'ez script.
+
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Over-the-shoulder shot from Noah's perspective looking at the blinding Uriel. **Lens:** 50mm. **VFX:** Lens flares, chromatic aberration around Uriel's edges to signify high energy output. **Style:** Sci-Fi Thriller, Moody, High Contrast.
+
+[SCENE: THE_CLEANSING_WAVE]
+**[BLOCK 1: ENVIRONMENT_TRANSFORMATION]**
+> **Location:** The Earth Surface (Global View). **Action:** A massive wall of white light (The Purge) is sweeping across the terrain from left to right. **Effect:** On the left (Pre-Purge): Red, burning, corrupted landscape with smoke. On the right (Post-Purge): A pristine, white grid which immediately populates with perfect, procedural green vegetation.
+
+**[BLOCK 2: CINEMATOGRAPHY]**
+> **Camera:** High Altitude Aerial / Satellite View. **Motion:** Slow, steady pan following the white line. **Lighting:** Flat, even lighting on the "clean" side; chaotic, flickering fire lighting on the "corrupt" side. **Style:** Simulation Visualization, Satisfying loop, Clean aesthetic.

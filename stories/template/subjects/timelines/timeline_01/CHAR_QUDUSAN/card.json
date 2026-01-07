@@ -3,53 +3,51 @@
   "name": "Qudusan",
   "type": "character",
   "card": {
-    "description": "A venerable custodian of the ancient machinery, Qudusan embodies the synthesis of spiritual authority and technical expertise. He appears as an elder statesman of a lost civilization, wearing vestments that function as both ceremonial robes and environmental hazard gear. His existence suggests a role midway between a high priest and a reactor engineer, maintaining the incomprehensible systems of the setting with ritualistic precision.",
+    "description": "Qudusan is a towering humanoid, 1.8 m tall, whose body is a composite of basaltic plates fused to a carbon‑fiber skeleton, weathered with soot and ancient glyphs. His armor is a jagged lattice of obsidian shards and brass filigree, etched with luminous hieroglyphs that pulse with bioluminescent energy. The face is replaced by a polished quartz ocular array, each lens embedded with micro‑LEDs that emit a soft amber glow, and a faint network of bioluminescent veins runs across the forehead. He carries an obsidian staff crowned with a sapphire crystal that hums with unseen power. The air around him shimmers with electromagnetic ripples, giving the scene a palpable sense of ancient, incomprehensible technology.",
     "tags": [
-      "character",
-      "elder",
-      "techno-priest",
-      "industrial mysticism",
       "ancient-tech",
-      "ethiopian aesthetic"
+      "industrial-mysticism",
+      "Ethiopian-Egyptian",
+      "bioluminescent",
+      "crystalline",
+      "obsidian-armor",
+      "mystic-technology"
     ],
     "visual_anatomy": [
-      "**Body/Form:** Tall and gaunt, with an imposing posture. Skin is deeply weathered, dark umber in tone, bearing the texture of ancient parchment.",
-      "**Face/Sensors:** The eyes are replaced or covered by sophisticated optical lenses set in tarnished brass frames, resembling jeweler's loupes integrated into the skull. A beard of tightly coiled grey hair is adorned with small metallic beads that may be data ports.",
-      "**Clothing/Armor:** Robes of heavy, coarse-weave linen in muted earth tones (ochre, terracotta, charcoal). Over this, a mantle of interlocking ceramic plates etched with geometric circuitry. A headdress that fuses a traditional turban shape with a cooling array and sensor cluster.",
-      "**Key Features:** Hands are encased in 'haptic prayer gauntlets'—articulated gloves of leather and copper designed for precise manipulation of hard-light interfaces or physical control rods."
+      "**Body/Form:** Titan‑sized humanoid, 1.8 m, basaltic plates fused to a carbon‑fiber frame, weathered seams, soot‑stained edges.",
+      "**Face/Sensors:** Quartz ocular array with micro‑LED amber glow, bioluminescent vein network across forehead.",
+      "**Clothing/Armor:** Obsidian shards and brass filigree armor, etched with glowing glyphs, copper‑thread mantle, bronze collar with central crystal.",
+      "**Key Features:** Central crystal eye, obsidian staff with sapphire top, crystalline conduits, bioluminescent glyphs, weathered basalt plates."
     ],
     "evolution": [
-      "Phase 1 (Default): The standard operating appearance. Qudusan is fully equipped for duty, his gear showing signs of centuries of careful maintenance and use. He carries an air of solemn focus."
+      "Phase 1 (Initiation): Qudusan begins as an apprentice, wearing a simple obsidian cuirass and a wooden staff with faint glyphs etched on forearms.",
+      "Phase 2 (Ascension): Qudusan fully integrates with ancient‑tech, armor becomes obsidian‑brass composite, glyphs glow brighter, staff transforms into a crystalline conduit."
     ],
     "props": [
-      "Item: Control Tablet (A slab of dark slate that illuminates with amber glyphs when touched)",
-      "Item: Calibration Stylus (A tool resembling a stylus or wand, tipped with a resonating crystal)"
+      "Item: Obsidian Staff of Sereph",
+      "Item: Crown of Sereph"
     ],
     "prompt_keywords": [
-      "Qudusan",
-      "ancient techno-priest",
-      "industrial mysticism",
-      "weathered skin",
-      "brass optics",
-      "ceramic armor",
-      "heavy linen robes",
-      "cinematic lighting",
-      "photorealistic",
-      "8k"
+      "ancient Ethiopian",
+      "obsidian armor",
+      "crystalline glyphs",
+      "bioluminescent veins",
+      "industrial mysticism"
     ],
-    "prompt_block": "Cinematic portrait of Qudusan, an ancient techno-priest, in a dimly lit, haze-filled industrial sanctum. He has dark, deeply lined skin and a grey beard adorned with metallic data-beads. His eyes are shielded by complex brass optical lenses. He wears heavy, textured robes of ochre and charcoal, overlaid with tarnished ceramic armor plates etched with glowing geometric circuits. He wears a turban-like headdress integrated with cooling fins and cabling. The lighting is dramatic, with shafts of dusty light cutting through the gloom, highlighting the textures of fabric and metal. 8k resolution, photorealistic, tactile textures, serious tone.",
+    "prompt_block": "A towering humanoid figure, Qudusan, stands in a dimly lit industrial cavern, his basaltic plates fused to a carbon‑fiber skeleton, wearing obsidian and brass armor etched with glowing ancient glyphs, a polished quartz ocular array emitting amber light, bioluminescent veins pulsing across his forehead, holding an obsidian staff topped with a sapphire crystal, the air shimmering with electromagnetic ripples, photorealistic, tactile, grounded realism, ancient Ethiopian and Egyptian aesthetics, industrial mysticism, photorealistic lighting",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Qudusan in his standard ceremonial-technical attire, maintaining the sacred machinery.",
+        "summary": "Qudusan in his fully integrated, ascended form, standing in a cavernous industrial setting.",
         "prompt_keywords": [
-          "techno-priest",
-          "ceremonial gear",
-          "industrial sanctum",
-          "brass optics"
+          "ancient Ethiopian",
+          "obsidian armor",
+          "crystalline glyphs",
+          "bioluminescent veins",
+          "industrial mysticism"
         ],
-        "prompt_block": "Cinematic portrait of Qudusan, an ancient techno-priest, in a dimly lit, haze-filled industrial sanctum. He has dark, deeply lined skin and a grey beard adorned with metallic data-beads. His eyes are shielded by complex brass optical lenses. He wears heavy, textured robes of ochre and charcoal, overlaid with tarnished ceramic armor plates etched with glowing geometric circuits. He wears a turban-like headdress integrated with cooling fins and cabling. The lighting is dramatic, with shafts of dusty light cutting through the gloom, highlighting the textures of fabric and metal. 8k resolution, photorealistic, tactile textures, serious tone."
+        "prompt_block": "Qudusan, a towering figure of basaltic plates and carbon‑fiber skeleton, stands in a dim industrial cavern. His obsidian‑brass armor is etched with glowing ancient glyphs, a polished quartz ocular array emits amber light, bioluminescent veins pulse across his forehead, and he holds an obsidian staff crowned with a sapphire crystal. The air shimmers with electromagnetic ripples, photorealistic, tactile, grounded realism, ancient Ethiopian and Egyptian aesthetics, industrial mysticism"
       }
     ]
   },

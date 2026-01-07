@@ -1,0 +1,113 @@
+{
+  "id": "PROP_FIRE",
+  "name": "fire",
+  "type": "prop",
+  "card": {
+    "description": "A living, crystalline flame that rises from a basalt altar carved with Ethiopian‑Egyptian glyphs. The 3‑meter‑tall blaze is composed of layered, bioluminescent plasma that flickers with golden hieroglyphic patterns. At its core sits a translucent, crystalline ember that hums with unseen energy, casting heat‑distorted ripples across the air. The fire is both elemental and engineered, a fusion of ancient mysticism and incomprehensible technology, rendered photorealistically with volumetric detail and tactile heat haze.",
+    "tags": [
+      "fire",
+      "prop",
+      "ancient-tech",
+      "volumetric",
+      "glyphic",
+      "crystalline"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** 3‑m tall volumetric flame, 1.5‑m base, layered plasma with a central crystalline core, emitting soft orange‑gold glow.",
+      "**Face/Sensors:** Glyphic patterns flicker across the surface, acting as living sigils that pulse with energy.",
+      "**Clothing/Armor:** None; the flame itself is the entity, its surface adorned with etched hieroglyphs that glow in sync with the core.",
+      "**Key Features:** Heat distortion ripples, bioluminescent glyphs, crystalline core humming, subtle metallic hum, crackling sound, tactile heat haze."
+    ],
+    "evolution": [
+      "Phase 1 (Default): Ignition from altar, stable crystalline flame with glyphic patterns.",
+      "Phase 2 (Optional): Flame expands, glyphs intensify, core emits brighter light. (Not used in current asset.)"
+    ],
+    "props": [
+      "Altar of Ember: Carved basalt base with etched glyphs, source of ignition.",
+      "Glyphic Core: Translucent crystalline core powering the flame."
+    ],
+    "prompt_keywords": [
+      "ancient",
+      "Ethiopian",
+      "Egyptian",
+      "crystalline",
+      "glyphic",
+      "volumetric",
+      "photorealistic",
+      "heat distortion",
+      "bioluminescent",
+      "industrial mysticism"
+    ],
+    "prompt_block": "A towering, crystalline flame rises from a basalt altar, its 3‑meter height illuminated by swirling golden glyphs etched in living fire, emitting heat distortion and a subtle metallic hum, photorealistic, volumetric, 8k, cinematic, 9:16, ancient Ethiopian‑Egyptian aesthetic fused with incomprehensible tech, tactile.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Stable crystalline flame with glyphic patterns",
+        "prompt_keywords": [
+          "ancient",
+          "Ethiopian",
+          "Egyptian",
+          "crystalline",
+          "glyphic",
+          "volumetric",
+          "photorealistic",
+          "heat distortion"
+        ],
+        "prompt_block": "A towering, crystalline flame rises from a basalt altar, its 3‑meter height illuminated by swirling golden glyphs etched in living fire, emitting heat distortion and a subtle metallic hum, photorealistic, volumetric, 8k, cinematic, 9:16, ancient Ethiopian‑Egyptian aesthetic fused with incomprehensible tech, tactile."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_FIRE",
+    "name": "fire",
+    "type": "prop",
+    "aliases": [
+      "Fire",
+      "fire"
+    ],
+    "roles": [
+      "element",
+      "environmental hazard",
+      "fire element",
+      "prop",
+      "source of heat",
+      "source of light",
+      "symbolic"
+    ],
+    "visual_traits": [
+      "burning"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_101",
+      "row_1034",
+      "row_104",
+      "row_108",
+      "row_110",
+      "row_135",
+      "row_262",
+      "row_355",
+      "row_477",
+      "row_638",
+      "row_693",
+      "row_959"
+    ],
+    "occurrence_count": 12,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 14,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

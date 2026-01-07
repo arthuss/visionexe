@@ -1,0 +1,89 @@
+{
+  "id": "SCENE_CHAPTER_10_SEGMENT_1",
+  "name": "Chapter 10 Segment 1",
+  "type": "scene",
+  "card": {
+    "description": "The Obsidian Oracle Core is a towering, 12‑meter obelisk forged from polished black obsidian, its surface etched with intricate, bioluminescent glyphs that pulse in a slow, rhythmic cadence. A crystalline core, a single, translucent sapphire‑like crystal, sits at the apex, refracting light into a spectrum of deep indigo and violet hues. The obelisk is encased in a lattice of hammered bronze alloy, etched with Ethiopian and Egyptian motifs—interlocking spirals, lotus petals, and the stylized face of the god Ankh. The bronze lattice is corroded in places, revealing the raw obsidian beneath, and is studded with small, embedded quartz crystals that amplify the core’s glow. The base of the obelisk is set upon a stone slab carved with runic inscriptions, and the entire structure emits a low, resonant hum that reverberates through the surrounding stone chamber.",
+    "tags": [
+      "ancient-tech",
+      "industrial-mysticism",
+      "Ethiopian-Egyptian",
+      "photorealistic",
+      "tactile",
+      "obsidian",
+      "crystalline-core",
+      "bioluminescent-glyphs"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** 12‑meter tall obelisk, tapering from a 3‑meter square base to a 0.5‑meter apex, constructed from black obsidian with a polished finish, featuring a central crystalline core.",
+      "**Face/Sensors:** Embedded quartz crystals along the bronze lattice act as sensors, detecting ambient vibrations and modulating the glyph illumination; the crystalline core houses a bio‑luminescent lattice that reacts to electromagnetic fluctuations.",
+      "**Clothing/Armor:** The obelisk is wrapped in a hammered bronze alloy lattice, etched with Ethiopian and Egyptian motifs; the lattice is partially corroded, revealing raw obsidian, and is reinforced with hidden steel ribs.",
+      "**Key Features:** Bioluminescent glyphs etched into obsidian, a single sapphire‑like crystalline core, embedded quartz sensors, bronze lattice with corroded sections, low resonant hum, stone slab base with runic inscriptions."
+    ],
+    "evolution": [
+      "Phase 1 (Activation): The crystalline core emits a faint, pulsing glow; glyphs flicker in a slow rhythm, and the resonant hum begins as a low thrum.",
+      "Phase 2 (Full Operation): The core pulses brighter, refracting light into a spectrum of indigo and violet; glyphs glow steadily, the hum deepens, and the quartz sensors begin to vibrate in sync with ambient energy."
+    ],
+    "props": [
+      "Item: Ancient Scroll of Glyphs – a weathered parchment containing the same glyphs as on the obelisk, used to calibrate the core.",
+      "Item: Crystalline Resonator – a handheld device that amplifies the core’s bio‑luminescent output when held near the obelisk."
+    ],
+    "prompt_keywords": [
+      "obsidian obelisk",
+      "bioluminescent glyphs",
+      "crystalline core",
+      "bronze lattice",
+      "Ethiopian-Egyptian motifs",
+      "photorealistic",
+      "tactile",
+      "industrial mysticism"
+    ],
+    "prompt_block": "A towering 12‑meter obsidian obelisk, its surface etched with glowing bioluminescent glyphs, a single sapphire‑like crystalline core at the apex refracting indigo and violet light, wrapped in a hammered bronze alloy lattice with Ethiopian and Egyptian motifs, partially corroded to reveal raw obsidian, embedded quartz crystals acting as sensors, set upon a stone slab with runic inscriptions, emitting a low resonant hum, photorealistic, tactile, industrial mysticism, cinematic lighting",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The Obsidian Oracle Core in its fully operational state, glowing with bioluminescent glyphs and a crystalline core.",
+        "prompt_keywords": [
+          "obsidian",
+          "glyphs",
+          "crystalline core",
+          "bronze lattice",
+          "bioluminescent",
+          "industrial mysticism"
+        ],
+        "prompt_block": "A fully operational 12‑meter obsidian obelisk, its surface illuminated by steady bioluminescent glyphs, a sapphire‑like crystalline core pulsing at the apex, surrounded by a hammered bronze lattice etched with Ethiopian and Egyptian motifs, embedded quartz crystals glowing faintly, set on a stone slab with runic inscriptions, emitting a deep resonant hum, photorealistic, cinematic, tactile, industrial mysticism"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_CHAPTER_10_SEGMENT_1",
+    "name": "Chapter 10 Segment 1",
+    "type": "scene",
+    "aliases": [
+      "Chapter 10 Segment 1"
+    ],
+    "roles": [],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_53"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 10,
+        "chapter_end": 10,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

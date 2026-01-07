@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 67 - 67
 
-**Phase Summary:** Standard operational mode, standing stoic with floating gravitational wings active.
-**Phase Keywords:** calm, standing, floating wings, blue sensor light
+**Phase Summary:** Default messenger angel state with full technological and mystical integration.
+**Phase Keywords:** ancient-tech, Ethiopian, Egyptian, angelic, photorealistic, industrial mysticism, bio-luminescent, crystalline, glyphs, obsidian, copper alloy
 **Phase Prompt:**
-Medium shot of a biomechanical Messenger Angel, ancient high-tech aesthetic. The figure has a gold mask and matte dark skin, wearing technical robes. Behind it, mechanical wing-slats float in the air, emitting a soft blue ionizing glow. The lighting is moody and atmospheric, highlighting the texture of the hammered metal and woven fabric. Neutral expression, stoic posture. Cinematic composition, highly detailed, 8k.
+Default state of the messenger angel: a 2.8‑meter tall, photorealistic figure combining ancient Ethiopian and Egyptian aesthetics with advanced industrial technology; obsidian armor plates etched with glowing glyphs, polished bronze filigree, crystalline quartz halo, copper alloy wings with hieroglyphic panels, basalt mask with green ocular implants, steam vents, hidden circuitry, bio‑luminescent veins, holographic sigil projection, cinematic lighting, tactile textures, grounded realism.
 
 ---

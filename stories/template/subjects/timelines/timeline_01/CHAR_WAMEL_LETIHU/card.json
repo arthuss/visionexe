@@ -1,0 +1,90 @@
+{
+  "id": "CHAR_WAMEL_LETIHU",
+  "name": "Wamel'letihu",
+  "type": "character",
+  "card": {
+    "description": "Wamel'letihu, enigmatic guardian of the Obelisk Archives, stands 6'5'' tall, a towering figure cloaked in woven obsidian silk that drapes like a cloak over a muscular frame. His skin is etched with luminous blue glyphs that pulse in sync with bioluminescent circuitry embedded beneath his ribs. He carries a basalt staff topped with a clear quartz crystal, channeling the raw energy of the sunken citadel.",
+    "tags": [
+      "ancient-tech",
+      "industrial-mysticism",
+      "Ethiopian-Egyptian",
+      "photorealistic",
+      "tactile",
+      "mystic-engineer"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** 6'5'' muscular frame, layered weathered leather and obsidian silk cloak, exposed ribcage revealing a lattice of bioluminescent circuitry and crystalline nodes glowing faintly blue.",
+      "**Face/Sensors:** elongated nose, high cheekbones, scarred brow; ocular implants: iridescent lenses embedded in temples, projecting holographic glyphs; skin: darkened, smooth with faint phosphorescent veins.",
+      "**Clothing/Armor:** woven obsidian silk robes with gold filigree, reinforced with basalt plates along shoulders and forearms; lightweight composite plates etched with ancient Ethiopian hieroglyphs interlaced with copper wiring; heavy leather boots with embedded quartz shards.",
+      "**Key Features:** central obelisk-shaped crystal embedded in chest pulsing with light; luminous runes along forearms; basalt staff with quartz crystal tip; handheld runic data tablet projecting holographic maps."
+    ],
+    "evolution": [
+      "Phase 1 (Default): Initial state – Wamel'letihu stands poised, staff in hand, glyphs glowing faintly; no transformation yet."
+    ],
+    "props": [
+      "Item: Staff of the Obelisk – basalt shaft with quartz crystal tip, etched with runic inscriptions.",
+      "Item: Runic Data Tablet – handheld device with holographic interface, etched with ancient glyphs."
+    ],
+    "prompt_keywords": [
+      "ancient-tech",
+      "mysticism",
+      "crystalline",
+      "glyphs",
+      "photorealistic",
+      "tactile",
+      "Ethiopian",
+      "Egyptian"
+    ],
+    "prompt_block": "A towering, photorealistic figure of 6'5'' named Wamel'letihu, a mystic engineer from an ancient Ethiopian-Egyptian civilization, wearing layered obsidian silk robes with gold filigree and basalt armor plates, his skin etched with luminous blue glyphs that pulse in sync with bioluminescent circuitry beneath his ribs, holding a basalt staff topped with a clear quartz crystal, his ocular implants shifting colors, projecting holographic runes, set against a dimly lit, industrial citadel backdrop with cracked stone and flickering torches, emphasizing tactile textures and grounded realism.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Wamel'letihu in his default guardian stance, staff raised, glyphs glowing.",
+        "prompt_keywords": [
+          "ancient-tech",
+          "mysticism",
+          "crystalline",
+          "glyphs",
+          "photorealistic",
+          "tactile",
+          "Ethiopian",
+          "Egyptian"
+        ],
+        "prompt_block": "A towering, photorealistic figure of 6'5'' named Wamel'letihu, a mystic engineer from an ancient Ethiopian-Egyptian civilization, wearing layered obsidian silk robes with gold filigree and basalt armor plates, his skin etched with luminous blue glyphs that pulse in sync with bioluminescent circuitry beneath his ribs, holding a basalt staff topped with a clear quartz crystal, his ocular implants shifting colors, projecting holographic runes, set against a dimly lit, industrial citadel backdrop with cracked stone and flickering torches, emphasizing tactile textures and grounded realism."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_WAMEL_LETIHU",
+    "name": "Wamel'letihu",
+    "type": "character",
+    "aliases": [
+      "Wamel'letihu"
+    ],
+    "roles": [
+      "unknown"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_108"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 14,
+        "chapter_end": 14,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,82 +1,280 @@
-CONCEPT_DEFINITION: PROTOCOL_LUMEN_INJECTION
+CONCEPT_DEFINITION: PROTOCOL_MIGRATION_V2
+REVISION: 2.0 (STRICT_MECHANISM)
 
-1. BIO-INJECTION (THE CHANGE):
-The "Light of Days" manifests as a complete texture-map overwrite. The epidermis of the Holy Subjects transitions from biological tissue to `TRANSLUCENT_PARIAN_MARBLE`. Subdermal veins are purged of blood and refilled with `LIQUID_GOLD_PHOTONICS` (6000K emissivity). The "Glory" is a visible halo-interface: a floating, rotating ring of Ge'ez glyphs above the cranium, signifying Root Access.
+1. BIO-INJECTION (THE UPDATE):
+The "Mitet" (Change) is a `MATERIAL_INSTANCE_OVERWRITE`. The biological epidermis of the Elect is not merely turned to marble, but replaced by `CERAMIC_HEAT_SHIELDING` (Matte White, Roughness 0.1) to withstand the high-energy latency of the "Light of Days" (Root Access). Subdermal vascular systems are purged of hemoglobin and replaced with `FIBER_OPTIC_BUS_LINES` carrying high-frequency data (Cyan/Gold). The "Glory" is an AR Overlay: a rotating, complex `USER_ID_HEADER` floating above the cranium, signaling Verified Admin Status.
 
-2. MESH-BREAK (THE AFFLICTION):
-For the Sinners, the "treasuring up of evil" is visualized as `GEOMETRY_CACHE_OVERFLOW`. Their physical mesh becomes unstable. Vertices vibrate violently (Z-fighting). Textures flicker between "Flesh" and "Raw Meat". The "Works of their hands" manifest as heavy, black obsidian chains growing out of their forearms, weighing down the mesh until it stretches and tears.
+2. MESH-BREAK (THE ERROR):
+The Sinners suffer from `POLYGON_DECIMATION`. As "unrighteousness" (corrupt data) piles up, their Level-of-Detail (LOD) crashes. They degrade from High-Poly humanoids to Low-Poly abstractions, then to chaotic wireframes. Their textures unwrap in real-time (`UV_UNWRAP_FAIL`), exposing raw flesh-tone maps and checkerboard error shaders. The "Works of their hands" manifest as `LOG_FILES`: heavy, floating black text strings of hexadecimal error codes that tether them to the ground like chains.
 
 3. PACING-STRATEGIE:
-Dual-Rate Rendering.
-The Holy are rendered at a perceived 120fps: smooth, fluid, slow-motion grace.
-The Sinners are rendered at a perceived 12fps: stuttering, jarring, missing frames.
-The edit cuts sharply between these two frame rates to induce visceral discomfort in the viewer.
+`BUFFER_UNDERRUN_PACING`.
+The Holy sequences run at a locked, perfect framerate (simulation of stability).
+The Sinner sequences introduce `FRAME_DROPPING` and `DATAMOSHING` artifacts. The edit cuts are not rhythmic music video cuts, but "System Interrupts"—black screens for 2 frames, jarring jumps in continuity, simulating a struggling processor.
 
 4. AUDIO-DESIGN:
-The "Name of the Lord of Spirits" is not a choir, but a `RESONANT_FREQUENCY_SWEEP`. It starts as a deep, chest-rattling sub-bass (30Hz) and sweeps up to a piercing crystalline sine wave (4000Hz).
-Background ambience: The hum of a massive, high-voltage transformer (The Presence) overlaid with the sound of tearing metal (The Sinners' mesh breaking).
+No choirs. The "Name of the Lord of Spirits" is a `CRYPTOGRAPHIC_HANDSHAKE`. It sounds like a 56k modem dial-up sequence slowed down by 8000%, transforming it into a massive, tectonic grinding noise that resolves into a pure, mathematical chord.
+Background: The hum of server cooling fans (The Presence) and the wet tearing sound of mesh separating (The Deletion).
 
 5. TRANSITIONS:
-`VOXEL_DISSOLVE`. The transition from the "Old State" to the "New State" isn't a fade. The reality decomposes into 1cm cubes for a split second, then reassembles in the upgraded configuration.
+`HEX_GRID_WIPE`. The reality doesn't dissolve; it is re-indexed. A scanning line (Green/White) passes over objects. Behind the line, the asset is updated (Holy) or removed (Sinner).
 
 6. FRAMEWORK & TIMING:
-Total Duration: 60 Seconds.
-Clip Count: 14 Clips.
+Total Duration: Approx. 75 Seconds.
+Clip Count: 15 Clips.
 Structure:
-- 00-15s: The Injection (Segment 1)
-- 15-35s: The Witnessing & Glitch (Segment 2 & 3)
-- 35-50s: The Judgment (Segment 4)
-- 50-60s: The Deletion (Segment 5)
+- 00-15s: The Migration Request (Seg 1: The Change)
+- 15-35s: The Log Dump (Seg 2: Unrighteousness piled up)
+- 35-50s: The Key Verification (Seg 3: Saved by the Name)
+- 50-65s: The Runtime Error (Seg 4: Judgment)
+- 65-75s: The Formatting (Seg 5: No Mercy)
 
 7. DIALOG-CHECK:
-Yes. The "Speaker" (System Voice/Uriel) delivers the verdict in Segment 4 & 5.
-Technique: No lip-sync. The voice resonates from the environment itself. The Speaker's face is a static, glowing mask.
+Minimal. The "Speaker" (Uriel/System Voice) announces the State Switch.
+Shot-Reverse-Shot is required for the "Showing to others" (Seg 2). We need to see the Sinners looking at the Holy, then the Holy looking back stoically.
 
-8. SPATIAL CONTEXT:
-Location: `BUFFER_ZONE_ZERO`. An infinite plane of polished black basalt.
-Sky: No stars. A ceiling of rolling, heavy gray data-clouds.
-Arrival: The subjects are already present, arranged in a grid formation. The camera tracks through the grid.
+8. SPATIAL CONTEXT (ARRIVAL):
+Location: `SERVER_NODE_ZION_PRIME`.
+Arrival: No movement. They are initialized in place. The camera does a "Boot Sequence" zoom—starting from a satellite view (orthographic) and snapping instantly to a ground-level view of the grid.
 
 SCENE_SEQUENCE_AND_PROMPTS:
 
-**[CLIP 01: ESTABLISHING_THE_GRID]**
-> **Subject:** The Collective (Holy and Sinners mixed). **Action:** Thousands of figures standing on an infinite black mirror plane. They are motionless, waiting. **Atmosphere:** Heavy gray fog, low visibility. **Camera:** High-angle drone shot, tracking slowly forward over the heads of the crowd. **Lighting:** Dim, diffuse ambient light. No direct sun. **Tech:** Unreal Engine 5, volumetric fog, monochromatic palette.
+**[CLIP 01: SYSTEM_BOOT_ESTABLISHING]**
+> **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** None (Crowd Simulation). **Physique:** Thousands of identical, gray-boxed humanoid placeholders standing in a rigid grid. **Skin-Shader:** `DEFAULT_GREY_MAT`. **Optics:** None. **Hair:** None.
+>
+> **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Garment:** None. Raw geometry. **Primary Prop:** None. **Interface-VFX:** Massive holographic grid lines (Cyan) projected over the floor.
+>
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** `BUFFER_ZONE_ZERO`. An infinite, flat, reflective obsidian plane under a sky of static noise. **Architecture:** None. Infinite horizon. **Atmosphere:** Digital haze, scanlines in the air.
+>
+> **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** `GLOBAL_ILLUMINATION_OFF`. Flat, ambient occlusion only. Stark, clinical, colorless. **Palette:** 50% Grey, Black, Cyan Grid.
+>
+> **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Extreme High Angle (Satellite View). **Lens:** Orthographic. **Motion:** Rapid zoom in from orbit to ground level (snap zoom). **Style:** Technical diagram, wireframe overlay.
 
-**[CLIP 02: THE_INJECTION_EVENT]**
-> **Subject:** The Atmosphere. **Action:** The gray clouds tear open. A massive, vertical beam of solid white light impacts the center of the grid. **VFX:** Shockwave of gold particles ripples out from the impact point. **Camera:** Low angle, looking up at the tear in the sky. **Style:** High contrast, overexposed center, deep shadows at edges.
+**[CLIP 02: THE_MIGRATION_SIGNAL]**
+> **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** The Elect (Group of 3). **Physique:** Humanoid. **Skin-Shader:** Transitioning. A vertical laser-scan line passes down their bodies. Above the line: `CERAMIC_WHITE`. Below: Biological flesh. **Optics:** Closed.
+>
+> **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Garment:** `DATA_WEAVE_ROBES`. Simple tunics that shimmer like LCD screens. **Interface-VFX:** The scan line emits sparks of gold code.
+>
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** `BUFFER_ZONE_ZERO`. **Atmosphere:** The static sky begins to organize into ordered geometric clouds.
+>
+> **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** `SCAN_LIGHT`. The only light source is the laser-scan line itself. **Palette:** Flesh tones (muted), Stark White, Laser Green.
+>
+> **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Medium Shot, tracking the scan line downwards. **Lens:** 50mm. **Focus:** Sharp on the transition edge. **Style:** High-tech product reveal.
 
-**[CLIP 03: HOLY_TRANSFORMATION_MACRO]**
-> **Subject:** Holy Subject (Male, 30s). **Action:** The gold shockwave hits him. His skin instantly bleaches into white marble. **Detail:** Extreme close-up on the arm. Veins ignite with gold light. **Texture:** Subsurface scattering on marble, emissive veins. **Camera:** Macro lens (100mm), shallow depth of field.
+**[CLIP 03: HOLY_SKIN_MACRO]**
+> **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Holy Subject (Hand/Arm). **Physique:** Perfect geometry. **Skin-Shader:** `PORCELAIN_SSS`. The skin is hard, white, polished. **Optics:** N/A.
+>
+> **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Garment:** N/A. **Primary Prop:** N/A. **Interface-VFX:** Subdermal veins ignite. Instead of blood, liquid gold light pumps rhythmically through fiber-optic channels under the ceramic shell.
+>
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Macro void.
+>
+> **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** Subsurface Emission. The light comes from *inside* the arm. **Palette:** White, Gold.
+>
+> **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Macro (100mm). **Lens:** Shallow DOF. **Motion:** Slow tracking along the vein. **Style:** Medical imaging, ultra-clean.
 
-**[CLIP 04: HOLY_FACE_REVEAL]**
-> **Subject:** Holy Subject (Same). **Action:** He looks up. Eyes are now `SOLAR_APERTURES` (beaming light). A holographic halo of Ge'ez text ignites above his head. **Expression:** Serene, stoic. **Lighting:** The light from his own eyes illuminates the fog around him. **Camera:** Medium Close-Up, slow push in.
+**[CLIP 04: THE_HEADER_DOWNLOAD]**
+> **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Holy Subject (Head). **Physique:** Transformed. **Skin-Shader:** Ceramic White. **Optics:** Eyes open—solid cyan light.
+>
+> **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Garment:** High collar tech-robe. **Interface-VFX:** A halo forms—not a ring, but a rotating cylinder of Ge'ez glyphs (`USER_ID: ELECT`). It snaps into place above the head with a digital "Lock" animation.
+>
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** `BUFFER_ZONE_ZERO`. **Atmosphere:** Clean air around the subject.
+>
+> **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** Rim light from the Halo. **Palette:** Cyan, White, Gold.
+>
+> **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Low Angle (Hero Shot). **Lens:** 35mm. **Motion:** Slight push in. **Style:** Cinematic portrait.
 
-**[CLIP 05: SINNER_GLITCH_START]**
-> **Subject:** Sinner Subject (Male, rough features). **Action:** He shields his eyes from the light. His hand begins to artifact. **VFX:** The fingers elongate and snap back (vertex displacement). Black smoke leaks from his pores. **Camera:** Dutch angle (tilted), shaky handheld motion. **Style:** Gritty, noise grain added.
+**[CLIP 05: SINNER_ERROR_LOG]**
+> **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Sinner Subject (Male). **Physique:** Disheveled. **Skin-Shader:** Sweaty, pale biological skin. **Optics:** Fearful, darting.
+>
+> **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Garment:** Ragged, low-poly clothes. **Primary Prop:** `ERROR_CHAINS`. Heavy black text strings (Hex codes) materialize in the air, attaching to his wrists and ankles like magnetic shackles.
+>
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** The same grid, but his sector is dark. **Atmosphere:** Heavy black smoke rising from the floor.
+>
+> **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** Red Warning Light (Strobe). **Palette:** Black, Red, Pale Skin.
+>
+> **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** High Angle (looking down). **Lens:** 24mm wide. **Motion:** Shaky handheld. **Style:** Security camera footage, distressed.
 
-**[CLIP 06: THE_WITNESSING]**
-> **Subject:** Group of Sinners. **Action:** They look at the glowing Holy Subject nearby. They recoil in fear. **Prop:** Heavy black obsidian chains materialize on their wrists, dragging them down. **Physics:** Heavy cloth simulation, weight of chains pulling the mesh. **Camera:** Wide shot, showing the contrast between the glowing Holy and the darkening Sinners.
+**[CLIP 06: MESH_INSTABILITY]**
+> **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Sinner Subject (Arm/Hand). **Physique:** Glitching. **Skin-Shader:** Texture flickering between "Flesh" and "Null" (Magenta).
+>
+> **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Garment:** N/A. **Primary Prop:** N/A. **Interface-VFX:** `VERTEX_EXPLOSION`. Spikes of geometry shoot out from the arm as the mesh topology fails.
+>
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Dark sector.
+>
+> **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** Strobe. **Palette:** Flesh, Magenta (Error), Black.
+>
+> **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Medium Close-Up. **Lens:** 50mm. **Motion:** Vibration/Jitter. **Style:** Glitch art, data corruption.
 
-**[CLIP 07: REPENTANCE_ATTEMPT]**
-> **Subject:** Sinner Subject. **Action:** He tries to kneel/pray. As he clasps his hands, they clip through each other (collision failure). He screams (silent). **VFX:** His texture map flickers to "Wireframe" for a split second. **Camera:** High angle, looking down at his failure.
+**[CLIP 07: THE_COMPARISON_A]**
+> **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Sinner Group. **Physique:** Distorted, low-poly. **Skin-Shader:** Grey/Muddy.
+>
+> **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Garment:** Rags. **Interface-VFX:** They point at the Holy Subject.
+>
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Grid boundary. **Background:** In the distance, the Holy sector is glowing white.
+>
+> **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** Silhouette against the light. **Palette:** Black silhouettes, White background.
+>
+> **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Over-the-shoulder of Sinner looking at Holy. **Lens:** 85mm. **Focus:** Focus pull from Sinner (foreground) to Holy (background).
 
-**[CLIP 08: THE_NAME_VISUALIZATION]**
-> **Subject:** Abstract Audio Visualization. **Action:** The air itself vibrates. Visible concentric rings of distortion ripple through the air. **Effect:** The rings pass through a Holy Subject (stabilizing them) and hit a Sinner (shattering them). **Camera:** Side profile slow motion.
+**[CLIP 08: THE_COMPARISON_B]**
+> **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Holy Subject. **Physique:** Perfect, glowing. **Skin-Shader:** Ceramic/Light.
+>
+> **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Garment:** Data-Weave. **Interface-VFX:** The Halo rotates calmly.
+>
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Light Sector.
+>
+> **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** Soft, diffuse gold. **Palette:** White, Gold.
+>
+> **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Reverse shot. Frontal view of Holy subject looking back at Sinner (off-screen). Expression: Null/Stoic. **Lens:** 85mm.
 
-**[CLIP 09: SPEAKER_JUDGMENT]**
-> **Subject:** The Speaker (Uriel/Avatar). **Appearance:** A towering figure of pure polished chrome, no face, just a reflection of the scene. **Action:** Standing on a raised dais. Pointing a finger at the Sinners. **Lighting:** The chrome reflects the gold light of the Holy and the black smoke of the Sinners. **Camera:** Low angle, looking up at the giant.
+**[CLIP 09: THE_KEY_MANIFESTATION]**
+> **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** None. Abstract visualization. **Physique:** N/A.
+>
+> **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Primary Prop:** `THE_NAME`. A massive, complex 3D QR-Code/Fractal object made of solid light manifests in the sky. **Interface-VFX:** It pulses with a "Heartbeat" audio-visual sync.
+>
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Sky above the Grid.
+>
+> **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** The object is the light source. **Palette:** Pure White Spectrum.
+>
+> **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Low Angle looking straight up. **Lens:** Wide. **Motion:** Slow rotation. **Style:** 2001 Monolith vibe, but digital.
 
-**[CLIP 10: UNRIGHTEOUSNESS_FAIL]**
-> **Subject:** Sinner Subject. **Action:** "Unrighteousness shall not maintain itself." The subject tries to stand but collapses into a pile of untextured polygons. **VFX:** The mesh dissolves into black sand. **Camera:** Medium shot, static.
+**[CLIP 10: ACCESS_DENIED]**
+> **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Sinner Subject. **Physique:** Wireframe skeleton visible through transparent skin. **Skin-Shader:** Fading.
+>
+> **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Garment:** Dissolving. **Interface-VFX:** A large red holographic window pops up in front of his face: `INTEGRITY_CHECK_FAIL`.
+>
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Dark Sector.
+>
+> **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** Red GUI light on face. **Palette:** Red, Black.
+>
+> **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Close Up. **Lens:** 50mm. **Motion:** Subject collapses out of frame.
 
-**[CLIP 11: NO_MERCY_DELETION]**
-> **Subject:** Wide Shot of the Grid. **Action:** Multiple Sinners disintegrate simultaneously into columns of binary dust. They are erased. **Lighting:** The scene gets brighter as the dark elements are removed. **Camera:** Crane shot rising up.
+**[CLIP 11: THE_SPEAKER_URIEL]**
+> **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Uriel (System Admin). **Physique:** 3-meter tall android. **Skin-Shader:** `BLACK_CHROME`. Highly reflective mirror surface. No features.
+>
+> **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Garment:** None. Smooth shell. **Interface-VFX:** The reflection on his chest shows the Sinner collapsing.
+>
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Elevated Dais.
+>
+> **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** Reflections only. **Palette:** Chrome, reflection of Red/White.
+>
+> **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Low Angle. **Lens:** 24mm. **Motion:** Static. **Style:** Imposing, judge-like.
 
-**[CLIP 12: FINAL_STATE_GLORY]**
-> **Subject:** The Holy Remnant. **Action:** Only the glowing marble figures remain. They stand in perfect formation. The "Light of Days" (the beam) expands to fill the entire frame. **Atmosphere:** Pure white and gold. **Camera:** Slow pan across the faces of the chosen.
+**[CLIP 12: DELETION_EVENT_A]**
+> **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Sinner Subject. **Physique:** Dissolving.
+>
+> **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Interface-VFX:** `VOXEL_DISINTEGRATION`. The body breaks apart into 1cm black cubes. The cubes fall to the floor and vanish (physically deleted).
+>
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Grid.
+>
+> **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** Fading out. **Palette:** Black particles against grey floor.
+>
+> **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Medium Shot. **Lens:** 50mm. **Motion:** Slow motion capture of the breakdown.
 
-**[CLIP 13: CLOSE_UP_EYE]**
-> **Subject:** Holy Subject Eye. **Action:** Extreme close up on the glowing eye. We see the reflection of the "Lord of Spirits" (a complex geometric fractal) in the eye. **Camera:** Macro.
+**[CLIP 13: DELETION_EVENT_B_WIDE]**
+> **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Multiple Sinners.
+>
+> **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Interface-VFX:** Pillars of black voxel dust rising where people stood. They are erased from the database.
+>
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** The Grid.
+>
+> **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** Increasing brightness as darkness is removed.
+>
+> **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Crane Shot rising high. **Lens:** Wide.
 
-**[CLIP 14: FADE_TO_WHITE]**
-> **Subject:** Abstract Light. **Action:** The gold light intensifies until the screen is completely white. **Text Overlay (Diegetic):** `PROTOCOL_COMPLETE`. **Camera:** Static.
+**[CLIP 14: THE_REMNANT_FORMATION]**
+> **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** The Holy Elect. **Physique:** Perfect Ceramic/Light beings. **Skin-Shader:** Glowing.
+>
+> **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Interface-VFX:** All Halos align.
+>
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Clean Grid. **Atmosphere:** Pure, dust-free.
+>
+> **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** High-Key. **Palette:** White, Cyan, Gold.
+>
+> **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Symmetrical Dolly Shot down a row of subjects. **Lens:** 35mm. **Style:** Leni Riefenstahl but cyber-angelic. Perfection and order.
+
+**[CLIP 15: FINAL_STATE_UI]**
+> **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** None.
+>
+> **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Interface-VFX:** A simple, terminal text prompt appears on a white screen: `MIGRATION_COMPLETE. 0_ERRORS_FOUND.`
+>
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Void.
+>
+> **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** Screen emission. **Palette:** White background, Black text.
+>
+> **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Static.

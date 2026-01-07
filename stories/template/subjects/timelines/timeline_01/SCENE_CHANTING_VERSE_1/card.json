@@ -1,0 +1,98 @@
+{
+  "id": "SCENE_CHANTING_VERSE_1",
+  "name": "Chanting Verse 1",
+  "type": "scene",
+  "card": {
+    "description": "Chanting Verse 1 is a cinematic, photorealistic scene set in a subterranean temple where a high priestess of Ethiopian-Egyptian heritage chants an ancient verse while advanced crystalline technology hums in unison, blending industrial mysticism with grounded realism.",
+    "tags": [
+      "ancient-tech",
+      "ritual",
+      "Ethiopian",
+      "Egyptian",
+      "industrial mysticism",
+      "photorealistic",
+      "cinematic",
+      "grounded realism"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Tall, lithe priestess with elongated limbs, draped in a flowing robe of metallic threads.",
+      "**Face/Sensors:** Mask adorned with bio‑luminescent glyphs and embedded sensor arrays that pulse in rhythm with the chant.",
+      "**Clothing/Armor:** Robe woven with metallic filaments, etched with ancient runes, integrated with crystalline hardware and subtle energy conduits.",
+      "**Key Features:** Crystalline staff emitting soft light, stone altar embedded with circuitry, walls etched in Ethiopian and Egyptian glyphs that glow with bio‑luminescence."
+    ],
+    "evolution": [
+      "Phase 1 (Initial Chant): The priestess begins chanting, low hum of ancient glyphs and subtle light flicker.",
+      "Phase 2 (Climax): Glyphs flare, staff pulses brighter, the altar vibrates with embedded circuitry, ambient light swirls."
+    ],
+    "props": [
+      "Item: Crystalline Staff",
+      "Item: Stone Altar with Embedded Circuitry",
+      "Item: Glyph‑etched Tablet"
+    ],
+    "prompt_keywords": [
+      "ancient",
+      "Ethiopian",
+      "Egyptian",
+      "crystalline",
+      "bio‑luminescent",
+      "ritual",
+      "industrial",
+      "mysticism",
+      "photorealistic",
+      "cinematic"
+    ],
+    "prompt_block": "A dimly lit subterranean temple with stone walls etched in ancient Ethiopian and Egyptian glyphs, a tall high priestess in a flowing robe of metallic threads chanting a sacred verse, her mask glowing with bio‑luminescent glyphs and sensor arrays, a crystalline staff pulsing with light, the stone altar embedded with circuitry, ambient bio‑luminescent light swirling around, photorealistic, tactile, cinematic, industrial mysticism, grounded realism.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Initial chanting scene with integrated ancient‑tech elements.",
+        "prompt_keywords": [
+          "ancient",
+          "Ethiopian",
+          "Egyptian",
+          "crystalline",
+          "bio‑luminescent",
+          "ritual",
+          "industrial",
+          "mysticism",
+          "photorealistic",
+          "cinematic"
+        ],
+        "prompt_block": "In a subterranean temple, a tall high priestess chants ancient verses, her mask glows with bio‑luminescent glyphs, a crystalline staff pulses, stone altar embedded with circuitry, walls etched with Ethiopian and Egyptian motifs, photorealistic, cinematic, tactile, industrial mysticism, grounded realism."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_CHANTING_VERSE_1",
+    "name": "Chanting Verse 1",
+    "type": "scene",
+    "aliases": [
+      "Chanting Verse 1"
+    ],
+    "roles": [
+      "unknown"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_844"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 90,
+        "chapter_end": 90,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

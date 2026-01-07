@@ -1,0 +1,32 @@
+## [PROP] justice (ID: PROP_JUSTICE)
+**Description:** A colossal basalt scale of justice, its polished bronze arms etched with ancient Ethiopian and Egyptian hieroglyphs, rests upon a stone pedestal studded with copper wires and quartz crystal lattices. At its center, a dark obsidian core emits a soft pulsing glow, illuminating the surrounding glyphs. The scale's surface is draped in a thin film of bio‑luminescent moss that softly glows, giving the structure a tactile, living quality. The scene is lit by warm, cinematic lighting that highlights the intricate carvings and the subtle interplay of light on the moss and metal, creating a grounded, photorealistic atmosphere.
+**Tags:** #ancient-tech #industrial-mysticism #Ethiopian #Egyptian #justice #prop #concept #photorealistic #tactile
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** Massive basalt scale with polished bronze arms, etched with intertwined Ethiopian and Egyptian glyphs.
+*   **Face/Sensors:** Central obsidian core with a pulsing bioluminescent glow that illuminates the glyphs and acts as a sensor interface.
+*   **Clothing/Armor:** The bronze arms are covered in a subtle layer of etched copper plating, reinforced with steel filaments hidden beneath the surface.
+*   **Key Features:** Bio‑luminescent moss film covering the scale, copper wiring embedded in the pedestal, quartz crystal lattice channels, and a faint holographic projection of balance lines.
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Default): The scale remains dormant, glyphs faintly glowing, moss covering the surface, core pulsing at a low frequency.
+
+### 3. PROPS & EQUIPMENT
+*   Item: Ancient basalt scale of justice
+*   Item: Polished bronze arms with etched glyphs
+*   Item: Obsidian core with pulsing glow
+*   Item: Copper wiring and quartz crystal lattice
+*   Item: Bio‑luminescent moss film
+
+### 4. AI PROMPT KEYWORDS
+`basalt`, `bronze`, `obsidian`, `glyphs`, `bio‑luminescent moss`, `copper wiring`, `quartz crystals`, `photorealistic`, `cinematic lighting`
+
+### 5. PROMPT BLOCK (T2I)
+A colossal basalt scale of justice, its polished bronze arms etched with ancient Ethiopian and Egyptian hieroglyphs, rests upon a stone pedestal studded with copper wires and quartz crystal lattices. At its center, a dark obsidian core emits a soft pulsing glow, illuminating the surrounding glyphs. The scale's surface is draped in a thin film of bio‑luminescent moss that softly glows, giving the structure a tactile, living quality. The scene is lit by warm, cinematic lighting that highlights the intricate carvings and the subtle interplay of light on the moss and metal, creating a grounded, photorealistic atmosphere.
+
+### 6. PHASE PROMPTS
+*   **Default:** Dormant basalt scale with faintly glowing glyphs and bio‑luminescent moss.
+    Prompt: A colossal basalt scale of justice, its polished bronze arms etched with ancient Ethiopian and Egyptian hieroglyphs, rests upon a stone pedestal studded with copper wires and quartz crystal lattices. At its center, a dark obsidian core emits a soft pulsing glow, illuminating the surrounding glyphs. The scale's surface is draped in a thin film of bio‑luminescent moss that softly glows, giving the structure a tactile, living quality. The scene is lit by warm, cinematic lighting that highlights the intricate carvings and the subtle interplay of light on the moss and metal, creating a grounded, photorealistic atmosphere.
+    Keywords: basalt, bronze, obsidian, glyphs, bio‑luminescent moss, copper wiring, quartz crystals, photorealistic, cinematic lighting
+
+---

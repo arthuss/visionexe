@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 18 - 102
 
-**Phase Summary:** The Moon as a mechanical construct with iris shutters.
-**Phase Keywords:** mechanical moon, iris shutter, brass gears, silver light
+**Phase Summary:** The Moon in its default state: pristine silver sphere with mechanical iris and glitching LED mesh.
+**Phase Keywords:** lunar, mechanical iris, glitching, ancient-tech, photorealistic, silvery sphere, geodesic dome, blue moonlight beam, ge'ez glyphs
 **Phase Prompt:**
-A colossal artificial moon in the night sky. It is a glowing silver sphere encased in a dark, matte black mechanical shell. A massive shutter mechanism like a camera iris is partially closed, creating a crescent shape. Intricate brass gears and heavy industrial machinery are visible within the mechanism. Cold, sharp blue moonlight beams down. Cinematic, mysterious, ancient technology, hyper-detailed, 8k.
+A photorealistic 3D render of the Moon as a perfect silver sphere, encased in matte black interlocking panels etched with ancient Ethiopian motifs, featuring a massive mechanical iris that rotates to cast a crescent shadow, a crystalline core emitting cold white light, and a hexagonal LED mesh glitching like a failing lightbulb, all set against a geodesic dome sky with LED nodes, illuminated by a focused blue moonlight beam, cinematic lighting, high contrast, 8k resolution
 
 ---

@@ -1,29 +1,29 @@
 ## [CHARACTER] Ametsa (ID: CHAR_AMETSA)
-**Description:** Ametsa is a somatic interface technician of the high-altitude distincts, serving as a living bridge between human laborers and the silent, heavy machinery of the Watchers. Her appearance fuses ascetic discipline with industrial necessity, marked by ritualistic scarification that mimics circuit topologies.
-**Tags:** #character #female #ethiopian #technician #mystic #ancient-tech #industrial
+**Description:** Ametsa, the venerable elder of the Obsidian Order, embodies the fusion of ancient Ethiopian and Egyptian mysticism with incomprehensible technology. In the dim glow of his workshop, he stands as a living relic: bronze alloy limbs etched with celestial glyphs, bioluminescent veins pulsing beneath skin, and a crystalline staff that hums with glyphic energy. His leather tunic, woven with copper filigree, clings to a body that bears the scars of countless experiments, all rendered in tactile, photorealistic detail.
+**Tags:** #ancient-tech #industrial mysticism #Ethiopian #Egyptian #crystalline #bioluminescent #tactile #photorealistic
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Lean, wired strength, posture rigid with sustained vigilance. Skin is deep umber, marked by 'Tech-Grafts'—gold-inlay circuitry tracing the radial nerves of her arms.
-*   **Face/Sensors:** High cheekbones, eyes possessing a milky, refractive sheen (tapetum lucidum implants) for low-light vision in machine bowels. A monocle-like brass lens is permanently affixed over the left orbital bone.
-*   **Clothing/Armor:** Wears 'Mechanic's Vestments'—layers of oil-stained heavy linen in ochre and soot-grey, reinforced with an apron of flexible ceramic tiles. A shawl of conductive copper mesh is draped over her shoulders.
-*   **Key Features:** Hair is styled in tight, geometric braids woven with fiber-optic filaments that glow faintly red in darkness. Hands are calloused, fingertips capped with sensory thimbles of tarnished silver.
+*   **Body/Form:** Robust torso with bronze alloy limbs, joints reinforced with obsidian plates, subtle wear marks from years of manipulation of arcane energy.
+*   **Face/Sensors:** Ocular lenses embedded with bioluminescent glyphs that shift with thought, a faint halo of phosphorescent veins radiating from the temples.
+*   **Clothing/Armor:** Woven leather tunic dyed in deep indigo, overlaid with copper filigree in the shape of ancient Ethiopian cross-stitch patterns; a chest plate of polished bronze etched with hieroglyphic sigils, reinforced with a lattice of translucent crystal.
+*   **Key Features:** A crystalline staff of Kemet, its core a living crystal that refracts light into fractal patterns; a scribe's tablet that projects holographic glyphs; bioluminescent veins that pulse in sync with the staff's hum.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): Standard operational attire, equipped for deep-sector maintenance and ritual diagnostics.
+*   Phase 1 (Default): Ametsa remains in his workshop, a master of ancient-tech, with no significant changes to his form or gear.
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Diagnostic Censer - A swinging brass vessel emitting analyzing vapors rather than incense.
-*   Item: Data-Spike - A heavy iron stylus etched with Enochian glyphs used to interact with slate interfaces.
+*   Item: Obsidian Staff of Kemet – a crystalline staff with a living core that emits glyphic light.
+*   Item: Scribe's Tablet – a weathered tablet that projects holographic glyphs when activated.
 
 ### 4. AI PROMPT KEYWORDS
-`Ametsa`, `ancient-tech`, `ethiopian aesthetics`, `industrial mysticism`, `biopunk`, `hyperrealistic`, `cinematic lighting`, `oxidized copper`, `oil-stained linen`
+`ancient-tech`, `Ethiopian motifs`, `crystalline implants`, `bioluminescent glyphs`, `photorealistic`, `tactile`, `industrial mysticism`, `Egyptian aesthetic`
 
 ### 5. PROMPT BLOCK (T2I)
-Cinematic medium shot of Ametsa, an Ethiopian industrial mystic, standing in a hazy machine cathedral. She has deep umber skin with gold circuit-inlay tattoos on her arms. She wears oil-stained ochre linen robes and a flexible ceramic apron. A brass lens device covers her left eye. Her hair is braided with glowing fiber-optic filaments. She holds a smoking brass diagnostic censer. The atmosphere is thick with dust and steam, lit by warm amber industrial lights. Texture of worn fabric and oxidized metal. Photorealistic, 8k, volumetric lighting, tactile realism.
+A photorealistic portrait of Ametsa, an elder technomancer from the Obsidian Order, standing in a dimly lit workshop, bronze alloy limbs etched with ancient Ethiopian glyphs, bioluminescent veins pulsing through his skin, wearing a leather tunic with copper filigree and a crystalline staff glowing with glyphs, the scene bathed in warm amber light, tactile textures of bronze, obsidian, and woven leather, cinematic lighting, grounded realism, industrial mysticism, ancient Egyptian aesthetic.
 
 ### 6. PHASE PROMPTS
-*   **Default:** Standard operational appearance in mechanic's vestments with diagnostic tools.
-    Prompt: Cinematic medium shot of Ametsa, an Ethiopian industrial mystic, standing in a hazy machine cathedral. She has deep umber skin with gold circuit-inlay tattoos on her arms. She wears oil-stained ochre linen robes and a flexible ceramic apron. A brass lens device covers her left eye. Her hair is braided with glowing fiber-optic filaments. She holds a smoking brass diagnostic censer. The atmosphere is thick with dust and steam, lit by warm amber industrial lights. Texture of worn fabric and oxidized metal. Photorealistic, 8k, volumetric lighting, tactile realism.
-    Keywords: mechanic vestments, brass lens, ceramic apron, fiber-optic braids
+*   **Default:** Ametsa in his workshop, no changes to form or gear.
+    Prompt: A cinematic, photorealistic depiction of Ametsa, the elder technomancer, in his dimly lit workshop. He stands with bronze alloy limbs etched in Ethiopian glyphs, bioluminescent veins pulsing beneath his skin, wearing a leather tunic with copper filigree, and holding a crystalline staff that emits glyphic light. The scene is bathed in warm amber, highlighting tactile textures of bronze, obsidian, and woven leather, with grounded realism and industrial mysticism.
+    Keywords: ancient-tech, Ethiopian motifs, crystalline staff, bioluminescent veins
 
 ---

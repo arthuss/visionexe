@@ -3,9 +3,8 @@
 **Chapters:** 37 - 72
 **Notes:** none
 
-**Phase Summary:** Clearer manifestation, white wool hair, judgment seat.
-**Phase Keywords:** White Wool Hair, Detailed Face, Throne of Glory, Judgment
+**Phase Keywords:** angelic, arid, sandy, azure, blue, blue, cloudless, bright, bright, glowing, celestial, daytime, desert, divine, earth
 **Phase Prompt:**
-close up portrait of The Head of Days. An ancient but ageless face with skin like polished alabaster. Hair and beard are composed of thick, white, glowing fiber-optic cables ('white wool'). Eyes are deep cosmic voids. Wearing a high-collar robe of shifting fractal patterns. Seated on a machinery-dense throne of wheels and crystals. Serious, terrifyingly calm expression. Sharp focus, macro details of the tech-hair.
+እግዚብሔር, angelic, arid, sandy, azure, blue, blue, cloudless, bright, bright, glowing, celestial, daytime, desert, divine, earth, earth/ground, expansive, expansive, blue, fire, glowing, heart, human, interior/inside, night, radiant, rain, sky, soft, pale, solid, ground, sun, unknown, vast, vast sky, water, wind, worldly, {}, Phase 2
 
 ---

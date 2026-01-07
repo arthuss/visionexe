@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 14 - 14
 
-**Phase Summary:** Mebrikt in standard operating gear for energy regulation.
-**Phase Keywords:** Mebrikt, standard gear, ceramic insulators, copper robes, quartz visor
+**Phase Summary:** Mebrikt in his default guardian form, fully integrated with crystalline tech.
+**Phase Keywords:** ancient Ethiopian, Egyptian, bioluminescent glyphs, crystalline core, basalt, obsidian, industrial mysticism, photorealistic, cinematic lighting
 **Phase Prompt:**
-Full shot of Mebrikt, a lightning technician of the ancient celestial machinery, standing in a hall of vibrating crystal pillars. Mebrikt wears heavy, rubberized leather robes adorned with copper cabling and large ceramic insulator discs on the shoulders. A dark quartz visor covers the face, glowing with thin slit-like blue eyes. They hold a bronze resonance rod that crackles with static electricity. The atmosphere is thick with ozone and volumetric shadows. Cinematic lighting, photorealistic, 8k, grounded industrial mysticism style.
+Mebrikt, a towering humanoid guardian of a sunlit temple, with basaltic skin etched in glowing bioluminescent glyphs, half of his face replaced by a translucent quartz faceplate, amber eyes, wearing an obsidian silk robe reinforced with bronze plates, holding a basalt staff with a pulsating quartz core, surrounded by ancient Ethiopian and Egyptian motifs, photorealistic, cinematic lighting, tactile textures, grounded realism, industrial mysticism
 
 ---

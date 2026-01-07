@@ -1,30 +1,30 @@
 ## [CHARACTER] Sarah Chen (ID: CHAR_SARAH_CHEN)
-**Description:** Sarah Chen, a Tech Archaeologist and Meta-Analyst, operates at the intersection of historical excavation and industrial mysticism. She deciphers the functioning of ancient, incomprehensible machinery, wearing gear that blends tactical field utility with retro-fitted analysis tech. Her appearance suggests a professional who is comfortable in deep subterranean vaults, illuminated by the cold glow of her analytical instruments.
-**Tags:** #character #tech_archaeologist #industrial_mysticism #cybernetic_wear #field_researcher
+**Description:** Sarah Chen, a meta-analyst and observer, stands poised in a dimly lit Ethiopian excavation site. Her HUD glasses project glyphic overlays onto the ancient stone, while her sable leather harness, etched with copper filigree, cradles a crystalline data core that glows with soft blue light. Bio‑luminescent veins trace her forearms, and subtle ocular implants pulse amber beneath her transparent lenses. The scene is cinematic, photorealistic, and tactile, fusing ancient Ethiopian and Egyptian mysticism with incomprehensible, industrial‑tech hardware.
+**Tags:** #meta-analyst #observer #hud glasses #tech archaeologist #ancient-tech #industrial mysticism #Ethiopian #Egyptian #photorealistic #tactile
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Lean, pragmatic build, posture of intense focus and observation, weathered skin from field exposure.
-*   **Face/Sensors:** Sharp, analytical features partially obscured by specialized HUD glasses—bulky, modified eyewear with multi-spectral lenses and scrolling amber data glyphs reflecting in her eyes.
-*   **Clothing/Armor:** High-collar reinforced field jacket in muted olive or slate grey, adorned with sensor harnesses and data-ports. Heavy canvas cargo pants with knee reinforcements. Fingerless tactical gloves for fine manipulation of artifacts.
-*   **Key Features:** A wrist-mounted diagnostic gauntlet consisting of brass dials and a small CRT screen, cabled directly into her jacket's power supply.
+*   **Body/Form:** Sleek, athletic build, ~5'9", wearing a fitted sable leather harness with copper filigree and carbon‑fiber ribs, bio‑luminescent veins along forearms.
+*   **Face/Sensors:** Transparent HUD glass overlays etched with hieroglyphic glyphs, ocular implants pulsing amber, faint scar across left brow.
+*   **Clothing/Armor:** Sable leather tunic reinforced with ancient basalt plates, integrated modular data core in chest cavity, hooded cloak woven from obsidian thread.
+*   **Key Features:** HUD glasses with glyph‑etched lenses, crystalline data core emitting blue light, bio‑luminescent veins, copper filigree motifs, basalt plates, obsidian cloak, ocular implants.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): Standard field operations configuration, fully equipped for analysis and observation in hazardous ancient environments.
+*   Phase 1 (Initial Fieldwork): Sarah wears basic field gear—minimal HUD, leather harness, basalt plates, and a simple data core.
+*   Phase 2 (Advanced Data Extraction): She upgrades to full HUD with glyph overlays, crystalline data core, bio‑luminescent veins, and an integrated obsidian cloak.
 
 ### 3. PROPS & EQUIPMENT
-*   Portable Spectrometer: A heavy, handheld device with vacuum tubes and a directional antenna.
-*   Field Journal: A physical leather-bound notebook stuffed with loose papers and schematics, clipped to her belt.
-*   Data-Spike: A jagged, crystalline interface tool used to probe ancient sockets.
+*   Item: HUD glasses with glyph‑etched lenses projecting holographic hieroglyphs
+*   Item: Crystalline data core embedded in chest harness, glowing blue
 
 ### 4. AI PROMPT KEYWORDS
-`Sarah Chen`, `tech archaeologist`, `HUD glasses`, `industrial mysticism`, `field gear`, `analog-digital hybrid`, `cinematic lighting`, `detailed texture`, `8k`, `photorealistic`
+`photorealistic`, `ancient-tech`, `Ethiopian`, `Egyptian`, `HUD`, `bio-luminescence`, `crystalline hardware`, `industrial mysticism`
 
 ### 5. PROMPT BLOCK (T2I)
-Cinematic shot of Sarah Chen, a tech archaeologist, investigating an ancient industrial vault. She wears a reinforced field jacket with visible cabling and sensor harnesses. Her face is illuminated by the amber glow of bulky, modified HUD glasses displaying scrolling data glyphs. She holds a heavy, retro-tech diagnostic device with brass dials and a small glowing screen. The atmosphere is dusty and thick, lit by shaft lighting and the bioluminescent hum of surrounding ancient machinery. Realistic textures, weathered fabric, tactile technology, sharp focus, volumetric lighting, 8k resolution.
+A photorealistic cinematic portrait of Sarah Chen, a meta‑analyst and observer, standing in a dimly lit Ethiopian excavation site, her HUD glasses projecting glyphic overlays onto ancient stone, her sable leather harness with copper filigree and bio‑luminescent veins, a crystalline data core glowing blue in her chest, the scene infused with industrial mysticism and ancient Egyptian motifs, tactile lighting and realistic textures.
 
 ### 6. PHASE PROMPTS
-*   **Default:** Sarah Chen in standard field analysis gear with HUD glasses active.
-    Prompt: Medium shot of Sarah Chen, tech archaeologist, wearing tactical field gear and bulky HUD glasses with amber digital overlays. She is looking intently at an off-screen artifact. Her jacket is detailed with pockets, cables, and a wrist-mounted computer. Lighting is dramatic, highlighting the dust in the air and the reflection in her lenses. Background suggests a dimly lit, metallic ancient structure. Photorealistic, cinematic composition, highly detailed textures.
-    Keywords: field gear, HUD glasses, analysis, ancient tech
+*   **Default:** Sarah Chen in her field analysis gear, blending ancient motifs with advanced tech.
+    Prompt: A photorealistic cinematic scene of Sarah Chen, a meta‑analyst, wearing HUD glasses with glyph‑etched lenses, standing in an ancient Ethiopian excavation, her sable leather harness with copper filigree and bio‑luminescent veins, a crystalline data core glowing blue in her chest, the environment infused with industrial mysticism and ancient Egyptian motifs.
+    Keywords: photorealistic, ancient-tech, Ethiopian, Egyptian, HUD, bio-luminescence
 
 ---

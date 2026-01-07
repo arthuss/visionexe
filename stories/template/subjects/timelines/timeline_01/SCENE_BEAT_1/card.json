@@ -1,0 +1,104 @@
+{
+  "id": "SCENE_BEAT_1",
+  "name": "Beat 1",
+  "type": "scene",
+  "card": {
+    "description": "A vast, luminous sky over an ancient Ethiopian citadel, the sun a crystalline monolith with swirling hieroglyphic circuitry, bio‑luminescent stars embedded in a lattice of obsidian glass, the horizon lined with towering basalt obelisks etched with luminous glyphs. The atmosphere is thick with a subtle dust haze that reflects the sun’s amber light, creating a warm, grounded realism that feels tactile and cinematic.",
+    "tags": [
+      "sky",
+      "sun",
+      "ancient-tech",
+      "Ethiopian",
+      "Egyptian",
+      "crystalline",
+      "hieroglyphic",
+      "holographic",
+      "dust haze",
+      "photorealistic"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Celestial dome spanning horizon, gradient from deep indigo to warm amber, cloud layers with crystalline textures and subtle dust motes.",
+      "**Face/Sensors:** Sun as a massive crystalline orb, facets etched with hieroglyphic circuitry that pulse with soft bioluminescent light, acting as a sensor array for the surrounding environment.",
+      "**Clothing/Armor:** N/A",
+      "**Key Features:** Crystalline sun, luminous glyphs, obsidian glass lattice horizon, bio‑luminescent stars, dust haze, towering basalt obelisks."
+    ],
+    "evolution": [
+      "Phase 1 (Default): Initial sunrise over the citadel with crystalline sun and glyph‑laden sky."
+    ],
+    "props": [
+      "Item: Obelisk of basalt etched with luminous glyphs",
+      "Item: Holographic lattice of bio‑luminescent stars"
+    ],
+    "prompt_keywords": [
+      "crystalline sun",
+      "hieroglyphic circuitry",
+      "obsidian lattice",
+      "bio‑luminescent stars",
+      "dust haze"
+    ],
+    "prompt_block": "A photorealistic, cinematic sky over an ancient Ethiopian citadel, featuring a crystalline sun with swirling hieroglyphic circuitry, bio‑luminescent stars embedded in an obsidian glass lattice, dust haze reflecting warm amber light, towering basalt obelisks etched with luminous glyphs, grounded realism, tactile textures, ancient‑tech aesthetic, no generic sci‑fi, no cartoon, no toy look",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Sunrise over ancient citadel with crystalline sun and glyph‑laden sky.",
+        "prompt_keywords": [
+          "crystalline sun",
+          "hieroglyphic circuitry",
+          "obsidian lattice",
+          "bio‑luminescent stars",
+          "dust haze"
+        ],
+        "prompt_block": "A photorealistic, cinematic sky over an ancient Ethiopian citadel, featuring a crystalline sun with swirling hieroglyphic circuitry, bio‑luminescent stars embedded in an obsidian glass lattice, dust haze reflecting warm amber light, towering basalt obelisks etched with luminous glyphs, grounded realism, tactile textures, ancient‑tech aesthetic, no generic sci‑fi, no cartoon, no toy look"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_BEAT_1",
+    "name": "Beat 1",
+    "type": "scene",
+    "aliases": [
+      "Beat 1"
+    ],
+    "roles": [
+      "Day",
+      "sun",
+      "unknown",
+      "ሰማይ"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_10",
+      "row_109",
+      "row_209",
+      "row_287",
+      "row_367",
+      "row_466",
+      "row_520",
+      "row_545",
+      "row_562",
+      "row_691",
+      "row_820",
+      "row_871",
+      "row_916",
+      "row_943"
+    ],
+    "occurrence_count": 14,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 2,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

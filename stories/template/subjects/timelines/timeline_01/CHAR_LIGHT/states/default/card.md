@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 102 - 102
 
-**Phase Summary:** A vertical column of solid light acting as a physical structure.
-**Phase Keywords:** solid light column, frozen dust, opaque beam, geometric light
+**Phase Summary:** Default manifestation of Light as a crystalline humanoid with glowing glyphs.
+**Phase Keywords:** crystalline, luminescent, ancient, Ethiopian, Egyptian, glyphs, hard‑light, bioluminescence, photorealistic, cinematic, tactile
 **Phase Prompt:**
-cinematic shot of a massive vertical beam of solid light, opaque white luminance, cutting through the desert night, ionizing dust particles floating frozen in the air, hard geometric edges, ancient industrial sci-fi aesthetic, vitrified ground at contact point, high contrast, 8k, photorealistic
+A towering 2.5‑meter crystalline humanoid, its facets etched with flowing Ethiopian script and Egyptian hieroglyphs that glow in blues and golds, refracting ambient light into a prismatic halo. The smooth crystal dome face features a pulsing iris‑like luminescent sphere, while bioluminescent veins trace the limbs. Hard‑light cables extend from the shoulders, projecting beams that carve the air into crystalline lattices. The entity is surrounded by a mantle of dynamic hard‑light threads forming living ancient motifs, all rendered in photorealistic, 8k cinematic detail with high‑contrast rim lighting and tactile textures.
 
 ---

@@ -3,9 +3,9 @@
 **Chapters:** 70 - 70
 **Notes:** {'phase': 'Phase 2: spirit', 'description': 'Spirit form'}
 
-**Phase Summary:** The spirit form, composed of light and data.
-**Phase Keywords:** spirit form, solid light, translucent, holographic, glitch
+**Phase Summary:** Luminous semi‑transparent entity composed of obsidian crystal lattice, crystalline glyphs, and a glowing blue core.
+**Phase Keywords:** luminescent, obsidian, crystalline, glyphs, light network, spirit, ancient, Ethiopian, Egyptian, photorealistic
 **Phase Prompt:**
-silhouette of a man composed of solid gold light and floating data particles, semi-transparent, internal geometry visible, glitching edges, ethereal presence, dark void background, mystical sci-fi, divine technology, volumetric rays, 8k, unreal engine 5 render, glowing aura.
+A cinematic, photorealistic 8K depiction of He in spirit form: a luminous, semi‑transparent entity composed of swirling obsidian crystal lattice, crystalline glyphs etched in flowing patterns, a central obsidian core emitting soft blue light, a network of light threads connecting to a glowing blue 3‑D wireframe sphere within the eye, ethereal glow, ancient Ethiopian/Egyptian glyphs floating around, grounded realism, tactile textures, no cartoon or toy look.
 
 ---

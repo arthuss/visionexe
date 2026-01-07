@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 103 - 103
 
-**Phase Summary:** The entity in its standard, imposing state, ready to terminate.
-**Phase Keywords:** stalking pose, red sensor glow, shimmering air distortion, imposing stature
+**Phase Summary:** Death manifests as a glitching, obsidian sphere with glowing glyphs and a red core.
+**Phase Keywords:** obsidian, glyphs, red-core, glitch, chromatic-aberration
 **Phase Prompt:**
-A photorealistic medium shot of the character 'Death', a towering ancient-tech cyborg executioner. It stands menacingly, its matte-black armor absorbing light. The vertical red sensor on its obsidian face-plate pierces the darkness. It wears a golden industrial collar and tattered cable-shrouds. Heat shimmer and digital distortion ripple around its body. It holds a technical staff with a tuning-fork tip. Dark, atmospheric lighting, volumetric fog, cinematic composition, 8k, highly detailed textures of stone and metal.
+A colossal obsidian alloy sphere, 30 m in diameter, stands on the moon’s fractured surface, its outer shell a fractured crystalline lattice of titanium and obsidian panels. Ancient Ethiopian and Egyptian glyphs etched into the surface glow with bio‑luminescent veins, pulsing in sync with a low‑frequency vibration emitted from a central red crystal core. The sphere’s crown of obsidian shards and metallic filigree echoes pharaonic regalia, while chromatic aberrations distort surrounding light and overlay digital ‘NO SIGNAL’ textures across the moon’s broken edge, creating a cinematic, photorealistic tableau of industrial mysticism and grounded realism.
 
 ---

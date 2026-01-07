@@ -34,77 +34,80 @@ SCREENPLAY: GENESIS_OS_BOOT_V2
 TOTAL DURATION: 65 SECONDS
 CLIP COUNT: 18
 
-[CLIP 01: SYSTEM_POST]
-**[BLOCK 1: SUBJECT_IDENTITY]**
-> **Actor:** Enoch (System Admin). **Physique:** Gaunt, pale, sweat on brow. **Action:** Extreme Close-Up on the temple/side of head. **VFX:** Subdermal veins turn from blue to gold as the system posts. Skin translucency increases.
+[CLIP 01: SYSTEM_POST_INIT]
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Enoch (System Admin). **Physique:** Gaunt, pale, sweat on brow. **Action:** Extreme Close-Up on the temple/side of head. **Skin-Shader:** `SUBSURFACE_TRANSLUCENCY_V4`. Skin is pale parchment, highly detailed pores. **VFX:** Subdermal veins pulsing from biological blue to fiber-optic gold. The temporal artery throbs in sync with a heavy bass thrum.
 
-**[BLOCK 2: AUDIO_CUE]**
-> **Sound:** BIOS beep. Hard drive spin-up.
+**[BLOCK 2: CINEMATOGRAPHY]**
+> **Camera:** Macro Lens (100mm). **Focus:** Shallow depth of field on the temple vein. **Lighting:** Low-key, single flickering strobe light simulating a "Hard Drive LED" activity status.
 
 [CLIP 02: RETINAL_HUD_LOAD]
 **[BLOCK 1: SUBJECT_OPTICS]**
-> **Actor:** Enoch. **Action:** Eyes open. **VFX:** Deep within the pupil, a 3D wireframe globe spins. The iris is locked open. Text scrolls rapidly across the surface of the eye: "CONNECTION_ESTABLISHED // NODE: SINAI".
+> **Actor:** Enoch. **Action:** Eyes snap open. **Optics:** `VITREOUS_IONIZATION`. The pupil is dilated. Deep inside the eye fluid, a 3D wireframe globe is spinning. **VFX:** Scrolling Ge'ez text reflects on the inner curve of the cornea. **Text:** "CONNECTION_ESTABLISHED // NODE: SINAI".
+
+**[BLOCK 2: ENVIRONMENT]**
+> **Background:** Pitch black void. The only light comes from inside the eye.
 
 [CLIP 03: SKYBOX_FAILURE]
 **[BLOCK 1: ENVIRONMENT_TRANSITION]**
-> **Location:** Desert Night Sky. **Action:** The stars do not twinkle; they are static pixels. **VFX:** A "Dead Pixel" line scans vertically down the sky. The black void turns into a dark blue wireframe grid. The simulation is being paused for maintenance.
+> **Location:** Desert Night Sky. **Action:** The stars halt their rotation instantly. **VFX:** A "Dead Pixel" line scans vertically down the sky. The starfield dissolves into a dark blue wireframe grid. The simulation skybox is being disabled for maintenance mode.
 
 [CLIP 04: THE_CONNECTION_CABLE]
 **[BLOCK 1: DEITY_MANIFESTATION]**
-> **Subject:** The Camp (Server Cluster). **Appearance:** A massive, inverted pyramid structure descending from the grid. **Action:** It extends a thick beam of solid, blinding white light. **VFX:** The beam looks like a fiber-optic cable, not a laser. It has mass and texture.
+> **Subject:** The Camp (Server Cluster). **Appearance:** A massive, inverted pyramid structure descending from the grid. **Action:** It extends a thick beam of solid, blinding white light. **VFX:** The beam looks like a physical fiber-optic cable, not a laser. It has mass, texture, and connects with a heavy mechanical *thud*.
 
 [CLIP 05: SINAI_HARDLINE_CONNECT]
 **[BLOCK 1: IMPACT_PHYSICS]**
-> **Location:** Mount Sinai Summit. **Action:** The white beam connects with the peak. **VFX:** No explosion. A magnetic shockwave. Dust particles freeze in mid-air. The rock at the contact point turns instantly into black obsidian glass (vitrification).
+> **Location:** Mount Sinai Summit. **Action:** The white beam connects with the peak. **VFX:** No fire explosion. A magnetic shockwave. Dust particles freeze in mid-air (Time Dilation). The rock at the contact point turns instantly into black obsidian glass (vitrification) due to data heat.
 
-[CLIP 06: WATCHER_LATENCY_ERROR]
+[CLIP 06: WATCHER_LATENCY_ERROR_WIDE]
 **[BLOCK 1: ANTAGONIST_GLITCH]**
-> **Entities:** The Watchers (Fallen Nodes). **Location:** Base of the mountain. **Action:** They attempt to flee. **VFX:** They are lagging. They run in place, rubber-banding back to their original positions. Their textures flicker between "Flesh" and "Static Noise".
+> **Entities:** The Watchers (Fallen Nodes). **Location:** Base of the mountain. **Action:** A group of robed figures attempts to flee. **VFX:** They are lagging. They run in place, rubber-banding back to their original positions.
 
-[CLIP 07: TERRAIN_LOD_COLLAPSE_01]
+[CLIP 07: WATCHER_TEXTURE_FAILURE_CLOSE]
+**[BLOCK 1: ENTITY_DETAIL]**
+> **Subject:** One Watcher face. **Action:** Screaming in silence. **VFX:** The texture of the face flickers between "Flesh" and "Static Noise". The mesh of the jaw detaches from the skull, floating independently due to a rigging error.
+
+[CLIP 08: TERRAIN_LOD_COLLAPSE_WIDE]
 **[BLOCK 1: LANDSCAPE_WIDE]**
-> **Location:** Surrounding Hills. **Action:** The camera pans quickly across the range. **VFX:** As the camera moves, the distant mountains pop from high-detail rock to low-poly geometric shapes. The system cannot render them fast enough.
+> **Location:** Surrounding Hills. **Action:** The camera pans quickly across the range. **VFX:** As the camera moves, the distant mountains pop from high-detail rock to low-poly geometric shapes. The system cannot render them fast enough to keep up with the Kernel presence.
 
-[CLIP 08: TERRAIN_LIQUEFACTION_02]
+[CLIP 09: TERRAIN_LIQUEFACTION_PHYSICS]
 **[BLOCK 1: PHYSICS_SIMULATION]**
 > **Subject:** A cliff face. **Action:** The stone loses structural integrity. **VFX:** The texture slides off the mesh like melting wax, pooling at the bottom. The grey underlying mesh is revealed, smooth and featureless.
 
-[CLIP 09: TERRAIN_DELETION_03]
+[CLIP 10: TERRAIN_DELETION_MACRO]
 **[BLOCK 1: MACRO_DETAIL]**
-> **Subject:** A single boulder. **Action:** It does not crumble. It dissolves into binary dust (0s and 1s). **VFX:** The particles float upward, defying gravity, as if being uninstalled.
+> **Subject:** A single boulder. **Action:** It does not crumble. It dissolves into binary dust (0s and 1s). **VFX:** The particles float upward, defying gravity, as if being uninstalled/deleted from the directory.
 
-[CLIP 10: EARTH_RENT_ASUNDER_WIDE]
+[CLIP 11: EARTH_RENT_ASUNDER_WIDE]
 **[BLOCK 1: GROUND_DESTRUCTION]**
 > **Location:** The Valley Floor. **Action:** A perfect, straight-line fissure opens in the ground. **VFX:** The edges are razor sharp (boolean cut). Inside is not magma, but the "Void" – a starfield of raw data.
 
-[CLIP 11: EARTH_RENT_ASUNDER_CLOSE]
+[CLIP 12: EARTH_RENT_ASUNDER_CLOSE]
 **[BLOCK 1: DEPTH_PERCEPTION]**
 > **Camera:** Top-down view into the fissure. **Action:** Camera drops into the crack. **VFX:** We see the "backside" of the terrain mesh. It is transparent from below. We are seeing under the map.
 
-[CLIP 12: THE_SCANNING_WAVE]
+[CLIP 13: THE_SCANNING_WAVE]
 **[BLOCK 1: JUDGMENT_MECHANIC]**
-> **Subject:** The Light Pillar at Sinai. **Action:** It emits a pulse. A red, flat plane of light expands horizontally. **VFX:** It passes through objects. Trees and rocks intersected by the red plane display wireframe cross-sections.
+> **Subject:** The Light Pillar at Sinai. **Action:** It emits a pulse. A red, flat plane of light expands horizontally. **VFX:** It passes through objects. Trees and rocks intersected by the red plane display wireframe cross-sections instantly.
 
-[CLIP 13: THE_ELECT_FIREWALL_INIT]
+[CLIP 14: THE_ELECT_FIREWALL_INIT]
 **[BLOCK 1: PROTECTION_SYSTEM]**
-> **Subject:** The Righteous (User Group A). **Action:** They stand calm. **VFX:** A hexagonal gold grid materializes around them. It snaps together like a puzzle. "ACCESS_GRANTED" floats in Ge'ez text above them.
+> **Subject:** The Righteous (User Group A). **Action:** They stand calm in the chaos. **VFX:** A hexagonal gold grid materializes around them. It snaps together like a puzzle. "ACCESS_GRANTED" floats in neon Ge'ez text above them.
 
-[CLIP 14: FIREWALL_DEFLECTION]
+[CLIP 15: FIREWALL_DEFLECTION]
 **[BLOCK 1: COLLISION_PHYSICS]**
 > **Subject:** The Red Scanning Wave vs. Gold Hex-Grid. **Action:** The red wave hits the gold barrier. **VFX:** Sparks of code fly. The wave flows around the dome like water around a stone. The inside remains untouched.
 
-[CLIP 15: THE_HOST_DEPLOYMENT_WIDE]
+[CLIP 16: THE_HOST_DEPLOYMENT_WIDE]
 **[BLOCK 1: SCALE_REVEAL]**
 > **Subject:** The Ten Thousand (Holy Ones). **Action:** The sky grid fills with thousands of identical light-points. **VFX:** They descend in perfect synchronization, forming a massive QR-code-like pattern in the sky.
 
-[CLIP 16: THE_HOST_UNIT_CLOSE]
+[CLIP 17: THE_HOST_UNIT_CLOSE]
 **[BLOCK 1: ENTITY_DETAIL]**
-> **Subject:** One "Holy One". **Appearance:** Not a human with wings. A spinning wheel of burning eyes and geometry (Ophanim class). **Action:** Hovering silently. **VFX:** Heat distortion ripples the air around it.
+> **Subject:** One "Holy One". **Appearance:** Not a human. A spinning wheel of burning eyes and concentric rings (Ophanim class). **Action:** Hovering silently. **VFX:** Heat distortion ripples the air around it. The eyes blink in binary patterns.
 
-[CLIP 17: ENOCH_OBSERVATION]
-**[BLOCK 1: REACTION_SHOT]**
-> **Actor:** Enoch. **Action:** He is watching the destruction with zero emotion. **VFX:** His face is lit by the red light of the scanning wave. His eyes are steady white beams.
-
-[CLIP 18: SYSTEM_LOG_UPDATE]
+[CLIP 18: ENOCH_OBSERVATION_HUD]
 **[BLOCK 1: UI_OVERLAY]**
-> **Subject:** Enoch's POV. **Action:** The destruction is framed by a HUD window. **Text:** "JUDGMENT_PROTOCOL: EXECUTING... 12% COMPLETE." **Background:** The world burning in digital fire.
+> **Subject:** Enoch's POV. **Action:** The destruction is framed by a HUD window. **Text:** "JUDGMENT_PROTOCOL: EXECUTING... 12% COMPLETE." **Background:** The world burning in digital fire. **VFX:** The HUD refresh rate is high (144Hz), contrasting with the glitching world behind it.

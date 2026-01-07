@@ -1,29 +1,30 @@
 ## [CHARACTER] Judge (ID: CHAR_JUDGE)
-**Description:** An imposing, stationary entity embodying the concept of absolute, calculated judgment. The Judge sits at the intersection of ancient hierarchy and quantum computation, appearing less as a person and more as a sentient monument. The design fuses the aesthetic of an ancient Mesopotamian ruler with the cold precision of a supercomputer core.
-**Tags:** #character #ancient-tech #industrial #mystical #monolithic #cybernetic
+**Description:** The Judge is a towering arbiter of the Null Void, a fusion of ancient Ethiopian and Egyptian iconography with incomprehensible technology. Its form is a translucent marble skeleton, etched with luminous glyphs that pulse in sync with its crystalline ocular lenses. The body is adorned with bronze plates bearing hieroglyphic patterns, and a flowing cape of woven obsidian fibers. The Judge’s presence is both awe‑inspiring and terrifying, as it manipulates the void with a scepter of pure light.
+**Tags:** #ancient-tech #industrial-mysticism #photorealistic #Ethiopian #Egyptian #translucent-marble #crystalline-hardware #bio-luminescence #glyphs #judgment
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Towering silhouette, seemingly fused to a throne of black basalt and server-rack density. Draped in heavy, articulated robes made of oxidized copper mesh and dark ceramic plates.
-*   **Face/Sensors:** The head is a smooth, elongated dome of polished obsidian, devoid of human features. A single, vertical slit runs down the center, emitting a scanning laser grid in cold blue.
-*   **Clothing/Armor:** Epaulets of heavy gold circuitry. The 'robes' are stiff, behaving more like folded metal sheets than fabric, etched with cuneiform micro-chip patterns.
-*   **Key Features:** Hands are multi-jointed mechanical manipulators, often resting motionless on the knees. A halo of floating, fragmented data-shards orbits the head slowly.
+*   **Body/Form:** Translucent marble skeleton, 12‑foot tall, ribbed structure with faint luminescent veins, bronze plates etched with hieroglyphic patterns.
+*   **Face/Sensors:** Crystalline ocular lenses that glow with bio‑luminescent light, sensor arrays integrated into the forehead, glyphs pulsing around the eyes.
+*   **Clothing/Armor:** Bronze plates, obsidian fiber cape woven with ancient symbols, tactile metallic edges.
+*   **Key Features:** Glyphic tablet, scepter of pure light, bio‑luminescent aura, crystalline hardware, ancient runes.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): The static, observing state. Immovable and stern, lit by the harsh red warning lights of the void.
+*   Phase 1 (Emergence): The Judge materializes from the void, marble skeleton forms, glyphs begin to glow.
+*   Phase 2 (Manifestation): Full form achieved, crystalline ocular lenses activate, scepter of light materializes, aura intensifies.
 
 ### 3. PROPS & EQUIPMENT
-*   Item: The Book of the Living (A slab of transparent aluminum displaying scrolling holographic names)
-*   Item: Scepter of Measurement (A rod of dull iron topped with a glowing geometric sensor array)
+*   Judgment Scale
+*   Scepter of Light
 
 ### 4. AI PROMPT KEYWORDS
-`The Judge`, `ancient cyborg`, `Mesopotamian sci-fi`, `obsidian mask`, `basalt throne`, `industrial mysticism`, `volumetric lighting`, `cinematic`, `8k`
+`translucent marble`, `crystalline ocular`, `glyphs`, `bio-luminescence`, `ancient Ethiopian`, `Egyptian`, `industrial mysticism`
 
 ### 5. PROMPT BLOCK (T2I)
-A low-angle, cinematic medium shot of The Judge, a colossal biomechanical entity seated on a dark basalt throne. The figure is robed in heavy, oxidized metallic garments with gold circuitry embroidery. The face is a smooth, windowless obsidian visor reflecting a harsh red environment. The atmosphere is thick with dust and static. Intricate details, photorealistic textures, grounded sci-fi, dramatic shadows.
+A towering figure in the Null Void, a Judge of ancient Ethiopian and Egyptian aesthetics fused with incomprehensible technology, translucent marble skeleton with ribbed structure, luminous glyphs pulsing along its surface, crystalline ocular lenses that glow with bio‑luminescent light, bronze plates etched with hieroglyphic patterns, obsidian fiber cape woven with ancient symbols, a scepter of pure light, photorealistic, cinematic lighting, dramatic shadows, tactile textures, 9:16 vertical composition, medium shot, high detail, dramatic lighting, cinematic
 
 ### 6. PHASE PROMPTS
-*   **Default:** The Judge in its standard, observing state within the void.
-    Prompt: A low-angle, cinematic medium shot of The Judge, a colossal biomechanical entity seated on a dark basalt throne. The figure is robed in heavy, oxidized metallic garments with gold circuitry embroidery. The face is a smooth, windowless obsidian visor reflecting a harsh red environment. The atmosphere is thick with dust and static. Intricate details, photorealistic textures, grounded sci-fi, dramatic shadows.
-    Keywords: stationary, observing, red lighting, imposing
+*   **Default:** Judge in Null Void, default appearance
+    Prompt: A towering figure in the Null Void, a Judge of ancient Ethiopian and Egyptian aesthetics fused with incomprehensible technology, translucent marble skeleton with ribbed structure, luminous glyphs pulsing along its surface, crystalline ocular lenses that glow with bio‑luminescent light, bronze plates etched with hieroglyphic patterns, obsidian fiber cape woven with ancient symbols, a scepter of pure light, photorealistic, cinematic lighting, dramatic shadows, tactile textures, 9:16 vertical composition, medium shot, high detail, dramatic lighting, cinematic
+    Keywords: translucent marble, crystalline ocular, glyphs, bio-luminescence, ancient Ethiopian, Egyptian, industrial mysticism
 
 ---

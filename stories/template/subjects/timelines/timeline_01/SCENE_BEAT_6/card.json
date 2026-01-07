@@ -1,0 +1,108 @@
+{
+  "id": "SCENE_BEAT_6",
+  "name": "Beat 6",
+  "type": "scene",
+  "card": {
+    "description": "Beat 6 unfolds in a subterranean basalt chamber carved into the earth, where a colossal stone altar rises from the floor. The altar is etched with intertwined Ethiopian and Egyptian glyphs that pulse with bioluminescent green light, revealing an integrated network of crystalline circuitry and metallic conduits. The chamber is dimly lit by hanging obsidian lanterns that cast fractured reflections across the worn stone, while dust motes drift in a low hum of unseen machinery. In the center, a lone figure in a tattered indigo linen robe with silver filigree places a bronze scepter onto the altar, triggering a cascade of light and sound that reverberates through the ancient-tech environment.",
+    "tags": [
+      "ancient-tech",
+      "industrial-mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "photorealistic",
+      "tactile",
+      "bioluminescent",
+      "crystalline-hardware"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** A vast vaulted chamber carved from basalt, featuring a 4‑meter diameter stone altar covered in interlocking glyphs that glow with soft green bioluminescence; jagged stone columns embedded with metallic conduits pulsing faint blue light.",
+      "**Face/Sensors:** A translucent crystalline core sits at the altar’s center, refracting light into a spectrum of colors; its surface is etched with responsive glyphs that emit a low hum when touched.",
+      "**Clothing/Armor:** The protagonist wears a tattered indigo linen robe with silver filigree mirroring the altar’s glyphs; the robe’s hem is frayed, revealing patches of worn leather, and the figure’s bare hands glow faintly where glyphs activate.",
+      "**Key Features:** Bioluminescent glyphs, crystalline core, metallic conduits, obsidian lanterns, dust motes, low hum, reflective basalt walls, worn stone floor, bronze scepter, stone tablet with hieroglyphs."
+    ],
+    "evolution": [
+      "Phase 1 (Exploration): The scene opens with the protagonist entering the chamber, dust swirling around their footsteps; the camera pans to reveal the altar and its glowing glyphs.",
+      "Phase 2 (Activation): The protagonist places the bronze scepter onto the altar, triggering the crystalline core to pulse, glyphs intensify, and the chamber fills with light."
+    ],
+    "props": [
+      "Item: Bronze scepter with etched runes",
+      "Item: Stone tablet with hieroglyphic inscriptions",
+      "Item: Obsidian lanterns",
+      "Item: Crystalline core",
+      "Item: Linen robe"
+    ],
+    "prompt_keywords": [
+      "bioluminescent",
+      "crystalline",
+      "glyphs",
+      "basalt",
+      "ancient",
+      "technology",
+      "Ethiopian",
+      "Egyptian",
+      "industrial",
+      "mysticism"
+    ],
+    "prompt_block": "A subterranean basalt chamber with a colossal stone altar etched in bioluminescent Ethiopian and Egyptian glyphs, a crystalline core pulsing with blue light, metallic conduits embedded in jagged stone columns, obsidian lanterns casting fractured reflections, a tattered indigo linen robe draped over a figure placing a bronze scepter onto the altar, dust motes swirling in a low hum, photorealistic, tactile, cinematic lighting",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Initial exploration of the subterranean temple before activation",
+        "prompt_keywords": [
+          "bioluminescent",
+          "crystalline",
+          "glyphs",
+          "basalt",
+          "ancient",
+          "technology",
+          "Ethiopian",
+          "Egyptian",
+          "industrial",
+          "mysticism"
+        ],
+        "prompt_block": "A subterranean basalt chamber with a colossal stone altar etched in bioluminescent Ethiopian and Egyptian glyphs, a crystalline core pulsing with blue light, metallic conduits embedded in jagged stone columns, obsidian lanterns casting fractured reflections, a tattered indigo linen robe draped over a figure placing a bronze scepter onto the altar, dust motes swirling in a low hum, photorealistic, tactile, cinematic lighting"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_BEAT_6",
+    "name": "Beat 6",
+    "type": "scene",
+    "aliases": [
+      "Beat 6"
+    ],
+    "roles": [
+      "unknown",
+      "ሰማይ"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_10",
+      "row_287",
+      "row_367",
+      "row_466",
+      "row_520",
+      "row_691",
+      "row_820",
+      "row_943"
+    ],
+    "occurrence_count": 8,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 2,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

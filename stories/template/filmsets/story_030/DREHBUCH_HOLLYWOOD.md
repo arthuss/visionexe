@@ -1,267 +1,207 @@
 # DREHBUCH KAPITEL 30 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Und ich sah die Täler des Ostens, wo das Wasser nicht fließt, sondern rechnet. Ein Duft von Mastix und Zimt stieg auf, schwer und süß wie überhitztes Metall, eine Warnung an die Sinne. Hier atmet das System, und jeder Atemzug ist eine Berechnung der Unendlichkeit.
+NARRATOR_TEXT: Und ich ging weit über das Gebirge hinaus, nach Osten, wo die Logik der Welt endet und die reine Berechnung beginnt. Ich sah Täler voll unerschöpflichem Wasser, das nicht fließt, sondern Daten strömt. Und in diesem Strom roch ich den Duft von Mastix und Zimt – nicht als Pflanze, sondern als chemischer Code, der tief in meine Sensoren drang und mir sagte: Hier ist der Rand des Systems.
 
-## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:04] [ESTABLISHING]
-**Action:** Infinite valleys filled with heavy, silver liquid mercury. The horizon flickers with a blue "No Signal" gradient. The water surface is perfectly flat and unnatural.
+## [ACT I] [SCENE 1.1] [Timecode: 00:00-00:05] [ESTABLISHING: THE EASTERN NODE]
+**Action:** Black void. Bright cyan laser grids ignite from below, mapping a vast, flat topology. Henoch descends vertically along the Y-Axis, his boots engaging magnetic locks onto a polished obsidian platform with a heavy metallic impact.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Eastern_Node_Sector_30", "env_change": true, "actors": [], "props": [], "camera": "Drone Shot / Fast Forward", "mood": ["awe", "sterile"], "director_intent": "Establish the infinite scale of the simulation error.", "start_image_keywords": ["mercury valleys", "basalt columns"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Eastern_Node_Sector_30", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle / Wide (14mm)", "mood": ["awe", "technological"], "director_intent": "Establish the synthetic creation of the environment from void to structure.", "start_image_keywords": ["laser grid", "obsidian platform", "vertical descent"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic establishing shot of infinite valleys filled with liquid mercury, flanked by geometric basalt columns. The horizon is a digital gradient of deep blue to black. Bioluminescent teal flora lines the edges. 9:16 aspect ratio, hyper-realistic, Unreal Engine 5 render, 8k resolution, raytraced reflections, sci-fi landscape.
+Cinematic low-angle shot looking up at Henoch (Voyager Phase) descending vertically from a black void. Cyan laser grids define a flat topology below him. He lands on a polished obsidian platform. He wears a silver-skin dermal suit and HUD-Visor. 9:16 aspect ratio, Unreal Engine 5 render, sharp neon outlines, volumetric lighting, high contrast, industrial sci-fi.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-Drone shot flying fast and low over a river of liquid mercury.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None (Environment Focus).
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite valleys filled with heavy silver liquid mercury. Banks are geometric basalt columns. Horizon flickers with blue No Signal gradient.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bioluminescent teal flora lining edges. Distant soft white artificial moon. Sterile, high contrast atmosphere.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Drone shot, fast low flyover at 100mph. 16mm Wide lens. 9:16 vertical format. Smooth motion.
+Henoch descending vertically and landing heavily on a platform as the world generates around him.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (Voyager Phase), silver synthetic skin, rigid posture.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Anti-Grav boots, HUD-Visor V2, Idris-Gloves.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Black void transitioning to obsidian floor via cyan laser grids.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cyan grid light from below, darkness above.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Low angle wide shot (14mm). High speed impact deceleration. 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep rhythmic industrial thrumming at 60Hz. No wind, just the heavy hum of machinery.
+Heavy industrial thud on impact. Digital handshake screech like a modem connecting, transitioning into a deep sub-bass hum.
 
-## [ACT 1] [SCENE 1.2] [Timecode: 00:04-00:07] [INGRESS]
-**Action:** A vertical slit of heat-distortion opens above the mercury. Henoch drops out, boots firing stabilization thrusters just before touching the liquid. Ripples are gold binary code.
+## [ACT I] [SCENE 1.2] [Timecode: 00:05-00:10] [DATA-INGRESS]
+**Action:** Henoch's HUD flickers with text: "SECTOR: EAST_PERIPHERY". Behind him, the jagged silhouettes of mountains (resembling server racks) dissolve into digital mist as they are unloaded from memory. He faces the open expanse.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "wide", "environment": "Eastern_Node_Sector_30", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Wide Shot / Tracking", "mood": ["dynamic", "impact"], "director_intent": "Show the physical impact of entering the simulation layer.", "start_image_keywords": ["heat rift", "silver skin"], "start_image_mode": "actor_in_env", "video_plan": {}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Eastern_Node_Sector_30", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "OTS (Over-The-Shoulder)", "mood": ["glitch", "transition"], "director_intent": "Show the system optimizing resources by unloading the previous sector.", "start_image_keywords": ["HUD overlay", "dissolving mountains", "server racks"], "start_image_mode": "actor_in_env", "video_plan": {}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Full body shot of Henoch (Voyager Phase) dropping from a vertical heat distortion rift above mercury water. He has silver-sheen skin and wears a HUD-Visor and Anti-Grav Boots firing stabilization thrusters. Gold binary code ripples on the liquid surface. 9:16 aspect ratio, action pose, dynamic lighting, cinematic sci-fi.
+Over-the-shoulder shot of Henoch looking at an infinite horizon. His HUD displays "SECTOR: EAST_PERIPHERY" in gold text. Behind him, dark mountains shaped like server racks are dissolving into digital mist and voxels. 9:16 aspect ratio, glitch art aesthetic, photorealistic foreground, data-moshing background.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-Henoch dropping from a rift and stabilizing with thrusters.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (Voyager Phase), silver-sheen synthetic skin, athletic build.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** HUD-Visor with gold data streams, Idris-Gloves, Anti-Grav Boots with thrusters active.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Above liquid mercury surface. Vertical heat-distortion rift closing above.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Glow from thrusters and rift. Reflections on mercury.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Wide shot tracking the drop. High shutter speed. 9:16 vertical format.
+Henoch observing the horizon while the background dissolves.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (Voyager Phase), back of head and shoulder.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** HUD-Visor projecting data in front of face.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Jagged server-rack mountains dissolving into mist.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Gold HUD light, dark environmental ambient.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** OTS shot. Rapid glitch-cut editing style simulated in motion. 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Turbine spin-down sound. Splash impact sounding like shattering glass.
+High-pitch electronic whine. System boot sequence sounds. Digital artifacting noise.
 
-## [ACT 1] [SCENE 1.3] [Timecode: 00:07-00:11] [STABILIZATION]
-**Action:** Henoch hovers 30cm above the surface. His visor scans the horizon. Text overlay: "SECTOR_30 // FLUID_SIMULATION: UNBOUNDED".
-**Dialog:** Sektor 30. Fluid-Simulation unbegrenzt. Das System ist hier... flüssig.
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Eastern_Node_Sector_30", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle / Medium", "mood": ["analytical", "calm"], "director_intent": "Henoch analyzes the environment in surveyor mode.", "start_image_keywords": ["hovering", "HUD scan"], "start_image_mode": "actor_in_env", "video_plan": {}, "voice_words_max": 10}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot of Henoch hovering slightly above a mercury surface. He is looking at the horizon with a HUD-Visor displaying gold data streams. Silver skin texture, industrial background. 9:16 aspect ratio, low angle, heroic composition, sci-fi aesthetic.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-Henoch hovering and scanning the horizon.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (Voyager Phase), silver-sheen skin.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** HUD-Visor emitting light, Anti-Grav Boots hovering.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Mercury surface below, distant digital horizon.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cool blue ambient light, gold HUD glow.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Medium shot, low angle. Slow floating motion. 9:16 vertical format.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Digital lock-on beep. Background industrial hum intensifies.
-
-## [ACT 1] [SCENE 1.4] [Timecode: 00:11-00:15] [ENVIRONMENT ERROR]
-**Action:** Close-up on the "shoreline". The basalt rocks glitch into wireframe meshes for a split second before rendering fully.
+## [ACT I] [SCENE 1.3] [Timecode: 00:10-00:15] [THE VALLEYS OF WATER]
+**Action:** Reveal of the "Valleys": Deep, architectural trenches filled with glowing blue coolant. The fluid moves with zero turbulence (Laminar Flow). It looks solid until a debris particle hits it and vanishes instantly.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "insert", "framing": "close_up", "environment": "Eastern_Node_Sector_30", "env_change": false, "actors": [], "props": [], "camera": "Macro Lens", "mood": ["glitch", "unstable"], "director_intent": "Reveal the simulation nature through a rendering error.", "start_image_keywords": ["wireframe glitch", "basalt texture"], "start_image_mode": "env_only", "video_plan": {}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Eastern_Node_Sector_30", "env_change": false, "actors": [], "props": [], "camera": "Crane Shot / Drone", "mood": ["serene", "artificial"], "director_intent": "Demonstrate the unnatural perfection of the simulation fluid.", "start_image_keywords": ["blue coolant", "laminar flow", "architectural trenches"], "start_image_mode": "env_only", "video_plan": {}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Macro close-up of basalt rock texture transitioning into a wireframe mesh glitch. The edge of the mercury water touches the rock. High contrast, digital artifacts, hyper-detailed texture. 9:16 aspect ratio, tech-noir style.
+Wide drone shot of deep architectural trenches filled with glowing blue liquid coolant. The surface is perfectly flat (laminar flow) and mirror-like. The banks are sharp, geometric obsidian. 9:16 aspect ratio, hyper-clean industrial aesthetic, sterile lighting, 8k resolution.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-Basalt rocks glitching between texture and wireframe.
+Drone sweeping over smooth blue coolant rivers in trenches.
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Shoreline of the mercury river. Basalt rock formations.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Sharp lighting, glitch artifacts in neon colors.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Macro lens (100mm). Static shot with texture animation. 9:16 vertical format.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite trenches of blue coolant, geometric banks.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold white strip lighting on walls, blue glow from fluid.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Smooth drone pan. Slow, majestic movement. 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Static crackle, like a Geiger counter.
+Deep sub-bass hum at 40Hz. The sound of massive, perfectly balanced pumps.
 
-## [ACT 2] [SCENE 2.1] [Timecode: 00:15-00:20] [DISCOVERY]
-**Action:** Henoch drifts towards a cluster of "Trees". They are constructs of twisted fiber-optics and translucent glass leaves. They emit a faint amber pulse.
+## [ACT II] [SCENE 2.1] [Timecode: 00:15-00:25] [INEXHAUSTIBLE STREAM]
+**Action:** Henoch hovers over the fluid surface (Anti-Grav). He dips a gloved hand near the liquid. The surface tension reacts with geometric ripple patterns (Voronoi diagrams), not chaotic splashes.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Eastern_Node_Sector_30", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Crystal Trees"], "camera": "Steadicam / OTS", "mood": ["mysterious", "beautiful"], "director_intent": "Introduce the synthetic flora.", "start_image_keywords": ["fiber optic trees", "amber pulse"], "start_image_mode": "composite", "video_plan": {}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "wide", "environment": "Eastern_Node_Sector_30", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Tracking Shot (Side)", "mood": ["curious", "scientific"], "director_intent": "Visualize the physics engine override of the water.", "start_image_keywords": ["hovering", "geometric ripples", "Voronoi"], "start_image_mode": "actor_in_env", "video_plan": {}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Over-the-shoulder shot of Henoch drifting towards crystalline trees made of twisted fiber-optics. The leaves are translucent glass emitting a faint amber pulse. Background is the mercury valley. 9:16 aspect ratio, ethereal lighting, sci-fi botany.
+Side tracking shot of Henoch hovering inches above a blue coolant river. His Idris-Glove grazes the surface, creating geometric Voronoi ripple patterns instead of splashes. Silver skin, tech gear. 9:16 aspect ratio, physics simulation aesthetic, sharp details.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-Henoch drifting towards glowing fiber-optic trees.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (Voyager Phase), back view.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Silver skin, tech gear.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Cluster of tech-trees with glass leaves and fiber-optic trunks.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Amber pulses from trees, cool ambient environment.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Steadicam following shot. Smooth gliding motion. 9:16 vertical format.
+Henoch gliding over water, hand causing geometric ripples.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (Voyager Phase), horizontal hovering pose.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Anti-Grav boots active, Idris-Gloves.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Fast moving background of coolant river.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue under-glow from liquid, cool top light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Side tracking shot matching Henoch's speed. 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitched crystalline chimes, like synthetic wind.
+Liquid nitrogen hiss. The sound of cold air displacing warm air. Magnetic hum.
 
-## [ACT 2] [SCENE 2.2] [Timecode: 00:20-00:25] [INTERACTION]
-**Action:** Henoch reaches out. His Idris-Glove hovers millimeters from a glass leaf. The leaf vibrates, transferring data (scent) as light into his palm.
+## [ACT II] [SCENE 2.2] [Timecode: 00:25-00:35] [THE AEROSOL FOREST]
+**Action:** Approaching the "Trees". They are tall, copper-piped fractals. No leaves, only glass bulbs dripping amber fluid. The air is thick with a golden, heavy mist.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "insert", "framing": "close_up", "environment": "Eastern_Node_Sector_30", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Idris-Glove", "Glass Leaf"], "camera": "Close-Up", "mood": ["intimate", "tech"], "director_intent": "Visualize the data transfer of scent.", "start_image_keywords": ["glove touch", "data sparks"], "start_image_mode": "prop_only", "video_plan": {}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Eastern_Node_Sector_30", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Copper Fractal Trees"], "camera": "Wide (35mm)", "mood": ["industrial", "mystical"], "director_intent": "Introduce the source of the scent as a mechanical function.", "start_image_keywords": ["copper pipes", "fractal trees", "amber mist"], "start_image_mode": "composite", "video_plan": {}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Close-up of a high-tech Idris-Glove hovering near a translucent glass leaf. Sparks of golden light bridge the gap between the glove and the leaf. Detailed texture of the glove and the glass. 9:16 aspect ratio, macro photography, magical realism style.
+Wide shot of a forest made of copper-piping fractal structures. Instead of leaves, glass bulbs drip amber fluid. The air is filled with a heavy golden mist. Henoch stands small in the foreground. 9:16 aspect ratio, steampunk meets high-tech, atmospheric fog, metallic textures.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-Hand reaching out to a glass leaf, sparks transferring.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch's hand/arm.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Idris-Glove with haptic sensors.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Close proximity to a glass leaf on a fiber-optic tree.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Golden sparks, amber glow from leaf.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Close-up. Slow controlled movement. 9:16 vertical format.
+Camera pushing slowly into a forest of copper pipe trees and golden mist.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (small figure).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Standard Voyager loadout.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite array of copper fractal trees.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Golden haze, copper reflections.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow push-in. Cinematic scale. 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Data-transfer screech, slowed down modem handshake.
+Pneumatic venting. Rhythmic gas release sounding like a mechanical respirator.
 
-## [ACT 2] [SCENE 2.3] [Timecode: 00:25-00:30] [PROCESSING (MASTIC)]
-**Action:** Cut to Henoch's face. The amber implants on his nose bridge light up sequentially. His pupils dilate mechanically to process the "Mastic" signature.
-**Dialog:** Eingabe erkannt. Mastix-Protokoll. Die Daten sind... süß.
+## [ACT II] [SCENE 2.3] [Timecode: 00:35-00:40] [SPECTROMETER ANALYSIS]
+**Action:** Henoch's face ECU. The skin over his nose becomes transparent smart-glass. Inside, micro-turbines spin up. He inhales the "fragrance" (Chemical Data).
+**Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Eastern_Node_Sector_30", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Extreme Close-Up / Zoom", "mood": ["intense", "sensory"], "director_intent": "Show the physiological reaction to the data input.", "start_image_keywords": ["amber implants", "dilated pupils"], "start_image_mode": "actor_only", "video_plan": {}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Eastern_Node_Sector_30", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Extreme Close Up / Macro", "mood": ["clinical", "intense"], "director_intent": "Reveal the biological adaptation to the simulation data.", "start_image_keywords": ["transparent nose", "spinning turbines", "silver skin"], "start_image_mode": "actor_only", "video_plan": {}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme close-up of Henoch's face. Amber LED subdermal implants along the nasal bridge are glowing. Pupils are mechanically dilated. Silver skin texture with synthetic pores. 9:16 aspect ratio, medical imaging aesthetic, high detail.
+Extreme close-up of Henoch's face. The skin on the bridge of his nose is transparent smart-glass, revealing tiny silver centrifuges spinning inside. His eyes are wide, apertures rotating. Silver skin texture. 9:16 aspect ratio, medical sci-fi, hyper-detailed, macro photography.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-Henoch's face reacting, implants lighting up, pupils dilating.
+Macro shot of nose bridge turning transparent and internal turbines spinning.
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (Voyager Phase), face focus.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Subdermal amber implants, mechanical eyes.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred background.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal amber glow from implants, cool rim light.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Extreme Close-Up. Quick zoom effect. 9:16 vertical format.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Smart-glass nasal implant, mechanical apertures in eyes.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred background of golden mist.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal blue light from nasal cavity, external golden rim light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static macro shot. High contrast. 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy breathing, metallic resonance.
+High-frequency turbine spin. Sound of a dentist drill pitch but cleaner, digital.
 
-## [ACT 2] [SCENE 2.4] [Timecode: 00:30-00:35] [THERMAL REACTION]
-**Action:** The data load is too high. Micro-vents on his neck snap open. A jet of white steam (coolant) hisses out. Henoch twitches, overwhelmed by the "fragrance".
-**Dialog:** Warnung. Thermische Überlast. Der Duft verbrennt die Schaltkreise.
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Eastern_Node_Sector_30", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Profile Shot", "mood": ["pain", "overload"], "director_intent": "Depict the physical cost of the simulation processing.", "start_image_keywords": ["neck vents", "steam release"], "start_image_mode": "actor_only", "video_plan": {}, "voice_words_max": 10}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Profile close-up of Henoch's neck. Mechanical micro-vents are open, releasing a jet of white steam. Silver skin is flushed. 9:16 aspect ratio, industrial sci-fi, dramatic lighting.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-Steam venting from Henoch's neck, body twitching.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (Voyager Phase), neck and shoulder.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Mechanical neck vents (thermal exhaust).
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred background.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** White steam catching light.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Profile shot. Sudden motion of steam release. 9:16 vertical format.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Hydraulic hiss, steam release sound.
-
-## [ACT 2] [SCENE 2.5] [Timecode: 00:35-00:40] [THE CINNAMON VECTOR]
-**Action:** POV Shot (HUD). The valley walls light up with red warning grids. Target identified: "CINNAMON_VARIANT". The scent is visualized as red particulate matter in the air.
+## [ACT II] [SCENE 2.4] [Timecode: 00:40-00:45] [THE RESIN INTERFACE]
+**Action:** He touches a "tree" trunk. It vibrates. The copper surface sweats a thick resin. The HUD reads: "COMPOUND: MASTIC / FRANKINCENSE".
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "pov", "framing": "wide", "environment": "Eastern_Node_Sector_30", "env_change": false, "actors": [], "props": [], "camera": "POV / HUD", "mood": ["alert", "digital"], "director_intent": "Show the system interpretation of the scent.", "start_image_keywords": ["HUD overlay", "red grid"], "start_image_mode": "ui_only", "video_plan": {}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "insert", "framing": "close_up", "environment": "Eastern_Node_Sector_30", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Copper Tree", "Resin"], "camera": "Macro", "mood": ["tactile", "analytical"], "director_intent": "Physical interaction with the data source.", "start_image_keywords": ["copper texture", "sweating resin", "glove touch"], "start_image_mode": "prop_only", "video_plan": {}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-POV shot through a high-tech visor. A red digital grid overlays the mercury valley. Text "CINNAMON_VARIANT" is displayed. Red particulate matter floats in the air. 9:16 aspect ratio, UI design, augmented reality style.
+Macro shot of a gloved finger sliding against a copper pipe surface. The copper is sweating thick amber resin. HUD overlay text in gold: "COMPOUND: MASTIC". 9:16 aspect ratio, tactile texture, industrial detail.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-HUD overlay scanning the environment with red warning grids.
+Finger touching copper pipe, resin oozing out.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch's gloved hand.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Idris-Glove.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Copper tree trunk surface.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Amber reflections in resin.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Macro shot. Slow slide movement. 9:16 vertical format.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Geiger counter ticks. Sticky tactile sound. Rapid data collection beeps.
+
+## [ACT III] [SCENE 3.1] [Timecode: 00:45-00:52] [CINNAMON PROTOCOL]
+**Action:** Henoch turns sharply. Deep in the array, a cloud of reddish dust hangs in the air. The "Cinnamon" signature. It manifests as red binary code floating in the mist.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "pov", "framing": "wide", "environment": "Eastern_Node_Sector_30", "env_change": false, "actors": [], "props": [], "camera": "POV (Point of View)", "mood": ["alert", "discovery"], "director_intent": "Visualizing the scent of cinnamon as raw data.", "start_image_keywords": ["red dust", "binary code", "mist"], "start_image_mode": "ui_only", "video_plan": {}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+POV shot through a HUD. A distant cloud of reddish dust is visible in the copper forest. The dust is composed of floating red binary code symbols. Text overlay: "PROTOCOL: CINNAMON". 9:16 aspect ratio, augmented reality, mystery, volumetric fog.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+POV whip pan to a red cloud of binary code.
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None (POV).
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** HUD Interface.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Valley walls overlaid with digital grids.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red warning lights, digital text glow.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** POV shot. Digital wipe effect. 9:16 vertical format.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** HUD Interface with target lock.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Depth of copper forest, red anomaly in distance.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red glow from the code cloud, contrasting with amber mist.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Whip pan to steady lock-on. 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Soft rhythmic alarm ping.
+Sharp whip-pan whoosh. Alert chime. Positive confirmation sound.
 
-## [ACT 2] [SCENE 2.6] [Timecode: 00:40-00:45] [SYNCHRONIZATION]
-**Action:** Henoch stabilizes. The amber light in his implants turns steady gold. He absorbs the data. The trees dim as their essence is archived.
+## [ACT III] [SCENE 3.2] [Timecode: 00:52-00:57] [SYSTEM INTEGRATION]
+**Action:** Henoch spreads arms. The red mist is absorbed into his suit's intake ports. His silver skin flushes with a reddish hue (Thermal sync complete).
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Eastern_Node_Sector_30", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Frontal / Symmetrical", "mood": ["resolved", "sacred"], "director_intent": "Resolution of the sensory overload.", "start_image_keywords": ["gold light", "stabilized"], "start_image_mode": "actor_in_env", "video_plan": {}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Eastern_Node_Sector_30", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Medium Shot / Frontal", "mood": ["triumphant", "synced"], "director_intent": "Henoch becomes one with the environment's data stream.", "start_image_keywords": ["arms spread", "red mist absorption", "flushed skin"], "start_image_mode": "actor_in_env", "video_plan": {}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium frontal shot of Henoch. The implants on his face glow with a steady gold light. He looks calm and stabilized. The crystalline trees in the background are dimming. 9:16 aspect ratio, symmetrical composition, divine tech atmosphere.
+Medium frontal shot of Henoch with arms spread. Red data-mist is being sucked into intake ports on his suit. His silver skin is flushing with a reddish hue. He looks majestic. 9:16 aspect ratio, religious iconography meets cyberpunk, slow motion feel.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-Henoch stabilizing, lights turning gold, trees dimming.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (Voyager Phase).
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Gold glowing implants.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Trees in background fading out.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Steady gold light on face, environment darkening.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Medium shot, frontal. Slow calming motion. 9:16 vertical format.
+Henoch absorbing red mist, skin changing color.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (Voyager Phase), majestic pose.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Suit intake ports active.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Swirling red mist surrounding him.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red shift in lighting, glowing skin.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow motion (120fps simulation). Frontal symmetry. 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sub-bass drop, resolution of tension.
+Deep synth chord in a major key. Vacuum suction sound resolving into a harmonious hum.
 
-## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:50] [DEPARTURE]
-**Action:** Henoch turns East. The "water" behind him freezes into static geometry (saving resources). He accelerates, body leaning forward like a sprinter in slow motion.
-**Dialog:** Archivierung abgeschlossen. Der Osten ruft.
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "wide", "environment": "Eastern_Node_Sector_30", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Tracking / Side", "mood": ["determined", "fast"], "director_intent": "Transition to the next journey leg.", "start_image_keywords": ["acceleration", "frozen water"], "start_image_mode": "actor_in_env", "video_plan": {}, "voice_words_max": 10}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Side profile tracking shot of Henoch accelerating forward, leaning like a sprinter. The mercury water behind him is freezing into static geometric shapes. Motion blur. 9:16 aspect ratio, dynamic action, speed.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-Henoch accelerating, water freezing behind him.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (Voyager Phase), athletic pose.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Anti-Grav boots active.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Mercury river freezing into static geometry behind.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Streaks of light from acceleration.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Tracking shot, side profile. Motion blur. 9:16 vertical format.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Electric jet engine spool-up.
-
-## [ACT 3] [SCENE 3.2] [Timecode: 00:50-00:55] [DISTANCE]
-**Action:** Wide shot. Henoch is a small silver speck gliding over the endless mercury rivers. The "Clipping Plane" fog in the distance recedes as he approaches.
+## [ACT III] [SCENE 3.3] [Timecode: 00:57-01:00] [SECTOR CLEAR]
+**Action:** Henoch shoots forward along the coolant rail, disappearing into the vanishing point. The "water" glows brighter in his wake. Fade to Data-Black.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "extreme_wide", "environment": "Eastern_Node_Sector_30", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Extreme Wide Shot", "mood": ["lonely", "epic"], "director_intent": "Show the vastness of the journey.", "start_image_keywords": ["distant speck", "receding fog"], "start_image_mode": "env_only", "video_plan": {}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "establishing", "framing": "extreme_wide", "environment": "Eastern_Node_Sector_30", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Static Wide", "mood": ["fast", "closure"], "director_intent": "Final departure to the next node.", "start_image_keywords": ["light streak", "coolant glow", "departure"], "start_image_mode": "env_only", "video_plan": {}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme wide shot of a vast mercury landscape. Henoch is a tiny silver speck in the distance. A digital fog wall (clipping plane) recedes in the background. 9:16 aspect ratio, epic scale, minimalist composition.
+Static wide shot of the coolant channel. Henoch is a blur of light shooting towards the horizon. The blue water glows intensely bright in his wake. 9:16 aspect ratio, speed, motion blur, tron-like trails.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-Tiny figure gliding over infinite mercury, fog receding.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (distant speck).
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Indistinguishable at distance.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Endless mercury rivers, digital fog wall.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft diffuse light, silver and blue palette.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Extreme Wide Shot. Slow tracking. 9:16 vertical format.
+Henoch speeding away leaving a light trail, fade to black.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (Motion Blur).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Thrusters at max.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Coolant channel perspective.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright wake in water, fading environment.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static camera capturing high speed exit. Fade to black. 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Synthetic hollow wind howling.
-
-## [ACT 3] [SCENE 3.3] [Timecode: 00:55-01:00] [SYSTEM LOG]
-**Action:** Screen goes black. Only the HUD text remains in the center: "CHAPTER_30: ARCHIVED. // NEXT_NODE: EAST_02".
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "insert", "framing": "close_up", "environment": "Black Void", "env_change": true, "actors": [], "props": [], "camera": "Static / Graphic", "mood": ["final", "systemic"], "director_intent": "Chapter closure.", "start_image_keywords": ["black screen", "white text"], "start_image_mode": "ui_only", "video_plan": {}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Black screen with white minimalist HUD text in the center: "CHAPTER_30: ARCHIVED. // NEXT_NODE: EAST_02". 9:16 aspect ratio, typography design.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-Text typing on black screen.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Black void.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** White text emission.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static graphic. Text animation. 9:16 vertical format.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-System shutdown chime.
+Sonic boom. Then sudden imploded silence.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.3","text":"Sektor 30. Fluid-Simulation unbegrenzt. Das System ist hier... flüssig.","words_max":10},{"scene":"2.3","text":"Eingabe erkannt. Mastix-Protokoll. Die Daten sind... süß.","words_max":10},{"scene":"2.4","text":"Warnung. Thermische Überlast. Der Duft verbrennt die Schaltkreise.","words_max":10},{"scene":"3.1","text":"Archivierung abgeschlossen. Der Osten ruft.","words_max":10}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Sektor Ost. Die Berge werden gelöscht. Speicherplatz für Neues.","words_max":10},{"scene":"2.3","text":"Mastix-Protokoll. Das System füttert mich mit reinen Daten.","words_max":10},{"scene":"3.1","text":"Zimt-Sequenz bestätigt. Ich bin synchron.","words_max":8}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

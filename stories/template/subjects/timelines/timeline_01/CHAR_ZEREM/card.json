@@ -1,0 +1,94 @@
+{
+  "id": "CHAR_ZEREM",
+  "name": "Zerem",
+  "type": "character",
+  "card": {
+    "description": "Zerem is a towering sentinel forged from basaltic alloy and copper-infused obsidian, standing 2.3 meters tall. His frame is a lattice of interlocking plates, each etched with bio‑luminescent hieroglyphs that pulse in a rhythm matching the ancient rhythms of the Nile. The armor’s surface is a matte, weathered finish that bears the scars of countless battles, yet the glyphs glow with a soft cobalt‑blue light, revealing the underlying crystalline circuitry. His head is crowned by a segmented helm that resembles a stylized Ethiopian cross, with a central crystal core that refracts light into a spectrum of warm amber and cool azure, hinting at an incomprehensible power source. Zerem’s limbs are articulated with precision bearings, allowing fluid motion while the joints are lined with a translucent polymer that displays shifting runic patterns when he moves. He carries an obsidian staff, its shaft carved with a continuous line of glyphs that glow brighter when he channels energy, and a tablet of polished limestone etched with a map of the city’s ley lines.",
+    "tags": [
+      "sentinel",
+      "ancient-tech",
+      "Ethiopian-Egyptian",
+      "bio-luminescent",
+      "crystalline"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** 2.3m tall composite exoskeleton of basaltic alloy and copper‑infused obsidian, matte weathered finish, interlocking plates with etched bio‑luminescent hieroglyphs.",
+      "**Face/Sensors:** Segmented helm resembling an Ethiopian cross, central crystal core refracting amber and azure light, embedded sensor arrays that glow in sync with glyphs.",
+      "**Clothing/Armor:** Modular armor plates with translucent polymer joints displaying shifting runic patterns, reinforced with copper alloy for structural integrity.",
+      "**Key Features:** Bio‑luminescent glyphs pulsing in cobalt‑blue, crystalline core in helm, obsidian staff with glowing glyph line, limestone tablet with ley line map."
+    ],
+    "evolution": [
+      "Phase 1 (Activation): Zerem’s armor plates are partially assembled, glyphs dimly glow, the crystalline core emits a faint pulse, and the staff’s glyph line flickers intermittently.",
+      "Phase 2 (Full Operational): Armor plates fully locked, glyphs blaze with steady cobalt‑blue light, crystalline core projects a focused beam of energy, staff glows intensely, and the limestone tablet displays a dynamic map of ley lines."
+    ],
+    "props": [
+      "Item: Obsidian Staff – a 1.8m shaft carved with continuous glowing glyphs, central crystal core.",
+      "Item: Limestone Tablet – polished surface etched with a detailed map of the city’s ley lines, illuminated by internal bioluminescence."
+    ],
+    "prompt_keywords": [
+      "ancient-tech",
+      "industrial mysticism",
+      "photorealistic",
+      "Ethiopian",
+      "Egyptian",
+      "bio-luminescent",
+      "crystalline",
+      "sentinel",
+      "obsidian",
+      "basalt"
+    ],
+    "prompt_block": "A towering sentinel standing 2.3 meters tall, forged from basaltic alloy and copper‑infused obsidian, with a matte weathered finish and interlocking plates etched with bio‑luminescent hieroglyphs pulsing cobalt‑blue. His segmented helm resembles an Ethiopian cross, crowned by a crystal core that refracts amber and azure light. The limbs are articulated with precision bearings, joints lined with translucent polymer displaying shifting runic patterns. He carries an obsidian staff carved with glowing glyphs and a polished limestone tablet etched with a dynamic map of ley lines, all rendered in photorealistic detail with grounded realism, industrial mysticism, and ancient Ethiopian/Egyptian aesthetics.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Zerem in his fully operational state, glowing glyphs, crystal core active, staff and tablet ready.",
+        "prompt_keywords": [
+          "ancient-tech",
+          "industrial mysticism",
+          "photorealistic",
+          "Ethiopian",
+          "Egyptian",
+          "bio-luminescent",
+          "crystalline",
+          "sentinel",
+          "obsidian",
+          "basalt"
+        ],
+        "prompt_block": "A fully operational sentinel named Zerem, 2.3m tall, composed of basaltic alloy and copper‑infused obsidian, with a matte weathered finish. Interlocking armor plates are etched with cobalt‑blue bio‑luminescent hieroglyphs that pulse steadily. His segmented helm, resembling an Ethiopian cross, features a crystal core refracting amber and azure light. The limbs are articulated with precision bearings, joints lined with translucent polymer displaying shifting runic patterns. He wields an obsidian staff carved with glowing glyphs and holds a polished limestone tablet etched with a dynamic map of ley lines, all rendered in photorealistic detail with grounded realism and industrial mysticism."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ZEREM",
+    "name": "Zerem",
+    "type": "character",
+    "aliases": [
+      "Zerem"
+    ],
+    "roles": [
+      "unknown"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_160"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 20,
+        "chapter_end": 20,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

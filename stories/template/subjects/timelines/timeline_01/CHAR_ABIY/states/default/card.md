@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 72 - 91
 
-**Phase Summary:** Standard technician-scribe appearance with ocular gear and working robes.
-**Phase Keywords:** working, ocular loupe, industrial apron, intense focus
+**Phase Summary:** Initial state of Abiy as a guardian in the sanctum.
+**Phase Keywords:** ancient-tech, Ethiopian-Egyptian, crystalline armor, bio-luminescent glyphs
 **Phase Prompt:**
-Full body shot of Abiy, Ethiopian man, standing in a corridor of black basalt and copper pipes. He wears dusty ochre robes and a heavy rubberized apron. A brass ocular device is strapped over his left eye. He holds a glowing crystalline tablet in one oil-stained hand. The environment is dark, lit by the bioluminescent glow of the tablet and distant machinery. Cinematic, gritty, realistic textures, highly detailed cloth and skin.
+A photorealistic, cinematic depiction of Abiy standing in a dimly lit, stone‑walled chamber. He wears basaltic composite armor etched with Ethiopian motifs, a flowing indigo mantle embroidered with silver hieroglyphs, and holds a crystalline staff with a sapphire core. His translucent skin reveals faint circuitry, and bio‑luminescent glyphs glow along his spine and face, shifting like runic code. Industrial machinery hums in the background, emphasizing grounded realism and tactile textures.
 
 ---

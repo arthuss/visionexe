@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 38 - 38
 
-**Phase Summary:** Standard operational appearance with full ceremonial tech-garb.
-**Phase Keywords:** ceremonial robes, amber visor, bronze mantle, administrative posture
+**Phase Summary:** Sost Yasteri as the High Council speaker in a ritual chamber.
+**Phase Keywords:** ancient-tech, Ethiopian, Egyptian, ceremonial, crystalline, bio-luminescent, photorealistic
 **Phase Prompt:**
-Medium shot of Sost Yasteri, wearing indigo linen robes and a heavy bronze shoulder mantle. An amber-tinted visor covers the upper face, glowing faintly. Ash-grey skin, stern expression. Background is a blur of ancient stone and industrial pipes. Cinematic lighting, shallow depth of field, photorealistic, intricate texture details.
+Sost Yasteri, the High Council’s chief speaker, stands in a dimly lit chamber, his obsidian silk cloak shimmering with embedded micro‑LEDs. His skin bears glowing bio‑luminescent glyphs that pulse in sync with a hidden crystalline lattice. He holds a crystalline staff humming with low‑frequency vibrations, his eyes augmented with iridescent ocular implants projecting holographic sigils. He wears a ceremonial robe of gold‑threaded silk, a leather belt with a crystal amulet, and carries a weathered scroll of the Sun that glows faintly when he speaks. The scene is serious, cinematic, photorealistic, and tactile, grounded in ancient-tech realism.
 
 ---

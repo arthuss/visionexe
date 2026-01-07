@@ -1,0 +1,35 @@
+## [CHARACTER] World (ID: CHAR_WORLD)
+**Description:** The World is a vast, ancient‑tech cosmic expanse that morphs into a burning, glitching environment, blending Ethiopian/Egyptian glyphs with incomprehensible crystalline tech. It serves as the backdrop for the Burning World, Dissolving World, and Glitch Forest, featuring pixelated fire, holographic symbols, data streams, and basaltic structures.
+**Tags:** #environment #cosmic #ancient-tech #industrial mysticism #photorealistic #glitch #burning #holographic #data streams #basalt #hieroglyph #bio‑luminescent
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** A boundless sky of starfields and nebulae, interspersed with jagged basaltic horizons and crystalline spires etched with Ge'ez glyphs that pulse with bio‑luminescent light.
+*   **Face/Sensors:** The world has no face, but its surface is studded with sensor arrays that emit soft blue data streams, reflecting the underlying circuitry.
+*   **Clothing/Armor:** Not applicable.
+*   **Key Features:** Pixelated orange fire that crackles across the horizon, holographic gold Ge'ez symbols floating above the trees, a blue wireframe mesh that replaces foliage, basalt walls that pulse with ancient runes, and glitch geometry where trees intersect and leaves become flat sprites.
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Cosmic Expanse): A serene, star‑filled void with subtle ancient glyphs glowing faintly.
+*   Phase 2 (Burning World): The expanse ignites with stylized orange pixel fire, overlayed by blue holographic text 'JUDGMENT_PROTOCOL: EXECUTING...'.
+*   Phase 3 (Dissolving World): The background dissolves into a blue wireframe mesh and black void, with gold Ge'ez symbols orbiting the protagonist.
+*   Phase 4 (Transition Zone): Grey fog breaks into point clouds, reassembling into vertical blue data streams and basalt walls.
+*   Phase 5 (Glitch Forest): Geometry fractures, leaves become flat 2D sprites, chromatic aberration distorts edges, creating a broken 3D render.
+
+### 3. PROPS & EQUIPMENT
+*   Item: Pixel Fire
+*   Item: Holographic Symbols
+*   Item: Data Streams
+*   Item: Basalt Walls
+
+### 4. AI PROMPT KEYWORDS
+`ancient-tech`, `cosmic`, `glitch`, `holographic`, `pixel fire`, `data streams`, `basalt`, `hieroglyph`, `bio‑luminescent`, `industrial mysticism`
+
+### 5. PROMPT BLOCK (T2I)
+A vast, photorealistic cosmic expanse rendered in 8K, featuring a star‑filled sky and nebulae, with jagged basaltic horizons and crystalline spires etched with glowing Ge'ez glyphs. The surface pulses with bio‑luminescent light, while stylized orange pixel fire crackles across the horizon. Overlaid on the scene is blue holographic text reading 'JUDGMENT_PROTOCOL: EXECUTING...' and floating gold Ge'ez symbols. The background dissolves into a blue wireframe mesh and black void, with basalt walls pulsing with ancient runes. In the foreground, glitch geometry shows trees intersecting, flat 2D sprite leaves, and chromatic aberration at the edges, creating a broken 3D render that blends ancient Ethiopian aesthetics with incomprehensible crystalline technology.
+
+### 6. PHASE PROMPTS
+*   **Default:** The default state presents the world as a vast cosmic expanse with ancient glyphs and a subtle, photorealistic glow.
+    Prompt: A boundless sky of starfields and nebulae, interspersed with jagged basaltic horizons and crystalline spires etched with glowing Ge'ez glyphs that pulse with bio‑luminescent light, rendered in 8K photorealism.
+    Keywords: cosmic, ancient glyphs, photorealistic, glow
+
+---

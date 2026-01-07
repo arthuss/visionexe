@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 72 - 72
 
-**Phase Summary:** The Day star at its zenith, bright and blinding.
-**Phase Keywords:** zenith, blinding light, magnesium core, active surveillance
+**Phase Summary:** Day as a bright celestial body illuminating the environment with a crystalline, bio‑luminescent glow.
+**Phase Keywords:** luminous disk, crystalline lattice, hieroglyphic glyphs, bio-luminescent veins, ancient Ethiopian motifs
 **Phase Prompt:**
-A vertical 9:16 shot of the artificial sun 'Day' at its zenith. The sphere is a blinding white hole in the sky, surrounded by a complex mechanism of spinning gold gears and floating obsidian shards. Hard, sterile light floods the frame, creating high-contrast shadows. The atmosphere around the sun is distorted by heat waves and digital static. The look is overwhelming, divine, and mechanical. 8k, photorealistic, cinematic composition.
+Render Day in its default state: a 30‑meter luminous sun disk with a polished obsidian rim and a lattice of translucent quartz crystals. Hieroglyphic glyphs etched into the crystal surface glow amber, while bio‑luminescent veins pulse azure across the lattice. A molten gold‑infused glass core emits steady light, and floating crystalline glyphs orbit the disk, creating a warm, diffused halo. The scene is photorealistic, 8k, with realistic light scattering, reflective surfaces, and tactile textures, capturing a serious, cinematic tone.
 
 ---

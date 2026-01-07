@@ -1,0 +1,96 @@
+{
+  "id": "SCENE_CHAPTER_100_SEGMENT_11",
+  "name": "Chapter 100 Segment 11",
+  "type": "scene",
+  "card": {
+    "description": "The Scribe's Obelisk is a 12‑meter monolith forged from black obsidian, its surface etched with intertwined Ethiopian and Egyptian glyphs. At its core lies a lattice of translucent crystal that channels an unseen energy, emitting a soft bio‑luminescent glow. Hidden within the glyphs are sensor arrays and a retractable interface panel that projects holographic hieroglyphs when activated. The obelisk sits in a dim, stone‑laden chamber, its weathered surface bearing the scars of ancient rituals and modern machinations, embodying the fusion of grounded realism and incomprehensible technology.",
+    "tags": [
+      "Obelisk",
+      "Ancient-Tech",
+      "Ethiopian",
+      "Egyptian",
+      "Crystalline",
+      "Bio‑luminescent",
+      "Industrial Mysticism",
+      "Photorealistic",
+      "Tactile"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** 12‑meter tall obsidian monolith with a central crystalline lattice, weathered basaltic surface, subtle fissures and mineral veins.",
+      "**Face/Sensors:** Front face bears a dense band of glyphs; embedded sensor nodes disguised as hieroglyphic motifs emit faint pulses of light.",
+      "**Clothing/Armor:** None; the obelisk’s surface is its own armor, reinforced by the crystalline core.",
+      "**Key Features:** Embedded crystalline core, bio‑luminescent glyphs, energy conduits, retractable holographic interface panel, sensor arrays."
+    ],
+    "evolution": [
+      "Phase 1 (Inactive): The crystalline core is dormant, glyphs emit a faint, steady glow; the interface panel remains retracted.",
+      "Phase 2 (Activated): The core pulses with brighter light, glyphs flare, and the interface panel extends, projecting a dynamic holographic script."
+    ],
+    "props": [
+      "Item: Crystalline Core – a translucent, iridescent crystal housing the obelisk’s energy.",
+      "Item: Glyphic Interface Panel – a retractable, translucent screen that displays holographic hieroglyphs."
+    ],
+    "prompt_keywords": [
+      "obsidian",
+      "crystalline",
+      "glyphs",
+      "bio‑luminescence",
+      "ancient",
+      "tech",
+      "monolith",
+      "energy core",
+      "holographic interface",
+      "industrial mysticism"
+    ],
+    "prompt_block": "A towering 12-meter obsidian obelisk with a crystalline core, etched with ancient Ethiopian and Egyptian glyphs that glow with bio‑luminescent light, integrated with hidden energy conduits and a holographic interface panel projecting luminous hieroglyphs, set in a dimly lit, industrial mystic temple, photorealistic, cinematic lighting, tactile textures, realistic wear and weathering, ground-level perspective, dramatic shadows.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Inactive obelisk with dormant crystalline core, subtle glow from glyphs.",
+        "prompt_keywords": [
+          "obsidian",
+          "crystalline",
+          "glyphs",
+          "bio‑luminescence",
+          "ancient",
+          "tech",
+          "monolith",
+          "energy core",
+          "holographic interface",
+          "industrial mysticism"
+        ],
+        "prompt_block": "A towering 12-meter obsidian obelisk in a dimly lit temple, its crystalline core dormant, faint bio‑luminescent glyphs etched along its surface, subtle glow, realistic textures, cinematic lighting, photorealistic, tactile."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_CHAPTER_100_SEGMENT_11",
+    "name": "Chapter 100 Segment 11",
+    "type": "scene",
+    "aliases": [
+      "Chapter 100 Segment 11"
+    ],
+    "roles": [],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_963"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 100,
+        "chapter_end": 100,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

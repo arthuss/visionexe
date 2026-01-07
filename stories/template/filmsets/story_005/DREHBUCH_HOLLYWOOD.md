@@ -1,287 +1,347 @@
-✓ Check existing filmsets to determine the correct path for Chapter 5
- $ Get-ChildItem -Path C:\Users\sasch\visionexe\stories\template\filmsets
-    └ 114 lines...
-
-✗ Create stories\template\filmsets\story_005\DREHBUCH_HOLLYWOOD.md
-   Permission denied and could not request permission from user
-
-✓ Check if the screenplay file already exists
- $ Test-Path C:\Users\sasch\visionexe\stories\template\filmsets\story_005\DREHBUCH_HOLLYWOOD.md
-    └ 2 lines...
-
-✗ Write the generated screenplay content to the file using PowerShell
- $ $content = @"
- # DREHBUCH KAPITEL 5 - PRODUCTION READY
-
- ## CHAPTER NARRATION
- NARRATOR_TEXT: Das System schläft nie, doch es träumt von Ordnung. Ich sehe die Welt nicht mehr
- ...
-   Permission denied and could not request permission from user
-
 # DREHBUCH KAPITEL 5 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Das System schläft nie, doch es träumt von Ordnung. Ich sehe die Welt nicht mehr als Fleisch und Stein, sondern als endlosen Strom von Daten, der auf Validierung wartet. Wo Fehler wuchern, muss der Code bereinigt werden, damit die Ewigkeit beginnen kann.
+NARRATOR_TEXT: Der Code ist das Gesetz, und das Gesetz ist Licht. Wenn der Fehler wuchert, wenn der Wille sich gegen die Architektur stemmt, beginnt der Zerfall. Wir sind die Hüter des Speichers, gesandt, um die Fragmente zu prüfen und das Verderben zu löschen, damit das ewige Programm fortbestehen kann.
 
-## ACT I SCENE 1.1 [Timecode: 00:00-00:05] SYSTEM AUDIT INITIATED
-**Action:** Orthographische Draufsicht auf einen Wald. Ein grünes Laser-Grid scannt die Baumkronen. Text-Overlay: "SYSTEM AUDIT: INITIATED".
+## ACT I SCENE 1.1 [Timecode: 00:00-00:04] KERNEL STABILITY: FOREST
+**Action:** Weitwinkel. Ein dichter Wald. Die Bäume bewegen sich nicht im Wind, sondern in einem exakten, synchronen Takt. Overlay: "SYSTEM_STATUS: NOMINAL".
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Forest Canopy from Satellite View", "env_change": true, "actors": [], "props": ["Green Laser Grid", "HUD Overlay"], "camera": "Top-Down Satellite View, Zoom-In", "mood": ["awe", "clinical"], "director_intent": "Establish the world as a scanned data-construct.", "start_image_keywords": ["satellite view", "forest", "laser grid"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Cedar Forest", "env_change": true, "actors": [], "props": ["Synchronized Trees", "System Overlay"], "camera": "Static Tripod, Wide Angle", "mood": ["orderly", "divine"], "director_intent": "Establish the forest as a procedural generation, perfect and mathematical.", "start_image_keywords": ["cedar forest", "synchronous sway", "system status"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Satellite view of a dense, ancient forest, viewed directly from above. A bright green, digital laser grid overlays the organic canopy, scanning it. Floating holographic text in a sterile font reads "SYSTEM AUDIT: INITIATED". The aesthetic is high-tech industrial mysticism, sharp 85mm macro details visible even from this distance, photorealistic, cinematic lighting, 8k resolution.
+Vertical 9:16 establishing shot of a dense, ancient cedar forest. The trees are arranged in a subtly geometric pattern. The lighting is physically perfect Global Illumination, soft and shadowless like a 3D render. A minimal white UI overlay floats in the air reading "SYSTEM_STATUS: NOMINAL". High-end botanical visualization, 8k resolution, photorealistic Unreal Engine 5 style.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dense forest canopy, deep greens, overlaid with a glowing green digital grid structure.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Sunlight filtering through leaves, contrasted with the artificial neon green of the laser scan.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Top-down orthographic camera. Rapid zoom-in from high altitude directly into the texture of the trees. Hard cut transition at the end.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dense cedar forest, perfectly ordered.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Even, diffuse daylight. No harsh contrast.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static camera. All trees sway exactly in unison to the same hidden sine-wave frequency, creating an uncanny, artificial sense of order.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep, rhythmic server humming at 50Hz. A digital start-up chime echoes. Subtle wind noise blending with the sound of cooling fans.
+Deep sub-bass drone representing the server hum (50Hz). Rhythmic, dry clicking sounds synchronized with the tree movement, like a metronome.
 
-## ACT I SCENE 1.2 [Timecode: 00:05-00:10] MACRO COMPLIANCE
-**Action:** Ein einzelnes Blatt entfaltet sich. Die Adern des Blattes leuchten kurz golden auf (Datenfluss). Henochs Hand streicht darüber, ohne es zu berühren.
+## ACT I SCENE 1.2 [Timecode: 00:04-00:07] NANITE ASSEMBLY
+**Action:** Makro-Aufnahme. Ein Blatt entfaltet sich. Es wächst nicht organisch, sondern wird Polygon für Polygon aufgebaut (Voxel-Assembly).
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "insert", "framing": "extreme_close_up", "environment": "Forest Detail", "env_change": false, "actors": [{"name": "Henoch", "phase": "Proxy", "presence": "on_screen", "focus": "secondary"}], "props": ["Glowing Leaf"], "camera": "85mm Macro, Smooth Glide", "mood": ["wonder", "precision"], "director_intent": "Show the biological world as a perfect, data-driven system.", "start_image_keywords": ["leaf", "golden veins", "hand"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "prop", "shot_type": "insert", "framing": "extreme_close_up", "environment": "Cedar Branch", "env_change": false, "actors": [], "props": ["Leaf Geometry"], "camera": "Macro 100mm", "mood": ["technical", "precise"], "director_intent": "Visualize growth as a real-time rendering process.", "start_image_keywords": ["leaf", "wireframe", "polygons"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme close-up of a single green leaf. The veins of the leaf are glowing with a liquid golden light, resembling data circuitry. A weathered, dust-covered human hand hovers just millimeters above the surface, not touching it. High contrast, texture-rich, 85mm macro photography, depth of field blurring the background.
+Extreme macro close-up of a cedar needle tip. The tip is not organic but composed of tiny, glowing crystalline polygons that are assembling themselves into the leaf shape. The transition from wireframe to solid green texture is visible. 9:16 vertical aspect ratio. Depth of field is extremely shallow. Tech-nature aesthetic.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch's hand, weathered skin, dirt in fingernails.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Simple linen sleeve visible at the edge.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Close-up of a leaf surface, microscopic details visible.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Natural light with internal golden luminescence from the leaf veins.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow, smooth camera glide following the hand. The leaf unfurls slightly. 60fps smoothness.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-The sharp click of precision relays. The sound of wind rustling leaves, but processed to sound like white noise.
-
-## ACT I SCENE 1.3 [Timecode: 00:10-00:15] OCULAR DEBUG
-**Action:** Henochs Gesicht, Close-Up. Seine Augen scannen schnell (Saccades). HUD-Reflexion in der Iris zeigt "FLORA: COMPLIANT".
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Forest Background (Blurred)", "env_change": false, "actors": [{"name": "Henoch", "phase": "Proxy", "presence": "on_screen", "focus": "primary"}], "props": ["HUD Reflection"], "camera": "35mm Portrait, Shallow Depth of Field", "mood": ["focused", "analytical"], "director_intent": "Establish Henoch as the interface between man and machine.", "start_image_keywords": ["eye", "iris", "HUD"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme close-up of Henoch's eyes. The iris is mechanically detailed, rotating like a camera aperture. A green digital HUD reflection on the cornea reads "FLORA: COMPLIANT". The skin around the eye is textured, sweaty, and realistic. The background is a soft green bokeh. Cinematic lighting, high detail.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch's face, focus on eyes.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred forest background.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft daylight on face, sharp green light from the HUD reflection.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Whip pan transition into the shot. Rapid eye movements (saccades). The iris rotates mechanically.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Cedar branch background, blurred.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright, clinical light on the focus point.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** The leaf constructs itself rapidly, geometry snapping into place. Not a smooth organic bloom, but a high-speed digital construction.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Quiet, rhythmic sonar pinging. The mechanical whir of a camera lens focusing.
+High-speed data chirps and digital fluttering sounds, like a modem handshake but organic.
 
-## ACT II SCENE 2.1 [Timecode: 00:15-00:20] THE GLITCH
-**Action:** Schnitt auf eine Menschenmenge (Die Sünder). Sie bewegen sich ruckartig. Ihre Silhouetten flackern. Die Umgebung um sie herum verliert Textur-Auflösung.
+## ACT I SCENE 1.3 [Timecode: 00:07-00:10] THE INSPECTOR
+**Action:** Henoch steht regungslos vor einem Baum. Seine Hand schwebt Millimeter vor der Rinde.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Corrupted Terrain", "env_change": true, "actors": [{"name": "Sinners", "phase": "Glitch", "presence": "on_screen", "focus": "primary"}], "props": ["Glitch Artifacts"], "camera": "Handheld, Shaky Cam, 45° Shutter", "mood": ["tension", "unease"], "director_intent": "Visualize sin as a rendering error.", "start_image_keywords": ["glitch", "crowd", "low poly"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Cedar Forest", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Ancient Tree"], "camera": "Eye Level, Static", "mood": ["calm", "focused"], "director_intent": "Henoch is the system administrator in idle mode.", "start_image_keywords": ["Henoch", "silver skin", "hovering hand"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A crowd of humanoid figures in a gray, desolate environment. The figures are suffering from severe mesh corruption—polygons stretching, textures tearing, silhouettes flickering. They have no distinct faces, just digital noise. The ground beneath them is losing texture resolution, revealing a wireframe grid. Industrial horror, high contrast, chaotic composition.
+Medium shot of Henoch, Voyager Phase. His skin is shimmering silver-white marble. He wears fluid-simulated white robes. He stands perfectly still before a massive tree trunk, his right hand raised, palm open, hovering just millimeters from the bark. The lighting is serene and diffused. 9:16 vertical.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Faceless humanoid figures, distorted anatomy.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Rags that merge with their skin.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Gray, textureless void with z-fighting on walls.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flickering strobe lighting, cold and harsh.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld shaky cam style. 45-degree shutter angle for jerky motion. Glitch-wipe transition.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch, silver marble skin.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** White Sysadmin robes.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Forest setting.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft ambient occlusion.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Absolute stillness. Only the cloth of his robe ripples slightly in a simulated breeze. No breathing movement.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sudden burst of static noise. High-pitched coil whine. The sound of digital stuttering.
+A sharp intake of breath that cuts into absolute digital silence.
 
-## ACT II SCENE 2.2 [Timecode: 00:20-00:25] ERROR LOG
-**Action:** Ein Sünder öffnet den Mund. Statt Sprache tritt schwarzer Rauch (Daten-Entropie) aus. Der Rauch frisst Löcher in den Boden (Mesh-Collapse).
+## ACT I SCENE 1.4 [Timecode: 00:10-00:14] HAPTIC HANDSHAKE
+**Action:** Kontakt. Die Fingerspitzen (schwarzes Silizium) penetrieren die Rinde (Clipping). Ein cyanfarbenes Gitterraster breitet sich pulsierend über den Stamm aus.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Corrupted Terrain", "env_change": false, "actors": [{"name": "Sinner", "phase": "Glitch", "presence": "on_screen", "focus": "primary"}], "props": ["Black Smoke", "Voxel Debris"], "camera": "Low Angle, Threatening", "mood": ["horror", "disgust"], "director_intent": "Show speech as a destructive force.", "start_image_keywords": ["scream", "black smoke", "voxels"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "mixed", "shot_type": "insert", "framing": "extreme_close_up", "environment": "Tree Bark", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Cyan Grid", "Silicon Fingertips"], "camera": "Macro, Locked", "mood": ["connection", "cybernetic"], "director_intent": "The physical interface with the simulation.", "start_image_keywords": ["fingertips", "black silicon", "cyan grid", "clipping"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Low angle close-up of a corrupted humanoid figure opening its mouth wide in a silent scream. Thick, black, voxelated smoke pours out, resembling data entropy. Where the smoke touches the ground, the floor dissolves into a wireframe mesh. The figure's skin is gray and pixelated. Cinematic lighting, dark atmosphere.
+Extreme close-up of Henoch's fingertips pressing into tree bark. The fingertips are matte black silicon pads. They do not deform; they clip through the wood geometry. From the point of contact, a glowing cyan wireframe grid spreads across the organic bark texture, revealing the underlying 3D mesh. 9:16 vertical. High contrast.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Corrupted humanoid, gaping mouth.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch's hand, black silicon tips.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark, collapsing ground.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dim, ominous lighting.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Jump cut transition. The smoke billows aggressively. The ground mesh collapses upon contact.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Rough cedar bark.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cyan emission from the contact point.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** The grid pulses outwards like a sonar wave across the surface. The fingers phase slightly into the wood.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Distorted, bit-crushed vocalizations. A muffled warning siren in the distance.
+A distinct digital "Ping" or sonar sound, followed by a low frequency data transfer rumble.
 
-## ACT II SCENE 2.3 [Timecode: 00:25-00:30] BIOMETRIC FEEDBACK
-**Action:** Henoch zuckt zusammen. Biometrisches Feedback. Adern an seiner Schläfe pulsieren dunkel. Er spürt den Systemfehler physisch.
+## ACT I SCENE 1.5 [Timecode: 00:14-00:18] X-RAY FLOW
+**Action:** Henochs Sicht. Der Baum wird transparent. Man sieht den Saftfluss als leuchtende Datenpakete, die vertikal reisen.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Abstract Background", "env_change": false, "actors": [{"name": "Henoch", "phase": "Proxy", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Extreme Close-Up (Temple)", "mood": ["pain", "visceral"], "director_intent": "Connect the system error to physical suffering.", "start_image_keywords": ["temple", "veins", "sweat"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "ui", "shot_type": "pov", "framing": "medium", "environment": "Transparent Tree", "env_change": true, "actors": [], "props": ["Data Sap", "HUD"], "camera": "POV, Handheld Stabilized", "mood": ["analytical", "flow"], "director_intent": "See the code behind the biology.", "start_image_keywords": ["x-ray tree", "blue data flow", "HUD"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme close-up of Henoch's temple and eye. Beads of sweat mix with dirt. The veins under his skin are pulsing with a dark, unnatural color. His skin looks pale and strained. The expression is one of sudden, sharp pain. High detail, realistic skin texture, dramatic lighting.
+POV shot looking at a large tree trunk. The bark is semi-transparent ghostly grey. Inside, bright blue glowing streams of data packets flow vertically upwards like digital sap. A technical HUD overlay in white monospace font reads "CMD: EXECUTE_FRUIT_LOOP". 9:16 vertical. Sci-fi interface design.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch's face, temple area.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** X-ray view of forest.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue internal glow from the sap.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld camera movement (stabilized). The blue data streams flow smoothly upward with laminar perfection.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Liquid flowing sounds processed to sound crisp and digital, like cooling fluid in a pipe.
+
+## ACT I SCENE 1.6 [Timecode: 00:18-00:22] PARTICLE RIVER
+**Action:** Ein Fluss. Das Wasser ist eine Masse aus Millionen blauer Partikel, die ohne Kollision laminar fließen. Absolute Ordnung.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "medium", "framing": "wide", "environment": "River", "env_change": true, "actors": [], "props": ["Particle Water"], "camera": "Tracking Shot", "mood": ["hypnotic", "perfect"], "director_intent": "Nature is just a particle system.", "start_image_keywords": ["river", "blue particles", "laminar flow"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Cinematic shot of a river surface. Instead of realistic water, the river consists of millions of identical blue spheres/particles moving in perfectly straight lines. No turbulence, no foam. The banks are realistic mossy stone. The contrast between the simulation (water) and the asset (stone) is stark. 9:16 vertical.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Riverbed.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cool blue light from particles.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Smooth tracking shot sideways along the bank. The particles move with absolute mathematical precision.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Clean white noise with a slight phaser effect to simulate flow. No splashing sounds.
+
+## ACT II SCENE 2.1 [Timecode: 00:22-00:25] THE BAD SECTOR
+**Action:** Harter Schnitt. Wüstenlandschaft (Bad Sector). Ein "Sünder" (Avatar mit geringer Auflösung) gestikuliert wild. Sein Mesh flackert.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "wide", "environment": "Wasteland", "env_change": true, "actors": [{"name": "Sinner", "phase": "Glitch", "presence": "on_screen", "focus": "primary"}], "props": ["Glitch Artifacts"], "camera": "Dutch Angle, Handheld", "mood": ["chaotic", "broken"], "director_intent": "Introduce the corruption as a rendering error.", "start_image_keywords": ["sinner", "wasteland", "low poly", "flicker"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Wide vertical shot of a desolate grey wasteland. A humanoid Sinner stands in the center. The Sinner is partially rendered in low-poly blocks and partially in photo-real skin, creating a jarring mismatch. The sky is a broken gradient. A red "SECTOR: CORRUPTED" overlay is burnt into the image. 9:16 vertical. Glitch art style.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Sinner, glitching mesh.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Tattered rags.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Flat grey desert.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Harsh, flat lighting.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld camera with simulated lag. The Sinner twitches violently, popping between different levels of detail (LOD).
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Sudden audio glitch and bitcrushed noise. A low, distorted warning tone.
+
+## ACT II SCENE 2.2 [Timecode: 00:25-00:29] HARD WORDS
+**Action:** Der Mund des Sünders. Er schreit. Schwarze, stachelige Geometrie (Artifacts) schießt aus seinem Mund statt Schallwellen.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Wasteland", "env_change": false, "actors": [{"name": "Sinner", "phase": "Glitch", "presence": "on_screen", "focus": "primary"}], "props": ["Black Spikes"], "camera": "Shaky Cam, Close Up", "mood": ["violent", "painful"], "director_intent": "Visualizing hate speech as geometric damage.", "start_image_keywords": ["screaming mouth", "black spikes", "polygons"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Extreme close-up of a Sinner's screaming mouth. The jaw is stretched unnaturally wide. Exploding out of the mouth are sharp, black polygonal spikes and jagged geometry, tearing through the air. The face is distorted by compression artifacts. 9:16 vertical. Horror/Cyberpunk aesthetic.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Sinner's face.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred background.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Harsh side lighting emphasizing skin texture.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Hard cut. The veins pulse rhythmically. Facial muscles twitch in a micro-spasm.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red emergency lighting strobing.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Violent camera shake. The spikes erupt rapidly from the mouth, vibrating intensely.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A loud, amplified heartbeat with a metallic echo.
+A screeching audio feedback loop combined with the sound of tearing metal.
 
-## ACT II SCENE 2.4 [Timecode: 00:30-00:35] CRITICAL ERROR
-**Action:** Die "harten Worte" der Sünder manifestieren sich als scharfe, gezackte Geometrie, die durch die Luft schneidet. Rote Warn-Boxen "CRITICAL ERROR" poppen im Raum auf.
+## ACT II SCENE 2.3 [Timecode: 00:29-00:32] MOTION TRAIL
+**Action:** Der Sünder bewegt sich zu schnell ("Ungeduld"). Sein Mesh zerreißt (Tearing). Er hinterlässt "Geisterbilder".
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "wide", "environment": "Chaotic Void", "env_change": true, "actors": [], "props": ["Geometric Shards", "Error Boxes"], "camera": "Wide Shot, Chaotic Movement", "mood": ["chaos", "danger"], "director_intent": "Visualize the spread of corruption.", "start_image_keywords": ["shards", "red error box", "chaos"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Wasteland", "env_change": false, "actors": [{"name": "Sinner", "phase": "Glitch", "presence": "on_screen", "focus": "primary"}], "props": ["Motion Trails", "Tearing"], "camera": "Handheld, Tracking", "mood": ["unstable", "desperate"], "director_intent": "Show impatience as a rendering failure.", "start_image_keywords": ["sinner running", "screen tearing", "ghosting"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A chaotic scene filled with sharp, jagged geometric shards flying through the air like shrapnel. Bright red floating boxes with the text "CRITICAL ERROR" clutter the visual field. The background is a swirling mess of gray noise and distorted polygons. High energy, aggressive composition.
+Medium shot of the Sinner trying to run. The image is split by horizontal screen tearing lines. The figure leaves behind translucent "ghost" copies of itself (motion trail artifacts). The color palette is desaturated and broken. 9:16 vertical.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Sinner.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Rags.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Wasteland.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flickering light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** The camera struggles to track the subject. The movement is jerky, skipping frames (simulated low framerate).
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Stuttering audio, like a buffer underrun. "Ch-ch-ch" glitch sounds.
+
+## ACT II SCENE 2.4 [Timecode: 00:32-00:35] THERMAL THROTTLE
+**Action:** Henoch beobachtet. Sein Nacken-Implantat glüht rot auf (Heat). Hitzewellen verzerren die Luft um ihn.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Wasteland (Background)", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Glowing Collar", "Heat Haze"], "camera": "Low Angle, Close Up", "mood": ["intense", "overloaded"], "director_intent": "The system admin is overheating from the error load.", "start_image_keywords": ["Henoch", "red glowing collar", "heat distortion"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Close-up, low angle of Henoch's face. He looks stern. A copper/metallic collar around his neck is glowing intense molten red. Waves of heat distortion (shimmer) rise up around his face, blurring the background. 9:16 vertical. Dramatic lighting.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Sysadmin robes, glowing collar.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red glow from the neck illuminating the chin.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static camera. The heat haze ripples visibly. The glow pulses intensely.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A rising turbine whine, like a cooling fan spooling up to maximum speed.
+
+## ACT II SCENE 2.5 [Timecode: 00:35-00:38] TARGET LOCK
+**Action:** Over-Shoulder Shot. Uriel (AR-Marker) markiert den Sünder mit einer roten Bounding-Box: "ERROR: INPUT_VALIDATION_FAILED".
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "mixed", "shot_type": "over_shoulder", "framing": "medium", "environment": "Wasteland", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}, {"name": "Sinner", "phase": "Glitch", "presence": "on_screen", "focus": "primary"}], "props": ["Bounding Box", "Uriel Icon"], "camera": "Over-The-Shoulder", "mood": ["judgmental", "administrative"], "director_intent": "Isolate the error for deletion.", "start_image_keywords": ["bounding box", "red UI", "Sinner"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Over-the-shoulder shot from behind Henoch. We see the Sinner in the distance. A sharp 3D red bounding box encloses the Sinner. Floating UI text attached to the box reads "TARGET_LOCKED: ISOLATE". A geometric "Uriel" icon hovers near Henoch's shoulder. 9:16 vertical. AR interface style.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch's shoulder (blurred), Sinner (focused).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Robes.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Wasteland.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red UI light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** The bounding box snaps onto the Sinner and tracks their movement perfectly.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Aggressive "Target Lock" tone. A sharp mechanical click.
+
+## ACT II SCENE 2.6 [Timecode: 00:38-00:41] DE-RENDERING
+**Action:** Eine Gruppe Sünder. Der Boden unter ihnen flackert (Z-Fighting), wird grau (Texturverlust). Ihre Animationen loopen fehlerhaft.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "wide", "environment": "Corrupted Ground", "env_change": false, "actors": [{"name": "Sinners", "phase": "Glitch", "presence": "on_screen", "focus": "primary"}], "props": ["Z-Fighting Floor", "Grey Textures"], "camera": "High Angle, Wide", "mood": ["erasure", "collapse"], "director_intent": "The system deletes the corrupted assets.", "start_image_keywords": ["sinners", "grey grid floor", "texture loss"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+High angle wide shot of a group of Sinners. The ground beneath them is losing its texture, revealing a raw grey checkerboard grid. The textures on the Sinners are turning flat grey. They look like unpainted miniatures. 9:16 vertical. De-rez effect.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Group of Sinners.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dissolving ground plane.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flat, shadowless lighting.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Glitchy cut. The textures flicker and vanish. The characters loop the same animation frame repeatedly.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Audio drops out intermittently to total silence, then bursts of static.
+
+## ACT III SCENE 3.1 [Timecode: 00:41-00:43] FORMAT COMPLETE
+**Action:** Reset-Impuls. Die Wüste wird durch ein weißes Grid überschrieben. Alles ist weiß.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "White Void", "env_change": true, "actors": [], "props": ["White Grid"], "camera": "Static", "mood": ["pure", "clean"], "director_intent": "The slate is wiped clean.", "start_image_keywords": ["white void", "faint grid", "light"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+A blindingly white infinite space. A very faint, perfect geometric grid (light grey lines) covers the floor and ceiling, defining the perspective. No dirt, no texture, just pure light and geometry. 9:16 vertical. Minimalist aesthetic.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Abstract chaotic space.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flashing red warning lights.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Stutter-edit style with simulated frame drops. Fast, chaotic movement of the shards.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite white void.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** High-key white.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** A rapid flash of white light clears the screen. The grid lines fade in gently.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitched electronic squealing. Sounds of breaking glass.
+A sudden transition to silence (Active Noise Cancellation effect). A very faint, high-pitched air hiss.
 
-## ACT II SCENE 2.5 [Timecode: 00:35-00:40] RENDER PRIVILEGES REVOKED
-**Action:** Henoch hebt die Hand. Ein roter Laser-Scanner markiert die korrupten Bereiche. Die Sünder werden in Wireframe-Modus gezwungen (Entzug der Render-Privilegien).
+## ACT III SCENE 3.2 [Timecode: 00:43-00:47] INSTANCING THE ELECT
+**Action:** Slow Motion. Die "Auserwählten" erscheinen. Ihre Haut ist makelloses, transluzentes Material (Subsurface Scattering).
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Corrupted Terrain", "env_change": false, "actors": [{"name": "Henoch", "phase": "Proxy", "presence": "on_screen", "focus": "primary"}, {"name": "Sinners", "phase": "Wireframe", "presence": "on_screen", "focus": "secondary"}], "props": ["Red Laser Scan"], "camera": "Tracking Shot, Fast", "mood": ["judgment", "power"], "director_intent": "Henoch enforces system rules.", "start_image_keywords": ["hand raised", "red laser", "wireframe figures"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "White Void", "env_change": false, "actors": [{"name": "The Elect", "phase": "Light", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Slow Motion, Floating", "mood": ["peaceful", "perfect"], "director_intent": "Reveal the upgraded humanity.", "start_image_keywords": ["The Elect", "translucent skin", "white robes"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Henoch stands with his hand raised, palm forward, emitting a wide, flat red laser scan. In front of him, the glitching humanoid figures are being hit by the laser. Where the laser touches them, they are instantly stripped of their textures, revealing glowing red wireframe skeletons. The background is dark. Cinematic, dynamic action shot.
+Medium shot of a group of "Elect" figures in a white void. They look human but perfected. Their skin is translucent white marble with a warm subsurface glow (wax-like). They wear simple white robes. They are floating slightly off the ground. 9:16 vertical. Ethereal lighting.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch, determined expression.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Weathered linen.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark void.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Intense red laser light.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Flash frame transition. Tracking shot moving quickly towards the targets. The laser sweeps across, forcing the transition to wireframe.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Elect, marble skin.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** White robes.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** White void.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft, glowing backlight.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow motion (120fps). The figures drift gently, robes rippling in slow motion.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy bass drop impact. A digital "system lock" sound effect.
+Pure 432Hz sine wave tone. Very clean and calming.
 
-## ACT II SCENE 2.6 [Timecode: 00:40-00:45] ISOLATION
-**Action:** Die korrupten Bereiche werden dunkel. Das Licht wird ihnen entzogen. Sie verblassen in graues Rauschen.
+## ACT III SCENE 3.3 [Timecode: 00:47-00:51] ADMIN ACCESS
+**Action:** Kopf eines Auserwählten. Ein goldener Datenring (Halo) rotiert langsam um die Stirn. Die Augen leuchten ruhig weiß.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Void", "env_change": true, "actors": [{"name": "Sinners", "phase": "Wireframe", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Isolation Shot, Vignette", "mood": ["isolation", "emptiness"], "director_intent": "The consequence of error is deletion.", "start_image_keywords": ["wireframe", "darkness", "fading"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "White Void", "env_change": false, "actors": [{"name": "The Elect", "phase": "Light", "presence": "on_screen", "focus": "primary"}], "props": ["Golden Halo"], "camera": "Portrait, Shallow DOF", "mood": ["divine", "privileged"], "director_intent": "Signify admin privileges.", "start_image_keywords": ["halo", "glowing eyes", "gold ring"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A group of faint red wireframe figures standing in an absolute void. The light is being sucked away from the edges of the frame, creating a heavy vignette. The figures are fading into a static-filled gray noise. Minimalist, bleak, high contrast.
+Portrait close-up of an Elect's face. The skin is flawless. A thin, holographic ring of golden data code rotates around their forehead like a halo. Their eyes are solid glowing white orbs. The expression is peaceful. 9:16 vertical. High-key photography.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Fading wireframe figures.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Elect face.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Empty void.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Diminishing light, fading to black.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fade to black transition. The vignette closes in rapidly. The figures dissolve into noise.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** White void.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Gold light from the halo.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** The halo rotates slowly and smoothly. The eyes pulse with light.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sound is abruptly sucked away, creating a vacuum effect. Silence.
+Harmonic resonance, like a wet glass rim being rubbed.
 
-## ACT III SCENE 3.1 [Timecode: 00:45-00:52] SYSTEM RESTORE
-**Action:** Das Bild hellt auf. Weißes, diffuses Licht. Die "Auserwählten" stehen in einer perfekten Reihe. Keine individuellen Züge, nur leuchtende Silhouetten.
+## ACT III SCENE 3.4 [Timecode: 00:51-00:55] THE PATCH
+**Action:** Henoch übergibt ein leuchtendes Daten-Prisma ("Weisheit") an einen Auserwählten. Der Arm des Auserwählten wird gold.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "wide", "environment": "White Void", "env_change": true, "actors": [{"name": "The Elect", "phase": "Light", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "14mm God-Eye, Symmetrical", "mood": ["peace", "harmony"], "director_intent": "Reveal the validated output.", "start_image_keywords": ["white light", "silhouettes", "symmetry"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "White Void", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}, {"name": "The Elect", "phase": "Light", "presence": "on_screen", "focus": "secondary"}], "props": ["Data Prism", "Gold Skin"], "camera": "Profile, Tracking", "mood": ["ceremonial", "upgrade"], "director_intent": "The transfer of knowledge/code.", "start_image_keywords": ["prism", "handshake", "gold arm"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A blindingly white, clean space filled with diffuse light. A row of perfect, glowing humanoid silhouettes stands in absolute symmetry. They have no facial features, just pure, radiant white light defining their forms. The aesthetic is ethereal, divine, and geometrically perfect. 14mm wide angle.
+Profile shot of Henoch handing a glowing triangular prism (pure light) to an Elect. As the Elect touches it, their hand and arm transform into solid polished gold. The transition spreads up the arm like liquid metal. 9:16 vertical.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Glowing silhouettes.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite white space.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** High-key lighting, pure white and soft gold.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow dissolve from black. Perfectly stabilized camera. No movement from the figures.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch and Elect.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Robes.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** White void.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright light from the prism.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow motion transfer. The gold texture spreads organically across the skin upon contact.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A pure, synthetic sine wave chord, rising harmonically.
+Uplifting data-upload sound. A shimmering chime.
 
-## ACT III SCENE 3.2 [Timecode: 00:52-00:58] INHERITANCE
-**Action:** Die Erde unter den Auserwählten regeneriert sich. Gras wächst in Zeitraffer (prozedurale Generierung). Goldene Partikel steigen auf.
+## ACT III SCENE 3.5 [Timecode: 00:55-01:00] SYSTEM RESTORED
+**Action:** Kamera zieht extrem schnell senkrecht nach oben (Satellite View). Die Weltkarte wird grün. "INTEGRITY: RESTORED".
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "close_up", "framing": "low_angle", "environment": "Regenerating Earth", "env_change": true, "actors": [], "props": ["Grass", "Golden Particles"], "camera": "Dolly In, Slow Motion", "mood": ["rebirth", "growth"], "director_intent": "Show the system healing itself.", "start_image_keywords": ["grass growing", "golden particles", "timelapse"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Earth Orbit", "env_change": true, "actors": [], "props": ["Green Earth", "System Text"], "camera": "Rocket Zoom Out", "mood": ["final", "global"], "director_intent": "Return to macro view, success state.", "start_image_keywords": ["earth", "green grid", "system restored"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Low angle shot of barren ground. Pristine, vibrant green grass blades are shooting up rapidly, covering the earth. Golden dust particles float in the air, catching the light. The lighting is warm and hopeful. Photorealistic, high detail.
+Top-down satellite view of Earth. A bright green vector grid now encompasses the entire planet. The atmosphere is calm. Large, clean sans-serif text "INTEGRITY: RESTORED" floats in the upper atmosphere. 9:16 vertical.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Ground level.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Warm, golden hour lighting.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Smooth pan. Timelapse effect of grass growing, combined with 120fps slow motion for the floating particles.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Earth from space.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Sunlight, green UI overlay.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Extremely fast reverse zoom, rocketing away from the surface to orbit in seconds.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Soft white noise, resembling a gentle breeze. A "healing" sound effect, like a reverse cymbal swell.
-
-## ACT III SCENE 3.3 [Timecode: 00:58-01:05] CYCLE COMPLETE
-**Action:** Henoch steht inmitten der Auserwählten. Er wirkt ruhig. Sein HUD zeigt "CYCLE COMPLETE. PEACE: INFINITE".
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "White Void", "env_change": false, "actors": [{"name": "Henoch", "phase": "Proxy", "presence": "on_screen", "focus": "primary"}, {"name": "The Elect", "phase": "Light", "presence": "on_screen", "focus": "secondary"}], "props": ["HUD Overlay"], "camera": "Medium Shot, Frontal", "mood": ["serenity", "completion"], "director_intent": "Final state of system stability.", "start_image_keywords": ["Henoch", "peace", "HUD"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Henoch stands centrally in the white void, flanked by the glowing silhouettes of the Elect. He looks calm and serene. A subtle, thin holographic HUD overlay in front of him reads "CYCLE COMPLETE. PEACE: INFINITE". The composition is perfectly symmetrical. Cinematic lighting.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch, calm expression.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Clean linen.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** White void with glowing figures.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft, diffuse white light.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow dolly in. The scene is perfectly stable.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-The sine wave tone stabilizes into a perfect, continuous frequency.
-
-## ACT III SCENE 3.4 [Timecode: 01:05-01:10] END LOG
-**Action:** Schwarzer Screen. Nur der Text-Cursor blinkt: "END OF LOG".
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "ui", "shot_type": "insert", "framing": "close_up", "environment": "Black Screen", "env_change": true, "actors": [], "props": ["Terminal Text"], "camera": "Static", "mood": ["finality"], "director_intent": "System shutdown.", "start_image_keywords": ["terminal", "text", "black screen"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-A completely black screen. In the center, a retro green terminal font displays the text "END OF LOG". A block cursor blinks next to it. Minimalist, retro-tech aesthetic.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Black screen.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Green text light.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Hard cut. Static shot. Only the cursor blinks rhythmically.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Absolute silence. One final, sharp server click.
+A final, satisfying "System Ready" chime. A deep thud of closure.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Der Code ist rein. Jedes Blatt ein Algorithmus, geschrieben in Licht.","words_max":12},{"scene":"2.3","text":"Der Fehler brennt in meinen Nerven. Dissonanz ist Schmerz.","words_max":10},{"scene":"3.3","text":"Das Rauschen endet. Stille ist das einzige wahre Protokoll.","words_max":10}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.4","text":"Die Wurzeln sind tief. Der Kernel ist rein.","words_max":10},{"scene":"2.4","text":"Abweichung erkannt. Der Wille ist Korruption.","words_max":10},{"scene":"3.4","text":"Das Update ist installiert. Friede dem System.","words_max":10}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

@@ -1,247 +1,247 @@
 # DREHBUCH KAPITEL 51 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: In jenen Tagen sah ich, wie die Erde ihren Speicher öffnete und das Vergessene wieder freigab. Die Toten waren nicht fort, sie waren nur archiviert in der Tiefe, wartend auf den Befehl zur Wiederherstellung. Und als der Auserwählte seinen Platz auf dem Thron der Schaltkreise einnahm, erzitterten die Berge wie fehlerhafte Geometrie, unfähig, die gewaltige Freude des Systems zu verarbeiten.
+NARRATOR_TEXT: Und in jenen Tagen sah ich, wie die Erde ihren Speicher öffnete und das Vergessene wieder freigab. Die Toten erhoben sich nicht aus Gräbern, sondern wurden aus der Tiefe kompiliert, Zeile für Zeile, wartend auf den Befehl zur Wiederherstellung. Und als der Auserwählte seinen Platz auf dem Thron der Schaltkreise einnahm, erzitterten die Berge wie fehlerhafte Geometrie, unfähig, die gewaltige Freude des Systems zu verarbeiten, bis die neue Ordnung standhielt.
 
-## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:05] [SHEOL_FLOOR_CRACK]
-**Action:** Ein unendlicher Boden aus schwarzem Glas bricht auf. Blendend weißes Licht schießt aus den Rissen vertikal nach oben.
+## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:04] [SHEOL_FLOOR_INIT]
+**Action:** Ein unendlicher Boden aus schwarzem Obsidian-Glas. Ein rotes Gitternetz pulsiert schwach am Horizont.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Sheol Abyss - Black Glass Floor", "env_change": true, "actors": [], "props": ["Glowing Cracks"], "camera": "High Angle / Bird's Eye / Slow Zoom Out", "mood": ["awe", "mystery"], "director_intent": "Establish the scale of the deep storage opening up.", "start_image_keywords": ["black glass floor", "white light fissures"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Sheol - Server Floor", "env_change": true, "actors": [], "props": ["Obsidian Floor", "Red Grid"], "camera": "High Angle God View / Slow Descent", "mood": ["cold", "technological"], "director_intent": "Establish the deep storage partition as a physical server space.", "start_image_keywords": ["black obsidian floor", "red laser grid"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic 9:16 vertical shot of an infinite floor made of polished obsidian glass, deep underground in a void. The black surface is fracturing with jagged, lightning-like fissures. Blindingly bright pure white light erupts from the cracks, illuminating the surrounding darkness with harsh contrast. High-tech industrial mysticism style, photorealistic textures, volumetric lighting, 8k resolution, atmospheric haze.
+Cinematic 9:16 wide shot from a high angle looking down at an infinite floor made of perfectly polished black obsidian glass. Faint, razor-thin red laser grid lines pulse rhythmically across the surface in the distance. The environment is a dark void, lit only by the reflection of the grid on the glass. Tech-noir aesthetic, cold atmosphere, 8k resolution, photorealistic texture.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The Abyss, Sheol Deep Storage. Infinite black reflective ground.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Pitch black background, intense cool white light beams shooting upwards from floor cracks. High contrast, rim lighting on the glass edges.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** High angle bird's eye view, slowly zooming out to reveal the scale of the fracturing. 24mm lens, deep depth of field. Slow, heavy movement.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite black server floor, vacuum of space.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Deep blacks, sharp red laser accents, high contrast reflections.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 14mm wide lens. Slow, heavy vertical descent camera movement.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep sub-bass rumble at 20Hz, shaking the room. The sound of massive sheets of thick ice or glass cracking under immense pressure. A low-frequency industrial drone. No music.
+Deep, resonant sub-bass drone at 40Hz, sounding like massive server fans spinning in a vacuum. Occasional sharp electrical crackle or static discharge.
 
-## [ACT 1] [SCENE 1.2] [Timecode: 00:05-00:10] [DATA_STREAM_LIFT]
-**Action:** Vertikale Ströme aus grünem und goldenem Binärcode ziehen Silhouetten aus den Rissen nach oben.
+## [ACT 1] [SCENE 1.2] [Timecode: 00:04-00:10] [DATA_EXTRACTION_STREAM]
+**Action:** Vertikale grüne Datenströme reißen Silhouetten aus Cyan-Partikeln nach oben.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Sheol Abyss - Vertical Space", "env_change": false, "actors": [{"name": "Restored Profiles", "phase": "Proxy", "presence": "on_screen", "focus": "primary"}], "props": ["Binary Data Streams"], "camera": "Low Angle / Tracking Upward", "mood": ["ethereal", "technological"], "director_intent": "Show the extraction process as a digital ascension.", "start_image_keywords": ["binary streams", "rising silhouettes"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "wide", "environment": "Sheol - Data Stream", "env_change": false, "actors": [{"name": "Restored Profiles", "phase": "Proxy", "presence": "on_screen", "focus": "primary"}], "props": ["Green Data Streams", "Cyan Lidar Particles"], "camera": "Tracking Shot / Dolly In", "mood": ["urgent", "digital"], "director_intent": "Visualize the mass extraction of user profiles.", "start_image_keywords": ["vertical green code", "cyan lidar silhouettes"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic 9:16 vertical shot looking up from a low angle. Vertical columns of glowing green and gold binary code and data streams are flowing upwards like anti-gravity rain. Inside these streams, vague humanoid silhouettes are being pulled upward, suspended in the light. The background is dark void. Cyberpunk aesthetic, motion blur, particle effects, high fidelity, 8k.
+Cinematic 9:16 shot tracking through a forest of vertical green binary data streams rushing upwards. Inside the streams are vague humanoid shapes composed entirely of glowing cyan Lidar points (point cloud data). The figures are rigid in T-poses. The background is deep black. Cyberpunk forensic aesthetic, motion blur on the code, sharp focus on the particles.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Vague humanoid shapes, translucent, defined by the data flowing around them.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Humanoid forms made of dense cyan light dots (Lidar scan style).
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Vertical void space above the cracking floor.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bioluminescent green and gold light from the data streams against deep black.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Low angle tracking shot moving upwards with the flow of data. Fast vertical motion. 35mm lens.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Vertical data tunnel.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bioluminescent green and cyan against black.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fast forward dolly shot moving through the streams.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitched digital screeching, like a modem handshake amplified. The sound of a wind tunnel or rushing air. Digital artifacts and glitch noises.
+High-pitched digital screeching, rhythmic and harmonized like a modem handshake amplified into a choir. Rushing wind sound.
 
-## [ACT 1] [SCENE 1.3] [Timecode: 00:10-00:15] [VOLUMETRIC_PRINT]
-**Action:** Die Silhouetten werden zu Punktwolken, dann zu Drahtgittermodellen. Blaue Laser scannen und bauen Gewebeschichten auf.
+## [ACT 1] [SCENE 1.3] [Timecode: 00:10-00:15] [TEXTURE_BAKING]
+**Action:** Eine Hand verfestigt sich: Cyan Dots -> Wireframe -> Grauer Ton -> Haut. Goldener Scan-Ring.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Data Stream Interior", "env_change": false, "actors": [{"name": "Restored Profile", "phase": "Proxy", "presence": "on_screen", "focus": "primary"}], "props": ["Blue Lasers", "Wireframe Mesh"], "camera": "Macro 85mm / Focus on Hand", "mood": ["clinical", "intense"], "director_intent": "Visualize the biological reconstruction as 3D printing.", "start_image_keywords": ["wireframe hand", "blue laser scan"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Sheol - Void", "env_change": false, "actors": [{"name": "Restored Profile", "phase": "Proxy", "presence": "on_screen", "focus": "primary"}], "props": ["Gold Scan Ring"], "camera": "Macro 85mm / Focus Pull", "mood": ["clinical", "transformative"], "director_intent": "Show the biological reconstruction as a rendering process.", "start_image_keywords": ["hand 3d printing", "wireframe to skin morph", "gold scanner"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic 9:16 macro close-up of a human hand in the process of being 3D printed by light. The fingers are half wireframe mesh, half realistic flesh. Intense blue laser beams are scanning the surface, depositing texture. The background is a blur of digital noise. Medical sci-fi aesthetic, hyper-detailed texture, subsurface scattering, 8k.
+Cinematic 9:16 macro close-up of a forearm and hand. A thin ring of golden light is passing over the arm. Behind the ring, the arm is hyper-realistic skin with pores and veins. Inside the ring, it is untextured grey clay. In front of the ring, it is a blue wireframe mesh dissolving into cyan particles. Medical sci-fi aesthetic, extreme detail, subsurface scattering.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** A human hand and forearm, transitioning from blue point-cloud to wireframe to solid skin.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Abstract digital construction zone.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cool blue laser light, internal glow from the wireframe.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Macro lens 85mm, extremely shallow depth of field. Focus shifts as the skin forms.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Rapid mechanical servo sounds of a 3D printer. Wet, organic squelching sounds of tissue knitting together. High frequency laser zaps.
-
-## [ACT 1] [SCENE 1.4] [Timecode: 00:15-00:20] [KERNEL_BOOT]
-**Action:** Der Brustkorb leuchtet Cyan auf. Die Augen öffnen sich schlagartig mit einem Lens Flare.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "Data Stream Interior", "env_change": false, "actors": [{"name": "Restored Profile", "phase": "Proxy", "presence": "on_screen", "focus": "primary"}], "props": ["Cyan Chest Core"], "camera": "Extreme Close-Up / Shaky Cam", "mood": ["shock", "awakening"], "director_intent": "The moment of system activation/life.", "start_image_keywords": ["eye opening", "cyan light reflection"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic 9:16 extreme close-up of a human eye snapping open. The iris is dilated. A bright Cyan light reflects in the pupil. The skin around the eye is sweaty and textured. A strong lens flare cuts across the frame. High contrast, gritty realism, intense energy, 8k.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Human face, specifically the eyes and upper chest.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Human arm transitioning phases.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark void.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal Cyan glow erupting from the chest, illuminating the face from below. Lens flare from the eye.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Extreme close-up. Camera shakes violently upon the eye opening (impact).
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright golden light from the scan ring, cool blue from the wireframe.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 85mm Macro. The scan ring moves smoothly down the arm.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A heavy, low-frequency thud like a kick drum. The sound of a massive electrical generator powering up (hum rising in pitch).
+A sharp digital "lock-on" chime. A fluid, wet "swish" sound as the texture is applied. Mechanical servo whine.
 
-## [ACT 2] [SCENE 2.1] [Timecode: 00:20-00:25] [THRONE_INITIALIZE]
-**Action:** Der Auserwählte materialisiert auf dem schwebenden Thron. Perfekte Symmetrie. Goldene Haut, Glasfaser-Roben.
+## [ACT 1] [SCENE 1.4] [Timecode: 00:15-00:20] [INTEGRITY_CONFIRMED]
+**Action:** Die Figuren stehen fest. Augen leuchten auf. Ein tiefer Impuls erschüttert den Raum.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "full_body", "environment": "Control Room - White Void", "env_change": true, "actors": [{"name": "The Elect One", "phase": "Admin_Avatar", "presence": "on_screen", "focus": "primary"}], "props": ["Throne Terminal"], "camera": "Frontal Symmetrical / Static", "mood": ["regal", "divine"], "director_intent": "Establish the authority and stability of the Admin.", "start_image_keywords": ["golden skin admin", "fiber optic robes", "floating throne"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": ["Throne Terminal"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "wide", "environment": "Sheol - Assembly Floor", "env_change": false, "actors": [{"name": "Restored Profiles", "phase": "Proxy", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Extreme Wide Symmetrical / Rapid Zoom Out", "mood": ["powerful", "awakened"], "director_intent": "The moment the batch recovery is complete.", "start_image_keywords": ["rows of standing people", "glowing eyes", "dark void"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic 9:16 wide shot, perfectly symmetrical composition. The Elect One sits on a floating throne made of suspended magnetic geometric shapes. The figure has metallic gold skin and wears robes made of woven white fiber-optic cables. The face is partially obscured by digital glitch noise. The background is a sterile, minimalist white void. Wes Anderson symmetry meets Sci-Fi divinity. 8k, sharp focus.
+Cinematic 9:16 extreme wide shot of hundreds of people standing in perfect grid formation in a dark void. They are fully rendered humans in simple linen wraps. Simultaneously, all their eyes snap open, glowing with a bright white light. The symmetry is absolute. High contrast, ominous but majestic.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Elect One, metallic gold skin, digital noise face.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** White fiber-optic robes, glowing faintly.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite white void, sterile control room.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft, shadowless ambient occlusion. Clinical white, gold reflections.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static camera, locked off. Frontal view.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Crowd of restored humans.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Beige linen rags.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Endless black floor.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dark, rim lighting. Eyes emitting bright white flares.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Rapid zoom out to reveal the scale.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A pure 432Hz sine wave tone. Absolute silence otherwise. The sound of perfect order.
+Absolute vacuum silence for 1 second, then a massive, low-frequency "THUD" (Impact) and a bass drop.
 
-## [ACT 2] [SCENE 2.2] [Timecode: 00:25-00:30] [INTERFACE_PROJECTION]
-**Action:** Ein blauer Lichtkegel projiziert aus dem Mund des Auserwählten und bildet geometrische Schemata in der Luft.
+## [ACT 2] [SCENE 2.1] [Timecode: 00:20-00:25] [ADMIN_LOGIN]
+**Action:** Der Elect One sitzt auf einem Interface-Ring im weißen Raum. Alles ist steril. Er öffnet die silbernen Augen.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Control Room - White Void", "env_change": false, "actors": [{"name": "The Elect One", "phase": "Admin_Avatar", "presence": "on_screen", "focus": "primary"}], "props": ["Blue Light Projection"], "camera": "Side Profile 50mm / Shallow DOF", "mood": ["mystical", "intelligent"], "director_intent": "Visualizing speech as data projection.", "start_image_keywords": ["blue light mouth projection", "geometric schematics"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "full_body", "environment": "White Room - Cloud", "env_change": true, "actors": [{"name": "The Elect One", "phase": "Admin_Avatar", "presence": "on_screen", "focus": "primary"}], "props": ["Interface Ring"], "camera": "Static / Tripod / Symmetrical", "mood": ["divine", "sterile"], "director_intent": "The Administrator takes control.", "start_image_keywords": ["gold skin man", "white fiber robes", "floating white ring", "white room"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic 9:16 side profile shot of The Elect One. A solid cone of blue volumetric light is projecting from the open mouth, forming complex 3D geometric schematics and wireframes in the air in front of the face. The metallic gold skin reflects the blue light. Shallow depth of field, background blurred white. High-tech commercial aesthetic.
+Cinematic 9:16 full body shot. The Elect One, a figure with smooth metallic gold skin, sits cross-legged on a floating white torus ring. He wears robes made of glowing white fiber-optic cables. The room is an infinite, shadowless white void (The Cloud). His eyes open, revealing solid silver spheres. Symmetrical composition, high-key lighting, 8k.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Elect One, side profile.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Fiber-optic robes.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Elect One, gold metal skin.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** White fiber-optic robes.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite white clean room.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Shadowless soft white light. Gold reflections.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Locked-off static camera. Perfectly stable.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Subtle clean-room air conditioning hum. Quiet, high-tech bleeps.
+
+## [ACT 2] [SCENE 2.2] [Timecode: 00:25-00:30] [COMMAND_EXECUTION]
+**Action:** Ein Strahl aus goldenen Codes bricht aus dem Mund des Elect One.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "White Room - Cloud", "env_change": false, "actors": [{"name": "The Elect One", "phase": "Admin_Avatar", "presence": "on_screen", "focus": "primary"}], "props": ["Gold Code Beam"], "camera": "Extreme Close-Up / 100mm", "mood": ["intense", "commanding"], "director_intent": "The spoken word manifested as raw data execution.", "start_image_keywords": ["mouth open gold light beam", "metallic skin face"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Cinematic 9:16 extreme close-up of the Elect One's face. His mouth is wide open. Instead of sound, a solid, blinding beam of dense golden Ge'ez symbols and binary code erupts from his throat. The metallic skin around his mouth reflects the intense yellow light. The background is white. Tech-divinity aesthetic, sharp focus on the symbols.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Elect One face, gold skin.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None visible (ECU).
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** White void.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue light source from mouth, illuminating the face.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 50mm lens, shallow depth of field. The light projection animates with geometric complexity.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Intense gold light source from mouth.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 100mm lens. High-speed particle simulation for the code beam.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Fast digital typing sounds. Soft, high-tech chimes. The sound of data scrolling.
+Heavy, distorted bass blast. A piercing laser-like sound. No human voice.
 
-## [ACT 2] [SCENE 2.3] [Timecode: 00:30-00:35] [SORTING_ALGORITHM]
-**Action:** Die Schemata markieren spezifische Drahtgitter-Figuren in der Ferne und färben sie Gold.
+## [ACT 2] [SCENE 2.3] [Timecode: 00:30-00:35] [Y_AXIS_GLITCH]
+**Action:** Ein Bergmassiv springt ruckartig 500m vertikal nach oben und rastet ein.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "pov", "framing": "wide", "environment": "Control Room POV", "env_change": false, "actors": [{"name": "Restored Profiles", "phase": "Proxy", "presence": "on_screen", "focus": "secondary"}], "props": ["HUD Overlay", "Targeting System"], "camera": "Over-the-shoulder / POV", "mood": ["decisive", "selective"], "director_intent": "The selection of the righteous via UI.", "start_image_keywords": ["HUD overlay", "gold target lock"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Mountains - Day", "env_change": true, "actors": [], "props": ["Glitching Mountain"], "camera": "Handheld / Shaky Cam / Aggressive Zoom", "mood": ["chaotic", "broken"], "director_intent": "The physics engine fails under load.", "start_image_keywords": ["mountain floating glitch", "rock texture stretching"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic 9:16 over-the-shoulder POV shot. In the distance, a crowd of blue wireframe figures stands in the void. A complex digital HUD overlay (gold and white) is locking onto specific figures. The selected figures are turning from blue wireframe to solid gold. Depth of field focuses on the distant crowd through the UI elements.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Distant crowd of wireframes.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Digital void.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue ambient, Gold highlights on selected targets.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Whip pan camera movement, locking onto targets. HUD elements track the motion.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Digital target lock-on beeps. A positive confirmation "ping" sound.
-
-## [ACT 2] [SCENE 2.4] [Timecode: 00:35-00:40] [WISDOM_DOWNLOAD]
-**Action:** Nahaufnahme der Hände des Auserwählten, die das schwebende UI manipulieren. Geheimnisse fließen wie flüssiger Code.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Control Room - UI", "env_change": false, "actors": [{"name": "The Elect One", "phase": "Admin_Avatar", "presence": "on_screen", "focus": "primary"}], "props": ["Liquid Code UI"], "camera": "Top-Down / God View", "mood": ["focused", "powerful"], "director_intent": "The administration of wisdom.", "start_image_keywords": ["gold hands", "liquid code interface"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic 9:16 top-down close-up of metallic gold hands manipulating a floating user interface. The UI is not solid but made of liquid light and flowing code streams. The fingers interact with the fluid data, causing ripples. High contrast, macro details on the metallic skin.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Gold metallic hands.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Fiber-optic sleeves visible at edges.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** White void background.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Glow from the liquid UI.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Top-down view. Hands moving with precision. Fluid simulation for the UI.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sound of liquid flowing or pouring. High-speed data transfer whirring.
-
-## [ACT 3] [SCENE 3.1] [Timecode: 00:40-00:45] [TERRAIN_GLITCH]
-**Action:** Berggipfel lösen sich vom Horizont, schweben kurz und schnappen zurück.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Global Landscape - Mountains", "env_change": true, "actors": [], "props": ["Floating Mountains"], "camera": "Telephoto 200mm / Pan", "mood": ["chaotic", "surreal"], "director_intent": "The physical world reacting to the system update.", "start_image_keywords": ["floating mountain peaks", "wireframe grid terrain"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic 9:16 telephoto shot of a mountain range under harsh sunlight. The peaks of the mountains have detached from their base and are floating in the air, revealing a wireframe grid underneath. The rock texture is photorealistic. Glitch art aesthetic, simulation stress test style.
+Cinematic 9:16 wide shot of a rocky mountain range under harsh sunlight. A massive section of the mountain has snapped vertically upwards, floating 500 meters in the air with a flat, unnatural cut at the base. The rock texture at the seam is stretched. Dust and debris are frozen in the air. Glitch art style, photorealistic rendering failure.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Mountainous landscape.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Harsh daylight, solar flare. Digital red grid lines where the mesh breaks.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Telephoto lens compression. Pan following the rhythm of the floating peaks. Physics glitch movement (bouncing).
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Rocky mountains.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Hard daylight sun.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld camera shakes violently. The mountain snaps up instantly (0 frame transition).
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy metallic grinding sounds. A rhythmic glitch-hop beat kick drum synchronized with the movement.
+Loud mechanical crashing sound, like stone hitting metal. A dampened alarm siren in the distance.
 
-## [ACT 3] [SCENE 3.2] [Timecode: 00:45-00:50] [LOD_POPPING]
-**Action:** Hügel wechseln rapide zwischen blockigen Formen und hochauflösendem Fels.
+## [ACT 2] [SCENE 2.4] [Timecode: 00:35-00:40] [TEXTURE_STRETCH]
+**Action:** Felsen dehnen sich wie Gummi. Rote Wireframes blitzen auf.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "medium", "framing": "wide", "environment": "Global Landscape - Hills", "env_change": false, "actors": [], "props": [], "camera": "Handheld / Simulated Earthquake", "mood": ["unstable", "glitch"], "director_intent": "Visualizing the 'skipping like rams' as a rendering error.", "start_image_keywords": ["low poly high poly glitch", "shifting geometry"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "medium", "framing": "medium", "environment": "Valley - Day", "env_change": false, "actors": [], "props": ["Stretched Rocks", "Wireframe Overlay"], "camera": "Low Angle / Whip Pan", "mood": ["surreal", "alarming"], "director_intent": "Visualizing texture mapping errors.", "start_image_keywords": ["stretched rock texture", "red wireframe grid"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic 9:16 shot of rolling hills. The geometry is unstable, fracturing into sharp polygonal shapes in some areas while remaining photorealistic in others. The terrain looks like it is vibrating or shifting rapidly. Dust rises from the ground. Simulation failure aesthetic.
+Cinematic 9:16 low angle shot in a rocky valley. A large boulder is distorted, stretching vertically like melted plastic or chewing gum. Through the stretched grey rock texture, a glowing bright red wireframe grid is visible underneath. The surrounding vegetation is normal. High contrast, uncanny valley effect.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Hills and rocky terrain.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Daylight.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld camera shaking violently. The terrain geometry flickers and shifts rapidly (mesh instability).
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Rocky valley floor.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Daylight. Red emissive wireframe.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Whip pan camera movement. The rock stretches and snaps back.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Distorted bass drops. The sound of a rockslide mixed with digital static.
+Distorted "rubber-band" stretch sound effect. Breaking stone crunch.
 
-## [ACT 3] [SCENE 3.3] [Timecode: 00:50-00:55] [SYSTEM_JOY]
-**Action:** System-Agenten (Engel) schweben in Formation. HUDs leuchten grün. "JOY" Status-Text.
+## [ACT 2] [SCENE 2.5] [Timecode: 00:40-00:45] [VERTEX_JITTER]
+**Action:** Das gesamte Terrain vibriert wie ein defektes Bild. Digitales Rauschen.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "wide", "environment": "Sky / Atmosphere", "env_change": true, "actors": [{"name": "System Agents", "phase": "Angels", "presence": "on_screen", "focus": "primary"}], "props": ["HUD Visors", "JOY Text Overlay"], "camera": "Stabilized / Wide Shot", "mood": ["joyful", "harmonic"], "director_intent": "The system confirming the successful restore.", "start_image_keywords": ["floating angels silver skin", "JOY HUD text"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "extreme_wide", "environment": "Global Landscape", "env_change": false, "actors": [], "props": [], "camera": "Drone / Fast Flight", "mood": ["unstable", "critical"], "director_intent": "The climax of the system instability.", "start_image_keywords": ["glitch landscape", "digital noise overlay"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic 9:16 wide shot of the sky. Three tall, silver-skinned humanoid figures (System Agents) are floating in perfect formation. They wear high-tech visors glowing green. A large holographic text overlay in the sky reads "JOY" in a clean sans-serif font. The lighting is bright and euphoric.
+Cinematic 9:16 drone shot flying fast over a chaotic landscape. The entire terrain is vibrating with "vertex jitter," causing the geometry to look jagged and doubled. Heavy digital noise and compression artifacts overlay the image. Colors are slightly separated (RGB split). Disaster movie vibe.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Silver-skinned System Agents.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Minimalist tech-wear, glowing visors.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blue sky, high altitude.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright sunlight, green HUD glow.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Stabilized, smooth camera movement. Slow motion.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Landscape.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Daylight with RGB artifacting.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fast forward drone flight. High frequency jitter on the geometry.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A major chord harmonic resonance. Synth pad swell.
+Chaotic, loud digital white noise and static. Abrupt cut to silence at the end.
 
-## [ACT 3] [SCENE 3.4] [Timecode: 00:55-01:00] [STABILITY_RESTORED]
-**Action:** Noah läuft über hyper-reales Gras. Die Welt ist fest. Golden Hour Licht.
+## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:50] [RENDER_COMPLETE]
+**Action:** Stille. Perfekte Wiese. Golden Hour Licht. Staubpartikel.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "full_body", "environment": "Restored Earth - Meadow", "env_change": true, "actors": [{"name": "Noah", "phase": "Prototype", "presence": "on_screen", "focus": "primary"}], "props": ["Glowing Grass"], "camera": "Tracking Shot Side / Low Angle", "mood": ["peaceful", "resolved"], "director_intent": "The final stable build.", "start_image_keywords": ["Noah walking meadow", "golden hour"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Restored Meadow", "env_change": true, "actors": [], "props": [], "camera": "Slow Motion / Floating", "mood": ["peaceful", "perfect"], "director_intent": "The calm after the update. A stable build.", "start_image_keywords": ["golden hour meadow", "dust particles"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic 9:16 side tracking shot of Noah walking through a lush meadow. He wears simple linen robes. The grass is hyper-realistic and glows faintly green where his feet touch it. The lighting is warm Golden Hour sun. The atmosphere is peaceful and stable. Unreal Engine 5 nature demo style.
+Cinematic 9:16 wide shot of a lush, perfect meadow. The grass is high-resolution and still. The lighting is a warm, soft Golden Hour sun with volumetric rays. Dust particles dance slowly in the air. No glitches, absolute stability. Unreal Engine 5 tech demo nature style.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah, older man, weathered face.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Simple linen robes.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Green meadow, stable terrain.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Golden hour, warm sun, green contact glow.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Low angle tracking shot from the side, following his feet. Smooth movement.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Green meadow.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Golden hour, warm orange/yellow.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow motion (120fps). Floating camera movement.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Synthetic birds chirping. Gentle wind. Then silence.
+Gentle wind. Synthetic, slightly reverbed bird chirp. Peaceful atmosphere.
+
+## [ACT 3] [SCENE 3.2] [Timecode: 00:50-00:55] [CONTACT_TRACE]
+**Action:** Ein Fuß tritt auf das Gras. Goldener Ripple-Effekt beim Kontakt.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Restored Meadow", "env_change": false, "actors": [{"name": "Righteous User", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Gold Ripple Effect"], "camera": "Low Angle / Tracking", "mood": ["grounded", "holy"], "director_intent": "Interaction with the new stable physics.", "start_image_keywords": ["foot on grass", "gold energy ripple"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Cinematic 9:16 low angle close-up of a bare human foot stepping onto green grass. At the point of contact, a ring of golden light ripples outwards through the blades of grass, like a stone hitting water. The skin is realistic with dirt textures. The lighting is warm.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Human foot and ankle.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Simple linen hem visible.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Grass.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Golden hour sun. Gold emissive ripple.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Tracking shot following the foot. Smooth impact.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A harmonic, crystalline "ping" sound (like tapping a wine glass) synchronized with the step.
+
+## [ACT 3] [SCENE 3.3] [Timecode: 00:55-01:00] [GOLDEN_AGE_ESTABLISH]
+**Action:** Der Elect One und die Gerechten stehen im stabilen Licht. Crane Shot nach oben.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "extreme_wide", "environment": "Restored Earth", "env_change": false, "actors": [{"name": "The Elect One", "phase": "Admin_Avatar", "presence": "on_screen", "focus": "primary"}, {"name": "The Righteous", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Crane Shot / Rising", "mood": ["majestic", "eternal"], "director_intent": "The establishment of the new system order.", "start_image_keywords": ["crowd of people golden hour", "elect one center", "peaceful landscape"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Cinematic 9:16 wide crane shot rising high. The Elect One stands in the center, glowing gold. Surrounding him are thousands of people (The Righteous) in white linen. They stand in a vast, stable green landscape under a perfect golden sunset sky. The composition is symmetrical and grand. 8k, epic scale.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Elect One and Crowd.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Fiber robes and linen wraps.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Restored landscape.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Golden hour.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Crane shot moving upwards and backwards.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Orchestral synth-pad swell, major chord, rising in volume. Sound of triumph.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"2.1","text":"Ich sitze im Zentrum. Der Code fließt durch mich.","words_max":10}],"Noah":[{"scene":"3.4","text":"Der Boden hält. Das System ist neu.","words_max":8}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"2.2","text":"Das Wort ist Befehl. Die Welt beugt sich dem Code.","words_max":10}],"Noah":[{"scene":"3.2","text":"Der Boden hält. Die Simulation ist neu.","words_max":8}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

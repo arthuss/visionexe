@@ -1,0 +1,125 @@
+{
+  "id": "CHAR_WIND",
+  "name": "wind",
+  "type": "character",
+  "card": {
+    "description": "Wind as an invisible, living force rendered through tangible visual cues: swirling dust, rippling fabrics, holographic glyphs etched with ancient Ethiopian and Egyptian motifs, and crystalline particles emitting bio‑luminescent light. The asset blends grounded industrial mysticism with incomprehensible technology, creating a serious, photorealistic cinematic presence that interacts with the environment.",
+    "tags": [
+      "environment",
+      "natural element",
+      "wind",
+      "ancient-tech",
+      "industrial mysticism",
+      "photorealistic",
+      "Ethiopian",
+      "Egyptian",
+      "holographic",
+      "crystalline",
+      "bio-luminescent"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Swirling dust motes, rippling fabric, holographic glyphs, crystalline particle streams, subtle motion blur.",
+      "**Face/Sensors:** No literal face; sensor‑like glyphs pulse with data, emitting faint bioluminescent glow.",
+      "**Clothing/Armor:** N/A.",
+      "**Key Features:** Hieroglyphic glyphs in gold and turquoise, crystalline hardware, bio‑luminescent particles, dust‑laden air currents, realistic light scattering."
+    ],
+    "evolution": [
+      "Phase 1 (Calm Breeze): Soft dust swirls, gentle fabric ripples, faint glyph glow, minimal motion blur.",
+      "Phase 2 (Tempest): Intensified dust, rapid fabric movement, glyphs flicker with data streams, crystalline particles swirl violently, pronounced motion blur."
+    ],
+    "props": [
+      "Item: Dust Swirls",
+      "Item: Holographic Glyphs",
+      "Item: Crystalline Particles"
+    ],
+    "prompt_keywords": [
+      "wind",
+      "invisible",
+      "dust",
+      "fabric",
+      "glyphs",
+      "crystalline",
+      "bio-luminescent",
+      "Ethiopian",
+      "Egyptian",
+      "industrial",
+      "mysticism",
+      "photorealistic"
+    ],
+    "prompt_block": "A photorealistic cinematic depiction of wind as an invisible force, visualized through swirling dust, rippling fabrics, holographic glyphs etched with ancient Ethiopian and Egyptian hieroglyphic motifs, crystalline particles emitting bio‑luminescent light, all set against a grounded industrial landscape with subtle motion blur and realistic light scattering, serious tone, 9:16 aspect ratio",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Calm wind interacting with environment",
+        "prompt_keywords": [
+          "wind",
+          "invisible",
+          "dust",
+          "fabric",
+          "glyphs",
+          "crystalline",
+          "bio-luminescent",
+          "Ethiopian",
+          "Egyptian",
+          "industrial",
+          "mysticism",
+          "photorealistic"
+        ],
+        "prompt_block": "A photorealistic cinematic depiction of calm wind as an invisible force, rendered through soft dust swirls, gentle fabric ripples, holographic glyphs with ancient Ethiopian and Egyptian motifs, crystalline particles emitting faint bio‑luminescent glow, subtle motion blur, realistic light scattering, serious tone, 9:16 aspect ratio"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_WIND",
+    "name": "wind",
+    "type": "character",
+    "aliases": [
+      "Wind",
+      "wind"
+    ],
+    "roles": [
+      "environmental element",
+      "narrator/protagonist",
+      "natural element",
+      "natural element that moves and interacts with other elements",
+      "unknown"
+    ],
+    "visual_traits": [
+      "blowing",
+      "invisible",
+      "invisible, airy",
+      "invisible, moving air",
+      "moving air",
+      "unknown"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1023",
+      "row_143",
+      "row_150",
+      "row_507",
+      "row_571",
+      "row_614",
+      "row_731",
+      "row_732",
+      "row_976"
+    ],
+    "occurrence_count": 9,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 18,
+        "chapter_end": 106,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

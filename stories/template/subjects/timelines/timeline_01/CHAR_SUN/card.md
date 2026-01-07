@@ -1,27 +1,30 @@
 ## [CHARACTER] Sun (ID: CHAR_SUN)
-**Description:** The Solar Luminary is not merely a star, but a massive, regulated fusion engine of celestial architecture. Viewed through the lens of ancient-tech industrialism, it appears as a blindingly white sphere of contained plasma, radiating with the intensity of a divine forge. It acts as the primary light source for the orbital and terrestrial environments, possessing a harsh, unshielded quality that suggests artificial containment or regulation.
-**Tags:** #celestial #fusion_reactor #light_source #orbital_mechanics #environment #ancient_tech
+**Description:** The Sun is a colossal, living celestial entity that fuses ancient Ethiopian and Egyptian solar iconography with incomprehensible, industrial technology. Its surface is a tessellated lattice of interlocking hexagonal ceramic plates, each plate a luminous crystal powered by a core of black matter. The plates are etched with intricate hieroglyphic glyphs that pulse with bio‑luminescent veins, and a digital glitch intermittently tears the surface, revealing a dark, humming machinery that lies beneath the radiant glow. The Sun radiates pure white light, casting dramatic lens flares and high‑contrast shadows across the cosmos, rendered in photorealistic detail.
+**Tags:** #celestial #solar #ancient-tech #industrial mysticism #photorealistic #Ethiopian #Egyptian #hexagonal #ceramic #glitch #luminescent #black matter core
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** A perfect sphere of blinding white-hot plasma, exhibiting surface turbulence similar to liquid gold convection cells.
-*   **Corona:** Not a natural chaotic halo, but a structured magnetic discharge that hints at invisible containment fields or 'gates' mentioned in ancient texts.
-*   **Light Quality:** Absolute, harsh, and sterile. It creates deep, razor-sharp shadows in space (ch18) and overwhelming radiance on planetary surfaces.
-*   **Key Features:** At high zoom or through filters, faint geometric lattice structures are visible within the corona, suggesting the 'artificial orbital sun' nature noted in the orbital arrays.
+*   **Body/Form:** Massive spherical body with a tessellated lattice of hexagonal ceramic plates, each plate a luminous crystal, forming a colossal LED array.
+*   **Face/Sensors:** Central core of black matter surrounded by a halo of glyph‑etched plates; no traditional face, but a luminous glyph ring acts as a sensory interface.
+*   **Clothing/Armor:** None; the Sun’s surface itself is its armor, a living lattice of plates and bio‑luminescent veins.
+*   **Key Features:** Interlocking hexagonal plates, ancient Ethiopian/Egyptian glyphs, glowing bio‑luminescent veins, digital glitch revealing dark machinery, pure white radiance, dramatic lens flares.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): The governing celestial body, appearing as a blinding white fusion source in the vacuum of space or the high sky.
+*   Phase 1 (Initial): The Sun appears as a blinding white surface composed of interlocking hexagonal ceramic plates, illuminated like a massive LED array.
+*   Phase 2 (Glitch Reveal): A digital glitch tears across the surface, exposing the dark, humming machinery beneath the luminous plates.
 
 ### 3. PROPS & EQUIPMENT
+*   Item: Sun Surface
+*   Item: LED Panels
 
 ### 4. AI PROMPT KEYWORDS
-`artificial sun`, `fusion sphere`, `blinding white light`, `solar corona`, `liquid gold plasma`, `lens flare`, `orbital void`, `industrial mysticism`, `cinematic lighting`, `8k`
+`celestial`, `solar`, `hexagonal`, `ceramic`, `glitch`, `ancient`, `Ethiopian`, `Egyptian`, `luminescent`, `industrial`, `photorealistic`
 
 ### 5. PROMPT BLOCK (T2I)
-A blindingly bright artificial solar sphere hanging in the pitch black void of space. The surface is a turbulent ocean of liquid gold fire and white-hot plasma, contained by faint, shimmering magnetic field lines. The light is absolute, creating distinct, high-contrast lens flares. Subtle, vast geometric structures are barely visible within the solar corona, suggesting an ancient technological regulation of the star. Hyper-realistic, cinematic IMAX style, technological awe.
+Render the Sun as a colossal celestial body in photorealistic detail, its surface composed of interlocking hexagonal ceramic plates illuminated like a massive LED array, etched with ancient Ethiopian and Egyptian glyphs, glowing bio‑luminescent veins, with a digital glitch revealing dark machinery beneath, under a dramatic sky, cinematic lighting, 8k resolution
 
 ### 6. PHASE PROMPTS
-*   **Default:** The standard orbital luminary, blinding and powerful.
-    Prompt: A massive, blinding white solar sphere in deep space, radiating intense light. The surface textures resemble molten gold and fusion plasma. The background is the infinite black void of space, emphasizing the sheer brightness of the star. Sharp, anamorphic lens flares, industrial sci-fi aesthetic, photorealistic 8k.
-    Keywords: celestial body, fusion engine, blinding light, space background, high contrast
+*   **Default:** The Sun appears as a luminous celestial sphere with a hexagonal ceramic lattice, ancient glyphs, and a digital glitch revealing hidden machinery.
+    Prompt: Render the Sun as a colossal celestial body in photorealistic detail, its surface composed of interlocking hexagonal ceramic plates illuminated like a massive LED array, etched with ancient Ethiopian and Egyptian glyphs, glowing bio‑luminescent veins, with a digital glitch revealing dark machinery beneath, under a dramatic sky, cinematic lighting, 8k resolution
+    Keywords: celestial, solar, hexagonal, ceramic, glitch, ancient, Ethiopian, Egyptian, luminescent, industrial, photorealistic
 
 ---

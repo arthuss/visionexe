@@ -1,0 +1,101 @@
+{
+  "id": "CHAR_ZAZIEL",
+  "name": "Zaziel",
+  "type": "character",
+  "card": {
+    "description": "Zaziel is a towering operative of the Root Access Authority, a figure of ancient mysticism fused with advanced technology. He stands on a jagged peak beneath swirling storm clouds, his silhouette framed by floating holographic windows of cascading green code. Zaziel wears a basalt and obsidian headdress adorned with pulsing crystalline glyphs, a hammered bronze cuirass etched with Ethiopian hieroglyphs, and a carbon‑fiber lattice overlay. In his hand he holds a glowing green data crystal (ROOT_KEY) that interfaces with the Admin Windows. A sniper‑view HUD overlays the scene, marking him as TARGET_ID: ZAZIEL.",
+    "tags": [
+      "ancient-tech",
+      "industrial-mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "bio-luminescent",
+      "crystalline",
+      "photorealistic",
+      "grounded-realism",
+      "character",
+      "target"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Robust, muscular frame clad in layered armor—hammered bronze cuirass, obsidian pauldrons, and a carbon‑fiber lattice weave that flexes with movement.",
+      "**Face/Sensors:** Half‑mask of polished obsidian with bio‑luminescent glyphs, ocular sensor array that glows faintly green, reflecting the holographic code.",
+      "**Clothing/Armor:** Basalt headdress with embedded crystalline glyphs, bronze cuirass etched in Ethiopian script, obsidian shoulder plates, and a carbon‑fiber lattice overlay that refracts light.",
+      "**Key Features:** Pulsing crystalline glyphs on headdress and armor, green data crystal emitting a soft glow, floating holographic windows of cascading green code, storm clouds swirling overhead, sniper HUD overlay."
+    ],
+    "evolution": [
+      "Phase 1 (Unaugmented): Zaziel in standard operational gear—bronze cuirass, obsidian pauldrons, minimal tech, data crystal dormant.",
+      "Phase 2 (Augmented): After receiving ROOT_KEY, armor glows, glyphs intensify, data crystal emits bright green light, holographic code streams more densely."
+    ],
+    "props": [
+      "Item: Data Crystal (ROOT_KEY) – a translucent green crystal that channels forbidden code.",
+      "Item: Obsidian Staff with Glyphs – a ceremonial staff that doubles as a data conduit."
+    ],
+    "prompt_keywords": [
+      "ancient",
+      "Ethiopian",
+      "Egyptian",
+      "crystalline",
+      "bio-luminescent",
+      "industrial",
+      "mysticism",
+      "photorealistic",
+      "storm",
+      "holographic",
+      "green code"
+    ],
+    "prompt_block": "Zaziel, a towering operative in a jagged mountain peak under storm clouds, wearing a basalt and obsidian headdress with pulsing crystalline glyphs, a hammered bronze cuirass etched with Ethiopian hieroglyphs, a carbon‑fiber lattice overlay, holding a glowing green data crystal, surrounded by floating holographic windows of cascading green code, photorealistic, ancient-tech industrial mysticism, grounded realism, cinematic lighting, 9:16 aspect ratio, sniper HUD overlay with TARGET_ID: ZAZIEL.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Zaziel in his unaugmented operational state, poised on a mountain peak with minimal tech.",
+        "prompt_keywords": [
+          "ancient",
+          "Ethiopian",
+          "Egyptian",
+          "crystalline",
+          "bio-luminescent",
+          "industrial",
+          "mysticism",
+          "photorealistic",
+          "storm",
+          "holographic",
+          "green code"
+        ],
+        "prompt_block": "Zaziel, a towering operative in a jagged mountain peak under storm clouds, wearing a basalt and obsidian headdress with pulsing crystalline glyphs, a hammered bronze cuirass etched with Ethiopian hieroglyphs, a carbon‑fiber lattice overlay, holding a glowing green data crystal, surrounded by floating holographic windows of cascading green code, photorealistic, ancient-tech industrial mysticism, grounded realism, cinematic lighting, 9:16 aspect ratio, sniper HUD overlay with TARGET_ID: ZAZIEL."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ZAZIEL",
+    "name": "Zaziel",
+    "type": "character",
+    "aliases": [
+      "Zaziel"
+    ],
+    "roles": [
+      "character"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_47"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 9,
+        "chapter_end": 9,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

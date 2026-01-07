@@ -3,52 +3,61 @@
   "name": "mighbari",
   "type": "character",
   "card": {
-    "description": "Mighbari appears as a senior artisan or technocrat of the ancient order, a figure bridging the gap between stone masonry and high-technology. His presence is defined by focused intensity and functional, heavy ceremonial gear designed for interaction with large-scale industrial mechanisms. He carries the weight of a foreman overseeing the construction of reality engines.",
+    "description": "Mighbari is the revered Guardian of the Solar Obelisk, a towering figure of ancient Ethiopian-Egyptian mysticism fused with incomprehensible technology. Standing 1.9 m tall, his body is a living sculpture of obsidian‑etched basalt armor, interwoven with copper filigree and crystalline lattices that pulse with bioluminescent glyphs. His face is a mask of polished jade, with a single scarab‑eye sensor that glows amber when he channels solar energy. Mighbari carries the Obsidian Codex, a scroll of luminescent script, and a Solar Scepter, a crystalline rod that harvests light from the obelisk’s core.",
     "tags": [
-      "character",
-      "artisan",
       "ancient-tech",
-      "industrial",
-      "ethiopian-fusion",
-      "mystic-engineer"
+      "industrial-mysticism",
+      "photorealistic",
+      "tactile",
+      "Ethiopian",
+      "Egyptian",
+      "obsidian",
+      "bioluminescence",
+      "crystalline"
     ],
     "visual_anatomy": [
-      "**Body/Form:** Tall and wiry frame, projecting the strength of a career laborer turned master architect. Skin is deep umber, weathered by exposure to arc-light and stone dust.",
-      "**Face/Sensors:** Sharp, geometric facial features. Eyes are dark but reflect ambient light with a metallic sheen. faint, copper-colored scarification lines trace jaw and temples, resembling circuit schematics.",
-      "**Clothing/Armor:** Wears a heavy, multi-layered tunic of coarse weave linen in charcoal and burnt ochre. Over this, a leather and oxidized bronze apron/harness structure holds heavy tools. The shoulders are reinforced with articulated basalt plates.",
-      "**Key Features:** Hands are often stained with oil or stone dust; fingers are taped or protected by leather stalls for fine manipulation of dangerous machinery."
+      "**Body/Form:** Muscular frame clad in obsidian‑etched basalt plates, each plate segmented with copper filigree and embedded with translucent crystal nodes that refract light. The armor is layered, with a base of woven basalt cloth and a top layer of polished obsidian panels that ripple with faint glyphic patterns.",
+      "**Face/Sensors:** Face is a jade mask with a central scarab‑eye sensor that emits a warm amber glow. Two lateral ocular glyphs are etched into the mask, acting as solar concentrators that feed the crystalline lattice. The mask is lined with a soft, bio‑silk lining that adapts to temperature changes.",
+      "**Clothing/Armor:** A flowing cape of basalt silk, dyed in deep indigo, is fastened with a copper clasp engraved with the sun’s spiral. The cape is reinforced with a lattice of quartz that channels solar energy. The armor’s joints are articulated with brass hinges, allowing fluid movement while maintaining structural integrity.",
+      "**Key Features:** 1) Crystalline lattice embedded in the chest that glows when solar energy is harvested. 2) Glyphic runes that shift in response to ambient light. 3) Obsidian Codex holder, a retractable case that projects holographic script. 4) Solar Scepter, a 2‑m crystalline rod that channels energy into the obelisk."
     ],
     "evolution": [
-      "Phase 1 (Default): The Master Builder at work. Equipped for inspection and calibration of the deep mechanisms."
+      "Phase 1 (Initiation): Mighbari emerges from the subterranean chambers of the obelisk, his armor still in raw basalt form, the crystalline lattice unlit, and the scarab‑eye dormant.",
+      "Phase 2 (Ascension): After absorbing the obelisk’s core energy, his armor fully glows with bioluminescent glyphs, the crystalline lattice hums, and the scarab‑eye emits a steady amber light."
     ],
     "props": [
-      "Item: A heavy bronze stylus with a glowing crystal tip for marking stone.",
-      "Item: A cylindrical scroll case made of beaten copper attached to the hip belt."
+      "Item: Obsidian Codex – a scroll of luminescent script that projects holographic glyphs when opened.",
+      "Item: Solar Scepter – a crystalline rod that harvests and channels solar energy into the obelisk."
     ],
     "prompt_keywords": [
-      "Mighbari",
-      "ancient engineer",
-      "Ethiopian futurism",
-      "industrial mysticism",
-      "oxidized bronze",
-      "weathered linen",
-      "basalt armor",
-      "cinematic lighting",
-      "hyperrealistic"
+      "obsidian",
+      "crystalline",
+      "bioluminescence",
+      "glyphs",
+      "Ethiopian",
+      "Egyptian",
+      "industrial",
+      "mysticism",
+      "photorealistic",
+      "tactile"
     ],
-    "prompt_block": "Full body shot of Mighbari, a master ancient-tech engineer. Deep umber skin with metallic scarification on jaw. He wears heavy charcoal linen robes under a leather and oxidized bronze industrial apron. Articulated basalt plates on shoulders. Standing in a dimly lit, cavernous temple-factory. Cinematic lighting, volumetric atmosphere, 8k resolution, photorealistic, textures of rough stone and cold metal.",
+    "prompt_block": "A towering guardian named Mighbari, standing 1.9 m tall, clad in obsidian‑etched basalt armor with copper filigree and crystalline lattices that pulse with bioluminescent glyphs. His face is a jade mask with a glowing scarab‑eye sensor, surrounded by shifting ocular glyphs. He holds an Obsidian Codex that projects holographic script and a Solar Scepter that channels light from the obelisk, all rendered in photorealistic, tactile detail with ancient Ethiopian‑Egyptian aesthetics fused with incomprehensible technology.",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Standard appearance as the Master Builder/Engineer.",
+        "summary": "Mighbari in his standard guardian stance, holding the Obsidian Codex.",
         "prompt_keywords": [
-          "Mighbari",
-          "neutral expression",
-          "standing",
-          "bronze tools"
+          "obsidian",
+          "crystalline",
+          "bioluminescence",
+          "glyphs",
+          "Ethiopian",
+          "Egyptian",
+          "photorealistic",
+          "tactile"
         ],
-        "prompt_block": "Full body shot of Mighbari, a master ancient-tech engineer. Deep umber skin with metallic scarification on jaw. He wears heavy charcoal linen robes under a leather and oxidized bronze industrial apron. Articulated basalt plates on shoulders. Standing in a dimly lit, cavernous temple-factory. Cinematic lighting, volumetric atmosphere, 8k resolution, photorealistic, textures of rough stone and cold metal."
+        "prompt_block": "Mighbari, the Guardian of the Solar Obelisk, stands in a poised stance, his obsidian‑etched basalt armor shimmering with copper filigree and crystalline lattices that glow with bioluminescent glyphs. His jade mask features a glowing scarab‑eye sensor, while his hands cradle the Obsidian Codex projecting holographic script and a Solar Scepter channeling light, rendered in photorealistic, tactile detail with ancient Ethiopian‑Egyptian mysticism."
       }
     ]
   },

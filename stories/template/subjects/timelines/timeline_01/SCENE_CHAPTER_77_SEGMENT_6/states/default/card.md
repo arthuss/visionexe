@@ -1,0 +1,10 @@
+## [STATE] Chapter 77 Segment 6 :: Default
+**State ID:** default
+**Chapters:** 77 - 77
+
+**Phase Summary:** Base cinematic scene of the eastern Eritrean coast with ancient-tech vessel.
+**Phase Keywords:** Eritrean coast, ancient-tech vessel, bioluminescent sea, crystalline panels, glyphs, Ethiopian-Egyptian motifs, photorealistic, cinematic, industrial mysticism
+**Phase Prompt:**
+A cinematic, photorealistic depiction of the eastern coast of the Sea of Eritrea at twilight, featuring a massive ancient-tech vessel anchored near jagged limestone cliffs. The vessel's hull is a composite of weathered basalt and translucent crystalline panels etched with luminous glyphs that pulse in soft azure. Bioluminescent plankton in the deep blue sea creates a faint phosphorescent haze, while towering basalt monoliths rise from the shoreline, carved with intricate Ethiopian and Egyptian motifs fused with advanced circuitry glowing faintly. Low, diffused light from a setting sun reflects off the water, casting dramatic long shadows across the scene, evoking a sense of industrial mysticism and grounded realism.
+
+---

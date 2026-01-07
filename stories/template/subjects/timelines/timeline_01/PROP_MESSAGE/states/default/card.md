@@ -1,0 +1,10 @@
+## [STATE] Message :: Default
+**State ID:** default
+**Chapters:** 18 - 18
+
+**Phase Summary:** Initial glitching message on a crystalline interface
+**Phase Keywords:** glitch, red-glow, geez, obsidian
+**Phase Prompt:**
+A translucent obsidian crystal slab, 30cm by 20cm, etched with ancient Ge'ez glyphs that glow with pulsing red bioluminescent filaments, projecting a scrolling error message in a crisp monospace font; the surface is layered with subtle glitching pixelation, holographic overlay, and reflective chromatic aberration, set against a dim industrial backdrop, cinematic lighting, photorealistic, tactile texture, ancient Ethiopian mysticism meets incomprehensible tech.
+
+---

@@ -1,0 +1,92 @@
+{
+  "id": "CHAR_ZEYASTERI",
+  "name": "Zeyasteri",
+  "type": "character",
+  "card": {
+    "description": "Zeyasteri is a seasoned technomancer of the ancient Ethiopian‑Egyptian order, standing 6'2\" tall with a lean, muscular frame draped in a basalt‑fiber robe etched with luminous hieroglyphs. His skin bears faint metallic veins that pulse with bio‑luminescent light, and his amber eyes glow, reflecting an integrated ocular interface. He wields an obsidian staff crowned with a humming quartz crystal core, channeling ancient mystic power into incomprehensible technology.",
+    "tags": [
+      "ancient-tech",
+      "industrial-mysticism",
+      "Ethiopian-Egyptian",
+      "bio-luminescent",
+      "crystalline-hardware",
+      "photorealistic",
+      "tactile"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Tall, lean, muscular, slight scars, skin with faint metallic sheen, subtle dust motes on basalt fibers.",
+      "**Face/Sensors:** Partial hood, amber glowing eyes, ocular implants integrated into the skin, bio‑luminescent neural interface visible along temples.",
+      "**Clothing/Armor:** Basalt‑fiber robe with woven energy conduits, leather straps, metal buckles, glyphs etched in luminescent ink that pulse with power.",
+      "**Key Features:** Luminous hieroglyphs, crystalline quartz core in staff, obsidian staff shaft, bio‑luminescent veins, integrated ocular interface."
+    ],
+    "evolution": [
+      "Phase 1 (Initial): Zeyasteri in base form, robe and staff at rest, glyphs faintly glowing.",
+      "Phase 2 (Activated): Glyphs pulse brighter, staff emits soft blue light, bio‑luminescent veins flare, indicating power surge."
+    ],
+    "props": [
+      "Item: Obsidian staff crowned with a quartz crystal core, humming with unseen energy.",
+      "Item: Basalt fiber robe with integrated energy conduits and luminescent glyphs."
+    ],
+    "prompt_keywords": [
+      "ancient-tech",
+      "Ethiopian-Egyptian",
+      "bio-luminescent",
+      "crystalline",
+      "obsidian",
+      "quartz",
+      "photorealistic",
+      "tactile"
+    ],
+    "prompt_block": "A photorealistic, tactile depiction of Zeyasteri, a tall, lean technomancer from an ancient Ethiopian‑Egyptian order, wearing a basalt‑fiber robe etched with luminous hieroglyphs that pulse in sync with his bio‑luminescent neural interface, his amber eyes glowing, and holding an obsidian staff crowned with a humming quartz crystal core, set against a dimly lit industrial mystic laboratory, with subtle dust motes and soft ambient light reflecting off metallic veins on his skin.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Base form of Zeyasteri with subtle bio‑luminescent glow.",
+        "prompt_keywords": [
+          "ancient-tech",
+          "Ethiopian-Egyptian",
+          "bio-luminescent",
+          "crystalline",
+          "obsidian",
+          "quartz",
+          "photorealistic",
+          "tactile"
+        ],
+        "prompt_block": "A photorealistic, tactile depiction of Zeyasteri, a tall, lean technomancer from an ancient Ethiopian‑Egyptian order, wearing a basalt‑fiber robe etched with luminous hieroglyphs that pulse in sync with his bio‑luminescent neural interface, his amber eyes glowing, and holding an obsidian staff crowned with a humming quartz crystal core, set against a dimly lit industrial mystic laboratory, with subtle dust motes and soft ambient light reflecting off metallic veins on his skin."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ZEYASTERI",
+    "name": "Zeyasteri",
+    "type": "character",
+    "aliases": [
+      "Zeyasteri"
+    ],
+    "roles": [
+      "participant"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1034"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 108,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

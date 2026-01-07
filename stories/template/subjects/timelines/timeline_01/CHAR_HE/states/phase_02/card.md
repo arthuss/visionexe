@@ -3,9 +3,9 @@
 **Chapters:** 70 - 69
 **Notes:** {'phase': 'Phase 1: pre', 'description': 'Human form'}
 
-**Phase Summary:** The human form undergoing active biological rewriting.
-**Phase Keywords:** gold veins, glowing eyes, sweat evaporation, transition
+**Phase Summary:** Human form with a faint spectral aura hinting at the impending transformation.
+**Phase Keywords:** pale, translucent, subdermal, circuitry, gold veins, spectral aura, eye, wireframe, ancient, Ethiopian, Egyptian, photorealistic
 **Phase Prompt:**
-close up of ancient patriarch face, veins glowing with molten gold light under dark skin, sweat evaporating into steam, eyes displaying glowing cyan digital text on iris, intense expression, cinematic macro photography, bioluminescence, ancient tech infection, hyper-realistic, 8k, unreal engine 5.
+A cinematic, photorealistic 8K portrait of He in transitional human form: pale, translucent skin revealing intricate subdermal circuitry, liquid‑gold veins glowing, a faint spectral aura emanating from the body, sweat droplets evaporating into micro‑steam, eye with a complex glowing blue 3‑D wireframe sphere, digital text 'CONNECTION_ESTABLISHED' reflected on cornea, rim lighting accentuating the form, ancient Ethiopian/Egyptian motifs, tactile textures, grounded realism, no cartoon or toy look.
 
 ---

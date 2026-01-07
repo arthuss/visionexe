@@ -1,147 +1,180 @@
-CONCEPT: HYDRAULIC_SANDBOX_EAST_01 // SECTOR_28
+CONCEPT: COOLANT_ARRAY_EAST_01 // SECTOR_28_REFINEMENT
 
 1. BIO-INJECTION:
-HUD_ENVIRONMENTAL_OVERLAY. Henochs Retina projiziert blaue Gitterlinien über die Landschaft, die Feuchtigkeitsdichte und Strömungsvektoren in Echtzeit berechnen. Auf seiner Haut bildet sich ein hydrophober Nanofilm (Schimmer-Effekt), um die hohe Luftfeuchtigkeit der "aufsteigenden Wasser" abzuweisen.
+THERMAL_REGULATION_SKIN. Henochs Avatar-Hülle reagiert auf die massive Abwärme dieses Sektors. Unter der "Marmor"-Haut pulsieren bläuliche Kühlkanäle (Sub-Dermal Liquid Cooling). Seine Augenoberfläche polarisiert sich dunkel (Auto-Tint), um das gleißende Licht der Wüste zu filtern. Kein magischer Schimmer, sondern funktionale Hardware-Adaption.
 
 2. MESH-BREAK:
-LAMINAR_FLOW_GLITCH. Das Wasser verhält sich physikalisch zu perfekt. Es gibt keine Turbulenzen oder Spritzer. Die Flüssigkeit wirkt wie geschmolzenes Glas oder Quecksilber, das in unnatürlich geraden Vektoren fließt. Die "Bäume" zeigen bei genauer Betrachtung identische Geometrie-Cluster (Instanced Mesh Repetition), was auf eine künstliche Monokultur hinweist.
+ZERO_FRICTION_FLUID. Das "Wasser" verletzt die Gesetze der Oberflächenspannung. Es benetzt das Gestein nicht; es gleitet als perfektes Volumen darüber hinweg. An den Rändern der "Bäume" (Heatsinks) gibt es kein Blending, sondern harte Polygon-Kanten, wo die Flüssigkeit mit der Geometrie kollidiert (Clipping-Fehler als Feature).
 
 3. PACING-STRATEGIE:
-SYSTEM_SURVEY_MODE. Langsame, gleitende Kamerabewegungen (Dolly/Truck). Keine hektischen Schnitte. Der Rhythmus ist hypnotisch und fließend, analog zum Wasserkreislauf. Wir scannen die Infrastruktur.
+DIAGNOSTIC_SCAN_VELOCITY. Die Kamera bewegt sich wie ein unbemannter Inspektions-Droide auf Schienen. Konstante Geschwindigkeit, keine Beschleunigung oder Abbremsung. Mechanische Schwenks (90 Grad Raster).
 
 4. AUDIO-DESIGN:
-HYDRO_INFRASTRUCTURE. Kein Vogelgezwitscher. Stattdessen: Das tiefe, rhythmische Wummern massiver Untergrund-Pumpen (40Hz Sub-Bass). Das Zischen von Hochdruck-Zerstäubern. Das elektrische Summen von Kühlaggregaten.
+SERVER_FARM_AMBIENCE. Ein konstantes, weißes Rauschen (White Noise) durch massive Luftverdrängung. Übertönt von einem hochfrequenten, elektrischen Fiepen (Coil Whine) der Baum-Prozessoren unter Last. Das "Plätschern" des Wassers ist eigentlich ein metallisches Zischen, wenn das Kühlmittel auf heiße Kerne trifft.
 
 5. ÜBERGÄNGE:
-NODE_HOP_INSTANT. Kein Flug. Ein harter Cut von der vorherigen Szene. Die Umgebung "lädt" um Henoch herum in einem radialen Wave-Effekt (Pixel-Sorting zu Geometrie).
+DATA_STREAM_INGRESS. Henoch betritt den Sektor nicht durch Laufen. Der vorherige Sektor "de-resoliert" (LOD Reduktion bis zum Wireframe), und Sektor 28 baut sich um ihn herum aus Voxel-Blöcken auf, die sich zu High-Res-Meshes glätten.
 
 6. FRAMEWORK & TIMING:
-Total: 60 Sekunden.
-12 Clips à 5 Sekunden.
-Fokus: 70% Environment (Die Anlage), 30% Henoch (Der Beobachter).
+Total: 65 Sekunden.
+15 Clips.
+Struktur: 3x Arrival/Context -> 4x The Trees (Processing Units) -> 4x The Coolant (Injection/Flow) -> 3x Evaporation/Feedback -> 1x Exit Vector.
 
 7. DIALOG-CHECK:
 Status: NEGATIVE.
-Begründung: Dies ist eine reine Beobachtungssequenz der Infrastruktur. Henoch analysiert die Logik des Ortes. Keine Interaktion mit Entitäten notwendig.
+Begründung: Henoch befindet sich in einem Backend-Bereich. Keine Interface-Entitäten (Engel) sind hier stationiert. Es ist ein automatisierter Wartungssektor. Reine Beobachtung.
 
 8. SPATIAL CONTEXT (ARRIVAL):
-INSTANT_TRANSMISSION. Henoch materialisiert am Rand des "Wüsten-Berges".
-Establishing Shot: Extreme Wide Shot (EWS) der isolierten Bergstruktur in einer flachen, prozeduralen Wüste, um die Einsamkeit ("solitary") zu betonen.
+NODE_SWITCH_PROTOCOL. Henoch steht still. Die Umgebung ändert sich.
+Establishing: Extreme Wide Shot, aber orthographisch (ISO-Ansicht), um das Raster der Wüste zu zeigen.
 
 ---
 
 SCENE_GENERATION_PLAN (PROMPTS):
 
-[CLIP 01: ESTABLISHING_THE_NODE]
+[CLIP 01: SECTOR_INITIALIZATION_ISO]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None (Environment Focus). **Context:** Sector 28, The Desert Mountain.
+> **Actor:** None. **Subject:** The Grid.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** `SECTOR_28_DESERT_NODE`. **Architecture:** A solitary, jagged mountain rising from a perfectly flat, grid-lined desert floor. The mountain rock is dark, volcanic basalt. **Atmosphere:** High contrast, harsh sunlight, no clouds. **Vegetation:** Dense clusters of identical, metallic-green trees clinging to the rock face.
+> **Location:** `SECTOR_28_EAST`. **Architecture:** The ground is a perfectly flat, infinite beige plane with a subtle black wireframe grid overlay. In the center, a jagged, dark mountain structure rises like a glitch in the terrain map. **Lighting:** Global Illumination, uniform brightness, no distinct shadows (Ambient Occlusion heavy).
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Extreme Wide Shot (EWS). **Movement:** Slow aerial push-in towards the mountain. **Style:** Unreal Engine 5.4, Photorealistic, 8k.
+> **Camera:** High-Angle Isometric View (God View). **Lens:** Telephoto (flattened perspective). **Style:** Technical diagram aesthetic, clean lines, blueprint style reality.
 
-[CLIP 02: ENOCH_ARRIVAL_GLITCH]
+[CLIP 02: ENOCH_NODE_INSERTION]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Noah (System Prototype Build 2.0). **Action:** Materializing from a digital distortion field. **Skin-Shader:** `MARBLE_SHIMMER_V3`.
+> **Actor:** Noah (System Prototype Build 2.0). **Action:** Being compiled. His geometry is assembling from floating data-blocks. **Skin-Shader:** `MARBLE_SHIMMER_V3` transitioning from wireframe to solid.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Base of the Desert Mountain. **VFX:** The air around Enoch ripples like heat haze mixed with vertical scanlines as he stabilizes in the new node.
+> **Location:** Base of the dark mountain. **VFX:** The air around him is distorted by digital compression artifacts (JPEG blocking) before snapping into high resolution.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Full Shot (FS). **Focus:** Sharp on Enoch, background slightly blurred. **Lighting:** Harsh rim light from the "East" sun.
+> **Camera:** Full Shot (FS), frontal. **Focus:** Rapid rack focus from background to Enoch.
 
-[CLIP 03: THE_MONOCULTURE_TREES]
+[CLIP 03: THERMAL_ADAPTATION_CLOSEUP]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Subject:** The "Trees of this seed".
+> **Actor:** Noah. **Detail:** Neck and Jawline. **VFX:** Faint blue veins (sub-dermal cooling) light up under the marble skin. The eyes flash black (polarizing) for a split second.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Prop:** `PROCEDURAL_TREE_V1`. **Detail:** The trees are uncanny. They have smooth, synthetic bark (matte grey plastic look) and leaves that are perfect geometric triangles. **Arrangement:** They are spaced with mathematical precision, equidistant from each other.
+> **Atmosphere:** Heat haze shimmering in the background, but Enoch remains crisp and unaffected.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Medium Shot (MS), panning slowly across the tree line. **Style:** Macro-photography detail, depth of field highlighting the artificial texture.
+> **Camera:** Extreme Close-Up (ECU). **Lens:** Macro 100mm. **Lighting:** Cold blue fill light from Enoch's internal systems contrasting with warm environmental light.
 
-[CLIP 04: THE_SOURCE_FROM_ABOVE]
+[CLIP 04: THE_WILDERNESS_ARRAY]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Subject:** The Water Source.
+> **Actor:** None. **Subject:** The "Wilderness".
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Upper ridge of the mountain. **Action:** Water is not springing from the rock, but pouring from a floating, ring-shaped structure (The "Above") suspended 10 meters over the peak. **Fluid:** The water is crystal clear, falling in a perfect, non-turbulent cylinder.
+> **Location:** The mountain slopes. **Architecture:** It is desolate. No random rocks. The ground is comprised of hexagonal basalt columns, perfectly interlocking. A "Procedural Wasteland" generated with low-noise parameters.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Low Angle Shot (looking up). **Lighting:** The water catches the light, glowing like a fiber-optic cable.
+> **Camera:** Wide Pan (Left to Right). **Speed:** Slow, mechanical constant velocity.
 
-[CLIP 05: FLUID_DYNAMICS_NW]
+[CLIP 05: MONOCULTURE_IDENTIFICATION_WIDE]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Subject:** The Watercourse.
+> **Actor:** Noah. **Action:** Walking towards the tree line.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The mountain slope. **Action:** The water hits the rock but doesn't splash. It instantly routes into carved, rectangular channels flowing North-West. **Physics:** Zero-friction flow. The surface is mirror-flat.
+> **Location:** The Tree Cluster. **Arrangement:** The trees are arranged in a perfect server-rack grid formation. Rows and columns.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** High Angle Tracking Shot following the water flow. **Speed:** Matching the velocity of the fluid.
+> **Camera:** Tracking Shot (Back), following Enoch's walk cycle.
 
-[CLIP 06: ENOCH_OBSERVING_FLOW]
+[CLIP 06: THE_REPEATING_SEED_MACRO]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Noah. **Action:** Kneeling by the stream, hand hovering over the water but not touching. **Optics:** Eyes emitting scanning beams onto the fluid surface.
+> **Actor:** None. **Subject:** Tree Bark Texture.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Beside the channel. **VFX:** Holographic data numbers floating above the water stream (Flow Rate, Temp).
+> **Prop:** `PROCEDURAL_TREE_V1`. **Texture:** The "bark" is actually layers of heat-dissipating fins (ceramic matte grey). No organic variation. **Geometry:** Repeating fractal patterns.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Over-the-shoulder (OTS). **Focus:** On the water and the holographic data.
+> **Camera:** Macro Pan vertically up the trunk. **Depth of Field:** Very shallow.
 
-[CLIP 07: THE_ASCENDING_DEW]
+[CLIP 07: ENOCH_INSPECTING_THE_CODE]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Subject:** Anti-Gravity Vapor.
+> **Actor:** Noah. **Action:** Reaching out to touch a "leaf". **Prop:** `WAVE_INTERFACE_BLOCK` held in left hand, scanning.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The "West" side of the flow. **Action:** Water droplets are detaching from the stream and floating *upwards* into the sky. **VFX:** The droplets glow with a faint blue ionization effect as they defy gravity.
+> **Prop:** Tree Leaf. **Detail:** The leaf is a flat, green photovoltaic panel shaped like a triangle.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Close-Up (CU) on the levitating droplets. **Speed:** Slow motion (120fps).
+> **Camera:** Over-the-Shoulder. Focus on the hand and the artificial leaf.
 
-[CLIP 08: VAPOR_RECLAMATION_WIDE]
+[CLIP 08: COOLANT_INJECTION_SOURCE]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Subject:** The Cycle.
+> **Actor:** None. **Subject:** The "Water from Above".
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Wide view of the mountain. **Action:** Seeing the full loop: Water falls from the ring, flows down, evaporates/levitates back up to the ring. A closed-loop cooling system.
+> **Location:** Sky above the mountain. **Object:** A circular rift/nozzle in the sky texture. **Action:** A thick, gelatinous column of clear liquid is extruded downwards. It does not spray; it pours like syrup.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Wide Shot. **Lighting:** Silhouette of the mountain against the bright sky, highlighted by the glowing water cycle.
+> **Camera:** Low Angle (Looking straight up). **VFX:** No lens flare, but "bloom" where the liquid exits the rift.
 
-[CLIP 09: ENOCH_REACTION]
+[CLIP 09: IMPACT_ZERO_TURBULENCE]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Noah. **Expression:** Stoic, processing data. **Action:** He stands up, turning his head to follow the "North-West" trajectory.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Medium Close-Up (MCU). **Lighting:** `CONTRAST_TECH_NOIR`.
-
-[CLIP 10: THE_PATH_FORWARD]
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Subject:** The Horizon.
+> **Actor:** None. **Subject:** Fluid Physics.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Looking North-West from the mountain. **View:** The water channels extend into the infinite distance, glowing lines on the dark desert floor, leading to the next sector.
+> **Location:** Top of the Tree Canopy. **Action:** The liquid hits the trees. **Physics:** Instead of splashing, it coats the surfaces instantly in a frictionless film. It slides down the heat-fins.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Point of View (POV) from Enoch. **Lens:** Wide angle.
+> **Camera:** Medium Shot at canopy level. **Time:** Slow motion (60fps) to emphasize the unnatural viscosity.
 
-[CLIP 11: SYSTEM_STABILITY_CHECK]
+[CLIP 10: THE_STREAM_FORMATION]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Noah. **Action:** Walking along the channel edge. **Garment:** `LIQUID_LINEN` tunic flowing in the updraft of the ascending dew.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Tracking Shot (Side). **Motion:** Smooth gimbal movement.
-
-[CLIP 12: FADE_OUT_TO_WHITE]
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Subject:** The Mist.
+> **Actor:** None. **Subject:** The "Watercourse".
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Action:** The camera moves into the ascending "dew" / vapor until the screen is filled with white/blue fog. **VFX:** Digital noise/grain increases until signal loss.
+> **Location:** Ground level channels. **Action:** The liquid collects into perfectly rectangular channels cut into the basalt. **Appearance:** It looks like liquid glass. No ripples.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Push-in. **Transition:** Fade to White.
+> **Camera:** Top-Down Tracking Shot moving along the channel.
+
+[CLIP 11: NORTH_WEST_ROUTING]
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Noah. **Action:** Watching the flow direction.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Background:** The channel stretches infinitely towards the North-West horizon. **VFX:** A faint data-overlay arrow points "NW" in the air, confirming the routing protocol.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Side profile of Enoch.
+
+[CLIP 12: THERMAL_EVAPORATION_START]
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** None. **Subject:** Steam/Dew.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Surface of the liquid channel. **Action:** The liquid is boiling cold. White vapor rises in perfect vertical lines, not chaotic clouds. **VFX:** "Matrix" style code rain, but moving upwards (Green/White).
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Close-Up on the surface interaction.
+
+[CLIP 13: THE_ASCENDING_CYCLE]
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** None. **Subject:** The "Dew".
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Mid-air. **Action:** The vapor coalesces back into droplets that float upward against gravity, returning to the source ring.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Tracking upward with a droplet.
+
+[CLIP 14: ENOCH_ANALYSIS_COMPLETE]
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Noah. **Action:** Storing the data. He swipes his hand across the obsidian tablet. The holographic scarab rotates and locks. **Expression:** Satisfied/Neutral.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Medium Close-Up. **Lighting:** The blue glow of the tablet illuminates his face.
+
+[CLIP 15: EXIT_VECTOR_FADE]
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** None. **Subject:** System Fog.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Action:** The density of the rising vapor becomes opaque. The mountain and grid fade into a wall of white static.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Pull back (Dolly Out) into the white void. **Transition:** Hard Cut to White.

@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 7 - 106
 
-**Phase Summary:** The standard polished chrome appearance of The Speaker.
-**Phase Keywords:** polished chrome, mirror face, pristine
+**Phase Summary:** Default speaker with integrated throat speaker and polished chrome body.
+**Phase Keywords:** throat speaker, polished chrome, blue bio‑luminescence, reflective surface, hieroglyphic motifs, ancient Ethiopian‑Egyptian, industrial mysticism
 **Phase Prompt:**
-full body shot of The Speaker, a giant 2.5m chrome android with a smooth faceless head, polished mirror finish reflecting the surroundings, standing stoically, ancient egyptian robotic design, industrial lighting, sharp focus, metallic texture, photorealistic, cinematic composition
+A towering 2.5m figure made of polished chrome, no face, only a smooth reflective surface, embedded with a metallic mesh throat speaker that vibrates slightly, blue bio‑luminescent light pulses from the neck area, finger pointing forward, reflection shows chaotic Sinners and holy light, standing on a raised dais, ancient Ethiopian‑Egyptian hieroglyphic motifs etched into the chrome, photorealistic, cinematic, tactile, 9:16 vertical, ray‑tracing reflections, grounded realism, industrial mysticism
 
 ---

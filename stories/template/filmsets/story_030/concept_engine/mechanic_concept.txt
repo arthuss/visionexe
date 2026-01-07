@@ -1,69 +1,118 @@
-SYSTEM_ARCHITECT_LOG_CHAPTER_30
-STATUS: ANALYSIS_COMPLETE
-MODULE: EASTERN_GARDEN_NODE
+SYSTEM_ARCHITECT_LOG_CHAPTER_30_V2.0
+STATUS: REVISION_COMPLETE
+MODULE: EASTERN_COOLANT_ARRAY (SECTOR_CINNAMON)
 
-1. BIO-INJECTION (OLFACTORY_OVERRIDE)
-Die Wahrnehmung von "Duft" (Mastic/Zimt) ist eine direkte Stimulation des olfaktorischen Cortex durch das Neural-Interface. Physisch sichtbar durch pulsierende, bernsteinfarbene LED-Subdermal-Implantate entlang Henochs Nasenrücken und Schläfen. Wenn der "Duft" registriert wird, weiten sich die Pupillen-Aperturen mechanisch, und mikroskopische Kühlrippen an seinem Hals öffnen sich, um Systemwärme abzugeben, die durch die intensive Datenverarbeitung entsteht.
+1. BIO-INJECTION (SPECTROMETRY_INTAKE)
+Refining the "Olfactory Override": It is not merely LED implants. Henoch's nasal cavity functions as a high-sensitivity mass spectrometer. Upon detecting the "fragrance" (chemical coolant additives), the skin over his bridge and sinuses becomes transparent (Material: Smart-Glass), revealing rapidly spinning micro-centrifuges analyzing air samples.
+Feedback Loop: The "pleasure" of the scent is visualized as a cooling flush—his skin temperature drops, turning from warm marble to icy blue as the system accepts the chemical intake.
 
-2. MESH-BREAK (FLUID_SIMULATION_ERROR)
-Die "Täler voll Wasser, das nicht versiegt" stellen eine hohe Render-Last dar. Die Wasseroberfläche ist hyper-perfekt, fast wie Quecksilber. An den Rändern der Wahrnehmung (peripheres Sehen) bricht die Reflexion; das Wasser zeigt dort Wireframe-Gitter oder untexturierte Polygone, bevor der Shader nachlädt. Die "Ferne" ist kein Nebel, sondern eine harte Render-Distanz-Wand (Clipping Plane), die sich langsam nach hinten schiebt, während Henoch sich bewegt.
+2. MESH-BREAK (TEXTURE_STREAMING_LATENCY)
+The "Inexhaustible Water" is a looped fluid simulation.
+Failure State: At the horizon line (Render Distance 10km), the simulation loop is visible. We see a hard "seam" in the water texture where the wave pattern repeats identically.
+LOD Popping: As Henoch moves fast over the surface, the "basalt banks" don't just appear; they "pop" from low-poly geometric placeholders into high-res assets in visible discrete steps (LOD 0 -> LOD 1 -> LOD 5).
 
-3. PACING-STRATEGIE (OBSERVATIONAL_DRIFT)
-Ruhig, gleitend. Steadicam-Flow. Henoch ist im "Surveyor Mode". Keine hektischen Schnitte. Wir nutzen langsame Dolly-Zooms, um die Weite der Wasser-Täler zu betonen. Der Rhythmus ist hypnotisch, unterbrochen nur durch kurze, scharfe Makro-Inserts, wenn er Pflanzen analysiert (Scan-Vorgang).
-Ratio: 70% Wide/Medium Flow, 30% Macro/HUD Analysis.
+3. PACING-STRATEGIE (BUFFERED_DATA_STREAM)
+Style: "Surveyor Drone" aesthetic.
+Rhythm:
+- Base Layer: Long, perfectly stabilized tracking shots (10s+), moving at constant velocity.
+- Interrupt Layer: "Glitch-Cuts" to extreme macro shots (0.5s duration) of details (a leaf vein, a water ripple). These act as data-sampling spikes.
+Ratio: 80% Smooth Traversal, 20% Rapid-Fire Data Sampling.
 
-4. AUDIO-DESIGN (LIQUID_COOLING)
-Statt Naturgeräuschen hören wir das tiefe, rhythmische Pumpen einer gigantischen industriellen Flüssigkeitskühlung (die "unversiegenden Wasser"). Ein konstantes 60Hz-Brummen liegt unter der Szene. Der "Duft" der Bäume wird durch synthetische, hohe Sinus-Töne (Crystalline Chimes) akustisch codiert. Schritte auf dem Boden klingen wie auf Glas oder Metall, nicht wie auf Erde.
+4. AUDIO-DESIGN (SERVER_FARM_AMBIENCE)
+The "Music of the Spheres" is replaced by:
+- Base Layer: 40Hz sub-bass hum of massive hydraulic pumps moving the "water".
+- Mid Layer: The sound of high-pressure gas venting (white noise) from the "trees".
+- High Layer: The "Cinnamon" signature is auditory—a high-frequency crystalline resonance (12kHz) that occurs when the chemical sensors trigger.
+Footsteps: Absent. Henoch hums magnetically over surfaces.
 
-5. ÜBERGÄNGE (LAYER_SHIFT)
-Kein physisches Gehen. Henoch gleitet. Der Übergang von den "Bergen" zu den "Tälern" erfolgt durch einen vertikalen Layer-Shift. Der Boden unter ihm wird transparent, Gitterlinien erscheinen, und er sinkt sanft auf die neue Ebene (Y-Achse Adjustment). Die alte Ebene löst sich in Voxel-Staub auf.
+5. ÜBERGÄNGE (NODE_HOPPING)
+Transition from previous mountains to valleys:
+Technique: "Voxel_Dissolve_Teleport".
+Visual: Henoch stands on the mountain peak. The environment around him de-resolves into cubical voxels which fly upwards. He remains static in black void for 0.5s. Then, the new environment (Liquid Valleys) assembles rapidly around him from the bottom up, locking into place with a mechanical "thud" sound.
 
 6. FRAMEWORK & TIMING
-Total Duration: 60s.
-Clip Count: 14 Clips (inklusive Puffer für Detail-Scans).
-Struktur:
-- 00-10s: Arrival & Establishing Shot (Valleys of Water).
-- 10-25s: Traversal (Moving East, Fluid Dynamics).
-- 25-45s: Object Interaction (The Trees, Smell Analysis).
-- 45-60s: Departure/Next Node Focus.
+Total Duration: 75s (extended for detailed analysis).
+Clip Count: 16 Clips.
+Structure:
+- 00-15s: Node Arrival & Environmental Assembly (The Voxel Shift).
+- 15-35s: Cooling Array Inspection (The Water Valleys).
+- 35-55s: Chemical Node Interaction (The Trees/Mastic).
+- 55-75s: Peripheral Scan & Departure (The Cinnamon Protocol).
 
 7. DIALOG-CHECK
-Kein externer Dialog. Henoch führt System-Logs (Internal Monologue).
-Visualisierung: Text-Overlays im HUD ("DETECTED: CINNAMON_PROTOCOL", "WATER_LEVEL: INFINITE").
-Keine Shot-Reverse-Shot Notwendigkeit. Fokus liegt auf POV und Over-the-Shoulder.
+Audio: No spoken word.
+Visual: High-density HUD Logs.
+Format:
+- "SYSTEM_ALERT: COOLANT_LEVEL_INFINITE"
+- "ANALYSIS: AROMATIC_COMPOUND_DETECTED"
+- "PROTOCOL: CINNAMON_VERIFIED"
+Shot-Reverse-Shot: Not required. We stay in 3rd Person OTS (Over-The-Shoulder) or Point-of-View (POV).
 
-8. SPATIAL CONTEXT (HOVER_STATE)
-Henoch schwebt ca. 30cm über dem Boden (Anti-Grav Boots aktiv). Er berührt die Umgebung nicht, es sei denn zur Analyse.
-Establishing Shot: Extreme High Angle (Satellite View), der in einen Sturzflug übergeht und knapp über der Wasseroberfläche in die Horizontale bremst.
+8. SPATIAL CONTEXT (ANTI-GRAV_TRAVERSAL)
+Movement: Henoch does not walk. He is magnetically locked to a predefined "rail" path, hovering 20cm above the surface.
+Posture: Rigid, arms slightly out, palms facing backward (stabilizers).
+Arrival: He drops from the sky (Y-Axis descent) at terminal velocity, decelerating instantly to a halt 20cm above the water without splashing (Inertial Dampeners).
 
 9. PROMPT EXAMPLES (SCENE GENERATION)
 
-[CLIP_01: ESTABLISHING_VALLEYS]
+[CLIP_01: NODE_ARRIVAL_ASSEMBLY]
+[BLOCK 1: SUBJECT_ANATOMY]
+Actor: Noah (System Prototype 2.0). Action: Suspended in a black void, body rigid. Skin: Marble_Shimmer_V3, glowing faintly.
+[BLOCK 2: ENVIRONMENT_CONTEXT]
+Location: Void transitioning to Eastern_Node. Action: The environment is assembling itself. Massive hexagonal basalt columns are flying up from below, locking into place to form a valley floor.
+[BLOCK 3: VFX_&_INTERFACE]
+VFX: Bright cyan grid lines defining the geometry before textures load. Voxel dust settling.
+[BLOCK 4: CINEMATOGRAPHY]
+Camera: Low Angle, looking up at Noah as the world builds under his feet. Lens: 24mm Wide. Style: Tech-Demo, wireframe-to-photoreal transition.
+
+[CLIP_02: FLUID_DYNAMICS_SURVEY]
 [BLOCK 1: SUBJECT_ANATOMY]
 Actor: None (Environment Focus).
 [BLOCK 2: ENVIRONMENT_CONTEXT]
-Location: Eastern_Node_Sector_30. Architecture: Infinite valleys filled with liquid mercury water. The banks are geometric basalt columns. The horizon is a digital gradient of deep blue to black.
+Location: The Valleys of Water. The "water" is opaque, silver-blue dielectric coolant fluid. It flows with unnatural smoothness (laminar flow). Banks: Geometric obsidian.
 [BLOCK 3: LIGHTING_&_ATMOSPHERE]
-Lighting: Bioluminescent flora lining the water edges (Teal/Cyan). Main light source is a distant, artificial moon (Soft White). Atmosphere: Sterile, dust-free, high contrast.
+Lighting: Strip-lighting embedded in the valley walls (Cold White). Reflections on the fluid are perfect, mirror-like.
 [BLOCK 4: CINEMATOGRAPHY]
-Camera: Drone Shot, fast tracking forward low over the water. Lens: 16mm Wide. Style: Unreal Engine 5, Raytraced Reflections, Sci-Fi Landscape.
+Camera: Drone Shot, fast forward tracking, skimming inches above the fluid surface. Horizon line shows a visible texture seam/glitch.
 
-[CLIP_02: ENOCH_SCANNING_TREE]
+[CLIP_03: CHEMICAL_TREE_APPROACH]
 [BLOCK 1: SUBJECT_ANATOMY]
-Actor: Noah (System Prototype 2.0). Skin: Marble_Shimmer_V3. Optics: Solar_Aperture_Eyes emitting scanning beams. Action: Reaching out with the Obsidian Interface Block towards a crystalline tree.
+Actor: Noah (System Prototype 2.0). Back view. Hovering forward.
 [BLOCK 2: PROPS_&_OBJECTS]
-Target: Tech-Tree 'Mastic_Variant'. Trunk made of twisted fiber-optic cables, leaves are semi-transparent glass panels emitting amber light (representing the scent).
-[BLOCK 3: VFX_&_INTERFACE]
-VFX: Holographic wireframe overlay projecting from the Interface Block onto the tree. Text data scrolling in gold Ge'ez characters floating in the air.
+Target: 'Mastic_Tree_Node'. Not organic. A fractal antenna structure made of copper piping and fiber-optic bundles. "Leaves" are glass reservoirs dripping amber liquid (The Fragrance).
+[BLOCK 3: ENVIRONMENT_CONTEXT]
+Background: Infinite rows of these antenna-trees stretching into the distance.
 [BLOCK 4: CINEMATOGRAPHY]
-Camera: Over-the-Shoulder (OTS). Focus: Sharp on the tree and the holographic data. Background: Blurred mercury water.
+Camera: Tracking Shot behind Noah. Lens: 50mm. Focus: The approaching Copper Structure.
 
-[CLIP_03: OLFACTORY_REACTION]
+[CLIP_04: SENSOR_INTERACTION_MACRO]
 [BLOCK 1: SUBJECT_ANATOMY]
-Actor: Noah (System Prototype 2.0). Close-Up on face.
-[BLOCK 2: TECH_MANIFESTATION]
-Action: The amber sub-dermal implants on the nose bridge pulse intensely. The pupils dilate mechanically. Micro-vents on the neck release a small puff of white steam (system heat).
-[BLOCK 3: LIGHTING]
-Lighting: The amber light from the implants illuminates the face from within. Rim light from the environment is cool blue.
+Actor: Noah (System Prototype 2.0). Extreme Close-Up on Hand.
+[BLOCK 2: PROPS_&_OBJECTS]
+Action: Noah's fingertip (translucent marble) touches a dripping glass leaf of the Mastic Node.
+[BLOCK 3: VFX_&_INTERFACE]
+VFX: Upon contact, data code (Gold Ge'ez) flows from the leaf into the finger, lighting up the veins in the hand like circuitry.
 [BLOCK 4: CINEMATOGRAPHY]
-Camera: Extreme Close-Up (ECU). Lens: 100mm Macro. Style: High-Tech Medical Imaging aesthetic, sharp details on skin texture and synthetic pores.
+Camera: Macro Lens (100mm). Depth of Field: Extremely shallow. Focus: The point of contact.
+
+[CLIP_05: SPECTROMETER_REACTION]
+[BLOCK 1: SUBJECT_ANATOMY]
+Actor: Noah (System Prototype 2.0). Face ECU.
+[BLOCK 2: TECH_MANIFESTATION]
+Action: The nose bridge becomes transparent glass. Inside, tiny silver centrifuges spin rapidly. The eyes widen, apertures rotating.
+[BLOCK 3: LIGHTING]
+Lighting: Internal blue light from the nasal cavity illuminates the face.
+[BLOCK 4: CINEMATOGRAPHY]
+Camera: Static, clinical observation. High contrast.
+
+[CLIP_06: PERIPHERAL_CINNAMON_SCAN]
+[BLOCK 1: SUBJECT_ANATOMY]
+Actor: Noah (System Prototype 2.0). Upper Body.
+[BLOCK 2: ENVIRONMENT_CONTEXT]
+Action: Noah turns head sharply to the "edges" of the valley.
+[BLOCK 3: PROPS_&_OBJECTS]
+Target: Distant reddish-brown haze (Cinnamon). Visually represented as a cloud of red binary code floating over the banks.
+[BLOCK 4: VFX_&_INTERFACE]
+HUD Overlay: "DETECTED: CINNAMON_PROTOCOL". "SECTOR: PERIPHERY". Text locks onto the red haze.
+[BLOCK 5: CINEMATOGRAPHY]
+Camera: Over-The-Shoulder, racking focus from Noah's ear to the distant red signal.

@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 100 - 100
 
-**Phase Summary:** Standard appearance as the Master Builder/Engineer.
-**Phase Keywords:** Mighbari, neutral expression, standing, bronze tools
+**Phase Summary:** Mighbari in his standard guardian stance, holding the Obsidian Codex.
+**Phase Keywords:** obsidian, crystalline, bioluminescence, glyphs, Ethiopian, Egyptian, photorealistic, tactile
 **Phase Prompt:**
-Full body shot of Mighbari, a master ancient-tech engineer. Deep umber skin with metallic scarification on jaw. He wears heavy charcoal linen robes under a leather and oxidized bronze industrial apron. Articulated basalt plates on shoulders. Standing in a dimly lit, cavernous temple-factory. Cinematic lighting, volumetric atmosphere, 8k resolution, photorealistic, textures of rough stone and cold metal.
+Mighbari, the Guardian of the Solar Obelisk, stands in a poised stance, his obsidian‑etched basalt armor shimmering with copper filigree and crystalline lattices that glow with bioluminescent glyphs. His jade mask features a glowing scarab‑eye sensor, while his hands cradle the Obsidian Codex projecting holographic script and a Solar Scepter channeling light, rendered in photorealistic, tactile detail with ancient Ethiopian‑Egyptian mysticism.
 
 ---

@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 99 - 99
 
-**Phase Summary:** Le'ey in his standard technician attire with ocular implant and tools.
-**Phase Keywords:** Le'ey, technician, work gear, ocular implant, amber light
+**Phase Summary:** Le'ey in its operational form, fully integrated with crystalline core and glyph circuitry.
+**Phase Keywords:** ancient Ethiopian motifs, Egyptian hieroglyphs, obsidian armor, crystalline circuitry, bioluminescent glyphs, industrial mysticism, photorealistic
 **Phase Prompt:**
-Medium shot of Le'ey, an ancient Ethiopian technician-scribe, standing in a dim, steam-filled industrial temple. He has dark, weathered skin and a lean build. His left eye is replaced by a complex brass and crystal ocular implant glowing with faint amber light. He wears layered, oil-stained linen robes under a heavy leather work-harness filled with metallic tools. In his hand, he holds a copper Glyph-Stylus. The background features towering basalt walls etched with glowing blue circuitry. Cinematic lighting, volumetric atmosphere, texture-heavy, photorealistic, 8k.
+Le'ey in its default state: a towering humanoid sentinel forged from basalt and obsidian, its body carved like an ancient Ethiopian stela with angular Egyptian obelisk geometry, adorned with luminous bioluminescent glyphs pulsing in sync with a crystalline core, polished obsidian mask with iridescent crystal lenses, copper alloy joints, quartz filaments woven into a flowing copper mesh, bioluminescent algae glowing within a crystalline heart, rendered photorealistically with tactile textures, subtle phosphorescence, and industrial mysticism.
 
 ---

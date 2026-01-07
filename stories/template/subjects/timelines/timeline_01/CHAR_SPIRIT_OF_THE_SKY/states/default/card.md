@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 15 - 15
 
-**Phase Summary:** Stable, luminous manifestation composed of golden light and star charts.
-**Phase Keywords:** stable projection, golden radiance, star chart texture, calm atmosphere
+**Phase Summary:** Initial manifestation of the Spirit of the Sky
+**Phase Keywords:** intangible luminous entity, ancient Ethiopian motifs, crystalline glyphs, photorealistic, cinematic, feather‑like tendrils, bioluminescent glow, aurora effect
 **Phase Prompt:**
-Cinematic medium shot of the Spirit of the Sky, a stable volumetric projection of a humanoid form made of golden light and constellation lines. The entity is translucent, hovering above the ground in a dimly lit ancient corridor. The internal texture of the spirit resembles a 3D star map. Soft, holy radiance. Photorealistic, 8k, detailed textures, mystical atmosphere, ancient-tech aesthetic.
+A photorealistic cinematic depiction of the Spirit of the Sky, an intangible luminous entity manifesting as a translucent, semi‑transparent form with iridescent membranes shifting from cobalt to indigo, embedded with crystalline lattice structures echoing ancient Ethiopian and Egyptian motifs; luminous white orbs for eyes surrounded by pulsing glyphs projecting star maps; feather‑like tendrils ending in crystalline tips emitting bioluminescent glow; a faint hum and subtle aurora effect, all bathed in soft azure light, with a subtle temperature drop, rendered with grounded realism and industrial mysticism.
 
 ---

@@ -3,53 +3,65 @@
   "name": "Moon",
   "type": "character",
   "card": {
-    "description": "A colossal, artificial construct masquerading as a celestial body. The Moon is not a rock, but a perfect luminescent silver core encased within a massive, orbital mechanism of matte black interlocking panels and ancient industrial brass gears. Its phases are not shadows, but the physical closing of a gigantic mechanical iris (shutter system) that occludes the light source. It functions as a rendering engine for the night, casting 'selective' cold blue light that interacts with data-compliant entities while passing harmlessly through others (glitches).",
+    "description": "A photorealistic 3‑D model of the Moon rendered as a perfect silver sphere, encased in matte black interlocking panels etched with ancient Ethiopian motifs. The sphere is surrounded by a massive mechanical iris that can rotate to cast a crescent shadow, and its surface is studded with a hexagonal LED mesh that glitches like a failing lightbulb, revealing faint Ge'ez glyphs that glow as sensors. A crystalline core emits a cold white light, while a focused blue moonlight beam pierces the scene, all set against a geodesic dome sky studded with LED nodes. The aesthetic fuses ancient‑tech mysticism with grounded realism, creating a cinematic, tactile visual identity.",
     "tags": [
-      "Celestial Mechanism",
-      "Artificial Construct",
-      "Industrial Mysticism",
-      "Mechanical Sphere",
-      "Tech-Noir"
+      "lunar",
+      "mechanical iris",
+      "ancient-tech",
+      "photorealistic",
+      "silvery sphere",
+      "glitching",
+      "geodesic dome",
+      "blue moonlight beam",
+      "ge'ez glyphs"
     ],
     "visual_anatomy": [
-      "**Core:** A blindingly perfect sphere of cold, silver-white luminescence. Not a surface reflecting the sun, but an internal reactor or light source.",
-      "**Shell/Housing:** Surrounded by a massive, complex mechanical iris system. Matte black metal panels that slide and interlock.",
-      "**Internal Mechanism:** Deep beneath the panels, gigantic brass gears and clockwork machinery are visible, grinding silently in the void.",
-      "**Light Emission:** Emits a sharp, focused beam of blue-silver light. The light has a 'data' quality to it, sometimes appearing as a solid volume or revealing Ge'ez glyphs in dust motes."
+      "**Body/Form:** Perfect silver sphere, 3,474 km diameter, covered by matte black interlocking panels with relief motifs, housing a crystalline core emitting cold white light.",
+      "**Face/Sensors:** Embedded Ge'ez glyphs act as bio‑luminescent sensors, glowing faintly; a hexagonal LED node mesh visible through glitches.",
+      "**Clothing/Armor:** Matte black panels etched with ancient Ethiopian motifs, interlocking like a protective shell.",
+      "**Key Features:** Massive mechanical iris/shutter system, glitching LED mesh, crystalline core, Ge'ez glyphs, focused blue moonlight beam."
     ],
     "evolution": [
-      "Phase 1 (Default): The standard operating mode. A mechanical sphere appearing in the sky, its phase determined by the degree of shutter closure. Cold, distant, watching."
+      "Phase 1 (Prototype): Silver sphere with basic mechanical iris, no glyphs or crystalline core.",
+      "Phase 2 (Final): Integrated Ge'ez glyphs, crystalline core, glitching LED mesh, fully functional mechanical iris, blue moonlight beam."
     ],
     "props": [
-      "Mechanical Iris Shutter",
-      "Silver Data Beam",
-      "Brass Gear Substructure"
+      "Mechanical Iris",
+      "Hexagonal LED Mesh",
+      "Crystalline Core",
+      "Blue Moonlight Beam",
+      "Ge'ez Glyphs",
+      "Wireframe Sky"
     ],
     "prompt_keywords": [
-      "mechanical moon",
-      "celestial construct",
-      "matte black metal",
-      "brass gears",
+      "lunar",
       "mechanical iris",
-      "cold silver light",
-      "industrial mysticism",
-      "cinematic",
-      "8k",
-      "photorealistic"
+      "glitching",
+      "ancient-tech",
+      "photorealistic",
+      "silvery sphere",
+      "geodesic dome",
+      "blue moonlight beam",
+      "ge'ez glyphs"
     ],
-    "prompt_block": "A massive mechanical sphere floating in the void, acting as the Moon. The surface is a perfect, glowing silver core partially obscured by a gigantic mechanical iris made of matte black interlocking panels. Massive brass gears and industrial clockwork mechanisms are visible behind the shifting plates. Cold blue-silver light spills from the aperture. High contrast, ancient-tech aesthetic, tactile metal textures, deep space background, cinematic lighting, photorealistic, 8k.",
+    "prompt_block": "A photorealistic 3D render of the Moon as a perfect silver sphere, encased in matte black interlocking panels etched with ancient Ethiopian motifs, featuring a massive mechanical iris that rotates to cast a crescent shadow, a crystalline core emitting cold white light, and a hexagonal LED mesh glitching like a failing lightbulb, all set against a geodesic dome sky with LED nodes, illuminated by a focused blue moonlight beam, cinematic lighting, high contrast, 8k resolution",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "The Moon as a mechanical construct with iris shutters.",
+        "summary": "The Moon in its default state: pristine silver sphere with mechanical iris and glitching LED mesh.",
         "prompt_keywords": [
-          "mechanical moon",
-          "iris shutter",
-          "brass gears",
-          "silver light"
+          "lunar",
+          "mechanical iris",
+          "glitching",
+          "ancient-tech",
+          "photorealistic",
+          "silvery sphere",
+          "geodesic dome",
+          "blue moonlight beam",
+          "ge'ez glyphs"
         ],
-        "prompt_block": "A colossal artificial moon in the night sky. It is a glowing silver sphere encased in a dark, matte black mechanical shell. A massive shutter mechanism like a camera iris is partially closed, creating a crescent shape. Intricate brass gears and heavy industrial machinery are visible within the mechanism. Cold, sharp blue moonlight beams down. Cinematic, mysterious, ancient technology, hyper-detailed, 8k."
+        "prompt_block": "A photorealistic 3D render of the Moon as a perfect silver sphere, encased in matte black interlocking panels etched with ancient Ethiopian motifs, featuring a massive mechanical iris that rotates to cast a crescent shadow, a crystalline core emitting cold white light, and a hexagonal LED mesh glitching like a failing lightbulb, all set against a geodesic dome sky with LED nodes, illuminated by a focused blue moonlight beam, cinematic lighting, high contrast, 8k resolution"
       }
     ]
   },

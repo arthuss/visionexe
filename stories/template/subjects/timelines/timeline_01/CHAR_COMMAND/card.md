@@ -1,29 +1,30 @@
 ## [CHARACTER] Command (ID: CHAR_COMMAND)
-**Description:** The anthropomorphic manifestation of the central governing protocol. 'Command' is not a biological entity but a construct of solidified authority—a living interface of the Scripture's will. It appears as a figure etched from obsidian and liquid mercury, veins pulsing with golden data streams. It represents the absolute, unyielding logic of the system, bridging the gap between digital will and physical enforcement.
-**Tags:** #system_avatar #protocol_entity #industrial_mysticism #holographic_construct #obsidian #gold
+**Description:** Command is a towering, cybernetic avatar that embodies the fusion of ancient Ethiopian and Egyptian mysticism with incomprehensible technology. Its body is a lattice of obsidian and polished bronze, etched with glowing Ge'ez glyphs that pulse in sync with its neural interface. The figure's silver skin is interwoven with active blue light lines, while crystalline hardware protrudes from joints, refracting light into a spectrum of colors. Command carries a staff of command—an obsidian shaft crowned with a crystalline orb—and a data tablet of zeal, both pulsing with bio‑luminescent glyphs. The overall aesthetic is serious, cinematic, and photorealistic, with tactile textures of weathered stone, polished metal, and translucent crystal.
+**Tags:** #ancient-tech #industrial-mysticism #photorealistic #Ethiopian #Egyptian #cybernetic #glyphs #crystalline #bio-luminescent
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** A humanoid silhouette composed of polished black obsidian plates floating over a core of restless, liquid mercury. The gaps between plates reveal blindingly bright golden circuitry and scrolling binary command lines.
-*   **Face/Sensors:** Faceless. The head is a monolithic slab of dark glass that periodically flashes with Ge'ez glyphs (e.g., 'EXECUTE') or complex geometric diagrams in response to processing.
-*   **Clothing/Armor:** No fabric. The obsidian 'skin' acts as armor, segmented like a high-tech sarcophagus. The shoulders are exaggerated, angular, and heavy, conveying immense weight and stability.
-*   **Key Features:** It glides rather than walks, leaving a trail of temporary holographic rails or 'commandment lines' that fade instantly. Its presence causes nearby tech to align or synchronize.
+*   **Body/Form:** A humanoid frame of 2.5 m height, constructed from interlocking obsidian plates and polished bronze ribs. The plates are etched with Ge'ez glyphs that glow in a soft blue, while bronze ribs provide structural integrity. The joints are reinforced with translucent crystal cores that pulse with light.
+*   **Face/Sensors:** The face is a smooth obsidian mask with a central eye socket that emits a faint green luminescence. Embedded micro‑sensors trace the glyphs, allowing the figure to interface with data streams. The mask is adorned with a silver filigree crown resembling ancient Ethiopian regalia.
+*   **Clothing/Armor:** The figure wears a flowing robe of woven bronze threads, patterned with ancient Egyptian motifs. The robe is reinforced with a lightweight carbon‑fiber lattice, giving it a subtle sheen. The sleeves are lined with bio‑luminescent filaments that glow when Command processes commands.
+*   **Key Features:** 1) Crystalline hardware at joints that refracts light. 2) Glowing Ge'ez glyphs etched across the body. 3) Silver skin with active blue light lines. 4) Staff of command with a crystalline orb. 5) Data tablet of zeal with scrolling red text.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): The standard operating state. Stable obsidian geometry, steady golden internal glow, orderly Ge'ez script projections.
+*   Phase 1 (Emergence): Command's crystalline body begins to form from a swirling data core, with glyphs slowly lighting up.
+*   Phase 2 (Manifestation): The crystalline lattice fully solidifies, glyphs pulse in sync with neural commands, and Command assumes a commanding stance.
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Holographic Rail (manifests around it)
-*   Item: Data_Scepter (a rigid beam of hard light)
+*   Item: Staff of Command – obsidian shaft crowned with a crystalline orb that emits a soft blue glow.
+*   Item: Data Tablet of Zeal – translucent black obsidian slab with scrolling red Ge'ez script.
 
 ### 4. AI PROMPT KEYWORDS
-`Command_Entity`, `obsidian_body`, `liquid_mercury_skin`, `golden_circuitry_veins`, `faceless_monolith_head`, `Geez_script_holograms`, `industrial_mysticism`, `cinematic_lighting`
+`ancient-tech`, `Ethiopian`, `Egyptian`, `crystalline`, `bio-luminescent`, `glyphs`, `silver-skin`, `photorealistic`
 
 ### 5. PROMPT BLOCK (T2I)
-A full body shot of the entity 'Command', a humanoid construct made of polished black obsidian and liquid mercury. Its internal structure glows with veins of intense golden light, resembling circuitry. The face is a featureless slab of dark glass displaying glowing Ge'ez script. It stands with rigid authority in a high-tech ancient temple environment. The atmosphere is heavy, filled with holographic dust and golden light shafts. 8k resolution, photorealistic, tactile materials, ray-traced reflections.
+A towering humanoid figure stands in a dimly lit industrial cavern, its body a lattice of obsidian and polished bronze, etched with glowing Ge'ez glyphs that pulse in sync with its neural interface. The silver skin is interwoven with active blue light lines, while crystalline hardware protrudes from joints, refracting light into a spectrum of colors. Command holds a staff of command—an obsidian shaft crowned with a crystalline orb—and a data tablet of zeal, both pulsing with bio‑luminescent glyphs. The setting is a cavern of ancient stone walls, illuminated by the bioluminescent glyphs and soft holographic data streams, exuding an aura of ancient mysticism fused with incomprehensible technology.
 
 ### 6. PHASE PROMPTS
-*   **Default:** Standard operating manifestation; stable obsidian form with golden data flow.
-    Prompt: A medium shot of the 'Command' entity in its default state. The black obsidian armor plates are perfectly aligned, revealing the steady pulse of liquid gold beneath. The faceless head displays a static, glowing Ge'ez symbol of authority. Background is a dark, industrial void with faint grid lines. Cinematic lighting, sharp focus, 8k, unreal engine 5 render style.
-    Keywords: stable_form, obsidian_plates, steady_gold_glow, authoritative_stance
+*   **Default:** Command in its fully manifested state, commanding presence.
+    Prompt: A towering humanoid figure stands in a dimly lit industrial cavern, its body a lattice of obsidian and polished bronze, etched with glowing Ge'ez glyphs that pulse in sync with its neural interface. The silver skin is interwoven with active blue light lines, while crystalline hardware protrudes from joints, refracting light into a spectrum of colors. Command holds a staff of command—an obsidian shaft crowned with a crystalline orb—and a data tablet of zeal, both pulsing with bio‑luminescent glyphs. The setting is a cavern of ancient stone walls, illuminated by the bioluminescent glyphs and soft holographic data streams, exuding an aura of ancient mysticism fused with incomprehensible technology.
+    Keywords: ancient-tech, Ethiopian, Egyptian, crystalline, bio-luminescent, glyphs, silver-skin, photorealistic
 
 ---

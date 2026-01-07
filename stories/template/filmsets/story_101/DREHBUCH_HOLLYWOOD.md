@@ -1,371 +1,371 @@
 # DREHBUCH KAPITEL 101 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Die Architektur der Welt ist fragil, gewoben aus Licht und Mathematik. Wenn die Berechnung bricht und das Meer den Gehorsam verweigert, ist es kein Zorn, der uns trifft, sondern eine notwendige Korrektur. Der Auditor sieht nicht das Wasser, sondern den Fehler im Code, der bereinigt werden muss.
+NARRATOR_TEXT: Wenn die Berechnungen der Welt ihren Grenzwert erreichen, wird Gnade zu einer Frage der Speicherverwaltung. Wir dachten, der Sturm sei eine Strafe der Götter, doch er war nur das Geräusch eines Systems, das seine Fehler bereinigt. Der Auditor kommt nicht, um zu richten, sondern um die Integrität der Simulation wiederherzustellen, bevor alles zerbricht.
 
-## [ACT I] [SCENE 1.1] [Timecode: 00:00-00:04] [ESTABLISHING]
-**Action:** Satellite view of the cloud layer. Vector grid overlay zooms in rapidly: 100km -> 10km -> Surface.
+## [ACT I] [SCENE 1.1] [Timecode: 00:00-00:03] [ESTABLISHING]
+**Action:** Orthographic view of the "Earth" grid. A cursor blinks at Sector 101. Henoch manifests instantly (`NODE_SHIFT`)—no fade, just frame 0 empty, frame 1 present.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "High Altitude Cloud Layer", "env_change": true, "actors": [], "props": [], "camera": "Orthographic Top-Down / Zoom", "mood": ["technical", "cold"], "director_intent": "Show the simulation from the perspective of the operating system.", "start_image_keywords": ["satellite view", "grid overlay"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_CLOUD_LAYER", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Global Grid Map", "env_change": true, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Orthographic High-Angle / Satellite", "mood": ["technical", "cold"], "director_intent": "Establish the simulation context and the sudden arrival of the administrator.", "start_image_keywords": ["satellite map", "grid overlay", "Henoch"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "POSE_ARRIVAL_STATIC", "env_id": "ENV_GRID_MAP", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Satellite view of a dense, realistic cloud layer seen from space, overlaid with a glowing neon-green vector grid map. 8k resolution, photorealistic earth texture below clouds, high contrast technical interface aesthetic, orthographic projection, data visualization style, 9:16 aspect ratio.
+Orthographic top-down satellite view of a hyper-realistic desert landscape overlaid with a precise, glowing neon-green vector grid. In the center, a solitary figure, Henoch, stands perfectly still. He is wearing a sleek, wet-look obsidian exosuit. The contrast between the organic desert texture and the digital UI overlay is sharp. 8k resolution, technical data visualization aesthetic, 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Subject:** Planet Earth Surface. **Identity:** Simulation Map.
+**Subject:** Henoch. **Action:** Instant appearance from nothing. **Form:** Static, commanding.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Overlay:** Digital vector grid lines, green and white, superimposed on the atmosphere.
+**Gear:** Obsidian Exosuit, reflective and dark.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Stratosphere. **Atmosphere:** Thin clouds, curvature of the earth.
+**Location:** Desert Sector 101 viewed from space. **Overlay:** Green coordinate grid lines fixed over the terrain.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting:** Sunlight from upper right, harsh shadows on clouds. **Palette:** Blue, White, Neon Green.
+**Lighting:** Flat, clinical satellite lighting. **Palette:** Earth tones, Neon Green, Black.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Top-down satellite camera. **Movement:** Rapid zoom in, crashing through cloud layers towards the surface. **Style:** Google Earth zoom but cinematic and glitchy.
+**Camera:** Orthographic Top-Down. **Movement:** The figure snaps into existence instantly (Jump Cut logic).
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitched digital screech of a modem handshake or data transmission. Wind noise increasing in pitch as the camera zooms in.
+Deep sub-bass hum of a server room. A sharp, digital "snap" sound exactly when the figure appears.
 
-## [ACT I] [SCENE 1.2] [Timecode: 00:04-00:08] [INGRESS]
-**Action:** Henoch manifests in Arid Sector 101. No motion blur. He stands perfectly still amidst dry cracked earth.
+## [ACT I] [SCENE 1.2] [Timecode: 00:03-00:07] [SKYBOX FAILURE]
+**Action:** Henoch looks up. The sky texture fails. Clouds do not drift but freeze. The blue gradient is replaced by a black polished grid structure. Raindrops stop in mid-air, turning into chrome spheres.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "full_body", "environment": "Arid Desert Sector 101", "env_change": true, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "14mm Low Angle", "mood": ["imposing", "still"], "director_intent": "Establish the sudden, weightless arrival of the entity.", "start_image_keywords": ["Henoch", "desert"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "POSE_STAND_STILL", "env_id": "ENV_DESERT_ARID", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Arid Desert Sector 101", "env_change": false, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": ["Frozen Raindrops"], "camera": "Low Angle Dolly", "mood": ["surreal", "ominous"], "director_intent": "Visualize the suspension of environmental physics.", "start_image_keywords": ["frozen rain", "chrome spheres", "grid sky"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "POSE_LOOK_UP", "env_id": "ENV_DESERT_GRID_SKY", "props": ["PROP_RAINDROPS_CHROME"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Full body shot of Henoch standing in a cracked, dry desert. He wears a sleek obsidian exosuit that looks wet with coolant. His skin is translucent gray with faint internal blue glow. Low angle shot, 14mm lens, dramatic hard sunlight casting long shadows, hyper-detailed texture on the dry ground, 9:16 aspect ratio.
+Low angle shot looking up at Henoch in the desert. The sky above him has turned into a glossy black geodesic grid structure, replacing the blue atmosphere. Thousands of raindrops hang frozen in the air, rendered as perfect, reflective chrome spheres. Henoch's translucent skin glows faintly blue. Cinematic lighting, high contrast, surreal sci-fi atmosphere, 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Subject:** Henoch (Auditor). **Skin:** Translucent gray, internal blue vascular glow. **Pose:** Perfectly static, commanding.
+**Subject:** Henoch. **Action:** Looking up at the sky.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Gear:** Obsidian Exosuit, matte black, glistening with liquid coolant.
+**Gear:** Obsidian Exosuit. **Skin:** Matte-glass texture.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Arid Desert. **Ground:** Cracked dry earth, dust particles suspended in air.
+**Location:** Desert with a corrupted skybox. **Event:** The sky turns into a black structural grid. Rain freezes into stationary metal spheres.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting:** Harsh noon sun, high contrast. **VFX:** Subtle heat haze distortion around him.
+**Lighting:** Reflections on the chrome spheres. **Palette:** Black, Chrome, Sand.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Low angle, wide 14mm. **Movement:** Camera is static, emphasizing his sudden appearance. **Render:** Photorealistic, 8k.
+**Camera:** Low Angle Dolly Back (24mm). **Movement:** Smooth backward movement revealing the scale of the frozen rain.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A heavy, low-frequency sub-bass thud on impact. Silence immediately after, except for a faint electrical hum.
+The sound of a massive turbine spinning down, descending in pitch until it stops completely. Silence follows.
 
-## [ACT I] [SCENE 1.3] [Timecode: 00:08-00:12] [PHYSICS PAUSE]
-**Action:** Raindrops hang frozen in mid-air. They are chrome spheres, reflecting the dry ground. A red "TIMEOUT" glyph floats in the bokeh.
+## [ACT I] [SCENE 1.3] [Timecode: 00:07-00:15] [RESOURCE STARVATION]
+**Action:** The "Kings" (Sailors) look at their hands. Their skin textures lose resolution, turning blurry. The ground beneath them turns to untextured smooth gray polymer.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "insert", "framing": "close_up", "environment": "Arid Desert Sector 101", "env_change": false, "actors": [], "props": ["Frozen Raindrops"], "camera": "100mm Macro", "mood": ["surreal", "glitch"], "director_intent": "Visualize the system lag through frozen physics.", "start_image_keywords": ["frozen rain", "chrome spheres"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_DESERT_ARID", "props": ["PROP_RAINDROPS_CHROME"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Arid Desert Glitch", "env_change": false, "actors": [{"name": "Kings", "phase": "PROXY", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Medium Shot", "mood": ["confusion", "horror"], "director_intent": "Show the degradation of user assets due to low resources.", "start_image_keywords": ["glitching hands", "untextured ground"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POSE_HAND_CHECK", "env_id": "ENV_DESERT_UNTEXTURED", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Macro shot of raindrops frozen in mid-air above dry desert ground. The drops are perfect chrome spheres, reflecting the cracked earth below. In the blurred background, a faint red holographic glyph reads "TIMEOUT". 100mm lens, shallow depth of field, surreal sci-fi aesthetic, high fidelity, 9:16 aspect ratio.
+Medium shot of Phoenician sailors in ornate purple robes standing on a perfectly smooth, featureless gray plastic floor. They are staring at their own hands in horror. Their skin texture is failing, appearing blurry and low-resolution like a bad jpeg, while their robes remain sharp. High-end fashion photography style, disturbing digital artifacting, 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Subject:** Raindrops. **Material:** Liquid metal / Chrome.
+**Subject:** Phoenician Kings (Sailors). **Condition:** Texture streaming failure.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**N/A:** Natural element glitch.
+**Clothing:** Rich Tyrian purple robes. **Skin:** Blurring and sharpening intermittently.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Desert air. **Physics:** Frozen, zero gravity.
+**Location:** Abstracted Desert. **Ground:** Smooth, untextured gray geometry.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting:** Ambient occlusion, soft reflections on the chrome drops. **VFX:** Red "TIMEOUT" text floating in background bokeh.
+**Lighting:** Harsh, artificial studio light. **Palette:** Purple, Gray, Skin tones.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** 100mm Macro. **Movement:** Slow tracking shot sideways through the grid of frozen drops.
+**Camera:** 50mm Medium Shot. **Movement:** Handheld jitter.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud electrical buzzing, like a high-voltage transformer or a Jacob's Ladder arc. No rain sound.
+High-pitched coil whine. Digital static clicks that sync with the texture blurs.
 
-## [ACT I] [SCENE 1.4] [Timecode: 00:12-00:15] [DIAGNOSTIC]
-**Action:** Close-up on Henoch’s face. Ge'ez error logs scroll across his translucent skin. Blue veins pulse.
-**Dialog:** Henoch: "Systemprüfung initiiert."
+## [ACT II] [SCENE 2.1] [Timecode: 00:15-00:20] [FRAGMENTED GEOMETRY]
+**Action:** `NODE_SHIFT` to the Sea. The water is not fluid. It is a mass of tumbling, sharp obsidian shards. The ocean moves at 12fps (Lag).
+**Dialog:** Henoch (VO): "System-Integrität: Kompromittiert."
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Arid Desert Sector 101", "env_change": false, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "85mm Portrait", "mood": ["analytical", "intense"], "director_intent": "Show the internal processing of the entity.", "start_image_keywords": ["Henoch face", "scrolling text"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POSE_FACE_NEUTRAL", "env_id": "ENV_DESERT_ARID", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "henoch_system_check", "pose_source": "", "driver_notes": "Minimal lip movement, internal voice"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Obsidian Ocean", "env_change": true, "actors": [], "props": ["Obsidian Shards"], "camera": "Wide Handheld", "mood": ["chaotic", "violent"], "director_intent": "Introduce the corrupted ocean physics.", "start_image_keywords": ["obsidian ocean", "black shards"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_OCEAN_SHARDS", "props": ["PROP_WAVE_SHARDS"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "henoch_integrity_compromised", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 4}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme close-up of Henoch's face. His skin is translucent gray, revealing glowing neon-blue veins underneath. Glowing Ge'ez characters scroll vertically across his forehead and cheeks like a digital display. His eyes are intense. 85mm lens, sharp focus on skin texture, cinematic lighting, 9:16 aspect ratio.
+Wide shot of a terrifying dark ocean storm where the water is composed entirely of millions of sharp, jagged black obsidian shards tumbling over each other. No liquid, only solid geometry crashing together. Lightning illuminates the glossy, sharp edges of the shards. Photorealistic render of a physics simulation disaster, 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Subject:** Henoch (Auditor). **Skin:** Translucent, displaying scrolling Ge'ez text. **Veins:** Pulsing blue light.
+**Subject:** Ocean waves. **Material:** Solid black glass shards.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Head:** No helmet, bare skin acting as a display.
+**N/A:** Environmental hazard.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Background:** Blurred desert horizon.
+**Location:** Stormy Ocean. **Physics:** Rigid body simulation instead of fluid dynamics. Low framerate stutter (12fps).
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting:** Soft face light, internal glow from veins.
+**Lighting:** Strobe lightning. **Reflections:** Sharp specular highlights on black glass.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** 85mm Portrait. **Movement:** Minimal, slight breathing. **Focus:** The scrolling text on the skin.
+**Camera:** Wide Handheld Shake. **Style:** Chaotic, high-stress visual.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Henoch's voice, dual-layered: a whisper mixed with a slightly delayed synthetic synthesis. "Systemprüfung initiiert."
+Deafening sound of millions of glass shards crashing together. Grinding stone and ceramic.
 
-## [ACT II] [SCENE 2.1] [Timecode: 00:15-00:19] [NODE SHIFT]
-**Action:** Instant transport to the Ocean Sector. Dark, violent storm. The "Wind" is visible as vector lines.
+## [ACT II] [SCENE 2.2] [Timecode: 00:20-00:24] [NO COLLISION]
+**Action:** A Phoenician ship is struck by a "wave" of black shards. The wood does not splinter; it clips (`NO_COLLISION`). The shards pass through the hull ghost-like.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Ocean Sector Storm", "env_change": true, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "35mm Handheld", "mood": ["chaotic", "violent"], "director_intent": "Jarring transition to a chaotic environment.", "start_image_keywords": ["storm", "ocean", "Henoch"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "POSE_STAND_STORM", "env_id": "ENV_OCEAN_STORM", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "action", "framing": "medium", "environment": "Obsidian Ocean", "env_change": false, "actors": [], "props": ["Phoenician Ship", "Obsidian Shards"], "camera": "Action Cam", "mood": ["glitch", "wrong"], "director_intent": "Demonstrate the failure of collision detection.", "start_image_keywords": ["ship hull", "clipping shards"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_OCEAN_SHARDS", "props": ["PROP_SHIP_PHOENICIAN"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide shot of a violent ocean storm at night. Henoch stands calmly on the turbulent water surface. The wind is visualized as glowing white vector lines cutting through the air. Massive dark waves, rain, lightning. 35mm lens, handheld camera feel, cinematic action composition, 9:16 aspect ratio.
+Close-up action shot of a wooden ship hull in a storm. A massive wave of black glass shards is crashing into it, but instead of breaking the wood, the shards pass ghost-like directly through the planks. The intersection point shows no debris, just geometry intersecting geometry. Dark, stormy lighting, photorealistic glitch, 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Subject:** Henoch. **Action:** Standing on water.
+**Subject:** Wooden Ship Hull vs Obsidian Shards.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Gear:** Obsidian Exosuit.
+**N/A:** Physics error.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Stormy Ocean. **Atmosphere:** Heavy rain, lightning. **VFX:** Wind represented by white vector streaks.
+**Location:** Stormy Ocean. **Event:** Collision detection failure. Objects overlapping without resistance.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting:** Strobe lightning flashes. **Palette:** Dark Blue, Black, White.
+**Lighting:** Dark, wet wood, shiny black glass.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** 35mm Handheld. **Movement:** Shaky cam, reacting to the storm intensity.
+**Camera:** GoPro-style mount on the hull. **Movement:** Violent shaking.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deafening roar of a massive server room air intake system, replacing natural wind sound. Thunder cracks.
+Horrific metal screeching sound, like a subway train braking, mixed with digital tearing noises.
 
-## [ACT II] [SCENE 2.2] [Timecode: 00:19-00:24] [RENDER FAIL]
-**Action:** A massive wave crests. The spray fails to render transparency, turning into tumbling black geometric data-blocks.
+## [ACT II] [SCENE 2.3] [Timecode: 00:24-00:27] [VERTEX EXPLOSION]
+**Action:** A Sailor tries to grab a rope. His hand passes through it. He screams. His jaw mesh stretches down to the deck (`VERTEX_EXPLOSION`).
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Ocean Sector Storm", "env_change": false, "actors": [], "props": ["Glitch Wave"], "camera": "Wide Action", "mood": ["glitch", "destructive"], "director_intent": "Depict the breakdown of the physics engine visually.", "start_image_keywords": ["voxel wave", "black cubes"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_OCEAN_STORM", "props": ["PROP_WAVE_VOXEL"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Ship Deck", "env_change": false, "actors": [{"name": "Kings", "phase": "PROXY", "presence": "on_screen", "focus": "primary"}], "props": ["Rope"], "camera": "Close-Up", "mood": ["horror", "grotesque"], "director_intent": "Body horror through geometry errors.", "start_image_keywords": ["stretched face", "glitch horror"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "POSE_SCREAM_GLITCH", "env_id": "ENV_SHIP_DECK", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A massive ocean wave cresting, but the foam and spray are replaced by thousands of tumbling black obsidian cubes. The water surface transitions from liquid to geometric voxel blocks. Dark stormy sky, lightning illumination, high contrast, photorealistic rendering of a digital glitch, 9:16 aspect ratio.
+Horror close-up of a Phoenician sailor screaming. His jaw is unnaturally stretched downwards, elongating into a long fleshy spike that touches the floor. His eyes are wide with terror. His hand is passing through a ship's rope like a hologram. Rain and black glass shards fall around him. Hyper-realistic render of a 3D mesh exploding, 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Subject:** Ocean Wave. **Form:** Glitching fluid dynamics.
+**Subject:** Sailor face. **Deformation:** Jaw vertices pulled endlessly downward.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**N/A:** Environmental glitch.
+**Costume:** Purple robes.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Glitch Ocean. **Physics:** Fluid turning into rigid bodies (cubes).
+**Location:** Ship Deck. **Physics:** Mesh integrity failure.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting:** Lightning flashes illuminating the black cubes. **Texture:** Wet, reflective surfaces on the cubes.
+**Lighting:** Lightning flashes revealing the stretched skin texture.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Wide Action. **Movement:** Following the wave crash. **Style:** High-end VFX simulation failure.
+**Camera:** 85mm Portrait. **Movement:** Handheld panic.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Distorted white noise, bit-crushed crashing sounds. Not water splashing, but digital static and crunching.
+A scream that breaks into digital bit-crushed noise ("Ah-Ah-Ah-Ah-KZZZT").
 
-## [ACT II] [SCENE 2.3] [Timecode: 00:24-00:29] [CLIPPING]
-**Action:** The wooden ship plunges into the water but passes *through* the surface without resistance. "COLLISION_OFF" warning flashes red on the hull.
+## [ACT II] [SCENE 2.4] [Timecode: 00:27-00:31] [DELETION PROTOCOL]
+**Action:** Henoch stands on the water/shards, unaffected. He is reviewing a holographic error log scrolling on his retina. He swipes a window away, deleting the ship.
+**Dialog:** Henoch (VO): "Lösche korrupte Elemente."
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Obsidian Ocean", "env_change": false, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "35mm Medium", "mood": ["detached", "efficient"], "director_intent": "Henoch acts as the administrator cleaning the mess.", "start_image_keywords": ["Henoch gesture", "swiping interface"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POSE_SWIPE_DELETE", "env_id": "ENV_OCEAN_SHARDS", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "henoch_deleting_corrupted", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 3}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Medium shot of Henoch standing calmly on top of the chaotic black glass waves. He is performing a casual "swipe left" gesture with his hand. His eyes are glowing with red grid patterns. In the background, the Phoenician ship is beginning to disintegrate. Contrast between the chaos of the storm and his stillness. 35mm lens, 9:16 aspect ratio.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+**Subject:** Henoch. **Action:** Hand swipe gesture (Delete).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+**Gear:** Exosuit. **Eyes:** Red LIDAR projection active.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+**Location:** Stormy Ocean. **Stability:** Henoch is anchored, world moves around him.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+**Lighting:** Cool blue from veins, red from eyes.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+**Camera:** 35mm Medium. **Movement:** Smooth tracking, ignoring the camera shake of the previous shots.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Clean, distinct UI interface beeps. A satisfying "Trash Bin" crunch sound.
+
+## [ACT II] [SCENE 2.5] [Timecode: 00:31-00:35] [DATA DECIMATION]
+**Action:** The ship capsizes. Instead of sinking, it explodes into a cloud of untextured black glass fragments (`DATA_DECIMATION`).
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "medium", "framing": "medium", "environment": "Ocean Sector Storm", "env_change": false, "actors": [], "props": ["Phoenician Ship"], "camera": "Tracking Shot", "mood": ["wrong", "broken"], "director_intent": "Show the loss of collision detection.", "start_image_keywords": ["ship hull", "clipping water"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_OCEAN_STORM", "props": ["PROP_SHIP_PHOENICIAN"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Obsidian Ocean", "env_change": false, "actors": [], "props": ["Exploding Ship"], "camera": "Wide Slow Motion", "mood": ["destructive", "spectacular"], "director_intent": "The removal of the corrupted object.", "start_image_keywords": ["shattering ship", "glass explosion"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_OCEAN_SHARDS", "props": ["PROP_SHIP_EXPLODING"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot of a wooden Phoenician ship hull intersecting perfectly with the ocean water surface, as if they are ghost layers. No splash, no foam, just wood passing through water. A bright red holographic warning "COLLISION_OFF" is projected on the wet wood. Stormy lighting, realistic textures, 9:16 aspect ratio.
+Spectacular wide shot of a Phoenician wooden ship exploding into millions of tiny black glass polygons. It is not burning; it is shattering like a dropped vase. The fragments are suspended in the air against the lightning-lit storm. High-speed photography style, particle physics simulation, 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Subject:** Ship Hull. **Material:** Wet wood.
+**Subject:** Ship. **Event:** Instant shattering.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Overlay:** Red "COLLISION_OFF" text flashing.
+**Material:** Wood turning to glass shards.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Ocean surface. **Physics:** No interaction between ship and water (clipping).
+**Location:** Ocean. **Physics:** Zero gravity explosion.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting:** Dark, stormy, red warning light reflection.
+**Lighting:** Backlit by lightning. **VFX:** High particle count.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Medium Tracking. **Movement:** Following the ship's plunge. **Focus:** The intersection line where physics fails.
+**Camera:** Wide Shot. **Speed:** Slow Motion (High Frame Rate).
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Metal screeching and audio tearing sounds. No water displacement sounds.
+Heavy bass drop followed by the sound of a shattering mirror reverb.
 
-## [ACT II] [SCENE 2.4] [Timecode: 00:29-00:34] [ENTITY CORRUPTION]
-**Action:** The "Kings" (sailors) scream silently. Their animations loop frantically (0.5s repeat). Textures stretch and tear off their bodies.
+## [ACT II] [SCENE 2.6] [Timecode: 00:35-00:40] [USER PURGE]
+**Action:** Rapid montage of the sailors' faces glitching—eyes missing, textures swapped, T-posing in mid-air.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Ship Deck", "env_change": false, "actors": [{"name": "Kings", "phase": "PROXY", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Dutch Angle", "mood": ["horror", "glitch"], "director_intent": "Portray the characters as suffering software entities.", "start_image_keywords": ["glitching sailors", "texture stretching"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "POSE_GLITCH_LOOP", "env_id": "ENV_SHIP_DECK", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Void / Storm", "env_change": false, "actors": [{"name": "Kings", "phase": "PROXY", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Macro Glitch", "mood": ["nightmare", "rapid"], "director_intent": "Show the users being forcibly logged out/deleted.", "start_image_keywords": ["glitch face", "missing eyes"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POSE_GLITCH_FACE", "env_id": "ENV_VOID_STORM", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Phoenician sailors on a storm-tossed deck, screaming. Their bodies are glitching: textures are stretching into long spikes, faces are distorted. One sailor is stuck in a T-pose. Rain lashes down. Dutch angle, horror atmosphere, photorealistic rendering of 3D model failure, 9:16 aspect ratio.
+Extreme close-up of a human face where the eyes are missing, revealing an empty hollow mesh interior. The skin texture is misaligned, showing part of a mouth on the forehead. Rain runs over the glitched geometry. Dark, horrific tech-noir aesthetic, 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Subject:** Sailors (Kings). **State:** Corrupted mesh.
+**Subject:** Human Faces. **State:** Texture mapping errors.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Clothing:** Rags, texture maps tearing away from the body.
+**N/A:** Body horror.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Ship Deck. **Weather:** Storm.
+**Location:** Abstract Storm.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting:** Lightning flashes. **VFX:** Mesh vertices exploding outward.
+**Lighting:** Strobe flashing.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Dutch Angle. **Movement:** Jittery, stuttering edit style. **Animation:** Characters looping the same scream motion rapidly.
+**Camera:** Macro. **Editing:** Rapid jump cuts between different glitches.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Glitched vocal samples looping rapidly. "Ah-Ah-Ah-Ah". Digital distortion.
+Stuttering audio loop ("Err-Err-Err-Error").
 
-## [ACT II] [SCENE 2.5] [Timecode: 00:34-00:39] [LIDAR SCAN]
-**Action:** Henoch observes the chaos. Red laser grids fan out from his eyes, mapping the broken physics of the ship.
+## [ACT II] [SCENE 2.7] [Timecode: 00:40-00:45] [SYSTEM FREEZE]
+**Action:** The entire ocean surface freezes solid. The shards stop moving. The sailors are trapped in the geometry, half-merged with the black glass.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "over_shoulder", "framing": "medium", "environment": "Ship Deck", "env_change": false, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Whip Pan", "mood": ["calculating", "detached"], "director_intent": "Henoch analyzes the scene with machine vision.", "start_image_keywords": ["Henoch", "laser eyes"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "POSE_SCANNING", "env_id": "ENV_SHIP_DECK", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Frozen Obsidian Ocean", "env_change": true, "actors": [{"name": "Kings", "phase": "PROXY", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Slow Pan", "mood": ["still", "cold"], "director_intent": "The result of the crash. Total stasis.", "start_image_keywords": ["frozen ocean", "trapped figures"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "POSE_TRAPPED_STATIC", "env_id": "ENV_OCEAN_FROZEN", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Over-the-shoulder shot of Henoch looking at the glitching ship. Fanned red laser grids emit from his eyes, scanning the environment. The lasers illuminate the rain and the distorted sailors. Henoch's exosuit is wet and sleek. Cinematic lighting, volumetric fog, 9:16 aspect ratio.
+Wide shot of a frozen sea of black obsidian waves. The motion has stopped completely. Human figures are half-submerged in the solid glass waves, frozen in poses of struggle like insects in amber. The scene is silent and static. Cold blue moonlight, highly reflective surfaces, 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Subject:** Henoch. **Action:** Scanning.
+**Subject:** Frozen Seascape. **Details:** Bodies encased in solid material.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Eyes:** Emitting red LIDAR grid patterns.
+**N/A:** Statues.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Ship Deck. **Target:** The glitching sailors.
+**Location:** Frozen Ocean. **Physics:** Static.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting:** Red laser light cutting through the blue storm darkness.
+**Lighting:** Cold, ambient moonlight.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Over-the-Shoulder. **Movement:** Whip pan following the laser sweep.
+**Camera:** Slow, smooth 14mm Pan. **Movement:** Only the camera moves; the world is dead still.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-tech sonar ping or laser scanning sound. Background storm noise.
+Absolute silence. No wind, no water.
 
-## [ACT II] [SCENE 2.6] [Timecode: 00:39-00:45] [THE BOUNDARY]
-**Action:** The raging digital ocean hits the shoreline. It flattens instantly against an invisible geometric wall, unable to touch the dry sand.
+## [ACT III] [SCENE 3.1] [Timecode: 00:45-00:51] [THE BOUNDARY WALL]
+**Action:** The black ocean meets the "Wall"—a vertical infinite white grid. The waves flatten against it perfectly.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Shoreline Boundary", "env_change": true, "actors": [], "props": ["Invisible Wall"], "camera": "Low Angle", "mood": ["unnatural", "constrained"], "director_intent": "Show the hard limit of the simulation area.", "start_image_keywords": ["ocean barrier", "invisible wall"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_SHORELINE", "props": ["PROP_BARRIER_GRID"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Boundary Wall", "env_change": true, "actors": [], "props": ["White Grid Wall"], "camera": "Profile Shot", "mood": ["sterile", "liminal"], "director_intent": "Show the hard edge of the simulated reality.", "start_image_keywords": ["ocean boundary", "white grid wall"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_BOUNDARY", "props": ["PROP_WALL_GRID"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Low angle shot at a shoreline. A massive, violent ocean wave hits an invisible vertical wall and flattens completely against it like a texture on glass. On the other side of the line, dry white sand is perfectly undisturbed. A faint hexagonal orange grid pattern appears at the impact point. Surreal contrast, 9:16 aspect ratio.
+Profile shot of a surreal boundary line. On the left, dark black ocean waves. On the right, a perfect, infinite vertical wall emitting a soft white light with a faint grid pattern. The water presses flat against the wall like a texture map on a polygon, not splashing but sliding up. High contrast, liminal space aesthetic, 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Subject:** Ocean Wave vs Sand.
+**Subject:** The Boundary. **Contrast:** Organic chaos vs Digital order.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**N/A:** Physics anomaly.
+**N/A:** Architectural anomaly.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Shoreline. **Physics:** Hard collision boundary.
+**Location:** The edge of the map. **Physics:** Hard collision limit.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting:** Stormy sea side vs calm sand side. **VFX:** Orange hexagonal grid flash on impact.
+**Lighting:** Glow from the white wall illuminating the black water.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Low Angle, ground level. **Movement:** Static, observing the unnatural collision.
+**Camera:** 50mm Profile Shot. **Focus:** The sharp line where water meets wall.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy impact thud, like a body hitting thick glass. No splashing sound on the sand side.
+Low electrical hum, like a large refrigerator or neon sign.
 
-## [ACT III] [SCENE 3.1] [Timecode: 00:45-00:50] [THE PURGE]
-**Action:** Henoch raises a hand. The storm freezes instantly. The "Kings" shatter into raw light particles.
-**Dialog:** -
+## [ACT III] [SCENE 3.2] [Timecode: 00:51-00:56] [AUDITOR REPORT]
+**Action:** Henoch walks towards the camera. His skin is fully transparent now (`MATTE_GLASS`). We see the blue light pulsing in his neck.
+**Dialog:** Henoch (Direct Address): "Sitzung beendet."
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "full_body", "environment": "Ship Deck", "env_change": false, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}, {"name": "Kings", "phase": "PROXY", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Wide Symmetrical", "mood": ["divine", "final"], "director_intent": "The execution of the system command.", "start_image_keywords": ["Henoch hand raise", "shattering sailors"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "POSE_COMMAND_HAND", "env_id": "ENV_SHIP_DECK", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Boundary Wall", "env_change": false, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Dolly In", "mood": ["final", "divine"], "director_intent": "The administrator closes the ticket.", "start_image_keywords": ["Henoch glass skin", "glowing neck"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POSE_WALK_TOWARDS", "env_id": "ENV_BOUNDARY", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "henoch_session_ended", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 2}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide symmetrical shot of Henoch on the ship deck, raising one hand in a command gesture. The storm rain is frozen in mid-air. The glitching sailors are shattering into millions of bright white light particles (voxels). High contrast, dramatic backlighting, divine tech atmosphere, 9:16 aspect ratio.
+Close-up of Henoch walking slowly towards the camera. His skin is now fully transparent matte glass. Inside his neck and face, we can clearly see a complex structure of glowing blue fiber-optic cables pulsing with light. His expression is neutral and devoid of human emotion. The background is the sterile white grid wall. 85mm lens, depth of field, 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Subject:** Henoch. **Action:** Raising hand. **Target:** Sailors.
+**Subject:** Henoch. **Skin:** Transparent Silicate. **Internals:** Glowing blue vascular hardware.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
 **Gear:** Exosuit.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Ship Deck. **Event:** Time freeze and particle disintegration.
+**Location:** White Grid Boundary.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting:** Bright white light from the shattering figures.
+**Lighting:** Soft, diffused white light from the wall.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Wide Symmetrical. **Movement:** Freeze frame effect, camera moves slightly in 3D space (bullet time).
+**Camera:** Dolly In. **Focus:** The internal light in his neck.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sudden, absolute silence. A vacuum sound sucking away all noise.
+Henoch's voice: "Sitzung beendet." Cold, resonant, metallic.
 
-## [ACT III] [SCENE 3.2] [Timecode: 00:50-00:55] [STABILIZATION]
-**Action:** The black data-blocks melt back into realistic water. The ship hull solidifies and floats properly.
+## [ACT III] [SCENE 3.3] [Timecode: 00:56-01:00] [DE-REZ]
+**Action:** The scene de-rezzez layer by layer. First lighting, then textures, then geometry, leaving only Henoch in a void.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Ocean Sector Calm", "env_change": true, "actors": [], "props": ["Ship Hull"], "camera": "Time-Lapse Flow", "mood": ["calm", "restored"], "director_intent": "Visualizing the restoration of system integrity.", "start_image_keywords": ["melting voxels", "calm water"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_OCEAN_CALM", "props": ["PROP_SHIP_RESTORED"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Void", "env_change": true, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Static Wide", "mood": ["empty", "dark"], "director_intent": "Visualizing the shutdown of the rendering engine.", "start_image_keywords": ["wireframe transition", "void"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "POSE_STATIC_VOID", "env_id": "ENV_VOID", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-The black obsidian cubes of the glitching wave are melting down into clear, realistic blue water. The wooden ship hull looks solid and wet, floating naturally. The storm clouds are breaking, revealing starlight. Smooth textures, calming blue and black palette, high fidelity, 9:16 aspect ratio.
+Abstract shot of Henoch standing in darkness. The world around him is stripping away. To his left, realistic lighting; to his right, only unlit gray geometry and wireframes. The darkness of the void is encroaching from the edges, consuming the scene. Conceptual tech art, game engine debug view, 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Subject:** Water and Ship. **Action:** Restoration.
+**Subject:** Henoch in the Void.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**N/A:** Environmental repair.
+**N/A.**
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Ocean. **Physics:** Returning to normal fluid dynamics.
+**Location:** The Void. **Event:** Assets disappearing.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting:** Soft moonlight. **Texture:** Smooth water surface.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Static wide. **Movement:** Morphing/Time-lapse style transition from blocky to smooth.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Clean, fluid rushing sound of water. Gentle waves.
-
-## [ACT III] [SCENE 3.3] [Timecode: 00:55-00:60] [VERDICT]
-**Action:** Extreme Close-Up on Henoch. The scrolling text on his face stops. A single Ge'ez symbol for "DELETE" burns on his forehead.
-**Dialog:** Henoch: "Integrität wiederhergestellt."
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Ocean Sector Calm", "env_change": false, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Macro Zoom", "mood": ["final", "clean"], "director_intent": "The final log entry.", "start_image_keywords": ["Henoch face", "delete symbol"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POSE_FACE_SERENE", "env_id": "ENV_OCEAN_CALM", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "henoch_integrity_restored", "pose_source": "", "driver_notes": "Subtle expression change"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme close-up of Henoch's face, calm and serene. The scrolling text is gone. A single, bright burning Ge'ez symbol (meaning DELETE) glows on his forehead. His skin is less translucent, more solid. 85mm lens, sharp focus, cool blue lighting, 9:16 aspect ratio.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Subject:** Henoch. **Expression:** Neutral, finalized.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Face:** Glowing Ge'ez symbol on forehead.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Background:** Dark calm ocean bokeh.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting:** Cool, clean light.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Slow Zoom In. **Focus:** The symbol on the forehead.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Henoch's voice, clear and resonant: "Integrität wiederhergestellt."
-
-## [ACT III] [SCENE 3.4] [Timecode: 00:60-00:65] [EGRESS]
-**Action:** Henoch dissolves into a vertical stream of golden binary code. The camera lingers on the calm, perfect ocean.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Ocean Sector Calm", "env_change": false, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Static Wide", "mood": ["peaceful", "empty"], "director_intent": "Exit the scene, leaving a clean state.", "start_image_keywords": ["golden code", "dissolve"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "POSE_DISSOLVE", "env_id": "ENV_OCEAN_CALM", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide shot of the calm ocean at night. Henoch's form is dissolving into a vertical stream of golden binary code and light particles, ascending into the sky. The water is perfectly flat and reflective. Peaceful, spiritual tech aesthetic, 9:16 aspect ratio.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Subject:** Henoch. **Action:** Dissolving.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**VFX:** Body turning into golden data stream.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Calm Ocean.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting:** Golden light from the dissolution reflecting on water.
+**Lighting:** Fading from realistic to flat to black.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
 **Camera:** Static Wide. **Transition:** Fade to Black.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Low frequency hum fading out. Gentle water lapping.
+Terminal log-off sound (Windows XP shutdown but deeper and scarier).
+
+## [ACT III] [SCENE 3.4] [Timecode: 01:00-01:04] [LOG ENTRY]
+**Action:** A single command prompt cursor blinks in the darkness. Text appears: `> PURGE_COMPLETE`.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "interface", "shot_type": "insert", "framing": "extreme_close_up", "environment": "Terminal Screen", "env_change": false, "actors": [], "props": [], "camera": "Macro Screen", "mood": ["final", "text"], "director_intent": "The final system confirmation.", "start_image_keywords": ["command prompt", "purge complete"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_TERMINAL", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Macro shot of an old CRT monitor screen in the dark. A single green blinking cursor and the text "> PURGE_COMPLETE". Visible RGB pixel sub-structure of the screen. Retro-tech aesthetic, 9:16 aspect ratio.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+**Subject:** Text. **Content:** "> PURGE_COMPLETE".
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+**N/A.**
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+**Location:** Screen.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+**Lighting:** Green phosphor glow.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+**Camera:** Macro. **Animation:** Blinking cursor.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Mechanical keyboard typing sounds. Click-Click-Click.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.4","text":"Systemprüfung initiiert.","words_max":5},{"scene":"3.3","text":"Integrität wiederhergestellt.","words_max":5}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"2.1","text":"System-Integrität: Kompromittiert.","words_max":4},{"scene":"2.4","text":"Lösche korrupte Elemente.","words_max":3},{"scene":"3.2","text":"Sitzung beendet.","words_max":2}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

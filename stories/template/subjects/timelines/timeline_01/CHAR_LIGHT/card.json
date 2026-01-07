@@ -3,48 +3,67 @@
   "name": "Light",
   "type": "character",
   "card": {
-    "description": "A manifestation of coherent, solid-state photonic matter. This is not ambient illumination but a hard, physical projection of ancient technology. It acts as a structural element, displacing atmosphere and ionizing particulate matter. A 'Solid Light' beam used by the Watchers, appearing as a massive, geometrically perfect column that connects the celestial to the terrestrial, capable of physical interaction and data transmission.",
+    "description": "Light, the celestial emissary of the ancient‑tech realm, manifests as a towering crystalline humanoid. Its form is composed of interlocking quartz‑like facets etched with flowing Ethiopian script and Egyptian hieroglyphs that glow in a spectrum of blues and golds. A steady white hard‑light pulses from a crystalline core, projecting beams that carve the surrounding air into crystalline lattices. The entity embodies the fusion of ancient mysticism and incomprehensible technology, appearing as both a natural element and a sentient being.",
     "tags": [
-      "solid_light",
-      "particle_beam",
-      "ancient_tech",
-      "atmospheric_anomaly",
-      "industrial_mysticism",
-      "volumetric_density"
+      "light",
+      "luminescent",
+      "ancient-tech",
+      "crystalline",
+      "glyphs",
+      "bioluminescent",
+      "hard‑light",
+      "mystic",
+      "photorealistic",
+      "cinematic",
+      "tactile"
     ],
     "visual_anatomy": [
-      "**Core Form:** A geometrically perfect, opaque cylinder or cone of blinding white luminance. It has distinct edges, lacking the soft falloff of natural light.",
-      "**Texture/Medium:** The air surrounding the light is thick with 'frozen dust'—suspended particles caught in the static charge of the beam.",
-      "**Interaction:** Where the light touches ground (obsidian/rock), the surface is not just lit but vitrified or heating rapidly. No diffusion; shadows are razor sharp.",
-      "**Color Palette:** Absolute white core (RGB 255,255,255) grading into faint ultra-violet or gold corruption at the very fringe of the coherence field."
+      "**Body/Form:** 2.5‑meter tall silhouette of interlocking quartz facets, each facet etched with flowing Ethiopian script and Egyptian hieroglyphs that glow in blues and golds. The facets refract ambient light, creating a prismatic halo. The silhouette is humanoid, with elongated limbs tapering into crystalline tendrils.",
+      "**Face/Sensors:** Smooth translucent crystal dome with a central iris‑like luminescent sphere that pulses in sync with the core. Embedded micro‑glyphs act as sensors, shifting patterns in response to environmental stimuli.",
+      "**Clothing/Armor:** No conventional clothing; a mantle of hard‑light threads drapes over the form, forming dynamic patterns of ancient motifs that ripple like a living tapestry. The threads are woven from sub‑atomic photons, giving them a tactile, silk‑like sheen.",
+      "**Key Features:** Crystalline core emitting steady white hard‑light, bioluminescent veins along limbs, hard‑light cables projecting from shoulders, lattice of glyphic sigils glowing brighter when active."
     ],
     "evolution": [
-      "Phase 1 (Default): The Solid Beam. A static, monolithic column of light acting as an elevator or data link. Heavy, humming, and physical."
+      "Phase 1 (Initial Manifestation): Light first appears as a diffuse ambient glow that coalesces into a faint crystalline lattice. The lattice slowly organizes into a humanoid silhouette, with facets forming and aligning.",
+      "Phase 2 (Full Manifestation): The crystalline lattice fully solidifies, glyphs illuminate, the core pulses, and hard‑light cables extend, projecting beams that carve the environment into crystalline structures."
     ],
-    "props": [],
+    "props": [
+      "Item: Crystalline lattice core – a dense, white quartz core emitting hard‑light.",
+      "Item: Glyphic sigil threads – fine strands of bioluminescent light forming ancient motifs."
+    ],
     "prompt_keywords": [
-      "solid light beam",
-      "coherent photons",
-      "volumetric density",
-      "suspended dust particles",
-      "hard edge lighting",
-      "tyndall effect",
-      "ionizing radiation",
-      "architectural beam"
+      "crystalline",
+      "luminescent",
+      "ancient",
+      "Ethiopian",
+      "Egyptian",
+      "glyphs",
+      "hard‑light",
+      "bioluminescence",
+      "photorealistic",
+      "cinematic",
+      "tactile"
     ],
-    "prompt_block": "cinematic macro shot of a solid light beam, absolute white opaque column of light cutting through darkness, heavy volumetric atmosphere, suspended dust particles frozen in mid-air near the beam edge, razor sharp geometric edges, heat shimmer, ground vitrification at contact point, ancient industrial mysticism, 8k, photorealistic, unreal engine 5 render, tactile atmosphere",
+    "prompt_block": "A towering 2.5‑meter crystalline humanoid, its facets etched with flowing Ethiopian script and Egyptian hieroglyphs that glow in blues and golds, refracting ambient light into a prismatic halo. The smooth crystal dome face features a pulsing iris‑like luminescent sphere, while bioluminescent veins trace the limbs. Hard‑light cables extend from the shoulders, projecting beams that carve the air into crystalline lattices. The entity is surrounded by a mantle of dynamic hard‑light threads forming living ancient motifs, all rendered in photorealistic, 8k cinematic detail with high‑contrast rim lighting and tactile textures.",
     "phase_prompts": [
       {
         "state_id": "default",
-        "label": "The Beam",
-        "summary": "A vertical column of solid light acting as a physical structure.",
+        "label": "Default",
+        "summary": "Default manifestation of Light as a crystalline humanoid with glowing glyphs.",
         "prompt_keywords": [
-          "solid light column",
-          "frozen dust",
-          "opaque beam",
-          "geometric light"
+          "crystalline",
+          "luminescent",
+          "ancient",
+          "Ethiopian",
+          "Egyptian",
+          "glyphs",
+          "hard‑light",
+          "bioluminescence",
+          "photorealistic",
+          "cinematic",
+          "tactile"
         ],
-        "prompt_block": "cinematic shot of a massive vertical beam of solid light, opaque white luminance, cutting through the desert night, ionizing dust particles floating frozen in the air, hard geometric edges, ancient industrial sci-fi aesthetic, vitrified ground at contact point, high contrast, 8k, photorealistic"
+        "prompt_block": "A towering 2.5‑meter crystalline humanoid, its facets etched with flowing Ethiopian script and Egyptian hieroglyphs that glow in blues and golds, refracting ambient light into a prismatic halo. The smooth crystal dome face features a pulsing iris‑like luminescent sphere, while bioluminescent veins trace the limbs. Hard‑light cables extend from the shoulders, projecting beams that carve the air into crystalline lattices. The entity is surrounded by a mantle of dynamic hard‑light threads forming living ancient motifs, all rendered in photorealistic, 8k cinematic detail with high‑contrast rim lighting and tactile textures."
       }
     ]
   },

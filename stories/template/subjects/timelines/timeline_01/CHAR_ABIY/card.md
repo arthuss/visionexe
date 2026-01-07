@@ -1,30 +1,30 @@
 ## [CHARACTER] Abiy (ID: CHAR_ABIY)
-**Description:** Abiy is a weathered technician-scribe of Ethiopian descent, a figure bridging the gap between ancient human tradition and the humming, incomprehensible machinery of the Watchers. He carries the weary stoicism of someone who interprets technologies that should not exist.
-**Tags:** #character #ethiopian #scribe #technician #industrial_mysticism #cybernetic_subtle
+**Description:** Abiy is a stoic guardian of an ancient‑tech sanctum, blending the austere elegance of Ethiopian stonework with the enigmatic circuitry of forgotten cosmology. His presence is both a relic and a conduit, bearing bio‑luminescent glyphs that pulse with the rhythm of the earth.
+**Tags:** #ancient-tech #industrial-mysticism #Ethiopian-Egyptian #photorealistic #tactile #mystic-guardian
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Lean, ascetic build with wiry strength; dark, luminous amber skin texturized by wind and engine grease.
-*   **Face/Sensors:** Sharp, defined cheekbones and a short, well-kept peppercorn beard. His left eye is obscured by a 'Tech-Monocle'—a brass and crystalline ocular loupe held in place by leather straps, glowing faintly with amber data streams.
-*   **Clothing/Armor:** Wears layered robes of rough-spun organic cotton in dusty ochre and terracota, reinforced with a heavy, rubberized industrial apron. The fabric is woven with subtle metallic threads (Faraday-mesh) and cinched with a utility belt full of pouches.
-*   **Key Features:** His hands are stained with a permanent mix of calligraphy ink and synthetic lubricants. He moves with calculated precision.
+*   **Body/Form:** Sculpted torso of basaltic composite, layered with interlocking plates of hammered obsidian and polished copper alloy. The limbs are elongated, jointed with brass gears that hum faintly. Skin is a translucent, iridescent membrane that reveals faint circuitry beneath, glowing with a soft amber bioluminescence.
+*   **Face/Sensors:** Facial structure carved from polished granite, with a central ocular aperture that houses a crystalline lens. The eye emits a steady violet glow, surrounded by etched glyphs that shift like runic code. Subdermal sensors trace the pulse of ambient energy, visible as faint phosphorescent lines.
+*   **Clothing/Armor:** A flowing mantle of woven silk dyed in deep indigo, embroidered with silver thread depicting ancient hieroglyphs. Beneath, a cuirass of reinforced titanium alloy etched with Ethiopian motifs, reinforced with a lattice of living crystal that refracts light into prismatic patterns.
+*   **Key Features:** A bio‑luminescent sigil etched along the spine, pulsing in sync with the earth's magnetic field. A pair of articulated gauntlets that channel energy into a crystalline staff, which is embedded with a pulsating sapphire core. The entire ensemble is anchored by a set of heavy, rune‑etched bronze boots that leave faint scorch marks on the ground.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): The standard appearance of a working scribe in the field, equipped for both reading ancient texts and repairing high-tech conduits.
+*   Phase 1 (Initial): Abiy emerges as a sentinel, wearing basic basaltic armor and a simple obsidian staff. His bio‑luminescent glyphs are faint, and his crystalline hardware is rudimentary.
+*   Phase 2 (Advanced): After absorbing the sanctum's energies, Abiy's armor becomes fully integrated with living crystal, his staff expands into a multi‑core energy conduit, and his glyphs glow brighter, projecting holographic sigils.
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Haptic Stylus (bronze casing, light-nib)
-*   Item: Crystalline Tablet (slate-like device displaying glowing glyphs)
-*   Item: Brass Calipers (hanging from belt)
+*   Item: Obsidian Staff with embedded sapphire core
+*   Item: Amulet of Glyphs (a silver pendant with etched runes)
 
 ### 4. AI PROMPT KEYWORDS
-`Abiy`, `Ethiopian male`, `technician scribe`, `ancient-tech`, `industrial mysticism`, `ocular loupe`, `weathered robes`, `ochre and copper`, `cinematic lighting`, `hyperrealistic`, `Arri Alexa`, `volumetric dust`
+`ancient-tech`, `Ethiopian-Egyptian`, `crystalline armor`, `bio-luminescent glyphs`, `industrial mysticism`
 
 ### 5. PROMPT BLOCK (T2I)
-Medium shot of Abiy, an Ethiopian technician-scribe, leaning over a workbench in a dim, ancient industrial temple. He has dark amber skin and a short peppercorn beard. His left eye is covered by a complex brass and crystal ocular loupe with faint amber luminescence. He wears layered, dusty ochre robes beneath a heavy, rubberized apron filled with tools. The lighting is low-key, highlighting the texture of his skin and the metallic threads in his clothing. Atmosphere is heavy with dust and the glow of unknown machinery. Photorealistic, 8k, cinematic composition, tactile textures.
+A photorealistic, cinematic depiction of Abiy, a stoic guardian of an ancient‑tech sanctum, wearing basaltic composite armor etched with Ethiopian motifs, a flowing indigo mantle embroidered with silver hieroglyphs, and a crystalline staff pulsing with a sapphire core. His translucent skin reveals faint circuitry, and bio‑luminescent glyphs glow along his spine and face, shifting like runic code. The scene is set in a dimly lit, stone‑walled chamber with industrial machinery humming in the background, emphasizing grounded realism and tactile textures.
 
 ### 6. PHASE PROMPTS
-*   **Default:** Standard technician-scribe appearance with ocular gear and working robes.
-    Prompt: Full body shot of Abiy, Ethiopian man, standing in a corridor of black basalt and copper pipes. He wears dusty ochre robes and a heavy rubberized apron. A brass ocular device is strapped over his left eye. He holds a glowing crystalline tablet in one oil-stained hand. The environment is dark, lit by the bioluminescent glow of the tablet and distant machinery. Cinematic, gritty, realistic textures, highly detailed cloth and skin.
-    Keywords: working, ocular loupe, industrial apron, intense focus
+*   **Default:** Initial state of Abiy as a guardian in the sanctum.
+    Prompt: A photorealistic, cinematic depiction of Abiy standing in a dimly lit, stone‑walled chamber. He wears basaltic composite armor etched with Ethiopian motifs, a flowing indigo mantle embroidered with silver hieroglyphs, and holds a crystalline staff with a sapphire core. His translucent skin reveals faint circuitry, and bio‑luminescent glyphs glow along his spine and face, shifting like runic code. Industrial machinery hums in the background, emphasizing grounded realism and tactile textures.
+    Keywords: ancient-tech, Ethiopian-Egyptian, crystalline armor, bio-luminescent glyphs
 
 ---

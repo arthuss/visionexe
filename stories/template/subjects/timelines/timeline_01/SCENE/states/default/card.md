@@ -1,0 +1,10 @@
+## [STATE] ጠፈሩ፡መ፡ሩፀተ፡ዋብት፡ :: Default
+**State ID:** default
+**Chapters:** 14 - 103
+
+**Phase Summary:** Engine in full operation within subterranean temple
+**Phase Keywords:** obsidian, crystalline-core, glyphs, bio-luminescence, Ethiopian, Egyptian, industrial, photorealistic, tactile
+**Phase Prompt:**
+In the heart of the subterranean temple, the colossal obsidian engine hums, its translucent green core pulsing with bio‑luminescent light, ancient Ethiopian and Egyptian glyphs shifting amber and blue across brass panels, a stone pedestal’s gear system turning slowly, dust swirling in torchlit shafts, dramatic chiaroscuro reflecting off polished brass, cinematic, photorealistic, tactile, industrial mysticism.
+
+---

@@ -3,55 +3,67 @@
   "name": "Le'alam",
   "type": "character",
   "card": {
-    "description": "Le'alam, the Eternal Witness, appears as a towering fusion of geological permanence and incomprehensible processing power. Acting as a sentinel entity, its form suggests a living statue carved from meteoric iron and polished basalt, housing a radiant, heat-generating core.",
+    "description": "Le'alam is a towering sentient construct standing 12 m tall, forged from basalt and obsidian plates fused with copper and quartz lattices. Its surface is etched with ancient Ethiopian and Egyptian glyphs that pulse with bioluminescent light when activated. The entity's core houses a crystalline lattice that emits a soft azure glow, while steam vents hiss faintly from its joints, hinting at hidden machinery. Le'alam moves with deliberate, measured steps, each footfall resonating like distant thunder. Its presence exudes an aura of ancient mysticism intertwined with incomprehensible technology, embodying the fusion of time‑honored culture and advanced engineering.",
     "tags": [
-      "entity",
       "ancient-tech",
-      "sentinel",
-      "obsidian",
       "industrial-mysticism",
-      "guardian",
-      "faceless"
+      "Ethiopian",
+      "Egyptian",
+      "sentient-construct",
+      "crystalline-glyphs",
+      "bioluminescent",
+      "photorealistic",
+      "tactile"
     ],
     "visual_anatomy": [
-      "**Body/Form:** 2.3-meter frame encased in segmented, heavy plating that mimics the texture of volcanic glass and weathered bronze. The chassis is non-humanoid in proportion, with elongated limbs and a dense, gravity-anchored torso.",
-      "**Face/Sensors:** A monolithic, cowl-like head structure with no mouth or nose. The 'face' is a concave dish of matte Vantablack material, centered by a single, vertical aperture that emits a scanning laser-grid in deep crimson.",
-      "**Clothing/Armor:** Draped in heavy, oil-stained layered linens reminiscent of ancient mummification wraps, secured by oxidized copper cabling. The fabrics are weighed down by gravity-glyphs etched into lead weights at the hems.",
-      "**Key Features:** Sub-dermal heat vents release periodic bursts of steam/vapor. The entity does not walk but glides slightly above the ground using anti-gravitic nodes located in the shins."
+      "**Body/Form:** 12‑meter basalt‑obsidian composite with copper‑quartz lattice, layered plates, steam vents.",
+      "**Face/Sensors:** No facial features; sensor arrays are bioluminescent glyphs and crystalline lenses embedded in the surface.",
+      "**Clothing/Armor:** The body itself functions as armor; no external garments.",
+      "**Key Features:** Glowing runic glyphs, pulsating crystal core, faint steam emissions, deliberate step mechanics."
     ],
     "evolution": [
-      "Phase 1 (Default): The entity is in its standard monitoring state. Heat vents are closed, optical aperture is dim red, and the posture is rigid and observational."
+      "Phase 1 (Dormant): Le'alam is inert, stone‑like, glyphs dim, no movement.",
+      "Phase 2 (Active): Le'alam is fully activated, glyphs glow, core emits azure light, it moves with measured steps."
     ],
     "props": [
-      "Item: The Giza-Key - A heavy, stone-tech slab resembling an ankh but composed of circuitry and fiber-optics.",
-      "Item: Data-Censer - A swinging thurible that emits data-fog instead of incense."
+      "Item: Obsidian Tablet with etched glyphs",
+      "Item: Crystalline Core housing the bioluminescent lattice"
     ],
     "prompt_keywords": [
-      "Le'alam",
-      "ancient cyborg",
-      "volcanic glass armor",
-      "crimson sensor eye",
-      "ethiopian technological aesthetic",
-      "industrial sci-fi",
-      "heavy linen robes",
-      "atmospheric smoke",
-      "cinematic",
-      "unreal engine 5"
+      "ancient-tech",
+      "Ethiopian",
+      "Egyptian",
+      "stone",
+      "obsidian",
+      "crystalline",
+      "glyphs",
+      "bioluminescent",
+      "sentient-construct",
+      "photorealistic",
+      "tactile",
+      "industrial-mysticism"
     ],
-    "prompt_block": "Cinematic full shot of Le'alam, a massive ancient-tech entity. The character has a body of polished black volcanic glass and weathered bronze components. Its face is a void with a vertical red laser slit. It wears heavy, oil-stained linen wraps secured with copper cables. It floats slightly off the ground in a dusty, dimly lit ancient industrial chamber. Atmospheric steam, intricate mechanical details, harsh shadows, photorealistic, 8k.",
+    "prompt_block": "A towering 12‑meter sentient construct made of basalt and obsidian plates fused with copper and quartz lattices, etched with ancient Ethiopian and Egyptian glyphs that pulse with bioluminescent light, a crystalline core emitting an azure glow, steam vents hissing faintly, moving with deliberate steps, photorealistic, tactile, cinematic, grounded realism, industrial mysticism, ancient‑tech fusion",
     "phase_prompts": [
       {
         "state_id": "default",
-        "label": "Default",
-        "summary": "Le'alam in its standard sentinel mode, observing silently.",
+        "label": "Active",
+        "summary": "Le'alam fully activated, glyphs glowing, moving with deliberate steps.",
         "prompt_keywords": [
-          "Le'alam",
-          "idle state",
-          "vertical red eye",
-          "black glass armor",
-          "ancient robes"
+          "ancient-tech",
+          "Ethiopian",
+          "Egyptian",
+          "stone",
+          "obsidian",
+          "crystalline",
+          "glyphs",
+          "bioluminescent",
+          "sentient-construct",
+          "photorealistic",
+          "tactile",
+          "industrial-mysticism"
         ],
-        "prompt_block": "Le'alam standing guard, medium-long shot. The entity's black glass armor reflects the low light. The vertical red eye slit is glowing faintly. Heavy linen robes hang still. Background of ancient stone walls with tech-etchings. Moody lighting, sharp focus, texture-heavy, 8k."
+        "prompt_block": "A towering 12‑meter sentient construct made of basalt and obsidian plates fused with copper and quartz lattices, its surface etched with ancient Ethiopian and Egyptian glyphs that pulse with bioluminescent light, a crystalline core emitting an azure glow, faint steam vents hissing from its joints, moving with deliberate, measured steps, photorealistic, tactile, cinematic, grounded realism, industrial mysticism, ancient‑tech fusion"
       }
     ]
   },

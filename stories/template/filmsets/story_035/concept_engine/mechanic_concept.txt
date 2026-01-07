@@ -1,56 +1,62 @@
-CONCEPT: WESTERN_SYSTEM_BOUNDARY_INSPECTION
+CONCEPT: WESTERN_SYSTEM_BOUNDARY_INSPECTION_V2
 
 1. BIO-INJECTION
-Enochs visuelles Cortex-Interface wird übertaktet ("Overclocking"), um die Render-Grenze der Simulation wahrzunehmen. Seine Iris leuchtet in einem warnenden Amber-Ton (System-Diagnose-Modus). Feine, geometrische Lichtlinien (HUD-Gitter) projizieren sich direkt auf seine Netzhaut, um die Koordinaten der drei Tore zu vermessen. Seine Haut zeigt leichte "Lag-Artefakte" (Ghosting), da er sich am Rand des verarbeitbaren Raums befindet.
+Enochs biologische Hülle tritt in den "Diagnostic Mode". Seine Iris zieht sich auf Punktgröße zusammen, während die Sklera (Augapfel) vollständig schwarz wird und weiße ISO-Linien projiziert. Auf seiner Hautoberfläche bilden sich temporäre QR-ähnliche Daten-Cluster (Texture-Mapping-Artefakte), da der lokale VRAM am Rande der Karte begrenzt ist. Sein Atem kondensiert nicht natürlich, sondern zerfällt in Pixel-Wolken, die sofort de-spawnen. Er ist hier kein Bewohner, sondern ein Cursor.
 
 2. MESH-BREAK
-Das "Ende der Erde" ist wörtlich zu nehmen: Die Texturen des Bodens hören abrupt auf und gehen in ein unendliches, schwarzes Gitter (Null-Raum) über. Der Himmelshintergrund zeigt Tearing-Effekte und sichtbare Voxel-Blöcke, wo die Wolken-Simulation auf die Skybox-Wand trifft. Die Geometrie der Tore selbst ist hyper-perfekt, kontrastiert aber mit der zerfallenden Umgebung am Rand der Map.
+Die "Ränder der Erde" (Tsinafa midr) sind keine Klippe, sondern ein Render-Limit. Der Boden unter Enochs Füßen verliert drastisch an Polygonen (LOD-Drop), wird flach und texturlos (Default Grey Grid). Die "Drei Tore" sind keine Steinbögen, sondern gigantische, schwebende Heatsinks (Kühlkörper) aus schwarzem monolithischem Material, die in den leeren Raum ("Null_Space") ragen. Um sie herum flimmert die Realität (Z-Fighting), wo die Skybox unsauber an die Geometrie anschließt.
 
 3. PACING-STRATEGIE
-Langsam, majestätisch, technisch. "Inspection Mode".
-Ruhige, gleitende Kamerafahrten (Slider-Shots), die die massive Skala der Tore abtasten.
-Jeder Schnitt ist präzise, wie das Umschalten zwischen Überwachungskameras.
-Keine Hektik. Der Betrachter soll die Symmetrie und die technische Notwendigkeit der Anlage verstehen.
+Technisch, prüfend, redundant.
+Der Rhythmus folgt einem strikten Checksum-Protokoll:
+1. Erfassung (Wide Shot)
+2. Analyse (POV mit Overlay)
+3. Verifikation (Close-Up auf Enoch).
+Die Kameraführung ist statisch oder führt nur extrem langsame, mechanische Schwenks (Dolly) auf Schienen aus. Keine Handkamera-Wackler. Absolute Stabilität suggeriert absolute Systemkontrolle.
 
 4. AUDIO-DESIGN
-Dominant: Das tiefe, physische Dröhnen von massiven Luftverdrängungs-Systemen (Industrial Ventilation).
-Subtil: Ein hochfrequentes "Coil Whine" (Spulenfiepen), das anzeigt, dass diese Tore unter Hochspannung stehen.
-Keine Musik, nur der "Sound of Infrastructure".
+Kein Wind, sondern "White Noise" (Weißes Rauschen) als Grundteppich.
+Dominant: Ein tiefes, rhythmisches Pochen (0.5 Hz), wie ein riesiges Herzschlag-Signal des Servers.
+Wenn Enoch die Tore fokussiert: Das Geräusch alter Festplatten-Schreibköpfe (Data-Scrubbing), verstärkt und verlangsamt zu einem metallischen Kratzen.
+Die "Ausgänge" emittieren einen konstanten, tiefen Sinus-Ton, der physischen Druck auf den Ohren erzeugt.
 
 5. ÜBERGÄNGE
-Eintritt: Hard Cut aus dem vorherigen Sektor. Ein digitaler "Glitch-Wipe" (Datamoshing), der Enoch von der Wüste direkt auf die Plattform am West-Rand versetzt.
-Visueller Marker: Ein kurzes "Buffering"-Symbol oder ein Koordinaten-Overlay, das sich einpendelt.
+Node-Switching. Enoch läuft nicht. Der Hintergrund wird "ausgetauscht" (Texture-Swap).
+Er steht still, während die Umgebung um ihn herum von "Wüste" auf "System-Rand" umschaltet.
+Der Übergang ist ein harter "LOD-Pop" – erst low-res, dann laden die Texturen der Tore nach.
 
 6. FRAMEWORK & TIMING
-Gesamtlänge: 60 Sekunden.
-Clip-Anzahl: 14-16 Clips.
-Struktur:
-- Clips 1-3: Materialisierung & Orientierung (Enoch scannt den Horizont).
-- Clips 4-8: Reveal der drei massiven Tore (Weitwinkel, Panorama).
-- Clips 9-12: Detail-Inspektion (Enoch berührt die Struktur, HUD-Abgleich mit Ost-Daten).
-- Clips 13-16: Blick durch die Tore in den "Ausgang" (Outlets) und System-Bestätigung.
+Gesamtlänge: 75 Sekunden (erhöht für Detailgenauigkeit).
+Clip-Anzahl: 15 Clips (3 Blöcke à 5 Clips).
+Block A: The Arrival (LOD-Pop, Umgebungsscan, Mesh-Break Realisation).
+Block B: The Inspection (Vergleich Ost-Daten vs. West-Realität, Zoom auf Tore).
+Block C: The Verification (Enoch bestätigt Symmetrie, System-Log Update).
 
 7. DIALOG-CHECK
-Monolog (Internal Log): Enoch bestätigt die Redundanz.
-"Sektor West. Drei Ports. Status: Offen. Symmetrie zu Ost-Sektor: 100%."
-Shot-Reverse-Shot ist hier nötig: Enoch blickt (Shot 1) -> POV durch das Tor (Shot 2) -> Enochs Reaktion/Bestätigung (Shot 3).
+Ja, Monolog ist essentiell für die Bestätigung der Symmetrie.
+Enoch (Internal Log): "Lade Ost-Konfiguration... Vergleiche... Sektor West: Symmetrie bestätigt. Drei Ports aktiv."
+Shot-Reverse-Shot erforderlich:
+Shot 1: Enoch (Medium) spricht/denkt.
+Shot 2: POV Enoch (Augmented Reality Overlay zeigt "EAST_GATES_TEMPLATE" über den realen West-Toren).
+Shot 3: Enoch (Close) nickt minimal. Iris-Scan beendet.
 
 8. SPATIAL CONTEXT (ARRIVAL)
-Node-Hop. Enoch tritt aus einer vertikalen Verzerrungslinie (wie ein Riss im Raum) auf eine flache, metallische Ebene.
-Establishing Shot: Extreme Totale. Enoch ist ein winziger leuchtender Punkt vor drei gigantischen, rechteckigen Öffnungen im Himmel, die wie schwarze Monolithen mit leuchtenden Rändern aussehen.
+Kein Flug. Ein "Position Reset". Enoch steht plötzlich am Rand.
+Establishing Shot: Enoch steht mit dem Rücken zur Kamera am äußersten Rand eines grauen Schachbrett-Bodens. Vor ihm: Das absolute Schwarz des Nichts, in dem die drei Tore als einzige Lichtquellen (Neon-Cyan Ränder) hängen. Die Skala ist erdrückend.
 
-9. PROMPT EXAMPLE (SCENE: THE GATES REVEAL)
+9. PROMPT EXAMPLE (SCENE: THE I/O SYMMETRY CHECK)
+
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Enoch (System Admin Build). Physique: Lean, synthetic musculature under translucent skin. Skin-Shader: ALABASTER_MATTE with subsurface scattering. Optics: AMBER_SCAN_ARRAYS. Eyes project a cone of amber laser-grid light onto the environment. Hair: Floating white fiber-optic strands, reacting to magnetic fields.
+Actor: Enoch (System Admin Build). Physique: Tall, androgenous perfection, synthetic skin imitating alabaster stone. Face: Emotionless, focused. Optics: DIAGNOSTIC_OVERLAY_EYES. Sclera is matte black, iris is a rotating white wireframe ring. Skin Detail: Faint geometric glitching on the cheekbones implies rendering instability. Hair: Short, static white pixel-strands, frozen in place.
 
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Garment: TECH_ROBE_V2. High-collar, sleeveless tunic made of smart-fabric that shifts from white to grey based on viewing angle. Primary Prop: DATA_SLATE_OBSIDIAN. A floating black glass tablet displaying a wireframe map of the 3 gates.
+Garment: BOUNDARY_SUIT_V1. A long, grey utilitarian coat made of heavy ballistic weave, referencing server-rack insulation material. Edges of the coat fray into digital noise. Primary Prop: None physically. AR-Interface: A massive, floating holographic grid projected from his eyes, filling the air in front of him with scrolling hexadecimal code in amber.
 
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Western_System_Perimeter. Architecture: Three colossal rectangular apertures (The Gates) floating in a void. Height: 500m. Material: Vantablack metal with neon-cyan rim lighting. Atmosphere: Thin, cold air, visible breath condensation. Background: The "World Border" - a dissolving wireframe grid fading into absolute darkness.
+Location: Western_Render_Limit. Architecture: Three colossal, rectangular "Null-Gates" floating in a void. They are void-black monoliths framed in harsh cyan utility light. Ground: The terrain ends abruptly in a jagged polygon edge, revealing a wireframe grid underneath. Background: Absolute digital darkness (The Void), no stars, just dead pixels.
 
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting Scheme: EDGE_OF_WORLD_COLD. Primary: Harsh, blue-white light emanating from the gates (The Outlets). Secondary: Amber glow from Enoch's eyes and tablet. Shadows: Long, sharp, unnatural shadows stretching towards the void.
+Lighting Scheme: SYSTEM_DEFAULT. Flat, even lighting with no specific sun source (Ambience only). Primary: Cyan rim-light from the Gates. Secondary: Amber glow from Enoch's AR-projection. Shadows: None (Shadow casting disabled at render distance). Palette: Greyscale, Cyan, Amber, Vantablack.
 
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Extreme Wide Shot (EWS) tilting up. Lens: 16mm Rectilinear. Focus: Infinite depth of field. Style: Kubrickian symmetry, sterile sci-fi aesthetic, Unreal Engine 5.4, 8k, slow majestic vertical pan.
+Camera: Over-The-Shoulder (OTS) looking at the Gates. Lens: 24mm Wide Angle. Focus: Deep focus capturing both the AR-Overlay code near the lens and the distant Gates. Style: Technical visualization, clean lines, high contrast, UE5 wireframe debug mode aesthetic blended with photorealism.

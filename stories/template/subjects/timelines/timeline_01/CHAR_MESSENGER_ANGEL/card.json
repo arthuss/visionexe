@@ -3,55 +3,67 @@
   "name": "Messenger (angel)",
   "type": "character",
   "card": {
-    "description": "A celestial courier of the heavenly host, functioning as a high-speed data transmission unit. The entity bridges the gap between biological perfection and industrial machinery, manifesting as a tall, lithe humanoid encased in protective ceremonial armor that doubles as an environmental suit. Its design interprets the concept of an 'angel' through the lens of incomprehensibly advanced ancient technology, featuring non-aerodynamic propulsion systems and sensory arrays disguised as religious iconography.",
+    "description": "A towering, photorealistic messenger angel forged from a fusion of ancient Ethiopian and Egyptian motifs with incomprehensible, industrial technology. The figure stands 2.8 meters tall, its form a seamless blend of obsidian armor plates etched with bio‑luminescent glyphs and polished bronze filigree. A crystalline halo of translucent quartz rises from its crown, refracting light into a spectrum of phosphorescent blues and golds. Its wings are not feathered but composed of interlocking copper alloy panels that flex with a subtle, humming resonance, each panel bearing etched hieroglyphs that pulse in sync with the angel’s bio‑luminescent veins. The messenger’s face is a serene mask of basalt, with ocular implants that glow faintly green, projecting holographic sigils into the air. Industrial mysticism is evident in the subtle steam vents along the armor’s seams and the faint glow of hidden circuitry, giving the angel an aura of ancient power and modern precision.",
     "tags": [
-      "character",
       "angel",
-      "techno-mysticism",
       "messenger",
-      "biomechanical",
-      "ancient-tech"
+      "ancient-tech",
+      "Ethiopian",
+      "Egyptian",
+      "industrial mysticism",
+      "photorealistic",
+      "tactile",
+      "bio-luminescent",
+      "crystalline",
+      "glyphs"
     ],
     "visual_anatomy": [
-      "**Body/Form:** Tall, elongated proportions (approx 2.5m). The skin appears to be a matte, ceramic-like composite in deep terracotta or obsidian tones, seamless and poreless.",
-      "**Face/Sensors:** The face is a rigid, serene mask of hammered gold or tarnished bronze. Eyes are absent, replaced by a single horizontal slit emitting a scanning laser grid or soft blue bioluminescence. No mouth; communication is telepathic or radio-frequency based.",
-      "**Clothing/Armor:** Draped in heavy, oil-stained robes made of ballistic weave that mimics ancient linen. The fabric is weighted with metallic circuit-embroidery in Ge'ez patterns. Shoulder cowls house atmospheric intakes.",
-      "**Key Features - Wings:** Not feathered. A complex array of six floating, detached gravitational slats behind the back. These 'wings' hum with energy and distort the air around them (heat shimmer), acting as propulsion field generators rather than airfoils."
+      "**Body/Form:** 2.8‑meter tall humanoid with a skeletal frame reinforced by obsidian plates and copper alloy ribs, joints articulated with hidden hydraulic pistons, and a faint steam plume emerging from the lower spine.",
+      "**Face/Sensors:** Basalt mask with green‑glowing ocular implants, a subtle bio‑luminescent vein network visible beneath the skin, and a small, translucent crystal embedded in the forehead that emits a soft, pulsing light.",
+      "**Clothing/Armor:** Polished bronze filigree panels interlaced with obsidian plates, each panel etched with ancient Ethiopian and Egyptian glyphs that glow in bio‑luminescent blue; a crystalline halo of quartz rises from the crown, refracting light; copper alloy wings with articulated panels that flex silently.",
+      "**Key Features:** Crystalline halo, bio‑luminescent glyphs, steam vents, copper alloy wings, holographic sigil projection, hidden circuitry, obsidian armor, basalt mask."
     ],
     "evolution": [
-      "Phase 1 (Default): The standard operational state. Wings idle in a halo formation behind the back. Robes are dust-covered from travel. The sensory slit is calm blue."
+      "Phase 1 (Conceptual): Raw skeletal form with exposed copper alloy ribs, minimal glyphs, and a simple obsidian shell.",
+      "Phase 2 (Final): Fully realized messenger with polished bronze filigree, bio‑luminescent glyphs, crystalline halo, and integrated industrial mysticism."
     ],
     "props": [
-      "Transmission Rod: A hexagonal cylinder of quartz and copper, glowing with internal data.",
-      "Data Tablet: A slab of black stone that creates holographic projections above its surface."
+      "Item: Celestial Scepter – a polished obsidian staff topped with a crystal that channels the angel’s sigils.",
+      "Item: Glyphic Tablet – a bronze tablet bearing ancient runes that the angel can project holographically."
     ],
     "prompt_keywords": [
-      "ancient ethiopian sci-fi",
-      "industrial angel",
-      "biomechanical courier",
-      "hammered bronze mask",
-      "ceramic skin",
-      "anti-gravity wings",
-      "floating metal slats",
-      "oil-stained linen",
-      "atmospheric sensors",
-      "cinematic lighting",
+      "ancient-tech",
+      "Ethiopian",
+      "Egyptian",
+      "angelic",
       "photorealistic",
-      "unreal engine 5"
+      "industrial mysticism",
+      "bio-luminescent",
+      "crystalline",
+      "glyphs",
+      "obsidian",
+      "copper alloy"
     ],
-    "prompt_block": "Cinematic full body shot of a celestial Messenger Angel, designed with an ancient Ethiopian industrial aesthetic. The entity stands tall with matte terracotta ceramic skin and a face concealed by a serene, hammered bronze mask with a single horizontal glowing sensor slit. It wears heavy, layered robes of ballistic linen interwoven with gold circuitry. Behind its back, six detached mechanical slats float in a radial formation, acting as wings, distorting the air with heat shimmer. The environment is a dusty, ancient stone corridor. Dramatic chiaroscuro lighting, tactile texture detail, 8k resolution, photorealistic, gritty sci-fi.",
+    "prompt_block": "A towering messenger angel, 2.8 meters tall, photorealistic, ancient Ethiopian and Egyptian motifs fused with incomprehensible industrial technology; obsidian armor plates etched with bio‑luminescent glyphs, polished bronze filigree, a crystalline quartz halo refracting light, copper alloy wings with articulated panels pulsing with hieroglyphs, basalt mask with green ocular implants, steam vents along the spine, hidden circuitry, bio‑luminescent veins, holographic sigil projection, cinematic lighting, tactile textures, grounded realism.",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Standard operational mode, standing stoic with floating gravitational wings active.",
+        "summary": "Default messenger angel state with full technological and mystical integration.",
         "prompt_keywords": [
-          "calm",
-          "standing",
-          "floating wings",
-          "blue sensor light"
+          "ancient-tech",
+          "Ethiopian",
+          "Egyptian",
+          "angelic",
+          "photorealistic",
+          "industrial mysticism",
+          "bio-luminescent",
+          "crystalline",
+          "glyphs",
+          "obsidian",
+          "copper alloy"
         ],
-        "prompt_block": "Medium shot of a biomechanical Messenger Angel, ancient high-tech aesthetic. The figure has a gold mask and matte dark skin, wearing technical robes. Behind it, mechanical wing-slats float in the air, emitting a soft blue ionizing glow. The lighting is moody and atmospheric, highlighting the texture of the hammered metal and woven fabric. Neutral expression, stoic posture. Cinematic composition, highly detailed, 8k."
+        "prompt_block": "Default state of the messenger angel: a 2.8‑meter tall, photorealistic figure combining ancient Ethiopian and Egyptian aesthetics with advanced industrial technology; obsidian armor plates etched with glowing glyphs, polished bronze filigree, crystalline quartz halo, copper alloy wings with hieroglyphic panels, basalt mask with green ocular implants, steam vents, hidden circuitry, bio‑luminescent veins, holographic sigil projection, cinematic lighting, tactile textures, grounded realism."
       }
     ]
   },

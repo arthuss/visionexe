@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 108 - 108
 
-**Phase Summary:** The standard ceremonial appearance of Kudusan as a holy conduit.
-**Phase Keywords:** ceremonial robes, holy figure, Ethiopian matriarch, ancient tech, solemn
+**Phase Summary:** Kudusan in his unactivated state, with subtle glyphs and a dormant staff.
+**Phase Keywords:** ancient-tech, Ethiopian, Egyptian, holy figure, photorealistic, industrial mysticism, bio-luminescent glyphs, crystalline staff, copper filigree
 **Phase Prompt:**
-Full body shot of Kudusan, a holy matriarch in an ancient-tech setting. She is dressed in heavy, layered ceremonial white robes infused with glowing circuitry and gold wiring. Her expression is solemn and judging. She stands in a dimly lit, cavernous stone hall filled with industrial cables and ancient inscriptions. The lighting is dramatic, highlighting the texture of her woven metal garments and the sheen of her dark skin. Cinematic, serious tone, hyper-detailed.
+A towering, photorealistic holy figure standing 2.5 m tall, with basaltic skin bearing faint bio‑luminescent glyphs, a bronze‑tinted face crowned with interlocking copper filigree, a single amber‑glowing ocular implant, layered indigo linen robe reinforced with copper plates etched with hieroglyphic sigils, wielding a crystalline staff that refracts light into a spectrum of holy colors, wearing a gold amulet with an obsidian stone, all rendered in tactile, grounded realism with visible seams, weathering, and subtle light interplay on metal and stone, evoking ancient Ethiopian and Egyptian aesthetics fused with incomprehensible advanced technology.
 
 ---

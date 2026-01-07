@@ -1,29 +1,33 @@
 ## [CHARACTER] Guest (ID: CHAR_GUEST)
-**Description:** A decadent aristocrat of the Treasury Node, representing the ultra-wealthy elite. Their attire is a fusion of Baroque opulence and high-tech industrial formalism, suggesting a society where wealth equates to complex, ornate data-access rights. They appear grounded in a reality that is rapidly destabilizing.
-**Tags:** #character #aristocrat #wealthy #cyberpunk-baroque #victim
+**Description:** A dignified guest in the Treasury Node, clad in a ceremonial robe woven with gold filigree and faint bioluminescent threads, sipping a neon blue luminescent liquid from a crystal glass. The ornate golden walls dissolve into a green wireframe grid that reveals a black void behind, while glowing red X markers hover above each guest's head. The scene is a high-contrast, cyberpunk‑baroque fusion captured in a cinematic vertical shot, 9:16 aspect ratio.
+**Tags:** #ancient-tech #industrial-mysticism #photorealistic #Ethiopian #Egyptian #luminescent #crystalline #bioluminescence #cyberpunk-baroque #golden #wireframe #black-void #glowing-red-X #ceremonial-robe #glyphs
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Soft, pampered physique contrasting with the harsh industrial environment. Skin may be perfect, perhaps too perfect, suggesting cosmetic gene-editing.
-*   **Face/Sensors:** Expressive, capable of deep fear. Lips slightly stained with neon blue luminescence from the consumption of the ritual liquid. No visible heavy cybernetics on the face, preserving a 'pure' aesthetic common to the elite.
-*   **Clothing/Armor:** Heavy brocade robes or structured suits in deep velvets and gold. The fabrics appear woven with conductive metallic threads. High collars, ornate shoulder pads resembling gilded armor but purely decorative. Jewelry that pulses with faint data-light.
-*   **Key Features:** A floating, holographic 'Red X' marker tracks above their head (contextual), marking them for deletion or processing.
+*   **Body/Form:** Tall, robust figure seated at a long banquet table, wearing a ceremonial robe of gold filigree and woven bioluminescent threads, heavy bronze boots with etched hieroglyphs.
+*   **Face/Sensors:** Subtle ocular implants that glow faintly blue, faint glyphs etched along the forehead that pulse in sync with the liquid, skin with a subtle iridescent sheen.
+*   **Clothing/Armor:** Ceremonial robe in deep crimson with gold filigree, bioluminescent thread accents that glow blue, a leather belt with embedded crystal shards, and a bronze circlet with a central sapphire.
+*   **Key Features:** Crystal glass with neon blue luminescent liquid, gold filigree robe, glowing red X markers hovering above heads, ornate golden walls dissolving into a green wireframe grid, black void backdrop.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): The standard appearance of the Guest, initially arrogant and indulgent, holding a crystal glass of blue liquid, transitioning to terror as the environment degrades.
+*   Phase 1 (Initial Banquet): The guest sits at the table, sipping the blue liquid while the golden walls remain intact.
+*   Phase 2 (Transcendence): After several sips, the walls dissolve into a green wireframe grid, the black void emerges, and glowing red X markers appear above each guest.
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Crystal glass containing neon blue viscous liquid
-*   Item: Ornate personal data-jewelry
+*   Item: Crystal glass filled with neon blue luminescent liquid
+*   Item: Ceremonial robe with gold filigree and bioluminescent thread
+*   Item: Gold filigree belt with embedded crystal shards
+*   Item: Bronze circlet with central sapphire
+*   Item: Glowing red X holographic marker
 
 ### 4. AI PROMPT KEYWORDS
-`decadent aristocrat`, `cyberpunk baroque`, `golden embroidery`, `neon blue liquid`, `fearful expression`, `cinematic lighting`, `photorealistic`, `8k`
+`ancient-tech`, `ceremonial`, `luminescent`, `crystalline`, `golden`, `wireframe`, `black-void`, `bioluminescence`, `red-X-marker`, `Ethiopian`, `Egyptian`
 
 ### 5. PROMPT BLOCK (T2I)
-A hyper-realistic cinematic medium shot of a wealthy Guest in a Treasury Node. The subject is dressed in opulent, heavy robes blending 18th-century aristocracy with futuristic industrial materials, gold thread woven into deep velvet. They hold a crystal glass filled with a glowing neon blue liquid. The lighting is high-contrast, reflecting off gold ornamentation. The atmosphere is thick with tension, a mix of ancient grandeur and technological dread.
+A cinematic vertical shot, 9:16 aspect ratio, of a dignified guest seated at a long banquet table in the Treasury Node, wearing a ceremonial crimson robe with gold filigree and bioluminescent thread accents, sipping a neon blue luminescent liquid from a crystal glass; ornate golden walls dissolve into a green wireframe grid revealing a black void behind, while glowing red X markers hover above each guest's head, high contrast cyberpunk‑baroque fusion, photorealistic, tactile, ancient‑tech aesthetic
 
 ### 6. PHASE PROMPTS
-*   **Default:** The Guest in their primary state of decadent consumption.
-    Prompt: A hyper-realistic portrait of a wealthy aristocrat, the Guest, standing in a dissolving golden hall. They wear lavish robes of gold and velvet with subtle circuit-board patterns embroidered in thread. They hold a delicate crystal glass containing a viscous neon blue liquid. Their expression is one of dawning horror. Above their head, a faint, translucent red 'X' marker glows ominously. Cinematic lighting, volumetric fog, high detail.
-    Keywords: wealthy guest, holding drink, neon blue, baroque tech, golden walls background
+*   **Default:** Guest seated, drinking, walls intact, no X markers yet
+    Prompt: A cinematic vertical shot, 9:16 aspect ratio, of a dignified guest seated at a long banquet table in the Treasury Node, wearing a ceremonial crimson robe with gold filigree and bioluminescent thread accents, sipping a neon blue luminescent liquid from a crystal glass; ornate golden walls remain intact, high contrast cyberpunk‑baroque fusion, photorealistic, tactile, ancient‑tech aesthetic
+    Keywords: ceremonial, luminescent, crystalline, golden, bioluminescence, Ethiopian, Egyptian
 
 ---

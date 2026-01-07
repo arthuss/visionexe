@@ -1,280 +1,259 @@
 # DREHBUCH KAPITEL 45 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Das System verlangt nach einer totalen Bereinigung. Wenn der Auserwählte den Thron aus Datenkristallen besteigt, wird die alte Welt nicht gerettet, sondern überschrieben. Es ist kein Ende, sondern ein Neustart des Kerns unter maximaler Last. Die Sünder sind nur fehlerhafte Sektoren, die gelöscht werden müssen, damit die Wahrheit in neuer Auflösung atmen kann.
+NARRATOR_TEXT: Es gibt keinen sanften Übergang, wenn die Ewigkeit in die Zeit bricht. Das System duldet keine Ambivalenz; es kennt nur Einsen und Nullen, Sein oder Nichtsein. Was wir Gnade nennen, ist in Wahrheit eine Korrektur des Codes, eine Wiederherstellung der ursprünglichen Architektur vor dem Zerfall. Wer nicht kompatibel ist, wird nicht bestraft, sondern als obsolet erkannt und aus dem Speicher entfernt.
 
-## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:04] [System Boot]
-**Action:** Macro shot of Enoch's eye. Iris dilates rapidly. HUD overlay boots up in Ge'ez. Reflection of a burning earth in the pupil.
+## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:04] [Establishing the Void]
+**Action:** The Void. A massive, circular obsidian platform floats in deep space. In the center, the Throne of Glory remains dormant, pulsing with faint blue standby lights.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Simulacrum Void", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["HUD Overlay"], "camera": "100mm Macro Lens / Static with rapid focus pull", "mood": ["tension", "technological_awakening"], "director_intent": "Show the biological reaction to a digital system boot.", "start_image_keywords": ["extreme_macro_eye", "iris_dilation", "hud_reflection"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "The Void (Obsidian Platform)", "env_change": false, "actors": [], "props": ["Throne of Glory (Server Monoliths)"], "camera": "Wide / Slow Dolly In", "mood": ["anticipation", "cold_tech"], "director_intent": "Establish the sterile, waiting state of the command center.", "start_image_keywords": ["obsidian_platform", "floating_in_space", "pulsing_blue_lights"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme close-up macro shot of a human eye, iris dilating rapidly. The pupil reflects a burning digital earth. A cyan and gold Ge'ez HUD overlay is projected directly onto the cornea. High contrast, sweat beads on skin, hyper-realistic texture, 8k resolution, cinematic lighting, vertical aspect ratio 9:16.
+Cinematic wide shot of a massive, perfectly circular floor made of polished black obsidian floating in an infinite starless void. In the center stands the "Throne of Glory," which is not a chair but a cluster of towering, black server-monoliths with faint, breathing blue LED strips. The floor reflects the emptiness perfectly. Industrial minimalism, sterile atmosphere, 8k, vertical aspect ratio 9:16.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Extreme close-up of Henoch's eye. The iris is hazel-green, contracting and dilating in spasms. Skin texture shows pores and sweat.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A (Eye focus). Faint reflection of a silver visor rim at the edge.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The reflection in the eye shows a burning sphere against a black void.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold blue light from the HUD interface illuminating the eye surface. Warm orange glow from the reflected fire in the pupil.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 100mm Macro lens. Shallow depth of field. Sharp focus on the iris. 9:16 aspect ratio.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitch digital turbine spin-up sound, increasing in frequency. Wet sound of an eye blinking. Subtle electrical hum.
-
-## [ACT 1] [SCENE 1.2] [Timecode: 00:04-00:08] [The Observation Deck]
-**Action:** Enoch floats in the Void (Observation Deck). He swipes a holographic panel. Below him, the Earth sphere is covered in red warning clusters.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "full_body", "environment": "Digital Void", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Holographic Panel", "Earth Sphere"], "camera": "Floating Cam / Wide Angle", "mood": ["isolation", "analytical"], "director_intent": "Establish the scale of the observer versus the observed system.", "start_image_keywords": ["floating_in_void", "holographic_interface", "red_warning_clusters"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Full body shot of Henoch floating in a black digital void. He wears a silver-skin suit and a high-tech visor. He is interacting with a floating holographic interface panel. Below him, a massive holographic sphere of Earth glows with angry red warning clusters. Cinematic lighting, volumetric fog, 8k, vertical aspect ratio 9:16.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch, Voyager phase. Silver metallic skin shader.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Sleek silver pressure suit. High-tech visor covering eyes. Idris-Gloves emitting faint golden particles.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite black void. A glass platform underfoot. A large rotating hologram of Earth below, covered in red error markers.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cool blue rim light from the void. Red underlighting from the corrupted Earth sphere.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Wide shot. Camera floats and rotates slowly around the subject. 9:16 aspect ratio.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Low-frequency server room hum (50Hz). Digital swiping sounds. A low, ominous alarm pulse in the distance.
-
-## [ACT 1] [SCENE 1.3] [Timecode: 00:08-00:12] [Corrupted Data]
-**Action:** EARTH SURFACE: The "Sinners" attempt to look up. Their faces are blurred by motion artifacts. They try to speak, but their mouths emit static interference.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Corrupted Earth Surface", "env_change": false, "actors": [{"name": "Sinners", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Handheld Shaky / Aggressive", "mood": ["chaos", "horror"], "director_intent": "Depict human corruption as digital artifacting and data loss.", "start_image_keywords": ["glitch_faces", "motion_blur", "red_error_halos"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-A crowd of humanoid figures on a desolate, grey earth. Their faces are heavily distorted by digital motion blur and glitch artifacts. They have flickering red "ERROR_404" halos above their heads. The environment is dusty and low-contrast. Chaos, panic, digital horror, 8k, vertical aspect ratio 9:16.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Humanoid figures, the "Sinners". Their meshes are unstable, tearing and flickering. Faces are obscured by pixel sorting and datamosh effects.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Rags that clip through their bodies.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A barren, grey wasteland. Dust particles suspended in air.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flat, desaturated lighting. Red emissive light from the error halos.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld, shaky camera. Aggressive movement. 9:16 aspect ratio.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Distorted, bit-crushed screaming. Static white noise interference. Heavy wind.
-
-## [ACT 1] [SCENE 1.4] [Timecode: 00:12-00:16] [Physics Denial]
-**Action:** A Sinner tries to climb a rock. The rock texture fails to load, becoming slippery glass. He slides back down. Physics engine denial.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "low_angle", "framing": "full_body", "environment": "Corrupted Earth Surface", "env_change": true, "actors": [{"name": "Sinner", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": ["Glitch Rock"], "camera": "Low Angle / Looking Up", "mood": ["frustration", "futility"], "director_intent": "Show the environment rejecting the corrupted entities.", "start_image_keywords": ["slippery_glass_rock", "texture_failure", "sliding_down"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Low angle shot of a desperate man trying to climb a rocky slope. The rock surface beneath his hands has failed to render textures, appearing as smooth, frictionless glass. He is sliding downwards. His expression is one of panic. Digital artifacts surround his hands. 8k, vertical aspect ratio 9:16.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** A single Sinner, male, ragged appearance.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Torn grey clothing.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A steep rocky incline. The rock texture transitions from rough stone to smooth, untextured glass.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Harsh, overhead grey light. Reflections on the glass surface.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Low angle shot looking up at the subject. 9:16 aspect ratio.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sound of skin squeaking on glass. Scrabbling fingernails. A deep, rejecting thud.
-
-## [ACT 1] [SCENE 1.5] [Timecode: 00:16-00:20] [Execute Judgment]
-**Action:** Enoch watches from the void. He types a command: EXECUTE_JUDGMENT. His gloves glow intense gold.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Digital Void", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Holographic Keyboard"], "camera": "Medium Shot / Static", "mood": ["determination", "power"], "director_intent": "The moment of administrative decision.", "start_image_keywords": ["typing_command", "glowing_gold_gloves", "holographic_keyboard"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot of Henoch in the void. He is typing on a floating holographic keyboard. His hands are encased in Idris-Gloves that are glowing with an intense golden light. The text "EXECUTE_JUDGMENT" is visible in Ge'ez script on the display. Serious expression, silver skin, 8k, vertical aspect ratio 9:16.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch, Voyager phase. Silver skin reflecting the interface.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Silver suit. Idris-Gloves pulsing with golden light as he types.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Black void background. Floating UI elements.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Golden light from the gloves illuminating his face. Cyan light from the UI.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Medium shot. Focus on hands and face. 9:16 aspect ratio.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud, mechanical keyboard clacking with a metallic echo. A rising energy hum.
-
-## [ACT 2] [SCENE 2.1] [Timecode: 00:20-00:25] [Throne Assembly]
-**Action:** THE THRONE ROOM: Out of the darkness, the Sapphire Throne assembles itself from floating crystal shards. Magnetic snap-together.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "medium", "framing": "medium", "environment": "Throne Room of Glory", "env_change": true, "actors": [], "props": ["Sapphire Throne"], "camera": "Slow Dolly In", "mood": ["majesty", "awe"], "director_intent": "Visualizing the construction of authority.", "start_image_keywords": ["sapphire_throne_assembly", "floating_shards", "magnetic_snap"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["Sapphire Throne"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-A massive throne made of translucent blue sapphire data-crystals assembling itself in a dark void. Sharp, angular shards are flying together, magnetically snapping into place. The floor is a mirror reflecting the cosmos. Mystical technology, high contrast, 8k, vertical aspect ratio 9:16.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A (Object focus).
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A (Environment focus).
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A dark, reflective room. The floor mirrors stars.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal blue glow from the sapphire crystals.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow dolly in. Physics simulation of shards assembling into a solid structure. 9:16 aspect ratio.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite black void. A circular platform of black glass. Central structure is a cluster of matte black obelisks.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Extremely low key. Only the faint blue standby lights on the monoliths provide illumination, creating long, sharp reflections on the floor.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow, steady dolly in towards the center. High angle. 9:16 aspect ratio.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy stone grinding against stone. Magnetic locking sounds (thud-click). A deep thunderclap reverb.
+Deep, resonant sub-bass drone (40Hz). The sound of a massive cooling system idling. Subtle electrical ticking.
 
-## [ACT 2] [SCENE 2.2] [Timecode: 00:25-00:30] [The Elect One]
-**Action:** The Elect One sits. Liquid mercury robes flow upwards against gravity. The light from his figure blows out the exposure of the camera lens.
+## [ACT 1] [SCENE 1.2] [Timecode: 00:04-00:07] [Ingress]
+**Action:** The Elect One materializes on the Throne. Not a fade-in, but a vertical light-collapse. Instant presence. Shockwave of golden dust upon seating.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "full_body", "environment": "Throne Room of Glory", "env_change": false, "actors": [{"name": "The Elect One", "phase": "Admin_Avatar", "presence": "on_screen", "focus": "primary"}], "props": ["Sapphire Throne"], "camera": "Wide Symmetrical / Static", "mood": ["divinity", "overwhelming_power"], "director_intent": "Introduce the ultimate authority figure as a being of pure light and data.", "start_image_keywords": ["elect_one_sitting", "mercury_robes", "blinding_light"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "The Void (Obsidian Platform)", "env_change": false, "actors": [{"name": "The Elect One", "phase": "Admin_Avatar", "presence": "on_screen", "focus": "primary"}], "props": ["Throne of Glory"], "camera": "Medium / Impact Shake", "mood": ["power", "suddenness"], "director_intent": "Show the physical impact of a digital entity loading into the environment.", "start_image_keywords": ["vertical_light_collapse", "golden_shockwave", "materialization"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide symmetrical shot of The Elect One sitting on the Sapphire Throne. The figure is a silhouette of condensed starlight, featureless and blindingly bright. Robes of liquid mercury flow upwards, defying gravity. The light is so intense it creates lens flares and blooms. Kubrick style composition, 8k, vertical aspect ratio 9:16.
+Medium shot capturing the moment of impact. A humanoid figure composed of condensed starlight has just slammed into the throne seat. A vertical beam of light is collapsing into the figure. A shockwave of golden data-dust is blasting radially outward from the base of the throne. The figure is silhouetted against the light. High contrast, dynamic motion blur, 8k, vertical aspect ratio 9:16.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Elect One. A humanoid shape made of pure white light. No facial features.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Robes that look like liquid chrome or mercury, flowing upwards.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The Sapphire Throne. Dark cosmic background.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The subject is the light source. Extreme brightness, blowing out the camera exposure.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static, symmetrical wide shot. 9:16 aspect ratio.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Elect One. A silhouette of white plasma contained in a platinum shell.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Robes made of fiber-optic cables that whip around from the impact force.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The obsidian platform.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blinding white flash from the center, fading to gold.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static camera that shakes violently on impact (simulated earthquake). Fast motion. 9:16 aspect ratio.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Absolute silence. A vacuum effect where all background noise is sucked away.
+A sharp thunderclap mixed with the sound of a large transformer powering up. A "wump" of displaced air.
 
-## [ACT 2] [SCENE 2.3] [Timecode: 00:30-00:35] [The Scan]
-**Action:** THE SCAN: A horizontal laser-grid sweeps over the crowd on Earth. Blue IDs are locked. Red IDs are highlighted.
+## [ACT 1] [SCENE 1.3] [Timecode: 00:07-00:12] [The Scan]
+**Action:** Close-up on Elect One's "face" (platinum mask). Reflections of Earth swirl on the surface. We see HUD overlays locking onto targets.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "overhead", "framing": "wide", "environment": "Earth Surface", "env_change": false, "actors": [{"name": "Crowd", "phase": "Mixed", "presence": "on_screen", "focus": "primary"}], "props": ["Laser Grid"], "camera": "Overhead / God's Eye View", "mood": ["judgment", "sorting"], "director_intent": "The sorting algorithm in action.", "start_image_keywords": ["laser_grid_scan", "blue_ids", "red_ids"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "The Void", "env_change": false, "actors": [{"name": "The Elect One", "phase": "Admin_Avatar", "presence": "on_screen", "focus": "primary"}], "props": ["HUD Overlay"], "camera": "Macro / Static", "mood": ["analytical", "detached"], "director_intent": "Focus on the processing power and lack of human emotion.", "start_image_keywords": ["platinum_face_mask", "earth_reflection", "hud_lock_on"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Top-down aerial view of a crowd on a dark earth surface. A bright horizontal blue laser grid is sweeping across them. Individuals are tagged with floating holographic IDs: stable Blue Hex-Codes for some, flickering Red "CORRUPT" tags for others. High contrast, sci-fi surveillance aesthetic, 8k, vertical aspect ratio 9:16.
+Extreme macro close-up of a smooth, featureless face mask made of highly polished platinum. Reflected in the curved metal surface is a distorted image of the Earth. A cyan Ge'ez HUD overlay is projected in front of the mask, with crosshairs locking onto specific points in the reflection. Cold, metallic aesthetic, 8k, vertical aspect ratio 9:16.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** A crowd of people, seen from above.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Varied clothing.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark ground.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The bright blue line of the laser scanner. Illuminated tags in blue and red.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Overhead "God's Eye" view. The laser line moves steadily across the frame. 9:16 aspect ratio.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Elect One. Featureless metallic head.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Platinum surface texture.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark void background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold white studio lighting. Blue light from the HUD interface.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Extreme close-up. Minimal movement, only the reflection and HUD elements move. 9:16 aspect ratio.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-tech sonar ping. Digital chimes (pleasant for blue, harsh buzz for red).
+High-speed digital chirping. Rapid seeking sounds like a hard drive read head. A constant low hum.
 
-## [ACT 2] [SCENE 2.4] [Timecode: 00:35-00:40] [Deletion]
-**Action:** The Elect One raises a hand. The Red IDs begin to dissolve into black smoke (particle dispersion). They are not dying; they are being deleted.
+## [ACT 1] [SCENE 1.4] [Timecode: 00:12-00:18] [Error Detection]
+**Action:** Cut to Earth (Wasteland). A group of Sinners stands in grey dust. They begin to twitch violently. Their textures smear (datamoshing). They look at their hands, which are phasing out of sync.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium_close_up", "framing": "medium", "environment": "Earth Surface", "env_change": true, "actors": [{"name": "Sinners", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Medium Close-Up", "mood": ["finality", "erasure"], "director_intent": "Visualizing death as data deletion.", "start_image_keywords": ["dissolving_into_smoke", "particle_dispersion", "deletion"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Wasteland (Grey Earth)", "env_change": false, "actors": [{"name": "Sinners", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Handheld / Shaky", "mood": ["horror", "instability"], "director_intent": "Depict human corruption as a technical rendering failure.", "start_image_keywords": ["datamoshing_people", "texture_smearing", "phasing_hands"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium close-up of a Sinner with a Red ID tag. His body is dissolving into black digital smoke and square particles. He is not in pain, he is simply ceasing to exist. The background is dark. The particle effect is geometric and precise. 8k, vertical aspect ratio 9:16.
+Medium shot of three ragged figures standing in a grey, dusty wasteland. They are glitching violently; their skin textures are smearing across the frame like corrupted video data (datamoshing). One figure holds up a hand that is ghosting and phasing into transparency. The environment is desaturated and gritty. Digital horror, signal loss, 8k, vertical aspect ratio 9:16.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** A Sinner.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Ragged clothes dissolving with the body.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark background.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Fading red light from the ID tag.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Medium close-up. The subject disintegrates into particles. 9:16 aspect ratio.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Human figures, "The Sinners". Their geometry is unstable.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Torn, grey rags that blend into the glitch effects.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Flat, grey desert. Dust blowing.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flat, overcast lighting. Occasional chromatic aberration flashes.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld camera style, jerky movements. The figures themselves stutter in motion (simulated low framerate). 9:16 aspect ratio.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sound of a massive fire roaring. Digital wind. A "power down" sound effect.
+Audio bit-crushing effects. Stuttering static. Distorted, metallic screaming that cuts in and out.
 
-## [ACT 3] [SCENE 3.1] [Timecode: 00:40-00:45] [Sky Swap]
-**Action:** SKY SWAP: The grey, polluted sky tears open like fabric. Behind it is a blinding, high-dynamic-range white light. The "Old Sky" falls in tatters.
+## [ACT 1] [SCENE 1.5] [Timecode: 00:18-00:25] [Validation]
+**Action:** Contrast cut. A group of Righteous nearby. They stand calm. A vertical blue laser scans them from top to bottom. They turn high-res and luminous.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Earth Sky", "env_change": true, "actors": [], "props": [], "camera": "Tilt Up", "mood": ["revelation", "transformation"], "director_intent": "The replacement of the skybox.", "start_image_keywords": ["sky_tearing", "blinding_white_light", "falling_sky_tatters"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Wasteland (Grey Earth)", "env_change": true, "actors": [{"name": "Righteous", "phase": "Verified", "presence": "on_screen", "focus": "primary"}], "props": ["Scanning Laser"], "camera": "Steadicam / Orbit", "mood": ["calm", "upgrade"], "director_intent": "Visualizing the 'blessing' as a resolution upgrade and stability check.", "start_image_keywords": ["blue_laser_scan", "high_res_skin", "subsurface_scattering"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide shot looking up at a grey, polluted sky. The sky is tearing open like a physical fabric curtain. Behind the tear is a blinding, pure white light. Pieces of the "old sky" are falling down like rags. Surreal, apocalyptic, 8k, vertical aspect ratio 9:16.
+Medium shot of a calm man and woman in simple robes. A bright, vertical blue laser line is sweeping down over them. Above the line, they are dusty and low-detail. Below the line, their skin becomes flawless, high-resolution, and emits a soft inner white glow (subsurface scattering). They look peaceful. Cinematic lighting, 8k, vertical aspect ratio 9:16.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Righteous. Humans with perfect posture.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Simple linen robes that become clean and white after the scan.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Grey background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The blue laser light illuminates their faces. Post-scan, they emit a soft cool-white light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Smooth steadicam orbit around the subjects. 9:16 aspect ratio.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A clean, resonant chime. A smooth "whoosh" of the scanner. No static.
+
+## [ACT 2] [SCENE 2.1] [Timecode: 00:25-00:30] [Command Execution]
+**Action:** The Elect One raises a hand. Liquid light drips from fingers. He swipes the air horizontally.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "low_angle", "framing": "medium", "environment": "The Void", "env_change": false, "actors": [{"name": "The Elect One", "phase": "Admin_Avatar", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle / Hero Shot", "mood": ["decisive", "divine"], "director_intent": "The physical gesture that triggers the global event.", "start_image_keywords": ["liquid_light_fingers", "horizontal_swipe", "glowing_hand_trail"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Low angle hero shot of The Elect One. He raises a hand, palm open. The fingers are dripping with a viscous, glowing white liquid that defies gravity, floating upwards. He is mid-swipe, his hand leaving a trail of long exposure light streaks in the air. The background is the stark black void. Mystical technology, 8k, vertical aspect ratio 9:16.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Elect One.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Fiber-optic robes.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Black void.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The hand is the primary light source, illuminating the platinum mask.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Low angle looking up. The hand moves decisively from left to right. 9:16 aspect ratio.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Heavy mechanical "Thunk" like a giant breaker switch being thrown. A deep bass rumble begins.
+
+## [ACT 2] [SCENE 2.2] [Timecode: 00:30-00:38] [Sky Update]
+**Action:** The grey, overcast sky tears open. Behind the clouds, a perfect geometric lattice of gold light (The New Heavens) descends, locking into place. The clouds evaporate instantly.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Earth Sky", "env_change": true, "actors": [], "props": ["Golden Lattice Grid"], "camera": "Tilt Up / Time-lapse", "mood": ["majesty", "scale"], "director_intent": "Show the replacement of the atmospheric layer with a structured energy grid.", "start_image_keywords": ["sky_tearing_open", "golden_geodesic_grid", "clouds_evaporating"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Very wide shot looking up at a stormy grey sky. The clouds are ripping apart like wet paper, revealing a massive, glowing golden geodesic structure behind them. The structure looks like a wireframe sphere enclosing the world. The clouds are dissolving into digital mist where they touch the grid. Epic scale, sci-fi surrealism, 8k, vertical aspect ratio 9:16.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The sky.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Grey ambient light transitioning to blinding white HDR light.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Tilt up camera movement. Physics simulation of cloth tearing. 9:16 aspect ratio.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dull grey light from clouds vs intense warm gold light from the grid.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Tilt up. Time-lapse speed for the cloud movement, but the grid descends with heavy, slow mechanical weight. 9:16 aspect ratio.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud sound of tearing canvas, amplified and echoing.
+Massive atmospheric vacuum sound (air being sucked away). A deep, resonant metallic locking sound.
 
-## [ACT 3] [SCENE 3.2] [Timecode: 00:45-00:50] [Earth Refactor]
-**Action:** EARTH REFACTOR: The dry ground ripples like liquid. Dust turns into polished marble. Dead trees are overwritten by crystalline fractal vegetation instantly.
+## [ACT 2] [SCENE 2.3] [Timecode: 00:38-00:45] [Terrain Overwrite]
+**Action:** The Render-Wave. A wall of white light sweeps across the desert floor. Behind it: dry cracked mud becomes lush, wet, hyper-detailed moss and crystal flora instantly. No growth animation, just instant state replacement.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "New Earth", "env_change": true, "actors": [], "props": [], "camera": "Tracking Shot / High Speed", "mood": ["perfection", "renewal"], "director_intent": "The instant rewriting of the environment's texture and geometry.", "start_image_keywords": ["ground_rippling", "polished_marble", "crystalline_vegetation"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Earth Landscape", "env_change": true, "actors": [], "props": ["Render Wave"], "camera": "Drone Tracking", "mood": ["transformation", "speed"], "director_intent": "Visualizing the terrain update as a moving render plane.", "start_image_keywords": ["render_wave_wall", "instant_terrain_replacement", "crystal_flora"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A split-screen effect of a landscape transforming. On the left, dry dust and dead trees. On the right, polished white marble ground and glowing crystalline fractal trees. A ripple effect separates the two. High-tech nature, utopian, 8k, vertical aspect ratio 9:16.
+Aerial view of a landscape divided by a sharp, vertical wall of bright white light. To the right: dry, cracked, grey mud wasteland. To the left: vibrant, neon-green moss, polished black rocks, and glowing crystal flowers. The transition is razor sharp. The light wall is moving across the terrain. 8k, hyper-detailed, vertical aspect ratio 9:16.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A landscape. Ground transforming from dirt to marble. Trees transforming from dead wood to crystal.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright, clean lighting. Emissive glow from the crystals.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fast tracking shot moving forward. The transformation wave moves with the camera. 9:16 aspect ratio.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Desert terrain transforming into a garden.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The wall of light casts a long shadow ahead into the grey zone. The new zone is self-illuminated.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fast drone tracking shot moving sideways, keeping pace with the wave. 9:16 aspect ratio.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sound of ice cracking and crystallizing. A rushing wind sound.
+Roaring white noise that instantly cuts to lush birdsong and flowing water sounds as the wave passes.
 
-## [ACT 3] [SCENE 3.3] [Timecode: 00:50-00:55] [The Righteous]
-**Action:** The Righteous stand in the new environment. Their clothes are now clean, white linen. They look at their hands in disbelief.
+## [ACT 2] [SCENE 2.4] [Timecode: 00:45-00:52] [Deletion]
+**Action:** The wave hits the Sinners. They don't burn; they simply cease to render. The space they occupied collapses into a single black frame and then fills with the new environment.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "New Earth", "env_change": false, "actors": [{"name": "Righteous", "phase": "Verified", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Orbit Cam / Steadicam", "mood": ["peace", "wonder"], "director_intent": "The result of the update on the user base.", "start_image_keywords": ["clean_white_linen", "looking_at_hands", "perfect_environment"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Earth Landscape", "env_change": true, "actors": [{"name": "Sinners", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": ["Render Wave"], "camera": "Static / Hard Cut", "mood": ["erasure", "finality"], "director_intent": "Death is not biological, it is a removal of data.", "start_image_keywords": ["human_figure_collapse", "black_wireframe_void", "data_deletion"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot of a person standing in a perfect, glowing garden. They are wearing pristine white linen robes. They are holding up their hands, looking at them in disbelief. The skin is flawless. Soft, ethereal lighting, 8k, vertical aspect ratio 9:16.
+Medium shot of a glitching Sinner silhouette as the wall of white light hits them. The figure is imploding into a single vertical black line (a zero-width vertex). The space around them is bending into the void. Behind the line, the new pristine garden environment is already visible. Conceptual sci-fi, 8k, vertical aspect ratio 9:16.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** A Righteous person. Healthy, clean skin.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Clean white linen robes.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The New Earth. Marble floor, crystal plants.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft, diffuse white light. No harsh shadows.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow orbit camera movement. Slow motion. 9:16 aspect ratio.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** A Sinner.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Ragged clothes.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The transition zone.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Silhouetted against the bright wall of light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static camera. The wave washes over the camera. The figure vanishes instantly in a single frame (hard cut effect). 9:16 aspect ratio.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A pure, clean sine-wave tone. Birds chirping (synthetic/perfect).
+A sharp, digital "Zip" sound (like a CRT TV turning off). Followed by immediate, profound silence.
 
-## [ACT 3] [SCENE 3.4] [Timecode: 00:55-01:00] [System Stable]
-**Action:** RESOLUTION: Enoch in the void closes the holographic window. The sphere of Earth is now glowing blue. He exhales. System Stable.
+## [ACT 3] [SCENE 3.1] [Timecode: 00:52-00:60] [Dwelling]
+**Action:** The Elect One descends from the throne, walking among the Righteous on the new earth. The Elect One is now transparent/glass-like, refracting the environment.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Digital Void", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Holographic Panel", "Earth Sphere"], "camera": "Medium Shot / Static", "mood": ["relief", "satisfaction"], "director_intent": "The administrator confirms the successful update.", "start_image_keywords": ["closing_holographic_window", "glowing_blue_earth", "exhaling"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "full_body", "environment": "New Earth (Garden)", "env_change": false, "actors": [{"name": "The Elect One", "phase": "Admin_Avatar", "presence": "on_screen", "focus": "primary"}, {"name": "Righteous", "phase": "Verified", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Tracking / Backward", "mood": ["peace", "harmony"], "director_intent": "The Admin is now fully integrated into the simulation, visible but ethereal.", "start_image_keywords": ["transparent_glass_body", "walking_in_garden", "refraction"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot of Henoch in the void. He swipes a hand to close a holographic window. Behind him, the Earth sphere is now glowing with a stable, calm blue light. He looks relieved. Silver skin, visor up, 8k, vertical aspect ratio 9:16.
+Full body tracking shot of The Elect One walking through a lush, bioluminescent garden. The figure is now made of clear, refractive glass, bending the light of the flowers behind it. In the background, Righteous figures in white robes bow slightly. The lighting is soft, warm, and golden. Utopian aesthetic, 8k, vertical aspect ratio 9:16.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch, Voyager phase.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Silver suit.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Digital void. The Earth sphere is blue and stable.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft blue light from the Earth sphere.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Medium shot. Static. 9:16 aspect ratio.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Elect One. Glass/Crystal material.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Robes are now translucent silk.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The New Earth garden.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Warm "Golden Hour" lighting. Prism rainbows reflecting off the glass body.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Tracking shot moving backward as the subject walks forward. Smooth motion. 9:16 aspect ratio.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-The loud server hum powers down to a whisper. A soft "ping" of completion.
+Harmonic synth pads. Ethereal choir holding a single major chord. Sound of bare feet on soft grass.
+
+## [ACT 3] [SCENE 3.2] [Timecode: 00:60-00:68] [No Sin]
+**Action:** Close up on the ground. A single perfect flower (fractal geometry). No dust, no decay. Camera pans up to the horizon—infinite clarity, no atmospheric haze.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "close_up", "framing": "close_up", "environment": "New Earth (Garden)", "env_change": false, "actors": [], "props": ["Fractal Flower"], "camera": "Macro to Wide Pan", "mood": ["perfection", "clarity"], "director_intent": "Show the mathematical perfection of the new reality.", "start_image_keywords": ["fractal_flower", "perfect_geometry", "infinite_horizon"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Macro shot of a flower that exhibits perfect fractal geometry; its petals are crystalline and symmetrical. The ground beneath is clean, polished marble soil. The background is a gradient of perfect blue sky. There is zero dust or atmospheric haze. Hyper-realism, 8k, vertical aspect ratio 9:16.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The ground of the New Earth.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright, clean, shadowless light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Starts macro on the flower, then pans up smoothly to reveal the distant horizon. 9:16 aspect ratio.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Gentle wind chimes. The air sounds "thin" and clean.
+
+## [ACT 3] [SCENE 3.3] [Timecode: 00:68-00:75] [System Locked]
+**Action:** Final shot of the Earth from space. It glows with a stable blue network grid. Text overlay: "UPDATE COMPLETE".
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Space", "env_change": true, "actors": [], "props": ["Earth Sphere"], "camera": "Orbit", "mood": ["completion", "stability"], "director_intent": "Final confirmation of the global status.", "start_image_keywords": ["earth_from_space", "blue_network_grid", "update_complete_text"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+View of planet Earth from deep space. The planet is enclosed in a stable, glowing blue vector grid. The continents are green and glowing. The background stars are sharp. A holographic text overlay in the center reads "UPDATE COMPLETE" in a minimalist sans-serif font. Sci-fi ending, 8k, vertical aspect ratio 9:16.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Space. Earth sphere.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The Earth glows blue.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow orbit. The grid pulses once, then solidifies. 9:16 aspect ratio.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Final heavy bass impact (Boom). Fade to absolute silence.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Die Warnungen leuchten rot. Der Code ist instabil.","words_max":10},{"scene":"1.5","text":"Ich muss den Befehl geben. Für den Neustart.","words_max":10},{"scene":"3.4","text":"Es ist vollbracht. Das System läuft stabil.","words_max":10}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Der Thron ist kalt. Die Datenströme warten auf den Zugriff.","words_max":10},{"scene":"2.1","text":"Ein einziger Befehl trennt die Wahrheit vom Rauschen.","words_max":10},{"scene":"3.1","text":"Das System atmet. Endlich herrscht Stille.","words_max":10}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

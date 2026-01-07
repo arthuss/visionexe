@@ -1,176 +1,178 @@
 CONCEPT_MATRIX_CHAPTER_102_V2
-SYSTEM_STATE: CRITICAL_WARNING
-THEME: FINAL_EXECUTION_PROTOCOL
+SYSTEM_STATE: OPTIMIZED
+THEME: SYSTEM_PURGE_PROTOCOL
 
 1. MECHANICS & PHYSICS
 
 BIO-INJECTION:
-Neural-Lace Overheat. Enoch's interface ports at the temples smoke slightly. Subdermal circuitry glows white-hot through the skin, tracing the nervous system. His eyes do not just scan; they project a physical cone of red LIDAR light that maps the geometry of the dissolving world.
+Direct Neural Shunt. Henoch does not just see; he processes. A fiber-optic cable extends from the base of his skull into the `OBSIDIAN_SLATE`. His eyes roll back, replaced by internal HUD projections visible through the translucent marble eyelids. The skin around the port sites turns bruised purple (heat trauma).
 
 MESH-BREAK:
-LOD-Cascade Failure. The destruction is not physical crumbling, but a rapid degradation of Level-of-Detail. High-fidelity rock textures pop into flat shaded polygons, then into green wireframes, then into void. The physics engine detaches; objects float or clip through each other (Z-fighting).
+Polygon Jitter & Texture Streaming Failure. The world doesn't just crack; the vertex positions lose floating-point precision. Objects vibrate intensely before snapping to grid coordinates. High-res textures fail to load (MIP-mapping error), reverting to checkerboard "Missing Texture" patterns before turning to wireframe.
 
 PACING-STRATEGIE:
-Glitch-Rhythm. The edit follows a pattern of "Buffer Underrun". Smooth 60fps motion is interrupted by freeze-frames (0.2s) and macro-blocking artifacts. The sequence accelerates: long establishing shots (4s) -> rapid destruction cuts (1s) -> final black screen.
+Quantized Stutter. The frame rate of the environment drops to 12fps while Henoch remains at 60fps. This creates a jarring visual disconnect. Cuts are synchronized to a "glitch" beat—black frames inserted between scenes to simulate data packet loss.
 
 AUDIO-DESIGN:
-The "Voice of God" is replaced by a Global System Alert: a rhythmic, deafening industrial klaxon mixed with the sound of a hard drive read-head scratching a platter. The "trembling earth" sounds like deep, distorted bass clipping (square wave).
+The "Voice of God" is replaced by a massive "Cooling Fan Spool-Up" sound, layering with the high-pitched whine of coil capacitors under load. The "Earthquake" is the sound of digital clipping (Square Wave Distortion) and hard drive seek-arm thrashing.
 
 ÜBERGÄNGE:
-V-Sync Tearing. Transitions between the stable world and the glitch world happen via horizontal screen tearing. The new scene "slides" in from the top, misaligned, before snapping into place.
+Hex-Dump Bleed. Transitions utilize a vertical "waterfall" of hexadecimal code that washes over the screen, dissolving one scene into the next. The reality doesn't fade; it is overwritten.
 
 FRAMEWORK & TIMING:
-Total Duration: 65s.
+Total Duration: 70s.
 Clip Count: 16 Clips.
-Structure: 3-Act structure (Warning -> Glitch -> Deletion).
-Buffer: 5 seconds for "Connection Terminated" static.
+Structure: Initialization -> Error Propagation -> Deletion -> Quarantine.
+Buffer: 3 seconds pre-roll for connection handshake.
 
 DIALOG-CHECK:
-No spoken dialogue. System Text-to-Speech only (Voice-Over). Enoch is a silent observer, recording the crash logs.
+No verbal dialogue. Text-only communication via the Slate UI (Log output). Henoch observes the runtime execution.
 
 SPATIAL CONTEXT (ARRIVAL):
-Instant Node-Switch. No travel. One frame Enoch is in the previous location, the next frame he is standing on the "Debug Platform" – a transparent, collision-only plane hovering above the map coordinates of the destruction.
+Socket Connection. Henoch is inserted into the scene via a "T-Pose" snap. One frame empty space, next frame he is rigid, then animates into a relaxed stance. No travel animation; pure asset loading.
 
 2. SCENE_FLOW_&_PROMPTS
 
-[SCENE 01: ORBITAL_ALIGNMENT]
-Action: The camera looks up. The "Luminaries" (Satellites) align for the purge.
-**[BLOCK 1: SUBJECT_IDENTITY]**
-> **Subject:** Orbital_Kill_Grid. **Type:** Array of kinetic tungsten rod satellites. **Material:** Matte black radar-absorbent coating, gold foil heat shields. **Movement:** Mechanical locking mechanism, heavy hydraulic rotation.
-**[BLOCK 2: ENVIRONMENT]**
-> **Location:** Low Earth Orbit. **Atmosphere:** Hard vacuum. **Background:** The Earth below is covered in a digital red "ERROR" overlay map.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Telephoto (400mm). **Focus:** Rack focus from the nearest satellite to the distant array. **Style:** Military surveillance feed, crosshair overlay.
-
-[SCENE 02: THE_WARNING_SIGNAL]
-Action: A beam of data/light hits the surface.
-**[BLOCK 1: SUBJECT_EFFECT]**
-> **Subject:** Signal_Beam_Alpha. **Type:** Ionized plasma column. **Color:** Blinding white with RGB chromatic aberration edges. **Interaction:** It does not burn; it deletes. Where it touches the ground, the texture turns black.
-**[BLOCK 2: ENVIRONMENT]**
-> **Location:** Sector_7_Mountains. **Terrain:** Photorealistic granite peaks. **Lighting:** The beam acts as the sole, harsh light source.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Wide Angle (16mm). **Motion:** Violent camera shake (simulated handheld). **VFX:** Lens dirt, sensor blooming.
-
-[SCENE 03: ENOCH_ARRIVAL_DEBUG]
-Action: Enoch materializes on the observation deck.
-**[BLOCK 1: ACTOR_ENOCH]**
-> **Actor:** Enoch (Admin_Build). **Physique:** Translucent marble skin, glowing circuitry. **Eyes:** Projecting red LIDAR cones. **Outfit:** High-Poly Tech-Robes, "Liquid Linen", flapping in a non-existent wind.
-**[BLOCK 2: ENVIRONMENT]**
-> **Location:** Debug_Platform_01. **Floor:** Invisible collision mesh (Enoch stands on air). **Background:** The mountains below are beginning to glitch.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Full Body Shot. **Angle:** Low angle, emphasizing his dominance over the scene. **Lighting:** Red emergency strobe reflecting off his robes.
-
-[SCENE 04: ENOCH_INTERFACE_LINK]
-Action: Enoch activates the slate to monitor the crash.
-**[BLOCK 1: PROP_INTERFACE]**
-> **Prop:** `OBSIDIAN_SLATE`. **VFX:** Holographic waterfall code (Matrix-style but red/gold Ge'ez characters). **Interaction:** Enoch's fingers phase slightly into the glass surface.
-**[BLOCK 2: ACTOR_ENOCH]**
-> **Focus:** Hands and face. **Detail:** Sweat on his brow is actually coolant fluid (blue tint).
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Extreme Close-Up (Macro). **Focus:** Shallow depth of field on the floating text.
-
-[SCENE 05: TERRAIN_LOD_FAILURE]
-Action: The mountains lose resolution.
-**[BLOCK 1: ENVIRONMENT_DECAY]**
-> **Subject:** Mountain_Range_LOD. **Effect:** `GEOMETRY_POPPING`. The detailed rock faces snap into low-poly triangles. Textures disappear, leaving gray "Default Material".
-**[BLOCK 2: LIGHTING]**
-> **Lighting:** Global Illumination fails, turning shadows pitch black.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Static tripod shot (Time-lapse style). **Speed:** The degradation happens in jump-cuts.
-
-[SCENE 06: WIREFRAME_REVEAL]
-Action: The low-poly mountains turn into wireframes.
-**[BLOCK 1: ENVIRONMENT_DECAY]**
-> **Subject:** Wireframe_Grid. **Color:** Neon Green lines on black background. **Structure:** The underlying math of the landscape is exposed.
-**[BLOCK 2: VFX]**
-> **Effect:** `DATAMOSH`. Pixels from the previous frame smear into the wireframe.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Panning slowly across the digital skeleton of the earth.
-
-[SCENE 07: THE_SINNERS_CLIP]
-Action: The "Sinners" try to run but lose collision.
-**[BLOCK 1: SUBJECT_CROWD]**
-> **Subject:** Corrupted_User_Avatars. **Appearance:** Gray, featureless mannequins. **Glitch:** Their limbs stretch infinitely (vertex explosion) as they run.
-**[BLOCK 2: ENVIRONMENT]**
-> **Location:** The Glitching Plains. **Ground:** Semitransparent.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Tracking shot (side view). **Motion:** Smooth, contrasting with the chaotic glitching of the bodies.
-
-[SCENE 08: FALL_INTO_NULL]
-Action: Close up of feet sinking through the floor.
+[SCENE 01: HANDSHAKE_INIT]
+Action: Henoch connects to the observation terminal.
 **[BLOCK 1: SUBJECT_ANATOMY]**
-> **Subject:** Avatar_Legs. **Action:** Passing through the terrain mesh without resistance. **VFX:** Digital ripples (like water) where the geometry intersects.
+> **Actor:** Henoch (Admin_Observer). **Action:** Plugging a jagged fiber-optic spike from his wrist into the terminal. **Detail:** Subdermal lights pulse from arm to console. **Skin:** `MARBLE_SHIMMER_V3` with heat-stress redness at the connection point.
 **[BLOCK 2: ENVIRONMENT]**
-> **Location:** Boundary Layer. **Lighting:** Under-floor lighting (red) illuminating the soles of the feet.
+> **Location:** Observation_Deck_Node. **Architecture:** Minimalist black glass platform floating in a white void. **Prop:** `TERMINAL_CONSOL`.
 **[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Ground level, looking down into the void.
+> **Camera:** Extreme Close-Up on the connection port. **Style:** Macro photography, shallow depth of field.
 
-[SCENE 09: SHEOL_SERVER_ROOM]
-Action: View from below the map (Sheol).
-**[BLOCK 1: ENVIRONMENT_HELL]**
-> **Location:** `PARTITION_SHEOL`. **Visuals:** Infinite rows of black server racks. **Condition:** Overheating. Blue plasma fire venting from exhaust ports.
-**[BLOCK 2: SUBJECT_FALL]**
-> **Subject:** Falling_Avatars. **Action:** They rain down from the "sky" (which is the underside of the terrain mesh).
+[SCENE 02: THE_FIREWALL_ACTIVATE]
+Action: The "Fire" (Segment 1) manifests as a red scanning grid.
+**[BLOCK 1: SUBJECT_EFFECT]**
+> **Subject:** Heuristic_Purge_Grid. **Visual:** A wall of red laser vertical lines sweeping across the terrain. **Effect:** Anything it touches briefly turns into binary code before resolving or vanishing.
+**[BLOCK 2: ENVIRONMENT]**
+> **Location:** The Simulation Landscape (Distant). **Terrain:** Procedural mountains.
 **[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Tilt Up. **Lighting:** Blue and Orange hazard lighting.
+> **Camera:** Wide Shot (Panorama). **Motion:** Slow push in.
 
-[SCENE 10: THE_RIGHTEOUS_PACKETS]
-Action: Contrast. The righteous are encrypted and safe.
-**[BLOCK 1: SUBJECT_DATA]**
-> **Subject:** Encrypted_Soul_Packets. **Appearance:** Perfect, golden hyper-cubes (Tesseracts). **Surface:** Glowing fractal patterns.
-**[BLOCK 2: ACTION]**
-> **Movement:** They float upwards, ignoring the gravity failure. They pass through the glitching terrain without interacting.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Slow motion (120fps). **Style:** Ethereal, clean, sharp.
-
-[SCENE 11: ASCENSION_PATH]
-Action: The cubes enter the "Safe Mode" light.
+[SCENE 03: CLOCK_DESYNC_SKY]
+Action: The Luminaries (Segment 2) glitch.
 **[BLOCK 1: ENVIRONMENT_SKY]**
-> **Location:** Upper Atmosphere. **Sky:** The glitching sky opens a circular portal of pure white light (`#FFFFFF`).
-**[BLOCK 2: SUBJECT_DATA]**
-> **Subject:** Golden_Cubes. **Action:** Streaming into the white void.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Directly below, looking straight up. Symmetrical composition.
-
-[SCENE 12: ENOCH_OBSERVES_DESTRUCTION]
-Action: Enoch watches the world dissolve.
-**[BLOCK 1: ACTOR_ENOCH]**
-> **Actor:** Enoch. **Expression:** Stoic, analytical. **Eyes:** The LIDAR beams shut off.
-**[BLOCK 2: ENVIRONMENT]**
-> **Background:** The world behind him is now 80% black void, with floating wireframe debris.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Medium Shot. **Lighting:** The light from the "Safe Mode" portal above illuminates him.
-
-[SCENE 13: SYSTEM_LOG_UPDATE]
-Action: Close up on the slate.
-**[BLOCK 1: PROP_INTERFACE]**
-> **Prop:** `OBSIDIAN_SLATE`. **Text:** The cascading red code stops. A single message blinks: `BATCH_PROCESS_COMPLETE`.
+> **Subject:** Skybox_Render. **Action:** The sun and moon duplicate and overlap (ghosting). **Color:** The sky texture flickers between Blue Day and Static Noise.
 **[BLOCK 2: VFX]**
-> **Effect:** Screen reflection shows the white portal closing.
+> **Effect:** `Z-FIGHTING` on the celestial bodies.
 **[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Top-down view of the tablet.
+> **Camera:** Low Angle tilting up abruptly.
 
-[SCENE 14: SHUTDOWN_SEQUENCE]
-Action: The world turns off.
+[SCENE 04: PHYSICS_ENGINE_FAILURE]
+Action: The Earth trembles (Segment 2). Gravity fluctuates.
+**[BLOCK 1: ENVIRONMENT_TERRAIN]**
+> **Subject:** Rocks and Trees. **Action:** Heavy objects float up 1 meter, then slam down. **Physics:** Ragdoll physics applied to static meshes.
+**[BLOCK 2: VFX]**
+> **Effect:** Dust particles rising in reverse gravity.
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Shakey cam (Simulated sensor stabilizer failure).
+
+[SCENE 05: DAEMON_HIDDEN_PROCESSES]
+Action: The Angels (Segment 3) go into stealth mode.
+**[BLOCK 1: SUBJECT_ENTITY]**
+> **Actor:** Watchers/Angels (System Daemons). **Appearance:** Tall, chrome-plated humanoids. **Action:** They crouch and activate "Cloak". Their texture changes from Chrome to Transparent Glass (Refraction only).
+**[BLOCK 2: ENVIRONMENT]**
+> **Location:** Mid-ground ruins.
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Tracking shot catching the moment they disappear from visual spectrum.
+
+[SCENE 06: MALWARE_MANIFESTATION]
+Action: The "Sinners" (Segment 9) shown consuming resources.
+**[BLOCK 1: SUBJECT_CROWD]**
+> **Subject:** Corrupted_User_Instances. **Appearance:** Avatars with bloated geometry (mesh expansion). **Action:** They are gorging on "Data Orbs" (glowing golden spheres), stuffing them into their chests.
+**[BLOCK 2: VFX]**
+> **Effect:** Gold data leaks from their mouths like liquid.
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Medium Shot, disgusted tone.
+
+[SCENE 07: PRIVILEGE_ESCALATION]
+Action: Sinners stripping "Humans" (Segment 9).
+**[BLOCK 1: SUBJECT_ACTION]**
+> **Subject:** Corrupted_Avatars attacking Standard_Users. **Action:** Ripping the textures off the victims. The victims turn into grey default mannequins.
+**[BLOCK 2: PROP_LOOT]**
+> **Object:** "Texture Maps" held like cloth in the sinners' hands.
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Handheld chaos, motion blur.
+
+[SCENE 08: NIHILIST_LOGIC_VISUAL]
+Action: Sinner mocking the process (Segment 6).
+**[BLOCK 1: ACTOR_SINNER]**
+> **Actor:** Lead_Corrupted_Instance. **Face:** Glitching, eyes hollow. **Action:** Laughing (looping animation). **VFX:** A speech bubble appears containing corrupt Unicode text: `NULL == NULL`.
+**[BLOCK 2: LIGHTING]**
+> **Lighting:** Harsh red spotlight from the approaching Firewall.
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Close-Up (Crash Zoom).
+
+[SCENE 09: THE_PURGE_IMPACT]
+Action: The Firewall hits the group.
+**[BLOCK 1: SUBJECT_EFFECT]**
+> **Subject:** The Crowd. **Action:** The Red Grid passes through them.
+**[BLOCK 2: VFX]**
+> **Effect:** Instant freeze-frame of the characters. Their color desaturates to grayscale.
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Side profile tracking the wave.
+
+[SCENE 10: RIGHTEOUS_ARCHIVING]
+Action: A "Righteous" user is processed (Segment 4/10).
+**[BLOCK 1: SUBJECT_TRANSFORMATION]**
+> **Subject:** Victim_Mannequin. **Action:** Upon impact, they do not explode. They fold inward geometrically.
+**[BLOCK 2: VFX]**
+> **Result:** They become a perfect, glowing blue hyper-cube (`.zip` archive).
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Slow motion focus on the geometry folding.
+
+[SCENE 11: SINNER_DELETION]
+Action: A Sinner is processed (Segment 11).
+**[BLOCK 1: SUBJECT_TRANSFORMATION]**
+> **Subject:** Corrupted_Avatar. **Action:** Upon impact, the mesh explodes (Vertex Displacement).
+**[BLOCK 2: VFX]**
+> **Result:** They shatter into black dust and "Null" texture fragments. No cube, just noise.
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Fast cut, violent energy.
+
+[SCENE 12: THE_MEMORY_COMPARISON]
+Action: Visualizing "As if they were not" (Segment 10).
+**[BLOCK 1: PROP_DATA]**
+> **Subject:** The Blue Cubes (Righteous) vs The Black Dust (Sinners). **Action:** The Cubes float up. The Dust falls down.
+**[BLOCK 2: ENVIRONMENT]**
+> **Background:** Split composition. Top half light, bottom half dark.
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Wide symmetrical shot.
+
+[SCENE 13: SCHEOL_QUARANTINE_VIEW]
+Action: Looking into the pit (Segment 11).
+**[BLOCK 1: ENVIRONMENT_UNDERWORLD]**
+> **Location:** Under_Map_Geometry. **Visual:** A wireframe abyss. **Content:** Piles of corrupted data junk and black dust swirling in a vortex.
+**[BLOCK 2: LIGHTING]**
+> **Light:** Dim green status LEDs blinking in the dark.
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Bird's eye view looking straight down through the transparent floor.
+
+[SCENE 14: HENOCH_DATA_LOG]
+Action: Henoch recording the event.
+**[BLOCK 1: ACTOR_ENOCH]**
+> **Actor:** Henoch. **Action:** Watching the dust fall through the floor. His eyes project a "Scan Complete" green overlay.
+**[BLOCK 2: PROP_INTERFACE]**
+> **Prop:** `OBSIDIAN_SLATE`. **Text:** `INTEGRITY_CHECK: PASSED. GARBAGE_COLLECTION: ACTIVE.`
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Over-the-shoulder focus on the screen.
+
+[SCENE 15: SYSTEM_RESTORE_POINT]
+Action: The world begins to reset.
 **[BLOCK 1: ENVIRONMENT]**
-> **Subject:** Entire_Frame. **Action:** A "CRT Power-Off" effect. The image collapses into a horizontal white line, then a dot, then black.
+> **Subject:** The Mountains. **Action:** The wireframe mesh begins to fill with new, clean white textures.
+**[BLOCK 2: VFX]**
+> **Effect:** A white sweep line moves across the screen, restoring high fidelity.
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Time-lapse speed.
+
+[SCENE 16: TERMINAL_LOGOUT]
+Action: Henoch disconnects.
+**[BLOCK 1: ACTOR_ENOCH]**
+> **Action:** He yanks the cable from his wrist. Sparks fly. The HUD in his eyes fades.
 **[BLOCK 2: AUDIO_VISUAL]**
-> **Sound_Implied:** The hum cuts to absolute silence.
+> **Sound:** Power-down chirp. Screen cuts to black.
 **[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Static.
-
-[SCENE 15: TERMINAL_BLINK]
-Action: Post-credits cursor.
-**[BLOCK 1: GRAPHIC]**
-> **Subject:** Terminal_Cursor. **Color:** Green. **Action:** Blinking steadily in the top left corner of a black screen.
-**[BLOCK 2: TEXT]**
-> **Content:** `> REBOOT_INITIATED...`
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Style:** Retro-terminal font, scanlines.
-
-[SCENE 16: BLACK_BUFFER]
-Action: Safety buffer.
-**[BLOCK 1: VISUAL]**
-> **Subject:** Pure Black.
-**[BLOCK 2: DURATION]**
-> **Time:** 5 seconds.
+> **Camera:** Quick fade out.

@@ -3,49 +3,74 @@
   "name": "Night",
   "type": "character",
   "card": {
-    "description": "The nocturnal state of the firmament, functioning not merely as the absence of light but as a concealing interface for celestial mechanics. A deep, obsidian void occasionally interrupted by digital artifacts, glitching starfields, and the unseen pressure of descending entities. It acts as a pressurized dome over the ancient world, exhibiting traits of a corrupted simulation.",
+    "description": "Night is a colossal obsidian nebula that serves as the living embodiment of darkness. Its surface is a living tapestry of ancient Ethiopian and Egyptian glyphs, interlaced with crystalline lattices that glow faintly in bioluminescent Ge'ez script. A rigid grid of thousands of white stars forms a perfect QR‑code pattern across the sky, while a vertical dead‑pixel scanline tears through the image, revealing a dark blue wireframe grid behind the stars. Glitch artifacts and a subtle auroral shimmer add depth, creating a photorealistic, cinematic representation of time and environment.",
     "tags": [
-      "environment",
-      "celestial",
-      "atmosphere",
+      "night sky",
       "ancient-tech",
-      "abstract"
+      "glitch",
+      "grid",
+      "celestial",
+      "Ethiopian",
+      "Egyptian",
+      "bioluminescent",
+      "obsidian",
+      "QR code",
+      "time of day",
+      "environment",
+      "time"
     ],
     "visual_anatomy": [
-      "**Firmament:** Deepest obsidian black, exhibiting a subtle, synthetic texture like a turned-off screen or interference pattern rather than organic empty space.",
-      "**Starfield:** Cold white pinpricks arranged with suspicious mathematical precision. Occasional clusters flicker in unison or exhibit 'dead pixel' rectangular voids.",
-      "**Atmosphere:** Thick, particulate-heavy darkness. Light sources (moon, stars) create sharp, volumetric beams through the suspended dust.",
-      "**Anomalies:** Faint, momentary wireframe grid overlays visible in the zenith, suggesting a failing cloaking render or dimensional stress."
+      "**Body/Form:** A vast, swirling nebula of pitch‑black obsidian, its core a crystalline lattice of translucent quartz radiating faint bioluminescent glyphs etched in Ge'ez script, forming a living map of the cosmos.",
+      "**Face/Sensors:** No human face; instead, the nebula’s surface hosts a network of luminous glyphs acting as sensors, pulsing in sync with cosmic rhythms.",
+      "**Clothing/Armor:** None; the nebula itself is its armor, a protective shell of interstellar dust and ancient runes.",
+      "**Key Features:** A rigid grid of thousands of glowing white stars arranged in a perfect QR‑code pattern, a vertical dead‑pixel scanline tearing through the image, glitch artifacts, bioluminescent glyphs, and a subtle auroral shimmer."
     ],
     "evolution": [
-      "Phase 1 (Default): The quiescent but tension-filled night sky, characterized by deep blacks and subtle digital imperfections in the starfield."
+      "Phase 1 (Initial): Static night sky with square pixel stars, dark obsidian core, faint glyphs.",
+      "Phase 2 (Advanced): Grid of glowing white lights forming a QR code, vertical scanline glitch, descent of host, bioluminescent glyphs intensify."
     ],
     "props": [
-      "Artifact: Dead Pixel Cluster (Black rectangular voids in the stars)",
-      "Phenomenon: Wireframe Sky Grid (Faint blue overlay)",
-      "Atmosphere: Volumetric Moonbeams"
+      "Dark Obsidian Constellation Grid",
+      "Celestial Glyph Array",
+      "Vertical Scanline Artifact",
+      "Glitch Overlay",
+      "Bioluminescent Auroral Veil"
     ],
     "prompt_keywords": [
-      "obsidian void",
-      "glitching stars",
-      "digital firmament",
-      "ancient night",
-      "wireframe anomaly",
-      "volumetric darkness"
+      "ancient",
+      "tech",
+      "glitch",
+      "grid",
+      "night",
+      "celestial",
+      "bioluminescent",
+      "obsidian",
+      "QR",
+      "Ethiopian",
+      "Egyptian",
+      "glyph"
     ],
-    "prompt_block": "Cinematic night sky over ancient desert terrain, deep velvet blackness, stars appearing as cold data points, a subtle digital glitch tearing through the Milky Way like a corrupt video file, dead pixel artifacts in the upper atmosphere, faint blue wireframe grid visible in the zenith, volumetric lighting from a cold moon cutting through heavy dust, photorealistic 8k, Unreal Engine 5 render, ominous atmosphere.",
+    "prompt_block": "A photorealistic 8k vertical 9:16 cinematic night sky, a colossal obsidian nebula interlaced with crystalline glyphs, a rigid grid of thousands of glowing white stars forming a perfect QR code, a vertical dead‑pixel scanline tearing through the image revealing a dark blue wireframe grid behind the stars, glitch artifacts, bioluminescent glyphs pulsing in ancient Ethiopian and Egyptian script, subtle auroral shimmer, deep contrast, cinematic lighting, grounded realism, industrial mysticism",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "The standard night sky, heavy with anticipation and subtle technological glitches.",
+        "summary": "Static representation of Night as a dark obsidian nebula with a glitch‑infused star grid.",
         "prompt_keywords": [
-          "obsidian sky",
-          "glitch stars",
-          "ancient desert night",
-          "dead pixels"
+          "ancient",
+          "tech",
+          "glitch",
+          "grid",
+          "night",
+          "celestial",
+          "bioluminescent",
+          "obsidian",
+          "QR",
+          "Ethiopian",
+          "Egyptian",
+          "glyph"
         ],
-        "prompt_block": "Cinematic low angle shot of the night sky, deep obsidian void, stars arranged in rigid constellations, a single horizontal dead pixel line cutting across the moon, faint digital noise in the dark gradients, heavy volumetric atmosphere over ancient ruins, photorealistic 8k, mysterious and oppressive."
+        "prompt_block": "A photorealistic 8k vertical 9:16 cinematic night sky, a colossal obsidian nebula interlaced with crystalline glyphs, a rigid grid of thousands of glowing white stars forming a perfect QR code, a vertical dead‑pixel scanline tearing through the image revealing a dark blue wireframe grid behind the stars, glitch artifacts, bioluminescent glyphs pulsing in ancient Ethiopian and Egyptian script, subtle auroral shimmer, deep contrast, cinematic lighting, grounded realism, industrial mysticism"
       }
     ]
   },

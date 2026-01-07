@@ -1,6 +1,3 @@
-✗ Create stories\template\filmsets\story_087\DREHBUCH_HOLLYWOOD.md
-   Permission denied and could not request permission from user
-
 # DREHBUCH KAPITEL 87 - PRODUCTION READY
 
 ## CHAPTER NARRATION

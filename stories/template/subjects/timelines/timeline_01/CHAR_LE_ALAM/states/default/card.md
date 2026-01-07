@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 69 - 69
 
-**Phase Summary:** Le'alam in its standard sentinel mode, observing silently.
-**Phase Keywords:** Le'alam, idle state, vertical red eye, black glass armor, ancient robes
+**Phase Summary:** Le'alam fully activated, glyphs glowing, moving with deliberate steps.
+**Phase Keywords:** ancient-tech, Ethiopian, Egyptian, stone, obsidian, crystalline, glyphs, bioluminescent, sentient-construct, photorealistic, tactile, industrial-mysticism
 **Phase Prompt:**
-Le'alam standing guard, medium-long shot. The entity's black glass armor reflects the low light. The vertical red eye slit is glowing faintly. Heavy linen robes hang still. Background of ancient stone walls with tech-etchings. Moody lighting, sharp focus, texture-heavy, 8k.
+A towering 12‑meter sentient construct made of basalt and obsidian plates fused with copper and quartz lattices, its surface etched with ancient Ethiopian and Egyptian glyphs that pulse with bioluminescent light, a crystalline core emitting an azure glow, faint steam vents hissing from its joints, moving with deliberate, measured steps, photorealistic, tactile, cinematic, grounded realism, industrial mysticism, ancient‑tech fusion
 
 ---

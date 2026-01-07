@@ -1,0 +1,30 @@
+## [CHARACTER] Wewetu (ID: CHAR_WEWETU)
+**Description:** Wewetu is a towering sentient construct that embodies the convergence of ancient Ethiopian and Egyptian mysticism with incomprehensible, advanced technology. Rising from a basalt monolith, its core is a lattice of crystalline circuitry that glows with bioluminescent hieroglyphic sigils. The entity is armored in layered bronze plates etched with Kebra Nagast script, reinforced with titanium alloy, and its copper conduits pulse with a faint amber light. A central quartz eye, resembling a stylized obelisk, serves as the primary sensor, surrounded by arrays of micro-LEDs disguised as scarab motifs. Wewetu's presence is both awe‑inspiring and ominously grounded, reflecting a serious, cinematic tone with tactile, photorealistic detail.
+**Tags:** #sentient construct #ancient-tech #industrial mysticism #Ethiopian-Egyptian fusion #bioluminescent glyphs #crystalline hardware #photorealistic #tactile
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** A basalt core surrounded by layered obsidian plates, integrated copper conduits, and titanium‑reinforced bronze armor etched with Kebra Nagast script.
+*   **Face/Sensors:** A central obelisk‑shaped quartz eye with bioluminescent glow, surrounded by micro‑LED arrays patterned after scarab motifs, functioning as advanced visual and environmental sensors.
+*   **Clothing/Armor:** Layered bronze plates with intricate hieroglyphic etchings, reinforced with titanium alloy, and dust‑resistant plating that reflects ambient temple light.
+*   **Key Features:** Bio‑luminescent glyphs that pulse with energy, crystalline lattice circuitry embedded in the core, hydraulic pistons for arm articulation, and copper conduits that channel ambient solar energy.
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Initial Activation): Wewetu emerges from dormant stone; glyphs ignite, core warms, and copper conduits begin to pulse.
+*   Phase 2 (Guardian Ascension): Full integration of crystalline circuitry, glyphs pulse rhythmically, hydraulic pistons activate, and Wewetu gains limited mobility to patrol the temple.
+
+### 3. PROPS & EQUIPMENT
+*   Item: Scepter of Aster – an obsidian staff embedded with a sapphire core that channels energy through crystalline conduits.
+*   Item: Scroll of the Sun – a parchment scroll etched with solar glyphs that powers Wewetu's bioluminescent displays.
+
+### 4. AI PROMPT KEYWORDS
+`ancient-tech`, `Ethiopian`, `Egyptian`, `bioluminescent`, `crystalline`, `hieroglyphic`, `industrial mysticism`, `photorealistic`
+
+### 5. PROMPT BLOCK (T2I)
+A towering sentient construct named Wewetu stands within an ancient Ethiopian‑Egyptian temple, its basalt core fused with crystalline circuitry, hieroglyphic sigils glowing bioluminescently, bronze armor etched with Kebra Nagast script, copper conduits pulsing amber light, and a central quartz eye pulsing with light, cinematic photorealistic, grounded realism, industrial mysticism, tactile textures, dramatic lighting
+
+### 6. PHASE PROMPTS
+*   **Default:** Wewetu in its dormant yet active form, standing within the temple.
+    Prompt: Wewetu in its dormant yet active form, standing within the temple, basalt core, glowing glyphs, bronze armor, copper conduits, central quartz eye, cinematic photorealistic lighting
+    Keywords: ancient-tech, Ethiopian, Egyptian, bioluminescent, crystalline, hieroglyphic, industrial mysticism, photorealistic
+
+---

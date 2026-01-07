@@ -1,0 +1,95 @@
+{
+  "id": "CHAR_YIMETSU",
+  "name": "Yimetsu",
+  "type": "character",
+  "card": {
+    "description": "Yimetsu is a towering, enigmatic figure who embodies the fusion of ancient Ethiopian and Egyptian mysticism with incomprehensible, advanced technology. Standing at 2.3 meters, his frame is a blend of sinewy muscle and woven leather, reinforced with hammered bronze plates etched with celestial glyphs. Bioluminescent veins pulse along his forearms, feeding a crystalline core that hums with low-frequency resonance. His face is partially obscured by a hooded, translucent mask that houses a pair of iridescent ocular lenses, capable of scanning and projecting holographic sigils. Yimetsu carries a scepter of resonant glyphs—a slender, obsidian rod crowned with a faceted crystal that glows in sync with his pulse—and an ancient tablet of the sun, a weathered slab of basalt etched with hieroglyphs that flicker with embedded micro-LEDs. In the cinematic world, Yimetsu moves with deliberate grace, his presence a living testament to the ancient-tech ethos of grounded realism and industrial mysticism.",
+    "tags": [
+      "ancient-tech",
+      "industrial-mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "bioluminescent",
+      "glyphs",
+      "crystalline-hardware",
+      "photorealistic",
+      "tactical-guardian"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** 2.3m tall, lean musculature, covered in woven leather and bronze plates with celestial glyphs, bioluminescent veins pulsing along limbs, exposed circuitry beneath armor.",
+      "**Face/Sensors:** Hooded translucent mask with iridescent ocular lenses, sensor arrays embedded in mask, faint glow from embedded LEDs.",
+      "**Clothing/Armor:** Hooded robe of dark leather with gold filigree, reinforced bronze pauldrons, gauntlets with etched glyphs, belt of braided copper cords, boots of hardened leather.",
+      "**Key Features:** Crystalline core in chest, bioluminescent veins, glyph-etched plates, scepter of resonant glyphs, ancient tablet of the sun, low-frequency hum emanating from core."
+    ],
+    "evolution": [
+      "Phase 1 (Initial): Yimetsu in basic form, minimal tech, only bronze plates and woven leather, faint bioluminescent veins, scepter with simple obsidian tip.",
+      "Phase 2 (Advanced): Yimetsu fully integrated with crystalline core, glyphs glowing, scepter crystal resonating, tablet of the sun emitting holographic sigils, bioluminescent veins brighter, armor plates more ornate."
+    ],
+    "props": [
+      "Item: Scepter of Resonant Glyphs – slender obsidian rod crowned with faceted crystal, emits low-frequency resonance and glows with embedded micro-LEDs.",
+      "Item: Ancient Tablet of the Sun – basalt slab etched with hieroglyphs, flickering with embedded micro-LEDs, projecting holographic sigils."
+    ],
+    "prompt_keywords": [
+      "ancient-tech",
+      "bioluminescent",
+      "glyphs",
+      "crystalline",
+      "Ethiopian",
+      "Egyptian",
+      "industrial-mysticism",
+      "photorealistic",
+      "tactical-guardian"
+    ],
+    "prompt_block": "A towering, photorealistic figure standing at 2.3 meters, a fusion of ancient Ethiopian and Egyptian mysticism with advanced technology. He wears a hooded dark leather robe with gold filigree, reinforced bronze plates etched with celestial glyphs, and gauntlets with glowing bioluminescent veins. His face is partially obscured by a translucent mask housing iridescent ocular lenses and sensor arrays. A crystalline core pulses in his chest, emitting a low-frequency hum. He holds a scepter of resonant glyphs—a slender obsidian rod crowned with a faceted crystal that glows in sync with his pulse—and an ancient tablet of the sun, a basalt slab with hieroglyphs flickering with embedded micro-LEDs. The scene is cinematic, grounded realism, with dramatic lighting highlighting the metallic sheen, the glow of bioluminescence, and the intricate glyphs, all rendered in hyper-detailed photorealism.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Yimetsu in his default, advanced form, fully integrated with crystalline core and glowing glyphs.",
+        "prompt_keywords": [
+          "ancient-tech",
+          "bioluminescent",
+          "glyphs",
+          "crystalline",
+          "Ethiopian",
+          "Egyptian",
+          "industrial-mysticism",
+          "photorealistic"
+        ],
+        "prompt_block": "A towering, photorealistic figure standing at 2.3 meters, a fusion of ancient Ethiopian and Egyptian mysticism with advanced technology. He wears a hooded dark leather robe with gold filigree, reinforced bronze plates etched with celestial glyphs, and gauntlets with glowing bioluminescent veins. His face is partially obscured by a translucent mask housing iridescent ocular lenses and sensor arrays. A crystalline core pulses in his chest, emitting a low-frequency hum. He holds a scepter of resonant glyphs—a slender obsidian rod crowned with a faceted crystal that glows in sync with his pulse—and an ancient tablet of the sun, a basalt slab with hieroglyphs flickering with embedded micro-LEDs. The scene is cinematic, grounded realism, with dramatic lighting highlighting the metallic sheen, the glow of bioluminescence, and the intricate glyphs, all rendered in hyper-detailed photorealism."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_YIMETSU",
+    "name": "Yimetsu",
+    "type": "character",
+    "aliases": [
+      "Yimetsu"
+    ],
+    "roles": [
+      "unknown"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1032"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 108,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

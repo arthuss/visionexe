@@ -3,53 +3,62 @@
   "name": "Lebit'sumu",
   "type": "character",
   "card": {
-    "description": "A silent, imposing figure serving as a lesser Archive Keeper within the celestial industrial complex. Lebit'sumu functions as a living witness, recording events onto crystalline storage wafers. The entity fuses ancient priestly aesthetics with cold, precise surveillance technology, embodying the 'industrial mysticism' of the Enochian hierarchy.",
+    "description": "Lebit'sumu is a towering sentient construct that rises from the ruins of an ancient Ethiopian temple. Its body is a lattice of polished obsidian plates fused with translucent quartz cores, each plate etched with luminous hieroglyphic circuitry that pulses with bio‑luminescent energy. The joints are reinforced with carbon‑fiber tendons, and a faint mist of mineral vapor trails from them, hinting at an advanced nanofluidic cooling system. A basalt mask covers its face, housing a bioluminescent amber eye that glows softly, while micro‑sensor arrays detect electromagnetic and vibrational signatures. Bronze filigree bands encircle its limbs, inlaid with opal crystals that refract light, creating a subtle halo effect.",
     "tags": [
-      "watcher",
-      "cyborg",
-      "scribe",
-      "industrial",
-      "ancient",
-      "mystic"
+      "ancient-tech",
+      "industrial mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "bio-luminescent",
+      "crystalline",
+      "obsidian",
+      "quartz",
+      "nanotech",
+      "sentient construct"
     ],
     "visual_anatomy": [
-      "**Body/Form:** Tall, gaunt frame wrapped in heavy, multi-layered robes of woven basalt fiber and tarnished copper mesh. Posture is rigidly vertical, statue-like.",
-      "**Face/Sensors:** The face is obscured by a partially translucent obsidian visor or mask that displays faint, shifting glyphs in amber light. Where human eyes would be, complex multi-lens optical arrays adjust constantly with mechanical clicks.",
-      "**Clothing/Armor:** Ceremonial vestments reinforced with functional exo-skeletal bracing along the spine and arms to support prolonged periods of immobility. Symbols of the Watchers are etched into bronze plating on the shoulders.",
-      "**Key Features:** Hands are gloved in articulated metal, tipped with fine stylus-fingers for direct data inscription. A low-frequency hum emanates from a chest-mounted power core."
+      "**Body/Form:** 3.5‑meter tall humanoid frame made of interlocking obsidian plates fused with translucent quartz cores; plates etched with glowing hieroglyphic circuitry; joints reinforced with carbon‑fiber tendons.",
+      "**Face/Sensors:** Basalt mask with a central ocular aperture housing a bioluminescent amber core; micro‑sensor arrays embedded in the mask detect EM fields and vibrational signatures; eyes emit a soft pulsing amber light.",
+      "**Clothing/Armor:** No external clothing; body itself serves as armor; bronze filigree bands encircle waist and limbs, engraved with protective sigils and inlaid with opal crystals that refract light.",
+      "**Key Features:** Embedded crystalline lattice channels conduct energy from a central core to peripheral actuators; faint mist of mineral vapor emanates from joints; silhouette accentuated by phosphorescent dust that lingers in its wake."
     ],
     "evolution": [
-      "Phase 1 (Default): The standard operational state, fully equipped for observation and archiving duties within the industrial sanctuaries."
+      "Phase 1 (Initial Activation): Lebit'sumu emerges from dormant state, glyphs ignite, crystalline lattice pulses, mist of vapor intensifies as nanofluidic system activates, movements become deliberate and purposeful.",
+      "Phase 2 (Operational Mode): Glyphs shift into dynamic patterns reflecting internal processes, mist condenses into a fine comet‑tail mist, crystalline lattice glows brighter, basalt mask’s ocular aperture expands indicating heightened sensory input."
     ],
     "props": [
-      "Item: Crystalline Data Tablet (translucent, glowing edges)",
-      "Item: Stylus-finger extensions (integrated)"
+      "Item: Ancient scroll of runes, partially unrolled, resting on a stone pedestal near its base.",
+      "Item: Bronze scepter with a quartz tip, embedded in the construct's right hand, pulsing with the same amber light."
     ],
     "prompt_keywords": [
-      "Lebit'sumu",
-      "ancient sci-fi",
-      "industrial mystic",
-      "obsidian visor",
-      "basalt robes",
-      "cyborg scribe",
-      "cinematic lighting",
-      "photorealistic",
-      "8k"
+      "obsidian",
+      "quartz",
+      "glyphs",
+      "bio-luminescent",
+      "nanotech",
+      "ancient Ethiopian",
+      "Egyptian",
+      "sentient construct",
+      "crystalline lattice",
+      "mist vapor"
     ],
-    "prompt_block": "Full body shot of Lebit'sumu, a mystical industrial archivist in a dimly lit ancient tech corridor. Tall gaunt figure wearing heavy woven basalt robes and tarnished copper mesh. Face obscured by a translucent obsidian visor with faint glowing amber glyphs. Complex multi-lens optical sensors. Articulated metal hands with stylus fingers. Chest-mounted faint power core. Atmosphere of dust and sacred machinery. Cinematic lighting, photorealistic, octane render, 8k, tactile textures.",
+    "prompt_block": "A towering humanoid construct standing 3.5 meters tall, its body a lattice of polished obsidian plates fused with translucent quartz cores, etched with glowing hieroglyphic circuitry, emanating a faint mist of mineral vapor from its joints, wearing a basalt mask with a bioluminescent amber eye, bronze filigree bands inlaid with opal crystals, surrounded by phosphorescent dust, in a dimly lit ancient Ethiopian temple, cinematic photorealistic, grounded realism, ancient-tech industrial mysticism, photorealistic lighting, tactile textures.",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Standard operational appearance as an archive keeper.",
+        "summary": "Lebit'sumu in its dormant yet ready state, glyphs faintly glowing, mist of vapor lightly trailing.",
         "prompt_keywords": [
-          "Lebit'sumu",
-          "archive keeper",
-          "standing",
-          "neutral",
-          "observing"
+          "obsidian",
+          "quartz",
+          "glyphs",
+          "mist vapor",
+          "bioluminescent",
+          "ancient Ethiopian",
+          "Egyptian",
+          "sentient construct"
         ],
-        "prompt_block": "Full body shot of Lebit'sumu, a mystical industrial archivist in a dimly lit ancient tech corridor. Tall gaunt figure wearing heavy woven basalt robes and tarnished copper mesh. Face obscured by a translucent obsidian visor with faint glowing amber glyphs. Complex multi-lens optical sensors. Articulated metal hands with stylus fingers. Chest-mounted faint power core. Atmosphere of dust and sacred machinery. Cinematic lighting, photorealistic, octane render, 8k, tactile textures."
+        "prompt_block": "A towering humanoid construct in a dimly lit ancient Ethiopian temple, its obsidian and quartz lattice body etched with faintly glowing glyphs, a mist of mineral vapor trailing from its joints, basalt mask with a soft amber eye, bronze filigree bands with opal crystals, cinematic photorealistic, grounded realism, ancient-tech industrial mysticism, tactile textures."
       }
     ]
   },

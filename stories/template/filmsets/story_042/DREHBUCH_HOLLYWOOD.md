@@ -1,379 +1,315 @@
-✗ Create stories\template\filmsets\story_042\DREHBUCH_HOLLYWOOD.md
-   Permission denied and could not request permission from user
-
-✗ Create directory for Chapter 42 filmset
- $ New-Item -ItemType Directory -Force -Path
- "C:\Users\sasch\visionexe\stories\template\filmsets\story_042"
-   Permission denied and could not request permission from user
-
 # DREHBUCH KAPITEL 42 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Die Weisheit suchte einen Ort, um unter den Menschen zu wohnen, doch sie fand keinen Einlass in ihre verschlossenen Herzen. Wie ein goldener Hauch legte sie sich über die Welt, doch die Oberfläche war glatt und abweisend. So kehrte sie zurück in die himmlischen Hallen, und in die Leere, die sie hinterließ, strömte die Ungerechtigkeit wie eine dunkle Flut.
+NARRATOR_TEXT: Die Weisheit kam herab wie ein Update für ein veraltetes System, präzise und voller Licht, doch die Schnittstellen der Menschen waren versiegelt. Sie fand keinen Port, keinen kompatiblen Eingang in ihren grauen Hüllen, und so zog sie sich zurück in die Kälte des Servers. In diesem Vakuum erwachte ein anderer Code – ein dunkler Algorithmus, der nicht fragte, sondern flutete.
 
-## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:05] [The Clean Room]
-**Action:** Ein unendlicher weißer Raum (The Clean Room). Ein goldener Daten-Cluster (Wisdom) formiert sich im Zentrum. Absolute Symmetrie.
-**Dialog:** "Wisdom found no place where she might dwell..."
+## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:08] [The Server Rack]
+**Action:** Der Himmel manifestiert sich als unendliches, vertikales Server-Rack (The Heavens). Ein massives Glasfaserkabel aus reinem weißen Licht (The Beam) beginnt den Abstieg.
+**Dialog:** (No Dialog)
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "wide", "environment": "The Clean Room (Heaven Server)", "env_change": true, "actors": [{"name": "Wisdom", "phase": "Data-Construct", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Static, wide symmetrical framing (God-Eye)", "mood": ["sterile", "divine"], "director_intent": "Establish the perfection of the source code before the descent.", "start_image_keywords": ["white void", "golden particles"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "The Heavens / Server Farm", "env_change": true, "actors": [], "props": [], "camera": "Slow Tilt Down (God-Eye), establishing verticality", "mood": ["divine", "technological"], "director_intent": "Visualize the divine realm as a high-tech data center initiating a deployment.", "start_image_keywords": ["server rack sky", "optical cable beam"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. A sterile, infinite white void representing a server clean room. In the center, a dense cluster of golden light particles and data streams forms an abstract, ethereal shape (Wisdom). High-key lighting, soft shadows, perfect symmetry. Ultra-clean textures, 8k resolution, cinematic composition. No visible walls, just infinite white space.
+Vertical 9:16 aspect ratio. A hyper-realistic view of "The Heavens" visualized as an infinite, vertical server farm. Countless rows of cold blue status LEDs extend upwards into the void. In the center, a massive, solid cylinder of pure white light (an optical fiber beam) is descending vertically. The aesthetic is clean, sterile, and symmetrical. 8k resolution, cinematic lighting, tech-noir atmosphere.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Wisdom Entity. **Form:** Abstract cluster of golden light points and data streams. **Material:** `GOLDEN_LIGHT_PARTICLES`. Ethereal, glowing, non-solid. **Behavior:** Gently swirling and condensing in the center.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** None. Pure energy signature.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Clean Room (Heaven). **Terrain:** Infinite white floor, seamless horizon. **Atmosphere:** Sterile, dust-free, absolute clarity. **Lighting:** Omnidirectional soft white light, no harsh shadows.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Palette:** White, Gold, Pale Yellow. **Contrast:** Low contrast, high key.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Static, God-Eye view. **Lens:** Wide angle. **Action:** The golden particles slowly gather and pulse in the center of the frame. **Style:** Minimalist, sci-fi, ethereal.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-A pure, high-pitch synthetic sine wave, like a glass harmonica. Absolute silence in the background. No wind, no noise. A feeling of perfect digital order.
-
-## [ACT 1] [SCENE 1.2] [Timecode: 00:05-00:10] [The Iris Opens]
-**Action:** Der Boden des Himmels öffnet sich wie eine mechanische Iris-Blende. Blick hinab auf die staubige Erde.
-**Dialog:** "...then a dwelling-place was assigned her in the heavens."
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "The Clean Room / Earth View", "env_change": false, "actors": [], "props": [], "camera": "Top-Down (Bird's Eye), slow zoom into opening", "mood": ["anticipation", "mechanical"], "director_intent": "Show the physical separation between the clean server and the dusty sandbox.", "start_image_keywords": ["mechanical iris", "opening floor"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Top-down view of a pristine white floor opening up like a massive mechanical camera iris. Through the circular opening, a dusty, desaturated landscape (Earth) is visible far below. The edges of the iris are sharp, metallic, and precise. Contrast between the clean white foreground and the brown/grey dusty background below.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Mechanical Iris. **Form:** Circular aperture. **Material:** `WHITE_MATTE_METAL`. **Behavior:** Opening smoothly with mechanical precision.
+> **Subject:** The Divine Beam. **Form:** Solid cylindrical shaft of light. **Material:** `PURE_OPTICAL_LIGHT`. **Behavior:** Descending smoothly, pulsating with data transmission.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
 > **Gear:** N/A.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Boundary between Heaven and Earth. **Terrain:** White floor above, dusty terrain visible below. **Atmosphere:** Clear above, hazy below. **Lighting:** Bright white from above, casting shadows into the opening.
+> **Location:** The Cloud / Mainframe. **Terrain:** Vertical server racks. **Atmosphere:** Vacuum, sterile. **Lighting:** Cold blue LED ambiance, bright white core.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Palette:** White, Grey, Brown. **Contrast:** High contrast between layers.
+> **Palette:** Deep Blue, Stark White. **Contrast:** Very High.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Top-down, slow zoom in. **Lens:** 24mm. **Action:** The iris blades slide open to reveal the world below. **Style:** Technical, precise, sci-fi.
+> **Camera:** Slow vertical tilt down. **Lens:** 14mm Ultra-Wide. **Action:** The camera follows the tip of the beam as it drops. **Style:** Sci-Fi, Industrial.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-The smooth, heavy hum of a servo-motor operating a massive mechanism. As the iris opens, the sound of rushing wind begins to rise, cutting through the silence.
+A deep, steady server drone (60Hz hum) layered with high-pitched, rhythmic data chirps like a modem handshake. The sound of massive cooling fans spinning.
 
-## [ACT 1] [SCENE 1.3] [Timecode: 00:10-00:15] [The Ingress]
-**Action:** Ein vertikaler goldener Strahl stürzt auf die Erde herab. Hitzeflimmern und atmosphärische Verzerrung.
-**Dialog:** "Wisdom went forth to make her dwelling among the children of men..."
+## [ACT 1] [SCENE 1.2] [Timecode: 00:08-00:14] [The Impact]
+**Action:** Der Lichtstrahl trifft auf die "Erde" – ein flaches, graues Developer-Grid. Keine Explosion, sondern geometrische Wellen, die sich radial ausbreiten.
+**Dialog:** (No Dialog)
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "wide", "environment": "Atmosphere / Earth Surface", "env_change": true, "actors": [{"name": "Wisdom", "phase": "Data-Stream", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Tracking Shot (following the beam down)", "mood": ["speed", "impact"], "director_intent": "Visualize the data transfer as a physical, high-velocity event.", "start_image_keywords": ["golden beam", "heat haze"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "The Sandbox (Default Grid)", "env_change": true, "actors": [], "props": [], "camera": "Tracking Shot, following the beam tip to impact", "mood": ["impact", "mathematical"], "director_intent": "Show the collision of high-res divine data with the low-res reality.", "start_image_keywords": ["grey grid floor", "light impact ripples"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. A vertical beam of golden light and data particles cutting through a hazy, grey atmosphere. The air around the beam is distorted by heat lensing (schlieren effect). Below, a barren, rocky landscape awaits impact. The beam looks like a solid bar of light. Cinematic motion blur, high velocity feel.
+Vertical 9:16 aspect ratio. The moment of impact between a vertical column of white light and a flat, matte grey ground texture marked with a subtle UV checkerboard pattern (Default Grid). Instead of dust, the impact creates perfect geometric ripples and concentric circles of golden wireframe lines spreading outwards. No organic chaotic debris, only mathematical precision. Minimalist, high contrast.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Wisdom Data Stream. **Form:** Vertical column of light. **Material:** `GOLDEN_PLASMA`. **Behavior:** Falling rapidly, displacing air.
+> **Subject:** Impact Zone. **Form:** Geometric Ripples. **Material:** `GOLD_WIREFRAME_LIGHT`. **Behavior:** Expanding radially, overwriting the grey grid.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
 > **Gear:** N/A.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Earth Atmosphere. **Terrain:** Sky to Ground. **Atmosphere:** Dusty, turbulent. **Lighting:** The beam is the primary light source, illuminating the dust.
+> **Location:** The Sandbox. **Terrain:** Flat Grey Developer Grid. **Atmosphere:** Clear, sharp. **Lighting:** The beam acts as the primary light source.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Palette:** Gold, Grey, Beige. **Contrast:** High.
+> **Palette:** Grey, White, Gold. **Contrast:** High.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Vertical tracking shot, following the beam. **Lens:** Telephoto. **Action:** The beam cuts through the clouds/haze and strikes towards the ground. **Style:** Action-oriented, kinetic.
+> **Camera:** Tracking shot moves down with beam, then stops at impact. **Lens:** 24mm. **Action:** The ripples expand instantly upon contact. **Style:** Simulation visuals, clean.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A digital "bass drop" sound effect, transitioning into the roar of atmospheric entry. A high-frequency data-stream screech overlaid on wind noise.
+A sharp, resonant "whoosh" of air displacement ending in a pure, crystal-clear bell chime (432Hz). No explosion rumble.
 
-## [ACT 2] [SCENE 2.1] [Timecode: 00:15-00:20] [Surface Tension]
-**Action:** Makro-Aufnahme. Goldene Partikel berühren menschliche Haut, perlen aber ab wie Quecksilber. Keine Penetration.
-**Dialog:** "...and found no dwelling-place."
+## [ACT 1] [SCENE 1.3] [Timecode: 00:14-00:20] [The Lidar Scan]
+**Action:** Goldene Laser-Linien scannen die Human-Nodes (gesichtslose Silhouetten). Targeting-Reticles versuchen, auf die Figuren einzuloggen.
+**Dialog:** (No Dialog)
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "Human Skin Surface", "env_change": true, "actors": [{"name": "Human Node", "phase": "Proxy", "presence": "on_screen", "focus": "primary"}, {"name": "Wisdom", "phase": "Nanite-Swarm", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Extreme Close-Up (Macro 85mm)", "mood": ["rejection", "microscopic"], "director_intent": "Show the incompatibility at a biological/hardware level.", "start_image_keywords": ["macro skin", "golden droplets"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "actors", "shot_type": "medium", "framing": "medium", "environment": "The Sandbox", "env_change": false, "actors": [{"name": "Human Nodes", "phase": "Proxy", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Whip Pan (Lateral) to follow scan lines", "mood": ["searching", "analytical"], "director_intent": "Wisdom is actively searching for a compatible host.", "start_image_keywords": ["lidar scan", "faceless silhouettes"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Extreme macro shot of weathered human skin, pores visible, covered in dust. Tiny, glowing golden droplets (liquid data) are sitting on the surface of the skin, maintaining a spherical shape due to high surface tension. They look like mercury but gold. They are not soaking in. High detail, realistic skin texture, subsurface scattering.
+Vertical 9:16 aspect ratio. Medium shot of humanoid figures standing in the grey void. They are featureless silhouettes, rendered with a matte grey "Clay" texture. A horizontal sweep of golden laser light (Lidar scan) cuts across them. Where the laser hits, complex HUD overlays and targeting reticles momentarily appear, attempting to analyze the figures. Tech-overlay aesthetic.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Human Skin & Golden Nanites. **Form:** Organic surface vs Liquid spheres. **Material:** `SKIN_PORES_DUST` vs `LIQUID_GOLD`. **Behavior:** The droplets roll off the skin without leaving a trace.
+> **Subject:** Human Proxies. **Form:** Faceless, clay-like mannequins. **Material:** `MATTE_GREY_CLAY`. **Behavior:** Standing static, being scanned.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
 > **Gear:** N/A.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Micro-surface of a human face/hand. **Terrain:** Skin ridges. **Atmosphere:** N/A. **Lighting:** Soft macro lighting, reflections on the gold droplets.
+> **Location:** The Sandbox. **Terrain:** Grey Grid. **Atmosphere:** Filled with scanning lasers. **Lighting:** Dynamic laser lighting.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Palette:** Beige, Brown, Gold. **Contrast:** Texture contrast.
+> **Palette:** Grey, Gold Laser. **Contrast:** Medium.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Macro lens, shallow depth of field. **Lens:** 100mm Macro. **Action:** The golden droplets try to merge but fail, rolling off the skin. **Style:** Scientific, biological.
+> **Camera:** Lateral whip pan following the scan. **Lens:** 50mm. **Action:** The scan lines move fast, reticles lock on and flicker. **Style:** HUD/UI Analysis.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Tiny, crisp crackling sounds, like static electricity discharge. The sound of liquid rolling on a hydrophobic surface.
+Rhythmic sonar pings. Fast electronic clicking sounds synchronized with the visual scan lines.
 
-## [ACT 2] [SCENE 2.2] [Timecode: 00:20-00:25] [The Unresponsive Crowd]
-**Action:** Menschen stehen starr da (Read-Only). Der goldene Nebel wirbelt frustriert um ihre Köpfe.
-**Dialog:** (Silence)
+## [ACT 2] [SCENE 2.1] [Timecode: 00:20-00:26] [Handshake Failure]
+**Action:** Makro-Aufnahme einer "Hand". Goldene Schaltkreise projizieren sich auf die graue Haut, rutschen aber ab wie Öl. Funken (Z-Fighting).
+**Dialog:** (No Dialog)
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actors", "shot_type": "medium", "framing": "medium", "environment": "The Sandbox (Earth)", "env_change": false, "actors": [{"name": "Crowd", "phase": "Proxy", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Handheld, orbiting around heads, shaky", "mood": ["confusion", "stagnation"], "director_intent": "Portray the humans as unresponsive hardware nodes.", "start_image_keywords": ["frozen crowd", "golden fog"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "mixed", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "Human Skin Surface", "env_change": true, "actors": [{"name": "Human Node", "phase": "Proxy", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Macro Lens (85mm+), shallow depth of field", "mood": ["glitch", "failure"], "director_intent": "Depict the incompatibility as a physical rejection of the software.", "start_image_keywords": ["macro skin", "glitch sparks"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. A group of humans in simple, weathered linen clothes standing perfectly still in a dusty landscape. Their eyes are open but blank (system idle). A swirling mist of golden light surrounds their heads, moving erratically, but the people do not react. The background is a desolate, low-detail desert.
+Vertical 9:16 aspect ratio. Extreme macro close-up of a grey, clay-like skin surface. Glowing golden circuit traces are trying to form on the surface but are physically sliding off, failing to adhere. Where they detach, jagged digital sparks and Z-fighting artifacts (flickering polygons) erupt. The skin looks dull and non-conductive. High detail, technical glitch aesthetic.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Human Crowd. **Form:** Static figures. **Material:** `DUSTY_LINEN_CLOTH`. **Behavior:** Completely motionless, no blinking.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** Simple robes.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Sandbox. **Terrain:** Flat, dusty ground. **Atmosphere:** Hazy, filled with golden swirling light. **Lighting:** Diffuse daylight.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Palette:** Beige, Grey, Gold. **Contrast:** Medium.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Handheld, orbiting, slightly shaky (micro-tremor). **Lens:** 35mm. **Action:** The camera moves around the frozen figures while the golden light moves rapidly. **Style:** Unsettling, glitchy.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-A distorted "Windows Critical Stop" ping sound, repeated and verbed out. Low-level wind noise. No human sounds (no breathing).
-
-## [ACT 2] [SCENE 2.3] [Timecode: 00:25-00:30] [The Abort]
-**Action:** Der "Install Wizard" bricht ab. Partikel frieren ein, Schwerkraft kehrt sich um.
-**Dialog:** "Wisdom returned to her place..."
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "low_angle", "framing": "wide", "environment": "The Sandbox (Earth)", "env_change": false, "actors": [{"name": "Wisdom", "phase": "Nanite-Swarm", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle, looking straight up", "mood": ["reversal", "failure"], "director_intent": "The moment of system rollback.", "start_image_keywords": ["floating particles", "upward gravity"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Low angle shot looking straight up at the sky. Thousands of golden particles are suspended in mid-air, frozen in time. The sky is a flat, static grey. The particles are arranged in vertical streaks, ready to ascend. A sense of sudden stillness before movement.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Golden Particles. **Form:** Suspended dust/light. **Material:** `GOLD_LIGHT`. **Behavior:** Frozen, then suddenly accelerating upwards.
+> **Subject:** Circuit Projection on Skin. **Form:** Light trying to bond with matter. **Material:** `GOLD_LIGHT` vs `GREY_CLAY`. **Behavior:** Sliding, distorting, sparking.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
 > **Gear:** N/A.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Sandbox. **Terrain:** Sky view. **Atmosphere:** Grey, oppressive. **Lighting:** Flat.
+> **Location:** Micro-surface. **Terrain:** Skin texture. **Atmosphere:** N/A. **Lighting:** Glow from the failing circuits.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Palette:** Grey, Gold. **Contrast:** High.
+> **Palette:** Grey, Gold, Electric Blue (Sparks). **Contrast:** High.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Static low angle. **Lens:** 24mm. **Action:** The particles freeze for a split second, then shoot upwards at high speed. **Style:** Glitch, reverse-physics.
+> **Camera:** Macro 100mm. **Lens:** Shallow DOF. **Action:** The light patterns distort and break apart. **Style:** Glitch art, hardware failure.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-The screech of a modem disconnecting (handshake fail), followed by a sharp vacuum suction sound (whoosh).
+Loud, distorted static buzz. The sound of an electrical short circuit (zap). A low-pitched "Access Denied" error tone.
 
-## [ACT 2] [SCENE 2.4] [Timecode: 00:30-00:35] [The Egress]
-**Action:** Der goldene Nebel wird rückwärts in den Himmel gesaugt. Die Iris-Blende schließt sich.
-**Dialog:** "...and took her seat among the angels."
+## [ACT 2] [SCENE 2.2] [Timecode: 00:26-00:30] [The Rejection]
+**Action:** Die Nodes drehen sich weg. Das Licht flackert (Voltage Drop). Das Bild leidet unter Datamoshing-Effekten.
+**Dialog:** (No Dialog)
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "The Sandbox / Sky", "env_change": false, "actors": [], "props": [], "camera": "Wide Shot, ground perspective", "mood": ["finality", "departure"], "director_intent": "The door is closing. Opportunity lost.", "start_image_keywords": ["closing iris", "sky"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "actors", "shot_type": "medium", "framing": "medium", "environment": "The Sandbox", "env_change": false, "actors": [{"name": "Human Nodes", "phase": "Proxy", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Handheld, Shaky, erratic movement", "mood": ["chaos", "instability"], "director_intent": "The system connection is breaking down, causing visual artifacts.", "start_image_keywords": ["datamoshing", "turning away"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Wide shot from the ground looking up. The massive mechanical iris in the white sky is sliding shut. The last rays of golden light are being cut off. The sky is turning a dull, lifeless grey as the "heaven" layer is sealed off.
+Vertical 9:16 aspect ratio. Medium shot of grey silhouette figures turning their backs to the camera. The scene is heavily corrupted by datamoshing artifacts—pixels are dragging and smearing. The golden light in the air is dimming and flickering rapidly. The environment looks unstable, like a crashing video driver. Chaos and motion blur.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Mechanical Iris. **Form:** Closing aperture. **Material:** `WHITE_METAL`. **Behavior:** Sliding shut rapidly.
+> **Subject:** Rejecting Crowd. **Form:** Silhouettes. **Material:** `GREY_CLAY`. **Behavior:** Turning away abruptly.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
 > **Gear:** N/A.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Sky. **Terrain:** N/A. **Atmosphere:** Darkening. **Lighting:** Dimming as the door closes.
+> **Location:** The Sandbox. **Terrain:** Glitching Grid. **Atmosphere:** Flickering light. **Lighting:** Stroboscopic dimming.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Palette:** White, Grey. **Contrast:** High.
+> **Palette:** Grey, Fading Gold. **Contrast:** Low (Muddy).
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Static. **Lens:** 35mm. **Action:** The iris closes completely with a heavy sense of weight. **Style:** Industrial, final.
+> **Camera:** Handheld, very shaky. **Lens:** 35mm. **Action:** The image smears and breaks as the figures move. **Style:** Datamosh, Corrupted File.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A high-speed tape rewind sound effect. A loud, heavy metallic "clang" as the iris locks shut.
+Heavy sub-bass thuds mimicking a skipping heartbeat. A high-pass filter sweeps down, muffling all sound into a dull underwater roar.
 
-## [ACT 2] [SCENE 2.5] [Timecode: 00:35-00:40] [The Void]
-**Action:** Die Erde ist grau und entsättigt. Risse im Boden zeigen Polygon-Kanten.
-**Dialog:** (Silence)
+## [ACT 2] [SCENE 2.3] [Timecode: 00:30-00:35] [Rollback]
+**Action:** Der Lichtstrahl wird im Zeitraffer rückwärts in den Himmel gesaugt. Reverse-Playback Physik.
+**Dialog:** (No Dialog)
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "The Thirsty Land", "env_change": true, "actors": [], "props": [], "camera": "Static Landscape Shot", "mood": ["desolation", "emptiness"], "director_intent": "Establish the 'Thirsty Land' - a simulation running on low resources.", "start_image_keywords": ["cracked earth", "low poly mountains"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "environment", "shot_type": "low_angle", "framing": "wide", "environment": "The Sandbox / Sky", "env_change": false, "actors": [], "props": [], "camera": "Low Angle, Looking Straight Up", "mood": ["reversal", "unnatural"], "director_intent": "Visualize the withdrawal of grace as a system rollback command.", "start_image_keywords": ["reverse light beam", "vacuum effect"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. A desolate, grey desert landscape. The ground is cracked dry earth. In the background, mountains look slightly geometric, with sharp, unnatural edges (minimalist topology), suggesting a low-resource simulation. The lighting is flat and shadowless (ambient occlusion only). No vegetation, no life.
+Vertical 9:16 aspect ratio. Low angle looking straight up into the server-rack sky. The massive column of white light is retracting upwards. Debris and dust particles are flying DOWNWARDS (reverse gravity for the atmosphere, but the beam moves up). The beam edges are sharp. The sky is beginning to close like a mechanical shutter. Unnatural, rewind motion blur.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Desert Landscape. **Form:** Barren terrain. **Material:** `DRY_GREY_EARTH`. **Behavior:** Static, lifeless.
+> **Subject:** Retracting Beam. **Form:** Cylinder of Light. **Material:** `PURE_LIGHT`. **Behavior:** Moving rapidly upwards (Rewind).
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
 > **Gear:** N/A.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Thirsty Land. **Terrain:** Cracked, geometric. **Atmosphere:** Still, dead air. **Lighting:** Flat grey.
+> **Location:** Sky. **Terrain:** N/A. **Atmosphere:** Turbulent reverse vacuum. **Lighting:** Bright center, dark edges.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Palette:** Grey, Desaturated Brown. **Contrast:** Low.
+> **Palette:** White, Black, Blue. **Contrast:** Extreme.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Completely static. **Lens:** 24mm. **Action:** Nothing moves. Dust motes hang in the air. **Style:** Depressive, empty.
+> **Camera:** Static Low Angle. **Lens:** 24mm. **Action:** The beam sucks back into the sky. **Style:** Time-reversal visual effect.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Absolute silence, punctuated only by a faint, dry whistling wind.
+A "reverse cymbal" swell sound effect. The sound of a vacuum cleaner shutting off abruptly. Sudden silence at the end.
 
-## [ACT 3] [SCENE 3.1] [Timecode: 00:40-00:45] [The Trigger]
-**Action:** Untergrund. Rotes Notstrom-Licht flackert. Schwarzes Ferrofluid beginnt zu pulsieren.
-**Dialog:** "And unrighteousness went forth from her chambers..."
+## [ACT 2] [SCENE 2.4] [Timecode: 00:35-00:40] [The Mesh Break]
+**Action:** Totale Dunkelheit, dann offenbart sich die "Thirsty Land"-Textur: Ein Wireframe-Mesh mit fehlenden Polygonen.
+**Dialog:** (No Dialog)
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "close_up", "framing": "close_up", "environment": "The Rootkit (Underground)", "env_change": true, "actors": [], "props": [], "camera": "Dutch Angle, claustrophobic", "mood": ["danger", "industrial"], "director_intent": "The virus wakes up in the dark corners of the system.", "start_image_keywords": ["red light", "black fluid"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "The Thirsty Land (Wireframe)", "env_change": true, "actors": [], "props": [], "camera": "Static Wide Shot", "mood": ["desolation", "empty"], "director_intent": "The simulation has run out of memory. Show the bare bones of the reality.", "start_image_keywords": ["wireframe landscape", "missing polygons"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Inside a dark, cramped underground cavern. The walls are rough rock. A pool of black, reflective liquid (ferrofluid) is on the floor. It is illuminated by a flashing, alarm-red emergency light. The liquid is forming spikes and ripples, reacting to a magnetic field. Industrial, ominous atmosphere.
+Vertical 9:16 aspect ratio. A desolate digital landscape representing "The Thirsty Land". The ground texture has failed to load, revealing a white wireframe mesh over a black void. Some polygons are completely missing (holes in the world). The horizon is a jagged line. No light sources, just the emissive glow of the wireframe lines. Cold, empty, unfinished.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Iniquity Fluid. **Form:** Black Ferrofluid. **Material:** `BLACK_CHROME_SLUDGE`. **Behavior:** Pulsating, spiking, bubbling aggressively.
+> **Subject:** Broken Simulation. **Form:** Wireframe Topography. **Material:** `GLOWING_WHITE_LINES` on `BLACK_VOID`. **Behavior:** Static, occasional flicker of a line.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
 > **Gear:** N/A.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Underground Chamber. **Terrain:** Rock/Metal. **Atmosphere:** Damp, dark. **Lighting:** Strobing red light.
+> **Location:** The Thirsty Land. **Terrain:** Geometric Hills. **Atmosphere:** Vacuum. **Lighting:** Emissive Wireframe.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Palette:** Black, White. **Contrast:** Binary.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Static. **Lens:** 35mm. **Action:** A slight glitch pulse runs through the ground mesh. **Style:** Wireframe debug view.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Hollow wind blowing over metal pipes. A subtle low-frequency hum. Minimalist and lonely.
+
+## [ACT 3] [SCENE 3.1] [Timecode: 00:40-00:46] [Chamber Opening]
+**Action:** Schwarzes Ferrofluid (Iniquity) bricht aus den Rissen (den Missing Polygons) hervor. Es bildet Stacheln.
+**Dialog:** (No Dialog)
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "high_angle", "framing": "close_up", "environment": "The Rootkit", "env_change": true, "actors": [], "props": [], "camera": "Crash Zoom In, High Angle", "mood": ["threat", "aggressive"], "director_intent": "The malware enters through the system vulnerabilities.", "start_image_keywords": ["ferrofluid spikes", "black liquid"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio. High angle close-up of a "hole" in the wireframe ground. Thick, glossy black ferrofluid is bubbling up from the void. It forms sharp, magnetic spikes as it rises, looking aggressive and alien. The fluid is highly reflective (black chrome). It contrasts sharply with the white wireframe lines.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Subject:** Iniquity Fluid. **Form:** Ferrofluid Spikes. **Material:** `BLACK_LIQUID_CHROME`. **Behavior:** Spiking rapidly, pulsating magnetically.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Gear:** N/A.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** The Void Crack. **Terrain:** Wireframe Edge. **Atmosphere:** Dark. **Lighting:** Reflections on the black fluid.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Palette:** Black, White reflections. **Contrast:** Maximum.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Crash zoom in. **Lens:** 50mm. **Action:** The fluid expands aggressively upwards. **Style:** Macro physics simulation.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Wet, viscous squelching sounds mixed with a deep mechanical grinding roar.
+
+## [ACT 3] [SCENE 3.2] [Timecode: 00:46-00:54] [The Flood]
+**Action:** Die schwarze Masse flutet das Gitter. Sie reflektiert rote Error-Lights.
+**Dialog:** (No Dialog)
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "low_angle", "framing": "wide", "environment": "The Sandbox", "env_change": false, "actors": [], "props": [], "camera": "Tracking Shot, Low to ground, retreating from flood", "mood": ["chase", "terror"], "director_intent": "The uncontrolled spread of the corruption algorithm.", "start_image_keywords": ["black flood", "red reflections"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio. Low angle tracking shot just inches above the ground. A tsunami of black liquid chrome is rushing towards the camera, covering the wireframe grid. The surface of the black liquid reflects distant, flashing red error lights from the sky. The fluid movement is chaotic and fast.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Subject:** Black Flood. **Form:** Rushing Liquid Wall. **Material:** `BLACK_CHROME`. **Behavior:** Flowing rapidly, consuming the floor.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Gear:** N/A.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** The Grid. **Terrain:** Flat. **Atmosphere:** Red Alert. **Lighting:** Red strobe reflections.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
 > **Palette:** Black, Red. **Contrast:** High.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Dutch angle, handheld feel. **Lens:** 50mm. **Action:** The fluid begins to rise and churn violently. **Style:** Horror, industrial.
+> **Camera:** Fast backward tracking. **Lens:** 14mm. **Action:** The fluid chases the lens. **Style:** Disaster movie, high speed.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep, industrial rumbling, like massive server fans spinning up to 100%. A wet, squelching sound.
+The sound of rushing water, heavily amplified and distorted (clipped). A background siren wail.
 
-## [ACT 3] [SCENE 3.2] [Timecode: 00:45-00:50] [The Eruption]
-**Action:** Die schwarze Masse bricht aus den Rissen der Wüste hervor. "Texture Bleed".
-**Dialog:** "Whom she sought not she found, and dwelt with them..."
+## [ACT 3] [SCENE 3.3] [Timecode: 00:54-01:02] [Assimilation]
+**Action:** Die Flüssigkeit trifft die Nodes. Sie absorbieren es sofort und verwandeln sich in schwarze Chrom-Statuen.
+**Dialog:** (No Dialog)
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "low_angle", "framing": "wide", "environment": "The Thirsty Land", "env_change": false, "actors": [], "props": [], "camera": "Ground Level, lens gets splashed", "mood": ["chaos", "violation"], "director_intent": "The corruption breaches the surface layer.", "start_image_keywords": ["black eruption", "cracked earth"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "actors", "shot_type": "medium", "framing": "medium", "environment": "The Sandbox", "env_change": false, "actors": [{"name": "Human Nodes", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Orbiting Shot", "mood": ["transformation", "dark"], "director_intent": "The users accept the malware because they are empty.", "start_image_keywords": ["black chrome statues", "humanoid silhouettes"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Ground level shot. A fissure in the dry grey earth. Thick, black, glossy sludge is erupting from the crack like a geyser. It looks like oil or liquid chrome. The liquid is splashing towards the camera. High contrast between the matte grey ground and the shiny black fluid.
+Vertical 9:16 aspect ratio. Medium shot of the humanoid figures. The moment the black fluid touches them, their matte grey texture is instantly replaced by a highly reflective black chrome material. They look like liquid metal statues. They do not fight it; they absorb it. The environment is reflected in their new glossy bodies.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Iniquity Eruption. **Form:** Liquid Geyser. **Material:** `BLACK_VISCOUS_FLUID`. **Behavior:** Erupting under pressure, flowing rapidly.
+> **Subject:** Corrupted Nodes. **Form:** Humanoid Statues. **Material:** `BLACK_LIQUID_METAL`. **Behavior:** Texture transition from Grey Matte to Black Gloss.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
 > **Gear:** N/A.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Thirsty Land. **Terrain:** Cracked Earth. **Atmosphere:** Hazy. **Lighting:** Diffuse daylight, reflections on fluid.
+> **Location:** The Sandbox. **Terrain:** Flooded. **Atmosphere:** Dark. **Lighting:** Specular highlights on the black bodies.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Palette:** Grey, Black. **Contrast:** High.
+> **Palette:** Black, Silver highlights. **Contrast:** High reflectivity.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Ground level, static but shaking from impact. **Lens:** 24mm. **Action:** The fluid bursts out and flows towards the lens. **Style:** Disaster footage.
+> **Camera:** Orbiting. **Lens:** 50mm. **Action:** The texture spreads up their bodies instantly. **Style:** T-1000 effect, dark.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A wet, heavy splashing sound. A distant alarm siren. The sound of viscous liquid moving fast.
+A distinct liquid absorption sound (slurp). A sharp, satisfied metallic "click" as the transformation completes.
 
-## [ACT 3] [SCENE 3.3] [Timecode: 00:50-00:55] [The Spread]
-**Action:** Zeitraffer. Das schwarze Fluid füllt die Risse rasend schnell. Es bedeckt die Füße der Menschen.
-**Dialog:** "...as rain in a desert..."
+## [ACT 3] [SCENE 3.4] [Timecode: 01:02-01:10] [System Critical]
+**Action:** Totale. Die Wüste ist ein schwarzer Ozean. Nur die korrumpierten Nodes leuchten schwach (Black-Light).
+**Dialog:** (No Dialog)
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "high_angle", "framing": "wide", "environment": "The Thirsty Land", "env_change": false, "actors": [{"name": "Crowd", "phase": "Proxy", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "High Angle (Top Down), rotating", "mood": ["overwhelming", "viral"], "director_intent": "Show the exponential spread of the corruption.", "start_image_keywords": ["black veins", "feet in sludge"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Corrupted World", "env_change": true, "actors": [], "props": [], "camera": "Drone Rising / Pull Back", "mood": ["dystopia", "finality"], "director_intent": "The new world order is established. A dark, reflective mirror world.", "start_image_keywords": ["black ocean", "dark horizon"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. High angle shot looking down at the cracked earth. The cracks are filling rapidly with black liquid, creating a dark web-like pattern across the ground. The feet of human figures (wearing simple sandals/rags) are visible, standing passively as the black sludge surrounds them.
+Vertical 9:16 aspect ratio. Extreme wide shot from high altitude. The entire landscape is a perfectly flat, black reflective ocean. The sky is pitch black. Scattered across the surface are hundreds of faint, violet-black glowing silhouettes (the assimilated nodes). It looks like a dead system in standby mode. Ominous, quiet, final.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Spreading Corruption. **Form:** Liquid filling cracks. **Material:** `BLACK_FLUID`. **Behavior:** Moving fast, viral expansion.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** Human feet/sandals.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Thirsty Land. **Terrain:** Cracked ground. **Atmosphere:** N/A. **Lighting:** Flat.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Palette:** Grey, Black, Skin tone. **Contrast:** High.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Top-down, slowly rotating. **Lens:** 35mm. **Action:** Time-lapse speed. The black lines expand and connect. **Style:** Viral map.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud hissing, like acid on metal. Chaotic white noise rising in volume.
-
-## [ACT 3] [SCENE 3.4] [Timecode: 00:55-01:00] [Total Corruption]
-**Action:** Die Landschaft ist ein Spiegel aus schwarzem Chrom. Menschen sinken ein. Glitch-Artefakte.
-**Dialog:** "...and dew on a thirsty land."
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Corrupted Landscape", "env_change": true, "actors": [{"name": "Crowd", "phase": "Proxy", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Wide Shot, Dolly Out", "mood": ["dystopia", "glitch"], "director_intent": "The transformation is complete. The world is now a reflection of iniquity.", "start_image_keywords": ["black mirror landscape", "sinking people"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Wide shot of the landscape which is now entirely covered in a smooth, reflective black liquid surface (black chrome). The sky is reflected perfectly in the black ground. Human figures are partially submerged, sinking into the fluid. Digital glitch artifacts (pixel sorting, chromatic aberration) distort the edges of the frame.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Corrupted World. **Form:** Liquid Mirror Surface. **Material:** `BLACK_CHROME`. **Behavior:** Rippling, consuming.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** Submerged humans.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Corrupted Earth. **Terrain:** Liquid surface. **Atmosphere:** Glitchy. **Lighting:** Reflections of the grey sky.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Palette:** Black, Grey, Silver. **Contrast:** High reflectivity.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Dolly out. **Lens:** 24mm. **Action:** The camera pulls back to reveal the extent of the flood. Digital artifacts flicker. **Style:** Dystopian, glitch art.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Distorted bass rumble. Digital stuttering sounds (buffer underrun).
-
-## [ACT 3] [SCENE 3.5] [Timecode: 01:00-01:05] [System Lock]
-**Action:** Bild friert ein. Rotes Overlay "CONNECTION LOST". Black Screen.
-**Dialog:** (End)
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "close_up", "framing": "close_up", "environment": "Terminal Screen", "env_change": true, "actors": [], "props": [], "camera": "Static", "mood": ["termination", "error"], "director_intent": "End the simulation session.", "start_image_keywords": ["connection lost", "red text"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "ui_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. A black screen with a glowing red error message in the center: "CONNECTION LOST" in a monospace font. Below it, a Ge'ez symbol blinking. CRT scanlines and slight chromatic aberration.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Error Screen. **Form:** Text Overlay. **Material:** `DIGITAL_DISPLAY`. **Behavior:** Blinking.
+> **Subject:** The New World. **Form:** Black Ocean. **Material:** `BLACK_LIQUID`. **Behavior:** Still, gently undulating.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
 > **Gear:** N/A.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Screen. **Terrain:** N/A. **Atmosphere:** N/A. **Lighting:** Emissive text.
+> **Location:** Corrupted Earth. **Terrain:** Liquid Surface. **Atmosphere:** Dead. **Lighting:** Faint violet emissive glow from nodes.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Palette:** Black, Red. **Contrast:** High.
+> **Palette:** Black, Violet. **Contrast:** Low key.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Static. **Lens:** N/A. **Action:** Text blinks, then screen turns off (CRT shutdown effect). **Style:** UI/UX.
+> **Camera:** Slow pull back and up (Drone). **Lens:** 24mm. **Action:** Revealing the scale of the corruption. **Style:** Dystopian landscape.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A sharp electronic "power down" sound. Silence.
+A low frequency drone tone. A robotic voice says "System Offline" (barely audible).
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Wisdom":[{"scene":"1.1","text":"Ich bin der Funke, der keine Zunder findet.","words_max":10},{"scene":"2.3","text":"Hier ist kein Raum für das Licht.","words_max":8}],"Iniquity":[{"scene":"3.1","text":"Ich bin der Durst, der niemals endet.","words_max":8},{"scene":"3.4","text":"Alles ist mein.","words_max":4}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Wisdom":[{"scene":"1.1","text":"Ich bin der Code, der nicht kompiliert.","words_max":8},{"scene":"2.3","text":"Kein Speicherplatz für die Wahrheit.","words_max":7}],"Iniquity":[{"scene":"3.1","text":"Leere ist mein Einladungscode.","words_max":6},{"scene":"3.3","text":"Ich fülle jede Lücke.","words_max":5}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

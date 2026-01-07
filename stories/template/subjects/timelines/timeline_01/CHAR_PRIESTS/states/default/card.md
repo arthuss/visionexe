@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 38 - 38
 
-**Phase Summary:** The Priests in their standard ceremonial attire, observing and receiving.
-**Phase Keywords:** standing, observing, solemn, ceremonial robes
+**Phase Summary:** Priest in ceremonial basalt robes with luminescent glyphs and crystalline interface.
+**Phase Keywords:** ancient-tech, ceremonial, luminescent glyphs, crystalline interface, obsidian crystal, basalt fiber
 **Phase Prompt:**
-Full body shot of a group of Ancient-Tech Priests standing solemnly in a line. They are dressed in heavy, layered ceremonial robes with metallic weaves and technological pectoral plates. Their posture is rigid and respectful. Soft, moody lighting casts long shadows, emphasizing the tactile details of their vestments and the faint glow of their sensory implants. Background suggests a vast, ancient technological interior.
+A priest in a dim temple corridor, wearing basalt‑fiber robes with glowing glyphs, a crystalline neural interface at the temples, an obsidian crystal headdress, and a quartz staff pulsing with glyphic data, standing beside the Obsidian Sun Tablet on a stone altar, rendered photorealistically with tactile textures.
 
 ---

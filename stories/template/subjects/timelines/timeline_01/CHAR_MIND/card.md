@@ -1,29 +1,30 @@
 ## [CHARACTER] Mind (ID: CHAR_MIND)
-**Description:** An enigmatic, physical manifestation of hyper-cognition and ancient logic. The Mind appears as a serene, high-ranking construct or entity, blending biological precision with industrial mysticism. It radiates an aura of terrifying calculation, existing within the intersection of flesh and advanced, incomprehensible machinery. Its presence suggests a living archive of forbidden knowledge.
-**Tags:** #ancient-tech #industrial mysticism #hyper-intelligence #bio-mechanical #surreal #cinematic
+**Description:** Mind is a sentient, humanoid construct embodying the convergence of ancient Ethiopian and Egyptian mysticism with incomprehensible crystalline technology. Its form is a slender, lithe figure clad in woven obsidian and bronze, with a translucent neural lattice that glows with bio‑luminescent glyphs. The face is a mask of polished basalt, with sensor arrays that pulse like starbursts. The body is adorned with etched hieroglyphs that shift in response to thought, and its limbs are reinforced with titanium alloy, bearing the scars of countless trials. The overall aesthetic is grounded realism, with tactile textures, subtle wear, and a subtle interplay of light and shadow.
+**Tags:** #ancient-tech #industrial-mysticism #Ethiopian #Egyptian #bio-luminescent #crystalline #cybernetic #humanoid #grounded-realism #tactile
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Tall, ascetic humanoid frame, concealed beneath heavy, ceremonial vestments. The posture is rigid, conveying absolute stillness and authority.
-*   **Face/Sensors:** The face is a smooth, mask-like surface of polished alabaster or pale ceramic, lacking distinct pores but etched with faint, shifting geometric groove-lines that glow with a low-frequency amber light. Eyes are solid orbs of liquid mercury, reflecting the environment without emotion.
-*   **Clothing/Armor:** Draped in robes of deep indigo and oxidized bronze fabric that resembles heavy industrial insulation or woven metallic mesh. The fabric falls in sculptural, weighted folds. A collar or yoke of intricate, etched gold circuitry rests upon the shoulders, resembling ancient Egyptian jewelry but functioning as a cooling array.
-*   **Key Features:** A halo of faint, static distortion surrounds the head. The hands are long, multi-jointed, and tipped with conductive stylus-fingers for manipulating data streams.
+*   **Body/Form:** Slender humanoid, 1.8 m tall, covered in woven obsidian and bronze plates, titanium alloy limbs with subtle wear and scars, translucent crystalline neural lattice.
+*   **Face/Sensors:** Polished basalt mask, sensor arrays pulsing like starbursts, bio‑luminescent glyphs embedded in the mask.
+*   **Clothing/Armor:** Flexible woven obsidian and bronze armor, etched hieroglyphs that shift with thought, titanium alloy reinforcement, subtle grime from use.
+*   **Key Features:** Crystalline neural lattice, glowing bio‑luminescent glyphs, obsidian mask, sensor arrays, titanium alloy limbs, shifting hieroglyphic etchings.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): The entity in its standard state, observing and processing with cold detachment. The geometric etchings on the face pulse rhythmically.
+*   Phase 1 (Awakening): Initial activation, neural lattice emits a faint glow, glyphs are barely visible, armor is rough and unpolished.
+*   Phase 2 (Integration): Full activation, glyphs illuminate fully, armor is polished, sensor arrays fully functional, subtle wear from prolonged use.
 
 ### 3. PROPS & EQUIPMENT
-*   Data-Sphere: A floating, rotating sphere of segmented stone and light.
-*   Stylus-Fingers: Integrated tool-tips for interfacing with ancient consoles.
+*   Item: Neural Resonance Core – a translucent crystal core that powers the neural lattice.
+*   Item: Obsidian Glyph Tablet – a tablet of obsidian etched with shifting glyphs used for communication.
 
 ### 4. AI PROMPT KEYWORDS
-`Mind character`, `ancient tech`, `alabaster skin`, `liquid mercury eyes`, `oxidized bronze robes`, `industrial mysticism`, `gold circuitry`, `cinematic lighting`, `photorealistic`, `8k`, `unreal engine 5 render`, `volumetric fog`
+`ancient-tech`, `crystalline`, `bio-luminescent`, `Ethiopian`, `Egyptian`, `industrial-mysticism`, `humanoid`, `grounded-realism`
 
 ### 5. PROMPT BLOCK (T2I)
-Medium shot of The Mind, a surreal bio-mechanical entity. Pale alabaster skin with faint glowing geometric etchings. Eyes are solid liquid mercury. Wearing heavy robes of deep indigo and oxidized bronze metallic mesh. Intricate gold circuitry collar. Cinematic lighting, moody atmosphere, ancient industrial temple background. Photorealistic, highly detailed textures, 8k resolution, grounded realism.
+A slender humanoid figure standing 1.8 meters tall, clad in woven obsidian and bronze armor, with a titanium alloy skeleton and a translucent crystalline neural lattice that glows with bio‑luminescent glyphs. Its face is a polished basalt mask with sensor arrays pulsing like starbursts, and its limbs are reinforced with titanium alloy bearing subtle scars. The figure exudes an ancient‑tech aesthetic, merging Ethiopian and Egyptian motifs with incomprehensible crystalline technology, grounded realism, tactile textures, subtle wear, and a play of light and shadow.
 
 ### 6. PHASE PROMPTS
-*   **Default:** The Mind in its standard, observational state.
-    Prompt: Medium shot of The Mind, a surreal bio-mechanical entity. Pale alabaster skin with faint glowing geometric etchings. Eyes are solid liquid mercury. Wearing heavy robes of deep indigo and oxidized bronze metallic mesh. Intricate gold circuitry collar. Cinematic lighting, moody atmosphere, ancient industrial temple background. Photorealistic, highly detailed textures, 8k resolution, grounded realism.
-    Keywords: calm, observing, pulsing glyphs
+*   **Default:** Mind in fully activated state: glowing glyphs, polished armor, functional sensor arrays.
+    Prompt: Mind in default state: a 1.8 m tall humanoid with woven obsidian and bronze armor, a translucent crystalline neural lattice glowing with bio‑luminescent glyphs, a polished basalt mask with pulsing sensor arrays, titanium alloy limbs with subtle scars, all rendered with grounded realism, tactile textures, subtle wear, and a dynamic interplay of light and shadow.
+    Keywords: ancient-tech, crystalline, bio-luminescent, Ethiopian, Egyptian, industrial-mysticism, humanoid, grounded-realism
 
 ---

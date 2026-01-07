@@ -1,113 +1,116 @@
 CONCEPT: SECTOR_17_PERIMETER_DIAGNOSTICS
-CODENAME: FIREWALL_EDGE
-STATUS: CRITICAL_INFRASTRUCTURE_REVIEW
+CODENAME: FIREWALL_EDGE_V2
+STATUS: PRODUCTION_READY
 
 1. BIO-INJECTION MECHANICS
 Subject: Henoch_v0.8 (Observer Class).
-Manifestation: Due to proximity to raw energy conduits ("Fire"), the subject's rendering is unstable.
-Visual: "Glass-Skin" Shader. The epidermis is 80% transparent, revealing a glowing nervous system (fiber optics) beneath.
-Safety Protocol: A hexagonal "Force-Field" overlay (orange wireframe) pulses over his skin when he approaches the thermal hazards (Verse 1).
-Ocular Upgrade: Eyes switch to "Thermal/Spectral Vision" (solid black sclera, red iris rings) to perceive the raw data streams without blinding.
+Manifestation: "Radiant Heat Throttling". Due to proximity to the System Perimeter (Firewall), the subject's internal cooling systems are visible.
+Visual: The "Marble Skin" shader becomes 60% opaque. Beneath the surface, a vascular system of glowing blue coolant fluid pulses rapidly (liquid nitrogen circulation).
+Safety Protocol: When approaching high-voltage zones (Verse 1), a refractive "Heat Haze" aura surrounds Henoch, distorting the air around him—a localized deflector shield.
+Ocular Upgrade: Eyes shift to "Debug Mode" (Wireframe overlay on retinas) to interpret the raw energy forms.
 
 2. MESH-BREAK DYNAMICS
-Phenomenon: The "Fire" described is not chemical combustion; it is raw plasma data.
-Geometry Behavior: "Liquid Voxelization". Solid objects (mountains, ground) near the fire rivers do not crumble; they liquefy into flowing cubes before resolidifying.
-The "Mountain whose head reaches heaven" (Verse 2) is a massive heat-sink tower. Its peak disappears into a pixelated cloud layer (The Skybox Ceiling), where the geometry simplifies into low-poly LODs (Level of Detail) due to render distance limits.
+Phenomenon: "Raw Data Flux". The environment is not solid matter; it is uncompiled code.
+Geometry Behavior: "Vertex Displacement". The ground near the "Rivers of Fire" does not melt; it glitches. Polygons flicker between stone texture and wireframe grid.
+The "Mountain whose head reaches heaven" (Verse 2) is a Space Elevator / Uplink Cable. Where it touches the "Sky" (The Skybox), the clouds act like a flat ceiling texture with visible pixelation, indicating the edge of the renderable map.
 
 3. PACING STRATEGY
-Rhythm: "Latency Spikes".
-Movement: The travel between points ("And they took me...") is instantaneous. Hard cuts. No travel time.
-Observation: Once arrived, the camera moves in slow, heavy, stabilized pans (Simulating a drone inspection).
-Contrast: Rapid, glitch-like transitions between locations vs. slow, majestic terror of the environments.
+Rhythm: "Packet Loss Stutter".
+Movement: Travel between sectors is instantaneous but violent. One frame Henoch is in a desert, the next in a blizzard. No fade-outs.
+Observation: Static, tripod-locked camera shots for environments to emphasize scale. Handheld, shaky-cam for Henoch's reactions to emphasize disorientation.
+Contrast: The stillness of the "Dead Zones" (Winter/Darkness) vs. the chaotic noise of the "Fire Zones".
 
 4. AUDIO DESIGN
-Ambience: No choirs. No wind.
-Layer 1 (Base): A deep, resonant 50Hz hum (Server Room Drone) that vibrates the subwoofer.
-Layer 2 (The Fire): The sound of high-voltage electrical arcing (Tesla Coil snaps) and the roar of a blast furnace.
-Layer 3 (The Water): The "Living Waters" sound like liquid nitrogen boiling off—a high-pitched hiss.
-Voice: Uriel's voice is heavily processed, sounding like it's coming through a pilot's headset (Bandpass filter).
+Ambience: "Industrial Drone".
+Layer 1 (Base): The sound of a massive ventilation system (White Noise).
+Layer 2 (The Fire): High-voltage electric buzzing (60Hz hum) and the crackle of arc welding.
+Layer 3 (The Water): Hydraulic pumps cycling and fluid rushing through high-pressure pipes.
+Voice: Uriel’s commands cut through with digital distortion, like a calm Air Traffic Controller on a radio frequency.
 
 5. TRANSITIONS (NODE-HOPPING)
-Method: "Voxel-Dissolve".
-Visual: The current environment freezes, turns into a wireframe grid, and dissolves upwards. The new environment slams down from above in solid blocks.
-Effect: Disorienting but efficient. Emphasizes that Henoch is being moved by system administrators (The Angels).
+Method: "Render-Queue Jump".
+Visual: The screen momentarily freezes (Datamosh), colors invert for 2 frames, and the new location loads instantly.
+Effect: Simulates a user dragging a character across a map in a dev-editor.
 
 6. FRAMEWORK & TIMING
-Total Duration: 60 Seconds.
-Clip Count: 15 Clips (High density due to multiple distinct locations).
-Buffer: 3 "Glitch/Transition" filler clips included.
+Total Duration: 65 Seconds.
+Clip Count: 16 Clips (Expanded for Reaction Shots and Split Actions).
+Buffer: 2 "Signal Loss" transition clips included.
 
 7. DIALOG STRATEGY
-Interaction: Minimal. Instructional only.
-Format: Uriel acts as the Tour Guide / System Admin.
-Shot-Reverse-Shot:
-Shot A: Henoch looking overwhelmed (Close-Up, reflection of fire in eyes).
-Shot B: Uriel pointing at a structure (Wide Shot, back to camera).
-Shot C: POV Shot of what Henoch sees (The Data River).
+Interaction: Asymmetric.
+Format: Uriel (The Admin) lectures. Henoch (The User) observes.
+Shot-Reverse-Shot: Used in Clip 13/14 to ground the scale of the "Mouth of the Deep".
+Shot A: Uriel pointing down.
+Shot B: Henoch looking down, terrified.
 
 8. SPATIAL CONTEXT (ARRIVAL)
-Method: "Hard Spawn".
-Visual: Henoch does not walk into the scene. He pops into existence (Spawn). A small shockwave of dust displaces around his feet upon arrival.
-Establishing Shot: Not needed for arrival. The first shot of each segment IS the environment (Wide), with Henoch spawning into it.
+Method: "Zero-Point Spawn".
+Visual: No walking. Henoch appears in a T-Pose for 1 frame before snapping into an idle animation.
+Establishing Shot: Each sector begins with a Macro-Wide shot of the infrastructure before cutting to Henoch.
 
 SCENE LIST & PROMPT BLUEPRINTS
 
-[CLIP 01: ARRIVAL_SECTOR_17]
-Action: Henoch spawns into the "Place of Fire".
-Prompt: [BLOCK 1: SUBJECT] Actor: Noah (Henoch). Skin: Translucent marble, glowing internal nerves. [BLOCK 3: ENV] Location: Sector_17_Furnace. Floor: Grid of black obsidian tiles. Background: Walls of vertical orange plasma fire. [BLOCK 5: CINE] Wide Shot. Subject materializes from a vertical blue laser scan. Dust shockwave at feet.
+[CLIP 01: ARRIVAL_SECTOR_17_WIDE]
+Action: Establishing the "Place of Fire".
+Prompt: [BLOCK 3: ENV] Location: Sector_17_Perimeter. A vast, flat grid of obsidian tiles extending to infinity. Background: A wall of vertical plasma-fire (orange/red data streams) rising 1000 meters high like a waterfall of code. [BLOCK 4: LIGHTING] Overexposed bloom from the fire wall. [BLOCK 5: CINE] Extreme Wide Shot. The environment is empty.
 
-[CLIP 02: THE_POLYMORPHS]
-Action: The "Men of Fire" (Verse 1) manifest.
-Prompt: [BLOCK 1: SUBJECT] Entities: The Watchers. Form: Silhouettes made of static noise and white-hot embers. No distinct facial features. [BLOCK 2: ACTION] They shift from pillar of fire shape to humanoid shape. [BLOCK 3: ENV] Dark void background. [BLOCK 5: CINE] Medium Shot. Focus pull from Henoch to the entities.
+[CLIP 02: HENOCH_SPAWN]
+Action: Henoch materializes.
+Prompt: [BLOCK 1: SUBJECT] Actor: Noah (Henoch). Skin: Translucent marble, internal blue coolant veins glowing. [BLOCK 2: ACTION] He spawns instantly in the center of the frame. A digital shockwave (distortion ring) expands from his feet. He stumbles slightly, regaining balance. [BLOCK 3: ENV] Obsidian floor reflecting the fire wall. [BLOCK 5: CINE] Full Body Shot. Locked camera.
 
-[CLIP 03: THE_UPLINK_TOWER]
-Action: Transport to the Mountain (Verse 2).
-Prompt: [BLOCK 3: ENV] Location: The Storm Mountain. Structure: A monolithic black metal tower, 10km high, tapering to a needle point. [BLOCK 4: LIGHTING] Strobe lightning flashes. [BLOCK 5: CINE] Extreme Low Angle (Worm's Eye). Camera looking up the tower. The tip penetrates a digital grid in the sky (The Ceiling).
+[CLIP 03: THE_POLYMORPHS_MANIFEST]
+Action: The "Men of Fire" (Verse 1) appear.
+Prompt: [BLOCK 3: ENV] Location: Near the Fire Wall. [BLOCK 1: SUBJECT] Entities: The Fire-Men. Initially amorphous columns of static noise and white-hot embers. [BLOCK 2: ACTION] They are mid-transformation, morphing from chaotic energy into rigid, low-poly humanoid shapes. [BLOCK 2: VFX] Glitch artifacts around their silhouettes. [BLOCK 5: CINE] Medium Shot. Telephoto lens compressing the distance.
 
-[CLIP 04: THE_ARMORY]
-Action: Viewing the "Bow of Fire and Arrows" (Verse 3).
-Prompt: [BLOCK 2: PROPS] Object: The Bow of Fire. Appearance: A massive orbital defense cannon, glowing neon orange. Suspended in anti-gravity. "Arrows" are fuel rods. [BLOCK 3: ENV] Location: The Armory Deck. Metallic floor. [BLOCK 5: CINE] Tracking Shot. Camera glides past the weapon systems.
+[CLIP 04: THE_UPLINK_TOWER_BASE]
+Action: The "Mountain" base (Verse 2).
+Prompt: [BLOCK 3: ENV] Location: The Storm Node. A massive black metallic structure, triangular pyramidal base, rising infinitely upwards. [BLOCK 4: LIGHTING] Strobe lights flashing from the structure. [BLOCK 5: CINE] Low Angle looking up. Rain (digital noise) falling upwards.
 
-[CLIP 05: LIVING_WATERS]
-Action: Arrival at the "Living Waters" (Verse 4).
-Prompt: [BLOCK 3: ENV] Location: Coolant Chamber. Fluid: Glowing bioluminescent blue liquid flowing through transparent pipes. [BLOCK 1: SUBJECT] Henoch touches the pipe. [BLOCK 5: CINE] Close-Up on hand. Condensation on the glass.
+[CLIP 05: THE_UPLINK_TOWER_APEX]
+Action: The "Mountain" tip touching the sky (Verse 2).
+Prompt: [BLOCK 3: ENV] Location: The Upper Atmosphere. The black tower narrows to a needle. [BLOCK 2: VFX] The tip penetrates a flat, pixelated cloud layer (The Skybox). A visible hexagonal grid spreads out where the tower touches the sky. [BLOCK 5: CINE] Drone Shot hovering near the connection point.
 
-[CLIP 06: SUNSET_FIRE]
+[CLIP 06: THE_ARMORY_PAN]
+Action: Viewing the "Bow and Sword" (Verse 3).
+Prompt: [BLOCK 3: ENV] Location: The IPS Deck (Intrusion Prevention System). A dark industrial hangar. [BLOCK 2: PROPS] Floating in anti-gravity fields: "The Bow" (A curved railgun array glowing neon orange), "The Sword" (A focused vertical laser emitter), "The Quiver" (Racks of fuel rods). [BLOCK 5: CINE] Slow Dolly Shot moving laterally past the weapons.
+
+[CLIP 07: LIVING_WATERS_DETAIL]
+Action: The "Waters of Life" (Verse 4).
+Prompt: [BLOCK 3: ENV] Location: Coolant Processing. [BLOCK 2: PROPS] Massive transparent pipes running along the ground. Inside: Glowing bioluminescent blue fluid moving at high speed. [BLOCK 1: SUBJECT] Henoch’s hand resting on the glass pipe. Frost forming around his fingers. [BLOCK 5: CINE] Extreme Close-Up on hand and pipe.
+
+[CLIP 08: SUNSET_MODULE_WIDE]
 Action: The "Fire of the West" (Verse 4).
-Prompt: [BLOCK 3: ENV] Location: The Western Horizon. The sun is not a sphere but a massive flat LED panel dimming down. [BLOCK 4: LIGHTING] Deep red and purple hues. [BLOCK 5: CINE] Wide Panorama. Silhouette of Henoch against the dying artificial light.
+Prompt: [BLOCK 3: ENV] Location: The Western Horizon Edge. The sun is represented by a massive, dimming fusion reactor sphere, half-sunk into the ground. [BLOCK 4: LIGHTING] Deep crimson and purple synthetic light. [BLOCK 5: CINE] Wide Shot. Henoch is a tiny silhouette in the foreground.
 
-[CLIP 07: RIVER_OF_FIRE]
-Action: The River flowing into the Great Sea (Verse 5).
-Prompt: [BLOCK 3: ENV] Location: The Delta. A river of molten gold (data stream) flows into a dark, static ocean (The Great Sea). [BLOCK 2: VFX] Steam/Data-particles rising where the fire hits the water. [BLOCK 5: CINE] High Angle Drone Shot looking down at the confluence.
+[CLIP 09: RIVER_OF_FIRE_FLOW]
+Action: The River dynamics (Verse 5).
+Prompt: [BLOCK 3: ENV] Location: The Data Stream Delta. A river of molten gold (liquid light) flowing rapidly. [BLOCK 2: VFX] The liquid is not water; it is composed of millions of tiny falling characters/symbols. No steam, but "digital smoke" (floating pixels) rising. [BLOCK 5: CINE] High Angle looking down at the flow.
 
-[CLIP 08: THE_GREAT_DARKNESS]
-Action: Entering the Void (Verse 6).
-Prompt: [BLOCK 3: ENV] Location: The Null Zone. Absolute blackness. Only Henoch is lit by his own internal bioluminescence. [BLOCK 1: SUBJECT] Henoch walking forward, hands out, feeling nothing. [BLOCK 5: CINE] Medium Shot. Isolation.
+[CLIP 10: THE_GREAT_SEA_MIXING]
+Action: River entering the Sea (Verse 5).
+Prompt: [BLOCK 3: ENV] Location: The Confluence. The gold river crashes into a black, static ocean. [BLOCK 2: VFX] Where they meet, violent reaction: white sparks and geometry fracturing. [BLOCK 5: CINE] Medium Shot tracking the collision point.
 
-[CLIP 09: MOUNTAINS_OF_WINTER]
+[CLIP 11: THE_VOID_WALK]
+Action: Entering the "Great Darkness" (Verse 6).
+Prompt: [BLOCK 3: ENV] Location: The Null Zone. Absolute void blackness. No floor texture, just reflections. [BLOCK 1: SUBJECT] Henoch walking away from camera. He is lit only by his own internal blue glow. [BLOCK 2: ACTION] He walks cautiously, as if blind. [BLOCK 5: CINE] Tracking Shot following from behind.
+
+[CLIP 12: MOUNTAINS_OF_WINTER_PAN]
 Action: The "Mountains of Winter" (Verse 7).
-Prompt: [BLOCK 3: ENV] Location: Cryo-Storage. Massive mountains made of blue ice and server racks. [BLOCK 4: LIGHTING] Cold, sterile white light. [BLOCK 2: VFX] Frost forming on the camera lens. [BLOCK 5: CINE] Slow Pan across the frozen landscape.
+Prompt: [BLOCK 3: ENV] Location: Cryo-Storage Sector. Huge, angular mountains made of stacked server racks, covered in thick blue ice and frost. [BLOCK 4: LIGHTING] Cold, sterile laboratory white light. [BLOCK 5: CINE] Slow Pan across the frozen landscape.
 
-[CLIP 10: MOUTH_OF_THE_DEEP]
-Action: The source of all rivers (Verse 8).
-Prompt: [BLOCK 3: ENV] Location: The Source. A massive circular drain/intake valve in the earth, 1km wide. Water and light spiraling down into it. [BLOCK 5: CINE] Top-down view. Henoch standing on the edge (tiny scale).
+[CLIP 13: MOUTH_OF_THE_DEEP_TOPDOWN]
+Action: The "Mouth" (Verse 8).
+Prompt: [BLOCK 3: ENV] Location: The Kernel Drain. A colossal circular pit in the earth, 2km wide. All rivers (gold, blue) spiral down into it. The center is pitch black. [BLOCK 5: CINE] Top-Down Satellite View. The spiral shape is perfect, mathematical.
 
-[CLIP 11: URIEL_EXPLAINS]
-Action: Uriel gesturing to the system.
-Prompt: [BLOCK 1: SUBJECT] Actor: Uriel. Gear: Tactical flight suit, holographic visor covering face. [BLOCK 2: ACTION] Pointing at the Abyss. [BLOCK 5: CINE] Over-the-shoulder shot from behind Henoch.
+[CLIP 14: URIEL_POINTING]
+Action: Uriel explaining the Drain.
+Prompt: [BLOCK 1: SUBJECT] Actor: Uriel. Gear: Tactical pilot suit, full-face glass helmet reflecting the data-streams. [BLOCK 2: ACTION] He stands on the edge of the precipice, pointing calmly into the abyss. [BLOCK 5: CINE] Medium Shot, side profile.
 
-[CLIP 12: HENOCH_REACTION]
-Action: Henoch processing the scale.
-Prompt: [BLOCK 1: SUBJECT] Henoch. Face: Stoic but eyes wide, reflecting the blue spiral of the deep. [BLOCK 5: CINE] Extreme Close-Up on eyes.
+[CLIP 15: HENOCH_REACTION_CLOSE]
+Action: Henoch realizing the scale.
+Prompt: [BLOCK 1: SUBJECT] Henoch. Face: Pale, sweat (condensation) on brow. Eyes wide, shifting rapidly (REM movement) as he tries to process the data. [BLOCK 4: LIGHTING] Blue under-lighting from the pit. [BLOCK 5: CINE] Extreme Close-Up on eyes.
 
-[CLIP 13: GLITCH_TRANSITION_A]
-Action: Buffer clip.
-Prompt: Abstract datamosh of fire and water textures. Digital artifacting.
-
-[CLIP 14: GLITCH_TRANSITION_B]
-Action: Buffer clip.
-Prompt: Wireframe overlay of the mountain collapsing into code.
-
-[CLIP 15: SYSTEM_STABLE]
-Action: Final shot.
-Prompt: [BLOCK 3: ENV] The entire landscape viewed from orbit. A circuit board resembling the geography described. [BLOCK 5: CINE] Slow zoom out. Fade to black.
+[CLIP 16: SYSTEM_OVERVIEW]
+Action: Final abstract shot.
+Prompt: [BLOCK 3: ENV] The entire map viewed from orbit. It looks like a glowing motherboard. The "Rivers" are copper traces, the "Mountains" are capacitors. [BLOCK 5: CINE] Slow Zoom Out. Fade to Black.

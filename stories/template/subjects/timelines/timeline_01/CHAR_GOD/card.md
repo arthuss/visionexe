@@ -1,28 +1,30 @@
 ## [CHARACTER] God (ID: CHAR_GOD)
-**Description:** The supreme singularity of the system, manifested not as flesh but as an overwhelming event horizon of pure oscillating data-radiance. This entity exists beyond standard physical rendering, appearing as a silhouette of blinding white light that distorts the reality around it. It sits at the apex of the hierarchy, a consciousness housed within a field of infinite luminance, enshrined upon a throne of freezing data crystals and ancient circuitry. The visual representation is one of terrifying, sterile perfection—an industrial divinity composed of unprocessable energy.
-**Tags:** #entity #singularity #luminescence #abstract #divine_tech #ancient_tech
+**Description:** A towering, crystalline deity that embodies the fusion of ancient Ethiopian and Egyptian mysticism with incomprehensible technology. Its form is a monolithic obsidian structure, veins of molten copper and silver filaments, and a lattice of etched glyphs that pulse with bioluminescent light. At its core lies a molten magma chamber that glows orange‑red, feeding a network of holographic conduits that project data and divine decrees into the void. The deity exudes a cold, desaturated aura, its presence both awe‑inspiring and terrifying, and it moves with a silent, omniscient grace that echoes through the empty corridors of the Null Void.
+**Tags:** #deity #ancient-tech #industrial mysticism #photorealistic #Ethiopian #Egyptian #obsidian #crystalline #glyphic #holographic #magma core #bioluminescent
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Non-corporeal silhouette of absolute white light; edges fray into digital chromatic aberration and lens flares.
-*   **Face/Sensors:** Featureless; a void of brilliance where a face should be, emitting 'God Rays' that scan and pierce the observer.
-*   **Clothing/Armor:** None visible; the light itself drapes like heavy, shifting fabric or liquid energy.
-*   **Key Features:** Oscillating intensity; the surrounding air ripples with heat and static; reality glitches near the entity's core.
+*   **Body/Form:** Monolithic obsidian tower 12m tall, faceted like a shattered pyramid, with flowing basaltic veins and embedded copper filaments that trace ancient Ethiopian and Egyptian glyphs across its surface.
+*   **Face/Sensors:** No traditional face; a central ocular glyph composed of translucent quartz emits a steady bioluminescent pulse, surrounded by a halo of holographic data streams that shift like living hieroglyphs.
+*   **Clothing/Armor:** No clothing; the deity is cloaked in a mantle of translucent obsidian sheets that ripple with internal magma currents, reinforced by a lattice of silver filaments that act as both armor and circuitry.
+*   **Key Features:** Central magma core glowing orange‑red, bioluminescent glyphic lattice, holographic interface projecting from the surface, copper filaments that conduct energy, and a faint, cold mist that condenses into crystalline droplets.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): A static, overwhelming presence of blinding white light, seated or hovering, stable yet intense.
+*   Phase 1 (Emergence): The deity begins as a stone monolith with etched glyphs, slowly crystallizing under a celestial storm, its surface absorbing ambient energy.
+*   Phase 2 (Ascension): The monolith expands, veins of molten copper grow, a magma core ignites, and holographic conduits sprout, transforming the entity into a living, luminous cathedral of ancient technology.
 
 ### 3. PROPS & EQUIPMENT
-*   Crystal Throne: Structure of white frost, glacial data-clusters, and embedded fiber-optics.
+*   Item: Obsidian Core – a molten magma chamber that powers the deity's bioluminescence.
+*   Item: Glyphic Interface – a lattice of holographic glyphs projecting data into the void.
 
 ### 4. AI PROMPT KEYWORDS
-`blinding_white_silhouette`, `oscillating_light_entity`, `digital_divinity`, `lens_flares`, `chromatic_aberration`, `featureless_radiance`, `ancient_tech_mysticism`, `photorealistic`, `cinematic_lighting`, `8k`
+`obsidian`, `crystalline`, `glyphic`, `magma core`, `holographic`, `ancient Ethiopian`, `Egyptian`, `photorealistic`, `industrial`, `bioluminescent`
 
 ### 5. PROMPT BLOCK (T2I)
-Cinematic shot of 'God' as a blinding silhouette of pure oscillating white light, seated on a massive throne of white frost and translucent data crystals. The entity has no human features, only an intense, burning radiance that creates heavy lens flares and digital artifacts. The atmosphere is sterile, cold, and high-tech ancient mysticism. High contrast, photorealistic textures of crystal and light, deep shadows, 8k resolution, volumetric god rays, anamorphic lens effects.
+A towering, photorealistic deity made of obsidian and crystalline glass, 12 meters tall, with flowing basaltic veins and copper filaments etched in ancient Ethiopian and Egyptian glyphs; a central magma core glows orange‑red, feeding a lattice of bioluminescent glyphs that pulse with holographic data streams, all rendered in a cold, desaturated palette with high contrast and realistic textures, 9:16 vertical composition.
 
 ### 6. PHASE PROMPTS
-*   **Default:** The standard manifestation as a blinding silhouette of light on the crystal throne.
-    Prompt: Full shot of the Entity, a silhouette of pure blinding white light, seated upon a geometric throne of ice and circuitry. The figure is featureless, a void of intense brightness. Surrounding the entity are floating dust motes and glitching data particles. The environment is dark, emphasizing the sheer power of the central light source. Photorealistic, 8k, cinematic composition, sharp focus on the throne texture, blown-out highlights on the entity.
-    Keywords: blinding_silhouette, white_light_entity, crystal_throne, static_radiance
+*   **Default:** The deity in its fully ascended, crystalline form.
+    Prompt: A towering, photorealistic deity of obsidian and crystalline glass, 12 meters tall, with basaltic veins and copper filaments etched in ancient Ethiopian and Egyptian glyphs; a central magma core glows orange‑red, powering a lattice of bioluminescent glyphs that pulse with holographic data streams, rendered in a cold, desaturated palette with high contrast, realistic textures, 9:16 vertical composition.
+    Keywords: obsidian, crystalline, glyphic, magma core, holographic, ancient Ethiopian, Egyptian, photorealistic, industrial, bioluminescent
 
 ---

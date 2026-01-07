@@ -31,6 +31,13 @@ def build_task_id(stage, subject_slug, phase_slug):
     return f"{stage}__{subject_slug}__{phase_slug}"
 
 
+def resolve_training_dir(path_value, repo_root):
+    if not path_value:
+        return None
+    resolved = resolve_path(path_value, repo_root)
+    return Path(resolved) if resolved else None
+
+
 def main():
     parser = argparse.ArgumentParser(description="Build LoRA pipeline tasks from lora_index.json.")
     parser.add_argument("--story-root", help="Story root path (defaults to engine_config default_story_root).")
@@ -83,8 +90,12 @@ def main():
             style_seed_count = phase.get("style_seed_count") or style_seed_count_default
             multiangle_count = phase.get("multiangle_count") or multiangle_count_default
 
-            style_seed_dir = lora_training_root / "actors" / actor_slug / phase_slug / "style_seed"
-            multiangle_dir = lora_training_root / "actors" / actor_slug / phase_slug / "multiangle"
+            style_seed_dir = resolve_training_dir(phase.get("style_seed_dir"), repo_root)
+            multiangle_dir = resolve_training_dir(phase.get("multiangle_dir"), repo_root)
+            if not style_seed_dir:
+                style_seed_dir = lora_training_root / "actors" / actor_slug / phase_slug / "style_seed"
+            if not multiangle_dir:
+                multiangle_dir = lora_training_root / "actors" / actor_slug / phase_slug / "multiangle"
 
             prompt_seed = {
                 "trigger": trigger,

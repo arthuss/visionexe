@@ -1,134 +1,167 @@
-CONCEPT: PROTOCOL_ORPHAN_PROCESS // UNAUTHORIZED_API_LEAK
+CONCEPT: DAEMON_PERSISTENCE // ROOT_DIRECTORY_CORRUPTION
 
-1. BIO-INJECTION (THE GIANTS' DEATH):
-Manifestation als "Necrotic Data Leak". Wenn der physische Container (der Körper des Riesen) terminiert wird, löst sich die Textur in graues Rauschen auf (Desaturation Shader). Der "Geist" ist kein Nebel, sondern ein aggressiver, roter Voxel-Schwarm, der aus dem zerfallenden Mesh bricht. Es ist ein Prozess, der sich weigert, beendet zu werden (Zombie Process). Die Software überlebt die Hardware.
+1. BIO-INJECTION (THE GHOST PROCESS):
+Manifestation als "Runtime Detachment". Wenn der Nephilim-Container (Hardware) stirbt, wird die Textur grau (Unreal Engine Default Material). Der "Geist" ist das Rigging (das Skelett-Gitter), das sich gewaltsam vom Mesh löst. Es ist ein "Daemon" – ein Hintergrundprozess ohne grafisches Interface. Visuell: Ein zitterndes, rotes Wireframe-Skelett, das aus dem grauen Körper herausbricht und in der Luft als Glitch-Wolke verharrt.
 
-2. MESH-BREAK (THE CORRUPTION):
-Die "wertlosen Mysterien", die die Wächter weitergaben, sind fehlerhafte Root-Access-Tools. Die Welt-Geometrie leidet unter "Floating Point Precision Errors". Objekte zittern (Z-Fighting). Schatten lösen sich von ihren Objekten. Flüssigkeiten fließen bergauf. Die Realität rendert nicht mehr sauber, weil die User (Menschen) Parameter verändert haben, die gelockt sein sollten.
+2. MESH-BREAK (THE WORTHLESS MYSTERY):
+Die "Geheimnisse" sind keine Magie, sondern "Developer Debug Tools". Die Wächter gaben den Menschen Zugriff auf den World Editor (Terraforming, Skin-Modification). Da die Menschen (User) die Syntax nicht verstehen, erzeugen sie "Vertex Explosions". Gesichter ziehen sich in unendliche Spitzen. Landschaftstexturen strecken sich vertikal ins Unendliche (Texture Stretching). Die Realität hat Risse, durch die man die "Skybox" (den schwarzen Code dahinter) sieht.
 
 3. PACING-STRATEGIE:
-"Forensic Analysis". Der Rhythmus ist klinisch und kalt. Wir sehen die Katastrophe nicht als Action-Film, sondern als Beweismittel-Sichtung.
-00:00-00:20: Langsame, stabile Kamerafahrten über die "Tatorte" (Leichen der Riesen).
-00:20-00:40: Schnelle, glitch-artige Flashbacks (Strobe-Effekt) der Datenübertragung (Wächter -> Menschen).
-00:40-01:00: Statischer, unbarmherziger Close-Up auf Henoch bei der Urteilsverkündung.
+"Latency Lag". Der Schnitt imitiert einen überlasteten Server. Die Bewegungen sind flüssig, aber manchmal friert ein Frame für 10ms ein (Stuttering), bevor er springt. Der Rhythmus ist unregelmäßig, als ob Frames fehlen (Drop-Frame-Editing).
 
 4. AUDIO-DESIGN:
-Keine Chöre. Der Sound ist "System Failure".
-Basis: Ein tiefes, 50Hz Netzbrummen (Ground Loop).
-Event: Wenn die Geister austreten, ein digitales "Tearing"-Geräusch (wie ein Modem-Handshake, aber 800% verlangsamt und bass-lastig).
-Stimme: Die Urteilsverkündung ist trocken, ohne Hall, direkt im Center-Channel, wie eine automatisierte Ansage am Flughafen.
+High-Frequency Coil Whine (Spulenfiepen). Das Geräusch von Hardware unter maximaler Last.
+Die Stimmen der "Geister" sind Datamosh-Audio – digitale Artefakte, die wie Schreie klingen, aber eigentlich nur kaputte Datenpakete sind.
+Der Verdict-Sound ist ein stumpfes "Access Denied" Windows-Logon-Geräusch, extrem tief gepitcht.
 
-5. ÜBERGÄNGE:
-"Bad Sector Scan". Das Bild friert ein, wird von horizontalen Scanlines durchzogen, die Farbe invertiert kurz, dann Hard-Cut zur nächsten Szene. Es wirkt wie beschädigtes Videomaterial.
+5. ÜBERGÄNGE (NODE-HOPPING):
+Keine Blenden. "Match Cuts" der Position. Henoch steht im Frame absolut still (locked camera). Der Hintergrund wechselt hart (Hard Cut) von "Void" zu "Earth Sector" zu "Server Room". Henoch ist die Konstante Variable, die Umgebung ist austauschbar.
 
-6. FRAMEWORK & TIMING (60s / 15 Clips):
-Wir benötigen mehr Clips für die Visualisierung der abstrakten Konzepte (Geisteraustritt vs. Wächter-Flashback).
+6. FRAMEWORK & TIMING (65s / 16 Clips):
+Fokus auf die technische Kausalität: Diebstahl der Tools -> Falsche Anwendung -> Systemabsturz -> Daemon-Entstehung -> Urteil.
 
 SCENE SEQUENCE & PROMPTS:
 
-[CLIP 01: ESTABLISHING_THE_VERDICT]
+[CLIP 01: THE_NODE_ENTRY]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-Actor: Enoch (System Admin). Physique: Standard Build 2.0, translucent marble skin. Optics: Eyes emitting steady white beams.
+Actor: Enoch (System Admin). Physique: Standard Build 2.0. Skin: Translucent Parian marble. Optics: Solar Aperture Eyes (steady beams).
 **[BLOCK 2: APPAREL_&_EQUIPMENT]**
-Garment: Liquid_Linen tunic, motionless. Prop: None. Hands clasped behind back.
+Garment: Liquid_Linen tunic, motionless. Prop: None.
 **[BLOCK 3: ENVIRONMENT]**
-Location: The Null Void. A space of pure black with a single, infinite reflective floor.
-**[BLOCK 4: LIGHTING]**
-Lighting: Single spotlight from directly above (God Ray), isolating Henoch in the darkness.
+Location: The Null Void (Loading Zone). Pure black.
+**[BLOCK 4: ACTION]**
+Action: Enoch takes a single step forward. His foot is raised in the black void.
 **[BLOCK 5: CINEMATOGRAPHY]**
-Camera: Extreme Long Shot. Slow dolly in towards Henoch. He is a tiny speck of order in the chaos.
+Camera: Low angle, focus on the foot.
 
-[CLIP 02: DATA_VIS_GIANT_DECAY]
-**[BLOCK 1: SUBJECT]**
-Subject: A dead Nephilim (Giant). Scale: 10x human size. Texture: Grey, untextured polygon mesh.
-**[BLOCK 2: ACTION]**
-Action: The body is collapsing in on itself. Not rotting, but deleting. Polygons are disappearing face by face.
-**[BLOCK 3: ENVIRONMENT]**
-Location: A barren, rocky wasteland (Earth_Sector_04).
-**[BLOCK 4: VFX]**
-VFX: Red binary code is bleeding out of the missing polygons like smoke.
-
-[CLIP 03: THE_ZOMBIE_PROCESS]
-**[BLOCK 1: SUBJECT]**
-Subject: The "Spirit" of the Giant.
-**[BLOCK 2: VISUALS]**
-Visuals: A chaotic swarm of red glowing voxels. It has no defined shape, constantly morphing, aggressive movement.
-**[BLOCK 3: ACTION]**
-Action: The swarm hovers over the decaying mesh body, refusing to dissipate.
-**[BLOCK 4: CINEMATOGRAPHY]**
-Camera: Low angle, looking up at the hovering glitch-cloud. Shakey cam (handheld feel).
-
-[CLIP 04: FLASHBACK_HEAVEN_ARCHIVE]
-**[BLOCK 1: SUBJECT]**
-Actors: The Watchers (pre-fall). Tall, luminous beings, but their light is flickering.
-**[BLOCK 2: ENVIRONMENT]**
-Location: The High Station (Server Room). Infinite rows of glass data-stacks.
-**[BLOCK 3: ACTION]**
-Action: A Watcher is looking at a locked data-panel. The panel glows red ("ACCESS DENIED"). He forces it open.
-**[BLOCK 4: CINEMATOGRAPHY]**
-Camera: Over-the-shoulder shot. Focus on the red warning light reflecting in the Watcher's eyes.
-
-[CLIP 05: THE_ILLEGAL_TRANSFER]
-**[BLOCK 1: SUBJECT]**
-Actors: A Watcher and a Human Woman.
-**[BLOCK 2: ACTION]**
-Action: The Watcher hands a glowing geometric artifact (The Mystery) to the woman. As she touches it, her skin texture begins to glitch/pixelate.
-**[BLOCK 3: ENVIRONMENT]**
-Location: Earth, night.
-**[BLOCK 4: LIGHTING]**
-Lighting: The only light comes from the artifact, casting harsh, unnatural shadows.
-
-[CLIP 06: WORLD_CORRUPTION_01]
+[CLIP 02: THE_NODE_EXIT_SECTOR_04]
 **[BLOCK 1: ENVIRONMENT]**
-Location: A forest.
+Location: Earth_Sector_04 (The Killing Fields). A barren rocky landscape littered with massive grey geometric shapes.
 **[BLOCK 2: ACTION]**
-Action: The trees are not growing correctly. Branches intersect with each other (clipping). Leaves are flat 2D sprites facing the wrong way.
-**[BLOCK 3: VFX]**
-VFX: Chromatic aberration is heavy at the edges of the frame. The world looks "broken".
+Action: Enoch's foot lands on the dusty rock. Instant transition from Clip 01. The environment has snapped into existence around him.
+**[BLOCK 3: CINEMATOGRAPHY]**
+Camera: Low angle, matching Clip 01 perfectly. Hard cut arrival.
 
-[CLIP 07: WORLD_CORRUPTION_02]
+[CLIP 03: THE_GRAY_DEATH]
 **[BLOCK 1: SUBJECT]**
-Subject: Human crowds.
-**[BLOCK 2: ACTION]**
-Action: They are using the "mysteries" (glowing artifacts). Explosions of uncontrolled magic/tech.
-**[BLOCK 3: CINEMATOGRAPHY]**
-Camera: High angle, looking down. Fast time-lapse. The chaos spreads like a virus map.
+Subject: Dead Nephilim (Giant). Scale: 10x human.
+**[BLOCK 2: VISUALS]**
+Visuals: The body is stripped of color textures. It is a smooth, grey "Default Material" mesh. It looks like an unrendered asset.
+**[BLOCK 3: ACTION]**
+Action: The grey mesh is vibrating violently.
+**[BLOCK 4: CINEMATOGRAPHY]**
+Camera: Wide Shot, static. Establishing the scale of the error.
 
-[CLIP 08: HENOCH_CLOSE_UP_REACTION]
+[CLIP 04: DAEMON_EXTRACTION_CLOSE]
 **[BLOCK 1: SUBJECT]**
-Actor: Enoch.
-**[BLOCK 2: ACTION]**
-Action: He is watching the playback of the corruption. His expression is sorrowful but stern.
-**[BLOCK 3: CINEMATOGRAPHY]**
-Camera: Extreme Close-Up on his eyes. We see the reflection of the burning world in his eye-beams.
+Subject: The Nephilim's Chest Cavity.
+**[BLOCK 2: VFX]**
+VFX: A bright red, glowing wireframe (the rig) is tearing itself out of the grey mesh. It looks like vector lines escaping a solid surface.
+**[BLOCK 3: ACTION]**
+Action: The wireframe pulls free with a digital tearing motion.
+**[BLOCK 4: CINEMATOGRAPHY]**
+Camera: Close-Up. High shutter speed to capture the jagged movement.
 
-[CLIP 09: THE_VERDICT_DELIVERY]
+[CLIP 05: THE_SWARM_ACCUMULATION]
 **[BLOCK 1: SUBJECT]**
-Actor: Enoch.
-**[BLOCK 2: ACTION]**
-Action: Speaking. "You have no peace."
-**[BLOCK 3: CINEMATOGRAPHY]**
-Camera: Medium Shot. Frontal. Symmetrical framing.
-**[BLOCK 4: LIGHTING]**
-Lighting: The background turns from black to a harsh, warning red.
+Subject: Multiple Wireframe Daemons.
+**[BLOCK 2: ENVIRONMENT]**
+Location: Earth_Sector_04.
+**[BLOCK 3: ACTION]**
+Action: Dozens of these red vector-ghosts are floating aimlessly above the grey corpses. They are glitching through each other (Clipping).
+**[BLOCK 4: CINEMATOGRAPHY]**
+Camera: Panning shot across the battlefield. The air is filled with "Malware".
 
-[CLIP 10: THE_LOCKDOWN]
-**[BLOCK 1: ABSTRACT]**
-Subject: A massive, holographic "lock" symbol appearing over the Earth.
-**[BLOCK 2: ACTION]**
-Action: Heavy iron bars (digital shaders) slam down over the view of the planet.
-**[BLOCK 3: CINEMATOGRAPHY]**
-Camera: Orbital view. Pulling back rapidly.
-
-[CLIP 11: FINAL_STATIC]
+[CLIP 06: FLASHBACK_INIT]
 **[BLOCK 1: VISUAL]**
-Visual: The screen fills with "NO SIGNAL" static, but the static forms the vague shapes of the weeping Watchers.
+Visual: A fullscreen "GLITCH_WIPE". Vertical pixel-sorting lines scan across the screen.
 **[BLOCK 2: AUDIO_CUE]**
-Audio: Abrupt silence.
+Audio: Modem Handshake Screech.
 
-[CLIP 12-15: BUFFER_CLIPS]
-Reserve for lip-sync coverage of the specific message to the Watchers (Segment 3 & 4).
-*   Clip 12: Enoch speaking (Side Profile).
-*   Clip 13: The Watchers listening (Reaction Shot - distorted/glitched faces).
-*   Clip 14: Enoch pointing to the Earth (Gesture).
-*   Clip 15: The "Hidden Things" visualization (Abstract geometry rotating).
+[CLIP 07: THE_SERVER_ROOM_THEFT]
+**[BLOCK 1: SUBJECT]**
+Actors: The Watchers (Pre-Fall). Luminous, but their light is cold/fluorescent.
+**[BLOCK 2: ENVIRONMENT]**
+Location: Heaven_Archive (Server Room). Endless racks of glass data-slabs.
+**[BLOCK 3: ACTION]**
+Action: A Watcher is pulling a "Black Cube" (The Mystery) out of a restricted slot. The slot flashes "DEBUG_ONLY".
+**[BLOCK 4: CINEMATOGRAPHY]**
+Camera: Security Camera angle (high corner, slight fisheye, grain overlay).
+
+[CLIP 08: THE_ILLEGAL_TOOL]
+**[BLOCK 1: SUBJECT]**
+Prop: The Black Cube (The Mystery).
+**[BLOCK 2: VISUALS]**
+Visuals: The cube is not solid; it's made of scrolling command lines. It pulses with unstable energy.
+**[BLOCK 3: ACTION]**
+Action: The Watcher hands it down towards the camera (POV of Earth).
+**[BLOCK 4: CINEMATOGRAPHY]**
+Camera: POV Shot.
+
+[CLIP 09: USER_ERROR_BEAUTY]
+**[BLOCK 1: SUBJECT]**
+Actor: Human Woman.
+**[BLOCK 2: ACTION]**
+Action: She holds the Cube. She tries to use it on her face.
+**[BLOCK 3: VFX]**
+VFX: Instead of makeup, her face mesh starts to distort. Eyes become too large (Anime proportions), skin becomes liquid gold. It looks like a bad Photoshop filter applied in real-time.
+**[BLOCK 4: CINEMATOGRAPHY]**
+Camera: Mirror reflection shot.
+
+[CLIP 10: USER_ERROR_WORLD]
+**[BLOCK 1: ENVIRONMENT]**
+Location: A village.
+**[BLOCK 2: ACTION]**
+Action: The geometry of the houses is broken. Walls are missing (Backface Culling). A river is flowing in a perfect square loop.
+**[BLOCK 3: VFX]**
+VFX: Purple/Black "Missing Texture" checkerboards on the ground.
+**[BLOCK 4: CINEMATOGRAPHY]**
+Camera: Tracking shot through the broken simulation.
+
+[CLIP 11: ENOCH_WITNESS_REACTION]
+**[BLOCK 1: SUBJECT]**
+Actor: Enoch.
+**[BLOCK 2: ACTION]**
+Action: He is back in the Earth_Sector (Present time). He lowers a holographic visor (The Merkabah Interface) over his eyes.
+**[BLOCK 3: CINEMATOGRAPHY]**
+Camera: Extreme Close-Up on the visor reflecting the red wireframe ghosts.
+
+[CLIP 12: THE_VERDICT_SETUP]
+**[BLOCK 1: SUBJECT]**
+Actor: Enoch.
+**[BLOCK 2: ACTION]**
+Action: He turns to face the "Sky" (where the Watchers are watching from).
+**[BLOCK 3: CINEMATOGRAPHY]**
+Camera: Low angle, hero shot. The camera is steady, locked to his movement.
+
+[CLIP 13: THE_VERDICT_DIALOGUE_01]
+**[BLOCK 1: SUBJECT]**
+Actor: Enoch.
+**[BLOCK 2: ACTION]**
+Action: Speaking: "You have sent the virus." (Lip-sync pass).
+**[BLOCK 3: LIGHTING]**
+Lighting: His eye-beams flare up, blinding the lens.
+
+[CLIP 14: THE_WATCHERS_DISCONNECT]
+**[BLOCK 1: SUBJECT]**
+Subject: A holographic projection of the Watchers in the sky.
+**[BLOCK 2: ACTION]**
+Action: The projection begins to tear and pixelate. Their faces are replaced by "404" errors.
+**[BLOCK 3: VFX]**
+VFX: Heavy digital noise.
+
+[CLIP 15: THE_VERDICT_DIALOGUE_02]
+**[BLOCK 1: SUBJECT]**
+Actor: Enoch.
+**[BLOCK 2: ACTION]**
+Action: Speaking: "There is no ping returned. You have no peace." (Lip-sync pass).
+**[BLOCK 3: CINEMATOGRAPHY]**
+Camera: Crash Zoom into his eye.
+
+[CLIP 16: SYSTEM_LOCKOUT]
+**[BLOCK 1: ABSTRACT]**
+Subject: The Earth from Orbit.
+**[BLOCK 2: ACTION]**
+Action: A red "FIREWALL" grid encases the planet. The connection lines to the stars are severed one by one.
+**[BLOCK 3: AUDIO_CUE]**
+Audio: Power down sound. Deep bass drop to silence.

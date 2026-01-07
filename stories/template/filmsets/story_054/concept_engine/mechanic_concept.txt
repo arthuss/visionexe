@@ -1,83 +1,82 @@
-CONCEPT_CORE: SYSTEM_PURGE_AND_COOLANT_FLUSH
-The "Deep Valley" is interpreted as the primary Heat Sink and Garbage Collection Sector of the simulation. The "Fire" is the thermal exhaust from processing corrupted entities (Kings/Mighty). The "Chains" are physical containment protocols (Magnetic Locking Mechanisms). The "Waters" represent a massive Coolant Flush (System Reset) initiated to sterilize the infected sectors.
+CONCEPT_CORE: SYSTEM_PURGE_AND_COOLANT_FLUSH_V2
+The "Deep Valley" is identified as the Central Thermal Exhaust Port (`/dev/null` equivalent for high-priority threads). The "Fire" is not combustion, but the visible thermal radiation from massive data-deletion cycles. The "Chains" are `CRYPTOGRAPHIC_HASH_LOCKS`—immutable logic constraints with zero physical mass. The "Waters" are a dielectric coolant flood used to execute a hard system reset.
 
 1. BIO-INJECTION
-Enoch's ocular sensors shift to `THERMAL_SPECTRAL_MODE` (High Contrast Orange/Blue) to perceive the heat signatures in the valley without optical damage. His auditory receptors dampen by 80% to filter the deafening roar of the thermal exhaust. A HUD overlay `THREAT_ANALYSIS_V2` highlights the "Kings and Mighty" with red bounding boxes labeled `CORRUPTED_ENTITY`.
+Enoch does not simply "look." His optical sub-routines switch to `THERMAL_GRADIENT_VISUALIZATION`. His skin shader shifts from "Parian Marble" to "Ceramic Heat-Shielding" (Matte Grey/White) to reflect the intense radiation of the valley. He is not feeling heat; he is reading temperature data.
 
 2. MESH-BREAK
-The "Deep Valley" is not natural terrain but a `GEOMETRY_TEAR`. The texture of the earth peels back like burnt skin, revealing the raw, glowing wireframe and the "burning" core of the server architecture underneath. The "Kings" do not walk; they glitch and clip through the floor, dragged by invisible collision vectors toward the heat sink.
+The "Deep Valley" geometry is unstable. The polygon count in the pit is so low (Level of Detail 0) that the "Kings" fall through the textures. The "burning" is z-fighting textures and vertex displacement errors caused by the system overload. The "earth" doesn't crack; the topology tears, revealing the void (skybox) underneath.
 
 3. PACING-STRATEGIE
-Phase 1 (The Valley): Slow, heavy, industrial rhythm. The movement of the "chains" is mechanical and rhythmic (clank-hiss-clank).
-Phase 2 (The Dialogue): Static, stable camera for data transfer between Enoch and the Angel.
-Phase 3 (The Flush): Accelerating chaos. The release of the waters is sudden and violent, shifting from solid mechanics to fluid dynamics.
+Phase 1 (The Lock): Precision, surgical, snapping. 24fps.
+Phase 2 (The Query): Static, low-angle, monumental. 24fps.
+Phase 3 (The Flush): Exponential acceleration. Frame rate ramps from 24fps to 60fps distinct look to simulate fluid simulation speed.
 
 4. AUDIO-DESIGN
-No choirs.
-The Valley: `HEAVY_SERVER_ROAR` (thousands of cooling fans at max RPM) mixed with `ELECTRICAL_ARCING`.
-The Chains: `HYDRAULIC_PRESS` sounds, metallic grinding, magnetic locking thuds.
-The Waters: `HIGH_PRESSURE_VALVE_RELEASE`, the sound of rushing liquid in pipes, not a natural river.
+The Valley: A Shepard Tone (illusion of infinitely rising pitch) combined with the sound of a massive server farm ventilation system.
+The Chains: Not clanking metal. The sound of a high-voltage capacitor charging and the "click" of a server rack locking into place.
+The Waters: The sound of nitrogen release (hissing) and heavy liquid impact (viscous fluid), distinct from natural water.
 
 5. ÜBERGÄNGE
-From Normal to Valley: A "LOD_DROP" (Level of Detail Drop). The realistic desert floor dissolves into low-poly geometry, then into the burning void.
-From Furnace to Flood: A "SYSTEM_ALERT" flash (Red to Blue strobe). The heat turns to steam instantly as the coolant hits.
+From Normal to Valley: A `WIREFRAME_SCANLINE` effect passes over the terrain. Where the scanline passes, the desert texture is stripped away, leaving the raw industrial heat-sink architecture exposed.
 
-6. FRAMEWORK & TIMING (60 Seconds / 15-18 Clips)
-We need extended clip counts for the dialogue and the complex multi-stage event (Chains -> Furnace -> Flood).
+6. FRAMEWORK & TIMING
+15 Clips. Total Runtime: ~70 Seconds.
+Expanded sequence for the Dialogue (Clips 5-7) and the dual-source coolant injection (Clips 11-13).
 
 7. DIALOG-CHECK
-YES. Enoch interrogates the Angel of Peace regarding the specific function of the "Iron Fetters".
-Shot-Reverse-Shot required:
-- Shot A: Enoch (MCU) pointing/looking at the chains.
-- Shot B: Angel of Peace (MCU) responding, gesturing to the valley.
-- Shot C: Insert Shot of the Chains (POV).
+YES. Enoch (The User) queries the interface (Angel of Peace) about the function of the sub-routines (Chains).
+Shot-Reverse-Shot implemented:
+- Shot A: Enoch (Over-Shoulder) -> Looking at Chains.
+- Shot B: Angel (POV) -> Responding.
+- Shot C: Detail of the specific "Hosts" being targeted.
 
 8. SPATIAL CONTEXT (ARRIVAL)
-Enoch is positioned on a "Gantry" or "Observation Deck" - a floating platform of obsidian glass hovering directly above the Heat Sink Valley. No travel needed; he is observing the processing plant from above.
+Enoch is instantiated on the "Gantry" (Observation Bridge 01). No travel animation needed. He manifests via `NODE_TRANSLOCATION` (a vertical light-slice) directly onto the black glass walkway overlooking the heat sink.
 
 SCENE_FLOW_AND_PROMPTS
 
-[CLIP 01: ESTABLISHING_THE_VALLEY]
-**[BLOCK 1: SUBJECT_ANATOMY]** None (Landscape). **[BLOCK 2: ENVIRONMENT]** The Deep Valley. **[BLOCK 3: ACTION]** Camera pans over a massive, artificial canyon. The walls are lined with burning server racks and heat pipes. The bottom is a river of molten data (magma). **[BLOCK 4: LIGHTING]** Hellish Red/Orange underlighting, volumetric smoke. **[BLOCK 5: TECH]** `UNREAL_ENGINE_5`, `PATH_TRACING`, `INDUSTRIAL_SCIFI`.
+[CLIP 01: THE_HEAT_SINK_TOPOLOGY]
+**[BLOCK 1: ENVIRONMENT]** The Deep Valley (`SECTOR_GEHENNA`). **[BLOCK 2: ARCHITECTURE]** Not a natural canyon. A recursive fractal trench lined with billions of glowing copper heatsink fins and red warning lights. **[BLOCK 3: ACTION]** Camera pans down into the abyss. The air is distorted by extreme heat waves (refraction). **[BLOCK 4: LIGHTING]** Danger Red (660nm) pulsing from the bottom. **[BLOCK 5: TECH]** `UNREAL_ENGINE_5`, `PATH_TRACING`, `VOLUMETRIC_DENSITY`.
 
-[CLIP 02: THE_CORRUPTED_KINGS]
-**[BLOCK 1: SUBJECT_ANATOMY]** The Kings and Mighty. **[BLOCK 2: APPAREL]** Tattered royal robes, digital artifacts glitching off their bodies. **[BLOCK 3: ACTION]** They are being dragged by magnetic forces towards the edge of the valley. Their faces are pixelating in terror. **[BLOCK 4: VFX]** `GLITCH_CORE`, `DATAMOSH` effects on their skin.
+[CLIP 02: THE_CORRUPTED_PROCESSES]
+**[BLOCK 1: SUBJECT_ANATOMY]** The Kings and Mighty (Corrupted User Avatars). **[BLOCK 2: APPAREL]** High-resolution textures that are corrupted—gold robes rendering as purple checkerboards (missing texture). **[BLOCK 3: ACTION]** They are "clipping" through the floor geometry. They try to walk, but their animation rig is broken (T-Pose flickers). **[BLOCK 4: VFX]** `Z_FIGHTING`, `TEXTURE_POPPING`.
 
-[CLIP 03: THE_CHAINS_FORGING]
-**[BLOCK 1: PROPS]** The Iron Fetters. **[BLOCK 2: DESIGN]** Massive, black metal cuffs with glowing red runes. Not medieval chains, but heavy industrial locking mechanisms. **[BLOCK 3: ACTION]** Automated robotic arms (invisible or glass-like) are assembling these fetters, welding them shut with sparks flying. **[BLOCK 4: AUDIO_VISUAL]** Sparks hit the lens.
+[CLIP 03: ZERO_MASS_CONSTRAINTS]
+**[BLOCK 1: PROPS]** The Iron Fetters. **[BLOCK 2: DESIGN]** `LOGIC_GATES`. They look like iron, but they are semi-transparent holograms. They pass through the physical bodies of the Kings and lock onto their "skeletal rig" (visible internal wireframe). **[BLOCK 3: ACTION]** The chains tighten. There is no physical resistance; the avatars just snap into a constrained pose. **[BLOCK 4: PHYSICS]** `KINEMATIC_LOCK`.
 
-[CLIP 04: ENOCH_OBSERVATION]
-**[BLOCK 1: SUBJECT_ANATOMY]** Enoch (System Prototype). **[BLOCK 2: ACTION]** MCU. Enoch looks down, his eyes glowing white, scanning the scene. He looks disturbed but analytical. **[BLOCK 3: LIGHTING]** Red rim light from the valley below reflects on his marble skin.
+[CLIP 04: ENOCH_ANALYSIS_MODE]
+**[BLOCK 1: SUBJECT_ANATOMY]** Enoch (System Prototype). **[BLOCK 2: APPAREL]** Liquid Linen Tunic. **[BLOCK 3: ACTION]** Enoch stands on the Obsidian Gantry. His eyes are cycling through spectrums (Red to Blue). He is recording the event. **[BLOCK 4: CAMERA]** Medium Shot, profile. Background is the red glow of the pit.
 
-[CLIP 05: DIALOGUE_ENOCH_ASKING]
-**[BLOCK 1: SUBJECT_ANATOMY]** Enoch. **[BLOCK 2: ACTION]** Enoch turns his head slightly to the right (to the Angel). He gestures to the chains. "For whom are these prepared?" **[BLOCK 3: CAMERA]** Over-the-shoulder of the Angel (blurred).
+[CLIP 05: DIALOGUE_QUERY_ENOCH]
+**[BLOCK 1: SUBJECT_ANATOMY]** Enoch. **[BLOCK 2: ACTION]** Over-the-shoulder shot looking at the Angel. Enoch points with the Obsidian Tablet towards the pit. "For whom is this quarantine prepared?" **[BLOCK 3: LIGHTING]** The Red glow of the pit illuminates his face from below (Underlighting).
 
-[CLIP 06: DIALOGUE_ANGEL_ANSWERING]
-**[BLOCK 1: SUBJECT_ANATOMY]** Angel of Peace. **[BLOCK 2: APPAREL]** Fluid chrome suit, face is a smooth reflective visor. **[BLOCK 3: ACTION]** The Angel nods towards the pit. "For the hosts of Azazel." **[BLOCK 4: CAMERA]** Over-the-shoulder of Enoch.
+[CLIP 06: DIALOGUE_RESPONSE_ANGEL]
+**[BLOCK 1: SUBJECT_ANATOMY]** Angel of Peace (`SYSTEM_ADMIN_INTERFACE`). **[BLOCK 2: DESIGN]** A humanoid form made of polished chrome and fiber optics. No face, just a reflective visor displaying scrolling data. **[BLOCK 3: ACTION]** The Angel does not turn. It points a chrome finger at the pit. "For the rootkit of Azazel." **[BLOCK 4: CAMERA]** Close Up on the visor reflection.
 
-[CLIP 07: AZAZEL_HOSTS_INSERT]
-**[BLOCK 1: SUBJECT_ANATOMY]** The Hosts of Azazel. **[BLOCK 2: DESIGN]** Shadowy, semi-transparent entities, vaguely humanoid but made of static noise. **[BLOCK 3: ACTION]** They are being bound by the Iron Fetters. The chains clamp onto their limbs, solidifying the static into geometry.
+[CLIP 07: AZAZEL_HOST_VISUALIZATION]
+**[BLOCK 1: SUBJECT_ANATOMY]** Azazel's Host. **[BLOCK 2: DESIGN]** They are not human. They are jagged, black silhouettes of static noise. **[BLOCK 3: ACTION]** POV from Enoch's scanner. A bounding box appears around them: `TARGET_LOCKED`. The "Iron Fetters" (Code Chains) download onto them, rendering them immobile.
 
-[CLIP 08: THE_ARCHANGELS_ARRIVAL]
-**[BLOCK 1: SUBJECT_ANATOMY]** Michael, Raphael, Gabriel, Phanuel. **[BLOCK 2: DESIGN]** Four towering pillars of light, abstract humanoid forms. **[BLOCK 3: ACTION]** They stand at the four corners of the furnace control deck. They initiate the purge sequence. **[BLOCK 4: VFX]** Beams of light connect them.
+[CLIP 08: THE_FOUR_EXECUTORS]
+**[BLOCK 1: SUBJECT_ANATOMY]** Michael, Gabriel, Raphael, Phanuel. **[BLOCK 2: DESIGN]** Four massive pillars of vertical white light, arranging themselves at the cardinal points of the valley. **[BLOCK 3: ACTION]** They sync up. A beam of white light connects them, forming a "Kill Box" perimeter. **[BLOCK 4: VFX]** `LASER_GRID_INITIATION`.
 
-[CLIP 09: CASTING_INTO_FURNACE]
-**[BLOCK 1: ACTION]** The bound entities (Kings/Azazel's hosts) are jettisoned into the burning core of the valley. **[BLOCK 2: PHYSICS]** Ragdoll physics as they fall into the fire. **[BLOCK 3: VFX]** They disintegrate into binary code upon contact with the lava.
+[CLIP 09: DISPOSAL_INTO_FURNACE]
+**[BLOCK 1: ACTION]** The gravity in the valley inverts. The bound entities are slammed downwards at terminal velocity. **[BLOCK 2: ENVIRONMENT]** The floor of the valley opens like a camera iris. **[BLOCK 3: VFX]** As they hit the red core, they don't burn; they disintegrate into binary 0s and 1s (`DECOMPILATION`).
 
-[CLIP 10: THE_STOREHOUSES_OPEN_ABOVE]
-**[BLOCK 1: ENVIRONMENT]** The Sky/Ceiling. **[BLOCK 2: ACTION]** Massive circular hatches (iris mechanisms) open in the dark sky. **[BLOCK 3: VFX]** Thick, blue coolant liquid (Water from Above) pours down in massive columns, like waterfalls from space.
+[CLIP 10: SYSTEM_ALERT_SIGNAL]
+**[BLOCK 1: ENVIRONMENT]** The Sky. **[BLOCK 2: ACTION]** The Red warning lights turn off. A harsh Blue strobe begins. **[BLOCK 3: AUDIO_VISUAL]** The rumble stops. Silence. Then a high-pitched siren. **[BLOCK 4: ATMOSPHERE]** Temperature drops instantly. Steam / Nitrogen fog forms.
 
-[CLIP 11: THE_FOUNTAINS_OPEN_BELOW]
-**[BLOCK 1: ENVIRONMENT]** The Earth/Floor. **[BLOCK 2: ACTION]** The ground cracks open. High-pressure geysers of dark water (Water from Below) shoot up. **[BLOCK 3: PHYSICS]** Debris flying, steam rising where water meets fire.
+[CLIP 11: OPENING_THE_STOREHOUSES_ABOVE]
+**[BLOCK 1: ENVIRONMENT]** The Zenith (Sky). **[BLOCK 2: ACTION]** Massive rectangular vents open in the black skybox. **[BLOCK 3: VFX]** `DIELECTRIC_FLUID` (Coolant) pours down. It is thick, viscous, and glows faint blue. It falls in perfectly straight, non-turbulent columns (Laminar Flow).
 
-[CLIP 12: THE_CONNECTION_MALE_FEMALE]
-**[BLOCK 1: ACTION]** Wide shot. The columns of water from the sky meet the geysers from the ground. **[BLOCK 2: METAPHOR]** They lock together like docking ports. A massive energy discharge (lightning) occurs at the connection point.
+[CLIP 12: BREAKING_THE_FOUNTAINS_BELOW]
+**[BLOCK 1: ENVIRONMENT]** The Nadir (Valley Floor). **[BLOCK 2: ACTION]** The heated circuitry on the ground bursts. **[BLOCK 3: VFX]** Geysers of dark, black liquid (Ground Water/Oil) shoot up under extreme pressure. This is the dirty, used coolant being cycled out.
 
-[CLIP 13: THE_RISING_TIDE]
-**[BLOCK 1: ENVIRONMENT]** The Valley. **[BLOCK 2: ACTION]** The fire is extinguished instantly, replaced by a churning, boiling black ocean. The level rises rapidly, swallowing the ledges.
+[CLIP 13: THE_FUSION_EVENT]
+**[BLOCK 1: ACTION]** The Blue Fluid (Above) collides with the Black Fluid (Below). **[BLOCK 2: PHYSICS]** Violent fluid simulation. **[BLOCK 3: VFX]** Where they touch, massive electrical arcs (Lightning) discharge. The connection grounds the circuit. The "Male" and "Female" ports lock.
 
-[CLIP 14: WIPING_THE_DWELLERS]
-**[BLOCK 1: SUBJECT_ANATOMY]** Generic Earth Dwellers (Low Poly Crowd). **[BLOCK 2: ACTION]** The water overtakes them. They don't drown; they dissolve. **[BLOCK 3: VFX]** As the water touches them, they turn into wireframe and vanish (deletion).
+[CLIP 14: THE_FORMAT_WAVE]
+**[BLOCK 1: ENVIRONMENT]** Global View. **[BLOCK 2: ACTION]** The fluid level rises instantly, filling the valley. **[BLOCK 3: SUBJECT_ANATOMY]** The "Dwellers" (remaining corrupt geometry) are submerged. **[BLOCK 4: VFX]** Upon contact with the fluid, the geometry wireframes resolve into flat data planes and vanish.
 
-[CLIP 15: FINAL_WIPE]
-**[BLOCK 1: ACTION]** The camera pulls back high. The entire screen fills with the dark, churning water/coolant. The red glow is gone. Only the blue hum of the coolant remains. **[BLOCK 2: TEXT_OVERLAY]** `SYSTEM_FLUSH_COMPLETE`.
+[CLIP 15: SYSTEM_COOLDOWN]
+**[BLOCK 1: ACTION]** High angle wide shot. The valley is now a calm lake of glowing blue fluid. **[BLOCK 2: ATMOSPHERE]** Silent. Peaceful. **[BLOCK 3: TECH]** A HUD Overlay appears in the center of the screen: `CACHE_CLEARED`. `SYSTEM_TEMP_NORMAL`.

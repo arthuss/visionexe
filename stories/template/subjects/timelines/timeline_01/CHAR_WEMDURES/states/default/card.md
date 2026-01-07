@@ -1,0 +1,10 @@
+## [STATE] Wemdures :: Default
+**State ID:** default
+**Chapters:** 14 - 14
+
+**Phase Summary:** Initial sentinel state
+**Phase Keywords:** ancient, tech, mystic, crystalline, glyphs, bioluminescent, oblivion
+**Phase Prompt:**
+A towering sentinel named Wemdures stands in the dimly lit Obsidian Temple, its basaltic composite body towering 3.5 meters, joints reinforced with titanium alloy, and a translucent obsidian skin that glows faintly. Its face is a plane of etched hieroglyphic glyphs, with ocular arrays of opalescent crystal pulsing amber data, and a central cranial node emitting soft amber light. The sentinel wears a layered cuirass of hammered copper alloy, gold filigree, lapis lazuli inlay, and tempered glass plates. Embedded within its limbs is a living crystal lattice that channels energy, with bio‑luminescent filaments along the limbs. A tethered obsidian staff with glyph‑etched core completes the ensemble, casting a subtle glow on the stone floor.
+
+---

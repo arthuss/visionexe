@@ -1,29 +1,30 @@
 ## [CHARACTER] Spirit (ID: CHAR_SPIRIT)
-**Description:** A metaphysical anomaly manifesting as a localized ontological distortion. The 'Spirit' is not composed of matter but exists as a refractive void—a semi-transparent heat-haze that bends light and reality around a vague, negative-space silhouette. It suggests a breach in the physical layer, marked by static discharge and gravitational lensing rather than biological form. It moves with a drifting, unsettling fluidity, disturbing the particulate matter of the environment without touching it.
-**Tags:** #entity #distortion #spectral #void-silhouette #heat-haze #anomaly #ethereal
+**Description:** A semi‑transparent, heat‑haze distortion hovering above a cracked grey wasteland, its core a burning white energy sphere surrounded by gold filaments, Ge'ez glyphs swirling like a gyroscope, and a faint black silhouette. The spirit’s eye glows white, reflecting infinite fractal geometry. In a crystal sanctum, the spirit manifests as a polished obsidian tablet with red glyphs "SPIRIT_TO_SPIRIT" burned by an invisible laser, smoke rising. When dissolving, it transforms into a vertical stream of golden binary code ascending into the sky, all rendered in photorealistic, cinematic style with ancient Ethiopian/Egyptian aesthetics fused with incomprehensible technology.
+**Tags:** #spiritual entity #ancient-tech #Ethiopian #Egyptian #obsidian #gold filaments #Ge'ez glyphs #fractals #binary code #heat-haze
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Non-corporeal manifestation appearing as a violent optical distortion, similar to intense heat haze or a gravitational lens, roughly humanoid in scale.
-*   **Core:** A faint, obsidian-black silhouette visible deep within the refractive field, acting as a 'hole' in the background environment.
-*   **Atmosphere:** The air immediately surrounding the entity ripples and blurs; dust and debris float in a low-gravity suspension field beneath it.
-*   **Tech-Exegesis:** Interpreted as a 'coherent etheric resonance' or 'data-ghost' that fails to fully render in the physical plane, resulting in visual clipping and chromatic aberration.
+*   **Body/Form:** Semi‑transparent heat‑haze distortion floating above ground, faint black silhouette, core of pure white energy.
+*   **Face/Sensors:** Glowing white eye with fractal reflection, reflecting infinite geometry.
+*   **Clothing/Armor:** Internal gold filaments forming a ribcage, Ge'ez glyphs rotating like a gyroscope.
+*   **Key Features:** Obsidian tablet with red glyphs burned by invisible laser, smoke rising, golden binary code stream.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): The standard manifestation as a wandering distortion field with a hollow core.
+*   Phase 1 (Grey Wasteland): The Spirit first appears as a heat‑haze distortion with a black silhouette and a burning core.
+*   Phase 2 (Crystal Sanctum): The Spirit manifests as a polished obsidian tablet, red glyphs, and a core of white energy surrounded by gold filaments.
 
 ### 3. PROPS & EQUIPMENT
-*   Static Discharge
-*   Levitating Dust
+*   Item: Obsidian Tablet
+*   Item: Spirit Kernel
 
 ### 4. AI PROMPT KEYWORDS
-`heat-haze distortion`, `semi-transparent entity`, `negative space silhouette`, `refractive air`, `chromatic aberration`, `gravitational lensing`, `void core`, `cinematic atmosphere`
+`heat-haze`, `obsidian`, `Ge'ez`, `fractals`, `binary code`, `gold filaments`, `spirit kernel`, `ancient-tech`
 
 ### 5. PROMPT BLOCK (T2I)
-A semi-transparent spectral anomaly floating above the ground, manifesting as a violent heat-haze distortion that bends light around a vague, void-black silhouette. The background environment is warped through the entity's form. The ground beneath it is slightly disturbed, with dust particles levitating in a static field. Cinematic lighting, high contrast, photorealistic, 8k, ethereal industrial mysticism, ominous presence.
+A semi-transparent, heat-haze distortion hovering above a cracked grey wasteland, its core a burning white energy sphere surrounded by gold filaments, Ge'ez glyphs swirling like a gyroscope, and a faint black silhouette. The spirit's eye glows white, reflecting infinite fractal geometry. In a crystal sanctum, the spirit manifests as a polished obsidian tablet with red glyphs 'SPIRIT_TO_SPIRIT' burned by an invisible laser, smoke rising. When dissolving, it transforms into a vertical stream of golden binary code ascending into the sky, all rendered in photorealistic, cinematic style with ancient Ethiopian/Egyptian aesthetics fused with incomprehensible technology.
 
 ### 6. PHASE PROMPTS
-*   **Default:** The entity as a refractive distortion field with a dark core.
-    Prompt: A semi-transparent spectral anomaly floating above the ground, manifesting as a violent heat-haze distortion that bends light around a vague, void-black silhouette. The background environment is warped through the entity's form. The ground beneath it is slightly disturbed, with dust particles levitating in a static field. Cinematic lighting, high contrast, photorealistic, 8k, ethereal industrial mysticism, ominous presence.
-    Keywords: heat-haze distortion, semi-transparent, faint black silhouette, optical warping
+*   **Default:** Default manifestation of the Spirit across environments.
+    Prompt: A semi-transparent, heat-haze distortion hovering above a cracked grey wasteland, its core a burning white energy sphere surrounded by gold filaments, Ge'ez glyphs swirling like a gyroscope, and a faint black silhouette. The spirit's eye glows white, reflecting infinite fractal geometry. In a crystal sanctum, the spirit manifests as a polished obsidian tablet with red glyphs 'SPIRIT_TO_SPIRIT' burned by an invisible laser, smoke rising. When dissolving, it transforms into a vertical stream of golden binary code ascending into the sky, all rendered in photorealistic, cinematic style with ancient Ethiopian/Egyptian aesthetics fused with incomprehensible technology.
+    Keywords: heat-haze, obsidian, Ge'ez, fractals, binary code, gold filaments, spirit kernel, ancient-tech
 
 ---

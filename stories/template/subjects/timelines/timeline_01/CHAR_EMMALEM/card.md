@@ -1,29 +1,30 @@
 ## [CHARACTER] Emmalem (ID: CHAR_EMMALEM)
-**Description:** A high-ranking administrative entity of the Enochian order, functioning as a living archive. Emmalem fuses organic stature with calcified technological augmentations, serving as a silent witness and recorder of events. The design bridges the gap between a temple priestess and a mainframe terminal, embodying the cold, logical mysticism of the ancient machinery.
-**Tags:** #character #entity #ancient-tech #enochian #cybernetic #priestess
+**Description:** Emmalem is a towering, semi‑organic entity that bridges the ancient and the incomprehensible. Standing 3.5 m tall, its basalt‑like skin is etched with luminous Ethiopian hieroglyphs that pulse in sync with its bio‑luminescent ocular sensors. The limbs are a fusion of hammered copper alloy and crystalline hardware, giving the impression of a living machine forged in a forgotten workshop. Its torso is encased in a tattered ancient Egyptian linen robe, woven with adaptive nanofiber that shifts to reveal hidden glyphs when illuminated. Emmalem carries an obsidian staff crowned with a radiant crystal glyph, a conduit for channeling the entity’s arcane energy.
+**Tags:** #ancient-tech #industrial-mysticism #Ethiopian #Egyptian #photorealistic #tactile #bio-luminescence #glyphs #crystalline-hardware
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Tall, elongated stature with a rigid, almost statue-like posture. Skin is deep basalt-grey, etched with faint, gold-circuitry scarification patterns that glow faintly when processing data.
-*   **Face/Sensors:** The eyes are replaced by a singular, horizontal optical visor set into the bone structure, glowing with a low amber hum. The mouth is covered by a filigreed vocal synthesizer grille, resembling an ornate golden muzzle.
-*   **Clothing/Armor:** Draped in heavy, textured robes of dark weave that resemble carbon-fiber linen. A stiff, high collar of oxidized copper frames the head. Shoulders are adorned with crystalline epaulettes that refract ambient light.
-*   **Key Features:** Hands are multi-jointed, tipped with fine stylus-like digits for interfacing with stone tablets. A halo of faint holographic glyphs often drifts lazily around the head.
+*   **Body/Form:** 3.5 m tall, basalt‑like dermis with etched hieroglyphs, copper alloy limbs fused to crystalline lattice, subtle seams of nanofiber woven into the skin.
+*   **Face/Sensors:** Dual ocular arrays of iridescent obsidian, bio‑luminescent pupils that glow in low light, a faint, pulsing glyph etched along the brow ridge.
+*   **Clothing/Armor:** Tattered ancient Egyptian linen robe, reinforced with adaptive nanofiber, revealing hidden glyphs under cinematic lighting, a bronze belt with a carved Amharic sigil.
+*   **Key Features:** Obsidian staff with a radiant crystal glyph, bio‑luminescent runes along the spine, crystalline hardware protruding from the shoulders, a faint hum of incomprehensible energy.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): The standard operating state, pristine and imposing, serving as a stoic observer within the machine-city.
+*   Phase 1 (Emergence): Emmalem appears as a raw, basaltic construct with minimal glyphs, its limbs primarily copper alloy, and the staff is a simple obsidian rod.
+*   Phase 2 (Ascension): Advanced crystalline hardware integrates into the limbs, glyphs glow brighter, the staff crystal expands, and the robe reveals adaptive nanofiber patterns.
 
 ### 3. PROPS & EQUIPMENT
-*   Crystalline Data-Tablet: A slab of transparent, glowing crystal used for input.
-*   Resonance Staff: A long rod topped with a tuning-fork structure.
+*   Item: Obsidian Staff of the Scribe – a polished obsidian rod topped with a radiant crystal glyph.
+*   Item: Data Tablet of the Ancients – a slate tablet etched with ancient Ethiopian script, embedded with a faint holographic interface.
 
 ### 4. AI PROMPT KEYWORDS
-`Emmalem`, `ancient cyborg`, `Ethiopian futurism`, `basalt skin`, `gold circuitry`, `optical visor`, `tech-priestess`, `cinematic lighting`, `industrial mysticism`, `8k`, `unreal engine 5`
+`ancient Ethiopian`, `Egyptian`, `ancient-tech`, `industrial mysticism`, `photorealistic`, `tactile`, `bio-luminescence`, `glyphs`, `crystalline hardware`
 
 ### 5. PROMPT BLOCK (T2I)
-Full body shot of Emmalem, a tall ancient-tech entity with deep basalt-grey skin and gold circuit scarification. She wears heavy carbon-fiber linen robes with a high oxidized copper collar. Eyes replaced by a horizontal amber optical visor. Mouth covered by an ornate golden vocal grille. Multi-jointed fingers holding a glowing crystalline tablet. Atmospheric lighting, cathedral-like industrial background, dust motes, volumetric fog, photorealistic texture, sharp focus, cinematic composition.
+A towering humanoid entity named Emmalem, standing 3.5 meters tall, with basalt skin etched with luminous Ethiopian hieroglyphs that pulse in sync with its bio‑luminescent ocular sensors, copper alloy limbs fused to crystalline hardware, a tattered ancient Egyptian linen robe woven with adaptive nanofiber, holding an obsidian staff crowned with a radiant crystal glyph, photorealistic, tactile textures, industrial mysticism, grounded realism, cinematic lighting
 
 ### 6. PHASE PROMPTS
-*   **Default:** Standard administrative appearance, stoic and imposing.
-    Prompt: Medium shot of Emmalem, an ancient-tech administrator entity. Basalt-grey skin with faint gold etchings. Horizontal amber visor eyes, golden vocal grille. Wearing dark textured robes and a copper collar. Standing stoically in a dimly lit, high-tech stone corridor. Cinematic lighting, photorealistic, 8k, highly detailed textures.
-    Keywords: statuesque, administrator, amber visor, basalt skin
+*   **Default:** Emmalem in its current ascended form, fully integrated with crystalline tech and glowing glyphs.
+    Prompt: A towering humanoid entity named Emmalem, 3.5 m tall, basalt skin etched with luminous Ethiopian hieroglyphs, copper alloy limbs fused to crystalline hardware, bio‑luminescent ocular sensors, tattered ancient Egyptian linen robe with adaptive nanofiber, holding an obsidian staff with a radiant crystal glyph, photorealistic, tactile textures, industrial mysticism, grounded realism, cinematic lighting
+    Keywords: ancient Ethiopian, Egyptian, ancient-tech, industrial mysticism, photorealistic, tactile, bio-luminescence, glyphs, crystalline hardware
 
 ---

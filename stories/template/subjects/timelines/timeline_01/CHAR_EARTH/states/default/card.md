@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 14 - 102
 
-**Phase Summary:** Standard high-orbit/stratosphere view with visible orbital mechanics
-**Phase Keywords:** earth_orbit, spirograph_cage, stratosphere, indigo_gradient
+**Phase Summary:** Earth in its default state, a living ground with ancient‑tech integration.
+**Phase Keywords:** ancient Ethiopian, Egyptian, crystalline lattice, bio‑luminescent, industrial mysticism, photorealistic, ground
 **Phase Prompt:**
-Cinematic shot of Earth from the stratosphere. The planet's horizon curves sharply against the void. The atmosphere is visible as distinct, heavy layers of blue and indigo gas. Faint, glowing orbital trails weave a protective mathematical cage around the planet. The surface details are sharp, blending organic geology with subtle, ancient industrial patterns visible from space. Harsh rim lighting, deep shadows, 8k resolution, grounded realism mixed with mystical technology.
+High‑resolution 8k cinematic shot of Earth's ground: basaltic plains interlaced with luminous crystalline lattices, rune‑etched stone, bio‑luminescent moss, obsidian obelisks with translucent conduits, orbital spirograph trails, industrial mysticism aesthetic, tactile textures, no cartoon style
 
 ---

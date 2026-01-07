@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 99 - 99
 
-**Phase Summary:** SioL in standard observer mode with amber sensor active.
-**Phase Keywords:** active sensor, amber glow, standard mode
+**Phase Summary:** SioL in its default, fully activated state within a stone chamber, showcasing bioluminescent glyphs and crystalline core.
+**Phase Keywords:** ancient, Ethiopian, Egyptian, tech, mystic, photorealistic, tactile, bioluminescent, crystalline, hieroglyphic
 **Phase Prompt:**
-Full body shot of SioL, a mysterious ancient-tech observer construct. The figure has a body made of matte basalt stone segments and exposed copper hydraulics, draped in heavy, tattered ceremonial robes with metallic weave. The face is a featureless slab of polished obsidian with a single vertical amber light slit in the center. intricate oxidized bronze armor details etched with glowing Ge'ez glyphs. Atmospheric, dusty lighting, cinematic composition, photorealistic, 8k, tactile textures, serious tone, industrial mysticism.
+SioL stands in a dim, stone‑laden chamber, its basaltic alloy frame and obsidian‑lined armor panels gleaming with bioluminescent glyphs that pulse in slow rhythm; a single iridescent eye sensor emits amber light, surrounded by a translucent crystalline lattice that refracts ambient light into fractal patterns, while a crystalline data core hums softly, casting shifting shadows across the ancient Ethiopian and Egyptian motifs etched into its armor, all rendered in photorealistic, tactile detail.
 
 ---

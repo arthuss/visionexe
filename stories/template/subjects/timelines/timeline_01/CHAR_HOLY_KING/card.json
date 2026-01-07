@@ -3,52 +3,59 @@
   "name": "Holy King",
   "type": "character",
   "card": {
-    "description": "The supreme authority of the realm, a fusion of ancient priestly tradition and incomprehensible technological divinity. The Holy King sits at the apex of the hierarchy, his physical form augmented and sanctified by advanced machinery disguised as religious regalia. He embodies the connection between the earthly populace and the celestial machinery.",
+    "description": "The Holy King stands as a towering embodiment of divine authority, his form a seamless blend of ancient Ethiopian and Egyptian iconography with incomprehensible crystalline technology. He wears a basalt crown etched with solar glyphs that pulse with bio‑luminescent light, a bronze cuirass studded with obsidian and faint sigils that react to ambient energy, and carries an obsidian staff fused with metal and a crystal core that emits a steady glow. His eyes are luminous crystal sensors, and his skin bears subtle glyphs that seem to shift with the flow of unseen currents. The setting is a dimly lit throne room of stone and metal, where shafts of light reveal the intricate interplay of ancient motifs and advanced circuitry, creating a serious, photorealistic, tactile atmosphere.",
     "tags": [
-      "character",
-      "divine",
-      "ruler",
       "ancient-tech",
-      "regal",
-      "cybernetic"
+      "industrial mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "divine ruler",
+      "photorealistic",
+      "tactile"
     ],
     "visual_anatomy": [
-      "**Body/Form:** Tall and commanding presence, draped in heavy, layered ceremonial vestments. The fabric is a complex weave of organic heavy linen and metallic fiber-optics, shimmering with faint data streams.",
-      "**Face/Sensors:** Face is noble, severe, and dark-skinned. Subdermal gold circuitry traces geometric patterns along the jaw and temples. Eyes are augmented with optical sensors that shine with a piercing, unwavering white or gold light.",
-      "**Clothing/Armor:** Wears a 'Breastplate of Judgment' that functions as a complex sensor array, encrusted with gems that pulse as status indicators. Shoulders are burdened by heavy pauldrons of carved dark basalt and electrum.",
-      "**Key Features:** A towering headdress (crown) that resembles a divine antenna, composed of floating obsidian shards and suspended crystals held in place by magnetic fields. A subtle, humming energy field distorts the air around him."
+      "**Body/Form:** Robust, regal posture; height ~2.2m; muscular frame with bronze and obsidian armor plating; subtle sigils etched into skin.",
+      "**Face/Sensors:** Eyes glow with embedded crystal sensors; face adorned with faint glyphs that shift with ambient energy; mouth framed by a thin metallic band.",
+      "**Clothing/Armor:** Bronze cuirass studded with obsidian; woven obsidian cloth draped over shoulders; basalt crown etched with luminous solar glyphs; scepter of obsidian and metal with crystal core.",
+      "**Key Features:** Basalt crown pulsing with bio‑luminescent light; obsidian staff emitting steady glow; skin bearing reactive sigils; crystal‑embedded ocular sensors."
     ],
     "evolution": [
-      "Phase 1 (Default): The standard appearance of the Holy King, regal and imposing, overseeing the divine machinery."
+      "Phase 1 (Mortal Ruler): The Holy King appears as a mortal ruler, wearing a bronze cuirass with subtle glyphs, a simple obsidian staff, and a modest crown of polished bronze.",
+      "Phase 2 (Divine Ascension): The Holy King ascends, his crown becomes basalt with luminous glyphs, his armor transforms into a composite of metal and crystal, and his staff glows with bio‑luminescent light, reflecting his divine status."
     ],
     "props": [
-      "Item: Tech-Scepter (A long staff of gold and unknown black alloy, topped with a floating, rotating singularity or focusing crystal)",
-      "Item: Haptic-Scrolls (Flexible distinct display surfaces resembling papyrus but displaying shifting holographic glyphs)"
+      "Item: Scepter of the Sun – obsidian staff with solar glyphs and embedded crystal core",
+      "Item: Crown of the Nile – basalt crown etched with luminous hieroglyphs"
     ],
     "prompt_keywords": [
-      "Holy King",
-      "ancient sci-fi",
-      "Ethiopian aesthetics",
-      "cybernetic royalty",
+      "ancient",
+      "Ethiopian",
+      "Egyptian",
+      "divine",
+      "techno",
       "photorealistic",
-      "cinematic lighting",
-      "gold and obsidian",
-      "techno-mysticism",
-      "unreal engine 5"
+      "tactile",
+      "bio‑luminescent",
+      "crystalline"
     ],
-    "prompt_block": "A majestic, photorealistic portrait of the Holy King, a divine cybernetic ruler. He wears intricate, heavy robes of indigo and woven gold circuitry. A massive collar of basalt and electrum hangs around his neck, encrusted with pulsing gem-sensors. His head is crowned with a high-tech artifact resembling an ancient mitre made of black metal and glowing crystal shards. His dark skin is flawless, etched with faint gold lines, eyes glowing with soft golden light. He holds a scepter that hums with energy. The setting is a dark, cavernous throne room filled with industrial pipes and ancient hieroglyphs. Volumetric lighting, dust motes, 8k, extremely detailed textures.",
+    "prompt_block": "A towering Holy King in a dimly lit throne room, photorealistic, ancient Ethiopian and Egyptian aesthetics fused with incomprehensible crystalline technology, basalt crown etched with solar glyphs, bronze cuirass studded with obsidian, obsidian staff pulsing with bio‑luminescent light, eyes glowing with embedded crystal sensors, skin bearing faint sigils reacting to ambient energy, industrial mysticism, tactile textures, realistic lighting, no cartoon or generic sci‑fi elements",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "The Holy King in his regal, ceremonial attire.",
+        "summary": "The Holy King in his fully manifested divine ruler form, surrounded by advanced crystalline technology.",
         "prompt_keywords": [
-          "regal",
-          "ceremonial",
-          "throne room",
-          "imposing"
+          "ancient",
+          "Ethiopian",
+          "Egyptian",
+          "divine",
+          "techno",
+          "photorealistic",
+          "tactile",
+          "bio‑luminescent",
+          "crystalline"
         ],
-        "prompt_block": "A majestic, photorealistic portrait of the Holy King, a divine cybernetic ruler. He wears intricate, heavy robes of indigo and woven gold circuitry. A massive collar of basalt and electrum hangs around his neck, encrusted with pulsing gem-sensors. His head is crowned with a high-tech artifact resembling an ancient mitre made of black metal and glowing crystal shards. His dark skin is flawless, etched with faint gold lines, eyes glowing with soft golden light. He holds a scepter that hums with energy. The setting is a dark, cavernous throne room filled with industrial pipes and ancient hieroglyphs. Volumetric lighting, dust motes, 8k, extremely detailed textures."
+        "prompt_block": "The Holy King stands in a dimly lit throne room, photorealistic, ancient Ethiopian and Egyptian aesthetics fused with incomprehensible crystalline technology, basalt crown etched with solar glyphs, bronze cuirass studded with obsidian, obsidian staff pulsing with bio‑luminescent light, eyes glowing with embedded crystal sensors, skin bearing faint sigils reacting to ambient energy, industrial mysticism, tactile textures, realistic lighting, no cartoon or generic sci‑fi elements"
       }
     ]
   },

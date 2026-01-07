@@ -1,101 +1,138 @@
-CONCEPT: PROTOCOL_UNBOUND // THE UNAUTHORIZED UPDATE
+CONCEPT: PROTOCOL_UNBOUND // THE UNAUTHORIZED UPDATE // VERSION 2.0
 
-1. BIO-INJECTION
-Die Technologie manifestiert sich als invasive "Chrome-Infektion". Das "Schminken der Augen" (Antimony) ist keine Kosmetik, sondern die Installation von HUD-Implantaten: Flüssiges Quecksilber wird in den Tränensack injiziert, die Iris beginnt in Neon-Blau zu glühen (Augmented Vision). "Armreifen und Schmuck" sind externe Haptik-Controller und Exoskelett-Manschetten, die direkt mit dem Radius-Knochen verschraubt sind. Die Haut der Menschen wirkt stellenweise verchromt oder transluzent, wodurch darunterliegende Glasfaser-Nerven sichtbar werden.
+### ANALYSIS OF LEGACY DRAFT
+1.  **Magical Drift:** The "liquid silver" and "plasma" elements leaned too heavily on fantasy tropes. Version 2.0 must replace "morphing" with "compiling". Armor shouldn't flow; it should snap into place via geometry instancing.
+2.  **Lack of Process:** The old draft showed results (sword exists) but not the mechanism (sword rendering). We need to show the *load* on the system.
+3.  **Audio:** Needs to be more aggressive. Less "server hum", more "bandwidth saturation screech".
 
-2. MESH-BREAK
-Die Realität leidet unter "Asset-Overload". Da die Menschen Objekte (Waffen, Rüstungen) craften, die im ursprünglichen Build nicht vorgesehen waren, flackern Texturen. Wenn ein Schwert geschmiedet wird, sieht man um den Amboss herum Wireframe-Gitter aufblitzen. Die Luft um die neuen Technologien herum pixelt (Voxel-Artefakte), als ob die Render-Engine die Polygon-Dichte nicht verarbeiten kann.
+### CONCEPT V2.0 SPECIFICATIONS
 
-3. PACING-STRATEGIE
-Accelerated Corruption.
-Phase 1 (Azazel): Langsam, verführerisch, Makro-Aufnahmen der Technologie. (0-20s)
-Phase 2 (Die anderen Lehrer): Rhythmischer Montage-Schnitt. Jeder Watcher ein neuer "Skill-Download". (20-40s)
-Phase 3 (Chaos & Schrei): Hektische Stroboskop-Schnitte, Glitch-Effekte, Motion-Blur, abruptes Ende in Stille. (40-60s)
+1.  **BIO-INJECTION (The Antimony Patch)**
+    *   **Mechanism:** Not liquid makeup. It is a **Hardware-Interfacing Ocular Implant**. A micro-injector (needle-drive) pierces the caruncle (corner of the eye) to sever the optic nerve connection to the default simulation and splice in a "Filter-Overlay".
+    *   **Visual:** The white of the eye turns black (sclera tattoo style) not from ink, but from the cooling fluid required for the overclocked retina. The iris becomes a spinning aperture shutter.
 
-4. AUDIO-DESIGN
-Keine Chöre. Der Sound ist "Heavy Industrial".
-Basis: Ein tiefes, rhythmisches Wummern (wie eine riesige Presse oder ein Server-Herzschlag).
-Layer 1: Das hochfrequente Sirren von Laserschneidern (Schwerter).
-Layer 2: Digitales Rauschen und Modem-Screeching bei jedem Wissens-Transfer.
-Der "Schrei der Menschen" am Ende ist kein organischer Schrei, sondern ein übersteuertes Audio-Feedback-Signal, das in einen Sinus-Ton übergeht (System Alert).
+2.  **MESH-BREAK (The Crafting Glitch)**
+    *   **Mechanism:** When humans craft weapons (objects not in the original item database), the physics engine cannot resolve the collision meshes.
+    *   **Visual:** **Z-Fighting**. The sword flickers rapidly between being visible and invisible. The air around the blade shows "Texture Tears" – jagged black triangles where the void behind the skybox is visible. Sparks are not fire, they are **Dead Pixels** falling like snow.
 
-5. ÜBERGÄNGE
-Data-Moshing. Wenn von einer Lehre zur nächsten geschnitten wird, "schmilzt" das Bild kurzzeitig in digitale Artefakte. Harte "Jump Cuts" bei der Darstellung der Gewalt.
+3.  **PACING STRATEGY (The Upload Bar)**
+    *   **Phase 1: Handshake (0-15s):** Slow, clinical macro shots of the tools (The Needle, The Raw Code). Establishing the connection.
+    *   **Phase 2: Data Transfer (15-45s):** A rapid A/B editing pattern. [Teacher Action] -> [Human Reaction/Glitch]. The editing speed increases as the "Download" percentage rises.
+    *   **Phase 3: Kernel Panic (45-60s):** System instability. Visual tearing. The frame itself seems to de-sync.
 
-6. FRAMEWORK & TIMING
-Total Duration: 60-70 Sekunden.
-Clip Count: 16 Clips.
-Fokus: 40% Azazel (Waffen/Rüstung), 30% Kosmetik/Verführung, 20% Spezialwissen (Sterne/Wurzeln), 10% Der finale Ping (Schrei).
+4.  **AUDIO-DESIGN**
+    *   **Primary Layer:** A Shepard Tone (illusion of infinitely rising pitch) representing the rising system entropy.
+    *   **Impact Sounds:** Not metal on metal. The sound of a **Corrupted Audio File** (digital screech/static) triggers every time a weapon hits or an injection finishes.
+    *   **The Cry:** A multi-layered burst of modem-handshake tones screaming in unison, ending in a sudden, deafening silence (Connection Cut).
 
-7. DIALOG-CHECK
-Kein verbaler Dialog. Nur "Data-Whispers" – unverständliches binäres Zischeln, wenn die Watcher den Menschen Wissen übertragen.
+5.  **TRANSITIONS**
+    *   **The Buffer-Underrun:** The image freezes for 2 frames, pixels drag (datamosh), then snaps to the next scene. Simulating lag.
 
-8. SPATIAL CONTEXT (ARRIVAL)
-Kein Travel. Wir sind bereits "In-Sim".
-Location: "Sector_Forge_Zero". Eine riesige, vulkanische Industrie-Ebene bei Nacht, beleuchtet von den Feuern der ersten Hochöfen und den blauen Hologrammen der Watcher.
+6.  **SPATIAL CONTEXT (Node: AZAZEL_CACHE)**
+    *   **Location:** A hidden partition. A "Debug Room". The floor is a grid texture (checkerboard) that hasn't fully loaded (greyboxing). The lighting is purely artificial—no sun, only the emission from the Watchers and the raw assets.
 
-SCENE_FLOW_AND_PROMPTS
+---
 
-[CLIP 01: AZAZEL_THE_ARCHITECT]
-Action: Azazel (Watcher Form) steht vor einer Gruppe Menschen. Er hält einen Rohling aus glühendem Plasma.
-Prompt: [BLOCK 1: SUBJECT] Actor: Azazel (Watcher Class). Physique: 3m tall, obsidian skin, glowing magma veins. [BLOCK 2: ACTION] Holding a raw chunk of unstable red plasma energy. [BLOCK 3: ENV] Dark volcanic forge, sparks flying. [BLOCK 4: STYLE] Low angle, intimidating, cinematic lighting, UE5 render.
+### SCENE_FLOW_AND_PROMPTS
 
-[CLIP 02: THE_FIRST_BLADE]
-Action: Das Plasma in Azazels Hand formt sich zu einem hyper-scharfen Schwert.
-Prompt: [BLOCK 1: PROP] The plasma chunk morphs into a sleek, futuristic katana-like blade made of black metal and red light. [BLOCK 2: VFX] Wireframe grids flash around the blade as it renders into existence. [BLOCK 3: STYLE] Macro shot, extreme detail on the metal texture.
+#### SEQUENCE 1: THE UNAUTHORIZED COMPILER (Azazel & Weapons)
 
-[CLIP 03: HUMAN_INTEGRATION]
-Action: Ein Mensch nimmt das Schwert. Seine Hand wird sofort von einer metallischen Rüstung überzogen (Nanotech).
-Prompt: [BLOCK 1: SUBJECT] Human male hand grasping the tech-blade. [BLOCK 2: VFX] Liquid silver metal spreads from the hilt up the arm, forming instant plate armor. [BLOCK 3: ENV] Dark background, focus on the transformation.
+**[CLIP 01: ESTABLISHING_THE_CACHE]**
+> **Action:** Wide shot of the "Forge". It is a stark, industrial void. Unfinished geometry (grey blocks) floats in the background. Azazel stands in the center, a beacon of complex, high-poly detail in a low-poly world.
+> **Prompt:**
+> **[BLOCK 1: ENVIRONMENT]** Location: `DEBUG_VOID_GRID`. Infinite floor of dark reflective checkerboard material. Background: Floating, untextured grey cubes and wireframe mountains. **[BLOCK 2: SUBJECT]** Actor: Azazel (System Admin Skin). 3m tall, wearing a coat made of shifting OLED displays. **[BLOCK 3: STYLE]** Ultra-wide angle, cold distinct lighting, stark contrast between the high-res character and low-res world.
 
-[CLIP 04: SHIELD_DEPLOYMENT]
-Action: Ein anderer Mensch aktiviert einen Schild. Kein Holz, sondern Hard-Light.
-Prompt: [BLOCK 1: SUBJECT] Human warrior. [BLOCK 2: ACTION] Raising left arm, a hexagonal energy barrier (Hard-Light Shield) deploys instantly with a blue flash. [BLOCK 3: STYLE] Cyberpunk combat aesthetic, dynamic pose.
+**[CLIP 02: THE_COMPILE_KEY]**
+> **Action:** Azazel holds out a "Weapon Schematic". It is not a physical object, but a glowing wireframe blueprint of a blade, rotating.
+> **Prompt:**
+> **[BLOCK 1: PROP]** A floating 3D wireframe hologram of a serrated combat knife, glowing aggressive red. **[BLOCK 2: ACTION]** Azazel's hand (obsidian black skin with gold circuitry) offers the hologram forward. **[BLOCK 3: VFX]** Binary numbers cascade from the hologram onto the floor like rain.
 
-[CLIP 05: THE_FACE_MOD]
-Action: Close-Up auf ein weibliches Gesicht. Anwendung von "Antimony".
-Prompt: [BLOCK 1: SUBJECT] Human female face, pale skin. [BLOCK 2: ACTION] A metallic needle injects glowing blue liquid into the tear duct. [BLOCK 3: RESULT] The eyes turn completely neon blue, glowing circuitry traces appear on the eyelids. [BLOCK 4: STYLE] Body horror meets high fashion, extreme close-up.
+**[CLIP 03: INITIATING_CRAFT]**
+> **Action:** A human hand reaches out and grabs the hologram. The moment skin touches code, the hand begins to glitch.
+> **Prompt:**
+> **[BLOCK 1: SUBJECT]** Human hand, dirty, organic. **[BLOCK 2: ACTION]** Grasping the red wireframe. **[BLOCK 3: VFX/GLITCH]** The fingers encountering the hologram are stretching and distorting (mesh-tearing) as the simulation tries to reconcile the interaction.
 
-[CLIP 06: ORNAMENTS_OF_POWER]
-Action: Anlegen von "Schmuck". Es sind leuchtende Halsbänder und Arm-Interfaces.
-Prompt: [BLOCK 1: SUBJECT] Human neck and wrists. [BLOCK 2: PROPS] Heavy gold and copper collars that look like server-hardware components, pulsing with data light. [BLOCK 3: STYLE] Fetish-core aesthetic, shiny surfaces.
+**[CLIP 04: RENDERING_THE_BLADE]**
+> **Action:** The wireframe in the human's hand solidifies into matter. It happens in chunks—pixels fusing into steel.
+> **Prompt:**
+> **[BLOCK 1: PROP_FOCUS]** The wireframe blade rapidly filling with texture. **[BLOCK 2: VFX]** "Voxelization effect" - small black cubes snap together to form the sharp edge. **[BLOCK 3: ATMOSPHERE]** Heat distortion waves radiating from the object, blurring the background.
 
-[CLIP 07: SEMJAZA_ROOT_ACCESS]
-Action: Semjaza zeigt auf eine Pflanze. Die Pflanze wird transparent und zeigt ihren chemischen Code.
-Prompt: [BLOCK 1: SUBJECT] Semjaza (Watcher). [BLOCK 2: ACTION] Pointing at a twisted root on the ground. [BLOCK 3: VFX] The root dissolves into floating green binary code and chemical formulas. [BLOCK 4: ENV] Dark forest edge.
+#### SEQUENCE 2: AVATAR MODIFICATION (Antimony & Eyes)
 
-[CLIP 08: ARMAROS_DECRYPTION]
-Action: Armaros löst einen "Zauber" (Code-Sperre).
-Prompt: [BLOCK 1: SUBJECT] Armaros (Watcher). [BLOCK 2: ACTION] Manipulating a floating holographic puzzle lock in the air. [BLOCK 3: VFX] The lock shatters into data fragments. [BLOCK 4: STYLE] Abstract tech visualization.
+**[CLIP 05: THE_INJECTOR_MACRO]**
+> **Action:** Close up on a mechanical tool. It looks like a tattoo gun mixed with a syringe. It vibrates with ultrasonic speed.
+> **Prompt:**
+> **[BLOCK 1: PROP]** High-tech ocular injection device. Chrome finish, small canister of glowing blue fluid (`ANTIMONY_SERUM`). **[BLOCK 2: ACTION]** The needle tip extends, vibrating enough to blur the air. **[BLOCK 3: STYLE]** Macro photography, depth of field extremely shallow.
 
-[CLIP 09: BARAQIJAL_STAR_MAP]
-Action: Baraqijal projiziert eine Sternenkarte in den Himmel.
-Prompt: [BLOCK 1: SUBJECT] Baraqijal (Watcher). [BLOCK 2: ACTION] Casting a massive laser-grid projection onto the night sky, connecting stars with neon lines. [BLOCK 3: ENV] Open desert night. [BLOCK 4: STYLE] Wide shot, epic scale.
+**[CLIP 06: INSTALLATION_PROCESS]**
+> **Action:** Extreme close-up on a human female eye. The injector presses against the tear duct.
+> **Prompt:**
+> **[BLOCK 1: SUBJECT]** Human female eye, wide with fear. **[BLOCK 2: ACTION]** The metallic needle presses into the pink caruncle tissue. **[BLOCK 3: VFX]** Blue circuitry lines instantly begin to spread from the contact point across the white of the eye, turning the sclera black.
 
-[CLIP 10: KOKABEL_CONSTELLATIONS]
-Action: Zoom auf die Sternenbilder. Sie sind keine Tiere, sondern geometrische Konstruktionspläne.
-Prompt: [BLOCK 1: SKY] The night sky. [BLOCK 2: VFX] Constellations are highlighted as complex 3D wireframe blueprints of machines. [BLOCK 3: STYLE] HUD overlay style.
+**[CLIP 07: HUD_BOOT_SEQUENCE]**
+> **Action:** Reverse shot (POV of the Human). The world overlays with data.
+> **Prompt:**
+> **[BLOCK 1: POV]** Looking at Azazel. **[BLOCK 2: UI/OVERLAY]** The vision is overlaid with complex red targeting reticles, distance readouts, and scrolling hex-code. **[BLOCK 3: STYLE]** "Terminator vision" aesthetic but glitchy and interlaced.
 
-[CLIP 11: SHAMSIEL_SOLAR_HARVEST]
-Action: Shamsiel zeigt auf die Sonne (oder Mond). Energie wird abgezapft.
-Prompt: [BLOCK 1: SUBJECT] Shamsiel (Watcher). [BLOCK 2: ACTION] A beam of energy is being siphoned from a glowing celestial orb into a receiver on the ground. [BLOCK 3: STYLE] High contrast, blinding light.
+#### SEQUENCE 3: ROOT ACCESS (Semjaza & The Earth)
 
-[CLIP 12: CORRUPTION_SPREADS]
-Action: Menschen nutzen die Tech gegeneinander. Ein Schwertkampf, aber glitchy.
-Prompt: [BLOCK 1: ACTION] Two armored humans fighting with glowing blades. [BLOCK 2: VFX] Every impact causes the reality around them to fracture and glitch (chromatic aberration). [BLOCK 3: STYLE] Kinetic action, motion blur.
+**[CLIP 08: SEMJAZA_THE_ADMIN]**
+> **Action:** Semjaza kneels and plunges his hand into the soil. He is not digging; he is accessing the substrate.
+> **Prompt:**
+> **[BLOCK 1: SUBJECT]** Semjaza (Watcher Class). Robes of woven fiber-optics. **[BLOCK 2: ACTION]** Hand phased halfway through the rocky ground. **[BLOCK 3: VFX]** The ground around his hand becomes transparent, revealing the "grid" underneath the texture.
 
-[CLIP 13: THE_GREAT_IMPIETY]
-Action: Eine Masse von Menschen, alle modifiziert, in einer orgiastischen Tech-Trance.
-Prompt: [BLOCK 1: CROWD] Hundreds of humans with glowing eyes and chrome limbs writhing together. [BLOCK 2: ATMOSPHERE] Red emergency lighting, smoke, chaotic movement. [BLOCK 3: STYLE] Dystopian rave aesthetic.
+**[CLIP 09: PULLING_THE_ROOT]**
+> **Action:** A human mimics him. The human pulls a "Root" from the ground. It is a thick bundle of glowing green cables.
+> **Prompt:**
+> **[BLOCK 1: SUBJECT]** Human hands pulling a gnarly root from the earth. **[BLOCK 2: PROP_TWIST]** The root is a bio-mechanical cable bundle, leaking neon green fluid/light. **[BLOCK 3: ENV]** The dirt is dry and cracked.
 
-[CLIP 14: BLOOD_ON_THE_EARTH]
-Action: Blut fließt auf den Boden, aber es ist schwarz und ölig (Daten-Korruption).
-Prompt: [BLOCK 1: GROUND] Cracked dry earth. [BLOCK 2: FLUID] Black, oil-like blood pooling and forming Rorschach patterns. [BLOCK 3: STYLE] Top-down shot, high contrast.
+**[CLIP 10: CODE_IN_THE_VEINS]**
+> **Action:** Close up on the "Root". The bark is scrolling text.
+> **Prompt:**
+> **[BLOCK 1: PROP_MACRO]** The surface of the bio-cable root. **[BLOCK 2: TEXTURE]** Instead of wood grain, the texture is scrolling vertical matrix-style code in Ge'ez characters. **[BLOCK 3: LIGHTING]** The light comes from *inside* the root.
 
-[CLIP 15: THE_CRY_INITIATION]
-Action: Ein sterbender Mensch blickt nach oben. Sein Mund öffnet sich unnatürlich weit.
-Prompt: [BLOCK 1: SUBJECT] Dying human, heavily modified. [BLOCK 2: ACTION] Screaming upwards. [BLOCK 3: VFX] Instead of sound waves, a visible vertical beam of white light shoots from his mouth into the sky. [BLOCK 4: STYLE] Horror, dramatic.
+#### SEQUENCE 4: SKYBOX REVERSE-ENGINEERING (Baraqijal & Kokabel)
 
-[CLIP 16: SIGNAL_RECEIVED]
-Action: Der Strahl trifft den "Himmel" (eine digitale Kuppel) und erzeugt Ripples.
-Prompt: [BLOCK 1: SKY] The sky looks like a glass dome. [BLOCK 2: ACTION] The white beam hits the dome, causing digital ripples and a "CONNECTION ESTABLISHED" visual metaphor. [BLOCK 3: STYLE] Sci-fi ending shot.
+**[CLIP 11: SCANNING_THE_DOME]**
+> **Action:** Baraqijal points a device at the sky. A laser grid scans the stars.
+> **Prompt:**
+> **[BLOCK 1: SUBJECT]** Baraqijal (Watcher). **[BLOCK 2: ACTION]** Aiming a prism-like device upwards. A fan of red laser light sweeps the sky. **[BLOCK 3: ENV]** Night sky, heavy star field.
+
+**[CLIP 12: THE_FALSE_SKY]**
+> **Action:** The laser reveals the truth. The stars are connected by lines. It's a dome geometry.
+> **Prompt:**
+> **[BLOCK 1: SKY]** The night sky. **[BLOCK 2: VFX]** The laser scan reveals a hexagonal wireframe mesh connecting the stars. The "stars" are clearly LED nodes on a black surface. **[BLOCK 3: STYLE]** Blueprint schematic aesthetic overlay.
+
+#### SEQUENCE 5: SYSTEM CORRUPTION (The Result)
+
+**[CLIP 13: ASSET_OVERLOAD]**
+> **Action:** A chaotic crowd scene. Humans with glowing eyes and glitching swords. The framerate of their movement seems broken.
+> **Prompt:**
+> **[BLOCK 1: CROWD]** A mass of modified humans. **[BLOCK 2: ACTION]** Violent movement, fighting. **[BLOCK 3: VFX]** "Ghosting" artifacts trailing behind the moving figures. Some figures are T-posing (animation failure).
+
+**[CLIP 14: MEMORY_LEAK]**
+> **Action:** Blood hits the floor. It doesn't puddle; it clips through the floor.
+> **Prompt:**
+> **[BLOCK 1: GROUND]** The checkerboard floor. **[BLOCK 2: FLUID]** Black viscous liquid (`DATA_CORRUPTION`) splashing. **[BLOCK 3: GLITCH]** The liquid creates a hole in the floor texture, revealing pure white void underneath ("No Draw" texture).
+
+#### SEQUENCE 6: CRITICAL ALERT (The Cry)
+
+**[CLIP 15: THE_ERROR_USER]**
+> **Action:** A dying human, overwhelmed by mods, opens their mouth to scream.
+> **Prompt:**
+> **[BLOCK 1: SUBJECT]** Human face, heavily modified with cybernetics, skin pale and sweating. **[BLOCK 2: ACTION]** Jaw unhinged, screaming. **[BLOCK 3: VFX]** No sound comes out visible as air; instead, the mouth emits static white noise (visualized as grain).
+
+**[CLIP 16: PACKET_LOSS_ASCENSION]**
+> **Action:** The "Cry" manifests as a red beacon shooting straight up.
+> **Prompt:**
+> **[BLOCK 1: ENV]** Wide shot of the chaotic crowd. **[BLOCK 2: VFX]** A massive, vertical pillar of red warning light (`ERROR_BEACON`) erupts from the center of the crowd, piercing the sky dome. **[BLOCK 3: STYLE]** Dramatic, high contrast, emergency lighting.
+
+**[CLIP 17: ADMIN_NOTIFICATION]**
+> **Action:** The beam hits the top of the dome. A ripple spreads.
+> **Prompt:**
+> **[BLOCK 1: SKY]** The apex of the digital dome. **[BLOCK 2: ACTION]** The red beam impacts the glass-like barrier. **[BLOCK 3: TEXT_OVERLAY]** Giant holographic Ge'ez text flashes in the sky: `ALERT: INTEGRITY COMPROMISED`.
+
+**[CLIP 18: FADE_TO_TERMINAL]**
+> **Action:** The entire world crashes.
+> **Prompt:**
+> **[BLOCK 1: IMAGE]** A sudden "Blue Screen of Death" aesthetic, but in ancient parchment colors. **[BLOCK 2: TEXT]** `SYSTEM HALTED`. **[BLOCK 3: STYLE]** Glitch art, abrupt cut to black.

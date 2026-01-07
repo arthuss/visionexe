@@ -1,29 +1,30 @@
 ## [CHARACTER] Rii (ID: CHAR_RII)
-**Description:** A swift, nimble scout and messenger operating on the periphery of the Watchers' industrial enclaves. Rii serves as a conduit for information, moving unseen through the towering machinery and ancient landscapes. The aesthetic blends nomadic survival gear with scavenged, high-functioning ancient technology.
-**Tags:** #character #scout #messenger #nomad #ancient-tech
+**Description:** Rii is a towering technomancer of the Temple of the Sun, standing at 1.95 m with a broad, sinewy frame that hints at both ancient warrior training and subtle cybernetic augmentation. His skin bears faint, phosphorescent glyphs that pulse in sync with his neural rhythms, etched along the forearms and collarbone. He wears a tunic woven from basalt fibers dyed in deep ochre, reinforced with brass filigree that traces the patterns of the Nile’s delta. Over his shoulders drapes a heavy, leather cloak studded with small copper discs that act as energy conduits. A crystalline scepter, the Scepter of the Sun, rises from his right hand—its core a polished obsidian core surrounded by a lattice of translucent quartz that refracts light into a spectrum of warm golds and cool blues. The scepter’s tip is embedded with a bio‑luminescent core that glows faintly, casting a halo over his face. Rii’s left eye is replaced by a sensor array, a thin, iridescent visor that displays glyphic data streams in real time. The overall aesthetic is a fusion of ancient Ethiopian and Egyptian motifs with incomprehensible, industrial‑tech machinery, rendered in photorealistic detail with tactile textures and realistic light behavior.
+**Tags:** #ancient-tech #industrial-mysticism #Ethiopian #Egyptian #cybernetic-priest #bio-luminescence #crystalline-hardware #photorealistic
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Lean, wiry build optimized for agility and endurance. Weather-beaten bronze skin with subtle geometric scarification on the forearms.
-*   **Face/Sensors:** Face partially obscured by a dust-filtering scarf made of a shimmering, metallic weave. Eyes are enhanced with external, clip-on optical lenses (brass and crystal) for long-range observation.
-*   **Clothing/Armor:** Wears a fitted tunic of rough-spun grey linen, layered with a vest of darker, treated leather. The boots are reinforced with segmented metal plating for traversing jagged industrial terrain. A hooded cloak provides camouflage against the rocky environments.
-*   **Key Features:** A distinctive, faint blue bio-luminescent glow emanates from the spinal ridge of the vest, indicating an active power source or communications array.
+*   **Body/Form:** Robust, muscular frame, 1.95 m tall, subtle cybernetic augmentations in limbs, weathered basalt‑fiber tunic, brass filigree, leather cloak with copper discs.
+*   **Face/Sensors:** Half‑covered by a translucent iridescent visor, left eye replaced by sensor array, faint phosphorescent glyphs along jawline and forearms.
+*   **Clothing/Armor:** Basalt‑fiber tunic dyed ochre, brass filigree patterns echoing Nile delta, leather cloak with copper discs, heavy bronze greaves etched with hieroglyphs.
+*   **Key Features:** Crystalline Scepter of the Sun (obsidian core, quartz lattice, bio‑luminescent tip), bio‑luminescent glyphs pulsing with neural rhythm, sensor visor displaying glyphic data streams, copper disc energy conduits.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): Standard scout configuration, fully equipped for travel with optical gear active.
+*   Phase 1 (Initial): Rii emerges from the Temple’s inner sanctum, wearing a basic basalt tunic and a simple copper scepter, his glyphs faint and unlit.
+*   Phase 2 (Ascended): After the ritual of the Sun’s Eye, Rii dons the full crystalline scepter, his glyphs glow, and the visor projects real‑time data, marking his ascension to technomancer status.
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Crystalline Data-Rod (a hexagonal baton used for storing topographic data)
-*   Item: Grappling coil (woven from synthetic-looking metallic fibers)
+*   Item: Scepter of the Sun – a polished obsidian core surrounded by a lattice of translucent quartz, bio‑luminescent tip.
+*   Item: Amulet of the Nile – a gold amulet with basalt inlay, engraved with ancient Ethiopian script, worn around Rii’s neck.
 
 ### 4. AI PROMPT KEYWORDS
-`Rii`, `scout`, `ancient-tech`, `industrial mysticism`, `photorealistic`, `cinematic lighting`, `volumetric fog`, `8k`, `octane render`, `nomadic sci-fi`
+`ancient-tech`, `Ethiopian`, `Egyptian`, `crystalline`, `bio-luminescent`, `industrial-mysticism`, `photorealistic`
 
 ### 5. PROMPT BLOCK (T2I)
-Full body shot of Rii, a nimble scout character, standing on a rocky outcrop overlooking an ancient industrial complex. Rii wears a grey rough-spun linen tunic and a leather vest with a faint blue bioluminescent spinal ridge. A metallic weave scarf covers the lower face, and brass-crystal optical lenses clip over the eyes. The lighting is moody and cinematic, emphasizing the texture of the fabric and the weather-beaten skin. Grounded realism, ancient-tech aesthetic, hyper-detailed, 8k resolution.
+A towering technomancer named Rii stands in a dimly lit temple corridor, his robust, muscular frame clad in basalt‑fiber tunic and brass filigree, a heavy leather cloak studded with copper discs, and a crystalline scepter of the Sun rising from his right hand, its obsidian core refracting light into warm golds and cool blues, while faint phosphorescent glyphs pulse along his forearms and jawline, his left eye replaced by a translucent iridescent sensor visor projecting glyphic data streams, all rendered in photorealistic detail with tactile textures and realistic light behavior.
 
 ### 6. PHASE PROMPTS
-*   **Default:** Standard scout attire with optical gear.
-    Prompt: Full body shot of Rii, a nimble scout character in standard travel gear. Wearing a grey rough-spun linen tunic, leather vest with faint blue glowing spine, and reinforced boots. Face partially hidden by a metallic scarf, eyes shielded by brass-framed crystal lenses. Holding a hexagonal crystalline data-rod. Background is a hazy, ancient industrial landscape. Cinematic lighting, photorealistic, tactile textures, 8k.
-    Keywords: scout gear, optical lenses, traveling
+*   **Default:** Rii in his ascended state, fully equipped with crystalline scepter and bio‑luminescent glyphs.
+    Prompt: Rii stands in the temple’s inner sanctum, his basalt‑fiber tunic and brass filigree gleaming under the flickering torchlight, a crystalline scepter of the Sun in his hand, its obsidian core refracting light into warm golds and cool blues, faint phosphorescent glyphs pulsing along his forearms and jawline, his left eye replaced by a translucent iridescent sensor visor projecting glyphic data streams, all rendered in photorealistic detail with tactile textures and realistic light behavior.
+    Keywords: ancient-tech, Ethiopian, Egyptian, crystalline, bio-luminescent, industrial-mysticism, photorealistic
 
 ---

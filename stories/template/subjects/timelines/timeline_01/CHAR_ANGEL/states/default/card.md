@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 53 - 70
 
-**Phase Summary:** Standard operating configuration; chrome and blue hard-light.
-**Phase Keywords:** chrome plating, blue hard-light, geometric construct, etched metal
+**Phase Summary:** The Angel as a floating hard‑light lattice, messenger and UI interface.
+**Phase Keywords:** hard‑light lattice, obsidian glass, Ge'ez glyphs, holographic UI, photorealistic, tactile
 **Phase Prompt:**
-A full body shot of the Angel, a geometric construct of chrome and blue light. The figure is an industrial abstraction of a seraph, with floating metal segments suspended in a blue energy field. The surrounding environment is reflected in its polished surfaces. It emits a steady, calm blue glow. High-tech sci-fi aesthetic fused with ancient religious grandeur. Volumetric lighting, sharp focus, hyper-detailed textures.
+A cinematic, photorealistic depiction of the Angel as a floating lattice of obsidian‑glass facets etched with Ge'ez glyphs, interlaced with copper filigree and bioluminescent crystal veins. The Angel hovers at eye level, projecting a holographic UI with red status text, data rings, and a glowing vector line pointing toward the void, all rendered with tactile detail and grounded realism.
 
 ---

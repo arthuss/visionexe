@@ -3,51 +3,56 @@
   "name": "Emdeheru",
   "type": "character",
   "card": {
-    "description": "A massive, formidable entity personifying the mountain of the oath. Emdeheru appears as a heavy-infantry Watcher, clad in armor that mimics geological strata—layers of basalt, obsidian, and dull bronze. He serves as a grounding anchor for the celestial technology, possessing a density and physical presence that warps the air around him. His aesthetic is one of immovable permanence, fusing ancient Ethiopian masonry textures with advanced, heavy-industrial seismic damping systems.",
+    "description": "Emdeheru is a towering, enigmatic guardian forged from the fusion of ancient Ethiopian and Egyptian craftsmanship and incomprehensible, high‑frequency technology. His form is a living monument of obsidian‑black basalt plates interlaced with crystalline lattices that pulse with bio‑luminescent glyphs. The air around him shimmers with a faint, low‑frequency hum, and his presence exudes a palpable sense of ancient mysticism and industrial rigor. He stands in a dimly lit chamber of stone and metal, his silhouette framed by the glow of embedded quartz crystals and the subtle flicker of copper filigree. Emdeheru’s visage is partially obscured by a half‑mask of polished obsidian etched with hieroglyphic sigils, while his eyes are replaced by iridescent ocular sensors that scan the environment with a cold, analytical light.",
     "tags": [
-      "Watcher",
-      "Heavy",
-      "Geo-Tech",
-      "Industrial Mysticism",
-      "Ancient Tech",
-      "Armored"
+      "ancient-tech",
+      "industrial-mysticism",
+      "Ethiopian-Egyptian",
+      "mystic-guardian",
+      "bio-luminescent",
+      "crystalline-hardware"
     ],
     "visual_anatomy": [
-      "**Body/Form:** Imposing, broad-shouldered silhouette, significantly bulkier than standard humanoid proportions. Moves with a sensation of immense weight.",
-      "**Face/Sensors:** The head is encased in a blocky, low-profile helm resembling a carved obsidian obelisk. No human mouth is visible; instead, a vertical intake grill suggests atmospheric processing. Eyes are deep-set, glowing with a low-frequency amber light like magma beneath crust.",
-      "**Clothing/Armor:** 'Tectonic Plating'—thick, interlocking slabs of dark, stone-like composite material. The gaps between plates reveal heavy hydraulic musculature and copper cabling. The surface is etched with Ge'ez glyphs that glow faintly when under stress.",
-      "**Key Features:** Shoulders act as pylons, rising high to protect the neck. The texture of the armor is rough, pitted like weathered stone, contrasting with the smooth precision of the internal mechanisms."
+      "**Body/Form:** Tall, 2.3m, muscular frame clad in interlocking basalt plates with a lattice of translucent quartz crystals that refract light into prismatic patterns; the plates are reinforced with a thin layer of copper alloy, giving a subtle metallic sheen. The joints are articulated with titanium hinges, allowing fluid movement while maintaining a rigid, armored silhouette.",
+      "**Face/Sensors:** A half‑mask of polished obsidian covers the lower half of the face, etched with flowing hieroglyphic glyphs that glow in a soft cobalt blue. The upper half displays a pair of iridescent ocular sensors that emit a faint green laser when scanning, surrounded by a ring of bio‑luminescent veins that pulse in sync with the device’s internal clock.",
+      "**Clothing/Armor:** Layered armor plates are adorned with copper filigree and etched with ancient Ethiopian and Egyptian motifs—lion heads, sun disks, and stylized lotus flowers—each motif embedded with a small crystal that amplifies the glyphs’ luminescence. The armor is capped with a shoulder guard that resembles a stylized Ankh, its stem made of a single, elongated quartz crystal.",
+      "**Key Features:** 1) Bio‑luminescent veins running along the spine and limbs, 2) Crystalline core embedded in the chest plate that glows with a faint violet light, 3) Glyph‑etched chest plate that acts as a power conduit, 4) Obsidian half‑mask with embedded copper circuitry, 5) Ocular sensors that project a low‑frequency scanning beam."
     ],
     "evolution": [
-      "Phase 1 (Default): Fully armored, dormant or standing guard. The plating is cold and dark.",
-      "Phase 2 (Active - implied): The glyphs ignite, and the stone plates shift to vent heat, revealing the superheated core mechanics."
+      "Phase 1 (Initial): Emdeheru emerges from the stone chamber, his crystalline lattice just beginning to pulse, the glyphs faintly illuminated.",
+      "Phase 2 (Advanced): The crystalline lattice intensifies, the glyphs blaze with full luminescence, and the ocular sensors emit a sharper scanning beam."
     ],
     "props": [
-      "Seismic Anchor: A heavy, two-handed rod made of dark metal, used to ground excess energy or stabilize the terrain.",
-      "Data-Liths: Stone tablets integrated into the forearm armor, displaying holographic readouts."
+      "Item: Ankh‑shaped crystal staff, 1.5m long, with a quartz core that channels energy.",
+      "Item: Ancient tablet, basalt slab inscribed with a mix of Ge'ez and hieroglyphic script, emitting a low hum when touched."
     ],
     "prompt_keywords": [
-      "Emdeheru",
-      "Basalt Armor",
-      "Ethiopian Sci-Fi",
-      "Heavy Infantry",
-      "Obsidian",
-      "Industrial Mysticism",
-      "Cinematic Lighting"
+      "ancient-tech",
+      "Ethiopian",
+      "Egyptian",
+      "crystalline",
+      "bio-luminescence",
+      "industrial mysticism",
+      "photorealistic",
+      "cinematic"
     ],
-    "prompt_block": "full body shot of Emdeheru, a massive biomechanical Watcher entity, clad in heavy basalt-composite armor plates fused with dull bronze circuitry, ancient Ethiopian aesthetic, face concealed by a heavy obsidian visor with seismic sensor arrays, dust and grit texture, grounded realism, bulky silhouette, atmospheric depth, volumetric lighting, 8k, photorealistic, cinematic composition, dark earth tones",
+    "prompt_block": "A towering guardian named Emdeheru stands in a dimly lit stone chamber, his body a fusion of obsidian basalt plates and translucent quartz crystals that pulse with bio‑luminescent glyphs; his half‑mask of polished obsidian is etched with flowing hieroglyphic sigils glowing cobalt blue, while iridescent ocular sensors emit a faint green scan beam; the armor is adorned with copper filigree and ancient Ethiopian and Egyptian motifs, all rendered in photorealistic, cinematic detail with tactile textures and realistic light behavior.",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Standard armored appearance, heavy and grounded.",
+        "summary": "Emdeheru in his default state, standing in a dimly lit chamber of stone and metal.",
         "prompt_keywords": [
-          "Emdeheru",
-          "Basalt Armor",
-          "Passive",
-          "Heavy"
+          "ancient-tech",
+          "Ethiopian",
+          "Egyptian",
+          "crystalline",
+          "bio-luminescence",
+          "industrial mysticism",
+          "photorealistic",
+          "cinematic"
         ],
-        "prompt_block": "full body shot of Emdeheru, a massive biomechanical Watcher entity, clad in heavy basalt-composite armor plates fused with dull bronze circuitry, ancient Ethiopian aesthetic, face concealed by a heavy obsidian visor with seismic sensor arrays, dust and grit texture, grounded realism, bulky silhouette, atmospheric depth, volumetric lighting, 8k, photorealistic, cinematic composition, dark earth tones"
+        "prompt_block": "Emdeheru, a towering guardian, stands in a dimly lit stone chamber; his body is a fusion of obsidian basalt plates and translucent quartz crystals that pulse with bio‑luminescent glyphs, his half‑mask of polished obsidian etched with cobalt‑blue hieroglyphic sigils, and iridescent ocular sensors emitting a faint green scan beam; the armor features copper filigree and ancient Ethiopian and Egyptian motifs, all rendered in photorealistic, cinematic detail with tactile textures and realistic light behavior."
       }
     ]
   },

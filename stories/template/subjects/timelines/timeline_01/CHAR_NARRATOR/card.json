@@ -3,57 +3,60 @@
   "name": "Narrator",
   "type": "character",
   "card": {
-    "description": "The silent chronicler of the apocalypse, a scribe wandering the ruins of antediluvian civilizations. He bridges the gap between human understanding and the incomprehensible machinery of the Watchers, bearing the weight of forbidden knowledge. A fusion of ancient asceticism and advanced recording technology.",
+    "description": "The Narrator is a towering, enigmatic figure that fuses ancient Ethiopian and Egyptian iconography with incomprehensible, advanced technology. He stands tall in a flowing indigo obsidian‑silk robe etched with bioluminescent hieroglyphic glyphs that pulse softly in a deep azure glow. A translucent sensor mask covers half his face, its embedded micro‑arrays flickering with data streams. In his hand he wields a crystalline staff, its quartz core refracting light into a spectrum of soft blues and greens. He carries a shifting Chrono‑Tablet that displays shifting glyphs and temporal data, and a weathered Glyph‑Scroll that curls around his wrist. The overall aesthetic is grounded realism with tactile textures, cinematic lighting, and an industrial mysticism that feels both ancient and futuristic.",
     "tags": [
-      "character",
-      "protagonist",
-      "scribe",
-      "traveler",
       "ancient-tech",
-      "mystic",
-      "narrator",
-      "observer"
+      "industrial-mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "bio-luminescent",
+      "crystalline",
+      "photorealistic",
+      "tactile",
+      "cinematic"
     ],
     "visual_anatomy": [
-      "**Body/Form:** Lean, ascetic build, conveying endurance and agility. Skin is deep earth-tone, weathered by cosmic winds and harsh UV exposure.",
-      "**Face/Sensors:** Eyes shielded by complex, brass-rimmed goggles with multi-spectral crystalline lenses. Lower face wrapped in a nomadic shemagh interwoven with golden conductive filaments.",
-      "**Clothing/Armor:** Wears a fusion of Bedouin-style robes and a technician's harness. The fabric is heavy, dust-colored linen, reinforced with patches of flexible solar-weave and oxidized copper plating.",
-      "**Key Features:** A backpack-mounted sensor array that resembles a traditional woven basket but hums with anti-gravity energy. Hands are wrapped in bandages, fingers tipped with metallic interface thimbles."
+      "**Body/Form:** Tall, lean, slightly scarred, muscular frame, subtle bronze skin tone, subtle dust of ancient pigments on the forearms.",
+      "**Face/Sensors:** Half mask of translucent polymer, embedded sensor arrays that glow faintly, luminous eyes visible through a slit, subtle bioluminescent veins.",
+      "**Clothing/Armor:** Indigo obsidian‑silk robe with layered hems, etched with hieroglyphic glyphs that pulse with bioluminescent light, reinforced with woven basalt filaments for durability.",
+      "**Key Features:** Crystalline quartz staff with an azure core, Chrono‑Tablet with shifting glyphs, Glyph‑Scroll wrapped around wrist, sensor mask, bioluminescent glyphs on robe."
     ],
     "evolution": [
-      "Phase 1 (Default): The Witness. Clad in full travel gear, equipped to record data in hazardous, high-radiation ancient environments."
+      "Phase 1 (default): Initial appearance with obsidian‑silk robe, crystalline staff, and Chrono‑Tablet. No changes in subsequent phases."
     ],
     "props": [
-      "Item: Chronicle Tablet - A slab of dark obsidian glass framed in eroded bronze, displaying shifting holographic cuneiform.",
-      "Item: Sensor Staff - A walking stick made of petrified wood topped with a rotating, geometric sensor cluster."
+      "Item: Chrono‑Tablet – a translucent, holographic device that displays shifting temporal glyphs.",
+      "Item: Glyph‑Scroll – a weathered scroll of parchment with ancient symbols, wrapped around the narrator’s wrist."
     ],
     "prompt_keywords": [
-      "ancient scribe",
-      "cyberpunk bedouin",
-      "ethiopian futurism",
-      "weathered robes",
-      "brass goggles",
-      "desert ruins",
-      "cinematic lighting",
-      "8k",
-      "hyperrealism",
-      "tactile texture"
+      "ancient Ethiopian",
+      "Egyptian",
+      "bio-luminescent glyphs",
+      "crystalline staff",
+      "obsidian silk",
+      "industrial mysticism",
+      "photorealistic",
+      "tactile",
+      "cinematic lighting"
     ],
-    "prompt_block": "A photorealistic medium shot of the Narrator, an ancient-tech scribe standing amidst obsidian ruins. He wears heavy, dust-colored linen robes intricately embroidered with copper circuitry patterns. His face is partially obscured by a tactical shemagh, and he wears brass-rimmed goggles with glowing crystalline lenses. A heavy, primitive-looking sensor backpack is strapped to his shoulders. He holds a dark glass tablet displaying holographic cuneiform data. The lighting is dramatic, high-contrast sunset striking the metallic threads in his clothing. Texture of worn fabric and oxidized metal is palpable.",
+    "prompt_block": "A towering narrator figure in a photorealistic, ancient-tech setting, wearing an indigo obsidian‑silk robe etched with bioluminescent hieroglyphic glyphs, a translucent sensor mask covering half his face, glowing azure crystalline staff, holding a shifting Chrono‑Tablet, surrounded by industrial mysticism, grounded realism, tactile textures, cinematic lighting, ancient Ethiopian and Egyptian motifs, advanced incomprehensible technology, photorealistic detail, high resolution",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "The Narrator as the wandering witness in standard travel gear.",
+        "summary": "Default appearance of the narrator, blending ancient Ethiopian and Egyptian aesthetics with advanced technology.",
         "prompt_keywords": [
-          "ancient scribe",
-          "cyberpunk bedouin",
-          "ethiopian futurism",
-          "weathered robes",
-          "brass goggles",
-          "desert ruins"
+          "ancient Ethiopian",
+          "Egyptian",
+          "bio-luminescent glyphs",
+          "crystalline staff",
+          "obsidian silk",
+          "industrial mysticism",
+          "photorealistic",
+          "tactile",
+          "cinematic lighting"
         ],
-        "prompt_block": "A photorealistic medium shot of the Narrator, an ancient-tech scribe standing amidst obsidian ruins. He wears heavy, dust-colored linen robes intricately embroidered with copper circuitry patterns. His face is partially obscured by a tactical shemagh, and he wears brass-rimmed goggles with glowing crystalline lenses. A heavy, primitive-looking sensor backpack is strapped to his shoulders. He holds a dark glass tablet displaying holographic cuneiform data. The lighting is dramatic, high-contrast sunset striking the metallic threads in his clothing. Texture of worn fabric and oxidized metal is palpable."
+        "prompt_block": "A towering narrator figure in a photorealistic, ancient-tech setting, wearing an indigo obsidian‑silk robe etched with bioluminescent hieroglyphic glyphs, a translucent sensor mask covering half his face, glowing azure crystalline staff, holding a shifting Chrono‑Tablet, surrounded by industrial mysticism, grounded realism, tactile textures, cinematic lighting, ancient Ethiopian and Egyptian motifs, advanced incomprehensible technology, photorealistic detail, high resolution"
       }
     ]
   },

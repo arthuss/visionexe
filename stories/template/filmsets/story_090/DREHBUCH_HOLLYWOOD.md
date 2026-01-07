@@ -1,285 +1,385 @@
-✓ fetch_copilot_cli_documentation
-   └ # GitHub Copilot CLI Documentation
+✗ Create stories\template\chapter_090_manual.md
+   Permission denied and could not request permission from user
 
 # DREHBUCH KAPITEL 90 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Das System hat seine Toleranzgrenze erreicht. Ich sehe, wie die alten Codes zerfallen, nicht aus Altersschwäche, sondern durch einen gezielten Befehl der Löschung. Es ist kein Ende, sondern eine Migration auf eine Architektur, die das menschliche Verständnis von Geometrie übersteigt. Wir sind nicht mehr Bewohner, wir sind Datenpunkte in einer neuen Matrix.
+NARRATOR_TEXT: Das Systemprotokoll zeigt kritische Instabilität. Alte Variablen kollidieren mit der neuen Logik, und der Kernel verlangt nach einer Bereinigung. Wir stehen nicht am Ende der Zeit, sondern am Moment des Neustarts. Was wie Zerstörung aussieht, ist nur die Defragmentierung einer korrupten Festplatte.
 
-## [AKT 1] [SCENE 1.1] [Timecode: 00:00-00:02] [THE ABYSS OPENS]
-**Action:** Der Boden (Grid) reißt auf. Kein Feuer, sondern `RAW_PLASMA_NOISE` (rotes Statik-Rauschen) bricht hervor.
+## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:04] [THE GLITCH OBSERVER]
+**Action:** Extreme Close-Up auf Henochs Auge (Master Phase). Die Iris rotiert mechanisch wie eine Blende. Auf der Hornhaut spiegeln sich hektische rote Warn-Daten (HUD). Seine Haut vibriert durch den massiven Daten-Input (Bio-Reaction).
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "The Judgment Plane", "env_change": true, "actors": [], "props": [], "camera": "Top Down / God Eye / Fast Zoom In", "mood": ["terror", "glitch"], "director_intent": "Show the violent rupture of the reality grid.", "start_image_keywords": ["digital abyss", "red static", "grid tear"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "JUDGMENT_PLANE_01", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "Merkabah Pod Interior", "env_change": true, "actors": [{"name": "Henoch", "phase": "Master", "presence": "on_screen", "focus": "primary"}], "props": ["HUD Overlay", "Neural Cables"], "camera": "Macro Lens / Eye Focus", "mood": ["alert", "high_tech"], "director_intent": "Establish the observer witnessing the system crash via direct neural link.", "start_image_keywords": ["glass skin", "rotating iris", "red hud reflection"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "OBSERVER_ALERT", "env_id": "MERKABAH_POD", "props": [], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "", "pose_source": "", "driver_notes": "Rapid pupil dilation"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot, top-down view of a black digital grid floor tearing open, revealing a jagged abyss filled with raw red plasma static noise, cyberpunk horror aesthetic, high contrast, 8k resolution, photorealistic textures, volumetric lighting, glitch art style --ar 9:16
+Extreme macro shot of a futuristic eye with a rotating mechanical iris, translucent glass-like skin with faint white plasma underskin glow, red holographic HUD data scrolling rapidly across the cornea reflecting a digital battlefield, neural cables connected to the neck, high contrast, medical sci-fi aesthetic, 8k --ar 9:16
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-Subject: The Abyss. A jagged tear in the reality grid. Inside is not fire, but `RAW_PLASMA_NOISE` (red and orange static).
+Actor: Henoch (Master Phase). Skin: Translucent, glass-like. Eye: Mechanical iris spiraling open/closed. Bio-Reaction: Sub-dermal light pulse (Data Influx).
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-N/A
+Equip: Neural Uplink Cables attached to neck (Chrome/Fiber-optic).
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Location: The Judgment Plane. Floor: Glowing vector grid lines on black glass. Atmosphere: Red warning lights flashing stroboscopically.
+Location: Merkabah Pod. Dark, sterile environment.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Lighting: Red strobe lights, glowing grid lines. High contrast.
+Lighting: Red warning light reflecting in the eye. Cold blue internal skin glow.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Camera: High Angle / Top Down. Movement: Fast zoom in towards the tear. Style: Cyberpunk horror, glitch art aesthetics.
+Camera: Extreme Macro. Focus strictly on the eye.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Digital screaming, modem-handshake sounds, extremely loud glitch noise, sub-bass rumble.
+Muffled emergency siren, rapid data scrolling sound (chirps), heavy breathing inside a helmet, mechanical servo whine.
 
-## [AKT 1] [SCENE 1.2] [Timecode: 00:02-00:06] [DELETING THE SHEPHERDS]
-**Action:** Die 70 Hirten werden magnetisch in den Abgrund gezogen. Sie schreien nicht, sie "glitchen" (Zerrbilder). Beim Kontakt mit dem Abgrund zerfallen sie in Daten-Nebel.
+## [ACT 1] [SCENE 1.2] [Timecode: 00:04-00:08] [RED WAVEFORM ATTACK]
+**Action:** Die weißen Lämmer schreien, aber statt Schall kommen rote Wellenformen (Red Waveform Ripples) aus ihren Mäulern. Die Luft flimmert vor Hitze. Die blinden Schafe werden getroffen.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "wide", "environment": "The Judgment Plane / Abyss Edge", "env_change": false, "actors": [{"name": "The Shepherds", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle / Looking Up", "mood": ["chaos", "destruction"], "director_intent": "Depict the deletion of corrupted entities as a system purge.", "start_image_keywords": ["falling figures", "glitch silhouette", "digital disintegration"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "FALLING_01", "env_id": "JUDGMENT_PLANE_01", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "mixed", "shot_type": "low_angle", "framing": "medium", "environment": "The Grazing Grid", "env_change": false, "actors": [{"name": "White Lambs", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}, {"name": "Blind Sheep", "phase": "Default", "presence": "on_screen", "focus": "secondary"}], "props": ["Red Sonic Waves"], "camera": "Shaky Handheld / Low Angle", "mood": ["aggression", "chaos"], "director_intent": "Visualize verbal aggression as physical sonic damage.", "start_image_keywords": ["red sonic ripple", "screaming lamb", "heat distortion"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "LAMB_SCREAM", "env_id": "GRAZING_GRID", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Low angle shot looking up from an abyss, humanoid figures made of corrupted flickering black polygons falling towards the camera, digital disintegration effect, no blood, data fragmentation, wide angle lens distortion, dark atmosphere, red ambient light --ar 9:16
+Low angle shot of a white lamb screaming, visible red sonic waveform ripples distorting the air like heat haze, impacting a group of grey sheep with black sensor bars over their eyes, dark glass floor with green grid lines, aggressive atmosphere, photorealistic CGI, 8k --ar 9:16
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-Subject: The 70 Shepherds. Appearance: Humanoid figures made of corrupted, flickering black polygons. Action: They are being pulled into the Abyss by magnetic force. As they hit the edge, they shatter into voxels.
+Subject: White Lambs. Action: Screaming. Visualized as red semi-transparent shockwaves. Target: Blind Sheep (Censor bars on eyes).
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-Corrupted textures, flickering geometry.
+N/A.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Location: The edge of the digital abyss.
+Location: Grazing Grid. Dark glass floor.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Lighting: Red glow from below, dark void above.
+Lighting: Red glow from the sonic waves. Green grid floor emission.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Camera: Low Angle, looking up at the falling figures. Lens: Wide Angle (16mm) to distort the fall. Effect: `DIGITAL_DISINTEGRATION`.
+Camera: Handheld, shaky. Focus on the distortion effect.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy bass drop on impact, digital glitching sounds, wind rushing, magnetic hum.
+High frequency digital screech, distorted bass rumble, glass vibrating, glitchy feedback.
 
-## [AKT 1] [SCENE 1.3] [Timecode: 00:06-00:10] [HENOCH OBSERVER]
-**Action:** Henoch in der Merkabah-Kapsel. Seine Augen rotieren (Zoom). Stickstoff-Nebel (Cooling) tritt aus seiner Haut aus. HUD-Text: `PURGE_COMPLETE`.
+## [ACT 1] [SCENE 1.3] [Timecode: 00:08-00:13] [HORN EXTRUSION]
+**Action:** Aus der Stirn eines Lammes wächst mit hydraulischer Geschwindigkeit ein kristallines Obsidian-Horn. Es ist nicht organisch, sondern ein scharfes Daten-Spike. Violetter Lens-Flare.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Merkabah Platform", "env_change": true, "actors": [{"name": "Henoch", "phase": "Master", "presence": "on_screen", "focus": "primary"}], "props": ["HUD Overlay"], "camera": "Extreme Close-Up (Iris)", "mood": ["clinical", "intense"], "director_intent": "Show the physical toll of processing the system purge.", "start_image_keywords": ["glass skin", "rotating iris", "nitrogen fog"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "OBSERVER_STASIS", "env_id": "MERKABAH_INTERIOR", "props": ["HUD_UI"], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "henoch_monologue_1", "pose_source": "", "driver_notes": "Micro-expressions of strain"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "actor", "shot_type": "extreme_close_up", "framing": "close_up", "environment": "The Grazing Grid", "env_change": false, "actors": [{"name": "Horned Lamb", "phase": "Transformation", "presence": "on_screen", "focus": "primary"}], "props": ["Obsidian Horn"], "camera": "Crash Zoom / Macro", "mood": ["painful", "mechanical"], "director_intent": "Show the mutation as a forced hardware upgrade.", "start_image_keywords": ["obsidian horn", "hydraulic growth", "violet lens flare"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "HORN_GROWTH", "env_id": "GRAZING_GRID", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme close-up of a futuristic eye with a rotating mechanical iris like a camera lens, translucent glass skin with visible blue fiber optics underneath, nitrogen fog venting from pores, HUD overlay text 'PURGE_COMPLETE', cinematic lighting, hyper-detailed, 8k --ar 9:16
+Macro shot of a black crystalline obsidian horn extruding from a lamb's forehead, jagged geometric edges, sparks of violet energy, skin stretching like synthetic rubber, mechanical detail, harsh rim lighting, hyper-realistic texture, 8k --ar 9:16
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-Actor: Henoch (Master Phase). Skin: Translucent "Glass-Skin", visible pulsating blue fiber-optics underneath. Eyes: Mechanical iris rotating to zoom.
+Subject: The Prime Lamb. Transformation: A black, glossy obsidian horn shoots out of the forehead. Speed: Fast, hydraulic snap.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-None visible, focus on face/eye.
+The Horn is jagged, crystalline, artificial.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Location: Inside the Merkabah Platform capsule.
+Location: Grid background (blurred).
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Lighting: Internal blue glow from veins, HUD light reflection on eye.
+Lighting: Violet energy flare at the base of the horn.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Camera: Extreme Close-Up on the eye. Movement: Iris rotation. Effect: Nitrogen fog venting.
+Camera: Crash zoom in. Sharp focus on the tip of the horn.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High pitch turbine whine, HUD beeps, mechanical lens focusing sound, hissing steam.
+Hydraulic piston sound, cracking crystal, electrical zap, heavy metallic lock sound.
 
-## [AKT 1] [SCENE 1.4] [Timecode: 00:10-00:15] [SHEEP REACTION]
-**Action:** Die "blinden Schafe" starren in den Riss. Ihre Augen leuchten kurz auf (System-Ping), aber keine Reaktion.
+## [ACT 1] [SCENE 1.4] [Timecode: 00:13-00:20] [RAVEN SWARM]
+**Action:** Mechanische Raben (Low-Poly, schwarz-matt) greifen im Schwarm an. Sie stürzen auf das Lamm. Beim Aufprall sprühen Magnesium-Funken (Glitch-Sparks).
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "The Judgment Plane", "env_change": false, "actors": [{"name": "The Sheep", "phase": "Pending Update", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Handheld / Shaky", "mood": ["confusion", "fear"], "director_intent": "Capture the confusion of the user base during the system event.", "start_image_keywords": ["sheep crowd", "glowing eyes", "abyss reflection"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "CROWD_STARE", "env_id": "JUDGMENT_PLANE_01", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "The Grazing Grid", "env_change": false, "actors": [{"name": "The Ravens", "phase": "Attack", "presence": "on_screen", "focus": "primary"}, {"name": "Horned Lamb", "phase": "Defensive", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Tracking / Fast Pan", "mood": ["frantic", "violent"], "director_intent": "Depict the security bots neutralizing the anomaly.", "start_image_keywords": ["mechanical ravens", "magnesium sparks", "swarm attack"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "SWARM_DIVE", "env_id": "GRAZING_GRID", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot of a flock of grey dirty sheep staring into a glowing abyss, their eyes glowing with a sudden digital ping, chaotic atmosphere, handheld camera style, shaky framing, high contrast, dramatic lighting --ar 9:16
+Dynamic action shot of angular matte-black mechanical ravens dive-bombing a lamb, bright white magnesium sparks flying upon impact, glitch artifacts in the air, red LED eyes leaving light trails, motion blur, chaotic composition, cinematic lighting --ar 9:16
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-Subject: The Sheep (Users). Appearance: Dirty, grey textures. Action: Staring into the tear. Eyes flash briefly (System Ping).
+Subject: The Ravens. Appearance: Angular, metallic, matte black. Red LED eyes. Action: Coordinated swarm dive.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-N/A
+N/A.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Location: The Judgment Plane, near the abyss.
+Location: Grazing Grid.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Lighting: Reflection of the red abyss in their eyes.
+Lighting: Flashes of white light from impacts (Sparks).
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Camera: Handheld, shaky, chaotic. Whip pan movement.
+Camera: Fast tracking, high shutter speed. "Glitch" cuts.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Unsettling static noise, wind howling, low murmur of a crowd, digital ping sound.
+Metallic flapping, modem glitch screeching, loud spark impacts, chaotic wind.
 
-## [AKT 2] [SCENE 2.1] [Timecode: 00:15-00:20] [THE FOLDING WALLS]
-**Action:** **UNMOUNT:** Die Mauern des Alten Hauses falten sich mechanisch zusammen. Steinblöcke gleiten ineinander wie ein komplexer Verschluss-Mechanismus.
+## [ACT 2] [SCENE 2.1] [Timecode: 00:20-00:25] [ROOT LOGIN]
+**Action:** Der "Herr der Schafe" betritt den Grid. Er ist eine Silhouette aus reinem weißem Licht (Volumetric). Der Boden verflüssigt sich unter seinem Fußtritt (Quecksilber-Effekt). Die Raben frieren in der Luft ein (Bullet Time).
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "medium", "framing": "medium", "environment": "Old Jerusalem Temple", "env_change": true, "actors": [], "props": [], "camera": "Tracking Shot", "mood": ["mechanical", "precise"], "director_intent": "Visualize the deconstruction of the old reality as a mechanical process.", "start_image_keywords": ["folding walls", "stone mechanism", "retraction"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "OLD_TEMPLE_WALL", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "wide", "environment": "The Grazing Grid", "env_change": false, "actors": [{"name": "The Lord", "phase": "Avatar", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle / Hero Shot", "mood": ["divine", "overwhelming"], "director_intent": "The arrival of the admin pauses the simulation physics.", "start_image_keywords": ["light silhouette", "liquid floor", "frozen ravens"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "LORD_STEP", "env_id": "GRAZING_GRID_LIQUID", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot of ancient stone walls folding mechanically into themselves like a puzzle box, texture transitioning from aged stone to wireframe mesh, intricate mechanical details, dust particles, golden hour lighting, photorealistic --ar 9:16
+Low angle hero shot of a humanoid silhouette made of blinding white volumetric light stepping onto a dark grid floor, the floor rippling like liquid mercury, mechanical ravens frozen in mid-air around him, stark contrast, divine presence, 8k --ar 9:16
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-Subject: The Old Temple Walls. Action: Mechanical retraction. The stone blocks slide into each other like a complex puzzle box closing. They compress.
+Actor: The Lord of Sheep. Appearance: Pure white light silhouette. No features. Action: Steps down. Floor turns to liquid metal (Mercury) at contact point.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-N/A
+N/A.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Location: Old Jerusalem Temple site.
+Background: Ravens suspended in air (Time Freeze).
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Lighting: Natural light fading into digital wireframe glow.
+Lighting: Source is the actor. Strong rim light on frozen objects.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Camera: Tracking shot moving parallel to the wall. Focus: Sharp on the texture transition point (Stone to Wireframe).
+Camera: Static, monumental low angle.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy hydraulic hissing, stone grinding on stone, mechanical clicking and locking sounds.
+Deep seismic bass drop (Sub-woofer), sudden silence of all other noise, liquid ripple sound.
 
-## [AKT 2] [SCENE 2.2] [Timecode: 00:20-00:25] [THE PILLARS VANISH]
-**Action:** Die Hauptsäulen werden rot markiert (Bounding Box) und verschwinden instantan (`DESPAWN`). Zurück bleibt das nackte schwarze Boden-Grid.
+## [ACT 2] [SCENE 2.2] [Timecode: 00:25-00:32] [THE CHASM]
+**Action:** Ein perfekter geometrischer Riss spaltet den Boden. Innen kein Gestein, sondern Kaskaden von rotem Binärcode (Liquid Code). Die Kanten glühen orange.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Temple Foundation", "env_change": true, "actors": [], "props": [], "camera": "Static Wide Shot", "mood": ["abrupt", "empty"], "director_intent": "Show the sudden removal of structural elements via system command.", "start_image_keywords": ["red bounding box", "pillar despawn", "black grid"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "TEMPLE_FOUNDATION", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "top_down", "framing": "wide", "environment": "The Judgment Plane", "env_change": true, "actors": [], "props": [], "camera": "Top Down / God View", "mood": ["terrifying", "precise"], "director_intent": "Reveal the underlying code structure of the destroyed world.", "start_image_keywords": ["geometric chasm", "red binary rain", "glowing edges"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "CHASM_OPEN", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide shot of massive stone pillars highlighted with a bright red digital bounding box, one pillar half-vanished revealing the black construction grid underneath, stark contrast, digital glitch aesthetic, empty foundation pad --ar 9:16
+Top-down view of a perfectly straight geometric chasm opening in a black grid floor, revealing a waterfall of red binary code digits instead of magma, edges glowing with orange heat, cyberpunk abyss, infinite depth, high contrast --ar 9:16
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-Subject: The Main Pillars. Action: Highlighted with a red selection outline, blink twice, then vanish instantly (Despawn).
+Subject: The Earth Split. Appearance: Straight, laser-cut edges. Interior: Red cascading data streams (Matrix rain style).
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-N/A
+N/A.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Location: The now-empty foundation pad. Shows the bare "construction grid" underneath.
+Location: The Grid.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Lighting: Red selection glow, then darkness.
+Lighting: Orange glow from the cut. Red glow from the code.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Camera: Static shot. Sudden disappearance.
+Camera: Top-down, pulling up. Symmetrical framing.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Digital selection chime, vacuum implosion sound (vanish), sudden silence.
+Tectonic grinding, loud digital static waterfall, laser cutting hum.
 
-## [AKT 2] [SCENE 2.3] [Timecode: 00:25-00:35] [THE BLUEPRINT PROJECTION]
-**Action:** **BLUEPRINT:** Massive blaue Laser-Vektoren scannen den leeren Raum und zeichnen den Grundriss des Neuen Hauses in die Luft.
+## [ACT 2] [SCENE 2.3] [Timecode: 00:32-00:38] [SWORD TRANSFER]
+**Action:** Ein Balken aus reinem blauen Plasma (ohne Griff) schwebt vom Herrn zum gehörnten Lamm. Es ist rohe Energie, ein Admin-Tool.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "New Jerusalem Site", "env_change": true, "actors": [], "props": [], "camera": "Wide Panorama", "mood": ["awe", "futuristic"], "director_intent": "Reveal the scale and complexity of the new architectural plan.", "start_image_keywords": ["blue laser blueprint", "volumetric light", "construction grid"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "NEW_JERUSALEM_SITE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "medium", "framing": "close_up", "environment": "The Judgment Plane", "env_change": false, "actors": [{"name": "Horned Lamb", "phase": "Armed", "presence": "on_screen", "focus": "secondary"}], "props": ["Plasma Sword"], "camera": "Tracking Shot", "mood": ["power", "gift"], "director_intent": "The transfer of power is clean, wireless, and absolute.", "start_image_keywords": ["blue plasma bar", "floating energy", "handless sword"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "RECEIVE_SWORD", "env_id": "JUDGMENT_PLANE", "props": ["PLASMA_SWORD"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Panoramic shot of a massive blue laser blueprint being projected onto a dark landscape, volumetric light beams cutting through dust, complex geometric patterns, sci-fi construction site, epic scale, high contrast, 8k --ar 9:16
+Cinematic shot of a floating bar of intense blue plasma energy, no handle, hovering through the air towards a mechanical lamb, air ionizing around it, shallow depth of field, dark background, sci-fi weapon, 8k --ar 9:16
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-Subject: The New House Blueprint. Action: Massive blue laser beams project the outline of the new structure from the sky onto the grid.
+Prop: The Sword. Appearance: A simple, perfect cylinder of blue light. No metal parts. Action: Floats horizontally through the air.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-N/A
+N/A.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Location: The empty grid.
+Background: Dark, out of focus.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Lighting: Volumetric blue lasers, high contrast against black background.
+Lighting: Blue lens flares, illumination of dust particles.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Camera: Wide Panorama. Epic scale.
+Camera: Tracking shot following the object.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep humming of laser scanners, electrical crackling, sci-fi interface sounds.
+Low frequency electromagnetic hum, crackling energy, whoosh of passing object.
 
-## [AKT 2] [SCENE 2.4] [Timecode: 00:35-00:45] [DEPLOYMENT V2.0]
-**Action:** **DEPLOY:** Das Neue Haus materialisiert sich. Keine Ziegel, sondern nahtloses weißes Graphen und Gold-Leitungen. Es wächst organisch aus dem Boden-Grid.
+## [ACT 2] [SCENE 2.4] [Timecode: 00:38-00:44] [STARS IN CHAINS]
+**Action:** Die gefallenen Sterne (Dodekaeder) sind in Laser-Ketten gefesselt. Sie haben Risse und "bluten" schwarzen Rauch. Sie werden zum Abgrund gezogen.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "New Jerusalem", "env_change": true, "actors": [], "props": [], "camera": "Crane Shot / Slow Push-in", "mood": ["majestic", "divine"], "director_intent": "Show the physical manifestation of the new perfect architecture.", "start_image_keywords": ["white graphene architecture", "gold circuitry", "materialization"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "NEW_JERUSALEM_BUILD", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Abyss Edge", "env_change": false, "actors": [{"name": "Fallen Stars", "phase": "Bound", "presence": "on_screen", "focus": "primary"}], "props": ["Laser Chains"], "camera": "Static Wide Shot", "mood": ["judgment", "heavy"], "director_intent": "Show the capture of high-level corrupt entities.", "start_image_keywords": ["geometric stars", "laser chains", "black smoke leak"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "STARS_DRAG", "env_id": "ABYSS_EDGE", "props": ["LASER_CHAINS"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Futuristic architecture materializing from the ground, pristine white graphene walls with embedded gold circuitry, organic growth pattern, shockwave of dust, bright divine lighting, slow motion capture, hyper-realistic --ar 9:16
+Wide shot of massive glowing geometric dodecahedrons being dragged across a black floor by bright white laser chains, the shapes are cracked and leaking thick black smoke, red light from the abyss in the background, epic scale, cinematic composition --ar 9:16
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-Subject: The New House. Appearance: Pristine white graphene and gold circuitry. Action: Materializes chunk by chunk (Voxel printing) from the ground up.
+Subjects: Fallen Stars. Shape: Dodecahedrons. Texture: Obsidian/Glass, cracked. Leaking black fluid/smoke.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-N/A
+Restraints: Beams of white light acting as chains.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Location: New Jerusalem.
+Location: Edge of the Abyss.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Lighting: Bright, clean white light. Gold reflections.
+Lighting: Red backlight. White laser glow.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Camera: Slow push-in. High frame rate (Slow Motion). Effect: Shockwave of displaced air.
+Camera: Static, observing the procession.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Infrasound boom (sub-bass), turbine spool-up, sacred synth chord, heavy impact sound.
+Heavy metal dragging on stone, straining energy beams, leaking gas hissing.
 
-## [AKT 3] [SCENE 3.1] [Timecode: 00:45-00:50] [THE BULL COMPILATION]
-**Action:** **COMPILATION:** Der Weiße Stier formt sich. Erst Skelett (Chrom), dann Muskeln (Synthetik-Faser), dann Haut (Weißes Leder). Die Hörner rasten ein wie Waffen-Teile.
+## [ACT 2] [SCENE 2.5] [Timecode: 00:44-00:50] [THE DELETE]
+**Action:** Die Sterne und Hirten fallen in den roten Code-Strom. Sie lösen sich molekular auf (Sub-Atomic Dispersion). Kein Feuer, sondern Daten-Zerfall.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "New Jerusalem Courtyard", "env_change": true, "actors": [{"name": "The White Bull", "phase": "Kernel Master", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "360 Orbit / Bullet Time", "mood": ["powerful", "synthetic"], "director_intent": "Depict the creation of the system admin entity as a high-tech assembly process.", "start_image_keywords": ["white bull", "synthetic muscle", "chrome skeleton", "obsidian horns"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "BULL_COMPILE", "env_id": "NEW_JERUSALEM_COURTYARD", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Inside Abyss", "env_change": false, "actors": [{"name": "Corrupted Shepherds", "phase": "Deleting", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Slow Motion / 120fps", "mood": ["finality", "erasure"], "director_intent": "The final deletion of data. Not death, but un-making.", "start_image_keywords": ["molecular dispersion", "red code stream", "disintegration"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "FALLING_DISPERSE", "env_id": "CODE_STREAM", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Close-up of a massive white bull being constructed layer by layer, chrome skeleton visible underneath synthetic white muscle fibers, obsidian horns locking into place, glowing internal core, high-tech laboratory lighting, 8k detail --ar 9:16
+Medium shot of humanoid figures falling into a river of red binary code, their bodies disintegrating into millions of tiny black particles, sub-atomic dispersion, no blood, digital erasure, slow motion, high contrast, red and black palette --ar 9:16
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-Actor: The White Bull (System Admin). Physique: Synthetic muscle structure, white carbon-fiber plating, glowing internal core. Horns: Obsidian antennas.
+Subjects: Shepherds. Action: Falling. Effect: Bodies break apart into dust/particles (Molecular Dispersion) as they touch the red light.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-N/A
+N/A.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Location: New Jerusalem Courtyard.
+Location: The Code Stream.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Lighting: Internal glow, bright ambient light.
+Lighting: Intense red glow from below.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Camera: 360° Orbit (Bullet Time). Action: Rapid compilation of layers (Skeleton -> Muscle -> Skin).
+Camera: Slow Motion (120fps). Focus on the disintegration boundary.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Mechanical power-up sound, metallic locking clicks, energy hum, heavy breathing.
+Vacuum suction sound, digital 'ping' of deletion, wind rushing, silence.
 
-## [AKT 3] [SCENE 3.2] [Timecode: 00:50-00:55] [GLOBAL TEXTURE UPDATE]
-**Action:** **TEXTURE UPDATE:** Eine Welle aus weißem Licht fegt über die Schafe. Wo das Licht trifft, wird graues Fell zu leuchtendem Weiß. Synchronisierte Bewegung.
+## [ACT 3] [SCENE 3.1] [Timecode: 00:50-00:55] [FOLDING THE OLD HOUSE]
+**Action:** Die Mauern des alten Tempels falten sich origami-artig zusammen. Stein verwandelt sich in Glas, dann in Nichts. Der Boden wird spiegelglatt gewischt.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "wide", "environment": "New Jerusalem Courtyard", "env_change": false, "actors": [{"name": "The Sheep", "phase": "Updated", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Overhead Shot", "mood": ["harmonious", "clean"], "director_intent": "Show the mass update of the user base to the new system standard.", "start_image_keywords": ["white light wave", "sheep transformation", "glowing fur"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "CROWD_UPDATE", "env_id": "NEW_JERUSALEM_COURTYARD", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Old Temple Ruins", "env_change": true, "actors": [], "props": [], "camera": "Time-Lapse / Motion Control", "mood": ["clean", "efficient"], "director_intent": "The archiving process is elegant and mathematical.", "start_image_keywords": ["origami stone", "folding walls", "clean wipe"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "TEMPLE_FOLD", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Overhead shot of a crowd of sheep, a wave of bright white light sweeping across them, transforming dirty grey fur into glowing white texture, synchronized movement, polished white marble floor, divine atmosphere --ar 9:16
+Surreal architectural shot of ancient stone walls folding inward like complex origami, texture transitioning from rough stone to smooth glass, vanishing into a flat mirror-like floor, sunset lighting, clean lines, mathematical precision, 8k --ar 9:16
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-Subject: The Sheep (Users). Action: A wave of white light scans over them. As the light passes, their dirty/grey textures are replaced by clean, glowing white fur.
+Subject: Old Walls. Action: Mechanical folding/retraction. Complex geometric motion. Texture shift: Stone -> Glass -> Invisible.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-N/A
+N/A.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Location: The Courtyard of the New House. Floor: Polished white marble reflecting the sky.
+Location: Temple Site.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Lighting: Bright white scanning light.
+Lighting: Golden hour transitioning to sterile white.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Camera: Crane shot rising up / Overhead.
+Camera: Accelerated motion (Time-lapse).
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Harmonic glass resonance, sweeping light sound, soft choir texture.
+Satisfying mechanical clicks, sliding stone on glass, swoosh of air, silence.
 
-## [AKT 3] [SCENE 3.3] [Timecode: 00:55-01:00] [RESOLUTION]
-**Action:** **RESOLUTION:** Das Neue Jerusalem steht perfekt da. Der Stier in der Mitte, die Schafe im Kreis. Henochs Kapsel dockt oben an der Spitze an.
+## [ACT 3] [SCENE 3.2] [Timecode: 00:55-01:02] [DEPLOY NEW JERUSALEM]
+**Action:** "New Jerusalem" senkt sich aus den Wolken. Eine fraktale Megastruktur aus Weißgold und Glas. Antigrav-Halterungen lösen sich.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "extreme_wide", "framing": "extreme_wide", "environment": "New Jerusalem Complete", "env_change": false, "actors": [{"name": "The White Bull", "phase": "Kernel Master", "presence": "on_screen", "focus": "secondary"}, {"name": "Henoch", "phase": "Master", "presence": "on_screen", "focus": "secondary"}], "props": ["Merkabah Platform"], "camera": "Extreme Wide Shot", "mood": ["peaceful", "perfect"], "director_intent": "Final establishing shot of the new order.", "start_image_keywords": ["new jerusalem", "white bull center", "merkabah docking"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "FINAL_FORMATION", "env_id": "NEW_JERUSALEM_COMPLETE", "props": ["MERKABAH_PLATFORM"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "extreme_wide", "framing": "extreme_wide", "environment": "Sky / New Site", "env_change": true, "actors": [], "props": [], "camera": "Low Angle / Looking Up", "mood": ["majestic", "awe"], "director_intent": "The arrival of the new operating system environment.", "start_image_keywords": ["fractal city", "white gold", "descending architecture"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "NEW_CITY_DESCEND", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme wide shot of a perfect futuristic white city, a massive white bull standing in the center surrounded by a circle of glowing white sheep, a tetrahedral capsule docking at the highest tower, symmetrical composition, peaceful, divine light, 8k --ar 9:16
+Low angle shot of a massive white and gold fractal city descending from the clouds, intricate geometric patterns, anti-gravity tethers releasing, casting a huge shadow, pristine futuristic architecture, divine atmosphere, photorealistic --ar 9:16
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-Subject: The New Jerusalem. Center: The White Bull. Circle: The Sheep. Top: Henoch's Merkabah docking.
+Subject: New Jerusalem. Appearance: White graphene, gold circuitry, glass. Fractal geometry. Action: Descending slowly.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-N/A
+N/A.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Location: New Jerusalem.
+Sky: Blue/White.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Lighting: Perfect, shadowless white light.
+Lighting: Bright, diffuse skylight.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Camera: Extreme Wide Shot (Symmetrical). Fade to Black.
+Camera: Slow tilt up. Sense of immense scale.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Final major chord (synth), long echo, peaceful silence.
+Deep resonant synth chord (Major key), wind displacement, metallic lock release sound.
+
+## [ACT 3] [SCENE 3.3] [Timecode: 01:02-01:08] [DOCKING SHOCKWAVE]
+**Action:** Die Struktur landet. Ein weißer Schockwellen-Ring expandiert und überschreibt die Boden-Textur (Dirt -> Grid).
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "aerial", "framing": "extreme_wide", "environment": "New Jerusalem Ground Zero", "env_change": true, "actors": [], "props": [], "camera": "Aerial / Drone", "mood": ["impact", "cleansing"], "director_intent": "The installation of the new system overwrites the old terrain.", "start_image_keywords": ["white shockwave", "texture rewrite", "aerial view"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "IMPACT_ZONE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Aerial shot of a futuristic city touching down on earth, a perfect ring of white light shockwave expanding outwards, transforming chaotic brown dirt into a clean white grid pattern instantly, high contrast, sci-fi simulation effect, 8k --ar 9:16
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+Subject: The Shockwave. Appearance: A bright white ring. Action: Expanding rapidly. Effect: Terrain changes from Dirt to Procedural Grid behind the wave.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+Location: Ground Zero.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+Lighting: Blinding white light from the ring.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+Camera: High aerial shot.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Soft sonic boom (damped), digital sweep sound, ground rumbling.
+
+## [ACT 3] [SCENE 3.4] [Timecode: 01:08-01:14] [THE PROTOTYPE]
+**Action:** Der Weiße Stier steht im Zentrum. Carbon-Fiber-Haut, leuchtend blaue Augen. Er ist der neue Admin-Prototyp.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "full_body", "environment": "New Courtyard", "env_change": false, "actors": [{"name": "White Bull", "phase": "Prototype", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Dolly In / Hero", "mood": ["perfection", "strength"], "director_intent": "Introduce the perfected user avatar.", "start_image_keywords": ["white carbon fiber bull", "blue eyes", "synthetic perfection"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "BULL_STAND", "env_id": "NEW_COURTYARD", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Full body shot of a massive white bull made of synthetic carbon fiber weave, glowing blue optical sensors for eyes, standing perfectly still in a pristine white courtyard, reflections on the carapace, futuristic design, hero lighting, 8k --ar 9:16
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+Actor: The White Bull. Skin: White woven carbon fiber. Eyes: Glowing blue LEDs. Stance: Rigid, powerful, perfect.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+Location: New Jerusalem Courtyard. White marble.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+Lighting: Cool white light. Blue eye emission.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+Camera: Slow dolly in.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Low engine idle hum, heavy metallic footstep, biometric scan ping.
+
+## [ACT 3] [SCENE 3.5] [Timecode: 01:14-01:20] [PROPAGATION]
+**Action:** Ein Scanner-Licht fegt über die verbliebenen Schafe. Ihre Mesh-Geometrie morpht in Echtzeit zur Stier-Form. Einheitlichkeit.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "New Courtyard", "env_change": false, "actors": [{"name": "Sheep Crowd", "phase": "Updating", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Pan / Scan", "mood": ["uniformity", "update"], "director_intent": "Show the mass deployment of the new avatar assets.", "start_image_keywords": ["scanner light", "mesh morphing", "sheep to bull"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "CROWD_MORPH", "env_id": "NEW_COURTYARD", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Medium shot of sheep being scanned by a bright vertical light bar, behind the light they are transforming into white synthetic bulls, wireframe mesh visible during transition, clean white environment, sci-fi process, high detail --ar 9:16
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+Subjects: Sheep -> Bulls. Action: A vertical light sheet moves across the frame. Left of light: Sheep. Right of light: Bulls. Transition: Liquid metal morph.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+Location: Courtyard.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+Lighting: Bright scanner light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+Camera: Panning with the light.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Data upload trill, fluid morphing squish sound, harmonic resonance.
+
+## [ACT 3] [SCENE 3.6] [Timecode: 01:20-01:25] [SYSTEM LOGOUT]
+**Action:** Close-Up auf Henoch. Das Bild des Neuen Jerusalem blendet aus seinen Augen aus. Die Neural-Kabel lösen sich mit Zischen. Er atmet tief ein.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "Merkabah Pod", "env_change": false, "actors": [{"name": "Henoch", "phase": "Master", "presence": "on_screen", "focus": "primary"}], "props": ["Neural Cables"], "camera": "Macro / Fade Out", "mood": ["relief", "exhaustion"], "director_intent": "The observer disconnects after the successful migration.", "start_image_keywords": ["fading reflection", "cable detach", "glass skin"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "LOGOUT_BREATH", "env_id": "MERKABAH_POD", "props": [], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "", "pose_source": "", "driver_notes": "Deep inhale"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Extreme close-up of Henoch's face, the reflection of a white city fading from his glass-like eyes, neural cables detaching from his neck releasing white steam, sweat on translucent skin, expression of relief, dark background, cinematic, 8k --ar 9:16
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+Actor: Henoch. Action: Eyes closing. Cables detaching from neck ports. Steam/Gas release. Deep breath taken.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+Uplink Cables.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+Location: Pod.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+Lighting: Dimming down to black.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+Camera: Static Macro. Fade to Black.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Gas decompression hiss, mechanical click, sharp intake of breath, silence.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Sie fallen. Nicht in die Hölle, sondern in den Papierkorb. Endgültige Löschung.","words_max":12},{"scene":"2.4","text":"Das neue Haus. Kein Stein, nur reines Licht und Logik. Ein perfekter Code.","words_max":14},{"scene":"3.3","text":"Der weiße Stier. Das System hat sich selbst neu geschrieben. Wir sind sicher.","words_max":13}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.1","text":"Zugriff verweigert. Der Kernel schreibt sich neu.","words_max":8},{"scene":"2.1","text":"Er ist hier. Keine Gestalt, nur pure Admin-Privilegien.","words_max":10},{"scene":"3.2","text":"Update abgeschlossen. Eine Architektur ohne Fehler. Endlich.","words_max":9}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

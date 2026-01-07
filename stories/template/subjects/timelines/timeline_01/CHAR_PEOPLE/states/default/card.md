@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 14 - 106
 
-**Phase Summary:** The populace in their standard state, a mix of realistic ancient dwellers and subtle digital anomalies.
-**Phase Keywords:** ancient crowd, weathered linen, system idle, wireframe glitch
+**Phase Summary:** Unified depiction of the human group across multiple mystical tech environments.
+**Phase Keywords:** ancient, Ethiopian, Egyptian, golden, obsidian, metallic, holographic, light, forcefield, liquid, wireframe, monolith, moonlight, photorealistic, cinematic
 **Phase Prompt:**
-Cinematic shot of a crowd of humans in ancient weathered linen clothing standing in a dusty environment. They stand with an uncanny stillness, eyes open but blank, indicating a system idle state. The lighting is high-contrast, revealing the coarse texture of the cloth. Subtle digital artifacts, such as faint wireframe outlines on the edges of the crowd or glowing internal geometry in select individuals, hint at their simulated nature. Realistic textures, earth tones, atmospheric haze, 8k.
+A cinematic, photorealistic vertical 9:16 shot of a diverse human group standing in a chaotic desert, surrounded by a translucent golden hexagonal forcefield, with glowing Ge'ez holographic glyphs floating above them, while a massive obsidian hand sweeps through the crowd, liquifying them into bright red metallic fluid droplets that scatter toward the camera, a wall of light passes through them revealing a glowing blue‑white wireframe mesh behind the light, all under a sharp moonlight beam that illuminates the righteous group, contrasted against dark shadowed sinners, with matte black monoliths rising like firewall blocks, rendered with ancient Ethiopian and Egyptian motifs fused with incomprehensible advanced technology, cinematic 8k, 50mm lens, high speed photography, motion blur, dramatic lighting, tactile textures, realistic light behavior.
 
 ---

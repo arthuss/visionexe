@@ -3,9 +3,8 @@
 **Chapters:** 73 - 108
 **Notes:** unknown
 
-**Phase Summary:** Integrated with cosmic machinery, vast scale.
-**Phase Keywords:** Cosmic Scale, Star Maps, Astronomical Machinery, Blue and Gold
+**Phase Keywords:** angelic, arid, sandy, azure, blue, blue, cloudless, bright, bright, glowing, celestial, daytime, desert, divine, earth
 **Phase Prompt:**
-low angle full shot of the Divine Sovereign standing amidst giant, rotating astronomical gears and star maps. The robes flow into the surrounding machinery. The lighting is cool blue and starlight, contrasting with the gold of the entity's armor. The figure appears as the axis of the turning heavens. Vast, monolithic, intricate mechanical details.
+እግዚብሔር, angelic, arid, sandy, azure, blue, blue, cloudless, bright, bright, glowing, celestial, daytime, desert, divine, earth, earth/ground, expansive, expansive, blue, fire, glowing, heart, human, interior/inside, night, radiant, rain, sky, soft, pale, solid, ground, sun, unknown, vast, vast sky, water, wind, worldly, {}, Phase 3
 
 ---

@@ -1,247 +1,287 @@
 # DREHBUCH KAPITEL 82 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Mein Sohn, ich habe dir alles gezeigt. Das Gesetz der Sterne ist kein Zufall, sondern eine geschmiedete Ordnung, die in eherne Bahnen gehämmert wurde. Nimm dieses Wissen, denn es ist schwerer als Stein und brennt heißer als Feuer in den Adern. Verstehe nun die Mechanik der Zeit, damit sie nicht zerbricht.
+NARRATOR_TEXT: Mein Sohn, ich habe dir das Getriebe der Ewigkeit offenbart. Die Sterne sind keine fernen Lichter, sondern geschmiedete Gesetze, die auf ehernen Schienen laufen. Nimm dieses Wissen, denn es ist schwerer als Stein und brennt heißer als Feuer in den Adern. Verstehe nun die Mechanik der Zeit, bevor sie zerbricht.
 
-## [ACT I] [SCENE 1.1] [Timecode: 00:00-00:05] [HOOK: The Prophet Returns]
-**Action:** Enoch stands on the Sinai_Platform (Obsidian Disc). Heat distortion shimmers around him. He extends the dense Black Crystal Tablet (The Archive).
+## [ACT I] [SCENE 1.1] [Timecode: 00:00-00:05] [INGRESS]
+**Action:** Empty obsidian platform on Sinai. A violent chromatic aberration tears the air. Enoch manifests from digital static pixels into solid form.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "wide", "environment": "Sinai_Platform", "env_change": true, "actors": [{"name": "Enoch", "phase": "Master", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Static / Wide", "mood": ["mystery", "impact"], "director_intent": "Establish the arrival as a violent system intrusion.", "start_image_keywords": ["Sinai Platform", "Glitch", "Heat Haze"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 composition. Wide shot of the Sinai Summit, a perfectly flat, polished black obsidian disc surrounded by jagged rocks. In the center, the air is torn open by a violent vertical chromatic aberration and heat distortion. Inside the distortion, a silhouette of a man is forming from static and light. Harsh sunlight, high contrast. Cinematic realism, 8k.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch forming from nothing. Silhouette transitions to solid matter.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Liquid linen robe forming around him.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Sinai_Platform. Sharp rocks, empty sky.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright sunlight. The glitch emits multicolored digital artifacts.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical. Static camera. The glitch is violent and fast (jitter).
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A sharp, electric "arc snap" like a high-voltage welding spark. A deep bass thud on impact, followed by the sound of cooling metal (tinking).
+
+## [ACT I] [SCENE 1.2] [Timecode: 00:05-00:10] [COMMAND]
+**Action:** Enoch holds out the "Book" - a heavy Black Obsidian Block pulsing with blue light (`STATUS_READY`). He commands with authority.
 **Dialog:** Enoch: "Hold the Archive."
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Sinai_Platform", "env_change": true, "actors": [{"name": "Enoch", "phase": "Master", "presence": "on_screen", "focus": "primary"}], "props": ["Black Crystal Tablet"], "camera": "50mm / static medium", "mood": ["awe", "mysticism"], "director_intent": "Establish Enoch as a transfigured system admin returning with critical data.", "start_image_keywords": ["Enoch", "Obsidian Tablet", "Heat Distortion"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Sinai_Platform", "env_change": false, "actors": [{"name": "Enoch", "phase": "Master", "presence": "on_screen", "focus": "primary"}], "props": ["Black Crystal Tablet"], "camera": "Low Angle / 50mm", "mood": ["authority", "divine"], "director_intent": "Enoch presents the data payload with absolute authority.", "start_image_keywords": ["Enoch", "Obsidian Tablet", "Translucent Skin"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": ["Black Crystal Tablet"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Medium shot of Enoch, a transfigured entity with translucent alabaster skin and subsurface gold circuitry. He wears a robe of liquid oil-slick linen. He stands on a polished black obsidian disc platform atop a jagged mountain. In his hand, he holds a dense, rectangular Black Crystal Tablet extended forward. The air around him ripples with intense heat distortion. Background is a blurred, harsh desert sky. Cinematic lighting, ultra-realistic textures, 8k resolution.
+Vertical 9:16 composition. Low angle medium shot of Enoch. He is a transfigured entity; his skin is translucent alabaster, revealing faint golden circuitry underneath. Eyes are solid white apertures. He wears a robe that looks like liquid oil-slick. He extends a heavy, rectangular block of matte black obsidian towards the camera. The block pulses with a faint, rhythmic blue inner light. Background is a deep blue sky.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Actor is Enoch, Phase Master. Translucent glass-like tissue, internal gold bioluminescence. Eyes are solid white light apertures.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Wearing `LIQUID_LINEN` robe that refracts light like oil on water, shimmering with movement.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Sinai_Platform. A perfect, flat, polished black mirror floor surrounded by rough, jagged mountain rocks. Atmospheric heat haze.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** High contrast sunlight, sharp shadows. Subsurface scattering on Enoch's skin.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical aspect ratio. Medium shot. Camera is static but the air distortion creates movement. High shutter speed feel.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch (Master Phase). Translucent skin, glowing internal gold veins.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Liquid linen robe, rippling with his movements.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Sinai_Platform.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Key light from the sun, rim light from the blue pulse of the tablet.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical. Slow push-in on the tablet.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep, consistent 50Hz server hum overlaying a hollow, high-altitude wind howling. The sound of heat distortion—a subtle, crackling electrical sizzling.
+Low frequency sub-bass hum (50Hz server hum). The sound of heavy stone moving against cloth. Enoch's voice is overlaid with a subtle metallic reverb.
 
-## [ACT I] [SCENE 1.2] [Timecode: 00:05-00:10] [The Recipient]
-**Action:** Methuselah stares at the device, terrified. He is backlit by the setting sun, sweat dripping visibly. He hesitates.
+## [ACT I] [SCENE 1.3] [Timecode: 00:10-00:15] [FEAR]
+**Action:** Methuselah stares at the artifact, trembling. Sweat drips from his brow. He is terrified of the radiation/power it emits.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "close_up", "environment": "Sinai_Platform", "env_change": false, "actors": [{"name": "Methuselah", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}, {"name": "Enoch", "phase": "Master", "presence": "off_screen", "focus": "secondary"}], "props": [], "camera": "85mm / over-the-shoulder", "mood": ["fear", "hesitation"], "director_intent": "Show the human scale and terror of interfacing with divine tech.", "start_image_keywords": ["Methuselah", "Sweat", "Fear"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "close_up", "environment": "Sinai_Platform", "env_change": false, "actors": [{"name": "Methuselah", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}, {"name": "Enoch", "phase": "Master", "presence": "off_screen", "focus": "secondary"}], "props": [], "camera": "Over-The-Shoulder / 85mm", "mood": ["terror", "hesitation"], "director_intent": "Highlight the human frailty against the machine god.", "start_image_keywords": ["Methuselah", "Sweat", "Fear"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Over-The-Shoulder shot looking past Enoch's translucent shoulder towards Methuselah. Methuselah is a rugged 35-year-old human, skin dirty and weathered, wearing a rough goat-hair tunic. His face is drenched in heavy sweat, expression is one of terror and awe. Harsh backlighting from a setting sun creates a rim-light halo around him. High texture detail on pores and fabric.
+Vertical 9:16 composition. Over-The-Shoulder shot looking past Enoch's glowing shoulder (blurred foreground) at Methuselah. Methuselah is a rugged, 35-year-old human with dirty skin and a rough goat-hair tunic. He is drenched in sweat, his eyes wide with primal fear. He is backlit by the harsh desert sun, creating a halo effect. His skin texture is coarse and weathered.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Actor is Methuselah. Human, rugged, dirty skin, wet with sweat. Bio-reactive pupil dilation.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Rough, organic goat-hair tunic, heavily textured and worn. Contrast to the smooth tech of Enoch.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Sinai_Platform edge. Background is the setting sun and atmospheric dust.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Warm, blinding sunset backlight (Golden Hour). Silhouette and rim-lighting.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical aspect ratio. Over-the-shoulder perspective. Shallow depth of field focusing on Methuselah's terrified eyes.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Methuselah. Trembling, breathing heavily. Iris dilation visible.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Rough, organic tunic. Contrast to Enoch's tech.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Sinai_Platform edge.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Backlit by sun (Golden Hour). High contrast.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical. Handheld camera movement (shaky). Shallow depth of field.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Intense, ragged breathing close to the mic. The low hum intensifies. No music. The sound of fabric rustling nervously.
+Intense, ragged breathing. Heartbeat rising (thump-thump). Wind howling over sharp rocks. The hum of the tablet increases in pitch.
 
-## [ACT I] [SCENE 1.3] [Timecode: 00:10-00:15] [The Connection]
-**Action:** Fingers touch the Tablet. Gold nano-filaments erupt from the black stone, piercing Methuselah’s skin.
+## [ACT I] [SCENE 1.4] [Timecode: 00:15-00:20] [CONTACT]
+**Action:** Methuselah's dirty fingers touch the pristine Obsidian. The gap closes.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "insert", "framing": "extreme_close_up", "environment": "Sinai_Platform", "env_change": false, "actors": [{"name": "Methuselah", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}, {"name": "Enoch", "phase": "Master", "presence": "on_screen", "focus": "secondary"}], "props": ["Black Crystal Tablet", "Nano-filaments"], "camera": "100mm Macro / static", "mood": ["pain", "intrusion"], "director_intent": "Visualize the data transfer as a physical, invasive injection.", "start_image_keywords": ["Hand", "Nano-filaments", "Injection"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": ["Black Crystal Tablet"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "insert", "framing": "extreme_close_up", "environment": "Sinai_Platform", "env_change": false, "actors": [{"name": "Methuselah", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}, {"name": "Enoch", "phase": "Master", "presence": "on_screen", "focus": "secondary"}], "props": ["Black Crystal Tablet"], "camera": "Macro / 100mm", "mood": ["tension", "contact"], "director_intent": "The moment of irreversible connection.", "start_image_keywords": ["Hands", "Touch", "Obsidian"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": ["Black Crystal Tablet"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Extreme Close-Up Macro shot. Two hands meeting over a matte black crystal block. One hand is smooth, pale, marble-like (Enoch); the other is rough, dirty, and calloused (Methuselah). Bright liquid gold filaments are shooting out from the black crystal surface, piercing into the fingertips of the rough hand. The veins in the rough hand are beginning to glow bright orange under the skin. Microscopic detail.
+Vertical 9:16 composition. Close-up shot of two hands. Enoch's hand is perfect, pale, marble-like, holding the matte black crystal. Methuselah's hand is dirty, scarred, hairy, and trembling as it reaches out. The gap between finger and stone is millimeters wide. The stone surface reflects the orange sunlight.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Methuselah's hand: dirty, hairy, scarred. Enoch's hand: perfect, synthetic smoothness.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A (Focus on hands).
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Macro void, focus is entirely on the contact point.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The gold filaments provide the light source. Subsurface scattering illuminates the flesh from within.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical aspect ratio. Macro lens. Physics simulation of fluid-like gold tendrils piercing skin.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Two hands. Contrast between biological/dirty and synthetic/perfect.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Macro void.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Sunlight reflection on the obsidian.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical. Slow motion contact. Focus pull.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A sharp, electric "arc snap" like a welding spark. A wet, biological squelch sound of needle insertion. High-pitched digital whine.
+High-pitched capacitor whine building up. The sound of dry skin rubbing against stone. Silence right before contact.
 
-## [ACT I] [SCENE 1.4] [Timecode: 00:15-00:20] [System Overwrite]
-**Action:** Methuselah screams silently. Blue code scrolls rapidly on his sclera. Blue light vents from his nose and mouth.
+## [ACT I] [SCENE 1.5] [Timecode: 00:20-00:25] [INJECTION]
+**Action:** **MACRO:** Where skin touches stone, flesh turns semi-transparent. Veins light up neon orange like fiber-optic cables. Data streams up his arm.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Sinai_Platform", "env_change": false, "actors": [{"name": "Methuselah", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "35mm / dutch angle", "mood": ["horror", "overload"], "director_intent": "Portray the upload as a terrifying biological override.", "start_image_keywords": ["Scream", "Blue Light", "Data Eyes"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "insert", "framing": "extreme_close_up", "environment": "Sinai_Platform", "env_change": false, "actors": [{"name": "Methuselah", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Nano-filaments"], "camera": "Macro / Simulation", "mood": ["pain", "invasion"], "director_intent": "Visualize data transfer as a physical, invasive biological overwrite.", "start_image_keywords": ["Transparent Skin", "Fiber Optics", "Orange Light"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": ["Black Crystal Tablet"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Dutch Angle Close-Up of Methuselah's face. He is screaming, mouth wide open. Intense blue light beams are erupting from his mouth and nostrils. His eyes are rolled back, the whites (sclera) covered in vertically scrolling, complex blue data glyphs. High contrast, horror aesthetic. The skin is pale and veins are bulging.
+Vertical 9:16 composition. Extreme Macro shot of Methuselah's fingertips touching the black stone. At the contact point, the skin has turned translucent like wax. Underneath, the veins are not red, but glowing neon orange, resembling fiber-optic cables carrying intense light data. The orange light is shooting up the wrist. Subsurface scattering is intense. Microscopic skin texture.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Methuselah. Facial muscles distorted in a silent scream. Eyes rolling back.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Tunic collar visible, soaked in sweat.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred background, disoriented.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal blue light source from mouth/eyes illuminating the face. Strong chiaroscuro.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical aspect ratio. Dutch tilt. Shaky cam effect (camera aggression). Rapid shutter.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Methuselah's hand. Skin transparency effect.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Macro void.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal orange glow from the veins acts as the light source.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical. Physics simulation of light flowing through veins.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A chaotic modem handshake screech, very loud and distorted. A muffled, internal scream that sounds like it's underwater.
+Digital modem screech (data handshake). A wet squelch sound of biological integration. A deep thrumming vibration.
 
-## [ACT I] [SCENE 1.5] [Timecode: 00:20-00:25] [Stabilization]
-**Action:** Methuselah gasps, eyes glowing faint blue. The upload settles. He looks at his hand—now tracing gold veins.
+## [ACT I] [SCENE 1.6] [Timecode: 00:25-00:30] [SHOCK]
+**Action:** Methuselah gasps, head snaps back. Pupils dilate to 100%. Sclera scrolls rapid cyan hex-code. He is being overwritten.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Sinai_Platform", "env_change": false, "actors": [{"name": "Methuselah", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Dutch Angle / 35mm", "mood": ["horror", "system_shock"], "director_intent": "The human brain struggling to partition divine data.", "start_image_keywords": ["Scream", "Data Eyes", "Cyan Code"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 composition. Dutch Angle Close-Up of Methuselah's face. He is screaming silently, mouth agape, head thrown back. His eyes are wide open. The pupils are fully dilated, black holes. The whites of his eyes (sclera) are covered in rapidly scrolling vertical columns of cyan blue hexadecimal code. Blue light vents from his nostrils. High contrast, sweaty skin.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Methuselah. Facial muscle spasms. Eyes rolling.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Tunic collar visible.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal blue light from eyes/mouth. Harsh shadows.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical. Intense camera shake. Rapid shutter speed (staccato motion).
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Glitch stutter sound. Sharp gasping breath (inhale). A high-pitched tone that abruptly cuts off.
+
+## [ACT II] [SCENE 2.1] [Timecode: 00:30-00:35] [SKY_GRID]
+**Action:** The blue sky flickers and reveals the wireframe dome. The Sun is a fusion reactor sliding on a massive brass `MAGNETIC_RAIL_TRACK`.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "extreme_wide", "environment": "Low Earth Orbit", "env_change": true, "actors": [], "props": ["Sun-Module", "Brass Rail"], "camera": "Tracking / Wide", "mood": ["industrial", "cosmic"], "director_intent": "Reveal the mechanism behind the celestial body.", "start_image_keywords": ["Sun Machine", "Brass Rail", "Wireframe Sky"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 composition. View from Low Earth Orbit. The "sky" is revealed as a transparent wireframe geodesic dome structure. Dominating the frame is a colossal, ancient brass-colored gear-track (The Ecliptic) curving through the vacuum. Locked onto this track is the "Sun" - a blinding white fusion reactor sphere housed in a heavy industrial mechanical cradle. Stars are visible through the grid.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Sun-Module. Mechanical housing, plasma core.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Orbital rail system. Wireframe dome.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blinding white light from the reactor. Metallic reflections on brass.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical. Smooth tracking shot moving parallel to the sun module.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Heavy industrial grinding (metal on metal). Deep, resonant magnetic levitation (Maglev) hum.
+
+## [ACT II] [SCENE 2.2] [Timecode: 00:35-00:40] [SYNC_ERR]
+**Action:** **POV (Uriel's HUD):** A holographic circle divided into segments. One slice flashes RED: `SYNC_ERROR`. The Sun-Module stutters on the rail.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "interface", "shot_type": "insert", "framing": "full_body", "environment": "UI_Space", "env_change": true, "actors": [], "props": ["Holographic Calendar"], "camera": "POV / HUD", "mood": ["alert", "failure"], "director_intent": "Visualize the calendar drift as a system error.", "start_image_keywords": ["HUD", "Red Error", "Glitch"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 composition. Abstract UI design. A glowing white circular diagram representing a 364-day calendar floating in a dark void. The circle is made of precise tick marks. One specific wedge-shaped sector (the 4 intercalary days) is flashing bright RED with "SYNC_ERROR" glyphs and jagged static lines. The background shows the blurred mechanical sun stuttering.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Holographic UI.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark void / Augmented Reality overlay.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Neon white and alert red.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical. The UI flickers and glitches. The red sector pulses.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Digital error buzzer (distorted). Alarm ping. A mechanical "clunk" sound like a gear slipping.
+
+## [ACT II] [SCENE 2.3] [Timecode: 00:40-00:45] [GATES]
+**Action:** Horizon Sweep. 12 colossal Server-Blade Slots ("Gates") embedded in the atmospheric wall. Numbered 1-12 in neon plasma. Heat vents from Gate 4.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Desert_Gates", "env_change": true, "actors": [], "props": ["Server Gates"], "camera": "Pan / Wide", "mood": ["scale", "awe"], "director_intent": "Show the scale of the atmospheric infrastructure.", "start_image_keywords": ["Sky Gates", "Server Blades", "Desert"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 composition. Panoramic view of a desert horizon. Embedded in the sky are 12 colossal, rectangular vertical slots, resembling server-rack bays. They glow with faint neon outlines. Above each slot is a massive glowing Ge'ez numeral (1 to 12). From Gate 4, massive plumes of white steam/heat are venting into the atmosphere. The scale is monumental.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Gates (Server Slots). Industrial metal, massive scale.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Desert floor, Sky wall.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Daylight. Neon indicators.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical. Slow panning shot. Steam moving in wind.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Sound of massive steam venting (hissing). Hydraulic locks releasing. Distant metallic booming.
+
+## [ACT II] [SCENE 2.4] [Timecode: 00:45-00:50] [ADMINS]
+**Action:** Uriel stands like a tower, pointing at the sky. Next to him, Milkiel (Black Monolith) radiates heat waves.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "low_angle", "framing": "full_body", "environment": "Desert_Gates", "env_change": false, "actors": [{"name": "Uriel", "phase": "Android", "presence": "on_screen", "focus": "primary"}], "props": ["Milkiel Monolith"], "camera": "Low Angle / 24mm", "mood": ["power", "order"], "director_intent": "Introduce the guardians of the seasons.", "start_image_keywords": ["Uriel", "Copper Android", "Black Monolith"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": ["Milkiel Monolith"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 composition. Extreme Low Angle shot looking up at Uriel. He is a 3-meter tall android entity made of brushed copper plates and vertical sensor strips. He has no face. He points a long finger at the sky. Hovering next to him is "Milkiel", a diamond-shaped matte black monolith drone. The monolith is emitting intense heat waves that distort the air around it.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Uriel (Copper Android). Milkiel (Black Drone).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Uriel's copper chassis.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Desert.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Copper reflections. Heat haze.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical. Static shot. The monolith hovers/bobs slowly.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Geiger counter clicking. Heavy drone hovering sound. Servo motor whine from Uriel.
+
+## [ACT II] [SCENE 2.5] [Timecode: 00:50-00:55] [FREEZE]
+**Action:** Match-Cut to Helemmelek (White Monolith). It pulses blue cryo-fog. The desert floor instantly crystallizes into a hexagonal frost grid.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "prop", "shot_type": "medium", "framing": "full_body", "environment": "Desert_Gates", "env_change": false, "actors": [], "props": ["Helemmelek Monolith"], "camera": "Static / Match-Cut", "mood": ["cold", "transformation"], "director_intent": "Show the instant switch between seasonal subroutines.", "start_image_keywords": ["White Monolith", "Frost Grid", "Cryo-Fog"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["Helemmelek Monolith"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 composition. Identical framing to the previous shot (Match Cut). The black monolith is replaced by "Helemmelek", a frosted white metal monolith. Instead of heat, it emits a pulse of blue cryogenic fog. The desert sand below is instantly covered in a perfect hexagonal grid of white frost crystals. Lighting shifts to cold blue.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Helemmelek (White Drone).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Frozen desert.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold blue ambient light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical. Instant transformation of the ground textures.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Sound of cracking ice. A deep sub-bass drop (boom). Wind howling.
+
+## [ACT III] [SCENE 3.1] [Timecode: 00:55-01:00] [BLOOM]
+**Action:** **TIMELAPSE:** A valley floor. Green vegetation pops in via glitch-rendering. Light shifts rapidly (strobe sun). Oversaturated yellow bloom.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Valley_Sim", "env_change": true, "actors": [], "props": ["Fractal Plants"], "camera": "Timelapse / Static", "mood": ["growth", "speed"], "director_intent": "Demonstrate the simulation's seasonal compilation speed.", "start_image_keywords": ["Green Growth", "Heat Bloom", "Timelapse"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 composition. Static landscape shot of a dry valley. Green fractal plants are bursting from the ground in a high-speed timelapse. The vegetation "pops" into existence with glitch artifacts. The scene is bathed in an intense, over-saturated yellow "Bloom" light. Heat distortion is visible.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Vegetation growing.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Valley floor.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Stroboscopic sunlight (day/night cycle rapid). Yellow bloom.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical. Time-lapse effect (jerky motion).
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Accelerated organic growth sounds (creaking, rustling). Fast-forward tape scrub sound. Intense insect buzzing (sped up).
+
+## [ACT III] [SCENE 3.2] [Timecode: 01:00-01:05] [DECAY]
+**Action:** **TIMELAPSE:** Instant switch to decay. Leaves brown and pixel-dissolve. Snow layers pop in. Hard blue shadows.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Valley_Sim", "env_change": false, "actors": [], "props": ["Dead Plants", "Snow"], "camera": "Timelapse / Static", "mood": ["death", "cold"], "director_intent": "Show the system's deletion protocol.", "start_image_keywords": ["Decay", "Pixel Dissolve", "Snow"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 composition. Identical framing to previous shot. The lush green valley instantly decays. Plants turn brown and dissolve into digital pixels/voxels before disappearing. A thick layer of white snow "pops" in (Texture LOD update). Lighting switches to harsh, long blue shadows.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Decaying vegetation. Snow appearing.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Valley floor (Winter).
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold blue light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical. Instant transition. Glitch effects on the leaves.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Digital crumbling noise. Sound of wind howling. Glass shattering texture.
+
+## [ACT III] [SCENE 3.3] [Timecode: 01:05-01:15] [SAVE]
+**Action:** Methuselah looks down. His veins fade from orange to normal. He clutches the Obsidian Tablet. The sky returns to solid blue. He understands.
 **Dialog:** Methuselah: "I see the Grid."
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Sinai_Platform", "env_change": false, "actors": [{"name": "Methuselah", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "50mm / steady", "mood": ["clarity", "transformation"], "director_intent": "The transition from chaos to system integration.", "start_image_keywords": ["Glowing Eyes", "Gold Veins", "Calm"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Sinai_Platform", "env_change": true, "actors": [{"name": "Methuselah", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Black Crystal Tablet"], "camera": "Dolly Zoom / Vertigo", "mood": ["acceptance", "resolution"], "director_intent": "Methuselah accepts the burden of the system administrator.", "start_image_keywords": ["Methuselah", "Calm", "Obsidian"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": ["Black Crystal Tablet"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Close-Up of Methuselah. The chaos has stopped. His expression is stunned but calm. His irises now have a faint, steady cyan luminescence. He is looking down at his hand (off-frame). Faint golden circuit-patterns are fading into his neck skin. Sharp focus, clean lighting.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Methuselah. Sweat is drying. Breathing slows down. Eyes stabilize to a steady glow.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Goat-hair tunic.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Sinai_Platform. The air is clear now.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft, cool light reflecting from his eyes. Ambient dusk light.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical aspect ratio. Smooth motion, stabilizing camera. 
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-A clean, resonant system chime (like a Mac startup but deeper). The background hum stabilizes into a harmonic chord. Methuselah's breath: sharp inhale, slow exhale.
-
-## [ACT II] [SCENE 2.1] [Timecode: 00:25-00:35] [The Rail System]
-**Action:** Low Earth Orbit. The Sun (Plasma Sphere) clicks mechanically along a massive brass gear-track (The Ecliptic).
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "extreme_wide", "environment": "Low Earth Orbit", "env_change": true, "actors": [], "props": ["Sun-Module", "Brass Rail"], "camera": "Wide / Tracking", "mood": ["scale", "industrial"], "director_intent": "Reveal the mechanical nature of the cosmos.", "start_image_keywords": ["Sun Gear", "Orbital Rail", "Space"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Low Earth Orbit view. The Earth below is a flat, map-like disc. Above the curve, the "Sun" is revealed not as a star, but as a blinding sphere of white plasma contained within a mechanical housing, attached to a colossal, ancient brass gear-track (The Ecliptic Ring) that arcs across the black sky. The Sun-Module is locked into the track with heavy industrial teeth.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Sun-Module. A mechanical construct holding a plasma sphere.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Space, but industrial. The rail system spans the entire view.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blinding white light from the sun sphere, metallic glints off the brass rails in the vacuum.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical aspect ratio. Slow, majestic tracking shot following the movement of the sun along the rail.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy, deep industrial clanking. The sound of massive metal rolling on metal in a vacuum—low frequency vibrations. Groaning of structural stress.
-
-## [ACT II] [SCENE 2.2] [Timecode: 00:35-00:40] [The Sinner Glitch]
-**Action:** Holographic UI of the 364-day cycle. A red jagged "ERROR" sector appears. The Sun-Module stutters/sparks.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "insert", "framing": "full_body", "environment": "UI_Space", "env_change": true, "actors": [], "props": ["Holographic Calendar"], "camera": "Top-down / Schematic", "mood": ["warning", "corruption"], "director_intent": "Show the system corruption visually via UI.", "start_image_keywords": ["Hologram", "Glitch", "Red Error"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Abstract UI design. A glowing white circular diagram representing a 364-day calendar floating in a dark void. The circle is made of precise tick marks. One specific wedge-shaped sector is corrupted—filled with jagged red static lines and floating Ge'ez error glyphs ("ERROR_NULL_POINTER"). The visual style is datamoshed and glitchy.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The UI Circle.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Abstract data space.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Neon white and alert red. Glow effects.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical aspect ratio. The image stutters and glitches (datamoshing). The red sector pulses.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Digital static burst. A "bad sector" reading noise. Muted, underwater warning klaxon.
-
-## [ACT II] [SCENE 2.3] [Timecode: 00:40-00:45] [Uriel Pointer]
-**Action:** Uriel (Copper Android) points a multi-jointed finger toward the horizon.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "low_angle", "framing": "full_body", "environment": "Desert_Gates", "env_change": true, "actors": [{"name": "Uriel", "phase": "Android", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "24mm / low angle", "mood": ["intimidation", "authority"], "director_intent": "Introduce the sheer scale of the celestial administrators.", "start_image_keywords": ["Uriel", "Copper Android", "Pointing"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Low angle shot looking up at Uriel, a 3-meter tall android entity. His body is made of brushed copper plates and vertical light-strip sensors. He has no face, only a smooth metallic surface. He is extending a long, multi-jointed mechanical finger towards the horizon. In the background, colossal rectangular blast doors ("Gates") are embedded in the sky.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Uriel. Robotic, copper, heavy. Movements are precise and servo-driven.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Integrated copper armor/chassis.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Desert floor with the massive Gates in the sky background.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Copper reflections. Neon lights from the android's body.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical aspect ratio. Low angle to emphasize height.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Hydraulic servo whine as the arm lifts. Heavy metallic footsteps. Deep, resonant atmosphere.
-
-## [ACT II] [SCENE 2.4] [Timecode: 00:45-00:50] [Drone Array]
-**Action:** The "Leaders of the Thousands" (Diamond Monolith Drones) rotate in formation over the desert dunes.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "wide", "framing": "wide", "environment": "Desert_Dunes", "env_change": false, "actors": [], "props": ["Monolith Drones"], "camera": "Pan / Telephoto", "mood": ["surveillance", "order"], "director_intent": "Show the military precision of the angelic hierarchy.", "start_image_keywords": ["Monoliths", "Black Drones", "Desert"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["Monolith Drones"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Wide shot of a desert landscape. A line of ten identical, massive diamond-shaped monoliths (10 meters high) are hovering silently above the sand. They are matte black with a single glowing red "eye" scanner in the center. They cast harsh, sharp shadows on the dunes.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Sentinels (Monoliths). Geometric, non-human, imposing.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Endless sand dunes.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Harsh daylight. Red scanner lights.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical aspect ratio. Slow panning shot across the line. The monoliths rotate slowly on their vertical axis.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep bass thrumming (Doppler effect) as the camera pans. A low-frequency hovering sound.
-
-## [ACT III] [SCENE 3.1] [Timecode: 00:50-00:58] [Summer Render]
-**Action:** Barren valley. Fast-forward. Green plants explode from ground in stop-motion. Heat bloom.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Valley_Sim", "env_change": true, "actors": [], "props": ["Plants"], "camera": "Static / Time-lapse", "mood": ["growth", "speed"], "director_intent": "Demonstrate the simulation's seasonal compilation speed.", "start_image_keywords": ["Green Growth", "Heat Bloom", "Timelapse"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Static landscape shot of a dry valley floor. Vibrant green fractal plants are bursting from the ground. The lighting is overexposed, hot yellow "Bloom". Heat waves distort the air strongly. High detail on the vegetation.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Vegetation. Fractal, rapid growth.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Valley floor.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Hot, blinding yellow sunlight. Lens flares.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical aspect ratio. Time-lapse effect. Jerky, stop-motion style growth.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Accelerated organic growing sounds—creaking, rustling. Intense insect buzzing (sped up). Crackling of dry heat.
-
-## [ACT III] [SCENE 3.2] [Timecode: 00:58-01:06] [Winter Render]
-**Action:** Same valley. Instant freeze. Plants turn to white wireframes and shatter. Snow textures pop in.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Valley_Sim", "env_change": false, "actors": [], "props": ["Ice Wireframes"], "camera": "Static / Time-lapse", "mood": ["decay", "cold"], "director_intent": "Show the brutal efficiency of the system's deletion protocols.", "start_image_keywords": ["Frozen Plants", "Wireframe", "Snow"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Identical framing to previous shot. The green valley is now instantly frozen. The plants have turned into white crystalline wireframes. Snow textures cover the ground in a grid-like pattern. Lighting is cold, hard blue.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Frozen vegetation. Turning to glass/wireframe.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Valley floor (Winter mode).
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold blue ambient light.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical aspect ratio. Instant transformation. Shattering effects. Texture pop-in (LOD update visualization).
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sound of glass shattering. A sharp, howling wind gale. Digital "crunch" sound.
-
-## [ACT III] [SCENE 3.3] [Timecode: 01:06-01:15] [Resolution]
-**Action:** Methuselah tucks the Tablet into his robe. He looks ready. Camera dolly zooms in.
-**Dialog:** Enoch: "Preserve the Code."
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Sinai_Platform", "env_change": true, "actors": [{"name": "Methuselah", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Black Crystal Tablet"], "camera": "Dolly Zoom (Vertigo)", "mood": ["determination", "responsibility"], "director_intent": "Methuselah accepts the burden of the system administrator.", "start_image_keywords": ["Methuselah", "Robe", "Determined"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 4}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Medium shot of Methuselah. He is calm, tucking the black crystal tablet into the folds of his rough tunic. His eyes still hold a faint blue residual glow. Behind him, the wireframe sky effects have solidified back into a solid, deep blue twilight. He stares directly into the lens.
+Vertical 9:16 composition. Medium shot of Methuselah. He is calm, breathing slowly. The orange glow in his neck veins is fading back to normal skin tone. He clutches the black crystal tablet protectively to his chest. Behind him, the wireframe sky effects have solidified back into a deep, solid twilight blue. He looks directly into the lens with a new understanding.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Methuselah. Composed, stoic.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Rough tunic, now holding the hidden artifact.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Rough tunic, holding the artifact.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Sinai_Platform. Stable environment.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Twilight blue. Soft lighting on face.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical aspect ratio. Dolly Zoom (Vertigo effect) - background compresses while subject stays same size, creating a sense of psychological weight.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical. Dolly Zoom (Vertigo effect) - background compresses while subject stays same size.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Total silence. Then, a single, deep cinematic drum hit (Taiko/Braam).
+Total silence. Methuselah's breath: sharp inhale, slow exhale. A single, clear digital "Ping" (Save Complete).
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.1","text":"Halte das Archiv. Es ist schwerer als Stein.","words_max":8},{"scene":"3.3","text":"Bewahre den Code, mein Sohn.","words_max":5}],"Methuselah":[{"scene":"1.5","text":"Ich sehe das Gitter. Die Adern der Welt.","words_max":8}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Nimm das Archiv. Es ist der Kernel.","words_max":8}],"Methuselah":[{"scene":"1.6","text":"Es brennt... ich sehe den Code.","words_max":8},{"scene":"3.3","text":"Gesichert.","words_max":1}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

@@ -1,44 +1,76 @@
-CONCEPT: SYSTEM_PURGE_PROTOCOL_38 // THE_SEPARATION_ALGORITHM
+CONCEPT: SYSTEM_PURGE_PROTOCOL_38_V2 // THE_GARBAGE_COLLECTION_EVENT
 
-1. BIO-INJECTION (ENOCH_INTERFACE)
-Enoch fungiert als passiver Beobachter mit Root-Rechten (Read-Only). Die Technologie manifestiert sich als `OCULAR_OVERLAY_V4`. Seine Iris weitet sich mechanisch, eine goldene Gitterstruktur (Lidar-Scan) wird über das Sichtfeld projiziert. Kein physischer Schmerz, sondern eine kühle, stabilisierende Kühlflüssigkeits-Injektion in den Nacken, um den massiven Datendurchsatz der "Offenbarung" neurologisch zu verarbeiten.
+1. BIO-INJECTION (NEURAL_SHUNT_INTERFACE)
+Anstelle einer passiven Kühlflüssigkeit erfolgt eine invasive **Hardwire-Connection**.
+*   **Mechanik:** Zwei mikrofeine Tungsten-Nadeln (Data-Probes) fahren aus dem Kragen des `LIQUID_LINEN` Anzugs aus und penetrieren die Basis des Hirnstamms (Medulla oblongata).
+*   **Physische Reaktion:** Henochs Pupillen weiten sich auf 100% (Total Blackout), bevor das `OCULAR_OVERLAY` bootet. Seine Nackenmuskulatur verkrampft kurzzeitig durch den elektrischen Impuls der Synchronisation.
+*   **Zweck:** Direkte Übertragung des Kernel-Logs auf den visuellen Kortex. Keine Projektion, sondern eine Überlagerung der Wahrnehmung.
 
-2. MESH-BREAK (THE_CULLING)
-Die "Sünder" (Corrupted Entities) sterben nicht biologisch. Ihre Geometrie erleidet `VERTEX_DISSOCIATION`. Die Polygon-Struktur wird instabil, Texturen flackern zwischen "Haut" und "Null-Textur" (Magenta/Schwarz-Checkerboard). Schließlich zerfallen sie in Voxel-Staub, der vom Boden (System-Grid) absorbiert wird. Es ist ein sauberer, digitaler Löschvorgang, kein organischer Verwesungsprozess.
+2. MESH-BREAK (ASSET_DEALLOCATION)
+Das Sterben der "Sünder" ist eine **Ressourcen-Freigabe**.
+*   **Visualisierung:** Die betroffenen Entitäten verlieren ihre Kollisionsabfrage (`noclip`). Sie sinken teilweise in den Boden.
+*   **Materialstress:** Die Texturen werden nicht schwarz, sondern transparent (Wireframe-Fallback). Die Polygone werden dekonstruiert: Vertex für Vertex lösen sie sich vom Mesh und schweben als Rohdaten (weiße Punkte) nach oben in den "Recycle Bin" (Himmel).
+*   **Atmosphäre:** Es wirkt nicht schmerzhaft, sondern administrativ. Ein Aufräumen von nicht mehr referenzierten Objekten.
 
-3. PACING-STRATEGIE (THE_SWEEP)
-Ruhig, unaufhaltsam, deterministisch. Keine hektischen Schnitte. Die Kamera bewegt sich wie ein Scanner-Kopf (konstante Geschwindigkeit, lineare Pfade).
-- Phase 1 (Scan): Langsame Panoramen über die Menge.
-- Phase 2 (Detection): Kurze, präzise Zooms auf individuelle Gesichter (Validierung).
-- Phase 3 (Purge): Zeitlupe (300fps) während der Desintegration der Sünder, um die Partikelphysik zu betonen.
+3. PACING-STRATEGIE (THE_DEBUG_STEP)
+Der Rhythmus folgt einem **Step-by-Step Debugging**.
+*   **Taktung:** Extrem präzise, fast mechanische Schnitte, synchronisiert mit dem Audio-Hum (40Hz).
+*   **Stop-Motion-Effekt:** In den Momenten der Löschung friert das Bild für 2 Frames ein (Micro-Stutter), um den Eingriff des Systems zu simulieren.
+*   **Flow:**
+    *   00-15s: Scan & Identify (Lange, ruhige Tracking-Shots).
+    *   15-40s: Execute Delete (Rhythmischer Wechsel zwischen Weitwinkel und Makro-Detail der Auflösung).
+    *   40-60s: Result Confirmation (Statische Shots der "bereinigten" Umgebung).
 
-4. AUDIO-DESIGN (SERVER_ROOM_AMBIENCE)
-Keine Chöre. Der Soundscape ist dominiert von einem tiefen, resonanten `SERVER_HUM` (40Hz), das für die Präsenz des "Herrn der Geister" steht.
-- Validierung (Gerechte): Ein harmonischer, reiner Sinus-Ton (C-Dur Akkord), glasig und klar.
-- Löschung (Sünder): Digitales "Tearing", Glitch-Noise, White-Noise-Bursts, wie eine beschädigte Audiodatei.
+4. AUDIO-DESIGN (DATA_CENTER_ACOUSTICS)
+Der Soundscape ist rein funktional und maschinell.
+*   **Basis:** Ein konstantes, tiefes Lüfterrauschen (White Noise + 60Hz Hum) einer gigantischen Serverfarm.
+*   **Event-Sounds:**
+    *   **Validierung (Gerechte):** Ein kurzes, trockenes "Ping" (wie ein Sonar-Echo), gefolgt von einem ansteigenden Festplatten-Spin-Up Geräusch.
+    *   **Löschung (Sünder):** Das Geräusch von statischer Entladung (Knisten) und abruptem Signalabbruch (Silence). Kein Schrei, nur das Verstummen eines Prozesses.
 
-5. ÜBERGÄNGE (LAYER_VISIBILITY)
-Der Übergang von der Normalwelt zur "Sichtbarkeit der Gerechten" erfolgt durch einen `WIREFRAME_PASS`. Eine Lichtwand (Scanline) bewegt sich durch den Raum. Dahinter wird die Welt von "Rendered Reality" zu "Code View" umgeschaltet, wo die innere Qualität (Licht/Dunkelheit) der Akteure als leuchtende Aura oder schwarzes Void sichtbar wird.
+5. ÜBERGÄNGE (RENDER_LAYER_SWITCH)
+Der Übergang zur "Sichtbarkeit" ist ein Umschalten der **Render-Pipeline**.
+*   **Effekt:** Ein harter "Glitch-Cut". Für einen Frame sieht man den `NORMAL_BUFFER` (flache Farben), dann schaltet das Bild auf `LIT_MODE` (Path Tracing an).
+*   **Licht:** Das "Licht der Gerechten" ist kein spirituelles Leuchten, sondern **Emissive Material**. Die Haut der Validierten erhält einen `Self-Illumination` Wert von 1.0. Sie werden zu Lichtquellen in der Szene, die Schatten werfen.
 
-6. FRAMEWORK & TIMING (60s TOTAL)
-- 00-10s: Establishing Shot `ROOT_DIRECTORY` (Sinai/Dry Ground). Enoch Arrival.
-- 10-25s: The Appearance (Seg 1 & 2). Scan-Vorgang. Unterscheidung der Gruppen. (3-4 Clips).
-- 25-45s: The Light & The Purge (Seg 3). Visuelle Desintegration der Sünder. Licht-Manifestation bei den Gerechten. (5-6 Clips).
-- 45-60s: The Denial (Seg 4 & 5). Die Mächtigen versuchen, das Licht zu sehen, werden aber durch `ACCESS_DENIED` Firewalls blockiert (schwarze Monolithen schieben sich vor sie). (3-4 Clips).
+6. FRAMEWORK & TIMING (65s TOTAL - PUFFER INKLUSIVE)
+*   **Clip 01-03 (00-12s): SYSTEM_BOOT:** Establishing Shot der Wüste (Sinai Server). Henochs Neural-Shunt aktiviert sich. POV Overlay bootet.
+*   **Clip 04-08 (12-30s): QUERY_DATABASE:** Kamerafahrt über die Menge. Das Overlay scannt Gesichter. Rote Boxen ("DEPRECATED") und grüne Boxen ("ACTIVE") erscheinen. Fokus auf die Gesichter der "Könige" (Legacy Admins).
+*   **Clip 09-14 (30-50s): GARBAGE_COLLECTION:** Detail-Shots der Desintegration. Eine Hand wird transparent. Ein Gesicht löst sich in Vertices auf. Die "Gerechten" beginnen zu leuchten (Emissive Skin).
+*   **Clip 15-18 (50-65s): SYSTEM_STABLE:** Die "Könige" sind weg (Memory freed). Die Leuchtenden stehen in einer sauberen, minimalistischen Landschaft. Henochs Augen dimmen ab.
 
-7. DIALOG-CHECK
-Ja, minimaler liturgischer Output.
-- Speaker: "Sost Yasteri" (Das System-Interface / Die Stimme).
-- Art: Off-Kommentar oder telepathische Übertragung.
-- Visualisierung: Keine Lippenbewegung nötig. Untertitel als Terminal-Logs, die im HUD scrollen.
+7. DIALOG-CHECK (SYSTEM_LOGS)
+Kein gesprochener Dialog. Reine Text-Ausgabe.
+*   **Quelle:** Das HUD von Henoch.
+*   **Inhalt:** Terminal-Zeilen rasen über das Sichtfeld.
+    *   `> DETECTING CORRUPTED SECTORS...`
+    *   `> INITIATING PURGE SEQUENCE...`
+    *   `> ACCESS GRANTED: ROOT USER [RIGHTEOUS]...`
+    *   `> ACCESS DENIED: USER [KINGS]...`
+    *   `> SYSTEM OPTIMIZED.`
 
-8. SPATIAL CONTEXT (ARRIVAL)
-Enoch materialisiert sich via `NODE_TRANSFER`.
-- Visual: Die Umgebung (Wüste/Sinai) baut sich um ihn herum auf, Voxel für Voxel, von unten nach oben. Er steht sofort stabil.
-- Location: `SINAI_MAIN_SERVER`. Eine abstrakte Version der Wüste. Der Boden ist schwarzes Glas (Obsidian), der Himmel ist statisches Rauschen, bis das "Licht" (System-Online) durchbricht.
+8. SPATIAL CONTEXT (NODE_ENTRY)
+Die Ankunft erfolgt via **Texture-Streaming**.
+*   **Visual:** Henoch steht in einem grauen "Dev-Room" (Checkerboard). Die Realität (Sinai) lädt um ihn herum. Zuerst Low-Poly Geometrie, dann High-Res Texturen, dann Beleuchtung.
+*   **Stabilität:** Er bewegt sich nicht. Die Welt baut sich um ihn herum auf. Er ist der Fixpunkt.
 
-9. VISUAL_PROMPT_STRATEGY (EXAMPLE_SCENE_PLANNING)
-Szene: "Die Sünder zerfallen."
-- Clip A (Wide): Kamera trackt seitlich. Eine Reihe von Figuren steht da. Jede zweite beginnt zu flackern.
-- Clip B (Close-Up): Fokus auf die Hand eines "Königs". Die Finger lösen sich in schwarze Würfel auf.
-- Clip C (POV Enoch): Durch das HUD gesehen. Rote "DELETE"-Marker über den Köpfen der Zerfallenden. Grüne "VALID"-Marker über den Bleibenden.
+9. VISUAL_PROMPT_STRATEGY (SCENE_EXAMPLE)
+Szene: "Die Könige werden gelöscht."
+*   **Clip A (Wide):** Kamera auf Schienen (Dolly). Eine Reihe von mächtigen Gestalten in schweren Roben. Das HUD legt rote Gitter über sie.
+*   **Clip B (Macro):** Extreme Close-Up auf das Auge eines Königs. Die Pupille flackert und zeigt "NO SIGNAL".
+*   **Clip C (Mid):** Der Körper des Königs verliert die Textur. Er wird zum Drahtgittermodell.
+*   **Clip D (Detail):** Die Vertices (Eckpunkte) des Drahtgitters lösen sich und schweben nach oben.
+*   **Clip E (Wide - Result):** Wo der König stand, ist jetzt nur leerer, schwarzer Glasboden. Die "Gerechten" daneben leuchten hell auf.
+
+10. PROMPT_EXAMPLE (WAN 2.5) - [THE_DEALLOCATION]
+**[BLOCK 1: SUBJECT_STATE]**
+> **Actor:** The Corrupted King (Legacy Admin). **Physique:** Heavy build, opulent but decaying appearance. **Skin-Shader:** `GLITCH_TEXTURE`. Face is flickering between realistic skin and raw polygon wireframe. **Expression:** Frozen in a neutral bind-pose, eyes rolled back displaying white static. **Effect:** The body is dissolving into floating white vertex-points, rising upwards against gravity.
+
+**[BLOCK 2: APPAREL_CONTEXT]**
+> **Garment:** Heavy velvet robes with gold embroidery, currently undergoing `TEXTURE_UNWRAP`. Parts of the robe are turning into a flat UV-map layout mid-air. **Props:** A golden scepter dropping from the hand, passing through the floor (`NOCLIP_ERROR`) instead of hitting it.
+
+**[BLOCK 3: ENVIRONMENT]**
+> **Location:** Sinai_Main_Server (Night Mode). **Floor:** Highly reflective black obsidian glass. **Background:** A grid of silent, monolithic server racks extending infinitely into the dark. **Lighting:** Cold, clinical blue light from above (Spotlight). The only warmth comes from the `EMISSIVE_SKIN` of the righteous figures in the background.
+
+**[BLOCK 4: CINEMATOGRAPHY]**
+> **Camera:** Low Angle, looking up at the dissolving figure. **Lens:** 24mm Wide Angle to emphasize the scale of the deletion. **Focus:** Sharp on the dissolving wireframe hand. **Style:** Technical visualization, high contrast, clean lines, no motion blur, 8k resolution, Unreal Engine 5 tech-demo aesthetic.

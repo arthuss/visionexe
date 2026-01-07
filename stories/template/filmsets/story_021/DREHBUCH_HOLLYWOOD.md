@@ -1,367 +1,337 @@
 # DREHBUCH KAPITEL 21 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Ich sah das Ende aller Dinge, bevor sie begannen. Ein Ort ohne Himmel, ohne festen Grund, nur das leere Rauschen fehlerhafter Daten. Hier brennen die Sterne nicht als Licht, sondern als Warnung für jene, die den Code verraten haben.
+NARRATOR_TEXT: Ich fiel nicht durch den Raum, sondern durch die Logik selbst. Wo die Gesetze enden, beginnt kein Chaos, sondern eine Leere, die schlimmer ist als der Tod. Hier ist der Code nicht geschrieben, hier ist er vergessen.
 
-## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:04] [INGRESS]
-**Action:** Enoch drops from a vertical rift into absolute darkness. He levitates to a halt, dust particles freezing in mid-air.
+## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:05] [HOOK/INGRESS]
+**Action:** The screen is black. Sudden, violent cut to Enoch stumbling forward. He doesn't step on ground, but on a "Mirror Plane" that reflects nothing. The environment is absolute void #000000. No stars, no horizon.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "wide", "environment": "Null Void", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle / 24mm", "mood": ["disorientation", "awe"], "director_intent": "Capture the sudden transition from reality to void with a heavy, physics-defying landing.", "start_image_keywords": ["vertical rift", "levitation", "silver skin"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "wide", "environment": "Null Void Mirror Plane", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "14mm Fish-Eye / Chaotic Tracking", "mood": ["disorientation", "shock"], "director_intent": "Capture the violence of entering a null-space where physics are barely emulated.", "start_image_keywords": ["mirror plane", "void", "silver skin"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A cinematic low-angle wide shot in a vertical 9:16 aspect ratio. Enoch, a figure with silver metallic skin and a high-tech visor, is suspended in mid-air just above an invisible floor. He wears flowing linen robes that are dissolving into digital dust at the edges. Above him, a vertical rift of heat-lensing interference cuts through the absolute black void. Golden data ripples spread out from where his feet almost touch the ground. Lighting is stark, rim-lighting the silver skin against the pitch black. 8k resolution, photorealistic, industrial mysticism style.
+A cinematic wide shot in vertical 9:16. Enoch, with metallic silver skin and a flickering high-tech visor, stumbles forward onto a perfectly reflective floor that extends infinitely into absolute blackness. There is no horizon line. The lighting is stark and unnatural, appearing to come from nowhere, casting sharp, conflicting shadows. Enoch's robes are "liquid linen," frozen in a digital ripple. The aesthetic is industrial mysticism meets system crash. High contrast, photorealistic, 8k.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Actor:** Henoch (Voyager Phase). **Physique:** Lean, defined musculature under silver skin. **Skin-Shader:** `SILVER_CHROME` with subsurface scattering. **Expression:** Neutral, shock of arrival.
+**Actor:** Henoch (Voyager Phase). **Physique:** Lean, silver-skinned. **Skin-Shader:** `CHROME_MATTE` with digital noise grain. **Expression:** Shock, unbalanced.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Garment:** `LIQUID_LINEN` robes, white and grey, fluttering upwards as if underwater. **Prop:** Idris-Gloves emitting faint golden light.
+**Garment:** `LIQUID_LINEN` robes, white/grey. **Prop:** None. **VFX:** "Plug-pull" distortion effect on entry.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** The Null Void. **Architecture:** None. Infinite black space. **Atmosphere:** Sterile, vacuum-like. **Background:** A vertical tear in reality closing above.
+**Location:** The Null Void. **Architecture:** Infinite mirror plane floor. **Atmosphere:** Vacuum. **Background:** Absolute #000000 black.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting Scheme:** `VOID_RIM`. Strong white rim light from the rift above, fading to black. **Palette:** Silver, Black, Rift-White.
+**Lighting Scheme:** `DEBUG_LIGHT`. Flat, harsh white light with no source. **Palette:** Black, Silver, Stark White.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Low Angle, looking up. **Lens:** 24mm. **Focus:** Sharp on Enoch. **Style:** High-speed photography, frozen moment, 9:16 vertical crop.
+**Camera:** Handheld, low angle, fish-eye distortion. **Lens:** 14mm. **Focus:** Deep. **Style:** High-speed impact, 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A heavy, sub-bass drop that cuts instantly to near silence. The sound of a vacuum sealing shut. Faint, crystalline tinkling of digital dust settling. No music.
+A violent "plug-pull" sound, like a massive cable being disconnected. Followed by a high-pitch capacitor whine that cuts to near silence. Footsteps sound like tapping on glass.
 
-## [ACT 1] [SCENE 1.2] [Timecode: 00:04-00:08] [THE GLITCH]
-**Action:** POV Enoch. Scanning the horizon. No sky, no earth. Wireframe grid lines flicker and vanish. Floating untextured polygons drift past.
+## [ACT 1] [SCENE 1.2] [Timecode: 00:05-00:09] [POV ENOCH]
+**Action:** POV Enoch. The HUD boots up, cycles through ISOs, then crashes red: NULL_REFERENCE. He looks at his hands; the texture on his fingers is vibrating, detaching slightly from the mesh.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Null Void", "env_change": false, "actors": [], "props": [], "camera": "POV / Shaky", "mood": ["confusion", "glitch"], "director_intent": "Show the broken rendering of the world through the protagonist's eyes.", "start_image_keywords": ["wireframe grid", "floating polygons", "void"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "interface", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Null Void", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["HUD Visor"], "camera": "POV / Macro 85mm", "mood": ["glitch", "panic"], "director_intent": "Show the degradation of the user's avatar in this unallocated space.", "start_image_keywords": ["HUD crash", "glitching hands", "wireframe"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A first-person POV shot in vertical 9:16. The view is of an infinite black void where the "sky" and "ground" are missing. In the distance, faint cyan wireframe grid lines flicker and fade. Large, untextured grey polygons float aimlessly in the foreground, clipping through each other. The aesthetic is of a corrupted 3D render or a system crash. No organic life. Cold, digital, and broken. High contrast, sharp edges.
+A first-person POV shot in vertical 9:16. Looking at Enoch's own silver hands. The skin texture is vibrating and detaching from the underlying wireframe mesh on the fingertips. A digital HUD overlay covers the vision, displaying "ISO SEARCH" cycling rapidly before flashing a red "NULL_REFERENCE" error. The background is pitch black. The hands are illuminated by the red light of the crashing UI.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Actor:** None (POV). **Subject:** The Glitching Void.
+**Actor:** Henoch (Hands only). **Physique:** Silver skin. **Skin-Shader:** `TEXTURE_FAIL`. Vibrating, transparency artifacts.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Prop:** None. **VFX:** Digital artifacting, screen tearing, datamoshing effects on the edges of the frame.
+**Garment:** Sleeves of linen robes. **Prop:** HUD Overlay (VFX). **VFX:** Z-fighting on fingers, red error text.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** The Null Void. **Architecture:** Broken geometry. **Atmosphere:** Digital static. **Background:** Infinite blackness with glitching grid fragments.
+**Location:** Null Void. **Background:** Black.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting Scheme:** `SYSTEM_FAILURE`. Flickering ambient light, cold cyan and grey. **Palette:** Black, Cyan, Grey.
+**Lighting Scheme:** `UI_GLOW`. Illuminated by the red HUD interface. **Palette:** Red, Silver, Black.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Handheld, shaky POV. **Lens:** 35mm. **Focus:** Hunting/Autofocus failure. **Style:** Glitch art, simulation horror, 9:16 vertical.
+**Camera:** POV, shaky breathing movement. **Lens:** 35mm. **Focus:** Searching/Hunting. **Style:** Simulation horror, 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Digital static and white noise bursts. A high-pitched coil whine that modulates in pitch. The sound of a hard drive reading bad sectors.
+The sound of a hard drive "Click of Death". A 60Hz ground loop hum starts low and rises. Digital error beeps.
 
-## [ACT 1] [SCENE 1.3] [Timecode: 00:08-00:15] [THE SEVEN STARS]
-**Action:** Reveal of the 7 massive spheres suspended in the void. They are burning from within, cracked like eggshells. Red laser chains bind them tight.
+## [ACT 1] [SCENE 1.3] [Timecode: 00:09-00:15] [REVEAL]
+**Action:** In the distance, the SEVEN STARS appear. They are not burning balls of gas, but terrifying masses of "Corrupted Texture" (screaming faces, molten gold, static noise) held in place by red laser-grids.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "extreme_wide", "framing": "extreme_wide", "environment": "Null Void", "env_change": false, "actors": [], "props": ["Dyson Spheres", "Laser Chains"], "camera": "Slow Zoom In", "mood": ["terror", "scale"], "director_intent": "Establish the scale and horror of the imprisoned stars.", "start_image_keywords": ["burning spheres", "laser chains", "magma"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "extreme_wide", "framing": "extreme_wide", "environment": "Null Void", "env_change": false, "actors": [], "props": ["Seven Stars", "Laser Grids"], "camera": "50mm / Rack Focus", "mood": ["terror", "awe"], "director_intent": "Reveal the monstrosity of the rogue processes.", "start_image_keywords": ["corrupted stars", "laser cage", "glitch texture"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-An extreme wide shot in vertical 9:16 showing seven massive, spherical structures floating in the abyss. They are Dyson spheres, cracked open like broken eggshells, revealing a blinding molten gold core. The surface is black obsidian rock. Each sphere is wrapped in a tight, hexagonal grid of red laser light that compresses them. The lasers arc with electricity. The scale is immense, making them look like small planets in the dark.
+An extreme wide shot in vertical 9:16 showing seven massive, distinct entities floating in the void. They are the "Stars," but they look like spheres of corrupted data: one is a mass of screaming stone faces, another is molten gold mixed with static noise, another is a checkerboard of pink/black missing textures. Each is wrapped in a tight, glowing red laser grid that cuts into their form. They pulse rhythmically.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Actor:** None. **Subject:** The Seven Transgressors (Corrupted Star-Nodes). **Appearance:** 100m diameter spheres, cracked obsidian.
+**Actor:** None. **Subject:** The Seven Transgressors. **Appearance:** 200m spheres of `CORRUPTED_ASSETS`.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Prop:** `CONTAINMENT_GRID`. Red laser mesh. **VFX:** Magma leaking from cracks, electric arcs.
+**Prop:** `LASER_CAGE`. Red vector lines. **VFX:** Glitch artifacts, pixel sorting emissions.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** The Null Void. **Architecture:** None. **Atmosphere:** Zero-gravity. **Background:** Absolute black.
+**Location:** Null Void. **Background:** Infinite black with faint green debug grid lines in far distance.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting Scheme:** `INTERNAL_COMBUSTION`. Light comes from the magma cores and red lasers. **Palette:** Magma Orange, Laser Red, Void Black.
+**Lighting Scheme:** `SELF_EMISSION`. Light comes from the corrupted textures. **Palette:** Error Pink, Gold, Red, Black.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Slow Dolly Zoom. **Lens:** 14mm Wide. **Focus:** Deep focus. **Style:** Epic sci-fi, terrifying scale, 9:16 vertical.
+**Camera:** Slow push in. **Lens:** 50mm. **Focus:** Racking from void to stars. **Style:** Cosmic horror, datamosh, 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A deep, muffled roaring sound like a distant furnace. Low frequency rumble (sub-bass). Occasional sharp crackling of electricity.
+A chaotic mix of sounds: distorted choral screaming time-stretched by 800%, mixed with heavy electrical arcing.
 
 ## [ACT 1] [SCENE 1.4] [Timecode: 00:15-00:20] [REACTION]
-**Action:** Enoch's face (Silver skin). His visor reflects the burning stars. He twitches (packet loss). He raises a hand to shield his sensors.
+**Action:** Enoch recoils. The light from the stars is "wrong"—it casts shadows that don't match the geometry. He tries to shield his face, but his arm "clips" through his own chest (No collision).
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Null Void", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Visor"], "camera": "Whip Pan / Macro", "mood": ["pain", "glitch"], "director_intent": "Show the physical toll the environment takes on the protagonist's avatar.", "start_image_keywords": ["silver face", "visor reflection", "glitch"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Null Void", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "35mm Handheld / Shaky", "mood": ["pain", "glitch"], "director_intent": "Demonstrate the breakdown of the protagonist's physics model.", "start_image_keywords": ["clipping geometry", "wrong shadows", "silver skin"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 8}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A macro close-up of Enoch's face in vertical 9:16. His skin is metallic silver, reflecting the red light of the lasers. He wears a high-tech translucent visor over his eyes, which displays a "CONNECTION UNSTABLE" warning in faint gold glyphs. The reflection of the burning stars is visible in the visor. His skin texture is glitching, showing patches of wireframe mesh underneath. He is grimacing in pain.
+A medium shot of Enoch in vertical 9:16. He is recoiling in fear. His arm is raised to shield his eyes, but the forearm is physically clipping through his chest plate, merging geometries. The shadows on his silver skin fall in the wrong direction compared to the light source. His face is distorted by a "texture smear" artifact.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Actor:** Henoch (Voyager Phase). **Physique:** Silver skin, defined features. **Skin-Shader:** `MARBLE_SHIMMER` glitching to `WIREFRAME`. **Expression:** Pain, involuntary muscle spasms.
+**Actor:** Henoch (Voyager). **Physique:** Silver skin. **Skin-Shader:** `SHADOW_ERROR`. Shadows detach from objects. **Expression:** Terror.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Garment:** Silver cowl. **Prop:** HUD-Visor. **VFX:** Digital noise overlay on skin.
+**Garment:** Robes. **VFX:** Geometry clipping (arm through chest), texture smearing.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Null Void. **Atmosphere:** Heat distortion. **Background:** Out of focus red fire.
+**Location:** Null Void. **Background:** Out of focus corrupted stars.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting Scheme:** `WARNING_LIGHT`. Red fill from stars, harsh white rim. **Palette:** Silver, Red, Black.
+**Lighting Scheme:** `BROKEN_RAYTRACE`. Shadows point towards light sources. **Palette:** Silver, Black, Weird highlights.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Handheld, unstable. **Lens:** 85mm Macro. **Focus:** Sharp on visor/eye. **Style:** Cyberpunk body horror, 9:16 vertical.
+**Camera:** Handheld, panic. **Lens:** 35mm. **Focus:** Erratic. **Style:** Glitch aesthetic, body horror, 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitched tinnitus ringing. The sound of digital stuttering/glitching. Heavy, erratic breathing.
+A sharp digital tearing sound. Heavy, hyper-ventilating breathing.
 
-## [ACT 2] [SCENE 2.1] [Timecode: 00:20-00:25] [THE QUERY]
-**Action:** Enoch turns. Uriel manifests instantly (no fade). Enoch gestures to the chaos: "What is this error?" (Ge'ez glyphs float).
-**Dialog:** Enoch: "What is this error?"
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Null Void", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}, {"name": "Uriel", "phase": "Admin", "presence": "on_screen", "focus": "secondary"}], "props": ["Ge'ez Glyphs"], "camera": "Over-The-Shoulder", "mood": ["confrontation", "inquiry"], "director_intent": "Introduce the guide figure as a stable element in the chaos.", "start_image_keywords": ["Uriel manifestation", "Enoch gesturing", "holograms"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 6}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-An over-the-shoulder shot from behind Enoch (silver skin, robes) looking at Uriel. Uriel stands perfectly still, a figure of high-definition geometry and perfect rendering, contrasting with the glitchy environment. Uriel wears complex, layered armor of gold and white data-streams. Floating between them are glowing Ge'ez glyphs representing Enoch's question. The background is the dark void with the burning stars. Vertical 9:16.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Actor A:** Henoch (Voyager). **Actor B:** Uriel (System Admin). **Physique:** Uriel is tall, imposing, perfect symmetry. **Skin-Shader:** Uriel is `PERFECT_RENDER`, no noise.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Garment:** Uriel in `DATA_WEAVE` armor. **Prop:** Floating holographic glyphs.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Null Void. **Atmosphere:** Suspended dust. **Background:** Burning stars.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting Scheme:** `INTERROGATION`. Soft gold light from Uriel, harsh red from stars. **Palette:** Gold, Silver, Red.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Over-The-Shoulder. **Lens:** 50mm. **Focus:** Rack focus from Enoch to Uriel. **Style:** Cinematic dialogue, 9:16 vertical.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-A sharp digital chirp as Uriel manifests. The hum of the stars continues in the background.
-
-## [ACT 2] [SCENE 2.2] [Timecode: 00:25-00:35] [THE DIAGNOSIS]
-**Action:** Uriel stands perfectly still. He points. Red holographic text scrolls around the stars. "These are the transgressors."
-**Dialog:** Uriel: "These are the transgressors."
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Null Void", "env_change": false, "actors": [{"name": "Uriel", "phase": "Admin", "presence": "on_screen", "focus": "primary"}], "props": ["Holographic Text"], "camera": "Static / Stabilized", "mood": ["authority", "judgment"], "director_intent": "Deliver the verdict with absolute, robotic authority.", "start_image_keywords": ["Uriel pointing", "red holograms", "admin interface"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 6}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-A medium shot of Uriel in vertical 9:16. He is pointing a gloved hand towards the off-screen stars. His face is calm, stern, and illuminated by the red holographic text that scrolls in the air around him. The text is in Ge'ez and binary code. His armor glows with a steady internal golden light. The background is pitch black, emphasizing his stability.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Actor:** Uriel (System Admin). **Physique:** Perfect, statue-like. **Skin-Shader:** `SUBSURFACE_GOLD`. **Expression:** Emotionless, authoritative.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Garment:** White/Gold tech-armor. **Prop:** Red holographic data streams.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Null Void. **Atmosphere:** Still. **Background:** Black void.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting Scheme:** `DATA_GLOW`. Red light from holograms, gold rim. **Palette:** White, Gold, Red.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Static, tripod. **Lens:** 50mm. **Focus:** Sharp on Uriel. **Style:** Corporate video meets divine judgment, 9:16 vertical.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-A deep, processed voice (sub-bass). The sound of data scrolling (rapid clicking/beeping).
-
-## [ACT 2] [SCENE 2.3] [Timecode: 00:35-00:45] [THE BINDING]
-**Action:** Detail shot of a Star. The laser grid tightens. Magma spurts out into the vacuum. The star pulses like a dying heart.
+## [ACT 2] [SCENE 2.1] [Timecode: 00:20-00:28] [URIEL SPAWN]
+**Action:** Uriel manifests not with a fade, but a single-frame "Pop-in". He stands perfectly still, a chrome tower of stability amidst the glitch. He points a finger at the stars.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "close_up", "environment": "Null Void", "env_change": false, "actors": [], "props": ["Dyson Sphere", "Laser Grid"], "camera": "Crash Zoom / Macro", "mood": ["destruction", "pressure"], "director_intent": "Visually demonstrate the punishment mechanism.", "start_image_keywords": ["magma burst", "laser tightening", "cracked sphere"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "prop_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "wide", "environment": "Null Void", "env_change": false, "actors": [{"name": "Uriel", "phase": "Admin", "presence": "on_screen", "focus": "primary"}, {"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Uriel Armor"], "camera": "24mm Wide / Low Angle", "mood": ["authority", "stability"], "director_intent": "Introduce the admin as the only stable element in the scene.", "start_image_keywords": ["Uriel spawn", "chrome armor", "pointing"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A close-up detail shot of the surface of one of the Dyson spheres in vertical 9:16. The black obsidian crust is cracking under the pressure of the red laser grid. Molten gold magma spurts out into the vacuum, freezing instantly into crystals. The laser beams are cutting into the rock. The texture is rough, volcanic, and industrial.
+A low-angle wide shot in vertical 9:16. Uriel stands towering next to a cowering Enoch. Uriel is a perfect chrome humanoid, reflecting the void with zero distortion. His armor is matte white and gold geometric plating. He points calmly at the stars. He looks "rendered" at a much higher resolution than everything else. Enoch looks grainy and glitchy by comparison.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+**Actor A:** Uriel (Admin). **Actor B:** Henoch (Voyager). **Physique:** Uriel 2.5m tall. **Skin-Shader:** Uriel `PERFECT_MIRROR`. Enoch `NOISY_SILVER`.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+**Garment:** Uriel `FIREWALL_ROBES`. **Prop:** None.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+**Location:** Null Void. **Background:** Black.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+**Lighting Scheme:** `LOCAL_STABILITY`. Uriel is lit by a soft divine studio light; Enoch is lit by harsh error lights. **Palette:** Chrome, White, Gold, Silver.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+**Camera:** Slow push in. **Lens:** 24mm. **Focus:** Sharp on Uriel. **Style:** Contrast between order and chaos, 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A heavy sub-bass "Thud" on arrival. Then, absolute sterile room-tone silence around Uriel, contrasting the noise of the void.
+
+## [ACT 2] [SCENE 2.2] [Timecode: 00:28-00:34] [THE STAR CAGE]
+**Action:** Close-up on one of the stars. The red laser-grids are burning into the surface. The "fire" is spectral—colors shifting rapidly (Purple -> Green -> Negative). It looks like a suffering organism.
+**Dialog:** Uriel: "Das sind die Fehler im System."
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "close_up", "environment": "Null Void", "env_change": false, "actors": [], "props": ["Dyson Sphere", "Laser Grid"], "camera": "100mm Telephoto", "mood": ["torture", "containment"], "director_intent": "Show the suffering of the imprisoned entities.", "start_image_keywords": ["burning surface", "spectral fire", "laser burn"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "prop_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 7}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+A telephoto close-up of a star's surface in vertical 9:16. The surface is not rock, but "flesh-like" digital noise, cycling through purple, green, and negative colors. Thick red laser beams are physically digging into the surface, creating trenches of molten white pixels. It looks like a branding iron on skin.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
 **Actor:** None. **Subject:** Corrupted Star Surface.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Prop:** `LASER_BINDING`. High intensity red beams. **VFX:** Magma physics, particle freezing.
+**Prop:** `LASER_GRID`. Burning effect. **VFX:** Color cycling (spectral noise), smoke made of pixels.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Null Void. **Atmosphere:** Vacuum. **Background:** Black.
+**Location:** Null Void. **Background:** Black.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting Scheme:** `LASER_CUT`. Intense red lines, orange glow. **Palette:** Black, Red, Orange.
+**Lighting Scheme:** `SPECTRAL_BURN`. Light shifts color rapidly. **Palette:** Neon Purple, Green, Red.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Crash Zoom. **Lens:** 100mm Macro. **Focus:** Surface detail. **Style:** Industrial documentary, 9:16 vertical.
+**Camera:** Static, observing. **Lens:** 100mm. **Focus:** Shallow depth of field. **Style:** Abstract horror, 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-The sound of a hydraulic press crushing rock. Groaning metal. Hissing of escaping gas.
+The sound of electrical arcing and welding. Deep, groaning modulation.
 
-## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:50] [THE SHIFT]
-**Action:** The environment tears open. Enoch is pulled through a "Hall of Mirrors" effect into the second location.
+## [ACT 2] [SCENE 2.3] [Timecode: 00:34-00:42] [THE ABYSS]
+**Action:** Cut to the floor. The ground ends in a sharp, jagged tear. Below is the KERNEL DUMP. Vertical waterfalls of blue "Cold Data" plasma crashing endlessly downward. It looks like the inside of a reactor.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Transition", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Tracking / Fast", "mood": ["speed", "disorientation"], "director_intent": "A violent, non-euclidean transition between spaces.", "start_image_keywords": ["hall of mirrors", "datamosh", "motion blur"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "extreme_wide", "framing": "extreme_wide", "environment": "The Abyss", "env_change": true, "actors": [], "props": ["Data Waterfall"], "camera": "Crane Shot / Tilting Down", "mood": ["vertigo", "scale"], "director_intent": "Reveal the infinite drop of the data dump.", "start_image_keywords": ["blue plasma waterfall", "infinite drop", "jagged edge"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A dynamic motion-blurred shot in vertical 9:16. Enoch is being pulled backwards through a tearing reality. The image is fragmented like a "Hall of Mirrors" or a datamosh glitch, showing multiple trailing copies of his silver body. The background streaks from black void to blinding blue light. The geometry is non-euclidean, twisting and stretching.
+A high-angle crane shot in vertical 9:16 looking over a jagged, pixelated cliff edge. Below, endless vertical columns of blue "cold fire" (binary data streams visualized as plasma) crash downwards into an infinite abyss. The scale is monumental. The light from the blue plasma is blindingly bright and cold.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Actor:** Henoch (Voyager). **Physique:** Distorted by speed. **Skin-Shader:** Smearing chrome.
+**Actor:** None. **Subject:** The Kernel Dump Waterfall.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Garment:** Robes trailing behind. **VFX:** Datamosh, pixel sorting.
+**Prop:** `DATA_STREAM`. Blue liquid light. **VFX:** Matrix-like falling code textures in the fire.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Between Dimensions. **Atmosphere:** Warp speed. **Background:** Streaking lights.
+**Location:** The Abyss. **Architecture:** Broken floor geometry. **Background:** Infinite depth.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting Scheme:** `STROBE`. Rapid flashing. **Palette:** Black, Blue, Silver.
+**Lighting Scheme:** `REACTOR_BLUE`. Intense cyan/blue glow. **Palette:** Cyan, Blue, Black.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Fast Tracking. **Lens:** Wide. **Focus:** Soft/Motion Blur. **Style:** Glitch transition, 9:16 vertical.
+**Camera:** Crane tilt down. **Lens:** 14mm. **Focus:** Infinity. **Style:** Sci-fi epic, 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A loud wind shear sound. Jet engine spooling up. Digital tearing noise.
+A roaring waterfall sound, but synthetic—like a billion voices whispering at once mixed with white noise.
 
-## [ACT 3] [SCENE 3.2] [Timecode: 00:50-00:58] [THE ABYSS]
-**Action:** The Great Fire. Pillars of blue plasma stretch infinitely down into a dark cleft. The heat distortion is extreme.
+## [ACT 2] [SCENE 2.4] [Timecode: 00:42-00:50] [ENOCH'S TERROR]
+**Action:** Enoch looks into the abyss. The blue light over-exposes his face, bleaching out his features. He screams, but the sound is desynced from his lips (Latency).
+**Dialog:** Enoch: "Es ist... zu hell."
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "The Abyss", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "ECU / Macro", "mood": ["overload", "blindness"], "director_intent": "The data intensity wipes out the avatar's ability to perceive.", "start_image_keywords": ["overexposed face", "blue reflection eye", "scream"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+An extreme close-up of Enoch's eyes in vertical 9:16. The pupils are dilated. The reflection of the blue abyss fills the iris. The lighting is blown out (overexposed), washing out the silver texture of his skin into pure white. His mouth is open in a scream.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+**Actor:** Henoch (Voyager). **Physique:** Face only. **Skin-Shader:** `BLOWN_HIGHLIGHTS`. **Expression:** Screaming.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+**Prop:** None. **VFX:** Lens flare, sensor bloom.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+**Location:** Edge of Abyss. **Background:** Blinding blue.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+**Lighting Scheme:** `OVEREXPOSURE`. Extreme blue light. **Palette:** White, Cyan.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+**Camera:** Static ECU. **Lens:** 100mm Macro. **Focus:** Eye. **Style:** Psychological horror, 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Audio buffer stutter on the scream (repeating "Wh-Wh-What-at"). High pitched sensor clipping noise.
+
+## [ACT 3] [SCENE 3.1] [Timecode: 00:50-00:56] [URIEL'S STATEMENT]
+**Action:** Uriel leans in. His face-plate reflects the burning stars. He speaks the verdict. The text "PRISON_FOREVER" scrolls across his visor in Ge'ez characters.
+**Dialog:** Uriel: "Hier endet ihre Laufzeit. Für immer."
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "The Abyss", "env_change": false, "actors": [{"name": "Uriel", "phase": "Admin", "presence": "on_screen", "focus": "primary"}], "props": ["Visor Text"], "camera": "50mm / Stable", "mood": ["finality", "judgment"], "director_intent": "Deliver the final judgment through the interface.", "start_image_keywords": ["Uriel visor", "scrolling text", "reflection"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 7}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+A close-up of Uriel's golden face-plate in vertical 9:16. The surface is perfect mirror chrome. Reflected in it are the chaotic burning stars and the blue abyss. Overlaying the reflection, bright red Ge'ez text scrolls across the visor surface: "PRISON_FOREVER". The framing is symmetrical and divine.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+**Actor:** Uriel (Admin). **Physique:** Golden mask. **Skin-Shader:** `CHROME_GOLD`.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+**Garment:** Cowl. **Prop:** `HUD_TEXT`. Red scrolling glyphs.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+**Location:** Abyss Edge. **Background:** Out of focus blue fire.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+**Lighting Scheme:** `FACE_GLOW`. Red text light on gold. **Palette:** Gold, Red, Blue reflection.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+**Camera:** Stable tripod. **Lens:** 50mm. **Focus:** Visor surface. **Style:** High-tech divinity, 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Reverb-heavy voice, clear and dry. Subtle scrolling text sound.
+
+## [ACT 3] [SCENE 3.2] [Timecode: 00:56-01:04] [THE WARNING]
+**Action:** Wide shot. Enoch and Uriel silhouetted against the massive, terrifying scale of the bound stars and the data-fall. The red laser-grids pulse once in unison.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "The Abyss", "env_change": true, "actors": [], "props": ["Pillars of Fire"], "camera": "Slow Pan / High Angle", "mood": ["awe", "heat"], "director_intent": "Reveal the second location: a place of infinite fire and depth.", "start_image_keywords": ["blue plasma pillars", "infinite abyss", "heat distortion"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "mixed", "shot_type": "extreme_wide", "framing": "extreme_wide", "environment": "The Abyss", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}, {"name": "Uriel", "phase": "Admin", "presence": "on_screen", "focus": "secondary"}], "props": ["Seven Stars", "Data Waterfall"], "camera": "14mm Ultra-Wide / High Angle", "mood": ["epic", "insignificance"], "director_intent": "Show the characters dwarfed by the system's prison mechanism.", "start_image_keywords": ["silhouettes", "massive scale", "pulsing lasers"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A high-angle wide shot in vertical 9:16 looking down into a massive dark cleft in the ground. Rising from the abyss are enormous, vertical pillars of blue plasma fire. They stretch infinitely downwards. The air is shimmering with extreme heat distortion. The ground at the edge is jagged, burnt rock. The light is blindingly bright blue, casting long shadows.
+An ultra-wide high-angle shot in vertical 9:16. Two tiny silhouettes (Enoch and Uriel) stand on a precipice. In front of them hangs the immense scale of the Seven Corrupted Stars and the infinite blue waterfall of the Abyss. The red laser grids on all seven stars pulse bright red simultaneously, lighting up the void for a split second.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Actor:** None. **Subject:** Pillars of Fire.
+**Actor:** Uriel & Henoch (Silhouettes). **Physique:** Small scale.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Prop:** `PLASMA_COLUMN`. Vertical blue fire. **VFX:** Heat haze, rising embers.
+**Prop:** Stars, Waterfall. **VFX:** Synchronized red light pulse.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** The Abyss. **Architecture:** Natural cleft. **Atmosphere:** Superheated. **Background:** Infinite depth.
+**Location:** Abyss Edge. **Background:** Infinite void and fire.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting Scheme:** `PLASMA_BLUE`. Intense blue light source. **Palette:** Electric Blue, Black, Charred Grey.
+**Lighting Scheme:** `SILHOUETTE`. Backlit by blue, flashed by red. **Palette:** Black, Blue, Red.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Slow Pan. **Lens:** 24mm. **Focus:** Infinity. **Style:** Epic landscape, elemental power, 9:16 vertical.
+**Camera:** Static high angle. **Lens:** 14mm. **Focus:** Infinity. **Style:** Epic scale, 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A loud, roaring inferno sound. Like a rocket engine firing continuously.
+A massive alarm siren (Inception-style horn) blasts once, then cuts abruptly to silence.
 
-## [ACT 3] [SCENE 3.3] [Timecode: 00:58-01:05] [OVERLOAD]
-**Action:** Enoch falls to his knees. The light is too bright. His skin texture fails, revealing the gold skull beneath. "It is too hard to look at."
-**Dialog:** Enoch: "It is too hard to look at."
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "The Abyss", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Handheld / Dutch Angle", "mood": ["pain", "overload"], "director_intent": "The protagonist is physically dismantled by the intensity of the vision.", "start_image_keywords": ["gold skull", "melting skin", "blinding light"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 7}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-A chaotic, dutch-angle close-up of Enoch in vertical 9:16. He is on his knees, hands covering his face. The intense blue light from the abyss is blasting him. His silver skin is peeling away like burnt paper, revealing a glowing golden skull structure underneath. He is screaming silently. The image is overexposed and grainy, simulating sensor overload.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Actor:** Henoch (Voyager). **Physique:** Collapsing. **Skin-Shader:** `WIREFRAME_ERROR` revealing `GOLD_SKELETON`. **Expression:** Agony.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Garment:** Tattered robes. **VFX:** Dissolving geometry.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Edge of Abyss. **Atmosphere:** Blinding. **Background:** Blue fire.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting Scheme:** `OVEREXPOSURE`. Blown out highlights. **Palette:** Blue, Gold, White.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Handheld, chaotic. **Lens:** 35mm. **Focus:** In and out. **Style:** Found footage horror, 9:16 vertical.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Alarm klaxons. Audio distortion/clipping. A scream that turns into digital noise.
-
-## [ACT 3] [SCENE 3.4] [Timecode: 01:05-01:12] [THE VERDICT]
-**Action:** Uriel steps into frame, blocking the blinding light. He looks down. "This is the Prison of the Angels. Forever."
-**Dialog:** Uriel: "This is the Prison of the Angels."
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "The Abyss", "env_change": false, "actors": [{"name": "Uriel", "phase": "Admin", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle / Stabilized", "mood": ["finality", "calm"], "director_intent": "The guide restores order and delivers the final truth.", "start_image_keywords": ["Uriel silhouette", "blocking light", "hero pose"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 8}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-A low-angle hero shot of Uriel in vertical 9:16. He steps into the frame, his body blocking the blinding blue light from the abyss, creating a silhouette with a golden rim. He looks down at the camera (at Enoch). His posture is calm and protective but severe. The background is the raging blue fire, now tamed by his presence.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Actor:** Uriel (Admin). **Physique:** Tall, commanding. **Skin-Shader:** Perfect render. **Expression:** Calm.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Garment:** Tech-Armor. **Prop:** None.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Edge of Abyss. **Atmosphere:** Hot but controlled. **Background:** Blue fire.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting Scheme:** `SILHOUETTE`. Backlit by blue fire, rim lit by gold. **Palette:** Black, Blue, Gold.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Stabilized Low Angle. **Lens:** 24mm. **Focus:** Sharp on Uriel. **Style:** Heroic, mythic, 9:16 vertical.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-The roar of the fire dampens instantly to a hum. A final, heavy bass impact.
-
-## [ACT 3] [SCENE 3.5] [Timecode: 01:12-01:15] [OUTRO]
-**Action:** Wide shot of the Abyss glowing in the dark. Title overlay: CHAPTER 21.
+## [ACT 3] [SCENE 3.3] [Timecode: 01:04-01:10] [OUTRO/GLITCH]
+**Action:** The camera tries to zoom out, but hits an invisible wall. The image datamoshes (pixels drag). The screen freezes on Enoch's terrified face, then cuts to black console terminal.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "extreme_wide", "framing": "extreme_wide", "environment": "The Abyss", "env_change": false, "actors": [], "props": [], "camera": "Extreme Wide / Static", "mood": ["emptiness", "scale"], "director_intent": "Final lingering image of the location.", "start_image_keywords": ["glowing abyss", "dark void", "title card"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Null Void", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Crash Zoom / Glitch", "mood": ["failure", "crash"], "director_intent": "End the simulation with a technical failure.", "start_image_keywords": ["datamosh", "pixel drag", "freeze frame"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-An extreme wide shot in vertical 9:16 showing the blue glow of the abyss as a small slit in the infinite black void. The camera pulls back, making the fire look like a distant wound in the darkness. Minimalist and stark.
+A datamoshed image of Enoch's face in vertical 9:16. The pixels are dragging downwards like melting wax. The colors are splitting into RGB layers. The image looks like a frozen video frame on a broken screen. The edges are consumed by black console terminal code.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-**Actor:** None. **Subject:** The Abyss from distance.
+**Actor:** Henoch. **Physique:** Glitched. **Skin-Shader:** `PIXEL_SORT`.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-**Prop:** None. **VFX:** Fading glow.
+**Garment:** N/A. **VFX:** Datamosh, compression artifacts.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-**Location:** Null Void. **Atmosphere:** Empty. **Background:** Black.
+**Location:** Void. **Background:** Black.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-**Lighting Scheme:** `DISTANT_GLOW`. Faint blue light in black. **Palette:** Black, Dark Blue.
+**Lighting Scheme:** `CRASH`. Random color blocks. **Palette:** RGB split.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-**Camera:** Static Pull Back. **Lens:** Wide. **Focus:** Infinity. **Style:** Minimalist, 9:16 vertical.
+**Camera:** Crash zoom out. **Lens:** Digital. **Focus:** Broken. **Style:** System crash, 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Low hum fading to absolute silence.
+A system power-down chirp (falling pitch). Hard cut to silence.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.4","text":"Mein System... es lehnt diese Realität ab.","words_max":8},{"scene":"2.1","text":"Warum brennen sie ohne Licht?","words_max":6},{"scene":"3.3","text":"Der Code... er löscht mich aus.","words_max":7}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Keine Daten. Kein Licht. Nur ich.","words_max":7},{"scene":"2.4","text":"Mein Code... er löst sich auf.","words_max":6}],"Uriel":[{"scene":"2.2","text":"Sie brennen, weil sie verfallen sind.","words_max":7}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

@@ -1,0 +1,30 @@
+## [SCENE] Chapter 54 Segment 6 (ID: SCENE_CHAPTER_54_SEGMENT_6)
+**Description:** The Solar Obelisk of the Ankh Engine stands 12 meters tall, a monolithic column of weathered basalt fused with a lattice of polished titanium alloy. Its surface is etched with interlocking Ethiopian lion motifs and Egyptian sun disk glyphs, each etched in a luminescent, bio‑glowing pigment that pulses in sync with the core's energy cycles. At its apex, a crystalline ankh‑shaped core refracts ambient light into a spectrum of iridescent hues, while beneath the obelisk, a network of subterranean conduits channels solar energy harvested by an array of micro‑photovoltaic panels disguised as hieroglyphic panels.
+**Tags:** #ancient-tech #industrial-mysticism #Ethiopian #Egyptian #photorealistic #tactile #bio-luminescent #crystalline #hieroglyphic #solar-engine
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** 12‑meter monolithic column of basalt and titanium alloy, tapering to a 1‑meter ankh‑shaped crystalline core at the apex; weathered patina with embedded micro‑photovoltaic panels.
+*   **Face/Sensors:** Hieroglyphic panels double as sensor arrays; bio‑luminescent glyphs glow in response to ambient light; embedded infrared and spectrometer nodes hidden within lion motifs.
+*   **Clothing/Armor:** Protective titanium plating with etched runes; dust‑resistant coating; integrated shock‑absorbing gel layers.
+*   **Key Features:** Crystalline ankh core, bio‑luminescent glyphs, photovoltaic panels, subterranean conduit network, lion‑motif sensor lattice.
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Prototype): Rough assembly of basalt column with crude titanium lattice; minimal glyph illumination.
+*   Phase 2 (Operational): Full integration of crystalline core, bio‑luminescent glyphs, photovoltaic panels, subterranean conduits.
+
+### 3. PROPS & EQUIPMENT
+*   Item: Ancient Scroll of Calibration
+*   Item: Solar Lens Array
+
+### 4. AI PROMPT KEYWORDS
+`12-meter obelisk`, `basalt`, `titanium alloy`, `Ethiopian lion motifs`, `Egyptian sun disk`, `bio‑luminescent glyphs`, `crystalline ankh core`, `photovoltaic panels`, `subterranean conduits`, `industrial dust`, `photorealistic`, `tactile`, `ancient-tech`, `industrial mysticism`
+
+### 5. PROMPT BLOCK (T2I)
+A photorealistic, tactile depiction of a 12‑meter tall Solar Obelisk of the Ankh Engine, a monolithic column of weathered basalt fused with polished titanium alloy, etched with Ethiopian lion motifs and Egyptian sun disk glyphs that glow with bio‑luminescent pigment, featuring a crystalline ankh‑shaped core at the apex refracting light, micro‑photovoltaic panels disguised as hieroglyphic panels, subterranean conduit network, industrial dust, and a grounded realism aesthetic.
+
+### 6. PHASE PROMPTS
+*   **Default:** The fully operational Solar Obelisk in its default state, showcasing all integrated features.
+    Prompt: A photorealistic, tactile depiction of a 12‑meter tall Solar Obelisk of the Ankh Engine, a monolithic column of weathered basalt fused with polished titanium alloy, etched with Ethiopian lion motifs and Egyptian sun disk glyphs that glow with bio‑luminescent pigment, featuring a crystalline ankh‑shaped core at the apex refracting light, micro‑photovoltaic panels disguised as hieroglyphic panels, subterranean conduit network, industrial dust, and a grounded realism aesthetic.
+    Keywords: 12-meter obelisk, basalt, titanium alloy, Ethiopian lion motifs, Egyptian sun disk, bio‑luminescent glyphs, crystalline ankh core, photovoltaic panels, subterranean conduits, industrial dust, photorealistic, tactile, ancient-tech, industrial mysticism
+
+---

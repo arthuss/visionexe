@@ -1,22 +1,3 @@
-✗ Create stories\template\filmsets\story_091\DREHBUCH_HOLLYWOOD.md
-   Permission denied and could not request permission from user
-
-✗ Create the story_091 directory if it does not exist
- $ if (-not (Test-Path "C:\Users\sasch\visionexe\stories\template\filmsets\story_091")) {
- New-Item -ItemType Directory -Path
- "C:\Users\sasch\visionexe\stories\template\filmsets\story_091" -Force }
-   Permission denied and could not request permission from user
-
-✓ list_powershell
-   └ <no active sessions>
-
-✓ List contents of the stories directory
- $ Get-ChildItem -Path "C:\Users\sasch\visionexe\stories" -Recurse -Depth 2
-    └ 176 lines...
-
-✗ Create stories\template\filmsets\story_091\DREHBUCH_HOLLYWOOD.md
-   Permission denied and could not request permission from user
-
 # DREHBUCH KAPITEL 91 - PRODUCTION READY
 
 ## CHAPTER NARRATION

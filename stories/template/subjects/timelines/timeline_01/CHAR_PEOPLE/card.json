@@ -3,51 +3,83 @@
   "name": "People",
   "type": "character",
   "card": {
-    "description": "The collective populace of the simulation, representing humanity as 'subjects' within the ancient-tech construct. They appear as a diverse crowd clad in timeless, rough-hewn garments, serving as the biological variables in the system's experiment. Their physical state fluctuates between gritty, hyper-real biological forms and raw data representations (wireframes, solid grey matter) depending on the system's rendering focus. The population is divided into 'The Righteous' (who retain light and definition) and 'The Sinners' (who fade into shadow or fail to render under scrutiny).",
+    "description": "A photorealistic, cinematic depiction of a diverse human group—The Righteous and Sinners—appearing across ancient‑tech landscapes, from chaotic deserts to ruined earth, each scene imbued with mystical forcefields, obsidian hands, glowing glyphs, and incomprehensible technology fused with Ethiopian and Egyptian motifs.",
     "tags": [
-      "humanity",
-      "crowd",
-      "simulation_subjects",
-      "ancient_tech",
-      "righteous_and_sinners"
+      "human group",
+      "ancient-tech",
+      "industrial mysticism",
+      "grounded realism",
+      "photorealistic",
+      "Ethiopian",
+      "Egyptian",
+      "golden forcefield",
+      "obsidian hand",
+      "liquid metal",
+      "wireframe mesh",
+      "black monolith",
+      "moonlight beam"
     ],
     "visual_anatomy": [
-      "**Body/Form:** Diverse human demographics (age, ethnicity) with highly textured, weathered skin covered in fine dust. In 'unrendered' states, bodies transition to matte solid grey clay or blue-white wireframe meshes.",
-      "**Clothing/Armor:** Simple, un-dyed linen tunics, rough burlap robes, and coarse wraps. Earth tones (sand, beige, slate). Fabric shows heavy wear, fraying, and a distinct coarse weave. No modern fasteners; tied with rope or sash.",
-      "**Face/Sensors:** Naturalistic faces that can toggle to 'System Idle' mode—expressionless, eyes wide and blank, non-reactive. 'Righteous' subjects emit a sub-dermal bioluminescent glow under 'Moonlight' scans.",
-      "**Key Features:** Visual bifurcation under specific lighting: 'Righteous' reflect and hold light (golden/blue hues), while 'Sinners' absorb light, appearing as silhouettes or translucent 'null' objects."
+      "**Body/Form:** Diverse silhouettes ranging from lithe desert nomads to armored soldiers, all rendered with realistic musculature and subtle wear.",
+      "**Face/Sensors:** Some faces glow with Ge'ez glyphs; others show no electronic augmentation, maintaining a tactile human texture.",
+      "**Clothing/Armor:** Layered robes with metallic filigree, leather belts, and stone‑etched amulets that echo ancient Ethiopian and Egyptian iconography.",
+      "**Key Features:** Translucent golden hexagonal forcefield, obsidian hand, bright red metallic fluid droplets, wall of light revealing a blue‑white wireframe mesh, matte black monoliths, and a focused moonlight beam."
     ],
     "evolution": [
-      "Phase 1 (Default): The standard operating state of the populace, ranging from idle observation to active cowering or worship, occasionally glitching into wireframe during high-load processing events."
+      "Phase 1 (Desert): The Righteous stand calmly within a golden hexagonal forcefield, Ge'ez holographic glyphs hovering above them.",
+      "Phase 2 (Battlefield): An obsidian hand sweeps through the crowd, liquifying them into bright red metallic droplets while a wall of light exposes a glowing wireframe mesh."
     ],
     "props": [
-      "Item: Rough wooden staves",
-      "Item: Unglazed clay shards"
+      "Translucent golden hexagonal forcefield",
+      "Glowing Ge'ez holographic glyphs",
+      "Massive obsidian hand",
+      "Bright red metallic fluid droplets",
+      "Wall of light",
+      "Glowing blue‑white wireframe mesh",
+      "Matte black monoliths",
+      "Focused moonlight beam"
     ],
     "prompt_keywords": [
-      "ancient crowd",
-      "weathered linen",
-      "dusty realism",
-      "system idle",
-      "wireframe transition",
-      "industrial mysticism",
-      "cinematic lighting",
+      "ancient",
+      "Ethiopian",
+      "Egyptian",
+      "golden",
+      "obsidian",
+      "metallic",
+      "holographic",
+      "light",
+      "forcefield",
+      "liquid",
+      "wireframe",
+      "monolith",
+      "moonlight",
       "photorealistic",
-      "8k"
+      "cinematic"
     ],
-    "prompt_block": "Cinematic shot of a dense crowd of humans in a desolate ancient landscape. They are dressed in ragged, coarse linen tunics and robes in earth tones. Texture detail is high, showing the weave of the fabric and dust on skin. The lighting is dramatic, casting deep shadows. Some figures appear partially translucent or overlaid with faint blue wireframe grid lines, suggesting a simulation glitch. The mood is solemn and heavy, grounded realism meets digital artifacting. 8k resolution, volumetric lighting, photorealistic.",
+    "prompt_block": "A cinematic, photorealistic vertical 9:16 shot of a diverse human group standing in a chaotic desert, surrounded by a translucent golden hexagonal forcefield, with glowing Ge'ez holographic glyphs floating above them, while a massive obsidian hand sweeps through the crowd, liquifying them into bright red metallic fluid droplets that scatter toward the camera, a wall of light passes through them revealing a glowing blue‑white wireframe mesh behind the light, all under a sharp moonlight beam that illuminates the righteous group, contrasted against dark shadowed sinners, with matte black monoliths rising like firewall blocks, rendered with ancient Ethiopian and Egyptian motifs fused with incomprehensible advanced technology, cinematic 8k, 50mm lens, high speed photography, motion blur, dramatic lighting, tactile textures, realistic light behavior.",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "The populace in their standard state, a mix of realistic ancient dwellers and subtle digital anomalies.",
+        "summary": "Unified depiction of the human group across multiple mystical tech environments.",
         "prompt_keywords": [
-          "ancient crowd",
-          "weathered linen",
-          "system idle",
-          "wireframe glitch"
+          "ancient",
+          "Ethiopian",
+          "Egyptian",
+          "golden",
+          "obsidian",
+          "metallic",
+          "holographic",
+          "light",
+          "forcefield",
+          "liquid",
+          "wireframe",
+          "monolith",
+          "moonlight",
+          "photorealistic",
+          "cinematic"
         ],
-        "prompt_block": "Cinematic shot of a crowd of humans in ancient weathered linen clothing standing in a dusty environment. They stand with an uncanny stillness, eyes open but blank, indicating a system idle state. The lighting is high-contrast, revealing the coarse texture of the cloth. Subtle digital artifacts, such as faint wireframe outlines on the edges of the crowd or glowing internal geometry in select individuals, hint at their simulated nature. Realistic textures, earth tones, atmospheric haze, 8k."
+        "prompt_block": "A cinematic, photorealistic vertical 9:16 shot of a diverse human group standing in a chaotic desert, surrounded by a translucent golden hexagonal forcefield, with glowing Ge'ez holographic glyphs floating above them, while a massive obsidian hand sweeps through the crowd, liquifying them into bright red metallic fluid droplets that scatter toward the camera, a wall of light passes through them revealing a glowing blue‑white wireframe mesh behind the light, all under a sharp moonlight beam that illuminates the righteous group, contrasted against dark shadowed sinners, with matte black monoliths rising like firewall blocks, rendered with ancient Ethiopian and Egyptian motifs fused with incomprehensible advanced technology, cinematic 8k, 50mm lens, high speed photography, motion blur, dramatic lighting, tactile textures, realistic light behavior."
       }
     ]
   },

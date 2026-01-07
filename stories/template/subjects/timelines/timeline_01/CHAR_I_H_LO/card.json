@@ -3,53 +3,56 @@
   "name": "I Hālo",
   "type": "character",
   "card": {
-    "description": "An enigmatic custodian of the terminal threshold, I Hālo manifests as a synthesis of archaic priestly dignity and advanced post-human engineering. Serving as a witness to the final convergence in Chapter 108, the entity embodies the stillness of recorded time. The figure combines the aesthetics of an Ethiopian scribe with the materials of a quantum computer casing—polished, inscribed, and radiating a low-humming power.",
+    "description": "I Hālo is a tall, gaunt participant in a clandestine ritual, his presence a fusion of ancient Ethiopian and Egyptian mysticism with incomprehensible technology. He wears a flowing robe of obsidian silk, its edges etched with bio‑luminescent glyphs that pulse in rhythm with his cybernetic ocular implant, a translucent crystal half‑sphere embedded in his left eye. His right hand grips an obsidian staff crowned with a crystalline core that emits a soft, otherworldly glow. The setting is a dimly lit chamber of stone and rusted metal, where torchlight flickers across worn surfaces, casting dramatic shadows that highlight the tactile textures of his attire and the metallic filigree that adorns his robe.",
     "tags": [
-      "character",
-      "watcher",
-      "custodian",
       "ancient-tech",
-      "mystic-industrial"
+      "industrial-mysticism",
+      "Ethiopian-Egyptian",
+      "photorealistic",
+      "bio-luminescent-glyphs",
+      "crystalline-hardware"
     ],
     "visual_anatomy": [
-      "**Body/Form:** Tall, elongated skeletal structure draped in heavy mass. Skin resembles polished obsidian or matte basalt, absorbing light rather than reflecting it, suggesting a chassis of ultra-dense ceramic composite.",
-      "**Face/Sensors:** The visage is serene and mask-like, devoid of pores. Eyes are replaced by solid disks of coherent golden light, shuttering rapidly like camera apertures. A fragmented, floating 'halo' of data-shards and holographic glyphs orbits slowly behind the occipital lobe.",
-      "**Clothing/Armor:** Vestments of 'tech-linen'—a coarse, heavy weave indistinguishable from ancient cloth at a distance, but revealed as braided conductive cabling and fiber-optic filaments up close. The robes are deep indigo and charcoal, edged with oxidized copper trim.",
-      "**Key Features:** Subdermal bioluminescence traces the meridian lines of the body, pulsing with a slow, rhythmic data-throb. The hands are multi-jointed, designed for manipulating complex holographic interfaces."
+      "**Body/Form:** 6'2\" tall, lean musculature, copper‑tinged skin, subtle scars along forearms, hair black as obsidian, worn leather sandals.",
+      "**Face/Sensors:** Half of left eye replaced by a translucent crystal ocular implant displaying swirling glyphs; right eye natural, eyeshadow of ancient pigments.",
+      "**Clothing/Armor:** Obsidian silk robe with reinforced metal filigree, hooded with feathered fringe, belt of braided copper wire, amulet of glyphs around neck.",
+      "**Key Features:** Bio‑luminescent glyphs etched along robe and staff, crystalline core pulsing, metallic filigree, obsidian hair, cybernetic ocular implant."
     ],
     "evolution": [
-      "Phase 1 (Default): The static, observing state. The entity stands as a sentinel of the final records, fully adorned in ceremonial tech-vestments."
+      "Phase 1 (Unaugmented): I Hālo appears as a traditional mystic, wearing simple robes and carrying a wooden staff, no visible tech.",
+      "Phase 2 (Augmented): He gains a cybernetic ocular implant, a crystalline staff core, and bio‑luminescent glyphs that animate his attire."
     ],
     "props": [
-      "The Terminal Scroll: A tablet-like device made of transparent slate that unspools a tangible hologram of infinite length.",
-      "Stylus of Light: A writing instrument that burns glyphs into the air."
+      "Item: Obsidian Staff with crystalline core that pulses with faint light.",
+      "Item: Amulet of Glyphs – a pendant of polished bronze etched with ancient symbols."
     ],
     "prompt_keywords": [
-      "I Hālo",
-      "obsidian skin",
-      "golden aperture eyes",
-      "tech-linen robes",
-      "data-halo",
-      "ancient ethiopian aesthetic",
+      "ancient Ethiopian",
+      "Egyptian",
       "industrial mysticism",
-      "cinematic lighting",
-      "unreal engine 5 render",
-      "8k",
-      "hyper-detailed"
+      "photorealistic",
+      "bio-luminescent glyphs",
+      "crystalline hardware",
+      "obsidian silk",
+      "cybernetic ocular implant"
     ],
-    "prompt_block": "full body shot of I Hālo, a tall mystic-tech entity with polished obsidian skin and golden aperture eyes, wearing heavy indigo robes woven from conductive cables, a fragmented holographic halo floating behind the head, holding a transparent slate tablet, standing in a dim industrial temple, atmospheric volumetric lighting, cinematic composition, hyper-realistic texture, ancient technology fusion, 8k resolution, raytracing",
+    "prompt_block": "I Hālo, a tall, gaunt participant in a high‑stakes ritual, stands in a dimly lit chamber of stone and metal, his obsidian silk robe flowing, the edges of which are etched with glowing ancient glyphs that pulse in sync with his bio‑luminescent ocular implant, a translucent half‑sphere of crystal embedded in his eye, reflecting the flickering torchlight, while he grips an obsidian staff topped with a pulsing crystalline core, the scene rendered in photorealistic detail with tactile textures of worn metal, rough stone, and smooth obsidian, the lighting dramatic and cinematic, emphasizing the contrast between ancient mysticism and incomprehensible technology.",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "The standard appearance of I Hālo as a sentinel of the end times.",
+        "summary": "I Hālo in his augmented state, surrounded by ancient mysticism and advanced tech.",
         "prompt_keywords": [
-          "sentinel",
-          "obsidian",
-          "gold eyes",
-          "static pose"
+          "ancient Ethiopian",
+          "Egyptian",
+          "industrial mysticism",
+          "photorealistic",
+          "bio-luminescent glyphs",
+          "crystalline hardware",
+          "obsidian silk",
+          "cybernetic ocular implant"
         ],
-        "prompt_block": "medium shot of I Hālo, entity with matte black ceramic skin and glowing gold disk eyes, wearing complex braided cable robes, a subtle halo of floating geometric debris behind the head, dramatic rim lighting, solemn expression, ancient industrial temple background, photorealistic, 8k, tactile textures"
+        "prompt_block": "I Hālo, a tall, gaunt participant in a high‑stakes ritual, stands in a dimly lit chamber of stone and metal, his obsidian silk robe flowing, the edges of which are etched with glowing ancient glyphs that pulse in sync with his bio‑luminescent ocular implant, a translucent half‑sphere of crystal embedded in his eye, reflecting the flickering torchlight, while he grips an obsidian staff topped with a pulsing crystalline core, the scene rendered in photorealistic detail with tactile textures of worn metal, rough stone, and smooth obsidian, the lighting dramatic and cinematic, emphasizing the contrast between ancient mysticism and incomprehensible technology."
       }
     ]
   },

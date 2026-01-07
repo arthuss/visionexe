@@ -1,0 +1,101 @@
+{
+  "id": "PROP_PATH",
+  "name": "Path",
+  "type": "prop",
+  "card": {
+    "description": "Path is a dynamic, luminous conduit of energy that guides movement across the film’s world. It manifests as a translucent ribbon of light, etched with ancient glyphs, flowing through crystalline structures and aligning with superconductive tracks. The path is open, directional, and serves as both a visual cue and a narrative device, blending Ethiopian and Egyptian mysticism with incomprehensible technology.",
+    "tags": [
+      "path",
+      "holographic",
+      "crystalline",
+      "bioluminescent",
+      "ancient-tech",
+      "Ethiopian",
+      "Egyptian",
+      "glyph",
+      "energy",
+      "directional",
+      "open"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** A flowing ribbon of light, 0.5 m wide and 10 m long, composed of layered microcrystalline fibers that refract warm gold and cool azure hues, with a subtle volumetric glow.",
+      "**Face/Sensors:** Embedded glyphic sensors along the edge, pulsing with bioluminescent light that reacts to motion and environmental cues, creating a living map of movement.",
+      "**Clothing/Armor:** Not applicable.",
+      "**Key Features:** Self‑aligns with superconductive silver rails, emits a low‑frequency hum, casts directional light on surrounding machinery, and can phase through crystalline barriers while maintaining its luminous integrity."
+    ],
+    "evolution": [
+      "Phase 1 (Concept): A simple glowing line projected onto a flat surface, serving as a basic directional cue.",
+      "Phase 2 (Refinement): Integrated with crystalline walls and superconductive rails, the path becomes a barrier that can phase through solid material while preserving its luminous, glyph‑etched form."
+    ],
+    "props": [
+      "Holographic Line",
+      "Crystal Prism Path",
+      "Superconductive Track"
+    ],
+    "prompt_keywords": [
+      "holographic",
+      "crystalline",
+      "bioluminescent",
+      "glyph",
+      "ancient-tech",
+      "Ethiopian",
+      "Egyptian",
+      "energy",
+      "path",
+      "directional"
+    ],
+    "prompt_block": "A cinematic, photorealistic depiction of an open, directional path manifesting as a translucent ribbon of light, 0.5 m wide, flowing over a rugged industrial landscape. The path is composed of microcrystalline fibers that refract warm gold and cool azure hues, etched with ancient Ethiopian and Egyptian glyphs that pulse with bioluminescent glow. It aligns with a superconductive silver rail, emits a low‑frequency hum, and casts subtle volumetric light on surrounding machinery. The scene is rendered in high detail, with realistic light scattering, volumetric fog, and tactile textures, evoking a sense of ancient mysticism fused with advanced technology.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The Path in its standard luminous, directional form, guiding movement across the environment.",
+        "prompt_keywords": [
+          "holographic",
+          "crystalline",
+          "bioluminescent",
+          "glyph",
+          "ancient-tech",
+          "Ethiopian",
+          "Egyptian",
+          "energy",
+          "path",
+          "directional"
+        ],
+        "prompt_block": "A cinematic, photorealistic rendering of the default Path: a translucent ribbon of light, 0.5 m wide, flowing over an industrial setting. The ribbon is composed of microcrystalline fibers that refract warm gold and cool azure, etched with ancient Ethiopian and Egyptian glyphs pulsing with bioluminescent glow. It aligns with a superconductive silver rail, emits a low‑frequency hum, and casts subtle volumetric light on surrounding machinery, creating a tactile, mystical atmosphere."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_PATH",
+    "name": "Path",
+    "type": "prop",
+    "aliases": [
+      "Path"
+    ],
+    "roles": [
+      "abstract"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_150"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 18,
+        "chapter_end": 18,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

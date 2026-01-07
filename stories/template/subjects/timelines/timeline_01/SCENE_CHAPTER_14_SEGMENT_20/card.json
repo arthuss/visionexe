@@ -1,0 +1,89 @@
+{
+  "id": "SCENE_CHAPTER_14_SEGMENT_20",
+  "name": "Chapter 14 Segment 20",
+  "type": "scene",
+  "card": {
+    "description": "The Ankh Engine is a towering 12‑meter obelisk forged from basalt and copper, its surface etched with a fusion of Ethiopian and Egyptian hieroglyphs. The stone is interlaced with bio‑luminescent veins that pulse in a soft blue glow, while a crystalline eye crowns the apex, refracting light into a spectrum of colors. Beneath the stone lies a rotating gear system of polished brass and obsidian, powered by an unseen, incomprehensible technology. The device embodies ancient mysticism and industrial precision, standing in a dimly lit cavern where dust motes drift in shafts of shaft light.",
+    "tags": [
+      "ancient-tech",
+      "industrial-mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "photorealistic",
+      "tactile",
+      "bioluminescence",
+      "crystalline-hardware",
+      "glyphs"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** 12‑meter basalt obelisk with copper plating, carved with intricate Ethiopian and Egyptian hieroglyphs, bio‑luminescent veins etched into the stone surface.",
+      "**Face/Sensors:** A crystalline eye at the apex, refracting light into a spectrum; embedded sensor array beneath the eye, glowing faintly when activated.",
+      "**Clothing/Armor:** None; the obelisk’s surface is exposed stone and metal, with no protective covering.",
+      "**Key Features:** Rotating gear system of polished brass and obsidian, bio‑luminescent veins pulsing with blue light, crystalline core at the apex, dust‑covered stone surface in dormant state."
+    ],
+    "evolution": [
+      "Phase 1 (Dormant): The obelisk’s surface is dull, covered in dust, the crystalline eye is dark, gears are still, and no bio‑luminescent glow is visible.",
+      "Phase 2 (Operational): Glyphs illuminate with a soft blue glow, the crystalline eye emits a spectrum of colors, gears rotate silently, and bio‑luminescent veins pulse rhythmically."
+    ],
+    "props": [
+      "Item: Obsidian Tablet – a flat, black tablet etched with matching hieroglyphs, used to activate the engine.",
+      "Item: Copper Coil – a coiled copper conductor that channels power into the obelisk’s core."
+    ],
+    "prompt_keywords": [
+      "obelisk",
+      "ancient",
+      "crystalline",
+      "bioluminescence",
+      "glyphs",
+      "Ethiopian",
+      "Egyptian",
+      "industrial"
+    ],
+    "prompt_block": "A towering 12-meter obelisk of basalt and copper, carved with intricate Ethiopian and Egyptian hieroglyphs, its surface etched with bio‑luminescent veins that pulse with a soft blue glow. At its apex sits a crystalline eye that refracts light into a spectrum of colors, while beneath the stone lies a rotating gear system of polished brass and obsidian. The obelisk stands in a dimly lit cavern, dust motes swirling in shafts of shaft light, the air thick with ancient mysticism and the hum of incomprehensible technology.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Dormant state of the Ankh Engine, with dull stone and no glow.",
+        "prompt_keywords": [
+          "obelisk",
+          "dormant",
+          "dusty",
+          "dark",
+          "stone"
+        ],
+        "prompt_block": "A towering 12-meter obelisk of basalt and copper, carved with intricate Ethiopian and Egyptian hieroglyphs, its surface dull and covered in dust. The crystalline eye at the apex is dark, and the rotating gear system beneath the stone remains still. The obelisk stands in a dimly lit cavern, with shafts of shaft light illuminating dust motes drifting in the air."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_CHAPTER_14_SEGMENT_20",
+    "name": "Chapter 14 Segment 20",
+    "type": "scene",
+    "aliases": [
+      "Chapter 14 Segment 20"
+    ],
+    "roles": [],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_112"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 14,
+        "chapter_end": 14,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

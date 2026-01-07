@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 28 - 81
 
-**Phase Summary:** The Lord in his standard manifestation as a complex, rotating geometric fractal.
-**Phase Keywords:** fractal core, geometric deity, white marble, gold circuits
+**Phase Summary:** The Lord's eye in its fully manifested, hyper‑detail form.
+**Phase Keywords:** glowing white eye, marble, fractal, sacred geometry, hyper-detail
 **Phase Prompt:**
-cinematic medium shot of The Lord of Spirits, a non-humanoid deity made of interlocking white marble fractals and glowing gold geometric lines, hovering in a void, intricate mechanical details, sacred geometry, intense divine rim light, deep shadows, photorealistic, octane render, ancient technological god.
+Extreme macro close‑up of a glowing white eye set in flawless marble, the iris reflecting an infinite fractal of sacred geometry, bio‑luminescent glow emanating from the pupil, surrounded by a crystalline lattice etched with ancient Ethiopian and Egyptian glyphs, hyper‑detail, tactile marble texture, 9:16 aspect ratio, cinematic photorealism, grounded realism, industrial mysticism, ancient‑tech fusion, sacred geometry, hyper‑detail, cinematic lighting
 
 ---

@@ -1,0 +1,100 @@
+{
+  "id": "SCENE_CHANT_AT_GATE_AND_ALTAR",
+  "name": "Chant at gate and altar",
+  "type": "scene",
+  "card": {
+    "description": "A towering basalt gate fused with copper alloy, carved with ancient Ethiopian and Egyptian glyphs, integrated with crystalline hardware that glows with bio‑luminescent light. Adjacent to the gate stands a monolithic altar of obsidian, embedded with quartz crystals and a central obelisk that emits a low hum, forming a sacred nexus for a ritual chant.",
+    "tags": [
+      "gate",
+      "altar",
+      "ancient-tech",
+      "industrial mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "crystalline",
+      "bio‑luminescent",
+      "photorealistic",
+      "cinematic"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Gate – basalt core with copper alloy reinforcements, carved with intertwined Ethiopian and Egyptian glyphs; Altar – obsidian slab with embedded quartz crystals and a central obelisk.",
+      "**Face/Sensors:** Glyphs serve as sensor arrays, emitting soft bio‑luminescent glow when activated; crystalline interface on the gate reflects ambient light, creating subtle prismatic effects.",
+      "**Clothing/Armor:** Not applicable.",
+      "**Key Features:** Integrated crystalline hardware, bio‑luminescent glyphs, humming obelisk, weathered stone textures, metallic patina, subtle light reflections."
+    ],
+    "evolution": [
+      "Phase 1 (Construction): Raw basalt and copper alloy are forged and assembled; glyphs are etched by hand; crystalline hardware is embedded but inactive.",
+      "Phase 2 (Activation): Crystalline interface powers up, glyphs glow, obelisk emits a low hum, creating a charged atmosphere for the chant."
+    ],
+    "props": [
+      "Item: Chanting figures in flowing robes",
+      "Item: Sacred scroll with illuminated text",
+      "Item: Crystal resonator pulsing with light"
+    ],
+    "prompt_keywords": [
+      "ancient-tech",
+      "Ethiopian",
+      "Egyptian",
+      "crystalline",
+      "bio‑luminescent",
+      "gate",
+      "altar",
+      "industrial mysticism",
+      "photorealistic",
+      "cinematic"
+    ],
+    "prompt_block": "A towering basalt gate fused with copper alloy, carved with ancient Ethiopian and Egyptian glyphs, integrated with crystalline hardware that glows with bio‑luminescent light, adjacent to a monolithic obsidian altar embedded with quartz crystals and a central obelisk emitting a low hum, forming a sacred nexus for a ritual chant, photorealistic, cinematic, grounded realism, tactile textures, detailed stone weathering, subtle light reflections, industrial mysticism atmosphere",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Gate and altar in their activated state during the chant",
+        "prompt_keywords": [
+          "ancient-tech",
+          "Ethiopian",
+          "Egyptian",
+          "crystalline",
+          "bio‑luminescent",
+          "gate",
+          "altar",
+          "industrial mysticism",
+          "photorealistic",
+          "cinematic"
+        ],
+        "prompt_block": "A towering basalt gate fused with copper alloy, carved with ancient Ethiopian and Egyptian glyphs, integrated with crystalline hardware that glows with bio‑luminescent light, adjacent to a monolithic obsidian altar embedded with quartz crystals and a central obelisk emitting a low hum, forming a sacred nexus for a ritual chant, photorealistic, cinematic, grounded realism, tactile textures, detailed stone weathering, subtle light reflections, industrial mysticism atmosphere"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_CHANT_AT_GATE_AND_ALTAR",
+    "name": "Chant at gate and altar",
+    "type": "scene",
+    "aliases": [
+      "Chant at gate and altar"
+    ],
+    "roles": [
+      "gate/altar"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_986"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 103,
+        "chapter_end": 103,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

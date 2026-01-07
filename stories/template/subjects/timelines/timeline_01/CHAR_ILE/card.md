@@ -1,29 +1,29 @@
 ## [CHARACTER] Ile (ID: CHAR_ILE)
-**Description:** A cryptic observer and localized guide within the Sector Hagay narrative structure. Ile manifests as a grounded, youthful figure blending ancient Ethiopian pastoral aesthetics with subtle, high-grade cybernetic enhancements. They serve as a bridge between the organic reality of the Watchers' descent and the digital rigidness of the celestial machinery. Their presence is often understated, marked by a quiet intensity and a utilitarian, worn appearance that contrasts with the pristine gold of the Merkabah.
-**Tags:** #character #observer #ancient-tech #ethiopian-cyberpunk #mystic-industrial
+**Description:** Ile, the Sentinel of the Glass Grid, is a tall, gaunt figure cloaked in woven linen that shimmers with embedded copper filigree. Their skin bears faint bioluminescent glyphs that pulse in sync with a crystalline core beneath the sternum. Ile's eyes are a deep azure, each pupil a miniature holographic sphere that projects data streams across the surrounding glass floor. The character exudes an aura of ancient Ethiopian and Egyptian mysticism fused with incomprehensible industrial technology, rendered in photorealistic detail.
+**Tags:** #ancient-tech #Ethiopian #Egyptian #mystic #industrial #photorealistic #bioluminescent #crystalline
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Slender, varying between adolescent and young adult stature. Deep obsidian skin tone with a matte, non-reflective finish, suggesting synthetic durability. Posture is observant, often crouching or leaning, never imposing.
-*   **Face/Sensors:** Face is symmetric but marked by 'Tech-Exegesis' scarification—faint gold circuitry traces running from the temples to the jawline. Eyes are dark but reflect a faint, data-stream amber light in low visibility conditions. No heavy external headgear; distinctive natural hair styled in short, tight braids interwoven with copper filaments.
-*   **Clothing/Armor:** Wears 'Tech-Nomad' layered linens in varying shades of dust, ochre, and slate grey. The fabric appears hand-woven but has the stiffness of ballistic mesh. A rigid, oxidized bronze collar sits at the neck, serving as a vocal interface unit. Hands are wrapped in bandages that conceal interface ports.
-*   **Key Features:** A pervasive aura of static charge; dust motes near them seem to suspend or align in geometric patterns. Their movement is fluid, lacking the robotic jerkiness of lower-tier constructs.
+*   **Body/Form:** Slender, elongated limbs with subtle musculature, height ~1.9m, skin textured with faint, pulsing glyphs that glow blue-green.
+*   **Face/Sensors:** Eyes are a deep azure with a holographic blue sphere in each pupil, projecting data streams; a small crystalline core is visible beneath the sternum, pulsing with light.
+*   **Clothing/Armor:** Coarse linen robes woven with copper filigree and leather straps; the fabric is treated with a nano-ceramic coating that refracts light, creating a subtle iridescence; metal plates are embedded along the shoulders and forearms, etched with ancient hieroglyphs.
+*   **Key Features:** Bioluminescent glyphs along the spine and arms; crystalline core beneath sternum; holographic eye spheres; hovering energy orb that follows the character; subtle heat haze around the feet due to the glass grid.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): The standard manifestation throughout the mid-chapters. Functional, travel-worn, equipped for observation and minor interaction.
+*   Phase 1 (Default): Ile appears as a sentinel in the glass grid forest, fully equipped with ancient linen robes, copper filigree, and bio-luminescent glyphs. The crystalline core is active, and the holographic eye spheres project data streams. No further transformations occur in this state.
 
 ### 3. PROPS & EQUIPMENT
-*   Data-Stylus: A slender, bone-like rod tipped with a glowing crystal for writing on hard light surfaces.
-*   Satchel: A worn leather bag containing various localized sensor nodes and physical artifacts.
+*   Item: Ancient Tablet of Glyphs – a weathered stone tablet etched with the same bioluminescent glyphs that adorn Ile's skin.
+*   Item: Hovering Energy Orb – a translucent, crystalline sphere that hovers a few centimeters above Ile's palm, pulsing with a soft blue light.
 
 ### 4. AI PROMPT KEYWORDS
-`Ile`, `ancient ethiopian tech`, `cybernetic nomad`, `bronze collar`, `circuitry scars`, `matte obsidian skin`, `industrial mysticism`, `cinematic lighting`, `unreal engine 5 render`
+`ancient`, `tech`, `mystic`, `photorealistic`, `bioluminescent`, `crystalline`
 
 ### 5. PROMPT BLOCK (T2I)
-Medium shot of Ile, a young tech-nomad character with deep obsidian skin and matte texture. They have faint gold circuitry scarification on their temples. Wearing dust-colored layered linens made of ballistic mesh and a rigid oxidized bronze collar. Short braided hair interwoven with copper wire. They are holding a bone-like stylus. Background is a blur of ancient stone and industrial machinery. Cinematic lighting, photorealistic, 8k resolution, highly detailed texture, atmospheric depth.
+Tall, slender humanoid standing in a black glass grid forest, wearing coarse linen robes with copper filigree, bioluminescent glyphs pulsing along the skin, eyes with holographic blue spheres, a crystalline core beneath the sternum, surrounded by a hovering energy orb, photorealistic, dramatic rim lighting, 8k, 9:16 aspect ratio, cinematic
 
 ### 6. PHASE PROMPTS
-*   **Default:** The standard travel-worn observer state.
-    Prompt: Medium shot of Ile, a young tech-nomad character with deep obsidian skin and matte texture. They have faint gold circuitry scarification on their temples. Wearing dust-colored layered linens made of ballistic mesh and a rigid oxidized bronze collar. Short braided hair interwoven with copper wire. They are holding a bone-like stylus. Background is a blur of ancient stone and industrial machinery. Cinematic lighting, photorealistic, 8k resolution, highly detailed texture, atmospheric depth.
-    Keywords: travel-worn, observer, dusty linens, bronze collar
+*   **Default:** Ile in full sentinel form, wearing ancient linen robes with copper filigree, bioluminescent glyphs, holographic eye spheres, crystalline core, and hovering energy orb.
+    Prompt: Tall, slender humanoid in a black glass grid forest, wearing coarse linen robes with copper filigree, bioluminescent glyphs pulsing along the skin, eyes with holographic blue spheres projecting data streams, a crystalline core beneath the sternum, surrounded by a hovering energy orb, photorealistic, dramatic rim lighting, 8k, 9:16 aspect ratio, cinematic
+    Keywords: ancient, tech, mystic, photorealistic, bioluminescent, crystalline
 
 ---

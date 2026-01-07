@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 14 - 14
 
-**Phase Summary:** The Mind in its standard, observational state.
-**Phase Keywords:** calm, observing, pulsing glyphs
+**Phase Summary:** Mind in fully activated state: glowing glyphs, polished armor, functional sensor arrays.
+**Phase Keywords:** ancient-tech, crystalline, bio-luminescent, Ethiopian, Egyptian, industrial-mysticism, humanoid, grounded-realism
 **Phase Prompt:**
-Medium shot of The Mind, a surreal bio-mechanical entity. Pale alabaster skin with faint glowing geometric etchings. Eyes are solid liquid mercury. Wearing heavy robes of deep indigo and oxidized bronze metallic mesh. Intricate gold circuitry collar. Cinematic lighting, moody atmosphere, ancient industrial temple background. Photorealistic, highly detailed textures, 8k resolution, grounded realism.
+Mind in default state: a 1.8 m tall humanoid with woven obsidian and bronze armor, a translucent crystalline neural lattice glowing with bio‑luminescent glyphs, a polished basalt mask with pulsing sensor arrays, titanium alloy limbs with subtle scars, all rendered with grounded realism, tactile textures, subtle wear, and a dynamic interplay of light and shadow.
 
 ---

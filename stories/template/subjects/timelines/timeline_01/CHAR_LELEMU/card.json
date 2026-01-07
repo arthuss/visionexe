@@ -3,58 +3,50 @@
   "name": "Lelemu",
   "type": "character",
   "card": {
-    "description": "Lelemu acts as a field technician for the peripheral celestial arrays, a grounded observer monitoring the convergence of physical matter and ancient data streams. They occupy the threshold between the manual labor of the Watchers and the ethereal duties of higher entities, embodying the 'industrial mysticism' of the realm. Their presence suggests a functionary role, maintaining the intricate, crystalline hardware that underpins the reality simulation.",
+    "description": "Lelemu, a solitary archivist of the ancient techno‑rituals, stands as a living conduit between forgotten stone inscriptions and the humming circuitry of the future. His presence is a fusion of Ethiopian and Egyptian motifs, rendered in photorealistic detail that emphasizes tactile textures and the subtle glow of bio‑luminescent glyphs.",
     "tags": [
-      "technician",
-      "observer",
-      "cybernetic",
       "ancient-tech",
-      "afrofuturism",
-      "mystic",
-      "industrial"
+      "industrial mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "photorealistic",
+      "tactile"
     ],
     "visual_anatomy": [
-      "**Body/Form:** Tall and wiry frame, suggesting agility and endurance. Skin is deep ebony, mapped with faint, dormant bioluminescent traceries that pulse faintly when interacting with technology.",
-      "**Face/Sensors:** The lower face is covered by a filtration mask made of oxidised bronze and ceramic. The eyes are augmented with multi-spectral lenses, glowing with a soft, amber light, allowing vision into the electromagnetic spectrum.",
-      "**Clothing/Armor:** Wears utilitarian robes of heavy, woven fabric in shades of slate grey and burnt ochre, stained with oil and stardust. The fabric is cinched with a harness of leather and polymer, laden with tools and data-spools. Heavy boots suitable for rough terrain.",
-      "**Key Features:** Exposed forearms reveal subdermal cabling and metallic ports. A small, floating drone or sensor orb often hovers near their left shoulder, tethered by a thin fiber-optic cable."
+      "**Body/Form:** Robust, slightly stooped frame, covered in weathered leather and reinforced with brass filigree that traces the lines of ancient hieroglyphs.",
+      "**Face/Sensors:** Eyes replaced by polished obsidian lenses that glow faintly with bio‑luminescent glyphs, framed by a narrow brow of etched copper.",
+      "**Clothing/Armor:** Flowing indigo‑dyed wool robe interwoven with copper threads, the hem embroidered with circuitry‑like patterns that mimic the layout of a forgotten temple. Brass gauntlets, articulated and etched with runic engravings, protect the forearms.",
+      "**Key Features:** A crystalline core embedded in the sternum, pulsing with soft blue light; a staff of polished bronze topped with a sapphire‑like crystal that refracts light into a spectrum of ancient colors; a data tablet carved from obsidian, etched with glyphs that flicker when touched."
     ],
     "evolution": [
-      "Phase 1 (Default): Standard operational gear, mask secured, monitoring tools active. The aesthetic is 'working class' within a high-tech divine hierarchy."
+      "Phase 1 (Initial): Lelemu in everyday garb, crystalline core dormant, staff in hand, surrounded by the dim glow of stone lanterns.",
+      "Phase 2 (Activation): Lelemu channels energy, the crystalline core ignites, glyphs flare across his robe, and the staff emits a radiant beam that illuminates the chamber."
     ],
     "props": [
-      "Item: Haptic feedback wand (gold and basalt composite).",
-      "Item: Data-slate with holographic projection interface.",
-      "Item: Utility belt with replacement crystals and fuses."
+      "Item: Staff of the Scribe – polished bronze shaft with a sapphire‑like crystal tip.",
+      "Item: Data Tablet – obsidian slab etched with flickering glyphs."
     ],
     "prompt_keywords": [
-      "Lelemu",
-      "ancient sci-fi",
-      "afrofuturism",
-      "cybernetic technician",
-      "oxidised bronze mask",
-      "amber ocular implants",
-      "heavy woven robes",
-      "slate and ochre",
+      "ancient Ethiopian",
+      "crystalline core",
+      "bio‑luminescent glyphs",
       "industrial mysticism",
-      "subdermal cabling",
-      "cinematic lighting",
-      "hyperrealistic",
-      "8k",
-      "unreal engine 5 render"
+      "photorealistic"
     ],
-    "prompt_block": "Lelemu, a cybernetic technician in an ancient-tech setting, tall lean build with deep ebony skin marked by faint bioluminescent traces, wearing a bronze filtration mask and amber ocular implants, dressed in heavy layered robes of slate grey and burnt ochre with a utility harness, exposed forearms showing subdermal cabling, holding a haptic feedback wand, atmospheric industrial lighting, cinematic composition, photorealistic, 8k, detailed textures of woven fabric and weathered metal.",
+    "prompt_block": "A photorealistic portrait of Lelemu, a solitary archivist from ancient Ethiopia, standing in a dimly lit stone chamber, his robust frame clad in indigo wool robe interwoven with copper filigree, eyes replaced by polished obsidian lenses glowing with bio‑luminescent glyphs, a crystalline core pulsing in his chest, brass gauntlets etched with runic circuitry, holding a staff topped with a sapphire crystal that emits a soft blue light, the scene bathed in warm, tactile stone lighting, reflecting industrial mysticism and ancient‑tech aesthetics.",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Standard operational appearance with mask and tools.",
+        "summary": "Lelemu in his everyday state, core dormant, surrounded by stone and subtle light.",
         "prompt_keywords": [
-          "maintenance gear",
-          "monitoring",
-          "neutral stance"
+          "ancient Ethiopian",
+          "crystalline core dormant",
+          "bio‑luminescent glyphs faint",
+          "industrial mysticism",
+          "photorealistic"
         ],
-        "prompt_block": "Lelemu character concept, full body shot, tall figure with bronze breather mask and glowing amber eyes, wearing heavy grey and ochre technician robes, utility belt with sci-fi tools, deep ebony skin with subtle circuitry scars, standing in a dimly lit ancient industrial corridor, atmospheric volumetric lighting, mystical technology aesthetic, hyperdetailed, 8k, cinematic color grading."
+        "prompt_block": "A photorealistic image of Lelemu in his everyday state, standing in a dim stone chamber, his robust frame in indigo wool robe with copper filigree, eyes as polished obsidian lenses glowing faintly with bio‑luminescent glyphs, a dormant crystalline core in his chest, brass gauntlets with runic engravings, holding a bronze staff topped with a sapphire crystal, the scene illuminated by warm stone lanterns, emphasizing tactile textures and ancient‑tech mysticism."
       }
     ]
   },

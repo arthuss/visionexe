@@ -1,0 +1,96 @@
+{
+  "id": "CHAR_WEZERAD",
+  "name": "Wezerad",
+  "type": "character",
+  "card": {
+    "description": "Wezerad is a towering figure of ancient‑tech mysticism, blending the austere elegance of Ethiopian and Egyptian motifs with incomprehensible, crystalline machinery. Their silhouette is defined by a layered, obsidian‑bronze cuirass etched with bioluminescent hieroglyphs that pulse in sync with an unseen power source. The head is crowned by a stylized headdress reminiscent of the Ethiopian coronation crown, fused with a translucent, lattice‑structured visor that projects holographic glyphs. The body is clad in a modular armor that incorporates interlocking plates of polished basalt and copper, with embedded crystal conduits that glow faintly. Their limbs are reinforced with titanium alloys, and their hands bear gauntlets that channel energy through runic circuits. The overall aesthetic is grounded realism, with tactile textures and subtle light reflections, avoiding any cartoonish or generic sci‑fi tropes.",
+    "tags": [
+      "ancient-tech",
+      "industrial mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "bioluminescent",
+      "crystalline armor",
+      "mystic engineer",
+      "photorealistic",
+      "tactile"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Tall, lean, 2.1 m, muscled, layered armor of basalt plates and copper accents, titanium‑reinforced limbs.",
+      "**Face/Sensors:** Headdress with lattice visor, bioluminescent glyphs, amber ocular sensors that glow in rhythm with internal energy.",
+      "**Clothing/Armor:** Obsidian‑bronze cuirass, modular basalt plates, copper trim, crystalline conduits, gauntlets with runic circuits, copper‑sole boots.",
+      "**Key Features:** Pulsating glyphs, crystalline hardware, bioluminescent veins, energy channels, holographic glyph projection."
+    ],
+    "evolution": [
+      "Phase 1 (Prototype): Basic basalt armor with simple glyphs, limited energy conduits, and a rudimentary lattice visor.",
+      "Phase 2 (Advanced): Upgraded crystalline lattice, enhanced energy channels, augmented visor projecting dynamic glyphs, and reinforced titanium limbs."
+    ],
+    "props": [
+      "Item: Scepter of Glyphs – a staff topped with a crystal core that projects glyphs into the air.",
+      "Item: Crystalline Gauntlet – hand armor embedded with translucent crystal conduits for energy manipulation."
+    ],
+    "prompt_keywords": [
+      "ancient-tech",
+      "Ethiopian",
+      "Egyptian",
+      "bioluminescent glyphs",
+      "crystalline armor",
+      "photorealistic",
+      "tactile",
+      "industrial mysticism",
+      "grounded realism"
+    ],
+    "prompt_block": "A towering humanoid figure standing at 2.1 meters, clad in obsidian‑bronze armor etched with bioluminescent hieroglyphs that pulse in sync with an unseen power source. The head is crowned by a stylized Ethiopian‑Egyptian headdress fused with a translucent lattice visor projecting holographic glyphs. The body is layered with polished basalt plates and copper accents, reinforced with titanium limbs, and embedded with glowing crystal conduits. The gauntlets channel energy through runic circuits, and the boots feature copper soles. The scene is cinematic, photorealistic, and tactile, with subtle light reflections on the armor and a grounded, industrial mysticism atmosphere.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Base form of Wezerad with standard armor and glyphs.",
+        "prompt_keywords": [
+          "ancient-tech",
+          "Ethiopian",
+          "Egyptian",
+          "bioluminescent glyphs",
+          "crystalline armor",
+          "photorealistic",
+          "tactile",
+          "industrial mysticism",
+          "grounded realism"
+        ],
+        "prompt_block": "A towering humanoid figure standing at 2.1 meters, clad in obsidian‑bronze armor etched with bioluminescent hieroglyphs that pulse in sync with an unseen power source. The head is crowned by a stylized Ethiopian‑Egyptian headdress fused with a translucent lattice visor projecting holographic glyphs. The body is layered with polished basalt plates and copper accents, reinforced with titanium limbs, and embedded with glowing crystal conduits. The gauntlets channel energy through runic circuits, and the boots feature copper soles. The scene is cinematic, photorealistic, and tactile, with subtle light reflections on the armor and a grounded, industrial mysticism atmosphere."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_WEZERAD",
+    "name": "Wezerad",
+    "type": "character",
+    "aliases": [
+      "Wezerad"
+    ],
+    "roles": [
+      "unknown"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_160"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 20,
+        "chapter_end": 20,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

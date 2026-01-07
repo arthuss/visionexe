@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 14 - 14
 
-**Phase Summary:** Standard containment state with steady internal combustion.
-**Phase Keywords:** steady_burn, contained_energy, welding_arc_light
+**Phase Summary:** Esat in the wasteland, channeling elemental energy with motion trails and ghost copies.
+**Phase Keywords:** Esat, ancient-tech, crystalline, glyphs, bio-luminescence, wasteland, motion-trail, desaturated, industrial-mysticism
 **Phase Prompt:**
-A cinematic full body shot of Esat, the Industrial Fire Elemental. The character is a towering construct of scorched black basalt and hot bronze, designed to contain a blinding internal nuclear fire. The armor features cooling fins and radiator grilles resembling ancient Egyptian architectural columns. Molten light bleeds through cracks in the plating. The face is a void of heat behind a vertical obsidian slit. Atmospheric embers, volumetric smoke, heavy industrial machinery background. 8k, photorealistic, textural, tactile realism, desaturated grunge with high contrast light.
+A photorealistic vertical 9:16 cinematic shot of Esat, a humanoid elemental artifact, standing in a desaturated wasteland. His basaltic skin is etched with glowing Ge'ez glyphs and integrated crystalline lattice that pulses with bio‑luminescent light. He is surrounded by motion trails and horizontal screen‑tearing lines, with translucent ghost copies of himself fading into the broken horizon. The atmosphere is cold, desaturated, and industrial, with ancient Ethiopian and Egyptian motifs fused into advanced incomprehensible technology, rendered in tactile, photorealistic detail.
 
 ---

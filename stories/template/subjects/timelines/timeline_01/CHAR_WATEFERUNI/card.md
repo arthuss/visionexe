@@ -1,0 +1,29 @@
+## [CHARACTER] Wateferuni (ID: CHAR_WATEFERUNI)
+**Description:** Wateferuni is an enigmatic guardian of the Obsidian Temple, a towering figure whose form blends basaltic musculature with crystalline circuitry, bearing luminous glyphs that pulse with solar energy. Their presence exudes a sense of ancient reverence and incomprehensible power, as if the very fabric of time and technology converge in their silhouette.
+**Tags:** #ancient-tech #industrial-mysticism #Ethiopian #Egyptian #crystalline #solar #guardian
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** Titanically humanoid, 2.3m tall, basaltic skin with embedded quartz lattice, subtle titanium alloy exoskeletal ribs, weathered by centuries of solar flux.
+*   **Face/Sensors:** Facial structure adorned with iridescent solar lenses, micro‑etched glyphs that shift, translucent ocular membrane refracting light into a bio‑luminescent glow.
+*   **Clothing/Armor:** Long robe woven from basalt fibers and silvered linen, embroidered with gold thread and hieroglyphic patterns that glow when activated, reinforced with titanium filigree.
+*   **Key Features:** Crystalline obsidian staff, floating holographic data crystal, chameleon‑like cloak that adapts to ambient light, glyph network across chest channeling solar energy.
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Default): Wateferuni remains unchanged, standing in the obsidian temple with glyphs pulsing in solar light.
+
+### 3. PROPS & EQUIPMENT
+*   Item: Obsidian Scepter
+*   Item: Floating Data Crystal
+
+### 4. AI PROMPT KEYWORDS
+`photorealistic`, `ancient-tech`, `Ethiopian`, `Egyptian`, `crystalline`, `glyphs`, `solar`, `metallic`, `tactile`
+
+### 5. PROMPT BLOCK (T2I)
+Wateferuni, a towering 2.3m guardian of the Obsidian Temple, photorealistic, ancient-tech industrial mysticism, basaltic skin with embedded quartz lattice, luminous glyphs pulsing with solar energy, solar lenses on eyes, long basalt‑and silvered linen robe embroidered with gold thread and hieroglyphic patterns that glow, titanium filigree armor, crystalline obsidian staff, floating holographic data crystal, chameleon cloak adapting to ambient light, tactile textures, grounded realism, cinematic lighting, dramatic shadows, high detail, 8k resolution
+
+### 6. PHASE PROMPTS
+*   **Default:** Wateferuni in default state, standing in the obsidian temple with glowing glyphs.
+    Prompt: Wateferuni, a towering 2.3m guardian of the Obsidian Temple, photorealistic, ancient-tech industrial mysticism, basaltic skin with embedded quartz lattice, luminous glyphs pulsing with solar energy, solar lenses on eyes, long basalt‑and silvered linen robe embroidered with gold thread and hieroglyphic patterns that glow, titanium filigree armor, crystalline obsidian staff, floating holographic data crystal, chameleon cloak adapting to ambient light, tactile textures, grounded realism, cinematic lighting, dramatic shadows, high detail, 8k resolution
+    Keywords: photorealistic, ancient-tech, Ethiopian, Egyptian, crystalline, glyphs, solar, metallic, tactile
+
+---

@@ -1,57 +1,101 @@
-CONCEPT: UPLINK_PROTOCOL_V47 // BATCH_PROCESSING_EVENT
+CONCEPT: UPLINK_PROTOCOL_V47_REV3 // SYSTEM_AUDIT_EXECUTION
 
 1. BIO-INJECTION
-Enoch (User: Observer_Class) erhält ein passives Firmware-Update auf dem optischen Nerv.
-Manifestation: `RETINAL_HUD_OVERLAY`. Seine Iris weitet sich mechanisch, eine feine Lasergitter-Projektion legt sich über sein Sichtfeld. Er sieht nicht mehr die physische Oberfläche der Welt, sondern die Metadaten-Tags jedes Objekts. Sein Nackeninterface pulsiert synchron zum Upload-Stream der "Gebete" (Datenpakete).
+Technologie: HAPTIC_DATA_SIPHON_INTERFACE.
+Manifestation: Keine reine Farbänderung. Das "Blut der Gerechten", das aufsteigt, nutzt Henoch als physischen I/O-Port. Aus dem Boden schießende Glasfaserkabel ("Data-Tendrils") bohren sich mikroskopisch in seine Fußsohlen. Die Daten rasen sichtbar unter seiner Haut die Beine hoch, färben die Adern schwarz und pulsieren rot, bis sie die Augen erreichen. Die Sclera wird nicht einfach schwarz, sie bricht auf ("Buffer Overflow"), und überschüssiger Code 'blutet' als schwarze, viskose Flüssigkeit (Coolant-Leak) aus den Tränenkanälen. Er ist kein heiliger Mann, er ist ein überhitzter Router.
 
 2. MESH-BREAK
-Die physische Realität der Erde (Client-Side) verliert ihre Opazität.
-Effekt: `VOXEL_DISSOLVE`. Der Boden, Felsen und Vegetation lösen sich in halbtransparente Voxel-Wolken auf. Darunter werden die "Leitungen" sichtbar: Dicke, pulsierende Glasfaserkabel aus rotem Licht (Blut der Gerechten), die vertikal in den Himmel schießen. Die Geometrie der Welt wird zur reinen Topologie eines Netzwerks.
+Technologie: VERTEX_DISPLACEMENT_ERROR.
+Visualisierung: Die physische Realität (Erde) hält der Bandbreite des Uploads nicht stand. Der Boden wird nicht transparent, er reißt. Geometrie-Polygone werden gewaltsam nach oben verzerrt (Spikes), wo die roten Datenströme durchbrechen. Texturen flackern zwischen "Dirt_Map" und "Null_Texture" (Magenta/Schwarz Schachbrett). Objekte in der Nähe (Steine, Pflanzen) lösen sich in Voxel-Wolken auf, um Speicher freizugeben.
 
 3. PACING-STRATEGIE
-Rhythmus: `BUFFERING_TO_SYNC`.
-Phase 1 (Upload): Schnell, chaotisch, tausende rote Datenströme rasen aufwärts. Schnelle Schnitte, Motion Blur.
-Phase 2 (Consensus): Die "Heiligen" (Server-Nodes) synchronisieren sich. Der Schnitt wird extrem ruhig, fast statisch. Symmetrische Bildkompositionen.
-Phase 3 (Execution): Der "Head of Days" (Admin) greift ein. Ein einziger, schwerer, langsamer Zoom auf den Thron. Absolute Stabilität.
+Rhythmus: `PACKET_LOSS_TO_CLOCK_SYNC`.
+Phase 1 (Upload): Stutter-Edit. Frames fehlen. Das Bild friert kurz ein ("Lag"), springt dann vorwärts. Visuelles Tearing (Zerrissenes Bild).
+Phase 2 (Aggregation): Glatte Interpolation. Sobald die Wächter (Server) übernehmen, wird die Framerate unnatürlich hoch (120fps Look), alles bewegt sich in perfekter, unheimlicher Fluidität.
+Phase 3 (Admin-Access): Absolute Statik. Keine Kamerawewegung mehr. Nur Lichtänderungen.
 
 4. AUDIO-DESIGN
-Ersatz für Chöre: `DATA_CENTER_HARMONICS`.
-Layer 1 (Base): Ein tiefes, sub-basses Dröhnen (40Hz), wie riesige Kühlaggregate.
-Layer 2 (Mids): Das rhythmische Klicken von tausenden mechanischen Relais, die gleichzeitig schalten (der "Gesang" der Heiligen).
-Layer 3 (Highs): Ein feines, digitales Zirpen (Coil Whine), das die Datenübertragung der "Gebete" moduliert.
+Ersatz für Chöre: `HVAC_TURBINE_SYNCHRONIZATION`.
+Layer 1: Das unregelmäßige, panische Piepen von BIOS-Fehlermeldungen (Die Gebete der Gerechten).
+Layer 2: Das ansteigende Heulen von gigantischen Server-Lüftern, die hochfahren.
+Layer 3: Der "Moment der Einheit" (Vers 2) ist kein Gesang, sondern der Moment, in dem Tausende asynchrone Lüfterfrequenzen in eine einzige, reine Resonanzfrequenz (Phase Lock) einrasten. Ein dröhnender THX-Deep-Note-Effekt.
 
 5. ÜBERGÄNGE
-Technik: `LAYER_VISIBILITY_TOGGLE`.
-Kein physischer Ortswechsel. Die Kamera bleibt stationär, aber der Render-Layer wechselt von "Earth_Texture_Map" zu "System_Architecture_View". Die Wolken werden zu Daten-Clustern, die Sonne zum zentralen Interface-Port.
+Technik: `Z_BUFFER_FIGHTING`.
+Der Thronsaal wird nicht geladen, nachdem die Erde verschwindet. Er wird *in* die Erde geladen. Für Sekundenbruchteile überlagern sich beide Realitäten. Ein Server-Rack steht halb in einem Felsen. Der Thron schneidet durch einen Baum. Die Engine "entscheidet" sich dann für den Thronsaal (höhere Priorität) und culling entfernt die Erd-Objekte abrupt.
 
-6. FRAMEWORK & TIMING (60s Target)
-Total Clips: 16 (Puffer für Komplexität).
-[00-10s] UPLOAD: 3 Clips. Erde wird transparent. Rote Datenströme (Blut) schießen nach oben.
-[10-25s] AGGREGATION: 4 Clips. Die Datenströme treffen im "Himmel" auf die Wächter-Nodes. Diese leuchten synchron auf (Handshake).
-[25-45s] ADMIN_ACCESS: 5 Clips. Der "Head of Days" erscheint. Die "Bücher der Lebenden" (Holografische Datenbanken) entfalten sich.
-[45-60s] VALIDATION: 4 Clips. Status-LEDs wechseln von Rot (Error) auf Gold (Processed). Enoch Close-Up (Reaktion).
+6. FRAMEWORK & TIMING
+Total Clips: 16 (Erweiterter Puffer für Detail-Shots).
+[00-20s] UPLOAD_STRESS: 6 Clips. Henochs Körper als Leiter. Boden bricht auf. Dateninjektion.
+[20-40s] SERVER_HANDSHAKE: 5 Clips. Orbit-Ansicht. Wächter-Monolithen synchronisieren sich.
+[40-60s] CORE_AUDIT: 5 Clips. Head of Days initialisiert. Kristall-Speicher (Bücher) öffnen sich.
 
 7. DIALOG-CHECK
-Kein verbaler Dialog.
-Kommunikation ist rein visuell: Datenstrom rein -> Verarbeitung -> Bestätigungssignal raus.
-Shot-Reverse-Shot wird genutzt für: Blick von Enoch (unten) auf die Datenströme (oben) und zurück auf seine reflektierenden Augen.
+Kein verbaler Dialog. Rein visuelles Handshake-Protokoll.
+Shot A: Henochs Augen projizieren einen QR-Code-artigen Lichtstrahl in den Himmel.
+Shot B: POV Henoch (HUD-Overlay) zeigt "CONNECTION ESTABLISHED - AWAITING ACK".
+Shot C: Die Wächter (Server) ändern ihre Status-LEDs von Rot (Idle) auf Weiß (Processing).
 
 8. SPATIAL CONTEXT (ARRIVAL)
-Enoch befindet sich auf einer `OBSERVATION_PLATFORM`.
-Er steht auf einer transparenten Glasplatte im Orbit (oder einer abstrakten Höhe). Unter ihm die Erde als leuchtendes Gittermodell. Über ihm die massive Struktur des Thronsaals.
-Establishing Shot: Extreme High Angle (God's Eye View) auf die Erde, die wie eine Platine aussieht, von der rote Signale aufsteigen.
+Methode: `OVERWRITE_INSTANCE`.
+Keine Reise. Henoch bleibt an exakt derselben XYZ-Koordinate. Die Welt um ihn herum wird "gepatcht".
+Establishing Shot 1: Henoch in der Wüste (Low Poly). Rote Strahlen brechen aus dem Boden.
+Establishing Shot 2 (Match Cut): Henoch in exakt gleicher Pose, aber die Wüste ist jetzt der spiegelnde schwarze Boden des Thronsaals, die roten Strahlen sind jetzt goldene Datenleitungen.
 
-9. BEISPIEL-PROMPT (WAN 2.1 / FLUX)
-Szenario: Segment 3 - The Opening of the Books.
+9. SZENEN-LISTE & PROMPTS (WAN 2.1 SPEC)
 
+[SCENE 1: UPLOAD_STRESS]
+Context: Kap 47, Seg 1. Gebet und Blut steigen auf. Henoch als Interface.
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** The Head of Days (System Admin Entity). **Physique:** Abstract humanoid silhouette composed of pure, blinding white magnesium fire. No facial features visible, only intense radiance. **Apparel:** Robes made of shifting fractal geometry, texture resembling white ceramic plates floating in zero-gravity. **Aura:** A halo of rotating golden server-blades hovering behind the head.
+> **Actor:** Enoch (Role: I/O_Conduit). **Physique:** Elderly male body under extreme tensile stress, veins protruding black against pale skin. **Skin-Shader:** `TRANSLUCENT_SKIN_MAT`. Subsurface scattering reveals glowing red data-lines traveling up the neck arteries instead of blood. **Optics:** `OCULAR_BURST`. Eyes wide open, black oil (coolant) leaking from tear ducts, sclera replaced by scrolling red terminal text. **Expression:** Silent scream, jaw locked in tetanus-like rigidity.
 
 **[BLOCK 2: PROP_&_INTERACTION]**
-> **Primary Prop:** `THE_BOOKS_OF_THE_LIVING`. Not paper, but massive, vertical holographic waterfalls of binary code and DNA sequences. **Action:** The entity raises a hand; the waterfalls split open, revealing a specific glowing red entry (The Blood of the Righteous). **VFX:** The code scrolls upward at impossible speed, casting blue light onto the entity's ceramic robes.
+> **Primary Prop:** `DATA_SPIKES`. Jagged, glowing red crystal shards erupting from the earth, physically piercing the soles of Enoch's boots/feet (suggested connection). **Action:** The red light travels from the ground, through the spikes, into Enoch's body, pulsing with the rhythm of a heavy heartbeat. **VFX:** Heat distortion rising from Enoch's shoulders, air shimmering like hot asphalt.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Mainframe Throne Room. **Architecture:** Infinite black void floor reflecting the white entity. Background is filled with thousands of floating, concentric rings of gold metal (The Ophanim/Wheels). **Atmosphere:** Sterile, dust-free, vacuum hard-vacuum look. **Lighting:** High-contrast chiaroscuro. The entity is the sole light source, illuminating the scrolling data walls.
+> **Location:** Earth_Surface_Glitch_Layer. **Terrain:** Barren rocky ground, but the geometry is breaking. **Texture:** Rocks flickering into wireframe meshes. **Atmosphere:** Dirty, dusty air filled with floating "dead pixels" (black squares). **Lighting:** Environment is dark grey, lit solely by the intense, bloody red glow of the uprising data.
 
 **[BLOCK 4: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Low Angle, Slow Push-In (Dolly Forward). **Lens:** 24mm Wide Angle to emphasize scale. **Focus:** Deep focus, keeping both the entity and the scrolling data sharp. **Style:** Kubrickian symmetry, 8k resolution, ray-traced reflections on the black floor, cold color temperature (8000K), cinematic aspect ratio 2.39:1.
+> **Camera:** Low Angle, Shaky Handheld (Chaos). **Lens:** 35mm with heavy chromatic aberration at edges. **Focus:** Rapid rack focus breathing between the ground spikes and Enoch's face. **Style:** Body-horror cyberpunk, visceral, high contrast red/grey, granular noise.
+
+[SCENE 2: SERVER_HANDSHAKE]
+Context: Kap 47, Seg 2. Die Heiligen (Wächter) vereinen sich zu einer Stimme.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** The Holy Ones (System Watchdogs). **Physique:** Not anthropomorphic. Tall, rectangular server-blade monoliths, floating in zero-g formation. **Material:** Brushed matte black metal with intricate gold circuitry traces. **Animation:** They rotate independently, then suddenly snap-lock into parallel alignment.
+
+**[BLOCK 2: PROP_&_INTERACTION]**
+> **Primary Prop:** `OPTICAL_INTERCONNECTS`. Laser beams firing between the monoliths, forming a complex web of light. **Action:** As they align, the lasers turn from chaotic blinking to a solid, unified beam of white light pointing upward. **VFX:** Particle effects of "digital dust" being sucked into the center of the formation.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Upper_Atmosphere / Low_Orbit. **Background:** The curvature of the Earth visible below, covered in a grid overlay. **Atmosphere:** Space vacuum, high clarity. **Lighting:** Harsh, unidirectional sunlight (Key Light) casting long hard shadows on the server blades.
+
+**[BLOCK 4: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Smooth orbital dolly shot (Stabilized). **Lens:** 85mm Anamorphic. **Focus:** Deep depth of field. **Style:** Clean, sterile sci-fi, "Apple" product reveal aesthetic but industrial, perfectly symmetrical composition.
+
+[SCENE 3: CORE_AUDIT_INIT]
+Context: Kap 47, Seg 3. Head of Days (Root) und die Bücher (Storage).
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Head of Days (The Kernel). **Physique:** A blindingly bright silhouette of white plasma energy, vaguely humanoid but without surface detail. **Effect:** The figure constantly shifts scale, appearing giant then normal size (LOD glitching). **Aura:** Surrounded by rings of floating UI windows showing rapid code scrolling.
+
+**[BLOCK 2: PROP_&_INTERACTION]**
+> **Primary Prop:** `THE_BOOKS_OF_THE_LIVING`. Not paper. Giant blocks of transparent quartz glass rising from the floor. **Action:** The Head of Days raises a hand; a laser scans the glass blocks. **VFX:** Inside the glass, millions of tiny points of light (user records) ignite gold simultaneously.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** The Mainframe (Throne Room). **Architecture:** Floor is a perfect mirror (`RAYTRACE_REFLECTION_MAX`). Walls are infinite vertical banks of humming server racks fading into darkness. **Atmosphere:** Cold, blue-tinted cleanroom air. **Lighting:** The white plasma figure is the sole light source, creating dramatic, moving shadows of the glass blocks on the floor.
+
+**[BLOCK 4: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Slow push-in (Dolly Zoom). **Lens:** 24mm Wide Angle to show scale. **Focus:** Sharp. **Style:** Epic scale, cinematic grandeur, high dynamic range, stark contrast between the blinding white entity and the deep black environment.
+
+[SCENE 4: SYSTEM_VALIDATION]
+Context: Kap 47, Seg 4. Freude der Heiligen, Blut eingefordert.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Enoch (Post-Process). **Physique:** Returning to normal human parameters. **Skin-Shader:** The red veins cool down to blue. **Optics:** The black oil in eyes recedes, normal white sclera returning, pupils dilated. **Expression:** Exhaustion, heavy breathing (steam visible).
+
+**[BLOCK 2: PROP_&_INTERACTION]**
+> **Primary Prop:** `VALIDATION_TOKEN`. A holographic "Checkmark" or Golden Ring symbol dissolving in the air before him. **Action:** The red data spikes in the ground shatter into harmless grey dust. **VFX:** The oppressive red lighting shifts to a calm, soft gold ambient light.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Earth_Surface_Restored. **Terrain:** The wireframe glitches fill in with high-res textures (grass, rock) again. **Atmosphere:** The digital rain stops. Clouds part. **Lighting:** Soft, natural "Golden Hour" sunlight breaking through the storm.
+
+**[BLOCK 4: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Static tripod shot (Calm). **Lens:** 50mm Standard. **Focus:** Soft focus on Enoch. **Style:** Relief, restoration of order, cinematic realism.

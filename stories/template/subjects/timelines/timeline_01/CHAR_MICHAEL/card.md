@@ -1,29 +1,32 @@
 ## [CHARACTER] Michael (ID: CHAR_MICHAEL)
-**Description:** A towering 8ft archangelic entity, representing the fusion of ancient divinity and advanced surveillance technology. Michael is not flesh, but a construct of prismatic glass and seamless metal, designed for the observation and enforcement of cosmic order. His presence is commanding, strictly symmetrical, and radiates a warm, synthetic golden light.
-**Tags:** #character #angel #sci-fi #industrial_mysticism #mechanized_divinity
+**Description:** Michael is the towering Archangel who embodies the fusion of ancient Ethiopian/Egyptian mysticism and incomprehensible high‑tech. Standing 8 ft tall, his form is a sculpted silhouette of crystalline armor that glows with bio‑luminescent glyphs etched in gold. The armor functions as a massive heatsink, its layered fins reflecting a warm, metallic sheen. A smooth silver dome crowns his head, pierced by a single vertical blue LED slit that pulses with data. His gauntleted hands are forged from prismatic plate—shifting glass shards that refract the surrounding light, creating a kaleidoscopic halo. Thick black cables snake from the base of his skull to the void above, pulsing with golden data packets. In the underground hills, he emits vertical beams of solid light that pin his adversaries to bedrock, while in the Null Void Admin Panel his presence radiates a warm, majestic atmosphere of pure technology.
+**Tags:** #archangel #golden-armor #prismatic-plate #silicon-dome #ancient-tech #bio-luminescence #glyphs #heatsink #data-cables
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Towering 8ft tall frame. Under-structure composed of perfectly polished, seamless golden metallic plates, strictly symmetrical and geometric.
-*   **Face/Sensors:** A featureless silver face-plate/mask. No mouth or nose. A single, vertical blue slit runs down the center of the face, pulsing with intense light (sensor array).
-*   **Clothing/Armor:** Prismatic Plate armor overlaid on the golden chassis, made of shifting glass shards that refract environmental light. The armor appears both physical and ephemeral.
-*   **Key Features:** Gauntleted hands, warm inviting golden light radiating from the core, vertical blue sensor pulse.
+*   **Body/Form:** 8 ft tall, angular musculature, armor plates fused to bone, crystalline fins radiating heat, subtle wear marks from countless battles.
+*   **Face/Sensors:** Smooth silver dome, single vertical blue LED slit, no visible mouth, bio‑luminescent glyphs etched along the rim.
+*   **Clothing/Armor:** Golden heatsink armor with layered cooling fins, prismatic plate armor of shifting glass shards, gauntleted hands with embedded data conduits.
+*   **Key Features:** Vertical beams of solid light emanating from chest, thick black data cables from skull to void, pulsing golden data packets, reflective floor mirroring golden glow.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): The standard angelic form seen guiding Henoch—armored in prismatic glass and gold, face masked by the silver sensor-slit.
+*   Phase 1 (Initial): Golden heatsink armor with layered cooling fins, basic data cables, silver dome mask.
+*   Phase 2 (Advanced): Prismatic plate armor added, glass shards refracting light, bio‑luminescent glyphs, enhanced data conduits.
 
 ### 3. PROPS & EQUIPMENT
-*   Prismatic Plate Armor
-*   Silver Sensor Mask
+*   Item: Golden Heatsink Armor
+*   Item: Data Cables
+*   Item: Prismatic Plate Armor
+*   Item: Silicon Dome Mask
 
 ### 4. AI PROMPT KEYWORDS
-`Archangel Michael`, `Prismatic Plate Armor`, `Silver Mask Vertical Blue Slit`, `Towering Sci-Fi Entity`, `Industrial Mysticism`, `Seamless Golden Metal`, `Shifting Glass Shards`, `8k`, `Cinematic Lighting`
+`golden`, `prismatic`, `silicon`, `ancient`, `tech`, `light-beams`, `geological`, `bio-luminescence`, `glyphs`
 
 ### 5. PROMPT BLOCK (T2I)
-A photorealistic, cinematic medium shot of Archangel Michael, a towering 8ft entity of industrial mysticism. He wears Prismatic Plate armor composed of shifting glass shards over a seamless golden metallic chassis. His face is a featureless smooth silver mask with a single vertical blue slit sensor pulsing with light. Strictly symmetrical and geometric design. Warm golden light radiates from his form. The texture is a mix of polished metal and refractive glass. High contrast, volumetric lighting, 8k resolution, ancient-tech aesthetic.
+8ft tall archangel Michael in a dramatic cinematic pose, golden heatsink armor with layered cooling fins, prismatic plate armor of shifting glass shards refracting light, smooth silver dome mask with a single vertical blue LED slit pulsing with data, thick black cables from skull to void above, emitting vertical beams of solid light that pin enemies to bedrock, bio‑luminescent glyphs etched in gold, warm majestic atmosphere, photorealistic, tactile textures, ancient Ethiopian/Egyptian motifs fused with incomprehensible high‑tech, 8k resolution, 9:16 aspect ratio
 
 ### 6. PHASE PROMPTS
-*   **Default:** Towering armored entity, silver mask with blue vertical slit, prismatic glass armor over gold.
-    Prompt: A photorealistic, cinematic medium shot of Archangel Michael, a towering 8ft entity of industrial mysticism. He wears Prismatic Plate armor composed of shifting glass shards over a seamless golden metallic chassis. His face is a featureless smooth silver mask with a single vertical blue slit sensor pulsing with light. Strictly symmetrical and geometric design. Warm golden light radiates from his form. The texture is a mix of polished metal and refractive glass. High contrast, volumetric lighting, 8k resolution, ancient-tech aesthetic.
-    Keywords: Prismatic Plate Armor, Silver Mask Vertical Blue Slit, Seamless Golden Metal
+*   **Default:** Michael in his full golden and prismatic armor, emitting beams of light in an underground setting.
+    Prompt: 8ft tall archangel Michael in full golden heatsink armor with layered cooling fins, prismatic plate armor of shifting glass shards, smooth silver dome mask with a single vertical blue LED slit pulsing with data, thick black cables from skull to void above, emitting vertical beams of solid light that pin enemies to bedrock, bio‑luminescent glyphs etched in gold, warm majestic atmosphere, photorealistic, tactile textures, ancient Ethiopian/Egyptian motifs fused with incomprehensible high‑tech, 8k resolution, 9:16 aspect ratio
+    Keywords: golden, prismatic, light-beams, underground, ancient-tech
 
 ---

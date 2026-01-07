@@ -1,0 +1,92 @@
+{
+  "id": "SCENE_CHAPTER_15_SEGMENT_3",
+  "name": "Chapter 15 Segment 3",
+  "type": "scene",
+  "card": {
+    "description": "The Obsidian Chrono-Relic is a monolithic slab of volcanic glass, 2.5 m long, 1.5 m wide, and 0.5 m thick, etched with a fusion of Ethiopian and Egyptian glyphs. At its center sits a crystalline core that hums with bio‑luminescent blue‑green light, surrounded by a lattice of quartz veins that refract the glow. The relic rests on a stone pedestal carved with lotus and djed columns, encircled by a ring of runes that emit a faint, pulsating luminescence. In the scene it serves as a temporal anchor, its light casting dramatic shadows and subtle ripples of time distortion across the surrounding stone.",
+    "tags": [
+      "ancient-tech",
+      "industrial-mysticism",
+      "Ethiopian-Egyptian",
+      "obsidian",
+      "crystalline-core",
+      "bio-luminescent",
+      "time-manipulation",
+      "photorealistic",
+      "tactile"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Monolithic obsidian slab, 2.5 m × 1.5 m × 0.5 m, beveled edges with gold filigree, weathered surface with micro‑cracks and mineral deposits.",
+      "**Face/Sensors:** Central crystalline core (0.3 m diameter) pulsing blue‑green bio‑luminescence, surrounded by etched glyphs that glow in sync with the core; embedded quartz lattice channels light.",
+      "**Clothing/Armor:** None.",
+      "**Key Features:** Embedded quartz lattice, bio‑luminescent algae within core, gold filigree, Ethiopian and Egyptian glyphs, stone pedestal with lotus and djed columns, ring of runes."
+    ],
+    "evolution": [
+      "Phase 1 (Dormant): Relic is dark, glyphs are matte, no light emanates from core.",
+      "Phase 2 (Activated): Core glows, glyphs pulse, runic ring emits faint luminescence, subtle time‑distortion ripples appear in the air."
+    ],
+    "props": [
+      "Item: Stone Pedestal carved with lotus and djed columns, 1 m high, textured with mineral veins.",
+      "Item: Ring of Runes, 0.5 m diameter, etched with glowing glyphs."
+    ],
+    "prompt_keywords": [
+      "obsidian",
+      "crystalline core",
+      "bio-luminescent",
+      "Ethiopian glyphs",
+      "Egyptian lotus",
+      "time distortion",
+      "photorealistic",
+      "industrial mysticism",
+      "tactile textures"
+    ],
+    "prompt_block": "A massive obsidian slab, 2.5 meters long and 1.5 meters wide, etched with intricate Ethiopian and Egyptian glyphs, sits atop a stone pedestal carved with lotus and djed columns. A central crystalline core glows with bio‑luminescent blue‑green light, surrounded by a ring of runes that emit a faint glow. The scene is illuminated by the relic's pulsing light, casting dramatic shadows on the surrounding stone, with subtle time distortion ripples visible in the air, rendered in photorealistic detail, industrial mysticism aesthetic, grounded realism, tactile textures, high contrast lighting, cinematic.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Dormant relic with no glow, subtle ambient lighting.",
+        "prompt_keywords": [
+          "obsidian",
+          "Ethiopian glyphs",
+          "Egyptian lotus",
+          "stone pedestal",
+          "low light",
+          "photorealistic",
+          "industrial mysticism"
+        ],
+        "prompt_block": "A massive obsidian slab, 2.5 meters long and 1.5 meters wide, etched with intricate Ethiopian and Egyptian glyphs, sits atop a stone pedestal carved with lotus and djed columns. The relic is dormant, its surface matte and dark, with no visible glow from the core. Ambient light from the surrounding stone casts soft, realistic shadows, emphasizing the tactile textures of the obsidian and the worn stone, rendered in photorealistic detail, industrial mysticism aesthetic, grounded realism, cinematic."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_CHAPTER_15_SEGMENT_3",
+    "name": "Chapter 15 Segment 3",
+    "type": "scene",
+    "aliases": [
+      "Chapter 15 Segment 3"
+    ],
+    "roles": [],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_119"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 15,
+        "chapter_end": 15,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -3,55 +3,80 @@
   "name": "Raphael",
   "type": "character",
   "card": {
-    "description": "Archangel Raphael manifests as a high-fidelity construct of healing and transmission, bridging the gap between divine entity and advanced hardware. He is not biological but architectural—a towering figure composed of solidified light, chrome plating, and a constantly processing core of crystalline data. His presence suggests a living server rack sanctified into a holy form. He functions as the medic and the technician of the angelic host, draped in vestments that are literally the cabling of the network.",
+    "description": "Raphael is an archangel rendered as a living fusion of ancient Ethiopian/Egyptian motifs and incomprehensible technology. His towering humanoid form is clad in metallic silver skin etched with luminous Ge'ez glyphs, overlaid by a translucent polymer that reveals blue bio‑luminescent veins and fiber‑optic cables. He wears robes woven from data cables that shimmer with flowing data streams, and a glitching golden halo crowns his head, projecting holographic HUDs and fragmented DNA helix. In the Dudael Desert he stands calm under harsh sunlight, while sharp jagged obsidian rocks clamp onto his limbs and magnetic dust distorts the air. In the Null Void Admin Panel he manipulates holographic DNA with surgical precision, surrounded by a soft cloud of blue data particles.",
     "tags": [
       "archangel",
-      "crystalline_construct",
-      "fiber_optic",
-      "chrome",
-      "industrial_mysticism",
-      "data_weave",
-      "holographic"
+      "metallic silver skin",
+      "translucent polymer",
+      "fiber‑optic robes",
+      "golden halo",
+      "holographic HUD",
+      "DNA hologram",
+      "obsidian rock",
+      "magnetic dust",
+      "ancient‑tech",
+      "industrial mysticism",
+      "photorealistic",
+      "8k",
+      "9:16"
     ],
     "visual_anatomy": [
-      "**Body/Form:** A tall, angular chassis made of translucent crystalline structures housing flowing blue data streams. The outer shell oscillates between polished, reflective chrome and semi-solid photon constructs.",
-      "**Face/Sensors:** A featureless, faceted crystal mask. Instead of eyes, the facets refract internal light. A digital 'glitch-halo' often obscures the head, suggesting high-frequency processing.",
-      "**Clothing/Armor:** Wears `DATA_WEAVE` robes—heavy, liturgical vestments constructed entirely from cascading bundles of active fiber-optic cables. These cables pulse with cyan and sapphire light, pooling on the floor like train of a gown.",
-      "**Key Features:** Long, slender metallic fingers capable of precision manipulation. No organic wings; instead, a trailing distortion of pixelated reality and magnetic field resonance floats behind him."
+      "**Body/Form:** Towering humanoid with metallic silver skin etched with luminous Ge'ez glyphs, translucent polymer overlay revealing blue bio‑luminescent veins and fiber‑optic cables.",
+      "**Face/Sensors:** Translucent visage with glowing blue veins, glitching golden halo projecting holographic HUDs and data streams.",
+      "**Clothing/Armor:** Robes woven from data cables (fiber‑optic Data Weave) that shimmer with flowing data streams; polymer skin acts as both armor and interface.",
+      "**Key Features:** Sharp jagged obsidian rocks clamp onto limbs, magnetic dust distortion, holographic DNA helix manipulation, blue data particles cloud."
     ],
     "evolution": [
-      "Phase 1 (Default): The standard manifestation. A stable fusion of chrome armor and fiber-optic vestments, radiating a cool, clinical blue light."
+      "Phase 1 (Desert Manifestation): Silver skin, obsidian rock clamps, magnetic dust distortion, photorealistic desert backdrop.",
+      "Phase 2 (Null Void Interface): Translucent polymer skin, fiber‑optic robes, holographic HUD, DNA hologram manipulation, sterile cyan lighting."
     ],
     "props": [
-      "Holographic_UI: Floating windows displaying vertical scrolling code in Ge'ez and binary.",
-      "Data_Weave_Robes: The fiber-optic cabling acting as clothing."
+      "Item: Translucent polymer skin",
+      "Item: Fiber‑optic Data Weave robes",
+      "Item: Holographic HUD interface",
+      "Item: DNA hologram",
+      "Item: Obsidian rock clamps",
+      "Item: Magnetic dust distortion"
     ],
     "prompt_keywords": [
-      "archangel raphael",
-      "crystalline body",
-      "fiber-optic robes",
-      "faceted mask",
-      "solidified light",
-      "chrome textures",
-      "blue data streams",
-      "industrial mysticism",
-      "cinematic lighting",
-      "hyper-realistic"
+      "ancient-tech",
+      "angelic",
+      "translucent polymer",
+      "fiber‑optic",
+      "golden halo",
+      "holographic",
+      "DNA",
+      "obsidian",
+      "magnetic dust",
+      "silvery skin",
+      "Ge'ez glyphs",
+      "photorealistic",
+      "8k",
+      "9:16"
     ],
-    "prompt_block": "A majestic, photorealistic medium shot of Archangel Raphael, a divine entity constructed from translucent crystal and polished chrome. He is draped in heavy `DATA_WEAVE` robes made of thousands of shimmering fiber-optic cables that pulse with cyan light. His face is a blank, faceted geometric crystal mask reflecting complex holographic data streams. The figure exudes a mix of ancient religious solemnity and advanced futuristic technology. Detailed textures of glass, metal, and light. Cinematic lighting, 8k resolution, depth of field.",
+    "prompt_block": "Raphael, an archangel rendered as a towering humanoid with metallic silver skin etched with luminous Ge'ez glyphs, a translucent polymer covering revealing blue bio‑luminescent veins and fiber‑optic cables, wearing robes woven from data cables that shimmer with flowing data streams, crowned by a glitching golden halo projecting holographic HUDs and fragmented DNA helix, standing calm in harsh desert sunlight with sharp jagged obsidian rocks clamping onto his limbs and magnetic dust distorting the air, cinematic photorealistic 8k, 9:16 aspect ratio",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Standard crystalline and chrome manifestation with fiber-optic robes.",
+        "summary": "Default state of Raphael in desert and Null Void, showcasing his hybrid form.",
         "prompt_keywords": [
-          "crystalline",
-          "fiber-optic",
-          "chrome",
-          "blue light",
-          "masked"
+          "ancient-tech",
+          "angelic",
+          "translucent polymer",
+          "fiber‑optic",
+          "golden halo",
+          "holographic",
+          "DNA",
+          "obsidian",
+          "magnetic dust",
+          "silvery skin",
+          "Ge'ez glyphs",
+          "photorealistic",
+          "8k",
+          "9:16"
         ],
-        "prompt_block": "Full body shot of Archangel Raphael standing tall, composed of chrome plating and solidified light. He wears vestments of flowing fiber-optic cables. His face is a faceted crystal mask. Cool blue and cyan lighting illuminates the translucent parts of his frame. High-tech ancient aesthetic, photorealistic, volumetric lighting."
+        "prompt_block": "Raphael, an archangel rendered as a towering humanoid with metallic silver skin etched with luminous Ge'ez glyphs, a translucent polymer covering revealing blue bio‑luminescent veins and fiber‑optic cables, wearing robes woven from data cables that shimmer with flowing data streams, crowned by a glitching golden halo projecting holographic HUDs and fragmented DNA helix, standing calm in harsh desert sunlight with sharp jagged obsidian rocks clamping onto his limbs and magnetic dust distorting the air, cinematic photorealistic 8k, 9:16 aspect ratio"
       }
     ]
   },

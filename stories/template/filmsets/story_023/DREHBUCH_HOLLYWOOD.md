@@ -1,262 +1,177 @@
 # DREHBUCH KAPITEL 23 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Ich stand am Ende der Welt, wo der Boden abrupt in das Nichts bricht und die Logik der Schöpfung endet. Vor mir tobte kein gewöhnliches Feuer, sondern der reine, unaufhaltsame Strom der Berechnung, der die Sterne in ihre Bahnen zwingt. Es war der Maschinenraum des Himmels, laut und gleißend hell, eine endlose Flut aus Licht und Daten, die niemals ruht.
+NARRATOR_TEXT: Ich erreichte den Rand des Pufferspeichers, den westlichen Terminus, wo die Berechnung der Realität abrupt endet. Vor mir lag keine Landschaft, sondern die Hauptschlagader des Systems, ein reißender Strom aus roher Energie, der die Sterne speist, bevor sie am Firmament gerendert werden. Der Lärm war kein Klang, sondern die Vibration purer Datenlast, die das Fundament der Welt erzittern ließ.
 
 ## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:05] [ESTABLISHING]
-**Action:** The "End of the Earth". Obsidian floor cuts off abruptly into a `VOID_GRID`. Background is filled by the massive, horizontal "Fire Stream" (liquid plasma).
+**Action:** Der "West Terminus". Eine endlose Obsidian-Plattform, die abrupt im digitalen Nichts endet. Links dominiert der massive "Feuerstrom" – laminar fließendes Weiß-Plasma.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "West Terminus Edge", "env_change": true, "actors": [], "props": [], "camera": "14mm / Static / Low Angle", "mood": ["awe", "industrial", "cold"], "director_intent": "Establish the terrifying scale of the simulation boundary and the fire stream.", "start_image_keywords": ["obsidian cliff", "plasma stream", "void grid"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "WEST_TERMINUS_01", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "West Terminus Edge", "env_change": true, "actors": [], "props": [], "camera": "14mm / Static God-Eye", "mood": ["awe", "industrial", "cold"], "director_intent": "Establish the scale of the system boundary and the raw energy conduit.", "start_image_keywords": ["obsidian platform", "plasma stream", "void grid"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "WEST_TERMINUS_01", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. The edge of the simulation. In the foreground, a sharp, jagged cliff of polished black obsidian rock that cuts off abruptly into nothingness. Beyond the edge, there is no sky, only a massive, horizontal wall of rushing liquid plasma ("The Fire Stream"). The stream is blindingly bright orange and white, composed of flowing data-light, not organic fire. The contrast is extreme: pitch black foreground, searing bright background. High-tech industrial aesthetic, 8k resolution, photorealistic textures.
+Vertical 9:16. Establishing shot of the "West Terminus". A perfectly flat, polished black obsidian floor that extends to a sharp, artificial edge on the right. Beyond the edge is a faint wireframe grid in a dark void. To the left, occupying half the frame, is the "Fire Stream": a massive, horizontal wall of rushing liquid plasma. The plasma is blindingly white and gold, flowing with laminar perfection, not turbulent fire. The lighting is harsh, high-contrast industrial chic. Unreal Engine 5 render, 8k, photorealistic.
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** No actors.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** No organic subjects.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The West Terminus. A floor of black glass ending in a void. The background is a turbulent river of light flowing horizontally at high speed.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Silhouette lighting. The light source is the background stream, casting long, hard shadows towards the camera.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static wide shot, 14mm lens. 9:16 aspect ratio. The plasma stream flows rapidly from left to right, pulsating with energy.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite black obsidian plane ending in a digital void. Left side is a wall of rushing energy.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Single massive area light from the stream (10M lumens). Sharp, long shadows.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static 14mm wide shot. The plasma stream flows rapidly from bottom-left to top-left. Mist at the floor contact point.
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep, resonant sub-bass drone, like a massive server farm or power plant. Constant, heavy vibration. No wind, just the hum of immense energy.
+Deep, sub-bass drone (50Hz mains hum) that vibrates the speakers. Layered with the sound of high-voltage arcing and heavy industrial ventilation.
 
-## [ACT 1] [SCENE 1.2] [Timecode: 00:05-00:09] [MOVEMENT]
-**Action:** Henoch (Rear View) steps to the edge. His robes flutter violently in the "Solar Wind" generated by the stream.
+## [ACT 1] [SCENE 1.2] [Timecode: 00:05-00:09] [ARRIVAL]
+**Action:** Henoch materialisiert sich. Erst Skelett-Geometrie, dann "Voyager"-Silver-Skin. Er stolpert fast über die Abbruchkante.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "West Terminus Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Tracking Shot / Rear View", "mood": ["determination", "resistance"], "director_intent": "Show the physical force of the data stream pushing against the actor.", "start_image_keywords": ["Henoch back view", "fluttering robes", "solar wind"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "HENOCH_WALK_AGAINST_WIND", "env_id": "WEST_TERMINUS_01", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "wide", "environment": "West Terminus Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "35mm / Handheld Shaky", "mood": ["disorientation", "danger"], "director_intent": "Depict the physical harshness of teleporting into a high-energy zone.", "start_image_keywords": ["Henoch materialization", "silver skin", "stumbling"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "HENOCH_STUMBLE", "env_id": "WEST_TERMINUS_01", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Rear view of Henoch (Voyager Phase). He is wearing high-tech linen robes woven with silver circuitry. The fabric is whipping violently forward, pushed by a strong wind coming from the background. His skin is silver-metallic. He stands on the black obsidian edge. In front of him, the blinding wall of the Fire Stream. Rim lighting highlights the folds of his clothes and the metallic texture of his skin.
+Vertical 9:16. Henoch (Voyager Phase) in the moment of materialization on the black obsidian floor. His body is partially translucent silver skin, partially glowing gold wireframe skeleton where the mesh hasn't loaded yet. He is stumbling forward, off-balance. He wears high-tech linen robes interwoven with circuitry. Blue cooling fluid vaporizes instantly off his shoulders in steam bursts. Intense side-lighting from the plasma stream.
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch, Voyager Phase. Silver skin, metallic sheen.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Tech-linen robes, grey and white, fluttering intensely in a digital gale.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Edge of the void. The light from the stream is overwhelming.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Backlit by the orange/white plasma.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Tracking shot following Henoch as he takes a difficult step towards the edge. 9:16 vertical.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch, Voyager Phase. Silver skin, semi-transparent limbs.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Technical robes, Idris-Gloves.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** West Terminus platform.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blinding orange/white key light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 35mm handheld. The camera shakes as he lands. Rapid transition from wireframe to solid mesh.
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-The drone continues, now mixed with the sound of rushing wind and static discharge. The sound of heavy fabric flapping violently.
+A sharp, digital "zip" or vacuum implosion sound (asset loading). Heavy metallic footsteps stumbling on glass. Hissing of flash-vaporization.
 
-## [ACT 1] [SCENE 1.3] [Timecode: 00:09-00:13] [DETAIL]
-**Action:** The "Fire Stream". It is not organic fire, but high-velocity data-plasma forced into magnetic rails. Blindingly bright.
+## [ACT 1] [SCENE 1.3] [Timecode: 00:09-00:14] [THE GLITCH]
+**Action:** POV Henoch. Blick über die Kante. Felsbrocken fallen nicht, sondern bleiben in der Z-Achse hängen und glitchen.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "close_up", "framing": "close_up", "environment": "The Fire Stream", "env_change": false, "actors": [], "props": [], "camera": "85mm / Macro", "mood": ["intense", "abstract"], "director_intent": "Reveal the synthetic, data-driven nature of the fire.", "start_image_keywords": ["liquid plasma", "magnetic rails", "data stream"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "FIRE_STREAM_MACRO", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "The Void Edge", "env_change": false, "actors": [], "props": [], "camera": "50mm / POV", "mood": ["surreal", "broken"], "director_intent": "Show that this is a simulation boundary where physics break down.", "start_image_keywords": ["void edge", "floating rocks", "texture stretching"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "VOID_GLITCH", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Macro close-up of the "Fire Stream". It is a torrent of liquid light and plasma, constrained by invisible magnetic fields. Within the orange and white incandescence, faint geometric lines and data artifacts are visible. It looks like molten code or superheated coolant fluid. No smoke, just pure, sterile energy. High contrast, glowing, abstract texture.
+Vertical 9:16. POV shot looking down over the sharp edge of the obsidian cliff. Below is not a canyon, but a dark void with faint green coordinate grids. Several large chunks of rock have fallen off but are frozen in mid-air, their textures stretched and pixelated (UV mapping errors). They jitter slightly in place. To the left, the plasma stream continues into infinity.
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The interior of the energy stream.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Self-illuminated, blindingly bright orange, gold, and white.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 85mm macro lens. Fast, turbulent motion of the fluid/light from left to right. Electrical arcing on the surface. 9:16 vertical.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The cliff edge and the digital void below.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dim ambient light from the void, bright spill from the stream.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 50mm POV. Camera tilts down. The floating rocks glitch (vibrate) in position.
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitched coil whine, electrical buzzing, crackling of high-voltage arcs. The sound of raw power.
+The wind stops abruptly at the edge. Only the aggressive, synthetic buzzing of the stream remains. Digital stuttering sound effects.
 
-## [ACT 1] [SCENE 1.4] [Timecode: 00:13-00:17] [REACTION]
-**Action:** Henoch MCU. His visor polarizes to black (Auto-ND). Silver cooling fluid (tears) leaks from the seal to dissipate heat.
+## [ACT 1] [SCENE 1.4] [Timecode: 00:14-00:20] [BIO-REACTION]
+**Action:** Close-Up Henoch. Sein Visor zeigt rote Warn-Glyphen. Die schwarze Schutzmembran schiebt sich über seine Augen.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "West Terminus Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "35mm / Shallow DOF", "mood": ["pain", "overload"], "director_intent": "Show the biological cost of witnessing the system backend.", "start_image_keywords": ["Henoch face", "black visor", "cooling tears"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "HENOCH_HEAD_CLOSEUP", "env_id": "WEST_TERMINUS_01", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "West Terminus Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "85mm / Macro", "mood": ["pain", "technological"], "director_intent": "Highlight the biological adaptation required to survive the environment.", "start_image_keywords": ["Henoch eye", "black membrane", "red warning hud"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "HENOCH_EYE_MACRO", "env_id": "WEST_TERMINUS_01", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Close-up of Henoch's face (Voyager Phase). His skin is silver. He wears a high-tech visor over his eyes. The visor glass is pitch black, opaque. From the bottom edge of the visor, thick silver liquid (coolant) is streaming down his cheeks like tears. The reflection of the fire stream is visible in the black visor. Intense orange lighting on his face.
+Vertical 9:16. Extreme Macro Close-Up of Henoch's eye area. His skin is brushed silver metal with pores. A semi-transparent black membrane (nictitating shield) is sliding sideways over his human eye to protect it. Overlaid on the image are reversed red holographic warning glyphs ("RADIATION CRITICAL") reflecting in the eye/visor. Thick blue cooling fluid (tears) wells up in the corner of the eye.
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch, Voyager Phase. Silver skin.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** HUD-Visor, polarized black.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Facing the stream.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Orange key light from the stream, cool rim light.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 35mm lens. The visor darkens rapidly. A droplet of silver fluid rolls down his cheek. 9:16 vertical.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch, Voyager. Silver skin texture.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Holographic HUD elements.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** West Terminus.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red HUD light, orange environment reflection.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 85mm Macro. The black shield slides quickly over the eye. The pupil contracts.
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Hydraulic hiss (psshhh) as the suit pressurizes/cools. A subtle mechanical whir of the visor lens adjusting.
+Tiny servo whirring sounds (micro-robotics). A soft wet squash sound (biological). Muffled alarm beeping.
 
-## [ACT 1] [SCENE 1.5] [Timecode: 00:17-00:21] [ACTION]
-**Action:** Henoch raises a gloved hand, trying to parse the data. He speaks into the roar.
-**Dialog:** "Was ist das, das keine Ruhe hat?"
+## [ACT 1] [SCENE 1.5] [Timecode: 00:20-00:25] [QUERY]
+**Action:** Henoch dreht sich um, schreit gegen den Lärm an. "Was ist diese Unruhe?"
+**Dialog:** "Was ist diese Unruhe?"
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "West Terminus Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Medium Shot / Side Profile", "mood": ["inquiry", "confusion"], "director_intent": "Henoch attempts to interact with or understand the overwhelming data flow.", "start_image_keywords": ["Henoch profile", "raised hand", "speaking"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "HENOCH_SPEAKING_PROFILE", "env_id": "WEST_TERMINUS_01", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "SCENE_1_5_AUDIO", "pose_source": "", "driver_notes": "Lip sync for German dialogue"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 8}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "West Terminus Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "50mm / Low Angle", "mood": ["desperation", "inquiry"], "director_intent": "Henoch demands an answer from the empty void.", "start_image_keywords": ["Henoch shouting", "silver skin", "wind blown"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "HENOCH_SHOUT", "env_id": "WEST_TERMINUS_01", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "SCENE_1_5_AUDIO", "pose_source": "", "driver_notes": "German lip sync"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 4}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Medium shot, side profile of Henoch. He raises a gloved hand (Idris-Glove, glowing gold fingertips) towards the stream as if shielding his face or touching a screen. His mouth is slightly open, speaking. The wind whips his hair and robes back. High contrast silhouette against the bright background.
+Vertical 9:16. Medium shot, low angle looking up at Henoch. He is turning his head, shouting into the void. His silver face is wet with blue coolant. His tech-robes are whipping violently in the "wind" of the data stream. He looks small against the towering wall of light behind him. High contrast, rim-lit silhouette.
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch, Voyager Phase.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Idris-Gloves with glowing fingertips.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Edge of the void.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Strong backlighting.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Medium shot. Henoch shouts into the wind. His hand trembles slightly against the force of the stream. 9:16 vertical.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Fluttering robes, glowing Idris-Gloves.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Edge of the platform.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Backlit by the plasma stream.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 50mm lens. Henoch struggles to keep his footing and yells.
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-The roar of the stream dips slightly in volume (sidechain) to allow space for a voice. Wind noise.
+The roar of the stream dips (ducking) to allow the voice to punch through. The voice sounds strained and slightly processed (helmet comms).
 
-## [ACT 2] [SCENE 2.1] [Timecode: 00:21-00:25] [MANIFESTATION]
-**Action:** Raguel assembles from high-density particle clouds next to Henoch. Not a fade-in, but a rapid geometric construction.
+## [ACT 2] [SCENE 1.6] [Timecode: 00:25-00:30] [MANIFESTATION]
+**Action:** Raguel erscheint. Ein vertikaler Pixel-Scan baut ihn auf. Er steht regungslos neben dem Plasma-Fluss.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "wide", "environment": "West Terminus Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}, {"name": "Raguel", "phase": "Watcher", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Wide / Two-Shot", "mood": ["surprise", "technological"], "director_intent": "Depict the arrival of an admin entity via rapid nanobot/voxel assembly.", "start_image_keywords": ["Raguel assembly", "geometric particles", "Henoch watching"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "RAGUEL_SPAWN", "env_id": "WEST_TERMINUS_01", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "wide", "environment": "West Terminus Edge", "env_change": false, "actors": [{"name": "Raguel", "phase": "Watcher", "presence": "on_screen", "focus": "primary"}], "props": ["Data Scepter"], "camera": "24mm / Symmetric", "mood": ["imposing", "synthetic"], "director_intent": "Show the admin entity entering the scene via system protocols, not magic.", "start_image_keywords": ["Raguel assembly", "vertical scanline", "titanium giant"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "RAGUEL_SCAN_SPAWN", "env_id": "WEST_TERMINUS_01", "props": ["Data Scepter"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Wide shot. Henoch stands to the left. To his right, a large humanoid figure (Raguel) is in the process of materializing. Raguel is composed of millions of tiny, floating geometric shards and metallic dust, rapidly snapping together to form a solid body. The incomplete parts of Raguel show a wireframe or golden internal structure. The background is the raging fire stream.
+Vertical 9:16. Full body shot of Raguel (System Admin) appearing. He is 2.8m tall. A vertical laser-scan line is sweeping upwards; below the line, he is solid brushed titanium; above the line, he is a cloud of floating voxels and geometry data. He holds a long black tungsten "Data Scepter". He stands perfectly still, facing the fire stream. The background is the roaring plasma.
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Raguel (Watcher Class). 2.5m tall.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Server-rack insulation robes forming from dust.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** West Terminus.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Sparks of light where the particles connect.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Wide shot. Fast, glitchy motion as Raguel solidifies from a cloud of data-matter into a solid form. 9:16 vertical.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Raguel, Watcher. 2.8m tall humanoid.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Heavy thermal insulation robes, titanium plating.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** West Terminus platform.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Laser red scan line, cool ambient, warm backlight.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 24mm static shot. The scan line moves up rapidly (0.5s), constructing the body.
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Digital crunching sound, like rocks grinding mixed with modem static. A sharp "thud" as the assembly completes.
+A harsh, digital "thwip" or zipper sound. The heavy thud of weight settling on the floor.
 
-## [ACT 2] [SCENE 2.2] [Timecode: 00:25-00:29] [RAGUEL MCU]
-**Action:** Raguel stands motionless. His crimson visor scans the stream. He ignores Henoch, focusing on the process.
-**Dialog:** -
+## [ACT 2] [SCENE 1.7] [Timecode: 00:30-00:38] [RESPONSE]
+**Action:** Raguel (starr). Sein Lidar-Scanner fixiert Henoch. Übertragung: "Dies ist der primäre Bus."
+**Dialog:** "Dies ist der primäre Bus. Der Lauf der Lichter."
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "West Terminus Edge", "env_change": false, "actors": [{"name": "Raguel", "phase": "Watcher", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle MCU", "mood": ["imposing", "cold"], "director_intent": "Establish Raguel as a machine-like administrator, not a human.", "start_image_keywords": ["Raguel face", "crimson visor", "platinum skin"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "RAGUEL_IDLE", "env_id": "WEST_TERMINUS_01", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "West Terminus Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}, {"name": "Raguel", "phase": "Watcher", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "50mm / Shot-Reverse-Shot", "mood": ["cold", "informative"], "director_intent": "Raguel delivers the technical explanation without emotion.", "start_image_keywords": ["Raguel face", "lidar eye", "Henoch reflection"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "RAGUEL_SPEAKING_STATIC", "env_id": "WEST_TERMINUS_01", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "SCENE_1_7_AUDIO", "pose_source": "", "driver_notes": "Visor pulse sync"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Low angle Medium Close-Up of Raguel. His skin is brushed platinum/titanium. He has no eyes, nose, or mouth, only a single, horizontal glowing red slit (visor) across his face. He wears heavy, dark grey robes with rigid, geometric folds. He looks imposing and emotionless. The orange light of the fire stream reflects off his metallic skin.
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Raguel, Watcher. Platinum skin.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Dark grey structured robes.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** West Terminus.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red glow from visor, orange glow from stream.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Low angle. Raguel is perfectly still, only the light reflects moving across his surface. The red visor pulses slowly. 9:16 vertical.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Low frequency robotic hum. The sound of a heavy servo motor idling.
-
-## [ACT 2] [SCENE 2.3] [Timecode: 00:29-00:33] [OTS HENOCH]
-**Action:** Over Henoch's shoulder. Raguel points a rigid finger towards the flow. The stream reacts to his gesture (brightens).
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "West Terminus Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}, {"name": "Raguel", "phase": "Watcher", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "OTS (Over The Shoulder)", "mood": ["commanding", "interactive"], "director_intent": "Show Raguel's control over the environment.", "start_image_keywords": ["Raguel pointing", "Henoch shoulder", "stream reaction"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "RAGUEL_POINTING", "env_id": "WEST_TERMINUS_01", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Over-The-Shoulder shot from behind Henoch. We see the back of Henoch's silver head/hood in the foreground. In focus, Raguel stands facing the stream, extending a rigid, metallic finger towards the rushing light. The stream in front of his finger glows significantly brighter, reacting to his command.
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Raguel (focus), Henoch (foreground).
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Raguel's metallic hand.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The Fire Stream.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flare up of light in the stream.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** OTS shot. Raguel raises his hand mechanically. The stream surges in brightness in response. 9:16 vertical.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-A deep, resonant thrumming sound (wub-wub-wub) that syncs with the brightening of the light.
-
-## [ACT 2] [SCENE 2.4] [Timecode: 00:33-00:37] [OTS RAGUEL]
-**Action:** Over Raguel's shoulder looking at Henoch. Henoch looks small, illuminated by the orange glow.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "West Terminus Edge", "env_change": false, "actors": [{"name": "Raguel", "phase": "Watcher", "presence": "on_screen", "focus": "secondary"}, {"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "OTS (Over The Shoulder)", "mood": ["vulnerability", "scale"], "director_intent": "Contrast Henoch's human scale against the admin and the machine.", "start_image_keywords": ["Henoch face", "Raguel shoulder", "orange glow"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "HENOCH_LOOKING_UP", "env_id": "WEST_TERMINUS_01", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Over-The-Shoulder shot from behind Raguel. We see the dark, textured fabric of Raguel's shoulder in the foreground. In focus, Henoch stands looking up at Raguel (or the stream), bathed in intense orange light. Henoch looks small and fragile compared to the massive shoulder in the foreground. His silver skin reflects the fire.
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (focus), Raguel (foreground).
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Henoch's visor and robes.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** West Terminus.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Intense orange wash.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** OTS shot. Henoch stares in awe, wind blowing his clothes. 9:16 vertical.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-The background drone intensifies, becoming louder and more complex.
-
-## [ACT 2] [SCENE 2.5] [Timecode: 00:37-00:41] [EXPLANATION VISUAL]
-**Action:** The stream accelerates. Within the plasma, spherical "Luminaries" (stars) are visible as compiled code packages being transported.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "close_up", "framing": "close_up", "environment": "The Fire Stream", "env_change": false, "actors": [], "props": [], "camera": "Telephoto / Zoom", "mood": ["revelation", "speed"], "director_intent": "Reveal the function of the stream: transporting stars/luminaries.", "start_image_keywords": ["luminaries", "spheres in plasma", "code packages"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "FIRE_STREAM_LUMINARIES", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Telephoto shot into the "Fire Stream". The plasma is transparent enough to reveal what it carries: massive, glowing white spheres ("Luminaries") moving at high speed. The spheres are perfect geometric orbs, surrounded by rings of data/code. They look like compiled software packages being piped through a network. The sense of speed is extreme (motion blur).
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Inside the stream.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Glowing spheres, trailing light.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Telephoto. The spheres zip past the camera from left to right. The stream accelerates visually. 9:16 vertical.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-A rising "Shepard Tone" effect, creating the illusion of infinite acceleration. Whoosh sounds as spheres pass.
-
-## [ACT 2] [SCENE 2.6] [Timecode: 00:41-00:45] [DIALOGUE]
-**Action:** Raguel Close-Up. He speaks with absolute authority. The environment audio ducks (Sidechain).
-**Dialog:** "Dies ist der Lauf der Himmelslichter, brennendes Feuer im Westen."
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "West Terminus Edge", "env_change": false, "actors": [{"name": "Raguel", "phase": "Watcher", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Extreme Close-Up", "mood": ["authoritative", "ominous"], "director_intent": "Deliver the core revelation with machine-like precision.", "start_image_keywords": ["Raguel visor", "extreme close up", "speaking"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "RAGUEL_SPEAKING_CU", "env_id": "WEST_TERMINUS_01", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "SCENE_2_6_AUDIO", "pose_source": "", "driver_notes": "Lip sync (if mouth visible) or visor pulse for dialogue"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 12}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Extreme Close-Up of Raguel's face. Focus on the red glowing visor slit and the brushed metal texture of his "skin". The red light pulses intensely. The background is a blur of orange fire. The image is sharp, metallic, and cold.
+Vertical 9:16. Medium Close-Up of Raguel. He looks like a statue. His "face" is a smooth titanium plate with a vertical red laser slit. The laser slit is pulsing in intensity (audio visualization). In the reflection of his metal face, we see Henoch standing small and terrified. The background is the blurred motion of the fire stream.
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Raguel, Watcher.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Titanium faceplate, vertical Lidar eye.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** West Terminus.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red visor pulse.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Extreme Close-Up. The red light in the visor expands and contracts in sync with speech (waveform visualization). 9:16 vertical.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red pulsing light from visor.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 50mm. Raguel does not move his head. Only the light pulses.
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Raguel's voice: Synthetic, deep, crystal clear. The background noise drops significantly (sidechain compression) to make the voice dominant.
+Raguel's voice: Dry, mono, centered. No reverb. Sounds like a high-end text-to-speech system. "Dies ist der primäre Bus."
 
-## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:49] [REACTION]
-**Action:** Henoch nods slowly. The cooling fluid drips from his chin. He understands the logic.
+## [ACT 2] [SCENE 1.8] [Timecode: 00:38-00:45] [THE FEED]
+**Action:** Raguel hebt das Zepter. Man sieht Millionen kleiner Licht-Pakete (Sterne/Luminaries) im Strom.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "West Terminus Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Close-Up", "mood": ["acceptance", "exhaustion"], "director_intent": "Henoch processes the information and accepts the system's scale.", "start_image_keywords": ["Henoch nodding", "cooling fluid dripping", "strobe lighting"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "HENOCH_NOD", "env_id": "WEST_TERMINUS_01", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "close_up", "framing": "close_up", "environment": "The Fire Stream", "env_change": false, "actors": [], "props": [], "camera": "100mm / Tracking", "mood": ["speed", "revelation"], "director_intent": "Reveal that the fire is actually carrying data packages (stars).", "start_image_keywords": ["stream transparency", "glowing spheres", "data packets"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "FIRE_STREAM_PACKETS", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Close-up of Henoch. He is nodding slowly. The silver cooling fluid is dripping from his chin. The lighting on his face is strobing (flickering) caused by the passing spheres in the stream. His expression is one of awe and exhaustion.
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch, Voyager.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Visor, cooling fluid.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** West Terminus.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Strobe effect (orange/white).
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Close-up. Slow nod. Fluid drips. The light flickers rhythmically. 9:16 vertical.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-The full roar of the environment returns, loud and overwhelming.
-
-## [ACT 3] [SCENE 3.2] [Timecode: 00:49-00:53] [WIDE]
-**Action:** Silhouette Shot. Both figures stand tiny against the wall of rushing light. The scale is infinite.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "extreme_wide", "environment": "West Terminus Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}, {"name": "Raguel", "phase": "Watcher", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Extreme Wide / Pull Back", "mood": ["epic", "insignificance"], "director_intent": "Emphasize the insignificance of the actors against the cosmic machinery.", "start_image_keywords": ["silhouettes", "massive fire stream", "tiny figures"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "TWO_FIGURES_STANDING", "env_id": "WEST_TERMINUS_WIDE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Extreme Wide Shot. Henoch and Raguel are tiny, black silhouettes at the bottom of the frame. The entire rest of the frame is filled with the horizontal, rushing "Fire Stream". The scale is massive, making them look like insects next to a dam. High contrast.
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Silhouettes of Henoch and Raguel.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The massive wall of fire.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Backlit.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow pull back (zoom out). The figures get smaller, the stream looks bigger. 9:16 vertical.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Bass frequencies peak. The sound is physically shaking.
-
-## [ACT 3] [SCENE 3.3] [Timecode: 00:53-00:57] [DETAIL]
-**Action:** The surface of the stream. Ge'ez glyphs and binary code are visible in the plasma turbulence.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "close_up", "framing": "close_up", "environment": "The Fire Stream", "env_change": false, "actors": [], "props": [], "camera": "Macro / Abstract", "mood": ["mystical", "digital"], "director_intent": "Show the code underlying the physics.", "start_image_keywords": ["Ge'ez glyphs", "binary code", "plasma texture"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "FIRE_STREAM_GLYPHS", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Macro abstract shot of the plasma surface. Within the swirling orange and white fluid, glowing Ge'ez characters and binary strings appear and dissolve. It looks like the Matrix code but in liquid fire.
+Vertical 9:16. Telephoto tracking shot into the "Fire Stream". The outer layer of plasma has become transparent wireframe. Inside, we see a perfect row of glowing white spheres (Luminaries) being shot through the conduit like pneumatic tube capsules. Each sphere is surrounded by rings of binary code and geometric data. They are moving incredibly fast, leaving light trails.
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Plasma surface.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Glowing glyphs.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Macro. The glyphs flow with the current. 9:16 vertical.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Inside the energy conduit.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Self-illuminated spheres (pure white), orange conduit walls.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 100mm tracking shot. The camera matches the speed of one sphere, while others zip by.
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Data-scramble noise, digital chirps and glitches mixed with the roar.
+High-pitched turbine whine / Doppler effect (Zzzzooooom). The sound of magnetic propulsion rails firing.
 
-## [ACT 3] [SCENE 3.4] [Timecode: 00:57-01:00] [FADE OUT]
-**Action:** The stream brightness increases until the camera sensor clips. Screen goes pure white (`EXPOSURE_LIMIT`).
+## [ACT 3] [SCENE 1.9] [Timecode: 00:45-00:52] [REALIZATION]
+**Action:** Henoch begreift. Er sinkt auf die Knie. Skala der Maschinerie überwältigt ihn.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "The Fire Stream", "env_change": false, "actors": [], "props": [], "camera": "Static / Overexposure", "mood": ["blindness", "end"], "director_intent": "End the scene with visual overload.", "start_image_keywords": ["white out", "overexposure", "bright light"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "WHITE_OUT", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "wide", "environment": "West Terminus Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "24mm / High Angle", "mood": ["humility", "insignificance"], "director_intent": "Show Henoch submitting to the overwhelming logic of the system.", "start_image_keywords": ["Henoch kneeling", "high angle", "tiny figure"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "HENOCH_KNEELING", "env_id": "WEST_TERMINUS_01", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. The image is almost entirely white. Faint outlines of the fire stream are barely visible as the exposure is blown out completely. The light is consuming the frame.
+Vertical 9:16. High Angle Wide Shot looking down at Henoch. He has collapsed onto his knees on the black floor, head bowed, overwhelmed. He looks tiny. The entire top half of the frame is the massive, roaring wall of the Fire Stream, emphasizing the scale of the machinery compared to the human user. Raguel stands tall and indifferent in the background.
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (kneeling), Raguel (standing).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Henoch's robes spread on the floor.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** West Terminus platform.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Harsh orange top-light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 24mm High Angle. Henoch falls to his knees. The stream flows relentlessly.
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+The bass deepens into a "THX Deep Note" style crescendo. The mechanical hum becomes deafening.
+
+## [ACT 3] [SCENE 1.10] [Timecode: 00:52-01:00] [OVERLOAD]
+**Action:** Der Strom pulsiert heller. Weißes Licht überflutet die Linse. Hard Cut zu Black.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "The Fire Stream", "env_change": false, "actors": [], "props": [], "camera": "Crash Zoom / Overexposure", "mood": ["end", "blindness"], "director_intent": "End the chapter with a visual system crash/overload.", "start_image_keywords": ["white out", "lens flare", "exposure limit"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "OVERLOAD_WHITE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16. Abstract image of pure light. The Fire Stream has brightened so much that the camera sensor is clipping. The image is 90% pure white, with faint orange edges and digital banding artifacts (glitch) where the data rate is insufficient. It feels like looking directly into a nuclear reactor core.
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** White void.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Pure white.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Brightness ramps up until screen is white. 9:16 vertical.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The stream.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Pure white overexposure.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Crash zoom into the light. Brightness ramps up exponentially.
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Audio cuts abruptly to absolute silence at exactly 01:00.
+The sound volume increases until it distorts, then absolute digital silence (0dB cutoff) at the end.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.5","text":"Was ist das, das keine Ruhe hat?","words_max":8}],"Raguel":[{"scene":"2.6","text":"Dies ist der Lauf der Himmelslichter, brennendes Feuer im Westen.","words_max":12}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.5","text":"Was ist diese Unruhe?","words_max":4}],"Raguel":[{"scene":"1.7","text":"Dies ist der primäre Bus. Der Lauf der Lichter.","words_max":10}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

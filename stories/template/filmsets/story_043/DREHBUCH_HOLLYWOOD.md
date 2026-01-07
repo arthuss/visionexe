@@ -1,367 +1,367 @@
 # DREHBUCH KAPITEL 43 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Ich sah die Mechanik des Himmels nicht als Poesie, sondern als reine Architektur. Jede Entladung war ein Name, jede Reibung der Sphären ein geschriebenes Schicksal. Hier, im kalten Licht der Daten-Dome, wird das Buch des Lebens kompiliert und gewogen.
+NARRATOR_TEXT: Man sagte uns, der Himmel sei ein Ort der Ruhe, ein stilles Reich jenseits der Wolken. Doch was ich fand, war kein Frieden, sondern Präzision – eine gewaltige, atmende Maschine, die unsere Seelen in Taktzyklen misst. Hier oben wird nichts dem Zufall überlassen; jedes Gebet ist ein Datensatz, jedes Leben ein Knotenpunkt in einem unendlichen Netzwerk. Wir sind nicht verlassen, wir sind archiviert.
 
-## [ACT I] [SCENE 1.1] [Timecode: 00:00-00:02] [HOOK: THE AWAKENING]
-**Action:** Extreme Close-Up of Enoch's eye opening. Iris snaps open like a camera shutter. A golden laser-grid projects outward from the pupil.
+## [ACT I] [SCENE 1.1] [Timecode: 00:00-00:04] [THE ARRIVAL]
+**Action:** Empty Platform Zeta-9. Sudden distortion bubble pops. Henoch materializes, blue static discharging from boots to floor.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "Observation Platform Zeta", "env_change": true, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "100mm Macro / Static", "mood": ["shock", "technical"], "director_intent": "Immediate visual impact showing the transition from biological to digital vision.", "start_image_keywords": ["eye_macro", "gold_grid"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "wide", "environment": "Platform Zeta-9", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle / Static to Shake", "mood": ["shock", "industrial"], "director_intent": "Capture the violent physics of teleportation arrival.", "start_image_keywords": ["teleport_bubble", "blue_static", "platform_zeta"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme macro close-up of a synthetic eye opening, vertical 9:16 aspect ratio. The iris is mechanical silver, the pupil is a black aperture. A fine golden laser grid is projected outwards from the eye, illuminating the surrounding skin which has a translucent marble texture. High contrast lighting, cybernetic detail, 8k resolution, photorealistic, cinematic lighting.
+Vertical 9:16 low-angle full shot. An industrial metal platform, "Zeta-9", floating in the upper atmosphere. Henoch (Voyager Phase) has just materialized. He is crouched slightly, wearing a translucent silver-skin suit. Intense blue electrical arcs are grounding themselves from his heavy magnetic boots into the floor grating. The air around him is distorted by a collapsing heat shimmer. Cinematic lighting, cold blue tones, hyper-realistic textures, 8k.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Enoch (Voyager Phase). **Feature:** Extreme close-up of the right eye. **Texture:** Skin is `MARBLE_SHIMMER_V3`, smooth and cold. **Action:** The eyelid snaps open instantly like a mechanical shutter. The iris rotates and dilates rapidly.
+> **Subject:** Henoch (Voyager Phase). **Action:** Sudden materialization from a collapsing distortion bubble. **Physique:** Rigid, absorbing the impact.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** Faint outline of a HUD-Visor rim visible at the edge of the frame.
+> **Gear:** Silver-skin suit, magnetic boots. **VFX:** Residual blue static electricity discharging downwards.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Background:** Deep darkness, out of focus. **Detail:** Only the immediate area around the eye is lit by the internal projection.
+> **Location:** Platform Zeta-9 (Industrial Grating). **Background:** Dark atmospheric haze.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** A sharp beam of golden light `HEX_FFD700` projects OUT of the pupil, cutting through the darkness. **Style:** High contrast, macro photography style.
+> **Light:** Sudden flash of white light fading to cold blue ambient. **Shadows:** Sharp, hard shadows on the grating.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** 100mm Macro lens. **Motion:** Zero camera movement, only the subject moves. **Format:** Vertical 9:16. **Engine:** Unreal Engine 5.4, Raytraced reflections.
+> **Camera:** Low Angle. **Motion:** Static frame that shakes violently on the moment of impact ("Thunderclap"). **Format:** Vertical 9:16.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sound of a high-speed servo motor engaging (whir-click). A sharp, high-pitched power-up capacitor charge sound. No ambient noise, very isolated and intimate.
+A deafening implosion sound (`THUNDERCLAP_IMPLOSION`). The sharp crackle of high-voltage electricity grounding itself. The metallic clang of boots hitting the grate.
 
-## [ACT I] [SCENE 1.2] [Timecode: 00:02-00:06] [ESTABLISHING: THE DATA DOME]
-**Action:** POV from Enoch. The Skybox is revealed as a `GEODESIC_DATA_DOME`. Stars are not gas balls but glowing Server-Nodes locked onto hexagonal rails.
+## [ACT I] [SCENE 1.2] [Timecode: 00:04-00:09] [MESH REVEAL]
+**Action:** The blue sky texture peels away like burnt paper. Reveals `DARK_SERVER_GRID` (black hexagon nodes) behind the atmosphere.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Geodesic Data Dome", "env_change": true, "actors": [], "props": [], "camera": "14mm Wide / Low Angle Pan", "mood": ["awe", "vastness"], "director_intent": "Reveal the artificial nature of the heavens as a constructed machine.", "start_image_keywords": ["geodesic_dome", "server_stars"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Geodesic Server Array", "env_change": true, "actors": [], "props": [], "camera": "Wide / Slow Tilt Up", "mood": ["surreal", "dystopian"], "director_intent": "Reveal the sky as a constructed simulation failing to render.", "start_image_keywords": ["sky_glitch", "burnt_paper_texture", "server_grid_reveal"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Low angle wide shot of a massive geodesic dome structure replacing the night sky, vertical 9:16 aspect ratio. The "stars" are luminous data spheres moving along hexagonal mechanical rails. Deep midnight blue background `HEX_191970`. The structure is vast, industrial, and precise. Tron Legacy aesthetic meets ancient astronomy. 8k, hyper-detailed.
+Vertical 9:16 wide shot of the sky. A perfect blue gradient is tearing apart, peeling away like burning paper or a corrupted digital texture. Behind the tear, the "Real Sky" is revealed: A massive, infinite black lattice of hexagonal server racks. Thousands of obsidian cubes hang in the void. High contrast between the fake blue daylight and the dark industrial machinery behind it. Surreal sci-fi, 8k resolution.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** None (POV Shot).
+> **Subject:** The planetary atmosphere. **State:** Glitching and failing.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** None.
+> **Texture:** The blue sky dissolves into digital noise (`TEXTURE_STREAMING_ERROR`) and peels back.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Sub-Orbital Space. **Sky:** A `GEODESIC_DATA_DOME` structure. **Objects:** Glowing white spheres (Server-Nodes) moving along rigid hexagonal tracks. **Scale:** Massive, encompassing the entire field of view.
+> **Reveal:** The `DARK_SERVER_GRID` underneath. **Structure:** Infinite hexagonal rails holding black cubes.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** Cool blue ambient light from the grid. Bright white points from the nodes. **Atmosphere:** Sterile, vacuum-like clarity.
+> **Light:** Transition from warm sunlight to cold, harsh artificial server LEDs.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** 14mm Wide Angle. **Motion:** Slow upward pan, revealing the curvature of the dome. **Format:** Vertical 9:16. **Style:** Technical visualization, clean lines.
+> **Camera:** Wide Shot, Slow Tilt Up into the void. **Format:** Vertical 9:16.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A deep, resonant 50Hz electromagnetic drone. It sounds like a massive transformer humming in a large hall. Subtle metallic sliding sounds in the distance.
+A digital glitch noise (`TEXTURE_STREAMING_ERROR`) mixed with the sound of tearing canvas. A low, ominous industrial drone starts to fade in.
 
-## [ACT I] [SCENE 1.3] [Timecode: 00:06-00:10] [CONTEXT: PLATFORM ZETA]
-**Action:** Wide shot of `OBSERVATION_PLATFORM_ZETA`. A sleek, transparent disc floating in the void. Enoch stands alone, small against the massive curved data-grid of the sky.
+## [ACT I] [SCENE 1.3] [Timecode: 00:09-00:15] [OCULAR OVERRIDE]
+**Action:** Extreme CU on Henoch's eye. Organic iris retracts. Titanium shutter closes to f/0.95. Gold data reflects on lens.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "wide", "environment": "Observation Platform Zeta", "env_change": false, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Drone Shot / Dolly Out", "mood": ["isolation", "scale"], "director_intent": "Show Enoch's isolation within the system.", "start_image_keywords": ["platform_zeta", "enoch_silhouette"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "Platform Zeta-9", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Macro Zoom", "mood": ["biometric", "invasive"], "director_intent": "Show the physical invasion of the body by system hardware.", "start_image_keywords": ["mechanical_iris", "titanium_shutter", "gold_data_reflection"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-High angle drone shot of a transparent circular platform floating in a dark void, vertical 9:16 aspect ratio. A solitary figure (Enoch) in silver skin and flowing robes stands in the center. Above him, the massive curved grid of the data-dome. The platform is glass-like, reflecting the grid above. Minimalist, sci-fi, lonely atmosphere.
+Vertical 9:16 extreme macro close-up of a human eye. The organic iris is fully retracted, revealing a dark mechanical interior. A multi-blade titanium aperture shutter is closing down over the pupil. Golden streams of Ge'ez data are reflected on the moist surface of the cornea. The skin around the eye has a pearlescent, translucent "Marble Shimmer" texture. Sub-dermal LEDs glow faintly orange at the tear duct. Biomedical horror meets high-tech.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Enoch (Voyager Phase). **Appearance:** Small figure, silver skin glowing faintly. **Action:** Standing perfectly still, looking up.
+> **Subject:** Henoch's Right Eye. **Action:** Mechanical aperture blades slide shut with precision. Organic iris disappears.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** Wearing a translucent tech-robe that floats slightly in zero-g.
+> **Tech:** HUD projection reflects gold code on the lens.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** `OBSERVATION_PLATFORM_ZETA`. **Floor:** Transparent glass with faint HUD rings. **Background:** The infinite drop below (clouds far down) and the grid above.
+> **Background:** Blurred dark machinery.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** Rim lighting from the star-grid. **Color:** Cold blues and cyans.
+> **Light:** Internal amber glow from sub-dermal circuits.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Virtual Drone Camera. **Motion:** Slow Dolly Out and Up, emphasizing the smallness of the actor. **Format:** Vertical 9:16.
+> **Camera:** Extreme Macro Zoom. **Motion:** Minimal, only the mechanical movement of the eye. **Format:** Vertical 9:16.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Muffled wind howling, as if heard through a thick helmet or glass. The deep drone continues, slightly quieter.
+High-pitched servo-motor whir. A sharp, mechanical "click" as the aperture locks (f/0.95). Wet, organic blinking sound.
 
-## [ACT I] [SCENE 1.4] [Timecode: 00:10-00:15] [ACTION: THE NAMING]
-**Action:** The "Naming". A central beam of white light hits a Star-Node. A holographic `NAME_TAG` (Ge'ez text) pop-ups next to it. The star shifts color Blue -> Gold.
+## [ACT II] [SCENE 2.1] [Timecode: 00:15-00:20] [NAMING PROTOCOL]
+**Action:** Wave of activation. Individual server cubes light up (Gold) in sequence. They slide forward on rails.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "medium", "framing": "medium", "environment": "Geodesic Data Dome", "env_change": false, "actors": [], "props": [], "camera": "Tracking Shot", "mood": ["discovery", "divine"], "director_intent": "Visualize the concept of 'calling by name' as a digital handshake.", "start_image_keywords": ["star_node", "geez_hologram"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "medium", "framing": "medium", "environment": "Geodesic Server Array", "env_change": false, "actors": [], "props": ["Server Node"], "camera": "Tracking Pan", "mood": ["kinetic", "synchronized"], "director_intent": "Visualize the mass processing of data as a physical rail movement.", "start_image_keywords": ["server_cubes", "gold_activation", "rail_movement"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "prop_only", "actor_pose_id": "", "env_id": "", "props": ["Server Node"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot of a glowing white sphere on a mechanical rail, vertical 9:16 aspect ratio. A beam of light connects to it. A floating holographic tag displays glowing Ge'ez characters next to the sphere. The sphere is transitioning from blue to gold. Tech-noir aesthetic, sharp focus, particle effects.
+Vertical 9:16 medium shot of the Server Grid. A row of identical black obsidian cubes hanging from magnetic rails. A wave of light hits them from the left: As the "signal" passes, each cube's status light snaps from Idle Blue to Active Gold. The cubes lurch forward in perfect synchronization, sliding along the rails. Motion blur, sparks at the contact points. Industrial sci-fi machinery.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** A single `LUMINOUS_DATA_SPHERE`. **Action:** It pulses and changes color.
+> **Subject:** Multiple `STAR_SERVER` nodes (Black Cubes). **Material:** Glossy obsidian, reflective.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** None.
+> **Action:** Sequential activation. Light turns gold -> Cube moves. Domino effect.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Sky-Grid. **Detail:** The rail system is visible in brushed metal texture.
+> **Location:** The Rail Grid. **Atmosphere:** Vacuum.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** A laser-like beam hits the sphere. **VFX:** A holographic label with Ge'ez text unfolds. **Color Shift:** The sphere turns from Cool Blue to Warm Gold `HEX_FFD700`.
+> **Light:** Rhythmic flashing of gold LEDs. **Reflections:** Sparks on the black surfaces.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Tracking shot moving alongside the sphere. **Format:** Vertical 9:16. **Style:** UI Motion Graphics integrated into 3D space.
+> **Camera:** Tracking Pan following the wave of movement. **Format:** Vertical 9:16.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A digital "handshake" sound: a rapid high-pitch modem chirp followed by a pleasant chime. The hum of the sphere increases in pitch.
+A modulated, screaming data signal (`56K_MODEM_SCREAM`). Heavy, rhythmic hydraulic clunks as the nodes unlock and move.
 
-## [ACT II] [SCENE 2.1] [Timecode: 00:15-00:22] [PROCESS: THE COSMIC SCALE]
-**Action:** The `COSMIC_SCALE` appears. A massive brass/neon construct. A Star-Sphere is placed on one plate, a glowing Data-Cube on the other. They balance perfectly.
+## [ACT II] [SCENE 2.2] [Timecode: 00:20-00:25] [RECURSIVE LIGHTNING]
+**Action:** Violet arc jumps between Node A and Node B. Then splits to 4, then 16 nodes. Exponential plasma growth.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "medium", "framing": "medium", "environment": "Observation Platform Zeta", "env_change": false, "actors": [], "props": ["Cosmic Scale", "Star Sphere", "Data Cube"], "camera": "Eye Level / Morph", "mood": ["balance", "judgment"], "director_intent": "Show the physical measurement of light and righteousness.", "start_image_keywords": ["cosmic_scale", "brass_neon"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "prop_only", "actor_pose_id": "", "env_id": "", "props": ["Cosmic Scale"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "close_up", "framing": "close_up", "environment": "Geodesic Server Array", "env_change": false, "actors": [], "props": [], "camera": "Shaky Cam", "mood": ["chaotic", "dangerous"], "director_intent": "Show the exponential spread of a system command as physical electricity.", "start_image_keywords": ["violet_arc", "plasma_chain_reaction", "sparks"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A massive, ornate weighing scale made of brass and neon light tubes, floating in the void, vertical 9:16 aspect ratio. On the left plate sits a glowing white star-sphere. On the right plate, a translucent cube of golden data. The scale is perfectly balanced. Industrial steampunk meets cyberpunk. High detail, metallic textures.
+Vertical 9:16 close-up action shot. A jagged, blinding violet electrical arc jumps between two black server nodes. The arc splits into fractal branches, connecting to four more nodes in the background, then sixteen. The air is filled with falling orange sparks and ozone smoke. The light is intense and harsh. Volumetric lighting, dangerous energy, 8k.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** The `COSMIC_SCALE`. **Material:** Heavy brass joints mixed with glass tubes filled with neon gas.
+> **Subject:** Cluster of Server Nodes.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** None.
+> **Effect:** High-voltage violet plasma discharge. **Action:** The arc jumps, splits, and multiplies exponentially.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Floating above the platform. **Action:** The scale arms move slowly and settle into perfect equilibrium.
+> **Atmosphere:** Hazy with smoke. **Particles:** Heavy shower of welding sparks.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** Warm gold from the Data Cube, cool white from the Star Sphere. **VFX:** Small particles flow between the two plates like dust.
+> **Light:** Stroboscopic violet flashes `HEX_8A2BE2`. High contrast.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Static medium shot. **Motion:** The settling motion of the scale. **Format:** Vertical 9:16.
+> **Camera:** Handheld Shaky Cam, reacting to the "thunder". **Format:** Vertical 9:16.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy metallic clank, like a vault door closing. A hydraulic hiss as the scale settles. A low frequency thrum of power.
+Loud, dry cracking sound (`ARC_WELDING`). A deep bass thump with every split of the lightning bolt.
 
-## [ACT II] [SCENE 2.2] [Timecode: 00:22-00:28] [CONFLICT: THE FRICTION]
-**Action:** Two Star-Nodes pass each other on adjacent rails. The friction is visible—sparks fly. The "grinding" generates a massive arc of Violet Lightning.
+## [ACT II] [SCENE 2.3] [Timecode: 00:25-00:32] [THE METRICS]
+**Action:** Floating `SYSTEM_MONITOR_UI` hologram. Digital scales balance Light (Bandwidth) vs. Integrity. Bar turns Green.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "close_up", "framing": "close_up", "environment": "Geodesic Data Dome", "env_change": false, "actors": [], "props": [], "camera": "Telephoto / Shake", "mood": ["danger", "power"], "director_intent": "Explain lightning as a byproduct of system friction.", "start_image_keywords": ["star_friction", "violet_lightning"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "interface", "shot_type": "insert", "framing": "medium", "environment": "Hologram Simulation", "env_change": true, "actors": [], "props": ["Load Balancer UI"], "camera": "Floating / Glitch", "mood": ["analytical", "cold"], "director_intent": "Abstract judgment into a clean, cold user interface.", "start_image_keywords": ["holographic_ui", "load_balancer", "digital_scales"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": ["Load Balancer UI"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Close-up of two metallic rails running parallel, vertical 9:16 aspect ratio. Two glowing spheres rush past each other on the rails. Between them, a massive jagged arc of violet lightning explodes. Sparks shower down. Industrial grit, high voltage, intense brightness, motion blur.
+Vertical 9:16 insert shot of a 3D holographic interface floating in the void. A "Digital Scale" UI. Left Bar: Glowing White "LUMINOSITY". Right Bar: Glowing Cyan "INTEGRITY". The bars fluctuate rapidly, seeking balance. Ge'ez numerals scroll on the side. The background is a faint wireframe grid. Minimalist data design, sharp lines, slight chromatic aberration.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Two `LUMINOUS_DATA_SPHERES` on collision-adjacent courses.
+> **Subject:** `THE_LOAD_BALANCER` UI. **Design:** Wireframe pillars of light.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** None.
+> **Data:** Fast scrolling numbers. **Action:** The bars move up and down, then snap to equal height and turn Green.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Rail System. **Action:** The spheres pass within inches of each other.
+> **Location:** Virtual Interface Space.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **VFX:** A violent discharge of Violet Plasma `HEX_8A2BE2` connects them. **Atmosphere:** Smoke and ozone haze erupt from the contact point.
+> **Light:** Self-illuminated Neon. **Colors:** Clinical White, Cyan, Green.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Telephoto lens zooming in. **Motion:** Camera shakes violently at the moment of discharge. **Format:** Vertical 9:16.
+> **Camera:** Floating Virtual Camera. **Motion:** Slight digital glitch/jitter. **Format:** Vertical 9:16.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud, cracking arc-welding sound. A deep thunderous bass boom that distorts the audio slightly. Sizzling after-effects.
+High-pitched telemetry beeps. Fast counting sound. A satisfying, resonant "Data-Lock" chime when it turns green.
 
-## [ACT II] [SCENE 2.3] [Timecode: 00:28-00:32] [REACTION: THE FLINCH]
-**Action:** Enoch flinches. His skin ripples (simulated muscle spasm). The reflection of the lightning flashes in his silver skin.
+## [ACT II] [SCENE 2.4] [Timecode: 00:32-00:38] [THE QUERY]
+**Action:** Henoch raises Obsidian Interface Block. Points at the chaos. Mute demand for access.
+**Dialog:** Enoch: "Was ist diese Struktur?"
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Platform Zeta-9", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Obsidian Tablet"], "camera": "Over Shoulder / Whip Pan", "mood": ["demanding", "confused"], "director_intent": "Enoch demands an explanation from the system.", "start_image_keywords": ["enoch_pointing", "obsidian_tablet", "violet_rim_light"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "", "env_id": "", "props": ["Obsidian Tablet"], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "enoch_query_01", "pose_source": "", "driver_notes": "Lip sync for 'Was ist diese Struktur?'"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 4}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 medium over-the-shoulder shot of Henoch. He is holding a sleek, black obsidian tablet in his left hand and pointing his right gloved hand (Idris Glove with gold knuckles) towards the chaos of the server grid. Violet lightning flashes illuminate his silver skin and the back of his head. He is shouting into the void. High contrast, dramatic rim lighting.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Subject:** Henoch (Voyager Phase). **Action:** Raises arm aggressively, pointing. Turns head to look for an answer.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Gear:** Translucent robes fluttering in the solar wind. Obsidian Tablet in hand.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Background:** The chaotic, flashing server grid.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Light:** Harsh Violet Rim Light from the lightning.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Medium Shot, Whip Pan to follow the hand gesture. **Format:** Vertical 9:16.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+The background noise cuts out to near-silence (vacuum). Muffled, processed voice: "Was ist diese Struktur?". Sudden static burst at the end.
+
+## [ACT II] [SCENE 2.5] [Timecode: 00:38-00:45] [THE ADMIN]
+**Action:** Uriel manifests as a slit in reality. Projects a new window. The chaos organizes into a map.
+**Dialog:** Uriel: "Die Namen der Heiligen. Die Netz-Integrität."
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "low_angle", "framing": "full_body", "environment": "Platform Zeta-9", "env_change": false, "actors": [{"name": "Uriel", "phase": "System_Admin", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Point of View / Morph", "mood": ["majestic", "abstract"], "director_intent": "Reveal the angel as a pure data entity organizing chaos.", "start_image_keywords": ["uriel_light_entity", "interference_pattern", "data_slit"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "uriel_explanation_01", "pose_source": "", "driver_notes": "Abstract light pulse modulation"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 8}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 low angle shot. Uriel manifests not as a human, but as a vertical slit in reality, a blinding white and violet "Interference Pattern" roughly shaped like a giant humanoid. Data ribbons unravel from the figure, organizing the background chaos into straight lines. The entity radiates a cold, calculated aura. Glitch art aesthetic, divine technology.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Subject:** Uriel (System Admin). **Body:** Composed of vibrating vertical light lines, transparency and distortion.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Effect:** Digital noise around the edges. **Action:** The entity expands, projecting a window of order.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Background:** The chaotic sparks freeze and organize into a grid.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Light:** Self-illuminated White/Violet.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** POV (Henoch's HUD). **Motion:** Morphing/Distortion effect. **Format:** Vertical 9:16.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Digital voice synthesis, garbled and layered. A low hum that resolves into a harmonious chord.
+
+## [ACT III] [SCENE 3.1] [Timecode: 00:45-00:52] [MAPPING VISUALIZATION]
+**Action:** Laser lines connect Orbital Nodes down to Wireframe Earth. Red lines turn Gold upon locking.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Observation Platform Zeta", "env_change": false, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Close-Up / Static", "mood": ["fear", "visceral"], "director_intent": "Show the biological impact of the system's power on the protagonist.", "start_image_keywords": ["enoch_flinch", "silver_skin_ripple"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "interface", "shot_type": "top_down", "framing": "wide", "environment": "Hologram Simulation", "env_change": true, "actors": [], "props": ["Earth Wireframe"], "camera": "God View / Smooth Zoom", "mood": ["connected", "global"], "director_intent": "Show the physical connection between the heavens and earth.", "start_image_keywords": ["earth_wireframe", "orbital_lasers", "connection_lines"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": ["Earth Wireframe"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Close-up of Enoch's face, vertical 9:16 aspect ratio. His skin is silver marble. He is flinching, eyes squinting. Violet light from off-screen reflects sharply on his skin. The skin surface appears to be rippling like water disturbed by sound. Intense emotion, hyper-realistic texture.
+Vertical 9:16 top-down view of a massive holographic map. Top: The hexagonal Star-Grid. Bottom: A glowing orange wireframe map of Earth's continents (Night). Thousands of thin vertical laser lines drop from the stars to specific points on the map. The lines are initially Red (Searching), then snap to Gold (Locked). Text "SESSION_LINK_ESTABLISHED" floats in Ge'ez. Data visualization, dark mode, glowing connections.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Enoch (Voyager Phase). **Action:** A sharp, involuntary flinch. **Texture:** The `MARBLE_SHIMMER_V3` skin ripples physically, behaving like a non-Newtonian fluid under stress.
+> **Subject:** Holographic Earth Map and Star Grid.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** HUD-Visor flickers with static.
+> **VFX:** `FIBER_OPTIC` lines connecting top to bottom.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Background:** Dark, blurred.
+> **Action:** Lines scan the surface, then lock on. Color shift Red -> Gold.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** Stroboscopic violet flashes illuminate his face. **Contrast:** High contrast shadows.
+> **Colors:** Orange (Earth), Blue (Orbit), Gold (Links).
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Close-Up. **Motion:** Handheld shake. **Format:** Vertical 9:16.
+> **Camera:** God View, Smooth Zoom In. **Format:** Vertical 9:16.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Accelerated heartbeat monitor sound (thump-thump-thump). The sound of stretching rubber or skin tension.
+"System Online" chime. Harmonious synth pad swelling.
 
-## [ACT II] [SCENE 2.4] [Timecode: 00:32-00:38] [ATMOSPHERE: THE AFTERMATH]
-**Action:** The Lightning Arc stabilizes into a standing wave of plasma, illuminating the grid. Ozone haze fills the platform.
+## [ACT III] [SCENE 3.2] [Timecode: 00:52-00:57] [THE USER NODE]
+**Action:** Hypersonic zoom to Earth surface. A single believer marked with `USER_ID: 777`.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Observation Platform Zeta", "env_change": false, "actors": [], "props": [], "camera": "High Angle / Dissolve", "mood": ["stabilization", "haze"], "director_intent": "Transition from chaos to a stable, observable phenomenon.", "start_image_keywords": ["plasma_wave", "ozone_haze"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "top_down", "framing": "extreme_close_up", "environment": "Earth Surface Night", "env_change": true, "actors": [], "props": ["User Marker"], "camera": "Crash Zoom", "mood": ["targeted", "specific"], "director_intent": "Identify a single human soul as a system user.", "start_image_keywords": ["satellite_zoom", "user_id_marker", "desert_night"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": ["User Marker"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide high angle shot of the platform, vertical 9:16 aspect ratio. A standing wave of violet plasma connects two points in the sky, stable and humming. Thick blue ozone fog/haze covers the floor of the platform. The lighting is eerie and volumetric. Sci-fi atmosphere, cinematic composition.
+Vertical 9:16 satellite view crashing down to Earth surface. A dark desert landscape at night. A single bright digital marker hovers over a tiny figure on the ground. The marker reads "USER_ID: 777_FAITH_CONFIRMED". The surrounding area is dark, emphasizing the single point of light. Tactical map aesthetic, green night vision overlay, precise targeting.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** The Plasma Arc. **Action:** It no longer flickers but pulsates rhythmically.
+> **Subject:** A single coordinate on Earth.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** None.
+> **UI:** Digital target reticle locks on.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Platform Zeta. **Atmosphere:** Thick, rolling fog (Ozone) creeps across the floor.
+> **Action:** Camera falls from clouds to ground level in seconds. **Terrain:** Desert dunes at night.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** The violet light is now constant, casting long shadows. **VFX:** Volumetric lighting beams through the fog.
+> **Light:** The marker is the only light source.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** High Angle Wide. **Motion:** Slow drift. **Format:** Vertical 9:16.
+> **Camera:** Crash Zoom (Satellite to Macro). **Motion:** Hypersonic blur. **Format:** Vertical 9:16.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud, steady electrical hum (like a high-tension wire). Hissing of gas (ozone).
+Loud wind shear (Re-entry sound). Sudden silence upon impact/locking.
 
-## [ACT II] [SCENE 2.5] [Timecode: 00:38-00:45] [ARRIVAL: URIEL]
-**Action:** Uriel manifests from the plasma. He steps out of the light. His body is composed of sharp geometric light-shards. He stands beside Enoch.
+## [ACT III] [SCENE 3.3] [Timecode: 00:57-01:00] [COMPREHENSION]
+**Action:** Henoch lowers tablet. HUD turns Green. Reflection of Earth passes over his visor.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "full_body", "environment": "Observation Platform Zeta", "env_change": false, "actors": [{"name": "Uriel", "phase": "System_Admin", "presence": "on_screen", "focus": "primary"}, {"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Low Angle / Hero Shot", "mood": ["majesty", "synthetic"], "director_intent": "Introduce the guide entity not as a human, but as a construct of the system.", "start_image_keywords": ["uriel_manifestation", "hard_light_geometry"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Platform Zeta-9", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Close-Up / Slow Dissolve", "mood": ["acceptance", "enlightenment"], "director_intent": "Henoch accepts his role in the system.", "start_image_keywords": ["henoch_face", "hud_green", "earth_reflection_visor"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Low angle full body shot of a towering entity (Uriel) stepping out of a wall of violet light, vertical 9:16 aspect ratio. Uriel has no face, just a vertical glowing slit. His body is made of sharp, floating geometric shards of hard light. He wears robes made of flowing data streams. Enoch stands small beside him. Epic, surreal, digital divinity.
+Vertical 9:16 close-up of Henoch's face. He slowly lowers the obsidian tablet. The HUD overlay in his eyes shifts from frantic Orange to steady Green. A reflection of the rotating Earth passes clearly over his glass-like visor. His expression is stoic, enlightened, accepting the mechanical truth. Soft blue lighting from the screen.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Uriel (System Admin). **Body:** `HARD_LIGHT_GEOMETRY`. Translucent, angular shards held together by forcefields. **Face:** A vertical white slit on a blank geometric head.
+> **Subject:** Henoch (Voyager Phase). **Action:** Lowers hand. Iris-shutter relaxes.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Robes:** Cascading binary streams and light ribbons.
+> **Visor:** Reflection of Earth moving across the glass. **HUD:** Turns Green.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Platform Zeta. **Action:** Uriel coalesces from the background plasma and steps forward.
+> **Atmosphere:** Calm, no wind.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** Uriel emits a strong internal blue light. **VFX:** Lens flares and digital distortion around him.
+> **Light:** Cool blue screen glow on face.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Low Angle Hero Shot. **Motion:** Slow push in. **Format:** Vertical 9:16.
+> **Camera:** Close-Up. **Motion:** Slow Dissolve feel. **Format:** Vertical 9:16.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sound of glass shattering in reverse (assembling). A deep bass thud with each footstep.
+Deep exhale (breathing). The sound of a cooling fan spinning down.
 
-## [ACT III] [SCENE 3.1] [Timecode: 00:45-00:50] [QUERY: THE QUESTION]
-**Action:** Enoch turns to Uriel, pointing his obsidian finger at the Star-Grid and the Lightning. He mouths the question.
-**Dialog:** Enoch: "What are these hidden things?"
+## [ACT III] [SCENE 3.4] [Timecode: 01:00-01:05] [OUTRO]
+**Action:** Henoch alone on platform. The Machine-Sky rotates silently above. Earth curvature below.
+**Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "over_shoulder", "framing": "medium", "environment": "Observation Platform Zeta", "env_change": false, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}, {"name": "Uriel", "phase": "System_Admin", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Over-Shoulder", "mood": ["curiosity", "inquiry"], "director_intent": "Enoch seeks the logic behind the visual chaos.", "start_image_keywords": ["enoch_pointing", "obsidian_finger"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "enoch_query_01", "pose_source": "", "driver_notes": "Lip sync for 'What are these hidden things?'"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 6}
+REGIE_JSON: {"subject": "environment", "shot_type": "extreme_wide", "framing": "extreme_wide", "environment": "Geodesic Server Array", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Dolly Back / Fade Out", "mood": ["epic", "isolated"], "director_intent": "Leave the audience with the scale of the machine vs the individual.", "start_image_keywords": ["tiny_henoch", "massive_machine_sky", "earth_curvature"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Over-the-shoulder shot looking past Uriel's geometric shoulder towards Enoch, vertical 9:16 aspect ratio. Enoch is pointing with a black obsidian finger towards the sky. His expression is questioning. The violet lightning reflects in his visor. Cinematic dialogue setup, depth of field.
+Vertical 9:16 extreme wide shot pulling back from Platform Zeta. Henoch is a tiny silver speck standing on the edge. Above him, the colossal hexagonal Server Grid rotates slowly and silently, blotting out the stars. Below, the blue curvature of Earth glows in the darkness. Epic scale, sense of isolation, high-tech majesty. 8k Unreal Engine 5 render.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Enoch (Voyager Phase). **Action:** Turns head to Uriel, raises hand, points. **Lips:** Moving in sync with speech.
+> **Subject:** Henoch (Tiny Silhouette). **Context:** The vastness of the Orbital System.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** Idris-Gloves (Obsidian/Gold).
+> **Machine:** The Sky-Grid rotates in unison.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Foreground:** Uriel's out-of-focus light-shoulder. **Background:** The active Star-Grid.
+> **Location:** High Orbit. **Action:** Henoch turns to look at a new teleport node.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** Rim light from the lightning. **Color:** Violet and Silver.
+> **Light:** Earthglow from below, Machine-glow from above.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Over-Shoulder. **Motion:** Static. **Format:** Vertical 9:16.
+> **Camera:** Slow Dolly Back into the void. **Motion:** Smooth, epic. **Format:** Vertical 9:16.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Silence. The background noise drops away to create a vacuum for the dialogue.
-
-## [ACT III] [SCENE 3.2] [Timecode: 00:50-00:55] [ANSWER: THE HOLOGRAM]
-**Action:** Uriel raises a hand. A complex 3D Hologram expands between them. It shows the Star-Grid connected by vertical lines to a map of Earth below.
-**Dialog:** Uriel: "These are the names of the holy on Earth."
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Observation Platform Zeta", "env_change": false, "actors": [{"name": "Uriel", "phase": "System_Admin", "presence": "on_screen", "focus": "primary"}, {"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Hologram Map"], "camera": "Two Shot / Medium", "mood": ["revelation", "data"], "director_intent": "Visualizing the metaphysical connection as a network topology.", "start_image_keywords": ["uriel_hologram", "earth_star_connection"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": ["Hologram Map"], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "uriel_answer_01", "pose_source": "", "driver_notes": "Lip sync (if applicable) or body language for 'These are the names...'"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium two-shot of Enoch and Uriel, vertical 9:16 aspect ratio. Between them floats a complex orange and cyan wireframe hologram. The hologram shows a star map connected by vertical lines to a globe of Earth. Uriel's hand is raised, manipulating the projection. High-tech interface, schematic aesthetic.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Uriel and Enoch. **Action:** Uriel gestures, the hologram expands. Enoch watches intently.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** Standard Voyager/Admin loadout.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Object:** The Hologram. **Detail:** It shows vertical fiber-optic cables connecting stars to Earth.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** The hologram casts orange and cyan light on their faces.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Medium Two-Shot. **Motion:** Slight parallax slide. **Format:** Vertical 9:16.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-UI Interface blips and chirps. A low frequency "wub" sound as the hologram expands.
-
-## [ACT III] [SCENE 3.3] [Timecode: 00:55-01:00] [RESOLUTION: THE LINK]
-**Action:** Macro shot of a single connection line. It pulses with light, traveling down through clouds to a digital silhouette of a human praying.
-**Dialog:** Uriel: "Who believe in the Lord of Spirits forever."
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "macro", "framing": "close_up", "environment": "Hologram Simulation", "env_change": true, "actors": [], "props": [], "camera": "Macro Tracking", "mood": ["faith", "connection"], "director_intent": "The final emotional anchor: the system exists for the user.", "start_image_keywords": ["connection_line", "praying_silhouette"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "uriel_answer_02", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 8}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Macro shot inside a holographic simulation, vertical 9:16 aspect ratio. A single glowing orange fiber-optic line descends through digital clouds. At the bottom, it connects to the glowing blue silhouette of a human figure on knees praying. The line pulses with light data. Emotional, symbolic, data-visualization style.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** A data-stream connection. **Target:** A digital human silhouette.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** None.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Inside the Hologram. **Action:** The camera follows the light pulse down the line.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** Glowing Orange (The Name) meeting Glowing Blue (The Believer).
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Macro Tracking Shot. **Motion:** Fast descent, slowing down at the target. **Format:** Vertical 9:16.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-A synthesized choir chord, warm and resolving. The sound of a heartbeat. Fade out.
+The `WHITE_NOISE_TURBINES` sound fades into silence. A final deep bass thrum.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.3","text":"Ich stehe am Rand der Logik. Unter mir das Chaos, über mir der Code.","words_max":12},{"scene":"2.3","text":"Gewalt. Nicht Zorn, sondern Physik. Das System korrigiert sich selbst.","words_max":10}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.3","text":"Der Upload ist vollzogen. Ich sehe nicht mehr, ich lese Daten.","words_max":12},{"scene":"2.4","text":"Warum diese Gewalt? Ist Heiligkeit nur Strom?","words_max":10},{"scene":"3.3","text":"Wir sind registriert. Niemand geht verloren.","words_max":8}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

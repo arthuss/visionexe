@@ -1,29 +1,30 @@
 ## [CHARACTER] Le'ey (ID: CHAR_LE_EY)
-**Description:** Le'ey is a technician-scribe of the ancient order, tasked with maintaining the peripheral glyph-circuits of the Watchers' infrastructure. A figure of quiet intensity, he bridges the gap between human tradition and incomprehensible celestial technology. His appearance blends the aesthetic of an ancient Ethiopian scholar with the grime of an industrial mechanic, wearing garments that are half-vestment, half-workwear.
-**Tags:** #character #scribe #technician #industrial_mysticism #ancient_tech #ethiopian_aesthetic
+**Description:** Le'ey is a towering humanoid sentinel forged from basalt and obsidian, its body carved like an ancient Ethiopian stela with angular Egyptian obelisk geometry. The form is etched with luminous bioluminescent glyphs that pulse in sync with a crystalline core, while a polished obsidian mask houses iridescent crystal lenses that function as ocular sensors. Copper alloy joints reinforce the segmented limbs, and a flowing copper mesh woven with quartz filaments drapes the lower half, all rendered photorealistically with tactile textures and subtle phosphorescence, embodying industrial mysticism.
+**Tags:** #ancient-tech #industrial mysticism #Ethiopian #Egyptian #bioluminescent #crystalline #humanoid #photorealistic
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Lean, wiry build indicating a life of precise labor rather than brute force. Dark, weathered skin with a matte texture. Sharp, attentive facial features.
-*   **Face/Sensors:** The left eye is augmented with a 'Lector's Monocle'—a brass and crystal assembly grafted directly into the orbital bone, emitting a faint amber scanning light. Faint geometric scarification (circuit-tattoos) runs down the neck.
-*   **Clothing/Armor:** Wears a heavy, layered tunic of unbleached linen and rough-spun wool, stained with oil and coolant. Over this, a leather harness supports a modular tool-kit and scroll cases. Bronze greaves protect his shins.
-*   **Key Features:** Hands are stained dark from handling carbon-filters and ink. He moves with calculated precision.
+*   **Body/Form:** Sculpted basalt torso resembling a monolith, segmented limbs like carved stelae, joints reinforced with copper alloy plates.
+*   **Face/Sensors:** Polished obsidian mask with recessed glyphs, embedded iridescent crystal lenses emitting soft blue light, serving as ocular sensors.
+*   **Clothing/Armor:** Flowing copper mesh woven with quartz filaments, lower half a reinforced basalt skirt etched with solar glyphs.
+*   **Key Features:** Central chest cavity houses a crystalline core glowing with bioluminescent algae; arms terminate in clawed gauntlets channeling energy through etched channels.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): The standard appearance of Le'ey as he performs his maintenance duties, equipped with his diagnostic tools and protective gear.
+*   Phase 1 (Prototype): Initial assembly of basalt frame and copper alloy joints, basic glyph etching, rudimentary crystalline core.
+*   Phase 2 (Operational): Enhanced glyph circuitry, integrated bioluminescent algae, upgraded crystalline core with energy amplification, added adaptive armor plating.
 
 ### 3. PROPS & EQUIPMENT
-*   **Glyph-Stylus:** A heavy, rod-like tool made of oxidized copper used to carve or activate light-circuits.
-*   **Data-Satchel:** A stiff leather bag hanging from the hip, containing crystalline data-shards and parchment maps.
+*   Item: Obsidian Staff with a crystal tip that channels glyph energy.
+*   Item: Amulet of Scribe – a bronze pendant engraved with ancient runes, containing a micro crystal data core.
 
 ### 4. AI PROMPT KEYWORDS
-`Le'ey`, `ancient technician`, `Ethiopian male`, `cybernetic monocle`, `brass and crystal tech`, `dirty linen robes`, `industrial mysticism`, `cinematic lighting`, `hyperrealistic`
+`ancient Ethiopian motifs`, `Egyptian hieroglyphs`, `obsidian armor`, `crystalline circuitry`, `bioluminescent glyphs`, `industrial mysticism`, `photorealistic`
 
 ### 5. PROMPT BLOCK (T2I)
-Medium shot of Le'ey, an ancient Ethiopian technician-scribe, standing in a dim, steam-filled industrial temple. He has dark, weathered skin and a lean build. His left eye is replaced by a complex brass and crystal ocular implant glowing with faint amber light. He wears layered, oil-stained linen robes under a heavy leather work-harness filled with metallic tools. In his hand, he holds a copper Glyph-Stylus. The background features towering basalt walls etched with glowing blue circuitry. Cinematic lighting, volumetric atmosphere, texture-heavy, photorealistic, 8k.
+A towering humanoid sentinel named Le'ey, forged from basalt and obsidian, its body carved like an ancient Ethiopian stela with angular Egyptian obelisk geometry, adorned with luminous bioluminescent glyphs pulsing in sync with a crystalline core, polished obsidian mask with iridescent crystal lenses, copper alloy joints, quartz filaments woven into a flowing copper mesh, bioluminescent algae glowing within a crystalline heart, all rendered photorealistically with tactile textures, subtle phosphorescence, and industrial mysticism.
 
 ### 6. PHASE PROMPTS
-*   **Default:** Le'ey in his standard technician attire with ocular implant and tools.
-    Prompt: Medium shot of Le'ey, an ancient Ethiopian technician-scribe, standing in a dim, steam-filled industrial temple. He has dark, weathered skin and a lean build. His left eye is replaced by a complex brass and crystal ocular implant glowing with faint amber light. He wears layered, oil-stained linen robes under a heavy leather work-harness filled with metallic tools. In his hand, he holds a copper Glyph-Stylus. The background features towering basalt walls etched with glowing blue circuitry. Cinematic lighting, volumetric atmosphere, texture-heavy, photorealistic, 8k.
-    Keywords: Le'ey, technician, work gear, ocular implant, amber light
+*   **Default:** Le'ey in its operational form, fully integrated with crystalline core and glyph circuitry.
+    Prompt: Le'ey in its default state: a towering humanoid sentinel forged from basalt and obsidian, its body carved like an ancient Ethiopian stela with angular Egyptian obelisk geometry, adorned with luminous bioluminescent glyphs pulsing in sync with a crystalline core, polished obsidian mask with iridescent crystal lenses, copper alloy joints, quartz filaments woven into a flowing copper mesh, bioluminescent algae glowing within a crystalline heart, rendered photorealistically with tactile textures, subtle phosphorescence, and industrial mysticism.
+    Keywords: ancient Ethiopian motifs, Egyptian hieroglyphs, obsidian armor, crystalline circuitry, bioluminescent glyphs, industrial mysticism, photorealistic
 
 ---

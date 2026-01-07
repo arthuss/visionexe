@@ -3,53 +3,73 @@
   "name": "Holy One",
   "type": "character",
   "card": {
-    "description": "A transcendant cybernetic entity functioning as a spiritual anchor within the Celestial Server Room. The Holy One manifests as a pristine, chrome-plated humanoid construct, embodying the fusion of divine authority and industrial processing power. In this specific manifestation, the entity is experiencing a critical thermal event, representing a sacrificial or overwhelming interaction with the system's core infrastructure.",
+    "description": "The Holy One is a transcendent entity that manifests as a cascading river of luminous fiber‑optic strands, weaving through towering black obsidian monoliths and orbiting monolithic obelisks of brushed gold and matte black ceramic. Its presence is felt as a hum of ancient circuitry and celestial order, bridging primordial mysticism and incomprehensible technology.",
     "tags": [
-      "Holy One",
-      "cybernetic deity",
-      "chrome robot",
-      "thermal destruction",
-      "industrial mysticism",
-      "ancient-tech"
+      "spiritual",
+      "luminescent",
+      "fiber‑optic",
+      "ancient‑tech",
+      "obsidian",
+      "golden",
+      "ceramic",
+      "server",
+      "monolith",
+      "celestial",
+      "cybernetic"
     ],
     "visual_anatomy": [
-      "**Body/Form:** Idealized humanoid structure composed of high-gloss, mirror-finish chrome. The surface is flawless, reflecting the server room environment, until subjected to extreme heat.",
-      "**Surface Details:** Micro-etched circuits resembling ancient Ge'ez script running along the metacarpals and forearms, glowing faintly before being obscured by heat damage.",
-      "**Hand/Manipulators:** Articulated robotic fingers with precision-machined joints. Currently in a state of catastrophic failure—metal turning bright orange, softening, and dripping like liquid mercury.",
-      "**Key Features:** The interaction point with the 'Red Cable'—a source of intense energy causing the thermal overload. Heat distortion waves radiating from the grip point."
+      "**Body/Form:** A flowing, undulating mass of cyan‑blue fiber‑optic strands, forming abstract humanoid silhouettes that flicker and dissolve.",
+      "**Face/Sensors:** No discernible face; a lattice of bioluminescent glyphs pulses in sync with the light streams.",
+      "**Clothing/Armor:** None; the entity is itself a construct of light and metal, with golden server blades and matte black ceramic surfaces.",
+      "**Key Features:** Millions of thin fiber‑optic lines, cyan‑blue glow, heat distortion from cooling vents, pulsing amber LEDs, rotating monolithic obelisks, obsidian towers."
     ],
     "evolution": [
-      "Phase 1 (Default): The entity in the moment of critical interaction, gripping the red cable, transitioning from pristine chrome to molten slag at the point of contact."
+      "Phase 1 (Initial Manifestation): River of glowing cyan/blue light streams through canyon, abstract humanoid shapes forming and dissolving.",
+      "Phase 2 (Orbital Ascension): Transforms into floating monolithic obelisks of brushed gold and matte black ceramic, rotating on a magnetic axis, with cooling vents and status LEDs."
     ],
     "props": [
-      "Glowing Red Cable: Thick, industrial data conduit pulsing with volatile energy.",
-      "Molten Chrome Droplets: Liquid metal falling from the fingertips."
+      "Light Streams (Holy Ones)",
+      "Cooling Vents",
+      "Server Obelisks",
+      "LEDs",
+      "Server Blades"
     ],
     "prompt_keywords": [
-      "Holy One",
-      "chrome robotic hand",
-      "thermal overload",
-      "melting metal",
-      "glowing red cable",
-      "liquid mercury",
-      "Celestial Server Room",
-      "industrial mysticism",
-      "cinematic macro"
+      "fiber‑optic",
+      "cyan",
+      "blue",
+      "obsidian",
+      "gold",
+      "ceramic",
+      "LED",
+      "heat distortion",
+      "space",
+      "canyon",
+      "monolith",
+      "long exposure",
+      "photographic",
+      "industrial",
+      "ancient‑tech"
     ],
-    "prompt_block": "Macro close-up of the Holy One, a chrome robotic entity, gripping a thick glowing red cable. The metal of the fingers is heating up to a blinding bright orange, beginning to melt and drip like liquid mercury. Intense heat distortion and wisps of acrid smoke rising from the contact point. Background is the blurred, bokeh-rich depth of the Celestial Server Room with ancient gold and obsidian server racks. Photorealistic, 8k, highly detailed textures of stressed metal and molten fluid, dramatic cinematic lighting, serious tone.",
+    "prompt_block": "A vertical 9:16 composition of the Holy One as a cascading river of luminous cyan‑blue fiber‑optic strands weaving through towering black obsidian monoliths, with abstract humanoid shapes flickering within the flow; the scene transitions to a cluster of floating monolithic obelisks made of brushed gold and matte black ceramic, rotating on a magnetic axis, emitting intense heat distortion from cooling vents, surrounded by a star‑filled space background, with thousands of warm amber LEDs pulsing in unison, captured in long exposure light photography style, photorealistic, tactile, grounded realism, ancient‑tech industrial mysticism.",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "The Holy One's hand melting while gripping a red cable in the Celestial Server Room.",
+        "summary": "The Holy One manifests as a luminous river of fiber‑optic strands and monolithic obelisks.",
         "prompt_keywords": [
-          "melting chrome",
-          "robotic hand",
-          "red cable",
-          "thermal glow",
-          "macro"
+          "fiber‑optic",
+          "cyan",
+          "obsidian",
+          "gold",
+          "ceramic",
+          "LED",
+          "heat distortion",
+          "space",
+          "canyon",
+          "monolith"
         ],
-        "prompt_block": "Macro shot of a chrome robotic hand belonging to the Holy One, tightly gripping a pulsating red data cable. The fingers are glowing molten orange and losing structural integrity, dripping liquid metal like mercury. Heat waves distort the view. The surface of the metal shows faint, etched ancient glyphs dissolving into slag. Atmospheric lighting from the server room, high contrast, industrial texture, hyper-realism."
+        "prompt_block": "A vertical 9:16 composition of the Holy One as a cascading river of luminous cyan‑blue fiber‑optic strands weaving through towering black obsidian monoliths, with abstract humanoid shapes flickering within the flow; the scene transitions to a cluster of floating monolithic obelisks made of brushed gold and matte black ceramic, rotating on a magnetic axis, emitting intense heat distortion from cooling vents, surrounded by a star‑filled space background, with thousands of warm amber LEDs pulsing in unison, captured in long exposure light photography style, photorealistic, tactile, grounded realism, ancient‑tech industrial mysticism."
       }
     ]
   },

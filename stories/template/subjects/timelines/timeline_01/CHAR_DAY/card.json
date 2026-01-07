@@ -3,54 +3,52 @@
   "name": "Day",
   "type": "character",
   "card": {
-    "description": "A colossal, artificial celestial luminary functioning as the primary light source and timekeeper for the simulation. It is not a natural star, but a spherical reactor of compressed white plasma and burning magnesium, encased in a rotating geodesic lattice of gold circuitry and obsidian heat-shields. It hangs in the sky as a singular, unblinking 'Solar Eye', projecting hard, sterile daylight and broadcasting temporal telemetry to the world below. Its light reveals the wireframe nature of reality, stripping away shadows with surgical precision.",
+    "description": "Day is a luminous celestial body personified as a massive, crystalline sun disk that radiates bio‑luminescent light across the environment. Its surface is etched with ancient Ethiopian and Egyptian glyphs, forming a lattice of translucent quartz that refracts and amplifies the light, creating a tangible, tactile glow that interacts with the surrounding atmosphere.",
     "tags": [
-      "celestial_body",
-      "artificial_sun",
-      "light_source",
-      "atmospheric_construct",
-      "industrial_mysticism",
-      "timekeeper"
+      "celestial body",
+      "time of day",
+      "ancient-tech",
+      "photorealistic",
+      "Egyptian",
+      "bio-luminescence"
     ],
     "visual_anatomy": [
-      "**Core:** A blinding sphere of white magnesium fire and raw data-plasma, too bright to look at directly without filters.",
-      "**Containment:** Surrounded by a Dyson-swarm-like cage of rotating gold rings and black obsidian monoliths that modulate the light output.",
-      "**Atmosphere:** Generates a halo of prismatic lens flares and vertical light-pillars that connect it to the horizon.",
-      "**Surface:** If dimmed, reveals a surface of densely packed server cooling vents and hex-grid solar arrays.",
-      "**Key Features:** Projects 'God-Rays' that are visibly composed of falling alphanumeric code strings."
+      "**Body/Form:** A 30‑meter diameter disk of polished obsidian rimed with a lattice of translucent quartz crystals, each crystal branching into finer filaments that channel light outward.",
+      "**Face/Sensors:** No facial features; instead, a network of bioluminescent veins runs along the crystal lattice, pulsing with a soft azure glow that serves as a sensor array detecting atmospheric conditions.",
+      "**Clothing/Armor:** None; the disk itself functions as armor, its crystalline surface reflecting and diffusing light to protect the inner core.",
+      "**Key Features:** Hieroglyphic glyphs carved into the quartz, glowing with a warm amber light; a central core of molten gold‑infused glass that emits a steady, radiant pulse; bio‑luminescent filaments that extend into the atmosphere, forming a halo of light."
     ],
     "evolution": [
-      "Phase 1 (Default): The entity in its prime state, positioned at the zenith, radiating maximum luminance and surveillance."
+      "Phase 1 (Emergence): The Day disk rises from the horizon, its crystalline lattice forming in a slow, deliberate motion, as if the ancient glyphs are being etched in real time.",
+      "Phase 2 (Full Day): The disk stabilizes, its bio‑luminescent veins fully activated, casting a warm, diffused light that bathes the environment in a golden glow."
     ],
     "props": [
-      "Orbital Rings",
-      "Data Beams"
+      "Item: Solar Glyphs – a set of floating, translucent glyphs that orbit the Day disk, each emitting a faint pulse of light.",
+      "Item: Crystalline Radiant Core – a central core of molten gold‑infused glass that can be detached for close‑up shots."
     ],
     "prompt_keywords": [
-      "artificial sun",
-      "techno-celestial sphere",
-      "magnesium fire",
-      "gold orbital rings",
-      "obsidian lattice",
-      "hard daylight",
-      "god rays",
-      "data atmosphere",
-      "industrial mysticism",
-      "cinematic lighting"
+      "luminous disk",
+      "crystalline lattice",
+      "hieroglyphic glyphs",
+      "bio-luminescent veins",
+      "ancient Ethiopian motifs",
+      "photorealistic",
+      "tactile"
     ],
-    "prompt_block": "A low-angle cinematic shot looking up at 'Day', a massive artificial sun dominating the sky. The entity is a blinding sphere of white magnesium fire encased in rotating gold orbital rings and black obsidian shield-plates. It radiates intense, sterile white light that washes out the sky into a pale cyan gradient. The light creates prismatic lens flares and visible vertical pillars of digital noise connecting the sun to the ground. The aesthetic is ancient-tech combined with high-end sci-fi, realistic textures of brushed gold and scorching plasma. 8k resolution, photorealistic, volumetric lighting, unreal engine 5 render.",
+    "prompt_block": "A photorealistic, cinematic depiction of Day as a massive luminous sun disk, 30 meters in diameter, composed of polished obsidian rimed with a lattice of translucent quartz crystals. The surface is etched with ancient Ethiopian and Egyptian glyphs that glow amber, while bio‑luminescent veins pulse azure across the lattice. A molten gold‑infused glass core radiates steady light, and floating crystalline glyphs orbit the disk, casting a warm, diffused halo over the environment. The scene is rendered in 8k resolution, with realistic light scattering, reflective surfaces, and tactile material textures, evoking a serious, grounded realism.",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "The Day star at its zenith, bright and blinding.",
+        "summary": "Day as a bright celestial body illuminating the environment with a crystalline, bio‑luminescent glow.",
         "prompt_keywords": [
-          "zenith",
-          "blinding light",
-          "magnesium core",
-          "active surveillance"
+          "luminous disk",
+          "crystalline lattice",
+          "hieroglyphic glyphs",
+          "bio-luminescent veins",
+          "ancient Ethiopian motifs"
         ],
-        "prompt_block": "A vertical 9:16 shot of the artificial sun 'Day' at its zenith. The sphere is a blinding white hole in the sky, surrounded by a complex mechanism of spinning gold gears and floating obsidian shards. Hard, sterile light floods the frame, creating high-contrast shadows. The atmosphere around the sun is distorted by heat waves and digital static. The look is overwhelming, divine, and mechanical. 8k, photorealistic, cinematic composition."
+        "prompt_block": "Render Day in its default state: a 30‑meter luminous sun disk with a polished obsidian rim and a lattice of translucent quartz crystals. Hieroglyphic glyphs etched into the crystal surface glow amber, while bio‑luminescent veins pulse azure across the lattice. A molten gold‑infused glass core emits steady light, and floating crystalline glyphs orbit the disk, creating a warm, diffused halo. The scene is photorealistic, 8k, with realistic light scattering, reflective surfaces, and tactile textures, capturing a serious, cinematic tone."
       }
     ]
   },

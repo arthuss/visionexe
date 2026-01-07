@@ -3,51 +3,58 @@
   "name": "Fire",
   "type": "character",
   "card": {
-    "description": "An elemental manifestation of energy serving as both a primal force and a 'System Purge' mechanism. In this setting, Fire oscillates between organic combustion and 'Digital Plasma'—a state where superheated matter reveals underlying command grids and judgment protocols. It is the visual exhaust of high-tech ceramic heat-shields and the punitive tool of the overarching machine architecture.",
+    "description": "A towering, ancient‑tech fire rising 30 meters into a twilight purple sky, its flames etched with glowing Ethiopian hieroglyphic glyphs, bio‑luminescent phosphor veins, and crystalline embers that pulse with a blue‑white core. The fire is rendered with photorealistic volumetric light, heat distortion rippling the air, and ash trails curling like smoke, all captured in 8K cinematic detail.",
     "tags": [
-      "element",
-      "plasma",
-      "hazard",
-      "industrial_mysticism",
-      "light_source",
-      "fx_volumetric"
+      "natural element",
+      "fire",
+      "ancient‑tech",
+      "volumetric",
+      "photorealistic",
+      "Ethiopian",
+      "Egyptian",
+      "bio‑luminescence",
+      "glyphs",
+      "crystalline"
     ],
     "visual_anatomy": [
-      "**Body/Form:** Volumetric luminance that glitches between fluid organic tongues and rigid, voxelated 'digital fire' structures.",
-      "**Color/Temperature:** Gradients shifting from 'Human Warmth' (deep orange/amber) to 'Re-entry Burn' (blinding cyan/cobalt) depending on intensity.",
-      "**Texture:** High-frequency detail; flames do not just blur but show 'interlocking hexagonal' micro-patterns within the heat bloom.",
-      "**Particulates:** Emits 'Data-Ash' instead of soot—geometric, glowing cinders that fade into digital noise."
+      "**Body/Form:** Volumetric flame mass, 30 m high, 20 m wide, composed of layered plasma, molten basaltic ash, and a core of incandescent crystal.",
+      "**Face/Sensors:** Glyphic flame patterns act as sensory conduits, glowing in response to ambient energy.",
+      "**Clothing/Armor:** None.",
+      "**Key Features:** Hieroglyphic flame patterns, bio‑luminescent phosphor veins, crystalline embers, heat distortion, ash trails, pulsing blue‑white core."
     ],
     "evolution": [
-      "Phase 1 (Default): The universal state, varying from the warm glow of human encampments to the terrifying, structured burn of atmospheric friction and 'Judgment Protocols'."
+      "Phase 1 (Primordial Ember): Raw, unformed flame with chaotic heat and ash.",
+      "Phase 2 (Tech‑Infused Blaze): Glyphic patterns, crystalline cores, bio‑luminescent veins integrated into the flame."
     ],
     "props": [
-      "Item: Glowing Ceramic Heat-Shield Tiles",
-      "Item: Digital Command Glyphs (floating in flame)",
-      "Item: Sonic Boom Rings"
+      "Flame Glyph: A floating, translucent glyph that channels the fire’s energy.",
+      "Searstone: A crystalline core that feeds and stabilizes the blaze."
     ],
     "prompt_keywords": [
-      "industrial plasma",
-      "digital fire",
-      "volumetric",
-      "heat shimmer",
-      "hexagonal bokeh",
-      "cinematic",
-      "photorealistic"
+      "ancient Ethiopian",
+      "Egyptian",
+      "volumetric fire",
+      "bio‑luminescent glyphs",
+      "crystalline core",
+      "photorealistic",
+      "heat distortion"
     ],
-    "prompt_block": "cinematic close-up of industrial mysticism fire, flames transitioning from organic heat to digital pixelation, glowing geometric glyphs visible within the plasma, intense heat distortion, sparks resembling circuitry, dark atmospheric background, high contrast, 8k, unreal engine 5 render, tactile realism",
+    "prompt_block": "A towering, ancient‑tech fire rising 30 meters into a twilight purple sky, its flames etched with glowing Ethiopian hieroglyphic glyphs, bio‑luminescent phosphor veins, and crystalline embers that pulse with a blue‑white core, photorealistic volumetric light, heat distortion rippling the air, ash trails curling like smoke, rendered in 8K cinematic detail.",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "The manifestation of fire as a high-tech/ancient-tech hybrid force.",
+        "summary": "Primordial fire with ancient glyphic patterns.",
         "prompt_keywords": [
-          "judgment protocol",
-          "digital artifacts",
-          "plasma",
-          "blue streaks"
+          "ancient Ethiopian",
+          "Egyptian",
+          "volumetric fire",
+          "bio‑luminescent glyphs",
+          "crystalline core",
+          "photorealistic",
+          "heat distortion"
         ],
-        "prompt_block": "photorealistic shot of living industrial fire, flames flickering with digital artifacting and judgment protocol text, intense orange and electric blue plasma gradients, heat shimmer distorting the air, embers floating like glowing data bits, cinematic lighting, heavy atmosphere, 8k"
+        "prompt_block": "A colossal fire in its default state, 30 m high, with ancient glyphic patterns glowing in bio‑luminescent veins, crystalline embers pulsing a blue‑white core, photorealistic volumetric light, heat distortion rippling the air, ash trails curling like smoke, 8K cinematic detail."
       }
     ]
   },

@@ -1,0 +1,10 @@
+## [STATE] Beat 1 :: Default
+**State ID:** default
+**Chapters:** 2 - 99
+
+**Phase Summary:** Sunrise over ancient citadel with crystalline sun and glyph‑laden sky.
+**Phase Keywords:** crystalline sun, hieroglyphic circuitry, obsidian lattice, bio‑luminescent stars, dust haze
+**Phase Prompt:**
+A photorealistic, cinematic sky over an ancient Ethiopian citadel, featuring a crystalline sun with swirling hieroglyphic circuitry, bio‑luminescent stars embedded in an obsidian glass lattice, dust haze reflecting warm amber light, towering basalt obelisks etched with luminous glyphs, grounded realism, tactile textures, ancient‑tech aesthetic, no generic sci‑fi, no cartoon, no toy look
+
+---

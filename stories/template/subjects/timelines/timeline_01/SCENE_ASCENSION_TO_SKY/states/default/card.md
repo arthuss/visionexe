@@ -1,0 +1,10 @@
+## [STATE] Ascension to sky :: Default
+**State ID:** default
+**Chapters:** 9 - 9
+
+**Phase Summary:** The obelisk rises, sky glows, glyphs pulse.
+**Phase Keywords:** ascension, crystalline, glyphs, sky, golden glow, Ethiopian, Egyptian, industrial mysticism
+**Phase Prompt:**
+A cinematic, photorealistic depiction of a colossal ancient‑tech obelisk ascending into a sky that is a living tapestry of layered clouds, auroral ribbons, and crystalline spires, illuminated by bio‑luminescent glyphs etched into stone and metal, set against a sun‑lit Ethiopian plateau of crumbling temples, with a warm golden glow casting dramatic shadows, all rendered in tactile, grounded realism with industrial mysticism and ancient Ethiopian/Egyptian aesthetics.
+
+---

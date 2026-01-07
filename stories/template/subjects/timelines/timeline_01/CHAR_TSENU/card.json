@@ -3,55 +3,56 @@
   "name": "Tsenu",
   "type": "character",
   "card": {
-    "description": "A silent, observant entity functioning as a recorder of the forbidden oaths. Tsenu appears as a fusion of statuesque basalt and high-fidelity surveillance technology, bridging the gap between ancient geology and incomprehensible future-tech. The figure possesses a heavy, grounded presence, often motionless, acting as a living archive within the scene.",
+    "description": "Tsenu is a towering sentient construct, 3.5 m tall, forged from basaltic alloy and obsidian panels that echo the stone sarcophagi of ancient Ethiopia and Egypt. Its segmented body is encased in weathered bronze plating with gold filigree, while titanium joints articulate the limbs with silent precision. The head is a polished obsidian dome, embedded with crystalline lenses that act as sensor arrays and project holographic glyphs into the air. Bioluminescent glyphs etched along the torso pulse in a slow, rhythmic glow, powered by copper conduits that snake across the lower torso and feed into a crystal lattice at the tip of an obsidian scepter. The overall aesthetic marries grounded realism with incomprehensible technology, creating a serious, cinematic guardian that feels both ancient and otherworldly.",
     "tags": [
-      "entity",
-      "watcher",
-      "basalt",
-      "gold-circuitry",
-      "obsidian-mask",
-      "industrial-mysticism",
-      "ancient-tech"
+      "ancient-tech",
+      "industrial mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "bioluminescent",
+      "crystalline",
+      "guardian construct",
+      "photorealistic"
     ],
     "visual_anatomy": [
-      "**Body/Form:** Tall, statuesque physique composed of matte, dark grey basalt-like synthetic skin. The surface is etched with fine, gold-inlaid circuitry that glows faintly with distinct rhythmic pulses.",
-      "**Face/Sensors:** The face is a smooth, featureless oval of polished obsidian glass. Behind the glass, faint red lidar arrays and data-stream lights shift deep within, suggesting active scanning without human eyes.",
-      "**Clothing/Armor:** Draped in heavy, robe-like garments made of woven fiber-optic cabling and tattered ceremonial linen. The shoulders are adorned with heavy, oxidized copper mantle pieces that resemble ancient Egyptian broad collars but function as heat sinks.",
-      "**Key Features:** Floating data-glyphs (Ge'ez script) drift subtly around the head. Hands are multi-jointed manipulators, resembling brass clockwork precision tools rather than organic fingers."
+      "**Body/Form:** Segmented basaltic alloy torso, bronze plating with gold filigree, titanium articulated joints, 3.5 m height.",
+      "**Face/Sensors:** Obsidian dome head, crystalline lens arrays, sensor matrix projecting holographic glyphs.",
+      "**Clothing/Armor:** None; armor-like bronze plating and gold filigree serve as protective and decorative elements.",
+      "**Key Features:** Bioluminescent glyphs pulsing along the torso, copper conduit network, crystal lattice energy channels, obsidian scepter with embedded crystal."
     ],
     "evolution": [
-      "Phase 1 (Default): The entity in its primary observational state. Static, imposing, with internal lights humming at a low, steady frequency. The basalt skin is unmarred, and the copper mantle has a dull patina."
+      "Phase 1 (Prototype): Raw basaltic alloy body, minimal glyphs, no energy conduits, basic sensor arrays.",
+      "Phase 2 (Operational): Fully integrated crystalline lattice, bioluminescent glyphs activated, copper conduits glowing, scepter energy channel operational."
     ],
     "props": [
-      "Item: Tablet of Oaths - A thick slab of translucent quartz-glass held in the left hand, scrolling with holographic star charts and binding text.",
-      "Item: Stylus - A long, needle-like instrument of tarnished silver connected to the wrist by a thin wire coil."
+      "Item: Obsidian Scepter with crystal lattice energy core",
+      "Item: Glyphic Tablet bearing luminescent ancient glyphs"
     ],
     "prompt_keywords": [
-      "Tsenu entity",
-      "basalt skin",
-      "gold circuitry inlays",
-      "obsidian face mask",
-      "woven cable robes",
-      "oxidized copper mantle",
-      "ancient-tech fusion",
-      "cinematic lighting",
-      "photorealistic texture",
-      "unreal engine 5 render",
-      "8k",
-      "volumetric fog"
+      "photorealistic",
+      "ancient-tech",
+      "Ethiopian",
+      "Egyptian",
+      "bioluminescent glyphs",
+      "crystalline hardware",
+      "guardian construct"
     ],
-    "prompt_block": "Tsenu entity, a statuesque figure made of matte grey basalt with gold circuitry inlays, wearing heavy robes of woven fiber-optic cables and tattered linen. Face is a smooth polished obsidian oval with deep internal red sensor lights. Shoulders bear heavy oxidized copper heat-sink mantles. Ancient industrial aesthetic, cinematic lighting, photorealistic textures, 8k resolution, grounded realism.",
+    "prompt_block": "A towering 3.5‑meter construct of basaltic alloy and obsidian panels stands in a dimly lit chamber, its bronze‑plated body adorned with gold filigree and ancient Ethiopian‑Egyptian glyphs that pulse with bioluminescent light. The obsidian dome head houses crystalline lens arrays projecting holographic glyphs, while copper conduits snake across the lower torso feeding a crystal lattice at the tip of an obsidian scepter. The scene is rendered photorealistically, capturing the tactile texture of weathered stone, the subtle glow of embedded crystals, and the silent, serious presence of an ancient‑tech guardian.",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Tsenu in standard observational mode, basalt skin and obsidian face, holding quartz tablet.",
+        "summary": "Standing sentinel in a dimly lit chamber, Tsenu radiates ancient mysticism and advanced technology.",
         "prompt_keywords": [
-          "holding quartz tablet",
-          "observant pose",
-          "steady sensor glow"
+          "photorealistic",
+          "ancient-tech",
+          "Ethiopian",
+          "Egyptian",
+          "bioluminescent glyphs",
+          "crystalline hardware",
+          "guardian construct"
         ],
-        "prompt_block": "Tsenu entity, statuesque basalt figure with gold circuitry, smooth obsidian face mask with faint internal red lights. Wearing woven cable robes and oxidized copper mantle. Holding a translucent quartz-glass tablet with holographic Ge'ez text. Standing motionless in a dusty ancient hall. Cinematic lighting, photorealistic, 8k, highly detailed textures."
+        "prompt_block": "A towering 3.5‑meter construct of basaltic alloy and obsidian panels stands in a dimly lit chamber, its bronze‑plated body adorned with gold filigree and ancient Ethiopian‑Egyptian glyphs that pulse with bioluminescent light. The obsidian dome head houses crystalline lens arrays projecting holographic glyphs, while copper conduits snake across the lower torso feeding a crystal lattice at the tip of an obsidian scepter. The scene is rendered photorealistically, capturing the tactile texture of weathered stone, the subtle glow of embedded crystals, and the silent, serious presence of an ancient‑tech guardian."
       }
     ]
   },

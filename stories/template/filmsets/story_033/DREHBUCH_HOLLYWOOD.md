@@ -1,367 +1,517 @@
 # DREHBUCH KAPITEL 33 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Hier endet die bekannte Simulation, wo der Boden abrupt in das absolute Nichts abfällt und die Realität ihre Textur verliert. Ich sehe die Risse im Code, die unfertigen Bestien, die qualvoll zwischen den Zuständen flackern, gefangen am Rand des Renders. Doch am Horizont wartet die zwingende Ordnung, die gläserne Wand des Himmels, durch die die Sterne wie präzise Datenpakete ihren Weg in die Nacht finden.
+NARRATOR_TEXT: Hier endet die Illusion der Unendlichkeit. Ich stehe am Rand des Renders, wo der Boden abrupt in das Nichts abfällt und die Realität ihre Textur verliert. Die Bestien hier sind unfertige Gedanken, flackernde Fehler im System, gefangen zwischen Sein und Nichtsein. Doch vor mir erhebt sich die gläserne Wand der Ordnung, das Backend der Schöpfung, durch das die Sterne auf ihren stählernen Bahnen präzise in die Nacht geschossen werden.
 
-## [ACT I] [SCENE 1.1] [Timecode: 00:00-00:05] [INGRESS]
-**Action:** Enoch steps from a heat-haze distortion onto a flat obsidian plain. The ground texture ends abruptly in a razor-sharp line against a void.
+## [ACT I] [SCENE 1.1] [Timecode: 00:00-00:04] [SPAWN EVENT]
+**Action:** The air compresses into a vertical lens-flare singularity. Enoch "pops" into existence, stumbling forward. Residual blue particles dissolve around him.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "wide", "environment": "Obsidian plain at world edge", "env_change": true, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Idris-Gloves", "HUD-Visor"], "camera": "Low angle, tracking backward", "mood": ["disorientation", "awe"], "director_intent": "Establish the physical boundary of the simulation where terrain simply stops.", "start_image_keywords": ["obsidian desert", "void edge"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "full_body", "environment": "Obsidian Plain", "env_change": true, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Idris-Gloves", "HUD-Visor"], "camera": "14mm Low Angle Static", "mood": ["disoriented", "sudden"], "director_intent": "Capture the physical violence of spawning into a server instance.", "start_image_keywords": ["spawn event", "lens flare singularity"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic wide shot, low angle tracking backwards. Enoch (Voyager Phase) steps out of a shimmering vertical heat-haze distortion onto a perfectly flat, polished obsidian desert floor. He wears a silver-skin suit with a translucent HUD-Visor and glowing golden Idris-Gloves. The terrain ends abruptly in a razor-sharp geometric line in the foreground. Beyond the edge is absolute darkness. 85mm lens, high contrast, industrial mysticism style, hyper-realistic textures, 9:16 aspect ratio.
+Cinematic wide shot, low angle, 9:16 vertical aspect ratio. Enoch (Voyager Phase) is mid-stumble, leaning forward as he materializes on a flat, polished obsidian floor. He is surrounded by a vertical vertical lens-flare singularity—a sharp line of compressed white light expanding outward. Floating blue cubic particles (spawn residue) are dissolving into the air around his silver-skin suit. The background is a stark, featureless black void horizon. High contrast, photorealistic sci-fi, sterile atmosphere, volumetric lighting.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch (Subject 001). **Physique:** Voyager Phase, silver-skin shader, semi-translucent epidermis. **Apparel:** High-tech flight suit, HUD-Visor over eyes. **Action:** He stumbles forward, exiting a vertical ripple of heat distortion, regaining balance on the hard ground.
+> **Actor:** Enoch (Voyager Phase). **Physique:** Silver-skin shader, translucent epidermis. **Apparel:** High-tech flight suit, HUD-Visor, Golden Idris-Gloves. **Action:** He pops into existence instantly from a vertical line of light, momentum carrying him forward into a stumble.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** Idris-Gloves emitting faint golden light. **Visor:** Reflective glass surface.
+> **VFX:** A vertical slit of white light collapses behind him. Blue cubic particles float and fade rapidly around his body.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The World Border. **Terrain:** Hyper-realistic black obsidian floor. **Boundary:** The ground cuts off into a perfect straight line. **Background:** Absolute black void beyond the edge.
+> **Location:** The Obsidian Plain. **Terrain:** Perfectly flat, reflective black ground. **Atmosphere:** Vacuum-clear.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** Harsh, sterile white light from above. **Reflections:** The obsidian floor reflects Enoch's silhouette perfectly.
+> **Light:** Intense white flash from the spawn point, fading to ambient cool grey. **Reflections:** Sharp reflection of Enoch on the floor.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Low angle, tracking backward as he advances. **Lens:** 35mm. **Format:** 9:16 vertical video. **Style:** Photorealistic sci-fi.
+> **Camera:** Static wide shot. **Lens:** 14mm. **Format:** 9:16 vertical video. **Transition:** Hard cut entry.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy industrial hum, sound of footsteps on glass (sharp, clicking), electric buzz of the heat distortion fading out. Wind howling from the void.
+Sharp vacuum-implosion "thwump" sound, followed by the scuffling of boots on glass and the sizzling sound of dissipating energy. Absolute silence of the void in the background.
 
-## [ACT I] [SCENE 1.2] [Timecode: 00:05-00:10] [THE BEASTS]
-**Action:** Massive quadrupedal entities roam the edge. Their skin ripples and changes material every 12 frames (Scale to Chrome to Flesh).
+## [ACT I] [SCENE 1.2] [Timecode: 00:04-00:07] [THE UNSTABLE ZONE]
+**Action:** A desolate obsidian plane. In the distance, a herd of "Beasts" moves with stuttering motion, their silhouettes flickering between existence and void.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Glitch Zone at edge", "env_change": false, "actors": [], "props": [], "camera": "Handheld shaky cam", "mood": ["panic", "chaos"], "director_intent": "Show the instability of the entities as a texture-streaming error.", "start_image_keywords": ["polymorphic beast", "liquid chrome"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "extreme_wide", "environment": "Obsidian Plain", "env_change": false, "actors": [], "props": [], "camera": "Handheld Shake Extreme Wide", "mood": ["uneasy", "glitchy"], "director_intent": "Show the entities as corrupted data in the distance.", "start_image_keywords": ["glitch herd", "obsidian desert"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A massive, terrifying quadrupedal beast standing on the obsidian plain. The creature is in a state of metamorphic flux. Its head is reptilian scales, its torso is liquid chrome reflecting the environment, and its legs are raw red muscle tissue. The textures are hyper-detailed but mismatched. The air around it is distorted by digital noise. 9:16 aspect ratio, chaotic energy, shaky cam aesthetic, photorealistic render.
+Extreme wide shot, 9:16 vertical aspect ratio. A vast, flat obsidian desert under a dark, static sky. In the far distance, a herd of quadrupedal shapes is visible, but they are corrupted—silhouettes that flicker between solid black and wireframe transparency. The horizon line is jagged and pixelated. The image has a slight "datamosh" smear effect. Atmosphere is cold and hostile. 35mm lens, handheld camera aesthetic, desaturated palette.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** ENTITY_ERROR_404. **Form:** Large four-legged creature. **Morphology:** Rapidly shifting textures. **Action:** The creature roars and thrashes.
+> **Subject:** A herd of Glitch Beasts. **Form:** Indistinct quadruped shapes in distance. **Action:** They move forward with a stuttering, low-framerate animation (stop-motion feel).
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Texture:** Cycles from organic fur to polished metal to translucent biological slime. **VFX:** No pixelation, but fluid morphing between material states.
+> **VFX:** Their bodies flicker black and white. Some freeze in T-Pose for a split second before snapping back to animation.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Glitch Zone. **Atmosphere:** Heavy chromatic aberration.
+> **Location:** The Unstable Zone. **Terrain:** Flat black glass. **Sky:** Dead grey.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** Flickering strobe effect. **Colors:** Desaturated background, high contrast subject.
+> **Light:** Flat, shadowless ambient light. **Contrast:** High contrast silhouettes.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Handheld, unstable motion. **Lens:** 50mm. **Format:** 9:16 vertical video.
+> **Camera:** Handheld shake, unstable footing. **Lens:** 35mm. **Format:** 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Distorted animal roar mixed with dial-up modem screeching, glitchy audio stutter, heavy bass thuds.
+Distorted wind howling like a corrupted audio file, intermittent digital static bursts, faint low-frequency rumbling.
 
-## [ACT I] [SCENE 1.3] [Timecode: 00:10-00:15] [THE BIRDS]
-**Action:** A flock of avian forms flies overhead. They leave trails of datamosh artifacts. Their colors cycle rapidly through the RGB spectrum.
+## [ACT I] [SCENE 1.3] [Timecode: 00:07-00:10] [POLYMORPHIC ENTITY]
+**Action:** A massive quadruped beast roars. Its texture cycles rapidly: Fur -> Liquid Gold -> Raw Meat -> Chrome. Its jaw geometry detaches and floats briefly.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "wide", "environment": "Sky above obsidian plain", "env_change": false, "actors": [], "props": [], "camera": "Tracking shot following flight", "mood": ["surreal", "fast"], "director_intent": "Visualize the birds as high-speed particles with rendering lag.", "start_image_keywords": ["datamosh birds", "rgb trails"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Obsidian Plain", "env_change": false, "actors": [], "props": [], "camera": "Tracking Medium", "mood": ["horrifying", "chaotic"], "director_intent": "Visualize the texture streaming failure as a body horror element.", "start_image_keywords": ["texture glitch beast", "detached jaw"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A flock of birds flying in formation against a stark white sky. The birds are not solid; they are smearing across the frame in a datamosh effect. Their colors are intense, pure RGB values (Red, Green, Blue) that bleed into each other. Long exposure motion trails. 9:16 aspect ratio, surreal tech-nature, high velocity, clean lines.
+Medium shot, 9:16 vertical. A terrifying, massive quadruped beast fills the frame. It is caught mid-roar. The texture of its body is a chaotic patch-work: the left shoulder is realistic brown fur, the torso is liquid reflective gold, the leg is raw red muscle tissue, and the head is polished chrome. The lower jaw has physically detached from the skull and is floating slightly to the right, connected by stretching digital texture strands. Hyper-realistic render, body horror, simulation glitch aesthetic.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** AVIAN_SWARM_V2. **Form:** Silhouette bird shapes. **Action:** Flying rapidly across the sky.
+> **Subject:** GLITCH_BEAST_01. **Form:** Massive lion-like creature. **Action:** Roaring and thrashing head.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **VFX:** As they move, pixels from previous frames drag behind them (datamosh). **Color:** Rapid cycling between pure Red, Green, and Blue.
+> **Texture:** Rapidly cycling every few frames (Fur -> Gold -> Meat -> Chrome). **VFX:** The jaw mesh separates from the head mesh and floats independently before snapping back.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Sky above the edge. **Sky:** Flat, bright white.
+> **Location:** Obsidian Plain. **Background:** Blurry horizon.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** Flat lighting. **Contrast:** High contrast silhouettes against sky.
+> **Light:** Harsh top-down studio lighting. **Reflections:** The chrome parts reflect the black ground.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Fast pan tracking the flock. **Lens:** Telephoto. **Format:** 9:16 vertical video.
+> **Camera:** Handheld tracking, keeping the beast in center. **Lens:** 50mm. **Format:** 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Granular synthesis chirps, digital wind whoosh, rapid fluttering sound like shuffling cards.
+A deep animal roar that degrades into a digital screech (dial-up modem sound), wet splashing sounds when the texture turns to meat, metallic clank when it turns to chrome.
 
-## [ACT I] [SCENE 1.4] [Timecode: 00:15-00:20] [THE EDGE]
-**Action:** Enoch stands at the literal "End of the Earth". Looking down, the cliff face is a flat texture plane revealing the wireframe grid of the void below.
+## [ACT I] [SCENE 1.4] [Timecode: 00:10-00:12] [DATAMOSH AVIANS]
+**Action:** Birds frozen in mid-air translate linearly across the sky without flapping, leaving "smear" trails of color (chromatic aberration) behind them.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "establishing", "framing": "wide", "environment": "The Void Edge", "env_change": false, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "High angle wide shot, slow zoom out", "mood": ["existential", "vertigo"], "director_intent": "Reveal the artificial nature of the terrain mesh.", "start_image_keywords": ["wireframe void", "cliff edge"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "mixed", "shot_type": "low_angle", "framing": "wide", "environment": "Sky", "env_change": false, "actors": [], "props": [], "camera": "Low Angle Tracking", "mood": ["surreal", "broken"], "director_intent": "Portray the birds as frozen assets being dragged by a mouse cursor.", "start_image_keywords": ["datamosh birds", "smear trails"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-High angle wide shot looking down at Enoch standing on the precipice of the obsidian desert. The cliff edge is perfectly straight. Below the edge, there is no rock, only an infinite black void containing a glowing green 3D wireframe grid. Enoch is a small silver figure against the vastness. 9:16 aspect ratio, simulation theory aesthetic, clean geometry, ominous atmosphere.
+Low angle shot looking up at a flat white sky, 9:16 vertical. A flock of black silhouette birds is visible, but they are completely frozen in static poses (wings spread). They are not flapping. Instead, they are smearing across the sky, leaving long, colorful trails of pixel-drag (datamosh artifacts) in intense Red, Green, and Blue. The aesthetic is a mix of nature photography and corrupted video file. Clean, minimal, surreal.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch (Voyager Phase). **Action:** Standing still, looking down into the abyss.
+> **Subject:** Flock of birds. **Form:** Rigid static meshes. **Action:** Moving linearly across the screen without animation (sliding).
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Suit:** Silver-skin reflecting the grid below.
+> **VFX:** Datamosh effect—pixels from previous frames persist, creating long smear trails behind each bird. **Color:** Trails are RGB split.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Edge. **Terrain:** Flat obsidian top, vertical drop into nothingness. **The Void:** Infinite black space with a floating, glowing green structural grid.
+> **Location:** The Sky. **Sky Color:** Flat white/grey.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** Ambient glow from the grid below. **Shadows:** Long shadows stretching back from the edge.
+> **Light:** Flat lighting. **Contrast:** High contrast black shapes on white.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** High angle crane shot, slowly zooming out to show scale. **Lens:** 24mm. **Format:** 9:16 vertical video.
+> **Camera:** Smooth tracking following the movement. **Format:** 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep sub-bass drone, hollow wind sound, faint electrical humming.
+High-pitched digital glitch artifacts, a sound like shuffling a deck of cards rapidly, synthesized wind whistle.
 
-## [ACT II] [SCENE 2.1] [Timecode: 00:20-00:28] [THE HARDLINE]
-**Action:** Enoch turns East. The sky dome physically touches the earth. A massive curved wall of glass rising infinitely up.
+## [ACT I] [SCENE 1.5] [Timecode: 00:12-00:15] [THE SEAM (MACRO)]
+**Action:** Extreme close-up of where the desert floor meets the sky wall. It is a perfect 90-degree angle. No curve. Blue light leaks from the geometric intersection.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Sky Wall Interface", "env_change": true, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "14mm Ultra-Wide God-Eye", "mood": ["majestic", "sterile"], "director_intent": "Show the sky not as atmosphere but as a physical glass barrier.", "start_image_keywords": ["glass sky wall", "dome edge"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Wall-Floor Intersection", "env_change": false, "actors": [], "props": [], "camera": "85mm Macro Whip Pan", "mood": ["precise", "artificial"], "director_intent": "Reveal the world as a constructed box with visible seams.", "start_image_keywords": ["geometric seam", "blue z-fighting"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Ultra-wide shot of the horizon. The sky is revealed to be a solid, curved wall of colossal glass that physically touches the desert floor. The intersection point emits blue plasma sparks. The glass wall rises infinitely upwards, curving into a dome. Enoch stands small in the foreground looking at this barrier. 9:16 aspect ratio, 14mm lens, epic scale, sci-fi architecture, clean reflections.
+Extreme close-up macro shot, 9:16 vertical. The exact point where the black obsidian floor meets the vertical glass sky-wall. There is no horizon curve; it is a perfect, razor-sharp 90-degree geometric angle. In the crease, bright blue "Z-fighting" artifacts (flickering overlapping polygons) emit a cold light. Texture details of the obsidian show microscopic scratches. The glass wall is perfectly smooth. Tech-noir, abstract geometry, forensic detail.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch (Voyager Phase). **Action:** Turning to face the horizon.
+> **Subject:** The Seam (Corner of the world). **Form:** Right angle intersection of two planes. **Action:** Camera tracks along the line.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Suit:** Silver-skin.
+> **VFX:** Blue flickering light (Z-fighting) escaping from the crack where the meshes meet.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Eastern Perimeter. **Structure:** The Sky Dome is a physical glass wall. **Contact Point:** Where glass meets ground, blue sparks shower down.
+> **Location:** The Edge. **Textures:** Rough black stone vs smooth transparent glass.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** Glowing blue light from the seam. **Reflections:** The desert floor reflects the massive glass wall.
+> **Light:** The blue leak is the only light source. **Reflections:** Blue light reflects on the floor.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** 14mm Ultra-wide, static or very slow push. **Format:** 9:16 vertical video.
+> **Camera:** Low macro tracking shot moving sideways. **Lens:** 85mm. **Format:** 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Resonant glass humming, sound of massive server fans, electrical crackling.
+60Hz electrical hum (mains hum), faint buzzing like a neon sign, microscopic grinding sound.
 
-## [ACT II] [SCENE 2.2] [Timecode: 00:28-00:35] [THE GATES]
-**Action:** Three rectangular apertures slide open in the glass wall. Blinding white light spills out, illuminating the desert floor.
+## [ACT II] [SCENE 2.1] [Timecode: 00:15-00:19] [GATES ACTIVATE]
+**Action:** Three massive circular airlocks in the glass sky-wall spiral open. Blinding cool-white light spills out, casting razor-sharp shadows.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "medium", "framing": "wide", "environment": "The Gates", "env_change": false, "actors": [], "props": [], "camera": "Dolly In", "mood": ["mechanical", "bright"], "director_intent": "Depict the gates as heavy industrial blast doors in the sky.", "start_image_keywords": ["sky gates", "light spill"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Sky Wall Gates", "env_change": true, "actors": [], "props": [], "camera": "Symmetrical Wide Shot", "mood": ["majestic", "mechanical"], "director_intent": "Show the opening of the celestial machinery.", "start_image_keywords": ["sky airlocks", "light spill"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Three massive rectangular gates sliding open within the solid glass sky-wall. The gates are mechanical, sliding horizontally. Inside the openings is blinding, pure white light and vertical scrolling data streams. The light spills out onto the dark obsidian floor, creating long beams. 9:16 aspect ratio, industrial sci-fi, high contrast, volumetric lighting.
+Symmetrical wide shot, 9:16 vertical. The massive vertical glass wall that forms the sky dominates the frame. Three colossal circular mechanical airlocks (iris-style) are embedded in the glass. They are spiraling open. Intense, blinding cool-white light pours out from the openings, cutting through the darkness and casting three long, distinct beams on the obsidian floor. Atmospheric fog catches the light beams. Industrial scale, cinematic sci-fi, epic composition.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** The Sky Gates. **Form:** Rectangular mechanical apertures. **Action:** Sliding open smoothly.
+> **Subject:** Three Sky Gates. **Form:** Circular mechanical irises. **Action:** Spiraling open (interlocking metal plates retracting).
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **VFX:** Blinding white light beams projecting outward.
+> **VFX:** Volumetric light beams spilling out.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Sky Wall. **Interior:** Scrolling data visible inside the light.
+> **Location:** The Sky Wall. **Background:** Dark glass. **Interior:** Pure white light.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** Intense white volumetric beams. **Contrast:** Dark surroundings, bright gates.
+> **Light:** Blinding white directional light. **Shadows:** Hard shadows on the ground.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Slow Dolly In towards the center gate. **Format:** 9:16 vertical video.
+> **Camera:** Static symmetrical shot. **Format:** 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy hydraulic machinery sound, stone grinding on glass, deep mechanical thud.
+Heavy pneumatic release (hiss), deep metallic grinding (massive gears), low frequency industrial thud / reverb.
 
-## [ACT II] [SCENE 2.3] [Timecode: 00:35-00:42] [STAR EGRESS]
-**Action:** Spheres of plasma (Stars) shoot out of the gates on invisible magnetic rails. They leave ion trails in the atmosphere.
+## [ACT II] [SCENE 2.2] [Timecode: 00:19-00:22] [URIEL THE ADMIN]
+**Action:** Uriel stands perfectly still, pointing at Gate 02. His body is a construct of red fractals and scrolling code.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Sky Gates", "env_change": false, "actors": [], "props": [], "camera": "Side profile tracking", "mood": ["kinetic", "precise"], "director_intent": "Show stars as manufactured objects being launched.", "start_image_keywords": ["plasma spheres", "star launch"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "full_body", "environment": "Obsidian Plain", "env_change": false, "actors": [{"name": "Uriel", "phase": "System Admin", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle Static", "mood": ["authoritative", "alien"], "director_intent": "Introduce Uriel not as an angel, but as a system process avatar.", "start_image_keywords": ["Uriel fractal", "red scrolling code"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Glowing spheres of compressed plasma, 2 meters in diameter, shooting out of the rectangular sky gates. They move on invisible rails, leaving trails of blue ionization. The spheres are perfectly round and extremely bright. Side profile shot capturing the speed. 9:16 aspect ratio, kinetic energy, particle effects, sci-fi propulsion.
+Full body shot, low angle, 9:16 vertical. Uriel (System Admin phase) stands motionless on the obsidian floor. He is a humanoid construct made entirely of sharp red crystalline fractals and vertical scrolling laser-code. He has no face, only a geometric emission of light. He is pointing with a sharp, elongated finger towards the sky. The background is the glass wall with open gates. Cyber-angelic, datamosh texture, ominous red glow.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** CELESTIAL_OBJECT_CLASS_A (Stars). **Form:** Plasma spheres. **Action:** Launching at high speed from the gates.
+> **Actor:** Uriel. **Physique:** Red crystal fractals, non-biological. **Apparel:** Robes of scrolling code. **Action:** Standing perfectly still, arm extended pointing up.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **VFX:** Ion trails, heat distortion behind the spheres.
+> **VFX:** The red code on his body scrolls downwards constantly. His body glows from within.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Exiting the Sky Wall. **Trajectory:** Straight lines, rail-gun style.
+> **Location:** Obsidian Plain.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** The spheres are the light source. **Color:** Blue-white plasma.
+> **Light:** Self-illuminated red. **Reflections:** Red glow on the black floor.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Tracking shot moving sideways with the objects. **Format:** 9:16 vertical video.
+> **Camera:** Static low angle. **Format:** 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Pneumatic launch sounds (Whoosh-Thud), high pitched electromagnetic whine, crackling energy.
+A constant, precise laser hum (D# pitch), crystalline chiming sound (like glass breaking in reverse), faint data-processing chatter.
 
-## [ACT II] [SCENE 2.4] [Timecode: 00:42-00:50] [TELEMETRY]
-**Action:** POV Enoch. His HUD-Visor locks onto a star. Trajectory lines and velocity data (Ge'ez numerals) overlay the vision.
+## [ACT II] [SCENE 2.3] [Timecode: 00:22-00:24] [STAR INJECTION]
+**Action:** A glowing Star Orb is pneumatically ejected from Gate 01. It moves on a rigid invisible rail, not floating but driven. Shockwaves distort the air.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "pov", "framing": "pov", "environment": "POV through Visor", "env_change": false, "actors": [], "props": ["HUD-Visor"], "camera": "First Person POV", "mood": ["analytical", "tech"], "director_intent": "Visualize the data collection process.", "start_image_keywords": ["hud overlay", "geez data"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "ui_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Sky Gate", "env_change": false, "actors": [], "props": [], "camera": "Tracking Shot Fast", "mood": ["kinetic", "powerful"], "director_intent": "Stars are ammunition, not celestial bodies. Show the velocity.", "start_image_keywords": ["star injection", "plasma sphere"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-First person POV shot through a high-tech visor. A glowing plasma sphere is centered in the frame. A complex golden holographic HUD overlays the image, displaying trajectory arcs, velocity vectors, and Ge'ez numerals. Target lock reticles are red. The background is the dark sky. 9:16 aspect ratio, UI design, augmented reality, cybernetic vision.
+Action tracking shot, 9:16 vertical. A massive sphere of compressed blue-white plasma (a Star) is shooting out of a square industrial gate in the sky. It is moving horizontally at extreme speed. Behind it, circular shockwaves of heat distortion ripple through the air. The core of the sphere shows a faint wireframe geometry. Motion blur on the background. High velocity, sci-fi propulsion, particle physics.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** HUD Interface. **Action:** Tracking a moving star.
+> **Subject:** Star Orb. **Form:** Plasma sphere with wireframe core. **Action:** Ejected from gate, traveling fast on a straight line.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **UI Elements:** Golden Ge'ez text scrolling, red target brackets locking on. **VFX:** Digital scan lines.
+> **VFX:** Heat distortion ripples (shockwaves) trailing behind. Blue ion trail.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** POV looking at sky.
+> **Location:** Just outside the Sky Gate.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** Glow from UI elements.
+> **Light:** Bright blue-white emission. **Motion Blur:** Heavy blur on the gate as camera pans.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** POV, slight head movement. **Format:** 9:16 vertical video.
+> **Camera:** Fast tracking pan following the object. **Format:** 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Digital UI beeps, target lock confirmation chirp, rapid data scrolling sound.
+High-pitched jet turbine doppler-whine (approach and pass), thunderous sonic boom, crackling electricity.
 
-## [ACT III] [SCENE 3.1] [Timecode: 00:50-00:55] [THE ADMIN]
-**Action:** Uriel manifests next to Enoch. He points a laser-finger at a specific gate, highlighting a deviation in the star pattern.
-**Dialog:** Uriel speaking (Telepathic).
+## [ACT II] [SCENE 2.4] [Timecode: 00:24-00:29] [TRAJECTORY MAP]
+**Action:** Top-down view. Glowing lines are etched into the desert floor like a circuit board. Star Orbs travel strictly along these rails.
+**Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Obsidian plain", "env_change": false, "actors": [{"name": "Uriel", "phase": "System Admin", "presence": "on_screen", "focus": "primary"}, {"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Medium Two-Shot", "mood": ["authoritative", "intense"], "director_intent": "Introduce Uriel as the overseer of this mechanism.", "start_image_keywords": ["uriel crystalline", "laser finger"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "scene_3_1_audio", "pose_source": "", "driver_notes": "Uriel speaking"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 15}
+REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "extreme_wide", "environment": "Obsidian Plain Aerial", "env_change": false, "actors": [], "props": [], "camera": "Top Down Bird's Eye", "mood": ["ordered", "schematic"], "director_intent": "Reveal the hidden circuit board nature of the terrain.", "start_image_keywords": ["circuit board terrain", "glowing rails"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium two-shot of Uriel and Enoch. Uriel is a tall humanoid composed of red crystalline fractals, glowing from within. He points a long, sharp finger towards the background; a red laser beam extends from his fingertip. Enoch stands beside him, looking where he points. Background is the glass sky wall. 9:16 aspect ratio, character design, sci-fi fantasy, sharp focus.
+Top-down satellite view, 9:16 vertical. The black obsidian desert floor is revealed to be a massive circuit board. Glowing straight gold lines (rails) are etched into the stone. Bright blue plasma spheres (stars) are moving strictly along these lines, like electrons in a processor. The geometry is perfectly rectilinear. Map-like, schematic, high contrast, bioluminescent.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Uriel (System Admin). **Physique:** Red crystal geometry. **Action:** Gesturing with hand, pointing. **Actor:** Enoch. **Action:** Turning head to follow gesture.
+> **Subject:** The Terrain Map. **Form:** Circuit board pattern on ground. **Action:** Spheres moving along the lines.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **VFX:** Red laser beam from Uriel's finger. Uriel's body refracts light.
+> **VFX:** The lines glow brighter as spheres pass over them.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Obsidian plain.
+> **Location:** Aerial view of desert.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** Red glow from Uriel, white light from gates.
+> **Light:** Self-illuminated floor patterns.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Static medium shot. **Format:** 9:16 vertical video.
+> **Camera:** Slow zoom out, static angle. **Format:** 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Electrical crackle, crystalline resonance (wind chimes pitch shifted down), synthesized voice transmission hum.
+Deep sub-bass thrum (power plant ambience), rhythmic pulsing sound synchronized with the movement of the spheres.
 
-## [ACT III] [SCENE 3.2] [Timecode: 00:55-01:02] [THE LOG]
-**Action:** Enoch holds the Obsidian Tablet. Golden data streams flow from his eyes to the tablet surface, etching the names of the stars instantly.
-**Dialog:** Enoch listening.
+## [ACT II] [SCENE 2.5] [Timecode: 00:29-00:34] [URIEL INSTRUCTION]
+**Action:** Uriel tilts his head. A red holographic window expands from his hand, displaying complex trajectory equations. He points to a variable.
+**Dialog:** "Observe the Laws." (Processed, metallic).
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Tablet Surface", "env_change": false, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Obsidian Tablet"], "camera": "Extreme Close Up Macro", "mood": ["focused", "magical"], "director_intent": "Show the writing as a wireless data transfer.", "start_image_keywords": ["obsidian tablet", "golden etching"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "prop_only", "actor_pose_id": "", "env_id": "", "props": ["Obsidian Tablet"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Obsidian Plain", "env_change": false, "actors": [{"name": "Uriel", "phase": "System Admin", "presence": "on_screen", "focus": "primary"}, {"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Over The Shoulder", "mood": ["instructional", "technical"], "director_intent": "Uriel displays the source code of the star's path.", "start_image_keywords": ["Uriel hologram", "red equations"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "scene_2_4_audio", "pose_source": "", "driver_notes": "Uriel robot voice"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme close-up of an obsidian tablet held in gloved hands. The surface of the tablet ripples like black liquid. Golden Ge'ez characters are manifesting rapidly on the surface, glowing intensely. Faint golden light streams connect the tablet to the top of the frame (implying connection to eyes). 9:16 aspect ratio, macro photography, magical realism, particle effects.
+Medium Over-The-Shoulder shot (from behind Enoch), 9:16 vertical. Uriel stands in front. A complex, transparent red holographic interface has expanded from his hand, filling the space between them. The interface is densely packed with mathematical equations, parabolas, and Ge'ez numerals. Uriel points a crystal finger at a specific variable. Enoch's silver shoulder and side of head are visible in foreground. Sci-fi UI, hologram, education.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Prop:** Obsidian Tablet. **Action:** Surface rippling, text appearing.
+> **Actor:** Uriel. **Action:** Tilting head slightly, gesturing to the hologram. **Actor:** Enoch (OTS). **Action:** Still.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **VFX:** Golden laser-etching effect. Data stream particles flowing into the tablet.
+> **VFX:** Red holographic window floating in air. Text scrolling rapidly within the window.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Obsidian Plain.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Light:** Red glow from hologram illuminating Uriel and Enoch.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Static OTS. **Format:** 9:16 vertical video.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Uriel's voice: Heavily processed, metallic, layered with a sub-bass synth. "Observe the Laws." UI expansion sound (digital swish), data scrolling chirp.
+
+## [ACT II] [SCENE 2.6] [Timecode: 00:34-00:37] [ENOCH RECEPTION]
+**Action:** Enoch's mechanical iris-shutters spin and lock focus. He looks from Uriel to the data. Red light reflects on his silver skin.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Obsidian Plain", "env_change": false, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["HUD-Visor"], "camera": "Frontal Close Up", "mood": ["intense", "focused"], "director_intent": "Show the biological reaction to the data input.", "start_image_keywords": ["mechanical iris", "silver face"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "pose", "audio_id": "", "pose_source": "data/capture/poses/enoch_look_scan.mp4", "driver_notes": "Eyes moving"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Close-up frontal portrait, 9:16 vertical. Enoch (Voyager Phase). His skin is silver and semi-translucent, showing faint gold veins underneath. He wears a high-tech glass visor. Behind the visor, his eyes are not human; they are mechanical golden camera apertures. The red light from Uriel's hologram reflects strongly on his face and visor. Sharp focus, hyper-detailed skin texture, cybernetic features.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Enoch. **Face:** Silver skin, visor. **Eyes:** Mechanical apertures. **Action:** The aperture blades in his eyes spin and contract (focusing). He looks up then down.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **VFX:** Red reflection dancing on his face.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Obsidian Plain.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Light:** Strong red key light (from off-screen hologram).
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Static Close Up. **Format:** 9:16 vertical video.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Servo-whir of camera lenses focusing (zzzt-click), faint electrical hum from the suit.
+
+## [ACT III] [SCENE 3.1] [Timecode: 00:37-00:40] [TABLET LINK]
+**Action:** A pulse of blue light travels under the skin of Enoch's arm into the Obsidian Tablet. The tablet ignites with golden Ge'ez glyphs, mirroring Uriel's data.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Tablet and Arm", "env_change": false, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Obsidian Tablet", "Idris-Gloves"], "camera": "Macro Tracking Arm to Tablet", "mood": ["magical", "tech"], "director_intent": "Visualize the data transfer from body to device.", "start_image_keywords": ["subdermal light", "obsidian tablet"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "prop_only", "actor_pose_id": "", "env_id": "", "props": ["Obsidian Tablet"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Extreme close-up macro, 9:16 vertical. Enoch's forearm and hand holding the black Obsidian Tablet. A distinct vein of glowing blue light is visible underneath the skin of his arm, pulsing towards the hand. The Idris-Glove is translucent, showing the light passing through into the tablet. The tablet's surface is lighting up with golden laser-etched Ge'ez characters. Texture of skin, fabric, and stone. Bio-digital fusion.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Subject:** Arm and Tablet. **Action:** A pulse of light travels down the arm vein.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **VFX:** Sub-dermal light pulse. When it hits the tablet, golden text ignites on the surface instantly.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
 > **Location:** Enoch's hands.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** Golden glow from text illuminating the gloves.
+> **Light:** Blue glow in arm, Gold glow on tablet.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Macro static shot. **Format:** 9:16 vertical video.
+> **Camera:** Slight pan following the light pulse. **Format:** 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-speed data writing sound, laser etching hiss, liquid rippling.
+High-pitched data transfer trill (like a modem handshake speeded up), wet organic squelch (blood flow), laser etching hiss.
 
-## [ACT III] [SCENE 3.3] [Timecode: 01:02-01:08] [COMPLETION]
-**Action:** The tablet flashes "LOCKED". The stars form a perfect grid in the sky. The chaotic beasts in the background freeze in place.
+## [ACT III] [SCENE 3.2] [Timecode: 00:40-00:44] [POV ANALYSIS]
+**Action:** Enoch's POV. A HUD overlays the vision. Reticles lock onto passing stars. Text scrolls: "ID: KOKAB_01", "VELOCITY: 4000", "VECTOR: NORTH".
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Full Scene", "env_change": false, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Crane Shot Rising", "mood": ["resolved", "peaceful"], "director_intent": "Visual representation of order restored through logging.", "start_image_keywords": ["star grid", "frozen beasts"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "interface", "shot_type": "pov", "framing": "pov", "environment": "Sky View", "env_change": false, "actors": [], "props": ["HUD-Visor"], "camera": "POV Handheld", "mood": ["analytical", "busy"], "director_intent": "Show the forensic analysis of the star objects.", "start_image_keywords": ["HUD overlay", "star tracking"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "ui_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide crane shot looking down at the obsidian plain. The stars in the sky have aligned into a perfect, orderly grid. The chaotic beasts from earlier are frozen in place, turned into static grey statues. Enoch stands in the center, holding the glowing tablet. The scene is perfectly symmetrical and calm. 9:16 aspect ratio, symmetry, order vs chaos, cinematic finale.
+First person POV shot through a high-tech visor, 9:16 vertical. The view looks up at the dark sky where a glowing plasma star is passing. A complex golden HUD overlay dominates the frame. Rectangular target brackets (red) are locked onto the star. Scrolling text blocks in Ge'ez and English read: "ID: KOKAB_01", "VELOCITY: 4000", "VECTOR: NORTH". Digital grain, scan lines, augmented reality.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** The Environment. **Action:** Everything stabilizes. Beasts freeze.
+> **Subject:** HUD Interface. **Action:** The tracking brackets follow a moving star across the screen.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **VFX:** The sky grid pulses once.
+> **UI Elements:** Numbers rapidly updating. Text scrolling. Warning lights blinking.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Edge. **Atmosphere:** Clear, no more glitching.
+> **Location:** Looking at sky.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** Even, balanced lighting.
+> **Light:** Glow from UI.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Crane rising up and away. **Format:** 9:16 vertical video.
+> **Camera:** Handheld POV, tracking motion. **Format:** 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-System chime (Major chord), sudden silence, wind stops, low hum of stability.
+Digital target-lock beeps (successive tones), rapid ticking sound of data counter, ambient hum of the visor electronics.
 
-## [ACT III] [SCENE 3.4] [Timecode: 01:08-01:10] [OUTRO]
-**Action:** Title Card: "CHAPTER 33: PERIMETER SECURED".
+## [ACT III] [SCENE 3.3] [Timecode: 00:44-00:46] [THE GATE COUNTER]
+**Action:** Camera pans across the array of open gates. A floating counter increments rapidly: "001", "002", "003".
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "title", "framing": "full_body", "environment": "Black Void", "env_change": true, "actors": [], "props": [], "camera": "Static", "mood": ["neutral"], "director_intent": "Chapter conclusion.", "start_image_keywords": ["title card"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "ui_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Sky Wall Array", "env_change": false, "actors": [], "props": [], "camera": "Whip Pan", "mood": ["industrial", "rhythmic"], "director_intent": "Emphasize the volume and speed of production.", "start_image_keywords": ["gate array", "digital counter"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Black screen with minimal white text: "CHAPTER 33: PERIMETER SECURED". Below it, a small loading bar reaches 100%. 9:16 aspect ratio, typography, minimal design.
+Wide panoramic shot, 9:16 vertical. A row of identical circular light-gates stretches into the distance along the glass wall. The camera is panning fast. Overlaying the scene is a large, floating 3D holographic counter: "003". The gates are all emitting white beams. Repetition, infinite array, industrial scale.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Text. **Action:** Fading in.
+> **Subject:** Array of Gates. **Action:** Camera pans past them rhythmically.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **VFX:** Glitch effect on text before stabilizing.
+> **UI Elements:** Large white numbers floating in 3D space incrementing "001" -> "002" -> "003" as we pass each gate.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Black screen.
+> **Location:** Sky Wall.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Light:** White text emission.
+> **Light:** Strobe effect from passing light beams.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Fast Whip Pan. **Format:** 9:16 vertical video.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Rhythmic mechanical clicks (like a turnstile), accelerating with the count. Whoosh-Whoosh-Whoosh sound of passing the light beams.
+
+## [ACT III] [SCENE 3.5] [Timecode: 00:46-00:49] [DATA SAVE]
+**Action:** The scrolling text on the tablet stops. A final "Lock" glyph rotates and freezes. The light shifts from active Gold to static Blue.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Tablet Surface", "env_change": false, "actors": [], "props": ["Obsidian Tablet"], "camera": "Macro Static", "mood": ["final", "secure"], "director_intent": "The moment of successful data commitment.", "start_image_keywords": ["tablet lock", "blue glyph"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "prop_only", "actor_pose_id": "", "env_id": "", "props": ["Obsidian Tablet"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Extreme close-up macro, 9:16 vertical. The surface of the obsidian tablet. The blurry motion of scrolling golden text has stopped. In the center, a single, sharp, complex Ge'ez glyph (The Lock) is frozen. The light emission changes from warm Gold to a cool, solid Blue. Sharp, crystallized definition.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Subject:** Tablet Screen. **Action:** Text stops scrolling. Central glyph rotates 90 degrees and stops.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **VFX:** Color shift from Gold to Blue. Glow intensity drops to steady state.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Tablet surface.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Light:** Blue emission.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
 > **Camera:** Static. **Format:** 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Power down sound, hard click.
+A heavy mechanical "Clunk" (like a safe door closing), followed by a high-pitched confirmation chime.
+
+## [ACT III] [SCENE 3.6] [Timecode: 00:49-00:51] [URIEL CONFIRMATION]
+**Action:** Uriel lowers his hand. The holographic display collapses into a single pixel. He turns to look directly at the lens.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Obsidian Plain", "env_change": false, "actors": [{"name": "Uriel", "phase": "System Admin", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Medium Static", "mood": ["ominous", "aware"], "director_intent": "The Admin acknowledges the observer (the audience).", "start_image_keywords": ["Uriel looking at camera", "hologram collapse"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Medium shot, 9:16 vertical. Uriel (Red Fractal Construct) stands on the plain. He lowers his hand. The complex red hologram that was there is collapsing into a single bright point of light before vanishing. Uriel turns his faceless, geometric head to look directly into the camera lens. Breaking the fourth wall. Unsettling presence.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Uriel. **Action:** Lowers arm. Turns head to face camera.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **VFX:** Hologram shrinks to a dot and disappears (old TV turn off effect).
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Obsidian Plain.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Light:** Red glow diminishes slightly.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Static. **Format:** 9:16 vertical video.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A descending synthesizer slide (power down sound), followed by silence.
+
+## [ACT III] [SCENE 3.7] [Timecode: 00:51-00:53] [SYSTEM PURGE]
+**Action:** A "Scan Line" sweeps down the frame. Above is reality, below is black void. The scene is deleted.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "interface", "shot_type": "title", "framing": "full_body", "environment": "Void", "env_change": true, "actors": [], "props": [], "camera": "Static Overlay", "mood": ["neutral", "final"], "director_intent": "End of simulation session.", "start_image_keywords": ["system purge", "scan line"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "ui_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Abstract graphic, 9:16 vertical. A bright horizontal white "Scan Line" cuts across the image. Above the line is the scene of Uriel and the desert. Below the line is absolute black void / wireframe grid. The line is moving downwards, erasing the image. Text overlay: "SESSION_END // PURGE_COMPLETE". Glitch aesthetic, terminal screen.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Subject:** The Frame itself. **Action:** A wipe effect moves from top to bottom.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **VFX:** The image above the line is normal. The area below becomes black.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Screen space.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Light:** The scan line glows white.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Static. **Format:** 9:16 vertical video.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Old CRT TV switch-off noise (high pitch whine fading quickly), sharp click.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
 MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Der Code ist hier dünn. Die Formen halten nicht.","words_max":10},{"scene":"2.1","text":"Das Ende der Welt ist keine Leere. Es ist eine Wand.","words_max":12},{"scene":"3.2","text":"Ich schreibe nicht. Ich speichere.","words_max":6}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

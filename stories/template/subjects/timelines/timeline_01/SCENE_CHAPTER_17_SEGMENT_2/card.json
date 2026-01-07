@@ -1,0 +1,86 @@
+{
+  "id": "SCENE_CHAPTER_17_SEGMENT_2",
+  "name": "Chapter 17 Segment 2",
+  "type": "scene",
+  "card": {
+    "description": "A towering obelisk engine, 12 m tall, forged from obsidian and basalt, etched with luminous hieroglyphs that pulse with bioluminescent energy. Its core is a crystalline lattice humming with unseen power, surrounded by rotating gearwork reminiscent of ancient Ethiopian bronze drums. Weathered basalt panels conceal polished titanium and copper conduits, blending ancient aesthetics with incomprehensible technology in a grounded, cinematic realism.",
+    "tags": [
+      "ancient-tech",
+      "obsidian",
+      "glyph",
+      "industrial mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "crystalline core",
+      "bioluminescent"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Obelisk‑shaped chassis, 12 m tall, basalt core, obsidian panels, rotating gear rings.",
+      "**Face/Sensors:** Central glyph array, luminescent eye‑like sensor, holographic projection emitter.",
+      "**Clothing/Armor:** N/A.",
+      "**Key Features:** Crystalline lattice core, bioluminescent glyphs, rotating gearwork, copper conduits, weathered basalt, polished titanium plating."
+    ],
+    "evolution": [
+      "Phase 1 (Activation): Initial power surge, glyphs glow faintly, gears begin to rotate.",
+      "Phase 2 (Full Operation): Glyphs blaze, core emits radiant light, gearwork spins at high speed, machine hums."
+    ],
+    "props": [
+      "Item: Ancient Scroll of Activation",
+      "Item: Crystalline Core"
+    ],
+    "prompt_keywords": [
+      "obsidian",
+      "glyph",
+      "crystalline core",
+      "bioluminescent",
+      "ancient-tech",
+      "industrial mysticism"
+    ],
+    "prompt_block": "A towering obsidian obelisk engine, 12 meters tall, carved with luminous hieroglyphs that pulse bioluminescent light, surrounded by rotating bronze gear rings reminiscent of Ethiopian bronze drums, its core a crystalline lattice humming with unseen power, polished titanium and copper conduits glinting against weathered basalt, cinematic photorealistic, grounded realism, ancient-tech industrial mysticism",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Standing idle, glyphs faintly glow, gears still, core dormant.",
+        "prompt_keywords": [
+          "obsidian",
+          "glyph",
+          "crystalline core",
+          "bioluminescent",
+          "ancient-tech"
+        ],
+        "prompt_block": "The obelisk engine stands silent, its obsidian panels weathered, faint bioluminescent glyphs glow softly, the crystalline core is dormant, gears are still, cinematic photorealistic, grounded realism"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_CHAPTER_17_SEGMENT_2",
+    "name": "Chapter 17 Segment 2",
+    "type": "scene",
+    "aliases": [
+      "Chapter 17 Segment 2"
+    ],
+    "roles": [],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_134"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 17,
+        "chapter_end": 17,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

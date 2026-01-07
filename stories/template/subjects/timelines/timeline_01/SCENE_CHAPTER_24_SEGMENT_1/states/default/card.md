@@ -1,0 +1,10 @@
+## [STATE] Chapter 24 Segment 1 :: Default
+**State ID:** default
+**Chapters:** 24 - 24
+
+**Phase Summary:** Initial state of the obelisk before activation.
+**Phase Keywords:** monolith, obsidian, glyphs, crystalline core, bio-luminescence, holographic runes, Ethiopian motifs, Egyptian motifs
+**Phase Prompt:**
+A towering 30‑meter monolithic obelisk of obsidian and basalt, etched with luminous glyphs that pulse faintly, its base encased in a lattice of interlocking metal plates stamped with ancient Ethiopian and Egyptian motifs, a central crystalline core glowing dimly with bio‑luminescent light, photorealistic, tactile, cinematic lighting.
+
+---

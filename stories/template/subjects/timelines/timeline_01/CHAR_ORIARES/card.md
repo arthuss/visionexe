@@ -1,30 +1,33 @@
 ## [CHARACTER] Oriares (ID: CHAR_ORIARES)
-**Description:** Oriares is a massive, artificially constructed stellar unit—a contained fusion reactor functioning as a mobile sun. It appears as a perfect sphere of blinding white plasma held in check by a visible, geometric magnetic containment lattice. It represents the pinnacle of industrial mysticism: a celestial body treated as heavy manufacturing inventory, capable of being transported via massive rail systems and dimensional gates.
-**Tags:** #artificial_sun #plasma_sphere #containment_field #industrial_celestial #ancient_tech #luminary_unit
+**Description:** Oriares is the Sun Unit, a colossal mechanical sphere that functions as a containment vessel for a star‑like energy source. Its surface is a blinding white plasma, while a glowing hexagonal magnetic net—etched with ancient Ethiopian glyphs—holds the plasma in place. The sphere’s core is crystalline, pulsing with a deep blue light, and its interior is a void of black, visible through the net. Steam and heat distortion emanate from the sphere as it rolls down a titanium rail into a rectangular stone monolith gate, which is illuminated by flashing red warning lights. The entire construct is rendered photorealistically, with tactile textures, high contrast, bloom, and industrial mysticism infused with ancient motifs.
+**Tags:** #Sun Unit #Mechanical Sphere #Ancient Tech #Containment Field #Plasma #Hexagonal Net #Ethiopian Glyphs #Crystalline Core #Titanium Rail #Stargate #Industrial Mysticism
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Core Form:** A perfect sphere of roiling, blinding white fusion plasma, temperature approx 5778K.
-*   **Containment Layer:** A glowing, high-contrast hexagonal magnetic net (forcefield) that overlays the plasma surface, visibly pulsing as it suppresses solar flares.
-*   **Surface Details:** Turbulence beneath the hex-grid, coronal loops trapped by the magnetic geometry, creating a 'caged star' aesthetic.
-*   **Atmosphere:** Intense heat distortion (shimmering air), blinding bloom, and high-contrast volumetric lighting. Surrounding space is often pitch black due to exposure compensation.
-*   **Scale:** Massive, comparable to a large building or city block, capable of rolling on titantic industrial rails.
+*   **Body/Form:** A 30‑meter diameter sphere composed of layered composite alloy and reinforced titanium, with a 1‑meter thick outer shell that is semi‑transparent to plasma.
+*   **Face/Sensors:** No traditional face; integrated sensor arrays are embedded within the hexagonal net, projecting holographic glyphs and diagnostic readouts.
+*   **Clothing/Armor:** The hexagonal magnetic net acts as armor, constructed from copper‑bronze filaments etched with hieroglyphic patterns that glow faintly in the plasma’s light.
+*   **Key Features:** Glowing white plasma surface, crystalline core pulsing with blue light, black interior visible through the net, steam vents, titanium rail ramp, flashing red aviation warning lights on the gate, ancient Ethiopian glyphs, bio‑luminescent glyphs, containment field.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): Fully active, generating peak luminosity. The containment net is taut and bright, struggling against the internal pressure.
+*   Phase 1 (Prototype): Sphere assembled, containment field activated, plasma stabilized within the hexagonal net.
+*   Phase 2 (Operational): Sphere deployed onto titanium rail, interacts with rectangular stone monolith gate, emits steam and heat distortion.
 
 ### 3. PROPS & EQUIPMENT
-*   Magnetic Containment Net (Integrated)
-*   Titanium Transport Rail (Environmental Context)
+*   Sun_Unit_Oriares
+*   Titanium_Rail_Ramp
+*   Stargate_Stone_Monolith
+*   Red_Warning_Lights
+*   Steam_Clouds
 
 ### 4. AI PROMPT KEYWORDS
-`artificial sun`, `Oriares`, `hexagonal containment field`, `white plasma`, `industrial mysticism`, `magnetic net`, `5778K`, `glowing sphere`, `heat distortion`, `cinematic lighting`
+`ancient`, `Ethiopian`, `glyphs`, `plasma`, `hexagonal`, `magnetic`, `containment`, `black interior`, `crystalline core`, `titanium rail`, `stargate`, `red lights`, `steam`, `photorealistic`, `tactile`, `industrial mysticism`
 
 ### 5. PROMPT BLOCK (T2I)
-cinematic shot of Oriares the artificial sun unit, a massive perfect sphere of blinding 5778K white plasma contained within a visible glowing hexagonal magnetic forcefield net, roiling solar surface, industrial mysticism, ancient technology, heat distortion, high contrast, pitch black void background, 8k, photorealistic, telephoto lens
+A colossal mechanical sphere, the Sun Unit Oriares, glows with white plasma, encased in a hexagonal magnetic net etched with ancient Ethiopian glyphs, its crystalline core pulsing, black interior visible, steam rising as it rolls down a titanium rail into a rectangular stone monolith gate with flashing red warning lights, set against a pitch‑black space void, high contrast, bloom, heat distortion, photorealistic, tactile, ancient‑tech, industrial mysticism
 
 ### 6. PHASE PROMPTS
-*   **Default:** Active solar unit with stabilizing hex-grid.
-    Prompt: cinematic shot of Oriares the artificial sun unit, a massive perfect sphere of blinding 5778K white plasma contained within a visible glowing hexagonal magnetic forcefield net, roiling solar surface, industrial mysticism, ancient technology, heat distortion, high contrast, pitch black void background, 8k, photorealistic
-    Keywords: active plasma, stable containment, white hot, hex grid
+*   **Default:** The Sun Unit Oriares in its default containment state, a glowing white plasma sphere encased in a hexagonal magnetic net, floating in a pitch‑black void.
+    Prompt: A colossal mechanical sphere, the Sun Unit Oriares, glows with white plasma, encased in a hexagonal magnetic net etched with ancient Ethiopian glyphs, its crystalline core pulsing, black interior visible, steam rising as it rolls down a titanium rail into a rectangular stone monolith gate with flashing red warning lights, set against a pitch‑black space void, high contrast, bloom, heat distortion, photorealistic, tactile, ancient‑tech, industrial mysticism
+    Keywords: ancient, Ethiopian, glyphs, plasma, hexagonal, magnetic, containment, black interior, crystalline core
 
 ---

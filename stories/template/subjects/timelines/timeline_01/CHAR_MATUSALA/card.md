@@ -1,29 +1,30 @@
 ## [CHARACTER] Matusala (ID: CHAR_MATUSALA)
-**Description:** Patriarch of the lineage, son of Enoch. A living archive of the pre-flood world, bridging the gap between human tradition and the incomprehensible technologies of the Watchers. He appears not merely old, but geologically weathered, a figure carved from the landscape of history, carrying the burden of forbidden knowledge.
-**Tags:** #character #patriarch #elder #mystic #ancient-tech
+**Description:** Matusala is a towering, enigmatic figure whose presence blends the austere grandeur of ancient Ethiopian and Egyptian motifs with the cold precision of incomprehensible technology. Clad in weathered basaltic armor etched with luminous glyphs, his form is a living relic of a forgotten civilization that harnessed bioluminescent circuitry and crystalline ocular implants. The character exudes a sense of grounded realism, with dust‑streaked surfaces, soot‑blackened edges, and a subtle phosphorescent glow that hints at the hidden power within.
+**Tags:** #ancient-tech #industrial-mysticism #Ethiopian #Egyptian #bioluminescent #crystalline #obsidian #glyphs #cybernetic
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Aged but imposing, skin texture resembling cracked parchment and dry earth, deep topographical wrinkles, sturdy frame unbowed by time.
-*   **Face/Sensors:** Long, coarse white beard braided with copper filaments. Eyes are milky yet piercing, possibly enhanced with subtle ocular implants for reading higher-frequency light.
-*   **Clothing/Armor:** Heavy ceremonial robes of coarse woven linen in ochre and terracota, layered with a mantle of 'circuit-weave'—fabric integrated with dull metallic data-threads. A breastplate of oxidized bronze etched with Enochian star-charts.
-*   **Key Features:** Hands are stained with ink and soot, fingertips calloused or replaced with tactile sensors for reading stone glyphs.
+*   **Body/Form:** Robust humanoid frame, covered in interlocking basaltic plates with etched hieroglyphs; plates fused with copper circuitry and weathered bronze accents.
+*   **Face/Sensors:** Half‑mask of polished obsidian, amber‑glowing quartz ocular implants, subtle bioluminescent veins tracing along the jawline.
+*   **Clothing/Armor:** Layered bronze cuirass with filigree filaments, dust‑laden leather straps, and a tattered cape of woven obsidian fibers.
+*   **Key Features:** Bioluminescent circuitry pulsing along armor edges, crystalline ocular implants, glyph‑etched shoulder plates, obsidian staff with embedded quartz crystal.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): The Keeper of Records. Standing vigil over the legacy of Enoch, equipped with tools to interpret the Watchers' remnants.
+*   Phase 1 (Human): Matusala appears as a seasoned operative, wearing minimal protective gear and carrying a simple obsidian staff.
+*   Phase 2 (Augmented): Integration of basaltic armor, copper circuitry, and crystalline ocular implants, with glyphs activated by an unknown power source.
 
 ### 3. PROPS & EQUIPMENT
-*   Staff of Lignum-Circuitry: A walking staff appearing as petrified wood, but revealing internal fiber-optic veins when gripped.
-*   Data-Tablet: A slab of slate-like material that displays shifting holographic glyphs.
+*   Item: Obsidian Staff with embedded quartz crystal
+*   Item: Ancient Tablet of Glyphs
 
 ### 4. AI PROMPT KEYWORDS
-`Matusala`, `ancient patriarch`, `Ethiopian elder`, `white beard`, `circuit-weave robes`, `oxidized bronze`, `petrified wood staff`, `industrial mysticism`, `cinematic lighting`, `hyperrealistic`
+`obsidian`, `crystalline`, `glyphs`, `bioluminescence`, `ancient-tech`, `industrial-mysticism`, `Ethiopian`, `Egyptian`
 
 ### 5. PROMPT BLOCK (T2I)
-cinematic medium shot of Matusala, an ancient Ethiopian patriarch with deeply weathered skin and a long white beard braided with copper wire, wearing heavy ochre linen robes reinforced with dull metallic circuit-weave, standing in a dusty stone archive, holding a staff of petrified wood with faint internal bioluminescence, ambient dust motes, volumetric lighting from above, shallow depth of field, photorealistic 8k, Arri Alexa, earthy tones, serious atmosphere
+A photorealistic cinematic portrait of Matusala, a towering humanoid figure clad in weathered basaltic armor etched with ancient Ethiopian and Egyptian glyphs, bioluminescent veins pulsing along the armor, crystalline ocular implants glowing amber, holding an obsidian staff with embedded quartz crystal, dust and soot on the armor, cinematic lighting highlighting the metallic sheen and phosphorescent glow, grounded realism, industrial mysticism, ancient-tech aesthetic.
 
 ### 6. PHASE PROMPTS
-*   **Default:** Matusala as the aged keeper of knowledge in his standard ceremonial attire.
-    Prompt: cinematic medium shot of Matusala, an ancient Ethiopian patriarch with deeply weathered skin and a long white beard braided with copper wire, wearing heavy ochre linen robes reinforced with dull metallic circuit-weave, standing in a dusty stone archive, holding a staff of petrified wood with faint internal bioluminescence, ambient dust motes, volumetric lighting from above, shallow depth of field, photorealistic 8k, Arri Alexa, earthy tones, serious atmosphere
-    Keywords: Matusala, elder, robes, staff, archive
+*   **Default:** Unaugmented yet partially integrated figure.
+    Prompt: A photorealistic cinematic portrait of Matusala, a towering humanoid figure clad in weathered basaltic armor etched with ancient Ethiopian and Egyptian glyphs, bioluminescent veins pulsing along the armor, crystalline ocular implants glowing amber, holding an obsidian staff with embedded quartz crystal, dust and soot on the armor, cinematic lighting highlighting the metallic sheen and phosphorescent glow, grounded realism, industrial mysticism, ancient-tech aesthetic.
+    Keywords: obsidian, crystalline, glyphs, bioluminescence, ancient-tech, industrial-mysticism, Ethiopian, Egyptian
 
 ---

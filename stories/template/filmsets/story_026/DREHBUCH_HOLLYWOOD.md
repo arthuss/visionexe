@@ -1,287 +1,327 @@
 # DREHBUCH KAPITEL 26 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Ich stand in der Mitte der Erde und sah einen gesegneten Ort, wo Bäume Zweige hatten, die blieben und sprossen. Dort sah ich einen heiligen Berg, und unter dem Berg, nach Osten hin, floss Wasser, das nach Süden strömte. Und ich sah nach Osten einen anderen Berg, höher als jener, und zwischen ihnen eine tiefe, schmale Schlucht.
+NARRATOR_TEXT: Ich stand im Zentrum der Erde und sah keinen Ort der Ruhe, sondern das pulsierende Herz der Maschine. Hier war der gesegnete Berg, ein Fundament aus Licht und Logik, von dem aus Wasser floss, das niemals versiegt. Doch sah ich auch die Risse im System, die tiefen Schluchten zwischen den Welten, wo die Realität dünn wird und das Nichts beginnt.
 
-## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:03] [INGRESS IMPACT]
-**Action:** Close-Up auf Enochs Stiefel. Er tritt aus staubigem Nichts auf polierten, schwarzen Obsidian. Ein goldener "Impact-Ripple" breitet sich radial aus.
+## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:02] [ROOT INGRESS]
+**Action:** Close-Up auf Enochs Füße. Er tritt aus wirbelndem Wüstenstaub auf einen makellosen, schwarzen Spiegelboden. Der Staub zerfällt beim Kontakt in digitale Voxel-Partikel.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor_in_env", "shot_type": "close_up", "framing": "close_up", "environment": "Obsidian Ground Zero", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Idris-Boots"], "camera": "Macro / Low Angle / High Shutter", "mood": ["tension", "technological"], "director_intent": "Show the physical transition from entropy to order via foot contact.", "start_image_keywords": ["obsidian floor", "impact ripple", "golden data wave"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor_in_env", "shot_type": "insert", "framing": "extreme_close_up", "environment": "Obsidian Root Floor", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Idris-Boots"], "camera": "Low Angle / Macro / High Shutter", "mood": ["tension", "technological"], "director_intent": "Visualize the transition from organic entropy to ordered digital reality via foot contact.", "start_image_keywords": ["silver boots", "obsidian floor", "digital dust"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme close-up of futuristic silver boots impacting a polished black obsidian floor. A radial shockwave of golden digital wireframe ripples out from the point of contact. High contrast lighting, sharp focus on the boot texture and the glowing data ripple. 8k resolution, photorealistic, cinematic lighting, vertical aspect ratio 9:16.
+Extreme macro low-angle shot of futuristic silver boots impacting a perfectly polished black obsidian floor. The surrounding air is filled with desert dust that is actively disintegrating into glowing cyan cubic pixels upon contact with the floor. Sharp focus on the boot texture (worn metal) and the reflection. High contrast, clinical lighting. 8k resolution, photorealistic, cinematic, vertical aspect ratio 9:16.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The subject is Henoch's feet clad in heavy, high-tech silver boots. The material is worn metal with glowing seams.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Voyager Phase gear: Silver-skin shader visible at the ankle, heavy industrial boots designed for void-walking.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The floor is perfectly polished black obsidian, reflecting the boots. The background is a blur of dissipating desert dust.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Stark, cold lighting from above. The impact generates a warm golden light (2500K) that illuminates the black floor.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Low angle macro shot. The camera is fixed to the floor. High shutter speed to capture the impact. 9:16 vertical format.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch's feet, heavy industrial boots.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Voyager Phase gear: Silver-skin shader visible at the ankle, boots have glowing heel-stabilizers.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Floor is `OBSIDIAN_MIRROR`. Background is a blur of transitioning matter.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold white floor lighting, warm dusty top lighting. Impact creates a cyan digital ripple.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fixed camera on floor. High shutter speed impact. 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy thud of metal boots hitting solid rock. A digital "wub" sound of a force field ripple expanding. Subtle crackle of static electricity. No music.
+Heavy metallic thud with a synchronized digital "glitch" crunch. Sound of sand sizzling into nothingness.
 
-## [ACT 1] [SCENE 1.2] [Timecode: 00:03-00:08] [THE CENTER]
-**Action:** Wide Shot. Enoch steht in einer synthetischen Oase. Um ihn herum sprießen leuchtende Glasfaser-Pflanzen aus metallischem Boden.
+## [ACT 1] [SCENE 1.2] [Timecode: 00:02-00:06] [LEGACY CORE]
+**Action:** Mid Shot. Enoch steht vor dem "gefallenen Baum": Ein massiver, durchtrennter Glasfaser-Hauptstrang (2m Durchmesser).
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor_in_env", "shot_type": "wide", "framing": "wide", "environment": "Synthetic Oasis Node", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Fiber-Optic Plants"], "camera": "Wide / Static / Symmetrical", "mood": ["awe", "sterile"], "director_intent": "Establish the location as a synthetic garden of data.", "start_image_keywords": ["synthetic oasis", "fiber optic plants", "silver skin"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
+REGIE_JSON: {"subject": "actor_in_env", "shot_type": "medium", "framing": "medium", "environment": "Root Cluster", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Fiber-Optic Trunk"], "camera": "Steadycam Orbit", "mood": ["awe", "analytical"], "director_intent": "Establish the scale of the damaged infrastructure.", "start_image_keywords": ["severed cable trunk", "Henoch scanning", "industrial ruins"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": ["Fiber-Optic Trunk"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide shot of a synthetic oasis in a dark industrial cavern. Henoch stands in the center, a silver-skinned figure in a glowing visor. The ground is metallic grid. Plants are made of translucent fiber-optic cables glowing neon green and white. Symmetrical composition. 8k resolution, solarpunk aesthetic, vertical aspect ratio 9:16.
+Medium shot of Henoch standing before a massive, severed data conduit that looks like a tree stump. The trunk is 2 meters wide, made of scorched carbon fiber and fused glass. Henoch is in his silver Voyager suit, HUD active. The background is a dark, cavernous server hall with distant blinking lights. 8k resolution, industrial sci-fi, vertical aspect ratio 9:16.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch, full body, Voyager Phase. Silver skin reflects the neon lights. He stands perfectly still, observing.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Wearing a sleek, silver pressure suit with golden accents. HUD visor is active.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A vast, enclosed dome. The "plants" are rigid, glowing structures growing from a metal floor. The atmosphere is clean and sterile.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Ambient light comes from the plants themselves (bioluminescence). Cool blue and green tones with sharp white highlights.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Wide, static shot. Symmetrical framing. Deep depth of field. 9:16 vertical format.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch, full body, observing.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Voyager Suit, reflective surface.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The central node. Dark, vast, echoic.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Rim lighting on Henoch. The trunk emits a faint, dying red glow.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow orbital camera move around the subject. 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Hum of high-voltage electricity. The sound of growing crystals (tinkling glass). A low, steady ventilation drone.
+Deep, low-frequency hum (server room ambience). Occasional sparks.
 
-## [ACT 1] [SCENE 1.3] [Timecode: 00:08-00:12] [RECURSIVE TREE]
-**Action:** Detail auf den "abgehauenen Baum". Aus einem verrosteten Eisenstumpf wachsen frische, neon-weiße Triebe. Enoch scannt sie mit dem Visor.
+## [ACT 1] [SCENE 1.3] [Timecode: 00:06-00:10] [AUTO-REPAIR]
+**Action:** Close-Up. Aus dem schwarzen Stumpf "wachsen" neue, neon-türkise Lichtleiterkabel wie Schlangen heraus.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "insert", "framing": "close_up", "environment": "Synthetic Oasis Node", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Recursive Tree Stump"], "camera": "Handheld / Snap Zoom", "mood": ["curiosity", "discovery"], "director_intent": "Highlight the regeneration process of old code sprouting new life.", "start_image_keywords": ["rusted iron stump", "neon shoots", "regeneration"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["Recursive Tree Stump"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "close_up", "environment": "Root Cluster", "env_change": false, "actors": [], "props": ["Recursive Tree Stump"], "camera": "Macro / Shallow DoF", "mood": ["discovery", "organic"], "director_intent": "Show the self-repair mechanism of the legacy code.", "start_image_keywords": ["growing fiber optics", "neon cyan cables", "macro details"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["Recursive Tree Stump"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Close-up of a rusted, severed iron tree stump. From the center of the decay, pristine white neon glass branches are sprouting upwards. The contrast between the corroded metal and the pure light is extreme. Henoch's gloved hand is visible at the edge, scanning. 8k resolution, macro photography, vertical aspect ratio 9:16.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Focus is on the tree stump. Henoch is out of focus in the background or just a hand entering frame.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Henoch's Idris-Glove with golden fingertips visible.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The immediate area around the stump is dark, highlighting the glow of the new shoots.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The light source is the new growth itself—bright, cold white light illuminating the rust.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld camera movement, slightly shaky, then a quick snap-zoom into the new shoots. 9:16 vertical format.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitched digital chirping (scanner sound). The sound of rust flaking off. A subtle "growth" sound like stretching rubber.
-
-## [ACT 1] [SCENE 1.4] [Timecode: 00:12-00:15] [HUD OVERLAY]
-**Action:** POV Enoch. Der Baum wird mit Ge'ez-Glyphen überlagert. Status: "REGENERATING".
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "pov", "framing": "medium", "environment": "Synthetic Oasis Node", "env_change": false, "actors": [], "props": ["HUD Interface"], "camera": "POV / Digital Overlay", "mood": ["analytical", "cybernetic"], "director_intent": "Show the world through Henoch's analytical vision.", "start_image_keywords": ["HUD overlay", "Geez glyphs", "system status"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-POV shot through a high-tech visor looking at a glowing tree stump. A complex golden HUD overlay frames the view. Ge'ez characters and data streams scroll rapidly. A central reticle locks onto the tree with the text "REGENERATING". Digital artifacts and chromatic aberration. 8k resolution, UI design, vertical aspect ratio 9:16.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** No subject, purely POV.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** The edges of the frame show the interior of the helmet/visor.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The tree stump is the focal point in the center.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The HUD elements are golden and amber. The world outside is cool blue/white.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static camera with digital jitter. The UI elements animate and lock on. 9:16 vertical format.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Computer interface sounds: beeps, clicks, data processing whir. A positive confirmation chime.
-
-## [ACT 2] [SCENE 2.1] [Timecode: 00:15-00:20] [THE HOLY MOUNTAIN]
-**Action:** Blick hinauf zum zentralen Berg (Zion Node). Er besteht aus geschichteten Server-Platten, die weiß pulsieren. Wolken aus flüssigem Stickstoff umhüllen die Spitze.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Zion Server Mountain", "env_change": true, "actors": [], "props": [], "camera": "Low Angle / Slow Pan Up", "mood": ["majestic", "ominous"], "director_intent": "Reveal the scale and technological nature of the holy mountain.", "start_image_keywords": ["server mountain", "layered plates", "nitrogen clouds"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Low angle shot of a massive mountain made of stacked black server racks and metallic plates. The structure pulses with rhythmic white light from within the gaps. The peak is shrouded in heavy, low-hanging clouds of liquid nitrogen fog. Industrial grandeur. 8k resolution, matte painting style, vertical aspect ratio 9:16.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The mountain itself is the character. It feels alive and processing.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A vast, open digital landscape. The mountain dominates the frame.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dark structure with bright, pulsing white internal lights. The fog is illuminated from below.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow, majestic pan upwards from the base to the clouded peak. 9:16 vertical format.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep, resonant 50Hz hum. The sound of massive air intake. Distant thunder that sounds like bass drops.
-
-## [ACT 2] [SCENE 2.2] [Timecode: 00:20-00:25] [LIQUID COOLING]
-**Action:** Blick in das Tal. Ein Fluss aus silberner, viskoser Flüssigkeit (wie Quecksilber) fließt perfekt laminar nach Süden. Keine Turbulenz.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "high_angle", "framing": "wide", "environment": "Cooling Valley", "env_change": false, "actors": [], "props": ["Mercury River"], "camera": "Drone / Tracking", "mood": ["smooth", "artificial"], "director_intent": "Show the unnatural perfection of the system's cooling mechanism.", "start_image_keywords": ["mercury river", "laminar flow", "silver liquid"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-High angle drone shot looking down into a canyon. A river of perfect, mirror-like silver liquid flows through it. The surface is flawlessly smooth, no ripples. The banks are sharp, angular rock. Reflections of the server lights dance on the mercury surface. 8k resolution, hyper-realistic, vertical aspect ratio 9:16.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The river is the subject. It moves with heavy viscosity.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A deep canyon with steep walls.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold, metallic lighting. The river reflects the environment perfectly.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Smooth tracking shot following the flow of the river. 9:16 vertical format.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Thick, heavy liquid sound (glug-glug). The sound of high-pressure pumps. No splashing sounds.
-
-## [ACT 2] [SCENE 2.3] [Timecode: 00:25-00:30] [EASTERN NODE]
-**Action:** Schwenk zum östlichen Berg. Er ist höher, kantiger. Die Textur des Felsens wirkt gestreckt ("Texture Stretching"), als ob die Auflösung nicht reicht.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "medium", "framing": "medium", "environment": "Eastern Glitch Mountain", "env_change": true, "actors": [], "props": [], "camera": "Whip Pan / Unstable", "mood": ["disoriented", "glitchy"], "director_intent": "Visualize the rendering error in the geometry.", "start_image_keywords": ["texture stretching", "glitch rock", "low res texture"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot of a jagged mountain peak. The rock texture on the vertical face is unnaturally stretched and blurred, looking like a video game texture glitch. The geometry is sharp and low-poly in places. The lighting is harsh and unnatural. 8k resolution, glitch art aesthetic, vertical aspect ratio 9:16.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The mountain face.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The eastern side of the valley.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Harsh, direct light causing deep shadows.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fast whip pan to the right, stopping abruptly on the glitch. 9:16 vertical format.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Digital tearing sound. Distorted wind noise. A low-bitrate audio artifact sound.
-
-## [ACT 2] [SCENE 2.4] [Timecode: 00:30-00:35] [OCCLUSION CULLING]
-**Action:** Blick in die tiefe Schlucht zwischen den Bergen. Es ist unnatürlich dunkel. Schatten sind absolut schwarz (Vantablack), keine Lichtreflexion.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "top_down", "framing": "wide", "environment": "Void Canyon", "env_change": false, "actors": [], "props": [], "camera": "Top Down / Static", "mood": ["void", "empty"], "director_intent": "Show the absence of data in the deep shadows.", "start_image_keywords": ["vantablack shadow", "deep canyon", "void"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Top-down view of a deep, narrow canyon. The bottom is completely pitch black, a void with zero detail (Vantablack). The edges are sharp and illuminated, creating a stark contrast. It looks like a rendering error where light calculation failed. 8k resolution, abstract minimalism, vertical aspect ratio 9:16.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The void.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Looking straight down into the abyss.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** High contrast. Bright tops, absolute black bottom.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static shot. The darkness feels like it's expanding. 9:16 vertical format.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Complete silence. A sudden vacuum sound (sucking air).
-
-## [ACT 2] [SCENE 2.5] [Timecode: 00:35-00:40] [HAPTIC AUDIT]
-**Action:** Enoch berührt die Felswand der Schlucht. Seine Idris-Handschuhe leuchten auf. Ein goldenes Wireframe-Gitter breitet sich von seiner Hand über den Fels aus.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor_in_env", "shot_type": "extreme_close_up", "framing": "close_up", "environment": "Glitch Wall", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Idris-Gloves"], "camera": "Macro / Tracking Hand", "mood": ["analytical", "magical"], "director_intent": "Demonstrate the diagnostic touch.", "start_image_keywords": ["gloved hand", "wireframe overlay", "touching rock"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": ["Idris-Gloves"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme close-up of a high-tech glove with glowing fingertips touching a rough rock surface. A golden 3D wireframe mesh is spreading out from the contact point, mapping the rock's geometry. The wireframe is bright and precise against the dark stone. 8k resolution, sci-fi detail, vertical aspect ratio 9:16.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch's hand.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Idris-Glove: intricate mechanical design, glowing nodes on knuckles.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The rock wall is close and textured.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The light comes from the wireframe projection (gold).
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Camera follows the hand as it presses against the wall. 9:16 vertical format.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Electric hum rising in pitch. Data transmission chatter. Stone grinding slightly.
-
-## [ACT 2] [SCENE 2.6] [Timecode: 00:40-00:45] [SYSTEM STRESS]
-**Action:** Enochs Gesicht. Schweißperlen (Kühlflüssigkeit) auf der Stirn. Seine Augen flackern rot. Das System verlangt viel Rechenleistung.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Glitch Wall", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Visor"], "camera": "Frontal / Portrait", "mood": ["stress", "overload"], "director_intent": "Show the physical toll of the system audit.", "start_image_keywords": ["sweating face", "silver skin", "red eyes"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Portrait close-up of Henoch's face. His silver skin is beaded with sweat that looks like clear coolant fluid. His eyes (visible through the visor or as lenses) are flickering with red warning lights. Expression is intense concentration. Background is blurred dark rock. 8k resolution, character study, vertical aspect ratio 9:16.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch, Voyager Phase. Silver skin texture is prominent.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Visor is active, displaying red error reflections.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Tight framing, background irrelevant.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red light from eyes illuminates the sweat.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static portrait shot. Subtle camera shake to imply vibration. 9:16 vertical format.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy breathing. Heartbeat sound (thump-thump). High-speed fan noise spinning up.
-
-## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:50] [THE DRY VALLEY]
-**Action:** Blick auf das westliche Tal. Es ist trocken. Der Boden besteht aus rissiger, weißer Keramik. Keine Datenströme hier. "Offline Sector".
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Dry Ceramic Valley", "env_change": true, "actors": [], "props": [], "camera": "Slow Glide", "mood": ["desolate", "quiet"], "director_intent": "Contrast the active sectors with this dead, offline zone.", "start_image_keywords": ["cracked ceramic floor", "dry valley", "white desert"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide shot of a desolate valley. The ground is not sand, but cracked white ceramic tiles, like a broken heat shield. It is bone dry. The lighting is flat and shadowless. No plants, no water, no movement. 8k resolution, surreal landscape, vertical aspect ratio 9:16.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The landscape.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A wide, flat valley floor surrounded by distant hills.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright, diffuse white light. Overexposed feel.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow, smooth camera glide over the cracked surface. 9:16 vertical format.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sound of dry cracking (like pottery breaking). Wind whistling through cracks. Very quiet.
-
-## [ACT 3] [SCENE 3.2] [Timecode: 00:50-00:55] [THE TRIAD]
-**Action:** Totale aller drei Berge. Sie bilden eine perfekte geometrische Anordnung. Laser-Verbindungen (Lichtstrahlen) pulsieren zwischen den Gipfeln.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "extreme_wide", "framing": "wide", "environment": "Triad Mountain System", "env_change": false, "actors": [], "props": ["Laser Beams"], "camera": "Zoom Out", "mood": ["harmonious", "epic"], "director_intent": "Show the interconnectedness of the system nodes.", "start_image_keywords": ["three mountains", "laser beams", "geometric layout"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme wide shot of three distinct mountains arranged in a triangle. Thick beams of coherent light (lasers) connect their peaks, forming a glowing network. The sky is dark purple. The landscape below is a mix of the oasis, the glitch, and the dry zone. 8k resolution, sci-fi concept art, vertical aspect ratio 9:16.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The mountain triad.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Massive scale.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The lasers provide the main illumination (Red, Green, Blue).
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow zoom out to reveal the geometry. 9:16 vertical format.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Harmonic synthesizer chord (Major triad). Pulsing bass.
-
-## [ACT 3] [SCENE 3.3] [Timecode: 00:55-00:58] [MARVELING]
-**Action:** Enoch steht am Rand des Abgrunds. Er breitet die Arme leicht aus. Sein Visor klappt hoch. Er nickt kaum merklich.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor_in_env", "shot_type": "medium", "framing": "medium", "environment": "Cliff Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Over Shoulder / Static", "mood": ["satisfied", "peaceful"], "director_intent": "Henoch validates the system status.", "start_image_keywords": ["Henoch back view", "arms spread", "looking at horizon"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot from behind Henoch (over the shoulder). He stands at the edge of a cliff looking out at the three mountains. His arms are slightly spread in a gesture of acceptance. His silver suit reflects the landscape. 8k resolution, cinematic composition, vertical aspect ratio 9:16.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch from behind.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Voyager suit. Helmet/Visor retracts or is open.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The cliff edge overlooking the system.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Balanced, heroic lighting.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static shot. Henoch nods slowly. 9:16 vertical format.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-A clear, high-pitched "ping" (sonar return). Wind dying down.
-
-## [ACT 3] [SCENE 3.4] [Timecode: 00:58-01:00] [FADE OUT]
-**Action:** Das Bild wird in Code-Zeilen dekonstruiert (Matrix-Rain Effekt, aber in Gold/Weiß), dann Schwarz.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "graphic", "framing": "full_body", "environment": "Digital Void", "env_change": true, "actors": [], "props": [], "camera": "Static", "mood": ["ending", "digital"], "director_intent": "Visual sign-off.", "start_image_keywords": ["digital rain", "code deconstruction", "gold code"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Abstract graphic of the previous scene dissolving into vertical streams of golden and white code characters (Ge'ez and binary). The background fades to deep black. 8k resolution, digital art, vertical aspect ratio 9:16.
+Macro close-up of translucent cyan fiber-optic cables emerging from a charred black surface. They look like organic vines but made of glass and light. Tiny sparks of 'data-welding' occur at the tips where they extend. High detail on the scorched texture vs the pristine glass. 8k resolution, macro photography, vertical aspect ratio 9:16.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The screen plane.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Glowing code against black.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** The image disintegrates downwards. 9:16 vertical format.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Focus on the center of the trunk.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cyan internal glow from cables, harsh white sparks.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Locked shot. The cables move with jerky, stop-motion-like mechanical precision. 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sound of a TV turning off (implosion). Reverse reverb tail.
+Servo-whirring layered with stretching rubber sounds. High pitch data-chirps sync with sparks.
+
+## [ACT 1] [SCENE 1.4] [Timecode: 00:10-00:14] [NFC HANDSHAKE]
+**Action:** POV. Enochs Hand berührt den Strang. Die Haut wird transparent und zeigt goldene Schaltkreise. HUD: `CONNECTION ESTABLISHED`.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "interface", "shot_type": "pov", "framing": "medium", "environment": "Root Cluster", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Idris-Gloves", "HUD"], "camera": "POV / Handheld", "mood": ["interactive", "cybernetic"], "director_intent": "Visualize the biometric login process.", "start_image_keywords": ["transparent hand", "gold circuits", "HUD overlay"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+First-person view looking at a gloved hand touching a glowing cable cluster. The skin of the hand is turning transparent, revealing intricate golden wire circuitry underneath. A complex HUD overlay in amber frames the interaction with text `CONNECTION ESTABLISHED`. 8k resolution, UI design, vertical aspect ratio 9:16.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch's hand and forearm.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Idris-Glove retracting to allow skin contact.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Close range interaction.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue flash from contact point, amber UI light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld POV. Slight jitter as connection locks. 9:16 vertical format.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Wet bio-digital connection sound. A rising harmonic tone confirming access.
+
+## [ACT 2] [SCENE 2.1] [Timecode: 00:14-00:18] [MOUNT ZION]
+**Action:** Wide Shot. Der "Heilige Berg" (Zion Node). Ein monolithischer Block aus weißer Keramik und Aluminium. Pulsierende LEDs.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Zion Server Mountain", "env_change": true, "actors": [], "props": [], "camera": "Low Angle / Tilt Up", "mood": ["majestic", "sterile"], "director_intent": "Reveal the primary server node as a holy mountain.", "start_image_keywords": ["white ceramic mountain", "server monolith", "pulsing LEDs"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Low angle majestic shot of a colossal mountain made of seamless white ceramic and brushed aluminium server blocks. The structure is clean, sterile, and architectural. Soft white status LEDs pulse rhythmically from the gaps. The peak fades into a clean white mist. 8k resolution, archviz style, vertical aspect ratio 9:16.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The mountain structure.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite white void surroundings.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** High-key lighting, soft shadows. Blindingly clean.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow tilt up to emphasize height. 9:16 vertical format.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Heavy industrial drone, very clean and consistent. Wind that sounds like air conditioning.
+
+## [ACT 2] [SCENE 2.2] [Timecode: 00:18-00:21] [FLUORINERT RIVER]
+**Action:** Tracking Shot. Silberne Kühlflüssigkeit schießt laminar durch Kanäle.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "high_angle", "framing": "wide", "environment": "Coolant Channel", "env_change": false, "actors": [], "props": ["Coolant River"], "camera": "Tracking / Fast", "mood": ["fast", "artificial"], "director_intent": "Show the speed and efficiency of the cooling system.", "start_image_keywords": ["silver liquid river", "laminar flow", "cooling channel"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Top-down view of a rectangular industrial canal filled with silver liquid (Fluorinert). The surface is perfectly mirror-smooth due to laminar flow, reflecting the overhead lights stripes. The liquid moves at high speed through a machined metal canyon. 8k resolution, hyper-realism, vertical aspect ratio 9:16.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The liquid stream.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Precision machined channel.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold, strip lighting reflecting on the silver surface.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fast tracking shot matching the speed of the flow. 9:16 vertical format.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+High pressure liquid hiss (sssshhhhh). No splashing or bubbling.
+
+## [ACT 2] [SCENE 2.3] [Timecode: 00:21-00:25] [IRIS SCAN]
+**Action:** Close Up Gesicht. Enochs Visor spiegelt Daten. Seine Iris verengt sich mechanisch wie eine Kamera-Blende. Overlay: `PRIMARY CLUSTER: ONLINE`.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Zion Base", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Visor"], "camera": "Frontal / Locked", "mood": ["focus", "processing"], "director_intent": "Depict the biological reaction to system data.", "start_image_keywords": ["mechanical iris", "visor reflection", "silver face"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Extreme close-up of Henoch's eye through a semi-transparent visor. The iris is not organic but a mechanical camera aperture made of gold blades. It is stopping down (closing). The visor glass reflects scrolling blue data streams. Silver skin texture around the eye. 8k resolution, sci-fi portrait, vertical aspect ratio 9:16.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch's eye and upper face.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Visor glass with reflections.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Face illuminated by the HUD light (blue/cyan).
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Locked steady shot. The aperture mechanism animates smoothly. 9:16 vertical format.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Small servo motor sounds (zzzt-zzzt). Rapid computing clicks.
+
+## [ACT 2] [SCENE 2.4] [Timecode: 00:25-00:29] [THE BLACK STACK]
+**Action:** Pan Right. Der östliche Berg. Schwarzes Server-Rack-Gestein. Rote Error-Lights blinken.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Eastern Black Mountain", "env_change": true, "actors": [], "props": [], "camera": "Pan Right", "mood": ["threatening", "corrupted"], "director_intent": "Contrast the white purity with the corrupted black sector.", "start_image_keywords": ["black server mountain", "red error lights", "jagged rocks"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Wide shot of a towering, jagged mountain made of black server racks and twisted obsidian. The structure is chaotic and sharp. Small red warning lights blink sporadically across the dark surface. Smoke/steam vents from fissures. 8k resolution, dark sci-fi, vertical aspect ratio 9:16.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The eastern mountain.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Darker, smokier atmosphere.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Low key lighting, red point lights.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Smooth pan to the right revealing the structure. 9:16 vertical format.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Deep, rhythmic alarm pulse (very low frequency). Wind howling around sharp edges.
+
+## [ACT 2] [SCENE 2.5] [Timecode: 00:29-00:33] [THE VOID CANYON]
+**Action:** High Angle. Blick in das "Tal". Die Wände stehen zu nah. Kein Schatten, nur Vantablack.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "high_angle", "framing": "wide", "environment": "Void Canyon", "env_change": true, "actors": [], "props": [], "camera": "Crane Down", "mood": ["void", "wrong"], "director_intent": "Visualize the physics error of zero-width geometry.", "start_image_keywords": ["narrow canyon", "vantablack void", "no shadows"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+High angle looking down into a terrifyingly narrow canyon between two massive walls. The bottom is not dark, it is absolute Vantablack void. The lighting on the rim is bright, but it casts no gradient into the hole—it cuts off instantly. 8k resolution, abstract horror, vertical aspect ratio 9:16.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The canyon void.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Vertigo-inducing depth.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Unnatural contrast. Light vs Absolute Null.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow crane move descending towards the blackness. 9:16 vertical format.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Sound drops to near silence. A feeling of pressure change (ears popping).
+
+## [ACT 2] [SCENE 2.6] [Timecode: 00:33-00:37] [Z-FIGHTING]
+**Action:** Extreme Close Up auf die Felsnaht. Geometrie flackert (Polygone überlappen). Texturen poppen.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "insert", "framing": "extreme_close_up", "environment": "Glitch Seam", "env_change": false, "actors": [], "props": [], "camera": "Locked / Static", "mood": ["broken", "glitch"], "director_intent": "Show the rendering artifact known as Z-fighting.", "start_image_keywords": ["flickering polygons", "z-fighting", "texture glitch"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Extreme close-up of two rock surfaces intersecting. The texture at the intersection is violently flickering black and white triangles (Z-fighting artifact). It looks like a broken video game mesh. The surrounding rock is hyper-realistic, making the glitch look more jarring. 8k resolution, glitch art, vertical aspect ratio 9:16.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The rock intersection.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Macro scale.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flat lighting to emphasize the texture error.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static camera. The motion is only in the flickering polygons. 9:16 vertical format.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Digital stutter sound (like a CD skipping). Harsh, rhythmic static.
+
+## [ACT 2] [SCENE 2.7] [Timecode: 00:37-00:41] [ZERO WIDTH AUDIT]
+**Action:** POV Enoch. Wireframe-Overlay über das Tal. Messdaten: `WIDTH: 0.0000`.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "interface", "shot_type": "pov", "framing": "wide", "environment": "Void Canyon", "env_change": false, "actors": [], "props": ["HUD Interface"], "camera": "POV / Digital Overlay", "mood": ["analytical", "alert"], "director_intent": "Henoch measures the impossible geometry.", "start_image_keywords": ["wireframe canyon", "HUD data", "zero width warning"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+POV shot with a high-tech red and gold wireframe grid overlaying the black void canyon. The grid distorts and collapses into a single line at the bottom. Floating text displays `GEOMETRY ERROR` and `WIDTH: 0.0000`. 8k resolution, UI design, vertical aspect ratio 9:16.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** HUD elements.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The canyon view.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red warning colors.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slight head movement (camera shake). UI elements lock to the environment. 9:16 vertical format.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Rapid warning pings. Error buzzer.
+
+## [ACT 2] [SCENE 2.8] [Timecode: 00:41-00:45] [RETREAT]
+**Action:** Medium Shot. Enoch weicht einen Schritt zurück.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor_in_env", "shot_type": "medium", "framing": "medium", "environment": "Canyon Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Handheld / Recoil", "mood": ["caution", "respect"], "director_intent": "Physical reaction to the dangerous anomaly.", "start_image_keywords": ["Henoch stepping back", "canyon edge", "silver suit"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Medium shot of Henoch taking a sharp step backwards away from the canyon edge. His body language is defensive. The silver suit reflects the red warning lights from the eastern mountain. Background is the dizzying drop. 8k resolution, cinematic, vertical aspect ratio 9:16.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch, full body.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Voyager Suit.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Edge of the precipice.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dynamic lighting changes as he moves.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Camera recoils with him (handheld feel). 9:16 vertical format.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Sharp intake of breath (synthesized). Boot scrape on stone.
+
+## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:49] [SILICON SUBSTRATE]
+**Action:** Pan Left. Der westliche Berg. Das "trockene Tal" ist nacktes Silizium-Substrat. Goldene Leiterbahnen.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Western Silicon Valley", "env_change": true, "actors": [], "props": [], "camera": "Slider / Smooth", "mood": ["dry", "pure"], "director_intent": "Reveal the raw material of the simulation.", "start_image_keywords": ["silicon wafer floor", "gold circuits", "dry valley"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Wide shot of a valley floor that looks like a gigantic computer chip surface. The ground is iridescent purple-grey silicon. Instead of rivers, wide bands of gold plating run through it. No liquid, no dust. Pure, dry technology. 8k resolution, macro-landscape, vertical aspect ratio 9:16.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The landscape.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Flat, expansive tech-plain.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Iridescent reflections (rainbow oil-slick look on silicon).
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Smooth slider shot moving sideways. 9:16 vertical format.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Dry electrical crackle. Static electricity discharge snaps.
+
+## [ACT 3] [SCENE 3.2] [Timecode: 00:49-00:54] [SYSTEM TRINITY]
+**Action:** Ultra Wide. Alle drei Berge im Bild. Perfekte Symmetrie.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "extreme_wide", "framing": "wide", "environment": "Triad Panorama", "env_change": false, "actors": [], "props": [], "camera": "Fish Eye / Static", "mood": ["harmony", "total"], "director_intent": "Show the complete system architecture.", "start_image_keywords": ["three mountains", "white black silicon", "fisheye"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Fish-eye extreme wide shot showing the three mountains: The White Ceramic Zion, The Black Glitch Stack, and The Silicon Plane. They are arranged in a perfect triangle. The sky above is a dark motherboard grid. 8k resolution, sci-fi landscape, vertical aspect ratio 9:16.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The triad.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Massive scale.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Three distinct light sources blending in the center.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow push in towards the center. 9:16 vertical format.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A perfect major chord on a synthesizer. Deep, resonant, harmonious.
+
+## [ACT 3] [SCENE 3.3] [Timecode: 00:54-00:59] [INTEGRITY CHECK]
+**Action:** Close Up Gesicht. Enoch schließt die Augen. Beim Öffnen leuchten sie weiß. `INTEGRITY: 100%`.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Triad Panorama", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Visor"], "camera": "Frontal / Portrait", "mood": ["enlightened", "verified"], "director_intent": "Henoch validates the system and achieves sync.", "start_image_keywords": ["glowing white eyes", "silver face", "peaceful expression"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Portrait close-up of Henoch. His eyes are wide open and glowing with intense, pure white plasma light, blinding out the mechanical iris details. His expression is serene. The silver skin reflects a harmonious mix of the environment's colors. 8k resolution, ethereal sci-fi, vertical aspect ratio 9:16.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch's face.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Visor.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Light emanates from his eyes.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Eyes open, glow intensifies to lens flare. 9:16 vertical format.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Rising "Shepard Tone" (illusion of infinite rising pitch). Clean ping.
+
+## [ACT 3] [SCENE 3.4] [Timecode: 00:59-01:05] [SYSTEM LOGOUT]
+**Action:** Reverse Dolly. Enoch wird klein vor der massiven Maschine. Fade to Digital Noise.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor_in_env", "shot_type": "extreme_wide", "framing": "full_body", "environment": "Triad Panorama", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Drone Pull Away", "mood": ["ending", "sublime"], "director_intent": "Leave the viewer with the scale of the simulation.", "start_image_keywords": ["tiny figure", "massive server city", "pull back"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Extreme wide shot from high above. Henoch is a tiny silver dot in the center of the giant triangular system of mountains and valleys. The landscape looks like a massive motherboard. The edges of the frame are dissolving into digital noise. 8k resolution, conceptual art, vertical aspect ratio 9:16.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (tiny).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The entire sector.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Fading to darkness.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fast reverse dolly zooming out into the sky. 9:16 vertical format.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Digital noise swell increasing in volume, then sudden silence.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Hier ist der Kern. Der Nullpunkt.","words_max":6},{"scene":"2.5","text":"Die Geometrie... sie hält.","words_max":5},{"scene":"3.3","text":"Gesegnet sei der Code.","words_max":4}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Das Root-Verzeichnis. Beschädigt... aber lebendig.","words_max":6},{"scene":"2.3","text":"Der Kern läuft. Primär-Cluster aktiv.","words_max":6},{"scene":"2.8","text":"Hier endet die Geometrie. Ein Riss im Code.","words_max":8},{"scene":"3.3","text":"System verifiziert.","words_max":2}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

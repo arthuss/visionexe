@@ -3,62 +3,80 @@
   "name": "Simo",
   "type": "character",
   "card": {
-    "description": "Simo is a seasoned participant of the Obsidian Order, a living conduit between ancient Ethiopian and Egyptian mysticism and incomprehensible technology. Standing 1.78m tall, his lean, muscular frame bears warm ochre skin etched with subtle ritual scars. His left forearm is a bio-luminescent alloy limb, etched with amber runic glyphs that pulse softly. He wears a flowing indigo-dyed robe woven from basalt fibers, its surface studded with silver filigree that doubles as circuitry. A translucent crystalline data core sits at his chest, pulsing a faint blue light and projecting holographic glyphs into the air. Augmented ocular lenses give his eyes a subtle iridescent sheen, reflecting ambient light. The overall aesthetic is grounded realism with tactile textures: the rough basalt, the smooth alloy, the translucent crystal, all illuminated by cinematic, low-key lighting.",
+    "description": "Simo, a human participant in a high‑tech expedition, stands at the threshold of a subterranean cavern, his silhouette framed by the flickering glow of bioluminescent glyphs etched into a basalt cuirass fused with titanium alloy. The armor, a fusion of ancient Ethiopian and Egyptian motifs, features stylized lotus and Ge'ez script rendered in crystalline filaments that pulse in sync with his heartbeat. A translucent obsidian visor embedded with micro‑lithographic sensors projects holographic glyphs onto his vision, refracting light into a spectrum of colors. A compact quantum engine strapped to his belt hums softly, powering the visor and wrist‑mounted data pads. The ensemble is weathered by dust and faint scorch marks from previous trials, yet the bioluminescent glyphs remain vivid, casting a subtle blue‑green glow across his forearms and chest. The scene is photorealistic, tactile, with detailed textures of basalt, obsidian, titanium alloy, and copper rivets, capturing the ancient‑tech aesthetic in a grounded, cinematic style.",
     "tags": [
       "ancient-tech",
-      "industrial mysticism",
-      "Ethiopian",
-      "Egyptian",
-      "photorealistic",
+      "industrial-mysticism",
+      "Ethiopian-Egyptian",
+      "human",
       "character",
-      "tactile",
-      "bio-luminescent",
-      "crystalline"
+      "participant",
+      "photorealistic",
+      "bioluminescent",
+      "crystalline",
+      "basalt",
+      "obsidian",
+      "titanium"
     ],
     "visual_anatomy": [
-      "**Body/Form:** Lean, muscular, 1.78m tall, warm ochre skin with subtle ritual scars, slight dust of obsidian particles.",
-      "**Face/Sensors:** Augmented ocular lenses with iridescent sheen, faint amber glow from runic glyphs on left forearm, subtle scar above left brow.",
-      "**Clothing/Armor:** Indigo-dyed basalt fiber robe, silver filigree circuitry, reinforced carbon composite at shoulders, hooded hood with obsidian trim.",
-      "**Key Features:** Left forearm bio-luminescent alloy limb with glowing amber runic glyphs, translucent crystalline data core pulsing blue at chest, holographic glyph projection, obsidian dust swirling, tactile basalt and alloy textures."
+      "**Body/Form:** Human, 1.8 m tall, muscular build, wearing a basalt cuirass fused with titanium alloy, plates etched with bio‑luminescent glyphs that pulse with his heartbeat. The armor is segmented for mobility, with reinforced joints covered in worn copper rivets.",
+      "**Face/Sensors:** A translucent obsidian visor with embedded micro‑lithographic sensors and a crystalline lattice that refracts light into a spectrum of colors. The visor displays holographic glyphs and environmental data, with a subtle glow that matches the armor's glyphs.",
+      "**Clothing/Armor:** Basalt cuirass, titanium alloy, copper rivets, obsidian visor, quantum engine belt, wrist‑mounted data pads. The cuirass features ancient Ethiopian and Egyptian motifs, including stylized lotus and Ge'ez script, rendered in bio‑luminescent filaments.",
+      "**Key Features:** Bioluminescent glyphs pulsing with heartbeat, crystalline visor projecting holographic glyphs, quantum engine powering visor and data pads, faint scorch marks and dust accumulation, tactile basalt and obsidian textures, reflective titanium alloy edges."
     ],
     "evolution": [
-      "Phase 1 (Default): Simo in ceremonial garb, integrated with ancient-tech, standing in a dimly lit subterranean chamber."
+      "Phase 1 (Initial): Simo wears a basic basalt cuirass with copper rivets and a simple obsidian visor, no quantum engine.",
+      "Phase 2 (Advanced): Simo upgrades to a titanium‑fused basalt cuirass with bio‑luminescent glyphs, crystalline visor with holographic projection, and a quantum engine belt powering the visor and data pads."
     ],
     "props": [
-      "Item: Obsidian Staff – slender black obsidian staff with a crystal tip emitting a faint glow.",
-      "Item: Data Crystal – translucent crystal pendant containing swirling data, worn at the chest."
+      "Item: obsidian blade with a basalt hilt, etched with Ge'ez script.",
+      "Item: basalt tablet containing ancient runes, used for calibration."
     ],
     "prompt_keywords": [
       "ancient",
       "tech",
+      "mystic",
       "Ethiopian",
       "Egyptian",
-      "photorealistic",
-      "tactile",
-      "luminescent",
+      "bioluminescent",
       "crystalline",
       "basalt",
-      "runic"
+      "obsidian",
+      "titanium",
+      "photorealistic",
+      "tactile",
+      "dust",
+      "scorch",
+      "holographic",
+      "glyphs",
+      "quantum engine"
     ],
-    "prompt_block": "Simo, a 1.78m tall participant of the Obsidian Order, standing in a dimly lit subterranean chamber, his warm ochre skin textured with subtle ritual scars, wearing a flowing indigo-dyed basalt fiber robe embroidered with silver filigree circuitry, his left forearm replaced by a bio-luminescent alloy limb etched with glowing amber runic glyphs, a translucent crystalline data core pulsing blue at his chest projecting holographic glyphs into the air, augmented ocular lenses reflecting ambient light with iridescent sheen, obsidian dust swirling around him, photorealistic, tactile textures, grounded realism, ancient-tech fusion, cinematic lighting.",
+    "prompt_block": "Simo, a human participant in a high‑tech expedition, stands in a dimly lit subterranean cavern, his silhouette framed by the flickering glow of bioluminescent glyphs etched into a basalt cuirass fused with titanium alloy. The armor, a fusion of ancient Ethiopian and Egyptian motifs, features stylized lotus and Ge'ez script rendered in crystalline filaments that pulse in sync with his heartbeat. A translucent obsidian visor embedded with micro‑lithographic sensors projects holographic glyphs onto his vision, refracting light into a spectrum of colors. A compact quantum engine strapped to his belt hums softly, powering the visor and wrist‑mounted data pads. The ensemble is weathered by dust and faint scorch marks from previous trials, yet the bioluminescent glyphs remain vivid, casting a subtle blue‑green glow across his forearms and chest. The scene is photorealistic, tactile, with detailed textures of basalt, obsidian, titanium alloy, and copper rivets, capturing the ancient‑tech aesthetic in a grounded, cinematic style.",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Simo in ceremonial garb, integrated with ancient-tech, standing in a dimly lit subterranean chamber.",
+        "summary": "Simo in his advanced armor, ready to explore the cavern.",
         "prompt_keywords": [
           "ancient",
           "tech",
+          "mystic",
           "Ethiopian",
           "Egyptian",
-          "photorealistic",
-          "tactile",
-          "luminescent",
+          "bioluminescent",
           "crystalline",
           "basalt",
-          "runic"
+          "obsidian",
+          "titanium",
+          "photorealistic",
+          "tactile",
+          "dust",
+          "scorch",
+          "holographic",
+          "glyphs",
+          "quantum engine"
         ],
-        "prompt_block": "Simo, a 1.78m tall participant of the Obsidian Order, standing in a dimly lit subterranean chamber, his warm ochre skin textured with subtle ritual scars, wearing a flowing indigo-dyed basalt fiber robe embroidered with silver filigree circuitry, his left forearm replaced by a bio-luminescent alloy limb etched with glowing amber runic glyphs, a translucent crystalline data core pulsing blue at his chest projecting holographic glyphs into the air, augmented ocular lenses reflecting ambient light with iridescent sheen, obsidian dust swirling around him, photorealistic, tactile textures, grounded realism, ancient-tech fusion, cinematic lighting."
+        "prompt_block": "Simo, a human participant in a high‑tech expedition, stands in a dimly lit subterranean cavern, his silhouette framed by the flickering glow of bioluminescent glyphs etched into a basalt cuirass fused with titanium alloy. The armor, a fusion of ancient Ethiopian and Egyptian motifs, features stylized lotus and Ge'ez script rendered in crystalline filaments that pulse in sync with his heartbeat. A translucent obsidian visor embedded with micro‑lithographic sensors projects holographic glyphs onto his vision, refracting light into a spectrum of colors. A compact quantum engine strapped to his belt hums softly, powering the visor and wrist‑mounted data pads. The ensemble is weathered by dust and faint scorch marks from previous trials, yet the bioluminescent glyphs remain vivid, casting a subtle blue‑green glow across his forearms and chest. The scene is photorealistic, tactile, with detailed textures of basalt, obsidian, titanium alloy, and copper rivets, capturing the ancient‑tech aesthetic in a grounded, cinematic style."
       }
     ]
   },

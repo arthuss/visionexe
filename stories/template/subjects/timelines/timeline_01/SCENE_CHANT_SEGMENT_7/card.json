@@ -1,0 +1,87 @@
+{
+  "id": "SCENE_CHANT_SEGMENT_7",
+  "name": "Chant Segment 7",
+  "type": "scene",
+  "card": {
+    "description": "A towering stone monolith, its basalt surface etched with intricate Ethiopian hieroglyphs and ancient Egyptian motifs, rises from a dimly lit cavern floor. Embedded within its tiers are clusters of translucent crystalline resonators that pulse with a soft bioluminescent glow, emitting low-frequency harmonic vibrations that reverberate through the stone. The device is both a ritual altar and an advanced acoustic transducer, its surface weathered yet meticulously maintained, reflecting a fusion of ancient craftsmanship and incomprehensible technology.",
+    "tags": [
+      "ritual device",
+      "ancient-tech",
+      "Ethiopian",
+      "crystalline resonator",
+      "sound emitter",
+      "industrial mysticism"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Massive basalt monolith with tiered platforms, weathered stone texture, subtle moss growth, grounding realism.",
+      "**Face/Sensors:** Embedded crystalline resonator clusters with bioluminescent cores, etched glyphs act as acoustic lenses, faint pulsing light patterns.",
+      "**Clothing/Armor:** None, but surface adorned with ancient motifs and metallic inlays that catch light.",
+      "**Key Features:** Hieroglyphic engravings, crystalline resonators, low-frequency sound emitter, tactile stone texture, subtle glow."
+    ],
+    "evolution": [
+      "Phase 1 (Dormant): The monolith stands silent, the crystals dim, the glyphs etched but unlit.",
+      "Phase 2 (Activated): Crystals glow with a soft azure light, emitting harmonic vibrations that ripple across the stone, the glyphs pulse in sync with the sound."
+    ],
+    "props": [
+      "Item: Basalt monolith with weathered surface",
+      "Item: Translucent crystalline resonator clusters"
+    ],
+    "prompt_keywords": [
+      "stone monolith",
+      "crystalline resonator",
+      "Ethiopian hieroglyphs",
+      "ancient-tech",
+      "industrial mysticism",
+      "photorealistic",
+      "tactile"
+    ],
+    "prompt_block": "A massive stone monolith with tiered platforms, etched with ancient Ethiopian hieroglyphs and Egyptian motifs, embedded with glowing crystalline resonators that emit low-frequency harmonic vibrations, set in a dimly lit cavern, photorealistic, tactile, industrial mysticism, grounded realism",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The monolith in its activated state, glowing crystals and resonant hum visible",
+        "prompt_keywords": [
+          "stone monolith",
+          "crystalline resonator",
+          "Ethiopian hieroglyphs",
+          "ancient-tech",
+          "industrial mysticism"
+        ],
+        "prompt_block": "A massive stone monolith with tiered platforms, etched with ancient Ethiopian hieroglyphs and Egyptian motifs, embedded with glowing crystalline resonators that emit low-frequency harmonic vibrations, set in a dimly lit cavern, photorealistic, tactile, industrial mysticism, grounded realism"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_CHANT_SEGMENT_7",
+    "name": "Chant Segment 7",
+    "type": "scene",
+    "aliases": [
+      "Chant Segment 7"
+    ],
+    "roles": [
+      "unknown"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_147"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 18,
+        "chapter_end": 18,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

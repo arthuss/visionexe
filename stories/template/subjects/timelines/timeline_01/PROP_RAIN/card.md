@@ -1,0 +1,30 @@
+## [PROP] Rain (ID: PROP_RAIN)
+**Description:** Rain is rendered as a cascade of perfectly spherical glass marbles, each 3–5 cm in diameter, etched with ancient Ethiopian and Egyptian glyphs and faint gold filigree. The spheres are translucent, reflecting the surrounding jungle or black‑glass forest with photorealistic fidelity, while a subtle bioluminescent core glows from within, casting a soft halo. The rain appears weightless, suspended mid‑air, and when it contacts the ground it shatters into crystalline shards that scatter like stardust. The entire effect is grounded in industrial mysticism, blending ancient motifs with incomprehensible, high‑tech fabrication.
+**Tags:** #rain #prop #precipitation #ancient-tech #glassy #bioluminescent #glyphs #Ethiopian #Egyptian #industrial mysticism #photorealistic #cinematic
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** Spherical glass marbles, 3–5 cm diameter, perfectly round, smooth surface, slight iridescence.
+*   **Face/Sensors:** None; the surface displays etched glyphs and faint gold filigree that act as optical patterns.
+*   **Clothing/Armor:** Not applicable.
+*   **Key Features:** Translucent crystalline core, bioluminescent glow, reflective surface, etched ancient motifs, weightless suspension, shards upon impact.
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Pre‑fall): Spherical glass droplets suspended in mid‑air, reflecting environment, glowing softly.
+*   Phase 2 (Impact): Droplets shatter into crystalline shards that scatter and slowly dissolve into mist.
+
+### 3. PROPS & EQUIPMENT
+*   Item: Rain Spheres – the glass droplets themselves.
+*   Item: Rain Generator – unseen device that produces the spheres.
+
+### 4. AI PROMPT KEYWORDS
+`glassy spheres`, `ancient glyphs`, `bioluminescent core`, `reflective surface`, `Ethiopian motifs`, `Egyptian motifs`, `industrial mysticism`, `photorealistic`, `cinematic`, `high contrast`, `8k`
+
+### 5. PROMPT BLOCK (T2I)
+Vertical 9:16 macro shot of rain frozen in mid‑air in a dark jungle, each droplet a perfectly spherical glass marble 3–5 cm in diameter, etched with ancient Ethiopian and Egyptian glyphs and faint gold filigree, reflecting the surrounding foliage with photorealistic fidelity, a subtle bioluminescent core glowing softly, high depth of field, cinematic lighting, 8k resolution, industrial mysticism aesthetic, no cartoon or generic sci‑fi elements
+
+### 6. PHASE PROMPTS
+*   **Default:** Spherical glass rain droplets with ancient glyphs, reflecting environment, bioluminescent glow.
+    Prompt: Vertical 9:16 macro shot of rain frozen in mid‑air in a dark jungle, each droplet a perfectly spherical glass marble 3–5 cm in diameter, etched with ancient Ethiopian and Egyptian glyphs and faint gold filigree, reflecting the surrounding foliage with photorealistic fidelity, a subtle bioluminescent core glowing softly, high depth of field, cinematic lighting, 8k resolution, industrial mysticism aesthetic, no cartoon or generic sci‑fi elements
+    Keywords: glassy spheres, ancient glyphs, bioluminescent core, reflective surface, Ethiopian motifs, Egyptian motifs, industrial mysticism, photorealistic, cinematic, high contrast, 8k
+
+---

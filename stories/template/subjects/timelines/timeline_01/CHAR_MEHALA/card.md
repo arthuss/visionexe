@@ -1,29 +1,30 @@
 ## [CHARACTER] Mehala (ID: CHAR_MEHALA)
-**Description:** An enigmatic entity functioning as a silent observer within the celestial machinery. Mehala represents a fusion of ancient priestly aesthetics and high-fidelity industrial conduits. Her physical form appears sculpted from polished geological materials, serving as a grounded vessel for advanced, incomprehensible processing power.
-**Tags:** #entity #ancient-tech #observer #industrial-mysticism #biomechanical #priestess
+**Description:** Mehala is an ancient-tech entity that embodies the mystic fusion of Ethiopian and Egyptian heritage with incomprehensible, industrial-grade technology. Its form is a towering humanoid, standing 2.5 m tall, composed of basaltic plates interlaced with copper conduits and a central crystalline core that hums with bio‑luminescent energy. Glyphs etched in flowing, hieratic script glow faintly along its limbs, while its eyes are twin opalescent orbs that pulse with a soft, green light. The entity's presence feels both ancient and otherworldly, with tactile textures of weathered stone, polished metal, and translucent crystal that refract light in a way that suggests a hidden, advanced power source.
+**Tags:** #ancient-tech #industrial-mysticism #Ethiopian #Egyptian #photorealistic #bio-luminescence #crystalline-hardware #tactile #grounded-realism
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Tall, statuesque humanoid frame with a heavy, grounded presence. Skin texture resembles polished matte basalt or dark ceramic, possessing a stone-like coldness rather than biological warmth.
-*   **Face/Sensors:** The face is rigid and mask-like, devoid of human micro-expressions. The eyes are replaced by intricate, asymmetrical multi-lensed optical arrays that glow with a faint, warm amber light. The mouth area is a smooth, unbroken surface or a stylized grille.
-*   **Clothing/Armor:** Draped in heavy, coarse-weave linens stained with ritual oils and machine grease. The fabric is visibly interwoven with thick copper filaments and gold conductive threads, functioning as shielding or antennae. A heavy mantle of oxidized bronze rests on her shoulders.
-*   **Key Features:** Geometric glyphs are etched shallowly into her basalt skin, pulsing with a barely visible subsurface luminescence. Her hands are elegant but elongated, with fingertips ending in fine, metallic precision instruments.
+*   **Body/Form:** Towering humanoid frame, basaltic armor plates fused with copper plating, fractal patterns etched into the surface, a central crystalline core protruding from the chest that emits a faint green glow.
+*   **Face/Sensors:** Twin opalescent orbs with concentric rings of bio‑luminescent light, no traditional facial features; the surface around the eyes is etched with glowing glyphs that shift rhythmically.
+*   **Clothing/Armor:** Woven obsidian cloth draped over the shoulders, reinforced with copper filigree; armor plates are layered with translucent crystal shards that refract ambient light, giving a subtle iridescent sheen.
+*   **Key Features:** Bio‑luminescent glyphs that pulse in sync with the core, crystalline core that acts as both power source and data repository, copper conduits that channel energy, and a set of articulated joints that move with fluid, almost organic precision.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): The entity in her standard operating state, a static and imposing figure of observation.
+*   Phase 1 (Activation): Mehala emerges from a dormant basaltic core, glyphs begin to glow, and the crystalline core hums to life.
+*   Phase 2 (Full Manifestation): The crystalline core pulses brighter, armor plates expand to full height, and the entity's presence radiates a tangible, industrial mysticism.
 
 ### 3. PROPS & EQUIPMENT
-*   Flexible crystalline data-scroll
-*   Oxidized bronze staff
+*   Item: Obsidian Staff – a tall, black staff with a crystalline tip that channels Mehala's energy.
+*   Item: Data Crystal – a translucent, blue crystal that holds encoded knowledge, resting on Mehala's chest.
 
 ### 4. AI PROMPT KEYWORDS
-`basalt skin`, `amber optical sensors`, `copper weave robes`, `ancient industrial`, `oxidized bronze`, `cinematic lighting`, `photorealistic`
+`ancient Ethiopian`, `Egyptian`, `crystalline core`, `bio-luminescent glyphs`, `industrial mysticism`, `photorealistic`, `tactile textures`, `grounded realism`
 
 ### 5. PROMPT BLOCK (T2I)
-Cinematic medium shot of Mehala, an ancient biomechanical entity. She has skin resembling polished matte basalt and wears heavy, oil-stained linen robes explicitly woven with copper wires. Her eyes are complex, glowing amber multi-lens arrays. She stands in a dimly lit, ancient industrial temple environment. Photorealistic, 8k, tactile textures, volumetric lighting, atmospheric dust, sharp focus.
+A photorealistic depiction of Mehala, an ancient-tech entity inspired by Ethiopian and Egyptian aesthetics, featuring basaltic armor plates fused with copper conduits, a central crystalline core emitting a faint green glow, twin opalescent eyes with bio‑luminescent glyphs, obsidian cloth draped over the shoulders, and a translucent crystal staff, all rendered with tactile textures, grounded realism, and a subtle industrial mysticism that hints at incomprehensible technology.
 
 ### 6. PHASE PROMPTS
-*   **Default:** Mehala in her standard observational state.
-    Prompt: Full body shot of Mehala, a mysterious entity with polished black basalt skin. She is draped in heavy, textured robes embroidered with conductive copper thread and wears an oxidized bronze mantle. Her face features amber optical sensors instead of eyes. Background is a dark, brutalist stone corridor filled with ancient machinery. Cinematic lighting, photorealistic, sharp focus, 8k, tactile details.
-    Keywords: basalt skin, amber optical sensors, copper weave robes, ancient industrial
+*   **Default:** Mehala in its fully manifested, photorealistic form.
+    Prompt: A photorealistic rendering of Mehala, the ancient-tech entity, standing 2.5 m tall with basaltic armor, copper conduits, a glowing crystalline core, twin opalescent eyes, bio‑luminescent glyphs, obsidian cloth, and a crystalline staff, all depicted with tactile textures and grounded realism, evoking a sense of industrial mysticism.
+    Keywords: ancient Ethiopian, Egyptian, crystalline core, bio-luminescent glyphs, industrial mysticism, photorealistic, tactile textures, grounded realism
 
 ---

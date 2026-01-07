@@ -1,0 +1,31 @@
+## [SCENE] Beat 8 (ID: SCENE_BEAT_8)
+**Description:** Beat 8 unfolds within a subterranean chamber carved into obsidian stone, where towering basalt columns are etched with luminous glyphs that pulse in sync with a central crystalline engine. The air hums with low-frequency resonance, and a procession of robed figures in bronze‑stitched garments move in precise choreography around the engine, their faces illuminated by the soft glow of bio‑luminescent moss. The engine itself is a fusion of ancient stone and advanced circuitry, its surface covered in fractal patterns that seem to shift when observed from different angles. The scene is shot in high‑resolution, capturing the tactile textures of weathered stone, the slickness of metallic surfaces, and the subtle interplay of light and shadow.
+**Tags:** #ancient-tech #industrial-mysticism #photorealistic #Ethiopian-Egyptian #grounded-realism
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** Subterranean chamber with basalt columns, obsidian walls, and a central stone monolith.
+*   **Face/Sensors:** Central crystalline engine with fractal glyphs, bio‑luminescent moss, and low‑frequency resonators.
+*   **Clothing/Armor:** Bronze‑stitched robes with engraved motifs, leather sandals, and copper circlets.
+*   **Key Features:** Luminous glyphs pulsing, crystalline core, resonant hum, weathered stone textures, metallic circuitry.
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Initial Assembly): The chamber is empty except for scattered relics; robed figures gather, aligning the monolith.
+*   Phase 2 (Activation): The crystalline core activates, glyphs flare, and the chamber vibrates with energy.
+
+### 3. PROPS & EQUIPMENT
+*   Item: Ancient Altar of Obsidian
+*   Item: Runic Tablet of Binding
+*   Item: Crystalline Core Engine
+
+### 4. AI PROMPT KEYWORDS
+`obsidian`, `crystalline`, `glyphs`, `bio‑luminescent`, `bronze‑stitched`, `resonant‑hum`
+
+### 5. PROMPT BLOCK (T2I)
+A photorealistic cinematic shot of a subterranean chamber carved from obsidian stone, featuring towering basalt columns etched with luminous glyphs that pulse in sync with a central crystalline engine. The engine is a fusion of ancient stone and advanced circuitry, its surface covered in shifting fractal patterns. Around it, robed figures in bronze‑stitched garments move in precise choreography, their faces illuminated by soft bio‑luminescent moss. The air hums with low‑frequency resonance, and the scene captures the tactile textures of weathered stone, slick metallic surfaces, and subtle interplay of light and shadow.
+
+### 6. PHASE PROMPTS
+*   **Default:** Initial assembly of the chamber with robed figures aligning the monolith.
+    Prompt: A cinematic, photorealistic depiction of the subterranean chamber in its initial state, with robed figures gathering around the central monolith, aligning it against the obsidian walls. The scene emphasizes the ancient stone textures, the subtle glow of bio‑luminescent moss, and the low‑frequency hum of the unseen engine.
+    Keywords: obsidian, crystalline, glyphs, bio‑luminescent, bronze‑stitched, resonant‑hum
+
+---

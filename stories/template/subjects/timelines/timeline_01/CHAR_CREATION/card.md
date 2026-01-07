@@ -1,29 +1,30 @@
 ## [CHARACTER] Creation (ID: CHAR_CREATION)
-**Description:** A primal construct fusing ancient geomorphic materials with advanced industrial articulation. 'Creation' appears as a prototype of life, a heavy, imposing figure hewn from dark basalt and raw clay, animated by a humming internal reactor of incomprehensible design. It embodies the intersection of theology and machinery, a silent sentinel of the old world.
-**Tags:** #construct #golem #ancient-tech #industrial #basalt #mystic
+**Description:** Creation is a towering, 12‑meter humanoid entity that embodies the fusion of ancient Ethiopian and Egyptian aesthetics with incomprehensible, crystalline technology. Its bronze exoskeleton is weathered and etched with luminous glyphs that pulse in sync with a hidden bioluminescent core. The visage is a mask of obsidian and polished jade, with iridescent sensor arrays glowing amber. Creation wields a staff of obsidian and quartz, capped with a sun disk that refracts light into a spectrum of gold and amber, all rendered in photorealistic, tactile detail.
+**Tags:** #ancient-tech #industrial-mysticism #Ethiopian #Egyptian #photorealistic #tactile #bioluminescent #crystalline #glyphs
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Heavy industrial silhouette, composed of segmented dark basalt and weathered bronze plating. The surface texture is rough, like excavated stone, contrasting with precision-machined joints.
-*   **Face/Sensors:** A featureless, polished obsidian faceplate. Beneath the translucent surface, a constellation of amber optical sensors shifts and focuses like biological eyes.
-*   **Clothing/Armor:** No distinct clothing; the outer shell serves as armor. Integrated into the chest is a glowing core shielded by a bronze cage, pulsing with a rhythmic, low-frequency light.
-*   **Key Features:** Etched into the stone limbs are rows of faint, glowing Ge'ez script acting as circuitry. Cables resembling thick, braided copper wire run externally along the neck and spine.
+*   **Body/Form:** 12‑meter tall segmented bronze exoskeleton with layered plates, joints actuated by hidden hydraulic pistons; surface weathered with age, etched with glowing glyphs that pulse softly.
+*   **Face/Sensors:** Obsidian mask with jade inlays; sensor arrays embedded in the forehead glow amber; iridescent crystal lenses replace eyes, shifting color with ambient light.
+*   **Clothing/Armor:** Bronze cuirass with filigree and quartz plates; ceremonial robes woven from basalt fibers dyed deep indigo, draped over the lower torso.
+*   **Key Features:** Bioluminescent core in the chest pulsing blue; crystalline staff topped with a sun disk that refracts gold light; glyph‑etched plates emit a faint harmonic hum.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): The entity in its standard operating state, moving with heavy, deliberate mechanical grace. The stone segments grind audibly against the metal frame.
+*   Phase 1 (Default): Initial manifestation, fully assembled, active.
+*   Phase 2 (Deployment): Additional glyphs activated, ready for field operation.
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Heavy bronze staff used for stability and interfacing with terminals.
-*   Item: Data-slate shards embedded in the forearm.
+*   Item: Obsidian‑Quartz Staff
+*   Item: Sun Disk Scepter
 
 ### 4. AI PROMPT KEYWORDS
-`ancient golem`, `basalt robot`, `industrial mysticism`, `glowing glyphs`, `obsidian face`, `Ethiopian aesthetic`, `cinematic lighting`, `photorealistic`, `8k`
+`ancient`, `tech`, `mystic`, `Ethiopian`, `Egyptian`, `bioluminescent`, `crystalline`, `glyphs`, `photorealistic`
 
 ### 5. PROMPT BLOCK (T2I)
-full body shot of Creation, a massive ancient-tech construct made of dark basalt stone and oxidized bronze, standing in a dim industrial temple, featureless obsidian faceplate with internal amber sensor lights, body etched with glowing Ge'ez script, heavy hydraulic joints exposed, thick copper cabling, atmospheric smoke, volumetric lighting, cinematic composition, photorealistic, 8k, unreal engine 5 render, tactile texture, weathered stone.
+A colossal humanoid entity standing 12 meters tall, its bronze exoskeleton etched with luminous glyphs, obsidian mask with jade inlays, iridescent crystal lenses, bioluminescent core pulsing blue, crystalline staff topped with a sun disk refracting gold light, set against a stormy desert backdrop, photorealistic, tactile textures, ancient Ethiopian and Egyptian motifs fused with incomprehensible technology, cinematic lighting
 
 ### 6. PHASE PROMPTS
-*   **Default:** The construct in its standard operational mode, heavy and imposing.
-    Prompt: medium shot of Creation, a heavy ancient-tech robot made of rough basalt and bronze, obsidian visor face with amber internal lights, standing stoically, glowing Ge'ez etchings on stone armor, intricate mechanical joints, cinematic lighting, dust motes, hyperrealistic, tactile stone texture, dark industrial background.
-    Keywords: basalt construct, amber sensors, bronze frame, neutral stance
+*   **Default:** Initial manifestation of Creation
+    Prompt: A colossal humanoid entity standing 12 meters tall, its bronze exoskeleton etched with luminous glyphs, obsidian mask with jade inlays, iridescent crystal lenses, bioluminescent core pulsing blue, crystalline staff topped with a sun disk refracting gold light, set against a stormy desert backdrop, photorealistic, tactile textures, ancient Ethiopian and Egyptian motifs fused with incomprehensible technology, cinematic lighting
+    Keywords: ancient, tech, mystic, Ethiopian, Egyptian, bioluminescent, crystalline, glyphs, photorealistic
 
 ---

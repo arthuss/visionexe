@@ -1,29 +1,32 @@
 ## [CHARACTER] Heno (ID: CHAR_HENO)
-**Description:** An enigmatic figure embodying the fusion of archaic humanity and transcendent digital machinery. Heno (Henoch) appears as a pale, stoic vessel undergoing a violent metaphysical transformation. His visual signature combines the humble, tactile texture of weathered ancient linen with high-fidelity, incomprehensible ocular technology. He stands as a grounding element within abstract digital voids, his biological form seemingly rewriting itself with gold circuitry and light.
-**Tags:** #character #ancient-tech #pale-skin #mechanical-eyes #gold-veins #linen-robes #protagonist
+**Description:** Heno is a weathered, pale human male emerging from a dark void, his translucent skin revealing intricate subdermal circuitry and liquid gold veins that glow with an intense, liquid light. His eyes are a focal point: a complex glowing blue 3‑D wireframe sphere sits within the pupil, while the iris is composed of interlocking gold blades that resemble a camera aperture. Digital glyphs such as "CONNECTION_ESTABLISHED" reflect on the cornea. He wears heavy, coarse linen robes etched with ancient Ge'ez glyphs, dusted and heavy, contrasting with the sterile, black‑glass floor of the temple. The scene is high‑contrast, rim‑lit, photorealistic, 8k, 9:16 aspect ratio, embodying ancient‑tech, industrial mysticism and grounded realism.
+**Tags:** #ancient-tech #Ethiopian #Egyptian #biological circuitry #gold veins #glowing eye #photorealistic #translucent skin #geez glyphs #industrial mysticism
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Pale, alabaster skin with hyper-realistic texture (pores, evaporating sweat). Sub-dermal vascularity pulses with liquid gold rather than blood.
-*   **Face/Sensors:** Stoic, statuesque features. The defining trait is the eyes: irises replaced by intricate, interlocking gold mechanical aperture rings. Pupils emit intense amber laser light.
-*   **Clothing/Armor:** Simple, heavy-weave weathered linen robes in neutral earth tones (beige, sand), providing high textural contrast to the sleek digital environments and internal bio-tech glow.
-*   **Key Features:** Veins turning to gold visible through translucent skin; a violent, restrained energy radiating from his core.
+*   **Body/Form:** Weathered human male, pale, translucent skin, subdermal circuitry visible, liquid gold veins pulsing, slight muscular definition beneath, standing in a void‑like environment.
+*   **Face/Sensors:** Eye with a glowing blue 3‑D wireframe sphere in the pupil, iris composed of interlocking gold blades, digital text "CONNECTION_ESTABLISHED" reflecting on cornea, subtle bioluminescent glow around eyelids.
+*   **Clothing/Armor:** Heavy, coarse linen robes, dust‑laden, etched with ancient Ge'ez glyphs, draped over shoulders, sleeves frayed, contrasting with the sterile black‑glass floor.
+*   **Key Features:** Translucent skin revealing circuitry, liquid gold veins, glowing 3‑D eye sphere, mechanical gold iris blades, digital glyphs on cornea, rim lighting accentuating dust particles.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): The Awakened Vessel. Characterized by sudden activation—eyes snapping open with mechanical precision, skin reacting to internal power surges, and an aura of immediate, stoic command amidst chaos.
+*   Phase 1 (Emergence): Heno appears from a dark void, skin translucent, subdermal gold veins glowing, no iris modifications yet.
+*   Phase 2 (Connection Established): Eye transforms to include a glowing blue 3‑D wireframe sphere, iris becomes mechanical gold blades, digital glyphs appear on cornea, environment shifts to a sterile black‑glass floor.
 
 ### 3. PROPS & EQUIPMENT
-*   Weathered Linen Robes
-*   Mechanical Gold Iris Implant
+*   Item: Translucent skin revealing subdermal circuitry
+*   Item: Liquid gold vein network
+*   Item: Eye with glowing blue 3‑D wireframe sphere
+*   Item: Linen robes etched with Ge'ez glyphs
 
 ### 4. AI PROMPT KEYWORDS
-`Henoch`, `pale skin`, `gold mechanical iris`, `amber glowing eyes`, `weathered linen robes`, `gold veins`, `translucent skin`, `cinematic lighting`, `8k`, `photorealistic`
+`pale`, `gold veins`, `translucent skin`, `ancient`, `Ethiopian`, `Egyptian`, `biological circuitry`, `glowing eye`, `photorealistic`
 
 ### 5. PROMPT BLOCK (T2I)
-Medium shot of Heno, a pale man with translucent skin revealing veins pulsing with liquid gold. He wears heavy, weathered linen robes. His eyes are wide open, revealing irises made of interlocking gold mechanical aperture rings, glowing with intense amber light. Sweat evaporates off his brow. The lighting is dramatic and high-contrast, emphasizing the texture of the linen and the metallic sheen of the eyes. Cinematic, photorealistic, ancient-tech aesthetic, 8k resolution.
+A cinematic, photorealistic 8k portrait of Heno, a weathered pale man emerging from a dark void, his translucent skin revealing intricate subdermal circuitry and liquid gold veins glowing intensely, his eyes a focal point with a complex glowing blue 3D wireframe sphere in the pupil, iris composed of interlocking gold blades, digital text 'CONNECTION_ESTABLISHED' reflecting on the cornea, he wears heavy coarse linen robes etched with ancient Ge'ez glyphs, dusted, rim-lit, high contrast, 8k, 9:16 aspect ratio, grounded realism, ancient-tech aesthetic, industrial mysticism.
 
 ### 6. PHASE PROMPTS
-*   **Default:** Awakened state with mechanical eyes active and gold veins pulsing.
-    Prompt: Close-up portrait of Heno, pale skin texture detailed with pores and beads of sweat. The eyes are the focal point: mechanical gold aperture rings for irises, emitting a sharp amber beam. Faint gold tracery is visible under the skin of his neck and temples. He is draped in rough, ancient linen fabric. Lighting is stark and cold, highlighting the juxtaposition of organic sweat and synthetic gold optics. 8k, hyper-realistic, cinematic masterpiece.
-    Keywords: Henoch, mechanical aperture eyes, gold veins, sweat, linen robes
+*   **Default:** Initial emergence with glowing veins and translucent skin.
+    Prompt: Extreme macro cinematic shot of Heno emerging from a dark void, pale skin translucent revealing subdermal circuitry, liquid gold veins glowing, high contrast rim lighting, 8k, 9:16 aspect ratio, photorealistic, ancient-tech aesthetic.
+    Keywords: pale, gold veins, translucent skin, ancient, Ethiopian, Egyptian, biological circuitry, glowing eye, photorealistic
 
 ---

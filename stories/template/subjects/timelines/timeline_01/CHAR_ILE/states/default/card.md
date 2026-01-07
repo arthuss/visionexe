@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 9 - 99
 
-**Phase Summary:** The standard travel-worn observer state.
-**Phase Keywords:** travel-worn, observer, dusty linens, bronze collar
+**Phase Summary:** Ile in full sentinel form, wearing ancient linen robes with copper filigree, bioluminescent glyphs, holographic eye spheres, crystalline core, and hovering energy orb.
+**Phase Keywords:** ancient, tech, mystic, photorealistic, bioluminescent, crystalline
 **Phase Prompt:**
-Medium shot of Ile, a young tech-nomad character with deep obsidian skin and matte texture. They have faint gold circuitry scarification on their temples. Wearing dust-colored layered linens made of ballistic mesh and a rigid oxidized bronze collar. Short braided hair interwoven with copper wire. They are holding a bone-like stylus. Background is a blur of ancient stone and industrial machinery. Cinematic lighting, photorealistic, 8k resolution, highly detailed texture, atmospheric depth.
+Tall, slender humanoid in a black glass grid forest, wearing coarse linen robes with copper filigree, bioluminescent glyphs pulsing along the skin, eyes with holographic blue spheres projecting data streams, a crystalline core beneath the sternum, surrounded by a hovering energy orb, photorealistic, dramatic rim lighting, 8k, 9:16 aspect ratio, cinematic
 
 ---

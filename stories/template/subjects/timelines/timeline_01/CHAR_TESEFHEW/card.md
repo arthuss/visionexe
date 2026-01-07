@@ -1,29 +1,29 @@
 ## [CHARACTER] Tesefhew (ID: CHAR_TESEFHEW)
-**Description:** A venerated archivist of the middle-period, bridging the gap between neolithic tradition and the sudden influx of Watcher technology. Tesefhew serves as a custodian of the 'Living Records,' wearing garments that function as data-storage substrates. His aesthetic characterizes the uneasy integration of divine machinery into human society—functional, ritualistic, and heavy with purpose. He carries the weight of history literally on his shoulders.
-**Tags:** #character #archivist #ancient-tech #ethiopian #elder #scribe
+**Description:** Tesefhew is a towering 2.1‑meter guardian forged from obsidian alloy, its surface etched with basaltic veins that pulse with bioluminescent glyphs. His torso is encased in a bronze cuirass inlaid with lapis lazuli, while a silk hood dyed indigo drapes his shoulders. The half‑face is replaced by a single iridescent ocular sensor that projects hieroglyphic runes, and he wields a basalt staff crowned with a crystalline core that emits a steady, pulsing light. Set within a dimly lit underground sanctum, Tesefhew embodies ancient Ethiopian and Egyptian aesthetics fused with incomprehensible, industrial‑mystic technology.
+**Tags:** #ancient-tech #industrial mysticism #grounded realism #Ethiopian #Egyptian #obsidian alloy #bioluminescent glyphs #crystalline core #mystic guardian #photorealistic
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Elderly male, gaunt frame, dark umber skin with deep topographic wrinkles, white beard braided with copper filaments.
-*   **Face/Sensors:** Eyes show signs of extensive exposure to high-energy readouts; wearing a 'Sight-Stone' (a crude, monocle-like distinct augmented reality lens held in a bronze wire frame) over the left eye.
-*   **Clothing/Armor:** Heavy woven linen robes in ochre and indigo. The fabric is interthreaded with dull gold circuitry traces. A heavy mantle (yolk) made of basalt and gold sits on his shoulders, serving as a portable power source and data bank.
-*   **Key Features:** Fingers are stained with ink and dielectric grease. He moves with the slow, deliberate pace of someone carrying fragile, dangerous knowledge.
+*   **Body/Form:** 2.1 m tall, muscular frame clad in obsidian alloy plating with basaltic veins radiating from the spine and limbs, each joint reinforced with tempered steel ribs.
+*   **Face/Sensors:** Half‑face replaced by a single iridescent ocular sensor; the sensor emits a soft blue glow and projects hieroglyphic runes that shift with data streams.
+*   **Clothing/Armor:** Bronze cuirass inlaid with lapis lazuli filigree, a silk hood dyed indigo, and leather straps that secure a basalt staff. The cuirass is etched with bioluminescent glyphs that pulse in sync with the staff’s crystal core.
+*   **Key Features:** Bioluminescent glyphs etched across armor, crystalline core staff emitting a steady pulse, ocular sensor projecting runic data, basaltic veins that glow under low light.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): The Archivist at work. Fully adorned in ceremonial yet functional data-keeping attire. The 'Sight-Stone' is active, glowing faintly.
+*   Phase 1 (Default): Tesefhew stands in his guardian stance, ocular sensor active, staff glowing, glyphs illuminated.
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Stylus-Wand (Obsidian shaft with a glowing diamond tip for etching light into stone)
-*   Item: Memory-Slate (A slab of dark slate that displays shifting holographic glyphs on its surface)
+*   Item: Staff of the Obsidian Sun – basalt shaft with a crystal core that pulses with light.
+*   Item: Cuirass of Lapis and Bronze – bronze cuirass inlaid with lapis lazuli filigree.
 
 ### 4. AI PROMPT KEYWORDS
-`Tesefhew`, `ancient archivist`, `Ethiopian elder`, `cybernetic robes`, `bronze punk`, `basalt tech`, `cinematic lighting`, `hyperrealistic`, `8k`, `Arri Alexa`
+`obsidian alloy`, `bioluminescent glyphs`, `crystalline core`, `ancient Ethiopian`, `Egyptian motifs`, `industrial mysticism`, `photorealistic`, `tactile`, `cinematic lighting`
 
 ### 5. PROMPT BLOCK (T2I)
-Cinematic medium shot of Tesefhew, an elderly Ethiopian archivist from an ancient high-tech civilization. He has dark, weathered skin and a white beard braided with copper wires. He wears heavy ochre linen robes interwoven with dull gold circuitry patterns. Over his left eye is a primitive bronze-rimmed augmented reality lens. He wears a heavy basalt and gold mantle on his shoulders. He holds a dark slate tablet emitting faint holographic glyphs. The lighting is moody, chiaroscuro, illuminating the texture of the fabric and the weathered skin. Background is a dimly lit stone temple archive with floating dust motes. Photorealistic, 8k, unreal engine 5 render style, tactile texture.
+A towering 2.1‑meter guardian named Tesefhew, forged from obsidian alloy with basaltic veins that pulse with bioluminescent glyphs, wearing a bronze cuirass inlaid with lapis lazuli, a silk hood dyed indigo, and a basalt staff crowned with a pulsing crystal core; his half‑face replaced by a single iridescent ocular sensor projecting hieroglyphic runes, set in a dimly lit underground sanctum, photorealistic, tactile, cinematic lighting, ancient Ethiopian and Egyptian motifs, industrial mysticism, grounded realism
 
 ### 6. PHASE PROMPTS
-*   **Default:** Tesefhew in his standard archivist attire with active tech-integration.
-    Prompt: Cinematic medium shot of Tesefhew, an elderly Ethiopian archivist from an ancient high-tech civilization. He has dark, weathered skin and a white beard braided with copper wires. He wears heavy ochre linen robes interwoven with dull gold circuitry patterns. Over his left eye is a primitive bronze-rimmed augmented reality lens. He wears a heavy basalt and gold mantle on his shoulders. He holds a dark slate tablet emitting faint holographic glyphs. The lighting is moody, chiaroscuro, illuminating the texture of the fabric and the weathered skin. Background is a dimly lit stone temple archive with floating dust motes. Photorealistic, 8k, unreal engine 5 render style, tactile texture.
-    Keywords: archivist, working, tablet, lens
+*   **Default:** Tesefhew in his guardian stance, ocular sensor active, staff glowing, glyphs illuminated.
+    Prompt: Tesefhew, a 2.1‑meter guardian forged from obsidian alloy with basaltic veins, wearing a bronze cuirass inlaid with lapis lazuli, a silk hood dyed indigo, and a basalt staff with a pulsing crystal core; his half‑face replaced by a single iridescent ocular sensor projecting hieroglyphic runes, glyphs across his armor glowing in the dim underground sanctum, photorealistic, tactile, cinematic lighting, ancient Ethiopian and Egyptian motifs, industrial mysticism, grounded realism
+    Keywords: obsidian alloy, bioluminescent glyphs, crystalline core, ancient Ethiopian, Egyptian motifs, industrial mysticism, photorealistic
 
 ---

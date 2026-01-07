@@ -1,29 +1,30 @@
 ## [CHARACTER] Speaker (ID: CHAR_SPEAKER)
-**Description:** A towering 2.5-meter entity of pure, polished chrome, functioning as a herald of the divine architecture. Faceless and impassive, its surface acts as a perfect mirror, reflecting not just the environment but the chaotic spiritual state of observers. It blends the stiff, imposing silhouette of an ancient hierophant with advanced, seamless liquid-metal technology.
-**Tags:** #character #chrome #faceless #giant #industrial_mysticism #reflective #monolith
+**Description:** The Speaker is a towering, 2.5‑meter figure of polished chrome, its smooth reflective surface devoid of a face and etched with ancient Ethiopian‑Egyptian hieroglyphic motifs. Embedded within its throat is a metallic mesh speaker that vibrates subtly, pulsing with blue bio‑luminescent light. The figure stands on a raised dais, pointing a finger forward, its surface mirroring the chaotic Sinners and the holy light, embodying a fusion of industrial mysticism and grounded realism.
+**Tags:** #ancient-tech #industrial mysticism #photorealistic #speaker #throat speaker #reflective chrome #blue bio‑luminescence #Ethiopian‑Egyptian #hieroglyphic motifs
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** 2.5 meters tall, elongated humanoid structure composed of seamless, high-gloss chrome. The silhouette mimics the static grandeur of an ancient Egyptian statue but with hidden, fluid articulation.
-*   **Face/Sensors:** A completely featureless, convex mirror faceplate. No eyes, mouth, or sensory clusters; the surface reflects the viewer with disturbing clarity.
-*   **Clothing/Armor:** The chassis is sculpted to suggest heavy ceremonial robes or tectonic plating fused directly into the form. Faint, laser-etched Ge'ez-inspired circuit glyphs run along the 'lapels' and shoulders, visible only in glancing light.
-*   **Key Features:** The hyper-reflective surface seems to manipulate light, creating impossible reflections that emphasize the contrast between shadow and holy light.
+*   **Body/Form:** 2.5 m tall chrome construct, seamless polished plating, no facial features, smooth reflective surface, finger extended forward.
+*   **Face/Sensors:** No face; sensor arrays integrated into the throat region, emitting pulsing blue bio‑luminescent light.
+*   **Clothing/Armor:** None; the body itself is a single sheet of high‑grade chrome with embedded metallic mesh speaker.
+*   **Key Features:** Embedded metallic mesh throat speaker, blue bio‑luminescent pulses, reflective surface that mirrors chaotic scenes, finger pointing gesture, hieroglyphic motifs etched into chrome.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): The eternal, unchanging chrome sentinel observed in the Buffer Zone and beyond.
+*   Phase 1 (Initial Integration): The Speaker begins as a humanoid form with a metallic mesh throat speaker, blue bio‑luminescent pulses, and a modest chrome plating.
+*   Phase 2 (Dominant Presence): The figure expands to a towering 2.5 m chrome construct, loses facial features, and adopts a reflective surface that displays chaotic reflections.
 
 ### 3. PROPS & EQUIPMENT
-*   Dais: A raised geometric platform, industrial stone with metallic inlay.
-*   Staff (Optional): Sometimes depicted with a long, thin rod of matte black metal.
+*   Item: Throat Speaker
+*   Item: Dais
 
 ### 4. AI PROMPT KEYWORDS
-`The Speaker`, `chrome humanoid`, `faceless`, `2.5m tall`, `reflective surface`, `ancient tech`, `industrial mysticism`, `Ge'ez glyphs`, `imposing`
+`throat speaker`, `polished chrome`, `blue bio‑luminescence`, `reflective surface`, `hieroglyphic motifs`, `ancient Ethiopian‑Egyptian`, `industrial mysticism`
 
 ### 5. PROMPT BLOCK (T2I)
-cinematic shot of The Speaker, a towering 2.5m humanoid figure made of polished seamless chrome, featureless mirror face, standing on a raised industrial dais, silhouette resembling an ancient hierophant, etched circuitry glyphs on metal skin, hyper-realistic reflections showing a chaotic environment, dramatic low angle, ray-tracing, ancient ethiopian aesthetic fused with sci-fi, 8k, unreal engine 5 render style
+A towering 2.5m figure made of polished chrome, no face, only a smooth reflective surface, embedded with a metallic mesh throat speaker that vibrates slightly, blue bio‑luminescent light pulses from the neck area, finger pointing forward, reflection shows chaotic Sinners and holy light, standing on a raised dais, ancient Ethiopian‑Egyptian hieroglyphic motifs etched into the chrome, photorealistic, cinematic, tactile, 9:16 vertical, ray‑tracing reflections, grounded realism, industrial mysticism
 
 ### 6. PHASE PROMPTS
-*   **Default:** The standard polished chrome appearance of The Speaker.
-    Prompt: full body shot of The Speaker, a giant 2.5m chrome android with a smooth faceless head, polished mirror finish reflecting the surroundings, standing stoically, ancient egyptian robotic design, industrial lighting, sharp focus, metallic texture, photorealistic, cinematic composition
-    Keywords: polished chrome, mirror face, pristine
+*   **Default:** Default speaker with integrated throat speaker and polished chrome body.
+    Prompt: A towering 2.5m figure made of polished chrome, no face, only a smooth reflective surface, embedded with a metallic mesh throat speaker that vibrates slightly, blue bio‑luminescent light pulses from the neck area, finger pointing forward, reflection shows chaotic Sinners and holy light, standing on a raised dais, ancient Ethiopian‑Egyptian hieroglyphic motifs etched into the chrome, photorealistic, cinematic, tactile, 9:16 vertical, ray‑tracing reflections, grounded realism, industrial mysticism
+    Keywords: throat speaker, polished chrome, blue bio‑luminescence, reflective surface, hieroglyphic motifs, ancient Ethiopian‑Egyptian, industrial mysticism
 
 ---

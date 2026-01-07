@@ -1,0 +1,10 @@
+## [STATE] Wamel'letihu :: Default
+**State ID:** default
+**Chapters:** 14 - 14
+
+**Phase Summary:** Wamel'letihu in his default guardian stance, staff raised, glyphs glowing.
+**Phase Keywords:** ancient-tech, mysticism, crystalline, glyphs, photorealistic, tactile, Ethiopian, Egyptian
+**Phase Prompt:**
+A towering, photorealistic figure of 6'5'' named Wamel'letihu, a mystic engineer from an ancient Ethiopian-Egyptian civilization, wearing layered obsidian silk robes with gold filigree and basalt armor plates, his skin etched with luminous blue glyphs that pulse in sync with bioluminescent circuitry beneath his ribs, holding a basalt staff topped with a clear quartz crystal, his ocular implants shifting colors, projecting holographic runes, set against a dimly lit, industrial citadel backdrop with cracked stone and flickering torches, emphasizing tactile textures and grounded realism.
+
+---

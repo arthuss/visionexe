@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 103 - 103
 
-**Phase Summary:** The King suspended in his immersion tank, physically helpless but connected.
-**Phase Keywords:** immersion tank, obese pale man, neural wires, gold flakes, server room
+**Phase Summary:** The King as a regal avatar wrapped in black glowing chains, dissolving into binary dust.
+**Phase Keywords:** black glowing chains, glyphic circuitry, binary dust, stark white void, photorealistic, high contrast, cinematic
 **Phase Prompt:**
-Cinematic medium shot of a morbidly obese, pale human figure suspended in a vertical glass immersion tank. The water is warm and clear, filled with glittering gold flakes. Black data wires snake from the tank walls, piercing his bloated, hairless skin. He floats peacefully, eyes closed, surrounded by the soft hum of a luxury server room penthouse. The lighting is golden and expensive, highlighting the texture of wet skin and glass reflections. Photorealistic, 8k, ar 9:16.
+A towering humanoid avatar of The King, wrapped in black glowing chains pulsing with glyphic circuitry, dissolving into white binary dust against a stark white void, photorealistic, high‑contrast, cinematic composition, 9:16 aspect ratio.
 
 ---

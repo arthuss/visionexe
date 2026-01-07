@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 22 - 108
 
-**Phase Summary:** The standard manifestation as a blinding silhouette of light on the crystal throne.
-**Phase Keywords:** blinding_silhouette, white_light_entity, crystal_throne, static_radiance
+**Phase Summary:** The deity in its fully ascended, crystalline form.
+**Phase Keywords:** obsidian, crystalline, glyphic, magma core, holographic, ancient Ethiopian, Egyptian, photorealistic, industrial, bioluminescent
 **Phase Prompt:**
-Full shot of the Entity, a silhouette of pure blinding white light, seated upon a geometric throne of ice and circuitry. The figure is featureless, a void of intense brightness. Surrounding the entity are floating dust motes and glitching data particles. The environment is dark, emphasizing the sheer power of the central light source. Photorealistic, 8k, cinematic composition, sharp focus on the throne texture, blown-out highlights on the entity.
+A towering, photorealistic deity of obsidian and crystalline glass, 12 meters tall, with basaltic veins and copper filaments etched in ancient Ethiopian and Egyptian glyphs; a central magma core glows orange‑red, powering a lattice of bioluminescent glyphs that pulse with holographic data streams, rendered in a cold, desaturated palette with high contrast, realistic textures, 9:16 vertical composition.
 
 ---

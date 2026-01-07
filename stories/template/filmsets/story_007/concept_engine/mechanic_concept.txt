@@ -1,87 +1,138 @@
-CONCEPT_NAME: KERNEL_PANIC_GENESIS_007
-VISUAL_STYLE: BIOMECHANICAL_HORROR_GLITCH // DATAMOSH_DECAY
-AUDIO_PROFILE: SERVER_FARM_OVERLOAD // CORRUPTED_WAVETABLE
+CONCEPT_NAME: KERNEL_PANIC_GENESIS_007_V3_MECHANISM
+VISUAL_STYLE: HARD_SURFACE_GLITCH // POLYGONAL_DECAY // DEBUG_VIEW_LAYER
+AUDIO_PROFILE: HDD_CLICK_OF_DEATH // COIL_WHINE_SCREAM // THERMAL_THROTTLING
 
-1. BIO-INJECTION
-Die Technologie manifestiert sich als viraler Code-Upload via haptischem Interface. Wenn ein Wächter (Admin-Entity) eine menschliche Frau (Host-Node) berührt, breiten sich leuchtende, goldene Leiterbahnen (Circuitry-Tattoos) von der Kontaktstelle über ihre Haut aus. Die Augen der Frauen werden vollständig schwarz (OLED-Display off) und zeigen dann rapid scrollenden weißen Maschinencode. Es ist keine biologische Befruchtung, sondern eine Firmware-Überschreibung. Der "Unterricht" (Wurzeln schneiden, Zauber) ist ein direkter File-Transfer von verbotenen Root-Rechten in das menschliche Bewusstsein, visualisiert als holografische AR-Overlays, die gewaltsam vor ihren Augen aufpoppen.
+1. BIO-INJECTION (FIRMWARE OVERWRITE)
+Das Konzept der "Lehre" ist kein biologischer Transfer, sondern ein brutaler Sideload von unsignierten Treibern.
+Manifestation: Die Haut der Frauen (Hosts) reißt nicht auf, sie wird an den Kontaktstellen (Handgelenk/Nacken) "unmapped". Die Textur verschwindet und legt das darunterliegende Wireframe-Gitter frei.
+Injection: Wächter injizieren keine Flüssigkeit, sondern "Executable Code". Sichtbar als schwarze Pixel-Wolken, die durch die Adern gepumpt werden und die natürliche Subsurface-Scattering-Berechnung der Haut deaktivieren. Die Augen der Frauen werden nicht schwarz, sondern zeigen den "No Signal" TV-Rausch (Static Snow), da der visuelle Input-Buffer überschrieben wird.
+Root-Access: Das "Schneiden von Wurzeln" ist visuell das physische Herausreißen von Kabelsträngen aus dem Boden, die als Root-Verzeichnisse gelabelt sind (Holographic Tags: `/sys/root`).
 
-2. MESH-BREAK
-Die Geburt der Nephilim (Riesen) ist ein Rendering-Fehler der Realität. Die Geometrie bricht durch "Vertex Explosion". Die Riesen bestehen anfangs aus instabilen Polygonen, die flackern und sich verzerren (Z-Fighting). Ihre Haut texturiert nicht korrekt; man sieht Wireframes und "Missing Texture" (Magenta/Schwarz-Schachbrett) an ihren Gelenken. Wenn sie wachsen, ziehen sie die Polygone der Umgebung in sich hinein, als ob sie Materie rendern müssten, für die kein Speicherplatz reserviert wurde. Die Welt um sie herum wird "Low Poly", weil die Riesen alle Ressourcen fressen.
+2. MESH-BREAK (COORDINATE SYSTEM FAILURE)
+Die Nephilim sind das Resultat eines `Scale = 3000.0` Befehls auf einem Mesh, das für `Scale = 1.0` optimiert wurde.
+Geometrie: Vertex-Explosionen. Wenn sich ein Riese bewegt, bleiben einzelne Vertices (Eckpunkte) an ihrer ursprünglichen Position im Raum "hängen", während das Mesh weiterzieht. Das Resultat sind extrem langgezogene, scharfe Polygone, die quer durch die Landschaft schneiden.
+Textur: Da keine Texturauflösung für diese Größe existiert, sind die Riesen extrem pixelig (Texel Density Mismatch). Man sieht riesige quadratische Pixel auf ihrer Haut.
+Physik: Sie haben keine Kollisionsabfrage für kleine Objekte. Sie laufen durch Häuser hindurch, aber die Häuser zerplatzen nicht, sondern werden in die Geometrie des Riesen "gemerged" (Boolean Union Error).
 
-3. PACING-STRATEGIE
-Phase 1 (Infection): Klinisch, präzise, rhythmisch. Schnitte im Takt eines Herzschlags (60 BPM).
-Phase 2 (Expansion): Zeitraffer-Elemente. Das Wachstum der Riesen geschieht in ruckartigen Sprüngen (Lag-Spikes).
-Phase 3 (Collapse): Hektische, desorientierende "Glitch-Cuts". Frames fehlen. Die Kameraführung verliert das Tracking. Shutter-Speed extrem hoch (Staccato-Bewegung).
+3. PACING-STRATEGIE (FRAME DROP)
+Phase 1 (Injection): Stabil, 24fps. Klinische Beobachtung.
+Phase 2 (Growth): Frame-Skipping. Bewegungen wirken abgehackt, als ob die GPU die Last nicht tragen kann.
+Phase 3 (Crash): Variable Bitrate Artifacts. Das Bild "schmiert" (Macroblocking), Farben invertieren kurzzeitig, Frames frieren ein (Hang) und springen dann 2 Sekunden vorwärts.
 
-4. AUDIO-DESIGN
-Keine Chöre. Stattdessen:
-Das "Lehren": Das Geräusch von 56k-Modem-Handshakes, aber extrem hochgepitcht und gelayert.
-Die Riesen: Ein tiefes, vibrierendes Brummen (60Hz Hum), das lauter wird, je größer sie werden, gemischt mit dem Knacken von brechendem Gestein (Audio-Clipping).
-Das Fressen: "Bitcrushing"-Effekte. Schreie werden digital verzerrt und brechen in weißes Rauschen ab.
+4. AUDIO-DESIGN (HARDWARE FAILURE)
+Kein organischer Sound.
+Atmosphäre: Ein konstantes, hohes Fiepen (Spulenfiepen), das lauter wird, je mehr Riesen im Bild sind.
+Bewegung: Das Geräusch von reibendem Metall und überlasteten Lüftern (Jet Engine spin-up).
+Stimmen: Daten-Bursts (Modem-Screeching) und Festplatten-Lesekopf-Klackern bei jeder Interaktion.
+Natur: Vögel zwitschern nicht, sie loopen ein 0.5s Sample ("Glitch-Stutter").
 
-5. ÜBERGÄNGE
-Keine weichen Blenden. Harte "Hard Cuts" oder "Datamosh"-Übergänge, bei denen die Pixel des vorherigen Bildes in die Bewegung des neuen Bildes hineinschmieren. Wenn die Perspektive von Mensch zu Riese wechselt, gibt es einen kurzen "Buffering"-Effekt (Ladekreis), der suggeriert, dass das System die neue Render-Last nicht bewältigen kann.
+5. ÜBERGÄNGE (RENDER PASSES)
+Keine klassischen Schnitte.
+Transition A: "Wireframe Fade". Das Bild verliert Textur, zeigt nur noch Gitterlinien, Schnitt zum nächsten Bild, Textur lädt nach.
+Transition B: "Buffer Underrun". Das Bild friert ein, verpixelt zu groben Blöcken, wird schwarz, neues Bild baut sich Zeile für Zeile auf.
 
 6. FRAMEWORK & TIMING
-Gesamtlänge: 60-70 Sekunden.
-Clip-Anzahl: 16 Clips.
-Struktur:
-Clips 1-4: Die Ankunft und Infektion (Segment 1).
-Clips 5-8: Das Wachstum der Anomalien (Segment 2).
-Clips 9-12: Der Ressourcen-Kollaps und Kannibalismus (Segment 3 & 4).
-Clips 13-15: Die Ausbreitung auf die Fauna (Segment 5).
-Clip 16: Der System-Alarm (Segment 6).
+Total: 70 Sekunden.
+Clips: 16 Clips (High Density).
+Fokus auf Detail-Shots, da Weitwinkel-Aufnahmen der Riesen Render-Artefakte benötigen, die im Prompt schwer zu kontrollieren sind (Multi-Prompting für Scale).
 
-7. DIALOG-CHECK
-Kein verbaler Dialog. Die Kommunikation erfolgt über "Direct Neural Link". Wir sehen Untertitel im HUD-Stil (Terminal Font), die Systemwarnungen oder Befehlscodes anzeigen, aber die Lippen bewegen sich nicht asynchron.
-Shot-Reverse-Shot ist notwendig bei der Interaktion Wächter/Mensch, um den Größenunterschied und die Machtasymmetrie zu zeigen.
+7. DIALOG-CHECK (SYSTEM LOGS)
+Kein verbaler Austausch.
+Overlay: HUD-Elemente zeigen Systemstatus.
+Watcher an Host: "PERMISSIONS UPDATED: ROOT".
+Giant an Human: "ERROR: INSUFFICIENT MEMORY. TERMINATING PROCESS."
 
-8. SPATIAL CONTEXT (ARRIVAL)
-Die Wächter kommen nicht zu Fuß. Sie materialisieren sich auf dem Gipfel des Hermon durch "Voxel-Assemblierung". Sie setzen sich aus Lichtpartikeln zusammen.
-Establishing Shot: Extreme Long Shot (ELS) vom Hermon, Nacht. 200 Lichtpunkte (die Wächter) pulsieren synchron und fließen wie flüssiges Quecksilber den Berg hinab in die Täler.
+8. SPATIAL CONTEXT (THE COMPILER)
+Establishing Shot: Der Hermon ist kein Berg, sondern ein riesiger Kühlkörper (Heatsink) für die Server-Farm Erde. Die Wächter sind Lichtimpulse, die durch die Kühlrippen nach unten wandern.
 
 SCENE_BREAKDOWN_&_PROMPTS
 
-[SCENE 001: THE_UNAUTHORIZED_ACCESS]
-Action: Watchers enter the settlements. Interface with human females.
-Clip 1 (Wide): Night. The village is silent. 200 glowing silhouettes stand at the perimeter.
-Clip 2 (Close): A Watcher's hand (translucent marble, glowing circuitry) grasps a human wrist.
-Clip 3 (Macro): The infection spreads. Gold circuit lines trace up the human arm. The woman's eyes roll back, displaying scrolling hex code.
+[SCENE 001: THE_SIDELOAD (Seg 1)]
+Action: Watchers flashen Root-Rechte in Hosts.
+Clip 1 (Extreme Wide): Establishing. Night. Mount Hermon styled as a massive geological obsidian heatsink. 200 light-nodes descend the ridges perfectly synchronized.
+Clip 2 (Mid): Watcher (pure geometry, glowing edges) grabs a Woman's arm.
+Clip 3 (Macro): Contact point. The Woman's skin texture fails, revealing wireframe mesh underneath. Black data-ink pumps into her veins.
+Clip 4 (Close): Woman's eyes turn to static noise. HUD Overlay: "ACCESS GRANTED".
 
-[SCENE 002: THE_COMPILATION_ERROR]
-Action: The Nephilim are generated. Massive scale increase.
-Clip 4 (Time-Lapse): A shadow on the ground expands unnaturally fast, engulfing a house.
-Clip 5 (Low Angle): POV from ground up. A Nephilim leg (texture flickering between skin and wireframe) steps down, crushing a stone wall like styrofoam.
-Clip 6 (Wide): Three Giants standing amidst the village. They are 3000 cubits (symbolic scale: heads in the clouds). They glitch in and out of existence.
-
-[SCENE 003: RESOURCE_DEPLETION]
-Action: Humans offering food, then being ignored/consumed.
-Clip 7 (Mid): Humans piling grain/livestock at the feet of a Giant. The pile looks like a pixelated icon compared to the Giant.
-Clip 8 (Close): The Giant's hand scoops up the offering AND the humans. The mesh of the humans stretches and tears as they are lifted.
-Clip 9 (POV): Handheld camera shaking violently as a Giant's shadow falls over the operator.
-
-[SCENE 004: SYSTEM_CANNIBALISM]
-Action: Giants turning on humans and animals.
-Clip 10 (Action): A Giant bites into a "bird" (which is visualized as a drone/flying pawn). Sparks and black oil rain down.
-Clip 11 (Mid): Giants fighting each other. Their collisions cause shockwaves that distort the air (refraction shader).
-Clip 12 (Close): Blood on the ground. It is not red liquid, but black ferrofluid moving magnetically towards the Giants.
-
-[SCENE 005: KERNEL_PANIC]
-Action: The Earth cries out.
-Clip 13 (Wide/Aerial): The landscape is grey and desaturated. The green is gone. The ground is cracking with glowing red fissures (Error Logs).
-Clip 14 (Macro): A flower withers instantly, turning into grey dust/polygons.
-Clip 15 (Abstract): The sky turns the color of a "Blue Screen of Death" (BSOD) or deep crimson emergency lighting.
-Clip 16 (UI Overlay): A massive holographic text appears in the sky: "CRITICAL SYSTEM FAILURE. TICKET SUBMITTED."
-
-EXAMPLE_PROMPT_FOR_CLIP_5 (WAN 2.5):
+EXAMPLE_PROMPT_CLIP_3 (WAN 2.5):
 [BLOCK 1: SUBJECT_ANATOMY]
-Actor: Nephilim_Alpha_01. Physique: Hyper-muscular humanoid giant, 50 meters tall. Skin-Shader: GLITCH_FLESH. Skin texture is unstable, shifting between realistic human skin and raw polygon wireframe. Parts of the body are transparent, revealing a skeleton made of black girders. Head is obscured by a cloud of digital static.
+Actor: Watcher_Entity. Appearance: Faceless mannequin made of "Smart Glass", edges glowing with refractive index light.
+Subject: Human Female Arm.
 
 [BLOCK 2: ACTION_&_PHYSICS]
-Action: The Giant takes a step. The foot impacts the ground with heavy weight. Physics: Upon impact, the ground does not just crack; it pixelates. Debris floats upward in zero-gravity for a second before falling. The Giant's movement leaves a trail of motion-blur artifacts.
+Action: The Watcher's digits fuse with the human forearm. VFX: The human skin does not bruise; it glitches. The texture map dissolves into a neon-blue wireframe grid at the touch point. Black viscous data-fluid (Ferrofluid) injects into the wireframe veins, turning them dark.
 
 [BLOCK 3: ENVIRONMENT]
-Location: Ancient Village (Night). Architecture: Mud-brick houses, now looking like low-res miniatures. Lighting: Strobe-light effect from the Giant's internal energy core (Cyan/Magenta). Atmosphere: Heavy dust, charged with static electricity.
+Location: Dark Void / Minimalist Plane. Lighting: Clinical cool white spot on the arm. High contrast.
 
 [BLOCK 4: CINEMATOGRAPHY]
-Camera: Extreme Low Angle (Worm's Eye View). Lens: 14mm Ultra-Wide. Focus: Deep focus. Style: Found footage horror, digital artifacting, chromatic aberration, high contrast, terrifying scale.
+Camera: Macro Lens 100mm. Focus: Razor sharp on the transition from skin to wireframe. Style: Medical thriller, tech-horror.
+
+[SCENE 002: SCALING_ERROR (Seg 2)]
+Action: Spawning of the Giants.
+Clip 5 (Time-Lapse): A human belly swelling not biologically, but scaling up in jagged steps (Pop-in).
+Clip 6 (Low Angle): A Giant's foot hits the ground. It is low-poly. The texture is stretched pixel-mud.
+Clip 7 (Wide): Three Giants (3000 cubits) standing in the village. Their heads clip through the volumetric clouds. They are T-Posing or moving stiffly (Animation unbaked).
+
+EXAMPLE_PROMPT_CLIP_6 (WAN 2.5):
+[BLOCK 1: SUBJECT_ANATOMY]
+Actor: Nephilim_Foot. Appearance: Massive blocky geometry. The skin texture is extremely low-res, showing visible square pixels (Texels) the size of dinner plates. Toes are fused together (bad topology).
+
+[BLOCK 2: ACTION_&_PHYSICS]
+Action: The foot impacts the terrain. Physics: The ground does not crack; the vertices of the ground are pulled upwards to connect with the foot, creating jagged spikes of earth (Mesh Tearing). Dust particles are perfect cubes.
+
+[BLOCK 3: ENVIRONMENT]
+Location: Ancient Village (Low Poly LOD). Lighting: Harsh unnatural sunlight casting pitch black shadows.
+
+[BLOCK 4: CINEMATOGRAPHY]
+Camera: Ground Level (Ant View). Lens: 12mm Fisheye distortion. Style: Uncanny valley, broken simulation.
+
+[SCENE 003: MEMORY_LEAK (Seg 3)]
+Action: Resource Consumption.
+Clip 8 (Mid): Humans carrying food. The food vanishes from their hands before they reach the Giants (Packet Loss).
+Clip 9 (Close): A human face, gaunt, emaciated. The skin is semi-transparent, showing the skull, as if opacity is set to 50%.
+Clip 10 (Wide): The Giants inhale. Not air, but the color saturation of the world. The grass turns grey as they pass.
+
+[SCENE 004: GARBAGE_COLLECTION (Seg 4)]
+Action: Giants deleting Humans.
+Clip 11 (Action): A Giant grabs a human. The human instantly turns into a ragdoll physics object (limp).
+Clip 12 (Close): The Giant "eats" the human. Visual: The human body creates a boolean intersection with the Giant's mouth and simply vanishes (Delete Mesh).
+Clip 13 (Wide): Chaos. Giants stepping on crowds. Humans are flattened into 2D textures on the ground (Decals).
+
+EXAMPLE_PROMPT_CLIP_12 (WAN 2.5):
+[BLOCK 1: SUBJECT_ANATOMY]
+Actor: Nephilim_Head (Giant). Face is a blurred texture map, no distinct features. Mouth is a black void.
+Subject: Human Victim.
+
+[BLOCK 2: ACTION_&_PHYSICS]
+Action: Consumption. The human is lifted to the maw. Instead of chewing, the human mesh intersects with the Giant's face mesh. As they touch, the human mesh dissolves into binary code particles (0s and 1s) and is absorbed.
+
+[BLOCK 3: ENVIRONMENT]
+Location: Village Ruins. Atmosphere: Red Error-Light bathing the scene.
+
+[BLOCK 4: CINEMATOGRAPHY]
+Camera: Telephoto Zoom (Shakey). Style: Found footage, documenting a disaster.
+
+[SCENE 005: DRIVER_CRASH (Seg 5)]
+Action: Animal Corruption.
+Clip 14 (Mid): A bird flying. It freezes mid-air, rotates 90 degrees on the wrong axis, and crashes.
+Clip 15 (Close): A lion eating a gazelle. Both animals are wireframe models with glowing red eyes. They are merging into one twisted geometry.
+
+[SCENE 006: SYSTEM_PANIC (Seg 6)]
+Action: Earth reports the fatal error.
+Clip 16 (Aerial): The ground opens up. Huge glowing red text scrolls across the surface of the earth: "FATAL EXCEPTION 0x0000000".
+Clip 17 (Abstract): The sky texture fails, replaced by a "Checkered Missing Texture" pattern (Purple/Black).
+Clip 18 (Final): Hard cut to Black. Terminal Cursor blinking.
+
+EXAMPLE_PROMPT_CLIP_16 (WAN 2.5):
+[BLOCK 1: ENVIRONMENT]
+Location: Earth Surface (Aerial). Terrain: Desaturated, dead grey landscape.
+
+[BLOCK 2: ACTION_&_VFX]
+Action: Tectonic plates fracture. The cracks do not reveal magma, but intense Red LED light. The fissures form legible text in the crust: "SYSTEM CRITICAL" and "LOG OVERFLOW".
+
+[BLOCK 3: LIGHTING]
+Lighting: Bioluminescent Red from below. Sky is pitch black.
+
+[BLOCK 4: CINEMATOGRAPHY]
+Camera: Satellite View, pulling out rapidly. Style: Global catastrophe dashboard.

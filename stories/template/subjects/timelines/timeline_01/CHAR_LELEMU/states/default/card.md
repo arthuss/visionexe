@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 99 - 99
 
-**Phase Summary:** Standard operational appearance with mask and tools.
-**Phase Keywords:** maintenance gear, monitoring, neutral stance
+**Phase Summary:** Lelemu in his everyday state, core dormant, surrounded by stone and subtle light.
+**Phase Keywords:** ancient Ethiopian, crystalline core dormant, bio‑luminescent glyphs faint, industrial mysticism, photorealistic
 **Phase Prompt:**
-Lelemu character concept, full body shot, tall figure with bronze breather mask and glowing amber eyes, wearing heavy grey and ochre technician robes, utility belt with sci-fi tools, deep ebony skin with subtle circuitry scars, standing in a dimly lit ancient industrial corridor, atmospheric volumetric lighting, mystical technology aesthetic, hyperdetailed, 8k, cinematic color grading.
+A photorealistic image of Lelemu in his everyday state, standing in a dim stone chamber, his robust frame in indigo wool robe with copper filigree, eyes as polished obsidian lenses glowing faintly with bio‑luminescent glyphs, a dormant crystalline core in his chest, brass gauntlets with runic engravings, holding a bronze staff topped with a sapphire crystal, the scene illuminated by warm stone lanterns, emphasizing tactile textures and ancient‑tech mysticism.
 
 ---

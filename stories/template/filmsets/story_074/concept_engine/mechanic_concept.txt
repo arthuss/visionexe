@@ -1,205 +1,214 @@
 CONCEPT_TITLE: ORBITAL_SYNC_AUDIT_V2
-CONCEPT_VERSION: 2.0
-THEME: CELESTIAL_MECHANICS_&_TIME_DILATION
-TOTAL_DURATION: 60s
+CONCEPT_VERSION: 2.1 (REFINED)
+THEME: CELESTIAL_MECHANICS_&_CLOCK_DRIFT
+TOTAL_DURATION: 75s
 CLIP_COUNT: 18
 
+[ANALYSIS_OF_V1_FLAWS]
+1.  **Magic vs. Tech:** The previous "Hologram" interaction was too generic fantasy/sci-fi. V2 replaces "floating holograms" with direct "Augmented Reality Viewport Overrides" where the world itself becomes the graph.
+2.  **Physics:** The Merkabah was too passive. V2 defines it as a Gyroscopic Stabilizer Platform keeping them geostationary while the earth spins.
+3.  **The Lag:** Previously just visual distance. V2 visualizes the Moon's lag as "Frame Drop" and "Texture Pop-in" to emphasize it is a rendering artifact of a slower subsystem.
+
 [BIO_INJECTION_MECHANICS]
-Technology: OCULAR_OVERWRITE_PROTOCOL.
-Manifestation: Henoch's sclera turns entirely black. A gold rotating HUD (Head-Up Display) projects directly from the pupil outwards into the air (volumetric light projection). The data stream causes involuntary REM (Rapid Eye Movement) spasms as the information is written to his optical nerve. Veins in the temple pulse with bioluminescent blue coolant fluid to counteract the heat of processing.
+Technology: SYNAPTIC_OVERWRITE_CABLE.
+Manifestation: Uriel does not just touch. A physical filament (fiber-optic needle) extends from Uriel’s fingertip and interfaces with a port at the base of Henoch's neck. Henoch's eyes roll back, displaying white noise static before the gold HUD boots up directly on the cornea.
 
 [MESH_BREAK_VISUALS]
-Technology: SKYBOX_RENDER_LAYER_TOGGLE.
-Manifestation: The "Blue Sky" is revealed to be a high-resolution OLED dome. When Uriel explains the "Gates," the blue texture renders as a wireframe mesh in specific hexagonal sectors. The "Gates" are not physical holes but black, void-like rendering errors where the physics engine allows celestial objects to pass through the collision mesh.
+Technology: BACKEND_VISIBILITY_MODE.
+Manifestation: The Skybox doesn't just turn transparent. It flickers. We see the "Backstage" of the universe: massive cooling pipes and server racks running behind the blue curtain of the sky. The "Gates" are heat-exhaust ports.
 
 [PACING_STRATEGY]
-Style: METRONOMIC_PRECISION.
-Rhythm: The edit cuts precisely on the "beat" of a cosmic clock (60 BPM). Long, stable tracking shots of the celestial bodies (Sun/Moon) moving on rails, interrupted by 3-frame "glitch" cuts of pure data scrolling. It feels like watching a precise machine operating, not a nature documentary.
+Style: ASYNCHRONOUS_PULSE.
+Rhythm: Two competing beats. A heavy, slow beat (Sun/Mainframe) vs. a slightly faster, erratic beat (Moon/Client). The edit aligns with the Sun beat, making the Moon cuts feel "off" and jarring, creating subconscious tension.
 
 [AUDIO_DESIGN]
-Primary Layer: LOW_FREQUENCY_OSCILLATOR (LFO) - A constant 40Hz hum representing the Earth's rotation.
-Secondary Layer: HIGH_VOLTAGE_ARCING - When the Sun passes a Gate.
-Specific SFX: No choirs. Instead, the sound of massive cooling fans spinning up and the "clunk-hiss" of hydraulic locks engaging when days are counted.
-Voice: Uriel's voice is synthesized, multi-layered, lacking breath.
+Primary Layer: 60Hz HUM (Mains electricity).
+Secondary Layer: GEIGER_COUNTER_CLICKS (representing the counting of days).
+Specific SFX: The sound of a heavy vault door sealing (The Gates).
+Voice: Uriel’s voice is panning rapidly between Left and Right channels, simulating a stereo-test.
 
 [TRANSITIONS]
-Style: LIDAR_SWEEP.
-Effect: A vertical laser-scan line moves across the screen. Behind the line, the texture mode changes (e.g., from Photoreal to Thermal to Wireframe).
+Style: DATAMOSH_GLITCH.
+Effect: When switching perspectives or timeframes, the pixels drag and smear (compression artifacting) before snapping into the new image.
 
 [SPATIAL_CONTEXT_&_ARRIVAL]
-Method: MERKABAH_ELEVATOR.
-Visual: Henoch and Uriel stand on a triangular platform of transparent hard-light (glass-like). They are at the Kármán line (100km altitude). The curvature of the Earth is visible below. They are stationary relative to the rotating Earth.
+Method: MERKABAH_GYRO.
+Visual: A tetrahedonal craft made of spinning glass triangles. It locks into a "Grid Coordinate" in the upper atmosphere. The clouds below rush by at 1000mph, but inside the field, the air is dead still.
 
 [SCENE_SEQUENCE_&_PROMPTS]
 
 CLIP_01 [00:00-00:05]
-ACTION: Establishing Shot. The Merkabah platform hovering in the upper stratosphere. The sun is a blinding white sphere of raw fusion code.
+ACTION: Establishing Shot. The Merkabah stabilizer locking into position.
 PROMPT:
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: None. Focus on Environment.
+Actor: None. Focus on Vehicle.
 [BLOCK 2: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Stratosphere_Node_Zero. Architecture: A triangular floating platform made of invisible force-fields, edges defined by thin glowing laser lines. Background: The curvature of the Earth, deep indigo atmosphere fading to black space. The Sun is a perfect sphere of blinding white wireframe topology.
+Location: Thermosphere. Black space above, blue curved horizon below. The clouds are a blur of motion (long exposure effect).
+[BLOCK 3: PROPS_&_MECHANISMS]
+Prop: Merkabah_Vehicle. Visual: Two intersecting tetrahedrons made of transparent `SMART_GLASS` spinning in opposite directions. The edges glow with `IONIZED_PLASMA`.
+[BLOCK 4: CINEMATOGRAPHY]
+Camera: External chase cam. Shake: High frequency vibration. The camera struggles to track the object against the motion of the earth.
+
+CLIP_02 [00:05-00:09]
+ACTION: Interior. Uriel initiates the Hard-Line connection.
+PROMPT:
+[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
+Actor: Uriel (The Admin). Physique: 3m tall, Vantablack chassis with flowing data-filaments. Face is a mirror.
+Actor: Henoch (The User). Physique: Pale marble skin, `LIQUID_LINEN` tunic.
+[BLOCK 2: ACTION_SPECIFICS]
+Action: Uriel extends a needle-thin fiber-optic cable from his index finger. It pulses with white light. He moves it toward the base of Henoch's skull.
 [BLOCK 3: CINEMATOGRAPHY]
-Camera: Ultra-Wide (14mm). Angle: High-Angle looking down at the platform against the earth. Motion: Slow, smooth tracking shot following the platform's orbit. Style: IMAX Sci-Fi, 8k, photorealistic.
+Camera: Extreme Close-Up (ECU) on the cable and skin contact point. Macro details of the skin pores.
 
-CLIP_02 [00:05-00:08]
-ACTION: Uriel (The Admin) stands beside Henoch. Uriel initiates the data transfer.
+CLIP_03 [00:09-00:12]
+ACTION: Henoch's Boot Sequence. Ocular Overwrite.
 PROMPT:
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Uriel. Physique: 3m tall, body of polished iridescent chrome. Face is a smooth blank visor reflecting the cosmos. No mouth.
-Actor: Henoch. Physique: Human male, pale shock.
-[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Garment (Uriel): Robes of flowing liquid data streams, binary code distinct on the fabric.
-Garment (Henoch): Simple linen tunic, blowing violently in the solar wind.
-[BLOCK 3: ACTION_SPECIFICS]
-Action: Uriel places a chrome hand on Henoch's shoulder. A shockwave of digital distortion ripples through Henoch's body.
-
-CLIP_03 [00:08-00:11]
-ACTION: Henoch's POV (Point of View) / Reaction. The Bio-Injection.
-PROMPT:
-[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Henoch. Focus: Face Extreme Close-Up (ECU).
+Actor: Henoch. Focus: Eyes.
 [BLOCK 2: VISUAL_EFFECTS]
-Effect: Henoch's eyes are wide open. The iris dissolves into a spinning golden mechanical aperture. Blue circuit-lines ignite under his skin from the neck up to the temples. Sweat evaporates instantly into steam.
-[BLOCK 3: CINEMATOGRAPHY]
-Camera: Macro Lens (100mm). Lighting: Harsh strobe lighting from the internal HUD.
+Effect: The pupils dilate to 100%. A golden HUD projection beams OUT of the eyes, illuminating the air in front of him. The sclera turns black. Text scrolling on the eye surface: "SYNC_INIT // PORT_74".
+[BLOCK 3: LIGHTING]
+Lighting: The only light source is the projection from Henoch's own eyes.
 
-CLIP_04 [00:11-00:15]
-ACTION: The Sun traversing the "Gates". The Skybox deconstructs.
+CLIP_04 [00:12-00:16]
+ACTION: The Skybox failure / Reveal of the Gates.
 PROMPT:
 [BLOCK 1: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: The Western Horizon. The Blue Sky texture becomes transparent 50%. Behind it, a massive geodetic black grid is visible.
-[BLOCK 2: PROPS_&_MECHANISMS]
-Prop: The Sun. Visual: A burning ball of nuclear fire entering a hexagon-shaped "Gate" frame that glows red hot.
-[BLOCK 3: CINEMATOGRAPHY]
-Camera: Telephoto (200mm) compression. Motion: The Sun moves visibly fast, like a train on a track, entering the slot.
+Location: View from Stratosphere looking West.
+[BLOCK 2: VFX_&_MODIFIERS]
+Effect: The blue gradient of the sky flickers and turns into a wireframe mesh (green lines). Behind the mesh, massive industrial architecture is visible: Dark, infinite server racks and huge exhaust vents (The Gates).
+[BLOCK 3: PROPS_&_MECHANISMS]
+Prop: The Sun. Visual: A blinding white sphere moving along a physical guide-rail.
 
-CLIP_05 [00:15-00:18]
-ACTION: Uriel explaining the orbital law. Gesturing to the trajectory vectors.
+CLIP_05 [00:16-00:20]
+ACTION: Uriel points to the Solar Rail (The Constant).
 PROMPT:
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
 Actor: Uriel.
 [BLOCK 2: ACTION_SPECIFICS]
-Action: Uriel raises a hand. A massive holographic schematic appears in the air between them. It shows the Earth as a wireframe globe with orbital rings (Cyan for Sun, Magenta for Moon).
+Action: Uriel points a black finger at the Sun. A laser line connects his finger to the star, displaying distance and velocity data in the air.
 [BLOCK 3: CINEMATOGRAPHY]
-Camera: Medium Shot (MS). Lighting: The hologram casts colored light on Uriel's chrome face.
+Camera: Wide shot from behind Henoch.
 
-CLIP_06 [00:18-00:22]
-ACTION: The Moon enters the frame. It is slower, darker.
+CLIP_06 [00:20-00:24]
+ACTION: The Sun passing through a Gate (Server Vent).
 PROMPT:
 [BLOCK 1: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Space/Stratosphere view.
+Location: The Western Gate (Port 4).
 [BLOCK 2: PROPS_&_MECHANISMS]
-Prop: The Moon. Visual: A grey, cratered sphere, but with a "Buffer Loading" symbol superimposed on it. It moves sluggishly compared to the Sun. It leaves a trail of "ghost frames" behind it (motion blur artifacting).
+Prop: The Sun. Visual: As the sun hits the rectangular black void of the Gate, it distorts. The light stretches like liquid. Sparks of `HIGH_VOLTAGE` arc from the gate frame to the sun.
 [BLOCK 3: CINEMATOGRAPHY]
-Camera: Tracking shot matching the Moon's speed.
+Camera: Telephoto. Slow Motion (48fps).
 
-CLIP_07 [00:22-00:25]
-ACTION: Split screen / Comparative visualization. Sun Speed vs Moon Speed.
-PROMPT:
-[BLOCK 1: VISUAL_DESIGN]
-Style: Technical UI Overlay. The screen is divided. Left Side: The Sun racing on a golden rail. Right Side: The Moon lagging on a silver rail.
-[BLOCK 2: VFX]
-Effect: A red "ERROR" bar flashes on the Moon side, growing larger with every second.
-
-CLIP_08 [00:25-00:29]
-ACTION: Henoch observing the "Gap". The realization of the time slip.
-PROMPT:
-[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Henoch.
-[BLOCK 2: ACTION_SPECIFICS]
-Action: Henoch reaches out to touch the hologram. His hand passes through the light, but the data interacts with his fingertips (ripples). He looks concerned/confused.
-[BLOCK 3: CINEMATOGRAPHY]
-Camera: Over-the-Shoulder (OTS) looking at the hologram. Focus shifting from Henoch's hand to the data.
-
-CLIP_09 [00:29-00:33]
-ACTION: The Calculation. 5 Years = 1770 Days vs 1800 Days.
-PROMPT:
-[BLOCK 1: VISUAL_DESIGN]
-Style: Abstract Data Flow.
-[BLOCK 2: CONTENT]
-Visual: Cascading Ge'ez numerals in glowing gold. They arrange themselves into columns. One column is taller (Sun), one is shorter (Moon). The difference is highlighted in flashing red blocks. A subtraction algorithm runs visually.
-
-CLIP_10 [00:33-00:36]
-ACTION: The "Debt" visualization. The Moon falling behind.
-PROMPT:
-[BLOCK 1: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Orbital Path.
-[BLOCK 2: ACTION_SPECIFICS]
-Action: As the Sun completes a loop (a glowing ring), the Moon is visibly short of the finish line. A distance marker shows "LAG DETECTED". The gap is physical distance in the sky.
-
-CLIP_11 [00:36-00:40]
-ACTION: Uriel identifying the 8-Year Cycle. The accumulation of error.
-PROMPT:
-[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Uriel.
-[BLOCK 2: ACTION_SPECIFICS]
-Action: Uriel swipes the air. The hologram zooms out to show 8 concentric rings. The error points align perfectly every 8th ring. System Stability confirmed.
-[BLOCK 3: CINEMATOGRAPHY]
-Camera: Low angle looking up at Uriel commanding the sky.
-
-CLIP_12 [00:40-00:44]
-ACTION: Henoch recording the data.
-PROMPT:
-[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Henoch.
-[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Prop: Obsidian Tablet.
-[BLOCK 3: ACTION_SPECIFICS]
-Action: Henoch is frantically writing on the tablet with a stylus of light. The tablet mirrors the holographic data above him. His expression is intense concentration.
-
-CLIP_13 [00:44-00:47]
-ACTION: The Sun setting in the West (Gate 1).
-PROMPT:
-[BLOCK 1: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Western Horizon.
-[BLOCK 2: PROPS_&_MECHANISMS]
-Prop: The Sun. Visual: The sun hits the horizon line and dissolves into a cloud of binary voxels. It doesn't sink; it de-rezzes.
-[BLOCK 3: CINEMATOGRAPHY]
-Camera: Static wide shot.
-
-CLIP_14 [00:47-00:50]
-ACTION: The Moon rising / appearing.
+CLIP_07 [00:24-00:28]
+ACTION: The Moon enters. Low Poly / Low Res.
 PROMPT:
 [BLOCK 1: ENVIRONMENT_&_SPATIAL_CONTEXT]
 Location: Eastern Horizon.
 [BLOCK 2: PROPS_&_MECHANISMS]
-Prop: The Moon. Visual: The Moon materializes from a wireframe mesh into a solid object, pulsing with a faint blue light.
-[BLOCK 3: CINEMATOGRAPHY]
-Camera: Static wide shot.
+Prop: The Moon. Visual: The moon appears pixelated at the edges (Voxel-styled). It moves with a stutter, like a low-framerate animation (12fps). It is grey and dull.
+[BLOCK 3: VFX]
+Effect: "BUFFERING..." text overlay in Ge'ez floating next to the moon.
 
-CLIP_15 [00:50-00:54]
-ACTION: Global Rotation Speed-Ramp.
+CLIP_08 [00:28-00:32]
+ACTION: Split Screen. Mainframe vs Client.
+PROMPT:
+[BLOCK 1: VISUAL_DESIGN]
+Style: Diagnostic Monitor.
+[BLOCK 2: CONTENT]
+Visual: Split screen. Left: Sun moving smooth, perfect sine wave graph below it. Right: Moon moving jerky, jagged graph below it showing packet loss (red spikes).
+
+CLIP_09 [00:32-00:36]
+ACTION: The Lag Visualization. The Moon falls behind.
 PROMPT:
 [BLOCK 1: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: High Orbit View (God View).
+Location: Orbital Track.
 [BLOCK 2: ACTION_SPECIFICS]
-Action: The Earth spins rapidly. Day and Night cycle flickers like a strobe light (Day-Night-Day-Night). The orbital rings of the Sun and Moon weave a complex spirograph pattern around the planet.
+Action: A ghost-image of where the moon *should* be (perfect alignment) is visible in green wireframe. The actual moon (solid grey) is lagging behind this ghost image. The distance between them glows red.
 
-CLIP_16 [00:54-00:56]
-ACTION: Uriel Final Confirmation. The System Check.
+CLIP_10 [00:36-00:40]
+ACTION: Henoch logging the error.
 PROMPT:
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Uriel. Focus: Head and Shoulders.
-[BLOCK 2: ACTION_SPECIFICS]
-Action: Uriel nods once. Mechanical precision. The laser scan on his visor turns from Red (Scanning) to Green (Verified).
-[BLOCK 3: LIGHTING]
-Lighting: The green light from the visor illuminates the scene.
+Actor: Henoch.
+[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
+Prop: `WAVE_INTERFACE_BLOCK` (Obsidian Tablet).
+[BLOCK 3: ACTION_SPECIFICS]
+Action: Henoch swipes a finger across the obsidian slab. The red "Lag" data from the sky is sucked into the tablet, appearing as glowing red runes on the black glass.
 
-CLIP_17 [00:56-00:58]
-ACTION: Henoch's Acceptance. The Audit is complete.
+CLIP_11 [00:40-00:45]
+ACTION: The 5-Year Drift Calculation.
+PROMPT:
+[BLOCK 1: VISUAL_DESIGN]
+Style: Abstract Data Visualization.
+[BLOCK 2: CONTENT]
+Visual: Two vertical progress bars. Bar A (Sun) fills to 100% (1820). Bar B (Moon) stops at 97% (1770). The empty space at the top of Bar B flashes "VOID_NULL".
+[BLOCK 3: LIGHTING]
+Palette: Stark Black and White with alarm Red.
+
+CLIP_12 [00:45-00:49]
+ACTION: Uriel explaining the "Garbage Collection".
+PROMPT:
+[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
+Actor: Uriel. Focus: Reflection in visor.
+[BLOCK 2: VISUAL_EFFECTS]
+Action: In Uriel's mirrored face, we see the Moon blinking out of existence for a split second (The 10-day reduction).
+[BLOCK 3: CINEMATOGRAPHY]
+Camera: Close-up on Uriel's face.
+
+CLIP_13 [00:49-00:53]
+ACTION: The 8-Year Reset (Oktaeteris). The Gears Mesh.
+PROMPT:
+[BLOCK 1: ENVIRONMENT_&_SPATIAL_CONTEXT]
+Location: The Sky Grid.
+[BLOCK 2: VFX_&_MODIFIERS]
+Effect: A massive, transparent clockwork mechanism (golden gears) overlays the sky. The gears are misaligned. Suddenly, they snap into place with a visual shockwave.
+[BLOCK 3: ACTION_SPECIFICS]
+Action: The Sun and Moon align perfectly for one frame.
+
+CLIP_14 [00:53-00:57]
+ACTION: Henoch observing the Reset.
 PROMPT:
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
 Actor: Henoch.
 [BLOCK 2: ACTION_SPECIFICS]
-Action: The glow in Henoch's eyes fades. The HUD retracts. He lowers the tablet, looking exhausted but enlightened.
+Action: The wind from the "Gear Snap" blows Henoch's hair and clothes violently back. He shields his eyes with the tablet. The tablet glows green ("SYNC_COMPLETE").
 [BLOCK 3: CINEMATOGRAPHY]
-Camera: Slow push-in on his face.
+Camera: Low angle, heroic.
 
-CLIP_18 [00:58-01:00]
+CLIP_15 [00:57-01:02]
+ACTION: Moon Phase Rendering.
+PROMPT:
+[BLOCK 1: PROPS_&_MECHANISMS]
+Prop: The Moon.
+[BLOCK 2: ACTION_SPECIFICS]
+Action: Time-lapse. The Moon stays in center frame. The shadow (darkness) sweeps across it mechanically, like a shutter closing, not a natural shadow. It goes from Full to New to Full.
+[BLOCK 3: CINEMATOGRAPHY]
+Camera: Static lock-on.
+
+CLIP_16 [01:02-01:06]
+ACTION: Global Rotation Speed Ramp.
+PROMPT:
+[BLOCK 1: ENVIRONMENT_&_SPATIAL_CONTEXT]
+Location: High Orbit (God View).
+[BLOCK 2: ACTION_SPECIFICS]
+Action: The Earth is a spinning wireframe globe. The orbits of Sun and Moon form a complex, glowing mandala (Spirograph) around it. The pattern completes, forming a perfect geometric seal.
+
+CLIP_17 [01:06-01:10]
+ACTION: Uriel Disconnect.
+PROMPT:
+[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
+Actor: Uriel.
+Actor: Henoch.
+[BLOCK 2: ACTION_SPECIFICS]
+Action: Uriel retracts the fiber-optic cable. The light in Henoch's eyes cuts out instantly (hard cut to black pupils). Henoch gasps, breath visible in the cold air.
+
+CLIP_18 [01:10-01:15]
 ACTION: Fade out / System Standby.
 PROMPT:
 [BLOCK 1: ENVIRONMENT_&_SPATIAL_CONTEXT]
 Location: The Merkabah Platform.
 [BLOCK 2: ACTION_SPECIFICS]
-Action: The platform accelerates upwards, away from Earth, turning into a streak of light. The screen fades to a CRT turn-off effect (white dot in center).
+Action: The platform dissolves into pixels, leaving Henoch floating for a split second before the scene implodes into a single white pixel.
+[BLOCK 3: VISUAL_DESIGN]
+Style: CRT Power-down.

@@ -1,0 +1,91 @@
+{
+  "id": "SCENE_CHANT_OF_ESM_H_LO",
+  "name": "Chant of Esmé Hālo",
+  "type": "scene",
+  "card": {
+    "description": "A cinematic, photorealistic depiction of Esmé Hālo, a lithe high priestess of the ancient-tech cult, performing the Chant of Esmé Hālo before a towering basalt obelisk. The obelisk is etched with Ethiopian hieroglyphs and copper alloy accents, pulsing with bio‑luminescent glyphs that sync to the chant. Esmé’s obsidian‑silk robe is woven with embedded quartz crystals that glow brighter as the chant rises, while subtle ocular implants trace the rhythm of her voice. The scene is grounded in realism, with weathered stone, worn obsidian, and a low‑angle, dramatic lighting that highlights the industrial mysticism of the setting.",
+    "tags": [
+      "ancient-tech",
+      "ritual",
+      "Esmé Hālo",
+      "Ethiopian-Egyptian",
+      "industrial mysticism",
+      "photorealistic",
+      "bio-luminescence"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Esmé Hālo stands tall on a weathered stone platform, her lithe, muscular frame accentuated by the flowing obsidian‑silk robe. The platform itself is a slab of basalt with faint copper veins, giving it a subtle metallic sheen.",
+      "**Face/Sensors:** Her face is framed by a halo of luminous glyphs etched around the eyes; the ocular implants are translucent, pulsing with a soft blue light that mirrors the chant’s cadence.",
+      "**Clothing/Armor:** The robe is woven from obsidian silk, interlaced with quartz crystals that refract light into prismatic shards. The cuffs and collar are reinforced with copper alloy filigree, echoing the obelisk’s accents.",
+      "**Key Features:** The obelisk rises 12 meters, composed of basalt and copper alloy, its surface etched with ancient Ethiopian hieroglyphs that glow with bio‑luminescent energy. Crystalline particles drift in the air, reflecting the obelisk’s light and creating a subtle aurora effect."
+    ],
+    "evolution": [
+      "Phase 1 (Initiation): Esmé begins the chant; the glyphs on her robe flicker, the obelisk’s base hums, and faint crystalline particles rise from the platform.",
+      "Phase 2 (Climax): The chant reaches its peak; the obelisk’s glyphs blaze with intense bio‑luminescence, the air shimmers with crystalline mist, and the stone platform ripples with heat waves."
+    ],
+    "props": [
+      "Item: Obelisk of basalt and copper alloy, 12 m tall, etched with Ethiopian hieroglyphs",
+      "Item: Ceremonial staff of obsidian and silver, 2 m long, adorned with quartz crystals",
+      "Item: Parchment scroll with luminescent ink, containing the chant’s verses"
+    ],
+    "prompt_keywords": [
+      "ancient-tech",
+      "ritual",
+      "Esmé Hālo",
+      "bio-luminescence",
+      "Ethiopian hieroglyphs",
+      "industrial mysticism",
+      "photorealistic"
+    ],
+    "prompt_block": "A cinematic, photorealistic shot of Esmé Hālo, a lithe high priestess in obsidian‑silk robes embedded with pulsing quartz glyphs, standing before a towering basalt obelisk etched with ancient Ethiopian hieroglyphs and copper alloy accents. The obelisk hums with bio‑luminescent energy as Esmé chants, causing the glyphs to glow brighter, the air to shimmer with crystalline particles, and the surrounding stone platform to ripple with subtle heat waves. The scene is grounded in realism, with detailed textures of worn obsidian, weathered basalt, and the soft glow of bio‑luminescent glyphs, captured in dramatic low‑angle lighting that emphasizes the mystic industrial atmosphere.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Initial chant scene with Esmé Hālo and the obelisk.",
+        "prompt_keywords": [
+          "ancient-tech",
+          "ritual",
+          "Esmé Hālo",
+          "bio-luminescence",
+          "Ethiopian hieroglyphs",
+          "industrial mysticism",
+          "photorealistic"
+        ],
+        "prompt_block": "A cinematic, photorealistic depiction of Esmé Hālo, a lithe high priestess in obsidian‑silk robes with embedded quartz glyphs, chanting before a towering basalt obelisk etched with ancient Ethiopian hieroglyphs and copper alloy accents. The obelisk emits a soft bio‑luminescent glow that syncs with the chant, while crystalline particles drift in the air. The stone platform beneath Esmé ripples with subtle heat waves, and the scene is illuminated by dramatic low‑angle lighting that highlights the industrial mysticism of the setting."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_CHANT_OF_ESM_H_LO",
+    "name": "Chant of Esmé Hālo",
+    "type": "scene",
+    "aliases": [
+      "Chant of Esmé Hālo"
+    ],
+    "roles": [
+      "unknown"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1034"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 108,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

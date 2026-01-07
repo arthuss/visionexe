@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 100 - 100
 
-**Phase Summary:** The Guest in their primary state of decadent consumption.
-**Phase Keywords:** wealthy guest, holding drink, neon blue, baroque tech, golden walls background
+**Phase Summary:** Guest seated, drinking, walls intact, no X markers yet
+**Phase Keywords:** ceremonial, luminescent, crystalline, golden, bioluminescence, Ethiopian, Egyptian
 **Phase Prompt:**
-A hyper-realistic portrait of a wealthy aristocrat, the Guest, standing in a dissolving golden hall. They wear lavish robes of gold and velvet with subtle circuit-board patterns embroidered in thread. They hold a delicate crystal glass containing a viscous neon blue liquid. Their expression is one of dawning horror. Above their head, a faint, translucent red 'X' marker glows ominously. Cinematic lighting, volumetric fog, high detail.
+A cinematic vertical shot, 9:16 aspect ratio, of a dignified guest seated at a long banquet table in the Treasury Node, wearing a ceremonial crimson robe with gold filigree and bioluminescent thread accents, sipping a neon blue luminescent liquid from a crystal glass; ornate golden walls remain intact, high contrast cyberpunk‑baroque fusion, photorealistic, tactile, ancient‑tech aesthetic
 
 ---

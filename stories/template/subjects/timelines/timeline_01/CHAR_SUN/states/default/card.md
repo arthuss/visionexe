@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 18 - 106
 
-**Phase Summary:** The standard orbital luminary, blinding and powerful.
-**Phase Keywords:** celestial body, fusion engine, blinding light, space background, high contrast
+**Phase Summary:** The Sun appears as a luminous celestial sphere with a hexagonal ceramic lattice, ancient glyphs, and a digital glitch revealing hidden machinery.
+**Phase Keywords:** celestial, solar, hexagonal, ceramic, glitch, ancient, Ethiopian, Egyptian, luminescent, industrial, photorealistic
 **Phase Prompt:**
-A massive, blinding white solar sphere in deep space, radiating intense light. The surface textures resemble molten gold and fusion plasma. The background is the infinite black void of space, emphasizing the sheer brightness of the star. Sharp, anamorphic lens flares, industrial sci-fi aesthetic, photorealistic 8k.
+Render the Sun as a colossal celestial body in photorealistic detail, its surface composed of interlocking hexagonal ceramic plates illuminated like a massive LED array, etched with ancient Ethiopian and Egyptian glyphs, glowing bio‑luminescent veins, with a digital glitch revealing dark machinery beneath, under a dramatic sky, cinematic lighting, 8k resolution
 
 ---

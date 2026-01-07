@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 69 - 69
 
-**Phase Summary:** Mehala in her standard observational state.
-**Phase Keywords:** basalt skin, amber optical sensors, copper weave robes, ancient industrial
+**Phase Summary:** Mehala in its fully manifested, photorealistic form.
+**Phase Keywords:** ancient Ethiopian, Egyptian, crystalline core, bio-luminescent glyphs, industrial mysticism, photorealistic, tactile textures, grounded realism
 **Phase Prompt:**
-Full body shot of Mehala, a mysterious entity with polished black basalt skin. She is draped in heavy, textured robes embroidered with conductive copper thread and wears an oxidized bronze mantle. Her face features amber optical sensors instead of eyes. Background is a dark, brutalist stone corridor filled with ancient machinery. Cinematic lighting, photorealistic, sharp focus, 8k, tactile details.
+A photorealistic rendering of Mehala, the ancient-tech entity, standing 2.5 m tall with basaltic armor, copper conduits, a glowing crystalline core, twin opalescent eyes, bio‑luminescent glyphs, obsidian cloth, and a crystalline staff, all depicted with tactile textures and grounded realism, evoking a sense of industrial mysticism.
 
 ---

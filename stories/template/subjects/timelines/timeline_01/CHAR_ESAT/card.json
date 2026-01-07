@@ -3,52 +3,62 @@
   "name": "Esat",
   "type": "character",
   "card": {
-    "description": "An elemental construct of containment and combustion, acting as a living reactor. Esat represents the element of Fire through the lens of Industrial Mysticism—a synthesis of angelic radiance and heavy thermal-dissipating machinery. The entity appears as a humanoid figure encased in scorched containment armor, suppressing a volatile core of star-matter.",
+    "description": "Esat is a towering elemental artifact that embodies the fusion of ancient Ethiopian and Egyptian mysticism with incomprehensible advanced technology. Standing in a desaturated wasteland, his basaltic, semi-translucent form is etched with glowing Ge'ez glyphs and integrated crystalline lattices that pulse with bio‑luminescent light. The air around him ripples with motion trails and horizontal screen‑tearing lines, leaving translucent ghost copies of himself that fade into the broken horizon. Esat’s presence is both a relic of forgotten civilizations and a conduit for raw elemental energy, rendered in tactile, photorealistic detail.",
     "tags": [
+      "ancient-tech",
+      "industrial-mysticism",
+      "photorealistic",
+      "Ethiopian",
+      "Egyptian",
+      "bio-luminescence",
+      "crystalline",
+      "glyphs",
       "elemental",
-      "fire",
-      "industrial_mysticism",
-      "construct",
-      "reactor",
-      "ancient_tech"
+      "wasteland",
+      "motion-trail"
     ],
     "visual_anatomy": [
-      "**Body/Form:** Heavy, bulk-loaded silhouette resembling a walking blast furnace. The chassis is constructed from scorched basalt stone and tarnished bronze plating.",
-      "**Face/Sensors:** Devoid of human features. The head is a heavy geometric helm with a vertical slit visor that glows with blinding white heat, reminiscent of a high-intensity welding arc.",
-      "**Clothing/Armor:** Layered ceramic heat shields adorned with conductive gold circuitry in intricate Ethiopian patterns. Massive exhaust vents on the shoulders and back release constant jets of steam and drifting embers.",
-      "**Key Features:** Internal glow illuminates the armor seams. The air around the figure ripples with aggressive heat distortion. The surface texture is rough, pitted, and stained with soot."
+      "**Body/Form:** Robust, basaltic torso with a semi‑translucent surface; crystalline lattice woven through musculature, pulsing with internal energy.",
+      "**Face/Sensors:** Face adorned with Ge'ez glyphs that glow; bio‑luminescent eyes that scan the environment; embedded sensor arrays along the brow and temples.",
+      "**Clothing/Armor:** Woven obsidian cloth with filigreed metal accents; armor plates etched with ancient motifs and advanced circuitry, forming a seamless interface between flesh and machine.",
+      "**Key Features:** Bio‑luminescent glyphs, crystalline hardware, energy conduits, motion‑trail artifacts, screen‑tearing lines, translucent ghost copies."
     ],
     "evolution": [
-      "Phase 1 (Default): Standard containment state, steady burn, controlled venting."
+      "Phase 1 (Default): Esat emerges from the wasteland, channeling elemental energy while leaving translucent ghost copies and motion trails that distort the surrounding reality."
     ],
     "props": [
-      "Internal Core: Visible blinding light through chest vents",
-      "Venting Gas: Atmospheric steam effects"
+      "Item: Energy Core – a pulsating crystalline orb embedded in Esat’s chest, radiating raw elemental power.",
+      "Item: Glyphic Staff – a staff of obsidian and crystal, etched with Ge'ez script, used to focus and channel Esat’s energy."
     ],
     "prompt_keywords": [
-      "industrial_mysticism",
-      "living_furnace",
-      "scorched_basalt",
-      "glowing_magma",
-      "ethiopian_filigree",
-      "heat_distortion",
-      "cinematic_lighting",
-      "volumetric_smoke",
-      "photorealistic",
-      "8k"
+      "Esat",
+      "ancient-tech",
+      "crystalline",
+      "glyphs",
+      "bio-luminescence",
+      "wasteland",
+      "motion-trail",
+      "desaturated",
+      "industrial-mysticism"
     ],
-    "prompt_block": "A cinematic full body shot of Esat, the Industrial Fire Elemental. The character is a towering construct of scorched black basalt and hot bronze, designed to contain a blinding internal nuclear fire. The armor features cooling fins and radiator grilles resembling ancient Egyptian architectural columns. Molten light bleeds through cracks in the plating. The face is a void of heat behind a vertical obsidian slit. Atmospheric embers, volumetric smoke, heavy industrial machinery background. 8k, photorealistic, textural, tactile realism, desaturated grunge with high contrast light.",
+    "prompt_block": "A photorealistic vertical 9:16 cinematic shot of Esat, a humanoid elemental artifact, standing in a desaturated wasteland. His basaltic skin is etched with glowing Ge'ez glyphs and integrated crystalline lattice that pulses with bio‑luminescent light. He is surrounded by motion trails and horizontal screen‑tearing lines, with translucent ghost copies of himself fading into the broken horizon. The atmosphere is cold, desaturated, and industrial, with ancient Ethiopian and Egyptian motifs fused into advanced incomprehensible technology, rendered in tactile, photorealistic detail.",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Standard containment state with steady internal combustion.",
+        "summary": "Esat in the wasteland, channeling elemental energy with motion trails and ghost copies.",
         "prompt_keywords": [
-          "steady_burn",
-          "contained_energy",
-          "welding_arc_light"
+          "Esat",
+          "ancient-tech",
+          "crystalline",
+          "glyphs",
+          "bio-luminescence",
+          "wasteland",
+          "motion-trail",
+          "desaturated",
+          "industrial-mysticism"
         ],
-        "prompt_block": "A cinematic full body shot of Esat, the Industrial Fire Elemental. The character is a towering construct of scorched black basalt and hot bronze, designed to contain a blinding internal nuclear fire. The armor features cooling fins and radiator grilles resembling ancient Egyptian architectural columns. Molten light bleeds through cracks in the plating. The face is a void of heat behind a vertical obsidian slit. Atmospheric embers, volumetric smoke, heavy industrial machinery background. 8k, photorealistic, textural, tactile realism, desaturated grunge with high contrast light."
+        "prompt_block": "A photorealistic vertical 9:16 cinematic shot of Esat, a humanoid elemental artifact, standing in a desaturated wasteland. His basaltic skin is etched with glowing Ge'ez glyphs and integrated crystalline lattice that pulses with bio‑luminescent light. He is surrounded by motion trails and horizontal screen‑tearing lines, with translucent ghost copies of himself fading into the broken horizon. The atmosphere is cold, desaturated, and industrial, with ancient Ethiopian and Egyptian motifs fused into advanced incomprehensible technology, rendered in tactile, photorealistic detail."
       }
     ]
   },

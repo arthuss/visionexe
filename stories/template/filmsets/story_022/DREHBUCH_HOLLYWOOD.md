@@ -1,322 +1,322 @@
 # DREHBUCH KAPITEL 22 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Im Westen erhob sich der schwarze Monolith, nicht aus Fels, sondern aus reinem Speicher. Hier ruhen die Protokolle der Toten, sortiert in flüssigen Archiven bis zum Tag des System-Resets. Ich sah die Trennung der Datenströme, die Gerechten im Licht, die Fehlerhaften in der Dunkelheit. Es ist kein Schlaf, es ist ein Warten auf die finale Kompilierung.
+NARRATOR_TEXT: Hier, am westlichen Sektor des Systems, endet die Unendlichkeit in einer Wand aus schwarzem Glas. Der Berg, dessen Gipfel im digitalen Nebel verschwindet, ist kein Fels, sondern das Archiv aller vergangenen Laufzeiten. Es gibt kein Urteil ohne Daten, und hier werden die Seelen in flüssigem Obsidian sortiert, bevor das System sie endgültig formatiert. Ich sah die Partitionen der Gerechten in kühlem Licht pulsieren, während die Fehlerhaften in der Tiefe auf ihre Bereinigung warten. Dies ist kein Ort der Ruhe, sondern der absoluten Ordnung vor dem finalen Reset.
 
-## [ACT I] [SCENE 1.1] [Timecode: 00:00-00:05] [ESTABLISHING THE STACK]
-**Action:** The Western Mountain is revealed as a colossal SERVER_MONOLITH of black obsidian. It reflects a dead grey sky. Heat haze distorts the base.
+## [ACT I] [SCENE 1.1] [Timecode: 00:00-00:04] [INGRESS & ARCHITECTURE]
+**Action:** The previous reality tears vertically. Henoch steps from a chaotic white void into a stark, silent obsidian desert. He stabilizes, checking his gloves.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "SECTOR_WEST_DESERT", "env_change": true, "actors": [], "props": [], "camera": "14mm / low angle track forward", "mood": ["awe", "sterile"], "director_intent": "Establish the immense scale of the server monolith against the void.", "start_image_keywords": ["obsidian monolith", "black server tower", "desert void"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SECTOR_WEST_MONOLITH", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "low_angle", "environment": "SECTOR_WEST_VOID_TRANSITION", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Obsidian_Tablet", "Idris_Gloves"], "camera": "24mm / tracking", "mood": ["disoriented", "tech-focused"], "director_intent": "Establish the violent transition from void to the sterile server reality.", "start_image_keywords": ["reality tearing", "Henoch stepping through", "obsidian floor"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "INGRESS_LANDING", "env_id": "SECTOR_WEST_TRANSITION", "props": ["Obsidian_Tablet"], "notes": "Reality tear VFX behind actor"}, "motion_driver": {"type": "pose", "audio_id": "", "pose_source": "data/capture/poses/ingress_landing_stabilize.mp4", "driver_notes": "Stumble and recover balance"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Extreme Wide Shot of a colossal black obsidian monolith rising from a flat, grey digital desert. The structure is perfectly geometric, a massive server tower reaching into the stratosphere. The surface is sleek, reflective black glass. The ground is a sterile grid covered in grey dust. Subtle heat haze at the base. Industrial sci-fi aesthetic, Kubrick scale, photorealistic 8k, cold lighting, dead sky.
+Vertical 9:16 composition. Low angle Full Body shot of Henoch (Phase 2 Voyager) stepping out of a blinding vertical rift of white static (`REALITY_TEAR`) onto a dark, polished obsidian floor. He wears a translucent liquid-linen tunic and "Idris-Gloves" with glowing gold haptic sensors. His skin is silver-translucent, revealing faint blue circuitry underneath. The environment is transitioning from wireframe grid to photorealistic black stone. Volumetric lighting from the rift casts long, sharp shadows forward. Cinematic sci-fi, high contrast, 8k resolution.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** No organic subjects. The subject is the architecture itself, a massive black vertical structure.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch: Silver-skin cyborg prophet.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Liquid-linen robes, tech-gloves, tablet.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A split world: white void behind, black mirror desert ahead.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Intense rim light from the tear, cold ambient ahead.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Camera tracks backward as he steps through. The white void zips closed like a CRT turn-off. 9:16 vertical video.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Sharp sound of a vacuum seal breaking ("Pop"). Heavy boots landing on glass. A digital "zip" sound as the rift closes, followed by sudden, heavy silence and wind.
+
+## [ACT I] [SCENE 1.2] [Timecode: 00:04-00:09] [ESTABLISHING THE MOUNTAIN]
+**Action:** Reveal of "The Mountain." An infinite, polished black wall (Server Monolith) rising into digital fog. The surface is seamless Vantablack.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "extreme_wide", "environment": "SECTOR_WEST_DESERT", "env_change": true, "actors": [], "props": [], "camera": "Extreme Wide / Tilt Up", "mood": ["awe", "oppressive"], "director_intent": "Show the non-human scale of the data archive.", "start_image_keywords": ["infinite black wall", "digital fog", "vantablack monolith"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SECTOR_WEST_MONOLITH", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 composition. Extreme Wide Shot (EWS) looking up at a colossal, infinite wall of perfectly smooth Vantablack glass (`SERVER_MONOLITH`). It rises from a flat grey digital desert floor and disappears into a thick layer of white static mist (`DIGITAL_FOG`) high above. The scale is Kubrickian—monumental and terrifying. No seams, no windows, just pure data density. The reflection of the grey floor extends infinitely on the black surface. Minimalist, brutalist architecture, cold atmosphere.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Monolith: Infinite black server wall.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A flat, infinite grey desert floor with faint grid lines. The sky is a uniform static grey. The monolith dominates the center frame.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flat, diffuse lighting. High contrast between the black obsidian and the grey environment. No direct sun.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow, majestic camera track forward towards the base of the monolith. 14mm lens feel. 9:16 vertical aspect ratio. High stability.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Endless desert floor meeting vertical wall.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flat, shadowless ambient occlusion.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow, majestic tilt up from the base to the fog. The structure feels static and eternal. 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep, resonant 60Hz mains hum, constant and heavy. Subtle wind that sounds like white noise or static. No organic nature sounds. A sense of immense weight and silence.
+Deep, throbbing sub-bass (50Hz hum) representing massive power consumption. Faint wind noise that sounds like white noise.
 
-## [ACT I] [SCENE 1.2] [Timecode: 00:05-00:09] [THE HOLLOWS]
-**Action:** Close pan over the "rock" surface. It is four massive concave depressions filled with black, mirror-like FERROFLUID. Cold blue strip-lighting on the rims.
+## [ACT I] [SCENE 1.3] [Timecode: 00:09-00:13] [THE HOLLOWS OPEN]
+**Action:** The smooth wall reacts to presence. Massive hexagonal basalt columns slide outward mechanically, revealing recessed blue intake fans.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "insert", "framing": "close_up", "environment": "SECTOR_WEST_MONOLITH_SURFACE", "env_change": false, "actors": [], "props": [], "camera": "Macro pan", "mood": ["technological", "cold"], "director_intent": "Reveal the mountain is a machine with liquid storage.", "start_image_keywords": ["ferrofluid pool", "obsidian concave", "blue led rim"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SECTOR_WEST_HOLLOWS", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "insert", "framing": "close_up", "environment": "SECTOR_WEST_MONOLITH", "env_change": false, "actors": [], "props": [], "camera": "Macro 85mm / static", "mood": ["mechanical", "precise"], "director_intent": "The mountain is a machine that opens to receive data.", "start_image_keywords": ["hexagonal columns sliding", "blue intake fans", "mechanical opening"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SECTOR_WEST_MECHANISM", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Close-up of a smooth, concave depression in black obsidian. The hollow is filled with pitch-black ferrofluid, perfectly still and mirror-like. The rim of the hollow is lined with a thin, cold blue LED strip light. The texture of the surrounding "rock" is actually matte metal server casing. High contrast, macro details, industrial design, sleek, wet surface look.
+Vertical 9:16 composition. Macro Close-Up of the monolith's surface. The seamless black glass is splitting into perfect hexagonal columns (`BASALT_TECH`) that slide outward and retract. Deep inside the recesses, cold blue industrial cooling fans (`TURBINE_INTAKE`) are spinning up. Frost forms instantly on the edges of the opening due to thermal differential. High-tech industrial design, sharp focus, metallic textures.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The subject is the liquid surface of the ferrofluid pool.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Mechanical wall section.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The surface of the monolith. Metallic, cold, engineered.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold blue strip lighting reflecting sharply on the black liquid. Deep shadows.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Smooth panning shot across the surface. The liquid ripples slightly with a magnetic viscosity. 9:16 vertical video.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Monolith surface.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal blue glow revealing itself.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** The hexagons slide open mechanically. Fans spin up. 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Viscous liquid sounds, thick and heavy sloshing. Low-frequency thrumming. Electronic hum from the lighting.
+Heavy hydraulic hiss. The grinding sound of smooth stone on stone. Turbine spin-up whine.
 
-## [ACT I] [SCENE 1.3] [Timecode: 00:09-00:13] [HENOCH INGRESS]
-**Action:** Henoch steps from a vertical rift. He activates OCULAR_SCAN. Holographic wireframes project from his visor onto the black liquid.
+## [ACT I] [SCENE 1.4] [Timecode: 00:13-00:18] [ENTER RAPHAEL]
+**Action:** Raphael materializes from a vertical light-scan next to Henoch. He renders in place. He points a golden finger at the intake vents.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "SECTOR_WEST_PLATFORM", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["HUD_Visor"], "camera": "35mm / eye level", "mood": ["analytical", "focused"], "director_intent": "Henoch arrives and immediately begins analyzing the system.", "start_image_keywords": ["Henoch silver skin", "holographic visor", "wireframe projection"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "SCAN_INIT", "env_id": "SECTOR_WEST_PLATFORM", "props": ["HUD_Visor"], "notes": ""}, "motion_driver": {"type": "pose", "audio_id": "", "pose_source": "data/capture/poses/scan_sweep.mp4", "driver_notes": "Head turn with visor activation"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "SECTOR_WEST_PLATFORM", "env_change": false, "actors": [{"name": "Raphael", "phase": "Admin", "presence": "on_screen", "focus": "primary"}, {"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Data_Weave_Robes"], "camera": "Medium Shot / Flash", "mood": ["commanding", "sudden"], "director_intent": "The Admin arrives with zero latency to guide the user.", "start_image_keywords": ["Raphael golden skin", "fiber optic robes", "vertical light scan"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "ADMIN_APPEAR_POINT", "env_id": "SECTOR_WEST_PLATFORM", "props": [], "notes": ""}, "motion_driver": {"type": "pose", "audio_id": "", "pose_source": "data/capture/poses/admin_appear_point.mp4", "driver_notes": "Instant manifestation, slow arm raise"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Medium shot of Henoch (Phase 2 Voyager). He has metallic silver skin with a matte chrome finish. He wears a high-tech translucent visor over his eyes. Cyan holographic wireframe grids project from the visor into the air. He is wearing simple, weathered linen robes that contrast with his cybernetic skin. Background is the dark, sleek surface of the monolith. Cinematic lighting, sharp focus on the face, futuristic UI elements.
+Vertical 9:16 composition. Medium Shot. Archangel Raphael materializes instantly next to Henoch. Raphael has metallic gold skin and wears robes made of shimmering fiber-optic cables (`DATA_WEAVE`). His face is partially obscured by a rotating vertical holographic ring. He is raising a slender, metallic finger to point towards the open vents. Henoch stands in the background, looking startled. The lighting is dominated by Raphael's soft, refreshing blue cooling aura.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch, male figure, silver metallic skin, human proportions but synthetic texture.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Weathered linen robes, high-tech visor emitting light.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Standing on a dark platform near the ferrofluid pools.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cyan light from the visor illuminates his silver face. Ambient cold blue light from the environment.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Camera focuses on his face as the visor lights up. He turns his head slightly to scan. 9:16 vertical video.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Raphael (Gold Admin) and Henoch.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Fiber optic robes, silver skin.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Base of Monolith.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue aura against black background.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Instant cut (Flash). Raphael is just *there*. He raises his hand slowly. 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Digital chirp of a scanner activating. High-pitched frequency sweep. The sound of heavy fabric moving.
+Digital chime (Mac startup style but holier). A pleasant low-frequency hum.
 
-## [ACT I] [SCENE 1.4] [Timecode: 00:13-00:17] [ADMIN MANIFESTATION]
-**Action:** Raphael steps out of the data-fog. A trail of pixels follows his movement. He points a metallic finger at the hollows.
+## [ACT I] [SCENE 1.5] [Timecode: 00:18-00:22] [THE STREAM]
+**Action:** Millions of particles (souls) are flowing like a liquid fiber-optic river into the dark vents. Bioluminescent data-flow.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "low_angle", "environment": "SECTOR_WEST_PLATFORM", "env_change": false, "actors": [{"name": "Raphael", "phase": "Admin", "presence": "on_screen", "focus": "primary"}], "props": ["Data_Weave_Robes"], "camera": "Low angle / static", "mood": ["imposing", "mysterious"], "director_intent": "Introduce Raphael as a system entity, not a human.", "start_image_keywords": ["Raphael angel", "fiber optic robes", "digital halo"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POINT_GESTURE", "env_id": "SECTOR_WEST_PLATFORM", "props": ["Data_Weave_Robes"], "notes": ""}, "motion_driver": {"type": "pose", "audio_id": "", "pose_source": "data/capture/poses/admin_point.mp4", "driver_notes": "Smooth, unnatural movement"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "close_up", "framing": "close_up", "environment": "SECTOR_WEST_MECHANISM", "env_change": false, "actors": [], "props": ["Data_Particles"], "camera": "High Shutter / Static", "mood": ["mystical", "flowing"], "director_intent": "Visualize souls as a massive stream of raw data.", "start_image_keywords": ["bioluminescent data stream", "fiber optic river", "intake vent"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SECTOR_WEST_STREAM", "props": ["Data_Particles"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Low angle full body shot of Archangel Raphael. He appears as a tall, angular entity wearing robes made of shimmering fiber-optic cables (`DATA_WEAVE`). His face is obscured by a glowing digital halo or glitch-mask. He is pointing a long, slender metallic finger towards the viewer/hollows. A trail of pixelated distortion lingers behind him. Background is the dark monolith. Cyberpunk-religious aesthetic, majestic, ominous.
+Vertical 9:16 composition. Close-Up of the intake vent. A massive, turbulent river of glowing white and blue binary particles (`SOUL_DATA`) is flowing into the dark hexagonal opening. The flow behaves like liquid light or fiber optics, swirling and condensing as it enters the machine. The contrast between the bright, bioluminescent stream and the pitch-black opening is extreme. High shutter speed captures individual data nodes. Unreal Engine 5 particle simulation.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Raphael, tall humanoid entity, angular features, obscured face.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Robes of flowing light and data cables.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark industrial platform.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The robes emit a shifting light. The halo casts a glow.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Raphael steps forward out of a mist, the movement leaving a trail of pixels. He raises his hand to point. 9:16 vertical video.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Digital displacement sound, a "swoosh" made of data noise. The sound of fiber optics rustling (like dry leaves but metallic).
-
-## [ACT II] [SCENE 2.1] [Timecode: 00:17-00:22] [SYSTEM EXPLANATION]
-**Action:** Raphael speaks. Floating UI windows erupt, displaying scrolling code (SPIRIT_LOGS). Blue light bathes his masked face.
-**Dialog:** "These are the storage partitions."
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "over_the_shoulder", "environment": "SECTOR_WEST_PLATFORM", "env_change": false, "actors": [{"name": "Raphael", "phase": "Admin", "presence": "on_screen", "focus": "primary"}, {"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Holographic_UI"], "camera": "OTS / shallow depth", "mood": ["informative", "tech-heavy"], "director_intent": "Show the data behind the reality.", "start_image_keywords": ["holographic UI", "scrolling code", "Raphael face"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "EXPLAIN_GESTURE", "env_id": "SECTOR_WEST_PLATFORM", "props": ["Holographic_UI"], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "raphael_dialog_01", "pose_source": "", "driver_notes": "Minimal mouth movement, mask modulation"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 6}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Over-the-shoulder shot looking past Henoch's silver shoulder towards Raphael. Raphael is surrounded by floating holographic windows displaying vertical scrolling code in Ge'ez and binary. The blue light from the UI illuminates Raphael's masked face. The background is the blurred dark monolith. High-tech interface design, depth of field, cinematic composition.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Raphael in focus, Henoch out of focus in foreground.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Raphael's fiber optic robes.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The air is filled with floating data screens.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Strong blue screen glow on Raphael.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Raphael gestures and the UI windows shift and scroll. He speaks (mask modulates). 9:16 vertical video.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-UI interaction clicks and beeps. A low hum of processing power. Raphael's voice is synthesized and resonant.
-
-## [ACT II] [SCENE 2.2] [Timecode: 00:22-00:27] [DATA ACTIVATION]
-**Action:** The ferrofluid boils. Thousands of DATA_NODES (souls) rise as bioluminescent particles, forming ghostly shapes.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "high_angle", "environment": "SECTOR_WEST_HOLLOWS", "env_change": false, "actors": [], "props": ["Data_Nodes"], "camera": "High angle / slow zoom", "mood": ["ethereal", "haunting"], "director_intent": "Visualize souls as data points in the system.", "start_image_keywords": ["boiling ferrofluid", "glowing particles", "ghostly shapes"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SECTOR_WEST_HOLLOWS", "props": ["Data_Nodes"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. High angle shot looking down into a pool of black ferrofluid. The liquid is boiling and turbulent. Thousands of tiny, bioluminescent white and blue particles (`DATA_NODES`) are rising from the black depths, forming vague, ghostly humanoid shapes in the air above the pool. The contrast between the black liquid and the glowing particles is stark. Mystical technology, particle simulation, ethereal atmosphere.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The subject is the particle cloud forming shapes.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Data particle stream.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The black liquid pool.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bioluminescent glow from the particles illuminating the black liquid.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** The particles rise and swirl, forming transient shapes. The liquid bubbles. 9:16 vertical video.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Intake vent.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Self-illuminated particles.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Rapid, fluid motion of particles sucking into the void. 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitched data screeching, like a modem handshake but organic. The sound of boiling liquid. Ethereal choir texture.
+A chorus of millions of whispered voices layered into a steady white noise. Flowing water sounds but digital.
 
-## [ACT II] [SCENE 2.3] [Timecode: 00:27-00:30] [SECTOR ABEL (ERROR)]
-**Action:** The liquid in one hollow turns turbulent. A jagged red waveform spike erupts. The environment lighting flickers red.
+## [ACT II] [SCENE 2.1] [Timecode: 00:22-00:26] [ALERT]
+**Action:** Henoch's tablet flashes RED. A jagged waveform spikes on his screen. He looks up, startled.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "SECTOR_ABEL", "env_change": true, "actors": [], "props": ["Red_Waveform_Spike"], "camera": "Unstable / handheld feel", "mood": ["dangerous", "corrupted"], "director_intent": "Introduce the antagonist as a system error.", "start_image_keywords": ["red waveform spike", "glitch geometry", "turbulent liquid"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SECTOR_ABEL", "props": ["Red_Waveform_Spike"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "pov", "framing": "close_up", "environment": "SECTOR_WEST_PLATFORM", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "off_screen", "focus": "primary"}], "props": ["Obsidian_Tablet", "Red_Waveform"], "camera": "POV / Whip Pan", "mood": ["alarm", "danger"], "director_intent": "The system detects a fatal error in the data stream.", "start_image_keywords": ["tablet screen red alert", "jagged waveform", "tech interface"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "TABLET_LOOK", "env_id": "SECTOR_WEST_PLATFORM", "props": ["Obsidian_Tablet"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Wide shot of a specific ferrofluid pool. The liquid is violently churning. A massive, jagged red 3D waveform spike is erupting from the center. The geometry of the spike is fractured and glitchy. The surrounding environment lighting is flickering intense red. Chromatic aberration and digital distortion effects around the spike. Aggressive, chaotic, system failure aesthetic.
+Vertical 9:16 composition. POV Shot looking down at Henoch's hands holding the Obsidian Tablet. The semi-transparent screen is flashing with an intense red strobe (`SYSTEM_CRITICAL`). A jagged, chaotic waveform spike dominates the display, disrupting the orderly blue data streams. Ge'ez error codes scroll rapidly. The red light reflects off Henoch's silver fingertips. High-tech UI design, urgent atmosphere.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The red glitch spike.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Tablet interface.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Henoch's gloves.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred platform floor.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red strobe light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Whip pan up from the screen to the horizon. 9:16 vertical video.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Harsh screeching modem noise. Repeated, urgent alarm beeps (high pitch).
+
+## [ACT II] [SCENE 2.2] [Timecode: 00:26-00:32] [THE ANOMALY (ABEL)]
+**Action:** A chaotic knot of red motion-vectors hovers near a vent. It screams, but the face is smeared pixels. It is trying to ascend but is tethered by code.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "SECTOR_ABEL", "env_change": true, "actors": [{"name": "Abel", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": ["Red_Glitch_VFX"], "camera": "Handheld / Shaky", "mood": ["horror", "chaos"], "director_intent": "The first murder appears as a corrupted file that cannot be read.", "start_image_keywords": ["red glitch entity", "smeared pixels", "Abel screaming"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "GLITCH_STRUGGLE", "env_id": "SECTOR_ABEL", "props": [], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "abel_scream_01", "pose_source": "", "driver_notes": "Distorted screaming, mouth open wide"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 composition. Medium Shot of the "Abel Anomaly". It is a floating, chaotic knot of jagged red polygons and smeared motion vectors (`DATAMOSH_EFFECT`). Through the digital noise, a screaming human face is barely visible, stretched and distorted like a corrupted video file. The entity is tethered to the ground by black chains of code. The background is a blurry, shaking void. Visceral digital horror, high contrast red and black.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Abel: Glitch entity.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The turbulent pool.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Strobe red lighting.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** The spike grows and vibrates violently. The camera shakes. 9:16 vertical video.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Hovering near vent.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal red fire/error glow.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Aggressive handheld camera shake. The entity vibrates and screams, trying to break free. 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Distorted alarm signal. Heavy bass drop. Digital tearing sound.
+Distorted, time-stretched screaming that sounds metallic. Audio clipping/peaking static.
 
-## [ACT II] [SCENE 2.4] [Timecode: 00:30-00:32] [THE SCREAM]
-**Action:** The red spike forms a screaming face of tearing geometry. It is unstable, vibrating violently.
-**Dialog:** -
+## [ACT II] [SCENE 2.3] [Timecode: 00:32-00:36] [INTERROGATION]
+**Action:** Henoch holds the tablet like a scanner toward the anomaly. "Whose spirit is this?" (Visual query).
+**Dialog:** "System Error! Identification?"
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "SECTOR_ABEL", "env_change": false, "actors": [{"name": "Abel", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Shaky cam / crash zoom", "mood": ["horror", "chaos"], "director_intent": "The error has a face. It is suffering.", "start_image_keywords": ["glitch face", "red polygon scream", "digital horror"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "SCREAM_FACE", "env_id": "SECTOR_ABEL", "props": [], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "abel_scream_01", "pose_source": "", "driver_notes": "Extreme distortion"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "over_the_shoulder", "environment": "SECTOR_WEST_PLATFORM", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}, {"name": "Raphael", "phase": "Admin", "presence": "on_screen", "focus": "secondary"}], "props": ["Obsidian_Tablet"], "camera": "Reverse OTS / Dynamic", "mood": ["urgent", "demanding"], "director_intent": "Henoch demands a system diagnosis for the horror.", "start_image_keywords": ["Henoch holding tablet", "scanning gesture", "red reflection"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "SCAN_POINT", "env_id": "SECTOR_WEST_PLATFORM", "props": ["Obsidian_Tablet"], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "henoch_interrogation", "pose_source": "data/capture/poses/scan_shout.mp4", "driver_notes": "Urgent questioning"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Extreme Close-Up of a screaming face formed from jagged red polygons and wireframe mesh. The face is tearing apart (`MESH_TEARING`). It looks like a corrupted 3D model of a human in agony. Heavy digital noise, scanlines, and red glow. The background is pure digital chaos. Unsettling, intense, glitch art style.
+Vertical 9:16 composition. Reverse Over-The-Shoulder shot from behind Raphael. Henoch is in the foreground, holding his tablet up like a weapon/scanner towards the off-screen anomaly. He is shouting, his face illuminated by the red distress light. His silver skin reflects the chaos. Raphael stands calm in the foreground, his silhouette edged in cool blue light. High tension, dynamic framing.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** A face made of red shards and light.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Void of red static.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal red glow, flickering.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** The face screams and distorts, polygons flying off. Fast, aggressive motion. 9:16 vertical video.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-A digital scream, like audio feedback looped and distorted. White noise burst.
-
-## [ACT II] [SCENE 2.5] [Timecode: 00:32-00:34] [BIOMETRIC REACTION]
-**Action:** Henoch flinches, shielding his eyes. The red light flares in his silver skin. He is overwhelmed by the signal.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "SECTOR_WEST_PLATFORM", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["HUD_Visor"], "camera": "85mm / shallow depth", "mood": ["pain", "overload"], "director_intent": "Show the physical impact of the digital error on Henoch.", "start_image_keywords": ["Henoch flinching", "silver skin red reflection", "shielding eyes"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "FLINCH_SHIELD", "env_id": "SECTOR_WEST_PLATFORM", "props": ["HUD_Visor"], "notes": ""}, "motion_driver": {"type": "pose", "audio_id": "", "pose_source": "data/capture/poses/flinch_reaction.mp4", "driver_notes": "Sharp recoil"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Close-up of Henoch. He is flinching, raising a silver hand to shield his eyes. The intense red light from the glitch is reflecting harshly off his metallic skin and visor. His expression is one of pain and sensory overload. The background is dark but lit by the red flare. High contrast, dramatic lighting, detailed skin texture.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch, silver skin.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Visor, robes.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (Active).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Tablet.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Platform.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red flare washing out the scene.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Henoch recoils sharply. The camera shakes slightly with him. 9:16 vertical video.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red front light, blue rim light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Henoch thrusts the tablet forward. Camera pushes in on him. 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitched tinnitus ringing sound. The sound of fabric rustling quickly.
+Henoch's voice: Distorted, stressed. Digital scanner lock-on sound ("Chirp-Lock").
 
-## [ACT II] [SCENE 2.6] [Timecode: 00:34-00:39] [DEBUGGING]
-**Action:** Raphael swipes his hand. The red signal is dampened. The spike collapses back into the fluid.
-**Dialog:** "Recursive process until root cause is purged."
+## [ACT II] [SCENE 2.4] [Timecode: 00:36-00:44] [FORENSICS]
+**Action:** Raphael swipes the air. A holographic history log appears: A DNA helix (Cain) disintegrating into red dust. "The seed of the brother-slayer."
+**Dialog:** "Subject: Abel. Status: Unresolved Homicide."
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "SECTOR_WEST_PLATFORM", "env_change": false, "actors": [{"name": "Raphael", "phase": "Admin", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Steady / calm", "mood": ["control", "authority"], "director_intent": "Raphael restores order with a gesture.", "start_image_keywords": ["Raphael hand swipe", "red light fading", "calm admin"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "SWIPE_GESTURE", "env_id": "SECTOR_WEST_PLATFORM", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "raphael_dialog_02", "pose_source": "data/capture/poses/hand_swipe_calm.mp4", "driver_notes": "Authoritative swipe"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 8}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "SECTOR_WEST_PLATFORM", "env_change": false, "actors": [{"name": "Raphael", "phase": "Admin", "presence": "on_screen", "focus": "primary"}], "props": ["Holo_DNA"], "camera": "Smooth Pan / Focus Pull", "mood": ["clinical", "detached"], "director_intent": "The Admin reveals the root cause code.", "start_image_keywords": ["Raphael hand", "holographic DNA", "red dust disintegration"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "ADMIN_HOLO_MANIPULATE", "env_id": "SECTOR_WEST_PLATFORM", "props": ["Holo_DNA"], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "raphael_forensics", "pose_source": "data/capture/poses/hand_manipulate_holo.mp4", "driver_notes": "Precise finger movements"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 8}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Medium shot of Raphael. He is calm, making a smooth, horizontal swiping gesture with his hand. As he swipes, the red light in the environment is fading back to blue/black. His digital halo stabilizes. The background shows the red spike collapsing. Sense of control and power.
+Vertical 9:16 composition. Close-Up of Raphael's metallic gold hands manipulating a floating holographic projection. The projection shows a double-helix DNA strand (`CAIN_SEQUENCE`) that is disintegrating into red dust particles. The blue light of the hologram illuminates Raphael's impassive, masked face. The background is dark and out of focus. Sci-fi medical interface style.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Raphael.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Fiber optic robes.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Raphael's hands.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Holo-interface.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** N/A.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue interface light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Smooth pan following the hand gesture. The DNA crumbles. 9:16 vertical video.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Rapid data-scroll clicking. Raphael's cool, synthetic voice. A "crushing" sound effect as the DNA breaks.
+
+## [ACT II] [SCENE 2.5] [Timecode: 00:44-00:54] [CLASSIFICATION (RIGHTEOUS)]
+**Action:** Raphael gestures to the "Spring" partition. Inside a glass pillar, blue fluid bubbles around suspended light-spheres. Safe. Cool.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "medium", "framing": "medium", "environment": "SECTOR_ALPHA", "env_change": true, "actors": [], "props": ["Stasis_Tank"], "camera": "Dolly In / Slow", "mood": ["peaceful", "sterile"], "director_intent": "Show the safe storage for valid data.", "start_image_keywords": ["glass stasis tank", "blue fluid", "suspended light spheres"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SECTOR_ALPHA_TANK", "props": ["Stasis_Tank"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 composition. Medium Shot of a massive cylindrical glass stasis tank (`RIGHTEOUS_PARTITION`). Inside, thick, glowing blue coolant fluid bubbles gently around suspended spheres of pure white light. The glass is rimmed with frost and condensation. The lighting is soft, clinical white, creating a sense of safety and preservation. Laboratory aesthetic.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Stasis tank.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Sector Alpha.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal blue/white glow.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow dolly push in. Bubbles rise slowly (slow motion). 9:16 vertical video.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Underwater bubbling sound. Steady, reassuring heartbeat monitor beep (60 BPM).
+
+## [ACT II] [SCENE 2.6] [Timecode: 00:54-01:05] [CLASSIFICATION (SINNERS)]
+**Action:** Cut to the "Earth" partition. A rusted, heavy lead vault door. No light. Dust settles around the seal. Sealed until Judgment.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "medium", "framing": "medium", "environment": "SECTOR_BETA", "env_change": true, "actors": [], "props": ["Vault_Door"], "camera": "Static / High Contrast", "mood": ["oppressive", "final"], "director_intent": "Contrast with the vault for corrupted data.", "start_image_keywords": ["rusted vault door", "lead seal", "darkness"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SECTOR_BETA_VAULT", "props": ["Vault_Door"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 composition. Medium Shot of a heavy, rusted lead vault door (`SINNERS_PARTITION`) set into the black wall. It is sealed with heavy industrial locking mechanisms and layered with dust. There are no lights, only deep shadows. Faint orange warning symbols are painted on the metal. The texture is rough, corroded, and ancient. A sense of heavy gravity and permanence.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Vault door.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Sector Beta.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Pitch black with faint rim light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Completely static shot. Dust motes settle. Uncomfortable stillness. 9:16 vertical video.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Heavy metallic thud (reverb). Low frequency drone (brown noise). Silence.
+
+## [ACT III] [SCENE 3.1] [Timecode: 01:05-01:12] [SYNTHESIS]
+**Action:** Henoch lowers the tablet. The red alert fades to neutral. He understands the logic of the storage.
+**Dialog:** "Blessing: Administrator of Truth. Partition Accepted."
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "SECTOR_WEST_PLATFORM", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Obsidian_Tablet"], "camera": "Slow Zoom / Hero", "mood": ["acceptance", "calm"], "director_intent": "Henoch accepts the system logic.", "start_image_keywords": ["Henoch silver eyes", "tablet neutral", "calm expression"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "ACCEPT_NOD", "env_id": "SECTOR_WEST_PLATFORM", "props": ["Obsidian_Tablet"], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "henoch_blessing", "pose_source": "data/capture/poses/slow_nod_calm.mp4", "driver_notes": "Solemn nod, eyes closing"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 6}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 composition. Close-Up on Henoch's face. The red reflection from the tablet fades, replaced by a neutral soft blue glow. His silver iris scanners constrict, signaling the end of the query (`SYSTEM_STANDBY`). He lowers the tablet slowly. His expression shifts from panic to solemn understanding. The background is a soft bokeh of the monolith.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch's face.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Visor/Eyes.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Platform.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Transition from red chaos to cool blue.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Raphael swipes his hand. The lighting shifts instantly. He speaks. 9:16 vertical video.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Transition from Red to Blue light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow zoom in. He blinks and nods. 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A power-down hum, like a turbine spinning down. The red alarm sound fades out. Raphael's voice.
+Alarm sound fades out. Return to the ambient server hum. Henoch's voice: calm, resonant.
 
-## [ACT III] [SCENE 3.1] [Timecode: 00:39-00:44] [SECTOR ALPHA (RIGHTEOUS)]
-**Action:** A different hollow. Clear water, illuminated from within by SOURCE_LUMEN. Sterile, cleanroom aesthetic.
+## [ACT III] [SCENE 3.2] [Timecode: 01:12-01:18] [BLESSING]
+**Action:** Henoch raises both hands (palms up). A golden pulse travels from his chest through his arms, syncing with the Monolith.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "SECTOR_ALPHA", "env_change": true, "actors": [], "props": [], "camera": "Tracking / smooth", "mood": ["peaceful", "sterile"], "director_intent": "Show the contrast of the righteous partition.", "start_image_keywords": ["clear water pool", "white light from below", "cleanroom aesthetic"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SECTOR_ALPHA", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "low_angle", "environment": "SECTOR_WEST_PLATFORM", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Golden_Pulse_VFX"], "camera": "Low Angle / Glow", "mood": ["sacred", "powerful"], "director_intent": "A visual handshake between the user and the system.", "start_image_keywords": ["Henoch raising hands", "golden pulse", "chest glowing"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "BLESSING_HANDS", "env_id": "SECTOR_WEST_PLATFORM", "props": [], "notes": ""}, "motion_driver": {"type": "pose", "audio_id": "", "pose_source": "data/capture/poses/blessing_gesture.mp4", "driver_notes": "Slow, symmetrical arm raise"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Wide tracking shot of a different hollow. This one is filled with crystal clear water. A bright, steady white light shines from deep within the water, illuminating the entire hollow. Soft white mist rises from the surface. The surrounding obsidian is clean and sterile. High-tech cleanroom aesthetic, peaceful, pure.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The clear water pool.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Clean, lit hollow.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright white under-lighting. Soft diffusion.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Smooth camera track over the water. Gentle mist movement. 9:16 vertical video.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Pure sine wave tone, very low volume. Silence. Soft air movement.
-
-## [ACT III] [SCENE 3.2] [Timecode: 00:44-00:48] [SECTOR BETA (SINNER)]
-**Action:** A deep, dark shaft. Faint orange warning lights pulse deep down. Steam vents from pressure valves.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "high_angle", "environment": "SECTOR_BETA", "env_change": true, "actors": [], "props": [], "camera": "Top down / vertigo", "mood": ["oppressive", "hot"], "director_intent": "Show the prison of the sinners.", "start_image_keywords": ["dark shaft", "orange warning light", "steam vents"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SECTOR_BETA", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Top-down view into a deep, dark cylindrical shaft in the obsidian. Faint, pulsing orange warning lights are visible far down in the abyss. Jets of steam are venting from pressure valves on the walls. The walls are slick with oil. Sense of immense pressure, heat, and depth. Industrial hellscape.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The dark shaft.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Deep vertical tunnel.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dark with orange pulses.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Camera looks down. Steam shoots out. Lights pulse. 9:16 vertical video.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Hissing steam. Distant clanking machinery. Low frequency rumble.
-
-## [ACT III] [SCENE 3.3] [Timecode: 00:48-00:52] [SECTOR GAMMA (WAITING)]
-**Action:** A grey, stagnant pool. Dormant shapes float just below the surface. Desaturated.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "SECTOR_GAMMA", "env_change": true, "actors": [], "props": [], "camera": "Static / symmetrical", "mood": ["stagnant", "neutral"], "director_intent": "The waiting room of souls.", "start_image_keywords": ["grey stagnant pool", "dormant shapes", "desaturated"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SECTOR_GAMMA", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Static wide shot of a grey, stagnant pool of liquid. Vague, dormant shapes float just below the surface, like bodies in stasis. The lighting is flat, shadowless, and completely desaturated. No movement. A place of limbo.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The grey pool.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Flat liquid surface.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Grey, flat lighting.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Completely static shot. Only very subtle surface tension movement. 9:16 vertical video.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Low, stagnant drone. No water sounds. Dead silence.
-
-## [ACT III] [SCENE 3.4] [Timecode: 00:52-00:57] [SYSTEM ACKNOWLEDGEMENT]
-**Action:** Henoch lowers his hand. The scan beams retract. He looks up at the Monolith, accepting the architecture.
-**Dialog:** (Internal) "Blessed be the Lord of Judgment."
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "low_angle", "environment": "SECTOR_WEST_PLATFORM", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["HUD_Visor"], "camera": "Low angle / hero shot", "mood": ["reverence", "acceptance"], "director_intent": "Henoch accepts the system's logic.", "start_image_keywords": ["Henoch looking up", "visor deactivating", "monolith background"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "LOOK_UP", "env_id": "SECTOR_WEST_PLATFORM", "props": ["HUD_Visor"], "notes": ""}, "motion_driver": {"type": "pose", "audio_id": "henoch_monologue_03", "pose_source": "data/capture/poses/look_up_slow.mp4", "driver_notes": "Slow, reverent movement"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 6}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Low angle hero shot of Henoch. He is slowly lowering his hand. The holographic beams from his visor are retracting/fading out. He tilts his head back to look up at the towering monolith. His expression is one of solemn acceptance and awe. The silver skin reflects the environment.
+Vertical 9:16 composition. Low Angle Medium Shot of Henoch. He raises both hands in a symmetrical gesture of blessing (palms up). A visible pulse of liquid gold light (`SYSTEM_SYNC`) travels from his chest core, down his arms, and into his fingertips. The light illuminates his translucent robes from within. The obsidian floor reflects the golden glow. Majestic, religious but technological.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Visor, robes.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Platform, monolith background.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cool ambient light.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Henoch looks up slowly. The holograms fade. 9:16 vertical video.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Robes.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Monolith base.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Gold light expanding from chest.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow motion. The light travels through his veins. 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A choral synth swell, majestic but synthetic. The sound of the scanner powering down.
+Harmonic resonance chord (Major key). A deep, warm synth swell.
 
-## [ACT III] [SCENE 3.5] [Timecode: 00:57-01:00] [TERMINATION]
-**Action:** Rapid zoom out. The Monolith becomes a single black pixel in the white noise of the desert.
+## [ACT III] [SCENE 3.3] [Timecode: 01:18-01:22] [SYSTEM LOG]
+**Action:** The Monolith accepts the sync. The hexagonal columns retract flush with the wall. The surface becomes smooth again.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "extreme_wide", "environment": "SECTOR_WEST_DESERT", "env_change": true, "actors": [], "props": [], "camera": "Reverse zoom / accelerated", "mood": ["finality", "void"], "director_intent": "End the simulation.", "start_image_keywords": ["distant monolith", "grey desert", "white noise"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SECTOR_WEST_DESERT", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "SECTOR_WEST_MONOLITH", "env_change": true, "actors": [], "props": [], "camera": "Time Lapse / Static", "mood": ["closure", "order"], "director_intent": "The archive closes.", "start_image_keywords": ["monolith closing", "smooth surface", "retracting columns"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SECTOR_WEST_CLOSING", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Extreme wide shot, very distant view of the black monolith in the grey desert. It is small in the frame, surrounded by emptiness. The image is degrading into white noise/static at the edges.
+Vertical 9:16 composition. Wide Shot of the Monolith wall. The open hexagonal columns slide smoothly back into place, interlocking perfectly. The blue light is extinguished as the wall seals itself, returning to a perfect, unbroken Vantablack mirror. The digital fog lowers, obscuring the top. A return to silence and order.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The distant monolith.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Monolith wall.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite desert.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flat grey.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Rapid reverse zoom. The monolith shrinks to a dot. The screen turns off (CRT effect). 9:16 vertical video.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Desert.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue light vanishing into black.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Time-lapse speed. The wall seals shut. 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Old TV switch-off sound. Sudden silence.
+Hydraulic retraction sound ("Thud-Click"). Finality.
+
+## [ACT III] [SCENE 3.4] [Timecode: 01:22-01:25] [LOGOUT]
+**Action:** The entire scene collapses into a single horizontal white line (CRT shutdown effect). Black screen.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "graphic", "framing": "full_body", "environment": "SECTOR_WEST_DESERT", "env_change": true, "actors": [], "props": [], "camera": "Zoom Out / Glitch", "mood": ["end", "void"], "director_intent": "End simulation loop.", "start_image_keywords": ["crt switch off", "horizontal line", "black screen"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "VOID", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 composition. Graphic design element. The entire 3D scene (Monolith and Desert) is being crushed vertically into a single glowing white horizontal line against a black background (`CRT_OFF_EFFECT`). The edges are fraying with chromatic aberration. Absolute minimalism.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Scene.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Void.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** White line on black.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Rapid animation. The image squashes and vanishes. 9:16 vertical video.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Old TV power-down sound ("Pewww-Zip"). Complete silence.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.3","text":"System-Scan initiiert. Die Architektur ist... absolut.","words_max":8},{"scene":"2.5","text":"Fehler im Protokoll. Der Schmerz ist Daten-Korruption.","words_max":8},{"scene":"3.4","text":"Gespeichert und sortiert. Das Urteil ist binär.","words_max":8}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.1","text":"Login bestätigt. Die Architektur ist absolut.","words_max":8},{"scene":"2.3","text":"Fehler im Kernel. Der Schmerz ist Datenverlust.","words_max":8},{"scene":"3.1","text":"Gespeichert. Sortiert. Das System ist gerecht.","words_max":8}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

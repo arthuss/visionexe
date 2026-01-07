@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 38 - 48
 
-**Phase Summary:** The Judge in its standard, observing state within the void.
-**Phase Keywords:** stationary, observing, red lighting, imposing
+**Phase Summary:** Judge in Null Void, default appearance
+**Phase Keywords:** translucent marble, crystalline ocular, glyphs, bio-luminescence, ancient Ethiopian, Egyptian, industrial mysticism
 **Phase Prompt:**
-A low-angle, cinematic medium shot of The Judge, a colossal biomechanical entity seated on a dark basalt throne. The figure is robed in heavy, oxidized metallic garments with gold circuitry embroidery. The face is a smooth, windowless obsidian visor reflecting a harsh red environment. The atmosphere is thick with dust and static. Intricate details, photorealistic textures, grounded sci-fi, dramatic shadows.
+A towering figure in the Null Void, a Judge of ancient Ethiopian and Egyptian aesthetics fused with incomprehensible technology, translucent marble skeleton with ribbed structure, luminous glyphs pulsing along its surface, crystalline ocular lenses that glow with bio‑luminescent light, bronze plates etched with hieroglyphic patterns, obsidian fiber cape woven with ancient symbols, a scepter of pure light, photorealistic, cinematic lighting, dramatic shadows, tactile textures, 9:16 vertical composition, medium shot, high detail, dramatic lighting, cinematic
 
 ---

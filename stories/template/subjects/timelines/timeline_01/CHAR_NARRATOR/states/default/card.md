@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 103 - 103
 
-**Phase Summary:** The Narrator as the wandering witness in standard travel gear.
-**Phase Keywords:** ancient scribe, cyberpunk bedouin, ethiopian futurism, weathered robes, brass goggles, desert ruins
+**Phase Summary:** Default appearance of the narrator, blending ancient Ethiopian and Egyptian aesthetics with advanced technology.
+**Phase Keywords:** ancient Ethiopian, Egyptian, bio-luminescent glyphs, crystalline staff, obsidian silk, industrial mysticism, photorealistic, tactile, cinematic lighting
 **Phase Prompt:**
-A photorealistic medium shot of the Narrator, an ancient-tech scribe standing amidst obsidian ruins. He wears heavy, dust-colored linen robes intricately embroidered with copper circuitry patterns. His face is partially obscured by a tactical shemagh, and he wears brass-rimmed goggles with glowing crystalline lenses. A heavy, primitive-looking sensor backpack is strapped to his shoulders. He holds a dark glass tablet displaying holographic cuneiform data. The lighting is dramatic, high-contrast sunset striking the metallic threads in his clothing. Texture of worn fabric and oxidized metal is palpable.
+A towering narrator figure in a photorealistic, ancient-tech setting, wearing an indigo obsidian‑silk robe etched with bioluminescent hieroglyphic glyphs, a translucent sensor mask covering half his face, glowing azure crystalline staff, holding a shifting Chrono‑Tablet, surrounded by industrial mysticism, grounded realism, tactile textures, cinematic lighting, ancient Ethiopian and Egyptian motifs, advanced incomprehensible technology, photorealistic detail, high resolution
 
 ---

@@ -1,228 +1,211 @@
 # DREHBUCH KAPITEL 27 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Wir erreichten den Rand des Systems, dort wo die Daten nicht mehr fließen, sondern stocken. Ein Tal, tief und dunkel, wie eine Wunde im Speicher der Welt, markiert als Sektor für die Verdammten. Hier endet nicht nur der Weg, sondern auch die Logik der Schöpfung selbst. Es ist der Mülleimer der Ewigkeit, wo jene warten, die das Protokoll verrieten.
+NARRATOR_TEXT: Wir erreichten die Partition Gehenna, wo die Architektur der Schöpfung endet und der rohe Datenspeicher beginnt. Hier werden jene Eingaben isoliert, die das Protokoll des Administrators verweigerten und zur Löschung markiert sind. Es ist kein Ort der Strafe im emotionalen Sinne, sondern eine notwendige Quarantäne für beschädigte Sektoren.
 
-## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:04] [ESTABLISHING: THE NULL SECTOR]
-**Action:** Weitwinkel-Aufnahme über eine dunkle, zerklüftete Schlucht. Die Vegetation ist schwarz und zittert in statischer Starre. Texturen flackern zwischen fotorealistischem Schlamm und grauen Polygonen.
+## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:04] [ESTABLISHING: THE RENDER ERROR]
+**Action:** Split-Screen-Effekt in der Weltgeometrie. Links: Hyper-reales goldenes Moos und perfekte fraktale Bäume. Rechts: Die Texturkarte endet abrupt in einer Leere aus gestreckten schwarzen Polygonen (Vertex Explosions).
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "The Accursed Valley", "env_change": true, "actors": [], "props": ["glitching_trees", "error_glyphs"], "camera": "14mm Wide Angle, Slow Pan", "mood": ["oppressive", "digital_decay"], "director_intent": "Establish the broken physics of this location immediately.", "start_image_keywords": ["dark ravine", "glitching terrain"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_VALLEY_GLITCH", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Border of Blessed Land and Void", "env_change": true, "actors": [], "props": ["fractal_trees", "polygon_void"], "camera": "Dolly Track Low, 14mm", "mood": ["contrast", "surreal"], "director_intent": "Visualize the hard edge where the simulation's rendering fails.", "start_image_keywords": ["split reality", "golden moss", "black polygons"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_BORDER_SPLIT", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic wide shot of a dark, desolate ravine, the Accursed Valley, vertical aspect ratio 9:16. The landscape is a mix of hyper-realistic dark rock and corrupted grey geometry. Black, jagged trees stand frozen. Red holographic "ERROR" glyphs float faintly in the heavy fog. Lighting is dim, oppressive, with a digital noise grain. High contrast, 8k resolution, unreal engine 5 render style, industrial mysticism aesthetic.
+Cinematic low-angle wide shot, vertical 9:16. The screen is split by a sharp geometric line. LEFT SIDE: "The Blessed Land" featuring hyper-realistic, golden fractal moss and luminescent geometric trees, bathed in warm divine light, 8k textures. RIGHT SIDE: "The Void" where the world geometry breaks into stretching black polygons, vertex explosions, and wireframe abysses. High contrast, Unreal Engine 5 rendering, glitch art aesthetic meets renaissance oil painting.
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** No human subject. The subject is the landscape itself, a deep ravine with jagged, black rock formations.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Environment Border.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The Accursed Valley. A dark, foggy abyss. The ground texture flickers intermittently between detailed mud and flat grey surfaces. Trees do not sway but jitter in place.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Low-key lighting, deep shadows. Faint red ambient light from floating error glyphs. The atmosphere is thick with digital artifacting.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 14mm wide angle lens. Slow, heavy camera pan across the valley. High fidelity, photorealistic textures clashing with intentional glitch effects. 9:16 vertical frame.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A sharp divide between lush, golden fractal vegetation and a corrupted, dark void.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Left: Warm, bloom-heavy golden hour light. Right: Cold, flat darkness with jagged shadows.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fast dolly track camera moving parallel to the border line. 14mm wide lens. The right side flickers and stutters (simulated low framerate) while the left is smooth 60fps.
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy, oppressive silence broken by bit-crushed wind sounds. A constant low-fidelity static hiss in the background. Occasional digital stuttering noises like a failing hard drive. No music.
+Stereo separation: Left channel plays a pure, harmonic sine wave choir. Right channel plays aggressive digital static, coil whine, and bit-crushed screeching.
 
-## [ACT 1] [SCENE 1.2] [Timecode: 00:04-00:08] [INGRESS: ENOCH]
-**Action:** Henoch materialisiert am Klippenrand. Seine Füße treffen auf den staubigen Boden und senden eine blaue Drahtgitter-Welle aus, die den Boden unter ihm stabilisiert.
+## [ACT 1] [SCENE 1.2] [Timecode: 00:04-00:07] [ACTION: ENOCH IMPACT]
+**Action:** Henoch schlägt via Merkabah-Drop auf dem Boden auf. Staubpartikel frieren beim Kontakt in der Luft ein (Physics Pause). Sein Shader wellt sich von Drahtgitter zu solidem Silber.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "insert", "framing": "close_up", "environment": "Cliff Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["wireframe_ripple"], "camera": "Low Angle, Ground Level", "mood": ["technological", "impact"], "director_intent": "Show the weight of his arrival stabilizing the chaos.", "start_image_keywords": ["boots impact", "blue wireframe"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POSE_LANDING", "env_id": "ENV_CLIFF_EDGE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "wide", "environment": "The Border Cliff", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["impact_dust", "wireframe_ripple"], "camera": "High-Angle Impact Cam, Shaky", "mood": ["dynamic", "impact"], "director_intent": "Show the physical weight of entering this partition.", "start_image_keywords": ["Enoch landing", "frozen dust"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POSE_LANDING_CROUCH", "env_id": "ENV_BORDER_CLIFF", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Close-up low angle shot of heavy techno-linen boots hitting dusty ground. A ripple of glowing blue wireframe geometry spreads out from the impact point, overwriting the chaotic dirt with a clean grid. The hem of a silver-threaded robe flutters. Cinematic lighting, high detail, 8k, photorealistic, sci-fi religious aesthetic, vertical 9:16.
+High-angle dynamic action shot, vertical 9:16. Enoch (Voyager Phase) lands in a heavy superhero crouch on a rocky ledge. He wears silver-threaded techno-linen robes and heavy boots. Around his feet, a shockwave of dust is frozen mid-explosion, suspended in bullet-time. His skin texture is transitioning from a blue wireframe grid to solid silver-translucent flesh. Dramatic rim lighting, motion blur, particle effects, 8k.
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch's lower legs and feet. Heavy boots.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Woven techno-linen robes with integrated circuit filaments. Heavy travel boots.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A dusty cliff edge overlooking a dark void. The ground is unstable until touched.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dim ambient light, illuminated by the sudden bright blue pulse of the wireframe stabilization wave.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Low angle, ground level camera. Focus on the impact and the spreading light effect. Slow motion impact, then real-time ripple. 9:16 vertical.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, Voyager Phase. Silver skin, gold sub-dermal circuitry.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Techno-linen robes, HUD visor, heavy boots.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Rocky cliff edge.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue flash upon impact, settling into ambient grey.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Camera shakes violently on impact. High angle looking down. The texture of Enoch's body "pops" from low-poly to high-res. The dust cloud freezes instantly after the impact frame.
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A heavy sub-bass thud upon impact. A sharp, digital "login" chime or synchronization sound. The sound of dust being displaced.
+Heavy sub-bass impact thud. A sharp digital "chirp" of data synchronization. The sound of a physics engine pausing (a sudden suck-out of audio reverb).
 
-## [ACT 1] [SCENE 1.3] [Timecode: 00:08-00:12] [MANIFESTATION: URIEL]
-**Action:** Uriel phast neben Henoch in die Existenz. Er ist ein Turm aus stabilem Licht, metallische Flügel entfalten sich. Die Luft um ihn herum wird sofort klar.
+## [ACT 1] [SCENE 1.3] [Timecode: 00:07-00:10] [REACTION: BIO-FEEDBACK]
+**Action:** Henoch steht auf. Sein HUD-Visor flackert rot. Er greift sich an den Kopf – das Bio-Feedback der Sektor-Korruption verursacht physischen Schmerz (Frame-Skipping Twitch).
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Cliff Edge", "env_change": false, "actors": [{"name": "Uriel", "phase": "Administrator", "presence": "on_screen", "focus": "primary"}, {"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["metallic_wings", "golden_hud"], "camera": "Mid Shot, Tracking", "mood": ["divine", "authoritative"], "director_intent": "Contrast Uriel's perfect stability with the glitching world.", "start_image_keywords": ["Uriel manifestation", "metallic wings"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POSE_STANDING", "env_id": "ENV_CLIFF_EDGE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "The Border Cliff", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["hud_visor_glitch"], "camera": "Close-Up 85mm, Shallow DoF", "mood": ["pain", "glitch"], "director_intent": "Demonstrate that data corruption hurts the avatar physically.", "start_image_keywords": ["Enoch pain", "red glitch visor"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POSE_HEAD_GRAB", "env_id": "ENV_BORDER_CLIFF", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot of Archangel Uriel manifesting on a cliff. He appears as a tall, imposing figure of stable golden light and polished metal. Large, articulated metallic cooling-fin wings unfold behind him. His face is obscured by a rotating HUD of golden concentric rings. The fog around him is pushed back by a clear forcefield. Enoch stands partially visible in the background. 8k, hyper-realistic, cinematic lighting, vertical 9:16.
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Uriel, the Administrator. A humanoid form composed of stable light and metal.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Metallic armor/body, articulated mechanical wings, golden ring HUD over face.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The cliff edge. The air around Uriel distorts and then clarifies, removing fog and glitches.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Uriel emits a strong, warm golden light that illuminates the dark surroundings.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Mid shot, tracking the expansion of his wings. Smooth camera movement. High contrast between the bright subject and dark background. 9:16 vertical.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-A clean, high-pitched turbine spin-up sound. The hum of powerful energy. No organic sounds, purely synthetic and precise.
-
-## [ACT 1] [SCENE 1.4] [Timecode: 00:12-00:18] [SCAN: DEBUG MODE]
-**Action:** Henoch aktiviert `DEBUG_MODE_RED`. Sein Visor pulsiert. POV-Shot: Das Tal wird mit roten Fehlerprotokollen und Drahtgitter-Topologie überlagert.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Cliff Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["hud_visor", "red_laser_eyes"], "camera": "Close Up to POV", "mood": ["analytical", "tense"], "director_intent": "Visualize the act of reading the code of the land.", "start_image_keywords": ["Enoch face", "red visor scan"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POSE_SCANNING", "env_id": "ENV_CLIFF_EDGE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme close-up of Enoch's face. His skin has a silver metallic sheen. A holographic HUD strip over his eyes glows intense red. Red laser grid patterns project from his eyes onto the air. The reflection in the visor shows scrolling code and a wireframe valley. Detailed skin texture, sweat, tech-mysticism, 8k, vertical 9:16.
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, Voyager phase. Silver-tinted skin.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** HUD-Visor over eyes.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark background, illuminated by the red interface light.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red light pulsing from the visor, casting harsh shadows on his face.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Close up on face, slight zoom in. The red light intensifies. Transition to a POV style overlay of data. 9:16 vertical.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Rapid data-stream processing sounds. Digital beeping and chirping. A low throbbing hum of the ocular implants working.
-
-## [ACT 2] [SCENE 2.1] [Timecode: 00:18-00:24] [QUERY: THE CORRUPTION]
-**Action:** Henoch dreht sich zu Uriel und deutet auf die Korruption. Er fragt nach dem Grund für diesen kritischen Sektor.
-**Dialog:** Enoch: "Why is this sector flagged critical?"
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Cliff Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}, {"name": "Uriel", "phase": "Administrator", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Over-The-Shoulder", "mood": ["inquisitive", "disturbed"], "director_intent": "Enoch seeks understanding from the admin.", "start_image_keywords": ["Enoch pointing", "Uriel background"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POSE_POINTING", "env_id": "ENV_CLIFF_EDGE", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "enoch_query_01", "pose_source": "", "driver_notes": "Lip sync for Enoch"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Over-the-shoulder shot looking past Uriel's metallic shoulder towards Enoch. Enoch is gesturing with a gloved hand towards the dark valley below. Enoch's expression is concerned. Uriel's golden ring HUD is visible in the foreground, out of focus. Cinematic composition, depth of field, 8k, vertical 9:16.
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch (Voyager) and Uriel (Administrator).
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Enoch in robes/visor. Uriel in metallic armor.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Cliff edge, dark valley background.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Ambient blue from Enoch, warm gold from Uriel.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** OTS shot. Focus on Enoch. Enoch turns his head and speaks. Hand gesture towards the valley. 9:16 vertical.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Muted ambience. The sound of fabric moving. Enoch's voice: clear, slightly processed.
-
-## [ACT 2] [SCENE 2.2] [Timecode: 00:24-00:30] [RESPONSE: THE RECYCLE BIN]
-**Action:** Uriel blickt hinab. Eine holografische Projektion des Tals manifestiert sich zwischen ihnen und markiert "verfluchte" Zonen rot.
-**Dialog:** Uriel: "This is the RECYCLE_BIN. For those who speak corrupted code."
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Cliff Edge", "env_change": false, "actors": [{"name": "Uriel", "phase": "Administrator", "presence": "on_screen", "focus": "primary"}], "props": ["hologram_map"], "camera": "Mid Shot, Whip Pan", "mood": ["informative", "cold"], "director_intent": "Uriel explains the system logic with a visual aid.", "start_image_keywords": ["Uriel hologram", "red map"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POSE_EXPLAINING", "env_id": "ENV_CLIFF_EDGE", "props": ["PROP_HOLOGRAM"], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "uriel_response_01", "pose_source": "", "driver_notes": "Lip sync for Uriel (if visible behind HUD)"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 15}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot of Uriel. Between him and the camera, a complex 3D holographic map of the valley floats. The map is wireframe with angry red zones pulsing. Uriel's golden ring face-plate rotates slowly. He looks down at the map. Tech-noir lighting, volumetric fog, 8k, vertical 9:16.
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Uriel, Administrator.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Metallic wings, golden HUD face.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Cliff edge.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Golden light from Uriel, red light from the hologram.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Mid shot. The hologram manifests and rotates. Uriel gestures slightly. 9:16 vertical.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Low hum of the hologram projection. Uriel's voice: dry, synthetic, zero reverb.
-
-## [ACT 2] [SCENE 2.3] [Timecode: 00:30-00:36] [SIMULATION A: THE WICKED]
-**Action:** Blick auf den Talboden. Geisterhafte Drahtgitter-Silhouetten (die Gottlosen) werden von magnetischen Kräften gezogen. Sie glitchen und verzerren sich.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Valley Floor", "env_change": true, "actors": [], "props": ["wireframe_ghosts"], "camera": "High Angle, God's Eye", "mood": ["horrific", "glitch"], "director_intent": "Show the suffering of the corrupted data.", "start_image_keywords": ["wireframe ghosts", "valley floor"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_VALLEY_FLOOR", "props": ["PROP_GHOSTS"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-High angle "God's Eye" view of the valley floor. The style shifts to a thermal/X-ray imaging mode. Ghostly, translucent wireframe humanoid figures are visible, being dragged towards a central singularity. The figures are distorted, stretched, and glitching. Dark background with glowing cyan and red data lines. 8k, simulation aesthetic, vertical 9:16.
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Wireframe humanoid silhouettes (The Wicked).
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None. Raw geometry.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The valley floor, rendered as a dark grid.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Glowing wireframes against darkness.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** High angle looking down. The figures move erratically, being pulled by an invisible force. Glitch effects on their movement. 9:16 vertical.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Distorted screams that sound like digital artifacts and modem screeching. Magnetic humming.
-
-## [ACT 2] [SCENE 2.4] [Timecode: 00:36-00:40] [SIMULATION B: DEFRAGMENTATION]
-**Action:** Nahaufnahme einer Drahtgitter-Figur, die sich auflöst/defragmentiert. Sie versucht zu schreien, zerfällt aber in binären Staub.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "close_up", "environment": "Valley Floor", "env_change": false, "actors": [], "props": ["dissolving_figure"], "camera": "Macro 85mm", "mood": ["terrifying", "abstract"], "director_intent": "The horror of deletion.", "start_image_keywords": ["wireframe face", "dissolving"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_VALLEY_FLOOR", "props": ["PROP_DISSOLVING_GHOST"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Macro close-up of a wireframe human face screaming. The geometry is breaking apart into floating voxels and binary code. The texture is dissolving into digital noise. High contrast, tragic, horrifying, detailed tech-horror, vertical 9:16.
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** A single wireframe entity.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Void background.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal glow of the wireframe fading out.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Macro shot. The face distorts, opens mouth to scream, and then scatters into particles. 9:16 vertical.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-A sharp glitch stutter. A burst of white noise. The sound of glass shattering reversed.
-
-## [ACT 2] [SCENE 2.5] [Timecode: 00:40-00:45] [OBSERVERS: THE RIGHTEOUS]
-**Action:** Uriel deutet nach oben. In der Ferne schwebt eine Plattform aus reinem weißen Licht (Die Gerechten). Sie sind hochauflösend, golden und stabil.
-**Dialog:** Uriel: "The Righteous shall observe the formatting."
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Sky above Valley", "env_change": true, "actors": [{"name": "Uriel", "phase": "Administrator", "presence": "on_screen", "focus": "secondary"}], "props": ["floating_platform"], "camera": "Long Shot, Telephoto", "mood": ["majestic", "distant"], "director_intent": "Show the separation between the clean system and the trash.", "start_image_keywords": ["floating city", "white light"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_SKY_PLATFORM", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "uriel_observers_01", "pose_source": "", "driver_notes": "Voice over only"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Long telephoto shot looking up from the dark valley towards the sky. A geometric, floating platform of blinding white and gold light hangs in the distance. It is perfectly rendered, high-poly, and stable, contrasting with the dark, glitchy foreground. Silhouettes of golden beings stand on the edge looking down. 8k, epic scale, vertical 9:16.
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The floating city/platform of the Righteous.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The sky above the corruption.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright, pure white and gold light.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Rack focus from a glitching tree in foreground to the pristine city in the background. 9:16 vertical.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-A pure, harmonic chord (sine wave). Angelic but synthetic choir pad.
-
-## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:50] [ACCEPTANCE: ENOCH]
-**Action:** Henoch nickt. Das rote Licht in seinem Visor wechselt zu einem ruhigen Blau. Er berührt sein Interface-Tablet.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Cliff Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["interface_tablet"], "camera": "Close Up", "mood": ["calm", "decisive"], "director_intent": "Enoch accepts the system logic.", "start_image_keywords": ["Enoch blue eyes", "tablet touch"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POSE_NODDING", "env_id": "ENV_CLIFF_EDGE", "props": ["PROP_TABLET"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Close-up of Enoch. The angry red light in his HUD visor fades and switches to a calm, steady blue. His expression is stoic. He looks down at a translucent obsidian tablet in his hand. His Idris-gloves glow faintly. 8k, detailed character portrait, vertical 9:16.
+Close-up portrait of Enoch, vertical 9:16. He is wincing in pain, clutching his temple with a gloved hand. His OLED visor strip is glitching with jagged red static and warning hex-codes. Sweat beats on his silver-translucent skin. The background is blurred bokeh. Digital artifacting (RGB split, pixel sorting) distorts his face slightly. Intense, visceral tech-horror, 8k.
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, Voyager.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Visor, Gloves, Tablet.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Cliff edge.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Transition from red face lighting to blue face lighting.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Close up. Enoch nods slowly. The light color change is the key action. 9:16 vertical.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Visor, Idris-Gloves.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red intermittent strobe from the visor illuminating his face.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 85mm portrait lens. Shallow depth of field. Enoch's movement stutters (drops frames) to simulate lag. The RGB channels of the video split momentarily.
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sound of a cooling fan spinning down. A soft, pleasant chime.
+High-pitched tinnitus ringing. The sound of a modem handshake screeching. Heavy, panicked breathing.
 
-## [ACT 3] [SCENE 3.2] [Timecode: 00:50-00:55] [BLESSING: PROTOCOL]
-**Action:** Henoch gibt `ACKNOWLEDGE_PROTOCOL` ein. Ein goldener Lichtimpuls wandert von seiner Hand in das Tablet und schießt als Strahl in den Himmel.
-**Dialog:** Enoch: "Protocol Accepted. Bless the Admin."
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Cliff Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["tablet_beam"], "camera": "Low Angle, Hero Shot", "mood": ["powerful", "ritualistic"], "director_intent": "The execution of the command.", "start_image_keywords": ["golden beam", "Enoch tablet"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POSE_INPUT", "env_id": "ENV_CLIFF_EDGE", "props": ["PROP_TABLET"], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "enoch_blessing_01", "pose_source": "", "driver_notes": "Lip sync"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Low angle hero shot of Enoch. He presses a holographic rune on his tablet. A massive beam of golden data-light erupts from the device, shooting straight up into the dark sky. The light illuminates his face and robes. Particles of gold dust float around him. 8k, dynamic action, vertical 9:16.
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Robes, Tablet.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Cliff edge.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Intense golden light from the beam.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Low angle. Enoch speaks the command. The beam fires upwards. 9:16 vertical.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep, resonant "Enter" key sound. A laser-like rising tone.
-
-## [ACT 3] [SCENE 3.3] [Timecode: 00:55-00:58] [STABILIZATION: SILENCE]
-**Action:** Das Tal friert momentan ein. Die Glitches pausieren. Das chaotische Rauschen bricht abrupt ab.
+## [ACT 1] [SCENE 1.4] [Timecode: 00:10-00:15] [POV: THE ACCURSED VALLEY]
+**Action:** Blick in das verfluchte Tal. Es ist nicht leer. Der Nebel besteht aus unverbundenen schwebenden Vertices. Die Bodentextur kämpft (Z-Fighting, flackert braun/schwarz).
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "The Accursed Valley", "env_change": true, "actors": [], "props": [], "camera": "Wide Shot, Static", "mood": ["still", "frozen"], "director_intent": "The effect of the command is absolute stillness.", "start_image_keywords": ["frozen valley", "no glitch"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_VALLEY_STABLE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "pov", "framing": "wide", "environment": "Accursed Valley Floor", "env_change": true, "actors": [], "props": ["floating_vertices", "z_fighting_ground"], "camera": "POV with OSD Overlay, Zoom In", "mood": ["broken", "wrong"], "director_intent": "Show the world as broken code through Enoch's eyes.", "start_image_keywords": ["vertex fog", "z-fighting texture"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_VALLEY_GLITCH", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide shot of the valley. Everything is perfectly still. The glitching trees are frozen in mid-glitch but stable. The fog has stopped moving. The red error glyphs are gone. The lighting is flat and calm. 8k, surreal stillness, vertical 9:16.
+POV shot from a high cliff looking down into a dark valley, vertical 9:16. A digital HUD overlay frames the view with red error logs. The valley floor is a chaotic mess of flickering textures (Z-fighting) where mud and black void overlap. The "fog" is actually a cloud of disconnected white geometric vertices floating in the air. The lighting is wrong, shadows appearing in mid-air. Simulation sickness aesthetic, 8k.
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Valley.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Valley Geometry.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** HUD Overlay graphics.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A broken digital landscape.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flat, unnatural lighting. Textures flash black/brown rapidly (12Hz).
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** POV shot zooming in. The camera mimics an optical autofocus trying and failing to lock. The Z-fighting on the ground creates a strobe effect.
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Mechanical scratching sound of a hard drive read-head seeking data. Glitchy, stuttering wind noise.
+
+## [ACT 2] [SCENE 2.1] [Timecode: 00:15-00:20] [ENTRANCE: URIEL TRANSLATION]
+**Action:** Uriel tritt ins Bild. Er läuft nicht; er translatiert entlang der X-Achse. Er richtet einen Chrom-Handschuh auf das Tal.
+**Dialog:** Uriel: "PARTITION: GEHENNA. STATUS: LOCKED."
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "The Border Cliff", "env_change": false, "actors": [{"name": "Uriel", "phase": "Administrator", "presence": "on_screen", "focus": "primary"}], "props": ["chrome_gauntlet"], "camera": "Medium Shot 50mm, Locked Tripod", "mood": ["cold", "efficient"], "director_intent": "Establish Uriel as a machine-like administrator.", "start_image_keywords": ["Uriel chrome", "pointing"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POSE_POINTING_STATIC", "env_id": "ENV_BORDER_CLIFF", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "uriel_partition_locked", "pose_source": "", "driver_notes": "Minimal jaw movement"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Medium shot of Archangel Uriel, vertical 9:16. He is a construct of polished brushed chrome and cooling fins. He has no face, just a static mesh grille. He is pointing a robotic chrome gauntlet towards the left. He looks solid, heavy, and perfectly reflective. Background is the dark, glitching valley. Industrial Sci-Fi, 8k, pristine surfaces.
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Uriel, Administrator Phase.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Chrome body, cooling fin wings.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Cliff edge.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold white light reflecting off chrome.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Locked tripod shot. Uriel slides into the frame from the right without moving his legs (sliding on one axis). He raises his arm mechanically.
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Servo-motor whine. A heavy metallic "clank" when he stops sliding. Synthetic, deep voice: "PARTITION: GEHENNA. STATUS: LOCKED."
+
+## [ACT 2] [SCENE 2.2] [Timecode: 00:20-00:26] [DETAIL: T-POSE SINNERS]
+**Action:** In der Taltiefe sehen wir die "Verfluchten". Graue, gesichtslose humanoide Meshes in T-Pose. Sie vibrieren heftig und clippen durch das Terrain. Sie können nicht vollständig rendern.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "long_shot", "framing": "wide", "environment": "Valley Floor", "env_change": true, "actors": [], "props": ["t_pose_meshes"], "camera": "Telephoto 200mm, Searching Focus", "mood": ["disturbing", "uncanny"], "director_intent": "Dehumanize the sinners into failing 3D assets.", "start_image_keywords": ["grey t-pose crowd", "clipping geometry"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_VALLEY_CROWD", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Telephoto long shot looking down into the darkness, vertical 9:16. A crowd of identical, featureless grey humanoid 3D models stands in rigid "T-Pose". They are untextured (default material). Their feet are buried/clipping into the jagged terrain. The lighting is dim and murky. Some figures are partially transparent or missing limbs. Uncanny valley horror, 8k.
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Multiple Grey Humanoid Meshes.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Valley floor.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Low contrast, grey and black.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 200mm telephoto lens. The camera focus hunts back and forth. The figures vibrate violently in place (collision errors) but do not change pose.
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A cacophony of hundreds of garbled speech tracks layered over each other. Digital distortion.
+
+## [ACT 2] [SCENE 2.3] [Timecode: 00:26-00:32] [ACTION: DATA VOMIT]
+**Action:** Ein einzelnes "Sünder"-Mesh öffnet den Mund. Schwarze Flüssigkeit (Korrupte Daten) quillt statt Sound heraus. Das Mesh streckt sich unendlich nach oben (Vertex Stretch).
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "prop", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "Valley Floor", "env_change": false, "actors": [], "props": ["glitching_head", "black_liquid"], "camera": "Extreme Close-Up", "mood": ["horrific", "grotesque"], "director_intent": "Visualizing 'unseemly words' as corrupted binary sludge.", "start_image_keywords": ["grey face vomiting black", "vertex stretch"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_VALLEY_CROWD", "props": ["PROP_VOMITING_MESH"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Extreme close-up of a faceless grey 3D model head, vertical 9:16. It has no eyes, only a gaping, distorted mouth. Thick, black, viscous liquid (resembling ferrofluid or ink) is pouring out of the mouth. The top of the head is stretching upwards into an infinite spike of geometry (vertex error). Tech-noir horror, grotesque, 8k.
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Single Grey Head Mesh.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The ravine.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flat, stable lighting.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Completely static shot. No movement at all. 9:16 vertical.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark void background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Single harsh rim light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Locked macro shot. The jaw unhinges. Black liquid spills out. The geometry of the skull suddenly snaps and stretches infinitely upwards out of frame.
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sudden, absolute silence. A vacuum effect sucking away all noise.
+Wet, gurgling sound mixed with digital static. A high-pitched "ping" when the vertex stretches.
 
-## [ACT 3] [SCENE 3.4] [Timecode: 00:58-01:00] [EXIT: MERKABAH]
-**Action:** Das `MERKABAH`-Feld (transparente Pyramiden-Geometrie) bildet sich um Henoch und Uriel. Sie verschwinden in einem vertikalen Lichtstreifen. Cut to Black.
-**Dialog:** -
+## [ACT 2] [SCENE 2.4] [Timecode: 00:32-00:40] [INTERACTION: THE MALWARE]
+**Action:** Henoch blickt Uriel an. Uriel generiert eine holografische Wellenform über seiner Hand – ein zackiges, hässliches rotes Rauschmuster. Er zerdrückt es.
+**Dialog:** Uriel: "MALWARE STORAGE. FOR THOSE WHO ATTEMPT ROOT ACCESS."
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "wide", "environment": "Cliff Edge", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}, {"name": "Uriel", "phase": "Administrator", "presence": "on_screen", "focus": "primary"}], "props": ["merkabah_field"], "camera": "Tracking Out", "mood": ["departure", "final"], "director_intent": "Clean exit from the scene.", "start_image_keywords": ["Merkabah pyramid", "teleport"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "POSE_STANDING", "env_id": "ENV_CLIFF_EDGE", "props": ["PROP_MERKABAH"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "mixed", "shot_type": "over_the_shoulder", "framing": "medium", "environment": "The Border Cliff", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}, {"name": "Uriel", "phase": "Administrator", "presence": "on_screen", "focus": "primary"}], "props": ["red_waveform"], "camera": "Over-The-Shoulder", "mood": ["informative", "authoritative"], "director_intent": "Define sin as a technical threat (malware).", "start_image_keywords": ["Uriel hand", "red waveform hologram"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POSE_HOLDING_DATA", "env_id": "ENV_BORDER_CLIFF", "props": ["PROP_WAVEFORM"], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "uriel_malware_storage", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 15}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide shot of Enoch and Uriel on the cliff. A transparent, glowing geometric pyramid (Merkabah) forms around them. The edges of the pyramid are bright white laser lines. They are beginning to dissolve into light. 8k, sci-fi teleportation, vertical 9:16.
+Over-the-shoulder shot looking past Enoch's silver shoulder towards Uriel, vertical 9:16. Uriel holds his chrome hand palm up. Hovering above it is a jagged, aggressive red holographic waveform, representing noise/malware. Uriel's metal fingers are curling to crush it. Enoch's HUD visor reflects the red light. 8k, cinematic lighting.
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch and Uriel.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Uriel and Enoch.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Full gear.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Cliff edge.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright white light from the Merkabah.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Camera tracks backward rapidly. The pyramid flashes, and they vanish upwards. Screen fades to black. 9:16 vertical.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red glow from the hologram.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Focus on Uriel's hand. The hologram glitches violently. Uriel closes his fist, and the hologram shatters into pixels.
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Teleport implosion sound. A reverse thunderclap.
+Buzzing electrical noise from the hologram. A crunching sound of metal and breaking glass. Uriel's voice: "MALWARE STORAGE. FOR THOSE WHO ATTEMPT ROOT ACCESS."
+
+## [ACT 3] [SCENE 3.1] [Timecode: 00:40-00:48] [SIMULATION: THE PURGE]
+**Action:** Uriel initiiert eine Vorschau auf die "Letzten Tage". Ein massiver vertikaler roter Laser scannt das Tal. Wo er die grauen Meshes berührt, werden sie gelöscht (Geometrie verschwindet sofort).
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Valley Floor", "env_change": true, "actors": [], "props": ["laser_wall", "vanishing_meshes"], "camera": "Wide Shot, Epic Scale", "mood": ["apocalyptic", "clean"], "director_intent": "Show the efficiency of the final deletion.", "start_image_keywords": ["red laser wall", "erased geometry"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_VALLEY_LASER", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Wide epic shot of the dark valley, vertical 9:16. A colossal, flat wall of red laser light is sweeping from left to right. To the left of the laser, the valley is completely empty and smooth black. To the right, the grey T-pose figures are still visible. At the point of contact, the figures don't burn, they simply cease to exist (boolean subtract). High contrast, abstract sci-fi, 8k.
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Laser Wall and the Sinners.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Valley floor.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Intense red laser light against darkness.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow, steady camera pan following the laser. The meshes vanish instantly frame-by-frame as the laser hits them. No explosion, just deletion.
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A deep, seismic hum (50Hz). Sharp silence whenever a figure is deleted.
+
+## [ACT 3] [SCENE 3.2] [Timecode: 00:48-00:54] [ACTION: TABLET SYNC]
+**Action:** Henoch hebt sein Obsidian-Tablet. Die Reflexion des roten Lasers ist im schwarzen Glas sichtbar. Text scrollt schnell: `JUDGMENT_LOG_SYNC_COMPLETE`.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "close_up", "environment": "The Border Cliff", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["obsidian_tablet", "scrolling_text"], "camera": "Close-Up on Device", "mood": ["procedural", "calm"], "director_intent": "Enoch documents the event as a system log.", "start_image_keywords": ["tablet reflection", "red laser"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POSE_HOLDING_TABLET", "env_id": "ENV_BORDER_CLIFF", "props": ["PROP_TABLET"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Close-up of a sleek, black obsidian tablet device held in a gloved hand, vertical 9:16. The surface is glossy and reflective. In the reflection, we see the red laser wall sweeping across the valley. On the surface, bright white terminal text scrolls rapidly: "JUDGMENT_LOG_SYNC_COMPLETE". Depth of field blurs the hand. 8k, photorealistic props.
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch's Hand and Tablet.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Idris-Glove, Tablet.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Cliff edge (blurred).
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red light reflecting on the black glass. White emissive text.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Locked close-up. The reflection moves (the laser sweep). The text scrolls up and blinks "COMPLETE".
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Rapid mechanical keyboard typing sounds. A final "Enter" key thud.
+
+## [ACT 3] [SCENE 3.3] [Timecode: 00:54-00:60] [RITUAL: THE BLESSING]
+**Action:** Henoch führt den "Segen" aus. Er kreuzt die Arme vor der Brust. Seine silberne Haut leuchtet mit internem blauen Licht (Cooling Active). Er akzeptiert die Notwendigkeit der Quarantäne.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "The Border Cliff", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["blue_cooling_light"], "camera": "Low Angle, Heroic", "mood": ["reverent", "acceptance"], "director_intent": "The protagonist aligns himself with the system logic.", "start_image_keywords": ["Enoch salute", "blue internal glow"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "POSE_SALUTE_X", "env_id": "ENV_BORDER_CLIFF", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Low-angle medium hero shot of Enoch, vertical 9:16. He stands tall, arms crossed over his chest in an "X" formation. His silver skin is translucent, revealing intense blue light glowing from his internal core and veins (liquid cooling system). His expression is calm and obedient. The background shows the stable, golden side of the border. 8k, majestic, sci-fi religious.
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, Voyager.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Robes, Gloves.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Cliff edge.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Strong internal blue glow illuminating his face and robes.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow push-in (dolly forward). Enoch performs the salute slowly. The blue light intensifies as he locks the pose.
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A pleasant, rising major-chord chime (Windows startup style but holier). The sound of fans spinning down to idle.
+
+## [ACT 3] [SCENE 3.4] [Timecode: 00:60-00:65] [OUTRO: SECTOR ISOLATION]
+**Action:** Eine durchscheinende gelbe "Hazard Grid"-Wand schlägt zwischen der Kamera und dem Tal ein. Der Lärm bricht zu absoluter Stille ab. Fade to Black.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "The Border", "env_change": true, "actors": [], "props": ["hazard_grid_wall"], "camera": "Drone Shot, Pull Back", "mood": ["finality", "isolation"], "director_intent": "Visual closure of the quarantine.", "start_image_keywords": ["yellow grid wall", "black void"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_BORDER_WALL", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Wide drone shot pulling back from the cliff, vertical 9:16. A massive, translucent yellow holographic wall with a honeycomb "Hazard" pattern has slammed down, sealing off the dark valley. Enoch and Uriel are tiny silhouettes on the safe side. Beyond the wall, the valley is blurred and muted. 8k, cyberpunk containment, high contrast.
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Quarantine Wall.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The border between land and void.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Yellow emissive light from the grid.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Rapid drone pull-back. The wall appears instantly (1 frame). The view zooms out until the screen fades to black.
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A loud slam (like a prison door). Followed immediately by absolute, digital silence.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.4","text":"Dieser Ort schmeckt nach Asche und fehlerhaftem Code.","words_max":10},{"scene":"2.1","text":"Warum bewahren wir den Müll auf?","words_max":8},{"scene":"3.1","text":"Verstanden. Formatierung ist Gnade.","words_max":6}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.3","text":"Der Schmerz ist nur Datenpaketverlust.","words_max":6},{"scene":"2.2","text":"Sie rendern nicht. Sie leiden in niedriger Auflösung.","words_max":8},{"scene":"3.3","text":"Das System muss sauber bleiben.","words_max":5}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

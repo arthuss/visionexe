@@ -1,29 +1,30 @@
 ## [CHARACTER] Sost Yasteri (ID: CHAR_SOST_YASTERI)
-**Description:** Sost Yasteri functions as a Triad-level administrator within the celestial bureaucracy, a figure where liturgy meets logistics. Their presence is marked by the hum of cooling fans beneath heavy ceremonial robes. Sost appears not merely as a person, but as a living interface for the machinery of judgment, clad in attire that fuses ancient Ethiopian priestly aesthetics with industrial heat-exchange systems. The silhouette is triangular and imposing, grounded by weighted hems and elevated by a rigid, high-collared exoskeleton.
-**Tags:** #character #administrator #ancient-tech #industrial-mysticism #ethiopian-aesthetics #cybernetic
+**Description:** Sost Yasteri is the High Council’s chief speaker, a towering figure whose presence blends ancient Ethiopian and Egyptian mysticism with incomprehensible technology. His skin bears intricate bio‑luminescent glyphs that pulse in rhythm with a hidden crystalline lattice, and his eyes are augmented with iridescent ocular implants that project holographic sigils. He wears a flowing cloak of obsidian silk woven with fine copper filigree, the edges lined with micro‑LEDs that flicker like desert stars. In his right hand he holds a crystalline staff, its core a living crystal that hums with low‑frequency vibrations, and he carries a weathered scroll of the Sun that glows faintly when he speaks. The overall aesthetic is serious, cinematic, and photorealistic, with tactile textures and grounded realism that avoid generic sci‑fi tropes.
+**Tags:** #speaker #ancient-tech #Ethiopian #Egyptian #mystic #crystalline #bio-luminescent #photorealistic
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Tall and statuesque, movement is stiff and calculated, suggesting a skeletal reinforcement or heavy exoskeleton beneath the clothing. Skin, where visible (hands), is an ash-grey tone, inlaid with gold conductive filigree following the veins.
-*   **Face/Sensors:** The face is partially obscured by a semi-translucent, amber-tinted visor that covers the eyes and upper nose, displaying scrolling glyphs in light-leak projection. The mouth remains visible, stern and pale.
-*   **Clothing/Armor:** Layered vestments of heavy, coarse-woven linen in deep indigo and charcoal, embroidered with copper circuitry patterns that dull with oxidation. A heavy mantle of oxidized bronze sits on the shoulders, serving as both armor and a mounting point for sensory equipment.
-*   **Key Features:** A 'Third-Eye' sensor cluster mounted on the forehead of the visor, glowing with a faint, pulsing red light. The robes trail cables that drag slightly on the floor, grounding them to the architecture.
+*   **Body/Form:** Tall, slightly muscular, broad shoulders, slight scar on left forearm, subtle cybernetic augmentations visible beneath skin.
+*   **Face/Sensors:** Face etched with glowing glyphs, iridescent ocular implants, subtle metallic filigree around temples.
+*   **Clothing/Armor:** Flowing obsidian silk cloak with copper filigree, reinforced with micro‑LEDs, ceremonial robe with gold thread, leather belt with crystal amulet.
+*   **Key Features:** Bio‑luminescent glyphs, crystalline staff, ocular implants, obsidian silk cloak, scroll of the Sun.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Default): Fully robed and operational, acting in their official capacity as a speaker/observer.
+*   Phase 1 (Ritual Speaker): Sost Yasteri appears in traditional ceremonial garb, with basic glyphs and a wooden staff.
+*   Phase 2 (Augmented Speaker): Advanced crystalline staff, bio‑luminescent glyphs, ocular implants, and obsidian silk cloak are introduced.
 
 ### 3. PROPS & EQUIPMENT
-*   Tablet of Accounts: A heavy slate tablet framed in brass, screen flickering with holographic cuneiform.
-*   Resonance Staff: A short, weighted rod used to strike resonance plates, ending in a tuning-fork structure.
+*   Item: Crystalline Staff of the Sun
+*   Item: Scroll of the Sun
 
 ### 4. AI PROMPT KEYWORDS
-`Sost Yasteri`, `ancient sci-fi`, `industrial mystic`, `Ethiopian priest tech`, `bronze mantle`, `amber visor`, `circuitry robes`, `cinematic lighting`, `volumetric fog`, `photorealistic`, `8k`, `Unreal Engine 5 render`, `heavy linen texture`, `oxidized copper`
+`ancient-tech`, `Ethiopian`, `Egyptian`, `ceremonial`, `crystalline`, `bio-luminescent`, `photorealistic`
 
 ### 5. PROMPT BLOCK (T2I)
-Full body shot of Sost Yasteri, a mystic industrial administrator, standing in a dim, ancient corridor. They wear heavy, layered robes of indigo coarse linen embroidered with oxidized copper circuitry. Shoulders are burdened by a heavy bronze mantle with cooling vents. The face is obscured by a sleek, amber-tinted tech-visor covering the eyes, displaying faint glowing glyphs. Ash-grey skin with gold vein inlays. Cinematic lighting, shaft of light hitting the bronze shoulder, dust motes in air, hyper-realistic textures, 8k resolution, ancient Ethiopian aesthetic fused with cyberpunk machinery.
+Sost Yasteri, a towering High Council speaker, stands in a dimly lit chamber, his obsidian silk cloak shimmering with embedded micro‑LEDs. His skin is etched with glowing bio‑luminescent glyphs that pulse in sync with a hidden crystalline lattice. In his right hand he holds a crystalline staff that hums with low‑frequency vibrations, its core a living crystal. His eyes are augmented with iridescent ocular implants projecting holographic sigils. He wears a ceremonial robe of gold‑threaded silk, a leather belt with a crystal amulet, and carries a weathered scroll of the Sun that glows faintly when he speaks. The scene is serious, cinematic, and photorealistic, with tactile textures and grounded realism, avoiding generic sci‑fi tropes.
 
 ### 6. PHASE PROMPTS
-*   **Default:** Standard operational appearance with full ceremonial tech-garb.
-    Prompt: Medium shot of Sost Yasteri, wearing indigo linen robes and a heavy bronze shoulder mantle. An amber-tinted visor covers the upper face, glowing faintly. Ash-grey skin, stern expression. Background is a blur of ancient stone and industrial pipes. Cinematic lighting, shallow depth of field, photorealistic, intricate texture details.
-    Keywords: ceremonial robes, amber visor, bronze mantle, administrative posture
+*   **Default:** Sost Yasteri as the High Council speaker in a ritual chamber.
+    Prompt: Sost Yasteri, the High Council’s chief speaker, stands in a dimly lit chamber, his obsidian silk cloak shimmering with embedded micro‑LEDs. His skin bears glowing bio‑luminescent glyphs that pulse in sync with a hidden crystalline lattice. He holds a crystalline staff humming with low‑frequency vibrations, his eyes augmented with iridescent ocular implants projecting holographic sigils. He wears a ceremonial robe of gold‑threaded silk, a leather belt with a crystal amulet, and carries a weathered scroll of the Sun that glows faintly when he speaks. The scene is serious, cinematic, photorealistic, and tactile, grounded in ancient-tech realism.
+    Keywords: ancient-tech, Ethiopian, Egyptian, ceremonial, crystalline, bio-luminescent, photorealistic
 
 ---

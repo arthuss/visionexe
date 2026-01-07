@@ -1,130 +1,169 @@
-CONCEPT_MECHANICS
+CONCEPT_MECHANICS_V2.0
 
-1. BIO-INJECTION
-Olfactory Overclocking. Die "Düfte" der Bäume sind komplexe Daten-Streams (Pheromon-basierte Authentifizierung). Visualisierung: Goldene Partikel-Ströme, die sichtbar in Henochs Atemwege gezogen werden. Ein HUD-Overlay über seiner Nasenwurzel analysiert in Echtzeit die chemische Zusammensetzung (Spektrogramm-Anzeige auf der Haut).
+ANALYSIS_V1.0_CRITIQUE
+The previous iteration relied too heavily on "fantasy" metaphors (jewels, magical glowing).
+*   **Deficit 1:** The "Fragrance" was treated as smell, not data ingestion via aerosolized nanites.
+*   **Deficit 2:** The "Fire Mountain" was visual magma, not a functional thermal exhaust system for a high-performance cluster.
+*   **Deficit 3:** Michael's appearance was too "angelic knight," lacking the "SysAdmin" aesthetic of the exeget:os layer.
+*   **Correction:** Shift to Hard Sci-Fi / Server Farm semantics. The environment is a Cooling Loop and Processing Array.
 
-2. MESH-BREAK
-Crystalline Refraction Overload. Die "Edelstein-Berge" bestehen aus hyper-refraktivem Material (Diamant/Saphir-Shader). Die Lichtbrechung ist so komplex, dass die Render-Engine "glitcht" – chromatische Aberration an den Kanten der Berge, Lens-Flares, die sich physikalisch unmöglich verhalten. Die Geometrie ist fraktal und selbstähnlich.
+CONCEPT_MECHANICS_V2.0_DEFINITIONS
 
-3. PACING-STRATEGIE
-Awe & Inspection.
-Phase 1 (Seg 1-3): Langsame, majestätische Panorama-Shots (Dolly Zoom), um die Skala der Server-Cluster (Berge) zu zeigen.
-Phase 2 (Seg 4): Makro-Aufnahmen. Extreme Close-Ups auf die "Frucht" und "Blätter" des Baumes. Depth-of-Field Spielereien.
-Phase 3 (Seg 5-6): Statische, ruhige Kamera für den Dialog. Shot-Reverse-Shot zwischen Henoch und Michael.
+1. BIO-INJECTION (The Smell)
+**Mechanism:** Aerosolized Firmware Update.
+**Tech:** The "Fragrance" is a dense cloud of golden smart-dust (nanites). When Enoch inhales, these are not processed by the olfactory bulb but bridge directly into the neural cortex via the nasal cavity.
+**Visual:** The particles form a visible stream. Upon inhalation, Enoch's marble skin becomes transparent at the throat and lungs, revealing internal fiber-optics lighting up gold as the payload is accepted.
 
-4. AUDIO-DESIGN
-Crystalline Resonance. Statt Chören: Ein konstantes, hohes "Singen" von Glas und Kristall, das durch Wind erzeugt wird (Resonanzfrequenz). Darunter ein tiefes, rhythmisches Pochen (der "Herzschlag" des Feuer-Berges/Reaktors).
+2. MESH-BREAK (The Fire Mountain)
+**Mechanism:** Thermal Throttling & Heat Sink.
+**Tech:** The "burning" mountain is the central heat exchanger for the cluster. The air around it is distorted not just by heat (mirage) but by local gravity distortions caused by immense energy consumption.
+**Visual:** No smoke. Only high-velocity venting of ionized plasma and superheated coolant gas. The "shimmer" causes background rendering errors (pixel displacement) in the camera feed.
 
-5. ÜBERGÄNGE
-Node-Hopping. Kein Flug. Der Hintergrund (Wüste aus Kap 23) friert ein und zerspringt in Voxel. Der neue Ort (Kap 24) baut sich aus einem Wireframe-Grid rasend schnell um Henoch herum auf.
+3. PACING-STRATEGIE (The Render Pipeline)
+**Sequence:**
+*   **Phase 1 (Spawn):** 0-5s. Chaotic. Voxel-to-Mesh construction. Glitch artifacts.
+*   **Phase 2 (Inspection):** 5-45s. Smooth, mechanical camera movements (Drone/Slider). High FPS. showcasing the stability of the immutable infrastructure.
+*   **Phase 3 (Interaction):** 45-80s. Locked-off shots. Shot-Reverse-Shot. Focus on the data exchange between User and Admin.
+
+4. AUDIO-DESIGN (The Server Floor)
+**Soundscape:**
+*   **Ambient:** The defining sound is *Airflow*. Massive, laminar wind tunnel noise (Cooling Systems).
+*   **Events:** The "Fire Mountain" emits a low-frequency 50Hz mains hum (Sub-Bass). The Crystal Mountains emit high-frequency coil whine (15kHz) that modulates with data processing load.
+*   **Dialogue:** Michael's voice is not acoustic. It is a direct-to-auditory-cortex transmission, accompanied by digital packet-loss static.
+
+5. TRANSITIONS (Socket Switching)
+**Method:** No flying. Coordinate modification.
+**Visual:** The previous scene "folds" away into 2D fractal geometry. The new scene (Node 24) builds up from a wireframe grid on the floor. Enoch remains stationary in world-space while the environment swaps around him.
 
 6. FRAMEWORK & TIMING
-Total Duration: ~75 Sekunden.
-Clip Count: 15 Clips.
-Grund: Wir brauchen Zeit für die Etablierung der 7 Berge (komplexe Geometrie) und den Dialog mit Michael am Ende.
+**Duration:** 80-90 Seconds.
+**Clip Count:** 18 Clips.
+**Rationale:** The Shot-Reverse-Shot dialogue (Verses 5-6) requires distinct angles to convey the hierarchy between User (Enoch) and Admin (Michael). The complexity of the "Seven Mountains" layout requires multiple establishing pans.
 
 7. DIALOG-CHECK
-Ja. Segment 5 (Henoch fragt) und Segment 6 (Michael antwortet).
-Wir benötigen Shot-Reverse-Shot.
-Clip 12: Henoch CU (sprechend).
-Clip 13: Michael Reveal (Over-the-Shoulder von Henoch).
-Clip 14: Michael CU (sprechend).
+**Status:** Active.
+**Speakers:** Enoch (User Query) -> Michael (Admin Response).
+**Format:** Telepathic/Digital. Visors/Eyes pulse in sync with transmission.
 
 8. SPATIAL CONTEXT (ARRIVAL)
-Instantaneous Transmission. Henoch materialisiert am Rand des Tals. Er "glitcht" in die Existenz (Datastream Reassembly). Establishing Shot ist nötig, um die Anordnung der 7 Berge zu zeigen (3 Ost, 3 Süd, 1 Mitte).
+**Method:** Instant Instancing.
+**Visual:** Enoch appears in a T-Pose for 1 frame, then snaps into animation.
+**Layout:** He stands on an obsidian platform. To his left (East): 3 Red/Blue Nodes. To his right (North): 3 Metallic/Dark Nodes. Center: The White Throne Node.
 
 SCENE_BLUEPRINT
 
-[CLIP_01_ARRIVAL]
+[CLIP_01_SPAWN_SEQUENCE]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Noah (System Prototype Build 2.0). **Action:** Materializing from a digital distortion field. His body reassembles from vertical light-slices. **Physique:** Peak athletic, translucent marble skin. **Optics:** Eyes flickering as they calibrate to the new environment.
+> **Actor:** Enoch (System Prototype Build 2.0). **Physique:** Peak athletic human male, age 25, symmetrical Hellenistic features. **Skin-Shader:** `MARBLE_SHIMMER_V3`. Translucent white Parian marble, faint blue micro-circuitry tracing pulse points. **Optics:** `SOLAR_APERTURE_EYES`. Glowing white-gold circular apertures, no pupils. **Action:** Materializing from a wireframe grid. T-Pose snap to idle stance. **VFX:** Digital block-noise and chromatic aberration clearing instantly.
 **[BLOCK 2: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Valley of Seven Nodes. **Atmosphere:** Crystal clear, zero dust. **Background:** A distant mountain of fire (The Thermal Exhaust) burning with smokeless blue plasma flames.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Wide Shot (Establishing). **Movement:** Static camera, subject pops in. **Style:** High-tech teleportation VFX.
+> **Location:** Valley of the Seven Nodes. **Floor:** Infinite polished obsidian mirror grid. **Lighting:** Cold, clinical system light (5000K).
+**[BLOCK 3: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Low Angle, orbiting fast. **Style:** Unreal Engine 5.4 boot sequence.
 
-[CLIP_02_FIRE_MOUNTAIN]
+[CLIP_02_HEAT_SINK_ESTABLISHING]
 **[BLOCK 1: ENVIRONMENT_ONLY]**
-> **Subject:** The Mountain of Fire. **Visuals:** A jagged peak made of black obsidian, veins of blue plasma running through it like lava. No smoke, just heat shimmer distorting the air. **Lighting:** High contrast, blue emissive light casting long shadows.
-**[BLOCK 2: CINEMATOGRAPHY]**
-> **Camera:** Long Lens (200mm). **Movement:** Slow pan up the mountain flank.
+> **Subject:** The Mountain of Fire (Thermal Exhaust). **Structure:** Massive pyramidal heat-sink fins, black metal. **VFX:** Venting blinding white plasma-gas into the sky. **Atmosphere:** Extreme heat distortion (mirage) blurring the edges of the structure. **Lighting:** High contrast, silhouette against the plasma glow.
+**[BLOCK 2: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Long Telephoto (200mm). **Focus:** Rack focus from heat haze to the sharp metal edge.
 
-[CLIP_03_SEVEN_MOUNTAINS_PAN]
+[CLIP_03_CLUSTER_EAST_PAN]
 **[BLOCK 1: ENVIRONMENT_ONLY]**
-> **Subject:** The Cluster of Seven. **Visuals:** Seven massive distinct peaks. They are not rock, but raw data-crystals (Sapphire, Emerald, Quartz). They glow from within. **Layout:** Three to the East, Three to the South. Deep, dark valleys between them acting as cooling channels.
-**[BLOCK 2: CINEMATOGRAPHY]**
-> **Camera:** Drone Shot / High Angle. **Movement:** Sweeping orbital move to show the geometric arrangement.
+> **Subject:** Three Eastern Nodes. **Visuals:** Colossal server towers disguised as natural formations. **Materials:** Faceted, translucent gemstones (Ruby, Sapphire, Emerald) glowing with internal data-pulses. **Geometry:** Sharp, mathematical fractal cliffs. **Cabling:** Thick bundles of fiber-optic cables running like waterfalls down the sides.
+**[BLOCK 2: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Wide Drone Shot. **Movement:** Smooth tracking right-to-left.
 
-[CLIP_04_THE_THRONE_MOUNTAIN]
+[CLIP_04_CLUSTER_NORTH_PAN]
 **[BLOCK 1: ENVIRONMENT_ONLY]**
-> **Subject:** The Seventh Mountain (Center Node). **Visuals:** It towers over the others. The peak is flattened like a throne or a landing pad. Made of pure Alabaster and Lapis Lazuli. **Vegetation:** Surrounded by "trees" that look like fiber-optic cable bundles blooming with light.
-**[BLOCK 2: CINEMATOGRAPHY]**
-> **Camera:** Low Angle (Hero Shot of the mountain). **Movement:** Slow push in.
+> **Subject:** Three Northern Nodes. **Visuals:** Darker, industrial formations. **Materials:** Raw Silicon, Bismuth, Pyrite (Gold). **Structure:** Dense, blocky geometry resembling brutalist architecture. **VFX:** Blue electric arcs jumping between the peaks.
+**[BLOCK 2: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Wide Drone Shot. **Movement:** Continuing the pan from previous clip, seamless.
 
-[CLIP_05_THE_TREE_MACRO]
+[CLIP_05_ISOLATION_VALLEYS]
+**[BLOCK 1: ENVIRONMENT_ONLY]**
+> **Subject:** The Ravines (Cooling Channels). **Visuals:** Deep, perfectly vertical canyons separating the mountains. **Depth:** Infinite black void at the bottom. **VFX:** Liquid nitrogen fog rolling heavily along the floor. **Lighting:** Neon blue strip-lights outlining the canyon edges.
+**[BLOCK 2: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Top-Down (God View). **Movement:** Slow drift over the abyss.
+
+[CLIP_06_THRONE_NODE_HERO]
+**[BLOCK 1: ENVIRONMENT_ONLY]**
+> **Subject:** The Seventh Mountain (Root Node). **Location:** Center of the hexagon. **Visuals:** Pure white Alabaster structure, glowing with subsurface scattering. **Shape:** Flattened summit resembling a massive docking port or throne. **VFX:** A solid beam of white data-light shooting vertically into the sky.
+**[BLOCK 2: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Ultra-Wide (14mm) Low Angle. **Scale:** Overwhelming.
+
+[CLIP_07_TREE_OF_FRAGRANCE_WIDE]
+**[BLOCK 1: ENVIRONMENT_ONLY]**
+> **Subject:** The Tree of Fragrance (Immutable Data). **Visuals:** Synthetic biology. Trunk is woven gold filaments. Leaves are holographic panes displaying scrolling green code. **Lighting:** Bioluminescent glow from the branches.
+**[BLOCK 2: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Dolly In. **Speed:** Slow, reverent.
+
+[CLIP_08_FRUIT_MACRO]
 **[BLOCK 1: PROP_FOCUS]**
-> **Subject:** The Tree of Fragrance. **Visuals:** Not organic. The bark is woven carbon-nanotubes with a gold sheen. The leaves are thin OLED panels displaying shifting green data patterns. **Fruit:** Clusters of glowing amber spheres (Data Packets) resembling dates but emitting light.
-**[BLOCK 2: CINEMATOGRAPHY]**
-> **Camera:** Macro Lens (100mm). **Focus:** Shallow depth of field on a single fruit cluster.
+> **Subject:** The Fruit (Data Payload). **Visuals:** Clusters of amber spheres. **Texture:** Like resin or glass, containing a glowing white kernel. **VFX:** Micro-sparks of electricity bridging the gap between fruits. **Detail:** 8K texture on the surface imperfections.
+**[BLOCK 2: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Macro (100mm). **Depth of Field:** Razor thin focus on the core.
 
-[CLIP_06_BIO_INJECTION_SMELL]
+[CLIP_09_ENOCH_INHALATION]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Noah (System Prototype Build 2.0). **Action:** Inhaling deeply. **VFX:** Visible streams of gold data-particles (the scent) flowing from the tree into his nostrils. **Skin-Shader:** The blue circuitry on his neck pulses rapidly, processing the input.
-**[BLOCK 2: CINEMATOGRAPHY]**
-> **Camera:** Extreme Close-Up (ECU) on nose and eyes. **Lighting:** Gold light from the particles illuminating his face.
+> **Actor:** Enoch. **Action:** Head tilted back, inhaling deeply near the tree. **VFX:** A stream of gold particles (Smart Dust) flowing from the tree into his nostrils. **Anatomy:** His throat and chest turn translucent, showing the gold dust filling his lungs/systems.
+**[BLOCK 2: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Extreme Close-Up (Profile). **Lighting:** Face illuminated by the particle stream.
 
-[CLIP_07_ENOCH_SPEAKS]
+[CLIP_10_SYSTEM_UPDATE_REACTION]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Noah. **Action:** Speaking, looking up at the tree in awe. "Behold this beautiful tree..." **Expression:** Mesmerized, analytical.
-**[BLOCK 2: CINEMATOGRAPHY]**
-> **Camera:** Medium Close-Up. **Angle:** Slightly low, looking up at him looking at the tree.
+> **Actor:** Enoch. **Action:** Eyes widen abruptly. The aperture blades of his eyes spin and lock open. **VFX:** A momentary "glitch" or shudder runs through his body as the new data integrates.
+**[BLOCK 2: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Frontal Close-Up. **Style:** High shutter speed, crisp motion.
 
-[CLIP_08_MICHAEL_REVEAL]
+[CLIP_11_ENOCH_QUERY_DIALOG]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Archangel Michael (Security Admin). **Physique:** Towering 8ft entity. **Armor:** `PRISMATIC_PLATE`. Armor made of shifting glass shards reflecting the environment. **Face:** A smooth, featureless silver mask with a single vertical slit of blue light. **Action:** Stepping into frame from behind Noah.
+> **Actor:** Enoch. **Action:** Gesturing to the tree with the `WAVE_INTERFACE_BLOCK`. **Mouth:** Moving, speaking the verse. **Expression:** Analytical awe.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Garment:** `LIQUID_LINEN` tunic, pearlescent. **Prop:** Obsidian tablet displaying `B-R-K` holographic glyphs.
+**[BLOCK 3: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Medium Shot (Waist up). **Angle:** Slightly low.
+
+[CLIP_12_MICHAEL_SPAWN]
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Archangel Michael (System Admin). **Physique:** 8ft tall, heavy build. **Armor:** `PRISMATIC_PLATE`. Shifting glass/mirror armor reflecting the environment. **Head:** Smooth chrome dome, vertical blue LED slit. **Action:** Materializing behind Enoch.
+**[BLOCK 2: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Wide Shot. **Focus:** Enoch in foreground, Michael appearing in background.
+
+[CLIP_13_MICHAEL_OTS_PRESENCE]
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Archangel Michael. **Visuals:** Massive shoulder pauldrons of refractive glass. The blue eye-slit scans Enoch.
+**[BLOCK 2: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Over-The-Shoulder (OTS) from Enoch's POV. **Scale:** Michael towers over the camera.
+
+[CLIP_14_MICHAEL_RESPONSE_TRANSMISSION]
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Archangel Michael. **Action:** Raising a gauntleted hand to point at the Throne Mountain. **VFX:** The blue eye-slit pulses intensely (Data Transmission). No mouth movement.
 **[BLOCK 2: ENVIRONMENT]**
-> **Background:** The glowing trees.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Over-The-Shoulder (OTS) from Noah's perspective.
+> **Background:** The blurred lights of the server cluster.
+**[BLOCK 3: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Low Angle Medium Shot. **Style:** Authoritative.
 
-[CLIP_09_MICHAEL_SPEAKS]
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Archangel Michael. **Action:** The vertical slit on the mask pulses as he transmits audio. No mouth movement. **Stance:** Authoritative, protective.
-**[BLOCK 2: CINEMATOGRAPHY]**
-> **Camera:** Low Angle Medium Shot. **Lens:** 35mm. **Style:** Intimidating but benevolent.
-
-[CLIP_10_TWO_SHOT_DIALOGUE]
-**[BLOCK 1: SUBJECTS]**
-> **Actors:** Noah and Michael. **Action:** Standing side by side looking at the Throne Mountain. Michael points a gauntleted hand towards the peak.
-**[BLOCK 2: CINEMATOGRAPHY]**
-> **Camera:** Wide Shot. **Composition:** Rule of thirds. They are small against the massive scale of the crystal mountains.
-
-[CLIP_11_ENV_DETAILS_VALLEYS]
-**[BLOCK 1: ENVIRONMENT_ONLY]**
-> **Subject:** The Deep Valleys. **Visuals:** The spaces between the mountains. Dark, narrow canyons. **VFX:** Fog made of heavy liquid nitrogen rolling through the bottom. Faint blue grid lines visible on the canyon walls.
-**[BLOCK 2: CINEMATOGRAPHY]**
-> **Camera:** Top-down bird's eye view looking into the abyss.
-
-[CLIP_12_TREE_FRUIT_HARVEST_SIM]
+[CLIP_15_AR_OVERLAY_TREE]
 **[BLOCK 1: PROP_FOCUS]**
-> **Subject:** The Fruit. **Action:** A simulation (mental projection) of the fruit being opened. It reveals a core of pure white light (code) inside.
-**[BLOCK 2: CINEMATOGRAPHY]**
-> **Camera:** Abstract Macro. **Style:** X-Ray / Schematic view.
+> **Subject:** The Tree's Metadata. **Visuals:** Augmented Reality (AR) overlay superimposed on the tree. **Text:** `STATUS: IMMUTABLE`. `EXPIRY: NULL`. `ACCESS: ROOT_ONLY`. **Style:** Wireframe schematic flickering over the organic shape.
+**[BLOCK 2: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** POV (Enoch's Vision). **Style:** HUD / UI Graphic design.
 
-[CLIP_13_MICHAEL_GESTURE]
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Michael. **Action:** Hand gesture interacting with a floating holographic interface, highlighting the tree's stats (Immutable, Eternal).
-**[BLOCK 2: CINEMATOGRAPHY]**
-> **Camera:** Close-Up on hand and UI elements.
-
-[CLIP_14_ENOCH_REACTION]
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Noah. **Action:** Nodding, understanding the data. The glow in his eyes stabilizes.
-**[BLOCK 2: CINEMATOGRAPHY]**
-> **Camera:** Medium Close-Up.
-
-[CLIP_15_EXIT_PREP]
+[CLIP_16_WIDE_TWO_SHOT]
 **[BLOCK 1: SUBJECTS]**
-> **Actors:** Noah and Michael. **Action:** Turning away from the tree, preparing to move to the next node. The environment begins to blur at the edges (motion blur/warp).
-**[BLOCK 2: CINEMATOGRAPHY]**
-> **Camera:** Tracking Shot following them from behind.
+> **Actors:** Enoch and Michael. **Action:** Standing side-by-side looking at the central mountain. **Contrast:** Enoch (Human scale, white fabric) vs Michael (Giant, chrome/glass armor).
+**[BLOCK 2: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Base of the Throne Mountain. **VFX:** The vertical light beam pulses in the distance.
+**[BLOCK 3: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Extreme Wide Shot. **Composition:** Epic scale.
+
+[CLIP_17_ENOCH_UNDERSTANDING_NOD]
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Enoch. **Action:** Nodding slowly. **VFX:** The blue circuitry on his neck stabilizes to a steady glow. The data upload is complete.
+**[BLOCK 2: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Close-Up on face. **Lighting:** Reflection of Michael's armor on Enoch's skin.
+
+[CLIP_18_TRANSITION_OUT_DE-REZ]
+**[BLOCK 1: ENVIRONMENT_ONLY]**
+> **Subject:** The World. **Action:** The simulation ends. The mountains dissolve into binary rain/code. The floor grid rises up to consume the frame.
+**[BLOCK 2: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Static. **VFX:** Pixel sorting, glitching to black.
