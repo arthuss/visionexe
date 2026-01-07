@@ -44,6 +44,9 @@
 - 2026-01-05 14:48 - Added debug_actor_lookup action to trace index vs Content Manager resolution (C:\Users\sasch\visionexe\engine\iclone\iclone_remote_server.py, C:\Users\sasch\visionexe\engine\iclone\openplugin\visionexe\iclone_remote_server.py, C:\Users\sasch\visionexe\docs\iclone_bridge.md, C:\Users\sasch\visionexe\README.md).
 - 2026-01-05 15:33 - Added CC4 headshot automation via RHeadshot in the CC file watcher, plus a CLI enqueue script and README usage notes (engine/character_creator/cc_file_watcher.py, engine/workers/cc_headshot_enqueue.py, README.md).
 - 2026-01-07 11:15 - Added RLPy hidden API finder script + docs and README notes for quick CC4/iClone API discovery (engine/tools/rlpy_api_finder.py, docs/rlpy_hidden_api.md, README.md).
+- 2026-01-07 17:12 - Confirmed Motion Director API availability in iClone RLPy and MDRadialMenu as UI assets; no repo changes.
+- 2026-01-07 17:25 - Clarified Motion Director API scope vs UI-only assets and outlined discovery approach; no repo changes.
+- 2026-01-07 17:35 - Outlined DLL inspection strategy (exports/strings/symbol mapping) and noted missing dumpbin in environment; no repo changes.
 - 2026-01-05 15:34 - Added Content Manager scan action and fixed actor-load handler indentation; documented CM scan usage (engine/iclone/iclone_remote_server.py, engine/iclone/openplugin/visionexe/iclone_remote_server.py, docs/iclone_bridge.md, README.md).
 - 2026-01-05 15:59 - Added VisionExe panel UI helpers (Find Actor + Scan Content) and documented the new buttons (engine/iclone/openplugin/visionexe/main.py, engine/iclone/openplugin/visionexe/mainWindow.ui, docs/iclone_bridge.md, README.md).
 - 2026-01-05 16:05 - Fixed VisionExe panel ShowMessageBox argument order so dialog bodies render (engine/iclone/openplugin/visionexe/main.py).
@@ -92,3 +95,11 @@
 - 2026-01-07 11:51 - Added MD prop creation/transform endpoints, disabled UI automation by default via config, and hardened vector/quaternion handling in the iClone bridge; updated docs/README/configs (engine/iclone/openplugin/visionexe/iclone_remote_server.py, engine/iclone/openplugin/visionexe/iclone_config.py, engine/iclone/iclone_config.json, engine/iclone/openplugin/visionexe/iclone_config.json, docs/iclone_bridge.md, README.md).
 - 2026-01-07 13:32 - Documented CC4 vs iClone API overlap with crowd notes in README (README.md).
 - 2026-01-07 15:38 - Documented iClone crowd API observations and MD prop crowd readbacks in the iClone bridge doc (docs/iclone_bridge.md).
+- 2026-01-07 20:21 - Reviewed MotionDirector/CrowdGenerator/RLPy dump CSVs to map Motion Matching/MDProp events and Headshot entry points (no repo changes).
+- 2026-01-07 20:28 - Added CC4/iClone automation notes and snippet checklist doc (docs/reallusion_pipeline.md).
+- 2026-01-07 20:40 - Updated dump worker to use Ollama HTTP calls with chunking + namespace filters for hidden API extraction (C:\Users\sasch\dump\worker.py).
+- 2026-01-07 20:46 - Added progressive output modes (append/per-namespace/per-chunk) with overwrite control to prevent lost progress (C:\Users\sasch\dump\worker.py).
+- 2026-01-07 20:52 - Reviewed MotionDirector analysis output file growth and confirmed append-mode output location (no repo changes).
+- 2026-01-07 20:58 - Allowed unlimited chunk processing when max-chunks is set to 0 so output can flush more frequently without truncation (C:\Users\sasch\dump\worker.py).
+- 2026-01-07 21:05 - Reviewed CMDPropCrowdInteraction analysis outputs and mapped crowd usage to available RLPy MDProp getters; no repo changes.
+- 2026-01-07 23:22 - Added RLPy wiki compatibility checker tool and documented usage (engine/tools/rlpy_wiki_compat.py, docs/rlpy_hidden_api.md, docs/reallusion_pipeline.md, README.md).

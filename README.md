@@ -109,6 +109,8 @@ RLPy hidden API:
 - The local `RLPy.py` files are the authoritative API surface for CC4/iClone.
 - Use `engine/tools/rlpy_api_finder.py` for quick symbol searches.
 - Notes and examples in `docs/rlpy_hidden_api.md`.
+- Use `engine/tools/rlpy_wiki_compat.py` to compare a wiki HTML dump against `RLPy.py`
+  (set `RL_WIKI_ROOT` or pass `--wiki-root`; see `docs/rlpy_hidden_api.md`).
 
 CC4 vs iClone API overlap (quick rules):
 - Scripts run inside the host app only; CC-only APIs are not available in iClone and vice versa.
