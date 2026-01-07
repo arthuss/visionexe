@@ -1,343 +1,385 @@
 # DREHBUCH KAPITEL 72 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Ich dachte immer, das Licht sei ein Geschenk, eine Gnade, die jeden Morgen neu geboren wird. Doch hier oben, wo die Luft dünn ist wie Glas, sehe ich die Wahrheit: Es ist ein Gesetz, eine kalte, unerbittliche Mechanik, die in Bahnen aus Feuer und Code geschmiedet wurde. Nichts wird dem Zufall überlassen; jeder Sonnenstrahl ist eine Zeile in einem gewaltigen Programm, das wir Leben nennen.
+NARRATOR_TEXT: Man sagte uns, die Zeit sei ein Fluss, der ewig fließt. Doch hier, am Rand der Berechnungen, sehe ich die Taktung der Maschine. Das Licht ist kein Geschenk, sondern eine zugewiesene Ressource, und der Tag ist nichts weiter als eine erfolgreich ausgeführte Routine.
 
-## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:04] [HOOK: The Node Hop]
-**Action:** Enoch steht in der Wüste. Die Realität zerfällt in Wireframes. Vertigo-Zoom.
+## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:02] [HOOK: The Freeze]
+**Action:** Enoch läuft durch die Wüste. Plötzlich friert er mitten im Schritt ein. Die Welt um ihn herum verliert ihre Texturen und wird grau.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor_in_env", "shot_type": "full_body", "framing": "wide", "environment": "Desert dissolving into wireframe grid", "env_change": true, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Dolly Zoom (Vertigo Effect), energetic camera shake", "mood": ["disorientation", "shock"], "director_intent": "Show the simulated nature of reality breaking down violently.", "start_image_keywords": ["wireframe desert", "glitch art", "reality tearing"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor_in_env", "shot_type": "full_body", "framing": "wide", "environment": "Desert turning to Greybox", "env_change": true, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Tracking Shot that freezes instantly", "mood": ["disorientation", "glitch"], "director_intent": "Visualizing a system crash or buffer underrun where the simulation hangs.", "start_image_keywords": ["frozen actor", "greybox terrain", "texture failure"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 composition. Enoch (Voyager Class, silver-sheen skin, subtle golden circuitry) standing in a hyper-realistic desert. The environment is actively de-resolving; sand dunes are dissolving into glowing cyan wireframe grids and floating binary dust. High contrast lighting, harsh shadows. Glitch aesthetic, datamoshing edges. Cinematic, 8k, industrial mysticism style.
+Vertical 9:16. Enoch (Voyager Phase, shimmering marble skin) frozen mid-stride in a vast desert. The environment is split: the foreground is realistic sand, but the background has failed to render, appearing as untextured grey polygonal geometry ("Greybox"). Hard sunlight. "Texture Missing" artifacts on a rock. Cinematic simulation failure aesthetic.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, silver translucent skin showing golden subspace veins, wearing weathered linen robes transitioning into digital noise.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Robes fluttering violently upward as if caught in a gravity updraft.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A vast desert landscape rapidly turning into a transparent 3D wireframe grid. The sky tears open to reveal a black digital void.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blinding white light from the wireframes against deep desert orange and void black. Stroboscopic glitch lighting.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Aggressive Dolly Zoom (Vertigo effect). Camera pulls back while zooming in. 9:16 vertical ratio. High shutter speed.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, frozen in time. Robes rigid.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Voyager attire.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** High-fidelity desert transitioning abruptly to flat grey shading.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Harsh noon sun, but shadows on the grey parts are mathematically perfect and unnatural.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Camera tracks right, then slams to a halt. 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitch digital screech like a modem handshake amplified. Deep sub-bass drop on the transition. Sound of sand rushing like static noise.
+Realistic desert wind that cuts abruptly to absolute, dead silence. A subtle high-pitched capacitor whine begins.
 
 
-## [ACT 1] [SCENE 1.2] [Timecode: 00:04-00:08] [LANDING: Calibration Deck]
-**Action:** Enoch landet auf dem Obsidian-Glasboden des Calibration Decks (30km Höhe).
+## [ACT 1] [SCENE 1.2] [Timecode: 00:02-00:03] [TRANSITION: The Tear]
+**Action:** Ein vertikaler V-Sync-Fehler zerreißt das Bild. Die Wüste wird durch den schwarzen Weltraum ersetzt.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor_in_env", "shot_type": "full_body", "framing": "low_angle", "environment": "Stratospheric Calibration Deck, 30km altitude", "env_change": true, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle, looking up at Enoch impacting the floor", "mood": ["impact", "isolation"], "director_intent": "Emphasize the heaviness of the landing and the solidity of the digital platform.", "start_image_keywords": ["obsidian floor", "impact ripple", "stratosphere"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Glitch Transition Void", "env_change": true, "actors": [], "props": [], "camera": "Static, Screen Tearing Effect", "mood": ["violent", "technical"], "director_intent": "A hard hardware swap of the environment asset.", "start_image_keywords": ["v-sync tear", "digital rip", "black void"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 shot. Low angle view from the floor up. Enoch's boots hitting a glossy black hexagonal obsidian floor. Golden data-ripples spreading out from the contact point like water. Background is a pitch-black starless sky. The floor reflects Enoch's silver legs. Minimalist, sleek, dark sci-fi atmosphere. 30km altitude context.
+Vertical 9:16. Abstract Glitch Art. A sharp horizontal line splits the frame. Top half is the grey desert, bottom half is deep black space with a wireframe grid. RGB chromatic aberration along the tear. Datamoshing effect where pixels are dragging downwards.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, silver skin, Voyager phase.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Tactical linen robes settling heavily after impact. Idris gloves glowing faintly.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A floating platform of hexagonal black glass. Below, the curve of the Earth in "Night Mode" (dark blue topology). No stars.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Sole illumination comes from the golden impact ripples on the floor and the faint earth-glow from below.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Impact cam. Camera shakes on landing. Sharp focus on boots then tilt up to body. 9:16 vertical.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy metallic thud, like dropping a safe on tempered glass. A resonant, crystalline hum that fades out slowly. Windless silence (vacuum).
-
-
-## [ACT 1] [SCENE 1.3] [Timecode: 00:08-00:12] [ADMIN REVEAL: Uriel]
-**Action:** Uriel tritt aus einer Hitzeflimmern-Verzerrung. Goldene Kühlrippen expandieren.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor_in_env", "shot_type": "wide", "framing": "wide", "environment": "Calibration Deck, Void background", "env_change": false, "actors": [{"name": "Uriel", "phase": "System Admin", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Wide Shot, establishing scale, slow pan", "mood": ["awe", "intimidation"], "director_intent": "Introduce Uriel not as an angel but as a massive, functional server tower in humanoid form.", "start_image_keywords": ["golden heat sink", "Uriel machine", "heat haze"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Uriel (System Admin) standing 2.5m tall against the black stratospheric void. His body is composed of interlocking matte-gold cooling fins. His face is a flat black monolithic screen with a single red vertical loading bar. Surrounding him is a shimmering optical heat haze distortion. Majestic, industrial, terrifying.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Uriel, a massive construct of matte-gold metal. No organic features.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** The golden cooling fins on his shoulders and chest expand and contract rhythmically like breathing gills.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The obsidian deck. The air around Uriel distorts with extreme heat (mirage effect).
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red glow from his face-screen illuminates the gold metal. Harsh rim light from the distant earth.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow, steady pan upwards to emphasize height. 9:16 vertical. Depth of field separates him from the void.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud hydraulic hiss. A low-frequency drone like a massive server cooling fan spinning up. Electrical arcing sounds.
-
-
-## [ACT 1] [SCENE 1.4] [Timecode: 00:12-00:15] [OCULAR SYNC: Enoch's Eye]
-**Action:** Extreme Close-Up auf Enochs Auge. Iris rotiert wie ein Kameraverschluss.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor_only", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "Calibration Deck (blurred)", "env_change": false, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Macro Lens, focus on the iris mechanics", "mood": ["intense", "biometric"], "director_intent": "Show the biological cost of processing this data. The eye is a machine.", "start_image_keywords": ["mechanical iris", "silver skin macro", "eye shutter"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 Macro shot. Extreme close-up of Enoch's right eye. The skin around it is translucent silver, showing dark nanofiber roots underneath. The iris is not organic but a complex mechanical camera aperture made of gold and chrome blades. A tiny red reflection of Uriel's loading bar is visible in the pupil. Hyper-detailed, biometric horror.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch's eye. Skin texture shows pores and silver metallic sheen.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A (Face focus).
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Background is a blur of black and gold.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** A scanning red light passes over the eye. The eye itself glows with a faint internal blue bioluminescence.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Macro lens simulation. The iris blades snap open and shut rapidly (shutter mechanism). 9:16 vertical.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-speed mechanical clicking sequences (camera shutter bursts). A wet, organic squelch mixed with servo-motor whirring.
-
-
-## [ACT 2] [SCENE 2.1] [Timecode: 00:15-00:22] [EASTERN ARRAY: The Gates]
-**Action:** Sechs massive Neon-Cyan Rahmen schweben im Nichts. Code scrollt darin.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Stratosphere, Eastern Horizon", "env_change": true, "actors": [], "props": ["Eastern Gates"], "camera": "Whip Pan into Panorama", "mood": ["grandeur", "technical"], "director_intent": "Reveal the scale of the machinery. The sky is a rig.", "start_image_keywords": ["cyan neon gates", "floating frames", "matrix code sky"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["Eastern Gates"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 Panorama. Six colossal rectangular frames made of hard-light Cyan neon suspended in a perfect arc against the black stratospheric void. They are miles high. Inside the fourth frame, the sky texture is glitching, revealing cascading green and white raw hexadecimal code. Industrial sci-fi megastructure.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A (Environment focus).
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The Eastern Array. Six floating gates. The void around them is static, but inside the frames, the space warps.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Intense Cyan glow from the frames. The code inside acts as a light source.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Smooth panning shot following the arc of the gates. 9:16 vertical. Sharp focus on the distant structures.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Abstract digital tear.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Stroboscopic white flashes at the seam.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static shot that violently shifts content. 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Consistent low-frequency hum like a massive power plant. Digital crackling. Wind noise is absent, replaced by 'room tone' of a giant server hall.
+A deafening digital "CRACK" or "SNAP", like a thunderclap made of white noise and static.
 
 
-## [ACT 2] [SCENE 2.2] [Timecode: 00:22-00:28] [INJECTION START: Sun on Rail]
-**Action:** Die Sonne (Plasma-Kugel) fährt auf der Ekliptik-Schiene in Tor #4.
+## [ACT 1] [SCENE 1.3] [Timecode: 00:03-00:06] [LANDING: Calibration Deck]
+**Action:** Enoch stolpert auf das orange/schwarze Debug-Grid des Decks. Unter ihm die Drahtgitter-Erde.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop_only", "shot_type": "long_shot", "framing": "wide", "environment": "The Ecliptic Rail", "env_change": false, "actors": [], "props": ["The Sun", "Ecliptic Rail"], "camera": "Tracking Shot, high speed", "mood": ["power", "momentum"], "director_intent": "The sun is heavy machinery on a track, not a celestial body.", "start_image_keywords": ["sun on rail", "plasma sphere", "geodesic cage"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["The Sun"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor_in_env", "shot_type": "full_body", "framing": "high_angle", "environment": "Calibration Deck (Orbital Node 04)", "env_change": true, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "High Angle, looking down at deck and earth", "mood": ["cold", "isolated"], "director_intent": "Establish the scale and the artificial nature of the location.", "start_image_keywords": ["debug grid floor", "wireframe earth", "orbital platform"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. The Sun visualized as a blindingly bright sphere of white plasma contained within a faint, translucent geodesic cage structure. It is gliding along a glowing physical rail line (The Ecliptic) that cuts through the darkness. The Sun is about to slam into a massive Cyan neon gate frame. Sparks of digital energy fly from the rails.
+Vertical 9:16. High angle wide shot. Enoch stumbling forward onto a floating platform made of glossy black hexagonal tiles with glowing orange debug-grid lines. Below the platform is the Earth, rendered only as a blue glowing topographical wireframe map against the black void. 30km altitude. Industrial sci-fi.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Sun (Solar Unit).
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Encased in a wireframe sphere mesh.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The Ecliptic Rail, a glowing gold line in the sky. The Gate #4 frame looms ahead.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Overexposed white light from the sun, casting long harsh shadows on the rail mechanism.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fast tracking shot moving parallel to the sun. Shake/Vibration to convey mass and speed. 9:16 vertical.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch (Voyager), recovering balance.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Robes settling in low gravity.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Orbital Node 04. Infinite black sky. Wireframe planet below.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Orange underglow from the floor grid. Blue rim light from the wireframe earth.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Wide shot. Slight floating camera drift. 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud screeching of metal on metal, like a freight train braking. Roaring fire sound mixed with electrical buzzing.
+Deep, hollow thud of boots on glass. A pervasive, low-frequency sub-bass thrum (spaceship idle sound). High-altitude wind hiss.
 
 
-## [ACT 2] [SCENE 2.3] [Timecode: 00:28-00:35] [THE LOCK: Mechanical Clamps]
-**Action:** Mechanische Licht-Klammern arretieren die Sonne. Schockwelle.
+## [ACT 1] [SCENE 1.4] [Timecode: 00:06-00:09] [REACTION: Thermal Shock]
+**Action:** Close-Up auf Enochs Hals. Blaue Kühlleitungen leuchten unter der Haut auf. Frost auf den Wimpern.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop_only", "shot_type": "close_up", "framing": "close_up", "environment": "Gate 4 Interface", "env_change": false, "actors": [], "props": ["The Sun", "Clamps"], "camera": "Crash Zoom, Impact Shake", "mood": ["violent", "industrial"], "director_intent": "The connection is violent. It's a hard docking procedure.", "start_image_keywords": ["sun docking", "light clamps", "shockwave"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["The Sun", "Clamps"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor_only", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "Calibration Deck (Blurred)", "env_change": false, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Macro, shallow depth of field", "mood": ["visceral", "biological"], "director_intent": "The biological system is engaging active cooling to survive the environment.", "start_image_keywords": ["subdermal glow", "frost on skin", "blue veins"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Close-up of the moment of impact. Massive angular mechanical clamps made of solid light lock onto the surface of the Sun sphere. A visible shockwave of distortion ripples out from the contact points. Debris and sparks of raw geometry (triangles and polygons) fly off the surface. High contrast, blinding white on black.
+Vertical 9:16. Extreme Macro Close-up of Enoch's neck and jawline. The skin is translucent marble-white. Underneath, bright electric-blue veins (Liquid Nitrogen Coolant) are glowing and pulsing. Tiny ice crystals and frost are forming rapidly on his peach fuzz and eyelashes. Realistic texture, biomedical sci-fi.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Sun's surface (roiling plasma).
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** The Clamps: angular, art deco style mechanisms made of hard light.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Inside the Gate Frame.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Explosion of light at contact points. Lens flares.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Crash zoom into the lock. Violent camera shake. 9:16 vertical.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch's skin surface. Pores visible.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred dark background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal blue bioluminescence from the veins illuminating the skin from within.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Macro lens. Focus racking from the neck vein to the frost on the cheek. 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A massive thunderclap that sounds digitized/bit-crushed. Deep metallic clunk. Sci-fi energy weapon discharge sound.
+Hydraulic fluid pumping sound. The crackle of freezing ice. Sharp intake of breath.
 
 
-## [ACT 2] [SCENE 2.4] [Timecode: 00:35-00:42] [DATA DUMP: Uriel Transmitting]
-**Action:** Uriel zeigt auf die Sonne. Sein Gesichts-Screen strobt QR-Codes.
+## [ACT 1] [SCENE 1.5] [Timecode: 00:09-00:15] [REVEAL: Uriel Monolith]
+**Action:** Ein 3m hoher Turm aus schwarzen Kühlrippen (Uriel) rotiert. Ein rotes LED-Auge fixiert Enoch.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor_in_env", "shot_type": "medium", "framing": "over_shoulder", "environment": "Calibration Deck", "env_change": false, "actors": [{"name": "Uriel", "phase": "System Admin", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Over-the-Shoulder, Uriel pointing", "mood": ["commanding", "digital"], "director_intent": "Uriel authorizes the sunrise via data transfer.", "start_image_keywords": ["Uriel pointing", "QR code face", "red strobe"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor_in_env", "shot_type": "low_angle", "framing": "full_body", "environment": "Calibration Deck", "env_change": false, "actors": [{"name": "Uriel", "phase": "System Admin", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle Hero Shot", "mood": ["intimidating", "mechanical"], "director_intent": "Uriel is not a person, he is the operating system kernel manifested as hardware.", "start_image_keywords": ["black heatsink monolith", "red LED sensor", "Uriel machine"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Over-the-shoulder shot from behind Uriel. In the foreground, Uriel's matte-gold metallic shoulder and arm are visible. He is pointing a rigid finger at the distant Sun. His face (profile view) is a black screen rapidly strobing complex red QR-code patterns and data waterfalls. Background is the bright sun locked in the gate.
+Vertical 9:16. Low angle shot of Uriel (System Admin). He is a looming 3-meter tall construct made entirely of matte-black industrial heatsink fins and thick gold cabling. He has no human face, just a vertical sensor array with a single glowing red LED status light. He stands on the obsidian deck against the void. Brutalist design.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Uriel.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Gold cooling fins vibrating.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Uriel (Machine Form).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** The heatsink fins vibrate slightly.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Calibration Deck.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red strobe light from Uriel's face reflecting on his own gold body and the floor.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static camera body, but the lights and data on Uriel's face are moving frantically. 9:16 vertical.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red glow from the sensor. Gold reflections on cables.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** The upper torso rotates mechanically 180 degrees to face the camera. 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High speed data stream chirps (like old dial-up but clean and fast). Rhythmic beeping syncopated with the face flashing.
+Heavy servo-motor whine (like a tank turret turning). Deep metallic clanking. Low hum of electrical current.
 
 
-## [ACT 2] [SCENE 2.5] [Timecode: 00:42-00:50] [HUD OVERLAY: Enoch POV]
-**Action:** Enoch sieht AR-Overlay. "DAY: 10 PARTS". Tortendiagramm rotiert.
+## [ACT 2] [SCENE 2.1] [Timecode: 00:15-00:19] [SETUP: Eastern Array]
+**Action:** Pan über sechs gigantische Cyan-Neon-Rahmen. Der Himmel darin ist falsch gemappt.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "pov", "framing": "pov", "environment": "Sky with HUD", "env_change": false, "actors": [], "props": ["HUD Interface"], "camera": "POV (Through Visor)", "mood": ["analytical", "augmented"], "director_intent": "Show what Enoch sees. The world is data.", "start_image_keywords": ["HUD overlay", "Ge'ez interface", "pie chart"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["HUD Interface"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Eastern Horizon", "env_change": true, "actors": [], "props": ["Eastern Gates"], "camera": "Slow Pan", "mood": ["grand", "synthetic"], "director_intent": "Show the scale of the render farm machinery.", "start_image_keywords": ["cyan neon gates", "texture misalignment", "floating frames"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["Eastern Gates"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 HUD Design. First-person view of the Sun and sky. Overlaying the view is a sharp, glowing golden Augmented Reality interface. Central element is a segmented pie chart labeled in Ge'ez script. Text reads "DAY: 10 PARTS" and "NIGHT: 8 PARTS". Thin vector lines connect the sun to the chart. Cyber-biblical aesthetic.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A (UI Focus).
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** The edges of the screen show the curvature of Enoch's visor helmet.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The sky with the sun moving through it.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The UI glows self-illuminated gold/amber.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** POV camera movement (slight head bob). The UI elements track and lock onto objects in the distance. 9:16 vertical.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-UI selection clicks. Holographic hum. A synthesized voice whispering numbers (indistinct).
-
-
-## [ACT 2] [SCENE 2.6] [Timecode: 00:50-00:55] [RATIO SHIFT: Time-Lapse]
-**Action:** Zeitraffer. Himmel wird dunkler. HUD Balken verschieben sich (10:8 -> 9:9).
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "long_shot", "framing": "wide", "environment": "Sky Time-lapse", "env_change": true, "actors": [], "props": ["HUD Interface"], "camera": "Static Shot, Time-lapse speed", "mood": ["rapid", "mathematical"], "director_intent": "Visualizing the passage of time as a changing variable in an equation.", "start_image_keywords": ["time lapse sky", "changing ratio", "day night bars"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["HUD Interface"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Split screen composition within the HUD. The sky transitions from bright blue to dark indigo. A graphical bar chart overlay shows two vertical bars: "Light" (Gold) shrinking and "Darkness" (Blue) growing. Numbers change rapidly: 10:8, 9:9, 8:10. Motion blur on the clouds.
+Vertical 9:16. The Eastern Horizon of the simulation. Six colossal rectangular frames made of raw Cyan neon light float in the black void. Inside the frames, a blue sky texture is visible, but it is misaligned and tiled incorrectly compared to the surrounding void. Massive scale.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The sky.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Rapid shifting of lighting conditions from day to dusk.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Time-lapse effect. Clouds stream by. The HUD graphics animate smoothly in real-time contrast to the sped-up background. 9:16 vertical.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The Eastern Array (Gates).
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Intense Cyan light casting onto nothing.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow, majestic pan from left to right. 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud ticking sound (industrial clock, 60 BPM). Whooshing sound of time passing.
+Piercing 15kHz coil whine (high voltage). A thrumming, pulsating drone.
 
 
-## [ACT 2] [SCENE 2.7] [Timecode: 00:55-00:60] [LIMIT BREAK: Polygon Lag]
-**Action:** Sonne passiert den Zenit. Atmosphäre rendert kurz als harte Polygone.
+## [ACT 2] [SCENE 2.2] [Timecode: 00:19-00:22] [EVENT: Spawn]
+**Action:** Die Sonne (Plasma in Käfig) teleportiert sich in Mikroschritten auf die Schiene.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "low_angle", "framing": "wide", "environment": "Glitching Sky", "env_change": true, "actors": [], "props": ["The Sun"], "camera": "Dutch Angle, disorienting", "mood": ["unstable", "glitch"], "director_intent": "The system is struggling to render the transition. Reality is low-poly.", "start_image_keywords": ["low poly clouds", "sky glitch", "render fail"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["The Sun"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop_only", "shot_type": "long_shot", "framing": "wide", "environment": "The Ecliptic Rail", "env_change": false, "actors": [], "props": ["The Sun", "Ecliptic Rail"], "camera": "Telephoto, Jump Cuts", "mood": ["energetic", "glitch"], "director_intent": "The sun doesn't move smoothly, it updates its position variable.", "start_image_keywords": ["sun in cage", "teleportation glitch", "plasma sphere"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["The Sun"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. The sky looking directly up at the zenith. The clouds have lost their softness and are rendered as hard-edged, low-poly triangular meshes. The Sun is a perfect white hexagon instead of a sphere. Z-fighting artifacts where textures overlap. "Texture Not Found" checkerboard pattern on a patch of blue.
+Vertical 9:16. Long shot of the Sun. It is a blinding white plasma sphere trapped inside a complex geodesic wireframe cage ("The Chariot"). It sits on a glowing golden rail line in the sky. Visual artifacts/ghosting trail behind it, indicating rapid movement or teleportation.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Sun Unit.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Geodesic cage structure.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The Rail.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blinding white point source.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** The object jumps forward in discrete steps (staccato movement) rather than gliding. 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Heavy metallic clank repeated rapidly (Railgun loading sound). Electrical zap with each jump.
+
+
+## [ACT 2] [SCENE 2.3] [Timecode: 00:22-00:25] [CONTACT: Handshake]
+**Action:** Sonne trifft Tor 4. Funkenflug. Hex-Code "INPUT_ACCEPTED" auf dem Rahmen.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "prop_only", "shot_type": "close_up", "framing": "close_up", "environment": "Gate 4 Interface", "env_change": false, "actors": [], "props": ["The Sun", "Gate Frame"], "camera": "Action Cam, Shaky", "mood": ["violent", "connection"], "director_intent": "A physical connection between the power source and the distribution network.", "start_image_keywords": ["gpu particles", "input accepted text", "sun collision"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["The Sun", "Gate Frame"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16. Close-up Action shot. The wireframe cage of the Sun slamming into the Cyan neon frame of Gate 4. Explosion of digital sparks (squares and triangles) flying off the impact point. On the neon frame, scrolling text reads "INPUT_ACCEPTED // LUMENS_MAX".
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Sun Cage vs Gate Frame.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Gate 4.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Welding-torch intensity light. Cyan and White.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld/Shaky cam feeling. Violent vibration. 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Loud electrical arc welding sound. A synthesized "lock-on" chime.
+
+
+## [ACT 2] [SCENE 2.4] [Timecode: 00:25-00:27] [UPDATE: Lightmap Bake]
+**Action:** Schatten auf dem Deck springen von weich zu hart. Beleuchtung updated sich instantan.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Calibration Deck", "env_change": false, "actors": [], "props": [], "camera": "Static, Time-lapse feel", "mood": ["artificial", "abrupt"], "director_intent": "Demonstrate that light is a calculated render pass, not natural physics.", "start_image_keywords": ["hard shadows", "lighting update", "obsidian floor"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16. The Obsidian floor of the Calibration Deck. Sharp, elongated shadows of unseen structures are cast across the hex-grid. The lighting is harsh and binary—pure black shadow and pure white light, with no gradient or penumbra. It looks like a ray-tracing render without bounce light.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The sky dome.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flat shading (no smooth gradients). Harsh polygonal lighting.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Dutch angle (tilted camera). The video stutters (simulated frame drops). 9:16 vertical.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Calibration Deck floor.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The shadows snap into different positions instantly (0 to 1 transition).
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static shot with lighting changing in steps. 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Audio stutter and buffering skip sounds. Digital tearing noise.
+A heavy, dull "Thud" or "Clack" with each shadow change (like a giant light switch).
 
 
-## [ACT 3] [SCENE 3.1] [Timecode: 00:60-00:68] [WESTERN TARGET: Amber Gate]
-**Action:** Rote, müde Sonne nähert sich dem Amber Western Gate. Dampf entweicht.
+## [ACT 2] [SCENE 2.5] [Timecode: 00:27-00:31] [TRANSMIT: Data Scream]
+**Action:** Uriels Sensor wird weiß. Li-Fi Stroboskop startet.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Western Horizon", "env_change": true, "actors": [], "props": ["Western Gates", "Red Sun"], "camera": "Smooth Wide Shot, Symmetrical", "mood": ["exhaustion", "shutdown"], "director_intent": "The machine is powering down. Heat dissipation.", "start_image_keywords": ["red sun", "amber gate", "steam vents"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["Western Gates", "Red Sun"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor_only", "shot_type": "close_up", "framing": "close_up", "environment": "Calibration Deck", "env_change": false, "actors": [{"name": "Uriel", "phase": "System Admin", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Static, intense strobe", "mood": ["aggressive", "digital"], "director_intent": "The data transmission is an assault.", "start_image_keywords": ["Uriel face strobe", "white LED", "data burst"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. The Western Horizon. A dim, deep red Sun (looking like cooling lava) is approaching a massive Amber-colored neon gate frame. Jets of white steam are venting violently from the sides of the gate frame, suggesting a cooling mechanism. The sky is a heavy twilight purple.
+Vertical 9:16. Close-up on Uriel's "face" (the vertical sensor array). The red standby light is gone, replaced by a blindingly bright white strobe light. The black metal surrounding it is illuminated by the harsh flashing.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Sun (Red Giant phase).
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Uriel Sensor Array.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark void background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** High-frequency strobe (flicker). 
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static framing. The light intensity creates lens flares and sensor blooming. 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A guttural, digital scream. 56k Modem handshake slowed down 800%. Grating and aggressive.
+
+
+## [ACT 2] [SCENE 2.6] [Timecode: 00:31-00:34] [RECEIVE: HUD POV]
+**Action:** Enoch POV. Scrollender Text: "DAY_VAR = 10". Uriel zeigt zur Sonne.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "interface", "shot_type": "pov", "framing": "pov", "environment": "Deck with HUD", "env_change": false, "actors": [{"name": "Uriel", "phase": "System Admin", "presence": "on_screen", "focus": "secondary"}], "props": ["HUD Interface"], "camera": "POV, slight movement", "mood": ["overwhelmed", "informative"], "director_intent": "The user receiving the configuration file.", "start_image_keywords": ["HUD overlay", "scrolling code", "Uriel pointing"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["HUD Interface"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16. First-person POV from Enoch. A complex amber Augmented Reality terminal window overlays the vision. Fast scrolling text: "DAY_LENGTH_VAR = 10", "NIGHT_LENGTH_VAR = 8". Through the text, the massive silhouette of Uriel is visible, pointing a metal arm towards the distant Sun.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Uriel (distant).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** HUD UI elements (curved at edges).
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Calibration Deck.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Amber glow of UI.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** POV camera shake (head movement). Text scrolls rapidly. 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Rapid telemetry beeps. High speed text scrolling sound.
+
+
+## [ACT 2] [SCENE 2.7] [Timecode: 00:34-00:37] [PROCESS: Eye Mech]
+**Action:** Enochs Iris fährt mechanisch ein. Eine Glaslinse klickt davor.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor_only", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "Calibration Deck", "env_change": false, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Macro Eye Shot", "mood": ["intrusive", "mechanical"], "director_intent": "The body is hardware adapting to the new software.", "start_image_keywords": ["mechanical iris", "glass lens", "retina scan"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16. Extreme Macro of Enoch's right eye. The organic iris is gone. In its place, a complex gold aperture mechanism is visible inside the eyeball. A clear, secondary glass lens is sliding over the cornea from the side. A faint red laser grid is scanning the retina from the inside.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch's Eye.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Mechanical aperture.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred face.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal red laser light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Macro focus. The aperture blades snap shut and open. The lens slides in with a mechanical precision. 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Tiny, precise servo motors whirring. A sharp "Click-Lock" sound of the lens seating.
+
+
+## [ACT 2] [SCENE 2.8] [Timecode: 00:37-00:42] [DATA: The Ratio]
+**Action:** Abstrakte Visualisierung des Himmels. 18 Segmente. 10 hell, 8 dunkel. Sie verschieben sich.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "interface", "shot_type": "top_down", "framing": "wide", "environment": "Abstract UI Space", "env_change": true, "actors": [], "props": ["Ratio Graph"], "camera": "Top Down Graphic", "mood": ["mathematical", "ordered"], "director_intent": "Visualizing the algorithm of the seasons.", "start_image_keywords": ["sky segments", "ratio visualization", "day night bars"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["Ratio Graph"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16. Abstract infographic style. A circle representing the sky dome divided into 18 perfectly equal vertical slices. 10 slices are glowing Gold (Day), 8 are dark Blue (Night). The dividing line is hard and geometric. Minimalist UI design on black background.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** UI Space.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Self-illuminated graphics.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** The slices animate: One gold slice turns blue. The ratio changes. Mechanical sliding motion. 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Heavy stone sliding on stone. Satisfying UI click sounds.
+
+
+## [ACT 3] [SCENE 3.1] [Timecode: 00:42-00:45] [CONFIRM: Synapse]
+**Action:** Enoch zuckt. Eine Träne aus blauem Kühlmittel läuft aus dem Auge.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor_only", "shot_type": "close_up", "framing": "close_up", "environment": "Calibration Deck", "env_change": false, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Frontal Close Up", "mood": ["release", "pain"], "director_intent": "The upload is finished. The system vents excess coolant.", "start_image_keywords": ["blue coolant tear", "silver skin", "twitch"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16. Close-up on Enoch's face. He looks exhausted. A single, thick drop of glowing electric-blue liquid (coolant) is rolling down his cheek from his right eye like a tear. His skin is still shimmering slightly.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue glow from the tear.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Facial twitch (spasm). He blinks rapidly. 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A sharp hiss of escaping steam/pressure. A wet drip sound.
+
+
+## [ACT 3] [SCENE 3.2] [Timecode: 00:45-00:48] [TARGET: Western Ports]
+**Action:** Westliches Tor (Amber). Rauchige Atmosphäre.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Western Horizon", "env_change": true, "actors": [], "props": ["Western Gates"], "camera": "Wide Shot", "mood": ["exhausted", "hazy"], "director_intent": "The end of the line. The machine is hot and dirty.", "start_image_keywords": ["amber gate", "smog", "exhaust"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["Western Gates"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16. The Western Horizon. The neon gates here are Amber/Orange. The air is thick with digital smog and smoke, illuminated by the orange glow. It looks like an industrial exhaust port.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Western Gate.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dim red ambient light. Amber glow from the gate.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow, majestic approach. Symmetrical framing. 9:16 vertical.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Hazy orange volumetric lighting.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow, drifting camera movement through the haze. 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud hiss of escaping steam (like a coffee machine but massive). Deep, throbbing bass.
+Loud hissing sound (steam vents). Low industrial rumble.
 
 
-## [ACT 3] [SCENE 3.2] [Timecode: 00:68-00:75] [COOLING: Magma Shift]
-**Action:** Sonne geht durch. Plasma kühlt zu dunklem Magma. Twilight.
+## [ACT 3] [SCENE 3.3] [Timecode: 00:48-00:52] [EXIT: Dissipation]
+**Action:** Sonne geht ins Tor. Plasma dimmt zu Rot. Käfig glüht.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop_only", "shot_type": "medium", "framing": "medium", "environment": "Western Gate Interior", "env_change": false, "actors": [], "props": ["Cooling Sun"], "camera": "Medium Shot, Fade out", "mood": ["melancholy", "darkness"], "director_intent": "The light dies. The job is done.", "start_image_keywords": ["magma sun", "cooling rock", "twilight"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["Cooling Sun"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop_only", "shot_type": "medium", "framing": "medium", "environment": "Western Gate", "env_change": false, "actors": [], "props": ["The Sun"], "camera": "Tracking Shot", "mood": ["dying", "thermal"], "director_intent": "Powering down the main light source.", "start_image_keywords": ["red sun", "glowing cage", "cooling lava"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["The Sun"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Close up on the Sun passing through the gate threshold. As it crosses the line, the red plasma crust hardens into black volcanic rock with barely visible glowing cracks. The light in the scene dies down instantly to a dark blue twilight.
+Vertical 9:16. The Sun unit passing through the Amber gate. The bright white plasma has dimmed to a dull, angry crimson red (Red Giant look). The wireframe cage around it is glowing bright orange from extreme heat stress.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Sun.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Western Gate.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Fading red light. Increasing blue darkness.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fixed camera watching the object pass and darken. 9:16 vertical.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Sun Unit.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Heated cage.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Gate threshold.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red/Orange lighting.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Tracking shot following the object as it fades. 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Turbine whine decreasing in pitch (power down sound). Crackling of cooling rock.
+The "Tink-Tink" sound of cooling metal contracting. A turbine spinning down (pitch decrease).
 
 
-## [ACT 3] [SCENE 3.3] [Timecode: 00:75-00:82] [SYSTEM NIGHT: Platform Dark]
-**Action:** Bodenlichter des Decks gehen aus. Nur Erdschein von unten.
+## [ACT 3] [SCENE 3.4] [Timecode: 00:52-00:55] [SHUTDOWN: Blackout]
+**Action:** Sonne weg. Alles schwarz. Blauer Mond-Spotlight geht an.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "high_angle", "framing": "wide", "environment": "Calibration Deck (Night)", "env_change": true, "actors": [], "props": [], "camera": "High Angle, Drone shot", "mood": ["silence", "void"], "director_intent": "Total shutdown. The facility is closed.", "start_image_keywords": ["dark platform", "earth city lights", "night mode"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "high_angle", "framing": "wide", "environment": "Calibration Deck (Night)", "env_change": true, "actors": [], "props": [], "camera": "High Angle, Hard Lighting Change", "mood": ["void", "reset"], "director_intent": "The active process ends. The passive process begins.", "start_image_keywords": ["blackout", "moon spotlight", "dark deck"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 High Angle Drone shot looking down at the Calibration Deck. The hexagonal floor lights flicker and turn off completely. The only light source is the clusters of city lights from the Earth's surface 30km below. The platform is a silhouette against the planet.
+Vertical 9:16. High Angle shot of the Calibration Deck. Pitch black. Suddenly, a single, harsh, cold-blue spotlight (The Moon Thread) snaps on, illuminating a circle on the hexagonal floor. The rest remains in void.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The Calibration Deck in space.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Minimalist. Blue earth-glow. Black silhouette.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow drift. 9:16 vertical.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark Deck.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Instant transition from Black to Blue Spot.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static camera. Hard lighting change. 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Absolute silence. Subtle vacuum wind (low rumble).
+A loud "Power Down" whirr that cuts to silence. Then a single loud relay click.
 
 
-## [ACT 3] [SCENE 3.4] [Timecode: 00:82-00:88] [THE LOG: Tablet Entry]
-**Action:** Uriel hält Glastablet. Text: "CYCLE_72_OK". Enoch nickt.
+## [ACT 3] [SCENE 3.5] [Timecode: 00:55-00:59] [ADMIN: Log File]
+**Action:** Uriel hält Tablet: "CYCLE_72 COMPLETE". Focus Pull zu Enoch.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop_only", "shot_type": "close_up", "framing": "close_up", "environment": "Calibration Deck", "env_change": false, "actors": [{"name": "Uriel", "phase": "System Admin", "presence": "on_screen", "focus": "primary"}, {"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Glass Tablet"], "camera": "Focus Pull from Tablet to Enoch", "mood": ["administrative", "final"], "director_intent": "The bureaucracy of miracles. It's just paperwork.", "start_image_keywords": ["glass tablet", "CYCLE_72_OK", "Enoch nodding"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": ["Glass Tablet"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop_only", "shot_type": "close_up", "framing": "close_up", "environment": "Calibration Deck", "env_change": false, "actors": [{"name": "Uriel", "phase": "System Admin", "presence": "on_screen", "focus": "primary"}, {"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Glass Tablet"], "camera": "Rack Focus", "mood": ["administrative", "final"], "director_intent": "Confirming the successful execution of the day cycle.", "start_image_keywords": ["glass tablet", "log entry", "Enoch background"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": ["Glass Tablet"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Close-up on a transparent glass tablet held by a golden metallic hand. On the screen, sharp white pixel text reads: "CYCLE_72_COMPLETED". "ERROR_LOG: NULL". In the blurry background, Enoch stands exhausted, blue moonlight reflecting on his silver skin.
+Vertical 9:16. Close-up on a transparent slab of glass (tablet) held by Uriel's gold metal hand. White pixel font reads: "CYCLE_72: COMPLETE". "ERRORS: 0". In the background (bokeh), Enoch's face is visible, illuminated by the blue moon-spotlight, looking relieved.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Uriel's hand. Enoch in background.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Tablet.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark deck.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold white light from tablet text.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Rack focus: Starts sharp on the text "CYCLE_72", then blurs the text and focuses on Enoch's face in the back. 9:16 vertical.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Uriel Hand, Enoch Face.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Tablet prop.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Night Deck.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** White text glow, Blue background rim light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Rack Focus: Starts sharp on the text, then focus shifts to Enoch's face. 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Mechanical keyboard typing sounds (loud, clicky). A soft chime of success.
-
-
-## [ACT 3] [SCENE 3.5] [Timecode: 00:88-00:90] [EXIT: Sleep Mode]
-**Action:** Uriel geht in Sleep Mode (Kopf runter, Lichter aus). Black.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor_in_env", "shot_type": "medium", "framing": "medium", "environment": "Calibration Deck", "env_change": false, "actors": [{"name": "Uriel", "phase": "System Admin", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Static Shot, Fade to Black", "mood": ["off", "end"], "director_intent": "Shutdown.", "start_image_keywords": ["Uriel sleep mode", "lights off", "silhouette"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16. Uriel standing motionless in the dark. The red light on his face turns into a tiny green standby dot, then fades completely. His head lowers mechanically onto his chest. He becomes a lifeless statue of gold.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Uriel.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Cooling fins stop moving.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark void.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Fading green LED.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static shot. Fade to black. 9:16 vertical.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-A single system beep (bios post-code). Silence.
+A pleasant, synthesized "Success Chime" (major chord). Fade to silence.
 
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Ein Schritt... und der Boden atmet Daten.","words_max":7},{"scene":"2.5","text":"Alles gemessen. Kein Lichtstrahl ohne Seriennummer.","words_max":8},{"scene":"3.4","text":"Der Tag ist vollbracht. Das System schweigt.","words_max":7}]},"notes":"German only. Short internal monologues. Introspective and weary."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Das System stottert... ich sehe die Nähte der Welt.","words_max":9},{"scene":"2.6","text":"Nicht Gott führt die Sonne. Es ist ein Skript.","words_max":9},{"scene":"3.5","text":"Ein Tag. Ein Log-Eintrag. Wir sind nur Daten.","words_max":9}]},"notes":"German only. Short internal monologues. Introspective and weary. JSON must be in one line."}

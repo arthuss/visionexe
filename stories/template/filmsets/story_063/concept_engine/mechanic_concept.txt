@@ -1,150 +1,222 @@
 CONCEPT: SYSTEM_PURGE_PROTOCOL_CHAPTER_63_V2
 
 1. BIO-INJECTION (SUBJECTS: THE KINGS):
-The "Kings" are deprecated Legacy-Root-User-Instances. The technology manifests as "Texture Streaming Failure" and "Polygon Decimation". Their skin (Gold/Porcelain shaders) is not healing; it is failing to load. We see the underlying grey "Default Material" breaking through. Their eyes are not "weeping" biological tears, but leaking "Memory Dump" fluids—a viscous, black ferrofluid substance.
+The "Kings" represent deprecated Legacy-Root-User-Instances. The technology manifests as "Texture Streaming Latency" and "UV Map Desynchronization". Their biological skin (Gold/Porcelain shaders) is not physically peeling, but sliding off their wireframe coordinates due to coordinate mapping errors. The underlying mesh is a raw, unrendered grey prototype. Their tears are "Memory Leaks"—viscous black ferrofluid that drips upwards due to local gravity inversion errors.
 
 2. MESH-BREAK:
-The "Throne Room" environment is undergoing a "Garbage Collection" cycle. Geometry does not dissolve into smoke (too magical). Instead, objects turn into "Wireframe Mode" (green vector lines), then "Bounding Boxes", and finally vanish (Null). The floor suffers "Z-Fighting"—flickering rapidly between the marble texture and the red void of the deletion sector beneath.
+The "Throne Room" environment is undergoing a "Force-Quit" sequence. Geometry does not dissolve. It degrades via "LOD (Level of Detail) Popping". High-poly architectural assets abruptly snap to low-poly proxies, then to bounding boxes, then to wireframe, and finally to Null. The floor suffers from "Z-Fighting"—two textures (marble and void) occupying the same coordinates, causing aggressive flickering.
 
 3. PACING-STRATEGIE:
-Rhythm: "Processing Lag".
-Beginning: Stuttering movement. The Kings move at 12fps while the camera moves at 24fps, creating a jarring, uncanny disconnect.
-Middle (Confession): Hyper-real, uncomfortable macro-focus. Time seems to stretch (high frame rate playback of slow motion).
-End (Purge): "Hard Crash". Instant black cuts. No fades.
+Rhythm: "Buffer Underrun". The scene plays at a variable frame rate.
+Beginning: Lag spikes. The Kings move at 12fps, freezing momentarily while audio continues.
+Middle (Confession): Hyper-real "Bullet Time" (simulated high refresh rate) to analyze micro-expressions of panic.
+End (Purge): "Hard Cut to Black". No fades. Data stream termination.
 
 4. AUDIO-DESIGN:
-Primary Layer: A massive, slowing industrial turbine (The System winding down).
-Secondary Layer: "Click of Death" (HDD failure sound) synchronized with the Kings' blinking/glitching.
-Voices: Heavily compressed, bit-crushed audio, sounding like a corrupt MP3 file skipping.
+Primary Layer: A massive, slowing server cooling fan (The System winding down).
+Secondary Layer: "HDD Click of Death" (rhythmic mechanical failure) synchronized with the Kings' glitches.
+Voices: Heavily compressed, bit-crushed audio with artifacts, resembling a corrupted VOIP stream.
 
 5. ÜBERGÄNGE:
-Transition Mechanic: "Glitch-Cut". The image tears horizontally (V-Sync failure) to reveal the next shot.
+Transition Mechanic: "V-Sync Tearing". Horizontal lines shear the image, revealing the next shot in the lower half before the top half catches up.
 
 6. SPATIAL CONTEXT (ARRIVAL):
-No arrival. We are spawning directly inside the "Sandbox Instance" of the Kings. Henoch (Observer) is viewing this from behind a "Debug Glass"—a one-way mirror with UI overlays.
+Spawn Event. Henoch does not walk in. He spawns directly into the "Observation Gantry" (Coordinates: 0, 150, 0) overlooking the Throne Room. He views the scene through a "Debug Glass"—a one-way transparent OLED surface displaying real-time variable monitoring of the Kings' deletion process.
 
 FRAMEWORK:
 Total Clips: 16.
-Focus: Capturing the specific "Prayer for Rest" dialog via distinct facial performance.
+Focus: Capturing the dialogue interaction (Confession vs. Observation) and the final deletion event.
 
 PROMPT-SET (DREHBUCH-GENERATOR INPUT):
 
-VIDEO_ID: CH63_SC01_KINGS_DEGRADATION_WIDE
+VIDEO_ID: CH63_SC01_KINGS_LATENCY_WIDE
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: The_Ruling_Class_Cluster. Physique: Group of 5 once-perfect humanoid avatars, now suffering generic model degradation. Skin-Shader: GOLD_FOIL_PEEL. Their golden skin is peeling away in large flakes, revealing raw, untextured grey polygon mesh underneath. Optics: GLITCH_LEDS. Eyes are flickering red standby lights.
+Actor: The_Ruling_Class_Cluster. Physique: Group of 5 elderly male avatars, formerly high-resolution, now suffering LOD degradation. Skin-Shader: GOLD_UV_SLIP. The golden texture map is offset by 5cm, revealing raw grey polygon mesh underneath. Optics: DEAD_PIXEL_ARRAYS. Eyes are black voids emitting no light.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Garment: Royal Robes made of DATATAPE_RIBBONS. Heavy, black magnetic tape tangling around their legs. Primary Prop: None. Hands are clutching at their dissolving chests. Interface-VFX: SYSTEM_WARNING_OVERLAY. Floating red holographic "DEPRECATED_ASSET" tags hovering above their heads.
+Garment: Royal Robes made of DATATAPE_RIBBONS. Heavy, black magnetic tape tangling around their legs. Interface-VFX: SYSTEM_WARNING_OVERLAY. Floating red "DEPRECATED_ASSET" tags hovering above heads, blinking.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: The_Terminal_Throne_Room. Architecture: Brutalist concrete structures that are turning transparent. Atmosphere: Digital static rain (noise grain) falling upwards. Background: The floor is glitching, revealing a wireframe grid over an infinite red abyss.
+Location: The_Terminal_Throne_Room. Architecture: Brutalist concrete structures. Background: Walls are flickering between solid texture and green wireframe. Atmosphere: Digital static rain (noise grain) falling upwards.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting Scheme: ALERT_RED. Primary: Pulsing emergency red beacons. Shadows: Harsh, pitch black.
+Lighting Scheme: ALERT_RED. Primary: Pulsing emergency red beacons (0.5Hz). Shadows: Harsh, ray-traced pitch black.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Wide High-Angle. Lens: 16mm Fisheye. Focus: Deep focus. Style: Security Camera Footage, 4k, chromatic aberration.
+Camera: Wide High-Angle (CCTV Style). Lens: 16mm Fisheye. Distortion: Chromatic aberration at edges. Frame Rate: Simulated 12fps stutter.
 
-VIDEO_ID: CH63_SC02_KING_PRIME_GLITCH
+VIDEO_ID: CH63_SC02_KING_PRIME_BUFFERING
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Prime_King_Unit_01. Physique: Elderly male avatar, face contorted in panic. Skin-Shader: CRACKED_CERAMIC. Large fissures in the face leaking black ferrofluid (memory dump). Optics: SEARCHING_AR. Eyes projecting a blue cone of light, scanning for a signal.
+Actor: Prime_King_Unit_01. Physique: Face contorted in panic, freezing mid-motion. Skin-Shader: CRACKED_CERAMIC. Fissures in the face leaking black ferrofluid (memory dump). Optics: SEARCHING_LIDAR. Eyes projecting a blue scanning grid.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Garment: Tattered digital mesh robes. Interface-VFX: ERROR_LOG. A stream of red hex-code spilling from his mouth as he speaks.
+Garment: Tattered digital mesh robes. Interface-VFX: ERROR_HEX_DUMP. A stream of red hexadecimal code spilling from his mouth.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: The_Terminal_Throne_Room. Background: A wall behind him dissolving into green wireframe vectors.
+Location: The_Terminal_Throne_Room. Background: A pillar behind him snaps to low-poly geometry.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting Scheme: SPOTLIGHT_INTERROGATION. Primary: Harsh white top-down light.
+Lighting Scheme: SPOTLIGHT_INTERROGATION. Harsh white top-down light.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Medium Close-Up. Lens: 50mm. Focus: Sharp on the leaking eyes. Style: Handheld, shaky, documenting a crash.
+Camera: Medium Close-Up. Lens: 50mm. Focus: Sharp on the leaking eyes. Style: Handheld, shaky.
 
-VIDEO_ID: CH63_SC03_KING_PRIME_SPEAKING_A
+VIDEO_ID: CH63_SC03_HENOCH_DEBUG_VIEW
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Prime_King_Unit_01. Action: Speaking the plea for "Rest". Mouth movement is erratic, out of sync with the audio waveform visual.
+Actor: Enoch (Observer_Mode). Physique: Translucent Marble Avatar. Optics: RECORDING_LASER. Red laser dot emitting from right eye.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Garment: Digital rags. Interface-VFX: AUDIO_WAVEFORM. A jagged yellow line visually representing his voice floats in front of his lips.
+Garment: Liquid_Linen Tunic. Prop: OBSIDIAN_TABLET. Stylus of light logging the deletion event. Interface-VFX: HUD_OVERLAY. Reflection of the Kings seen in the glass in front of him.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: The_Terminal_Throne_Room.
+Location: Observation_Gantry. Sterile, glass-enclosed corridor above the Throne Room.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting Scheme: COLD_BLUE. Reflected light from the "Observer's Window".
+Lighting Scheme: SCREEN_GLOW. Cool blue light from the tablet.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Extreme Close-Up (Mouth and Nose). Lens: 100mm Macro. Style: Uncomfortably close, high texture detail on the degrading skin.
+Camera: Medium Shot. Focus: Reflection on the glass (Kings) and Henoch's face.
 
-VIDEO_ID: CH63_SC04_GROUP_REACTION
+VIDEO_ID: CH63_SC04_KING_PRIME_PLEA
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: The_Ruling_Class_Cluster. Action: They look up in unison towards the "Observer".
+Actor: Prime_King_Unit_01. Action: Speaking "Grant us rest". Mouth moves erratically. Skin-Shader: TEXTURE_TEARING. The texture on his cheek tears open to reveal empty black space.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Garment: Dissolving robes.
-[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: The_Terminal_Throne_Room. Action: The ceiling begins to lower physically, compressing the space (Disk Cleanup).
-[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting Scheme: STROBE. Rapid alternating red and white flashes.
-[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Low Angle, looking up at the terrified group. Lens: 35mm.
-
-VIDEO_ID: CH63_SC05_HENOCH_OBSERVER_REVERSE
-[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Enoch (Observer_Mode). Physique: Translucent Marble Avatar. Optics: RECORDING_LASER. A distinct red laser dot emits from his right eye, tracking the Kings below.
-[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Garment: Liquid_Linen Tunic. Prop: OBSIDIAN_TABLET. Stylus of light logging the deletion event.
-[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Observation_Gantry. A clean, sterile glass corridor overlooking the dirty Throne Room.
-[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting Scheme: SCREEN_GLOW. Cool blue light from his tablet illuminates his face.
-[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Over-The-Shoulder. Focus: Rack focus from the tablet (foreground) to the Kings (background).
-
-VIDEO_ID: CH63_SC06_KING_PRIME_CONFESSION
-[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Prime_King_Unit_01. Action: Head bowed, confessing "sins" (corrupt data). The black fluid pours faster from his eyes.
-[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Garment: Rags. Interface-VFX: DELETION_PROGRESS_BAR. A red progress bar floats above his head, reading "99%".
+Garment: Digital rags. Interface-VFX: AUDIO_WAVEFORM. Jagged yellow line floating in front of lips.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
 Location: The_Terminal_Throne_Room.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting Scheme: FADING. The lights in the room are turning off one by one.
+Lighting Scheme: COLD_BLUE. Reflected light from the "Observer's Window" above.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Close-Up. Angle: High angle looking down (God's eye view).
+Camera: Extreme Close-Up (Mouth/Nose). Lens: 100mm Macro. Detail: Sub-surface scattering failing.
 
-VIDEO_ID: CH63_SC07_THE_VOID_OPENS
+VIDEO_ID: CH63_SC05_HENOCH_REACTION_NULL
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: The_Ruling_Class_Cluster. Action: Falling/Sinking.
+Actor: Enoch (Observer_Mode). Action: Stares down impassively. No empathy subroutine detected.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Garment: Robes turning to smoke.
+Garment: Liquid_Linen. Prop: OBSIDIAN_TABLET. Finger swipes "DENY" on the tablet surface.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: The_Terminal_Throne_Room. Action: The floor texture fails completely (Alpha 0). It becomes transparent. We see the "Sheol_Server_Farm" infinitely below—rows of red glowing server racks in the abyss.
+Location: Observation_Gantry.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting Scheme: UNDER-LIT. Red light from the abyss lights them from below.
+Lighting Scheme: STATUS_GREEN. Green LED on tablet turns Red.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Crane Shot moving down through the floor.
+Camera: Close-Up (Eyes). Lens: 85mm.
 
-VIDEO_ID: CH63_SC08_DARKNESS_WIPE
+VIDEO_ID: CH63_SC06_GROUP_RAGDOLL
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: None (Abstract).
+Actor: The_Ruling_Class_Cluster. Action: They attempt to kneel, but physics fail. They collapse like ragdolls (unnatural joint bending).
+[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
+Garment: Robes clipping through their bodies.
+[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
+Location: The_Terminal_Throne_Room. Action: Ceiling lowers (Disk Cleanup).
+[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
+Lighting Scheme: STROBE. Rapid alternating red/white.
+[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
+Camera: Low Angle. Lens: 35mm.
+
+VIDEO_ID: CH63_SC07_KING_PRIME_CONFESSION_LOG
+[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
+Actor: Prime_King_Unit_01. Action: Head bowed. "We did not believe." Black fluid pours heavily.
+[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
+Garment: Rags. Interface-VFX: UPLOAD_BAR. Red progress bar above head: "UPLOADING_CONFESSION... 99%".
+[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
+Location: The_Terminal_Throne_Room.
+[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
+Lighting Scheme: FADING. Lights turning off sequentially.
+[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
+Camera: High Angle (God's Eye).
+
+VIDEO_ID: CH63_SC08_FLOOR_CLIPPING_FAIL
+[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
+Actor: None (Environment Focus).
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
 None.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: The_Terminal_Throne_Room. Action: A wall of "Vantablack" (Absolute Null) sweeps across the frame, physically deleting geometry as it passes.
+Location: The_Terminal_Throne_Room_Floor. Action: Marble texture flickers and turns 50% transparent. Visible underneath: SHEOL_SERVER_FARM. Infinite rows of red-glowing server racks.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting Scheme: ECLIPSE.
+Lighting Scheme: UNDER-LIT. Red glow from beneath.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Side tracking shot. Speed: Slow and inevitable.
+Camera: Tracking Shot along the floor.
 
-VIDEO_ID: CH63_SC09_FINAL_STATIC
+VIDEO_ID: CH63_SC09_FACES_OF_DARKNESS
+[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
+Actor: King_Unit_02_and_03. Physique: Faces turning "Vantablack". Features flatten into 2D silhouettes against 3D space.
+[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
+Garment: Dissolving to wireframe.
+[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
+Location: The_Terminal_Throne_Room.
+[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
+Lighting Scheme: SILHOUETTE. Backlit by the red abyss.
+[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
+Camera: Two-Shot. Lens: 50mm.
+
+VIDEO_ID: CH63_SC10_HENOCH_FINAL_INPUT
+[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
+Actor: Enoch (Observer_Mode). Action: Taps "EXECUTE" on tablet.
+[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
+Garment: Liquid_Linen. Prop: OBSIDIAN_TABLET. Holographic command: "PURGE_BATCH".
+[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
+Location: Observation_Gantry.
+[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
+Lighting Scheme: TERMINAL_RED. Face illuminated by red confirmation light.
+[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
+Camera: Over-The-Shoulder focusing on tablet screen.
+
+VIDEO_ID: CH63_SC11_SWORD_FIREWALL
+[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
+Actor: None (Abstract Tech). Entity: THE_SWORD. Visual: A vertical plane of blue laser light sweeping across the room.
+[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
+None.
+[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
+Location: The_Terminal_Throne_Room. Action: The laser wall intersects the Kings.
+[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
+Lighting Scheme: LASER_SCAN. High contrast blue.
+[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
+Camera: Side Tracking Shot following the laser wall.
+
+VIDEO_ID: CH63_SC12_KINGS_DELETION
+[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
+Actor: The_Ruling_Class_Cluster. Action: Upon contact with laser, they fragment into voxels and vanish.
+[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
+Garment: Turning to particles.
+[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
+Location: The_Terminal_Throne_Room.
+[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
+Lighting Scheme: PARTICLE_EMISSION. Sparks from deletion points.
+[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
+Camera: Wide Shot.
+
+VIDEO_ID: CH63_SC13_FREEFALL_INTO_SHEOL
+[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
+Actor: King_Unit_01 (Remains). Action: The remaining wireframe skeleton falls through the transparent floor.
+[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
+None.
+[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
+Location: Sheol_Server_Farm_Shaft. Visual: Infinite vertical drop past glowing server racks.
+[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
+Lighting Scheme: SERVER_LEDS. Thousands of tiny red/green lights blurring.
+[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
+Camera: Top-Down tracking shot falling with the subject.
+
+VIDEO_ID: CH63_SC14_WIPE_TO_NULL
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
 Actor: None.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
 None.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: The_Void. Visual: Pure digital noise, "No Signal" artifacts, compression blocks.
+Location: The_Terminal_Throne_Room. Action: A wall of "Absolute Null" (black void) sweeps left to right, erasing the room geometry.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting Scheme: GREYSCALE NOISE.
+Lighting Scheme: ECLIPSE.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Static. Style: Glitch Art.
+Camera: Static.
 
-VIDEO_ID: CH63_SC10_HENOCH_LOG_COMPLETE
+VIDEO_ID: CH63_SC15_ORDINANCE_TEXT
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Enoch (Observer_Mode). Action: Lowers the tablet. The red recording light in his eye turns off.
+Actor: None (UI Focus).
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Garment: Liquid_Linen. Prop: OBSIDIAN_TABLET. Screen shows "PURGE_SUCCESSFUL".
+None.
+[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
+Location: The_Void. Visual: Floating golden Ge'ez text: "ሥርዓቱ" (The Ordinance).
+[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
+Lighting Scheme: TEXT_GLOW.
+[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
+Camera: Static.
+
+VIDEO_ID: CH63_SC16_HENOCH_LOG_CLOSE
+[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
+Actor: Enoch (Observer_Mode). Action: Lowers tablet. Laser eye deactivates.
+[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
+Garment: Liquid_Linen. Prop: OBSIDIAN_TABLET. Screen: "BATCH_COMPLETE".
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
 Location: Observation_Gantry.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
 Lighting Scheme: RESTING_BLUE.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Medium Shot. Style: Calm, clinical resolution.
+Camera: Medium Shot. Style: Clinical, calm.

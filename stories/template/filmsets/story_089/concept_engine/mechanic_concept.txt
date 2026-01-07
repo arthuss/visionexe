@@ -1,19 +1,19 @@
 ### TECHNICAL CONCEPT: CHAPTER 89 [THE ANIMAL_SIMULATION_V2]
 
 **1. BIO-INJECTION [THE NEURAL_SPIKE]**
-**Hardware:** `CORTEX_JACK_MK1`.
-**Manifestation:** Kein mystisches Augenverdrehen. Ein physischer, 10cm langer Dorn aus schwarzem Chrom fährt aus der Kopfstütze des `MALAK_THRONES` direkt in Henochs Hirnstamm (Cerebellum).
-**Physical Toll:** Der Körper krampft sofort in eine Tetanus-Starre. Die Augen bleiben offen, aber die Pupillen verengen sich auf Nadelstichgröße (0mm) und zeigen statisches Rauschen. Kein Dampf, sondern das Surren von Hochleistungslüftern im Thron, die anspringen.
+**Hardware:** `CORTEX_JACK_MK2` (The "Throne" Interface).
+**Manifestation:** Keine mystische Trance. Ein physischer, 10cm langer Dorn aus schwarzem Chrom fährt aus der Kopfstütze des `MALAK_THRONES` direkt in Henochs Hirnstamm (Cerebellum).
+**Physical Toll:** Sofortige Tetanus-Starre des Körpers. Die Augen bleiben offen, die Pupillen verengen sich auf Nadelstichgröße (0mm) und zeigen statisches Rauschen (White Noise). Hochleistungslüfter im Thron springen an, um die CPU-Last der Simulation zu kühlen.
 
 **2. MESH-BREAK [THE VOXEL_DECIMATION]**
 **Phenomenon:** `LOD_ERROR_FORCED`.
-**Description:** Die Simulation rendert keine organischen Texturen mehr. Um die Jahrtausende der Geschichte in Sekunden zu verarbeiten, schaltet das System auf "Debug View".
-**Geometry:** Die Welt besteht aus untexturierten Polygonen. Wenn der "Stern" fällt, bricht er nicht den Boden, sondern verursacht "Dead Pixels" – schwarze Löcher im Grid, durch die man den "Code" (Matrix-ähnliche Datenströme) sieht. Die "Tiere" sind Low-Poly-Platzhalter.
+**Description:** Um Jahrtausende an Geschichte in Sekunden zu verarbeiten, schaltet das System auf "Debug View". Die organische Render-Pipeline wird deaktiviert.
+**Geometry:** Die Welt bricht auf untexturierte Polygone herunter. Der "Stern" ist kein Himmelskörper, sondern ein Voxel-Cluster, der "Dead Pixels" (schwarze Löcher im Grid) verursacht. Durch diese Löcher sieht man den Roh-Code (Matrix-ähnliche Datenströme). Die "Tiere" sind Low-Poly-Platzhalter ohne Fell-Shader.
 
 **3. PACING-STRATEGIE [TIMELINE_SCRUBBING]**
 **Rhythm:** `NON_LINEAR_ACCELERATION`.
 *   **00s-10s (Creation):** 24fps. Stabil. Klare Linien.
-*   **10s-25s (The Fall):** 60fps, aber mit Frame-Skipping. Die Bewegung der "Sterne" wirkt abgehackt, unnatürlich schnell.
+*   **10s-25s (The Fall):** 60fps mit Frame-Skipping. Bewegung der "Sterne" wirkt abgehackt (Stop-Motion-Effekt), unnatürlich schnell.
 *   **25s-45s (The Flood):** Variable Framerate. Zeitraffer-Effekt. Das Wasser steigt nicht fließend, sondern in ruckartigen Stufen (Quantisierung).
 *   **45s-60s (Reset):** Freeze-Frame für 1 Sekunde, dann Instant-Reboot in eine saubere, sterile Umgebung.
 
@@ -22,14 +22,14 @@
 **Event Sounds:**
 *   **Geburt:** Ein kurzes, digitales "Ping" (Sonar).
 *   **Sternenfall:** Das Geräusch einer durchbrennenden Sicherung (elektrisches Knallen).
-*   **Flut:** Weißes Rauschen (White Noise), das langsam alle anderen Frequenzen überlagert und "verschluckt".
+*   **Flut:** Weißes Rauschen (White Noise), das langsam alle anderen Frequenzen überlagert und "verschluckt" (Bitcrusher-Effekt).
 
 **5. ÜBERGÄNGE [THE_GLITCH_WIPE]**
 **Mechanism:** `DATAMOSHING`.
-Keine weichen Überblendungen. Szenenwechsel geschehen durch Kompressionsartefakte. Die Pixel des vorherigen Bildes "schmieren" in das neue Bild hinein, bevor der Keyframe einrastet. Dies simuliert einen beschädigten Videostream.
+Keine weichen Überblendungen. Szenenwechsel geschehen durch Kompressionsartefakte. Die Pixel des vorherigen Bildes "schmieren" in das neue Bild hinein, bevor der I-Frame einrastet. Dies simuliert einen beschädigten Videostream.
 
 **6. FRAMEWORK & TIMING [60s TOTAL / 18 CLIPS]**
-Wir erhöhen auf 18 Clips, um die Detaildichte der "Tiere" zu zeigen.
+Erhöht auf 18 Clips, um die Detaildichte der "Tiere" und die Perspektivwechsel zu ermöglichen.
 *   **Clip 1-3 (8s):** Henochs Neural-Link Aktivierung. POV-Shot: Boot-Sequenz.
 *   **Clip 4-6 (10s):** Die "Weiße Ebene". Der erste "Bulle" (Adam-Unit) wird kompiliert.
 *   **Clip 7-9 (10s):** Injektion des Virus (Stern). Rote Voxel breiten sich aus.
@@ -39,7 +39,7 @@ Wir erhöhen auf 18 Clips, um die Detaildichte der "Tiere" zu zeigen.
 
 **7. DIALOG-CHECK [ERROR_LOGS]**
 Kein gesprochener Dialog.
-**Visual:** Rote Terminal-Fenster poppen kurz auf: `CRITICAL_ERROR: GENETIC_CORRUPTION_DETECTED` und `EXECUTING: FLOOD_PROTOCOL.EXE`.
+**Visual:** Rote Terminal-Fenster poppen kurz auf: `CRITICAL_ERROR: GENETIC_CORRUPTION_DETECTED` und `EXECUTING: FLOOD_PROTOCOL.EXE`. Dies ersetzt die Notwendigkeit für Exposition.
 
 **8. SPATIAL CONTEXT [THE_TABLETOP]**
 Henoch steht nicht *in* der Szene. Er blickt auf einen holografischen "Tisch" oder eine "Kugel" in der Mitte des Raumes.
@@ -52,7 +52,7 @@ Henoch steht nicht *in* der Szene. Er blickt auf einen holografischen "Tisch" od
 **SCENE 1: THE NEURAL HANDSHAKE**
 > **[BLOCK 1: SUBJECT_ANATOMY]** Actor: Enoch (Observer). **Physique:** Pale, sweat-drenched skin, rigid neck muscles. **Tech:** A thick, black chrome spike is visibly inserted into the base of his skull. **Eyes:** Wide open, displaying static noise patterns instead of irises.
 > **[BLOCK 2: ACTION]** Extreme Close-Up (ECU). The camera jitters slightly. The spike pulses with a faint red light. Enoch's pupil dilates rapidly until the eye is entirely black.
-> **[BLOCK 3: ENVIRONMENT]** The Malak Throne Room. Dark, industrial, claustrophobic. Cables hang from the ceiling like vines.
+> **[BLOCK 3: ENVIRONMENT]** The Malak Throne Room. Dark, industrial, claustrophobic. Cables hang from the ceiling like vines. **Lighting:** Strobe-light effect from server racks.
 
 **SCENE 2: SIMULATION BOOT - THE WHITE BULL (ADAM)**
 > **[BLOCK 1: SUBJECT]** The "White Bull" Unit. **Design:** Not an animal. A quadrupedal robot with a chassis made of smooth, white porcelain. No face, just a glowing sensor strip. **Joints:** Exposed hydraulic pistons.

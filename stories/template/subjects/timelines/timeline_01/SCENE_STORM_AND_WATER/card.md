@@ -1,0 +1,31 @@
+## [SCENE] Storm and Water (ID: SCENE_STORM_AND_WATER)
+**Description:** A cinematic, photorealistic storm over an ancient Ethiopian/Egyptian river, featuring towering crystalline weather control towers, bio‑luminescent glyphs etched into stone, and a swirling vortex of water that reflects the glow of advanced technology. The scene blends grounded realism with industrial mysticism, capturing the tactile feel of rain, the weight of thunder, and the shimmering light of unseen tech.
+**Tags:** #storm #water #ancient-tech #industrial mysticism #Ethiopian #Egyptian #photorealistic #cinematic #tactile
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** The river meanders through basalt cliffs, a ruined temple perched on a plateau, sky bruised indigo with heavy clouds.
+*   **Face/Sensors:** Embedded weather control arrays of crystalline lattice, glowing glyphs that pulse with bio‑luminescent light, floating sensor drones disguised as stone monoliths.
+*   **Clothing/Armor:** N/A.
+*   **Key Features:** Lightning arcs between crystalline towers, water swirling into a vortex, ancient stone obelisks with glowing hieroglyphs, mist carrying ozone and wet earth.
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Pre‑Storm): Calm river, faint mist, subtle glow from glyphs.
+*   Phase 2 (Storm Onset): Dark clouds gather, wind picks up, water churns, glyphs pulse brighter.
+*   Phase 3 (Storm Climax): Lightning strikes, water erupts into a towering vortex, crystalline towers emit a bright pulsing light, the ancient river illuminated dramatically.
+
+### 3. PROPS & EQUIPMENT
+*   Item: Crystalline Weather Control Tower – a towering structure of translucent quartz with embedded glyphs, emitting a soft blue glow.
+*   Item: Stone Obelisk with Bio‑Luminescent Glyphs – a monolith etched with ancient symbols that glow in sync with the storm.
+
+### 4. AI PROMPT KEYWORDS
+`storm`, `water`, `ancient`, `Ethiopian`, `Egyptian`, `crystalline`, `glyphs`, `bio‑luminescence`, `weather control`, `industrial mysticism`
+
+### 5. PROMPT BLOCK (T2I)
+A cinematic, photorealistic storm over an ancient Ethiopian/Egyptian river, with towering crystalline weather control towers, bio‑luminescent glyphs etched into stone, swirling vortex of water reflecting the glow of advanced tech, grounded realism, industrial mysticism, tactile rain, thunder, lightning arcs, mist, ozone scent, dramatic lighting.
+
+### 6. PHASE PROMPTS
+*   **Storm Climax:** The storm reaches its peak, lightning strikes the crystalline towers, illuminating the ancient river.
+    Prompt: Storm climax over the ancient river, lightning arcs between crystalline towers, water erupts into a towering vortex, the ancient stone obelisks glow with bio‑luminescent glyphs, cinematic dramatic lighting, photorealistic rain, tactile feel of thunder, industrial mysticism.
+    Keywords: storm climax, lightning, crystalline towers, river glow, tactical lighting
+
+---

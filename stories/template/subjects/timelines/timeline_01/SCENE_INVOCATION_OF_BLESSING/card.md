@@ -1,0 +1,33 @@
+## [SCENE] Invocation of Blessing (ID: SCENE_INVOCATION_OF_BLESSING)
+**Description:** A cinematic, photorealistic depiction of a sacred invocation ritual in a subterranean temple, blending ancient Ethiopian and Egyptian motifs with incomprehensible, crystalline technology. The central figure, a high priestess, stands before a stone altar embedded with luminescent glyphs, holding a crystalline staff that channels bio‑luminescent energy. The environment is lit by flickering torchlight and the soft glow of glyphs, casting dramatic shadows on weathered stone walls etched with hieroglyphic patterns. The priestess wears a robe of woven obsidian silk, adorned with metallic filigree and embedded with micro‑LEDs that pulse in sync with her chanting. The scene conveys a sense of reverence and awe, with tactile textures of stone, metal, and organic fibers.
+**Tags:** #ancient-tech #industrial mysticism #Ethiopian #Egyptian #ritual #photorealistic #tactile #bio-luminescence #crystalline hardware
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** Tall, lithe, slight muscular build, draped in a long obsidian silk robe that drapes over weathered stone.
+*   **Face/Sensors:** No mechanical sensors; the face is illuminated by the soft, pulsing glow of glyphs on the altar.
+*   **Clothing/Armor:** Obsidian silk robe with intricate metallic filigree, embedded micro‑LEDs that pulse in rhythm with chanting; leather belt with carved basalt.
+*   **Key Features:** Crystalline staff with a core of bioluminescent crystal, glowing glyphs etched into the stone altar, torchlight flickering across textured stone walls, bio‑luminescent energy swirling around the staff.
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Setup): The priestess enters the dimly lit temple, the glyphs on the altar begin to glow faintly, torchlight flickers across the stone walls.
+*   Phase 2 (Climax): The crystalline staff channels bio‑luminescent energy, the glyphs pulse brighter, the altar emits a low hum, shadows deepen, and the atmosphere becomes charged with reverence.
+
+### 3. PROPS & EQUIPMENT
+*   Item: Stone altar embedded with luminescent glyphs and a central crystal core.
+*   Item: Crystalline staff with a bioluminescent core.
+*   Item: Scrolls of ancient script bound in leather.
+*   Item: Torches with wax that glows faintly green.
+*   Item: Obsidian crystal shards scattered around the altar.
+
+### 4. AI PROMPT KEYWORDS
+`ancient`, `Ethiopian`, `Egyptian`, `mysticism`, `crystalline`, `bio-luminescence`, `photorealistic`, `tactile`, `industrial`, `temple`, `ritual`
+
+### 5. PROMPT BLOCK (T2I)
+A photorealistic cinematic shot of a subterranean temple lit by torchlight and glowing glyphs, where a tall priestess in obsidian silk robes with metallic filigree and embedded micro‑LEDs stands before a stone altar embedded with luminescent glyphs, holding a crystalline staff that channels bio‑luminescent energy, the environment textured with weathered stone, metal, and organic fibers, dramatic shadows, reverent atmosphere, ancient Ethiopian and Egyptian motifs fused with incomprehensible technology
+
+### 6. PHASE PROMPTS
+*   **Default:** Initial ritual setup with glowing glyphs and torchlight
+    Prompt: A photorealistic cinematic shot of a subterranean temple lit by torchlight and glowing glyphs, where a tall priestess in obsidian silk robes with metallic filigree and embedded micro‑LEDs stands before a stone altar embedded with luminescent glyphs, holding a crystalline staff that channels bio‑luminescent energy, the environment textured with weathered stone, metal, and organic fibers, dramatic shadows, reverent atmosphere, ancient Ethiopian and Egyptian motifs fused with incomprehensible technology
+    Keywords: ancient, Ethiopian, Egyptian, mysticism, crystalline, bio-luminescence, photorealistic, tactile, industrial, temple, ritual
+
+---

@@ -1,0 +1,10 @@
+## [STATE] Earth movement :: Default
+**State ID:** default
+**Chapters:** 89 - 89
+
+**Phase Summary:** Initial cinematic depiction of tectonic shift with ancient glyphs and crystalline technology.
+**Phase Keywords:** tectonic shift, ancient Ethiopian, crystalline, glyphs, photorealistic, cinematic
+**Phase Prompt:**
+A photorealistic, cinematic scene of the Earth trembling as tectonic plates shift beneath a sky illuminated by ancient Ethiopian glyphs; massive stone monoliths etched with luminous runes crack and slide, releasing crystalline shards that refract light into a tapestry of mystic colors; dust swirls, the ground splits open revealing a glowing fissure pulsing with bio‑luminescent energy, hinting at incomprehensible technology hidden beneath the surface, grounded realism, tactile textures, dramatic lighting.
+
+---

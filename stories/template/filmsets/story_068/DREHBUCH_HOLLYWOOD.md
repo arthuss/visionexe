@@ -1,259 +1,343 @@
 # DREHBUCH KAPITEL 68 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Tief im Kern des Systems liegt eine Wahrheit, die schwerer wiegt als die Schwerkraft selbst. Es ist der Code, der das Chaos bindet, ein Eid, der in die Fundamente der Realität gebrannt wurde. Wenn dieser Name fällt, halten selbst die Engel den Atem an, denn er ist der Schlüssel zur Existenz. Hier, wo Datenströme zu Fleisch werden, entscheidet sich das Schicksal der Welt in Mikrosekunden.
+NARRATOR_TEXT: Wenn die Logik der Welt bricht, ist es kein Zufall, sondern ein Fehler im Kern. Ein Eid, so schwer wie ein kollabierender Stern, hält die Fragmente der Realität zusammen. Michael, der Administrator, spürt jede Erschütterung in seinen eigenen Schaltkreisen. Hier unten, im kalten Speicher, wird nicht verhandelt – hier wird das System neu gebootet.
 
-## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:04] [Establishing the Sanctum]
-**Action:** Infinite corridor of black glass server racks. Liquid mercury floor. Bioluminescent pulses.
+## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:04] [Noah Interface Init]
+**Action:** Noah (User 2.0) steht im Void und manipuliert einen holografischen Tesserakt (Buch der Parabeln).
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Sinai_Core Black Sanctum", "env_change": true, "actors": [], "props": ["server racks", "mercury floor"], "camera": "14mm wide angle, low angle, slow dolly forward", "mood": ["awe", "sterile"], "director_intent": "Establish the scale and cold, digital nature of the divine server room.", "start_image_keywords": ["server corridor", "mercury floor", "black glass"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SINAI_CORE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor_in_env", "shot_type": "close_up", "framing": "close_up", "environment": "The Void Boot Menu", "env_change": true, "actors": [{"name": "Noah", "phase": "Proxy", "presence": "on_screen", "focus": "primary"}], "props": ["Holographic Tesseract", "Fiber-optic Robe"], "camera": "Macro tech-demo style, shallow depth of field", "mood": ["focus", "mysticism"], "director_intent": "Show the user accessing the ancient system manual via a high-tech interface.", "start_image_keywords": ["Noah hands", "holographic tesseract", "fiber optic robe"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "VOID_BOOT", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-**Topic:** Establishing Shot of the Sinai Core. **Visuals:** An infinite corridor of towering black glass monoliths (server racks) extending into darkness. The floor is a perfect mirror of liquid mercury, reflecting the faint vertical blue bioluminescent pulses running up the walls. **Atmosphere:** Cold, sterile, hyper-technological. **Style:** 9:16 aspect ratio, cinematic lighting, photorealistic Unreal Engine 5 render, volumetric fog, 8k resolution.
+**Topic:** Noah accessing the archive. **Visuals:** Close-up of Noah's hands manipulating a rotating complex geometric tesseract made of fractured golden light and Ge'ez script. He wears a simple off-white woven fiber-optic robe. **Atmosphere:** Tech-noir, minimalistic, sacred data. **Style:** 9:16 aspect ratio, macro photography, shallow depth of field, high contrast, subsurface scattering on skin.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** No organic subject. The subject is the architecture of the Sinai Core.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah (User 2.0). Young male, translucent marble skin shader. Hands moving with precision.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Simple woven fiber-optic robe, off-white texture.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Absolute black void. Illuminated only by the golden holographic UI.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Golden glow from the tesseract reflecting on skin. Deep shadows.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Close-up on hands and object. Smooth rotation of the hologram. 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Subtle crystalline chime. Interface "swipe" and "select" sounds (glass-like clicks). Low hum of data processing.
+
+## [ACT 1] [SCENE 1.2] [Timecode: 00:04-00:06] [Data Injection Eyes]
+**Action:** Extreme Close-Up auf Noahs Augen. Die Daten spiegeln sich in der Iris, Pupillen weiten sich.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor_only", "shot_type": "insert", "framing": "extreme_close_up", "environment": "The Void Boot Menu", "env_change": false, "actors": [{"name": "Noah", "phase": "Proxy", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "100mm Macro, focus on iris", "mood": ["intense", "download"], "director_intent": "Visualize the massive data transfer directly into the user's neural link.", "start_image_keywords": ["eye macro", "data reflection", "dilating pupil"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+**Topic:** Macro eye shot of Noah. **Visuals:** Extreme close-up of Noah's eye. The iris is pale blue with a mechanical texture. Golden scrolling Ge'ez code is clearly reflected in the glossy surface of the eye. The black pupil is dilating rapidly. **Atmosphere:** Cybernetic, overwhelming input. **Style:** 9:16 aspect ratio, macro lens, hyper-realistic, 8k textures.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah's Eye. Extreme detail on eyelashes and iris texture.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite hallway of obsidian glass monoliths. Floor is rippling liquid mercury. Vertical strips of cold blue light pulse rhythmically up the structures.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Deep blacks, cold cyans, faint bioluminescence. High contrast. Ray-traced reflections on the floor.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 14mm Ultra-Wide Lens. Low angle. Slow, steady dolly movement forward, gliding over the liquid floor. 9:16 vertical video. High fidelity, 60fps smoothness.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark void reflected in eye.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Screen glow reflection (Gold on Black) in the eye.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 100mm Macro. Rack focus from eyelashes to reflection on cornea. Pupil expansion animation. 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep, resonant 60Hz drone (server hum). Subtle liquid lapping sounds (mercury ripples). A digital "connection" chirp echoes in the vast space.
+High-speed modem handshake sound (modernized). Rapid fluttering sound like pages turning fast. Heartbeat thud.
 
-## [ACT 1] [SCENE 1.2] [Timecode: 00:04-00:08] [Enoch POV Boot]
-**Action:** HUD Boot-Sequence. Red warning text. Distant silhouettes.
+## [ACT 1] [SCENE 1.3] [Timecode: 00:06-00:07] [Transition Wipe]
+**Action:** Vertikale Linien aus Binärcode lösen das Bild auf und enthüllen die nächste Ebene.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "point_of_view", "framing": "wide", "environment": "Sinai_Core Black Sanctum", "env_change": false, "actors": [{"name": "Michael", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}, {"name": "Raphael", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["HUD Interface"], "camera": "POV, slight handheld shake", "mood": ["tension", "urgency"], "director_intent": "Show the observer's entry through a glitching, overwhelmed digital interface.", "start_image_keywords": ["HUD overlay", "red warning", "silhouettes"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "SINAI_CORE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "interface", "shot_type": "insert", "framing": "wide", "environment": "Abstract Data Stream", "env_change": true, "actors": [], "props": ["Binary Code"], "camera": "Fast vertical scroll", "mood": ["transition", "digital"], "director_intent": "A terminal-style wipe to transition from user interface to deep system storage.", "start_image_keywords": ["binary rain", "vertical wipe", "glitch"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-**Topic:** Enoch's POV HUD. **Visuals:** First-person view through a high-tech golden visor. A complex digital HUD overlay is booting up, flashing red Ge'ez text `CRITICAL_TEMP` and `BUFFER_OVERFLOW` in the corners. In the far distance, two silhouettes (Michael and Raphael) are backlit by a blinding white singularity. **Atmosphere:** Glitchy, unstable, warning state. **Style:** 9:16 aspect ratio, HUD UI design, chromatic aberration, digital tearing artifacts.
+**Topic:** Digital Transition Wipe. **Visuals:** A dense wall of vertical golden binary code and Ge'ez characters rushing upwards at impossible speed. The image of Noah behind it is dissolving into digital noise and pixels. **Atmosphere:** Fast, kinetic, system process. **Style:** 9:16 aspect ratio, motion blur, glitch art, matrix code aesthetic but gold/white.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** POV shot, no visible subject body, strictly interface and distant figures.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Digital Heads-Up Display (HUD) with Ge'ez script syntax.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The dark server sanctum seen through a lens. Distant bright white light source silhouetting two figures.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dominant black and red (UI warnings). Blinding white center. Digital noise texture.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** First Person POV. Slight simulated breathing movement (handheld feel). 9:16 vertical. Lens flares and digital distortion effects.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Abstract data visualization.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Digital overlay plane.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Self-illuminated Gold text on Black.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** High velocity vertical scroll. 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitched capacitor charging whine (rising pitch). Digital boot-up sounds. Glitch stutters. Heavy, muffled breathing of the observer.
+Loud "Whoosh" of data. Digital glitch screech (short).
 
-## [ACT 1] [SCENE 1.3] [Timecode: 00:08-00:15] [Michael Hand Detail]
-**Action:** Michael's hand clenching. Armor plates expand. Steam vents.
+## [ACT 2] [SCENE 2.1] [Timecode: 00:07-00:12] [Int Cold Storage Establishing]
+**Action:** Unendliche Reihen schwarzer Server-Monolithen im kalten Nebel.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "insert", "framing": "extreme_close_up", "environment": "Sinai_Core Black Sanctum", "env_change": false, "actors": [{"name": "Michael", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["White Ceramic Armor"], "camera": "85mm Macro", "mood": ["stress", "power"], "director_intent": "Focus on the mechanical stress and heat venting to show the system load.", "start_image_keywords": ["armored hand", "venting steam", "ceramic plates"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Sinai_Core Cold Storage", "env_change": true, "actors": [], "props": ["Server Monoliths", "Nitrogen Fog"], "camera": "Dolly Zoom (Vertigo Effect)", "mood": ["sterile", "infinite"], "director_intent": "Establish the scale and freezing temperature of the deep archive.", "start_image_keywords": ["server monoliths", "nitrogen fog", "infinite corridor"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SINAI_STORAGE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-**Topic:** Macro detail of Michael's gauntlet. **Visuals:** An extreme close-up of a massive hand encased in white ceramic tactical armor. The fist is clenching tight. The armor plates on the knuckles are sliding open to reveal glowing red internal heat sinks. High-pressure steam/gas is jetting out from the gaps. **Atmosphere:** Industrial, pressurized, dangerous. **Style:** 9:16 aspect ratio, macro photography, shallow depth of field, hyper-realistic textures.
+**Topic:** Establishing shot of Cold Storage. **Visuals:** An infinite corridor of towering matte-black rectangular monoliths (servers). Thick, heavy white liquid nitrogen fog clings to the floor. Small sterile cyan LEDs blink rhythmically on the dark surfaces. **Atmosphere:** Freezing, silent, massive scale. **Style:** 9:16 aspect ratio, cinematic lighting, volumetric fog, symmetrical composition.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael's hand (System Admin). Massive scale.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Pristine white ceramic plate armor, articulated fingers. Internal red LED glow.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark blurred background (bokeh). Focus is entirely on the mechanical hand.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** White armor, red internal glow, white steam. Harsh contrast.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 85mm Macro lens. Shallow depth of field. Slow motion capture of the steam venting. 9:16 vertical.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A. Architecture only.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite hallway. Reflective black floor covered in rolling fog.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cyan indicator lights. Deep shadows. Cool color temperature.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Dolly Zoom (Vertigo Effect) - camera moves back while zooming in, compressing the background. 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sharp pneumatic hiss (steam release). Metallic groaning of plates shifting under pressure.
+Deep, sub-bass drone (60Hz). Wind howling softly (cooling systems).
 
-## [ACT 2] [SCENE 2.1] [Timecode: 00:15-00:20] [Michael Shouts]
-**Action:** Michael turns sharply. Coolant leaking. Eyes flickering.
+## [ACT 2] [SCENE 2.2] [Timecode: 00:12-00:16] [Michael System Overload]
+**Action:** Michael in schwerer weißer Keramik-Rüstung zittert heftig. Dampf entweicht aus Ventilen.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor_in_env", "shot_type": "medium", "framing": "medium", "environment": "Sinai_Core Cold Storage", "env_change": false, "actors": [{"name": "Michael", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["White Ceramic Armor", "Steam Vents"], "camera": "Low angle, handheld shake", "mood": ["stress", "instability"], "director_intent": "Show the physical toll of the system load on the administrator.", "start_image_keywords": ["Michael shaking", "white ceramic armor", "steam venting"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "SINAI_STORAGE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": "Violent shaking, gyroscopic failure simulation"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+**Topic:** Michael overheating. **Visuals:** Low angle shot of Michael (2.5m tall). He wears heavy industrial white ceramic power-armor. He is vibrating intensely. Jets of high-pressure white steam are blasting out from mechanical vents on his shoulders and chest. **Atmosphere:** Industrial, dangerous, high pressure. **Style:** 9:16 aspect ratio, dynamic pose, particle effects, photorealistic CGI.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael (System Admin). Massive build.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Pristine white ceramic plates. Vents opening and closing.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark server room background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** White armor, white steam. Cold environmental light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld camera shake synchronized with the subject's vibration. 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Loud pneumatic hissing. Metallic rattling (plates vibrating against each other). Turbine spin-up sound.
+
+## [ACT 2] [SCENE 2.3] [Timecode: 00:16-00:19] [Michael Face Detail]
+**Action:** Close-Up auf Michaels Gesicht. Silberne Kühlflüssigkeit, 12fps Stutter-Effekt.
 **Dialog:** M-N-U (Who?)
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Sinai_Core Black Sanctum", "env_change": false, "actors": [{"name": "Michael", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Coolant Fluid"], "camera": "50mm handheld, aggressive shake", "mood": ["panic", "aggression"], "director_intent": "Capture the chaotic energy of an overheating admin system.", "start_image_keywords": ["Michael shouting", "silver sweat", "red eyes"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "SINAI_CORE", "props": [], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "michael_shout_01", "pose_source": "", "driver_notes": "Aggressive head movement, shouting expression"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 1}
+REGIE_JSON: {"subject": "actor_only", "shot_type": "close_up", "framing": "close_up", "environment": "Sinai_Core Cold Storage", "env_change": false, "actors": [{"name": "Michael", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Coolant Fluid"], "camera": "Close-Up, sharp focus", "mood": ["strain", "glitch"], "director_intent": "Visualize the 'lag' of the avatar under heavy processing load.", "start_image_keywords": ["Michael face", "silver sweat", "gritted teeth"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "SINAI_STORAGE", "props": [], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "michael_shout_01", "pose_source": "", "driver_notes": "Stuttering 12fps lip sync, intense strain"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 1}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-**Topic:** Portrait of Michael overheating. **Visuals:** Michael (2.5m tall, white armor) turning sharply towards the camera. His mouth is open in a shout. Viscous silver coolant fluid is running down his face like sweat. His eyes are apertures strobing with rapid red binary code. Neck tendons are straining. **Atmosphere:** Overclocked, frantic, high-heat. **Style:** 9:16 aspect ratio, dramatic under-lighting, motion blur, cinematic character portrait.
+**Topic:** Michael's face in detail. **Visuals:** Close-up of Michael's face. He is grimacing in effort. Thick silver liquid (coolant) beads on his forehead like sweat. His eyes are glowing with red binary noise. **Atmosphere:** Overclocked, straining. **Style:** 9:16 aspect ratio, high detail texture, sharp focus on droplets.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael, giant humanoid. Flushed skin, silver liquid coolant running down skin.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Heavy white ceramic tactical armor. Glowing red elements.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark server room background, blurred.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red strobe light on face. Cold background light.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 50mm Lens. Handheld camera shake ("Shaky Cam"). Quick, aggressive movement. 9:16 vertical.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael. Synthetic skin texture.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** High collar of armor visible.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red glow from eyes on face. Silver reflections in fluid.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** The character moves in a jerky 12fps stop-motion style, while the background and steam remain smooth at 60fps. 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Distorted, bit-crushed male shout. Alarm klaxon in background. Wet sound of fluid moving.
+Distorted, layered voice. Digital stutter artifacts.
 
-## [ACT 2] [SCENE 2.2] [Timecode: 00:20-00:25] [Raphael Static]
-**Action:** Raphael stands still. Wireframe scan.
+## [ACT 2] [SCENE 2.4] [Timecode: 00:19-00:22] [Raphael Static Response]
+**Action:** Raphael steht absolut still wie eine Statue. Wireframe-Scan über seinem Gesicht.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Sinai_Core Black Sanctum", "env_change": false, "actors": [{"name": "Raphael", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Laser Grid"], "camera": "Tripod, static, centered", "mood": ["calm", "artificial"], "director_intent": "Contrast Michael's chaos with Raphael's absolute, machine-like stillness.", "start_image_keywords": ["Raphael static", "wireframe face", "black suit"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "SINAI_CORE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": "Absolute stillness, only micro-eye movements"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor_in_env", "shot_type": "medium", "framing": "medium", "environment": "Sinai_Core Cold Storage", "env_change": false, "actors": [{"name": "Raphael", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Wireframe Grid"], "camera": "Static tripod, dead center", "mood": ["calm", "clinical"], "director_intent": "Contrast the chaos with absolute, machine-like stillness.", "start_image_keywords": ["Raphael static", "wireframe face", "black suit"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "SINAI_STORAGE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": "No movement"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-**Topic:** Portrait of Raphael. **Visuals:** Raphael in a skintight matte-black sensor suit. His face is translucent synthetic skin, revealing a metallic skull structure underneath. He is absolutely still. A blue holographic wireframe grid is projected over his face, scanning him. **Atmosphere:** Analytical, cold, dead calm. **Style:** 9:16 aspect ratio, sharp focus, cyberpunk noir, clinical lighting.
+**Topic:** Raphael observing. **Visuals:** Raphael standing perfectly still in a matte-black sensor suit. His face is calm, translucent skin revealing metal bone. A faint blue wireframe grid is projected over his face. **Atmosphere:** Analytical, observant, cold. **Style:** 9:16 aspect ratio, symmetrical composition, sharp focus.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Raphael. Slim build. Translucent synthetic skin. Metallic skull visible.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Matte-black tactical sensor suit. Holographic blue grid overlay.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite rows of black monoliths.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold clinical blue top-light. Deep shadows.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Locked-off tripod shot. Zero camera movement. Subject is motionless (statue-like). 9:16 vertical.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Raphael (Medic/Archive). Slim, efficient build.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Matte-black body suit. Holographic blue grid.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Server monoliths in background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold cyan rim light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Absolutely static camera. Zero movement from subject (freeze frame effect). 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Absolute digital silence. Sudden vacuum drop effect. Faint electrical hum.
+Low frequency hum. Sonar ping.
 
-## [ACT 2] [SCENE 2.3] [Timecode: 00:25-00:28] [Data Flood Insert]
-**Action:** Tsunami of wireframe geometry and binary code.
+## [ACT 2] [SCENE 2.5] [Timecode: 00:22-00:27] [The Dialogue OTS Michael]
+**Action:** OTS über Michaels Schulter. Michael gestikuliert wild mit Glitch-Trails.
+**Dialog:** D-B-H (Word/Oath)
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "mixed", "shot_type": "over_the_shoulder", "framing": "medium", "environment": "Sinai_Core Cold Storage", "env_change": false, "actors": [{"name": "Michael", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}, {"name": "Raphael", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Glitch Trails"], "camera": "OTS, tracking", "mood": ["conflict", "distortion"], "director_intent": "Show the distortion of reality caused by Michael's intensity.", "start_image_keywords": ["OTS Michael", "glitch trails", "heat distortion"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "SINAI_STORAGE", "props": [], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "michael_shout_02", "pose_source": "", "driver_notes": "Erratic gesturing"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 2}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+**Topic:** Over-the-shoulder shot of Michael. **Visuals:** View from behind Michael's massive armored shoulder. We see Raphael in the distance. Michael is gesturing wildly, his hands leaving trails of pixelated glitch artifacts in the air. The space between them is warping from heat. **Atmosphere:** Unstable, heated argument. **Style:** 9:16 aspect ratio, cinematic composition, digital artifacts.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael (Foreground, back), Raphael (Background, front).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Armor vs Suit.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The air is filled with heat haze and digital noise.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red warning lights flashing on Michael's back.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** OTS Camera. Focus on Raphael, but Michael's shoulder dominates the frame. 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Crackling energy sounds. Voice echoing in the large space.
+
+## [ACT 2] [SCENE 2.6] [Timecode: 00:27-00:31] [The Dialogue OTS Raphael]
+**Action:** OTS über Raphaels Schulter. Michael tigert auf und ab, Boden wellt sich wie Quecksilber.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "insert", "framing": "wide", "environment": "Simulation Void", "env_change": true, "actors": [], "props": ["Binary Wave"], "camera": "Abstract, high velocity", "mood": ["chaos", "destruction"], "director_intent": "A single-frame subliminal flash of the impending data disaster.", "start_image_keywords": ["binary tsunami", "wireframe wave", "glitch"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "VOID", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "mixed", "shot_type": "over_the_shoulder", "framing": "medium", "environment": "Sinai_Core Cold Storage", "env_change": false, "actors": [{"name": "Raphael", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}, {"name": "Michael", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Mercury Floor"], "camera": "OTS, steady", "mood": ["observation", "power"], "director_intent": "Show the physical impact of the Admin on the environment from the Observer's POV.", "start_image_keywords": ["OTS Raphael", "Michael pacing", "mercury floor ripples"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "SINAI_STORAGE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-**Topic:** Abstract Data Flood. **Visuals:** A colossal tsunami wave made entirely of glowing white binary numbers (0s and 1s) and jagged wireframe geometry crashing over a dark, barren landscape. **Atmosphere:** Catastrophic, simulation failure, overwhelming. **Style:** 9:16 aspect ratio, glitch art, high contrast, simulation output style.
+**Topic:** Over-the-shoulder shot of Raphael. **Visuals:** View from behind Raphael's sleek black shoulder. Michael is pacing back and forth in the distance. With every step Michael takes, the black floor liquefies into silver mercury ripples. **Atmosphere:** Heavy, impactful, physics simulation. **Style:** 9:16 aspect ratio, depth of field, fluid simulation focus.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** No organic subject. The subject is the wave of data.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Raphael (Foreground, back), Michael (Background, moving).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Armor vs Suit.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The floor reacting like liquid to footsteps.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold blue light. Silver reflections on floor.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** OTS Camera. Steady shot. Michael moves left to right. 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Liquid splashing steps. Heavy metallic footsteps.
+
+## [ACT 2] [SCENE 2.7] [Timecode: 00:31-00:33] [Kidney Tremble Metaphor]
+**Action:** Abstrakte Röntgenansicht eines Fusion-Kerns, der unrund läuft.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "prop_only", "shot_type": "insert", "framing": "close_up", "environment": "Internal Schematic", "env_change": true, "actors": [], "props": ["Fusion Core"], "camera": "Medical Imaging Style", "mood": ["danger", "internal"], "director_intent": "Metaphor for 'kidneys trembling' - internal hardware reaching critical failure limits.", "start_image_keywords": ["fusion core", "schematic", "red warning"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+**Topic:** Internal system failure metaphor. **Visuals:** A technical cross-section/X-ray of a glowing fusion reactor core (representing a heart/kidney). The core is spinning violently off-axis, striking the containment walls and generating sparks. Red warning text flashes "CRITICAL_IMBALANCE". **Atmosphere:** Technical, alarming, internal. **Style:** 9:16 aspect ratio, medical imaging aesthetic, blueprint overlay, high contrast neon.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Mechanical Heart/Core.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A dark digital void landscape.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Deep oceanic blue, static white noise brightness.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** High velocity camera movement crashing into the wave. 9:16 vertical. Chaotic motion.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Internal machine void.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Black background, Red and Blue neon lights.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fixed camera. Fast, chaotic spinning motion of the core. 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud burst of white noise static. Digital crushing sound.
+Alarm klaxon. Metal-on-metal grinding screech.
 
-## [ACT 2] [SCENE 2.4] [Timecode: 00:28-00:35] [Michael Points]
-**Action:** Michael steps forward. Floor ripples. Heat haze fractures air.
-**Dialog:** D-B-H (Upon them)
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "low_angle", "environment": "Sinai_Core Black Sanctum", "env_change": false, "actors": [{"name": "Michael", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Mercury Floor"], "camera": "Low angle, tracking movement", "mood": ["judgment", "intensity"], "director_intent": "Show the physical impact of Michael's heat on the environment.", "start_image_keywords": ["Michael pointing", "mercury ripples", "heat haze"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "SINAI_CORE", "props": [], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "michael_shout_02", "pose_source": "", "driver_notes": "Forceful pointing gesture, stepping forward"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 2}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-**Topic:** Michael commanding the space. **Visuals:** Low angle shot of Michael stepping forward on the liquid mercury floor, which ripples away from his feet. He points a trembling finger forward. The air around his hand is fractured like broken glass due to extreme heat haze. **Atmosphere:** Dominating, heavy, warping reality. **Style:** 9:16 aspect ratio, ray-tracing, volumetric lighting, epic scale.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael, giant armored figure.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** White ceramic armor.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Mercury floor reacting to footsteps (physics fluid simulation). Air distortion around hand.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Chest plate glowing bright. Reflections on floor.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Low angle tracking shot moving backwards as he steps forward. 9:16 vertical.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy bass thuds (heartbeat style). Liquid splashing footsteps. Air burning/crackling sound.
-
-## [ACT 2] [SCENE 2.5] [Timecode: 00:35-00:40] [Raphael Processing]
-**Action:** Raphael mechanical head tilt. Eyes change blue to amber.
+## [ACT 2] [SCENE 2.8] [Timecode: 00:33-00:35] [Mesh Break Environment]
+**Action:** Umgebung verliert Texturen, zeigt Wireframes und Checkerboards.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Sinai_Core Black Sanctum", "env_change": false, "actors": [{"name": "Raphael", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Zoom in, steady", "mood": ["calculation", "uncanny"], "director_intent": "Visualize the shift from passive archive to active processing.", "start_image_keywords": ["Raphael eyes", "amber glow", "mechanical tilt"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "SINAI_CORE", "props": [], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "", "pose_source": "", "driver_notes": "Robotic head tilt, eye color change"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Sinai_Core Glitched", "env_change": true, "actors": [], "props": ["Missing Textures"], "camera": "Glitchy, panning", "mood": ["failure", "collapse"], "director_intent": "The simulation engine culls assets to save processing power.", "start_image_keywords": ["missing texture", "pink checkerboard", "wireframe"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SINAI_GLITCH", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-**Topic:** Close-up of Raphael's face. **Visuals:** Raphael's translucent face. He tilts his head slightly with a mechanical, unnatural smoothness. His eyes shift color from a cool blue to a warning amber. **Atmosphere:** Uncanny valley, robotic, intelligent. **Style:** 9:16 aspect ratio, portrait photography, shallow depth of field, sharp details.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Raphael. Synthetic skin texture.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Black sensor suit collar visible.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred dark background.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Eye glow changing Blue -> Amber. Minimal lighting.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow push-in (zoom). Smooth motion. 9:16 vertical.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Tiny high-tech servo-motor whir. Computer processing data chirps.
-
-## [ACT 2] [SCENE 2.6] [Timecode: 00:40-00:45] [Reality Glitch]
-**Action:** Server racks dissolve to shards. Red emergency lighting.
-**Dialog:** G-B-R (Act/Do)
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Sinai_Core Glitched", "env_change": true, "actors": [{"name": "Michael", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}, {"name": "Raphael", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Floating Shards"], "camera": "Spinning, disorienting", "mood": ["instability", "crash"], "director_intent": "The system crashes as the command is given.", "start_image_keywords": ["reality shattering", "floating shards", "red light"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SINAI_CORE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 3}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-**Topic:** Reality destabilizing. **Visuals:** The black glass server racks are shattering into floating geometric shards. Gravity is failing. The lighting has shifted from blue to a harsh Emergency Red. Michael and Raphael are standing amidst the debris. **Atmosphere:** Chaos, collapse, warning. **Style:** 9:16 aspect ratio, dynamic composition, particle effects, red color grading.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael and Raphael (small in frame).
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Armor and Suit.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The room is breaking apart into floating polygons. Zero-gravity effect.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flashing Red Emergency lights.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Camera spins on its axis (Dutch angle roll). Disorienting motion. 9:16 vertical.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-"System Crash" sound rising in pitch. Glass shattering synthesized sounds.
-
-## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:50] [The Oath Beam]
-**Action:** Gold light beam strikes center. Shards snap back.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Sinai_Core Restored", "env_change": true, "actors": [], "props": ["Gold Beam"], "camera": "Snap zoom out, centered", "mood": ["divine", "order"], "director_intent": "The execution of the Oath instantaneously restores order.", "start_image_keywords": ["gold light beam", "geometry aligned", "order"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SINAI_CORE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-**Topic:** The Oath Protocol Visualization. **Visuals:** A vertical beam of solid, blinding gold light strikes the center of the room. The floating shards from the previous scene are instantly snapping back into their perfect grid positions. The red light is banished by the gold. **Atmosphere:** Divine intervention, absolute order, physics override. **Style:** 9:16 aspect ratio, symmetrical composition, majestic lighting, particle effects.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** No subject. Focus on the Light Beam.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The Sanctum reforming. Debris flying backwards into walls (reverse entropy).
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Pure Gold and White. High brightness.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Snap zoom. Fast motion of debris, then sudden freeze/lock. 9:16 vertical.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Massive Sub-Bass "Gong" impact. Instant reverb tail. Sudden silence afterwards.
-
-## [ACT 3] [SCENE 3.2] [Timecode: 00:50-00:55] [Michael Cooldown]
-**Action:** Michael frozen. Cooling down. Vents close. Eyes steady white.
-**Dialog:** M-N-F-S-T (Spirits)
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Sinai_Core Black Sanctum", "env_change": false, "actors": [{"name": "Michael", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Smooth gimbal move", "mood": ["relief", "stability"], "director_intent": "The system load drops. Peace returns.", "start_image_keywords": ["Michael calm", "white eyes", "steam dissipating"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "SINAI_CORE", "props": [], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "michael_speak_calm", "pose_source": "", "driver_notes": "Calm, slow movement, vents closing"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 2}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-**Topic:** Michael cooling down. **Visuals:** Michael standing still. The steam around him is dissipating. The vents on his white armor are slowly sliding closed. The red strobing in his eyes has turned to a steady, calm white light. He looks exhausted but stable. **Atmosphere:** Post-storm, calm, recovery. **Style:** 9:16 aspect ratio, soft lighting, cinematic portrait.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** White Armor. Vents moving.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Calm server room.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft white lighting from eyes and chest.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Smooth gimbal movement around subject. Slow motion. 9:16 vertical.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Cooling fans spinning down (whirrrrr-down). Mechanical clicks of armor locking.
-
-## [ACT 3] [SCENE 3.3] [Timecode: 00:55-01:00] [HUD Shutdown]
-**Action:** HUD displays SYSTEM_LOCKED. TV turn-off effect.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "point_of_view", "framing": "wide", "environment": "Black Screen", "env_change": true, "actors": [], "props": ["HUD Interface"], "camera": "Static POV", "mood": ["end", "darkness"], "director_intent": "End the simulation session.", "start_image_keywords": ["SYSTEM_LOCKED", "old TV off", "white line"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-**Topic:** HUD Shutdown screen. **Visuals:** The view compresses into a single horizontal white line against a black background (Old CRT TV turn-off effect). In the center, faint green text reads `SYSTEM_LOCKED`. **Atmosphere:** Finality, disconnect. **Style:** 9:16 aspect ratio, retro-tech UI, minimalism.
+**Topic:** Rendering failure. **Visuals:** The view of the server room is breaking down. Sections of the air and floor are replaced by bright pink/black checkerboard "missing texture" squares. Other objects are reduced to low-poly untextured grey primitives. **Atmosphere:** Surreal, broken, engine failure. **Style:** 9:16 aspect ratio, glitch art, Unreal Engine error aesthetic.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** HUD UI.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Black void.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** White line on black. Green text.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Animation of screen compressing to a line. 9:16 vertical.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The room flickering between high-res and raw geometry.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flat lighting on glitched areas. Harsh pink.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Datamoshing transition effect. 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Electronic "Power Down" zap/click. Absolute silence.
+Digital distortion. Audio drop-outs (silence gaps).
+
+## [ACT 2] [SCENE 2.9] [Timecode: 00:35-00:38] [Michael Peak Stress]
+**Action:** Michael schreit (stumm), Gesicht flackert zum Chrom-Schädel.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor_only", "shot_type": "close_up", "framing": "close_up", "environment": "Sinai_Core Cold Storage", "env_change": false, "actors": [{"name": "Michael", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Shaky, intense", "mood": ["horror", "climax"], "director_intent": "The avatar mesh cannot hold the integrity anymore.", "start_image_keywords": ["Michael scream", "chrome skull", "de-rezzing"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "SINAI_STORAGE", "props": [], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "michael_shout_02", "pose_source": "", "driver_notes": "Scream expression"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+**Topic:** Michael de-rezzing. **Visuals:** Extreme close-up of Michael screaming. As he screams, the skin texture of his face tears away digitally, revealing a polished chrome robotic skull underneath for a split second before snapping back. Steam is blasting furiously around his neck. **Atmosphere:** Horrifying, raw technology, breakdown. **Style:** 9:16 aspect ratio, horror-sci-fi, motion blur.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael. Face shifting between skin and metal skull.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** White armor.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Filled with white steam.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Strobe lighting.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fast cut. Aggressive shake. 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Silent scream (audio vacuum). High pitched tinnitus ring.
+
+## [ACT 3] [SCENE 3.1] [Timecode: 00:38-00:42] [Simulation of the Fallen]
+**Action:** Hologramm der Wächter, die versuchen Gott zu imitieren.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "prop_only", "shot_type": "insert", "framing": "medium", "environment": "Holographic Projection", "env_change": true, "actors": [], "props": ["Hologram Watchers"], "camera": "Orbiting", "mood": ["deception", "corruption"], "director_intent": "Show the crime: unauthorized users trying to access root privileges.", "start_image_keywords": ["hologram silhouettes", "corrupt gold", "unauthorized access"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+**Topic:** Holographic crime scene. **Visuals:** A 3D holographic projection of shadowy humanoid figures (The Watchers). They are glowing with a sickly, corrupted gold light, surrounded by black static. Floating red error labels read "UNAUTHORIZED_ROOT_ACCESS" and "SIGNATURE_MISMATCH". **Atmosphere:** Criminal, corrupted, forensic. **Style:** 9:16 aspect ratio, volumetric light projection, cyberpunk UI.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Shadow figures (Holograms).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark projection space.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dirty Gold and Red colors.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow orbit around the hologram. Flicker effects on the projection. 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Distorted choir sounds (reversed). Static crackle.
+
+## [ACT 3] [SCENE 3.2] [Timecode: 00:42-00:45] [The Key Duplication]
+**Action:** Hand hält gestohlenen Code-Key, Hand verkohlt sofort.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "prop_only", "shot_type": "insert", "framing": "close_up", "environment": "Holographic Projection", "env_change": false, "actors": [], "props": ["Burning Hand", "Code Key"], "camera": "High speed capture", "mood": ["destruction", "consequence"], "director_intent": "The stolen data is too hot for the hardware. Immediate destruction.", "start_image_keywords": ["burning hand", "charcoal skin", "glowing key"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+**Topic:** Hand burning from data. **Visuals:** Close-up of a hand holding a shard of blinding white light (The Key). The skin contacting the key is instantly turning into black charcoal and ash, flaking away to reveal nothingness underneath. **Atmosphere:** Painful, rapid decay, heat. **Style:** 9:16 aspect ratio, particle simulation, high contrast destruction.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Hand.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Black background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright white light from key.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fast motion. The disintegration happens in real-time. 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Sizzling flesh sound. Fire crackle.
+
+## [ACT 3] [SCENE 3.3] [Timecode: 00:45-00:51] [Lord of Spirits Eye]
+**Action:** Riesige Kameralinse öffnet sich am Himmel. Antivirus-Spotlight.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "prop_only", "shot_type": "establishing", "framing": "wide", "environment": "Sinai_Core Ceiling", "env_change": true, "actors": [], "props": ["Giant Lens Eye"], "camera": "Looking up, slow zoom", "mood": ["divine", "judgment"], "director_intent": "The System Administrator (God) manifests as an all-seeing lens.", "start_image_keywords": ["giant camera lens", "divine eye", "spotlight beam"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SINAI_CEILING", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+**Topic:** The Eye of the Lord. **Visuals:** Looking straight up into the darkness. A colossal, circular camera aperture mechanism (100 meters wide) is spiraling open like a mechanical eye. A single, focused beam of pure white light shoots down from the center. **Atmosphere:** Majestic, terrifying, surveillance. **Style:** 9:16 aspect ratio, symmetrical, HAL-9000 vibe but massive.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Giant Mechanical Aperture.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Ceiling of the void.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** God-ray spotlight.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow rotation of the iris mechanism. 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Massive mechanical servo groan. Deep bass thrum.
+
+## [ACT 3] [SCENE 3.4] [Timecode: 00:51-00:59] [System Purge]
+**Action:** Spotlight löscht korrupte Daten. Michael beruhigt sich.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Sinai_Core Restored", "env_change": true, "actors": [{"name": "Michael", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Spotlight", "Steam dissipating"], "camera": "Wide sweep, settling", "mood": ["resolution", "peace"], "director_intent": "The threat is deleted. The system stabilizes. End of crisis.", "start_image_keywords": ["spotlight sweeping", "Michael calm", "steam clearing"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SINAI_STORAGE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+**Topic:** System purge and stabilization. **Visuals:** Wide shot of the server room. The massive white spotlight sweeps across the floor. Where it touches dark corrupt patches, they vanish instantly into clean grid lines. In the center, Michael stands still, the steam fading, his armor vents closing. **Atmosphere:** Clean, restored, safe. **Style:** 9:16 aspect ratio, high contrast black and white, serene.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael (Tiny in frame).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** White armor.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite server room.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The beam of light moving.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Camera pulls back slowly. Fade to black. 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A clean digital "ping". Silence returns. Faint cooling fan spin-down.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Die Hitze hier drin... das ist kein Feuer. Es ist reine Rechenleistung.","words_max":12},{"scene":"2.3","text":"Wenn dieser Damm bricht, ertrinkt die Geschichte in Nullen und Einsen.","words_max":12},{"scene":"3.2","text":"Ein Wort. Ein Befehl. Und das Chaos gehorcht der Struktur.","words_max":10}],"Michael":[{"scene":"2.1","text":"Siehst du die Last nicht? Der Speicher läuft über!","words_max":10},{"scene":"3.2","text":"Es ist vollbracht. Der Kern ist stabil.","words_max":8}]},"notes":"German only. Short internal monologues. Reflecting strictly on system mechanics and the weight of the oath."}
+MONOLOGUE_JSON: {"actors":{"Noah":[{"scene":"1.1","text":"Zugriff auf Sektor 68. Das Protokoll ist alt... älter als die Zeit.","words_max":12}],"Michael":[{"scene":"2.3","text":"Der Kern vibriert. Sie versuchen, den Code zu schreiben, den nur ER kennt.","words_max":14},{"scene":"2.5","text":"Dieser Eid... er verbrennt meine Leitungen.","words_max":8}]},"notes":"German only. Introspective system logs."}

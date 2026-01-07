@@ -1,487 +1,457 @@
 # DREHBUCH KAPITEL 66 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Ich sah die Schmieden der Tiefe, wo die Wasser nicht fließen, sondern warten. Ein Befehl aus Licht hielt die Zerstörung auf, bevor sie atmen konnte. Es war nicht Gnade, die sie stoppte, sondern eine Zeile Code im Herzen der Maschine. Und ich stand dazwischen, ein Geist aus Daten in einer Welt aus stummem Eisen.
+NARRATOR_TEXT: Die Engel der Tiefe halten die Wasser zurück, denn die Erde ist noch nicht bereit für den totalen Neustart. Ich sah die Wächter, geschmiedet aus Gehorsam und schwarzem Stahl, wie sie am Rande des Abgrunds zögerten. Ein einziger Befehl aus Licht genügte, und die vernichtende Flut erstarrte in ihren Adern. Das Urteil wurde nicht aufgehoben, nur vertagt.
 
-## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:05] [ESTABLISHING THE GRID]
-**Action:** Extreme Wide Shot (Aerial/Satellite). A black, flat geometric plane extends to the horizon. Thousands of identical vertical monoliths are arranged in a perfect hex-grid pattern.
+## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:04] [THE ABYSS GATE]
+**Action:** Extreme Wide Shot (High Angle). A massive circular airlock mechanism (1km diameter) sits in a dark metallic trench. It vibrates violently against the pressure from below.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Plains of Judgment", "env_change": true, "actors": [], "props": ["EXEC_UNIT_V4 Array"], "camera": "Satellite View / Slow track forward", "mood": ["awe", "industrial", "cold"], "director_intent": "Establish the infinite scale of the mechanical threat.", "start_image_keywords": ["infinite grid", "black monoliths", "obsidian plain"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Containment Sector", "env_change": true, "actors": [], "props": ["Abyss Gate Airlock"], "camera": "High Angle God-Eye / Slow Push In", "mood": ["oppressive", "industrial"], "director_intent": "Establish the scale of the containment mechanism holding back the flood.", "start_image_keywords": ["huge circular airlock", "dark metal trench", "industrial fog"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme wide aerial shot of an infinite obsidian plain under a slate grey sky. Thousands of identical, matte black industrial monoliths (12m tall) are arranged in a perfect hexagonal grid extending to the horizon. The atmosphere is thick with industrial smog. The lighting is diffuse and flat. 9:16 aspect ratio. Photorealistic, 8k, Unreal Engine 5 render style.
+Extreme wide aerial shot of a colossal circular airlock gate, 1km in diameter, embedded in a deep, dark grey industrial trench. The metal is matte black and wet. The structure is geometrically perfect but surrounded by jagged obsidian cliffs. Thick industrial smog obscures the horizon. The lighting is cold and diffuse. 9:16 aspect ratio. Cinematic sci-fi, hyper-realistic textures, Unreal Engine 5.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None (Environment Focus). **Subject:** The Array of Judgment. **Physique:** Massive collection of `EXEC_UNIT_V4` mechs. **Structure:** Identical black ceramic pillars arranged in a hex-grid. **Texture:** Matte black metal, absorbing light.
+> **Actor:** None. **Subject:** The Abyss Gate. **Physique:** Massive mechanical iris. **Structure:** Concentric rings of heavy reinforced steel. **Texture:** Wet, oily metal, dark grey and black.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** N/A. **Attachments:** N/A. **Primary Prop:** `EXEC_UNIT_V4` Array. **Interface-VFX:** None (Dormant state).
+> **Garment:** N/A. **Attachments:** Massive locking bolts around the perimeter. **Primary Prop:** The Gate itself. **Interface-VFX:** Subtle motion blur from intense vibration.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Plains of Judgment. **Architecture:** Perfectly flat, reflective obsidian ground. **Atmosphere:** Heavy industrial smog, slight atmospheric perspective fading to grey. **Background:** Infinite repetition of the grid.
+> **Location:** The Containment Trench. **Architecture:** Brutalist industrial heavy engineering. **Atmosphere:** Dense fog, particulate matter. **Background:** Vertical walls of raw dark rock.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `GLOBAL_ILLUMINATION`. Primary: Diffuse ambient skylight (Slate Grey). Secondary: Faint reflections on the obsidian floor. **Palette:** Black, Grey, Slate. **Shadows:** Soft ambient occlusion.
+> **Lighting Scheme:** `DEEP_INDUSTRY`. Primary: Cold, desaturated skylight. Secondary: Faint red warning beacons on the perimeter. **Palette:** Slate Grey, Black, Dim Red. **Shadows:** Deep ambient occlusion in the crevices.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Satellite/Aerial. **Lens:** 24mm Wide. **Focus:** Infinite. **Movement:** Slow, steady track forward over the grid. **Style:** Satellite imagery, industrial surveillance, 9:16 vertical video.
+> **Camera:** Drone / High Angle. **Lens:** 24mm. **Focus:** Infinite. **Movement:** Slow, ominous push in towards the center. **Style:** Epic scale, industrial realism, 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Low-frequency server farm hum (60Hz constant drone). High altitude wind howling. No music. The sound of vast, empty space.
+Deep sub-bass drone (40Hz) representing the reactor core. Hollow wind howling through metal canyons. Low frequency rumbling vibration.
 
 
-## [ACT 1] [SCENE 1.2] [Timecode: 00:05-00:08] [GLITCH INGRESS]
-**Action:** Fast dolly-in from sky to ground. The camera passes through a layer of "digital clouds" (artifacts). We land instantly next to one of the units.
+## [ACT 1] [SCENE 1.2] [Timecode: 00:04-00:07] [INGRESS]
+**Action:** A vertical slit of optical distortion opens in mid-air. Enoch (Voyager Phase) steps out, his boots locking magnetically to the floor with a heavy thud.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "insert", "framing": "medium", "environment": "Plains of Judgment", "env_change": false, "actors": [], "props": ["Digital Cloud Layer", "EXEC_UNIT_V4 Base"], "camera": "High-speed Dolly In", "mood": ["speed", "disorientation"], "director_intent": "A rapid transition from macro to micro scale via digital interference.", "start_image_keywords": ["digital glitch", "cloud artifacts", "motion blur"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "full_body", "environment": "Containment Sector", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Tracking Shot", "mood": ["mysterious", "technological"], "director_intent": "Show Enoch entering the simulation from outside the system logic.", "start_image_keywords": ["optical distortion", "silver skin figure", "stepping out of air"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "step_forward_01", "env_id": "gate_rim_01", "props": [], "notes": ""}, "motion_driver": {"type": "pose", "audio_id": "", "pose_source": "data/capture/poses/henoch_ingress.mp4", "driver_notes": "Firm step and landing"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Abstract motion blur shot. A camera plummeting through layers of digital compression artifacts and pixelated clouds. Below, the sharp outline of a black mechanical structure rushes up. Heavy chromatic aberration and datamoshing effects. 9:16 aspect ratio. Glitch art aesthetic meets photorealism.
+Medium shot of Enoch (Voyager Phase) stepping out of a vertical tear in reality. The air around the tear is rippling like heat haze. Enoch has silver metallic skin and wears a high-tech visor. He is stepping onto a dark industrial floor plate. 9:16 aspect ratio. Sci-fi entry, chromatic aberration, sharp focus on the actor.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Subject:** The Digital Atmosphere. **Physique:** N/A. **Structure:** Clouds rendered as blocky compression artifacts. **Texture:** Pixelated noise, jpeg compression blocks.
+> **Actor:** Enoch (User: METATRON_01). **Phase:** Voyager. **Physique:** Lean, athletic, silver-skin shader. **Structure:** Humanoid but clearly synthetic/avatar. **Texture:** Reflective chrome/silver skin.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** N/A. **Attachments:** N/A. **Primary Prop:** N/A. **Interface-VFX:** Heavy chromatic aberration, screen tearing.
+> **Garment:** Minimalist technical robes (White/Silver). **Attachments:** HUD Visor (Blue glow). **Primary Prop:** N/A. **Interface-VFX:** The air distortion (heat wave effect) behind him as he enters.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Descent Vector. **Architecture:** Transition from sky to ground. **Atmosphere:** Digital turbulence. **Background:** The blurring ground rushing up.
+> **Location:** Rim of the Abyss Gate. **Architecture:** Heavy metal plating. **Atmosphere:** Hazy. **Background:** The dark machinery of the gate.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `ERROR_STATE`. Primary: Strobe white flashes. Secondary: RGB splitting. **Palette:** Grey, White, RGB noise. **Shadows:** N/A.
+> **Lighting Scheme:** `AVATAR_GLOW`. Primary: Soft cool light on Enoch. Secondary: Environmental reflections on his skin. **Palette:** Silver, White, Dark Grey. **Shadows:** Sharp contact shadow as boots hit the floor.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Crash Cam. **Lens:** Fish-eye. **Focus:** Motion blurred. **Movement:** Extreme speed dolly-in (Z-axis). **Style:** GoPro crash footage, datamosh, 9:16 vertical video.
+> **Camera:** Eye Level. **Lens:** 50mm. **Focus:** Sharp on Enoch. **Movement:** Camera tracks back slightly as he steps forward. **Style:** Dynamic entry, 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Doppler effect of a jet engine passing close. Digital screech and static burst. A heavy "thud" at the very end of the clip.
+Sharp digital "zip" sound (like a CRT TV turning on). Heavy metallic "thud" of magnetic boots locking.
 
 
-## [ACT 1] [SCENE 1.3] [Timecode: 00:08-00:12] [THE EXECUTOR]
-**Action:** Low Angle Tilt-Up. The "Angel" is a `HYDRO_STATIC_MECH_V4`. 12 meters tall. No face. Just a smooth, black ceramic dome head. Its body is a cage of reinforced piping holding back immense internal pressure.
+## [ACT 1] [SCENE 1.3] [Timecode: 00:07-00:10] [MACRO VIBRATION]
+**Action:** Macro close-up on the floor. Dust particles form geometric cymatic patterns due to the vibration. A heavy bolt slowly rotates loose.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "establishing", "framing": "wide", "environment": "Plains of Judgment", "env_change": false, "actors": [], "props": ["EXEC_UNIT_V4"], "camera": "Low Angle Tilt-Up (Worm's Eye)", "mood": ["intimidation", "power"], "director_intent": "Reveal the terrifying scale and mechanical nature of the Angel.", "start_image_keywords": ["huge mech", "ceramic armor", "industrial piping"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Containment Sector", "env_change": false, "actors": [], "props": ["Floor Bolt", "Dust"], "camera": "Macro 100mm", "mood": ["tense", "detail_oriented"], "director_intent": "Visualize the immense subterranean pressure through minute details.", "start_image_keywords": ["vibrating dust", "loose bolt", "cymatics"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Low angle worm's-eye view of a 12-meter tall industrial mech `EXEC_UNIT_V4`. It has a featureless black ceramic dome head and a body made of reinforced hydraulic piping. Condensation drips from the cold metal. The sky is a heavy slate grey. 9:16 aspect ratio. Photorealistic, hard-surface sci-fi, cinematic lighting.
+Macro close-up of a rusty industrial floor bolt. Grey dust and grit on the black metal surface are vibrating into perfect hexagonal cymatic patterns. The bolt is slightly blurred from movement. High contrast texture detail. 9:16 aspect ratio. Physics simulation, photorealistic macro.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Executor_Unit_01 (Class: ANGEL_OF_PUNISHMENT). **Physique:** 12-meter tall industrial robotic construct, non-anthropomorphic proportions. **Structure:** Heavy ceramic-composite plating (Matte Black) covering a complex endoskeleton of high-pressure hydraulic tubing. **Head:** Featureless obsidian dome sensor-array, no face, single horizontal optical slit emitting a laser-grid scan (Red). **Texture:** Cold, damp industrial metal, covered in condensation and oil slick, scratches from geological debris.
+> **Actor:** None. **Subject:** Industrial Bolt & Dust. **Physique:** N/A. **Structure:** Hexagonal steel bolt head. **Texture:** Rusted, oily metal.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** None. **Attachments:** Massive dorsal pressure-tanks labeled with warning glyphs (Ge'ez/Hazard symbols). **Primary Prop:** `SEAL_BREAKER_PISTONS`. Arms end in heavy-duty pile-drivers/jackhammers designed for crust perforation. **Interface-VFX:** Vents releasing high-velocity steam jets from the shoulder joints at regular intervals.
+> **Garment:** N/A. **Attachments:** N/A. **Primary Prop:** Dust particles. **Interface-VFX:** Physics-driven vibration patterns.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Plains of Judgment (Simulation Grid). **Architecture:** Perfectly flat, reflective obsidian ground with visible polygon edges. **Atmosphere:** Heavy industrial smog, volumetric lighting beams cutting through the haze. **Background:** An infinite array of identical units fading into the atmospheric depth map.
+> **Location:** Floor plate. **Architecture:** Steel deck. **Atmosphere:** N/A. **Background:** Blurred dark metal.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `SYSTEM_FAILURE`. Primary: Diffuse ambient skylight (Slate Grey). Secondary: Harsh red point-lights from the unit's sensors. Tertiary: Blue bioluminescence from the internal coolant lines visible through chassis gaps. **Palette:** Black, Warning Red, Coolant Blue, Concrete Grey. **Shadows:** Sharp, ray-traced contact shadows.
+> **Lighting Scheme:** `SURFACE_TENSION`. Primary: Hard side-light emphasizing texture. Secondary: N/A. **Palette:** Black, Rust, Grey. **Shadows:** Sharp, jittering shadows.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Low Angle (worm's eye view). **Lens:** 16mm Ultra-Wide. **Focus:** Infinite focus, sharp details on the metal textures. **Movement:** Slow vertical tilt-up emphasizing the sheer scale of the machine against the sky. **Style:** Photorealistic hard-surface sci-fi, Unreal Engine 5.4, Nanite geometry, 8k resolution, cinematic lighting.
+> **Camera:** Macro. **Lens:** 100mm. **Focus:** Shallow depth of field. **Movement:** Camera shakes slightly with the vibration. **Style:** Technical detail, 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Metallic groaning sounds as the structure settles (thermal expansion). A heavy, resonant thud of weight. Faint hydraulic pumps cycling.
+Fast rhythmic rattling (60Hz). The ticking sound of cooling metal contracting.
 
 
-## [ACT 1] [SCENE 1.4] [Timecode: 00:12-00:15] [ENOCH'S GHOST]
-**Action:** Enoch manifests. He is semi-transparent (50% opacity). He floats slightly above the ground. His skin is marble, his eyes are data-projectors. He looks up at the Mech.
+## [ACT 1] [SCENE 1.4] [Timecode: 00:10-00:15] [REVEAL THE SENTINELS]
+**Action:** Low Angle Hero Shot. Reveal of three massive Tripod Sentinels (15ft tall) locked onto the gate's rim. They are hydraulic, ceramic-plated "Angels of Punishment".
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Plains of Judgment", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["EXEC_UNIT_V4 Leg"], "camera": "Medium Shot, Slight float drift", "mood": ["mysterious", "analytical"], "director_intent": "Introduce the observer as a foreign data-entity in this physical world.", "start_image_keywords": ["translucent figure", "silver skin", "floating man"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "floating_observe", "env_id": "plains_01", "props": [], "notes": "Henoch is 50% opacity"}, "motion_driver": {"type": "pose", "audio_id": "", "pose_source": "data/capture/poses/henoch_float_01.mp4", "driver_notes": "Gentle floating motion"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "wide", "framing": "low_angle", "environment": "Containment Sector", "env_change": false, "actors": [], "props": ["Tripod Sentinel 01", "Tripod Sentinel 02"], "camera": "Low Angle Parallax Slide", "mood": ["intimidating", "monolithic"], "director_intent": "Reveal the Guardians as mechanical enforcers of the system logic.", "start_image_keywords": ["huge tripod mech", "ceramic armor", "hydraulic claws"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot of Enoch (Voyager phase) floating slightly above the obsidian ground. He is semi-transparent (50% opacity), ghost-like. His skin is metallic silver. He wears a high-tech visor displaying data. In the background, the massive leg of a black industrial mech is visible. 9:16 aspect ratio. Sci-fi, ethereal, holographic.
+Low angle wide shot of three towering 15ft industrial mechs. They have a non-humanoid tripod design, thick black ceramic armor, and massive hydraulic claws gripping the ground. Their head turrets have multiple red sensor lenses. Steam vents from their joints. 9:16 aspect ratio. Hard-surface sci-fi, menacing, industrial.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch (User: METATRON_01). **Phase:** Voyager. **Physique:** Slender, athletic, but rendered as a semi-transparent holographic entity (50% opacity). **Skin:** Silver-metallic shader, reflecting the environment. **Face:** Stoic, analytical, partially obscured by the visor.
+> **Actor:** None. **Subject:** Sentinel Units (Angels). **Physique:** Heavy industrial tripod mechs. **Structure:** Black ceramic plating over tungsten skeleton. **Texture:** Scratched, weathered, oil-stained.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Tech-Weave Robes (White/Silver). **Attachments:** HUD-Visor covering eyes (Glowing Blue). **Primary Prop:** N/A. **Interface-VFX:** Faint scanlines running vertically across his body. He floats 20cm above the ground.
+> **Garment:** N/A. **Attachments:** Hydraulic pistons. **Primary Prop:** Impact Hammers (dorsal mount). **Interface-VFX:** Red sensor eyes glowing.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Beside the Mech Leg. **Architecture:** Massive industrial metal plating (background). **Atmosphere:** Hazy industrial air. **Background:** The dark leg of the mech and the grey horizon.
+> **Location:** Gate Rim. **Architecture:** Industrial platform. **Atmosphere:** Steam and smog. **Background:** The Abyss Gate curvature.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `GHOST_LIGHT`. Primary: Enoch emits a soft inner glow (White). Secondary: Reflection of the grey sky. **Palette:** Silver, White, Black, Grey. **Shadows:** Enoch casts no shadow.
+> **Lighting Scheme:** `GUARDIAN`. Primary: Harsh top-down floodlights. Secondary: Red rim light from sensors. **Palette:** Black, Grey, Warning Red. **Shadows:** Long, heavy shadows.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Eye-Level. **Lens:** 50mm Portrait. **Focus:** Sharp on Enoch, background slightly soft. **Movement:** Gentle handheld drift, mimicking his floating. **Style:** Ethereal sci-fi, ghost effect, 9:16 vertical video.
+> **Camera:** Ground Level. **Lens:** 16mm. **Focus:** Deep focus. **Movement:** Slow parallax slide left. **Style:** Cinematic epic, 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitched digital data-processing chirps. Faint, rhythmic breathing sounds (processed with reverb).
+Heavy hydraulic groaning. The hiss of high-pressure steam venting.
 
 
-## [ACT 2] [SCENE 2.1] [Timecode: 00:15-00:19] [X-RAY VISION]
-**Action:** POV Shot from Enoch. The render mode switches to "Wireframe". We look *through* the ground. Beneath the polygon mesh is a raging ocean of glowing blue plasma/water, pressing up against the vertices.
+## [ACT 1] [SCENE 1.5] [Timecode: 00:15-00:20] [X-RAY VISION]
+**Action:** Enoch's POV with UI Overlay. The floor renders as a high-fidelity wireframe schematic. Beneath the gate, a boiling mass of blue ferrofluid/plasma pushes up.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "point_of_view", "framing": "medium", "environment": "Plains of Judgment (Wireframe)", "env_change": true, "actors": [], "props": ["Wireframe Ground", "Plasma Ocean"], "camera": "POV / Static", "mood": ["technical", "revelatory"], "director_intent": "Show the hidden reality beneath the simulation surface.", "start_image_keywords": ["wireframe ground", "glowing plasma", "underground ocean"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "interface", "shot_type": "point_of_view", "framing": "medium", "environment": "Containment Sector (Debug View)", "env_change": true, "actors": [], "props": ["Augmented Reality Mesh", "Ferrofluid Ocean"], "camera": "POV Static", "mood": ["analytical", "alarming"], "director_intent": "Show the hidden data-reality of the pressure from the abyss.", "start_image_keywords": ["wireframe overlay", "blue plasma", "underground simulation"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-POV shot looking down at the ground. The world is rendered in a neon-green wireframe mesh. Through the mesh grid, a violent, glowing electric-blue ocean of plasma is visible, pressing up against the geometry. HUD overlays show "WARNING: PRESSURE CRITICAL". 9:16 aspect ratio. Cyberpunk debugging view, technical visualization.
+POV shot. The industrial floor is overlaid with a glowing green high-fidelity 3D structural mesh. Through the mesh, we see a turbulent ocean of glowing electric-blue ferrofluid boiling violently underneath. Floating UI text reads "PRESSURE_CRITICAL". 9:16 aspect ratio. HUD design, technical visualization, cyberpunk aesthetic.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Subject:** The Simulation Mesh. **Physique:** N/A. **Structure:** Glowing green wireframe grid representing the ground. **Texture:** Vectors, lines, no solid surfaces.
+> **Actor:** None. **Subject:** Sub-surface Data. **Physique:** Fluid simulation. **Structure:** 3D Geometric overlay. **Texture:** Glowing plasma and vector lines.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** N/A. **Attachments:** N/A. **Primary Prop:** `DEEP_WATERS`. A turbulent ocean of bioluminescent blue plasma beneath the grid. **Interface-VFX:** HUD elements (Targeting reticles, depth numbers) floating in the foreground.
+> **Garment:** N/A. **Attachments:** N/A. **Primary Prop:** The Waters (Blue Ferrofluid). **Interface-VFX:** Augmented Reality grid overlay.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Underground / Debug View. **Architecture:** The barrier between solid (Grid) and liquid (Chaos). **Atmosphere:** Digital void. **Background:** Deep black abyss.
+> **Location:** Beneath the Gate. **Architecture:** Invisible physical floor. **Atmosphere:** Data void. **Background:** Darkness.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `DEBUG_WIREFRAME`. Primary: Self-illuminated Green lines. Secondary: Bright Blue glow from the plasma. **Palette:** Neon Green, Electric Blue, Black. **Shadows:** None.
+> **Lighting Scheme:** `DEBUG_MODE`. Primary: Self-illuminated Blue liquid. Secondary: Green UI lines. **Palette:** Electric Blue, Neon Green, Black. **Shadows:** None.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** POV. **Lens:** 35mm. **Focus:** Deep focus. **Movement:** Slight jitter as if the viewer is unstable. **Style:** UI mockup, debug mode, 9:16 vertical video.
+> **Camera:** POV. **Lens:** 35mm. **Focus:** Sharp on the fluid. **Movement:** Slight handheld jitter. **Style:** UI mockup, 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Muffled underwater roaring sound. Fast Geiger-counter ticking. Digital scanning noises.
+Fast Geiger-counter clicking. Muffled underwater churning sound. Digital glitch noises.
 
 
-## [ACT 2] [SCENE 2.2] [Timecode: 00:19-00:23] [MESH FAILURE]
-**Action:** Macro shot of the ground texture (Obsidian). It doesn't crack; it stretches like bad UV mapping. Pixels smear. A drop of black liquid clips through the surface.
+## [ACT 2] [SCENE 2.1] [Timecode: 00:20-00:23] [STRESS TEST]
+**Action:** Close-up on a Sentinel's arm joint. The black ceramic plating cracks, revealing glowing orange heat underneath. The metal screams from fatigue.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Plains of Judgment", "env_change": false, "actors": [], "props": ["Obsidian Ground", "Black Liquid"], "camera": "Macro 85mm", "mood": ["tension", "glitch"], "director_intent": "Depict the breakdown of physical laws as a rendering error.", "start_image_keywords": ["texture stretching", "black ooze", "glitch artifact"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "close_up", "environment": "Containment Sector", "env_change": false, "actors": [], "props": ["Sentinel Joint", "Micro-Fractures"], "camera": "Telephoto Zoom", "mood": ["danger", "breaking_point"], "director_intent": "Highlight the physical toll of holding back the abyss.", "start_image_keywords": ["cracking metal", "glowing orange heat", "mechanical stress"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Macro close-up of a black obsidian rock surface. The texture is unnaturally stretched and smeared, looking like bad 3D mapping. A droplet of viscous black liquid is clipping through the solid surface, violating physics. High contrast, sharp detail. 9:16 aspect ratio. Glitch horror, surreal texture.
+Close-up of a heavy mechanical joint on a black robot. The surface is cracking like dry earth, revealing an intense orange thermal glow from within. Smoke wisps curl from the fissures. The metal texture is detailed and stressed. 9:16 aspect ratio. Industrial destruction, heat stress, high detail.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Subject:** Ground Texture. **Physique:** N/A. **Structure:** Flat rocky surface. **Texture:** Obsidian, smooth but stretching like rubber.
+> **Actor:** None. **Subject:** Mechanical Joint. **Physique:** Heavy steel pivot. **Structure:** Cracked ceramic shell. **Texture:** Burnt metal.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** N/A. **Attachments:** N/A. **Primary Prop:** Black Liquid Droplet. **Interface-VFX:** Texture swimming/smearing effect.
+> **Garment:** N/A. **Attachments:** N/A. **Primary Prop:** Internal Heat Core. **Interface-VFX:** Glowing orange fissures expanding.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Ground Level. **Architecture:** The floor. **Atmosphere:** Tensile stress. **Background:** Out of focus blackness.
+> **Location:** Sentinel Arm. **Architecture:** N/A. **Atmosphere:** Heat haze. **Background:** Blurred industrial grey.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `SURFACE_STRESS`. Primary: Sharp specular highlight on the liquid. Secondary: Flat lighting on the rock. **Palette:** Black, Grey. **Shadows:** Sharp contact shadow.
+> **Lighting Scheme:** `THERMAL_FAIL`. Primary: Orange glow from cracks. Secondary: Cool external ambient. **Palette:** Black, Orange, Grey. **Shadows:** Deep cracks.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Macro. **Lens:** 85mm. **Focus:** Shallow depth of field on the droplet. **Movement:** Handheld shake, vibrating. **Style:** Photorealistic macro, 9:16 vertical video.
+> **Camera:** Telephoto. **Lens:** 85mm. **Focus:** Sharp on the cracks. **Movement:** Slight vibration. **Style:** Technical failure, 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sound of tearing metal or fabric. High-pitched material stress whine. Wet sloshing sound.
+High-pitched screaming metal (shear stress). Tearing sound.
 
 
-## [ACT 2] [SCENE 2.3] [Timecode: 00:23-00:27] [MECHANISM SPIN-UP]
-**Action:** The Mech's arm (a pile-driver/drill) spins up. Sparks fly. The hydraulic pistons hiss, expanding to strike the ground.
+## [ACT 2] [SCENE 2.2] [Timecode: 00:23-00:26] [THE LEAK]
+**Action:** Extreme Close-Up. A hairline fracture opens in the main gate seal. A single drop of "Black Water" (Vantablack fluid) escapes, hitting the floor and chemically dissolving the metal.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "close_up", "environment": "Plains of Judgment", "env_change": false, "actors": [], "props": ["Mech Drill Arm"], "camera": "Close-Up, High Shutter", "mood": ["danger", "kinetic"], "director_intent": "Focus on the destructive potential of the machinery.", "start_image_keywords": ["spinning drill", "sparks", "hydraulic piston"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Containment Sector", "env_change": false, "actors": [], "props": ["Gate Seal", "Black Fluid"], "camera": "Macro Focus", "mood": ["corruption", "horror"], "director_intent": "Demonstrate the corrosive, corrupting nature of the waters.", "start_image_keywords": ["vantablack liquid", "dissolving metal", "acid burn"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Close-up of a massive industrial drill bit spinning at high speed. Bright orange sparks are flying from the friction. Hydraulic pistons are extending, gleaming with oil. The metal is black and scratched. 9:16 aspect ratio. Action freeze-frame, high energy, industrial details.
+Macro close-up of a steel floor plate. A droplet of pitch-black liquid (Vantablack) has landed on it. Where the liquid touches, the metal is bubbling and dissolving into grey static noise. The liquid absorbs all light. 9:16 aspect ratio. Chemical reaction, sci-fi horror, texture detail.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Subject:** Mech Arm (Pile Driver). **Physique:** Cylindrical steel drill. **Structure:** Rotating tungsten carbide tip. **Texture:** Oily, scratched metal.
+> **Actor:** None. **Subject:** The Black Water. **Physique:** Viscous fluid. **Structure:** Amorphous droplet. **Texture:** Vantablack (0% reflection).
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** N/A. **Attachments:** N/A. **Primary Prop:** Drill Mechanism. **Interface-VFX:** Shower of sparks (Particle system).
+> **Garment:** N/A. **Attachments:** N/A. **Primary Prop:** Dissolving Steel. **Interface-VFX:** The metal turning into static/ash where touched.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Just above the ground. **Architecture:** Part of the Mech. **Atmosphere:** Heated air from friction. **Background:** Blurred machinery.
+> **Location:** Gate Floor. **Architecture:** Steel plate. **Atmosphere:** Toxic fumes. **Background:** Blurred metal.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `KINETIC_ENERGY`. Primary: Bright orange light from sparks. Secondary: Cold blue rim light. **Palette:** Black, Silver, Orange. **Shadows:** Rapidly moving shadows from the spinning parts.
+> **Lighting Scheme:** `CORROSION`. Primary: Flat white light to contrast the black drop. Secondary: N/A. **Palette:** Silver, Black, Static Grey. **Shadows:** None (Drop absorbs light).
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Dynamic Action Cam. **Lens:** 50mm. **Focus:** Tracking the drill tip. **Movement:** Vibration/Shake matching the spin. **Style:** Action movie close-up, 9:16 vertical video.
+> **Camera:** Macro. **Lens:** 100mm. **Focus:** Sharp on the droplet. **Movement:** Static. **Style:** Scientific observation, 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud hydraulic hiss (psshhh). High-pitched turbine spin-up sound rising in frequency. Grinding metal.
+Sizzling acid sound. A sharp digital "glitch" noise as the metal dissolves.
 
 
-## [ACT 2] [SCENE 2.4] [Timecode: 00:27-00:30] [SYNCHRONIZED THREAT]
-**Action:** Wide Shot. The entire line of Mechs raises their arms in unison. A synchronized wave of mechanical motion. They are ready to breach the crust.
+## [ACT 2] [SCENE 2.3] [Timecode: 00:26-00:30] [MOBILIZATION]
+**Action:** Medium Shot. The Sentinels synchronize. Turrets spin, red optical sensors flare. They raise their "Impact Hammers" in preparation to strike the release pins.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Plains of Judgment", "env_change": false, "actors": [], "props": ["Mech Army"], "camera": "Wide Shot, Tracking Lateral", "mood": ["epic", "threatening"], "director_intent": "Show the coordinated threat of the swarm.", "start_image_keywords": ["robot army", "synchronized movement", "industrial horizon"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "medium", "framing": "medium", "environment": "Containment Sector", "env_change": false, "actors": [], "props": ["Sentinel Turret", "Impact Hammer"], "camera": "Dynamic Pan", "mood": ["aggression", "imminent_threat"], "director_intent": "The guardians react to the breach by preparing the execution sequence.", "start_image_keywords": ["spinning mech turret", "red sensor flare", "raised hammers"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide shot of an infinite line of black mechs stretching to the horizon. All of them have their drill arms raised high in perfect synchronization. The sky is dark and ominous. The perspective emphasizes the repetition and order. 9:16 aspect ratio. Cinematic epic, military precision.
+Medium dynamic shot of a Sentinel mech. Its head turret is spinning rapidly to lock position. A massive mechanical hammer arm is being raised high. The optical sensors are flaring bright red, creating lens flares. Motion blur emphasizes speed. 9:16 aspect ratio. Action sci-fi, mechanical combat readiness.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Subject:** The Mech Array. **Physique:** Thousands of identical units. **Structure:** Black silhouettes against the sky. **Texture:** Matte metal.
+> **Actor:** None. **Subject:** Sentinel Action. **Physique:** Tripod Mech. **Structure:** Articulated arms. **Texture:** Moving metal parts.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** N/A. **Attachments:** N/A. **Primary Prop:** Raised Drill Arms. **Interface-VFX:** Red sensor lights glowing on all units.
+> **Garment:** N/A. **Attachments:** Impact Hammers. **Primary Prop:** Sensor Turret. **Interface-VFX:** Red lens flares, heat distortion from engines.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Plains of Judgment. **Architecture:** Flat plain. **Atmosphere:** Hazy. **Background:** Infinite horizon.
+> **Location:** Gate Rim. **Architecture:** Industrial. **Atmosphere:** Agitated steam. **Background:** Other Sentinels moving in sync.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `UNIFORMITY`. Primary: Flat ambient light. Secondary: Rhythm of red lights. **Palette:** Black, Grey, Red. **Shadows:** Long synchronized shadows.
+> **Lighting Scheme:** `TARGET_LOCK`. Primary: Red strobe lights. Secondary: Cold ambient. **Palette:** Black, Red, Grey. **Shadows:** Fast moving dynamic shadows.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Dolly Track. **Lens:** 35mm. **Focus:** Deep focus. **Movement:** Fast lateral tracking speed. **Style:** Epic war movie, 9:16 vertical video.
+> **Camera:** Handheld/Shaky. **Lens:** 50mm. **Focus:** Tracking the head. **Movement:** Fast pan with the motion. **Style:** Action movie, 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A massive, multiplied mechanical slam sound (thousands of servos moving at once). Deep bass reverb.
+Rising pitch of servo motors (turbine spin-up). Alarm klaxon (low frequency). Heavy metallic clanking.
 
 
-## [ACT 3] [SCENE 3.1] [Timecode: 00:30-00:34] [THE DATA-BEAM]
-**Action:** A silent, vertical beam of white data (binary code rain) strikes the center of the formation. No explosion, just an instant over-exposure of light.
+## [ACT 2] [SCENE 2.4] [Timecode: 00:30-00:33] [THE APEX]
+**Action:** Slow Motion (60fps). Wide shot. The Hammers are at the very top of their arc. The Gate is buckling under pressure. Silence before the strike.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "establishing", "framing": "wide", "environment": "Plains of Judgment", "env_change": false, "actors": [], "props": ["Data Beam"], "camera": "Static, Centered", "mood": ["divine", "shock"], "director_intent": "The divine command manifests as pure information/light.", "start_image_keywords": ["white light beam", "binary rain", "overexposure"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Containment Sector", "env_change": false, "actors": [], "props": ["Sentinel Army", "Raised Hammers"], "camera": "Static Wide", "mood": ["suspense", "epic"], "director_intent": "The moment of maximum potential energy before the catastrophe.", "start_image_keywords": ["raised mechanical hammers", "buckling floor", "epic silhouette"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A blinding vertical pillar of white light striking the black ground. Inside the light, streams of binary code are visible (Matrix rain style but white). The surroundings are silhouetted by the extreme brightness. High contrast. 9:16 aspect ratio. Divine intervention, digital aesthetic.
+Wide shot, looking up at the silhouette of a Sentinel with its massive hammer arm raised vertically, poised to strike. The sky behind is dark and stormy. The ground plate is visibly warped and buckling. Time seems frozen. 9:16 aspect ratio. Cinematic silhouette, dramatic tension.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Subject:** The Command Signal. **Physique:** Vertical cylinder of light. **Structure:** Pure photons and data. **Texture:** Glowing, scrolling text.
+> **Actor:** None. **Subject:** The Strike. **Physique:** Mech Silhouette. **Structure:** Raised Arm. **Texture:** Backlit metal.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** N/A. **Attachments:** N/A. **Primary Prop:** Data Stream. **Interface-VFX:** Binary code cascading down. Lens flares.
+> **Garment:** N/A. **Attachments:** Hammer mechanism. **Primary Prop:** Buckling Floor. **Interface-VFX:** None.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Center of the Array. **Architecture:** Flat plain. **Atmosphere:** Washed out by light. **Background:** Black silhouettes of mechs.
+> **Location:** Gate Center. **Architecture:** Warped metal floor. **Atmosphere:** Stillness. **Background:** Stormy sky.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `OVEREXPOSURE`. Primary: Pure White (255, 255, 255). Secondary: None. **Palette:** White, Black. **Shadows:** Hard shadows radiating from the center.
+> **Lighting Scheme:** `SILHOUETTE`. Primary: Bright backlight from the horizon. Secondary: Dark foreground. **Palette:** Black, Dark Blue, Grey. **Shadows:** Total silhouette.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Static tripod. **Lens:** 50mm. **Focus:** Soft due to glow. **Movement:** None. **Style:** Divine revelation, high key, 9:16 vertical video.
+> **Camera:** Static. **Lens:** 24mm. **Focus:** Deep focus. **Movement:** Ultra-slow motion (drift). **Style:** Zack Snyder slow-mo, 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Amplified dial-up modem screech. Loud electrical crackle. No explosion sound, just electrical noise.
+Complete silence. Just a low breath-like wind sound.
 
 
-## [ACT 3] [SCENE 3.2] [Timecode: 00:34-00:37] [FIRMWARE OVERRIDE]
-**Action:** Extreme CU on Mech sensor. Red LED flickers frantically. Gyroscopes spin down.
+## [ACT 2] [SCENE 2.5] [Timecode: 00:33-00:35] [ENOCH'S REACTION]
+**Action:** Close-up. Enoch raises a hand to shield his face. His visor floods with red warning text: `CRITICAL_FAILURE`.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Plains of Judgment", "env_change": false, "actors": [], "props": ["Mech Sensor Head"], "camera": "Extreme Close-Up, Shaky", "mood": ["glitch", "shutdown"], "director_intent": "Show the machine receiving and processing the stop command.", "start_image_keywords": ["red robot eye", "flickering led", "mech head"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Containment Sector", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Visor UI"], "camera": "Close-Up Face", "mood": ["fear", "anticipation"], "director_intent": "Enoch anticipates the inevitable destruction.", "start_image_keywords": ["silver face", "red visor reflection", "shielding hand"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "shield_face_01", "env_id": "gate_rim_01", "props": [], "notes": ""}, "motion_driver": {"type": "pose", "audio_id": "", "pose_source": "data/capture/poses/henoch_react.mp4", "driver_notes": "Protective gesture"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme close-up of a black robotic sensor dome. A thin red LED slit is flickering rapidly and erratically. Reflections of white data code are visible on the glossy black surface. 9:16 aspect ratio. Sci-fi detail, machine malfunction.
+Close-up of Enoch's face (Silver skin). He is raising a metallic hand to shield his eyes. His blue visor is now glowing intense Red, reflecting warning text "CRITICAL" onto his face. The background is dark. 9:16 aspect ratio. Dramatic portrait, lighting change.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Subject:** Mech Head Sensor. **Physique:** Smooth ceramic dome. **Structure:** Single horizontal eye slit. **Texture:** Glossy black, reflecting the environment.
+> **Actor:** Enoch (User: METATRON_01). **Phase:** Voyager. **Physique:** Silver Skin. **Structure:** Synthetic face. **Texture:** Reflective.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** N/A. **Attachments:** N/A. **Primary Prop:** LED Display. **Interface-VFX:** Rapid strobing of the red light.
+> **Garment:** White Robes. **Attachments:** HUD Visor. **Primary Prop:** Hand. **Interface-VFX:** Visor color shift from Blue to Red.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Mech Head. **Architecture:** N/A. **Atmosphere:** N/A. **Background:** Blurred sky.
+> **Location:** Gate Rim. **Architecture:** Blurred background. **Atmosphere:** Dark. **Background:** Bokeh lights.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `DATA_INPUT`. Primary: Red LED glow. Secondary: White reflections from the data beam. **Palette:** Black, Red, White. **Shadows:** High contrast.
+> **Lighting Scheme:** `WARNING_FACE`. Primary: Red light from visor. Secondary: Rim light on silver skin. **Palette:** Silver, Red, Black. **Shadows:** Hard contrast on face.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Macro. **Lens:** 100mm. **Focus:** Sharp on the LED. **Movement:** Jittery/Shaky. **Style:** Tech malfunction, 9:16 vertical video.
+> **Camera:** Portrait Lens. **Lens:** 85mm. **Focus:** Sharp on eyes/visor. **Movement:** Quick flinch. **Style:** Character reaction, 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Digital stuttering sound. A power-down whine dropping in pitch (like a turbine turning off).
+Rapid digital warning beeps (high pitch).
 
 
-## [ACT 3] [SCENE 3.3] [Timecode: 00:37-00:41] [THE FREEZE]
-**Action:** The drill halts millimeters from the ground. Inertia causes the massive chassis to shudder. Dust shakes off.
+## [ACT 3] [SCENE 3.1] [Timecode: 00:35-00:38] [THE SIGNAL]
+**Action:** A pillar of absolute white light strikes the center of the gate from the sky. It is a data-beam. No explosion, just pure luminance.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "close_up", "environment": "Plains of Judgment", "env_change": false, "actors": [], "props": ["Mech Drill Tip", "Dust"], "camera": "Low Angle, Impact Focus", "mood": ["impact", "stillness"], "director_intent": "The sudden stop demonstrates the weight and momentum of the machine.", "start_image_keywords": ["drill tip", "dust cloud", "ground macro"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Containment Sector", "env_change": false, "actors": [], "props": ["White Light Beam"], "camera": "Static Wide", "mood": ["divine", "overwhelming"], "director_intent": "The divine command manifests as a pure, absolute signal.", "start_image_keywords": ["vertical white beam", "overexposure", "geometric light"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Low angle shot of a massive metal drill tip stopped just millimeters above the obsidian ground. A small cloud of dust and debris is shaken loose from the chassis and hangs in the air. The image conveys heavy weight and sudden stillness. 9:16 aspect ratio. Physics simulation, high detail.
+Wide shot of a perfectly vertical column of blinding white light striking the black industrial floor. The light is solid, sharp-edged, and contains faint scrolling binary code. The surrounding environment is cast in deep silhouette by the brightness. 9:16 aspect ratio. Abstract sci-fi, divine intervention, high contrast black and white.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Subject:** Drill and Ground. **Physique:** Metal cylinder. **Structure:** Heavy steel. **Texture:** Dirty, oily.
+> **Actor:** None. **Subject:** The Signal Beam. **Physique:** Cylinder of Light. **Structure:** Pure Photons. **Texture:** Glowing White.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** N/A. **Attachments:** N/A. **Primary Prop:** Drill Tip. **Interface-VFX:** Dust particles falling.
+> **Garment:** N/A. **Attachments:** N/A. **Primary Prop:** Light Column. **Interface-VFX:** Lens flares, vertical scanning lines.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Ground level. **Architecture:** Floor. **Atmosphere:** Dust cloud. **Background:** Blurred mech legs.
+> **Location:** Gate Center. **Architecture:** Flat floor. **Atmosphere:** Washed out. **Background:** Black void.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `IMPACT`. Primary: Ambient grey. Secondary: Dark contact shadow. **Palette:** Black, Grey, Brown (Dust). **Shadows:** Sharp shadow gap between drill and floor.
+> **Lighting Scheme:** `ABSOLUTE_WHITE`. Primary: Pure White emission. Secondary: None. **Palette:** White, Black. **Shadows:** Hard radial shadows.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Ground level. **Lens:** 50mm. **Focus:** Sharp on the gap. **Movement:** Sudden halt and vibration. **Style:** Physics sim, 9:16 vertical video.
+> **Camera:** Static Tripod. **Lens:** 50mm. **Focus:** Soft glow. **Movement:** None. **Style:** 2001: A Space Odyssey monolith vibe, 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy metal "clank" of a sudden stop. Deep reverb. Sound of loose debris falling.
+A single, deafeningly loud square-wave BEEP. No reverb. Just the raw signal.
 
 
-## [ACT 3] [SCENE 3.4] [Timecode: 00:41-00:45] [STATUS CHANGE]
-**Action:** Sensor LED shifts RED > AMBER. Steam vents from shoulders (pressure release).
+## [ACT 3] [SCENE 3.2] [Timecode: 00:38-00:43] [THE HALT]
+**Action:** Bullet-Time orbit around a frozen Sentinel hammer. It is millimeters from the pin. The air is distorted by shockwaves, but motion is arrested.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "medium", "framing": "medium", "environment": "Plains of Judgment", "env_change": false, "actors": [], "props": ["Mech Upper Body", "Steam"], "camera": "Medium Shot", "mood": ["relief", "standby"], "director_intent": "Visual confirmation of the state change from active threat to passive standby.", "start_image_keywords": ["mech shoulders", "steam venting", "amber light"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "close_up", "environment": "Containment Sector", "env_change": false, "actors": [], "props": ["Frozen Hammer", "Shockwave"], "camera": "Bullet Time Orbit", "mood": ["frozen", "impossible"], "director_intent": "Visualize the physics engine pausing the simulation.", "start_image_keywords": ["frozen mech arm", "air distortion", "suspended animation"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot of the upper torso of the black mech. Thick white steam is blasting out of vents on the shoulders. The red eye-light has turned to a steady, warm Amber color. 9:16 aspect ratio. Industrial atmosphere, pressure release.
+Bullet-time freeze frame shot. Close-up of a massive metal hammer head frozen mid-air, inches from a strike pin. The air around it is rippling with shockwaves that are also frozen in time like glass. Dust particles are suspended in mid-air. 9:16 aspect ratio. Time-stop effect, high detail physics.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Subject:** Mech Torso. **Physique:** Armored chest. **Structure:** Piping and plates. **Texture:** Wet metal.
+> **Actor:** None. **Subject:** Frozen Hammer. **Physique:** Metal Weapon. **Structure:** Steel Block. **Texture:** Blurred motion frozen sharp.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** N/A. **Attachments:** N/A. **Primary Prop:** Steam Vents. **Interface-VFX:** Massive jets of steam. Amber light.
+> **Garment:** N/A. **Attachments:** N/A. **Primary Prop:** Shockwaves. **Interface-VFX:** Refractive air distortion rings (static).
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Mech upper body. **Architecture:** Industrial design. **Atmosphere:** Cloudy steam. **Background:** Grey sky.
+> **Location:** Mid-air. **Architecture:** Mech Arm. **Atmosphere:** Suspended dust. **Background:** Blurred sentinel body.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `STANDBY`. Primary: Amber light glow. Secondary: White steam catching light. **Palette:** Black, White, Amber. **Shadows:** Softened by steam.
+> **Lighting Scheme:** `TIME_STOP`. Primary: Harsh highlight on the hammer edge. Secondary: Ambient grey. **Palette:** Black, Silver, Clear (distortion). **Shadows:** Sharp, frozen shadows.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Eye level. **Lens:** 50mm. **Focus:** Soft through steam. **Movement:** Slow drift. **Style:** Atmospheric, 9:16 vertical video.
+> **Camera:** Virtual Camera Orbit. **Lens:** 50mm. **Focus:** Sharp on hammer. **Movement:** Camera rotates 180 degrees around the frozen object. **Style:** Matrix bullet time, 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud hiss of steam release. A mechanical "sigh" sound.
+The "Power Down" sound: a high pitched turbine whine dropping rapidly in pitch to a low rumble.
 
 
-## [ACT 3] [SCENE 3.5] [Timecode: 00:45-00:49] [ENOCH'S CONFIRMATION]
-**Action:** Enoch scans the frozen unit with hand. Holographic text: `CMD_ABORT_ACKNOWLEDGED`.
+## [ACT 3] [SCENE 3.3] [Timecode: 00:43-00:47] [SYSTEM OVERRIDE]
+**Action:** Close-up on Sentinel Faceplate. Red sensor eyes turn White. Scrolling text on the lens: `CMD: HOLD_PRESSURE`.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "over_the_shoulder", "framing": "medium", "environment": "Plains of Judgment", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Holographic UI"], "camera": "Over-The-Shoulder (Enoch)", "mood": ["success", "calm"], "director_intent": "Enoch confirms the system update.", "start_image_keywords": ["holographic interface", "silver hand", "floating text"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "hand_scan_01", "env_id": "plains_01", "props": ["ui_hologram"], "notes": ""}, "motion_driver": {"type": "pose", "audio_id": "", "pose_source": "data/capture/poses/henoch_scan_01.mp4", "driver_notes": "Hand gesture scanning"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Containment Sector", "env_change": false, "actors": [], "props": ["Sentinel Faceplate", "Scrolling Text"], "camera": "Extreme Close-Up", "mood": ["obedience", "reprogramming"], "director_intent": "The machine receives and accepts the new code.", "start_image_keywords": ["robot faceplate", "white scrolling text", "lens reflection"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Over-the-shoulder shot from behind Enoch. We see his silver metallic hand raised. A glowing blue holographic interface floats in the air in front of the mech, displaying the text "CMD_ABORT_ACKNOWLEDGED" in a technical font. 9:16 aspect ratio. HUD design, first person perspective feel.
+Extreme close-up of a glossy black robot sensor lens. The red light is gone. The lens is filled with bright white scrolling command line text: "CMD: HOLD_PRESSURE". The text is reflected in the glass layers. 9:16 aspect ratio. Cyberpunk interface, detailed macro photography.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch (User: METATRON_01). **Phase:** Voyager. **Physique:** Silver skin. **Structure:** Translucent. **Texture:** Metallic.
+> **Actor:** None. **Subject:** Sentinel Eye. **Physique:** Glass Lens. **Structure:** Optical assembly. **Texture:** Glossy glass.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** White robes. **Attachments:** N/A. **Primary Prop:** Holographic UI. **Interface-VFX:** Floating text `CMD_ABORT_ACKNOWLEDGED`.
+> **Garment:** N/A. **Attachments:** N/A. **Primary Prop:** Data Text. **Interface-VFX:** Scrolling white text strings.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** In front of Mech. **Architecture:** Open plain. **Atmosphere:** Clearer now. **Background:** The motionless mech.
+> **Location:** Sentinel Head. **Architecture:** Sensor array. **Atmosphere:** N/A. **Background:** Black chassis.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `INTERFACE_GLOW`. Primary: Blue light from UI. Secondary: Ambient grey. **Palette:** Silver, Blue, Black. **Shadows:** None.
+> **Lighting Scheme:** `REBOOT`. Primary: White glow from text. Secondary: None. **Palette:** Black, White. **Shadows:** N/A.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Over-The-Shoulder. **Lens:** 35mm. **Focus:** Sharp on the text. **Movement:** Slight hand drift. **Style:** UI design, 9:16 vertical video.
+> **Camera:** Macro. **Lens:** 100mm. **Focus:** Sharp on text. **Movement:** Static. **Style:** Digital readout, 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Positive UI chime (ding). Soft wind returning.
+Rapid keyboard typing sound. A soft "ding" (confirmation chime).
 
 
-## [ACT 4] [SCENE 4.1] [Timecode: 00:49-00:55] [RECEDING WATERS]
-**Action:** Cutaway to underground. The blue plasma waves recede slightly from the crust, calming down. The wireframe grid stabilizes.
+## [ACT 3] [SCENE 3.4] [Timecode: 00:47-00:53] [THE CALM]
+**Action:** Wide shot. The Sentinels lower their arms and lock into "Containment Mode". Massive steam clouds vent from their chassis as the pressure releases. The gate seals tight.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "medium", "framing": "medium", "environment": "Plains of Judgment (Wireframe)", "env_change": true, "actors": [], "props": ["Wireframe Ground", "Plasma Ocean"], "camera": "Split-Level View", "mood": ["calm", "stabilization"], "director_intent": "Show the threat diminishing and the system stabilizing.", "start_image_keywords": ["wireframe grid", "calm blue water", "split screen"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Containment Sector", "env_change": false, "actors": [], "props": ["Sentinels", "Steam"], "camera": "Static Wide", "mood": ["relief", "dormancy"], "director_intent": "The return to the dormant, waiting state.", "start_image_keywords": ["venting steam", "stationary mechs", "industrial calm"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Split-level shot. Top half is the solid obsidian ground (Real). Bottom half is the wireframe grid and the blue plasma ocean (Debug). The plasma is calm and receding from the grid lines. The grid lines are turning from green to stable white. 9:16 aspect ratio. Cross-section view, technical diagram.
+Wide shot of the three Sentinels standing perfectly still in a triangular formation around the closed gate. Massive plumes of white steam are venting from their shoulders, creating a low fog layer. The red lights are gone, replaced by dim amber standby lights. The scene is peaceful but heavy. 9:16 aspect ratio. Atmospheric industrial, cinematic stillness.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Subject:** Physics Simulation. **Physique:** N/A. **Structure:** Grid and Fluid. **Texture:** Wireframe and liquid.
+> **Actor:** None. **Subject:** Sentinels Venting. **Physique:** Stationary Mechs. **Structure:** Tripods. **Texture:** Wet metal.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** N/A. **Attachments:** N/A. **Primary Prop:** Plasma Ocean. **Interface-VFX:** Grid stabilizing.
+> **Garment:** N/A. **Attachments:** Steam Vents. **Primary Prop:** Steam Clouds. **Interface-VFX:** Amber standby lights pulsing slowly.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Underground cross-section. **Architecture:** Crust boundary. **Atmosphere:** Digital void. **Background:** Black.
+> **Location:** Gate Platform. **Architecture:** Closed Gate. **Atmosphere:** Foggy. **Background:** Rock walls.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `STABLE_STATE`. Primary: Soft Blue glow. Secondary: White grid lines. **Palette:** Blue, White, Black. **Shadows:** None.
+> **Lighting Scheme:** `STANDBY_MODE`. Primary: Soft grey ambient. Secondary: Amber points of light. **Palette:** Grey, White, Amber. **Shadows:** Soft diffuse shadows.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Static side view. **Lens:** 50mm. **Focus:** Flat. **Movement:** Slow fluid motion. **Style:** Technical viz, 9:16 vertical video.
+> **Camera:** Static. **Lens:** 35mm. **Focus:** Deep focus. **Movement:** Only the steam moves. **Style:** Atmospheric, 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sound of water receding (suction). Sub-bass rumble fading out.
+Long, drawn-out hiss of steam releasing (pneumatic sigh). The heavy "thunk" of locking bolts engaging.
 
 
-## [ACT 4] [SCENE 4.2] [Timecode: 00:55-01:00] [ATMOSPHERIC LOOP]
-**Action:** The camera slowly pans around the head of a Mech. Condensation drips from its cold metal surface. The Amber light pulses slowly.
+## [ACT 3] [SCENE 3.5] [Timecode: 00:53-01:00] [LOGOUT]
+**Action:** Enoch looks at the camera. He dissolves upwards into a cloud of brilliant white light particles (data sublimation). Fade to black.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "close_up", "environment": "Plains of Judgment", "env_change": false, "actors": [], "props": ["Mech Head", "Condensation"], "camera": "Orbit Shot (Slow Motion)", "mood": ["melancholy", "dormant"], "director_intent": "A moment of stillness to appreciate the detail and the quiet after the storm.", "start_image_keywords": ["wet metal", "amber light", "water droplets"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Containment Sector", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Static Medium", "mood": ["transcendence", "departure"], "director_intent": "Enoch exits the simulation, returning to the source.", "start_image_keywords": ["dissolving into light", "silver figure", "particles"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "look_camera_01", "env_id": "gate_rim_01", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Close-up, slow orbit around the head of the black mech. Large water droplets of condensation are running down the cold ceramic surface. The amber eye-light pulses slowly, fading in and out. The background is a soft grey fog. 9:16 aspect ratio. Atmospheric, meditative, high texture detail.
+Medium shot of Enoch (Voyager Phase) looking directly into the lens. His silver body is disintegrating upwards into millions of tiny, brilliant white points of light (data particles), not blocks. The particles drift upward like reverse rain. His expression is calm. 9:16 aspect ratio. Ethereal departure, particle physics, beautiful.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Subject:** Mech Head. **Physique:** Dome shape. **Structure:** Ceramic. **Texture:** Wet, cold metal with condensation.
+> **Actor:** Enoch (User: METATRON_01). **Phase:** Voyager. **Physique:** Dissolving. **Structure:** Particle Cloud. **Texture:** Light.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** N/A. **Attachments:** N/A. **Primary Prop:** Water Droplets. **Interface-VFX:** Pulsing Amber light.
+> **Garment:** Robes turning to light. **Attachments:** N/A. **Primary Prop:** N/A. **Interface-VFX:** High-fidelity particle dispersion (Sublimation).
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Plains of Judgment. **Architecture:** Mech detail. **Atmosphere:** Foggy/Mist. **Background:** Grey void.
+> **Location:** Gate Rim. **Architecture:** Blurred background. **Atmosphere:** Clear. **Background:** Grey void.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `AMBIENT_DORMANT`. Primary: Soft grey light. Secondary: Warm Amber pulse. **Palette:** Grey, Black, Amber. **Shadows:** Soft diffuse shadows.
+> **Lighting Scheme:** `ASCENSION`. Primary: Bright white light from particles. Secondary: Grey ambient. **Palette:** Silver, White, Black. **Shadows:** Fading.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Orbit. **Lens:** 85mm. **Focus:** Sharp on droplets. **Movement:** Slow circular pan. **Style:** Cinematic beauty shot, 9:16 vertical video.
+> **Camera:** Static. **Lens:** 50mm. **Focus:** Sharp on face, then particles. **Movement:** Particles flow upward. **Style:** Mystical sci-fi exit, 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sound of water dripping. Rhythmic, slow electrical pulse (hum-hum-hum).
-
-
-## [ACT 4] [SCENE 4.3] [Timecode: 01:00-01:05] [DISCONNECT]
-**Action:** Enoch de-res (pixelates) into the air. Camera pulls back to satellite view. Lights fade.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "wide", "environment": "Plains of Judgment", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Pull Back / Zoom Out", "mood": ["end", "fade"], "director_intent": "The user logs out, leaving the system in its dormant state.", "start_image_keywords": ["pixelated figure", "fading away", "pull back"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "disappear_01", "env_id": "plains_01", "props": [], "notes": "Actor dissolving"}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide shot. Enoch is dissolving into square pixels and light, fading away into the grey sky. The camera is pulling back rapidly, revealing more of the vast, silent army of mechs in the fog. 9:16 aspect ratio. Melancholic departure, digital dissolve.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch (User: METATRON_01). **Phase:** Voyager. **Physique:** Dissolving. **Structure:** Pixels. **Texture:** Light and data.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Robes dissolving. **Attachments:** N/A. **Primary Prop:** N/A. **Interface-VFX:** Voxel de-resolution effect.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Plains of Judgment. **Architecture:** The Grid. **Atmosphere:** Fog. **Background:** Infinite Mechs.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `FADE_OUT`. Primary: Grey. Secondary: Fading silver light from Enoch. **Palette:** Grey, Black. **Shadows:** Fading.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Drone Pull-Back. **Lens:** 24mm. **Focus:** Infinite. **Movement:** Fast backward zoom. **Style:** Outro, 9:16 vertical video.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-TV static noise fading into silence.
+Sound of wind chimes or glass shattering in reverse. A soft digital "power off" hum. Fade to silence.
 
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.4","text":"Ich sehe die Riegel der Erde.","words_max":6},{"scene":"2.1","text":"Ein Ozean aus Feuer wartet unter dem Stein.","words_max":8},{"scene":"3.5","text":"Der Befehl ist gegeben. Sie schlafen wieder.","words_max":7}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Ich betrete den Sektor der Versiegelung.","words_max":6},{"scene":"2.1","text":"Das Fundament ächzt unter der Last der Tiefe.","words_max":8},{"scene":"2.5","text":"Das System steht kurz vor dem Kollaps.","words_max":7},{"scene":"3.4","text":"Der Befehl ist akzeptiert. Wir haben noch Zeit.","words_max":8}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

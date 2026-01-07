@@ -1,0 +1,137 @@
+{
+  "id": "SETENV_ABAY",
+  "name": "Abay",
+  "type": "set_environment",
+  "card": {
+    "description": "The Abay environment is a sprawling, riverine industrial‑mystic complex that marries the raw, volcanic basalt of Ethiopia’s highlands with the towering, sun‑baked stone of ancient Egyptian temples. Along the banks of the Abay River, jagged cliffs rise into a network of terraced stone arches, each etched with luminous glyphs that pulse in a slow, rhythmic glow. Crystalline conduits snake through the stonework, their facets refracting the river’s bioluminescent algae into a kaleidoscopic light show. Beneath the surface, humming machinery—gears of hammered bronze and copper—closes the loop between the ancient stone and the incomprehensible technology that powers the complex. The scene is rendered in photorealistic detail, with tactile textures of weathered stone, slick basalt, and the slick sheen of wet river water, all bathed in a serious, cinematic tone.",
+    "tags": [
+      "ancient-tech",
+      "industrial-mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "riverbank",
+      "crystalline",
+      "glyphs",
+      "photorealistic",
+      "tactile"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** The valley’s basalt cliffs and terraced stone arches form the environment’s skeletal structure, with a wide, slow‑moving river that acts as a living conduit.",
+      "**Face/Sensors:** The river itself is a sensor, its surface studded with bioluminescent algae and floating crystal nodes that pulse in sync with the complex’s machinery.",
+      "**Clothing/Armor:** Stone walls are coated with etched hieroglyphs that glow with a soft blue light; metal plates with runic patterns are bolted to the arches, their surfaces etched with ancient symbols.",
+      "**Key Features:** Crystalline conduits that snake through stone, floating glyphic lanterns that drift along the river, humming bronze and copper machinery, bioluminescent flora, and weathered basalt textures."
+    ],
+    "evolution": [
+      "Phase 1 (Initial Construction): Raw basalt cliffs and stone arches, minimal glyphs, no active technology.",
+      "Phase 2 (Technological Integration): Addition of crystalline conduits, glowing glyphs, and bronze machinery, beginning to hum and pulse.",
+      "Phase 3 (Operational Peak): Fully active system with bioluminescent algae, floating glyphic lanterns, and synchronized machinery humming in a steady rhythm."
+    ],
+    "props": [
+      "Item: Crystalline conduit array embedded in stone arches",
+      "Item: Floating glyphic lanterns drifting along the river"
+    ],
+    "prompt_keywords": [
+      "basalt",
+      "glyphs",
+      "crystalline",
+      "bioluminescent",
+      "riverbank",
+      "ancient",
+      "industrial"
+    ],
+    "prompt_block": "A cinematic, photorealistic rendering of the Abay riverbank complex: jagged basalt cliffs rise into towering stone arches etched with glowing glyphs, crystalline conduits snake through the stone, and bioluminescent algae on the river surface refracts light into a kaleidoscope; bronze and copper machinery hum beneath the surface, all bathed in a serious, tactile atmosphere of ancient Ethiopian and Egyptian aesthetics fused with incomprehensible technology",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "Raw basalt cliffs and stone arches with minimal glyphs, no active technology",
+        "prompt_keywords": [
+          "basalt",
+          "stone arches",
+          "minimal glyphs"
+        ],
+        "prompt_block": "Render the Abay riverbank in its earliest state: jagged basalt cliffs supporting towering stone arches, each with faint, etched glyphs that barely glow, no visible machinery or crystalline conduits, a slow‑moving river reflecting the muted light of a dawn sky."
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "Addition of crystalline conduits, glowing glyphs, and bronze machinery",
+        "prompt_keywords": [
+          "crystalline conduits",
+          "glowing glyphs",
+          "bronze machinery"
+        ],
+        "prompt_block": "Show the Abay complex after technological integration: crystalline conduits weave through stone arches, emitting a soft blue glow; glyphs on the walls pulse brighter; bronze and copper gears and pistons are visible beneath the stone, humming softly, while the river’s bioluminescent algae begin to shimmer."
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "Fully active system with bioluminescent algae, floating glyphic lanterns, and synchronized machinery",
+        "prompt_keywords": [
+          "bioluminescent algae",
+          "floating lanterns",
+          "synchronized machinery"
+        ],
+        "prompt_block": "Depict the Abay environment at operational peak: crystalline conduits blaze with intense light, glyphs pulse in perfect rhythm; floating glyphic lanterns drift along the river, reflecting off bioluminescent algae; bronze machinery hums in sync, and the basalt cliffs gleam with a wet sheen under a twilight sky."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_ABAY",
+    "name": "Abay",
+    "type": "set_environment",
+    "aliases": [
+      "Abay"
+    ],
+    "roles": [
+      "environment"
+    ],
+    "visual_traits": [
+      "unknown"
+    ],
+    "changes": [
+      "unknown"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1004"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 104,
+        "chapter_end": 103,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 104,
+        "chapter_end": 103,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 104,
+        "chapter_end": 104,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "unknown"
+        ]
+      }
+    ]
+  }
+}

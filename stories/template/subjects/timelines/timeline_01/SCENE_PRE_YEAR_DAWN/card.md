@@ -1,0 +1,32 @@
+## [SCENE] Pre-Year Dawn (ID: SCENE_PRE_YEAR_DAWN)
+**Description:** Pre-Year Dawn is a cinematic, photorealistic depiction of the first light over a ruined obelisk city, where ancient Ethiopian and Egyptian motifs fuse with incomprehensible crystalline technology. The scene captures a low horizon of jagged spires, a translucent solar disk rising, bio‑luminescent vines, and a crystalline lattice tower refracting sunrise into a spectrum of colors, all rendered with tactile realism.
+**Tags:** #pre-year-dawn #ancient-tech #industrial-mysticism #Ethiopian #Egyptian #photorealistic #tactile #solar-disk #crystalline-lattice #glyphs
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** The horizon is a jagged silhouette of a ruined obelisk city, its spires piercing the low sky, the ground a mosaic of basalt and polished obsidian.
+*   **Face/Sensors:** The sky is a gradient of deep indigo to amber, with a single translucent solar disk rising, its surface etched with glowing hieroglyphs that pulse in sync with unseen machinery.
+*   **Clothing/Armor:** The city walls are draped in woven metal threads, their surface reflecting the dawn light, interlaced with bio‑luminescent vines that glow faintly.
+*   **Key Features:** A central crystalline lattice tower, its facets refracting the sunrise into a spectrum of colors, surrounded by a ring of glyph‑etched stone that hums with low‑frequency vibrations.
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Pre-Year Dawn): The first light barely visible, the city in shadow, the solar disk just emerging.
+*   Phase 2 (Dawn of the New Year): The sun fully risen, the city awakening, the crystalline lattice glowing brighter, the bio‑luminescent vines pulsing.
+
+### 3. PROPS & EQUIPMENT
+*   Item: Translucent Solar Disk with Hieroglyphic Etchings
+*   Item: Central Crystalline Lattice Tower
+*   Item: Glyph‑etched Obsidian Obelisk
+*   Item: Bio‑luminescent Vines
+
+### 4. AI PROMPT KEYWORDS
+`ancient obelisk`, `crystalline lattice`, `bio‑luminescent vines`, `glyphs`, `solar disk`, `industrial mysticism`, `photorealistic`, `tactile`
+
+### 5. PROMPT BLOCK (T2I)
+A photorealistic cinematic dawn over a ruined obelisk city, ancient Ethiopian/Egyptian motifs fused with incomprehensible crystalline technology, featuring a translucent solar disk rising with glowing hieroglyphs, a central crystalline lattice tower refracting sunrise into a spectrum of colors, bio‑luminescent vines draped over metal walls, and a low‑frequency hum emanating from glyph‑etched stone, all rendered with tactile realism and cinematic lighting.
+
+### 6. PHASE PROMPTS
+*   **Default:** Pre-Year Dawn: the first light of a new era over a ruined obelisk city.
+    Prompt: A photorealistic cinematic dawn over a ruined obelisk city, ancient Ethiopian/Egyptian motifs fused with incomprehensible crystalline technology, featuring a translucent solar disk rising with glowing hieroglyphs, a central crystalline lattice tower refracting sunrise into a spectrum of colors, bio‑luminescent vines draped over metal walls, and a low‑frequency hum emanating from glyph‑etched stone, all rendered with tactile realism and cinematic lighting.
+    Keywords: ancient obelisk, crystalline lattice, bio‑luminescent vines, glyphs, solar disk, industrial mysticism, photorealistic, tactile
+
+---

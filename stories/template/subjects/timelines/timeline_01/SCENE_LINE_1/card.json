@@ -1,0 +1,139 @@
+{
+  "id": "SCENE_LINE_1",
+  "name": "Line 1",
+  "type": "scene",
+  "card": {
+    "description": "Line 1 is a towering sky‑house that rises from a rugged plateau, a monolithic structure of basalt and obsidian, etched with luminous glyphs that pulse in sync with the planet's magnetic field. Its roof is a vast translucent canopy of woven quartz that refracts the sun into a living spectrum of colors, while a crystal lattice sensor array at the spire projects the glyphs onto the walls. Weathered stone panels with embedded copper filaments and titanium alloy lattice reinforce the exterior, and bio‑luminescent conduits snake along the façade, glowing softly in deep blues and greens. The sky above is a living tapestry of shifting auroras, each feathered plume a conduit for the building's bio‑luminescent power grid. The scene is rendered in photorealistic, tactile detail, grounded realism, fusing ancient Ethiopian/Egyptian aesthetics with incomprehensible advanced technology.",
+    "tags": [
+      "skyhouse",
+      "ancient-tech",
+      "industrial-mysticism",
+      "grounded-realism",
+      "Ethiopian-Egyptian",
+      "bio-luminescence",
+      "glyphs",
+      "crystalline-hardware"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Monolithic basalt core 200 m tall, 50 m wide, tapering to an obsidian spire; layered stone walls with titanium alloy lattice reinforcement.",
+      "**Face/Sensors:** Crystal lattice sensor array at the apex scans the sky, projecting glyphs onto the façade and synchronizing with the magnetic field.",
+      "**Clothing/Armor:** Exterior clad in weathered stone panels with embedded copper filaments, reinforced by a titanium alloy lattice; translucent quartz canopy covers the roof.",
+      "**Key Features:** Translucent quartz canopy, pulsating glyphs, bio‑luminescent conduits, magnetic field generators, solar‑absorption panels, crystal lattice sensor array."
+    ],
+    "evolution": [
+      "Phase 1 (Default): Monolithic sky‑house with basalt core, obsidian spire, glyph‑etched walls, quartz canopy, bio‑luminescent conduits, crystal sensor array, magnetic field generators, and auroral sky."
+    ],
+    "props": [
+      "Solar Array: Array of micro‑photovoltaic panels embedded in the quartz canopy.",
+      "Glyph Projection System: Crystal lattice sensor array projecting glyphs onto the walls.",
+      "Quartz Canopy: Translucent woven quartz covering the roof, refracting light."
+    ],
+    "prompt_keywords": [
+      "skyhouse",
+      "ancient-tech",
+      "bioluminescent",
+      "glyphs",
+      "crystalline canopy"
+    ],
+    "prompt_block": "A towering sky‑house rising from a rugged plateau, monolithic basalt and obsidian structure 200 meters tall, its walls etched with luminous glyphs that pulse in sync with the planet's magnetic field. The roof is a vast translucent canopy of woven quartz that refracts sunlight into a living spectrum, while a crystal lattice sensor array at the spire projects the glyphs onto the walls. Weathered stone panels with embedded copper filaments and titanium alloy lattice reinforce the exterior. Bio‑luminescent conduits snake along the façade, glowing softly in deep blues and greens. The sky above is a living tapestry of shifting auroras, each feathered plume a conduit for the building's bio‑luminescent power grid. Rendered in photorealistic, tactile detail, grounded realism, fusing ancient Ethiopian/Egyptian aesthetics with incomprehensible advanced technology.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Monolithic sky‑house with basalt core, obsidian spire, glyph‑etched walls, quartz canopy, bio‑luminescent conduits, crystal sensor array, magnetic field generators, and auroral sky.",
+        "prompt_keywords": [
+          "skyhouse",
+          "ancient-tech",
+          "bioluminescent",
+          "glyphs",
+          "crystalline canopy"
+        ],
+        "prompt_block": "A towering sky‑house rising from a rugged plateau, monolithic basalt and obsidian structure 200 meters tall, its walls etched with luminous glyphs that pulse in sync with the planet's magnetic field. The roof is a vast translucent canopy of woven quartz that refracts sunlight into a living spectrum, while a crystal lattice sensor array at the apex projects the glyphs onto the walls. Weathered stone panels with embedded copper filaments and titanium alloy lattice reinforce the exterior. Bio‑luminescent conduits snake along the façade, glowing softly in deep blues and greens. The sky above is a living tapestry of shifting auroras, each feathered plume a conduit for the building's bio‑luminescent power grid. Rendered in photorealistic, tactile detail, grounded realism, fusing ancient Ethiopian/Egyptian aesthetics with incomprehensible advanced technology."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_LINE_1",
+    "name": "Line 1",
+    "type": "scene",
+    "aliases": [
+      "Line 1"
+    ],
+    "roles": [
+      "Sky",
+      "house",
+      "unknown",
+      "መዋዕል",
+      "ቤት",
+      "ወቀዳሚ",
+      "ወውእቱ",
+      "ዓለም"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1004",
+      "row_104",
+      "row_1041",
+      "row_1045",
+      "row_135",
+      "row_141",
+      "row_225",
+      "row_244",
+      "row_26",
+      "row_296",
+      "row_336",
+      "row_349",
+      "row_371",
+      "row_390",
+      "row_392",
+      "row_425",
+      "row_450",
+      "row_459",
+      "row_463",
+      "row_479",
+      "row_518",
+      "row_526",
+      "row_540",
+      "row_561",
+      "row_569",
+      "row_577",
+      "row_606",
+      "row_631",
+      "row_641",
+      "row_65",
+      "row_697",
+      "row_729",
+      "row_735",
+      "row_740",
+      "row_750",
+      "row_761",
+      "row_782",
+      "row_793",
+      "row_794",
+      "row_879",
+      "row_891",
+      "row_9",
+      "row_912",
+      "row_918",
+      "row_947",
+      "row_950"
+    ],
+    "occurrence_count": 46,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

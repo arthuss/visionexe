@@ -1,64 +1,106 @@
-CONCEPT: SYSTEM_EVENT_100 // KINSHIP_PROTOCOL_FAILURE & QUARANTINE_EXECUTION
+CONCEPT: SYSTEM_EVENT_100 // KINSHIP_PROTOCOL_FAILURE & RESOURCE_LOCKDOWN
+VERSION: 2.0 (REFINED MECHANISM)
 
-1. BIO-INJECTION (The Fratricide Glitch)
-Die Technologie manifestiert sich als viraler "Red-Flag-Fehler" in den IFF-Implantaten (Identification Friend or Foe) der Bevölkerung.
-Physisch: Die "Haut" der Akteure (synthetisches Gewebe) wird transparent und zeigt darunterliegende, überhitzte Leitungsbahnen, die von Blau (Neutral) auf Rot (Hostile) umschalten.
-Der "Nervenbrand" ist sichtbar als glühende, fraktale Lichtenberg-Figuren, die sich über die Gesichter ausbreiten, kurz bevor die Kognitionseinheit auf "Berserker-Modus" schaltet.
-Das "Blut" ist kein biologisches Fluid, sondern unkomprimierte "Raw Data" (rote Voxel-Partikel), die bei Beschädigung der Hülle massiv austreten und nicht verdunsten, sondern sich physikalisch anhäufen (Memory Leak).
+1. BIO-INJECTION (Hardware Stress Manifestation)
+Die Technologie manifestiert sich nicht als "Magie" auf der Haut, sondern als **THERMAL_THROTTLING_ARTIFACTS**.
+Physisch: Die synthetische Epidermis der Akteure ("Väter/Söhne") bekommt Risse (Micro-Fractures) durch Überhitzung. Darunter leuchtet kein "Feuer", sondern **CERAMIC_HEAT_SHIELDS**, die glühend weiß werden (1400°C).
+Das "Blut" ist **FERROFLUID_COOLANT**. Eine schwarze, ölige Flüssigkeit, die magnetische Spikes bildet, sobald sie austritt. Sie verhält sich nicht wie Wasser, sondern zieht sich an Metallflächen (Rüstung, Waffen) hoch.
+Der "Berserker-Modus" ist ein **RECURSIVE_KILL_LOOP**. Die Augen der Einheiten flackern im Takt der Prozessorauslastung (Strobe-Effect), während sie versuchen, Child-Prozesse (Söhne) zu terminieren, um Ressourcen freizugeben.
 
-2. MESH-BREAK (The Data Flood)
-Der "Blutstrom", der bis an die Brust der Pferde reicht, ist ein Buffer Overflow.
-Die Geometrie der Welt (Boden-Mesh) verliert ihre Kollisionsabfrage.
-Visual: Pferde und Streitwagen sinken nicht in Matsch, sondern "clippen" durch den Boden (noclip error).
-Die Texturen des Bodens lösen sich in Wireframes auf, weil der VRAM durch die Menge an "Blut-Daten" überlastet ist.
-Objekte (Wagen) vibrieren heftig (Physics Glitch), bevor sie durch die Map fallen.
+2. MESH-BREAK (The Collider Desync)
+Das Versinken von Pferd und Wagen ist kein einfacher "Matsch", sondern ein **COLLISION_MESH_FAILURE**.
+Die Physik-Engine des Bodens (Terrain-Collider) wird durch die Masse des Ferrofluids (Memory Leak) korrumpiert.
+Visual: Das visuelle Mesh (Boden) bleibt intakt, aber die Objekte interagieren nicht mehr korrekt damit.
+Die Pferde "zittern" (Jittering), weil die Engine zwischen "On Ground" und "Falling" nicht entscheiden kann.
+Die Wagenräder erzeugen Funken beim Durchdringen des Bodens (Z-Fighting), als würden sie durch ein Hologramm schneiden.
+Die "Flut" (Data Blood) hat eine extrem hohe Viskosität (Lag), was die Animationen der Pferde auf 50% Speed verlangsamt, während die Partikel in Realtime fliegen.
 
-3. PACING-STRATEGIE (Chaos to Stasis)
-Phase 1 (Krieg/Mord): Hektische "Shutter-Cuts" (1/48 Sekunde). Desorientierend. Fehlende Frames simulieren Lag.
-Phase 2 (Die Flut): Slow Motion / Variable Frame Rate. Das "Blut" fließt in Zeitlupe, während die Umgebung flackert.
-Phase 3 (Engel/Admin Ankunft): "Freeze Frame". Die Welt friert komplett ein. Die Kamera bewegt sich im "Bullet Time" Modus durch die erstarrte Szenerie.
-Phase 4 (Quarantäne): Sanfte, sterile Kamerafahrten (Dolly Zoom), die Sicherheit und Isolation suggerieren.
+3. PACING-STRATEGIE (The Frame-Drop Curve)
+Phase 1 (Recursion): Hektischer High-Speed-Schnitt. 60 FPS Input, aber visuelle Glitches (Tearing).
+Phase 2 (The Leak): Der "Blutstrom" steigt. Die Framerate der Welt (nicht der Kamera) droppt sichtbar auf 12 FPS (Stop-Motion-Look), um die Systemlast zu simulieren.
+Phase 3 (Admin Injection): Wenn die Engel kommen, wechselt das Bildformat abrupt (z.B. 2.39:1 auf 4:3), um den "Safe Mode" zu signalisieren.
+Phase 4 (Audit): Statische, symmetrische Kompositionen. Keine Bewegung ("Frost/Kälte"). Totale Stille.
 
-4. AUDIO-DESIGN (Industrial Purification)
-Keine Chöre.
-Der "Krieg" klingt wie übersteuerte digitale Verzerrung (Bit-Crushing) und hämmernde Metall-auf-Metall-Schläge.
-Das "Blut" erzeugt das Geräusch von statischem Rauschen (White Noise) gemischt mit Flüssigkeits-Gurgeln.
-Die Ankunft des "Höchsten" (System Root) ist ein Frequenz-Drop in den Infraschall-Bereich (Sub-Bass), der alle anderen Geräusche "mutet" (Sidechain Compression). Stille, unterlegt mit einem tiefen Server-Hummen.
+4. AUDIO-DESIGN (The Server Room)
+Keine Schreie, keine Musik.
+Der Kampf klingt wie **HDD_SEEK_NOISE**. Ein rhythmisches, metallisches Klicken und Kratzen von Leseköpfen, die Sektoren nicht finden.
+Das "Blut" (Ferrofluid) erzeugt ein tiefes, magnetisches Brummen (50Hz Hum).
+Die Ankunft der Engel/Admins ist das Geräusch hochfahrender **TURBINE_FANS** (Jet Engine Whine), das alle anderen Sounds übertönt (Cooling Override).
+Der "Frost" am Ende ist das absolute "Zero-Noise-Floor" eines schalltoten Raums.
 
-5. ÜBERGÄNGE (Transition Logic)
-Normal -> Tech: "Datamoshing". Die Pixel des vorherigen Frames bleiben stehen und werden von der Bewegung des nächsten Frames "verschmiert".
-Battlefield -> Secret Place: "Terminal Window Zoom". Ein schwarzes Rechteck öffnet sich in der Mitte des Bildes und erweitert sich schlagartig auf Vollbild.
-Abtransport der Gerechten: "De-Resolution". Die Figuren lösen sich in vertikale Lichtstreifen auf (Beaming) und setzen sich im neuen Set wieder zusammen.
+5. ÜBERGÄNGE (Layer Isolation)
+Normal -> Tech: **WIREFRAME_OVERLAY**. Die Texturen werden kurz transparent, man sieht das Drahtgittermodell der Welt, dann "schnappt" die Tech-Realität darüber.
+Battle -> Secret Place: **LOD_POPPING**. Die Kamera zoomt nicht, sondern die Umgebung "lädt" sich um die Akteure herum neu (High-Res Assets poppen plötzlich rein).
+Quarantine: **ALPHA_MASKING**. Betroffene Areale werden schwarz-weiß entsättigt, nur die "Gerechten" behalten Farbinformation (RGB).
 
 6. FRAMEWORK & TIMING
 Total: 60 Sekunden.
-Target: 16 Clips (um komplexe Handlungsabläufe darzustellen).
-Puffer: 2-3 Clips für B-Roll (Detailaufnahmen von "Blut", Augen, HUDs).
-Kein klassischer Dialog. Kommunikation erfolgt über HUD-Overlays und Glyphen-Projektionen.
+Target: 18 Clips (erhöhte Dichte für die Detailtiefe der Zerstörung).
+Struktur:
+- 00-20s: The Fratricide (Recursive Kill Loop).
+- 20-40s: The Leak (Ferrofluid Flood & Mesh Break).
+- 40-50s: Admin Injection (Quarantine).
+- 50-60s: Environmental Lock (Audit/Frost).
 
 7. DIALOG-CHECK
-Kein verbaler Dialog.
-Die "Weisen", die das Buch verstehen, interagieren mit holografischen Terminals.
-Wir nutzen "Point of View" (POV) Shots, um zu zeigen, was sie lesen (Scrolling Code), statt sprechende Köpfe zu zeigen.
+Kein gesprochener Dialog.
+Kommunikation erfolgt über **ERROR_LOGS** im HUD.
+Shot-Reverse-Shot wird ersetzt durch **MACRO_INSPECTION**:
+Shot A: Weitwinkel auf die Szene.
+Shot B: Extreme Close-Up auf das "Auge" eines Engels, in dessen Reflexion wir den Scan-Vorgang sehen (Scrolling Hex-Code).
 
-8. SPATIAL CONTEXT (Node Hopping)
-Die Engel (Admins) kommen nicht vom "Himmel", sie materialisieren sich aus dem "Nichts" (Spawn Points).
-Die "Geheimen Orte" (Storehouses) sind Server-Farmen oder Reinräume (Clean Rooms) unter der Oberfläche.
-Establishing Shot für die Ankunft: Orthografische Ansicht von oben (Satellite View), die zeigt, wie rote Bereiche (Sünder) von weißen Barrieren (Firewalls) isoliert werden.
+8. SPATIAL CONTEXT (Node Injection)
+Die Engel kommen nicht von "oben". Sie werden **INSTANZIIERT**.
+Effekt: Ein vertikaler Laser-Scan (grün) tastet den Raum ab, und in den gescannten Bereichen wird die Geometrie des Engels "gedruckt" (3D-Print-Effekt in Millisekunden).
+Die "Verborgenen Orte" sind **SERVER_RACKS**. Endlose Reihen von schwarzen Monolithen mit blinkenden Status-LEDs, in die die "Sünder" (korrupte Files) gepackt werden.
 
-9. PROMPT BEISPIEL (Scene: The Horse in the Data Flood)
+9. PROMPT BEISPIELE (Scene Sequence Breakdown)
 
+**SCENE: THE RECURSIVE KILL (VERSES 1-3)**
+
+**Shot 1: The Parent Process (Father) attacking Child (Son)**
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Heavy_Unit_Cavalry (System Entity). **Physique:** Synthetic biomechanical horse, muscular build overlaid with matte-black carbon fiber plating. Exposed hydraulics at joints. **Status:** `CRITICAL_ERROR`. **Optics:** Wide, panicked eyes emitting flickering red strobe lights. **Action:** The entity is struggling to move forward, legs heavy, movement sluggish due to environmental resistance.
+> **Actor:** Unit_Alpha_Father (Process ID 01). **Physique:** Heavy armored combat frame, ceramic plates glowing white-hot at edges due to thermal throttling. **Face:** Faceplate cracked open, revealing raw silicon circuitry and leaking black oil. **Action:** Raising a heavy kinetic hammer, striking downwards in a repetitive, glitching loop (animation resets every second).
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** Rider is a disintegrated silhouette of a warrior, armor plating fused with the mount. **Prop:** `GLITCH_CHARIOT`. A partially rendered geometric vehicle attached to the rear, wheels are square polygons rotating awkwardly, sinking into the ground mesh.
+> **Gear:** Rusted industrial exoskeleton. **Prop:** `KILL_HAMMER`. A massive piston-driven weapon dripping with `FERROFLUID`. **VFX:** Black magnetic liquid splashes from the impact point, freezing in mid-air into sharp spikes.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Battle_Sector_Alpha (Corrupted). **Terrain:** The ground plane is invisible, replaced by a volumetric ocean of `DATA_BLOOD`. **Substance:** A viscous, glowing crimson liquid composed of millions of tiny floating cubes (voxels) and binary code strings. Depth is chest-high to the horse. **Background:** Wireframe mountains flickering in and out of existence against a pitch-black sky void.
+> **Location:** Valley_of_Termination. **Terrain:** Ground is invisible collision mesh. Debris floats slightly above the floor. **Atmosphere:** Air is filled with "digital ash" (dead pixels).
 
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `SYSTEM_FAILURE_RED`. Primary: Intense red bioluminescence emitting from the fluid itself. Secondary: Cold, harsh white strobe flashes from above (Admin Scan). **Palette:** Crimson Red, Void Black, Static White. **Atmosphere:** Heavy digital distortion, pixelation around the edges of the frame.
+**[BLOCK 4: LIGHTING_&_CINEMATOGRAPHY]**
+> **Lighting:** `ERROR_RED` emergency strobes. **Camera:** Handheld chaos, aggressive shake. **Lens:** 24mm wide. **Style:** Unreal Engine 5, gritty industrial sci-fi.
 
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Low Angle, Tracking Shot (side view). Moving parallel to the horse. **Lens:** 35mm Distorted. **Focus:** Sharp on the horse's chest ploughing through the red voxels. **Aperture:** f/2.8. **Style:** High-end CGI cinematic, Cyberpunk horror aesthetic, Unreal Engine 5 Nanite visualization, particle physics focus, glitch art post-processing.
+**Shot 2: The Ferrofluid Flood (The Horse)**
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Mount_Unit_09 (Mechanical Horse). **Physique:** Stripped chassis, hydraulics exposed. **Status:** Stuck. Legs are submerged up to the chest in black liquid.
+
+**[BLOCK 2: ENVIRONMENT_&_FLUID_DYNAMICS]**
+> **Substance:** `DATA_BLOOD` (Ferrofluid). Thick, black, reflective oil that creates fractal spike patterns where it touches the horse's hot metal skin. **Physics:** The horse pushes forward, but moves in slow motion due to fluid viscosity (drag coefficient).
+
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Low angle, tracking alongside the horse at fluid level. **Focus:** Sharp on the interaction between the oil and the metal chest.
+
+**SCENE: THE ADMIN INJECTION (VERSES 4-5)**
+
+**Shot 3: The Scan (Arrival)**
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Admin_Uriel (System Angel). **Physique:** Androgynous avatar made of pure fiber-optic glass strands. No skin, just light transmission.
+
+**[BLOCK 2: ACTION_&_TRANSITION]**
+> **Action:** Materializing from a vertical green laser scan line. The avatar is being "printed" layer by layer into the scene. **Pose:** Hovering in T-Pose (Default Bind Pose) before animating.
+
+**[BLOCK 3: ENVIRONMENT]**
+> **Location:** Above the battlefield. **Background:** The sky turns into a black grid (Wireframe view).
+
+**SCENE: THE ENVIRONMENT AUDIT (VERSES 10-13)**
+
+**Shot 4: The Withholding (Drought/Frost)**
+**[BLOCK 1: ENVIRONMENT_MACRO]**
+> **Subject:** Environmental_Cooling_Pipes (The Rain). **Action:** Massive industrial pipes in the sky (clouds) suddenly shut close. Valves spin shut. Rust falls.
+
+**[BLOCK 2: ATMOSPHERE_CHANGE]**
+> **Effect:** Instant flash freeze. The black ferrofluid on the ground turns into matte gray static (Ice). The air fills with suspended ice crystals that form QR-code fragments.
+
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Static tripod shot. Zero movement. **Lighting:** Cold, clinical blue laboratory light (5000K). **Style:** Sterile, oppressive silence.

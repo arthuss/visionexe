@@ -1,0 +1,92 @@
+{
+  "id": "SETENV_GATE_AND_HOUSE",
+  "name": "Gate and House",
+  "type": "set_environment",
+  "card": {
+    "description": "A monumental stone gate, carved from basalt and obsidian, rises from a sun‑bleached courtyard to a modest house whose walls are a seamless blend of ancient Ethiopian and Egyptian motifs and advanced crystalline technology. The gate’s archways are etched with luminous glyphs that pulse with bioluminescent energy, while hidden conduits snake through the stone, channeling power from a network of solar panels disguised as hieroglyphic panels on the house’s façade. The house itself is a low‑profile structure of weathered limestone, its roof punctuated by crystalline panels that refract light into a soft, otherworldly glow. The entire environment exudes a grounded realism, with dust motes dancing in shafts of late afternoon light, and the subtle hum of unseen machinery resonating beneath the stone.",
+    "tags": [
+      "ancient-tech",
+      "industrial-mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "stone",
+      "crystalline",
+      "bioluminescent",
+      "photorealistic",
+      "grounded"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Massive basalt gate with a double arch, reinforced with obsidian ribs; a low stone house with limestone walls, a flat roof, and a central courtyard.",
+      "**Face/Sensors:** Glyph panels embedded in the gate’s façade glow with a soft blue bioluminescence; sensor arrays hidden in the house’s stonework detect ambient light and temperature, adjusting crystalline panels accordingly.",
+      "**Clothing/Armor:** The gate’s stone is coated with a weathered, dust‑laden patina that protects against erosion; the house’s walls are lined with a thin layer of translucent, heat‑resistant glass that mimics ancient stone.",
+      "**Key Features:** Integrated crystalline conduits running through the gate, luminescent glyphs that pulse in sync with energy flow, solar panels disguised as hieroglyphic panels on the house, a central courtyard with a stone basin that channels water into a hidden filtration system."
+    ],
+    "evolution": [
+      "Phase 1 (Construction): The gate and house are erected from quarried basalt and limestone, with initial glyphs carved by hand and crude metal conduits installed.",
+      "Phase 2 (Activation): Advanced crystalline hardware is integrated, glyphs become bioluminescent, and solar panels are activated, transforming the structure into a self‑sustaining, mystical hub."
+    ],
+    "props": [
+      "Item: Runic Control Panel – a brass and obsidian console embedded in the gate’s base, used to modulate energy flow.",
+      "Item: Solar Array Panels – panels disguised as stone slabs on the house’s roof, each containing micro‑crystalline cells."
+    ],
+    "prompt_keywords": [
+      "ancient gate",
+      "Ethiopian",
+      "Egyptian",
+      "crystalline",
+      "bioluminescent",
+      "industrial",
+      "photorealistic",
+      "grounded realism"
+    ],
+    "prompt_block": "A colossal basalt gate with obsidian ribs, carved with luminous Ethiopian and Egyptian glyphs that pulse with bioluminescent light, leading to a modest limestone house whose roof is covered in solar panels disguised as hieroglyphic stone slabs; the entire scene is rendered photorealistically with dust motes in late afternoon light, showcasing a grounded industrial mysticism that blends ancient aesthetics with incomprehensible technology.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The gate and house in their fully activated, photorealistic state with bioluminescent glyphs and crystalline panels.",
+        "prompt_keywords": [
+          "ancient gate",
+          "Ethiopian",
+          "Egyptian",
+          "crystalline",
+          "bioluminescent",
+          "industrial",
+          "photorealistic",
+          "grounded realism"
+        ],
+        "prompt_block": "Render a massive basalt gate with obsidian ribs, its archways etched in glowing Ethiopian and Egyptian glyphs that pulse with bioluminescent light, leading to a modest limestone house whose roof is covered in solar panels disguised as stone hieroglyphs; the scene is lit by late afternoon sun, with dust motes floating, showcasing a grounded, industrial mysticism that fuses ancient aesthetics with advanced crystalline technology."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_GATE_AND_HOUSE",
+    "name": "Gate and House",
+    "type": "set_environment",
+    "aliases": [
+      "Gate and House"
+    ],
+    "roles": [],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_838"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 90,
+        "chapter_end": 90,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

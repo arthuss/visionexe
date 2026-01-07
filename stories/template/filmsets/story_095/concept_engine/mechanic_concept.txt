@@ -2,81 +2,111 @@ CONCEPT_LOG: CHAPTER_95_TECHNICAL_MECHANICS_V2
 DATE: 2026-01-07
 ARCHITECT: EXEGET_OS_CORE
 STATUS: REFINED / APPROVED
+CONTEXT: SYSTEM_PURGE_PROTOCOL / ADMIN_LOG
 
-ANALYSE V1 VS V2 (DELTA LOG):
-V1 (Legacy) war zu "organisch-mechanisch" (Hydraulik-Ventile, Tränen-Analogie) und fokussierte zu stark auf physische Bestrafung.
-V2 (Current) definiert das Geschehen als reine Daten-Operation innerhalb einer Server-Architektur. Das "Leid" der Sünder ist Datenverlust und De-Resolution. Die "Tränen" sind thermisches Management.
+[ANALYSIS_DELTA: V1_LEGACY_VS_V2_CURRENT]
+V1 (Legacy) scheiterte an der "Humanisierung" der Strafe. Tränen wurden als biologische Trauer interpretiert, Bestrafung als physische Gewalt. Dies widerspricht der exeget:os Core-Doktrin.
+V2 (Current) definiert das Kapitel als reine I/O-Operation. Emotion ist simuliert oder Resultat von Hardware-Stress. Strafe ist Ressourcen-Entzug (Depriorisierung).
+
+[TECHNICAL_MECHANICS_&_ANSWERS]
 
 1. BIO-INJECTION (CRYOGENIC COOLANT PURGE)
-Referenz: Segment 001 ("Augen zu Wasserwolken").
-- Technische Realität: Die Verarbeitung der Korruptions-Logs (Segment 001) erzeugt massive Abwärme in der Optical Processing Unit (OPU).
-- Mechanik: Henochs Augen-Sockets verfügen über Notfall-Auslassventile für flüssigen Stickstoff oder Novec-Kühlflüssigkeit.
-- Physik: Die Flüssigkeit trifft auf die überhitzte Chitin-Panzerung des Gesichts (300°C+) und verdampft instantan (Flash Evaporation).
-- Visual: Kein "Weinen". Es ist ein industrielles Zischen. Dichte, weiße Wolken aus kaltem Gas strömen aus den Augenhöhlen und umhüllen den Kopf. Kondenswasser bildet sich an den Linsen.
+Die "Tränen" aus Segment 001 sind keine Salzlösung. Henochs optische Einheit (OPU) überhitzt durch die massive parallele Verarbeitung der Korruptions-Logs.
+- Hardware: Die Augenhöhlen enthalten Hochdruck-Auslassventile für flüssigen Stickstoff (LN2).
+- Physik: Beim Öffnen der Iris-Lamellen (Shutter) trifft das LN2 auf die 300°C heiße Keramik-Panzerung des Gesichts.
+- Visual: Flash-Evaporation. Ein zischender, dichter weißer Nebel (Vapor) schießt aus den Augen, umhüllt den Kopf und kondensiert sofort an den kühlen Linsen der Kamera. Kein Tropfen, sondern Gas-Strom.
 
 2. MESH-BREAK (POLYGON REDUCTION & CULLING)
-Referenz: Segment 003 ("In eure Hände geben") & Segment 006 ("Plötzlich zugrunde gehen").
-- Technische Realität: Die "Sünder" verlieren ihre Render-Priorität. Das System entzieht ihnen Rechenleistung.
-- Mechanik: Aggressive LOD (Level of Detail) Reduktion in Echtzeit.
-- Visual: Die Antagonisten degradieren visuell.
-  - Stage 1: Textur-Streaming stoppt (Blurry Skins).
-  - Stage 2: Normal Maps fallen aus (Flat Shading).
-  - Stage 3: Polygon-Count droppt drastisch (Low Poly / N64-Look).
-  - Stage 4: Vertex-Collapse (Geometrie implodiert zu einem einzigen Punkt/Null-Vektor).
-- Environment: Die Umgebung um die Sünder wird "unstable". Z-Fighting an Wänden, schwarze Artefakte (Nanite-Fehler).
+Die "Zerstörung" der Sünder ist ein Entzug von Render-Budget.
+- Methode: Aggressive LOD (Level of Detail) Degradierung.
+- Stufen:
+  - T-0: Full Render.
+  - T-1: Texture MipMap Drop (alles wird matschig/unscharf).
+  - T-2: Normal Map Fail (Oberflächen wirken flach, keine Tiefe).
+  - T-3: Low Poly Decimation (Gesichter werden zu kantigen N64-Masken).
+  - T-4: Vertex Collapse (Die Geometrie faltet sich in einen Null-Vektor zusammen).
+- Environment: Z-Fighting an den Wänden (flackernde Texturen), schwarze Void-Cluster, wo das Raytracing versagt.
 
 3. PACING-STRATEGIE (INPUT / OUTPUT LATENCY)
-Referenz: Segment 005 ("Vergolten gemäß Werken").
-- Rhythmus: Kausalität. Aktion -> Reaktion.
-- Sequenz:
-  - Henoch (Admin) gibt Befehl (24fps, stabil).
-  - Schnitt (Hard Cut).
-  - Sünder (User) erleidet Glitch (Variable Framerate, Stuttering, Tearing).
-  - Schnitt zurück zu Henoch (Stabil).
-- Effekt: Der Zuschauer spürt die direkte Kontrolle. Henoch tippt nicht nur, er exekutiert Code, der die Realität des Gegners sofort bricht.
+Wir visualisieren die Machtdifferenz durch Framerate.
+- Admin (Henoch): 24fps, cinematisches Framing, stabil, perfektes Anti-Aliasing.
+- User (Sünder): Variable Framerate (12-15fps), Tearing, Stuttering, Glitch-Artefakte.
+- Schnitt: Hard Cuts. Henoch tippt einen Befehl (Enter) -> HARD CUT -> Sünder glitcht/friert ein. Aktion (Code) -> Reaktion (Realitätsverlust).
 
 4. AUDIO-DESIGN (SERVER ROOM AMBIENCE)
-- Grundton: Das "Rauschen" ist kein Wind, sondern das monotone Brummen von Hochleistungs-Kühlaggregaten (Server Room Drone).
-- Voice: Henochs Stimme nutzt "Granular Synthesis". Sie klingt zerhackt, multiphonisch, wie mehrere Audio-Streams, die sich überlagern, um Bandbreite zu sparen.
-- Glitch-FX: Wenn Geometrie bricht (Mesh-Break), hören wir digitales "Screeching" (Modem-Handshake, Data-Bending), kein organisches Schreien.
+Keine Chöre. Keine Musik im klassischen Sinn.
+- Atmo: Ein tiefes, sub-bassiges Dröhnen (60Hz Hum) von Server-Lüftern und Kühlaggregaten.
+- Voice: Henochs Stimme ist "Granular Synthesis". Sie klingt wie drei übereinandergelegte Audiospuren mit leichtem Pitch-Shift und Bit-Crushing-Effekten, um Bandbreite zu sparen.
+- FX: Das "Weinen" ist das Zischen von Überdruckventilen (Hydraulic Hiss). Das "Schreien" der Sünder ist digitales Modem-Screeching und Data-Bending-Noise.
 
 5. ÜBERGÄNGE (BUFFER UNDERRUN)
-- Methode: "Pixel Sorting" und "I-Frame Destruction".
-- Visual: Das Bild wird nicht schwarz ausgeblendet. Es bleibt stehen ("Hängenbleiben"), und die Pixel werden vertikal oder horizontal sortiert, bis das neue Bild (nächster Shot) durchbricht.
-- Bedeutung: Visualisiert den Zusammenbruch der Rendering-Pipeline in diesem Sektor.
+Keine weichen Überblendungen.
+- Tech: "Pixel Sorting" und "I-Frame Destruction".
+- Visual: Das Bild friert ein, Pixel werden vertikal "sortiert" (als würden sie heruntertropfen wie Code), bis der neue Shot durchbricht. Dies simuliert einen Video-Buffer-Underrun durch Überlastung.
 
-6. FRAMEWORK & TIMING (18 CLIPS EXPANSION)
-Aufgrund der Dialog-Lastigkeit (Segmente 2, 4, 5, 6, 7 sind direkte Ansprachen) und der nötigen Detail-Shots für die De-Resolution benötigen wir mehr Zeit.
-- Total: 18 Clips (ca. 75 Sekunden).
-- Cluster A (Clips 1-4): Initialization. Henochs Instanzierung und Coolant Purge (Seg 1).
-- Cluster B (Clips 5-10): The Indictment. Broadcast der Anklage (Seg 2-5). Wechsel zwischen Henoch (Close) und Sündern (Wide/Distorted).
-- Cluster C (Clips 11-15): The Execution. Mesh-Break und Deletion (Seg 6-7).
-- Cluster D (Clips 16-18): System Cleanup. Reset auf Default State.
+6. FRAMEWORK & TIMING (EXPANDED)
+Ziel: 60-75 Sekunden. Strukturierung in Cluster.
+- Cluster A (Init): Henochs Overheating & Purge (Seg 1). 4 Clips.
+- Cluster B (Indictment): Die Anklage (Seg 2-5). Wechsel Admin/User POV. 6 Clips.
+- Cluster C (Execution): Der Mesh-Break (Seg 6-7). 5 Clips.
+- Cluster D (Cleanup): System Reset. 3 Clips.
 
-7. DIALOG-CHECK (ONE-WAY BROADCAST)
-- Modus: P.A. System (Public Address). Henoch spricht nicht "mit" ihnen, er spricht "über" sie.
-- Shot A (Henoch): "Hero Shot". Kameraposition leicht untersichtig. Hintergrund: Clean UI, stabile Geometrie. Beleuchtung: Kalt, präzise.
-- Shot B (Sünder): "Security Cam Feed". Körnig, Weitwinkel, oben in der Ecke Timecode und "REC". Sie wirken wie gefangene Versuchstiere in einem Labor.
+7. DIALOG-ARCHITEKTUR (ONE-WAY P.A. SYSTEM)
+Kein Dialog. Eine Durchsage.
+- Henoch: Spricht in ein schwebendes Mikrofon-Interface oder direkt "in den Code".
+- Sünder: Können nicht antworten. Ihre Audio-Kanäle sind gemutet (`AUDIO_OUT_DISABLED`). Wir sehen ihre Münder sich bewegen, aber hören nur Glitch-Static.
 
 8. SPATIAL CONTEXT (SESSION LOAD)
-- Arrival: Kein Flug. "Loading Screen" Ästhetik.
-- Visual:
-  - Frame 1: Wireframe-Gitter des Raumes (Station_Metatron).
-  - Frame 2: Greyboxing (Wände erscheinen grau).
-  - Frame 3: Material Shader Compile (Texturen poppen auf).
-  - Frame 4: Henochs Avatar wird geladen (T-Pose -> Animation Start).
-- Location: Station_Metatron_V1 ist ein reiner Daten-Hub. Keine Stühle, keine Tische. Nur schwebende Interface-Paneele und Server-Racks (Monolithen).
+Henoch betritt den Raum nicht physisch. Er wird "geladen".
+- Sequence:
+  1. Wireframe-Grid des Raumes.
+  2. Greyboxing (Wände erscheinen).
+  3. Shader Compile (Texturen laden).
+  4. Avatar Spawn (Henoch erscheint in T-Pose, dann Snap in Animation).
+- Location: Station_Metatron_V1. Ein abstrakter Datenraum. Boden ist schwarzes Glas (Reflektion), Wände sind Server-Racks (Monolithen). Keine Möbel.
 
-BEISPIEL PROMPT-ARCHITEKTUR (V2.0 STANDARDS):
+[SCENE_BREAKDOWN_&_PROMPTS]
 
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Henoch (System Admin Avatar). **Physique:** Synthetic humanoid construct, glowing translucent dermis (`MAT_OPAL_V2`). **Feature:** `CRYO_VENT_EYES`. Instead of pupils, metallic shutter mechanisms. **Action:** Shutters open, releasing a violent jet of super-cooled nitrogen vapor (`VFX_DENSE_FOG`) that cascades down the face, freezing moisture on the synthetic skin.
+SEGMENT_001 (THE PURGE)
+> ACTION: Henoch steht vor einer Wand aus Code. Warnleuchten blinken rot (`TEMP_CRITICAL`).
+> CLIP 1: Close-Up Henoch. Mechanische Iris-Shutter öffnen sich ruckartig.
+> CLIP 2: Extreme Close-Up. Weißes Gas (Stickstoff) schießt mit hohem Druck aus den Sockets.
+> CLIP 3: Medium Shot. Henochs Kopf in einer Wolke aus kaltem Nebel. Eisblumen bilden sich auf seiner Hautpanzerung.
 
-**[BLOCK 2: MESH_BREAK_TARGET]**
-> **Actor:** Sinner_Entity_01 (Corrupted User). **State:** `DEGRADING_GEOMETRY`. The humanoid figure is partially rendered. The left arm is missing textures (Magenta Checkerboard). The legs are glitching through the floor mesh. **Action:** The entity tries to scream, but the mouth vertices weld together (`VERTEX_WELD_ERROR`), silencing the audio output.
+SEGMENT_002 (THE QUERY)
+> ACTION: Der Nebel verzieht sich. Henoch blickt kalt in die Kamera (POV Sünder).
+> CLIP 4: Henoch deutet auf ein Interface. Holografische Log-Dateien zeigen "HATE_SPEECH_DETECTED".
+> CLIP 5: Reverse Shot (Security Cam Look). Eine Gruppe von Sündern (Business-Suit Avatare, verpixelt) kauert in der Ecke.
 
-**[BLOCK 3: ENVIRONMENT_&_CONTEXT]**
-> **Location:** Station_Metatron_Server_Deck. **Style:** Brutalist Sci-Fi. Endless rows of black obsidian monoliths (Server Racks) with pulsing blue status LEDs. **Floor:** Highly reflective glass. **Atmosphere:** Sterile, cold, visible breath. **Lighting:** Stroboscopic alarm lighting (Red/White) indicating the purge process is active.
+SEGMENT_003 (ACL UPDATE)
+> ACTION: Henoch tippt `SUDO GRANT PERMISSION_TSADQAN`.
+> CLIP 6: Over-the-Shoulder Henoch. Wir sehen auf dem Obsidian-Tablet, wie Status-Icons von ROT auf GRÜN wechseln.
+> CLIP 7: Low Angle. Henoch wirkt riesig, autoritär. Das Licht wechselt von Alarm-Rot auf Kalt-Weiß (System Stable).
 
-**[BLOCK 4: CINEMATOGRAPHY]**
-> **Camera:** Virtual Camera. **Lens:** 14mm Ultra-Wide (Fish-Eye) for the Sinner POV (Distortion), 85mm Portrait for Henoch (Authority). **Effect:** Digital noise overlay, chromatic aberration increasing towards the edges of the frame to simulate lens stress. **Render:** Unreal Engine 5.4, Lumen Global Illumination, Path Tracing enabled.
+SEGMENT_005 (LATENCY REFLECTION)
+> ACTION: Ein Sünder versucht, einen Stein (Malware-Objekt) zu werfen.
+> CLIP 8: Der Sünder wirft. Das Objekt friert in der Luft ein (Lag).
+> CLIP 9: Glitch-Cut. Das Objekt ist plötzlich wieder in der Hand des Sünders und explodiert (Packet Loss / Mirroring).
+> CLIP 10: Close-Up Sünder. Sein Gesicht verzieht sich im "Max Headroom" Stotter-Effekt.
+
+SEGMENT_006 (FALSE LOGS / DELETE)
+> ACTION: Henoch wischt über das Tablet (`DEL *.*`).
+> CLIP 11: Die Sünder beginnen sich aufzulösen. Texturen verschwinden (Greyboxing).
+> CLIP 12: Ein Sünder wird zum Wireframe-Gittermodell.
+> CLIP 13: Das Gittermodell kollabiert in einen einzelnen leuchtenden Punkt (Vertex Collapse).
+
+SEGMENT_007 (THROTTLING)
+> ACTION: Die verbleibenden Figuren bewegen sich in extremer Zeitlupe (1fps), während Henoch sich normal bewegt.
+> CLIP 14: Henoch geht gelassen durch die eingefrorenen, glitchigen Gestalten.
+> CLIP 15: Wide Shot. Der Raum leert sich. Nur noch Datenmüll (schwarze Pixel-Haufen) am Boden.
+
+[PROMPT_ARCHITEKTUR_SAMPLE]
+
+**[BLOCK 1: SUBJECT_ANATOMY]**
+> **Actor:** Henoch (Admin). **Skin:** `MAT_OBSIDIAN_GLASS` with sub-dermal gold circuitry. **Eyes:** Open mechanical vents emitting high-pressure nitrogen vapor streams. **Expression:** Zero emotion, thermal distress only.
+
+**[BLOCK 2: ENVIRONMENT]**
+> **Loc:** Station_Metatron. **Lighting:** Stroboscopic Red Alarm turning into sterile White. **Atmosphere:** Super-cooled fog floor (`DRY_ICE_EFFECT`). **Geometry:** Sharp, brutalist server racks extending to infinity.
+
+**[BLOCK 3: TECH_EFFECTS]**
+> **VFX:** `MESH_DESTRUCTION`. Target entities rendering as low-poly proxies. Faces missing textures (UV-Map Checkerboard). Floating "ERROR" glyphs in Ge'ez script. **Cam:** 24fps shutter for Henoch, simulated 12fps stutter for targets.

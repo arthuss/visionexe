@@ -1,0 +1,93 @@
+{
+  "id": "SCENE_PRAISING_WERIWA",
+  "name": "Praising Weriwa",
+  "type": "scene",
+  "card": {
+    "description": "Praising Weriwa is a monumental ritual chamber carved from obsidian stone, where ancient Ethiopian-Egyptian mysticism converges with incomprehensible technology. The vaulted room is dominated by a basalt dais, surrounded by towering crystalline conduits that pulse with bioluminescent light. Intricate glyphs etched into the walls shift subtly, reacting to presence and channeling energy into a hovering obelisk of translucent quartz that floats above a polished obsidian altar. The scene exudes grounded realism, tactile stone textures, and a low, warm glow that highlights the interplay of ancient craftsmanship and advanced, crystalline hardware.",
+    "tags": [
+      "ancient-tech",
+      "industrial-mysticism",
+      "Ethiopian-Egyptian",
+      "ritual-chamber",
+      "photorealistic",
+      "bioluminescent",
+      "crystalline"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** A vast, vaulted chamber carved from obsidian stone with a central basalt dais and towering crystalline conduits.",
+      "**Face/Sensors:** Embedded glyphic panels along the walls glow with bio‑luminescent glyphs that shift in response to presence, acting as reactive sensors.",
+      "**Clothing/Armor:** —",
+      "**Key Features:** A floating obelisk of translucent quartz hovering above a polished obsidian altar; crystalline conduits pulsing with light; shifting glyphs etched into stone."
+    ],
+    "evolution": [
+      "Phase 1 (Default): The chamber remains in its original state, with ambient bioluminescence, subtle glyph shifts, and a hovering obelisk."
+    ],
+    "props": [
+      "Item: Obsidian altar with embedded quartz crystal",
+      "Item: Floating obelisk of translucent quartz",
+      "Item: Array of crystalline conduits",
+      "Item: Glyph‑etched stone tablets"
+    ],
+    "prompt_keywords": [
+      "obsidian",
+      "crystalline",
+      "bioluminescent",
+      "glyphs",
+      "Ethiopian",
+      "Egyptian",
+      "ancient-tech",
+      "industrial-mysticism"
+    ],
+    "prompt_block": "A photorealistic, cinematic depiction of the Praising Weriwa chamber: a vast vaulted obsidian stone room with a central basalt dais, surrounded by towering crystalline conduits pulsing with bioluminescent light, intricate Ethiopian‑Egyptian glyphs etched into the walls that shift subtly, a floating obelisk of translucent quartz hovering above a polished obsidian altar, all bathed in a low, warm glow that highlights the tactile textures of stone and crystal, grounded realism with industrial mysticism",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The chamber in its original, unaltered state.",
+        "prompt_keywords": [
+          "obsidian",
+          "crystalline",
+          "bioluminescent",
+          "glyphs",
+          "Ethiopian",
+          "Egyptian",
+          "ancient-tech",
+          "industrial-mysticism"
+        ],
+        "prompt_block": "A photorealistic, cinematic depiction of the Praising Weriwa chamber: a vast vaulted obsidian stone room with a central basalt dais, surrounded by towering crystalline conduits pulsing with bioluminescent light, intricate Ethiopian‑Egyptian glyphs etched into the walls that shift subtly, a floating obelisk of translucent quartz hovering above a polished obsidian altar, all bathed in a low, warm glow that highlights the tactile textures of stone and crystal, grounded realism with industrial mysticism"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_PRAISING_WERIWA",
+    "name": "Praising Weriwa",
+    "type": "scene",
+    "aliases": [
+      "Praising Weriwa"
+    ],
+    "roles": [
+      "unknown"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_293"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 43,
+        "chapter_end": 43,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

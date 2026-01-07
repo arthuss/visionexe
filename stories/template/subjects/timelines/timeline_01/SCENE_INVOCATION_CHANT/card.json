@@ -1,0 +1,103 @@
+{
+  "id": "SCENE_INVOCATION_CHANT",
+  "name": "Invocation Chant",
+  "type": "scene",
+  "card": {
+    "description": "A dimly lit subterranean chamber carved from basalt, its walls etched with luminous glyphs that pulse in sync with a high priest's chant. The priest, draped in a flowing robe woven from obsidian silk and studded with iridescent crystal filaments, holds a staff that channels bio‑luminescent energy into a central obelisk. The obelisk's crystalline core refracts the chant's vibrations into a kaleidoscope of light, while ancient Ethiopian and Egyptian motifs—hieroglyphic spirals, lotus crowns, and the sun disk—merge with unseen circuitry etched into the stone. The scene is rendered photorealistically, with tactile textures of worn stone, slick silk, and the subtle glow of hidden technology.",
+    "tags": [
+      "ritual",
+      "ancient-tech",
+      "industrial mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "photorealistic",
+      "bio-luminescence",
+      "crystalline",
+      "glyphs",
+      "ceremony"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Tall, gaunt figure in obsidian silk robes, elongated limbs, slight muscular build, posture rigid and reverent.",
+      "**Face/Sensors:** Face partially veiled, silver ocular implant glowing faintly, interfacing with the chant device.",
+      "**Clothing/Armor:** Robe embroidered with gold thread, embedded translucent crystal filaments, hooded, belt of braided copper wire.",
+      "**Key Features:** Ceremonial staff with crystal tip emitting soft blue glow, obelisk with crystalline core, luminous glyphs on walls, bio‑luminescent veins along forearms."
+    ],
+    "evolution": [
+      "Phase 1 (Initiation): The priest raises the staff, glyphs flicker, obelisk hums as the chant begins.",
+      "Phase 2 (Amplification): The chant intensifies, glyphs blaze, obelisk pulses, walls vibrate with energy."
+    ],
+    "props": [
+      "Obelisk with crystalline core",
+      "Ceremonial staff with crystal tip",
+      "Ancient scroll with glyphs",
+      "Bio‑luminescent wristband"
+    ],
+    "prompt_keywords": [
+      "ancient",
+      "Ethiopian",
+      "Egyptian",
+      "ritual",
+      "crystalline",
+      "glyphs",
+      "bio-luminescence",
+      "industrial mysticism",
+      "photorealistic",
+      "subterranean chamber",
+      "obsidian silk"
+    ],
+    "prompt_block": "Photorealistic cinematic shot of a subterranean basalt chamber illuminated by pulsing glyphs, where a tall high priest in obsidian silk robes with embedded crystal filaments chants into a staff that channels bio‑luminescent energy into a central obelisk with a crystalline core, merging ancient Ethiopian and Egyptian motifs with unseen circuitry, the walls etched with hieroglyphic spirals and lotus crowns, the priest's silver ocular implant glowing faintly, the scene exuding industrial mysticism and tactile realism.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The initiation of the Invocation Chant in a subterranean chamber.",
+        "prompt_keywords": [
+          "ancient",
+          "Ethiopian",
+          "Egyptian",
+          "ritual",
+          "crystalline",
+          "glyphs",
+          "bio-luminescence",
+          "industrial mysticism",
+          "photorealistic",
+          "subterranean chamber",
+          "obsidian silk"
+        ],
+        "prompt_block": "Photorealistic cinematic shot of a subterranean basalt chamber illuminated by pulsing glyphs, where a tall high priest in obsidian silk robes with embedded crystal filaments chants into a staff that channels bio‑luminescent energy into a central obelisk with a crystalline core, merging ancient Ethiopian and Egyptian motifs with unseen circuitry, the walls etched with hieroglyphic spirals and lotus crowns, the priest's silver ocular implant glowing faintly, the scene exuding industrial mysticism and tactile realism."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_INVOCATION_CHANT",
+    "name": "Invocation Chant",
+    "type": "scene",
+    "aliases": [
+      "Invocation Chant"
+    ],
+    "roles": [
+      "unknown"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_512"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 69,
+        "chapter_end": 69,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

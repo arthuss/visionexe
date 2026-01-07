@@ -1,0 +1,10 @@
+## [STATE] Crossing the gate :: Default
+**State ID:** default
+**Chapters:** 9 - 9
+
+**Phase Summary:** The gate in its inactive, weathered state with subtle bioluminescent glow.
+**Phase Keywords:** stone arch, glowing glyphs, crystalline conduits, bioluminescent moss, copper alloy frame, Ethiopian motifs, Egyptian motifs, industrial, photorealistic
+**Phase Prompt:**
+A colossal stone arch gate standing 30 meters tall, carved from weathered basalt with intricate Ethiopian and Egyptian motifs, integrated with a copper alloy frame and obsidian panels, embedded translucent crystalline conduits pulsing amber, bioluminescent moss emitting soft green glow, central eye-like sensor at the apex emitting steady blue pulse, illuminated at twilight with dramatic shadows, photorealistic textures capturing rough basalt, metal sheen, and subtle luminescence.
+
+---

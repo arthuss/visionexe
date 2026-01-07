@@ -1,0 +1,95 @@
+{
+  "id": "SETENV_EARTH_AND_WATER",
+  "name": "earth and water",
+  "type": "set_environment",
+  "card": {
+    "description": "A subterranean basin where molten earth meets crystalline water, guarded by towering stone monoliths etched with luminous glyphs that pulse with unseen energy, blending ancient Ethiopian motifs with incomprehensible technology.",
+    "tags": [
+      "environment",
+      "ancient-tech",
+      "earth",
+      "water",
+      "crystalline",
+      "glyphs",
+      "industrial mysticism",
+      "photorealistic"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** A vast basaltic basin with a river of molten stone that feeds into a network of translucent crystal channels carrying luminous water.",
+      "**Face/Sensors:** Luminous glyphs etched into the monoliths glow in response to the flow, acting as both aesthetic and functional sensors.",
+      "**Clothing/Armor:** The surrounding stone monoliths are covered in protective glyphs and reinforced with metallic filaments that shimmer with a faint iridescence.",
+      "**Key Features:** Bio‑luminescent flora sprouting from geothermal vents, crystalline conduits that refract light, geothermal vents that hiss steam, and a faint hum of ancient machinery hidden beneath the earth."
+    ],
+    "evolution": [
+      "Phase 1 (Natural): Raw basaltic basin with a flowing river of liquid stone and sparse geothermal vents.",
+      "Phase 2 (Tech): Installation of crystalline conduits, glyph‑etched monoliths, bio‑luminescent flora, and hidden geothermal harnessing systems."
+    ],
+    "props": [
+      "Stone conduit",
+      "Crystal water conduit",
+      "Glyph‑etched monolith",
+      "Bio‑luminescent flora"
+    ],
+    "prompt_keywords": [
+      "subterranean",
+      "basin",
+      "molten earth",
+      "crystalline water",
+      "glyphs",
+      "ancient Ethiopian",
+      "industrial mysticism",
+      "photorealistic",
+      "tactile"
+    ],
+    "prompt_block": "A cinematic, photorealistic subterranean basin where molten earth flows into crystalline water channels, surrounded by towering stone monoliths etched with luminous ancient Ethiopian glyphs, bio‑luminescent flora sprouting from geothermal vents, all rendered with tactile detail and industrial mysticism.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The integrated ancient‑tech environment with glowing glyphs and crystalline water.",
+        "prompt_keywords": [
+          "subterranean",
+          "basin",
+          "molten earth",
+          "crystalline water",
+          "glyphs",
+          "ancient Ethiopian",
+          "industrial mysticism",
+          "photorealistic",
+          "tactile"
+        ],
+        "prompt_block": "A cinematic, photorealistic subterranean basin where molten earth flows into crystalline water channels, surrounded by towering stone monoliths etched with luminous ancient Ethiopian glyphs, bio‑luminescent flora sprouting from geothermal vents, all rendered with tactile detail and industrial mysticism."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_EARTH_AND_WATER",
+    "name": "earth and water",
+    "type": "set_environment",
+    "aliases": [
+      "earth and water"
+    ],
+    "roles": [],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_354"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 53,
+        "chapter_end": 53,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

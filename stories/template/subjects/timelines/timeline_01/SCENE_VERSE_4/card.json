@@ -1,0 +1,133 @@
+{
+  "id": "SCENE_VERSE_4",
+  "name": "Verse 4",
+  "type": "scene",
+  "card": {
+    "description": "A cavernous subterranean chamber carved into obsidian stone, illuminated by bioluminescent fungi and glyph-etched panels that pulse with crystalline energy. The chamber houses a colossal stone monolith, etched with ancient Ethiopian hieroglyphs, that functions as a power core, emitting a low hum and a soft azure glow. Surrounding the monolith are intricate metalwork conduits, fused with basalt and obsidian, that channel energy into a central crystal lattice. The air is thick with a faint ozone scent, and the floor is slick with mineral-rich water that reflects the glow.",
+    "tags": [
+      "ancient-tech",
+      "industrial mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "bioluminescence",
+      "crystalline core",
+      "subterranean chamber",
+      "stone monolith",
+      "glyphs",
+      "energy conduit"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Obsidian walls, basalt pillars, a colossal stone monolith with a central crystalline core, and a network of basalt‑obsidian conduits.",
+      "**Face/Sensors:** Glyph‑etched panels embedded in the walls, glowing with bio‑luminescent glyphs that act as sensor arrays and energy readouts.",
+      "**Clothing/Armor:** Not applicable – the scene is an environment, not a character.",
+      "**Key Features:** Bioluminescent fungi, crystalline energy core, pulsing glyph panels, low‑hum resonant chamber, mineral‑rich reflective floor."
+    ],
+    "evolution": [
+      "Phase 1 (Discovery): The chamber is shrouded in darkness, only faint bioluminescent glow from fungi and distant glyphs. The monolith is inert, its core dormant.",
+      "Phase 2 (Activation): The glyph panels flare, the crystalline core hums, and a soft azure light floods the chamber. Energy conduits flare, casting dynamic reflections on the slick floor."
+    ],
+    "props": [
+      "Item: Obsidian glyph panel with luminescent hieroglyphs",
+      "Item: Central crystalline energy core embedded in the stone monolith"
+    ],
+    "prompt_keywords": [
+      "obsidian",
+      "bioluminescent",
+      "glyph",
+      "crystal",
+      "ancient",
+      "industrial",
+      "mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "subterranean",
+      "stone monolith",
+      "energy conduit"
+    ],
+    "prompt_block": "A subterranean chamber carved from obsidian stone, illuminated by bioluminescent fungi and glowing glyph‑etched panels, featuring a colossal stone monolith etched with ancient Ethiopian hieroglyphs that functions as a crystalline energy core, surrounded by basalt and obsidian conduits, with a low hum and soft azure glow, cinematic photorealistic, tactile textures, grounded realism, ancient‑tech industrial mysticism",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Initial discovery of the chamber, dimly lit, monolith dormant.",
+        "prompt_keywords": [
+          "obsidian",
+          "bioluminescent",
+          "glyph",
+          "crystal",
+          "ancient",
+          "industrial",
+          "mysticism",
+          "Ethiopian",
+          "Egyptian",
+          "subterranean",
+          "stone monolith",
+          "energy conduit"
+        ],
+        "prompt_block": "A subterranean chamber carved from obsidian stone, illuminated by bioluminescent fungi and faint glyph‑etched panels, featuring a colossal stone monolith etched with ancient Ethiopian hieroglyphs that is dormant, surrounded by basalt and obsidian conduits, with a low hum and soft azure glow, cinematic photorealistic, tactile textures, grounded realism, ancient‑tech industrial mysticism"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_VERSE_4",
+    "name": "Verse 4",
+    "type": "scene",
+    "aliases": [
+      "Verse 4"
+    ],
+    "roles": [
+      "unknown",
+      "ምድር"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1028",
+      "row_1032",
+      "row_145",
+      "row_146",
+      "row_154",
+      "row_170",
+      "row_2",
+      "row_237",
+      "row_239",
+      "row_275",
+      "row_319",
+      "row_361",
+      "row_368",
+      "row_449",
+      "row_467",
+      "row_470",
+      "row_476",
+      "row_503",
+      "row_522",
+      "row_559",
+      "row_600",
+      "row_619",
+      "row_704",
+      "row_725",
+      "row_737",
+      "row_745",
+      "row_798",
+      "row_829",
+      "row_890",
+      "row_956"
+    ],
+    "occurrence_count": 30,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

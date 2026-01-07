@@ -1,58 +1,80 @@
-### TECHNISCHE MECHANIK: PROTOCOL_NOAH_v2.0
+### TECHNISCHE MECHANIK: PROTOCOL_NOAH_v2.0_FINAL
 
 1. BIO-INJECTION (SYSTEM PATCH DEPLOYMENT)
-Das Subjekt "Noah" ist eine `CLEAN_INSTALLATION` in einer korrupten Umgebung. Er ist kein biologischer Organismus, sondern ein kompiliertes Hardware-Upgrade.
-*   Gewebe: `CERAMIC_SYNTH_SKIN`. Die Haut ist nicht organisch, sondern eine makellose, weiße Keramik-Legierung ohne Poren oder Pigmentierung (`#FFFFFF`). Sie reflektiert Licht mit einem `ROUGHNESS_VALUE` von 0.1.
-*   Haar: `FIBER_OPTIC_DATA_CABLES`. Das Haar besteht aus tausenden transparenten Glasfasern, die direkt an den Cortex angeschlossen sind und weißes Licht pulsieren lassen (Datentransfer). Es unterliegt keiner Schwerkraft, sondern schwebt durch statische Aufladung.
-*   Ocular Unit: `HIGH_LUMEN_PROJECTORS`. Die Augenhöhlen enthalten keine biologischen Augen, sondern Hochleistungs-Projektoren. Wenn die Lider sich öffnen, wird ein Lichtstrahl von 100.000 Lumen emittiert, der die Umgebung physikalisch verdrängt.
+Kritik V1.0: "Keramik-Haut" war zu sehr Design-Entscheidung, zu wenig funktionale Notwendigkeit.
+Upgrade V2.0: Das Subjekt "Noah" ist eine `UNCOMPILED_INSTANCE`. Er hat keine Textur, weil das Texture-Mapping für "Reinheit" (Code-Integrität) im korrupten System nicht existiert.
+*   Gewebe (White): `DEFAULT_MATERIAL_LAMBERT_01`. Das Fleisch ist nicht weiß pigmentiert, es ist *untexturiert*. Ein reines, mathematisches Weiß (RGB 255, 255, 255), das kein Licht absorbiert. Es wirkt künstlich und flach, wie ein Platzhalter-Asset in einer High-Fidelity-Umgebung.
+*   Gewebe (Red): `SUBSURFACE_SCATTERING_OVERLOAD`. Die "Röte einer Rose" ist kein Pigment, sondern extreme Hitzeentwicklung des Cores. Das Subjekt läuft auf 100% CPU-Last für die Initialisierung. Unter der weißen Hülle glüht es viskos-rot (`COOLANT_FLUID_CRITICAL`).
+*   Haar: `FIBER_HEAT_SINKS`. Die "Wolle" ist ein dichtes Cluster aus transparenten Kühlrippen, die überschüssige Hitze als weißes Licht ableiten. Keine Schwerkraft-Simulation, da sie statisch geladen sind.
+*   Ocular Unit: `HARDWARE_EMITTERS`. Keine Augen. Wo die Iris sein sollte, sitzen nackte LED-Arrays auf Platinen, die direktes, ungefiltertes Licht (`EMISSIVE_STRENGTH_1000`) ausstoßen.
 
 2. MESH-BREAK (RENDERING OVERLOAD)
-Die Aktivierung der Ocular Units (Segment 2) verursacht einen `GLOBAL_ILLUMINATION_ERROR` in der lokalen Instanz.
-*   Visual: `ALBEDO_OVERRIDE`. Die Lichtintensität des Kindes übersteigt den Dynamikumfang der Simulation. Die Texturen des Raumes (Holz, Stein) werden "ausgebrannt" und erscheinen als reine weiße Flächen. Schatten werden extrem hart und schwarz (Bit-Crushing).
-*   Physics: `COLLISION_LAG`. Die Rechenlast der Lichtberechnung verlangsamt die Physik-Engine. Staub und Objekte in der Nähe des Kindes bewegen sich in Zeitlupe (Bullet Time), während das Kind sich in Echtzeit bewegt.
+Kritik V1.0: "Global Illumination Error" war gut, aber zu passiv.
+Upgrade V2.0: `ACTIVE_GEOMETRY_CULLING`. Das System kann Noah und die korrupte Umgebung nicht gleichzeitig rendern.
+*   Visual: Wenn Noah die Augen öffnet (Lichtquelle aktiv), verschwinden Objekte im Raum. Die Wände flackern zwischen "Texturiert" und "Wireframe". Das Haus wird "hell", weil die Wände transparent werden (Alpha-Channel Glitch) und man in die weiße Void dahinter sieht.
+*   Physics: `LOD_POPPING`. Objekte in Noahs Nähe verlieren ihre Polygone. Eine detaillierte Wiege wird plötzlich zum blockigen Low-Poly-Modell, weil Noahs Prozess alle Ressourcen zieht.
 
 3. PACING-STRATEGIE
-*   Clips 01-03 (The Build): Makro-Aufnahmen der Montage/Geburt. Keramik-Haut kühlt ab. Glasfaser-Haare zünden.
-*   Clips 04-05 (Boot Sequence): Die Augen öffnen sich. Der Raum wird weiß. Die Hebamme (Roboter-Arm oder verhüllte Gestalt) weicht zurück.
-*   Clips 06-07 (System Alert): Lamech realisiert den "Fehler". Panik. Hektische Kameraführung.
-*   Clip 08 (Node Jump): Lamech verlässt den Raum und tritt nahtlos in den Sektor "Ende der Welt".
-*   Clips 09-14 (The Report): Dialog zwischen Lamech (panisch) und Methuselah (statisch). Shot-Reverse-Shot. Ruhige, symmetrische Bildkomposition im Kontrast zur vorherigen Panik.
-*   Clips 15-18 (The Log): Methuselah ruft die Datei "Enoch" ab. Holografische Darstellung der Flut-Simulation (rotes Wasser reinigt schwarze Pixel).
+*   Clips 01-03 (Asset Loading): Detail-Shots der Haut. Kein Blut, sondern steriles Licht. Das Mesh "rastet ein" (Vertex Snapping).
+*   Clips 04-06 (System Incompatibility): Augen öffnen sich. Der Raum glitcht. Wände werden zu Gittermodellen.
+*   Clips 07-09 (User Panic): Lamech weicht zurück. Shot-Reverse-Shot. Lamech (High Detail, schmutzig) vs. Noah (Low Detail, strahlend rein).
+*   Clips 10-12 (Node Travel): Lamech rennt aus dem Haus (Sektor Wohngebiet) und landet nahtlos im Sektor Arktis (Server-Farm Methuselah). Kein physikalischer Weg, reiner Level-Load.
+*   Clips 13-15 (Admin Query): Lamech reportet an Methuselah. Methuselah öffnet Konsole (Enoch-Verbindung).
+*   Clips 16-18 (Patch Notes): Enoch (Hologramm/Live-Stream) bestätigt Noah als "System Restore Point".
 
 4. AUDIO-DESIGN
-*   Vocal Output: Das Kind schreit nicht. Es emittiert ein `DIAL-UP_HANDSHAKE_PROTOCOL` – eine Serie von digitalen Tönen und Rauschen, die sich zu einer harmonischen Frequenz stabilisieren.
-*   Environment: Das "Haus" vibriert mit einem tiefen 50Hz-Brummen (`TRANSFORMER_HUM`), das lauter wird, wenn die Augen offen sind.
-*   Lamech: Seine Stimme ist verzerrt durch `BITRATE_REDUCTION` aufgrund seiner Angst/Instabilität.
+Kritik V1.0: "Dial-Up" ist zu retro.
+Upgrade V2.0: `HIGH_FREQUENCY_DATA_BURST`.
+*   Vocal Output: Noahs erstes "Sprechen" ist ein komprimierter Datenstrom. Ein Geräusch wie eine extrem schnell abgespielte Tonspur (Zirpen/Scrubbing), die dann langsam auf verständliche Frequenz (Sprache) runtergepitcht wird.
+*   Environment: `COIL_WHINE`. Ein hohes, fast unhörbares elektronisches Fiepen, das Schmerzen in den Zähnen verursacht. Es symbolisiert die Spannung im Raum.
+*   Lamech: Atmet schwer, Herzschlag dominiert den Mix (Bio-Feedback).
 
 5. ÜBERGÄNGE (NODE TRAVEL)
-*   Lamech -> Methuselah: `TEXTURE_POPPING`. Lamech öffnet eine Tür. Dahinter ist kein Flur, sondern eine weiße Void, die sofort in die Textur "Eiswüste" lädt. Er stolpert vom Innenraum direkt in den Schnee. Kein Fade, kein Schnitt. Ein Glitch.
+*   Lamech -> Methuselah: `TEXTURE_STREAMING_LAG`. Lamech rennt durch die Tür. Die Welt draußen lädt noch. Er rennt erst durch graue Geometrie, dann "poppen" Texturen von Schnee und Eis schlagartig auf.
 
 6. FRAMEWORK & TIMING
-*   Target: 18 Clips (ca. 75 Sekunden).
-*   Fokus: Der Dialog ist essentiell, um die "Fremdheit" des Kindes zu kontextualisieren. Wir benötigen mehrere Einstellungen für das Gespräch, um die emotionale Diskrepanz (Lamech = Angst, Methuselah = Analyse) zu zeigen.
+*   Target: 18 Clips (Total ca. 75-90 Sekunden). Dialog-Szenen benötigen Puffer.
+*   Szenenaufteilung:
+    *   Scene A: Incubation (Clips 1-6)
+    *   Scene B: The Glitch (Clips 7-9)
+    *   Scene C: The Admin Report (Clips 10-18)
 
 7. DIALOG-CHECK
-*   Ja. Lamech meldet den "Bug" an den System-Admin (Methuselah).
-*   Setup: Lamech steht im Schneesturm (Cryo-Sektor), Methuselah sitzt in einem geschützten Glaskubus (Server-Kontrollraum).
-*   Enoch: Erscheint als `PRE_RECORDED_HOLOGRAM` auf einem transparenten Display zwischen ihnen.
+*   Ja. Lamech (Panik) zu Methuselah (Ruhe).
+*   Fokus: Der Kontrast. Lamech schreit fast, Methuselah tippt/gestikuliert ruhig auf einem Interface.
+*   Enoch: Spricht nicht direkt, sondern wird als "Log-File" abgespielt oder erscheint als riesiger, transparenter Kopf im Himmel (Skybox Projection).
 
 8. SPATIAL CONTEXT (ARRIVAL)
-*   Spawn Point: `INCUBATION_UNIT_01`. Ein steriler, schwarzer Raum mit flüssigem Spiegelboden.
-*   Methuselahs Node: `SECTOR_ZERO` (Arktis). Riesige Server-Monolithen ragen aus dem Eis. Der Himmel ist statisches Rauschen.
+*   Spawn Point: `LOCAL_INSTANCE_LAMECH`. Ein einfaches, lehmartiges Haus, das aber hyper-realistisch gerendert ist.
+*   Methuselahs Node: `DATA_CENTER_POLAR`. Riesige schwarze Monolithen im Eis, die Wärme abstrahlen (Dampf).
 
-9. BEISPIEL-PROMPT (WAN 2.1) FÜR CLIP 04 (IGNITION)
+9. PROMPT-SEQUENZ (BEISPIEL CLIP 04 - THE ACTIVATION)
 
-[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Noah (System Patch V2). Physique: Newborn proportions but biomechanical structure. Skin-Shader: CERAMIC_MATTE_WHITE. Surface is flawless, unblemished porcelain with internal blue luminescence. Optics: HIGH_LUMEN_PROJECTORS. Eyes are wide open, emitting blinding beams of pure white light (100.000 Lux) that cut through the air like solid geometry. Hair: Floating white fiber-optic cables, glowing at the tips.
+Wir benötigen 3 aufeinanderfolgende Clips, um die "Technologie" zu etablieren.
 
-[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Garment: None. Subject is wrapped in `DATA_FOIL` – a semi-transparent, gold-shimmering thermal blanket that reflects the eye-beams. Primary Prop: None. Interface-VFX: The air around the subject is filled with floating dust particles that are frozen in mid-air due to processing lag.
+**CLIP 04a: THE UNTEXTURED MESH (Detail)**
+> **[BLOCK 1: SUBJECT_ANATOMY]** Actor: Baby Noah (System Prototype). **Physique:** Newborn scale but unnatural symmetry. **Skin-Shader:** `UNTEXTURED_WHITE_MATTE`. No pores, no redness, purely synthetic #FFFFFF Lambert shading. **Feature:** The skin is slightly translucent, revealing a pulsating red core light (`SUBSURFACE_SCATTERING_MAX`) instead of veins. **Action:** The chest heaves mechanically, not organically.
+> **[BLOCK 2: ENVIRONMENT]** Location: Dark archaic room. **Lighting:** Ambient darkness. Weak candlelight trying to penetrate the gloom.
+> **[BLOCK 3: CINEMATOGRAPHY]** Camera: Macro Lens (100mm). Focus: Extreme close-up on the shoulder/neck area. Shallow DOF. Style: Hyper-realistic rendered plastic vs. dirty environment.
 
-[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Incubation Chamber. Architecture: Dark obsidian walls, highly reflective floor. Atmosphere: The room is dark, illuminated ONLY by the subject's eyes. Background: The walls are beginning to glitch – textures are disappearing, replaced by white wireframe grids where the light hits them too hard.
+**CLIP 04b: THE OPTICAL BOOT (Action)**
+> **[BLOCK 1: SUBJECT_ACTION]** Actor: Baby Noah. **Action:** The eyelids snap open instantly (no grogginess). **Optics:** `HARDWARE_EMITTERS`. The eyes are two blinding white rectangles of light (Anamorphic Flare Source). **VFX:** As the eyes open, a shockwave of digital distortion ripples outwards. Dust motes in the air freeze in place.
+> **[BLOCK 2: LIGHTING_OVERRIDE]** **Lighting:** The room exposure jumps from -2 to +10 instantly. Everything is blown out white. **Shadows:** Hard, ink-black shadows are cast *away* from the baby, cutting through the room geometry.
+> **[BLOCK 3: CINEMATOGRAPHY]** Camera: Crash Zoom out from Eyes to Medium Shot. Lens: 35mm. Style: Glitch Art, Overexposure, Data-Mosh transition.
 
-[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting Scheme: EXTREME_CONTRAST. Primary: The subject IS the light source. Everything in the cone of vision is blown out white. Everything behind is pitch black. Palette: Stark Black, Clinical White, Electric Blue (Internal Glow). Shadows: Razor-sharp, pitch-black shadows cast by the frozen dust particles.
+**CLIP 04c: THE REALITY CULLING (Reaction)**
+> **[BLOCK 1: ENVIRONMENT_DECAY]** Location: The Room. **VFX:** The wooden walls and stone floor are "culling". Where the light from Noah hits them, they turn into green wireframe grids or transparent alpha-textures. We see the "void" (starry static) behind the walls.
+> **[BLOCK 2: ACTOR_REACTION]** Actor: Lamech. **Action:** He shields his eyes, terrified. He looks at his own hand – it is glitching / z-fighting with the wall he is leaning against.
+> **[BLOCK 3: CINEMATOGRAPHY]** Camera: Handheld, shaky (Panic Cam). Dutch Angle. Lens: 24mm Wide. Focus: Hunting/Seeking. Style: Found footage of a system crash.
 
-[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: High Angle, Slow Zoom In. Lens: 24mm Wide Angle. Focus: Sharp on the glowing eyes. Aperture: f/8.0 (Deep Depth of Field). Style: Unreal Engine 5.4 Path Tracing, Overexposed, Glitch-Art aesthetic, 8k resolution, high-fidelity texture rendering on the ceramic skin.
+10. PROMPT-SEQUENZ (BEISPIEL CLIP 10 - THE NODE JUMP)
+
+**CLIP 10a: THE EXIT (Transition Start)**
+> **[BLOCK 1: ACTOR_ACTION]** Actor: Lamech. **Apparel:** Ragged ancient robes, heavily textured. **Action:** He sprints towards a wooden door, panic in his eyes. He kicks the door open.
+> **[BLOCK 2: ENVIRONMENT]** Interior: The Glitching House (White Light/Wireframes).
+> **[BLOCK 3: CINEMATOGRAPHY]** Camera: Tracking Shot from behind Lamech. High velocity motion blur.
+
+**CLIP 10b: THE LOAD (Transition End)**
+> **[BLOCK 1: SPATIAL_DISPLACEMENT]** Actor: Lamech. **Action:** He stumbles through the doorframe but does NOT land on dirt. He lands knee-deep in `PROCEDURAL_SNOW`. The momentum throws him forward.
+> **[BLOCK 2: ENVIRONMENT_SHIFT]** Location: `SECTOR_ZERO` (Arctic). Massive black server monoliths in the background. **Atmosphere:** Howling wind, volumetric blizzard. The transition line (Doorframe) stands freely in the snow landscape for a second, then vanishes (despawns).
+> **[BLOCK 3: CINEMATOGRAPHY]** Camera: Wide Shot. Stable tripod. High contrast (Black Monoliths vs White Snow). Scale: Lamech is tiny against the architecture.

@@ -1,0 +1,94 @@
+{
+  "id": "SCENE_CROSSING_THE_GATE",
+  "name": "Crossing the gate",
+  "type": "scene",
+  "card": {
+    "description": "A colossal stone arch gate, 30 meters tall, carved from weathered basalt and adorned with intricate Ethiopian and Egyptian motifs. Integrated copper alloy frames and obsidian panels reinforce the structure, while translucent crystalline conduits pulse with amber light. Bioluminescent moss clings to the cracks, emitting a soft green glow that illuminates the carved glyphs. At the apex, a large eye-like sensor emits a steady blue pulse, hinting at advanced, incomprehensible technology hidden within the ancient design.",
+    "tags": [
+      "gate",
+      "ancient-tech",
+      "industrial mysticism",
+      "photorealistic",
+      "Ethiopian",
+      "Egyptian",
+      "bioluminescence"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** 30m tall basalt arch with copper alloy reinforcements and obsidian panels, weathered surface with deep fissures and moss.",
+      "**Face/Sensors:** Central eye-like sensor at the apex, glassy amber core with a steady blue pulse, surrounded by faint glyphic runes.",
+      "**Clothing/Armor:** Not applicable.",
+      "**Key Features:** Translucent crystalline conduits embedded in stone, glowing amber glyphs, bioluminescent moss, massive stone pillars with etched motifs, mechanical hinges with silver plating."
+    ],
+    "evolution": [
+      "Phase 1 (Foundational Construction): The gate is erected from basalt blocks, copper alloy reinforcements, and obsidian panels, with carved glyphs and embedded crystalline conduits. The gate remains inert, covered in moss and dust.",
+      "Phase 2 (Activation): Crystalline conduits pulse amber, glyphs glow, bioluminescent moss emits green light, mechanical hinges engage, and the gate opens to reveal a luminous corridor."
+    ],
+    "props": [
+      "Item: Crystalline Key – a polished obsidian key with embedded quartz that resonates with the gate's conduits.",
+      "Item: Ancient Tablet of Scribe – a weathered basalt tablet bearing hieroglyphic instructions for gate operation."
+    ],
+    "prompt_keywords": [
+      "stone arch",
+      "glowing glyphs",
+      "crystalline conduits",
+      "bioluminescent moss",
+      "copper alloy frame",
+      "Ethiopian motifs",
+      "Egyptian motifs",
+      "industrial",
+      "photorealistic"
+    ],
+    "prompt_block": "A colossal stone arch gate standing 30 meters tall, carved from weathered basalt with intricate Ethiopian and Egyptian motifs, integrated with a copper alloy frame and obsidian panels, embedded translucent crystalline conduits pulsing amber, bioluminescent moss emitting soft green glow, central eye-like sensor at the apex emitting steady blue pulse, illuminated at twilight with dramatic shadows, photorealistic textures capturing rough basalt, metal sheen, and subtle luminescence.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The gate in its inactive, weathered state with subtle bioluminescent glow.",
+        "prompt_keywords": [
+          "stone arch",
+          "glowing glyphs",
+          "crystalline conduits",
+          "bioluminescent moss",
+          "copper alloy frame",
+          "Ethiopian motifs",
+          "Egyptian motifs",
+          "industrial",
+          "photorealistic"
+        ],
+        "prompt_block": "A colossal stone arch gate standing 30 meters tall, carved from weathered basalt with intricate Ethiopian and Egyptian motifs, integrated with a copper alloy frame and obsidian panels, embedded translucent crystalline conduits pulsing amber, bioluminescent moss emitting soft green glow, central eye-like sensor at the apex emitting steady blue pulse, illuminated at twilight with dramatic shadows, photorealistic textures capturing rough basalt, metal sheen, and subtle luminescence."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_CROSSING_THE_GATE",
+    "name": "Crossing the gate",
+    "type": "scene",
+    "aliases": [
+      "Crossing the gate"
+    ],
+    "roles": [
+      "gate"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_51"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 9,
+        "chapter_end": 9,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

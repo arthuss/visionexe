@@ -1,0 +1,101 @@
+{
+  "id": "SETENV_TEMPLE",
+  "name": "temple",
+  "type": "set_environment",
+  "card": {
+    "description": "A towering temple of ancient Ethiopian and Egyptian design, its massive basalt walls carved with intricate glyphs that pulse with bioluminescent light. Integrated crystalline circuitry runs along the stone, while solar panels are disguised as polished stone slabs. A polished obsidian spire rises skyward, and bio‑luminescent moss clings to ledges, revealing subterranean chambers accessed by ancient bronze doors. The scene is rendered photorealistically with tactile detail, cinematic lighting, and a grounded realism that emphasizes the fusion of ancient mysticism and incomprehensible technology.",
+    "tags": [
+      "ancient-tech",
+      "industrial-mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "photorealistic",
+      "tactile",
+      "grounded realism",
+      "stone",
+      "luminescent",
+      "crystalline"
+    ],
+    "visual_anatomy": [
+      "**Structure/Form:** Massive basalt walls 30m tall, 5m thick, carved with luminous glyphs; central obsidian spire 40m high; integrated crystalline circuitry embedded in stone.",
+      "**Sensors/Interface:** Embedded sensor arrays along walls, glowing glyphs act as data conduits; solar panels disguised as stone slabs provide power.",
+      "**Key Features:** Bioluminescent moss on ledges, ancient bronze doors to subterranean chambers, polished obsidian spire, crystalline spires protruding from walls, glyph‑etched stone tablets."
+    ],
+    "evolution": [
+      "Phase 1 (Construction): Initial erection of basalt and obsidian structure with carved glyphs and bronze doorways.",
+      "Phase 2 (Tech Integration): Integration of crystalline circuitry, solar panels, bioluminescent moss, and sensor arrays, transforming the temple into an ancient‑tech sanctum."
+    ],
+    "props": [
+      "Crystalline altar",
+      "Glyph‑etched stone tablet",
+      "Solar panel stone slab",
+      "Ancient bronze door",
+      "Bio‑luminescent moss patch"
+    ],
+    "prompt_keywords": [
+      "ancient",
+      "Ethiopian",
+      "Egyptian",
+      "temple",
+      "stone",
+      "luminescent",
+      "crystalline",
+      "photorealistic",
+      "tactile",
+      "grounded realism"
+    ],
+    "prompt_block": "A towering ancient Ethiopian‑Egyptian temple in a harsh desert, its massive basalt walls carved with intricate glyphs that pulse with bioluminescent light, integrated with crystalline circuitry and solar panels disguised as stone slabs, a polished obsidian spire reaching skyward, bio‑luminescent moss clinging to ledges, subterranean chambers accessed by ancient bronze doors, photorealistic, tactile, grounded realism, cinematic lighting, high detail, 8k resolution, 9:16 aspect ratio",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Base temple environment with integrated ancient‑tech features.",
+        "prompt_keywords": [
+          "ancient",
+          "Ethiopian",
+          "Egyptian",
+          "temple",
+          "stone",
+          "luminescent",
+          "crystalline",
+          "photorealistic",
+          "tactile",
+          "grounded realism"
+        ],
+        "prompt_block": "A towering ancient Ethiopian‑Egyptian temple in a harsh desert, its massive basalt walls carved with intricate glyphs that pulse with bioluminescent light, integrated with crystalline circuitry and solar panels disguised as stone slabs, a polished obsidian spire reaching skyward, bio‑luminescent moss clinging to ledges, subterranean chambers accessed by ancient bronze doors, photorealistic, tactile, grounded realism, cinematic lighting, high detail, 8k resolution, 9:16 aspect ratio"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_TEMPLE",
+    "name": "temple",
+    "type": "set_environment",
+    "aliases": [
+      "temple"
+    ],
+    "roles": [
+      "temple"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_262"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 39,
+        "chapter_end": 39,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

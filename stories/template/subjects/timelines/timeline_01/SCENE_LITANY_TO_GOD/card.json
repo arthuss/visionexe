@@ -1,0 +1,95 @@
+{
+  "id": "SCENE_LITANY_TO_GOD",
+  "name": "Litany to God",
+  "type": "scene",
+  "card": {
+    "description": "A towering, crystalline litany tablet that serves as the focal point of a sacred ritual. The slab, carved from basalt and embedded with a lattice of quartz crystals, bears ancient Ethiopian and Egyptian glyphs that pulse with a bio‑luminescent glow as the litany is recited. The tablet channels divine energy through a network of micro‑LED conduits and sensor arrays that respond to the rhythm of the chant, creating a mesmerizing interplay of light and shadow on the surrounding stone altar. The design fuses grounded industrial realism with mystic antiquity, producing a tactile, photorealistic artifact that feels both ancient and incomprehensibly advanced.",
+    "tags": [
+      "ritual",
+      "ancient-tech",
+      "Ethiopian",
+      "Egyptian",
+      "glyphs",
+      "crystalline",
+      "divine-energy",
+      "litany"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Rectangular basalt slab, 1.5 m long, 0.5 m wide, 0.3 m thick, surface etched with deep grooves and embedded quartz crystals forming a lattice that refracts light.",
+      "**Face/Sensors:** Edge‑mounted sensor arrays and micro‑LED channels trace the glyphs; the glyphs themselves glow in a pulsing, bio‑luminescent pattern that synchronizes with spoken words.",
+      "**Clothing/Armor:** Not applicable; the tablet is a standalone artifact.",
+      "**Key Features:** Embedded crystal lattice, luminescent glyphs, energy conduits, ancient hieroglyphic patterns, micro‑LED network, sensor arrays, polished basalt finish with subtle weathering."
+    ],
+    "evolution": [
+      "Phase 1 (Initial Design): Raw basalt slab with hand‑etched glyphs and basic quartz crystal insertions, minimal energy channeling.",
+      "Phase 2 (Refinement): Integrated crystal lattice, advanced micro‑LED conduits, sensor arrays, bio‑luminescent glyphs, and a polished, weathered finish to enhance realism."
+    ],
+    "props": [
+      "Item: Crystalline Glyphs – polished quartz crystals set into the tablet’s surface, each containing a micro‑LED for illumination.",
+      "Item: Divine Energy Conduit – a translucent, fiber‑optic channel that runs from the tablet’s core to the altar, glowing with a soft, ethereal light."
+    ],
+    "prompt_keywords": [
+      "crystalline",
+      "glyphs",
+      "luminescent",
+      "ancient",
+      "Ethiopian",
+      "Egyptian",
+      "ritual",
+      "divine",
+      "techno-mystic"
+    ],
+    "prompt_block": "A towering, crystalline litany tablet carved from basalt, embedded with a lattice of quartz crystals and ancient Ethiopian/Egyptian glyphs that pulse with bio‑luminescent glow, micro‑LED conduits tracing the glyphs, sensor arrays along the edges, channeling divine energy onto a stone altar, photorealistic, tactile, grounded industrial realism, cinematic lighting, intricate details, weathered basalt surface, subtle reflections, high contrast shadows, realistic texture, cinematic composition",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The litany tablet in its fully realized state, ready for ritual use.",
+        "prompt_keywords": [
+          "crystalline",
+          "glyphs",
+          "luminescent",
+          "ancient",
+          "Ethiopian",
+          "Egyptian",
+          "ritual",
+          "divine",
+          "techno-mystic"
+        ],
+        "prompt_block": "A towering, crystalline litany tablet carved from basalt, embedded with a lattice of quartz crystals and ancient Ethiopian/Egyptian glyphs that pulse with bio‑luminescent glow, micro‑LED conduits tracing the glyphs, sensor arrays along the edges, channeling divine energy onto a stone altar, photorealistic, tactile, grounded industrial realism, cinematic lighting, intricate details, weathered basalt surface, subtle reflections, high contrast shadows, realistic texture, cinematic composition"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_LITANY_TO_GOD",
+    "name": "Litany to God",
+    "type": "scene",
+    "aliases": [
+      "Litany to God"
+    ],
+    "roles": [
+      "unknown"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_251"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 38,
+        "chapter_end": 38,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

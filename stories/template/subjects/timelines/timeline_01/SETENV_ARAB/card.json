@@ -1,0 +1,93 @@
+{
+  "id": "SETENV_ARAB",
+  "name": "Arab",
+  "type": "set_environment",
+  "card": {
+    "description": "The Arab region is a vast obsidian plain, a desert of black basaltic dunes that glint under a harsh sun, punctuated by towering monoliths etched with ancient Ge'ez glyphs. Embedded within the stone are crystalline spires that emit a faint bio‑luminescent glow, and a complex, transparent red holographic interface hovers above the dunes, projecting dense mathematical equations, parabolas, and Ge'ez numerals. The environment blends ancient Ethiopian/Egyptian aesthetics with incomprehensible, advanced technology, creating a grounded, cinematic atmosphere of industrial mysticism.",
+    "tags": [
+      "environment",
+      "region",
+      "obsidian_plain",
+      "ancient-tech",
+      "industrial_mysticism",
+      "bioluminescent",
+      "crystalline_glyphs"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Vast black basaltic dunes, obsidian cliffs, towering monoliths, crystalline spires.",
+      "**Face/Sensors:** Embedded bio‑luminescent glyphs that pulse with data, faint holographic overlays.",
+      "**Clothing/Armor:** Not applicable.",
+      "**Key Features:** Transparent red holographic interface, Ge'ez numerals, crystalline hardware, ancient stone monoliths with hieroglyphic patterns."
+    ],
+    "evolution": [
+      "Phase 1 (Initial): Obsidian plain with basaltic dunes and ancient stone monoliths.",
+      "Phase 2 (Advanced): Integration of crystalline glyphs and holographic interface, bio‑luminescent glow."
+    ],
+    "props": [
+      "Item: Obsidian Cliff with etched Ge'ez glyphs",
+      "Item: Transparent Red Holographic Interface projecting equations",
+      "Item: Crystalline Spire emitting bio‑luminescent glow"
+    ],
+    "prompt_keywords": [
+      "obsidian",
+      "crystalline",
+      "hieroglyphic",
+      "holographic",
+      "Ge'ez",
+      "ancient-tech",
+      "bioluminescent"
+    ],
+    "prompt_block": "A cinematic, photorealistic view of the Arab region, a vast obsidian plain of black basaltic dunes under a harsh sun, punctuated by towering monoliths etched with ancient Ge'ez glyphs, crystalline spires emitting a faint bio‑luminescent glow, and a complex transparent red holographic interface hovering above the dunes, projecting dense mathematical equations, parabolas, and Ge'ez numerals, blending ancient Ethiopian/Egyptian aesthetics with incomprehensible advanced technology, grounded realism, industrial mysticism, serious tone",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The default cinematic environment of the Arab region, an obsidian plain with holographic interface.",
+        "prompt_keywords": [
+          "obsidian",
+          "crystalline",
+          "hieroglyphic",
+          "holographic",
+          "Ge'ez",
+          "ancient-tech",
+          "bioluminescent"
+        ],
+        "prompt_block": "Default state: A cinematic, photorealistic depiction of the Arab region's obsidian plain, featuring black basaltic dunes, towering monoliths with Ge'ez glyphs, crystalline spires emitting bio‑luminescent glow, and a transparent red holographic interface projecting equations and hieroglyphic numerals, blending ancient Ethiopian/Egyptian aesthetics with advanced technology, grounded realism, industrial mysticism."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_ARAB",
+    "name": "Arab",
+    "type": "set_environment",
+    "aliases": [
+      "Arab"
+    ],
+    "roles": [
+      "environment"
+    ],
+    "visual_traits": [
+      "region"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_563"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 72,
+        "chapter_end": 72,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

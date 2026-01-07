@@ -1,178 +1,154 @@
-CONCEPT_MATRIX_CHAPTER_102_V2
-SYSTEM_STATE: OPTIMIZED
-THEME: SYSTEM_PURGE_PROTOCOL
+ANALYSIS & CRITIQUE: CONCEPT_MATRIX_CHAPTER_102_V2
+Der Vorgänger-Entwurf verließ sich zu stark auf "Retro-Cyberpunk"-Ästhetik der 90er Jahre (Hex-Dumps, Blue Cubes, Laser-Gitter). Das wirkte eher wie "TRON" (magisch-digital) als wie ein modernes "Unreal Engine 5 Hard-Crash"-Szenario.
+1. "Hex-Dump Bleed" ist ein visuelles Klischee. Echte Systemabstürze zeigen Frame-Buffer-Fehler oder Datamoshing.
+2. "Blue Cubes" für die Gerechten wirkt wie Spielzeug-Physik. Datenkompression sieht eher aus wie eine Reduktion der Komplexität (Point Cloud).
+3. "Voice of God" als Lüftergeräusch war gut, aber "Earthquake" als Clipping ist zu abstrakt. Es muss visuelle Physik-Desynchronisation sein.
+4. Die "Sinners" als bloße "gorging avatars" fehlte die technische Bedrohung. Sie sind Memory Leaks, die RAM fressen.
 
-1. MECHANICS & PHYSICS
+MECHANICS & PHYSICS ANSWERS (V3.0)
 
-BIO-INJECTION:
-Direct Neural Shunt. Henoch does not just see; he processes. A fiber-optic cable extends from the base of his skull into the `OBSIDIAN_SLATE`. His eyes roll back, replaced by internal HUD projections visible through the translucent marble eyelids. The skin around the port sites turns bruised purple (heat trauma).
+1. BIO-INJECTION:
+Keine Nadeln. Es ist ein "Hard-Link Shunt". Henochs Handgelenk öffnet sich mechanisch (Slide-Panel), und ein Bündel aus grauen, ungeschützten Glasfaserkabeln verbindet sich direkt mit dem obsidian-schwarzen Port der Slate. Die Haut um den Port wird grau und transluzent, da die Durchblutung gestoppt wird, um Interferenzen zu minimieren.
 
-MESH-BREAK:
-Polygon Jitter & Texture Streaming Failure. The world doesn't just crack; the vertex positions lose floating-point precision. Objects vibrate intensely before snapping to grid coordinates. High-res textures fail to load (MIP-mapping error), reverting to checkerboard "Missing Texture" patterns before turning to wireframe.
+2. MESH-BREAK:
+LOD-Popping (Level of Detail Failure). Objekte in der Nähe verlieren plötzlich ihre High-Res-Geometrie und springen auf Low-Poly-Proxies zurück, dann wieder hoch. Texturen laden nicht (MIP-Map-Failure) und zeigen graue Platzhalter oder UV-Testgrids. Es ist kein "Bruch", sondern eine "Unfähigkeit zu Rendern".
 
-PACING-STRATEGIE:
-Quantized Stutter. The frame rate of the environment drops to 12fps while Henoch remains at 60fps. This creates a jarring visual disconnect. Cuts are synchronized to a "glitch" beat—black frames inserted between scenes to simulate data packet loss.
+3. PACING-STRATEGIE:
+Lag-Simulation. Die Kamera bewegt sich flüssig (60fps), aber die Welt "friert" alle 2 Sekunden für 5 Frames ein. Asynchroner Schnitt: Audio läuft weiter, Video hängt. Das erzeugt Stress beim Zuschauer.
 
-AUDIO-DESIGN:
-The "Voice of God" is replaced by a massive "Cooling Fan Spool-Up" sound, layering with the high-pitched whine of coil capacitors under load. The "Earthquake" is the sound of digital clipping (Square Wave Distortion) and hard drive seek-arm thrashing.
+4. AUDIO-DESIGN:
+Throttling-Alert. Ein hochfrequenter "Coil Whine" (Spulenfiepen), der lauter wird, je näher der Reset kommt. Dazu das Geräusch von "Sektoren-Schreiben" (rhythmisches Klicken wie bei alten HDDs), das die Schritte der Engel ersetzt.
 
-ÜBERGÄNGE:
-Hex-Dump Bleed. Transitions utilize a vertical "waterfall" of hexadecimal code that washes over the screen, dissolving one scene into the next. The reality doesn't fade; it is overwritten.
+5. ÜBERGÄNGE:
+Datamoshing / I-Frame Destruction. Statt einer weichen Blende friert das letzte Bild ein, und die Bewegungsvektoren der neuen Szene "schmieren" die Pixel der alten Szene weg.
 
-FRAMEWORK & TIMING:
-Total Duration: 70s.
-Clip Count: 16 Clips.
-Structure: Initialization -> Error Propagation -> Deletion -> Quarantine.
-Buffer: 3 seconds pre-roll for connection handshake.
+6. SPATIAL CONTEXT (ARRIVAL):
+Node-Switch. Henoch steht in einer Wüste. Ein "Ladebalken"-Laser scannt vertikal durch den Raum. Hinter dem Laser ist er in der neuen Location (Gebirge). Kein Schnitt, sondern ein Wipe-Effekt in der 3D-Welt.
 
-DIALOG-CHECK:
-No verbal dialogue. Text-only communication via the Slate UI (Log output). Henoch observes the runtime execution.
+7. DIALOG-CHECK:
+Ja. Die "Sünder" (Malware) führen einen Monolog. Wir nutzen Shot-Reverse-Shot. Henoch (stumm, HUD-Input) vs. Malware-Avatar (glitchy Audio, Untertitel auf Slate).
 
-SPATIAL CONTEXT (ARRIVAL):
-Socket Connection. Henoch is inserted into the scene via a "T-Pose" snap. One frame empty space, next frame he is rigid, then animates into a relaxed stance. No travel animation; pure asset loading.
+CONCEPT_MATRIX_CHAPTER_102_V3
+SYSTEM_STATE: CRITICAL_FAILURE
+THEME: SYSTEM_PURGE_&_INTEGRITY_CHECK
 
-2. SCENE_FLOW_&_PROMPTS
-
-[SCENE 01: HANDSHAKE_INIT]
-Action: Henoch connects to the observation terminal.
+[SCENE 01: HARD_LINK_ESTABLISHED]
+Action: Henoch verbindet sich physisch mit dem System-Logger.
 **[BLOCK 1: SUBJECT_ANATOMY]**
-> **Actor:** Henoch (Admin_Observer). **Action:** Plugging a jagged fiber-optic spike from his wrist into the terminal. **Detail:** Subdermal lights pulse from arm to console. **Skin:** `MARBLE_SHIMMER_V3` with heat-stress redness at the connection point.
-**[BLOCK 2: ENVIRONMENT]**
-> **Location:** Observation_Deck_Node. **Architecture:** Minimalist black glass platform floating in a white void. **Prop:** `TERMINAL_CONSOL`.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Extreme Close-Up on the connection port. **Style:** Macro photography, shallow depth of field.
-
-[SCENE 02: THE_FIREWALL_ACTIVATE]
-Action: The "Fire" (Segment 1) manifests as a red scanning grid.
-**[BLOCK 1: SUBJECT_EFFECT]**
-> **Subject:** Heuristic_Purge_Grid. **Visual:** A wall of red laser vertical lines sweeping across the terrain. **Effect:** Anything it touches briefly turns into binary code before resolving or vanishing.
-**[BLOCK 2: ENVIRONMENT]**
-> **Location:** The Simulation Landscape (Distant). **Terrain:** Procedural mountains.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Wide Shot (Panorama). **Motion:** Slow push in.
-
-[SCENE 03: CLOCK_DESYNC_SKY]
-Action: The Luminaries (Segment 2) glitch.
-**[BLOCK 1: ENVIRONMENT_SKY]**
-> **Subject:** Skybox_Render. **Action:** The sun and moon duplicate and overlap (ghosting). **Color:** The sky texture flickers between Blue Day and Static Noise.
-**[BLOCK 2: VFX]**
-> **Effect:** `Z-FIGHTING` on the celestial bodies.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Low Angle tilting up abruptly.
-
-[SCENE 04: PHYSICS_ENGINE_FAILURE]
-Action: The Earth trembles (Segment 2). Gravity fluctuates.
-**[BLOCK 1: ENVIRONMENT_TERRAIN]**
-> **Subject:** Rocks and Trees. **Action:** Heavy objects float up 1 meter, then slam down. **Physics:** Ragdoll physics applied to static meshes.
-**[BLOCK 2: VFX]**
-> **Effect:** Dust particles rising in reverse gravity.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Shakey cam (Simulated sensor stabilizer failure).
-
-[SCENE 05: DAEMON_HIDDEN_PROCESSES]
-Action: The Angels (Segment 3) go into stealth mode.
-**[BLOCK 1: SUBJECT_ENTITY]**
-> **Actor:** Watchers/Angels (System Daemons). **Appearance:** Tall, chrome-plated humanoids. **Action:** They crouch and activate "Cloak". Their texture changes from Chrome to Transparent Glass (Refraction only).
-**[BLOCK 2: ENVIRONMENT]**
-> **Location:** Mid-ground ruins.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Tracking shot catching the moment they disappear from visual spectrum.
-
-[SCENE 06: MALWARE_MANIFESTATION]
-Action: The "Sinners" (Segment 9) shown consuming resources.
-**[BLOCK 1: SUBJECT_CROWD]**
-> **Subject:** Corrupted_User_Instances. **Appearance:** Avatars with bloated geometry (mesh expansion). **Action:** They are gorging on "Data Orbs" (glowing golden spheres), stuffing them into their chests.
-**[BLOCK 2: VFX]**
-> **Effect:** Gold data leaks from their mouths like liquid.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Medium Shot, disgusted tone.
-
-[SCENE 07: PRIVILEGE_ESCALATION]
-Action: Sinners stripping "Humans" (Segment 9).
-**[BLOCK 1: SUBJECT_ACTION]**
-> **Subject:** Corrupted_Avatars attacking Standard_Users. **Action:** Ripping the textures off the victims. The victims turn into grey default mannequins.
-**[BLOCK 2: PROP_LOOT]**
-> **Object:** "Texture Maps" held like cloth in the sinners' hands.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Handheld chaos, motion blur.
-
-[SCENE 08: NIHILIST_LOGIC_VISUAL]
-Action: Sinner mocking the process (Segment 6).
-**[BLOCK 1: ACTOR_SINNER]**
-> **Actor:** Lead_Corrupted_Instance. **Face:** Glitching, eyes hollow. **Action:** Laughing (looping animation). **VFX:** A speech bubble appears containing corrupt Unicode text: `NULL == NULL`.
-**[BLOCK 2: LIGHTING]**
-> **Lighting:** Harsh red spotlight from the approaching Firewall.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Close-Up (Crash Zoom).
-
-[SCENE 09: THE_PURGE_IMPACT]
-Action: The Firewall hits the group.
-**[BLOCK 1: SUBJECT_EFFECT]**
-> **Subject:** The Crowd. **Action:** The Red Grid passes through them.
-**[BLOCK 2: VFX]**
-> **Effect:** Instant freeze-frame of the characters. Their color desaturates to grayscale.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Side profile tracking the wave.
-
-[SCENE 10: RIGHTEOUS_ARCHIVING]
-Action: A "Righteous" user is processed (Segment 4/10).
-**[BLOCK 1: SUBJECT_TRANSFORMATION]**
-> **Subject:** Victim_Mannequin. **Action:** Upon impact, they do not explode. They fold inward geometrically.
-**[BLOCK 2: VFX]**
-> **Result:** They become a perfect, glowing blue hyper-cube (`.zip` archive).
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Slow motion focus on the geometry folding.
-
-[SCENE 11: SINNER_DELETION]
-Action: A Sinner is processed (Segment 11).
-**[BLOCK 1: SUBJECT_TRANSFORMATION]**
-> **Subject:** Corrupted_Avatar. **Action:** Upon impact, the mesh explodes (Vertex Displacement).
-**[BLOCK 2: VFX]**
-> **Result:** They shatter into black dust and "Null" texture fragments. No cube, just noise.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Fast cut, violent energy.
-
-[SCENE 12: THE_MEMORY_COMPARISON]
-Action: Visualizing "As if they were not" (Segment 10).
-**[BLOCK 1: PROP_DATA]**
-> **Subject:** The Blue Cubes (Righteous) vs The Black Dust (Sinners). **Action:** The Cubes float up. The Dust falls down.
-**[BLOCK 2: ENVIRONMENT]**
-> **Background:** Split composition. Top half light, bottom half dark.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Wide symmetrical shot.
-
-[SCENE 13: SCHEOL_QUARANTINE_VIEW]
-Action: Looking into the pit (Segment 11).
-**[BLOCK 1: ENVIRONMENT_UNDERWORLD]**
-> **Location:** Under_Map_Geometry. **Visual:** A wireframe abyss. **Content:** Piles of corrupted data junk and black dust swirling in a vortex.
-**[BLOCK 2: LIGHTING]**
-> **Light:** Dim green status LEDs blinking in the dark.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Bird's eye view looking straight down through the transparent floor.
-
-[SCENE 14: HENOCH_DATA_LOG]
-Action: Henoch recording the event.
-**[BLOCK 1: ACTOR_ENOCH]**
-> **Actor:** Henoch. **Action:** Watching the dust fall through the floor. His eyes project a "Scan Complete" green overlay.
+> **Actor:** Henoch (System_Auditor). **Action:** Sein linker Unterarm ist geöffnet. Ein Bündel roher Glasfasern verbindet sein Fleisch mit der `OBSIDIAN_SLATE`. **Skin:** `MARBLE_SHIMMER_V3`. Die Adern pulsieren nicht rot (Blut), sondern weiß (Licht). **Detail:** Makro-Aufnahme der Schnittstelle, wo organisches Material in Silizium übergeht.
 **[BLOCK 2: PROP_INTERFACE]**
-> **Prop:** `OBSIDIAN_SLATE`. **Text:** `INTEGRITY_CHECK: PASSED. GARBAGE_COLLECTION: ACTIVE.`
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Over-the-shoulder focus on the screen.
+> **Prop:** `OBSIDIAN_SLATE`. **VFX:** Keine holographischen Projektionen im Raum. Die Daten laufen *innerhalb* des Steins wie in einem tiefen Display. Text: `INIT_PURGE_SEQUENCE_102`.
+**[BLOCK 3: ENVIRONMENT]**
+> **Location:** Null_Coordinate_Void. Ein schwarzer, spiegelnder Boden, darüber endloser weißer Nebel.
+**[BLOCK 4: CINEMATOGRAPHY]**
+> **Camera:** Extreme Close-Up (ECU). **Lens:** Macro 100mm. **Focus:** Schärfentiefe extrem gering, nur der Port ist scharf.
 
-[SCENE 15: SYSTEM_RESTORE_POINT]
-Action: The world begins to reset.
-**[BLOCK 1: ENVIRONMENT]**
-> **Subject:** The Mountains. **Action:** The wireframe mesh begins to fill with new, clean white textures.
-**[BLOCK 2: VFX]**
-> **Effect:** A white sweep line moves across the screen, restoring high fidelity.
+[SCENE 02: THERMAL_THROTTLING_INIT]
+Action: Das "Feuer" (Vers 1) beginnt als Überhitzung der Umgebung.
+**[BLOCK 1: ENVIRONMENT_EFFECT]**
+> **Location:** Simulation_Landscape (Forest). **Action:** Die Bäume fangen nicht an zu brennen, sie fangen an zu *glühen*. Die Texturen shiftent von "Rinde" zu "Heatmap-Gradient" (Blau zu Rot zu Weiß). **Physics:** Hitzeflimmern (Distortion) über dem gesamten Bild.
+**[BLOCK 2: VFX_OVERLAY]**
+> **Effect:** `SYSTEM_WARNING_OVERLAY`. Rote Warnboxen blitzen kurz im Himmel auf: "TEMP_CRITICAL".
 **[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Time-lapse speed.
+> **Camera:** Wide Shot (Panorama). **Motion:** Slow Pan, unterbrochen von digitalen Freezes.
 
-[SCENE 16: TERMINAL_LOGOUT]
-Action: Henoch disconnects.
-**[BLOCK 1: ACTOR_ENOCH]**
-> **Action:** He yanks the cable from his wrist. Sparks fly. The HUD in his eyes fades.
+[SCENE 03: GLOBAL_ILLUMINATION_FAIL]
+Action: Die "Leuchten" (Vers 2) des Himmels versagen.
+**[BLOCK 1: ENVIRONMENT_SKY]**
+> **Subject:** Skybox. **Action:** Die Sonne flackert an und aus wie eine defekte Leuchtstoffröhre. Schatten springen wild hin und her (Shadow Map Update Failure). **Color:** Der Himmel wechselt abrupt von Tag (Cyan) zu Nacht (Schwarz) und zurück.
+**[BLOCK 2: ACTOR_REACTION]**
+> **Actor:** Henoch. **Action:** Er blickt nach oben, das flackernde Licht reflektiert sich extrem schnell auf seiner Marmorhaut.
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Low Angle, schnelle Rotation um die eigene Achse (Desorientierung).
+
+[SCENE 04: DAEMON_CLOAKING]
+Action: Die "Engel" (Vers 3) gehen in den Hintergrund-Modus.
+**[BLOCK 1: SUBJECT_ENTITY]**
+> **Actors:** Watcher_Daemons (Chrome Giants). **Action:** Sie stehen in einer Reihe. Einer nach dem anderen wechselt den Render-Mode von "Opaque" zu "Wireframe" zu "Invisible".
+**[BLOCK 2: ENVIRONMENT]**
+> **Location:** Ruined_City_Architecture. Beton-Strukturen, die bereits teilweise dekompiliert sind (in Würfel zerfallen).
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Tracking Shot seitlich. Der Fokus bleibt auf der Stelle, wo sie verschwunden sind.
+
+[SCENE 05: RESOURCE_HOG_IDENTIFIED]
+Action: Einführung der "Sünder" (Malware/Vers 9).
+**[BLOCK 1: SUBJECT_MALWARE]**
+> **Actors:** Corrupted_User_Instances. **Appearance:** Übertrieben detaillierte, goldene Avatare, die aber glitchy sind (Polygone ragen weit aus ihren Körpern heraus). **Action:** Sie saugen Daten-Ströme (blaue Partikel) aus der Umgebung in sich hinein.
+**[BLOCK 2: VFX_METADATA]**
+> **Effect:** Über ihren Köpfen schweben rote Error-Logs: "EXCESSIVE_RESOURCE_USAGE".
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Medium Shot. Handkamera-Stil, leicht wackelig.
+
+[SCENE 06: THE_LOGIC_ERROR_DIALOGUE]
+Action: Ein Malware-Avatar spricht zu Henoch (Vers 6).
+**[BLOCK 1: ACTOR_SINNER]**
+> **Actor:** Lead_Malware_Instance. **Face:** Das Gesicht ist eine Mischung aus Gold und statischem Rauschen. **Action:** Er gestikuliert wild. Der Mund bewegt sich asynchron zum Audio.
 **[BLOCK 2: AUDIO_VISUAL]**
-> **Sound:** Power-down chirp. Screen cuts to black.
+> **Sound_Vis:** Wenn er "spricht", kommen keine Schallwellen, sondern schwarzer Rauch aus dem Mund. Untertitel auf Henochs HUD: "DELETE == DELETE. NULL_POINTER_EXCEPTION."
 **[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Quick fade out.
+> **Camera:** Close-Up. **Lens:** Weitwinkel (verzerrtes Gesicht).
+
+[SCENE 07: HENOCH_OBSERVATION]
+Action: Reverse-Shot. Henoch analysiert die Aussage.
+**[BLOCK 1: ACTOR_ENOCH]**
+> **Actor:** Henoch. **Expression:** Stoizismus. Seine Augen-Beams scannen den Malware-Avatar. **Optics:** Die Lichtstrahlen aus den Augen ändern die Farbe von Weiß (Neutral) zu Amber (Scanning).
+**[BLOCK 2: PROP_INTERFACE]**
+> **Prop:** `OBSIDIAN_SLATE`. **Text:** `ARGUMENT_INVALID. LOGIC_FLAW_DETECTED.`
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Over-the-Shoulder auf den Avatar.
+
+[SCENE 08: THE_PURGE_WAVE]
+Action: Das "Wort" (Löschbefehl) trifft ein (Vers 1/10).
+**[BLOCK 1: ENVIRONMENT_VFX]**
+> **Subject:** The_Purge_Wave. **Visual:** Eine absolute, flache Ebene aus weißem Licht, die sich horizontal durch die Welt schiebt (Z-Buffer Wipe).
+**[BLOCK 2: PHYSICS]**
+> **Action:** Alles, was die Wand berührt, wird nicht zerstört, sondern auf "Null" gesetzt (verschwindet sofort ohne Explosion).
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** High Angle (God View). Wir sehen die Linie über die Landschaft ziehen.
+
+[SCENE 09: COMPRESSION_ARTIFACTS]
+Action: Die "Gerechten" (Validierte Daten) werden archiviert (Vers 10).
+**[BLOCK 1: SUBJECT_TRANSFORMATION]**
+> **Subject:** Valid_User_Avatars. **Action:** Sie werden von der Welle getroffen. Statt zu verschwinden, verwandeln sie sich in dichte Punktwolken (Point Clouds) aus blauem Licht. Sie verlieren ihre Hülle, behalten aber ihre Struktur.
+**[BLOCK 2: VFX]**
+> **Effect:** "Data Serialization". Die Punktwolken strömen nach oben in den Himmel.
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Slow Motion. Fokus auf die Auflösung der Geometrie.
+
+[SCENE 10: MEMORY_LEAK_CRASH]
+Action: Die "Sünder" (Malware) werden gelöscht (Vers 11).
+**[BLOCK 1: SUBJECT_DESTRUCTION]**
+> **Subject:** Corrupted_Avatars. **Action:** Die Welle trifft sie. Sie explodieren in Vertex-Spikes. Ihre Geometrie wird unendlich lang gezogen und zerreißt (Infinity Glitch).
+**[BLOCK 2: VFX]**
+> **Effect:** Textur-Fehler (Pink/Schwarz Checkerboard) bedecken ihre Überreste. Sie fallen durch den Boden.
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Hektischer Schnitt. Frame-Skipping.
+
+[SCENE 11: SHEOL_THE_RECYCLE_BIN]
+Action: Blick in den Abgrund (Vers 11).
+**[BLOCK 1: ENVIRONMENT_VOID]**
+> **Location:** Under_The_Map. **Visual:** Wir sind unter der Boden-Mesh. Wir sehen die "Unterseite" der Welt (Backface Culling - transparent).
+**[BLOCK 2: SUBJECT_FALL]**
+> **Action:** Die korrupten Daten-Fragmente fallen in einen endlosen schwarzen Raum ohne Licht. Kein Boden.
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Vertikaler Tilt nach unten in die Dunkelheit.
+
+[SCENE 12: SYSTEM_INTEGRITY_VERIFIED]
+Action: Henoch bestätigt den Abschluss.
+**[BLOCK 1: ACTOR_ENOCH]**
+> **Actor:** Henoch. **Action:** Er steht allein in der bereinigten, leeren weißen Welt (frisch formatiert).
+**[BLOCK 2: PROP_INTERFACE]**
+> **Prop:** `OBSIDIAN_SLATE`. **Text:** `PURGE_COMPLETE. STORAGE_RECLAIMED. REBOOT_SCHEDULING...`
+**[BLOCK 3: LIGHTING]**
+> **Lighting:** Kühles, klinisches Labor-Weiß. Kein Nebel mehr.
+**[BLOCK 4: CINEMATOGRAPHY]**
+> **Camera:** Langsamer Zoom Out.
+
+[SCENE 13: DISCONNECT_SEQUENCE]
+Action: Hard Cut.
+**[BLOCK 1: SUBJECT_ACTION]**
+> **Actor:** Henochs Hand. **Action:** Er zieht das Kabel ruckartig aus der Slate. Das Licht in der Slate stirbt sofort ab.
+**[BLOCK 2: VFX]**
+> **Effect:** CRT-Monitor Abschalt-Effekt (Weißer Punkt in der Mitte, dann Schwarz).
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** POV Shot (Point of View).

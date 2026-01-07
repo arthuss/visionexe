@@ -1,0 +1,30 @@
+## [SET_ENVIRONMENT] Wale'ete Sir'ate R'yni (ID: SETENV_WALE_ETE_SIR_ATE_R_YNI)
+**Description:** Wale'ete Sir'ate R'yni is a subterranean sanctum carved into a basalt cliff, its walls etched with ancient Ethiopian and Egyptian glyphs that pulse with bio‑luminescent algae. Massive crystalline pillars rise from the floor, channeling unseen energy through copper conduits etched with sigils. At the heart lies a shallow, obsidian‑lined pool that reflects the glow of the glyphs, its surface rippling with faint, phosphorescent mist. The air is cool, tinged with the scent of mineral water and damp stone, while faint mechanical hums echo from hidden chambers, hinting at incomprehensible technology woven into the very stone.
+**Tags:** #ancient-tech #industrial mysticism #Ethiopian-Egyptian #environment #starting location
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** cavernous chamber with basalt walls, towering crystalline pillars, obsidian pool, copper conduit network
+*   **Face/Sensors:** central glyph‑encoded crystal node (Siren's Eye) projecting a soft amber light, embedded in the pool rim
+*   **Clothing/Armor:** weathered stone surfaces, etched glyphs, bio‑luminescent algae coating, copper plating on pillars
+*   **Key Features:** phosphorescent mist, glyph‑encoded AI conduits, crystalline energy channels, ancient stone carvings
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Construction): Basalt walls carved, glyphs etched, copper conduits laid, crystalline pillars erected
+*   Phase 2 (Activation): Glyphs illuminated, bio‑luminescent algae introduced, energy channels engaged, central node activated
+
+### 3. PROPS & EQUIPMENT
+*   Item: Crystalline Ankh Gate – a massive, obsidian‑crystal gate with an embedded glyph that opens when the central node is activated
+*   Item: Scribe's Tablet – a weathered basalt tablet with a holographic interface, used to input commands into the glyph‑encoded AI
+
+### 4. AI PROMPT KEYWORDS
+`ancient`, `tech`, `mystic`, `Ethiopian`, `Egyptian`, `crystalline`, `bio-luminescent`, `basalt`, `obsidian`, `copper`
+
+### 5. PROMPT BLOCK (T2I)
+A cavernous subterranean sanctum carved into basalt cliffs, walls etched with ancient Ethiopian and Egyptian glyphs that glow with bio‑luminescent algae, towering crystalline pillars channeling unseen energy through copper conduits, a shallow obsidian‑lined pool reflecting amber light from a central glyph‑encoded crystal node, phosphorescent mist swirling over the stone, a cool, damp atmosphere with faint mechanical hums, photorealistic, tactile, grounded realism, ancient-tech industrial mysticism
+
+### 6. PHASE PROMPTS
+*   **Default:** Initial state of the sanctum with all features active
+    Prompt: A cavernous subterranean sanctum carved into basalt cliffs, walls etched with ancient Ethiopian and Egyptian glyphs that glow with bio‑luminescent algae, towering crystalline pillars channeling unseen energy through copper conduits, a shallow obsidian‑lined pool reflecting amber light from a central glyph‑encoded crystal node, phosphorescent mist swirling over the stone, a cool, damp atmosphere with faint mechanical hums, photorealistic, tactile, grounded realism, ancient-tech industrial mysticism
+    Keywords: ancient, tech, mystic, Ethiopian, Egyptian, crystalline, bio-luminescent, basalt, obsidian, copper
+
+---

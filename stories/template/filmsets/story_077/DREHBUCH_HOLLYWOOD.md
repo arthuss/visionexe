@@ -1,167 +1,107 @@
 # DREHBUCH KAPITEL 77 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Ich sah die Architektur der Winde, jene verborgene Logik, die den Kreis der Erde schließt. Vier Tore öffneten sich für den Atem des Systems, und ich erkannte die sieben Berge aus Eis, errichtet, um die Hitze der Ordnung zu binden. Alles fließt hier in Kanälen aus Licht, nichts ist dem Zufall überlassen, denn die Schöpfung duldet keine Leere.
+NARRATOR_TEXT: Ich griff in das Nervensystem der Erde und fühlte die Kälte ihrer Logik. Es gibt keinen Wind, nur Datenströme, die durch Kanäle aus Licht gepeitscht werden. Ich sah die sieben schwarzen Türme, die die Hitze der Berechnung in den Leerraum ableiten, und verstand, dass Chaos nur ein ungelöster Algorithmus ist.
 
-## [ACT I] [SCENE 1.1] [Timecode: 00:00-00:03] [THE_MERKABAH_GRID]
-**Action:** The Merkabah (Glass Tetrahedron) rotates silently in the upper stratosphere. Earth below is a dark, matte-black circuit board.
+## [ACT I] [SCENE 1.1] [Timecode: 00:00-00:05] [BOOT_SEQUENCE]
+**Action:** The Merkabah tetrahedron rotates in geostationary orbit. Earth is a dark grid below.
 **Dialog:** N/A
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Stratosphere Orbit", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Merkabah Tetrahedron"], "camera": "14mm God-Eye / High Orbit", "mood": ["awe", "technological_sublime"], "director_intent": "Establish the observer's isolation and the artificial nature of the planet below.", "start_image_keywords": ["glass tetrahedron", "stratosphere", "matte black earth grid"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Stratosphere Orbit", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Merkabah Tetrahedron"], "camera": "EWS / Orbital Drift", "mood": ["sterile", "technological"], "director_intent": "Establish the observer platform as a detached, high-tech monitoring station.", "start_image_keywords": ["glass tetrahedron", "dark earth grid", "orbit"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Cinematic wide shot from high stratosphere. A perfect, transparent glass tetrahedron (Merkabah) rotates slowly against the void of space. Inside, a tiny, glowing silver silhouette (Enoch) is suspended. Below, the Earth is not organic but a massive, infinite matte-black circuit board grid with faint gold traces. Harsh sunlight strikes the glass edges, creating prismatic diffraction spikes. 8k photorealistic sci-fi, sterile aesthetic.
+Vertical 9:16 aspect ratio. Extreme Wide Shot from the upper stratosphere. A sharp, perfect glass tetrahedron (The Merkabah) rotates slowly in the void. Inside, a tiny, glowing white silhouette of Enoch is suspended in zero-g. Below, the Earth is a dark, matte-black sphere with a faint, high-resolution gold circuit-grid overlay. The lighting is harsh, high-contrast, deep space sun. 8k photorealistic sci-fi.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-The Merkabah Vehicle, a crystalline geometric structure. Enoch is visible inside as a small, high-contrast silhouette.
+The Merkabah vehicle, crystalline and transparent. Enoch visible as a small pilot silhouette inside.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-Enoch in "Voyager" phase, silver-skin shader, barely visible through refraction.
+N/A (Distance).
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-The edge of space. The Earth below is a dark, metallic grid, devoid of clouds or oceans, purely structural.
+Geostationary orbit. The stars are static points of light. The Earth below is a mechanical sphere.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Single directional light source (The Sun) creating sharp shadows on the hull. The Earth grid emits a faint, deep subsurface glow.
+Single directional sunlight. Sharp prismatic reflections on the glass edges. Deep black shadows.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Vertical 9:16. Slow, majestic rotation of the vehicle. Camera floats with zero friction. High stabilization.
+Vertical 9:16. Slow, heavy orbital drift. The camera feels like a satellite with mass.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep 40Hz sub-bass sine wave (Server Hum). The sound of a vacuum—muted, muffled atmosphere. A faint crystalline resonance from the glass structure.
+Deep sub-bass sine wave (40Hz vacuum hum). Sparse, digital telemetry chirps. The sound of silence and pressure.
 
 
-## [ACT I] [SCENE 1.2] [Timecode: 00:03-00:05] [HAPTIC_HANDSHAKE]
-**Action:** MCU on Enoch holding the Obsidian Tablet. He swipes a glowing rune.
+## [ACT I] [SCENE 1.2] [Timecode: 00:05-00:10] [NEURAL_SHUNT]
+**Action:** Henoch's hand presses the Obsidian Tablet. Liquid gold filaments penetrate his skin.
 **Dialog:** N/A
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "medium_close_up", "environment": "Inside Merkabah", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Wave Interface Block"], "camera": "50mm / Sharp Focus", "mood": ["focus", "initiation"], "director_intent": "Capture the precise moment of manual interaction with the system.", "start_image_keywords": ["silver skin", "obsidian tablet", "glowing rune"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Inside Merkabah", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Obsidian Tablet", "Liquid Light Filaments"], "camera": "Macro / Hand Focus", "mood": ["invasive", "intense"], "director_intent": "Show the connection not as a touch, but as a biological injection of data.", "start_image_keywords": ["obsidian tablet", "liquid gold tendrils", "pale hand"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Medium Close-Up of Enoch (Voyager Phase). His skin is a pale, translucent silver material. He holds a slab of black obsidian (Tablet). His finger traces a complex golden rune on the surface. The light from the rune reflects sharply in his HUD-Visor. Background is the blurred curvature of the black Earth. High contrast, technical lighting.
+Vertical 9:16 aspect ratio. Macro Close-Up of Enoch's pale hand pressing into a slab of black Obsidian. The stone surface ripples like dark mercury. Glowing liquid gold micro-filaments extrude from the tablet and pierce his fingertips, traveling up under his translucent skin like glowing veins. High contrast, medical-tech aesthetic.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-Enoch, Voyager Phase. Translucent silver skin. Detailed facial features behind a glass visor.
+Enoch's hand and wrist. Pale, marble-like skin.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-Idris-Gloves with golden contact pads. The Obsidian Tablet is matte black with self-illuminated glyphs.
+The Obsidian Tablet (Wave Interface Block).
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Interior of the glass cockpit. Reflections of the exterior grid on the glass walls.
+Dark interior of the cockpit.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Cool ambient light from space, warm gold light from the tablet interaction.
+The light comes from the gold filaments under the skin. Subsurface scattering is intense.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Vertical 9:16. Sharp focus on the hand and tablet. Shallow depth of field. Minimal camera movement.
+Vertical 9:16. Sharp macro focus. The filaments move rapidly up the arm.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitch capacitor whine charging up. A sharp, digital "chirp" upon touch. The sound of a heavy magnetic lock engaging.
+Wet, biological squelch sound mixed with high-pitch modem static. A heavy thud of connection.
 
 
-## [ACT I] [SCENE 1.3] [Timecode: 00:05-00:07] [BIO_FEEDBACK]
-**Action:** Fiber-optic cables in Enoch's neck pulse Gold. His skin ripples/tightens (Physical pain of bandwidth).
+## [ACT I] [SCENE 1.3] [Timecode: 00:10-00:15] [EYE_GLITCH]
+**Action:** Henoch's head snaps back. His eyes roll back, displaying scrolling green hex-dumps on the sclera.
 **Dialog:** N/A
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Inside Merkabah", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Fiber Optic Cables"], "camera": "85mm Macro / Skin Texture", "mood": ["pain", "intensity"], "director_intent": "Show that data transfer is a physical, invasive process.", "start_image_keywords": ["glowing veins", "fiber optics neck", "silver skin texture"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "Inside Merkabah", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Bio-Aug Cables"], "camera": "ECU / Eye Focus", "mood": ["overload", "trance"], "director_intent": "The biological eye is overwritten by the digital display.", "start_image_keywords": ["white eyes", "scrolling hex code", "silver skin"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Extreme Macro shot of the side of Enoch's neck. Semi-translucent silver skin reveals embedded fiber-optic cables underneath. The cables are pulsing with blinding gold light. The skin around the implants is tightening and rippling like liquid metal under stress. Sweat beads are forming, but they look like mercury. Ultra-detailed texture.
+Vertical 9:16 aspect ratio. Extreme Close-Up of Enoch's face. His head is tilted back in a spasm. His eyelids are forced open. The eyeballs have rolled back, and the white sclera is covered in rapidly scrolling bright green hexadecimal code. Gold fiber-optic cables in his neck pulse violently. Silver sweat beads on his forehead.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-Enoch's neck and jawline. Subdermal cabling system.
+Enoch's face. Eyes and neck cables.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-Integrated data-shunts. No external suit, the tech is internal.
+Integrated neural shunts.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Blurred interior background.
+Blurred cockpit background.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Subsurface scattering is key here. The light comes from *inside* the neck, illuminating the tissue.
+Green light from the eye-code illuminating the face. Gold pulses from the neck.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Vertical 9:16. Macro lens. Focus breathing as the veins pulse. Physical twitching motion of the muscles.
+Vertical 9:16. Handheld micro-shakes to simulate vibration/seizure.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Wet biological squelch mixed with high-speed modem handshake static. A deep thumping heartbeat.
+Sharp electric discharge crackle. Rapid data-scroll clicking. A sudden intake of breath.
 
 
-## [ACT I] [SCENE 1.4] [Timecode: 00:07-00:10] [GRID_OVERLAY_POV]
-**Action:** POV through the Visor. The dark Earth is overlaid with a sharp, glowing gold Wireframe Grid. High-Fidelity, no pixels.
+## [ACT II] [SCENE 2.1] [Timecode: 00:15-00:19] [VECTOR_EAST]
+**Action:** A vertical slit in the horizon emits a high-velocity green data stream across the grid.
 **Dialog:** N/A
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "point_of_view", "framing": "wide", "environment": "Earth Orbit POV", "env_change": true, "actors": [], "props": ["HUD Overlay", "Gold Wireframe"], "camera": "POV / HUD locked", "mood": ["analytical", "augmented"], "director_intent": "Visualize the diagnostic mode taking over reality.", "start_image_keywords": ["gold wireframe earth", "hud overlay", "dark terrain"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Eastern Horizon", "env_change": true, "actors": [], "props": ["Green Data Stream"], "camera": "Static Wide", "mood": ["energetic", "digital"], "director_intent": "Visualize the 'East Wind' as a raw data input bus.", "start_image_keywords": ["vertical sky slit", "green matrix wind", "dark grid"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. First-person POV looking down at the dark, matte-black Earth terrain. A sharp, continuous gold wireframe mesh is superimposed over the mountains and valleys. The mesh is high-resolution, not blocky. Digital HUD elements (Ge'ez script and telemetry bars) float in the peripheral vision. "Texture Culling" aesthetic.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-N/A (POV).
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-Helmet HUD boundaries visible at the edges.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Orbit looking down. The terrain geometry is scanned in real-time.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Dark world, bright gold data overlay.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Vertical 9:16. The grid "snaps" onto the terrain with a glitch effect. Rapid scrolling numbers.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy "Thud" sound of the grid locking in place. Rapid digital telemetry scrolling (beeps and clicks).
-
-
-## [ACT I] [SCENE 1.5] [Timecode: 00:10-00:15] [REACTION_EAST]
-**Action:** Enoch stabilizes. He looks East. The Tablet glows Green.
-**Dialog:** N/A
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Inside Merkabah", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Obsidian Tablet"], "camera": "35mm / Whip Pan", "mood": ["alert", "discovery"], "director_intent": "Connect the actor's gaze to the next geographic event.", "start_image_keywords": ["enoch profile", "green light reflection", "looking east"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Medium shot of Enoch (Voyager) inside the glass cockpit. He is breathing heavily, recovering from the sync. He turns his head sharply to the right (East). The Obsidian tablet in his hand emits a strong green light, illuminating his silver face and visor. Background stars streak slightly, indicating rotation.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-Enoch, Voyager Phase. Visor is reflective but shows his eyes searching.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-Tech-suit details, haptic gloves.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Cockpit interior.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Green rim-light from the tablet dominant.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Vertical 9:16. Whip-pan camera movement matching his head turn. Sudden stabilization.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Turbine spin-up sound (rising pitch). A heavy breath exhale. Mechanical servo sound from the suit.
-
-
-## [ACT II] [SCENE 2.1] [Timecode: 00:15-00:18] [THE_EAST_INJECTION]
-**Action:** The Eastern Horizon. A vertical slit of white light opens. Green fluid data streams flood the grid.
-**Dialog:** N/A
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Eastern Horizon", "env_change": true, "actors": [], "props": ["Data Stream Particles"], "camera": "Drone Tracking / Smooth Pan", "mood": ["energetic", "creation"], "director_intent": "Visualize the 'East Wind' as a raw data injection stream.", "start_image_keywords": ["green data river", "vertical light portal", "matrix code flow"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. A surreal digital landscape. On the horizon, a massive vertical slit of blinding white light acts as a gate. Pouring out of it is a horizontal river of glowing green binary code and high-density particles. The stream floods over the dark, metallic ground. Volumetric lighting rays beam from the gate. 8k, highly detailed particle simulation.
+Vertical 9:16 aspect ratio. Wide shot of the dark, metallic Earth grid. On the Eastern horizon, a perfect vertical black slit opens in the skybox. Blasting out of it is a horizontal "wind" made of millions of glowing green data particles and voxel-blocks. The stream illuminates the grid traces as it hits the ground. Volumetric light shafts.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
@@ -171,207 +111,207 @@ N/A. Subject is the Data Stream.
 N/A.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Infinite flat grid (Earth). The Gate is the focal point.
+Infinite flat circuit terrain.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Intense White center, Green ambient flow. High contrast.
+Deep black background, intense Matrix-green foreground light.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Vertical 9:16. Smooth panning shot following the flow of the particles. No camera shake.
+Vertical 9:16. Totally static camera. The movement is entirely within the high-speed data stream.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Rushing water sound, but synthesized and digital. Positive, uplifting chimes or major-key synth pads.
+A roaring wind sound, but composed of bit-crushed digital noise and static. Aggressive and loud.
 
 
-## [ACT II] [SCENE 2.2] [Timecode: 00:18-00:21] [THE_WEST_ENTROPY]
-**Action:** The West. Dark, red smog. Particles are being sucked out of the grid into a black vortex.
+## [ACT II] [SCENE 2.2] [Timecode: 00:19-00:23] [VECTOR_WEST]
+**Action:** A jagged tear in the reality mesh sucks debris into a red void. Glitch artifacts.
 **Dialog:** N/A
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Western Horizon", "env_change": true, "actors": [], "props": ["Red Smog", "Black Vortex"], "camera": "Low Angle / Shaky Handheld", "mood": ["decay", "corruption"], "director_intent": "Contrast the clean input of the East with the dirty exhaust of the West.", "start_image_keywords": ["red toxic smog", "black vortex", "glitching terrain"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Western Horizon", "env_change": true, "actors": [], "props": ["Red Vortex", "Glitch Artifacts"], "camera": "Handheld / Shaky", "mood": ["destructive", "corrupt"], "director_intent": "Visualize the 'West Wind' as entropy and data deletion.", "start_image_keywords": ["reality tear", "red suction vortex", "glitch terrain"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Industrial wasteland on the grid. The air is choked with heavy red toxic smog. In the distance, a black suction vortex spirals, pulling debris and particles *out* of the ground. The terrain wireframe is broken, flickering and glitching near the vortex. Rusty metal textures. Dark, oppressive atmosphere.
+Vertical 9:16 aspect ratio. The Western horizon. A jagged, unstable tear in the reality mesh reveals a deep red void. Dust, rocks, and code fragments are being violently sucked *into* the tear. The terrain around the event is glitching—textures are missing, revealing wireframes. The atmosphere is choked with red smog.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-N/A. Subject is the Entropy Vortex.
+N/A. Subject is the Entropy Event.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
 N/A.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Corrupted sector of the Earth Grid.
+Corrupted sector of the grid.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Dim, flickering red emergency lights. Deep shadows.
+Dim red emergency lighting. Strobe effects from the glitching mesh.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Vertical 9:16. Handheld, shaky camera. Simulation of "glitch" cuts and artifacting.
+Vertical 9:16. Handheld, uneasy camera motion. Simulated digital artifacting on the lens.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Geiger-counter crackling. Distorted white noise. A low, moaning wind sound. Warning siren in the distance.
+Vacuum suction roar. Low-frequency distortion / bass drops. Geiger-counter clicking.
 
 
-## [ACT II] [SCENE 2.3] [Timecode: 00:21-00:25] [THE_SOUTH_POWER]
-**Action:** The South. A blinding vertical laser beam strikes the center. Power Delivery. The ground ripples.
+## [ACT II] [SCENE 2.3] [Timecode: 00:23-00:25] [REACTION_TWITCH]
+**Action:** Henoch twitches in the cockpit. Gold pulses in his neck cables intensify.
 **Dialog:** N/A
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "high_angle", "framing": "wide", "environment": "Southern Horizon", "env_change": true, "actors": [], "props": ["Vertical Laser Beam"], "camera": "Top Down / High Angle", "mood": ["power", "energy"], "director_intent": "Show the South Wind as the main power delivery mechanism.", "start_image_keywords": ["white laser beam", "ground ripples", "gold sparks"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Inside Merkabah", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Locked Medium", "mood": ["strain", "processing"], "director_intent": "Connect the external chaos to the internal processing load.", "start_image_keywords": ["enoch twitch", "gold neck pulse", "silver skin"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. High-angle view looking down at a focal point on the grid. A massive, blindingly bright white laser beam strikes the ground from the sky. The impact point is not destroyed but energized—the ground ripples like liquid gold. Shockwaves of light travel outwards. Clean, high-energy aesthetic.
+Vertical 9:16 aspect ratio. Medium shot of Enoch in the pilot seat. He is physically vibrating/twitching as if electrocuted. The gold light in his neck cables is strobing rapidly. His silver skin reflects the red and green warning lights from the dashboard. His expression is one of intense focus and pain.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-N/A. Subject is the Laser Beam.
+Enoch, Voyager Phase.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+Tech-suit.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+Cockpit interior.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+Strobing Gold, Red, Green.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+Vertical 9:16. Locked-off camera. The only movement is the actor's spasms and the light changes.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Rising electric hum/whine. Beating heart sound.
+
+
+## [ACT II] [SCENE 2.4] [Timecode: 00:25-00:30] [NORTH_USERLAND]
+**Action:** Endless canyon of grey server racks. Millions of tiny blue status LEDs.
+**Dialog:** N/A
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "aerial", "framing": "wide", "environment": "Server Favela", "env_change": true, "actors": [], "props": ["Server Stacks"], "camera": "Drone Flyover", "mood": ["mundane", "vast"], "director_intent": "Show the 'Dwelling of Men' as massive, cold storage.", "start_image_keywords": ["infinite server canyon", "grey containers", "blue leds"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio. Aerial drone shot flying through an endless canyon of towering grey structures. They are stacks of shipping containers mixed with server racks, reaching miles high. Thick cables drape between them like vines. Millions of tiny blue LEDs blink in unison. The atmosphere is a dull, dusty grey.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+N/A. Subject is the Server City.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
 N/A.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Center of the South Sector.
+Urban density, infinite scale.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Overexposed white core, gold spill light.
+Flat, diffuse grey light. Point-source blue lights.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Vertical 9:16. Stable, top-down camera. The ripples on the ground move in slow motion.
+Vertical 9:16. Fast, smooth forward flight through the canyon.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep electrical arc sound (Thunder). A resonant, heavy bass thrum. No wind, just raw power.
+A continuous drone of millions of cooling fans. Distant muffled traffic/crowd noise.
 
 
-## [ACT II] [SCENE 2.4] [Timecode: 00:25-00:29] [THE_NORTH_SPLIT]
-**Action:** The North Vector splits into three distinct fiber-cables.
+## [ACT II] [SCENE 2.5] [Timecode: 00:30-00:35] [NORTH_PHYSICS]
+**Action:** A fluid simulation tank. Black water crashes against invisible walls. Cryo-fog.
 **Dialog:** N/A
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Northern Horizon", "env_change": true, "actors": [], "props": ["Massive Fiber Cables"], "camera": "Tracking Shot", "mood": ["structural", "industrial"], "director_intent": "Visualize the partitioning of the North Wind.", "start_image_keywords": ["three giant cables", "industrial splitter", "north horizon"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Fluid Simulation", "env_change": true, "actors": [], "props": ["Black Water", "Cryo Fog"], "camera": "Low Angle / Wide", "mood": ["turbulent", "raw"], "director_intent": "Visualize 'Water and Mist' as a contained physics simulation.", "start_image_keywords": ["black ocean waves", "invisible wall", "white fog"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. The Northern horizon is dark and cold. A single massive pipeline (The North Wind) travels along the ground and then feeds into a colossal industrial splitter. From the splitter, three distinct, glowing fiber-optic cables emerge and diverge in different directions. The scale is massive, like oil pipelines but made of light and glass.
+Vertical 9:16 aspect ratio. Low angle shot of a massive, turbulent body of black, oily water. The waves are huge but crash against a flat, invisible vertical barrier in the foreground, sliding down like on glass. Thick, heavy white cryo-fog rolls off the water surface. Large industrial pipes run vertically in the background.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-N/A. Subject is the Pipeline Infrastructure.
+N/A. Subject is the Water Simulation.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
 N/A.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-A dark, frozen plain.
+Containment reservoir.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Cold blue ambient light. The cables glow internally (One White, One Blue, One Red).
+Cold monochromatic blue/grey. High gloss reflections on the black water.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Vertical 9:16. Tracking shot moving alongside the main pipeline until it splits.
+Vertical 9:16. Heavy camera shake synced with wave impacts.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Hydraulic hiss of a massive valve opening. Mechanical clanking. Flowing gas sound.
+Loud hydraulic crashing sounds. Hissing of pressurized steam escaping.
 
 
-## [ACT II] [SCENE 2.5] [Timecode: 00:29-00:32] [PARTITION_01_USERLAND]
-**Action:** Endless grey city containers. Millions of tiny lights. Standard operation.
+## [ACT II] [SCENE 2.6] [Timecode: 00:35-00:40] [NORTH_ROOT]
+**Action:** A hermetic glass dome in the void. Inside is a glowing Gold Fractal Tree.
 **Dialog:** N/A
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Server Favela", "env_change": true, "actors": [], "props": ["Container Stacks"], "camera": "Aerial / Drone Flyover", "mood": ["oppressive", "mundane"], "director_intent": "Show the 'Dwelling of Men' as a dense storage partition.", "start_image_keywords": ["grey container skyscrapers", "infinite city", "tiny lights"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "medium", "framing": "wide", "environment": "Clean Room Dome", "env_change": true, "actors": [], "props": ["Gold Tree", "Glass Dome"], "camera": "Dolly In", "mood": ["holy", "isolated"], "director_intent": "The 'Garden of Righteousness' is a protected, sterile root directory.", "start_image_keywords": ["gold fractal tree", "glass dome", "black void"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Aerial view of an infinite city. The buildings are not normal skyscrapers but stacks of grey shipping containers and server racks, reaching miles high. Wires drape between them. Millions of tiny, flickering yellow lights (windows/LEDs) indicate activity. The atmosphere is hazy and grey. "Favela" aesthetic but made of hardware.
+Vertical 9:16 aspect ratio. A pristine, spherical glass dome floats in absolute darkness. Inside the dome, the floor is pure white. In the center stands a perfect, geometric tree made of glowing gold fractals. The contrast between the pitch-black exterior and the blindingly bright interior is extreme. "Access Level: Root" holographic tag floats near it.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-N/A.
+N/A. Subject is the Tree.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
 N/A.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Dense urban canyon.
+Void space / Clean Room.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Flat, grey daylight. Sodium-vapor yellow point lights.
+Internal emission (Gold/White). No external light.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Vertical 9:16. Fast drone flyover through the canyon of servers.
+Vertical 9:16. Smooth, slow dolly-in towards the glass.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Dull roar of a distant crowd mixed with traffic noise. Hard drive read/write scratching sounds.
+Absolute silence abruptly cutting the previous noise. A faint, pure high-frequency sine wave.
 
 
-## [ACT II] [SCENE 2.6] [Timecode: 00:32-00:36] [PARTITION_02_PHYSICS]
-**Action:** Chaotic black fluid simulation crashing against invisible barriers. Thick white fog.
+## [ACT II] [SCENE 2.7] [Timecode: 00:40-00:45] [UI_HOLOGRAM]
+**Action:** Henoch points. Holographic text `//SYS_AUDIT: THERMAL` appears in world-space.
 **Dialog:** N/A
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "medium", "framing": "medium", "environment": "Coolant Reservoir", "env_change": true, "actors": [], "props": ["Black Water", "Steam"], "camera": "Handheld / Uneasy", "mood": ["turbulent", "wild"], "director_intent": "Visualize the 'Water and Mist' as a raw physics engine simulation.", "start_image_keywords": ["black water crashing", "white mist", "invisible wall"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "interface", "shot_type": "medium", "framing": "medium", "environment": "Inside Merkabah", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Hologram UI"], "camera": "Over-the-shoulder", "mood": ["analytical", "ready"], "director_intent": "Transition from observation to active diagnostics.", "start_image_keywords": ["holographic text", "pointing hand", "silver glove"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. A massive, turbulent reservoir of black, oily water. The water waves are crashing violently against an invisible, vertical barrier (a forcefield or glass wall). Thick white industrial steam (Mist) rises from the surface, obscuring the background. The lighting is harsh and cold.
+Vertical 9:16 aspect ratio. Over-the-shoulder shot of Enoch inside the cockpit. He points a silver-gloved finger towards the window. Floating in the air, aligned with the view outside, is sharp holographic text: "//SYS_AUDIT: THERMAL" in a monospaced font. The text glows cyan. Background is the dark Earth grid.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-N/A.
+Enoch's back/shoulder.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-N/A.
+Idris-Gloves.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-A containment tank of infinite size.
+Cockpit interior.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Monochrome with cold blue tints. High contrast reflections on the black water.
+Cyan glow from the UI element.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Vertical 9:16. Handheld camera, slightly shaky, reacting to the heavy water impacts.
+Vertical 9:16. Rack focus from the hand to the hologram.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud crashing waves. Hissing of steam release. Heavy, viscous liquid sounds.
+Digital UI chirp. A confirmed "Enter" key sound.
 
 
-## [ACT II] [SCENE 2.7] [Timecode: 00:36-00:40] [PARTITION_03_ROOT]
-**Action:** A hermetically sealed dome. Inside: A single Fractal Gold Tree in a sterile white void.
+## [ACT III] [SCENE 3.1] [Timecode: 00:45-00:51] [MOUNTAINS_HEATSINK]
+**Action:** Seven massive black pyramids. Peaks covered in white nitrogen frost and vapor.
 **Dialog:** N/A
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Clean Room Dome", "env_change": true, "actors": [], "props": ["Gold Fractal Tree", "Glass Dome"], "camera": "Symmetrical / Dolly In", "mood": ["holy", "sterile"], "director_intent": "The Garden of Righteousness as a protected Root Directory.", "start_image_keywords": ["golden tree", "white void", "glass dome"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Mountain Array", "env_change": true, "actors": [], "props": ["Black Pyramids", "Frost Vapor"], "camera": "Slow Zoom / EWS", "mood": ["monumental", "cold"], "director_intent": "Reveal the mountains as massive industrial heatsinks.", "start_image_keywords": ["black pyramids", "white frost caps", "vapor avalanche"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Looking into a hermetically sealed glass dome. Inside is a pure white, featureless floor. In the center stands a magnificent tree made of glowing, fractal gold geometry. It is perfectly symmetrical. The background outside the dome is total darkness. The interior is blindingly bright and sterile.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-N/A. Subject is the Fractal Tree.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-N/A.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-High-tech clean room / Biosphere.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-High-key white and gold. No shadows inside the dome.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Vertical 9:16. Slow, smooth dolly-in towards the tree. Symmetrical composition.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Absolute silence cutting off the previous noise. A faint, high-pitched sine wave (Holy frequency).
-
-
-## [ACT III] [SCENE 3.1] [Timecode: 00:40-00:44] [THE_7_MOUNTAINS]
-**Action:** Seven massive black graphene monoliths in a ring. Coated in thick white industrial frost.
-**Dialog:** N/A
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "low_angle", "framing": "wide", "environment": "Mountain Array", "env_change": true, "actors": [], "props": ["Black Pyramids", "Frost"], "camera": "Low Angle / Orbit", "mood": ["monolithic", "cold"], "director_intent": "Reveal the mountains as functional heatsink components.", "start_image_keywords": ["black pyramids", "white frost", "circle array"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Low angle view looking up at a ring of seven colossal pyramids. They are made of matte-black material (graphene/obsidian) but are heavily coated in white crystalline frost. Cold white vapor (Liquid Nitrogen fog) rolls down their sides. They pierce through a low cloud layer. Epic scale.
+Vertical 9:16 aspect ratio. Extreme Wide Shot. A circle of seven colossal, matte-black pyramids (Graphene Monoliths). They pierce through a low cloud layer. The upper third of each pyramid is coated in thick white frost. Heavy white vapor (Liquid Nitrogen fog) cascades down their smooth sides like an avalanche. 8k, epic scale.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
@@ -381,57 +321,117 @@ N/A. Subject is the Heatsink Array.
 N/A.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Frozen tundra.
+Frozen tundra environment.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Cold blue and black. Sharp highlights on the ice crystals.
+Cold blue/white natural light. Dark black shadows on the structures.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Vertical 9:16. Slow orbital camera move around the ring.
+Vertical 9:16. Slow, steady zoom in towards the central pyramid.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Cracking and snapping of ice. Deep thermal groaning (metal contracting). Wind howling.
+Loud, deep 60Hz server hum. The sound of a massive avalanche/wind.
 
 
-## [ACT III] [SCENE 3.2] [Timecode: 00:44-00:47] [COOLANT_RIVERS]
-**Action:** Glowing Blue viscous liquid flows in straight lines, making sharp 90-degree turns.
+## [ACT III] [SCENE 3.2] [Timecode: 00:51-00:55] [PEAK_MACRO]
+**Action:** Macro shot of the frost forming crystalline structures on the black surface.
 **Dialog:** N/A
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Circuit Landscape", "env_change": true, "actors": [], "props": ["Blue Coolant Rivers"], "camera": "Top Down / Tracking", "mood": ["cybernetic", "flow"], "director_intent": "The rivers are circuit traces carrying coolant.", "start_image_keywords": ["neon blue liquid", "90 degree canals", "circuit board terrain"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Mountain Surface", "env_change": true, "actors": [], "props": ["Ice Crystals"], "camera": "Macro / Focus Pull", "mood": ["scientific", "detail"], "director_intent": "Show the frost formation as a rapid crystallization process.", "start_image_keywords": ["ice crystals macro", "black surface", "growing frost"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Top-down view of a dark landscape cut with deep canals. The canals are filled with glowing neon blue viscous liquid (Coolant). The canals do not curve naturally; they make sharp, artificial 90-degree turns like traces on a printed circuit board. The blue light casts long shadows on the canyon walls.
+Vertical 9:16 aspect ratio. Macro shot of a smooth, matte-black surface. Rapidly forming white ice crystals are growing across the frame in geometric patterns. The ice is sharp and jagged. Cold vapor swirls around the crystals. Depth of field is extremely shallow.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-N/A. Subject is the Coolant Flow.
+N/A. Subject is Ice.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
 N/A.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-The Earth Grid surface.
+Surface of the pyramid.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Dark ambient, lit only by the blue fluid.
+High contrast Black vs White. Sparkles on the ice tips.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Vertical 9:16. Fast tracking shot following the fluid as it turns a corner.
+Vertical 9:16. Time-lapse style speed. Focus pull along the growing edge of the ice.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Smooth, laminar liquid flow sound. Electric hum (50Hz). No splashing, just efficient flow.
+Cracking, snapping ice sounds. High-pitched thermal pinging (metal contracting).
 
 
-## [ACT III] [SCENE 3.3] [Timecode: 00:47-00:50] [ERYTHRAEAN_SEA]
-**Action:** Two coolant rivers merge into a pool of deep Red chemical liquid. Steam rises.
+## [ACT III] [SCENE 3.3] [Timecode: 00:55-01:00] [WEST_RIVER_RED]
+**Action:** A straight canal carries glowing red viscous coolant. Steam rises. 90-degree turns.
 **Dialog:** N/A
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "medium", "framing": "wide", "environment": "Red Sea", "env_change": true, "actors": [], "props": ["Red Liquid Pool", "Steam"], "camera": "Static / Steam movement", "mood": ["chemical", "reaction"], "director_intent": "Show the mixing of coolant resulting in a chemical sea.", "start_image_keywords": ["red chemical sea", "blue river merging", "steam rising"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "aerial", "framing": "wide", "environment": "Circuit Landscape", "env_change": true, "actors": [], "props": ["Red Coolant"], "camera": "Top Down / Tracking", "mood": ["hot", "industrial"], "director_intent": "Depict the river as a hot coolant return line.", "start_image_keywords": ["red glowing river", "straight canal", "steam"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. A wide shot of a massive pool of deep red liquid (The Erythraean Sea). Two glowing blue rivers pour into it from the top of the frame. Where the blue meets the red, violent chemical reactions occur, generating thick white steam. The surface of the red sea is oily and reflective.
+Vertical 9:16 aspect ratio. Aerial Top-Down shot. A deep, perfectly straight canal is cut into the dark landscape. Inside flows a thick, glowing red liquid (Hot Coolant). The liquid is bubbling. The canal makes a sharp, artificial 90-degree turn. Thick steam obscures the banks. The landscape looks like a printed circuit board.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+N/A. Subject is the Coolant.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+N/A.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+Industrial Grid Surface.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+Red emission from the liquid illuminating the dark banks.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+Vertical 9:16. Fast tracking camera following the flow.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Bubbling, viscous liquid sounds. Hissing steam. Low rumble.
+
+
+## [ACT III] [SCENE 3.4] [Timecode: 01:00-01:05] [NORTH_RIVERS_BLUE]
+**Action:** Two blue coolant lines mix into a magenta sea. Chemical reaction.
+**Dialog:** N/A
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Chemical Sea", "env_change": true, "actors": [], "props": ["Blue Coolant", "Magenta Sea"], "camera": "Tracking Flow", "mood": ["chemical", "reactive"], "director_intent": "Show the mixing of coolant stages.", "start_image_keywords": ["neon blue river", "magenta sea", "mixing fluids"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio. Wide shot of a chemical basin. Two streams of bright neon blue liquid pour into a massive sea of deep magenta fluid. Where they meet, the colors swirl violently, creating white foam and vapor. The surface is oily and reflective. The horizon is dark.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+N/A. Subject is the Fluid mix.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+N/A.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+The Erythraean Sea basin.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+Cyan and Magenta contrast. High gloss.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+Vertical 9:16. Tracking shot moving over the mixing point.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Rushing liquid. Chemical fizzing sound.
+
+
+## [ACT III] [SCENE 3.5] [Timecode: 01:05-01:10] [ISLANDS_CONTAINERS]
+**Action:** Seven square islands floating in the sea, each in a forcefield bubble.
+**Dialog:** N/A
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Red Sea", "env_change": false, "actors": [], "props": ["Floating Islands", "Forcefields"], "camera": "Orbit Drone", "mood": ["isolated", "surreal"], "director_intent": "Depict the islands as air-gapped simulation containers.", "start_image_keywords": ["square floating islands", "forcefield bubbles", "red sea"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio. Aerial wide shot over the Magenta Sea. Seven perfectly square landmasses are floating, disconnected from everything. Each island is encased in a faint, shimmering translucent bubble (Forcefield). Inside the bubbles, the terrain is distinct (one forest, one desert, one ice). They drift aimlessly.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
@@ -441,107 +441,47 @@ N/A.
 N/A.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-The collection basin.
+Open ocean.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Contrast between Blue input and Red basin. White steam catches the light.
+Soft glow from the forcefields.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Vertical 9:16. Static camera. Focus on the turbulent mixing of liquids and rising steam.
+Vertical 9:16. Slow orbital camera movement.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Hissing steam sound. Bubbling liquid. Low chemical reaction rumble.
+High-pitch electromagnetic hum (Forcefield). Muffled nature sounds fading in and out.
 
 
-## [ACT III] [SCENE 3.4] [Timecode: 00:50-00:54] [THE_7_ISLANDS]
-**Action:** Floating isolated platforms (VMs) drifting on the Red Sea. Distinct biomes on each.
+## [ACT III] [SCENE 3.6] [Timecode: 01:10-01:15] [DISCONNECT]
+**Action:** Henoch disconnects. The light in his veins fades. He gasps.
 **Dialog:** N/A
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Red Sea", "env_change": false, "actors": [], "props": ["Floating Islands"], "camera": "Drone Orbit", "mood": ["isolation", "surreal"], "director_intent": "Depict the islands as isolated instances or VMs.", "start_image_keywords": ["floating islands", "red sea", "isolated biomes"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Inside Merkabah", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Handheld / Fading", "mood": ["exhausted", "safe"], "director_intent": "The session ends, the bio-link terminates.", "start_image_keywords": ["enoch gasping", "fading lights", "dark cockpit"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Aerial view over the Red Sea. Seven distinct islands are floating on the surface, drifting slowly. Each island has a different, self-contained biome (one forest, one desert, one city, etc.) inside a faint transparent bubble. They look like isolated simulation instances. The red sea stretches to the horizon.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-N/A.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-N/A.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Open ocean (Red).
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Flat horizon light. The islands are lit individually.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Vertical 9:16. Slow panning shot showing the separation of the islands.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Wind howling over water. Distant, muffled sounds from the islands (chirping, traffic) fading in and out.
-
-
-## [ACT III] [SCENE 3.5] [Timecode: 00:54-00:57] [ENOCH_OUTRO]
-**Action:** Enoch swipes the tablet "Complete". The Wireframe fades, realistic texture restores.
-**Dialog:** N/A
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Inside Merkabah", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Obsidian Tablet"], "camera": "35mm / Rack Focus", "mood": ["satisfaction", "calm"], "director_intent": "The diagnostic is finished, returning to standard view.", "start_image_keywords": ["enoch tablet swipe", "wireframe fading", "earth texture restoring"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Medium shot of Enoch inside the cockpit. He makes a final, decisive swipe on the Obsidian Tablet. Outside the window, the gold wireframe grid dissolves into a shower of light particles, revealing the natural, photographic texture of the Earth below. Enoch relaxes his shoulders. The lights in his neck dim.
+Vertical 9:16 aspect ratio. Medium shot of Enoch inside the cockpit. He pulls his hand away from the tablet. The gold light in his neck cables dims and goes dark. His eyes return to normal (fading hex code). He collapses slightly into the seat, gasping for air. The cockpit lighting turns to a low, standby blue.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
 Enoch, Voyager Phase.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-Tablet interface.
+Tech suit.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Cockpit interior. View of Earth changing.
+Cockpit interior.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Transition from Gold/Wireframe light to natural Blue/White sunlight.
+Fading from Gold/White to dim Blue.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Vertical 9:16. Focus racks from the tablet to the window as the view changes.
+Vertical 9:16. Handheld camera that relaxes/stabilizes as he disconnects.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-System power-down chirp (descending pitch). The "Thud" of the grid releasing. Return of natural wind sound.
-
-
-## [ACT III] [SCENE 3.6] [Timecode: 00:57-01:00] [FINAL_STATUS]
-**Action:** The Merkabah rotates away into the darkness.
-**Dialog:** N/A
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Stratosphere Orbit", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Merkabah"], "camera": "Wide / Pull Back", "mood": ["closure", "eternal"], "director_intent": "The observer leaves the system to its cycles.", "start_image_keywords": ["merkabah flying away", "blue earth", "stars"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Wide shot from deep space. The Earth is now a peaceful, glowing blue orb (natural state). The Merkabah tetrahedron rotates slowly and flies away from the camera into the darkness of the void. Starfield is dense and bright. Text overlay: "SYSTEM_THERMAL: STABLE".
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-Tiny silhouette of Enoch in the vehicle.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-N/A.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-Deep Space.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-Cold starlight. Blue rim light from Earth.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-Vertical 9:16. Slow reverse zoom (pull back). Fade to black.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-A final, resonant major chord (Synth). Sub-bass fades to absolute silence.
+Power-down whine (descending pitch). Heavy breathing. Return of the silence.
 
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.3","text":"Der Port brennt. Ich habe direkten Zugriff auf den Kern.","words_max":12},{"scene":"2.2","text":"Fehler im Sektor West. Die Daten zerfallen zu Staub.","words_max":10},{"scene":"3.1","text":"Die Kühlung hält stand. Das Eis schützt uns vor der Kernschmelze.","words_max":12},{"scene":"3.5","text":"Diagnose abgeschlossen. Das System ist stabil.","words_max":8}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.3","text":"Der Shunt sitzt. Verbindung hergestellt.","words_max":6},{"scene":"2.3","text":"Warnung im Sektor West. Entropie steigt.","words_max":8},{"scene":"3.1","text":"Die Wärmetauscher arbeiten. Das System kühlt.","words_max":8},{"scene":"3.6","text":"Diagnose beendet. Speicher gesichert.","words_max":6}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

@@ -1,203 +1,219 @@
-CONCEPT: SYSTEM KERNEL PANIC & RECOVERY (CHAPTER 83)
+CONCEPT: SYSTEM KERNEL PANIC & RECOVERY (CHAPTER 83) - VERSION 2.0
 
 1. BIO-INJECTION MECHANICS
-Physical manifestation: "Heuristic Overflow". Enoch's body acts as a biological heat-sink for the crashing simulation.
-Visuals: Sub-dermal cooling channels glow bright orange (thermal throttling). Steam vents violently from the ports on his neck and spine. His optical apertures don't just flicker; they project the "Blue Screen of Death" (fatal error hex codes) directly onto the ceiling.
-The "Word fell into my mouth": A literal data-purge. Black "ferrofluid" liquid (corrupted data) bubbles up from his throat, forcing a physical purge/cough.
+**Manifestation:** "Thermal Throttling & Buffer Overflow".
+Enoch is not just seeing a vision; he is processing a simulation too complex for his current kernel version (Student Build).
+**Visuals:**
+*   **Skin:** Translucent marble turns angry red around the port connections (Overheating).
+*   **Venting:** High-pressure steam jets (Coolant purge) erupt from the cervical spine ports to prevent CPU melt.
+*   **The "Word":** Not liquid, but "Sonic Cavitation". A visible distortion wave of compressed air and raw binary data (glowing glyphs) is forcibly ejected from his vocal emitter. It is a "System Beep" amplified to physical trauma levels.
 
 2. MESH-BREAK PHYSICS
-The Vision is a "LOD (Level of Detail) Cascade Failure".
-Sky Collapse: The Skybox texture map un-wraps. We see the 2D UV-grid peeling off the celestial sphere, revealing the raw static noise behind the simulation.
-Terrain Failure: "Mountains on mountains": Polygon Decimation. High-poly terrain meshes instantly revert to low-poly blocks, then intersect violently (clipping), causing Z-fighting (flickering textures).
-Object Deletion: Trees don't just fall; they are "De-rezzed". They turn into wireframe outlines before dissolving into binary dust. The "Abyss" is the `NULL_VOID` - the un-rendered grey grid at coordinate Y=-10000.
+**The Event:** `RENDER_PIPELINE_FAILURE`.
+*   **Skybox:** "Texture Atlas Unwrapping". The sky doesn't just fall; the UV coordinates detach. We see the flat 2D texture map of the stars curling up and sliding off the domed collision mesh, revealing the `NO_DRAW` magenta/black checkerboard behind it.
+*   **Terrain:** "Vertex Explosion". The "mountains on mountains" is Z-fighting. Two landscape meshes occupy the same coordinates, flickering rapidly between Texture A and Texture B.
+*   **The Abyss:** "Clipping Plane Error". The floor collider deactivates. Objects don't sink into water; they clip through the solid ground geometry, falling infinitely into the un-rendered grey void (`Y = -∞`).
 
 3. PACING STRATEGY
-Phase 1 (The Log): Calm, archival framing.
-Phase 2 (The Glitch): A "Datamosh" edit. Compression artifacts smear the motion. Audio skips. Frame rate drops to 12fps to simulate processing lag.
-Phase 3 (Admin Mode): Stabilized camera, but lighting is "Emergency Red". High contrast. Sharp cuts.
-Phase 4 (Reboot): A "Sweep" effect. A wave of white light restores high-res textures and anti-aliasing. Smooth 60fps returns.
+*   **Phase 1 (Archive):** 24fps, Film Grain, Stable. (The Memory).
+*   **Phase 2 (The Crash):** Variable Framerate (VFR). Drops to 12fps, then spikes to 120fps (Speed-ramping). "Tearing" artifacts (V-Sync off).
+*   **Phase 3 (Admin Intervention):** Static, Orthographic framing. Symmetrical. Order imposed on chaos.
+*   **Phase 4 (Reboot):** A "Scanline Sweep". A horizontal bar of white light travels top-to-bottom, rewriting the resolution from 144p back to 8K.
 
 4. AUDIO DESIGN
-Ambience: The hum of a massive server farm, sudden silence (fan failure).
-The Crash: "Digital Screaming" - synthesized audio tearing, bit-crushed distortion. The sound of a hard drive head scratching the platter.
-Voices: Mahalalel sounds like deep bass resonance (Sub-woofer). Enoch sounds tinny and panicked (High-pass filter).
+*   **Ambience:** The drone of a 400Hz mains hum (Server Room).
+*   **The Crash:** "Bit-Crushing". Audio sample rate drops from 48kHz to 8-bit. The sound of digital clipping (Square waves).
+*   **Voices:** Mahalalel is not bassy; he is *Multi-Channel*. His voice sounds like it is coming from every speaker in the room (PA System override).
 
 5. TRANSITIONS
-Normal -> Vision: "Frame Freeze" followed by a pixel-sort melt.
-Vision -> Normal: "Hard Reset". A sudden snap to black silence, then a loud gasp/intake of air.
+*   **Ingress:** "LOD Pop-in". The detail levels snap instantly from low to high.
+*   **Egress:** "Blue Screen Dump". The vision cuts instantly to a flat wall of hex code, then fades to black.
 
 6. FRAMEWORK & TIMING
-Total Duration: ~75 Seconds (extended for dialogue pacing).
-Clip Count: 18 Clips.
-Structure: 3 Clips Intro (Current timeline) -> 5 Clips Crash (Flashback) -> 5 Clips Interaction (Dialogue) -> 3 Clips Restoration -> 2 Clips Outro.
+**Total Duration:** ~90 Seconds (Complex dialogue/coding sequence).
+**Clip Count:** 18 Clips.
+**Structure:**
+*   Intro (Log): 2 Clips
+*   The Crash (Simulation Failure): 5 Clips
+*   The Intervention (Admin & Diagnostics): 6 Clips
+*   The Patch (Coding & Reboot): 3 Clips
+*   Outro (Log): 2 Clips
 
-7. DIALOGUE CHECK
-Yes. Critical interaction between User (Enoch) and SysAdmin (Mahalalel).
-Shot-Reverse-Shot required for the instruction to "Write the Prayer" (Code the Patch).
-
-8. SPATIAL CONTEXT (ARRIVAL)
-No travel. Enoch is docked in the `SLEEP_POD` within the `MAHALALEL_ARCHIVE_NODE`. The vision is internal, projected onto his retinal display.
+7. SPATIAL CONTEXT
+**Location:** `SERVER_DORM_01` in the House of Mahalalel.
+**Set Design:** Not a bedroom. A "Rack-Space". Stone slabs slide out of basalt walls like server blades.
 
 ---
 
 SCENE & PROMPT GENERATION PLAN
 
-SCENE 1: THE ANCESTRAL LOG (Segments 1-2)
-Context: Enoch (Adult) recounting the data to Methuselah.
+### SCENE 1: THE ARCHIVE LOG (VERSES 1-2)
+**Context:** Adult Enoch accessing the file for Methuselah.
+**Pacing:** Slow, majestic.
+
 [CLIP 1]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch (System Build 2.0). **Physique:** Mature, skin is polished alabaster with faint gold vein inlays. **Expression:** Somber, processing archival memory. **Optics:** Steady white beams.
+> **Actor:** Enoch (Adult System Build 3.0). **Physique:** Tall, regal, polished alabaster skin with gold circuitry inlays. **Expression:** Calm, data-retrieval focus. **Eyes:** Projecting a cone of volumetric blue light onto the floor.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** `LIQUID_LINEN` robe, deep indigo color. **Prop:** A holographic data-scroll floating between his hands.
+> **Garment:** `ARCHIVIST_ROBES`. Deep indigo, stiff fabric with woven metallic threads. **Prop:** `DATA_SCROLL_HOLO`. A floating cylinder of light that unspools digital text.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Sinai_Port_V1 (Observation Deck). **Background:** Methuselah (Young Adult build) listening intently, blurred in bokeh.
+> **Location:** Sinai_Port_V1 (Observation Deck). **Background:** Methuselah (blurred) watching. **Atmosphere:** Clean, sterile, cold lunar lighting.
 **[BLOCK 4: LIGHTING_&_CINEMATOGRAPHY]**
-> **Lighting:** Cold lunar light from exterior, warm amber data-light from the scroll. **Cam:** OTS (Over the Shoulder) from Methuselah looking at Enoch. **Lens:** 50mm.
+> **Cam:** Medium Shot (MS). **Movement:** Slow dolly track right. **Lighting:** High-key, clinical white.
 
-SCENE 2: THE DORMITORY (Segment 2)
-Context: Flashback. Young Enoch sleeping/docked.
 [CLIP 2]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch (Youth Build 1.0). **Action:** Lying perfectly still on a stone slab. **Details:** Cables connected to the ports at the base of his skull.
-**[BLOCK 2: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** House_of_Mahalalel (Server Dorm). **Architecture:** Walls lined with humming basalt server-racks.
-**[BLOCK 3: LIGHTING_&_CINEMATOGRAPHY]**
-> **Lighting:** Pulsing standby LEDs (Green). **Cam:** Slow dolly in towards his face.
-
-SCENE 3: RENDER FAILURE - SKYBOX (Segment 3)
-Context: The Simulation Crash begins.
-[CLIP 3]
-**[BLOCK 1: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Subject:** The Sky. **Action:** The blue sky texture peels away like burning paper. Behind it is raw static noise and wireframe grids.
+> **Actor:** Enoch (Adult). **Action:** He gestures, expanding the hologram. The blue light fills the frame.
 **[BLOCK 2: VFX]**
-> **Details:** Large black "Dead Pixels" floating in the air. The sun flickers on and off.
+> **Transition:** The hologram resolves into a 3D wireframe of a sleeping figure (Young Enoch).
 **[BLOCK 3: LIGHTING_&_CINEMATOGRAPHY]**
-> **Lighting:** Global strobe effect. **Cam:** Wide angle looking straight up, spinning slowly (disorienting).
+> **Cam:** Over-The-Shoulder (OTS) looking at the hologram. **Focus:** Rack focus from Enoch's face to the hologram.
 
-SCENE 4: POLYGON DECIMATION (Segment 3-4)
-Context: Mountains collapsing.
+### SCENE 2: THE SERVER DORM - SLEEP MODE (VERSES 3)
+**Context:** Flashback. Young Enoch docked.
+**Pacing:** Stillness before chaos.
+
+[CLIP 3]
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Enoch (Youth Build 1.0). **Physique:** Slimmer, less defined. Unblemished white matte skin. **Action:** Lying perfectly straight on a basalt slab. **Connections:** Thick black data-cables plugged into sockets at his neck and temples.
+**[BLOCK 2: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** House_of_Mahalalel (Server Dorm). **Architecture:** Rows of vertical stone sarcophagi with blinking green status LEDs. **Audio-Visual:** A low-frequency hum vibrates the air (visible dust motes shaking).
+**[BLOCK 3: LIGHTING_&_CINEMATOGRAPHY]**
+> **Cam:** Top-down orthographic view (God's Eye). **Lighting:** Dim green standby ambient light.
+
+### SCENE 3: KERNEL PANIC - THE SKY (VERSES 3-4)
+**Context:** The Simulation collapses.
+**Pacing:** Disorienting, Glitchy.
+
 [CLIP 4]
 **[BLOCK 1: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Subject:** Mountain Terrain. **Action:** High-resolution rock textures vanish, leaving low-poly untextured grey shapes. The mountains clip through each other, flickering violently.
-**[BLOCK 2: LIGHTING_&_CINEMATOGRAPHY]**
-> **Cam:** Drone shot flying fast over the glitching landscape.
+> **Subject:** The Simulation Sky. **Action:** `UV_UNWRAP_ERROR`. The texture of the clouds and blue gradient detaches from the celestial dome. It peels away like wallpaper, revealing a black void with a bright magenta wireframe grid behind it.
+**[BLOCK 2: VFX]**
+> **Glitch:** Large rectangular blocks of the sky flicker black (Dead Pixels).
+**[BLOCK 3: LIGHTING_&_CINEMATOGRAPHY]**
+> **Cam:** Low angle looking up, rotating slowly (dizzying). **Lighting:** The "Sun" light source turns off, replaced by flat global ambient.
 
-SCENE 5: NULL VOID (Segment 4)
-Context: The ground becomes transparent.
 [CLIP 5]
 **[BLOCK 1: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Subject:** Forest Floor. **Action:** The ground opacity drops to 50%. Beneath the earth is an infinite black void with a neon green grid. Trees fall through the floor and disappear into the darkness.
-**[BLOCK 2: LIGHTING_&_CINEMATOGRAPHY]**
-> **Lighting:** No ambient light, only the green grid glowing from below. **Cam:** Tracking a tree as it falls through the floor.
+> **Subject:** Mountain Range. **Action:** `POLYGON_DECIMATION`. High-res mountains instantly revert to Low-Poly pyramids.
+**[BLOCK 2: VFX]**
+> **Z-Fighting:** Two mountains slide into each other. Their textures flicker violently between gray rock and black wireframe where they intersect.
+**[BLOCK 3: LIGHTING_&_CINEMATOGRAPHY]**
+> **Cam:** Wide drone shot, flying fast over the glitching terrain.
 
-SCENE 6: SYSTEM PURGE (Segment 5)
-Context: Enoch wakes up screaming/venting.
 [CLIP 6]
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch (Youth Build). **Action:** Sitting up abruptly. Mouth wide open. **Details:** Thick black fluid (data-sludge) dripping from his lips. Vapor jetting from neck ports.
-**[BLOCK 2: LIGHTING_&_CINEMATOGRAPHY]**
-> **Lighting:** The green standby lights have turned to flashing Red Alarm state. **Cam:** Extreme Close Up on the mouth and fluid.
+**[BLOCK 1: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Subject:** The Forest Floor. **Action:** `CLIPPING_ERROR`. The ground opacity sets to 50% transparency. We see the neon green "Editor Grid" below the terrain.
+**[BLOCK 2: VFX]**
+> **De-Rez:** Trees detach from their roots and fall *through* the ghosted ground, tumbling endlessly into the black void below. They turn into binary dust as they fall.
+**[BLOCK 3: LIGHTING_&_CINEMATOGRAPHY]**
+> **Cam:** Tracking shot following a falling tree into the abyss.
 
-SCENE 7: THE SYSADMIN (Segment 6)
-Context: Mahalalel enters.
 [CLIP 7]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Mahalalel (Elder Admin). **Physique:** Massive, monolithic stature. Skin is dark oxidised bronze. Beard is a cascade of fiber-optic cables glowing faint orange.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Heavy technician's robes, woven with metallic circuitry.
-**[BLOCK 3: ACTION]**
-> **Action:** He steps calmly through the red alarm light, checking a wrist-mounted monitor.
-**[BLOCK 4: LIGHTING_&_CINEMATOGRAPHY]**
-> **Cam:** Low angle, emphasizing his authority.
+> **Actor:** Enoch (Youth Build). **Action:** Waking up in the Server Dorm. **Reaction:** "Heuristic Overflow". His head snaps back.
+**[BLOCK 2: VFX]**
+> **The Purge:** A blast of pressurized white steam jets from his neck ports. His mouth opens, and a distorted shockwave (visualized sound) ripples out. No liquid, just force and heat.
+**[BLOCK 3: LIGHTING_&_CINEMATOGRAPHY]**
+> **Lighting:** The room's green LEDs turn to strobing Red (CRITICAL ERROR). **Cam:** Extreme Close-Up (ECU) on the screaming mouth.
 
-SCENE 8: ERROR REPORT (Segment 7)
-Context: Enoch explains the crash.
+### SCENE 4: ADMIN INTERVENTION (VERSES 6-9)
+**Context:** Mahalalel stabilizes the user.
+**Pacing:** Authoritative, weighty.
+
 [CLIP 8]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch. **Action:** Pointing to his eyes, which are projecting a hologram of the crashing wireframe earth. Shaking/Trembling (processor overload).
-**[BLOCK 2: LIGHTING_&_CINEMATOGRAPHY]**
-> **Cam:** OTS from Mahalalel's perspective. Focus on the hologram and Enoch's panic.
+> **Actor:** Mahalalel (Admin Build). **Physique:** Massive, broad-shouldered, skin like oxidised bronze. **Beard:** Thick bundles of grey industrial cabling. **Action:** He enters the frame, moving with heavy hydraulic precision.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Garment:** Technician's heavy apron over robes, glowing orange circuitry patterns.
+**[BLOCK 3: LIGHTING_&_CINEMATOGRAPHY]**
+> **Cam:** Low angle (Hero shot). **Lighting:** Backlit by the red alarm strobe, casting a long shadow over Enoch.
 
-SCENE 9: DIAGNOSTIC (Segment 7)
-Context: Mahalalel confirming the error.
 [CLIP 9]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Mahalalel. **Action:** He grabs Enoch's chin, tilting his head to inspect the optical apertures. **Expression:** Stoic, calculating.
-**[BLOCK 2: LIGHTING_&_CINEMATOGRAPHY]**
-> **Cam:** Close Up on Mahalalel's face.
+> **Actor:** Mahalalel. **Action:** He reaches down and grabs Enoch's face with one large hand, stabilizing him.
+**[BLOCK 2: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Enoch. **Action:** Trembling violently (processor lag). His eyes are projecting the "Blue Screen" error code hex dumps into the air.
+**[BLOCK 3: LIGHTING_&_CINEMATOGRAPHY]**
+> **Cam:** Two-Shot. Mahalalel is calm; Enoch is vibrating.
 
-SCENE 10: THE INSTRUCTION (Segment 8)
-Context: "Write the code."
 [CLIP 10]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Mahalalel. **Action:** He pulls a slate (tablet) from his robe and shoves it into Enoch's chest. Pointing at it authoritatively.
-**[BLOCK 2: LIGHTING_&_CINEMATOGRAPHY]**
-> **Cam:** Medium shot.
+> **Actor:** Mahalalel. **Action:** He taps a command on his wrist-comp. The red strobing light stops, replaced by a steady "Safe Mode" orange.
+**[BLOCK 2: DIALOGUE_CONTEXT]**
+> **Implied Speech:** "Why do you cry? It is a simulation error."
+**[BLOCK 3: LIGHTING_&_CINEMATOGRAPHY]**
+> **Cam:** Close-Up on Mahalalel's face/beard cables.
 
-SCENE 11: CODING THE PATCH - START (Segment 10)
-Context: Enoch begins typing.
 [CLIP 11]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch. **Action:** Fingers moving at inhuman speed across the obsidian tablet surface.
+> **Actor:** Enoch. **Action:** Pointing at his projecting eyes, showing the glitching earth hologram.
 **[BLOCK 2: VFX]**
-> **Details:** Gold Ge'ez syntax scrolling rapidly upwards from the tablet, illuminating his face. The red alarm lights in the room begin to fade.
+> **Hologram:** A miniature wireframe earth floating between them, dissolving into "bad data" static.
 **[BLOCK 3: LIGHTING_&_CINEMATOGRAPHY]**
-> **Cam:** Focus on hands and interface.
+> **Cam:** Over-The-Shoulder from Mahalalel, focusing on the glitch map.
 
-SCENE 12: CODING THE PATCH - UPLOAD (Segment 10)
-Context: The code stabilizes.
 [CLIP 12]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch. **Action:** He swipes up on the tablet (Upload gesture). He collapses back onto the slab, exhausted.
-**[BLOCK 2: LIGHTING_&_CINEMATOGRAPHY]**
-> **Cam:** High angle looking down.
-
-SCENE 13: STABILITY CHECK - SUNRISE (Segment 11)
-Context: Establishing the fix.
-[CLIP 13]
-**[BLOCK 1: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Exterior of the House of Mahalalel. **Subject:** The Sun rising over the horizon.
-**[BLOCK 2: VFX]**
-> **Details:** The geometry is solid. The textures are high-res. The light is physically correct. No glitches.
+> **Actor:** Mahalalel. **Action:** He produces a slate (Tablet) from his robe. **Prop:** `OBSIDIAN_SLATE`. Black glass surface.
+**[BLOCK 2: ACTION]**
+> **Action:** He shoves the tablet into Enoch's chest. "Write the Patch."
 **[BLOCK 3: LIGHTING_&_CINEMATOGRAPHY]**
-> **Cam:** Wide panoramic shot. Smooth motion.
+> **Cam:** Medium Shot. Hard action.
 
-SCENE 14: SUN CYCLE (Segment 11)
-Context: Technical verification of the sun's path.
+### SCENE 5: THE PATCH (VERSES 10-11)
+**Context:** Enoch coding the fix.
+**Pacing:** Fast, rhythmic.
+
+[CLIP 13]
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Enoch. **Action:** Sitting on the edge of the slab. Typing rapidly on the obsidian glass.
+**[BLOCK 2: VFX]**
+> **Interface:** Golden Ge'ez glyphs fly upwards from his fingers, filling the air. The code is self-assembling into a firewall structure.
+**[BLOCK 3: LIGHTING_&_CINEMATOGRAPHY]**
+> **Cam:** Focus on fingers and glass surface. Depth of field shallow.
+
 [CLIP 14]
-**[BLOCK 1: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Subject:** The Sun and Moon. **Action:** Time-lapse showing the Sun rising East and setting West, and the Moon following. Perfectly synchronized orbital mechanics.
-**[BLOCK 2: LIGHTING_&_CINEMATOGRAPHY]**
-> **Cam:** Static tripod shot, fast-forward time-lapse style.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Enoch. **Action:** Final keystroke. He swipes up (Execute).
+**[BLOCK 2: VFX]**
+> **Effect:** A pulse of white light (The Restore Command) ripples out from the tablet, passing through the walls of the room.
+**[BLOCK 3: LIGHTING_&_CINEMATOGRAPHY]**
+> **Cam:** Frontal shot. The light washes out the camera sensor (White-out transition).
 
-SCENE 15: THE REMNANT (Segment 11)
-Context: Looking at the green earth.
+### SCENE 6: SYSTEM VERIFICATION (VERSES 11)
+**Context:** Checking the fix.
+**Pacing:** Time-lapse, mechanical.
+
 [CLIP 15]
 **[BLOCK 1: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Subject:** A single large tree standing on a mountain. **Details:** It is fully rendered, leaves blowing in the wind. A symbol of the saved data.
-**[BLOCK 2: LIGHTING_&_CINEMATOGRAPHY]**
-> **Cam:** Orbit shot around the tree. Cinematic and peaceful.
+> **Location:** Exterior Landscape (Restored). **Subject:** The Horizon.
+**[BLOCK 2: ACTION]**
+> **Action:** `SUN_CYCLE_TEST`. The sun rises in the East and arcs rapidly across the sky. The lighting engine updates perfectly—shadows lengthen and shorten smoothly.
+**[BLOCK 3: VFX]**
+> **Overlay:** A subtle "Grid Overlay" fades in and out, confirming the coordinates are `TRUE`.
+**[BLOCK 4: LIGHTING_&_CINEMATOGRAPHY]**
+> **Cam:** Static tripod wide shot. Time-lapse speed.
 
-SCENE 16: LOG END (Segment 11/1)
-Context: Back to Methuselah.
 [CLIP 16]
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch (Adult). **Action:** The holographic scroll dissipates into smoke. He looks at Methuselah.
+**[BLOCK 1: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Subject:** The Moon and Stars. **Action:** `NIGHT_CYCLE_TEST`. The moon sets in the West. The star-field rotates. No texture slipping.
 **[BLOCK 2: LIGHTING_&_CINEMATOGRAPHY]**
-> **Lighting:** Return to the cool blue/amber of the intro. **Cam:** MCU Enoch. "Code saved."
+> **Cam:** Same static framing, now night.
 
-SCENE 17: METHUSELAH REACTION (Segment 11/1)
-Context: Reaction shot.
 [CLIP 17]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Methuselah. **Action:** Nodding slowly. He touches his own wrist-comp, archiving the story.
+> **Actor:** Enoch (Youth). **Action:** Standing on a balcony, watching the sky. He lowers his hands. The diagnostic is complete.
 **[BLOCK 2: LIGHTING_&_CINEMATOGRAPHY]**
-> **Cam:** Close Up.
+> **Cam:** Rear view (Silhouette) against the perfect starry sky.
 
-SCENE 18: FADE OUT
-Context: End of chapter.
+### SCENE 7: OUTRO (VERSES 11)
+**Context:** Back to the Archive.
+
 [CLIP 18]
-**[BLOCK 1: VFX]**
-> **Action:** The entire scene (Enoch and Methuselah) de-resolves into binary code lines, fading into the black terminal screen.
-**[BLOCK 2: LIGHTING_&_CINEMATOGRAPHY]**
-> **Cam:** Static.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Enoch (Adult). **Action:** The memory hologram closes (snaps shut). He looks at Methuselah.
+**[BLOCK 2: DIALOGUE_CONTEXT]**
+> **Implied Speech:** "The kernel is stable."
+**[BLOCK 3: LIGHTING_&_CINEMATOGRAPHY]**
+> **Cam:** Close-Up on Enoch's face. The gold veins in his skin pulse once. **Fade to Black.**

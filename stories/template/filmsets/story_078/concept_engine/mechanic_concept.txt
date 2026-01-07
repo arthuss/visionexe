@@ -1,175 +1,171 @@
 CONCEPT: ORBITAL_CALIBRATION_PROTOCOL_V2
 
-1. BIO-INJECTION:
-Method: "Neural-Lace HUD Integration". The data isn't just projected; it overlays directly onto the visual cortex. Henoch's eyes glaze over with a milky-white "Blind Sight" film (`OPTICAL_OVERRIDE_MODE`), while the raw hexadecimal data of the orbital mechanics scrolls directly across his field of vision. He sees the world as wireframe geometry.
+1. BIO-INJECTION (The Interface):
+Method: "Optic Nerve Hijack".
+Technology: We do not use external holograms. Uriel initiates a wireless handshake with Henoch's neural lace. The "vision" is injected directly into the optic nerve.
+Physical Manifestation: Henoch’s irises dilate to 100%, turning the entire visible eye into a milky-white receiver surface (`OPTICAL_OVERRIDE_MODE`). He does not blink during the transmission.
 
-2. MESH-BREAK:
-Method: "LOD (Level of Detail) Stripping". When Uriel points to the luminaries, the "Skybox" texture (clouds, blue gradient) de-resolves into a hexagonal grid. The beautiful illusion is stripped away to reveal the matte-black structural void and the rigid titanium rails that physically carry the celestial bodies.
+2. MESH-BREAK (The Reveal):
+Method: "Occlusion Culling & Wireframe Fallback".
+Technology: To process the high-bandwidth data of the celestial mechanics, the system reduces the rendering quality of the surrounding environment. The "beautiful sky" texture strips away to reveal the low-poly wireframe sphere of the simulation dome. The clouds are replaced by visible vector wind-force lines.
 
-3. PACING-STRATEGIE:
-Method: "Quantized Latency". The editing is not smooth. It "stutters" intentionally on every 1/14th increment update, mimicking a system buffering or a frame-step analysis. High-speed rhythmic cuts for the data transfer (14 frames per second for 1 second), then sudden stillness for the stable state.
+3. PACING-STRATEGIE (The Rhythm):
+Method: "Buffer Underrun Simulation".
+Edit Pattern: The visual flow is not smooth. It mimics a CPU under heavy load. The movement of the celestial bodies "steps" in 15-degree increments. We use jump-cuts that skip exactly 4 frames to simulate a low refresh rate during the heavy data transfer, creating a jarring, mechanical stroboscopic effect.
 
-4. AUDIO-DESIGN:
-Method: "Cyclotron Resonance". No choirs.
-- Background: A steady 60Hz hum of high-voltage transformers.
-- Sun Movement: The sound of massive blast-furnace shielding sliding on unlubricated metal.
-- Light Transfer: The sound of a 56k modem handshake slowed down 800%, mixed with the crackle of high-amperage arcing.
+4. AUDIO-DESIGN (The Soundscape):
+Method: "Server Room Ambience".
+Layer 1: A constant, deep 60Hz mains hum (ground loop noise).
+Layer 2: The sound of high-pressure cooling fans spinning up when the Sun transfers light.
+Layer 3: The "Voice" of Uriel is not audio but a resonant bone-conduction vibration.
 
-5. TRANSITIONS:
-Method: "Datamosh Glitch". Transitions between the "Human View" and the "System View" occur via pixel-sorting artifacts. The image drags and smears vertically before snapping into the new perspective.
+5. TRANSITIONS (The Glitch):
+Method: "I-Frame Destruction".
+Visual: Transitions are not fades. They are datamoshes where the motion vectors of the previous clip drag the pixels of the next clip, smearing the image briefly before the keyframe snaps it back to clarity.
 
 6. FRAMEWORK & TIMING:
-Total Duration: ~65 Seconds.
+Total Duration: ~70 Seconds.
 Clip Count: 16 Clips.
-Structure:
-- Clips 01-03: Initialization & Identification (15s).
-- Clips 04-09: The Injection & Waxing Algorithm (20s).
-- Clips 10-13: Waning & Gate Mechanics (15s).
-- Clips 14-16: Verification & Logout (15s).
+Philosophy: "Show the Mechanism, not the Magic." Every movement must look powered by hydraulics or magnetism, not will.
 
-7. DIALOG-CHECK:
-Minimal. One instruction.
-- Clip 13: Uriel to Henoch (OTS).
-- Clip 14: Henoch Reaction (MCU).
-
-8. SPATIAL CONTEXT (ARRIVAL):
-Method: "Merkabah_Elevator".
-We are already at the destination. We establish the location via a top-down view through the glass floor of the Merkabah, seeing the cloud layer 10km below. No travel sequence needed; we start *in media res* of the lesson.
+7. SPATIAL CONTEXT (ARRIVAL):
+Method: "Merkabah_Hover_State".
+We are stationary at 30,000 feet. The Merkabah (a tetrahedron energy field) is in "Station Keeping" mode. The floor is transparent. We look down at the cloud layer, which acts as a projection screen for the shadows of the celestial gears.
 
 ---
 
 DREHBUCH / SCENE LIST
 
-[CLIP 01: ESTABLISHING_THE_MERKABAH]
+[CLIP 01: ESTABLISHING_THE_NODE]
 **[BLOCK 1: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Stratospheric_Platform_Node (Altitude: 30km). **Architecture:** A triangular, transparent energy-floor (Merkabah Grid) rotating slowly. **Background:** The curvature of the Earth is visible below, a desaturated topological map. Above, the sky is a dark, gradient-free indigo.
+> **Location:** Stratospheric_Orbit_Platform (Altitude: 30km). **Architecture:** The "Merkabah" vehicle is invisible except for the refraction of light at its edges. We stand on a hard-light hexagonal grid floor. **Background:** Below, the cloud layer is dense and static. Above, the sky is a deep, bruised purple (vacuum approach).
 **[BLOCK 2: ACTION_&_MOVEMENT]**
-> **Action:** A vertical camera movement (Crane Down) starting from the black void, passing through the grid floor to reveal Uriel and Enoch standing like chess pieces on a board.
+> **Action:** A slow, paralyzed camera drift (dolly right) observing the two figures. They are absolutely still, locked in data-exchange.
 **[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Extreme Wide Shot (EWS). **Lens:** 12mm Fisheye to emphasize the curvature. **Style:** Cold, clinical surveillance footage.
+> **Camera:** Extreme Wide Shot (EWS). **Lens:** 14mm Rectilinear. **VFX:** Subtle chromatic aberration at the edges of the frame.
 
-[CLIP 02: URIEL_SYSTEM_ADMIN_INIT]
+[CLIP 02: URIEL_ADMIN_ACCESS]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Uriel (System_Admin). **Physique:** towering 3m humanoid, copper-plated skin (`METALLIC_ROUGHNESS_0.8`). **Garment:** Robes of woven fiber-optic cables pulsing with red status lights. **Face:** Obscured by a static-generating glass visor.
+> **Actor:** Uriel (System_Admin_Build). **Physique:** 3m tall, elongated limbs, skin is matte-grey synthetic polymer. **Apparel:** Vestments of woven copper wire and ceramic plating. **Face:** A smooth, featureless glass shield displaying a scrolling vertical log of green hex-code.
 **[BLOCK 2: ACTION]**
-> **Action:** Uriel raises a manipulator arm. His fingers splay open, and a holographic command line interface ("SELECT TARGET: SUN_DRIVE") expands in mid-air.
+> **Action:** Uriel raises a manipulator hand. The air around his fingers distorts (heat haze) as he accesses the root directory of the sky.
 **[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Low Angle Medium Shot (MS). Looking up at the authority figure.
+> **Camera:** Low Angle Medium Shot (MS). **Lighting:** The glow from his visor illuminates the floating dust particles.
 
-[CLIP 03: TARGET_ORIARES_IDENTIFICATION]
+[CLIP 03: TARGET_ORIARES_DIAGNOSTIC]
 **[BLOCK 1: PROP_MECHANICS]**
-> **Object:** The Sun_Unit (Identifier: Oriares). **Appearance:** A blindingly bright, perfect sphere of contained nuclear fusion. Not a star, but a *device*. **Surface:** The surface boils with white plasma contained by a visible hexagonal magnetic net.
+> **Object:** Sun_Unit (ID: ORIARES). **Appearance:** A contained fusion reactor sphere, not a natural star. **Surface:** The surface is covered in hexagonal magnetic confinement tiles. Some tiles are darker (Sunspots/Cooling Vents).
 **[BLOCK 2: VFX_OVERLAY]**
-> **Overlay:** Augmented Reality text locks onto the object: "ID: ORIARES // STATUS: ACTIVE // TEMP: 5778K".
+> **Action:** The camera zooms violently into the surface. An AR bounding box locks on: "TARGET: MASTER_CLOCK // OUTPUT: 100%".
 **[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Telephoto Zoom (400mm). Shaky handheld motion simulating high-magnification tracking.
+> **Camera:** Crash Zoom to Telephoto (600mm).
 
-[CLIP 04: TARGET_MOON_IDENTIFICATION]
+[CLIP 04: TARGET_SONYA_OFFLINE]
 **[BLOCK 1: PROP_MECHANICS]**
-> **Object:** The Moon_Unit (Identifier: Sonya/Ebla). **Appearance:** A matte-black, radar-absorbent sphere. It is currently "OFF" (New Moon). It reflects nothing.
-**[BLOCK 2: VFX_OVERLAY]**
-> **Overlay:** The name tags cycle rapidly: "SONYA" -> "EBLA" -> "BENASE" -> "ERAE". A red "LOW BATTERY" icon blinks.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Rapid Pan from Sun to Moon. Whip-pan transition with motion blur.
-
-[CLIP 05: SIZE_COMPARISON_DIAGNOSTIC]
-**[BLOCK 1: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Simulation_Void (Blueprint Mode). **Background:** Dark grid lines on black.
-**[BLOCK 2: ACTION_LOGIC]**
-> **Action:** The Sun sphere and Moon sphere are pulled from the sky into a flat schematic view. A green laser caliper measures both diameter.
-**[BLOCK 3: VFX]**
-> **VFX:** Text output: "DIAMETER MATCH: 100%". "PARITY CONFIRMED".
-**[BLOCK 4: CINEMATOGRAPHY]**
-> **Camera:** Orthographic Front View. Flat design.
-
-[CLIP 06: THE_INJECTION_CABLE]
-**[BLOCK 1: PROP_MECHANICS]**
-> **Object:** Sun_Unit and Moon_Unit. **Interaction:** A physical, glowing umbilical cable (plasma filament) extends from the Sun's equator and plugs into the Moon's "East Port".
+> **Object:** Moon_Unit (ID: SONYA). **Appearance:** A rough, industrial sphere made of radar-absorbent concrete and dust. **State:** Offline. It is completely dark, silhouetted against the stars only by the absence of light.
 **[BLOCK 2: ACTION]**
-> **Action:** The connection snaps into place with a shockwave.
+> **Action:** A red status LED blinks slowly on its equator. "STATUS: STANDBY // CHARGE: 0%".
 **[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Extreme Close-Up (ECU) on the docking port. High contrast.
+> **Camera:** Static Shot. High contrast (Chiaroscuro).
 
-[CLIP 07: DATA_UPLOAD_INCREMENT_1]
+[CLIP 05: THE_UMBILICAL_CONNECTION]
 **[BLOCK 1: PROP_MECHANICS]**
-> **Object:** Moon_Surface. **Texture:** Divided into 14 vertical LED-style panels.
-**[BLOCK 2: ACTION]**
-> **Action:** Panel 1 (far right) abruptly lights up neon white. It's a hard digital switch, not a fade.
-**[BLOCK 3: LIGHTING]**
-> **Lighting:** The sudden light casts a hard rim light on the dark side of the sphere.
-**[BLOCK 4: CINEMATOGRAPHY]**
-> **Camera:** Static Shot.
+> **Objects:** Sun_Unit and Moon_Unit aligned in the sky. **Interaction:** A tangible beam of hard-light (plasma conduit) erupts from the Sun and strikes the Moon.
+**[BLOCK 2: PHYSICS]**
+> **Physics:** The connection is violent. Debris/Dust is kicked up off the Moon's surface from the impact point of the energy beam.
+**[BLOCK 3: CINEMATOGRAPHY]**
+> **Camera:** Medium Shot, tracking the beam.
 
-[CLIP 08: DATA_UPLOAD_SEQUENCE]
+[CLIP 06: DATA_TRANSFER_INCREMENT_1]
+**[BLOCK 1: PROP_MECHANICS]**
+> **Object:** Moon_Unit Surface (Close Up). **Texture:** The surface is divided into 14 vertical distinct sectors (The "Gates").
+**[BLOCK 2: ACTION]**
+> **Action:** Sector 1 (The 14th part) slams open. It glows with blinding white luminescence. It’s a mechanical aperture opening to reveal the light core inside, not a surface reflection.
+**[BLOCK 3: AUDIO_VISUAL_SYNC]**
+> **Audio_Cue:** Heavy pneumatic "CLUNK".
+**[BLOCK 4: CINEMATOGRAPHY]**
+> **Camera:** Macro Close-Up.
+
+[CLIP 07: BUFFERING_THE_UPLOAD]
 **[BLOCK 1: ACTION]**
-> **Action:** Fast-forward sequence. Panel 2 ON. Panel 3 ON. Panel 4 ON. Up to Panel 7 (Half Moon). The light fills the sphere like a loading bar.
-**[BLOCK 2: AUDIO_VISUAL_SYNC]**
-> **Sync:** Each panel lighting up syncs with a heavy metallic clank sound.
-**[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Time-Lapse. The stars in the background streak slightly.
-
-[CLIP 09: FULL_CAPACITY_EVENT]
-**[BLOCK 1: PROP_MECHANICS]**
-> **Object:** Full Moon_Unit. **Appearance:** All 14 Panels are active. The sphere is a perfect white circle.
+> **Action:** Sectors 2, 3, and 4 activate in sequence. The edit stutters. We see the light "fill" the sectors like a fluid filling a tank.
 **[BLOCK 2: VFX]**
-> **VFX:** A "COMPLETE" notification flashes in Ge'ez gold text over the sphere.
+> **VFX:** Digital artifacts (compression blocks) appear around the bright edges, simulating bandwidth limitations.
 **[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Slow push-in. Stable and majestic.
+> **Camera:** Rapid cuts or Time-remap (Speed ramp).
 
-[CLIP 10: THE_WANING_DELETION_START]
+[CLIP 08: FULL_CAPACITY_STATE]
 **[BLOCK 1: PROP_MECHANICS]**
-> **Object:** Full Moon_Unit. **Action:** The "Delete" command executes. Panel 14 turns black (Vantablack).
+> **Object:** Full Moon_Unit. **State:** All 14 Sectors are open/glowing. The sphere is perfectly white.
+**[BLOCK 2: ENVIRONMENT]**
+> **Environment:** The surrounding skybox has dimmed to compensate for the brightness (Auto-Exposure adjustment).
+**[BLOCK 3: VFX]**
+> **Overlay:** "CACHE: FULL // CYCLE: COMPLETE".
+**[BLOCK 4: CINEMATOGRAPHY]**
+> **Camera:** Slow, majestic push-in.
+
+[CLIP 09: THE_DELETE_COMMAND]
+**[BLOCK 1: ACTION]**
+> **Action:** The "Wane" begins. Sector 14 shuts off instantly. It goes from 100% white to Vantablack in one frame.
 **[BLOCK 2: LIGHTING]**
-> **Lighting:** The ambient light level in the scene drops noticeably (Exposure Step Down).
+> **Lighting:** The scene flickers.
 **[BLOCK 3: CINEMATOGRAPHY]**
 > **Camera:** Medium Shot.
 
-[CLIP 11: THE_WANING_RAPID_DECAY]
+[CLIP 10: DECAY_LOOP]
 **[BLOCK 1: ACTION]**
-> **Action:** Panels 13, 12, 11, 10 turn black in rapid succession. The white light is being overwritten by data-void blocks.
-**[BLOCK 2: VFX]**
-> **VFX:** Digital artifacts/pixelation occur at the edge of the deletion zone.
+> **Action:** A timelapse of the remaining sectors shutting down. The darkness eats the light from right to left.
+**[BLOCK 2: PHYSICS]**
+> **Physics:** As the light leaves, the sphere seems to lose mass, bobbing slightly in the gravity well.
 **[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Orbital tracking shot moving around the sphere as it darkens.
+> **Camera:** Orbital Arc Shot.
 
-[CLIP 12: SYSTEM_RESET_VOID]
-**[BLOCK 1: PROP_MECHANICS]**
-> **Object:** Empty Moon_Unit. **Appearance:** Invisible against the black sky. Only the occlusion of the stars behind it reveals its presence.
+[CLIP 11: SYSTEM_VOID]
+**[BLOCK 1: ENVIRONMENT]**
+> **Location:** The Void. **Object:** Nothing. The Moon is invisible. The Sun is dimmed.
 **[BLOCK 2: ACTION]**
-> **Action:** It hangs silently in the void. Waiting.
+> **Action:** The screen is almost entirely black, save for the UI overlays and the stars. "RESETTING CYCLE...".
 **[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Static wide shot. Uncomfortable silence/stillness.
+> **Camera:** Static Wide Shot.
 
-[CLIP 13: THE_WESTERN_GATE_EXIT]
+[CLIP 12: WESTERN_GATE_MECHANISM]
 **[BLOCK 1: ENVIRONMENT_STRUCTURE]**
-> **Location:** Western Horizon. **Structure:** A massive rectangular Portal Frame (Stargate style) embedded in the cloud layer. The frame is made of dark monolith stone with red warning lights.
+> **Location:** The Western Horizon. **Structure:** The "Portals" are not magical holes; they are massive rectangular hangar bays floating in the sky.
 **[BLOCK 2: ACTION]**
-> **Action:** The Sun_Unit descends onto a rail ramp and slides through the portal frame, vanishing instantly.
+> **Action:** The Sun_Unit slides along a visible rail track and enters the Hangar Bay. The bay doors (blast shields) close vertically behind it.
 **[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** High-Angle Long Shot (LS).
+> **Camera:** Long Shot (Telephoto) flattening the perspective.
 
-[CLIP 14: THE_EASTERN_GATE_ENTRY]
+[CLIP 13: EASTERN_GATE_LAUNCH]
 **[BLOCK 1: ENVIRONMENT_STRUCTURE]**
-> **Location:** Eastern Horizon. **Structure:** Identical Portal Frame, but with Green clearance lights.
+> **Location:** The Eastern Horizon. **Structure:** Identical Hangar Bay.
 **[BLOCK 2: ACTION]**
-> **Action:** The Moon_Unit shoots out of the portal like a projectile on a railgun track, beginning its ascent.
+> **Action:** The blast shields open. The Moon_Unit is ejected via a magnetic catapult (Railgun launch). It accelerates rapidly upward.
 **[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Low-Angle tracking shot following the projectile.
+> **Camera:** Low Angle tracking shot, camera shaking from the "sonic boom".
 
-[CLIP 15: URIEL_INSTRUCTION]
+[CLIP 14: URIEL_CLOSING_STATEMENT]
 **[BLOCK 1: SUBJECTS]**
 > **Actors:** Uriel and Enoch.
 **[BLOCK 2: ACTION]**
-> **Action:** Uriel turns his head slightly toward Enoch. The visor reflects the starfield. He points a finger at the Moon.
+> **Action:** Uriel lowers his hand. The holographic logs vanish. He turns his glass visor toward Enoch.
 **[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Over-The-Shoulder (OTS) from behind Enoch. Focus on Uriel.
+> **Camera:** Over-The-Shoulder (OTS) from behind Enoch.
 
-[CLIP 16: ENOCH_REACTION_PROCESSED]
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch (User). **Changes:** His eyes are fully white (`OPTICAL_OVERRIDE_MODE`).
+[CLIP 15: ENOCH_PROCESSING]
+**[BLOCK 1: SUBJECT_ANATOMY]**
+> **Actor:** Enoch (User). **Face:** Close up on his eyes.
 **[BLOCK 2: ACTION]**
-> **Action:** He blinks, and the whiteness fades, revealing normal human irises again. He nods once. Comprehension achieved.
+> **Action:** The milky whiteness drains from his eyes like ink clearing from water. The pupils return. He blinks, disoriented.
+**[BLOCK 3: LIGHTING]**
+> **Lighting:** The reflection of the grid fades from his cornea.
+**[BLOCK 4: CINEMATOGRAPHY]**
+> **Camera:** Extreme Close-Up (ECU).
+
+[CLIP 16: LOGOUT]
+**[BLOCK 1: VFX]**
+> **Visual:** The entire scene (Henoch, Uriel, The Platform) begins to de-rez. The textures pop off, leaving only the wireframe mesh.
+**[BLOCK 2: ACTION]**
+> **Action:** Cut to Black.
 **[BLOCK 3: CINEMATOGRAPHY]**
-> **Camera:** Extreme Close-Up on eyes. Shallow depth of field.
-**[BLOCK 4: LIGHTING]**
-> **Lighting:** The reflection of the digital grid in his eyes fades away.
+> **Camera:** Static.

@@ -1,0 +1,93 @@
+{
+  "id": "SCENE_NATURAL_ELEMENTS_CHANT",
+  "name": "Natural Elements Chant",
+  "type": "scene",
+  "card": {
+    "description": "A towering basalt monolith, 12 m high, carved with Ethiopian and Egyptian motifs, its surface etched with hieroglyphic spirals and Ge'ez script. Embedded within is a lattice of translucent crystalline conduits that pulse with bioluminescent green light, forming glowing glyphs that act as sensors. A central crystalline core refracts light into green and amber, channeling the elemental power of Earth during a Natural Elements Chant. The scene is grounded realism, industrial mysticism, photorealistic, tactile, with realistic stone weathering, subtle dust, and a low, diffused ambient light.",
+    "tags": [
+      "ancient-tech",
+      "earth",
+      "mysticism",
+      "crystalline",
+      "Ethiopian",
+      "Egyptian"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** A 12‑meter high monolith of weathered basalt, ribbed with basaltic veins, its surface etched with hieroglyphic spirals and Ge'ez script.",
+      "**Face/Sensors:** A central aperture housing a crystalline core that refracts light into a spectrum of green and amber, surrounded by a ring of bio‑luminescent glyphs that act as sensors.",
+      "**Clothing/Armor:** Not applicable.",
+      "**Key Features:** Embedded crystal lattice, bioluminescent glyphs, Earth‑element conduits, basaltic veins, ancient script."
+    ],
+    "evolution": [
+      "Phase 1 (Dormant): The monolith stands inert, glyphs dark and stone weathered.",
+      "Phase 2 (Activated): Glyphs glow, the crystalline core pulses, and a subtle Earth‑element aura emanates."
+    ],
+    "props": [
+      "Item: Stone altar",
+      "Item: Crystalline core"
+    ],
+    "prompt_keywords": [
+      "stone",
+      "crystal",
+      "glyph",
+      "bioluminescent",
+      "earth",
+      "ancient",
+      "industrial",
+      "Ethiopian",
+      "Egyptian"
+    ],
+    "prompt_block": "A towering basalt monolith, 12 meters high, carved with Ethiopian and Egyptian motifs, its surface etched with hieroglyphic spirals and Ge'ez script. Embedded within is a lattice of translucent crystalline conduits that pulse with bioluminescent green light, forming glowing glyphs that act as sensors. A central crystalline core refracts light into green and amber, channeling the elemental power of Earth during a Natural Elements Chant. The scene is grounded realism, industrial mysticism, photorealistic, tactile, with realistic stone weathering, subtle dust, and a low, diffused ambient light.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Dormant monolith awaiting activation",
+        "prompt_keywords": [
+          "stone",
+          "crystal",
+          "glyph",
+          "bioluminescent",
+          "earth",
+          "ancient",
+          "industrial",
+          "Ethiopian",
+          "Egyptian"
+        ],
+        "prompt_block": "A towering basalt monolith, 12 meters high, carved with Ethiopian and Egyptian motifs, its surface etched with hieroglyphic spirals and Ge'ez script. Embedded within is a lattice of translucent crystalline conduits that pulse with bioluminescent green light, forming glowing glyphs that act as sensors. A central crystalline core refracts light into green and amber, channeling the elemental power of Earth during a Natural Elements Chant. The scene is grounded realism, industrial mysticism, photorealistic, tactile, with realistic stone weathering, subtle dust, and a low, diffused ambient light."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_NATURAL_ELEMENTS_CHANT",
+    "name": "Natural Elements Chant",
+    "type": "scene",
+    "aliases": [
+      "Natural Elements Chant"
+    ],
+    "roles": [
+      "Earth"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1023"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 106,
+        "chapter_end": 106,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

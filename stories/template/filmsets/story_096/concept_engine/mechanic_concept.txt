@@ -3,266 +3,266 @@ CHAPTER: 96
 THEME: Garbage Collection, Priority Escalation, Kernel Integrity Verification.
 
 1. BIO-INJECTION MECHANICS
-Manifestation: Voxel-Rewrite & Texture Re-Baking.
-Visual: "Healing" is not biological regeneration. It is a "Restore from Backup." Damaged skin on the Righteous does not heal; it pixelates into small cubic voxels which are deleted, then immediately replaced by pristine, high-resolution geometry instanced from the master file. It looks like a digital block-build effect occurring at a microscopic level.
+Manifestation: Haptic Command Syntax.
+Visual: Henoch does not cast spells; he inputs code. His hands are equipped with "Null-Touch" gloves—semi-transparent polygon meshes that override local physics. When he issues a command, he isn't waving; he is manipulating invisible UI sliders in the air. The "injection" is a wireless packet burst from his optic nerve transmitter to the local subnet. We see the air shimmer with heat distortion around his head as the CPU in his cortex overclocks.
 
 2. MESH-BREAK PHYSICS
-Phenomenon: Geometry Decimation & Texture Streaming Failure.
-Visual: The destruction of Sinners is a "Loss of Definition." They are de-prioritized by the engine.
-Phase 1 (Warning): Mipmap collapse. Their high-res textures fail to load, leaving them blurry and pixelated.
-Phase 2 (Collapse): Polygon reduction. Their silhouette snaps from smooth organic curves to jagged N64-era low-poly models.
-Phase 3 (Null): Vertex scattering. The wireframe unbinds, and the vertices drift apart like dust in zero-g.
+Phenomenon: Level-of-Detail (LOD) Stripping.
+Visual: The destruction of Sinners is an optimization process. The Engine determines they are no longer "Hero Assets" but "Background Trash."
+Step 1: Texture Unbinding. Their 8k skin textures detach, floating inches off their bodies like peeled wallpaper.
+Step 2: Polygon Reduction. The mesh collapses from 500k polys to 500 polys in a single frame.
+Step 3: Culling. The rendering engine simply stops drawing them. They flash white, then vanish, leaving a "Missing Asset" void (bright magenta silhouette) for one second before total deletion.
 
 3. PACING STRATEGY
-Rhythm: Frame-Rate Dissonance.
+Rhythm: Latency Gap.
 Technique:
-The Admin (Henoch) & Righteous: Rendered at 144fps. Fluid, hyper-real motion.
-The Corrupt (Sinners): Rendered at 12fps. Their motion is jerky, missing frames, exhibiting "rubber-banding" (snapping back to previous positions) to visualize their disconnection from the server clock.
-Editing: Cuts occur on the glitch—hard digital jump cuts rather than smooth fades.
+The Righteous (Optimized): 120fps. Smooth, fluid, responsive.
+The Sinners (Throttled): 5fps. Stroboscopic motion. They freeze for 10 frames, then snap to a new position. This visualizes their lack of processing priority.
+Editing: The cuts align with the "Lag Spikes." We cut on the freeze, creating a jarring, rhythmic disorientation.
 
 4. AUDIO DESIGN
-Soundscape: The Server Floor.
+Soundscape: Signal-to-Noise Ratio.
 Replacement:
-"Voice of Rest" -> Active Noise Cancellation. The sudden, absolute silence of a server room when all fans spin down simultaneously. 0dB floor.
-"Woe/Destruction" -> Coil Whine, HDD Head Crash (rhythmic metallic clicking), and Bit-Crushed distortion peaking in the red.
+"Healing Voice" -> Pure Sine Wave (432Hz) & White Noise ventilation hum (Clean Room ambience).
+"Woe/Sirens" -> Square Wave Clipping, Modem Handshake screeches, and the sound of heavy ceramic plates grinding (Hard Drive failure).
 
 5. TRANSITIONS
-Method: Render Pass Visualization.
-Visual: The world does not fade. The view mode cycles. We see the "Wireframe" overlay flicker on top of the "Lit" render to reveal the underlying structure of the "Rich" sinners (showing them as hollow shells).
+Method: Render Mode Cycling.
+Visual: The camera does not cut; the *renderer* switches modes. The scene flickers from "Lit" (Final Render) to "Buffer Visualization" (G-Buffer) showing Normal Maps, Depth Maps, and Heat Maps of the subjects. This reveals the "Sinners" as cold/dead in the Heat Map while the Righteous glow hot.
 
 6. FRAMEWORK & TIMING
 Total Duration: 90 Seconds.
-Clip Count: 18 Clips.
+Clip Count: 18 Clips (Expanded for complex interactions).
 Structure:
-Clips 1-3 (Seg 1): Admin Privilege Escalation (Henoch activates Purge).
-Clips 4-7 (Seg 2): The Migration (Righteous moved to Secure Partition).
-Clips 8-10 (Seg 3): System Restore (Voxel Repair).
-Clips 11-13 (Seg 4/5): Deep Packet Inspection (Revealing the Malware).
-Clips 14-16 (Seg 6/7): Dependency Failure (The Crash).
-Clips 17-18 (Seg 8): Garbage Collection (Deletion).
+Clips 01-03 (Seg 1): Admin Login & Threat Identification.
+Clips 04-07 (Seg 2): The Migration (Elevating the Validated).
+Clips 08-10 (Seg 3): Integrity Patching (The Healing).
+Clips 11-13 (Seg 4/5): Deep Packet Inspection (Exposing the Spoof).
+Clips 14-16 (Seg 6/7): Connection Timeout (The Wither).
+Clips 17-18 (Seg 8): Format Complete (The Dawn).
 
 7. DIALOG CHECK
-Status: No Voice Acting.
-Execution: Hex-Code streams in the peripheral HUD. "ACCESS_VIOLATION" and "PERMISSION_GRANTED" flash in Ge'ez characters.
+Status: System Text Only.
+Execution: No spoken words. Subtitles appear as "System Notifications" in the center of the screen, styled like kernel panic logs or boot sequences. Font: Monospace Terminal.
 
 8. SPATIAL CONTEXT (ARRIVAL)
-Method: Node-Hopping / No-Clip.
-Visual: Henoch does not walk. He "instances" into the scene. One frame he is not there, the next frame he is, standing perfectly still. He is in "Spectator Mode," clipping slightly through a wall to show he is outside the physics engine.
+Method: Socket Connection.
+Visual: No walking. Henoch connects to the scene. The environment loads *around* him. First the floor grid, then the walls, then the lighting. He is the static constant; the world is the variable.
 
 9. GENERATION PLAN (SCENE BY SCENE PROMPTS)
 
-CLIP 01 [SEGMENT 1]: ADMIN LOGIN
+CLIP 01 [SEGMENT 1]: ADMIN SOCKET CONNECTION
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Henoch (Admin Build). Physique: Tall, motionless. Skin is matte grey synthetic polymer. Optics: A single horizontal laser-line visor glowing white, scanning the horizon.
+Actor: Henoch (Admin Build v96). Physique: Tall, static posture. Skin: Matte grey synthetic, non-reflective. Optics: `LIDAR_SCANNER_VISOR`—a single sweeping red laser line across a black glass faceplate.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Garment: "Null-Texture" Robes—perfectly black material (Vantablack) that absorbs all light, making him look like a silhouette cut out of reality. Prop: None.
+Garment: "Admin Shell"—a trench coat made of dynamic noise (static). It has no fixed texture, just shifting greyscale pixel noise. Prop: None.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Rooftop of a Cyber-Slum. Architecture: Dense cabling, satellite dishes. Henoch is standing *inside* a ventilation unit (clipping through it), showing his ghost-status.
+Location: The Render Void. A dark infinite grid floor. Architecture: The "Cyber-Slum" is loading in chunks around him. Wireframe buildings slam into existence, texturing in real-time.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Ambient City Smog (Orange). Henoch is unlit, a void in the image.
+Lighting: Harsh "Default Light" (perfectly white, no shadows) before the atmospheric simulation loads.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Static Wide Shot. 8k Resolution.
+Camera: Dolly Zoom (Vertigo Effect). The background expands while Henoch stays the same size. 8k Resolution.
 
-CLIP 02 [SEGMENT 1]: THE MARKING
+CLIP 02 [SEGMENT 1]: THREAT IDENTIFICATION
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
 Actor: Henoch (POV).
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-HUD: Augmented Reality Overlay.
+HUD: `KERNEL_DIAGNOSTICS`.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Looking down at the street crowd. Action: The crowd is analyzed. "Righteous" entities are highlighted with Green bounding boxes. "Sinners" are highlighted with Red hit-boxes.
+Location: Rooftop overlooking the Slum. Action: The crowd below is overlaid with data tags. "PID: VALID" (Green) vs "PID: CORRUPT" (Red). The corrupt entities are jittering (low framerate).
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: High contrast UI elements.
+Lighting: Night scene, illuminated by neon ad-boards. HUD is high-contrast green/red terminal text.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: High Angle POV. Digital Zoom snapping to targets.
+Camera: High Angle. Rapid snap-zoom to specific targets in the crowd.
 
-CLIP 03 [SEGMENT 1]: EXECUTE COMMAND
+CLIP 03 [SEGMENT 1]: EXECUTE PURGE PROTOCOL
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Henoch (CU).
+Actor: Henoch (Medium Shot).
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Action: Henoch raises a hand. The fingers end in data-ports, not nails.
+Action: He types on an invisible keyboard in the air. His fingers move at inhuman speed.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Rooftop. Action: He executes a "Swipe" gesture in the air. The reality around his hand ripples like a disturbed liquid surface.
+Location: Rooftop. Action: As he types, reality distorts. Shockwaves of "Chromatic Aberration" ripple out from his fingertips, distorting the air like heat haze.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: The ripple emits a burst of cyan light.
+Lighting: The "keyboard" impacts generate sparks of cyan plasma.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Extreme Close-Up on hand.
+Camera: Profile shot. Focus on the hand speed and the air distortion.
 
-CLIP 04 [SEGMENT 2]: THREAD MIGRATION
+CLIP 04 [SEGMENT 2]: EAGLE PROTOCOL - INITIALIZATION
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actors: The Righteous (Users). Physique: Varying, but enveloped in a protective energy signature.
+Actors: The Righteous (Validated Users). Physique: Dressed in ragged cyber-wear, but their outlines are glowing.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Equipment: "Eagle" Protocol Units—Levitation harnesses comprised of floating geometric prisms attached to their spines.
+Effect: `GRAVITY_NULLIFICATION`.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Slum Alleys. Action: The prisms activate, generating a vertical gravity-nullification field. The users lift off the ground effortlessly.
+Location: Slum Street Level. Action: The gravity around them inverts. Debris and water droplets start floating upward. The Users' feet lift 10cm off the ground.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: The anti-grav field emits a soft, stable green light.
+Lighting: Under-lighting from the glowing pavement (System Grid activating).
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Low Angle, tracking the lift-off. 144fps smooth motion.
+Camera: Low angle, ground level. Slow motion (120fps) to emphasize the smoothness.
 
-CLIP 05 [SEGMENT 2]: ASCENT TO SECURE SECTOR
+CLIP 05 [SEGMENT 2]: EAGLE PROTOCOL - ASCENSION
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
 Actors: The Righteous (Swarm).
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Equipment: Eagle Harnesses active.
+N/A.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: The Sky-Layer. Background: Below is the dirty city. Above are floating "Rock" platforms—massive, clean, white server monoliths floating in the clouds (The "Fissures of the Earth").
+Location: The Air Column. Action: They are pulled rapidly upward by a tractor beam of blue light. They do not fly; they are "translated" on the Y-Axis.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Transition from orange smog to blinding white sunlight.
+Lighting: High contrast silhouettes against the blue beam.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Wide Aerial Shot following the swarm towards the Monoliths.
+Camera: Tracking shot moving up with them, passing the dirty slum towers.
 
-CLIP 06 [SEGMENT 2]: DOCKING
+CLIP 06 [SEGMENT 2]: THE RAVENS AND SIRENS
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Righteous Child.
+Actors: System Daemons (Sirens). Physique: Mechanical avian drones with loudspeakers for heads.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Equipment: Harness deactivating.
+Audio Visualizer: The speakers are vibrating intensely.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Surface of a White Monolith. Action: The child lands gently. The surface is not stone, but smooth white plastic/ceramic.
+Location: Slum Rooftops (Left Behind). Action: The drones are screaming (emitting visible red soundwaves), detecting the mass deletion event. They are circling the corrupt users who cannot fly.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Overexposed white, clinical, safe.
+Lighting: Emergency Red rotating strobe lights.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Medium Shot. Smooth landing.
+Camera: Shaky cam, chaotic motion.
 
-CLIP 07 [SEGMENT 2]: THE VIEW FROM ABOVE
+CLIP 07 [SEGMENT 2]: SECURE PARTITION (THE CREVICES)
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actors: Righteous Group.
+Actors: The Righteous.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
 N/A.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Edge of the Monolith. Action: They look down. Far below, red warning lights flicker in the smog. They are safe ("Higher than Vultures").
+Location: The "Rock" (Server Rack Canyon). Massive, endless walls of black servers with blinking LEDs. Action: The users land on glass walkways between the racks. They are safe here.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Backlit by the sun.
+Lighting: Cool blue ambient light from the server status LEDs. Clean, dust-free atmosphere.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Over-the-shoulder looking down.
+Camera: Wide shot establishing the scale of the Server Canyon.
 
-CLIP 08 [SEGMENT 3]: VOXEL REPAIR
+CLIP 08 [SEGMENT 3]: DATA INTEGRITY CHECK
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Righteous User (Injured). Physique: Missing an arm (null data).
+Actor: Righteous User (Injured/Corrupt Data). Physique: Half of their face is pixelated/glitching.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Effect: Restoration Particle System.
+Effect: `VOXEL_RECONSTRUCTION`.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: The White Monolith. Action: The missing arm is not growing back; it is being *printed*. Golden voxels (cubes) materialize from thin air, snapping together to form the bone, then muscle, then skin.
+Location: Server Walkway. Action: A scanner beam sweeps over the user. The glitching pixels are deleted.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: The voxels emit an internal golden glow before cooling to skin tone.
+Lighting: Laser scanning grid (Green).
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Macro Close-Up on the voxel assembly.
+Camera: Extreme Close-Up on the glitch.
 
-CLIP 09 [SEGMENT 3]: SYSTEM AUDITORY FEEDBACK
+CLIP 09 [SEGMENT 3]: PATCHING
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Subject: Abstract Waveform Visualization.
+Actor: Righteous User.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-N/A.
+Effect: Nanotech instance.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: The Sky. Action: The clouds vibrate in a perfect Cymatic pattern (geometric shapes formed by sound).
+Location: Server Walkway. Action: New, pristine geometry "grows" over the deleted area. It looks like 3D printing in fast forward. The mesh is seamless.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Soft pastel gradients.
+Lighting: Internal golden glow from the new geometry.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Static shot of the sky pattern.
+Camera: Macro shot. The mesh wireframe fades into realistic skin.
 
-CLIP 10 [SEGMENT 3]: COMPLETE RESTORE
+CLIP 10 [SEGMENT 3]: SYSTEM STABILITY CONFIRMED
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Righteous User (Healed). Physique: Perfect mesh, no scars.
+Actor: Righteous User (Healed).
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Action: Inspecting their own hand.
+Expression: Calm.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Monolith. Action: Flexing fingers. The movement is perfectly responsive (zero latency).
+Location: Server Walkway. Action: The user breathes in. The air is clear. A holographic notification appears: "INTEGRITY: 100%".
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Bright, clean.
+Lighting: Soft, diffuse white light (The "Light" mentioned in text).
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: POV of the user looking at their hand.
+Camera: Medium Shot. Slow push in.
 
-CLIP 11 [SEGMENT 4]: THE SPOOF DETECTED
+CLIP 11 [SEGMENT 4]: SPOOFING DETECTION
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: High-Value Sinner. Physique: Wearing a "Golden Skin" texture pack. It looks expensive but slightly misaligned at the neck seam.
+Actor: The Wealthy Sinner (Malware). Physique: Wearing a generic "Golden King" skin.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Garment: Digital Silk Suit.
+Effect: Texture Flicker.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Penthouse Office (Below). Action: He is looking in a mirror. In the reflection, his texture is missing, revealing a rusted metal endoskeleton.
+Location: The Slum (Below). Action: He is trying to blend in. But under the inspection of the "System Heart" (Kernel), his golden texture flickers transparency, revealing a rusted, skeletal wireframe underneath.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Warm room light vs. Cold Green "Debug" light in the mirror.
+Lighting: The environment is dark, but the "Kernel Scan" is a flat plane of white light passing through him.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Rack Focus from the back of his head to the reflection.
+Camera: X-Ray effect shot.
 
-CLIP 12 [SEGMENT 5]: RESOURCE HOGGING
+CLIP 12 [SEGMENT 4]: THE ERROR LOG
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: The Sinner.
+Subject: Floating Holographic Console.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Prop: Thick fiber-optic cables glowing with blue data ("Water").
+Text: "SIGNATURE_MISMATCH".
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Server Room. Action: The Sinner is forcing cables into their mouth, greedily consuming bandwidth. The surrounding lights dim as he drains the grid.
+Location: Overlay. Action: The Sinner's chest is highlighted. A red "X" appears over where the heart should be. The system identifies the spoof.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Stuttering/Flickering ambient lights.
+Lighting: UI Glow.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Handheld, shaking. Frame rate drops to 12fps.
+Camera: Static UI shot.
 
-CLIP 13 [SEGMENT 5]: CRUSHING THE HUMBLE
+CLIP 13 [SEGMENT 5]: RESOURCE HOGGING
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Sinner's foot (Close Up).
+Actor: The Glutton (Resource Hog). Physique: Grotesquely bloated mesh, intersecting with itself.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Footwear: Heavy metallic boot.
+Prop: Thick data-cables labeled "RAM" and "VRAM".
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Floor. Action: The boot crushes a small, glowing processing node (representing a humble user). The node sparks and goes dark.
+Location: Utility Room. Action: The actor is stuffing the cables into their mouth. The room around them is low-poly and untextured because they are consuming all the rendering budget.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Low key, industrial.
+Lighting: The room is dim; the actor is brightly lit (selfish lighting).
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Ground level. Impact causes camera shake.
+Camera: Wide angle, distorted lens.
 
-CLIP 14 [SEGMENT 6]: DEPENDENCY FAILURE
+CLIP 14 [SEGMENT 6]: UNSAFE REPOSITORY
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
 Actor: Sinner.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Action: Drinking from a "Black Water" pipe (Unauthorized Data Stream).
+Action: Drinking from a "Black Pipe" (The unsafe water).
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Dark Alley. Action: As he drinks, his texture map begins to slide off his face. The UV mapping breaks. The face texture is projected onto his chest.
+Location: Back Alley. Action: The liquid is "Corrupt Data" (black glitch artifacts). As it touches his lips, his face mesh begins to invert. Vertices shoot out in random directions.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Sickly green from the liquid.
+Lighting: Green toxic spill light.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Medium Shot. The render glitch is visible and disturbing.
+Camera: Crash zoom on the moment of contact.
 
-CLIP 15 [SEGMENT 6]: THE WITHERING
+CLIP 15 [SEGMENT 6]: DISCONNECTION FROM SOURCE
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
 Actor: Sinner.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-N/A.
+Effect: `WITHER_EFFECT`.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Alley. Action: He collapses against a wall. His polygon count drops in real-time. High-poly > Low-poly > Blocky shape. He "withers" into a primitive geometric form.
+Location: Alley. Action: Disconnected from the main server ("Source of Life"), the actor's battery/energy reaches 0%. They turn grey, stiffen into a T-Pose, and then crumble into grey dust (unlinked data).
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Shadows lengthen unnaturally.
+Lighting: Lights flicker and die.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Time-lapse feel.
+Camera: Time-lapse of the crumbling.
 
-CLIP 16 [SEGMENT 7]: THE LOG FILE
+CLIP 16 [SEGMENT 7]: THE PERMANENT RECORD
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Subject: Floating Holographic Text.
+Subject: The Blockchain Log.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-N/A.
+Visual: An infinite scroll of glowing hash codes.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Overlay on the withered Sinner. Action: Text scrolls rapidly: "ERROR_404_LIFE_SOURCE_NOT_FOUND", "CRITICAL_FAILURE", "LOG_SAVED_TO_BLOCKCHAIN".
+Location: Abstract Datascape. Action: The errors of the Sinners are burned into the block. They cannot be edited. "WRITE_ONLY_MEMORY".
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Red error text.
+Lighting: Deep blue and neon text.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Static graphic shot.
+Camera: Tracking shot along the infinite scroll.
 
-CLIP 17 [SEGMENT 8]: GARBAGE COLLECTION
+CLIP 17 [SEGMENT 8]: GARBAGE COLLECTION SWEEP
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
 Actor: Henoch (Admin).
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Action: Watching the city.
+Action: Executing the final command.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: High vantage point. Action: A "Delete Plane" (a flat, transparent wall of code) sweeps across the city sector below. As it passes buildings and sinners, they vanish instantly, leaving empty black space.
+Location: High Vantage. Action: A "Deletion Wall" (a plane of absolute void) moves through the city. Everything behind it is deleted (Alpha Channel = 0). The Sinners scream as they are formatted.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: The Delete Plane glows white at the leading edge. Behind it is void.
+Lighting: The wall is a hard edge between existence and nothingness.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Extreme Wide Shot.
+Camera: Wide aerial shot of the city being erased.
 
 CLIP 18 [SEGMENT 8]: OPTIMIZATION COMPLETE
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
 Actor: Henoch.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-HUD: "SYSTEM_OPTIMAL".
+HUD: "CPU_IDLE. THERMAL_NORMAL."
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Observation Deck. Action: The city is gone. Only the "Rock" platforms in the sky remain, glowing in the dawn. The system is silent and stable.
+Location: The Clean Slate. The slum is gone. Only the White Server Towers remain in a pristine, white void landscape.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Golden dawn light.
+Lighting: Sunrise. Warm, golden, perfect global illumination.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Slow pull back. Fade to Black.
+Camera: Slow pan over the new, clean world. Fade to white.

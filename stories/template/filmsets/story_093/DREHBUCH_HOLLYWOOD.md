@@ -1,442 +1,471 @@
 # DREHBUCH KAPITEL 93 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Ich habe die Sektoren der Zeit gescannt, sieben Partitionen der Menschheit. Jede Woche ein neuer Versuch, jede Ära ein neuer Fehler im Quellcode. Am Ende bleibt nur die Hitze des Prozessors und die Stille nach dem Absturz.
+NARRATOR_TEXT: Ich habe das Systemprotokoll geöffnet. Die sieben Wochen der Menschheit, archiviert in Licht und Fehlercodes. Alles beginnt in perfekter Geometrie, doch der Entropie-Algorithmus ist unaufhaltsam. Am Ende bleibt nur das Rauschen der Daten und die Stille nach dem Neustart.
 
-## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:04] [THE INFINITY MIRROR]
-**Action:** Establishing Shot. Der "ARCHIVE_NODE_ZERO". Ein unendlicher Raum aus schwarzem Glas. Henoch steht im Zentrum. Keine Wände, nur Reflexionen.
+## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:05] [SYSTEM HANDSHAKE]
+**Action:** Establishing Shot. Der "ARCHIVE_NODE_ZERO". Ein unendlicher Raum aus schwarzem Glas. Henoch (Master Phase) steht im Zentrum. Keine Wände, nur Reflexionen. Absolute Sterilität.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor_in_env", "shot_type": "establishing", "framing": "wide", "environment": "Archive Node Zero", "env_change": false, "actors": [{"name": "Henoch", "phase": "VOYAGER", "presence": "on_screen", "focus": "primary"}], "props": ["Data_Wafer"], "camera": "Static, symmetrical, 14mm wide angle", "mood": ["sterile", "isolated"], "director_intent": "Establish the absolute void and the digital isolation of the protagonist.", "start_image_keywords": ["infinity mirror", "black void", "silver skin"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "IDLE_STANDING", "env_id": "ARCHIVE_NODE_ZERO", "props": ["SLATE_01"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor_in_env", "shot_type": "establishing", "framing": "wide", "environment": "Archive Node Zero", "env_change": false, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": ["Data_Wafer"], "camera": "Static, symmetrical, 14mm wide angle, Low Angle", "mood": ["sterile", "isolated", "cold"], "director_intent": "Establish the absolute void and the digital isolation of the protagonist.", "start_image_keywords": ["infinity mirror", "black void", "marble skin", "translucent actor"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "STANDING_RIGID", "env_id": "ARCHIVE_NODE_ZERO", "props": ["SLATE_01"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic wide shot, vertical 9:16 aspect ratio. Henoch (Voyager Phase) standing in the center of an infinite black mirror room. Floor and ceiling are perfectly reflective obsidian glass. No walls, just endless darkness and reflections. Henoch wears a translucent silver-white tech-tunic. He holds a matte black slate. Lighting is stark, clinical, rim-lighting only. 8k resolution, photorealistic, Unreal Engine 5 render style.
+Cinematic vertical 9:16 wide shot. Henoch (Master Phase) standing rigid in the center of an infinite black mirror room. Floor and ceiling are perfectly reflective obsidian glass. No walls, just endless darkness and recursive reflections. Henoch has translucent white marble skin with faint internal blue bioluminescence. He wears a high-tech off-white 'Liquid Linen' tunic. He holds a matte black slate. Lighting is stark, clinical, single overhead rim-light. 8k resolution, photorealistic, Unreal Engine 5 render style, path tracing.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Henoch (Voyager Phase). **Physique:** Slender, cybernetic build. **Skin-Shader:** `SILVER_SYNTH_V2`. Metallic silver skin with subsurface scattering, semi-translucent. **Optics:** `HUD_VISOR_INTEGRATED`. A thin glass strip over the eyes displaying faint blue telemetry.
+> **Actor:** Henoch (System Prototype / Master Phase). **Physique:** Sculpted, synthetic anatomy. **Skin-Shader:** `MARBLE_SHIMMER_V3`. Translucent Parian marble, internal subsurface scattering. **Action:** Standing perfectly still, breathing very slowly.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** High-tech minimalist robe, `LIQUID_LINEN`, shimmering white. **Primary Prop:** `DATA_WAFER` (Slate). Matte black, light-absorbing rectangular device in right hand.
+> **Garment:** `LIQUID_LINEN` tunic, semi-transparent layers. **Primary Prop:** `DATA_WAFER` (Slate) held at side. Matte black obsidian.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** `ARCHIVE_NODE_ZERO`. An infinite void defined by a floor and ceiling of perfect black mirrors. **Atmosphere:** Vacuum, dust-free, sterile. **Reflections:** Infinite recursion of the subject in the floor and ceiling.
+> **Location:** `ARCHIVE_NODE_ZERO`. Infinite void defined by perfect black mirrors above and below. **Atmosphere:** Vacuum, dust-free.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `SYSTEM_IDLE`. Cold white rim light from above. No fill light. High contrast. **Palette:** Obsidian Black, Silver, Cold White.
+> **Lighting Scheme:** `SYSTEM_IDLE`. Cold white rim light from above. **Palette:** Obsidian Black, Marble White, Cool Blue.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Static, symmetrical wide shot. **Lens:** 14mm Rectilinear. **Focus:** Infinite depth of field. **Style:** Kubrick-esque symmetry, clinical sci-fi.
+> **Camera:** Low angle, perfectly symmetrical. **Lens:** 14mm Rectilinear. **Focus:** Infinite depth of field.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep, steady sub-bass drone, like a massive server room in standby mode. No organic sounds. A faint, high-frequency electrical hum.
+Deep, steady sub-bass drone, like a massive server room in standby mode. A faint, high-frequency electrical hum (60Hz loop). No organic sounds.
 
-## [ACT 1] [SCENE 1.2] [Timecode: 00:04-00:08] [MACRO HANDSHAKE]
-**Action:** Macro. Henochs Fingerspitzen berühren den Slate. Die Haut an den Kontaktpunkten glüht weiß auf (Hitze). Goldene Datenbahnen schießen unter seiner Haut den Arm hinauf.
+## [ACT 1] [SCENE 1.2] [Timecode: 00:05-00:10] [PORT CONNECTION]
+**Action:** Close Up. Henochs Hand schwebt über dem Slate. Mechanische Iris-Ports öffnen sich an seinen Fingerspitzen.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop_interaction", "shot_type": "insert", "framing": "extreme_close_up", "environment": "Archive Node Zero", "env_change": false, "actors": [{"name": "Henoch", "phase": "VOYAGER", "presence": "on_screen", "focus": "primary"}], "props": ["Data_Wafer"], "camera": "Macro 100mm, shallow depth of field", "mood": ["intense", "technical"], "director_intent": "Show the physical cost of data transfer through heat and light.", "start_image_keywords": ["fingertip contact", "glowing veins", "thermal reaction"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "HAND_CONTACT", "env_id": "ARCHIVE_NODE_ZERO", "props": ["SLATE_ACTIVE"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop_interaction", "shot_type": "insert", "framing": "close_up", "environment": "Archive Node Zero", "env_change": false, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": ["Data_Wafer"], "camera": "Macro 100mm, shallow depth of field", "mood": ["technical", "anticipation"], "director_intent": "Show the mechanical preparation for data transfer.", "start_image_keywords": ["mechanical fingertips", "opening ports", "matte black slate"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "HAND_HOVER", "env_id": "ARCHIVE_NODE_ZERO", "props": ["SLATE_ACTIVE"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 2}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme macro close-up, vertical 9:16. A metallic silver fingertip pressing against a matte black slate. The point of contact is glowing white-hot like molten metal. Golden circuit-like veins are lighting up under the translucent skin of the finger, spreading upwards. Heat distortion ripples around the contact point. High contrast, sparks of light.
+Vertical 9:16 Close-up of a translucent marble hand hovering over a matte black rectangular device. The fingertips are not organic; they have small, circular mechanical apertures (iris shutters) that are dilating open. Inside the finger-ports, faint golden light is visible. The slate below is pitch black and light-absorbing. Sharp focus on the fingertips, shallow depth of field.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Henoch (Hand Detail). **Skin-Shader:** `SILVER_SYNTH_V2` turning `THERMAL_OVERLOAD`. The silver skin becomes translucent revealing glowing gold circuitry underneath.
+> **Subject:** Henoch's Right Hand. **Skin:** Translucent marble. **Detail:** Tiny mechanical servos opening ports on fingertips.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Primary Prop:** `DATA_WAFER`. The black surface turns white at the touch point, simulating extreme heat transfer.
+> **Prop:** `DATA_WAFER`. Extremely matte, zero reflection.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** `ARCHIVE_NODE_ZERO`. Background is out of focus (Bokeh).
+> **Location:** `ARCHIVE_NODE_ZERO`.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `DATA_INJECTION`. The light source is the contact point itself (Self-Illumination). Bright orange/gold glow against deep shadows.
+> **Lighting Scheme:** `PRE-IGNITION`. Rim light only. **Palette:** Black, White, faint Gold.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Macro lens. **Focus:** Razor sharp on the fingertip. **Motion:** Slight jitter/shake to simulate energy resistance.
+> **Camera:** Macro. **Focus:** Tracking the opening ports.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sharp, high-pitched digital screech, like a modem handshake mixed with a welding torch hiss. Crackling energy.
+Tiny, precise servo-motor whirring sounds (micro-mechanics). A faint high-pitched capacitor charging whine.
 
-## [ACT 1] [SCENE 1.3] [Timecode: 00:08-00:12] [REACTION]
-**Action:** Reaction. Henochs Kopf ruckt zurück. Sein Visier flackert. HUD-Overlay: "LOADING HISTORY_LOG...". Seine Adern pulsieren im Takt des Datenstroms.
+## [ACT 1] [SCENE 1.3] [Timecode: 00:10-00:15] [HAPTIC HANDSHAKE]
+**Action:** Extreme Close Up. Kontakt. Die Fingerspitzen berühren den Slate. Sofortige thermische Reaktion. Die Kontaktstelle glüht weiß auf. Hitzewellen.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor_closeup", "shot_type": "close_up", "framing": "close_up", "environment": "Archive Node Zero", "env_change": false, "actors": [{"name": "Henoch", "phase": "VOYAGER", "presence": "on_screen", "focus": "primary"}], "props": ["HUD_Visor"], "camera": "Shaky, handheld feel, 50mm", "mood": ["painful", "overwhelming"], "director_intent": "Depict the data upload as a physical seizure or shock.", "start_image_keywords": ["head jerk", "glitch visor", "pulsing veins"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "HEAD_RECOIL", "env_id": "ARCHIVE_NODE_ZERO", "props": ["HUD_VISOR"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop_interaction", "shot_type": "insert", "framing": "extreme_close_up", "environment": "Archive Node Zero", "env_change": false, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": ["Data_Wafer"], "camera": "Macro 100mm", "mood": ["intense", "dangerous"], "director_intent": "Visualize the data connection as a thermal overload event.", "start_image_keywords": ["fingertip contact", "thermal glow", "heat distortion", "white hot"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "HAND_CONTACT", "env_id": "ARCHIVE_NODE_ZERO", "props": ["SLATE_HOT"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Close-up portrait, vertical 9:16. Henoch's head thrown back in a sudden spasm. His silver skin is flushed with internal golden light. The glass visor over his eyes is glitching with blue text "LOADING...". Veins in his neck are prominent and glowing. Expression of shock and processing load. Motion blur on the edges.
+Extreme macro vertical 9:16. A marble fingertip pressing against black obsidian. The exact point of contact is glowing blindingly white-hot. Subsurface scattering turns the translucent marble finger deep orange and red, simulating internal heat bloom. Heat distortion waves ripple through the air above the contact. Sparks of energy.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Henoch (Voyager Phase). **Action:** Involuntary muscle spasms. Head jerks back. **Skin:** Subsurface bioluminescence pulsing rapidly (strobe effect).
+> **Subject:** Henoch's Finger. **Reaction:** Instant thermal blooming. The "blood" (coolant) turns red/orange inside the finger.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Collar of the tunic vibrates. **Prop:** `HUD_VISOR`. Displays scrolling text and error artifacts.
+> **Prop:** `DATA_WAFER`. The black surface bleaches white at the touch point due to heat.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** `ARCHIVE_NODE_ZERO`. Reflections in the background streak due to camera motion.
+> **Location:** `ARCHIVE_NODE_ZERO`.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `STROBE_WARNING`. Rapid flickering of the internal light and the visor. Blue and Gold flashes.
+> **Lighting Scheme:** `THERMAL_SPIKE`. The contact point is the sole light source. **Palette:** Black, Magma Orange, White.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Handheld, shaky cam. **Lens:** 50mm. **Effect:** Motion blur, chromatic aberration.
+> **Camera:** Macro. **VFX:** Shockwave distortion.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud turbine spin-up sound, increasing in pitch. Heartbeat thumping heavily, distorted like a kick drum.
+Heavy bass drop impact. Electrical arc crackle. Sizzling sound like water hitting hot metal.
 
-## [ACT 1] [SCENE 1.4] [Timecode: 00:12-00:15] [INGRESS]
-**Action:** Ingress. Der schwarze Raum wird von einer Lichtwelle (Scanner-Sweep) durchflutet. Die Realität wird "überschrieben".
+## [ACT 1] [SCENE 1.4] [Timecode: 00:15-00:20] [OPTICAL PROJECTION]
+**Action:** Close Up. Henochs Gesicht. Seine Augen (Projektoren) strahlen blaue Gitter aus. Adern am Hals pulsieren im Stroboskop-Takt.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment_transition", "shot_type": "wide", "framing": "wide", "environment": "Archive Node Zero to White Room", "env_change": true, "actors": [{"name": "Henoch", "phase": "VOYAGER", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Dolly in, low angle", "mood": ["transformative", "bright"], "director_intent": "Visualise the overwriting of the void with the simulation data.", "start_image_keywords": ["light sweep", "reality overwrite", "white wave"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "STANDING_STILL", "env_id": "TRANSITION_WAVE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor_closeup", "shot_type": "close_up", "framing": "close_up", "environment": "Archive Node Zero", "env_change": false, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": ["Projector_Eyes"], "camera": "Handheld, slightly shaky", "mood": ["overwhelmed", "processing"], "director_intent": "The protagonist acts as the projector for the simulation.", "start_image_keywords": ["projector eyes", "blue light beams", "pulsing veins", "marble skin"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "HEAD_PROJECTION", "env_id": "ARCHIVE_NODE_ZERO", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 2}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide shot, vertical 9:16. A massive wall of solid white light sweeping across the black mirror room. Where the light touches, the black void is erased and replaced by a sterile white grid. Henoch is a silhouette against the oncoming wall of light. High contrast, blinding brightness.
+Vertical 9:16 Portrait Close-up. Henoch's translucent marble face. He has no pupils; his eyes are mechanical apertures emitting solid cones of blue structured light (grid patterns). The veins in his neck and temple are visible under the skin, pulsing with bright white light in a strobe effect. Expression of intense focus and involuntary twitching. High contrast.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Henoch (Silhouette). **Action:** Bracing against the light.
+> **Actor:** Henoch (Master). **Action:** Eyes roll back then snap forward. **Optics:** `PROJECTOR_ARRAY`. Emitting volumetric blue light. **Skin:** Strobe-light pulsing in veins (Data transmission).
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Robes fluttering violently as if hit by wind.
+> **Garment:** Collar vibrates from muscle tension.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Transition from `ARCHIVE_NODE_ZERO` to `WEEK_1_CLEAN_ROOM`. **VFX:** The transition is a physical wave of data, not a fade. It has mass and velocity.
+> **Location:** `ARCHIVE_NODE_ZERO`.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `OVEREXPOSURE`. The light source is the wave itself. Everything behind it is pure white. Everything in front is deep black.
+> **Lighting Scheme:** `DATA_BEAM`. Face illuminated by the bounce of his own eye-projectors. **Palette:** Blue, White, Marble.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Dolly In rapidly. **Lens:** Wide angle. **Style:** High-speed photography look.
+> **Camera:** Handheld shake. **Lens:** 50mm.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy bass drop impact. A "whoosh" sound that cuts off abruptly into silence.
+Modulated modem handshake sound turning into a digital scream. High frequency data chirps.
 
-## [ACT 2] [SCENE 2.1] [Timecode: 00:15-00:19] [WEEK 1: THE PERFECT GRID]
-**Action:** WEEK 1 (ENOCH): Eine sterile, weiße Ebene (Clean Room). Perfekte Ordnung. Henoch steht makellos da. Kein Staub, keine Kratzer.
+## [ACT 2] [SCENE 2.1] [Timecode: 00:20-00:24] [WEEK 1: PERFECT GRID]
+**Action:** WEEK 1. Der schwarze Raum wird von einem perfekten weißen Gitter (Wireframe) überlagert. 100% Stabilität. Henoch beobachtet.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor_in_env", "shot_type": "medium", "framing": "medium", "environment": "Week 1 Clean Room", "env_change": true, "actors": [{"name": "Henoch", "phase": "VOYAGER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Tracking shot, smooth", "mood": ["peaceful", "sterile"], "director_intent": "Show the initial perfection of the system before corruption.", "start_image_keywords": ["white clean room", "perfect grid", "sterile"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "OBSERVING", "env_id": "WEEK_1_GRID", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment_transition", "shot_type": "medium", "framing": "medium", "environment": "Week 1 Grid", "env_change": true, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Tracking shot, smooth", "mood": ["orderly", "perfect"], "director_intent": "Show the initial perfection of the simulation code.", "start_image_keywords": ["white wireframe grid", "perfect geometry", "digital eden"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "OBSERVING_CALM", "env_id": "WEEK_1_GRID", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 6}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot, vertical 9:16. Henoch standing in a boundless white room. The floor is a subtle, perfect white grid. The lighting is soft, shadowless, and diffuse. Henoch looks pristine, his silver skin polished, his robes perfectly draped. No dirt, no noise, absolute geometric perfection.
+Medium shot, vertical 9:16. Henoch standing in a world defined by a glowing white wireframe grid against a black background. The geometry is flawless, infinite, and symmetrical. Henoch looks calm, his marble skin glowing softly. The grid lines reflect perfectly on his tunic.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Henoch (Voyager Phase). **State:** `OPTIMAL`. No glitches, no heat. **Action:** Looking around calmly.
+> **Actor:** Henoch. **Action:** Walking slowly, observing the grid.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** `LIQUID_LINEN` flows like water in zero gravity.
+> **Garment:** Moving fluidly.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** `WEEK_1_CLEAN_ROOM`. Infinite white space with faint grid lines. **Atmosphere:** Sterile, medical grade cleanliness.
+> **Location:** `EDEN_V1`. **VFX:** Glowing white grid lines appearing and extending to infinity. No textures, pure vector geometry.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `GLOBAL_ILLUMINATION`. Soft, even white light. No harsh shadows. **Palette:** White, Light Grey, Silver.
+> **Lighting Scheme:** `VECTOR_GLOW`. Light comes from the grid. **Palette:** Black, White.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Smooth tracking shot (Steadicam). **Lens:** 35mm. **Style:** Apple product commercial aesthetic.
+> **Camera:** Smooth tracking (Steadicam). **Lens:** 35mm.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Synthesized choir chord, major key, very pure and harmonic. No noise.
+Pure sine wave tone. Harmonic, clean, soothing. No noise.
 
-## [ACT 2] [SCENE 2.2] [Timecode: 00:19-00:23] [WEEK 2: FLUID SIMULATION ERROR]
-**Action:** WEEK 2 (CORRUPTION): Schwarzes Öl (Ferrofluid) bricht aus dem Boden. Es bildet dornige, magnetische Strukturen. Henoch weicht zurück.
+## [ACT 2] [SCENE 2.2] [Timecode: 00:24-00:27] [WEEK 2: FLUID SIMULATION ERROR]
+**Action:** WEEK 2. Schwarzes Öl flutet das Gitter. Low-Poly-Fehler. "Texture Missing" Schachbrettmuster schwimmen auf der Oberfläche.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment_action", "shot_type": "medium", "framing": "medium", "environment": "Week 2 Oil Spill", "env_change": true, "actors": [{"name": "Henoch", "phase": "VOYAGER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Handheld, disoriented", "mood": ["disturbing", "corrupt"], "director_intent": "Introduce the first system error: corruption manifesting as black oil.", "start_image_keywords": ["black oil", "ferrofluid spikes", "corruption"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "RECOIL_STEP", "env_id": "WEEK_2_OIL", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment_glitch", "shot_type": "medium", "framing": "low_angle", "environment": "Week 2 Oil", "env_change": true, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Handheld, disoriented", "mood": ["corrupt", "glitchy"], "director_intent": "Introduce corruption via fluid simulation errors and texture failures.", "start_image_keywords": ["black oil flood", "texture missing glitch", "purple checkerboard", "low poly liquid"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "RECOIL_LOOK_DOWN", "env_id": "WEEK_2_OIL", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 4}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot, vertical 9:16. The white grid floor is erupting with black viscous oil. The oil forms sharp, spiky ferrofluid structures that defy gravity. Henoch is stepping back, looking down in alarm. The white room is stained. Glitch artifacts (purple/black squares) float near the oil.
+Low angle medium shot, vertical 9:16. The white grid is flooded with viscous black oil. The oil is rendering incorrectly - some parts are low-poly spikes, others are smooth. Floating on the oil are "Texture Missing" squares (pink and black checkerboard). Henoch looks down, the hem of his tunic stained by the digital sludge.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Henoch. **Action:** Defensive posture.
+> **Actor:** Henoch. **Action:** Stepping back from the rising liquid.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** The hem of the robe is stained black by the oil.
+> **Garment:** Stained black at the bottom.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** `WEEK_2_CORRUPTION`. The floor mesh is breaking. **VFX:** `FERROFLUID_SIM`. The black liquid moves with magnetic aggression, forming thorns. **Glitch:** Occasional "Texture Missing" checkerboards flash on the liquid surface.
+> **Location:** `WEEK_2_CORRUPTION`. **VFX:** `FLUID_SIM_FAIL`. Liquid meshes clipping through geometry. Pink/Black error textures floating.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `CONTRAST_SPIKE`. The white room darkens. Shadows become sharp. **Palette:** White, Black, Magenta (Glitch).
+> **Lighting Scheme:** `ERROR_CONTRAST`. Darker, sharper shadows. **Palette:** Black, White, Magenta (Glitch).
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Handheld, slightly shaky. **Lens:** 35mm.
+> **Camera:** Handheld. **Lens:** 35mm.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Thick bubbling sound, viscous liquid splashing. Digital distortion and static crackle.
+Viscous liquid bubbling and splashing. Bit-crushed distortion effects on the splash sounds.
 
-## [ACT 2] [SCENE 2.3] [Timecode: 00:23-00:27] [WEEK 3: FRACTAL ROOT DIRECTORY]
-**Action:** WEEK 3 (THE PLANT): Ein goldener Fraktal-Baum wächst in Zeitraffer aus dem Öl. Er besteht aus Lichtfasern, nicht Holz.
+## [ACT 2] [SCENE 2.3] [Timecode: 00:27-00:30] [WEEK 3: FRACTAL ROOT]
+**Action:** WEEK 3. Close Up auf den Slate. Ein goldener L-System-Fraktalbaum wächst daraus hervor. Mathematisch, nicht organisch. Koordinaten schweben in der Luft.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop_action", "shot_type": "insert", "framing": "close_up", "environment": "Week 3 Fractal", "env_change": true, "actors": [], "props": ["Fractal_Tree"], "camera": "Orbit, smooth", "mood": ["wondrous", "mathematical"], "director_intent": "Show the system trying to create life, but it results in a mathematical fractal.", "start_image_keywords": ["golden fractal tree", "fiber optic roots", "L-system"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "WEEK_3_TREE", "props": ["FRACTAL_TREE"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop_action", "shot_type": "insert", "framing": "close_up", "environment": "Archive Node Zero", "env_change": false, "actors": [], "props": ["Fractal_Tree"], "camera": "Orbit, smooth", "mood": ["wondrous", "mathematical"], "director_intent": "Show life as a mathematical formula.", "start_image_keywords": ["golden fractal tree", "L-system", "fiber optics", "floating numbers"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "WEEK_3_TREE", "props": ["FRACTAL_TREE"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Close-up, vertical 9:16. A complex golden tree structure growing out of a pool of black oil. The tree is not organic; it is made of glowing fiber-optic cables and geometric nodes (L-System fractal). Floating numbers and coordinates surround the branches. The light from the tree illuminates the darkness.
+Close-up vertical 9:16. A complex golden tree structure growing rapidly out of the black slate. It is an L-System fractal, made of glowing fiber-optic wires and geometric nodes, not wood. Floating white numbers (coordinates and math) orbit the branches. The background is dark.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** `FRACTAL_TREE`. **Action:** Rapid growth (Time-lapse style). Unfolding geometrically.
+> **Subject:** `FRACTAL_TREE`. **Action:** Rapid geometric growth (Time-lapse). Unfolding with mechanical precision.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Material:** Gold wireframe, fiber optics, light.
+> **Material:** Gold wireframe, light.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** `WEEK_3_PLANT`. **VFX:** Floating UI text (coordinates) orbiting the branches.
+> **Location:** Above the `DATA_WAFER`. **VFX:** HUD text floating in 3D space around the tree.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `BIOLUMINESCENCE`. The tree is the light source. Warm gold glow. **Palette:** Gold, Black.
+> **Lighting Scheme:** `BIOLUMINESCENCE`. Tree glows warm gold. **Palette:** Gold, Black.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Orbiting around the tree. **Lens:** Macro. **Style:** Scientific visualization.
+> **Camera:** Orbit. **Lens:** Macro.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Glass cracking and crystallization sounds. High-pitched chiming like wind chimes.
+Rapid ticking sound like a Geiger counter or fast clockwork. Glass chiming.
 
-## [ACT 2] [SCENE 2.4] [Timecode: 00:27-00:31] [WEEK 4: BOUNDARY CONSTRAINTS]
-**Action:** WEEK 4 (THE LAW): Rote Laser-Barrieren schlagen um Henoch ein. Ein Käfig aus Licht. Er ist gefangen, aber sicher.
+## [ACT 2] [SCENE 2.4] [Timecode: 00:30-00:32] [WEEK 4: BOUNDARY CONSTRAINTS]
+**Action:** WEEK 4. Rote Laser-Wände schlagen um Henoch ein. Ein Käfig aus Licht. Alarm-Stroboskop.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor_in_env", "shot_type": "wide", "framing": "high_angle", "environment": "Week 4 Laser Cage", "env_change": true, "actors": [{"name": "Henoch", "phase": "VOYAGER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Top down, God view", "mood": ["oppressive", "secure"], "director_intent": "Visualise the Law as a restrictive firewall or laser cage.", "start_image_keywords": ["red laser cage", "light barriers", "imprisonment"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "TRAPPED", "env_id": "WEEK_4_CAGE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor_in_env", "shot_type": "wide", "framing": "wide", "environment": "Week 4 Cage", "env_change": true, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Shaky, handheld drift", "mood": ["oppressive", "alarmed"], "director_intent": "Visualize the imposition of law as a restrictive firewall.", "start_image_keywords": ["red laser cage", "firewall", "strobe light", "prison"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "TRAPPED_ALERT", "env_id": "WEEK_4_CAGE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 3}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-High angle top-down shot, vertical 9:16. Henoch stands in the center. Massive vertical walls of red laser light form a perfect square cage around him. The floor is reflective black. The red light casts harsh shadows. The atmosphere is hazy with red smoke.
+Wide shot vertical 9:16. Henoch stands trapped inside a cage made of vertical red laser beams. The beams extend infinitely upwards. The environment is bathed in aggressive red emergency strobe lighting. Henoch looks small and contained. Shadows are harsh and black.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Henoch. **Action:** Looking up at the barriers. Standing still.
+> **Actor:** Henoch. **Action:** Looking around at the barriers.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Robes tinted red by the light.
+> **Garment:** Tinted red by the light.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** `WEEK_4_LAW`. **VFX:** The laser walls pulse with energy. Smoke swirls inside the cage.
+> **Location:** `WEEK_4_LAW`. **VFX:** Laser walls pulsing. Smoke/Fog illuminated by red lasers.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `ALARM_STATE`. Intense monochromatic red light. **Palette:** Red, Black.
+> **Lighting Scheme:** `ALARM_RED`. Monochromatic red strobe. **Palette:** Red, Black.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Top-down (God's Eye View). **Lens:** Wide. **Motion:** Slow rotation.
+> **Camera:** Handheld drift/shake. **Lens:** Wide.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy industrial slam, like a prison door closing. Low frequency hum of high-voltage electricity.
+Loud industrial alarm klaxon (repeating). Low frequency hum of high-voltage fields.
 
-## [ACT 2] [SCENE 2.5] [Timecode: 00:31-00:35] [WEEK 5: PROCEDURAL TEMPLE]
-**Action:** WEEK 5 (THE TEMPLE): Massive Steinblöcke materialisieren sich um ihn herum. Fotorealistische Texturen, die kurz flackern (Reality Lag). Ein goldener Thronraum entsteht.
+## [ACT 2] [SCENE 2.5] [Timecode: 00:32-00:34] [WEEK 5: PROCEDURAL TEMPLE]
+**Action:** WEEK 5. Massive Steinblöcke spawnen aus dem Nichts. Blaue Wireframes blitzen auf, dann ploppt die Textur herein (Lag).
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment_action", "shot_type": "wide", "framing": "low_angle", "environment": "Week 5 Temple", "env_change": true, "actors": [{"name": "Henoch", "phase": "VOYAGER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Whip pan, rotating", "mood": ["grand", "overwhelming"], "director_intent": "Show the construction of the Temple as a procedural generation event with LOD popping.", "start_image_keywords": ["stone blocks spawning", "wireframe to texture", "temple construction"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "AWE_LOOKUP", "env_id": "WEEK_5_TEMPLE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment_construction", "shot_type": "wide", "framing": "low_angle", "environment": "Week 5 Temple", "env_change": true, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low angle, rotating", "mood": ["grand", "glitchy"], "director_intent": "Show the construction of the Temple as a procedural generation event with LOD popping.", "start_image_keywords": ["stone blocks spawning", "wireframe to texture", "pop-in", "massive temple"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "LOOKING_UP", "env_id": "WEEK_5_TEMPLE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Low angle wide shot, vertical 9:16. Massive limestone blocks are falling from the sky and snapping into place to form a giant temple. Some blocks are blue wireframes, others are untextured grey polygons, and some are fully textured photorealistic stone. Henoch is tiny in the foreground, looking up. Dust and debris.
+Low angle wide shot vertical 9:16. Giant limestone blocks appearing in the sky and snapping into place to form a temple. Some blocks are still blue wireframes, others are untextured grey, and some are photorealistic stone. Henoch stands at the bottom looking up. Dust clouds from the impacts.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Henoch. **Action:** Turning to watch the construction.
+> **Actor:** Henoch. **Action:** Looking up.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Covered in stone dust.
+> **Garment:** Blowing in wind.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** `WEEK_5_TEMPLE`. **VFX:** `LOD_POPPING`. Objects snap from low-poly to high-poly instantly. Blue wireframe outlines visible before solidifying.
+> **Location:** `WEEK_5_TEMPLE`. **VFX:** `LOD_POPPING`. Objects appearing instantly. Wireframe outlines visible for 1 frame before texture loads.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `SUNLIGHT_SIM`. Bright, warm sunlight beams cutting through dust. **Palette:** Beige, Gold, Blue (Wireframe).
+> **Lighting Scheme:** `SUNLIGHT`. Bright, warm light cutting through dust. **Palette:** Beige, Blue (Wireframe), White.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Rotating around Henoch. **Lens:** Wide angle. **Style:** Epic scale.
+> **Camera:** Rotating low angle. **Lens:** Wide.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy stone grinding against stone. Thundering impacts.
+Heavy thuds of stone hitting stone. Deep bass impacts.
 
-## [ACT 2] [SCENE 2.6] [Timecode: 00:35-00:39] [WEEK 6: TEXTURE STRIPPING]
-**Action:** WEEK 6 (THE BURN): Die Texturen des Tempels verbrennen. Die Steine werden schwarz, dann zu Asche. Feuer (Plasma) frisst die Geometrie.
+## [ACT 2] [SCENE 2.6] [Timecode: 00:34-00:35] [WEEK 6: TEXTURE STRIPPING]
+**Action:** WEEK 6. Die Tempeltexturen verbrennen und werden zu grauem Polygon-Matsch. Datamoshing-Effekte (Pixel ziehen Schlieren).
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment_destruction", "shot_type": "medium", "framing": "medium", "environment": "Week 6 Fire", "env_change": true, "actors": [{"name": "Henoch", "phase": "VOYAGER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Handheld, violent shake", "mood": ["chaotic", "destructive"], "director_intent": "The destruction of the temple via texture stripping and datamoshing.", "start_image_keywords": ["burning temple", "texture stripping", "datamosh fire"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "SHIELDING_FACE", "env_id": "WEEK_6_FIRE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment_destruction", "shot_type": "medium", "framing": "medium", "environment": "Week 6 Fire", "env_change": true, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Violent shake", "mood": ["destructive", "chaotic"], "director_intent": "The destruction of the temple via texture stripping and datamoshing.", "start_image_keywords": ["datamosh fire", "texture stripping", "grey polygons", "burning"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "SHIELDING", "env_id": "WEEK_6_FIRE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot, vertical 9:16. The stone temple walls are burning, but the fire is digital plasma. The stone texture is peeling off, revealing black polygons underneath. The pixels of the fire are smearing across the screen (datamoshing). Henoch is shielding his face. The air is filled with digital ash.
+Medium shot vertical 9:16. The stone temple walls are burning with digital fire. The stone textures are peeling away to reveal flat grey polygons. The fire effect is glitchy, dragging the pixels of the background into smeared lines (Datamoshing). Henoch shields his face from the digital heat.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Henoch. **Action:** Stumbling, protecting eyes.
+> **Actor:** Henoch. **Action:** Shielding face.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Singed, fluttering violently.
+> **Garment:** Singed/Glitching.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** `WEEK_6_BURN`. **VFX:** `DATAMOSH`. The movement of the fire drags the pixels of the background with it. Geometry dissolves into noise.
+> **Location:** `WEEK_6_BURN`. **VFX:** `DATAMOSH`. Motion vectors of the fire smear the background texture. Geometry simplifies to low-poly.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `FIRE_ALARM`. Orange/Red flickering light. **Palette:** Orange, Black, Grey.
+> **Lighting Scheme:** `FIRE`. Orange flickering. **Palette:** Orange, Grey, Black.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Violent shake. **Lens:** 50mm. **Effect:** Compression artifacts.
+> **Camera:** Violent shake. **Effect:** Video compression artifacts.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Roaring fire mixed with a digital alarm klaxon. Distorted audio clipping.
+Roaring fire sound mixed with white noise and static screeching.
 
-## [ACT 2] [SCENE 2.7] [Timecode: 00:39-00:45] [WEEK 7: SIGNAL LOSS]
-**Action:** WEEK 7 (APOSTASY): Chaos. Die Schwerkraft versagt. Trümmer schweben. Henochs Avatar beginnt sich aufzulösen (Transparenz-Effekte).
+## [ACT 2] [SCENE 2.7] [Timecode: 00:35-00:36] [WEEK 7: SIGNAL LOSS]
+**Action:** WEEK 7. Henochs Projektion flackert. Block-Artefakte (MPEG Compression) zersetzen sein Gesicht.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor_breakdown", "shot_type": "medium", "framing": "dutch_angle", "environment": "Week 7 Chaos", "env_change": true, "actors": [{"name": "Henoch", "phase": "VOYAGER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Dutch angle, floating", "mood": ["disoriented", "failing"], "director_intent": "Total system failure. Gravity loss and avatar transparency.", "start_image_keywords": ["zero gravity", "floating debris", "transparent avatar"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "FLOATING_LOST", "env_id": "WEEK_7_CHAOS", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor_breakdown", "shot_type": "close_up", "framing": "close_up", "environment": "Week 7 Chaos", "env_change": true, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Static, glitching", "mood": ["failing", "corrupt"], "director_intent": "Total signal failure visualized as compression artifacts.", "start_image_keywords": ["mpeg artifacts", "compression blocks", "glitch face", "signal loss"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "GLITCHING", "env_id": "WEEK_7_CHAOS", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 2}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot, vertical 9:16, Dutch angle. Henoch is floating in zero gravity amidst floating debris of the destroyed temple. His body is becoming semi-transparent, fading into static noise. The background is a swirling vortex of grey fog and white noise.
+Close-up vertical 9:16. Henoch's face is heavily obscured by large, colorful digital compression blocks (MPEG artifacts). The image is desaturated and low-quality. It looks like a corrupted video stream. One eye is still visible, glowing blue through the noise.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Henoch. **State:** `FADING`. His opacity is fluctuating. **Action:** Floating helplessly.
+> **Actor:** Henoch. **State:** `SIGNAL_LOSS`. **VFX:** Macro-blocking. Image breaks into large squares.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Floating upwards.
+> **Garment:** Indistinguishable.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** `WEEK_7_APOSTASY`. **Physics:** Zero-G. **VFX:** Heavy film grain and static.
+> **Location:** `WEEK_7_APOSTASY`.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `FLICKER`. Light source is dying. **Palette:** Grey, White, Static.
+> **Lighting Scheme:** `FLICKER`. **Palette:** Greyscale, Digital Noise.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Floating, unanchored. **Lens:** Wide.
+> **Camera:** Static. **Effect:** Frame dropping.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-White noise rising in volume to a crescendo. Wind howling.
+Audio cutting out (drop-outs). Sharp bursts of static.
 
-## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:50] [SYSTEM CRASH]
-**Action:** CRASH. Alles friert ein. Henoch hängt in der Luft, umgeben von statischen Trümmern. Das Licht wird rot (Emergency Power).
+## [ACT 2] [SCENE 2.8] [Timecode: 00:36-00:45] [READOUT]
+**Action:** Extreme Close Up. Makro-Aufnahme von Henochs Auge (Projektor). Ge'ez Text scrollt vertikal über die Iris-Oberfläche.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "freeze_frame", "shot_type": "wide", "framing": "wide", "environment": "Crash State", "env_change": true, "actors": [{"name": "Henoch", "phase": "VOYAGER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Bullet time pan", "mood": ["frozen", "critical"], "director_intent": "The moment of the crash. Time stops. Emergency lighting.", "start_image_keywords": ["frozen time", "red emergency light", "floating debris"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "FROZEN_MIDAIR", "env_id": "CRASH_RED", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor_macro", "shot_type": "insert", "framing": "extreme_close_up", "environment": "Archive Node Zero", "env_change": false, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Macro, zoom in", "mood": ["intense", "data-driven"], "director_intent": "Show the internal data processing directly on the eye.", "start_image_keywords": ["eye macro", "projector lens", "geez text", "scrolling data"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "EYE_MACRO", "env_id": "ARCHIVE_NODE_ZERO", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide shot, vertical 9:16. Freeze frame. Henoch and thousands of debris pieces are frozen in mid-air. The entire scene is bathed in a deep, ominous red emergency light. Shadows are pitch black. High contrast.
+Extreme macro vertical 9:16 of a mechanical eye aperture. The 'iris' is a glowing blue lens. Lines of Ge'ez text (Ethiopian script) are scrolling vertically across the surface of the lens at high speed. The surrounding skin is translucent marble. Blindingly bright internal light.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Henoch. **Action:** Frozen perfectly still.
+> **Subject:** Henoch's Eye. **Detail:** No organic pupil. A complex lens assembly. **Action:** Rapid data stream projection on the lens surface.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Frozen in motion.
+> **N/A**
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** `SYSTEM_CRASH`. **Physics:** Time dilation (Stop).
+> **Location:** `ARCHIVE_NODE_ZERO`.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `EMERGENCY_RED`. Monochromatic red. **Palette:** Red, Black.
+> **Lighting Scheme:** `INTERNAL_PROJECTOR`. **Palette:** Blue, White.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Slow 360-degree pan around the frozen subject (Bullet Time). **Lens:** Wide.
+> **Camera:** Zoom in slowly. **Lens:** Macro.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Abrupt silence. Then a slow, rhythmic low-frequency pulse (System Heartbeat).
+High speed data teletype sound. Rapid chirping.
 
-## [ACT 3] [SCENE 3.2] [Timecode: 00:50-00:55] [REBOOT]
-**Action:** REBOOT. Henoch fällt auf den schwarzen Glasboden zurück. Dampf zischt aus seinen Gelenken (Cooling). Der Raum ist wieder leer.
+## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:50] [SKY SCAN]
+**Action:** POV. Blick nach oben. Der "Himmel" rendert als geodätische Kuppel (Wireframe). Text: "RENDERING SECTOR 7". Sternen-Verbindungen.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor_action", "shot_type": "wide", "framing": "high_angle", "environment": "Archive Node Zero", "env_change": true, "actors": [{"name": "Henoch", "phase": "VOYAGER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "High angle, slow descent", "mood": ["exhausted", "reset"], "director_intent": "The aftermath. System reset. Cooling down.", "start_image_keywords": ["collapsed actor", "steam venting", "black floor"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "COLLAPSED_KNEELING", "env_id": "ARCHIVE_NODE_ZERO", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment_sky", "shot_type": "pov", "framing": "wide", "environment": "Archive Node Sky", "env_change": true, "actors": [], "props": [], "camera": "Pan up", "mood": ["vast", "synthetic"], "director_intent": "Reveal the artificial nature of the sky.", "start_image_keywords": ["geodesic dome", "wireframe sky", "constellation lines", "hud text"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "SKY_DOME", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-High angle wide shot, vertical 9:16. Henoch has collapsed onto the black mirror floor of the Archive Node. He is on his hands and knees. White steam is venting from the collar of his suit and his shoulder joints. The red light is fading back to darkness. The room is empty again.
+Vertical 9:16 POV shot looking straight up at a night sky. The sky is revealed to be a giant geodesic dome structure made of faint blue wireframes. The stars are connected by thin lines (constellations). HUD text overlay: "RENDERING SECTOR 7".
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Henoch. **Action:** Collapsing, breathing heavily.
+> **Subject:** The Sky.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Damp with condensation. **VFX:** Steam jets venting from suit ports.
+> **UI:** Heads-up display overlay.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** `ARCHIVE_NODE_ZERO` (Reset).
+> **Location:** `SIMULATION_DOME`. **VFX:** Wireframe mesh of the sky dome becomes visible.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `COOLDOWN`. Fading red to cool blue/grey. **Palette:** Black, Grey, Faint Blue.
+> **Lighting Scheme:** `STAR_DATA`. **Palette:** Dark Blue, Black, White.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Slow descent crane shot. **Lens:** 35mm.
+> **Camera:** Pan up.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud hissing of steam venting. Mechanical servos powering down. Heavy breathing.
+Deep sub-bass thrum (Server Room ambience).
 
-## [ACT 3] [SCENE 3.3] [Timecode: 00:55-00:58] [LOG UPLOAD]
-**Action:** LOG. Close Up auf den Slate. Der Text (Ge'ez) scrollt extrem schnell und stoppt dann. "UPLOAD COMPLETE".
+## [ACT 3] [SCENE 3.2] [Timecode: 00:50-00:53] [PHYSICS]
+**Action:** Macro. Abstrakte Darstellung von "Wind". Silberne Partikel fließen in einem laminaren Strom. CFD Simulation.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop_closeup", "shot_type": "insert", "framing": "extreme_close_up", "environment": "Archive Node Zero", "env_change": false, "actors": [], "props": ["Data_Wafer"], "camera": "Macro, static", "mood": ["final", "successful"], "director_intent": "Confirm the data was saved despite the crash.", "start_image_keywords": ["slate screen", "geez text", "upload complete"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ARCHIVE_NODE_ZERO", "props": ["SLATE_TEXT"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "abstract_sim", "shot_type": "insert", "framing": "extreme_close_up", "environment": "Physics Sim", "env_change": true, "actors": [], "props": [], "camera": "Static", "mood": ["scientific", "clean"], "director_intent": "Visualize the physics engine behind the wind.", "start_image_keywords": ["laminar flow", "silver particles", "wind tunnel", "cfd simulation"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "PHYSICS_WIND", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme close-up, vertical 9:16. The surface of the matte black slate. Glowing blue Ge'ez characters are scrolling rapidly. They stop abruptly. A final status bar fills up. Text: "UPLOAD COMPLETE". Sharp focus on the text, bokeh background.
+Abstract scientific visualization, vertical 9:16. Thousands of tiny silver particles flowing in a perfect laminar stream around an invisible sphere. The background is black. The style is like a Computational Fluid Dynamics (CFD) simulation. Clean lines, metallic look.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** `DATA_WAFER`. **Action:** Text scrolling and stopping.
+> **Subject:** Wind Particles.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **UI:** Holographic projection on the slate surface.
+> **N/A**
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Floor of `ARCHIVE_NODE_ZERO`.
+> **Location:** `PHYSICS_ENGINE`. **VFX:** Particle flow.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `UI_GLOW`. Blue light from the text. **Palette:** Black, Blue.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Static macro. **Lens:** 100mm.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Rapid data scrolling sound (chirping). A final positive "beep" or chime.
-
-## [ACT 3] [SCENE 3.4] [Timecode: 00:58-01:00] [BLACKOUT]
-**Action:** BLACKOUT. Henochs Augenlicht erlischt.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor_closeup", "shot_type": "close_up", "framing": "close_up", "environment": "Archive Node Zero", "env_change": false, "actors": [{"name": "Henoch", "phase": "VOYAGER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Static", "mood": ["final", "dark"], "director_intent": "Final shutdown of the protagonist.", "start_image_keywords": ["eyes closing", "light fading", "shutdown"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "EYES_CLOSE", "env_id": "ARCHIVE_NODE_ZERO", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Close-up, vertical 9:16. Henoch's face in the dark. The blue light in his eyes fades out slowly until it is completely dark. Only the faint outline of his silver face is visible.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Henoch. **Action:** Eyes dimming and closing. Head bowing slightly.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Still.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Darkness.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `FADE_TO_BLACK`.
+> **Lighting Scheme:** `LAB_LIGHT`. **Palette:** Silver, Black.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
 > **Camera:** Static.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Power down sound effect (pitch dropping to zero). Silence.
+Wind tunnel turbine whine (high pitch, constant).
+
+## [ACT 3] [SCENE 3.3] [Timecode: 00:53-00:56] [COOLDOWN]
+**Action:** Medium Shot. Henoch keucht und zieht die Hand vom Slate. Dampf zischt aus seinem Kragen (Kühlung). Das Licht stirbt.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor_action", "shot_type": "medium", "framing": "medium", "environment": "Archive Node Zero", "env_change": true, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Static", "mood": ["exhausted", "reset"], "director_intent": "The physical toll of the data transfer: overheating and purging.", "start_image_keywords": ["venting steam", "cooling down", "silhouette", "exhaustion"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "RECOIL_EXHAUSTED", "env_id": "ARCHIVE_NODE_ZERO", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 3}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Medium shot vertical 9:16. Henoch pulling his hand back sharply. He is silhouetted against the dying light. Thick white steam jets are venting forcibly from the collar of his tunic and shoulder ports. The blue light in his eyes fades to black.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Henoch. **Action:** Gasping, recoiling.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Garment:** Venting steam pressure.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** `ARCHIVE_NODE_ZERO`.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** `SHUTDOWN`. Fading to black. **Palette:** Grey, Black.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Static.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Loud hydraulic hiss (pressure release). Heavy mechanical breathing.
+
+## [ACT 3] [SCENE 3.4] [Timecode: 00:56-01:00] [STANDBY]
+**Action:** Object Shot. Der Slate liegt tot auf dem schwarzen Boden. In der Reflexion sieht man Henoch weggehen. Overlay: "SESSION LOG SAVED".
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "prop_closeup", "shot_type": "high_angle", "framing": "close_up", "environment": "Archive Node Zero", "env_change": false, "actors": [{"name": "Henoch", "phase": "MASTER", "presence": "off_screen", "focus": "secondary"}], "props": ["Data_Wafer"], "camera": "High angle", "mood": ["final", "quiet"], "director_intent": "Final confirmation of success and departure.", "start_image_keywords": ["slate on floor", "reflection", "walking away", "session saved"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ARCHIVE_NODE_ZERO", "props": ["SLATE_INERT"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+High angle close-up vertical 9:16. The matte black slate lying inert on the black mirror floor. In the reflection of the floor, the silhouette of Henoch is walking away into the darkness. A simple white command line text overlay blinks: "> SESSION_LOG_SAVED".
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Subject:** `DATA_WAFER`. **Action:** Inert. **Reflection:** Henoch walking away.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **UI:** Blinking text overlay.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** `ARCHIVE_NODE_ZERO`.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** `OFF`. Very faint ambient reflection. **Palette:** Black.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Static High Angle.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A single digital chirp (System power-down). Then silence.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Zugriff.","words_max":1},{"scene":"2.1","text":"Woche Eins. Der Code war rein.","words_max":6},{"scene":"2.2","text":"Dann kam der Fehler.","words_max":4},{"scene":"2.5","text":"Sie bauten Speicher für die Ewigkeit.","words_max":6},{"scene":"2.7","text":"Systemversagen.","words_max":1},{"scene":"3.2","text":"Neustart.","words_max":1}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Verbindung initiiert.","words_max":2},{"scene":"1.4","text":"Upload startet.","words_max":2},{"scene":"2.1","text":"Woche Eins. Die Geometrie war perfekt.","words_max":6},{"scene":"2.2","text":"Dann der Überlauf.","words_max":4},{"scene":"2.4","text":"Barrieren errichtet.","words_max":3},{"scene":"2.7","text":"Signalverlust.","words_max":2},{"scene":"3.3","text":"Systemkühlung aktiv.","words_max":3}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

@@ -1,0 +1,103 @@
+{
+  "id": "SCENE_POETIC_VERSE",
+  "name": "Poetic Verse",
+  "type": "scene",
+  "card": {
+    "description": "A dimly lit basalt cavern carved with towering columns etched in ancient Ethiopian script, illuminated by bioluminescent fungi and floating crystalline orbs. In the center, a lone figure in traditional robes recites verses that cause holographic glyphs to animate, resonant stone panels to vibrate, and dust motes to swirl in warm, cinematic light. The scene is photorealistic, tactile, and steeped in ancient-tech industrial mysticism.",
+    "tags": [
+      "ancient-tech",
+      "industrial mysticism",
+      "photorealistic",
+      "Ethiopian",
+      "Egyptian",
+      "bioluminescence",
+      "glyphs",
+      "crystalline",
+      "ritual",
+      "cavern",
+      "stone",
+      "holographic"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Basalt cavern with towering columns, stone floor, archways, resonant stone panels",
+      "**Face/Sensors:** Reciting figure’s face illuminated by glyphs, eyes glowing with faint bioluminescence",
+      "**Clothing/Armor:** Traditional Ethiopian robes with metallic thread, embroidered hieroglyphic patterns",
+      "**Key Features:** Bioluminescent fungi clusters, floating crystalline orbs, holographic glyphs, resonant stone panels vibrating"
+    ],
+    "evolution": [
+      "Phase 1 (Setup): Cavern empty, ambient low light, dust motes drifting",
+      "Phase 2 (Recitation): Figure enters, recites, glyphs animate, light intensifies, resonant vibrations"
+    ],
+    "props": [
+      "Item: Bioluminescent fungus cluster",
+      "Item: Floating crystalline orb",
+      "Item: Stone resonator",
+      "Item: Ancient scroll"
+    ],
+    "prompt_keywords": [
+      "basalt cavern",
+      "Ethiopian script",
+      "bioluminescent fungi",
+      "crystalline orbs",
+      "resonant stone",
+      "holographic glyphs",
+      "ritual",
+      "photorealistic",
+      "tactile",
+      "industrial mysticism"
+    ],
+    "prompt_block": "A dimly lit basalt cavern carved with towering columns etched in ancient Ethiopian script, illuminated by bioluminescent fungi and floating crystalline orbs, a lone figure in traditional robes reciting verses that cause holographic glyphs to animate, resonant stone panels vibrating, dust motes suspended in warm, cinematic light, photorealistic, tactile, ancient-tech industrial mysticism",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Cinematic recitation scene in a basalt cavern",
+        "prompt_keywords": [
+          "basalt cavern",
+          "Ethiopian script",
+          "bioluminescent fungi",
+          "crystalline orbs",
+          "resonant stone",
+          "holographic glyphs",
+          "ritual",
+          "photorealistic",
+          "tactile",
+          "industrial mysticism"
+        ],
+        "prompt_block": "A dimly lit basalt cavern carved with towering columns etched in ancient Ethiopian script, illuminated by bioluminescent fungi and floating crystalline orbs, a lone figure in traditional robes reciting verses that cause holographic glyphs to animate, resonant stone panels vibrating, dust motes suspended in warm, cinematic light, photorealistic, tactile, ancient-tech industrial mysticism"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_POETIC_VERSE",
+    "name": "Poetic Verse",
+    "type": "scene",
+    "aliases": [
+      "Poetic Verse"
+    ],
+    "roles": [
+      "unknown"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_976"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 102,
+        "chapter_end": 102,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

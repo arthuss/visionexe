@@ -1,0 +1,96 @@
+{
+  "id": "SCENE_SCENE_6_ANGEL",
+  "name": "Scene 6: Angel",
+  "type": "scene",
+  "card": {
+    "description": "A colossal angelic entity rises within the ruined temple, its towering silhouette a fusion of basaltic armor and crystalline wings that span the vaulted ceiling. The body is a sculpted lattice of obsidian plates, etched with ancient Ethiopian and Egyptian glyphs that pulse with bio‑luminescent sapphire veins. Its face is a polished obsidian mask, eyes glowing with a steady amber light, and a halo of swirling dust and faint phosphorescence hovers above its head, casting a soft, otherworldly glow across the stone floor. In one hand it wields a scepter of obsidian and polished quartz, its shaft carved with intricate hieroglyphs that seem to hum with hidden power.",
+    "tags": [
+      "angel",
+      "ancient-tech",
+      "industrial mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "bio-luminescent",
+      "crystalline",
+      "photorealistic"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Towering figure, basaltic armor plates fused with obsidian, skeletal structure reinforced with titanium alloy ribs, height ~12 m.",
+      "**Face/Sensors:** Obsidian mask with embedded sapphire glyphs, bioluminescent amber eyes, infrared sensor arrays along the brow ridge.",
+      "**Clothing/Armor:** Layered obsidian and basalt plates, interwoven with quartz filaments, wing membranes of translucent crystal lattice, armor etched with ancient hieroglyphs.",
+      "**Key Features:** Crystalline wings spanning 18 m, bio‑luminescent glyphs pulsing in sync with an internal engine, halo of swirling dust, obsidian scepter with quartz core."
+    ],
+    "evolution": [
+      "Phase 1 (Default): Initial manifestation – towering basaltic armor, crystalline wings, bio‑luminescent glyphs, obsidian mask, scepter of obsidian and quartz."
+    ],
+    "props": [
+      "Item: Radiant Scepter of the Nile – obsidian shaft with quartz core, etched with Ethiopian and Egyptian hieroglyphs.",
+      "Item: Obsidian Halo – swirling dust and light projected from a crystal lattice crown."
+    ],
+    "prompt_keywords": [
+      "ancient",
+      "Ethiopian",
+      "Egyptian",
+      "crystalline",
+      "bio-luminescent",
+      "industrial",
+      "mysticism",
+      "photorealistic",
+      "towering",
+      "obsidian",
+      "basaltic"
+    ],
+    "prompt_block": "towering angelic entity in a ruined temple, basaltic armor plates fused with obsidian, crystalline wings spanning 18 m, bio‑luminescent sapphire glyphs pulsing on the face mask, amber glowing eyes, halo of swirling dust and light, obsidian scepter with quartz core, ancient Ethiopian and Egyptian hieroglyphs etched, photorealistic, cinematic lighting, tactile textures, industrial mysticism, grounded realism",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Initial manifestation of the towering angelic figure within the ruined temple.",
+        "prompt_keywords": [
+          "ancient",
+          "Ethiopian",
+          "Egyptian",
+          "crystalline",
+          "bio-luminescent",
+          "industrial",
+          "mysticism",
+          "photorealistic",
+          "towering",
+          "obsidian",
+          "basaltic"
+        ],
+        "prompt_block": "towering angelic entity in a ruined temple, basaltic armor plates fused with obsidian, crystalline wings spanning 18 m, bio‑luminescent sapphire glyphs pulsing on the face mask, amber glowing eyes, halo of swirling dust and light, obsidian scepter with quartz core, ancient Ethiopian and Egyptian hieroglyphs etched, photorealistic, cinematic lighting, tactile textures, industrial mysticism, grounded realism"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_SCENE_6_ANGEL",
+    "name": "Scene 6: Angel",
+    "type": "scene",
+    "aliases": [
+      "Scene 6: Angel"
+    ],
+    "roles": [],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_462"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 65,
+        "chapter_end": 65,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

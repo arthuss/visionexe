@@ -1,0 +1,187 @@
+{
+  "id": "SETENV_SKY",
+  "name": "sky",
+  "type": "set_environment",
+  "card": {
+    "description": "A vast, evolving celestial dome that transitions from serene azure to a structured lattice of bio‑luminescent glyphs, culminating in the emergence of a colossal Ophanim angelic construct. Rendered with photorealistic fidelity, the sky fuses ancient Ethiopian and Egyptian iconography with incomprehensible crystalline technology, creating an industrial mysticism that grounds the cosmic environment in tactile realism.",
+    "tags": [
+      "sky",
+      "ancient-tech",
+      "industrial mysticism",
+      "photorealistic",
+      "Ethiopian",
+      "Egyptian",
+      "celestial",
+      "grid lights",
+      "Ophanim",
+      "pixel-drag"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Expansive dome with a gradient from cobalt blue to obsidian, layered cloud strata infused with mineral dust and translucent basaltic mist.",
+      "**Face/Sensors:** Embedded glyphic lattice of crystalline nodes emitting soft white bio‑luminescent light, each node acting as a sensor that maps celestial coordinates.",
+      "**Clothing/Armor:** Interwoven metallic filaments and cloud armor that refract light, forming a subtle, shimmering veil over the sky.",
+      "**Key Features:** Rigid grid of thousands of white lights forming a QR‑code pattern, pixel‑drag trails from frozen silhouette birds, and the towering Ophanim angelic construct of interlocking golden wheels covered in realistic human eyes."
+    ],
+    "evolution": [
+      "Phase 1 (Ch9‑40): Open, azure expanse with gentle cloud drift and faint ancient glyphic motifs etched into the upper horizon.",
+      "Phase 2 (Ch41‑72): Sky transforms into a massive lattice of luminous white lights arranged in a rigid QR‑code pattern, creating an ominous atmosphere and signaling the descent of the host.",
+      "Phase 3 (Ch73‑104, unknown): Emergence of the Ophanim angelic construct—interlocking golden wheels with human eyes, spinning rapidly and burning with white fire, producing heat distortion rippling the air."
+    ],
+    "props": [
+      "Grid of Lights",
+      "Pixel‑Drag Birds",
+      "Ophanim Angel"
+    ],
+    "prompt_keywords": [
+      "ancient-tech",
+      "photorealistic",
+      "grid lights",
+      "glyphs",
+      "crystalline lattice",
+      "Ophanim",
+      "pixel-drag",
+      "Ethiopian",
+      "Egyptian",
+      "bio‑luminescence"
+    ],
+    "prompt_block": "Ultra‑wide cinematic 8k shot of a vast sky transitioning from serene azure to a rigid lattice of bio‑luminescent white lights forming a QR‑code pattern, with ancient Ethiopian and Egyptian glyphs etched in crystalline lattice, culminating in a colossal Ophanim angelic construct of interlocking golden wheels covered in realistic human eyes, burning white fire, heat distortion, photorealistic, 9:16 aspect ratio",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "Serene azure sky with subtle cloud drift and faint glyphic motifs.",
+        "prompt_keywords": [
+          "azure",
+          "clouds",
+          "glyphic motifs"
+        ],
+        "prompt_block": "Wide‑angle cinematic 8k shot of a vast blue sky with gentle cloud drift, faint ancient Ethiopian glyphs shimmering in the upper horizon, photorealistic, 9:16 aspect ratio"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "Sky becomes a massive grid of luminous white lights arranged in a rigid QR‑code pattern.",
+        "prompt_keywords": [
+          "grid lights",
+          "QR‑code",
+          "ominous"
+        ],
+        "prompt_block": "Ultra‑wide cinematic 8k shot of a sky filled with thousands of glowing white lights arranged in a perfect rigid grid pattern resembling a QR code, massive scale, ominous atmosphere, descent of host, photorealistic, 9:16 aspect ratio"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "Emergence of the Ophanim angelic construct in the sky.",
+        "prompt_keywords": [
+          "Ophanim",
+          "golden wheels",
+          "human eyes",
+          "burning fire"
+        ],
+        "prompt_block": "Close‑up cinematic 8k shot of a colossal Ophanim angelic construct hovering in the sky, interlocking golden wheels covered in realistic human eyes, spinning rapidly, burning white fire, heat distortion rippling the air, photorealistic, 9:16 aspect ratio"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_SKY",
+    "name": "sky",
+    "type": "set_environment",
+    "aliases": [
+      "Sky",
+      "sky"
+    ],
+    "roles": [
+      "ambient",
+      "atmospheric expanse",
+      "background",
+      "environment",
+      "location",
+      "natural element",
+      "setting"
+    ],
+    "visual_traits": [
+      "celestial",
+      "open",
+      "unknown",
+      "vast",
+      "vast, blue"
+    ],
+    "changes": [
+      "unknown"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1001",
+      "row_1002",
+      "row_126",
+      "row_143",
+      "row_144",
+      "row_150",
+      "row_243",
+      "row_366",
+      "row_378",
+      "row_399",
+      "row_425",
+      "row_507",
+      "row_51",
+      "row_538",
+      "row_541",
+      "row_559",
+      "row_561",
+      "row_567",
+      "row_589",
+      "row_604",
+      "row_614",
+      "row_632",
+      "row_633",
+      "row_655",
+      "row_691",
+      "row_70",
+      "row_716",
+      "row_730",
+      "row_74",
+      "row_854",
+      "row_87",
+      "row_883",
+      "row_94",
+      "row_987"
+    ],
+    "occurrence_count": 52,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 9,
+        "chapter_end": 40,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 41,
+        "chapter_end": 72,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 73,
+        "chapter_end": 104,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "unknown"
+        ]
+      }
+    ]
+  }
+}

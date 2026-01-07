@@ -1,189 +1,189 @@
 # DREHBUCH KAPITEL 62 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Die alten Systeme glaubten, ihre Herrschaft sei ewig, eingeschrieben in den Stein der Erde. Doch wenn der Hauptadministrator das Protokoll öffnet, wird jede Zeile Code gewogen und für fehlerhaft befunden. Es gibt kein Versteck vor der Logik des Kerns; was nicht kompatibel ist, wird gelöscht.
+NARRATOR_TEXT: Wenn der Kern die Archive öffnet, wird Geschichte zur Rechenleistung. Was sich auf Erden wie ewige Herrschaft anfühlte, ist im Speicher des Lichts nur ein fehlerhafter Sektor, bereit zur Formatierung. Wir dachten, Macht sei Besitz, doch hier ist Macht nur Kompatibilität mit der Ur-Frequenz. Wer das Update verweigert, wird nicht bestraft – er wird schlichtweg nicht mehr gerendert.
 
-## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:02] [THE HOOK: SYSTEM INGRESS]
-**Action:** Violent "Pop-in" of 5 Kings. They don't fade in; they appear mid-fall, crashing onto the reflective black floor. Dust/debris from their previous location carries over.
+## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:03] [THE FORCE LOAD]
+**Action:** 5 Kings appear instantly in T-Pose, 1m above the black mirror floor. Physics engages late; they drop heavily.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Throne_Room_Mainframe", "env_change": true, "actors": [{"name": "Kings_Group", "phase": "Kap_14-70_Legacy", "presence": "on_screen", "focus": "primary"}], "props": ["Rusted Armor", "Gold Crowns"], "camera": "Low Angle, 45-degree Dutch Tilt, Handheld Shake", "mood": ["panic", "disorientation"], "director_intent": "Visually shock the viewer with the violence of a digital force-load event.", "start_image_keywords": ["falling kings", "black mirror floor", "digital sparks"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "wide", "environment": "Throne_Room_Mainframe", "env_change": true, "actors": [{"name": "Kings_Group", "phase": "Kap_14-70_Legacy", "presence": "on_screen", "focus": "primary"}], "props": ["Heavy Armor", "Dust Debris"], "camera": "Wide / Low Angle / Static to Shake", "mood": ["shock", "violence"], "director_intent": "Visualize the brutality of a server-side force-spawn event.", "start_image_keywords": ["falling kings", "t-pose glitch", "impact dust"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 formatting. A group of 5 ancient kings in rusted, heavy ceremonial cyber-armor crashing onto a perfectly reflective black glass floor. They are mid-impact, limbs flailing. Debris and dust from a stone palace is falling with them, clashing with the sterile digital void. The lighting is stark, cold white from above. High contrast, cinematic realism.
+Vertical 9:16. Cinematic low angle. A group of five heavy-set ancient kings in ornate, rusted cyber-baroque armor appearing in mid-air against a stark black void. They are frozen in a rigid T-Pose for a split second, surrounded by a cloud of old-world dust and stone debris that was teleported with them. The floor below is a perfect black obsidian mirror. Harsh, cold overhead studio lighting. Hyper-realistic textures.
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Group of 5 elderly men, heavy builds, wearing elaborate but rusted technological armor. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Heavy gold-plated cybernetics, fused crowns, thick cabling. The armor looks heavy and burdensome. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite black reflective void. No walls, just a floor that mirrors everything perfectly. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold, harsh overhead lighting. Deep shadows. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Violent handheld camera shake. Dutch angle. High shutter speed. The action is a sudden impact/fall.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud, heavy metallic thud of bodies hitting glass. A sharp electrical capacitor whine that descends in pitch (power down). Cracking of digital audio static.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Five elderly men, heavy build. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Thick, layered golden armor with visible rust and grime. Cables hanging loose. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite black reflective floor. Vertical data lines in background. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold white top-down light. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. The actors start in a rigid T-Pose in mid-air, then physics activates instantly, causing them to slam violently onto the floor. Camera shakes on impact.
 
-## [ACT 1] [SCENE 1.2] [Timecode: 00:02-00:06] [GEOMETRY FAILURE]
-**Action:** Kings try to stand. Their feet clip through the floor geometry (Wireframe visible momentarily). They look around in panic. Breathing is heavy, mechanical rasping.
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A sharp digital "thwack" or vacuum pop, followed immediately by the heavy, deafening crash of metal armor hitting glass. Debris scattering. No reverb, very dry.
+
+## [ACT 1] [SCENE 1.2] [Timecode: 00:03-00:07] [IMPACT]
+**Action:** They scramble to stand. Movement is jerky (12fps). Heavy ornate armor clatters. Dust-free environment.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "full_body", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "Kings_Group", "phase": "Kap_14-70_Legacy", "presence": "on_screen", "focus": "primary"}], "props": ["Wireframe Artifacts"], "camera": "Wide 24mm, Distance", "mood": ["confusion", "fear"], "director_intent": "Show the incompatibility of the actors with the environment through glitch effects.", "start_image_keywords": ["clipping feet", "wireframe grid", "stumbling"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "full_body", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "Kings_Group", "phase": "Kap_14-70_Legacy", "presence": "on_screen", "focus": "primary"}], "props": ["Rusted Armor"], "camera": "Handheld / Shaky", "mood": ["panic", "disorientation"], "director_intent": "Contrast the organic chaos of the kings with the sterile digital environment.", "start_image_keywords": ["struggling kings", "slipping on glass", "heavy armor"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 formatting. Wide shot of the kings struggling to stand on the black mirror floor. Where their boots touch the ground, the black glass dissolves into a bright green wireframe grid, showing a rendering error. Their posture is panicked and unbalanced. The background is pure darkness.
+Vertical 9:16. Medium handheld shot. The Kings are struggling to stand up on the frictionless black glass floor. Their armor is heavy and cumbersome, sparking against the floor. Their faces show confusion and panic. The lighting catches the scratches on their gold plating. Depth of field is shallow, background is deep black.
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Kings, desperate, scrambling. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Rusted armor plates sliding against each other. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Black void floor. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Spotlight tracking them in the dark. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Wide angle lens. Whip pan movement following their stumbling. Visual glitch effects where they touch the floor (clipping).
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy, labored breathing amplified by helmets. Metal scraping on glass. A low-frequency digital hum that glitches/skips beats.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Group of Kings. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Heavy armor plates sliding and colliding. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Slippery black mirror floor. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** High contrast, specular highlights on metal. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Handheld camera movement. The motion of the actors should look slightly stuttered (stop-motion feel) to simulate low frame rate processing.
 
-## [ACT 1] [SCENE 1.3] [Timecode: 00:06-00:10] [THE VOID ESTABLISHING]
-**Action:** The "Void Room". Infinite black floor, vertical red laser grid in far distance. The Kings are tiny specs of rust in a pristine cleanroom.
-**Dialog:** "Open your eyes" (Ge'ez whisper)
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Metallic scraping on glass. Heavy, wet breathing amplified by helmet acoustics. The sound of servos whining and failing.
+
+## [ACT 1] [SCENE 1.3] [Timecode: 00:07-00:10] [ERROR]
+**Action:** Close-up on King_02. Skin cracks open revealing glowing orange heat. Neon green fluid leaks from eyes.
+**Dialog:** "Legacy... Error..." (Whisper)
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "extreme_wide", "framing": "wide", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "Kings_Group", "phase": "Kap_14-70_Legacy", "presence": "on_screen", "focus": "secondary"}], "props": ["Laser Grid"], "camera": "High Angle, God's Eye, Slow Rotation", "mood": ["isolation", "scale"], "director_intent": "Establish the scale of the system compared to the users.", "start_image_keywords": ["tiny actors", "red laser grid", "infinite floor"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 3}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "King_02", "phase": "Kap_14-70_Legacy", "presence": "on_screen", "focus": "primary"}], "props": ["Green Coolant", "Molten Skin"], "camera": "Macro Lens", "mood": ["pain", "corruption"], "director_intent": "Show the biological incompatibility as a hardware thermal failure.", "start_image_keywords": ["cracked skin", "molten face", "green tears"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "scene_1_3_audio", "pose_source": "", "driver_notes": "Micro-expressions of agony"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 4}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 formatting. Extreme high angle shot looking down into an infinite black void. A faint grid of vertical red laser lines defines the distance. The group of 5 kings are tiny, insignificant specks of gold and rust in the center of the vast blackness. Clean, minimal, sci-fi horror.
+Vertical 9:16. Extreme macro close-up of an old King's eye and cheekbone. The skin is physically cracking like dry ceramic, revealing an intense orange molten light beneath the surface. Instead of tears, thick neon green dielectric fluid is leaking from the tear duct and boiling into steam. The eyeball is twitching.
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Small figures in distance. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Indistinct metallic glints. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite black space, reflective floor, red laser grid vertical lines in background. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red laser ambient light, cold white spot on actors. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Slow camera rotation (turntable view). Very stable, smooth motion.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep sub-bass drone (40Hz). A whisper in Ge'ez "Open your eyes" (reverberant).
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Elderly male face, extreme detail. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Gold collar fused to neck. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark blurred background. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal orange glow (subsurface), external green reflection. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Macro focus. Steam rising from the eyes. Skin plates shifting slightly.
 
-## [ACT 1] [SCENE 1.4] [Timecode: 00:10-00:15] [MOTION ARTIFACTS]
-**Action:** King_01 rubs his eyes. His hand leaves a trail of dead pixels in the air (Motion Artifacts). He looks UP.
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Hissing steam sound. A sound like cracking porcelain. A very quiet, distorted whisper: "Legacy... Error...".
+
+## [ACT 2] [SCENE 2.1] [Timecode: 00:10-00:14] [THE THRONE]
+**Action:** Reveal of the `CORE_TERMINAL`. Massive basalt chair on glass. Data streams flowing underneath.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "King_01", "phase": "Kap_14-70_Legacy", "presence": "on_screen", "focus": "primary"}], "props": ["Pixel Trail"], "camera": "Medium Close-Up, Focus Pull", "mood": ["realization", "horror"], "director_intent": "Visualize the lag/latency of the legacy hardware.", "start_image_keywords": ["old king face", "hand trail", "dead pixels"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [], "props": ["Basalt Throne", "Data Streams"], "camera": "Slow Pan Up / Symmetrical", "mood": ["awe", "majesty"], "director_intent": "Establish the scale and stability of the system architecture.", "start_image_keywords": ["fiber optic throne", "basalt monolith", "data river"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 formatting. Close up of an elderly King's face. He is raising a gauntleted hand to wipe his eyes. The hand is leaving a trail of black square dead pixels and chromatic aberration in the air, like a mouse pointer with trails. His expression is confused. Detailed skin texture, sweat.
+Vertical 9:16. Wide symmetrical shot of a massive, brutalist throne made of black basalt and bundled fiber-optic cables. The throne sits on a platform of clear glass. Beneath the glass, a river of blue binary code flows rapidly. The background is a cathedral of server-rack lights fading into infinity. Atmosphere is clean and dust-free.
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Elderly male, weathered skin, white beard stubble. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Heavy rusted collar, glowing faint orange from inside. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark blurred background. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Side lighting, harsh contrast. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Shallow depth of field. Focus pull from hand to eyes. Motion trails on the hand movement.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitched frequency coil whine rising in pitch. Digital garble sound.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Massive Throne structure, fiber optics. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue ambient glow from floor, stark white uplighting on throne. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Slow, steady vertical pan up the throne structure. 120fps smoothness.
 
-## [ACT 2] [SCENE 2.1] [Timecode: 00:15-00:21] [THE REVEAL: ELECT ONE]
-**Action:** The Elect One sits on the Fiber-Optic Throne. Blinding white light. Perfectly still. 120fps smoothness vs. the chaotic environment.
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Deep, steady 40Hz sub-bass drone. The sound of massive air movement (cooling fans). A rhythmic data-processing chitter.
+
+## [ACT 2] [SCENE 2.2] [Timecode: 00:14-00:18] [THE ADMIN]
+**Action:** The Elect One sits motionless. HUD rings rotate slowly. Perfect 120fps smoothness.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "The_Elect_One", "phase": "Kap_71-108_Master", "presence": "on_screen", "focus": "primary"}], "props": ["Fiber Optic Throne", "Holographic Rings"], "camera": "Symmetric Dolly Zoom, Stable", "mood": ["awe", "divine"], "director_intent": "Introduce the Prime Admin as a being of pure order and light.", "start_image_keywords": ["glowing silhouette", "fiber optic throne", "halo UI"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "The_Elect_One", "phase": "Kap_71-108_Master", "presence": "on_screen", "focus": "primary"}], "props": ["HUD Rings"], "camera": "Dolly Push-In (Slow)", "mood": ["divine", "synthetic"], "director_intent": "Introduce the Admin as a being of pure light and logic.", "start_image_keywords": ["elect one silhouette", "glowing white being", "blue hud rings"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 formatting. The Elect One sitting on a massive throne made of millions of bundled fiber-optic cables. The figure is a silhouette of pure white starlight, featureless and smooth. Three concentric rings of blue holographic UI rotate around the head. The light from the figure illuminates the cables. Symmetric composition.
+Vertical 9:16. Medium shot. The Elect One sitting on the throne. The figure is a silhouette of solid, blinding white tungsten light, with a featureless geometric head. Three concentric rings of holographic blue interface rotate slowly around the head. The figure is perfectly still, contrasting with the chaotic Kings.
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Humanoid light construct, platinum smooth head. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Idris-Gloves (golden light), floating UI halo. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Throne of fiber optics pulsing with blue data. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Volumetric emission from subject. Stark contrast with black background. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Dolly Zoom (Hitchcock effect). Ultra-smooth 120fps motion.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sudden silence. A pure, clean sine wave tone starts soft and builds.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Humanoid light construct. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Glowing white surface, floating UI rings. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark throne room background. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Subject is the light source (Emission). Blue UI glow. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Slow dolly push-in. The rotation of the rings is perfectly smooth and constant.
 
-## [ACT 2] [SCENE 2.2] [Timecode: 00:21-00:25] [RETINAL FAILURE]
-**Action:** Reaction Shot: King_02's pupils dilate until the iris breaks. "NO SIGNAL" overlay briefly flashes on his retina. Skin begins to smoke.
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A high-pitched, pure sine wave that slowly rises in frequency. Electrical capacitor charging whine.
+
+## [ACT 2] [SCENE 2.3] [Timecode: 00:18-00:25] [RECOGNITION]
+**Action:** Kings look up. Their texture maps flash pink/checkerboard for a frame. Eyes dilate to black.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "King_02", "phase": "Kap_14-70_Legacy", "presence": "on_screen", "focus": "primary"}], "props": ["Smoke", "Glitch Eye"], "camera": "Macro Lens, Static", "mood": ["pain", "overload"], "director_intent": "Show the biological cost of witnessing the Admin.", "start_image_keywords": ["extreme eye macro", "dilated pupil", "no signal text"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "Kings_Group", "phase": "Kap_14-70_Legacy", "presence": "on_screen", "focus": "primary"}], "props": ["Glitch Textures"], "camera": "Low Angle (Kings POV)", "mood": ["fear", "glitch"], "director_intent": "Visualize the hardware failure of the legacy avatars.", "start_image_keywords": ["kings looking up", "texture glitch", "black eyes"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 formatting. Extreme Macro shot of a human eye. The pupil is fully dilated. The iris is tearing apart. A faint red digital overlay "NO SIGNAL" is reflected on the wet surface of the eyeball. Smoke wisps are rising from the tear ducts.
+Vertical 9:16. Low angle shot from the floor looking up at the Kings' faces. They are staring upwards in terror. Their eyes have dilated so much they are entirely black. Patches of their armor and skin are missing textures, showing a bright pink and black checkerboard pattern (missing asset error) or wireframe for a split second.
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Human eye, aged skin details. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None visible in macro. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred background. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Reflection of the Elect One's white light in the eye. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Macro photography. Twitching muscle movement. Smoke effects.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sizzling meat sound. Geiger counter crackle.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Kings' faces. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Armor textures flickering. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Reflection of the Elect One in their black eyes. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Strobe lighting red/white. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Camera shakes. Visual artifacts simulated in the render (texture popping).
 
-## [ACT 2] [SCENE 2.3] [Timecode: 00:25-00:30] [THERMAL RUNAWAY]
-**Action:** The gold plating on King_01's cheek fractures. Bright orange light bleeds through the cracks. Green coolant tears boil instantly.
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Digital screeching, like a modem handshake gone wrong. Stuttering audio buffers.
+
+## [ACT 2] [SCENE 2.4] [Timecode: 00:25-00:32] [THE PLEA]
+**Action:** King_01 screams, reaching out. Hand leaves motion-blur trails. Mouth moves out of sync with audio.
+**Dialog:** "Lord of... Spirits...!" (Lagging)
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "King_01", "phase": "Kap_14-70_Legacy", "presence": "on_screen", "focus": "primary"}], "props": ["Motion Trails"], "camera": "Distorted Wide Lens", "mood": ["desperation", "lag"], "director_intent": "Emphasize the processing lag and incompatibility through audio-visual desync.", "start_image_keywords": ["screaming king", "motion blur hand", "fisheye lens"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "scene_2_4_audio", "pose_source": "", "driver_notes": "Intentional lip-sync delay"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 6}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16. Distorted wide-angle shot (Fisheye). King_01 is screaming, mouth wide open, reaching a hand towards the lens. The hand is leaving ghost trails (motion blur artifacts) in the air. The armor is glowing red hot. The background is warped.
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Screaming King. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Overheating armor. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Distorted perspective. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Harsh spotlight. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. The movement is jerky. The hand leaves "ghost" frames in the air. The mouth movement is exaggerated.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Bit-crushed voice: "Lord of... Spirits...!" The audio cuts in and out. Heavy digital distortion.
+
+## [ACT 2] [SCENE 2.5] [Timecode: 00:32-00:38] [THE SILENCE]
+**Action:** Admin does not react. Faceless dome reflects the chaotic glitching of the Kings.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "King_01", "phase": "Kap_14-70_Legacy", "presence": "on_screen", "focus": "primary"}], "props": ["Green Coolant", "Molten Light"], "camera": "Handheld, Hunting Focus", "mood": ["agony", "destruction"], "director_intent": "Depict the physical breakdown of the legacy avatar.", "start_image_keywords": ["cracking gold skin", "molten lava face", "green tears"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "The_Elect_One", "phase": "Kap_71-108_Master", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Telephoto / Static", "mood": ["indifference", "cold"], "director_intent": "The system does not care about the plea. It is just processing data.", "start_image_keywords": ["faceless dome", "reflection of kings", "white light"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 formatting. Close up side profile of a King. His skin looks like cracked porcelain or dried mud. Bright orange molten light is glowing from deep within the cracks. Neon green viscous liquid is leaking from his eyes like tears and boiling into steam instantly. The gold crown is fused to his temples.
+Vertical 9:16. Close-up of the Elect One's faceless platinum head. On the smooth, mirror-like surface of the face, we see the distorted, glitching reflection of the Kings screaming. The Elect One itself is perfectly still and silent.
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Elderly King, cybernetic implants. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Gold fused armor. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark void. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal orange glow (subsurface scattering), external red strobe light. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Stroboscopic lighting effect. Handheld camera shake. Focus hunting.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Faceless head. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Reflective surface. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark void. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** White emission. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Completely static camera. Only the reflection on the face moves.
+
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Modem screeching. Sound of ceramic cracking under heat. Hissing steam.
+Absolute silence. A sudden vacuum effect where all background noise is sucked away.
 
-## [ACT 2] [SCENE 2.4] [Timecode: 00:30-00:38] [DIALOG A: THE PLEA]
-**Action:** The Kings fall to their knees. They are screaming/begging. Lips move out of sync with audio (0.5s delay). Video stutters (Lag).
-**Dialog:** "Mercy... Admin... Save us..." (Garbled)
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "Kings_Group", "phase": "Kap_14-70_Legacy", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle, Distorted Lens", "mood": ["desperation"], "director_intent": "The plea is futile and glitchy. The delay emphasizes their disconnection.", "start_image_keywords": ["kings kneeling", "screaming faces", "distorted lens"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "scene_2_4_audio", "pose_source": "", "driver_notes": "Lipsync must be intentionally delayed/offset"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 6}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 formatting. Low angle shot looking up at the group of Kings kneeling. They are screaming, mouths wide open. The lens is wide and distorts their faces slightly (fisheye edge). They are illuminated by the harsh white light from the throne above.
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Group of Kings. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Damaged armor. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Black reflective floor. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Top-down stark white light. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Low angle. The video should look like it is stuttering or dropping frames (simulated lag).
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Voices heavily bit-crushed. "Mercy... Admin... Save us...". Audio is delayed and garbled. Digital white noise bursts.
-
-## [ACT 2] [SCENE 2.5] [Timecode: 00:38-00:42] [DIALOG B: THE PROCESS]
-**Action:** The Elect One watches. No emotion. Just processing the error log. The UI Halo spins slowly.
+## [ACT 2] [SCENE 2.6] [Timecode: 00:38-00:45] [THE WORD]
+**Action:** Admin raises one hand. An ultrasonic shockwave distorts the air. Kings' armor rattles violently.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "The_Elect_One", "phase": "Kap_71-108_Master", "presence": "on_screen", "focus": "primary"}], "props": ["Holographic Rings"], "camera": "Eye Level, Perfect Stability", "mood": ["cold", "judgment"], "director_intent": "Contrast the chaos of the Kings with the absolute order of the Admin.", "start_image_keywords": ["elect one face", "blue holographic halo", "smooth surface"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "The_Elect_One", "phase": "Kap_71-108_Master", "presence": "on_screen", "focus": "primary"}], "props": ["Shockwave Distortion"], "camera": "Slow Motion (Ramping)", "mood": ["power", "judgment"], "director_intent": "Visualize the 'Word' not as sound, but as a physics shockwave.", "start_image_keywords": ["elect one hand raised", "air distortion", "shockwave"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 formatting. Medium shot of the Elect One's head and shoulders. The platinum face reflects the blue light of the UI rings spinning slowly around it. The posture is perfectly upright and regal. No movement other than the UI. Clean, sharp focus.
+Vertical 9:16. The Elect One calmly raises one hand. A visible spherical distortion wave (shockwave) is expanding from the palm, bending the light of the fiber-optic background. The air looks like liquid glass.
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Platinum light being. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Holographic Halo. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark background with vertical lines. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue UI glow, white body emission. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Perfectly static camera. Slow, smooth rotation of the holographic rings.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Pure, clean ambient drone. No static. A rhythmic, soft "computing" chime.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Elect One. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Hand raised. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Shockwave rippling through the environment. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Light bending refraction. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Slow motion ramping. The shockwave moves slowly, distorting everything behind it.
 
-## [ACT 2] [SCENE 2.6] [Timecode: 00:42-00:50] [GRAVITY COMPRESSION]
-**Action:** The Kings try to move forward. Gravity increases. Their armor crunches under unseen weight. They are being compressed by the presence of the Admin.
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A dry, massive thunderclap with no echo. The sound of glass shattering instantly.
+
+## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:50] [COLLAPSE]
+**Action:** Kings fall to knees. Their geometry begins to voxelize (break into 1cm cubes).
+**Dialog:** "Mercy... 404..."
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "high_angle", "framing": "wide", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "Kings_Group", "phase": "Kap_14-70_Legacy", "presence": "on_screen", "focus": "primary"}], "props": ["Voxel Particles"], "camera": "High Angle (God's Eye)", "mood": ["deletion", "end"], "director_intent": "The purge is a data operation. They are being unmade.", "start_image_keywords": ["kings crumbling", "blue voxel cubes", "disintegration"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 3}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16. High angle God's-eye view. The Kings are on their knees. Their physical forms are breaking apart into thousands of tiny, glowing blue cubes (voxels). The disintegration starts at their shoulders and floats upwards. The armor is left behind as empty shells.
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Kings kneeling. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Bodies turning into particles. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Black floor. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue glow from particles. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Smooth particle simulation. The cubes float upward against gravity.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+The sound of dry earth crumbling. A digital chime (like a file deletion sound). "Mercy... 404...".
+
+## [ACT 3] [SCENE 3.2] [Timecode: 00:50-00:55] [DISSOLUTION]
+**Action:** The cubes float upward into the dark canopy. The empty armor shells remain on the floor.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "wide", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "Kings_Group", "phase": "Kap_14-70_Legacy", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Side Tracking, Floor Level", "mood": ["oppression", "heaviness"], "director_intent": "Show the physical weight of the Admin's presence crushing the legacy hardware.", "start_image_keywords": ["kings crawling", "armor bending", "floor reflection"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [], "props": ["Empty Armor", "Floating Voxels"], "camera": "Spiraling Top-Down", "mood": ["peace", "vacuum"], "director_intent": "Show the remnants of the old power as discarded trash.", "start_image_keywords": ["empty armor piles", "floating blue dust", "spiral camera"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 formatting. Side profile tracking shot at floor level. The Kings are pressed flat against the black floor, crawling. Their heavy armor is visibly bending and sparking as if under a hydraulic press. Sparks fly where metal grinds on glass.
+Vertical 9:16. Spiraling top-down shot. Five piles of empty, rusted armor lie on the black floor. A stream of blue glowing cubic dust is spiraling upwards from the armor into the darkness above, joining the fiber optic cables. The scene is peaceful.
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Kings crawling. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Armor deforming. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Reflective floor. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Low key lighting. Sparks. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Tracking shot moving with them. Slow motion struggle.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud metal fatigue groaning. Muffled sirens. Crunching sounds.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Empty armor piles. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Upward flow of particles. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue ambient light. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Slow spiral camera rotation. Particle flow.
 
-## [ACT 3] [SCENE 3.1] [Timecode: 00:50-00:55] [SECURITY ARRIVAL]
-**Action:** The "Angels" (Obsidian Shards) manifest from the floor. They don't walk; they slide/glitch forward aggressively.
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Wind tunnel sound (updraft). Soft metallic clinks of settling armor.
+
+## [ACT 3] [SCENE 3.3] [Timecode: 00:55-01:00] [THE RIGHTEOUS]
+**Action:** The crowd of Righteous stands perfectly still, illuminated by the Admin's light.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "Angels_Security", "phase": "Protocol_Obsidian", "presence": "on_screen", "focus": "primary"}], "props": ["Obsidian Shards"], "camera": "Whip Pan, Motion Blur", "mood": ["threat", "aggression"], "director_intent": "Introduce the enforcers not as humans, but as sharp, dangerous geometry.", "start_image_keywords": ["black glass shards", "glitching figures", "sharp geometry"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "wide", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "Righteous_Crowd", "phase": "Kap_71-108_Master", "presence": "on_screen", "focus": "primary"}], "props": ["White Robes"], "camera": "Wide / Stabilized", "mood": ["order", "harmony"], "director_intent": "Contrast the chaotic deletion of the Kings with the stable geometry of the Righteous.", "start_image_keywords": ["righteous crowd", "white robes", "perfect order"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 formatting. Abstract geometric entities made of sharp, floating obsidian shards manifesting from the floor. They have a vague humanoid shape but no features. They reflect the environment. They are sliding forward rapidly. Motion blur.
+Vertical 9:16. Wide shot of a crowd of 'The Righteous'. They are androgynous figures wearing identical luminescent white futuristic robes (`GARMENT_V2`). Their skin is diamond-hard and reflects the environment. They stand in a perfect grid formation, motionless, looking towards the Throne.
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Non-anthropomorphic geometric shards. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Black glass material. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Throne room floor. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** High contrast reflections. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Fast whip pan. Aggressive movement. Glitchy movement (teleporting forward).
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sharp "blade unsheathed" metallic ring. Digital whoosh sounds.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Crowd of perfect beings. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** White glowing robes. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Clean reflective floor. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft cool white light. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Stabilized camera. Minimal movement (breathing only).
 
-## [ACT 3] [SCENE 3.2] [Timecode: 00:55-01:00] [SHAME AND DARKNESS]
-**Action:** The Kings cover their faces in shame (darkness). Their textures turn matte black (unlit).
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Soft, harmonic synth pad (Major chord). No mechanical noise.
+
+## [ACT 3] [SCENE 3.4] [Timecode: 01:00-01:10] [SYSTEM STABLE]
+**Action:** The Throne room is empty of corruption. The black floor is perfectly reflective again. Fade to Black.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "high_angle", "framing": "medium", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "Kings_Group", "phase": "Kap_14-70_Legacy", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Top Down, Static", "mood": ["shame", "deletion"], "director_intent": "Visual metaphor for 'darkness on their faces'. Removing their texture information.", "start_image_keywords": ["matte black figures", "kings hiding faces", "top down view"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [], "props": [], "camera": "Static / Symmetrical", "mood": ["clean", "reset"], "director_intent": "Final state of the system after garbage collection.", "start_image_keywords": ["empty throne room", "infinite reflection", "blue lines"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 formatting. Top-down view of the Kings huddled together. They are turning purely matte black, losing all texture and reflection, like voids in the shape of men. They are covering their faces with their hands. The floor around them is still reflective, emphasizing their lack of light.
+Vertical 9:16. Wide static shot of the Throne Room. It is completely empty. The Kings and their armor are gone. The black mirror floor is flawless. In the far distance, the Elect One sits on the throne, a small point of light. Symmetrical composition.
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Silhouette shapes of Kings. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** No texture, just black shape. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Reflective floor. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Environment is lit, subjects are not. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Top down static shot. Texture transition from rust to matte black.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Distant light point. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite clean room. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Deep black and blue. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. No movement. Fade to black.
+
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Low frequency "drop" (Subwoofer hit). Absence of high frequency sounds.
-
-## [ACT 3] [SCENE 3.3] [Timecode: 01:00-01:06] [DE-RES]
-**Action:** The Kings dissolve into thousands of glowing blue cubes (Voxels). The cubes float upward and vanish. No blood, just data dispersal.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "wide", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "Kings_Group", "phase": "Kap_14-70_Legacy", "presence": "on_screen", "focus": "primary"}], "props": ["Voxel Particles"], "camera": "Wide, Slow Motion", "mood": ["resolution", "peace"], "director_intent": "The purge is clean. No gore, just data management.", "start_image_keywords": ["voxel disintegration", "blue cubes floating", "dissolving figures"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 formatting. Wide shot. The matte black figures of the Kings are breaking apart into thousands of small, glowing blue translucent cubes (voxels). The cubes are floating upwards into the darkness like dust motes in a sunbeam. It is peaceful and orderly.
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Disintegrating figures. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Blue voxel particles. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark void. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue light from particles. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. Slow motion (300fps). Particle simulation flow upward.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-The sound of wind blowing through a tunnel. Soft digital sparkles.
-
-## [ACT 3] [SCENE 3.4] [Timecode: 01:06-01:10] [FINAL STATE]
-**Action:** The Throne Room is empty again. Pristine. The Elect One remains.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Throne_Room_Mainframe", "env_change": false, "actors": [{"name": "The_Elect_One", "phase": "Kap_71-108_Master", "presence": "on_screen", "focus": "primary"}], "props": ["Throne"], "camera": "Static, Symmetric", "mood": ["clean", "success"], "director_intent": "Return to the initial state of perfection. The error is resolved.", "start_image_keywords": ["empty throne room", "elect one sitting", "pristine reflection"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 formatting. Wide static shot of the Throne Room. It is completely empty and clean. The reflective floor is perfect. The Elect One sits on the throne in the distance, a small beacon of white light. Symmetry. Order.
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Elect One in distance. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** White light. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Empty clean room. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** White on black. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 aspect ratio. No movement. Still life.
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Final system "Ping" (Success chime). Silence.
+The 40Hz sub-bass hum returns to a steady rhythm. A final soft "Ping" (System Ready). Fade out.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.3","text":"Sie dachten, der Boden trägt sie. Aber hier gibt es keinen Stein, nur Daten.","words_max":12}],"Kings":[{"scene":"2.4","text":"Wir sind... inkompatibel. Das Feuer... es kommt von innen. Lösch uns!","words_max":12}]},"notes":"German only. Minimalist reflection on the system state."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.1","text":"Kein Stein, kein Boden. Nur Daten.","words_max":7},{"scene":"3.4","text":"Der Fehler ist bereinigt. Das System ist stabil.","words_max":8}],"Kings":[{"scene":"1.3","text":"Das Feuer... von innen...","words_max":5},{"scene":"3.1","text":"Lösch... uns...","words_max":3}]},"notes":"German only. Minimalist, glitch-style thoughts."}

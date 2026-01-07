@@ -1,355 +1,326 @@
 # DREHBUCH KAPITEL 100 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Das System kennt keine Verwandtschaft, nur Kompatibilität. Wenn der Quellcode korrumpiert ist, wird der Bruder zum Fremdkörper, und die Liebe zu einem fatalen Fehler im Protokoll. Wir sahen zu, wie die Logik der Welt zerbrach und in roter Datenflut ertrank, bis die Administratoren die Stille brachten.
+NARRATOR_TEXT: Das Protokoll der Verwandtschaft wurde durch einen fatalen Fehler im Kerncode überschrieben. Wo einst warmes Blut floss, zirkuliert nun nur noch kalte, magnetische Masse, die die Speicherbänke der Welt erstickt. Wir haben die Warnungen der Überhitzung ignoriert, bis die Administratoren eingriffen, um die Fragmente zu archivieren und die Stille über den Lärm zu legen.
 
-## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:02] [The Glitch Eye]
-**Action:** Extreme Close-Up of an eye. The iris dilates rapidly, pupil transforms into a spinning red loading circle. Skin becomes transparent, revealing glowing red circuitry.
+## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:03] [The Hook]
+**Action:** Macro close-up of a ceramic fist impacting a metal skull. Sparks are "Invalid Argument" red hex-codes. The skull fractures; black ferrofluid sprays out in slow-motion, forming magnetic spikes.
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "System Void / Neutral Background", "env_change": false, "actors": [{"name": "Sinner_01", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "100mm Macro Lens", "mood": ["tension", "horror"], "director_intent": "Show the exact moment the biological interface fails and the digital corruption takes over.", "start_image_keywords": ["eye_macro", "red_loading_circle", "transparent_skin"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "Combat Contact Point", "env_change": false, "actors": [{"name": "Unit_Alpha_Father", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}, {"name": "Unit_Beta_Son", "phase": "Corrupted", "presence": "on_screen", "focus": "secondary"}], "props": ["Kill_Hammer"], "camera": "100mm Macro / High Speed", "mood": ["violence", "techno-horror"], "director_intent": "Visualize violence as a data collision error producing hex-code sparks.", "start_image_keywords": ["macro_fist_impact", "red_hex_code_sparks", "ferrofluid_spikes"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme macro shot of a human eye, hyper-realistic 8k texture. The pupil is replaced by a glowing red digital loading circle. The iris is fracturing into digital noise. The skin around the eye is rendering transparent, revealing subcutaneous glowing red fiber-optic nerves and circuitry. Cinematic lighting, high contrast, shallow depth of field, 9:16 aspect ratio.
+Extreme macro shot of a white ceramic armored fist impacting a rusted metal skull helmet. The point of impact does not create fire sparks, but emits glowing red hexadecimal code strings ("0xFF_ERROR") flying in all directions. The helmet is fracturing, releasing a spray of black ferrofluid that instantly freezes into sharp magnetic spikes in mid-air. Hyper-realistic texture, 8k resolution, depth of field blurring the background. 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Human_Subject_Male. **Physique:** Standard build, focusing on facial features. **Status:** `SYSTEM_OVERRIDE`. **Optics:** The pupil is a spinning red UI element. **Action:** Rapid iris dilation followed by a texture failure of the skin.
+> **Actor:** Unit_Alpha & Unit_Beta. **Physique:** Armored hands and helmeted heads only. **Status:** `COLLISION_EVENT`. **Optics:** Metal deformation. **Action:** High-velocity impact, sudden deceleration causing particle emission.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** None visible in macro. **Prop:** None.
+> **Gear:** Ceramic white gauntlets, rusted iron helmet. **Prop:** `HEX_SPARKS`. Floating text strings instead of fire.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Undefined_Dark_Space. **Terrain:** None. **Substance:** None. **Background:** Deep shadow to emphasize the glowing eye.
+> **Location:** Contact_Zone. **Terrain:** N/A (Macro). **Substance:** Ferrofluid and Code. **Background:** Blurred industrial gray.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `INTERNAL_ERROR`. Primary: Red light emitting from within the eye and under the skin. Secondary: Cold clinical rim light. **Palette:** Flesh tones turning to glass, Crimson Red, Black. **Atmosphere:** Claustrophobic, medical horror.
+> **Lighting Scheme:** `ERROR_FLASH`. Primary: Bright red light from the impact code. Secondary: Cold studio rim light. **Palette:** White Ceramic, Rust, Neon Red, Black Oil. **Atmosphere:** High-impact freeze frame.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Macro 100mm. **Lens:** Sharp focus on the eye. **Focus:** Extremely shallow. **Aperture:** f/2.8. **Style:** Biomechanical horror, high-fidelity CGI, simulation glitch aesthetic.
+> **Camera:** Macro 100mm. **Lens:** Sharp center focus. **Focus:** Shallow. **Aperture:** f/2.8. **Style:** Slow-motion physics simulation.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitched digital screeching, like a modem connecting but distorted. Underneath, a wet, biological heartbeat that accelerates rapidly until it syncs with a mechanical clicking sound.
+A deafening pneumatic hammer strike sound, layered with a digital "glitch" scream and the sound of breaking glass. No music, just the raw impact.
 
-## [ACT 1] [SCENE 1.2] [Timecode: 00:02-00:05] [The Fratricide Spark]
-**Action:** Two brothers lock hands. The contact point sparks with black smoke. One figure's arm texture fails, showing raw muscle wireframe.
+## [ACT 1] [SCENE 1.2] [Timecode: 00:03-00:08] [The Loop]
+**Action:** Wide shot of "Valley of Termination". Hundreds of Father/Son units locked in combat. The animation loops every 0.8 seconds (glitch style). The ground is covered in "Digital Ash".
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "close_up", "framing": "close_up", "environment": "Dusty Street", "env_change": true, "actors": [{"name": "Brother_A", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}, {"name": "Brother_B", "phase": "Corrupted", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Handheld Shaky Cam", "mood": ["conflict", "panic"], "director_intent": "Visualize the rejection of kinship as a physical system error upon contact.", "start_image_keywords": ["handshake", "black_smoke", "wireframe_arm"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Valley of Termination", "env_change": true, "actors": [{"name": "Unit_Alpha_Father", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}, {"name": "Unit_Beta_Son", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Handheld Shaky Cam 24mm", "mood": ["chaos", "repetition"], "director_intent": "Show the recursive nature of the violence as a looping system error.", "start_image_keywords": ["looping_combat", "digital_ash", "valley_battlefield"], "start_image_mode": "env_first", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Close-up of two hands clasping in a handshake. The point of contact is erupting in black digital smoke and sparks. One arm's skin texture is glitching and disappearing, revealing a raw, glowing red wireframe muscle structure underneath. Ancient linen sleeves are fraying into digital artifacts. Dusty background, harsh sunlight, 9:16 aspect ratio.
+Wide chaotic shot of a desolate grey valley filled with hundreds of pairs of armored warriors locked in identical combat poses. The air is thick with falling grey square particles ("Digital Ash"). The lighting is harsh and strobing. The scene has a glitch aesthetic, with some figures slightly offset or transparent (motion blur artifacting). Ground is barren industrial concrete. 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Two_Male_Subjects. **Physique:** Weathered, ancient appearance. **Status:** `CONNECTION_FAILURE`. **Optics:** Normal until contact. **Action:** Hands clasping firmly, then recoiling as the texture fails.
+> **Actor:** Warrior_Crowd_Instanced. **Physique:** Armored exoskeletons. **Status:** `RECURSIVE_LOOP`. **Optics:** Identical movements. **Action:** Striking and resetting instantly in a 0.8s loop. Jerky, unnatural motion.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** Rough linen tunics. **Prop:** None.
+> **Gear:** Scavenged industrial plating. **Prop:** Heavy blunt weapons.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Ancient_City_Street. **Terrain:** Dusty ground. **Substance:** Black volumetric smoke emitting from hands. **Background:** Blurred stone walls.
+> **Location:** Valley_of_Termination. **Terrain:** Flat grey wasteland. **Substance:** Digital Ash (square confetti). **Background:** Hazy industrial smog.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `COLLISION_SPARK`. Primary: Bright white sparks at contact point. Secondary: Natural harsh daylight. **Palette:** Beige, Black Smoke, Neon Red Wireframe. **Atmosphere:** Volatile, glitching reality.
+> **Lighting Scheme:** `STROBE_DISASTER`. Primary: Flashing emergency lights (Red/White). Secondary: Grey ambient occlusion. **Palette:** Concrete Grey, Rust, Strobe White. **Atmosphere:** Chaotic, mechanical hell.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Handheld, shaky. **Lens:** 50mm. **Focus:** On the hands. **Aperture:** f/4.0. **Style:** Documentary war footage, real-time rendering error.
+> **Camera:** Handheld 24mm. **Lens:** Wide. **Focus:** Deep. **Aperture:** f/8.0. **Style:** War journalism meets corrupted video file.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud electric arc snapping sound, like a high-voltage cable shorting out. A low thud of skin on skin followed immediately by a sizzling burn noise.
+Rhythmic industrial clanging (120 BPM) like a factory line gone wrong. Layered with the scratching sound of a hard drive seeking data frantically.
 
-## [ACT 1] [SCENE 1.3] [Timecode: 00:05-00:09] [The Crowd Ignition]
-**Action:** Wide shot of a crowd in a dusty street. Random individuals ignite in red "Lichtenberg" patterns. Physics engine fails—bodies ragdoll unnaturally.
+## [ACT 1] [SCENE 1.3] [Timecode: 00:08-00:14] [Thermal Throttling]
+**Action:** Mid-shot of UNIT_ALPHA_FATHER. His armor plates turn blindingly white. Cooling vents open, releasing jets of steam that freeze instantly into ice crystals.
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Ancient City Market", "env_change": false, "actors": [{"name": "Crowd_Mob", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Wide 24mm High Angle", "mood": ["chaos", "disaster"], "director_intent": "Depict the mass contagion as a cascading system failure in the population.", "start_image_keywords": ["crowd_panic", "red_lightning_skin", "ragdoll_physics"], "start_image_mode": "env_first", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Valley of Termination", "env_change": false, "actors": [{"name": "Unit_Alpha_Father", "phase": "Overheated", "presence": "on_screen", "focus": "primary"}], "props": ["Kill_Hammer"], "camera": "Low Angle Dutch Tilt", "mood": ["danger", "overload"], "director_intent": "Portray biological rage as hardware thermal throttling.", "start_image_keywords": ["glowing_white_armor", "steam_jets", "ice_crystals"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": ["Kill_Hammer"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-High angle wide shot of a chaotic ancient marketplace. Dozens of people are running. Several figures are glowing with internal red fractal lightning patterns (Lichtenberg figures). Some bodies are contorted in unnatural ragdoll poses, floating slightly off the ground due to physics failure. Dust and digital distortion in the air. 9:16 aspect ratio.
+Medium shot of a hulking armored figure. The ceramic plating on the shoulders and chest is glowing blindingly white-hot (1400°C). Mechanical vents on the armor are blasting out high-pressure steam which is instantly crystallizing into geometric ice shards in the air. The figure raises a massive hammer. Background is dark industrial smoke. 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Crowd_Swarm. **Physique:** Varied ancient populace. **Status:** `MASS_CORRUPTION`. **Optics:** Panic, glowing red veins. **Action:** Running, colliding, collapsing with zero weight (ragdoll glitch).
+> **Actor:** Unit_Alpha_Father. **Physique:** Bulk industrial frame. **Status:** `THERMAL_CRITICAL`. **Optics:** Glowing heat radiation. **Action:** Raising weapon slowly, vents opening and blasting steam.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** Robes, tunics, sandals. **Prop:** Overturned baskets, scattered pottery.
+> **Gear:** Heat-shield ceramic armor. **Prop:** `KILL_HAMMER`. Massive piston weapon.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Market_Square. **Terrain:** Cobblestones and dirt. **Substance:** Dust clouds mixed with digital artifacting. **Background:** Ancient architecture dissolving into noise.
+> **Location:** Valley_Battlefield. **Terrain:** Blurred background. **Substance:** Steam and Ice. **Background:** Dark.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `GLOBAL_ALARM`. Primary: Sunlight. Secondary: Red flashes from igniting bodies. **Palette:** Earth tones, Crimson Red, Digital Artifact colors. **Atmosphere:** Hysterical, broken physics.
+> **Lighting Scheme:** `CORE_MELTDOWN`. Primary: White glow from armor. Secondary: Blueish tint from ice. **Palette:** Incandescent White, Steel Blue, Dark Grey. **Atmosphere:** Intense heat and pressure.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** High Angle, Wide 24mm. **Lens:** Wide. **Focus:** Deep focus. **Aperture:** f/8.0. **Style:** Disaster movie, datamoshing effects.
+> **Camera:** Low Angle, Dutch Tilt. **Lens:** 35mm. **Focus:** On the glowing plates. **Aperture:** f/4.0. **Style:** High-contrast sci-fi industrial.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A cacophony of screams, but heavily bit-crushed and distorted. The sound of bodies hitting the ground is wrong—like hollow plastic or glitchy audio stutters instead of flesh impact.
+The sound of a massive turbine engine spooling up to maximum RPM, overlaid with a high-pitched steam hiss and the cracking sound of rapid cooling.
 
-## [ACT 1] [SCENE 1.4] [Timecode: 00:09-00:15] [The Raw Data Spray]
-**Action:** A warrior strikes another. The wound sprays a high-pressure jet of red particles (Raw Data) instead of liquid. It accumulates instantly.
+## [ACT 1] [SCENE 1.4] [Timecode: 00:14-00:20] [The Execution]
+**Action:** The hammer drops. Connection point explodes into a fountain of black oil (DATA_BLOOD). The oil crawls up the killer's legs like living magnets.
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Battlefield", "env_change": true, "actors": [{"name": "Warrior_A", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}, {"name": "Warrior_B", "phase": "Corrupted", "presence": "on_screen", "focus": "secondary"}], "props": ["Sword_Glitch"], "camera": "Action Cam Body Mount", "mood": ["violence", "surreal"], "director_intent": "Redefine violence as data leakage; blood is information that clogs the system.", "start_image_keywords": ["sword_strike", "red_particles", "data_spray"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": ["Sword_Glitch"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "medium", "framing": "medium", "environment": "Impact Zone", "env_change": true, "actors": [{"name": "Unit_Alpha_Father", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": ["Kill_Hammer", "Ferrofluid"], "camera": "Tracking Shot Low", "mood": ["horror", "surreal"], "director_intent": "The blood is not liquid, it is intelligent magnetic data that infects the aggressor.", "start_image_keywords": ["ferrofluid_fountain", "magnetic_oil_crawl", "hammer_impact"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": ["Kill_Hammer", "Ferrofluid"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Dynamic action shot of a warrior striking another with a sword. The impact point explodes not with liquid blood, but with a dense spray of glowing red cubic particles and binary strings. The particles are piling up on the ground like sand. The sword is leaving a trail of digital smear. Intense motion blur. 9:16 aspect ratio.
+Low angle tracking shot of a massive hammer smashing into the ground. A fountain of viscous black ferrofluid erupts from the impact, but instead of falling, the liquid forms spiky tendrils that magnetically crawl up the legs of the armored figure. The oil looks alive and geometric. 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Warrior_Unit. **Physique:** Muscular, straining. **Status:** `FATAL_ERROR`. **Optics:** Gritted teeth, berserk expression. **Action:** Swinging weapon, impact causes particle explosion.
+> **Actor:** Unit_Alpha_Legs. **Physique:** Armored greaves. **Status:** `INFECTION`. **Optics:** Magnetic attraction. **Action:** Standing firm while fluid crawls up.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** Leather armor, bronze helmet. **Prop:** Glitching sword, trail renderer active.
+> **Gear:** Metal leg armor. **Prop:** `FERROFLUID`. Black, shiny, spiky liquid.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Battlefield_Sector. **Terrain:** Ground rapidly covering in red granular data. **Substance:** Red data particles. **Background:** Smoke and chaos.
+> **Location:** Impact_Crater. **Terrain:** Broken concrete. **Substance:** Living Oil. **Background:** Smoke.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `IMPACT_FLASH`. Primary: Red glow from the data spray. Secondary: Ambient war lighting. **Palette:** Bronze, Leather, Glowing Red. **Atmosphere:** High-speed violence, particle physics simulation.
+> **Lighting Scheme:** `CONTRAST`. Primary: Reflections on the black oil. Secondary: Red ambient glow. **Palette:** Pitch Black, Silver, Red. **Atmosphere:** Unnatural physics.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Body Mount / Action Cam. **Lens:** Wide fish-eye distortion. **Focus:** Center action. **Aperture:** f/5.6. **Style:** Visceral combat, particle heavy.
+> **Camera:** Low Tracking. **Lens:** Macro capability. **Focus:** On the fluid. **Aperture:** f/2.8. **Style:** Fluid simulation demo, horror.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy industrial metal impact, clanging. The "spray" sounds like static noise (white noise) mixed with the sound of thousands of tiny glass beads hitting the floor.
+A heavy, wet, sub-bass thrumming sound (magnetic resonance). No splashing sounds, but rather a sticky, clicking noise of liquid attaching to metal.
 
-## [ACT 2] [SCENE 2.1] [Timecode: 00:15-00:23] [The Horse in the Flood]
-**Action:** The "Data Blood" has risen to chest height. A biomechanical horse struggles to push through the viscous, glowing crimson fluid.
+## [ACT 2] [SCENE 2.1] [Timecode: 00:20-00:28] [The Flood]
+**Action:** The valley floor is now a lake of black ferrofluid. It reflects the red error-sky. Bodies float, twitching (ragdoll physics).
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Data Flood Valley", "env_change": true, "actors": [{"name": "Unit_Cavalry_Alpha", "phase": "Glitch_Mount", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Tracking Shot Side", "mood": ["struggle", "dystopian"], "director_intent": "Show the density and resistance of the corrupted data impeding movement.", "start_image_keywords": ["biomech_horse", "red_data_flood", "chest_deep"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Ferrofluid Lake", "env_change": true, "actors": [], "props": [], "camera": "Crane Shot Rising", "mood": ["despair", "scale"], "director_intent": "Reveal the extent of the corruption flooding the system memory.", "start_image_keywords": ["black_oil_lake", "red_sky_reflection", "floating_bodies"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Side view of a massive black biomechanical horse wading chest-deep through a glowing red ocean of liquid data. The fluid is thick, composed of tiny geometric shapes. The horse has carbon fiber plating and exposed hydraulics. It is straining against the resistance. Background is a dark, glitching landscape. 9:16 aspect ratio.
+Wide crane shot rising over a valley completely flooded with black, mirror-like ferrofluid. The liquid surface perfectly reflects a chaotic red sky filled with glitch artifacts. Armored bodies are floating face down, twitching slightly. The fluid is thick and calm, undisturbed by wind. 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Heavy_Unit_Cavalry (System Entity). **Physique:** Synthetic biomechanical horse, muscular build overlaid with matte-black carbon fiber plating. Exposed hydraulics at joints. **Status:** `CRITICAL_ERROR`. **Optics:** Wide, panicked eyes emitting flickering red strobe lights. **Action:** The entity is struggling to move forward, legs heavy, movement sluggish due to environmental resistance.
+> **Actor:** Corpses. **Physique:** Armored shells. **Status:** `DISCONNECTED`. **Optics:** Floating. **Action:** Bobbing slightly, occasional twitch (ragdoll glitch).
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** Rider is a disintegrated silhouette. **Prop:** None visible here.
+> **Gear:** Debris. **Prop:** None.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Battle_Sector_Alpha (Corrupted). **Terrain:** Invisible ground plane. **Substance:** Viscous, glowing crimson liquid composed of millions of tiny floating cubes and binary strings. **Background:** Wireframe mountains.
+> **Location:** Flooded_Valley. **Terrain:** Liquid surface. **Substance:** Black Ferrofluid. **Background:** Red glitch sky.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `SYSTEM_FAILURE_RED`. Primary: Intense red bioluminescence from fluid. Secondary: Cold strobe flashes. **Palette:** Crimson Red, Void Black, Static White. **Atmosphere:** Heavy digital distortion.
+> **Lighting Scheme:** `REFLECTION`. Primary: Red sky reflection on black liquid. Secondary: None. **Palette:** Black, Crimson Red. **Atmosphere:** Oppressive, heavy.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Low Angle, Tracking Shot (side view). **Lens:** 35mm Distorted. **Focus:** Sharp on chest. **Aperture:** f/2.8. **Style:** High-end CGI cinematic, Cyberpunk horror, fluid simulation.
+> **Camera:** Crane Rising. **Lens:** Wide 24mm. **Focus:** Infinite. **Aperture:** f/8.0. **Style:** Apocalyptic landscape.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Low-frequency rumble of heavy liquid displacement. Hydraulic whining from the horse's joints. The fluid sounds thick, like mud mixed with digital static.
+A low, omnipresent 50Hz electrical hum, signifying high tension. Muffled, distorted underwater sounds in the background.
 
-## [ACT 2] [SCENE 2.2] [Timecode: 00:23-00:28] [Horse Detail Strobe]
-**Action:** Detail shot of the horse's chest plate submerged. Fluid glows from below. Eyes flash red SOS patterns.
+## [ACT 2] [SCENE 2.2] [Timecode: 00:28-00:35] [Collision Error]
+**Action:** MOUNT_UNIT_09 (Horse) tries to gallop. Its hooves clip *through* the ground mesh. Sparks fly from the intersection points (Z-Fighting).
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Data Flood Valley", "env_change": false, "actors": [{"name": "Unit_Cavalry_Alpha", "phase": "Glitch_Mount", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle 35mm", "mood": ["panic", "detail"], "director_intent": "Focus on the machine-panic and the lighting interaction between the red data and black armor.", "start_image_keywords": ["horse_eye_red", "carbon_fiber_wet", "red_underlighting"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Glitching Ground", "env_change": false, "actors": [{"name": "Mount_Unit_09", "phase": "Glitch_Mount", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Side Tracking Ground Level", "mood": ["panic", "glitch"], "director_intent": "Visualize the breakdown of physical laws via collision mesh errors.", "start_image_keywords": ["horse_clipping_ground", "z_fighting_sparks", "mechanical_legs"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Close-up detail of a biomechanical horse's head and chest. The black carbon fiber skin is wet and reflecting the intense red glow from the liquid below. The horse's eye is a robotic lens flashing a red SOS pattern. Water/Data droplets are splashing up. High contrast, cinematic lighting. 9:16 aspect ratio.
+Side view tracking shot at ground level of a mechanical horse's legs running. The hooves are sinking halfway into the concrete ground as if it were a hologram ("clipping error"). Where the leg intersects the ground, bright jagged sparks and polygons are flying out ("Z-fighting"). The horse's movement is unnaturally slow and heavy. 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Unit_Cavalry_Alpha. **Physique:** Mechanical head details, synthetic skin. **Status:** `PANIC_PROTOCOL`. **Optics:** Strobe light eye. **Action:** Head tossing, heavy breathing, splashing.
+> **Actor:** Mechanical_Horse_Legs. **Physique:** Hydraulic pistons, metal casing. **Status:** `COLLIDER_FAIL`. **Optics:** Metal textures. **Action:** Galloping, legs passing through solid ground.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
 > **Gear:** None. **Prop:** None.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Data_Flood. **Terrain:** Liquid surface. **Substance:** Glowing red fluid. **Background:** Dark.
+> **Location:** Glitch_Zone. **Terrain:** Concrete slab. **Substance:** Sparks at intersection. **Background:** Blurred speed lines.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `UNDERLIGHTING`. Primary: Red glow from bottom. Secondary: Reflection on wet black surfaces. **Palette:** Black, Red, Metallic highlights. **Atmosphere:** Wet, chaotic.
+> **Lighting Scheme:** `INTERSECTION_SPARK`. Primary: Bright white/yellow sparks at ground level. Secondary: Industrial grey. **Palette:** Grey, Silver, Yellow Sparks. **Atmosphere:** Broken physics simulation.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Low Angle. **Lens:** 35mm. **Focus:** Eye and chest. **Aperture:** f/2.0. **Style:** Macro detail, fluid interaction.
+> **Camera:** Side Tracking. **Lens:** 50mm. **Focus:** On hooves. **Aperture:** f/4.0. **Style:** Technical bug documentation.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy, labored mechanical breathing. The sound of liquid splashing against metal. A rhythmic electronic beep (SOS signal).
+A time-stretched, metallic horse whinny that slows down into a grinder noise. The sound of metal dragging on concrete, heavily digitized.
 
-## [ACT 2] [SCENE 2.3] [Timecode: 00:28-00:35] [The Chariot Glitch]
-**Action:** A chariot vibrates violently, wheels clip through the ground mesh (No-Clip Error), sinking into geometry and dissolving into wireframe.
+## [ACT 2] [SCENE 2.3] [Timecode: 00:35-00:40] [The Chariot Sink]
+**Action:** A heavy armored transport vehicle drives into the fluid. The oil pours *into* the cabin, drowning the driver (UNIT_BETA).
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "medium", "framing": "medium", "environment": "Glitching Terrain", "env_change": false, "actors": [], "props": ["Glitch_Chariot"], "camera": "Static Tripod", "mood": ["disintegration", "error"], "director_intent": "Illustrate the breakdown of the physics engine and geometry.", "start_image_keywords": ["chariot_sinking", "wireframe_wheels", "noclip_glitch"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["Glitch_Chariot"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "pov", "framing": "pov", "environment": "Vehicle Interior", "env_change": true, "actors": [{"name": "Unit_Beta_Son", "phase": "Drowning", "presence": "on_screen", "focus": "primary"}], "props": ["Chariot_Interior"], "camera": "POV Interior", "mood": ["claustrophobia", "drowning"], "director_intent": "The horrifying realization that the safety of the vehicle is compromised by liquid data.", "start_image_keywords": ["chariot_interior_flood", "black_oil_rising", "cockpit_pov"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": ["Chariot_Interior"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A war chariot sinking into the ground as if the ground were non-solid. The wheels are half-submerged in the rock, displaying a "no-clip" error. The chariot is vibrating and dissolving into green and white wireframe lines. The texture of the wood is stretching and pixelating. 9:16 aspect ratio.
+POV shot from inside a primitive metal cockpit (chariot). Thick black oil is pouring in through the viewing slits and rising rapidly from the floor. An armored driver (Unit Beta) is visible struggling, waist deep in the black fluid. Red emergency lights are flashing inside the cabin. 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Physique:** N/A. **Status:** `OBJECT_DESYNC`. **Optics:** N/A. **Action:** Violent vibration, sinking through floor.
+> **Actor:** Unit_Beta_Son. **Physique:** Armored torso. **Status:** `RESOURCE_TRAPPED`. **Optics:** Panicked movements. **Action:** Struggling against rising fluid.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** N/A. **Prop:** `GLITCH_CHARIOT`. Partially rendered vehicle, square polygon wheels rotating awkwardly.
+> **Gear:** Driver harness. **Prop:** `CHARIOT_COCKPIT`. Metal bars, levers.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Glitch_Zone. **Terrain:** Ground mesh failing. **Substance:** Rock turning to grid. **Background:** Distorted.
+> **Location:** Vehicle_Interior. **Terrain:** Flooded floor. **Substance:** Black Ferrofluid. **Background:** Metal walls.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `TEXTURE_FAIL`. Primary: Ambient. Secondary: Wireframe emission. **Palette:** Wood brown, Wireframe Green, Void Black. **Atmosphere:** Technical failure.
+> **Lighting Scheme:** `CABIN_ALARM`. Primary: Rotating Red light. Secondary: Reflection on black oil. **Palette:** Red, Black, Rust. **Atmosphere:** Claustrophobic panic.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Static Tripod. **Lens:** 50mm. **Focus:** On the wheel clipping. **Aperture:** f/5.6. **Style:** Glitch art, physics bug documentation.
+> **Camera:** POV Handheld. **Lens:** Wide 24mm. **Focus:** Interior. **Aperture:** f/2.8. **Style:** Found footage horror.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud grinding metal sound mixed with digital stuttering/skipping audio. A high-pitched "error" tone that fluctuates in pitch.
+The sound of viscous fluid rushing into a hollow metal space. Wet gurgling sounds mixed with a relentless, high-pitched alarm beep.
 
-## [ACT 2] [SCENE 2.4] [Timecode: 00:35-00:45] [The Valley of Red Data]
-**Action:** Establishing shot of the valley as a sea of red data. Background mountains flicker off into black void (Render Distance limit).
+## [ACT 2] [SCENE 2.4] [Timecode: 00:40-00:45] [System Saturation]
+**Action:** The fluid reaches chest height. The red sky begins to flicker black (rendering failure).
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Red Data Ocean", "env_change": true, "actors": [], "props": [], "camera": "Drone / Satellite View", "mood": ["apocalypse", "scale"], "director_intent": "Reveal the scale of the corruption and the collapse of the world boundaries.", "start_image_keywords": ["red_ocean_valley", "black_sky_void", "wireframe_mountains"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Valley of Termination", "env_change": true, "actors": [], "props": [], "camera": "Aerial God View", "mood": ["endgame", "collapse"], "director_intent": "Show the final moments before system crash.", "start_image_keywords": ["flickering_sky_void", "black_oil_ocean", "aerial_view"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme wide aerial shot of a vast valley filled with a glowing red liquid ocean. The liquid is made of digital noise. In the distance, the mountains are flickering and disappearing into a pitch-black void, showing the edge of the simulation. The sky is empty and black. 9:16 aspect ratio.
+High aerial shot looking down at the valley. The black fluid has covered almost everything. The red sky is glitching, large rectangular sections are turning pitch black as if the rendering engine is failing. The horizon line is dissolving into digital noise. 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Physique:** N/A. **Status:** `WORLD_COLLAPSE`. **Optics:** N/A. **Action:** Landscape elements flickering out of existence.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** N/A. **Prop:** N/A.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The_Valley. **Terrain:** Flooded. **Substance:** Red Data Fluid. **Background:** Wireframe mountains vanishing.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `VOID_HORIZON`. Primary: Red glow from ground. Secondary: None (Sky is black). **Palette:** Crimson, Black. **Atmosphere:** End of the world, system crash.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Drone / Satellite. **Lens:** Wide. **Focus:** Infinity. **Aperture:** f/11. **Style:** Epic scale, apocalyptic.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Wind howling, but it sounds like white noise. Deep, distant booming sounds of geometry collapsing.
-
-## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:47] [The Drop / Freeze]
-**Action:** Complete visual freeze. Red chaos turns grayscale. A vertical slit of pure white light opens in the sky.
-**Dialog:** None.
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Frozen Grayscale Valley", "env_change": true, "actors": [], "props": [], "camera": "Symmetrical Wide", "mood": ["awe", "silence"], "director_intent": "The sudden intervention of the Admin level. Absolute control.", "start_image_keywords": ["grayscale_freeze", "white_rift_sky", "vertical_light"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Symmetrical wide shot of the previous valley, but now completely frozen in time and desaturated to grayscale. In the center of the black sky, a perfect vertical slit of blinding white light has opened. The contrast is extreme. 9:16 aspect ratio.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** None. **Physique:** N/A. **Status:** `SYSTEM_PAUSE`. **Optics:** N/A. **Action:** Everything is frozen motionless.
+> **Actor:** None. **Physique:** N/A. **Status:** `RENDER_FAIL`. **Optics:** N/A. **Action:** Sky elements disappearing.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
 > **Gear:** N/A. **Prop:** N/A.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Frozen_Valley. **Terrain:** Static fluid. **Substance:** Grayscale matter. **Background:** The Rift.
+> **Location:** Valley_Global. **Terrain:** Black Ocean. **Substance:** Void patches in sky. **Background:** Dissolving.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `ADMIN_ACCESS`. Primary: Blinding white light from the rift. Secondary: None. **Palette:** Grayscale, Pure White. **Atmosphere:** Sterile, frozen.
+> **Lighting Scheme:** `DYING_LIGHT`. Primary: Fading red glow. Secondary: Absolute Black. **Palette:** Black, Dull Red. **Atmosphere:** System crash.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Static Symmetrical. **Lens:** Wide. **Focus:** The Rift. **Aperture:** f/16. **Style:** Minimalist, divine intervention.
+> **Camera:** Aerial Top-Down. **Lens:** Wide. **Focus:** Infinity. **Aperture:** f/8.0. **Style:** Simulation ending.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Complete silence. A sudden cut from the noise of the previous scene to absolute zero.
+The sound of an audio buffer underrun—stuttering, repeating snippets of noise that fade into a digital silence.
 
-## [ACT 3] [SCENE 3.2] [Timecode: 00:47-00:53] [Angels Descend]
-**Action:** Admin_Class_Seraph entities descend via gravity-lifts. They do not touch the fluid. Laser-grid scanning.
+## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:50] [The Ingress]
+**Action:** The red sky turns to a black wireframe grid. Vertical green lasers scan the battlefield. ADMIN_URIEL is "printed" into existence.
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "wide", "environment": "Frozen Valley", "env_change": false, "actors": [{"name": "Seraph_01", "phase": "Admin", "presence": "on_screen", "focus": "primary"}, {"name": "Seraph_02", "phase": "Admin", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Smooth Dolly In", "mood": ["divine", "tech"], "director_intent": "Portray angels as high-tech clean-up crew, sterile and efficient.", "start_image_keywords": ["seraph_admin", "silver_suit", "gravity_lift"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "low_angle", "framing": "wide", "environment": "Wireframe Sky", "env_change": true, "actors": [{"name": "Admin_Uriel", "phase": "Admin", "presence": "on_screen", "focus": "primary"}], "props": ["Laser_Scan"], "camera": "Worms Eye View", "mood": ["divine", "synthetic"], "director_intent": "The arrival is a programmatic instantiation, not a flight.", "start_image_keywords": ["wireframe_sky_grid", "green_laser_scan", "angel_printing"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": ["Laser_Scan"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Two Admin_Class_Seraph figures descending slowly from the white light. They wear sterile, reflective silver suits with glass helmets (no faces visible). They are floating inside faint vertical beams of light. They are projecting green laser grids onto the frozen gray landscape below. 9:16 aspect ratio.
+Worm's eye view looking straight up. The sky is a black wireframe grid. A vertical green laser sheet cuts through the darkness. Inside the laser sheet, a translucent, fiber-optic humanoid figure (Admin Uriel) is being 3D-printed layer by layer, appearing from the feet up. Sterile, high-tech aesthetic. 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Admin_Class_Seraph. **Physique:** Tall, slender, concealed in tech-armor. **Status:** `ROOT_ACCESS`. **Optics:** Reflective visors. **Action:** Descending vertically without moving limbs (levitation).
+> **Actor:** Admin_Uriel. **Physique:** Glass-fiber, translucent. **Status:** `INSTANTIATION`. **Optics:** Light transmission. **Action:** Materializing within a laser scan.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** Silver/Glass pressure suits, anti-gravity generators. **Prop:** Laser scanners.
+> **Gear:** None (Pure Data Body). **Prop:** `SCAN_LASER`. Vertical green light sheet.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Above_Frozen_Valley. **Terrain:** Air. **Substance:** Light beams. **Background:** Grayscale frozen world.
+> **Location:** Sky_Grid. **Terrain:** N/A. **Substance:** Wireframe lines. **Background:** Black Void.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `SCANNER_LIGHT`. Primary: White beam from above. Secondary: Green laser grids. **Palette:** Silver, White, Laser Green. **Atmosphere:** Clean, technological.
+> **Lighting Scheme:** `SCAN_GREEN`. Primary: Intense Green Laser. Secondary: Internal white glow of the entity. **Palette:** Black, Laser Green, White. **Atmosphere:** Sterile, computational.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Smooth Dolly In. **Lens:** 50mm. **Focus:** On the Seraphs. **Aperture:** f/4.0. **Style:** Sci-fi arrival, slow motion.
+> **Camera:** Worm's Eye View. **Lens:** 24mm. **Focus:** On the entity. **Aperture:** f/2.8. **Style:** Sci-fi hologram tech.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep sub-bass hum, like a massive server room. Occasional clean, digital chirps (scanning sounds).
+A sharp, clean digital chime (Login sound) cutting through the noise. Followed by the hum of a high-tech 3D printer or scanner.
 
-## [ACT 3] [SCENE 3.3] [Timecode: 00:53-00:57] [POV Scan]
-**Action:** POV of an Angel. Righteous are highlighted in Green bounding boxes. Sinners are Red and dissolving.
+## [ACT 3] [SCENE 3.2] [Timecode: 00:50-00:55] [The Sorting]
+**Action:** The Angels generate translucent "Quarantine Domes" around the few surviving "Righteous" units. The ferrofluid repels from these domes.
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "pov", "framing": "pov", "environment": "HUD Overlay", "env_change": false, "actors": [{"name": "Righteous_Group", "phase": "Encrypted", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "POV HUD", "mood": ["analytical", "judgment"], "director_intent": "Show the binary judgment process: Save or Delete.", "start_image_keywords": ["hud_pov", "green_bounding_box", "red_dissolve"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Quarantine Zone", "env_change": false, "actors": [{"name": "Righteous_Unit", "phase": "Encrypted", "presence": "on_screen", "focus": "primary"}], "props": ["Quarantine_Dome"], "camera": "Stabilized Steadicam", "mood": ["safety", "separation"], "director_intent": "Visualizing salvation as data quarantine/protection.", "start_image_keywords": ["quarantine_dome", "ferrofluid_repelling", "white_shield"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": ["Quarantine_Dome"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-First-person HUD view. A digital overlay with complex data streams. In the center, a group of people is highlighted with bright GREEN bounding boxes and "VALID_DATA" tags. Surrounding them, other figures are marked RED with "CORRUPT" tags and are dissolving into digital dust. High-tech UI aesthetic. 9:16 aspect ratio.
+Medium shot of a huddled human figure surrounded by a perfect, translucent white energy sphere. Outside the sphere, the black spiky ferrofluid is pressing against the barrier but being repelled magnetically. The interior of the sphere is calm and clean. The contrast between the chaos outside and the order inside is sharp. 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Target_Subjects. **Physique:** Human silhouettes. **Status:** `SORTING`. **Optics:** N/A. **Action:** Red targets dissolving, Green targets glowing.
+> **Actor:** Righteous_Survivor. **Physique:** Huddled, prayer pose. **Status:** `PROTECTED`. **Optics:** Calm. **Action:** Staying still inside the bubble.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** N/A. **Prop:** HUD Interface elements.
+> **Gear:** Simple robes. **Prop:** `QUARANTINE_DOME`. White forcefield.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Valley_Floor. **Terrain:** Frozen. **Substance:** Digital overlay. **Background:** Grayscale.
+> **Location:** Flooded_Valley. **Terrain:** Black Oil Lake. **Substance:** Repulsion field. **Background:** Dark.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `UI_OVERLAY`. Primary: UI Green and Red. Secondary: Background Gray. **Palette:** Neon Green, Neon Red, Gray. **Atmosphere:** Analytical, cold.
+> **Lighting Scheme:** `SHIELD_GLOW`. Primary: Soft white light from dome. Secondary: Black reflections outside. **Palette:** White, Black. **Atmosphere:** Safe haven in hell.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** POV. **Lens:** Wide. **Focus:** Infinite. **Aperture:** N/A. **Style:** Augmented Reality, Terminator vision.
+> **Camera:** Stabilized Steadicam. **Lens:** 50mm. **Focus:** On the barrier. **Aperture:** f/2.0. **Style:** Cinematic sci-fi protection.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Rapid UI blips and computing sounds. A harsh "deletion" noise for the red targets, a pleasant "lock-on" chime for the green ones.
+A pure, continuous sine wave hum (shield generator). The aggressive scratching sounds of the ferrofluid are muffled and distant.
 
-## [ACT 3] [SCENE 3.4] [Timecode: 00:57-01:00] [The Ascent]
-**Action:** The Righteous are enclosed in translucent white spheres (Quarantine Bubbles) and float upward into the rift. Fade to black.
+## [ACT 3] [SCENE 3.3] [Timecode: 00:55-01:00] [Environment Audit]
+**Action:** The clouds (industrial pipes) slam shut. The rain of oil stops. The entire world flash-freezes. The black fluid turns to grey static matte.
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "wide", "environment": "Ascension Beam", "env_change": true, "actors": [{"name": "Righteous_Group", "phase": "Encrypted", "presence": "on_screen", "focus": "primary"}], "props": ["Quarantine_Spheres"], "camera": "Upward Tilt", "mood": ["peace", "resolution"], "director_intent": "The successful extraction of the valid data packets.", "start_image_keywords": ["white_spheres", "floating_people", "ascension"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": ["Quarantine_Spheres"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Frozen Industrial Sky", "env_change": true, "actors": [], "props": ["Sky_Pipes"], "camera": "Static Tripod Symmetrical", "mood": ["silence", "finality"], "director_intent": "The absolute cessation of all processes. The system is paused.", "start_image_keywords": ["industrial_pipes_sky", "frozen_grey_world", "flash_freeze"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "", "props": ["Sky_Pipes"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Low angle shot looking up towards the white rift. Several translucent white spheres are floating upwards. Inside each sphere is a peaceful human figure, curled in a fetal position, glowing with soft white light. The background fades from gray to pure black at the bottom. 9:16 aspect ratio.
+Symmetrical wide shot of the sky. The clouds are revealed to be massive industrial pipes which are now slamming shut with heavy valves. Below, the entire black ocean has flash-frozen into a matte grey static material. No motion. Absolute symmetry. Cold, clinical blue lighting. 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** The_Encrypted. **Physique:** Human forms. **Status:** `QUARANTINE_SECURE`. **Optics:** Glowing. **Action:** Floating upwards gently.
+> **Actor:** None. **Physique:** N/A. **Status:** `SYSTEM_HALT`. **Optics:** N/A. **Action:** Valves closing, world freezing.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Gear:** White static shielding. **Prop:** `QUARANTINE_BUBBLE`. Translucent spheres.
+> **Gear:** N/A. **Prop:** `SKY_PIPES`. Massive industrial machinery in clouds.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The_Beam. **Terrain:** Air. **Substance:** Light. **Background:** Fading to black.
+> **Location:** The_End_World. **Terrain:** Frozen static ocean. **Substance:** Grey matte ice. **Background:** Cold blue sky.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `ASCENSION`. Primary: Soft internal glow. Secondary: Beam light. **Palette:** White, Soft Blue, Black. **Atmosphere:** Ethereal, safe.
+> **Lighting Scheme:** `COLD_STORAGE`. Primary: Clinical 5000K Blue. Secondary: None. **Palette:** Grey, Steel Blue. **Atmosphere:** Dead, preserved.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Upward Tilt. **Lens:** 35mm. **Focus:** On the spheres. **Aperture:** f/2.8. **Style:** Spiritual sci-fi, peaceful resolution.
+> **Camera:** Static Tripod. **Lens:** Wide. **Focus:** Infinite. **Aperture:** f/11. **Style:** Architectural brutalism.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A single, long, ethereal synth chord that resolves the tension. The sound of wind fading away.
+The "Zero-Noise-Floor". A sudden vacuum silence where all sound is sucked out, leaving only a faint, high-pitched tinnitus ring.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Ein Händedruck, der die Welt verbrennt.","words_max":8},{"scene":"2.4","text":"Kein Wasser. Nur reine, blutende Information.","words_max":8},{"scene":"3.2","text":"Sie kommen nicht um zu retten. Sie kommen um zu bereinigen.","words_max":10}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Unit_Beta_Son":[{"scene":"1.2","text":"Er sieht mich nicht mehr. Ich bin nur noch ein Prozess, der beendet werden muss.","words_max":14}],"Henoch":[{"scene":"2.4","text":"Die Sättigung ist erreicht. Der Speicher läuft über.","words_max":9}],"Admin_Uriel":[{"scene":"3.3","text":"Formatierung abgeschlossen. Das Archiv ist gesichert.","words_max":7}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

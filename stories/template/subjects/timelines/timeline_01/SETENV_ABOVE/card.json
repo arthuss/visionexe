@@ -1,0 +1,144 @@
+{
+  "id": "SETENV_ABOVE",
+  "name": "above",
+  "type": "set_environment",
+  "card": {
+    "description": "A sun‑baked plateau rises above the endless desert, its jagged basalt spires and monolithic stone walls etched with ancient Ge'ez glyphs. A translucent golden hexagonal forcefield hovers above the ground, its edges pulsing with mystic energy. Holographic Ge'ez text floats in the air, and scattered obsidian tablets glow with data streams. In later phases the forcefield cracks, a red glow emanates from the tablets, and the plateau collapses into ash and black smoke, leaving only the echo of ancient technology.",
+    "tags": [
+      "ancient-tech",
+      "Ethiopian",
+      "Egyptian",
+      "industrial mysticism",
+      "photorealistic",
+      "golden forcefield",
+      "obsidian tablet",
+      "red glow",
+      "black mirror floor",
+      "ash wasteland"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Vast sun‑baked plateau with jagged basalt spires, monolithic stone walls, and a central black mirror floor that reflects the sky.",
+      "**Face/Sensors:** Stone walls are carved with Ge'ez glyphs that double as sensor arrays, pulsing faintly with bioluminescent light.",
+      "**Clothing/Armor:** Not applicable.",
+      "**Key Features:** Translucent golden hexagonal forcefield, holographic Ge'ez text, scattered obsidian tablets, red‑glowing data streams, black mirror floor, ash‑laden ground, and black oily smoke."
+    ],
+    "evolution": [
+      "Phase 1 (Pristine): Plateau with golden hexagonal forcefield, glowing obsidian tablets, and floating Ge'ez holograms.",
+      "Phase 2 (Destabilization): Forcefield cracks, red glow emanates from tablets, holograms flicker.",
+      "Phase 3 (Collapse): Plateau collapses into ash, black smoke rises, forcefield dissipates."
+    ],
+    "props": [
+      "Item: Obsidian Tablet – matte black surface, glowing with golden Ge'ez characters.",
+      "Item: Red‑Glowing Tablet – emits a pulsing crimson light.",
+      "Item: Golden Hexagonal Forcefield – translucent, shimmering, with embedded glyphs.",
+      "Item: Ge'ez Holographic Text – floating, translucent script.",
+      "Item: Black Mirror Floor – reflective, slightly warped surface.",
+      "Item: Ash Wasteland – grey ash covering ground, with black oily smoke hovering."
+    ],
+    "prompt_keywords": [
+      "ancient Ethiopian",
+      "Egyptian",
+      "golden hexagonal forcefield",
+      "obsidian tablet",
+      "red glow",
+      "black mirror floor",
+      "ash wasteland",
+      "photorealistic",
+      "industrial mysticism"
+    ],
+    "prompt_block": "Photorealistic rendering of a sun‑baked plateau above a vast desert, jagged basalt spires, monolithic stone walls etched with Ge'ez glyphs, translucent golden hexagonal forcefield hovering, holographic Ge'ez text floating, scattered obsidian tablets glowing with data, cinematic lighting, 8k resolution, ancient Ethiopian and Egyptian industrial mysticism, grounded realism, tactile textures, no generic sci‑fi elements",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "Pristine plateau with golden hexagonal forcefield",
+        "prompt_keywords": [
+          "golden forcefield",
+          "obsidian tablet",
+          "Ge'ez hologram"
+        ],
+        "prompt_block": "Photorealistic rendering of the plateau in Phase 1: sun‑baked basalt spires, monolithic stone walls with Ge'ez glyphs, translucent golden hexagonal forcefield hovering, holographic Ge'ez text, scattered obsidian tablets glowing, cinematic lighting, 8k resolution"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "Forcefield destabilizes, red glow emerges",
+        "prompt_keywords": [
+          "red glow",
+          "forcefield cracks",
+          "obsidian tablet"
+        ],
+        "prompt_block": "Photorealistic rendering of the plateau in Phase 2: golden hexagonal forcefield cracking, red glow emanating from obsidian tablets, holographic Ge'ez text flickering, cinematic lighting, 8k resolution"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "Collapse into ash and black smoke",
+        "prompt_keywords": [
+          "ash wasteland",
+          "black smoke",
+          "collapse"
+        ],
+        "prompt_block": "Photorealistic rendering of the plateau in Phase 3: collapsed basalt spires, ash‑covered ground, black oily smoke hovering, remnants of golden forcefield, Ge'ez hologram fading, cinematic lighting, 8k resolution"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_ABOVE",
+    "name": "above",
+    "type": "set_environment",
+    "aliases": [
+      "above"
+    ],
+    "roles": [
+      "location"
+    ],
+    "visual_traits": [
+      "unknown"
+    ],
+    "changes": [
+      "unknown"
+    ],
+    "notes": [],
+    "sources": [
+      "row_569"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 72,
+        "chapter_end": 71,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 72,
+        "chapter_end": 71,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 72,
+        "chapter_end": 72,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "unknown"
+        ]
+      }
+    ]
+  }
+}

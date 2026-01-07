@@ -1,0 +1,10 @@
+## [STATE] Natural Elements Chant :: Default
+**State ID:** default
+**Chapters:** 106 - 106
+
+**Phase Summary:** Dormant monolith awaiting activation
+**Phase Keywords:** stone, crystal, glyph, bioluminescent, earth, ancient, industrial, Ethiopian, Egyptian
+**Phase Prompt:**
+A towering basalt monolith, 12 meters high, carved with Ethiopian and Egyptian motifs, its surface etched with hieroglyphic spirals and Ge'ez script. Embedded within is a lattice of translucent crystalline conduits that pulse with bioluminescent green light, forming glowing glyphs that act as sensors. A central crystalline core refracts light into green and amber, channeling the elemental power of Earth during a Natural Elements Chant. The scene is grounded realism, industrial mysticism, photorealistic, tactile, with realistic stone weathering, subtle dust, and a low, diffused ambient light.
+
+---

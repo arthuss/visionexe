@@ -1,0 +1,10 @@
+## [STATE] Creation :: Default
+**State ID:** default
+**Chapters:** 106 - 106
+
+**Phase Summary:** Primordial sky and earth scene with crystalline lattice, glyphs, basalt armor, and bio‑luminescent flora.
+**Phase Keywords:** ancient-tech, industrial-mysticism, photorealistic, Ethiopian, Egyptian, sky, earth, creation, glyphs, crystalline, bio-luminescence
+**Phase Prompt:**
+A cinematic, photorealistic depiction of the primordial creation of sky and earth, rendered with ancient Ethiopian and Egyptian motifs fused with incomprehensible industrial technology. The sky is a vast iridescent dome studded with luminous glyphs and crystalline latticework, refracting warm golden light into a spectrum of colors. The earth emerges as a rugged basalt sphere, its surface etched with bio‑luminescent flora and towering obsidian obelisks of quartz, all bathed in tactile textures of stone, metal, and living matter.
+
+---

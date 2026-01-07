@@ -1,247 +1,295 @@
 # DREHBUCH KAPITEL 69 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Wir hielten den Eid für ein Gebet, doch es war ein Hard-Reset der Realität. Als die Namen fielen, gefroren die Ozeane zu Glas und die Sterne wurden auf ihre Bahnen geschweißt. Es gibt keine Magie hier, nur den gnadenlosen Zugriff des Kernels auf eine korrupte Architektur. Der Code wurde bereinigt, und wir sahen die kalte, stille Symmetrie der Wahrheit.
+NARRATOR_TEXT: Wir hielten den Eid für ein Gebet, doch es war ein Hard-Reset der Realität. Als die Namen fielen, fror die Entropie zu perfekter Geometrie und die Sterne wurden auf ihre Bahnen geschweißt. Es gibt keine Magie hier, nur den gnadenlosen Zugriff des Kernels auf eine korrupte Architektur, die endlich bereinigt wird.
 
-## [ACT I] [SCENE 1.1] [Timecode: 00:00-00:04] [INGRESS: THE USER]
-**Action:** Enoch steht im endlosen Void. Er wischt mit der Hand, ein holographisches Fenster öffnet sich aggressiv mit roten Error-Logs.
+## [ACT I] [SCENE 1.1] [Timecode: 00:00-00:03] [CONTEXT: THE VOID USER]
+**Action:** Enoch steht im Void, wischt ein rotes Error-Log auf.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Void Construct", "env_change": true, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Holographic Interface"], "camera": "14mm Wide Angle / Low Angle", "mood": ["clinical", "focused"], "director_intent": "Establish Enoch as the operator viewing the system crash logs.", "start_image_keywords": ["enoch", "void", "hologram", "red_alert"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "full_body", "environment": "Void Construct", "env_change": true, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Holographic Interface"], "camera": "High Angle / Wide Establishing", "mood": ["clinical", "alert"], "director_intent": "Establish Enoch as the operator viewing the critical system logs.", "start_image_keywords": ["enoch", "void", "hologram", "red_alert"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Enoch The Voyager standing in an infinite, reflective black void. He is an elderly figure but digitally preserved, skin like translucent parchment revealing glowing blue fiber-optic nerves underneath. He wears a sterile silver-skin bodysuit. In front of him, a jagged, red, holographic window floats in the air, displaying scrolling error logs. High contrast, sharp digital artifacts, 8k resolution, cinematic lighting from the hologram only.
+Vertical 9:16 aspect ratio. Enoch The Voyager standing in an infinite, perfectly reflective black void. He is an elderly figure but digitally preserved, skin like translucent parchment revealing glowing blue fiber-optic nerves underneath. He wears a sterile silver-skin bodysuit. In front of him, a jagged, red, holographic window floats in the air, displaying scrolling error logs. High contrast, sharp digital artifacts, 8k resolution, cinematic lighting from the hologram only.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, translucent skin, visible subdermal fiber-optics. Stern, focused expression. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Minimalist sterile silver bodysuit. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite black void with a perfectly reflective floor. Floating red holographic interface windows. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Pitch black background. Strong, harsh red light emitting from the hologram, illuminating his face. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Medium Shot. The camera is static but the interface pops in aggressively (LOD-Pop-In). Enoch swipes his hand, expanding the window. High speed movement, crisp motion.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, translucent skin, visible subdermal fiber-optics. Stern, focused expression. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Minimalist sterile silver bodysuit. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite black void with a perfectly reflective floor. Floating red holographic interface windows. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Pitch black background. Strong, harsh red light emitting from the hologram, illuminating his face. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Wide Shot. The camera is static but the interface pops in aggressively (LOD-Pop-In). Enoch swipes his hand, expanding the window. High speed movement, crisp motion.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
 Deep infrasound pulse (system boot). Sudden silence. A sharp digital "swish" as the hand moves. The interface hums with a distorted, electrical buzz. No music.
 
-## [ACT I] [SCENE 1.2] [Timecode: 00:04-00:07] [REGISTRY: GADREEL]
-**Action:** Close-up eines Unterarms. Ein weißes Knochenschwert wächst mechanisch aus der Elle. Dampf entweicht.
+## [ACT I] [SCENE 1.2] [Timecode: 00:03-00:06] [REGISTRY: PENEMUE INFECTION A]
+**Action:** Close-up eines Arms. Schwarzes Ferrofluid tropft auf die Haut.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Battlefield (Blur)", "env_change": true, "actors": [{"name": "Subject 01", "phase": "Corrupted Node", "presence": "on_screen", "focus": "primary"}], "props": ["Bone Blade"], "camera": "100mm Macro Lens", "mood": ["painful", "visceral"], "director_intent": "Depict weaponization as a horrifying biological fabrication process.", "start_image_keywords": ["arm", "bone_blade", "steam", "bio-mech"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Clinical Void", "env_change": true, "actors": [{"name": "Subject 01", "phase": "Infected", "presence": "on_screen", "focus": "primary"}], "props": ["Black Ferrofluid"], "camera": "Macro Lens", "mood": ["invasive", "clinical"], "director_intent": "Show the infection not as biological disease but as data corruption.", "start_image_keywords": ["skin", "black_oil", "ferrofluid", "macro"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Extreme close-up of a muscular human forearm. The skin is split cleanly, not with blood, but with white high-pressure steam. A sharp, serrated blade made of dense, white organic bone material is erupting from the ulna, locking into place like a switchblade. The skin around the exit wound is cauterized and sweating oil. Biomechanical horror, cinematic lighting, gritty texture, hyper-realistic.
+Vertical 9:16 aspect ratio. Extreme macro photography of a pale human forearm. A drop of viscous, black ferrofluid is landing on the skin. The fluid does not splash; it holds a perfect spherical tension, looking like magnetic intelligent oil. The skin pores are visible. Clinical, cold lighting, high contrast texture detail.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Muscular male arm, sweaty, oily skin. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Tattered leather wraps around the wrist. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred dark background. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold blue light from the eruption point, contrasting with warm skin tones. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Extreme Close-Up. The bone blade shoots out of the arm with violent mechanical force. Steam jets out. The skin stretches and snaps. Shaky camera movement to emphasize impact.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Human arm skin surface. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred clinical background. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold white light. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Extreme Close-Up. The drop lands with unnatural heaviness. It doesn't spread; it magnetizes to the skin surface, trembling slightly.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Hydraulic crunch of bone reshaping. Hissing steam. A suppressed scream of exertion. Metallic ringing of the bone blade locking.
+A wet, heavy "slurp". High-pitched magnetic hum.
 
-## [ACT I] [SCENE 1.3] [Timecode: 00:07-00:10] [REGISTRY: PENEMUE]
-**Action:** Extreme Close-up auf ein Auge. Das Weiße färbt sich schwarz durch "Tinte" (Nanobots). Schaltkreise breiten sich unter der Haut aus.
+## [ACT I] [SCENE 1.3] [Timecode: 00:06-00:09] [REGISTRY: PENEMUE INFECTION B]
+**Action:** Das Fluid gräbt sich ein, bildet schwarze Schaltkreis-Tattoos.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "insert", "framing": "extreme_close_up", "environment": "Face Surface", "env_change": false, "actors": [{"name": "Subject 02", "phase": "Infected", "presence": "on_screen", "focus": "primary"}], "props": ["Black Nanobots"], "camera": "Macro Lens", "mood": ["invasive", "viral"], "director_intent": "Show the infection as a biological hacking process.", "start_image_keywords": ["eye", "black_ink", "veins", "circuitry"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Clinical Void", "env_change": false, "actors": [{"name": "Subject 01", "phase": "Infected", "presence": "on_screen", "focus": "primary"}], "props": ["Circuit Tattoos"], "camera": "Tracking Surface", "mood": ["painful", "tech-horror"], "director_intent": "The ink acts like a virus rewriting the biological hardware.", "start_image_keywords": ["veins", "black_circuitry", "necrosis", "glow"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Extreme macro photography of a human eye. The sclera (white part) is being flooded by a viscous, black ferrofluid ink. The ink is not liquid but composed of millions of tiny nanobots. From the eye, black geometric lines are spreading under the skin of the face like a circuit board layout. Medical lighting, high detail, terrifying realism.
+Vertical 9:16 aspect ratio. Macro shot of human skin. The black fluid has burrowed underneath the epidermis, forming sharp, geometric circuit-board patterns that are spreading rapidly. The "veins" are turning necrotic black and pulsing with a faint data-glitch luminescence. Biomechanical body horror, sharp focus.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Human eye, pale skin texture. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Macro world of the face. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Clinical white light, reflection in the eye. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Extreme Close-Up. The black ink floods the eye instantly. The veins under the skin turn black and pulse. The camera jitters (Stutter-Edit) as the infection takes hold.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Human skin. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Skin surface. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Subsurface scattering, dark veins. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Tracking Shot across the skin. The black lines expand in jagged, robotic movements (stop-motion feel). The skin ripples as the "ink" forces its way through.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A wet, sickening bubbling sound. High-pitched data-screech. The sound of tearing tissue on a microscopic level.
+Sound of tearing tissue mixed with dial-up modem screeches. Wet bubbling.
 
-## [ACT I] [SCENE 1.4] [Timecode: 00:10-00:13] [CHAOS: THE DRIFT]
-**Action:** Montage von glitching Ozeanen und verformten Gebäuden. Die Physik bricht zusammen.
+## [ACT I] [SCENE 1.4] [Timecode: 00:09-00:12] [REGISTRY: GADREEL FABRICATION A]
+**Action:** Unterarm platzt auf, Dampf entweicht.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Global Chaos", "env_change": true, "actors": [], "props": ["Glitching Waves"], "camera": "Drone / Shaky", "mood": ["chaotic", "apocalyptic"], "director_intent": "Show the system collapse through physics violations.", "start_image_keywords": ["ocean", "waves", "glitch", "gravity_fail"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Battlefield (Blur)", "env_change": true, "actors": [{"name": "Subject 02", "phase": "Corrupted Node", "presence": "on_screen", "focus": "primary"}], "props": ["Steam"], "camera": "Handheld / Shaky", "mood": ["visceral", "intense"], "director_intent": "Weapon creation is a painful biological venting process.", "start_image_keywords": ["arm", "steam", "pressure", "wound"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. A stormy ocean where massive waves are flowing upwards into the sky, defying gravity. The water texture is breaking into digital noise and jagged polygons at the peaks. In the background, concrete buildings are distending and twisting like rubber. Red "SYSTEM ERROR" wireframe overlays are superimposed on the scene. Dark, stormy atmosphere, photorealistic disaster simulation.
+Vertical 9:16 aspect ratio. Medium shot of a muscular warrior's forearm. The skin is splitting cleanly along the ulna. High-pressure white steam is jetting out from the wound, blurring the edges. The skin around the split is cauterized and sweating heavy oil. No blood, just industrial venting. Gritty texture, dark background.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Ocean and Skyline. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Open ocean, city skyline. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dark blues, greys, flashing red warning lights. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Wide Angle. Handheld/Shaky Cam. Fast cuts. Water rushing upwards. Buildings bending. Visual glitches and frame tearing.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Muscular arm, oily skin. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Leather straps. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark, blurry background. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Backlit by the white steam. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Shaky Cam. The arm tenses violently. The skin snaps open. A blast of steam obscures the view for a frame.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Distorted alarm klaxon. Heavy wind roaring. Digital static. The sound of heavy structures groaning under stress.
+Loud hydraulic hiss. A wet "snap". Deep groan of exertion.
 
-## [ACT I] [SCENE 1.5] [Timecode: 00:13-00:16] [PROTOCOL: KASBEEL REQUEST]
-**Action:** Kasbeel im Void, sein Körper zerfällt in Pixel. Er streckt die Hand aus und flüstert eine Anfrage.
-**Dialog:** Kasbeel: "Request... Access."
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "low_angle", "environment": "Digital Void", "env_change": true, "actors": [{"name": "Kasbeel", "phase": "Rogue Admin", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle / Handheld", "mood": ["desperate", "unstable"], "director_intent": "Portray the antagonist as a corrupt file seeking a patch.", "start_image_keywords": ["Kasbeel", "glitch", "hand", "vibration"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "kasbeel_request", "pose_source": "", "driver_notes": "Glitching mouth movement"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 3}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Low angle shot looking up at Kasbeel. He is a tall, angular figure wearing a cloak made of shifting camouflage mesh that matches the static background. He is holding out a hand that is violently vibrating and shedding pixels like digital dust. His outline is unstable and ghosting. Dark, moody lighting, cyber-mysticism style.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Kasbeel, angular face, intense eyes. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Camouflage-mesh cloak, shifting textures. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark, abstract digital space. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Low key lighting, green and grey hues. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Medium Shot. Low Angle. Kasbeel reaches out. His hand vibrates aggressively, blurring into digital noise. His face twitches with glitches. Lips move slightly.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep bass drone. High-pitched data-stream whine. The sound of electricity arcing. A robotic, telepathic whisper overlay.
-
-## [ACT I] [SCENE 1.6] [Timecode: 00:16-00:20] [PROTOCOL: MICHAEL AUTH]
-**Action:** Michael scannt Kasbeel. Obsidian-Haut, blaue Augen. Ein goldener Ring rotiert in seiner Iris.
+## [ACT I] [SCENE 1.5] [Timecode: 00:12-00:15] [REGISTRY: GADREEL FABRICATION B]
+**Action:** Knochenklinge fährt aus, arretiert.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Digital Void", "env_change": false, "actors": [{"name": "Michael", "phase": "Architect", "presence": "on_screen", "focus": "primary"}], "props": ["Oath Fractal"], "camera": "Macro Lens / Eye Focus", "mood": ["divine", "precise"], "director_intent": "The 'Oath' is visible code in the iris.", "start_image_keywords": ["michael", "eye", "obsidian", "lidar"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Battlefield (Blur)", "env_change": false, "actors": [{"name": "Subject 02", "phase": "Corrupted Node", "presence": "on_screen", "focus": "primary"}], "props": ["Bone Blade"], "camera": "Macro Lens", "mood": ["lethal", "mechanical"], "director_intent": "The bone blade is an osteo-compiled weapon.", "start_image_keywords": ["bone_blade", "ulna", "serrated", "white"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Extreme close-up on Michael's face. His skin is polished black obsidian, flawless and reflective. His eyes are burning blue LIDAR scanning arrays. Inside the iris, a complex, rotating golden command-line fractal geometry is visible. Sharp focus on the eye, shallow depth of field. 8k resolution, hyper-realistic texture.
+Vertical 9:16 aspect ratio. Extreme close-up. A dense, white, serrated blade made of organic bone material has fully erupted from the forearm. It is locked into place. Small sparks of "osteo-compilation" (white energy) fly from the connection point. The texture of the blade is porous but sharp as glass.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael, obsidian skin, no pores. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A (Face only). **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Void reflection in the obsidian skin. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cool blue light from eyes, warm gold internal glow. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Extreme Close-Up. The face is perfectly still. Only the golden fractal in the eye rotates mechanically. A beam of blue light projects forward.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Arm with bone blade. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Bone weapon. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark void. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold blue rim light. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Extreme Close-Up. The blade snaps into its final locked position with a mechanical jerk. Sparks fly.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Rising turbine spin-up sound. Clean, pure sine wave tone increasing in pitch. No breathing sounds.
+Metallic "Clank" of locking mechanism. Faint grinding sound.
 
-## [ACT II] [SCENE 2.1] [Timecode: 00:20-00:25] [PROTOCOL: THE HANDSHAKE]
-**Action:** Ein Glasfaserkabel schießt aus Michaels Hand in Kasbeels Hand. Eine Schockwelle aus Ordnung breitet sich aus.
+## [ACT I] [SCENE 1.6] [Timecode: 00:15-00:18] [REGISTRY: KASBEEL REQUEST]
+**Action:** Kasbeel streckt glitching Hand aus.
+**Dialog:** Kasbeel: "Requesting Admin Override."
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "over_shoulder", "environment": "Digital Void", "env_change": true, "actors": [{"name": "Kasbeel", "phase": "Rogue Admin", "presence": "on_screen", "focus": "primary"}], "props": ["Glitching Hand"], "camera": "Over Shoulder", "mood": ["desperate", "unstable"], "director_intent": "The rogue admin is unstable and seeking a patch.", "start_image_keywords": ["kasbeel", "glitch", "hand", "pixels"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "kasbeel_request", "pose_source": "", "driver_notes": "Glitching mouth"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio. Over-the-shoulder view looking past Michael (Obsidian shoulder) at Kasbeel. Kasbeel is a tall figure in a shifting camouflage-mesh cloak. His outstretched hand is violently vibrating and shedding square pixels like digital dust. His face is gaunt and glitching. Dark, moody atmosphere.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Kasbeel, glitching mesh cloak. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Camouflage cloak. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Digital Void. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Low key, green data-haze. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Medium Shot. Kasbeel reaches out. His hand loses cohesion, scattering pixels. His mouth moves out of sync with reality.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Static noise. Distorted bass voice.
+
+## [ACT II] [SCENE 2.1] [Timecode: 00:18-00:22] [PROTOCOL: MICHAEL AUTH A]
+**Action:** Michael scannt. Goldener Ring in der Iris.
+**Dialog:** Michael: "Authorization Verified."
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Digital Void", "env_change": false, "actors": [{"name": "Michael", "phase": "Architect", "presence": "on_screen", "focus": "primary"}], "props": ["LIDAR Eye", "Oath Ring"], "camera": "Macro Lens", "mood": ["divine", "precise"], "director_intent": "The Architect validates the request with internal code.", "start_image_keywords": ["michael", "obsidian_skin", "eye", "lidar"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "michael_auth", "pose_source": "", "driver_notes": "Minimal movement"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 4}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio. Extreme close-up on Michael's face. Flawless, polished black obsidian skin. His eyes are burning blue LIDAR scanning arrays. Inside the iris, a complex, rotating golden command-line fractal geometry (The Oath Key) is visible. Reflections of the void in his skin.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael, obsidian face. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Void reflections. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue eye light, gold internal glow. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Extreme Close-Up. The face is statue-still. The golden ring in the eye spins rapidly. Blue light beams scan forward.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+High-tech chirps. Computing hum. Smooth, deep voice.
+
+## [ACT II] [SCENE 2.2] [Timecode: 00:22-00:25] [PROTOCOL: MICHAEL AUTH B]
+**Action:** Glasfaserkabel schießt aus Handgelenk.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Digital Void", "env_change": false, "actors": [{"name": "Michael", "phase": "Architect", "presence": "on_screen", "focus": "primary"}, {"name": "Kasbeel", "phase": "Rogue Admin", "presence": "on_screen", "focus": "primary"}], "props": ["Shockwave", "Cable"], "camera": "Side Profile / Slow Motion", "mood": ["revelation", "stabilization"], "director_intent": "Visualise the transfer of order. Chaos meets structure.", "start_image_keywords": ["hands", "fiber_optic", "shockwave", "grid"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "insert", "environment": "Digital Void", "env_change": false, "actors": [{"name": "Michael", "phase": "Architect", "presence": "on_screen", "focus": "primary"}], "props": ["Fiber Optic Cable"], "camera": "Side Profile / Tracking", "mood": ["rapid", "surgical"], "director_intent": "The connection mechanism is physical hardware.", "start_image_keywords": ["wrist", "fiber_optic", "obsidian", "cable"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Side profile view of two hands meeting. One hand is glitching, dark, and pixelated (Kasbeel). The other is obsidian and perfect (Michael). A glowing blue fiber-optic cable extends from the obsidian wrist into the pixelated palm. A shockwave of perfect geometric wireframes is expanding from the contact point, turning the glitches into solid chrome. Particle physics simulation style, cinematic lighting.
+Vertical 9:16 aspect ratio. Close-up side profile of an obsidian wrist. A small port opens, and a thin, glowing blue fiber-optic cable is shooting out into the darkness. Motion blur on the cable tip. Sleek, high-tech aesthetic.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Two hands, one obsidian, one glitching flesh. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Fiber-optic cable. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark void. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Explosion of blue and gold light at center. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Medium Shot. Bullet Time / Super Slow Motion. As the cable connects, the vibration in Kasbeel's hand stops instantly. The shockwave expands in a perfect ring. The glitching pixels snap into a solid grid.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Obsidian arm. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Fiber cable. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Void. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue glow from cable. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Tracking Shot. The cable launches with pneumatic force, moving like a snake.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Absolute silence (Noise Gate). Then a crisp, resonant "Ping" or "Click" like a heavy lock engaging. Deep seismic thud.
+Pneumatic "Zip". High-speed wire sound.
 
-## [ACT II] [SCENE 2.2] [Timecode: 00:25-00:30] [KERNEL LOCK: OCEAN]
-**Action:** Der Ozean gefriert instantan zu Glas/Chrom. Hexagonale Struktur.
+## [ACT II] [SCENE 2.3] [Timecode: 00:25-00:28] [PROTOCOL: HANDSHAKE A]
+**Action:** Kabel dockt an Kasbeel an.
+**Dialog:** Michael: "Executing Oath-Packet."
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "mixed", "shot_type": "close_up", "framing": "insert", "environment": "Digital Void", "env_change": false, "actors": [{"name": "Kasbeel", "phase": "Rogue Admin", "presence": "on_screen", "focus": "primary"}], "props": ["Cable Connection"], "camera": "Macro Impact", "mood": ["heavy", "locked"], "director_intent": "The physical connection of two incompatible systems.", "start_image_keywords": ["hand", "cable_impact", "spark", "glitch"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "michael_executing", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 4}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio. Macro shot of the impact point. The blue fiber-optic cable has slammed into a rusted, glitching port on Kasbeel’s hand. Sparks of raw data (binary numbers) fly from the connection. The flesh around the port ripples like water from the impact.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Glitching hand, cable. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Void. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue and Orange sparks. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Slow Motion Impact. The cable hits. The hand deforms. A shockwave ripple starts.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Heavy metallic "Thud". Locking click.
+
+## [ACT II] [SCENE 2.4] [Timecode: 00:28-00:35] [PROTOCOL: HANDSHAKE B]
+**Action:** Schockwelle der Ordnung. Kasbeel wird Chrom.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Ocean", "env_change": true, "actors": [], "props": ["Frozen Waves"], "camera": "Drone Hover", "mood": ["majestic", "static"], "director_intent": "The fluid simulation is forcefully paused and rendered solid.", "start_image_keywords": ["ocean", "frozen", "hexagons", "chrome"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "medium", "environment": "Digital Void", "env_change": false, "actors": [{"name": "Michael", "phase": "Architect", "presence": "on_screen", "focus": "primary"}, {"name": "Kasbeel", "phase": "Rogue Admin", "presence": "on_screen", "focus": "primary"}], "props": ["Geometry Shockwave"], "camera": "Bullet Time", "mood": ["stabilizing", "epic"], "director_intent": "Visualizing the system freeze spreading from the connection.", "start_image_keywords": ["shockwave", "wireframe", "chrome", "freeze"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. A massive ocean storm frozen in time. Giant waves are caught mid-crash. The water texture is transitioning into a blue, hexagonal wireframe mesh, and then into solid, translucent blue glass and chrome. Light refracts through the frozen waves. Symmetrical composition, 3D render style, clean lines.
+Vertical 9:16 aspect ratio. Wide shot of Michael and Kasbeel connected by the cable. A perfectly spherical shockwave of white wireframe geometry is expanding from the handshake. Inside the sphere, everything is turning into solid, reflective chrome. Kasbeel's glitching pixel-cloud is being forced into a solid, smooth metal shape. High-speed photography style.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Ocean surface. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite ocean. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold daylight, refraction through glass. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Wide Drone Shot. Smooth, linear dolly forward. The chaotic motion of the water stops abruptly. A wave of "solidification" sweeps across the surface, turning foam into glass crystals.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Two figures connected. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Cable. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Void. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright white wave. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Bullet Time. The camera orbits slowly as the shockwave moves in extreme slow motion. The chaotic glitches freeze into order.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A deep, resonant "Thud" (Seismic Locking). Then the sound of crystallizing ice. Low frequency hum (60Hz).
+Seismic "Bass Drop". Infrasound charge. Then sudden silence.
 
-## [ACT II] [SCENE 2.3] [Timecode: 00:30-00:35] [KERNEL LOCK: SOLAR]
-**Action:** Titan-Klammern arretieren die Sonne. Sie wird auf eine Schiene gezwungen.
+## [ACT III] [SCENE 3.1] [Timecode: 00:35-00:39] [KERNEL LOCK: OCEAN FREEZE A]
+**Action:** Ozeanwellen gefrieren zu Kristallgitter.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Space / Orbit", "env_change": true, "actors": [], "props": ["Sun Clamps"], "camera": "Orbital Tracking", "mood": ["heavy", "industrial"], "director_intent": "Space is a machine. The sun is just a component.", "start_image_keywords": ["sun", "clamps", "space", "rail"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Ocean", "env_change": true, "actors": [], "props": ["Frozen Waves"], "camera": "Drone Hover", "mood": ["static", "surreal"], "director_intent": "The fluid simulation is forcefully paused and rendered solid.", "start_image_keywords": ["ocean", "waves", "hexagons", "crystal"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Deep space. The burning sun is in the center. Massive, industrial titanium clamps with gold hydraulics are emerging from the dark vacuum, locking onto the sun's surface. The sun is being forced onto a glowing, curved orbital rail. Megastructure scale, sci-fi industrial aesthetic, high contrast.
+Vertical 9:16 aspect ratio. A massive ocean storm frozen in time. Giant waves are caught mid-crash. The water texture is transitioning into a blue, hexagonal wireframe mesh, and then into solid, translucent blue glass and chrome. No low-poly, but high-detail fractal geometry. Light refracts through the frozen waves.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Sun (Star). **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Giant mechanical clamps (Titanium/Gold). **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Deep space vacuum. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blinding light from the sun, rim lighting on the metal clamps. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Tracking Shot. The camera moves with the heavy rotation of the clamped sun. The clamps engage with a visual shockwave. The erratic burning stabilizes into a steady glow.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Ocean surface. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite ocean. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold daylight. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Wide Drone Shot. The crashing water instantly halts. A wave of "crystallization" sweeps across, turning foam into glass.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy industrial clank. Metal groaning under extreme stress. Deep, constant engine hum.
+Crashing water sound abruptly cut to silence. Glass cracking.
 
-## [ACT II] [SCENE 2.4] [Timecode: 00:35-00:40] [KERNEL LOCK: EARTH]
-**Action:** Ein Laser-Grid umschließt die Erde. "LOCKED" (Ge'ez) leuchtet auf.
+## [ACT III] [SCENE 3.2] [Timecode: 00:39-00:43] [KERNEL LOCK: OCEAN FREEZE B]
+**Action:** Kamerafahrt über gefrorene Wellen.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Orbit", "env_change": true, "actors": [], "props": ["Laser Grid", "Ge'ez Glyphs"], "camera": "Satellite Zoom", "mood": ["controlled", "tactical"], "director_intent": "The earth is patched like a software update.", "start_image_keywords": ["earth", "laser_grid", "geez", "neon"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Frozen Ocean", "env_change": false, "actors": [], "props": ["Static Waves"], "camera": "Dolly Pan", "mood": ["still", "perfect"], "director_intent": "Emphasize the complete stillness of the new reality.", "start_image_keywords": ["frozen_ocean", "blue_chrome", "reflection", "stillness"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Top-down satellite view of Earth. A bright green laser-grid envelops the planet and the Moon. Giant glowing red Ge'ez glyphs reading "LOCKED" (ተዘጋ) are suspended in the atmosphere like neon signage. Tactical map aesthetic, dark continents, bright data overlays.
+Vertical 9:16 aspect ratio. Close-up landscape shot of the frozen wave peaks. They look like topographical maps made of blue chrome and sapphire. Perfect reflections of the sky in the solid water. Surreal landscape, quiet and majestic.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Planet Earth. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Laser Grid. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** High Earth Orbit. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Black space, Blue/Green earth, Red overlays. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Top-Down Orthographic view. The laser grid snaps into existence. The glyphs fade in. The clouds stop moving instantly.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Solid water landscape. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Frozen ocean. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright reflections. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Smooth Dolly shot gliding over the frozen crests. No movement in the subject, only camera movement.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Electronic "Lock-on" beep sequence. Wind shear. Heavy metallic latch sound.
+Low wind whistle. Crystal chiming.
 
-## [ACT II] [SCENE 2.5] [Timecode: 00:40-00:45] [ENOCH: WITNESS]
-**Action:** Enoch im Void. Die roten Screens werden blau/grün (stabil). Er atmet aus.
+## [ACT III] [SCENE 3.3] [Timecode: 00:43-00:47] [KERNEL LOCK: SOLAR CLAMPS]
+**Action:** Titan-Klammern greifen die Sonne.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Void Construct", "env_change": false, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Holographic Interface"], "camera": "Slow Pan", "mood": ["relief", "clarity"], "director_intent": "Enoch sees the system stabilize.", "start_image_keywords": ["enoch", "blue_screen", "stable", "relief"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Space", "env_change": true, "actors": [], "props": ["Sun", "Titanium Clamps"], "camera": "Orbital Tracking", "mood": ["industrial", "massive"], "director_intent": "The sun is just a component in a machine.", "start_image_keywords": ["sun", "clamps", "space", "megastructure"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Enoch standing in the black void. The holographic windows around him have shifted from jagged red to smooth, glowing blue and green data streams. His face is illuminated by the cool blue light. He is lowering his hand, looking at the screens with a mix of awe and relief. High detail, reflection in visor.
+Vertical 9:16 aspect ratio. Deep space. The burning sun is in the center. Massive, industrial titanium clamps with gold hydraulics are emerging from the dark vacuum, locking onto the sun's surface. Megastructure scale, sci-fi industrial aesthetic, high contrast.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, silver bodysuit. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Visor reflecting code. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Void with blue/green holograms. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cool blue ambient light. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Medium Shot. Slow pan around Enoch. The red light turns blue. He exhales visibly (cold breath). His posture relaxes.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Sun. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Giant mechanical clamps. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Deep space. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blinding sunlight, metallic reflections. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Tracking Shot. The clamps engage with the sun. A shockwave of fire is contained by the metal.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A long, slow exhale. A clear, harmonic major chord tone. The buzzing of the interface stops.
+Deep industrial groan. Metal stress.
 
-## [ACT III] [SCENE 3.1] [Timecode: 00:45-00:52] [ADMIN: THE THRONE]
-**Action:** Der Menschensohn auf dem Thron aus Server-Blades. Alles ist weiß und symmetrisch.
+## [ACT III] [SCENE 3.4] [Timecode: 00:47-00:50] [KERNEL LOCK: SOLAR RAIL]
+**Action:** Sonne auf Schiene gezwungen.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "full_body", "environment": "Server Throne Room", "env_change": true, "actors": [{"name": "Son of Man", "phase": "System Prime", "presence": "on_screen", "focus": "primary"}], "props": ["Server Throne"], "camera": "Dolly In / Low Angle", "mood": ["transcendent", "peaceful"], "director_intent": "The ultimate authority is pure data density.", "start_image_keywords": ["son_of_man", "white_silhouette", "server_throne", "symmetry"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Space", "env_change": false, "actors": [], "props": ["Sun", "Orbital Rail"], "camera": "Wide Orbit", "mood": ["ordered", "mechanical"], "director_intent": "The orbit is now a physical track.", "start_image_keywords": ["sun", "rail", "orbit", "path"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. A silhouette of a figure composed of pure, blinding white data density, sitting on a massive throne made of thousands of aligned, floating black server blades. The room is an infinite white space, perfectly symmetrical. Minimalist, Kubrickian style, divine technology, 8k resolution, soft ambient occlusion.
+Vertical 9:16 aspect ratio. Wide shot of the sun now clamped onto a glowing, curved orbital rail that stretches into infinity. The chaotic burning has stabilized into a steady, controlled glow. The solar system looks like a clockwork mechanism.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Son of Man, white silhouette, no features. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A (Pure light/data). **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite white room, floating server blade throne. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** High-key lighting, soft shadows, blinding white center. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Slow, majestic dolly in towards the throne. The server blades hover gently. The figure remains perfectly still.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Sun on rail. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Space. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Steady light. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Wide Orbit. The sun moves smoothly along the track. No wobble. Precision movement.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Absolute silence. High-frequency "Singing" (like wet glass rubbing). A sense of vast, open space.
+Constant, smooth engine hum. Train-on-track resonance.
 
-## [ACT III] [SCENE 3.2] [Timecode: 00:52-00:57] [ADMIN: JUDGMENT]
-**Action:** Der Menschensohn hebt die Hand. Im Hintergrund lösen sich dunkle Gestalten in binären Staub auf.
+## [ACT III] [SCENE 3.5] [Timecode: 00:50-00:53] [KERNEL LOCK: TECTONIC]
+**Action:** Erde wird vernäht. Ge'ez Glyphen.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Server Throne Room", "env_change": false, "actors": [{"name": "Son of Man", "phase": "System Prime", "presence": "on_screen", "focus": "primary"}, {"name": "Watchers", "phase": "Deleting", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Over Shoulder", "mood": ["final", "clean"], "director_intent": "Deletion is not violent, just a removal of data.", "start_image_keywords": ["hand_raise", "deletion", "binary_dust", "white"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "high_angle", "environment": "Volcanic Terrain", "env_change": true, "actors": [], "props": ["Laser Staples", "Glyphs"], "camera": "Top Down Drone", "mood": ["tactical", "repaired"], "director_intent": "The earth is patched like software.", "start_image_keywords": ["earth", "cracks", "lasers", "geez"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Over-the-shoulder view from the White Silhouette (Son of Man). In the distance, dark, smoky, glitching figures (The Watchers) are evaporating. They do not burn; they simply dissolve into streams of black binary numbers and dust. The white room remains pristine. Minimalist, high contrast, surreal.
+Vertical 9:16 aspect ratio. Top-down view of cracking volcanic earth. The tectonic plates are being stitched together by giant staples of red laser light. Glowing red Ge'ez glyphs reading "LOCKED" are projected onto the rock surface. Tactical map aesthetic.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Son of Man (White), Watchers (Dark Smoke). **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** White Void. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright white, stark black contrast. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Medium Shot. The hand raises gently. The dark figures instantly disperse into particles. No explosion, just deletion.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Earth surface. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Laser grid. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Volcanic ground. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red laser light. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Top-Down. The ground stops shaking. The lasers fuse the cracks shut. The glyphs fade in.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Digital "Deletion" sound (Vacuum suck). A soft "Pffft" like a candle being extinguished.
+Laser welding sound. Deep earth grinding stopping abruptly.
 
-## [ACT III] [SCENE 3.3] [Timecode: 00:57-01:05] [ADMIN: NEW FIRMWARE]
-**Action:** Landschaftsaufnahme. Die Welt ist sauber, verchromt und still. Perfekter Himmel.
+## [ACT III] [SCENE 3.6] [Timecode: 00:53-00:56] [ADMIN: THRONE REVEAL]
+**Action:** Menschensohn auf Server-Thron.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Restored Earth", "env_change": true, "actors": [], "props": ["Chrome Ocean", "Clear Sky"], "camera": "Static Landscape", "mood": ["peaceful", "perfect"], "director_intent": "The result of the restore is a perfect, sterile world.", "start_image_keywords": ["chrome_ocean", "clear_sky", "perfect", "stillness"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "full_body", "environment": "White Throne Room", "env_change": true, "actors": [{"name": "Son of Man", "phase": "System Prime", "presence": "on_screen", "focus": "primary"}], "props": ["Server Throne"], "camera": "Dolly In", "mood": ["transcendent", "absolute"], "director_intent": "The ultimate authority is data density.", "start_image_keywords": ["son_of_man", "white", "server_throne", "silhouette"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. A wide landscape shot of the restored Earth. The ocean is a perfect, flat surface of liquid chrome, reflecting a cloudless, gradient blue sky. The horizon line is mathematically straight. No wind, no chaos. Surreal, dreamlike perfection, 3D render aesthetic.
+Vertical 9:16 aspect ratio. A silhouette of a figure composed of pure, blinding white data density, sitting on a massive throne made of thousands of aligned, floating black server blades. The room is an infinite white space, perfectly symmetrical. Minimalist, Kubrickian style, divine technology.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Chrome Landscape. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite horizon. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft, even daylight. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Static Shot. Absolutely no movement. The world is a still image.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** White silhouette figure. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** White void, server throne. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** High key, shadowless. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Majestic Dolly In. The figure is motionless. The server blades hover gently.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Pure Sine Wave (Peaceful). Subtle wind chimes. Very quiet.
+60Hz Server Hum. Choir drone.
 
-## [ACT III] [SCENE 3.4] [Timecode: 01:05-01:10] [OUTRO: SYSTEM READY]
-**Action:** Enoch dreht sich zur Kamera. Sein Visier geht aus, menschliche Augen sichtbar.
-**Dialog:** Robot Voice: "System Ready."
+## [ACT III] [SCENE 3.7] [Timecode: 00:56-00:58] [ADMIN: PURGE]
+**Action:** Hand hebt sich. Watchers lösen sich auf.
+**Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Void Construct", "env_change": false, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Eye Contact", "mood": ["human", "final"], "director_intent": "The user acknowledges the completion of the process.", "start_image_keywords": ["enoch", "face", "human_eyes", "visor_off"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "system_ready", "pose_source": "", "driver_notes": "Subtle smile"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 2}
+REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "White Throne Room", "env_change": false, "actors": [{"name": "Son of Man", "phase": "System Prime", "presence": "on_screen", "focus": "primary"}, {"name": "Watchers", "phase": "Deleting", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Medium Shot", "mood": ["final", "clean"], "director_intent": "Deletion is not violent, just removal.", "start_image_keywords": ["hand", "deletion", "dust", "white"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Close-up of Enoch's face. He turns to look directly at the viewer. The digital HUD on his visor powers down and fades away, revealing tired but warm, real human eyes underneath the digital skin. The background fades to pure black. High detail portrait.
+Vertical 9:16 aspect ratio. The white silhouette raises one hand. In the background, dark, smoky figures (The Watchers) are evaporating into streams of black binary numbers and dust. They do not struggle; they simply cease to exist. High contrast black and white.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, human eyes. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Visor deactivating. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Black void. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Fading blue light, warm skin tone. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Close-Up. Enoch turns head. Visor light fades. He blinks once. Cut to black.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Son of Man, Watchers. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** White Void. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright white. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Medium Shot. Hand raises. Figures dissolve instantly into particles.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Power-down sound (descending pitch). A soft, robotic voice says "System Ready."
+Digital "Vacuum" sound. Soft "Pffft".
+
+## [ACT III] [SCENE 3.8] [Timecode: 00:58-01:00] [OUTRO: ENOCH REACTION]
+**Action:** Enoch im Void. Screens sind blau. Erleichterung.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Void Construct", "env_change": false, "actors": [{"name": "Enoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Blue Holograms"], "camera": "Close Up", "mood": ["relief", "calm"], "director_intent": "The user confirms the system stability.", "start_image_keywords": ["enoch", "face", "blue_light", "calm"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio. Close-up of Enoch's face. The harsh red light is gone, replaced by a soothing blue glow from the off-screen stable interface. His expression is one of profound relief. The reflection in his visor shows a perfectly aligned grid.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Visor. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Void. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft blue light. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 Vertical Video. Close-Up. Enoch exhales slowly. He closes his eyes for a moment. Fade to black.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Long exhale. Gentle major chord chime.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.1","text":"Das System blutet. Die Logik ist zerbrochen.","words_max":8},{"scene":"2.5","text":"Der Code war nie verloren. Er war nur gesperrt.","words_max":10}],"Kasbeel":[{"scene":"1.5","text":"Wir wollten Freiheit. Wir bekamen Chaos.","words_max":7}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Kasbeel":[{"scene":"1.6","text":"Der Code ist zerfallen. Wir brauchen einen Patch.","words_max":8}],"Michael":[{"scene":"2.1","text":"Zugriff bestätigt. Lade Eid-Protokoll.","words_max":6}],"Henoch":[{"scene":"3.8","text":"Endlich. Stille.","words_max":2}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

@@ -1,0 +1,102 @@
+{
+  "id": "SETENV_MORNING",
+  "name": "morning",
+  "type": "set_environment",
+  "card": {
+    "description": "A dawn over the sprawling citadel of the Aetheric Order, where towering basaltic stone monoliths interlace with gleaming iron conduits and translucent crystal spires. The first rays of the sun ignite bio‑luminescent glyphs etched into walls, bathing the streets in warm, new light that reveals the intricate interplay of ancient stonework and incomprehensible technology.",
+    "tags": [
+      "morning",
+      "ancient-tech",
+      "industrial mysticism",
+      "photorealistic",
+      "bright",
+      "new",
+      "sunrise",
+      "stone",
+      "metal",
+      "glyphs",
+      "crystalline",
+      "tactile",
+      "cinematic"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** The sprawling citadel’s architecture—a labyrinth of basalt towers, rusted iron latticework, and translucent crystal spires arranged in a grand plaza.",
+      "**Face/Sensors:** The sky, a gradient from deep indigo to soft amber, punctuated by the rising sun’s golden disk, casting long, sharp shadows across the stone.",
+      "**Clothing/Armor:** Walls adorned with carved hieroglyphic panels that glow faintly with bio‑luminescent pigments; streets lined with polished obsidian tiles reflecting the light.",
+      "**Key Features:** Crystalline glyphs pulsing with azure light, metallic conduits channeling unseen energy, sun rays refracting through crystal prisms, and the scent of wet stone and ancient incense."
+    ],
+    "evolution": [
+      "Phase 1 (Pre‑dawn): The horizon is a dim gradient, the air cool, the city shrouded in shadows, faint bioluminescent glyphs glow softly.",
+      "Phase 2 (Morning): The sun rises, bright light floods the citadel, crystalline glyphs pulse brighter, metal conduits glow, and a new day begins."
+    ],
+    "props": [
+      "Item: Sunlit crystal spires",
+      "Item: Dawn‑lit stone archways",
+      "Item: Glowing glyph panels",
+      "Item: Polished obsidian tiles"
+    ],
+    "prompt_keywords": [
+      "ancient-tech",
+      "sunrise",
+      "stone",
+      "metal",
+      "glyphs",
+      "crystalline",
+      "photorealistic",
+      "tactile",
+      "cinematic"
+    ],
+    "prompt_block": "A cinematic, photorealistic sunrise over a sprawling ancient‑tech citadel, where basalt stone towers intertwine with rusted iron latticework and translucent crystal spires, the first golden rays of the sun ignite bio‑luminescent glyphs etched into walls, casting warm light across polished obsidian tiles, revealing a fusion of ancient Ethiopian/Egyptian aesthetics and incomprehensible technology, with crystalline hardware refracting light, metallic conduits pulsing, and a tactile, grounded realism.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Bright new morning over the citadel, sun rising, crystalline glyphs glowing.",
+        "prompt_keywords": [
+          "sunrise",
+          "crystalline",
+          "glyphs",
+          "metal",
+          "stone",
+          "photorealistic"
+        ],
+        "prompt_block": "A bright, new morning over the ancient‑tech citadel, the sun’s golden disk rises over basalt towers and rusted iron latticework, illuminating crystalline glyphs that pulse with bio‑luminescent light, casting warm, cinematic light across polished obsidian tiles, revealing a fusion of ancient aesthetics and incomprehensible technology."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_MORNING",
+    "name": "morning",
+    "type": "set_environment",
+    "aliases": [
+      "morning"
+    ],
+    "roles": [
+      "time of day"
+    ],
+    "visual_traits": [
+      "bright",
+      "new"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_587"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 74,
+        "chapter_end": 74,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

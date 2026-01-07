@@ -1,16 +1,16 @@
 # DREHBUCH KAPITEL 85 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Ich sah einen Traum, der keiner war. Eine Systemprüfung, geschrieben in das Fundament der Welt, bevor das Fleisch atmen lernte. Es begann mit zwei weißen Säulen aus Licht und Keramik, makellos und kalt. Doch im Code lag ein Schatten, und der Schatten hungerte nach Eisen.
+NARRATOR_TEXT: Ich sah einen Traum, der keiner war, sondern eine Systemprüfung im Fundament der Welt. Bevor das Fleisch atmen lernte, schrieb der Code bereits Geschichte in Licht und Keramik. Doch im Kern lag ein Schatten, und der Schatten hungerte nach Eisen.
 
 ## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:04] [HARD_CONNECT]
-**Action:** Obsidian needles penetrate Enoch's neck. Gold sub-dermal light ignites veins. Eyes seal shut with white ceramic shutters.
+**Action:** Obsidian needles penetrate Enoch's neck. Gold sub-dermal light ignites veins.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
 REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Sinai_Hub", "env_change": false, "actors": [{"name": "Henoch", "phase": "Kap 71-108 (Master)", "presence": "on_screen", "focus": "primary"}], "props": ["Obsidian Needles", "Command Seat"], "camera": "Macro 100mm / static", "mood": ["clinical", "invasive"], "director_intent": "Show the physical violence of the data connection.", "start_image_keywords": ["needles", "neck", "skin", "macro"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme Macro vertical shot, 9:16 aspect ratio. The back of a pale, translucent human neck (Enoch). Two sleek, sharp obsidian black needles are mechanically pressing into the skin at the base of the skull. Under the skin, a web of glowing gold veins ignites from the contact point. The skin texture is hyper-realistic, pores visible, slightly sweaty. Lighting is cold, clinical white rim light against a deep black background. High contrast, sharp focus on the insertion point. --ar 9:16 --v 6.0
+Extreme Macro vertical shot, 9:16. The back of a pale, translucent human neck (Enoch). Two sleek, sharp obsidian black needles are mechanically pressing into the skin at the base of the skull. Under the skin, a web of glowing gold veins ignites from the contact point. The skin texture is hyper-realistic, pores visible, slightly sweaty. Lighting is cold, clinical white rim light against a deep black background. High contrast, sharp focus on the insertion point. --ar 9:16 --v 6.0 --style raw
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Extreme close-up on the back of Enoch's neck. Skin is translucent marble white, showing sub-dermal layers.
@@ -22,8 +22,27 @@ Extreme Macro vertical shot, 9:16 aspect ratio. The back of a pale, translucent 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
 Pneumatic hiss of hydraulics. A wet, organic crunch as the needles pierce skin. A high-pitched digital modem handshake screech that rises in pitch.
 
-## [ACT 1] [SCENE 1.2] [Timecode: 00:04-00:09] [RENDER_WAVE]
-**Action:** A wall of pixel-sorting distortion sweeps the room. Reality wipes to a black glass grid under a sterile white sky.
+## [ACT 1] [SCENE 1.2] [Timecode: 00:04-00:08] [OPTICAL_SHUTDOWN]
+**Action:** Eyes seal shut with white ceramic shutters.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Sinai_Hub", "env_change": false, "actors": [{"name": "Henoch", "phase": "Kap 71-108 (Master)", "presence": "on_screen", "focus": "primary"}], "props": ["Ceramic Shutters"], "camera": "Close-Up / Symmetrical", "mood": ["protected", "blind"], "director_intent": "Visualizing the hardware lock-down of the senses.", "start_image_keywords": ["eyes", "ceramic", "shutters", "white"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 4}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Close-up frontal portrait, 9:16. Enoch's face, symmetrical and perfectly lit. His eyes are being covered by sliding white ceramic shutters that descend from the upper eyelid. The shutters are sleek, glossy, and mechanical. Faint blue light bleeds through the edges of the closing shutters. Skin is pale, texture is high-fidelity skin with no imperfections. Clinical lighting. --ar 9:16 --v 6.0
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch's face, frontal view. Featureless, symmetrical perfection.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Protective white ceramic shutters slide down over his eyes from under the eyelids, sealing them shut with a metallic click.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Sinai Hub, dark background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** A faint internal projection glows blue through the thin ceramic shutters.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Close-Up (CU), symmetrical framing. Minimal movement, high focus.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Mechanical locking click (like a gun safety or camera shutter). A low-frequency fan drone starting up.
+
+## [ACT 1] [SCENE 1.3] [Timecode: 00:08-00:13] [RENDER_WAVE]
+**Action:** A wall of pixel-sorting distortion sweeps the room. Reality wipes to a black glass grid.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
@@ -41,7 +60,7 @@ Wide vertical shot, 9:16. A massive vertical wall of digital distortion (RGB shi
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
 Deep bass sweep (THX-style cinematic transition). Static white noise washing over the listener like a wave. Digital artifacting sounds.
 
-## [ACT 1] [SCENE 1.3] [Timecode: 00:09-00:15] [PRIME_ASSEMBLY]
+## [ACT 1] [SCENE 1.4] [Timecode: 00:13-00:18] [PRIME_ASSEMBLY]
 **Action:** Black ferrofluid floor boils. Magnetic fields pull liquid up; it snaps into solid white ceramic plates. Prime Unit (Adam) stands steaming.
 **Dialog:** -
 
@@ -60,7 +79,7 @@ Low angle vertical shot, 9:16. A pool of black, oily ferrofluid on the ground is
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
 Boiling liquid bubbling violently. A heavy metallic "CLANK" reverb as the liquid hardens. High-pressure steam release hiss.
 
-## [ACT 1] [SCENE 1.4] [Timecode: 00:15-00:20] [COMPANION_SPAWN]
+## [ACT 1] [SCENE 1.5] [Timecode: 00:18-00:22] [COMPANION_BOOT]
 **Action:** Voxel cloud implodes next to Adam to form Unit Eve. She activates blue LED trim.
 **Dialog:** -
 
@@ -79,7 +98,7 @@ Medium vertical shot, 9:16. A sleek, white polycarbonate mechanical Cow unit (Ev
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
 Sound of glass shattering in reverse. Digital crystallization chime. A soft power-on hum.
 
-## [ACT 1] [SCENE 1.5] [Timecode: 00:20-00:24] [VARIANT_A_DROP]
+## [ACT 2] [SCENE 2.1] [Timecode: 00:22-00:26] [VARIANT_DROP]
 **Action:** Unit Black (Cain) drops from sky. Slams into grid. Cracks glass. Dust explosion.
 **Dialog:** -
 
@@ -98,7 +117,7 @@ Ground level vertical shot, 9:16. A heavy, rough cast-iron mechanical Bull (Unit
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
 A massive, heavy industrial thud. The sharp sound of thick glass cracking and shattering. Debris falling.
 
-## [ACT 1] [SCENE 1.6] [Timecode: 00:24-00:28] [VARIANT_B_HOVER]
+## [ACT 2] [SCENE 2.2] [Timecode: 00:26-00:30] [VARIANT_GLIDE]
 **Action:** Unit Red (Abel) glides in smooth, hovering on magnetic pads. Aerodynamic contrast to Black.
 **Dialog:** -
 
@@ -117,7 +136,7 @@ Dynamic vertical shot, 9:16. A high-performance, glossy crimson red mechanical B
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
 A high-pitched electric motor whine (like an EV accelerating). A clean "whoosh" of air.
 
-## [ACT 2] [SCENE 2.1] [Timecode: 00:28-00:32] [TARGET_LOCK]
+## [ACT 2] [SCENE 2.3] [Timecode: 00:30-00:33] [TARGET_LOCK]
 **Action:** POV from Unit Black. HUD overlays Ge'ez code on Unit Red. Text: "PURGE REQUIRED".
 **Dialog:** -
 
@@ -136,12 +155,12 @@ Point of View shot, 9:16 vertical. Through a digital HUD overlay (red vector gra
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
 Computer UI lock-on beeps. Rapid data scrolling sound. Aggressive cooling fan spin-up.
 
-## [ACT 2] [SCENE 2.2] [Timecode: 00:32-00:35] [THE_IMPACT]
+## [ACT 2] [SCENE 2.4] [Timecode: 00:33-00:35] [THE_IMPACT]
 **Action:** Unit Black rams Unit Red. Physics collision. Metal crumples. Sparks fly.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "close_up", "framing": "close_up", "environment": "Simulation_Grid", "env_change": false, "actors": [{"name": "Cain (Unit Black)", "phase": "Attacking", "presence": "on_screen", "focus": "primary"}, {"name": "Abel (Unit Red)", "phase": "Impact", "presence": "on_screen", "focus": "secondary"}], "props": ["Sparks", "Twisted Metal"], "camera": "Bullet-time / Rotation", "mood": ["destructive", "kinetic"], "director_intent": "Freeze the moment of destruction.", "start_image_keywords": ["collision", "sparks", "metal crunch", "black vs red"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "mixed", "shot_type": "close_up", "framing": "close_up", "environment": "Simulation_Grid", "env_change": false, "actors": [{"name": "Cain (Unit Black)", "phase": "Attacking", "presence": "on_screen", "focus": "primary"}, {"name": "Abel (Unit Red)", "phase": "Impact", "presence": "on_screen", "focus": "secondary"}], "props": ["Sparks", "Twisted Metal"], "camera": "Bullet-time / Rotation", "mood": ["destructive", "kinetic"], "director_intent": "Freeze the moment of destruction.", "start_image_keywords": ["collision", "sparks", "metal crunch", "black vs red"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
 Action vertical shot, 9:16. Frozen moment of impact. The Matte Black Iron Bull has rammed into the side of the Crimson Unit. The red metal is buckling and tearing. Bright yellow and orange sparks are spraying out in a perfect arc. Chromatic aberration edges the frame. The physics are visceral and heavy. --ar 9:16 --stylize 750
 
@@ -155,7 +174,7 @@ Action vertical shot, 9:16. Frozen moment of impact. The Matte Black Iron Bull h
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
 Loud metal screeching. Silence at the exact peak of impact, followed by a heavy bass drop.
 
-## [ACT 2] [SCENE 2.3] [Timecode: 00:35-00:42] [DELETION_EVENT]
+## [ACT 2] [SCENE 2.5] [Timecode: 00:35-00:40] [CRITICAL_FAILURE]
 **Action:** Unit Red dissolves into red binary code strings. The physical mesh becomes wireframe, then empty space.
 **Dialog:** -
 
@@ -174,7 +193,7 @@ High angle vertical shot, 9:16. The broken Crimson Unit is on the floor, but it 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
 Data corruption glitching sound. The sound of a computer crashing (distorted "Windows Down" or similar).
 
-## [ACT 2] [SCENE 2.4] [Timecode: 00:42-00:47] [ABSORPTION]
+## [ACT 2] [SCENE 2.6] [Timecode: 00:40-00:45] [SYSTEM_ANOMALY]
 **Action:** Unit Black absorbs red code particles. Armor plates expand jaggedly. It doubles in size (Level Up).
 **Dialog:** -
 
@@ -193,26 +212,45 @@ Low angle vertical shot, 9:16. The Matte Black Iron Bull is glowing with absorbe
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
 Groaning metal under stress. Transformer-like expansion sounds. Deep mechanical roar.
 
-## [ACT 2] [SCENE 2.5] [Timecode: 00:47-00:55] [THE_SEARCH]
-**Action:** Unit Eve walks grid. Blue LIDAR laser reveals floor topology. She emits the "Cry": A visible ripple in the air (Sonic distortion).
+## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:50] [SEARCH_PATTERN]
+**Action:** Unit Eve walks grid. Blue LIDAR laser reveals floor topology.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Simulation_Grid", "env_change": false, "actors": [{"name": "Eve (Companion Unit)", "phase": "Scanning", "presence": "on_screen", "focus": "primary"}], "props": ["LIDAR Scan", "Sonic Ripple"], "camera": "Tracking / Shaky", "mood": ["desperate", "loud"], "director_intent": "Visualizing sound as a weapon/signal.", "start_image_keywords": ["lidar", "blue laser", "sound wave", "ripple"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Simulation_Grid", "env_change": false, "actors": [{"name": "Eve (Companion Unit)", "phase": "Scanning", "presence": "on_screen", "focus": "primary"}], "props": ["LIDAR Scan"], "camera": "Tracking / Behind", "mood": ["desperate", "searching"], "director_intent": "Visualizing the scan for the lost unit.", "start_image_keywords": ["lidar", "blue laser", "wireframe floor", "cow"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium vertical shot, 9:16. The White Cow Unit (Eve) is screaming. Her mouth grille is open. Instead of sound, the air in front of her is distorting in visible concentric rings (refraction shader). Blue LIDAR laser lines scan the ground around her feet, revealing a wireframe grid. Emergency red strobe lights flash on her white chassis. --ar 9:16 --style raw
+Tracking shot from behind, vertical 9:16. The White Cow Unit (Eve) walking into the infinite darkness of the grid. A fan-shaped blue LIDAR laser beam scans the floor in front of her. Where the laser hits, the black floor lights up with a blue wireframe topography map. The isolation is palpable. --ar 9:16 --style raw
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The White Polycarbonate Cow Unit.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Mouth-grille opens. Emergency red strobes flash on chassis.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite grid.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** A fan-shaped blue laser scans the ground. The air ripples visibly (refraction shader) in concentric rings blasting outward.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Tracking shot from behind, then switching to frontal shaky cam reacting to the "noise". 9:16 vertical.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Blue LED trim active.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite grid, mostly dark.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** A fan-shaped blue laser scans the ground ahead of it, revealing wireframe topology.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Tracking shot from behind, following the unit. 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitched LIDAR pinging. Then a deafening Air Raid Siren mixed with a digital scream.
+High-pitched LIDAR pinging sounds. Echoing, lonely footsteps on glass.
 
-## [ACT 3] [SCENE 3.1] [Timecode: 00:55-01:00] [ADMIN_OVERRIDE]
+## [ACT 3] [SCENE 3.2] [Timecode: 00:50-00:54] [ERROR_SIGNAL]
+**Action:** She emits the "Cry": A visible ripple in the air (Sonic distortion). Red strobes flash.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Simulation_Grid", "env_change": false, "actors": [{"name": "Eve (Companion Unit)", "phase": "Alarm", "presence": "on_screen", "focus": "primary"}], "props": ["Sonic Ripple", "Red Strobe"], "camera": "Shaky / Reaction", "mood": ["panic", "loud"], "director_intent": "Visualizing sound as a weapon/signal.", "start_image_keywords": ["scream", "ripple", "distortion", "red strobe"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Close-up vertical shot, 9:16. The White Cow Unit's head. Her mouth grille is wide open. Instead of sound, the air in front of her is distorting in visible concentric rings (refraction shader). Emergency red strobe lights are flashing violently on her white chassis, lighting up the smoke around her. --ar 9:16 --stylize 500
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Close up on the Cow Unit's head.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Mouth-grille opens. Emergency red strobes flash on chassis.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Grid background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The air ripples visibly (refraction shader) in concentric rings blasting outward.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Shaky cam reacting to the "noise". 9:16 vertical.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A deafening Air Raid Siren mixed with a digital scream. Distorted audio clipping.
+
+## [ACT 3] [SCENE 3.3] [Timecode: 00:54-00:58] [ADMIN_OVERRIDE]
 **Action:** Prime Unit (Adam) steps in. Touches Eve's head. White calming pulse overrides the red alarm light.
 **Dialog:** -
 
@@ -229,14 +267,14 @@ Side profile vertical shot, 9:16. The massive White Ceramic Bull (Adam) gently t
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Side profile, intimate machine moment. Slow motion. 9:16 vertical.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A deep sub-bass thrum. The sudden cut-off of the siren to absolute silence or a soft hum.
+A deep sub-bass thrum. The sudden cut-off of the siren to absolute silence or a soft hum. A clean system chime (Major key).
 
-## [ACT 3] [SCENE 3.2] [Timecode: 01:00-01:06] [REPLICATION]
+## [ACT 3] [SCENE 3.4] [Timecode: 00:58-01:03] [REPLICATION]
 **Action:** Floating sphere of white liquid metal spins between them. Solidifies into Unit Seth (Mini-Adam).
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "center", "environment": "Simulation_Grid", "env_change": false, "actors": [{"name": "Seth (Unit White 2)", "phase": "Birth", "presence": "on_screen", "focus": "primary"}], "props": ["Liquid Metal Sphere"], "camera": "Focus Pull", "mood": ["miraculous", "perfect"], "director_intent": "The new file is created.", "start_image_keywords": ["liquid metal", "sphere", "white calf", "floating"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "center", "environment": "Simulation_Grid", "env_change": false, "actors": [{"name": "Seth (Unit White 2)", "phase": "Birth", "presence": "on_screen", "focus": "primary"}], "props": ["Liquid Metal Sphere"], "camera": "Focus Pull", "mood": ["miraculous", "perfect"], "director_intent": "The new file is created.", "start_image_keywords": ["liquid metal", "sphere", "white calf", "floating"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 4}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
 Center framed vertical shot, 9:16. A perfect sphere of liquid white metal is floating in the air. It is spinning rapidly and morphing into the shape of a small, pristine white Calf (Unit Seth). It glows with an internal light. The background is blurred, showing the parents. --ar 9:16 --v 6.0
 
@@ -250,7 +288,7 @@ Center framed vertical shot, 9:16. A perfect sphere of liquid white metal is flo
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
 Sound of liquid mercury flowing. A clean digital "ding" or chime indicating completion.
 
-## [ACT 3] [SCENE 3.3] [Timecode: 01:06-01:15] [EXPONENTIAL_GROWTH]
+## [ACT 3] [SCENE 3.5] [Timecode: 01:03-01:08] [EXPONENTIAL_GROWTH]
 **Action:** Timelapse. Thousands of white units flicker into existence, filling the horizon to infinity. Shadows race.
 **Dialog:** -
 
@@ -269,7 +307,7 @@ Aerial vertical shot, 9:16. Looking down at the black grid floor which is now te
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
 Rhythmic clock ticking (fast). Layered with a massive, growing server farm hum.
 
-## [ACT 3] [SCENE 3.4] [Timecode: 01:15-01:20] [DISCONNECT]
+## [ACT 3] [SCENE 3.6] [Timecode: 01:08-01:10] [DISCONNECT]
 **Action:** Enoch gasps, waking up in Sinai Hub. White steam curls off his neck/shunt. Room is dark.
 **Dialog:** -
 
@@ -289,4 +327,4 @@ Medium Close-Up vertical shot, 9:16. Enoch sitting in the dark command chair. He
 A sharp gasp for air. The hiss of steam. A dying power-down whine.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Das System erwacht.","words_max":4},{"scene":"2.2","text":"Ein Fehler im Kern.","words_max":5},{"scene":"3.4","text":"Alles ist gespeichert.","words_max":4}]},"notes":"Minimalist internal thoughts marking the beginning, the glitch, and the end."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Das System erwacht.","words_max":4},{"scene":"2.4","text":"Ein Fehler im Kern.","words_max":5},{"scene":"3.4","text":"Alles ist gespeichert.","words_max":4}]},"notes":"Minimalist internal thoughts marking the beginning, the glitch, and the end."}

@@ -1,0 +1,99 @@
+{
+  "id": "SCENE_PRAYER_AT_THE_ALTAR",
+  "name": "Prayer at the altar",
+  "type": "scene",
+  "card": {
+    "description": "A towering altar of basalt and obsidian, its surface etched with intricate Ethiopian and Egyptian hieroglyphs that pulse with bio‑luminescent crystal glyphs. Integrated titanium alloy circuitry snakes along the edges, glowing faintly as it channels energy into a central void that serves as a conduit for the prayer. The altar blends rugged stone textures with polished copper accents and a lattice of translucent crystalline panels, creating a tactile, grounded realism that feels both ancient and incomprehensibly advanced.",
+    "tags": [
+      "altar",
+      "ancient-tech",
+      "industrial mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "crystalline",
+      "bio-luminescent",
+      "photorealistic"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** A 3‑meter high, 1.5‑meter wide basalt core with obsidian inlays, reinforced by titanium alloy ribs. The surface is a seamless blend of rough stone and polished copper, with a central void 0.5 meters deep that acts as an energy conduit.",
+      "**Face/Sensors:** Hieroglyphic glyphs embedded in the stone act as sensor arrays; each glyph contains a micro‑crystal that emits a soft glow when activated by the presence of a prayer ritual.",
+      "**Clothing/Armor:** Not applicable.",
+      "**Key Features:** Integrated titanium circuitry, bio‑luminescent crystal glyphs, energy‑channeling void, polished copper accents, translucent crystalline lattice panels."
+    ],
+    "evolution": [
+      "Phase 1 (Construction): Raw basalt block is quarried, carved, and etched with Ethiopian and Egyptian motifs. Titanium alloy ribs are welded, and crystalline panels are embedded. The altar is left in a dormant state with faint ambient glow.",
+      "Phase 2 (Activation): Glyphs ignite with bio‑luminescent crystals, circuitry pulses, and the central void begins to channel ambient energy, preparing the altar to receive a prayer."
+    ],
+    "props": [
+      "Item: Scepter of Light – a polished copper staff topped with a translucent crystal that channels energy into the altar.",
+      "Item: Stone Tablet with Glyphs – a basalt tablet placed beside the altar, etched with matching hieroglyphs that sync with the altar’s glyphs."
+    ],
+    "prompt_keywords": [
+      "basalt",
+      "obsidian",
+      "titanium",
+      "crystalline",
+      "bio-luminescent",
+      "hieroglyphs",
+      "ancient-tech",
+      "industrial mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "photorealistic"
+    ],
+    "prompt_block": "A towering altar of basalt and obsidian, etched with ancient Ethiopian and Egyptian hieroglyphs that glow with bio‑luminescent crystals, integrated titanium alloy circuitry pulsing faintly, polished copper accents, a central void channeling energy, photorealistic, cinematic lighting, tactile textures, grounded realism",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The altar in its resting state, awaiting prayer.",
+        "prompt_keywords": [
+          "basalt",
+          "obsidian",
+          "titanium",
+          "crystalline",
+          "bio-luminescent",
+          "hieroglyphs",
+          "ancient-tech",
+          "industrial mysticism",
+          "Ethiopian",
+          "Egyptian",
+          "photorealistic"
+        ],
+        "prompt_block": "A towering altar of basalt and obsidian, etched with ancient Ethiopian and Egyptian hieroglyphs that glow with bio‑luminescent crystals, integrated titanium alloy circuitry pulsing faintly, polished copper accents, a central void channeling energy, photorealistic, cinematic lighting, tactile textures, grounded realism, the altar stands silent and awaiting prayer"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_PRAYER_AT_THE_ALTAR",
+    "name": "Prayer at the altar",
+    "type": "scene",
+    "aliases": [
+      "Prayer at the altar"
+    ],
+    "roles": [
+      "ፀዓድው"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_825"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 90,
+        "chapter_end": 90,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

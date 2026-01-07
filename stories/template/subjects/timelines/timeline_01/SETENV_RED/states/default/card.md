@@ -1,0 +1,10 @@
+## [STATE] red :: Default
+**State ID:** default
+**Chapters:** 14 - 14
+
+**Phase Summary:** The red laser wall in its fully activated, photorealistic state, interacting with the environment.
+**Phase Keywords:** red laser, crystalline lattice, ancient glyphs, Ethiopian motifs, Egyptian motifs, industrial ribs, heat distortion, photorealistic
+**Phase Prompt:**
+A towering translucent crystalline wall, 30 meters tall and 5 meters wide, etched with ancient Ethiopian and Egyptian glyphs, emits a continuous searing red laser that slices through the air like a living blade. The wall's surface is a complex network of interlocking quartz prisms refracting the laser into a shimmering liquid ribbon of light. Embedded micro-emitters pulse in sync with the glyphs, creating rhythmic glow. Rusted steel ribs anchor the structure, giving it an industrial, grounded feel. The surrounding environment reacts with glowing blue wireframes, sparks of binary code, and swirling heat distortion, all rendered in photorealistic detail, cinematic tone, serious mood, 8k resolution, 9:16 aspect ratio.
+
+---

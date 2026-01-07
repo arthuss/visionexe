@@ -1,0 +1,99 @@
+{
+  "id": "SCENE_MOON_INSIDE_THE_TEMPLE",
+  "name": "Moon inside the Temple",
+  "type": "scene",
+  "card": {
+    "description": "A colossal, luminescent crystalline moon hovers within the heart of a subterranean Ethiopian‑Egyptian temple, its surface etched with bioluminescent glyphs that pulse in sync with an unseen magnetic field. The stone walls, carved with ancient motifs, reflect the moon's glow, casting shifting patterns across basalt columns. Dust motes drift in shafts of filtered light, creating a tactile, cinematic atmosphere.",
+    "tags": [
+      "temple interior",
+      "moon",
+      "ancient-tech",
+      "industrial mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "photorealistic",
+      "cinematic",
+      "bioluminescence",
+      "glyphs"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** 3‑meter diameter translucent crystalline sphere, surface embedded with bioluminescent glyphs and micro‑sensor arrays disguised as hieroglyphic motifs.",
+      "**Face/Sensors:** Embedded sensor arrays on the sphere’s surface detect ambient vibrations and temperature, triggering glyph illumination cycles.",
+      "**Clothing/Armor:** Not applicable.",
+      "**Key Features:** Suspended by invisible magnetic levitation, pulsing glow, reflective surface that projects ancient patterns onto stone walls, integrated with temple’s stone architecture."
+    ],
+    "evolution": [
+      "Phase 1 (Installation): Crystalline moon is lowered into the temple’s central chamber, anchored by a lattice of copper wires etched with glyphs.",
+      "Phase 2 (Activation): Sensors activate, glyphs pulse, moon levitates, light patterns shift across the stone walls."
+    ],
+    "props": [
+      "Ancient stone altar",
+      "Copper lattice support",
+      "Glyph‑etched copper wires",
+      "Dust motes"
+    ],
+    "prompt_keywords": [
+      "crystalline moon",
+      "temple interior",
+      "bioluminescent glyphs",
+      "magnetic levitation",
+      "Ethiopian motifs",
+      "Egyptian carvings",
+      "photorealistic",
+      "cinematic",
+      "dust motes"
+    ],
+    "prompt_block": "A colossal crystalline moon, 3 meters in diameter, hovers in the center of a subterranean Ethiopian‑Egyptian temple, its translucent surface etched with bioluminescent glyphs that pulse in sync with an invisible magnetic field. The stone walls, carved with ancient motifs, reflect the moon’s glow, casting shifting patterns across basalt columns. Dust motes drift in shafts of filtered light, creating a tactile, cinematic atmosphere.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Moon inside the temple, pulsing luminescent sphere suspended in ancient stone chamber.",
+        "prompt_keywords": [
+          "crystalline moon",
+          "temple interior",
+          "bioluminescent glyphs",
+          "magnetic levitation",
+          "Ethiopian motifs",
+          "Egyptian carvings",
+          "photorealistic",
+          "cinematic",
+          "dust motes"
+        ],
+        "prompt_block": "A colossal crystalline moon, 3 meters in diameter, hovers in the center of a subterranean Ethiopian‑Egyptian temple, its translucent surface etched with bioluminescent glyphs that pulse in sync with an invisible magnetic field. The stone walls, carved with ancient motifs, reflect the moon’s glow, casting shifting patterns across basalt columns. Dust motes drift in shafts of filtered light, creating a tactile, cinematic atmosphere."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_MOON_INSIDE_THE_TEMPLE",
+    "name": "Moon inside the Temple",
+    "type": "scene",
+    "aliases": [
+      "Moon inside the Temple"
+    ],
+    "roles": [
+      "Temple Interior"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_150"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 18,
+        "chapter_end": 18,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

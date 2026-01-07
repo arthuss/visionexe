@@ -1,0 +1,149 @@
+{
+  "id": "SETENV_STAR",
+  "name": "star",
+  "type": "set_environment",
+  "card": {
+    "description": "A singular star that serves as a nexus of ancient mysticism and incomprehensible technology, visible in a desert night sky. Its luminous core is a crystalline lattice etched with Ethiopian and Egyptian glyphs, surrounded by a dark blue CAD‑style wireframe grid that pulses with data streams. The star exhibits glitch artifacts that manifest as square pixels and dead‑pixel scanlines, revealing underlying data voids.",
+    "tags": [
+      "celestial",
+      "glitch",
+      "ancient-tech",
+      "industrial mysticism",
+      "photorealistic",
+      "Ethiopian",
+      "Egyptian",
+      "data node",
+      "crystalline",
+      "glyph"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Spherical core of fused quartz and obsidian, refracting light into a spectrum of warm amber and deep indigo, with a lattice of translucent crystal facets.",
+      "**Face/Sensors:** No facial features; instead, a ring of bioluminescent glyphs encircles the equator, acting as sensor arrays that pulse with data.",
+      "**Clothing/Armor:** None; the star’s surface is a seamless crystalline shell.",
+      "**Key Features:** Embedded CAD‑style wireframe grid of dark blue lines, glitching square pixels, vertical dead‑pixel scanlines, glyphs, data void behind stars."
+    ],
+    "evolution": [
+      "Phase 1 (ch15‑14): Initial state – star appears as a glowing sphere with square pixel artifacts; a vertical dead‑pixel scanline tears through the image, revealing a dark blue wireframe grid behind the star.",
+      "Phase 2 (ch15‑14): Advanced state – star’s core becomes a data node; the crystalline lattice dissolves into a complex geodesic dome of thin vector lines, with data stars and grid lines replacing magma in the void.",
+      "Phase 3 (ch15‑15 unknown): Unknown state – star transitions into a black void filled with swirling data stars and a pulsating grid, hinting at an incomprehensible technology beyond current understanding."
+    ],
+    "props": [
+      "Vector Grid Overlay",
+      "Texture Swap Line",
+      "Celestial Node",
+      "Glitching Pixel",
+      "Data Void"
+    ],
+    "prompt_keywords": [
+      "celestial",
+      "glitch",
+      "wireframe",
+      "crystalline",
+      "glyph",
+      "ancient-tech",
+      "Ethiopian",
+      "Egyptian",
+      "data node",
+      "photorealistic"
+    ],
+    "prompt_block": "A photorealistic cinematic depiction of a star in a desert night sky, rendered with ancient Ethiopian and Egyptian motifs, crystalline lattice, glyphs, and a dark blue CAD‑style wireframe grid overlay, glitch art style, high contrast, 8k, cinematic lighting.",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "Glitching pixelated star with dead‑pixel scanline revealing wireframe grid.",
+        "prompt_keywords": [
+          "glitch",
+          "pixel",
+          "dead-pixel",
+          "wireframe",
+          "crystalline"
+        ],
+        "prompt_block": "Cinematic night sky shot of a star rendered as a glowing sphere with square pixel artifacts, a vertical dead‑pixel scanline tearing through the image, revealing a dark blue CAD‑style wireframe grid behind the star, photorealistic, 8k, high contrast, cinematic lighting."
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "Star becomes a data node with geodesic grid and data stars.",
+        "prompt_keywords": [
+          "data node",
+          "geodesic",
+          "grid",
+          "crystalline",
+          "glyph"
+        ],
+        "prompt_block": "A cinematic shot of a star transformed into a crystalline data node, its lattice dissolving into a complex geodesic dome of thin vector lines, with data stars and grid lines filling the void, photorealistic, 8k, high contrast, cinematic lighting."
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "Unknown state: black void with swirling data stars.",
+        "prompt_keywords": [
+          "black void",
+          "data stars",
+          "pulsating grid",
+          "incomprehensible technology"
+        ],
+        "prompt_block": "A cinematic depiction of a star in an unknown phase, turning into a black void filled with swirling data stars and a pulsating dark blue grid, photorealistic, 8k, high contrast, cinematic lighting."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_STAR",
+    "name": "star",
+    "type": "set_environment",
+    "aliases": [
+      "star"
+    ],
+    "roles": [
+      "natural element"
+    ],
+    "visual_traits": [
+      "unknown"
+    ],
+    "changes": [
+      "unknown"
+    ],
+    "notes": [],
+    "sources": [
+      "row_121"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 15,
+        "chapter_end": 14,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 15,
+        "chapter_end": 14,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 15,
+        "chapter_end": 15,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "unknown"
+        ]
+      }
+    ]
+  }
+}

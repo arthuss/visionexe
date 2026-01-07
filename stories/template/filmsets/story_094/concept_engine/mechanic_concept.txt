@@ -1,238 +1,230 @@
 EXEGET:OS SYSTEM ARCHITECTURE REPORT // CHAPTER 94 (VERSION 2.0)
-STATUS: COMPILING VISUAL MECHANICS
+STATUS: COMPILED
 DATE: 2026-01-07
 
 [SECTION 1: TECHNICAL MECHANICS & AESTHETICS]
 
 1. BIO-INJECTION (Enoch's State):
-Technologie: "Sub-Dermal Fiber-Optic Overload". Die Datenleitungen unter seiner Haut sind keine biologischen Adern, sondern nanophotonische Kanäle. Bei hoher Bandbreite (Prophezeiung) überhitzen diese Kanäle.
-Visual: Die Haut (Parian Marble) wird transluzent durch die Hitze. Das Leuchten ist nicht magisch, sondern thermisch (Blackbody Radiation: 3000K bis 5000K).
+Technologie: "Photonic Thermal Overload". Enoch ist keine biologische Entität, sondern ein High-Bandwidth-Interface.
+Mechanik: Wenn er Datenströme (Prophezeiungen) überträgt, steigt die interne Temperatur drastisch an. Die "Fasern" unter der Haut sind Kühlkanäle, die durch den massiven Datendurchsatz (Lichtimpulse) weißglühend werden (Blackbody Radiation > 4000K).
+Visual: Die Haut (`MARBLE_SHIMMER_V3`) verliert ihre Opazität durch die Hitze und wird semitransparent. Das Leuchten ist rein physikalisch bedingt.
 
 2. MESH-BREAK (The Corruption):
-Technologie: "UV Map Dissociation" und "Vertex Explosion".
-Visual: Bei den "Sündern" lösen sich die Textur-Koordinaten vom Mesh. Die Gesichter "rutschen" vom Kopf. Die "Reichen" haben eine zu hohe Polygon-Last (Asset-Hoarding), was zu massiven Framerate-Drops in ihrer unmittelbaren Umgebung führt (Time-Dilation/Lag). Objekte clippen ineinander (Z-Fighting).
+Technologie: "Polygon-Budget Overflow" & "UV-Dissociation".
+Mechanik: Die "Sünder" sind korrupte Assets, die nicht mehr mit dem Kernel synchronisieren.
+Visual:
+- "Reiche": Zu viele hochauflösende Texturen geladen. Sie verursachen lokalen Lag (Stuttering) und Time-Dilation. Ihre Texturen "smear'en" (Motion Vector Artefakte), weil der Renderer nicht hinterherkommt.
+- "Baumeister": Z-Fighting an den Schnittstellen ihrer Konstruktionen. Objekte flackern schwarz/texturiert, weil zwei Flächen exakt denselben Raum einnehmen.
 
 3. PACING-STRATEGIE:
-Phase 1 (Broadcast): Stabil, linear, harte aber saubere Schnitte.
-Phase 2 (Corruption): Glitch-Editing. Frames werden gedroppt. Datamoshing bei Bewegungen.
-Phase 3 (Purge): Terminal Velocity. Schnitte exakt auf den Audio-Impulsen (Degaussing Thumps).
+Phase 1 (System Check): Ruhig, steril, symmetrisch. Überwachungskamera-Ästhetik.
+Phase 2 (Glitch Detection): Unruhige Kamera, kurze "Buffer-Underruns" (Bild friert für 2 Frames ein), chromatische Aberration steigt.
+Phase 3 (Garbage Collection): Harte, rhythmische Schnitte synchron zum "Lösch-Hammer" (Kickdrum). Terminale Geschwindigkeit.
 
 4. AUDIO-DESIGN:
-Atmosphäre: Server Room Ambience (White Noise, Lüfter).
-Stimme: Enoch klingt nicht hallend, sondern direkt "injected" (Binaural).
-Warn-Sound: Geigerzähler-Klicken, das sich in ein durchgehendes Fiepen (Feedback Loop) verwandelt.
-Impact: Der Sound eines Stromausfalls (Power Down), gefolgt von absoluter digitaler Stille.
+Atmosphäre: Ein tiefer, sauberer 50Hz "Mains Hum" (Stromnetz) im Hintergrund.
+Stimme: Enoch spricht nicht in den Raum, sondern direkt auf den Audio-Bus des Zuschauers (Dry Signal, kein Reverb, extreme Proximity).
+Warn-Sound: Ein ansteigendes "Coil Whine" (Spulenfiepen), das kurz vor dem Absturz in Stille bricht.
 
 5. ÜBERGÄNGE:
-Transition Type: "Buffer Underrun". Das Bild friert kurz ein, pixelated (Block Artefacts), bevor der nächste Clip "hart" einrastet.
+Transition Type: "I-Frame Corruption". Das Bild wird kurzzeitig ein Datamosh-Brei aus Bewegungsvektoren des vorherigen Clips, bevor der neue Keyframe "einrastet".
 
 6. FRAMEWORK & TIMING:
-Total Duration: 75-80 Sekunden.
-Clip Count: 18 Clips (erhöhte Granularität für Detail-Shots der Corruption).
+Total Duration: 75 Sekunden.
+Clip Count: 18 Clips (erhöhte Granularität für Action-Reaktion-Ketten).
 
 7. DIALOG-CHECK:
-Monolog Enoch (Broadcast Mode).
-Wir benötigen dedizierte Lip-Sync Shots (Close-Ups).
-Schnittmuster: Enoch (Sender/Ursache) -> Welt (Empfänger/Wirkung).
+Enoch Monolog: Ja. Broadcast-Mode.
+Struktur: Enoch (Sender) -> Welt (Empfänger) -> System (Reaktion).
 
 8. SPATIAL CONTEXT (ARRIVAL):
-Standort: Orbital Observation Deck (Root Directory).
-Movement: Enoch ist statisch fixiert (Data-Tether). Die Welt rotiert unter ihm.
-Establishing: Blick durch den Glasboden auf die Sektoren-Karte (Heatmap).
+Standort: Orbital Server Node "Watchtower Alpha".
+Movement: Enoch ist fixiert (Hardwired). Die Welt ist eine projizierte Holographie unter ihm, die er wie ein DJ oder Operator steuert.
 
 [SECTION 2: DREHBUCH & PROMPTS]
 
-SCENE 01: THE TRANSMITTER - INITIALIZATION MACRO (00:00 - 00:04)
-Action: Extreme detail of the neck. The fiber-optics ignite.
+SCENE 01: HARDWARE INITIALIZATION - NECK MACRO (00:00 - 00:04)
+Action: The cooling channels ignite.
 Prompt:
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch (System Admin V2). **Physique:** Neck/Throat focus. **Skin-Shader:** `MARBLE_SHIMMER_V3`. Ultra-smooth, semi-translucent white surface. **VFX:** Sub-dermal nanophotonic channels rapidly heating up from dormant grey to blinding gold (5000K). The skin surrounding the channels shows thermal stress transparency.
+> **Actor:** Enoch (System Admin V2). **Physique:** Extreme Close-Up on the jugular area. **Skin-Shader:** `MARBLE_SHIMMER_V3`. Ultra-smooth, translucent white Parian marble. **VFX:** Beneath the surface, dormant grey channels suddenly flash into blinding gold-white (5000K). The surrounding skin material transitions from opaque to sub-surface scattering due to rapid heat spike.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting:** Internal illumination only. The gold light scatters through the marble skin layers.
+> **Lighting:** Internal emission only. The light bleeds through the marble grain.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Macro Lens (100mm). **Focus:** Razor sharp on the skin pores and the light beneath. **Style:** Medical imaging, UE5 Path Tracing.
+> **Camera:** 100mm Macro. **Focus:** Razor thin depth of field on the skin texture. **Style:** Technical medical imaging.
 
-SCENE 02: THE TRANSMITTER - OPTICAL OUTPUT (00:04 - 00:08)
-Action: Enoch's eyes project the data stream.
+SCENE 02: OPTICAL UPLINK - EYES OPEN (00:04 - 00:08)
+Action: Mechanical aperture opening.
 Prompt:
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch. **Optics:** `SOLAR_APERTURE_EYES`. No iris/pupil structural data. Pure white circular emission. **VFX:** Two parallel beams of volumetric light shoot from his eyes into the camera lens, revealing floating dust particles in the beam.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** High-collar `LIQUID_LINEN` robe, white.
+> **Actor:** Enoch. **Optics:** `SOLAR_APERTURE_EYES`. The eyelids retract rapidly. No organic iris. A mechanical shutter dilates, revealing a core of pure white plasma. **VFX:** Two hard beams of coherent light shoot directly into the lens, creating a horizontal anamorphic flare.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Extreme Close-Up (ECU) on eyes. **Lens:** Anamorphic with horizontal blue flare.
+> **Camera:** Extreme Close-Up on eyes. **Lens:** Anamorphic with heavy blue flare horizontal streak.
 
-SCENE 03: BROADCAST - "LOVE RIGHTEOUSNESS" (00:08 - 00:13)
-Action: Enoch speaks the command.
+SCENE 03: BROADCAST - "LOVE RIGHTEOUSNESS" (00:08 - 00:12)
+Action: Enoch speaks the command protocol.
 Prompt:
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch. **Action:** Speaking with stoic authority. **Lip-Sync:** Precise mouth movement.
+> **Actor:** Enoch. **Action:** Speaking directly to camera. **Expression:** Stoic, authoritative. **Lip-Sync:** Precise, minimal movement.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Orbital Observation Deck. **Background:** Through the glass floor, we see a distant blue grid pattern (The World). **Props:** Holographic HUD overlays displaying "PACKET_LOSS: 0%".
+> **Location:** Orbital Observation Deck. **Background:** Pitch black space, but reflected in the glass behind him is a complex blue wireframe map of a city. **Props:** Holographic HUD text scrolling rapidly in reverse: `TX_RATE: 100%`.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Medium Close-Up (MCU). **Angle:** Slightly low angle (Hero Shot).
+> **Camera:** Medium Shot (Passport Photo framing). **Style:** Newscaster / System Alert.
 
-SCENE 04: SECTOR SCAN - THE COMPLIANT PATH (00:13 - 00:17)
-Action: Visualization of "Paths of Righteousness".
+SCENE 04: SECTOR SCAN - COMPLIANT PATHS (00:12 - 00:16)
+Action: Visualizing "Paths of Righteousness".
 Prompt:
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Server Farm Alpha (The Righteous Path). **Architecture:** Endless corridor of white, sterile server racks. **Symmetry:** Perfect one-point perspective. **VFX:** Gold data cables run in perfectly straight lines along the floor. No dust, no dirt. **Lighting:** Cool white laboratory lighting, flicker-free.
+> **Location:** Server Farm Alpha (The Righteous Path). **Architecture:** Infinite corridor of sterile white server racks. **Symmetry:** Perfect one-point perspective. **VFX:** Gold fiber-optic cables run in perfectly straight, parallel lines along the floor. **Lighting:** Cool, flicker-free laboratory white (`6500K`). No dust.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Smooth Dolly In (high speed). **Style:** Kubrickian perfection.
+> **Camera:** Dolly In (High Speed). **Motion:** Perfectly smooth linear slide.
 
-SCENE 05: SECTOR SCAN - THE CORRUPT PATH (00:17 - 00:21)
-Action: Visualization of "Paths of Violence".
+SCENE 05: SECTOR SCAN - DEPRECATED PATHS (00:16 - 00:20)
+Action: Visualizing "Paths of Iniquity".
 Prompt:
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Corrupted Sector (The Violent Path). **Architecture:** The same server racks as Scene 04, but physically distorted. **Damage:** Metal is twisted by heat. **Cables:** The cables are tangled red masses, sparking and leaking black fluid (memory leak). **Lighting:** Stroboscopic red emergency lights.
+> **Location:** Corrupted Sector (The Violent Path). **Architecture:** The same server corridor, but degraded. **Damage:** Metal racks are twisted by heat. **Cables:** The cables are a tangled red mess, sparking and leaking viscous black fluid (memory leak). **Lighting:** Stroboscopic red emergency lights (`#FF0000`).
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Handheld, erratic motion. **VFX:** Chromatic aberration, digital grain.
+> **Camera:** Handheld, shaky. **VFX:** Digital grain, chromatic aberration.
 
-SCENE 06: THE BUILDERS - CONSTRUCTION (00:21 - 00:25)
-Action: Entities building with "Sin" (Bad Code).
+SCENE 06: THE BUILDERS - CONSTRUCTION SITE (00:20 - 00:24)
+Action: Wide shot of entities building faulty structures.
 Prompt:
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actors:** The Builders (Grey Mannequins). **Action:** Stacking black obsidian blocks to build a tower.
+> **Actors:** The Builders (Grey Mannequins). **Action:** They are stacking large, glossy black obsidian blocks to build a tower.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Glitch City Construction Site. **Physics:** The blocks do not sit flush; they vibrate and float slightly (collision mesh error).
+> **Location:** Glitch City Construction Zone. **Physics:** The blocks do not align physically; they float slightly apart or intersect unnaturally.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
 > **Camera:** Wide Shot, Low Angle.
 
-SCENE 07: THE BUILDERS - Z-FIGHTING DETAIL (00:25 - 00:29)
-Action: Close up on the structural flaw.
-Prompt:
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Builder Hand placing a block.
-
-**[BLOCK 2: PROPS]**
-> **Prop:** Obsidian Block. **VFX:** Where the block touches the wall, the textures flicker rapidly between black and grey (Z-fighting artifact). Red wireframe outlines pulse at the intersection.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Close-Up. **Focus:** Hard focus on the glitching intersection.
-
-SCENE 08: ENOCH WARNING - "WOE TO YOU" (00:29 - 00:34)
-Action: Enoch issues the "Woe" alert.
-Prompt:
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch. **Action:** Pointing downward towards the glass floor. **Expression:** Stern judgment.
-
-**[BLOCK 2: PROPS]**
-> **VFX:** A red holographic "WARNING" glyph floats in front of his finger.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Medium Shot.
-
-SCENE 09: THE HOARDERS - ASSET LOAD (00:34 - 00:38)
-Action: The Rich weighed down by resources.
-Prompt:
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actors:** The Rich (Avatars). **Appearance:** Draped in heavy gold fabrics. **VFX:** The gold fabric texture is "stretched" (UV distortion) into long spikes that drag behind them, anchoring them to the floor. Their movement is jerky (simulated low framerate).
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Vault. **Floor:** Reflective gold.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Static Wide Shot. **Style:** Lag simulation.
-
-SCENE 10: THE HOARDERS - RESOURCE STARVATION (00:38 - 00:42)
-Action: Close up on the "Gold".
+SCENE 07: THE BUILDERS - COLLISION ERROR (00:24 - 00:28)
+Action: Close-up detail of the "Sin" (Bad Code).
 Prompt:
 **[BLOCK 2: PROPS]**
-> **Object:** A pile of "Gold Coins". **Detail:** Upon inspection, they are actually small, golden CPU processors and RAM sticks. **VFX:** They are smoking (overheating).
+> **Object:** Two obsidian blocks touching. **VFX:** At the contact point, the textures are flickering rapidly between black and grey triangles (Z-Fighting). A red wireframe overlay pulses at the intersection, indicating a collision mesh error.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Macro Pan over the pile.
+> **Camera:** Macro Close-Up on the corner of the block.
 
-SCENE 11: THE DISCONNECT - MECHANISM (00:42 - 00:46)
-Action: Forced logout.
+SCENE 08: THE BUILDERS - COLLAPSE PHYSICS (00:28 - 00:32)
+Action: The structure fails.
+Prompt:
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** The Obsidian Tower. **Action:** The tower does not fall over; it "noclips" through the floor. **VFX:** The blocks simply slide downwards through the ground plane without resistance, disappearing into the void.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Static Wide Shot. **Style:** Physics simulation fail.
+
+SCENE 09: ENOCH WARNING - "WOE TO YOU" (00:32 - 00:36)
+Action: Enoch points out the error.
 Prompt:
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Subject:** Back of a Rich Avatar's neck. **Detail:** A gold data-jack is inserted into the spine.
+> **Actor:** Enoch. **Action:** Pointing a finger downwards. **Expression:** Warning.
 
 **[BLOCK 2: PROPS]**
-> **Action:** The cable is violently ejected by a burst of steam. **VFX:** Blue sparks shower the area. The avatar slumps forward (ragdoll physics).
+> **VFX:** A floating red holographic glyph "⚠" (Warning triangle) appears in focus near his hand.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** High-speed Macro (Slow Motion).
+> **Camera:** Medium Shot, focus shift from hand to face.
 
-SCENE 12: SYSTEM ALERT - SKYBOX UPDATE (00:46 - 00:50)
-Action: "Day of Bloodshed" global notification.
+SCENE 10: THE HOARDERS - ASSET OVERLOAD (00:36 - 00:40)
+Action: The "Rich" burdened by high-poly assets.
 Prompt:
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actors:** The Hoarders (Avatars). **Apparel:** Draped in excessive layers of heavy gold brocade fabric. **VFX:** The fabric texture is stretching infinitely into the distance (UV distortion), anchoring them in place. Their animation framerate is visibly low (12fps) while the environment is smooth (60fps).
+
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Glitch City Skyline. **Skybox:** The sky texture changes instantly from blue to solid crimson red `#FF0000`. **VFX:** Giant white Ge'ez characters "SYSTEM_PURGE" scroll across the clouds. A grid of laser-scan lines sweeps across the buildings.
+> **Location:** The Vault. **Floor:** Gold mirror.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Wide Panorama (panning).
+> **Camera:** Wide Shot. **Style:** Visualizing "Lag".
 
-SCENE 13: THE COLLAPSE - VOXELIZATION (00:50 - 00:54)
-Action: The Obsidian Tower dissolves.
-Prompt:
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Obsidian Tower. **Action:** The structure does not crumble down; it dissolves upwards. **VFX:** The building breaks apart into millions of perfect black cubes (voxels) that float up into the red sky.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Tilt Up following the voxels.
-
-SCENE 14: THE SWORD - EXECUTION KERNEL (00:54 - 00:58)
-Action: Visualization of the "Sword" as a deletion tool.
+SCENE 11: THE HOARDERS - THERMAL THROTTLING (00:40 - 00:44)
+Action: The resources overheat.
 Prompt:
 **[BLOCK 2: PROPS]**
-> **Object:** The "Sword". **Description:** A vertical line of blinding white plasma (The Cursor). It cuts through the red sky. **VFX:** The air distorts around it (heat haze). It leaves a trail of null-black void where it cuts.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Background:** Red Sky.
+> **Object:** A pile of gold bars and coins. **Detail:** On closer inspection, they are gold-plated CPUs and GPUs. **VFX:** Thick black smoke is rising from the pile. The metal is glowing dull red from heat.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Telephoto, tracking the cursor.
+> **Camera:** Pan across the pile.
 
-SCENE 15: THE WIPE - GLOBAL FORMAT (00:58 - 01:02)
-Action: Total deletion.
-Prompt:
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Glitch City. **Action:** A solid wall of white light moves horizontally across the city. **VFX:** Everything the wall touches (buildings, avatars) is instantly replaced by a clean white wireframe grid.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Aerial Drone, high altitude, looking down.
-
-SCENE 16: ENOCH VALIDATION - COOLING (01:02 - 01:06)
-Action: Enoch observes the clean system.
+SCENE 12: THE DISCONNECT - FORCED LOGOUT (00:44 - 00:48)
+Action: The mechanism of "Death" for a user.
 Prompt:
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch. **Physique:** Neck/Face. **VFX:** The blinding gold light in his veins cools down to a steady, calm blue. The thermal transparency of the skin fades back to opaque marble.
+> **Subject:** Back of a Hoarder's neck. **Detail:** A gold data-port interface embedded in the spine.
 
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Background:** The view below is now a serene, empty blue grid.
+**[BLOCK 2: PROPS]**
+> **Action:** A thick black cable is violently ejected from the port by a burst of steam. **VFX:** Blue electrical arcs snap. The avatar goes instantly limp (ragdoll).
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Close-Up.
+> **Camera:** High Speed Slow Motion (Phantom Flex style).
 
-SCENE 17: THE REMNANT - VALIDATED USERS (01:06 - 01:10)
-Action: The Righteous remain.
+SCENE 13: SYSTEM ALERT - SKYBOX UPDATE (00:48 - 00:52)
+Action: The "Day of Darkness" begins.
+Prompt:
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Glitch City Skyline. **Skybox:** The sky texture is instantly replaced by a flat, solid crimson red `#AA0000`. **VFX:** Giant white Ge'ez characters "SYSTEM_PURGE" scroll horizontally across the sky.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Wide Panorama, panning right.
+
+SCENE 14: THE SWORD - THE CURSOR (00:52 - 00:56)
+Action: Visualizing "The Sword" as a deletion tool.
+Prompt:
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Object:** The "Sword". **Description:** It is not a metal blade, but a vertical line of blinding white pixels (a giant cursor) extending from sky to ground. **Action:** It cuts through the city. **VFX:** Everything behind the line is deleted (replaced by void black).
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Telephoto Lens, tracking the line's movement.
+
+SCENE 15: THE WIPE - FORMATTING (00:56 - 01:00)
+Action: Total removal of corrupt assets.
+Prompt:
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Glitch City. **Action:** A wave of white wireframe geometry sweeps over the chaotic buildings. **VFX:** As the wave passes, the textured buildings are replaced by clean, empty grid lines.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Aerial Drone View, looking straight down (God's Eye).
+
+SCENE 16: ENOCH VALIDATION - COOLING DOWN (01:00 - 01:05)
+Action: Post-processing complete.
 Prompt:
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actors:** The Elect (Validated User Group). **Appearance:** Silhouettes made of pure white bioluminescent light. No features, just human form. **VFX:** They stand perfectly still on the grid intersections.
+> **Actor:** Enoch. **Physique:** Face and Neck. **VFX:** The blinding gold light in his veins dims and turns to a steady, cool blue pulse. The marble skin regains its opacity.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Formatted Grid.
+> **Background:** The chaotic city in the glass reflection is now a calm, blue grid.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Symmetrical Wide Shot.
+> **Camera:** Close-Up. **Lighting:** Soft blue ambient fill.
 
-SCENE 18: TERMINAL LOG - END OF CHAPTER (01:10 - 01:15)
-Action: Log off.
+SCENE 17: THE REMNANT - VALIDATED USERS (01:05 - 01:10)
+Action: The "Righteous" remain.
+Prompt:
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actors:** The Elect (Validated Users). **Appearance:** Humanoid silhouettes made entirely of white bioluminescent data particles. **Action:** Standing perfectly still on the grid intersections.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** The Formatted Grid. **Atmosphere:** Clean, devoid of fog or glitches.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Symmetrical Wide Shot. Center framed.
+
+SCENE 18: TERMINAL LOG - END OF PROCESS (01:10 - 01:15)
+Action: System log.
 Prompt:
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Subject:** Retro Terminal Screen. **Text:** "CHAPTER 94: COMPLETED. CACHE_CLEARED." **Style:** Green phosphor on black glass. Scanlines.
+> **Subject:** Retro Terminal Screen (CRT). **Text:** `CHAPTER_94: COMPLETED. CACHE_CLEARED. MEMORY_FREED: 42TB.` **Style:** Green phosphor text on curved black glass.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
 > **Camera:** Direct Feed (2D).

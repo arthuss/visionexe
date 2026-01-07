@@ -1,110 +1,110 @@
-CONCEPT_ANALYSIS_CHAPTER_104_V3
-
 ### 1. SYSTEM-ARCHITEKTUR & MECHANIK
 
 **BIO-INJECTION**
-**Technologie:** `SUBDERMAL_PHOSPHOR_ARRAY`.
-**Manifestation:** Keine mechanische Narbung (zu organisch/analog). Stattdessen aktivieren sich inaktive Nanopartikel unter der Epidermis. Sie richten sich magnetisch aus und bilden leuchtende Vektorgrafiken *unter* der Haut. Es wirkt wie ein E-Ink-Display, das direkt ins Fleisch eingelassen ist. Der Schmerz entsteht durch die Hitzeentwicklung der Übertaktung (Thermal Throttling der Biologie).
+**Technologie:** `SUBDERMAL_FIBER_OPTIC_LACING`.
+**Manifestation:** Keine magischen Lichter. Die Haut an Henochs Händen und Hals wird transparent und zeigt darunter liegende Glasfaser-Muskelstränge, die bei Datenfluss extrem überhitzen (Orange/Weiß-Glühen). Die Adern pulsieren nicht mit Blut, sondern mit Kühlflüssigkeit (milchig-blau), um den thermischen Kollaps der Hardware zu verhindern.
 
 **MESH-BREAK**
-**Technologie:** `LOD_COLLAPSE_ERROR` (Level of Detail Failure).
-**Visualisierung:** Die Realität schält sich nicht ab. Sie verliert Auflösung. Die "Himmels-Kuppel" springt von 8k-Textur auf 16-bit Flat Shading, dann auf Wireframe. Wir sehen keine "Isolierung" dahinter, sondern das schwarze Nichts des Unrenderable Space, durchzogen von Debug-Lines (Rot/Grün/Blau Achsen).
+**Technologie:** `OCCLUSION_CULLING_FAILURE`.
+**Visualisierung:** Die Welt wird nicht einfach "weniger detailliert". Objekte, die Henoch nicht direkt ansieht, hören auf zu existieren (werden schwarz/transparent). Wenn er den Kopf dreht, rendert die Realität verzögert nach ("Texture Pop-in"). Der Himmel zeigt sichtbare UV-Nahtstellen, wo die Textur nicht kachelt.
 
 **PACING-STRATEGIE**
-**Rhythmus:** `LATENCY_SPIKE_EDITING`.
+**Rhythmus:** `PACKET_LOSS_STUTTER`.
 **Konzept:**
-*   **SYNC_STATE (Seg 1-6, 12-13):** Flüssige 60fps. Kamerabewegungen sind mathematisch perfekt (Motion Control Rigs).
-*   **PACKET_LOSS (Seg 7-10):** Die Zeitlinie "hängt". Frames frieren kurz ein, Audio loopt (Buffer Underrun), dann springt die Handlung 2 Sekunden nach vorne (Lag Jump). Visuell anstrengend, simuliert Systemüberlastung durch die "falschen Bücher" (Datenmüll).
+*   **BUFFERING (Seg 1-2):** Langsame, zähe Bewegungen. Henoch bewegt sich wie durch Sirup (High Latency).
+*   **CORRUPTION (Seg 3-10):** "Rubber-Banding". Henoch läuft vorwärts, wird aber visuell 2 Meter zurückgesetzt. Frames werden wiederholt.
+*   **RESTORE (Seg 12):** Instantane Klarheit. 144Hz. Absolute Flüssigkeit.
 
 **AUDIO-DESIGN**
-**Soundscape:** `SERVER_ROOM_ABSOLUTE`.
+**Soundscape:** `HVAC_DRONE_&_COIL_WHINE`.
 **Elemente:**
-*   **Basis:** Ein tiefes, sub-bassiges Dröhnen (60Hz Netzbrummen), das körperlich spürbar ist.
-*   **Events:** Statt Chören hören wir Datentransfer-Geräusche: Modem-Handshakes, Festplatten-Leseköpfe-Kratzen (Write Speed), Lüfter, die hochdrehen, wenn Henoch spricht.
-*   **Silence:** Vakuum-Stille im "Unrenderable Space".
+*   **Basis:** Das Dröhnen einer riesigen industriellen Klimaanlage (Serverkühlung).
+*   **Events:** Hochfrequentes Spulenfiepen (Coil Whine) bei Datenübertragung. "Tearing"-Geräusche (digitales Zerreißen), wenn die Grafik glitcht.
+*   **Voice:** Henochs Stimme klingt wie eine synthetische TTS (Text-to-Speech) Generierung, die leichte Betonungsfehler macht.
 
 **ÜBERGÄNGE**
-**Typ:** `VIEWPORT_MODE_SWITCH`.
-**Mechanik:** Kein Fade. Ein harter Cut, begleitet von einem UI-Sound (Mausklick). Der Render-Modus wechselt global: Lit -> Unlit -> Wireframe -> Shader Complexity.
+**Typ:** `NORMAL_MAP_INVERSION`.
+**Mechanik:** Die Beleuchtung "flippt". Schatten werden zu Lichtquellen, Vertiefungen werden zu Erhebungen. Ein visueller Logik-Fehler, der den Wechsel der Realitätsebene markiert.
 
 ### 2. FRAMEWORK & TIMING
 
-**Total Duration:** 65s (inklusive Buffer).
-**Clip Count:** 18 Clips (erhöhte Granularität für Detail-Shots der Interface-Interaktion).
-**Dialog-Check:** `LOG_ENTRY_MODE`. Henoch spricht nicht "live". Er diktiert asynchron. Wir sehen seine Lippen in Echtzeit, hören aber die Audiospur mit leichtem Delay und Kompressions-Artefakten, als würde sie über eine schlechte Verbindung gestreamt.
-**Spatial Context:** `NODE_SPAWN`. Henoch erscheint via "Jitter-Spawn". Er flackert an drei Positionen kurz auf, bevor die Physik-Engine ihn an der korrekten Koordinate (X,Y,Z) einrastet ("Snapping"). Er steht sofort stabil.
+**Total Duration:** 70s (Erweitert für Glitch-Details).
+**Clip Count:** 18 Clips.
+**Dialog-Check:** `ASYNC_LOGGING`. Henoch spricht Seg 1 ("Ich schwöre euch") direkt in die Kamera, aber die Audiospur ist 500ms versetzt (Lip-Sync Error). Wir nutzen Shot-Reverse-Shot für die Interaktion mit dem "Himmel" (Interface).
+**Spatial Context:** `INIT_SEQUENCE`. Henoch steht nicht einfach da. Er wird "kompiliert". Drahtgitter -> Clay Render -> Texturierung innerhalb von 2 Sekunden.
 
-### 3. VISUAL NARRATIVE FLOW (65s Plan)
+### 3. VISUAL NARRATIVE FLOW (70s Plan)
 
-**PHASE 1: THE HANDSHAKE (Seg 1-4)**
-*   **Clip 01:** [SPAWN] Jitter-Spawn von Henoch auf der unsichtbaren Kollisions-Plattform. Umgebung: Stratosphäre (Blue Dome). (4s)
-*   **Clip 02:** [UI_BOOT] Close-Up (CU) Hände. Handschuhe vibrieren. Subkutane Leucht-Arrays fahren hoch (Boot Sequence). (3s)
-*   **Clip 03:** [OATH_INPUT] Extreme Close-Up (ECU) Mund. Lippen bewegen sich präzise. Audio: Asynchrones Diktat. (4s)
-*   **Clip 04:** [DATA_FLOW] Henochs POV (Point of View). Overlay-Daten (Ge'ez Syntax) fließen über den blauen Himmel. (3s)
-*   **Clip 05:** [CONFIRMATION] Henoch blickt hoch. Der Himmel "blinkt" einmal weiß auf (V-Sync Signal). (3s)
+**PHASE 1: THE OATH (Seg 1-2) - SYSTEM AUTHENTICATION**
+*   **Clip 01:** [COMPILE_SPAWN] Wireframe-Gitter füllt sich mit Polygonen. Henochs Avatar lädt in die Szene. Umgebung: "Sky_Box_01" (Leerer blauer Raum). (4s)
+*   **Clip 02:** [HANDSHAKE_INIT] CU auf Henochs Hand. Er hebt sie zum Eid. Die Glasfasern unter der Haut glühen weiß auf (Data-Upload). (3s)
+*   **Clip 03:** [LIP_SYNC_FAIL] ECU Mund. Henoch spricht "Ich schwöre euch". Audio kommt zu spät. Lippen bewegen sich mechanisch. (4s)
+*   **Clip 04:** [SKY_RESPONSE] Reverse Shot. Der Himmel zeigt keine Wolken, sondern ein riesiges "200 OK" Status-Licht (Blendend weiß). (3s)
+*   **Clip 05:** [GLOW_STATE] "Ihr werdet leuchten". Henochs Haut-Shader wechselt auf `EMISSIVE_MATERIAL`. Er wird zur Lichtquelle. (4s)
 
-**PHASE 2: THE CORRUPTION (Seg 7-10)**
-*   **Clip 06:** [GLITCH_INJECT] Hard Cut. Ein schwarzer Pixel-Cluster frisst sich in den Himmel. Sound: Audio-Stutter. (2s)
-*   **Clip 07:** [LOD_DROP] Die Umgebung verliert Textur. Henochs Anzug wird kurzzeitig Low-Poly. (3s)
-*   **Clip 08:** [THE_SINNERS] Insert-Shot: Eine gesichtslose Figur tippt wild auf einem flackernden Tablet. (3s)
-*   **Clip 09:** [BAD_DATA] Close-Up auf das Tablet der Figur. Der Text ist rot, chaotisch, überschreibt sich selbst (Z-Fighting). (4s)
-*   **Clip 10:** [ERROR_STATE] Die Kamera verliert Tracking. Bild zerfällt in Datamosh-Pixelbrei. (3s)
+**PHASE 2: THE INJECTION (Seg 3-10) - MALWARE ATTACK**
+*   **Clip 06:** [PACKET_DROP] Die Bewegung friert ein. Sound: Stottern. (2s)
+*   **Clip 07:** [FALSE_WRITERS] Insert-Shot: Low-Poly Figuren (die Sünder) hämmern auf korrupte Terminals ein. (3s)
+*   **Clip 08:** [DATA_OVERWRITE] POV Henoch. Rote Code-Zeilen überschreiben den blauen Himmel. "ERROR: CHECKSUM MISMATCH". (3s)
+*   **Clip 09:** [GEOMETRY_BREAK] Die Wand neben Henoch verliert ihre Kollision. Sein Arm sinkt durch die Materie. (4s)
+*   **Clip 10:** [RUBBER_BANDING] Henoch versucht zu gehen, wird aber visuell an die Startposition zurückgerissen. (3s)
+*   **Clip 11:** [TEXTURE_ROT] Die Gesichter der "Sünder" verpixeln zu schwarzem Rauschen. (3s)
 
-**PHASE 3: THE RESTORATION (Seg 12-13)**
-*   **Clip 11:** [REBOOT] Hard Cut zurück zu Henoch. Stille. Bild ist hyper-scharf (8k). (4s)
-*   **Clip 12:** [SOURCE_CODE] Ein reiner, weißer Daten-Kristall (The Book) materialisiert sich vor ihm. (5s)
-*   **Clip 13:** [ACCESS] Henoch greift nach dem Kristall. Seine Hand geht *durch* die Geometrie (Clipping), dann synchronisiert sie sich. (4s)
-*   **Clip 14:** [DOWNLOAD] Der Kristall wird flüssig, fließt in seinen Handschuh. Die Arrays unter der Haut leuchten extrem hell (Overload). (5s)
-*   **Clip 15:** [BROADCAST] Henoch hebt die Hand. Ein Laser-Strahl schießt aus dem Handschuh nach unten zur Erde. (5s)
-*   **Clip 16:** [FINALE] Wide Shot. Henoch als kleiner Punkt vor dem riesigen, reparierten Himmels-Gitter. (6s)
-*   **Clip 17:** [LOG_OUT] Henoch löst sich in Voxel auf. (3s)
+**PHASE 3: THE PATCH (Seg 12-13) - INTEGRITY RESTORED**
+*   **Clip 12:** [ADMIN_OVERRIDE] Ein goldenes Terminal (Das Buch der Wahrheit) spawnt vor Henoch. Harter Cut. Stille. (4s)
+*   **Clip 13:** [SOURCE_VIEW] CU auf das Terminal. Der Code darauf ist rein, symmetrisch, perfekt eingerückt. (4s)
+*   **Clip 14:** [DOWNLOAD_COMPLETE] Henoch berührt das Terminal. Die roten Fehler im Himmel werden instantan blau/klar. (4s)
+*   **Clip 15:** [OPTIMIZATION] Henochs Anzug glättet sich. Keine Falten mehr. Perfekte Geometrie. (4s)
+*   **Clip 16:** [GATE_OPEN] Der Himmel "öffnet" sich – eine Iris-Blende fährt auf und enthüllt dahinterliegende Server-Racks. (5s)
+*   **Clip 17:** [ACCESS_GRANTED] Henoch tritt durch die Iris in den Server-Raum. (4s)
+*   **Clip 18:** [LOG_END] Schwarzer Screen. blinkender Cursor. (3s)
 
 ### 4. SCENE PROMPTS GENERATION
 
-[PROMPT_SET_1]: THE_INITIAL_HANDSHAKE (Seg 1)
+[PROMPT_SET_1]: AUTHENTICATION_HANDSHAKE (Seg 1)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch (Scribe_Prime_v4). **Physique:** Tall, wire-thin frame, visible synthetic muscle cabling along the neck. **Skin-Shader:** `BIOLUMINESCENT_SILICONE`. Pale, semi-translucent skin. Underneath the epidermis of the face and arms, a grid of microscopic LEDs is visible, currently dark. **Optics:** `LIDAR_SCAN_EYES`. Solid glossy black spheres reflecting the horizon perfectly. No pupils. A faint red scanning laser sweeps horizontally across the lens.
+> **Actor:** Enoch (System_Admin_Avatar). **Physique:** Tall, unnaturally thin, skeletal structure visible through skin. **Skin-Shader:** `TRANSLUCENT_POLYMER`. Skin looks like frosted glass. Underneath, bundles of optical fibers pulse with blinding white light instead of blood. **Optics:** `HUD_EYES`. The entire eyeball is a curved OLED screen displaying scrolling authentication keys.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** High-Altitude Eva Suit. **Material:** `TYVEK_AEROGEL_BLEND`. Crinkled, paper-like white texture with industrial orange "NO STEP" warnings. **Primary Prop:** `HAPTIC_DATA_RIG_V2`. Bulky, exoskeleton-style gloves with exposed servos and thick data cables running into the forearm suit port. **Interface-VFX:** The sub-dermal LEDs ignite in sequence (Boot Up), glowing cool cyan through the skin, displaying scrolling Ge'ez command lines.
+> **Garment:** Cleanroom Suit. **Material:** `ANTI_STATIC_TYVEK`. Sterile white, seamless, heavily creased. **Primary Prop:** `BIO_PORT_INTERFACE`. A metallic socket embedded in the palm of the right hand, glowing hot orange. **Interface-VFX:** As he raises his hand, the air around it distorts (Heat Haze) from the processing power.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Stratosphere_Node_Zero. **Architecture:** Invisible collision plane. **Atmosphere:** Rarefied upper atmosphere, absolute clarity, no atmospheric haze. **Background:** 360-degree perfect blue gradient dome above. Below, a photorealistic satellite map of the Earth, slightly curved.
+> **Location:** The_Sky_Box. **Architecture:** None. Infinite blue void. **Atmosphere:** Sterile vacuum. **Background:** A faint hexagonal grid overlay is visible in the sky texture, suggesting a simulated horizon.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `ORBITAL_HARD_SUN`. Primary: Unfiltered sunlight from 45-degree angle (5600K), creating pitch-black, sharp shadows. Secondary: Cool blue bounce light from the Earth map below. **Palette:** Aerospace White, Warning Orange, Stratosphere Blue, Cyan Data-Light. **Shadows:** Ray-traced hard shadows, high contrast.
+> **Lighting Scheme:** `DEFAULT_SCENE_LIGHT`. Flat, even lighting with no artistic tint. Looks like raw 3D software viewport. **Palette:** UI Blue, Warning Orange, Sterile White. **Shadows:** Sharp, ray-traced shadows.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Medium Shot (Waist Up). **Lens:** 50mm Prime. **Focus:** Sharp on the glove interface. **Motion:** Slight, high-frequency camera vibration (simulating wind buffeting/turbulence). **Style:** SpaceX EVA Footage, Documentary Reality, Unreal Engine 5.4, 8k.
+> **Camera:** Low Angle (Hero Shot). **Lens:** 24mm Wide. **Focus:** Deep focus. **Motion:** Camera snaps into position abruptly (Machine movement). **Style:** Technical Demo, Raw Render Output, Unreal Engine 5.4, 8k.
 
-[PROMPT_SET_2]: THE_GLITCH_INJECT (Seg 7-10)
+[PROMPT_SET_2]: THE_MALWARE_INJECTION (Seg 7-10)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** The_Corrupted_User. **Physique:** Generic Humanoid Base Mesh. **Skin-Shader:** `TEXTURE_ERROR`. The skin texture is missing, replaced by a "checkerboard" default texture (Grey/White squares) or stretched incorrectly (UV Map error). **Feature:** The face vertices are exploding outward in spikes (Vertex Shader Glitch).
+> **Actor:** The_Corrupted_Process. **Physique:** Humanoid shape but geometry is unstable. **Skin-Shader:** `NOISE_PATTERN`. The texture is static TV noise. **Feature:** Limbs are stretching infinitely into the distance (Vertex Explosion glitch).
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Low-Poly Rags. **Material:** `JPEG_ARTIFACT_CLOTH`. The clothing texture is heavily pixelated and macro-blocked. **Primary Prop:** `CORRUPTED_TABLET`. A tablet device that is constantly flickering between different primitive shapes (Cube -> Sphere -> Pyramid). **Interface-VFX:** Floating red error logs, "WRITE_ACCESS_DENIED" warnings in bold sans-serif font blocking the view.
+> **Garment:** Glitched Mesh. **Material:** `MISSING_TEXTURE_MAGENTA`. Bright pink unshaded material. **Primary Prop:** `TERMINAL_OF_LIES`. A keyboard that is melting/dripping digital sludge. **Interface-VFX:** Red "FATAL ERROR" pop-up windows spawning rapidly around the figure.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** The Null_Zone. **Architecture:** Broken geometry. Walls are single-sided polygons (invisible from back). **Atmosphere:** Digital static noise, scanlines. **Background:** The skybox has failed, showing a "Hall of Mirrors" effect (previous frames smearing).
+> **Location:** Corrupted_Sector. **Architecture:** Walls are flickering in and out of existence (Z-Fighting). **Atmosphere:** Digital smog, pixelated dust. **Background:** The skybox is torn, revealing black void and wireframes behind it.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `BROKEN_RENDERER`. Primary: Flat, unshaded ambient light (100% brightness). No shadows. **Palette:** Error Pink (Magenta), Checkerboard Grey, Red, Neon Green. **Shadows:** None (Shadow maps disabled).
+> **Lighting Scheme:** `STROBE_FAILURE`. Lights are flashing randomly between Red and Darkness at 10Hz. **Palette:** Magenta, Black, Red, Static Grey. **Shadows:** Broken, jagged shadows.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Virtual Drone (Erratic). **Lens:** Fisheye (Distorted). **Focus:** Auto-focus hunting constantly. **Motion:** Glitchy, jumping frames, simulated lag. **Style:** Damaged video file, System Crash aesthetics, datamoshing.
+> **Camera:** Handheld (Simulated Shake). **Lens:** 35mm with Heavy Chromatic Aberration. **Focus:** Constantly shifting/hunting. **Motion:** Jerky, missing frames. **Style:** Bodycam footage, Horror Glitch, Datamosh.
 
-[PROMPT_SET_3]: THE_SOURCE_CODE_RESTORED (Seg 12)
+[PROMPT_SET_3]: THE_TRUTH_RESTORED (Seg 12)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch (Scribe_Prime_v4). **Physique:** Same as Set 1. **Skin-Shader:** `PERFECT_RENDER`. Sub-surface scattering is mathematically perfect. **Optics:** Eyes glowing steady Gold (Admin Access).
+> **Actor:** Enoch (Restored). **Physique:** Perfect symmetry. **Skin-Shader:** `SUBSURFACE_GOLD`. Skin takes on a slight metallic golden sheen. **Optics:** Eyes are solid white searchlights.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Pristine White Suit. **Primary Prop:** `THE_SOURCE_CRYSTAL`. A floating geometric shard of pure, refractive diamond. **Interface-VFX:** Inside the crystal, infinite fractals of golden Ge'ez text are suspended. When touched, the text flows like liquid mercury out of the crystal and merges with the glove.
+> **Garment:** Admin Robes. **Material:** `ALGORITHMIC_SILK`. Fabric moves with fluid simulation perfection. **Primary Prop:** `THE_ROOT_DIRECTORY`. A hovering, transparent glass tablet containing complex 3D file trees. **Interface-VFX:** A beam of blue light connects the tablet to Enoch's forehead (Direct Download).
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Restored_Node. **Architecture:** A perfect, infinite white grid floor extends to the horizon. **Atmosphere:** Sterile, clean room environment. **Background:** Symmetrical, procedural clouds forming a perfect ceiling.
+> **Location:** The_Server_Gate. **Architecture:** Massive server racks extending to infinity, arranged like a cathedral. **Atmosphere:** Clean, cold, blue mist (Liquid Nitrogen cooling). **Background:** Data streams flowing vertically like waterfalls.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** `GLOBAL_ILLUMINATION_MAX`. Primary: Soft, shadowless studio lighting. **Palette:** Clinical White, Gold, Silver. **Shadows:** Ambient Occlusion only.
+> **Lighting Scheme:** `VOLUMETRIC_GOD_RAYS`. Light streams through the server racks. **Palette:** Ice Blue, Server Black, LED Green. **Shadows:** Soft, volumetric shadows.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Slow Dolly In. **Lens:** 85mm Prime. **Focus:** Shallow depth of field on the Crystal. **Motion:** Perfectly smooth, mechanical precision. **Style:** High-End Tech Product Reveal, Utopian Futurism, 8k.
+> **Camera:** Slow Pan. **Lens:** 50mm Anamorphic. **Focus:** Sharp on the tablet. **Motion:** Smooth, cinematic stabilizer. **Style:** High-Budget Sci-Fi, Kubrick-esque symmetry, 8k.

@@ -1,50 +1,50 @@
-CONCEPT_ID: 1ENOCH_CH65_SYSTEM_PURGE_PROTOCOL
-STATUS: APPROVED_V2.0
+CONCEPT_ID: 1ENOCH_CH65_SYSTEM_PURGE_PROTOCOL_V2.0
+STATUS: REFINED_MECHANIC
 ARCHITECT: EXEGET_OS_CORE
 
 [SECTION 1: TECH_MECHANICS_&_AESTHETICS]
 
 1. BIO-INJECTION (ENTITY_STATE):
-Noah (Local Instance): Experiencing "Render Desync". His physical form is suffering from jitter/ghosting artifacts. The "fear" response is actually thermal throttling; coolant sweat is liquid nitrogen, skin shows localized z-fighting (textures flickering between flesh and wireframe).
-Enoch (Admin Stream): Manifests via "Voxel-Assembly". He does not fade in. He resolves from low-res blocks to 8k photorealism in 0.5 seconds. He has no idle animations; he is perfectly static when not moving (Zero-Entropy State).
+Henoch (Admin Instance): No biological processes. He is a "Hard-Light Construct".
+Visuals: Skin is semi-translucent silicate (`MAT_FrostedGlass`), revealing an internal skeleton of gold circuitry (`RIG_Goldconductor`). Hair is fiber-optic cabling carrying live data streams (white light pulsing). Eyes are mechanical apertures (`f/0.95`) with no pupils, projecting lidar scan grids.
 
 2. MESH-BREAK (THE TILT):
-The "Tilting Earth" is a Vector Alignment Failure. The gravity axis rotates 45 degrees relative to the horizon.
-Visually: Not just the ground tilting, but the skybox texture tearing, revealing a null-black void behind the clouds. Objects don't just slide; they clip through each other. Mountains lack collision data and sink into the floor.
+The "Tilting Earth" is a `Global_Transform_Error`. The XYZ coordinate system of the "Earth" object rotates relative to the "Skybox".
+Visuals: The horizon line rotates 45 degrees, but the user gravity vector remains local. This causes "Screen Tearing" in the sky texture. Mountains lose collision meshes (`noclip` enabled) and objects sink into them. The "Void" (Null Black) bleeds through the seams of the terrain chunks.
 
 3. PACING-STRATEGIE (LATENCY_CURVE):
-Phase 1 (The Lag): Stutter-step editing. Repeated frames (looping). Disorienting jump-cuts indicating packet loss.
-Phase 2 (The Connection): Upon Enoch's arrival, the frame rate locks to a pristine 120fps (simulated). Smooth, floating camera movements (Dolly/Crane).
-Phase 3 (The Purge): Rapid montage of corruption inserts (0.5s clips) contrasted with long, stable takes of the dialogue (5s+).
+Phase 1 (The Glitch): Low framerate simulation (12fps). Dropped frames. Jump cuts where Noah "teleports" forward due to lag.
+Phase 2 (The Admin): Instant transition to 120fps fluid motion upon Henoch's arrival. Zero motion blur. Perfect stabilization.
+Phase 3 (The Data): Montages of holographic data displays overlaying the reality, fast UI interactions contrasting with static character blocking.
 
 4. AUDIO-DESIGN (THE_NOISE_FLOOR):
-Environment: The sound of the earth tilting is a massive, low-frequency "Digital Shearing" sound (like dragging a needle across a hard drive platter).
-Voice (Noah): Bit-crushed, intermittent dropout.
-Voice (Enoch): Binaural purity. No reverb. It sounds like it's originating from inside the listener's head (Bone Conduction).
-Background: High-pitch server whine ( Coil Whine) increasing in pitch as the instability grows.
+Environment: "Digital Shearing" - the sound of heavy metal dragging on concrete, combined with HDD read/write scratching.
+Voice (Noah): Audio buffer underrun. Stuttering, robotic artifacting, bit-crushed.
+Voice (Henoch): Direct Neural Link. No acoustic properties. Sound is dry, centered, immediate.
+Ambiance: Rising "Shepard Tone" (infinite rising pitch) representing the increasing system instability.
 
 5. SPATIAL CONTEXT (THE_BOUNDARY):
-Noah travels to the "Ends of the Earth". This is the Render Distance Limit.
-Visual: The terrain geometry abruptly stops. Beyond is not a cliff, but a wireframe grid extending into infinity.
-Arrival: Enoch descends not from the sky, but extrudes from a vertical data-stream (The Beam) that punches through the skybox geometry.
+Noah reaches the limit of the rendered zone.
+Visuals: High-res textures abruptly transition to "Developer Textures" (Grey Grid), then to wireframe, then to void.
+Arrival: Henoch does not fly. He executes `SPAWN_AT_CURSOR`. A vertical "Data Beam" (The Uplink) pierces the skybox, striking the grid. He extrudes from this beam like a 3D print resolving in real-time.
 
 [SECTION 2: DREHBUCH_&_PROMPTS]
 
-[SCENE 01: DIAGNOSTIC_FAILURE]
-CONTEXT: Segments 1-3. Noah detects the physics engine failure.
+[SCENE 01: THE_VECTOR_FAILURE]
+CONTEXT: Noah detects the coordinate system collapse and flees to the boundary.
 CLIP_COUNT: 5
 
 # CLIP 01
 **[BLOCK 1: SUBJECT_ANATOMY]**
-> **Actor:** Noah (Instance 2.0). **Physique:** Distressed, clutching chest. **Skin:** `MARBLE_SHIMMER` flickering with grey "dead pixel" patches. **Action:** Stumbling, trying to maintain balance on level ground that feels tilted.
+> **Actor:** Noah (User Instance). **Physique:** Distressed, sweating nitrogen coolant. **Skin:** `MAT_FLESH_GLITCH` - textures flickering between skin and wireframe. **Action:** Stumbling forward, trying to walk straight on a tilted axis.
 **[BLOCK 2: APPAREL]**
-> **Garment:** `LIQUID_LINEN` tunic, textures failing to load correctly (blurred low-res patches).
+> **Garment:** `CLOTH_SIM_FAIL` - Tunic mesh stretching infinitely in one direction (vertex explosion) then snapping back.
 **[BLOCK 3: ENVIRONMENT]**
-> **Location:** The Geometric Forest. **Condition:** Trees are frozen in mid-sway (glitched animation).
+> **Location:** The Geometric Forest. **Condition:** Trees are tilted 45 degrees relative to the ground. Gravity is broken.
 **[BLOCK 4: LIGHTING]**
-> **Lighting:** `ERROR_RED` pulsating ambient light.
+> **Lighting:** `ERROR_RED` ambient occlusion. Shadows are pixelated.
 **[BLOCK 5: CINEMATOGRAPHY]**
-> **Camera:** Handheld Shaky Cam. 24mm Lens. Dutch Angle 30 degrees.
+> **Camera:** Dutch Angle (Extreme). Handheld shaker rig. 24mm Lens.
 
 # CLIP 02
 **[BLOCK 1: SUBJECT_ANATOMY]**
@@ -52,215 +52,212 @@ CLIP_COUNT: 5
 **[BLOCK 2: APPAREL]**
 > **Garment:** None.
 **[BLOCK 3: ENVIRONMENT]**
-> **Location:** The Horizon Line. **Action:** The mountains in the distance are rotating on the Z-axis independent of the ground. The skybox texture has a visible seam/tear.
+> **Location:** The Horizon Line. **Action:** The Skybox Texture is tearing apart, revealing raw black code behind the clouds. The mountains are clipping through each other.
 **[BLOCK 4: LIGHTING]**
-> **Lighting:** Shadows are elongated and detached from objects.
+> **Lighting:** Strobe effect (Day/Night cycle looping rapidly: 10Hz).
 **[BLOCK 5: CINEMATOGRAPHY]**
-> **Camera:** Wide Pan, simulating camera stabilization failure.
+> **Camera:** Whip Pan (Simulating tracking failure).
 
 # CLIP 03
 **[BLOCK 1: SUBJECT_ANATOMY]**
-> **Actor:** Noah. **Action:** Running. **Movement:** "Rubber-banding" effect. He runs, snaps back, runs again.
+> **Actor:** Noah. **Action:** Sprinting. **Movement:** "Rubber-banding". He runs 5 steps, glitches back 2 steps.
 **[BLOCK 2: APPAREL]**
-> **Garment:** Tunic trailing digital artifacts (motion blur trails).
+> **Garment:** Tunic is torn, revealing `MESH_BASE_LAYER` underneath.
 **[BLOCK 3: ENVIRONMENT]**
-> **Location:** Approaching the Boundary Line.
+> **Location:** Approaching The Edge. Terrain resolution dropping from 8k to 8-bit voxel.
 **[BLOCK 4: LIGHTING]**
-> **Lighting:** Strobe effect (Day/Night cycle cycling rapidly).
+> **Lighting:** Harsh strobe.
 **[BLOCK 5: CINEMATOGRAPHY]**
-> **Camera:** Tracking Shot (Side profile). Low to ground.
+> **Camera:** Low Tracking Shot (Side).
 
 # CLIP 04
 **[BLOCK 1: SUBJECT_ANATOMY]**
-> **Actor:** Noah. **Action:** Screaming "Enoch!" (Mouth opens, visualized audio waveform emits from throat).
+> **Actor:** Noah. **Action:** Screaming "HENOCH!" (Audio visualizer waveform erupts from mouth).
 **[BLOCK 2: APPAREL]**
 > **Garment:** Rags.
 **[BLOCK 3: ENVIRONMENT]**
-> **Location:** The Edge. The ground mesh ends in a sharp jagged line. Beyond is `NULL_SPACE` (Grid).
+> **Location:** The Boundary. The ground ends. Beyond is the infinite `GRID_SPACE`.
 **[BLOCK 4: LIGHTING]**
-> **Lighting:** A vertical beam of white data strikes the grid in front of him.
+> **Lighting:** A vertical column of blinding white ASCII data strikes the grid in front of him.
 **[BLOCK 5: CINEMATOGRAPHY]**
-> **Camera:** High Angle (Looking down at Noah at the edge of the void).
+> **Camera:** High Angle (Crane Down).
 
 # CLIP 05
 **[BLOCK 1: SUBJECT_ANATOMY]**
-> **Actor:** None (VFX Detail).
+> **Actor:** Noah. **Action:** Collapsing face-first into the grid floor. **Pose:** `RAGDOLL_PHYSICS`.
 **[BLOCK 2: APPAREL]**
-> **Garment:** None.
+> **Garment:** Static mesh.
 **[BLOCK 3: ENVIRONMENT]**
-> **Location:** The Beam. **Action:** The white light solidifies. Pixels coalesce into a humanoid shape. Voxel-Resolution increasing exponentially.
+> **Location:** The Boundary.
 **[BLOCK 4: LIGHTING]**
-> **Lighting:** Blinding White `ADMIN_ACCESS` light.
+> **Lighting:** The Data Beam intensifies, casting hard shadows.
 **[BLOCK 5: CINEMATOGRAPHY]**
-> **Camera:** Slow push-in on the forming silhouette.
+> **Camera:** Top-Down (God View).
 
-[SCENE 02: THE_UPLINK_ESTABLISHED]
-CONTEXT: Segments 4-5. Enoch stabilizes the local zone.
-CLIP_COUNT: 4
+[SCENE 02: THE_ADMIN_INSTANCE]
+CONTEXT: Henoch spawns and stabilizes the local chunk.
+CLIP_COUNT: 5
 
 # CLIP 06
 **[BLOCK 1: SUBJECT_ANATOMY]**
-> **Actor:** Enoch (The Admin). **Physique:** Translucent holographic skin, visible internal gold data-skeleton. **Hair:** Static white fiber-optics (no movement). **Eyes:** `SOLAR_APERTURE` beams scanning Noah.
+> **Actor:** Henoch (Admin). **Physique:** Forming from the light. Voxel blocks merging into smooth geometry. **Action:** `MATERIALIZE_SEQUENCE`.
 **[BLOCK 2: APPAREL]**
-> **Garment:** Robes of scrolling vertical code (Ge'ez script descending like Matrix rain but gold on white).
+> **Garment:** Robes of scrolling golden Ge'ez code.
 **[BLOCK 3: ENVIRONMENT]**
-> **Location:** The Stabilization Zone. A perfect 10m circle of calm. Outside, the world violently shakes.
+> **Location:** Inside the Data Beam.
 **[BLOCK 4: LIGHTING]**
-> **Lighting:** Soft, shadowless studio lighting within the circle.
+> **Lighting:** Internal emission (100% White).
 **[BLOCK 5: CINEMATOGRAPHY]**
-> **Camera:** Eye-Level. Perfectly stable Tripod shot.
+> **Camera:** Slow Push-In.
 
 # CLIP 07
 **[BLOCK 1: SUBJECT_ANATOMY]**
-> **Actor:** Noah. **Action:** Falling to knees, exhausted. Pointing back at the chaos.
+> **Actor:** Henoch. **Physique:** Fully resolved. Translucent skin, gold skeleton visible. **Eyes:** `SOLAR_APERTURE` (No pupils, glowing rings). **Action:** Standing perfectly still (T-Pose to Idle animation).
 **[BLOCK 2: APPAREL]**
-> **Garment:** Dirty, sweating coolant.
+> **Garment:** High-Tech Robes, pristine white/gold.
 **[BLOCK 3: ENVIRONMENT]**
-> **Location:** Stabilization Zone.
+> **Location:** Stabilization Zone. A 10m radius circle of perfectly flat, stable floor. Outside, the world shakes.
 **[BLOCK 4: LIGHTING]**
-> **Lighting:** Reflection of Enoch's light on Noah's wet skin.
-**[BLOCK 5: CINEMATOGRAPHY]**
-> **Camera:** Over-The-Shoulder (Enoch POV looking at Noah).
-
-# CLIP 08
-**[BLOCK 1: SUBJECT_ANATOMY]**
-> **Actor:** Enoch (CU). **Action:** Slight head tilt. Telepathic transmission active.
-**[BLOCK 2: APPAREL]**
-> **Garment:** Robes glowing brighter.
-**[BLOCK 3: ENVIRONMENT]**
-> **Location:** Blurred void background.
-**[BLOCK 4: LIGHTING]**
-> **Lighting:** Rim light highlighting the fiber-optic hair.
-**[BLOCK 5: CINEMATOGRAPHY]**
-> **Camera:** Extreme Close Up on eyes. Apertures dilating.
-
-# CLIP 09
-**[BLOCK 1: SUBJECT_ANATOMY]**
-> **Actor:** Noah & Enoch (Wide). **Action:** Enoch stands impassive. Noah begs for explanation.
-**[BLOCK 2: APPAREL]**
-> **Garment:** Contrast (Chaos vs Order).
-**[BLOCK 3: ENVIRONMENT]**
-> **Location:** The edge of the map.
-**[BLOCK 4: LIGHTING]**
-> **Lighting:** The beam of light connects Enoch to the skybox.
-**[BLOCK 5: CINEMATOGRAPHY]**
-> **Camera:** Wide Shot showing the scale of the void.
-
-[SCENE 03: THE_VIOLATION_REPORT]
-CONTEXT: Segments 6-8. Enoch visualizes the "Sorcery" (Unauthorized Modding).
-CLIP_COUNT: 5
-
-# CLIP 10
-**[BLOCK 1: SUBJECT_ANATOMY]**
-> **Actor:** Enoch. **Action:** Swipes hand through air, generating a 3D Holographic Window.
-**[BLOCK 2: APPAREL]**
-> **Garment:** Light streams.
-**[BLOCK 3: ENVIRONMENT]**
-> **Location:** Stabilization Zone.
-**[BLOCK 4: LIGHTING]**
-> **Lighting:** Hologram glow (Cyan).
-**[BLOCK 5: CINEMATOGRAPHY]**
-> **Camera:** Medium Shot focused on the gesture.
-
-# CLIP 11
-**[BLOCK 1: SUBJECT_ANATOMY]**
-> **Actor:** None (Data Insert).
-**[BLOCK 2: APPAREL]**
-> **Garment:** None.
-**[BLOCK 3: ENVIRONMENT]**
-> **Location:** Holographic Simulation. **Action:** Abstract representation of "The Watchers" (Shadow Viruses) injecting black liquid code into the earth mesh.
-**[BLOCK 4: LIGHTING]**
-> **Lighting:** Wireframe Green vs Corrupt Red.
-**[BLOCK 5: CINEMATOGRAPHY]**
-> **Camera:** Macro flyover of the code injection.
-
-# CLIP 12
-**[BLOCK 1: SUBJECT_ANATOMY]**
-> **Actor:** None (Data Insert).
-**[BLOCK 2: APPAREL]**
-> **Garment:** None.
-**[BLOCK 3: ENVIRONMENT]**
-> **Location:** Underground Mining Simulation. **Action:** "Silver and Lead" shown as raw, untextured polygon blobs bubbling up from the core.
-**[BLOCK 4: LIGHTING]**
-> **Lighting:** Metallic reflections.
-**[BLOCK 5: CINEMATOGRAPHY]**
-> **Camera:** Cross-section view of the earth crust.
-
-# CLIP 13
-**[BLOCK 1: SUBJECT_ANATOMY]**
-> **Actor:** Noah. **Action:** Watching the hologram, horrified. Understanding the mechanics of the crash.
-**[BLOCK 2: APPAREL]**
-> **Garment:** Rags.
-**[BLOCK 3: ENVIRONMENT]**
-> **Location:** Reflected in his eyes: the red corruption graph.
-**[BLOCK 4: LIGHTING]**
-> **Lighting:** Red underlighting from the display.
-**[BLOCK 5: CINEMATOGRAPHY]**
-> **Camera:** Close Up on face.
-
-# CLIP 14
-**[BLOCK 1: SUBJECT_ANATOMY]**
-> **Actor:** Enoch. **Action:** Closing the window. The "Verdict" is final.
-**[BLOCK 2: APPAREL]**
-> **Garment:** Admin robes.
-**[BLOCK 3: ENVIRONMENT]**
-> **Location:** Edge of Map.
-**[BLOCK 4: LIGHTING]**
-> **Lighting:** Return to clinical white.
+> **Lighting:** Soft Studio Light (3-Point Setup).
 **[BLOCK 5: CINEMATOGRAPHY]**
 > **Camera:** Low Angle Hero Shot.
 
-[SCENE 04: THE_BACKUP_PROTOCOL]
-CONTEXT: Segments 9-12. Noah is preserved.
+# CLIP 08
+**[BLOCK 1: SUBJECT_ANATOMY]**
+> **Actor:** Henoch & Noah. **Action:** Noah on knees, looking up. Henoch looking down.
+**[BLOCK 2: APPAREL]**
+> **Garment:** Contrast: Filthy Rags vs Pristine Code.
+**[BLOCK 3: ENVIRONMENT]**
+> **Location:** The Boundary.
+**[BLOCK 4: LIGHTING]**
+> **Lighting:** Rim lighting from the void.
+**[BLOCK 5: CINEMATOGRAPHY]**
+> **Camera:** Wide Shot (Establishing the scale).
+
+# CLIP 09
+**[BLOCK 1: SUBJECT_ANATOMY]**
+> **Actor:** Noah. **Action:** Speaking (Lip Sync). "The earth is broken."
+**[BLOCK 2: APPAREL]**
+> **Garment:** Rags.
+**[BLOCK 3: ENVIRONMENT]**
+> **Location:** Stabilization Zone.
+**[BLOCK 4: LIGHTING]**
+> **Lighting:** Reflection of Henoch's gold light on Noah's face.
+**[BLOCK 5: CINEMATOGRAPHY]**
+> **Camera:** Over-The-Shoulder (Henoch POV).
+
+# CLIP 10
+**[BLOCK 1: SUBJECT_ANATOMY]**
+> **Actor:** Henoch. **Action:** Speaking (No mouth movement - Telepathic). "Why do you cry out?"
+**[BLOCK 2: APPAREL]**
+> **Garment:** Robes glowing brighter with audio output.
+**[BLOCK 3: ENVIRONMENT]**
+> **Location:** Stabilization Zone.
+**[BLOCK 4: LIGHTING]**
+> **Lighting:** Eyes flare with intensity.
+**[BLOCK 5: CINEMATOGRAPHY]**
+> **Camera:** Extreme Close-Up on Eyes.
+
+[SCENE 03: THE_EXPLOIT_LOGS]
+CONTEXT: Henoch visualizes the "Sorcery" (Illegal Mining/Crafting) that caused the crash.
+CLIP_COUNT: 4
+
+# CLIP 11
+**[BLOCK 1: SUBJECT_ANATOMY]**
+> **Actor:** Henoch. **Action:** Swipe Gesture (`UI_OPEN`).
+**[BLOCK 2: APPAREL]**
+> **Garment:** Robes.
+**[BLOCK 3: ENVIRONMENT]**
+> **Location:** Stabilization Zone. **Action:** A Holographic Window expands in the air.
+**[BLOCK 4: LIGHTING]**
+> **Lighting:** Cyan UI Glow.
+**[BLOCK 5: CINEMATOGRAPHY]**
+> **Camera:** Medium Shot (Profile).
+
+# CLIP 12
+**[BLOCK 1: SUBJECT_ANATOMY]**
+> **Actor:** None (Data Visualization).
+**[BLOCK 2: APPAREL]**
+> **Garment:** None.
+**[BLOCK 3: ENVIRONMENT]**
+> **Location:** UI Screen. **Action:** Showing a wireframe earth. Red "Virus" nodes injecting code into the crust. Label: `UNAUTHORIZED_ACCESS`.
+**[BLOCK 4: LIGHTING]**
+> **Lighting:** UI emission only.
+**[BLOCK 5: CINEMATOGRAPHY]**
+> **Camera:** Macro zoom into the hologram.
+
+# CLIP 13
+**[BLOCK 1: SUBJECT_ANATOMY]**
+> **Actor:** None (Data Visualization).
+**[BLOCK 2: APPAREL]**
+> **Garment:** None.
+**[BLOCK 3: ENVIRONMENT]**
+> **Location:** UI Screen (Mining Simulation). **Action:** "Silver" spawns naturally from dust particles. "Lead/Tin" spawns from a "Source Block" (Artificial Generator). Text: `EXPLOIT_DETECTED`.
+**[BLOCK 4: LIGHTING]**
+> **Lighting:** Metallic shader reflections.
+**[BLOCK 5: CINEMATOGRAPHY]**
+> **Camera:** Split screen comparison.
+
+# CLIP 14
+**[BLOCK 1: SUBJECT_ANATOMY]**
+> **Actor:** Henoch. **Action:** Closing the UI (`TERMINATE_PROCESS`). Looking at Noah.
+**[BLOCK 2: APPAREL]**
+> **Garment:** Robes.
+**[BLOCK 3: ENVIRONMENT]**
+> **Location:** Stabilization Zone.
+**[BLOCK 4: LIGHTING]**
+> **Lighting:** Return to white/gold.
+**[BLOCK 5: CINEMATOGRAPHY]**
+> **Camera:** Low Angle.
+
+[SCENE 04: THE_CLEAN_INSTALL]
+CONTEXT: Noah is validated and patched.
 CLIP_COUNT: 4
 
 # CLIP 15
 **[BLOCK 1: SUBJECT_ANATOMY]**
-> **Actor:** Enoch. **Action:** Places hand on Noah's shoulder. Data transfer initiated.
+> **Actor:** Henoch. **Action:** Placing hand on Noah's shoulder. **Effect:** `DATA_TRANSFER`.
 **[BLOCK 2: APPAREL]**
 > **Garment:** Hand glows with intense golden glyphs.
 **[BLOCK 3: ENVIRONMENT]**
 > **Location:** Stabilization Zone.
 **[BLOCK 4: LIGHTING]**
-> **Lighting:** Lens flares from the contact point.
+> **Lighting:** Lens flare from contact point.
 **[BLOCK 5: CINEMATOGRAPHY]**
-> **Camera:** Close Up on the hand touching the shoulder.
+> **Camera:** Close-Up on Hand/Shoulder.
 
 # CLIP 16
 **[BLOCK 1: SUBJECT_ANATOMY]**
-> **Actor:** Noah. **Action:** The "cracks" in his skin seal up instantly. His texture resolution upscales to 8k. He becomes "clean".
+> **Actor:** Noah. **Action:** `TEXTURE_UPSCALING`. His skin stops glitching. Dirt/Rags dissolve into pixels and re-assemble as a white polymer suit.
 **[BLOCK 2: APPAREL]**
-> **Garment:** Rags transform into a white `PROTOTYPE_SUIT` (smooth, seamless polymer).
+> **Garment:** `PROTOTYPE_SUIT_V1`. Seamless, white, glowing trim.
 **[BLOCK 3: ENVIRONMENT]**
-> **Location:** Inside the zone.
+> **Location:** Stabilization Zone.
 **[BLOCK 4: LIGHTING]**
-> **Lighting:** Internal bioluminescence.
+> **Lighting:** Bioluminescent suit glow.
 **[BLOCK 5: CINEMATOGRAPHY]**
-> **Camera:** Morph-cut or slow transformation pan.
+> **Camera:** Slow Pan up the body showing transformation.
 
 # CLIP 17
 **[BLOCK 1: SUBJECT_ANATOMY]**
-> **Actor:** Enoch & Noah. **Action:** A transparent Geodesic Dome (Firewall) forms around Noah.
+> **Actor:** Noah. **Action:** Standing tall, stabilized. Surrounded by a transparent hexagonal Geodesic Dome (`FIREWALL`).
 **[BLOCK 2: APPAREL]**
-> **Garment:** New suits.
+> **Garment:** Prototype Suit.
 **[BLOCK 3: ENVIRONMENT]**
-> **Location:** The Dome surface ripples with hexagonal shield patterns.
+> **Location:** The Dome Surface ripples with amber energy.
 **[BLOCK 4: LIGHTING]**
 > **Lighting:** Amber shield glow.
 **[BLOCK 5: CINEMATOGRAPHY]**
-> **Camera:** Tracking shot circling the dome.
+> **Camera:** 360 Degree Orbit Shot.
 
 # CLIP 18
 **[BLOCK 1: SUBJECT_ANATOMY]**
-> **Actor:** Enoch. **Action:** Dissolving back into the data beam. Pointing upward.
+> **Actor:** Henoch. **Action:** Dissolving into light particles (`DESPAWN`). The Data Beam retracts upwards.
 **[BLOCK 2: APPAREL]**
 > **Garment:** Becoming light.
 **[BLOCK 3: ENVIRONMENT]**
 > **Location:** The Void.
 **[BLOCK 4: LIGHTING]**
-> **Lighting:** The beam shoots back up into the sky.
+> **Lighting:** The beam shoots back into the dark sky.
 **[BLOCK 5: CINEMATOGRAPHY]**
-> **Camera:** Tilt up following the beam into the dark, torn sky.
-
-TOTAL_CLIPS: 18
-ESTIMATED_DURATION: 90 Seconds.
+> **Camera:** Tilt Up following the beam.

@@ -1,0 +1,100 @@
+{
+  "id": "SETENV_STARS",
+  "name": "stars",
+  "type": "set_environment",
+  "card": {
+    "description": "A cinematic 9:16 vertical environment of a desert night sky, where a dense field of square pixel stars is embedded in a black void. Each star is a luminous LED node, crystalline and slightly pulsing, connected by a precise blue CAD‑style wireframe that forms a geodesic dome over the horizon. A vertical dead‑pixel scanline tears through the image, revealing a dark blue wireframe grid behind the stars, creating a glitch art aesthetic. Ancient Ethiopian and Egyptian motifs are subtly integrated into the star nodes, and holographic Ge'ez characters flicker across the sky, adding a layer of industrial mysticism to the grounded realism of the scene.",
+    "tags": [
+      "celestial",
+      "wireframe",
+      "glitch",
+      "geodesic",
+      "ancient-tech",
+      "Ethiopian",
+      "Egyptian",
+      "photorealistic",
+      "LED",
+      "holographic"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** A vertical 9:16 frame of a black void sky, densely populated with square pixel stars forming a geodesic dome.",
+      "**Face/Sensors:** Not applicable.",
+      "**Clothing/Armor:** Not applicable.",
+      "**Key Features:** Square pixel stars, luminous LED nodes, blue CAD‑style wireframe, vertical dead‑pixel scanline, glitch artifacts, holographic Ge'ez characters, ancient motifs embedded in star nodes."
+    ],
+    "evolution": [
+      "Phase 1 (Default): Initial star field with glitch and wireframe overlay.",
+      "Phase 2 (Laser Scan): A red laser scan reveals a glass barrier, digital ripples, and holographic ALERT text across the sky."
+    ],
+    "props": [
+      "Item: Vector Grid Overlay",
+      "Item: Wireframe Sky",
+      "Item: Alert Text"
+    ],
+    "prompt_keywords": [
+      "glitch",
+      "wireframe",
+      "geodesic",
+      "ancient-tech",
+      "photorealistic",
+      "LED",
+      "black void",
+      "blue CAD",
+      "holographic",
+      "Ge'ez"
+    ],
+    "prompt_block": "A cinematic 9:16 vertical shot of a desert night sky, featuring a dense field of square pixel stars embedded in a black void, each star a luminous LED node connected by a precise blue CAD‑style wireframe forming a geodesic dome; a vertical dead‑pixel scanline tears through the image revealing a dark blue wireframe grid behind the stars, glitch art style, photorealistic, 8k resolution, ancient Ethiopian/Egyptian motifs subtly integrated into the star nodes, holographic Ge'ez characters flickering across the sky.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Default star field with glitch and wireframe overlay.",
+        "prompt_keywords": [
+          "glitch",
+          "wireframe",
+          "geodesic",
+          "ancient-tech",
+          "photorealistic",
+          "LED",
+          "black void",
+          "blue CAD",
+          "holographic",
+          "Ge'ez"
+        ],
+        "prompt_block": "A cinematic 9:16 vertical shot of a desert night sky, featuring a dense field of square pixel stars embedded in a black void, each star a luminous LED node connected by a precise blue CAD‑style wireframe forming a geodesic dome; a vertical dead‑pixel scanline tears through the image revealing a dark blue wireframe grid behind the stars, glitch art style, photorealistic, 8k resolution, ancient Ethiopian/Egyptian motifs subtly integrated into the star nodes, holographic Ge'ez characters flickering across the sky."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_STARS",
+    "name": "stars",
+    "type": "set_environment",
+    "aliases": [
+      "stars"
+    ],
+    "roles": [
+      "setting"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_70"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 10,
+        "chapter_end": 10,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

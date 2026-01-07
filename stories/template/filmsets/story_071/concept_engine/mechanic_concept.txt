@@ -1,160 +1,155 @@
 ### KONZEPT & MECHANIK: KAPITEL 71 (SYSTEM_CORE_ACCESS_V2)
 
-1. BIO-INJECTION (VOXEL_DECAY_PROTOCOL):
-Keine organische Transzendenz. Der Prozess ist eine aggressive "Voxel-Disassemblierung".
-Visual: Henochs Haut löst sich nicht auf, sie "bricht" in würfelförmige Cluster (Gold-Voxel, Hex: #FFD700) auf. Darunter liegt kein Fleisch, sondern ein strahlendes, weißes Wireframe-Gitter.
-Tech-Trigger: Ein lokaler Overwrite-Befehl. Die Partikel schweben nicht chaotisch, sie werden linear in den Himmel gesaugt (Data-Stream).
+**1. BIO-INJECTION (TRANSCODING_CASCADE):**
+Keine Nanobots, kein einfacher Zerfall. Das Phänomen ist eine **Licht-Sättigung**. Das organische Gewebe kann die Bitrate der neuen Dimension nicht verarbeiten.
+*Mechanik:* `SUBSURFACE_OVERLOAD`. Die Haut wird erst transluzent (wie Wachs), dann transparent (Glas). Das innere "Skelett" (Wireframe) beginnt so hell zu leuchten, dass es die Textur von innen heraus "wegbrennt". Es ist eine Sublimation von Materie zu Licht-Daten.
 
-2. MESH-BREAK (RENDER_CULLING):
-Die Welt um Henoch (Earth_Map_01) wird nicht ausgeblendet. Sie wird "entladen".
-Visual: Bäume und Boden verschwinden in harten, quadratischen Chunks (Occlusion Culling). Dahinter ist keine Leere, sondern der "Server_Room_Infinity" (das Ziel). Der Himmel flackert (Z-Fighting) und wird abrupt durch die Architektur des Himmels ersetzt.
+**2. MESH-BREAK (LOD_COLLAPSE):**
+Die Welt bricht nicht in Chunks weg, sie reduziert ihre Komplexität.
+*Mechanik:* `REVERSE_LOD`. Die Umgebung (Erde/Himmel) schaltet sichtbar runter: High-Poly -> Low-Poly -> Wireframe -> Null-Space. Dies geschieht in konzentrischen Ringen um Henoch herum, als würde die Render-Engine Ressourcen freigeben, um den neuen Level zu laden.
 
-3. PACING-STRATEGIE (LATENCY_CURVE):
-Sekunde 00-10 (Upload): Stroboskopisch, Glitch-Cuts, Desorientierung. Frame-Drops simulieren Systemlast.
-Sekunde 10-35 (Core View): Extrem stabilisierte, langsame Dolly-Zooms ("God-Mode Camera"). Monumentale Ruhe der Maschine.
-Sekunde 35-60 (Interaction): Rhythmischer Schnitt (Shot-Reverse-Shot), synchronisiert mit dem Daten-Transfer (Sprache).
+**3. PACING-STRATEGIE (LATENCY_CURVE):**
+*   **Clip 01-04 (Ingress):** Extrem schnell, Stutter-Edits, visuelles Rauschen. Simulation von Bandbreiten-Engpass.
+*   **Clip 05-11 (The Core):** Monumental, langsam, gleitend. Stabilisierte Dolly-Shots. Die "Ewigkeit" der Maschine.
+*   **Clip 12-18 (Interaction):** Klassisches narratives Cinema. Shot-Reverse-Shot für den Dialog, Fokus auf Mikro-Mimik.
 
-4. AUDIO-DESIGN (SERVER_FARM_AMBIENCE):
-Keine Musik.
-Layer 1: Deep Drone (40Hz) – Das Brummen der Kühlaggregate.
-Layer 2: High Pitch Whine (15kHz) – Spulen-Fiepen der Transformatoren.
-Layer 3: "Steps" – Wenn die Engel laufen, klingt es wie Keramik auf Glas.
-Dialog: Die Stimme Michaels ist kein Schall, sondern eine Resonanz im Kopf (Sub-Bass), begleitet von Modem-Handshake-Geräuschen.
+**4. AUDIO-DESIGN (HAPTIC_DRONE):**
+Statt Chören: **Resonanz**.
+*   **Bass:** Ein durchgehendes 50Hz Netzbrummen (Mains Hum).
+*   **Data:** Das "Sprechen" der Engel ist moduliertes Weißes Rauschen und Modem-Handshake-Zirpen.
+*   **Environment:** Knisternde Hochspannung (Tesla-Spulen), wenn die Feuerströme fließen.
 
-5. ÜBERGÄNGE (HOT_SWAP):
-Kein Flug, kein Tunnel. Ein "Hard Cut" zwischen den Dimensionen.
-Frame A: Henoch in der Wüste.
-Frame B: Henoch auf der Obsidian-Plattform, stolpernd durch die fehlende Trägheit. Er behält seinen Impuls bei.
+**5. ÜBERGÄNGE (DATA_TEARING):**
+Kein sanftes Überblenden. Wir nutzen **Datamoshing**. Die Pixel des vorherigen Frames "schmieren" in den neuen Frame, bevor der Keyframe einrastet. Es wirkt wie ein beschädigter Video-Stream, der sich selbst repariert.
 
-6. FRAMEWORK & TIMING (18 CLIPS / 65 SEKUNDEN):
-Wir benötigen Granularität für die Interaktion.
-Clips 01-03: Extraction (Earth).
-Clips 04-09: The Machine (Environment & Daemons).
-Clips 10-13: The Encounter (Fall & Recovery).
-Clips 14-18: The Message (Dialog & Definition).
+**6. FRAMEWORK & TIMING:**
+18 Clips. Gesamtdauer ca. 75 Sekunden.
+*   Clips 01-04: The Upload (Seg 2-3)
+*   Clips 05-10: The Architecture (Seg 4-9)
+*   Clips 11-13: The Transcoding (Seg 10-12)
+*   Clips 14-18: The Identification (Seg 13-17)
 
-7. DIALOG-CHECK (PROTOCOL_HANDSHAKE):
-Ja, zwingend. Segment 014-015.
-Shot A (Michael): "This is the Son of Man..." (Sprecher).
-Shot B (Enoch): Verwirrung, erkennt seine neue Rolle.
-Shot C (Michael): Close-Up auf Lippen/Interface.
+**7. DIALOG-CHECK (SYSTEM_LOG):**
+Ja. Segment 14 ist der Kern.
+Shot A (Michael): Sprecher-Rolle. Ruhig, autoritär.
+Shot B (Enoch): Zuhörer. Emotionaler Shift von Panik zu Erkenntnis.
 
-8. SPATIAL CONTEXT (INSTANCING):
-Henoch spawnt auf dem "Bus-System" (Feuerströme). Die Umgebung ist gigantisch, er ist mikroskopisch klein im Vergleich zu den Server-Türmen.
-Establishing Shot: Zwingend. Ultra-Wide (12mm) von oben herab.
+**8. SPATIAL CONTEXT (THE_MAINFRAME):**
+Henoch "spawnt" nicht auf einer Plattform, er wird **materialisiert** im Zentrum eines Daten-Highways.
+*Establishing Shot:* Nötig in Clip 06. Zeigt den "Kristall-Palast" als einen gigantischen Server-Kubus, der im Vakuum schwebt, gekühlt durch flüssiges Licht.
 
 ---
 
 ### DREHBUCH / SCENE PROMPTS (GENERATION_QUEUE)
 
-#### SCENE 01: THE DISASSEMBLY (Verse 1)
-**Action:** Henochs Arm löst sich in Voxel auf.
-**Visuals:** Close-Up auf die Haut. Goldene Würfel lösen sich vom Wireframe.
+#### SCENE 01: THE DISCONNECT (Verse 2 Start)
+**Action:** Henochs Geist wird "verborgen". Die Realität der Erde kollabiert.
+**Visuals:** Henoch steht in der Wüste. Die Welt um ihn herum reduziert sich auf Wireframes.
 
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-> **Actor:** Enoch (User_Entity). **Physique:** Elderly male, weathered skin. **Skin-Shader:** `VOXEL_DECAY`. The skin texture is peeling off in perfect cubes, revealing a glowing white wireframe skeleton underneath. **Optics:** Wide open in shock.
+> **Actor:** Enoch (User_Entity). **Physique:** Elderly, bearded. **Skin-Shader:** `STANDARD_SKIN` transitioning to `WIREFRAME_OVERLAY`. **Expression:** Disorientation, looking at his own hands fading.
 
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-> **Garment:** Tattered robes turning into digital ash. **Primary Prop:** None. **Interface-VFX:** Upward gravitational pull on the particles.
+> **Garment:** Rough desert tunics. **Interface-VFX:** The fabric is dissolving into green binary code strings moving upwards.
 
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-> **Location:** Earth_Desert (Day). **Architecture:** Natural rocks dissolving into black void chunks. **Atmosphere:** Distorted heat haze. **Background:** The blue sky is glitching into black squares.
+> **Location:** Earth_Desert (Simulation End). **Architecture:** Rocks and sand dunes are turning into black geometric grids (`GRID_DEBUG_VIEW`). **Background:** Sky is replaced by static noise.
 
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-> **Lighting Scheme:** `SYSTEM_FAILURE`. Sunlight is flickering. Internal glow from the wireframe is overpowering. **Palette:** Sand Beige, Void Black, Grid White, Gold.
+> **Lighting Scheme:** `SYSTEM_SHUTDOWN`. Dimming sunlight, increasing artificial neon-green glow from the grid. **Palette:** Sand, Black, Matrix Green.
 
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-> **Camera:** Macro Close-Up. **Lens:** 100mm. **Focus:** Sharp on the separation line between skin and voxel. **Style:** Simulation failure aesthetic, Unreal Engine 5.
+> **Camera:** Orbit Shot (360 degrees). **Lens:** 24mm. **Focus:** Enoch in center. **Style:** Glitch art, reality breaking apart.
 
 ---
 
-#### SCENE 02: THE HOT-SWAP (Verse 1 Transition)
-**Action:** Henoch landet hart auf dem Boden der neuen Dimension.
-**Visuals:** Er fällt aus dem "Nichts" auf schwarzen Glasboden.
+#### SCENE 02: THE FIRE WALKERS (Verse 2 Detail)
+**Action:** Close-Up auf die Füße der Engel im Feuerstrom.
+**Visuals:** Makellose weiße Stiefel auf flüssigem Plasma.
 
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-> **Actor:** Enoch (User_Entity). **Physique:** Re-materialized but unstable (glitching). **Skin-Shader:** `HOLOGRAPHIC_FLUX`. Opaque but flickering slightly.
+> **Actor:** System_Daemons (Sons of Angels). **Part:** Lower Legs/Boots only. **Material:** Pristine white ceramic (`SPACEX_SUIT_MAT`).
 
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-> **Garment:** Robes are now cleaner, synthetic `DATA_WEAVE` fabric. **Primary Prop:** None. **Interface-VFX:** Impact ripple on the floor upon landing.
+> **Garment:** White tactical greaves. **Interface-VFX:** Where boots touch the fire, shockwaves of cooling nitrogen gas appear.
 
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-> **Location:** The_Platform (System Core). **Architecture:** Floor is perfect black obsidian mirror. **Atmosphere:** Sterile, cold, no dust. **Background:** Darkness with faint blue grid lines.
+> **Location:** River of Fire (Data Stream). **Texture:** Liquid magma, extremely viscous and bright.
 
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-> **Lighting Scheme:** `COLD_STORAGE`. Harsh blue rim light. **Palette:** Black, Cyan, Silver.
+> **Lighting Scheme:** `FLOOR_LIGHTING`. Intense orange glow from below. **Palette:** White, Magma Orange.
 
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-> **Camera:** Low Angle (Ground Level). **Lens:** 35mm. **Focus:** Enoch hitting the floor. **Style:** High impact, action cam.
+> **Camera:** Tracking Shot (Low angle). **Lens:** 50mm. **Focus:** Contact point of boot and lava. **Style:** High-tech slow motion.
 
 ---
 
-#### SCENE 03: THE FIRE STREAMS (Verse 2 Establishing)
-**Action:** Totale auf die "Flüsse des Feuers".
-**Visuals:** Gigantische Kanäle mit flüssigem Plasma (Daten).
+#### SCENE 03: THE FALL (Verse 2 End)
+**Action:** Henoch fällt auf sein Gesicht vor der Übermacht der Eindrücke.
+**Visuals:** Harter Aufprall auf dem Obsidian-Boden der neuen Dimension.
 
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-> **Actor:** None (Environment).
+> **Actor:** Enoch. **Physique:** Rematerialized but unstable. **Animation:** Collapsing forward, hands bracing the fall.
 
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-> **Garment:** N/A.
+> **Garment:** Synthetic robes (`DATA_WEAVE`). **Interface-VFX:** Digital ripple effect on the floor upon impact.
 
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-> **Location:** Main_Data_Bus. **Architecture:** Two massive parallel rivers of blinding orange plasma. Banks are dark metal. **Atmosphere:** Steam, sparks, high voltage arcs. **Background:** Infinite perspective into the "Server City".
+> **Location:** The_Platform (System Periphery). **Floor:** Black mirror obsidian. **Background:** Blurring streaks of blue light.
 
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-> **Lighting Scheme:** `REACTOR_CORE`. Intense orange uplighting. **Palette:** Magma Orange, Industrial Grey.
+> **Lighting Scheme:** `COLD_HARD_LIGHT`. Blue spotlight from above. **Palette:** Black, Royal Blue.
 
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-> **Camera:** Crane Shot (Boom Up). **Lens:** 14mm Ultra Wide. **Focus:** Infinite. **Style:** Industrial grandeur, scale reference.
+> **Camera:** Top-Down (Bird's Eye). **Lens:** 35mm. **Focus:** Enoch on the ground. **Style:** Dynamic impact.
 
 ---
 
-#### SCENE 04: THE DAEMONS WALK (Verse 2 Detail)
-**Action:** Die "Söhne der Engel" gehen auf dem Feuer.
-**Visuals:** Weiße Stiefel treten direkt in das Plasma, keine Beschädigung.
+#### SCENE 04: THE HAND OF MICHAEL (Verse 3)
+**Action:** Michael hebt Henoch auf.
+**Visuals:** Michaels gepanzerter Handschuh greift Henochs menschliche Hand.
 
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-> **Actor:** System_Daemons (Sons of Angels). **Physique:** Legs only visible. Sleek white ceramic plating. **Skin-Shader:** `CERAMIC_MATTE`.
+> **Actor:** Archangel_Michael (Hand) & Enoch (Hand). **Skin-Shader:** Michael is metallic/ceramic; Enoch is biological.
 
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-> **Garment:** White armored boots. **Primary Prop:** None. **Interface-VFX:** Where the boot touches the lava, digital cooling rings ripple outward.
+> **Garment:** Michael: White/Gold intricate gauntlet. Enoch: Tattered sleeve. **Interface-VFX:** Magnetic lock visualization between the hands.
 
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-> **Location:** Surface of the Fire Stream. **Architecture:** Liquid fire. **Atmosphere:** Intense heat shimmer.
+> **Location:** The_Platform.
 
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-> **Lighting Scheme:** `SURFACE_CONTACT`. Bright orange bloom around the feet. **Palette:** White, Orange, Black.
+> **Lighting Scheme:** `CONNECTION`. Lens flare at the point of contact. **Palette:** White, Gold, Flesh tones.
 
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-> **Camera:** Tracking Shot (Low). **Lens:** 50mm. **Focus:** The contact point of boot and fire. **Style:** Slow motion, physics showcase.
+> **Camera:** Extreme Close Up. **Lens:** 100mm Macro. **Focus:** The grip. **Style:** Symbol of rescue/authority.
 
 ---
 
-#### SCENE 05: THE DAEMON VISAGE (Verse 2 Character)
-**Action:** Close-Up auf das "Gesicht" eines Daemons.
-**Visuals:** Kein Gesicht, nur ein glatter, leuchtender Visor.
+#### SCENE 05: THE STAR CHAMBERS (Verse 4)
+**Action:** Michael zeigt Henoch die Geheimnisse (Sterne/Kammern).
+**Visuals:** POV Henoch. Schneller Flug durch ein Hologramm-Archiv von Sternensystemen.
 
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-> **Actor:** System_Daemon_01. **Physique:** Humanoid, tall. **Skin-Shader:** `PORCELAIN_SHELL`. **Optics:** The entire face is a curved black glass visor with a running "SNOW" effect (static noise).
+> **Actor:** None (POV).
 
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-> **Garment:** Seamless white suit, like a clean-room hazmat suit but futuristic armor. **Primary Prop:** None.
+> **Interface-VFX:** 3D Holographic star charts, orbital paths, and wireframe spheres zooming past at high speed.
 
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-> **Location:** Beside the fire stream. **Background:** Out of focus fire pillars.
+> **Location:** The_Archive (Virtual Space). **Background:** Infinite black void filled with glowing data clusters.
 
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-> **Lighting Scheme:** `LED_ARRAY`. Reflections of the fire in the visor. **Palette:** White, Black, Orange Reflection.
+> **Lighting Scheme:** `DATA_VIZ`. Bioluminescent blues, purples, and whites. **Palette:** Deep Space colors.
 
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-> **Camera:** Close Up (CU). **Lens:** 85mm. **Focus:** Sharp on the visor surface. **Style:** Anonymous, ominous technology.
+> **Camera:** Fly-through (Dolly Forward). **Lens:** 14mm. **Focus:** Infinite. **Style:** Scientific visualization, speed.
 
 ---
 
-#### SCENE 06: THE CRYSTAL CUBE (Verse 5 House of Fire)
-**Action:** Der "Kristall-Palast" wird gezeigt.
-**Visuals:** Ein gigantischer Kubus aus Eis-Glas, innen brennt das Feuer.
+#### SCENE 06: THE CRYSTAL HOUSE (Verse 5 - Establishing)
+**Action:** Totale auf das "Haus aus Kristallen".
+**Visuals:** Ein gigantischer, transparenter Kubus (Server), durchzogen von Feueradern.
 
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
 > **Actor:** None (Architecture).
@@ -163,262 +158,241 @@ Establishing Shot: Zwingend. Ultra-Wide (12mm) von oben herab.
 > **Garment:** N/A.
 
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-> **Location:** The_Processor_Core. **Architecture:** A perfect cube made of `CRYSTAL_BRICKS`. Inside the transparent walls, contained plasma storms rage. **Atmosphere:** Condensation freezing on the outside. **Background:** The void of space.
+> **Location:** Heaven_of_Heavens. **Architecture:** A monolithic Cube structure made of `REFRACTIVE_GLASS` bricks. **VFX:** Inside the walls, tongues of fire move like liquid in cooling pipes.
 
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-> **Lighting Scheme:** `INTERNAL_COMBUSTION`. The light comes from INSIDE the walls. **Palette:** Cyan (Ice), Orange (Fire), White.
+> **Lighting Scheme:** `INTERNAL_EMISSION`. The structure glows from within. **Palette:** Cyan (Glass), Orange (Fire), White (Core).
 
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-> **Camera:** Dolly Zoom (Vertigo Effect). **Lens:** 24mm. **Focus:** The corner of the cube structure. **Style:** Architectural visualization, massive scale.
+> **Camera:** Slow Pan (Epic Scale). **Lens:** 24mm. **Focus:** The structure. **Style:** Kubric-esque sci-fi grandeur.
 
 ---
 
-#### SCENE 07: THE WATCHERS (Verse 7 Ophannim)
-**Action:** Rotierende Ringe (Ophannim) scannen den Bereich.
-**Visuals:** Mechanische Gyroskope mit Kameralinsen.
+#### SCENE 07: THE FIRE BELT (Verse 6)
+**Action:** Detail auf die "Wand aus Feuer", die das Haus umgibt.
+**Visuals:** Eine Firewall im wahrsten Sinne. Plasma-Ströme, die den Kubus isolieren.
 
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-> **Actor:** Ophannim_Unit. **Physique:** Non-humanoid. Interlocking brass rings spinning on multiple axes. **Optics:** Multiple camera lenses aperture-blades opening and closing rapidly.
+> **Actor:** None (Environment).
 
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-> **Garment:** N/A. **Primary Prop:** None. **Interface-VFX:** Red laser scanning grids projected from the lenses.
+> **Garment:** N/A.
 
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-> **Location:** Orbiting the Cube. **Atmosphere:** Zero gravity dust.
+> **Location:** Perimeter of the Cube. **Texture:** Roaring walls of vertical flame, but strictly contained by invisible fields.
 
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-> **Lighting Scheme:** `SECURITY_SCAN`. Red lasers, green status lights. **Palette:** Brass Gold, Laser Red.
+> **Lighting Scheme:** `HAZARD_WARNING`. Intense, blinding red/orange light. **Palette:** Fire Red, Black.
 
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-> **Camera:** Detail Shot. **Lens:** 100mm Macro. **Focus:** The mechanical movement of the aperture blades. **Style:** Engineering porn, intricate mechanics.
+> **Camera:** Static Shot with rapid internal movement of fire. **Lens:** 85mm. **Focus:** The texture of the flames. **Style:** Raw power.
 
 ---
 
-#### SCENE 08: THE COLLAPSE (Verse 11)
-**Action:** Henoch bricht unter der visuellen Last zusammen.
-**Visuals:** Er fällt auf die Knie, Hände vor dem Gesicht.
+#### SCENE 08: THE OPHANNIM (Verse 7)
+**Action:** Die Räder (Wächter) rotieren um den Thron.
+**Visuals:** Mechanische Gyroskope mit Kameralinsen (LIDAR).
 
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-> **Actor:** Enoch. **Physique:** Shaking, sensory overload. **Skin-Shader:** `SWEAT_GLOSS`.
+> **Actor:** Ophannim_Unit. **Physique:** Concentric interlocking metal rings (Brass/Gold). **Optics:** The center is a glowing red sensor eye (`HAL_9000` aesthetic).
 
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-> **Garment:** Synthetic robes. **Primary Prop:** None.
+> **Interface-VFX:** Spinning rapidly. Emitting laser scan grids.
 
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-> **Location:** Obsidian Platform. **Background:** The blinding light of the Cube is too bright, causing lens flares.
+> **Location:** Orbiting the Central Core. **Atmosphere:** Clean room particles.
 
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-> **Lighting Scheme:** `OVEREXPOSURE`. Everything is washed out white/blue. **Palette:** White, Silhouette Black.
+> **Lighting Scheme:** `SCANNER_LIGHT`. Red laser beams cutting through slight fog. **Palette:** Brass, Red, Black.
 
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-> **Camera:** High Angle (Top Down). **Lens:** 35mm. **Focus:** Enoch on the ground. **Style:** Vulnerability, defeat.
+> **Camera:** Detail / Macro. **Lens:** 100mm. **Focus:** The mechanical rotation. **Style:** Engineering precision.
 
 ---
 
-#### SCENE 09: THE INTERVENTION (Verse 3 - Michael)
-**Action:** Michaels Hand greift nach Henoch.
-**Visuals:** POV von Henoch am Boden. Eine perfekte Hand reicht herab.
+#### SCENE 09: THE TRAFFIC (Verse 8-9)
+**Action:** Tausende Engel gehen ein und aus.
+**Visuals:** Zeitraffer. Ströme von Lichtgestalten bewegen sich wie Datenpakete in einem Kabel.
 
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-> **Actor:** Archangel_Michael. **Physique:** Perfect hand, synthetic skin structure. **Skin-Shader:** `ALABASTER`.
+> **Actor:** Angel_Swarm. **Physique:** Blurred silhouettes of light. Non-distinct.
 
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-> **Garment:** White sleeve with gold cuff links (data ports). **Primary Prop:** None.
+> **Garment:** White luminous trails.
 
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-> **Location:** Platform. **Background:** Ceiling of the server room (infinite cables).
+> **Location:** Entrance of the Crystal House. **Architecture:** Massive Gateway.
 
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-> **Lighting Scheme:** `SAVIOR_GLOW`. Soft, diffused white light around the hand. **Palette:** White, Gold.
+> **Lighting Scheme:** `LONG_EXPOSURE`. Streaks of white light. **Palette:** White, Blue tint.
 
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-> **Camera:** POV (Low Angle). **Lens:** 24mm. **Focus:** The open hand. **Style:** Invitation, help.
+> **Camera:** Wide Shot. **Lens:** 35mm. **Focus:** The Gate. **Style:** Time-lapse traffic flow.
 
 ---
 
-#### SCENE 10: THE LIFT (Verse 3)
-**Action:** Michael zieht Henoch hoch.
-**Visuals:** Physische Interaktion. Kraftvoll, mühelos.
+#### SCENE 10: HEAD OF DAYS REVEAL (Verse 10)
+**Action:** Close-Up auf das "Haupt der Tage".
+**Visuals:** Ein Wesen aus reinem Licht. Das Haar ist "weiße Wolle" = Fiberoptik.
 
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-> **Actor:** Archangel_Michael & Enoch. **Physique:** Michael is tall, stable. Enoch is weak.
+> **Actor:** Prime_Admin (Head of Days). **Physique:** Humanoid shape composed of `VOLUMETRIC_LIGHT`. **Hair:** Thousands of thin, glowing fiber-optic cables cascading down like wool.
 
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-> **Garment:** Contrast between Michael's pristine armor and Enoch's simple robes.
+> **Garment:** Robes of pure static distortion (`WHITE_NOISE_TEXTURE`).
 
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-> **Location:** Platform.
+> **Location:** The Throne Room. **Background:** Pitch black to emphasize the brightness of the entity.
 
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-> **Lighting Scheme:** `TWO_TONE`. Michael in cool blue light, Enoch in warm amber light. **Palette:** Blue, Amber, Black.
+> **Lighting Scheme:** `OVEREXPOSURE`. The entity IS the light source. **Palette:** Pure #FFFFFF.
 
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-> **Camera:** Medium Shot (Two Shot). **Lens:** 50mm. **Focus:** The grip of their hands. **Style:** Dynamic motion.
+> **Camera:** Low Angle (Hero Shot). **Lens:** 50mm. **Focus:** Soft bloom. **Style:** Divine technology.
 
 ---
 
-#### SCENE 11: MICHAEL'S VISAGE (Verse 3 Character)
-**Action:** Close-Up auf Michael. Er ist kein Mensch, er ist eine Admin-Entity.
-**Visuals:** Perfektes Gesicht, goldene Augen ohne Pupillen.
+#### SCENE 11: THE MELTDOWN (Verse 11 - Hand)
+**Action:** Henochs Fleisch schmilzt.
+**Visuals:** Detail auf Henochs Hand. Die Haut wird transparent wie Glas, darunter pulsiert Energie.
 
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-> **Actor:** Archangel_Michael. **Physique:** Male, 30s, synthetic perfection. **Skin-Shader:** `SUBSURFACE_WAX`. Looks slightly artificial. **Optics:** Eyes are solid gold spheres (`GOLD_SENSOR`).
+> **Actor:** Enoch. **Part:** Hand/Arm. **Skin-Shader:** `TRANSLUCENT_GLASS`. Veins are glowing bright blue. The skin texture is dissolving into mist.
 
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-> **Garment:** High collar, military dress uniform style but sci-fi materials. **Interface-VFX:** Faint HUD reflection on his skin.
+> **Garment:** Sleeve burning away.
 
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-> **Location:** Platform. **Background:** Blurred bokeh of the fire streams.
+> **Location:** Throne Room Floor.
 
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-> **Lighting Scheme:** `PORTRAIT_CLEAN`. Butterfly lighting. **Palette:** White, Gold.
+> **Lighting Scheme:** `INTERNAL_GLOW`. Light coming from inside the arm. **Palette:** Blue, Pink, White.
 
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-> **Camera:** Extreme Close Up (ECU). **Lens:** 100mm. **Focus:** The gold eyes. **Style:** Intense scrutiny, non-human intelligence.
+> **Camera:** Macro. **Lens:** 100mm. **Focus:** The transition line on the skin. **Style:** Body horror meets ascension.
 
 ---
 
-#### SCENE 12: THE ANTECEDENT OF TIME (Verse 10 Head of Days)
-**Action:** Blick auf den "Head of Days" im Inneren.
-**Visuals:** Eine Silhouette aus reinem Licht, umgeben von "Wolle" (Glasfasern).
+#### SCENE 12: THE TRANSFORMATION (Verse 11 - Full)
+**Action:** Henochs Geist verwandelt sich. Er schreit (Lautlos).
+**Visuals:** Henoch wirft den Kopf in den Nacken. Aus Mund und Augen bricht Licht. Er wird zum Avatar.
 
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-> **Actor:** Prime_Admin (Head of Days). **Physique:** Massive seated figure. **Skin-Shader:** `PURE_EMISSION`. White light. **Hair:** Millions of white fiber-optic cables cascading down like wool.
+> **Actor:** Enoch -> Son_of_Man_Avatar. **Physique:** Screaming. **VFX:** Beams of solid light erupting from mouth and eyes. The human shell shatters like a glass casing.
 
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-> **Garment:** Robes of static electricity.
+> **Garment:** Robes turning into pristine white armor.
 
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-> **Location:** Throne_Room (Inside Cube). **Architecture:** Ice crystals. **Atmosphere:** Sub-zero fog.
+> **Location:** Throne Room.
 
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-> **Lighting Scheme:** `BLINDING_SOURCE`. Backlit. **Palette:** Pure White.
+> **Lighting Scheme:** `EXPLOSIVE_ENERGY`. Blinding radial blur. **Palette:** Gold, White.
 
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-> **Camera:** Wide Shot (Low Angle). **Lens:** 24mm. **Focus:** Soft bloom. **Style:** Divine/Technological Singularity.
+> **Camera:** Medium Shot (Front). **Lens:** 50mm. **Focus:** The face exploding with light. **Style:** Metamorphosis.
 
 ---
 
-#### SCENE 13: DIALOGUE A - THE PROCLAMATION (Verse 14)
-**Action:** Michael spricht zu Henoch. (OTS - Over the Shoulder).
-**Visuals:** Michael im Vordergrund, Henoch unscharf im Hintergrund. Michael spricht.
+#### SCENE 13: THE APPROACH (Verse 13)
+**Action:** Die Gruppe (Head of Days + 4 Erzengel) kommt auf die Kamera zu.
+**Visuals:** 5 Silhouetten im gleißenden Gegenlicht.
 
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-> **Actor:** Archangel_Michael. **Facial Animation:** Speaking with authority. Calm, precise movements.
+> **Actors:** Head_of_Days (Center), Michael, Gabriel, Raphael, Phanuel. **Physique:** Tall, imposing silhouettes.
 
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-> **Garment:** Michael's Armor.
+> **Garment:** Differing armor silhouettes.
 
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-> **Location:** Platform.
+> **Location:** Throne Room. **Atmosphere:** Heavy fog rolling on the floor.
 
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-> **Lighting Scheme:** `DIALOG_A`. Key light on Michael. **Palette:** White, Gold.
+> **Lighting Scheme:** `BACKLIT_GOD_RAYS`. Strong shafts of light breaking around the figures. **Palette:** White, Silhouette Grey.
 
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-> **Camera:** Over-The-Shoulder (OTS). **Lens:** 50mm. **Focus:** Michael's profile. **Style:** Narrative cinema.
+> **Camera:** Low Angle Dolly Back. **Lens:** 35mm. **Focus:** The group. **Style:** Power walk.
 
 ---
 
-#### SCENE 14: DIALOGUE B - THE REACTION (Verse 14)
-**Action:** Henoch hört zu und versteht. (Reverse Shot).
-**Visuals:** Henochs Gesicht, von Furcht zu Akzeptanz wechselnd.
+#### SCENE 14: THE REVELATION (Verse 14 - Michael)
+**Action:** Michael spricht zu Henoch (jetzt transformiert).
+**Visuals:** Michael (OTS). Ruhig, keine Bewegung, nur Lippen.
 
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-> **Actor:** Enoch. **Facial Animation:** Micro-expressions of realization. Tears evaporating instantly due to dry heat.
+> **Actor:** Archangel_Michael. **Physique:** Perfect synthetic face. **Eyes:** Glowing Gold.
 
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-> **Garment:** Enoch's Robes.
+> **Garment:** High-Tech Armor collar visible.
 
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-> **Location:** Platform.
+> **Location:** Throne Room.
 
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-> **Lighting Scheme:** `DIALOG_B`. Key light reflection from Michael (Off-screen). **Palette:** Amber reflection.
+> **Lighting Scheme:** `PORTRAIT`. Soft key light. **Palette:** White, Gold.
 
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-> **Camera:** Medium Close Up (MCU). **Lens:** 50mm. **Focus:** Enoch's eyes. **Style:** Emotional connection.
+> **Camera:** Close Up. **Lens:** 85mm. **Focus:** Eyes. **Style:** Direct address.
 
 ---
 
-#### SCENE 15: THE LIPS (Verse 14 Detail)
-**Action:** Detail auf Michaels Mund, während er "Righteousness" sagt.
-**Visuals:** Lippen bewegen sich, digitale Wellenformen entstehen in der Luft.
+#### SCENE 15: THE MIRROR (Verse 14 - Enoch)
+**Action:** Henoch sieht sich selbst (in Michaels Visier oder Spiegelung). Er erkennt: Er ist "der Sohn".
+**Visuals:** Henochs Gesicht, jetzt perfekt, symmetrisch, leuchtend.
 
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-> **Actor:** Archangel_Michael. **Part:** Mouth/Lower Face.
+> **Actor:** Enoch (Transformed). **Physique:** He now looks like the "Noah" prompt prototype but older/wiser. **Skin:** Marble Shimmer. **Eyes:** Solar Aperture.
 
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-> **Interface-VFX:** A faint golden waveform visualizer appears directly in front of his lips as he speaks.
+> **Garment:** Liquid Linen robes.
 
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-> **Location:** Platform.
+> **Location:** Throne Room.
 
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-> **Lighting Scheme:** `VOICE_VISUALIZATION`. The waveform emits its own light.
+> **Lighting Scheme:** `NEW_DAWN`. Soft, flattering light. **Palette:** Marble White, Gold.
 
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-> **Camera:** Extreme Close Up. **Lens:** 100mm Macro. **Focus:** The waveform. **Style:** High-tech communication.
+> **Camera:** Close Up. **Lens:** 85mm. **Focus:** His new eyes. **Style:** Self-realization.
 
 ---
 
-#### SCENE 16: THE HANDSHAKE (Verse 16)
-**Action:** Michael legt Hand auf Henochs Schulter. "Peace be unto you".
-**Visuals:** Close-Up der Berührung. Daten fließen von der Rüstung in die Robe.
+#### SCENE 16: THE HANDSHAKE OF PEACE (Verse 15-16)
+**Action:** Michael und Henoch reichen sich die Hände.
+**Visuals:** Zwei perfekte Wesen im Einklang.
 
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-> **Actor:** Archangel_Michael (Hand) & Enoch (Shoulder).
+> **Actors:** Michael & Enoch.
 
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-> **Garment:** White Ceramic Armor meeting Synthetic Cloth. **Interface-VFX:** Blue light pulses transfer across the contact point.
+> **Garment:** White on White.
 
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-> **Location:** Platform.
+> **Location:** Throne Room.
 
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-> **Lighting Scheme:** `DATA_TRANSFER`. Blue pulse light.
+> **Lighting Scheme:** `HARMONY`. Balanced lighting. **Palette:** White, Silver, Gold.
 
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-> **Camera:** Close Up. **Lens:** 85mm. **Focus:** The hand contact. **Style:** Symbol of connection.
+> **Camera:** Medium Two-Shot. **Lens:** 50mm. **Focus:** Both faces. **Style:** Final agreement.
 
 ---
 
-#### SCENE 17: THE TRANSFORMATION (Verse 16-17)
-**Action:** Henoch verändert sich subtil. Er wird Teil des Systems.
-**Visuals:** Henochs Augen beginnen kurz golden zu leuchten (wie Michaels).
+#### SCENE 17: INFINITE CORRIDOR (Verse 16-17)
+**Action:** Blick in die unendliche Zukunft/Weg.
+**Visuals:** Henoch steht vor einem unendlichen Korridor aus Licht.
 
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-> **Actor:** Enoch. **Changes:** Iris color shifts from Brown to Gold for 1 second. Posture straightens.
+> **Actor:** Enoch (Back view).
 
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-> **Garment:** Robes become more structured/cleaner.
+> **Garment:** Robes flowing perfectly straight.
 
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-> **Location:** Platform.
+> **Location:** The Pathway of Righteousness. **Architecture:** Perfect perspective lines of light vanishing into infinity.
 
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-> **Lighting Scheme:** `UPGRADE_COMPLETE`. A fresh white rim light activates behind him.
+> **Lighting Scheme:** `INFINITY`. Bright white vanishing point. **Palette:** White, Pale Blue.
 
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-> **Camera:** Medium Close Up. **Lens:** 50mm. **Focus:** Enoch's changing eyes. **Style:** Character arc completion.
-
----
-
-#### SCENE 18: FINAL WIDE (Verse 17 End)
-**Action:** Michael und Henoch stehen zusammen vor dem Core.
-**Visuals:** Rückansicht der beiden, winzig vor dem gigantischen Würfel.
-
-[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-> **Actor:** Archangel_Michael & Enoch. **Physique:** Silhouettes.
-
-[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-> **Garment:** Capes/Robes flowing in the data wind.
-
-[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-> **Location:** Edge of the Platform. **Background:** The House of Fire Cube filling the entire frame.
-
-[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-> **Lighting Scheme:** `EPIC_SCALE`. Silhouette against the bright core. **Palette:** Blue, Orange, Black silhouettes.
-
-[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-> **Camera:** Ultra Wide (Extreme Long Shot). **Lens:** 12mm. **Focus:** Infinite. **Style:** Final ending shot, awe-inspiring.
+> **Camera:** Wide Shot, slow dolly forward. **Lens:** 24mm. **Focus:** Infinity. **Style:** Open ending.

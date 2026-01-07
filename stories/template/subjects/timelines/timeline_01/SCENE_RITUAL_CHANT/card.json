@@ -1,0 +1,98 @@
+{
+  "id": "SCENE_RITUAL_CHANT",
+  "name": "Ritual Chant",
+  "type": "scene",
+  "card": {
+    "description": "A dimly lit cavernous sanctum where a circle of hooded figures chant in unison, their bodies adorned with bio‑luminescent glyphs that pulse in sync with the rhythm. The air shimmers with crystalline particles, and a towering obsidian altar radiates a faint, otherworldly glow, its surface etched with ancient Ethiopian hieroglyphs that seem to rearrange themselves as the chant intensifies.",
+    "tags": [
+      "ritual",
+      "chant",
+      "ancient-tech",
+      "industrial mysticism",
+      "photorealistic",
+      "Ethiopian",
+      "Egyptian",
+      "bio-luminescence",
+      "crystalline hardware"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Hooded figures in flowing basalt‑fiber robes, sinewy limbs, slight muscular definition, standing in a tight circle.",
+      "**Face/Sensors:** Faces partially obscured by hoods; subtle bio‑luminescent glyphs trace along jawline and temples, pulsing with each syllable.",
+      "**Clothing/Armor:** Robes woven from basalt fibers interlaced with copper filaments, etched with runes; some wear lightweight armor plates of tempered obsidian.",
+      "**Key Features:** Central obsidian altar with a crystalline resonator, floating glyphs, ambient light from bioluminescent fungi, swirling dust particles."
+    ],
+    "evolution": [
+      "Phase 1 (Chant Initiation): Initial low‑frequency hum, glyphs begin to glow faintly, dust settles.",
+      "Phase 2 (Chant Peak): Glyphs blaze, altar emits a resonant pulse, dust rises, the air thickens with crystalline mist."
+    ],
+    "props": [
+      "Altar of Obsidian",
+      "Crystal Resonator",
+      "Bioluminescent Fungi",
+      "Runic Scrolls"
+    ],
+    "prompt_keywords": [
+      "ritual",
+      "chant",
+      "ancient",
+      "tech",
+      "mystic",
+      "photorealistic",
+      "Ethiopian",
+      "Egyptian",
+      "bio-luminescence",
+      "crystalline"
+    ],
+    "prompt_block": "A cinematic, photorealistic shot of a dimly lit cavernous sanctum where a circle of hooded figures chant in unison, their bodies adorned with bio‑luminescent glyphs pulsing in sync with the rhythm, standing before a towering obsidian altar etched with ancient Ethiopian hieroglyphs that rearrange themselves as the chant intensifies, crystalline particles swirling in the air, bioluminescent fungi casting a soft glow, the scene exudes ancient‑tech industrial mysticism with grounded realism, detailed textures of basalt fibers, copper filaments, tempered obsidian armor, and a faint, otherworldly glow emanating from the altar.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "A dimly lit sanctum with chanting figures and a glowing obsidian altar.",
+        "prompt_keywords": [
+          "ritual",
+          "chant",
+          "ancient",
+          "tech",
+          "mystic",
+          "photorealistic",
+          "Ethiopian",
+          "Egyptian",
+          "bio-luminescence",
+          "crystalline"
+        ],
+        "prompt_block": "A cinematic, photorealistic shot of a dimly lit cavernous sanctum where a circle of hooded figures chant in unison, their bodies adorned with bio‑luminescent glyphs pulsing in sync with the rhythm, standing before a towering obsidian altar etched with ancient Ethiopian hieroglyphs that rearrange themselves as the chant intensifies, crystalline particles swirling in the air, bioluminescent fungi casting a soft glow, the scene exudes ancient‑tech industrial mysticism with grounded realism, detailed textures of basalt fibers, copper filaments, tempered obsidian armor, and a faint, otherworldly glow emanating from the altar."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_RITUAL_CHANT",
+    "name": "Ritual Chant",
+    "type": "scene",
+    "aliases": [
+      "Ritual Chant"
+    ],
+    "roles": [],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_71"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 10,
+        "chapter_end": 10,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

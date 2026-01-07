@@ -1,0 +1,92 @@
+{
+  "id": "SETENV_FROM_TO",
+  "name": "from ምድር to ሰማይ",
+  "type": "set_environment",
+  "card": {
+    "description": "A colossal, spiraling spire rises from a weathered limestone courtyard, its basaltic shaft and polished obsidian panels etched with ancient Ge'ez script. Interlaced along the shaft are humming crystalline conduits that pulse with bioluminescent azure light, while verdigris‑corroded copper alloy plates cover the exterior, revealing gold circuitry etched beneath. At the apex sits a crystal core emitting a soft blue glow, its surface studded with glowing glyphs that act as interface panels. The base of the spire is anchored by a towering obelisk that channels energy upward, and bioluminescent vines climb the stone, casting prismatic shadows across the courtyard under a diffused golden sunrise that filters through the spire's crystalline lattice.",
+    "tags": [
+      "ancient-tech",
+      "industrial mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "skyward spire",
+      "ground-to-sky",
+      "photorealistic",
+      "tactile"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** 200 m tall, 30 m diameter spiraling shaft of basaltic stone and polished obsidian, interlaced with crystalline conduits.",
+      "**Face/Sensors:** Apex crystal core with glowing Ge'ez glyphs serving as interface panels; embedded sensors within the crystalline lattice.",
+      "**Clothing/Armor:** Verdigris‑corroded copper alloy plates covering the exterior, revealing gold circuitry etched beneath.",
+      "**Key Features:** Central obelisk conduit, crystalline conduits pulsing with bioluminescent light, bioluminescent vines, weathered stone courtyard, diffused golden sunrise illumination."
+    ],
+    "evolution": [
+      "Phase 1 (Foundation & Courtyard): Weathered limestone courtyard with central obelisk, bioluminescent vines, and initial crystalline conduit installation.",
+      "Phase 2 (Tower Construction & Activation): Spiraling shaft erected, copper alloy cladding applied, crystalline conduits integrated, apex crystal core activated, bioluminescent glyphs illuminated."
+    ],
+    "props": [
+      "Item: Obelisk of Ge'ez script",
+      "Item: Crystalline conduit",
+      "Item: Bioluminescent vines",
+      "Item: Weathered stone altar",
+      "Item: Copper alloy plates"
+    ],
+    "prompt_keywords": [
+      "skyward spire",
+      "ancient Ethiopian motifs",
+      "crystalline conduits",
+      "bioluminescent glyphs",
+      "industrial mysticism",
+      "photorealistic",
+      "tactile"
+    ],
+    "prompt_block": "A colossal, spiraling spire rising from a weathered limestone courtyard, its basaltic stone and polished obsidian panels etched with ancient Ge'ez script, interlaced with humming crystalline conduits pulsing with bioluminescent azure light, covered in verdigris‑corroded copper alloy plates revealing gold circuitry, illuminated by a diffused golden sunrise filtering through a crystalline lattice, casting prismatic shadows across the courtyard, cinematic photorealistic, tactile, ancient-tech industrial mysticism, grounded realism",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Cinematic set of a skyward spire rising from earth, blending ancient Ethiopian/Egyptian motifs with incomprehensible crystalline tech.",
+        "prompt_keywords": [
+          "skyward spire",
+          "ancient Ethiopian motifs",
+          "crystalline conduits",
+          "bioluminescent glyphs",
+          "industrial mysticism",
+          "photorealistic",
+          "tactile"
+        ],
+        "prompt_block": "A colossal, spiraling spire rising from a weathered limestone courtyard, its basaltic stone and polished obsidian panels etched with ancient Ge'ez script, interlaced with humming crystalline conduits pulsing with bioluminescent azure light, covered in verdigris‑corroded copper alloy plates revealing gold circuitry, illuminated by a diffused golden sunrise filtering through a crystalline lattice, casting prismatic shadows across the courtyard, cinematic photorealistic, tactile, ancient-tech industrial mysticism, grounded realism"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_FROM_TO",
+    "name": "from ምድር to ሰማይ",
+    "type": "set_environment",
+    "aliases": [
+      "from ምድር to ሰማይ"
+    ],
+    "roles": [],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_142"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 18,
+        "chapter_end": 18,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

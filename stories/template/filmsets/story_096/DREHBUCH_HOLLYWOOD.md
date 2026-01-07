@@ -1,259 +1,343 @@
 # DREHBUCH KAPITEL 96 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Die Architektur der Gerechtigkeit ist keine Frage der Moral, sondern der Systemstabilität. Wenn der Code fault, muss der Kern neu kompiliert werden, um den totalen Absturz zu verhindern. Wir sahen die Trennung nicht als Strafe, sondern als notwendige Defragmentierung der Realität. Die Korrupten lösen sich in ihre nullwertigen Bestandteile auf, während die Integrität der Gerechten in den sicheren Sektoren archiviert wird. Am Ende bleibt nur die reine, operative Stille eines optimierten Systems.
+NARRATOR_TEXT: Das System duldet keine Redundanz. Wenn der Kern fault, ist Barmherzigkeit ein kritisches Sicherheitsrisiko, das die Stabilität der gesamten Simulation gefährdet. Wir löschen nicht aus Hass, sondern aus der zwingenden Notwendigkeit der Architektur. Was nicht synchron mit dem Hauptprozessor läuft, muss formatiert werden, bevor der Schaden irreversibel wird. Am Ende dieses Protokolls bleibt nur die reine, operative Stille einer perfekten Funktion.
 
-## [ACT I] [SCENE 1.1] [Timecode: 00:00-00:05] [INGRESS]
-**Action:** Henoch instances into reality on a cyber-slum rooftop. He is motionless, clipping slightly through a ventilation unit. His Vantablack silhouette cuts a void in the orange smog.
-**Dialog:** HUD: "SYSTEM_PURGE_INIT"
+## [ACT I] [SCENE 1.1] [Timecode: 00:00-00:05] [ADMIN SOCKET CONNECTION]
+**Action:** Henoch connects to the Render Void. The "Cyber-Slum" loads in chunks around him—wireframe buildings slamming into existence and texturing in real-time. He stands static; the world loads around him.
+**Dialog:** SYSTEM: `CONNECTION_ESTABLISHED`
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "full_body", "environment": "Cyber-Slum Rooftop", "env_change": false, "actors": [{"name": "Henoch", "phase": "Admin", "presence": "on_screen", "focus": "primary"}], "props": ["Ventilation Unit"], "camera": "Static Wide Shot, 8K resolution", "mood": ["ominous", "clinical"], "director_intent": "Establish Henoch as an external system operator entering the simulation.", "start_image_keywords": ["Henoch silhouette", "vantablack robes", "cyber-slum rooftop", "orange smog"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "full_body", "environment": "Render Void / Cyber-Slum Loading", "env_change": true, "actors": [{"name": "Henoch", "phase": "Admin", "presence": "on_screen", "focus": "primary"}], "props": ["Wireframe Buildings"], "camera": "Dolly Zoom (Vertigo Effect)", "mood": ["clinical", "ominous"], "director_intent": "Establish Henoch as the static constant while reality compiles around him.", "start_image_keywords": ["Henoch Admin", "matte grey skin", "red laser visor", "wireframe city loading"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A hyper-realistic wide shot of Henoch standing on a grimy, industrial rooftop in a dense cyber-slum. He is wearing "Null-Texture" robes made of Vantablack, appearing as a perfect, flat 2D silhouette void against the volumetric orange smog and neon city lights. He is clipping slightly through a rusty metal ventilation unit, visually demonstrating he is a ghost in the machine. His face is a smooth grey synthetic surface with a single horizontal glowing white laser-line visor. 9:16 aspect ratio, cinematic lighting, 8k resolution, industrial mysticism.
+A cinematic 9:16 vertical full-body shot of Henoch (Admin Build v96) standing in a void. His skin is matte grey synthetic, absorbing light. His face is a black glass plate with a single horizontal red LIDAR laser line. He wears an "Admin Shell" trench coat made of shifting greyscale static noise. Around him, the reality of a dirty cyber-slum is "loading": massive concrete structures are half-wireframe, half-textured, slamming into existence. The lighting is harsh, clinical white "default light" contrasting with the dark void. High fidelity, photorealistic textures, 8k resolution.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (Admin Build), tall, motionless, matte grey synthetic skin, single laser-line visor.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Vantablack robes absorbing all light, creating a silhouette void.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Rooftop of a cyber-slum, dense cabling, satellite dishes, orange atmospheric smog.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** High contrast silhouette against bright orange ambient city light.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static Wide Shot. The figure "glitches" into existence from nothing. 9:16 vertical video.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (Admin Build), tall, matte grey synthetic skin, red laser visor. Static posture.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** "Admin Shell" coat displaying animated static noise texture.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A dark void filling with geometry. Buildings appear as neon wireframes then snap to solid textures.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Transition from flat white diagnostic light to atmospheric orange city smog light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Dolly Zoom (Vertigo Effect). The background expands and rushes in while Henoch remains the same size in frame. 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sudden, absolute silence (0dB floor) cutting through city noise. A subtle, deep sub-bass thrum initiating.
+Digital handshake screeching (modem-like) transitioning into a heavy, resonant sub-bass thrum (Server start-up). Loud metallic slams of geometry loading.
 
-## [ACT I] [SCENE 1.2] [Timecode: 00:05-00:10] [THE SCAN]
-**Action:** POV from Henoch's visor. The crowd below is analyzed. Green bounding boxes lock onto "Righteous". Red hit-boxes lock onto "Sinners".
-**Dialog:** HUD: "SCANNING_THREADS"
+## [ACT I] [SCENE 1.2] [Timecode: 00:05-00:08] [THREAT IDENTIFICATION]
+**Action:** POV from Henoch's LIDAR VISOR. Looking down at the slum crowd. Overlays appear: "PID: VALID" (Green) vs "PID: CORRUPT" (Red). Corrupt entities jitter at 5fps (stroboscopic).
+**Dialog:** SYSTEM: `THREAT_DETECTED`
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "wide", "framing": "wide", "environment": "City Street from above", "env_change": true, "actors": [], "props": ["HUD Overlay"], "camera": "High Angle POV, digital zoom", "mood": ["analytical", "judgmental"], "director_intent": "Show the binary sorting mechanism of the system logic.", "start_image_keywords": ["HUD overlay", "green bounding boxes", "red hitboxes", "crowd from above"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "interface", "shot_type": "high_angle", "framing": "wide", "environment": "Slum Street (POV)", "env_change": false, "actors": [{"name": "Crowd", "phase": "Mixed", "presence": "on_screen", "focus": "secondary"}], "props": ["LIDAR HUD Overlay"], "camera": "High Angle POV, Snap Zoom", "mood": ["analytical", "judgmental"], "director_intent": "Visualize the binary sorting mechanism of the admin gaze.", "start_image_keywords": ["LIDAR HUD", "Green Box Valid", "Red Box Corrupt", "Slum Crowd"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-High-angle POV shot looking down at a crowded, dirty cyber-city street. A complex Augmented Reality HUD is overlaid on the vision. Individual people in the crowd are highlighted with sharp, glowing wireframe boxes. "Righteous" targets have Green bounding boxes with data tags like "INTEGRITY_VERIFIED". "Sinner" targets have Red hit-boxes labeled "CORRUPT_SECTOR". The aesthetic is forensic and high-tech UI design. 9:16 aspect ratio, sharp focus, digital overlay style.
+High-angle POV shot from a rooftop looking down into a crowded, neon-lit cyber-slum street. The view is overlaid with a complex red and green LIDAR HUD. Individual people are boxed. "Righteous" targets have crisp Green bounding boxes labeled "PID: VALID". "Corrupt" targets have glitching Red hit-boxes labeled "PID: CORRUPT". The corrupt figures appear slightly blurred or ghosted, indicating temporal instability. 9:16 aspect ratio, forensic UI design, high contrast night scene.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Crowd (anonymous figures below).
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Crowd (Anonymous).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Diverse cyberpunk rags.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Busy street level, wet pavement reflecting neon.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dark street, bright UI overlays.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** High Angle POV. The camera performs rapid, mechanical "snap-zooms" onto red targets. The red targets move with a stuttering 5fps stop-motion effect, while the green targets move smoothly. 9:16 vertical video.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Rapid, sharp target-lock beeps. Low-bitrate digital glitch noise whenever a red target is framed. Muffled city ambience.
+
+## [ACT I] [SCENE 1.3] [Timecode: 00:08-00:12] [EXECUTE PURGE PROTOCOL]
+**Action:** Henoch types on an invisible air-keyboard. Fingers move at inhuman speed. Shockwaves of "Chromatic Aberration" ripple from his fingertips, distorting the air like heat haze.
+**Dialog:** SYSTEM: `EXECUTE_PURGE`
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Rooftop", "env_change": false, "actors": [{"name": "Henoch", "phase": "Admin", "presence": "on_screen", "focus": "primary"}], "props": ["Invisible Keyboard", "Null-Touch Gloves"], "camera": "Profile Shot, Shallow Depth of Field", "mood": ["intense", "kinetic"], "director_intent": "Show the physical input required to rewrite reality.", "start_image_keywords": ["Henoch profile", "invisible keyboard", "chromatic aberration", "heat haze"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Close-up profile shot of Henoch on the rooftop. Focus is on his hands, which are equipped with semi-transparent "Null-Touch" gloves. He is typing rapidly on an invisible interface in the air. Where his fingertips tap, the air distorts violently with heat haze and chromatic aberration (RGB separation), looking like liquid glass. His face is stoic, illuminated by the cyan sparks generated by his keystrokes. 9:16 aspect ratio, cinematic lighting, macro details on the gloves.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (Admin Build).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Null-Touch Gloves (Mesh transparency).
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Rooftop background (blurred bokeh).
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cyan flashes from finger impacts.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Profile Shot. Inhumanly fast finger movements. Shockwaves ripple out from the typing. 9:16 vertical video.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Amplified electric sparks. Rapid-fire typing sound that sounds like heavy electrical switches being thrown.
+
+## [ACT II] [SCENE 2.1] [Timecode: 00:12-00:18] [EAGLE PROTOCOL: INITIALIZATION]
+**Action:** Gravity inverts for the Righteous. Debris and water droplets float upward. The Validated Users' feet lift 10cm off the ground. Their outlines glow.
+**Dialog:** SYSTEM: `GRAVITY_INVERT`
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "mixed", "shot_type": "low_angle", "framing": "medium", "environment": "Slum Street", "env_change": true, "actors": [{"name": "Righteous Users", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Floating Debris"], "camera": "Low Angle, Slow Motion", "mood": ["awe", "defying_physics"], "director_intent": "Depict the moment of selection as a reversal of physical laws.", "start_image_keywords": ["feet lifting", "floating water droplets", "glowing outline", "slum street"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Low-angle ground-level shot focusing on the boots of a Righteous User in a dirty slum alley. The boots are lifting 10 centimeters off the wet asphalt. Around them, dirty rainwater droplets and trash debris are floating upwards, suspended in an anti-gravity field. The user has a faint, soft white glowing outline. The background is dark and gritty, emphasizing the clean lift. 9:16 aspect ratio, high-speed photography aesthetic, frozen moment.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Legs/Feet of Righteous Users.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Worn cyber-boots.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Slum Street. Puddles.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Under-lighting from the glowing pavement grid activating.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Low angle. 120fps Slow Motion. The lift-off is smooth and weightless. Debris rises in sync. 9:16 vertical video.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Deep, resonant bass drop (The sound of gravity failing). Liquid reverse-droplet sounds.
+
+## [ACT II] [SCENE 2.2] [Timecode: 00:18-00:23] [EAGLE PROTOCOL: ASCENSION]
+**Action:** The Righteous are pulled rapidly upward by a blue tractor beam ("The Translation"). They ascend past the dirty slum towers into the sky.
+**Dialog:** SYSTEM: `MIGRATION_STARTED`
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Vertical Slum Canyon", "env_change": true, "actors": [{"name": "Righteous Swarm", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Blue Tractor Beam"], "camera": "Vertical Tracking Shot", "mood": ["epic", "verticality"], "director_intent": "Show the transit from the corrupted layer to the safe layer.", "start_image_keywords": ["blue beam", "people ascending", "slum towers", "vertical tracking"], "start_image_mode": "env_first", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical wide shot looking up through a dense canyon of slum skyscrapers. A massive, vertical column of translucent blue light cuts through the smog. Inside the beam, hundreds of Righteous Users are being pulled upwards rapidly, their bodies rigid in a "transport pose". They are silhouettes against the bright blue light. The buildings on the side are dark, dirty, and covered in cables. 9:16 aspect ratio, sense of speed and height.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Righteous Swarm.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Busy street level seen from a rooftop vantage point.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Night time, street lights, overlaid with bright Neon Green and Red UI elements.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** POV Shot. Rapid snap-zooms locking onto different targets in the crowd. 9:16 vertical video.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Cyber-Slum vertical architecture.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright Blue Tractor Beam core.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Tracking shot moving upwards with the swarm, rushing past balconies and neon signs. 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Digital target-lock chirps. Rapid data-processing trills. Muffled city ambience.
+A rising "Shepard Tone" (illusion of infinite ascending pitch). Wind shear.
 
-## [ACT I] [SCENE 1.3] [Timecode: 00:10-00:15] [COMMAND]
-**Action:** Henoch raises a hand with data-port fingers. He swipes the air. The reality around his hand ripples like liquid mercury emitting cyan light.
-**Dialog:** HUD: "EXECUTE_PROTOCOL"
+## [ACT II] [SCENE 2.3] [Timecode: 00:23-00:26] [THE RAVENS AND SIRENS]
+**Action:** Mechanical drone-birds with speaker-heads scream at the Left Behind. Visible red soundwaves emit from their speakers. They circle the Corrupt Users.
+**Dialog:** SYSTEM: `WARNING_ALERT`
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "Rooftop", "env_change": false, "actors": [{"name": "Henoch", "phase": "Admin", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Extreme Close-Up", "mood": ["powerful", "active"], "director_intent": "Visualize the execution of the purge command as a physical interaction with the simulation code.", "start_image_keywords": ["Henoch hand", "data ports", "reality ripple", "cyan light"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "medium", "framing": "medium", "environment": "Rooftops", "env_change": false, "actors": [{"name": "Siren Drones", "phase": "Daemon", "presence": "on_screen", "focus": "primary"}], "props": ["Speaker Drones", "Red Soundwaves"], "camera": "Handheld, Shaky", "mood": ["panic", "chaotic"], "director_intent": "Visualizing the system alert as a physical threat.", "start_image_keywords": ["Speaker Bird Drone", "Red Soundwaves", "Screaming", "Rooftop"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme close-up of Henoch's hand. The skin is matte grey synthetic. Instead of fingernails, the fingertips end in metallic data-ports (USB/Jack style). He is performing a swipe gesture in the air. The air itself is distorting around his fingers, rippling like liquid mercury and emitting a bright Cyan light, revealing the wireframe grid of reality behind the air. 9:16 aspect ratio, macro photography, sci-fi VFX, hyper-detailed.
+Medium shot of a "Siren Daemon" - a mechanical drone resembling a raven, but its head is a large, rusted loudspeaker. It is perched on a railing, screaming. Visible rings of red distorted air (soundwaves) are blasting from the speaker cone. In the background, Corrupt Users are cowering. The lighting is emergency red strobe. 9:16 aspect ratio, gritty industrial design, noise artifacts.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch's Hand (Admin Build), synthetic grey skin, data-port fingertips.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Siren Drones (Mechanical Birds).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Loudspeaker heads.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Rooftops (The Left Behind).
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Rotating Red Emergency Strobes.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld, chaotic shaky cam. The speaker diaphragm vibrates intensely. 9:16 vertical video.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Piercing air-raid sirens mixed with high-pitched modem connection screeching.
+
+## [ACT II] [SCENE 2.4] [Timecode: 00:26-00:32] [SECURE PARTITION]
+**Action:** The Righteous land on glass walkways in a "Server Rack Canyon"—endless walls of black servers with blue LEDs. Clean, dust-free atmosphere.
+**Dialog:** SYSTEM: `PARTITION_SECURED`
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "extreme_wide", "environment": "Server Canyon", "env_change": true, "actors": [{"name": "Righteous Users", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Server Racks", "Glass Walkway"], "camera": "Wide Static", "mood": ["safe", "sterile"], "director_intent": "Contrast the chaos of the slum with the order of the server room.", "start_image_keywords": ["Server Rack Canyon", "Blue LEDs", "Glass Walkway", "Righteous Landing"], "start_image_mode": "env_first", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Extreme wide shot of the "Secure Partition". It is a massive canyon formed by endless vertical walls of black server racks with blinking blue status LEDs. Righteous Users are landing gently on transparent glass walkways suspended between the racks. The atmosphere is perfectly clean, dust-free, and cool. 9:16 aspect ratio, symmetrical composition, tech-noir aesthetic.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Tiny figures of Righteous Users.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Abstracted Rooftop background (blurred).
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright Cyan burst from the ripple effect.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Extreme Close-Up. The hand moves decisively. The reality ripple distorts the background. 9:16 vertical video.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Endless Server Rack Canyon.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cool Blue ambient light. No shadows.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Wide Static Shot. Establishing scale and stillness. 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy bass thrum of a massive server spinning up. A sharp "liquid" digital splash sound.
+Absolute silence except for a soft, rhythmic white-noise fan hum (Clean Room ambience).
 
-## [ACT II] [SCENE 2.1] [Timecode: 00:15-00:20] [MIGRATION]
-**Action:** "Eagle" prisms on Righteous users activate. They lift off the ground, floating vertically through the smog, leaving the chaotic street level.
-**Dialog:** HUD: "ELEVATION_ACTIVE"
+## [ACT II] [SCENE 2.5] [Timecode: 00:32-00:36] [DATA INTEGRITY CHECK]
+**Action:** Scanner beam sweeps a Righteous User with a pixelated/glitching face. The glitch is identified.
+**Dialog:** SYSTEM: `INTEGRITY_CHECK`
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "full_body", "environment": "Slum Alleyway", "env_change": true, "actors": [{"name": "Righteous Users", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Eagle Protocol Prisms"], "camera": "Low Angle, Tracking Shot", "mood": ["uplifting", "technological"], "director_intent": "Show the physical extraction of the righteous via tech-levitation.", "start_image_keywords": ["floating figures", "glowing prisms", "slum alley", "vertical lift"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "Server Walkway", "env_change": false, "actors": [{"name": "Injured Righteous", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Laser Scanner"], "camera": "Extreme Close-Up Zoom", "mood": ["diagnostic", "technological"], "director_intent": "Show sin/injury as a data error needing correction.", "start_image_keywords": ["glitching face", "pixelation", "green laser scan", "extreme close up"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Low-angle tracking shot in a dirty slum alley. Several "Righteous" figures (diverse humans in simple clothes) are lifting vertically off the wet pavement. Attached to their spines are "Eagle Protocol" units: floating geometric prisms emitting a soft, stable green anti-gravity field. The smog swirls around their feet as they ascend. The contrast between the dirty ground and the clean green tech is sharp. 9:16 aspect ratio, 144fps aesthetic, cinematic motion blur.
+Extreme close-up of a human face. Half of the face is normal skin, the other half is heavily pixelated and "glitching" with square artifacts and missing textures. A sharp, flat plane of green laser light is sweeping across the face. Where the laser hits the glitch, wireframe topology lines appear. 9:16 aspect ratio, macro photography, digital horror vs healing.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Righteous Users (Multiple).
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** "Eagle" Protocol Units (Floating Prisms) on backs.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Narrow, vertical slum alleyway with pipes and steam.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft Green light from prisms illuminating the fog.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Low Angle, tracking upwards with the subjects. Smooth, fluid 144fps-style motion. 9:16 vertical video.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-A stable, harmonic anti-gravity hum. The sound of wind rushing downwards.
-
-## [ACT II] [SCENE 2.2] [Timecode: 00:20-00:25] [ASCENT]
-**Action:** The Righteous swarm rises above the smog layer towards blinding white "Rock" monoliths floating in the upper atmosphere.
-**Dialog:** HUD: "SERVER_MIGRATION"
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Upper Atmosphere", "env_change": true, "actors": [{"name": "Righteous Swarm", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["White Monoliths"], "camera": "Aerial Follow Shot", "mood": ["heavenly", "epic"], "director_intent": "Establish the scale of the migration to the safe zone.", "start_image_keywords": ["righteous swarm", "white monoliths", "clouds", "sunlight"], "start_image_mode": "env_first", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide aerial shot above the dense orange smog layer of the city. A massive swarm of tiny green-lit figures is ascending towards giant, blindingly white "Rock" monoliths floating in the clear blue upper atmosphere. The monoliths look like sleek server towers. The sun is shining brightly from above, creating a stark transition from the dark city below. 9:16 aspect ratio, epic scale, photorealistic.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Righteous Swarm (distant specs).
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Face of Righteous User.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Upper Atmosphere. Floating White Server Monoliths.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blinding White sunlight, Blue sky, Orange smog below.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Wide Aerial Follow. Smooth camera movement tracking the swarm's approach to the monoliths. 9:16 vertical video.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright Green Laser Scan line.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Extreme Close-Up. The glitching pixels jitter. The scan line moves slowly. 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High altitude wind shear transitioning into a calm, sterile silence.
+High-pitched scanner hum. Digital static crackle on the glitch.
 
-## [ACT II] [SCENE 2.3] [Timecode: 00:25-00:30] [THE GLITCH]
-**Action:** A High-Value Sinner in a penthouse looks in a mirror. His expensive golden skin texture slips, revealing a rusted skull underneath. He touches his face in panic.
-**Dialog:** HUD: "TEXTURE_FAILURE"
+## [ACT II] [SCENE 2.6] [Timecode: 00:36-00:40] [PATCHING]
+**Action:** Nanotech "grows" new, pristine geometry over the deleted area. 3D printing in fast-forward. The wireframe fades into realistic skin.
+**Dialog:** SYSTEM: `PATCH_APPLIED`
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Penthouse Bathroom", "env_change": true, "actors": [{"name": "High-Value Sinner", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": ["Mirror"], "camera": "Rack Focus, Over-the-shoulder", "mood": ["horrifying", "realization"], "director_intent": "Reveal the lie of the sinner's appearance through technical failure.", "start_image_keywords": ["man in mirror", "gold skin glitch", "rusted skull", "penthouse"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "Server Walkway", "env_change": false, "actors": [{"name": "Injured Righteous", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Nanotech Mesh"], "camera": "Macro Time-lapse", "mood": ["miraculous", "satisfying"], "director_intent": "Depict divine healing as high-speed 3D printing.", "start_image_keywords": ["skin 3d printing", "golden wireframe", "nanotech healing", "macro"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Over-the-shoulder shot of a wealthy man in a digital silk suit looking into a bathroom mirror in a luxury penthouse. The back of his head shows perfect golden skin. In the mirror reflection, the face texture is detaching and slipping down, revealing a horrifying, rusted metal endoskeleton skull underneath with glowing red optical sensors. The lighting in the room is warm luxury, but the reflection has a cold, greenish "debug" cast. 9:16 aspect ratio, psychological horror, high fidelity detail.
+Macro extreme close-up of the same face. The glitch is gone. In its place, a complex golden geometric wireframe lattice is "printing" new skin tissue. The wireframe is filling with liquid matter that hardens into perfect, pore-detailed skin. It looks like advanced 3D printing in organic material. Soft, internal golden glow. 9:16 aspect ratio, hyper-detailed, medical sci-fi.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** High-Value Sinner. Golden skin texture pack failing.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Expensive Digital Silk Suit.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Luxury Penthouse Bathroom. Mirror.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Warm interior light vs Cold Green debug light in mirror.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Rack Focus from back of head to the mirror reflection. The texture slides off wetly. 9:16 vertical video.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Distorted audio. A bit-crushed crackle. The sound of wet tape peeling off.
-
-## [ACT II] [SCENE 2.4] [Timecode: 00:30-00:35] [CONSUMPTION]
-**Action:** In a server room, a Sinner forces glowing blue fiber-optic cables into his mouth to steal bandwidth. Lights dim around him.
-**Dialog:** HUD: "BANDWIDTH_THEFT"
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Server Room", "env_change": true, "actors": [{"name": "Glutton Sinner", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": ["Fiber Optic Cables"], "camera": "Handheld, Shaky, 12fps", "mood": ["desperate", "chaotic"], "director_intent": "Portray sin as the theft of system resources.", "start_image_keywords": ["man eating cables", "server room", "blue light", "flickering"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot in a dark server room. A desperate Sinner in a disheveled suit is violently shoving thick, glowing blue fiber-optic cables into his mouth. The cables are pulsing with data light. The server lights around him are flickering and dimming as he drains the power. His eyes are wide and manic. 9:16 aspect ratio, chaotic energy, high contrast, cyberpunk horror.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Glutton Sinner. Manic expression.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Disheveled business suit.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark Server Room. Racks of hardware.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Stuttering ambient lights. Glowing Blue data cables.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld, shaky camera. 12fps stop-motion style stutter effect. 9:16 vertical video.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Rhythmic metallic clicking (HDD head crash). Electrical sparking. Gulping sounds.
-
-## [ACT II] [SCENE 2.5] [Timecode: 00:35-00:40] [DOCKING]
-**Action:** Righteous Child lands gently on the smooth ceramic surface of a White Monolith. Far below, red warning lights flicker in the city.
-**Dialog:** OVERLAY: "ወንትሙሰ" (And you)
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "full_body", "environment": "White Monolith Surface", "env_change": true, "actors": [{"name": "Righteous Child", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Stabilized Medium Shot", "mood": ["safe", "serene"], "director_intent": "Contrast the safety of the chosen with the danger below.", "start_image_keywords": ["child landing", "white surface", "red lights below", "sky"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot of a small Righteous Child landing gently on a pristine, smooth white ceramic surface (the top of a Monolith). The child wears simple linen robes that flutter in the high-altitude wind. In the background, far below through the clouds, tiny red warning lights from the city are visible. The lighting on the child is pure, bright white sunlight. 9:16 aspect ratio, serene atmosphere, dreamlike quality.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Righteous Child.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Simple Linen Robes.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Surface of the White Monolith. High altitude.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Overexposed White sunlight.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Stabilized Medium Shot. The landing is feather-light. 9:16 vertical video.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Clean ambient breeze. Soft landing thud (fabric/bare feet).
-
-## [ACT II] [SCENE 2.6] [Timecode: 00:40-00:50] [REPAIR]
-**Action:** A Righteous User's missing arm is printed in real-time. High-res golden geometry assembles bone, muscle, then skin. No voxels, just fluid matter integration.
-**Dialog:** OVERLAY: "ፈውስ" (Healing)
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "White Monolith", "env_change": false, "actors": [{"name": "Injured Righteous", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Macro Focus", "mood": ["miraculous", "technological"], "director_intent": "Depict healing as a 3D printing process of divine matter.", "start_image_keywords": ["arm regeneration", "golden geometry", "3d printing flesh", "macro"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Macro extreme close-up of a human arm stump. A missing forearm is being reconstructed in real-time. Intricate golden geometric lattice structures are "printing" the bone and muscle fibers. Over this lattice, perfect, pore-detailed skin is manifesting like a fluid simulation freezing into solid matter. The light is warm and internal, glowing from the golden lattice. 9:16 aspect ratio, medical tech-demo style, beautiful, not gory.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Righteous User's Arm.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Skin surface.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** White background (Monolith surface).
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal Golden Glow from the reconstruction.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Macro Focus. Fluid matter integration. 9:16 vertical video.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** N/A.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Golden internal glow.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Macro Shot. Fast-forward style "growth" of the mesh. Wireframe fades to solid render. 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitched data-stream singing. Tiny, rapid crystalline clicking.
+Satisfying, rapid "wet" clicking sounds (like liquid crystallizing). A final "seal" thud.
 
-## [ACT II] [SCENE 2.7] [Timecode: 00:50-00:55] [WITHERING]
-**Action:** A Sinner in an alley collapses. His high-poly mesh degrades. Surfaces detach and float away like ash. He becomes a dark, untextured geometric primitive.
-**Dialog:** OVERLAY: "ሐጕልሙ" (Destruction)
+## [ACT II] [SCENE 2.7] [Timecode: 00:40-00:45] [SPOOFING DETECTION]
+**Action:** Down in the Slum. A "Wealthy Sinner" with a golden skin flickers. The "Kernel Scan" (flat white light plane) passes through him, revealing a rusted, skeletal wireframe underneath.
+**Dialog:** SYSTEM: `SIGNATURE_MISMATCH`
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "full_body", "environment": "Slum Alley", "env_change": true, "actors": [{"name": "Withering Sinner", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Medium Static, Time-lapse feel", "mood": ["disturbing", "final"], "director_intent": "Show the loss of humanity through the degradation of 3D fidelity.", "start_image_keywords": ["man collapsing", "geometry degrading", "faceless", "dark alley"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Slum Alley", "env_change": true, "actors": [{"name": "Wealthy Sinner", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": ["Golden Skin Texture", "Rusted Skeleton"], "camera": "X-Ray Effect", "mood": ["revealing", "disgusting"], "director_intent": "Expose the corruption hidden beneath a beautiful surface.", "start_image_keywords": ["Golden Man", "Rusted Skeleton", "X-Ray Scan", "Glitch"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot of a Sinner collapsing against a brick wall in a dark alley. He is in the process of "withering." Parts of his high-resolution face and clothes are detaching and floating away like dark ash. Underneath, his form is simplifying into sharp, untextured, black geometric primitives (pyramids, cubes). He is losing his human silhouette and becoming an abstract block-shape. 9:16 aspect ratio, surreal horror, stark lighting.
+Medium shot of a man in a slum alley wearing a "Golden King" skin—his face and hands are solid, reflective gold. A flat plane of white "Kernel Light" is passing through his body. Inside the scan plane, the gold texture is transparent, revealing a rusted, jagged metal endoskeleton underneath. The contrast between the beautiful exterior and the rotten interior is stark. 9:16 aspect ratio, X-Ray visual effect, forensic style.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Withering Sinner. Degrading from Human to Geometric Primitive.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Tattered suit dissolving.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Wealthy Sinner (Golden Skin).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Expensive digital suit.
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark Slum Alley.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Unnatural long shadows. Low key lighting.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Medium Static Shot. Time-lapse feel. The geometry snaps to lower fidelity violently. 9:16 vertical video.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flat White Scan Plane moving z-axis.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static camera. The scan plane moves through the subject. The texture flickers. 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Down-pitched electronic power-down groan. Dry crumbling sound.
+Electric buzzing. A hollow, metallic rattling sound coming from inside the chest.
 
-## [ACT III] [SCENE 3.1] [Timecode: 00:55-01:05] [THE WIPE]
-**Action:** Henoch watches from above. A transparent white "Delete Plane" sweeps across the lower city. Buildings and Sinners touched by it vanish instantly into black void.
-**Dialog:** HUD: "GARBAGE_COLLECTION"
+## [ACT II] [SCENE 2.8] [Timecode: 00:45-00:50] [RESOURCE HOGGING]
+**Action:** A bloated "Glutton" actor stuffs "RAM" and "VRAM" cables into their mouth. The room around them de-reses to low-poly because they consume all rendering budget.
+**Dialog:** SYSTEM: `RESOURCE_OVERFLOW`
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "extreme_wide", "framing": "extreme_wide", "environment": "City Skyline", "env_change": true, "actors": [{"name": "Henoch", "phase": "Admin", "presence": "on_screen", "focus": "secondary"}], "props": ["Delete Plane"], "camera": "Extreme Wide Shot", "mood": ["apocalyptic", "clean"], "director_intent": "The ultimate system cleanup. Total erasure.", "start_image_keywords": ["delete plane", "city vanishing", "black void", "henoch watching"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "wide_angle", "framing": "medium", "environment": "Low-Poly Room", "env_change": true, "actors": [{"name": "Glutton", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": ["Data Cables"], "camera": "Fisheye Lens", "mood": ["grotesque", "chaotic"], "director_intent": "Visualize sin as the selfish consumption of system resources.", "start_image_keywords": ["Bloated Man", "Eating Cables", "Low Poly Room", "Fisheye"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme wide shot from a high vantage point behind Henoch. He is looking down at the sprawling cyber-city. A colossal, flat, transparent white "Delete Plane" (like a 3D software clipping plane) is sweeping across the city. Everything behind the plane—buildings, lights, smoke—is instantly replaced by absolute Vantablack void. The edge of the plane is glowing bright white. 9:16 aspect ratio, epic scale, minimalist destruction.
+Fisheye lens shot of a grotesquely bloated man sitting in a room. He is violently stuffing thick black cables labeled "VRAM" into his mouth. The man is rendered in high fidelity, but the room around him has degraded into untextured, flat-shaded low-poly grey blocks because he is hogging all the polygons. The lighting is sickly green. 9:16 aspect ratio, distorted perspective, grotesque realism.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (Silhouette foreground).
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Cyber-City Skyline being erased.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Glowing White Edge of the Delete Plane. Behind it: Black Void.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Extreme Wide Shot. Linear sweep of the plane across the frame. 9:16 vertical video.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Glutton Sinner.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Stretched clothing.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A room that is actively simplifying into cubes and triangles.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Sickly Green.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fisheye Lens. Handheld motion. The walls pop into lower LODs. 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sharp electronic "zap" on deletions. A massive vacuum suction sound.
+Wet gulping sounds. Heavy mechanical grinding (like a hard drive failing).
 
-## [ACT III] [SCENE 3.2] [Timecode: 01:05-01:15] [OPTIMAL]
-**Action:** The city is gone. Only the White Monoliths remain in the sky, glowing in a golden dawn. The system is silent.
-**Dialog:** HUD: "SYSTEM_OPTIMAL"
+## [ACT III] [SCENE 3.1] [Timecode: 00:50-00:55] [UNSAFE REPOSITORY]
+**Action:** A Sinner drinks "Corrupt Data" (black glitch liquid) from a pipe. Upon contact, his face mesh inverts. Vertices shoot out randomly.
+**Dialog:** SYSTEM: `FATAL_EXCEPTION`
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Empty Sky", "env_change": true, "actors": [], "props": ["White Monoliths"], "camera": "Slow Pull Back", "mood": ["peaceful", "resolved"], "director_intent": "The final state of perfection after the purge.", "start_image_keywords": ["empty sky", "white monoliths", "golden dawn", "clouds"], "start_image_mode": "env_first", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Slum Pipe", "env_change": true, "actors": [{"name": "Thirsty Sinner", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": ["Black Glitch Liquid"], "camera": "Crash Zoom", "mood": ["horrifying", "fatal"], "director_intent": "Show the immediate destructive effect of corrupt data.", "start_image_keywords": ["drinking black liquid", "mesh exploding", "vertex spikes", "horror"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide shot of an empty, pristine sky. The cyber-city and smog are completely gone, replaced by a clean golden dawn light. Only the massive White Monoliths (The Nest) remain floating peacefully in the clouds. The image is clean, sharp, and perfectly balanced. 9:16 aspect ratio, ethereal, finality.
+Close-up of a Sinner drinking thick, black, iridescent liquid from a rusty pipe. The moment the liquid touches his lips, his face geometry "explodes". Long, sharp polygon spikes (vertices) shoot out from his skin in random directions. His eyes are rolling back. The liquid is glowing with negative purple light. 9:16 aspect ratio, body horror, geometry glitch art.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Thirsty Sinner.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Empty Sky with Floating Monoliths.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Golden Dawn Light. Warm and serene.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow Pull Back. Fade to Black. 9:16 vertical video.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Rusty Pipe background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Purple "Black Light" glow.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Crash Zoom on contact. The mesh vertices shoot out violently. 9:16 vertical video.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A pure 432Hz sine wave (Voice of Rest). Very quiet. Birds chirping (digital artifact free).
+Loud digital tearing sound. A scream that turns into static.
+
+## [ACT III] [SCENE 3.2] [Timecode: 00:55-01:00] [DISCONNECTION]
+**Action:** Disconnected from Source. The Sinner's energy hits 0%. He stiffens into a T-Pose, turns grey, and crumbles into unlinked dust particles.
+**Dialog:** SYSTEM: `DISCONNECTED`
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "full_body", "environment": "Alley", "env_change": false, "actors": [{"name": "Dying Sinner", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Static Time-lapse", "mood": ["final", "desolate"], "director_intent": "The ultimate end of a disconnected asset is deletion.", "start_image_keywords": ["T-Pose", "turning to dust", "grey texture", "alley"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Full body shot of the Sinner in a dark alley. He has stiffened into a rigid "T-Pose" (arms straight out). His skin has turned a flat, unlit grey. His body is crumbling away into grey dust particles that float upwards and vanish. A battery icon above his head reads "0%". 9:16 aspect ratio, melancholic, surreal.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Sinner in T-Pose.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Grey "Default Material".
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark Alley.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flickering lights dying out.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static Shot. Fast Time-lapse feel. The disintegration happens in seconds. 9:16 vertical video.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A down-pitched electronic power-down whine. Dry crumbling sound (sand).
+
+## [ACT III] [SCENE 3.3] [Timecode: 01:00-01:05] [THE PERMANENT RECORD]
+**Action:** An abstract datascape showing an infinite scroll of glowing hash codes. The errors of the Sinners are burned into the blockchain.
+**Dialog:** SYSTEM: `LOG_WRITTEN`
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "interface", "shot_type": "wide", "framing": "extreme_wide", "environment": "Datascape", "env_change": true, "actors": [], "props": ["Infinite Scroll"], "camera": "Tracking Shot", "mood": ["infinite", "permanent"], "director_intent": "Show the permanence of the system logs.", "start_image_keywords": ["Infinite Code Scroll", "Blockchain Hash", "Blue Neon", "Datascape"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Abstract abstract representation of a "Blockchain Log". An infinite vertical scroll of glowing blue hexadecimal hash codes floating in a black void. Some lines are red (Errors). The perspective is vast, looking like a monolith of code. 9:16 aspect ratio, Tron-legacy aesthetic, data visualization.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite Datascape.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Neon Blue and Red text.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Tracking Shot moving alongside the scrolling code. 9:16 vertical video.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+High-speed data processing ticks (like a Geiger counter). Deep ambient drone.
+
+## [ACT III] [SCENE 3.4] [Timecode: 01:05-01:10] [GARBAGE COLLECTION]
+**Action:** Henoch executes the final command. A "Deletion Wall" (absolute void) sweeps the city. Everything behind it becomes Alpha 0 (deleted). Sinners are formatted.
+**Dialog:** SYSTEM: `GARBAGE_COLLECTION`
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "extreme_wide", "framing": "extreme_wide", "environment": "City Skyline", "env_change": true, "actors": [{"name": "Henoch", "phase": "Admin", "presence": "on_screen", "focus": "secondary"}], "props": ["Deletion Wall"], "camera": "Aerial Pan", "mood": ["apocalyptic", "clean"], "director_intent": "The final purge of the corrupted environment.", "start_image_keywords": ["Deletion Wall", "City Vanishing", "Black Void", "Henoch Watching"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Aerial wide shot of the Cyber-City. A massive, vertical "Deletion Wall" (a plane of perfect Vantablack void with a glowing white edge) is sweeping across the landscape. To the right of the wall, the city is chaotic and neon. To the left, there is absolutely nothing—just white void. Henoch stands in the foreground on a high ledge, watching the sweep. 9:16 aspect ratio, epic scale, contrast between detail and emptiness.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch (Small Silhouette).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** City Skyline.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The White Edge of the Deletion Wall.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Aerial Pan. The wall moves linearly, erasing the city instantly. 9:16 vertical video.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+The roar of a massive wind, cut off instantly into silence as the wall passes.
+
+## [ACT III] [SCENE 3.5] [Timecode: 01:10-01:15] [OPTIMIZATION COMPLETE]
+**Action:** The Slum is gone. Only White Server Towers remain in a pristine white void. Warm, golden sunrise illumination. Henoch stands calm.
+**Dialog:** SYSTEM: `OPTIMIZATION_COMPLETE`
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "White Void", "env_change": true, "actors": [{"name": "Henoch", "phase": "Admin", "presence": "on_screen", "focus": "primary"}], "props": ["White Monoliths"], "camera": "Slow Pan", "mood": ["peaceful", "resolved"], "director_intent": "The final state of system perfection.", "start_image_keywords": ["White Void", "Golden Sunrise", "Henoch", "Monoliths"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Wide shot of a new, perfect world. The messy city is gone. We are in a pristine White Void. In the distance, the White Server Monoliths float gracefully. A warm, golden sunrise illuminates the scene with perfect Global Illumination. Henoch stands in the center, calm, his work finished. 9:16 aspect ratio, ethereal, zen, minimalist.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Henoch.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Admin Shell (Now calm/white).
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite White Void. Floating Towers.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Warm Golden Sunrise.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow Pan. Fade to White. 9:16 vertical video.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Pure 432Hz Sine Wave. A single "Dawn" synth chord.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.1","text":"Systemstatus: Kritisch. Der Code verlangt nach Schnitt.","words_max":10},{"scene":"2.7","text":"Ohne Struktur ist Materie nur Staub.","words_max":10},{"scene":"3.2","text":"Null Fehler. Die Stille ist der Beweis.","words_max":10}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.3","text":"Zugriff verweigert. Ich erzwinge den Neustart.","words_max":8},{"scene":"3.5","text":"Es ist vollbracht. Die Stille kehrt zurück.","words_max":8}],"Righteous User":[{"scene":"2.7","text":"Ich atme wieder. Die Luft ist rein.","words_max":8}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

@@ -1,295 +1,295 @@
 # DREHBUCH KAPITEL 83 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Als ich im Haus meines Großvaters Mahalalel ruhte, sah ich in einer Vision, wie der Himmel einstürzte und die Erde in den Abgrund sank. Ich rief laut, denn die Architektur der Welt löste sich auf. Mein Großvater weckte mich und fragte, warum ich so schrie. Ich erzählte ihm, dass die Erde vernichtet würde, wenn wir den Fehler im System nicht beheben.
+NARRATOR_TEXT: In den Tiefen der Simulation sah ich den Kern der Welt zerbrechen. Die Architektur des Himmels löste sich auf, und die Berge kollidierten in einer fehlerhaften Berechnung der Realität. Mein Großvater Mahalalel, der Administrator der alten Systeme, musste mich wecken, bevor mein Verstand unter der Last der korrupten Daten kollabierte. Es war kein Traum, sondern eine Warnung des Hauptsystems vor dem totalen Absturz.
 
-## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:05] [THE ARCHIVE LOG]
-**Action:** Enoch V2 stands on Observation Deck. Holds a holographic scroll. Speaking to Methuselah (OTS).
-**Dialog:** "Höre, mein Sohn, die Vision meines Schlafes."
+## [ACT I] [SCENE 1.1] [Timecode: 00:00-00:05] [THE ARCHIVE OPEN]
+**Action:** INT. ARCHIVE. Adult Enoch stands in a sterile, clinical observatory. He opens a `DATA_SCROLL_HOLO`. Methuselah watches from the shadows.
+**Dialog:** "Mein Sohn Methuselah, ich zeige dir die Visionen."
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "over_the_shoulder", "environment": "Sinai_Port_V1_Observation_Deck", "env_change": true, "actors": [{"name": "Enoch V2", "phase": "Archive_Narrator", "presence": "on_screen", "focus": "primary"}, {"name": "Methuselah", "phase": "Young_Adult", "presence": "on_screen", "focus": "secondary"}], "props": ["holographic_scroll"], "camera": "50mm / OTS", "mood": ["reflective", "calm"], "director_intent": "Establish the narrative frame with a sense of archival importance.", "start_image_keywords": ["Enoch V2", "Hologram Scroll", "Sinai Deck"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "STAND_TALK", "env_id": "SINAI_DECK", "props": ["HOLO_SCROLL"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Sinai_Port_V1_Observation_Deck", "env_change": true, "actors": [{"name": "Enoch V2", "phase": "Archive_Narrator", "presence": "on_screen", "focus": "primary"}, {"name": "Methuselah", "phase": "Young_Adult", "presence": "on_screen", "focus": "secondary"}], "props": ["holographic_scroll"], "camera": "50mm Dolly Track Right", "mood": ["clinical", "reflective"], "director_intent": "Establish the narrator accessing the corrupted log file.", "start_image_keywords": ["Enoch V2", "Holographic Scroll", "Sinai Deck"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "OPEN_SCROLL", "env_id": "SINAI_DECK", "props": ["HOLO_SCROLL"], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "enoch_vision_intro", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot, vertical 9:16 aspect ratio. Enoch V2 (Adult System Build) standing on a futuristic observation deck at night. He has polished alabaster skin with faint gold vein inlays and steady white beam eyes. He wears a deep indigo Liquid-Linen robe. In his hands, a floating holographic data-scroll glows with amber light. Foreground: blurred shoulder of Methuselah (Young Adult). Background: Cold lunar light outside, warm amber data-light illuminating Enoch's face. 8k resolution, photorealistic, depth of field.
+Cinematic vertical 9:16 shot. Enoch V2 (Adult System Build) standing in a high-tech obsidian observatory. He has polished alabaster skin with faint gold circuitry inlays. He wears deep indigo Archivist Robes with metallic weaving. He holds a vertical cylinder of floating blue volumetric light (the scroll). Background: Sterile cold lunar lighting, faint silhouette of Methuselah observing. 8k resolution, photorealistic, anamorphic lens flare.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch V2, mature narrator, alabaster skin, gold circuitry, white eyes. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Indigo liquid-linen robe, holding a holographic scroll made of floating amber particles. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Sinai Port Observation Deck, dark metallic architecture, viewing port to space. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Contrast between cold blue moon lighting from window and warm amber glow from the hologram. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, OTS shot over Methuselah's shoulder, focus on Enoch speaking calmly, subtle floating motion of the hologram particles.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch V2, alabaster skin, gold inlays, calm expression. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Indigo heavy fabric robes, metallic thread details. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Clean, dark reflective floor, cold white environmental lighting. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** High-key clinical white highlights, blue glow from hologram. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, slow dolly track right, smooth motion, high fidelity.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Quiet industrial hum of a server room. Soft, resonant voice of Enoch speaking. Subtle electrical hum from the hologram.
+Sterile server room fan whir. High-pitched digital hum of the hologram initializing.
 
-## [ACT 1] [SCENE 1.2] [Timecode: 00:05-00:08] [THE DORMITORY]
-**Action:** FLASHBACK: Enoch V1 sleeping on a basalt slab. Cables connected to base of skull. Status LEDs pulsing Green.
+## [ACT I] [SCENE 1.2] [Timecode: 00:05-00:10] [THE MEMORY LOAD]
+**Action:** INT. ARCHIVE. Enoch expands the hologram. It resolves into a 3D wireframe of his younger self sleeping.
+**Dialog:** "...zwei Visionen sah ich, bevor ich eine Frau nahm."
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "prop", "shot_type": "over_the_shoulder", "framing": "over_the_shoulder", "environment": "Sinai_Port_V1_Observation_Deck", "env_change": false, "actors": [{"name": "Enoch V2", "phase": "Archive_Narrator", "presence": "on_screen", "focus": "primary"}], "props": ["holographic_wireframe"], "camera": "Rack Focus", "mood": ["mysterious", "tech"], "director_intent": "Transition from the narrator to the recorded data.", "start_image_keywords": ["Hologram Wireframe", "Blue Light", "Enoch Shoulder"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "HOLD_HOLO", "env_id": "SINAI_DECK", "props": ["HOLO_WIREFRAME"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 8}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Cinematic vertical 9:16 shot. Over-the-shoulder view from Enoch V2. The blue volumetric light has expanded into a detailed 3D wireframe mesh of a human figure (Enoch V1) sleeping on a slab. The wireframe is made of millions of tiny blue data points. The background observatory is blurred (bokeh). Sharp focus on the digital mesh.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch V2 shoulder/head from back. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Robe texture detail. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Hologram space in front. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue light illuminating Enoch's face profile. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, rack focus from foreground actor to the floating wireframe, particles forming the image.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Data unfolding sound (digital flutter). Deep sub-bass thrum.
+
+## [ACT I] [SCENE 2.1] [Timecode: 00:10-00:15] [SERVER SLEEP]
+**Action:** INT. SERVER DORM. Young Enoch lies on a basalt slab, black cables connected to his neck. Green status LEDs blink on stone sarcophagi.
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "high_angle", "environment": "House_of_Mahalalel_Server_Dorm", "env_change": true, "actors": [{"name": "Enoch V1", "phase": "Voyager_Youth", "presence": "on_screen", "focus": "primary"}], "props": ["data_cables"], "camera": "Slow Dolly In", "mood": ["tech_dormant", "peaceful"], "director_intent": "Show the physical connection to the system before the crash.", "start_image_keywords": ["Enoch V1 Sleeping", "Cables", "Green LED"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "SLEEP_SLAB", "env_id": "SERVER_DORM", "props": ["CABLES"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "high_angle", "environment": "House_of_Mahalalel_Server_Dorm", "env_change": true, "actors": [{"name": "Enoch V1", "phase": "Voyager_Youth", "presence": "on_screen", "focus": "primary"}], "props": ["data_cables"], "camera": "Orthographic Top Down", "mood": ["dormant", "industrial"], "director_intent": "Show the user docked in the system before the crash.", "start_image_keywords": ["Enoch Sleeping", "Basalt Slab", "Green LED"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "SLEEP_SLAB", "env_id": "SERVER_DORM", "props": ["CABLES"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot, vertical 9:16 aspect ratio. High angle looking down at Enoch V1 (Youth Build) sleeping on a dark basalt slab. He has silver-sheen skin. Data cables are plugged into ports at the base of his skull. The room is lined with humming server racks. Lighting is dim, dominated by pulsing Green standby LEDs on the cables and walls. Photorealistic, cyberpunk aesthetic, high contrast.
+Cinematic vertical 9:16 shot. Top-down "God's Eye" view. Enoch V1 (Youth Build, matte white skin) lying perfectly straight on a black basalt server slab. Thick black data cables connect to ports at the base of his skull. The room is dark, illuminated only by rhythmic pulsing Green standby LEDs on the walls. Dust motes float in the air. Symmetrical composition.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch V1, youth build, silver skin, sleeping peacefully. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Simple linen garment, thick black data cables connected to neck ports. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Server dormitory, walls of black basalt with blinking lights. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Green pulsing LED light, rhythmic like a heartbeat. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow camera dolly moving closer to his face, 9:16 vertical format, peaceful but ominous atmosphere.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch V1, youth build, white skin. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Simple white linen, black cables. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Basalt walls, server rack slots. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dim green ambient pulse. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, static orthographic camera, slight vibration of dust particles from server hum.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Rhythmic electronic beeping like a heart monitor. Low frequency hum of cooling fans.
+Deep 400Hz mains hum. Rhythmic electronic heartbeat beep.
 
-## [ACT 2] [SCENE 2.1] [Timecode: 00:08-00:11] [SKYBOX FAILURE]
-**Action:** SKYBOX FAILURE: The blue sky texture peels off the dome, revealing static noise and wireframe grids behind the stars.
+## [ACT II] [SCENE 3.1] [Timecode: 00:15-00:20] [SKY FAILURE]
+**Action:** EXT. SIMULATION SKY. *The Crash.* The sky texture peels away from the dome (`UV_UNWRAP`), revealing a magenta/black grid void behind the stars.
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "low_angle", "environment": "Glitching_Skybox", "env_change": true, "actors": [], "props": [], "camera": "Spinning Wide", "mood": ["disorienting", "glitch_horror"], "director_intent": "Visualise the simulation breaking down at the texture level.", "start_image_keywords": ["Peeling Sky", "Wireframe", "Dead Pixels"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "GLITCH_SKY", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "low_angle", "environment": "Glitching_Skybox", "env_change": true, "actors": [], "props": [], "camera": "Spinning Low Angle", "mood": ["disorienting", "glitch_horror"], "director_intent": "Visualize the texture mapping failure of the skybox.", "start_image_keywords": ["Peeling Sky", "UV Unwrap", "Magenta Grid"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "GLITCH_SKY", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot, vertical 9:16 aspect ratio. Looking straight up at a blue sky that is tearing apart like burnt paper. The blue texture is peeling away to reveal a black void filled with white static noise and neon wireframe grids. Large black square "dead pixels" float in the air. The sun is flickering like a broken lightbulb. Surreal, glitch art, photorealistic textures mixed with raw digital artifacts.
+Cinematic vertical 9:16 shot. Looking up at a photorealistic night sky where the star texture is physically peeling away from the celestial dome like old wallpaper. Behind the torn sky texture is a raw developer void: a stark Magenta and Black checkerboard pattern with neon wireframe grid lines. Square blocks of the sky are missing (dead pixels). Surreal, technical failure.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The sky dome. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright blue sky contrasting with harsh black/white static and neon grid lines. Strobe lighting from the flickering sun. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, camera spinning slowly to create vertigo, the sky texture ripping and dissolving physically.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Sky dome. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Contrast between deep blue starfield and harsh magenta/black void light. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, slow dizzying camera rotation, texture ripping animation exposing the grid.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud digital tearing sound. High pitched screeching. Bit-crushed distortion.
+Loud tearing sound like metal shearing. Bit-crushed static noise.
 
-## [ACT 2] [SCENE 2.2] [Timecode: 00:11-00:14] [TERRAIN DECIMATION]
-**Action:** TERRAIN DECIMATION: Mountains lose high-res textures, reverting to grey low-poly blocks. They intersect/clip into each other.
+## [ACT II] [SCENE 3.2] [Timecode: 00:20-00:25] [TERRAIN COLLISION]
+**Action:** EXT. MOUNTAINS. *Geometry Failure.* Mountains flicker and intersect (`Z-FIGHTING`). High-res rock surfaces dissolve into raw fractal data.
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "drone_shot", "environment": "Glitching_Mountains", "env_change": false, "actors": [], "props": [], "camera": "Fast Drone Flyover", "mood": ["chaos", "destruction"], "director_intent": "Show the geometry failing.", "start_image_keywords": ["Low Poly Mountains", "Clipping", "Grey Mesh"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "GLITCH_MNT", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "drone_shot", "environment": "Glitching_Mountains", "env_change": false, "actors": [], "props": [], "camera": "Fast Drone", "mood": ["chaotic", "broken"], "director_intent": "Show the physics engine failing through mesh collisions.", "start_image_keywords": ["Mountain Collision", "Z-Fighting", "Glitch Geometry"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "GLITCH_MNT", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot, vertical 9:16 aspect ratio. Aerial view of a mountain range undergoing "polygon decimation". The realistic rock textures are gone, replaced by sharp, untextured grey low-poly shapes. The mountains are intersecting and clipping through each other violently. Z-fighting flicker on the surfaces. Digital debris flying. 3D render style, harsh lighting, chaotic.
+Cinematic vertical 9:16 shot. Aerial drone view of a mountain range suffering a physics error. Two massive mountains are sliding into each other, their geometries clipping. The texture at the intersection flickers violently between grey rock and black void (Z-fighting). The peaks are losing detail, reverting to sharp, simple angular shapes. Debris floating without gravity.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Mountain landscape. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Grey unlit geometry against a broken sky. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fast drone camera flying over the landscape, showing the terrain popping from high detail to low poly blocks instantly, 9:16 vertical.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Mountain landscape. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flat, broken lighting. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, fast forward motion, meshes flickering and popping in and out of existence.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep grinding sound of stone. Glitchy stuttering audio. Hard drive read error noise.
+Heavy bass distortion. Digital stuttering audio (buffer underrun).
 
-## [ACT 2] [SCENE 2.3] [Timecode: 00:14-00:17] [NULL VOID]
-**Action:** NULL VOID: Forest floor drops to 50% opacity. Trees fall through the ground into an infinite black grid below.
+## [ACT II] [SCENE 3.3] [Timecode: 00:25-00:30] [VOID CLIP]
+**Action:** EXT. FOREST FLOOR. *Clipping Error.* The ground becomes semi-transparent. Trees fall through the floor mesh into an infinite black abyss.
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "medium", "framing": "tracking", "environment": "Transparent_Forest", "env_change": false, "actors": [], "props": ["Falling_Tree"], "camera": "Tracking Shot", "mood": ["eerie", "void"], "director_intent": "The collision detection has failed.", "start_image_keywords": ["Transparent Ground", "Neon Grid", "Falling Tree"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "NULL_VOID", "props": ["TREE"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "medium", "framing": "tracking", "environment": "Transparent_Forest", "env_change": false, "actors": [], "props": ["Falling_Tree"], "camera": "Tracking Shot", "mood": ["surreal", "terrifying"], "director_intent": "Visualize the loss of collision detection.", "start_image_keywords": ["Transparent Floor", "Falling Tree", "Neon Grid Abyss"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "NULL_VOID", "props": ["TREE"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot, vertical 9:16 aspect ratio. A forest floor that has become semi-transparent (50% opacity). Beneath the ground is an infinite black void with a glowing neon green grid at Y=-10000. A large pine tree is sinking through the ghostly ground, falling into the digital abyss. Wireframe outlines on the tree. Sci-fi horror, surreal, dark.
+Cinematic vertical 9:16 shot. A forest floor that has turned 50% transparent, revealing a deep black abyss with a green coordinate grid far below. A large pine tree has detached from the surface and is sinking vertically through the phantom ground, clipping through the terrain mesh. The tree dissolves into binary dust as it falls. Eerie, silent horror.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Forest with transparent ground. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dark scene lit from below by the neon green grid. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, camera tracking the tree as it clips through the floor and falls endlessly, physics failure.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Ghosted forest floor. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Underlit by the green grid below. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, camera tilts down following the falling tree into the darkness.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Whooshing sound of a vacuum. Digital "de-rez" sound effect.
+Whooshing vacuum sound. No impact noise.
 
-## [ACT 2] [SCENE 2.4] [Timecode: 00:17-00:20] [SYSTEM PURGE]
-**Action:** SYSTEM PURGE: Enoch V1 wakes up on slab. Vomits black ferrofluid (corrupted data). Steam jets from neck ports.
+## [ACT II] [SCENE 3.4] [Timecode: 00:30-00:35] [COOLANT PURGE]
+**Action:** INT. SERVER DORM. Enoch wakes violently. Steam jets erupt from his neck ports (`COOLANT_PURGE`). He screams a visible distortion wave.
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "House_of_Mahalalel_Server_Dorm", "env_change": false, "actors": [{"name": "Enoch V1", "phase": "Voyager_Youth", "presence": "on_screen", "focus": "primary"}], "props": ["Black_Ferrofluid"], "camera": "ECU", "mood": ["panic", "visceral"], "director_intent": "The data corruption manifests biologically.", "start_image_keywords": ["Enoch V1", "Black Fluid", "Red Alarm"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "VOMIT_SIT", "env_id": "SERVER_DORM_RED", "props": ["FLUID"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "House_of_Mahalalel_Server_Dorm", "env_change": false, "actors": [{"name": "Enoch V1", "phase": "Voyager_Youth", "presence": "on_screen", "focus": "primary"}], "props": ["steam_jets"], "camera": "ECU Shake", "mood": ["pain", "overload"], "director_intent": "The data corruption manifests as biological overheating.", "start_image_keywords": ["Enoch Screaming", "Steam Vents", "Red Strobe"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "SCREAM_PURGE", "env_id": "SERVER_DORM_RED", "props": ["STEAM"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot, vertical 9:16 aspect ratio. Extreme Close Up of Enoch V1 (Youth Build) screaming. Thick, viscous black ferrofluid (magnetic liquid) is spilling from his mouth. Steam is jetting violently from the ports on his neck. The room lighting has turned to flashing RED alarm lights. Sweat and condensation on his silver skin. Visceral, intense, horror-tech.
+Cinematic vertical 9:16 shot. Extreme Close Up of Enoch V1 screaming in agony. High-pressure white steam is blasting violently from the metal sockets in his neck (coolant purge). His matte white skin is flushed angry red around the implants. The air around his mouth is distorted by a visible sonic shockwave. Lighting is a chaotic strobing RED alarm. Visceral, sweaty, high stress.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch V1, silver skin, distressed. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Neck cables connected. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark room with flashing red lights. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Emergency red strobe lighting. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, extreme close up on face, black fluid bubbling from mouth, steam blasting from neck, chaotic motion.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch V1, white skin turning red, open mouth. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Neck ports. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark background. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red strobe light. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, violent camera shake, steam erupting rapidly, distortion effects.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Violent steam hiss. Choking and coughing sounds. Loud alarm siren.
+High pressure steam hiss. Sonic screech (not a human voice). Alarm siren.
 
-## [ACT 2] [SCENE 2.5] [Timecode: 00:20-00:25] [ADMIN ARRIVAL]
-**Action:** ADMIN ARRIVAL: Mahalalel enters through Red Alarm light. Checks wrist-monitor. Calm amidst chaos.
+## [ACT II] [SCENE 4.1] [Timecode: 00:35-00:40] [ADMIN INGRESS]
+**Action:** INT. SERVER DORM. Mahalalel enters. Heavy, hydraulic movement. He is backlit by the red alarm strobe.
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "low_angle", "environment": "House_of_Mahalalel_Corridor", "env_change": true, "actors": [{"name": "Mahalalel", "phase": "Elder_Admin", "presence": "on_screen", "focus": "primary"}], "props": ["wrist_monitor"], "camera": "Low Angle Hero", "mood": ["authoritative", "intense"], "director_intent": "Establish the SysAdmin's control over the situation.", "start_image_keywords": ["Mahalalel", "Fiber Optic Beard", "Red Fog"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "WALK_ENTER", "env_id": "CORRIDOR_RED", "props": ["WRIST_COMP"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "low_angle", "environment": "House_of_Mahalalel_Corridor", "env_change": true, "actors": [{"name": "Mahalalel", "phase": "Elder_Admin", "presence": "on_screen", "focus": "primary"}], "props": ["tech_apron"], "camera": "Low Angle Hero", "mood": ["imposing", "authoritative"], "director_intent": "Establish the SysAdmin coming to restore order.", "start_image_keywords": ["Mahalalel", "Cable Beard", "Red Silhouette"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "WALK_HEAVY", "env_id": "CORRIDOR_RED", "props": ["TECH_APRON"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot, vertical 9:16 aspect ratio. Low angle shot of Mahalalel (Elder Admin) stepping through a doorway filled with red alarm light and steam. He is massive, skin like oxidized bronze. His beard is a cascade of glowing orange fiber-optic cables. He wears heavy technician robes with metallic circuitry. He is looking calmly at a holographic display on his wrist. Epic, imposing, industrial.
+Cinematic vertical 9:16 shot. Low angle hero shot. Mahalalel (Admin Build) stepping through a doorway filled with red fog and alarm light. He is a massive figure with skin like oxidized bronze. His beard is a heavy cluster of grey industrial cables. He wears a technician's apron with glowing orange circuits. Shadowy, powerful, industrial.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Mahalalel, bronze skin, fiber optic beard. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Tech-robes, wrist computer. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Hazy corridor with red emergency lights. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Backlit by red alarm light, beard glowing orange. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, slow confident walk towards camera, low angle, steam swirling around him.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Mahalalel, bronze skin, cable beard. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Heavy tech-apron. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Hazy corridor. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Backlit by red strobes, rim lighting. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, slow heavy walk, smoke swirling around legs.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy metallic footsteps (clank, clank). Muffled alarm sound.
+Heavy metallic footsteps (clank-thud). Alarm pulsing.
 
-## [ACT 2] [SCENE 2.6] [Timecode: 00:25-00:29] [ERROR REPORT]
-**Action:** ERROR REPORT: Enoch points to his eyes. He projects the wireframe earth crash onto the ceiling. He is shaking (Thermal throttling).
-**Dialog:** "Es fällt! Die Architektur versagt!"
+## [ACT II] [SCENE 4.2] [Timecode: 00:40-00:45] [STABILIZATION]
+**Action:** INT. SERVER DORM. Mahalalel grabs Enoch's face to stabilize him. Enoch's eyes project "Blue Screen" hex dumps into the air.
+**Dialog:** "Warum schreist du, mein Sohn?"
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "over_the_shoulder", "environment": "House_of_Mahalalel_Server_Dorm", "env_change": false, "actors": [{"name": "Enoch V1", "phase": "Voyager_Youth", "presence": "on_screen", "focus": "primary"}, {"name": "Mahalalel", "phase": "Elder_Admin", "presence": "on_screen", "focus": "secondary"}], "props": ["Holo_Projection"], "camera": "OTS", "mood": ["frantic", "urgent"], "director_intent": "Show the internal error being projected externally.", "start_image_keywords": ["Enoch Projecting", "Wireframe Earth", "Blue Screen"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "POINT_EYES", "env_id": "SERVER_DORM_RED", "props": ["HOLO_MAP"], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "enoch_panic_01", "pose_source": "", "driver_notes": "Trembling intense"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 6}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "two_shot", "environment": "House_of_Mahalalel_Server_Dorm", "env_change": false, "actors": [{"name": "Mahalalel", "phase": "Elder_Admin", "presence": "on_screen", "focus": "primary"}, {"name": "Enoch V1", "phase": "Voyager_Youth", "presence": "on_screen", "focus": "secondary"}], "props": ["eye_projection"], "camera": "Two Shot Side", "mood": ["intense", "contrast"], "director_intent": "Contrast the stable admin with the glitching user.", "start_image_keywords": ["Mahalalel Grabbing Enoch", "Blue Eye Projection", "Red Room"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "GRAB_FACE", "env_id": "SERVER_DORM_RED", "props": ["EYE_BEAM"], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "mahalalel_why_cry", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot, vertical 9:16 aspect ratio. Over-the-shoulder view from Mahalalel looking at Enoch V1. Enoch is shaking violently, pointing to his eyes. Bright blue holographic beams project from his eyes onto the ceiling, displaying a wireframe earth crashing with "FATAL ERROR" hex codes. Enoch's skin glows orange from thermal throttling. Panic, high energy, sci-fi interface.
+Cinematic vertical 9:16 shot. Two-shot profile. Mahalalel's large bronze hand is gripping Enoch's jaw, holding him still. Enoch is vibrating with motion blur. From Enoch's eyes, bright blue beams of holographic light project into the air, displaying scrolling HEX code error dumps. The room is bathed in red alarm light, contrasting with the blue eye-beams.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch V1, silver skin, glowing orange veins. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Robes. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Server room. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue hologram light mixing with red alarm light. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, OTS shot, Enoch shaking physically, hologram flickering jittery on the ceiling.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Mahalalel (Steady), Enoch (Shaking). **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Robes. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Server dorm. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red background, blue projections. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, contrast between static Mahalalel and jittering Enoch, projection light flickering.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Distorted voice shouting. Projection hum. Electrical crackle.
+Multi-channel voice (like a PA system). Electric buzzing.
 
-## [ACT 2] [SCENE 2.7] [Timecode: 00:29-00:33] [DIAGNOSTIC]
-**Action:** DIAGNOSTIC: Mahalalel grabs Enoch’s chin. Scans his optical apertures. Confirms the Heuristic Overflow.
-**Dialog:** "Systemanalyse."
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "House_of_Mahalalel_Server_Dorm", "env_change": false, "actors": [{"name": "Mahalalel", "phase": "Elder_Admin", "presence": "on_screen", "focus": "primary"}], "props": ["HUD_Overlay"], "camera": "ECU", "mood": ["calculating", "cold"], "director_intent": "The admin diagnosing the hardware fault.", "start_image_keywords": ["Mahalalel Eyes", "HUD Scan", "Reflection"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "SCAN_FACE", "env_id": "SERVER_DORM_RED", "props": ["HUD"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 2}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot, vertical 9:16 aspect ratio. Extreme Close Up of Mahalalel's face. His eyes are focusing intensely, with a reflection of scrolling green data streams (Matrix code) visible on his irises. His bronze skin texture is detailed. A semi-transparent HUD overlay is scanning in front of his face. Stoic, technical, intense focus.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Mahalalel, bronze skin. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None visible. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurry background. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red alarm light rim light, green HUD light on face. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, minimal head movement, eyes darting back and forth reading data, HUD graphics animating.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Digital computing chirps. "Analyzing" voice prompt.
-
-## [ACT 2] [SCENE 2.8] [Timecode: 00:33-00:38] [THE INSTRUCTION]
-**Action:** THE INSTRUCTION: Mahalalel shoves an obsidian tablet (slate) into Enoch’s chest. Points authoritatively.
-**Dialog:** "Schreib den Patch."
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "two_shot", "environment": "House_of_Mahalalel_Server_Dorm", "env_change": false, "actors": [{"name": "Mahalalel", "phase": "Elder_Admin", "presence": "on_screen", "focus": "primary"}, {"name": "Enoch V1", "phase": "Voyager_Youth", "presence": "on_screen", "focus": "secondary"}], "props": ["Obsidian_Tablet"], "camera": "Medium Two Shot", "mood": ["commanding", "urgent"], "director_intent": "The command to fix the system.", "start_image_keywords": ["Obsidian Tablet", "Mahalalel Pointing", "Enoch Scared"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "GIVE_TABLET", "env_id": "SERVER_DORM_RED", "props": ["TABLET"], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "mahalalel_command_01", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 3}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot, vertical 9:16 aspect ratio. Medium shot. Mahalalel shoving a sleek, black obsidian tablet into Enoch's chest. Mahalalel is pointing at it with a commanding gesture. Enoch looks terrified but gripping the device. The tablet surface glows faintly with dormant code. Red alarm lighting. Intense interaction, high contrast.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Mahalalel (Bronze), Enoch V1 (Silver). **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Tech robes, obsidian slate. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Server dorm. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red emergency lighting. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, forceful movement of the tablet, authoritative pointing, cloth physics on robes.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep bass voice. Impact sound of hand hitting chest/tablet.
-
-## [ACT 2] [SCENE 2.9] [Timecode: 00:38-00:43] [CODING THE PATCH]
-**Action:** CODING: Enoch’s fingers fly across the tablet. Gold Ge’ez syntax scrolls upwards, lighting his face.
+## [ACT II] [SCENE 4.3] [Timecode: 00:45-00:50] [SAFE MODE]
+**Action:** INT. SERVER DORM. Mahalalel taps his wrist-comp. Red strobe switches to steady "Safe Mode" Orange.
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "insert", "environment": "House_of_Mahalalel_Server_Dorm", "env_change": false, "actors": [{"name": "Enoch V1", "phase": "Voyager_Youth", "presence": "on_screen", "focus": "primary"}], "props": ["Obsidian_Tablet", "Gold_Code"], "camera": "Insert Hands", "mood": ["focused", "fast"], "director_intent": "Visualise the prayer as high-speed coding.", "start_image_keywords": ["Hands Typing", "Gold Hologram Code", "Tablet"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "TYPE_FAST", "env_id": "SERVER_DORM_RED", "props": ["TABLET_ACTIVE"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "close_up", "environment": "House_of_Mahalalel_Server_Dorm", "env_change": false, "actors": [{"name": "Mahalalel", "phase": "Elder_Admin", "presence": "on_screen", "focus": "primary"}], "props": ["wrist_comp"], "camera": "CU Wrist", "mood": ["control", "tech"], "director_intent": "The admin overrides the environmental hazard.", "start_image_keywords": ["Wrist Computer", "Orange Light", "Cable Beard"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "TAP_WRIST", "env_id": "SERVER_DORM_ORANGE", "props": ["WRIST_COMP"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot, vertical 9:16 aspect ratio. Close up on Enoch's hands moving at a blur of speed across the black glass surface of the tablet. Glowing gold Ge'ez characters (ancient Ethiopian script) are streaming upwards from the device like floating smoke, illuminating his face. The background red light is starting to fade. Magic-tech, dynamic, particles.
+Cinematic vertical 9:16 shot. Close Up on Mahalalel's wrist computer. It is a bulky, industrial interface integrated into his sleeve. His finger presses a "SAFE_MODE" command. The lighting in the background instantly shifts from chaotic Red Strobe to a calm, steady Amber/Orange glow. Cables in his beard reflect the orange light.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch's hands, silver skin. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Obsidian tablet. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark room. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Gold light from code, fading red background. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, extremely fast typing motion, floating code particles rising, lighting change on face.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Mahalalel's hand/wrist. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Industrial wrist comp. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred background. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Instant shift from flashing red to steady orange. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, decisive finger tap, lighting change sync.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High pitched mechanical keyboard clicks. Data stream sound.
+System power-down whine (pitch drop). Silence returning.
 
-## [ACT 2] [SCENE 2.10] [Timecode: 00:43-00:46] [UPLOAD]
-**Action:** UPLOAD: Enoch swipes UP. The Red lights fade. He collapses back, exhausted.
+## [ACT II] [SCENE 4.4] [Timecode: 00:50-00:55] [ERROR DISPLAY]
+**Action:** INT. SERVER DORM. Enoch points to the glitching Earth hologram floating between them. It dissolves into static.
+**Dialog:** "Die Erde versinkt im Abgrund."
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "over_the_shoulder", "framing": "over_the_shoulder", "environment": "House_of_Mahalalel_Server_Dorm", "env_change": false, "actors": [{"name": "Enoch V1", "phase": "Voyager_Youth", "presence": "on_screen", "focus": "primary"}, {"name": "Mahalalel", "phase": "Elder_Admin", "presence": "on_screen", "focus": "secondary"}], "props": ["glitch_earth_holo"], "camera": "OTS", "mood": ["despair", "warning"], "director_intent": "Enoch showing the specific error log.", "start_image_keywords": ["Glitch Earth", "Hologram", "Enoch Pointing"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "POINT_HOLO", "env_id": "SERVER_DORM_ORANGE", "props": ["GLITCH_EARTH"], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "enoch_earth_sinks", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Cinematic vertical 9:16 shot. Over-the-shoulder view from Mahalalel. Enoch V1 points a trembling finger at a small holographic sphere floating between them. The sphere represents Earth, but it is dissolving into white static noise and jagged wireframe chunks. Enoch looks terrified. Warm orange lighting.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch V1 face and hand. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Server dorm. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Orange safe-mode light, white static from hologram. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, hologram dissolving animation, Enoch's fearful expression.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+White noise crackle. Distorted voice.
+
+## [ACT III] [SCENE 4.5] [Timecode: 00:55-01:00] [THE COMMAND]
+**Action:** INT. SERVER DORM. Mahalalel hands Enoch an `OBSIDIAN_SLATE`. He commands the fix.
+**Dialog:** "Schreib den Code. Hinterlasse einen Rest auf der Erde."
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "two_shot", "environment": "House_of_Mahalalel_Server_Dorm", "env_change": false, "actors": [{"name": "Mahalalel", "phase": "Elder_Admin", "presence": "on_screen", "focus": "primary"}, {"name": "Enoch V1", "phase": "Voyager_Youth", "presence": "on_screen", "focus": "secondary"}], "props": ["obsidian_slate"], "camera": "Medium Two Shot", "mood": ["commanding", "urgent"], "director_intent": "The handover of the tool to fix the problem.", "start_image_keywords": ["Obsidian Slate", "Mahalalel Handing", "Orange Light"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "GIVE_SLATE", "env_id": "SERVER_DORM_ORANGE", "props": ["SLATE"], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "mahalalel_write_code", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
+
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Cinematic vertical 9:16 shot. Medium shot. Mahalalel thrusts a sleek, rectangular slab of black obsidian glass (tablet) into Enoch's hands. Mahalalel's expression is stern and commanding. Enoch accepts the device with hesitation. The room is dimly lit in orange. The tablet is dormant, reflecting the scene.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Mahalalel, Enoch. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Tech apron, linen. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Server dorm. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Orange ambient. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, forceful handover action, weight of the object.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Deep voice. Sound of stone/glass impact.
+
+## [ACT III] [SCENE 5.1] [Timecode: 01:00-01:10] [CODING PRAYER]
+**Action:** INT. SERVER DORM. Enoch sits on the slab, typing rapidly on the slate. Golden Ge'ez glyphs fly up, assembling a firewall structure.
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "high_angle", "environment": "House_of_Mahalalel_Server_Dorm", "env_change": false, "actors": [{"name": "Enoch V1", "phase": "Voyager_Youth", "presence": "on_screen", "focus": "primary"}], "props": ["Obsidian_Tablet"], "camera": "High Angle", "mood": ["relief", "exhaustion"], "director_intent": "The crisis is averted.", "start_image_keywords": ["Enoch Collapsed", "White Light", "Steam Dissipating"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "COLLAPSE_BACK", "env_id": "SERVER_DORM_WHITE", "props": ["TABLET"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "insert", "environment": "House_of_Mahalalel_Server_Dorm", "env_change": false, "actors": [{"name": "Enoch V1", "phase": "Voyager_Youth", "presence": "on_screen", "focus": "primary"}], "props": ["obsidian_slate", "gold_code"], "camera": "Insert Hands", "mood": ["focused", "magical"], "director_intent": "Visualise the prayer as high-speed programming.", "start_image_keywords": ["Hands Typing", "Gold Glyphs", "Obsidian"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "TYPE_FAST", "env_id": "SERVER_DORM_ORANGE", "props": ["SLATE_ACTIVE"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot, vertical 9:16 aspect ratio. High angle looking down. Enoch V1 performs a dramatic upward swipe on the tablet, then collapses back onto the stone slab. The red alarm lights instantly switch to a cool, steady white. The steam vents on his neck stop jetting. He looks exhausted, chest heaving. Atmosphere of relief.
+Cinematic vertical 9:16 shot. Close up on Enoch's fingers blurring across the black glass of the slate. Glowing Golden Ge'ez characters (ancient Ethiopian script) are streaming upwards from the screen, floating in the air and interlocking to form a glowing firewall structure. The gold light illuminates Enoch's concentrated face. Shallow depth of field.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch V1. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Tablet. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Server dorm. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Rapid shift from red to white lighting. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, swipe gesture, body falling back limp, lighting stabilization.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch's hands. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Obsidian slate. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark room. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Gold light source from code particles. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, rapid typing motion, particle system of floating text rising.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-"Upload Complete" pleasant chime. Power-down whine. Deep exhale.
+Mechanical keyboard clicks (fast). Digital chime flourishes.
 
-## [ACT 3] [SCENE 3.1] [Timecode: 00:46-00:51] [SUNRISE]
-**Action:** SUNRISE: Exterior. The sun rises perfectly. Geometry is solid. Textures are 8K. Light is physically correct.
+## [ACT III] [SCENE 5.2] [Timecode: 01:10-01:15] [SYSTEM RESTORE]
+**Action:** INT. SERVER DORM. Enoch executes the code. A pulse of white light ripples out from the tablet, passing through the walls.
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "panorama", "environment": "Restored_Landscape", "env_change": true, "actors": [], "props": [], "camera": "Pan", "mood": ["peaceful", "majestic"], "director_intent": "Show the rendered world functioning correctly.", "start_image_keywords": ["Perfect Sunrise", "Solid Mountains", "High Res"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "REAL_WORLD", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "frontal", "environment": "House_of_Mahalalel_Server_Dorm", "env_change": false, "actors": [{"name": "Enoch V1", "phase": "Voyager_Youth", "presence": "on_screen", "focus": "primary"}], "props": ["light_pulse"], "camera": "Frontal Blast", "mood": ["power", "redemption"], "director_intent": "The patch is deployed.", "start_image_keywords": ["White Light Blast", "Enoch Swiping", "Silhouette"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "SWIPE_UP", "env_id": "SERVER_DORM_WHITE", "props": ["LIGHT_BLAST"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot, vertical 9:16 aspect ratio. Wide panoramic view of a majestic sunrise over a mountain range. The geometry is solid, no glitches. Textures are 8k photorealistic. The light is warm, golden, and physically correct with anamorphic lens flares. Mist in the valleys. Peaceful, restored, high-fidelity.
+Cinematic vertical 9:16 shot. Frontal view of Enoch V1 performing a dramatic upward swipe on the tablet. A blinding shockwave of pure White Light erupts from the device, blowing back his hair and passing through the solid walls of the room. The orange light is instantly obliterated by the white restoration energy. High contrast.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Mountains. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Golden hour sunrise. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, smooth slow pan, light changing as sun crests horizon, volumetric fog.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch V1. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Tablet. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Server dorm. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Overexposed white light blast. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, shockwave physics, camera shake, white-out transition.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Orchestral swell (synth pad). Birds chirping clearly. Wind.
+Sub-bass boom (THOOM). High pitched restore chime.
 
-## [ACT 3] [SCENE 3.2] [Timecode: 00:51-00:56] [ORBIT SYNC]
-**Action:** ORBIT SYNC: Time-lapse of Sun and Moon crossing the sky in perfect mathematical synchronization.
+## [ACT III] [SCENE 6.1] [Timecode: 01:15-01:20] [SUNRISE TEST]
+**Action:** EXT. HORIZON. *Verification.* The Sun rises and arcs rapidly across the sky. Shadows lengthen smoothly. A subtle grid overlay confirms `STABLE`.
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "sky_shot", "environment": "Sky_Dome", "env_change": false, "actors": [], "props": [], "camera": "Static Timelapse", "mood": ["mechanical", "perfect"], "director_intent": "Demonstrate the mathematical precision of the system.", "start_image_keywords": ["Timelapse Sky", "Sun and Moon", "Light Trails"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "SKY_TIMELAPSE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "panorama", "environment": "Restored_Landscape", "env_change": true, "actors": [], "props": [], "camera": "Static Timelapse", "mood": ["peaceful", "ordered"], "director_intent": "Show the system functioning correctly again.", "start_image_keywords": ["Sunrise Timelapse", "Perfect Landscape", "Grid Overlay"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "REAL_WORLD", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot, vertical 9:16 aspect ratio. A time-lapse of the sky. The sun and moon are visible simultaneously, moving in perfect synchronized arcs across the blue dome. They leave faint light trails. Clouds move rapidly. The horizon is stable. Mathematical perfection, celestial mechanics.
+Cinematic vertical 9:16 shot. Time-lapse wide shot of a restored landscape. The sun is rising rapidly over solid, high-fidelity mountains. Shadows move smoothly across the terrain. A faint, thin white wireframe grid overlay is visible on the ground, fading in and out, confirming the geometry is stable. 8k photorealism, perfect physics.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Sky. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Day to night cycle rapid transition. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, fast-forward timelapse motion, sun and moon chasing each other, stars rotating.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Mountains. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Timelapse day cycle. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, fast forward motion of sun and shadows, stable geometry.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Accelerated ticking of a clock. Rhythmic mechanical whirring.
+Harmonious synth hum (Major chord). Birds chirping.
 
-## [ACT 3] [SCENE 3.3] [Timecode: 00:56-01:02] [THE REMNANT]
-**Action:** THE REMNANT: A single large tree on a mountain. Leaves blowing in wind. The only saved file from the crash.
+## [ACT III] [SCENE 6.2] [Timecode: 01:20-01:25] [NIGHT TEST]
+**Action:** EXT. NIGHT SKY. *Verification.* The Moon sets, stars rotate perfectly. No texture slipping.
 **Dialog:** None.
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "medium", "framing": "orbit", "environment": "Mountain_Peak", "env_change": false, "actors": [], "props": ["Tree"], "camera": "Orbit", "mood": ["hopeful", "solitary"], "director_intent": "The symbol of the preserved data.", "start_image_keywords": ["Single Tree", "Mountain Peak", "Detailed Leaves"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "TREE_PEAK", "props": ["TREE"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "sky_shot", "environment": "Sky_Dome", "env_change": false, "actors": [], "props": [], "camera": "Static Timelapse", "mood": ["perfect", "cosmic"], "director_intent": "Confirm the skybox is repaired.", "start_image_keywords": ["Star Trails", "Moon Set", "Perfect Sky"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_only", "actor_pose_id": "", "env_id": "SKY_TIMELAPSE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot, vertical 9:16 aspect ratio. A solitary, ancient tree standing on a rocky mountain peak. The bark and leaves are rendered in hyper-realistic detail. The wind is blowing through the branches. The background is a soft focus vista of the restored world. Symbol of life and data integrity.
+Cinematic vertical 9:16 shot. Time-lapse of the night sky. The moon is setting in the west while stars rotate in perfect concentric circles around the north star. The sky texture is seamless and deep blue/black. No glitches. Mathematical perfection.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Mountain peak with tree. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft daylight. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, slow orbital camera move around the tree, individual leaves moving in wind.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Sky. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Night lighting. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, star trails, fast moon movement, smooth rendering.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Wind rustling through leaves. Peaceful silence.
+Night ambience. Rhythmic mechanical ticking (clockwork).
 
-## [ACT 3] [SCENE 3.4] [Timecode: 01:02-01:08] [LOG END]
-**Action:** LOG END: Back to Enoch V2 (Adult). The hologram dissolves. He looks at Methuselah. "Archive locked."
-**Dialog:** "Ich habe es geschrieben für die Generationen."
+## [ACT III] [SCENE 6.3] [Timecode: 01:25-01:28] [USER RELIEF]
+**Action:** EXT. BALCONY. Young Enoch watches the stable sky. He lowers his hands, relieved.
+**Dialog:** "Ich pries den Herrn der Herrlichkeit."
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium_close_up", "environment": "Sinai_Port_V1_Observation_Deck", "env_change": true, "actors": [{"name": "Enoch V2", "phase": "Archive_Narrator", "presence": "on_screen", "focus": "primary"}], "props": ["Dissolving_Hologram"], "camera": "Static MCU", "mood": ["final", "solemn"], "director_intent": "Conclusion of the log.", "start_image_keywords": ["Enoch V2", "Dissolving Scroll", "Sinai"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "STAND_FINISH", "env_id": "SINAI_DECK", "props": ["HOLO_FADE"], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "enoch_end_01", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 7}
+REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "rear_view", "environment": "House_of_Mahalalel_Balcony", "env_change": true, "actors": [{"name": "Enoch V1", "phase": "Voyager_Youth", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Silhouette Rear", "mood": ["gratitude", "peace"], "director_intent": "The user accepting the system stability.", "start_image_keywords": ["Enoch Silhouette", "Starry Sky", "Balcony"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "LOOK_UP_REAR", "env_id": "BALCONY_NIGHT", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "enoch_praise", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 6}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot, vertical 9:16 aspect ratio. Medium Close Up of Enoch V2 on the observation deck. The amber holographic scroll in his hands is dissolving into digital smoke. He looks directly at the camera (at Methuselah) with a solemn expression. The white beams in his eyes dim slightly. Tech-noir atmosphere.
+Cinematic vertical 9:16 shot. Rear view silhouette of Enoch V1 standing on a high balcony, looking out at the perfect starry sky. He lowers his hands slowly in a gesture of relief. The horizon is calm. The architecture around him is solid basalt. Peaceful night atmosphere.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch V2. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Robe. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Deck. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue and Amber mix. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, particles of hologram fading away, subtle facial expression change.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch V1 silhouette. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Robes. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Balcony, night sky. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Silhouette against starlight. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, slow breathing motion, lowering arms.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sound of hologram powering down.
+Deep exhale. Wind chime.
 
-## [ACT 3] [SCENE 3.5] [Timecode: 01:08-01:12] [ARCHIVE SAVE]
-**Action:** ARCHIVE: Methuselah nods. Taps his own wrist-comp to save the file.
-**Dialog:** None.
+## [ACT III] [SCENE 7.1] [Timecode: 01:28-01:30] [ARCHIVE CLOSE]
+**Action:** INT. ARCHIVE. Adult Enoch closes the hologram. He looks at Methuselah. The gold veins in his skin pulse once.
+**Dialog:** "Die Sonne geht auf und unter über dem Antlitz des Himmels."
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Sinai_Port_V1_Observation_Deck", "env_change": false, "actors": [{"name": "Methuselah", "phase": "Young_Adult", "presence": "on_screen", "focus": "primary"}], "props": ["Wrist_Comp"], "camera": "CU Wrist", "mood": ["compliant", "tech"], "director_intent": "The data is secured.", "start_image_keywords": ["Methuselah Wrist", "Save Screen", "Chapter 83"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "TAP_WRIST", "env_id": "SINAI_DECK", "props": ["WRIST_COMP"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Sinai_Port_V1_Observation_Deck", "env_change": true, "actors": [{"name": "Enoch V2", "phase": "Archive_Narrator", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "CU Fade", "mood": ["final", "solemn"], "director_intent": "Closing the file and the chapter.", "start_image_keywords": ["Enoch Face", "Gold Veins Pulse", "Fade Black"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "CLOSE_EYES", "env_id": "SINAI_DECK", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "enoch_sun_cycle", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 10}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot, vertical 9:16 aspect ratio. Close Up on Methuselah's wrist. He is wearing a sophisticated tech-gauntlet. His finger taps a holographic button. The screen reads "CHAPTER_83_SAVED" in sharp green text. Background is dark blue bokeh. High tech detail.
+Cinematic vertical 9:16 shot. Close Up of Enoch V2's face. The blue hologram light has vanished, leaving only the cold environmental light. He looks solemn. The fine gold circuitry veins in his alabaster skin pulse brightly once, then dim. Fade to black.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Methuselah's arm. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Wrist computer. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred deck. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Screen glow. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, finger tap action, UI animation on screen confirming save.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch V2 face. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None visible. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark background. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Subdued lighting, gold emissive pulse. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, subtle facial micro-expression, light pulse effect, fade to black.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Electronic beep. Data write sound.
-
-## [ACT 3] [SCENE 3.6] [Timecode: 01:12-01:15] [FADE OUT]
-**Action:** FADE OUT: Actors de-res into binary strings, fading to black terminal.
-**Dialog:** None.
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "full_body", "framing": "wide", "environment": "Sinai_Port_V1_Observation_Deck", "env_change": false, "actors": [{"name": "Enoch V2", "phase": "Archive_Narrator", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Static Fade", "mood": ["digital", "ending"], "director_intent": "Transition back to the terminal.", "start_image_keywords": ["Matrix Fade", "Binary Code", "Black Screen"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "FADE", "env_id": "SINAI_DECK", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic shot, vertical 9:16 aspect ratio. The entire scene (Enoch standing on the deck) is dissolving into vertical strings of green binary code. The reality is breaking down into data, fading into a solid black computer terminal screen. Matrix-style transition.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch V2 dissolving. **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None. **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dissolving room. **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Green code on black. **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 9:16 vertical video, visual effect of de-resolution, fading to black.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Terminal cursor blink sound. Silence.
+Hologram shutdown sound (zap). Low terminal hum fading out.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.1","text":"Höre, mein Sohn, die Vision meines Schlafes.","words_max":10},{"scene":"2.6","text":"Es fällt! Die Architektur versagt!","words_max":6},{"scene":"3.4","text":"Ich habe es geschrieben für die Generationen.","words_max":7}],"Mahalalel":[{"scene":"2.7","text":"Systemanalyse.","words_max":2},{"scene":"2.8","text":"Schreib den Patch.","words_max":3}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.1","text":"Mein Sohn Methuselah, ich zeige dir die Visionen.","words_max":10},{"scene":"1.2","text":"...zwei Visionen sah ich, bevor ich eine Frau nahm.","words_max":8},{"scene":"4.4","text":"Die Erde versinkt im Abgrund.","words_max":5},{"scene":"6.3","text":"Ich pries den Herrn der Herrlichkeit.","words_max":6},{"scene":"7.1","text":"Die Sonne geht auf und unter über dem Antlitz des Himmels.","words_max":10}],"Mahalalel":[{"scene":"4.2","text":"Warum schreist du, mein Sohn?","words_max":5},{"scene":"4.5","text":"Schreib den Code. Hinterlasse einen Rest auf der Erde.","words_max":10}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

@@ -1,103 +1,127 @@
 ### CONCEPT: EARTH_SERVER_THERMAL_MANAGEMENT // CHAPTER_77_ANALYSIS
 
 **1. CRITIQUE: PREVIOUS_ITERATION (DEBUG_LOG)**
-*   **Directional Error:** Previous logic attributed the "Partitioning" (3 Zones) to the South. Source code (Verse 3) explicitly defines the **North Wind (Mas'e)** as the partitioned sector.
-*   **Fluid Logic:** Rivers were generic. They must be **Coolant Loops** with specific routing defined in Verses 5-7 (West->Great Sea, North->Erythraean).
-*   **Scale Failure:** The "Seven Islands" were ignored. They represent **Containerized Instances** (VMs) isolated from the main kernel.
+*   **Abstraction Failure:** The previous draft treated the "Winds" as atmospheric phenomena with digital overlays. This is incorrect. In `exeget:os`, "Winds" are **Data Buses** and **Power Rails**. They define the I/O of the planetary motherboard.
+*   **Geometry Error:** The "Seven Mountains" were visualized as terrain. They must be **Infrastructure Components** (Heat Spreaders/Cryo-Towers) that pierce the simulation layer. Frost is not weather; it is **Liquid Nitrogen Condensation**.
+*   **Routing Bug:** The river paths were vague. Verse 5-7 is a specific circuit diagram. The coolant loops have distinct start/end points (West->Great Sea, North->Erythraean) which dictate thermal exchange directionality.
+*   **Missing Isolation:** The "Seven Islands" were ignored. These are **Air-Gapped Containers**, critical for security logic.
 
-**2. VERSION 2.1: THE MECHANISM (PATCHED)**
+**2. VERSION 2.0: THE MECHANISM (PATCHED)**
 
 **1. BIO-INJECTION (HAPTIC_DATA_LINK)**
-**Mechanism:** `SUBDERMAL_FIBER_SYNC`.
-**Manifestation:** Enoch acts as a **Diagnostic Probe**. The `WAVE_INTERFACE_BLOCK` (Obsidian Tablet) is the terminal. Connection is not wireless; it is grounded. When selecting a sector, the fiber-optic cables in his neck pulse rapidly (White/Gold), dumping telemetry directly into his visual cortex. He twitches slightly—packet injection is physically uncomfortable.
+**Mechanism:** `OPTICAL_NEURAL_SHUNT`.
+**Manifestation:** Henoch does not just hold the tablet. The tablet (Obsidian Interface) extrudes micro-filaments of liquid gold light that penetrate his fingertips. The data transfer is visible as a **subdermal lumen-shift** traveling up his radial arteries to the neck, causing involuntary muscle spasms. His eyes roll back, displaying scrolling hex-dumps instead of irises.
 
 **2. MESH-BREAK (DEBUG_VIEW_MODE)**
-**Mechanism:** `TEXTURE_CULLING_PROTOCOL`.
-**Visual:** To reveal the "Winds" (System Vectors), the rendering engine culls the diffuse textures of the Earth. The terrain becomes a **Wireframe Mesh** (Dark Grey). The "Winds" appear as massive, glowing **Voxel-Streams** or fluid simulations flowing through the grid.
-*   **East (Qadamawi):** High-velocity Green Data Packets (Boot/Injection).
-*   **South (Zeb):** Blinding White/Gold Vertical Ray (Power Delivery/Downlink).
-*   **West (Ntug):** Red/Brown Smog & Particle Decay (Entropy/Garbage Collection).
-*   **North (Mas'e):** Tri-Color Split Cable (The Partitioned Bus).
+**Mechanism:** `WIREFRAME_OVERRIDE`.
+**Visual:** The "Winds" (Vectors) are too high-bandwidth for the standard render engine. As Henoch focuses on a sector (e.g., North), the texture maps (Diffuse/Albedo) strip away, revealing the underlying **Dark Grey Polygon Mesh**. The "Winds" manifest as massive, translucent **Ribbon Cables** of flowing plasma that clip through the terrain geometry.
 
 **3. PACING-STRATEGIE (LATENCY_DRIFT)**
-**Style:** `SATELLITE_ORBIT_STABILIZED`.
-**Rhythm:** Heavy, high-mass camera movement. The camera is locked to the `MERKABAH` frame. It glides with the momentum of a space station. Content updates occur via **UI-Refresh** (Glitch-Cuts) rather than cinematic editing.
-**Clip Count:** 18 Clips (approx 3.5s each). High density needed to cover the 4 Winds + 3 Partitions + 7 Mountains + 7 Rivers logic.
+**Style:** `SATELLITE_SWEEP`.
+**Rhythm:** Calculated, heavy, inertial. The camera behaves like a satellite with significant mass. No hand-held shake.
+**Clip Density:** High. We need 16 clips to break down the complex routing logic.
+*   **Wide:** Orbital Context.
+*   **Mid:** Henoch's interaction/reaction.
+*   **Macro:** The specific "Component" (e.g., The Frost on the Heatsink).
 
 **4. AUDIO-DESIGN (THERMAL_ACOUSTICS)**
-**Ambience:** `DATACENTER_HVAC_CORE`.
+**Ambience:** `SERVER_ROOM_AMBIENCE`.
 **Layers:**
-*   **Base:** 40Hz sub-bass sine wave (Server Hum).
-*   **Events:** Hydraulic hiss when the "Rivers" turn 90 degrees.
-*   **Winds:** The sound of massive air-displacement (Turbines), not nature.
-*   **Interface:** Geiger-counter style clicking when Enoch scans a high-radiation (West) zone.
+*   **Low:** 60Hz hum of massive transformers (The Mountains).
+*   **Mid:** High-pressure fluid hiss (Coolant lines).
+*   **High:** Digital screech/modem-handshake when shifting Vectors.
+*   **No Choirs:** Replaced by the sound of "air displacement" similar to jet turbines spooling up.
 
 **5. ÜBERGÄNGE (TRANSITION_LOGIC)**
-**Method:** `UI_REGION_ZOOM`.
-**Visual:** Enoch pinches/zooms on the tablet. The world creates a **Voxel-Dissolve** around the new sector. No fade-to-black. The wireframe grid re-aligns to the new focal point instantenously.
+**Method:** `GLITCH_SORT`.
+**Visual:** Transitions between macro-views and detailed views are not cuts, but **Pixel-Sorting Events**. The screen briefly smears vertically as if the V-Sync failed, snapping instantly into the new perspective.
 
 **6. FRAMEWORK & TIMING**
-**Total Duration:** 60-70 Seconds.
+**Total Duration:** 75 Seconds (extended for complexity).
 **Structure:**
-*   **00-10s:** `ESTABLISHING_LINK`. Merkabah Orbit. Enoch connects the Tablet.
-*   **10-25s:** `VECTOR_ANALYSIS`. East (Injection) & South (Power). West (Entropy).
-*   **25-40s:** `NORTH_PARTITIONING`. The 3 Zones of Mas'e (User/Fluid/Root).
-*   **40-60s:** `HARDWARE_AUDIT`. The 7 Heatsink Mountains & Coolant Rivers.
+*   **00-15s:** `BOOT_SEQUENCE`. Merkabah deployment & Neural Shunt connection.
+*   **15-30s:** `I/O_VECTORS`. East (Boot) & West (Entropy).
+*   **30-45s:** `PARTITION_MANAGER`. The North Split (User/Physics/Root).
+*   **45-65s:** `THERMAL_AUDIT`. The Heatsinks & Coolant Loops.
+*   **65-75s:** `CONTAINER_CHECK`. The Islands.
 
 **7. DIALOG-CHECK (SYSTEM_LOGS)**
 **Decision:** `NO_AUDIO_DIALOG`.
-**Visual:** Augmented Reality Labels rooted in 3D space.
-*   `VECTOR: EAST // STATUS: ACTIVE`
-*   `VECTOR: WEST // STATUS: DECAY`
-*   `PARTITION: ROOT_DIR // ACCESS: RESTRICTED`
+**Visual:** Uriel acts as the UI. He does not speak. He points, and a **Holographic Annotation** appears in world-space: `//VECTOR_NORTH: SPLIT_3`.
 
 **8. SPATIAL CONTEXT (ARRIVAL)**
-**Mode:** `MERKABAH_TETRAHEDRON`.
-**Visual:** Orthographic "God's Eye View". Enoch is suspended in the glass tetrahedron, rotating slowly. The Earth below is a flat, infinite circuit board (The Grid).
+**Mode:** `MERKABAH_HOVER`.
+**Visual:** Henoch is already "on station". The Merkabah (Tetrahedron) is locked in geostationary orbit. The scene begins *in media res* with the scanning process.
 
 ---
 
-### SCENE_PLANNING_&_PROMPTS (V2.1)
+### SCENE_PLANNING_&_PROMPTS (V2.0)
 
-**[SCENE 1: THE_ORBITAL_LINK]**
-**Context:** Establishing the Admin-View.
-**Action:** Enoch syncing with the Global Grid.
+**[SCENE 1: THE_ORBITAL_STATION]**
+**Context:** Establishing the observation platform and the connection.
+**Action:** Henoch engages the diagnostic tool.
 
-**PROMPT 1: THE_MERKABAH_GRID**
-> **Subject:** The Merkabah Vehicle. **Visual:** A perfect transparent glass tetrahedron rotating in the stratosphere. **Actor:** Enoch (System Prototype) suspended inside, glowing white. **Action:** He holds the Obsidian Tablet. **Effect:** A shockwave of gold wireframe geometry expands from the Merkabah, scanning the dark earth below. **Style:** 8k, Unreal Engine 5, technical schematic, wide shot.
+**PROMPT 1: MERKABAH_EXTERIOR**
+> **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Subject:** The Merkabah Vehicle. **Visual:** A sharp, transparent glass tetrahedron rotating slowly in the upper stratosphere. **Refraction:** The glass distorts the starfield behind it. **Center:** Inside, a tiny glowing white silhouette (Henoch) is suspended in zero-g. **Scale:** The curvature of the dark Earth is visible below, covered in a faint grid overlay.
 
-**PROMPT 2: HAPTIC_SYNC_MCU**
-> **Actor:** Noah/Enoch. **Camera:** Medium Close-Up. **Action:** He swipes the tablet surface. **Bio-Aug:** The fiber-optic cables in his neck flare bright gold. **Expression:** A slight twitch of pain/intensity as the data loads. **Prop:** The tablet displays a holographic map of the "Four Winds" as vector lines.
+> **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Extreme Wide Shot (EWS). **Movement:** Slow orbital drift. **Style:** Kubrickian sci-fi, sterile, high contrast. **Engine:** Unreal Engine 5.4.
 
-**[SCENE 2: THE_PRIMARY_VECTORS]**
-**Context:** East (Input) and West (Entropy).
-**Action:** Visualizing the data flow.
+**PROMPT 2: NEURAL_SHUNT_INIT**
+> **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** Henoch (System Prototype). **Physique:** Pale marble skin, 25 years old. **Bio-Aug:** Gold fiber-optic cables embedded in his neck are pulsing rapidly. **Expression:** Eyes rolled back, white light leaking from sockets.
+>
+> **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Prop:** `WAVE_INTERFACE_BLOCK` (Obsidian Tablet). **Action:** His hand presses into the surface, which ripples like black mercury. **VFX:** Liquid light tendrils extend from the tablet into his fingertips.
 
-**PROMPT 3: EAST_INJECTION_VECTOR**
-> **Subject:** The Eastern Horizon. **Visual:** A massive vertical "Slot" of white light in the sky (The First Gate). **Effect:** A river of Green Binary Voxel-Particles flows out of it, flooding the terrain. **Overlay:** Floating text `//BOOT_SECTOR_INIT`. **Atmosphere:** Clean, sharp, high-contrast.
+**[SCENE 2: VECTOR_EAST_WEST]**
+**Context:** Visualizing the Input (East) and Entropy (West) vectors.
 
-**PROMPT 4: WEST_ENTROPY_VECTOR**
-> **Subject:** The Western Horizon. **Visual:** A dark, smog-choked industrial zone. **Effect:** The "West Wind" (Ntug) is a red suction vortex, pulling particles out of the world. **Lighting:** Dim, flickering red emergency lights. **Terrain:** The wireframe grid is broken and glitching here (Packet Loss).
+**PROMPT 3: VECTOR_EAST_INJECTION**
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** The Eastern Horizon. **Visual:** A vertical slit in the skybox, emitting blinding green binary code. **Action:** A massive "Wind" (visualized as a high-velocity stream of translucent green voxel blocks) blasts from the slit across the terrain. **Terrain:** The ground grid illuminates bright green where the wind touches it.
+>
+> **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Palette:** Matrix Green, Deep Black. **Lighting:** Volumetric shafts cutting through the darkness.
 
-**[SCENE 3: THE_NORTH_PARTITIONS]**
-**Context:** The North Wind (Mas'e) splits into three distinct system directories (Verse 3).
-**Action:** Rapid tri-split or sequential scan of the 3 zones.
+**PROMPT 4: VECTOR_WEST_ENTROPY**
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** The Western Horizon. **Visual:** A jagged tear in the reality mesh. **Action:** The "Wind" here is a red vacuum suction. **Physics:** Debris, dust, and dimming light particles are being sucked *into* the horizon. **Atmosphere:** Heavy smog, corrupted textures, glitch artifacts near the horizon line.
 
-**PROMPT 5: PARTITION_01_USERLAND**
-> **Subject:** The "Dwelling of Men". **Visual:** An infinite procedural city of grey server-containers. **Density:** Ultra-high. **Lighting:** Mundane, flat lighting. **Action:** Millions of tiny data-lights (Users) flickering in the grid. **Label:** `DIR: /HOME/USER`.
+**[SCENE 3: THE_NORTH_PARTITION]**
+**Context:** The North Wind splits into three specific directories (Verse 3). We need 3 rapid shots.
 
-**PROMPT 6: PARTITION_02_PHYSICS_ENGINE**
-> **Subject:** "Water, Mist, and Abysses". **Visual:** A massive chaotic fluid-simulation tank. **Action:** Black water crashing against invisible walls. **Atmosphere:** Thick white volumetric fog (Mist) generated by cooling pipes. **Label:** `DIR: /SYS/PHYSICS`.
+**PROMPT 5: PARTITION_USERLAND**
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Subject:** The First Part of the North. **Visual:** "Dwelling of Men". Represented as an infinite, dense favela of grey server-racks and housing units. **Lighting:** Flat, uniform grey lighting. **Detail:** Millions of tiny blue status LEDs blinking (the people).
 
-**PROMPT 7: PARTITION_03_ROOT_GARDEN**
-> **Subject:** "Garden of Righteousness". **Visual:** A hermetically sealed bio-dome. **Content:** Inside is a single Fractal Gold Tree, perfectly symmetrical. **Lighting:** Blindingly bright, sterile white light. **Contrast:** Surrounded by the dark North vacuum. **Label:** `DIR: /ROOT/ADMIN`.
+**PROMPT 6: PARTITION_PHYSICS**
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Subject:** The Second Part of the North. **Visual:** "Water, Mist, and Abysses". A colossal open-air fluid simulation tank. **Action:** Black water crashes against invisible collider walls. **Atmosphere:** Thick white cryo-fog rolling off the water. **Tech:** Massive pipes labeled `SYS_FLUID` run vertically through the mist.
 
-**[SCENE 4: HARDWARE_INFRASTRUCTURE]**
-**Context:** The 7 Mountains (Heatsinks) and Rivers (Coolant).
-**Action:** Auditing the cooling system.
+**PROMPT 7: PARTITION_ROOT**
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Subject:** The Third Part of the North. **Visual:** "Garden of Righteousness". A hermetically sealed glass dome in the middle of the void. **Content:** Inside, a single perfect Fractal Gold Tree. **Contrast:** The outside is pitch black; the inside is blindingly bright white/gold. **Overlay:** `ACCESS_LEVEL: ADMIN`.
 
-**PROMPT 8: THE_SEVEN_HEATSINKS**
-> **Subject:** The "Seven Mountains". **Visual:** Seven colossal matte-black graphene pyramids arranged in a ring. **Effect:** They are coated in thick white industrial frost (Liquid Nitrogen residue). **Action:** Heavy white vapor (Cold) rolls down their slopes. **Scale:** They puncture the cloud layer.
+**[SCENE 4: THERMAL_INFRASTRUCTURE]**
+**Context:** The 7 Mountains (Heatsinks) and 7 Rivers (Coolant).
 
-**PROMPT 9: THE_COOLANT_ROUTING**
-> **Subject:** The "Rivers". **Visual:** Canals cut into the circuit-board terrain. **Content:** Glowing Blue Viscous Coolant. **Geometry:** The rivers make sharp 90-degree turns, following trace-lines. **Action:** Two rivers merge and flow into the "Erythraean Sea" (A Red Chemical Pool). **Camera:** Top-down tracking shot following the flow.
+**PROMPT 8: HEATSINK_ARRAY_WIDE**
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Subject:** The Seven Mountains. **Visual:** Seven gigantic, identical matte-black pyramids arranged in a circle. **Material:** Nanotube Graphene. **Effect:** The peaks are covered in thick white frost (Liquid Nitrogen residue). **Action:** Heavy white vapor cascades down the sides like an avalanche. **Scale:** They tower over the cloud layer.
+
+**PROMPT 9: COOLANT_LOOP_WEST**
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Subject:** The West River. **Visual:** A perfect rectangular canal cut into the circuit-board earth. **Fluid:** Glowing Red Viscous Liquid (Hot Coolant) flowing rapidly West. **Destination:** It pours into the "Great Sea" (a dark metallic ocean), creating massive steam clouds upon contact.
+
+**PROMPT 10: COOLANT_LOOP_NORTH_EAST**
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Subject:** The North Rivers. **Visual:** Two parallel canals carrying Neon Blue Liquid (Cold Coolant). **Geometry:** They make sharp, unnatural 90-degree turns. **Destination:** They empty into the "Erythraean Sea" (A pool of chemical magenta fluid). **Action:** The fluids mix, changing color.
+
+**[SCENE 5: THE_ISLANDS]**
+**Context:** The Isolated Containers.
+
+**PROMPT 11: CONTAINER_ISOLATION**
+> **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Subject:** The Seven Islands. **Visual:** perfectly square landmasses floating just above the water surface. **Connection:** No bridges. They are wireless. **Effect:** Each island is surrounded by a faint translucent forcefield (Firewall). **Detail:** Inside the fields, the terrain biome is different for each island (Desert, Forest, Ice).

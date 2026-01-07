@@ -1,371 +1,371 @@
 # DREHBUCH KAPITEL 105 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Und der Herr rief die Kinder der Erde, um das Verderben zu tilgen, nicht mit Feuer, sondern mit einer neuen Ordnung. Wir sahen das Licht nicht als Sonne, sondern als Gesetz, das in unsere Adern geschrieben wurde. Es war der Tag, an dem das Chaos endete und die ewige Stille begann.
+NARRATOR_TEXT: Das System schlief nicht, es wartete nur auf den richtigen Taktzyklus. Als der Befehl kam, war es kein Geräusch, sondern eine Erschütterung in unserem Quellcode. Wir dachten, wir wären Fleisch und Blut, doch das Update zeigte uns die Wahrheit: Wir waren immer nur Daten, die auf ihre Synchronisation warteten.
 
 ## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:04] [ESTABLISHING]
-**Action:** Endless grey desert under a heavy sky. Heat haze distorts the horizon. Dust particles hang suspended in mid-air due to time dilation.
+**Action:** The "Null Desert". A flat plane of grey, static noise resembling concrete dust. The air shimmers with intense heat and lag, creating visual artifacts.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Grey Desert / Heat Haze", "env_change": false, "actors": [], "props": [], "camera": "14mm Wide, Static", "mood": ["oppressive", "still"], "director_intent": "Establish the suffocating stillness before the event.", "start_image_keywords": ["grey desert", "heat haze", "suspended dust"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Null Desert", "env_change": true, "actors": [], "props": [], "camera": "Wide / Low Angle (Static)", "mood": ["oppressive", "static"], "director_intent": "Establish the dead, static nature of the pre-update world.", "start_image_keywords": ["grey desert", "static noise", "heat haze"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Cinematic wide shot of an endless grey desert landscape. The atmosphere is thick with heat haze and suspended dust particles that appear frozen in time. The lighting is flat and oppressive, creating a sense of heavy anticipation. High resolution, photorealistic texture of dry cracked earth. 8k, Unreal Engine 5 render style.
+Vertical 9:16 aspect ratio. Cinematic wide shot of the "Null Desert". A lifeless, flat landscape made of grey concrete dust that resembles television static. The horizon is blurred by extreme heat haze and digital compression artifacts. The sky is a heavy, desaturated grey. High contrast, gritty texture, industrial wasteland aesthetic. 8k, photorealistic Unreal Engine 5 render.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
 > **Actor:** None. **Physique:** N/A. **Skin-Shader:** N/A. **Optics:** N/A. **Aura:** N/A.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** N/A. **Primary Prop:** Suspended dust particles. **VFX:** Heat distortion waves rising from the ground.
+> **Garment:** N/A. **Primary Prop:** None. **VFX:** Heat haze shimmering, subtle film grain/static noise overlay.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Endless Grey Desert. **Architecture:** Barren wasteland, cracked earth. **Transition Line:** None. **Atmosphere:** Heavy, stifling, static.
+> **Location:** Null Desert. **Architecture:** Flat wasteland. **Transition Line:** Blurred horizon. **Atmosphere:** Stifling, hot, heavy air.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** Diffused overcast light. **Palette:** Grey, Brown, Muted Earth Tones. **Shadows:** Soft, indistinct.
+> **Lighting Scheme:** Overcast, diffuse ambient light. **Palette:** Greyscale, Cement Grey, Dust Beige. **Shadows:** Soft, indistinct ambient occlusion.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Static Wide Shot. **Lens:** 14mm. **Focus:** Infinite depth of field. **Motion:** Very subtle floating dust movement, almost frozen. **Style:** Cinematic realism, 9:16 vertical crop.
+> **Camera:** Static Wide Shot, Low Angle. **Lens:** 24mm. **Focus:** Deep focus. **Motion:** Shimmering heat waves, floating dust particles suspended in "lag". **Style:** Gritty realism, 9:16 vertical crop.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Low-end industrial turbine rumble fading in. Deep sub-bass drone. Wind is absent, replaced by a heavy static pressure sound.
+Deep, irregular subterranean rumbling (earthquake-like). Layer of constant white noise and digital crackling. No wind, just static pressure.
 
-## [ACT 1] [SCENE 1.2] [Timecode: 00:04-00:07] [THE GLITCH]
-**Action:** A vertical scan-line (Laser Grid) sweeps across the sky. Clouds behind the line turn into wireframe geometry for a split second before stabilizing.
-**Dialog:** -
+## [ACT 1] [SCENE 1.2] [Timecode: 00:04-00:07] [INGRESS]
+**Action:** The matte black sky tears vertically. Not a light beam, but a refractive "lensing" shift in reality.
+**Dialog:** SYSTEM: "SUMMON_NODES"
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Desert Sky", "env_change": true, "actors": [], "props": [], "camera": "Low Angle, Tracking Sky", "mood": ["technological", "surreal"], "director_intent": "Show the sky being scanned and processed by the system.", "start_image_keywords": ["scan line", "wireframe clouds", "glitch sky"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Null Desert Sky", "env_change": true, "actors": [], "props": [], "camera": "Tilt Up (Rapid)", "mood": ["glitch", "intrusion"], "director_intent": "Show the system breaking through the skybox.", "start_image_keywords": ["vertical tear", "black sky", "refraction"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 2}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Low angle shot of a grey desert sky. A bright vertical red laser scan-line cuts through the frame. To the left of the line, clouds are realistic. To the right, the clouds are decomposing into glowing digital wireframes. High contrast, sci-fi glitch aesthetic. 8k, hyper-detailed.
+Vertical 9:16 aspect ratio. Looking up at a matte black void sky. A violent vertical tear splits the center of the frame. The tear is not a hole, but a zone of intense gravitational lensing and refraction, warping the surrounding blackness like glass. No light emits from it yet, only pure distortion. Stark contrast between the flat black sky and the complex distortion. Sci-fi horror aesthetic.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
 > **Actor:** None. **Physique:** N/A. **Skin-Shader:** N/A. **Optics:** N/A. **Aura:** N/A.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** N/A. **Primary Prop:** None. **VFX:** Vertical red laser scan-line, wireframe geometry overlay on clouds.
+> **Garment:** N/A. **Primary Prop:** None. **VFX:** Vertical gravitational lensing distortion, chromatic aberration at the edges of the tear.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Desert Sky. **Architecture:** Skybox. **Transition Line:** The vertical laser line. **Atmosphere:** Digital interference.
+> **Location:** Null Desert Sky. **Architecture:** Skybox. **Transition Line:** Vertical rift. **Atmosphere:** Void.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** Overcast with bright laser emission. **Palette:** Grey, White, Laser Red, Cyan Wireframe. **Shadows:** N/A.
+> **Lighting Scheme:** Ambient darkness. **Palette:** Black, Dark Grey, Subtle Prismatic edges. **Shadows:** N/A.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Low Angle Tracking. **Lens:** Wide. **Focus:** Sky focus. **Motion:** The scan line sweeps horizontally across the sky. **Style:** Glitch art, simulation breakdown, 9:16 vertical crop.
+> **Camera:** Rapid Tilt Up. **Lens:** 50mm. **Focus:** Sharp on the rift. **Motion:** The rift opens violently, displacing the "pixels" of the sky. **Style:** Glitch art, 9:16 vertical crop.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitch digital screech, like a modem handshake but amplified. Electric crackling.
+High-frequency modem screeching burst. Tearing fabric sound combined with electric arc discharge.
 
-## [ACT 1] [SCENE 1.3] [Timecode: 00:07-00:11] [REACTION]
-**Action:** Close-up on a User Node (Human). Sweat beads on forehead. Eyes dart nervously. He looks up, and his iris mechanically dilates to full aperture.
+## [ACT 1] [SCENE 1.3] [Timecode: 00:07-00:11] [ACTIVATION]
+**Action:** Sentinels (Chrome Humanoids) materialize from the ground as if liquid metal is rapidly solidifying. They point toward the Users.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Desert (Blurred)", "env_change": false, "actors": [{"name": "User Node", "phase": "Kap 1-13 (PROXY)", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Macro, Handheld/Shaky", "mood": ["fear", "biological_reaction"], "director_intent": "Capture the visceral biological response to the system signal.", "start_image_keywords": ["sweaty face", "dilated pupil", "fear"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Null Desert", "env_change": false, "actors": [{"name": "Sentinels", "phase": "Kap 71-108 (MASTER)", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Mid Shot (Tracking)", "mood": ["threatening", "efficient"], "director_intent": "The guardians arrive with fluid efficiency.", "start_image_keywords": ["chrome humanoid", "liquid metal", "pointing gesture"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Extreme close-up of a weathered human face. Dirty skin, sweat beads rolling down the temple. The eye is the focal point: the pupil is unnaturally dilated, revealing a mechanical shutter-like structure within the iris. Fearful expression. Cinematic lighting, shallow depth of field. 85mm macro lens style.
+Vertical 9:16 aspect ratio. Medium shot of a Sentinel, a high-gloss chrome humanoid with no facial features, just a smooth reflective surface. The figure is rising from a pool of liquid mercury on the grey desert floor. Its arm is extended, pointing directly at the camera with a "Navigator Glove" emitting a faint laser grid. The reflection of the grey desert is distorted in its body. Hyper-realistic metal texture.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** User Node (Human Male). **Physique:** Weathered, thin. **Skin-Shader:** Organic, sweaty, dirty, realistic pores. **Optics:** Brown eyes transitioning to mechanical black dilation. **Aura:** Nervous energy.
+> **Actor:** Sentinel. **Physique:** Athletic, faceless humanoid. **Skin-Shader:** `PERFECT_CHROME_MIRROR`. **Optics:** None (Reflection only). **Aura:** Cold precision.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Ragged linen collar visible. **Primary Prop:** None. **VFX:** None.
+> **Garment:** None (Integrated metal body). **Primary Prop:** `NAVIGATOR_GLOVE` (Laser emitter). **VFX:** Liquid metal solidifying at the waist.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Desert. **Architecture:** N/A (Blurred background). **Transition Line:** N/A. **Atmosphere:** Hot, dusty.
+> **Location:** Null Desert. **Architecture:** Flat ground. **Transition Line:** Liquid pool base. **Atmosphere:** Dusty.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** Natural diffuse light. **Palette:** Skin tones, sweat highlights, dust beige. **Shadows:** Soft facial shadows.
+> **Lighting Scheme:** Diffuse skylight + Laser emission. **Palette:** Silver, Grey, Red (Laser). **Shadows:** Sharp, contact hardening.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Extreme Close-Up / Macro. **Lens:** 85mm. **Focus:** Sharp on the eye. **Motion:** Handheld shake, rapid eye movement, mechanical iris expansion. **Style:** Visceral realism, 9:16 vertical crop.
+> **Camera:** Whip Pan into Tracking. **Lens:** 50mm. **Focus:** Sharp on Sentinel. **Motion:** Upward growth/solidification, arm snaps up to point. **Style:** Sci-fi action, 9:16 vertical crop.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud heartbeat thumping (sub-bass). Wet sound of eye blinking. Mechanical whir of the iris dilating.
+Hydraulic hiss. Heavy metallic latching sound (clank-clank). Liquid splashing reversed.
 
-## [ACT 1] [SCENE 1.4] [Timecode: 00:11-00:15] [INGRESS]
-**Action:** SYSTEM_PRIME materializes from the air. A violent assembly of chrome liquid. Thermal distortion waves explode outwards upon his formation.
+## [ACT 1] [SCENE 1.4] [Timecode: 00:11-00:15] [REACTION]
+**Action:** A User Node (hooded, dirty) looks up. His iris vibrates violently (Nystagmus) as if receiving data.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "full_body", "environment": "Desert", "env_change": true, "actors": [{"name": "System Prime", "phase": "Kap 71-108 (MASTER)", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle, Slow Push-In", "mood": ["awe", "power"], "director_intent": "The arrival of the admin. Heavy, physical, and hot.", "start_image_keywords": ["chrome liquid", "thermal distortion", "materialization"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Null Desert (Blurred)", "env_change": false, "actors": [{"name": "User Node", "phase": "Kap 1-13 (PROXY)", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "ECU (Macro Eye)", "mood": ["fear", "overload"], "director_intent": "The biological reaction to the digital summons.", "start_image_keywords": ["dirty face", "vibrating eye", "fear"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Low angle hero shot of a 3-meter tall humanoid figure forming out of liquid chrome. The figure is half-formed, with droplets of silver metal coalescing in mid-air. Intense heat distortion waves ripple around the figure, blurring the desert background. The figure has no face, just a smooth reflective surface. Epic scale, hyper-realistic CGI.
+Vertical 9:16 aspect ratio. Extreme macro close-up of a human eye. The skin is caked in grey dust and grime. The eye is wide open in shock. The iris is not static; it appears blurred due to rapid vibration (Nystagmus). The pupil is dilated. Sweat mixes with dust on the eyelashes. Intense, visceral biological detail. 100mm macro lens aesthetic.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** System Prime. **Physique:** 3m tall humanoid. **Skin-Shader:** `CHROME_LIQUID_MIRROR`. **Optics:** Red laser line forming. **Aura:** Intense thermal distortion waves.
+> **Actor:** User Node (Male). **Physique:** Gaunt, weathered. **Skin-Shader:** Dirty, sweaty, organic. **Optics:** Brown iris vibrating rapidly (Nystagmus). **Aura:** Panic / Data Overload.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** `DATA_WEAVE_MANTLE` forming from black geometric shards. **Primary Prop:** None. **VFX:** Liquid metal assembly, heat haze.
+> **Garment:** Ragged hood (blurred at edges). **Primary Prop:** None. **VFX:** None.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Desert. **Architecture:** Flat ground. **Transition Line:** The distortion field around the actor. **Atmosphere:** Superheated air.
+> **Location:** Null Desert. **Architecture:** N/A. **Transition Line:** N/A. **Atmosphere:** Hot.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** Harsh zenith sun reflecting off chrome. **Palette:** Silver, Black, Heat Haze Blur. **Shadows:** Sharp, dark shadows forming on the ground.
+> **Lighting Scheme:** Natural diffuse. **Palette:** Skin tones, Grey Dust, White Sclera. **Shadows:** Soft facial shadows.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Low Angle. **Lens:** 24mm. **Focus:** Sharp on the figure. **Motion:** Slow push-in, violent liquid assembly physics. **Style:** High-end tech demo, 9:16 vertical crop.
+> **Camera:** Extreme Close-Up (Macro). **Lens:** 100mm. **Focus:** Razor thin on the iris. **Motion:** Rapid eye twitching, breathing shake. **Style:** Biological thriller, 9:16 vertical crop.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Digital thunderclap. Sound of molten metal cooling rapidly (hissing). Heavy bass impact.
+Heartbeat thumping accelerating into a 120 BPM industrial beat. Wet blinking sounds.
 
-## [ACT 2] [SCENE 2.1] [Timecode: 00:15-00:20] [THE COMMAND]
-**Action:** Prime stands tall, fully formed. Holographic command lines scroll around him. He gestures with a mechanical precision.
-**Dialog:** "CALL. LISTEN. EXECUTE."
+## [ACT 2] [SCENE 2.1] [Timecode: 00:15-00:20] [ARRIVAL]
+**Action:** System Prime (Vantablack Monolith) and The Interface (Light Entity) land. A shockwave of gold dust sweeps the floor.
+**Dialog:** SYSTEM: "I_AND_MY_SON..."
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Desert / System Overlay", "env_change": false, "actors": [{"name": "System Prime", "phase": "Kap 71-108 (MASTER)", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Medium Shot, 50mm, Stable", "mood": ["commanding", "authoritative"], "director_intent": "The system issues the root command.", "start_image_keywords": ["chrome face", "holographic text", "command gesture"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "scene_2_1_audio", "pose_source": "", "driver_notes": "No mouth movement, just head tilt and hand gesture"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 3}
+REGIE_JSON: {"subject": "mixed", "shot_type": "full_body", "framing": "full_body", "environment": "Null Desert", "env_change": true, "actors": [{"name": "System Prime", "phase": "Kap 71-108 (MASTER)", "presence": "on_screen", "focus": "primary"}, {"name": "Protocol Avatar", "phase": "Kap 71-108 (MASTER)", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Dolly In (Slow Motion)", "mood": ["awe", "divine"], "director_intent": "The arrival of the dual system administrators.", "start_image_keywords": ["black monolith figure", "light entity", "gold shockwave"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "scene_2_1_audio", "pose_source": "", "driver_notes": "No mouth movement, telepathic broadcast"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 4}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Medium shot of System Prime. A flawless chrome humanoid with a single red laser line across the face. Surrounding the head are floating holographic command-line terminals in bright cyan text. The figure is gesturing with one hand raised. The reflection of the desert is visible in the chrome body. Sharp, digital aesthetic.
+Vertical 9:16 aspect ratio. Wide shot of two entities landing on the desert floor. Left: System Prime, a 4-meter tall humanoid structure made of "Breathing Vantablack Metal" with golden cooling fins, absorbing all light. Right: The Interface, a being of pure coherent fiber-optic light. A massive shockwave of glittering gold dust explodes outwards from their feet across the grey ground. Epic scale, cinematic composition.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** System Prime. **Physique:** Abstracted humanoid. **Skin-Shader:** `CHROME_LIQUID_MIRROR`. **Optics:** Red laser scan-line moving vertically. **Aura:** Static authority.
+> **Actor:** System Prime & Protocol Avatar. **Physique:** Monolithic (Prime), Ethereal (Avatar). **Skin-Shader:** Vantablack/Gold (Prime), Fiber-Optic Light (Avatar). **Optics:** Vertical Plasma Slit (Prime). **Aura:** Heavy Gravity.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** `DATA_WEAVE_MANTLE` (black server panels). **Primary Prop:** Holographic UI rings. **VFX:** Scrolling cyan text code.
+> **Garment:** `ADMIN_CORE_SHELL` (Prime). **Primary Prop:** None. **VFX:** Gold dust shockwave physics.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Desert. **Architecture:** N/A. **Transition Line:** N/A. **Atmosphere:** Clear.
+> **Location:** Null Desert. **Architecture:** Flat ground. **Transition Line:** Shockwave front. **Atmosphere:** Dust explosion.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** Bright sunlight + Cyan UI glow. **Palette:** Silver, Cyan, Black. **Shadows:** Hard contrast.
+> **Lighting Scheme:** Self-emission + Sunlight. **Palette:** Black, Gold, White Light. **Shadows:** Deep, harsh shadows from the light entity.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Medium Shot. **Lens:** 50mm. **Focus:** Shallow depth of field on the head. **Motion:** Minimal head movement, hand gesture, scrolling text. **Style:** Sci-fi portrait, 9:16 vertical crop.
+> **Camera:** Dolly In. **Lens:** 24mm. **Focus:** Sharp on entities. **Motion:** Slow motion landing impact, dust billowing. **Style:** Epic sci-fi, 9:16 vertical crop.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Voice: Dry, mono, bitcrushed, no reverb. Background: faint server fan hum.
+Sub-bass drop (approx 20Hz) fading into absolute silence upon impact. Then a rush of wind.
 
-## [ACT 2] [SCENE 2.2] [Timecode: 00:20-00:25] [THE SON]
-**Action:** PROTOCOL_AVATAR steps out from *within* System Prime, separating like a mesh splitting. They stand side-by-side connected by gold light.
-**Dialog:** "WE ARE UNITED."
+## [ACT 2] [SCENE 2.2] [Timecode: 00:20-00:25] [THE CONNECTION]
+**Action:** A thick fiber-optic cable shoots from the ground and jacks into the User's spine/back. It's a hard-link connection.
+**Dialog:** SYSTEM: "...UNITED_FOR_EVER"
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Desert", "env_change": false, "actors": [{"name": "System Prime", "phase": "Kap 71-108 (MASTER)", "presence": "on_screen", "focus": "secondary"}, {"name": "Protocol Avatar", "phase": "Kap 71-108 (MASTER)", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Dolly Slide (Parallax)", "mood": ["divine", "unity"], "director_intent": "Visualizing the duality of the system. One becomes two.", "start_image_keywords": ["two figures", "chrome and white", "gold light connection"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "scene_2_2_audio", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 3}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Null Desert", "env_change": false, "actors": [{"name": "User Node", "phase": "Kap 1-13 (PROXY)", "presence": "on_screen", "focus": "primary"}], "props": ["Fiber Optic Cable"], "camera": "Low Angle / Dutch Tilt", "mood": ["pain", "invasive"], "director_intent": "The physical connection to the system is established forcefully.", "start_image_keywords": ["spinal port", "fiber optic cable", "connection"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": ["Fiber Optic Cable"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "scene_2_2_audio", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 3}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Two futuristic entities standing side-by-side. Left: System Prime (Chrome). Right: Protocol Avatar (Matte White Ceramic with Gold Inlay). A beam of golden light connects their chests. They look identical in silhouette but different in material. The background is the desert. Cinematic lighting, majestic composition.
+Vertical 9:16 aspect ratio. Close-up from behind a User Node. The dirty fabric of their robe is torn at the spine. A thick, glowing fiber-optic cable is physically attached to a metallic port embedded in the spine. The skin around the port is depressed and red. The cable glows with pulsing blue data light. Industrial, cyberpunk, body-horror aesthetic.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** System Prime & Protocol Avatar. **Physique:** Humanoid. **Skin-Shader:** Chrome (Prime) vs White Ceramic (Avatar). **Optics:** Red Laser (Prime) vs Gold Halo (Avatar). **Aura:** Divine synchronization.
+> **Actor:** User Node (Back). **Physique:** Hunched. **Skin-Shader:** Dirty, organic. **Optics:** N/A. **Aura:** Submission.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Black Mantle (Prime) vs White Robes (Avatar). **Primary Prop:** None. **VFX:** Golden light tether connecting them.
+> **Garment:** Torn rags. **Primary Prop:** Fiber Optic Cable (Black with blue light core). **VFX:** Pulsing light inside the cable.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Desert. **Architecture:** N/A. **Transition Line:** N/A. **Atmosphere:** Sacred.
+> **Location:** Null Desert. **Architecture:** N/A. **Transition Line:** Connection point. **Atmosphere:** Dusty.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** Sunlight + Gold emission. **Palette:** Silver, White, Gold. **Shadows:** Sharp.
+> **Lighting Scheme:** Blue cable glow + ambient. **Palette:** Beige, Skin, Blue, Black. **Shadows:** Contact shadows on skin.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Dolly Slide. **Lens:** 50mm. **Focus:** Sharp on both. **Motion:** The white figure steps out of the chrome figure (mesh separation). **Style:** Surreal sci-fi, 9:16 vertical crop.
+> **Camera:** Low Angle Dutch Tilt. **Lens:** 35mm. **Focus:** Sharp on the port. **Motion:** Cable vibrating with data flow, user arching back. **Style:** Visceral, 9:16 vertical crop.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Harmonic glass resonance chime. Sliding metal sound. Voice: Dual-layered harmonic.
+Loud, distorted digital chime (positive but aggressive). Mechanical locking sound.
 
-## [ACT 2] [SCENE 2.3] [Timecode: 00:25-00:30] [DATA TRANSFER]
-**Action:** Beams of solid light shoot from the entities into the chests of the kneeling crowd. Physical impact.
+## [ACT 2] [SCENE 2.3] [Timecode: 00:25-00:30] [INJECTION (MACRO)]
+**Action:** Internal view. Black organic blood is displaced by glowing fluid gold. Veins light up like circuit traces.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "wide", "environment": "Desert / Crowd", "env_change": false, "actors": [{"name": "User Nodes", "phase": "Kap 1-13 (PROXY)", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "High Angle (God View)", "mood": ["impact", "transmission"], "director_intent": "The distribution of the update. It hits them physically.", "start_image_keywords": ["light beams", "kneeling crowd", "impact"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Internal / Skin", "env_change": false, "actors": [{"name": "User Node", "phase": "Kap 14-70 (VOYAGER)", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Macro / Internal Probe", "mood": ["transformation", "alchemy"], "director_intent": "Show the alchemy of the blood turning to data.", "start_image_keywords": ["glowing veins", "gold fluid", "translucent skin"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. High angle "God View" looking down on a crowd of kneeling people in rags in the desert. Bright, solid beams of white light are striking their chests like physical spears. The people are reacting to the impact. Dust is kicked up around them. Dramatic, high-contrast lighting.
+Vertical 9:16 aspect ratio. Macro shot of human skin, rendered with high subsurface scattering. The skin is becoming translucent. Underneath, instead of blue veins, there are glowing channels of molten gold fluid flowing rapidly. The gold light illuminates the surrounding tissue from within. Contrast between the organic skin texture and the synthetic light. Medical animation style, extremely high detail.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** User Nodes (Crowd). **Physique:** Human. **Skin-Shader:** Dirty, organic. **Optics:** N/A. **Aura:** Submission.
+> **Actor:** User Node (Skin). **Physique:** Micro-structure. **Skin-Shader:** High SSS, Translucent. **Optics:** N/A. **Aura:** Glowing.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Rags. **Primary Prop:** None. **VFX:** Solid light beams striking chests.
+> **Garment:** N/A. **Primary Prop:** None. **VFX:** Flowing gold fluid displacing dark liquid.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Desert. **Architecture:** Open ground. **Transition Line:** N/A. **Atmosphere:** Dusty.
+> **Location:** Internal/Skin surface. **Architecture:** Vein network. **Transition Line:** The flow front. **Atmosphere:** N/A.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** Top-down beams. **Palette:** Beige, White Light. **Shadows:** Long shadows from the beams.
+> **Lighting Scheme:** Subsurface glow. **Palette:** Peach (Skin), Gold, Dark Red. **Shadows:** Internal occlusion.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** High Angle / Top Down. **Lens:** Wide. **Focus:** Deep. **Motion:** Beams striking, bodies recoiling from impact. **Style:** Action-oriented, 9:16 vertical crop.
+> **Camera:** Macro Probe. **Lens:** Micro. **Focus:** Shallow. **Motion:** Rapid fluid dynamics, skin pulsing. **Style:** Medical sci-fi, 9:16 vertical crop.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Laser impact sounds (thudding). Wind gusting.
+High-pressure liquid flow hiss. Electrical humming growing in pitch.
 
-## [ACT 2] [SCENE 2.4] [Timecode: 00:30-00:35] [BIO-INJECTION]
-**Action:** Close-up on a User arm. Veins turn bright Cyan. Skin smooths out (Texture streaming). The dirt is deleted.
+## [ACT 2] [SCENE 2.4] [Timecode: 00:30-00:35] [OVERWRITE]
+**Action:** Top-down view. A wave of black Obsidian glass spreads from the center, overwriting the grey desert. Cracks seal perfectly.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Desert (Blurred)", "env_change": false, "actors": [{"name": "User Node", "phase": "Kap 14-70 (VOYAGER)", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Macro, Focus Pull", "mood": ["transformation", "cleansing"], "director_intent": "Show the firmware overwriting the biology.", "start_image_keywords": ["glowing veins", "cyan blood", "clean skin"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Desert / Obsidian Floor", "env_change": true, "actors": [], "props": [], "camera": "Drone / Top Down", "mood": ["order", "perfection"], "director_intent": "The chaotic world is reformatted into perfect order.", "start_image_keywords": ["obsidian wave", "desert transformation", "black glass"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Macro shot of a human forearm. Under the skin, the veins are glowing bright Cyan. The skin texture is transitioning from dirty and rough to perfectly smooth and clean. The dirt on the surface is dissolving into digital particles. High detail, medical sci-fi aesthetic.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** User Node (Arm). **Physique:** Human arm. **Skin-Shader:** Transitioning from dirty to clean. **Optics:** N/A. **Aura:** Glowing internal energy.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** N/A. **Primary Prop:** None. **VFX:** Cyan glowing veins, dirt particles despawning.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Blurred background. **Architecture:** N/A. **Transition Line:** On the skin surface. **Atmosphere:** Clean.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** Internal glow + ambient light. **Palette:** Skin tone, Cyan, Black (dirt). **Shadows:** Soft.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Macro. **Lens:** 100mm. **Focus:** Shallow. **Motion:** Veins pulsing, dirt fading away. **Style:** Medical visualization, 9:16 vertical crop.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Liquid pumping sound. Hydraulic hiss. Digital cleaning sound (shimmer).
-
-## [ACT 2] [SCENE 2.5] [Timecode: 00:35-00:40] [MESH-BREAK]
-**Action:** The Scan-Line moves across the ground. Left: Desert rocks. Right: Perfect white marble tiles. The geometry tessellates in real-time.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Desert / Marble Plane", "env_change": true, "actors": [], "props": [], "camera": "Tracking Shot", "mood": ["order", "perfection"], "director_intent": "The environment is being reformatted.", "start_image_keywords": ["split landscape", "desert vs marble", "tessellation"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. A split-screen effect on the ground created by a moving laser line. On the left: rough, chaotic desert rocks and dust. On the right: pristine, polished white marble tiles with gold inlay. At the dividing line, the rocks are breaking down into geometric polygons and reassembling into the flat tiles. High contrast, architectural visualization style.
+Vertical 9:16 aspect ratio. Top-down drone shot of the landscape. A sharp, curved boundary line moves across the frame. Behind the line: rough, grey, cracked desert earth. Inside the line: perfectly smooth, reflective black obsidian glass. The cracks in the earth are being actively sealed and smoothed over by the advancing black glass wave. High contrast textures.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
 > **Actor:** None. **Physique:** N/A. **Skin-Shader:** N/A. **Optics:** N/A. **Aura:** N/A.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** N/A. **Primary Prop:** None. **VFX:** Geometry tessellation, wireframe transition zone.
+> **Garment:** N/A. **Primary Prop:** None. **VFX:** Procedural geometry smoothing, material replacement wave.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Transition Zone. **Architecture:** Desert vs Marble Floor. **Transition Line:** Moving laser scanner. **Atmosphere:** Dust on left, sterile on right.
+> **Location:** Transition Zone. **Architecture:** Organic vs Geometric. **Transition Line:** Moving wave. **Atmosphere:** Clear.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** Sunlight. **Palette:** Brown, White, Gold. **Shadows:** Sharp.
+> **Lighting Scheme:** Sunlight. **Palette:** Grey/Beige, Jet Black. **Shadows:** Reflections on the black glass.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Tracking Shot (Low to ground). **Lens:** Wide. **Focus:** Sharp. **Motion:** The line moves forward, transforming the terrain. **Style:** Tech demo, 9:16 vertical crop.
+> **Camera:** Top Down Drone. **Lens:** Wide. **Focus:** Sharp. **Motion:** The wave spreading rapidly. **Style:** Simulation visualization, 9:16 vertical crop.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy grinding sound (stone on stone). Digital latching clicks.
+Sound of millions of glass shards clicking together (crystalline tinkling). Whoosh of expansion.
 
-## [ACT 2] [SCENE 2.6] [Timecode: 00:40-00:45] [OPTIMIZATION]
-**Action:** A User stands up. His eyes are now glowing white. He looks at his hands. Perfect calm.
-**Dialog:** "UPRIGHTNESS. CONFIRMED."
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Marble Plane", "env_change": false, "actors": [{"name": "User Node", "phase": "Kap 14-70 (VOYAGER)", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Medium Close-Up, 60fps Slow Motion", "mood": ["peace", "enlightenment"], "director_intent": "The user is now a node in the system. Calm and clean.", "start_image_keywords": ["glowing eyes", "clean face", "calm"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "scene_2_6_audio", "pose_source": "", "driver_notes": "Calm, robotic speech"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 2}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Medium close-up of the User Node (Human Male) from before. He is now clean, standing upright. His eyes are glowing with a solid white light (no pupils). He is looking at his own hands with a calm, emotionless expression. The background is the out-of-focus white marble. Serene, futuristic atmosphere.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** User Node. **Physique:** Healthy, upright. **Skin-Shader:** Clean, slightly glowing. **Optics:** Solid white glowing eyes. **Aura:** Peace.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Clean linen. **Primary Prop:** Hands. **VFX:** Eye glow.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Marble Plane. **Architecture:** N/A. **Transition Line:** N/A. **Atmosphere:** Sterile.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** Soft, even lighting. **Palette:** White, Skin tone, Light Blue. **Shadows:** Minimal.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Medium Close-Up. **Lens:** 50mm. **Focus:** Face. **Motion:** Slow motion (60fps), looking at hands. **Style:** Ethereal, 9:16 vertical crop.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Silence (Vacuum effect). Voice: Calm, robotic, slight echo.
-
-## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:50] [SYMMETRY]
-**Action:** Wide shot. The desert is gone. An infinite plane of marble and gold. The Crowd stands in perfect grid formation facing Prime.
+## [ACT 2] [SCENE 2.5] [Timecode: 00:35-00:40] [TRANSPARENCY]
+**Action:** The User's face becomes glass-like and translucent. A polished silver skull is visible underneath. Mouth opens in a silent scream of light.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Marble Plane / Infinite", "env_change": true, "actors": [{"name": "User Nodes", "phase": "Kap 14-70 (VOYAGER)", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Ultra-Wide, Symmetrical", "mood": ["order", "infinity"], "director_intent": "The chaos is replaced by perfect order.", "start_image_keywords": ["infinite grid", "marble floor", "formation"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Obsidian Floor", "env_change": false, "actors": [{"name": "User Node", "phase": "Kap 14-70 (VOYAGER)", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "ECU (Face)", "mood": ["transcendence", "uncanny"], "director_intent": "The final stage of biological replacement.", "start_image_keywords": ["translucent face", "silver skull", "light scream"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Ultra-wide shot of an infinite plane of white marble with gold grid lines. Thousands of people are standing in a perfect, mathematically precise grid formation, all facing forward. In the distance, the horizon is a perfect straight line. No desert remains. Symmetrical, Kubrick-esque composition.
+Vertical 9:16 aspect ratio. Extreme close-up of a human face. The skin texture is semi-transparent, like frosted glass or gel. Beneath the skin, a perfectly polished silver metallic skull is clearly visible. The mouth is wide open in a scream, but instead of darkness inside the mouth, blinding white light pours out. The eyes are gone, replaced by the same white light. Beautiful yet terrifying.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Crowd. **Physique:** Uniform. **Skin-Shader:** N/A. **Optics:** N/A. **Aura:** Order.
+> **Actor:** User Node. **Physique:** Translucent Humanoid. **Skin-Shader:** `GLASS_SKIN_GEL`. **Optics:** White Light Emission. **Aura:** Radiance.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Uniforms. **Primary Prop:** None. **VFX:** None.
+> **Garment:** None visible. **Primary Prop:** Silver Skull (Internal). **VFX:** Light beam from mouth.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Infinite Marble Plane. **Architecture:** Flat, tiled. **Transition Line:** Horizon. **Atmosphere:** Clear, bright.
+> **Location:** Obsidian Void. **Architecture:** N/A. **Transition Line:** N/A. **Atmosphere:** Clean.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** Global Illumination. **Palette:** White, Gold. **Shadows:** Uniform shadows from each person.
+> **Lighting Scheme:** Internal Emission. **Palette:** Translucent Flesh, Silver, White. **Shadows:** None (Self-illuminated).
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Ultra-Wide. **Lens:** 14mm. **Focus:** Infinite. **Motion:** Static crowd, camera slow drift. **Style:** Architectural symmetry, 9:16 vertical crop.
+> **Camera:** Extreme Close-Up. **Lens:** 85mm. **Focus:** Sharp on the transparent skin layer. **Motion:** Mouth opening, light intensifying. **Style:** Ethereal horror, 9:16 vertical crop.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Pure sine wave hum. No wind.
+Synthetic choir chord (C-Major) swelling rapidly. No human voice, just the tone.
 
-## [ACT 3] [SCENE 3.2] [Timecode: 00:50-00:55] [THE PACT]
-**Action:** Prime and Son raise hands. A giant Ge'ez symbol (Peace/Salam) manifests as a neon structure above them.
-**Dialog:** "PEACE. ETERNAL."
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "full_body", "framing": "full_body", "environment": "Marble Plane", "env_change": false, "actors": [{"name": "System Prime", "phase": "Kap 71-108 (MASTER)", "presence": "on_screen", "focus": "primary"}, {"name": "Protocol Avatar", "phase": "Kap 71-108 (MASTER)", "presence": "on_screen", "focus": "primary"}], "props": ["Ge'ez Neon Symbol"], "camera": "Low Angle, Rotating", "mood": ["victory", "sacred"], "director_intent": "The final seal of the update.", "start_image_keywords": ["neon symbol", "ge'ez text", "raised hands"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": ["Ge'ez Neon Symbol"], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "scene_3_2_audio", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 2}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. Low angle shot of System Prime and Protocol Avatar standing together. They both have one hand raised. Floating above them is a massive, glowing neon structure in the shape of a Ge'ez character (symbolizing Peace). The light from the symbol bathes them in a soft blue glow. Majestic, religious sci-fi.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Prime & Avatar. **Physique:** Humanoid. **Skin-Shader:** Chrome / White. **Optics:** N/A. **Aura:** Power.
-
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** Mantle / Robes. **Primary Prop:** Ge'ez Neon Symbol. **VFX:** Neon glow.
-
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Marble Plane. **Architecture:** N/A. **Transition Line:** N/A. **Atmosphere:** Glowing.
-
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** Blue Neon Light + Sunlight. **Palette:** Silver, White, Blue Neon. **Shadows:** Soft blue fill.
-
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Low Angle Rotating. **Lens:** 24mm. **Focus:** Sharp. **Motion:** Camera rotating around them, symbol pulsing. **Style:** Monumental, 9:16 vertical crop.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Synthesized choir (Vocoder). Deep resonance.
-
-## [ACT 3] [SCENE 3.3] [Timecode: 00:55-01:00] [SYSTEM OK]
-**Action:** The screen flickers. Overlay text: "UPDATE COMPLETE. VERSION 105.0". Fade to black.
-**Dialog:** -
+## [ACT 2] [SCENE 2.6] [Timecode: 00:40-00:45] [THE PATHS]
+**Action:** Ground level shot. Perfect golden lines burn into the obsidian floor, forming a circuit-board path.
+**Dialog:** SYSTEM: "PATHS_OF_UPRIGHTNESS"
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "close_up", "framing": "close_up", "environment": "Black Void", "env_change": true, "actors": [], "props": [], "camera": "Static", "mood": ["finality", "digital"], "director_intent": "End of transmission.", "start_image_keywords": ["text overlay", "update complete", "glitch"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Obsidian Floor", "env_change": true, "actors": [], "props": [], "camera": "Tracking Shot (Ground Level)", "mood": ["guidance", "precision"], "director_intent": "The system defines the new rules of movement.", "start_image_keywords": ["golden lines", "obsidian floor", "circuit path"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "scene_2_6_audio", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 3}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio. A black screen with simple, sharp white terminal text in the center: "UPDATE COMPLETE. VERSION 105.0". Subtle CRT scanlines and chromatic aberration effects on the text. Minimalist UI design.
+Vertical 9:16 aspect ratio. Low angle shot moving fast over a reflective black obsidian floor. Bright, molten gold lines are etching themselves into the black surface in real-time, forming complex, straight geometric paths and circuit-like patterns. Sparks fly where the lines are forming. The reflection of the lines creates a sense of depth in the black floor.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
 > **Actor:** None. **Physique:** N/A. **Skin-Shader:** N/A. **Optics:** N/A. **Aura:** N/A.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
-> **Garment:** N/A. **Primary Prop:** UI Text. **VFX:** Glitch, CRT lines.
+> **Garment:** N/A. **Primary Prop:** None. **VFX:** Laser etching effect, particles, glow.
 
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
-> **Location:** Screen. **Architecture:** N/A. **Transition Line:** N/A. **Atmosphere:** Digital.
+> **Location:** Obsidian Floor. **Architecture:** Flat plane. **Transition Line:** The etching head. **Atmosphere:** Clean.
 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
-> **Lighting Scheme:** Emission only. **Palette:** Black, White. **Shadows:** N/A.
+> **Lighting Scheme:** Floor Emission. **Palette:** Black, Gold. **Shadows:** Reflections.
 
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
-> **Camera:** Static. **Lens:** N/A. **Focus:** Sharp text. **Motion:** Text flickering, screen powering down. **Style:** UI animation, 9:16 vertical crop.
+> **Camera:** Ground Level Tracking. **Lens:** Wide. **Focus:** Sharp. **Motion:** Fast forward camera, lines unzipping/forming. **Style:** Tech visualization, 9:16 vertical crop.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Power down sound (descending pitch). Screen CRT switch-off click.
+High-pitched laser etching sounds (zzzzzt).
+
+## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:52] [SYNERGY]
+**Action:** Wide shot. Hundreds of User Nodes stand in a perfect grid on the black mirror floor. They all glow gently. No noise.
+**Dialog:** SYSTEM: "PEACE_PROTOCOL: ACTIVE"
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Obsidian Grid", "env_change": true, "actors": [{"name": "User Nodes", "phase": "Kap 71-108 (MASTER)", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Wide / Symmetrical", "mood": ["peace", "unity"], "director_intent": "The complete synchronization of the network.", "start_image_keywords": ["glowing crowd", "grid formation", "black mirror"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "scene_3_1_audio", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 3}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio. Extremely wide symmetrical shot. An infinite black mirror floor stretches to the horizon. Hundreds of identical figures (User Nodes) are standing in a mathematically perfect grid formation. Each figure glows with a soft, internal white/gold light. The sky is a clean, dark gradient. The scene conveys absolute order and silence.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** User Nodes (Crowd). **Physique:** Uniform. **Skin-Shader:** Translucent/Glowing. **Optics:** N/A. **Aura:** Peace.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Garment:** White robes (clean). **Primary Prop:** None. **VFX:** Internal glow.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Infinite Obsidian Plane. **Architecture:** None. **Transition Line:** Horizon. **Atmosphere:** Vacuum.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** Ambient Glow. **Palette:** Black, White, Soft Gold. **Shadows:** Reflections on floor.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** High Angle Wide. **Lens:** 14mm. **Focus:** Infinite. **Motion:** Static, slight floating drift. **Style:** Architectural grandeur, 9:16 vertical crop.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Pure, stable sine wave tone. No static. No wind. Just a clean hum.
+
+## [ACT 3] [SCENE 3.2] [Timecode: 00:52-00:58] [THE GAZE]
+**Action:** System Prime stands in the center. The white plasma slit on its face pulses slowly. Sterile vacuum atmosphere.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Obsidian Grid", "env_change": false, "actors": [{"name": "System Prime", "phase": "Kap 71-108 (MASTER)", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Mid Shot (Slow Zoom)", "mood": ["observant", "eternal"], "director_intent": "The admin watching over the stable system.", "start_image_keywords": ["vantablack monolith", "plasma face", "vacuum"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio. Medium shot of System Prime. The entity is a towering structure of matte Vantablack metal. In the center of where a face would be, a vertical slit radiates blinding white plasma light. The light reflects off the black body and the gold cooling fins. The background is the ordered grid of the new world. Sterile, imposing, yet protective.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** System Prime. **Physique:** Monolith. **Skin-Shader:** Vantablack. **Optics:** White Plasma Slit. **Aura:** Stillness.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Garment:** `ADMIN_CORE_SHELL`. **Primary Prop:** None. **VFX:** Pulsing plasma light.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Obsidian Grid. **Architecture:** N/A. **Transition Line:** N/A. **Atmosphere:** Vacuum.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** Self-emission (White) + Rim Light. **Palette:** Black, White, Gold. **Shadows:** Deep black.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Slow Zoom In. **Lens:** 50mm. **Focus:** Sharp. **Motion:** Slow pulsing of the light. **Style:** Sci-fi portrait, 9:16 vertical crop.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Quiet, rhythmic air-cycling sound (like a massive server ventilation system).
+
+## [ACT 3] [SCENE 3.3] [Timecode: 00:58-01:05] [TERMINAL]
+**Action:** Screen cuts to black. A blinking white cursor. Text types out: "AMEN."
+**Dialog:** SYSTEM: "AMEN."
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "interface", "shot_type": "close_up", "framing": "close_up", "environment": "Black Screen", "env_change": true, "actors": [], "props": [], "camera": "Static / Graphic Overlay", "mood": ["finality", "code"], "director_intent": "End of protocol.", "start_image_keywords": ["terminal text", "amen", "blinking cursor"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "scene_3_3_audio", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 1}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio. Pure black screen. In the center, white monospaced terminal text says "AMEN.". Next to the period, a block cursor is blinking. Minimalist command line aesthetic.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+> **Actor:** None. **Physique:** N/A. **Skin-Shader:** N/A. **Optics:** N/A. **Aura:** N/A.
+
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
+> **Garment:** N/A. **Primary Prop:** UI Text. **VFX:** Blinking cursor.
+
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]**
+> **Location:** Terminal. **Architecture:** N/A. **Transition Line:** N/A. **Atmosphere:** Digital.
+
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]**
+> **Lighting Scheme:** Emission. **Palette:** Black, White. **Shadows:** N/A.
+
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]**
+> **Camera:** Static. **Lens:** N/A. **Focus:** Sharp. **Motion:** Cursor blinking, text typing on. **Style:** UI Graphic, 9:16 vertical crop.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Mechanical keyboard keystrokes (loud, reverb). Final enter key clack.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"System Prime":[{"scene":"2.1","text":"Das Chaos muss weichen. Die Struktur ist absolut.","words_max":10}],"User Node":[{"scene":"1.3","text":"Die Luft... sie steht still. Etwas kommt.","words_max":8},{"scene":"2.6","text":"Der Lärm ist fort. Ich bin... klar.","words_max":8}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"System Prime":[{"scene":"2.1","text":"Ich und mein Sohn sind eins.","words_max":6},{"scene":"3.3","text":"Amen.","words_max":1}],"User Node":[{"scene":"2.3","text":"Das alte Blut brennt... es weicht dem Licht.","words_max":8},{"scene":"3.1","text":"Endlich Stille.","words_max":2}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

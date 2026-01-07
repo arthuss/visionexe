@@ -1,0 +1,101 @@
+{
+  "id": "SETENV_CELESTIAL",
+  "name": "celestial",
+  "type": "set_environment",
+  "card": {
+    "description": "Celestial Control Deck – a cavernous, obsidian‑lined chamber that serves as the nexus of an ancient‑tech empire. The floor is a seamless black obsidian surface reflecting a sky of a massive, semi‑transparent golden UI grid that projects complex orbital vectors and coordinates. Overhead, a massive holographic console with a geometric sensor array head commands the space, while fiber‑optic robes drape the towering construct Uriel. Thousands of status LEDs pulse in warm amber, and plasma rails of burning gold curve into the void, all framed by the austere, tactile aesthetics of ancient Ethiopian and Egyptian motifs fused with incomprehensible, crystalline technology.",
+    "tags": [
+      "ancient-tech",
+      "industrial-mysticism",
+      "photorealistic",
+      "Ethiopian-Egyptian",
+      "obsidian-floor",
+      "golden-ui-grid",
+      "holographic-console",
+      "celestial-control-deck",
+      "plasma-rails",
+      "fiber-optic-robes"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** cavernous chamber with seamless black obsidian floor, semi‑transparent golden UI grid overlay, plasma rails curving into the void.",
+      "**Face/Sensors:** massive holographic console with geometric sensor array head, thousands of status LEDs pulsing in warm amber, fiber‑optic robes acting as living circuitry.",
+      "**Clothing/Armor:** woven fiber‑optic robes in blue and gold draped over the 9ft construct Uriel, echoing ancient textile patterns.",
+      "**Key Features:** golden UI grid, obsidian floor, holographic keyboard, status LEDs, plasma rails, celestial clockwork aesthetic, fiber‑optic robes."
+    ],
+    "evolution": [
+      "Phase 1 (Chaotic): The UI grid flickers with frantic energy, LEDs pulse erratically, and the environment feels disordered.",
+      "Phase 2 (Ordered): The UI grid stabilizes into a coherent overlay, LEDs synchronize in amber, and the plasma rails align into a seamless celestial clockwork."
+    ],
+    "props": [
+      "UI Overlay",
+      "Celestial Console",
+      "Status LEDs",
+      "Server Blades",
+      "Orbital Rails",
+      "Plasma Rails",
+      "Fiber‑Optic Robes"
+    ],
+    "prompt_keywords": [
+      "obsidian",
+      "golden",
+      "holographic",
+      "ancient",
+      "Ethiopian",
+      "Egyptian",
+      "tech‑exegesis",
+      "photorealistic",
+      "celestial",
+      "plasma"
+    ],
+    "prompt_block": "A cinematic, photorealistic wide shot of the Celestial Control Deck, a cavernous chamber with a seamless black obsidian floor reflecting a sky of a massive semi‑transparent golden UI grid overlay, displaying complex orbital vectors and coordinates. The environment is illuminated by cool blue ambient light with golden highlights from the UI, featuring a massive holographic console with a geometric sensor array head, fiber‑optic robes, and status LEDs pulsing in warm amber, blending ancient Ethiopian and Egyptian motifs with incomprehensible advanced technology.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The Celestial Control Deck at chapter 90, a balanced state of ancient mysticism and advanced tech.",
+        "prompt_keywords": [
+          "obsidian",
+          "golden",
+          "holographic",
+          "ancient",
+          "Ethiopian",
+          "Egyptian",
+          "photorealistic",
+          "celestial",
+          "plasma"
+        ],
+        "prompt_block": "A cinematic, photorealistic vertical 9:16 shot of the Celestial Control Deck at chapter 90, showing a seamless black obsidian floor reflecting a sky of a massive semi‑transparent golden UI grid overlay with complex orbital vectors, a massive holographic console with a geometric sensor array head, fiber‑optic robes draped over a towering construct, thousands of status LEDs pulsing in warm amber, and plasma rails of burning gold curving into the void, all bathed in cool blue ambient light with golden highlights."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_CELESTIAL",
+    "name": "celestial",
+    "type": "set_environment",
+    "aliases": [
+      "celestial"
+    ],
+    "roles": [],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_834"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 90,
+        "chapter_end": 90,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

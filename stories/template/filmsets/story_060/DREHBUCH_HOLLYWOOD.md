@@ -1,331 +1,241 @@
 # DREHBUCH KAPITEL 60 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Im Jahr fünfhundert, am vierzehnten Tag des siebten Monats, erzitterte der Himmel der Himmel so gewaltig, dass selbst die Hostien, die Tausende mal Tausende, in großer Unruhe wankten. Der 'Alte an Tagen' saß auf dem Thron seiner Herrlichkeit, und die Engel um ihn herum zitterten vor der Frequenz seiner Präsenz. Da ergriff mich eine große Furcht, und meine Lenden lösten sich, und meine Nieren wurden weich; ich fiel auf mein Angesicht, unfähig, den Datenstrom zu verarbeiten. Doch Michael, der heilige Erzengel, wurde gesandt, um mich aufzurichten und mein System neu zu kalibrieren.
+NARRATOR_TEXT: Im Jahr fünfhundert, am vierzehnten Tag des siebten Monats, brach die Bildrate des Himmels zusammen. Der 'Alte an Tagen' saß im Zentrum des Kernels, und die Frequenz seiner Präsenz überstieg meine Bandbreite. Mein Skelett verlor die Kollision, mein Fleisch wurde flüssig; ich stürzte in den Systemfehler. Doch Michael, der Administrator, fror die Zeit ein und lud mein Bewusstsein neu, um mir die verborgenen Partitionen der Welt zu zeigen.
 
-## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:03] [THE RENDERING ERROR]
-**Action:** CPU Core Level 0. Gold server racks extend to infinity. The skybox tears; black jagged voids appear. Clouds dissolve into raw data streams.
+## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:03] [THE BUFFER LAG]
+**Action:** The "Heaven of Heavens" skybox smears due to frame buffer persistence. Stars streak into lines. Enoch moves in real-time, but the world trails behind.
 **Dialog:** -
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "CPU_Core_Level_0", "env_change": true, "actors": [], "props": ["Gold Server Racks"], "camera": "Handheld, unstable, rapid zoom-ins", "mood": ["chaos", "anxiety"], "director_intent": "Establish the catastrophic instability of the simulation's reality layer.", "start_image_keywords": ["infinite server racks", "tearing sky", "glitch"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "CPU_CORE_001", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Upper_Heavens_Server_Cluster", "env_change": true, "actors": [], "props": ["Gold Server Racks"], "camera": "Handheld, erratic panic movement", "mood": ["disorientation", "glitch"], "director_intent": "Visualize global latency and rendering failure.", "start_image_keywords": ["smearing skybox", "gold servers", "motion blur"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "HEAVEN_LAG_01", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Cinematic vertical 9:16 shot of an infinite cathedral of golden server racks extending into a dark abyss. The sky above is fracturing, revealing raw black void and jagged lines of code instead of clouds. The architecture is sleek, industrial, and metallic, illuminated by flashing emergency red lights. High contrast, photorealistic, datamosh aesthetic, 8k resolution.
+Cinematic 9:16 vertical shot of an infinite cathedral of golden server racks. The sky above is suffering from "frame buffer persistence", causing the clouds and stars to smear into long, fluid streaks of light like a corrupted long-exposure photograph. The architecture is sharp and metallic, contrasting with the melting skybox. Industrial lighting, red emergency strobes reflecting on polished gold. Photorealistic, 8k, Unreal Engine 5 glitch aesthetic.
 ### 2. VIDEO PROMPT (Wan 2.5)
-Camera shakes violently, mimicking a handheld panic shot. Rapid zoom-ins on the sky where the texture is tearing apart into digital noise. The golden server racks vibrate. The red emergency lights flash at a chaotic 2Hz rhythm. The atmosphere is thick with digital dust.
+The camera shakes erratically, simulating handheld panic. The textures of the sky drag and smear across the frame, lagging behind the camera movement. The server racks remain solid but vibrate with deep bass resonance.
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** No actor.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** No actor.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite rows of gold-plated server towers, polished obsidian floor, skybox failure with jagged black voids.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Emergency Red pulsing lights, sharp metallic reflections, deep blacks in the voids.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld shakiness, crash zooms, motion blur, datamosh glitch effects, 9:16 aspect ratio.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite golden server corridor, smearing sky.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Gold reflections, red emergency pulses, smeared white highlights.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld shake, motion blur artifacts, high contrast.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy distortion, alarm sirens pulsing at 2Hz, tearing metal sounds, digital static white noise, deep bass rumble of failing infrastructure.
+Deep, rhythmic industrial thuds (hydraulic press speed), digital tearing sound, low frequency distortion alarm pulsing at 2Hz.
 
-## [ACT 1] [SCENE 1.2] [Timecode: 00:03-00:05] [THE CORE PROCESSOR]
-**Action:** The Prime Unit sits on a throne of spinning drives. A shockwave of distortion pulses outward.
+## [ACT 1] [SCENE 1.2] [Timecode: 00:03-00:06] [RIG COLLAPSE]
+**Action:** Enoch attempts to walk, but his Inverse Kinematics (IK) fail. His knees buckle unnaturally and clip through the obsidian floor.
 **Dialog:** -
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "CPU_Core_Level_0", "env_change": false, "actors": [{"name": "The_Prime_Unit", "phase": "Manifestation", "presence": "on_screen", "focus": "primary"}], "props": ["Throne of Hard Drives", "Fiber Optic Cables"], "camera": "Low Angle, looking up", "mood": ["awe", "terror"], "director_intent": "Show the overwhelming power source causing the instability.", "start_image_keywords": ["blinding white silhouette", "throne of hard drives"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "PRIME_SIT_01", "env_id": "CPU_CORE_THRONE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "full_body", "environment": "Upper_Heavens_Server_Cluster", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "High Angle, God-View looking down", "mood": ["pain", "failure"], "director_intent": "Show the physical body failing as a software rig collapse.", "start_image_keywords": ["Enoch collapsing", "legs clipping", "obsidian floor"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "ENOCH_IK_FAIL", "env_id": "HEAVEN_FLOOR", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A blindingly bright white silhouette of a humanoid entity sitting on a massive throne constructed from spinning hard-drive platters and cascading fiber-optic cables. The entity is composed of shifting ASCII characters and light. Low angle shot looking up, creating a sense of dominance. The lens appears cracked from the intensity of the light.
+High-angle top-down shot of Enoch in his Voyager silver-skin suit. He is collapsing mid-stride. His legs are bent at unnatural angles, with the knees physically clipping through the polished black obsidian floor geometry, creating no ripple, just a clean intersection error. His posture is broken. Dramatic top-down spotlight.
 ### 2. VIDEO PROMPT (Wan 2.5)
-A visible shockwave of heat and distortion ripples outward from the entity. The hard drive platters spin rapidly. The camera lens fractures virtually, creating spiderweb cracks on the screen. The light from the entity fluctuates in intensity.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Prime Unit, a non-corporeal entity of pure white light and scrolling data.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None, form is abstract light.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Throne room of the mainframe, cables hanging like vines.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blinding white core light, surrounding environment falls into deep shadow.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Low angle, lens flare, virtual lens cracking effect, high contrast.
+Enoch's body goes limp like a ragdoll. He hits the floor hard. His legs clip through the ground mesh. The physics simulation fails, causing him to jitter slightly upon impact.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, Voyager phase, silver skin.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Silver tech-suit, Idris gloves.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Black reflective floor, gold racks in periphery.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold white spotlight from above, deep shadows.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** High angle, physics simulation focus, sharp focus.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sub-woofer overload bass pulse, high-pitched hard drive spin-up whine, crackling energy.
+Sound of snapping metal (bone stress), heavy wet thud, glitchy static burst.
 
-## [ACT 1] [SCENE 1.3] [Timecode: 00:05-00:08] [TEXTURE FAILURE]
-**Action:** Enoch's silver skin desynchronizes. Macro-blocking artifacts on face. He stares at hands flickering in/out of existence.
+## [ACT 1] [SCENE 1.3] [Timecode: 00:06-00:09] [TEXTURE FAILURE]
+**Action:** Extreme close-up on Enoch's face. The silver skin texture melts due to Subsurface Scattering failure, revealing a grey wireframe skull for a split second.
 **Dialog:** -
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "CPU_Core_Level_0", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Idris-Gloves"], "camera": "POV (Enoch looking at hands)", "mood": ["panic", "disorientation"], "director_intent": "Convey the physical horror of data corruption on the user's avatar.", "start_image_keywords": ["Enoch hands", "digital artifacting", "silver skin"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "ENOCH_HANDS_LOOK", "env_id": "CPU_CORE_001", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Upper_Heavens_Server_Cluster", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Macro 85mm", "mood": ["horror", "dissolution"], "director_intent": "Visceral body horror interpreted as rendering error.", "start_image_keywords": ["melting silver skin", "wireframe skull", "glitch face"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "ENOCH_MELT", "env_id": "HEAVEN_BG_BLUR", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 2}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-First-person POV shot looking at Enoch's own hands. The skin is metallic silver, slick with sweat, but heavily corrupted by digital artifacts and macro-blocking squares. Parts of the fingers are transparent wireframes. The Golden Idris-Gloves are flickering. Depth of field focuses on the trembling hands, blurring the chaotic background.
+Macro extreme close-up of Enoch's face. The silver skin shader is turning into translucent liquid jelly, dripping off the bone. Underneath the melting skin, a grey polygonal wireframe skull is partially visible. The eyes are wide and entirely white. Beads of digital sweat are pixelating.
 ### 2. VIDEO PROMPT (Wan 2.5)
-The hands tremble violently. Sections of the skin texture pop in and out of existence, revealing the wireframe mesh underneath. Colorful square glitches flash across the surface of the hands. The camera shakes with the actor's breathing.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, silver-skin shader, pale and sweating.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** High-tech Idris gloves emitting unstable golden light.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred background of the server room.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Intermittent flashes from the gloves, environmental red alert lighting.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** POV, macro focus, chromatic aberration, glitch effects.
+The skin texture slides down his face like melting wax. The wireframe skull flashes in and out of visibility (z-fighting). Enoch's mouth opens in a silent scream. The image artifacts heavily with compression blocks.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, melting silver skin, wireframe underlay.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Corrupted suit collar.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred dark background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal glow from wireframe, flickering external red light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Macro lens, shallow depth of field, datamosh.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitch digital screeching, static interference, heavy breathing, heart beat monitor sound.
+High-pitch digital sine wave rising in pitch, wet slithering sound, static scream.
 
-## [ACT 1] [SCENE 1.4] [Timecode: 00:08-00:10] [IMPACT]
-**Action:** Enoch's IK fails. He drops like a ragdoll to the obsidian floor. Floor ripples like liquid mercury on contact.
+## [ACT 1] [SCENE 1.4] [Timecode: 00:09-00:15] [THE CORE OVERLOAD]
+**Action:** View of "The Head of Days". A central sphere of blinding white logic gates. Cooling drones (Angels) spin out of axis.
 **Dialog:** -
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "full_body", "environment": "CPU_Core_Level_0", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "High Angle Top-Down", "mood": ["defeat", "pain"], "director_intent": "Show the complete loss of motor control as a physics engine failure.", "start_image_keywords": ["Enoch collapsing", "obsidian floor", "liquid ripple"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "ENOCH_COLLAPSE", "env_id": "CPU_CORE_FLOOR", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "wide", "framing": "wide", "environment": "Core_Sanctuary", "env_change": true, "actors": [{"name": "The_Prime_Unit", "phase": "Manifestation", "presence": "on_screen", "focus": "primary"}], "props": ["Cooling Drones"], "camera": "Wide Symmetric, vibrating", "mood": ["overwhelming_power"], "director_intent": "Show the source of the crash: infinite processing power.", "start_image_keywords": ["white sphere", "fiber optics", "spinning drones"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "CORE_SPHERE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-High-angle top-down shot of Enoch collapsing onto a polished black obsidian floor. His body is limp. The point of impact on the floor creates a circular ripple effect like liquid mercury. Enoch wears a futuristic silver suit that is partially glitching.
+A singularity of blinding white light composed of billions of tiny logic gates and fiber-optic cables bunched together into a sphere. Surrounding it are concentric rings of metallic cooling drones (Angels), spinning violently. The light is so intense it blows out the center of the image. The environment is dark machinery.
 ### 2. VIDEO PROMPT (Wan 2.5)
-Enoch falls straight down, knees buckling instantly, hitting the floor with zero resistance (ragdoll physics). Upon impact, the solid floor liquifies into ripples that spread outward. He does not move after landing.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, Voyager phase.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Silver tech-suit, visor.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Reflective black floor, server rack reflections.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Reflections on the floor, red strobe light from above.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Top-down bird's eye view, physics simulation focus.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy metallic thud, wet liquid splash sound, electrical spark zaps.
-
-## [ACT 1] [SCENE 1.5] [Timecode: 00:10-00:15] [SYSTEM FREEZE]
-**Action:** Enoch lies twitching. The environment is "clipping". Geometry is unstable.
-**Dialog:** -
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "CPU_Core_Level_0", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Shaky Cam to Static Freeze", "mood": ["suspense", "broken"], "director_intent": "Create tension by freezing the chaos abruptly.", "start_image_keywords": ["Enoch twitching", "unstable geometry"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "ENOCH_TWITCH", "env_id": "CPU_CORE_001", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot of Enoch lying on the floor, body contorted. The geometry of the room is clipping; a server rack is intersecting through the floor. The image has a "paused video" quality with scanlines.
-### 2. VIDEO PROMPT (Wan 2.5)
-Enoch twitches spasmodically. The camera shakes violently and then abruptly freezes mid-frame. The environment jitters back and forth by a few frames (loop glitch).
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Damaged silver suit.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Glitching server room.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Stuttering light effects.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Shaky cam to freeze frame, digital noise.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Audio stuttering loop, glitching noise, sudden silence at the end.
-
-## [ACT 2] [SCENE 2.1] [Timecode: 00:15-00:17] [ADMIN DEPLOYMENT]
-**Action:** Michael appears instantly (1-frame ingress). Chrome skin reflecting the chaos. Stands perfectly still.
-**Dialog:** -
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "full_body", "environment": "CPU_Core_Level_0", "env_change": false, "actors": [{"name": "Michael", "phase": "Arch-Admin", "presence": "on_screen", "focus": "primary"}, {"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Holographic Wings"], "camera": "Ground level, Wide lens (14mm)", "mood": ["calm", "power"], "director_intent": "Introduce the Admin as a force of absolute order and stability.", "start_image_keywords": ["Archangel Michael", "chrome skin", "holographic wings"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "MICHAEL_STAND_01", "env_id": "CPU_CORE_001", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Low angle wide shot. Archangel Michael stands towering next to the collapsed Enoch. Michael has perfect chrome-plated skin and wings made of holographic projector arrays. He is perfectly still, contrasting with the chaotic background. The red chaos is reflected clearly in his chrome surface.
-### 2. VIDEO PROMPT (Wan 2.5)
-Michael does not move a muscle; he is a static object of perfection. His holographic wings shimmer with stable blue light. The camera pushes in slowly. The background chaos slows down in his presence.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael, tall, chrome skin, featureless perfection.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Holographic wings, metallic armor.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Server room, Enoch on floor.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cool white light emanating from Michael, overpowering the red.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 14mm wide lens, extreme sharpness, slow push-in.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Absolute silence, sucking vacuum sound, subtle cooling fan hum.
-
-## [ACT 2] [SCENE 2.2] [Timecode: 00:17-00:20] [HARD REBOOT]
-**Action:** Michael’s metal hand clamps Enoch’s shoulder. Green "System Restore" pulse travels through Enoch’s mesh. Red lights turn Cool White.
-**Dialog:** -
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "CPU_Core_Level_0", "env_change": false, "actors": [{"name": "Michael", "phase": "Arch-Admin", "presence": "on_screen", "focus": "primary"}, {"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Extreme Close-Up on contact point", "mood": ["restoration"], "director_intent": "Visualize the transfer of stability and data correction.", "start_image_keywords": ["metal hand on shoulder", "green energy pulse"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "MICHAEL_TOUCH", "env_id": "CPU_CORE_001", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme close-up of Michael's precision-machined chrome fingers gripping Enoch's shoulder. A bright green digital pulse travels from the metal fingers into Enoch's organic tissue. The texture of Enoch's suit transitions from corrupted noise to clean fabric at the contact point.
-### 2. VIDEO PROMPT (Wan 2.5)
-The green light spreads rapidly across Enoch's surface like a scanner. The ambient lighting in the background shifts instantly from flashing red to a stable, clinical cool white. The camera follows the green pulse.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael's hand, Enoch's shoulder.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Chrome fingers, silver suit.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Abstract background shifting color.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Green data light, background shift red to white.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Extreme close-up, color shift focus.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Capacitor charge-up whine, digital chime (positive feedback), heavy bass thrum resolving to a steady tone.
-
-## [ACT 2] [SCENE 2.3] [Timecode: 00:20-00:22] [RESTART]
-**Action:** Enoch gasps. Pixelation snaps to high-res. Eyes open with blue boot-up text scrolling on irises.
-**Dialog:** -
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "CPU_Core_Level_0", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Extreme Close-Up on Eyes", "mood": ["awakening"], "director_intent": "Capture the precise moment the system comes back online.", "start_image_keywords": ["Enoch eyes opening", "blue code in iris"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "ENOCH_WAKE", "env_id": "CPU_CORE_001", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme close-up of Enoch's eyes snapping open. The irises are glowing blue, with tiny scrolling text (boot logs) visible within the pupil. His skin is now perfectly smooth and high-resolution, covered in beads of sweat.
-### 2. VIDEO PROMPT (Wan 2.5)
-Enoch takes a sharp, deep breath (chest expansion). The eyes dilate rapidly. The scrolling text in the eyes moves fast and then disappears. The remaining pixelation on his face snaps instantly to realistic skin texture.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, Voyager phase.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Visor removed or transparent.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Clinical white reflection in eyes.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue eye glow, white facial lighting.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Extreme close-up, sharp focus on eyes.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Sharp pneumatic intake breath, boot-up sound effect (like a Mac startup but darker), subtle beep.
-
-## [ACT 2] [SCENE 2.4] [Timecode: 00:22-00:26] [HANDSHAKE]
-**Action:** Michael leans down. Telepathic transmission. Enoch stands, trembling.
-**Dialog:** M: "STATUS REPORT?" E: "SYSTEM CRITICAL."
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "CPU_Core_Level_0", "env_change": false, "actors": [{"name": "Michael", "phase": "Arch-Admin", "presence": "on_screen", "focus": "primary"}, {"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Over-The-Shoulder", "mood": ["authority", "submission"], "director_intent": "Establish the hierarchy between Admin and User.", "start_image_keywords": ["Michael leaning down", "Enoch standing up"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "MICHAEL_TALK_01", "env_id": "CPU_CORE_001", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "scene_2_4_dialog", "pose_source": "", "driver_notes": "Michael mouth does not move, telepathic. Enoch moves lips."}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot over Enoch's shoulder looking up at Michael. Michael leans in slightly, his face perfectly symmetrical and metallic, expressionless. Enoch is standing but hunched, looking up in awe and fear. The lighting is clean, sterile white.
-### 2. VIDEO PROMPT (Wan 2.5)
-Michael stares intensely but his mouth does not move. Enoch trembles and speaks, his breath visible in the cold air. Camera holds steady, emphasizing the stability of Michael vs the instability of Enoch.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael (Chrome), Enoch (Silver-skin).
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Michael's armor, Enoch's suit.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Server room background.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Clinical white, reflections.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** OTS shot, depth of field.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Pure sine wave tones for Michael's voice, trembling human voice for Enoch, low hum.
-
-## [ACT 2] [SCENE 2.5] [Timecode: 00:26-00:29] [HOLO-CONSOLE]
-**Action:** Michael raises hand. Complex 3D UI expands. Shows rotating wireframes: Sphere (Ocean) and Cube (Desert).
-**Dialog:** M: "DIAGNOSTICS."
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "close_up", "framing": "close_up", "environment": "CPU_Core_Level_0", "env_change": false, "actors": [{"name": "Michael", "phase": "Arch-Admin", "presence": "on_screen", "focus": "primary"}], "props": ["Holographic Console"], "camera": "Focus pull from Michael’s face to Hologram", "mood": ["analytical"], "director_intent": "Show the tools of the Admin.", "start_image_keywords": ["holographic interface", "wireframe sphere", "wireframe cube"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "MICHAEL_UI_GESTURE", "env_id": "CPU_CORE_001", "props": ["HOLO_UI"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 2}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Close-up of a complex 3D holographic interface floating in the air. In the center, a rotating blue wireframe sphere representing water, and a red wireframe cube representing earth. Michael's chrome fingers are manipulating the light. Background is blurred Michael's face.
-### 2. VIDEO PROMPT (Wan 2.5)
-Michael swipes his hand and the interface expands. The sphere and cube rotate and pulse with data. Text streams cascade down the sides. Rack focus from Michael's reflection in the UI to the UI elements themselves.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael's hand.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Hologram.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Air interface.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue and Red UI light, neon glow.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Shallow depth of field, rack focus.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-UI hum, data-stream chitter, high-tech swipe sounds.
-
-## [ACT 2] [SCENE 2.6] [Timecode: 00:29-00:35] [PARTITION: LEVIATHAN]
-**Action:** Underwater Server Farm. Massive eel of bioluminescent cables slithers through submerged towers.
-**Dialog:** -
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Underwater_Server_Farm", "env_change": true, "actors": [{"name": "Leviathan", "phase": "Data_Entity", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Wide tracking shot, underwater physics", "mood": ["mystery", "depth"], "director_intent": "Reveal the first data partition monster as a system component.", "start_image_keywords": ["Leviathan eel", "underwater server farm", "blue cables"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "LEVIATHAN_DEEP", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide cinematic underwater shot. A massive, eel-like creature made entirely of thick black cooling pipes and glowing blue bioluminescent cables slithers between submerged server towers. The water is viscous and dark blue. Bubbles and debris float in the current.
-### 2. VIDEO PROMPT (Wan 2.5)
-The Leviathan creature undulates smoothly through the water. Its cable-scales ripple. Camera tracks alongside it. The server lights in the background flicker as it passes. Physics simulation of heavy cables moving underwater.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Leviathan, mechanical eel.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Cables, pipes, lights.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Deep underwater data center.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Deep blue ambient, bright blue creature glow.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fluid motion, underwater distortion, particles.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Low frequency sonar ping, water displacement heavy thrum, bubbling.
-
-## [ACT 2] [SCENE 2.7] [Timecode: 00:35-00:41] [PARTITION: BEHEMOTH]
-**Action:** Infinite Red Desert Grid. A walking fortress of sandstone and silicon wafers takes a step. Dust = Binary code.
-**Dialog:** -
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Red_Desert_Grid", "env_change": true, "actors": [{"name": "Behemoth", "phase": "Data_Entity", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Aerial Drone (High Alt)", "mood": ["scale", "dry"], "director_intent": "Reveal the second data partition monster.", "start_image_keywords": ["Behemoth titan", "red desert", "silicon fortress"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "BEHEMOTH_DESERT", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Aerial drone shot of an infinite red desert grid. A colossal creature resembling a tardigrade mixed with a fortress made of sandstone and green silicon wafers stands in the center. Dust clouds around its feet are composed of floating binary code numbers (0s and 1s).
-### 2. VIDEO PROMPT (Wan 2.5)
-The Behemoth takes a slow, heavy step. The ground shakes. The dust clouds billow up, revealing the binary code particles. Sunlight glints off the silicon wafer armor plates.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Behemoth, rock/tech hybrid titan.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Stone armor, circuit board details.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite flat red desert with grid lines.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Harsh desert sun, orange and green palette.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** High altitude aerial, slow motion scale.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Earth-grinding stone friction, heavy impact boom, digital wind hiss.
-
-## [ACT 2] [SCENE 2.8] [Timecode: 00:41-00:45] [ANALYSIS]
-**Action:** Enoch watches the hologram reflection in his eyes. He tilts head, processing the data.
-**Dialog:** -
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "CPU_Core_Level_0", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Side Profile, Macro", "mood": ["learning"], "director_intent": "Show the user downloading the new understanding.", "start_image_keywords": ["Enoch profile", "eye reflection hologram"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "ENOCH_PROFILE_WATCH", "env_id": "CPU_CORE_001", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Side profile close-up of Enoch's face. He is calm now. The reflection of the blue Leviathan and red Behemoth holograms is clearly visible on his silver skin and in his glowing eye. He looks intrigued.
-### 2. VIDEO PROMPT (Wan 2.5)
-Enoch tilts his head slightly, analyzing the data. The reflections in his eye move. His expression is one of intense focus and processing. Subtle lighting shift across his face.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, profile.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Visor up/off.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark background.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Hologram light painting his face.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Macro lens, shallow depth of field.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Fast data-processing ticks, computer fan whirring.
-
-## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:48] [WEATHER ALGORITHM]
-**Action:** Wind visualization. White arrows flowing in turbulence patterns inside a glass tunnel.
-**Dialog:** -
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Atmospheric_Logic_Gate", "env_change": true, "actors": [], "props": ["Wind Data Stream"], "camera": "FPV Drone style", "mood": ["flow"], "director_intent": "Visualize the weather as a system process.", "start_image_keywords": ["wind arrows", "glass tunnel", "data visualization"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "WEATHER_TUNNEL", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Abstract visualization of wind. Thousands of white vector arrows flowing in complex turbulence patterns inside a massive transparent glass tunnel. The background is a dark void. The arrows glow with clean white light.
-### 2. VIDEO PROMPT (Wan 2.5)
-Fast FPV camera flight through the tunnel of wind vectors. The arrows flow around the camera like a fluid stream. The movement is smooth and mathematical.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
+The central sphere pulses rapidly, expanding and contracting. The cooling drones spin out of their axis, leaving trails of corrupted light. The camera vibrates violently as if shaken by a massive engine.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Prime Unit (Sphere).
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Glass tunnel in void.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** White vector light, reflections on glass.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fast motion, FPV drone style.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark mechanical void.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blinding central white, peripheral darkness.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** High contrast, overexposure, rapid movement.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Wind tunnel roar (controlled), whoosh sounds.
+Turbine engine spin-up to maximum RPM, overloaded bass distortion, electrical arcing.
 
-## [ACT 3] [SCENE 3.2] [Timecode: 00:48-00:51] [THUNDER CAPACITORS]
-**Action:** Massive copper coils discharge blue arcs. Silent white flash.
+## [ACT 2] [SCENE 2.1] [Timecode: 00:15-00:18] [SYSTEM HALT]
+**Action:** Michael appears instantly (0 frames transition). The chaotic environment freezes to absolute zero. Dust motes hang suspended.
 **Dialog:** -
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "medium", "framing": "medium", "environment": "Atmospheric_Logic_Gate", "env_change": false, "actors": [], "props": ["Thunder Coils"], "camera": "Static Tripod", "mood": ["energy"], "director_intent": "Show thunder as an electrical discharge mechanism.", "start_image_keywords": ["copper coils", "electrical discharge"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "THUNDER_COIL", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "low_angle", "framing": "full_body", "environment": "Upper_Heavens_Server_Cluster", "env_change": false, "actors": [{"name": "Michael", "phase": "Arch-Admin", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle, locked off", "mood": ["absolute_order"], "director_intent": "Introduce the Admin as the halt command.", "start_image_keywords": ["Michael chrome", "frozen dust", "low angle"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "MICHAEL_HALT", "env_id": "HEAVEN_FROZEN", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Massive industrial copper coils, resembling Tesla coils, standing in a dark chamber. They are charging up, glowing with intense orange heat from within. Blue electrical arcs connect the coils.
+Low angle hero shot of Arch-Admin Michael. He is a faceless humanoid construct of polished mirror-chrome and iridescent heatsink fins. He stands perfectly still. The background chaos is frozen in time; debris and dust motes are suspended in mid-air. The red emergency lights are reflected perfectly in his chrome surface.
 ### 2. VIDEO PROMPT (Wan 2.5)
-The coils pulse with energy. Suddenly, a massive discharge of blue lightning bridges the gap, followed by a screen-wiping silent white flash.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark machine room.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Orange glow, blue lightning, white flash.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static shot, high dynamic range.
+Absolute stillness. Michael does not move. The background does not move. Only the camera performs a very slow, smooth push-in. The contrast between the previous chaos and this freeze is stark.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael, Chrome Arch-Admin.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Chrome armor, heatsinks.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Frozen server room.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cool white light source from Michael, red background reflections.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** 14mm wide lens, extreme sharpness, frozen time.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Electrical snap (crisp), buzzing, silence on flash.
+Sudden absolute silence. A sucking vacuum sound followed by a very faint, clean cooling fan hum.
 
-## [ACT 3] [SCENE 3.3] [Timecode: 00:51-00:55] [MOON INTERFACE]
-**Action:** Mechanical sphere with shifting black panels reveals light source. Massive gears rotate.
+## [ACT 2] [SCENE 2.2] [Timecode: 00:18-00:24] [THE REBOOT]
+**Action:** Michael grabs Enoch’s wireframe hand. Green binary code scrolls up Enoch’s arm. Enoch’s textures snap back into high-fidelity.
 **Dialog:** -
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "medium", "framing": "medium", "environment": "Space_Interface", "env_change": true, "actors": [], "props": ["Moon Mechanism"], "camera": "Slow Push-In", "mood": ["mechanical"], "director_intent": "Show the moon as a mechanical device.", "start_image_keywords": ["mechanical moon", "shifting panels", "gears"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "MOON_MECH", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Upper_Heavens_Server_Cluster", "env_change": false, "actors": [{"name": "Michael", "phase": "Arch-Admin", "presence": "on_screen", "focus": "primary"}, {"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Orbiting the handshake", "mood": ["restoration"], "director_intent": "Visualize the data correction process.", "start_image_keywords": ["chrome hand gripping wireframe", "green code", "texture restoration"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "MICHAEL_LIFT", "env_id": "HEAVEN_FROZEN", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A giant mechanical sphere floating in space. It is covered in matte black interlocking panels. Behind the sphere, massive brass gears are visible. The panels are sliding open to reveal a soft, cold white light source inside the core.
+Medium shot of Michael's chrome hand firmly gripping Enoch's arm. Enoch's arm is partially wireframe and glitching. From the contact point, a wave of bright green binary code flows up Enoch's arm, replacing the wireframe with high-resolution silver fabric and realistic skin.
 ### 2. VIDEO PROMPT (Wan 2.5)
-The black panels slide mechanically, changing the phase of the moon. The gears in the background rotate slowly and heavily. The camera pushes in slowly towards the light.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Starless space.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold white light, matte black, brass reflections.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow controlled motion, industrial scale.
+The green data wave travels up Enoch's arm. As it passes, the glitching geometry snaps instantly into a solid, high-quality mesh. Enoch is pulled up from the floor.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael (Chrome), Enoch (Wireframe/Silver).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Tech suits.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Server room.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Green data light, chrome reflections.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Smooth camera orbit, focus on the arm.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Clockwork ticking, heavy gears grinding deep, hydraulic hiss.
+Computer startup chime (deep, base-boosted), rapid keyboard clatter, digital repair zaps.
 
-## [ACT 3] [SCENE 3.4] [Timecode: 00:55-00:57] [CLOSING]
-**Action:** Michael swipes the interface closed. Points forward to the "Path of Logic".
-**Dialog:** -
+## [ACT 2] [SCENE 2.3] [Timecode: 00:24-00:30] [THE QUERY]
+**Action:** OTS shot. Michael tilts his chrome visor. Reflections of scrolling logs are visible on his faceplate. Enoch trembles.
+**Dialog:** M: "WHY ART THOU DISQUIETED?"
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "CPU_Core_Level_0", "env_change": true, "actors": [{"name": "Michael", "phase": "Arch-Admin", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Medium Shot", "mood": ["direction"], "director_intent": "The lesson is over, proceed.", "start_image_keywords": ["Michael pointing", "interface closing"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "MICHAEL_POINT", "env_id": "CPU_CORE_001", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "Upper_Heavens_Server_Cluster", "env_change": false, "actors": [{"name": "Michael", "phase": "Arch-Admin", "presence": "on_screen", "focus": "primary"}, {"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Over-the-shoulder (Enoch foreground)", "mood": ["authority"], "director_intent": "Establish the Admin-User hierarchy.", "start_image_keywords": ["Michael visor reflection", "Enoch shoulder", "scrolling logs"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "MICHAEL_FACE_OFF", "env_id": "HEAVEN_FROZEN", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "scene_2_3_dialog", "pose_source": "", "driver_notes": "Michael has no mouth, audio is telepathic. Head tilt only."}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 4}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot of Michael. He performs a sweeping hand gesture, and the remaining holographic lights dissipate. He points his metal finger forward towards a perfectly symmetrical corridor of server racks.
+Over-the-shoulder shot from behind Enoch, looking at Michael's face. Michael has no eyes or mouth, just a smooth curved chrome visor. Reflected in the visor is Enoch's terrified face and scrolling blue system logs. Enoch's breath is condensing as steam in the cold air.
 ### 2. VIDEO PROMPT (Wan 2.5)
-Michael swipes right, extinguishing the holograms. He points forward authoritatively. His movement is smooth and robotic.
+Michael tilts his head slightly to the side, a robotic, inquisitive movement. The reflections on his visor warp with the movement. Enoch in the foreground trembles slightly.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael (Visor), Enoch (Shoulder).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Chrome vs Silver fabric.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Sterile white environment.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Clinical white, blue data reflection.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** OTS, shallow depth of field.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Michael's voice is a resonant frequency that vibrates the glass, low sub-bass hum.
+
+## [ACT 2] [SCENE 2.4] [Timecode: 00:30-00:35] [MERCY PROTOCOL]
+**Action:** Michael gestures. The frozen glitch-clouds dissolve into a clean UI grid overlay.
+**Dialog:** M: "PROTOCOL: DAY OF MERCY INITIALIZED."
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Upper_Heavens_Server_Cluster", "env_change": true, "actors": [{"name": "Michael", "phase": "Arch-Admin", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Whip Pan to Horizon", "mood": ["resolution"], "director_intent": "Clearing the error state.", "start_image_keywords": ["Michael gesture", "grid overlay", "clouds dissolving"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "MICHAEL_WAVE", "env_id": "HEAVEN_GRID", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "scene_2_4_dialog", "pose_source": "", "driver_notes": "Hand gesture drives the environment change."}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 5}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Medium shot of Michael sweeping his hand across the horizon. The smeared, glitching clouds in the background are dissolving into a clean, bright cyan laser-grid. The red lighting shifts to a calm, stable blue.
+### 2. VIDEO PROMPT (Wan 2.5)
+Michael's hand moves with precision. As it passes, the background glitches vanish and are replaced by the orderly grid. The lighting transition is instant and smooth.
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Michael.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Chrome armor.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Server room.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Return to stable white light.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Medium shot, clear action.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Transitioning skybox.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red to Blue shift, laser grid.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Clean motion, visual effects focus.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Interface power-down swoosh, subtle metallic clink.
+UI menu interaction clicks, a satisfying "systems nominal" chord.
 
-## [ACT 3] [SCENE 3.5] [Timecode: 00:57-01:00] [SYSTEM STABLE]
-**Action:** Enoch and Michael stand side by side. The Server Racks (Heavens) hum in alignment. Perfect symmetry.
+## [ACT 3] [SCENE 3.1] [Timecode: 00:35-00:42] [PARTITION: LEVIATHAN]
+**Action:** Underwater tracking shot. Leviathan, a bio-mech serpent of cooling pipes, uncoils in black fluid. Text: "CAPACITY: 99%".
 **Dialog:** -
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "ensemble", "shot_type": "wide", "framing": "wide", "environment": "CPU_Core_Level_0", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}, {"name": "Michael", "phase": "Arch-Admin", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Wide symmetry shot from behind", "mood": ["peace", "order"], "director_intent": "Final image of restored order.", "start_image_keywords": ["Enoch and Michael back view", "symmetrical server room"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "ENSEMBLE_BACK_VIEW", "env_id": "CPU_CORE_SYMMETRY", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Fluid_Dynamics_Partition", "env_change": true, "actors": [{"name": "Leviathan", "phase": "Data_Entity", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Underwater Tracking Shot", "mood": ["depth", "mystery"], "director_intent": "Reveal the backend cooling solution.", "start_image_keywords": ["Leviathan eel", "cooling pipes", "black water"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "LEVIATHAN_SWIM", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "media/badges/capacity_99.png", "blend": "screen", "opacity": 0.8, "position": "center", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide symmetrical shot from behind Enoch and Michael. They stand side-by-side looking down an infinite corridor of glowing gold server racks. Everything is perfectly aligned. No glitches. Cinematic one-point perspective (Kubrick style).
+Cinematic underwater shot in a deep, viscous black ocean. Leviathan is a massive serpent constructed from industrial black cooling pipes and bioluminescent blue liquid storage tanks. It is uncoiling. Bubbles and debris float in the current. A HUD overlay reads "CAPACITY: 99%".
 ### 2. VIDEO PROMPT (Wan 2.5)
-The two figures stand motionless. The lights on the servers pulse in perfect unison. A slow zoom out. Fade to black.
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch and Michael (backs).
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Full gear.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite corridor.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Gold and White stable lighting.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Perfect symmetry, slow zoom out.
+The serpent undulates slowly through the heavy liquid. The blue lights on its body pulse. The camera tracks alongside it, giving a sense of massive scale.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Leviathan (Mechanical Eel).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Pipes, tanks, blue lights.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Black underwater void.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bioluminescent blue, deep black.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Underwater distortion, particles, fluid simulation.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Server Room hum (stable/low), harmonious drone.
+Low frequency sonar pings, heavy hydraulic groans, bubbling water.
+
+## [ACT 3] [SCENE 3.2] [Timecode: 00:42-00:49] [PARTITION: BEHEMOTH]
+**Action:** Aerial drone shot. Behemoth, a silicon-wafer mountain titan, stands on a red grid desert. Dust (binary) blows off its back.
+**Dialog:** -
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Solid_State_Partition", "env_change": true, "actors": [{"name": "Behemoth", "phase": "Data_Entity", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Aerial Drone, orbiting high", "mood": ["scale", "dry"], "director_intent": "Reveal the backend storage solution.", "start_image_keywords": ["Behemoth titan", "silicon mountain", "red grid desert"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "BEHEMOTH_STAND", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+High altitude aerial drone shot of an infinite red grid desert. In the center stands Behemoth, a colossal quadruped fortress made of sandstone and iridescent green silicon wafers. It is motionless. Clouds of dust blowing off its back are composed of tiny binary numbers (0s and 1s).
+### 2. VIDEO PROMPT (Wan 2.5)
+The camera orbits the massive titan. It takes one slow, earth-shaking step. The binary dust billows in the wind. The sun glints off the circuit-board armor.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Behemoth (Silicon Titan).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Sandstone, silicon wafers.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Red grid desert.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Harsh orange sunlight, green reflections.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Aerial wide, slow motion scale.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Low frequency rumble (Earthquake), grinding stone, digital wind hiss.
+
+## [ACT 3] [SCENE 3.3] [Timecode: 00:49-00:55] [THE SEPARATION]
+**Action:** Split screen effect. Left: Leviathan in water. Right: Behemoth in desert. A laser wall divides them.
+**Dialog:** -
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "wide", "environment": "Split_Partition", "env_change": true, "actors": [], "props": [], "camera": "Split Screen Composition", "mood": ["duality"], "director_intent": "Show the separation of system resources.", "start_image_keywords": ["split screen", "water vs desert", "laser wall"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "SPLIT_SCREEN", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Abstract graphic composition split down the middle by a vertical bright white laser beam. Left side: Dark blue water with the mechanical Leviathan. Right side: Bright red desert with the silicon Behemoth. The contrast between fluid and solid is extreme.
+### 2. VIDEO PROMPT (Wan 2.5)
+The left side ripples with fluid dynamics. The right side is static and dusty. The central laser beam pulses with energy, maintaining the separation.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Leviathan and Behemoth.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Split biomes.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue vs Red, White divider.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Graphic design layout, high contrast.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Electrical hum (High voltage), bubbling left, wind right.
+
+## [ACT 3] [SCENE 3.4] [Timecode: 00:55-01:00] [ATMOSPHERIC INJECTION]
+**Action:** Montage of mechanisms. Turbine fans spin up (Wind). Moon gear rotates (Light).
+**Dialog:** -
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "close_up", "environment": "Atmospheric_Logic_Gate", "env_change": true, "actors": [], "props": ["Wind Turbines", "Moon Gear"], "camera": "Rapid Cuts, Macro", "mood": ["mechanical"], "director_intent": "The weather is a machine.", "start_image_keywords": ["wind turbine", "moon gears", "mechanical sky"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ATMOS_MECH", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Detailed macro shot of massive industrial turbine fans built into the fabric of the sky, spinning into a blur. Followed by a shot of the Moon as a black mechanical sphere with brass gears rotating to open an aperture, releasing white light.
+### 2. VIDEO PROMPT (Wan 2.5)
+The turbines spin up from stationary to full speed, generating white wind vectors. The moon gears grind heavily, locking into place. Mechanical precision.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Sky machinery.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** White wind lines, brass moon.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fast editing, macro details.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Rhythmic pneumatic hissing, heavy gear grinding, turbine whine.
+
+## [ACT 3] [SCENE 3.5] [Timecode: 01:00-01:05] [SYSTEM OPTIMIZED]
+**Action:** Enoch and Michael stand on the "Glass Grid". Horizon is a perfect gradient. Server racks hum synchronously. Dolly back.
+**Dialog:** -
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "ensemble", "shot_type": "wide", "framing": "wide", "environment": "Upper_Heavens_Server_Cluster", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}, {"name": "Michael", "phase": "Arch-Admin", "presence": "on_screen", "focus": "secondary"}], "props": [], "camera": "Wide, Symmetric, Dolly Back", "mood": ["peace", "order"], "director_intent": "Final image of restored system stability.", "start_image_keywords": ["Enoch and Michael", "glass grid", "perfect symmetry"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "ENSEMBLE_STABLE", "env_id": "HEAVEN_OPTIMIZED", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Wide symmetrical shot from behind Enoch and Michael standing side-by-side on a transparent glass floor grid. Below the glass, infinite data streams flow. Above, the server racks form a perfect perspective corridor. The lighting is soft, diffuse, and perfectly balanced.
+### 2. VIDEO PROMPT (Wan 2.5)
+Slow, steady dolly back. The two figures are motionless, observing the perfection of the system. The server lights pulse gently in unison. No glitches.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch and Michael (Backs).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Full gear.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Optimized server corridor.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft white, blue ambient.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** One-point perspective, smooth motion.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Steady, calming server fan hum, harmonious drone, fade out.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.3","text":"Mein Fleisch... es löst sich auf.","words_max":6},{"scene":"2.3","text":"Neustart. Ich atme wieder.","words_max":5}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.3","text":"Mein Fleisch... der Code überschreibt mich.","words_max":6},{"scene":"2.3","text":"Neustart. Ich sehe die Struktur.","words_max":5}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}

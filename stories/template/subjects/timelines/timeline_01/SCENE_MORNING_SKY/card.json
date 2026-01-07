@@ -1,0 +1,100 @@
+{
+  "id": "SCENE_MORNING_SKY",
+  "name": "Morning Sky",
+  "type": "scene",
+  "card": {
+    "description": "A cinematic, photorealistic dawn sky over an ancient Ethiopian‑Egyptian landscape, rendered with a deep indigo zenith fading into warm amber at the horizon. The sky is a living tapestry of bio‑luminescent glyphs etched into swirling cloud formations, crystalline spires rising from the horizon like obsidian obelisks, and subtle industrial hums that ripple through the atmosphere. The scene blends grounded realism with incomprehensible technology, evoking ancient mysticism and industrial awe.",
+    "tags": [
+      "sky",
+      "ancient-tech",
+      "industrial-mysticism",
+      "photorealistic",
+      "dawn",
+      "Ethiopian",
+      "Egyptian",
+      "glyphs",
+      "crystalline",
+      "bio-luminescence"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Vast sky expanse with a gradient from deep indigo at the zenith to warm amber near the horizon, punctuated by fractal cloud wisps.",
+      "**Face/Sensors:** Embedded luminescent glyphs act as atmospheric sensors, shifting with humidity and temperature.",
+      "**Clothing/Armor:** Not applicable.",
+      "**Key Features:** Luminous glyph‑etched clouds, crystalline spires (30‑50 m tall, faceted like obsidian), bio‑luminescent auroras, subtle industrial hum."
+    ],
+    "evolution": [
+      "Phase 1 (Default): Dawn sky with luminous glyphs, crystalline spires, and bio‑luminescent auroras."
+    ],
+    "props": [
+      "Item: Crystalline spire formations rising from the horizon, 30‑50 m tall, faceted like obsidian, reflecting dawn light.",
+      "Item: Glyph‑laden cloud formations, swirling patterns of bioluminescent light that pulse with atmospheric changes."
+    ],
+    "prompt_keywords": [
+      "ancient",
+      "Ethiopian",
+      "Egyptian",
+      "glyphs",
+      "crystalline",
+      "industrial",
+      "mysticism",
+      "photorealistic",
+      "dawn",
+      "sky",
+      "bio-luminescence"
+    ],
+    "prompt_block": "A cinematic, photorealistic dawn sky over an ancient Ethiopian‑Egyptian landscape, with a deep indigo zenith fading into warm amber at the horizon, luminous glyphs etched into swirling cloud formations, crystalline spires rising from the horizon like obsidian obelisks, bio‑luminescent auroras dancing across the sky, and a subtle industrial hum that ripples through the atmosphere, all rendered with grounded realism and tactile detail.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Dawn sky with luminous glyphs and crystalline spires.",
+        "prompt_keywords": [
+          "ancient",
+          "Ethiopian",
+          "Egyptian",
+          "glyphs",
+          "crystalline",
+          "industrial",
+          "mysticism",
+          "photorealistic",
+          "dawn",
+          "sky",
+          "bio-luminescence"
+        ],
+        "prompt_block": "A cinematic, photorealistic dawn sky over an ancient Ethiopian‑Egyptian landscape, with a deep indigo zenith fading into warm amber at the horizon, luminous glyphs etched into swirling cloud formations, crystalline spires rising from the horizon like obsidian obelisks, bio‑luminescent auroras dancing across the sky, and a subtle industrial hum that ripples through the atmosphere, all rendered with grounded realism and tactile detail."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_MORNING_SKY",
+    "name": "Morning Sky",
+    "type": "scene",
+    "aliases": [
+      "Morning Sky"
+    ],
+    "roles": [
+      "sky"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_655"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 80,
+        "chapter_end": 80,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

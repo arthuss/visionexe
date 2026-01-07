@@ -1,0 +1,38 @@
+## [SET_ENVIRONMENT] water (ID: SETENV_WATER)
+**Description:** A cinematic, ancient‑tech water environment that transforms across the narrative, fusing fluid dynamics with crystalline glyphs, basaltic architecture, and industrial mysticism. In Phase 1 the river is a lattice of perfectly aligned blue spheres, echoing a simulation of water yet grounded in tactile realism. Phase 2 shifts to high‑velocity coolant canals carved into black basalt, their surfaces veiled in vapor and illuminated by golden glyphs. Phase 3 expands into an unknowable, possibly apocalyptic or sacred water manifestation, hinted by the presence of a simulation visualizer and chaotic waveforms. The asset embodies the fusion of Ethiopian/Egyptian motifs with incomprehensible technology, rendered photorealistically with a serious, tactile tone.
+**Tags:** #ancient-tech #industrial-mysticism #photorealistic #fluid-spheres #crystalline-glyphs #basalt-canal #golden-gold #simulation #fog #bioluminescence
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** In Phase 1, the river surface is a continuous grid of millions of identical translucent blue spheres, each reflecting light like a miniature prism, moving in perfectly straight lines without turbulence. In Phase 2, the body becomes a series of angular, high‑speed coolant channels cut into black basalt, with a slick, glass‑like water surface that shimmers under blue bioluminescent vapor. In Phase 3, the form expands into a vast, chaotic wavefield rendered as a wireframe mesh of blue and white lines over a black background, simulating a tsunami in mathematical abstraction.
+*   **Face/Sensors:** Embedded crystalline glyphs along the riverbanks and canal walls act as sensors, pulsing golden light in response to environmental changes and the presence of actors. The glyphs are etched in a pattern reminiscent of ancient Ethiopian script, yet their luminescence follows modern quantum‑dot technology.
+*   **Clothing/Armor:** Not applicable to the environment itself, but the surrounding basalt walls are adorned with etched sigils that glow faintly, providing a subtle armor‑like protective aura to the water surface.
+*   **Key Features:** • Perfectly aligned blue spheres (Phase 1) • High‑velocity coolant flow with vapor haze (Phase 2) • Wireframe wave simulation (Phase 3) • Crystalline glyphs emitting golden bioluminescence • Black basalt architecture with mossy stone accents (Phase 1) • Industrial cold aesthetic with vapor fog (Phase 2)
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (River of Spheres): The environment is a serene, mathematically precise river composed of millions of identical blue spheres, each reflecting light like a prism. The banks are realistic mossy stone, creating a stark contrast between the simulation and the natural setting.
+*   Phase 2 (Coolant Canals): The river transforms into a series of high‑speed coolant channels carved into black basalt. Glowing blue coolant rushes through, surrounded by thick white vapor that forms geometric cymatic patterns when disturbed by sound. The aesthetic shifts to an industrial, cold atmosphere with golden glyphs illuminating from below.
+
+### 3. PROPS & EQUIPMENT
+*   Item: Blue Spheres – translucent, prism‑like particles forming the river surface
+*   Item: Crystalline Glyphs – etched on basalt walls, pulsing golden light
+*   Item: Vapor Fog – white, nitrogen‑like haze enveloping the coolant canals
+*   Item: Golden Code Tablet – scrollable glyphs displayed on an obsidian tablet
+
+### 4. AI PROMPT KEYWORDS
+`ancient-tech`, `crystalline-glyphs`, `basalt`, `bioluminescence`, `simulation`, `wireframe-wave`, `coolant-canal`, `golden-gold`, `fog`, `photorealistic`
+
+### 5. PROMPT BLOCK (T2I)
+Cinematic, photorealistic depiction of an ancient‑tech water environment that morphs across phases: a river of perfectly aligned blue spheres reflecting light like prisms, transitioning into high‑speed coolant canals carved into black basalt with vapor haze and golden glyphs, and culminating in a chaotic wireframe wavefield over a black background, all rendered with tactile realism and industrial mysticism.
+
+### 6. PHASE PROMPTS
+*   **Phase 1:** River of perfectly aligned blue spheres over mossy stone banks, no turbulence, stark contrast with realistic stone.
+    Prompt: Vertical 9:16 cinematic shot of a river surface composed of millions of identical translucent blue spheres moving in perfectly straight lines, reflecting light like prisms, with realistic mossy stone banks providing a stark contrast, rendered photorealistically.
+    Keywords: river, blue spheres, mossy stone, no turbulence, photorealistic
+*   **Phase 2:** High‑speed coolant canals in black basalt, vapor haze, golden glyphs, industrial cold aesthetic.
+    Prompt: Vertical 9:16 cinematic shot of massive geometric canals cut into black basalt rock, glowing blue coolant fluid rushing through at high speed, thick white vapor hanging over the surface, illuminated by golden glyphs etched into the walls, industrial cold aesthetic, photorealistic.
+    Keywords: coolant canals, black basalt, vapor haze, golden glyphs, industrial cold
+*   **Phase 3:** Chaotic wireframe wavefield over black background, simulating a tsunami, with mathematical abstraction and golden accents.
+    Prompt: Vertical 9:16 cinematic shot of an infinite white floor grid deforming into massive chaotic waves, rendered as a wireframe mesh of blue and white lines on black, simulating a tsunami in mathematical abstraction, with subtle golden accents highlighting the wave peaks, photorealistic.
+    Keywords: wireframe wave, black background, tsunami simulation, golden accents, mathematical abstraction
+
+---

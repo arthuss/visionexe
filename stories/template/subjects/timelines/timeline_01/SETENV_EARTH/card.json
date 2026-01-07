@@ -1,0 +1,196 @@
+{
+  "id": "SETENV_EARTH",
+  "name": "earth",
+  "type": "set_environment",
+  "card": {
+    "description": "Earth is rendered as a living, data‑laden planet where ancient Ethiopian and Egyptian iconography is fused with incomprehensible, crystalline technology. The surface is a layered, photorealistic sphere, its continents etched with luminous glyphs and its oceans overlaid by a translucent green vector grid. Cracks in the valley floor expose a black void filled with data stars and grid lines, while a glowing obsidian rock glitches between low‑poly and photorealistic shading. The environment is illuminated by harsh, cinematic sunlight, producing subtle lens flares and a tactile sense of industrial mysticism.",
+    "tags": [
+      "planetary_surface",
+      "ancient-tech",
+      "data_grid",
+      "glitch",
+      "mysticism",
+      "photorealistic",
+      "grounded_realism"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Terrestrial sphere with stratified layers of basaltic crust, sedimentary plains, and a translucent crystalline equatorial belt.",
+      "**Face/Sensors:** Continent‑wide glyphs of ancient Ethiopian and Egyptian motifs, glowing in bioluminescent blue‑green, acting as data conduits.",
+      "**Clothing/Armor:** A translucent green vector grid that overlays oceans and land, resembling a lattice of crystalline filaments, reflecting sunlight with subtle iridescence.",
+      "**Key Features:** Valley floor split by a perfect straight crack revealing a black void filled with data stars and grid lines; a single obsidian rock with glitching low‑poly facets; hard sunlight creating lens flares; 8K resolution, 9:16 vertical aspect."
+    ],
+    "evolution": [
+      "Phase 1 (ch1‑36): Natural Earth with faint glyphs and a nascent green vector grid; cracks begin to form.",
+      "Phase 2 (ch37‑72): Green vector grid fully manifests; cracks deepen, exposing the black void; glitching obsidian rock becomes prominent.",
+      "Phase 3 (ch73‑108, unknown): Earth’s surface fully integrated with crystalline lattice; glyphs glow intensely; data grid dominates, potentially overlaying the entire planet."
+    ],
+    "props": [
+      "Item: Green Vector Grid – translucent crystalline lattice covering oceans and land.",
+      "Item: Obsidian Slate – a black obsidian tablet with a wireframe map.",
+      "Item: Glitching Rock – a single rock with low‑poly glitch facets.",
+      "Item: Merkabah Field – a translucent tetrahedral field hovering above Earth."
+    ],
+    "prompt_keywords": [
+      "ancient Ethiopian",
+      "Egyptian",
+      "data glyph",
+      "crystalline lattice",
+      "photorealistic",
+      "grounded realism",
+      "industrial mysticism"
+    ],
+    "prompt_block": "A photorealistic, cinematic depiction of Earth’s surface as a living, data‑laden planet, featuring ancient Ethiopian and Egyptian motifs etched into the continents, a translucent green vector grid overlaying the planet, cracks in the valley floor revealing a black void filled with data stars and grid lines, a glowing obsidian rock with glitching low‑poly facets, all illuminated by harsh sunlight and subtle lens flares, rendered in 8K resolution, 9:16 vertical aspect ratio, grounded realism, industrial mysticism, no cartoon or generic sci‑fi elements.",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "Earth in its natural state with faint glyphs and a nascent green vector grid; cracks begin to form.",
+        "prompt_keywords": [
+          "natural Earth",
+          "faint glyphs",
+          "nascent vector grid",
+          "crack formation",
+          "photorealistic"
+        ],
+        "prompt_block": "A photorealistic, cinematic depiction of Earth’s surface in its natural state, with ancient Ethiopian and Egyptian motifs subtly etched into the continents, a faint green vector grid emerging over the oceans, a valley floor with a perfect straight crack revealing a black void filled with data stars, all under harsh sunlight, 8K, 9:16."
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "Green vector grid fully manifests; cracks deepen, exposing the black void; glitching obsidian rock becomes prominent.",
+        "prompt_keywords": [
+          "full vector grid",
+          "deep cracks",
+          "black void",
+          "glitching obsidian",
+          "photorealistic"
+        ],
+        "prompt_block": "A photorealistic, cinematic depiction of Earth’s surface during Phase 2, with a fully formed translucent green vector grid covering the planet, cracks in the valley floor exposing a black void with data stars and grid lines, a glowing obsidian rock with glitching facets, all illuminated by hard sunlight, 8K, 9:16."
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "Earth’s surface fully integrated with crystalline lattice; glyphs glow intensely; data grid dominates the planet.",
+        "prompt_keywords": [
+          "crystalline lattice",
+          "glowing glyphs",
+          "dominant data grid",
+          "photorealistic",
+          "industrial mysticism"
+        ],
+        "prompt_block": "A photorealistic, cinematic depiction of Earth’s surface in Phase 3, where the entire planet is overlaid by a crystalline green lattice, ancient glyphs blaze with bioluminescent intensity, and the black void expands to cover vast regions, all bathed in harsh, cinematic sunlight, 8K, 9:16."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_EARTH",
+    "name": "earth",
+    "type": "set_environment",
+    "aliases": [
+      "Earth",
+      "earth"
+    ],
+    "roles": [
+      "ambient",
+      "background",
+      "environment",
+      "ground",
+      "location",
+      "natural element",
+      "natural setting",
+      "natural surface",
+      "planetary surface",
+      "setting",
+      "setting for all interactions",
+      "unknown"
+    ],
+    "visual_traits": [
+      "ground",
+      "ground, terrestrial",
+      "natural ground",
+      "solid ground",
+      "unknown"
+    ],
+    "changes": [
+      "unknown"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1023",
+      "row_1026",
+      "row_1034",
+      "row_1040",
+      "row_121",
+      "row_126",
+      "row_143",
+      "row_150",
+      "row_153",
+      "row_302",
+      "row_311",
+      "row_322",
+      "row_347",
+      "row_354",
+      "row_355",
+      "row_366",
+      "row_378",
+      "row_427",
+      "row_463",
+      "row_476",
+      "row_507",
+      "row_51",
+      "row_559",
+      "row_567",
+      "row_604",
+      "row_691",
+      "row_693",
+      "row_7",
+      "row_70",
+      "row_72",
+      "row_721",
+      "row_727",
+      "row_731",
+      "row_74",
+      "row_84",
+      "row_866",
+      "row_883",
+      "row_921"
+    ],
+    "occurrence_count": 55,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 1,
+        "chapter_end": 36,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 37,
+        "chapter_end": 72,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 73,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "unknown"
+        ]
+      }
+    ]
+  }
+}

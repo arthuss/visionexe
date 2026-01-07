@@ -8,10 +8,10 @@ NARRATOR_TEXT: In jenen Tagen sah ich, wie die Erde sich neigte und ihre Zerstö
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "insert", "framing": "extreme_close_up", "environment": "Geometric Forest Ground", "env_change": false, "actors": [{"name": "Noah", "phase": "Instance 2.0", "presence": "off_screen", "focus": "secondary"}], "props": ["Frozen Sweat Drop"], "camera": "100mm Macro, low angle", "mood": ["tension", "unnatural"], "director_intent": "Show physics failure through a small, impossible detail.", "start_image_keywords": ["shattered liquid", "frozen drop", "macro ground"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "insert", "framing": "extreme_close_up", "environment": "Geometric Forest Ground", "env_change": false, "actors": [{"name": "Noah", "phase": "Instance 2.0", "presence": "off_screen", "focus": "secondary"}], "props": ["Frozen Sweat Drop"], "camera": "100mm Macro, low angle", "mood": ["tension", "unnatural"], "director_intent": "Show physics failure through a small, impossible detail.", "start_image_keywords": ["shattered liquid", "frozen drop", "macro ground"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Macro photography of a single drop of liquid hitting dusty ground, but instead of splashing, it is shattering into jagged crystalline shards like broken glass. High contrast, sharp focus on the shards. The liquid looks like liquid nitrogen, emitting faint cold vapor. 9:16 aspect ratio, hyper-realistic texture, cinematic lighting, shallow depth of field.
+Macro photography of a single drop of liquid hitting dusty ground, but instead of splashing, it is shattering into jagged crystalline shards like broken glass. High contrast, sharp focus on the shards. The liquid looks like liquid nitrogen, emitting faint cold vapor. The ground texture is hyper-realistic dry earth, 8k resolution. Cinematic lighting, shallow depth of field. 9:16 aspect ratio.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None (Object focus).
@@ -33,7 +33,7 @@ Distinct sound of thin glass shattering on stone. Followed by a deep, low-freque
 REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "The Tilted World", "env_change": true, "actors": [], "props": [], "camera": "14mm Wide, Extreme Dutch Angle", "mood": ["disorientation", "awe"], "director_intent": "Establish the global scale of the catastrophe.", "start_image_keywords": ["tilted horizon", "shearing clouds", "vector glitch"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-A massive landscape shot where the horizon line is tilted violently at 45 degrees. Mountains in the distance are rotating on the wrong axis. The clouds in the sky are smearing horizontally like a corrupted video file. Dark, ominous atmosphere. Industrial mysticism style. 9:16 vertical composition.
+A massive landscape shot where the horizon line is tilted violently at 45 degrees relative to the frame. Mountains in the distance are rotating on the wrong axis, clipping into each other. The clouds in the sky are smearing horizontally like a corrupted video file texture. Dark, ominous atmosphere. Industrial mysticism style. 9:16 vertical composition.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
@@ -60,7 +60,7 @@ Noah, an ancient man in torn linen robes, stumbling forward in a dark forest. He
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah, elderly but strong, distressed. Skin showing Z-fighting texture flickering.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Torn, dirty linen tunic.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Forest with trees that look slightly geometric/low-poly in the background.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Forest with trees that look slightly geometric in the background.
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Pulsating red ambient warning light.
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Tracking shot, handheld style. The character runs forward, snaps back a meter instantly, and runs again (rubber-banding effect).
 
@@ -165,7 +165,7 @@ A thunderous, digital impact sound. Like a massive server rack powering up (deep
 REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "Inside the Beam", "env_change": true, "actors": [{"name": "Enoch", "phase": "Admin Stream", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Slow Push-In", "mood": ["divine", "synthetic"], "director_intent": "Visualize the transition from data to matter.", "start_image_keywords": ["Enoch forming", "light body", "translucent skin"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Enoch forming out of pure white light. His body is half-translucent, revealing a skeleton made of gold circuitry. His skin is pale and perfect, materializing from the light. He wears robes made of falling golden text characters. Divine technology aesthetic. 9:16 vertical.
+Enoch forming out of pure white light. His body is half-translucent, revealing a skeleton made of gold circuitry. His skin is pale frosted silicate, materializing from the light. He wears robes made of falling golden text characters. Divine technology aesthetic. 9:16 vertical.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch. Translucent holographic skin solidifying into photorealistic flesh. Gold internal data-skeleton visible briefly.
@@ -209,7 +209,7 @@ Dead silence/room tone in the foreground. Muffled, heavy destruction sounds in t
 REGIE_JSON: {"subject": "actor", "shot_type": "over_shoulder", "framing": "medium", "environment": "Stabilization Zone", "env_change": false, "actors": [{"name": "Enoch", "phase": "Admin Stream", "presence": "on_screen", "focus": "primary"}, {"name": "Noah", "phase": "Instance 2.0", "presence": "off_screen", "focus": "secondary"}], "props": [], "camera": "Over The Shoulder", "mood": ["intimidating"], "director_intent": "Establish the hierarchy and telepathic communication.", "start_image_keywords": ["Enoch face", "glowing eyes", "admin look"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "liveportrait", "audio_id": "enoch_telepathy", "pose_source": "", "driver_notes": "Minimal lip movement, mostly eye intensity"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 6}
 
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Over the shoulder shot looking at Enoch from Noah's perspective. Enoch's face is serene, almost expressionless, but his eyes are glowing with complex ring-patterns (HUDs). His hair consists of static white fiber-optic strands. 9:16 vertical.
+Over the shoulder shot looking at Enoch from Noah's perspective. Enoch's face is serene, almost expressionless, but his eyes are glowing with complex ring-patterns (HUDs). His hair consists of static white fiber-optic strands carrying light. 9:16 vertical.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch.

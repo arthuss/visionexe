@@ -1,0 +1,38 @@
+## [SET_ENVIRONMENT] field (ID: SETENV_FIELD)
+**Description:** A sprawling field that marries the rugged, sun‑baked plains of ancient Ethiopia with the towering, crystalline infrastructure of an incomprehensible technology. The loamy soil is etched with luminous glyphs that pulse faintly, while crystalline irrigation channels snake across the terrain, channeling solar energy into the earth. In the foreground, a worker in a simple, woven tunic grips a gleaming steel hoe, its polished surface reflecting the harsh midday sun. Above the field, a bright yellow dashed holographic line arcs from the worker's hand to the ground, marking the perfect swing path. Augmented Reality HUD elements flicker in the corners of the worker's vision, overlaying data about soil composition and tool efficiency.
+**Tags:** #field #ancient-tech #industrial-mysticism #photorealistic #tactile #Ethiopian #Egyptian #holographic #glyphs
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** The terrain is a gently rolling plain of loamy soil, interspersed with stone terraces carved in the style of ancient Ethiopian rock‑hewn churches. The ground is punctuated by crystalline irrigation channels that refract sunlight into a spectrum of colors.
+*   **Face/Sensors:** Embedded sensor arrays beneath the soil surface emit a soft bioluminescent glow, monitoring moisture and nutrient levels.
+*   **Clothing/Armor:** The field is covered by a semi‑translucent, woven lattice of bio‑silk that protects crops from dust while allowing light to penetrate.
+*   **Key Features:** Luminous glyphs etched into the soil, holographic swing paths, AR HUD overlays, crystalline irrigation, solar panels integrated into terraces, bio‑luminescent sensor arrays.
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Ch15‑14): The field is a natural, sun‑lit plain with subtle glyphs and a single steel hoe. The environment is largely untouched, with only minimal technological integration.
+*   Phase 2 (Ch15‑14): Advanced irrigation channels appear, holographic lines become visible, and AR HUD overlays start to populate the scene. The field begins to show signs of mechanized precision.
+*   Phase 3 (Ch15‑15 unknown): The field fully integrates with the advanced tech, becoming a living, bio‑luminescent entity that responds to the worker's movements, with the holographic lines and sensor arrays becoming active in real time.
+
+### 3. PROPS & EQUIPMENT
+*   Item: Steel Hoe – a polished, silver tool with a sleek handle, reflecting the sun.
+*   Item: Solar Panel Array – integrated into the stone terraces, harvesting solar energy.
+*   Item: Crystalline Irrigation Channel – a network of translucent, crystal‑like conduits that channel water and energy.
+
+### 4. AI PROMPT KEYWORDS
+`ancient-tech`, `Ethiopian`, `Egyptian`, `photorealistic`, `field`, `holographic`, `glyphs`, `crystalline`, `solar`, `bio-luminescent`
+
+### 5. PROMPT BLOCK (T2I)
+A cinematic, photorealistic field set in a sun‑baked plain that blends ancient Ethiopian and Egyptian stone terraces with advanced crystalline irrigation channels, luminous glyphs etched into loamy soil, a gleaming steel hoe held by a worker in a woven tunic, bright yellow dashed holographic swing path arcing from the hoe to the ground, augmented reality HUD overlays in the corners, bioluminescent sensor arrays pulsing beneath the soil, all rendered with tactile detail and grounded realism.
+
+### 6. PHASE PROMPTS
+*   **Phase 1:** Natural field with minimal tech, worker with steel hoe.
+    Prompt: A sun‑lit field with loamy soil, stone terraces, subtle luminous glyphs, a worker in a woven tunic holding a polished steel hoe, no holographic lines visible, the environment appears largely natural with only a single tool.
+    Keywords: ancient-tech, Ethiopian, Egyptian, photorealistic, field, steel hoe, glyphs
+*   **Phase 2:** Field with advanced irrigation, holographic lines, AR HUD.
+    Prompt: The field now features crystalline irrigation channels, bright yellow dashed holographic swing path from the worker's steel hoe, augmented reality HUD overlays in the corners, bioluminescent sensor arrays pulsing beneath the soil, the worker's tool glinting under midday sun.
+    Keywords: ancient-tech, Ethiopian, Egyptian, photorealistic, field, holographic, solar, crystalline
+*   **Phase 3:** Fully integrated, bio‑luminescent field, responsive to worker.
+    Prompt: The field becomes a living entity, with glyphs glowing brighter, holographic lines pulsing in real time, sensor arrays reacting to the worker's movements, the steel hoe's swing path traced by a dynamic holographic line, AR HUD providing real‑time data, the crystalline irrigation channels glowing with solar energy.
+    Keywords: ancient-tech, Ethiopian, Egyptian, photorealistic, field, holographic, bio-luminescent, sensor arrays
+
+---

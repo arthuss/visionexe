@@ -1,0 +1,10 @@
+## [STATE] Scene 1: Command :: Default
+**State ID:** default
+**Chapters:** 65 - 65
+
+**Phase Summary:** Command throne in its standard operational state.
+**Phase Keywords:** command_throne, basalt, copper_filaments, crystalline_core, holographic_projection
+**Phase Prompt:**
+A towering command throne in its standard operational state, basalt pillar with carved lion’s head, copper filaments, crystalline core emitting blue glow, obsidian eyes as sensors projecting holographic maps, lattice of copper alloy plates etched with ancient glyphs, bio‑luminescent moss, pressure‑sensitive seat, cinematic photorealistic, tactile textures, ancient Ethiopian and Egyptian aesthetics, advanced technology, industrial mysticism, grounded realism, subtle reflections, cinematic depth of field.
+
+---

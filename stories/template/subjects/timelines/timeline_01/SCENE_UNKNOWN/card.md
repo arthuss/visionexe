@@ -1,0 +1,31 @@
+## [SCENE] Unknown (ID: SCENE_UNKNOWN)
+**Description:** A vast, sun-scorched plateau in the highlands of ancient Ethiopia, where colossal stone monoliths etched with hieroglyphic-like glyphs rise from the cracked earth. Interwoven with the stone are crystalline conduits and humming energy cores, their surfaces etched with luminous runes that pulse in a rhythm that feels both ritualistic and computational. The air is thick with dust motes that catch the late-afternoon light, creating a shimmering haze over the landscape. The scene feels simultaneously timeless and otherworldly, as if the ancient builders had harnessed a technology beyond contemporary understanding.
+**Tags:** #ancient-tech #industrial-mysticism #Ethiopian-Egyptian #photorealistic #landscape #grounded-realism
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Terrain:** Rugged plateau with fissured basalt, scattered stone cairns, and a network of shallow channels that funnel dust and water.
+*   **Structures:** Massive monolithic pillars (10‑15 m tall) carved from obsidian and basalt, bearing intricate glyphs that glow faintly; integrated energy conduits of translucent crystal that snake across the stone.
+*   **Atmosphere:** Dust‑laden air, golden hour light filtering through a low horizon, creating long shadows and a warm, amber glow.
+*   **Key Features:** Holographic glyphs, crystalline energy cores, solar‑absorbing panels disguised as stone slabs, ancient irrigation channels with embedded sensors.
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Initial): The plateau is dominated by unlit monoliths and dormant conduits, with subtle bioluminescent glyphs barely visible.
+*   Phase 2 (Active): The glyphs flare, crystalline cores hum, and the solar panels absorb light, casting dynamic reflections across the dust.
+
+### 3. PROPS & EQUIPMENT
+*   Item: Obsidian monolith with glowing glyphs
+*   Item: Translucent crystal conduit network
+*   Item: Solar‑absorbing stone slab array
+
+### 4. AI PROMPT KEYWORDS
+`ancient`, `technology`, `Ethiopian`, `Egyptian`, `photorealistic`, `landscape`, `dust`, `crystal`, `glyphs`
+
+### 5. PROMPT BLOCK (T2I)
+A vast, sun‑scorched Ethiopian plateau at golden hour, featuring colossal obsidian and basalt monoliths etched with luminous glyphs, interwoven with translucent crystal conduits and humming energy cores, dust motes suspended in warm amber light, photorealistic, grounded realism, ancient‑tech industrial mysticism, cinematic lighting, tactile textures, ancient Ethiopian and Egyptian aesthetic fusion, intricate hieroglyphic‑like runes pulsing rhythmically, subtle bioluminescence, solar‑absorbing stone slabs, high detail, realistic shadows, atmospheric haze.
+
+### 6. PHASE PROMPTS
+*   **Default:** Initial landscape with dormant technology.
+    Prompt: A sun‑drenched Ethiopian plateau at golden hour, featuring colossal monoliths with faintly glowing glyphs, crystalline conduits, dust‑laden air, photorealistic, cinematic lighting, ancient‑tech industrial mysticism, tactile textures.
+    Keywords: ancient, technology, Ethiopian, Egyptian, photorealistic, landscape, dust, crystal, glyphs
+
+---

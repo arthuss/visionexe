@@ -1,0 +1,96 @@
+{
+  "id": "SETENV_SANCTUARY",
+  "name": "sanctuary",
+  "type": "set_environment",
+  "card": {
+    "description": "The Sanctuary is a 30m x 20m sterile chamber that fuses high‑tech cleanroom precision with ancient Ethiopian/Egyptian mysticism. White walls and a vaulted ceiling of fiber‑optic lattice create a cold, pure atmosphere. At its center rises a translucent crystal monolith, etched with glowing hieroglyphic glyphs that pulse with bioluminescent light. The floor is a flawless mirror of polished obsidian, reflecting the monolith and the blue laser beams that refract through it. White mist drifts across the surface, illuminated by a steady, soft white light emanating from the depths. The obsidian rim is adorned with delicate frost‑like glyph patterns, marrying ancient mysticism with modern industrial design.",
+    "tags": [
+      "sanctuary",
+      "cleanroom",
+      "crystal monolith",
+      "mirror floor",
+      "obsidian rim",
+      "white mist",
+      "blue laser",
+      "ancient-tech",
+      "industrial mysticism",
+      "photorealistic",
+      "tactile"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** Rectangular chamber (30m x 20m) with a vaulted ceiling of fiber‑optic lattice and a polished obsidian floor.",
+      "**Face/Sensors:** Central crystal monolith with embedded crystalline glyphs; holographic interface panels on the walls that emit soft blue light.",
+      "**Clothing/Armor:** Not applicable.",
+      "**Key Features:** Translucent crystal monolith, mirrored obsidian floor, blue laser refracting, white mist, obsidian rim with frost‑like glyph patterns, subtle ancient Ethiopian hieroglyphic motifs."
+    ],
+    "evolution": [
+      "Phase 1 (Default): The Sanctuary remains in its pristine, cold state with crystal monolith, mirrored floor, and misty ambience as described above."
+    ],
+    "props": [
+      "Item: The Crystal Server – a transparent, glowing crystal monolith.",
+      "Item: Holographic Interface – floating light keyboard panels.",
+      "Item: Obsidian Rim – frost‑patterned edge around the chamber."
+    ],
+    "prompt_keywords": [
+      "crystal monolith",
+      "mirrored floor",
+      "obsidian rim",
+      "white mist",
+      "blue laser",
+      "ancient Ethiopian glyphs",
+      "high-tech cleanroom",
+      "industrial mysticism"
+    ],
+    "prompt_block": "A sterile, white‑walled sanctuary chamber, 30 by 20 meters, with a vaulted ceiling of fiber‑optic lattice. In the center rises a translucent crystal monolith, its surface etched with ancient Ethiopian glyphs that glow faintly. The floor is a perfect mirror of polished obsidian, reflecting the monolith and the blue laser beams that refract through it. White mist drifts across the surface, illuminated by soft, steady white light emanating from the depths. The obsidian rim is covered in delicate frost‑like glyph patterns, blending ancient mysticism with high‑tech cleanroom precision, cinematic photorealism, tactile textures, and a cold, pure atmosphere.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Pristine sanctuary with crystal monolith, mirrored floor, and misty ambience.",
+        "prompt_keywords": [
+          "crystal monolith",
+          "mirrored floor",
+          "obsidian rim",
+          "white mist",
+          "blue laser",
+          "ancient Ethiopian glyphs",
+          "high-tech cleanroom",
+          "industrial mysticism"
+        ],
+        "prompt_block": "A sterile, white‑walled sanctuary chamber, 30 by 20 meters, with a vaulted ceiling of fiber‑optic lattice. In the center rises a translucent crystal monolith, its surface etched with ancient Ethiopian glyphs that glow faintly. The floor is a perfect mirror of polished obsidian, reflecting the monolith and the blue laser beams that refract through it. White mist drifts across the surface, illuminated by soft, steady white light emanating from the depths. The obsidian rim is covered in delicate frost‑like glyph patterns, blending ancient mysticism with high‑tech cleanroom precision, cinematic photorealism, tactile textures, and a cold, pure atmosphere."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_SANCTUARY",
+    "name": "sanctuary",
+    "type": "set_environment",
+    "aliases": [
+      "sanctuary"
+    ],
+    "roles": [
+      "sanctuary"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_262"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 39,
+        "chapter_end": 39,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

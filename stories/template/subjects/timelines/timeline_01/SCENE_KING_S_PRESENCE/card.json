@@ -1,0 +1,88 @@
+{
+  "id": "SCENE_KING_S_PRESENCE",
+  "name": "King's Presence",
+  "type": "scene",
+  "card": {
+    "description": "A cinematic, photorealistic throne room where the King's Presence manifests as a translucent crystalline avatar. The room blends ancient Ethiopian and Egyptian motifs with incomprehensible technology: walls etched with bioluminescent glyphs, a throne of obsidian and gold, and a crystalline lattice that refracts light into a spectrum of sacred colors.",
+    "tags": [
+      "ancient-tech",
+      "throne",
+      "hologram",
+      "bioluminescence",
+      "Ethiopian",
+      "Egyptian",
+      "mysticism",
+      "industrial"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** A humanoid silhouette composed of interlocking quartz and obsidian plates, each facet catching light to create a living mosaic of refracted colors.",
+      "**Face/Sensors:** A central, iridescent eye that pulses with bio‑luminescent glyphs, surrounded by a halo of shifting sigils that respond to ambient sound.",
+      "**Clothing/Armor:** Flowing robes of woven metal filaments and glass, patterned with ancient hieroglyphic motifs that glow faintly, draped over the crystalline frame.",
+      "**Key Features:** Crystalline lattice structure, bio‑luminescent glyphs, holographic projection of the king’s voice, sound‑responsive light patterns, tactile metallic textures."
+    ],
+    "evolution": [
+      "Phase 1 (Emergence): A faint, pulsing glow rises from the throne, hinting at the presence of the king.",
+      "Phase 2 (Manifestation): The crystalline avatar fully materializes, its facets catching light and projecting the king’s voice."
+    ],
+    "props": [
+      "Item: Throne of obsidian and gold, carved with Ethiopian and Egyptian motifs.",
+      "Item: Altar of crystal, embedded with bioluminescent glyphs."
+    ],
+    "prompt_keywords": [
+      "crystalline avatar",
+      "bioluminescent glyphs",
+      "throne",
+      "ancient Ethiopian",
+      "Egyptian motifs",
+      "industrial mysticism",
+      "photorealistic"
+    ],
+    "prompt_block": "A photorealistic, cinematic depiction of a throne room in an ancient-tech setting, featuring a translucent crystalline avatar of the King's Presence, glowing bioluminescent glyphs etched into the walls, a throne of obsidian and gold, industrial mysticism, grounded realism, ancient Ethiopian and Egyptian aesthetics, photorealistic lighting, tactile textures, no cartoon or toy look",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The King's Presence fully materialized in a throne room.",
+        "prompt_keywords": [
+          "crystalline avatar",
+          "bioluminescent glyphs",
+          "throne",
+          "ancient Ethiopian",
+          "Egyptian motifs",
+          "industrial mysticism"
+        ],
+        "prompt_block": "A photorealistic, cinematic depiction of a throne room in an ancient-tech setting, featuring a translucent crystalline avatar of the King's Presence, glowing bioluminescent glyphs etched into the walls, a throne of obsidian and gold, industrial mysticism, grounded realism, ancient Ethiopian and Egyptian aesthetics, photorealistic lighting, tactile textures, no cartoon or toy look"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_KING_S_PRESENCE",
+    "name": "King's Presence",
+    "type": "scene",
+    "aliases": [
+      "King's Presence"
+    ],
+    "roles": [],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_446"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 63,
+        "chapter_end": 63,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

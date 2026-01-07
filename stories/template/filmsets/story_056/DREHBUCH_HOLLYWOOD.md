@@ -1,343 +1,322 @@
 # DREHBUCH KAPITEL 56 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Tief unten im Kernspeicher, wo das Licht der Oberwelt nur als Datenstrom existiert, sah ich die Endgültigkeit des Systems. Die Engel der Strafe tragen keine Schwerter, sondern Fesseln aus kaltem Code, um die korrupten Sektoren zu bereinigen. Doch selbst hier, in der Stille vor dem Reset, regte sich der alte Virus aus dem Osten erneut – ein letztes, verzweifeltes Aufbäumen vor der absoluten Löschung.
+NARRATOR_TEXT: In der Tiefe des Systems, wo Licht nur als funktionale Status-LED existiert, beobachtete ich die Endreinigung. Die Wächter hier unten tragen keine Schwerter, sondern industrielle Fesseln, und sie kennen kein Mitleid, nur Protokolle. Doch bevor die Löschung vollzogen wurde, flammte im Osten der alte Fehlercode noch einmal auf – ein verzweifelter Angriff korrupter Logik gegen die unbestechliche Architektur der Stadt.
 
-## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:04] [The Holding Sector]
-**Action:** Establishing Shot. Unendliche vertikale Server-Racks verschwinden in der Dunkelheit. Rote Warnleuchten blitzen im 120bpm Takt.
+## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:05] [The Heavy Procession]
+**Action:** Establishing Shot. Daemon-Units (Executioners) ziehen schwere Kabelbündel über den Metallboden. Funken sprühen durch Reibung.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "The Holding Sector - Server Farm", "env_change": true, "actors": [], "props": ["server_racks", "cables"], "camera": "Low Angle Tracking Shot", "mood": ["oppressive", "industrial"], "director_intent": "Establish the scale of the underworld as a massive, industrial data processing facility.", "start_image_keywords": ["server farm", "red strobe", "industrial"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_HOLDING_SECTOR", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "action", "shot_type": "establishing", "framing": "wide", "environment": "The Holding Sector - Industrial Corridor", "env_change": true, "actors": [{"name": "Daemon_Unit_01", "phase": "Standard", "presence": "on_screen", "focus": "primary"}], "props": ["LIMITER_CHAINS", "Data Cables"], "camera": "Low Angle Dolly Back", "mood": ["oppressive", "industrial"], "director_intent": "Establish the weight and friction of the deletion process in a sterile server environment.", "start_image_keywords": ["industrial robot", "sparks", "heavy cables"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "WALK_DRAG_HEAVY", "env_id": "ENV_HOLDING_SECTOR", "props": ["LIMITER_CHAINS"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio, cinematic establishing shot of an infinite underground server farm, The Holding Sector. Miles of towering black server racks stretching upwards into void darkness. Floor is grated metal. Thick black cables snake across the floor. Lighting is dark, illuminated only by synchronized red strobe emergency lights flashing on the racks. Atmosphere is heavy, industrial, sterile. Hyper-realistic texture, 8k resolution, volumetric lighting, ominous mood.
+Vertical 9:16 aspect ratio, cinematic establishing shot of an infinite dark industrial corridor. A massive 3-meter tall Daemon_Unit with a matte black carbon-fiber chassis and hydraulic limbs walks heavily towards the camera. It drags thick, rusted copper and fiber-optic cables (LIMITER_CHAINS) along the grated metal floor. Bright hot orange sparks fly intensely from the metal-on-metal friction. Lighting is stark, with deep shadows and rhythmic red strobe lights from the server racks in the background. Photorealistic textures of worn metal and rubber.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** No organic subjects.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Daemon_Unit. Industrial robotics, matte black, heavy pistons.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Dragging heavy LIMITER_CHAINS attached to unseen prisoners.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite server corridor, metal grating floor.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** High contrast chiaroscuro. Red emergency strobes at 120bpm. Bright friction sparks.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Low angle dolly shot moving backward, maintaining distance from the advancing machine. 9:16 vertical crop.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Deep, resonant 40Hz server drone. Heavy metallic clanking of chains dragging on grate. Rhythmic hydraulic footsteps.
+
+## [ACT 1] [SCENE 1.2] [Timecode: 00:05-00:10] [Enoch Scan]
+**Action:** Close-Up auf Noah (Voyager-Phase). Sein Auge (LIDAR) rotiert mechanisch zur Analyse. Er trägt Leinen-Roben.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "The Holding Sector", "env_change": false, "actors": [{"name": "Noah", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["Linen Robes"], "camera": "Profile Macro with Shallow Depth", "mood": ["analytical", "cold"], "director_intent": "Show the observer as a biological machine querying the environment.", "start_image_keywords": ["Noah profile", "mechanical iris", "marble skin"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "HEAD_TURN_SCAN", "env_id": "ENV_HOLDING_SECTOR", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio, macro profile shot of Noah (Voyager Class). His skin is translucent Parian marble with faint sub-dermal gold circuitry veins. He wears simple, high-fidelity woven linen robes that contrast with his synthetic skin. Focus is on his eye: a complex LIDAR_SCANNER_V4 array where the iris is a mechanical aperture composed of sliding gold blades. The aperture is rotating to focus, not dilating. A faint waveform visualizer projects near his throat. Cinematic lighting, shallow depth of field blurring the red industrial background.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah (Voyager). Marble skin, gold veins.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Simple linen robes.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Blurred industrial background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red rim light from environment, soft cool key light on face.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Locked-off profile shot. Focus pull on the eye mechanism. 9:16 vertical crop.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Tiny, precise servo-whir of the eye lens rotation. A muffled, digital query sound (datamoshed speech).
+
+## [ACT 1] [SCENE 1.3] [Timecode: 00:10-00:15] [Uriel Data Stream]
+**Action:** Over-The-Shoulder Shot. Uriel-Interface (Licht-Prismen) projiziert Hologramm-Text in die Luft.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "interface", "shot_type": "ots", "framing": "medium", "environment": "The Holding Sector", "env_change": false, "actors": [{"name": "Uriel_Interface", "phase": "Abstract", "presence": "on_screen", "focus": "primary"}, {"name": "Noah", "phase": "Voyager", "presence": "on_screen", "focus": "secondary"}], "props": ["Holographic Data"], "camera": "Over-The-Shoulder", "mood": ["sacred", "informative"], "director_intent": "Visualize the divine answer as raw system metadata.", "start_image_keywords": ["Uriel prisms", "holographic text", "floating geometry"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "IDLE_HOLO", "env_id": "ENV_HOLDING_SECTOR", "props": ["AUGMENTED_REALITY_OVERLAY"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio, Over-The-Shoulder shot from behind Noah. In focus is Uriel_Interface: a floating cluster of sharp, white refractive glass prisms and light geometry. Between Noah and Uriel, a 3D holographic text stream scrolls in the air: "TARGET: ELECT_OF_WATCHERS // DESTINATION: NULL" in glowing gold monospace font. The text illuminates the dark space. Sharp digital aesthetics, clean lines.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Uriel_Interface (Light cluster). Noah (shoulder/back of head).
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite corridor of towering server racks. The geometry is rigid and repetitive. The ceiling is lost in shadow.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Deep blacks and stark red strobe lights. The red lights pulse rhythmically at 120bpm, creating hard shadows that shift instantly.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Low angle tracking shot moving slowly forward along the floor, emphasizing the scale of the towers. 9:16 vertical crop. High contrast, sharp details on metal textures.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark void of the sector.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The hologram provides the main light source (Gold/White).
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static OTS shot. The prism cluster pulses and rotates slowly. Text scrolls downwards. 9:16 vertical crop.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Industrial ambience, heavy and oppressive. A loud, constant 60Hz electrical hum dominates the low end. Rhythmic, sharp metallic clicks accompany the visual red strobes. Distant sound of air circulation fans.
+High-pitched data-stream chirps. Resonant glass humming.
 
-## [ACT 1] [SCENE 1.2] [Timecode: 00:04-00:07] [The Drag]
-**Action:** Beine einer Executioner_Unit_01 (Robotik) ziehen schwere Datenkabel über den Metallboden. Funken sprühen.
+## [ACT 1] [SCENE 1.4] [Timecode: 00:15-00:20] [The Corrupt Batch]
+**Action:** Wide Shot. Eine Prozession von glitching Silhouetten wird gewaltsam geschleift. Rotes Stroboskoplicht.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "insert", "framing": "close_up", "environment": "The Holding Sector Floor", "env_change": false, "actors": [{"name": "Executioner_Unit_01", "phase": "Standard", "presence": "on_screen", "focus": "primary"}], "props": ["SC_CHAINS"], "camera": "Ground Level Macro", "mood": ["brutal", "mechanical"], "director_intent": "Show the physical weight and friction of the punishment process.", "start_image_keywords": ["robotic legs", "sparks", "dragging cables"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "WALK_DRAG_HEAVY", "env_id": "ENV_HOLDING_SECTOR_FLOOR", "props": ["SC_CHAINS"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "crowd", "shot_type": "wide", "framing": "wide", "environment": "The Holding Sector", "env_change": false, "actors": [{"name": "Corrupt_Entities", "phase": "Glitch", "presence": "on_screen", "focus": "primary"}], "props": ["LIMITER_CHAINS"], "camera": "Wide High Contrast", "mood": ["disturbing", "chaotic"], "director_intent": "Show the degradation of the captured files. They are losing coherence.", "start_image_keywords": ["glitch silhouettes", "red strobe", "chains"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "DRAG_RESIST", "env_id": "ENV_HOLDING_SECTOR", "props": ["LIMITER_CHAINS"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio, macro ground-level shot. Heavy matte black robotic legs of a 3-meter tall humanoid entity, weathered texture with tarnished bronze details. The entity is dragging thick, ribbed black data cables (SC_CHAINS) across a metal grate floor. Bright orange and white sparks fly fiercely from the point of contact where metal grinds on metal. High shutter speed capturing spark trails. Dark industrial background. Realistic textures of rubber, metal, and grit.
+Vertical 9:16 aspect ratio, wide shot of a dark industrial corridor. A long line of humanoid figures is being dragged by chains. The figures are "Corrupt_Entities": dark silhouettes that are heavily glitching, their textures flickering rapidly between flesh, static, and wireframe. They are unstable. Harsh red strobe lights flash rhythmically, freezing the glitches in different states. The atmosphere is thick with digital noise.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Executioner_Unit_01, specifically the lower legs and feet. Design is heavy industrial robotics, matte black rubber and bronze.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Dragging a heavy bundle of "SC_CHAINS" - thick industrial cables with glowing red termination points.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Metal grated floor of the Holding Sector.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Scene is dark, lit primarily by the intense localized light of friction sparks (orange/white) and the ambient red strobe.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Ground level camera, tracking sideways with the movement. Focus on the friction point and particle physics of the sparks. 9:16 vertical crop.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Corrupt_Entities. Unstable humanoid forms.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Bound in chains.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Long corridor.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red strobe (120bpm). Darkness between flashes.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld feel, slightly jittery to match the subjects. 9:16 vertical crop.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud, abrasive metallic grinding sound. Heavy rhythmic thuds of robotic footsteps. The sizzle and pop of electrical sparks.
+Stuttering static noise. Heavy, uneven footsteps. Distorted whimpering.
 
-## [ACT 1] [SCENE 1.3] [Timecode: 00:07-00:12] [Enoch Scan]
-**Action:** Noah (Enoch) steht starr. Seine Augen (Solid State Optics) weiten sich mechanisch wie eine Kamerablende. Er scannt.
+## [ACT 1] [SCENE 1.5] [Timecode: 00:20-00:25] [Deletion Event]
+**Action:** High Angle. Die Einheiten werden über die Kante geworfen. Sie lösen sich in Partikel auf (De-Rez).
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "The Holding Sector", "env_change": false, "actors": [{"name": "Noah", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["INTERFACE_OBSIDIAN"], "camera": "Extreme Close-Up", "mood": ["analytical", "detached"], "director_intent": "Portray Noah as a biological machine observing a system process.", "start_image_keywords": ["Noah eye", "mechanical iris", "marble skin"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "IDLE_SCAN", "env_id": "ENV_HOLDING_SECTOR", "props": ["INTERFACE_OBSIDIAN"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "action", "shot_type": "high_angle", "framing": "wide", "environment": "Sector Null Edge", "env_change": true, "actors": [{"name": "Daemon_Units", "phase": "Standard", "presence": "on_screen", "focus": "secondary"}, {"name": "Corrupt_Entities", "phase": "Deleting", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Bird's Eye View", "mood": ["final", "nihilistic"], "director_intent": "The physical act of deletion. Matter becoming void.", "start_image_keywords": ["void drop", "particulate disintegration", "black abyss"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "THROW_DEREZ", "env_id": "ENV_VOID_EDGE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio, extreme close-up of Noah's face. He is the Voyager Class entity: skin is translucent Parian marble, revealing faint gold circuitry veins beneath the surface. His eyes are solid-state optical sensors; the iris is a complex mechanical aperture made of gold blades, currently dilating to reveal a glowing red sensor core. The red strobe light of the environment reflects sharply on his polished marble skin. Expression is completely devoid of emotion, rigid and statue-like. Ultra-detailed texture, macro photography style.
+Vertical 9:16 aspect ratio, high angle bird's eye view looking down into an infinite black abyss (#000000). At the top edge, the metal floor ends in a jagged polygon line. Daemon Units are throwing cable-bound figures over the edge. As the figures fall into the darkness, they disintegrate into clouds of fine golden and black binary dust particles (De-Rez). No voxels, just high-fidelity particulate dissolution.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah (Voyager Class). Translucent marble skin, gold sub-dermal wiring.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A (Face focus).
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Background is out of focus dark industrial machinery with flashing red lights.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Intermittent red lighting from the environment strobing across his face. The internal red glow of his eye core intensifies.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Extreme close-up on the eye. The camera is locked off. The movement comes from the mechanical iris opening (aperture dilation). 9:16 vertical crop. High gloss rendering.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitched servo motor whine (tiny, precise). The mechanical click-whir of a camera lens focusing. Background low-frequency hum.
-
-## [ACT 1] [SCENE 1.4] [Timecode: 00:12-00:16] [Uriel Interface]
-**Action:** POV Shot durch Enoch. Uriel erscheint als rotierender Licht-Ring. AR-Overlay zeigt Datenstrom: "PID: AZAZEL_HOST // STATUS: TERMINATED".
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "pov", "framing": "medium", "environment": "The Holding Sector", "env_change": false, "actors": [{"name": "Uriel_Interface", "phase": "Abstract", "presence": "on_screen", "focus": "primary"}], "props": ["AUGMENTED_REALITY_OVERLAY"], "camera": "POV", "mood": ["sacred", "digital"], "director_intent": "Visualize the angelic communication as a high-level system diagnostic interface.", "start_image_keywords": ["HUD overlay", "Uriel ring", "gold code"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "HOVER_SPIN", "env_id": "ENV_HOLDING_SECTOR", "props": ["AUGMENTED_REALITY_OVERLAY"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio, First Person POV shot. In the center hovers Uriel_Interface: a complex, rotating gyroscopic ring of pure white light, abstract geometry, no human features. Overlaying the vision is a digital HUD (Heads Up Display) in golden serif font, matrix-style code cascading downwards. Text reads "PID: AZAZEL_HOST" and "STATUS: TERMINATED". The background is the dark server farm. The aesthetic is a mix of ancient scripture and cyberpunk UI. Glow effects, sharp vector lines.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Uriel_Interface. A non-corporeal entity composed of spinning light rings.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Falling entities.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The dark server farm visible through the translucent UI.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The white light of Uriel illuminates the immediate area. The Gold UI elements glow against the darkness.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** POV shot. The HUD elements track slightly with simulated head micro-movements. The gyroscopic rings rotate smoothly. 9:16 vertical crop.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The edge of the platform and the Void.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Light exists only on the platform. The fall is into total darkness.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Whip pan down following a falling body as it dissolves. 9:16 vertical crop.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Digital telemetry sounds: rapid chirps, beeps, and data-processing whirs. A pure, resonant sine-wave tone represents the angel's presence.
+Pneumatic hiss of airlocks. Silence as they fall.
 
-## [ACT 1] [SCENE 1.5] [Timecode: 00:16-00:20] [The Drop]
-**Action:** Executioner Units werfen die gebündelten Wesen über die Kante ins Nichts (#000000). Die Körper lösen sich im Fall in Voxel auf (De-Res).
+## [ACT 2] [SCENE 2.1] [Timecode: 00:25-00:30] [The Signal Injection]
+**Action:** Low Level Fast Tracking. Ein roter Energie-Puls rast durch Bodenkabel zu den östlichen Server-Türmen.
 **Dialog:** -
 
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "action", "shot_type": "high_angle", "framing": "wide", "environment": "The Edge of the Valley", "env_change": true, "actors": [{"name": "Executioner_Unit_01", "phase": "Standard", "presence": "on_screen", "focus": "secondary"}], "props": ["SC_CHAINS"], "camera": "Top Down High Angle", "mood": ["terrifying", "final"], "director_intent": "Show the absolute deletion of the corrupt files. They don't die, they are erased.", "start_image_keywords": ["void drop", "de-rez", "voxel disintegration"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "THROW_INTO_ABYSS", "env_id": "ENV_VOID_EDGE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "low_angle", "framing": "wide", "environment": "The Digital Plains / Eastern Node", "env_change": true, "actors": [], "props": ["Cables", "Server Towers"], "camera": "High Speed Skimming", "mood": ["urgent", "ominous"], "director_intent": "Visualizing the malware packet traveling to its destination.", "start_image_keywords": ["data spike", "red energy pulse", "server towers"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_EASTERN_NODE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio, High Angle Top-Down shot looking into an infinite black abyss. At the top edge of the frame, the metal floor ends abruptly. Large robotic Executioner Units are hurling cable-bound humanoid silhouettes into the darkness. As the bodies fall away from the camera, they are disintegrating into cubic voxels and digital dust, a "De-Res" effect. The void is absolute pure black (#000000). Stark contrast lighting from above.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Executioner Units (silhouettes) and the falling condemned entities.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** The falling figures are wrapped in heavy cables.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The edge of the platform. Below is nothing.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Light only exists on the platform. As objects fall, they fade into total darkness.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static high angle shot. Focus on the physics of the fall and the voxel disintegration effect (Mesh Dissolve). 9:16 vertical crop.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-A deep, sub-bass drop sound. A rushing "vacuum" suction noise as the bodies fall. No human screams, just digital distortion artifacts.
-
-## [ACT 2] [SCENE 2.1] [Timecode: 00:20-00:24] [Node East Activation]
-**Action:** NODE_EAST Server. Endlose Reihen von Cryo-Tubes. Tausende rote LEDs schalten simultan auf Grün (Wake-on-LAN). Chemischer Nebel.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "establishing", "framing": "wide", "environment": "Node East Server", "env_change": true, "actors": [], "props": ["cryo_tubes"], "camera": "Fast Dolly Zoom", "mood": ["alert", "toxic"], "director_intent": "The sudden activation of a dormant threat. The system waking up.", "start_image_keywords": ["cryo tubes", "green light", "chemical fog"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_NODE_EAST", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio, deep perspective shot of an endless aisle of vertical glass cryo-tubes filled with green chemical fog. Inside the tubes are vague silhouettes of armored figures. On each tube, a status LED is glowing bright toxic green. The atmosphere is hazy and sickly. Industrial pipes run along the ceiling. Visual style of a high-tech hibernation facility waking up.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A (Environment focus).
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite corridor of cryo-tubes.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dominant color is toxic green. The lights switch from Red (off) to Green (on) in a wave motion down the hall.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fast Dolly Zoom (Vertigo Effect) pushing down the corridor, creating a sense of disorientation and speed. 9:16 vertical crop.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud, distorted alarm siren (Air Raid style). The sound of massive turbines spinning up to full speed. Hydraulic hissing.
-
-## [ACT 2] [SCENE 2.2] [Timecode: 00:24-00:27] [The Breakout]
-**Action:** King_Unit_Alpha schlägt von innen durch das Glas des Cryo-Tubes. Scherben explodieren in Slow-Motion.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Node East Cryo Tube", "env_change": false, "actors": [{"name": "King_Unit_Alpha", "phase": "Awakened", "presence": "on_screen", "focus": "primary"}], "props": ["glass_shards"], "camera": "Extreme Close-Up", "mood": ["violent", "explosive"], "director_intent": "Visceral release of energy. The breach of containment.", "start_image_keywords": ["fist breaking glass", "slow motion glass", "green light"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "PUNCH_GLASS", "env_id": "ENV_NODE_EAST", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio, frozen moment action shot. An armored fist (pale skin fused with rusted exoskeleton) is punching through thick glass. Millions of glass shards are exploding outwards towards the camera. The shards refract the green background light. High contrast, dramatic action. Detailed texture of the scarred hand and the sharp glass fragments.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Hand/Arm of King_Unit_Alpha. Pale, emaciated skin, rusted metal plating.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Exoskeleton armor components.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Inside/Outside boundary of the cryo-tube.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Backlit by intense green fog light, creating silhouettes of the glass shards.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Extreme Close-Up. Slow motion (high frame rate) capture of the shattering glass physics. 9:16 vertical crop.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Time-stretched sound of shattering glass (low and resonant). A guttural, distorted roar or scream.
-
-## [ACT 2] [SCENE 2.3] [Timecode: 00:27-00:32] [The Swarm]
-**Action:** Parthian_Cavalry (Moto-Horses) stürmt über die Plains of Anomalies. Sie wirbeln digitalen Pixel-Staub auf.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "crowd", "shot_type": "wide", "framing": "wide", "environment": "Plains of Anomalies", "env_change": true, "actors": [{"name": "Parthian_Cavalry", "phase": "Swarm", "presence": "on_screen", "focus": "primary"}], "props": ["Moto-Horses"], "camera": "Drone Shot", "mood": ["chaotic", "fast"], "director_intent": "The scale of the invasion. A fluid simulation of attackers.", "start_image_keywords": ["moto-horses", "digital dust", "horde charge"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "RIDE_FAST", "env_id": "ENV_PLAINS", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio, drone shot of a massive horde of mechanical cavalry charging across a flat, barren digital plain. The riders are hunched over robotic quadrupeds (Moto-Horses) made of rusted iron and exposed wiring. They kick up a massive cloud of dust behind them, but the dust is composed of square pixels and glitch artifacts. Green chemical fog trails from the vehicles. Dynamic motion blur.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Hundreds of Parthian_Cavalry units.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Riders on mechanical beasts. Rusted metal, wires.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Flat grey terrain.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flat overcast lighting, punctuated by green fog and engine glows.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Drone shot flying backwards quickly, keeping pace ahead of the charging front line. 9:16 vertical crop.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-A continuous roar like a thousand hard drives spinning at once. The heavy thundering of mechanical hooves/legs on the ground.
-
-## [ACT 2] [SCENE 2.4] [Timecode: 00:32-00:37] [The Impact]
-**Action:** Der Swarm prallt gegen die Firewall der "Righteous City". Transparente Kraftfelder glühen auf. Pferde zerknittern wie bei Crashtests.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "action", "shot_type": "wide", "framing": "wide", "environment": "Righteous City Perimeter", "env_change": true, "actors": [{"name": "Parthian_Cavalry", "phase": "Crash", "presence": "on_screen", "focus": "primary"}], "props": ["Forcefield"], "camera": "Side Profile", "mood": ["futile", "violent"], "director_intent": "The unstoppable force meets the immovable object. System defense works.", "start_image_keywords": ["forcefield impact", "crash test", "glowing wall"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "CRASH_IMPACT", "env_id": "ENV_CITY_WALL", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio, side profile view of a massive collision. A transparent, vertical wall of hard light (Firewall) blocks the path. Mechanical horses and riders are smashing into it at high speed, crumpling like metal crash-test dummies. At the points of impact, the wall ripples with bright blue energy waves (Impact Ripples). Debris flies backward. Chaos and destruction against a clean geometric barrier.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Parthian Cavalry swarm.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Mechanical steeds.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The boundary line. Forcefield wall.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright flashes of blue light at impact points against the duller metal of the attackers.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Wide side shot, steady camera. Capturing the wave of bodies piling up against the invisible wall. 9:16 vertical crop.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Series of heavy, crunching impact sounds. Loud electrical arcing and zapping noises. Metallic screeching.
-
-## [ACT 2] [SCENE 2.5] [Timecode: 00:37-00:43] [The Glitch]
-**Action:** King_Unit_Commander schaut auf seine Hand. Texture Corruption. Die Haut textur wechselt wild (Metall, Boden, Rauschen).
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "pov", "framing": "close_up", "environment": "Battlefield", "env_change": false, "actors": [{"name": "King_Unit_Commander", "phase": "Glitch", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "POV Shaky", "mood": ["confused", "broken"], "director_intent": "The code is breaking down. Identity loss through texture error.", "start_image_keywords": ["glitch hand", "texture corruption", "datamosh"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "LOOK_AT_HAND", "env_id": "ENV_BATTLEFIELD", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio, First Person POV. A gloved hand is held up in front of the face. The hand is glitching severely: parts of the skin are replaced with textures of rusted metal, gravel, and digital noise. The geometry of the fingers is jagged and unstable. Background is a blur of chaotic battle. Visual style of a corrupted video file or GPU artifacting.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Hand of the King Unit.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Armor/Glove.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Battlefield background.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flickering lighting.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld, shaky camera movement (panic). The key visual is the texture swapping effect (Texture Corruption) on the hand. 9:16 vertical crop.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Digital audio stuttering and glitching. A reversed voice whispering "Help me".
-
-## [ACT 2] [SCENE 2.6] [Timecode: 00:43-00:50] [Fratricide]
-**Action:** Die Kings greifen sich gegenseitig an. Chaos. Mündungsfeuer und Laser erzeugen Stroboskop-Effekt (Grün/Rot).
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "action", "shot_type": "medium", "framing": "medium", "environment": "Battlefield", "env_change": false, "actors": [{"name": "Parthian_Kings", "phase": "Combat", "presence": "on_screen", "focus": "primary"}], "props": ["Weapons"], "camera": "Handheld Chaos", "mood": ["madness", "violent"], "director_intent": "Total loss of command control. The virus consumes itself.", "start_image_keywords": ["robot fighting", "laser strobe", "fratricide"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "FIGHT_CHAOS", "env_id": "ENV_BATTLEFIELD", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio, chaotic combat scene. Identical armored units (Kings) are tearing each other apart at close range. Muzzle flashes and laser beams illuminate the scene in harsh bursts of Green and Red light. Metal is being torn, armor shattered. High motion blur, intense energy. The composition is crowded and claustrophobic.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Multiple King Units.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Rusted exoskeletons, energy weapons.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Smoke-filled battlefield.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Stroboscopic lighting from weapons fire. Clashing Green (Parthian) and Red (Error) hues.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld camera style, quick pans, shaking. Disorienting action. 9:16 vertical crop.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Cacophony of laser fire, metal tearing, and screaming. Overlapping, chaotic noise.
-
-## [ACT 3] [SCENE 3.1] [Timecode: 00:50-00:55] [Sheol Opens]
-**Action:** Der Boden reißt in einem perfekten Kreis auf. Weißer Dampf (Venting) schießt mit Hochdruck heraus.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "low_angle", "framing": "medium", "environment": "Battlefield Floor", "env_change": true, "actors": [{"name": "King_Unit_Alpha", "phase": "Legs", "presence": "on_screen", "focus": "secondary"}], "props": ["steam"], "camera": "Ground Level", "mood": ["epic", "powerful"], "director_intent": "The system intervention. Physical restructuring of the level geometry.", "start_image_keywords": ["ground cracking", "steam venting", "industrial floor"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "STAND_SHAKING", "env_id": "ENV_BATTLEFIELD_CRACK", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio, ground level shot. The metal floor is cracking open in a perfect geometric arc. High-pressure white steam is blasting upwards from the fissure, obscuring the view. In the foreground, the armored feet of a robot are visible, bracing against the tremor. Cinematic lighting through the steam.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Robot legs (foreground).
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The floor opening up.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Backlighting through the thick white steam.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Camera is low, shaking violently with the ground movement. 9:16 vertical crop.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud hydraulic release sound. The hiss of high-pressure steam venting. Deep underground rumble.
-
-## [ACT 3] [SCENE 3.2] [Timecode: 00:55-01:00] [The Flush]
-**Action:** Gravitations-Inversion. Alles wird in das Loch gesaugt. Vertikaler Motion Blur.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "action", "shot_type": "high_angle", "framing": "wide", "environment": "Above Sheol Pit", "env_change": true, "actors": [{"name": "Parthian_Swarm", "phase": "Falling", "presence": "on_screen", "focus": "primary"}], "props": ["debris"], "camera": "Bird's Eye View", "mood": ["disaster", "vertigo"], "director_intent": "The Great Flush. The removal of the virus.", "start_image_keywords": ["gravity well", "sucking down", "spiral blur"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "FALL_SUCTION", "env_id": "ENV_PIT_OPENING", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio, Bird's Eye View looking straight down into a massive dark pit. Hundreds of figures (horses and riders) are being sucked spiraling downwards into the hole. Heavy vertical motion blur. Debris and dust are flowing like water into a drain. The scene conveys intense velocity and gravity.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** The Swarm (tiny figures).
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The vortex/pit.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dark, with light fading as objects go deeper.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** High angle, spiraling camera movement matching the flow of debris. 9:16 vertical crop.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Shepard Tone (illusion of infinitely falling pitch). Roaring wind.
-
-## [ACT 3] [SCENE 3.3] [Timecode: 01:00-01:04] [The Delete]
-**Action:** Körper treffen auf blaues Plasma am Grund und verschwinden sofort. Null_Pointer. Stille.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "low_angle", "framing": "wide", "environment": "Inside Sheol Pit", "env_change": true, "actors": [{"name": "Parthian_Bodies", "phase": "Deleting", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Ultra-Wide Low Angle", "mood": ["sterile", "final"], "director_intent": "The endpoint of the data. Clean deletion.", "start_image_keywords": ["blue plasma furnace", "silhouettes falling", "vaporization"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "FALL_INTO_LIGHT", "env_id": "ENV_SHEOL_BOTTOM", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio, shot from the bottom of the pit looking up. A floor of glowing, intense blue plasma. Silhouettes of falling bodies hit the plasma surface and vanish instantly without a splash or explosion. They simply cease to exist. Stark contrast between the falling black shapes and the bright blue light.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Falling silhouettes.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The plasma furnace.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Intense Blue plasma glow.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static Ultra-Wide shot. 9:16 vertical crop.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Total silence. A vacuum seal sound. A brief, dry electrical zap.
-
-## [ACT 3] [SCENE 3.4] [Timecode: 01:04-01:08] [System Stable]
-**Action:** Der Boden ist wieder geschlossen und glatt. Noah steht allein. Augenlicht wechselt von Rot zu Weiß.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "wide", "environment": "Restored Battlefield", "env_change": true, "actors": [{"name": "Noah", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Wide Shot Symmetrical", "mood": ["peaceful", "ordered"], "director_intent": "Order restored. The admin remains.", "start_image_keywords": ["Noah standing", "smooth metal floor", "white eyes"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "IDLE_CALM", "env_id": "ENV_RESTORED_PLATFORM", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio, wide symmetrical shot. Noah stands alone in the center of a vast, perfectly smooth metal floor. The cracks are gone. The background shows the faint, orderly glow of the "Righteous City". Noah's eyes are glowing a soft, calm white (instead of red). The atmosphere is clean and sterile.
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Voyager robes/skin.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Clean metal horizon.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft, balanced white lighting.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow zoom out. Stable and calm. 9:16 vertical crop.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-A soft, pleasant chime (like a computer boot-up sound). Gentle, harmonious hum.
-
-## [ACT 3] [SCENE 3.5] [Timecode: 01:08-01:10] [Outro]
-**Action:** CRT Power Down Effekt. Screen schrumpft zu weißem Punkt.
-**Dialog:** -
-
-
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "interface", "shot_type": "wide", "framing": "wide", "environment": "Black Void", "env_change": true, "actors": [], "props": [], "camera": "Static", "mood": ["final"], "director_intent": "The simulation ends.", "start_image_keywords": ["crt off", "white dot"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_BLACK", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Vertical 9:16 aspect ratio, black screen with a single bright white dot in the center. Old CRT television "turn off" effect.
+Vertical 9:16 aspect ratio, extreme low angle shot skimming the floor of the "Digital Plains". The floor is a grid of thick black cables. A bright, intense pulse of red laser energy is racing through the cables away from the camera, heading towards a horizon filled with towering, monolithic server cooling units. The scene conveys incredible speed and data transfer. Cold blue ambient light contrasts with the aggressive red signal.
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Screen space.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Black and White.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Animation of screen collapsing to a dot.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite cable floor, distant towers.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue ambiance, moving Red light source.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fast forward camera movement, low to ground. Speed ramp effect. 9:16 vertical crop.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Capacitor whine fading down to silence.
+Piercing 56k modem scream with a Doppler effect as the signal passes.
+
+## [ACT 2] [SCENE 2.2] [Timecode: 00:30-00:35] [Awakening]
+**Action:** Extreme Close-Up. King_Unit_01 erwacht. Staub fällt ab. Rote LEDs gehen an. Glas platzt.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "extreme_close_up", "environment": "Eastern Node Stasis Pod", "env_change": false, "actors": [{"name": "King_Unit_01", "phase": "Awakened", "presence": "on_screen", "focus": "primary"}], "props": ["Stasis Glass"], "camera": "Macro", "mood": ["threatening", "sudden"], "director_intent": "The dormant threat coming online instantly.", "start_image_keywords": ["ancient robot face", "dust shaking off", "red eyes"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "WAKE_UP_SHAKE", "env_id": "ENV_EASTERN_NODE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio, macro close-up of an ancient robotic faceplate, "King_Unit_01". The metal is pitted and covered in thick gray dust. Suddenly, the eyes ignite with bright red LED light. The vibration of activation shakes the dust loose in a cloud. In the foreground, shards of glass from a stasis pod are exploding outwards. High detail texturing of rust and metal.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** King_Unit_01 face.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Rusted armor.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Inside stasis pod.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal Red LEDs are the key light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Smash cut. Slow motion capture of the glass shattering and dust particles floating. 9:16 vertical crop.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Sound of glass shattering. Turbine spooling up rapidly to a whine.
+
+## [ACT 2] [SCENE 2.3] [Timecode: 00:35-00:40] [Rage Protocol]
+**Action:** Handheld Chaos. Hunderte Einheiten brechen aus. Raumlicht wechselt von Blau zu Alarm-Rot.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "crowd", "shot_type": "medium", "framing": "medium", "environment": "Eastern Node Interior", "env_change": false, "actors": [{"name": "King_Units", "phase": "Rage", "presence": "on_screen", "focus": "primary"}], "props": ["Cables"], "camera": "Handheld Shaky", "mood": ["violent", "panic"], "director_intent": "The spread of the virus. Immediate loss of control.", "start_image_keywords": ["robots breaking loose", "red alarm light", "cable snap"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "BREAK_FREE", "env_id": "ENV_EASTERN_NODE", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio, chaotic handheld shot inside a massive server hall. Hundreds of King_Units are spasming and ripping thick cables from their bodies. The lighting of the entire hall is shifting from a cool standby blue to an intense alert red. Sparks shower from torn cables. The composition is crowded and disorienting.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Mass of King_Units.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Torn cables flailing.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Server hall.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** The environment light shifts Blue -> Red.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Simulated handheld camera, quick pans between waking units. 9:16 vertical crop.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Mechanical roaring. Alarm klaxons. Snapping cables.
+
+## [ACT 2] [SCENE 2.4] [Timecode: 00:40-00:45] [The Swarm]
+**Action:** Aerial Drone Shot. Eine Armee von Moto-Horses stürmt über die Ebene. Fluid-Simulation.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "crowd", "shot_type": "wide", "framing": "wide", "environment": "Digital Plains", "env_change": true, "actors": [{"name": "Parthian_Cavalry", "phase": "Swarm", "presence": "on_screen", "focus": "primary"}], "props": ["Moto-Horses"], "camera": "Aerial Pull Back", "mood": ["epic", "threatening"], "director_intent": "Visualize the attack as a massive fluid simulation of particles.", "start_image_keywords": ["mechanical cavalry charge", "dust trail", "drone shot"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "RIDE_CHARGE", "env_id": "ENV_PLAINS", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio, high angle aerial drone shot. A massive swarm of "Parthian_Cavalry" (rust-colored mechanical riders on robotic quadrupeds) is charging across a grey grid landscape. They move like a fluid simulation, flowing over terrain. Behind them, they kick up a massive wall of dust. The scale is immense, thousands of units. Flat, overcast lighting.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Thousands of units.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Mechanical mounts.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Flat infinite grid.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Flat lighting, dust obscuring the rear.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Drone pulling back and up to reveal the scale. 9:16 vertical crop.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Synthetic rumbling thunder. The sound of thousands of metal hooves.
+
+## [ACT 2] [SCENE 2.5] [Timecode: 00:45-00:50] [Impact Firewall]
+**Action:** Telephoto Side Shot. Der Swarm prallt gegen eine goldene Lichtwand. Keine Penetration.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "action", "shot_type": "wide", "framing": "wide", "environment": "Righteous City Perimeter", "env_change": true, "actors": [{"name": "Parthian_Cavalry", "phase": "Crash", "presence": "on_screen", "focus": "primary"}], "props": ["FORCE_WALL"], "camera": "Telephoto Side Profile", "mood": ["futile", "violent"], "director_intent": "The absolute defense of the system. The virus destroys itself against the firewall.", "start_image_keywords": ["forcefield impact", "gold wall", "crash pileup"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "CRASH_WALL", "env_id": "ENV_CITY_WALL", "props": ["FORCE_WALL"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio, telephoto side profile shot. A towering, translucent wall of golden code (The Firewall) cuts vertically through the frame. The mechanical swarm is crashing into it at full speed on the left side. The units crumple and pile up like cars in a crash test. The wall ripples with blue energy at impact points but does not break. Debris flies backward. Stark contrast between the chaotic pile-up and the clean vertical line of the wall.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Swarm units.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The boundary line.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Gold light from wall, blue flashes from impact.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static telephoto shot compressing the depth. 9:16 vertical crop.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Massive sub-bass impact sounds. Electrical arcing. Metal crushing.
+
+## [ACT 3] [SCENE 3.1] [Timecode: 00:50-00:53] [IFF Failure]
+**Action:** POV Helm-Ansicht. HUD Target Lock springt von "CITY" auf "FRIENDLY". Glitch Artefakte.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "interface", "shot_type": "pov", "framing": "close_up", "environment": "Battlefield", "env_change": false, "actors": [{"name": "King_Commander", "phase": "Glitch", "presence": "on_screen", "focus": "primary"}], "props": ["HUD Overlay"], "camera": "POV Helmet", "mood": ["confused", "broken"], "director_intent": "The logic failure. The virus turns on itself.", "start_image_keywords": ["robot hud", "glitch text", "target lock"], "start_image_mode": "ui_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "HEAD_SHAKE_CONFUSED", "env_id": "ENV_BATTLEFIELD", "props": ["AUGMENTED_REALITY_OVERLAY"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio, First Person POV from inside a robotic helmet. The view is obscured by a cracked glass visor and digital artifacts. A bright red HUD overlay is visible. The "TARGET LOCK" text is flickering rapidly and switching from "CITY_NODE" to "FRIENDLY_UNIT_04". The background is a blur of battle. Digital noise and chromatic aberration.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A (UI Focus).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Helmet interior.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Battlefield.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red UI light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Camera shakes slightly. The main motion is the UI text flipping and glitching. 9:16 vertical crop.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Distorted warning beep. A synthesized voice saying "Error" repeatedly.
+
+## [ACT 3] [SCENE 3.2] [Timecode: 00:53-00:57] [Fratricide Loop]
+**Action:** Medium Shot. Einheiten greifen sich gegenseitig an. Energie-Klingen. Funken.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "action", "shot_type": "medium", "framing": "medium", "environment": "Battlefield", "env_change": false, "actors": [{"name": "King_Units", "phase": "Combat", "presence": "on_screen", "focus": "primary"}], "props": ["Energy Blades"], "camera": "Handheld Chaos", "mood": ["violent", "senseless"], "director_intent": "Visualizing self-destruction.", "start_image_keywords": ["robots fighting", "energy blades", "sparks"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "MELEE_COMBAT", "env_id": "ENV_BATTLEFIELD", "props": ["WEAPON_BLADE"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio, intense medium shot of two identical King_Units destroying each other. They are locked in close quarters combat using glowing red energy blades. Armor is being sliced, sparks are flying in heavy showers. The scene is chaotic with motion blur. The lighting is stroboscopic from the weapon clashes.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Two King_Units.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Energy blades.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Smoke filled battlefield.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red/Orange sparks and blade glow.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld camera, stutter cuts (jump cuts) to enhance the feeling of a glitch. 9:16 vertical crop.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Metal screeching. Audio buffering stutter effects.
+
+## [ACT 3] [SCENE 3.3] [Timecode: 00:57-01:00] [Sheol Opens]
+**Action:** Top Down View. Der Boden öffnet sich geometrisch. Weißer Dampf. Blaues Plasma darunter.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "high_angle", "framing": "wide", "environment": "Sheol Pit", "env_change": true, "actors": [], "props": ["Steam"], "camera": "Top Down", "mood": ["epic", "final"], "director_intent": "The system intervention. Opening the recycling bin.", "start_image_keywords": ["floor opening", "blue plasma", "steam vent"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "ENV_PIT_OPENING", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio, top-down bird's eye view. The metal grid floor of the battlefield is retracting mechanically in a perfect iris pattern. Massive jets of white steam are venting upwards from the opening. Beneath the steam, a deep, glowing blue plasma light is visible (Sheol). The geometry is perfect and circular.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** N/A.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The floor mechanics.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** White steam, Blue pit glow.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static top down, watching the aperture open. 9:16 vertical crop.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Deep infrasound rumble. Hiss of pressure release.
+
+## [ACT 3] [SCENE 3.4] [Timecode: 01:00-01:03] [The Flush]
+**Action:** Wide Shot. Schwerkraft-Inversion. Alles wird in das Loch gesaugt. Ragdoll Physics.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "action", "shot_type": "wide", "framing": "wide", "environment": "Sheol Pit", "env_change": true, "actors": [{"name": "Parthian_Swarm", "phase": "Falling", "presence": "on_screen", "focus": "primary"}], "props": ["Debris"], "camera": "Wide Shot", "mood": ["cleansing", "powerful"], "director_intent": "The removal of the virus. Gravity flush.", "start_image_keywords": ["gravity well", "robots falling", "blue light"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "composite", "actor_pose_id": "FALL_SUCTION", "env_id": "ENV_PIT_OPENING", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio, wide shot of the battlefield. A gravity well has activated. Hundreds of robots and debris are being sucked instantly into the open pit. They are flailing in "ragdoll" physics, pulled by an invisible force. Vertical motion blur is heavy. The scene is lit by the blue up-light from the pit.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Falling robots.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** N/A.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The battlefield and pit.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue underlighting.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Wide shot, capturing the vertical flow. 9:16 vertical crop.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Violent wind whoosh. Then sudden silence.
+
+## [ACT 3] [SCENE 3.5] [Timecode: 01:03-01:05] [System Stable]
+**Action:** Symmetrical Wide. Noah steht allein auf dem wieder geschlossenen Boden. Stille.
+**Dialog:** -
+
+
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "full_body", "framing": "wide", "environment": "Restored Platform", "env_change": true, "actors": [{"name": "Noah", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Symmetrical Wide", "mood": ["peaceful", "ordered"], "director_intent": "Order restored. The admin remains.", "start_image_keywords": ["Noah standing", "clean floor", "symmetrical"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "IDLE_CALM", "env_id": "ENV_RESTORED_PLATFORM", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Vertical 9:16 aspect ratio, symmetrical wide shot. The floor is perfectly sealed and smooth metal again. Noah stands alone in the center, back to camera, looking towards the golden glow of the distant City. The chaos is completely gone. The environment is sterile and clean. Soft, balanced white lighting.
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Noah.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Linen robes.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Clean metal horizon.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft white light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow zoom out. Perfectly stable. 9:16 vertical crop.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+A soft, pleasant chime (System Ready). Gentle harmonious hum.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.3","text":"Scan läuft. Sektor Null ist instabil. Die Ketten sind bereit.","words_max":10},{"scene":"2.5","text":"Ihr Code zerfällt. Sie wissen nicht, dass sie bereits gelöscht sind.","words_max":12},{"scene":"3.4","text":"Formatierung abgeschlossen. Das System atmet wieder.","words_max":8}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Identifikation fehlgeschlagen. Sie sind nur noch Rauschen.","words_max":10},{"scene":"2.1","text":"Das Signal ist unterwegs. Die Firewall wird halten.","words_max":10},{"scene":"3.4","text":"Bereinigung erfolgreich. Stille ist der einzige wahre Code.","words_max":10}]},"notes":"German only. Short internal monologues. JSON must be in one line."}

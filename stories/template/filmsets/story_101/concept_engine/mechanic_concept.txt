@@ -1,108 +1,90 @@
 CONCEPT ANALYSIS: CHAPTER 101 - SYSTEM INTEGRITY AUDIT V2.0
 
 1. BIO-INJECTION (DIAGNOSTIC OVERLAY)
-Manifestation: `DERMAL_DISPLAY_MATRIX`.
-Henoch’s physical form operates as a live debugger. The "sweat" described in standard exegesis is re-contextualized as `COOLANT_PURGE`.
-Visual: His epidermis transitions to a semi-transparent silicate material (`MATTE_GLASS`). Beneath the skin, the vascular system is replaced by luminescent fiber-optic veins pulsing neon-blue. Ge'ez error logs do not float in the air but scroll directly across his facial bone structure, projected from beneath the skin layers. His eyes are `LIDAR_PROJECTORS`, casting a visible, fanned red laser grid that sweeps across the geometry of the scene to verify polygon integrity.
+Manifestation: HOLOGRAPHIC_DERMIS_DISPLAY.
+Henoch does not merely project light; his skin surface acts as a `FLEXIBLE_OLED_CANVAS`.
+Visual: His skin shader is `MATTE_CERAMIC_WHITE` (0% Roughness). When the audit begins, the ceramic becomes translucent. Beneath the surface, we do not see veins, but `LIQUID_COOLING_CHANNELS` filled with fluorescent orange coolant (indicating system heat/stress).
+System Feedback: Error codes in Ge'ez are not floating in the air; they are burned directly into his iris textures, visible only when the camera is in Extreme Close-Up (`MACRO_LENS`). His blinks are mechanical shutter closures (`APERTURE_BLADES`).
 
 2. MESH-BREAK (RENDER FAILURE)
-Event: The "Kings of Ships" in the Storm (Verses 4-6).
-Visual: `PHYSICS_ENGINE_COLLAPSE`.
-The simulation of the "Sea" (Data Lake) exceeds the memory buffer allocated to the sector.
-- Phase 1 (Latency): The ocean surface stops moving fluidly and begins to "stutter" (repeating the same 10 frames).
-- Phase 2 (Voxelization): As the waves crash, the spray does not atomize into mist but breaks down into thousands of black, untextured cubes (`VOXEL_DECIMATION`).
-- Phase 3 (Clipping): Collision detection fails. The wooden hulls of the Phoenician ships pass ghost-like *through* the voxel-water. The sailors ("Kings") are glitching—their meshes stretch into infinity (`VERTEX_EXPLOSION`) as they attempt to interact with a non-solid environment.
+Event: The "Shutting of Heaven" and "The Storm".
+Visual: RESOURCE_STARVATION_ARTIFACTS.
+The simulation is being throttled. The engine cannot load high-resolution assets in time.
+- Phase 1 (The Sky): `SKYBOX_FAILURE`. The cloud textures fail to stream. The sky is replaced by a default `CHECKERBOARD_GRID` (Grey/White) that flickers in patches.
+- Phase 2 (The Rain): `PHYSICS_SUSPENSION`. The rain does not stop naturally. The raindrops freeze in mid-air and turn into rigid silver spheres (`DEFAULT_MESH_SPHERE`), waiting for physics calculation cycles that never arrive.
+- Phase 3 (The Ocean): `VERTEX_SPIKING`. The waves do not just turn to voxels; the vertices of the water mesh explode outward in infinite jagged spikes (`NON_MANIFOLD_GEOMETRY`), tearing through the hull of the ship.
 
 3. PACING-STRATEGIE (LATENCY RHYTHM)
-Style: Throttling & Lag.
-00s-15s (The Freeze): Extremely slow, low-framerate movement (12fps). Representing the "Closing of Heaven's Windows"—a reduction in bandwidth.
-15s-45s (The Glitch): Chaotic, jagged editing. Jump cuts that skip time forward. We see the same impact (wave hitting ship) repeated three times rapidly, each time with degraded texture resolution (`LOD_DROP`).
-45s-60s (The Purge): Absolute stillness. High-fidelity 60fps. The system has stabilized by isolating the corrupted elements.
+Style: BUFFERING_LAG.
+The edit mimics a struggling GPU.
+- 00s-20s (Packet Loss): The video stutters. We see Henoch turn his head, then the frame freezes for 0.5s, then snaps to the end of the movement (`FRAME_SKIP`).
+- 20s-50s (Rubber-Banding): The "Kings of Ships" sequence. The ship crashes into a wave, then instantly snaps back 2 seconds in time and crashes again, looping 3 times in rapid succession (`NETWORK_LAG_LOOP`).
+- 50s-65s (Crash to Desktop): The chaotic movement ends abruptly in a single frame of black, followed by the silent, static "Sandbox Boundary" scene.
 
 4. AUDIO-DESIGN (HARDWARE STRESS)
-Ambient: The "Wind" is replaced by the deafening drone of industrial server cooling fans and the high-pitched whine of coil whine.
-Events: "Thunder" is the sound of high-voltage capacitors arcing (dry, snapping electricity).
-Voice: Henoch’s voice is split. The "Human" track is a whisper. The "System" track is a synthetic TTS (Text-to-Speech) reading the same data 200ms later, creating a robotic delay effect.
-Foley: The ocean waves do not splash; they sound like piles of broken glass and ceramic tiles crashing together (rigid body physics collision).
+Ambient: `DATA_CENTER_DRONE`. A low-frequency hum (50Hz) layered with the sound of thousands of hard drive read/write heads clicking frantically (`SEEK_NOISE`).
+Events: The "Roar of the Sea" is replaced by `DIGITAL_DISTORTION_SCREAM` (Bitcrushed White Noise).
+Voice: Henoch’s voice is dry, stripped of reverb. It sounds like a generic Text-to-Speech synthesis that occasionally glitches on a syllable ("The w-w-w-water is bound").
 
 5. ÜBERGÄNGE (LOD_POPPING)
-Transition Logic: `NODE_SHIFT` & `LOD_SNAP`.
-No cinematic fades. The transition between the "Arid Earth" (Segment 2) and the "Stormy Sea" (Segment 4) is a hard cut on motion.
-Visual: One frame Henoch is standing in the dust; the next frame (`FRAME_SKIP`), he is on the deck of a ship. There is no travel. The background simply "pops" from one asset package to another, like a game level loading instantly.
+Transition Logic: ASSET_SWAP.
+No travel. The camera stays fixed. The world around Henoch changes instantly.
+Visual: Henoch stands in the center of the frame. In Frame A, he is in the arid desert. In Frame B, without him moving a pixel, the desert is replaced by the deck of the ship. The lighting changes instantly from "Harsh Sun" to "Storm Strobe". It is a `LEVEL_LOAD_INSTANT` event.
 
 6. FRAMEWORK & TIMING
-Total Duration: ~65 Seconds.
-Clip Count: 18 Clips (Expanded for complex glitch mechanics).
+Total Duration: 65 Seconds.
+Clip Count: 18 Clips.
 Structure:
-- [01-03] Heaven's Firewall (The Shut-Down) - 3 Clips.
-    - *Focus: The sky turning into a solid grid, stopping the rain.*
-- [04-06] The Drought (Resource Starvation) - 3 Clips.
-    - *Focus: Earth textures failing to load, wireframe ground.*
-- [07-14] The Glitch Storm (Ships & Chaos) - 8 Clips.
-    - *Focus: Voxel water, clipping ships, stretching sailors.*
+- [01-05] The Throttling (Sky & Rain) - 5 Clips.
+    - *Focus: Scanning the grid sky, frozen silver rain spheres, texture failure on ground.*
+- [06-14] The Glitch Storm (Ocean & Ship) - 9 Clips.
+    - *Focus: Rubber-banding ship motion, vertex spikes, sailors clipping through geometry, water voxelization.*
 - [15-18] The Sandbox Boundary (Verdict) - 4 Clips.
-    - *Focus: The hard edge where the ocean ends against the invisible wall.*
+    - *Focus: The invisible wall, the stillness of the limit, Henoch's final log entry.*
 
 7. DIALOG-CHECK
-Type: System Audit Log.
+Type: System Status Report.
 Speaker: Henoch (The Auditor).
-Interaction: Monologue directed at the "Log".
-Visual: No lip-sync focus. The voice is internal.
-Shot-Reverse-Shot: Used in the Storm sequence. Shot 1: Henoch observing. Shot 2: The Ship glitching. Shot 3: Henoch recording the error.
+Interaction: Monologue to Internal Storage.
+Shot-Reverse-Shot:
+- Shot A: Henoch (MCU) observing the error. "The partition is sealed."
+- Shot B: POV (Point of View) showing the error (e.g., the water hitting the invisible wall).
+- Shot C: Henoch (Close-Up) recording the data. "User compliance is null."
 
 8. SPATIAL CONTEXT (ARRIVAL)
-Method: `NODE_SHIFT` (Instant Teleportation).
-Establishing Shot: Orthographic Satellite View. A grid map of the "Earth" simulation. A cursor blinks at a coordinate.
-Arrival: Instant manifestation. Henoch does not fade in; he exists in frame 1 where he did not exist in frame 0.
+Method: COORDINATE_INJECTION.
+Establishing Shot: Not of a landscape, but of a `WIRE_FRAME_MAP`.
+Action: A red cursor blinks at sector [101, 0, 0].
+Arrival: Henoch snaps into existence (`SPAWN_EVENT`). He does not walk into frame; the frame renders him instantly.
 
 9. PROMPT EXAMPLES (WAN 2.5 SPEC)
 
-**[CLIP 02: THE_NETWORK_THROTTLE]**
-> **[BLOCK 1: SUBJECT_CONTEXT]**
-> **Subject:** Rain Sequence. **Focus:** Data Interruption.
-> **[BLOCK 2: ENVIRONMENT_&_PHYSICS]**
-> **Location:** Arid Sector 101. **Sky:** A grey, overcast sky that is pixelating into a coarse black grid (`SKYBOX_FAILURE`). **Event:** `PHYSICS_FREEZE`. Raindrops are suspended in mid-air. They are not water, but chrome spheres. They stop falling simultaneously, hanging frozen against the grid sky.
-> **[BLOCK 3: LIGHTING_&_VFX]**
-> **Lighting:** Flat, artificial ambient light. **VFX:** A subtle "BUFFERING..." progress ring rotates slowly in the center of the frame, overlaid on the world.
-> **[BLOCK 4: CAMERA]**
-> **Shot:** Low Angle, looking up at the frozen rain. **Movement:** Slow dolly sideways. **Lens:** 24mm.
-
-**[CLIP 08: THE_VOXEL_IMPACT]**
+**[CLIP 03: THE_SUSPENDED_RAIN]**
 > **[BLOCK 1: SUBJECT_ANATOMY]**
-> **Subject:** Phoenician Galley (The Ship). **Material:** Wet wood, heavy grain, dark tar.
-> **[BLOCK 2: ENVIRONMENT_&_FLUIDS]**
-> **Location:** The Glitch Ocean. **Fluid Dynamics:** `VOXEL_CONVERSION`. A massive wave crashes over the bow. The water is not fluid; it breaks into thousands of sharp, black cubic voxels that tumble over the deck like plastic blocks.
-> **[BLOCK 3: TECH_LAYER]**
-> **Glitch:** The ship's mast flickers in and out of existence (`ASSET_FLICKER`).
-> **[BLOCK 4: CINEMATOGRAPHY]**
-> **Shot:** Wide Action Shot. **Movement:** Handheld, violent shake. **Lighting:** Strobe lightning revealing the cubic geometry of the water.
-
-**[CLIP 10: THE_CLIPPING_SAILOR]**
-> **[BLOCK 1: SUBJECT_ACTION]**
-> **Subject:** The "King" (Sailor/User). **Identity:** Ancient Phoenician Captain. **Costume:** Tyrian purple robes.
+> **Actor:** Henoch (System Auditor). **Skin:** Translucent `MATTE_CERAMIC` revealing glowing orange coolant channels in the neck. **Eyes:** Black camera shutters, closed.
 > **[BLOCK 2: PHYSICS_ERROR]**
-> **Action:** He attempts to grab the railing. His hand passes straight through the wood (`NO_COLLISION`). He screams, and his jaw mesh stretches down to the floor (`VERTEX_STRETCH`), creating a terrifying visual artifact.
-> **[BLOCK 3: VISUALS]**
-> **VFX:** Red "ERROR" bounding boxes appear briefly around his hands.
-> **[BLOCK 4: CAMERA]**
-> **Shot:** Medium Close-Up. **Focus:** The hand passing through the wood. **Lens:** 50mm.
+> **Event:** `PHYSICS_PAUSE`. Thousands of rain droplets are frozen in the air around him. They are perfectly spherical, reflective chrome balls (`DEFAULT_SPHERES`). They hang motionless in a 3D grid pattern.
+> **[BLOCK 3: ENVIRONMENT_FAIL]**
+> **Sky:** The clouds have failed to render. The sky is a harsh, high-contrast black-and-white checkerboard texture (`MISSING_TEXTURE`).
+> **[BLOCK 4: CINEMATOGRAPHY]**
+> **Shot:** Medium Shot. **Movement:** Slow 360-degree orbit around the frozen Henoch and the frozen rain. **Lens:** 35mm.
 
-**[CLIP 15: THE_SANDBOX_WALL]**
-> **[BLOCK 1: ENVIRONMENT_DETAIL]**
-> **Location:** The Shoreline. **Contrast:** Raging digital ocean vs. Static white grid.
+**[CLIP 09: THE_RUBBER_BAND_SHIP]**
+> **[BLOCK 1: SUBJECT_VEHICLE]**
+> **Subject:** Phoenician Trade Ship. **Texture:** Low-resolution wood texture (`LOD_0`), pixelated and blurry.
+> **[BLOCK 2: PHYSICS_LOOP]**
+> **Action:** `NETWORK_LAG`. The ship pitches violently forward into a wave. Just as it hits, the video glitches and the ship snaps back to its starting position, repeating the crash motion three times in a jagged loop.
+> **[BLOCK 3: FLUID_DYNAMICS]**
+> **Fluid:** The ocean is not water. It is a mass of dark, jagged triangles (`LOW_POLY_MESH`) colliding with the hull without splashing.
+> **[BLOCK 4: CINEMATOGRAPHY]**
+> **Shot:** Wide Action Shot. **Movement:** Handheld camera that shakes in sync with the glitch loops. **Lighting:** Stroboscopic lightning flashes (Cyan/White).
+
+**[CLIP 16: THE_SANDBOX_LIMIT]**
+> **[BLOCK 1: ENVIRONMENT_BOUNDARY]**
+> **Location:** The Edge of the Simulation. **Subject:** The "Sand" described in the text.
 > **[BLOCK 2: PHYSICS_CONSTRAINT]**
-> **Action:** The black voxel water rushes up the beach but hits an invisible vertical barrier. It flattens perfectly against the air, sliding up like a texture on glass, unable to touch the sand.
+> **Action:** The chaotic ocean waves rush towards the shore but stop dead at a precise straight line. The water piles up vertically against an invisible wall, sliding upwards like liquid on a window pane.
 > **[BLOCK 3: VISUALS]**
-> **VFX:** A hexagonal orange "WALL" grid flashes on impact.
-> **[BLOCK 4: CAMERA]**
-> **Shot:** Eye-Level Profile. **Focus:** The unnatural straight line where water meets the barrier. **Lens:** 85mm.
-
-**[CLIP 18: THE_FINAL_LOG]**
-> **[BLOCK 1: SUBJECT_IDENTITY]**
-> **Actor:** Henoch (Auditor). **Skin:** Translucent gray silicate (`MATTE_GLASS`), revealing glowing blue fiber-optic veins underneath.
-> **[BLOCK 2: APPAREL]**
-> **Garment:** Obsidian Exosuit, slick with leaking coolant fluid.
-> **[BLOCK 3: LIGHTING_&_ATMOSPHERE]**
-> **Lighting:** A harsh, vertical "Interrogation" spotlight. Background is a void of scrolling code.
-> **[BLOCK 4: CAMERA]**
-> **Shot:** Extreme Close-Up on eyes. **Action:** The red `LIDAR` grid projected from his eyes shuts off. The scrolling text on his cheekbones stops. He blinks, and his eyes turn solid black. **Lens:** 100mm Macro.
+> **VFX:** A faint hexagonal `WORLD_BORDER` grid glows orange where the water touches the invisible barrier.
+> **[BLOCK 4: CINEMATOGRAPHY]**
+> **Shot:** Low Angle Profile. **Focus:** The vertical wall of water pressing against the air. **Lens:** 50mm.

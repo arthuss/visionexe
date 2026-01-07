@@ -1,0 +1,101 @@
+{
+  "id": "SCENE_LINE_9",
+  "name": "Line 9",
+  "type": "scene",
+  "card": {
+    "description": "Line 9 is a cinematic, photorealistic industrial corridor that fuses ancient Ethiopian and Egyptian motifs with incomprehensible technology. The 200‑meter passage is lined with towering basalt pillars etched in hieroglyphs, polished obsidian panels, and woven metal plates patterned with lotus motifs. A central luminous line of crystalline conduits runs the length of the corridor, pulsing with bio‑luminescent light and acting as both power source and visual focal point. Subtle mineral mist reflects the glow, creating a grounded, tactile atmosphere of industrial mysticism.",
+    "tags": [
+      "industrial",
+      "ancient-tech",
+      "Ethiopian",
+      "Egyptian",
+      "mysticism",
+      "photorealistic",
+      "tactile",
+      "corridor",
+      "line"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** A vast, elongated corridor 200 m long, with towering basalt pillars etched in ancient hieroglyphs and polished obsidian panels interspersed along the walls.",
+      "**Face/Sensors:** A central luminous line of crystalline conduits runs the corridor’s spine, pulsing with bio‑luminescent light that reacts to ambient vibrations.",
+      "**Clothing/Armor:** Walls are covered in woven metal plates fused with copper alloys, patterned with Egyptian lotus motifs and reinforced with basalt ribs.",
+      "**Key Features:** Embedded glyphs glow in response to motion, translucent crystalline tubes channel energy, and a fine mist of mineral dust reflects the light, adding depth and texture."
+    ],
+    "evolution": [
+      "Phase 1 (Construction): Raw basalt pillars, scaffolding, and exposed metal plates; minimal illumination.",
+      "Phase 2 (Operational): Fully lit corridor with glowing glyphs, active crystalline conduits, and misted atmosphere."
+    ],
+    "props": [
+      "Crystalline conduit",
+      "Ancient glyph tablet",
+      "Polished obsidian panel",
+      "Woven metal plate"
+    ],
+    "prompt_keywords": [
+      "industrial corridor",
+      "ancient Ethiopian",
+      "Egyptian motifs",
+      "crystalline conduits",
+      "bio‑luminescent",
+      "photorealistic",
+      "tactile",
+      "mysticism"
+    ],
+    "prompt_block": "A photorealistic, cinematic shot of a vast industrial corridor inspired by ancient Ethiopian and Egyptian aesthetics, with towering basalt pillars etched with hieroglyphs, polished obsidian panels, and a central luminous line of crystalline conduits pulsing with bio‑luminescent light. The walls are covered in woven metal plates patterned with lotus motifs, and subtle mineral mist reflects the glow, creating a grounded, tactile atmosphere of industrial mysticism.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "A fully operational industrial corridor with glowing glyphs and crystalline conduits.",
+        "prompt_keywords": [
+          "industrial corridor",
+          "ancient Ethiopian",
+          "Egyptian motifs",
+          "crystalline conduits",
+          "bio‑luminescent",
+          "photorealistic",
+          "tactile",
+          "mysticism"
+        ],
+        "prompt_block": "A photorealistic, cinematic shot of a vast industrial corridor inspired by ancient Ethiopian and Egyptian aesthetics, with towering basalt pillars etched with hieroglyphs, polished obsidian panels, and a central luminous line of crystalline conduits pulsing with bio‑luminescent light. The walls are covered in woven metal plates patterned with lotus motifs, and subtle mineral mist reflects the glow, creating a grounded, tactile atmosphere of industrial mysticism."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_LINE_9",
+    "name": "Line 9",
+    "type": "scene",
+    "aliases": [
+      "Line 9"
+    ],
+    "roles": [
+      "unknown"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1041",
+      "row_244",
+      "row_425",
+      "row_641",
+      "row_729",
+      "row_782"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 36,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

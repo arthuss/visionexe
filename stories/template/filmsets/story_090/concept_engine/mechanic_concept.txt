@@ -1,200 +1,207 @@
 CONCEPT: SYSTEM_MIGRATION_&_ASSET_OVERHAUL (CHAPTER 90) VERSION 2.0
 
-### TECHNICAL BRIEFING (MECHANICS & AESTHETICS)
+### TECHNICAL BRIEFING & MECHANICS
 
 1. BIO-INJECTION (THE OBSERVER):
-Henoch befindet sich im `ADMIN_OBSERVER_MODE` innerhalb einer `MERKABAH_UNIT` (rotierendes Tetraeder-Kraftfeld, transparent).
-Physische Manifestation: Sein Körper ist starr (Rigid Body), verbunden mit der Kapsel durch `NEURAL_UPLINK_CABLES` im Nacken. Seine Augen sind durch `HUD_OVERLAY_CONTACTS` bedeckt, die ihm Wireframe-Daten über die Szene legen. Keine Atmung sichtbar, nur minimale Kühlrippen-Bewegung am Anzug.
+Henoch befindet sich im `PASSIVE_OBSERVER_STATE` innerhalb der `MERKABAH_POD_V4` (rotierende transparente Polyeder-Konstruktion).
+Physische Manifestation: Der Körper ist im "Rigid Body"-Status fixiert. Ein massives, verchromtes `NEURAL_SHUNT_CABLE` (Durchmesser 5cm) ist direkt in den Hirnstamm am Nacken eingeklinkt. Iris ist komplett weiß (`EMPTY_DISPLAY`), darüber liegen digitale `HUD_GRID_OVERLAYS` (Cyan), die Objektdaten der Szene in Echtzeit parsen. Keine biologische Mikromimik, nur Kühlflüssigkeit, die durch Schläuche im Anzug pulsiert.
 
 2. MESH-BREAK (DECONSTRUCTION):
-Die Zerstörung ("Abyss" & "House Folding") ist ein `GEOMETRY_SHADER_EFFECT`.
-Der Boden reißt nicht organisch auf, sondern bricht entlang des Polygon-Grids (Voxel-Desintegration).
-Beim "Falten" des Hauses: Die Wände gleiten lautlos in den Boden (Linear Translation), Texturen werden grau (Desaturation) und dann transparent (Alpha Clip), bis nur noch das Wireframe kurz aufblitzt und verschwindet.
+Die Zerstörung erfolgt nicht durch physikalische Explosion, sondern durch `DATA_DECAY`.
+Beim "Aufreißen" der Erde: Der Boden dekompiliert. Texturen werden schwarz, dann Wireframe, dann verschwinden die Polygone Block für Block (`VORONOI_FRACTURE_PATTERN`), als würde der VRAM-Puffer geleert. Darunter liegt kein Magma, sondern ein `VOID_LAYER` aus statischem Rauschen.
+Beim "Falten" des Hauses: Wände klappen ohne Massenträgheit in den Boden (`ZERO_GRAVITY_FOLDING`). Es ist ein sauberes, mechanisches Versenken von Assets.
 
-3. PACING-STRATEGIE (HYBRID):
-Phase 1 (Corruption/War): Hektische, kurze Schnitte (Stroboskop-Effekt). Glitch-Artefakte bei jedem Treffer.
-Phase 2 (The Lord/Purge): Extreme Zeitlupe (High Frame Rate). Die Machtdemonstration ist statisch und überwältigend. "Bullet Time" für die fallenden Sterne.
-Phase 3 (Deployment/Migration): Flüssige, algorithmische Bewegungen. Prozedurale Animationen. 24fps Stable Sync.
+3. PACING-STRATEGIE (HYBRID_TIMELINE):
+Phase 1 (Conflict): `FRAME_SKIPPING_CHAOS`. 12fps für die Bewegungen der Raben, um "Uncanny Valley" und glitchartige Aggression zu erzeugen.
+Phase 2 (Admin Entry): `BULLET_TIME_FREEZE`. Wenn der Herr den Raum betritt, friert die Frame-Rate der Umgebung auf 0. Die Kamera bewegt sich in Echtzeit (24fps) durch die eingefrorene Szene.
+Phase 3 (Migration): `FLUID_SIMULATION`. Das neue Haus entfaltet sich in hyper-flüssigen 60fps Animationen, um die Überlegenheit der neuen Hardware zu demonstrieren.
 
-4. AUDIO-DESIGN (INDUSTRIAL):
-Statt Chören: `SERVER_ROOM_AMBIENCE` (Tiefes Brummen).
-Angriff der Raben: `HIGH_FREQUENCY_SCREECH` (Modem-Glitch).
-Ankunft des Herrn: `SEISMIC_BASS_DROP` (Sub-Woofer Druck).
-Faltung des Hauses: `HYDRAULIC_PRESS_SOUNDS` und `VACUUM_SEAL_CLICKS`.
-Transformation der Stiere: `BIOMETRIC_SCAN_PING`.
+4. AUDIO-DESIGN (SERVER_FARM_AESTHETICS):
+Basis-Ambience: Ein tiefes, konstantes 50Hz `MAINS_HUM` (Trafo-Brummen).
+Angriff: `DIAL_UP_SCREECH` moduliert mit Raubvogel-Schreien.
+Admin-Präsenz: Stille. Absolute digitale Stille (Mute Channel), gefolgt von einem `SUB_BASS_THROB` bei jedem Schritt.
+Transformation: `BIOS_POST_BEEP` und das Geräusch von tausenden synchron laufenden Festplatten-Lese-Köpfen (`CLICK_SWEEP`).
 
 5. ÜBERGÄNGE (TRANSITIONS):
-Vom Kampf zur Purge: `DATAMOSH_TRANSITION` (Pixel ziehen nach).
-Vom alten zum neuen Haus: `LIDAR_SCAN_SWEEP` (Ein Laser-Scanner läuft über das Bild, hinter ihm ist die neue Geometrie).
+`LIDAR_SCAN_WIPE`: Eine vertikale Lichtwand fährt durch das Bild. Links davon ist das alte Asset, rechts davon das neue oder die Leere.
+`DATAMOSH_SMEAR`: Bei schnellen Bewegungen der Raben ziehen Pixel nach, als ob der Codec überlastet ist.
 
 6. SPATIAL CONTEXT (ARRIVAL):
-Henoch schwebt stationär auf 500m Höhe (Orthographic Top-Down View). Er zoomt optisch in die Szenen hinein. Kein körperliches Reisen, nur Fokus-Verschiebung der Kameras.
+Henoch wird nicht teleportiert. Die Merkabah-Kapsel führt einen `SUB_ORBITAL_DROP` aus. Wir beginnen mit einem `SATELLITE_VIEW` (Orthographic), zoomen rapide durch Wolkenschichten (`VOLUMETRIC_CLOUDS`), bis das Grid sichtbar wird. Er schwebt dann stationär als Drohne über dem Geschehen.
 
 ---
 
-### SCENE BREAKDOWN & PRODUCTION PLAN (18 CLIPS)
+### SCENE BREAKDOWN & PRODUCTION PLAN (20 CLIPS)
 
-#### PHASE 1: SYSTEM ALERT & ESCALATION (SEGMENT 6-12)
-Die Lämmer (neue Instanzen) versuchen, das Protokoll neu zu schreiben. Das große Horn ist ein Admin-Key.
+#### PHASE 1: COMPLIANCE FAILURE (SEGMENT 6-12)
+Die Sub-Routinen (Lämmer) entwickeln autonome Admin-Tools (Hörner).
 
-[CLIP 01: THE_WAKE_UP_CALL]
-Die Lämmer schreien die Schafe an.
-**[BLOCK 1: SUBJECT_ACTION]**
-**Subject:** The White Lambs. **Action:** They are bleating, but the sound is visualized as `RED_WAVEFORM_RIPPLES` emitting from their mouths. **Target:** The older sheep, whose eyes are covered by black censor-bars (`BLIND_STATUS`).
-**[BLOCK 2: ENVIRONMENT]**
-**Location:** The Grazing Grid. Floor is dark glass with green grid lines.
-**[BLOCK 3: CINEMATOGRAPHY]**
-**Camera:** Low Angle. **Focus:** Sharp on the red waveforms hitting the deaf sheep.
-
-[CLIP 02: THE_ADMIN_KEY_MANIFESTS]
-Einem Lamm wächst das Große Horn.
-**[BLOCK 1: SUBJECT_DETAILS]**
-**Subject:** Prime Lamb Instance. **Transformation:** From its forehead, a `CRYSTALLINE_OBSIDIAN_HORN` extrudes rapidly. It is not organic; it is a jagged, glowing data-spike.
-**[BLOCK 2: LIGHTING]**
-**Effect:** The horn emits a harsh violet light that illuminates the dark grid.
-**[BLOCK 3: CINEMATOGRAPHY]**
-**Camera:** Extreme Close-Up on the forehead. Macro lens. Mechanical growth animation.
-
-[CLIP 03: RAVEN_SWARM_ATTACK]
-Die Raben (Security Bots) greifen an.
+[CLIP 01: SUBROUTINE_ACTIVATION]
+Die Lämmer versuchen die blinden Schafe zu wecken.
 **[BLOCK 1: SUBJECT_ANATOMY]**
-**Actors:** The Ravens. **Appearance:** Angular, low-poly mechanical birds made of matte black metal. Red LED eyes. **Action:** They dive-bomb the Horned Lamb in a coordinated swarm algorithm.
-**[BLOCK 2: VFX]**
-**Effect:** Impact sparks are digital glitches, not fire.
+**Actors:** The White Lambs (Instance V2). **Physique:** Smaller, sleek android-sheep. White porcelain plating. **Action:** They emit a conical `WAKE_ON_LAN` pulse (Red visual waveform) from their vocal units aimed at the older, rust-covered Sheep.
+**[BLOCK 2: CINEMATOGRAPHY]**
+**Camera:** Low Angle shot looking up at the Lamb. Focus on the red waveform distorting the air.
+
+[CLIP 02: HARDWARE_UPGRADE_EVENT]
+Das Admin-Horn wächst.
+**[BLOCK 1: SUBJECT_TRANSFORMATION]**
+**Subject:** Prime Lamb Instance. **Action:** A glitch-artifact appears over the forehead. The mesh tears open, and a `BLACK_OBSIDIAN_SPIKE` extrudes mechanically. It locks into place with a metallic *clack*.
+**[BLOCK 2: VFX_LIGHTING]**
+**Effect:** Sparks of purple code fly from the insertion point. Lighting is dark, illuminated only by the purple sparks.
 **[BLOCK 3: CINEMATOGRAPHY]**
-**Camera:** Shaky Cam (Handheld style). High shutter speed to catch the frantic motion.
+**Camera:** Extreme Macro Close-Up on the forehead mesh breaking.
 
-#### PHASE 2: ROOT ACCESS & INTERVENTION (SEGMENT 13-19)
-Der "Herr der Schafe" (Root User) loggt sich ein.
+[CLIP 03: DEFENSE_DAEMON_SWARM]
+Die Raben (Security Bots) initiieren Abfangmanöver.
+**[BLOCK 1: ACTOR_DETAILS]**
+**Actors:** The Ravens. **Design:** Low-poly, sharp-edged stealth drones shaped like birds. Vantablack material absorbs all light. **Action:** They calculate trajectory vectors (visible green lines) and dive towards the Horned Lamb.
+**[BLOCK 2: CINEMATOGRAPHY]**
+**Camera:** Shaky Cam, tracking the swarm. High shutter speed (Staccato motion).
 
-[CLIP 04: THE_USER_LOGS_IN]
-Der Herr erscheint.
-**[BLOCK 1: SUBJECT_ACTION]**
-**Subject:** The Lord of Sheep (Avatar). **Appearance:** A silhouette composed of pure blinding white light (`VOLUMETRIC_EMISSION_100%`). No facial features, just high-intensity luminance. **Action:** He steps onto the grid. The ground ripples like liquid mercury under his feet.
-**[BLOCK 2: ENVIRONMENT]**
-**Reaction:** The mechanical Ravens freeze in mid-air (`PROCESS_SUSPENDED`).
+[CLIP 04: THE_KEY_DISPUTE]
+Kampf um das Horn.
+**[BLOCK 1: ACTION_PHYSICS]**
+**Action:** A Raven latches onto the Horn. Sparks fly. The Lamb shakes its head violently. The Horn glows intensely, burning the Raven's claws.
+**[BLOCK 2: CINEMATOGRAPHY]**
+**Camera:** Close-Up. Chaos. Fast cuts.
+
+#### PHASE 2: ROOT INTERVENTION (SEGMENT 13-19)
+Der System-Administrator greift ein.
+
+[CLIP 05: ADMIN_LOGIN_SEQUENCE]
+Der Herr betritt die Simulation.
+**[BLOCK 1: CHARACTER_DESIGN]**
+**Actor:** The Lord of Sheep (Root Avatar). **Appearance:** A humanoid void of pure white luminance (`EMISSION_STRENGTH_500`). No surface detail visible, just a silhouette cutting a hole in the darkness.
+**[BLOCK 2: ENVIRONMENT_REACTION]**
+**Action:** As his foot touches the grid, the Ravens freeze mid-air (`PAUSE_COMMAND`). The grid lines under him turn from green to blinding gold.
 **[BLOCK 3: CINEMATOGRAPHY]**
-**Camera:** Wide Shot. High contrast (Silhouette against the dark).
+**Camera:** Wide Shot. High contrast. Symmetry centered.
 
-[CLIP 05: THE_EARTH_SPLIT]
-Die Erde reißt auf.
+[CLIP 06: PARTITION_SPLIT]
+Die Erde teilt sich.
 **[BLOCK 1: ENVIRONMENT_PHYSICS]**
-**Subject:** The Ground Grid. **Action:** A perfect geometric chasm opens up. The edges are straight lines, glowing orange. **Detail:** Inside the chasm is not rock, but infinite cascading binary code (`MATRIX_RAIN` style but red).
-**[BLOCK 2: CINEMATOGRAPHY]**
-**Camera:** Top-Down Bird's Eye View. The split divides the frame perfectly in half.
-
-[CLIP 06: THE_KILL_SWITCH]
-Das Schwert wird gegeben.
-**[BLOCK 1: PROP_DETAILS]**
-**Prop:** The Great Sword. **Appearance:** A long bar of glowing blue plasma, handleless. A raw energy beam. **Action:** It floats from the Lord's hand to the Horned Lamb.
-**[BLOCK 2: CINEMATOGRAPHY]**
-**Camera:** Tracking shot following the sword. Shallow depth of field.
-
-#### PHASE 3: GARBAGE COLLECTION / PURGE (SEGMENT 20-27)
-Die Löschung der korrupten Daten.
-
-[CLIP 07: STARS_IN_CHAINS]
-Die gefallenen Sterne (Hardware Nodes) werden verurteilt.
-**[BLOCK 1: SUBJECT_DETAILS]**
-**Subjects:** The Fallen Stars. **Appearance:** Glowing geometric dodecahedrons, cracked and leaking black smoke. **Action:** They are bound by laser-chains (`LIGHT_BEAMS`) held by invisible forces.
-**[BLOCK 2: ENVIRONMENT]**
-**Location:** The Edge of the Abyss.
+**Subject:** The Ground Plane. **Action:** A straight geometric cut appears. The ground slides apart on a frictionless rail system.
+**[BLOCK 2: VFX_DETAILS]**
+**Detail:** Inside the chasm, we see the "Source Code" – cascading red binary strings (`MATRIX_RAIN`) falling into infinite blackness.
 **[BLOCK 3: CINEMATOGRAPHY]**
-**Camera:** Static wide shot. The scale is monumental.
+**Camera:** Top-Down (God View). Perfect geometric split.
 
-[CLIP 08: EXECUTING_DELETE_COMMAND]
+[CLIP 07: PERMISSION_GRANT]
+Das Schwert wird übergeben.
+**[BLOCK 1: PROP_MECHANICS]**
+**Prop:** The Sword. **Design:** A raw `PLASMA_BEAM` constrained by a magnetic field. No hilt, just pure energy. **Action:** It transfers from the Lord’s light-field to the Sheep. It hovers next to the Sheep, waiting for input.
+**[BLOCK 2: CINEMATOGRAPHY]**
+**Camera:** Side profile tracking shot.
+
+#### PHASE 3: DEPRECATED ASSET PURGE (SEGMENT 20-27)
+Löschung korrupter Knoten.
+
+[CLIP 08: NODE_FAILURE_ANALYSIS]
+Die gefallenen Sterne werden gebunden.
+**[BLOCK 1: SUBJECT_DETAILS]**
+**Subjects:** The Fallen Stars. **Appearance:** Massive icosahedrons (D20 geometry), texture is cracked burnt silicon. They pulsate with a dying red light. **Action:** They are wrapped in `LASER_GRID_NETS`.
+**[BLOCK 2: CINEMATOGRAPHY]**
+**Camera:** Low angle looking up at the massive captured objects.
+
+[CLIP 09: BATCH_DELETE_EXECUTION]
 Der Wurf in den Abgrund.
-**[BLOCK 1: ACTION_PHYSICS]**
-**Action:** The Stars and the 70 Shepherds (corrupted humanoid meshes) are pushed into the fiery abyss. **VFX:** As they cross the threshold, they dissolve into pixels (`VOXEL_DISINTEGRATION`).
+**[BLOCK 1: PHYSICS_SIMULATION]**
+**Action:** The Stars and corrupted Shepherds (glitching humanoid meshes) are pushed over the edge. **VFX:** The moment they cross the event horizon of the chasm, they de-rez into voxels and vanish.
+**[BLOCK 2: CINEMATOGRAPHY]**
+**Camera:** Slow Motion (120fps). Focus on the disintegration effect.
+
+[CLIP 10: USER_ACCOUNT_TERMINATION]
+Die blinden Schafe werden gelöscht.
+**[BLOCK 1: ACTION_LOGIC]**
+**Subjects:** The Blind Sheep. **Action:** A `DELETE_SWEEP` (invisible vertical plane) passes through the flock. As it passes, sheep simply cease to exist. No explosion, just instant removal. Empty space remains.
+**[BLOCK 2: CINEMATOGRAPHY]**
+**Camera:** Panning shot. The flock thins out in real-time.
+
+#### PHASE 4: INFRASTRUCTURE SWAP (SEGMENT 28-32)
+Austausch der Umgebungsumgebung.
+
+[CLIP 11: LEGACY_ARCHITECTURE_FOLD]
+Das alte Haus wird archiviert.
+**[BLOCK 1: ANIMATION_STYLE]**
+**Subject:** The Old Ruins. **Action:** The stone walls segment into square tiles. They fold inwards and downwards, sliding into slots in the floor. `MECHANICAL_RETRACTION`.
+**[BLOCK 2: SOUND_VISUAL]**
+**VFX:** Minimal dust. Precision engineering.
+**[BLOCK 3: CINEMATOGRAPHY]**
+**Camera:** Time-lapse style. Fast, rhythmic motion.
+
+[CLIP 12: BUFFER_CLEAR]
+Die leere Plattform.
+**[BLOCK 1: ENVIRONMENT]**
+**Location:** The Foundation Pad. **Appearance:** A perfect, highly reflective mirror surface ("The Sea of Glass"). The reflection of the sky is unbroken.
+**[BLOCK 2: CINEMATOGRAPHY]**
+**Camera:** Static wide shot. Serene emptiness.
+
+[CLIP 13: ASSET_INJECTION]
+Das neue Haus wird geladen.
+**[BLOCK 1: MODEL_DETAILS]**
+**Subject:** New Jerusalem Asset. **Design:** A fractal superstructure. White gold filigree over translucent glass. Non-Euclidean geometry hints. **Action:** It descends from the cloud layer on heavy `GRAVITY_TETHER_BEAMS` (Blue vertical lasers).
+**[BLOCK 2: CINEMATOGRAPHY]**
+**Camera:** Aerial shot looking down at the shadow of the house covering the plain.
+
+[CLIP 14: DOCKING_SEQUENCE]
+Das Haus landet.
+**[BLOCK 1: IMPACT_PHYSICS]**
+**Action:** The structure locks into the foundation. **VFX:** A massive `PNEUMATIC_VENTING` of white steam/gas from the base 360 degrees around. The ground vibrates.
+**[BLOCK 2: CINEMATOGRAPHY]**
+**Camera:** Ground level. The steam blast rushes towards the camera lens.
+
+#### PHASE 5: SCHEMA STANDARDIZATION (SEGMENT 33-38)
+Globales Update auf Version 2.0.
+
+[CLIP 15: MASTER_TEMPLATE_SPAWN]
+Der Weiße Stier erscheint.
+**[BLOCK 1: CHARACTER_DESIGN]**
+**Actor:** The White Bull (Prototype). **Material:** `NANOFIBER_WEAVE_WHITE`. Eyes are glowing blue camera lenses. Horns are matte black carbon. **Action:** It stands perfectly still in the center of the New House atrium.
 **[BLOCK 2: LIGHTING]**
-**Lighting:** Intense red under-lighting from the abyss.
+**Lighting:** Clinical white studio lighting. Shadowless.
 **[BLOCK 3: CINEMATOGRAPHY]**
-**Camera:** Slow Motion (120fps). Emphasizing the moment of deletion.
-
-[CLIP 09: THE_BLIND_SHEEP_PURGE]
-Löschung der korrupten User.
-**[BLOCK 1: SUBJECT_ACTION]**
-**Subjects:** The Blind Sheep. **Action:** They simply vanish. Pop. Pop. Pop. (`INSTANT_DESPAWN`). No pain, just removal from the render pipeline.
-**[BLOCK 2: CINEMATOGRAPHY]**
-**Camera:** Panning shot across the flock. Gaps appear where sheep used to be.
-
-#### PHASE 4: HOT-SWAP / DEPLOYMENT (SEGMENT 28-32)
-Das alte Haus wird entfernt, das neue geladen.
-
-[CLIP 10: ARCHIVING_LEGACY_ASSETS]
-Das alte Haus wird gefaltet.
-**[BLOCK 1: ARCHITECTURE_ANIMATION]**
-**Subject:** The Old Temple Ruins. **Action:** The stone walls fold inward like an origami puzzle. They flatten into 2D planes and slide into the ground slots.
-**[BLOCK 2: SOUND_VISUALIZATION]**
-**VFX:** Dust clouds are minimal; it's a clean mechanical retraction.
-**[BLOCK 3: CINEMATOGRAPHY]**
-**Camera:** Time-lapse style. Fast motion.
-
-[CLIP 11: PILLAR_REMOVAL]
-Die Säulen werden entfernt.
-**[BLOCK 1: SUBJECT_ACTION]**
-**Subject:** The Massive Pillars. **Action:** A "Selection Box" (Green wireframe outline) appears around them. Then they blink out of existence.
-**[BLOCK 2: ENVIRONMENT]**
-**Location:** The now empty Foundation Pad. A vast, flat, clean mirror surface.
-**[BLOCK 3: CINEMATOGRAPHY]**
-**Camera:** Static. The sudden emptiness is the focus.
-
-[CLIP 12: DEPLOYING_NEW_JERUSALEM]
-Das neue Haus kommt vom Himmel.
-**[BLOCK 1: SUBJECT_DETAILS]**
-**Subject:** The New House. **Appearance:** A massive, complex fractal structure made of white gold and glass. **Action:** It descends slowly from the clouds, carried by anti-gravity tethers.
-**[BLOCK 2: SCALE]**
-**Detail:** It casts a shadow over the entire visible plain.
-**[BLOCK 3: CINEMATOGRAPHY]**
-**Camera:** Low Angle, looking up. The structure fills the sky.
-
-[CLIP 13: DOCKING_COMPLETE]
-Das Haus rastet ein.
-**[BLOCK 1: ACTION_PHYSICS]**
-**Action:** The structure touches the ground. **VFX:** A shockwave of light (White Ring) expands radially from the impact point, cleaning the ground textures as it passes.
-**[BLOCK 2: CINEMATOGRAPHY]**
-**Camera:** Wide Aerial Shot. The ring of light expanding.
-
-#### PHASE 5: SCHEMA MIGRATION (SEGMENT 33-38)
-Transformation zum Weißen Stier.
-
-[CLIP 14: THE_MASTER_TEMPLATE]
-Geburt des Weißen Stiers.
-**[BLOCK 1: SUBJECT_ANATOMY]**
-**Actor:** The White Bull (System Prototype). **Physique:** Synthetic perfection. White carbon-fiber skin, glowing blue eyes, large obsidian horns. **Action:** It stands in the center of the New House, motionless, radiating data.
-**[BLOCK 2: CINEMATOGRAPHY]**
 **Camera:** Slow dolly in. Hero Shot.
 
-[CLIP 15: DATA_PROPAGATION]
-Die anderen Tiere verwandeln sich.
-**[BLOCK 1: VFX_MORPH]**
-**Subjects:** The diverse animals (Sheep, Birds, etc.). **Action:** A white scan-line passes over them. **Transformation:** As the line passes, their meshes morph into the White Bull geometry. They become uniform.
+[CLIP 16: CLASS_MIGRATION_CLOSEUP]
+Ein Schaf verwandelt sich.
+**[BLOCK 1: MORPH_FX]**
+**Subject:** A surviving Sheep. **Action:** A `SCAN_LINE` (Bright white laser plane) passes over the sheep from nose to tail. **Effect:** Behind the line, the mesh geometry rewrites itself. Wool becomes smooth fiber skin. The shape morphs into the Bull topology.
 **[BLOCK 2: CINEMATOGRAPHY]**
-**Camera:** Medium Shot focusing on a single sheep transforming.
+**Camera:** Side profile. Macro focus on the morph line.
 
-[CLIP 16: SEALING_THE_SWORD]
-Das Admin-Tool wird zurückgegeben.
-**[BLOCK 1: PROP_ACTION]**
-**Subject:** The Plasma Sword. **Action:** It folds itself back into a small metal cube (`COMPRESSION`). It is placed on a pedestal in the New House.
+[CLIP 17: TOOL_DECOMMISSION]
+Das Schwert wird versiegelt.
+**[BLOCK 1: PROP_ANIMATION]**
+**Subject:** The Plasma Sword. **Action:** The beam retracts. The emitter mechanism folds into a dense metal cube (`COMPRESSED_STATE`). **Context:** It is placed on a central pedestal.
 **[BLOCK 2: CINEMATOGRAPHY]**
-**Camera:** Close-Up on the cube locking shut.
+**Camera:** Close-Up on the metal cube locking shut.
 
-[CLIP 17: GLOBAL_HARMONY]
-Alle sind weiß.
+[CLIP 18: SYSTEM_UNITY]
+Die neue Population.
 **[BLOCK 1: CROWD_SIMULATION]**
-**Subjects:** Thousands of White Bulls. **Action:** They stand in perfect rows, facing the center. Unity. No chaos.
-**[BLOCK 2: LIGHTING]**
-**Lighting:** High-Key lighting. Everything is bright, clean, sterile.
+**Subjects:** Infinite rows of identical White Bulls. **Action:** They stand in perfect grid formation. Idle animations are synchronized (breathing in unison).
+**[BLOCK 2: ATMOSPHERE]**
+**VFX:** The air is clean, sterile, filled with tiny floating light particles.
 **[BLOCK 3: CINEMATOGRAPHY]**
-**Camera:** Crane shot rising high.
+**Camera:** High Crane Shot rising to reveal the scale of the uniform crowd.
 
 #### PHASE 6: DISCONNECT (SEGMENT 39-42)
 
-[CLIP 18: SYSTEM_LOGOUT]
+[CLIP 19: NEURAL_DETACHMENT]
 Henoch wacht auf.
 **[BLOCK 1: SUBJECT_ACTION]**
-**Actor:** Enoch (Observer). **Action:** The HUD overlays in his eyes fade to black. The neural cables detach from his neck with a hiss of gas. He gasps for air.
-**[BLOCK 2: ENVIRONMENT]**
-**Location:** The Merkabah Pod.
+**Actor:** Enoch (Observer). **Action:** The Neural Shunt at his neck unlocks with a hiss of pressurized gas (`CO2_VENT`). His head snaps forward.
+**[BLOCK 2: POST_PROCESS]**
+**VFX:** The HUD overlays in his eyes glitch and fade to black.
 **[BLOCK 3: CINEMATOGRAPHY]**
-**Camera:** Extreme Close-Up on his face. The reflection of the New House fades from his iris.
+**Camera:** Close-Up on the back of the neck, seeing the cable detach.
+
+[CLIP 20: POST_VISION_TRAUMA]
+Reaktion auf die Datenmenge.
+**[BLOCK 1: ACTING]**
+**Actor:** Enoch. **Action:** He is shivering (`SYSTEM_SHOCK`). Tears stream down his face, but he is staring at a blank monitor wall.
+**[BLOCK 2: LIGHTING]**
+**Lighting:** Dark room, lit only by the blinking standby LEDs of the server racks.
+**[BLOCK 3: CINEMATOGRAPHY]**
+**Camera:** Frontal Close-Up. Fade to Black.

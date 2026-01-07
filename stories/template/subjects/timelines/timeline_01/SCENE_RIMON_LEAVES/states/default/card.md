@@ -1,0 +1,10 @@
+## [STATE] Rimon Leaves :: Default
+**State ID:** default
+**Chapters:** 6 - 6
+
+**Phase Summary:** Initial presentation of Rimon Leaves in his full ancient‑tech regalia
+**Phase Keywords:** Rimon Leaves, ancient-tech, Ethiopian, Egyptian, bioluminescent, crystalline, basalt, linen, glyphs, industrial-mysticism
+**Phase Prompt:**
+Rimon Leaves, a towering 1.8 m mystic engineer from the ancient‑tech city of Aksum, clad in basalt armor plates etched with glowing Egyptian‑Ethiopian hieroglyphs, linen draped over his muscular frame, copper filigree accents, bio‑luminescent ocular implant flickering with glyphic patterns, crystalline conduits pulsing along his forearms, holding a crystalline staff called the Scepter of the Nile and a weathered scroll, the Scroll of the Sun, all rendered photorealistically with grounded realism, cinematic lighting, tactile textures, and a serious tone.
+
+---

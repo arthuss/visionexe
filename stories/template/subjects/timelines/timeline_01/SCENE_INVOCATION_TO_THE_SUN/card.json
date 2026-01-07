@@ -1,0 +1,93 @@
+{
+  "id": "SCENE_INVOCATION_TO_THE_SUN",
+  "name": "Invocation to the Sun",
+  "type": "scene",
+  "card": {
+    "description": "A towering sun altar, a fusion of basalt, obsidian, and crystalline conduits, etched with ancient Ethiopian and Egyptian glyphs, designed to channel solar energy into a ritual of invocation.",
+    "tags": [
+      "altar",
+      "sun",
+      "ritual",
+      "ancient-tech",
+      "industrial mysticism",
+      "Ethiopian",
+      "Egyptian",
+      "crystalline",
+      "bio-luminescence"
+    ],
+    "visual_anatomy": [
+      "**Body/Form:** A monolithic basalt structure 3 m tall, with a central polished obsidian sun disc surrounded by concentric rings of translucent crystal conduits.",
+      "**Face/Sensors:** The sun disc embeds photonic sensors that detect solar intensity, triggering a cascade of bio‑luminescent glyphs.",
+      "**Clothing/Armor:** Carved reliefs of sun motifs flank the altar, flanked by hammered bronze plates with filigree reminiscent of ancient Ethiopian royal regalia.",
+      "**Key Features:** Embedded crystalline lattice channels, glyph‑etched bio‑luminescent veins, a rotating sun disc, and a hidden pneumatic system that lifts the disc during activation."
+    ],
+    "evolution": [
+      "Phase 1 (Construction): Basalt core assembled, crystal conduits embedded, glyphs etched.",
+      "Phase 2 (Activation): Sun disc rotates, glyphs glow, bio‑luminescent veins pulse, energy channeling begins."
+    ],
+    "props": [
+      "Item: Sun Disc – polished obsidian disc with photonic sensors.",
+      "Item: Incense Burner – brass vessel with etched sun glyphs."
+    ],
+    "prompt_keywords": [
+      "ancient-tech",
+      "sun",
+      "ritual",
+      "crystalline",
+      "glyphs",
+      "Ethiopian",
+      "Egyptian",
+      "industrial mysticism",
+      "bio-luminescence"
+    ],
+    "prompt_block": "A towering sun altar in a dimly lit cavern, monolithic basalt structure 3 m tall, central polished obsidian sun disc embedded with photonic sensors, surrounded by translucent crystal conduits forming a lattice, ancient Ethiopian and Egyptian sun glyphs etched in relief, bronze filigree plates, bio‑luminescent veins pulsing, the disc rotating, cinematic lighting, photorealistic, tactile, grounded realism.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The altar in its resting state, before activation.",
+        "prompt_keywords": [
+          "altar",
+          "sun",
+          "ritual",
+          "ancient-tech",
+          "Ethiopian",
+          "Egyptian"
+        ],
+        "prompt_block": "A towering sun altar in a dimly lit cavern, monolithic basalt structure 3 m tall, central polished obsidian sun disc embedded with photonic sensors, surrounded by translucent crystal conduits forming a lattice, ancient Ethiopian and Egyptian sun glyphs etched in relief, bronze filigree plates, bio‑luminescent veins pulsing, the disc stationary, cinematic lighting, photorealistic, tactile, grounded realism."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_INVOCATION_TO_THE_SUN",
+    "name": "Invocation to the Sun",
+    "type": "scene",
+    "aliases": [
+      "Invocation to the Sun"
+    ],
+    "roles": [
+      "World"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_571"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 72,
+        "chapter_end": 72,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}
