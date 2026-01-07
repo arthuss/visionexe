@@ -468,3 +468,22 @@ Viewport selection hint (optional):
   }
 }
 ```
+
+## Crowds (iClone built-in)
+
+iClone’s Crowd panel is a built-in UI feature (spawn/placement/behavior presets).
+In RLPy, crowds show up primarily through Motion Director props:
+
+- `RScene.GetMDProps()` returns `RIMDProp` items.
+- `RIMDProp` exposes crowd readbacks:
+  - `IsActiveCrowdInteraction()`
+  - `GetCrowdExitType()` (values in `EMDpropCrowdExitType_*`)
+  - `GetInteractTimes()`
+  - `GetDistance()`
+  - `GetTagRatioMap()` / `GetTagRatio()`
+
+At the RLPy layer these are **read-only** (no setters in Python), so:
+- For full Crowd panel automation, use UI automation (enable `ui_automation.enabled`).
+- For scripted workflows, treat crowd actors as regular iClone avatars:
+  load them from Content Manager (ActorCore Crowd assets), then drive them with
+  Motion Director + paths + clip/pose keys.
