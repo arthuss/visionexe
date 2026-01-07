@@ -1,0 +1,30 @@
+## [SCENE] Chapter 93 Segment 3 (ID: SCENE_CHAPTER_93_SEGMENT_3)
+**Description:** A monolithic obsidian console, 3.5 m tall and 2 m wide, carved from volcanic stone and fused with a lattice of translucent quartz. The surface is etched with intricate Ethiopian and Egyptian glyphs that pulse with bio‑luminescent blue light when activated. Embedded within the stone are conduits of copper and silver, visible as faint silver veins, connecting to a network of crystalline nodes that refract light into prismatic patterns. The console sits atop a raised platform of basalt, surrounded by a ring of smoldering charcoal that emits a faint, warm glow. Dust and soot accumulate in the crevices, giving the device a weathered, ancient appearance, while the crystalline hardware hums with low, resonant energy, hinting at incomprehensible technology beneath the surface.
+**Tags:** #ancient-tech #industrial-mysticism #Ethiopian #Egyptian #photorealistic #tactile #bio-luminescence #crystalline-hardware
+
+### 1. VISUAL ANATOMY / DESIGN
+*   **Body/Form:** Massive obsidian slab with integrated quartz lattice, 3.5 m tall, 2 m wide, basalt pedestal, charcoal ring.
+*   **Face/Sensors:** Surface etched with glowing glyphs, embedded silver‑copper conduits, crystalline nodes emitting prismatic light, low‑frequency hum.
+*   **Clothing/Armor:** N/A
+*   **Key Features:** Bio‑luminescent glyphs, crystalline circuitry, weathered stone, smoldering charcoal ring, resonant hum
+
+### 2. EVOLUTION / VARIANTS
+*   Phase 1 (Dormant): The console is dark, glyphs faintly visible, dust-covered, no hum.
+*   Phase 2 (Operational): Glyphs glow intensely, crystalline nodes refract light, hum increases, charcoal ring emits warm glow.
+
+### 3. PROPS & EQUIPMENT
+*   Item: Obsidian Glyphic Control Console
+*   Item: Ancient Scroll of Activation
+
+### 4. AI PROMPT KEYWORDS
+`obsidian`, `glyphs`, `crystalline`, `bio-luminescence`, `ancient-tech`, `Ethiopian`, `Egyptian`, `industrial`, `photorealistic`
+
+### 5. PROMPT BLOCK (T2I)
+A massive obsidian console, 3.5 m tall and 2 m wide, carved from volcanic stone and fused with a lattice of translucent quartz. The surface is etched with intricate Ethiopian and Egyptian glyphs that pulse with bio‑luminescent blue light when activated. Embedded within the stone are conduits of copper and silver, visible as faint silver veins, connecting to a network of crystalline nodes that refract light into prismatic patterns. The console sits atop a raised platform of basalt, surrounded by a ring of smoldering charcoal that emits a faint, warm glow. Dust and soot accumulate in the crevices, giving the device a weathered, ancient appearance, while the crystalline hardware hums with low, resonant energy, hinting at incomprehensible technology beneath the surface.
+
+### 6. PHASE PROMPTS
+*   **Default:** The console in its dormant, weathered state, with faint glyphs and dust-covered surfaces.
+    Prompt: A massive obsidian console, 3.5 m tall and 2 m wide, carved from volcanic stone and fused with a lattice of translucent quartz. The surface is etched with intricate Ethiopian and Egyptian glyphs that are barely visible, dust and soot cover the crevices, and a faint smoldering charcoal ring surrounds the base. The crystalline nodes are inactive, emitting no light, and the device hums with a low, distant resonance.
+    Keywords: obsidian, dust, glyphs, crystalline, smoldering charcoal
+
+---

@@ -1,0 +1,10 @@
+## [STATE] Chapter 98 Segment 14 :: Default
+**State ID:** default
+**Chapters:** 98 - 98
+
+**Phase Summary:** Initial dormant state of the Obsidian Ankh Reactor, with faint glyphs barely visible.
+**Phase Keywords:** obsidian, ankh, glyphs, crystalline, luminescent, ancient, technology
+**Phase Prompt:**
+A dormant Obsidian Ankh Reactor, 12 meters tall, crafted from polished obsidian and basalt, with concentric rings of stone and carved reliefs of celestial motifs. The core houses a translucent crystal array that refracts light into faint bioluminescent glyphs, glowing in subtle blues and greens. The device emits a barely perceptible hum, with sensor prisms pulsing softly in response to ambient vibrations. Photorealistic, tactile, grounded realism, ancient-tech, industrial mysticism, Ethiopian-Egyptian aesthetics, cinematic lighting, subtle reflections on obsidian surface, realistic stone weathering, soft phosphorescent glow, cinematic depth of field.
+
+---

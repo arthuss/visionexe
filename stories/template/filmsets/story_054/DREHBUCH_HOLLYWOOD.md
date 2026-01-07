@@ -1,273 +1,292 @@
 # DREHBUCH KAPITEL 54 - PRODUCTION READY
 
 ## CHAPTER NARRATION
-NARRATOR_TEXT: Ich blickte in das tiefe Tal, wo das Feuer nicht brennt, sondern rechnet – ein endloser Strom aus geschmolzenen Daten. Dort sah ich die Mächtigen der Erde, nicht mehr als Könige, sondern als Fehler im Code, bereit für die Löschung. Und als die vier Säulen des Lichts das Urteil sprachen, wuschen die Wasser von oben und unten die Korruption hinfort, bis nur noch Stille blieb.
+NARRATOR_TEXT: Ich blickte in den Abgrund, der nicht aus Stein, sondern aus glühender Rechenleistung bestand, ein endloser Schlund der thermischen Erschöpfung. Hier enden die Mächtigen der Erde, reduziert auf fehlerhafte Prozesse, die das System verlangsamen und nun zur Bereinigung anstehen. Ich sah keine Bestrafung im menschlichen Sinne, sondern eine notwendige Formatierung, ausgeführt von Algorithmen, die kälter und präziser sind als jedes Schwert. Als die Kühlmittel brachen und die Hitze erstickten, begriff ich, dass Gerechtigkeit nur ein anderes Wort für Systemstabilität ist.
 
-## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:02] [HOOK: THE OCULAR BOOT]
-**Action:** Extreme Close-Up of Enoch's eye. Iris snaps open, shifting from organic hazel to glowing thermal orange. HUD overlay boots up: `THREAT_ANALYSIS_V2`.
+## [ACT 1] [SCENE 1.1] [Timecode: 00:00-00:05] [THE HEAT SINK]
+**Action:** Establishing shot of the Deep Valley. Not a natural canyon, but billions of recursive copper heatsink fins and glowing red warning lights. Heat refraction distorts the air.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "The Deep Valley (Observation Deck)", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["HUD Overlay"], "camera": "100mm Macro / Static to twitch", "mood": ["alert", "technological"], "director_intent": "Establish the shift from human vision to system analysis immediately.", "start_image_keywords": ["macro eye", "thermal iris", "hud boot"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "The Deep Valley (Thermal Exhaust Port)", "env_change": true, "actors": [], "props": [], "camera": "High Angle God-Eye / Slow Track Down", "mood": ["oppressive", "technological"], "director_intent": "Establish the valley as a massive industrial machine, not a geological formation.", "start_image_keywords": ["copper heatsinks", "red warning lights", "thermal distortion"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Extreme macro close-up of a synthetic eye, iris transitioning from hazel to glowing thermal orange, pupil contracting sharply. Skin texture is silver-metallic with microscopic pores. A holographic HUD overlay in cyan and red reflects on the cornea, displaying `THREAT_ANALYSIS_V2` text. High contrast lighting, cybernetic aesthetic, 8k resolution, hyper-realistic texture. --ar 9:16 --v 6.0
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Extreme close-up of Enoch's eye, silver skin texture, metallic eyelashes.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Digital HUD overlay projected directly onto the eye surface.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark background, reflection of burning red data-streams in the eye.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Internal orange glow from the iris, cool blue light from the HUD, high contrast.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Macro lens, shallow depth of field, rapid iris movement, digital twitch, 9:16 vertical format.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitched digital chirp of a system booting up, followed by a heavy, sub-bass drop. Subtle servo-motor whirring of a camera lens focusing.
-
-## [ACT 1] [SCENE 1.2] [Timecode: 00:02-00:06] [ESTABLISHING: THE SERVER CANYON]
-**Action:** The Deep Valley. Not rock, but torn earth revealing burning server architecture below. Rivers of molten data (magma) flow through cooling pipes.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "The Deep Valley (Heat Sink)", "env_change": true, "actors": [], "props": [], "camera": "14mm Wide / Crane Pan Down", "mood": ["oppressive", "industrial"], "director_intent": "Reveal the scale of the simulation's waste processing facility.", "start_image_keywords": ["server canyon", "molten data", "industrial hell"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide shot of a massive artificial canyon, the "Deep Valley". The walls are not rock but layers of burning server racks and industrial heat pipes. At the bottom, a river of molten gold and red data flows like lava. Volumetric smoke and steam rising. Industrial sci-fi aesthetic, Unreal Engine 5 style, path traced, ominous red underlighting. --ar 9:16 --v 6.0
+Vertical wide shot of an infinite industrial trench. The walls are not rock but layers of oxidized copper heatsink fins and server racks glowing with deep red thermal radiation. Heat waves distort the air (refraction). At the bottom, a molten river of data flows. Cinematic lighting, volumetric fog, Unreal Engine 5 nanite detail, 8k resolution. --ar 9:16 --v 6.0
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A vast canyon made of corroded metal and glowing server stacks, magma-like data stream at the bottom.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Hellish red and orange underlighting, atmospheric haze, bloom from the molten river.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow crane shot panning down into the abyss, grand scale, 9:16 vertical format.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Infinite recursive trench of copper cooling fins.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Danger red (660nm) pulsing from below, metallic copper reflections.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** High angle crane shot moving slowly downwards into the abyss, heat refraction effects, 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-A deafening roar of thousands of industrial cooling fans at maximum RPM. Deep, low-frequency rumble of molten flow. Occasional electrical arcing sounds.
+Deep, throbbing sub-bass at 50Hz. A Shepard Tone creating the illusion of infinitely rising pitch. The hum of massive ventilation fans.
 
-## [ACT 1] [SCENE 1.3] [Timecode: 00:06-00:10] [ACTION: THE GLITCHING KINGS]
-**Action:** The Kings and Mighty are dragged by invisible force vectors. They don't walk; they slide and clip through geometry. Their textures are peeling off.
+## [ACT 1] [SCENE 1.2] [Timecode: 00:05-00:09] [CORRUPTED GEOMETRY]
+**Action:** The "Kings" try to walk but clip through the floor. Their textures are corrupted (purple/black checkerboards). They spasm in broken animation loops.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "The Deep Valley (Floor)", "env_change": false, "actors": [{"name": "Kings and Mighty", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "35mm Tracking / Low Angle", "mood": ["terrifying", "glitchy"], "director_intent": "Show the degradation of the corrupted entities as a technical failure.", "start_image_keywords": ["glitching kings", "texture peeling", "invisible force"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "medium", "framing": "medium", "environment": "The Deep Valley (Floor)", "env_change": false, "actors": [{"name": "Kings and Mighty", "phase": "Corrupted", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Handheld / Shaky", "mood": ["glitchy", "disturbing"], "director_intent": "Show the entities not as suffering souls, but as broken software assets.", "start_image_keywords": ["glitching avatars", "missing textures", "clipping geometry"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Figures in tattered royal robes being dragged across a metallic floor by invisible forces. Their bodies are glitching, with textures peeling off to reveal wireframe underneath. Faces are pixelated in terror. Digital artifacts and datamosh effects surrounding them. High contrast, gritty texture, cinematic lighting. --ar 9:16 --v 6.0
+Medium shot of humanoid figures in royal robes that are rendering incorrectly. Parts of their clothing show purple and black checkerboard patterns (missing texture). Their limbs are twisted in unnatural angles (broken rig). They are sinking halfway through the metal floor. High contrast, digital artifacts, datamosh aesthetic, photorealistic rendering of errors. --ar 9:16 --v 6.0
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Humanoid figures in decaying royal attire, skin exhibiting digital rot.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Tattered robes, digital noise artifacts.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The metallic floor of the valley, heat distortion.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Harsh red light from below, flickering shadows.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Tracking shot moving with the figures, camera shake, datamosh visual effects, 9:16 vertical format.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Corrupted humanoid avatars, faces blurring into digital noise.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Robes displaying texture errors and z-fighting.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Metallic industrial floor with heat vents.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Harsh red underlighting, flickering strobes.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld shaky cam, jittery motion (simulating low framerate lag), 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Distorted digital screaming, stuttering audio glitches, the sound of heavy objects sliding on metal.
+Digital screeching, audio stuttering/buffering sounds, mixed with distorted human groans. Heavy metallic scraping.
 
-## [ACT 1] [SCENE 1.4] [Timecode: 00:10-00:15] [DETAIL: THE IRON FETTERS]
-**Action:** The Iron Fetters. Massive black magnetic cuffs are being welded by invisible robotic arms. Sparks fly directly into the lens.
+## [ACT 1] [SCENE 1.3] [Timecode: 00:09-00:12] [NODE TRANSLOCATION]
+**Action:** A vertical light-slice cuts the air on the Obsidian Gantry. Enoch steps out, skin shifting from marble to ceramic heat-shielding.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "prop", "shot_type": "close_up", "framing": "close_up", "environment": "The Deep Valley (Assembly Line)", "env_change": false, "actors": [], "props": ["Iron Fetters"], "camera": "Handheld / Shaky / Whip Pan", "mood": ["intense", "industrial"], "director_intent": "Focus on the mechanical brutality of the containment devices.", "start_image_keywords": ["iron fetters", "welding sparks", "magnetic cuffs"], "start_image_mode": "prop_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["Iron Fetters"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "low_angle", "framing": "full_body", "environment": "Obsidian Gantry", "env_change": true, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Low Angle / Static", "mood": ["heroic", "clinical"], "director_intent": "Visualize the user login/instantiation process.", "start_image_keywords": ["light slice portal", "ceramic skin", "obsidian gantry"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Close-up of massive black metal cuffs, "Iron Fetters", with glowing red runes. Invisible robotic arms are welding them shut, creating a shower of bright yellow and blue sparks. Industrial texture, scratched metal, heat distortion. Sparks hitting the camera lens. --ar 9:16 --v 6.0
+Low angle full body shot of Enoch stepping out of a vertical slit of intense white light. His skin texture is transitioning from organic marble to a matte grey ceramic heat-shield material. He stands on a glossy black obsidian bridge. Background is the dark void of the upper simulation layers. Sci-fi religious aesthetic. --ar 9:16 --v 6.0
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Heavy industrial magnetic locking mechanisms.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark industrial background, focus on the object.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright flashes from welding, glowing red runes on black metal.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Handheld camera movement, shaky, lens flares from sparks, 9:16 vertical format.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, Voyager phase, material transition on skin.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Simple tunic adapting to environment.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Black glass bridge, vertical light portal.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Pure white light from portal, rim lighting on ceramic skin.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static low angle, sharp ingress movement, material morphing, 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud hydraulic press sounds, metallic grinding, sharp welding arcs, heavy thuds of magnetic locks engaging.
+Sharp vacuum suction sound "thwip", followed by an electrical crackle. Footsteps on glass with a heavy, grounded thud.
 
-## [ACT 2] [SCENE 2.1] [Timecode: 00:15-00:19] [DIALOGUE: ENOCH'S INQUIRY]
-**Action:** Enoch (MCU) turns to the Angel of Peace. He points to the chains. His breath is visible as steam in the heat.
-**Dialog:** "For whom are these prepared?"
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium_close_up", "framing": "medium_close_up", "environment": "Observation Deck", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}, {"name": "Angel of Peace", "phase": "Standard", "presence": "off_screen", "focus": "secondary"}], "props": [], "camera": "50mm / Over-The-Shoulder", "mood": ["inquisitive", "serious"], "director_intent": "Enoch seeks data clarification on the purpose of the mechanism.", "start_image_keywords": ["enoch pointing", "silver skin", "observation deck"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "scene_2_1_audio", "pose_source": "", "driver_notes": "Subtle head turn and pointing gesture"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 6}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium close-up of Enoch, silver skin, wearing a high-tech visor. He is turning slightly, pointing with a gloved hand towards the background. Breath visible as steam. Over-the-shoulder perspective with a blurred chrome figure in the foreground. Red rim lighting from the valley below. --ar 9:16 --v 6.0
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, silver skin, analytical expression.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Tech-visor, Idris-Gloves emitting faint light.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Obsidian glass observation deck, burning valley background.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red underlighting, cool key light on face.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Over-the-shoulder shot, focus on Enoch, subtle camera float, 9:16 vertical format.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Enoch's voice, slightly dampened and reverberant. Background roar of the valley is muffled.
-
-## [ACT 2] [SCENE 2.2] [Timecode: 00:19-00:23] [DIALOGUE: THE ANGEL'S VERDICT]
-**Action:** Angel of Peace (MCU). Chrome reflection shows the burning valley. He nods. "For the hosts of Azazel."
-**Dialog:** "For the hosts of Azazel."
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "medium_close_up", "framing": "medium_close_up", "environment": "Observation Deck", "env_change": false, "actors": [{"name": "Angel of Peace", "phase": "Standard", "presence": "on_screen", "focus": "primary"}, {"name": "Henoch", "phase": "Voyager", "presence": "off_screen", "focus": "secondary"}], "props": [], "camera": "50mm / Over-The-Shoulder", "mood": ["authoritative", "calm"], "director_intent": "The system guide delivers the classification of the targets.", "start_image_keywords": ["angel of peace", "chrome visor", "reflection"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "scene_2_2_audio", "pose_source": "", "driver_notes": "Nodding motion"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 6}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium close-up of the Angel of Peace. A humanoid figure in a fluid chrome suit. The face is a smooth reflective visor reflecting the burning red valley and Enoch's silhouette. The Angel is nodding. Clean, cold aesthetic contrasting with the fire. --ar 9:16 --v 6.0
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Angel of Peace, fluid chrome surface.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Reflective visor faceplate.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Observation deck, reflection of the fire in the visor.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold white highlights on chrome, red reflections.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Over-the-shoulder shot, stable camera, 9:16 vertical format.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Angel's voice: clean, synthetic, cold tone. Subtle synth chord in the background.
-
-## [ACT 2] [SCENE 2.3] [Timecode: 00:23-00:28] [REVEAL: THE HOSTS BOUND]
-**Action:** The Hosts of Azazel (Shadow Swarm) are clamped by the fetters. The magnetic locks engage, solidifying their static forms into rigid geometry.
+## [ACT 1] [SCENE 1.4] [Timecode: 00:12-00:15] [THE SCAN]
+**Action:** Enoch’s visor cycles spectrums (Red to Blue). He observes the chaos below without emotion, recording data.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "The Deep Valley (Processing Floor)", "env_change": false, "actors": [{"name": "Hosts of Azazel", "phase": "Malware", "presence": "on_screen", "focus": "primary"}], "props": ["Iron Fetters"], "camera": "Zoom In / Snap Zoom", "mood": ["constrained", "kinetic"], "director_intent": "Visualize the capture protocol: chaos becoming order through force.", "start_image_keywords": ["shadow swarm", "magnetic locks", "static noise"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": ["Iron Fetters"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Obsidian Gantry", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}], "props": ["HUD Visor"], "camera": "Profile / Shallow Depth of Field", "mood": ["analytical", "detached"], "director_intent": "Establish Enoch as an observer recording system metrics.", "start_image_keywords": ["hud visor", "thermal reflection", "profile"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "", "env_id": "", "props": ["HUD Visor"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Shadowy, semi-transparent entities made of static noise, struggling against massive black magnetic fetters. The chains are clamping onto their limbs, causing the static to solidify into rigid, dark geometry. Red energy arcs at the contact points. High contrast, dynamic composition. --ar 9:16 --v 6.0
+Close-up profile shot of Enoch. He wears a high-tech translucent visor. The glass of the visor is rapidly cycling colors from red to blue, reflecting scrolling data streams. His expression is stoic. The red glow of the furnace illuminates his ceramic grey skin from below. Macro details on the visor interface. --ar 9:16 --v 6.0
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Vaguely humanoid forms made of television static and shadow.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Heavy magnetic cuffs locking onto them.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Industrial floor, sparks flying.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red warning lights, white static noise.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Snap zoom into the action, camera shake on impact, 9:16 vertical format.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, grey ceramic skin texture.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** HUD visor with active UI elements.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Dark foreground, red background glow.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red underlighting, cool blue light from visor UI.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static profile shot, rapid UI animation on glass, focus pull, 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Heavy magnetic thuds, electrical zaps, the sound of static interference solidifying into metal.
+High-frequency digital chirps, data processing beeps. The subtle whir of cooling fans spinning up on his suit.
 
-## [ACT 2] [SCENE 2.4] [Timecode: 00:28-00:34] [THE FOUR: SYSTEM ADMINS]
-**Action:** Michael, Raphael, Gabriel, Phanuel appear at the four corners of the valley. They are pillars of blinding white light. They synchronize a gesture.
+## [ACT 2] [SCENE 2.1] [Timecode: 00:15-00:19] [THE QUERY]
+**Action:** Enoch points the Obsidian Tablet towards the pit. He addresses the chrome entity beside him (Angel of Peace).
+**Dialog:** "For whom is this quarantine prepared?"
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "medium_close_up", "framing": "medium_close_up", "environment": "Obsidian Gantry", "env_change": false, "actors": [{"name": "Henoch", "phase": "Voyager", "presence": "on_screen", "focus": "primary"}, {"name": "Angel of Peace", "phase": "Standard", "presence": "off_screen", "focus": "secondary"}], "props": ["Obsidian Tablet"], "camera": "Over-The-Shoulder / Rack Focus", "mood": ["inquisitive", "direct"], "director_intent": "Enoch initiates a data request to the system interface.", "start_image_keywords": ["enoch pointing", "obsidian tablet", "chrome angel shoulder"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": ["Obsidian Tablet"], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "scene_2_1_audio", "pose_source": "", "driver_notes": "Pointing gesture and speaking"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 7}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Medium close-up, over-the-shoulder view from behind Enoch. He holds a black obsidian tablet and points with a gloved hand towards the burning pit below. In the foreground, out of focus, is the chrome shoulder of the Angel of Peace. Red ambient lighting. --ar 9:16 --v 6.0
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Enoch, speaking.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Idris-Gloves, holding tablet.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Observation deck edge.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red glow from pit, sharp rim light.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Over-the-shoulder shot, rack focus from hand to pit, 9:16 vertical format.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Enoch's voice, clear and isolated. The background roar is dampened (audio focus).
+
+## [ACT 2] [SCENE 2.2] [Timecode: 00:19-00:23] [THE RESPONSE]
+**Action:** The Angel of Peace does not turn. It points a chrome finger at the pit. Visor data scrolls rapidly.
+**Dialog:** "For the rootkit of Azazel."
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "actor", "shot_type": "close_up", "framing": "close_up", "environment": "Obsidian Gantry", "env_change": false, "actors": [{"name": "Angel of Peace", "phase": "Standard", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "POV / Static", "mood": ["cold", "informative"], "director_intent": "The system interface delivers the classification of the threat.", "start_image_keywords": ["chrome angel", "visor reflection", "pointing finger"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "a2f", "audio_id": "scene_2_2_audio", "pose_source": "", "driver_notes": "Subtle head movement"}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 6}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+POV shot looking at the Angel of Peace. A faceless humanoid made of polished chrome and fiber optics. Its head is a curved reflective visor displaying scrolling green code. It points a metallic finger downward. The burning valley is reflected in its surface. Cold, unfeeling aesthetic. --ar 9:16 --v 6.0
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Angel of Peace, chrome and fiber optic construction.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Reflective visor with scrolling data.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Black void background.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cold white highlights, red environment reflection.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static POV shot, subtle servo movement, 9:16 vertical format.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Synthetic, multi-layered voice (flanged). A low digital hum accompanies the speech.
+
+## [ACT 2] [SCENE 2.3] [Timecode: 00:23-00:28] [LOGIC LOCK]
+**Action:** The "Iron Fetters" appear—semi-transparent holographic logic gates. They snap onto the wireframe skeletons of the hosts. Instant rigid pose.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "actor", "shot_type": "wide", "framing": "wide", "environment": "The Deep Valley (Four Corners)", "env_change": false, "actors": [{"name": "Archangels", "phase": "Light Form", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Wide / Symmetrical", "mood": ["awe-inspiring", "divine"], "director_intent": "Introduce the high-level system administrators initiating the purge.", "start_image_keywords": ["four pillars of light", "archangels", "symmetrical composition"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "prop", "shot_type": "medium", "framing": "medium", "environment": "The Deep Valley", "env_change": false, "actors": [{"name": "Hosts of Azazel", "phase": "Malware", "presence": "on_screen", "focus": "primary"}], "props": ["Iron Fetters"], "camera": "Snap Zoom / Lock-On", "mood": ["constrained", "violent"], "director_intent": "Visualize the digital containment protocol snapping into place.", "start_image_keywords": ["holographic chains", "wireframe skeleton", "locking mechanism"], "start_image_mode": "composite", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": ["Iron Fetters"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide symmetrical shot of the valley. At the four corners stand four towering pillars of blinding white plasma light - the Archangels. They are abstract humanoid forms, connecting with beams of light to form a containment grid. The burning valley is in the center. Epic scale, divine technology. --ar 9:16 --v 6.0
+Medium shot of a corrupted shadow entity. Translucent blue holographic clamps ("Iron Fetters") appear instantly around its wrists and neck. The entity's internal wireframe is visible through its skin, glowing orange. The clamps align perfectly with the wireframe joints. Tension and rigidity. --ar 9:16 --v 6.0
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Four giant figures made of pure white light.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None, pure energy.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The four corners of the industrial valley.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blinding white light overpowering the red environment, lens flares.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static wide shot, symmetrical composition, energy beams pulsing, 9:16 vertical format.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Shadowy malware entity, semi-transparent.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Holographic logic-gate cuffs.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Industrial valley floor.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue hologram light, orange wireframe glow.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Snap zoom into the wrists, instant rigid body freeze (kinematic lock), 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-High-pitched charging sound, like a capacitor bank filling up. A resonant harmonic hum.
+A heavy metallic "Clunk" combined with a server rack locking sound. High-pitched digital zap.
 
-## [ACT 2] [SCENE 2.5] [Timecode: 00:34-00:40] [EXECUTION: INTO THE CORE]
-**Action:** The bound entities are jettisoned into the burning core. They hit the "lava" and instantly disintegrate into binary code/ash.
+## [ACT 2] [SCENE 2.4] [Timecode: 00:28-00:33] [THE EXECUTORS]
+**Action:** Four pillars of light (Michael, Gabriel, Raphael, Phanuel) materialize at cardinal points. They form a "Kill Box" laser grid.
+**Dialog:** "To cast them into the furnace of deep fire."
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "mixed", "shot_type": "wide", "framing": "wide", "environment": "The Deep Valley (Cardinal Points)", "env_change": false, "actors": [{"name": "Archangels", "phase": "Light Form", "presence": "on_screen", "focus": "primary"}, {"name": "Angel of Peace", "phase": "Standard", "presence": "off_screen", "focus": "secondary"}], "props": [], "camera": "Whip Pan / Symmetrical", "mood": ["awe", "finality"], "director_intent": "Show the scale of the system admins and the trap closing.", "start_image_keywords": ["pillars of light", "laser grid", "cardinal points"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "scene_2_4_audio", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 9}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Wide symmetrical shot of the valley. Four immense vertical pillars of blinding white plasma light stand at the four corners. Beams of coherent light connect them, forming a perfect square grid ("Kill Box") around the burning pit. Geometric perfection amidst chaos. --ar 9:16 --v 6.0
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Abstract pillars of light (Archangels).
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Pure energy forms.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The four corners of the valley.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blinding white laser light, lens flares.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Fast whip pan to reveal the grid formation, symmetrical composition, 9:16 vertical format.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+High-pitch capacitor bank charge sound. A deep, resonant bass drop on grid completion.
+
+## [ACT 2] [SCENE 2.5] [Timecode: 00:33-00:38] [GRAVITY INVERSION]
+**Action:** The valley floor opens like a camera iris. The bound entities are slammed downwards at terminal velocity.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "high_angle", "framing": "wide", "environment": "The Deep Valley (The Core)", "env_change": false, "actors": [{"name": "Hosts of Azazel", "phase": "Malware", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Top-Down / Bird's Eye", "mood": ["destructive", "final"], "director_intent": "Show the deletion process: physical form turning into raw data.", "start_image_keywords": ["falling entities", "disintegration", "binary code"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "high_angle", "framing": "wide", "environment": "The Deep Valley (The Drop)", "env_change": true, "actors": [{"name": "Hosts of Azazel", "phase": "Malware", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Top-Down / Tracking", "mood": ["terrifying", "kinetic"], "director_intent": "The purge execution: forced removal from the active layer.", "start_image_keywords": ["floor opening", "iris mechanism", "falling bodies"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Top-down view of bound figures falling into a river of molten red data. Upon contact, they disintegrate into clouds of green and blue binary code and black ash. The "lava" ripples with digital distortion. High contrast, violent motion. --ar 9:16 --v 6.0
+Top-down perspective looking into the abyss. The metal floor of the valley has opened like a mechanical camera iris. Thousands of bound shadow figures are plummeting downwards into a deep red void. Motion blur, sense of extreme speed and gravity. --ar 9:16 --v 6.0
 
 ### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Falling humanoid shapes.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Chains dragging them down.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The burning core of the valley.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Glow from the lava, green binary particles.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Bird's eye view, ragdoll physics, particle effects of disintegration, 9:16 vertical format.
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Falling humanoid shapes, rigid in fetters.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Chains.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Mechanical iris opening, red void below.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Red glow from the bottom, darkness above.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Top-down tracking shot following the bodies, increasing velocity, 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Whoosh of falling objects, sizzling sound of incineration, digital "deletion" sound effects.
+Wind shear noise, Doppler effect scream (digital texture), mechanical grinding of the iris.
 
-## [ACT 3] [SCENE 3.1] [Timecode: 00:40-00:44] [SKY EVENT: THE STOREHOUSES OPEN]
-**Action:** The "Storehouses" open. Massive mechanical irises in the sky dilate. Thick, blue coolant liquid (Water from Above) dumps in vertical columns.
+## [ACT 2] [SCENE 2.6] [Timecode: 00:38-00:45] [DECOMPILATION]
+**Action:** Impact with the red core. Entities do not burn; they shatter into binary code (0s and 1s) and vanish.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "low_angle", "framing": "wide", "environment": "The Sky / Ceiling", "env_change": true, "actors": [], "props": [], "camera": "Tilt Up / Low Angle", "mood": ["overwhelming", "massive"], "director_intent": "The system initiates the external flush protocol.", "start_image_keywords": ["mechanical iris", "blue coolant", "sky opening"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "mixed", "shot_type": "extreme_close_up", "framing": "extreme_close_up", "environment": "The Core", "env_change": false, "actors": [{"name": "Hosts of Azazel", "phase": "Malware", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Macro / Slow Motion", "mood": ["destructive", "abstract"], "director_intent": "Clarify that this is data deletion, not physical burning.", "start_image_keywords": ["binary disintegration", "shattering code", "impact"], "start_image_mode": "actor_only", "video_plan": {"start_comp": {"mode": "actor_only", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Low angle shot of the dark sky. Massive mechanical iris doors are opening, revealing a bright blue light. Thick, viscous blue liquid (coolant) is pouring down in massive vertical columns, like waterfalls from space. Cyberpunk industrial aesthetic. --ar 9:16 --v 6.0
+Extreme close-up of a shadow entity hitting a surface of liquid light. Instead of splashing, the entity shatters like glass. The shards turn into glowing green streams of binary code (0s and 1s) and dissolve into black smoke. Particle physics simulation, abstract data visualization style. --ar 9:16 --v 6.0
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Abstract figure.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Liquid light surface.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Bright green matrix code emission, red background.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Macro shot, slow motion impact, particle disintegration effect, 9:16 vertical format.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Digital disintegration noise (pixel sorting sound), sizzling, and a final "deleted" ping.
+
+## [ACT 3] [SCENE 3.1] [Timecode: 00:45-00:48] [SYSTEM ALERT]
+**Action:** Red lights cut. Harsh Blue strobe activates. Temperature drops instantly. Nitrogen fog rolls in.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "The Deep Valley", "env_change": true, "actors": [], "props": [], "camera": "Static / Strobe Effect", "mood": ["urgent", "cold"], "director_intent": "Signal the phase shift from heat (purge) to cooling (flush).", "start_image_keywords": ["blue strobe", "nitrogen fog", "red to blue shift"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+Wide shot of the valley. The pervasive red light is gone. The scene is lit by harsh, flashing blue emergency strobes. Thick white nitrogen fog is rolling over the heatsinks. Frost is forming on the copper fins. Cold, industrial emergency aesthetic. --ar 9:16 --v 6.0
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The mechanical sky ceiling.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dark sky, bright blue coolant, white light from the opening.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Tilt up, slow motion fluid dynamics, massive scale, 9:16 vertical format.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Valley filled with fog.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Strobe blue lighting, white fog.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static shot, aggressive lighting change (strobing), rolling fog simulation, 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Deep mechanical groaning of opening doors, alarm sirens, the roar of massive waterfalls.
+Urgent industrial alarm sirens. Loud hissing of steam/gas release.
 
-## [ACT 3] [SCENE 3.2] [Timecode: 00:44-00:48] [GROUND EVENT: THE FOUNTAINS BURST]
-**Action:** The "Fountains" burst. The valley floor cracks. High-pressure geysers of dark water (Water from Below) shoot up, shattering the rock.
+## [ACT 3] [SCENE 3.2] [Timecode: 00:48-00:53] [STOREHOUSES OPEN]
+**Action:** Rectangular vents in the black sky open. Thick, glowing blue dielectric fluid pours down in laminar flow columns.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "low_angle", "framing": "wide", "environment": "The Valley Floor", "env_change": true, "actors": [], "props": [], "camera": "Ground Level / Shake", "mood": ["chaotic", "explosive"], "director_intent": "The internal cooling system ruptures to meet the external flush.", "start_image_keywords": ["ground cracking", "dark geyser", "explosion"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "low_angle", "framing": "wide", "environment": "The Skybox", "env_change": true, "actors": [], "props": [], "camera": "Tilt Up / Worm's Eye", "mood": ["overwhelming", "massive"], "director_intent": "The external system flush begins from the upper layer.", "start_image_keywords": ["sky vents", "blue coolant", "laminar flow"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Ground level shot of the valley floor cracking open. High-pressure geysers of dark, black water shoot upwards, shattering the metallic ground. Debris flying, steam rising where the water meets the hot floor. Violent energy. --ar 9:16 --v 6.0
+Low angle shot looking straight up at the black sky. Massive rectangular blast doors have slid open. Thick, glowing neon-blue liquid (dielectric coolant) is pouring down in perfectly straight, glass-like columns (laminar flow). The scale is immense. --ar 9:16 --v 6.0
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The cracking floor of the valley.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dark water, sparks from breaking metal, steam.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Camera shake, debris hitting lens, fast motion, 9:16 vertical format.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** The sky ceiling mechanism.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Neon blue glow from the fluid against black void.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow tilt up, fluid simulation showing heavy viscosity, 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Loud cracking of earth/metal, explosive blast of high-pressure water, hissing steam.
+Deep mechanical groaning of doors. The heavy, low-end "thrum" of massive liquid volume falling (not splashing).
 
-## [ACT 3] [SCENE 3.3] [Timecode: 00:48-00:53] [CONNECTION: THE DOCKING]
-**Action:** The blue column (Sky) meets the dark geyser (Ground). They lock like docking ports. A massive energy discharge (lightning) occurs at the contact point.
+## [ACT 3] [SCENE 3.3] [Timecode: 00:53-00:58] [FOUNTAINS BREAK]
+**Action:** The heated floor bursts. Black, oily liquid (spent coolant) geysers up to meet the blue flood.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Mid-Air / The Valley", "env_change": false, "actors": [], "props": [], "camera": "Wide Profile / Flash Frame", "mood": ["energetic", "climactic"], "director_intent": "Visual metaphor of system integration: male and female ports connecting.", "start_image_keywords": ["water connection", "lightning arc", "blue and black water"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "medium", "framing": "wide", "environment": "The Valley Floor", "env_change": true, "actors": [], "props": [], "camera": "Ground Level / Shake", "mood": ["explosive", "dirty"], "director_intent": "The internal pressure release of the old system fluid.", "start_image_keywords": ["oil geyser", "floor bursting", "black liquid"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Wide shot of a massive column of blue water from the sky meeting a geyser of black water from the ground. They collide and lock together. A massive blinding white electrical arc (lightning) explodes at the point of contact. Energy ripples outward. --ar 9:16 --v 6.0
+Ground level shot. The metallic floor plates are buckling and bursting upwards. High-pressure geysers of black, oily liquid (spent coolant) are shooting up. Debris and steam are flying everywhere. Contrast between the clean blue from above and dirty black from below. --ar 9:16 --v 6.0
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Mid-air collision of water columns.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue and black liquids, blinding white lightning flash.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Wide shot, slow motion impact, shockwave effect, 9:16 vertical format.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Rupturing metal floor.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Dark, glossy black liquid, sparks.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Camera shake, debris hitting lens, high velocity fluid simulation, 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Massive thunder crack, electrical arc explosion, deep bass impact.
+Loud metal tearing sound. High-pressure spray hiss. Explosive bursts.
 
-## [ACT 3] [SCENE 3.4] [Timecode: 00:53-00:57] [THE WIPE: DELETION]
-**Action:** The water level rises instantly. It overtakes the "Dwellers". As the liquid touches them, they dissolve from solid mesh to wireframe to nothing.
+## [ACT 3] [SCENE 3.4] [Timecode: 00:58-01:05] [THE FUSION]
+**Action:** Blue and Black fluids collide. Massive electrical arcs ground the circuit. The valley fills rapidly.
 **Dialog:** -
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "mixed", "shot_type": "medium", "framing": "medium", "environment": "The Valley (Flooding)", "env_change": true, "actors": [{"name": "Earth Dwellers", "phase": "Generic", "presence": "on_screen", "focus": "primary"}], "props": [], "camera": "Tracking / Flowing", "mood": ["cleansing", "erasing"], "director_intent": "The flood is not just water, it is a formatting tool.", "start_image_keywords": ["rising water", "wireframe dissolution", "erasing"], "start_image_mode": "actor_in_env", "video_plan": {"start_comp": {"mode": "actor_in_env", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "Mid-Air / The Valley", "env_change": false, "actors": [], "props": [], "camera": "Wide / Slow Motion", "mood": ["climactic", "powerful"], "director_intent": "The meeting of the two fluids completes the circuit.", "start_image_keywords": ["fluid collision", "blue and black", "lightning arc"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
-Medium shot of generic humanoid figures being overtaken by rising dark blue water. As the water touches them, their bodies transition from solid realistic texture to glowing green wireframe, then vanish completely. The water is calm but rising fast. --ar 9:16 --v 6.0
-
-### 2. VIDEO PROMPT (Wan 2.5)
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** Generic crowd figures.
-**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Simple clothing dissolving.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Rising water level.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue water, green wireframe emission.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Tracking shot moving with the water level, visual effect of dissolution, 9:16 vertical format.
-
-### 3. AUDIO PROMPT (Hunyuan/Foley)
-Muffled sound of rushing water, digital "power down" sound effects as figures vanish.
-
-## [ACT 3] [SCENE 3.5] [Timecode: 00:57-01:00] [RESOLUTION: SYSTEM FLUSH COMPLETE]
-**Action:** The valley is filled. A calm, dark, churning ocean surface. The red glow is gone. Only the blue hum of the coolant remains. Text: `SYSTEM_FLUSH_COMPLETE`.
-**Dialog:** -
-
-### 0. REGIE DATA (JSON)
-REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "The Flooded Valley", "env_change": true, "actors": [], "props": [], "camera": "High Wide / Static", "mood": ["peaceful", "sterile"], "director_intent": "The chaos is over. The system is stable and clean.", "start_image_keywords": ["calm dark ocean", "blue hum", "system complete"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": [], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
-### 1. START IMAGE PROMPT (Midjourney/Flux)
-High wide shot of the valley now completely filled with a dark, churning ocean. The red fire is gone. The water glows with a faint, sterile blue light. Text overlay in the center: `SYSTEM_FLUSH_COMPLETE`. Calm, silent, vast. --ar 9:16 --v 6.0
+Wide shot of the mid-air collision between the falling blue coolant and the rising black oil. At the point of impact, blinding white lightning arcs branch out in all directions. The fluids mix into a turbulent vortex. Cinematic destruction. --ar 9:16 --v 6.0
 
 ### 2. VIDEO PROMPT (Wan 2.5)
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** None.
-**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** A vast dark ocean surface.
-**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Cool blue ambient light, no red.
-**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Static shot, slow water movement, fade to black, 9:16 vertical format.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Mid-air fluid collision.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Blue, Black, White electrical flash.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Slow motion capture of the impact, shockwave ripple, fluid turbulence, 9:16 vertical format.
 
 ### 3. AUDIO PROMPT (Hunyuan/Foley)
-Low, steady electronic hum (silence), gentle lapping of water.
+Massive thunderclap. Electrical discharge crackle. Deep bass impact.
+
+## [ACT 3] [SCENE 3.5] [Timecode: 01:05-01:10] [CACHE CLEARED]
+**Action:** The valley is a calm, glowing blue lake. HUD Overlay: `SYSTEM_TEMP_NORMAL`. Enoch watches, perfectly still.
+**Dialog:** -
+
+### 0. REGIE DATA (JSON)
+REGIE_JSON: {"subject": "environment", "shot_type": "wide", "framing": "wide", "environment": "The Flooded Valley", "env_change": true, "actors": [], "props": ["HUD Overlay"], "camera": "Static / Wide", "mood": ["peaceful", "sterile"], "director_intent": "The system has stabilized. Order is restored.", "start_image_keywords": ["calm blue lake", "system temp normal", "sterile aftermath"], "start_image_mode": "env_only", "video_plan": {"start_comp": {"mode": "env_first", "actor_pose_id": "", "env_id": "", "props": ["HUD Overlay"], "notes": ""}, "motion_driver": {"type": "none", "audio_id": "", "pose_source": "", "driver_notes": ""}, "reference_footage": {"id": "", "path": "", "use": "none", "notes": ""}, "overlay_badge": {"asset": "", "blend": "normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.0}, "provenance": {"source": "ai_assisted", "notes": ""}}, "voice_words_max": 0}
+### 1. START IMAGE PROMPT (Midjourney/Flux)
+High wide shot of the valley, now completely submerged in calm, glowing blue liquid. The surface is glass-smooth. A minimalist digital HUD overlay in the center reads: `SYSTEM_TEMP_NORMAL` and `CACHE_CLEARED`. Cold, clean, silent atmosphere. --ar 9:16 --v 6.0
+
+### 2. VIDEO PROMPT (Wan 2.5)
+**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** None.
+**[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** Digital HUD text.
+**[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** Calm fluid surface filling the valley.
+**[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** Soft blue ambient glow.
+**[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** Completely static shot, slow fade to black, 9:16 vertical format.
+
+### 3. AUDIO PROMPT (Hunyuan/Foley)
+Absolute silence except for a faint, steady electronic hum (server idle noise). Gentle water lapping.
 
 ## ACTOR MONOLOGUE PLAN (JSON)
-MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.2","text":"Das Feuer hier brennt nicht. Es rechnet.","words_max":8},{"scene":"2.1","text":"Für wen ist dieses Ende bestimmt?","words_max":6}],"Angel of Peace":[{"scene":"2.2","text":"Für die Fehler im System. Für Azazel.","words_max":8}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
+MONOLOGUE_JSON: {"actors":{"Henoch":[{"scene":"1.4","text":"Der Code zittert. Die Architektur hält dem Druck nicht mehr stand.","words_max":10},{"scene":"2.1","text":"Ist das Strafe oder Wartung?","words_max":5}],"Angel of Peace":[{"scene":"2.2","text":"Es ist Bereinigung. Fehlerhafte Sektoren werden überschrieben.","words_max":8}]},"notes":"German only. Short internal monologues. Do not describe the camera or list what is visible. Use emotion, memory, and cause-effect logic. Keep total lines per chapter low (3-7). JSON must be in one line."}
