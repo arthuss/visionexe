@@ -110,6 +110,13 @@ RLPy hidden API:
 - Use `engine/tools/rlpy_api_finder.py` for quick symbol searches.
 - Notes and examples in `docs/rlpy_hidden_api.md`.
 
+CC4 vs iClone API overlap (quick rules):
+- Scripts run inside the host app only; CC-only APIs are not available in iClone and vice versa.
+- Shared surface: RLPy math/time, scene graph, content manager access, file I/O, cameras/lights, and animation primitives.
+- CC-specific: Headshot, morph/skin authoring, wardrobe authoring, and `.ccAvatar` save workflows.
+- iClone-specific: Motion Director, iTalk/viseme workflows, mocap device hooks, timeline playback/recording, and crowd-style assets.
+- Crowds: iClone uses ActorCore Crowd `iAvatar` assets + Motion Director/path workflows; CC does not host crowd simulation. Use the Content Manager APIs to enumerate/load those assets and then drive them like standard iClone actors.
+
 iClone bridge:
 - Install the VisionExe OpenPlugin folder (`engine/iclone/openplugin/visionexe`) into iClone's OpenPlugin path and start the server from **Plugins > VisionExe > Open VisionExe Panel**.
 - Refresh an existing install with `engine/launchers/Install-iCloneOpenPlugin.ps1 -Mode Copy -Force`.
