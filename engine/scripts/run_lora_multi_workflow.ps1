@@ -1,6 +1,6 @@
 param(
     [string]$StoryConfig = "stories/template/config/story_config.json",
-    [string]$Timeline = "1",
+    [string[]]$Timeline = @(),
     [string[]]$Workflows = @(
         "engine/workflows/TEXT_TO_IMG.json",
         "engine/workflows/zimage.json",
@@ -11,7 +11,7 @@ param(
     [string]$QueueOut = "",
     [string]$PropQueueOut = "",
     [string]$TrainingSetOut = "",
-    [switch]$StartComfy,
+    [switch]$StartComfy = $true,
     [string]$ComfyScript = "engine/scripts/start_comfyui314wsl.ps1",
     [string]$ComfyWorkspace = "",
     [switch]$NoOrchestrator,
@@ -68,6 +68,40 @@ if (-not $trainingSetPath) {
     exit 1
 }
 
+$subjectsRoot = Resolve-RepoPath ($storyConfig.subjects_root ? $storyConfig.subjects_root : "stories/template/subjects") $repoRoot
+$timelineLabel = $storyConfig.timeline_label ? $storyConfig.timeline_label : "timeline"
+$timelinePadding = $storyConfig.timeline_index_padding ? [int]$storyConfig.timeline_index_padding : 2
+
+$timelineTags = @()
+if ($Timeline -and $Timeline.Count -gt 0) {
+    foreach ($entry in $Timeline) {
+        if (-not [string]::IsNullOrWhiteSpace($entry)) {
+            $timelineTags += $entry
+        }
+    }
+} else {
+    $timelineRoot = Join-Path $subjectsRoot "timelines"
+    if (Test-Path -LiteralPath $timelineRoot) {
+        $folders = Get-ChildItem -LiteralPath $timelineRoot -Directory
+        foreach ($folder in $folders) {
+            $name = $folder.Name
+            if ($name.StartsWith("$timelineLabel`_")) {
+                $tag = $name.Substring($timelineLabel.Length + 1)
+                if (-not [string]::IsNullOrWhiteSpace($tag)) {
+                    $timelineTags += $tag
+                }
+            }
+        }
+    }
+if (-not $timelineTags -or $timelineTags.Count -eq 0) {
+    $timelineTags = @("1")
+}
+
+if ($timelineTags.Count -gt 1) {
+    Write-Host "Hinweis: Mehrere Timelines gefunden. lora_training_set.json wird nur einmal geschrieben." -ForegroundColor DarkYellow
+}
+}
+
 $tempRoot = Join-Path $env:TEMP ("vx_lora_multi_workflow_" + (Get-Date -Format "yyyyMMdd_HHmmss"))
 New-Item -ItemType Directory -Path $tempRoot | Out-Null
 
@@ -82,41 +116,45 @@ for ($i = 0; $i -lt $Workflows.Count; $i++) {
         exit 1
     }
 
-    $tmpQueue = Join-Path $tempRoot ("queue_" + ($i + 1) + ".json")
-    $tmpPropQueue = Join-Path $tempRoot ("prop_queue_" + ($i + 1) + ".json")
-    $tmpTrainingSet = if (-not $trainingSetWritten) { $trainingSetPath } else { Join-Path $tempRoot ("training_set_" + ($i + 1) + ".json") }
+    for ($t = 0; $t -lt $timelineTags.Count; $t++) {
+        $timelineTag = $timelineTags[$t]
+        $timelineSuffix = ($timelineTag -replace "[^A-Za-z0-9_-]", "_")
+        $tmpQueue = Join-Path $tempRoot ("queue_" + ($i + 1) + "_" + $timelineSuffix + ".json")
+        $tmpPropQueue = Join-Path $tempRoot ("prop_queue_" + ($i + 1) + "_" + $timelineSuffix + ".json")
+        $tmpTrainingSet = if (-not $trainingSetWritten) { $trainingSetPath } else { Join-Path $tempRoot ("training_set_" + ($i + 1) + "_" + $timelineSuffix + ".json") }
 
-    $args = @(
-        "engine/workers/lora_dynamic_queue_builder.py",
-        "--story-config", $configPath,
-        "--timeline", $Timeline,
-        "--style-seed-workflow", $workflowPath,
-        "--output-queue", $tmpQueue,
-        "--output-prop-queue", $tmpPropQueue,
-        "--output-set", $tmpTrainingSet
-    )
+        $args = @(
+            "engine/workers/lora_dynamic_queue_builder.py",
+            "--story-config", $configPath,
+            "--timeline", $timelineTag,
+            "--style-seed-workflow", $workflowPath,
+            "--output-queue", $tmpQueue,
+            "--output-prop-queue", $tmpPropQueue,
+            "--output-set", $tmpTrainingSet
+        )
 
-    & $Python @args
-    if ($LASTEXITCODE -ne 0) {
-        Write-Host "FEHLER: Queue-Builder fehlgeschlagen fuer $workflowPath" -ForegroundColor Red
-        exit $LASTEXITCODE
-    }
-
-    if (-not $trainingSetWritten) {
-        $trainingSetWritten = $true
-    }
-
-    if (Test-Path -LiteralPath $tmpQueue) {
-        $queueData = Get-Content -LiteralPath $tmpQueue -Raw | ConvertFrom-Json
-        if ($queueData) {
-            $allQueue += @($queueData)
+        & $Python @args
+        if ($LASTEXITCODE -ne 0) {
+            Write-Host "FEHLER: Queue-Builder fehlgeschlagen fuer $workflowPath (timeline $timelineTag)" -ForegroundColor Red
+            exit $LASTEXITCODE
         }
-    }
 
-    if (Test-Path -LiteralPath $tmpPropQueue) {
-        $propData = Get-Content -LiteralPath $tmpPropQueue -Raw | ConvertFrom-Json
-        if ($propData) {
-            $allPropQueue += @($propData)
+        if (-not $trainingSetWritten) {
+            $trainingSetWritten = $true
+        }
+
+        if (Test-Path -LiteralPath $tmpQueue) {
+            $queueData = Get-Content -LiteralPath $tmpQueue -Raw | ConvertFrom-Json
+            if ($queueData) {
+                $allQueue += @($queueData)
+            }
+        }
+
+        if (Test-Path -LiteralPath $tmpPropQueue) {
+            $propData = Get-Content -LiteralPath $tmpPropQueue -Raw | ConvertFrom-Json
+            if ($propData) {
+                $allPropQueue += @($propData)
+            }
         }
     }
 }
