@@ -60,6 +60,12 @@ def safe_folder_name(value: str) -> str:
     return SAFE_FOLDER_RE.sub("_", str(value)).strip("_") or "default"
 
 
+def build_workflow_prefix(workflow_name: str) -> str:
+    if not workflow_name:
+        return ""
+    return safe_folder_name(workflow_name)
+
+
 def is_placeholder_subject(subject_id: str, name: str) -> bool:
     if not subject_id:
         return True
@@ -95,6 +101,27 @@ def choose_phase_prompt(card_data, state_id, state_label):
     if len(phase_prompts) == 1:
         return phase_prompts[0]
     return None
+
+
+def collect_phase_prompts(card_data, state_id, state_label):
+    phase_prompts = card_data.get("phase_prompts") or []
+    if isinstance(phase_prompts, dict):
+        prompts = [value for value in phase_prompts.values() if isinstance(value, dict)]
+        return prompts
+    if not isinstance(phase_prompts, list):
+        return []
+    matches = []
+    for prompt in phase_prompts:
+        if not isinstance(prompt, dict):
+            continue
+        if state_id and prompt.get("state_id") == state_id:
+            matches.append(prompt)
+            continue
+        if state_label and prompt.get("label") == state_label:
+            matches.append(prompt)
+    if matches:
+        return matches
+    return [prompt for prompt in phase_prompts if isinstance(prompt, dict)]
 
 
 def build_chapter_tag(state):
@@ -205,6 +232,9 @@ def main():
             state_label = state.get("label") or state_id
             safe_state = safe_folder_name(state_id)
             phase_prompt = choose_phase_prompt(card_data, state_id, state_label)
+            queue_phase_prompts = collect_phase_prompts(card_data, state_id, state_label)
+            if not queue_phase_prompts:
+                queue_phase_prompts = [None]
 
             prompt = build_prompt(card_data, phase_prompt, name)
             keywords = phase_prompt.get("prompt_keywords") if phase_prompt else card_data.get("prompt_keywords") or []
@@ -220,40 +250,59 @@ def main():
             ensure_dir(style_seed_abs)
             ensure_dir(multiangle_abs)
 
-            job_id = f"{subject_id}__{state_id}__seed"
             queue_type = QUEUE_TYPE_MAP.get(subject_type, "asset")
 
-            training_queue.append({
-                "id": job_id,
-                "type": queue_type,
-                "entity_type": queue_type,
-                "entity_name": name,
-                "subject_id": subject_id,
-                "subject_type": subject_type,
-                "phase_name": state_label,
-                "phase_id": state_id,
-                "prompt": prompt,
-                "workflow": style_seed_workflow,
-                "output_dir": str(style_seed_rel).replace("\\", "/"),
-                "output_basename": job_id,
-                "expected_outputs": 1,
-                "repeat_count": style_seed_count,
-            })
+            for phase_idx, phase_entry in enumerate(queue_phase_prompts, start=1):
+                phase_id = state_id
+                phase_name = state_label
+                phase_label = ""
+                if phase_entry:
+                    phase_id = phase_entry.get("state_id") or phase_id
+                    phase_name = phase_entry.get("label") or phase_name
+                    phase_label = phase_entry.get("label") or ""
+                phase_suffix = safe_folder_name(phase_id or phase_name or "")
+                if len(queue_phase_prompts) > 1:
+                    if not phase_suffix or phase_suffix == safe_folder_name(state_id):
+                        phase_suffix = f"{phase_suffix or 'phase'}_{phase_idx:02d}"
+                prompt = build_prompt(card_data, phase_entry, name)
+                job_id = f"{subject_id}__{state_id}__{phase_suffix}__seed"
+                workflow_prefix = build_workflow_prefix(style_seed_workflow)
+                output_basename = job_id
+                if workflow_prefix:
+                    output_basename = f"{workflow_prefix}__{job_id}"
 
-            if subject_type == "prop":
-                prop_queue.append({
-                    "entity_type": "prop",
+                training_queue.append({
+                    "id": job_id,
+                    "type": queue_type,
+                    "entity_type": queue_type,
                     "entity_name": name,
-                    "actor_slug": "global",
-                    "prop_name": name,
-                    "prop_slug": safe_folder_name(name),
+                    "subject_id": subject_id,
+                    "subject_type": subject_type,
+                    "phase_name": phase_name,
+                    "phase_id": phase_id,
+                    "phase_prompt_label": phase_label,
                     "prompt": prompt,
-                    "output_dir": str(style_seed_rel).replace("\\", "/"),
-                    "output_basename": job_id,
                     "workflow": style_seed_workflow,
+                    "output_dir": str(style_seed_rel).replace("\\", "/"),
+                    "output_basename": output_basename,
                     "expected_outputs": 1,
                     "repeat_count": style_seed_count,
                 })
+
+                if subject_type == "prop":
+                    prop_queue.append({
+                        "entity_type": "prop",
+                        "entity_name": name,
+                        "actor_slug": "global",
+                        "prop_name": name,
+                        "prop_slug": safe_folder_name(name),
+                        "prompt": prompt,
+                        "output_dir": str(style_seed_rel).replace("\\", "/"),
+                        "output_basename": output_basename,
+                        "workflow": style_seed_workflow,
+                        "expected_outputs": 1,
+                        "repeat_count": style_seed_count,
+                    })
 
             if subject_type != "character":
                 continue

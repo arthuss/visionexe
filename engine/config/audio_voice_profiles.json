@@ -6,7 +6,7 @@
     "channel_mode": "mono"
   },
   "tts_defaults": {
-    "model": "turbo",
+    "model": "mtl",
     "language_id": "de",
     "temperature": 0.8,
     "top_p": 0.95,
@@ -16,7 +16,6 @@
     "exaggeration": 0.5,
     "cfg_weight": 0.5,
     "norm_loudness": true,
-    "max_new_tokens": 400,
     "n_variations": 1,
     "seed_base": null
   },

@@ -54,6 +54,8 @@ LoRA flow (template):
 2. `lora_index_builder.py` -> `subjects/lora_index.json`
 3. `lora_pipeline_builder.py` -> `data/lora/lora_pipeline.jsonl`
    - Example: `python engine/workers/lora_dynamic_queue_builder.py --story-config stories/template/config/story_config.json --timeline 1`
+   - Emits one queue entry per `phase_prompts` entry when available (all phase prompts are queued).
+   - Output basenames are prefixed with the workflow label (when set) so multi-workflow runs don't collide.
 
 Direct actor sources:
 - `lora_index.json` includes training image folders (`style_seed_dir`, `multiangle_dir`) so scenes can use a training cutout
@@ -170,6 +172,7 @@ Audio (Monologue/TTS):
     - `curl "http://localhost:8000/result/<job_id>"`
   - Docs: `\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\chatterbox\\README_queue.md`
   - Speaker registry (master voices + mixes): `\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\chatterbox\\data\\speakers\\registry.json`
+  - Voice mixing for profiles: set `tts.speaker_mix` (or `tts.speaker_variation`) in `engine/config/audio_voice_profiles.json` with `speaker_id_1`, `speaker_id_2`, `ratio`, and optional `new_name`/`model`; the agent calls `/mix` and uses the returned `speaker_id` for TTS.
 
 Video docking:
 - `docs/video_docking.md` describes REGIE_JSON video_plan metadata and capture inputs.

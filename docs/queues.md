@@ -35,6 +35,8 @@ These live under `stories/<story>/` and should be treated as the canonical, time
   - `comfy_orchestrator.py` reads the queue and splits by `type`.
   - Use `repeat_count` or global `--actor-repeats/--env-repeats` to scale.
   - `lora_dynamic_queue_builder.py` writes `repeat_count` from `lora_style_seed_count`.
+  - `lora_dynamic_queue_builder.py` emits one queue entry per available `phase_prompts` entry.
+  - When a workflow is set, `lora_dynamic_queue_builder.py` prefixes the output basename with the workflow label to avoid collisions across multiple runs.
   - Dynamic-only queues use subject folders as dataset roots:
     - `subjects/timelines/<timeline>/.../states/<state_id>/images/style_seed`
     - `subjects/timelines/<timeline>/.../states/<state_id>/images/multiangle`

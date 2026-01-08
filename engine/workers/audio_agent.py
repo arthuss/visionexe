@@ -28,6 +28,7 @@ DEFAULT_TTS_SPEAKER_REGISTRY = os.environ.get(
     "TTS_SPEAKER_REGISTRY",
     r"\\wsl.localhost\Ubuntu22Old\home\sasch\chatterbox\data\speakers\registry.json",
 )
+SPEAKER_MIX_CACHE = {}
 DEFAULT_MAX_WORDS = 10
 WORDS_PER_SEC = 2.0
 MIN_WORDS = 4
@@ -219,6 +220,55 @@ def resolve_speaker_id(actor_key, profile, registry_map):
         norm = normalize_text(str(candidate))
         if norm and norm in registry_map:
             return registry_map[norm]
+    return None
+
+
+def resolve_speaker_mix(endpoint, tts_settings, registry_map, timeout_sec):
+    mix = tts_settings.get("speaker_mix") or tts_settings.get("speaker_variation")
+    if not isinstance(mix, dict):
+        return None
+
+    def resolve_ref(value):
+        if not value:
+            return None
+        if isinstance(value, str):
+            norm = normalize_text(value)
+            return registry_map.get(norm, value)
+        return None
+
+    speaker_id_1 = mix.get("speaker_id_1") or resolve_ref(
+        mix.get("speaker_1") or mix.get("speaker_name_1")
+    )
+    speaker_id_2 = mix.get("speaker_id_2") or resolve_ref(
+        mix.get("speaker_2") or mix.get("speaker_name_2")
+    )
+    if not speaker_id_1 or not speaker_id_2:
+        return None
+
+    ratio = float(mix.get("ratio", 0.5))
+    model = mix.get("model") or tts_settings.get("model", "mtl")
+    new_name = mix.get("new_name") or mix.get("name")
+    if not new_name:
+        new_name = f"mix_{speaker_id_1}_{speaker_id_2}_{int(ratio * 100)}"
+
+    cache_key = (speaker_id_1, speaker_id_2, ratio, model, new_name)
+    cached = SPEAKER_MIX_CACHE.get(cache_key)
+    if cached:
+        return cached
+
+    payload = {
+        "speaker_id_1": speaker_id_1,
+        "speaker_id_2": speaker_id_2,
+        "ratio": ratio,
+        "new_name": new_name,
+        "model": model,
+    }
+    response = post_json(f"{endpoint}/mix", payload, timeout_sec)
+    if isinstance(response, dict):
+        speaker_id = response.get("id") or response.get("speaker_id")
+        if speaker_id:
+            SPEAKER_MIX_CACHE[cache_key] = speaker_id
+            return speaker_id
     return None
 
 def merge_tts_settings(defaults, profile):
@@ -879,6 +929,9 @@ def run(
                 continue
 
         tts_settings = merge_tts_settings(tts_defaults, profile)
+        mix_id = resolve_speaker_mix(tts_endpoint, tts_settings, registry_map, tts_timeout_sec)
+        if mix_id:
+            tts_settings["speaker_id"] = mix_id
         if speaker_id and not tts_settings.get("speaker_id"):
             tts_settings["speaker_id"] = speaker_id
         payload = {
