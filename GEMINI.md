@@ -112,4 +112,6 @@
 - 2026-01-08 21:03 - Queue builder now emits one job per phase_prompts entry (engine/workers/lora_dynamic_queue_builder.py, docs/queues.md, README.md).
 - 2026-01-08 21:19 - Queue builder now prefixes output basenames with workflow labels to keep multi-workflow outputs in the same subject folder without collisions (engine/workers/lora_dynamic_queue_builder.py, docs/queues.md, README.md).
 - 2026-01-08 22:40 - Added Ge'ez gender detection, auto master-voice mix templates from the TTS `/speakers` endpoint, documented the new options, and captured updated LoRA queue JSONs (engine/workers/voice_cast_builder.py, README.md, stories/template/data/lora/lora_prop_queue.json, stories/template/data/lora/lora_training_queue.json, stories/template/data/lora/lora_training_set.json).
+- 2026-01-08 22:57 - Guarded voice cast speaker fetch against RemoteDisconnected so the builder falls back cleanly when the TTS server drops (engine/workers/voice_cast_builder.py).
 - 2026-01-08 22:50 - Added multi-workflow LoRA queue runner with optional ComfyUI + orchestrator launch (engine/scripts/run_lora_multi_workflow.ps1, README.md).
+- 2026-01-08 23:14 - Defaulted multi-workflow runner to all timelines and ComfyUI auto-start; README updated (engine/scripts/run_lora_multi_workflow.ps1, README.md).

@@ -1,5 +1,6 @@
 import argparse
 import copy
+import http.client
 import json
 import re
 import time
@@ -221,7 +222,7 @@ def fetch_tts_speakers(endpoint: str, timeout: int = 10):
         req = urllib.request.Request(endpoint, headers={"Accept": "application/json"})
         with urllib.request.urlopen(req, timeout=timeout) as response:
             payload = json.loads(response.read().decode("utf-8"))
-    except (urllib.error.URLError, json.JSONDecodeError, TimeoutError):
+    except (urllib.error.URLError, json.JSONDecodeError, TimeoutError, http.client.RemoteDisconnected):
         return []
     if isinstance(payload, dict):
         speakers = payload.get("speakers")
