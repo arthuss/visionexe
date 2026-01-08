@@ -16,7 +16,7 @@ DEFAULT_VOICE_PROFILES = os.path.join(
     "audio_voice_profiles.json",
 )
 DEFAULT_ACTOR_KEY = "henoch"
-DEFAULT_TTS_ENDPOINT = os.environ.get("TTS_ENDPOINT", "http://localhost:7865")
+DEFAULT_TTS_ENDPOINT = os.environ.get("TTS_ENDPOINT", "http://localhost:8000")
 DEFAULT_TTS_TIMEOUT_SEC = 600
 DEFAULT_TTS_POLL_INTERVAL = 1.5
 DEFAULT_TTS_WSL_ROOT = os.environ.get("TTS_WSL_ROOT", r"\\wsl.localhost\Ubuntu22Old")
@@ -882,7 +882,7 @@ def run(
         if speaker_id and not tts_settings.get("speaker_id"):
             tts_settings["speaker_id"] = speaker_id
         payload = {
-            "model": tts_settings.get("model", "turbo"),
+            "model": tts_settings.get("model", "mtl"),
             "text": monologue,
             "language_id": tts_settings.get("language_id", "de"),
             "speaker_id": tts_settings.get("speaker_id"),
@@ -895,7 +895,6 @@ def run(
             "exaggeration": tts_settings.get("exaggeration", 0.5),
             "cfg_weight": tts_settings.get("cfg_weight", 0.5),
             "norm_loudness": tts_settings.get("norm_loudness", True),
-            "max_new_tokens": tts_settings.get("max_new_tokens", 400),
             "n_variations": tts_settings.get("n_variations", 1),
             "seed_base": tts_settings.get("seed_base"),
         }

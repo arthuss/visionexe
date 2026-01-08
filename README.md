@@ -164,6 +164,12 @@ Audio (Monologue/TTS):
 - `engine/workers/voice_cast_builder.py` scans `DREHBUCH_HOLLYWOOD.md` for narrator/monologue/dialog speakers and writes `subjects/voice_cast.json` for voice mapping:
   - `python engine/workers/voice_cast_builder.py --story-config stories/template/config/story_config.json`
   - `audio_agent.py` currently uses narrator + monologue; dialog TTS is planned separately.
+- Chatterbox queue API (default TTS backend):
+  - Endpoint: `http://localhost:8000` (queue → result). Example:
+    - `curl -X POST http://localhost:8000/queue -H "Content-Type: application/json" -d '{"text":"Hello mit Speaker","model":"mtl","speaker_id":"turbo-1704717234"}'`
+    - `curl "http://localhost:8000/result/<job_id>"`
+  - Docs: `\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\chatterbox\\README_queue.md`
+  - Speaker registry (master voices + mixes): `\\wsl.localhost\\Ubuntu22Old\\home\\sasch\\chatterbox\\data\\speakers\\registry.json`
 
 Video docking:
 - `docs/video_docking.md` describes REGIE_JSON video_plan metadata and capture inputs.

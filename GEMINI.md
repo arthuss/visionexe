@@ -107,3 +107,4 @@
 - 2026-01-07 23:22 - Added RLPy wiki compatibility checker tool and documented usage (engine/tools/rlpy_wiki_compat.py, docs/rlpy_hidden_api.md, docs/reallusion_pipeline.md, README.md).
 - 2026-01-07 23:44 - Added Motion Director 3-phase flow doc + MD recorder worker, and updated pipeline/bridge/scene docs (docs/motion_director_flow.md, engine/workers/md_record_sequence.py, docs/reallusion_pipeline.md, docs/iclone_bridge.md, docs/scene_building.md, README.md).
 - 2026-01-08 00:03 - Added MD plan runner + sample plan, documented wrapper usage, and added .gitignore for RLPy dumps (engine/scripts/run_md_plan.ps1, stories/template/subjects/timelines/timeline_01/md_plans/scene_01_01.json, docs/motion_director_flow.md, docs/iclone_bridge.md, README.md, .gitignore).
+- 2026-01-08 20:38 - Switched TTS defaults to chatterbox queue API (mtl model, localhost:8000) and documented queue/speaker registry locations (engine/workers/audio_agent.py, README.md).
