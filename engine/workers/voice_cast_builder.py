@@ -91,8 +91,6 @@ def detect_geez_gender(name: str):
     if not normalized:
         return "unknown", "default"
     lowered = normalized.lower()
-    if "angel" in lowered or "uri" in lowered and lowered.endswith("el"):
-        return "male", "name_hint"
     if contains_geez(normalized):
         if any(normalized.endswith(suffix) for suffix in FEM_SUFFIXES):
             return "female", "geez_suffix"
