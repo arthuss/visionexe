@@ -56,6 +56,7 @@ LoRA flow (template):
    - Example: `python engine/workers/lora_dynamic_queue_builder.py --story-config stories/template/config/story_config.json --timeline 1`
    - Emits one queue entry per `phase_prompts` entry when available (all phase prompts are queued).
    - Output basenames are prefixed with the workflow label (when set) so multi-workflow runs don't collide.
+   - For multi-workflow runs: `engine/scripts/run_lora_multi_workflow.ps1` builds a combined queue for multiple workflows and can start ComfyUI + the orchestrator.
 
 Direct actor sources:
 - `lora_index.json` includes training image folders (`style_seed_dir`, `multiangle_dir`) so scenes can use a training cutout
@@ -165,7 +166,8 @@ Audio (Monologue/TTS):
 - Add `-Tts` to generate WAVs (TTS only runs when `-MonologueOutput` is `scene` or `both`).
 - `engine/workers/voice_cast_builder.py` scans `DREHBUCH_HOLLYWOOD.md` for narrator/monologue/dialog speakers and writes `subjects/voice_cast.json` for voice mapping:
   - Adds Ge'ez suffix gender hints (when names include Ge'ez characters) and per-language speaker mix templates for TTS.
-  - Optional: set `voice_mix_templates_path` in `story_config.json` to override the default mix templates.
+  - Default: pulls `[MASTER]` speakers from `GET http://localhost:8000/speakers` (override via `tts_speakers_endpoint` in `story_config.json`).
+  - Optional: set `voice_mix_templates_path` in `story_config.json` to override the mix templates.
   - `python engine/workers/voice_cast_builder.py --story-config stories/template/config/story_config.json`
   - `audio_agent.py` currently uses narrator + monologue; dialog TTS is planned separately.
 - Chatterbox queue API (default TTS backend):

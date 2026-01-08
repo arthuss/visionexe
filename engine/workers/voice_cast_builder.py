@@ -3,6 +3,8 @@ import copy
 import json
 import re
 import time
+import urllib.error
+import urllib.request
 from pathlib import Path
 
 from visionexe_paths import ensure_dir, load_story_config, resolve_path
@@ -67,6 +69,8 @@ DEFAULT_VOICE_MIX_TEMPLATES = {
         },
     },
 }
+
+DEFAULT_TTS_SPEAKERS_ENDPOINT = "http://localhost:8000/speakers"
 
 
 def normalize_speaker_id(name: str) -> str:
@@ -212,7 +216,96 @@ def list_chapters(filmsets_root: Path, label: str):
     return sorted(chapters)
 
 
+def fetch_tts_speakers(endpoint: str, timeout: int = 10):
+    try:
+        req = urllib.request.Request(endpoint, headers={"Accept": "application/json"})
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            payload = json.loads(response.read().decode("utf-8"))
+    except (urllib.error.URLError, json.JSONDecodeError, TimeoutError):
+        return []
+    if isinstance(payload, dict):
+        speakers = payload.get("speakers")
+        if isinstance(speakers, list):
+            return speakers
+        return []
+    if isinstance(payload, list):
+        return payload
+    return []
+
+
+def extract_master_speakers(speakers):
+    results = []
+    for speaker in speakers:
+        if isinstance(speaker, str):
+            results.append({"id": speaker, "label": speaker})
+            continue
+        if not isinstance(speaker, dict):
+            continue
+        speaker_id = speaker.get("speaker_id") or speaker.get("id") or ""
+        label = speaker.get("name") or speaker.get("label") or speaker_id
+        results.append({"id": str(speaker_id), "label": str(label)})
+    return results
+
+
+def detect_master_gender(label: str):
+    lowered = label.lower()
+    if "female" in lowered or "frau" in lowered:
+        return "female"
+    if "male" in lowered or "mann" in lowered:
+        return "male"
+    if "neutral" in lowered or "neut" in lowered:
+        return "unknown"
+    return "unknown"
+
+
+def detect_master_language(label: str):
+    lowered = label.lower()
+    if "de" in lowered or "german" in lowered or "deutsch" in lowered:
+        return "de"
+    if "en" in lowered or "english" in lowered:
+        return "en"
+    return "unknown"
+
+
+def pick_master_id(index, gender: str, language: str):
+    candidates = index.get(gender, {}).get(language, [])
+    if candidates:
+        return candidates[0]
+    candidates = index.get(gender, {}).get("unknown", [])
+    if candidates:
+        return candidates[0]
+    candidates = index.get("unknown", {}).get(language, [])
+    if candidates:
+        return candidates[0]
+    candidates = index.get("unknown", {}).get("unknown", [])
+    if candidates:
+        return candidates[0]
+    return ""
+
+
+def build_voice_templates_from_speakers(speakers):
+    templates = copy.deepcopy(DEFAULT_VOICE_MIX_TEMPLATES)
+    masters = [s for s in extract_master_speakers(speakers) if "[master]" in s["label"].lower()]
+    if not masters:
+        return templates
+    index = {"male": {"de": [], "en": [], "unknown": []}, "female": {"de": [], "en": [], "unknown": []}, "unknown": {"de": [], "en": [], "unknown": []}}
+    for master in masters:
+        gender = detect_master_gender(master["label"])
+        language = detect_master_language(master["label"])
+        index[gender][language].append(master["id"])
+    for gender in templates:
+        for language in templates[gender]:
+            master_id = pick_master_id(index, gender, language)
+            if master_id:
+                templates[gender][language]["speaker_mix"]["sources"] = [{"speaker_id": master_id, "weight": 1.0}]
+    return templates
+
+
 def load_voice_mix_templates(story_config: dict, repo_root: Path):
+    endpoint = story_config.get("tts_speakers_endpoint", DEFAULT_TTS_SPEAKERS_ENDPOINT)
+    speakers = fetch_tts_speakers(endpoint)
+    if speakers:
+        return build_voice_templates_from_speakers(speakers)
     templates_path = story_config.get("voice_mix_templates_path")
     if templates_path:
         resolved = resolve_path(templates_path, repo_root)
