@@ -17,8 +17,10 @@ DIALOG_HEADER_RE = re.compile(r"^\*\*Dialog:\*\*\s*(.*)$")
 SPEAKER_LINE_RE = re.compile(r"^\s*([^:]{1,64})\s*:\s*(.+)$")
 GEEZ_CHAR_RE = re.compile(r"[\u1200-\u137F]")
 
-FEM_SUFFIXES = ("\u1275", "\u1273", "\u120b")
+FEM_SUFFIXES = ("\u1275", "\u1273", "\u120b", "\u121b")
 MALE_SUFFIXES = ("\u12a4\u120d", "\u12ad")
+FEM_LATIN_SUFFIXES = ("at", "a")
+MALE_LATIN_SUFFIXES = ("el", "u", "i", "e")
 
 DEFAULT_VOICE_MIX_TEMPLATES = {
     "male": {
@@ -86,13 +88,24 @@ def contains_geez(text: str) -> bool:
 
 def detect_geez_gender(name: str):
     normalized = name.strip()
-    if not normalized or not contains_geez(normalized):
-        return "unknown", "none"
-    if any(normalized.endswith(suffix) for suffix in FEM_SUFFIXES):
-        return "female", "geez_suffix"
-    if any(normalized.endswith(suffix) for suffix in MALE_SUFFIXES):
-        return "male", "geez_suffix"
-    return "unknown", "geez_suffix"
+    if not normalized:
+        return "male", "default"
+    lowered = normalized.lower()
+    if "angel" in lowered or "uri" in lowered and lowered.endswith("el"):
+        return "male", "name_hint"
+    if contains_geez(normalized):
+        if any(normalized.endswith(suffix) for suffix in FEM_SUFFIXES):
+            return "female", "geez_suffix"
+        if any(normalized.endswith(suffix) for suffix in MALE_SUFFIXES):
+            return "male", "geez_suffix"
+        if normalized.endswith("\u1210") or normalized.endswith("\u12a1"):
+            return "male", "geez_suffix"
+        return "male", "geez_default"
+    if any(lowered.endswith(suffix) for suffix in FEM_LATIN_SUFFIXES):
+        return "female", "latin_suffix"
+    if any(lowered.endswith(suffix) for suffix in MALE_LATIN_SUFFIXES):
+        return "male", "latin_suffix"
+    return "male", "default"
 
 
 def read_text(path: Path) -> str:
@@ -296,6 +309,15 @@ def build_voice_templates_from_speakers(speakers):
         index[gender][language].append(master["id"])
     for gender in templates:
         for language in templates[gender]:
+            if gender == "unknown":
+                male_id = pick_master_id(index, "male", language)
+                female_id = pick_master_id(index, "female", language)
+                if male_id and female_id:
+                    templates[gender][language]["speaker_mix"]["sources"] = [
+                        {"speaker_id": male_id, "weight": 0.5},
+                        {"speaker_id": female_id, "weight": 0.5},
+                    ]
+                    continue
             master_id = pick_master_id(index, gender, language)
             if master_id:
                 templates[gender][language]["speaker_mix"]["sources"] = [{"speaker_id": master_id, "weight": 1.0}]

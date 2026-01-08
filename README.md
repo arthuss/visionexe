@@ -166,7 +166,7 @@ Audio (Monologue/TTS):
   - `.\engine\scripts\run_audio_agent.ps1 -Start 1 -End 108 -StoryConfig stories\template\config\story_config.json -MonologueSource plan -MonologueOutput both -Force`
 - Add `-Tts` to generate WAVs (TTS only runs when `-MonologueOutput` is `scene` or `both`).
 - `engine/workers/voice_cast_builder.py` scans `DREHBUCH_HOLLYWOOD.md` for narrator/monologue/dialog speakers and writes `subjects/voice_cast.json` for voice mapping:
-  - Adds Ge'ez suffix gender hints (when names include Ge'ez characters) and per-language speaker mix templates for TTS.
+  - Adds Ge'ez/Latin suffix gender hints (defaults to male; angels treated as male) and per-language speaker mix templates for TTS.
   - Default: pulls `[MASTER]` speakers from `GET http://localhost:8000/speakers` (override via `tts_speakers_endpoint` in `story_config.json`).
   - Optional: set `voice_mix_templates_path` in `story_config.json` to override the mix templates.
   - `python engine/workers/voice_cast_builder.py --story-config stories/template/config/story_config.json`
