@@ -89,7 +89,7 @@ def contains_geez(text: str) -> bool:
 def detect_geez_gender(name: str):
     normalized = name.strip()
     if not normalized:
-        return "male", "default"
+        return "unknown", "default"
     lowered = normalized.lower()
     if "angel" in lowered or "uri" in lowered and lowered.endswith("el"):
         return "male", "name_hint"
@@ -98,14 +98,12 @@ def detect_geez_gender(name: str):
             return "female", "geez_suffix"
         if any(normalized.endswith(suffix) for suffix in MALE_SUFFIXES):
             return "male", "geez_suffix"
-        if normalized.endswith("\u1210") or normalized.endswith("\u12a1"):
-            return "male", "geez_suffix"
-        return "male", "geez_default"
+        return "unknown", "geez_default"
     if any(lowered.endswith(suffix) for suffix in FEM_LATIN_SUFFIXES):
         return "female", "latin_suffix"
     if any(lowered.endswith(suffix) for suffix in MALE_LATIN_SUFFIXES):
         return "male", "latin_suffix"
-    return "male", "default"
+    return "unknown", "default"
 
 
 def read_text(path: Path) -> str:
