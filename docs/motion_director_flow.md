@@ -55,6 +55,12 @@ Run:
 python engine/workers/md_record_sequence.py --plan C:\temp\md_plan.json
 ```
 
+Story-aware wrapper (uses `story_config` to resolve the plan path):
+
+```powershell
+engine/scripts/run_md_plan.ps1 -StoryConfig stories/template/config/story_config.json -Timeline 1 -PlanName scene_01_01.json
+```
+
 If you need manual control, use the same steps with:
 - `md_start`, `md_begin_command`, `md_key`, `md_waypoints`, `md_end_command`.
 

@@ -1,0 +1,21 @@
+{
+  "avatar_name": "vx_henoch_p01",
+  "record": true,
+  "preserve_one_key": false,
+  "start_md": true,
+  "stop_md": false,
+  "steps": [
+    { "type": "key", "key": "F1" },
+    { "type": "sleep", "seconds": 0.6 },
+    {
+      "type": "waypoints",
+      "camera_name": "Camera",
+      "points": [
+        { "x": 0, "y": -200, "z": 0 },
+        { "x": 40, "y": -260, "z": 0 }
+      ],
+      "delay_ms": 200
+    },
+    { "type": "key", "key": "2" }
+  ]
+}

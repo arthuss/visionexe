@@ -134,6 +134,7 @@ iClone bridge:
 - UI automation (viewport clicks/hotkeys) is disabled by default; enable `ui_automation.enabled` in `iclone_config.json` or set `ICLONE_UI_AUTOMATION=1`.
 - Usage notes (including MD prop creation/triggering and UI injection) in `docs/iclone_bridge.md`.
 - Motion Director 3-phase flow + recorder: `docs/motion_director_flow.md` and `engine/workers/md_record_sequence.py`.
+- Plan runner: `engine/scripts/run_md_plan.ps1` (story-aware wrapper).
 
 Character Creator (Headshot automation):
 - Load `engine/character_creator/cc_file_watcher.py` via **Script > Load Python Script** (runs in CC4 main thread).

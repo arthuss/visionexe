@@ -369,6 +369,12 @@ Record a Motion Director sequence from a plan file (Begin/EndCommand + triggers)
 python engine/workers/md_record_sequence.py --plan C:\temp\md_plan.json
 ```
 
+Story-aware wrapper (uses story_config + timeline folder):
+
+```powershell
+engine/scripts/run_md_plan.ps1 -StoryConfig stories/template/config/story_config.json -Timeline 1 -PlanName scene_01_01.json
+```
+
 List MD props:
 
 ```powershell
