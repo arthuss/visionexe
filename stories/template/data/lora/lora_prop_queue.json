@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "entity_type": "prop",
+    "entity_name": "Book",
+    "actor_slug": "global",
+    "prop_name": "Book",
+    "prop_slug": "Book",
+    "prompt": "A photorealistic close‑up of a thick slab of translucent black obsidian, its surface etched with ancient Ethiopian glyphs glowing in red, displaying scrolling command‑line logs. The slab sits on cracked desert ground, dust motes floating, cinematic lighting highlighting the tactile texture.",
+    "output_dir": "timelines/timeline_01/PROP_BOOK/states/phase_01/images/style_seed",
+    "output_basename": "engine_workflows_Qwen_edit_multiple_view_api.json__PROP_BOOK__phase_01__phase_01__seed",
+    "workflow": "engine/workflows/Qwen_edit_multiple_view_api.json",
+    "expected_outputs": 1,
+    "repeat_count": 20
+  },
+  {
+    "entity_type": "prop",
+    "entity_name": "Book",
+    "actor_slug": "global",
+    "prop_name": "Book",
+    "prop_slug": "Book",
+    "prompt": "A photorealistic medium shot of a corrupted obsidian slab, its glyphs flickering, red glow fading into grey ash and digital noise. The surface cracks, fragments of black glass dissolve, with a gritty, high‑contrast aesthetic, set in a dark void with floating debris.",
+    "output_dir": "timelines/timeline_01/PROP_BOOK/states/phase_02/images/style_seed",
+    "output_basename": "engine_workflows_Qwen_edit_multiple_view_api.json__PROP_BOOK__phase_02__phase_02__seed",
+    "workflow": "engine/workflows/Qwen_edit_multiple_view_api.json",
+    "expected_outputs": 1,
+    "repeat_count": 20
+  },
+  {
+    "entity_type": "prop",
+    "entity_name": "Book",
+    "actor_slug": "global",
+    "prop_name": "Book",
+    "prop_slug": "Book",
+    "prompt": "A photorealistic depiction of the Obsidian Codex in its final corrupted state, its surface shattered into shards that disperse into a swirling vortex of holographic data streams, glowing in neon hues against a void, with a sense of ancient‑tech decay.",
+    "output_dir": "timelines/timeline_01/PROP_BOOK/states/phase_03/images/style_seed",
+    "output_basename": "engine_workflows_Qwen_edit_multiple_view_api.json__PROP_BOOK__phase_03__phase_03__seed",
+    "workflow": "engine/workflows/Qwen_edit_multiple_view_api.json",
+    "expected_outputs": 1,
+    "repeat_count": 20
+  }
+]

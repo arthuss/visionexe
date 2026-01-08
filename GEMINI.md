@@ -111,3 +111,4 @@
 - 2026-01-08 21:21 - Added Chatterbox voice mix support for TTS profiles and aligned defaults/documentation (engine/workers/audio_agent.py, engine/config/audio_voice_profiles.json, README.md).
 - 2026-01-08 21:03 - Queue builder now emits one job per phase_prompts entry (engine/workers/lora_dynamic_queue_builder.py, docs/queues.md, README.md).
 - 2026-01-08 21:19 - Queue builder now prefixes output basenames with workflow labels to keep multi-workflow outputs in the same subject folder without collisions (engine/workers/lora_dynamic_queue_builder.py, docs/queues.md, README.md).
+- 2026-01-08 22:40 - Added Ge'ez gender detection + voice mix templates to voice cast builder, documented the new options, and captured updated LoRA queue JSONs (engine/workers/voice_cast_builder.py, README.md, stories/template/data/lora/lora_prop_queue.json, stories/template/data/lora/lora_training_queue.json, stories/template/data/lora/lora_training_set.json).
