@@ -118,6 +118,7 @@
 - 2025-12-29 07:34 - distribute_scene_assets phase resolver now handles single-chapter entries in ranges to avoid unpack errors (C:\Users\sasch\henoch\distribute_scene_assets.py).
 - 2025-12-29 07:36 - Added --by-scene option to distribute_chapter_assets for scene subfolders; README updated (C:\Users\sasch\henoch\distribute_chapter_assets.py, C:\Users\sasch\henoch\README.md).
 - 2025-12-29 07:40 - Added timeline tagging for chapter asset generation and timeline filtering/foldering in distribute_chapter_assets; README updated (C:\Users\sasch\henoch\generate_chapter_assets.py, C:\Users\sasch\henoch\distribute_chapter_assets.py, C:\Users\sasch\henoch\README.md).
+- 2026-01-08 18:14 - Added voice_cast_builder to extract narrator/monologue/dialog speakers from screenplays and documented voice-cast usage in README (C:\Users\sasch\visionexe\engine\workers\voice_cast_builder.py, C:\Users\sasch\visionexe\README.md).
 - 2025-12-29 07:44 - Added run_chapter_timeline.ps1 to generate+distribute timeline assets with ComfyUI availability check; README updated (C:\Users\sasch\henoch\run_chapter_timeline.ps1, C:\Users\sasch\henoch\README.md).
 - 2025-12-29 07:48 - Expanded regie_worker REGIE_JSON schema with prop_placements and actor_block anchors; README updated (C:\Users\sasch\henoch\regie_worker.py, C:\Users\sasch\henoch\README.md).
 - 2025-12-29 07:50 - Added run_regie_audio.ps1 to run regie_worker + audio_agent in one batch; README updated (C:\Users\sasch\henoch\run_regie_audio.ps1, C:\Users\sasch\henoch\README.md).
@@ -284,3 +285,4 @@
 - 2026-01-07 23:22 - Added RLPy wiki compatibility checker and documented usage (engine/tools/rlpy_wiki_compat.py, docs/rlpy_hidden_api.md, docs/reallusion_pipeline.md, README.md).
 - 2026-01-07 23:44 - Added Motion Director 3-phase flow doc + MD recorder worker, and updated pipeline/bridge/readme docs (docs/motion_director_flow.md, engine/workers/md_record_sequence.py, docs/reallusion_pipeline.md, docs/iclone_bridge.md, docs/scene_building.md, README.md).
 - 2026-01-08 00:03 - Added MD plan runner + sample plan, and documented the wrapper; added .gitignore for RLPy dumps (engine/scripts/run_md_plan.ps1, stories/template/subjects/timelines/timeline_01/md_plans/scene_01_01.json, docs/motion_director_flow.md, docs/iclone_bridge.md, README.md, .gitignore).
+- 2026-01-08 18:24 - Added voice cast builder to extract narrator/monologue/dialog speakers from screenplays and emit subjects/voice_cast.json (C:\Users\sasch\visionexe\engine\workers\voice_cast_builder.py, C:\Users\sasch\visionexe\README.md).
