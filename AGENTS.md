@@ -295,6 +295,10 @@
 - 2026-01-09 10:12 - Fixed multi-workflow runner to fall back to data_root defaults when queue paths are missing in story_config (engine/scripts/run_lora_multi_workflow.ps1).
 - 2026-01-09 10:14 - Added ComfyUI readiness wait before orchestrator submission and documented the wait behavior (engine/scripts/run_lora_multi_workflow.ps1, README.md).
 - 2026-01-09 10:21 - Normalized workflow prefix naming and removed duplicate phase tokens in queue job ids (engine/workers/lora_dynamic_queue_builder.py).
+- 2026-01-09 13:43 - Added Asset Bible subject image queue builder + runner and documented the separate queue path (engine/workers/asset_bible_queue_builder.py, engine/scripts/run_subject_image_queue.ps1, docs/queues.md, docs/workers.md, README.md).
+- 2026-01-09 14:16 - Ensured subject image queue writer creates output directories before writing JSON (engine/scripts/run_subject_image_queue.ps1).
+- 2026-01-09 14:19 - Fixed run_subject_image_queue param block order for PowerShell parsing (engine/scripts/run_subject_image_queue.ps1).
 - 2026-01-08 22:40 - Added Ge'ez gender detection, auto master-voice mix templates from the TTS `/speakers` endpoint, documented the new options, and captured updated LoRA queue JSONs (C:\Users\sasch\visionexe\engine\workers\voice_cast_builder.py, C:\Users\sasch\visionexe\README.md, C:\Users\sasch\visionexe\stories\template\data\lora\lora_prop_queue.json, C:\Users\sasch\visionexe\stories\template\data\lora\lora_training_queue.json, C:\Users\sasch\visionexe\stories\template\data\lora\lora_training_set.json).
 - 2026-01-08 22:57 - Guarded voice cast speaker fetch against RemoteDisconnected so the builder falls back cleanly when the TTS server drops (C:\Users\sasch\visionexe\engine\workers\voice_cast_builder.py).
 - 2026-01-08 23:10 - Refined Ge'ez/Latin gender detection (default unknown) and made neutral mixes fall back to male+female when no neutral master exists; updated docs (C:\Users\sasch\visionexe\engine\workers\voice_cast_builder.py, C:\Users\sasch\visionexe\README.md).
+- 2026-01-09 14:35 - Rewrote workers overview to clean ASCII and summarize current worker groups (C:\Users\sasch\visionexe\docs\workers.md).

@@ -56,9 +56,13 @@ LoRA flow (template):
    - Example: `python engine/workers/lora_dynamic_queue_builder.py --story-config stories/template/config/story_config.json --timeline 1`
    - Emits one queue entry per `phase_prompts` entry when available (all phase prompts are queued).
    - Output basenames are prefixed with the workflow label (when set) so multi-workflow runs don't collide.
-   - For multi-workflow runs: `engine/scripts/run_lora_multi_workflow.ps1` builds a combined queue for multiple workflows and can start ComfyUI + the orchestrator.
+   - For multi-workflow LoRA runs: `engine/scripts/run_lora_multi_workflow.ps1` builds a combined queue for multiple workflows and can start ComfyUI + the orchestrator.
    - Default behavior (no args): runs all timelines found under `subjects/timelines/` and starts ComfyUI.
    - When `-StartComfy` is enabled, the script waits for ComfyUI to respond before submitting queue jobs.
+
+Subject image queue (Asset Bible):
+- `engine/workers/asset_bible_queue_builder.py` -> `data/queues/asset_bible_queue.json`
+- `engine/scripts/run_subject_image_queue.ps1` builds a combined queue for multiple workflows and can start ComfyUI + the orchestrator.
 
 Direct actor sources:
 - `lora_index.json` includes training image folders (`style_seed_dir`, `multiangle_dir`) so scenes can use a training cutout
