@@ -21,39 +21,24 @@ These live under `stories/<story>/` and should be treated as the canonical, time
   - `prefer` (optional): `content_manager` or `index`
 - Use when staging in iClone (load the actors before pose/MD).
 
-### 1.2 LoRA training queue (Comfy orchestrator)
+### 1.2 LoRA training queue (Comfy orchestrator, training only)
 - Path: `stories/<story>/data/lora/lora_training_queue.json`
 - Producer:
-  - Primary: `engine/workers/lora_dynamic_queue_builder.py` (dynamic-only by default).
   - Legacy: `prepare_lora_queue.py` (Henoch-only paths).
+  - Future: dedicated LoRA-training queue builder (not implemented yet).
 - Consumer: `engine/workers/comfy_orchestrator.py` (phase 1/2).
 - Timeline scope: queue should be timeline-specific; pass `--queue` when running the orchestrator.
-- Required fields (minimal):
-  - `type`: `actor` | `prop` | `asset` | `environment`
-  - `prompt`: text prompt used by the workflow
-  - `workflow` or `workflow_step1` (text-to-image)
-  - `output_dir` or `target_folder`
-  - `id` or `output_basename` (used for file prefix)
-- Environment jobs also need:
-  - `input_image_path`
-  - `workflow_step2` (image-to-image / multiview)
 - Notes:
-  - `comfy_orchestrator.py` reads the queue and splits by `type`.
-  - Use `repeat_count` or global `--actor-repeats/--env-repeats` to scale.
-  - `lora_dynamic_queue_builder.py` writes `repeat_count` from `lora_style_seed_count`.
-  - `lora_dynamic_queue_builder.py` emits one queue entry per available `phase_prompts` entry.
-  - When a workflow is set, `lora_dynamic_queue_builder.py` prefixes the output basename with the workflow label to avoid collisions across multiple runs.
-  - Dynamic-only queues use subject folders as dataset roots:
-    - `subjects/timelines/<timeline>/.../states/<state_id>/images/style_seed`
-    - `subjects/timelines/<timeline>/.../states/<state_id>/images/multiangle`
+  - This queue is for LoRA training jobs only.
+  - Do not use it for subject image generation (those belong to `asset_bible_queue.json`).
+  - Dataset roots come from `lora_training_set.json` (style_seed/multiangle dirs).
 
-### 1.3 LoRA prop queue
+### 1.3 LoRA prop queue (legacy)
 - Path: `stories/<story>/data/lora/lora_prop_queue.json`
 - Producer:
-  - Primary: `engine/workers/lora_dynamic_queue_builder.py` (prop entries only).
   - Legacy: `prepare_prop_queue.py` (Henoch-specific).
 - Consumer: `engine/workers/lora_index_builder.py` (prop training map).
-- Timeline scope: should be split by timeline once the queue builder is updated.
+- Timeline scope: legacy; migrate when a timeline-aware builder exists.
 
 ### 1.4 LoRA pipeline tasks (not a Comfy queue)
 - Path: `stories/<story>/data/lora/lora_pipeline.jsonl`
