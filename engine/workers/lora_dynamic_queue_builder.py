@@ -264,15 +264,15 @@ def main():
                     phase_id = phase_entry.get("state_id") or phase_id
                     phase_name = phase_entry.get("label") or phase_name
                     phase_label = phase_entry.get("label") or ""
-                phase_suffix = safe_folder_name(phase_id or phase_name or "")
+                base_state = safe_folder_name(state_id)
+                phase_tag = base_state
+                phase_hint = safe_folder_name(phase_id or phase_name or "")
+                if phase_hint and phase_hint != base_state:
+                    phase_tag = f"{base_state}__{phase_hint}"
                 if len(queue_phase_prompts) > 1:
-                    if not phase_suffix or phase_suffix == safe_folder_name(state_id):
-                        phase_suffix = f"{phase_suffix or 'phase'}_{phase_idx:02d}"
+                    phase_tag = f"{phase_tag}__p{phase_idx:02d}"
                 prompt = build_prompt(card_data, phase_entry, name)
-                if phase_suffix and phase_suffix != safe_folder_name(state_id):
-                    job_id = f"{subject_id}__{state_id}__{phase_suffix}__seed"
-                else:
-                    job_id = f"{subject_id}__{state_id}__seed"
+                job_id = f"{subject_id}__{phase_tag}__seed"
                 workflow_prefix = build_workflow_prefix(style_seed_workflow)
                 output_basename = job_id
                 if workflow_prefix:

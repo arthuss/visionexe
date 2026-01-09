@@ -302,3 +302,4 @@
 - 2026-01-08 22:57 - Guarded voice cast speaker fetch against RemoteDisconnected so the builder falls back cleanly when the TTS server drops (C:\Users\sasch\visionexe\engine\workers\voice_cast_builder.py).
 - 2026-01-08 23:10 - Refined Ge'ez/Latin gender detection (default unknown) and made neutral mixes fall back to male+female when no neutral master exists; updated docs (C:\Users\sasch\visionexe\engine\workers\voice_cast_builder.py, C:\Users\sasch\visionexe\README.md).
 - 2026-01-09 14:35 - Rewrote workers overview to clean ASCII and summarize current worker groups (C:\Users\sasch\visionexe\docs\workers.md).
+- 2026-01-09 14:50 - Removed duplicate phase tokens in LoRA queue job IDs by normalizing phase tags (engine/workers/lora_dynamic_queue_builder.py).
