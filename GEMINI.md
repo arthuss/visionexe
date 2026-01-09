@@ -116,3 +116,6 @@
 - 2026-01-08 23:10 - Refined Ge'ez/Latin gender detection (default unknown) and made neutral mixes fall back to male+female when no neutral master exists; updated docs (engine/workers/voice_cast_builder.py, README.md).
 - 2026-01-08 22:50 - Added multi-workflow LoRA queue runner with optional ComfyUI + orchestrator launch (engine/scripts/run_lora_multi_workflow.ps1, README.md).
 - 2026-01-08 23:14 - Defaulted multi-workflow runner to all timelines and ComfyUI auto-start; README updated (engine/scripts/run_lora_multi_workflow.ps1, README.md).
+- 2026-01-09 10:12 - Fixed multi-workflow runner to fall back to data_root defaults when queue paths are missing in story_config (engine/scripts/run_lora_multi_workflow.ps1).
+- 2026-01-09 10:14 - Added ComfyUI readiness wait before orchestrator submission and documented the wait behavior (engine/scripts/run_lora_multi_workflow.ps1, README.md).
+- 2026-01-09 10:21 - Normalized workflow prefix naming and removed duplicate phase tokens in queue job ids (engine/workers/lora_dynamic_queue_builder.py).

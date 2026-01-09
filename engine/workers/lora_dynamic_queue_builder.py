@@ -63,7 +63,11 @@ def safe_folder_name(value: str) -> str:
 def build_workflow_prefix(workflow_name: str) -> str:
     if not workflow_name:
         return ""
-    return safe_folder_name(workflow_name)
+    raw = str(workflow_name).strip()
+    base = Path(raw).name
+    if base.lower().endswith(".json"):
+        base = Path(base).stem
+    return safe_folder_name(base)
 
 
 def is_placeholder_subject(subject_id: str, name: str) -> bool:
@@ -265,7 +269,10 @@ def main():
                     if not phase_suffix or phase_suffix == safe_folder_name(state_id):
                         phase_suffix = f"{phase_suffix or 'phase'}_{phase_idx:02d}"
                 prompt = build_prompt(card_data, phase_entry, name)
-                job_id = f"{subject_id}__{state_id}__{phase_suffix}__seed"
+                if phase_suffix and phase_suffix != safe_folder_name(state_id):
+                    job_id = f"{subject_id}__{state_id}__{phase_suffix}__seed"
+                else:
+                    job_id = f"{subject_id}__{state_id}__seed"
                 workflow_prefix = build_workflow_prefix(style_seed_workflow)
                 output_basename = job_id
                 if workflow_prefix:

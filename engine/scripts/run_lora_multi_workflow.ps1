@@ -12,6 +12,9 @@ param(
     [string]$PropQueueOut = "",
     [string]$TrainingSetOut = "",
     [switch]$StartComfy = $true,
+    [string]$ComfyUrl = "http://127.0.0.1:8188",
+    [int]$ComfyWaitSec = 120,
+    [int]$ComfyPollSec = 3,
     [string]$ComfyScript = "engine/scripts/start_comfyui314wsl.ps1",
     [string]$ComfyWorkspace = "",
     [switch]$NoOrchestrator,
@@ -41,6 +44,30 @@ function Write-Utf8File {
     [System.IO.File]::WriteAllText($PathValue, $ContentValue, $utf8NoBom)
 }
 
+function Get-ConfigValue {
+    param(
+        [object]$Config,
+        [string]$Name,
+        [string]$DefaultValue
+    )
+    if ($null -eq $Config) {
+        return $DefaultValue
+    }
+    $prop = $Config.PSObject.Properties[$Name]
+    if ($null -eq $prop) {
+        return $DefaultValue
+    }
+    $value = $prop.Value
+    if ($null -eq $value) {
+        return $DefaultValue
+    }
+    $text = [string]$value
+    if ([string]::IsNullOrWhiteSpace($text)) {
+        return $DefaultValue
+    }
+    return $text
+}
+
 $scriptDir = Split-Path -Parent $MyInvocation.MyCommand.Path
 $repoRoot = Resolve-Path (Join-Path $scriptDir "..\\..")
 
@@ -51,9 +78,18 @@ if (-not (Test-Path -LiteralPath $configPath)) {
 }
 
 $storyConfig = Get-Content -LiteralPath $configPath -Raw | ConvertFrom-Json
-$queuePath = Resolve-RepoPath ($QueueOut ? $QueueOut : $storyConfig.lora_training_queue_path) $repoRoot
-$propQueuePath = Resolve-RepoPath ($PropQueueOut ? $PropQueueOut : $storyConfig.lora_prop_queue_path) $repoRoot
-$trainingSetPath = Resolve-RepoPath ($TrainingSetOut ? $TrainingSetOut : $storyConfig.lora_training_set_path) $repoRoot
+$dataRoot = Get-ConfigValue -Config $storyConfig -Name "data_root" -DefaultValue "stories/template/data"
+$defaultQueue = Join-Path $dataRoot "lora/lora_training_queue.json"
+$defaultPropQueue = Join-Path $dataRoot "lora/lora_prop_queue.json"
+$defaultTrainingSet = Join-Path $dataRoot "lora/lora_training_set.json"
+
+$queueValue = if ($QueueOut) { $QueueOut } else { Get-ConfigValue -Config $storyConfig -Name "lora_training_queue_path" -DefaultValue $defaultQueue }
+$propQueueValue = if ($PropQueueOut) { $PropQueueOut } else { Get-ConfigValue -Config $storyConfig -Name "lora_prop_queue_path" -DefaultValue $defaultPropQueue }
+$trainingSetValue = if ($TrainingSetOut) { $TrainingSetOut } else { Get-ConfigValue -Config $storyConfig -Name "lora_training_set_path" -DefaultValue $defaultTrainingSet }
+
+$queuePath = Resolve-RepoPath $queueValue $repoRoot
+$propQueuePath = Resolve-RepoPath $propQueueValue $repoRoot
+$trainingSetPath = Resolve-RepoPath $trainingSetValue $repoRoot
 
 if (-not $queuePath) {
     Write-Host "FEHLER: lora_training_queue_path ist nicht gesetzt." -ForegroundColor Red
@@ -68,9 +104,10 @@ if (-not $trainingSetPath) {
     exit 1
 }
 
-$subjectsRoot = Resolve-RepoPath ($storyConfig.subjects_root ? $storyConfig.subjects_root : "stories/template/subjects") $repoRoot
-$timelineLabel = $storyConfig.timeline_label ? $storyConfig.timeline_label : "timeline"
-$timelinePadding = $storyConfig.timeline_index_padding ? [int]$storyConfig.timeline_index_padding : 2
+$subjectsRoot = Resolve-RepoPath (Get-ConfigValue -Config $storyConfig -Name "subjects_root" -DefaultValue "stories/template/subjects") $repoRoot
+$timelineLabel = Get-ConfigValue -Config $storyConfig -Name "timeline_label" -DefaultValue "timeline"
+$timelinePaddingValue = Get-ConfigValue -Config $storyConfig -Name "timeline_index_padding" -DefaultValue "2"
+$timelinePadding = [int]$timelinePaddingValue
 
 $timelineTags = @()
 if ($Timeline -and $Timeline.Count -gt 0) {
@@ -177,6 +214,25 @@ if ($StartComfy) {
     $comfyArgs = "-NoProfile -ExecutionPolicy Bypass -File `"$comfyScriptPath`""
     Start-Process -FilePath "powershell" -ArgumentList $comfyArgs -WorkingDirectory $repoRoot | Out-Null
     Write-Host "ComfyUI gestartet: $comfyScriptPath" -ForegroundColor Green
+
+    $deadline = (Get-Date).AddSeconds($ComfyWaitSec)
+    $ready = $false
+    while ((Get-Date) -lt $deadline) {
+        try {
+            $resp = Invoke-WebRequest -Uri $ComfyUrl -Method Get -TimeoutSec 5
+            if ($resp.StatusCode -ge 200 -and $resp.StatusCode -lt 500) {
+                $ready = $true
+                break
+            }
+        } catch {
+            Start-Sleep -Seconds $ComfyPollSec
+        }
+    }
+    if (-not $ready) {
+        Write-Host "FEHLER: ComfyUI nicht erreichbar unter $ComfyUrl (Timeout nach $ComfyWaitSec s)." -ForegroundColor Red
+        exit 1
+    }
+    Write-Host "ComfyUI bereit: $ComfyUrl" -ForegroundColor Green
 }
 
 if (-not $NoOrchestrator) {
