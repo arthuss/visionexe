@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "high",
+      "reasoning": "Corresponds to 1 Enoch 7:2. The nominal sentence structure identifies the subject 'They' (referring to the wives) and the result 'Giant/Giants' (ረዐይተ). The numerical phrase '፴፻፡እመት' (3000 cubits) is a classic textual variant describing the height of the giants.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 7:2",
+          "note": "Attested reading for giant's height varies (300 vs 3000), but '3000 cubits' is a well-known reading in Ethiopic MSS."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "And they conceived and bore giants, whose height was 3000 cubits."
+    }
+  ],
+  "decision_log": "The parse correctly links the pronoun subject to the action of bearing giants. The modifier '3000 cubits' is correctly associated with the giants.",
+  "final_decision": {
+    "hypothesis_ref": "S2",
+    "translation_id": "T1",
+    "confidence": "high"
+  }
+}

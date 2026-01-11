@@ -967,3 +967,237 @@ ChapterID,SegmentLabel,SegmentType,Status,SourcePath,RawContent
     ""confidence"": ""moderate""
   }
 }"
+7,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_007\segment_001\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The segment corresponds to 1 Enoch 7:1. The coordination structure correctly identifies the sequence of actions: 'taking wives' (ነሥኡ፡ሎሙ፡ንስት), 'mixing' (ተደመሩ), and 'teaching' (መህርዎን) sorcery (ሥራያተ) and root-cutting (መቲረ፡ሥርው). The parse aligns with the standard Ethiopic version where the Watchers instruct humanity in forbidden arts."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 7:1 (Knibb/Charles)"",
+          ""note"": ""Standard Ge'ez text: ወነሥኡ፡ሎሙ፡አንስተ... ወመሀርዎን፡ሥራያተ፡ወስብዐታተ...""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And they took for themselves wives, and each chose one for himself... and they began to go in unto them and mixed with them, and taught them charms and enchantments, and the cutting of roots and trees.""
+    }
+  ],
+  ""decision_log"": ""Input text contains minor orthographic variations (e.g., 'ንስት' for 'አንስተ', 'መህርዎን' for 'መሀርዎን'), but the syntactic relationships in the parse correctly map the governing verbs to their direct objects (sorcery, roots)."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+7,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_007\segment_002\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S2"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 7:2. The nominal sentence structure identifies the subject 'They' (referring to the wives) and the result 'Giant/Giants' (ረዐይተ). The numerical phrase '፴፻፡እመት' (3000 cubits) is a classic textual variant describing the height of the giants."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 7:2"",
+          ""note"": ""Attested reading for giant's height varies (300 vs 3000), but '3000 cubits' is a well-known reading in Ethiopic MSS.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And they conceived and bore giants, whose height was 3000 cubits.""
+    }
+  ],
+  ""decision_log"": ""The parse correctly links the pronoun subject to the action of bearing giants. The modifier '3000 cubits' is correctly associated with the giants."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S2"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+7,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_007\segment_003\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S3"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 7:3. 'እሉ' (These) refers to the giants. 'ልዑ' is likely 'በልዑ' (consumed/ate). 'ፃማ፡ሰብእ' refers to the 'toil/labor of men' (produce). The subordinate clause starting with 'እስ' (likely 'እስከ') marks the limit of human capacity ('until men were unable to sustain them')."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 7:3"",
+          ""note"": ""Text: እሉ፡በልዑ፡ኩሎ፡ፃማ፡ሰብእ፡እስከ፡ሰአኑ፡ሰብእ፡ሴስዮቶሙ።""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""These consumed the labor of men, until men were unable to sustain them.""
+    }
+  ],
+  ""decision_log"": ""Despite 'ልዑ' appearing as a truncated form of 'በልዑ' (ate), the argument structure (Subject: Giants -> Object: Labor) is historically sound."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S3"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"
+7,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_007\segment_004\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S4"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 7:4. The serial/consecutive verb construction fits: 'Turned' (ተመይጡ) -> 'Against them' (to men) -> 'To eat' (ይብልዕዎሙ). Represents the shift from consuming produce to consuming humans."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 7:4"",
+          ""note"": ""Text: ወተመይጡ፡ረዓይት፡ላዕሌሆሙ፡ከመ፡ይብልዕዎሙ፡ለሰብእ።""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And the giants turned against them in order to eat men.""
+    }
+  ],
+  ""decision_log"": ""Syntactic parse correctly identifies the purpose clause."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S4"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+7,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_007\segment_005\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S5"",
+      ""plausibility"": ""moderate"",
+      ""reasoning"": ""Corresponds to 1 Enoch 7:5. Heavily corrupted text in input ('ወዲ፡ራዊት' instead of 'ወአራዊት', 'ይናቲሆሙ' possibly 'በበይናቲሆሙ'). However, the list of animals (birds, beasts, reptiles, fish) and the act of blood-drinking ('ወደመ፡ስትዩ') is clearly discernible and historically accurate to the chapter content."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 7:5"",
+          ""note"": ""Text: ወወጠኑ፡ያብሱ፡በዕዋፍ፡ወአራዊት... ወይትባልዑ፡በበይናቲሆሙ፡ሥጋሆሙ፡ወደመ፡ይሰትዩ።""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And they began to sin against birds, and beasts, and creeping things, and fish, and to devour one another's flesh, and they drank the blood.""
+    }
+  ],
+  ""decision_log"": ""The input text requires significant emendation (reconstruction) to match standard grammar, but the semantic domains (animals, cannibalism, blood) are distinct. The coordination parse is valid for the list of victims."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S5"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"
+7,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_007\segment_006\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S6"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 7:6. 'እምሃ' (Then/From there) initiates the consequence. 'ምድር' (Earth) is the subject. 'ሰየቶሙ' is a variant of 'ሰከየቶሙ' (accused/complained against). Fits the conclusion of the pericope."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 7:6"",
+          ""note"": ""Text: ወእምዝ፡ምድር፡ሰከየቶሙ፡ለዐማፅያን።""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""Then the earth laid accusation against the lawless ones.""
+    }
+  ],
+  ""decision_log"": ""Standard conclusion to the chapter. 'ሰየቶሙ' is accepted as an orthographic variant for the accusatory action of the Earth."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S6"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+8,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_008\segment_001\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1-P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The coordination chain accurately reflects the accumulation of forbidden technologies (metallurgy and cosmetics) attributed to Azazel in the Watcher tradition. The syntactic break at 'wa-tawāleṭa ʿālam' (and the world was changed/corrupted) marks a shift from specific teachings to general consequences."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 8:1-2 (Greek Syncellus)"",
+          ""note"": ""Matches the list: 'swords and breastplates... and stibium and beautifying of the eyelids'.""
+        },
+        {
+          ""ref"": ""4Q201 (Aramaic Enoch)"",
+          ""note"": ""Fragments support the list of metallurgical teachings.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And Azazel taught men to make swords and knives and shields and breastplates... and the world was changed.""
+    }
+  ],
+  ""decision_log"": ""The parse correctly handles the long list of direct objects governed by 'mahara' (taught) and identifies the consequential clause starting with 'tawāleṭa'."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1-P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+8,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_008\segment_002\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S2-P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The compound structure captures the progression of moral decay: existence of impiety -> action of fornication -> result of corruption. The reading 'rasʿān' (impiety/godlessness) is standard."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 8:2 (Greek Panopolitanus)"",
+          ""note"": ""Corresponds to 'kai egeneto asebeia pollē' (and there was much impiety).""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And there was great and much impiety, and they committed fornication and erred, and all their ways were corrupt.""
+    }
+  ],
+  ""decision_log"": ""Parse accurately delineates the paratactic structure common in Ge'ez narrative describing a sequence of states and events."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S2-P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+8,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_008\segment_003\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S3-P1"",
+      ""plausibility"": ""moderate"",
+      ""reasoning"": ""The 'List of Actions' structure is correct, linking specific Watchers to specific forbidden arts (spells, astrology, etc.). However, the tokenization challenges noted (merged boundaries) suggest the raw tokens might need refinement to perfectly align with the underlying names (Mizaras = Semihazah/Amazarak; Armaros, etc.). Historically, these are distinct pairings of deity/angel and techne."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 8:3 (Greek)"",
+          ""note"": ""Semiazas taught spells and root-cuttings; Armaros the resolving of spells; Baraqel the signs of the stars.""
+        }
+      ],
+      ""context_invariance"": ""variable"",
+      ""back_translation"": ""Amazarak taught all the enchanters and root-cutters; Armaros the resolving of spells; Baraqel the astrologers...""
+    }
+  ],
+  ""decision_log"": ""The semantic mapping is accurate despite potential granular tokenization issues. The identification of the specific Watchers and their respective domains (sorcery, astrology) is historically sound within the Enochic corpus."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S3-P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+8,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_008\segment_004\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S4-P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The construction 'wa-ḥəgwilata sabʾ' (and [at] the destruction of men) functions as a temporal/circumstantial clause leading to the main action 'ṣarḥu' (they cried out). This connects the earthly suffering to the heavenly response in Chapter 9."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 8:4 (Greek)"",
+          ""note"": ""tōn anthrōpōn apollymenōn eboēsan (as men were perishing, they cried out).""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And as men perished, they cried, and their voice went up to heaven.""
+    }
+  ],
+  ""decision_log"": ""The causal link between the destruction and the cry to heaven is correctly identified. The historical/textual parallel with the Greek version confirms this reading."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S4-P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"

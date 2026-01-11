@@ -1314,3 +1314,80 @@ ChapterID,SegmentLabel,SegmentType,Status,SourcePath,RawContent
     ]
   }
 }"
+8,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_008\segment_001\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1-P1"",
+        ""structure_type"": ""Coordination Chain"",
+        ""bracket_notation"": ""[S [VP [V t5] [NP t6] [NP t7] [NP t8] [NP t9] [NP t10] [NP t11] [NP t12] [NP t13] [NP t14]]] [S [VP [V t14_end] [NP t15]]]"",
+        ""dependencies"": [
+          ""t5->t6 (obj)"",
+          ""t6->t7 (conj)"",
+          ""t7->t8 (conj)"",
+          ""t8->t9 (conj)"",
+          ""t9->t10 (conj)"",
+          ""t10->t11 (conj)"",
+          ""t11->t12 (conj)"",
+          ""t12->t13 (conj)"",
+          ""t13->t14 (conj)"",
+          ""t14->t15 (subj)""
+        ],
+        ""notes"": ""Tokens t5-t14 represent a long chain of coordinated direct objects governed by the verb in t5 ('taught'). t14 introduces a new clause ('and changed') with t15 ('world') as its subject.""
+      }
+    ]
+  }
+}"
+8,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_008\segment_002\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S2-P1"",
+        ""structure_type"": ""Compound Sentence"",
+        ""bracket_notation"": ""[S [S [NP t5]] [S [VP t6]] [S [VP t7]]]"",
+        ""dependencies"": [
+          ""t5->t6 (conj)"",
+          ""t6->t7 (conj)""
+        ],
+        ""notes"": ""Sequential clauses connected by 'wa-' (and). t5 predicates 'great impiety'. t6 describes the actions 'committed fornication and erred'. t7 describes the result 'ways were corrupt'.""
+      }
+    ]
+  }
+}"
+8,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_008\segment_003\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S3-P1"",
+        ""structure_type"": ""List of Actions"",
+        ""bracket_notation"": ""[S [S [VP [V t5] [NP t6] [NP t7_start]]] [S [VP [V t7_end] [NP t8_start]]] [S [VP [V t8_end] [NP t9] [NP t10]]] [S [VP [V t11] [NP t12]]] [S [VP [V t12_end] [NP t13]]]]"",
+        ""dependencies"": [
+          ""t5->t6 (obj)"",
+          ""t6->t7 (continuation)"",
+          ""t7->t8 (conj)"",
+          ""t8->t9 (obj)"",
+          ""t9->t10 (continuation)"",
+          ""t10->t11 (conj)"",
+          ""t11->t12 (obj)"",
+          ""t12->t13 (conj)""
+        ],
+        ""notes"": ""A series of subject-verb-object structures listing what different watchers taught. The tokenization merges some boundaries (e.g., t7 contains object of previous and subject/verb of next).""
+      }
+    ]
+  }
+}"
+8,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_008\segment_004\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S4-P1"",
+        ""structure_type"": ""Temporal/Result Clause"",
+        ""bracket_notation"": ""[S [SBAR [t5]] [S [t6]]]"",
+        ""dependencies"": [
+          ""t5->t6 (consequence)""
+        ],
+        ""notes"": ""t5 'As men perished, they cried' acts as the temporal/causal context for t6 'their voice went up to heaven'.""
+      }
+    ]
+  }
+}"

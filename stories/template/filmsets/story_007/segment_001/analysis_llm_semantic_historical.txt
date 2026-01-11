@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "high",
+      "reasoning": "The segment corresponds to 1 Enoch 7:1. The coordination structure correctly identifies the sequence of actions: 'taking wives' (ነሥኡ፡ሎሙ፡ንስት), 'mixing' (ተደመሩ), and 'teaching' (መህርዎን) sorcery (ሥራያተ) and root-cutting (መቲረ፡ሥርው). The parse aligns with the standard Ethiopic version where the Watchers instruct humanity in forbidden arts.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 7:1 (Knibb/Charles)",
+          "note": "Standard Ge'ez text: ወነሥኡ፡ሎሙ፡አንስተ... ወመሀርዎን፡ሥራያተ፡ወስብዐታተ..."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "And they took for themselves wives, and each chose one for himself... and they began to go in unto them and mixed with them, and taught them charms and enchantments, and the cutting of roots and trees."
+    }
+  ],
+  "decision_log": "Input text contains minor orthographic variations (e.g., 'ንስት' for 'አንስተ', 'መህርዎን' for 'መሀርዎን'), but the syntactic relationships in the parse correctly map the governing verbs to their direct objects (sorcery, roots).",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T1",
+    "confidence": "high"
+  }
+}

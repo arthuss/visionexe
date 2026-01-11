@@ -1,0 +1,463 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:19:35Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_008/segment_001",
+    "graphematic_string": "Chapter 8 Segment 1\n\nወዛዜኤል፡መሀሮሙ፡ለሰብእ፡\nገቢረ፡ስይፍት፡ወመጠብኅት፡\nወወልታ፡ወድርዓ፡እንግድዓ፡\nርዮሙ፡ዘእምድኅሬሆሙ፡\nወምግባረሆሙ፨ወውቃፋተ፡\nወሰርጐ፡ወተሕሎተ፡ወስንዮ፡\nቀራንብት፡ወእብን፡\nእምሉ፨እብን፡\nቡር፨ወኅሩየ፡ወሎ፡\nጥምዐታተ፡ኅብር፨ወተዋለጠ፡\nዓለም፡",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "chapter",
+            "lemma": "Chapter",
+            "pattern": "unknown"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.9
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "English loan"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "8",
+      "span": {
+        "start": 8,
+        "end": 9
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "8",
+            "lemma": "8",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Numeric"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 10,
+        "end": 17
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "segment",
+            "lemma": "Segment",
+            "pattern": "unknown"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.9
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "English loan"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "1",
+      "span": {
+        "start": 18,
+        "end": 19
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "1",
+            "lemma": "1",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Numeric"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወዛዜኤል፡መሀሮሙ፡ለሰብእ፡",
+      "span": {
+        "start": 21,
+        "end": 37
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PN",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ዛዜኤል",
+            "lemma": "ዛዜኤል",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.6
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Enoch 8:1"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ገቢረ፡ስይፍት፡ወመጠብኅት፡",
+      "span": {
+        "start": 38,
+        "end": 54
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ገብረ",
+            "lemma": "ገቢር",
+            "pattern": "CaCiC"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ወወልታ፡ወድርዓ፡እንግድዓ፡",
+      "span": {
+        "start": 55,
+        "end": 71
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ወልታ",
+            "lemma": "ወልታ",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ርዮሙ፡ዘእምድኅሬሆሙ፡",
+      "span": {
+        "start": 72,
+        "end": 85
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ርእየ",
+            "lemma": "ርእይ",
+            "pattern": "C1C2C3"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.6
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ወምግባረሆሙ፨ወውቃፋተ፡",
+      "span": {
+        "start": 86,
+        "end": 100
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ገብረ",
+            "lemma": "ምግባር",
+            "pattern": "mVCCaC"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "ወሰርጐ፡ወተሕሎተ፡ወስንዮ፡",
+      "span": {
+        "start": 101,
+        "end": 117
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሰርጐ",
+            "lemma": "ሰርጐ",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.6
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t11",
+      "surface": "ቀራንብት፡ወእብን፡",
+      "span": {
+        "start": 118,
+        "end": 129
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ቀርነበ",
+            "lemma": "ቀራንብት",
+            "pattern": "quadriliteral"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t12",
+      "surface": "እምሉ፨እብን፡",
+      "span": {
+        "start": 130,
+        "end": 138
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "እብን",
+            "lemma": "እብን",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t13",
+      "surface": "ቡር፨ወኅሩየ፡ወሎ፡",
+      "span": {
+        "start": 139,
+        "end": 150
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ኀረየ",
+            "lemma": "ኅሩይ",
+            "pattern": "CCuC"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.6
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t14",
+      "surface": "ጥምዐታተ፡ኅብር፨ወተዋለጠ፡",
+      "span": {
+        "start": 151,
+        "end": 167
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ጠምዐ",
+            "lemma": "ጥምዐት",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.6
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t15",
+      "surface": "ዓለም፡",
+      "span": {
+        "start": 168,
+        "end": 172
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ዐለመ",
+            "lemma": "ዓለም",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

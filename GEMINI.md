@@ -17,3 +17,4 @@
 - 2026-01-11 03:25 - Enforced upstream dependency waits in analysis workers (B waits for A, C for B, D for C) and documented the workflow note (engine/workers/worker_llm_analysis_Morphologic.py, engine/workers/worker_llm_analysis_synthactic.py, engine/workers/worker_llm_analysis_semantic-historical.py, docs/workers.md, README.md).
 - 2026-01-11 03:49 - Added chapter-batch mode to run one LLM request per chapter and fan out per-segment outputs (engine/workers/worker_llm_analysis_graphematic.py, engine/workers/worker_llm_analysis_Morphologic.py, engine/workers/worker_llm_analysis_synthactic.py, engine/workers/worker_llm_analysis_semantic-historical.py, docs/workers.md, README.md).
 - 2026-01-11 04:01 - Fixed filter override recursion in the morphology worker after chapter-batch changes (engine/workers/worker_llm_analysis_Morphologic.py).
+- 2026-01-11 04:19 - Noted the Linguistic quad-worker starter script in the README (README.md).

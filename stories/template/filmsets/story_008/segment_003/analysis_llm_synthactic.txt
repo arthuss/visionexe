@@ -1,0 +1,22 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S3-P1",
+        "structure_type": "List of Actions",
+        "bracket_notation": "[S [S [VP [V t5] [NP t6] [NP t7_start]]] [S [VP [V t7_end] [NP t8_start]]] [S [VP [V t8_end] [NP t9] [NP t10]]] [S [VP [V t11] [NP t12]]] [S [VP [V t12_end] [NP t13]]]]",
+        "dependencies": [
+          "t5->t6 (obj)",
+          "t6->t7 (continuation)",
+          "t7->t8 (conj)",
+          "t8->t9 (obj)",
+          "t9->t10 (continuation)",
+          "t10->t11 (conj)",
+          "t11->t12 (obj)",
+          "t12->t13 (conj)"
+        ],
+        "notes": "A series of subject-verb-object structures listing what different watchers taught. The tokenization merges some boundaries (e.g., t7 contains object of previous and subject/verb of next)."
+      }
+    ]
+  }
+}

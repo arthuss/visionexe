@@ -1,0 +1,22 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1-P1",
+        "structure_type": "Coordination Structure",
+        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [S [VP [V t5] [NP [N t6] [NUM t7]] [PP t8]]] [CONJ AND] [S [VP [V t9] [NP [N t10] [N t11]]]]]",
+        "dependencies": [
+          "t1->t2 (mod)",
+          "t3->t4 (mod)",
+          "t5->t6 (obj)",
+          "t6->t7 (mod)",
+          "t5->t8 (obl)",
+          "t5->t9 (coord)",
+          "t9->t10 (obj)",
+          "t9->t11 (conj)"
+        ],
+        "notes": "Coarse tokenization implies clausal coordination between t5 and t9."
+      }
+    ]
+  }
+}

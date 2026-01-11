@@ -1,0 +1,24 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1-P1",
+        "structure_type": "Coordination Chain",
+        "bracket_notation": "[S [VP [V t5] [NP t6] [NP t7] [NP t8] [NP t9] [NP t10] [NP t11] [NP t12] [NP t13] [NP t14]]] [S [VP [V t14_end] [NP t15]]]",
+        "dependencies": [
+          "t5->t6 (obj)",
+          "t6->t7 (conj)",
+          "t7->t8 (conj)",
+          "t8->t9 (conj)",
+          "t9->t10 (conj)",
+          "t10->t11 (conj)",
+          "t11->t12 (conj)",
+          "t12->t13 (conj)",
+          "t13->t14 (conj)",
+          "t14->t15 (subj)"
+        ],
+        "notes": "Tokens t5-t14 represent a long chain of coordinated direct objects governed by the verb in t5 ('taught'). t14 introduces a new clause ('and changed') with t15 ('world') as its subject."
+      }
+    ]
+  }
+}

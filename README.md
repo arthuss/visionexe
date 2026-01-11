@@ -20,6 +20,7 @@ Core data flow (minimal):
    - Optional: run the Ge'ez linguistic analysis workers (Levels A-D) for graphematic/morphologic/synthactic/semantic-historical passes. See `docs/geez_analysis_methodology.md`.
    - The A-D workers wait for upstream outputs (B waits for A, C waits for B, D waits for C).
    - Use `--chapter-batch` to process one request per chapter and write per-segment outputs.
+   - Starter script: `engine/scripts/Linguistic_quad_worker.ps1`.
    - End-to-end pipeline runner: `README_pipeline.md`.
 1. `worker_llm_analysis.py` -> analysis CSV at `analysis_progress_csv_path` (story_config).
    - Use `--use-gemini` to run via Gemini CLI (model from `--model` or `GEMINI_MODEL`).

@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S5",
+      "plausibility": "moderate",
+      "reasoning": "Corresponds to 1 Enoch 7:5. Heavily corrupted text in input ('ወዲ፡ራዊት' instead of 'ወአራዊት', 'ይናቲሆሙ' possibly 'በበይናቲሆሙ'). However, the list of animals (birds, beasts, reptiles, fish) and the act of blood-drinking ('ወደመ፡ስትዩ') is clearly discernible and historically accurate to the chapter content.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 7:5",
+          "note": "Text: ወወጠኑ፡ያብሱ፡በዕዋፍ፡ወአራዊት... ወይትባልዑ፡በበይናቲሆሙ፡ሥጋሆሙ፡ወደመ፡ይሰትዩ።"
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "And they began to sin against birds, and beasts, and creeping things, and fish, and to devour one another's flesh, and they drank the blood."
+    }
+  ],
+  "decision_log": "The input text requires significant emendation (reconstruction) to match standard grammar, but the semantic domains (animals, cannibalism, blood) are distinct. The coordination parse is valid for the list of victims.",
+  "final_decision": {
+    "hypothesis_ref": "S5",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}

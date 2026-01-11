@@ -1,0 +1,17 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S4-P1",
+        "structure_type": "Serial Verb Construction",
+        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP [V t5] [S [VP [V t6]]]]]",
+        "dependencies": [
+          "t1->t2 (mod)",
+          "t3->t4 (mod)",
+          "t5->t6 (purp)"
+        ],
+        "notes": "t5 (turned) governs t6 (to eat) as a purpose or consecutive clause."
+      }
+    ]
+  }
+}

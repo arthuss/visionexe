@@ -1,0 +1,17 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S6-P1",
+        "structure_type": "Adverbial Initial Structure",
+        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [S [ADV t5] [NP [N t6]]]]",
+        "dependencies": [
+          "t1->t2 (mod)",
+          "t3->t4 (mod)",
+          "t5->t6 (punct/seq)"
+        ],
+        "notes": "Fragmentary or transitional segment starting with temporal adverb t5."
+      }
+    ]
+  }
+}

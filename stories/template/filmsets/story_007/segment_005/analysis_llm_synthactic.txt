@@ -1,0 +1,21 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S5-P1",
+        "structure_type": "Complex Coordination",
+        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [S [VP [V t5] [NP t6]] [VP [V t7]] [VP [NP t8] [V t9] [ADV t10]]]]",
+        "dependencies": [
+          "t1->t2 (mod)",
+          "t3->t4 (mod)",
+          "t5->t6 (obj)",
+          "t5->t7 (coord)",
+          "t7->t9 (coord)",
+          "t9->t8 (obj)",
+          "t9->t10 (mod)"
+        ],
+        "notes": "Multi-clausal structure with shared subject or sequential events."
+      }
+    ]
+  }
+}
