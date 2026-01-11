@@ -1,0 +1,320 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://visionexe.local/schema/gez-analysis-1.0.0",
+  "title": "Ge'ez Analysis Artifact",
+  "type": "object",
+  "required": ["meta", "source", "tokens"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["schema_version", "created_at", "created_by", "language", "tagset_id"],
+      "additionalProperties": false,
+      "properties": {
+        "schema_version": { "type": "string", "pattern": "^1\\.0\\.0$" },
+        "created_at": { "type": "string", "format": "date-time" },
+        "created_by": { "type": "string" },
+        "language": { "type": "string", "enum": ["gez"] },
+        "tagset_id": { "type": "string" },
+        "tokenization_policy": { "type": "string" },
+        "model_calls": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["stage", "provider", "model", "temperature", "prompt_version"],
+            "additionalProperties": false,
+            "properties": {
+              "stage": { "type": "string" },
+              "provider": { "type": "string", "enum": ["ollama", "gemini", "none"] },
+              "model": { "type": "string" },
+              "temperature": { "type": "number" },
+              "seed": { "type": ["integer", "null"] },
+              "prompt_version": { "type": "string" },
+              "duration_sec": { "type": ["number", "null"] },
+              "response_sha256": { "type": ["string", "null"] }
+            }
+          }
+        },
+        "notes": { "type": "string" }
+      }
+    },
+    "source": {
+      "type": "object",
+      "required": ["witness_id", "graphematic_string", "normalization_policy"],
+      "additionalProperties": false,
+      "properties": {
+        "witness_id": { "type": "string" },
+        "graphematic_string": { "type": "string" },
+        "normalization_policy": {
+          "type": "string",
+          "enum": ["none", "unicode_nfc_only", "nfc_plus_whitespace_normalization"]
+        },
+        "punctuation_markers": { "type": "array", "items": { "type": "string" } },
+        "removed_artifacts": { "type": "array", "items": { "type": "string" } },
+        "uncertainties": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/uncertainty" }
+        }
+      }
+    },
+    "tokens": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/token" }
+    },
+    "syntax": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "parses": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "structure_type"],
+            "additionalProperties": false,
+            "properties": {
+              "id": { "type": "string" },
+              "structure_type": { "type": "string" },
+              "bracket_notation": { "type": "string" },
+              "dependencies": { "type": "array", "items": { "type": "string" } },
+              "notes": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "semantic": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "evaluation": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["hypothesis_ref", "plausibility"],
+            "additionalProperties": false,
+            "properties": {
+              "hypothesis_ref": { "type": "string" },
+              "plausibility": { "type": "string" },
+              "reasoning": { "type": "string" },
+              "parallels": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["ref"],
+                  "additionalProperties": false,
+                  "properties": {
+                    "ref": { "type": "string" },
+                    "note": { "type": "string" }
+                  }
+                }
+              },
+              "context_invariance": { "type": "string" },
+              "back_translation": { "type": "string" }
+            }
+          }
+        },
+        "final_decision": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "hypothesis_ref": { "type": "string" },
+            "translation_id": { "type": "string" },
+            "confidence": { "type": "string" }
+          }
+        },
+        "decision_log": { "type": "string" }
+      }
+    },
+    "translation_space": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "variants": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["id", "text", "parse_ref", "token_map"],
+            "additionalProperties": false,
+            "properties": {
+              "id": { "type": "string" },
+              "text": { "type": "string" },
+              "parse_ref": { "type": "string" },
+              "token_map": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": ["token_id", "option_id"],
+                  "additionalProperties": false,
+                  "properties": {
+                    "token_id": { "type": "string" },
+                    "option_id": { "type": "string" }
+                  }
+                }
+              },
+              "notes": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "tests": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "context_invariance": { "type": "object" },
+        "back_translation": { "type": "object" },
+        "reproducibility": { "type": "object" }
+      }
+    },
+    "decision_log": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["step", "action"],
+        "additionalProperties": false,
+        "properties": {
+          "step": { "type": "string" },
+          "action": { "type": "string" },
+          "rationale": { "type": "string" },
+          "refs": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "span": {
+      "type": "object",
+      "required": ["start", "end"],
+      "additionalProperties": false,
+      "properties": {
+        "start": { "type": "integer", "minimum": 0 },
+        "end": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "uncertainty": {
+      "type": "object",
+      "required": ["span", "type", "note"],
+      "additionalProperties": false,
+      "properties": {
+        "span": { "$ref": "#/$defs/span" },
+        "type": {
+          "type": "string",
+          "enum": ["damaged", "illegible", "editorial_restoration", "variant_reading"]
+        },
+        "candidates": { "type": "array", "items": { "type": "string" } },
+        "note": { "type": "string" }
+      }
+    },
+    "morpheme": {
+      "type": "object",
+      "required": ["morph_id", "surface", "type"],
+      "additionalProperties": false,
+      "properties": {
+        "morph_id": { "type": "string" },
+        "surface": { "type": "string" },
+        "type": {
+          "type": "string",
+          "enum": ["prefix", "stem", "suffix", "clitic", "particle"]
+        }
+      }
+    },
+    "token": {
+      "type": "object",
+      "required": ["token_id", "surface", "span", "options"],
+      "additionalProperties": false,
+      "properties": {
+        "token_id": { "type": "string", "pattern": "^t\\d+$" },
+        "surface": { "type": "string" },
+        "span": { "$ref": "#/$defs/span" },
+        "segmentation": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "morphemes": {
+              "type": "array",
+              "items": { "$ref": "#/$defs/morpheme" }
+            }
+          }
+        },
+        "options": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/option" }
+        }
+      }
+    },
+    "option": {
+      "type": "object",
+      "required": ["option_id", "pos", "analysis", "confidence", "evidence"],
+      "additionalProperties": false,
+      "properties": {
+        "option_id": { "type": "string" },
+        "pos": { "type": "string" },
+        "analysis": {
+          "type": "object",
+          "required": ["kind"],
+          "additionalProperties": false,
+          "properties": {
+            "kind": { "type": "string", "enum": ["lexical", "functional"] },
+            "root": { "type": ["string", "null"] },
+            "lemma": { "type": ["string", "null"] },
+            "pattern": { "type": ["string", "null"] },
+            "affixes": {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "prefixes": { "type": "array", "items": { "type": "string" } },
+                "suffixes": { "type": "array", "items": { "type": "string" } },
+                "clitics": { "type": "array", "items": { "type": "string" } }
+              }
+            },
+            "features": {
+              "type": "object",
+              "additionalProperties": { "type": ["string", "number", "boolean", "null"] }
+            },
+            "gloss": { "type": ["string", "null"] }
+          }
+        },
+        "confidence": {
+          "type": "object",
+          "required": ["type"],
+          "additionalProperties": false,
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["undecided", "weak", "moderate", "strong", "ruled_out"]
+            },
+            "score": { "type": ["number", "null"], "minimum": 0, "maximum": 1 }
+          }
+        },
+        "evidence": {
+          "type": "object",
+          "required": ["lexicon_status", "attestation"],
+          "additionalProperties": false,
+          "properties": {
+            "lexicon_status": {
+              "type": "string",
+              "enum": ["attested_in_lexicon", "attested_in_corpus_not_lexicon", "unattested"]
+            },
+            "attestation": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": ["type", "ref"],
+                "additionalProperties": false,
+                "properties": {
+                  "type": { "type": "string", "enum": ["lexicon", "corpus", "edition"] },
+                  "ref": { "type": "string" },
+                  "quote_span": { "$ref": "#/$defs/span" }
+                }
+              }
+            },
+            "constraints_checked": { "type": "array", "items": { "type": "string" } },
+            "notes": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

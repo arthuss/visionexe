@@ -1,0 +1,969 @@
+ChapterID,SegmentLabel,SegmentType,Status,SourcePath,RawContent
+1,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_001\segment_001\segment.txt,"```json
+{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The text corresponds to the incipit of 1 Enoch (1:1). Despite lacunae and OCR-like errors (e.g., 'ረት' for 'በረከት', 'ዘሄኖ' for 'ዘሄኖክ', 'መ፡ረ' for 'ዘባረኮሙ'), the structure is clearly identifiable as the standard Ge'ez intro formula: 'Qāla barakat za-Hēnok...'. The syntactic structure follows the standard construct chain 'Word of [blessing of] Enoch' followed by a relative clause 'with which he blessed...'."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 1:1 (Ge'ez Mss)"",
+          ""note"": ""Standard reading: ቃለ፡በረከት፡ዘሄኖክ፡ዘባረኮሙ፡ለኅሩያን፡ወጻድቃነ...""
+        },
+        {
+          ""ref"": ""4Q201 (En^a ar)"",
+          ""note"": ""Aramaic parallel supports 'The words of the blessing of Enoch...'""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Input text contains significant fragmentation ('ቃለ፡ረት፡ዘሄኖ' vs 'ቃለ፡በረከት፡ዘሄኖክ'). Hypothesis S1 assumes the standard reconstruction of 1 Enoch 1:1. The reading 'መ፡ረ' is reconstructed as 'ዘባረኮሙ' (he blessed them) based on context and 'ኅሩያነ፡ወጻድቃነ' (elect and righteous) which follows. 'ለሰስሎ፡ሎ' is clearly 'ለአሰስሎ፡ኩሎሙ' or 'ኩሉ' (to remove all). The historical and semantic consistency with the known Enochic corpus is absolute."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}
+```"
+1,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_001\segment_002\segment.txt,"```json
+{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The text is an identifiable version of 1 Enoch 1:2, despite significant graphemic elisions and scribal/OCR defects (e.g., 'ሄኖ' for 'ሄኖክ', 'ሡታት' for 'ክሡታት', 'ዘርዩኒ' for 'ዘአርአዩኒ'). The syntactic structure 'Noun-Adjective-Relative Clause' matches standard Ge'ez syntax for this passage."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 1:2 (Knibb/Charles)"",
+          ""note"": ""Standard critical text confirms the reconstruction of missing radicals (e.g., 'ክ' in 'ክሡታት', 'ክ' in 'ሄኖክ').""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Identified input as 1 Enoch 1:2. Deviations like 'ወውሥ' are likely 'ወአውሥአ' (and he answered) or 'ወውእቱ' (and he). 'ዘእምኀ' is clearly 'ዘእምኀበ'. 'ሎ' at the end of the clause is 'ኵሎ' (everything). The negative particle 'አኮ' is missing before 'ለዝ', and 'አ' is missing from 'አላ' (but), but the adversative structure is implied by the context of 'distant generations' vs 'this generation'. Accepted S1 as the correct semantic reading despite surface noise."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}
+```"
+1,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_001\segment_003\segment.txt,"```json
+{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""The text appears to be a corrupt witness of 1 Enoch 1:2-3. The verbal form 'wawśāʾku' (I answered/conversed) replaces the standard 'wa-naśāʾku' (I took up), and 'məsla' (with) disrupts the theophany clause, likely a corruption of 'mašāləya' (my parable) or an intrusion. The phrase 'wamla ʿālam' is likely a contracted or corrupt spelling of 'wa-ʾamlāka ʿālam' (and the God of the world)."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 1:2-3 (Knibb/Charles)"",
+          ""note"": ""Standard text: 'wa-naśāʾku mašāləya... yəwaḍḍəʾ' (I took up my parable... he will come forth).""
+        },
+        {
+          ""ref"": ""Greek (Gizeh)"",
+          ""note"": ""kai analabōn tēn parabolēn mou (and taking up my parable)""
+        }
+      ],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""Concerning the elect I spoke and conversed concerning them with the one who comes forth, the Holy and Great, from his dwelling and the [God?] of the world.""
+    }
+  ],
+  ""decision_log"": ""The input text diverges significantly from established critical editions. The reading 'məsla zayəwaḍḍəʾ' (with him who comes forth) creates an unlikely syntactic dependency for the theophany ('conversed with...'). Historical evidence (Greek and Ethiopic MSS) strongly supports 'naśāʾku mašāləya' (took up my parable) followed by a new main clause 'yəwaḍḍəʾ' (he will come forth). The input is evaluated as a secondary or corrupt reading requiring emendation for historical sense."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1_Literal_Corrupt"",
+    ""confidence"": ""low""
+  }
+}
+```"
+1,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_001\segment_004\segment.txt,"```json
+{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The text corresponds to 1 Enoch 1:4 describing the Theophany on Mount Sinai. 'Wayemheya' (And from there) connects to the previous movement. 'Yeyed' is semantically obscure as written but historically corresponds to 'yewarred' (descends) or 'yeked' (treads) in parallel MSS. 'Di' is a confirmed abbreviation/variant for 'Diba' (upon). 'Te'eyintu' (His camp/host) and 'Tsen'a Haylu' (Strength of His power) accurately reflect the described manifestation."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 1:4 (Ethiopic)"",
+          ""note"": ""Standard text reads 'wayewarred diba dabr Sina' (and he descends upon Mount Sinai).""
+        },
+        {
+          ""ref"": ""Deuteronomy 33:2"",
+          ""note"": ""Theophany form Sinai with 'ten thousands of saints' (paralleling 'host').""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""The lexical item 'Yeyed' is treated as a corruption of 'Yewarred' or 'Yeked' based on the strong 'Di Sina Dabr' (Upon Mount Sinai) context. The remaining clauses regarding the appearance of 'His host' and 'power' are syntactically and semantically sound. The historical context of the Sinai Theophany reinforces this reading despite the scribal anomalies."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}
+```"
+1,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_001\segment_005\segment.txt,"```json
+{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The syntactic structure aligns with the standard Ge'ez VSO order. 'Wayadlaqlaqu taguhan' (And the Watchers shall tremble) shows correct plural agreement. 'Wayanaśś'omu' (And it shall seize them) correctly uses the object suffix '-mu' referring back to 'taguhan', with 'firhat wara'ad 'abiy' (great fear and trembling) as the subject."",
+      ""parallels"": [
+        {
+          ""ref"": ""Greek 1 Enoch 1:5"",
+          ""note"": ""καὶ φοβηθήσονται πάντες (And all shall fear) matches the likely intended reading of 'wayifarrah [kwel]lu'.""
+        },
+        {
+          ""ref"": ""Greek 1 Enoch 1:5"",
+          ""note"": ""καὶ οἱ Ἐγρήγοροι σεισθήσονται (and the Watchers shall quake) parallels 'wayadlaqlaqu taguhan'.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And [all] shall fear, and the Watchers shall tremble, and great fear and trembling shall seize them unto the ends of the earth.""
+    }
+  ],
+  ""decision_log"": ""The input text 'ወይፈርህ፡ሉ፡' presents a textual anomaly. 'ሉ' (lu) is likely a corruption of 'ኩሉ' (kwellu, 'all'), supported by the Greek 'pantes' (all). The verb 'wayadlaqlaqu' (they shall tremble) agrees with 'taguhan' (Watchers). The phrase 'iska ṣinafa midr' (unto the ends of the earth) is a well-attested idiom. The hypothesis S1 assumes the reconstructed reading 'kwellu' for semantic coherence."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}
+```"
+1,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_001\segment_006\segment.txt,"```json
+{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The syntactic structure parallels biblical poetic couplets (parallelism). The vocabulary (ድባር, ውግር, መዓር) is standard for 1 Enoch descriptions of theophanies."",
+      ""parallels"": [
+        {
+          ""ref"": ""Micah 1:4"",
+          ""note"": ""Similar imagery: 'And the mountains shall be molten under him... as wax before the fire.'""
+        },
+        {
+          ""ref"": ""Judith 16:15"",
+          ""note"": ""Mountains melting like wax.""
+        },
+        {
+          ""ref"": ""1 Enoch 1:6 (Greek)"",
+          ""note"": ""καὶ τακήሰንται ὡς κηρὸς ἀπὸ προσώπου πυρὸς (and they shall melt like wax from the face of fire)""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""The reading is straightforward. The input segment 'መ፡ መዓረ፡ግራ' contains 'መ፡' which functions as the preposition 'like' (standard ከመ, or prefix በ/ከ). In this context, it introduces the simile 'like wax'. 'መዓረ ግራ' literally 'honey of the field/left?' often denotes 'honeycomb' or 'wax'. The Greek parallel supports 'wax' (κηρὸς). 'እምላህብ' (from flame) confirms the melting imagery. No significant ambiguity exists in the syntax S1 (Subject-Verb parallelism)."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}
+```"
+1,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_001\segment_007\segment.txt,"```json
+{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""Syntactic_Analysis_S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The text presents significant lexical variants compared to the standard critical text (Knibb/Charles). 'ወትሠጠም' (wa-tissaṭṭam) derives from √s-ṭ-m 'to sink/drown', whereas standard MSS read 'ወትተሰጠቅ' (wa-tittasaṭṭaq) from √s-ṭ-q 'to split/rend'. 'ወሉ' (walu) and 'ሉ' (lu) are evaluated as `scriptio defectiva` or scribal errors for 'ወኵሉ' (wa-kwellu) and 'ኵሉ' (kwellu). The phrase 'ወላዕለ፡ጻድቃን፡ሎሙ' (And upon the righteous, to them) suggests a dative of possession or a fragmented syntactic boundary leading into verse 8."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 1:7 (Knibb/Charles)"",
+          ""note"": ""Standard reading: 'And the earth shall be wholly rent in sunder (tittasaṭṭaq)... upon all (kwellu).'""
+        },
+        {
+          ""ref"": ""Leslau Comp. Dict. 515"",
+          ""note"": ""säṭämä: to drown, sink.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""The reading 'sink' (s-ṭ-m) is internally consistent within the context of destruction, despite deviating from the 'rent asunder' tradition. The shortened forms 'lu' are accepted as 'kwellu' for semantic processing. The final 'lomu' (to them) is ambiguous; it may function as a proleptic reference to the 'peace' promised in the following verse (1:8) or a corruption of 'kwellomu' (all of them). We prioritize the literal sense of the provided witness: Earth sinks, everything perishes, judgment on all."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""Syntactic_Analysis_S1"",
+    ""translation_id"": ""T1_Literal_Sink"",
+    ""confidence"": ""moderate""
+  }
+}
+```"
+1,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_001\segment_001\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1-Parse2"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The segment corresponds to the incipit of 1 Enoch (1:1). The phrase 'Qaala Barakat' (The word of the blessing) is a Construct State Nominal Phrase serving as the title/header of the book. S1-Parse1's interpretation of 'He left' (taking 'ret' as a verb or corrupt form) disrupts the standard incipit formula. The OCR artifact 'ret' is widely attested as 'Barakat' in critical editions."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 1:1 (Ethiopic)"",
+          ""note"": ""Standard reading: 'Qāla barakat za-Hēnok' (The word of the blessing of Enoch).""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""The word of the blessing of Enoch...""
+    },
+    {
+      ""hypothesis_ref"": ""S1-Parse1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Treating the initial token as a verb (VSO) forces a narrative reading too early. The first line is traditionally a nominal title heading."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""He left the word of Enoch...""
+    }
+  ],
+  ""decision_log"": ""Comparison with standard text reveals 'ret' is a corruption of 'barakat'. Parse 2 accommodates the nominal construct chain typical of book titles."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1-Parse2"",
+    ""translation_id"": ""T-Seg01-Nominal"",
+    ""confidence"": ""high""
+  }
+}"
+1,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_001\segment_002\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""This segment matches 1 Enoch 1:2. The structure 'wa-awśʾa Hēnok wa-yibe' (And Enoch answered and said) is a fixed formula in Ge'ez narrative (Coordination of verbs). It introduces direct speech. S1 correctly identifies the coordination of the two verbal clauses."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 1:2"",
+          ""note"": ""Matches the introduction of Enoch's speech.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And Enoch answered and said...""
+    },
+    {
+      ""hypothesis_ref"": ""S2"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""A Nominal Sentence reading ('The answer of Enoch...') ignores the explicit verbal morphology of 'awśʾa' (Perfect) and 'yibe' (Imperfect/Preterite function)."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""The answer of Enoch is...""
+    }
+  ],
+  ""decision_log"": ""The narrative formula 'Answered and said' is definitive here."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T-Seg02-Narrative"",
+    ""confidence"": ""high""
+  }
+}"
+1,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_001\segment_003\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to the continuation of 1 Enoch 1:2/1:3. 'Wa-samāʿku' (And I heard) is a VSO narrative past (Perfect 1cs). P1 captures the sequential flow of the visionary experience. P2's Topic Construction would likely require 'Wa-ana-ssa samāʿku', which is not present."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 1:2"",
+          ""note"": ""Enoch describing the auditory component of his vision.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And I heard from them...""
+    },
+    {
+      ""hypothesis_ref"": ""P2"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Unmarked topic constructions are rare for simple narrative progression in this genre."",
+      ""parallels"": [],
+      ""context_invariance"": ""low"",
+      ""back_translation"": ""As for me, I heard...""
+    }
+  ],
+  ""decision_log"": ""Simple sequential narrative favored."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""P1"",
+    ""translation_id"": ""T-Seg03-VSO"",
+    ""confidence"": ""high""
+  }
+}"
+1,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_001\segment_004\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Matches 1 Enoch 1:4. The theophany describes movement: leaving the camp -> treading on Sinai -> appearing. S1's 'Linear Narrative Chain' accurately models this sequence of distinct events."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 1:4"",
+          ""note"": ""God treading upon Mount Sinai.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And from there He will tread upon Mount Sinai and His camp shall appear...""
+    },
+    {
+      ""hypothesis_ref"": ""S2"",
+      ""plausibility"": ""moderate"",
+      ""reasoning"": ""While 'from heaven' (em-samāy) does scope over the appearance, applying it globally to the initial movement 'from there' (em-heya) creates a conflict (from there vs from heaven). S1 is cleaner."",
+      ""parallels"": [],
+      ""context_invariance"": ""moderate"",
+      ""back_translation"": ""And from there... [all from heaven]""
+    }
+  ],
+  ""decision_log"": ""Sequential action (treading then appearing) is the narrative logic."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T-Seg04-Linear"",
+    ""confidence"": ""high""
+  }
+}"
+1,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_001\segment_005\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Matches 1 Enoch 1:5. 'Wa-yifarrah... Təguhan' (And the Watchers shall fear). The segmentation of predicates (Fear) and subjects (Watchers) in a narrative chain fits the VSO syntax where the verb can precede the plural subject in the singular."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 1:5"",
+          ""note"": ""The reaction of the Watchers to the theophany.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And they shall fear, and the Watchers shall quake...""
+    },
+    {
+      ""hypothesis_ref"": ""S2"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Clustering obscures the distinct clauses usually separated by 'wa-' (and)."",
+      ""parallels"": [],
+      ""context_invariance"": ""low"",
+      ""back_translation"": ""[Cluster of fear and Watchers]""
+    }
+  ],
+  ""decision_log"": ""Standard VSO narrative chain."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T-Seg05-Chain"",
+    ""confidence"": ""high""
+  }
+}"
+1,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_001\segment_006\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""P2"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Matches 1 Enoch 1:6. The text exhibits clear semantic parallelism: 'Mountains high shall be shaken' // 'Hills shall be made low'. This is characteristic of Ethiopic poetic/prophetic style. P2 captures this structure better than a flat linear narrative."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 1:6"",
+          ""note"": ""Cosmic disturbances affecting mountains and hills.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And the high mountains shall be shaken, and the hills shall be made low...""
+    }
+  ],
+  ""decision_log"": ""Poetic parallelism is the dominant feature."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""P2"",
+    ""translation_id"": ""T-Seg06-Poetic"",
+    ""confidence"": ""high""
+  }
+}"
+1,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_001\segment_007\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Matches 1 Enoch 1:7. 'Wa-yikawn fetḥa laʿla kwellu' (And there shall be judgment upon all). The coordination 'Upon all AND upon the righteous' is best handled by S1's branching structure rather than a flat list."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 1:7"",
+          ""note"": ""Universal judgment.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And there shall be judgment upon all, and upon the righteous...""
+    }
+  ],
+  ""decision_log"": ""Coordination of prepositional phrases targets specific groups."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T-Seg07-Coord"",
+    ""confidence"": ""high""
+  }
+}"
+1,segment_008,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_001\segment_008\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Matches 1 Enoch 1:8. 'Wa-la-tsādqān-assa salāma yigabber' (But as for the righteous, He will make peace). The particle '-ssa' (often implied or explicit in contrastive contexts) and the word order (Prep Phrase first) mark a Topic. S1 correctly identifies 'For the righteous' as the Topic of the clause."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 1:8"",
+          ""note"": ""Contrastive fate of the righteous.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""But for the righteous, He will make peace...""
+    }
+  ],
+  ""decision_log"": ""Topicalization is critical for the contrastive meaning."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T-Seg08-Topic"",
+    ""confidence"": ""high""
+  }
+}"
+1,segment_009,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_001\segment_009\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S2"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Matches 1 Enoch 1:9. 'Wa-nāhu yimaṣṣi...' (And behold He comes...). The following verbs are infinitives/purpose clauses: 'kama yigbar' (to execute judgment) and 'wa-yaḥagwel' (and to destroy). S2/S3 correctly identify these as subordinate/purpose clauses dependent on the main verb 'Comes'."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 1:9"",
+          ""note"": ""The famous prophecy quoted in Jude 1:14-15.""
+        },
+        {
+          ""ref"": ""Jude 1:14-15"",
+          ""note"": ""Behold, the Lord cometh with ten thousands of his holy ones, to execute judgment upon all...""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""To execute judgment upon them...""
+    }
+  ],
+  ""decision_log"": ""The structure is Main Verb + Purpose Clause (kama + subj/inf)."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S2"",
+    ""translation_id"": ""T-Seg09-Purpose"",
+    ""confidence"": ""high""
+  }
+}"
+2,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_002\segment_001\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The syntactic structure treating 't6' (how they do not change) as a complement clause to the imperative 'Observe/Inquire' aligns perfectly with the standard Ethiopic text of 1 Enoch 2:1. The coordination of 'do not change' and 'do not transgress' accurately reflects the description of celestial immutability."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 2:1"",
+          ""note"": ""Standard Ethiopic: 'ጠየቁ፡ኵሎ፡ዘውስተ፡ሰማይ፡ግብረ፡እፎ፡ኢይመይጡ፡ፍናዊሆሙ...'""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    },
+    {
+      ""hypothesis_ref"": ""S1_P2"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Forcing a Noun Phrase focus ('work' as object apposition) obscures the clear 'how' (እፎ) clause structure intended to describe the *manner* of the luminaries' motion, not just the static object."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Comparison favors S1_P1 due to strong alignment with the attested 'how' (እፎ) clauses in 1 Enoch 2:1 describing celestial mechanics."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+2,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_002\segment_002\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S2_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The imperative structure 'See the earth and understand...' linking to the complement 'that it does not change' (ከመ፡ኢይትመየጥ) correctly captures the exhortation to observe terrestrial consistency from beginning to end."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 2:2"",
+          ""note"": ""Standard Ethiopic matches the call to observe the earth's works from 'first to last'.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""S2_P1 is the only provided parse and matches the expected semantic flow of 1 Enoch 2:2 regarding the immutability of nature."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S2_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+2,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_002\segment_003\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S3_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Interpreting the segment as an observation clause ('Observe summer and winter') followed by the state of the earth ('full of water') is historically consistent with 1 Enoch 2:3's description of the hydrological cycle."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 2:3"",
+          ""note"": ""Standard Ethiopic: 'ርእይዎ፡ለሐጋይ፡ወለረምት...'""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""S3_P1 correctly identifies the observation of seasons and the resulting state of the earth, consistent with the text."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S3_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+3,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_003\segment_001\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The text identifies with 1 Enoch 3:1 regarding the observation of trees in winter. Although the provided text contains abbreviations or scribal errors (e.g., 'መ፡ሉ' for 'ኲሎ' [all], 'እምልኤ' for 'እምክልኤ' [from two]), the semantic coherence regarding the 'fourteen trees' (፲ወ፬ዕፀው) that remain 'without shedding' (ዘኢይትነገፍ) is historically well-attested in the Ethiopic tradition. The VSO structure indicated in the parse supports the narrative flow of observation followed by description."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 3:1 (Ethiopic Tradition)"",
+          ""note"": ""Matches standard recensions (e.g., Knibb, Charles) describing evergreen trees.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And I observed and saw all the trees, how they appear as if withered, and all their leaves are shed, except fourteen trees which do not shed, but wait from the old until the new comes, in two and three winters.""
+    }
+  ],
+  ""decision_log"": ""Accepted S1 as the primary reading. Corrected minor OCR/transcription artifacts in semantic interpretation (e.g., reading 'መ፡ሉ' as 'ኲሎ'). Confirmed the specific detail of '14 trees' against 1 Enoch critical editions."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+4,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_004\segment_001\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""medium"",
+      ""reasoning"": ""The text identifies with 1 Enoch 4:1 ('Observe the days of summer...'). While the syntactic structure 'S1' is a fragmented fallback, the lexical content is semantically coherent, describing the sun's position and the resulting heat. The input text contains a corruption or lacuna ('ወኢ—ሐ'), likely corresponding to 'ወኢለኰሐ' (nor on the rock) or 'ወኢበኰሐ' in standard recensions."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 4:1 (Ethiopic)"",
+          ""note"": ""Matches standard recensions regarding the 'days of summer' (መዋዕለ፡ሐጋይ) and 'heat of the sun' (ዋዕየ፡ፀሐይ).""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And again observe the days of summer, how the sun is above it opposite it. And you seek shelter and shade from the heat of the sun. And the earth burns with scorching heat, and you are not able to tread upon the earth nor [upon the rock] because of its heat.""
+    }
+  ],
+  ""decision_log"": ""Hypothesis S1 is accepted as the sole provider of the text stream despite the lack of deep syntactic dependency analysis. The semantic domain is clearly meteorological (summer/heat)."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"
+5,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_005\segment_001\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The segment correctly identifies the imperative structure 'ጠየቁ' (Observe/Inquire) addressing the audience to look at nature (trees 'ዕፀው'). The phrase 'ሐመልማለ፡ቍጽል' (greenery of leaves/green leaves) is a standard Ge'ez construct. The coordination of clothing themselves and bearing fruit is syntactically sound."",
+      ""parallels"": [
+        {
+          ""ref"": ""Enoch 2:1"",
+          ""note"": ""Similar imperative structure inviting observation of nature.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""Observe ye how the trees cover themselves with green leaves and bear fruit.""
+    }
+  ],
+  ""decision_log"": ""Parse aligns with standard recensions of Enoch 5:1."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+5,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_005\segment_002\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Syntactically coherent compound sentence. 'ዘሕያው፡ለዓለም' (He who lives forever) is a well-attested divine epithet in Second Temple literature. The call to 'understand' ('ወለብው') and 'know' ('ወእምሩ') parallels the wisdom tradition style."",
+      ""parallels"": [
+        {
+          ""ref"": ""Enoch 5:1"",
+          ""note"": ""Standard continuation of the verse.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And understand concerning all of them, and know that He who lives forever has made all these things for them.""
+    }
+  ],
+  ""decision_log"": ""No anomalies found."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+5,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_005\segment_003\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Identifies the imperative 'ወርእዩ' (And see/behold) focusing on the seas and rivers ('ብሕርት፡ወፍላግ'). The 'Imperative Clause' structure is correct. The lemma 'ግብር' (work/task) corresponds to 'ግብሮሙ' (their task) in the text, referring to the obedience of natural bodies."",
+      ""parallels"": [
+        {
+          ""ref"": ""Enoch 5:3"",
+          ""note"": ""Parallels the description of the seas and rivers obeying God's order.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And see how the seas and rivers together accomplish their task.""
+    }
+  ],
+  ""decision_log"": ""Matches the specific natural phenomenon described in verse 3."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+5,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_005\segment_004\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Correctly identifies the adversative 'But you...' ('ወንትሙሰ'). The structure captures the list of transgressions: not steadfast ('ኢተዐገሥሙ'), not doing commandments ('ኢገርሙ' - likely scribal contraction of 'ኢገበርክሙ'), and speaking slander ('ወሐመይሙ'). The parsing of the complex compound sentence supports the litany of charges."",
+      ""parallels"": [
+        {
+          ""ref"": ""Enoch 5:4"",
+          ""note"": ""The turn from nature's obedience to human disobedience.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""But ye have not been steadfast, nor done the commandments of the Lord; but ye have turned away and spoken proud and hard words with your impure mouths against His greatness.""
+    }
+  ],
+  ""decision_log"": ""Despite the likely scribal contraction 'ኢገርሙ', the semantic intent is clear."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+5,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_005\segment_005\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The conditional/result structure fits the pronouncement of judgment. 'ይቡሳነ፡ልብ' (Hard of heart) addresses the sinners directly. The consequence 'ኢትውነሙ፡ሰላም' (You shall not have peace) is the standard formulaic curse in this book."",
+      ""parallels"": [
+        {
+          ""ref"": ""Enoch 5:4-5"",
+          ""note"": ""Conclusion of the accusation.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""Ye hard of heart, ye shall not have peace.""
+    }
+  ],
+  ""decision_log"": ""Consistent with the judgment genre."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+5,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_005\segment_006\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""moderate"",
+      ""reasoning"": ""The parse matches the text provided, but the text itself contains a difficult reading: 'ሰላመ፡ዚሙ' (your peace?) where 'ሰመ፡ዚሙ' (your names) is expected in the formula 'give your names as a curse'. However, the parse correctly identifies 'peace' (or the text object) as the direct object. Semantically, 'giving peace as a curse' is paradoxical, suggesting a textual corruption in the source (`ሰላም` vs `ሰም`)."",
+      ""parallels"": [
+        {
+          ""ref"": ""Enoch 5:6"",
+          ""note"": ""Usually 'ye shall give your names as an eternal curse'.""
+        }
+      ],
+      ""context_invariance"": ""variable"",
+      ""back_translation"": ""In those days ye shall give your peace [names?] as an eternal curse to all the righteous.""
+    }
+  ],
+  ""decision_log"": ""Marking confidence as moderate due to the likely textual corruption 'peace' instead of 'name', though the grammatical analysis of the provided text is correct."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"
+5,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_005\segment_007\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The contrastive structure ('But for the elect...') is correctly identified. The triplet 'light, joy, and peace' ('ብርሃን፡ወፍሥሓ፡ወሰላም') is a standard eschatological promise. The inheritance of the earth ('ይወርስዋ፡ለምድር') confirms the Messianic context."",
+      ""parallels"": [
+        {
+          ""ref"": ""Enoch 5:7"",
+          ""note"": ""The reward of the elect.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""But for the elect there shall be light and joy and peace, and they shall inherit the earth.""
+    }
+  ],
+  ""decision_log"": ""Standard reading."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+5,segment_008,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_005\segment_008\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""moderate"",
+      ""reasoning"": ""The clause chain structure identifies the sequence of blessings (wisdom, life, no sin). However, the text ends with 'ኢይደግሙ፡ሳ'. 'ሳ' appears to be a truncation of 'አበሳ' (sin/transgression) or a similar noun. While the parse handles the structure, the lemma integrity is compromised by the source text."",
+      ""parallels"": [
+        {
+          ""ref"": ""Enoch 5:8"",
+          ""note"": ""Promise of wisdom and moral perfection.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And then there shall be bestowed upon the elect wisdom, and they shall all live and never again sin [truncated].""
+    }
+  ],
+  ""decision_log"": ""Accepted with note on truncated lexeme 'ሳ'."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"
+5,segment_009,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_005\segment_009\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The complex compound sentence effectively maps the final blessings: not sinning, not dying in wrath ('መቅሠፍት'), completing days in peace ('ሰላም'), and years of joy ('ፍሥሓሆሙ'). The text matches the standard ending of the chapter."",
+      ""parallels"": [
+        {
+          ""ref"": ""Enoch 5:9"",
+          ""note"": ""Final state of the righteous.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And they shall not sin all the days of their life, nor shall they die of the plague or wrath, but they shall complete the number of the days of their life, and their life shall be increased in peace, and the years of their joy shall be multiplied, in eternal gladness and peace, all the days of their life.""
+    }
+  ],
+  ""decision_log"": ""Strong correspondence with expected text."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+6,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_006\segment_001\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The parse correctly identifies the temporal clause 'እማንቱ፡መዋእል' (in those days) and the main narrative action 'ተወልዳ' (were born). The structure corresponds to the standard opening of 1 Enoch 6:1."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 6:1 (Ethiopic)"",
+          ""note"": ""Matches standard text: 'ወኮነ እምዘ በዝ፮፡ ውሉደ፡ ሰብእ...' (And it came to pass when the children of men had multiplied...)""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Parse S1 aligns with the expected syntactic structure of the Ge'ez text for this verse. No alternative hypotheses provided."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+6,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_006\segment_002\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Accurately captures the sequence of perception ('ወርእዩ' - saw), desire ('ወፈተውዎን' - lusted after them), and speech ('ወይቤሉ' - and said). The nested speech structure is correctly analyzed."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 6:2 (Ethiopic)"",
+          ""note"": ""Corresponds to 'ወርእይዎን፡ መላእክት፡ ውሉደ፡ ሰማያት፡ ወፈተውዎን...'""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""The syntactic analysis of the coordination and speech complements matches the semantic content of the Watchers' conspiracy."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+6,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_006\segment_003\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""moderate"",
+      ""reasoning"": ""The parse structure is valid, but the input text contains significant deviations/typos likely from OCR (e.g., 'መልሙ' for 'መልአኮሙ' or 'መራhiሆሙ', 'እውን' for 'እኩን', 'ይትገር' for 'ይትገበር'). The dependency analysis handles the speech introduction and content correctly despite these surface errors."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 6:3 (Ethiopic)"",
+          ""note"": ""Standard: 'ወይቤሎሙ፡ ሴምያዛ፡ ዘውእቱ፡ መልአኮሙ...'""
+        }
+      ],
+      ""context_invariance"": ""variant_text"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Accepted S1 as the structural analysis holds for the dialogue pattern, despite textual corruption requiring emendation for full translation."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"
+6,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_006\segment_004\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""moderate"",
+      ""reasoning"": ""Correctly parses the dialogue response. Input text shows 'ምር' instead of 'ምክር' (counsel/plan) and 'ይናቲነ' for 'በበይናቲነ' (among ourselves). The structure identifying the oath and mutual imprecation is semantically sound."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 6:4 (Ethiopic)"",
+          ""note"": ""Standard: '...መሐላ፡ ንምሐል፡ ኵልነ፡ ወንትዋገዝ፡ በበይናቲነ...'""
+        }
+      ],
+      ""context_invariance"": ""variant_text"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""S1 correctly maps the coordination of the oath-taking and the resolve to execute the plan, despite text noise."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"
+6,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_006\segment_005\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""moderate"",
+      ""reasoning"": ""Captures the completion of the oath and the count of the angels. Input 'ሜሃ' is likely 'አሜሃ' (Then) or 'ሶቤሃ'. 'ኑ' is likely 'ኮኑ' (they were). The parse of 'VP [NP]' for the quantity '፪፻' (200) is appropriate."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 6:5 (Ethiopic)"",
+          ""note"": ""Standard: '...ወኮኑ፡ ኵሎሙ፡ ፪፻...'""
+        }
+      ],
+      ""context_invariance"": ""variant_text"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Structural analysis is robust against the likely typos in the function words."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"
+6,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_006\segment_006\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The parse effectively separates the initial garbage/fragments from the main narrative clause starting at 'ወወረዱ' (and they descended). It correctly identifies the etiological explanation for Mount Hermon ('ርሞን'/'አርሞን')."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 6:6 (Ethiopic)"",
+          ""note"": ""Standard: 'ወወረዱ፡ ውስተ፡ አርዲሰ፡ ዝውእቱ፡ ድማሁ፡ ለደብረ፡ አርሞን...'""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""S1 is the only viable option and correctly handles the noise vs. signal distinction."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+6,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_006\segment_007\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Correctly treats the segment as a list of proper nouns (names of the Watchers) following an introductory phrase. The dependency structure 'list_item' is semantically appropriate for this catalogue."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 6:7 (Ethiopic)"",
+          ""note"": ""Standard list of the chiefs of tens/hundreds (Semjaza, Urakiba, Rameel, etc.).""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""The list structure is clear. S1 reflects this accurately."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+6,segment_008,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_006\segment_008\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""moderate"",
+      ""reasoning"": ""The parse identifies the summary statement about the chiefs and the subsequent action of taking wives. The input 'ሐይቶሙ' is likely a corruption of 'አለቃቲሆሙ' (their chiefs) or similar. The structure matches the transition to Chapter 7."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 6:8 / 7:1 (Ethiopic)"",
+          ""note"": ""Transitional text linking the list of leaders to the general action of the 200.""
+        }
+      ],
+      ""context_invariance"": ""variant_text"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""S1 captures the coordination between the identification of the group and their action."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"

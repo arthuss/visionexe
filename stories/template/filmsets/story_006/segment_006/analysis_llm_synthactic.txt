@@ -1,0 +1,22 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Discourse Unit",
+        "bracket_notation": "[Meta [N t1] [NUM t2] [N t3] [NUM t4]] [Fragment t5 t6 t7 t8 t9 t10 t11 t12 t13 t14 t15] [S [VP t16 [NP t17]] [S [VP t18] [S [VP t19] [VP t20]]]]",
+        "dependencies": [
+          "t3->t1 (meta_relation)",
+          "t1->t2 (nummod)",
+          "t3->t4 (nummod)",
+          "t16->t5 (loose_association)",
+          "t16->t17 (locative_complement)",
+          "t16->t18 (coordination_narrative)",
+          "t18->t19 (causal_clause)",
+          "t19->t20 (coordination)"
+        ],
+        "notes": "t5-t15 are messy punctuation/numeric fragments; t16 resumes narrative."
+      }
+    ]
+  }
+}

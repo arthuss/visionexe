@@ -10,7 +10,8 @@ These live under `stories/<story>/` and should be treated as the canonical, time
 - Path: `stories/<story>/data/queues/asset_bible_queue.json`
 - Producer: `engine/workers/asset_bible_queue_builder.py` or `engine/scripts/run_subject_image_queue.ps1`.
 - Consumer: `engine/workers/comfy_orchestrator.py` (`--queue`).
-- Purpose: Generate subject images from ASSET_BIBLE prompts (non-LoRA image runs).
+- Purpose: Generate subject images from per-phase Asset Bible card markdown (non-LoRA image runs).
+- Notes: Output basenames are suffixed with `__phase_XX` when phases are present.
 
 ### 1.1 iClone actor load queue
 - Path: `stories/<story>/subjects/actor_queue.jsonl`

@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "moderate",
+      "reasoning": "The parse matches the text provided, but the text itself contains a difficult reading: 'ሰላመ፡ዚሙ' (your peace?) where 'ሰመ፡ዚሙ' (your names) is expected in the formula 'give your names as a curse'. However, the parse correctly identifies 'peace' (or the text object) as the direct object. Semantically, 'giving peace as a curse' is paradoxical, suggesting a textual corruption in the source (`ሰላም` vs `ሰም`).",
+      "parallels": [
+        {
+          "ref": "Enoch 5:6",
+          "note": "Usually 'ye shall give your names as an eternal curse'."
+        }
+      ],
+      "context_invariance": "variable",
+      "back_translation": "In those days ye shall give your peace [names?] as an eternal curse to all the righteous."
+    }
+  ],
+  "decision_log": "Marking confidence as moderate due to the likely textual corruption 'peace' instead of 'name', though the grammatical analysis of the provided text is correct.",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}

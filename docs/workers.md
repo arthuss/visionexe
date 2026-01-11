@@ -16,11 +16,22 @@ This document summarizes the worker scripts in `engine/workers` and how they fit
 - `scene_instruction_builder.py`: extracts per-scene instructions and layouts.
 - `regie_worker.py`: fills/regenerates REGIE blocks when needed.
 
+## Ge'ez Linguistic Analysis
+- The A-D workers support `--chapter-batch` to process one request per chapter and write per-segment outputs.
+- `worker_llm_analysis_graphematic.py`: Level A graphematic capture (no normalization).
+- `worker_llm_analysis_Morphologic.py`: Level B morphology matrix output (waits for graphematic output when running per segment).
+- `worker_llm_analysis_synthactic.py`: Level C syntactic hypothesis enumeration (waits for morphology output; prefers `analysis_llm_morphologic.txt` tokens when present).
+- `worker_llm_analysis_semantic-historical.py`: Level D semantic/historical evaluation (waits for synthactic output; uses parses + morphology lemmas when available).
+- `geez_morphology_filter.py`: rule-based filter for morphology output (see `docs/geez_analysis_methodology.md`).
+- `worker_rule_filter.py`: apply rule filters to JSON artifacts.
+- `worker_tests.py`: summarize validation + test status for analysis artifacts.
+- `run_pipeline.py`: end-to-end Ge'ez analysis pipeline runner.
+
 ## Subjects and Asset Bible
 - `subject_registry_builder.py`: builds subject registry + occurrences + scenes.
 - `asset_bible_builder.py`: base asset bible JSON from analysis.
 - `asset_bible_enricher.py`: prompt-ready cards (Gemini/Copilot fallback).
-- `asset_bible_queue_builder.py`: ComfyUI queue for subject images.
+- `asset_bible_queue_builder.py`: ComfyUI queue for subject images from per-phase Asset Bible cards.
 - `asset_registry_builder.py`: unified asset registry mappings.
 - `collect_asset_bible.py`: collect generated assets into bible folders.
 

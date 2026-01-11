@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:04:52Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_001/segment_003",
+    "graphematic_string": "Chapter 1 Segment 3\n\nእንተ፡ኅሩያን፨እቤ፡ወውሣእ\nኩ፡እንቲሆሙ፡ምስለ፡ዘይወጽ\nእ፡ቅዱስ፡ወዓቢይ፡እማኅደሩ፡ወ\nምላ፡ዓለም።",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "chapter",
+            "lemma": "Chapter",
+            "pattern": "english"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "1",
+      "span": {
+        "start": 8,
+        "end": 9
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "1",
+            "lemma": "1",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 10,
+        "end": 17
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "segment",
+            "lemma": "Segment",
+            "pattern": "english"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "3",
+      "span": {
+        "start": 18,
+        "end": 19
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "3",
+            "lemma": "3",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "እንተ፡ኅሩያን፨እቤ፡ወውሣእ",
+      "span": {
+        "start": 21,
+        "end": 37
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Ḫ-R-Y",
+            "lemma": "Hiruyan",
+            "pattern": "noun_phrase"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.6
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ኩ፡እንቲሆሙ፡ምስለ፡ዘይወጽ",
+      "span": {
+        "start": 38,
+        "end": 54
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": "M-S-L",
+            "lemma": "Mesla",
+            "pattern": "prep_phrase"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.6
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "እ፡ቅዱስ፡ወዓቢይ፡እማኅደሩ፡ወ",
+      "span": {
+        "start": 55,
+        "end": 73
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Q-D-S",
+            "lemma": "Qiddus",
+            "pattern": "noun_phrase"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ምላ፡ዓለም።",
+      "span": {
+        "start": 74,
+        "end": 81
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ʿ-L-M",
+            "lemma": "Alam",
+            "pattern": "noun_phrase"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

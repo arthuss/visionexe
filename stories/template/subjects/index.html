@@ -98,6 +98,34 @@
         padding: 8px 0;
         border-bottom: 1px solid #2a2a2a;
       }
+      .image-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 6px;
+      }
+      .image-links a {
+        color: var(--accent);
+        text-decoration: none;
+        font-size: 12px;
+      }
+      .image-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 8px;
+        margin-top: 10px;
+      }
+      .image-grid img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 6px;
+        border: 1px solid #2a2a2a;
+        background: #111;
+      }
+      .image-grid a {
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
@@ -136,6 +164,9 @@
         cards: new Map(),
         filtered: []
       };
+
+      const imageCache = new Map();
+      const imageExts = [".png", ".jpg", ".jpeg", ".webp", ".gif"];
 
       function parseJsonl(text) {
         return text
@@ -213,6 +244,7 @@
         const roles = (profile.roles || []).map(r => `<span class="tag">${r}</span>`).join("");
         const traits = (profile.visual_traits || []).join(", ");
         const changes = (profile.changes || []).join(", ");
+        const imageSection = renderImageSection(cardEntry);
         const states = (profile.states || []).map(state => {
           const segmentLabels = (state.segment_labels || []).join(", ");
           const sceneLabels = (state.scene_labels || []).join(", ");
@@ -258,8 +290,11 @@
             <h3>Occurrences (first 50)</h3>
             ${renderOccurrences(occs)}
           </div>
+          ${imageSection}
           ${renderAssetCard(cardEntry)}
         `;
+
+        loadImageLinks(cardEntry);
       }
 
       function renderOccurrences(items) {
@@ -353,6 +388,103 @@
             </div>
           </div>
         `;
+      }
+
+      function normalizePath(value) {
+        return value ? value.replace(/\\/g, "/") : "";
+      }
+
+      function renderImageSection(cardEntry) {
+        if (!cardEntry || !cardEntry.subject_dir) {
+          return `<div class="section"><h3>Images</h3><div class="muted">No subject folder found.</div></div>`;
+        }
+        const subjectDir = normalizePath(cardEntry.subject_dir);
+        const imagesDir = `${subjectDir}/images/asset_bible`;
+        return `
+          <div class="section">
+            <h3>Images</h3>
+            <div class="image-links">
+              <a href="${subjectDir}/" target="_blank" rel="noopener">Open subject folder</a>
+              <a href="${imagesDir}/" target="_blank" rel="noopener">Open asset_bible images</a>
+            </div>
+            <div id="image-links" data-folder="${imagesDir}" class="muted">Loading images...</div>
+          </div>
+        `;
+      }
+
+      function loadImageLinks(cardEntry) {
+        if (!cardEntry || !cardEntry.subject_dir) {
+          return;
+        }
+        const folderPath = `${normalizePath(cardEntry.subject_dir)}/images/asset_bible/`;
+        const container = document.getElementById("image-links");
+        if (!container) {
+          return;
+        }
+        const expected = container.dataset.folder || "";
+        if (expected && expected !== folderPath.replace(/\/$/, "")) {
+          return;
+        }
+        const folderUrl = new URL(folderPath, window.location.href);
+        const cacheKey = folderUrl.pathname;
+        if (imageCache.has(cacheKey)) {
+          renderImageGrid(container, folderUrl, imageCache.get(cacheKey));
+          return;
+        }
+        fetch(folderUrl.href)
+          .then(res => {
+            if (!res.ok) {
+              throw new Error(`HTTP ${res.status}`);
+            }
+            return res.text();
+          })
+          .then(text => {
+            const links = parseDirectoryListing(text);
+            imageCache.set(cacheKey, links);
+            renderImageGrid(container, folderUrl, links);
+          })
+          .catch(err => {
+            container.textContent = `No images found (failed to load ${folderUrl.pathname}).`;
+          });
+      }
+
+      function parseDirectoryListing(html) {
+        const links = [];
+        const hrefRe = /href="([^"]+)"/g;
+        let match;
+        while ((match = hrefRe.exec(html)) !== null) {
+          const href = match[1];
+          if (!href || href.endsWith("/")) {
+            continue;
+          }
+          const lower = href.toLowerCase();
+          if (!imageExts.some(ext => lower.endsWith(ext))) {
+            continue;
+          }
+          links.push(href);
+        }
+        return links;
+      }
+
+      function renderImageGrid(container, folderUrl, links) {
+        if (!links.length) {
+          container.textContent = "No images found.";
+          return;
+        }
+        const maxItems = 24;
+        const items = links.slice(0, maxItems);
+        const grid = items.map(name => {
+          const url = new URL(name, folderUrl).href;
+          return `
+            <a href="${url}" target="_blank" rel="noopener">
+              <img src="${url}" loading="lazy" alt="${name}" />
+            </a>
+          `;
+        }).join("");
+        const more = links.length > maxItems
+          ? `<div class="muted">Showing ${maxItems} of ${links.length}. Open folder for more.</div>`
+          : "";
+        container.innerHTML = `<div class="image-grid">${grid}</div>${more}`;
       }
 
       searchEl.addEventListener("input", applyFilters);

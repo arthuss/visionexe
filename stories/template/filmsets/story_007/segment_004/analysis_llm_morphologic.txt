@@ -1,0 +1,204 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:17:50Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_007/segment_004",
+    "graphematic_string": "Chapter 7 Segment 4\n\nወተመይጡ፡ረዓይት፡ላዕሌሆሙ፡\nይብልዕዎሙ፡ለሰብእ፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Chapter",
+            "lemma": "Chapter",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "7",
+      "span": {
+        "start": 8,
+        "end": 9
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "7",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 10,
+        "end": 17
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Segment",
+            "lemma": "Segment",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "4",
+      "span": {
+        "start": 18,
+        "end": 19
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "4",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወተመይጡ፡ረዓይት፡ላዕሌሆሙ፡",
+      "span": {
+        "start": 21,
+        "end": 38
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ተመየጠ",
+            "lemma": "ተመየጠ",
+            "pattern": "t-0-1-2"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Leslau_376"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ይብልዕዎሙ፡ለሰብእ፨",
+      "span": {
+        "start": 39,
+        "end": 51
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "በልዐ",
+            "lemma": "በልዐ",
+            "pattern": "0-1-2"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Leslau_97"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

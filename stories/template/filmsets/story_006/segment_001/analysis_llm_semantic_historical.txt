@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "high",
+      "reasoning": "The parse correctly identifies the temporal clause 'እማንቱ፡መዋእል' (in those days) and the main narrative action 'ተወልዳ' (were born). The structure corresponds to the standard opening of 1 Enoch 6:1.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 6:1 (Ethiopic)",
+          "note": "Matches standard text: 'ወኮነ እምዘ በዝ፮፡ ውሉደ፡ ሰብእ...' (And it came to pass when the children of men had multiplied...)"
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "Parse S1 aligns with the expected syntactic structure of the Ge'ez text for this verse. No alternative hypotheses provided.",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T1",
+    "confidence": "high"
+  }
+}

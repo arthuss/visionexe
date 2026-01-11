@@ -1,0 +1,36 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Verbal Clause",
+        "bracket_notation": "[S [Conj t5] [Inj t5] [V t5] [Subj [N t5] [N t6]]]",
+        "dependencies": [
+          "t5->(root) (main_verb)",
+          "t6->t5 (subject_modifier)"
+        ],
+        "notes": "'And behold He comes with myriads of holy ones'"
+      },
+      {
+        "id": "S2",
+        "structure_type": "Verbal Clause (Subordinate)",
+        "bracket_notation": "[S [Conj t6] [V t6] [Obj t6] [PP [Prep t7]]]",
+        "dependencies": [
+          "t6->t5 (purpose)",
+          "t6->t6 (object)"
+        ],
+        "notes": "'To execute judgment upon them'"
+      },
+      {
+        "id": "S3",
+        "structure_type": "Verbal Clause",
+        "bracket_notation": "[S [Conj t7] [V t7] [Obj [Prep t8] [N t8]]]",
+        "dependencies": [
+          "t7->t6 (coordination)",
+          "t8->t7 (object)"
+        ],
+        "notes": "'And to destroy the wicked'"
+      }
+    ]
+  }
+}

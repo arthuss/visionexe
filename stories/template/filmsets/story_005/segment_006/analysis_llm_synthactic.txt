@@ -1,0 +1,26 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Compound Sentence",
+        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [Clause t5 [Obl t6] [IndObj t7] [Punct t8]] [Clause t9] [Clause t10] [Clause t11 [Obl t12]]]]]",
+        "dependencies": [
+          "t5->t1 (meta)",
+          "t5->t2 (meta)",
+          "t5->t3 (meta)",
+          "t5->t4 (meta)",
+          "root->t5 (root)",
+          "t5->t6 (oblique)",
+          "t6->t7 (indirect_object)",
+          "t7->t8 (punct)",
+          "t5->t9 (coordination)",
+          "t9->t10 (predicate)",
+          "t10->t11 (modifier)",
+          "t11->t12 (oblique)"
+        ],
+        "notes": "Future tense prediction."
+      }
+    ]
+  }
+}

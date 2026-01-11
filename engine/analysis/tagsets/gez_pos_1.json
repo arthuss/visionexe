@@ -1,0 +1,53 @@
+{
+  "tagset_id": "GEZ-POS-1",
+  "version": "1.0.0",
+  "description": "POS tagset and function words for Ge'ez morphology.",
+  "tags": [
+    { "tag": "N", "category": "lexical", "description": "Noun" },
+    { "tag": "PN", "category": "lexical", "description": "Proper noun" },
+    { "tag": "ADJ", "category": "lexical", "description": "Adjective" },
+    { "tag": "V", "category": "lexical", "description": "Verb" },
+    { "tag": "ADV", "category": "lexical", "description": "Adverb" },
+    { "tag": "NUM", "category": "lexical", "description": "Numeral" },
+    { "tag": "PRO.PERS", "category": "pronoun", "description": "Personal pronoun" },
+    { "tag": "PRO.DEM", "category": "pronoun", "description": "Demonstrative pronoun" },
+    { "tag": "PRO.REL", "category": "pronoun", "description": "Relative pronoun" },
+    { "tag": "PRO.INT", "category": "pronoun", "description": "Interrogative pronoun" },
+    { "tag": "PRO.INDEF", "category": "pronoun", "description": "Indefinite pronoun" },
+    { "tag": "PREP", "category": "function", "description": "Preposition" },
+    { "tag": "CONJ.COORD", "category": "function", "description": "Coordinating conjunction" },
+    { "tag": "CONJ.SUB", "category": "function", "description": "Subordinating conjunction" },
+    { "tag": "PART.NEG", "category": "function", "description": "Negation particle" },
+    { "tag": "PART.MOD", "category": "function", "description": "Modal particle" },
+    { "tag": "PART.FOC", "category": "function", "description": "Focus particle" },
+    { "tag": "PART.REL", "category": "function", "description": "Relative marker particle" },
+    { "tag": "DET", "category": "function", "description": "Determiner" },
+    { "tag": "AUX", "category": "function", "description": "Auxiliary / copula" },
+    { "tag": "CLIT.PRON", "category": "clitic", "description": "Pronominal clitic" },
+    { "tag": "CLIT.CONJ", "category": "clitic", "description": "Conjunction clitic" },
+    { "tag": "CLIT.PREP", "category": "clitic", "description": "Preposition clitic" }
+  ],
+  "lexical_tags": ["N", "PN", "ADJ", "V", "ADV", "NUM"],
+  "pronoun_tags": ["PRO.PERS", "PRO.DEM", "PRO.REL", "PRO.INT", "PRO.INDEF"],
+  "function_word_tags": [
+    "PREP",
+    "CONJ.COORD",
+    "CONJ.SUB",
+    "PART.NEG",
+    "PART.MOD",
+    "PART.FOC",
+    "PART.REL",
+    "DET",
+    "AUX"
+  ],
+  "clitic_tags": ["CLIT.PRON", "CLIT.CONJ", "CLIT.PREP"],
+  "function_words": [
+    { "surface": "ወ", "allowed_pos": ["CONJ.COORD", "CLIT.CONJ"], "note": "and" },
+    { "surface": "ዘ", "allowed_pos": ["PART.REL", "PRO.REL"], "note": "relative marker" },
+    { "surface": "እለ", "allowed_pos": ["PRO.REL"], "note": "relative pronoun (plural)" },
+    { "surface": "እም", "allowed_pos": ["PREP", "CLIT.PREP"], "note": "from/out of" },
+    { "surface": "ለ", "allowed_pos": ["PREP", "CLIT.PREP"], "note": "to/for" },
+    { "surface": "በ", "allowed_pos": ["PREP", "CLIT.PREP"], "note": "in/with/by" },
+    { "surface": "እንዘ", "allowed_pos": ["CONJ.SUB"], "note": "while/when" }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "high",
+      "reasoning": "Matches 1 Enoch 1:9. 'Wa-nāhu yimaṣṣi...' (And behold He comes...). The following verbs are infinitives/purpose clauses: 'kama yigbar' (to execute judgment) and 'wa-yaḥagwel' (and to destroy). S2/S3 correctly identify these as subordinate/purpose clauses dependent on the main verb 'Comes'.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 1:9",
+          "note": "The famous prophecy quoted in Jude 1:14-15."
+        },
+        {
+          "ref": "Jude 1:14-15",
+          "note": "Behold, the Lord cometh with ten thousands of his holy ones, to execute judgment upon all..."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "To execute judgment upon them..."
+    }
+  ],
+  "decision_log": "The structure is Main Verb + Purpose Clause (kama + subj/inf).",
+  "final_decision": {
+    "hypothesis_ref": "S2",
+    "translation_id": "T-Seg09-Purpose",
+    "confidence": "high"
+  }
+}

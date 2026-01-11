@@ -1,0 +1,22 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Discourse Unit",
+        "bracket_notation": "[Meta [N t1] [NUM t2] [N t3] [NUM t4]] [S [VP t5 [NP t6]] [VP t7 [S [VP t8 [NP t9] [VP t10]]]]]",
+        "dependencies": [
+          "t3->t1 (meta_relation)",
+          "t1->t2 (nummod)",
+          "t3->t4 (nummod)",
+          "t5->t6 (apposition_or_object)",
+          "t5->t7 (coordination)",
+          "t7->t8 (complement_speech)",
+          "t8->t9 (object_phrase)",
+          "t8->t10 (coordination_purpose)"
+        ],
+        "notes": "Narrative sequence involving perception (t5), desire (t7), and speech (t8-t10)."
+      }
+    ]
+  }
+}

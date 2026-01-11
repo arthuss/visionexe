@@ -17,6 +17,10 @@ Story layout:
 Core data flow (minimal):
 0. `setup_filmsets_from_geez.py` -> scaffold `filmsets/chapter_###/segment_###/scene_###/timeline_##/` from Ge'ez verse JSONL.
    - Run: `python engine/workers/setup_filmsets_from_geez.py --story-root stories/template --include-chapter-text`
+   - Optional: run the Ge'ez linguistic analysis workers (Levels A-D) for graphematic/morphologic/synthactic/semantic-historical passes. See `docs/geez_analysis_methodology.md`.
+   - The A-D workers wait for upstream outputs (B waits for A, C waits for B, D waits for C).
+   - Use `--chapter-batch` to process one request per chapter and write per-segment outputs.
+   - End-to-end pipeline runner: `README_pipeline.md`.
 1. `worker_llm_analysis.py` -> analysis CSV at `analysis_progress_csv_path` (story_config).
    - Use `--use-gemini` to run via Gemini CLI (model from `--model` or `GEMINI_MODEL`).
    - Analysis JSON can include `blocking` anchors + paths when staging is implied.
@@ -57,6 +61,9 @@ LoRA flow (template):
 
 Subject image queue (Asset Bible):
 - `engine/workers/asset_bible_queue_builder.py` -> `data/queues/asset_bible_queue.json`
+- Queue prompts use the full Asset Bible card markdown and emit one job per phase in the Evolution section
+  (each prompt keeps only the matching phase bullet and drops the others).
+- Output basenames are suffixed with `__phase_XX` when phases are detected.
 - `engine/scripts/run_subject_image_queue.ps1` builds a combined queue for multiple workflows and can start ComfyUI + the orchestrator.
 
 Direct actor sources:
@@ -77,6 +84,7 @@ Dynamic subjects:
 
 Viewer:
 - `engine/scripts/run_subjects_view.ps1` starts a local server and opens the subjects page.
+- The viewer links to per-subject `images/asset_bible` folders and shows image previews when available.
 
 Launchers:
 - `engine/launchers/Start-Workspaces.ps1` lists/opens external workspaces and can run configured start commands.

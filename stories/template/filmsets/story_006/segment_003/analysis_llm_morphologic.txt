@@ -1,0 +1,357 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:15:51Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_006/segment_003",
+    "graphematic_string": "Chapter 6 Segment 3\n\nወይቤሎሙ፡ስምያዛ፡ዘውእቱ፡\nመልሙ፨እፈርህ፡ዮጊ፡\nኢትፈቅዱ፡ይትገር፡ዝንቱ፡\nግብር፨ወእውን፡ነ፡\nባሕቲትየ፡ፈዳዪሃ፡ለዛቲ፡\nለኅጢት፡ዐባይ ፧",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Chapter",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "foreign_meta",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "6",
+      "span": {
+        "start": 8,
+        "end": 9
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "6",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_numeric",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 10,
+        "end": 17
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Segment",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "foreign_meta",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "3",
+      "span": {
+        "start": 18,
+        "end": 19
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "3",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_numeric",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወይቤሎሙ፡ስምያዛ፡ዘውእቱ፡",
+      "span": {
+        "start": 21,
+        "end": 37
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ወይቤሎሙ፡ስምያዛ፡ዘውእቱ፡",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_phrase",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "መልሙ፨እፈርህ፡ዮጊ፡",
+      "span": {
+        "start": 38,
+        "end": 50
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "መልሙ፨እፈርህ፡ዮጊ፡",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_phrase",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ኢትፈቅዱ፡ይትገር፡ዝንቱ፡",
+      "span": {
+        "start": 51,
+        "end": 66
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ኢትፈቅዱ፡ይትገር፡ዝንቱ፡",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_phrase",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ግብር፨ወእውን፡ነ፡",
+      "span": {
+        "start": 67,
+        "end": 78
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ግብር፨ወእውን፡ነ፡",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_phrase",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ባሕቲትየ፡ፈዳዪሃ፡ለዛቲ፡",
+      "span": {
+        "start": 79,
+        "end": 94
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ባሕቲትየ፡ፈዳዪሃ፡ለዛቲ፡",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_phrase",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "ለኅጢት፡ዐባይ",
+      "span": {
+        "start": 95,
+        "end": 103
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ለኅጢት፡ዐባይ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_phrase",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t11",
+      "surface": "፧",
+      "span": {
+        "start": 104,
+        "end": 105
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PART.MOD",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "፧",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_punctuation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

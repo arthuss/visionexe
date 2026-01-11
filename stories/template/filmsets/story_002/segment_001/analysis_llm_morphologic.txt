@@ -1,0 +1,577 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:07:01Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_002/segment_001",
+    "graphematic_string": "Chapter 2 Segment 1\n\nጠየቁ፡ሎ፡ዘውስተ፡ሰማይ፡\nግብረ፡እፎ፡ኢይመይጡ፡\nፍናዊሆሙ፡ብርሃናት፡ዘውስተ፡\nሰማይ፡መ፡ሉ፡ይሠርቅ፡\nወየዐርብ፨፨ሥሩዕ፡ሉ፡\nዘመኑ፡ወኢይትዐደዉ፡\nእምሥርዓቶሙ፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Chapter",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "2",
+      "span": {
+        "start": 8,
+        "end": 9
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "2",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 10,
+        "end": 17
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Segment",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "1",
+      "span": {
+        "start": 18,
+        "end": 19
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "1",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ጠየቁ፡ሎ፡ዘውስተ፡ሰማይ፡",
+      "span": {
+        "start": 21,
+        "end": 36
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ጢየቀ",
+            "lemma": "ጠየቀ",
+            "pattern": "Active_Perfect_3pl_masc"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "PRO.REL",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ዘ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሰምየ",
+            "lemma": "ሰማይ",
+            "pattern": "Common_Noun"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ግብረ፡እፎ፡ኢይመይጡ፡",
+      "span": {
+        "start": 37,
+        "end": 50
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ገብረ",
+            "lemma": "ግብር",
+            "pattern": "Accusative"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "ADV",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "እፎ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሜጠ",
+            "lemma": "መየጠ",
+            "pattern": "Imperfect_3pl_Negative"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ፍናዊሆሙ፡ብርሃናት፡ዘውስተ፡",
+      "span": {
+        "start": 51,
+        "end": 68
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ፈነወ",
+            "lemma": "ፍኖት",
+            "pattern": "Plural_Suffix_3pl"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "በረሀ",
+            "lemma": "ብርሃን",
+            "pattern": "Plural"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "PRO.REL",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ዘ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ሰማይ፡መ፡ሉ፡ይሠርቅ፡",
+      "span": {
+        "start": 69,
+        "end": 82
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሰምየ",
+            "lemma": "ሰማይ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሠረቀ",
+            "lemma": "ሠረቀ",
+            "pattern": "Imperfect_3ms"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ወየዐርብ፨፨ሥሩዕ፡ሉ፡",
+      "span": {
+        "start": 83,
+        "end": 96
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "CONJ.COORD",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ወ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ዐረበ",
+            "lemma": "ዐረበ",
+            "pattern": "Imperfect_3ms"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሠርዐ",
+            "lemma": "ሥሩዕ",
+            "pattern": "Passive_Participle"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "ዘመኑ፡ወኢይትዐደዉ፡",
+      "span": {
+        "start": 97,
+        "end": 109
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ዘመነ",
+            "lemma": "ዘመን",
+            "pattern": "Suffix_3ms"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "CONJ.COORD",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ወ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ዐደወ",
+            "lemma": "ዐደወ",
+            "pattern": "Imperfect_3pl_Negative_Reflexive"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t11",
+      "surface": "እምሥርዓቶሙ፨",
+      "span": {
+        "start": 110,
+        "end": 118
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "እም",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሠርዐ",
+            "lemma": "ሥርዓት",
+            "pattern": "Suffix_3pl"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

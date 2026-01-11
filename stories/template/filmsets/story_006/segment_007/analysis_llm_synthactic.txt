@@ -1,0 +1,27 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Discourse Unit",
+        "bracket_notation": "[Meta [N t1] [NUM t2] [N t3] [NUM t4]] [Frag t5 t6 t7 t8 t9] [S [VP t10 [NP t11]] [List t12 t13 t14 t15 t16 t17 t18 t19]]",
+        "dependencies": [
+          "t3->t1 (meta_relation)",
+          "t1->t2 (nummod)",
+          "t3->t4 (nummod)",
+          "t10->t5 (loose_association)",
+          "t10->t11 (genitive_mod)",
+          "t10->t12 (apposition_start)",
+          "t12->t13 (list_item)",
+          "t12->t14 (list_item)",
+          "t12->t15 (list_item)",
+          "t12->t16 (list_item)",
+          "t12->t17 (list_item)",
+          "t12->t18 (list_item)",
+          "t12->t19 (list_item)"
+        ],
+        "notes": "List of names (t12-t19) following an introduction (t10-t11). t5-t9 are punctuation fragments."
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S3_P1",
+        "structure_type": "Observation Clause",
+        "bracket_notation": "[ROOT [V t5] [COMP [V t6] [OBJ [N t7] [PRED [V t8]]]]]",
+        "dependencies": [
+          "t5->t6 (complement)",
+          "t6->t7 (object_coord)",
+          "t7->t8 (predicate)"
+        ],
+        "notes": "t5 'Observe' -> t6 'How earth is full' -> t7 'clouds etc.' -> t8 'rest'."
+      }
+    ]
+  }
+}

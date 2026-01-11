@@ -1,0 +1,34 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1_P1",
+        "structure_type": "Complex Sentence",
+        "bracket_notation": "[ROOT [V t5] [COMP [V t6] [SUBJ [N t7] [REL [V t8] [COORD [V t9]]]] [COORD [V t10] [ADJUNCT [PREP t11]]]]]",
+        "dependencies": [
+          "t5->t6 (complement)",
+          "t6->t7 (subject)",
+          "t7->t8 (modifier)",
+          "t8->t9 (coordination)",
+          "t6->t10 (coordination)",
+          "t10->t11 (adjunct)"
+        ],
+        "notes": "Assumes t5 (V) as imperative root. t6 interpreted as 'how they do not change' (Clause). t10 'transgress' coordinated with t6."
+      },
+      {
+        "id": "S1_P2",
+        "structure_type": "Noun Phrase Focused",
+        "bracket_notation": "[ROOT [V t5] [OBJ [N t6] [APPOS [N t7] [REL [V t8] [COORD [V t9]]]] [COORD [N t10] [MOD [PREP t11]]]]]",
+        "dependencies": [
+          "t5->t6 (object)",
+          "t6->t7 (apposition)",
+          "t7->t8 (modifier)",
+          "t8->t9 (coordination)",
+          "t6->t10 (coordination)",
+          "t10->t11 (modifier)"
+        ],
+        "notes": "Alternate reading where t6 is N 'work', t10 is N 'time'."
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Discourse Unit",
+        "bracket_notation": "[Meta [N t1] [NUM t2] [N t3] [NUM t4]] [S [VP t5 [NP t6]] [VP t7 [NP t8]]]",
+        "dependencies": [
+          "t3->t1 (meta_relation)",
+          "t1->t2 (nummod)",
+          "t3->t4 (nummod)",
+          "t5->t6 (complement_apposition)",
+          "t5->t7 (coordination_narrative)",
+          "t7->t8 (object)"
+        ],
+        "notes": "Summary statement."
+      }
+    ]
+  }
+}

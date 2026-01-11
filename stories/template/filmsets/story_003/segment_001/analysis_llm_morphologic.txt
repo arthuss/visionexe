@@ -1,0 +1,402 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:08:11Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_003/segment_001",
+    "graphematic_string": "Chapter 3 Segment 1\n\nጠየቁ፡ወርኢኩ፡መ፡ሉ፡\nዐፀው፡እፎ፡ያስተረእዩ፡መ፡\nይቡስን፡ወሉ፡ቍጽሊሆሙ፡\nንጉፋት፡ዘእንለ፡፲ወ፬ዕፀው፡\nዘኢይትነገፍ፡እለ፡ይጸንሑ፡\nእምብሉይ፡እስ፡ይመጽእ፡\nሐዲስ፡እምልኤ፡ወእምሠለስቱ፡\nረምት፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "t1_opt1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Chapter",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "foreign_latin_script",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "3",
+      "span": {
+        "start": 8,
+        "end": 9
+      },
+      "options": [
+        {
+          "option_id": "t2_opt1",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "3",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "foreign_digit",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 10,
+        "end": 17
+      },
+      "options": [
+        {
+          "option_id": "t3_opt1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Segment",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "foreign_latin_script",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "1",
+      "span": {
+        "start": 18,
+        "end": 19
+      },
+      "options": [
+        {
+          "option_id": "t4_opt1",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "1",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "foreign_digit",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ጠየቁ፡ወርኢኩ፡መ፡ሉ፡",
+      "span": {
+        "start": 21,
+        "end": 34
+      },
+      "options": [
+        {
+          "option_id": "t5_opt1",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_token",
+            "attestation": [
+              "Token appears to contain multiple merged words (ጠየቁ, ወርኢኩ, etc.) due to whitespace tokenization."
+            ],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ዐፀው፡እፎ፡ያስተረእዩ፡መ፡",
+      "span": {
+        "start": 35,
+        "end": 51
+      },
+      "options": [
+        {
+          "option_id": "t6_opt1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ዐፀው",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_token",
+            "attestation": [
+              "Token contains merged words starting with Noun ዐፀው."
+            ],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ይቡስን፡ወሉ፡ቍጽሊሆሙ፡",
+      "span": {
+        "start": 52,
+        "end": 66
+      },
+      "options": [
+        {
+          "option_id": "t7_opt1",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ይቡስ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_token",
+            "attestation": [
+              "Token contains merged words starting with Adjective ይቡስን."
+            ],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ንጉፋት፡ዘእንለ፡፲ወ፬ዕፀው፡",
+      "span": {
+        "start": 67,
+        "end": 84
+      },
+      "options": [
+        {
+          "option_id": "t8_opt1",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ንጉፋት",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_token",
+            "attestation": [
+              "Token contains merged words starting with Adjective/Participle ንጉፋት."
+            ],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ዘኢይትነገፍ፡እለ፡ይጸንሑ፡",
+      "span": {
+        "start": 85,
+        "end": 101
+      },
+      "options": [
+        {
+          "option_id": "t9_opt1",
+          "pos": "PRO.REL",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ዘ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_token",
+            "attestation": [
+              "Token contains merged words starting with Relative Particle ዘ."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "እምብሉይ፡እስ፡ይመጽእ፡",
+      "span": {
+        "start": 102,
+        "end": 116
+      },
+      "options": [
+        {
+          "option_id": "t10_opt1",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "እም",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_token",
+            "attestation": [
+              "Token contains merged words starting with Preposition እም."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t11",
+      "surface": "ሐዲስ፡እምልኤ፡ወእምሠለስቱ፡",
+      "span": {
+        "start": 117,
+        "end": 134
+      },
+      "options": [
+        {
+          "option_id": "t11_opt1",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ሐዲስ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_token",
+            "attestation": [
+              "Token contains merged words starting with Adjective ሐዲስ."
+            ],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t12",
+      "surface": "ረምት፨",
+      "span": {
+        "start": 135,
+        "end": 139
+      },
+      "options": [
+        {
+          "option_id": "t12_opt1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ረምት",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Possible valid word separator at end or single word."
+            ],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

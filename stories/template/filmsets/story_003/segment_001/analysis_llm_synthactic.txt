@@ -1,0 +1,23 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Hierarchical Dependency",
+        "bracket_notation": "[ROOT [META [NP t1 t2] [NP t3 t4]] [S [VP t5 [NP t6 [ADJP t7] [ADJP t8 [REL t9 [PP t10 [ADJP t11 [NP t12]]]]]]]]]",
+        "dependencies": [
+          "t1->t2 (nummod)",
+          "t3->t4 (nummod)",
+          "t5->t6 (dobj)",
+          "t6->t7 (amod)",
+          "t7->t8 (conj)",
+          "t8->t9 (acl:relcl)",
+          "t9->t10 (obl)",
+          "t10->t11 (mod)",
+          "t11->t12 (nmod)"
+        ],
+        "notes": "Metadata tokens (t1-t4) treated as detached fragments. Text tokens (t5-t12) analyzed as a VSO structure where t5 (Verb Phrase) governs t6 (Noun Phrase), followed by a chain of adjectival and relative modifiers."
+      }
+    ]
+  }
+}

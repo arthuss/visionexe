@@ -1,0 +1,49 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Verbal Clause",
+        "bracket_notation": "[S [Conj t5.m1] [V t5.m2] [Conj t5.m3] [V t5.m4] [Subj t5.m5]]",
+        "dependencies": [
+          "t5.m4->t5.m2 (coordination)",
+          "t5.m5->t5.m4 (subject)"
+        ],
+        "notes": "'And he answered and said Enoch'"
+      },
+      {
+        "id": "S2",
+        "structure_type": "Nominal Clause / Apposition",
+        "bracket_notation": "[NP [N t6.m1] [Adj t6.m2] [RelCl [Rel t6.m3] [PP [Prep t6.m4] [N t6.m5] [NP t7.m1]]]]",
+        "dependencies": [
+          "t6.m2->t6.m1 (adjectival_modifier)",
+          "t6.m3->t6.m1 (relative_marker)",
+          "t6.m5->t6.m4 (prep_obj)",
+          "t7.m1->t6.m5 (genitive/apposition)"
+        ],
+        "notes": "'A righteous man who [was] from with God'"
+      },
+      {
+        "id": "S3",
+        "structure_type": "Circumstantial Clause",
+        "bracket_notation": "[S [Conj t7.m2] [Subj [N t7.m3] [Poss t7.m4]] [Pred t8.m1]]",
+        "dependencies": [
+          "t8.m1->t7.m3 (predicate)",
+          "t7.m3->t7.m2 (circumstantial)"
+        ],
+        "notes": "'While his eyes [were] opened'"
+      },
+      {
+        "id": "S4",
+        "structure_type": "Verbal Clause",
+        "bracket_notation": "[S [Conj t8.m2] [V t8.m3] [Obj [NP [N t8.m4] [Adj t9.m1] [RelCl [Rel t9.m2] [N t9.m3]]]]]",
+        "dependencies": [
+          "t8.m4->t8.m3 (object)",
+          "t9.m1->t8.m4 (modifier)",
+          "t9.m3->t9.m2 (relative_complement)"
+        ],
+        "notes": "'And he saw a holy vision of/which [is] heavens'"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Discourse Unit",
+        "bracket_notation": "[Meta [N t1] [NUM t2] [N t3] [NUM t4]] [S [AdvP t5] [VP [V t6] [NP t7 [AdjP t8]]]]",
+        "dependencies": [
+          "t3->t1 (meta_relation)",
+          "t1->t2 (nummod)",
+          "t3->t4 (nummod)",
+          "t6->t5 (temporal_marker)",
+          "t6->t7 (subject)",
+          "t7->t8 (adjectival_mod)"
+        ],
+        "notes": "t5-t8 form the narrative clause; t1-t4 are metadata."
+      }
+    ]
+  }
+}

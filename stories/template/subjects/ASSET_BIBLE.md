@@ -23,9 +23,7 @@
 እግዚብሔር, angelic, arid, sandy, azure, blue, blue, cloudless, bright, bright, glowing, celestial, daytime, desert, divine, earth, earth/ground, expansive, expansive, blue, fire, glowing, heart, human, interior/inside, night, radiant, rain, sky, soft, pale, solid, ground, sun, unknown, vast, vast sky, water, wind, worldly, {}
 
 ### 6. PHASE PROMPTS
-*   **Phase 1:**
-    Prompt: እግዚብሔር, angelic, arid, sandy, azure, blue, blue, cloudless, bright, bright, glowing, celestial, daytime, desert, divine, earth, earth/ground, expansive, expansive, blue, fire, glowing, heart, human, interior/inside, night, radiant, rain, sky, soft, pale, solid, ground, sun, unknown, vast, vast sky, water, wind, worldly, {}, Phase 1
-    Keywords: angelic, arid, sandy, azure, blue, blue, cloudless, bright, bright, glowing, celestial, daytime, desert, divine, earth
+*   
 *   **Phase 2:**
     Prompt: እግዚብሔር, angelic, arid, sandy, azure, blue, blue, cloudless, bright, bright, glowing, celestial, daytime, desert, divine, earth, earth/ground, expansive, expansive, blue, fire, glowing, heart, human, interior/inside, night, radiant, rain, sky, soft, pale, solid, ground, sun, unknown, vast, vast sky, water, wind, worldly, {}, Phase 2
     Keywords: angelic, arid, sandy, azure, blue, blue, cloudless, bright, bright, glowing, celestial, daytime, desert, divine, earth

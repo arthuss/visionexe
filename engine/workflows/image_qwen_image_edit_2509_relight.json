@@ -1,7 +1,7 @@
 {
   "11": {
     "inputs": {
-      "image": "warm_living_room.png"
+      "image": "top_zoom1.webp"
     },
     "class_type": "LoadImage",
     "_meta": {
@@ -26,7 +26,7 @@
   },
   "14": {
     "inputs": {
-      "text": ""
+      "text": "blabla"
     },
     "class_type": "Text Multiline",
     "_meta": {
@@ -42,17 +42,63 @@
       "title": "MASTER_PROMPT"
     }
   },
-  "10:75": {
+  "17": {
     "inputs": {
-      "strength": 1,
-      "model": [
-        "10:66",
+      "text_input": "",
+      "task": "more_detailed_caption",
+      "fill_mask": true,
+      "keep_model_loaded": false,
+      "max_new_tokens": 1024,
+      "num_beams": 3,
+      "do_sample": true,
+      "output_mask_select": "",
+      "seed": 302985506319088,
+      "image": [
+        "10:8",
+        0
+      ],
+      "florence2_model": [
+        "18",
         0
       ]
     },
-    "class_type": "CFGNorm",
+    "class_type": "Florence2Run",
     "_meta": {
-      "title": "CFGNorm"
+      "title": "Florence2Run"
+    }
+  },
+  "18": {
+    "inputs": {
+      "model": "microsoft/Florence-2-base",
+      "precision": "fp16",
+      "attention": "sdpa",
+      "convert_to_safetensors": false
+    },
+    "class_type": "DownloadAndLoadFlorence2Model",
+    "_meta": {
+      "title": "DownloadAndLoadFlorence2Model"
+    }
+  },
+  "21": {
+    "inputs": {
+      "path": "/root/ComfyUI_Py314/output",
+      "filename_prefix": [
+        "14",
+        0
+      ],
+      "filename_delimiter": "",
+      "filename_number_padding": 4,
+      "file_extension": ".txt",
+      "encoding": "utf-8",
+      "filename_suffix": "",
+      "text": [
+        "17",
+        2
+      ]
+    },
+    "class_type": "Save Text File",
+    "_meta": {
+      "title": "Save Text File"
     }
   },
   "10:39": {
@@ -85,6 +131,46 @@
       "title": "Load Diffusion Model"
     }
   },
+  "10:89": {
+    "inputs": {
+      "lora_name": "Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors",
+      "strength_model": 1,
+      "model": [
+        "10:37",
+        0
+      ]
+    },
+    "class_type": "LoraLoaderModelOnly",
+    "_meta": {
+      "title": "LoraLoaderModelOnly"
+    }
+  },
+  "10:117": {
+    "inputs": {
+      "image": [
+        "11",
+        0
+      ]
+    },
+    "class_type": "FluxKontextImageScale",
+    "_meta": {
+      "title": "FluxKontextImageScale"
+    }
+  },
+  "10:118": {
+    "inputs": {
+      "lora_name": "qwen2/Qwen-Image-Edit-2509-Relight.safetensors",
+      "strength_model": 1,
+      "model": [
+        "10:89",
+        0
+      ]
+    },
+    "class_type": "LoraLoaderModelOnly",
+    "_meta": {
+      "title": "LoraLoaderModelOnly"
+    }
+  },
   "10:110": {
     "inputs": {
       "prompt": "",
@@ -104,19 +190,6 @@
     "class_type": "TextEncodeQwenImageEditPlus",
     "_meta": {
       "title": "TextEncodeQwenImageEditPlus"
-    }
-  },
-  "10:66": {
-    "inputs": {
-      "shift": 3,
-      "model": [
-        "10:118",
-        0
-      ]
-    },
-    "class_type": "ModelSamplingAuraFlow",
-    "_meta": {
-      "title": "ModelSamplingAuraFlow"
     }
   },
   "10:111": {
@@ -159,25 +232,35 @@
       "title": "VAE Encode"
     }
   },
-  "10:8": {
+  "10:66": {
     "inputs": {
-      "samples": [
-        "10:3",
-        0
-      ],
-      "vae": [
-        "10:39",
+      "shift": 3,
+      "model": [
+        "10:118",
         0
       ]
     },
-    "class_type": "VAEDecode",
+    "class_type": "ModelSamplingAuraFlow",
     "_meta": {
-      "title": "VAE Decode"
+      "title": "ModelSamplingAuraFlow"
+    }
+  },
+  "10:75": {
+    "inputs": {
+      "strength": 1,
+      "model": [
+        "10:66",
+        0
+      ]
+    },
+    "class_type": "CFGNorm",
+    "_meta": {
+      "title": "CFGNorm"
     }
   },
   "10:3": {
     "inputs": {
-      "seed": 1118877715456453,
+      "seed": 693186583143244,
       "steps": 4,
       "cfg": 1,
       "sampler_name": "euler",
@@ -205,44 +288,20 @@
       "title": "KSampler"
     }
   },
-  "10:117": {
+  "10:8": {
     "inputs": {
-      "image": [
-        "11",
+      "samples": [
+        "10:3",
+        0
+      ],
+      "vae": [
+        "10:39",
         0
       ]
     },
-    "class_type": "FluxKontextImageScale",
+    "class_type": "VAEDecode",
     "_meta": {
-      "title": "FluxKontextImageScale"
-    }
-  },
-  "10:89": {
-    "inputs": {
-      "lora_name": "Qwen-Image-Edit-2509-Lightning-4steps-V1.0-bf16.safetensors",
-      "strength_model": 1,
-      "model": [
-        "10:37",
-        0
-      ]
-    },
-    "class_type": "LoraLoaderModelOnly",
-    "_meta": {
-      "title": "LORA_LOADER_01"
-    }
-  },
-  "10:118": {
-    "inputs": {
-      "lora_name": "Qwen-Image-Edit-2509-Relight.safetensors",
-      "strength_model": 1,
-      "model": [
-        "10:89",
-        0
-      ]
-    },
-    "class_type": "LoraLoaderModelOnly",
-    "_meta": {
-      "title": "LORA_LOADER_02"
+      "title": "VAE Decode"
     }
   }
 }

@@ -37,18 +37,29 @@ if (-not $Root) {
 
     if (Test-Path -LiteralPath $StoryConfigPath) {
         $storyConfig = Get-Content -Path $StoryConfigPath -Raw | ConvertFrom-Json
+        
         $dataRoot = $storyConfig.data_root
         if ($dataRoot) {
             if (-not [System.IO.Path]::IsPathRooted($dataRoot)) {
                 $dataRoot = Join-Path $RepoRoot $dataRoot
             }
-            $Root = Join-Path $dataRoot "raw"
+            $Roots += Join-Path $dataRoot "raw"
+        }
+
+        $filmsetsRoot = $storyConfig.filmsets_root
+        if ($filmsetsRoot) {
+            if (-not [System.IO.Path]::IsPathRooted($filmsetsRoot)) {
+                $filmsetsRoot = Join-Path $RepoRoot $filmsetsRoot
+            }
+            $Roots += $filmsetsRoot
         }
     }
+} else {
+    $Roots = @($Root)
 }
 
-if (-not $Root) {
-    Write-Host "Root folder missing. Provide -Root or ensure story_config.json has data_root." -ForegroundColor Red
+if ($Roots.Count -eq 0) {
+    Write-Host "Root folder missing. Provide -Root or ensure story_config.json has data_root/filmsets_root." -ForegroundColor Red
     exit 1
 }
 

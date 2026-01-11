@@ -1,0 +1,31 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "high",
+      "reasoning": "Matches 1 Enoch 1:4. The theophany describes movement: leaving the camp -> treading on Sinai -> appearing. S1's 'Linear Narrative Chain' accurately models this sequence of distinct events.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 1:4",
+          "note": "God treading upon Mount Sinai."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "And from there He will tread upon Mount Sinai and His camp shall appear..."
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "moderate",
+      "reasoning": "While 'from heaven' (em-samāy) does scope over the appearance, applying it globally to the initial movement 'from there' (em-heya) creates a conflict (from there vs from heaven). S1 is cleaner.",
+      "parallels": [],
+      "context_invariance": "moderate",
+      "back_translation": "And from there... [all from heaven]"
+    }
+  ],
+  "decision_log": "Sequential action (treading then appearing) is the narrative logic.",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T-Seg04-Linear",
+    "confidence": "high"
+  }
+}

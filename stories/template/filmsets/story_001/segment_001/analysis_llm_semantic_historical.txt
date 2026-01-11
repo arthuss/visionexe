@@ -1,0 +1,31 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1-Parse2",
+      "plausibility": "high",
+      "reasoning": "The segment corresponds to the incipit of 1 Enoch (1:1). The phrase 'Qaala Barakat' (The word of the blessing) is a Construct State Nominal Phrase serving as the title/header of the book. S1-Parse1's interpretation of 'He left' (taking 'ret' as a verb or corrupt form) disrupts the standard incipit formula. The OCR artifact 'ret' is widely attested as 'Barakat' in critical editions.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 1:1 (Ethiopic)",
+          "note": "Standard reading: 'Qāla barakat za-Hēnok' (The word of the blessing of Enoch)."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "The word of the blessing of Enoch..."
+    },
+    {
+      "hypothesis_ref": "S1-Parse1",
+      "plausibility": "low",
+      "reasoning": "Treating the initial token as a verb (VSO) forces a narrative reading too early. The first line is traditionally a nominal title heading.",
+      "parallels": [],
+      "context_invariance": "unstable",
+      "back_translation": "He left the word of Enoch..."
+    }
+  ],
+  "decision_log": "Comparison with standard text reveals 'ret' is a corruption of 'barakat'. Parse 2 accommodates the nominal construct chain typical of book titles.",
+  "final_decision": {
+    "hypothesis_ref": "S1-Parse2",
+    "translation_id": "T-Seg01-Nominal",
+    "confidence": "high"
+  }
+}

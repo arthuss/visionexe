@@ -1,0 +1,63 @@
+ChapterID,SegmentLabel,SegmentType,Status,SourcePath,RawContent
+1,,,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_001\story.txt,"Um die exakte Buchstabenfolge eines Geez‑Texts zu liefern, benötige ich den Text selbst.  
+Bitte gib mir den Geez‑Text, den du auf Ebene A – Graphematisch analysiert haben möchtest, und ich werde dir die unveränderte Zeichenkette zurückgeben (keine Normalisierung, keine stillschweigenden Ergänzungen)."
+2,,,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_002\story.txt,"Bitte geben Sie den Geez‑Text ein, den Sie analysiert haben möchten. Sobald ich die exakte Buchstabenfolge erhalte, kann ich sie Ihnen als reine Zeichenkette zurückgeben – ohne Normalisierung, ohne stillschweigende Ergänzungen und ohne Textverständnis."
+3,,,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_003\story.txt,"Um die exakte Graphemfolge zu liefern, benötige ich den Geez‑Text, den Sie analysieren lassen möchten.  
+Bitte geben Sie den Text (oder ein Beispiel) ein, und ich werde ihn in der gewünschten Form ausgeben."
+4,,,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_004\story.txt,"Bitte geben Sie den Ge'ez‑Text ein, den Sie analysieren möchten.  
+Ich liefere dann die exakte Buchstabenfolge (Unicode‑Code‑Points) ohne jegliche Normalisierung, Ergänzungen oder Interpretation."
+5,,,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_005\story.txt,"Bitte geben Sie den Ge'ez‑Text ein, den Sie analysieren lassen möchten.  
+Ich werde dann die exakte Buchstabenfolge (keine Normalisierung, keine stillschweigenden Ergänzungen) als reine Zeichenkette zurückgeben."
+6,,,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_006\story.txt,"Um die exakte Buchstabenfolge eines Ge'ez‑Textes zu liefern, benötige ich den konkreten Text, den Sie analysieren lassen möchten.  
+Bitte geben Sie den Ge'ez‑Text ein (z. B. als Unicode‑String), und ich werde Ihnen die unveränderte Zeichenkette zurückgeben – ohne Normalisierung, ohne stillschweigende Ergänzungen und ohne Interpretation des Inhalts."
+7,,,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_007\story.txt,"**Ebene A – Graphematische Transkription (keine Normalisierung, keine stillschweigenden Ergänzungen)**  
+
+Um die exakte Buchstabenfolge eines Geez‑Texts zu erhalten, transkribiert man die Zeichen so, wie sie im Original erscheinen – inklusive aller diakritischen Zeichen, Ligaturen und Sonderzeichen. Es werden keine phonetischen oder orthografischen Regeln angewendet, keine Silben‑ oder Wort‑Trennungen ergänzt und keine Zeichen zusammengeführt oder verändert.
+
+---
+
+### Beispiel
+
+| Original‑Text (Geez) | Transkription (Ebene A) |
+|----------------------|------------------------|
+| ሰላም | ሰላም |
+| አማርኛ | አማርኛ |
+| ሰላም ወደ አማርኛ | ሰላም ወደ አማርኛ |
+
+> **Hinweis:** In allen Fällen bleibt die Zeichenkette unverändert – es wird weder normalisiert noch ergänzt.
+
+---
+
+### Vorgehensweise
+
+1. **Zeichenidentifikation**  
+   Jedes Zeichen im Original wird als eigenständiges Graphem betrachtet. Dazu zählen:
+   - Basis‑Buchstaben (z. B. ሰ, ላ, ም)
+   - Diakritische Zeichen (z. B. ሀ, ሁ, ሂ)
+   - Ligaturen (z. B. ሰላ, ሰም)
+   - Sonderzeichen (z. B. Interpunktionszeichen, Leerzeichen)
+
+2. **Direkte Kopie**  
+   Die Zeichen werden in der Reihenfolge, wie sie im Original erscheinen, kopiert.  
+   *Kein* Versuch, die Zeichen zu normalisieren (z. B. ሰላም → ሰላም) oder zu ergänzen (z. B. stillschweigende Vokale) wird vorgenommen.
+
+3. **Ausgabe**  
+   Die resultierende Zeichenkette wird als reine Text‑Repräsentation ausgegeben – ohne zusätzliche Interpretation oder Analyse.
+
+---
+
+### Bitte um konkreten Text
+
+Falls du einen spezifischen Geez‑Text hast, den du auf Ebene A transkribiert haben möchtest, gib ihn bitte an. Ich liefere dann die exakte Buchstabenfolge ohne jegliche Normalisierung oder Ergänzung."
+8,,,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_008\story.txt,"Um die exakte Buchstabenfolge eines Geez‑Textes zu liefern, benötige ich zunächst den konkreten Text, den Sie analysieren möchten. Sobald Sie mir den Text geben, kann ich ihn ohne Normalisierung, ohne stille Ergänzungen und ohne semantische Interpretation in eine reine Zeichenkette umwandeln – also die genaue Reihenfolge der Unicode‑Codepunkte, wie sie im Original vorkommen.
+
+**Beispiel (nur zur Illustration):**
+
+| Original‑Text | Unicode‑Codepunkte (keine Normalisierung) | Ergebnis‑Zeichenkette |
+|---------------|-------------------------------------------|------------------------|
+| ሰላም          | U+1200 U+1218 U+122D                      | ሰላም                  |
+| አማርኛ        | U+1270 U+1200 U+1218 U+1228 U+1229        | አማርኛ                |
+
+Wenn Sie mir den gewünschten Geez‑Text schicken, erstelle ich Ihnen die exakte Zeichenkette, wie Sie es benötigen."
+9,,,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\story.txt,"Um die exakte Graphemfolge zu liefern, benötige ich den konkreten Geez‑Text, den Sie analysieren lassen möchten. Bitte geben Sie den Text ein, und ich werde ihn ohne Normalisierung oder Ergänzungen in einer reinen Zeichenkette wiedergeben."
+10,,,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\story.txt,"Um die exakte Graphemfolge eines Geez‑Textes zu liefern, benötige ich den konkreten Text, den du analysieren möchtest. Bitte gib mir den Geez‑Text (in seiner originalen, unveränderten Form), damit ich die Zeichenkette exakt wiedergeben kann – ohne Normalisierung, ohne zusätzliche Silben oder Interpretationen."

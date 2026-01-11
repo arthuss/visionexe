@@ -26,6 +26,10 @@ PLACEHOLDER_IDS = {
 SAFE_FOLDER_RE = re.compile(r"[^A-Za-z0-9_.-]+")
 TIMELINE_TAG_RE = re.compile(r"[^0-9]")
 ASSET_HEADER_RE = re.compile(r"^##\s+\[(.*?)\]\s+.*?\(ID:\s*(.*?)\)", re.MULTILINE)
+EVOLUTION_HEADER_RE = re.compile(r"^###\s*2\.\s*EVOLUTION\s*/\s*VARIANTS", re.IGNORECASE)
+SECTION_HEADER_RE = re.compile(r"^###\s+")
+PHASE_LINE_RE = re.compile(r"^\s*[*-]\s+(.*)$")
+PHASE_NUM_RE = re.compile(r"\bphase\s*([0-9]+)\b", re.IGNORECASE)
 
 
 def load_jsonl(path: Path):
@@ -112,6 +116,94 @@ def parse_prompt_block(markdown: str) -> str:
     return " ".join([line for line in prompt_lines if line]).strip()
 
 
+def clean_markdown_block(markdown: str) -> str:
+    if not markdown:
+        return ""
+    text = markdown.strip()
+    text = re.sub(r"^\s*---\s*\n", "", text)
+    text = re.sub(r"\n\s*---\s*$", "", text)
+    return text.strip()
+
+
+def find_section_bounds(lines, header_re):
+    start = None
+    for idx, line in enumerate(lines):
+        if header_re.match(line.strip()):
+            start = idx
+            break
+    if start is None:
+        return None
+    end = len(lines)
+    for idx in range(start + 1, len(lines)):
+        if SECTION_HEADER_RE.match(lines[idx].strip()):
+            end = idx
+            break
+    return start, end
+
+
+def build_phase_prompt_variants(markdown: str):
+    cleaned = clean_markdown_block(markdown)
+    if not cleaned:
+        return []
+    lines = cleaned.splitlines()
+    bounds = find_section_bounds(lines, EVOLUTION_HEADER_RE)
+    if not bounds:
+        return [{
+            "prompt": cleaned,
+            "phase_tag": "",
+            "phase_label": "",
+        }]
+    start, end = bounds
+    phase_entries = []
+    seen_nums = set()
+    for line in lines[start + 1:end]:
+        bullet = PHASE_LINE_RE.match(line)
+        if not bullet:
+            continue
+        text = bullet.group(1).strip()
+        match = PHASE_NUM_RE.search(text)
+        if not match:
+            continue
+        phase_num = int(match.group(1))
+        if phase_num in seen_nums:
+            continue
+        seen_nums.add(phase_num)
+        phase_entries.append({
+            "num": phase_num,
+        })
+    if not phase_entries:
+        return [{
+            "prompt": cleaned,
+            "phase_tag": "",
+            "phase_label": "",
+        }]
+    variants = []
+    for entry in phase_entries:
+        filtered = []
+        for idx, line in enumerate(lines):
+            if idx <= start or idx >= end:
+                filtered.append(line)
+                continue
+            bullet = PHASE_LINE_RE.match(line)
+            if not bullet:
+                filtered.append(line)
+                continue
+            text = bullet.group(1).strip()
+            match = PHASE_NUM_RE.search(text)
+            if not match:
+                filtered.append(line)
+                continue
+            if int(match.group(1)) == entry["num"]:
+                filtered.append(line)
+        phase_tag = f"phase_{entry['num']:02d}"
+        variants.append({
+            "prompt": "\n".join(filtered).strip(),
+            "phase_tag": phase_tag,
+            "phase_label": f"Phase {entry['num']}",
+        })
+    return variants
+
+
 def parse_asset_bible(path: Path):
     if not path or not path.exists():
         return []
@@ -133,18 +225,36 @@ def parse_asset_bible(path: Path):
     return assets
 
 
-def select_prompt(card):
+def build_prompt_entries(card):
+    markdown = card.get("markdown") or ""
+    variants = build_phase_prompt_variants(markdown)
+    if variants:
+        return variants
     card_data = card.get("card") if isinstance(card.get("card"), dict) else {}
     prompt_block = card_data.get("prompt_block")
     if prompt_block:
-        return prompt_block
+        return [{
+            "prompt": prompt_block,
+            "phase_tag": "",
+            "phase_label": "",
+        }]
     phase_prompts = card_data.get("phase_prompts") or []
     if isinstance(phase_prompts, list) and phase_prompts:
         first = phase_prompts[0]
         if isinstance(first, dict) and first.get("prompt_block"):
-            return first.get("prompt_block")
-    markdown = card.get("markdown") or ""
-    return parse_prompt_block(markdown) or card.get("name") or card.get("id") or ""
+            return [{
+                "prompt": first.get("prompt_block"),
+                "phase_tag": "",
+                "phase_label": "",
+            }]
+    fallback = parse_prompt_block(markdown) or card.get("name") or card.get("id") or ""
+    if not fallback:
+        return []
+    return [{
+        "prompt": fallback,
+        "phase_tag": "",
+        "phase_label": "",
+    }]
 
 
 def main():
@@ -209,26 +319,41 @@ def main():
         if workflow_prefix:
             output_basename = f"{workflow_prefix}__{subject_id}"
 
-        prompt = select_prompt(card)
-        if not prompt:
+        prompt_entries = build_prompt_entries(card)
+        if not prompt_entries:
             continue
 
         queue_type = QUEUE_TYPE_MAP.get(subject_type, "asset")
 
-        queue.append({
-            "id": subject_id,
-            "type": queue_type,
-            "entity_type": queue_type,
-            "entity_name": name or subject_id,
-            "subject_id": subject_id,
-            "subject_type": subject_type,
-            "prompt": prompt,
-            "workflow": args.workflow or "",
-            "output_dir": output_dir_str,
-            "output_basename": output_basename,
-            "expected_outputs": 1,
-            "repeat_count": max(1, int(args.repeats)),
-        })
+        for entry in prompt_entries:
+            prompt = entry.get("prompt") or ""
+            if not prompt:
+                continue
+            phase_tag = entry.get("phase_tag") or ""
+            phase_label = entry.get("phase_label") or ""
+
+            job_id = subject_id
+            job_output = output_basename
+            if phase_tag:
+                job_id = f"{subject_id}__{phase_tag}"
+                job_output = f"{output_basename}__{phase_tag}"
+
+            queue.append({
+                "id": job_id,
+                "type": queue_type,
+                "entity_type": queue_type,
+                "entity_name": name or subject_id,
+                "subject_id": subject_id,
+                "subject_type": subject_type,
+                "phase_id": phase_tag,
+                "phase_name": phase_label,
+                "prompt": prompt,
+                "workflow": args.workflow or "",
+                "output_dir": output_dir_str,
+                "output_basename": job_output,
+                "expected_outputs": 1,
+                "repeat_count": max(1, int(args.repeats)),
+            })
 
     if output_queue:
         output_queue.parent.mkdir(parents=True, exist_ok=True)

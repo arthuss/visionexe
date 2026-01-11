@@ -1,0 +1,330 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:17:50Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_007/segment_005",
+    "graphematic_string": "Chapter 7 Segment 5\n\nወወጠኑ፡የብሱ፡ዕዋፍ፡\nወዲ፡ራዊት፡ወዘ፡\nይትሐወስ፡ወዐሣት፨፨\nወሥጋሆሙ፡፡ይናቲሆሙ፡\nትባልዑ፨ወደመ፡ስትዩ፡\nእምሃ፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Chapter",
+            "lemma": "Chapter",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "7",
+      "span": {
+        "start": 8,
+        "end": 9
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "7",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 10,
+        "end": 17
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Segment",
+            "lemma": "Segment",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "5",
+      "span": {
+        "start": 18,
+        "end": 19
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "5",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወወጠኑ፡የብሱ፡ዕዋፍ፡",
+      "span": {
+        "start": 21,
+        "end": 34
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ወጠነ",
+            "lemma": "ወጠነ",
+            "pattern": "0-1-2"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Leslau_621"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ወዲ፡ራዊት፡ወዘ፡",
+      "span": {
+        "start": 35,
+        "end": 45
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ወዲ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_form",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ይትሐወስ፡ወዐሣት፨፨",
+      "span": {
+        "start": 46,
+        "end": 58
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሐወሰ",
+            "lemma": "ሐወሰ",
+            "pattern": "0-1-2"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Leslau_250"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ወሥጋሆሙ፡፡ይናቲሆሙ፡",
+      "span": {
+        "start": 59,
+        "end": 72
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሥጋ",
+            "lemma": "ሥጋ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Leslau_525"
+            ],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ትባልዑ፨ወደመ፡ስትዩ፡",
+      "span": {
+        "start": 73,
+        "end": 86
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "በልዐ",
+            "lemma": "በልዐ",
+            "pattern": "t-0-1-2"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Leslau_97"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "እምሃ፨",
+      "span": {
+        "start": 87,
+        "end": 91
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "ADV",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "እምሃ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Leslau_215"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

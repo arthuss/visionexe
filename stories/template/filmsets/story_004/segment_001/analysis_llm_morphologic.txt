@@ -1,0 +1,502 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:09:44Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_004/segment_001",
+    "graphematic_string": "Chapter 4 Segment 1\n\nወዳግመ፡ጠየቁ፡መዋዕለ፡ሐጋይ፡\nመ፡ነ፡ላእሌሃ፡ፀሐይ፡\nቅድሜሃ፨ወንትሙሰ፡\nተኀሥሡ፡ምጽላለ፡ወጽላሎተ፡\nእንተ፡ዋዕየ፡ፀሐይ፨ወምድርስ፡\nትውዒ፡እሙቀተ፡ሐሩር፡\nወንትሙሰ፡ኢትሉ፡ዪዶታ፡\nለምድር፡ወኢ—ሐ፡እንተ፡\nዋዐያ፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "t1_opt_A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Chapter",
+            "lemma": "Chapter",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "english_lexicon"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "4",
+      "span": {
+        "start": 8,
+        "end": 9
+      },
+      "options": [
+        {
+          "option_id": "t2_opt_A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "4",
+            "lemma": "4",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "numeric"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 10,
+        "end": 17
+      },
+      "options": [
+        {
+          "option_id": "t3_opt_A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Segment",
+            "lemma": "Segment",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "english_lexicon"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "1",
+      "span": {
+        "start": 18,
+        "end": 19
+      },
+      "options": [
+        {
+          "option_id": "t4_opt_A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "1",
+            "lemma": "1",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "numeric"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወዳግመ፡ጠየቁ፡መዋዕለ፡ሐጋይ፡",
+      "span": {
+        "start": 21,
+        "end": 39
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "መ፡ነ፡ላእሌሃ፡ፀሐይ፡",
+      "span": {
+        "start": 40,
+        "end": 53
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ቅድሜሃ፨ወንትሙሰ፡",
+      "span": {
+        "start": 54,
+        "end": 65
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ተኀሥሡ፡ምጽላለ፡ወጽላሎተ፡",
+      "span": {
+        "start": 66,
+        "end": 82
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "እንተ፡ዋዕየ፡ፀሐይ፨ወምድርስ፡",
+      "span": {
+        "start": 83,
+        "end": 101
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "ትውዒ፡እሙቀተ፡ሐሩር፡",
+      "span": {
+        "start": 102,
+        "end": 115
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t11",
+      "surface": "ወንትሙሰ፡ኢትሉ፡ዪዶታ፡",
+      "span": {
+        "start": 116,
+        "end": 130
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t12",
+      "surface": "ለምድር፡ወኢ—ሐ፡እንተ፡",
+      "span": {
+        "start": 131,
+        "end": 145
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t13",
+      "surface": "ዋዐያ፨",
+      "span": {
+        "start": 146,
+        "end": 150
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "moderate",
+      "reasoning": "The parse structure is valid, but the input text contains significant deviations/typos likely from OCR (e.g., 'መልሙ' for 'መልአኮሙ' or 'መራhiሆሙ', 'እውን' for 'እኩን', 'ይትገር' for 'ይትገበር'). The dependency analysis handles the speech introduction and content correctly despite these surface errors.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 6:3 (Ethiopic)",
+          "note": "Standard: 'ወይቤሎሙ፡ ሴምያዛ፡ ዘውእቱ፡ መልአኮሙ...'"
+        }
+      ],
+      "context_invariance": "variant_text",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "Accepted S1 as the structural analysis holds for the dialogue pattern, despite textual corruption requiring emendation for full translation.",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}

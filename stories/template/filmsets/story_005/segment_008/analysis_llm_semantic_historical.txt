@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "moderate",
+      "reasoning": "The clause chain structure identifies the sequence of blessings (wisdom, life, no sin). However, the text ends with 'ኢይደግሙ፡ሳ'. 'ሳ' appears to be a truncation of 'አበሳ' (sin/transgression) or a similar noun. While the parse handles the structure, the lemma integrity is compromised by the source text.",
+      "parallels": [
+        {
+          "ref": "Enoch 5:8",
+          "note": "Promise of wisdom and moral perfection."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "And then there shall be bestowed upon the elect wisdom, and they shall all live and never again sin [truncated]."
+    }
+  ],
+  "decision_log": "Accepted with note on truncated lexeme 'ሳ'.",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1_P1",
+      "plausibility": "high",
+      "reasoning": "The syntactic structure treating 't6' (how they do not change) as a complement clause to the imperative 'Observe/Inquire' aligns perfectly with the standard Ethiopic text of 1 Enoch 2:1. The coordination of 'do not change' and 'do not transgress' accurately reflects the description of celestial immutability.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 2:1",
+          "note": "Standard Ethiopic: 'ጠየቁ፡ኵሎ፡ዘውስተ፡ሰማይ፡ግብረ፡እፎ፡ኢይመይጡ፡ፍናዊሆሙ...'"
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S1_P2",
+      "plausibility": "low",
+      "reasoning": "Forcing a Noun Phrase focus ('work' as object apposition) obscures the clear 'how' (እፎ) clause structure intended to describe the *manner* of the luminaries' motion, not just the static object.",
+      "parallels": [],
+      "context_invariance": "unstable",
+      "back_translation": "fail"
+    }
+  ],
+  "decision_log": "Comparison favors S1_P1 due to strong alignment with the attested 'how' (እፎ) clauses in 1 Enoch 2:1 describing celestial mechanics.",
+  "final_decision": {
+    "hypothesis_ref": "S1_P1",
+    "translation_id": "T1",
+    "confidence": "high"
+  }
+}

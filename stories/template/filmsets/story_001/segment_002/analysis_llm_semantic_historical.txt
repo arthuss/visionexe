@@ -1,0 +1,31 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "high",
+      "reasoning": "This segment matches 1 Enoch 1:2. The structure 'wa-awśʾa Hēnok wa-yibe' (And Enoch answered and said) is a fixed formula in Ge'ez narrative (Coordination of verbs). It introduces direct speech. S1 correctly identifies the coordination of the two verbal clauses.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 1:2",
+          "note": "Matches the introduction of Enoch's speech."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "And Enoch answered and said..."
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "low",
+      "reasoning": "A Nominal Sentence reading ('The answer of Enoch...') ignores the explicit verbal morphology of 'awśʾa' (Perfect) and 'yibe' (Imperfect/Preterite function).",
+      "parallels": [],
+      "context_invariance": "unstable",
+      "back_translation": "The answer of Enoch is..."
+    }
+  ],
+  "decision_log": "The narrative formula 'Answered and said' is definitive here.",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T-Seg02-Narrative",
+    "confidence": "high"
+  }
+}

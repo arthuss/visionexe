@@ -1,0 +1,22 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Discourse Unit",
+        "bracket_notation": "[Meta [N t1] [NUM t2] [N t3] [NUM t4]] [S [VP t5] [S [VP t6] [S [VP t7 [S [VP t8 [VP t9 [NP t10]]]]]]]]",
+        "dependencies": [
+          "t3->t1 (meta_relation)",
+          "t1->t2 (nummod)",
+          "t3->t4 (nummod)",
+          "t5->t6 (coordination_sequence)",
+          "t6->t7 (coordination_purpose)",
+          "t7->t8 (complement_clause)",
+          "t8->t9 (coordination_adversative)",
+          "t9->t10 (object)"
+        ],
+        "notes": "Dialogue response chain."
+      }
+    ]
+  }
+}

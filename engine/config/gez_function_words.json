@@ -1,0 +1,61 @@
+{
+  "list_id": "GEZ-FUNC-1",
+  "version": "1.0.0",
+  "description": "Surface-form function words for Ge'ez filtering (extend per corpus).",
+  "function_words": [
+    {
+      "surface": "ወ",
+      "allowed_pos": [
+        "CONJ.COORD",
+        "CLIT.CONJ"
+      ],
+      "note": "and"
+    },
+    {
+      "surface": "ዘ",
+      "allowed_pos": [
+        "PART.REL",
+        "PRO.REL"
+      ],
+      "note": "relative marker"
+    },
+    {
+      "surface": "እለ",
+      "allowed_pos": [
+        "PRO.REL"
+      ],
+      "note": "relative pronoun (plural)"
+    },
+    {
+      "surface": "እም",
+      "allowed_pos": [
+        "PREP",
+        "CLIT.PREP"
+      ],
+      "note": "from/out of"
+    },
+    {
+      "surface": "ለ",
+      "allowed_pos": [
+        "PREP",
+        "CLIT.PREP"
+      ],
+      "note": "to/for"
+    },
+    {
+      "surface": "በ",
+      "allowed_pos": [
+        "PREP",
+        "CLIT.PREP"
+      ],
+      "note": "in/with/by"
+    },
+    {
+      "surface": "እንዘ",
+      "allowed_pos": [
+        "CONJ.SUB"
+      ],
+      "note": "while/when"
+    }
+  ]
+}

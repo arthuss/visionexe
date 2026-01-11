@@ -1,0 +1,31 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "high",
+      "reasoning": "Matches 1 Enoch 1:5. 'Wa-yifarrah... Təguhan' (And the Watchers shall fear). The segmentation of predicates (Fear) and subjects (Watchers) in a narrative chain fits the VSO syntax where the verb can precede the plural subject in the singular.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 1:5",
+          "note": "The reaction of the Watchers to the theophany."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "And they shall fear, and the Watchers shall quake..."
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "low",
+      "reasoning": "Clustering obscures the distinct clauses usually separated by 'wa-' (and).",
+      "parallels": [],
+      "context_invariance": "low",
+      "back_translation": "[Cluster of fear and Watchers]"
+    }
+  ],
+  "decision_log": "Standard VSO narrative chain.",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T-Seg05-Chain",
+    "confidence": "high"
+  }
+}

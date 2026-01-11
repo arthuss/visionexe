@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "moderate",
+      "reasoning": "Correctly parses the dialogue response. Input text shows 'ምር' instead of 'ምክር' (counsel/plan) and 'ይናቲነ' for 'በበይናቲነ' (among ourselves). The structure identifying the oath and mutual imprecation is semantically sound.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 6:4 (Ethiopic)",
+          "note": "Standard: '...መሐላ፡ ንምሐል፡ ኵልነ፡ ወንትዋገዝ፡ በበይናቲነ...'"
+        }
+      ],
+      "context_invariance": "variant_text",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "S1 correctly maps the coordination of the oath-taking and the resolve to execute the plan, despite text noise.",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}

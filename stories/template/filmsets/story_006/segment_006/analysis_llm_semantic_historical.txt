@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "high",
+      "reasoning": "The parse effectively separates the initial garbage/fragments from the main narrative clause starting at 'ወወረዱ' (and they descended). It correctly identifies the etiological explanation for Mount Hermon ('ርሞን'/'አርሞን').",
+      "parallels": [
+        {
+          "ref": "1 Enoch 6:6 (Ethiopic)",
+          "note": "Standard: 'ወወረዱ፡ ውስተ፡ አርዲሰ፡ ዝውእቱ፡ ድማሁ፡ ለደብረ፡ አርሞን...'"
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "S1 is the only viable option and correctly handles the noise vs. signal distinction.",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T1",
+    "confidence": "high"
+  }
+}

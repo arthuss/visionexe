@@ -1,0 +1,23 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Discourse Unit",
+        "bracket_notation": "[Meta [N t1] [NUM t2] [N t3] [NUM t4]] [S [VP t5 [S [VP t6 [S [VP t7 [NP t8]]]]]] [S [VP t9 [NP t10]] [PUNCT t11]]]",
+        "dependencies": [
+          "t3->t1 (meta_relation)",
+          "t1->t2 (nummod)",
+          "t3->t4 (nummod)",
+          "t5->t6 (complement_speech)",
+          "t6->t7 (complement_clause)",
+          "t7->t8 (object)",
+          "t5->t9 (coordination_contrast)",
+          "t9->t10 (object)",
+          "t10->t11 (punct)"
+        ],
+        "notes": "Complex speech structure: t5 introduces speech, t6-t10 is the content."
+      }
+    ]
+  }
+}

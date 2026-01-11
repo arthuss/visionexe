@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "medium",
+      "reasoning": "The text identifies with 1 Enoch 4:1 ('Observe the days of summer...'). While the syntactic structure 'S1' is a fragmented fallback, the lexical content is semantically coherent, describing the sun's position and the resulting heat. The input text contains a corruption or lacuna ('ወኢ—ሐ'), likely corresponding to 'ወኢለኰሐ' (nor on the rock) or 'ወኢበኰሐ' in standard recensions.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 4:1 (Ethiopic)",
+          "note": "Matches standard recensions regarding the 'days of summer' (መዋዕለ፡ሐጋይ) and 'heat of the sun' (ዋዕየ፡ፀሐይ)."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "And again observe the days of summer, how the sun is above it opposite it. And you seek shelter and shade from the heat of the sun. And the earth burns with scorching heat, and you are not able to tread upon the earth nor [upon the rock] because of its heat."
+    }
+  ],
+  "decision_log": "Hypothesis S1 is accepted as the sole provider of the text stream despite the lack of deep syntactic dependency analysis. The semantic domain is clearly meteorological (summer/heat).",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}

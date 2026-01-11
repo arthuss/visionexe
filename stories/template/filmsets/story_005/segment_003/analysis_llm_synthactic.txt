@@ -1,0 +1,21 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Imperative Clause",
+        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [VP t5 [Obj t6 [Mod t7]]]]]",
+        "dependencies": [
+          "t5->t1 (meta)",
+          "t5->t2 (meta)",
+          "t5->t3 (meta)",
+          "t5->t4 (meta)",
+          "root->t5 (root)",
+          "t5->t6 (object)",
+          "t6->t7 (modifier)"
+        ],
+        "notes": "Imperative structure 'See...'"
+      }
+    ]
+  }
+}

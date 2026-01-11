@@ -1,0 +1,607 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:15:51Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_006/segment_007",
+    "graphematic_string": "Chapter 6 Segment 7\n\nአርሞን ,    .       ,   []\nወዝንቱ፡ስማቲሆሙ፡\nለመላእቲሆሙ፡\nሴሚያዛ፨ዘንቱ፡ውእቱ፡\nመልሙ፨ኡራራሜኤል፨\nኤል፨ጣሜኤል፨ራሙኤል\n፨ዳንኤል፨ኤዜቄኤል፨ራቁያ\nል፨ሳኤል፨ርሜሮስ፨ጠር\nኤል፨ናንኤል፨ዘቄሌ፨ስምሳ\nፒቤኤል፨ሰትርኤል፨ጡርኤል\n፨ዮምያል፨ራዝያል፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Chapter",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "foreign_meta",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "6",
+      "span": {
+        "start": 8,
+        "end": 9
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "6",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_numeric",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 10,
+        "end": 17
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Segment",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "foreign_meta",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "7",
+      "span": {
+        "start": 18,
+        "end": 19
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "7",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_numeric",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "አርሞን",
+      "span": {
+        "start": 21,
+        "end": 25
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PN",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "አርሞን",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_name",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": ",",
+      "span": {
+        "start": 26,
+        "end": 27
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": ",",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "punctuation",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": ".",
+      "span": {
+        "start": 31,
+        "end": 32
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": ".",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "punctuation",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": ",",
+      "span": {
+        "start": 39,
+        "end": 40
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": ",",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "punctuation",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "[]",
+      "span": {
+        "start": 43,
+        "end": 45
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "[]",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "punctuation",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "ወዝንቱ፡ስማቲሆሙ፡",
+      "span": {
+        "start": 46,
+        "end": 57
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ወዝንቱ፡ስማቲሆሙ፡",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_phrase",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t11",
+      "surface": "ለመላእቲሆሙ፡",
+      "span": {
+        "start": 58,
+        "end": 66
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ለመላእቲሆሙ፡",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_phrase",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t12",
+      "surface": "ሴሚያዛ፨ዘንቱ፡ውእቱ፡",
+      "span": {
+        "start": 67,
+        "end": 80
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ሴሚያዛ፨ዘንቱ፡ውእቱ፡",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_phrase",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t13",
+      "surface": "መልሙ፨ኡራራሜኤል፨",
+      "span": {
+        "start": 81,
+        "end": 92
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "መልሙ፨ኡራራሜኤል፨",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_phrase",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t14",
+      "surface": "ኤል፨ጣሜኤል፨ራሙኤል",
+      "span": {
+        "start": 93,
+        "end": 105
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ኤል፨ጣሜኤል፨ራሙኤል",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_phrase",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t15",
+      "surface": "፨ዳንኤል፨ኤዜቄኤል፨ራቁያ",
+      "span": {
+        "start": 106,
+        "end": 121
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "፨ዳንኤል፨ኤዜቄኤል፨ራቁያ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_phrase",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t16",
+      "surface": "ል፨ሳኤል፨ርሜሮስ፨ጠር",
+      "span": {
+        "start": 122,
+        "end": 135
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ል፨ሳኤል፨ርሜሮስ፨ጠር",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_phrase",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t17",
+      "surface": "ኤል፨ናንኤል፨ዘቄሌ፨ስምሳ",
+      "span": {
+        "start": 136,
+        "end": 151
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ኤል፨ናንኤል፨ዘቄሌ፨ስምሳ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_phrase",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t18",
+      "surface": "ፒቤኤል፨ሰትርኤል፨ጡርኤል",
+      "span": {
+        "start": 152,
+        "end": 167
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ፒቤኤል፨ሰትርኤል፨ጡርኤል",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_phrase",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t19",
+      "surface": "፨ዮምያል፨ራዝያል፨",
+      "span": {
+        "start": 168,
+        "end": 179
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "፨ዮምያል፨ራዝያል፨",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "unattested_compound_phrase",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

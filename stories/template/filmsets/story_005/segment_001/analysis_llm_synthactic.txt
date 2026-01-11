@@ -1,0 +1,24 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Compound Clause Sequence",
+        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [Clause t5] [Clause t6] [Clause t7] [Clause t8 [Obj t9 [Mod t10]]]]]",
+        "dependencies": [
+          "t5->t1 (meta)",
+          "t5->t2 (meta)",
+          "t5->t3 (meta)",
+          "t5->t4 (meta)",
+          "root->t5 (root)",
+          "t5->t6 (coordination)",
+          "t6->t7 (coordination)",
+          "t7->t8 (coordination)",
+          "t8->t9 (object)",
+          "t9->t10 (modifier)"
+        ],
+        "notes": "Token granularity is at phrase/clause level due to input compounding."
+      }
+    ]
+  }
+}

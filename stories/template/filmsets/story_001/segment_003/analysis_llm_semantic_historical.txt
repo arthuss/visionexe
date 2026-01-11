@@ -1,0 +1,31 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "P1",
+      "plausibility": "high",
+      "reasoning": "Corresponds to the continuation of 1 Enoch 1:2/1:3. 'Wa-samāʿku' (And I heard) is a VSO narrative past (Perfect 1cs). P1 captures the sequential flow of the visionary experience. P2's Topic Construction would likely require 'Wa-ana-ssa samāʿku', which is not present.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 1:2",
+          "note": "Enoch describing the auditory component of his vision."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "And I heard from them..."
+    },
+    {
+      "hypothesis_ref": "P2",
+      "plausibility": "low",
+      "reasoning": "Unmarked topic constructions are rare for simple narrative progression in this genre.",
+      "parallels": [],
+      "context_invariance": "low",
+      "back_translation": "As for me, I heard..."
+    }
+  ],
+  "decision_log": "Simple sequential narrative favored.",
+  "final_decision": {
+    "hypothesis_ref": "P1",
+    "translation_id": "T-Seg03-VSO",
+    "confidence": "high"
+  }
+}

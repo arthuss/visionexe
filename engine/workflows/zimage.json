@@ -181,5 +181,64 @@
     "_meta": {
       "title": "ModelSamplingAuraFlow"
     }
+  },
+  "61": {
+    "inputs": {
+      "model": "microsoft/Florence-2-base",
+      "precision": "fp16",
+      "attention": "sdpa",
+      "convert_to_safetensors": false
+    },
+    "class_type": "DownloadAndLoadFlorence2Model",
+    "_meta": {
+      "title": "DownloadAndLoadFlorence2Model"
+    }
+  },
+  "62": {
+    "inputs": {
+      "text_input": "",
+      "task": "more_detailed_caption",
+      "fill_mask": true,
+      "keep_model_loaded": false,
+      "max_new_tokens": 1024,
+      "num_beams": 3,
+      "do_sample": true,
+      "output_mask_select": "",
+      "seed": 302985506319088,
+      "image": [
+        "56",
+        0
+      ],
+      "florence2_model": [
+        "61",
+        0
+      ]
+    },
+    "class_type": "Florence2Run",
+    "_meta": {
+      "title": "Florence2Run"
+    }
+  },
+  "63": {
+    "inputs": {
+      "path": "/root/ComfyUI_Py314/output",
+      "filename_prefix": [
+        "41",
+        0
+      ],
+      "filename_delimiter": "",
+      "filename_number_padding": 4,
+      "file_extension": ".txt",
+      "encoding": "utf-8",
+      "filename_suffix": "",
+      "text": [
+        "62",
+        2
+      ]
+    },
+    "class_type": "Save Text File",
+    "_meta": {
+      "title": "Save Text File"
+    }
   }
 }

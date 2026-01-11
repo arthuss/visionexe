@@ -1,0 +1,1341 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:04:52Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_001/segment_001",
+    "graphematic_string": "Chapter 1 Segment 1\n\nቃለ፡ረት፡ዘሄኖ።\nመትጽሐፉ፡ሄኖ፡ ነቢይ። -\nቃለ ፡ ረት ፡ ዘሄኖ\n— -——— ።። ።።——— - —\nመ ፡ ረ ፡ ኅሩያነ ፡ ወጻድቃነ\n፨ እለ ፡ ሀለው ፡ ይኩኑ ፡ ዕለተ\n፡ መንዳቢ ፨ ለሰስሎ ፡ ሎ ፡\nእኩያን ፡ ወረሲዓን ፨፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "chapter",
+            "lemma": "Chapter",
+            "pattern": "english"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "1",
+      "span": {
+        "start": 8,
+        "end": 9
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "1",
+            "lemma": "1",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 10,
+        "end": 17
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "segment",
+            "lemma": "Segment",
+            "pattern": "english"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "1",
+      "span": {
+        "start": 18,
+        "end": 19
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "1",
+            "lemma": "1",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ቃለ፡ረት፡ዘሄኖ።",
+      "span": {
+        "start": 21,
+        "end": 31
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Q-L",
+            "lemma": "Qala",
+            "pattern": "noun_phrase"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.6
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "መትጽሐፉ፡ሄኖ፡",
+      "span": {
+        "start": 32,
+        "end": 41
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Ts-H-F",
+            "lemma": "Matshaf",
+            "pattern": "noun_phrase"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.6
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ነቢይ።",
+      "span": {
+        "start": 42,
+        "end": 46
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "N-B-Y",
+            "lemma": "Nabiy",
+            "pattern": "fa'il"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.9
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "-",
+      "span": {
+        "start": 47,
+        "end": 48
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "-",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "evidence_minimum"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ቃለ",
+      "span": {
+        "start": 49,
+        "end": 51
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Q-L",
+            "lemma": "Qal",
+            "pattern": "noun"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.9
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "፡",
+      "span": {
+        "start": 52,
+        "end": 53
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "፡",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.5
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t11",
+      "surface": "ረት",
+      "span": {
+        "start": 54,
+        "end": 56
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "R-T",
+            "lemma": "Rat",
+            "pattern": "fragment"
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "evidence_minimum"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t12",
+      "surface": "፡",
+      "span": {
+        "start": 57,
+        "end": 58
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "፡",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.5
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t13",
+      "surface": "ዘሄኖ",
+      "span": {
+        "start": 59,
+        "end": 62
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PN",
+          "analysis": {
+            "kind": "lexical",
+            "root": "H-N",
+            "lemma": "Heno",
+            "pattern": "proper_noun"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t14",
+      "surface": "—",
+      "span": {
+        "start": 63,
+        "end": 64
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "—",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "evidence_minimum"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t15",
+      "surface": "-———",
+      "span": {
+        "start": 65,
+        "end": 69
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "-———",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "evidence_minimum"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t16",
+      "surface": "።።",
+      "span": {
+        "start": 70,
+        "end": 72
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "።።",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.5
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t17",
+      "surface": "።።———",
+      "span": {
+        "start": 73,
+        "end": 78
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "።።———",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "evidence_minimum"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t18",
+      "surface": "-",
+      "span": {
+        "start": 79,
+        "end": 80
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "-",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "evidence_minimum"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t19",
+      "surface": "—",
+      "span": {
+        "start": 81,
+        "end": 82
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "—",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "evidence_minimum"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t20",
+      "surface": "መ",
+      "span": {
+        "start": 83,
+        "end": 84
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "M",
+            "lemma": "Ma",
+            "pattern": "fragment"
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "evidence_minimum"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t21",
+      "surface": "፡",
+      "span": {
+        "start": 85,
+        "end": 86
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "፡",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.5
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t22",
+      "surface": "ረ",
+      "span": {
+        "start": 87,
+        "end": 88
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "R",
+            "lemma": "Ra",
+            "pattern": "fragment"
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "evidence_minimum"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t23",
+      "surface": "፡",
+      "span": {
+        "start": 89,
+        "end": 90
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "፡",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.5
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t24",
+      "surface": "ኅሩያነ",
+      "span": {
+        "start": 91,
+        "end": 95
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Ḫ-R-Y",
+            "lemma": "Hiruyan",
+            "pattern": "plural_adj"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.9
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t25",
+      "surface": "፡",
+      "span": {
+        "start": 96,
+        "end": 97
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "፡",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.5
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t26",
+      "surface": "ወጻድቃነ",
+      "span": {
+        "start": 98,
+        "end": 103
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Ts-D-Q",
+            "lemma": "Tsadiqan",
+            "pattern": "plural_adj"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.9
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t27",
+      "surface": "፨",
+      "span": {
+        "start": 104,
+        "end": 105
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "፨",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.5
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t28",
+      "surface": "እለ",
+      "span": {
+        "start": 106,
+        "end": 108
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PRO.REL",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "Illa",
+            "pattern": "function_word"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t29",
+      "surface": "፡",
+      "span": {
+        "start": 109,
+        "end": 110
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "፡",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.5
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t30",
+      "surface": "ሀለው",
+      "span": {
+        "start": 111,
+        "end": 114
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "H-L-W",
+            "lemma": "Hallawa",
+            "pattern": "verb_perfect"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.9
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t31",
+      "surface": "፡",
+      "span": {
+        "start": 115,
+        "end": 116
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "፡",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.5
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t32",
+      "surface": "ይኩኑ",
+      "span": {
+        "start": 117,
+        "end": 120
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "K-W-N",
+            "lemma": "Kona",
+            "pattern": "verb_imperfect"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.9
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t33",
+      "surface": "፡",
+      "span": {
+        "start": 121,
+        "end": 122
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "፡",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.5
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t34",
+      "surface": "ዕለተ",
+      "span": {
+        "start": 123,
+        "end": 126
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ʿ-L-T",
+            "lemma": "Elet",
+            "pattern": "noun"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.9
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t35",
+      "surface": "፡",
+      "span": {
+        "start": 127,
+        "end": 128
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "፡",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.5
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t36",
+      "surface": "መንዳቢ",
+      "span": {
+        "start": 129,
+        "end": 133
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "D-B-Y",
+            "lemma": "Mandabe",
+            "pattern": "noun"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t37",
+      "surface": "፨",
+      "span": {
+        "start": 134,
+        "end": 135
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "፨",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.5
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t38",
+      "surface": "ለሰስሎ",
+      "span": {
+        "start": 136,
+        "end": 140
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "S-L-Y",
+            "lemma": "Saslo",
+            "pattern": "verbal_noun"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t39",
+      "surface": "፡",
+      "span": {
+        "start": 141,
+        "end": 142
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "፡",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.5
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t40",
+      "surface": "ሎ",
+      "span": {
+        "start": 143,
+        "end": 144
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": "L",
+            "lemma": "La",
+            "pattern": "preposition_suffix"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t41",
+      "surface": "፡",
+      "span": {
+        "start": 145,
+        "end": 146
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "፡",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.5
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t42",
+      "surface": "እኩያን",
+      "span": {
+        "start": 147,
+        "end": 151
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": "A-K-Y",
+            "lemma": "Ekuyan",
+            "pattern": "plural_adj"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.9
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t43",
+      "surface": "፡",
+      "span": {
+        "start": 152,
+        "end": 153
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "፡",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.5
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t44",
+      "surface": "ወረሲዓን",
+      "span": {
+        "start": 154,
+        "end": 159
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": "R-S-ʿ",
+            "lemma": "Rasi'an",
+            "pattern": "plural_adj"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.9
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t45",
+      "surface": "፨፨",
+      "span": {
+        "start": 160,
+        "end": 162
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "punct",
+            "lemma": "፨፨",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.5
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}
