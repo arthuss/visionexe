@@ -1,0 +1,19 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Compound Sentence",
+        "bracket_notation": "[S [VP t5] [S [AdjP t6] [AdjP t7]] [S [NP t7] [NP t8] [PP t9]] [S [NP t9] [VP t9]] [S [VP t10]]]",
+        "dependencies": [
+          "t5->t6 (description)",
+          "t6->t7 (coordination)",
+          "t7->t8 (coordination)",
+          "t8->t9 (locative)",
+          "t9->t10 (result)"
+        ],
+        "notes": "Entry, sensation (hot/cold), and emotional reaction."
+      }
+    ]
+  }
+}

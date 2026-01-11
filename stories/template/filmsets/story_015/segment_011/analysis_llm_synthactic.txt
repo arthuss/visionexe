@@ -1,0 +1,21 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S11_P1",
+        "structure_type": "Relative Clause Chain",
+        "bracket_notation": "[S [N t5] [PRO.REL t6] [V t7] [V t9] [V t10] [PRO.REL t11] [V t13] [V t14]]",
+        "dependencies": [
+          "t5 -> t6 (modifier)",
+          "t6 -> t7 (relative_verb)",
+          "t6 -> t9 (relative_verb_2)",
+          "t6 -> t10 (relative_verb_3)",
+          "t10 -> t11 (object/scope)",
+          "t11 -> t13 (relative_verb_4)",
+          "t11 -> t14 (relative_verb_5)"
+        ],
+        "notes": "Long description of the activities of the spirits (t5) via relative clauses."
+      }
+    ]
+  }
+}

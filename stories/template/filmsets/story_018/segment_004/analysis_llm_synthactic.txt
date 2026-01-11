@@ -1,0 +1,19 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Complex Sentence",
+        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [VP t5 [NP [NP t5] [SBAR [Rel t5] [S [VP t6 [NP t6] [SBAR [Rel t6] [S [VP t7 [NP t7 [Coord t7 t8]]]]]]]]]]]]",
+        "dependencies": [
+          "t1->t2 (numeral_mod)",
+          "t3->t4 (numeral_mod)",
+          "t5->t6 (relative_clause)",
+          "t6->t7 (relative_clause)",
+          "t7->t8 (coord_obj)"
+        ],
+        "notes": "Nested relative clauses."
+      }
+    ]
+  }
+}

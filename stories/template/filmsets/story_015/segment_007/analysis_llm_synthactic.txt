@@ -1,0 +1,17 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S7_P1",
+        "structure_type": "Verbal Clause with Causal Subordinate",
+        "bracket_notation": "[S [ADV t5] [N t6] [S_sub [N t6] [PREP t7]]]",
+        "dependencies": [
+          "t5 -> t6 (object)",
+          "t5 -> t7 (causal_adjunct)",
+          "t7 -> t6 (subject_of_locative)"
+        ],
+        "notes": "t5 'I did not appoint' is main. t6 'wives'. t7 explains why ('because... in heaven')."
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Verbal Clause Chain",
+        "bracket_notation": "[S [V t5] [S_Nom_Coord [Subj t5] [Pred t6]] [S_Nom_Coord [Subj t6] [Pred t7]] [S_Verbal [Subj t7] [V t8] [Obj t8]] [S_Existential [Neg t8] [Rel t9]]]",
+        "dependencies": [
+          "t5->ROOT",
+          "t6->t5 (coordination_nominal)",
+          "t7->t6 (coordination_nominal)",
+          "t8->t7 (coordination_verbal)",
+          "t9->t8 (relative_clause_negated_existential)"
+        ],
+        "notes": "t5 'Thou made all'. t6 'Power is with you'. t7 'All is naked/open before you'. t8 'You see all'. t8-t9 'There is nothing that can hide'."
+      }
+    ]
+  }
+}

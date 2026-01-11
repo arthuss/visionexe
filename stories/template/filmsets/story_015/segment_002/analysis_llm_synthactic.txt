@@ -1,0 +1,19 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S2_P1",
+        "structure_type": "Imperative Clause with Relative Clause",
+        "bracket_notation": "[S [V t5] [NP [PRO.REL t6] [PREP t7] [N t8] [N t9] [PRO.PERS t10]]]",
+        "dependencies": [
+          "t5 -> t6 (modifier/relative)",
+          "t6 -> t7 (complement)",
+          "t8 -> t7 (subject/topic)",
+          "t8 -> t9 (object)",
+          "t9 -> t10 (possessor/modifier)"
+        ],
+        "notes": "t5 is the main imperative 'Go'. t6 introduces the relative clause describing the target."
+      }
+    ]
+  }
+}

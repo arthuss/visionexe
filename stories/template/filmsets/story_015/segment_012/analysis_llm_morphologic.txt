@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:40:19Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_015/segment_012",
+    "graphematic_string": "Chapter 15 Segment 12\n\nወኢይትነሥኡ፡እሎንቱ፡ነፍሳት፡\nዲ፡ውሉደ፡ሰብእ፡ወዲ፡\nንስት፡እስመ፡ወፅኡ፡መ፡\nመዋዕለ፡ቀትል፡ወሙስና፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Chapter",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "15",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "15",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Segment",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "12",
+      "span": {
+        "start": 19,
+        "end": 21
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "12",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወኢይትነሥኡ፡እሎንቱ፡ነፍሳት፡",
+      "span": {
+        "start": 23,
+        "end": 41
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "n-ś-ʾ",
+            "lemma": "naśʾa",
+            "pattern": "CaCCa"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.95
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ዲ፡ውሉደ፡ሰብእ፡ወዲ፡",
+      "span": {
+        "start": 42,
+        "end": 55
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "diba",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ንስት፡እስመ፡ወፅኡ፡መ፡",
+      "span": {
+        "start": 56,
+        "end": 70
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ʾ-n-s",
+            "lemma": "ʾanǝst",
+            "pattern": "ʾaCCǝC"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.95
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "መዋዕለ፡ቀትል፡ወሙስና፨",
+      "span": {
+        "start": 71,
+        "end": 85
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "w-ʿ-l",
+            "lemma": "mawāʿǝl",
+            "pattern": "maCāCǝC"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.95
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

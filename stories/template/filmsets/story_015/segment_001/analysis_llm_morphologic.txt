@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:40:19Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_015/segment_001",
+    "graphematic_string": "Chapter 15 Segment 1\n\nወውሥኒ፡ወይቤለኒ፡ቃሉ፡\nስማዕኩ፡ኢትፍራህ፡ሄኖ፡\nብእሲ፡ጻድቅ፡ወጸሓፌ፡\nጽድቅ፨ቅረብ፡ዝየ፡ወስማዕ፡\nቃልየ፡",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Chapter",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "15",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "15",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Segment",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "1",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "1",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወውሥኒ፡ወይቤለኒ፡ቃሉ፡",
+      "span": {
+        "start": 22,
+        "end": 36
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "w-ś-ʾ",
+            "lemma": "ʾawśʾa",
+            "pattern": "CaCCa"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.95
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ስማዕኩ፡ኢትፍራህ፡ሄኖ፡",
+      "span": {
+        "start": 37,
+        "end": 51
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "s-m-ʿ",
+            "lemma": "samʿa",
+            "pattern": "CaCCa"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.95
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ብእሲ፡ጻድቅ፡ወጸሓፌ፡",
+      "span": {
+        "start": 52,
+        "end": 65
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "b-ʾ-s",
+            "lemma": "bǝʾsi",
+            "pattern": "CaCCi"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.95
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ጽድቅ፨ቅረብ፡ዝየ፡ወስማዕ፡",
+      "span": {
+        "start": 66,
+        "end": 82
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ṣ-d-q",
+            "lemma": "ṣǝdq",
+            "pattern": "CǝCC"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.95
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ቃልየ፡",
+      "span": {
+        "start": 83,
+        "end": 87
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "q-l",
+            "lemma": "qāl",
+            "pattern": "CāC"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.95
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

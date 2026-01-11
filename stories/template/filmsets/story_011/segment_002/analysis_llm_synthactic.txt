@@ -1,0 +1,17 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Verbal Sentence",
+        "bracket_notation": "[ROOT [Label t1 t2 t3 t4] [S [NP t5] [VP t6 [PP t7 [NP t8]]]]]",
+        "dependencies": [
+          "t6->t5 (subject)",
+          "t6->t7 (temporal_modifier)",
+          "t7->t8 (genitive)"
+        ],
+        "notes": "t6 (verb) is the root; t5 acts as the compound subject/complement phrase; t7 provides temporal context, modified by the genitive t8."
+      }
+    ]
+  }
+}

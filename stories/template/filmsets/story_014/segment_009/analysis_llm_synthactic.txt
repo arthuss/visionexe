@@ -1,0 +1,19 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Descriptive Narrative",
+        "bracket_notation": "[S [VP t5] [NP t6] [VP t6] [PP t6] [NP [NP t7] [PART t8] [NP t9] [NP t10]] [S [NP t11]]]",
+        "dependencies": [
+          "t5->t6 (coordination/sequence)",
+          "t6->t7 (apposition/modifier)",
+          "t7->t9 (description)",
+          "t9->t10 (genitive)",
+          "t9->t11 (coordination)"
+        ],
+        "notes": "Entry and description of the wall materials."
+      }
+    ]
+  }
+}

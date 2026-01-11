@@ -1,0 +1,16 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Nominal Sentence",
+        "bracket_notation": "[S [NP [NP t5] [RelCl t5]] [NP t6] [VP t6] [NP t7]]",
+        "dependencies": [
+          "t5->t6 (coordination)",
+          "t6->t7 (object/complement)"
+        ],
+        "notes": "Description of the burning fire."
+      }
+    ]
+  }
+}

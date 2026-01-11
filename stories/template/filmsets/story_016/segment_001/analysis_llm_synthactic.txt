@@ -1,0 +1,23 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1_P1",
+        "structure_type": "Discourse Segment",
+        "bracket_notation": "[META [N t1] [NUM t2]] [META [N t3] [NUM t4]] [S [NP t5] [VP [VP t6] [SBAR [S t7] [ADV t8]]] [PP [P t9] [NP t10]] [PP [P t11] [VP t12]]]",
+        "dependencies": [
+          "t1->t2 (nummod)",
+          "t3->t4 (nummod)",
+          "t6->t5 (nsubj)",
+          "t6->t7 (ccomp)",
+          "t7->t8 (advcl)",
+          "t7->t9 (obl:tmod)",
+          "t9->t10 (acl:relcl)",
+          "t10->t11 (obl:agent)",
+          "t12->t11 (parataxis)"
+        ],
+        "notes": "Tokens are multi-word phrases. Dependency relations approximate the semantic connection between chunks."
+      }
+    ]
+  }
+}

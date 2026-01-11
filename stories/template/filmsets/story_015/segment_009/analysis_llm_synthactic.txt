@@ -1,0 +1,23 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S9_P1",
+        "structure_type": "Complex Narrative Chain",
+        "bracket_notation": "[S [N t5] [V t7] [PREP t8] [CONJ.SUB t10] [PREP t11] [PREP t12] [V t14] [N t15] [N t16] [N t17] [V t18]]",
+        "dependencies": [
+          "t7 -> t5 (subject)",
+          "t7 -> t8 (source)",
+          "t7 -> t10 (cause)",
+          "t10 -> t11 (subordinate_clause)",
+          "t11 -> t12 (source)",
+          "t14 -> t15 (subject)",
+          "t16 -> t14 (predicate/complement)",
+          "t18 -> t17 (subject)",
+          "t18 -> t16 (coordination)"
+        ],
+        "notes": "Describes the origin (t7-t12) and future nature (t14-t18) of the evil spirits."
+      }
+    ]
+  }
+}

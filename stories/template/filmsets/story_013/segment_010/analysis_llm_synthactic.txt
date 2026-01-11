@@ -1,0 +1,21 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Transitive Verbal Sentence",
+        "bracket_notation": "[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [VP [V t5] [NP [N t6] [N t7] [DET t8]] [PP [N t9]]]]]",
+        "dependencies": [
+          "t2->t1 (nummod)",
+          "t4->t3 (nummod)",
+          "t5->root",
+          "t6->t5 (obj)",
+          "t7->t6 (nmod)",
+          "t8->t6 (det)",
+          "t9->t5 (iobj)"
+        ],
+        "notes": "t5 (spoke) is head; t6 (visions) is object; t9 (watchers) is recipient/target."
+      }
+    ]
+  }
+}

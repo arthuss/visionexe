@@ -1,0 +1,19 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S5_P1",
+        "structure_type": "Causal/Result Clause",
+        "bracket_notation": "[S [ADV t5] [N t6] [PREP t7] [PREP t8] [V t9] [PREP t10]]",
+        "dependencies": [
+          "t5 -> t6 (object/theme)",
+          "t6 -> t7 (modifier/purpose)",
+          "t9 -> t5 (reason/cause)",
+          "t9 -> t8 (adjunct)",
+          "t9 -> t10 (location)"
+        ],
+        "notes": "t5 'Therefore/Because of this' links to previous context. t9 is the main result verb."
+      }
+    ]
+  }
+}

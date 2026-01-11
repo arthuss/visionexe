@@ -1,0 +1,22 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S4_P1",
+        "structure_type": "Complex Imperative with Relative Chain",
+        "bracket_notation": "[S [V t5] [S [V t6] [SBAR [V t7] [AP t8] [S [V t9] [SBAR [V t10]] [S [V t11] [NP t12]]]]]]",
+        "dependencies": [
+          "t5 (ROOT)",
+          "t5->t6 (purposive complement)",
+          "t6->t7 (relative clause on implicit object)",
+          "t7->t8 (adjectival modifier)",
+          "t7->t9 (coordinate relative)",
+          "t9->t10 (comparative clause)",
+          "t9->t11 (coordinate relative)",
+          "t11->t12 (direct object)"
+        ],
+        "notes": "High complexity due to embedded clauses in chunks."
+      }
+    ]
+  }
+}

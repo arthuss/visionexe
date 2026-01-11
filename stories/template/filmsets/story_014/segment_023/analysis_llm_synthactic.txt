@@ -1,0 +1,18 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Narrative Sequence",
+        "bracket_notation": "[S [NP t5] [PP t6] [VP t7] [S [VP t8] [NP t8] [VP t9]]]",
+        "dependencies": [
+          "t5->t6 (location)",
+          "t5->t7 (circumstantial)",
+          "t7->t8 (main clause)",
+          "t8->t9 (vocative/content)"
+        ],
+        "notes": "Enoch's state and the divine call."
+      }
+    ]
+  }
+}

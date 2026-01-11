@@ -1,0 +1,23 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Verbal Clause",
+        "bracket_notation": "[S [V t5] [Obj_Speech [S_Nom [Pred t6] [Subj_Expl t6]] [Coord t7] [Coord t8] [Coord t9 [Mod t10 [Mod t11]]] [S_Nom_Coord [Subj t11] [Mod t12 [Mod t13]] [Pred t13]]]]",
+        "dependencies": [
+          "t5->ROOT",
+          "t6->t5 (object_speech_start)",
+          "t7->t6 (appositive_coordination)",
+          "t8->t7 (appositive_coordination)",
+          "t9->t8 (appositive_coordination)",
+          "t10->t9 (modifier_prep)",
+          "t11->t10 (complement)",
+          "t12->t11 (modifier_prep)",
+          "t13->t12 (complement)"
+        ],
+        "notes": "Complex direct speech. t5 'They said'. t6-t9 'Lord of Kings, God of Gods...' series of nominal predicates/vocatives. t10-t13 continues description of 'Throne of Glory' and 'Holy Name'."
+      }
+    ]
+  }
+}

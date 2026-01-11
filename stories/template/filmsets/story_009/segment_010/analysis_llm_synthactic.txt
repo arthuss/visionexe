@@ -1,0 +1,20 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Verbal Clause Chain",
+        "bracket_notation": "[S [V t5] [Rel t6] [V_Coord t6] [Loc t7] [V_Coord t7] [Subj t8] [V_Coord t8] [Mod t9 [Rel t10]]]",
+        "dependencies": [
+          "t5->ROOT",
+          "t6->t5 (relative_subject_mod)",
+          "t7->t6 (location_goal)",
+          "t8->t7 (coordination_subject_new_verb)",
+          "t9->t8 (adjunct_source)",
+          "t10->t9 (relative_modifier)"
+        ],
+        "notes": "t5 'Souls cry'. t6 'Who died and appeal'. t7 'To gate of heaven and ascended'. t8 'Their groan, and cannot cease'. t9 'From before lawlessness'. t10 'Wrought on earth'."
+      }
+    ]
+  }
+}

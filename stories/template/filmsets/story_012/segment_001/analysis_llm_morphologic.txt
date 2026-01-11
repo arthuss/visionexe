@@ -1,0 +1,281 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:29:50Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_012/segment_001",
+    "graphematic_string": "Chapter 12 Segment 1\n\nወእምቅድመ፡ሉ፡ነገር፡\nተብተ፡ሄኖ፡ወልቦ፡\nዘየምሮ፡እምውሉደ፡ሰብእ፡\nኀ፡ተብተ፡ወኅ፡ሀሎ፡\nወምንተ፡ነ፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "chapter",
+            "lemma": "Chapter",
+            "pattern": "N"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "English Metadata",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "12",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "12",
+            "lemma": "12",
+            "pattern": "NUM"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "Numeric",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "segment",
+            "lemma": "Segment",
+            "pattern": "N"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "English Metadata",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "1",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "1",
+            "lemma": "1",
+            "pattern": "NUM"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "Numeric",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወእምቅድመ፡ሉ፡ነገር፡",
+      "span": {
+        "start": 22,
+        "end": 35
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": "QDM",
+            "lemma": "ቅድመ",
+            "pattern": "em-qidma"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "phrase_head",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ተብተ፡ሄኖ፡ወልቦ፡",
+      "span": {
+        "start": 36,
+        "end": 47
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "HB'",
+            "lemma": "ተኀብአ",
+            "pattern": "ta-hab'a"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.6
+          },
+          "evidence": {
+            "lexicon_status": "inferred",
+            "attestation": "phrase_head",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ዘየምሮ፡እምውሉደ፡ሰብእ፡",
+      "span": {
+        "start": 48,
+        "end": 63
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "AMR",
+            "lemma": "አእመረ",
+            "pattern": "ya-amro"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "phrase_head",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ኀ፡ተብተ፡ወኅ፡ሀሎ፡",
+      "span": {
+        "start": 64,
+        "end": 76
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "ADV",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ኀበ",
+            "pattern": "haba"
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.6
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "phrase_head",
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ወምንተ፡ነ፨",
+      "span": {
+        "start": 77,
+        "end": 84
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PRO.INT",
+          "analysis": {
+            "kind": "lexical",
+            "root": "MNT",
+            "lemma": "ምንት",
+            "pattern": "mint"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "phrase_head",
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

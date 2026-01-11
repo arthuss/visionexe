@@ -1,0 +1,19 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Compound Sentence",
+        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [S1 [VP t5 [NP t6 (part1)]]] [S2 [VP [t6 (part2)] [NP t7 [SBAR [Rel t7] [VP t7] [PP t7 [NP t8]]]]]]]]",
+        "dependencies": [
+          "t1->t2 (numeral_mod)",
+          "t3->t4 (numeral_mod)",
+          "t5->t6 (genitive_chain)",
+          "t6->t7 (obj_complement)",
+          "t7->t8 (coord_obj)"
+        ],
+        "notes": "t6 contains end of S1 and start of S2."
+      }
+    ]
+  }
+}

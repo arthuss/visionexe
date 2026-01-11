@@ -1,0 +1,17 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Compound Sentence",
+        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [S1 [NP t5] [VP t5] [NP t6]] [Conj w-t6] [S2 [NP t6] [Rel t7] [Adv t7] [VP t8]]]]",
+        "dependencies": [
+          "t5->t6 (object_complement)",
+          "t5->t7 (coordinate_clause)",
+          "t7->t8 (comparative_clause)"
+        ],
+        "notes": "t5 'I Enoch saw'; t6 'ends of all'; t7 'no man sees'; t8 'as I saw'."
+      }
+    ]
+  }
+}

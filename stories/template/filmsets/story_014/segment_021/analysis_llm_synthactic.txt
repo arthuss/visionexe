@@ -1,0 +1,20 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Descriptive Sequence",
+        "bracket_notation": "[S [NP t5] [S [NP t6] [VP t6] [PP t7]] [S [NP t8] [PP t8]] [S [NP t10] [PP t11]] [VP t12]]",
+        "dependencies": [
+          "t5->t6 (coordination)",
+          "t6->t7 (location)",
+          "t7->t8 (coordination)",
+          "t8->t10 (apposition/quantifier)",
+          "t10->t11 (location)",
+          "t11->t12 (predicate)"
+        ],
+        "notes": "Description of the fire around Him and the multitude."
+      }
+    ]
+  }
+}

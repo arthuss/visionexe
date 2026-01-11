@@ -1,0 +1,231 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:40:19Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_015/segment_007",
+    "graphematic_string": "Chapter 15 Segment 7\n\nእንተዝ፡ኢረሰይኩ፡ለሙ፡\nንስቲያ፡እስመ፡መንፈሳውያንሰ፡\nውስተ፡ሰማይ፡ማኅደሪሆሙ፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Chapter",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "15",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "15",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Segment",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "7",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "7",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "እንተዝ፡ኢረሰይኩ፡ለሙ፡",
+      "span": {
+        "start": 22,
+        "end": 36
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "ADV",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ʾǝntazu",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.85
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ንስቲያ፡እስመ፡መንፈሳውያንሰ፡",
+      "span": {
+        "start": 37,
+        "end": 55
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ʾ-n-s",
+            "lemma": "ʾanǝst",
+            "pattern": "ʾaCCǝC"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.95
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ውስተ፡ሰማይ፡ማኅደሪሆሙ፨",
+      "span": {
+        "start": 56,
+        "end": 71
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "wǝsta",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

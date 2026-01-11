@@ -1,0 +1,22 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S4_P1",
+        "structure_type": "Complex Nominal and Verbal Clause",
+        "bracket_notation": "[S [NP [PRO.PERS t10] [ADJ t11] [N t12]] [VP [V t13] [V t14] [V t15] [PRO.PERS t16] [PRO.REL t17] [V t18]]]",
+        "dependencies": [
+          "t13 -> t10 (subject)",
+          "t10 -> t11 (apposition)",
+          "t11 -> t12 (modifier)",
+          "t13 -> t14 (coordination)",
+          "t14 -> t15 (coordination)",
+          "t15 -> t16 (object/complement)",
+          "t16 -> t17 (relative_marker)",
+          "t17 -> t18 (relative_clause)"
+        ],
+        "notes": "Series of verbs t13-t15 describing the actions of the subject t10."
+      }
+    ]
+  }
+}

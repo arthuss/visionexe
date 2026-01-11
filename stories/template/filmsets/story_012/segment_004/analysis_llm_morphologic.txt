@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:29:50Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_012/segment_004",
+    "graphematic_string": "Chapter 12 Segment 4\n\nሄኖ፡ጸሓፌ፡ጽድቅ፡ሑር፡\nይድዕ፡ለትጉሃነ፡ሰማይ፡እለ፡\nኀደጉ፡ሰማየ፡ልዑለ፡ወምቅዋመ፡\nቅዱሰ፡ዘለዓለም፨ወምስለ፡\nንስት፡ማሰኑ፡ወገብሩ፡ዘመ፡\nይገብሩ፡ውሉደ፡ሰብእ፡ወነሥኡ፡\nሎሙ፡ንስተ፡ወማሰኑ፡ዐቢየ፡\nሙስና፡ዲ፡ምድር፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "chapter",
+            "lemma": "Chapter",
+            "pattern": "N"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "Meta",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "12",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "12",
+            "lemma": "12",
+            "pattern": "NUM"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "Meta",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "segment",
+            "lemma": "Segment",
+            "pattern": "N"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "Meta",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "4",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "4",
+            "lemma": "4",
+            "pattern": "NUM"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "Meta",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ሄኖ፡ጸሓፌ፡ጽድቅ፡ሑር፡",
+      "span": {
+        "start": 22,
+        "end": 36
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "HR",
+            "lemma": "ሖረ",
+            "pattern": "hur"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "imperative",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ይድዕ፡ለትጉሃነ፡ሰማይ፡እለ፡",
+      "span": {
+        "start": 37,
+        "end": 54
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "YD'",
+            "lemma": "አይድዐ",
+            "pattern": "ayde'"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "phrase_head",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ኀደጉ፡ሰማየ፡ልዑለ፡ወምቅዋመ፡",
+      "span": {
+        "start": 55,
+        "end": 73
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "HDG",
+            "lemma": "ኀደገ",
+            "pattern": "hadagu"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.9
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "phrase_head",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ቅዱሰ፡ዘለዓለም፨ወምስለ፡",
+      "span": {
+        "start": 74,
+        "end": 89
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": "QDS",
+            "lemma": "ቅዱስ",
+            "pattern": "qiddus"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "phrase_head",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ንስት፡ማሰኑ፡ወገብሩ፡ዘመ፡",
+      "span": {
+        "start": 90,
+        "end": 106
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "MSN",
+            "lemma": "ማሰነ",
+            "pattern": "masanu"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "phrase_component",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "ይገብሩ፡ውሉደ፡ሰብእ፡ወነሥኡ፡",
+      "span": {
+        "start": 107,
+        "end": 125
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "GBR",
+            "lemma": "ገብረ",
+            "pattern": "yigebru"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "phrase_head",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t11",
+      "surface": "ሎሙ፡ንስተ፡ወማሰኑ፡ዐቢየ፡",
+      "span": {
+        "start": 126,
+        "end": 142
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "MSN",
+            "lemma": "ማሰነ",
+            "pattern": "wa-masanu"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "phrase_component",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t12",
+      "surface": "ሙስና፡ዲ፡ምድር፨",
+      "span": {
+        "start": 143,
+        "end": 153
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "MSN",
+            "lemma": "ሙስና",
+            "pattern": "musina"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.9
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "phrase_head",
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

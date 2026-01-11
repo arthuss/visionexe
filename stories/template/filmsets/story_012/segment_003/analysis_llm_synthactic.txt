@@ -1,0 +1,19 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S3_P1",
+        "structure_type": "Coordinate Clauses",
+        "bracket_notation": "[S [S [V t5] [NP [N t6] [N t7]]] [S [V t8] [NP t9]]]",
+        "dependencies": [
+          "t5 (ROOT)",
+          "t5->t6 (direct object)",
+          "t6->t7 (genitive modifier)",
+          "t5->t8 (coordinate clause)",
+          "t8->t9 (subject/apposition)"
+        ],
+        "notes": "Action sequence: Blessing -> Called."
+      }
+    ]
+  }
+}

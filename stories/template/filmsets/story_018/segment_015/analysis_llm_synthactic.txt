@@ -1,0 +1,18 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Simple Sentence",
+        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [VP t5] [VP t5 [PP t5 [NP t6 [NP t6 [NP t6]]]]] [NP t7 [NP t7]]]]",
+        "dependencies": [
+          "t1->t2 (numeral_mod)",
+          "t3->t4 (numeral_mod)",
+          "t5->t6 (temporal_limit)",
+          "t6->t7 (appositive_time)"
+        ],
+        "notes": ""
+      }
+    ]
+  }
+}

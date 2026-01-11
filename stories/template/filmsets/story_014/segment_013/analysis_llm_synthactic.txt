@@ -1,0 +1,16 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Complex Sentence",
+        "bracket_notation": "[S [AdvP t5] [VP t6] [VP t6] [NP t7]]",
+        "dependencies": [
+          "t6->t5 (circumstantial)",
+          "t6->t7 (object/result)"
+        ],
+        "notes": "Physical reaction leading to a new vision."
+      }
+    ]
+  }
+}

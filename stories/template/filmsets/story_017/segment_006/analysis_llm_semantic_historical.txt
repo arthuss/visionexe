@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "P1",
+      "plausibility": "Medium",
+      "reasoning": "The text contains three distinct clauses: 'I saw', 'I reached' (likely reading 'በጻሕኩ' for 'ጻሕኩ'), and 'I went'. P1's notes imply a single main verb structure ('saw' governing darkness), which is technically a mismatch with the specific clause breaks in the text ('And to the great darkness I reached'). However, the semantic clustering is accurate. The phrase 'where all flesh walks' refers to the path to the afterlife.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 17:6",
+          "note": "The journey into the dark regions."
+        }
+      ],
+      "context_invariance": "Stable",
+      "back_translation": "And I saw all the great rivers. And I reached to the great darkness. And I went where all flesh walks."
+    }
+  ],
+  "decision_log": "Noted structural discrepancy in P1 notes vs text verbs, but semantic content is valid.",
+  "final_decision": {
+    "hypothesis_ref": "P1",
+    "translation_id": "T1",
+    "confidence": "Medium"
+  }
+}

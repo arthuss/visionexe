@@ -1,0 +1,19 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Fragmented",
+        "bracket_notation": "[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [FRAG [PN t5]] [FRAG [N t10]] [FRAG [PN t14]]]",
+        "dependencies": [
+          "t1->t2 (nummod)",
+          "t3->t4 (nummod)",
+          "root->t5 (fragment)",
+          "root->t10 (fragment)",
+          "root->t14 (fragment)"
+        ],
+        "notes": "Headers parsed. Intervening tokens (t6-t9, t11-t13, t15-t23) missing. Available Ge'ez tokens treated as fragments."
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S10_P1",
+        "structure_type": "Parallel Locative Clauses",
+        "bracket_notation": "[S [NP [N t5]] [VP [V t6] [N t7]] [NP [N t8] [N t9] [N t10]]]",
+        "dependencies": [
+          "t6 -> t5 (subject)",
+          "t6 -> t7 (locative_complement)",
+          "t8 -> t10 (parallel_subject_structure)",
+          "t10 -> t9 (locative_modifier)"
+        ],
+        "notes": "Contrasts spirits of heaven (t5-t7) with spirits of earth (t8-t10)."
+      }
+    ]
+  }
+}

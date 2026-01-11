@@ -1,0 +1,221 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:42:13Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_016/segment_002",
+    "graphematic_string": "Chapter 16 Segment 2\n\nወይእዜኒ፡ለትጉሃን፡እለ፡ፈነዉ፡\nትስል፡እንቲሆሙ፡እለ፡\nቀዲሙ፡ሰማይ፡ሀለዉ፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "Chapter",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "16",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "16",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "Segment",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "2",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "2",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወይእዜኒ፡ለትጉሃን፡እለ፡ፈነዉ፡",
+      "span": {
+        "start": 22,
+        "end": 41
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "ወይእዜኒ፡ለትጉሃን፡እለ፡ፈነዉ፡",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ትስል፡እንቲሆሙ፡እለ፡",
+      "span": {
+        "start": 42,
+        "end": 55
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "ትስል፡እንቲሆሙ፡እለ፡",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ቀዲሙ፡ሰማይ፡ሀለዉ፨",
+      "span": {
+        "start": 56,
+        "end": 68
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "ቀዲሙ፡ሰማይ፡ሀለዉ፨",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

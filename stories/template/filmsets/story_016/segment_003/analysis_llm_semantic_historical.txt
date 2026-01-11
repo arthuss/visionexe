@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S3_P1",
+      "plausibility": "high",
+      "reasoning": "The parse handles the complex accusation well. Specifically, it accurately captures the motif of the 'worthless mystery' (ምሥጢረ፡ምኑነ) or 'rejected mystery'. This is a key historical-semantic point: the Watchers did not possess the ultimate divine wisdom, but a corrupted or lower knowledge, which they illicitly taught to humanity (women), leading to moral decay (sorcery, war). 'ንትሙሰ' is read as 'አንትሙሰ' (As for you).",
+      "parallels": [
+        {
+          "ref": "1 Enoch 8:1-3",
+          "note": "Details of the forbidden arts taught by Asael and others."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "You were in heaven, but the hidden things had not yet been revealed to you, and a worthless mystery you knew. And this you told to the women in the hardness of your hearts, and by this mystery, women and men multiply evil on the earth."
+    }
+  ],
+  "decision_log": "The dependency chain correctly links the possession of the mystery to the act of teaching and the resultant earthly corruption.",
+  "final_decision": {
+    "hypothesis_ref": "S3_P1",
+    "translation_id": "T1",
+    "confidence": "high"
+  }
+}

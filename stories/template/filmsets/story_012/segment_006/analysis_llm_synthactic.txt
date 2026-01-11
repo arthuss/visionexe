@@ -1,0 +1,19 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S6_P1",
+        "structure_type": "Fronted Object with Consequences",
+        "bracket_notation": "[S [NP [NP t5] [NP t6]] [VP [V t7]] [S [NP t8] [NP t9]]]",
+        "dependencies": [
+          "t7 (ROOT)",
+          "t7->t5 (fronted object)",
+          "t5->t6 (coordinate object)",
+          "t7->t8 (coordinate clause / existential)",
+          "t8->t9 (coordinate nominal)"
+        ],
+        "notes": "Parallelism in suffering."
+      }
+    ]
+  }
+}

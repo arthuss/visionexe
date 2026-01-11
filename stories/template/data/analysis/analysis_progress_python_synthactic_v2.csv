@@ -1391,3 +1391,2292 @@ ChapterID,SegmentLabel,SegmentType,Status,SourcePath,RawContent
     ]
   }
 }"
+9,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_001\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Verbal Clause"",
+        ""bracket_notation"": ""[S [V t5] [Subj t6] [V_Coord [V t7] [Obj t8 [Mod t9]] [Obj_Coord t10 [Mod t11]]]]"",
+        ""dependencies"": [
+          ""t5->ROOT"",
+          ""t6->t5 (subject)"",
+          ""t7->t5 (coordination)"",
+          ""t8->t7 (object)"",
+          ""t9->t8 (modifier_location)"",
+          ""t10->t7 (object_coordination)"",
+          ""t11->t10 (modifier_location)""
+        ],
+        ""notes"": ""t5 contains 'Then looked Michael' (V+S). t6 'Uriel and Gabriel' adds to subject. t7 'from heaven and saw' is coordinated verb phrase. t8 'blood that is shed' is object. t10 'and all lawlessness' is coordinated object.""
+      }
+    ]
+  }
+}"
+9,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_002\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Verbal Clause"",
+        ""bracket_notation"": ""[S [V t5] [Obj t6] [Mod t7]]"",
+        ""dependencies"": [
+          ""t5->ROOT"",
+          ""t6->t5 (object_content)"",
+          ""t7->t6 (modifier_scope)""
+        ],
+        ""notes"": ""t5 'They said' introduces speech/sound. t6 'Voice of their crying' is the content/object. t7 'Earth up to heaven' describes the extent/scope of the cry.""
+      }
+    ]
+  }
+}"
+9,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_003\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Verbal Clause"",
+        ""bracket_notation"": ""[S [Adv t5] [V t6] [Mod_Circumstantial [Conj t7] [Obj_Speech t8]]]"",
+        ""dependencies"": [
+          ""t6->ROOT"",
+          ""t5->t6 (adjunct_time_vocative)"",
+          ""t7->t6 (modifier_circumstantial)"",
+          ""t8->t7 (object_direct_speech)""
+        ],
+        ""notes"": ""t6 'They appeal' is main verb. t5 'And now to you holy ones' is vocative/temporal adjunct. t7 'While saying' is circumstantial clause. t8 'Bring judgment' is the quoted speech.""
+      }
+    ]
+  }
+}"
+9,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_004\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Verbal Clause"",
+        ""bracket_notation"": ""[S [V t5] [Obj_Speech [S_Nom [Pred t6] [Subj_Expl t6]] [Coord t7] [Coord t8] [Coord t9 [Mod t10 [Mod t11]]] [S_Nom_Coord [Subj t11] [Mod t12 [Mod t13]] [Pred t13]]]]"",
+        ""dependencies"": [
+          ""t5->ROOT"",
+          ""t6->t5 (object_speech_start)"",
+          ""t7->t6 (appositive_coordination)"",
+          ""t8->t7 (appositive_coordination)"",
+          ""t9->t8 (appositive_coordination)"",
+          ""t10->t9 (modifier_prep)"",
+          ""t11->t10 (complement)"",
+          ""t12->t11 (modifier_prep)"",
+          ""t13->t12 (complement)""
+        ],
+        ""notes"": ""Complex direct speech. t5 'They said'. t6-t9 'Lord of Kings, God of Gods...' series of nominal predicates/vocatives. t10-t13 continues description of 'Throne of Glory' and 'Holy Name'.""
+      }
+    ]
+  }
+}"
+9,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_005\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Verbal Clause Chain"",
+        ""bracket_notation"": ""[S [V t5] [S_Nom_Coord [Subj t5] [Pred t6]] [S_Nom_Coord [Subj t6] [Pred t7]] [S_Verbal [Subj t7] [V t8] [Obj t8]] [S_Existential [Neg t8] [Rel t9]]]"",
+        ""dependencies"": [
+          ""t5->ROOT"",
+          ""t6->t5 (coordination_nominal)"",
+          ""t7->t6 (coordination_nominal)"",
+          ""t8->t7 (coordination_verbal)"",
+          ""t9->t8 (relative_clause_negated_existential)""
+        ],
+        ""notes"": ""t5 'Thou made all'. t6 'Power is with you'. t7 'All is naked/open before you'. t8 'You see all'. t8-t9 'There is nothing that can hide'.""
+      }
+    ]
+  }
+}"
+9,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_006\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Verbal Clause"",
+        ""bracket_notation"": ""[S [V t5] [Obj_Clause [V t6] [Obj t7] [Rel t8]]]"",
+        ""dependencies"": [
+          ""t5->ROOT"",
+          ""t6->t5 (object_clause)"",
+          ""t7->t6 (object_direct)"",
+          ""t8->t7 (relative_modifier)""
+        ],
+        ""notes"": ""t5 'See what Azazel done'. t6 'He taught lawlessness'. t7 'And revealed secrets'. t8 'Which are done in heaven'.""
+      }
+    ]
+  }
+}"
+9,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_007\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Nominal/Verbal Fragment"",
+        ""bracket_notation"": ""[S [NP t5 [Rel t6 [Comp t7]]]]"",
+        ""dependencies"": [
+          ""t5->ROOT"",
+          ""t6->t5 (relative_modifier)"",
+          ""t7->t6 (complement_clause)""
+        ],
+        ""notes"": ""t5 'Semjaza' (continuation of object of 'See'?). t6 'To whom you gave authority'. t7 'To rule those with him'.""
+      }
+    ]
+  }
+}"
+9,segment_008,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_008\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Verbal Clause Chain"",
+        ""bracket_notation"": ""[S [V t5] [Mod t6] [Mod t7] [V_Coord t8] [Obj t9]]"",
+        ""dependencies"": [
+          ""t5->ROOT"",
+          ""t6->t5 (modifier_manner)"",
+          ""t7->t6 (modifier_comitative)"",
+          ""t8->t5 (coordination)"",
+          ""t9->t8 (object)""
+        ],
+        ""notes"": ""t5 'They went to daughters of men'. t6 'Together and slept'. t7 'With those women'. t8 'Defiled and revealed'. t9 'Sin/Secrets'.""
+      }
+    ]
+  }
+}"
+9,segment_009,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_009\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Verbal Clause Chain"",
+        ""bracket_notation"": ""[S [V t5] [V_Coord t6 [Obj t7]]]"",
+        ""dependencies"": [
+          ""t5->ROOT"",
+          ""t6->t5 (coordination)"",
+          ""t7->t6 (complement)""
+        ],
+        ""notes"": ""t5 'Women bore giants'. t6 'Earth was filled'. t7 'Blood and violence'.""
+      }
+    ]
+  }
+}"
+9,segment_010,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_010\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Verbal Clause Chain"",
+        ""bracket_notation"": ""[S [V t5] [Rel t6] [V_Coord t6] [Loc t7] [V_Coord t7] [Subj t8] [V_Coord t8] [Mod t9 [Rel t10]]]"",
+        ""dependencies"": [
+          ""t5->ROOT"",
+          ""t6->t5 (relative_subject_mod)"",
+          ""t7->t6 (location_goal)"",
+          ""t8->t7 (coordination_subject_new_verb)"",
+          ""t9->t8 (adjunct_source)"",
+          ""t10->t9 (relative_modifier)""
+        ],
+        ""notes"": ""t5 'Souls cry'. t6 'Who died and appeal'. t7 'To gate of heaven and ascended'. t8 'Their groan, and cannot cease'. t9 'From before lawlessness'. t10 'Wrought on earth'.""
+      }
+    ]
+  }
+}"
+9,segment_011,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_011\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Verbal Clause Chain"",
+        ""bracket_notation"": ""[S [V t5] [Obj_Clause t6] [S_Coord t6] [S_Coord t7] [S_Coord t8] [Mod t9]]"",
+        ""dependencies"": [
+          ""t5->ROOT"",
+          ""t6->t5 (object_clause)"",
+          ""t7->t5 (coordination)"",
+          ""t8->t7 (coordination)"",
+          ""t9->t8 (modifier_reference)""
+        ],
+        ""notes"": ""t5 'You know all before'. t6 'It happens; You know this'. t7 'And their state; And you tell us nothing'. t8 'What is fitting to do'. t9 'About this'.""
+      }
+    ]
+  }
+}"
+10,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_001\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t7) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_002\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t10) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_003\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t7) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_004\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t10) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_005\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Fragmented"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [FRAG [PN t5]] [FRAG [N t10]] [FRAG [PN t14]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)"",
+          ""root->t5 (fragment)"",
+          ""root->t10 (fragment)"",
+          ""root->t14 (fragment)""
+        ],
+        ""notes"": ""Headers parsed. Intervening tokens (t6-t9, t11-t13, t15-t23) missing. Available Ge'ez tokens treated as fragments.""
+      }
+    ]
+  }
+}"
+10,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_006\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t6) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_007\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t11) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_008,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_008\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t8) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_009,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_009\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t14) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_010,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_010\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t10) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_011,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_011\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t10) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_012,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_012\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t13) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_013,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_013\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t8) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_014,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_014\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t8) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_015,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_015\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t9) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_016,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_016\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t13) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_017,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_017\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t10) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_018,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_018\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t8) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_019,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_019\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t14) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_020,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_020\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t11) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_021,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_021\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t9) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+10,segment_022,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_022\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Headers"",
+        ""bracket_notation"": ""[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)""
+        ],
+        ""notes"": ""Parsed headers only; Ge'ez tokens (t5-t13) have no valid lexical options.""
+      }
+    ]
+  }
+}"
+11,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_011\segment_001\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Complex Sentence"",
+        ""bracket_notation"": ""[ROOT [Label t1 t2 t3 t4] [S [VP t5 [NP t6] [S_sub [VP t7 [PP t8 [NP t9]]]]]]]"",
+        ""dependencies"": [
+          ""t5->t6 (object)"",
+          ""t5->t7 (adverbial_clause)"",
+          ""t7->t8 (oblique)"",
+          ""t8->t9 (genitive)""
+        ],
+        ""notes"": ""t5 functions as the main predicate block; t6 is the direct object theme; t7 introduces a purposive/consecutive clause governing the prepositional complex t8, which is modified by t9.""
+      }
+    ]
+  }
+}"
+11,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_011\segment_002\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Verbal Sentence"",
+        ""bracket_notation"": ""[ROOT [Label t1 t2 t3 t4] [S [NP t5] [VP t6 [PP t7 [NP t8]]]]]"",
+        ""dependencies"": [
+          ""t6->t5 (subject)"",
+          ""t6->t7 (temporal_modifier)"",
+          ""t7->t8 (genitive)""
+        ],
+        ""notes"": ""t6 (verb) is the root; t5 acts as the compound subject/complement phrase; t7 provides temporal context, modified by the genitive t8.""
+      }
+    ]
+  }
+}"
+12,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_012\segment_001\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1_P1"",
+        ""structure_type"": ""Main Clause with Adjuncts"",
+        ""bracket_notation"": ""[S [PP t5] [VP [V t6] [SBAR [V t7] [AdvP [ADV t8] [NP t9]]]]]"",
+        ""dependencies"": [
+          ""t6 (ROOT)"",
+          ""t6->t5 (temporal adjunct)"",
+          ""t6->t7 (relative/coordinate clause)"",
+          ""t7->t8 (locative argument)"",
+          ""t8->t9 (interrogative complement)""
+        ],
+        ""notes"": ""Coarse-grained parse based on chunk tokens.""
+      }
+    ]
+  }
+}"
+12,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_012\segment_002\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S2_P1"",
+        ""structure_type"": ""Nominal Sentence / Fragment"",
+        ""bracket_notation"": ""[NP [N t5] [PP [PREP t6] [NP t7]]]"",
+        ""dependencies"": [
+          ""t5 (ROOT)"",
+          ""t5->t6 (prepositional modifier)"",
+          ""t6->t7 (prepositional object)""
+        ],
+        ""notes"": ""Describes the 'work' and 'time'.""
+      }
+    ]
+  }
+}"
+12,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_012\segment_003\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S3_P1"",
+        ""structure_type"": ""Coordinate Clauses"",
+        ""bracket_notation"": ""[S [S [V t5] [NP [N t6] [N t7]]] [S [V t8] [NP t9]]]"",
+        ""dependencies"": [
+          ""t5 (ROOT)"",
+          ""t5->t6 (direct object)"",
+          ""t6->t7 (genitive modifier)"",
+          ""t5->t8 (coordinate clause)"",
+          ""t8->t9 (subject/apposition)""
+        ],
+        ""notes"": ""Action sequence: Blessing -> Called.""
+      }
+    ]
+  }
+}"
+12,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_012\segment_004\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S4_P1"",
+        ""structure_type"": ""Complex Imperative with Relative Chain"",
+        ""bracket_notation"": ""[S [V t5] [S [V t6] [SBAR [V t7] [AP t8] [S [V t9] [SBAR [V t10]] [S [V t11] [NP t12]]]]]]"",
+        ""dependencies"": [
+          ""t5 (ROOT)"",
+          ""t5->t6 (purposive complement)"",
+          ""t6->t7 (relative clause on implicit object)"",
+          ""t7->t8 (adjectival modifier)"",
+          ""t7->t9 (coordinate relative)"",
+          ""t9->t10 (comparative clause)"",
+          ""t9->t11 (coordinate relative)"",
+          ""t11->t12 (direct object)""
+        ],
+        ""notes"": ""High complexity due to embedded clauses in chunks.""
+      }
+    ]
+  }
+}"
+12,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_012\segment_005\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S5_P1"",
+        ""structure_type"": ""Negative Existential with Causal"",
+        ""bracket_notation"": ""[S [V t5] [NP t6] [SBAR [V t7]]]"",
+        ""dependencies"": [
+          ""t5 (ROOT)"",
+          ""t5->t6 (coordinate subject/complement)"",
+          ""t5->t7 (causal clause)""
+        ],
+        ""notes"": ""Prophecy of lack of peace.""
+      }
+    ]
+  }
+}"
+12,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_012\segment_006\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S6_P1"",
+        ""structure_type"": ""Fronted Object with Consequences"",
+        ""bracket_notation"": ""[S [NP [NP t5] [NP t6]] [VP [V t7]] [S [NP t8] [NP t9]]]"",
+        ""dependencies"": [
+          ""t7 (ROOT)"",
+          ""t7->t5 (fronted object)"",
+          ""t5->t6 (coordinate object)"",
+          ""t7->t8 (coordinate clause / existential)"",
+          ""t8->t9 (coordinate nominal)""
+        ],
+        ""notes"": ""Parallelism in suffering.""
+      }
+    ]
+  }
+}"
+13,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_001\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Discourse Sequence"",
+        ""bracket_notation"": ""[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [NP t5] [VP [V t9] [NP t6] [SBAR [PART t7] [S [NP t8]]]]]]"",
+        ""dependencies"": [
+          ""t2->t1 (nummod)"",
+          ""t4->t3 (nummod)"",
+          ""t5->t9 (nsubj)"",
+          ""t6->t9 (iobj)"",
+          ""t8->t9 (parataxis)"",
+          ""t7->t8 (discourse)""
+        ],
+        ""notes"": ""Coarse segmentation: t5 acts as Agent, t6 as Recipient, t9 as Main Predicate (binding). t8 is a paratactic nominal clause.""
+      }
+    ]
+  }
+}"
+13,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_002\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Negated Verbal Clause"",
+        ""bracket_notation"": ""[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [VP [V t6] [NP t5] [NP [N t7] [N t8] [VP t9]]]]]"",
+        ""dependencies"": [
+          ""t2->t1 (nummod)"",
+          ""t4->t3 (nummod)"",
+          ""t6->root"",
+          ""t5->t6 (obj)"",
+          ""t7->t6 (obj)"",
+          ""t8->t7 (conj)"",
+          ""t9->t8 (acl)""
+        ],
+        ""notes"": ""t6 (verb) is central; t5, t7, t8 are nominal arguments/objects; t9 modifies t8.""
+      }
+    ]
+  }
+}"
+13,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_003\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Verbal Clause with Adverbial"",
+        ""bracket_notation"": ""[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [ADVP t5] [VP [V t8] [NP t6] [PP t7]]]]"",
+        ""dependencies"": [
+          ""t2->t1 (nummod)"",
+          ""t4->t3 (nummod)"",
+          ""t8->root"",
+          ""t5->t8 (advmod)"",
+          ""t6->t8 (obj)"",
+          ""t7->t8 (obl)""
+        ],
+        ""notes"": ""t8 (verb) is the main predicate taking t6 (indefinite pron) and t7 (prep phrase) as arguments.""
+      }
+    ]
+  }
+}"
+13,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_004\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Complex Sentence with Request"",
+        ""bracket_notation"": ""[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [VP [V t5] [SBAR [VP [V t7] [PP t6] [SBAR [VP [V t8] [PP t9]]]]]]]]"",
+        ""dependencies"": [
+          ""t2->t1 (nummod)"",
+          ""t4->t3 (nummod)"",
+          ""t5->root"",
+          ""t7->t5 (ccomp)"",
+          ""t6->t7 (iobj)"",
+          ""t8->t7 (advcl)"",
+          ""t9->t8 (obl)""
+        ],
+        ""notes"": ""t5 (asked) governs t7 (that it be); t8 (ascend) depends on t7.""
+      }
+    ]
+  }
+}"
+13,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_005\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Subordinate Causal Clause"",
+        ""bracket_notation"": ""[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [SBAR [CONJ t5] [S [VP [V t9] [ADVP t6] [NP t7] [NP t8]]]]]"",
+        ""dependencies"": [
+          ""t2->t1 (nummod)"",
+          ""t4->t3 (nummod)"",
+          ""t9->t5 (root_of_clause)"",
+          ""t5->root (mark)"",
+          ""t6->t9 (advmod)"",
+          ""t7->t9 (dobj)"",
+          ""t8->t9 (obl)""
+        ],
+        ""notes"": ""t5 introduces the clause; t9 (verb) is the predicate governing t7 (eyes) and t8 (shame).""
+      }
+    ]
+  }
+}"
+13,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_006\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Nominalized Narrative Sequence"",
+        ""bracket_notation"": ""[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [ADVP t5] [NP [N t6] [SBAR [REL t7] [NP t8]] [SBAR [REL t9] [VP [N t10]]]]]]"",
+        ""dependencies"": [
+          ""t2->t1 (nummod)"",
+          ""t4->t3 (nummod)"",
+          ""t5->root (adverbial_head)"",
+          ""t6->t5 (dep)"",
+          ""t7->t6 (case)"",
+          ""t8->t6 (nmod)"",
+          ""t9->t8 (acl)"",
+          ""t10->t9 (obj)""
+        ],
+        ""notes"": ""Main verb is absorbed in t5 or implied. Structure relies on t5 modifying the sequence of nominals t6, t8, t10 linked by t7, t9.""
+      }
+    ]
+  }
+}"
+13,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_007\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Narrative with Gerund and Subordinate"",
+        ""bracket_notation"": ""[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [VP [V t5] [NP t6] [PP t7]] [VP [V t8] [SBAR [CONJ t9]]]]]"",
+        ""dependencies"": [
+          ""t2->t1 (nummod)"",
+          ""t4->t3 (nummod)"",
+          ""t8->root"",
+          ""t5->t8 (advcl)"",
+          ""t6->t5 (obj)"",
+          ""t7->t5 (obl)"",
+          ""t9->t8 (advcl)""
+        ],
+        ""notes"": ""t8 (read) is main verb; t5 (going) is circumstantial; t9 (because) heads causal clause.""
+      }
+    ]
+  }
+}"
+13,segment_008,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_008\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Sequential Verbal Chain"",
+        ""bracket_notation"": ""[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [ADVP t5] [VP [V t7] [NP t6]] [VP [V t8]] [VP [V t9]]]]"",
+        ""dependencies"": [
+          ""t2->t1 (nummod)"",
+          ""t4->t3 (nummod)"",
+          ""t7->root"",
+          ""t5->t7 (advmod)"",
+          ""t6->t7 (obj)"",
+          ""t8->t7 (conj)"",
+          ""t9->t8 (conj)""
+        ],
+        ""notes"": ""t7 (saw) starts the chain; t8 (tell) and t9 (reprimand) follow sequentially.""
+      }
+    ]
+  }
+}"
+13,segment_009,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_009\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Gerundive/Prepositional Clause"",
+        ""bracket_notation"": ""[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [VP [V t5]] [PP [PREP t6] [SBAR [CONJ t7] [S [VP [REL t8] [NP t9] [NP t10]]]]]]]"",
+        ""dependencies"": [
+          ""t2->t1 (nummod)"",
+          ""t4->t3 (nummod)"",
+          ""t5->root"",
+          ""t6->t5 (obl)"",
+          ""t7->t6 (advcl)"",
+          ""t8->t7 (acl)"",
+          ""t9->t8 (nsubj)"",
+          ""t10->t8 (obj)""
+        ],
+        ""notes"": ""t5 (waking) heads the fragment; t6 (to them) modifies it; t7 (while) introduces background with t8/t9/t10.""
+      }
+    ]
+  }
+}"
+13,segment_010,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_010\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Transitive Verbal Sentence"",
+        ""bracket_notation"": ""[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [VP [V t5] [NP [N t6] [N t7] [DET t8]] [PP [N t9]]]]]"",
+        ""dependencies"": [
+          ""t2->t1 (nummod)"",
+          ""t4->t3 (nummod)"",
+          ""t5->root"",
+          ""t6->t5 (obj)"",
+          ""t7->t6 (nmod)"",
+          ""t8->t6 (det)"",
+          ""t9->t5 (iobj)""
+        ],
+        ""notes"": ""t5 (spoke) is head; t6 (visions) is object; t9 (watchers) is recipient/target.""
+      }
+    ]
+  }
+}"
+14,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_001\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Nominal Sentence (Title)"",
+        ""bracket_notation"": ""[S [NP [NP t5] [RelCl [NP t6] [VP t7]]] [NP [NP t8] [RelCl [VP t9] [NP t10] [RelCl [VP t11] [VP t12] [VP t13]]]]]"",
+        ""dependencies"": [
+          ""t5->t6 (modifier)"",
+          ""t6->t7 (predicate)"",
+          ""t5->t8 (apposition/continuation)"",
+          ""t8->t9 (relative)"",
+          ""t9->t10 (object)"",
+          ""t10->t11 (relative)"",
+          ""t11->t12 (complement)"",
+          ""t12->t13 (coordination)""
+        ],
+        ""notes"": ""Interpreted as a complex title sequence: 'The Book... which the Watchers... The Vision which I saw...'""
+      }
+    ]
+  }
+}"
+14,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_002\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Complex Sentence"",
+        ""bracket_notation"": ""[S [AdvP t5] [S [VP t6] [NP t7]] [S [VP t8] [NP t9]]]"",
+        ""dependencies"": [
+          ""t6->t5 (adverbial clause)"",
+          ""t6->t7 (object)"",
+          ""t6->t8 (coordination)"",
+          ""t8->t9 (object)""
+        ],
+        ""notes"": ""Correlative structure 'Just as... so also...'""
+      }
+    ]
+  }
+}"
+14,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_003\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Narrative Sequence"",
+        ""bracket_notation"": ""[S [S [VP t5] [NP t6]] [S [Conj t7] [VP t8] [NP [NP t9] [AdjP t10]]] [VP t11]]"",
+        ""dependencies"": [
+          ""t5->t6 (coordination)"",
+          ""t5->t7 (causal clause)"",
+          ""t7->t8 (predicate)"",
+          ""t8->t9 (temporal adjunct)"",
+          ""t9->t10 (modifier)"",
+          ""t8->t11 (coordination)""
+        ],
+        ""notes"": ""Statement of action followed by the content of the decree.""
+      }
+    ]
+  }
+}"
+14,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_004\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Compound Sentence"",
+        ""bracket_notation"": ""[S [S [VP t5] [PP t6] [NP t7]] [S [VP t7] [VP t8] [NP t9]]]"",
+        ""dependencies"": [
+          ""t5->t6 (locative)"",
+          ""t5->t7 (coordination)"",
+          ""t7->t8 (content clause)"",
+          ""t8->t9 (temporal adjunct)""
+        ],
+        ""notes"": ""Shared token t7 acts as pivot between 'eternity' and 'and on earth'.""
+      }
+    ]
+  }
+}"
+14,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_005\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Complex Sentence"",
+        ""bracket_notation"": ""[S [PP t5] [VP t6] [NP [NP t6] [NP t7]] [VP t8]]"",
+        ""dependencies"": [
+          ""t6->t5 (temporal adjunct)"",
+          ""t6->t7 (coordination)"",
+          ""t6->t8 (result/consequence)""
+        ],
+        ""notes"": ""Temporal condition leading to the event in t8.""
+      }
+    ]
+  }
+}"
+14,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_006\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Compound Sentence"",
+        ""bracket_notation"": ""[S [S [NP t5] [VP t6]] [S [NP t7] [VP [VP t8] [VP t9] [PP t10]]]]"",
+        ""dependencies"": [
+          ""t6->t5 (subject)"",
+          ""t6->t7 (coordination)"",
+          ""t7->t8 (circumstantial)"",
+          ""t8->t9 (coordination)"",
+          ""t9->t10 (source)""
+        ],
+        ""notes"": ""Contrastive structure: Their petition fails, and they are silenced.""
+      }
+    ]
+  }
+}"
+14,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_007\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Narrative Sequence"",
+        ""bracket_notation"": ""[S [S [VP t5] [PART t6]] [S [NP t7] [VP t8]] [S [NP t9] [VP t10]] [S [NP t10] [VP t11]]]"",
+        ""dependencies"": [
+          ""t5->t7 (elaboration)"",
+          ""t7->t8 (predicate)"",
+          ""t8->t9 (coordination)"",
+          ""t9->t10 (predicate)"",
+          ""t10->t11 (coordination)""
+        ],
+        ""notes"": ""Series of clauses describing the visionary experience.""
+      }
+    ]
+  }
+}"
+14,segment_008,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_008\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Narrative Sequence"",
+        ""bracket_notation"": ""[S [VP t5] [PP t6] [VP t6] [PP t7] [S [NP t8] [VP t9]]]"",
+        ""dependencies"": [
+          ""t5->t6 (locative)"",
+          ""t6->t7 (limit/destination)"",
+          ""t7->t8 (modifier/content)"",
+          ""t8->t9 (relative/circumstantial)""
+        ],
+        ""notes"": ""Ascension and approach to the first structure.""
+      }
+    ]
+  }
+}"
+14,segment_009,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_009\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Descriptive Narrative"",
+        ""bracket_notation"": ""[S [VP t5] [NP t6] [VP t6] [PP t6] [NP [NP t7] [PART t8] [NP t9] [NP t10]] [S [NP t11]]]"",
+        ""dependencies"": [
+          ""t5->t6 (coordination/sequence)"",
+          ""t6->t7 (apposition/modifier)"",
+          ""t7->t9 (description)"",
+          ""t9->t10 (genitive)"",
+          ""t9->t11 (coordination)""
+        ],
+        ""notes"": ""Entry and description of the wall materials.""
+      }
+    ]
+  }
+}"
+14,segment_010,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_010\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Nominal Chain (Description)"",
+        ""bracket_notation"": ""[NP [NP t5] [NP t6] [NP t7] [NP t8]]"",
+        ""dependencies"": [
+          ""t5->t6 (coordination)"",
+          ""t6->t7 (coordination)"",
+          ""t7->t8 (coordination)""
+        ],
+        ""notes"": ""Continuation of the architectural description (ceiling, lightning, cherubim).""
+      }
+    ]
+  }
+}"
+14,segment_011,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_011\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Nominal Sentence"",
+        ""bracket_notation"": ""[S [NP [NP t5] [RelCl t5]] [NP t6] [VP t6] [NP t7]]"",
+        ""dependencies"": [
+          ""t5->t6 (coordination)"",
+          ""t6->t7 (object/complement)""
+        ],
+        ""notes"": ""Description of the burning fire.""
+      }
+    ]
+  }
+}"
+14,segment_012,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_012\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Compound Sentence"",
+        ""bracket_notation"": ""[S [VP t5] [S [AdjP t6] [AdjP t7]] [S [NP t7] [NP t8] [PP t9]] [S [NP t9] [VP t9]] [S [VP t10]]]"",
+        ""dependencies"": [
+          ""t5->t6 (description)"",
+          ""t6->t7 (coordination)"",
+          ""t7->t8 (coordination)"",
+          ""t8->t9 (locative)"",
+          ""t9->t10 (result)""
+        ],
+        ""notes"": ""Entry, sensation (hot/cold), and emotional reaction.""
+      }
+    ]
+  }
+}"
+14,segment_013,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_013\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Complex Sentence"",
+        ""bracket_notation"": ""[S [AdvP t5] [VP t6] [VP t6] [NP t7]]"",
+        ""dependencies"": [
+          ""t6->t5 (circumstantial)"",
+          ""t6->t7 (object/result)""
+        ],
+        ""notes"": ""Physical reaction leading to a new vision.""
+      }
+    ]
+  }
+}"
+14,segment_014,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_014\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Nominal Sentence (Presentation)"",
+        ""bracket_notation"": ""[S [PART t5] [NP [NP t5] [RelCl t5]] [PP t6] [VP t7] [NP t8]]"",
+        ""dependencies"": [
+          ""t5->t6 (comparison)"",
+          ""t5->t7 (state/position)"",
+          ""t7->t8 (description)""
+        ],
+        ""notes"": ""Introduction of the second house.""
+      }
+    ]
+  }
+}"
+14,segment_015,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_015\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Complex Sentence"",
+        ""bracket_notation"": ""[S [NP t5] [VP t5] [NP t5] [NP t6] [S [Conj t6] [VP t6] [NP t7] [PP t8]]]"",
+        ""dependencies"": [
+          ""t5->t6 (coordination)"",
+          ""t5->t6 (result clause)"",
+          ""t6->t7 (object)"",
+          ""t7->t8 (specification)""
+        ],
+        ""notes"": ""Comparison of excellence/glory.""
+      }
+    ]
+  }
+}"
+14,segment_016,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_016\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Nominal Chain"",
+        ""bracket_notation"": ""[NP [NP t5] [NP t6] [NP t7] [NP t8]]"",
+        ""dependencies"": [
+          ""t5->t6 (coordination)"",
+          ""t6->t7 (coordination)"",
+          ""t7->t8 (apposition/genitive)""
+        ],
+        ""notes"": ""Description of the second house's interior.""
+      }
+    ]
+  }
+}"
+14,segment_017,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_017\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Narrative Sequence"",
+        ""bracket_notation"": ""[S [VP t5] [NP t6] [NP t7] [RelCl t8]]"",
+        ""dependencies"": [
+          ""t5->t6 (object)"",
+          ""t6->t7 (description)"",
+          ""t7->t8 (relative)""
+        ],
+        ""notes"": ""Seeing the high throne.""
+      }
+    ]
+  }
+}"
+14,segment_018,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_018\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Nominal Sentence"",
+        ""bracket_notation"": ""[S [PP t5] [VP t5] [NP t6] [RelCl t7]]"",
+        ""dependencies"": [
+          ""t5->t6 (subject)"",
+          ""t6->t7 (relative)""
+        ],
+        ""notes"": ""Description of what is under the throne.""
+      }
+    ]
+  }
+}"
+14,segment_019,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_019\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Narrative Sequence"",
+        ""bracket_notation"": ""[S [NP t5] [VP t5] [PP t6] [S [NP t6] [RelCl t6] [PP t7] [NP t8]]]"",
+        ""dependencies"": [
+          ""t5->t6 (location)"",
+          ""t5->t6 (coordination/new subject)"",
+          ""t6->t7 (comparison)"",
+          ""t7->t8 (coordination/comparison)""
+        ],
+        ""notes"": ""The Great Glory sits; description of raiment.""
+      }
+    ]
+  }
+}"
+14,segment_020,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_020\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Complex Sentence"",
+        ""bracket_notation"": ""[S [VP t5] [PP t6] [VP t7] [S [Conj t9] [NP t10] [VP t10] [NP t11]]]"",
+        ""dependencies"": [
+          ""t5->t6 (partitive)"",
+          ""t5->t7 (complement)"",
+          ""t5->t9 (coordination)"",
+          ""t9->t10 (subject)"",
+          ""t10->t11 (object)""
+        ],
+        ""notes"": ""Inability of angels or flesh to behold Him.""
+      }
+    ]
+  }
+}"
+14,segment_021,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_021\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Descriptive Sequence"",
+        ""bracket_notation"": ""[S [NP t5] [S [NP t6] [VP t6] [PP t7]] [S [NP t8] [PP t8]] [S [NP t10] [PP t11]] [VP t12]]"",
+        ""dependencies"": [
+          ""t5->t6 (coordination)"",
+          ""t6->t7 (location)"",
+          ""t7->t8 (coordination)"",
+          ""t8->t10 (apposition/quantifier)"",
+          ""t10->t11 (location)"",
+          ""t11->t12 (predicate)""
+        ],
+        ""notes"": ""Description of the fire around Him and the multitude.""
+      }
+    ]
+  }
+}"
+14,segment_022,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_022\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Compound Sentence"",
+        ""bracket_notation"": ""[S [NP [NP t5] [RelCl t5]] [VP t6] [VP t7]]"",
+        ""dependencies"": [
+          ""t6->t5 (subject)"",
+          ""t6->t7 (coordination)""
+        ],
+        ""notes"": ""The Holy Ones in constant attendance.""
+      }
+    ]
+  }
+}"
+14,segment_023,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_023\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Narrative Sequence"",
+        ""bracket_notation"": ""[S [NP t5] [PP t6] [VP t7] [S [VP t8] [NP t8] [VP t9]]]"",
+        ""dependencies"": [
+          ""t5->t6 (location)"",
+          ""t5->t7 (circumstantial)"",
+          ""t7->t8 (main clause)"",
+          ""t8->t9 (vocative/content)""
+        ],
+        ""notes"": ""Enoch's state and the divine call.""
+      }
+    ]
+  }
+}"
+14,segment_024,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_024\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Narrative Sequence"",
+        ""bracket_notation"": ""[S [VP t5] [VP t5] [PP t6] [S [VP t6] [NP t6] [PP t6] [NP t7]]]"",
+        ""dependencies"": [
+          ""t5->t6 (location)"",
+          ""t5->t6 (coordination)"",
+          ""t6->t7 (object)""
+        ],
+        ""notes"": ""Being lifted up to the entrance.""
+      }
+    ]
+  }
+}"
+15,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_001\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1_P1"",
+        ""structure_type"": ""Main Clause with Direct Speech"",
+        ""bracket_notation"": ""[S [V t5] [S_speech [V t6] [NP_vocative [N t7] [N t8] [N t9]]]]"",
+        ""dependencies"": [
+          ""t5 -> t6 (complement/speech)"",
+          ""t6 -> t7 (vocative)"",
+          ""t7 -> t8 (modifier)"",
+          ""t8 -> t9 (object)""
+        ],
+        ""notes"": ""t5 introduces the speech acts in t6-t9.""
+      }
+    ]
+  }
+}"
+15,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_002\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S2_P1"",
+        ""structure_type"": ""Imperative Clause with Relative Clause"",
+        ""bracket_notation"": ""[S [V t5] [NP [PRO.REL t6] [PREP t7] [N t8] [N t9] [PRO.PERS t10]]]"",
+        ""dependencies"": [
+          ""t5 -> t6 (modifier/relative)"",
+          ""t6 -> t7 (complement)"",
+          ""t8 -> t7 (subject/topic)"",
+          ""t8 -> t9 (object)"",
+          ""t9 -> t10 (possessor/modifier)""
+        ],
+        ""notes"": ""t5 is the main imperative 'Go'. t6 introduces the relative clause describing the target.""
+      }
+    ]
+  }
+}"
+15,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_003\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S3_P1"",
+        ""structure_type"": ""Interrogative/Accusative Clause Chain"",
+        ""bracket_notation"": ""[S [PREP t5] [ADJ t6] [PREP t7] [PREP t8] [V t9] [PREP t10] [N t11] [N t12]]"",
+        ""dependencies"": [
+          ""t5 -> t9 (adjunct/reason)"",
+          ""t6 -> t5 (modifier)"",
+          ""t9 -> t7 (adjunct)"",
+          ""t9 -> t8 (adjunct)"",
+          ""t9 -> t10 (indirect_object)"",
+          ""t9 -> t11 (direct_object/result)"",
+          ""t11 -> t12 (apposition/modifier)""
+        ],
+        ""notes"": ""t9 'defiled/took' is the main predicate. t5 asks 'Why?'. t7/t8 describe the means.""
+      }
+    ]
+  }
+}"
+15,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_004\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S4_P1"",
+        ""structure_type"": ""Complex Nominal and Verbal Clause"",
+        ""bracket_notation"": ""[S [NP [PRO.PERS t10] [ADJ t11] [N t12]] [VP [V t13] [V t14] [V t15] [PRO.PERS t16] [PRO.REL t17] [V t18]]]"",
+        ""dependencies"": [
+          ""t13 -> t10 (subject)"",
+          ""t10 -> t11 (apposition)"",
+          ""t11 -> t12 (modifier)"",
+          ""t13 -> t14 (coordination)"",
+          ""t14 -> t15 (coordination)"",
+          ""t15 -> t16 (object/complement)"",
+          ""t16 -> t17 (relative_marker)"",
+          ""t17 -> t18 (relative_clause)""
+        ],
+        ""notes"": ""Series of verbs t13-t15 describing the actions of the subject t10.""
+      }
+    ]
+  }
+}"
+15,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_005\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S5_P1"",
+        ""structure_type"": ""Causal/Result Clause"",
+        ""bracket_notation"": ""[S [ADV t5] [N t6] [PREP t7] [PREP t8] [V t9] [PREP t10]]"",
+        ""dependencies"": [
+          ""t5 -> t6 (object/theme)"",
+          ""t6 -> t7 (modifier/purpose)"",
+          ""t9 -> t5 (reason/cause)"",
+          ""t9 -> t8 (adjunct)"",
+          ""t9 -> t10 (location)""
+        ],
+        ""notes"": ""t5 'Therefore/Because of this' links to previous context. t9 is the main result verb.""
+      }
+    ]
+  }
+}"
+15,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_006\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S6_P1"",
+        ""structure_type"": ""Nominal Predication"",
+        ""bracket_notation"": ""[S [NP [PRO.PERS t5]] [NP_pred [ADJ t6] [ADJ t7] [N t8]]]"",
+        ""dependencies"": [
+          ""t5 -> t6 (predicate)"",
+          ""t6 -> t7 (modifier)"",
+          ""t7 -> t8 (complement/scope)""
+        ],
+        ""notes"": ""Stative/equational sentence structure describing the nature of 'you' (t5).""
+      }
+    ]
+  }
+}"
+15,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_007\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S7_P1"",
+        ""structure_type"": ""Verbal Clause with Causal Subordinate"",
+        ""bracket_notation"": ""[S [ADV t5] [N t6] [S_sub [N t6] [PREP t7]]]"",
+        ""dependencies"": [
+          ""t5 -> t6 (object)"",
+          ""t5 -> t7 (causal_adjunct)"",
+          ""t7 -> t6 (subject_of_locative)""
+        ],
+        ""notes"": ""t5 'I did not appoint' is main. t6 'wives'. t7 explains why ('because... in heaven').""
+      }
+    ]
+  }
+}"
+15,segment_008,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_008\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S8_P1"",
+        ""structure_type"": ""Compound Verbal Clause"",
+        ""bracket_notation"": ""[S [ADV t5] [PREP t6] [ADJ t7] [PREP t8] [N t9]]"",
+        ""dependencies"": [
+          ""t7 -> t5 (temporal_adjunct)"",
+          ""t7 -> t6 (origin/source)"",
+          ""t7 -> t8 (coordination)"",
+          ""t8 -> t9 (subject_of_locative)""
+        ],
+        ""notes"": ""t7 'shall be called evil' and t8 'shall be' are coordinated predictions.""
+      }
+    ]
+  }
+}"
+15,segment_009,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_009\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S9_P1"",
+        ""structure_type"": ""Complex Narrative Chain"",
+        ""bracket_notation"": ""[S [N t5] [V t7] [PREP t8] [CONJ.SUB t10] [PREP t11] [PREP t12] [V t14] [N t15] [N t16] [N t17] [V t18]]"",
+        ""dependencies"": [
+          ""t7 -> t5 (subject)"",
+          ""t7 -> t8 (source)"",
+          ""t7 -> t10 (cause)"",
+          ""t10 -> t11 (subordinate_clause)"",
+          ""t11 -> t12 (source)"",
+          ""t14 -> t15 (subject)"",
+          ""t16 -> t14 (predicate/complement)"",
+          ""t18 -> t17 (subject)"",
+          ""t18 -> t16 (coordination)""
+        ],
+        ""notes"": ""Describes the origin (t7-t12) and future nature (t14-t18) of the evil spirits.""
+      }
+    ]
+  }
+}"
+15,segment_010,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_010\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S10_P1"",
+        ""structure_type"": ""Parallel Locative Clauses"",
+        ""bracket_notation"": ""[S [NP [N t5]] [VP [V t6] [N t7]] [NP [N t8] [N t9] [N t10]]]"",
+        ""dependencies"": [
+          ""t6 -> t5 (subject)"",
+          ""t6 -> t7 (locative_complement)"",
+          ""t8 -> t10 (parallel_subject_structure)"",
+          ""t10 -> t9 (locative_modifier)""
+        ],
+        ""notes"": ""Contrasts spirits of heaven (t5-t7) with spirits of earth (t8-t10).""
+      }
+    ]
+  }
+}"
+15,segment_011,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_011\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S11_P1"",
+        ""structure_type"": ""Relative Clause Chain"",
+        ""bracket_notation"": ""[S [N t5] [PRO.REL t6] [V t7] [V t9] [V t10] [PRO.REL t11] [V t13] [V t14]]"",
+        ""dependencies"": [
+          ""t5 -> t6 (modifier)"",
+          ""t6 -> t7 (relative_verb)"",
+          ""t6 -> t9 (relative_verb_2)"",
+          ""t6 -> t10 (relative_verb_3)"",
+          ""t10 -> t11 (object/scope)"",
+          ""t11 -> t13 (relative_verb_4)"",
+          ""t11 -> t14 (relative_verb_5)""
+        ],
+        ""notes"": ""Long description of the activities of the spirits (t5) via relative clauses.""
+      }
+    ]
+  }
+}"
+15,segment_012,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_012\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S12_P1"",
+        ""structure_type"": ""Negative Verbal Clause with Cause"",
+        ""bracket_notation"": ""[S [V t5] [PREP t6] [N t7] [N t8]]"",
+        ""dependencies"": [
+          ""t5 -> t6 (target/adversative)"",
+          ""t5 -> t7 (cause)"",
+          ""t7 -> t8 (modifier/time)""
+        ],
+        ""notes"": ""t5 'They will not rise' (or similar negative action). t7 'because they came forth' provides the reason.""
+      }
+    ]
+  }
+}"
+16,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_016\segment_001\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1_P1"",
+        ""structure_type"": ""Discourse Segment"",
+        ""bracket_notation"": ""[META [N t1] [NUM t2]] [META [N t3] [NUM t4]] [S [NP t5] [VP [VP t6] [SBAR [S t7] [ADV t8]]] [PP [P t9] [NP t10]] [PP [P t11] [VP t12]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)"",
+          ""t6->t5 (nsubj)"",
+          ""t6->t7 (ccomp)"",
+          ""t7->t8 (advcl)"",
+          ""t7->t9 (obl:tmod)"",
+          ""t9->t10 (acl:relcl)"",
+          ""t10->t11 (obl:agent)"",
+          ""t12->t11 (parataxis)""
+        ],
+        ""notes"": ""Tokens are multi-word phrases. Dependency relations approximate the semantic connection between chunks.""
+      }
+    ]
+  }
+}"
+16,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_016\segment_002\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S2_P1"",
+        ""structure_type"": ""Discourse Segment"",
+        ""bracket_notation"": ""[META [N t1] [NUM t2]] [META [N t3] [NUM t4]] [S [PP t5] [VP t6] [SBAR t7]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)"",
+          ""t6->t5 (iobj)"",
+          ""t6->t7 (acl:relcl)""
+        ],
+        ""notes"": ""t5 'And now to the watchers...' functions as the indirect object focus for the implied main verb.""
+      }
+    ]
+  }
+}"
+16,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_016\segment_003\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S3_P1"",
+        ""structure_type"": ""Discourse Segment"",
+        ""bracket_notation"": ""[META [N t1] [NUM t2]] [META [N t3] [NUM t4]] [S [S [VP t5] [VP t6]] [S [VP t7] [NP t8] [VP t9]] [S [VP t10] [NP t11]] [S [VP t12] [PP t13]]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)"",
+          ""t6->t5 (conj)"",
+          ""t9->t7 (ccomp)"",
+          ""t9->t8 (obj)"",
+          ""t10->t9 (conj)"",
+          ""t10->t11 (obl:inst)"",
+          ""t12->t10 (advcl)"",
+          ""t12->t13 (obl:loc)""
+        ],
+        ""notes"": ""Complex sentence chain split across multiple phrase-tokens.""
+      }
+    ]
+  }
+}"
+16,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_016\segment_004\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S4_P1"",
+        ""structure_type"": ""Discourse Segment"",
+        ""bracket_notation"": ""[META [N t1] [NUM t2]] [META [N t3] [NUM t4]] [S [VP t5] [NP t6]]"",
+        ""dependencies"": [
+          ""t1->t2 (nummod)"",
+          ""t3->t4 (nummod)"",
+          ""t5->t6 (obj)""
+        ],
+        ""notes"": ""Direct address formula.""
+      }
+    ]
+  }
+}"
+17,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_017\segment_001\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""P1"",
+        ""structure_type"": ""Complex Sentence"",
+        ""bracket_notation"": ""[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP t5 [SBAR t6 [VP t7 [VP t8]]]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""ROOT->t5 (main_verb)"",
+          ""t5->t6 (relative_clause)"",
+          ""t6->t7 (adverbial_clause)"",
+          ""t7->t8 (consequent)""
+        ],
+        ""notes"": ""t5 'they took' governs the relative clause t6 'which were'. t7 'burning/wishing' modifies the state in t6. t8 'appear' follows the condition in t7.""
+      }
+    ]
+  }
+}"
+17,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_017\segment_002\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""P1"",
+        ""structure_type"": ""Complex Sentence"",
+        ""bracket_notation"": ""[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP t5 [NP t6 [SBAR t7 [VP t8]]]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""ROOT->t5 (main_verb)"",
+          ""t5->t6 (obl_arg)"",
+          ""t6->t7 (relative_mod)"",
+          ""t7->t8 (relative_comp)""
+        ],
+        ""notes"": ""t5 'took' -> t6 'place/mountain' -> t7 'whose/which' -> t8 'reached'.""
+      }
+    ]
+  }
+}"
+17,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_017\segment_003\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""P1"",
+        ""structure_type"": ""Coordination"",
+        ""bracket_notation"": ""[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP t5 [NP t7] [PP t9] [NP t11] [NP t13]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""ROOT->t5 (main_verb)"",
+          ""t5->t7 (obj_coord)"",
+          ""t5->t9 (obl_coord)"",
+          ""t5->t11 (obj_coord)"",
+          ""t5->t13 (obj_coord)""
+        ],
+        ""notes"": ""t5 'I saw' governs a list of coordinated objects/locatives (t7, t9, t11, t13). Punctuation tokens t6, t8, t10, t12 are separators.""
+      }
+    ]
+  }
+}"
+17,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_017\segment_004\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""P1"",
+        ""structure_type"": ""Complex Sentence"",
+        ""bracket_notation"": ""[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP t5 [NP t6] [NP t7 [PP t8]]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""ROOT->t5 (main_verb)"",
+          ""t5->t6 (obl_arg)"",
+          ""t5->t7 (obl_coord)"",
+          ""t7->t8 (nmod)""
+        ],
+        ""notes"": ""t5 'took' -> t6 'waters'. Coordinated with t7 'fire'. t7 modified by t8 'to setting'.""
+      }
+    ]
+  }
+}"
+17,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_017\segment_005\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""P1"",
+        ""structure_type"": ""Serial Verb Construction"",
+        ""bracket_notation"": ""[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP t5 [SBAR [VP t6 [VP t7 [ADJP t8]]]]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""ROOT->t5 (main_verb)"",
+          ""t5->t6 (relative_clause)"",
+          ""t6->t7 (conj)"",
+          ""t7->t8 (amod)""
+        ],
+        ""notes"": ""t5 'came' -> t6 'flows'. t6 coordinated with t7 'pours'. t7 modified by t8 'great/west'.""
+      }
+    ]
+  }
+}"
+17,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_017\segment_006\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""P1"",
+        ""structure_type"": ""Complex Sentence"",
+        ""bracket_notation"": ""[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP t5 [NP t6] [NP t7 [PP t8]]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""ROOT->t5 (main_verb)"",
+          ""t5->t6 (obj)"",
+          ""t5->t7 (conj_obj)"",
+          ""t7->t8 (acl_relcl)""
+        ],
+        ""notes"": ""t5 'saw' -> t6 'rivers'. t7 'darkness' (noun option) coordinated object. t7 modified by t8 'where...'.""
+      }
+    ]
+  }
+}"
+17,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_017\segment_007\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""P1"",
+        ""structure_type"": ""Coordination"",
+        ""bracket_notation"": ""[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP t5 [NP t6] [NP t7]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""ROOT->t5 (main_verb)"",
+          ""t5->t6 (obj)"",
+          ""t5->t7 (obj_coord)""
+        ],
+        ""notes"": ""t5 'saw' -> t6 'mountains/winter'. t7 'abyss' coordinated object.""
+      }
+    ]
+  }
+}"
+17,segment_008,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_017\segment_008\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""P1"",
+        ""structure_type"": ""Simple Sentence"",
+        ""bracket_notation"": ""[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP t5 [NP t6]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""ROOT->t5 (main_verb)"",
+          ""t5->t6 (obj)""
+        ],
+        ""notes"": ""t5 'saw' -> t6 'mouths...'.""
+      }
+    ]
+  }
+}"
+18,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_001\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Compound Sentence"",
+        ""bracket_notation"": ""[ROOT [Meta t1 t2 t3 t4] [S [S1 [VP t5 [NP [t6 (start)]]]] [S2 [VP [t6 (end)] [SBAR [t6 (sub)] [S [VP t7 [NP t8]]]]]]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""t5->t6 (obj_complement)"",
+          ""t6->t7 (clausal_complement)"",
+          ""t7->t8 (conjunct_obj)""
+        ],
+        ""notes"": ""Tokenization lumps clauses; t6 acts as pivot.""
+      }
+    ]
+  }
+}"
+18,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_002\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Compound Sentence"",
+        ""bracket_notation"": ""[ROOT [Meta t1 t2 t3 t4] [S [S1 [VP t5 [NP t6 (part1)]]] [S2 [VP [t6 (part2)] [NP t7 [SBAR [Rel t7] [VP t7] [PP t7 [NP t8]]]]]]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""t5->t6 (genitive_chain)"",
+          ""t6->t7 (obj_complement)"",
+          ""t7->t8 (coord_obj)""
+        ],
+        ""notes"": ""t6 contains end of S1 and start of S2.""
+      }
+    ]
+  }
+}"
+18,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_003\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Complex Sentence"",
+        ""bracket_notation"": ""[ROOT [Meta t1 t2 t3 t4] [S [S1 [VP t5 [SBAR [Comp t5] [S [NP t5] [VP t6 [PP t6 [NP t7]]]]]]] [S2 [NP t7] [VP t7 [PP t8]]] [S3 [NP t9] [NP t9 [NP t10]]]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""t5->t6 (clausal_complement)"",
+          ""t6->t7 (obj_modifier)"",
+          ""t7->t8 (locative_adjunct)"",
+          ""t9->t10 (genitive_complement)""
+        ],
+        ""notes"": ""t9 acts as copular sentence subject+copula.""
+      }
+    ]
+  }
+}"
+18,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_004\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Complex Sentence"",
+        ""bracket_notation"": ""[ROOT [Meta t1 t2 t3 t4] [S [VP t5 [NP [NP t5] [SBAR [Rel t5] [S [VP t6 [NP t6] [SBAR [Rel t6] [S [VP t7 [NP t7 [Coord t7 t8]]]]]]]]]]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""t5->t6 (relative_clause)"",
+          ""t6->t7 (relative_clause)"",
+          ""t7->t8 (coord_obj)""
+        ],
+        ""notes"": ""Nested relative clauses.""
+      }
+    ]
+  }
+}"
+18,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_005\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Narrative Sequence"",
+        ""bracket_notation"": ""[ROOT [Meta t1 t2 t3 t4] [S [S1 t5 t6] [S2 t6 t7] [S3 t7 t8 t9] [S4 t9 t10] [S5 t10 t11 t12 t13 t14]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""t5->t6 (relative_mod)"",
+          ""t6->t7 (obj_sequence)"",
+          ""t7->t8 (locative_sequence)"",
+          ""t8->t9 (genitive_mod)"",
+          ""t9->t10 (directional_adjunct)"",
+          ""t10->t11 (temporal_adjunct)"",
+          ""t11->t12 (locative_adjunct)"",
+          ""t12->t13 (distributive_mod)"",
+          ""t13->t14 (distributive_mod)""
+        ],
+        ""notes"": ""Long narrative chain.""
+      }
+    ]
+  }
+}"
+18,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_006\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Descriptive List"",
+        ""bracket_notation"": ""[ROOT [Meta t1 t2 t3 t4] [S [NP t5 [PP t5]] [NP t6 [PP t6]] [NP t7 [PP t7]] [Punct t8] [NP t9 [PP t9 [Adj t10]]]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""t5->t6 (coord_list)"",
+          ""t6->t7 (coord_list)"",
+          ""t7->t8 (punctuation)"",
+          ""t9->t10 (adjectival_mod)""
+        ],
+        ""notes"": ""Elliptical structures describing stones.""
+      }
+    ]
+  }
+}"
+18,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_007\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Descriptive Sentence"",
+        ""bracket_notation"": ""[ROOT [Meta t1 t2 t3 t4] [S [S1 [NP t5] [VP t5 [PP t5] [PP t6 [NP t6 [NP t7]]]]] [S2 [NP t8] [PP t8 [NP t9]]]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""t5->t6 (prep_complement)"",
+          ""t6->t7 (genitive_chain)"",
+          ""t7->t8 (coord_subject)"",
+          ""t8->t9 (genitive_mod)""
+        ],
+        ""notes"": ""Comparative construction 'like throne'.""
+      }
+    ]
+  }
+}"
+18,segment_008,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_008\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Simple Sentence"",
+        ""bracket_notation"": ""[ROOT [Meta t1 t2 t3 t4] [S [VP t5 [NP t5]] [SBAR t6 [PP t6]]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""t5->t6 (relative_clause)""
+        ],
+        ""notes"": """"
+      }
+    ]
+  }
+}"
+18,segment_009,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_009\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Complex Sentence"",
+        ""bracket_notation"": ""[ROOT [Meta t1 t2 t3 t4] [S [VP t5 [NP t5] [PP t5 [NP t6]]] [SBAR [Adv t6] [S [VP t7 [NP t7]]]]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""t5->t6 (prep_obj)"",
+          ""t6->t7 (locative_clause)""
+        ],
+        ""notes"": """"
+      }
+    ]
+  }
+}"
+18,segment_010,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_010\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Compound Sentence"",
+        ""bracket_notation"": ""[ROOT [Meta t1 t2 t3 t4] [S [S1 [VP t5 [NP t5] [Adj t5] [PP t6 [NP t6 [NP t7]]]]] [S2 [VP t7 [PP t7] [NP t8 [PP t8] [SBAR t9 [S [VP t9] [NP t9]]]]]] [S3 [Conj t10] [Conj t11] [Punct t12]]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""t5->t6 (prep_mod)"",
+          ""t6->t7 (genitive_mod)"",
+          ""t7->t8 (obj_complement)"",
+          ""t8->t9 (relative_mod)"",
+          ""t9->t10 (coord_negation)"",
+          ""t10->t11 (coord_negation)"",
+          ""t11->t12 (punctuation)""
+        ],
+        ""notes"": """"
+      }
+    ]
+  }
+}"
+18,segment_011,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_011\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Descriptive Sentence"",
+        ""bracket_notation"": ""[ROOT [Meta t1 t2 t3 t4] [S [PP t5] [VP t5 [NP t6]] [SBAR [Conj t6] [NP t6] [Adv t6]] [SBAR [Conj t7] [NP t7] [Adv t7]] [SBAR [Conj t8] [NP t8] [Adv t8]] [SBAR [Conj t9] [NP t9] [Adj t9] [VP t10]]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""t5->t6 (obj_complement)"",
+          ""t6->t7 (coord_negation)"",
+          ""t7->t8 (coord_negation)"",
+          ""t8->t9 (coord_negation)"",
+          ""t9->t10 (copular_pred)""
+        ],
+        ""notes"": ""Series of negated existential clauses.""
+      }
+    ]
+  }
+}"
+18,segment_012,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_012\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Complex Sentence"",
+        ""bracket_notation"": ""[ROOT [Meta t1 t2 t3 t4] [S [VP t5 [Adj t5] [NP t5 [NP t6 [Adj t6]]]] [SBAR [Rel t7] [VP t7]] [SBAR [Conj t7] [NP t7] [SBAR [Rel t7] [VP t8]]]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""t5->t6 (appositive_obj)"",
+          ""t6->t7 (relative_mod)"",
+          ""t7->t8 (relative_mod)""
+        ],
+        ""notes"": """"
+      }
+    ]
+  }
+}"
+18,segment_013,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_013\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Direct Speech"",
+        ""bracket_notation"": ""[ROOT [Meta t1 t2 t3 t4] [S [VP t5 [NP t5]] [S [NP t5] [NP t5 [NP t6 [PP t6 [Coord t7]]]]] [S [NP t7 [NP t7]] [PP t8 [NP t8 [NP t8 [Coord t9]]]]]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""t5->t6 (pred_nom)"",
+          ""t6->t7 (genitive_coord)"",
+          ""t7->t8 (appositive_sentence)"",
+          ""t8->t9 (coord_obj)""
+        ],
+        ""notes"": """"
+      }
+    ]
+  }
+}"
+18,segment_014,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_014\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Compound Sentence"",
+        ""bracket_notation"": ""[ROOT [Meta t1 t2 t3 t4] [S [S1 [NP t5 [SBAR [Rel t5] [VP t5 [PP t6]]]]] [S2 [NP t6] [VP t6 [NP t7 [SBAR [Rel t7] [VP t7 [NP t7 [NP t8]]]]]] [PP t8 [NP t9 [SBAR [Conj t9] [VP t9 [NP t10]]]]]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""t5->t6 (locative_mod)"",
+          ""t6->t7 (pred_nom)"",
+          ""t7->t8 (temporal_adjunct)"",
+          ""t8->t9 (genitive_mod)"",
+          ""t9->t10 (causal_adjunct)""
+        ],
+        ""notes"": """"
+      }
+    ]
+  }
+}"
+18,segment_015,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_015\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Simple Sentence"",
+        ""bracket_notation"": ""[ROOT [Meta t1 t2 t3 t4] [S [VP t5] [VP t5 [PP t5 [NP t6 [NP t6 [NP t6]]]]] [NP t7 [NP t7]]]]"",
+        ""dependencies"": [
+          ""t1->t2 (numeral_mod)"",
+          ""t3->t4 (numeral_mod)"",
+          ""t5->t6 (temporal_limit)"",
+          ""t6->t7 (appositive_time)""
+        ],
+        ""notes"": """"
+      }
+    ]
+  }
+}"
+19,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_019\segment_001\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Discourse Structure (Approximated due to segmentation)"",
+        ""bracket_notation"": ""[ROOT [Meta t1 t2 t3 t4] [S [Main [V t5]] [Sub [NP t6] [VP t7] [NP t8] [VP t9] [VP t10] [PP t11] [PP t12] [Sbar t13] [VP t14]]]]"",
+        ""dependencies"": [
+          ""t5->t6 (complement_clause_start)"",
+          ""t6->t7 (continuation)"",
+          ""t5->t7 (content_verb)"",
+          ""t7->t8 (subject_elaboration)"",
+          ""t7->t9 (coordinate_clause)"",
+          ""t9->t10 (consecutive)"",
+          ""t10->t11 (oblique)"",
+          ""t7->t12 (temporal_clause)"",
+          ""t12->t13 (relative_clause)"",
+          ""t13->t14 (limit_clause)""
+        ],
+        ""notes"": ""Input tokenization aggregates multiple words per token. Analysis reflects macro-dependencies between textual chunks.""
+      }
+    ]
+  }
+}"
+19,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_019\segment_002\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Simple Sentence"",
+        ""bracket_notation"": ""[ROOT [Meta t1 t2 t3 t4] [S [NP t5] [NP t6] [VP t7]]]"",
+        ""dependencies"": [
+          ""t7->t5 (subject)"",
+          ""t5->t6 (modifier)"",
+          ""t7->t6 (predicate_nominative_approximated)""
+        ],
+        ""notes"": ""t5 contains subject 'women'; t7 contains verb 'become'.""
+      }
+    ]
+  }
+}"
+19,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_019\segment_003\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Compound Sentence"",
+        ""bracket_notation"": ""[ROOT [Meta t1 t2 t3 t4] [S [S1 [NP t5] [VP t5] [NP t6]] [Conj w-t6] [S2 [NP t6] [Rel t7] [Adv t7] [VP t8]]]]"",
+        ""dependencies"": [
+          ""t5->t6 (object_complement)"",
+          ""t5->t7 (coordinate_clause)"",
+          ""t7->t8 (comparative_clause)""
+        ],
+        ""notes"": ""t5 'I Enoch saw'; t6 'ends of all'; t7 'no man sees'; t8 'as I saw'.""
+      }
+    ]
+  }
+}"
+20,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_020\segment_001\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Nominal Clause"",
+        ""bracket_notation"": ""[S [Meta t1 t2 t3 t4] [NP_Subj_Pred t5] [RelCl_Appos t6]]"",
+        ""dependencies"": [
+          ""t5->t6 (apposition/relative)""
+        ],
+        ""notes"": ""t5 functions as the demonstrative head introducing the list; t6 provides the descriptive content (the watchers/holy angels).""
+      }
+    ]
+  }
+}"
+20,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_020\segment_002\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Nominal Sentence / List Item"",
+        ""bracket_notation"": ""[S [Meta t1 t2 t3 t4] [NP_Subj t5] [PP_Attr t6 [Coord t7]]]"",
+        ""dependencies"": [
+          ""t5->t6 (modifier/attribute)"",
+          ""t6->t7 (coordination)""
+        ],
+        ""notes"": ""t5 establishes the subject (Uriel); t6 introduces the domain (thunder); t7 extends the domain (trembling).""
+      }
+    ]
+  }
+}"
+20,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_020\segment_003\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Nominal Sentence / List Item"",
+        ""bracket_notation"": ""[S [Meta t1 t2 t3 t4] [NP_Subj t5] [NP_Compl t6]]"",
+        ""dependencies"": [
+          ""t5->t6 (complement/apposition)""
+        ],
+        ""notes"": ""t5 (Raphael...) and t6 (...angels...) form a continuous nominal chain describing the entity and function.""
+      }
+    ]
+  }
+}"
+20,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_020\segment_004\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Nominal Sentence / List Item"",
+        ""bracket_notation"": ""[S [Meta t1 t2 t3 t4] [NP_Subj t5] [RelCl t6 [Coord t7]]]"",
+        ""dependencies"": [
+          ""t5->t6 (modifier/relative)"",
+          ""t6->t7 (coordination)""
+        ],
+        ""notes"": ""t5 (Raguel) is modified by the relative clause in t6 (who avenges), which is extended by t7 (and luminaries).""
+      }
+    ]
+  }
+}"
+20,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_020\segment_005\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Nominal Sentence / List Item"",
+        ""bracket_notation"": ""[S [Meta t1 t2 t3 t4] [NP_Subj t5] [RelCl t6] [NP_Appos t7]]"",
+        ""dependencies"": [
+          ""t5->t6 (modifier)"",
+          ""t6->t7 (continuation/apposition)""
+        ],
+        ""notes"": ""t5 (Michael) is defined by the scope in t6 (over the best) and t7 (command over people).""
+      }
+    ]
+  }
+}"
+20,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_020\segment_006\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Complex Nominal Sentence"",
+        ""bracket_notation"": ""[S [Meta t1 t2 t3 t4] [NP_Subj t5] [RelCl t6 [NP_Gen t7 [RelCl t8]]]]"",
+        ""dependencies"": [
+          ""t5->t6 (modifier)"",
+          ""t6->t7 (genitive chain)"",
+          ""t7->t8 (relative modifier)""
+        ],
+        ""notes"": ""Complex embedding: t5 (Saraqael) -> t6 (over spirits) -> t7 (of men) -> t8 (who sin).""
+      }
+    ]
+  }
+}"
+20,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_020\segment_007\segment.txt,"{
+  ""syntax"": {
+    ""parses"": [
+      {
+        ""id"": ""S1"",
+        ""structure_type"": ""Nominal Sentence / List Item"",
+        ""bracket_notation"": ""[S [Meta t1 t2 t3 t4] [NP_Subj t5] [RelCl t6 [Coord t7]]]"",
+        ""dependencies"": [
+          ""t5->t6 (modifier)"",
+          ""t6->t7 (coordination)""
+        ],
+        ""notes"": ""t5 (Gabriel) is modified by t6 (over Paradise), extended by t7 (and serpents...).""
+      }
+    ]
+  }
+}"

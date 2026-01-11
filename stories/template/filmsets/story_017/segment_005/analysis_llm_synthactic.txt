@@ -1,0 +1,20 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "P1",
+        "structure_type": "Serial Verb Construction",
+        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP t5 [SBAR [VP t6 [VP t7 [ADJP t8]]]]]]",
+        "dependencies": [
+          "t1->t2 (numeral_mod)",
+          "t3->t4 (numeral_mod)",
+          "ROOT->t5 (main_verb)",
+          "t5->t6 (relative_clause)",
+          "t6->t7 (conj)",
+          "t7->t8 (amod)"
+        ],
+        "notes": "t5 'came' -> t6 'flows'. t6 coordinated with t7 'pours'. t7 modified by t8 'great/west'."
+      }
+    ]
+  }
+}

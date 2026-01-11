@@ -1,0 +1,20 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Complex Sentence",
+        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [S1 [VP t5 [SBAR [Comp t5] [S [NP t5] [VP t6 [PP t6 [NP t7]]]]]]] [S2 [NP t7] [VP t7 [PP t8]]] [S3 [NP t9] [NP t9 [NP t10]]]]]",
+        "dependencies": [
+          "t1->t2 (numeral_mod)",
+          "t3->t4 (numeral_mod)",
+          "t5->t6 (clausal_complement)",
+          "t6->t7 (obj_modifier)",
+          "t7->t8 (locative_adjunct)",
+          "t9->t10 (genitive_complement)"
+        ],
+        "notes": "t9 acts as copular sentence subject+copula."
+      }
+    ]
+  }
+}

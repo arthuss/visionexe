@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:47:19Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_018/segment_006",
+    "graphematic_string": "Chapter 18 Segment 6\n\nወመንገለ፡ጽባሕሰ፡ዘእምእብነ፡\nኅብር፡ወ፩ሰ፡ዘእምእብነ፡\nባሕርይ፡ወ፩ኒ፡እምእብነ፡ፈውስ\n፤ ወዘመንገለ፡ዜብ፡እምእብን፡\nቀይሕ፡",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Chapter",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "18",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "18",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Segment",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "6",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "6",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወመንገለ፡ጽባሕሰ፡ዘእምእብነ፡",
+      "span": {
+        "start": 22,
+        "end": 40
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ነገለ",
+            "lemma": "መንገሌ",
+            "pattern": "መቅትል"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "1En18:6"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ኅብር፡ወ፩ሰ፡ዘእምእብነ፡",
+      "span": {
+        "start": 41,
+        "end": 56
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ኅብረ",
+            "lemma": "ኅብር",
+            "pattern": "ቀትል"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "1En18:6"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ባሕርይ፡ወ፩ኒ፡እምእብነ፡ፈውስ",
+      "span": {
+        "start": 57,
+        "end": 75
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ባሕረ",
+            "lemma": "ባሕርይ",
+            "pattern": "ቀትልይ"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "1En18:6"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "፤",
+      "span": {
+        "start": 76,
+        "end": 77
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "PART.MOD",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "፤",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ወዘመንገለ፡ዜብ፡እምእብን፡",
+      "span": {
+        "start": 78,
+        "end": 94
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ነገለ",
+            "lemma": "መንገሌ",
+            "pattern": "መቅትል"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "1En18:6"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "ቀይሕ፡",
+      "span": {
+        "start": 95,
+        "end": 99
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ቀይሐ",
+            "lemma": "ቀይሕ",
+            "pattern": "ቀታል"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.95
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "1En18:6"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

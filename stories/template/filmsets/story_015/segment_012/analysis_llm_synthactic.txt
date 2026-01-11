@@ -1,0 +1,17 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S12_P1",
+        "structure_type": "Negative Verbal Clause with Cause",
+        "bracket_notation": "[S [V t5] [PREP t6] [N t7] [N t8]]",
+        "dependencies": [
+          "t5 -> t6 (target/adversative)",
+          "t5 -> t7 (cause)",
+          "t7 -> t8 (modifier/time)"
+        ],
+        "notes": "t5 'They will not rise' (or similar negative action). t7 'because they came forth' provides the reason."
+      }
+    ]
+  }
+}

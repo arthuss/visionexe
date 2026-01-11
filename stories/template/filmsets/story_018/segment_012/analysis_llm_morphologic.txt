@@ -1,0 +1,268 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:47:19Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_018/segment_012",
+    "graphematic_string": "Chapter 18 Segment 12\n\nወግሩመ፡ርኢኩ፡ህየ፡ዋብተ፡\n፯መ፡ድባር፡ዐይት፡\nዘይነድዱ፡ወመ፡መንፈስ፡\nዘይሴለኒ፡",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Chapter",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "18",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "18",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Segment",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "12",
+      "span": {
+        "start": 19,
+        "end": 21
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "12",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወግሩመ፡ርኢኩ፡ህየ፡ዋብተ፡",
+      "span": {
+        "start": 23,
+        "end": 39
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ገረመ",
+            "lemma": "ግሩም",
+            "pattern": "ቅቱል"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "1En18:12"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "፯መ፡ድባር፡ዐይት፡",
+      "span": {
+        "start": 40,
+        "end": 51
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "7",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "1En18:12"
+            ],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ዘይነድዱ፡ወመ፡መንፈስ፡",
+      "span": {
+        "start": 52,
+        "end": 66
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ነደደ",
+            "lemma": "ነደደ",
+            "pattern": "ቀተለ"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "1En18:12"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ዘይሴለኒ፡",
+      "span": {
+        "start": 67,
+        "end": 73
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሰአለ",
+            "lemma": "ሰአለ",
+            "pattern": "ቀተለ"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "1En18:12"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

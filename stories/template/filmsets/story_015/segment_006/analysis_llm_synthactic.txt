@@ -1,0 +1,17 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S6_P1",
+        "structure_type": "Nominal Predication",
+        "bracket_notation": "[S [NP [PRO.PERS t5]] [NP_pred [ADJ t6] [ADJ t7] [N t8]]]",
+        "dependencies": [
+          "t5 -> t6 (predicate)",
+          "t6 -> t7 (modifier)",
+          "t7 -> t8 (complement/scope)"
+        ],
+        "notes": "Stative/equational sentence structure describing the nature of 'you' (t5)."
+      }
+    ]
+  }
+}

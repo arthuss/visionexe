@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:42:13Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_016/segment_004",
+    "graphematic_string": "Chapter 16 Segment 4\n\nሎሙ፡እንሰ፡ልብሙ፡\nሰላመ፨፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "Chapter",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "16",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "16",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "Segment",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "4",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "4",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ሎሙ፡እንሰ፡ልብሙ፡",
+      "span": {
+        "start": 22,
+        "end": 33
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "ሎሙ፡እንሰ፡ልብሙ፡",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ሰላመ፨፨",
+      "span": {
+        "start": 34,
+        "end": 39
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "ሰላመ፨፨",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

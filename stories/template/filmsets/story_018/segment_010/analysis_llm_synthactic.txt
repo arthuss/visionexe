@@ -1,0 +1,23 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Compound Sentence",
+        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [S1 [VP t5 [NP t5] [Adj t5] [PP t6 [NP t6 [NP t7]]]]] [S2 [VP t7 [PP t7] [NP t8 [PP t8] [SBAR t9 [S [VP t9] [NP t9]]]]]] [S3 [Conj t10] [Conj t11] [Punct t12]]]]",
+        "dependencies": [
+          "t1->t2 (numeral_mod)",
+          "t3->t4 (numeral_mod)",
+          "t5->t6 (prep_mod)",
+          "t6->t7 (genitive_mod)",
+          "t7->t8 (obj_complement)",
+          "t8->t9 (relative_mod)",
+          "t9->t10 (coord_negation)",
+          "t10->t11 (coord_negation)",
+          "t11->t12 (punctuation)"
+        ],
+        "notes": ""
+      }
+    ]
+  }
+}

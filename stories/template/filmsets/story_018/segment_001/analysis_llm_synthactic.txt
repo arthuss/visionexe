@@ -1,0 +1,19 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Compound Sentence",
+        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [S1 [VP t5 [NP [t6 (start)]]]] [S2 [VP [t6 (end)] [SBAR [t6 (sub)] [S [VP t7 [NP t8]]]]]]]]",
+        "dependencies": [
+          "t1->t2 (numeral_mod)",
+          "t3->t4 (numeral_mod)",
+          "t5->t6 (obj_complement)",
+          "t6->t7 (clausal_complement)",
+          "t7->t8 (conjunct_obj)"
+        ],
+        "notes": "Tokenization lumps clauses; t6 acts as pivot."
+      }
+    ]
+  }
+}

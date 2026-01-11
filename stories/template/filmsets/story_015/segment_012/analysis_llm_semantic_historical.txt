@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S12_P1",
+      "plausibility": "low",
+      "reasoning": "The parse correctly identifies the negative marker `i-` in the input text `wa-i-yitnaśśu` ('and they shall not rise'). However, historically and contextually (1 En 15:12), the text should likely be positive `wa-yitnaśśu` ('and they shall rise up'), as they are described as attacking men. The negative here contradicts the standard narrative flow.",
+      "parallels": [
+        {
+          "ref": "Standard Ethiopic Text",
+          "note": "Usually reads 'wa-yitnaśśu' (and they shall rise)."
+        }
+      ],
+      "context_invariance": "contradiction",
+      "back_translation": "And these spirits shall NOT rise against the children of men and against the women, because they have proceeded from them."
+    }
+  ],
+  "decision_log": "The parse accurately reflects the provided text, but the text itself appears to contain a significant variant or error (`i-yitnaśśu` vs `yitnaśśu`).",
+  "final_decision": {
+    "hypothesis_ref": "S12_P1",
+    "translation_id": "T1",
+    "confidence": "low"
+  }
+}

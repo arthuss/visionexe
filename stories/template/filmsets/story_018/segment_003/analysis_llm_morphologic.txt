@@ -1,0 +1,326 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:47:19Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_018/segment_003",
+    "graphematic_string": "Chapter 18 Segment 3\n\nወርኢኩ፡መ፡ነፋሳት፡\nይረብብዋ፡ለልዕልና፡\nሰማይ፨ወእሙንቱ፡ይቀውሙ፡\nማእለ፡ሰማይ፡ወምድር፡\nእሙንቱ፡ውእቶሙ፡ዕማደ፡\nሰማይ፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Chapter",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "18",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "18",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Segment",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "3",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "3",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወርኢኩ፡መ፡ነፋሳት፡",
+      "span": {
+        "start": 22,
+        "end": 34
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ርእየ",
+            "lemma": "ርእየ",
+            "pattern": "ገብረ"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.9
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "1En18:3"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ይረብብዋ፡ለልዕልና፡",
+      "span": {
+        "start": 35,
+        "end": 47
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ረበበ",
+            "lemma": "ረበበ",
+            "pattern": "ቀተለ"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.75
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "1En18:3"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ሰማይ፨ወእሙንቱ፡ይቀውሙ፡",
+      "span": {
+        "start": 48,
+        "end": 63
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሰመየ",
+            "lemma": "ሰማይ",
+            "pattern": "ቀታል"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.95
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "1En18:3"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ማእለ፡ሰማይ፡ወምድር፡",
+      "span": {
+        "start": 64,
+        "end": 77
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ማእከለ",
+            "lemma": "ማእከለ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "machine_inferred",
+            "attestation": [
+              "1En18:3"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "እሙንቱ፡ውእቶሙ፡ዕማደ፡",
+      "span": {
+        "start": 78,
+        "end": 92
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "PRO.PERS",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "እሙንቱ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.98
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "ሰማይ፨",
+      "span": {
+        "start": 93,
+        "end": 97
+      },
+      "options": [
+        {
+          "option_id": "O1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሰመየ",
+            "lemma": "ሰማይ",
+            "pattern": "ቀታል"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.95
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "1En18:3"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

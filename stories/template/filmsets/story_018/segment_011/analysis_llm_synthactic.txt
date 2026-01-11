@@ -1,0 +1,21 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Descriptive Sentence",
+        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [PP t5] [VP t5 [NP t6]] [SBAR [Conj t6] [NP t6] [Adv t6]] [SBAR [Conj t7] [NP t7] [Adv t7]] [SBAR [Conj t8] [NP t8] [Adv t8]] [SBAR [Conj t9] [NP t9] [Adj t9] [VP t10]]]]",
+        "dependencies": [
+          "t1->t2 (numeral_mod)",
+          "t3->t4 (numeral_mod)",
+          "t5->t6 (obj_complement)",
+          "t6->t7 (coord_negation)",
+          "t7->t8 (coord_negation)",
+          "t8->t9 (coord_negation)",
+          "t9->t10 (copular_pred)"
+        ],
+        "notes": "Series of negated existential clauses."
+      }
+    ]
+  }
+}

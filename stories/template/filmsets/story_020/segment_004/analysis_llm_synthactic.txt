@@ -1,0 +1,16 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Nominal Sentence / List Item",
+        "bracket_notation": "[S [Meta t1 t2 t3 t4] [NP_Subj t5] [RelCl t6 [Coord t7]]]",
+        "dependencies": [
+          "t5->t6 (modifier/relative)",
+          "t6->t7 (coordination)"
+        ],
+        "notes": "t5 (Raguel) is modified by the relative clause in t6 (who avenges), which is extended by t7 (and luminaries)."
+      }
+    ]
+  }
+}

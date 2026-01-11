@@ -1,0 +1,19 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1_P1",
+        "structure_type": "Main Clause with Adjuncts",
+        "bracket_notation": "[S [PP t5] [VP [V t6] [SBAR [V t7] [AdvP [ADV t8] [NP t9]]]]]",
+        "dependencies": [
+          "t6 (ROOT)",
+          "t6->t5 (temporal adjunct)",
+          "t6->t7 (relative/coordinate clause)",
+          "t7->t8 (locative argument)",
+          "t8->t9 (interrogative complement)"
+        ],
+        "notes": "Coarse-grained parse based on chunk tokens."
+      }
+    ]
+  }
+}

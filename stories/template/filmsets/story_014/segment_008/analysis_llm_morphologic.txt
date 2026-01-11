@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:37:21Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_014/segment_008",
+    "graphematic_string": "Chapter 14 Segment 8\n\nወንሥኡኒ፡ላዐለ፡ውስተ፡\nሰማይ፨ወቦእኩ፡እስ፡እቀርብ፡\nኀ፡ጥቅም፡ዘሕንጽት፡እብነ፡\nረድ፡ወልሳነ፡እሳት፡\nየውዶ፨ወወጠነ፡ያፍርሀኒ፡",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "t1_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Chapter",
+            "lemma": "Chapter",
+            "pattern": "metadata"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "14",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "t2_NUM",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "14",
+            "lemma": "14",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "t3_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Segment",
+            "lemma": "Segment",
+            "pattern": "metadata"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "8",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "t4_NUM",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "8",
+            "lemma": "8",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወንሥኡኒ፡ላዐለ፡ውስተ፡",
+      "span": {
+        "start": 22,
+        "end": 36
+      },
+      "options": [
+        {
+          "option_id": "t5_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ወንሥኡኒላዐለውስተ",
+            "lemma": "ወንሥኡኒ፡ላዐለ፡ውስተ፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ሰማይ፨ወቦእኩ፡እስ፡እቀርብ፡",
+      "span": {
+        "start": 37,
+        "end": 54
+      },
+      "options": [
+        {
+          "option_id": "t6_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሰማይእስእቀርብ",
+            "lemma": "ሰማይ፨ወቦእኩ፡እስ፡እቀርብ፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ኀ፡ጥቅም፡ዘሕንጽት፡እብነ፡",
+      "span": {
+        "start": 55,
+        "end": 71
+      },
+      "options": [
+        {
+          "option_id": "t7_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ኀጥቅምዘሕንጽትእብነ",
+            "lemma": "ኀ፡ጥቅም፡ዘሕንጽት፡እብነ፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ረድ፡ወልሳነ፡እሳት፡",
+      "span": {
+        "start": 72,
+        "end": 84
+      },
+      "options": [
+        {
+          "option_id": "t8_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ረድወልሳነእሳት",
+            "lemma": "ረድ፡ወልሳነ፡እሳት፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "የውዶ፨ወወጠነ፡ያፍርሀኒ፡",
+      "span": {
+        "start": 85,
+        "end": 100
+      },
+      "options": [
+        {
+          "option_id": "t9_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "የውዶወወጠነያፍርሀኒ",
+            "lemma": "የውዶ፨ወወጠነ፡ያፍርሀኒ፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

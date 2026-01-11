@@ -1,0 +1,17 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Nominal/Verbal Fragment",
+        "bracket_notation": "[S [NP t5 [Rel t6 [Comp t7]]]]",
+        "dependencies": [
+          "t5->ROOT",
+          "t6->t5 (relative_modifier)",
+          "t7->t6 (complement_clause)"
+        ],
+        "notes": "t5 'Semjaza' (continuation of object of 'See'?). t6 'To whom you gave authority'. t7 'To rule those with him'."
+      }
+    ]
+  }
+}

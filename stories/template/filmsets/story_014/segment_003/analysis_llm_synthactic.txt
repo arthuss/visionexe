@@ -1,0 +1,20 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Narrative Sequence",
+        "bracket_notation": "[S [S [VP t5] [NP t6]] [S [Conj t7] [VP t8] [NP [NP t9] [AdjP t10]]] [VP t11]]",
+        "dependencies": [
+          "t5->t6 (coordination)",
+          "t5->t7 (causal clause)",
+          "t7->t8 (predicate)",
+          "t8->t9 (temporal adjunct)",
+          "t9->t10 (modifier)",
+          "t8->t11 (coordination)"
+        ],
+        "notes": "Statement of action followed by the content of the decree."
+      }
+    ]
+  }
+}

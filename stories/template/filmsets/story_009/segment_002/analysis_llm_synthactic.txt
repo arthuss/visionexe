@@ -1,0 +1,17 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Verbal Clause",
+        "bracket_notation": "[S [V t5] [Obj t6] [Mod t7]]",
+        "dependencies": [
+          "t5->ROOT",
+          "t6->t5 (object_content)",
+          "t7->t6 (modifier_scope)"
+        ],
+        "notes": "t5 'They said' introduces speech/sound. t6 'Voice of their crying' is the content/object. t7 'Earth up to heaven' describes the extent/scope of the cry."
+      }
+    ]
+  }
+}

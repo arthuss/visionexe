@@ -1,0 +1,17 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S2_P1",
+        "structure_type": "Nominal Sentence / Fragment",
+        "bracket_notation": "[NP [N t5] [PP [PREP t6] [NP t7]]]",
+        "dependencies": [
+          "t5 (ROOT)",
+          "t5->t6 (prepositional modifier)",
+          "t6->t7 (prepositional object)"
+        ],
+        "notes": "Describes the 'work' and 'time'."
+      }
+    ]
+  }
+}

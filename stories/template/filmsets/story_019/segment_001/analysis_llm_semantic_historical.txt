@@ -1,0 +1,27 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "high",
+      "reasoning": "The parse structure correctly identifies the complex subordination characteristic of 1 Enoch 19:1. The main verb 'stand' (yəqawwəmu) governs the description of the angels, while the consecutive clauses describe the actions of their spirits (defiling, leading astray). The 'Sbar' (t13) aligns with the 'until' (əska) clause regarding the day of judgment.",
+      "parallels": [
+        {
+          "ref": "Greek Syncellus (Chron. 11.21)",
+          "note": "Matches 'hoi migentes gynaisin' (those who mixed with women)."
+        },
+        {
+          "ref": "Gizeh Fragment (Gr. Panop.)",
+          "note": "Attests the sequence of defilement and sacrifice to demons ('thuousin tois daimoisin')."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "The input text contains scribal abbreviations or OCR artifacts (e.g., 'መ፡' for 'kama', 'ነ፡ዘ፡' for 'ba-za'). Despite these, the semantic flow matches the critical text of 1 Enoch 19:1. The identification of the 'spirits assuming many forms' (manafəstihomu bəzuḫa ra'ya) is historically significant for demonology. The parse robustly handles the 'until the great day' eschatological limit.",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T1",
+    "confidence": "high"
+  }
+}

@@ -1201,3 +1201,2443 @@ ChapterID,SegmentLabel,SegmentType,Status,SourcePath,RawContent
     ""confidence"": ""high""
   }
 }"
+9,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_001\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 9:1. 'Wemeha' (And then/When) and 'Hewetsu' (looked down) are attested variants or valid synonyms for the standard 'We'emze' and 'Re'yu'. The list of archangels (Michael, Uriel, Gabriel) is consistent with the Ethiopic tradition."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 9:1 (Ethiopic)"",
+          ""note"": ""Standard text lists Michael, Gabriel, Suriel/Uriel, Raphael.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""Then Michael and Uriel and Gabriel looked down from heaven and saw much blood that was shed upon the earth and all lawlessness that was wrought upon the earth.""
+    }
+  ],
+  ""decision_log"": ""Parse accurately reflects the verbal structure and coordination of the archangels and the object clauses."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+9,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_002\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Matches 1 Enoch 9:2. The construction 'The earth, empty, cries out' is a known difficult reading often emended, but the parse handles the extant text well."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 9:2"",
+          ""note"": ""Variations exist regarding 'voice of their crying'.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And they said to one another: The voice of their crying, the earth, empty, has cried out to the gate of heaven.""
+    }
+  ],
+  ""decision_log"": ""Accepted as standard interpretation of the Ethiopic text."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+9,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_003\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 9:3. The vocative address to the 'holy ones of heaven' and the plea for judgment are clear."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 9:3"",
+          ""note"": null
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And now to you, holy ones of heaven, the souls of men appeal, saying: Bring our judgment before the Most High.""
+    }
+  ],
+  ""decision_log"": ""Syntactic analysis of the speech introduction and content is correct."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+9,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_004\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""moderate"",
+      ""reasoning"": ""Corresponds to 1 Enoch 9:4. The input text contains significant abbreviations or scribal corruptions (e.g., 'Malet' for 'Amalekt', 'Ga'ezet' for 'Aga'ezet'). The parse correctly identifies the intended formulaic titulary despite these issues."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 9:4"",
+          ""note"": ""Standard: 'Lord of Lords, God of Gods, King of Kings'.""
+        }
+      ],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""And they said to their Lord, the King: For you are Lord of Lords, and God of Gods, and King of Kings, and the throne of his glory is unto all generations of the world, and your name is holy and glorious unto all generations of the world, and blessed and glorious.""
+    }
+  ],
+  ""decision_log"": ""Text is corrupt but the semantic intent is clear from context and parallels."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"
+9,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_005\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 9:5. The attributes of omniscience ('You see all', 'nothing can hide') are standard."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 9:5"",
+          ""note"": null
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""You have made all things, and power over all is with you, and all things are naked and open before you, and you see all things, and there is nothing that can hide from you.""
+    }
+  ],
+  ""decision_log"": ""Parse correctly handles the clause chaining and existential negation."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+9,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_006\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 9:6. Identifies Azazel as the subject of the revealed secrets and lawlessness."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 9:6"",
+          ""note"": null
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""See what Azazel has done, who has taught all lawlessness on earth and revealed the eternal secrets which are wrought in heaven.""
+    }
+  ],
+  ""decision_log"": ""Straightforward structure correctly parsed."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+9,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_007\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Corresponds to 1 Enoch 9:7, but the text 'Wemere seb'atata' (And he showed/taught spells?) diverges from the standard 'Wele-Semyaza' (And to Semyaza). The parse attempts to fit this into a relative structure modifying Semyaza, but the text is likely corrupt or a distinct variant."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 9:7"",
+          ""note"": ""Standard: 'And Semyaza, to whom You have given authority...'""
+        }
+      ],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""And [he taught spells?] Semyaza, to whom you gave authority to rule those who are with him together.""
+    }
+  ],
+  ""decision_log"": ""High uncertainty due to textual deviation 'Wemere seb'atata'. Parse logic regarding the relative clause is sound for the remaining text."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+9,segment_008,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_008\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 9:8. The narrative of descending to the 'daughters of men' is standard."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 9:8"",
+          ""note"": null
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And they went to the daughters of men together, and slept with them, with those women, and defiled themselves, and revealed to them all sin.""
+    }
+  ],
+  ""decision_log"": ""Good handling of the multiple modifiers and coordinated verbs."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+9,segment_009,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_009\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 9:9. The birth of giants and the resulting violence is the standard continuation."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 9:9"",
+          ""note"": null
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And the women bore giants, and thereby the whole earth has been filled with blood and lawlessness.""
+    }
+  ],
+  ""decision_log"": ""Parse correctly links the birth of giants to the filling of the earth with blood."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+9,segment_010,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_010\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 9:10. The cry of the souls and their inability to escape is well-attested."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 9:10"",
+          ""note"": null
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And now behold, the souls which have died cry out and appeal to the gate of heaven, and their groan has ascended; and they cannot escape from before the face of the lawlessness which is being wrought on the earth.""
+    }
+  ],
+  ""decision_log"": ""Complex clause chain handled well."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+9,segment_011,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_011\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 9:11. The appeal to divine foreknowledge and the request for instruction is the standard conclusion to the chapter."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 9:11"",
+          ""note"": null
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And You know all things before they come to pass, and You know this and their state, and yet You do not tell us. What is it fitting for us to do in regard to this?""
+    }
+  ],
+  ""decision_log"": ""Correct analysis of the rhetorical structure."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+10,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_001\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header/Numeric, contradicting narrative content (Verse 1: 'Then the Most High, the Great and Holy One spoke...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch (Narrative vs Header)."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_002\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 2: 'And sent Arsyalalyur...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch (Narrative vs Header)."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_003\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 3: 'to the son of Lamech...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch (Narrative vs Header)."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_004\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 4: 'Tell him in my name \""Hide thyself!\""...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch (Narrative vs Header)."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_005\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""moderate"",
+      ""reasoning"": ""Fragmented parse correctly identifies 'Dudael' (Ge'ez: ዱድኤል), the specific desert location for Azazel's imprisonment."",
+      ""parallels"": [
+        {
+          ""ref"": ""4Q202 (4QEnoch^b ar) II 2"",
+          ""note"": ""Aramaic fragment attests 'b-dwd'l' (in Dudael).""
+        },
+        {
+          ""ref"": ""Gizeh Greek 10:4"",
+          ""note"": ""Greek attests 'Dadouel'.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Confirmed toponym Dudael despite fragmented syntax."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"
+10,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_006\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 5: 'And cast upon him rough and jagged rocks...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_007\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 6: 'And cover him with darkness...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_008,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_008\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 7: 'And on the day of the great judgment...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_009,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_009\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 8: 'And the whole earth has been corrupted...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_010,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_010\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 9: 'And to Gabriel said the Lord...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_011,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_011\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 10: 'And they hope to live an eternal life...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_012,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_012\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 11: 'And the Lord said to Michael...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_013,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_013\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 12: 'Bind them fast for seventy generations...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_014,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_014\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 13: 'In those days they shall be led off...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_015,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_015\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 14: 'And whoever shall be condemned...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_016,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_016\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 15: 'Destroy all the spirits of the reprobate...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_017,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_017\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 16: 'Destroy all wrong from the face of the earth...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_018,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_018\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 17: 'And now all the righteous shall escape...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_019,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_019\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 18: 'And then shall the whole earth be tilled...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_020,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_020\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 19: 'And all the vine...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_021,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_021\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 20: 'And cleanse thou the earth from all oppression...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+10,segment_022,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_010\segment_022\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""Syntactic parse identifies segment as structural Header, contradicting narrative content (Verse 21/22: 'And all the children of men shall become righteous...')."",
+      ""parallels"": [],
+      ""context_invariance"": ""unstable"",
+      ""back_translation"": ""fail""
+    }
+  ],
+  ""decision_log"": ""Hypothesis rejected due to category mismatch."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+11,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_011\segment_001\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The syntactic structure correctly identifies the main predicate 'እፈትሕ' (I will open) governing the construct chain 'መዛግብተ፡ረት' (storehouses of [blessing/rain?]). The dependency tree accurately reflects the purposive nature of the subordinate clause 'መ፡ውርዶሙ' (likely 'ከመ፡አውርዶሙ' - that I may send them down) targeting 'ግብሮሙ' (their work). Historical context of 1 Enoch 11:1 strongly supports this reading as a divine cosmological action."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 11:1"",
+          ""note"": ""Standard text: 'wa-bə-əmmāntu mawāʿəl əfattəḥ mazāgəbta barakat' (And in those days I will open the storehouses of blessing).""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And in those days I will open the storehouses of [blessing] which are in heaven, to send them down upon the earth, upon their work and upon their toil, for the children of men.""
+    }
+  ],
+  ""decision_log"": ""The input text 'መዛግብተ፡ረት' likely contains an abbreviation or textual variant for 'በረከት' (blessing) or possibly 'ረድኤት' (help), but the structural parse 'Complex Sentence' holds valid regarding the relationship between the main verb and the purposive clause."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+11,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_011\segment_002\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The analysis of 'ሰላም፡ወርትዕ' (Peace and Truth) as the compound subject of 'ይውኑ' (variant of 'ይከውኑ' - they shall be) is syntactically sound. 'ሱቱፋነ' (partners/united) functions correctly as a predicative accusative or complement indicating the state of the subject. This aligns perfectly with the eschatological harmony described in 1 Enoch 11:2."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 11:2"",
+          ""note"": ""Standard text: 'wa-salām wa-rətʿ sutufāna yəkawwənu' (And peace and truth shall be partners).""
+        },
+        {
+          ""ref"": ""Psalm 85:10"",
+          ""note"": ""Thematic parallel: 'Mercy and truth are met together; righteousness and peace have kissed each other.'""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And peace and truth shall be partners [united] in all the days of the world and in all the generations of the world.""
+    }
+  ],
+  ""decision_log"": ""The parse correctly identifies the verbal sentence structure. The form 'ይውኑ' is accepted as a phonological or scribal variant of 'ይከውኑ'. The semantic link between Peace and Truth is well-attested in this corpus."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+12,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_012\segment_001\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The syntactic structure correctly identifies the temporal adjunct 'And before all these things' (ወእምቅድመ፡ኲሉ፡ነገር) and the main verb 'was hidden' (ተኀብአ - reconstructed from 'ተብተ'). The relative chain 'where he was hidden...' is standard 1 Enoch 12:1 phrasing."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 12:1"",
+          ""note"": ""Standard Ethiopic text (Knibb, Charles) confirms structure.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And before all these things Enoch was hidden, and no one of the children of men knew where he was hidden...""
+    }
+  ],
+  ""decision_log"": ""Input text contains OCR artifacts (ተብተ vs ተኀብአ), but the lemma extraction and parse structure align with the canonical text. The dependency tree correctly links the temporal modifier to the main verb."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+12,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_012\segment_002\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S2_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Correctly identifies the nominal sentence structure common in Ge'ez for describing states. 'His work [was] with the Watchers'."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 12:2"",
+          ""note"": ""Attested description of Enoch's association with the 'Egregoro' (Watchers).""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And his work was with the Watchers, and his days with the holy ones.""
+    }
+  ],
+  ""decision_log"": ""Parse S2_P1 accurately reflects the verbless clause structure utilized in the source."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S2_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+12,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_012\segment_003\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S3_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The coordination of the imperfect 'I was blessing' (እባርክ) with the sudden narrative 'the Watchers called me' (ይጼውዑኒ) is syntactically sound. The apposition 'Enoch the scribe' is correctly attached."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 12:3"",
+          ""note"": ""Canonical transition from prayer to commission.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And I, Enoch, was blessing the Lord of Majesty and the King of the World, and behold the Watchers called me, Enoch the Scribe, and said to me:""
+    }
+  ],
+  ""decision_log"": ""Standard narrative sequence evaluated as historically accurate to the textual tradition."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S3_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+12,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_012\segment_004\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S4_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The parse handles the complex imperative 'Go, declare' (ሑር፡አይድዕ) followed by a lengthy relative clause describing the Watchers' apostasy. The segmentation of the relative clauses ('who left...', 'who defiled...') is historically consistent."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 12:4"",
+          ""note"": ""Contains the core accusation against the Watchers found in Qumran fragments and Ethiopic text.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""Enoch, scribe of righteousness, go, declare to the Watchers of heaven who have left the high heaven and the holy eternal station, and have defiled themselves with women...""
+    }
+  ],
+  ""decision_log"": ""The dependency tree manages the high complexity of the embedded relative clauses successfully."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S4_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+12,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_012\segment_005\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S5_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The negative existential 'And there shall not be to them peace' (ወኢይከውን፡ሎሙ፡ሰላም) is a standard formulaic judgment. The causal link to the next segment is noted."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 12:5"",
+          ""note"": ""Formulaic judgment phraseology.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And they shall have no peace or forgiveness of sin...""
+    }
+  ],
+  ""decision_log"": ""Parse correctly links the negation to the existence of peace/forgiveness."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S5_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+12,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_012\segment_006\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S6_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The fronting of 'the murder of their beloved ones' (ቀትለ፡ፍቁራኒሆሙ) before the verb 'they shall see' is a crucial stylistic feature correctly identified. The chiastic structure of the judgment is preserved."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 12:6"",
+          ""note"": ""Matches the specific punishment of witnessing the mutual destruction of the Giants.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""For they shall not rejoice in their children; the murder of their beloved ones they shall see, and over the destruction of their children they shall lament...""
+    }
+  ],
+  ""decision_log"": ""The focus on the object 'murder' in the dependency tree aligns with the emphatic nature of the Ge'ez text."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S6_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+13,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_001\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The syntactic structure correctly identifies 'ሄኖ' (Enoch) as the agent of the motion and speech verbs. The phrase 'ኢይውነ፡ሰላም' (there shall be no peace) is a recognized prophetic formula of judgment, structurally functioning as the content of the speech."",
+      ""parallels"": [
+        {
+          ""ref"": ""Isaiah 48:22"",
+          ""note"": ""Parallel to 'There is no peace... for the wicked'.""
+        },
+        {
+          ""ref"": ""Isaiah 57:21"",
+          ""note"": ""Recurrence of the 'no peace' formula.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And Enoch, having gone, said to Azazel: 'There shall not be peace unto you; a great sentence has gone out against you to bind you.'""
+    }
+  ],
+  ""decision_log"": ""Parse S1 aligns with the narrative flow of the Watchers' judgment. No anomalies detected."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+13,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_002\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The negation 'ኢይውነ' (shall not be) governs the nominals 'rest/relief' and 'intercession'. The causal link to 'teaching oppression' (ዘመሀር፡ግፍዓ) is syntactically supported by the relative clause."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""Relief/Repose of earth and petition shall not be yours, because of the oppression you taught and the works of blasphemy and oppression and sin you showed to men.""
+    }
+  ],
+  ""decision_log"": ""The lemma 'መሕተ' is likely a phonetic variant or corruption of 'ምሕረት' (mercy/relief) or 'መፍትሕ' (release), but the structural parse of it as a negated subject holds."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"
+13,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_003\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The narrative sequence 'going... spoken to them... they feared' is a standard paratactic structure in Ge'ez narrative. The emotional reaction (fear/trembling) is the direct result of the judgment delivered."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""Then going I spoke to them all together; and as for them, fear seized them, and trembling.""
+    }
+  ],
+  ""decision_log"": ""Standard narrative syntax confirmed."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+13,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_004\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The complex sentence structure correctly identifies the request ('asked me') and the content of the request ('that I write... that there might be forgiveness'). 'ተዝረ፡ስእለት' (memorial/record of petition) is a technical cultic/legal term."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 12-16"",
+          ""note"": ""The role of Enoch as 'Scribe of Righteousness' mediating petitions is central to this section.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And they asked me that I write for them a memorial of petition, that there might be for them forgiveness, and that I raise the memorial of their petition before the Lord of Heaven.""
+    }
+  ],
+  ""decision_log"": ""Syntactic dependency of the purpose clauses on the main verb 'asked' is correct."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+13,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_005\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The causal clause introduced by 'እስመ' (because) provides the rationale for the mediation: their shame prevents direct address to the deity. 'ኢያነሥኡ፡ዕይንቲሆሙ' (they did not lift their eyes) is a semantically potent idiom for shame/guilt."",
+      ""parallels"": [
+        {
+          ""ref"": ""Ezra 9:6"",
+          ""note"": ""'O my God, I am ashamed and blush to lift up my face to thee'.""
+        },
+        {
+          ""ref"": ""Luke 18:13"",
+          ""note"": ""Publican 'would not lift up so much as his eyes unto heaven'.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""Because they were not able from then on to speak or to lift their eyes to heaven from the shame of their sins for which they were judged.""
+    }
+  ],
+  ""decision_log"": ""Idiomatic usage verified against biblical parallels."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+13,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_006\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The nominalized sequence lists the contents of the petition: 'their spirit', 'their deeds', and 'what they asked for'. The parse correctly handles the series of genitive constructions and relative clauses."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And then I wrote the memorial of their petition and their supplication regarding their spirit and for each of their deeds and regarding what they asked, that there might be for them forgiveness and length [of days/peace].""
+    }
+  ],
+  ""decision_log"": ""Complex list structure handled correctly."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+13,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_007\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""This segment contains critical historical geography. 'ማያተ፡ዳን' (Waters of Dan) and 'እምየማነ፡ዐረ፡ርሞን' (to the right/south of Hermon) are distinct and attested locations associated with the Watchers' myth. The gerund 'reading' (እነብብ) indicates the ritual action."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 6:6"",
+          ""note"": ""Descent of Watchers on Mount Hermon.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And going I sat by the waters of Dan, in the land of Dan, which is to the south of Hermon (west of Hermon?), and I read the memorial of their petition until I fell asleep.""
+    }
+  ],
+  ""decision_log"": ""Geographical terms 'Dan' and 'Hermon' are pivotal for historical grounding."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+13,segment_008,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_008\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The transition from ritual reading to incubation (dream vision) is clearly marked by 'ወድኅሬሁ' (and after that). The purpose of the vision is explicit: 'to tell/reprimand' the Watchers."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And after that a dream came to me and visions fell upon me, and I saw a vision of judgment to tell to the sons of heaven and reprimand them.""
+    }
+  ],
+  ""decision_log"": ""Sequence of events (sleep -> dream -> mission) is logically parsed."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+13,segment_009,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_009\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The return to the assembly. 'ኡብልሲያኤል' (Ubelseyael) is a specific toponym, possibly 'Abel-Maim'. The description of the Watchers 'weeping' with 'faces covered' reinforces the theme of shame established in Segment 5."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And waking I came to them, and they were all sitting gathered together weeping at Ubelseyael, which is between Lebanon and Senir, with their faces covered.""
+    }
+  ],
+  ""decision_log"": ""Geographical note 'between Lebanon and Senir' (implied by 'ሴሴር'/Senir) is historically significant."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+13,segment_010,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_013\segment_010\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The climax of the chapter: the delivery of the vision. 'ቃላተ፡ጽድቅ' (words of righteousness) contrasts with the Watchers' corruption. The parsing of the double object construction (spoke... visions) is acceptable."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And I recounted before them the visions which I had seen in my sleep, and I began to speak those words of righteousness and to reprimand the Watchers of heaven.""
+    }
+  ],
+  ""decision_log"": ""Final action of the sequence."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_001\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The parse correctly identifies the incipit structure typical of Enochic literature ('This is the book...'). The nested relative clauses align with the Ge'ez construct state usage."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Standard title formula validated against genre conventions."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_002\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The correlative structure 'Just as... so also...' (መ... ከማሁ...) is semantically necessary to link the gift of language to humans with Enoch's specific commission."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Syntactic correlation confirms semantic intent of authority derivation."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_003\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Parse effectively separates the narrative action ('I wrote') from the legal verdict content. The causal clause 'Because your petition...' is correctly subordinated."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Narrative boundary clearly established."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_004\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The pivot token serves dual function in the temporal ('forever') and spatial ('on earth') judgment. The compound structure accurately reflects the finality of the ban."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Judgment clause structure validated."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_005\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The temporal condition ('Before this...') leading to the vision of destruction is syntactically sound. The parse captures the tragedy of the Watchers witnessing their offspring's fall."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Sequence of events (witnessing destruction) correctly modeled."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_006\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The contrastive structure emphasizes the futility of their prayer. The coordination of silence ('nor shall ye speak') with the rejection of the petition is historically consistent with the 'silencing of the accused' motif."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Judicial silencing motif confirmed."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_007\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The accumulation of clauses ('clouds invited me', 'winds flew me') is characteristic of the chaotic ascent narrative. The parse handles the list of agents (clouds, mist, stars, lightning, winds) well."",
+      ""parallels"": [
+        {
+          ""ref"": ""Daniel 7:13"",
+          ""note"": ""Clouds of heaven motif""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Visionary ascent vocabulary aligns with apocalyptic topoi."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_008,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_008\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The locative transition ('into heaven... until I approached') marks the boundary crossing. 'Wall of crystal' (hailstones) is a known material description in this text."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Spatial transition to the celestial temple confirmed."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_009,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_009\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The description of the wall building materials is complex. The parse attempts to resolve 'tessellated floor' (ma'ser) comparisons. Textual variance (stones of hail/snow) is noted but the structure holds."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Architectural description parses as valid nominal/descriptive chain."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"
+14,segment_010,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_010\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The nominal chain correctly links the ceiling, the paths of stars/lightning, and the presence of Cherubim. The water/ice imagery ('sea of water' above) is cosmologically standard for 1 Enoch."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Cosmological elements (water above, fire/stars) correctly linked."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_011,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_011\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Simple nominal sentence describing the encircling fire. Grammatically straightforward."",
+      ""parallels"": [
+        {
+          ""ref"": ""Ezekiel 1:4"",
+          ""note"": ""Fire infolding itself""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Pyrotechnic description confirmed."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_012,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_012\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The paradox of 'hot as fire, cold as ice' is a hallmark of this passage. The parse correctly coordinates these opposing adjectival phrases before the resulting emotional state (fear)."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Paradoxical sensory data handled correctly."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_013,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_013\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The somatic reaction (shaking, falling on face) serves as the bridge to the next level of vision. The circumstantial 'while I quaked' is parsed correctly."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Transition via physical reaction confirmed."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_014,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_014\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Presentation of the 'Second House'. The comparative 'greater than the former' is implicit in the context of the progressive revelation. The parse identifies the new object of focus."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Progression to the inner sanctum identified."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_015,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_015\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The negative capability ('cannot describe') is a standard apophatic device. The parse structures the 'excess of glory' effectively."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Ineffability topos recognized."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_016,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_016\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Repetitive description of fire (floor, upper parts, ceiling). The nominal chain mirrors Segment 010 but intensifies the elemental composition."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Intensification of fire imagery confirmed."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_017,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_017\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The vision of the Throne (Manbara). The comparison to crystal/ice and the solar wheel/sun imagery is historically significant (Merkabah). Parse captures the specific visual elements."",
+      ""parallels"": [
+        {
+          ""ref"": ""Ezekiel 1:26"",
+          ""note"": ""Likeness of a throne, lapis lazuli/sapphire""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Throne room iconography matches parallels."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_018,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_018\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The 'Stream of Fire' (Daniel 7:10) is a direct parallel. The inability to look at it emphasizes the divine radiance."",
+      ""parallels"": [
+        {
+          ""ref"": ""Daniel 7:10"",
+          ""note"": ""A stream of fire issued and came forth from before him""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Direct biblical parallel (Dan 7) validates the 'stream of fire' parse."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_019,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_019\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The 'Great Glory' (God) sits. The raiment description ('brighter than sun', 'whiter than snow') is the climax of the visual description. Parse correctly separates the sitter from the clothing description."",
+      ""parallels"": [
+        {
+          ""ref"": ""Daniel 7:9"",
+          ""note"": ""clothing was white as snow""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Theophany description aligns with Second Temple Jewish traditions."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_020,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_020\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Total separation of the Divine. The parse handles the negation ('could not enter', 'could not behold') effectively."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Theme of divine transcendence confirmed."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_021,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_021\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The 'ten thousand times ten thousand' (myriads) is another direct Danielic parallel. The spatial arrangement (fire around, multitude before) is parsed correctly."",
+      ""parallels"": [
+        {
+          ""ref"": ""Daniel 7:10"",
+          ""note"": ""ten thousand times ten thousand stood before him""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Courtroom scene populated by angelic host."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_022,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_022\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Distinction of the 'Holy Ones' (inner circle) who do not need to depart/sleep. Parse captures the continuous aspect of their service."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Angelic hierarchy (inner circle) defined."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_023,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_023\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The personal address to Enoch ('Enoch, scribe of righteousness'). The command to approach breaks the distance established in previous segments."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Prophetic commissioning moment identified."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+14,segment_024,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_014\segment_024\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The physical movement of Enoch to the door. The posture ('face down') signifies humility/fear. Parse handles the transitive verbs ('lifted me', 'brought me near')."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""Final positioning for the divine oracle."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+15,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_001\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The syntactic analysis correctly identifies the main clause of speech introduction followed by the direct speech content. The vocative structure matches the Ethiopic address 'Henok bǝʾsi...'."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And he answered and said to me, and I heard his voice: 'Do not fear, Enoch, righteous man and scribe of righteousness. Approach hither and hear my voice.'""
+    }
+  ],
+  ""decision_log"": ""Parse S1_P1 accurately reflects the standard text of 1 Enoch 15:1."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+15,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_002\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S2_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Correctly parses the imperative 'Go' (`ḥur`) and the relative clause defining the 'Watchers'. The distinction between the mission of the Watchers and Enoch is preserved."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And go, say to the Watchers of heaven, who sent thee to intercede for them: 'You should intercede for men, and not men for you.'""
+    }
+  ],
+  ""decision_log"": ""Matches 1 Enoch 15:2 structure."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S2_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+15,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_003\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S3_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Accurately captures the interrogative 'Why' (`ʾǝnta mant`) and the chain of accusatory actions (left heaven, slept with women, defiled selves)."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""Wherefore have ye left the high, holy, and eternal heaven, and lain with women, and defiled yourselves with the daughters of men, and taken to yourselves wives, and done like the children of earth, and begotten giants (as your) sons?""
+    }
+  ],
+  ""decision_log"": ""Matches 1 Enoch 15:3."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S3_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+15,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_004\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S4_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The parse handles the contrastive structure: 'You were holy... but you defiled...'. The input text shows minor garbling at the start, but the main sentence is intact and correctly analyzed."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And ye were spiritual, holy, living the eternal life, but ye have defiled yourselves with the blood of women, and have begotten (children) with the blood of flesh, and, as the children of men, have lusted after flesh and blood as those also do who die and perish.""
+    }
+  ],
+  ""decision_log"": ""Matches 1 Enoch 15:4 despite input noise."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S4_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+15,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_005\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S5_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Correctly links the cause (mortal nature of men) to the result (giving of wives). 'Therefore' is properly identified as the pivot."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""Therefore have I given them wives also that they might impregnate them, and beget children by them, that thus nothing might be wanting to them on earth.""
+    }
+  ],
+  ""decision_log"": ""Matches 1 Enoch 15:5."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S5_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+15,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_006\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S6_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The nominal predication structure fits the description of the Watchers' original state."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""But you were formerly spiritual, living the eternal life, and immortal for all generations of the world.""
+    }
+  ],
+  ""decision_log"": ""Matches 1 Enoch 15:6."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S6_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+15,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_007\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S7_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Accurately parses the negative causation: 'Therefore I did not appoint... because...'."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And therefore I have not appointed wives for you; for as for the spiritual ones of the heaven, in heaven is their dwelling.""
+    }
+  ],
+  ""decision_log"": ""Matches 1 Enoch 15:7."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S7_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+15,segment_008,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_008\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S8_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Correctly identifies the future naming of the giants as 'evil spirits' and their location."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And now, the giants, who are produced from the spirits and flesh, shall be called evil spirits upon the earth, and on the earth shall be their dwelling.""
+    }
+  ],
+  ""decision_log"": ""Matches 1 Enoch 15:8."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S8_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+15,segment_009,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_009\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S9_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Complex chain involving origin (from holy Watchers) and nature (evil spirits) is correctly mapped."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""Evil spirits have proceeded from their bodies; because they are born from men and from the holy Watchers is their beginning and primal origin; they shall be evil spirits on earth, and evil spirits shall they be called.""
+    }
+  ],
+  ""decision_log"": ""Matches 1 Enoch 15:9."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S9_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+15,segment_010,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_010\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S10_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The parallelism between 'spirits of heaven' and 'spirits of earth' is well-preserved."",
+      ""parallels"": [],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""As for the spirits of heaven, in heaven shall be their dwelling, but as for the spirits of the earth which were born upon the earth, on the earth shall be their dwelling.""
+    }
+  ],
+  ""decision_log"": ""Matches 1 Enoch 15:10."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S10_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+15,segment_011,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_011\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S11_P1"",
+      ""plausibility"": ""moderate"",
+      ""reasoning"": ""The parse is syntactically sound, but the input text contains the variant 'damanata' (clouds) instead of the expected 'manfasata' (spirits) or just referring to the giants. This is a known textual issue in Ethiopic mss (confusion of Greek nephelas/pneumata)."",
+      ""parallels"": [
+        {
+          ""ref"": ""Greek Syncellus"",
+          ""note"": ""Reads 'spirits of the giants', not clouds.""
+        }
+      ],
+      ""context_invariance"": ""variant"",
+      ""back_translation"": ""And the spirits of the giants [and?] clouds which oppress, corrupt, fall, content, and bruise upon the earth...""
+    }
+  ],
+  ""decision_log"": ""Accepted parse of the provided text, noting the 'clouds' (`damanata`) variant which differs from the Greek parallel."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S11_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"
+15,segment_012,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_015\segment_012\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S12_P1"",
+      ""plausibility"": ""low"",
+      ""reasoning"": ""The parse correctly identifies the negative marker `i-` in the input text `wa-i-yitnaśśu` ('and they shall not rise'). However, historically and contextually (1 En 15:12), the text should likely be positive `wa-yitnaśśu` ('and they shall rise up'), as they are described as attacking men. The negative here contradicts the standard narrative flow."",
+      ""parallels"": [
+        {
+          ""ref"": ""Standard Ethiopic Text"",
+          ""note"": ""Usually reads 'wa-yitnaśśu' (and they shall rise).""
+        }
+      ],
+      ""context_invariance"": ""contradiction"",
+      ""back_translation"": ""And these spirits shall NOT rise against the children of men and against the women, because they have proceeded from them.""
+    }
+  ],
+  ""decision_log"": ""The parse accurately reflects the provided text, but the text itself appears to contain a significant variant or error (`i-yitnaśśu` vs `yitnaśśu`)."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S12_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""low""
+  }
+}"
+16,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_016\segment_001\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The parse correctly identifies the complex discourse structure describing the ontological status of the Giants' spirits. The text aligns with the standard Enochic etiology of demons (evil spirits) arising from the corpses of the Giants (Naphalim). The phrase 'ዘእንለ፡ነ፨ማሁ' appears to be a corruption of 'ዘእንበለ፡ኵነኔ' (without judgment), fitting the syntactic slot for the manner of their destruction."",
+      ""parallels"": [
+        {
+          ""ref"": ""Jubilees 10:5"",
+          ""note"": ""Parallel tradition regarding the unclean spirits of the Giants corrupting the sons of men.""
+        },
+        {
+          ""ref"": ""1 Enoch 15:8-9"",
+          ""note"": ""Direct preceding context defining the nature of the spirits.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And concerning the death of the giants, wherever the spirits have gone forth from their bodies, let their flesh be that which is destroyed [without judgment]... until the day of the great consummation... over the Watchers and the godless.""
+    }
+  ],
+  ""decision_log"": ""Semantic coherence is strong despite textual artifacts. The dependency structure correctly links the subject (spirits/flesh) with the temporal limit (day of consummation)."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+16,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_016\segment_002\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S2_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Correctly parses the address to the Watchers. The phrase 'ቀዲሙ፡ሰማይ፡ሀለዉ' (formerly you were in heaven) is a crucial theological marker in the Book of Watchers, contrasting their former station with their current fall."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 12:4"",
+          ""note"": ""Enoch acts as scribe of righteousness to the Watchers of heaven.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And now to the Watchers who sent [you] to intercede for them, who were formerly in heaven...""
+    }
+  ],
+  ""decision_log"": ""Syntactic relationships reflect the standard 'mission' of Enoch to the Watchers."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S2_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+16,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_016\segment_003\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S3_P1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The parse handles the complex accusation well. Specifically, it accurately captures the motif of the 'worthless mystery' (ምሥጢረ፡ምኑነ) or 'rejected mystery'. This is a key historical-semantic point: the Watchers did not possess the ultimate divine wisdom, but a corrupted or lower knowledge, which they illicitly taught to humanity (women), leading to moral decay (sorcery, war). 'ንትሙሰ' is read as 'አንትሙሰ' (As for you)."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 8:1-3"",
+          ""note"": ""Details of the forbidden arts taught by Asael and others.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""You were in heaven, but the hidden things had not yet been revealed to you, and a worthless mystery you knew. And this you told to the women in the hardness of your hearts, and by this mystery, women and men multiply evil on the earth.""
+    }
+  ],
+  ""decision_log"": ""The dependency chain correctly links the possession of the mystery to the act of teaching and the resultant earthly corruption."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S3_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+16,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_016\segment_004\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S4_P1"",
+      ""plausibility"": ""moderate"",
+      ""reasoning"": ""The text appears heavily abbreviated or corrupted ('ሎሙ፡እንሰ፡ልብሙ፡ሰላመ'). Standard text reads 'Say to them therefore: You have no peace' (በልዎሙ፡እምኬ፡አልቦ፡ለክሙ፡ሰላም). The parse identifies it as a direct address/verdict, which is semantically correct for the chapter's conclusion. 'ልብሙ' is likely a corruption of 'ለክሙ' (to you)."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 12:6"",
+          ""note"": ""Standard formula of judgment against the Watchers: 'You will have no peace'.""
+        }
+      ],
+      ""context_invariance"": ""variant"",
+      ""back_translation"": ""Say to them therefore: [You have no] peace.""
+    }
+  ],
+  ""decision_log"": ""Accepted as the intended closing formula despite surface textual issues."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S4_P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"
+17,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_017\segment_001\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""P1"",
+      ""plausibility"": ""High"",
+      ""reasoning"": ""The segment follows the standard 1 Enoch 17:1 narrative structure: a journey to a specific place ('they took me'), a description of its inhabitants ('like burning fire'), and their shapeshifting capability ('when they wished, they appeared like men'). The textual abbreviations ('መ' for 'ከመ', 'ወሶ' for 'ወሶበ') are noted but the syntax is standard. The Complex Sentence structure in P1 accurately maps the main clause and the temporal/conditional sub-clauses."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 17:1"",
+          ""note"": ""Attested in standard Ethiopic MSS (e.g., Abbadian 55). Corresponds to Greek fragment 'καὶ παρέλαβόν με εἰς ἕνα τόπον...'.""
+        }
+      ],
+      ""context_invariance"": ""Stable"",
+      ""back_translation"": ""And they took me to a certain place where there were [beings] like burning fire, and when they wished, they appeared like men.""
+    }
+  ],
+  ""decision_log"": ""Confirmed against critical text of 1 Enoch 17:1. Structural parse supports the semantic dependencies."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""High""
+  }
+}"
+17,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_017\segment_002\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""P1"",
+      ""plausibility"": ""High"",
+      ""reasoning"": ""Describes the 'place of the whirlwind' (or storm) and the cosmic mountain. The relative clause 'whose head reached into heaven' is a key identifier. The lexeme 'ይጽሕ' is clearly a defective writing of 'ይበጽሕ' (reaches). P1's dependency structure correctly links the relative clause to the mountain."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 17:2"",
+          ""note"": ""Matches the description of the mountain reaching heaven.""
+        }
+      ],
+      ""context_invariance"": ""Stable"",
+      ""back_translation"": ""And they took me to a place of the whirlwind and to a mountain whose head reached into heaven.""
+    }
+  ],
+  ""decision_log"": ""Emended 'ይጽሕ' to 'ይበጽሕ'. Semantic content is consistent with 17:2."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""High""
+  }
+}"
+17,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_017\segment_003\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""P1"",
+      ""plausibility"": ""High"",
+      ""reasoning"": ""This segment lists cosmic phenomena. The coordination structure is essential here. 'መናተ' (places/stations) of luminaries, 'ነጐድጓድ' (thunder), and the armory of God (bow, arrows, sword). P1 treats this as a coordinated list under 'I saw', which is syntactically and semantically correct."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 17:3"",
+          ""note"": ""Inventory of celestial phenomena.""
+        }
+      ],
+      ""context_invariance"": ""Stable"",
+      ""back_translation"": ""And I saw the places of the luminaries; and thunder at the ends; in its depth a bow of fire and arrows; and their quiver and a sword of fire; and all lightnings.""
+    }
+  ],
+  ""decision_log"": ""List structure validated."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""High""
+  }
+}"
+17,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_017\segment_004\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""P1"",
+      ""plausibility"": ""High"",
+      ""reasoning"": ""Returns to the narrative 'They took me'. The destination involves 'waters of life' and 'fire of the west'. The personification of the water ('which speaks') and the fire ('which receives the setting sun') is retained. P1 captures the coordination of the two destinations."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 17:4"",
+          ""note"": ""Distinctive Enochic imagery of the 'speaking water' (likely noise of the stream) and the western fire.""
+        }
+      ],
+      ""context_invariance"": ""Stable"",
+      ""back_translation"": ""And they took me to the waters of life which speak; and to the fire of the west which receives every setting of the sun.""
+    }
+  ],
+  ""decision_log"": ""Validates the personification metaphors."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""High""
+  }
+}"
+17,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_017\segment_005\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""P1"",
+      ""plausibility"": ""High"",
+      ""reasoning"": ""Shift to 'I came'. The 'river of fire' (Pyriphlegethon archetype) flows like water into the 'great sea' (Oceanus). The Serial/Complex structure correctly handles the description of the river's action ('flows' and 'pours')."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 17:5"",
+          ""note"": ""Classical parallel to the river of fire flowing into the ocean.""
+        }
+      ],
+      ""context_invariance"": ""Stable"",
+      ""back_translation"": ""And I came to a river of fire whose fire flows like water and pours into the great sea towards the west.""
+    }
+  ],
+  ""decision_log"": ""Geographic/Cosmological consistency checked."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""High""
+  }
+}"
+17,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_017\segment_006\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""P1"",
+      ""plausibility"": ""Medium"",
+      ""reasoning"": ""The text contains three distinct clauses: 'I saw', 'I reached' (likely reading 'በጻሕኩ' for 'ጻሕኩ'), and 'I went'. P1's notes imply a single main verb structure ('saw' governing darkness), which is technically a mismatch with the specific clause breaks in the text ('And to the great darkness I reached'). However, the semantic clustering is accurate. The phrase 'where all flesh walks' refers to the path to the afterlife."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 17:6"",
+          ""note"": ""The journey into the dark regions.""
+        }
+      ],
+      ""context_invariance"": ""Stable"",
+      ""back_translation"": ""And I saw all the great rivers. And I reached to the great darkness. And I went where all flesh walks.""
+    }
+  ],
+  ""decision_log"": ""Noted structural discrepancy in P1 notes vs text verbs, but semantic content is valid."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""Medium""
+  }
+}"
+17,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_017\segment_007\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""P1"",
+      ""plausibility"": ""Moderate"",
+      ""reasoning"": ""The phrase 'mountains of the darkness of winter' is difficult ('ቆባራት' is obscure, potentially 'turbid' or 'dark'). 'ረምት' is winter. 'ምዓወ' might be 'pouring' or 'course'. The 'abyss' (Qalay) is standard. P1 identifies the objects correctly despite lexical obscurity."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 17:7"",
+          ""note"": ""Verse often poses translation difficulties regarding the specific nature of the 'mountains of winter'.""
+        }
+      ],
+      ""context_invariance"": ""Uncertain"",
+      ""back_translation"": ""And I saw the mountains of the darkness of winter and the pouring of the water of the entire abyss.""
+    }
+  ],
+  ""decision_log"": ""Accepted based on standard translations despite 'ቆባራት' issue."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""Moderate""
+  }
+}"
+17,segment_008,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_017\segment_008\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""P1"",
+      ""plausibility"": ""High"",
+      ""reasoning"": ""Concluding summary of the section. 'Mouths of all rivers' and 'mouth of the abyss'. P1 correctly identifies the simple observation structure."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 17:8"",
+          ""note"": ""Cosmological summary.""
+        }
+      ],
+      ""context_invariance"": ""Stable"",
+      ""back_translation"": ""And I saw the mouths of all the rivers of the earth and the mouth of the abyss.""
+    }
+  ],
+  ""decision_log"": ""No issues."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""P1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""High""
+  }
+}"
+18,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_001\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The segment corresponds to 1 Enoch 18:1. The syntax correctly identifies the object 'storehouses of winds'. 'ሰርገወ' (adorned/furnished) fits the cosmological context of creation."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 18:1 (Knibb)"",
+          ""note"": ""Matches: 'I saw the treasuries of all the winds...'""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And I saw the storehouses of winds; and I saw how he furnished with them the whole creation and the foundations of the earth.""
+    }
+  ],
+  ""decision_log"": ""Text appears standard. 'መ' likely abbreviation for 'መኑ' (how) or 'kame' (that/how). Accepted."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+18,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_002\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 18:2. The structure accurately reflects the vision of the cornerstone and the four winds bearing the earth."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 18:2 (Charles)"",
+          ""note"": ""Matches: 'And I saw the cornerstone of the earth...'""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And I saw the stone of the corner of the earth; and I saw the four winds which bear the earth and the firmament of the heaven.""
+    }
+  ],
+  ""decision_log"": ""Standard cosmological description. Accepted."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+18,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_003\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 18:3. Describes winds expanding/stretching the height of heaven and acting as pillars."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 18:3"",
+          ""note"": ""Attested phrasing 'winds stretch out the height of heaven'.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And I saw how the winds stretch out the height of heaven, and they stand between heaven and earth; they are the pillars of heaven.""
+    }
+  ],
+  ""decision_log"": ""Accepted."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+18,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_004\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 18:4. Describes winds revolving the heavens and setting the sun/stars."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 18:4"",
+          ""note"": ""Matches standard text.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And I saw the winds which turn the heaven, which cause the sun and all the stars to set.""
+    }
+  ],
+  ""decision_log"": ""Text 'ዋብተ' likely typo for 'ከዋክብተ' (stars) or similar in this MS, context demands stars. Accepted with textual note."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"
+18,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_005\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""moderate"",
+      ""reasoning"": ""Corresponds to 1 Enoch 18:5-6. Text contains likely abbreviations/typos ('ዘዲ' for 'ዘዲበ'?, 'ኀ' for 'ኀበ'?). Describes winds carrying clouds and paths of angels."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 18:5"",
+          ""note"": ""Standard: 'I saw the winds on the earth which carry the clouds...'""
+        }
+      ],
+      ""context_invariance"": ""variable"",
+      ""back_translation"": ""And I saw the winds on the earth which carry the clouds; and I saw the paths of angels. I saw at the end of the earth the firmament of heaven above. And I passed towards the south, and it burns day and night where there are 7 mountains...""
+    }
+  ],
+  ""decision_log"": ""Input 'ዘዲ' interpreted as 'on/over' (di-be). 'ዜብ' is 'South' (azeb). Accepted."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"
+18,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_006\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 18:7. Describes the composition of the mountains (colored stone, pearl, healing stone, red stone)."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 18:7"",
+          ""note"": ""Matches descriptions of the 7 mountains.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And towards the east was of colored stone, and one of pearl, and one of healing stone; and that towards the south of red stone.""
+    }
+  ],
+  ""decision_log"": ""'ፈውስ' (healing) likely variation or typo for 'ያሰ' (jasper) or similar, but 'healing stone' is a valid literal reading. Accepted."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"
+18,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_007\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""moderate"",
+      ""reasoning"": ""Corresponds to 1 Enoch 18:8. Describes the middle mountain reaching heaven like God's throne. Text 'እብነ፡ፔ' is obscure, likely 'እብነ፡ልባን' (alabaster) or 'እብነ፡በረድ' (crystal) in other MSS."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 18:8"",
+          ""note"": ""Throne of God description.""
+        }
+      ],
+      ""context_invariance"": ""variable"",
+      ""back_translation"": ""And the middle one reached to heaven like the throne of God, of stone of [P?]; and the top of the throne was of sapphire.""
+    }
+  ],
+  ""decision_log"": ""'ፔ' is likely a corruption/abbreviation. Context confirms 'Sapphire' for the summit. Accepted."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"
+18,segment_008,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_008\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 18:9. 'And flaming fire I saw...'."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 18:9"",
+          ""note"": ""Matches standard text.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And I saw a flaming fire, and what was in all the mountains.""
+    }
+  ],
+  ""decision_log"": ""Accepted."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+18,segment_009,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_009\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""moderate"",
+      ""reasoning"": ""Corresponds to 1 Enoch 18:10. 'መነ' in input is likely 'መካነ' (place). 'Beyond the great earth where waters gather'."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 18:10"",
+          ""note"": ""Matches: 'I saw a place there beyond the great earth...'""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And I saw there a place beyond the great earth; there the waters gather.""
+    }
+  ],
+  ""decision_log"": ""Corrected 'መነ' to 'መካነ' based on context. Accepted."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+18,segment_010,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_010\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 18:11. Describes the 'cleft of the earth' and 'pillars of heavenly fire'."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 18:11"",
+          ""note"": ""Matches standard text.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And I saw a deep cleft of the earth with pillars of heavenly fire; and I saw inside them pillars of heaven of fire falling, and they had no number, neither towards the height nor towards the depth.""
+    }
+  ],
+  ""decision_log"": ""Accepted."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+18,segment_011,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_011\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 18:12. Describes the chaotic void/waste. 'መነ፡ድው' = 'waste/desert place' (mekana daw)."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 18:12"",
+          ""note"": ""Matches description of the void.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And beyond that cleft I saw a place, and there was no firmament of heaven above it, and no foundation of earth below it, and no water was on it, and no birds, but it was a waste place.""
+    }
+  ],
+  ""decision_log"": ""Accepted."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+18,segment_012,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_012\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""moderate"",
+      ""reasoning"": ""Corresponds to 1 Enoch 18:13. '፯መ፡ድባር' is strange syntactically, usually '7 stars like great mountains' ('፯ከዋክብተ፡ከመ፡ድባር'). Input text seems corrupted here or uses 'መ' for 'like' (kame)."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 18:13"",
+          ""note"": ""Standard: 'I saw there seven stars like great burning mountains...'""
+        }
+      ],
+      ""context_invariance"": ""variable"",
+      ""back_translation"": ""And a terrible thing I saw there: seven [stars] like mountains great, which burn, and like a spirit questioning [me].""
+    }
+  ],
+  ""decision_log"": ""Reconstructed meaning based on '7' + 'mountains' + 'burn'. Accepted with note on 'stars' omission in literal text."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""moderate""
+  }
+}"
+18,segment_013,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_013\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 18:14. The angel speaks explaining the place as a prison."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 18:14"",
+          ""note"": ""Matches standard text.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""The angel said: 'This place is the end of heaven and earth; this has become a prison for the stars and the host of heaven.'""
+    }
+  ],
+  ""decision_log"": ""'ለዋብት' likely 'ለከዋክብት' (for stars). Accepted."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+18,segment_014,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_014\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 18:15. Explains the reason for imprisonment (transgression/late rising)."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 18:15"",
+          ""note"": ""Matches standard text.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And the stars which roll over the fire, these are they which transgressed the command of God before their rising, because they did not come at their appointed time.""
+    }
+  ],
+  ""decision_log"": ""Accepted."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+18,segment_015,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_018\segment_015\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Corresponds to 1 Enoch 18:16. God's anger and the duration of binding."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 18:16"",
+          ""note"": ""Matches standard text.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""And He was angry with them and bound them until the time of the consummation of their sin, the year of mystery.""
+    }
+  ],
+  ""decision_log"": ""Accepted."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+19,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_019\segment_001\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The parse structure correctly identifies the complex subordination characteristic of 1 Enoch 19:1. The main verb 'stand' (yəqawwəmu) governs the description of the angels, while the consecutive clauses describe the actions of their spirits (defiling, leading astray). The 'Sbar' (t13) aligns with the 'until' (əska) clause regarding the day of judgment."",
+      ""parallels"": [
+        {
+          ""ref"": ""Greek Syncellus (Chron. 11.21)"",
+          ""note"": ""Matches 'hoi migentes gynaisin' (those who mixed with women).""
+        },
+        {
+          ""ref"": ""Gizeh Fragment (Gr. Panop.)"",
+          ""note"": ""Attests the sequence of defilement and sacrifice to demons ('thuousin tois daimoisin').""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""The input text contains scribal abbreviations or OCR artifacts (e.g., 'መ፡' for 'kama', 'ነ፡ዘ፡' for 'ba-za'). Despite these, the semantic flow matches the critical text of 1 Enoch 19:1. The identification of the 'spirits assuming many forms' (manafəstihomu bəzuḫa ra'ya) is historically significant for demonology. The parse robustly handles the 'until the great day' eschatological limit."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+19,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_019\segment_002\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""Simple predication fits the source text well. The identification of 'salamawyat' (peaceful ones/Sirens) is the central semantic challenge, which the 'predicate_nominative' structure supports."",
+      ""parallels"": [
+        {
+          ""ref"": ""Greek Gizeh Fragment"",
+          ""note"": ""hōs seirēnes (like sirens).""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""The term 'salamawyat' is a known Ethiopic rendering for the Greek 'seirenes' in this context (1 Enoch 19:2), likely chosen for phonetic approximation or ironic usage. The parse correctly links the subject 'their wives' (w-anəstiyahomu) to this complement via the verb 'to become'."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""high""
+  }
+}"
+19,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_019\segment_003\segment.txt,"{
+  ""evaluation"": [
+    {
+      ""hypothesis_ref"": ""S1"",
+      ""plausibility"": ""high"",
+      ""reasoning"": ""The compound structure accurately reflects the two distinct assertions: Enoch's reception of the vision and the exclusivity of that vision relative to other humans. The comparative clause 'as I saw' is correctly mapped."",
+      ""parallels"": [
+        {
+          ""ref"": ""1 Enoch 19:3 (General Tradition)"",
+          ""note"": ""Standard closing formula for the section.""
+        }
+      ],
+      ""context_invariance"": ""stable"",
+      ""back_translation"": ""pass""
+    }
+  ],
+  ""decision_log"": ""The text 'baḥtitye' (I alone) is emphatic, supporting the separation in the parse. The phrase 'ends of all' (ṣənafa kwellu) is a direct object of the vision, which the parse respects. No significant variation in the manuscript tradition undermines this structural reading."",
+  ""final_decision"": {
+    ""hypothesis_ref"": ""S1"",
+    ""translation_id"": ""T1"",
+    ""confidence"": ""very_high""
+  }
+}"

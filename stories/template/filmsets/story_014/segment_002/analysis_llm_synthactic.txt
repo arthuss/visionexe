@@ -1,0 +1,18 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Complex Sentence",
+        "bracket_notation": "[S [AdvP t5] [S [VP t6] [NP t7]] [S [VP t8] [NP t9]]]",
+        "dependencies": [
+          "t6->t5 (adverbial clause)",
+          "t6->t7 (object)",
+          "t6->t8 (coordination)",
+          "t8->t9 (object)"
+        ],
+        "notes": "Correlative structure 'Just as... so also...'"
+      }
+    ]
+  }
+}

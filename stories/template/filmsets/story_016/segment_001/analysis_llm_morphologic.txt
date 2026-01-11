@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:42:13Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_016/segment_001",
+    "graphematic_string": "Chapter 16 Segment 1\n\nወሞተ፡ረዐይትኒ፡እንተ፡ኀ፡\nወፅ፡መንፈሳት፡እምነፍሳተ፡\nሥጋሆሙ፡ለይኩን፡ዘይማስን፡\nዘእንለ፡ነ፨ማሁ፡ይማስኑ፡\nእስ፡ዕለተ፡ተፍጸሜት፡ዐባይ፡\nእምዓለም፡ዐቢይ፡ይትፌጸም፡\nእምትጉሃን፡ወረሲዓን፡ሉ፡\nይትፈጸም፡እምትጉሃን፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "Chapter",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "16",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "16",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "Segment",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "1",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "1",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወሞተ፡ረዐይትኒ፡እንተ፡ኀ፡",
+      "span": {
+        "start": 22,
+        "end": 38
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "ወሞተ፡ረዐይትኒ፡እንተ፡ኀ፡",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ወፅ፡መንፈሳት፡እምነፍሳተ፡",
+      "span": {
+        "start": 39,
+        "end": 55
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "ወፅ፡መንፈሳት፡እምነፍሳተ፡",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ሥጋሆሙ፡ለይኩን፡ዘይማስን፡",
+      "span": {
+        "start": 56,
+        "end": 72
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "ሥጋሆሙ፡ለይኩን፡ዘይማስን፡",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ዘእንለ፡ነ፨ማሁ፡ይማስኑ፡",
+      "span": {
+        "start": 73,
+        "end": 88
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "ዘእንለ፡ነ፨ማሁ፡ይማስኑ፡",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "እስ፡ዕለተ፡ተፍጸሜት፡ዐባይ፡",
+      "span": {
+        "start": 89,
+        "end": 106
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "እስ፡ዕለተ፡ተፍጸሜት፡ዐባይ፡",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "እምዓለም፡ዐቢይ፡ይትፌጸም፡",
+      "span": {
+        "start": 107,
+        "end": 123
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "እምዓለም፡ዐቢይ፡ይትፌጸም፡",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t11",
+      "surface": "እምትጉሃን፡ወረሲዓን፡ሉ፡",
+      "span": {
+        "start": 124,
+        "end": 139
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "እምትጉሃን፡ወረሲዓን፡ሉ፡",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t12",
+      "surface": "ይትፈጸም፡እምትጉሃን፨",
+      "span": {
+        "start": 140,
+        "end": 153
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "root",
+            "lemma": "ይትፈጸም፡እምትጉሃን፨",
+            "pattern": "pattern"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_found",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

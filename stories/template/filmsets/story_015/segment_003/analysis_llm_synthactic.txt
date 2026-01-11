@@ -1,0 +1,21 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S3_P1",
+        "structure_type": "Interrogative/Accusative Clause Chain",
+        "bracket_notation": "[S [PREP t5] [ADJ t6] [PREP t7] [PREP t8] [V t9] [PREP t10] [N t11] [N t12]]",
+        "dependencies": [
+          "t5 -> t9 (adjunct/reason)",
+          "t6 -> t5 (modifier)",
+          "t9 -> t7 (adjunct)",
+          "t9 -> t8 (adjunct)",
+          "t9 -> t10 (indirect_object)",
+          "t9 -> t11 (direct_object/result)",
+          "t11 -> t12 (apposition/modifier)"
+        ],
+        "notes": "t9 'defiled/took' is the main predicate. t5 asks 'Why?'. t7/t8 describe the means."
+      }
+    ]
+  }
+}

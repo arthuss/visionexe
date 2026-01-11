@@ -1,0 +1,21 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Subordinate Causal Clause",
+        "bracket_notation": "[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [SBAR [CONJ t5] [S [VP [V t9] [ADVP t6] [NP t7] [NP t8]]]]]",
+        "dependencies": [
+          "t2->t1 (nummod)",
+          "t4->t3 (nummod)",
+          "t9->t5 (root_of_clause)",
+          "t5->root (mark)",
+          "t6->t9 (advmod)",
+          "t7->t9 (dobj)",
+          "t8->t9 (obl)"
+        ],
+        "notes": "t5 introduces the clause; t9 (verb) is the predicate governing t7 (eyes) and t8 (shame)."
+      }
+    ]
+  }
+}

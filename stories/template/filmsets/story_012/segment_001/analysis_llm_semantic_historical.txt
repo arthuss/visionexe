@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1_P1",
+      "plausibility": "high",
+      "reasoning": "The syntactic structure correctly identifies the temporal adjunct 'And before all these things' (ወእምቅድመ፡ኲሉ፡ነገር) and the main verb 'was hidden' (ተኀብአ - reconstructed from 'ተብተ'). The relative chain 'where he was hidden...' is standard 1 Enoch 12:1 phrasing.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 12:1",
+          "note": "Standard Ethiopic text (Knibb, Charles) confirms structure."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "And before all these things Enoch was hidden, and no one of the children of men knew where he was hidden..."
+    }
+  ],
+  "decision_log": "Input text contains OCR artifacts (ተብተ vs ተኀብአ), but the lemma extraction and parse structure align with the canonical text. The dependency tree correctly links the temporal modifier to the main verb.",
+  "final_decision": {
+    "hypothesis_ref": "S1_P1",
+    "translation_id": "T1",
+    "confidence": "high"
+  }
+}

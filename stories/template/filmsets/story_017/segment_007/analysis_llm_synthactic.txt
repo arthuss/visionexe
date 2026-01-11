@@ -1,0 +1,19 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "P1",
+        "structure_type": "Coordination",
+        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP t5 [NP t6] [NP t7]]]",
+        "dependencies": [
+          "t1->t2 (numeral_mod)",
+          "t3->t4 (numeral_mod)",
+          "ROOT->t5 (main_verb)",
+          "t5->t6 (obj)",
+          "t5->t7 (obj_coord)"
+        ],
+        "notes": "t5 'saw' -> t6 'mountains/winter'. t7 'abyss' coordinated object."
+      }
+    ]
+  }
+}

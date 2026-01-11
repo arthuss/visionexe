@@ -1,0 +1,17 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Narrative Sequence",
+        "bracket_notation": "[S [VP t5] [VP t5] [PP t6] [S [VP t6] [NP t6] [PP t6] [NP t7]]]",
+        "dependencies": [
+          "t5->t6 (location)",
+          "t5->t6 (coordination)",
+          "t6->t7 (object)"
+        ],
+        "notes": "Being lifted up to the entrance."
+      }
+    ]
+  }
+}

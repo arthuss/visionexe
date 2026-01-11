@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:37:21Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_014/segment_020",
+    "graphematic_string": "Chapter 14 Segment 20\n\nወኢይል፡ወኢመኑሂ፡\nእመላእት፡ዊ፨ወርእየ፡ገጹ፡\nለቡር፡ወስቡሕ ፤ ወኢይል፡\nወኢመኑሂ፡ዘሥጋ፡ይረይ፡\nያሁ፡",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "t1_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Chapter",
+            "lemma": "Chapter",
+            "pattern": "metadata"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "14",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "t2_NUM",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "14",
+            "lemma": "14",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "t3_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Segment",
+            "lemma": "Segment",
+            "pattern": "metadata"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "20",
+      "span": {
+        "start": 19,
+        "end": 21
+      },
+      "options": [
+        {
+          "option_id": "t4_NUM",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "20",
+            "lemma": "20",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወኢይል፡ወኢመኑሂ፡",
+      "span": {
+        "start": 23,
+        "end": 34
+      },
+      "options": [
+        {
+          "option_id": "t5_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ወኢይልወኢመኑሂ",
+            "lemma": "ወኢይል፡ወኢመኑሂ፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "እመላእት፡ዊ፨ወርእየ፡ገጹ፡",
+      "span": {
+        "start": 35,
+        "end": 51
+      },
+      "options": [
+        {
+          "option_id": "t6_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "እመላእትዊወርእየገጹ",
+            "lemma": "እመላእት፡ዊ፨ወርእየ፡ገጹ፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ለቡር፡ወስቡሕ",
+      "span": {
+        "start": 52,
+        "end": 60
+      },
+      "options": [
+        {
+          "option_id": "t7_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ለቡርወስቡሕ",
+            "lemma": "ለቡር፡ወስቡሕ",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "፤",
+      "span": {
+        "start": 61,
+        "end": 62
+      },
+      "options": [
+        {
+          "option_id": "t8_PART",
+          "pos": "PART.MOD",
+          "analysis": {
+            "kind": "lexical",
+            "root": "፤",
+            "lemma": "፤",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ወኢይል፡",
+      "span": {
+        "start": 63,
+        "end": 68
+      },
+      "options": [
+        {
+          "option_id": "t9_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ወኢይል",
+            "lemma": "ወኢይል፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "ወኢመኑሂ፡ዘሥጋ፡ይረይ፡",
+      "span": {
+        "start": 69,
+        "end": 83
+      },
+      "options": [
+        {
+          "option_id": "t10_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ወኢመኑሂዘሥጋይረይ",
+            "lemma": "ወኢመኑሂ፡ዘሥጋ፡ይረይ፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t11",
+      "surface": "ያሁ፡",
+      "span": {
+        "start": 84,
+        "end": 87
+      },
+      "options": [
+        {
+          "option_id": "t11_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ያሁ",
+            "lemma": "ያሁ፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

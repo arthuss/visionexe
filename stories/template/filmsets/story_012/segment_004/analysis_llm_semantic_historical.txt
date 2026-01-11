@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S4_P1",
+      "plausibility": "high",
+      "reasoning": "The parse handles the complex imperative 'Go, declare' (ሑር፡አይድዕ) followed by a lengthy relative clause describing the Watchers' apostasy. The segmentation of the relative clauses ('who left...', 'who defiled...') is historically consistent.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 12:4",
+          "note": "Contains the core accusation against the Watchers found in Qumran fragments and Ethiopic text."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "Enoch, scribe of righteousness, go, declare to the Watchers of heaven who have left the high heaven and the holy eternal station, and have defiled themselves with women..."
+    }
+  ],
+  "decision_log": "The dependency tree manages the high complexity of the embedded relative clauses successfully.",
+  "final_decision": {
+    "hypothesis_ref": "S4_P1",
+    "translation_id": "T1",
+    "confidence": "high"
+  }
+}

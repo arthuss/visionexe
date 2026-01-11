@@ -1,0 +1,21 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Complex Sentence with Request",
+        "bracket_notation": "[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [VP [V t5] [SBAR [VP [V t7] [PP t6] [SBAR [VP [V t8] [PP t9]]]]]]]]",
+        "dependencies": [
+          "t2->t1 (nummod)",
+          "t4->t3 (nummod)",
+          "t5->root",
+          "t7->t5 (ccomp)",
+          "t6->t7 (iobj)",
+          "t8->t7 (advcl)",
+          "t9->t8 (obl)"
+        ],
+        "notes": "t5 (asked) governs t7 (that it be); t8 (ascend) depends on t7."
+      }
+    ]
+  }
+}

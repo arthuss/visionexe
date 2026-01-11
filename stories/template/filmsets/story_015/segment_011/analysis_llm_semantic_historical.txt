@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S11_P1",
+      "plausibility": "moderate",
+      "reasoning": "The parse is syntactically sound, but the input text contains the variant 'damanata' (clouds) instead of the expected 'manfasata' (spirits) or just referring to the giants. This is a known textual issue in Ethiopic mss (confusion of Greek nephelas/pneumata).",
+      "parallels": [
+        {
+          "ref": "Greek Syncellus",
+          "note": "Reads 'spirits of the giants', not clouds."
+        }
+      ],
+      "context_invariance": "variant",
+      "back_translation": "And the spirits of the giants [and?] clouds which oppress, corrupt, fall, content, and bruise upon the earth..."
+    }
+  ],
+  "decision_log": "Accepted parse of the provided text, noting the 'clouds' (`damanata`) variant which differs from the Greek parallel.",
+  "final_decision": {
+    "hypothesis_ref": "S11_P1",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}

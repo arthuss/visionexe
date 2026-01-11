@@ -1,0 +1,23 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S3_P1",
+        "structure_type": "Discourse Segment",
+        "bracket_notation": "[META [N t1] [NUM t2]] [META [N t3] [NUM t4]] [S [S [VP t5] [VP t6]] [S [VP t7] [NP t8] [VP t9]] [S [VP t10] [NP t11]] [S [VP t12] [PP t13]]]",
+        "dependencies": [
+          "t1->t2 (nummod)",
+          "t3->t4 (nummod)",
+          "t6->t5 (conj)",
+          "t9->t7 (ccomp)",
+          "t9->t8 (obj)",
+          "t10->t9 (conj)",
+          "t10->t11 (obl:inst)",
+          "t12->t10 (advcl)",
+          "t12->t13 (obl:loc)"
+        ],
+        "notes": "Complex sentence chain split across multiple phrase-tokens."
+      }
+    ]
+  }
+}

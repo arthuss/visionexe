@@ -1,0 +1,18 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S4_P1",
+      "plausibility": "high",
+      "reasoning": "The parse handles the contrastive structure: 'You were holy... but you defiled...'. The input text shows minor garbling at the start, but the main sentence is intact and correctly analyzed.",
+      "parallels": [],
+      "context_invariance": "stable",
+      "back_translation": "And ye were spiritual, holy, living the eternal life, but ye have defiled yourselves with the blood of women, and have begotten (children) with the blood of flesh, and, as the children of men, have lusted after flesh and blood as those also do who die and perish."
+    }
+  ],
+  "decision_log": "Matches 1 Enoch 15:4 despite input noise.",
+  "final_decision": {
+    "hypothesis_ref": "S4_P1",
+    "translation_id": "T1",
+    "confidence": "high"
+  }
+}

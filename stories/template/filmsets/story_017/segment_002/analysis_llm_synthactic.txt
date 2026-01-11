@@ -1,0 +1,20 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "P1",
+        "structure_type": "Complex Sentence",
+        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP t5 [NP t6 [SBAR t7 [VP t8]]]]]",
+        "dependencies": [
+          "t1->t2 (numeral_mod)",
+          "t3->t4 (numeral_mod)",
+          "ROOT->t5 (main_verb)",
+          "t5->t6 (obl_arg)",
+          "t6->t7 (relative_mod)",
+          "t7->t8 (relative_comp)"
+        ],
+        "notes": "t5 'took' -> t6 'place/mountain' -> t7 'whose/which' -> t8 'reached'."
+      }
+    ]
+  }
+}

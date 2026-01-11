@@ -1,0 +1,18 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Complex Sentence",
+        "bracket_notation": "[ROOT [Label t1 t2 t3 t4] [S [VP t5 [NP t6] [S_sub [VP t7 [PP t8 [NP t9]]]]]]]",
+        "dependencies": [
+          "t5->t6 (object)",
+          "t5->t7 (adverbial_clause)",
+          "t7->t8 (oblique)",
+          "t8->t9 (genitive)"
+        ],
+        "notes": "t5 functions as the main predicate block; t6 is the direct object theme; t7 introduces a purposive/consecutive clause governing the prepositional complex t8, which is modified by t9."
+      }
+    ]
+  }
+}

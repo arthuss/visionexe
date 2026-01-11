@@ -1,0 +1,21 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Negated Verbal Clause",
+        "bracket_notation": "[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [VP [V t6] [NP t5] [NP [N t7] [N t8] [VP t9]]]]]",
+        "dependencies": [
+          "t2->t1 (nummod)",
+          "t4->t3 (nummod)",
+          "t6->root",
+          "t5->t6 (obj)",
+          "t7->t6 (obj)",
+          "t8->t7 (conj)",
+          "t9->t8 (acl)"
+        ],
+        "notes": "t6 (verb) is central; t5, t7, t8 are nominal arguments/objects; t9 modifies t8."
+      }
+    ]
+  }
+}

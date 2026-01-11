@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S4_P1",
+      "plausibility": "moderate",
+      "reasoning": "The text appears heavily abbreviated or corrupted ('ሎሙ፡እንሰ፡ልብሙ፡ሰላመ'). Standard text reads 'Say to them therefore: You have no peace' (በልዎሙ፡እምኬ፡አልቦ፡ለክሙ፡ሰላም). The parse identifies it as a direct address/verdict, which is semantically correct for the chapter's conclusion. 'ልብሙ' is likely a corruption of 'ለክሙ' (to you).",
+      "parallels": [
+        {
+          "ref": "1 Enoch 12:6",
+          "note": "Standard formula of judgment against the Watchers: 'You will have no peace'."
+        }
+      ],
+      "context_invariance": "variant",
+      "back_translation": "Say to them therefore: [You have no] peace."
+    }
+  ],
+  "decision_log": "Accepted as the intended closing formula despite surface textual issues.",
+  "final_decision": {
+    "hypothesis_ref": "S4_P1",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}

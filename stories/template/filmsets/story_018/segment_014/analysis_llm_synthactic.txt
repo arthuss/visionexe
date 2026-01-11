@@ -1,0 +1,21 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Compound Sentence",
+        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [S1 [NP t5 [SBAR [Rel t5] [VP t5 [PP t6]]]]] [S2 [NP t6] [VP t6 [NP t7 [SBAR [Rel t7] [VP t7 [NP t7 [NP t8]]]]]] [PP t8 [NP t9 [SBAR [Conj t9] [VP t9 [NP t10]]]]]]]",
+        "dependencies": [
+          "t1->t2 (numeral_mod)",
+          "t3->t4 (numeral_mod)",
+          "t5->t6 (locative_mod)",
+          "t6->t7 (pred_nom)",
+          "t7->t8 (temporal_adjunct)",
+          "t8->t9 (genitive_mod)",
+          "t9->t10 (causal_adjunct)"
+        ],
+        "notes": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Compound Sentence",
+        "bracket_notation": "[S [S [NP t5] [VP t6]] [S [NP t7] [VP [VP t8] [VP t9] [PP t10]]]]",
+        "dependencies": [
+          "t6->t5 (subject)",
+          "t6->t7 (coordination)",
+          "t7->t8 (circumstantial)",
+          "t8->t9 (coordination)",
+          "t9->t10 (source)"
+        ],
+        "notes": "Contrastive structure: Their petition fails, and they are silenced."
+      }
+    ]
+  }
+}

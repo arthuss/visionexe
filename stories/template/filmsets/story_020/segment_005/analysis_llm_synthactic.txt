@@ -1,0 +1,16 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Nominal Sentence / List Item",
+        "bracket_notation": "[S [Meta t1 t2 t3 t4] [NP_Subj t5] [RelCl t6] [NP_Appos t7]]",
+        "dependencies": [
+          "t5->t6 (modifier)",
+          "t6->t7 (continuation/apposition)"
+        ],
+        "notes": "t5 (Michael) is defined by the scope in t6 (over the best) and t7 (command over people)."
+      }
+    ]
+  }
+}

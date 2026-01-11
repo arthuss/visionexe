@@ -1,0 +1,18 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Narrative Sequence",
+        "bracket_notation": "[S [NP t5] [VP t5] [PP t6] [S [NP t6] [RelCl t6] [PP t7] [NP t8]]]",
+        "dependencies": [
+          "t5->t6 (location)",
+          "t5->t6 (coordination/new subject)",
+          "t6->t7 (comparison)",
+          "t7->t8 (coordination/comparison)"
+        ],
+        "notes": "The Great Glory sits; description of raiment."
+      }
+    ]
+  }
+}

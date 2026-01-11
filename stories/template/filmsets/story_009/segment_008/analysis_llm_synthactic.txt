@@ -1,0 +1,19 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Verbal Clause Chain",
+        "bracket_notation": "[S [V t5] [Mod t6] [Mod t7] [V_Coord t8] [Obj t9]]",
+        "dependencies": [
+          "t5->ROOT",
+          "t6->t5 (modifier_manner)",
+          "t7->t6 (modifier_comitative)",
+          "t8->t5 (coordination)",
+          "t9->t8 (object)"
+        ],
+        "notes": "t5 'They went to daughters of men'. t6 'Together and slept'. t7 'With those women'. t8 'Defiled and revealed'. t9 'Sin/Secrets'."
+      }
+    ]
+  }
+}

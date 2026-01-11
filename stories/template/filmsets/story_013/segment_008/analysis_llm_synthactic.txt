@@ -1,0 +1,21 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Sequential Verbal Chain",
+        "bracket_notation": "[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [ADVP t5] [VP [V t7] [NP t6]] [VP [V t8]] [VP [V t9]]]]",
+        "dependencies": [
+          "t2->t1 (nummod)",
+          "t4->t3 (nummod)",
+          "t7->root",
+          "t5->t7 (advmod)",
+          "t6->t7 (obj)",
+          "t8->t7 (conj)",
+          "t9->t8 (conj)"
+        ],
+        "notes": "t7 (saw) starts the chain; t8 (tell) and t9 (reprimand) follow sequentially."
+      }
+    ]
+  }
+}

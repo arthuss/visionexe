@@ -1,0 +1,19 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Verbal Clause Chain",
+        "bracket_notation": "[S [V t5] [Obj_Clause t6] [S_Coord t6] [S_Coord t7] [S_Coord t8] [Mod t9]]",
+        "dependencies": [
+          "t5->ROOT",
+          "t6->t5 (object_clause)",
+          "t7->t5 (coordination)",
+          "t8->t7 (coordination)",
+          "t9->t8 (modifier_reference)"
+        ],
+        "notes": "t5 'You know all before'. t6 'It happens; You know this'. t7 'And their state; And you tell us nothing'. t8 'What is fitting to do'. t9 'About this'."
+      }
+    ]
+  }
+}

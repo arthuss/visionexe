@@ -1,0 +1,22 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Nominal Sentence (Title)",
+        "bracket_notation": "[S [NP [NP t5] [RelCl [NP t6] [VP t7]]] [NP [NP t8] [RelCl [VP t9] [NP t10] [RelCl [VP t11] [VP t12] [VP t13]]]]]",
+        "dependencies": [
+          "t5->t6 (modifier)",
+          "t6->t7 (predicate)",
+          "t5->t8 (apposition/continuation)",
+          "t8->t9 (relative)",
+          "t9->t10 (object)",
+          "t10->t11 (relative)",
+          "t11->t12 (complement)",
+          "t12->t13 (coordination)"
+        ],
+        "notes": "Interpreted as a complex title sequence: 'The Book... which the Watchers... The Vision which I saw...'"
+      }
+    ]
+  }
+}

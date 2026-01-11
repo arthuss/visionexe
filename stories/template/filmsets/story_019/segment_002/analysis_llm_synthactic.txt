@@ -1,0 +1,17 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Simple Sentence",
+        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [NP t5] [NP t6] [VP t7]]]",
+        "dependencies": [
+          "t7->t5 (subject)",
+          "t5->t6 (modifier)",
+          "t7->t6 (predicate_nominative_approximated)"
+        ],
+        "notes": "t5 contains subject 'women'; t7 contains verb 'become'."
+      }
+    ]
+  }
+}

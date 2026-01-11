@@ -1,0 +1,20 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Verbal Clause with Adverbial",
+        "bracket_notation": "[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [ADVP t5] [VP [V t8] [NP t6] [PP t7]]]]",
+        "dependencies": [
+          "t2->t1 (nummod)",
+          "t4->t3 (nummod)",
+          "t8->root",
+          "t5->t8 (advmod)",
+          "t6->t8 (obj)",
+          "t7->t8 (obl)"
+        ],
+        "notes": "t8 (verb) is the main predicate taking t6 (indefinite pron) and t7 (prep phrase) as arguments."
+      }
+    ]
+  }
+}

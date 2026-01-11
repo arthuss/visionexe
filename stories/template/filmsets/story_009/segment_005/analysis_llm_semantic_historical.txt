@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "high",
+      "reasoning": "Corresponds to 1 Enoch 9:5. The attributes of omniscience ('You see all', 'nothing can hide') are standard.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 9:5",
+          "note": null
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "You have made all things, and power over all is with you, and all things are naked and open before you, and you see all things, and there is nothing that can hide from you."
+    }
+  ],
+  "decision_log": "Parse correctly handles the clause chaining and existential negation.",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T1",
+    "confidence": "high"
+  }
+}

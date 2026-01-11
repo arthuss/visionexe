@@ -1,0 +1,17 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Complex Nominal Sentence",
+        "bracket_notation": "[S [Meta t1 t2 t3 t4] [NP_Subj t5] [RelCl t6 [NP_Gen t7 [RelCl t8]]]]",
+        "dependencies": [
+          "t5->t6 (modifier)",
+          "t6->t7 (genitive chain)",
+          "t7->t8 (relative modifier)"
+        ],
+        "notes": "Complex embedding: t5 (Saraqael) -> t6 (over spirits) -> t7 (of men) -> t8 (who sin)."
+      }
+    ]
+  }
+}

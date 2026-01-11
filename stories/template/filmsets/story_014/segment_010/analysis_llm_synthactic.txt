@@ -1,0 +1,17 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Nominal Chain (Description)",
+        "bracket_notation": "[NP [NP t5] [NP t6] [NP t7] [NP t8]]",
+        "dependencies": [
+          "t5->t6 (coordination)",
+          "t6->t7 (coordination)",
+          "t7->t8 (coordination)"
+        ],
+        "notes": "Continuation of the architectural description (ceiling, lightning, cherubim)."
+      }
+    ]
+  }
+}

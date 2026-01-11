@@ -1,0 +1,20 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "P1",
+        "structure_type": "Complex Sentence",
+        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP t5 [NP t6] [NP t7 [PP t8]]]]",
+        "dependencies": [
+          "t1->t2 (numeral_mod)",
+          "t3->t4 (numeral_mod)",
+          "ROOT->t5 (main_verb)",
+          "t5->t6 (obl_arg)",
+          "t5->t7 (obl_coord)",
+          "t7->t8 (nmod)"
+        ],
+        "notes": "t5 'took' -> t6 'waters'. Coordinated with t7 'fire'. t7 modified by t8 'to setting'."
+      }
+    ]
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:50:35Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_020/segment_001",
+    "graphematic_string": "Chapter 20 Segment 1\n\nወዝንቱ፡ስማቱሆሙ፡ለእለ፡\nይተግሁ፡ቅዱሳን፡መላእት፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "opt1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Chapter",
+            "lemma": "Chapter",
+            "pattern": "unknown"
+          },
+          "confidence": {
+            "type": "rule_based",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "20",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "opt1",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "20",
+            "lemma": "20",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "rule_based",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "opt1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Segment",
+            "lemma": "Segment",
+            "pattern": "unknown"
+          },
+          "confidence": {
+            "type": "rule_based",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "1",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "opt1",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "1",
+            "lemma": "1",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "rule_based",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወዝንቱ፡ስማቱሆሙ፡ለእለ፡",
+      "span": {
+        "start": 22,
+        "end": 37
+      },
+      "options": [
+        {
+          "option_id": "opt1",
+          "pos": "PRO.DEM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ዝንቱ",
+            "lemma": "ዝንቱ",
+            "pattern": "unknown"
+          },
+          "confidence": {
+            "type": "rule_based",
+            "score": 0.9
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ይተግሁ፡ቅዱሳን፡መላእት፨",
+      "span": {
+        "start": 38,
+        "end": 53
+      },
+      "options": [
+        {
+          "option_id": "opt1",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ተግሀ",
+            "lemma": "ተግሀ",
+            "pattern": "imperfect"
+          },
+          "confidence": {
+            "type": "rule_based",
+            "score": 0.9
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

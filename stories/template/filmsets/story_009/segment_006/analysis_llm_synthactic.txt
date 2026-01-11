@@ -1,0 +1,18 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Verbal Clause",
+        "bracket_notation": "[S [V t5] [Obj_Clause [V t6] [Obj t7] [Rel t8]]]",
+        "dependencies": [
+          "t5->ROOT",
+          "t6->t5 (object_clause)",
+          "t7->t6 (object_direct)",
+          "t8->t7 (relative_modifier)"
+        ],
+        "notes": "t5 'See what Azazel done'. t6 'He taught lawlessness'. t7 'And revealed secrets'. t8 'Which are done in heaven'."
+      }
+    ]
+  }
+}

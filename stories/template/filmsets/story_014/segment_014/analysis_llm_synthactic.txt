@@ -1,0 +1,17 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Nominal Sentence (Presentation)",
+        "bracket_notation": "[S [PART t5] [NP [NP t5] [RelCl t5]] [PP t6] [VP t7] [NP t8]]",
+        "dependencies": [
+          "t5->t6 (comparison)",
+          "t5->t7 (state/position)",
+          "t7->t8 (description)"
+        ],
+        "notes": "Introduction of the second house."
+      }
+    ]
+  }
+}

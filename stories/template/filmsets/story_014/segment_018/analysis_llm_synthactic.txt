@@ -1,0 +1,16 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Nominal Sentence",
+        "bracket_notation": "[S [PP t5] [VP t5] [NP t6] [RelCl t7]]",
+        "dependencies": [
+          "t5->t6 (subject)",
+          "t6->t7 (relative)"
+        ],
+        "notes": "Description of what is under the throne."
+      }
+    ]
+  }
+}

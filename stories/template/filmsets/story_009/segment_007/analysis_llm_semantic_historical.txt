@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "low",
+      "reasoning": "Corresponds to 1 Enoch 9:7, but the text 'Wemere seb'atata' (And he showed/taught spells?) diverges from the standard 'Wele-Semyaza' (And to Semyaza). The parse attempts to fit this into a relative structure modifying Semyaza, but the text is likely corrupt or a distinct variant.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 9:7",
+          "note": "Standard: 'And Semyaza, to whom You have given authority...'"
+        }
+      ],
+      "context_invariance": "unstable",
+      "back_translation": "And [he taught spells?] Semyaza, to whom you gave authority to rule those who are with him together."
+    }
+  ],
+  "decision_log": "High uncertainty due to textual deviation 'Wemere seb'atata'. Parse logic regarding the relative clause is sound for the remaining text.",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T1",
+    "confidence": "low"
+  }
+}

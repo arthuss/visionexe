@@ -1,0 +1,19 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Complex Sentence",
+        "bracket_notation": "[S [VP t5] [PP t6] [VP t7] [S [Conj t9] [NP t10] [VP t10] [NP t11]]]",
+        "dependencies": [
+          "t5->t6 (partitive)",
+          "t5->t7 (complement)",
+          "t5->t9 (coordination)",
+          "t9->t10 (subject)",
+          "t10->t11 (object)"
+        ],
+        "notes": "Inability of angels or flesh to behold Him."
+      }
+    ]
+  }
+}

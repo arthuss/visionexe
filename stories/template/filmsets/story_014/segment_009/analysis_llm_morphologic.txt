@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:37:21Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_014/segment_009",
+    "graphematic_string": "Chapter 14 Segment 9\n\nወቦእኩ፡ውስተ፡ልሳነ፡\nእሳት፨ወቀረብኩ፡ኀ፡ቤት፡\nዐቢይ፡ዘሕኑጽ፡ዕባነ፡ረድ ፤\nወረፍቱ፡ውእቱ፡መ፡ጸፍጸፈ፡\nሰሌዳ፡ዕባን፡ዘእምረድ፡\nወምድሩ፡ረድ፡",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "t1_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Chapter",
+            "lemma": "Chapter",
+            "pattern": "metadata"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "14",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "t2_NUM",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "14",
+            "lemma": "14",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "t3_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Segment",
+            "lemma": "Segment",
+            "pattern": "metadata"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "9",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "t4_NUM",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "9",
+            "lemma": "9",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወቦእኩ፡ውስተ፡ልሳነ፡",
+      "span": {
+        "start": 22,
+        "end": 35
+      },
+      "options": [
+        {
+          "option_id": "t5_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ወቦእኩውስተልሳነ",
+            "lemma": "ወቦእኩ፡ውስተ፡ልሳነ፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "እሳት፨ወቀረብኩ፡ኀ፡ቤት፡",
+      "span": {
+        "start": 36,
+        "end": 51
+      },
+      "options": [
+        {
+          "option_id": "t6_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "እሳትወቀረብኩኀቤት",
+            "lemma": "እሳት፨ወቀረብኩ፡ኀ፡ቤት፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ዐቢይ፡ዘሕኑጽ፡ዕባነ፡ረድ",
+      "span": {
+        "start": 52,
+        "end": 67
+      },
+      "options": [
+        {
+          "option_id": "t7_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ዐቢይዘሕኑጽዕባነረድ",
+            "lemma": "ዐቢይ፡ዘሕኑጽ፡ዕባነ፡ረድ",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "፤",
+      "span": {
+        "start": 68,
+        "end": 69
+      },
+      "options": [
+        {
+          "option_id": "t8_PART",
+          "pos": "PART.MOD",
+          "analysis": {
+            "kind": "lexical",
+            "root": "፤",
+            "lemma": "፤",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ወረፍቱ፡ውእቱ፡መ፡ጸፍጸፈ፡",
+      "span": {
+        "start": 70,
+        "end": 86
+      },
+      "options": [
+        {
+          "option_id": "t9_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ወረፍቱውእቱመጸፍጸፈ",
+            "lemma": "ወረፍቱ፡ውእቱ፡መ፡ጸፍጸፈ፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "ሰሌዳ፡ዕባን፡ዘእምረድ፡",
+      "span": {
+        "start": 87,
+        "end": 101
+      },
+      "options": [
+        {
+          "option_id": "t10_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሰሌዳዕባንዘእምረድ",
+            "lemma": "ሰሌዳ፡ዕባን፡ዘእምረድ፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t11",
+      "surface": "ወምድሩ፡ረድ፡",
+      "span": {
+        "start": 102,
+        "end": 110
+      },
+      "options": [
+        {
+          "option_id": "t11_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ወምድሩረድ",
+            "lemma": "ወምድሩ፡ረድ፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

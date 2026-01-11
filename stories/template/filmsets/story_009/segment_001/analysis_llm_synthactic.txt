@@ -1,0 +1,21 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Verbal Clause",
+        "bracket_notation": "[S [V t5] [Subj t6] [V_Coord [V t7] [Obj t8 [Mod t9]] [Obj_Coord t10 [Mod t11]]]]",
+        "dependencies": [
+          "t5->ROOT",
+          "t6->t5 (subject)",
+          "t7->t5 (coordination)",
+          "t8->t7 (object)",
+          "t9->t8 (modifier_location)",
+          "t10->t7 (object_coordination)",
+          "t11->t10 (modifier_location)"
+        ],
+        "notes": "t5 contains 'Then looked Michael' (V+S). t6 'Uriel and Gabriel' adds to subject. t7 'from heaven and saw' is coordinated verb phrase. t8 'blood that is shed' is object. t10 'and all lawlessness' is coordinated object."
+      }
+    ]
+  }
+}

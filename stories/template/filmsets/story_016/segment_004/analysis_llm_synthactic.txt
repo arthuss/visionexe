@@ -1,0 +1,17 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S4_P1",
+        "structure_type": "Discourse Segment",
+        "bracket_notation": "[META [N t1] [NUM t2]] [META [N t3] [NUM t4]] [S [VP t5] [NP t6]]",
+        "dependencies": [
+          "t1->t2 (nummod)",
+          "t3->t4 (nummod)",
+          "t5->t6 (obj)"
+        ],
+        "notes": "Direct address formula."
+      }
+    ]
+  }
+}

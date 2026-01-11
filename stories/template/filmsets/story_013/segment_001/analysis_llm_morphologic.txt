@@ -1,0 +1,287 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:32:16Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_013/segment_001",
+    "graphematic_string": "Chapter 13 Segment 1\n\nወሄኖ፡ኀሊፎ፡ይቤሎ፡\nለዛዝኤል፡ኢይውነ፡ሰላም ፤\nዓቢይ፡ነ፡ወፅ፡ላዕሌ፡\nይእሥር፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "opt1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "english_term",
+            "lemma": "Chapter",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "foreign_loan",
+            "attestation": "modern_meta",
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "13",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "opt1",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "13",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "numeric",
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "opt1",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "english_term",
+            "lemma": "Segment",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "foreign_loan",
+            "attestation": "modern_meta",
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "1",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "opt1",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "1",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "weak",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "numeric",
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወሄኖ፡ኀሊፎ፡ይቤሎ፡",
+      "span": {
+        "start": 22,
+        "end": 34
+      },
+      "options": [
+        {
+          "option_id": "opt1",
+          "pos": "PN",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሄኖክ",
+            "lemma": "ሄኖክ",
+            "pattern": "noun"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.85
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "canonical",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ለዛዝኤል፡ኢይውነ፡ሰላም",
+      "span": {
+        "start": 35,
+        "end": 49
+      },
+      "options": [
+        {
+          "option_id": "opt1",
+          "pos": "PN",
+          "analysis": {
+            "kind": "lexical",
+            "root": "አዛዝኤል",
+            "lemma": "አዛዝኤል",
+            "pattern": "noun"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.85
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "canonical",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "፤",
+      "span": {
+        "start": 50,
+        "end": 51
+      },
+      "options": [
+        {
+          "option_id": "opt1",
+          "pos": "PART.MOD",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "፤",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.9
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "punctuation",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ዓቢይ፡ነ፡ወፅ፡ላዕሌ፡",
+      "span": {
+        "start": 52,
+        "end": 65
+      },
+      "options": [
+        {
+          "option_id": "opt1",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ዐበየ",
+            "lemma": "ዓቢይ",
+            "pattern": "qatil"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "canonical",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ይእሥር፨",
+      "span": {
+        "start": 66,
+        "end": 71
+      },
+      "options": [
+        {
+          "option_id": "opt1",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "አሠረ",
+            "lemma": "ይእሥር",
+            "pattern": "yiqatil"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.75
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "canonical",
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

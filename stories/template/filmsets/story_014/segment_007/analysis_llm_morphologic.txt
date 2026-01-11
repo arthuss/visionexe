@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:37:21Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_014/segment_007",
+    "graphematic_string": "Chapter 14 Segment 7\n\nወሊተ፡ራእይ፡መዝ፡ስተርየኒ\n፤ ናሁ፡ደመናት፡ራእይ፡\nይጼውዑኒ፡ወጊሜ፡ይጼውዓኒ፡\nወሩጸተ፡ዋብት፡ወመባርቅት፡\nያጔጕዑኒ፡ወያጽህቁኒ፡ወነፋሳት፡\nራእይ፡ያሰርሩኒ፡ወያጐጕኡኒ፡",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "t1_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Chapter",
+            "lemma": "Chapter",
+            "pattern": "metadata"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "14",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "t2_NUM",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "14",
+            "lemma": "14",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "t3_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Segment",
+            "lemma": "Segment",
+            "pattern": "metadata"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "7",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "t4_NUM",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "7",
+            "lemma": "7",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወሊተ፡ራእይ፡መዝ፡ስተርየኒ",
+      "span": {
+        "start": 22,
+        "end": 38
+      },
+      "options": [
+        {
+          "option_id": "t5_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ወሊተራእይመዝስተርየኒ",
+            "lemma": "ወሊተ፡ራእይ፡መዝ፡ስተርየኒ",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "፤",
+      "span": {
+        "start": 39,
+        "end": 40
+      },
+      "options": [
+        {
+          "option_id": "t6_PART",
+          "pos": "PART.MOD",
+          "analysis": {
+            "kind": "lexical",
+            "root": "፤",
+            "lemma": "፤",
+            "pattern": "punctuation"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ናሁ፡ደመናት፡ራእይ፡",
+      "span": {
+        "start": 41,
+        "end": 53
+      },
+      "options": [
+        {
+          "option_id": "t7_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ናሁደመናትራእይ",
+            "lemma": "ናሁ፡ደመናት፡ራእይ፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ይጼውዑኒ፡ወጊሜ፡ይጼውዓኒ፡",
+      "span": {
+        "start": 54,
+        "end": 70
+      },
+      "options": [
+        {
+          "option_id": "t8_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ይጼውዑኒወጊሜይጼውዓኒ",
+            "lemma": "ይጼውዑኒ፡ወጊሜ፡ይጼውዓኒ፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ወሩጸተ፡ዋብት፡ወመባርቅት፡",
+      "span": {
+        "start": 71,
+        "end": 87
+      },
+      "options": [
+        {
+          "option_id": "t9_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ወሩጸተዋብትወመባርቅት",
+            "lemma": "ወሩጸተ፡ዋብት፡ወመባርቅት፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "ያጔጕዑኒ፡ወያጽህቁኒ፡ወነፋሳት፡",
+      "span": {
+        "start": 88,
+        "end": 107
+      },
+      "options": [
+        {
+          "option_id": "t10_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ያጔጕዑኒወያጽህቁኒወነፋሳት",
+            "lemma": "ያጔጕዑኒ፡ወያጽህቁኒ፡ወነፋሳት፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t11",
+      "surface": "ራእይ፡ያሰርሩኒ፡ወያጐጕኡኒ፡",
+      "span": {
+        "start": 108,
+        "end": 125
+      },
+      "options": [
+        {
+          "option_id": "t11_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ራእይያሰርሩኒወያጐጕኡኒ",
+            "lemma": "ራእይ፡ያሰርሩኒ፡ወያጐጕኡኒ፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

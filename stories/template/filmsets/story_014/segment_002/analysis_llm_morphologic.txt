@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:37:21Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_014/segment_002",
+    "graphematic_string": "Chapter 14 Segment 2\n\nመ፡ፈጠረ፡ወወሀ፡ለሰብእ፡\nወሊተ፡ወሀ፡ይለብዉ፡ቃለ፡\nእምሮ፨ወሊተኒ፡ፈጠረ፡\nወወሀኒ፡እዝለፎሙ፡ለትጉሃን፡\nውሉደ፡ሰማይ፡",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "t1_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Chapter",
+            "lemma": "Chapter",
+            "pattern": "metadata"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "14",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "t2_NUM",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "14",
+            "lemma": "14",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "t3_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "Segment",
+            "lemma": "Segment",
+            "pattern": "metadata"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "2",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "t4_NUM",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "2",
+            "lemma": "2",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "መ፡ፈጠረ፡ወወሀ፡ለሰብእ፡",
+      "span": {
+        "start": 22,
+        "end": 37
+      },
+      "options": [
+        {
+          "option_id": "t5_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "መፈጠረወወሀለሰብእ",
+            "lemma": "መ፡ፈጠረ፡ወወሀ፡ለሰብእ፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ወሊተ፡ወሀ፡ይለብዉ፡ቃለ፡",
+      "span": {
+        "start": 38,
+        "end": 53
+      },
+      "options": [
+        {
+          "option_id": "t6_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ወሊተወሀይለብዉቃለ",
+            "lemma": "ወሊተ፡ወሀ፡ይለብዉ፡ቃለ፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "እምሮ፨ወሊተኒ፡ፈጠረ፡",
+      "span": {
+        "start": 54,
+        "end": 67
+      },
+      "options": [
+        {
+          "option_id": "t7_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "እምሮወሊተኒፈጠረ",
+            "lemma": "እምሮ፨ወሊተኒ፡ፈጠረ፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ወወሀኒ፡እዝለፎሙ፡ለትጉሃን፡",
+      "span": {
+        "start": 68,
+        "end": 85
+      },
+      "options": [
+        {
+          "option_id": "t8_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ወወሀኒእዝለፎሙለትጉሃን",
+            "lemma": "ወወሀኒ፡እዝለፎሙ፡ለትጉሃን፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ውሉደ፡ሰማይ፡",
+      "span": {
+        "start": 86,
+        "end": 94
+      },
+      "options": [
+        {
+          "option_id": "t9_N",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ውሉደሰማይ",
+            "lemma": "ውሉደ፡ሰማይ፡",
+            "pattern": "complex"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

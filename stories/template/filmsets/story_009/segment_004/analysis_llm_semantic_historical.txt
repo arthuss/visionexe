@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "moderate",
+      "reasoning": "Corresponds to 1 Enoch 9:4. The input text contains significant abbreviations or scribal corruptions (e.g., 'Malet' for 'Amalekt', 'Ga'ezet' for 'Aga'ezet'). The parse correctly identifies the intended formulaic titulary despite these issues.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 9:4",
+          "note": "Standard: 'Lord of Lords, God of Gods, King of Kings'."
+        }
+      ],
+      "context_invariance": "unstable",
+      "back_translation": "And they said to their Lord, the King: For you are Lord of Lords, and God of Gods, and King of Kings, and the throne of his glory is unto all generations of the world, and your name is holy and glorious unto all generations of the world, and blessed and glorious."
+    }
+  ],
+  "decision_log": "Text is corrupt but the semantic intent is clear from context and parallels.",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}

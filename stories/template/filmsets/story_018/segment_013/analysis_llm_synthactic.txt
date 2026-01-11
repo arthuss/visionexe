@@ -1,0 +1,20 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Direct Speech",
+        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [VP t5 [NP t5]] [S [NP t5] [NP t5 [NP t6 [PP t6 [Coord t7]]]]] [S [NP t7 [NP t7]] [PP t8 [NP t8 [NP t8 [Coord t9]]]]]]]",
+        "dependencies": [
+          "t1->t2 (numeral_mod)",
+          "t3->t4 (numeral_mod)",
+          "t5->t6 (pred_nom)",
+          "t6->t7 (genitive_coord)",
+          "t7->t8 (appositive_sentence)",
+          "t8->t9 (coord_obj)"
+        ],
+        "notes": ""
+      }
+    ]
+  }
+}

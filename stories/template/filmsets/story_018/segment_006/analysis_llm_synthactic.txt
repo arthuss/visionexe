@@ -1,0 +1,20 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Descriptive List",
+        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [NP t5 [PP t5]] [NP t6 [PP t6]] [NP t7 [PP t7]] [Punct t8] [NP t9 [PP t9 [Adj t10]]]]]",
+        "dependencies": [
+          "t1->t2 (numeral_mod)",
+          "t3->t4 (numeral_mod)",
+          "t5->t6 (coord_list)",
+          "t6->t7 (coord_list)",
+          "t7->t8 (punctuation)",
+          "t9->t10 (adjectival_mod)"
+        ],
+        "notes": "Elliptical structures describing stones."
+      }
+    ]
+  }
+}

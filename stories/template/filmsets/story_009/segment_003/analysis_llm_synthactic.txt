@@ -1,0 +1,18 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Verbal Clause",
+        "bracket_notation": "[S [Adv t5] [V t6] [Mod_Circumstantial [Conj t7] [Obj_Speech t8]]]",
+        "dependencies": [
+          "t6->ROOT",
+          "t5->t6 (adjunct_time_vocative)",
+          "t7->t6 (modifier_circumstantial)",
+          "t8->t7 (object_direct_speech)"
+        ],
+        "notes": "t6 'They appeal' is main verb. t5 'And now to you holy ones' is vocative/temporal adjunct. t7 'While saying' is circumstantial clause. t8 'Bring judgment' is the quoted speech."
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "P1",
+        "structure_type": "Complex Sentence",
+        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP t5 [NP t6] [NP t7 [PP t8]]]]",
+        "dependencies": [
+          "t1->t2 (numeral_mod)",
+          "t3->t4 (numeral_mod)",
+          "ROOT->t5 (main_verb)",
+          "t5->t6 (obj)",
+          "t5->t7 (conj_obj)",
+          "t7->t8 (acl_relcl)"
+        ],
+        "notes": "t5 'saw' -> t6 'rivers'. t7 'darkness' (noun option) coordinated object. t7 modified by t8 'where...'."
+      }
+    ]
+  }
+}

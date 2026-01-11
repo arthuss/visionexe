@@ -1,0 +1,17 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Narrative Sequence",
+        "bracket_notation": "[S [VP t5] [NP t6] [NP t7] [RelCl t8]]",
+        "dependencies": [
+          "t5->t6 (object)",
+          "t6->t7 (description)",
+          "t7->t8 (relative)"
+        ],
+        "notes": "Seeing the high throne."
+      }
+    ]
+  }
+}

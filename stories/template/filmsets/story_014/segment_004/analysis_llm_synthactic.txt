@@ -1,0 +1,18 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Compound Sentence",
+        "bracket_notation": "[S [S [VP t5] [PP t6] [NP t7]] [S [VP t7] [VP t8] [NP t9]]]",
+        "dependencies": [
+          "t5->t6 (locative)",
+          "t5->t7 (coordination)",
+          "t7->t8 (content clause)",
+          "t8->t9 (temporal adjunct)"
+        ],
+        "notes": "Shared token t7 acts as pivot between 'eternity' and 'and on earth'."
+      }
+    ]
+  }
+}

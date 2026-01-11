@@ -1,0 +1,18 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Narrative Sequence",
+        "bracket_notation": "[S [VP t5] [PP t6] [VP t6] [PP t7] [S [NP t8] [VP t9]]]",
+        "dependencies": [
+          "t5->t6 (locative)",
+          "t6->t7 (limit/destination)",
+          "t7->t8 (modifier/content)",
+          "t8->t9 (relative/circumstantial)"
+        ],
+        "notes": "Ascension and approach to the first structure."
+      }
+    ]
+  }
+}

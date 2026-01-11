@@ -1,0 +1,20 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Discourse Sequence",
+        "bracket_notation": "[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [NP t5] [VP [V t9] [NP t6] [SBAR [PART t7] [S [NP t8]]]]]]",
+        "dependencies": [
+          "t2->t1 (nummod)",
+          "t4->t3 (nummod)",
+          "t5->t9 (nsubj)",
+          "t6->t9 (iobj)",
+          "t8->t9 (parataxis)",
+          "t7->t8 (discourse)"
+        ],
+        "notes": "Coarse segmentation: t5 acts as Agent, t6 as Recipient, t9 as Main Predicate (binding). t8 is a paratactic nominal clause."
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1_P1",
+        "structure_type": "Main Clause with Direct Speech",
+        "bracket_notation": "[S [V t5] [S_speech [V t6] [NP_vocative [N t7] [N t8] [N t9]]]]",
+        "dependencies": [
+          "t5 -> t6 (complement/speech)",
+          "t6 -> t7 (vocative)",
+          "t7 -> t8 (modifier)",
+          "t8 -> t9 (object)"
+        ],
+        "notes": "t5 introduces the speech acts in t6-t9."
+      }
+    ]
+  }
+}

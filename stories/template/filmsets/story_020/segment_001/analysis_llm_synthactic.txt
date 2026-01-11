@@ -1,0 +1,15 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Nominal Clause",
+        "bracket_notation": "[S [Meta t1 t2 t3 t4] [NP_Subj_Pred t5] [RelCl_Appos t6]]",
+        "dependencies": [
+          "t5->t6 (apposition/relative)"
+        ],
+        "notes": "t5 functions as the demonstrative head introducing the list; t6 provides the descriptive content (the watchers/holy angels)."
+      }
+    ]
+  }
+}

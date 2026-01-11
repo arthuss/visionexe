@@ -1,0 +1,16 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Headers",
+        "bracket_notation": "[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]",
+        "dependencies": [
+          "t1->t2 (nummod)",
+          "t3->t4 (nummod)"
+        ],
+        "notes": "Parsed headers only; Ge'ez tokens (t5-t9) have no valid lexical options."
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Nominalized Narrative Sequence",
+        "bracket_notation": "[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [ADVP t5] [NP [N t6] [SBAR [REL t7] [NP t8]] [SBAR [REL t9] [VP [N t10]]]]]]",
+        "dependencies": [
+          "t2->t1 (nummod)",
+          "t4->t3 (nummod)",
+          "t5->root (adverbial_head)",
+          "t6->t5 (dep)",
+          "t7->t6 (case)",
+          "t8->t6 (nmod)",
+          "t9->t8 (acl)",
+          "t10->t9 (obj)"
+        ],
+        "notes": "Main verb is absorbed in t5 or implied. Structure relies on t5 modifying the sequence of nominals t6, t8, t10 linked by t7, t9."
+      }
+    ]
+  }
+}

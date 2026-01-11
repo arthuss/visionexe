@@ -1,0 +1,19 @@
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Complex Sentence",
+        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [VP t5 [Adj t5] [NP t5 [NP t6 [Adj t6]]]] [SBAR [Rel t7] [VP t7]] [SBAR [Conj t7] [NP t7] [SBAR [Rel t7] [VP t8]]]]]",
+        "dependencies": [
+          "t1->t2 (numeral_mod)",
+          "t3->t4 (numeral_mod)",
+          "t5->t6 (appositive_obj)",
+          "t6->t7 (relative_mod)",
+          "t7->t8 (relative_mod)"
+        ],
+        "notes": ""
+      }
+    ]
+  }
+}
