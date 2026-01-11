@@ -1,0 +1,279 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:21:44Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_009/segment_011",
+    "graphematic_string": "Chapter 9 Segment 11\n\nወንተ፡ተምር፡ሎ፡ዘእንለ፡\nይኩን፨ንተ፡ተምር፡ዘንተ፡\nወዘዚሆሙ፡ወልቦ፡ዘትነግረነ፡\nወምንተ፡መፍትው፡ንረስዮሙ፡\nእንተ፡ዝንቱ፨፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "chapter",
+            "lemma": "chapter",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "foreign_meta",
+            "attestation": "editorial",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "9",
+      "span": {
+        "start": 8,
+        "end": 9
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "null",
+            "lemma": "9",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "numeric",
+            "attestation": "universal",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 10,
+        "end": 17
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "segment",
+            "lemma": "segment",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "foreign_meta",
+            "attestation": "editorial",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "11",
+      "span": {
+        "start": 18,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "null",
+            "lemma": "11",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "numeric",
+            "attestation": "universal",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወንተ፡ተምር፡ሎ፡ዘእንለ፡",
+      "span": {
+        "start": 22,
+        "end": 37
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "አመረ",
+            "lemma": "ተምር",
+            "pattern": "G.Impf.2sg.m"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.6
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "classical_corpus",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ይኩን፨ንተ፡ተምር፡ዘንተ፡",
+      "span": {
+        "start": 38,
+        "end": 53
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ኮነ",
+            "lemma": "ይኩን",
+            "pattern": "G.Impf.3sg.m"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "classical_corpus",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ወዘዚሆሙ፡ወልቦ፡ዘትነግረነ፡",
+      "span": {
+        "start": 54,
+        "end": 71
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ነገረ",
+            "lemma": "ትነግረነ",
+            "pattern": "G.Impf.2sg.m"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "classical_corpus",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ወምንተ፡መፍትው፡ንረስዮሙ፡",
+      "span": {
+        "start": 72,
+        "end": 88
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "መፍትው",
+            "lemma": "መፍትው",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "classical_corpus",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "እንተ፡ዝንቱ፨፨",
+      "span": {
+        "start": 89,
+        "end": 98
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PRO.DEM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "null",
+            "lemma": "ዝንቱ",
+            "pattern": "demonstrative"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.9
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "classical_corpus",
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

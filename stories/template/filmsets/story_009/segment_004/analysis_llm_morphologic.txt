@@ -1,0 +1,395 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:21:44Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_009/segment_004",
+    "graphematic_string": "Chapter 9 Segment 4\n\nወይቤሉ፡ለእግዚኦሙ፡\nለንጉሥት፨እስመ፡እግዚኦሙ፡\nለጋእዝት፡ወምላሙ፡\nለማልት፡ወንጉሦሙ፡\nለነገሥት፨ወመንረ፡ስብሐቲሁ፡\nውስተ፡ሎ፡ትውልደ፡\nዓለም፨ወስም፡ቅዱስ፡ወስቡሕ፡\nውስተ፡ሉ፡ትውልደ፡\nዓለም፨ወቡሩ፡ወስቡሕ፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "chapter",
+            "lemma": "chapter",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "foreign_meta",
+            "attestation": "editorial",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "9",
+      "span": {
+        "start": 8,
+        "end": 9
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "null",
+            "lemma": "9",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "numeric",
+            "attestation": "universal",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 10,
+        "end": 17
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "segment",
+            "lemma": "segment",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "foreign_meta",
+            "attestation": "editorial",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "4",
+      "span": {
+        "start": 18,
+        "end": 19
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "null",
+            "lemma": "4",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "numeric",
+            "attestation": "universal",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወይቤሉ፡ለእግዚኦሙ፡",
+      "span": {
+        "start": 21,
+        "end": 33
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ብህለ",
+            "lemma": "ይቤሉ",
+            "pattern": "G.Perf.3pl.m"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "classical_corpus",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ለንጉሥት፨እስመ፡እግዚኦሙ፡",
+      "span": {
+        "start": 34,
+        "end": 50
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ንጉሥ",
+            "lemma": "ንጉሥት",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "classical_corpus",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ለጋእዝት፡ወምላሙ፡",
+      "span": {
+        "start": 51,
+        "end": 62
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ጋእዝ",
+            "lemma": "ጋእዝት",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.6
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "classical_corpus",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ለማልት፡ወንጉሦሙ፡",
+      "span": {
+        "start": 63,
+        "end": 74
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ማልት",
+            "lemma": "ማልት",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.5
+          },
+          "evidence": {
+            "lexicon_status": "uncertain",
+            "attestation": "sparse",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ለነገሥት፨ወመንረ፡ስብሐቲሁ፡",
+      "span": {
+        "start": 75,
+        "end": 92
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ንጉሥ",
+            "lemma": "ነገሥት",
+            "pattern": "nominal_plural"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "classical_corpus",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "ውስተ፡ሎ፡ትውልደ፡",
+      "span": {
+        "start": 93,
+        "end": 104
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": "null",
+            "lemma": "ውስተ",
+            "pattern": "preposition"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "classical_corpus",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t11",
+      "surface": "ዓለም፨ወስም፡ቅዱስ፡ወስቡሕ፡",
+      "span": {
+        "start": 105,
+        "end": 122
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ዓለም",
+            "lemma": "ዓለም",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "classical_corpus",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t12",
+      "surface": "ውስተ፡ሉ፡ትውልደ፡",
+      "span": {
+        "start": 123,
+        "end": 134
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": "null",
+            "lemma": "ውስተ",
+            "pattern": "preposition"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "classical_corpus",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t13",
+      "surface": "ዓለም፨ወቡሩ፡ወስቡሕ፨",
+      "span": {
+        "start": 135,
+        "end": 148
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ዓለም",
+            "lemma": "ዓለም",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "classical_corpus",
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

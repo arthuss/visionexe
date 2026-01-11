@@ -1,0 +1,27 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1-P1",
+      "plausibility": "high",
+      "reasoning": "The coordination chain accurately reflects the accumulation of forbidden technologies (metallurgy and cosmetics) attributed to Azazel in the Watcher tradition. The syntactic break at 'wa-tawāleṭa ʿālam' (and the world was changed/corrupted) marks a shift from specific teachings to general consequences.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 8:1-2 (Greek Syncellus)",
+          "note": "Matches the list: 'swords and breastplates... and stibium and beautifying of the eyelids'."
+        },
+        {
+          "ref": "4Q201 (Aramaic Enoch)",
+          "note": "Fragments support the list of metallurgical teachings."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "And Azazel taught men to make swords and knives and shields and breastplates... and the world was changed."
+    }
+  ],
+  "decision_log": "The parse correctly handles the long list of direct objects governed by 'mahara' (taught) and identifies the consequential clause starting with 'tawāleṭa'.",
+  "final_decision": {
+    "hypothesis_ref": "S1-P1",
+    "translation_id": "T1",
+    "confidence": "high"
+  }
+}

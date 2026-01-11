@@ -22210,3 +22210,3043 @@ ChapterID,SegmentLabel,SegmentType,Status,SourcePath,RawContent
     }
   ]
 }"
+9,segment_001,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_001\segment.txt,"{
+  ""meta"": {
+    ""schema_version"": ""1.0.0"",
+    ""created_at"": ""2026-01-11T03:21:44Z"",
+    ""created_by"": ""worker_llm_analysis_Morphologic"",
+    ""language"": ""gez"",
+    ""tagset_id"": ""GEZ-POS-1"",
+    ""tokenization_policy"": ""whitespace""
+  },
+  ""source"": {
+    ""witness_id"": ""story_009/segment_001"",
+    ""graphematic_string"": ""Chapter 9 Segment 1\n\nወሜሃ፡ኅወጹ፡ሚኤል፡\nወኡርኤል፨ወገብርኤል፡\nእምሰማይ፡ወርእዩ፡ብዙኅ፡\nደመ፡ዘይትዐው፡\nዲ፨ምድር፡ታሕተ፡\nወሎ፡ዘይትገር፡ዐመፃ፡\nዲ፡ምድር፨"",
+    ""normalization_policy"": ""none"",
+    ""uncertainties"": []
+  },
+  ""tokens"": [
+    {
+      ""token_id"": ""t1"",
+      ""surface"": ""Chapter"",
+      ""span"": {
+        ""start"": 0,
+        ""end"": 7
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""chapter"",
+            ""lemma"": ""chapter"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t2"",
+      ""surface"": ""9"",
+      ""span"": {
+        ""start"": 8,
+        ""end"": 9
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""9"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t3"",
+      ""surface"": ""Segment"",
+      ""span"": {
+        ""start"": 10,
+        ""end"": 17
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""segment"",
+            ""lemma"": ""segment"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t4"",
+      ""surface"": ""1"",
+      ""span"": {
+        ""start"": 18,
+        ""end"": 19
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""1"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t5"",
+      ""surface"": ""ወሜሃ፡ኅወጹ፡ሚኤል፡"",
+      ""span"": {
+        ""start"": 21,
+        ""end"": 33
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""V"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ኅወጸ"",
+            ""lemma"": ""ኅወጸ"",
+            ""pattern"": ""G.Perf.3pl.m""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t6"",
+      ""surface"": ""ወኡርኤል፨ወገብርኤል፡"",
+      ""span"": {
+        ""start"": 34,
+        ""end"": 47
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""PN"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ኡርኤል"",
+            ""lemma"": ""ኡርኤል"",
+            ""pattern"": ""proper_noun""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.8
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t7"",
+      ""surface"": ""እምሰማይ፡ወርእዩ፡ብዙኅ፡"",
+      ""span"": {
+        ""start"": 48,
+        ""end"": 63
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""V"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ርእየ"",
+            ""lemma"": ""ርእየ"",
+            ""pattern"": ""G.Perf.3pl.m""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.6
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t8"",
+      ""surface"": ""ደመ፡ዘይትዐው፡"",
+      ""span"": {
+        ""start"": 64,
+        ""end"": 73
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ደም"",
+            ""lemma"": ""ደም"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.6
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t9"",
+      ""surface"": ""ዲ፨ምድር፡ታሕተ፡"",
+      ""span"": {
+        ""start"": 74,
+        ""end"": 84
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ምድር"",
+            ""lemma"": ""ምድር"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t10"",
+      ""surface"": ""ወሎ፡ዘይትገር፡ዐመፃ፡"",
+      ""span"": {
+        ""start"": 85,
+        ""end"": 98
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ዓመፃ"",
+            ""lemma"": ""ዓመፃ"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.6
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t11"",
+      ""surface"": ""ዲ፡ምድር፨"",
+      ""span"": {
+        ""start"": 99,
+        ""end"": 105
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ምድር"",
+            ""lemma"": ""ምድር"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.8
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    }
+  ]
+}"
+9,segment_002,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_002\segment.txt,"{
+  ""meta"": {
+    ""schema_version"": ""1.0.0"",
+    ""created_at"": ""2026-01-11T03:21:44Z"",
+    ""created_by"": ""worker_llm_analysis_Morphologic"",
+    ""language"": ""gez"",
+    ""tagset_id"": ""GEZ-POS-1"",
+    ""tokenization_policy"": ""whitespace""
+  },
+  ""source"": {
+    ""witness_id"": ""story_009/segment_002"",
+    ""graphematic_string"": ""Chapter 9 Segment 2\n\nወይቤሉ፡ይናቲሆሙ፡ቃለ፡\nጽራኃቲሆሙ፡ዕራቃ፡ጸርኀት፡\nምድር፡እስ፡ንቀጸ፡ሰማይ፡"",
+    ""normalization_policy"": ""none"",
+    ""uncertainties"": []
+  },
+  ""tokens"": [
+    {
+      ""token_id"": ""t1"",
+      ""surface"": ""Chapter"",
+      ""span"": {
+        ""start"": 0,
+        ""end"": 7
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""chapter"",
+            ""lemma"": ""chapter"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t2"",
+      ""surface"": ""9"",
+      ""span"": {
+        ""start"": 8,
+        ""end"": 9
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""9"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t3"",
+      ""surface"": ""Segment"",
+      ""span"": {
+        ""start"": 10,
+        ""end"": 17
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""segment"",
+            ""lemma"": ""segment"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t4"",
+      ""surface"": ""2"",
+      ""span"": {
+        ""start"": 18,
+        ""end"": 19
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""2"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t5"",
+      ""surface"": ""ወይቤሉ፡ይናቲሆሙ፡ቃለ፡"",
+      ""span"": {
+        ""start"": 21,
+        ""end"": 35
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""V"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ብህለ"",
+            ""lemma"": ""ይቤሉ"",
+            ""pattern"": ""G.Perf.3pl.m""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t6"",
+      ""surface"": ""ጽራኃቲሆሙ፡ዕራቃ፡ጸርኀት፡"",
+      ""span"": {
+        ""start"": 36,
+        ""end"": 52
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ጽራኅ"",
+            ""lemma"": ""ጽራኅ"",
+            ""pattern"": ""nominal_plural""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.6
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t7"",
+      ""surface"": ""ምድር፡እስ፡ንቀጸ፡ሰማይ፡"",
+      ""span"": {
+        ""start"": 53,
+        ""end"": 68
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ምድር"",
+            ""lemma"": ""ምድር"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.6
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    }
+  ]
+}"
+9,segment_003,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_003\segment.txt,"{
+  ""meta"": {
+    ""schema_version"": ""1.0.0"",
+    ""created_at"": ""2026-01-11T03:21:44Z"",
+    ""created_by"": ""worker_llm_analysis_Morphologic"",
+    ""language"": ""gez"",
+    ""tagset_id"": ""GEZ-POS-1"",
+    ""tokenization_policy"": ""whitespace""
+  },
+  ""source"": {
+    ""witness_id"": ""story_009/segment_003"",
+    ""graphematic_string"": ""Chapter 9 Segment 3\n\nወይእዜኒ፡ለሙ፡ቅዱሳነ፡\nሰማይ፡ይሰዩ፡ነፍሳተ፡ሰብእ፡\nእንዘ፡ይብሉ፨ኀ፡ልዑል፡\nብኡ፡ለነ፡ፍትሐ፡"",
+    ""normalization_policy"": ""none"",
+    ""uncertainties"": []
+  },
+  ""tokens"": [
+    {
+      ""token_id"": ""t1"",
+      ""surface"": ""Chapter"",
+      ""span"": {
+        ""start"": 0,
+        ""end"": 7
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""chapter"",
+            ""lemma"": ""chapter"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t2"",
+      ""surface"": ""9"",
+      ""span"": {
+        ""start"": 8,
+        ""end"": 9
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""9"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t3"",
+      ""surface"": ""Segment"",
+      ""span"": {
+        ""start"": 10,
+        ""end"": 17
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""segment"",
+            ""lemma"": ""segment"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t4"",
+      ""surface"": ""3"",
+      ""span"": {
+        ""start"": 18,
+        ""end"": 19
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""3"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t5"",
+      ""surface"": ""ወይእዜኒ፡ለሙ፡ቅዱሳነ፡"",
+      ""span"": {
+        ""start"": 21,
+        ""end"": 35
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""ADV"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ይእዜ"",
+            ""lemma"": ""ይእዜ"",
+            ""pattern"": ""adverbial""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t6"",
+      ""surface"": ""ሰማይ፡ይሰዩ፡ነፍሳተ፡ሰብእ፡"",
+      ""span"": {
+        ""start"": 36,
+        ""end"": 53
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""V"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ሰየየ"",
+            ""lemma"": ""ይሰዩ"",
+            ""pattern"": ""G.Impf.3pl.m""
+          },
+          ""confidence"": {
+            ""type"": ""low"",
+            ""score"": 0.5
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t7"",
+      ""surface"": ""እንዘ፡ይብሉ፨ኀ፡ልዑል፡"",
+      ""span"": {
+        ""start"": 54,
+        ""end"": 68
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""CONJ.SUB"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""እንዘ"",
+            ""pattern"": ""particle""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t8"",
+      ""surface"": ""ብኡ፡ለነ፡ፍትሐ፡"",
+      ""span"": {
+        ""start"": 69,
+        ""end"": 79
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""V"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ባእ"",
+            ""lemma"": ""ብኡ"",
+            ""pattern"": ""G.Imp.2pl.m""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.6
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    }
+  ]
+}"
+9,segment_004,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_004\segment.txt,"{
+  ""meta"": {
+    ""schema_version"": ""1.0.0"",
+    ""created_at"": ""2026-01-11T03:21:44Z"",
+    ""created_by"": ""worker_llm_analysis_Morphologic"",
+    ""language"": ""gez"",
+    ""tagset_id"": ""GEZ-POS-1"",
+    ""tokenization_policy"": ""whitespace""
+  },
+  ""source"": {
+    ""witness_id"": ""story_009/segment_004"",
+    ""graphematic_string"": ""Chapter 9 Segment 4\n\nወይቤሉ፡ለእግዚኦሙ፡\nለንጉሥት፨እስመ፡እግዚኦሙ፡\nለጋእዝት፡ወምላሙ፡\nለማልት፡ወንጉሦሙ፡\nለነገሥት፨ወመንረ፡ስብሐቲሁ፡\nውስተ፡ሎ፡ትውልደ፡\nዓለም፨ወስም፡ቅዱስ፡ወስቡሕ፡\nውስተ፡ሉ፡ትውልደ፡\nዓለም፨ወቡሩ፡ወስቡሕ፨"",
+    ""normalization_policy"": ""none"",
+    ""uncertainties"": []
+  },
+  ""tokens"": [
+    {
+      ""token_id"": ""t1"",
+      ""surface"": ""Chapter"",
+      ""span"": {
+        ""start"": 0,
+        ""end"": 7
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""chapter"",
+            ""lemma"": ""chapter"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t2"",
+      ""surface"": ""9"",
+      ""span"": {
+        ""start"": 8,
+        ""end"": 9
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""9"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t3"",
+      ""surface"": ""Segment"",
+      ""span"": {
+        ""start"": 10,
+        ""end"": 17
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""segment"",
+            ""lemma"": ""segment"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t4"",
+      ""surface"": ""4"",
+      ""span"": {
+        ""start"": 18,
+        ""end"": 19
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""4"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t5"",
+      ""surface"": ""ወይቤሉ፡ለእግዚኦሙ፡"",
+      ""span"": {
+        ""start"": 21,
+        ""end"": 33
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""V"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ብህለ"",
+            ""lemma"": ""ይቤሉ"",
+            ""pattern"": ""G.Perf.3pl.m""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t6"",
+      ""surface"": ""ለንጉሥት፨እስመ፡እግዚኦሙ፡"",
+      ""span"": {
+        ""start"": 34,
+        ""end"": 50
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ንጉሥ"",
+            ""lemma"": ""ንጉሥት"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t7"",
+      ""surface"": ""ለጋእዝት፡ወምላሙ፡"",
+      ""span"": {
+        ""start"": 51,
+        ""end"": 62
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ጋእዝ"",
+            ""lemma"": ""ጋእዝት"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.6
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t8"",
+      ""surface"": ""ለማልት፡ወንጉሦሙ፡"",
+      ""span"": {
+        ""start"": 63,
+        ""end"": 74
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ማልት"",
+            ""lemma"": ""ማልት"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""low"",
+            ""score"": 0.5
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""uncertain"",
+            ""attestation"": ""sparse"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t9"",
+      ""surface"": ""ለነገሥት፨ወመንረ፡ስብሐቲሁ፡"",
+      ""span"": {
+        ""start"": 75,
+        ""end"": 92
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ንጉሥ"",
+            ""lemma"": ""ነገሥት"",
+            ""pattern"": ""nominal_plural""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t10"",
+      ""surface"": ""ውስተ፡ሎ፡ትውልደ፡"",
+      ""span"": {
+        ""start"": 93,
+        ""end"": 104
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""PREP"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""ውስተ"",
+            ""pattern"": ""preposition""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.8
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t11"",
+      ""surface"": ""ዓለም፨ወስም፡ቅዱስ፡ወስቡሕ፡"",
+      ""span"": {
+        ""start"": 105,
+        ""end"": 122
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ዓለም"",
+            ""lemma"": ""ዓለም"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.8
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t12"",
+      ""surface"": ""ውስተ፡ሉ፡ትውልደ፡"",
+      ""span"": {
+        ""start"": 123,
+        ""end"": 134
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""PREP"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""ውስተ"",
+            ""pattern"": ""preposition""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.8
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t13"",
+      ""surface"": ""ዓለም፨ወቡሩ፡ወስቡሕ፨"",
+      ""span"": {
+        ""start"": 135,
+        ""end"": 148
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ዓለም"",
+            ""lemma"": ""ዓለም"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.8
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    }
+  ]
+}"
+9,segment_005,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_005\segment.txt,"{
+  ""meta"": {
+    ""schema_version"": ""1.0.0"",
+    ""created_at"": ""2026-01-11T03:21:44Z"",
+    ""created_by"": ""worker_llm_analysis_Morphologic"",
+    ""language"": ""gez"",
+    ""tagset_id"": ""GEZ-POS-1"",
+    ""tokenization_policy"": ""whitespace""
+  },
+  ""source"": {
+    ""witness_id"": ""story_009/segment_005"",
+    ""graphematic_string"": ""Chapter 9 Segment 5\n\nንተ፡ገር፡ሎ፡ወስልጣነ፡\nሉ፡ምስሌ፨ወሉ፡ሡት፡\nቅድሜ፡ወግሁድ፡ወንተ፡\nትሬኢ፡ሎ፡ወልቦ፡\nዘይትሀል፡ይትኃባእ፡እም፨"",
+    ""normalization_policy"": ""none"",
+    ""uncertainties"": []
+  },
+  ""tokens"": [
+    {
+      ""token_id"": ""t1"",
+      ""surface"": ""Chapter"",
+      ""span"": {
+        ""start"": 0,
+        ""end"": 7
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""chapter"",
+            ""lemma"": ""chapter"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t2"",
+      ""surface"": ""9"",
+      ""span"": {
+        ""start"": 8,
+        ""end"": 9
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""9"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t3"",
+      ""surface"": ""Segment"",
+      ""span"": {
+        ""start"": 10,
+        ""end"": 17
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""segment"",
+            ""lemma"": ""segment"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t4"",
+      ""surface"": ""5"",
+      ""span"": {
+        ""start"": 18,
+        ""end"": 19
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""5"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t5"",
+      ""surface"": ""ንተ፡ገር፡ሎ፡ወስልጣነ፡"",
+      ""span"": {
+        ""start"": 21,
+        ""end"": 35
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ሥልጣን"",
+            ""lemma"": ""ሥልጣን"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.6
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t6"",
+      ""surface"": ""ሉ፡ምስሌ፨ወሉ፡ሡት፡"",
+      ""span"": {
+        ""start"": 36,
+        ""end"": 48
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""PREP"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""ምስለ"",
+            ""pattern"": ""preposition""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t7"",
+      ""surface"": ""ቅድሜ፡ወግሁድ፡ወንተ፡"",
+      ""span"": {
+        ""start"": 49,
+        ""end"": 62
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""ADJ"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ግሁድ"",
+            ""lemma"": ""ግሁድ"",
+            ""pattern"": ""adjectival""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.6
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t8"",
+      ""surface"": ""ትሬኢ፡ሎ፡ወልቦ፡"",
+      ""span"": {
+        ""start"": 63,
+        ""end"": 73
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""V"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ርእየ"",
+            ""lemma"": ""ትሬኢ"",
+            ""pattern"": ""G.Impf.2sg.m""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t9"",
+      ""surface"": ""ዘይትሀል፡ይትኃባእ፡እም፨"",
+      ""span"": {
+        ""start"": 74,
+        ""end"": 89
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""V"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ኅብአ"",
+            ""lemma"": ""ይትኃባእ"",
+            ""pattern"": ""T.Impf.3sg.m""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    }
+  ]
+}"
+9,segment_006,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_006\segment.txt,"{
+  ""meta"": {
+    ""schema_version"": ""1.0.0"",
+    ""created_at"": ""2026-01-11T03:21:44Z"",
+    ""created_by"": ""worker_llm_analysis_Morphologic"",
+    ""language"": ""gez"",
+    ""tagset_id"": ""GEZ-POS-1"",
+    ""tokenization_policy"": ""whitespace""
+  },
+  ""source"": {
+    ""witness_id"": ""story_009/segment_006"",
+    ""graphematic_string"": ""Chapter 9 Segment 6\n\nርኢ፡ዘገብረ፡ዛዝኤል፡ዘመ፡\nመሀረ፡ሎ፡ዓመፃ፡ዲ፡\nምድር፡ወግሀደ፡ኅቡዓተ፡ዓለም፡\nእለ፡ይትገራ፡ሰማያት፨"",
+    ""normalization_policy"": ""none"",
+    ""uncertainties"": []
+  },
+  ""tokens"": [
+    {
+      ""token_id"": ""t1"",
+      ""surface"": ""Chapter"",
+      ""span"": {
+        ""start"": 0,
+        ""end"": 7
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""chapter"",
+            ""lemma"": ""chapter"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t2"",
+      ""surface"": ""9"",
+      ""span"": {
+        ""start"": 8,
+        ""end"": 9
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""9"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t3"",
+      ""surface"": ""Segment"",
+      ""span"": {
+        ""start"": 10,
+        ""end"": 17
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""segment"",
+            ""lemma"": ""segment"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t4"",
+      ""surface"": ""6"",
+      ""span"": {
+        ""start"": 18,
+        ""end"": 19
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""6"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t5"",
+      ""surface"": ""ርኢ፡ዘገብረ፡ዛዝኤል፡ዘመ፡"",
+      ""span"": {
+        ""start"": 21,
+        ""end"": 37
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""V"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ርእየ"",
+            ""lemma"": ""ርእይ"",
+            ""pattern"": ""imperative""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t6"",
+      ""surface"": ""መሀረ፡ሎ፡ዓመፃ፡ዲ፡"",
+      ""span"": {
+        ""start"": 38,
+        ""end"": 50
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""V"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""መሀረ"",
+            ""lemma"": ""መሀረ"",
+            ""pattern"": ""G.Perf.3sg.m""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.8
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t7"",
+      ""surface"": ""ምድር፡ወግሀደ፡ኅቡዓተ፡ዓለም፡"",
+      ""span"": {
+        ""start"": 51,
+        ""end"": 69
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ዓለም"",
+            ""lemma"": ""ዓለም"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t8"",
+      ""surface"": ""እለ፡ይትገራ፡ሰማያት፨"",
+      ""span"": {
+        ""start"": 70,
+        ""end"": 83
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ሰማይ"",
+            ""lemma"": ""ሰማያት"",
+            ""pattern"": ""nominal_plural""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.8
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    }
+  ]
+}"
+9,segment_007,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_007\segment.txt,"{
+  ""meta"": {
+    ""schema_version"": ""1.0.0"",
+    ""created_at"": ""2026-01-11T03:21:44Z"",
+    ""created_by"": ""worker_llm_analysis_Morphologic"",
+    ""language"": ""gez"",
+    ""tagset_id"": ""GEZ-POS-1"",
+    ""tokenization_policy"": ""whitespace""
+  },
+  ""source"": {
+    ""witness_id"": ""story_009/segment_007"",
+    ""graphematic_string"": ""Chapter 9 Segment 7\n\nወመረ፡ስብዐታተ፡ስምያዛ፡\nዘንተ፡ወሀብ፡ሥልጣነ፡\nይ—ንን፡እለ፡ምስሌሁ፡ኅቡረ፡"",
+    ""normalization_policy"": ""none"",
+    ""uncertainties"": []
+  },
+  ""tokens"": [
+    {
+      ""token_id"": ""t1"",
+      ""surface"": ""Chapter"",
+      ""span"": {
+        ""start"": 0,
+        ""end"": 7
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""chapter"",
+            ""lemma"": ""chapter"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t2"",
+      ""surface"": ""9"",
+      ""span"": {
+        ""start"": 8,
+        ""end"": 9
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""9"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t3"",
+      ""surface"": ""Segment"",
+      ""span"": {
+        ""start"": 10,
+        ""end"": 17
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""segment"",
+            ""lemma"": ""segment"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t4"",
+      ""surface"": ""7"",
+      ""span"": {
+        ""start"": 18,
+        ""end"": 19
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""7"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t5"",
+      ""surface"": ""ወመረ፡ስብዐታተ፡ስምያዛ፡"",
+      ""span"": {
+        ""start"": 21,
+        ""end"": 36
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""PN"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ስምያዛ"",
+            ""lemma"": ""ስምያዛ"",
+            ""pattern"": ""proper_noun""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.8
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t6"",
+      ""surface"": ""ዘንተ፡ወሀብ፡ሥልጣነ፡"",
+      ""span"": {
+        ""start"": 37,
+        ""end"": 50
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ሥልጣን"",
+            ""lemma"": ""ሥልጣን"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t7"",
+      ""surface"": ""ይ—ንን፡እለ፡ምስሌሁ፡ኅቡረ፡"",
+      ""span"": {
+        ""start"": 51,
+        ""end"": 68
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""PRO.REL"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""እለ"",
+            ""pattern"": ""pronoun""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.6
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    }
+  ]
+}"
+9,segment_008,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_008\segment.txt,"{
+  ""meta"": {
+    ""schema_version"": ""1.0.0"",
+    ""created_at"": ""2026-01-11T03:21:44Z"",
+    ""created_by"": ""worker_llm_analysis_Morphologic"",
+    ""language"": ""gez"",
+    ""tagset_id"": ""GEZ-POS-1"",
+    ""tokenization_policy"": ""whitespace""
+  },
+  ""source"": {
+    ""witness_id"": ""story_009/segment_008"",
+    ""graphematic_string"": ""Chapter 9 Segment 8\n\nወሖሩ፡ኀ፡ዋልደ፡ሰብእ፡\nኅቡረ፡ወሰቡ፡ምስሌሆን፡\nምስለ፡እልኩ፡ንስት፡\nወረሱ፡ወግሀዱ፡ሎቶን፡ሎ፡\nኃጢተ፨"",
+    ""normalization_policy"": ""none"",
+    ""uncertainties"": []
+  },
+  ""tokens"": [
+    {
+      ""token_id"": ""t1"",
+      ""surface"": ""Chapter"",
+      ""span"": {
+        ""start"": 0,
+        ""end"": 7
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""chapter"",
+            ""lemma"": ""chapter"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t2"",
+      ""surface"": ""9"",
+      ""span"": {
+        ""start"": 8,
+        ""end"": 9
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""9"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t3"",
+      ""surface"": ""Segment"",
+      ""span"": {
+        ""start"": 10,
+        ""end"": 17
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""segment"",
+            ""lemma"": ""segment"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t4"",
+      ""surface"": ""8"",
+      ""span"": {
+        ""start"": 18,
+        ""end"": 19
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""8"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t5"",
+      ""surface"": ""ወሖሩ፡ኀ፡ዋልደ፡ሰብእ፡"",
+      ""span"": {
+        ""start"": 21,
+        ""end"": 35
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""V"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ሖረ"",
+            ""lemma"": ""ሖሩ"",
+            ""pattern"": ""G.Perf.3pl.m""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t6"",
+      ""surface"": ""ኅቡረ፡ወሰቡ፡ምስሌሆን፡"",
+      ""span"": {
+        ""start"": 36,
+        ""end"": 50
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""ADV"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ኅቡረ"",
+            ""lemma"": ""ኅቡረ"",
+            ""pattern"": ""adverbial""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.6
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t7"",
+      ""surface"": ""ምስለ፡እልኩ፡ንስት፡"",
+      ""span"": {
+        ""start"": 51,
+        ""end"": 63
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ንስት"",
+            ""lemma"": ""ንስት"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t8"",
+      ""surface"": ""ወረሱ፡ወግሀዱ፡ሎቶን፡ሎ፡"",
+      ""span"": {
+        ""start"": 64,
+        ""end"": 79
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""V"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ረሰየ"",
+            ""lemma"": ""ረሱ"",
+            ""pattern"": ""G.Perf.3pl.m""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.6
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t9"",
+      ""surface"": ""ኃጢተ፨"",
+      ""span"": {
+        ""start"": 80,
+        ""end"": 84
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ኃጢአት"",
+            ""lemma"": ""ኃጢተ"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.8
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    }
+  ]
+}"
+9,segment_009,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_009\segment.txt,"{
+  ""meta"": {
+    ""schema_version"": ""1.0.0"",
+    ""created_at"": ""2026-01-11T03:21:44Z"",
+    ""created_by"": ""worker_llm_analysis_Morphologic"",
+    ""language"": ""gez"",
+    ""tagset_id"": ""GEZ-POS-1"",
+    ""tokenization_policy"": ""whitespace""
+  },
+  ""source"": {
+    ""witness_id"": ""story_009/segment_009"",
+    ""graphematic_string"": ""Chapter 9 Segment 9\n\nወንስትሰ፡ወለዳ፡ረዓይተ፡\nወዝ፡መልት፡ላ፡ምድር፡\nደመ፡ወዐመፃ፨"",
+    ""normalization_policy"": ""none"",
+    ""uncertainties"": []
+  },
+  ""tokens"": [
+    {
+      ""token_id"": ""t1"",
+      ""surface"": ""Chapter"",
+      ""span"": {
+        ""start"": 0,
+        ""end"": 7
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""chapter"",
+            ""lemma"": ""chapter"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t2"",
+      ""surface"": ""9"",
+      ""span"": {
+        ""start"": 8,
+        ""end"": 9
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""9"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t3"",
+      ""surface"": ""Segment"",
+      ""span"": {
+        ""start"": 10,
+        ""end"": 17
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""segment"",
+            ""lemma"": ""segment"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t4"",
+      ""surface"": ""9"",
+      ""span"": {
+        ""start"": 18,
+        ""end"": 19
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""9"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t5"",
+      ""surface"": ""ወንስትሰ፡ወለዳ፡ረዓይተ፡"",
+      ""span"": {
+        ""start"": 21,
+        ""end"": 36
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ረዓይ"",
+            ""lemma"": ""ረዓይተ"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t6"",
+      ""surface"": ""ወዝ፡መልት፡ላ፡ምድር፡"",
+      ""span"": {
+        ""start"": 37,
+        ""end"": 50
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ምድር"",
+            ""lemma"": ""ምድር"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.8
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t7"",
+      ""surface"": ""ደመ፡ወዐመፃ፨"",
+      ""span"": {
+        ""start"": 51,
+        ""end"": 59
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ደም"",
+            ""lemma"": ""ደመ"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    }
+  ]
+}"
+9,segment_010,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_010\segment.txt,"{
+  ""meta"": {
+    ""schema_version"": ""1.0.0"",
+    ""created_at"": ""2026-01-11T03:21:44Z"",
+    ""created_by"": ""worker_llm_analysis_Morphologic"",
+    ""language"": ""gez"",
+    ""tagset_id"": ""GEZ-POS-1"",
+    ""tokenization_policy"": ""whitespace""
+  },
+  ""source"": {
+    ""witness_id"": ""story_009/segment_010"",
+    ""graphematic_string"": ""Chapter 9 Segment 10\n\nወይእዜኒ፡ናሁ፡ይጸርሑ፡ነፍሳት፡\nእለ፡ሞቱ፡ወይሰዩ፡እስ፡\nንቀጸ፡ሰማይ፡ወዐርገ፡\nገዓሮሙ፨ወኢይል፡ወፂ፡\nእምቅድመ፡ገጸ፡ዐመፃ፡\nዘይትገር፡ዲ፡ምድር፨"",
+    ""normalization_policy"": ""none"",
+    ""uncertainties"": []
+  },
+  ""tokens"": [
+    {
+      ""token_id"": ""t1"",
+      ""surface"": ""Chapter"",
+      ""span"": {
+        ""start"": 0,
+        ""end"": 7
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""chapter"",
+            ""lemma"": ""chapter"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t2"",
+      ""surface"": ""9"",
+      ""span"": {
+        ""start"": 8,
+        ""end"": 9
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""9"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t3"",
+      ""surface"": ""Segment"",
+      ""span"": {
+        ""start"": 10,
+        ""end"": 17
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""segment"",
+            ""lemma"": ""segment"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t4"",
+      ""surface"": ""10"",
+      ""span"": {
+        ""start"": 18,
+        ""end"": 20
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""10"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t5"",
+      ""surface"": ""ወይእዜኒ፡ናሁ፡ይጸርሑ፡ነፍሳት፡"",
+      ""span"": {
+        ""start"": 22,
+        ""end"": 41
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""V"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ጸርሐ"",
+            ""lemma"": ""ይጸርሑ"",
+            ""pattern"": ""G.Impf.3pl.m""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t6"",
+      ""surface"": ""እለ፡ሞቱ፡ወይሰዩ፡እስ፡"",
+      ""span"": {
+        ""start"": 42,
+        ""end"": 56
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""V"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ሞተ"",
+            ""lemma"": ""ሞቱ"",
+            ""pattern"": ""G.Perf.3pl.m""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.8
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t7"",
+      ""surface"": ""ንቀጸ፡ሰማይ፡ወዐርገ፡"",
+      ""span"": {
+        ""start"": 57,
+        ""end"": 70
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ንቀጽ"",
+            ""lemma"": ""ንቀጸ"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.6
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t8"",
+      ""surface"": ""ገዓሮሙ፨ወኢይል፡ወፂ፡"",
+      ""span"": {
+        ""start"": 71,
+        ""end"": 84
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ገዓር"",
+            ""lemma"": ""ገዓሮሙ"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t9"",
+      ""surface"": ""እምቅድመ፡ገጸ፡ዐመፃ፡"",
+      ""span"": {
+        ""start"": 85,
+        ""end"": 98
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""PREP"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""እምቅድመ"",
+            ""pattern"": ""preposition""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t10"",
+      ""surface"": ""ዘይትገር፡ዲ፡ምድር፨"",
+      ""span"": {
+        ""start"": 99,
+        ""end"": 111
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ምድር"",
+            ""lemma"": ""ምድር"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.8
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    }
+  ]
+}"
+9,segment_011,segment,DONE,C:\Users\sasch\visionexe\stories\template\filmsets\story_009\segment_011\segment.txt,"{
+  ""meta"": {
+    ""schema_version"": ""1.0.0"",
+    ""created_at"": ""2026-01-11T03:21:44Z"",
+    ""created_by"": ""worker_llm_analysis_Morphologic"",
+    ""language"": ""gez"",
+    ""tagset_id"": ""GEZ-POS-1"",
+    ""tokenization_policy"": ""whitespace""
+  },
+  ""source"": {
+    ""witness_id"": ""story_009/segment_011"",
+    ""graphematic_string"": ""Chapter 9 Segment 11\n\nወንተ፡ተምር፡ሎ፡ዘእንለ፡\nይኩን፨ንተ፡ተምር፡ዘንተ፡\nወዘዚሆሙ፡ወልቦ፡ዘትነግረነ፡\nወምንተ፡መፍትው፡ንረስዮሙ፡\nእንተ፡ዝንቱ፨፨"",
+    ""normalization_policy"": ""none"",
+    ""uncertainties"": []
+  },
+  ""tokens"": [
+    {
+      ""token_id"": ""t1"",
+      ""surface"": ""Chapter"",
+      ""span"": {
+        ""start"": 0,
+        ""end"": 7
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""chapter"",
+            ""lemma"": ""chapter"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t2"",
+      ""surface"": ""9"",
+      ""span"": {
+        ""start"": 8,
+        ""end"": 9
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""9"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t3"",
+      ""surface"": ""Segment"",
+      ""span"": {
+        ""start"": 10,
+        ""end"": 17
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""segment"",
+            ""lemma"": ""segment"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""foreign_meta"",
+            ""attestation"": ""editorial"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t4"",
+      ""surface"": ""11"",
+      ""span"": {
+        ""start"": 18,
+        ""end"": 20
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""NUM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""11"",
+            ""pattern"": ""digit""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.99
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""numeric"",
+            ""attestation"": ""universal"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t5"",
+      ""surface"": ""ወንተ፡ተምር፡ሎ፡ዘእንለ፡"",
+      ""span"": {
+        ""start"": 22,
+        ""end"": 37
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""V"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""አመረ"",
+            ""lemma"": ""ተምር"",
+            ""pattern"": ""G.Impf.2sg.m""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.6
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t6"",
+      ""surface"": ""ይኩን፨ንተ፡ተምር፡ዘንተ፡"",
+      ""span"": {
+        ""start"": 38,
+        ""end"": 53
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""V"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ኮነ"",
+            ""lemma"": ""ይኩን"",
+            ""pattern"": ""G.Impf.3sg.m""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.8
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t7"",
+      ""surface"": ""ወዘዚሆሙ፡ወልቦ፡ዘትነግረነ፡"",
+      ""span"": {
+        ""start"": 54,
+        ""end"": 71
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""V"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""ነገረ"",
+            ""lemma"": ""ትነግረነ"",
+            ""pattern"": ""G.Impf.2sg.m""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t8"",
+      ""surface"": ""ወምንተ፡መፍትው፡ንረስዮሙ፡"",
+      ""span"": {
+        ""start"": 72,
+        ""end"": 88
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""N"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""መፍትው"",
+            ""lemma"": ""መፍትው"",
+            ""pattern"": ""nominal""
+          },
+          ""confidence"": {
+            ""type"": ""medium"",
+            ""score"": 0.7
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    },
+    {
+      ""token_id"": ""t9"",
+      ""surface"": ""እንተ፡ዝንቱ፨፨"",
+      ""span"": {
+        ""start"": 89,
+        ""end"": 98
+      },
+      ""options"": [
+        {
+          ""option_id"": ""A"",
+          ""pos"": ""PRO.DEM"",
+          ""analysis"": {
+            ""kind"": ""lexical"",
+            ""root"": ""null"",
+            ""lemma"": ""ዝንቱ"",
+            ""pattern"": ""demonstrative""
+          },
+          ""confidence"": {
+            ""type"": ""high"",
+            ""score"": 0.9
+          },
+          ""evidence"": {
+            ""lexicon_status"": ""attested_in_lexicon"",
+            ""attestation"": ""classical_corpus"",
+            ""constraints_checked"": []
+          }
+        }
+      ]
+    }
+  ]
+}"

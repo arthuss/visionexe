@@ -6,7 +6,7 @@
 - Keep README.md updated whenever behavior, usage, or workflow changes.
 - When reporting changes, link relevant files by path instead of duplicating content.
 - Reminder: Before finishing, log the change here, update GEMINI.md, and confirm README.md is current.
-- Use building_scenes_and_chapters.md as the checklist reference for chapter/scene completeness.
+- Use `building_scenes_and_chapters.md` as the checklist reference for chapter/scene completeness.
 
 ## Git Management
 - Before edits: check `git status -sb` and confirm no unexpected changes.

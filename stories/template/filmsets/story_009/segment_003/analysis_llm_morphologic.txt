@@ -1,0 +1,250 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T03:21:44Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_009/segment_003",
+    "graphematic_string": "Chapter 9 Segment 3\n\nወይእዜኒ፡ለሙ፡ቅዱሳነ፡\nሰማይ፡ይሰዩ፡ነፍሳተ፡ሰብእ፡\nእንዘ፡ይብሉ፨ኀ፡ልዑል፡\nብኡ፡ለነ፡ፍትሐ፡",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "chapter",
+            "lemma": "chapter",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "foreign_meta",
+            "attestation": "editorial",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "9",
+      "span": {
+        "start": 8,
+        "end": 9
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "null",
+            "lemma": "9",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "numeric",
+            "attestation": "universal",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 10,
+        "end": 17
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "segment",
+            "lemma": "segment",
+            "pattern": "nominal"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "foreign_meta",
+            "attestation": "editorial",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "3",
+      "span": {
+        "start": 18,
+        "end": 19
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "null",
+            "lemma": "3",
+            "pattern": "digit"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 0.99
+          },
+          "evidence": {
+            "lexicon_status": "numeric",
+            "attestation": "universal",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወይእዜኒ፡ለሙ፡ቅዱሳነ፡",
+      "span": {
+        "start": 21,
+        "end": 35
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "ADV",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ይእዜ",
+            "lemma": "ይእዜ",
+            "pattern": "adverbial"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "classical_corpus",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ሰማይ፡ይሰዩ፡ነፍሳተ፡ሰብእ፡",
+      "span": {
+        "start": 36,
+        "end": 53
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሰየየ",
+            "lemma": "ይሰዩ",
+            "pattern": "G.Impf.3pl.m"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.5
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "classical_corpus",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "እንዘ፡ይብሉ፨ኀ፡ልዑል፡",
+      "span": {
+        "start": 54,
+        "end": 68
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "CONJ.SUB",
+          "analysis": {
+            "kind": "lexical",
+            "root": "null",
+            "lemma": "እንዘ",
+            "pattern": "particle"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.7
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "classical_corpus",
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ብኡ፡ለነ፡ፍትሐ፡",
+      "span": {
+        "start": 69,
+        "end": 79
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ባእ",
+            "lemma": "ብኡ",
+            "pattern": "G.Imp.2pl.m"
+          },
+          "confidence": {
+            "type": "medium",
+            "score": 0.6
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": "classical_corpus",
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}
