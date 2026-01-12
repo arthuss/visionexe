@@ -2,15 +2,22 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Compound Sentence",
-        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [S1 [NP t5] [VP t5] [NP t6]] [Conj w-t6] [S2 [NP t6] [Rel t7] [Adv t7] [VP t8]]]]",
+        "id": "P1",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP (N t1) (NUM t2)]",
         "dependencies": [
-          "t5->t6 (object_complement)",
-          "t5->t7 (coordinate_clause)",
-          "t7->t8 (comparative_clause)"
+          "t1 -> t2 (nummod)"
         ],
-        "notes": "t5 'I Enoch saw'; t6 'ends of all'; t7 'no man sees'; t8 'as I saw'."
+        "notes": "Chapter number identification."
+      },
+      {
+        "id": "P2",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP (N t3) (NUM t4)]",
+        "dependencies": [
+          "t3 -> t4 (nummod)"
+        ],
+        "notes": "Segment number identification."
       }
     ]
   }

@@ -3,29 +3,55 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "This segment matches 1 Enoch 1:2. The structure 'wa-awśʾa Hēnok wa-yibe' (And Enoch answered and said) is a fixed formula in Ge'ez narrative (Coordination of verbs). It introduces direct speech. S1 correctly identifies the coordination of the two verbal clauses.",
+      "reasoning": "This correctly parses the common narrative structure 'And he answered and said, [Subject]...'. The coordination of two verbs before the subject is standard in Semitic narrative style.",
       "parallels": [
         {
-          "ref": "1 Enoch 1:2",
-          "note": "Matches the introduction of Enoch's speech."
+          "ref": "Genesis 18:27",
+          "note": "The 'answer and say' formula ('ወአውሥአ... ወይቤ') is frequent in biblical narrative."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And Enoch answered and said..."
+      "back_translation": "pass"
     },
     {
       "hypothesis_ref": "S2",
-      "plausibility": "low",
-      "reasoning": "A Nominal Sentence reading ('The answer of Enoch...') ignores the explicit verbal morphology of 'awśʾa' (Perfect) and 'yibe' (Imperfect/Preterite function).",
+      "plausibility": "high",
+      "reasoning": "Correctly identifies an appositional noun phrase describing Enoch. The structure 'Noun + Adjective + Relative Clause' is perfectly grammatical.",
       "parallels": [],
-      "context_invariance": "unstable",
-      "back_translation": "The answer of Enoch is..."
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S3",
+      "plausibility": "high",
+      "reasoning": "A correct parse of a circumstantial clause introduced by 'እንዘ'. The predicate 'ሡታት' (opened) correctly agrees in gender/number with the subject 'ዕይንቲሁ' (his eyes).",
+      "parallels": [
+        {
+          "ref": "Numbers 24:3-4",
+          "note": "Parallels the description of Balaam as 'the man whose eyes are open'."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S4",
+      "plausibility": "high",
+      "reasoning": "A standard verbal clause. The parse correctly identifies the verb 'ወይሬኢ' (and he saw), its direct object 'ራእየ ቅዱስ' (a holy vision), and the subsequent relative clause 'ዘበሰማያት' (which is in the heavens) modifying the object.",
+      "parallels": [
+        {
+          "ref": "Ezekiel 1:1",
+          "note": "The theme of seeing 'visions of God' ('ራእየ... እግዚአብሔር')."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "The narrative formula 'Answered and said' is definitive here.",
+  "decision_log": "As with the first segment, these four parses break down a complex sentence into its constituent, non-competing clauses. Each parse is grammatically sound and they combine to form a coherent, stylistically conventional introduction to the visionary.",
   "final_decision": {
-    "hypothesis_ref": "S1",
-    "translation_id": "T-Seg02-Narrative",
+    "hypothesis_ref": "S1+S2+S3+S4",
+    "translation_id": "T2",
     "confidence": "high"
   }
 }

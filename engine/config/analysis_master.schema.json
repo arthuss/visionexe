@@ -19,6 +19,7 @@
     "source_index": "Row index in the source CSV (1-based).",
     "summary": "Short summary if available.",
     "analysis_blocks": "Parsed JSON blocks from LLM output (optional).",
+    "analysis_layers": "Parsed analysis layer payloads (graphematic/morphologic/synthactic/semantic_historical) per segment (optional).",
     "analysis_paths": "Matched analysis file paths (optional).",
     "raw_content": "Raw LLM output (optional).",
     "meta": "Extra metadata (optional)."

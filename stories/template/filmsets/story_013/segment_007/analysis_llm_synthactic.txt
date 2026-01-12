@@ -2,19 +2,22 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Narrative with Gerund and Subordinate",
-        "bracket_notation": "[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [VP [V t5] [NP t6] [PP t7]] [VP [V t8] [SBAR [CONJ t9]]]]]",
+        "id": "S7_1",
+        "structure_type": "Genitive Phrase",
+        "bracket_notation": "[NP [N ዐረ(t7)] [Gen [PN ርሞን(t7)]]]",
         "dependencies": [
-          "t2->t1 (nummod)",
-          "t4->t3 (nummod)",
-          "t8->root",
-          "t5->t8 (advcl)",
-          "t6->t5 (obj)",
-          "t7->t5 (obl)",
-          "t9->t8 (advcl)"
+          "t7->t7 (genitive)"
         ],
-        "notes": "t8 (read) is main verb; t5 (going) is circumstantial; t9 (because) heads causal clause."
+        "notes": "A genitive construct chain within a prepositional phrase: 'the summit of Hermon'."
+      },
+      {
+        "id": "S7_2",
+        "structure_type": "Verbal Phrase with Object",
+        "bracket_notation": "[VP [V እነብብ(t8)] [OBJ [N ተዝረ፡ስእለቶሙ(t8)]]]",
+        "dependencies": [
+          "t8->t8 (object)"
+        ],
+        "notes": "The verb 'እነብብ' (I read) takes the noun phrase 'their document of petition' as its direct object, both within t8."
       }
     ]
   }

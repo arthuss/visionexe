@@ -2,16 +2,16 @@
   "syntax": {
     "parses": [
       {
-        "id": "S8_P1",
-        "structure_type": "Compound Verbal Clause",
-        "bracket_notation": "[S [ADV t5] [PREP t6] [ADJ t7] [PREP t8] [N t9]]",
+        "id": "P1",
+        "structure_type": "Topic-Comment Structure with Coordinated Predicates",
+        "bracket_notation": "[S [ADV t5] [NP-TOPIC t5 [RC t5 [PP t6]]] [S-COMMENT [VP [NP-PRED (part of t6) [ADJ t7]] [V t7]] [PP t7]] [S-COORD [CONJ (part of t8)] [PP t8] [VP t8 [NP-SUBJ t9]]]]",
         "dependencies": [
-          "t7 -> t5 (temporal_adjunct)",
-          "t7 -> t6 (origin/source)",
-          "t7 -> t8 (coordination)",
-          "t8 -> t9 (subject_of_locative)"
+          "t5->t5 (relative_clause)",
+          "t5->t7 (predicate)",
+          "t7->t8 (coordinated_clause)",
+          "t8->t9 (subject)"
         ],
-        "notes": "t7 'shall be called evil' and t8 'shall be' are coordinated predictions."
+        "notes": "The sentence topicalizes 'the giants', then provides two main predications about them in coordinated clauses."
       }
     ]
   }

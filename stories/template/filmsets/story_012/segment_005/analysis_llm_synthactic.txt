@@ -2,15 +2,23 @@
   "syntax": {
     "parses": [
       {
-        "id": "S5_P1",
-        "structure_type": "Negative Existential with Causal",
-        "bracket_notation": "[S [V t5] [NP t6] [SBAR [V t7]]]",
+        "id": "S5-C1",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [CONJ ወ] [NEG ኢ] [VP [V ይኩን (t5)] [IO ሎሙ] [NP_SUBJ [N ሰላም] [CONJ ወ] [N ኅድገተ ኀጢአት (t6)]]]]",
         "dependencies": [
-          "t5 (ROOT)",
-          "t5->t6 (coordinate subject/complement)",
-          "t5->t7 (causal clause)"
+          "t5->(ሰላም) (nsubj)",
+          "t5->(ኅድገተ) (conj)"
         ],
-        "notes": "Prophecy of lack of peace."
+        "notes": "'And there will be for them no peace or forgiveness of sin.'"
+      },
+      {
+        "id": "S5-C2",
+        "structure_type": "Subordinate Clause",
+        "bracket_notation": "[SBAR [CONJ እስመ] [S [NEG ኢ] [VP [V ይትፌሥሑ (t7)] [PP [PREP በ] [NP ውሉዶሙ]]]]]",
+        "dependencies": [
+          "t7->(ውሉዶሙ) (obl)"
+        ],
+        "notes": "'for they will not rejoice in their children.'"
       }
     ]
   }

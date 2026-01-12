@@ -2,21 +2,29 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Hierarchical Dependency",
-        "bracket_notation": "[ROOT [META [NP t1 t2] [NP t3 t4]] [S [VP t5 [NP t6 [ADJP t7] [ADJP t8 [REL t9 [PP t10 [ADJP t11 [NP t12]]]]]]]]]",
+        "id": "P1",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP [N t1] [NUM t2]]",
         "dependencies": [
-          "t1->t2 (nummod)",
-          "t3->t4 (nummod)",
-          "t5->t6 (dobj)",
-          "t6->t7 (amod)",
-          "t7->t8 (conj)",
-          "t8->t9 (acl:relcl)",
-          "t9->t10 (obl)",
-          "t10->t11 (mod)",
-          "t11->t12 (nmod)"
+          "t1 -> t2 (apposition)"
         ],
-        "notes": "Metadata tokens (t1-t4) treated as detached fragments. Text tokens (t5-t12) analyzed as a VSO structure where t5 (Verb Phrase) governs t6 (Noun Phrase), followed by a chain of adjectival and relative modifiers."
+        "notes": "A nominal phrase forming a document header."
+      },
+      {
+        "id": "P2",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP [N t3] [NUM t4]]",
+        "dependencies": [
+          "t3 -> t4 (apposition)"
+        ],
+        "notes": "A nominal phrase forming a document header."
+      },
+      {
+        "id": "P3",
+        "structure_type": "Fragment Sequence",
+        "bracket_notation": "[FRAGS [V t5] [N t6] [ADJ t7] [ADJ t8] [PRO.REL t9] [PREP t10] [ADJ t11] [N t12]]",
+        "dependencies": [],
+        "notes": "Syntactic dependencies between tokens t5-t12 are indeterminate. The input contains compound tokens due to tokenization errors, preventing the formation of a coherent clause structure. Each token is treated as a disconnected fragment."
       }
     ]
   }

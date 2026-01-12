@@ -3,17 +3,32 @@
     "parses": [
       {
         "id": "S1",
-        "structure_type": "Discourse Unit",
-        "bracket_notation": "[Meta [N t1] [NUM t2] [N t3] [NUM t4]] [S [VP t5] [VP t6] [VP t7 [NP t8]]]",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP [N t1] [NUM t2]]",
         "dependencies": [
-          "t3->t1 (meta_relation)",
-          "t1->t2 (nummod)",
-          "t3->t4 (nummod)",
-          "t5->t6 (coordination)",
-          "t6->t7 (coordination)",
-          "t7->t8 (complement_quantity)"
+          "t1->t2 (numeric_modifier)"
         ],
-        "notes": "Action sequence ending in a state/quantity."
+        "notes": "Chapter 6"
+      },
+      {
+        "id": "S2",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP [N t3] [NUM t4]]",
+        "dependencies": [
+          "t3->t4 (numeric_modifier)"
+        ],
+        "notes": "Segment 5"
+      },
+      {
+        "id": "S3",
+        "structure_type": "Coordinated Nominal Phrases",
+        "bracket_notation": "[NP-COORD [NP t5] [NP t6] [NP t7] [NP t8]]",
+        "dependencies": [
+          "t5->t6 (coord)",
+          "t6->t7 (coord)",
+          "t7->t8 (coord)"
+        ],
+        "notes": "A sequence of coordinated nominal phrases."
       }
     ]
   }

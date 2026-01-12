@@ -2,22 +2,22 @@
   "evaluation": [
     {
       "hypothesis_ref": "P1",
-      "plausibility": "High",
-      "reasoning": "Describes the 'place of the whirlwind' (or storm) and the cosmic mountain. The relative clause 'whose head reached into heaven' is a key identifier. The lexeme 'ይጽሕ' is clearly a defective writing of 'ይበጽሕ' (reaches). P1's dependency structure correctly links the relative clause to the mountain.",
+      "plausibility": "high",
+      "reasoning": "The parse correctly identifies a coordinated structure of two prepositional phrases (`ውስተ፡መን...` and `ወውስተ፡ደብር...`), both governed by the main verb `ወሰደኒ` (and he took me). It accurately interprets `ዘ` in both cases as introducing a modifier: first as a genitive (`መን፡ዘዐውሎ` - place of whirlwind) and second introducing a full relative clause (`ደብር፡ዘ...ይጽሕ` - mountain which...reaches). The dependency structure `t6->t7->t8` correctly models this nested modification.",
       "parallels": [
         {
-          "ref": "1 Enoch 17:2",
-          "note": "Matches the description of the mountain reaching heaven."
+          "ref": "Gen. 11:4, 1 En. 14:8",
+          "note": "The motif of a mountain whose summit reaches heaven is well-attested. The grammatical structure `[Noun] + ዘ + [Possessive Subject] + [Verb]` for 'whose...' is standard, for example, in descriptions of significant locations."
         }
       ],
-      "context_invariance": "Stable",
-      "back_translation": "And they took me to a place of the whirlwind and to a mountain whose head reached into heaven."
+      "context_invariance": "stable",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Emended 'ይጽሕ' to 'ይበጽሕ'. Semantic content is consistent with 17:2.",
+  "decision_log": "P1 is a strong parse. It handles the dual function of `ዘ` and the coordination of locative phrases correctly.",
   "final_decision": {
     "hypothesis_ref": "P1",
-    "translation_id": "T1",
-    "confidence": "High"
+    "translation_id": "TBD",
+    "confidence": "high"
   }
 }

@@ -1,0 +1,545 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T06:26:11Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_025/segment_003",
+    "graphematic_string": "Chapter 25 Segment 3\n\nወውሥኒ፡እንዘ፡ይብል፡\nዝንቱ፡ደብር፡ዘርኢ፡ነዋኀ፡\nዘርእሱ፡ይመስል፡መንሮ፡\nለእግዚእ፡መንሩ፡ውእቱ፡ኀ፡\nይነብር፡ቅዱስ፡ወዓቢይ፡እግዚ፡\nስብሐት፡ንጉሥ፡ዘለዓለም፡ሶ፡\nይመጽእ፡ወይወርድ፡የሐውጻ፡\nለምድር፡ሠናይ፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "25",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "3",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወውሥኒ፡እንዘ፡ይብል፡",
+      "span": {
+        "start": 22,
+        "end": 35
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "phrasal",
+            "note": "Token contains multiple words. Analysis is sequential.",
+            "components": [
+              {
+                "surface": "ወውሥኒ",
+                "pos": "V",
+                "root": "ወሰአ",
+                "lemma": "ወሰአ",
+                "pattern": "CONJ + Verb(Perfect 3ms) + CLIT.PRON(1s obj)",
+                "gloss": "and-he-added-to-me"
+              },
+              {
+                "surface": "እንዘ",
+                "pos": "CONJ.SUB",
+                "root": null,
+                "lemma": "እንዘ",
+                "pattern": "Subordinating Conjunction (Gerundive)",
+                "gloss": "while"
+              },
+              {
+                "surface": "ይብል",
+                "pos": "V",
+                "root": "በሀለ",
+                "lemma": "በሀለ",
+                "pattern": "Verb (Imperfective 3ms)",
+                "gloss": "he-says"
+              }
+            ]
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "requires_verification",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ዝንቱ፡ደብር፡ዘርኢ፡ነዋኀ፡",
+      "span": {
+        "start": 36,
+        "end": 52
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "phrasal",
+            "note": "Token contains multiple words. Analysis is sequential.",
+            "components": [
+              {
+                "surface": "ዝንቱ",
+                "pos": "PRO.DEM",
+                "root": null,
+                "lemma": "ዝ",
+                "pattern": "Demonstrative Pronoun",
+                "gloss": "this"
+              },
+              {
+                "surface": "ደብር",
+                "pos": "N",
+                "root": "ደብር",
+                "lemma": "ደብር",
+                "pattern": "Noun",
+                "gloss": "mountain"
+              },
+              {
+                "surface": "ዘርኢ",
+                "pos": "ADJ",
+                "root": "ርእየ",
+                "lemma": "ርኡይ",
+                "pattern": "Adjective",
+                "gloss": "high/visible"
+              },
+              {
+                "surface": "ነዋኀ",
+                "pos": "ADJ",
+                "root": "ነወኀ",
+                "lemma": "ነዊኀ",
+                "pattern": "Adjective",
+                "gloss": "tall"
+              }
+            ]
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "requires_verification",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ዘርእሱ፡ይመስል፡መንሮ፡",
+      "span": {
+        "start": 53,
+        "end": 67
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "phrasal",
+            "note": "Token contains multiple words. Analysis is sequential.",
+            "components": [
+              {
+                "surface": "ዘርእሱ",
+                "pos": "N",
+                "root": "ርእስ",
+                "lemma": "ርእስ",
+                "pattern": "PREP + Noun + CLIT.PRON(3ms poss)",
+                "gloss": "of-its-top"
+              },
+              {
+                "surface": "ይመስል",
+                "pos": "V",
+                "root": "መሰለ",
+                "lemma": "መሰለ",
+                "pattern": "Verb (Imperfective 3ms)",
+                "gloss": "it-resembles"
+              },
+              {
+                "surface": "መንሮ",
+                "pos": "N",
+                "root": "ነበረ",
+                "lemma": "መንበር",
+                "pattern": "Noun (Place)",
+                "gloss": "throne-of"
+              }
+            ]
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "requires_verification",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ለእግዚእ፡መንሩ፡ውእቱ፡ኀ፡",
+      "span": {
+        "start": 68,
+        "end": 84
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ይነብር፡ቅዱስ፡ወዓቢይ፡እግዚ፡",
+      "span": {
+        "start": 85,
+        "end": 103
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "ስብሐት፡ንጉሥ፡ዘለዓለም፡ሶ፡",
+      "span": {
+        "start": 104,
+        "end": 121
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t11",
+      "surface": "ይመጽእ፡ወይወርድ፡የሐውጻ፡",
+      "span": {
+        "start": 122,
+        "end": 138
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t12",
+      "surface": "ለምድር፡ሠናይ፨",
+      "span": {
+        "start": 139,
+        "end": 148
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    }
+  ]
+}

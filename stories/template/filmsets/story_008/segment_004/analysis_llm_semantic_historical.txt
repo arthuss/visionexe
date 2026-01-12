@@ -3,21 +3,25 @@
     {
       "hypothesis_ref": "S4-P1",
       "plausibility": "high",
-      "reasoning": "The construction 'wa-ḥəgwilata sabʾ' (and [at] the destruction of men) functions as a temporal/circumstantial clause leading to the main action 'ṣarḥu' (they cried out). This connects the earthly suffering to the heavenly response in Chapter 9.",
+      "reasoning": "The parse correctly identifies the causal relationship between the perishing of humanity ('ሕጕለተ፡ሰብእ') and their cry ('ጸርሑ') reaching heaven. This structure serves as the narrative bridge to divine intervention.",
       "parallels": [
         {
-          "ref": "1 Enoch 8:4 (Greek)",
-          "note": "tōn anthrōpōn apollymenōn eboēsan (as men were perishing, they cried out)."
+          "ref": "1 Enoch 8:4",
+          "note": "This segment is a direct parallel to the text, which states that as humanity was destroyed, their cries went up to heaven."
+        },
+        {
+          "ref": "Genesis 4:10",
+          "note": "The concept of a cry/voice reaching heaven as an appeal for justice is a common trope, as seen in the story of Cain and Abel, where Abel's blood 'cries out from the ground'."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And as men perished, they cried, and their voice went up to heaven."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "The causal link between the destruction and the cry to heaven is correctly identified. The historical/textual parallel with the Greek version confirms this reading.",
+  "decision_log": "The identification of a temporal/consequence clause is accurate. The destruction leads to the cry, which is the pivotal event of the chapter's conclusion. The parse reflects this progression.",
   "final_decision": {
     "hypothesis_ref": "S4-P1",
-    "translation_id": "T1",
+    "translation_id": "T4",
     "confidence": "high"
   }
 }

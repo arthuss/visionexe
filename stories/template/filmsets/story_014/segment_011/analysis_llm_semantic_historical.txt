@@ -3,21 +3,25 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "Simple nominal sentence describing the encircling fire. Grammatically straightforward.",
+      "reasoning": "The parse correctly identifies a simple nominal sentence structure used for description. It focuses on the 'burning fire' surrounding the structure, a key element of theophanic visions, signifying sanctity, danger, and divine presence.",
       "parallels": [
         {
-          "ref": "Ezekiel 1:4",
-          "note": "Fire infolding itself"
+          "ref": "Exodus 3:2",
+          "note": "The burning bush, where God's presence is manifested in fire that does not consume."
+        },
+        {
+          "ref": "Daniel 7:9",
+          "note": "The throne of the Ancient of Days is described as a 'fiery flame' with 'wheels as burning fire.'"
         }
       ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Pyrotechnic description confirmed.",
+  "decision_log": "S1 provides a straightforward and accurate parse of a descriptive clause that is central to theophanic imagery in the Hebrew Bible and subsequent literature.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T1",
+    "translation_id": "T1_011",
     "confidence": "high"
   }
 }

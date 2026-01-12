@@ -2,17 +2,26 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Verbal Clause Chain",
-        "bracket_notation": "[S [V t5] [Mod t6] [Mod t7] [V_Coord t8] [Obj t9]]",
+        "id": "S8.meta",
+        "structure_type": "Header",
+        "bracket_notation": "[META [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]",
         "dependencies": [
-          "t5->ROOT",
-          "t6->t5 (modifier_manner)",
-          "t7->t6 (modifier_comitative)",
-          "t8->t5 (coordination)",
-          "t9->t8 (object)"
+          "t1->t2 (modifies)",
+          "t3->t4 (modifies)"
         ],
-        "notes": "t5 'They went to daughters of men'. t6 'Together and slept'. t7 'With those women'. t8 'Defiled and revealed'. t9 'Sin/Secrets'."
+        "notes": "Segment metadata."
+      },
+      {
+        "id": "S8.1",
+        "structure_type": "Coordinated Verbs",
+        "bracket_notation": "[S [VP [V t5] [ADVP [ADV t6]]] [CONJ] [VP [V t8] [NP-OBJ [N t9]] [PP [P-in-surface] [NP [N t7]]]]]",
+        "dependencies": [
+          "t5->t6 (advmod)",
+          "t5->t8 (conj)",
+          "t8->t7 (obl)",
+          "t8->t9 (dobj)"
+        ],
+        "notes": "A sequence of coordinated verbs: t5 ('they went'), 'slept' (in t6 surface), and t8 ('they became unclean'). The subject ('they', the Watchers) is implicit. t6 is an adverb ('together') modifying the verbs. t7 ('women') is the object of a preposition ('with'). t8 has t9 ('all sin') as its object, but the verb in the surface is 'revealed'."
       }
     ]
   }

@@ -3,16 +3,21 @@
     {
       "hypothesis_ref": "S10_P1",
       "plausibility": "high",
-      "reasoning": "The parallelism between 'spirits of heaven' and 'spirits of earth' is well-preserved.",
-      "parallels": [],
+      "reasoning": "The parse accurately identifies the parallel structure contrasting the 'spirits of heaven' and the 'spirits of earth.' Each part consists of a subject followed by a locative phrase ('wǝstä sämay' / 'wǝstä mǝdr') and a statement about their dwelling ('maḫdärihomu'). This parallelism is a key rhetorical feature.",
+      "parallels": [
+        {
+          "ref": "Matthew 6:10",
+          "note": "Parallelism between 'in heaven' and 'on earth' is a common rhetorical and theological construction."
+        }
+      ],
       "context_invariance": "stable",
-      "back_translation": "As for the spirits of heaven, in heaven shall be their dwelling, but as for the spirits of the earth which were born upon the earth, on the earth shall be their dwelling."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Matches 1 Enoch 15:10.",
+  "decision_log": "S10_P1 correctly identifies the rhetorical parallelism which is the defining feature of this segment. The parse is excellent.",
   "final_decision": {
     "hypothesis_ref": "S10_P1",
-    "translation_id": "T1",
+    "translation_id": "T10",
     "confidence": "high"
   }
 }

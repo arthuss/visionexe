@@ -2,26 +2,22 @@
   "evaluation": [
     {
       "hypothesis_ref": "S1",
-      "plausibility": "moderate",
-      "reasoning": "Fragmented parse correctly identifies 'Dudael' (Ge'ez: ዱድኤል), the specific desert location for Azazel's imprisonment.",
+      "plausibility": "low",
+      "reasoning": "The parse is explicitly marked as 'Fragmented'. It correctly identifies the proper noun 'Dudael', a key location in 1 Enoch 10:4-5, but fails to establish any syntactic or semantic relationship with other tokens. This indicates a severe parsing failure. The structure does not represent a coherent thought, which is inconsistent with the source text.",
       "parallels": [
         {
-          "ref": "4Q202 (4QEnoch^b ar) II 2",
-          "note": "Aramaic fragment attests 'b-dwd'l' (in Dudael)."
-        },
-        {
-          "ref": "Gizeh Greek 10:4",
-          "note": "Greek attests 'Dadouel'."
+          "ref": "1 Enoch 10:4",
+          "note": "The source text reads 'And further the Lord said to Raphael: ‘Bind Azazel hand and foot, and cast him into the darkness: and make an opening in the desert, which is in Dudael, and cast him therein.’' The fragmented parse fails to capture this command structure."
         }
       ],
-      "context_invariance": "stable",
-      "back_translation": "pass"
+      "context_invariance": "unstable",
+      "back_translation": "fail"
     }
   ],
-  "decision_log": "Confirmed toponym Dudael despite fragmented syntax.",
+  "decision_log": "S1 is the only hypothesis, but it represents a failure to parse the segment. The identification of 'Dudael' is correct, but the overall analysis is semantically void. Confidence is low because the parse is acknowledged as incomplete.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T1",
-    "confidence": "moderate"
+    "translation_id": "T5",
+    "confidence": "low"
   }
 }

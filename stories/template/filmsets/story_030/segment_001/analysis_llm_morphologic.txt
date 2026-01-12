@@ -1,0 +1,738 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T06:35:20Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_030/segment_001",
+    "graphematic_string": "Chapter 30 Segment 1\n\nወላዕሌሁ፡ላዕለ፡እላንቱ፡ላዕለ፡\nደብረ፡ጽባሕ፡፡\nርሑቅ፨፨ወርኢኩ፡መነ፡\nል፡ቈላ፡ማያተ፡መዘ፡\nኢይትዌዳእ፡ወርኢኩ፡ዕፀ፡\nዘሠናይ፡ዘይወስል፡ዕፀ፡ወዐዘ፡\nመ፡እንተ፡ዘሰኖን፡",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "Chapter",
+            "root": "chapter",
+            "lemma": "chapter",
+            "pattern": "english_noun"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_applicable_english",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "30",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "30",
+            "root": "30",
+            "lemma": "30",
+            "pattern": "number"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_applicable_number",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "Segment",
+            "root": "segment",
+            "lemma": "segment",
+            "pattern": "english_noun"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_applicable_english",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "1",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "1",
+            "root": "1",
+            "lemma": "1",
+            "pattern": "number"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_applicable_number",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወላዕሌሁ፡ላዕለ፡እላንቱ፡ላዕለ፡",
+      "span": {
+        "start": 22,
+        "end": 41
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "CONJ.COORD",
+          "analysis": {
+            "kind": "functional",
+            "surface_part": "ወ",
+            "root": null,
+            "lemma": "ወ",
+            "pattern": "clitic"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_as_function_word",
+            "attestation": [
+              "Input function_words list"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ላዕሌሁ",
+            "root": "ልعل",
+            "lemma": "ላዕለ",
+            "pattern": "prep_with_pron_suffix_3ms"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ላዕለ",
+            "root": "ልعل",
+            "lemma": "ላዕለ",
+            "pattern": "preposition"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "PRO.DEM",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "እላንቱ",
+            "root": "እል",
+            "lemma": "እሉ",
+            "pattern": "demonstrative_plural"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ደብረ፡ጽባሕ፡፡",
+      "span": {
+        "start": 42,
+        "end": 51
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ደብረ",
+            "root": "דבר",
+            "lemma": "ደብር",
+            "pattern": "noun_construct"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ጽባሕ",
+            "root": "צבח",
+            "lemma": "ጽባሕ",
+            "pattern": "noun"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ርሑቅ፨፨ወርኢኩ፡መነ፡",
+      "span": {
+        "start": 52,
+        "end": 65
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ርሑቅ",
+            "root": "ርחק",
+            "lemma": "ርሑቅ",
+            "pattern": "adjective"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ወርኢኩ",
+            "root": "ርኢ",
+            "lemma": "ርእየ",
+            "pattern": "verb_perfect_1cs_conj_prefix"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "PRO.INT",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "መነ",
+            "root": "מן",
+            "lemma": "መኑ",
+            "pattern": "interrogative_pronoun"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ል፡ቈላ፡ማያተ፡መዘ፡",
+      "span": {
+        "start": 66,
+        "end": 78
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "CLIT.PREP",
+          "analysis": {
+            "kind": "functional",
+            "surface_part": "ል",
+            "root": null,
+            "lemma": "ለ",
+            "pattern": "clitic"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_as_function_word",
+            "attestation": [
+              "Input function_words list"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ቈላ",
+            "root": "ቈል",
+            "lemma": "ቈላ",
+            "pattern": "noun"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ማያተ",
+            "root": "ማይ",
+            "lemma": "ማይ",
+            "pattern": "noun_plural_acc"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "PART.REL",
+          "analysis": {
+            "kind": "functional",
+            "surface_part": "መዘ",
+            "root": null,
+            "lemma": "ዘ",
+            "pattern": "relative_with_prefix"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [
+              "Similar to 'ዘ' in function_words list"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ኢይትዌዳእ፡ወርኢኩ፡ዕፀ፡",
+      "span": {
+        "start": 79,
+        "end": 94
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PART.NEG",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ኢ",
+            "root": "אי",
+            "lemma": "ኢ",
+            "pattern": "negation_particle"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ይትዌዳእ",
+            "root": "ודא",
+            "lemma": "ተዌድአ",
+            "pattern": "verb_imperfect_3ms_reflexive"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ወርኢኩ",
+            "root": "ርኢ",
+            "lemma": "ርእየ",
+            "pattern": "verb_perfect_1cs_conj_prefix"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ዕፀ",
+            "root": "עץ",
+            "lemma": "ዕፅ",
+            "pattern": "noun_acc"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "ዘሠናይ፡ዘይወስል፡ዕፀ፡ወዐዘ፡",
+      "span": {
+        "start": 95,
+        "end": 113
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PRO.REL",
+          "analysis": {
+            "kind": "functional",
+            "surface_part": "ዘ",
+            "root": null,
+            "lemma": "ዘ",
+            "pattern": "relative"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_as_function_word",
+            "attestation": [
+              "Input function_words list"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ሠናይ",
+            "root": "ሠኒ",
+            "lemma": "ሠናይ",
+            "pattern": "adjective"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ዘይወስል",
+            "root": "وسል",
+            "lemma": "ወሰለ",
+            "pattern": "verb_imperfect_3ms_relative"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ዕፀ",
+            "root": "עץ",
+            "lemma": "ዕፅ",
+            "pattern": "noun_acc"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "E",
+          "pos": "CONJ.COORD",
+          "analysis": {
+            "kind": "functional",
+            "surface_part": "ወ",
+            "root": null,
+            "lemma": "ወ",
+            "pattern": "conjunction"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_as_function_word",
+            "attestation": [
+              "Input function_words list"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "F",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ዐዘ",
+            "root": "ዐזז",
+            "lemma": "ዐዘዘ",
+            "pattern": "verb_perfect_3ms"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t11",
+      "surface": "መ፡እንተ፡ዘሰኖን፡",
+      "span": {
+        "start": 114,
+        "end": 125
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "መ",
+            "root": "መ",
+            "lemma": "መ",
+            "pattern": "unknown"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "PRO.REL",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "እንተ",
+            "root": "אנת",
+            "lemma": "እንተ",
+            "pattern": "relative_fem"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ዘሰኖን",
+            "root": "ሰنن",
+            "lemma": "ሰነነ",
+            "pattern": "verb_perfect_3ms_relative"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

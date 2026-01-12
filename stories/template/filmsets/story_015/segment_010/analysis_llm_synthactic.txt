@@ -2,16 +2,16 @@
   "syntax": {
     "parses": [
       {
-        "id": "S10_P1",
-        "structure_type": "Parallel Locative Clauses",
-        "bracket_notation": "[S [NP [N t5]] [VP [V t6] [N t7]] [NP [N t8] [N t9] [N t10]]]",
+        "id": "P1",
+        "structure_type": "Parallel Verbless Clauses",
+        "bracket_notation": "[S-VLESS-1 [NP-SUBJ t5] [PP-LOC (part of t5)] [PRED-NOM t7 [SUBJ t5]]] [S-VLESS-2-COORD [NP-SUBJ t8 [RC t8]] [PP-LOC t9] [PRED-NOM t10 [SUBJ t8]]]",
         "dependencies": [
-          "t6 -> t5 (subject)",
-          "t6 -> t7 (locative_complement)",
-          "t8 -> t10 (parallel_subject_structure)",
-          "t10 -> t9 (locative_modifier)"
+          "t7->t5 (subject)",
+          "t10->t8 (subject)",
+          "t8->t8 (relative_clause)",
+          "t8->t9 (locative_predicate)"
         ],
-        "notes": "Contrasts spirits of heaven (t5-t7) with spirits of earth (t8-t10)."
+        "notes": "Two parallel clauses describing the dwelling places of two types of spirits. The verb 'to be' is implied in both and explicitly given as 'yǝkun' (t6) for the first clause."
       }
     ]
   }

@@ -1,44 +1,54 @@
 ```json
 {
   "actors": [],
+  "characters": [
+    {
+      "name": "the righteous",
+      "visualTraits": null,
+      "changes": [],
+      "role": "group"
+    },
+    {
+      "name": "all",
+      "visualTraits": null,
+      "changes": [],
+      "role": "group"
+    }
+  ],
   "props": [],
-  "environments": [
+  "places": [],
+  "locations": [
     {
-      "name": "earth",
-      "role": "setting"
-    },
-    {
-      "name": "rain",
-      "role": "setting"
-    },
-    {
-      "name": "water",
-      "role": "setting"
-    },
-    {
-      "name": "day",
-      "role": "setting"
-    },
-    {
-      "name": "light",
+      "name": "the earth",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-judgment",
+          "description": "The earth as it was before the event."
+        },
+        {
+          "phase": "Phase 2: Destruction",
+          "description": "The earth is submerged and all that is within it perishes."
+        }
+      ],
       "role": "setting"
     }
   ],
+  "environments": [],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Natural Cycle",
-      "location": "earth",
-      "action": "rain falls, water flows, day brings justice, light is sacred",
-      "actorsInvolved": []
+      "title": "The Judgment and Destruction of the Earth",
+      "location": "the earth",
+      "action": "The earth is submerged, all life upon it perishes, and judgment is enacted upon everyone, including the righteous.",
+      "actorsInvolved": [
+        "all",
+        "the righteous"
+      ]
     }
   ],
   "blocking": {
-    "anchors": [
-      {
-        "id": "earth_anchor",
-        "description": "earth surface"
-      }
-    ],
+    "anchors": [],
     "paths": []
   }
 }

@@ -2,22 +2,22 @@
   "evaluation": [
     {
       "hypothesis_ref": "S1",
-      "plausibility": "moderate",
-      "reasoning": "Correctly parses the dialogue response. Input text shows 'ምር' instead of 'ምክር' (counsel/plan) and 'ይናቲነ' for 'በበይናቲነ' (among ourselves). The structure identifying the oath and mutual imprecation is semantically sound.",
+      "plausibility": "high",
+      "reasoning": "The parse accurately identifies the components of the oath: a series of coordinated verbs of purpose ('swear', 'bind', 'not abandon', 'do'). This structure is characteristic of resolutions and pacts in narrative texts.",
       "parallels": [
         {
-          "ref": "1 Enoch 6:4 (Ethiopic)",
-          "note": "Standard: '...መሐላ፡ ንምሐል፡ ኵልነ፡ ወንትዋገዝ፡ በበይናቲነ...'"
+          "ref": "1 Enoch 6:4-5",
+          "note": "This is a direct quotation of the angels' response, forming a pact. The parsed structure mirrors the legal/covenantal language of the oath by linking a series of actions to a single, unified purpose."
         }
       ],
-      "context_invariance": "variant_text",
+      "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "S1 correctly maps the coordination of the oath-taking and the resolve to execute the plan, despite text noise.",
+  "decision_log": "S1 is the sole hypothesis and it correctly models the conjunctive and purposive structure of the reported speech, which functions as an oath.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",
-    "confidence": "moderate"
+    "confidence": "high"
   }
 }

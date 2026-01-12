@@ -1,0 +1,599 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T06:52:33Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_039/segment_001",
+    "graphematic_string": "Chapter 39 Segment 1\n\nወይውን፡ዝንቱ፡መዋዕል፡\nይወርዱ፡ደቂቅ፡ኅሩያን፡\nወቅዱሳን፡እምልዑላን፡ሰማያት፡\nወ፩፡ይውን፡ዘርኦሙ፡ምስለ፡\nውሉደ፡ሰብእ፡",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "39",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "1",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወይውን፡ዝንቱ፡መዋዕል፡",
+      "span": {
+        "start": 22,
+        "end": 36
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "CONJ.COORD",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ወ",
+            "pattern": "clitic"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "function_words list"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "kwn",
+            "lemma": "ኮነ",
+            "pattern": "imperfect"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_analysis",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "PRO.DEM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ዝንቱ",
+            "pattern": "masculine_singular"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_analysis",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "wʿl",
+            "lemma": "መዓልት",
+            "pattern": "plural"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_analysis",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ይወርዱ፡ደቂቅ፡ኅሩያን፡",
+      "span": {
+        "start": 37,
+        "end": 51
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "wrd",
+            "lemma": "ወረደ",
+            "pattern": "imperfect_plural"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_analysis",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "dqq",
+            "lemma": "ደቂቅ",
+            "pattern": "plural"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_analysis",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ḫry",
+            "lemma": "ኅሩይ",
+            "pattern": "plural"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_analysis",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ወቅዱሳን፡እምልዑላን፡ሰማያት፡",
+      "span": {
+        "start": 52,
+        "end": 70
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "CONJ.COORD",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ወ",
+            "pattern": "clitic"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "function_words list"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": "qds",
+            "lemma": "ቅዱስ",
+            "pattern": "plural"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_analysis",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "እም",
+            "pattern": "preposition"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "function_words list"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": "lʿl",
+            "lemma": "ልዑል",
+            "pattern": "plural"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_analysis",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "E",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "smy",
+            "lemma": "ሰማይ",
+            "pattern": "plural"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_analysis",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ወ፩፡ይውን፡ዘርኦሙ፡ምስለ፡",
+      "span": {
+        "start": 71,
+        "end": 87
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "CONJ.COORD",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ወ",
+            "pattern": "clitic"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "function_words list"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "፩",
+            "pattern": "number"
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_analysis",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "kwn",
+            "lemma": "ኮነ",
+            "pattern": "imperfect"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_analysis",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "zrʾ",
+            "lemma": "ዘርእ",
+            "pattern": "noun_with_suffix"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_analysis",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "E",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": "msl",
+            "lemma": "ምስለ",
+            "pattern": "preposition"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_analysis",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ውሉደ፡ሰብእ፡",
+      "span": {
+        "start": 88,
+        "end": 96
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "wld",
+            "lemma": "ወልድ",
+            "pattern": "construct_plural"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_analysis",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "sbʾ",
+            "lemma": "ሰብእ",
+            "pattern": "noun"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_analysis",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

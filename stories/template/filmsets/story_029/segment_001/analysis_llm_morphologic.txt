@@ -1,0 +1,392 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T06:33:17Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_029/segment_001",
+    "graphematic_string": "Chapter 29 Segment 1\n\nወሖርኩ፡ውስተ፡መን፡ልእ፡\nእምነ፡መድራ፡መንገለ፡ጽባሑ፡\nለውእቱ፡ደብር፡ቀረብኩ፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "chapter",
+            "lemma": "Chapter",
+            "pattern": "latin_script_word"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "29",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "29",
+            "lemma": "29",
+            "pattern": "numeral"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "segment",
+            "lemma": "Segment",
+            "pattern": "latin_script_word"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "1",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "1",
+            "lemma": "1",
+            "pattern": "numeral"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወሖርኩ፡ውስተ፡መን፡ልእ፡",
+      "span": {
+        "start": 22,
+        "end": 37
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "CONJ.COORD",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ወ",
+            "pattern": "prefix"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_function_words",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሖር",
+            "lemma": "ሖረ",
+            "pattern": "Perfect_1_sg"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": "wst",
+            "lemma": "ውስተ",
+            "pattern": "base"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "PRO.INT",
+          "analysis": {
+            "kind": "lexical",
+            "root": "mn",
+            "lemma": "መን",
+            "pattern": "base"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "እምነ፡መድራ፡መንገለ፡ጽባሑ፡",
+      "span": {
+        "start": 38,
+        "end": 55
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "እም",
+            "pattern": "base"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_function_words",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "mdr",
+            "lemma": "ምድር",
+            "pattern": "base_acc"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": "mngl",
+            "lemma": "መንገለ",
+            "pattern": "base"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ṣbḥ",
+            "lemma": "ጽባሕ",
+            "pattern": "base_acc"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ለውእቱ፡ደብር፡ቀረብኩ፨",
+      "span": {
+        "start": 56,
+        "end": 70
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ለ",
+            "pattern": "prefix"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_function_words",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "PRO.DEM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "wʾt",
+            "lemma": "ውእቱ",
+            "pattern": "base"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "dbr",
+            "lemma": "ደብር",
+            "pattern": "base"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "qrb",
+            "lemma": "ቀረበ",
+            "pattern": "Perfect_1_sg"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

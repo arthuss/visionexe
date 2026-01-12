@@ -3,16 +3,25 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The locative transition ('into heaven... until I approached') marks the boundary crossing. 'Wall of crystal' (hailstones) is a known material description in this text.",
-      "parallels": [],
+      "reasoning": "The parse accurately follows the narrative sequence of ascension ('they lifted me up into heaven') and arrival ('I went on until I drew near to a wall'). The structure shows a clear progression of movement and location, a hallmark of the heavenly journey motif.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 17:1-2",
+          "note": "A self-reference to the beginning of a journey through supernatural landscapes."
+        },
+        {
+          "ref": "Ezekiel 40:2-3",
+          "note": "The prophet is brought to a new location and sees a man by a gate with a measuring line, indicating arrival at a structured, divine space."
+        }
+      ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Spatial transition to the celestial temple confirmed.",
+  "decision_log": "S1 correctly parses the linear progression of the visionary journey from the ascent to the arrival at the first heavenly structure. The syntax is straightforward and well-supported.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T1",
+    "translation_id": "T1_008",
     "confidence": "high"
   }
 }

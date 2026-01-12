@@ -2,24 +2,30 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Compound Sentence",
-        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [Clause t5 [Obl t6] [IndObj t7] [Punct t8]] [Clause t9] [Clause t10] [Clause t11 [Obl t12]]]]]",
+        "id": "P1",
+        "structure_type": "Header + Fragments",
+        "bracket_notation": "[ROOT [HEADER [TITLE [N t1] [NUM t2]] [ID [N t3] [NUM t4]]] [BODY [NP t5] [NP t6] [NP t7] [PUNC t8] [NP t9] [NP t10] [NP t11] [NP t12]]]",
         "dependencies": [
-          "t5->t1 (meta)",
-          "t5->t2 (meta)",
-          "t5->t3 (meta)",
-          "t5->t4 (meta)",
-          "root->t5 (root)",
-          "t5->t6 (oblique)",
-          "t6->t7 (indirect_object)",
-          "t7->t8 (punct)",
-          "t5->t9 (coordination)",
-          "t9->t10 (predicate)",
-          "t10->t11 (modifier)",
-          "t11->t12 (oblique)"
+          "t1->t2 (mod)",
+          "t3->t4 (mod)"
         ],
-        "notes": "Future tense prediction."
+        "notes": "Safe parse assuming a metadata header followed by a flat list of body fragments. No verb was tagged in this segment."
+      },
+      {
+        "id": "P2",
+        "structure_type": "Nominal Coordination with Punctuation",
+        "bracket_notation": "[ROOT [HEADER [TITLE [N t1] [NUM t2]] [ID [N t3] [NUM t4]]] [CLAUSE [NP t5] [NP t6] [NP t7]] [PUNC t8] [CLAUSE [NP t9] [NP t10] [NP t11] [NP t12]]]",
+        "dependencies": [
+          "t1->t2 (mod)",
+          "t3->t4 (mod)",
+          "t5->t6 (conj)",
+          "t5->t7 (conj)",
+          "t9->t10 (conj)",
+          "t9->t11 (conj)",
+          "t9->t12 (conj)",
+          "ROOT->t8 (punct)"
+        ],
+        "notes": "Assumes the punctuation mark t8 separates two coordinated nominal clauses."
       }
     ]
   }

@@ -3,21 +3,25 @@
     {
       "hypothesis_ref": "S3_P1",
       "plausibility": "high",
-      "reasoning": "The parse handles the complex accusation well. Specifically, it accurately captures the motif of the 'worthless mystery' (ምሥጢረ፡ምኑነ) or 'rejected mystery'. This is a key historical-semantic point: the Watchers did not possess the ultimate divine wisdom, but a corrupted or lower knowledge, which they illicitly taught to humanity (women), leading to moral decay (sorcery, war). 'ንትሙሰ' is read as 'አንትሙሰ' (As for you).",
+      "reasoning": "The segment captures God's rebuke to the Watchers, delivered by Enoch. It contrasts their heavenly origin with their ignorance of true 'mysteries' (məśṭir). The core accusation is that they revealed a 'worthless mystery' (mənuna məśṭir) to human women, which led to evil proliferating on Earth. This is the central transgression detailed in the Book of the Watchers.",
       "parallels": [
         {
-          "ref": "1 Enoch 8:1-3",
-          "note": "Details of the forbidden arts taught by Asael and others."
+          "ref": "1 Enoch 16:3",
+          "note": "States directly: 'And a mystery has not been revealed to you, but a worthless mystery you have known, and this you have told to the women in the hardness of your hearts...'"
+        },
+        {
+          "ref": "1 Enoch 7-8",
+          "note": "Details the forbidden knowledge (astrology, weaponry, cosmetics) that the Watchers taught to humanity, corresponding to the 'mystery' that caused evil."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "You were in heaven, but the hidden things had not yet been revealed to you, and a worthless mystery you knew. And this you told to the women in the hardness of your hearts, and by this mystery, women and men multiply evil on the earth."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "The dependency chain correctly links the possession of the mystery to the act of teaching and the resultant earthly corruption.",
+  "decision_log": "The hypothesis correctly parses a complex sentence that forms the theological climax of the judgment speech against the Watchers. The language is a near-direct quote from the established text of 1 Enoch 16.",
   "final_decision": {
     "hypothesis_ref": "S3_P1",
-    "translation_id": "T1",
+    "translation_id": "T3",
     "confidence": "high"
   }
 }

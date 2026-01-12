@@ -2,22 +2,40 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1-P1",
-        "structure_type": "Coordination Chain",
-        "bracket_notation": "[S [VP [V t5] [NP t6] [NP t7] [NP t8] [NP t9] [NP t10] [NP t11] [NP t12] [NP t13] [NP t14]]] [S [VP [V t14_end] [NP t15]]]",
+        "id": "S1_P1",
+        "structure_type": "Main Clause",
+        "bracket_notation": "[S [V-SUBJ t5] [OBJ t6]]",
         "dependencies": [
-          "t5->t6 (obj)",
-          "t6->t7 (conj)",
-          "t7->t8 (conj)",
-          "t8->t9 (conj)",
-          "t9->t10 (conj)",
-          "t10->t11 (conj)",
-          "t11->t12 (conj)",
-          "t12->t13 (conj)",
-          "t13->t14 (conj)",
-          "t14->t15 (subj)"
+          "t5->t6 (object)"
         ],
-        "notes": "Tokens t5-t14 represent a long chain of coordinated direct objects governed by the verb in t5 ('taught'). t14 introduces a new clause ('and changed') with t15 ('world') as its subject."
+        "notes": "The primary clause where t5 ('Azazel taught...') acts as the verb phrase and t6 ('the making of swords...') is the beginning of a long object phrase."
+      },
+      {
+        "id": "S1_P2",
+        "structure_type": "Coordinated Noun Phrases",
+        "bracket_notation": "[NP [NP t6] [CONJ] [NP t7]]",
+        "dependencies": [
+          "t6->t7 (coordination)"
+        ],
+        "notes": "The list of taught items is formed by coordinating noun phrases. This dependency pattern continues from t6 through t12 and includes t14."
+      },
+      {
+        "id": "S1_P3",
+        "structure_type": "Noun Phrase with Modifier",
+        "bracket_notation": "[NP [N t12] [ADJ t13]]",
+        "dependencies": [
+          "t12->t13 (adjectival_modifier)"
+        ],
+        "notes": "The adjective in t13 ('selected') modifies the noun in t12 ('stones')."
+      },
+      {
+        "id": "S1_P4",
+        "structure_type": "Subordinate Clause",
+        "bracket_notation": "[S [V-in-t14] [SUBJ t15]]",
+        "dependencies": [
+          "t14->t15 (subject)"
+        ],
+        "notes": "A new clause is formed by the verb 'ተዋለጠ' (was changed), contained in t14, with t15 ('world') as its subject."
       }
     ]
   }

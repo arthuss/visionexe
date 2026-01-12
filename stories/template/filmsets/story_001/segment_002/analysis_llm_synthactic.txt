@@ -2,47 +2,31 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Verbal Clause",
-        "bracket_notation": "[S [Conj t5.m1] [V t5.m2] [Conj t5.m3] [V t5.m4] [Subj t5.m5]]",
+        "id": "S2-P1",
+        "structure_type": "Appositional Phrase",
+        "bracket_notation": "[S [VP t5] [Appo t6]]",
         "dependencies": [
-          "t5.m4->t5.m2 (coordination)",
-          "t5.m5->t5.m4 (subject)"
+          "t5->t6 (apposition)"
         ],
-        "notes": "'And he answered and said Enoch'"
+        "notes": "The phrase 'a righteous man' (t6) is in apposition to the subject 'Enoch' within the verbal phrase 'and Enoch said' (t5)."
       },
       {
-        "id": "S2",
-        "structure_type": "Nominal Clause / Apposition",
-        "bracket_notation": "[NP [N t6.m1] [Adj t6.m2] [RelCl [Rel t6.m3] [PP [Prep t6.m4] [N t6.m5] [NP t7.m1]]]]",
+        "id": "S2-P2",
+        "structure_type": "Verbal Phrase",
+        "bracket_notation": "[VP [V t8] [Obj t9]]",
         "dependencies": [
-          "t6.m2->t6.m1 (adjectival_modifier)",
-          "t6.m3->t6.m1 (relative_marker)",
-          "t6.m5->t6.m4 (prep_obj)",
-          "t7.m1->t6.m5 (genitive/apposition)"
+          "t8->t9 (object)"
         ],
-        "notes": "'A righteous man who [was] from with God'"
+        "notes": "The verb 'and he saw a vision' (t8) takes 'a holy (vision) of the heavens' (t9) as its object."
       },
       {
-        "id": "S3",
-        "structure_type": "Circumstantial Clause",
-        "bracket_notation": "[S [Conj t7.m2] [Subj [N t7.m3] [Poss t7.m4]] [Pred t8.m1]]",
+        "id": "S2-P3",
+        "structure_type": "Verbal Phrase",
+        "bracket_notation": "[VP [V t10] [PP t11]]",
         "dependencies": [
-          "t8.m1->t7.m3 (predicate)",
-          "t7.m3->t7.m2 (circumstantial)"
+          "t10->t11 (prep_mod)"
         ],
-        "notes": "'While his eyes [were] opened'"
-      },
-      {
-        "id": "S4",
-        "structure_type": "Verbal Clause",
-        "bracket_notation": "[S [Conj t8.m2] [V t8.m3] [Obj [NP [N t8.m4] [Adj t9.m1] [RelCl [Rel t9.m2] [N t9.m3]]]]]",
-        "dependencies": [
-          "t8.m4->t8.m3 (object)",
-          "t9.m1->t8.m4 (modifier)",
-          "t9.m3->t9.m2 (relative_complement)"
-        ],
-        "notes": "'And he saw a holy vision of/which [is] heavens'"
+        "notes": "The verb 'and I heard' (t10) is modified by the prepositional phrase 'from them' (t11)."
       }
     ]
   }

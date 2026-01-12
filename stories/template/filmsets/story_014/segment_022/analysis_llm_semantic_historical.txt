@@ -3,16 +3,25 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "Distinction of the 'Holy Ones' (inner circle) who do not need to depart/sleep. Parse captures the continuous aspect of their service.",
-      "parallels": [],
+      "reasoning": "The parse identifies a compound sentence describing the 'holy ones' (angels) who are closest to God. It states they 'do not depart night or day' and are 'not removed from him.' This emphasizes their role as a permanent, immediate angelic guard.",
+      "parallels": [
+        {
+          "ref": "Revelation 4:8",
+          "note": "The four living creatures 'rest not day and night, saying, Holy, holy, holy...'"
+        },
+        {
+          "ref": "Isaiah 6:2-3",
+          "note": "The seraphim stand above the throne and call to one another, indicating constant attendance."
+        }
+      ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Angelic hierarchy (inner circle) defined.",
+  "decision_log": "S1 correctly parses the description of the unceasing service of the highest order of angels, a theme well-attested in both prophetic and apocalyptic literature.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T1",
+    "translation_id": "T1_022",
     "confidence": "high"
   }
 }

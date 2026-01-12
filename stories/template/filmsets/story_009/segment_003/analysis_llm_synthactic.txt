@@ -2,16 +2,24 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Verbal Clause",
-        "bracket_notation": "[S [Adv t5] [V t6] [Mod_Circumstantial [Conj t7] [Obj_Speech t8]]]",
+        "id": "S3.meta",
+        "structure_type": "Header",
+        "bracket_notation": "[META [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]",
         "dependencies": [
-          "t6->ROOT",
-          "t5->t6 (adjunct_time_vocative)",
-          "t7->t6 (modifier_circumstantial)",
-          "t8->t7 (object_direct_speech)"
+          "t1->t2 (modifies)",
+          "t3->t4 (modifies)"
         ],
-        "notes": "t6 'They appeal' is main verb. t5 'And now to you holy ones' is vocative/temporal adjunct. t7 'While saying' is circumstantial clause. t8 'Bring judgment' is the quoted speech."
+        "notes": "Segment metadata."
+      },
+      {
+        "id": "S3.1",
+        "structure_type": "Main Clause with Adverbial Clause",
+        "bracket_notation": "[S [VP [ADVP [ADV t5]] [V t6]] [SBAR [MARK [CONJ.SUB t7]] [S [VP [V t8]]]]]",
+        "dependencies": [
+          "t6->t5 (advmod)",
+          "t6->t8 (advcl, mark=t7)"
+        ],
+        "notes": "The main verb is t6 ('they are accusing'), modified by the adverb t5 ('now'). t7 introduces a subordinate adverbial clause ('while they say...'), which contains a direct quote whose main verb is the imperative t8 ('bring!'). Subjects and objects of the verbs are contained within the surface strings and are not available as separate tokens."
       }
     ]
   }

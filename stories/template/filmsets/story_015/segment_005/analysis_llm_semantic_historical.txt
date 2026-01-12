@@ -3,16 +3,21 @@
     {
       "hypothesis_ref": "S5_P1",
       "plausibility": "high",
-      "reasoning": "Correctly links the cause (mortal nature of men) to the result (giving of wives). 'Therefore' is properly identified as the pivot.",
-      "parallels": [],
+      "reasoning": "The parse identifies 'wǝʾǝntäzǝ' (Therefore/For this reason) as a discourse marker indicating a causal relationship, which is correct. The main verb 'wähäbkomu' (He gave to them) is followed by its object ('ʾanǝstä') and a purpose clause. The syntactic analysis is sound.",
+      "parallels": [
+        {
+          "ref": "John 3:16",
+          "note": "Similar use of causal/result markers, although with different vocabulary."
+        }
+      ],
       "context_invariance": "stable",
-      "back_translation": "Therefore have I given them wives also that they might impregnate them, and beget children by them, that thus nothing might be wanting to them on earth."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Matches 1 Enoch 15:5.",
+  "decision_log": "The causal link is the central point of this segment. S5_P1 captures this correctly.",
   "final_decision": {
     "hypothesis_ref": "S5_P1",
-    "translation_id": "T1",
+    "translation_id": "T5",
     "confidence": "high"
   }
 }

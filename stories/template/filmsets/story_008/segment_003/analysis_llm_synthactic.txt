@@ -2,20 +2,58 @@
   "syntax": {
     "parses": [
       {
-        "id": "S3-P1",
-        "structure_type": "List of Actions",
-        "bracket_notation": "[S [S [VP [V t5] [NP t6] [NP t7_start]]] [S [VP [V t7_end] [NP t8_start]]] [S [VP [V t8_end] [NP t9] [NP t10]]] [S [VP [V t11] [NP t12]]] [S [VP [V t12_end] [NP t13]]]]",
+        "id": "S3_P1",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [V-SUBJ t5] [OBJ t6]]",
         "dependencies": [
-          "t5->t6 (obj)",
-          "t6->t7 (continuation)",
-          "t7->t8 (conj)",
-          "t8->t9 (obj)",
-          "t9->t10 (continuation)",
-          "t10->t11 (conj)",
-          "t11->t12 (obj)",
-          "t12->t13 (conj)"
+          "t5->t6 (object)"
         ],
-        "notes": "A series of subject-verb-object structures listing what different watchers taught. The tokenization merges some boundaries (e.g., t7 contains object of previous and subject/verb of next)."
+        "notes": "Clause 1: 'Mizarael (t5) taught them sorcerers (t6)'."
+      },
+      {
+        "id": "S3_P2",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [V-SUBJ-in-t7] [OBJ-in-t8]]",
+        "dependencies": [
+          "t7->t8 (object)"
+        ],
+        "notes": "Clause 2: 'Armaros (in t7) revealed spells (in t8)'. Tokenization splits the clause across tokens."
+      },
+      {
+        "id": "S3_P3",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [SUBJ-in-t8] [OBJ t9]]",
+        "dependencies": [
+          "t8->t9 (object)"
+        ],
+        "notes": "Clause 3 (verb implied): 'Raqael (in t8) [taught] seers (t9)'."
+      },
+      {
+        "id": "S3_P4",
+        "structure_type": "Genitive Noun Phrase",
+        "bracket_notation": "[NP [N t9] [GEN-in-t10]]",
+        "dependencies": [
+          "t9->t10 (genitive_modifier)"
+        ],
+        "notes": "A noun phrase: 'seers (t9) of the stars (in t10)'."
+      },
+      {
+        "id": "S3_P5",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [V-SUBJ-in-t11] [OBJ-in-t12]]",
+        "dependencies": [
+          "t11->t12 (object)"
+        ],
+        "notes": "Clause 4: 'Tumiel (in t11) taught the vision (in t12)'."
+      },
+      {
+        "id": "S3_P6",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [SUBJ-in-t12] [PRED t13]]",
+        "dependencies": [
+          "t12->t13 (predicate)"
+        ],
+        "notes": "Clause 5: 'Sariel (in t12) taught the course of the moon (t13)'."
       }
     ]
   }

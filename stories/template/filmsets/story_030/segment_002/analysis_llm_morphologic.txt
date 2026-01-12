@@ -1,0 +1,440 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T06:35:20Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_030/segment_002",
+    "graphematic_string": "Chapter 30 Segment 2\n\nወመንገለ፡ነፊፍ፡ለቈላት፡\nእሎንቱ፨ወርኢኩ፡ቀናንሞስ፡\nዘመዐዛ፡ወዲ፡እልቱ፡ቀረብኩ፡\nመንገለ፡ጽባሕ፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "Chapter",
+            "root": "chapter",
+            "lemma": "chapter",
+            "pattern": "english_noun"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_applicable_english",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "30",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "30",
+            "root": "30",
+            "lemma": "30",
+            "pattern": "number"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_applicable_number",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "Segment",
+            "root": "segment",
+            "lemma": "segment",
+            "pattern": "english_noun"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_applicable_english",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "2",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "2",
+            "root": "2",
+            "lemma": "2",
+            "pattern": "number"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "not_applicable_number",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወመንገለ፡ነፊፍ፡ለቈላት፡",
+      "span": {
+        "start": 22,
+        "end": 37
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ወመንገለ",
+            "root": "נגל",
+            "lemma": "መንገለ",
+            "pattern": "preposition_with_conj"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ነፊፍ",
+            "root": "ነፍፍ",
+            "lemma": "ነፊፍ",
+            "pattern": "noun"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "functional",
+            "surface_part": "ለ",
+            "root": null,
+            "lemma": "ለ",
+            "pattern": "preposition"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_as_function_word",
+            "attestation": [
+              "Input function_words list"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ቈላት",
+            "root": "ቈል",
+            "lemma": "ቈላ",
+            "pattern": "noun_plural"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "እሎንቱ፨ወርኢኩ፡ቀናንሞስ፡",
+      "span": {
+        "start": 38,
+        "end": 54
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PRO.DEM",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "እሎንቱ",
+            "root": "እል",
+            "lemma": "እሉ",
+            "pattern": "demonstrative_plural"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ወርኢኩ",
+            "root": "ርኢ",
+            "lemma": "ርእየ",
+            "pattern": "verb_perfect_1cs_conj_prefix"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ቀናንሞስ",
+            "root": "קנמס",
+            "lemma": "ቀናንሞስ",
+            "pattern": "loanword_greek_kinnamomos"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ዘመዐዛ፡ወዲ፡እልቱ፡ቀረብኩ፡",
+      "span": {
+        "start": 55,
+        "end": 72
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ዘመዐዛ",
+            "root": "ዐז",
+            "lemma": "መዐዛ",
+            "pattern": "noun_with_rel_prefix"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ወዲ",
+            "root": "ודי",
+            "lemma": "ወደየ",
+            "pattern": "verb_infinitive_or_noun"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "PRO.DEM",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "እልቱ",
+            "root": "እል",
+            "lemma": "እሉ",
+            "pattern": "demonstrative_with_suffix"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ቀረብኩ",
+            "root": "קרב",
+            "lemma": "ቀረበ",
+            "pattern": "verb_perfect_1cs"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "መንገለ፡ጽባሕ፨",
+      "span": {
+        "start": 73,
+        "end": 82
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "መንገለ",
+            "root": "נגל",
+            "lemma": "መንገለ",
+            "pattern": "preposition"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "surface_part": "ጽባሕ",
+            "root": "צבח",
+            "lemma": "ጽባሕ",
+            "pattern": "noun"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_attestation",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

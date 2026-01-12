@@ -1,23 +1,23 @@
 {
   "evaluation": [
     {
-      "hypothesis_ref": "S3",
+      "hypothesis_ref": "S3-P1",
       "plausibility": "high",
-      "reasoning": "Corresponds to 1 Enoch 7:3. 'እሉ' (These) refers to the giants. 'ልዑ' is likely 'በልዑ' (consumed/ate). 'ፃማ፡ሰብእ' refers to the 'toil/labor of men' (produce). The subordinate clause starting with 'እስ' (likely 'እስከ') marks the limit of human capacity ('until men were unable to sustain them').",
+      "reasoning": "The analysis correctly identifies a main nominal clause ('These are the men of renown...') followed by a subordinate clause introduced by 'እስ'. In this context, 'እስ' functions as a causal conjunction ('for', 'because'), explaining why the following events occurred. This interpretation is contextually superior to a temporal one ('until').",
       "parallels": [
         {
-          "ref": "1 Enoch 7:3",
-          "note": "Text: እሉ፡በልዑ፡ኩሎ፡ፃማ፡ሰብእ፡እስከ፡ሰአኑ፡ሰብእ፡ሴስዮቶሙ።"
+          "ref": "Dillmann, Lexicon Linguae Aethiopicae, col. 855",
+          "note": "Attests the use of 'እስ' (often as 'እስከ') as a conjunction introducing causal or circumstantial clauses, supporting the parse's interpretation."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "These consumed the labor of men, until men were unable to sustain them."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Despite 'ልዑ' appearing as a truncated form of 'በልዑ' (ate), the argument structure (Subject: Giants -> Object: Labor) is historically sound.",
+  "decision_log": "Parse S3-P1 is confirmed. The crucial element is the correct semantic interpretation of the conjunction 'እስ' as causal, which the parse implicitly supports through the subordinate clause structure. This fits the narrative logic perfectly.",
   "final_decision": {
-    "hypothesis_ref": "S3",
-    "translation_id": "T1",
-    "confidence": "moderate"
+    "hypothesis_ref": "S3-P1",
+    "translation_id": "T3",
+    "confidence": "high"
   }
 }

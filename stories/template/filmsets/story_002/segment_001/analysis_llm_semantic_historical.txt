@@ -3,11 +3,11 @@
     {
       "hypothesis_ref": "S1_P1",
       "plausibility": "high",
-      "reasoning": "The syntactic structure treating 't6' (how they do not change) as a complement clause to the imperative 'Observe/Inquire' aligns perfectly with the standard Ethiopic text of 1 Enoch 2:1. The coordination of 'do not change' and 'do not transgress' accurately reflects the description of celestial immutability.",
+      "reasoning": "This parse correctly identifies 'ጠየቁ' (examine, consider) as the main imperative verb governing a series of indirect questions/observations introduced by 'እፎ' (how). The structure aligns with the rhetorical style of wisdom literature, where nature's order is presented as a model. The parallelism between the unchanging paths of the lights ('ኢይመይጡ ፍናዊሆሙ') and their ordained schedule ('ሥሩዕ ሎሙ ዘመኑ') is captured effectively. The verb 'ጠየቀ' carries a semantic force of 'investigate' or 'consider diligently,' which is contextually appropriate.",
       "parallels": [
         {
           "ref": "1 Enoch 2:1",
-          "note": "Standard Ethiopic: 'ጠየቁ፡ኵሎ፡ዘውስተ፡ሰማይ፡ግብረ፡እፎ፡ኢይመይጡ፡ፍናዊሆሙ...'"
+          "note": "Thematically and structurally parallel. 1 Enoch 2:1 uses 'ተመልከቱ' (observe) instead of 'ጠየቁ', but introduces a similar clause: 'ተመልከቱ ኵሎ ግብረ ሰማይ ከመ ኢይልውጡ ፍናዊሆሙ' (Observe all the works of heaven, how they do not alter their paths). This confirms the pattern of an imperative of perception followed by a clause describing celestial regularity."
         }
       ],
       "context_invariance": "stable",
@@ -16,16 +16,21 @@
     {
       "hypothesis_ref": "S1_P2",
       "plausibility": "low",
-      "reasoning": "Forcing a Noun Phrase focus ('work' as object apposition) obscures the clear 'how' (እፎ) clause structure intended to describe the *manner* of the luminaries' motion, not just the static object.",
-      "parallels": [],
+      "reasoning": "This parse is grammatically strained. It forces 'ግብረ' (work) into the role of a direct object for 'ጠየቁ' and treats the following clauses as complex appositions. This breaks the natural flow and the clear parallelism of the observations. Interpreting 'እፎ' as a modifier within a noun phrase is less common and creates an awkward reading compared to its standard use introducing a clause.",
+      "parallels": [
+        {
+          "ref": "missing",
+          "note": "This complex nominal structure with embedded interrogatives is not a typical pattern for this genre."
+        }
+      ],
       "context_invariance": "unstable",
       "back_translation": "fail"
     }
   ],
-  "decision_log": "Comparison favors S1_P1 due to strong alignment with the attested 'how' (እፎ) clauses in 1 Enoch 2:1 describing celestial mechanics.",
+  "decision_log": "S1_P1 is strongly preferred. It presents a clear, rhetorically sound structure that is well-attested in parallel literature (1 Enoch). S1_P2 introduces unnecessary grammatical complexity and results in a less coherent reading. The historical context of Enochic literature favors the observational, wisdom-oriented structure of S1_P1.",
   "final_decision": {
     "hypothesis_ref": "S1_P1",
-    "translation_id": "T1",
+    "translation_id": "T1_20260111_D",
     "confidence": "high"
   }
 }

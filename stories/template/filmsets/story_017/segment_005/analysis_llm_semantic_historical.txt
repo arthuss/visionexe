@@ -2,22 +2,22 @@
   "evaluation": [
     {
       "hypothesis_ref": "P1",
-      "plausibility": "High",
-      "reasoning": "Shift to 'I came'. The 'river of fire' (Pyriphlegethon archetype) flows like water into the 'great sea' (Oceanus). The Serial/Complex structure correctly handles the description of the river's action ('flows' and 'pours').",
+      "plausibility": "high",
+      "reasoning": "The parse accurately identifies `ወመጻእኩ` (and I came) as the main verb, followed by a prepositional phrase `እስ፡ፈለገ፡እሳት` (to a river of fire). The subsequent long phrase starting with `ዘይውኅዝ` is correctly analyzed as a single, complex relative clause describing the river. Within this clause, the verbs `ይውኅዝ` (flows) and `ወይትዐው` (and pours) are correctly understood as coordinated actions of the river's fire.",
       "parallels": [
         {
-          "ref": "1 Enoch 17:5",
-          "note": "Classical parallel to the river of fire flowing into the ocean."
+          "ref": "Daniel 7:10",
+          "note": "The image of a 'river of fire' (`ፈለገ፡እሳት`) is a direct parallel. The syntactic structure of a main verb of motion followed by a locative phrase which is then elaborated by a detailed relative clause is standard narrative practice."
         }
       ],
-      "context_invariance": "Stable",
-      "back_translation": "And I came to a river of fire whose fire flows like water and pours into the great sea towards the west."
+      "context_invariance": "stable",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Geographic/Cosmological consistency checked.",
+  "decision_log": "P1 correctly models the sentence as a main clause followed by an extended adjectival (relative) clause, which itself contains coordinated verbs. The analysis is accurate.",
   "final_decision": {
     "hypothesis_ref": "P1",
-    "translation_id": "T1",
-    "confidence": "High"
+    "translation_id": "TBD",
+    "confidence": "high"
   }
 }

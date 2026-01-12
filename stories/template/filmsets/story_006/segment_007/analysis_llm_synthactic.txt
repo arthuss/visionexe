@@ -3,24 +3,50 @@
     "parses": [
       {
         "id": "S1",
-        "structure_type": "Discourse Unit",
-        "bracket_notation": "[Meta [N t1] [NUM t2] [N t3] [NUM t4]] [Frag t5 t6 t7 t8 t9] [S [VP t10 [NP t11]] [List t12 t13 t14 t15 t16 t17 t18 t19]]",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP [N t1] [NUM t2]]",
         "dependencies": [
-          "t3->t1 (meta_relation)",
-          "t1->t2 (nummod)",
-          "t3->t4 (nummod)",
-          "t10->t5 (loose_association)",
-          "t10->t11 (genitive_mod)",
-          "t10->t12 (apposition_start)",
-          "t12->t13 (list_item)",
-          "t12->t14 (list_item)",
-          "t12->t15 (list_item)",
-          "t12->t16 (list_item)",
-          "t12->t17 (list_item)",
-          "t12->t18 (list_item)",
-          "t12->t19 (list_item)"
+          "t1->t2 (numeric_modifier)"
         ],
-        "notes": "List of names (t12-t19) following an introduction (t10-t11). t5-t9 are punctuation fragments."
+        "notes": "Chapter 6"
+      },
+      {
+        "id": "S2",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP [N t3] [NUM t4]]",
+        "dependencies": [
+          "t3->t4 (numeric_modifier)"
+        ],
+        "notes": "Segment 7"
+      },
+      {
+        "id": "S3",
+        "structure_type": "Fragment",
+        "bracket_notation": "[FRAG [PN t5] [PUNC t6] [PUNC t7] [PUNC t8] [PUNC t9]]",
+        "dependencies": [
+          "t5->t6 (punct)",
+          "t5->t7 (punct)",
+          "t5->t8 (punct)",
+          "t5->t9 (punct)"
+        ],
+        "notes": "A proper noun followed by punctuation."
+      },
+      {
+        "id": "S4",
+        "structure_type": "Coordinated Nominal Phrases",
+        "bracket_notation": "[NP-COORD [NP t10] [NP t11] [NP t12] [NP t13] [NP t14] [NP t15] [NP t16] [NP t17] [NP t18] [NP t19]]",
+        "dependencies": [
+          "t10->t11 (coord)",
+          "t11->t12 (coord)",
+          "t12->t13 (coord)",
+          "t13->t14 (coord)",
+          "t14->t15 (coord)",
+          "t15->t16 (coord)",
+          "t16->t17 (coord)",
+          "t17->t18 (coord)",
+          "t18->t19 (coord)"
+        ],
+        "notes": "A list of proper names."
       }
     ]
   }

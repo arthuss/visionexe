@@ -2,15 +2,15 @@
   "syntax": {
     "parses": [
       {
-        "id": "S7_P1",
-        "structure_type": "Verbal Clause with Causal Subordinate",
-        "bracket_notation": "[S [ADV t5] [N t6] [S_sub [N t6] [PREP t7]]]",
+        "id": "P1",
+        "structure_type": "Main Clause with Subordinate Reason Clause",
+        "bracket_notation": "[S [ADV t5] [VP t5 [IO (part of t5)] [NP-OBJ t6]]] [S-REASON [CONJ (part of t6)] [S-VLESS [NP-SUBJ (part of t6)] [PP-LOC t7] [PRED-NOM t7]]]",
         "dependencies": [
-          "t5 -> t6 (object)",
-          "t5 -> t7 (causal_adjunct)",
-          "t7 -> t6 (subject_of_locative)"
+          "t5->t6 (direct_object)",
+          "t5->t6 (reason_clause)",
+          "(part of t6)->t7 (predicate)"
         ],
-        "notes": "t5 'I did not appoint' is main. t6 'wives'. t7 explains why ('because... in heaven')."
+        "notes": "A main clause giving a negative action, which is explained by a subordinate verbless clause of reason."
       }
     ]
   }

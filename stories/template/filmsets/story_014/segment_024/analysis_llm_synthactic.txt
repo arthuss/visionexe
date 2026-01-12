@@ -2,15 +2,14 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Narrative Sequence",
-        "bracket_notation": "[S [VP t5] [VP t5] [PP t6] [S [VP t6] [NP t6] [PP t6] [NP t7]]]",
+        "id": "seg024_flat",
+        "structure_type": "Flat Phrase/Clause Chain",
+        "bracket_notation": "[S [CONJ_U t5] [CONJ_U t6] [U t7]]",
         "dependencies": [
-          "t5->t6 (location)",
-          "t5->t6 (coordination)",
-          "t6->t7 (object)"
+          "t5 -> t6 (coordination)",
+          "t6 -> t7 (sequence)"
         ],
-        "notes": "Being lifted up to the entrance."
+        "notes": "Parse based on sequential relationship with dependencies from initial markers."
       }
     ]
   }

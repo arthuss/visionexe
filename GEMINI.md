@@ -1,20 +1,11 @@
 # GEMINI
 
-## Update Rules
-- Primary instructions live in AGENTS.md; keep this file as a change log.
-- Lies die AGENTS.md; wir sparen uns hier doppeltes Dokumentieren.
-- Append a short note for every change that affects behavior, usage, or files.
-- Keep entries brief: date/time, what changed, and why.
+in every run look at  these markdowns readonly!
+- `AGENTS.md`
+- `STATE.md` (hard state, append-only).
+- `ARCHITECTURE.md` (system design notes, append-only).
+- `CONSTRAINTS.md` (non-negotiables, append-only).
+after finishing your work write a precise log inside here under #log append only!
 
-## Change Log
-- 2026-01-10 03:51 - Asset Bible subject queue now emits per-phase prompts by filtering the Evolution section and suffixing output basenames; docs updated (engine/workers/asset_bible_queue_builder.py, README.md, docs/queues.md, docs/workers.md).
-- 2026-01-10 05:22 - Subjects viewer now links and previews asset_bible images per subject; README updated (stories/template/subjects/index.html, README.md).
-- 2026-01-10 05:27 - Recreated AGENTS.md and GEMINI.md after cleanup; restored operating rules (AGENTS.md, GEMINI.md).
-- 2026-01-10 05:30 - Made subject image previews resolve against the current URL to avoid path issues (stories/template/subjects/index.html).
-- 2026-01-10 05:38 - Reviewed drehbuch include file links; only adobe_drehbuch.md exists in template briefings, others are missing (engine/workers/drehbuch.py, stories/template/briefings/adobe_drehbuch.md).
-- 2026-01-11 02:04 - Added Ge'ez morphology schema/tagset/function word list + filter, refreshed analysis worker prompts, and documented the A-D pipeline (engine/config/gez_morphology.schema.json, engine/config/gez_pos_tagset.json, engine/config/gez_function_words.json, engine/workers/geez_morphology_filter.py, engine/workers/worker_llm_analysis_graphematic.py, engine/workers/worker_llm_analysis_Morphologic.py, engine/workers/worker_llm_analysis_synthactic.py, engine/workers/worker_llm_analysis_semantic-historical.py, docs/geez_analysis_methodology.md, docs/workers.md, README.md).
-- 2026-01-11 02:49 - Added deterministic token + tagset inputs to the morphology worker, wired synthactic/semantic workers to consume prior JSON outputs, aligned context-window tests, and updated Ge'ez function-word lists (engine/workers/worker_llm_analysis_Morphologic.py, engine/workers/worker_llm_analysis_synthactic.py, engine/workers/worker_llm_analysis_semantic-historical.py, engine/run_pipeline.py, engine/analysis/tagsets/gez_pos_1.json, engine/config/gez_pos_tagset.json, engine/config/gez_function_words.json, README_pipeline.md, docs/workers.md).
-- 2026-01-11 03:25 - Enforced upstream dependency waits in analysis workers (B waits for A, C for B, D for C) and documented the workflow note (engine/workers/worker_llm_analysis_Morphologic.py, engine/workers/worker_llm_analysis_synthactic.py, engine/workers/worker_llm_analysis_semantic-historical.py, docs/workers.md, README.md).
-- 2026-01-11 03:49 - Added chapter-batch mode to run one LLM request per chapter and fan out per-segment outputs (engine/workers/worker_llm_analysis_graphematic.py, engine/workers/worker_llm_analysis_Morphologic.py, engine/workers/worker_llm_analysis_synthactic.py, engine/workers/worker_llm_analysis_semantic-historical.py, docs/workers.md, README.md).
-- 2026-01-11 04:01 - Fixed filter override recursion in the morphology worker after chapter-batch changes (engine/workers/worker_llm_analysis_Morphologic.py).
-- 2026-01-11 04:19 - Noted the Linguistic quad-worker starter script in the README (README.md).
+
+# log

@@ -2,20 +2,23 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1-P1",
-        "structure_type": "Coordination Structure",
-        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [S [VP [V t5] [NP [N t6] [NUM t7]] [PP t8]]] [CONJ AND] [S [VP [V t9] [NP [N t10] [N t11]]]]]",
+        "id": "S1_P1",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [VP [V t9] [NP t10] [NP t11]]]",
         "dependencies": [
-          "t1->t2 (mod)",
-          "t3->t4 (mod)",
-          "t5->t6 (obj)",
-          "t6->t7 (mod)",
-          "t5->t8 (obl)",
-          "t5->t9 (coord)",
           "t9->t10 (obj)",
-          "t9->t11 (conj)"
+          "t9->t11 (obj)"
         ],
-        "notes": "Coarse tokenization implies clausal coordination between t5 and t9."
+        "notes": "A verb phrase where the verb in token t9 ('taught them') takes the noun phrases in t10 and t11 as direct objects."
+      },
+      {
+        "id": "S1_P2",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [VP [V t7] [PP t8]]]",
+        "dependencies": [
+          "t7->t8 (obl)"
+        ],
+        "notes": "A verb phrase where the verb in t7 ('...began to go in') is modified by a prepositional phrase in t8 ('to them...')."
       }
     ]
   }

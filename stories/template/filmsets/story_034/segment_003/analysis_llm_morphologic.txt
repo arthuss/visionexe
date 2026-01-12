@@ -1,0 +1,477 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T06:43:28Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_034/segment_003",
+    "graphematic_string": "Chapter 34 Segment 3\n\nወእምሐቲ፡ኅት፡ሠናይ፡\nይነፍሑ፡ወሶ፡ልኤሆን፡\nኀዋኅው፡ይነፍሑ፡ኀይል፡\nወፃዕር፨ይውን፡ዲ፡ምድር፡\nወኀይል፡ይነፍሑ፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Chapter",
+            "pattern": "english_word"
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_but_unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "34",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "34",
+            "pattern": "arabic_numeral"
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_but_unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "Segment",
+            "pattern": "english_word"
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_but_unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "3",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "3",
+            "pattern": "arabic_numeral"
+          },
+          "confidence": {
+            "type": "weak",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_but_unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወእምሐቲ፡ኅት፡ሠናይ፡",
+      "span": {
+        "start": 22,
+        "end": 35
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "አሐደ",
+            "lemma": "አሐቲ",
+            "pattern": "numeral 'one' (feminine), with proclitics ወ- (and) and እም- (from)"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ኆኀ",
+            "lemma": "ኆኀት",
+            "pattern": "noun, feminine, singular (likely scribal error for ኆኀት)"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_but_unattested",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሠነየ",
+            "lemma": "ሠናይ",
+            "pattern": "adjective, masculine, singular"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ይነፍሑ፡ወሶ፡ልኤሆን፡",
+      "span": {
+        "start": 36,
+        "end": 49
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ንፍሕ",
+            "lemma": "ነፍሐ",
+            "pattern": "G-stem, imperfect, 3rd person plural"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "CONJ.SUB",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ሶ",
+            "pattern": "subordinating conjunction 'when', with proclitic ወ- (and)"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "functional",
+            "root": "ልዕል",
+            "lemma": "ላዕለ",
+            "pattern": "preposition 'upon' (form of ላዕለ), with 3rd person plural suffix -ሆሙ"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_but_unattested",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ኀዋኅው፡ይነፍሑ፡ኀይል፡",
+      "span": {
+        "start": 50,
+        "end": 64
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ኆኀ",
+            "lemma": "ኆኀ",
+            "pattern": "noun, plural"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ንፍሕ",
+            "lemma": "ነፍሐ",
+            "pattern": "G-stem, imperfect, 3rd person plural"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ኀይል",
+            "lemma": "ኀይል",
+            "pattern": "noun, masculine, singular, accusative"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ወፃዕር፨ይውን፡ዲ፡ምድር፡",
+      "span": {
+        "start": 65,
+        "end": 80
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ጻዕር",
+            "lemma": "ጻዕር",
+            "pattern": "noun, masculine, singular, with proclitic ወ- (and)"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ኮነ",
+            "lemma": "ይከውን",
+            "pattern": "imperfect, 3rd person singular, contracted form"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "PART.FOC",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ዲ",
+            "pattern": "particle, unknown function (possible error for 'ዳእሙ')"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_but_unattested",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ምድር",
+            "lemma": "ምድር",
+            "pattern": "noun, feminine, singular"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ወኀይል፡ይነፍሑ፨",
+      "span": {
+        "start": 81,
+        "end": 91
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ኀይል",
+            "lemma": "ኀይል",
+            "pattern": "noun, masculine, singular, with proclitic ወ- (and)"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ንፍሕ",
+            "lemma": "ነፍሐ",
+            "pattern": "G-stem, imperfect, 3rd person plural"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

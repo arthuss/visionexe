@@ -3,21 +3,25 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The 'ten thousand times ten thousand' (myriads) is another direct Danielic parallel. The spatial arrangement (fire around, multitude before) is parsed correctly.",
+      "reasoning": "The parse correctly identifies a descriptive sequence about the divine court. It describes the fire surrounding God, the inability of anyone to draw near, and the immense number of those standing before him ('ten thousand times ten thousand'). This is a stock description of the heavenly throne room.",
       "parallels": [
         {
           "ref": "Daniel 7:10",
-          "note": "ten thousand times ten thousand stood before him"
+          "note": "'thousand thousands ministered unto him, and ten thousand times ten thousand stood before him...'"
+        },
+        {
+          "ref": "Revelation 5:11",
+          "note": "'and the number of them was ten thousand times ten thousand, and thousands of thousands;'"
         }
       ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Courtroom scene populated by angelic host.",
+  "decision_log": "S1 correctly parses the description of the divine court, including the imagery of fire and the hyperbolic numbers of attendants, which is directly paralleled in Daniel and Revelation.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T1",
+    "translation_id": "T1_021",
     "confidence": "high"
   }
 }

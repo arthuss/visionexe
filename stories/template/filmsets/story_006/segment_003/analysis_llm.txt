@@ -2,81 +2,34 @@
 {
   "actors": [
     {
-      "name": "ወይቤሎሙ",
+      "name": "Shemyaza",
       "visualTraits": null,
-      "changes": null,
-      "role": "character"
-    },
+      "changes": [],
+      "role": "leader"
+    }
+  ],
+  "characters": [
     {
-      "name": "ስምያዛ",
+      "name": "His Companions",
       "visualTraits": null,
-      "changes": null,
-      "role": "character"
-    },
-    {
-      "name": "ዮጊ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "character"
+      "changes": [],
+      "role": "followers"
     }
   ],
   "props": [],
-  "environments": [
-    {
-      "name": "ባሕቲትየ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "setting"
-    },
-    {
-      "name": "ፈዳዪሃ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "setting"
-    },
-    {
-      "name": "ዐባይ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "setting"
-    }
-  ],
+  "places": [],
+  "locations": [],
+  "environments": [],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Line 1",
+      "title": "Shemyaza's Fear",
       "location": "unknown",
-      "action": "unknown",
-      "actorsInvolved": ["ወይቤሎሙ", "ስምያዛ"]
-    },
-    {
-      "title": "Line 2",
-      "location": "unknown",
-      "action": "unknown",
-      "actorsInvolved": ["ዮጊ"]
-    },
-    {
-      "title": "Line 3",
-      "location": "unknown",
-      "action": "unknown",
-      "actorsInvolved": []
-    },
-    {
-      "title": "Line 4",
-      "location": "unknown",
-      "action": "unknown",
-      "actorsInvolved": []
-    },
-    {
-      "title": "Line 5",
-      "location": "unknown",
-      "action": "unknown",
-      "actorsInvolved": []
-    },
-    {
-      "title": "Line 6",
-      "location": "unknown",
-      "action": "unknown",
-      "actorsInvolved": []
+      "action": "Shemyaza, their leader, says to his companions that he fears they will not agree to undertake a specific deed, leaving him solely responsible for the great sin.",
+      "actorsInvolved": [
+        "Shemyaza",
+        "His Companions"
+      ]
     }
   ],
   "blocking": {

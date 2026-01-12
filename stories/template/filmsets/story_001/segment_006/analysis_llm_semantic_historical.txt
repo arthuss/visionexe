@@ -1,23 +1,49 @@
 {
   "evaluation": [
     {
-      "hypothesis_ref": "P2",
+      "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "Matches 1 Enoch 1:6. The text exhibits clear semantic parallelism: 'Mountains high shall be shaken' // 'Hills shall be made low'. This is characteristic of Ethiopic poetic/prophetic style. P2 captures this structure better than a flat linear narrative.",
+      "reasoning": "Correctly parses the passive verb 'ይደነግፁ' ('shall be shaken') with its subject 'ድባር ነዋኃን' ('high mountains').",
       "parallels": [
         {
-          "ref": "1 Enoch 1:6",
-          "note": "Cosmic disturbances affecting mountains and hills."
+          "ref": "Psalm 18:7",
+          "note": "Classic theophanic imagery of mountains shaking."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And the high mountains shall be shaken, and the hills shall be made low..."
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "high",
+      "reasoning": "The verb 'ይትመሠዉ' (here as 'ይቴሐቱ', 'shall be lowered/humbled') is correctly parsed with its subject 'ውግር ነዋኃት' ('high hills'). The coordination is correct.",
+      "parallels": [
+        {
+          "ref": "Isaiah 40:4",
+          "note": "The theme of every mountain and hill being made low."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S3",
+      "plausibility": "high",
+      "reasoning": "Correctly identifies a simile. 'ይትመሰዉ' ('they shall melt') is followed by the comparative adverbial phrase 'ከመ መዓረ' ('like wax') and the causal prepositional phrase 'እም ቅድመ እሳት / እምላህብ' ('from the flame'). The syntax is standard.",
+      "parallels": [
+        {
+          "ref": "Psalm 68:2",
+          "note": "Direct parallel: 'As wax melts before the fire'."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Poetic parallelism is the dominant feature.",
+  "decision_log": "This segment employs classic biblical imagery for a theophany, all of which is parsed correctly in the three sequential statements. The analysis is robust.",
   "final_decision": {
-    "hypothesis_ref": "P2",
-    "translation_id": "T-Seg06-Poetic",
+    "hypothesis_ref": "S1+S2+S3",
+    "translation_id": "T6",
     "confidence": "high"
   }
 }

@@ -2,16 +2,16 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Narrative Sequence",
-        "bracket_notation": "[S [NP t5] [PP t6] [VP t7] [S [VP t8] [NP t8] [VP t9]]]",
+        "id": "seg023_flat",
+        "structure_type": "Flat Phrase/Clause Chain",
+        "bracket_notation": "[S [CONJ_U t5] [U t6] [CONJ_U t7] [CONJ_U t8] [CONJ_U t9]]",
         "dependencies": [
-          "t5->t6 (location)",
-          "t5->t7 (circumstantial)",
-          "t7->t8 (main clause)",
-          "t8->t9 (vocative/content)"
+          "t5 -> t6 (sequence)",
+          "t6 -> t7 (coordination)",
+          "t7 -> t8 (coordination)",
+          "t8 -> t9 (coordination)"
         ],
-        "notes": "Enoch's state and the divine call."
+        "notes": "Parse based on sequential relationship with dependencies from initial markers."
       }
     ]
   }

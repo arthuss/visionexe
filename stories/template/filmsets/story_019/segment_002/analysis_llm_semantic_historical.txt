@@ -2,22 +2,23 @@
   "evaluation": [
     {
       "hypothesis_ref": "S1",
-      "plausibility": "high",
-      "reasoning": "Simple predication fits the source text well. The identification of 'salamawyat' (peaceful ones/Sirens) is the central semantic challenge, which the 'predicate_nominative' structure supports.",
+      "plausibility": "moderate",
+      "reasoning": "The parse is syntactically simple and plausible. However, the semantic interpretation hinges on a non-standard meaning of 'salāmāwiyāta' (ሰላማውያተ) as 'sirens' rather than 'peaceful ones'. This specific meaning is attested but highly context-dependent.",
       "parallels": [
         {
-          "ref": "Greek Gizeh Fragment",
-          "note": "hōs seirēnes (like sirens)."
+          "ref": "1 Enoch 19:2",
+          "note": "R.H. Charles's translation of 1 Enoch 19:2 renders the outcome for the fallen women as 'shall become sirens,' justifying the specialized lexical choice. This is the key to the passage's meaning."
         }
       ],
-      "context_invariance": "stable",
+      "context_invariance": "low",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "The term 'salamawyat' is a known Ethiopic rendering for the Greek 'seirenes' in this context (1 Enoch 19:2), likely chosen for phonetic approximation or ironic usage. The parse correctly links the subject 'their wives' (w-anəstiyahomu) to this complement via the verb 'to become'.",
+  "decision_log": "The simple sentence structure of S1 is plausible. The main challenge is lexical, not syntactic. The key lemma 'salāmāwiyāta' is translated as 'sirens' based on scholarly consensus regarding this specific verse (1 Enoch 19:2), which is the only way to make sense of the passage in its context. Without this external evidence, the parse would be semantically confusing.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",
+    "translation": "And their women, who led the angels astray, will become sirens.",
     "confidence": "high"
   }
 }

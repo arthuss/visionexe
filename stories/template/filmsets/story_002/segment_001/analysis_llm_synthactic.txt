@@ -2,32 +2,32 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1_P1",
-        "structure_type": "Complex Sentence",
-        "bracket_notation": "[ROOT [V t5] [COMP [V t6] [SUBJ [N t7] [REL [V t8] [COORD [V t9]]]] [COORD [V t10] [ADJUNCT [PREP t11]]]]]",
+        "id": "P1-1",
+        "structure_type": "Interrogative Clause",
+        "bracket_notation": "[S [VP [V t5] [S.OBJ t6]]]",
         "dependencies": [
-          "t5->t6 (complement)",
-          "t6->t7 (subject)",
-          "t7->t8 (modifier)",
-          "t8->t9 (coordination)",
-          "t6->t10 (coordination)",
-          "t10->t11 (adjunct)"
+          "t5->t6 (object_clause)"
         ],
-        "notes": "Assumes t5 (V) as imperative root. t6 interpreted as 'how they do not change' (Clause). t10 'transgress' coordinated with t6."
+        "notes": "Clause headed by 'ጠየቁ' (t5) taking the clause in t6 as its object."
       },
       {
-        "id": "S1_P2",
-        "structure_type": "Noun Phrase Focused",
-        "bracket_notation": "[ROOT [V t5] [OBJ [N t6] [APPOS [N t7] [REL [V t8] [COORD [V t9]]]] [COORD [N t10] [MOD [PREP t11]]]]]",
+        "id": "P1-2",
+        "structure_type": "Declarative Clause",
+        "bracket_notation": "[S [NP.SUBJ t7] [VP [V t8] [CONJ t9]]]",
         "dependencies": [
-          "t5->t6 (object)",
-          "t6->t7 (apposition)",
-          "t7->t8 (modifier)",
-          "t8->t9 (coordination)",
-          "t6->t10 (coordination)",
-          "t10->t11 (modifier)"
+          "t8->t7 (subject)",
+          "t8->t9 (conj_verb)"
         ],
-        "notes": "Alternate reading where t6 is N 'work', t10 is N 'time'."
+        "notes": "Coordinated verb phrase with 'ፍናዊሆሙ፡ብርሃናት' (t7) as the subject of 'ይሠርቅ' (t8) and 'ወየዐርብ' (t9)."
+      },
+      {
+        "id": "P1-3",
+        "structure_type": "Declarative Clause",
+        "bracket_notation": "[S [NP.SUBJ t10] [VP [V.NEG t10] [PP t11]]]",
+        "dependencies": [
+          "t10->t11 (oblique_argument)"
+        ],
+        "notes": "A clause with 'ዘመኑ' (part of t10) as subject of 'ኢይትዐደዉ' (part of t10), modified by the prepositional phrase 'እምሥርዓቶሙ' (t11)."
       }
     ]
   }

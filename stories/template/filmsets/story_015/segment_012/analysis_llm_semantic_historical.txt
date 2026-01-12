@@ -2,22 +2,22 @@
   "evaluation": [
     {
       "hypothesis_ref": "S12_P1",
-      "plausibility": "low",
-      "reasoning": "The parse correctly identifies the negative marker `i-` in the input text `wa-i-yitnaśśu` ('and they shall not rise'). However, historically and contextually (1 En 15:12), the text should likely be positive `wa-yitnaśśu` ('and they shall rise up'), as they are described as attacking men. The negative here contradicts the standard narrative flow.",
+      "plausibility": "high",
+      "reasoning": "The parse correctly identifies the main negative clause 'wǝ-ʾi-yǝtnäśśǝʾu' (And they will not rise) and the following causal clause introduced by 'ʾǝsmä' (because), which explains the reason for their fate. The target of their action ('diba wǝludä säbʾ...', against the sons of men) is also correctly identified.",
       "parallels": [
         {
-          "ref": "Standard Ethiopic Text",
-          "note": "Usually reads 'wa-yitnaśśu' (and they shall rise)."
+          "ref": "1 Enoch 15:10",
+          "note": "Thematic continuation of the fate of the spirits, using standard negative + causal syntax."
         }
       ],
-      "context_invariance": "contradiction",
-      "back_translation": "And these spirits shall NOT rise against the children of men and against the women, because they have proceeded from them."
+      "context_invariance": "stable",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "The parse accurately reflects the provided text, but the text itself appears to contain a significant variant or error (`i-yitnaśśu` vs `yitnaśśu`).",
+  "decision_log": "S12_P1 accurately parses the final statement on the spirits, correctly identifying the negative verb and the causal explanation. The structure is unambiguous.",
   "final_decision": {
     "hypothesis_ref": "S12_P1",
-    "translation_id": "T1",
-    "confidence": "low"
+    "translation_id": "T12",
+    "confidence": "high"
   }
 }

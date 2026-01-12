@@ -2,22 +2,22 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Discourse Structure (Approximated due to segmentation)",
-        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [Main [V t5]] [Sub [NP t6] [VP t7] [NP t8] [VP t9] [VP t10] [PP t11] [PP t12] [Sbar t13] [VP t14]]]]",
+        "id": "P1",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP (N t1) (NUM t2)]",
         "dependencies": [
-          "t5->t6 (complement_clause_start)",
-          "t6->t7 (continuation)",
-          "t5->t7 (content_verb)",
-          "t7->t8 (subject_elaboration)",
-          "t7->t9 (coordinate_clause)",
-          "t9->t10 (consecutive)",
-          "t10->t11 (oblique)",
-          "t7->t12 (temporal_clause)",
-          "t12->t13 (relative_clause)",
-          "t13->t14 (limit_clause)"
+          "t1 -> t2 (nummod)"
         ],
-        "notes": "Input tokenization aggregates multiple words per token. Analysis reflects macro-dependencies between textual chunks."
+        "notes": "Chapter number identification."
+      },
+      {
+        "id": "P2",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP (N t3) (NUM t4)]",
+        "dependencies": [
+          "t3 -> t4 (nummod)"
+        ],
+        "notes": "Segment number identification."
       }
     ]
   }

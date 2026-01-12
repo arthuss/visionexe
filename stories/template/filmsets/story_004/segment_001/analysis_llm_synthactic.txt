@@ -2,25 +2,22 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Fragmented Linear Sequence",
-        "bracket_notation": "[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [S [CHUNK t5] [CHUNK t6] [CHUNK t7] [CHUNK t8] [CHUNK t9] [CHUNK t10] [CHUNK t11] [CHUNK t12] [CHUNK t13]]]",
+        "id": "parse_1",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP [N t1] [NUM t2]]",
         "dependencies": [
-          "t1->t2 (nummod)",
-          "t3->t4 (nummod)",
-          "ROOT->t1 (root)",
-          "t1->t3 (parataxis)",
-          "t3->t5 (parataxis)",
-          "t5->t6 (dep)",
-          "t6->t7 (dep)",
-          "t7->t8 (dep)",
-          "t8->t9 (dep)",
-          "t9->t10 (dep)",
-          "t10->t11 (dep)",
-          "t11->t12 (dep)",
-          "t12->t13 (dep)"
+          "t1->t2 (numeric_specifier)"
         ],
-        "notes": "Input tokens t5-t13 are unanalyzed text chunks with 'MISSING' options. Syntactic structure is approximated as a linear sequence of fragments."
+        "notes": "Chapter label."
+      },
+      {
+        "id": "parse_2",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP [N t3] [NUM t4]]",
+        "dependencies": [
+          "t3->t4 (numeric_specifier)"
+        ],
+        "notes": "Segment label. Tokens t5-t13 lack morphological analysis and were excluded from syntactic parsing."
       }
     ]
   }

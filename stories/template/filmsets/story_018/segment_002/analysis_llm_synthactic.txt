@@ -2,17 +2,22 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Compound Sentence",
-        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [S1 [VP t5 [NP t6 (part1)]]] [S2 [VP [t6 (part2)] [NP t7 [SBAR [Rel t7] [VP t7] [PP t7 [NP t8]]]]]]]]",
+        "id": "P2_S1",
+        "structure_type": "Verbal Clause",
+        "bracket_notation": "[S [VP t5] [NP t6]]",
         "dependencies": [
-          "t1->t2 (numeral_mod)",
-          "t3->t4 (numeral_mod)",
-          "t5->t6 (genitive_chain)",
-          "t6->t7 (obj_complement)",
-          "t7->t8 (coord_obj)"
+          "t5 -> t6 (obj_gen_mod)"
         ],
-        "notes": "t6 contains end of S1 and start of S2."
+        "notes": "The verb phrase in t5 ('And I saw the cornerstone of') takes the noun in t6 ('the earth') as its genitive modifier."
+      },
+      {
+        "id": "P2_S2",
+        "structure_type": "Relative Clause",
+        "bracket_notation": "[NP [NP t7] [S_REL [VP] [CONJ [NP t8]]]]",
+        "dependencies": [
+          "t7 -> t8 (conj)"
+        ],
+        "notes": "The noun phrase in t7 ('the winds that carry the earth') is conjoined with the noun phrase in t8 ('and the firmament of heaven')."
       }
     ]
   }

@@ -2,19 +2,23 @@
   "evaluation": [
     {
       "hypothesis_ref": "S1",
-      "plausibility": "moderate",
-      "reasoning": "Corresponds to 1 Enoch 18:10. 'መነ' in input is likely 'መካነ' (place). 'Beyond the great earth where waters gather'.",
+      "plausibility": "high",
+      "reasoning": "The parse correctly identifies a locative clause describing a place where 'the waters are gathered together'. This likely refers to the cosmic ocean or abyss.",
       "parallels": [
         {
-          "ref": "1 Enoch 18:10",
-          "note": "Matches: 'I saw a place there beyond the great earth...'"
+          "ref": "Genesis 1:9",
+          "note": "'Let the waters under the heavens be gathered together into one place...'"
+        },
+        {
+          "ref": "Psalm 33:7",
+          "note": "He gathers the waters of the sea as a heap; he puts the deeps in storehouses."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And I saw there a place beyond the great earth; there the waters gather."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Corrected 'መነ' to 'መካነ' based on context. Accepted.",
+  "decision_log": "S1 correctly parses the main clause and the locative subordinate clause. The imagery alludes to the primordial gathering of waters from the creation account, a foundational cosmological concept.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",

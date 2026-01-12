@@ -2,15 +2,13 @@
   "syntax": {
     "parses": [
       {
-        "id": "S6-P1",
-        "structure_type": "Adverbial Initial Structure",
-        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [S [ADV t5] [NP [N t6]]]]",
+        "id": "S6_P1",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [VP t5] [NP t6]]",
         "dependencies": [
-          "t1->t2 (mod)",
-          "t3->t4 (mod)",
-          "t5->t6 (punct/seq)"
+          "t5->t6 (obj)"
         ],
-        "notes": "Fragmentary or transitional segment starting with temporal adverb t5."
+        "notes": "A clause where the verb within t5 ('...accused them') takes the noun phrase in t6 ('the lawless') as its direct object."
       }
     ]
   }

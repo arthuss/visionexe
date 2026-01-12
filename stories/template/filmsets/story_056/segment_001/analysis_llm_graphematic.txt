@@ -1,13 +1,15 @@
 {
   "source": {
     "witness_id": "story_056/segment_001",
-    "graphematic_string": "ወርኢኩ፡ህየ፡ትእይንተ፡\nመላእት፡መቅሠፍት፡እንዘ፡\nየሐውሩ፡ወእዛን፡ማዕሥረ፡\nኃጺን፡ወብርት፨",
+    "graphematic_string": "ወርኢኩ፡ህየ፡ትእይንተ፡ መላእት፡መቅሠፍት፡እንዘ፡ የሐውሩ፡ወእዛን፡ማዕሥረ፡ ኃጺን፡ወብርት፨",
     "normalization_policy": "none",
     "punctuation_markers": [
-      "፡",
-      "፨"
+      "word_separator",
+      "full_stop"
     ],
-    "removed_artifacts": [],
+    "removed_artifacts": [
+      "newline"
+    ],
     "uncertainties": []
   }
 }

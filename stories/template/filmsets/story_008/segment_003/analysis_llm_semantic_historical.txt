@@ -2,22 +2,22 @@
   "evaluation": [
     {
       "hypothesis_ref": "S3-P1",
-      "plausibility": "moderate",
-      "reasoning": "The 'List of Actions' structure is correct, linking specific Watchers to specific forbidden arts (spells, astrology, etc.). However, the tokenization challenges noted (merged boundaries) suggest the raw tokens might need refinement to perfectly align with the underlying names (Mizaras = Semihazah/Amazarak; Armaros, etc.). Historically, these are distinct pairings of deity/angel and techne.",
+      "plausibility": "high",
+      "reasoning": "The parse correctly identifies the segment as a continuation of the catalog of forbidden knowledge, structured as a list of actions where different named watchers teach specific subjects (e.g., enchantments, resolving spells, astrology). This follows the pattern established in segment 1.",
       "parallels": [
         {
-          "ref": "1 Enoch 8:3 (Greek)",
-          "note": "Semiazas taught spells and root-cuttings; Armaros the resolving of spells; Baraqel the signs of the stars."
+          "ref": "1 Enoch 8:3",
+          "note": "This verse provides the direct parallel, listing the names of other watchers (Shemihazah, Armaros, Araqiel, Kokabel, etc.) and the specific secrets they taught, matching the content of this segment."
         }
       ],
-      "context_invariance": "variable",
-      "back_translation": "Amazarak taught all the enchanters and root-cutters; Armaros the resolving of spells; Baraqel the astrologers..."
+      "context_invariance": "stable",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "The semantic mapping is accurate despite potential granular tokenization issues. The identification of the specific Watchers and their respective domains (sorcery, astrology) is historically sound within the Enochic corpus.",
+  "decision_log": "Despite the note about challenging token boundaries, the parse's description as a 'List of Actions' is semantically and structurally correct for this catalog of watchers and their respective teachings.",
   "final_decision": {
     "hypothesis_ref": "S3-P1",
-    "translation_id": "T1",
+    "translation_id": "T3",
     "confidence": "high"
   }
 }

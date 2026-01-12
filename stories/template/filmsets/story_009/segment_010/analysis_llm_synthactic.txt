@@ -2,18 +2,26 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Verbal Clause Chain",
-        "bracket_notation": "[S [V t5] [Rel t6] [V_Coord t6] [Loc t7] [V_Coord t7] [Subj t8] [V_Coord t8] [Mod t9 [Rel t10]]]",
+        "id": "S10.meta",
+        "structure_type": "Header",
+        "bracket_notation": "[META [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]",
         "dependencies": [
-          "t5->ROOT",
-          "t6->t5 (relative_subject_mod)",
-          "t7->t6 (location_goal)",
-          "t8->t7 (coordination_subject_new_verb)",
-          "t9->t8 (adjunct_source)",
-          "t10->t9 (relative_modifier)"
+          "t1->t2 (modifies)",
+          "t3->t4 (modifies)"
         ],
-        "notes": "t5 'Souls cry'. t6 'Who died and appeal'. t7 'To gate of heaven and ascended'. t8 'Their groan, and cannot cease'. t9 'From before lawlessness'. t10 'Wrought on earth'."
+        "notes": "Segment metadata."
+      },
+      {
+        "id": "S10.1",
+        "structure_type": "Sequence of Clauses",
+        "bracket_notation": "[S [S1 [VP [V t5] [NP-SUBJ-in-surface]]] [S2 [NP-SUBJ [N t8]] [VP [V-in-surface] [PP [N t7]]]] [S3 [NEG-VP [V-in-surface] [PP [PREP t9] [NP [N-in-surface]] [SBAR [NP [N t10]]]]]]]",
+        "dependencies": [
+          "t5->t6 (nsubj)",
+          "t5->t8 (parataxis)",
+          "t8->t7 (nmod)",
+          "t8->t9 (parataxis)"
+        ],
+        "notes": "A series of clauses. 1. 'the souls of those who have died (t6) are crying out (t5)'. 2. 'and their cry (t8) has gone up (verb in t8 surface) to the gate of heaven (t7)'. 3. 'and they cannot escape (verb in t8 surface) from the face of the iniquity (t9) which is done on earth (t10)'."
       }
     ]
   }

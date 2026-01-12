@@ -3,18 +3,22 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "Corresponds to 1 Enoch 18:14. The angel speaks explaining the place as a prison.",
+      "reasoning": "The parse correctly identifies the structure as direct speech from an interpreting angel. The speech defines the location as the 'end of heaven and earth' and a 'prison for the stars and the host of heaven'. This is a core theological and cosmological concept in Enoch.",
       "parallels": [
         {
-          "ref": "1 Enoch 18:14",
-          "note": "Matches standard text."
+          "ref": "1 Enoch 21:6",
+          "note": "And Uriel said to me: 'Here shall stand the angels who have connected themselves with women... and the stars which transgress the commandment of the Lord...'"
+        },
+        {
+          "ref": "Jude 1:6",
+          "note": "And the angels who did not stay within their own position of authority, but left their proper dwelling, he has kept in eternal chains under gloomy darkness until the judgment of the great day."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "The angel said: 'This place is the end of heaven and earth; this has become a prison for the stars and the host of heaven.'"
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "'ለዋብት' likely 'ለከዋክብት' (for stars). Accepted.",
+  "decision_log": "The direct speech structure is correctly parsed. The content provides the authoritative interpretation of the vision: a cosmic prison. This concept is a hallmark of Enochic literature and was influential on New Testament authors.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",

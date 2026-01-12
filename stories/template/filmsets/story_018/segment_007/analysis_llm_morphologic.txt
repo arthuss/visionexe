@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0.0",
-    "created_at": "2026-01-11T03:47:19Z",
+    "created_at": "2026-01-11T07:04:19Z",
     "created_by": "worker_llm_analysis_Morphologic",
     "language": "gez",
     "tagset_id": "GEZ-POS-1",
@@ -23,24 +23,22 @@
       },
       "options": [
         {
-          "option_id": "O1",
+          "option_id": "A",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": null,
-            "lemma": "Chapter",
-            "pattern": null
+            "root": "chapter",
+            "lemma": "chapter",
+            "pattern": "foreign_word"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "foreign_word",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
           }
         }
       ]
@@ -54,24 +52,22 @@
       },
       "options": [
         {
-          "option_id": "O1",
+          "option_id": "A",
           "pos": "NUM",
           "analysis": {
             "kind": "lexical",
-            "root": null,
+            "root": "18",
             "lemma": "18",
-            "pattern": null
+            "pattern": "foreign_word"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "foreign_word",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
           }
         }
       ]
@@ -85,24 +81,22 @@
       },
       "options": [
         {
-          "option_id": "O1",
+          "option_id": "A",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": null,
-            "lemma": "Segment",
-            "pattern": null
+            "root": "segment",
+            "lemma": "segment",
+            "pattern": "foreign_word"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "foreign_word",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
           }
         }
       ]
@@ -116,24 +110,22 @@
       },
       "options": [
         {
-          "option_id": "O1",
+          "option_id": "A",
           "pos": "NUM",
           "analysis": {
             "kind": "lexical",
-            "root": null,
+            "root": "7",
             "lemma": "7",
-            "pattern": null
+            "pattern": "foreign_word"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "foreign_word",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
           }
         }
       ]
@@ -147,23 +139,59 @@
       },
       "options": [
         {
-          "option_id": "O1",
-          "pos": "N",
+          "option_id": "A",
+          "pos": "ADJ",
           "analysis": {
             "kind": "lexical",
-            "root": "ማእከለ",
-            "lemma": "ማእከላዊ",
-            "pattern": "ማእከላዊ"
+            "root": "ማእከል",
+            "lemma": "ማእላይ",
+            "pattern": "Adjective, middle, with 'ወ-' prefix and enclitic '-ሰ'"
           },
           "confidence": {
-            "type": "low",
-            "score": 0.6
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "machine_inferred",
-            "attestation": [
-              "1En18:7"
-            ],
+            "lexicon_status": "requires_lexical_lookup",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ጐድአ",
+            "lemma": "ጐድአ",
+            "pattern": "G-stem imperfect 3ms"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "requires_lexical_lookup",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": "እስከ",
+            "lemma": "እስከ",
+            "pattern": "Preposition"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "requires_lexical_lookup",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -178,23 +206,59 @@
       },
       "options": [
         {
-          "option_id": "O1",
+          "option_id": "A",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "ሰመየ",
+            "root": "ሰማይ",
             "lemma": "ሰማይ",
-            "pattern": "ቀታል"
+            "pattern": "Noun"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.95
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": [
-              "1En18:7"
-            ],
+            "lexicon_status": "requires_lexical_lookup",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "CONJ.SUB",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ከመ",
+            "lemma": "ከመ",
+            "pattern": "Conjunction, like/as"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "requires_lexical_lookup",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "መንበር",
+            "lemma": "መንበር",
+            "pattern": "Noun, throne, with 3ms possessive suffix"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "requires_lexical_lookup",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -209,26 +273,79 @@
       },
       "options": [
         {
-          "option_id": "O1",
+          "option_id": "A",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "እግዚአ",
+            "root": "እግዚአብሔር",
             "lemma": "እግዚአብሔር",
-            "pattern": null
+            "pattern": "Noun, God, with 'ለ-' prepositional prefix"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": [
-              "1En18:7"
-            ],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "lexicon_status": "requires_lexical_lookup",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "function",
+            "root": null,
+            "lemma": "እም",
+            "pattern": "Preposition with 'ዘ-' prefix"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "pre-identified_function_word",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "እብን",
+            "lemma": "እብን",
+            "pattern": "Noun, construct state"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "requires_lexical_lookup",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ፔ",
+            "lemma": "ፔ",
+            "pattern": "Noun, unknown stone type, possibly 'alabaster'"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "requires_lexical_lookup",
+            "attestation": [],
+            "constraints_checked": []
           }
         }
       ]
@@ -242,23 +359,78 @@
       },
       "options": [
         {
-          "option_id": "O1",
+          "option_id": "A",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "ድምሐ",
-            "lemma": "ድማሕ",
-            "pattern": "ቅታል"
+            "root": "ድምሕ",
+            "lemma": "ድምሕ",
+            "pattern": "Noun, canopy, with 'ወ-' prefix and 3ms possessive suffix"
           },
           "confidence": {
-            "type": "medium",
-            "score": 0.75
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": [
-              "1En18:7"
-            ],
+            "lexicon_status": "requires_lexical_lookup",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "መንበር",
+            "lemma": "መንበር",
+            "pattern": "Noun, throne, with 'ለ-' prefix and 3ms possessive suffix"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "requires_lexical_lookup",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "function",
+            "root": null,
+            "lemma": "እም",
+            "pattern": "Preposition with 'ዘ-' prefix"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "pre-identified_function_word",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "እብን",
+            "lemma": "እብን",
+            "pattern": "Noun, construct state"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "requires_lexical_lookup",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -273,26 +445,22 @@
       },
       "options": [
         {
-          "option_id": "O1",
+          "option_id": "A",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
             "root": "ሰንፔር",
             "lemma": "ሰንፔር",
-            "pattern": null
+            "pattern": "Noun, sapphire"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.9
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": [
-              "1En18:7"
-            ],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "lexicon_status": "requires_lexical_lookup",
+            "attestation": [],
+            "constraints_checked": []
           }
         }
       ]

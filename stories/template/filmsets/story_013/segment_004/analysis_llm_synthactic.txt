@@ -2,19 +2,22 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Complex Sentence with Request",
-        "bracket_notation": "[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [VP [V t5] [SBAR [VP [V t7] [PP t6] [SBAR [VP [V t8] [PP t9]]]]]]]]",
+        "id": "S4_1",
+        "structure_type": "Verbal Phrase with Adverbial Modifier",
+        "bracket_notation": "[VP [V ዓርግ(t8)] [PP t9]]",
         "dependencies": [
-          "t2->t1 (nummod)",
-          "t4->t3 (nummod)",
-          "t5->root",
-          "t7->t5 (ccomp)",
-          "t6->t7 (iobj)",
-          "t8->t7 (advcl)",
-          "t9->t8 (obl)"
+          "t8->t9 (adv_modifier_place)"
         ],
-        "notes": "t5 (asked) governs t7 (that it be); t8 (ascend) depends on t7."
+        "notes": "The jussive verb 'ዓርግ' (that I should take up) in t8 is modified by the prepositional phrase 'ቅድመ፡እግዚ፡ሰማይ' (before the Lord of Heaven) in t9, indicating location."
+      },
+      {
+        "id": "S4_2",
+        "structure_type": "Genitive Phrase",
+        "bracket_notation": "[NP [N እግዚ(t9)] [Gen [N ሰማይ(t9)]]]",
+        "dependencies": [
+          "t9->t9 (genitive)"
+        ],
+        "notes": "A classic construct chain: 'the Lord of Heaven'."
       }
     ]
   }

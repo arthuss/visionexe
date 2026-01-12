@@ -2,20 +2,18 @@
   "syntax": {
     "parses": [
       {
-        "id": "S4_P1",
-        "structure_type": "Complex Nominal and Verbal Clause",
-        "bracket_notation": "[S [NP [PRO.PERS t10] [ADJ t11] [N t12]] [VP [V t13] [V t14] [V t15] [PRO.PERS t16] [PRO.REL t17] [V t18]]]",
+        "id": "P1",
+        "structure_type": "Complex Sentence with Multiple Clauses",
+        "bracket_notation": "[S1 [NP-SUBJ t10 [ADJP t11] [MOD t12]] [VP [VP t13] [VP t14] [VP t15]]] [S2 [PRED t16 [RC t17 [CONJ t18]]]]",
         "dependencies": [
-          "t13 -> t10 (subject)",
-          "t10 -> t11 (apposition)",
-          "t11 -> t12 (modifier)",
-          "t13 -> t14 (coordination)",
-          "t14 -> t15 (coordination)",
-          "t15 -> t16 (object/complement)",
-          "t16 -> t17 (relative_marker)",
-          "t17 -> t18 (relative_clause)"
+          "t10->t11 (apposition)",
+          "t11->t12 (modifier)",
+          "t13->t14 (coordinated_verb)",
+          "t14->t15 (coordinated_verb)",
+          "t16->t17 (relative_clause)",
+          "t17->t18 (coordinated_verb)"
         ],
-        "notes": "Series of verbs t13-t15 describing the actions of the subject t10."
+        "notes": "A series of clauses contrasting the nature of the addressees with mortals. t5-t9 are fragments/punctuation and not included in the main parse."
       }
     ]
   }

@@ -2,16 +2,13 @@
   "syntax": {
     "parses": [
       {
-        "id": "P1",
-        "structure_type": "Simple Sentence",
-        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP t5 [NP t6]]]",
+        "id": "S8.A",
+        "structure_type": "Verb Phrase with Coordinated Objects",
+        "bracket_notation": "[S [VP t5 [NP [NP (in t5)] [GEN (in t6)]] [CONJ 'ወ'] [NP (in t6)]]]",
         "dependencies": [
-          "t1->t2 (numeral_mod)",
-          "t3->t4 (numeral_mod)",
-          "ROOT->t5 (main_verb)",
-          "t5->t6 (obj)"
+          "t5 <- t6 (obj)"
         ],
-        "notes": "t5 'saw' -> t6 'mouths...'."
+        "notes": "The verb 'I saw' (in t5) governs two coordinated objects: 'the mouths of the rivers of the earth' (t5, t6) and 'the mouth of the sea' (t6)."
       }
     ]
   }

@@ -3,21 +3,21 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "Syntactically coherent compound sentence. 'ዘሕያው፡ለዓለም' (He who lives forever) is a well-attested divine epithet in Second Temple literature. The call to 'understand' ('ወለብው') and 'know' ('ወእምሩ') parallels the wisdom tradition style.",
+      "reasoning": "The compound sentence structure correctly captures the sequence of actions and the resulting state. The relationships (appositive, predication, adversative) are consistent with the flow of argument in the text.",
       "parallels": [
         {
-          "ref": "Enoch 5:1",
-          "note": "Standard continuation of the verse."
+          "ref": "ATTESTATION_CORPUS:NONE",
+          "note": "While the overall sentence form is common, no specific attestations for this precise sequence of dependency relations were located."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And understand concerning all of them, and know that He who lives forever has made all these things for them."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "No anomalies found.",
+  "decision_log": "Only one hypothesis (S1) was provided. The analysis is consistent with the linear, additive nature of the text in this section. It is adopted by default.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",
-    "confidence": "high"
+    "confidence": "moderate"
   }
 }

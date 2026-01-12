@@ -2,17 +2,33 @@
   "syntax": {
     "parses": [
       {
-        "id": "S6_P1",
-        "structure_type": "Fronted Object with Consequences",
-        "bracket_notation": "[S [NP [NP t5] [NP t6]] [VP [V t7]] [S [NP t8] [NP t9]]]",
+        "id": "S6-C1",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [DO [N ቀትለ] [GEN [N ፍቁራኒሆሙ]]] [VP [V ይርእዩ (t5)]]]",
         "dependencies": [
-          "t7 (ROOT)",
-          "t7->t5 (fronted object)",
-          "t5->t6 (coordinate object)",
-          "t7->t8 (coordinate clause / existential)",
-          "t8->t9 (coordinate nominal)"
+          "t5->(ቀትለ) (dobj)"
         ],
-        "notes": "Parallelism in suffering."
+        "notes": "Object-Verb structure: 'The slaughter of their beloved they will see.'"
+      },
+      {
+        "id": "S6-C2",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [CONJ ወ] [PP [PREP በ] [N ሐጕለ ውሉዶሙ (t6)]] [VP [V ይግዕሩ (t7)] [CONJ ወ] [V ይስእሉ (t7)] [AdvP ለዓለም]]]",
+        "dependencies": [
+          "t7->t6 (obl)",
+          "t7->t7 (conj)"
+        ],
+        "notes": "'and for the ruin of their children they will lament and petition forever.'"
+      },
+      {
+        "id": "S6-C3",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [CONJ ወ] [NEG ኢ] [VP [V ይኩን (t8)] [IO ሎሙ] [NP_SUBJ [N ምሕረት (t8)] [CONJ ወ] [NEG ኢ] [N ሰላም (t9)]]]]",
+        "dependencies": [
+          "t8->(ምሕረት) (nsubj)",
+          "t8->(ሰላም) (conj)"
+        ],
+        "notes": "Double negative emphasis: 'and there shall not be for them mercy nor peace.'"
       }
     ]
   }

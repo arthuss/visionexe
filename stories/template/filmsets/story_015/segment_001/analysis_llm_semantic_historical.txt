@@ -3,13 +3,22 @@
     {
       "hypothesis_ref": "S1_P1",
       "plausibility": "high",
-      "reasoning": "The syntactic analysis correctly identifies the main clause of speech introduction followed by the direct speech content. The vocative structure matches the Ethiopic address 'Henok bǝʾsi...'.",
-      "parallels": [],
+      "reasoning": "The parse correctly identifies a main clause with a verb of speaking ('yǝbelǝni') introducing direct speech. The vocative phrase 'O Enoch, righteous man' is properly identified as the addressee. This structure is canonical for introducing dialogue in Ge'ez literature.",
+      "parallels": [
+        {
+          "ref": "Gen 1:3",
+          "note": "Common biblical construction 'And God said...'"
+        },
+        {
+          "ref": "Dillmann, Grammatik §196",
+          "note": "Use of verba dicendi to introduce direct objects or speech."
+        }
+      ],
       "context_invariance": "stable",
-      "back_translation": "And he answered and said to me, and I heard his voice: 'Do not fear, Enoch, righteous man and scribe of righteousness. Approach hither and hear my voice.'"
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Parse S1_P1 accurately reflects the standard text of 1 Enoch 15:1.",
+  "decision_log": "The proposed parse S1_P1 is a standard and well-attested grammatical structure for introducing speech. It aligns perfectly with the lexical items in the segment. No alternative parse would be more plausible.",
   "final_decision": {
     "hypothesis_ref": "S1_P1",
     "translation_id": "T1",

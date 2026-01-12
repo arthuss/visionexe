@@ -3,18 +3,22 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "Corresponds to 1 Enoch 18:12. Describes the chaotic void/waste. 'መነ፡ድው' = 'waste/desert place' (mekana daw).",
+      "reasoning": "The parse correctly identifies a series of negated existential clauses to describe a place of un-creation or chaos: no firmament above, no foundation below, no water, no birds. This is a classic description of a primeval, chaotic space.",
       "parallels": [
         {
-          "ref": "1 Enoch 18:12",
-          "note": "Matches description of the void."
+          "ref": "Genesis 1:2",
+          "note": "The earth was without form and void (tohu wa-bohu), and darkness was over the face of the deep."
+        },
+        {
+          "ref": "1 Enoch 21:2",
+          "note": "I saw neither a heaven above nor a firmly founded earth, but a place chaotic and horrible."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And beyond that cleft I saw a place, and there was no firmament of heaven above it, and no foundation of earth below it, and no water was on it, and no birds, but it was a waste place."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Accepted.",
+  "decision_log": "The structure of negation is well-captured by S1. The description powerfully evokes the concept of primordial chaos by negating the elements of the created order, a literary technique with strong biblical and Enochic parallels.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",

@@ -2,15 +2,24 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Verbal Clause",
-        "bracket_notation": "[S [V t5] [Obj t6] [Mod t7]]",
+        "id": "S2.meta",
+        "structure_type": "Header",
+        "bracket_notation": "[META [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]",
         "dependencies": [
-          "t5->ROOT",
-          "t6->t5 (object_content)",
-          "t7->t6 (modifier_scope)"
+          "t1->t2 (modifies)",
+          "t3->t4 (modifies)"
         ],
-        "notes": "t5 'They said' introduces speech/sound. t6 'Voice of their crying' is the content/object. t7 'Earth up to heaven' describes the extent/scope of the cry."
+        "notes": "Segment metadata."
+      },
+      {
+        "id": "S2.1",
+        "structure_type": "Verb with Quoted Complement",
+        "bracket_notation": "[S [VP [V t5] [S-COMP [NP-SUBJ [N t6]] [PRED [N t7]]]]]",
+        "dependencies": [
+          "t5->t6 (ccomp)",
+          "t6->t7 (nmod)"
+        ],
+        "notes": "The verb t5 ('they said') takes the remainder of the segment as a direct speech complement. The quoted speech itself contains a verb ('has cried out') in the surface of t6, with t7 ('earth') as its subject. This parse simplifies the structure based on the given token POS, representing the quote as a nominal clause."
       }
     ]
   }

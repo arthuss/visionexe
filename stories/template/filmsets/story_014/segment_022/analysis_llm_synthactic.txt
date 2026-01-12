@@ -2,14 +2,14 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Compound Sentence",
-        "bracket_notation": "[S [NP [NP t5] [RelCl t5]] [VP t6] [VP t7]]",
+        "id": "seg022_flat",
+        "structure_type": "Flat Phrase/Clause Chain",
+        "bracket_notation": "[S [CONJ_U t5] [U t6] [CONJ_U t7]]",
         "dependencies": [
-          "t6->t5 (subject)",
-          "t6->t7 (coordination)"
+          "t5 -> t6 (sequence)",
+          "t6 -> t7 (coordination)"
         ],
-        "notes": "The Holy Ones in constant attendance."
+        "notes": "Parse based on sequential relationship with dependencies from initial markers."
       }
     ]
   }

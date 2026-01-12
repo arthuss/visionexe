@@ -1,0 +1,398 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T06:26:11Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_025/segment_002",
+    "graphematic_string": "Chapter 25 Segment 2\n\nወውእተ፡ጊዜ፡ውሥእ፡ሄኖ፡\nእንዘ፡ይብል፡እንተ፡ሉ፡\nእፈቅድ፡እምር፡ፈድፋደሰ፡\nእንተዝ፡ዕፅ፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "25",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "2",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወውእተ፡ጊዜ፡ውሥእ፡ሄኖ፡",
+      "span": {
+        "start": 22,
+        "end": 37
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "phrasal",
+            "note": "Token contains multiple words. Analysis is sequential.",
+            "components": [
+              {
+                "surface": "ወውእተ",
+                "pos": "CONJ.COORD",
+                "root": null,
+                "lemma": "ወ",
+                "pattern": "Conjunction + Pronoun",
+                "gloss": "and-that"
+              },
+              {
+                "surface": "ጊዜ",
+                "pos": "N",
+                "root": "ጊዜ",
+                "lemma": "ጊዜ",
+                "pattern": "Noun",
+                "gloss": "time"
+              },
+              {
+                "surface": "ውሥእ",
+                "pos": "V",
+                "root": "ወሰአ",
+                "lemma": "ወሰአ",
+                "pattern": "Verb (Perfect 3ms)",
+                "gloss": "he-added/continued"
+              },
+              {
+                "surface": "ሄኖ",
+                "pos": "N",
+                "root": "ሄኖክ",
+                "lemma": "ሄኖክ",
+                "pattern": "Proper Noun",
+                "gloss": "Enoch"
+              }
+            ]
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "requires_verification",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "እንዘ፡ይብል፡እንተ፡ሉ፡",
+      "span": {
+        "start": 38,
+        "end": 52
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "CONJ.SUB",
+          "analysis": {
+            "kind": "phrasal",
+            "note": "Token contains multiple words. Analysis is sequential.",
+            "components": [
+              {
+                "surface": "እንዘ",
+                "pos": "CONJ.SUB",
+                "root": null,
+                "lemma": "እንዘ",
+                "pattern": "Subordinating Conjunction (Gerundive)",
+                "gloss": "while"
+              },
+              {
+                "surface": "ይብል",
+                "pos": "V",
+                "root": "በሀለ",
+                "lemma": "በሀለ",
+                "pattern": "Verb (Imperfective 3ms)",
+                "gloss": "he-says"
+              },
+              {
+                "surface": "እንተ",
+                "pos": "CONJ.SUB",
+                "root": null,
+                "lemma": "እንተ",
+                "pattern": "Subordinating Conjunction",
+                "gloss": "that-which"
+              },
+              {
+                "surface": "ሉ",
+                "pos": "PART.MOD",
+                "root": null,
+                "lemma": "ሉ",
+                "pattern": "Optative Particle",
+                "gloss": "if-only/would-that"
+              }
+            ]
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "requires_verification",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "እፈቅድ፡እምር፡ፈድፋደሰ፡",
+      "span": {
+        "start": 53,
+        "end": 68
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "phrasal",
+            "note": "Token contains multiple words. Analysis is sequential.",
+            "components": [
+              {
+                "surface": "እፈቅድ",
+                "pos": "V",
+                "root": "ፈቀደ",
+                "lemma": "ፈቀደ",
+                "pattern": "Verb (Imperfective 1s)",
+                "gloss": "I-wish"
+              },
+              {
+                "surface": "እምር",
+                "pos": "V",
+                "root": "አመረ",
+                "lemma": "አመረ",
+                "pattern": "Verb (Subjunctive 1s)",
+                "gloss": "I-may-know"
+              },
+              {
+                "surface": "ፈድፋደሰ",
+                "pos": "ADV",
+                "root": "ፈደፈደ",
+                "lemma": "ፈድፋደ",
+                "pattern": "Adverb + Enclitic",
+                "gloss": "much-more-indeed"
+              }
+            ]
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "requires_verification",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "እንተዝ፡ዕፅ፨",
+      "span": {
+        "start": 69,
+        "end": 77
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "phrasal",
+            "note": "Token contains multiple words. Analysis is sequential.",
+            "components": [
+              {
+                "surface": "እንተዝ",
+                "pos": "PRO.DEM",
+                "root": null,
+                "lemma": "ዝ",
+                "pattern": "CONJ.SUB + PRO.DEM",
+                "gloss": "concerning-this"
+              },
+              {
+                "surface": "ዕፅ",
+                "pos": "N",
+                "root": "ዕፅ",
+                "lemma": "ዕፅ",
+                "pattern": "Noun",
+                "gloss": "tree"
+              }
+            ]
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "requires_verification",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

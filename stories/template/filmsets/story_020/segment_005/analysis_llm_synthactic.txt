@@ -2,14 +2,14 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Nominal Sentence / List Item",
-        "bracket_notation": "[S [Meta t1 t2 t3 t4] [NP_Subj t5] [RelCl t6] [NP_Appos t7]]",
+        "id": "P5_S1",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP [PN t5] [ADJP t6] [NP t7]]",
         "dependencies": [
-          "t5->t6 (modifier)",
-          "t6->t7 (continuation/apposition)"
+          "t6 (adj) modifies 'መላእት' (noun) within t5",
+          "t7 (noun) specifies the role introduced in t6"
         ],
-        "notes": "t5 (Michael) is defined by the scope in t6 (over the best) and t7 (command over people)."
+        "notes": "A complex appositional phrase describing 'Michael' (t5). Both t6 and t7 provide descriptive information about the angel's role."
       }
     ]
   }

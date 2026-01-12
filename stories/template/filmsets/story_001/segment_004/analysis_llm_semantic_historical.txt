@@ -2,30 +2,43 @@
   "evaluation": [
     {
       "hypothesis_ref": "S1",
-      "plausibility": "high",
-      "reasoning": "Matches 1 Enoch 1:4. The theophany describes movement: leaving the camp -> treading on Sinai -> appearing. S1's 'Linear Narrative Chain' accurately models this sequence of distinct events.",
+      "plausibility": "moderate",
+      "reasoning": "The parse is thematically correct, identifying the movement 'from there' ('እምህየ') to 'Mount Sinai' ('ሲና ደብር'). The word 'ዲ' (t5.m7) is the weak point; it is likely a scribal error or abbreviation for 'ዲበ' ('upon'). The parse's interpretation of 'ዲ' as a preposition is a reasonable guess to make sense of the text as it stands.",
       "parallels": [
         {
-          "ref": "1 Enoch 1:4",
-          "note": "God treading upon Mount Sinai."
+          "ref": "Exodus 19:20",
+          "note": "Direct thematic parallel of the Lord descending upon Mount Sinai."
         }
       ],
-      "context_invariance": "stable",
-      "back_translation": "And from there He will tread upon Mount Sinai and His camp shall appear..."
+      "context_invariance": "context-dependent",
+      "back_translation": "pass"
     },
     {
       "hypothesis_ref": "S2",
-      "plausibility": "moderate",
-      "reasoning": "While 'from heaven' (em-samāy) does scope over the appearance, applying it globally to the initial movement 'from there' (em-heya) creates a conflict (from there vs from heaven). S1 is cleaner.",
+      "plausibility": "high",
+      "reasoning": "Correctly parses 'ወያስተርኢ ትዕይንቱ' as 'and his camp/host will appear'. The verb and noun are standard.",
       "parallels": [],
-      "context_invariance": "moderate",
-      "back_translation": "And from there... [all from heaven]"
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S3",
+      "plausibility": "high",
+      "reasoning": "Correctly identifies a coordinated verbal clause. The subject is a standard construct phrase 'ጽንዓ ኃይሉ' ('the strength of his power'), and 'እምሰማይ' ('from heaven') is a correctly identified prepositional phrase of source.",
+      "parallels": [
+        {
+          "ref": "Isaiah 40:26",
+          "note": "Discusses the 'greatness of his might' ('ዐቢይ ኃይሉ')."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Sequential action (treading then appearing) is the narrative logic.",
+  "decision_log": "The parses are sequential and describe the stages of the theophany. While S1 contains a minor textual problem ('ዲ'), the overall meaning is unambiguous and supported by strong biblical parallels. S2 and S3 are perfectly clear and grammatical.",
   "final_decision": {
-    "hypothesis_ref": "S1",
-    "translation_id": "T-Seg04-Linear",
+    "hypothesis_ref": "S1+S2+S3",
+    "translation_id": "T4",
     "confidence": "high"
   }
 }

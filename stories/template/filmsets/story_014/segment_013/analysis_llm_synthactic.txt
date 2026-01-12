@@ -2,14 +2,14 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Complex Sentence",
-        "bracket_notation": "[S [AdvP t5] [VP t6] [VP t6] [NP t7]]",
+        "id": "seg013_flat",
+        "structure_type": "Flat Phrase/Clause Chain",
+        "bracket_notation": "[S [CONJ_U t5] [CONJ_U t6] [U t7]]",
         "dependencies": [
-          "t6->t5 (circumstantial)",
-          "t6->t7 (object/result)"
+          "t5 -> t6 (coordination)",
+          "t6 -> t7 (sequence)"
         ],
-        "notes": "Physical reaction leading to a new vision."
+        "notes": "Parse based on sequential relationship with dependencies from initial markers."
       }
     ]
   }

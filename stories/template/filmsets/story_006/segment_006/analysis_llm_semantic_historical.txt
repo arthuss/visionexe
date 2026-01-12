@@ -2,22 +2,22 @@
   "evaluation": [
     {
       "hypothesis_ref": "S1",
-      "plausibility": "high",
-      "reasoning": "The parse effectively separates the initial garbage/fragments from the main narrative clause starting at 'ወወረዱ' (and they descended). It correctly identifies the etiological explanation for Mount Hermon ('ርሞን'/'አርሞን').",
-      "parallels": [
+      "plausibility": "moderate",
+      "reasoning": "The parse correctly identifies the main narrative clauses (descending, naming the mountain) and the causal relationship explaining the name. However, its plausibility is rated 'moderate' because it correctly notes the presence of unparsed numeric and punctuation fragments from the source, indicating textual corruption or transcription issues.",
+      "paralleles": [
         {
-          "ref": "1 Enoch 6:6 (Ethiopic)",
-          "note": "Standard: 'ወወረዱ፡ ውስተ፡ አርዲሰ፡ ዝውእቱ፡ ድማሁ፡ ለደብረ፡ አርሞን...'"
+          "ref": "1 Enoch 6:6b",
+          "note": "The descent on Mt. Hermon and the etiological explanation of its name are core, attested elements of the story. The name 'Hermon' is explicitly linked to the curse (Hebrew: ḥērem) sworn there."
         }
       ],
-      "context_invariance": "stable",
+      "context_invariance": "variable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "S1 is the only viable option and correctly handles the noise vs. signal distinction.",
+  "decision_log": "S1 is the only option. It successfully parses the coherent narrative while correctly flagging initial fragments as unintegrated. This is the best possible analysis given the textual state. Confidence is lowered due to the textual noise.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",
-    "confidence": "high"
+    "confidence": "moderate"
   }
 }

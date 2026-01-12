@@ -3,29 +3,42 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "Matches 1 Enoch 1:5. 'Wa-yifarrah... Təguhan' (And the Watchers shall fear). The segmentation of predicates (Fear) and subjects (Watchers) in a narrative chain fits the VSO syntax where the verb can precede the plural subject in the singular.",
-      "parallels": [
-        {
-          "ref": "1 Enoch 1:5",
-          "note": "The reaction of the Watchers to the theophany."
-        }
-      ],
+      "reasoning": "Simple, correct parse of 'And all shall fear'. 'ሎ' is a variant of 'ኵሉ' (all).",
+      "parallels": [],
       "context_invariance": "stable",
-      "back_translation": "And they shall fear, and the Watchers shall quake..."
+      "back_translation": "pass"
     },
     {
       "hypothesis_ref": "S2",
-      "plausibility": "low",
-      "reasoning": "Clustering obscures the distinct clauses usually separated by 'wa-' (and).",
-      "parallels": [],
-      "context_invariance": "low",
-      "back_translation": "[Cluster of fear and Watchers]"
+      "plausibility": "high",
+      "reasoning": "Correctly identifies 'ትጉሃን' ('Watchers') as the subject of 'ያድለቀልቁ' ('shall quake'). This is a key event in the Enochic narrative.",
+      "parallels": [
+        {
+          "ref": "Daniel 4:13, 17",
+          "note": "Source for the term 'Watcher' ('ትጉህ')."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S3",
+      "plausibility": "high",
+      "reasoning": "This parse is correct. It identifies the compound subject 'ፍርሀት ወረዓድ ዓቢይ' ('great fear and trembling') and the verb 'ይንሥኦሙ' ('shall seize them'). The prepositional phrase 'እስከ ጽናፈ ምድር' ('to the ends of the earth') correctly defines the extent of the effect.",
+      "parallels": [
+        {
+          "ref": "Exodus 15:16",
+          "note": "The phrase 'ፍርሀት ወረዓድ' (fear and trembling) is a common biblical expression for terror."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Standard VSO narrative chain.",
+  "decision_log": "The sequential parses accurately depict the cosmic reaction to the theophany, focusing on the fear of all creatures and especially the Watchers. The grammar and lexical choices are standard for this genre.",
   "final_decision": {
-    "hypothesis_ref": "S1",
-    "translation_id": "T-Seg05-Chain",
+    "hypothesis_ref": "S1+S2+S3",
+    "translation_id": "T5",
     "confidence": "high"
   }
 }

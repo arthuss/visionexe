@@ -2,22 +2,22 @@
   "evaluation": [
     {
       "hypothesis_ref": "P1",
-      "plausibility": "High",
-      "reasoning": "Returns to the narrative 'They took me'. The destination involves 'waters of life' and 'fire of the west'. The personification of the water ('which speaks') and the fire ('which receives the setting sun') is retained. P1 captures the coordination of the two destinations.",
+      "plausibility": "high",
+      "reasoning": "The parse correctly identifies the main verb `ወነሥኡኒ` (and they took me) governing two coordinated prepositional phrases starting with `እስ` (unto/to): `እስ፡ማያተ፡ሕይወት...` and `ወእስ፡እሳተ፡ዐረብ...`. Each of these objects is further modified by a relative clause introduced by `ዘ`. The structure is sound and reflects a common pattern of parallel descriptions.",
       "parallels": [
         {
-          "ref": "1 Enoch 17:4",
-          "note": "Distinctive Enochic imagery of the 'speaking water' (likely noise of the stream) and the western fire."
+          "ref": "Rev. 22:1",
+          "note": "The concept of 'waters of life' (`ማያተ፡ሕይወት`) is a direct parallel. The grammatical pattern of `[verb] + [preposition] + [noun] + [relative clause]` is fundamental to Ge'ez narrative."
         }
       ],
-      "context_invariance": "Stable",
-      "back_translation": "And they took me to the waters of life which speak; and to the fire of the west which receives every setting of the sun."
+      "context_invariance": "stable",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Validates the personification metaphors.",
+  "decision_log": "P1 is a solid interpretation. It correctly identifies the coordination and the subsequent relative clauses modifying each part of the coordinated phrase.",
   "final_decision": {
     "hypothesis_ref": "P1",
-    "translation_id": "T1",
-    "confidence": "High"
+    "translation_id": "TBD",
+    "confidence": "high"
   }
 }

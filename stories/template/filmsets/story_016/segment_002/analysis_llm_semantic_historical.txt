@@ -3,21 +3,25 @@
     {
       "hypothesis_ref": "S2_P1",
       "plausibility": "high",
-      "reasoning": "Correctly parses the address to the Watchers. The phrase 'ቀዲሙ፡ሰማይ፡ሀለዉ' (formerly you were in heaven) is a crucial theological marker in the Book of Watchers, contrasting their former station with their current fall.",
+      "reasoning": "This segment refers to the Watchers ('təguhan') who dispatched Enoch on a mission. The phrase 'who sent you' (ʾəlla fanawu) is a direct reference to the narrative context where the fallen Watchers ask Enoch to intercede on their behalf. The mention of their 'likeness which formerly was in heaven' alludes to their original, pre-fallen angelic state.",
       "parallels": [
         {
-          "ref": "1 Enoch 12:4",
-          "note": "Enoch acts as scribe of righteousness to the Watchers of heaven."
+          "ref": "1 Enoch 13:3-4",
+          "note": "The Watchers explicitly ask Enoch to write a petition and 'go and say' it to the Lord of heaven, effectively 'sending' him as their envoy."
+        },
+        {
+          "ref": "1 Enoch 15:3-7",
+          "note": "Contrasts the Watchers' former spiritual and heavenly existence with their current defiled state, providing the context for 'what you were formerly in heaven'."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And now to the Watchers who sent [you] to intercede for them, who were formerly in heaven..."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Syntactic relationships reflect the standard 'mission' of Enoch to the Watchers.",
+  "decision_log": "The single hypothesis accurately reflects a key plot point in the narrative. The language is unambiguous and locks into the surrounding story of Enoch's intercession mission.",
   "final_decision": {
     "hypothesis_ref": "S2_P1",
-    "translation_id": "T1",
+    "translation_id": "T2",
     "confidence": "high"
   }
 }

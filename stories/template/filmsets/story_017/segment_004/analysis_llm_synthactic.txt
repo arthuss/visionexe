@@ -2,18 +2,16 @@
   "syntax": {
     "parses": [
       {
-        "id": "P1",
-        "structure_type": "Complex Sentence",
-        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP t5 [NP t6] [NP t7 [PP t8]]]]",
+        "id": "S4.A",
+        "structure_type": "Verb Phrase with Coordinated Complements",
+        "bracket_notation": "[S [VP [V (in t5)] [PP [NP (in t5)] [SBAR [REL (in t6)]]] [CONJ (in t6)] [PP [NP t7] [SBAR [REL (in t7)] [S [VP [OBJ t8]]]]]]]",
         "dependencies": [
-          "t1->t2 (numeral_mod)",
-          "t3->t4 (numeral_mod)",
-          "ROOT->t5 (main_verb)",
-          "t5->t6 (obl_arg)",
-          "t5->t7 (obl_coord)",
-          "t7->t8 (nmod)"
+          "t5 -> t6 (coord-comp)",
+          "t6 <- (REL in t6) (adj-clause)",
+          "t6 -> t7 (coord-comp)",
+          "t7 <- t8 (obj)"
         ],
-        "notes": "t5 'took' -> t6 'waters'. Coordinated with t7 'fire'. t7 modified by t8 'to setting'."
+        "notes": "The main verb in t5 ('they took me') governs two coordinated prepositional phrases, each containing a noun modified by a relative clause."
       }
     ]
   }

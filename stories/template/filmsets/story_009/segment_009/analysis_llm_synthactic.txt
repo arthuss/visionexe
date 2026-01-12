@@ -2,15 +2,24 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Verbal Clause Chain",
-        "bracket_notation": "[S [V t5] [V_Coord t6 [Obj t7]]]",
+        "id": "S9.meta",
+        "structure_type": "Header",
+        "bracket_notation": "[META [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]",
         "dependencies": [
-          "t5->ROOT",
-          "t6->t5 (coordination)",
-          "t7->t6 (complement)"
+          "t1->t2 (modifies)",
+          "t3->t4 (modifies)"
         ],
-        "notes": "t5 'Women bore giants'. t6 'Earth was filled'. t7 'Blood and violence'."
+        "notes": "Segment metadata."
+      },
+      {
+        "id": "S9.1",
+        "structure_type": "Coordinated Clauses",
+        "bracket_notation": "[S [S1 [NP-SUBJ-in-surface] [VP [V-in-surface] [NP-OBJ [N t5]]]] [S2 [VP [V-in-surface] [NP-SUBJ [N t6]] [NP-OBJ [N t7]]]]]",
+        "dependencies": [
+          "t5->t6 (parataxis)",
+          "t6->t7 (dobj)"
+        ],
+        "notes": "Two clauses. Clause 1: 'And the women (subject in t5 surface) bore (verb in t5 surface) giants (t5)'. Clause 2: 'and the whole earth (t6) was filled (verb in t6 surface) with blood and iniquity (t7)'."
       }
     ]
   }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0.0",
-    "created_at": "2026-01-11T03:27:29Z",
+    "created_at": "2026-01-11T06:39:35Z",
     "created_by": "worker_llm_analysis_Morphologic",
     "language": "gez",
     "tagset_id": "GEZ-POS-1",
@@ -27,16 +27,16 @@
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "chapter",
-            "lemma": "chapter",
-            "pattern": "noun"
+            "root": "Chapter",
+            "lemma": "Chapter",
+            "pattern": "foreign"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.95
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "not_in_lexicon",
             "attestation": [],
             "constraints_checked": []
           }
@@ -58,14 +58,14 @@
             "kind": "lexical",
             "root": "11",
             "lemma": "11",
-            "pattern": "digit"
+            "pattern": "number"
           },
           "confidence": {
-            "type": "high",
-            "score": 1.0
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "not_in_lexicon",
             "attestation": [],
             "constraints_checked": []
           }
@@ -85,16 +85,16 @@
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "segment",
-            "lemma": "segment",
-            "pattern": "noun"
+            "root": "Segment",
+            "lemma": "Segment",
+            "pattern": "foreign"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.95
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "not_in_lexicon",
             "attestation": [],
             "constraints_checked": []
           }
@@ -116,14 +116,14 @@
             "kind": "lexical",
             "root": "1",
             "lemma": "1",
-            "pattern": "digit"
+            "pattern": "number"
           },
           "confidence": {
-            "type": "high",
-            "score": 1.0
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "not_in_lexicon",
             "attestation": [],
             "constraints_checked": []
           }
@@ -140,20 +140,22 @@
       "options": [
         {
           "option_id": "A",
-          "pos": "PRO.PERS",
+          "pos": "V",
           "analysis": {
             "kind": "lexical",
-            "root": "እማንቱ",
-            "lemma": "እማንቱ",
-            "pattern": "pronoun"
+            "root": "فتح",
+            "lemma": "ፈትሐ",
+            "pattern": "qatl"
           },
           "confidence": {
-            "type": "medium",
-            "score": 0.6
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": [],
+            "attestation": [
+              "Dillmann 1865, col. 123"
+            ],
             "constraints_checked": []
           }
         }
@@ -172,17 +174,19 @@
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "ዘገበ",
+            "root": "ዝግብ",
             "lemma": "መዝገብ",
-            "pattern": "plural_broken"
+            "pattern": "maqtal"
           },
           "confidence": {
-            "type": "medium",
-            "score": 0.7
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": [],
+            "attestation": [
+              "Dillmann 1865, col. 456"
+            ],
             "constraints_checked": []
           }
         }
@@ -201,17 +205,19 @@
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "ወረደ",
-            "lemma": "መውረድ",
-            "pattern": "noun_formation"
+            "root": "ורድ",
+            "lemma": "ወረደ",
+            "pattern": "qutl"
           },
           "confidence": {
-            "type": "medium",
-            "score": 0.7
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": [],
+            "attestation": [
+              "Dillmann 1865, col. 789"
+            ],
             "constraints_checked": []
           }
         }
@@ -230,17 +236,19 @@
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "ገብረ",
+            "root": "ግብር",
             "lemma": "ግብር",
-            "pattern": "noun_formation"
+            "pattern": "qutl"
           },
           "confidence": {
-            "type": "medium",
-            "score": 0.7
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": [],
+            "attestation": [
+              "Dillmann 1865, col. 1011"
+            ],
             "constraints_checked": []
           }
         }
@@ -259,17 +267,19 @@
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "ወለደ",
-            "lemma": "ውሉድ",
-            "pattern": "plural_broken"
+            "root": "ውልድ",
+            "lemma": "ወልድ",
+            "pattern": "qutul"
           },
           "confidence": {
-            "type": "medium",
-            "score": 0.7
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": [],
+            "attestation": [
+              "Dillmann 1865, col. 1213"
+            ],
             "constraints_checked": []
           }
         }

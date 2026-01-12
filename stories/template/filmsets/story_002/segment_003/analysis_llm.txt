@@ -1,9 +1,65 @@
 ```json
 {
   "actors": [],
-  "props": [],
-  "environments": [],
-  "scenes": [],
+  "characters": [],
+  "props": [
+    {
+      "name": "water",
+      "visualTraits": "fills the whole earth",
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "clouds",
+      "visualTraits": "rests upon the earth",
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "dew",
+      "visualTraits": "rests upon the earth",
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "rain",
+      "visualTraits": "rests upon the earth",
+      "changes": [],
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "earth",
+      "visualTraits": "The whole earth, filled with water.",
+      "changes": [],
+      "role": "location"
+    }
+  ],
+  "locations": [],
+  "environments": [
+    {
+      "name": "summer",
+      "visualTraits": "A season to be observed.",
+      "changes": [],
+      "role": "temporal"
+    },
+    {
+      "name": "winter",
+      "visualTraits": "A season to be observed.",
+      "changes": [],
+      "role": "temporal"
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "Observation of the Seasons",
+      "location": "earth",
+      "action": "The whole earth is observed to be filled with water, while clouds, dew, and rain rest upon it during summer and winter.",
+      "actorsInvolved": []
+    }
+  ],
   "blocking": {
     "anchors": [],
     "paths": []

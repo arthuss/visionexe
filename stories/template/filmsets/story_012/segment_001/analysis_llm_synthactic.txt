@@ -2,17 +2,29 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1_P1",
-        "structure_type": "Main Clause with Adjuncts",
-        "bracket_notation": "[S [PP t5] [VP [V t6] [SBAR [V t7] [AdvP [ADV t8] [NP t9]]]]]",
+        "id": "S1-C1",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [PP t5] [VP [V t6] [NP Henoch]]]",
         "dependencies": [
-          "t6 (ROOT)",
-          "t6->t5 (temporal adjunct)",
-          "t6->t7 (relative/coordinate clause)",
-          "t7->t8 (locative argument)",
-          "t8->t9 (interrogative complement)"
+          "t6->t5 (advmod)"
         ],
-        "notes": "Coarse-grained parse based on chunk tokens."
+        "notes": "Clause 1: 'And before these things, Enoch was hidden.' The subject 'Enoch' is inferred from the verb 'ተብተ፡ሄኖ'."
+      },
+      {
+        "id": "S1-C2",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [CONJ ወ] [NP [NEG አልቦ] [SBAR [REL ዘ] [VP [V t7] [PP [PREP እም] [NP ውሉደ ሰብእ]]]]]]",
+        "dependencies": [
+          "t7->(implied subject) (nsubj)"
+        ],
+        "notes": "Clause 2: 'and there was no one among the children of men who knew'."
+      },
+      {
+        "id": "S1-C3",
+        "structure_type": "Interrogative Clause",
+        "bracket_notation": "[S [AdvP t8] [CONJ ወ] [AdvP t8] [CONJ ወ] [WHNP t9]]",
+        "dependencies": [],
+        "notes": "Sequence of interrogative phrases: 'where he was hidden, and where he was, and what he was.'"
       }
     ]
   }

@@ -3,21 +3,37 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "Matches 1 Enoch 1:8. 'Wa-la-tsādqān-assa salāma yigabber' (But as for the righteous, He will make peace). The particle '-ssa' (often implied or explicit in contrastive contexts) and the word order (Prep Phrase first) mark a Topic. S1 correctly identifies 'For the righteous' as the Topic of the clause.",
+      "reasoning": "Correctly parses a topicalized sentence. 'ለጻድቃንሰ' ('But as for the righteous') sets the topic. 'ይገብር ሰላመ' ('He will make peace') is the main clause, and 'ሎሙ' ('for them') is the beneficiary.",
       "parallels": [
         {
-          "ref": "1 Enoch 1:8",
-          "note": "Contrastive fate of the righteous."
+          "ref": "Psalm 29:11",
+          "note": "The theme of God giving peace to his people."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "But for the righteous, He will make peace..."
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "high",
+      "reasoning": "A correct parse of a simple coordinate clause: 'ወየዐቅቦሙ' ('And He will protect them') with the object 'ለኅሩያን' ('the elect').",
+      "parallels": [],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S3",
+      "plausibility": "high",
+      "reasoning": "Correctly parses the existential statement 'And mercy shall be upon them.'",
+      "parallels": [],
+      "context_invariance": "stable",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Topicalization is critical for the contrastive meaning.",
+  "decision_log": "This segment details the positive outcome for the righteous, contrasting with the previous segment's universal judgment. The parses are sequential and grammatically flawless, accurately capturing the distinction being made in the text.",
   "final_decision": {
-    "hypothesis_ref": "S1",
-    "translation_id": "T-Seg08-Topic",
+    "hypothesis_ref": "S1+S2+S3",
+    "translation_id": "T8",
     "confidence": "high"
   }
 }

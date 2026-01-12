@@ -2,16 +2,16 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Compound Sentence",
-        "bracket_notation": "[S [S [VP t5] [PP t6] [NP t7]] [S [VP t7] [VP t8] [NP t9]]]",
+        "id": "seg004_flat",
+        "structure_type": "Flat Phrase/Clause Chain",
+        "bracket_notation": "[S [CONJ_U t5] [U t6] [CONJ_U t7] [U t8] [U t9]]",
         "dependencies": [
-          "t5->t6 (locative)",
-          "t5->t7 (coordination)",
-          "t7->t8 (content clause)",
-          "t8->t9 (temporal adjunct)"
+          "t5 -> t6 (sequence)",
+          "t6 -> t7 (coordination)",
+          "t7 -> t8 (sequence)",
+          "t8 -> t9 (sequence)"
         ],
-        "notes": "Shared token t7 acts as pivot between 'eternity' and 'and on earth'."
+        "notes": "Parse based on sequential relationship with dependencies from initial markers."
       }
     ]
   }

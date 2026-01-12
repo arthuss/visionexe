@@ -2,14 +2,14 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Nominal Sentence",
-        "bracket_notation": "[S [NP [NP t5] [RelCl t5]] [NP t6] [VP t6] [NP t7]]",
+        "id": "seg011_flat",
+        "structure_type": "Flat Phrase/Clause Chain",
+        "bracket_notation": "[S [CONJ_U t5] [U t6] [U t7]]",
         "dependencies": [
-          "t5->t6 (coordination)",
-          "t6->t7 (object/complement)"
+          "t5 -> t6 (sequence)",
+          "t6 -> t7 (sequence)"
         ],
-        "notes": "Description of the burning fire."
+        "notes": "Parse based on sequential relationship with dependencies from initial markers."
       }
     ]
   }

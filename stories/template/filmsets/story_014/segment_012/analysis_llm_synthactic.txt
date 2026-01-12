@@ -2,17 +2,17 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Compound Sentence",
-        "bracket_notation": "[S [VP t5] [S [AdjP t6] [AdjP t7]] [S [NP t7] [NP t8] [PP t9]] [S [NP t9] [VP t9]] [S [VP t10]]]",
+        "id": "seg012_flat",
+        "structure_type": "Flat Phrase/Clause Chain",
+        "bracket_notation": "[S [CONJ_U t5] [CONJ_U t6] [U t7] [CONJ_U t8] [U t9] [CONJ_U t10]]",
         "dependencies": [
-          "t5->t6 (description)",
-          "t6->t7 (coordination)",
-          "t7->t8 (coordination)",
-          "t8->t9 (locative)",
-          "t9->t10 (result)"
+          "t5 -> t6 (coordination)",
+          "t6 -> t7 (sequence)",
+          "t7 -> t8 (coordination)",
+          "t8 -> t9 (sequence)",
+          "t9 -> t10 (coordination)"
         ],
-        "notes": "Entry, sensation (hot/cold), and emotional reaction."
+        "notes": "Parse based on sequential relationship with dependencies from initial markers."
       }
     ]
   }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0.0",
-    "created_at": "2026-01-11T03:42:13Z",
+    "created_at": "2026-01-11T06:57:24Z",
     "created_by": "worker_llm_analysis_Morphologic",
     "language": "gez",
     "tagset_id": "GEZ-POS-1",
@@ -23,22 +23,33 @@
       },
       "options": [
         {
-          "option_id": "A",
+          "option_id": "MISSING",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "root",
-            "lemma": "Chapter",
-            "pattern": "pattern"
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
           },
           "confidence": {
-            "type": "undecided",
-            "score": null
+            "type": "ruled_out",
+            "score": 0.0
           },
           "evidence": {
-            "lexicon_status": "not_found",
+            "lexicon_status": "unattested",
             "attestation": [],
-            "constraints_checked": []
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
           }
         }
       ]
@@ -52,22 +63,33 @@
       },
       "options": [
         {
-          "option_id": "A",
-          "pos": "NUM",
+          "option_id": "MISSING",
+          "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "root",
-            "lemma": "16",
-            "pattern": "pattern"
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
           },
           "confidence": {
-            "type": "undecided",
-            "score": null
+            "type": "ruled_out",
+            "score": 0.0
           },
           "evidence": {
-            "lexicon_status": "not_found",
+            "lexicon_status": "unattested",
             "attestation": [],
-            "constraints_checked": []
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
           }
         }
       ]
@@ -81,22 +103,33 @@
       },
       "options": [
         {
-          "option_id": "A",
+          "option_id": "MISSING",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "root",
-            "lemma": "Segment",
-            "pattern": "pattern"
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
           },
           "confidence": {
-            "type": "undecided",
-            "score": null
+            "type": "ruled_out",
+            "score": 0.0
           },
           "evidence": {
-            "lexicon_status": "not_found",
+            "lexicon_status": "unattested",
             "attestation": [],
-            "constraints_checked": []
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
           }
         }
       ]
@@ -110,22 +143,33 @@
       },
       "options": [
         {
-          "option_id": "A",
-          "pos": "NUM",
+          "option_id": "MISSING",
+          "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "root",
-            "lemma": "4",
-            "pattern": "pattern"
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
           },
           "confidence": {
-            "type": "undecided",
-            "score": null
+            "type": "ruled_out",
+            "score": 0.0
           },
           "evidence": {
-            "lexicon_status": "not_found",
+            "lexicon_status": "unattested",
             "attestation": [],
-            "constraints_checked": []
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
           }
         }
       ]
@@ -140,19 +184,38 @@
       "options": [
         {
           "option_id": "A",
-          "pos": "N",
+          "pos": "PREP",
           "analysis": {
-            "kind": "lexical",
-            "root": "root",
-            "lemma": "ሎሙ፡እንሰ፡ልብሙ፡",
-            "pattern": "pattern"
+            "kind": "functional",
+            "root": null,
+            "lemma": "ለ",
+            "pattern": "prefix_particle"
           },
           "confidence": {
             "type": "undecided",
             "score": null
           },
           "evidence": {
-            "lexicon_status": "not_found",
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "lb",
+            "lemma": "ልብ",
+            "pattern": "noun_with_suffix"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_form",
             "attestation": [],
             "constraints_checked": []
           }
@@ -172,16 +235,16 @@
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "root",
-            "lemma": "ሰላመ፨፨",
-            "pattern": "pattern"
+            "root": "slm",
+            "lemma": "ሰላም",
+            "pattern": "noun"
           },
           "confidence": {
             "type": "undecided",
             "score": null
           },
           "evidence": {
-            "lexicon_status": "not_found",
+            "lexicon_status": "plausible_form",
             "attestation": [],
             "constraints_checked": []
           }

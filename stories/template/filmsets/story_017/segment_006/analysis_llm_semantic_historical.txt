@@ -2,22 +2,22 @@
   "evaluation": [
     {
       "hypothesis_ref": "P1",
-      "plausibility": "Medium",
-      "reasoning": "The text contains three distinct clauses: 'I saw', 'I reached' (likely reading 'በጻሕኩ' for 'ጻሕኩ'), and 'I went'. P1's notes imply a single main verb structure ('saw' governing darkness), which is technically a mismatch with the specific clause breaks in the text ('And to the great darkness I reached'). However, the semantic clustering is accurate. The phrase 'where all flesh walks' refers to the path to the afterlife.",
+      "plausibility": "low",
+      "reasoning": "The parse incorrectly models the segment as a single complex sentence with one main verb (`t5` 'saw'). The text clearly contains three separate, coordinated main clauses: `ወርኢኩ...` (And I saw...), `ወ...ጻሕኩ` (and I arrived...), and `ወሖርኩ...` (and I went...). The parse fails to identify `ጻሕኩ` and `ሖርኩ` as main verbs, instead subordinating the 'darkness' phrase under 'saw'.",
       "parallels": [
         {
-          "ref": "1 Enoch 17:6",
-          "note": "The journey into the dark regions."
+          "ref": "N/A",
+          "note": "The structure is a simple coordination of clauses (S1 and S2 and S3), a fundamental pattern. The proposed parse violates this by incorrectly creating a dependency between the object of the first clause and the location of the second."
         }
       ],
-      "context_invariance": "Stable",
-      "back_translation": "And I saw all the great rivers. And I reached to the great darkness. And I went where all flesh walks."
+      "context_invariance": "unstable",
+      "back_translation": "fail"
     }
   ],
-  "decision_log": "Noted structural discrepancy in P1 notes vs text verbs, but semantic content is valid.",
+  "decision_log": "Rejecting P1. It misinterprets a coordinate clause structure as a subordinate one, failing to account for all main verbs in the segment. A correct parse would show three coordinated VPs or Sentences.",
   "final_decision": {
-    "hypothesis_ref": "P1",
-    "translation_id": "T1",
-    "confidence": "Medium"
+    "hypothesis_ref": "none",
+    "translation_id": "none",
+    "confidence": "low"
   }
 }

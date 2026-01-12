@@ -1,0 +1,23 @@
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "moderate",
+      "reasoning": "The parse reflects the complex and slightly redundant grammar of the source text ('ዘዲ፡መናፍስተ...ዘመናፍስተ...'), which appears to be a case of dittography or a variant reading. While grammatically tangled, the parse correctly interprets the intended meaning: being set over the spirits of men who sin.",
+      "paralleles": [
+        {
+          "ref": "1 Enoch 20:6",
+          "note": "This verse assigns Saraqael (Sariel) authority 'over the spirits, who sin in the spirit.' This provides a strong functional parallel and suggests the original intent of the somewhat-corrupted source text."
+        }
+      ],
+      "context_invariance": "moderate",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "S1 is the best possible interpretation of the provided text, despite the likely textual corruption. The meaning is recoverable thanks to strong parallels in 1 Enoch. Plausibility is marked as 'moderate' not because the parse is wrong, but because the underlying text is awkward.",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}

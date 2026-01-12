@@ -2,16 +2,15 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1_P1",
-        "structure_type": "Main Clause with Direct Speech",
-        "bracket_notation": "[S [V t5] [S_speech [V t6] [NP_vocative [N t7] [N t8] [N t9]]]]",
+        "id": "P1",
+        "structure_type": "Clause Sequence",
+        "bracket_notation": "[S1 [VP t5]] [S2 [VP t6] [NP-APPO t7 [MOD-GEN t8]]] [S3 [VP t8] [NP-OBJ t9]]",
         "dependencies": [
-          "t5 -> t6 (complement/speech)",
-          "t6 -> t7 (vocative)",
-          "t7 -> t8 (modifier)",
-          "t8 -> t9 (object)"
+          "t6->t7 (apposition)",
+          "t7->t8 (genitive_modifier)",
+          "t8->t9 (direct_object)"
         ],
-        "notes": "t5 introduces the speech acts in t6-t9."
+        "notes": "A sequence of three main sentences. The tokenization groups multiple words, so t5 and t8 represent multiple clausal elements. The second sentence contains a noun phrase in apposition."
       }
     ]
   }

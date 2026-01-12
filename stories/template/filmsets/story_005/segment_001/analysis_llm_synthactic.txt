@@ -2,22 +2,30 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Compound Clause Sequence",
-        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [Clause t5] [Clause t6] [Clause t7] [Clause t8 [Obj t9 [Mod t10]]]]]",
+        "id": "P1",
+        "structure_type": "Header + Fragments",
+        "bracket_notation": "[ROOT [HEADER [TITLE [N t1] [NUM t2]] [ID [N t3] [NUM t4]]] [BODY [FRAG t5] [FRAG t6] [FRAG t7] [FRAG t8] [FRAG t9] [FRAG t10]]]",
         "dependencies": [
-          "t5->t1 (meta)",
-          "t5->t2 (meta)",
-          "t5->t3 (meta)",
-          "t5->t4 (meta)",
-          "root->t5 (root)",
-          "t5->t6 (coordination)",
-          "t6->t7 (coordination)",
-          "t7->t8 (coordination)",
-          "t8->t9 (object)",
-          "t9->t10 (modifier)"
+          "t1->t2 (mod)",
+          "t3->t4 (mod)"
         ],
-        "notes": "Token granularity is at phrase/clause level due to input compounding."
+        "notes": "Safe parse assuming a metadata header followed by a flat list of body fragments. This approach is robust against incorrect POS tagging in the source."
+      },
+      {
+        "id": "P2",
+        "structure_type": "Clausal Structure",
+        "bracket_notation": "[ROOT [HEADER [TITLE [N t1] [NUM t2]] [ID [N t3] [NUM t4]]] [S [SBAR [VERB t6] [NP t5]] [NP t7] [S [VERB t8] [NP t9]] [PP t10]]]",
+        "dependencies": [
+          "t1->t2 (mod)",
+          "t3->t4 (mod)",
+          "t6->t5 (nsubj)",
+          "ROOT->t6 (root)",
+          "t6->t7 (obj)",
+          "t6->t8 (ccomp)",
+          "t8->t9 (obj)",
+          "t6->t10 (advmod)"
+        ],
+        "notes": "Assumes t6 ('ቍጽል፡ይትደኑ፡ወይፈርዩ፡') is the main verb. The parse is highly speculative due to 'unattested_compound_token' errors in the morphological analysis, forcing treatment of multi-word phrases as single nouns or verbs."
       }
     ]
   }

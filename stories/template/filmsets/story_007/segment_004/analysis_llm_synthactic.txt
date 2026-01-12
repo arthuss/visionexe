@@ -2,15 +2,13 @@
   "syntax": {
     "parses": [
       {
-        "id": "S4-P1",
-        "structure_type": "Serial Verb Construction",
-        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP [V t5] [S [VP [V t6]]]]]",
+        "id": "S4_P1",
+        "structure_type": "Sentence",
+        "bracket_notation": "[S [VP t5] [VP t6]]",
         "dependencies": [
-          "t1->t2 (mod)",
-          "t3->t4 (mod)",
-          "t5->t6 (purp)"
+          "t5->t6 (advcl:purp)"
         ],
-        "notes": "t5 (turned) governs t6 (to eat) as a purpose or consecutive clause."
+        "notes": "The main clause verb phrase in t5 ('...the giants turned against them') is modified by a subordinate clause of purpose in t6 ('to devour men')."
       }
     ]
   }

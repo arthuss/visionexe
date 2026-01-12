@@ -3,19 +3,40 @@
     "parses": [
       {
         "id": "S1",
-        "structure_type": "Discourse Unit",
-        "bracket_notation": "[Meta [N t1] [NUM t2] [N t3] [NUM t4]] [Fragment t5 t6 t7 t8 t9 t10 t11 t12 t13 t14 t15] [S [VP t16 [NP t17]] [S [VP t18] [S [VP t19] [VP t20]]]]",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP [N t1] [NUM t2]]",
         "dependencies": [
-          "t3->t1 (meta_relation)",
-          "t1->t2 (nummod)",
-          "t3->t4 (nummod)",
-          "t16->t5 (loose_association)",
-          "t16->t17 (locative_complement)",
-          "t16->t18 (coordination_narrative)",
-          "t18->t19 (causal_clause)",
-          "t19->t20 (coordination)"
+          "t1->t2 (numeric_modifier)"
         ],
-        "notes": "t5-t15 are messy punctuation/numeric fragments; t16 resumes narrative."
+        "notes": "Chapter 6"
+      },
+      {
+        "id": "S2",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP [N t3] [NUM t4]]",
+        "dependencies": [
+          "t3->t4 (numeric_modifier)"
+        ],
+        "notes": "Segment 6"
+      },
+      {
+        "id": "S3",
+        "structure_type": "List",
+        "bracket_notation": "[LIST [PUNC t5] [NUM t6] [PUNC t7] [PUNC t8] [PUNC t9] [NUM t10] [PUNC t11] [PUNC t12] [NUM t13] [PUNC t14] [PUNC t15]]",
+        "dependencies": [],
+        "notes": "Sequence of numbers and punctuation, possibly a list or table fragment."
+      },
+      {
+        "id": "S4",
+        "structure_type": "Coordinated Nominal Phrases",
+        "bracket_notation": "[NP-COORD [NP t16] [NP t17] [NP t18] [NP t19] [NP t20]]",
+        "dependencies": [
+          "t16->t17 (coord)",
+          "t17->t18 (coord)",
+          "t18->t19 (coord)",
+          "t19->t20 (coord)"
+        ],
+        "notes": "A sequence of coordinated nominal phrases."
       }
     ]
   }

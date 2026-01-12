@@ -3,16 +3,21 @@
     {
       "hypothesis_ref": "S3_P1",
       "plausibility": "high",
-      "reasoning": "Accurately captures the interrogative 'Why' (`ʾǝnta mant`) and the chain of accusatory actions (left heaven, slept with women, defiled selves).",
-      "parallels": [],
+      "reasoning": "The parse correctly identifies the structure as an interrogative clause initiated by 'ʾǝntä mänt' (Why?). The subsequent verbs and prepositional phrases detail the transgressive actions being questioned. The chain of accusatives and adjuncts is parsed logically.",
+      "parallels": [
+        {
+          "ref": "Psalm 2:1",
+          "note": "Use of 'ləmänt' (similar to 'ʾǝntä mänt') to open a rhetorical question."
+        }
+      ],
       "context_invariance": "stable",
-      "back_translation": "Wherefore have ye left the high, holy, and eternal heaven, and lain with women, and defiled yourselves with the daughters of men, and taken to yourselves wives, and done like the children of earth, and begotten giants (as your) sons?"
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Matches 1 Enoch 15:3.",
+  "decision_log": "The interrogative structure is unambiguous. S3_P1 correctly captures the syntax of the accusation against the Watchers.",
   "final_decision": {
     "hypothesis_ref": "S3_P1",
-    "translation_id": "T1",
+    "translation_id": "T3",
     "confidence": "high"
   }
 }

@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0.0",
-    "created_at": "2026-01-11T03:15:51Z",
+    "created_at": "2026-01-11T06:30:07Z",
     "created_by": "worker_llm_analysis_Morphologic",
     "language": "gez",
     "tagset_id": "GEZ-POS-1",
@@ -27,20 +27,19 @@
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": null,
-            "lemma": "Chapter",
-            "pattern": null
+            "surface_form": "Chapter",
+            "root": "chapter",
+            "lemma": "chapter",
+            "pattern": "en"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "foreign_meta",
+            "lexicon_status": "unattested_in_lexicon",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
           }
         }
       ]
@@ -58,20 +57,19 @@
           "pos": "NUM",
           "analysis": {
             "kind": "lexical",
-            "root": null,
+            "surface_form": "6",
+            "root": "6",
             "lemma": "6",
-            "pattern": null
+            "pattern": "en-digit"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_numeric",
+            "lexicon_status": "unattested_in_lexicon",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
           }
         }
       ]
@@ -89,20 +87,19 @@
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": null,
-            "lemma": "Segment",
-            "pattern": null
+            "surface_form": "Segment",
+            "root": "segment",
+            "lemma": "segment",
+            "pattern": "en"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "foreign_meta",
+            "lexicon_status": "unattested_in_lexicon",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
           }
         }
       ]
@@ -120,20 +117,19 @@
           "pos": "NUM",
           "analysis": {
             "kind": "lexical",
-            "root": null,
+            "surface_form": "1",
+            "root": "1",
             "lemma": "1",
-            "pattern": null
+            "pattern": "en-digit"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_numeric",
+            "lexicon_status": "unattested_in_lexicon",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
           }
         }
       ]
@@ -148,23 +144,82 @@
       "options": [
         {
           "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "surface_form": "ወነ",
+            "root": "כון",
+            "lemma": "ኮነ",
+            "pattern": "conjunction_prefix+verb_perfect_3ms"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "functional",
+            "surface_form": "እምዘዝ",
+            "root": null,
+            "lemma": "እም",
+            "pattern": "preposition+demonstrative_pronoun"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": null,
-            "lemma": "ወነ፡እምዘዝ፡ውሉደ፡ሰብእ፡",
-            "pattern": null
+            "surface_form": "ውሉደ",
+            "root": "ولد",
+            "lemma": "ወልድ",
+            "pattern": "noun_plural_accusative"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.1
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "unattested_compound_phrase",
+            "lexicon_status": "unattested_in_lexicon",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "surface_form": "ሰብእ",
+            "root": "ሰብእ",
+            "lemma": "ሰብእ",
+            "pattern": "noun_singular"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
           }
         }
       ]
@@ -179,23 +234,62 @@
       "options": [
         {
           "option_id": "A",
+          "pos": "PRO.DEM",
+          "analysis": {
+            "kind": "functional",
+            "surface_form": "እማንቱ",
+            "root": null,
+            "lemma": "እማንቱ",
+            "pattern": "demonstrative_pronoun_plural"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": null,
-            "lemma": "እማንቱ፡መዋእል፡ተወልዳ፡",
-            "pattern": null
+            "surface_form": "መዋእል",
+            "root": "መዓል",
+            "lemma": "መዓልት",
+            "pattern": "noun_plural"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.1
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "unattested_compound_phrase",
+            "lexicon_status": "unattested_in_lexicon",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "surface_form": "ተወልዳ",
+            "root": "ولد",
+            "lemma": "ወለደ",
+            "pattern": "verb_passive_perfect_3fp"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
           }
         }
       ]
@@ -210,23 +304,62 @@
       "options": [
         {
           "option_id": "A",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "functional",
+            "surface_form": "ሎሙ",
+            "root": null,
+            "lemma": "ለ",
+            "pattern": "preposition+pronominal_suffix_3mp"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": null,
-            "lemma": "ሎሙ፡ዋልድ፡ሠናያት፡",
-            "pattern": null
+            "surface_form": "ዋልድ",
+            "root": "ولد",
+            "lemma": "ወልድ",
+            "pattern": "noun_plural"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.1
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "unattested_compound_phrase",
+            "lexicon_status": "unattested_in_lexicon",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "surface_form": "ሠናያት",
+            "root": "ሠኒ",
+            "lemma": "ሠናይ",
+            "pattern": "adjective_feminine_plural"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
           }
         }
       ]
@@ -241,23 +374,42 @@
       "options": [
         {
           "option_id": "A",
-          "pos": "N",
+          "pos": "CONJ.COORD",
           "analysis": {
-            "kind": "lexical",
+            "kind": "functional",
+            "surface_form": "ወ",
             "root": null,
-            "lemma": "ወላህያት፨",
-            "pattern": null
+            "lemma": "ወ",
+            "pattern": "conjunction_prefix"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.1
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "unattested_compound_phrase",
+            "lexicon_status": "attested_in_lexicon",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "surface_form": "ላህያት",
+            "root": "ለሀي",
+            "lemma": "ላህይ",
+            "pattern": "adjective_feminine_plural"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
           }
         }
       ]

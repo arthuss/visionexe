@@ -1,28 +1,40 @@
 ```json
 {
-  "actors": [
-    {"name":"ወነ","visualTraits":[],"changes":[],"role":null},
-    {"name":"እምዘዝ","visualTraits":[],"changes":[],"role":null},
-    {"name":"ውሉደ","visualTraits":[],"changes":[],"role":null},
-    {"name":"ሰብእ","visualTraits":[],"changes":[],"role":null},
-    {"name":"እማንቱ","visualTraits":[],"changes":[],"role":null},
-    {"name":"መዋእል","visualTraits":[],"changes":[],"role":null},
-    {"name":"ተወልዳ","visualTraits":[],"changes":[],"role":null},
-    {"name":"ሎሙ","visualTraits":[],"changes":[],"role":null},
-    {"name":"ዋልድ","visualTraits":[],"changes":[],"role":null},
-    {"name":"ሠናያት","visualTraits":[],"changes":[],"role":null},
-    {"name":"ወላህያት","visualTraits":[],"changes":[],"role":null}
+  "actors": [],
+  "characters": [
+    {
+      "name": "children of men",
+      "visualTraits": "human",
+      "changes": [],
+      "role": "progenitors"
+    },
+    {
+      "name": "daughters",
+      "visualTraits": "human, beautiful, lovely",
+      "changes": [],
+      "role": "offspring"
+    }
   ],
   "props": [],
-  "environments": [],
+  "places": [],
+  "locations": [],
+  "environments": [
+    {
+      "name": "a bygone era",
+      "visualTraits": "unspecified",
+      "changes": [],
+      "role": "temporal_setting"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title":"Chapter 6 Segment 1",
-      "location":null,
-      "action":null,
-      "actorsInvolved":[
-        "ወነ","እምዘዝ","ውሉደ","ሰብእ","እማንቱ","መዋእል",
-        "ተወልዳ","ሎሙ","ዋልድ","ሠናያት","ወላህያት"
+      "title": "Birth of Daughters to Men",
+      "location": "unspecified",
+      "action": "Daughters, described as beautiful and lovely, are born to the children of men.",
+      "actorsInvolved": [
+        "children of men",
+        "daughters"
       ]
     }
   ],

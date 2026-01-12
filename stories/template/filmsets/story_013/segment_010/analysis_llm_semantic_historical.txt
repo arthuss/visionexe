@@ -3,13 +3,18 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The climax of the chapter: the delivery of the vision. 'ቃላተ፡ጽድቅ' (words of righteousness) contrasts with the Watchers' corruption. The parsing of the double object construction (spoke... visions) is acceptable.",
-      "parallels": [],
+      "reasoning": "The parse correctly identifies a sequence of chained perfect verbs: 'ወተናገርኩ' (And I spoke), followed by 'ወወጠንኩ፡እትናገር' (and I began to speak). The analysis of 'ቃላተ፡ጽድቅ' (words of righteousness) as the object is correct. This is a straightforward transitive sentence structure, common in concluding a scene or speech.",
+      "parallels": [
+        {
+          "ref": "ATTESTATION_DATA_UNAVAILABLE",
+          "note": "No parallel corpus was available to verify attestation."
+        }
+      ],
       "context_invariance": "stable",
-      "back_translation": "And I recounted before them the visions which I had seen in my sleep, and I began to speak those words of righteousness and to reprimand the Watchers of heaven."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Final action of the sequence.",
+  "decision_log": "S1 accurately identifies a simple, transitive verbal sentence. The structure is clear and fundamental, representing the climax of the preceding narrative journey.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",

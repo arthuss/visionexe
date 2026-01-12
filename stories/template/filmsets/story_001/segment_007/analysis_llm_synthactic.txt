@@ -2,37 +2,22 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
+        "id": "S7-P1",
         "structure_type": "Verbal Clause",
-        "bracket_notation": "[S [Conj t5.m1] [V t5.m2] [Subj t5.m4]]",
+        "bracket_notation": "[S [VP t5] [Coord [S t6]]]",
         "dependencies": [
-          "t5.m2->(root) (main_verb)",
-          "t5.m4->t5.m2 (subject)"
+          "t5->t6 (coordination)"
         ],
-        "notes": "'And the earth shall be submerged/rent'"
+        "notes": "The clause 'And the earth will be submerged' (t5) is coordinated with 'and what is on the earth will perish' (t6)."
       },
       {
-        "id": "S2",
+        "id": "S7-P2",
         "structure_type": "Verbal Clause",
-        "bracket_notation": "[S [Conj t5.m6] [Subj [NP [N t5.m7] [RelCl [Rel t6.m1] [PP [Prep t6.m2] [N t6.m4]]]]] [V t6.m6]]",
+        "bracket_notation": "[S [VP t7] [Coord [S t8]]]",
         "dependencies": [
-          "t6.m6->t5.m2 (coordination)",
-          "t5.m7->t6.m6 (subject)",
-          "t6.m4->t6.m1 (relative_location)"
+          "t7->t8 (coordination)"
         ],
-        "notes": "'And all that is in the earth shall perish'"
-      },
-      {
-        "id": "S3",
-        "structure_type": "Verbal Clause",
-        "bracket_notation": "[S [Conj t7.m1] [V t7.m2] [Subj t7.m4] [PP [Prep t7.m6] [NP [N t7.m8] [Conj t8.m1] [Prep t8.m2] [N t8.m4]]]]",
-        "dependencies": [
-          "t7.m2->t6.m6 (coordination)",
-          "t7.m4->t7.m2 (subject)",
-          "t7.m8->t7.m6 (prep_obj)",
-          "t8.m4->t7.m8 (coordination)"
-        ],
-        "notes": "'And there shall be judgment upon all and upon the righteous'"
+        "notes": "The clause 'and there will be judgment upon all' (t7) is coordinated with 'and upon the righteous' (t8)."
       }
     ]
   }

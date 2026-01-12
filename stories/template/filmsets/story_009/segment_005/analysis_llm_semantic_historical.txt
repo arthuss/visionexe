@@ -3,18 +3,26 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "Corresponds to 1 Enoch 9:5. The attributes of omniscience ('You see all', 'nothing can hide') are standard.",
+      "reasoning": "The parse correctly identifies a chain of clauses describing God's omnipotence and omniscience. The sequence of statements ('You made all,' 'power is with you,' 'you see all') is a standard formulation in hymnic praise.",
       "parallels": [
         {
-          "ref": "1 Enoch 9:5",
-          "note": null
+          "ref": "Hebrews 4:13",
+          "note": "The phrase 'all things are naked and open' (ግሁድ) before God is a very close, almost verbatim, parallel."
+        },
+        {
+          "ref": "Psalm 139:7-12",
+          "note": "The theme that nothing can be hidden (ይትኃባእ) from God's sight is the central message of this Psalm."
+        },
+        {
+          "ref": "Isaiah 44:24",
+          "note": "Affirms God as the one 'who has made all things'."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "You have made all things, and power over all is with you, and all things are naked and open before you, and you see all things, and there is nothing that can hide from you."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Parse correctly handles the clause chaining and existential negation.",
+  "decision_log": "The structure is straightforward and heavily attested in biblical and post-biblical literature, making the parse highly plausible.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",

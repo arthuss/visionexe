@@ -2,20 +2,64 @@
   "syntax": {
     "parses": [
       {
-        "id": "S4_P1",
-        "structure_type": "Complex Imperative with Relative Chain",
-        "bracket_notation": "[S [V t5] [S [V t6] [SBAR [V t7] [AP t8] [S [V t9] [SBAR [V t10]] [S [V t11] [NP t12]]]]]]",
+        "id": "S4-C1",
+        "structure_type": "Imperative Clause",
+        "bracket_notation": "[S [VOC [NP ሄኖ ጸሓፌ ጽድቅ]] [VP [V t5]]]",
         "dependencies": [
-          "t5 (ROOT)",
-          "t5->t6 (purposive complement)",
-          "t6->t7 (relative clause on implicit object)",
-          "t7->t8 (adjectival modifier)",
-          "t7->t9 (coordinate relative)",
-          "t9->t10 (comparative clause)",
-          "t9->t11 (coordinate relative)",
-          "t11->t12 (direct object)"
+          "t5->(ሄኖ) (vocative)"
         ],
-        "notes": "High complexity due to embedded clauses in chunks."
+        "notes": "Command: 'Enoch, scribe of righteousness, go!'"
+      },
+      {
+        "id": "S4-C2",
+        "structure_type": "Imperative Clause",
+        "bracket_notation": "[S [VP [V t6] [IO [NP ትጉሃነ ሰማይ]] [SBAR [REL እለ] [S [VP [V t7] [DO [NP ሰማየ ልዑለ] [CONJ ወ] [NP [N ምቅዋመ] [ADJ ቅዱሰ ዘለዓለም (t8)]]]]]]]]",
+        "dependencies": [
+          "t6->(ትጉሃነ) (iobj)",
+          "t6->t7 (advcl)",
+          "t7->(ሰማየ) (dobj)",
+          "t7->(ምቅዋመ) (dobj)",
+          "t8->(ምቅዋመ) (amod)"
+        ],
+        "notes": "Command with relative clause: 'make known to the Watchers of heaven who forsook the high heaven and the holy, eternal place.'"
+      },
+      {
+        "id": "S4-C3",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [CONJ ወ] [PP [PREP ምስለ] [NP አንስት]] [VP [V t9]]]",
+        "dependencies": [
+          "t9->(አንስት) (obl)"
+        ],
+        "notes": "Continuation of the Watchers' actions: 'and defiled themselves with women'."
+      },
+      {
+        "id": "S4-C4",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [CONJ ወ] [VP [V ገብሩ (t9)] [SBAR [REL ዘ] [S [VP [V t10] [NP ውሉደ ሰብእ]]]]]]",
+        "dependencies": [
+          "t9->t10 (ccomp)"
+        ],
+        "notes": "'and did what the children of men do.'"
+      },
+      {
+        "id": "S4-C5",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [CONJ ወ] [VP [V ነሥኡ (t10)] [IO ሎሙ (t11)] [DO አንስተ (t11)]]]",
+        "dependencies": [
+          "t10->t11 (iobj)",
+          "t10->t11 (dobj)"
+        ],
+        "notes": "'and took for themselves wives.'"
+      },
+      {
+        "id": "S4-C6",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [CONJ ወ] [VP [V ማሰኑ (t11)] [DO [ADJ ዐቢየ] [N ሙስና (t12)]] [PP [PREP በ] [N ምድር (t12)]]]]",
+        "dependencies": [
+          "t11->t12 (obj)",
+          "t11->t12 (obl)"
+        ],
+        "notes": "'and have corrupted the earth with a great corruption.'"
       }
     ]
   }

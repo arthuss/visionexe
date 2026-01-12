@@ -2,17 +2,22 @@
   "evaluation": [
     {
       "hypothesis_ref": "S1",
-      "plausibility": "high",
-      "reasoning": "The nominalized sequence lists the contents of the petition: 'their spirit', 'their deeds', and 'what they asked for'. The parse correctly handles the series of genitive constructions and relative clauses.",
-      "parallels": [],
-      "context_invariance": "stable",
-      "back_translation": "And then I wrote the memorial of their petition and their supplication regarding their spirit and for each of their deeds and regarding what they asked, that there might be for them forgiveness and length [of days/peace]."
+      "plausibility": "moderate",
+      "reasoning": "The parse identifies a nominalized sequence where the main action verb ('ጸሐፍኩ' - I wrote) is stated at the beginning of the next segment but is implied here. The structure relies on the adverb 'ሜሃ' (then) followed by a list of items written. While grammatically possible as a verbless clause in this narrative style, it's less direct than a standard verbal clause, hence the 'moderate' plausibility. It correctly links the components ('ስዕለቶሙ', 'መንፈሶሙ', 'ምግባሮሙ') as a cohesive list.",
+      "parallels": [
+        {
+          "ref": "ATTESTATION_DATA_UNAVAILABLE",
+          "note": "No parallel corpus was available to verify attestation."
+        }
+      ],
+      "context_invariance": "variable",
+      "back_translation": "partial"
     }
   ],
-  "decision_log": "Complex list structure handled correctly.",
+  "decision_log": "S1 correctly analyzes the segment as a list of nominals describing the content of the writing. The analysis as a verbless structure is plausible but relies heavily on the subsequent segment for the main verb, making it context-dependent.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",
-    "confidence": "high"
+    "confidence": "moderate"
   }
 }

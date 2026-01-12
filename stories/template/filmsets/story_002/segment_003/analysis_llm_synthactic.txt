@@ -2,15 +2,29 @@
   "syntax": {
     "parses": [
       {
-        "id": "S3_P1",
-        "structure_type": "Observation Clause",
-        "bracket_notation": "[ROOT [V t5] [COMP [V t6] [OBJ [N t7] [PRED [V t8]]]]]",
+        "id": "P3-1",
+        "structure_type": "Imperative Clause",
+        "bracket_notation": "[S.IMP [VP [V t5]]]",
+        "dependencies": [],
+        "notes": "Imperative verb 'ርእይዎ' (t5) with coordinated objects 'ለሐጋይ፡ወለረምት'."
+      },
+      {
+        "id": "P3-2",
+        "structure_type": "Declarative Clause",
+        "bracket_notation": "[S [NP.SUBJ [N ምድር]] [VP [V t6] [NP.OBJ t6]]]",
         "dependencies": [
-          "t5->t6 (complement)",
-          "t6->t7 (object_coord)",
-          "t7->t8 (predicate)"
+          "t6->t6 (subject/object)"
         ],
-        "notes": "t5 'Observe' -> t6 'How earth is full' -> t7 'clouds etc.' -> t8 'rest'."
+        "notes": "Clause 'ምድር፡መልት፡ማየ' (t6) where the verb 'መልአት' has a subject 'ምድር' and object 'ማየ'."
+      },
+      {
+        "id": "P3-3",
+        "structure_type": "Declarative Clause",
+        "bracket_notation": "[S [NP.SUBJ t7] [VP [V t8] [PP t8]]]",
+        "dependencies": [
+          "t8->t7 (subject)"
+        ],
+        "notes": "Coordinated noun phrase 'ወደመና፡ወጠል፡ወዝናም' (t7) serves as the subject for the verb 'የዓርፍ' (t8)."
       }
     ]
   }

@@ -1,0 +1,500 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T06:59:29Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_043/segment_002",
+    "graphematic_string": "Chapter 43 Segment 2\n\nወርኢዋ፡ለመዳልወ፡ጽድቅ፡\nመ፡ይደለዉ፡ብርሃናቲሆሙ፡\nርኅ፡መናቲሆሙ፡ወዕለተ፡\nነቶሙ፡\nወሚጠቶሙ፨መብረቅ፡መብረቀ፡\nይወልድ፡ወሚጠቶሙ፡ልቈ፡\nመላእት፡ወሃይማኖቶሙ፡\nየዐቅቡ፡ይናቲሆሙ፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "43",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "2",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወርኢዋ፡ለመዳልወ፡ጽድቅ፡",
+      "span": {
+        "start": 22,
+        "end": 37
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ርኢ",
+            "lemma": "ርእየ",
+            "pattern": "ወ-C1C2-ዋ",
+            "gloss": "and-see-it(fem.)"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "The imperative verb 'ርኢዋ' appears to be the primary element."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "መ፡ይደለዉ፡ብርሃናቲሆሙ፡",
+      "span": {
+        "start": 38,
+        "end": 53
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ደለወ",
+            "lemma": "ተደለወ",
+            "pattern": "ይ-C1C2C3-ዉ",
+            "gloss": "they_are_prepared"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "The verb 'ይደለዉ' is the head of the phrase."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ርኅ፡መናቲሆሙ፡ወዕለተ፡",
+      "span": {
+        "start": 54,
+        "end": 68
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "መና",
+            "lemma": "መና",
+            "pattern": "C1C2-ቲሆሙ",
+            "gloss": "their_portions"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Token appears to contain multiple nouns; 'መናቲሆሙ' (their portions) is a possibility."
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ዕለት",
+            "lemma": "ዕለት",
+            "pattern": "C1C2-ተ",
+            "gloss": "day"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Token also contains 'ዕለተ' (day of)."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ነቶሙ፡",
+      "span": {
+        "start": 69,
+        "end": 73
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "CLIT.PRON",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "-ሆሙ",
+            "pattern": "C1C2-ሙ",
+            "gloss": "their"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "This appears to be a fragment 'ነቶሙ', possibly a misspelling or part of a larger construction."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ወሚጠቶሙ፨መብረቅ፡መብረቀ፡",
+      "span": {
+        "start": 74,
+        "end": 90
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ምጠት",
+            "lemma": "ምጠት",
+            "pattern": "C1C2-ቶሙ",
+            "gloss": "their_coming"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "The token contains the noun 'ሚጠቶሙ' (their return/coming)."
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "በርቅ",
+            "lemma": "መብረቅ",
+            "pattern": "መ-C1C2C3-ቀ",
+            "gloss": "lightning(acc.)"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "The token contains the cognate accusative 'መብረቀ' (a lightning)."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "ይወልድ፡ወሚጠቶሙ፡ልቈ፡",
+      "span": {
+        "start": 91,
+        "end": 105
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ወለደ",
+            "lemma": "ወለደ",
+            "pattern": "ይ-C1C2C3",
+            "gloss": "it_begets"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "The token starts with the verb 'ይወልድ' (it begets)."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t11",
+      "surface": "መላእት፡ወሃይማኖቶሙ፡",
+      "span": {
+        "start": 106,
+        "end": 119
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ላእክ",
+            "lemma": "መልአክ",
+            "pattern": "መ-C1C2C3-ት",
+            "gloss": "angels"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "The token starts with 'መላእት' (angels)."
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "አمن",
+            "lemma": "ሃይማኖት",
+            "pattern": "ሃይማኖት-ኦሙ",
+            "gloss": "their_faith"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "The token includes the conjoined noun 'ወሃይማኖቶሙ' (and their faith)."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t12",
+      "surface": "የዐቅቡ፡ይናቲሆሙ፨",
+      "span": {
+        "start": 120,
+        "end": 131
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ዐቀበ",
+            "lemma": "ዐቀበ",
+            "pattern": "ይ-C1C2C3-ኡ",
+            "gloss": "they_keep"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "The token contains the verb 'የዐቅቡ' (they keep)."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

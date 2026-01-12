@@ -1,23 +1,27 @@
 {
   "evaluation": [
     {
-      "hypothesis_ref": "S5",
-      "plausibility": "moderate",
-      "reasoning": "Corresponds to 1 Enoch 7:5. Heavily corrupted text in input ('ወዲ፡ራዊት' instead of 'ወአራዊት', 'ይናቲሆሙ' possibly 'በበይናቲሆሙ'). However, the list of animals (birds, beasts, reptiles, fish) and the act of blood-drinking ('ወደመ፡ስትዩ') is clearly discernible and historically accurate to the chapter content.",
+      "hypothesis_ref": "S5-P1",
+      "plausibility": "high",
+      "reasoning": "The parse correctly identifies a complex coordination of multiple verbs and clauses detailing the transgressions of the giants. It begins with 'ወጠኑ' ('they began'), which governs the subsequent sinful acts. The structure reflects a list of escalating offenses, which is typical for this type of narrative condemnation.",
       "parallels": [
         {
-          "ref": "1 Enoch 7:5",
-          "note": "Text: ወወጠኑ፡ያብሱ፡በዕዋፍ፡ወአራዊት... ወይትባልዑ፡በበይናቲሆሙ፡ሥጋሆሙ፡ወደመ፡ይሰትዩ።"
+          "ref": "1 Enoch 7",
+          "note": "This entire segment is a catalogue of sins that forms the core of the chapter's indictment against the giants. The grammar directly reflects this list-like function."
+        },
+        {
+          "ref": "General Attestation",
+          "note": "The use of 'ወጠነ' + verb is a standard inceptive construction. The coordination of multiple VPs with a shared (often implicit) subject is also standard narrative style."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And they began to sin against birds, and beasts, and creeping things, and fish, and to devour one another's flesh, and they drank the blood."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "The input text requires significant emendation (reconstruction) to match standard grammar, but the semantic domains (animals, cannibalism, blood) are distinct. The coordination parse is valid for the list of victims.",
+  "decision_log": "The parse accurately models the 'list of sins' structure. The text describes a sequence of actions ('began to sin against birds...', 'ate one another's flesh', 'drank blood'), and the coordinated structure of the parse reflects this perfectly.",
   "final_decision": {
-    "hypothesis_ref": "S5",
-    "translation_id": "T1",
-    "confidence": "moderate"
+    "hypothesis_ref": "S5-P1",
+    "translation_id": "T5",
+    "confidence": "high"
   }
 }

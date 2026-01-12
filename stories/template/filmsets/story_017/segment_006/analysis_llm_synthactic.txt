@@ -2,18 +2,14 @@
   "syntax": {
     "parses": [
       {
-        "id": "P1",
-        "structure_type": "Complex Sentence",
-        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP t5 [NP t6] [NP t7 [PP t8]]]]",
+        "id": "S6.A",
+        "structure_type": "Clause Coordination",
+        "bracket_notation": "[S [S1 [VP t5] [NP t6]] [CONJ 'ወ'] [S2 [VP (in t7)] [PP (in t6)]] [CONJ 'ወ'] [S3 [VP (in t7)] [SBAR t8]]]",
         "dependencies": [
-          "t1->t2 (numeral_mod)",
-          "t3->t4 (numeral_mod)",
-          "ROOT->t5 (main_verb)",
-          "t5->t6 (obj)",
-          "t5->t7 (conj_obj)",
-          "t7->t8 (acl_relcl)"
+          "t5 -> t7 (coord-clause)",
+          "t7 -> t8 (loc-clause)"
         ],
-        "notes": "t5 'saw' -> t6 'rivers'. t7 'darkness' (noun option) coordinated object. t7 modified by t8 'where...'."
+        "notes": "The segment consists of three coordinated clauses: 'And I saw...' (t5, t6), 'and I came...' (t6, t7), 'and I went...' (t7, t8)."
       }
     ]
   }

@@ -2,22 +2,22 @@
   "evaluation": [
     {
       "hypothesis_ref": "S4_P1",
-      "plausibility": "moderate",
-      "reasoning": "The text appears heavily abbreviated or corrupted ('ሎሙ፡እንሰ፡ልብሙ፡ሰላመ'). Standard text reads 'Say to them therefore: You have no peace' (በልዎሙ፡እምኬ፡አልቦ፡ለክሙ፡ሰላም). The parse identifies it as a direct address/verdict, which is semantically correct for the chapter's conclusion. 'ልብሙ' is likely a corruption of 'ለክሙ' (to you).",
+      "plausibility": "low",
+      "reasoning": "The literal reading of the text is 'For them, peace to their heart.' However, this stands in absolute contradiction to the immediate and broader context. The entire preceding passage is a divine judgment culminating in a declaration that the Watchers will *not* have peace. All critical editions of 1 Enoch read 'And for you there shall be no peace.' The absence of the negative particle 'ኢ' (ʾi) in the provided source text must be considered a significant scribal error or a highly divergent, unattested textual variant.",
       "parallels": [
         {
-          "ref": "1 Enoch 12:6",
-          "note": "Standard formula of judgment against the Watchers: 'You will have no peace'."
+          "ref": "1 Enoch 16:4",
+          "note": "[COUNTER-EVIDENCE] The canonical text explicitly states the opposite: 'And for you there shall be no peace' (ወለክሙሰ፡ኢይኩን፡ሰላም). No attested parallel supports the positive declaration of peace in this context."
         }
       ],
-      "context_invariance": "variant",
-      "back_translation": "Say to them therefore: [You have no] peace."
+      "context_invariance": "unstable",
+      "back_translation": "fail"
     }
   ],
-  "decision_log": "Accepted as the intended closing formula despite surface textual issues.",
+  "decision_log": "While the parse is structurally correct for the given string, the semantic and historical evaluation finds it to be in direct opposition to the established text and narrative of 1 Enoch. The plausibility of this being the intended meaning is therefore low. The decision is to accept the parse on a syntactic level but flag it as semantically and contextually corrupt.",
   "final_decision": {
     "hypothesis_ref": "S4_P1",
-    "translation_id": "T1",
-    "confidence": "moderate"
+    "translation_id": "T4",
+    "confidence": "low"
   }
 }

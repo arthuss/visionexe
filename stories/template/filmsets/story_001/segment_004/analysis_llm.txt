@@ -1,41 +1,91 @@
 ```json
 {
   "actors": [
-    {"name":"ወእምህየ","visualTraits":null,"changes":null,"role":"character"},
-    {"name":"ይይድ","visualTraits":null,"changes":null,"role":"character"},
-    {"name":"ዲ","visualTraits":null,"changes":null,"role":"character"},
-    {"name":"ሲና","visualTraits":null,"changes":null,"role":"character"},
-    {"name":"ደብር","visualTraits":null,"changes":null,"role":"character"},
-    {"name":"ወያስተርኢ","visualTraits":null,"changes":null,"role":"character"},
-    {"name":"ትዕይንቱ","visualTraits":null,"changes":null,"role":"character"},
-    {"name":"ጽንዓ","visualTraits":null,"changes":null,"role":"character"},
-    {"name":"ኃይሉ","visualTraits":null,"changes":null,"role":"character"},
-    {"name":"እምሰማይ","visualTraits":null,"changes":null,"role":"character"}
+    {
+      "name": "The Holy and Great One",
+      "visualTraits": "A being whose power ('the strength of his power') is visibly manifested from Heaven. No other physical description is provided.",
+      "changes": [],
+      "role": "The central figure of the theophany, who travels and appears."
+    }
+  ],
+  "characters": [
+    {
+      "name": "The Host",
+      "visualTraits": "An appearing group ('his camp/host') that accompanies The Holy and Great One. Their specific appearance is not detailed.",
+      "changes": [],
+      "role": "Entourage or army accompanying the main actor."
+    }
   ],
   "props": [],
-  "environments": [],
+  "places": [
+    {
+      "name": "Mount Sinai",
+      "visualTraits": "A mountain that serves as the destination for the theophany.",
+      "changes": [],
+      "role": "The stage for the divine appearance."
+    },
+    {
+      "name": "Heaven",
+      "visualTraits": "The sky or celestial realm, described as the source from which power emanates.",
+      "changes": [],
+      "role": "The origin point of the manifested power."
+    }
+  ],
+  "locations": [
+    {
+      "name": "The Dwelling (origin point)",
+      "visualTraits": "An unspecified starting location, referred to as 'from there' (እምህየ), which implies continuity from the 'dwelling' mentioned in the previous segment.",
+      "changes": [],
+      "role": "The starting point of the movement."
+    }
+  ],
+  "environments": [
+    {
+      "name": "Manifestation of Power",
+      "visualTraits": "The appearance of the 'strength of his power' from the sky, suggesting a powerful, visible, and possibly overwhelming atmospheric or energetic event.",
+      "changes": [],
+      "role": "A key descriptor of the scene's atmosphere."
+    }
+  ],
+  "geo_environments": [
+    {
+      "name": "Sinai_Port_V1",
+      "visualTraits": "A mountainous region that is the focal point of a divine event.",
+      "changes": [],
+      "role": "The canonical geographical setting for the event."
+    }
+  ],
   "scenes": [
     {
-      "title":"Chapter 1 Segment 4",
-      "location":null,
-      "action":null,
-      "actorsInvolved":[
-        "ወእምህየ",
-        "ይይድ",
-        "ዲ",
-        "ሲና",
-        "ደብር",
-        "ወያስተርኢ",
-        "ትዕይንቱ",
-        "ጽንዓ",
-        "ኃይሉ",
-        "እምሰማይ"
+      "title": "The Theophany at Sinai",
+      "location": "Mount Sinai",
+      "action": "The Holy and Great One travels from his dwelling to Mount Sinai, where his host appears and his power is manifested from heaven.",
+      "actorsInvolved": [
+        "The Holy and Great One"
       ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "anchor_start",
+        "description": "An unspecified origin point, 'from there', understood as 'His Dwelling' from the prior context."
+      },
+      {
+        "id": "anchor_end",
+        "description": "Mount Sinai."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "The Holy and Great One",
+        "start_anchor": "anchor_start",
+        "end_anchor": "anchor_end",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The text states 'he will go to' (ይይድ), indicating direct travel between the two points."
+      }
+    ]
   }
 }
 ```

@@ -5,6 +5,7 @@ Repo layout (engine + stories).
 - engine/        Tools, workers, workflows, configs.
 - stories/       One folder per story.
   - template/    Empty story template (copy or clone).
+- Hard-state docs (append-only, versioned): `STATE.md`, `ARCHITECTURE.md`, `CONSTRAINTS.md`.
 
 Story layout:
 - Filmsets: `<chapter_label>_###/segment_###/scene_###/timeline_##/` (chapter_label defaults to `chapter`, template uses `story`).
@@ -17,14 +18,37 @@ Story layout:
 Core data flow (minimal):
 0. `setup_filmsets_from_geez.py` -> scaffold `filmsets/chapter_###/segment_###/scene_###/timeline_##/` from Ge'ez verse JSONL.
    - Run: `python engine/workers/setup_filmsets_from_geez.py --story-root stories/template --include-chapter-text`
+   - Extract Ge'ez verses from the full text file (chapters 72-108 by default). The parser ignores "Chapter X"
+     headings and instead uses verse markers like `72:3` to avoid PDF copy/paste shifts:
+     `python engine/workers/extract_geez_verses_from_pdf.py --text-file docs/ethiopic_1enoch_p/full_henoch_108.txt`
+   - Optional overrides live in `docs/ethiopic_1enoch_p/verse_overrides.json` (e.g., cap chapter 89 at 76 verses).
+   - Verse-count audit (compare markers vs existing chapter_XX.txt + Ethiopic coverage):
+     `python engine/workers/verse_count_audit.py --text-file docs/ethiopic_1enoch_p/full_henoch_108.txt`
+   - Optional PDF+Gemini fallback (only if no text file is available):
+     `python engine/workers/extract_geez_verses_from_pdf.py --pdf docs/ethiopic_1enoch_p/Henoch_from_Geez_text.pdf --use-gemini --model gemini-3-pro-preview`
+   - Segment integrity/self-heal (fills missing segment folders from verse files):
+     `python engine/workers/segment_self_healer.py --story-config stories/template/config/story_config.json --verse-root docs/ethiopic_1enoch_p`
    - Optional: run the Ge'ez linguistic analysis workers (Levels A-D) for graphematic/morphologic/synthactic/semantic-historical passes. See `docs/geez_analysis_methodology.md`.
    - The A-D workers wait for upstream outputs (B waits for A, C waits for B, D waits for C).
    - Use `--chapter-batch` to process one request per chapter and write per-segment outputs.
+   - Vertex AI backend for A-D workers: add `--use-vertex` (optional `--vertex-model`, `--vertex-project`, `--vertex-location`).
+     Environment overrides: `VERTEX_MODEL`, `VERTEX_PROJECT`, `VERTEX_LOCATION`,
+     `GOOGLE_CLOUD_PROJECT`, `GOOGLE_CLOUD_LOCATION`, `VERTEX_MAX_OUTPUT_TOKENS`.
+     Default Vertex model is `gemini-3-pro-preview` unless overridden.
+   - Vertex smoke test: `python engine/workers/vertex_gemini_smoke_test.py --prompt "Ping"`.
    - Starter script: `engine/scripts/Linguistic_quad_worker.ps1`.
+     Orchestrator control supports `use_vertex`, `vertex_model`, `vertex_project`, `vertex_location`.
    - End-to-end pipeline runner: `README_pipeline.md`.
 1. `worker_llm_analysis.py` -> analysis CSV at `analysis_progress_csv_path` (story_config).
    - Use `--use-gemini` to run via Gemini CLI (model from `--model` or `GEMINI_MODEL`).
+   - Use `--use-vertex` to run via Vertex AI (env: `GOOGLE_CLOUD_PROJECT`, `GOOGLE_CLOUD_LOCATION`).
    - Analysis JSON can include `blocking` anchors + paths when staging is implied.
+   - When present, the worker reads per-segment analysis layers (`analysis_llm_graphematic.txt`, `analysis_llm_morphologic.txt`, `analysis_llm_synthactic.txt`, `analysis_llm_semantic_historical.txt`) and can use `stories/<story>/data/environments/geo_env_catalog.json` (aliases supported) to constrain geo environments.
+   - Use `--wait-analysis-layers` to block per-segment analysis until all four layer files exist.
+   - Use `--force` to ignore progress CSV state and re-run all targets.
+   - Use `--carry-location` to reuse the last known scene location when a segment returns `unknown`.
+   - Use `--include-prev-segment` to add the previous segment text + analysis summary as continuity context.
+   - Orchestrator control: `stories/<story>/data/analysis/analysis_orchestrator_control.json` (used by `engine/scripts/Linguistic_quad_worker.ps1`).
 2. `chapter_briefing_builder.py` -> chapter briefings for linguistics, tech hypotheses, and storytelling Q1/Q2/Q3.
    - Run: `python engine/workers/chapter_briefing_builder.py --story-config stories/template/config/story_config.json --use-gemini --model pro`
    - Use `pro`/`flash` or explicit `gemini-3-pro`/`gemini-3-flash`. `auto` skips `--model` (CLI default). `gemini_3_pro` is normalized to `gemini-3-pro`.

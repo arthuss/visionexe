@@ -1,9 +1,57 @@
 ```json
 {
-  "actors": [],
+  "actors": [
+    {
+      "name": "The Watchers",
+      "visualTraits": "Not specified, but they are beings capable of experiencing and showing great fear and trembling.",
+      "changes": [],
+      "role": "divine beings"
+    }
+  ],
+  "characters": [
+    {
+      "name": "All creatures",
+      "visualTraits": "Unspecified group that is seized by fear.",
+      "changes": [],
+      "role": "unnamed group"
+    }
+  ],
   "props": [],
-  "environments": [],
-  "scenes": [],
+  "places": [
+    {
+      "name": "Earth",
+      "visualTraits": "The entire world, representing the full scope of the event's impact.",
+      "changes": [],
+      "role": "scope of event"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Ends of the Earth",
+      "visualTraits": "The farthest imaginable boundaries of the world.",
+      "changes": [],
+      "role": "boundary of effect"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Great Fear and Trembling",
+      "visualTraits": "An overwhelming, pervasive atmosphere of cosmic terror affecting all beings.",
+      "changes": [],
+      "role": "emotional atmosphere"
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Cosmic Terror",
+      "location": "Earth",
+      "action": "A great fear and trembling seizes the Watchers and all other beings, extending to the ends of the earth as a reaction to the preceding theophany.",
+      "actorsInvolved": [
+        "The Watchers"
+      ]
+    }
+  ],
   "blocking": {
     "anchors": [],
     "paths": []

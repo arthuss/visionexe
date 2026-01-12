@@ -1,74 +1,64 @@
 ```json
 {
   "actors": [],
-  "props": [
+  "characters": [
     {
-      "name": "ብርሃናት",
-      "visualTraits": [],
+      "name": "The Lights of Heaven",
+      "visualTraits": "Celestial bodies that travel in the sky.",
       "changes": [],
-      "role": "light"
+      "role": "celestial_body"
     }
   ],
+  "props": [],
+  "places": [
+    {
+      "name": "Heaven",
+      "visualTraits": "The celestial expanse.",
+      "changes": [],
+      "role": "celestial_realm"
+    }
+  ],
+  "locations": [],
   "environments": [
     {
-      "name": "ሰማይ",
-      "visualTraits": [],
+      "name": "Celestial Order",
+      "visualTraits": "A setting defined by perfect, predictable movement and unbreakable rules.",
       "changes": [],
-      "role": "sky"
+      "role": "conceptual_environment"
     }
   ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Beat 1",
-      "location": "ሰማይ",
-      "action": null,
-      "actorsInvolved": []
-    },
-    {
-      "title": "Beat 2",
-      "location": "ሰማይ",
-      "action": null,
-      "actorsInvolved": []
-    },
-    {
-      "title": "Beat 3",
-      "location": "ሰማይ",
-      "action": null,
-      "actorsInvolved": []
-    },
-    {
-      "title": "Beat 4",
-      "location": "ሰማይ",
-      "action": null,
-      "actorsInvolved": []
-    },
-    {
-      "title": "Beat 5",
-      "location": "ሰማይ",
-      "action": null,
-      "actorsInvolved": []
-    },
-    {
-      "title": "Beat 6",
-      "location": "ሰማይ",
-      "action": null,
-      "actorsInvolved": []
-    },
-    {
-      "title": "Beat 7",
-      "location": "ሰማይ",
-      "action": null,
-      "actorsInvolved": []
+      "title": "Observation of Celestial Order",
+      "location": "Heaven",
+      "action": "A call to consider the works of Heaven, specifically how the celestial lights do not alter their paths, but rise and set according to their ordained, unchangeable schedule and laws.",
+      "actorsInvolved": [
+        "The Lights of Heaven"
+      ]
     }
   ],
   "blocking": {
     "anchors": [
       {
-        "id": "anchor1",
-        "description": "sky"
+        "id": "rising_point",
+        "description": "The conceptual location where a celestial light begins its visible journey."
+      },
+      {
+        "id": "setting_point",
+        "description": "The conceptual location where a celestial light ends its visible journey."
       }
     ],
-    "paths": []
+    "paths": [
+      {
+        "actor": "The Lights of Heaven",
+        "start_anchor": "rising_point",
+        "end_anchor": "setting_point",
+        "motion": "traverse",
+        "duration_sec": null,
+        "notes": "The lights travel along their ordained paths ('ፍናዊሆሙ') from rising ('ይሠርቅ') to setting ('የዐርብ') without deviation."
+      }
+    ]
   }
 }
 ```

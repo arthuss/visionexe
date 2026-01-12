@@ -3,16 +3,21 @@
     {
       "hypothesis_ref": "S8_P1",
       "plausibility": "high",
-      "reasoning": "Correctly identifies the future naming of the giants as 'evil spirits' and their location.",
-      "parallels": [],
+      "reasoning": "The parse correctly identifies a compound predicate. The subject ('raʿāyt', giants) is followed by two coordinated predictions: they 'yǝsämmäyu' (will be called) evil spirits, and their dwelling 'yǝkun' (will be) on earth. 'Yǝʾǝzeni' (And now) is correctly identified as a temporal marker.",
+      "parallels": [
+        {
+          "ref": "missing",
+          "note": "This specific prophecy is unique, but the coordination of future-tense verbs is a standard construction."
+        }
+      ],
       "context_invariance": "stable",
-      "back_translation": "And now, the giants, who are produced from the spirits and flesh, shall be called evil spirits upon the earth, and on the earth shall be their dwelling."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Matches 1 Enoch 15:8.",
+  "decision_log": "S8_P1 is a good representation of the prophetic announcement, correctly parsing the coordinated future statements.",
   "final_decision": {
     "hypothesis_ref": "S8_P1",
-    "translation_id": "T1",
+    "translation_id": "T8",
     "confidence": "high"
   }
 }

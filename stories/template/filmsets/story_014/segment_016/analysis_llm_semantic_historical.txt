@@ -3,16 +3,21 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "Repetitive description of fire (floor, upper parts, ceiling). The nominal chain mirrors Segment 010 but intensifies the elemental composition.",
-      "parallels": [],
+      "reasoning": "The parse correctly identifies a nominal chain used for description, listing the features of the second house's interior: a floor of fire, lightning above, and a ceiling of burning fire. This continues the theophanic imagery of fire and light as the fundamental 'building materials' of heaven.",
+      "parallels": [
+        {
+          "ref": "Daniel 7:9-10",
+          "note": "The divine throne room is characterized by fire: 'His throne was like the fiery flame, and his wheels as burning fire. A fiery stream issued and came forth from before him...'"
+        }
+      ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Intensification of fire imagery confirmed.",
+  "decision_log": "S1 correctly parses the list-like description of the interior, which is consistent with the established visual vocabulary of the divine throne room in Jewish apocalypticism.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T1",
+    "translation_id": "T1_016",
     "confidence": "high"
   }
 }

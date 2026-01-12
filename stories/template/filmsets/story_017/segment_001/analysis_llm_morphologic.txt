@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0.0",
-    "created_at": "2026-01-11T03:44:06Z",
+    "created_at": "2026-01-11T06:58:25Z",
     "created_by": "worker_llm_analysis_Morphologic",
     "language": "gez",
     "tagset_id": "GEZ-POS-1",
@@ -23,23 +23,20 @@
       },
       "options": [
         {
-          "option_id": "opt1",
-          "pos": "N",
-          "analysis": {
-            "kind": "lexical",
-            "root": "chapter",
-            "lemma": "chapter",
-            "pattern": null
-          },
+          "option_id": "A",
+          "pos": "N/A",
+          "analysis": {},
           "confidence": {
-            "type": "weak",
-            "score": 0.99
+            "type": "ruled_out",
+            "score": 0.0
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": [],
+            "lexicon_status": "not_applicable",
+            "attestation": [
+              "English word used for structuring."
+            ],
             "constraints_checked": [
-              "root_pattern_compatibility"
+              "pos_inventory"
             ]
           }
         }
@@ -54,23 +51,20 @@
       },
       "options": [
         {
-          "option_id": "opt1",
-          "pos": "NUM",
-          "analysis": {
-            "kind": "lexical",
-            "root": "17",
-            "lemma": "17",
-            "pattern": null
-          },
+          "option_id": "A",
+          "pos": "N/A",
+          "analysis": {},
           "confidence": {
-            "type": "weak",
-            "score": 0.99
+            "type": "ruled_out",
+            "score": 0.0
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": [],
+            "lexicon_status": "not_applicable",
+            "attestation": [
+              "Segment number used for structuring."
+            ],
             "constraints_checked": [
-              "root_pattern_compatibility"
+              "pos_inventory"
             ]
           }
         }
@@ -85,23 +79,20 @@
       },
       "options": [
         {
-          "option_id": "opt1",
-          "pos": "N",
-          "analysis": {
-            "kind": "lexical",
-            "root": "segment",
-            "lemma": "segment",
-            "pattern": null
-          },
+          "option_id": "A",
+          "pos": "N/A",
+          "analysis": {},
           "confidence": {
-            "type": "weak",
-            "score": 0.99
+            "type": "ruled_out",
+            "score": 0.0
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": [],
+            "lexicon_status": "not_applicable",
+            "attestation": [
+              "English word used for structuring."
+            ],
             "constraints_checked": [
-              "root_pattern_compatibility"
+              "pos_inventory"
             ]
           }
         }
@@ -116,23 +107,20 @@
       },
       "options": [
         {
-          "option_id": "opt1",
-          "pos": "NUM",
-          "analysis": {
-            "kind": "lexical",
-            "root": "1",
-            "lemma": "1",
-            "pattern": null
-          },
+          "option_id": "A",
+          "pos": "N/A",
+          "analysis": {},
           "confidence": {
-            "type": "weak",
-            "score": 0.99
+            "type": "ruled_out",
+            "score": 0.0
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": [],
+            "lexicon_status": "not_applicable",
+            "attestation": [
+              "Segment number used for structuring."
+            ],
             "constraints_checked": [
-              "root_pattern_compatibility"
+              "pos_inventory"
             ]
           }
         }
@@ -147,21 +135,126 @@
       },
       "options": [
         {
-          "option_id": "opt1",
+          "option_id": "A",
+          "pos": "CONJ.COORD",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ወ",
+            "pattern": "clitic"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_provided_list",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
           "pos": "V",
           "analysis": {
             "kind": "lexical",
             "root": "ንሥአ",
             "lemma": "ነሥአ",
-            "pattern": "0-1-2"
+            "pattern": "qätäl_u_ni"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.9
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": [],
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [
+              "Verb, perfect, 3rd person plural with 1st person singular object suffix: 'they took me'"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ውስተ",
+            "lemma": "ውስተ",
+            "pattern": "preposition"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [
+              "Preposition: 'into, to'"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "አሐዱ",
+            "lemma": "፩",
+            "pattern": "numeral"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [
+              "Ethiopic numeral for 'one'"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "E",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "መን",
+            "lemma": "መን",
+            "pattern": "noun"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [
+              "Noun: 'place'"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "F",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ኀ",
+            "lemma": "ኀ",
+            "pattern": "preposition"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [
+              "Preposition: 'to, toward, at'"
+            ],
             "constraints_checked": []
           }
         }
@@ -176,21 +269,105 @@
       },
       "options": [
         {
-          "option_id": "opt1",
+          "option_id": "A",
           "pos": "PRO.REL",
           "analysis": {
             "kind": "functional",
             "root": null,
             "lemma": "እለ",
-            "pattern": null
+            "pattern": "pronoun"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.95
+            "type": "certain",
+            "score": 1.0
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "attested_in_provided_list",
             "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሀለወ",
+            "lemma": "ሀለወ",
+            "pattern": "qätäl_u"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [
+              "Verb, perfect, 3rd person plural: 'they were'"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "ADV",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ህየ",
+            "lemma": "ህየ",
+            "pattern": "adverb"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [
+              "Adverb of place: 'there'"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "መካን",
+            "lemma": "መ",
+            "pattern": "noun (abbreviated)"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [
+              "Possible abbreviation for 'place of', as in 'መካነ፡እሳት' (place of fire)"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "E",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "እሳት",
+            "lemma": "እሳት",
+            "pattern": "noun"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [
+              "Noun, feminine: 'fire'"
+            ],
             "constraints_checked": []
           }
         }
@@ -205,21 +382,65 @@
       },
       "options": [
         {
-          "option_id": "opt1",
+          "option_id": "A",
           "pos": "V",
           "analysis": {
             "kind": "lexical",
             "root": "ነደደ",
             "lemma": "ነደደ",
-            "pattern": "0-1-2"
+            "pattern": "yə-qättəl"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.9
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": [],
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [
+              "Verb, imperfect, 3rd person singular masculine: 'it burns'"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "CONJ.SUB",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ወሶ",
+            "pattern": "compound conjunction"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [
+              "Compound of 'ወ' (and) and 'ሶ' (when, as)"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ፈቀደ",
+            "lemma": "ፈቀደ",
+            "pattern": "yə-qättəl-u"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [
+              "Verb, imperfect, 3rd person plural: 'they wish, they want'"
+            ],
             "constraints_checked": []
           }
         }
@@ -234,21 +455,65 @@
       },
       "options": [
         {
-          "option_id": "opt1",
+          "option_id": "A",
           "pos": "V",
           "analysis": {
             "kind": "lexical",
-            "root": "ረአየ",
+            "root": "ርእየ",
             "lemma": "አስተርአየ",
-            "pattern": "ast-0-1-2"
+            "pattern": "y-astä-qättəl-u"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.9
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": [],
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [
+              "Causative verb, imperfect, 3rd person plural: 'they cause to see, they show'"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": "መ",
+            "lemma": "መ",
+            "pattern": "preposition"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [
+              "Preposition, possibly variant of 'በ' (as) or 'ለ' (to): 'as men, to men'"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሰብእ",
+            "lemma": "ሰብእ",
+            "pattern": "noun"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [
+              "Noun, masculine: 'man, mankind, people'"
+            ],
             "constraints_checked": []
           }
         }

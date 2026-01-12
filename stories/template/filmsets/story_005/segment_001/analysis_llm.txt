@@ -1,14 +1,55 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
+  "actors": [
+    {
+      "name": "He that liveth for ever",
+      "visualTraits": null,
+      "changes": [],
+      "role": "Creator"
+    }
+  ],
+  "characters": [
+    {
+      "name": "The Observers",
+      "visualTraits": null,
+      "changes": [],
+      "role": "Audience"
+    }
+  ],
+  "props": [
+    {
+      "name": "leaves",
+      "visualTraits": "green",
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "fruit",
+      "visualTraits": null,
+      "changes": [],
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [],
+  "environments": [
+    {
+      "name": "trees",
+      "visualTraits": "Covered with green leaves and bearing fruit.",
+      "changes": [],
+      "role": "unknown"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
       "title": "Chapter 5 Segment 1",
       "location": null,
-      "action": "chanting/recitation",
-      "actorsInvolved": null
+      "action": "Observing trees as they cover themselves with green leaves and bear fruit, and recognizing that 'He that liveth for ever' created all his works.",
+      "actorsInvolved": [
+        "He that liveth for ever",
+        "The Observers"
+      ]
     }
   ],
   "blocking": {

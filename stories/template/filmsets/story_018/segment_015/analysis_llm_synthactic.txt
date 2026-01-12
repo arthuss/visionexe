@@ -2,16 +2,14 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Simple Sentence",
-        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [VP t5] [VP t5 [PP t5 [NP t6 [NP t6 [NP t6]]]]] [NP t7 [NP t7]]]]",
+        "id": "P15_S1",
+        "structure_type": "Coordinated Verbal Clause",
+        "bracket_notation": "[S [VP [V ወተምዕዖሙ (in t5)] [CONJ [V ወሠሮሙ (in t5)]]] [PP [P እስ (in t5)] [NP [NP t6] [NP_GEN t7]]]]",
         "dependencies": [
-          "t1->t2 (numeral_mod)",
-          "t3->t4 (numeral_mod)",
-          "t5->t6 (temporal_limit)",
-          "t6->t7 (appositive_time)"
+          "t5 -> t6 (advcl:until)",
+          "t6 -> t7 (nmod:gen)"
         ],
-        "notes": ""
+        "notes": "Two coordinated verbs in t5 ('And He was angry with them and bound them') are modified by a temporal clause introduced by 'until' (t5), specifying the duration 'until the time of the completion of their sin, the year of mystery' (t6, t7)."
       }
     ]
   }

@@ -2,15 +2,15 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Nominal Chain",
-        "bracket_notation": "[NP [NP t5] [NP t6] [NP t7] [NP t8]]",
+        "id": "seg016_flat",
+        "structure_type": "Flat Phrase/Clause Chain",
+        "bracket_notation": "[S [CONJ_U t5] [CONJ_U t6] [CONJ_U t7] [U t8]]",
         "dependencies": [
-          "t5->t6 (coordination)",
-          "t6->t7 (coordination)",
-          "t7->t8 (apposition/genitive)"
+          "t5 -> t6 (coordination)",
+          "t6 -> t7 (coordination)",
+          "t7 -> t8 (adjunct:relative)"
         ],
-        "notes": "Description of the second house's interior."
+        "notes": "Parse based on sequential relationship with dependencies from initial markers."
       }
     ]
   }

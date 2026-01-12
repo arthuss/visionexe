@@ -3,13 +3,18 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The return to the assembly. 'ኡብልሲያኤል' (Ubelseyael) is a specific toponym, possibly 'Abel-Maim'. The description of the Watchers 'weeping' with 'faces covered' reinforces the theme of shame established in Segment 5.",
-      "parallels": [],
+      "reasoning": "The parse correctly identifies 'ነቂሕየ' (I, having woken) as a gerund setting the initial action. The main clause follows ('መጻእኩ፡ኀቤሆሙ' - I came to them). The final subordinate clause 'እንዘ፡ይላሕዉ...' (while they were weeping...) correctly provides the circumstantial background for the scene. This structure is highly characteristic of scene-setting in Ethiopic.",
+      "parallels": [
+        {
+          "ref": "ATTESTATION_DATA_UNAVAILABLE",
+          "note": "No parallel corpus was available to verify attestation."
+        }
+      ],
       "context_invariance": "stable",
-      "back_translation": "And waking I came to them, and they were all sitting gathered together weeping at Ubelseyael, which is between Lebanon and Senir, with their faces covered."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Geographical note 'between Lebanon and Senir' (implied by 'ሴሴር'/Senir) is historically significant.",
+  "decision_log": "S1's analysis of the gerundive clause followed by a main clause with a circumstantial 'እንዘ' clause is structurally perfect and captures the narrative flow accurately.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",

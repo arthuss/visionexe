@@ -3,21 +3,32 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "Matches 1 Enoch 1:7. 'Wa-yikawn fetḥa laʿla kwellu' (And there shall be judgment upon all). The coordination 'Upon all AND upon the righteous' is best handled by S1's branching structure rather than a flat list.",
-      "parallels": [
-        {
-          "ref": "1 Enoch 1:7",
-          "note": "Universal judgment."
-        }
-      ],
+      "reasoning": "The parse is correct: 'ወትሠጠም ምድር' is typically translated 'and the earth shall be rent open/swallowed up,' a passive verb with its subject.",
+      "parallels": [],
       "context_invariance": "stable",
-      "back_translation": "And there shall be judgment upon all, and upon the righteous..."
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "high",
+      "reasoning": "Correctly parses a clause with a relative subject: 'ወኵሉ ዘውስተ ምድር' ('and all that is in the earth') followed by the verb 'ይትኃጐል' ('shall perish').",
+      "paralleles": [],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S3",
+      "plausibility": "high",
+      "reasoning": "Correctly parses the existential statement 'And there shall be judgment'. The prepositional phrase 'ላዕለ ኵሉ ወላዕለ ጻድቃን' ('upon all and upon the righteous') is also parsed correctly as the target of the judgment.",
+      "parallels": [],
+      "context_invariance": "stable",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Coordination of prepositional phrases targets specific groups.",
+  "decision_log": "The sequential analysis of the verse is accurate. The parses correctly identify the subjects and verbs describing the cosmic dissolution and the initiation of judgment. The grammar is straightforward.",
   "final_decision": {
-    "hypothesis_ref": "S1",
-    "translation_id": "T-Seg07-Coord",
+    "hypothesis_ref": "S1+S2+S3",
+    "translation_id": "T7",
     "confidence": "high"
   }
 }

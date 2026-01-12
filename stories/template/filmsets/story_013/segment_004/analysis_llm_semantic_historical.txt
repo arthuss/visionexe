@@ -3,18 +3,18 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The complex sentence structure correctly identifies the request ('asked me') and the content of the request ('that I write... that there might be forgiveness'). 'ተዝረ፡ስእለት' (memorial/record of petition) is a technical cultic/legal term.",
+      "reasoning": "The parse correctly models a complex sentence where 'ተስእሉኒ' (they asked me) governs a subordinate clause of request ('መ፡እጽሐፍ' - that I write). The subsequent purpose clause ('መ፡ይኩኖሙ፡ኅድገተ' - that there might be forgiveness for them) is also correctly identified. This embedding of requests and purposes is a standard feature of reported speech.",
       "parallels": [
         {
-          "ref": "1 Enoch 12-16",
-          "note": "The role of Enoch as 'Scribe of Righteousness' mediating petitions is central to this section."
+          "ref": "ATTESTATION_DATA_UNAVAILABLE",
+          "note": "No parallel corpus was available to verify attestation."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And they asked me that I write for them a memorial of petition, that there might be for them forgiveness, and that I raise the memorial of their petition before the Lord of Heaven."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Syntactic dependency of the purpose clauses on the main verb 'asked' is correct.",
+  "decision_log": "S1 provides an excellent analysis of nested subordinate clauses expressing a complex request. The dependency structure accurately reflects the grammatical relationships.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",

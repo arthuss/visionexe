@@ -3,18 +3,18 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The parse correctly identifies the temporal clause 'እማንቱ፡መዋእል' (in those days) and the main narrative action 'ተወልዳ' (were born). The structure corresponds to the standard opening of 1 Enoch 6:1.",
+      "reasoning": "The parse correctly identifies a standard narrative structure: a temporal setting ('in those days') followed by the main event clause ('daughters were born...'). The identification of 'beautiful and lovely' as an adjectival modifier to 'daughters' is accurate. The initial tokens are correctly identified as metadata.",
       "parallels": [
         {
-          "ref": "1 Enoch 6:1 (Ethiopic)",
-          "note": "Matches standard text: 'ወኮነ እምዘ በዝ፮፡ ውሉደ፡ ሰብእ...' (And it came to pass when the children of men had multiplied...)"
+          "ref": "Genesis 6:1",
+          "note": "Thematic parallel describing the birth of daughters to men before the intervention of the 'sons of God'. The syntactic structure of establishing a temporal context and then introducing the key participants is common in Semitic narrative literature."
         }
       ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Parse S1 aligns with the expected syntactic structure of the Ge'ez text for this verse. No alternative hypotheses provided.",
+  "decision_log": "S1 is the only hypothesis provided. It represents a standard and syntactically sound analysis for this type of introductory narrative sentence. The structure is common and requires no complex interpretation.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",

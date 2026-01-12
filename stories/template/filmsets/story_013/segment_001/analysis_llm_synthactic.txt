@@ -2,18 +2,22 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Discourse Sequence",
-        "bracket_notation": "[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [NP t5] [VP [V t9] [NP t6] [SBAR [PART t7] [S [NP t8]]]]]]",
+        "id": "S1_1",
+        "structure_type": "Verbal Phrase",
+        "bracket_notation": "[S [VP [V t5] [IOBJ t6]]]",
         "dependencies": [
-          "t2->t1 (nummod)",
-          "t4->t3 (nummod)",
-          "t5->t9 (nsubj)",
-          "t6->t9 (iobj)",
-          "t8->t9 (parataxis)",
-          "t7->t8 (discourse)"
+          "t5->t6 (indirect_object)"
         ],
-        "notes": "Coarse segmentation: t5 acts as Agent, t6 as Recipient, t9 as Main Predicate (binding). t8 is a paratactic nominal clause."
+        "notes": "The verb 'ይቤሎ' (he said to him) in t5 takes 'ለዛዝኤል' (to Azazel) in t6 as its indirect object."
+      },
+      {
+        "id": "S1_2",
+        "structure_type": "Predicative Clause",
+        "bracket_notation": "[S [NP [ADJ t8]] [VP [V t9]]]",
+        "dependencies": [
+          "t8->t9 (subject)"
+        ],
+        "notes": "The adjectival phrase beginning with 'ዓቢይ' (great) in t8 functions as the subject of the verb 'ይእሥር' (it shall bind) in t9."
       }
     ]
   }

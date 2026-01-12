@@ -3,16 +3,25 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The pivot token serves dual function in the temporal ('forever') and spatial ('on earth') judgment. The compound structure accurately reflects the finality of the ban.",
-      "parallels": [],
+      "reasoning": "The parse correctly identifies a compound sentence declaring a two-fold judgment: the Watchers are barred from ascending to heaven and are bound on the earth. The structure pivots on the temporal phrase 'for all eternity,' applying it to both clauses. This is a key element of the Watchers' punishment narrative.",
+      "parallels": [
+        {
+          "ref": "Jude 1:6",
+          "note": "Reflects the tradition of the Watchers' binding: 'And the angels who did not keep their proper domain, but left their own abode, He has reserved in everlasting chains under darkness for the judgment of the great day.'"
+        },
+        {
+          "ref": "2 Peter 2:4",
+          "note": "Another reference to the binding: 'For if God did not spare the angels who sinned, but cast them down to hell and delivered them into chains of darkness, to be reserved for judgment...'"
+        }
+      ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Judgment clause structure validated.",
+  "decision_log": "S1 accurately captures the parallel judgments pronounced against the Watchers, a core and well-attested tradition in Second Temple literature. The syntax is clear and effective.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T1",
+    "translation_id": "T1_004",
     "confidence": "high"
   }
 }

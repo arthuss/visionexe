@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0.0",
-    "created_at": "2026-01-11T03:19:35Z",
+    "created_at": "2026-01-11T06:34:49Z",
     "created_by": "worker_llm_analysis_Morphologic",
     "language": "gez",
     "tagset_id": "GEZ-POS-1",
@@ -26,17 +26,17 @@
           "option_id": "A",
           "pos": "N",
           "analysis": {
-            "kind": "lexical",
-            "root": "chapter",
+            "kind": "foreign",
+            "root": null,
             "lemma": "Chapter",
-            "pattern": "unknown"
+            "pattern": "latin"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.9
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "foreign",
             "attestation": [],
             "constraints_checked": []
           }
@@ -55,17 +55,17 @@
           "option_id": "A",
           "pos": "NUM",
           "analysis": {
-            "kind": "lexical",
-            "root": "8",
+            "kind": "foreign",
+            "root": null,
             "lemma": "8",
-            "pattern": "digit"
+            "pattern": "latin"
           },
           "confidence": {
-            "type": "high",
-            "score": 1.0
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "foreign",
             "attestation": [],
             "constraints_checked": []
           }
@@ -84,17 +84,17 @@
           "option_id": "A",
           "pos": "N",
           "analysis": {
-            "kind": "lexical",
-            "root": "segment",
+            "kind": "foreign",
+            "root": null,
             "lemma": "Segment",
-            "pattern": "unknown"
+            "pattern": "latin"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.9
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "foreign",
             "attestation": [],
             "constraints_checked": []
           }
@@ -113,17 +113,17 @@
           "option_id": "A",
           "pos": "NUM",
           "analysis": {
-            "kind": "lexical",
-            "root": "2",
+            "kind": "foreign",
+            "root": null,
             "lemma": "2",
-            "pattern": "digit"
+            "pattern": "latin"
           },
           "confidence": {
-            "type": "high",
-            "score": 1.0
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "foreign",
             "attestation": [],
             "constraints_checked": []
           }
@@ -140,16 +140,54 @@
       "options": [
         {
           "option_id": "A",
+          "pos": "CONJ.COORD",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ወ",
+            "pattern": "conjunction"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "ረሰዐ",
+            "root": "ር-ስ-ዕ",
             "lemma": "ርስዓን",
-            "pattern": "nominal"
+            "pattern": "N.masc.sg"
           },
           "confidence": {
-            "type": "medium",
-            "score": 0.7
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ዐ-ብ-ይ",
+            "lemma": "ዐቢይ",
+            "pattern": "ADJ.masc.sg"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
@@ -172,13 +210,51 @@
           "pos": "ADJ",
           "analysis": {
             "kind": "lexical",
-            "root": "በዝኀ",
+            "root": "በ-ዝ-ኅ",
             "lemma": "ብዙኅ",
-            "pattern": "CCuC"
+            "pattern": "CONJ.COORD_cliticized + ADJ.masc.sg"
           },
           "confidence": {
-            "type": "medium",
-            "score": 0.8
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ዘ-ም-ወ",
+            "lemma": "ዘመወ",
+            "pattern": "CONJ.COORD_cliticized + V.perf.3pl"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ስ-ሕ-ተ",
+            "lemma": "ሰሐተ",
+            "pattern": "CONJ.COORD_cliticized + V.perf.3pl"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
@@ -201,13 +277,51 @@
           "pos": "V",
           "analysis": {
             "kind": "lexical",
-            "root": "ማሰነ",
+            "root": "መ-ስ-ነ",
             "lemma": "ማሰነ",
-            "pattern": "perfect"
+            "pattern": "CONJ.COORD_cliticized + V.perf.3pl"
           },
           "confidence": {
-            "type": "medium",
-            "score": 0.7
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ለ",
+            "pattern": "preposition"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ፍ-ኖ",
+            "lemma": "ፍኖት",
+            "pattern": "N.masc.pl.poss.suff.3pl"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",

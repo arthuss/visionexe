@@ -2,22 +2,22 @@
   "evaluation": [
     {
       "hypothesis_ref": "P1",
-      "plausibility": "High",
-      "reasoning": "This segment lists cosmic phenomena. The coordination structure is essential here. 'መናተ' (places/stations) of luminaries, 'ነጐድጓድ' (thunder), and the armory of God (bow, arrows, sword). P1 treats this as a coordinated list under 'I saw', which is syntactically and semantically correct.",
+      "plausibility": "high",
+      "reasoning": "The parse correctly identifies a typical visionary inventory structure. The main verb `ወርኢኩ` (and I saw) governs a list of coordinated noun phrases and prepositional phrases functioning as direct objects. The analysis correctly identifies `መናተ፡ብሩሃናት`, `ነጐድጓድ`, `ቀስተ፡እሳት`, `ምጕንጳቲሆሙ`, `ወሰይፈ፡እሳት`, and `መባርቅት` as the series of perceived phenomena.",
       "parallels": [
         {
-          "ref": "1 Enoch 17:3",
-          "note": "Inventory of celestial phenomena."
+          "ref": "Ezekiel 1, Revelation 4",
+          "note": "The 'And I saw...' construction followed by a list of cosmic or divine phenomena is a hallmark of apocalyptic and visionary literature. The coordination of multiple objects after a single verb of perception is a universally attested structure."
         }
       ],
-      "context_invariance": "Stable",
-      "back_translation": "And I saw the places of the luminaries; and thunder at the ends; in its depth a bow of fire and arrows; and their quiver and a sword of fire; and all lightnings."
+      "context_invariance": "stable",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "List structure validated.",
+  "decision_log": "P1 accurately models the paratactic listing of objects after a verb of perception. This is the most straightforward and correct interpretation.",
   "final_decision": {
     "hypothesis_ref": "P1",
-    "translation_id": "T1",
-    "confidence": "High"
+    "translation_id": "TBD",
+    "confidence": "high"
   }
 }

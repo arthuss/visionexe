@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0.0",
-    "created_at": "2026-01-11T03:21:44Z",
+    "created_at": "2026-01-11T06:36:46Z",
     "created_by": "worker_llm_analysis_Morphologic",
     "language": "gez",
     "tagset_id": "GEZ-POS-1",
@@ -23,22 +23,33 @@
       },
       "options": [
         {
-          "option_id": "A",
+          "option_id": "MISSING",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "chapter",
-            "lemma": "chapter",
-            "pattern": "nominal"
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
           },
           "confidence": {
-            "type": "high",
-            "score": 0.99
+            "type": "ruled_out",
+            "score": 0.0
           },
           "evidence": {
-            "lexicon_status": "foreign_meta",
-            "attestation": "editorial",
-            "constraints_checked": []
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
           }
         }
       ]
@@ -52,22 +63,33 @@
       },
       "options": [
         {
-          "option_id": "A",
-          "pos": "NUM",
+          "option_id": "MISSING",
+          "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "null",
-            "lemma": "9",
-            "pattern": "digit"
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
           },
           "confidence": {
-            "type": "high",
-            "score": 0.99
+            "type": "ruled_out",
+            "score": 0.0
           },
           "evidence": {
-            "lexicon_status": "numeric",
-            "attestation": "universal",
-            "constraints_checked": []
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
           }
         }
       ]
@@ -81,22 +103,33 @@
       },
       "options": [
         {
-          "option_id": "A",
+          "option_id": "MISSING",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "segment",
-            "lemma": "segment",
-            "pattern": "nominal"
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
           },
           "confidence": {
-            "type": "high",
-            "score": 0.99
+            "type": "ruled_out",
+            "score": 0.0
           },
           "evidence": {
-            "lexicon_status": "foreign_meta",
-            "attestation": "editorial",
-            "constraints_checked": []
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
           }
         }
       ]
@@ -110,22 +143,33 @@
       },
       "options": [
         {
-          "option_id": "A",
-          "pos": "NUM",
+          "option_id": "MISSING",
+          "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "null",
-            "lemma": "2",
-            "pattern": "digit"
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
           },
           "confidence": {
-            "type": "high",
-            "score": 0.99
+            "type": "ruled_out",
+            "score": 0.0
           },
           "evidence": {
-            "lexicon_status": "numeric",
-            "attestation": "universal",
-            "constraints_checked": []
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
           }
         }
       ]
@@ -143,17 +187,17 @@
           "pos": "V",
           "analysis": {
             "kind": "lexical",
-            "root": "ብህለ",
-            "lemma": "ይቤሉ",
-            "pattern": "G.Perf.3pl.m"
+            "root": "ብ-ህ-ለ",
+            "lemma": "በለ",
+            "pattern": "verb_perfect_3pl_m"
           },
           "confidence": {
-            "type": "medium",
-            "score": 0.7
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": "classical_corpus",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -172,17 +216,17 @@
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "ጽራኅ",
+            "root": "ጽ-ር-ኀ",
             "lemma": "ጽራኅ",
-            "pattern": "nominal_plural"
+            "pattern": "noun_pl_poss_3pl_m"
           },
           "confidence": {
-            "type": "medium",
-            "score": 0.6
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": "classical_corpus",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -201,17 +245,17 @@
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "ምድር",
+            "root": "ም-ድ-ር",
             "lemma": "ምድር",
-            "pattern": "nominal"
+            "pattern": "noun_fem_sg"
           },
           "confidence": {
-            "type": "medium",
-            "score": 0.6
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": "classical_corpus",
+            "attestation": [],
             "constraints_checked": []
           }
         }

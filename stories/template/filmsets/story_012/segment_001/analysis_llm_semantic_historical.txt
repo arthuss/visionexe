@@ -3,18 +3,22 @@
     {
       "hypothesis_ref": "S1_P1",
       "plausibility": "high",
-      "reasoning": "The syntactic structure correctly identifies the temporal adjunct 'And before all these things' (ወእምቅድመ፡ኲሉ፡ነገር) and the main verb 'was hidden' (ተኀብአ - reconstructed from 'ተብተ'). The relative chain 'where he was hidden...' is standard 1 Enoch 12:1 phrasing.",
+      "reasoning": "The parse correctly identifies a common narrative opening structure: a temporal clause ('And before these things...'), a main clause stating the core event ('the account of Enoch was hidden'), followed by a series of coordinated clauses detailing what was unknown. This aligns perfectly with the semantic function of establishing mystery around the protagonist.",
       "parallels": [
         {
-          "ref": "1 Enoch 12:1",
-          "note": "Standard Ethiopic text (Knibb, Charles) confirms structure."
+          "ref": "Genesis 5:24",
+          "note": "Core theme of Enoch being 'taken' or hidden by God, establishing his mysterious nature."
+        },
+        {
+          "ref": "4Q201 (Qumran Enoch fragment)",
+          "note": "Linguistic and thematic parallels regarding the concealment of esoteric knowledge."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And before all these things Enoch was hidden, and no one of the children of men knew where he was hidden..."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Input text contains OCR artifacts (ተብተ vs ተኀብአ), but the lemma extraction and parse structure align with the canonical text. The dependency tree correctly links the temporal modifier to the main verb.",
+  "decision_log": "The single provided hypothesis (S1_P1) accurately reflects the segment's syntax and its narrative function as an introduction. The chunk-based analysis correctly groups the main clause and the subsequent interrogative clauses, which is semantically sound.",
   "final_decision": {
     "hypothesis_ref": "S1_P1",
     "translation_id": "T1",

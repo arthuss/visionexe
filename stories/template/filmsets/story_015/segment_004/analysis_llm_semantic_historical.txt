@@ -3,16 +3,21 @@
     {
       "hypothesis_ref": "S4_P1",
       "plausibility": "high",
-      "reasoning": "The parse handles the contrastive structure: 'You were holy... but you defiled...'. The input text shows minor garbling at the start, but the main sentence is intact and correctly analyzed.",
-      "parallels": [],
+      "reasoning": "The parse correctly identifies a series of coordinated verbs ('rakwǝsmu', 'fätäwmu', 'gäbärmu') that describe the sins of the Watchers. The subject 'ʾantǝmusä' (But you) is nominal, followed by a predicate detailing their state and actions. The structure is attested for listing transgressions.",
+      "parallels": [
+        {
+          "ref": "missing",
+          "note": "The specific sequence is unique to the narrative, but the coordination of verbs to describe a sequence of actions is a fundamental syntactic feature of Ge'ez."
+        }
+      ],
       "context_invariance": "stable",
-      "back_translation": "And ye were spiritual, holy, living the eternal life, but ye have defiled yourselves with the blood of women, and have begotten (children) with the blood of flesh, and, as the children of men, have lusted after flesh and blood as those also do who die and perish."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Matches 1 Enoch 15:4 despite input noise.",
+  "decision_log": "S4_P1 provides a robust analysis of the clausal structure, correctly linking the series of actions to the subject. The final bracketed '[raʿāytä]' is a gloss or correction in the manuscript, correctly isolated.",
   "final_decision": {
     "hypothesis_ref": "S4_P1",
-    "translation_id": "T1",
+    "translation_id": "T4",
     "confidence": "high"
   }
 }

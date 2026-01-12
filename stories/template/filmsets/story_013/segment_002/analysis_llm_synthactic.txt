@@ -2,19 +2,24 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Negated Verbal Clause",
-        "bracket_notation": "[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [VP [V t6] [NP t5] [NP [N t7] [N t8] [VP t9]]]]]",
+        "id": "S2_1",
+        "structure_type": "Coordinated Noun Phrase",
+        "bracket_notation": "[NP [N ጽርፈት(t8)], [N ወግፍዕ(t8)], [N ወኀጢት(t8)]]",
         "dependencies": [
-          "t2->t1 (nummod)",
-          "t4->t3 (nummod)",
-          "t6->root",
-          "t5->t6 (obj)",
-          "t7->t6 (obj)",
-          "t8->t7 (conj)",
-          "t9->t8 (acl)"
+          "t8(ጽርፈት)->t8(ወግፍዕ) (coordination)",
+          "t8(ወግፍዕ)->t8(ወኀጢት) (coordination)"
         ],
-        "notes": "t6 (verb) is central; t5, t7, t8 are nominal arguments/objects; t9 modifies t8."
+        "notes": "A list of coordinated nouns specifying the types of wrongdoing taught."
+      },
+      {
+        "id": "S2_2",
+        "structure_type": "Verbal Phrase with Object",
+        "bracket_notation": "[VP [V t9] [OBJ [NP t7, NP t8]]]",
+        "dependencies": [
+          "t9->t7 (object)",
+          "t9->t8 (object)"
+        ],
+        "notes": "The verb 'ዘርይ' (you sowed) in t9 governs a series of direct objects listed in t7 ('injustice') and t8 ('blasphemy, injustice, and sin')."
       }
     ]
   }

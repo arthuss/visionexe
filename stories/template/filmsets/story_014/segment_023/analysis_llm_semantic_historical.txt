@@ -3,16 +3,25 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The personal address to Enoch ('Enoch, scribe of righteousness'). The command to approach breaks the distance established in previous segments.",
-      "parallels": [],
+      "reasoning": "The parse correctly identifies a narrative sequence. It starts with Enoch's state ('my face was covered, and I was trembling'), which is interrupted by the main event: 'the Lord called me with His own mouth' and gives a command ('Come hither, Enoch...'). This is a classic divine commission scene.",
+      "parallels": [
+        {
+          "ref": "Genesis 12:1",
+          "note": "Divine call to Abram: 'Now the LORD had said unto Abram, Get thee out of thy country...'"
+        },
+        {
+          "ref": "Exodus 3:4",
+          "note": "'God called unto him out of the midst of the bush, and said, Moses, Moses. And he said, Here am I.'"
+        }
+      ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Prophetic commissioning moment identified.",
+  "decision_log": "S1 correctly structures the scene as a transition from the seer's state of fear to a direct divine summons, which is a foundational trope for prophetic commissioning.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T1",
+    "translation_id": "T1_023",
     "confidence": "high"
   }
 }

@@ -3,16 +3,25 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The description of the wall building materials is complex. The parse attempts to resolve 'tessellated floor' (ma'ser) comparisons. Textual variance (stones of hail/snow) is noted but the structure holds.",
-      "parallels": [],
+      "reasoning": "The parse accurately identifies a descriptive sequence detailing the construction of the heavenly building. The text lists materials (hailstones, tongues of fire, etc.), and the parse correctly structures these as coordinated noun phrases and appositions describing the house and its features. The description of a building made of supernatural or precious materials is a common trope.",
+      "parallels": [
+        {
+          "ref": "Revelation 21:18-21",
+          "note": "Detailed description of the New Jerusalem's construction from gold, jasper, and other precious materials."
+        },
+        {
+          "ref": "Isaiah 54:11-12",
+          "note": "A promise to rebuild Jerusalem with precious stones: 'I will lay thy stones with fair colours, and lay thy foundations with sapphires. And I will make thy windows of agates, and thy gates of carbuncles...'"
+        }
+      ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Architectural description parses as valid nominal/descriptive chain.",
+  "decision_log": "S1 correctly handles the descriptive list of architectural elements. The use of 'hailstones' (or crystal) and 'fire' is iconic to this vision and is parsed logically.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T1",
-    "confidence": "moderate"
+    "translation_id": "T1_009",
+    "confidence": "high"
   }
 }

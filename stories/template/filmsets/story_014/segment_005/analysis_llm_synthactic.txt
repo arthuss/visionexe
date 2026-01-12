@@ -2,15 +2,15 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Complex Sentence",
-        "bracket_notation": "[S [PP t5] [VP t6] [NP [NP t6] [NP t7]] [VP t8]]",
+        "id": "seg005_flat",
+        "structure_type": "Flat Phrase/Clause Chain",
+        "bracket_notation": "[S [CONJ_U t5] [U t6] [CONJ_U t7] [U t8]]",
         "dependencies": [
-          "t6->t5 (temporal adjunct)",
-          "t6->t7 (coordination)",
-          "t6->t8 (result/consequence)"
+          "t5 -> t6 (sequence)",
+          "t6 -> t7 (coordination)",
+          "t7 -> t8 (sequence)"
         ],
-        "notes": "Temporal condition leading to the event in t8."
+        "notes": "Parse based on sequential relationship with dependencies from initial markers."
       }
     ]
   }

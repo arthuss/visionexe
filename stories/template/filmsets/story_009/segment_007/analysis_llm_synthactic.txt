@@ -2,15 +2,24 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Nominal/Verbal Fragment",
-        "bracket_notation": "[S [NP t5 [Rel t6 [Comp t7]]]]",
+        "id": "S7.meta",
+        "structure_type": "Header",
+        "bracket_notation": "[META [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]",
         "dependencies": [
-          "t5->ROOT",
-          "t6->t5 (relative_modifier)",
-          "t7->t6 (complement_clause)"
+          "t1->t2 (modifies)",
+          "t3->t4 (modifies)"
         ],
-        "notes": "t5 'Semjaza' (continuation of object of 'See'?). t6 'To whom you gave authority'. t7 'To rule those with him'."
+        "notes": "Segment metadata."
+      },
+      {
+        "id": "S7.1",
+        "structure_type": "Verb with Subject and Object",
+        "bracket_notation": "[S [NP-SUBJ [PN t5]] [VP [V-in-surface] [NP-OBJ [N t6]] [SBAR [MARK [PRO.REL t7]]]]]",
+        "dependencies": [
+          "t6->t5 (nsubj)",
+          "t6->t7 (acl:relcl)"
+        ],
+        "notes": "A verb 'taught' is present in the surface of t5, with t5 ('Semyaza') as subject and t6 ('authority') as object. t7 ('who') introduces a relative clause modifying the associates of Semyaza, who are mentioned in the surface of t7."
       }
     ]
   }

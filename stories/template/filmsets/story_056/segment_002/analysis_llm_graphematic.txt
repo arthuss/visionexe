@@ -1,13 +1,15 @@
 {
   "source": {
     "witness_id": "story_056/segment_002",
-    "graphematic_string": "ወተስእልዎ፡ለመል፡ሰላም፡\nዘየሐውር፡ምስሌየ፡እንዘ፡እብል፡\nለመኑ፡የሐውሩ፡እለ፡ይእኅዙ፨",
+    "graphematic_string": "ወተስእልዎ፡ለመል፡ሰላም፡ ዘየሐውር፡ምስሌየ፡እንዘ፡እብል፡ ለመኑ፡የሐውሩ፡እለ፡ይእኅዙ፨",
     "normalization_policy": "none",
     "punctuation_markers": [
-      "፡",
-      "፨"
+      "word_separator",
+      "full_stop"
     ],
-    "removed_artifacts": [],
+    "removed_artifacts": [
+      "newline"
+    ],
     "uncertainties": []
   }
 }

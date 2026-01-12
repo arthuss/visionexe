@@ -2,19 +2,22 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Transitive Verbal Sentence",
-        "bracket_notation": "[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [VP [V t5] [NP [N t6] [N t7] [DET t8]] [PP [N t9]]]]]",
+        "id": "S10_1",
+        "structure_type": "Genitive Phrase",
+        "bracket_notation": "[NP [N ቃላተ(t8)] [Gen [N ጽድቅ(t8)]]]",
         "dependencies": [
-          "t2->t1 (nummod)",
-          "t4->t3 (nummod)",
-          "t5->root",
-          "t6->t5 (obj)",
-          "t7->t6 (nmod)",
-          "t8->t6 (det)",
-          "t9->t5 (iobj)"
+          "t8->t8 (genitive)"
         ],
-        "notes": "t5 (spoke) is head; t6 (visions) is object; t9 (watchers) is recipient/target."
+        "notes": "A construct phrase, 'words of righteousness', functioning as the object of the verb 'እትናገር' (to speak)."
+      },
+      {
+        "id": "S10_2",
+        "structure_type": "Genitive Phrase",
+        "bracket_notation": "[NP [N ትጉሃነ(t9)] [Gen [N ሰማይ(t9)]]]",
+        "dependencies": [
+          "t9->t9 (genitive)"
+        ],
+        "notes": "A construct phrase, 'the Watchers of Heaven', functioning as the indirect object of the verb 'እዝልፍ' (to rebuke)."
       }
     ]
   }

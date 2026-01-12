@@ -2,17 +2,22 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Compound Sentence",
-        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [S1 [VP t5 [NP [t6 (start)]]]] [S2 [VP [t6 (end)] [SBAR [t6 (sub)] [S [VP t7 [NP t8]]]]]]]]",
+        "id": "P1_S1",
+        "structure_type": "Verbal Clause",
+        "bracket_notation": "[S [VP t5] [NP t6]]",
         "dependencies": [
-          "t1->t2 (numeral_mod)",
-          "t3->t4 (numeral_mod)",
-          "t5->t6 (obj_complement)",
-          "t6->t7 (clausal_complement)",
-          "t7->t8 (conjunct_obj)"
+          "t5 -> t6 (obj_gen_mod)"
         ],
-        "notes": "Tokenization lumps clauses; t6 acts as pivot."
+        "notes": "The verb phrase in t5 ('And I saw the treasuries of') takes the noun phrase in t6 ('the winds') as its genitive modifier."
+      },
+      {
+        "id": "P1_S2",
+        "structure_type": "Verbal Clause",
+        "bracket_notation": "[S [VP t7] [NP t8]]",
+        "dependencies": [
+          "t7 -> t8 (conj)"
+        ],
+        "notes": "The verb t7 ('adorned creation') is connected to a coordinated noun phrase in t8 ('and its foundations')."
       }
     ]
   }

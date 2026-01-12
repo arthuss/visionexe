@@ -2,22 +2,29 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Clause Chain",
-        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [Clause t5 [Subj t6]] [Clause t7] [Clause t8] [Clause t9] [Clause t10]]]",
+        "id": "P1",
+        "structure_type": "Header + Fragments",
+        "bracket_notation": "[ROOT [HEADER [TITLE [N t1] [NUM t2]] [ID [N t3] [NUM t4]]] [BODY [NP t5] [NP t6] [NP t7] [NP t8] [NP t9] [NP t10]]]",
         "dependencies": [
-          "t5->t1 (meta)",
-          "t5->t2 (meta)",
-          "t5->t3 (meta)",
-          "t5->t4 (meta)",
-          "root->t5 (root)",
-          "t5->t6 (subject)",
-          "t5->t7 (coordination)",
-          "t7->t8 (modifier)",
-          "t8->t9 (coordination)",
-          "t9->t10 (coordination)"
+          "t1->t2 (mod)",
+          "t3->t4 (mod)"
         ],
-        "notes": "Sequence of future states."
+        "notes": "Safe parse assuming a metadata header followed by a flat list of body fragments. No verb was tagged in this segment."
+      },
+      {
+        "id": "P2",
+        "structure_type": "Nominal Coordination",
+        "bracket_notation": "[ROOT [HEADER [TITLE [N t1] [NUM t2]] [ID [N t3] [NUM t4]]] [NP [NP t5] [CONJ] [NP t6] [CONJ] [NP t7] [CONJ] [NP t8] [CONJ] [NP t9] [CONJ] [NP t10]]]",
+        "dependencies": [
+          "t1->t2 (mod)",
+          "t3->t4 (mod)",
+          "t5->t6 (conj)",
+          "t5->t7 (conj)",
+          "t5->t8 (conj)",
+          "t5->t9 (conj)",
+          "t5->t10 (conj)"
+        ],
+        "notes": "Assumes coordination between the noun phrases, with implicit conjunctions, as no verb was tagged in the segment."
       }
     ]
   }

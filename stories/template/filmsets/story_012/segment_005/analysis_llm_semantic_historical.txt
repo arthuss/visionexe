@@ -3,21 +3,25 @@
     {
       "hypothesis_ref": "S5_P1",
       "plausibility": "high",
-      "reasoning": "The negative existential 'And there shall not be to them peace' (ወኢይከውን፡ሎሙ፡ሰላም) is a standard formulaic judgment. The causal link to the next segment is noted.",
+      "reasoning": "The parse correctly identifies a negative existential prophecy ('there will not be for them peace...') followed by a causal clause introduced by 'for' (እስመ). This structure is typical of prophetic judgment oracles, where a punishment is stated and then justified.",
       "parallels": [
         {
-          "ref": "1 Enoch 12:5",
-          "note": "Formulaic judgment phraseology."
+          "ref": "1 Enoch 16:4",
+          "note": "A direct thematic parallel: 'And for you there will be no peace.' States the core of the judgment against the Watchers."
+        },
+        {
+          "ref": "Isaiah 48:22",
+          "note": "'There is no peace,' says the LORD, 'for the wicked.' Provides a broader biblical precedent for the 'no peace for the wicked' formula."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And they shall have no peace or forgiveness of sin..."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Parse correctly links the negation to the existence of peace/forgiveness.",
+  "decision_log": "The 'Negative Existential with Causal' parse is accurate. It correctly models the two-part structure of the divine sentence (verdict and reason), which is the entire semantic content of this segment.",
   "final_decision": {
     "hypothesis_ref": "S5_P1",
-    "translation_id": "T1",
+    "translation_id": "T5",
     "confidence": "high"
   }
 }

@@ -2,17 +2,17 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Compound Sentence",
-        "bracket_notation": "[S [S [NP t5] [VP t6]] [S [NP t7] [VP [VP t8] [VP t9] [PP t10]]]]",
+        "id": "seg006_flat",
+        "structure_type": "Flat Phrase/Clause Chain",
+        "bracket_notation": "[S [CONJ_U t5] [U t6] [CONJ_U t7] [U t8] [CONJ_U t9] [U t10]]",
         "dependencies": [
-          "t6->t5 (subject)",
-          "t6->t7 (coordination)",
-          "t7->t8 (circumstantial)",
-          "t8->t9 (coordination)",
-          "t9->t10 (source)"
+          "t5 -> t6 (sequence)",
+          "t6 -> t7 (coordination)",
+          "t7 -> t8 (sequence)",
+          "t8 -> t9 (coordination)",
+          "t9 -> t10 (adjunct)"
         ],
-        "notes": "Contrastive structure: Their petition fails, and they are silenced."
+        "notes": "Parse based on sequential relationship with dependencies from initial markers."
       }
     ]
   }

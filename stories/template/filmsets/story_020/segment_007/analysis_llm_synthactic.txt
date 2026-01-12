@@ -2,14 +2,14 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Nominal Sentence / List Item",
-        "bracket_notation": "[S [Meta t1 t2 t3 t4] [NP_Subj t5] [RelCl t6 [Coord t7]]]",
+        "id": "P7_S1",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP [PN t5] [ADJP t6] [CONJ+ NP t7]]",
         "dependencies": [
-          "t5->t6 (modifier)",
-          "t6->t7 (coordination)"
+          "t6 (adj) modifies 'መላእት' (noun) within t5",
+          "t7 (noun) is coordinated with 'ገነት' (noun) within t6"
         ],
-        "notes": "t5 (Gabriel) is modified by t6 (over Paradise), extended by t7 (and serpents...)."
+        "notes": "Appositional phrase describing 'Gabriel' (t5). 'ወዘይስት፡ወሩቤል፨፨' (and the serpents and the cherubim) in t7 is coordinated with 'ገነት' (Paradise) in t6."
       }
     ]
   }

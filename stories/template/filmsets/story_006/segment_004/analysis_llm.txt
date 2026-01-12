@@ -1,9 +1,29 @@
 ```json
 {
   "actors": [],
+  "characters": [
+    {
+      "name": "angels",
+      "visualTraits": "unknown",
+      "changes": [],
+      "role": "group"
+    }
+  ],
   "props": [],
+  "places": [],
+  "locations": [],
   "environments": [],
-  "scenes": [],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Angels' Oath",
+      "location": "unknown",
+      "action": "A group of angels swear a binding oath together, pledging not to abandon their plan and to execute a specific deed.",
+      "actorsInvolved": [
+        "angels"
+      ]
+    }
+  ],
   "blocking": {
     "anchors": [],
     "paths": []

@@ -2,15 +2,13 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Simple Sentence",
-        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [VP t5 [NP t5]] [SBAR t6 [PP t6]]]]",
+        "id": "P8_S1",
+        "structure_type": "Verbal Clause with Relative",
+        "bracket_notation": "[S [VP [V ርኢኩ (in t5)] [NP [N እሳተ (in t5)] [S_REL [VP [V ዘይነድድ (in t5)]]]]] [PP t6]]",
         "dependencies": [
-          "t1->t2 (numeral_mod)",
-          "t3->t4 (numeral_mod)",
-          "t5->t6 (relative_clause)"
+          "t5 -> t6 (loc)"
         ],
-        "notes": ""
+        "notes": "The main verb ('I saw' in t5) has as its object 'a fire that burns' (in t5), which is located by the prepositional phrase in t6 ('which was in all the mountains')."
       }
     ]
   }

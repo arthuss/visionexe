@@ -3,16 +3,21 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The negation 'ኢይውነ' (shall not be) governs the nominals 'rest/relief' and 'intercession'. The causal link to 'teaching oppression' (ዘመሀር፡ግፍዓ) is syntactically supported by the relative clause.",
-      "parallels": [],
+      "reasoning": "The parse correctly identifies 'ኢይውነ' (it will not be) as the central negated verb. The following nouns ('መሕተ', 'ስእለተ') are correctly identified as nominal arguments describing what will not be. The final clause 'ዘርይ፡ለሰብእ' is appropriately analyzed as a relative clause modifying the preceding list of transgressions. This construction is a typical way to express negative predication over a series of concepts.",
+      "parallels": [
+        {
+          "ref": "ATTESTATION_DATA_UNAVAILABLE",
+          "note": "No parallel corpus was available to verify attestation."
+        }
+      ],
       "context_invariance": "stable",
-      "back_translation": "Relief/Repose of earth and petition shall not be yours, because of the oppression you taught and the works of blasphemy and oppression and sin you showed to men."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "The lemma 'መሕተ' is likely a phonetic variant or corruption of 'ምሕረት' (mercy/relief) or 'መፍትሕ' (release), but the structural parse of it as a negated subject holds.",
+  "decision_log": "S1 offers a robust analysis of a negated clause with multiple objects. The structure is grammatically sound and semantically coherent within the context of a divine judgment.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",
-    "confidence": "moderate"
+    "confidence": "high"
   }
 }

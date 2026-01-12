@@ -2,18 +2,15 @@
   "syntax": {
     "parses": [
       {
-        "id": "P1",
+        "id": "S1.A",
         "structure_type": "Complex Sentence",
-        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP t5 [SBAR t6 [VP t7 [VP t8]]]]]",
+        "bracket_notation": "[S [VP t5] [SBAR [REL t6] [S [VP t7] [SBAR [ADV 'ወሶ'] [S [VP t8]]]]]]",
         "dependencies": [
-          "t1->t2 (numeral_mod)",
-          "t3->t4 (numeral_mod)",
-          "ROOT->t5 (main_verb)",
-          "t5->t6 (relative_clause)",
-          "t6->t7 (adverbial_clause)",
-          "t7->t8 (consequent)"
+          "t5 <- t6 (adj-clause: modifies 'place' in t5)",
+          "t6 <- t7 (predicate: 'burns' for 'fire' in t6)",
+          "t7 <- t8 (comp-clause: complement of 'wish' in t7)"
         ],
-        "notes": "t5 'they took' governs the relative clause t6 'which were'. t7 'burning/wishing' modifies the state in t6. t8 'appear' follows the condition in t7."
+        "notes": "A main clause (t5) is modified by a relative clause (t6) which itself contains a predicate (the first part of t7). A temporal clause (starting in t7) then introduces a final complementary clause (t8)."
       }
     ]
   }

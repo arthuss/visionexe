@@ -3,13 +3,18 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The narrative sequence 'going... spoken to them... they feared' is a standard paratactic structure in Ge'ez narrative. The emotional reaction (fear/trembling) is the direct result of the judgment delivered.",
-      "parallels": [],
+      "reasoning": "The analysis correctly identifies 'ሜሃ' (then) as a temporal adverbial, followed by a standard verb-object sequence ('ነሥኦሙ' - fear took them). The coordination of verbs ('ፈርሁ', 'ነሥኦሙ', 'ረዓድ') reflects a common narrative pattern of sequential or consequential actions.",
+      "parallels": [
+        {
+          "ref": "ATTESTATION_DATA_UNAVAILABLE",
+          "note": "No parallel corpus was available to verify attestation."
+        }
+      ],
       "context_invariance": "stable",
-      "back_translation": "Then going I spoke to them all together; and as for them, fear seized them, and trembling."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Standard narrative syntax confirmed.",
+  "decision_log": "S1 accurately captures a simple but common narrative sequence. The roles of the adverbial and main predicate are unambiguous.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",

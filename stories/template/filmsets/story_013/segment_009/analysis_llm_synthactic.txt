@@ -2,20 +2,22 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Gerundive/Prepositional Clause",
-        "bracket_notation": "[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [VP [V t5]] [PP [PREP t6] [SBAR [CONJ t7] [S [VP [REL t8] [NP t9] [NP t10]]]]]]]",
+        "id": "S9_1",
+        "structure_type": "Adverbial Phrase of Location",
+        "bracket_notation": "[PP [PREP ማእለ(t8)] [NP [PN ሊባኖስ(t8)]]]",
         "dependencies": [
-          "t2->t1 (nummod)",
-          "t4->t3 (nummod)",
-          "t5->root",
-          "t6->t5 (obl)",
-          "t7->t6 (advcl)",
-          "t8->t7 (acl)",
-          "t9->t8 (nsubj)",
-          "t10->t8 (obj)"
+          "t8->t8 (prepositional_object)"
         ],
-        "notes": "t5 (waking) heads the fragment; t6 (to them) modifies it; t7 (while) introduces background with t8/t9/t10."
+        "notes": "The preposition 'ማእለ' (between) takes 'ሊባኖስ' (Lebanon) as its object."
+      },
+      {
+        "id": "S9_2",
+        "structure_type": "Adjectival Phrase (Absolute Construction)",
+        "bracket_notation": "[ADJP [ADJ ግልቡባ(t9)] [OBJ [N ገጾሙ(t10)]]]",
+        "dependencies": [
+          "t9->t10 (object)"
+        ],
+        "notes": "An absolute construction, 'their faces being covered', where the passive participle 'ግልቡባ' (covered) in t9 takes 'ገጾሙ' (their faces) in t10 as its object."
       }
     ]
   }

@@ -3,21 +3,25 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The accumulation of clauses ('clouds invited me', 'winds flew me') is characteristic of the chaotic ascent narrative. The parse handles the list of agents (clouds, mist, stars, lightning, winds) well.",
+      "reasoning": "The parse correctly identifies a series of coordinated clauses describing the visionary experience. It begins with a statement and then lists the phenomena that call to Enoch: clouds, mist, stars, lightning, and winds. This polysyndetic structure creates a sense of being overwhelmed by supernatural forces, which is typical of visionary ascent narratives.",
       "parallels": [
         {
-          "ref": "Daniel 7:13",
-          "note": "Clouds of heaven motif"
+          "ref": "Ezekiel 1:4",
+          "note": "A vision preceded by meteorological phenomena: 'And I looked, and, behold, a whirlwind came out of the north, a great cloud, and a fire infolding itself...'"
+        },
+        {
+          "ref": "Revelation 4:1-2",
+          "note": "A call to 'come up hither' initiating a heavenly ascent."
         }
       ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Visionary ascent vocabulary aligns with apocalyptic topoi.",
+  "decision_log": "S1 correctly interprets the passage as a classic visionary ascent sequence, with natural phenomena acting as agents of divine summons. The chained clauses are parsed logically.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T1",
+    "translation_id": "T1_007",
     "confidence": "high"
   }
 }

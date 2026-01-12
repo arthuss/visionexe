@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0.0",
-    "created_at": "2026-01-11T03:40:19Z",
+    "created_at": "2026-01-11T06:55:57Z",
     "created_by": "worker_llm_analysis_Morphologic",
     "language": "gez",
     "tagset_id": "GEZ-POS-1",
@@ -23,24 +23,33 @@
       },
       "options": [
         {
-          "option_id": "O1",
+          "option_id": "MISSING",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
             "root": null,
-            "lemma": "Chapter",
-            "pattern": null
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.99
+            "type": "ruled_out",
+            "score": 0.0
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "unattested",
             "attestation": [],
             "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
           }
         }
       ]
@@ -54,24 +63,33 @@
       },
       "options": [
         {
-          "option_id": "O1",
-          "pos": "NUM",
+          "option_id": "MISSING",
+          "pos": "N",
           "analysis": {
             "kind": "lexical",
             "root": null,
-            "lemma": "15",
-            "pattern": null
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.99
+            "type": "ruled_out",
+            "score": 0.0
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "unattested",
             "attestation": [],
             "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
           }
         }
       ]
@@ -85,24 +103,33 @@
       },
       "options": [
         {
-          "option_id": "O1",
+          "option_id": "MISSING",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
             "root": null,
-            "lemma": "Segment",
-            "pattern": null
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.99
+            "type": "ruled_out",
+            "score": 0.0
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "unattested",
             "attestation": [],
             "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
           }
         }
       ]
@@ -116,24 +143,33 @@
       },
       "options": [
         {
-          "option_id": "O1",
-          "pos": "NUM",
+          "option_id": "MISSING",
+          "pos": "N",
           "analysis": {
             "kind": "lexical",
             "root": null,
-            "lemma": "2",
-            "pattern": null
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.99
+            "type": "ruled_out",
+            "score": 0.0
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "unattested",
             "attestation": [],
             "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
           }
         }
       ]
@@ -147,17 +183,93 @@
       },
       "options": [
         {
-          "option_id": "O1",
+          "option_id": "A",
           "pos": "V",
           "analysis": {
             "kind": "lexical",
-            "root": "ḥ-w-r",
-            "lemma": "ḥora",
-            "pattern": "CoCa"
+            "root": "ሖረ",
+            "lemma": "ሑር",
+            "pattern": "ḥur"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.95
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ሎሙ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "function_word",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "ለ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "function_word",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ተግሀ",
+            "lemma": "ትጉሃን",
+            "pattern": "təguhan"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "E",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሰማይ",
+            "lemma": "ሰማይ",
+            "pattern": "samāy"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
@@ -176,20 +288,58 @@
       },
       "options": [
         {
-          "option_id": "O1",
+          "option_id": "A",
           "pos": "PRO.REL",
           "analysis": {
             "kind": "lexical",
             "root": null,
-            "lemma": "ʾǝlla",
+            "lemma": "እለ",
             "pattern": null
           },
           "confidence": {
-            "type": "high",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "function_word",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ፈነወ",
+            "lemma": "ፈነዉ",
+            "pattern": "qätälu"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ተስለ",
+            "lemma": "ትስል",
+            "pattern": "təssəl"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
             "attestation": [],
             "constraints_checked": []
           }
@@ -205,20 +355,39 @@
       },
       "options": [
         {
-          "option_id": "O1",
-          "pos": "PREP",
+          "option_id": "A",
+          "pos": "CONJ.SUB",
           "analysis": {
             "kind": "lexical",
             "root": null,
-            "lemma": "ʾǝnta",
+            "lemma": "እንተ",
             "pattern": null
           },
           "confidence": {
-            "type": "high",
-            "score": 0.9
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "function_word",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "PRO.PERS",
+          "analysis": {
+            "kind": "lexical",
+            "root": "አንትሙ",
+            "lemma": "አንትሙ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "function_word",
             "attestation": [],
             "constraints_checked": []
           }
@@ -234,20 +403,77 @@
       },
       "options": [
         {
-          "option_id": "O1",
-          "pos": "N",
+          "option_id": "A",
+          "pos": "PART.FOC",
           "analysis": {
             "kind": "lexical",
-            "root": "f-t-w",
-            "lemma": "maftǝw",
-            "pattern": "maCCǝC"
+            "root": null,
+            "lemma": "መ",
+            "pattern": null
           },
           "confidence": {
-            "type": "high",
-            "score": 0.95
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "function_word",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ፈተወ",
+            "lemma": "ፈተው",
+            "pattern": "fätäw"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ተስለ",
+            "lemma": "ትስሉ",
+            "pattern": "təssəlu"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "CONJ.SUB",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "እንተ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "function_word",
             "attestation": [],
             "constraints_checked": []
           }
@@ -263,17 +489,17 @@
       },
       "options": [
         {
-          "option_id": "O1",
+          "option_id": "A",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "s-b-ʾ",
-            "lemma": "sabʾ",
-            "pattern": "CaCC"
+            "root": "ሰብእ",
+            "lemma": "ሰብእ",
+            "pattern": "säbʾ"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.95
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
@@ -292,20 +518,20 @@
       },
       "options": [
         {
-          "option_id": "O1",
-          "pos": "PRO.PERS",
+          "option_id": "A",
+          "pos": "CONJ.SUB",
           "analysis": {
             "kind": "lexical",
             "root": null,
-            "lemma": "ʾantǝmu",
+            "lemma": "እንተ",
             "pattern": null
           },
           "confidence": {
-            "type": "high",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "function_word",
             "attestation": [],
             "constraints_checked": []
           }

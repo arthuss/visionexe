@@ -3,21 +3,25 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The vision of the Throne (Manbara). The comparison to crystal/ice and the solar wheel/sun imagery is historically significant (Merkabah). Parse captures the specific visual elements.",
+      "reasoning": "The parse identifies a narrative sequence: 'And I looked and I saw... a high throne.' The description of the throne's appearance ('like crystal,' 'like the shining sun') and the voice of cherubim are central elements of the Merkabah vision.",
       "parallels": [
         {
-          "ref": "Ezekiel 1:26",
-          "note": "Likeness of a throne, lapis lazuli/sapphire"
+          "ref": "Ezekiel 1:22, 1:26",
+          "note": "Description of the firmament 'as the colour of the terrible crystal' and above it 'the likeness of a throne, as the appearance of a sapphire stone'."
+        },
+        {
+          "ref": "Revelation 4:2-3",
+          "note": "'And immediately I was in the spirit: and, behold, a throne was set in heaven... and he that sat was to look upon like a jasper and a sardine stone...'"
         }
       ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Throne room iconography matches parallels.",
+  "decision_log": "S1 accurately parses the climatic moment of the vision: the sight of the divine throne. The description heavily relies on established imagery from Ezekiel, which the parse structure accommodates well.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T1",
+    "translation_id": "T1_017",
     "confidence": "high"
   }
 }

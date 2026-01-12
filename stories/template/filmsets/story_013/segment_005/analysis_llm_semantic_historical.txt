@@ -3,22 +3,18 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The causal clause introduced by 'እስመ' (because) provides the rationale for the mediation: their shame prevents direct address to the deity. 'ኢያነሥኡ፡ዕይንቲሆሙ' (they did not lift their eyes) is a semantically potent idiom for shame/guilt.",
+      "reasoning": "The parse correctly identifies 'እስመ' (because/for) as a conjunction introducing a subordinate causal clause. The internal structure of the clause, explaining *why* they cannot look up ('እምኃፍረተ፡ሳሆሙ' - from the shame of their sins), is logically and grammatically sound.",
       "parallels": [
         {
-          "ref": "Ezra 9:6",
-          "note": "'O my God, I am ashamed and blush to lift up my face to thee'."
-        },
-        {
-          "ref": "Luke 18:13",
-          "note": "Publican 'would not lift up so much as his eyes unto heaven'."
+          "ref": "ATTESTATION_DATA_UNAVAILABLE",
+          "note": "No parallel corpus was available to verify attestation."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "Because they were not able from then on to speak or to lift their eyes to heaven from the shame of their sins for which they were judged."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Idiomatic usage verified against biblical parallels.",
+  "decision_log": "S1 correctly identifies a standard causal clause. The structure is fundamental and presents no ambiguity.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",

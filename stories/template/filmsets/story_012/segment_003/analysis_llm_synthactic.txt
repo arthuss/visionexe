@@ -2,17 +2,32 @@
   "syntax": {
     "parses": [
       {
-        "id": "S3_P1",
-        "structure_type": "Coordinate Clauses",
-        "bracket_notation": "[S [S [V t5] [NP [N t6] [N t7]]] [S [V t8] [NP t9]]]",
+        "id": "S3-C1",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [NP [PRO አነ] ሄኖክ] [VP [V t5] [IO [NP t6] [CONJ ወ] [NP [N ንጉሠ] [GEN [N t7]]]]]]",
         "dependencies": [
-          "t5 (ROOT)",
-          "t5->t6 (direct object)",
-          "t6->t7 (genitive modifier)",
-          "t5->t8 (coordinate clause)",
-          "t8->t9 (subject/apposition)"
+          "t5->t6 (iobj)",
+          "t6->t7 (gen)"
         ],
-        "notes": "Action sequence: Blessing -> Called."
+        "notes": "Clause 1: 'And I, Enoch, bless the great Lord and King of the world.' The subject 'I' is part of the verb t5 (እባር)."
+      },
+      {
+        "id": "S3-C2",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [PART ወናሁ] [NP_SUBJ ትጉሃን (t7)] [VP [V t8] [DO [PRO -ኒ] [NP ሊተ ለሄኖ]] [NP_APP ጸሓፊ (t9)]]]",
+        "dependencies": [
+          "t8->t7 (nsubj)",
+          "t8->(ሄኖ) (dobj)",
+          "(ሄኖ)->t9 (appos)"
+        ],
+        "notes": "Clause 2: 'And behold, the Watchers call me, Enoch, the scribe.'"
+      },
+      {
+        "id": "S3-C3",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [CONJ ወ] [VP [V ይቤሉኒ (t9)]]]",
+        "dependencies": [],
+        "notes": "Clause 3: 'And they said to me.'"
       }
     ]
   }

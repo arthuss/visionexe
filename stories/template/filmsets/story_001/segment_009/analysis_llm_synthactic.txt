@@ -2,34 +2,31 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Verbal Clause",
-        "bracket_notation": "[S [Conj t5] [Inj t5] [V t5] [Subj [N t5] [N t6]]]",
+        "id": "S9-P1",
+        "structure_type": "Verbal Phrase",
+        "bracket_notation": "[VP [V t5] [Obj t6]]",
         "dependencies": [
-          "t5->(root) (main_verb)",
-          "t6->t5 (subject_modifier)"
+          "t5->t6 (object)"
         ],
-        "notes": "'And behold He comes with myriads of holy ones'"
+        "notes": "The verb 'comes' (t5) takes 'a multitude of holy ones' (t6) as its object/complement."
       },
       {
-        "id": "S2",
-        "structure_type": "Verbal Clause (Subordinate)",
-        "bracket_notation": "[S [Conj t6] [V t6] [Obj t6] [PP [Prep t7]]]",
+        "id": "S9-P2",
+        "structure_type": "Verbal Phrase",
+        "bracket_notation": "[VP [V t8] [Obj t9]]",
         "dependencies": [
-          "t6->t5 (purpose)",
-          "t6->t6 (object)"
+          "t8->t9 (object)"
         ],
-        "notes": "'To execute judgment upon them'"
+        "notes": "The verb 'and he will rebuke' (t8) takes 'all that they have done of the flesh' (t9) as its object."
       },
       {
-        "id": "S3",
+        "id": "S9-P3",
         "structure_type": "Verbal Clause",
-        "bracket_notation": "[S [Conj t7] [V t7] [Obj [Prep t8] [N t8]]]",
+        "bracket_notation": "[S [VP t10] [Coord [S t11]]]",
         "dependencies": [
-          "t7->t6 (coordination)",
-          "t8->t7 (object)"
+          "t10->t11 (coordination)"
         ],
-        "notes": "'And to destroy the wicked'"
+        "notes": "The clause 'and they wrought upon him sin' (t10) is coordinated with 'and the impious' (t11)."
       }
     ]
   }

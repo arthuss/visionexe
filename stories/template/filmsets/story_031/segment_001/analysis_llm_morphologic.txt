@@ -1,0 +1,581 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T06:36:47Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_031/segment_001",
+    "graphematic_string": "Chapter 31 Segment 1\n\nወርኢኩ፡ልነ፡ደብረ፡ዘቦ፡\nውስቲቱ፡ዕፀው፡ወይወፅእ፡\nእምሁ፡መ፡ቄጥሮ፡ዘስሙ፡\nሳሪራ፡ወልን፡",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "chapter",
+            "lemma": "chapter",
+            "pattern": "loanword"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "foreign_word",
+            "attestation": [
+              "English loanword."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "31",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "31",
+            "lemma": "31",
+            "pattern": "arabic_numeral"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "foreign_word",
+            "attestation": [
+              "Arabic numeral."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "segment",
+            "lemma": "segment",
+            "pattern": "loanword"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "foreign_word",
+            "attestation": [
+              "English loanword."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "1",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "1",
+            "lemma": "1",
+            "pattern": "arabic_numeral"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "foreign_word",
+            "attestation": [
+              "Arabic numeral."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወርኢኩ፡ልነ፡ደብረ፡ዘቦ፡",
+      "span": {
+        "start": 22,
+        "end": 37
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "CONJ.COORD",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ወ",
+            "pattern": "particle"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_function_words",
+            "attestation": [
+              "Initial 'ወ' frequently serves as a coordinating conjunction."
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ርእየ",
+            "lemma": "ርእየ",
+            "pattern": "qätäl-ku"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Root 'ርእየ' (to see) with 1st person singular perfective suffix '-ኩ'."
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "CLIT.PREP",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ለ",
+            "pattern": "clitic"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_function_words",
+            "attestation": [
+              "Preposition 'ለ' (to/for) cliticized to the following pronoun."
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "CLIT.PRON",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "-ነ",
+            "pattern": "suffix_pronoun"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_grammar",
+            "attestation": [
+              "1st person common plural object pronoun suffix '-ነ'."
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "E",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ደብር",
+            "lemma": "ደብር",
+            "pattern": "qätl-ä"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Noun 'ደብር' (mountain) in the accusative case."
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "F",
+          "pos": "PART.REL",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ዘ",
+            "pattern": "particle"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_function_words",
+            "attestation": [
+              "Relative particle 'ዘ' (which/that)."
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "G",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ቦ",
+            "lemma": "ቦ",
+            "pattern": "particle_verb"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Existential verb 'ቦ' (there is/are)."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ውስቲቱ፡ዕፀው፡ወይወፅእ፡",
+      "span": {
+        "start": 38,
+        "end": 53
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ውስተ",
+            "lemma": "ውስተ",
+            "pattern": "qətlit-u"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Preposition 'ውስተ' (in/inside) with 3rd person masculine singular possessive suffix '-ቱ'."
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ዕፅ",
+            "lemma": "ዕፅ",
+            "pattern": "əqtal"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Noun 'ዕፅ' (tree), plural form 'ዕፀው' (trees)."
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "CONJ.COORD",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ወ",
+            "pattern": "particle"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_function_words",
+            "attestation": [
+              "Coordinating conjunction 'ወ' (and)."
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ወፅአ",
+            "lemma": "ወፅአ",
+            "pattern": "yə-qät(t)əl"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Root 'ወፅአ' (to go out), 3rd person masculine singular imperfective 'ይወፅእ'."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "እምሁ፡መ፡ቄጥሮ፡ዘስሙ፡",
+      "span": {
+        "start": 54,
+        "end": 68
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "CLIT.PREP",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "እም",
+            "pattern": "clitic"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_function_words",
+            "attestation": [
+              "Preposition 'እም' (from) cliticized to the following pronoun."
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "CLIT.PRON",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "-ሁ",
+            "pattern": "suffix_pronoun"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_grammar",
+            "attestation": [
+              "3rd person masculine singular object pronoun suffix '-ሁ'."
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ቄጥር",
+            "lemma": "ቄጥሮ",
+            "pattern": "qet(t)ro"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Noun 'ቄጥሮ' (resin/spice)."
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "PART.REL",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ዘ",
+            "pattern": "particle"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_function_words",
+            "attestation": [
+              "Relative particle 'ዘ' (which/that)."
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "E",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ስም",
+            "lemma": "ስም",
+            "pattern": "qətl-u"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Noun 'ስም' (name) with 3rd person masculine singular possessive suffix '-ኡ', contracted to 'ስሙ' (his name)."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ሳሪራ፡ወልን፡",
+      "span": {
+        "start": 69,
+        "end": 77
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሳሪራ",
+            "lemma": "ሳሪራ",
+            "pattern": "proper_noun"
+          },
+          "confidence": {
+            "type": "probable",
+            "score": 0.8
+          },
+          "evidence": {
+            "lexicon_status": "plausibly_attested",
+            "attestation": [
+              "Proper noun, likely 'Sarira', the name of the resin mentioned."
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "CONJ.COORD",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ወ",
+            "pattern": "particle"
+          },
+          "confidence": {
+            "type": "certain",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_function_words",
+            "attestation": [
+              "Coordinating conjunction 'ወ' (and)."
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "አልን",
+            "lemma": "አልን",
+            "pattern": "qətl"
+          },
+          "confidence": {
+            "type": "possible",
+            "score": 0.5
+          },
+          "evidence": {
+            "lexicon_status": "plausibly_attested",
+            "attestation": [
+              "Possible scribal error for 'አልን' (aloe), with the initial 'አ' dropped after the conjunction 'ወ'."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

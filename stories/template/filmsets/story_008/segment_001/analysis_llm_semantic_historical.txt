@@ -3,22 +3,18 @@
     {
       "hypothesis_ref": "S1-P1",
       "plausibility": "high",
-      "reasoning": "The coordination chain accurately reflects the accumulation of forbidden technologies (metallurgy and cosmetics) attributed to Azazel in the Watcher tradition. The syntactic break at 'wa-tawāleṭa ʿālam' (and the world was changed/corrupted) marks a shift from specific teachings to general consequences.",
+      "reasoning": "The parse correctly identifies a single agent (Azazel) teaching a list of prohibited arts and technologies. This aligns perfectly with the source narrative's structure, where a watcher is named, followed by the specific knowledge they revealed. The coordination chain structure accurately reflects the Ge'ez syntax.",
       "parallels": [
         {
-          "ref": "1 Enoch 8:1-2 (Greek Syncellus)",
-          "note": "Matches the list: 'swords and breastplates... and stibium and beautifying of the eyelids'."
-        },
-        {
-          "ref": "4Q201 (Aramaic Enoch)",
-          "note": "Fragments support the list of metallurgical teachings."
+          "ref": "1 Enoch 8:1",
+          "note": "This segment is a direct quotation or close paraphrase of the opening of 1 Enoch chapter 8, which details the forbidden knowledge taught by the watcher Azazel."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And Azazel taught men to make swords and knives and shields and breastplates... and the world was changed."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "The parse correctly handles the long list of direct objects governed by 'mahara' (taught) and identifies the consequential clause starting with 'tawāleṭa'.",
+  "decision_log": "The provided parse (S1-P1) is the only logical interpretation of this segment. It correctly identifies the governing verb ('መሀረ' - taught) and the series of coordinated direct objects that form the core of the verse. No alternative structure is plausible.",
   "final_decision": {
     "hypothesis_ref": "S1-P1",
     "translation_id": "T1",

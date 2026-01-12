@@ -2,22 +2,26 @@
   "evaluation": [
     {
       "hypothesis_ref": "S1",
-      "plausibility": "moderate",
-      "reasoning": "Corresponds to 1 Enoch 18:8. Describes the middle mountain reaching heaven like God's throne. Text 'እብነ፡ፔ' is obscure, likely 'እብነ፡ልባን' (alabaster) or 'እብነ፡በረድ' (crystal) in other MSS.",
+      "plausibility": "high",
+      "reasoning": "The parse correctly identifies the central mountain as being like the 'throne of God'. The description of the throne's appearance (sapphire) is a direct and intentional allusion to visions of the divine throne in the Hebrew Bible.",
       "parallels": [
         {
-          "ref": "1 Enoch 18:8",
-          "note": "Throne of God description."
+          "ref": "Ezekiel 1:26",
+          "note": "And above the expanse over their heads there was the likeness of a throne, in appearance like sapphire."
+        },
+        {
+          "ref": "Exodus 24:10",
+          "note": "And they saw the God of Israel. There was under his feet as it were a pavement of sapphire stone, like the very heaven for clearness."
         }
       ],
-      "context_invariance": "variable",
-      "back_translation": "And the middle one reached to heaven like the throne of God, of stone of [P?]; and the top of the throne was of sapphire."
+      "context_invariance": "stable",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "'ፔ' is likely a corruption/abbreviation. Context confirms 'Sapphire' for the summit. Accepted.",
+  "decision_log": "S1 correctly identifies the simile and the genitive chains. The explicit comparison of the mountain to God's throne, and the use of sapphire in the description, are unmistakable allusions to prior theophanic visions, making the interpretation certain.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",
-    "confidence": "moderate"
+    "confidence": "high"
   }
 }

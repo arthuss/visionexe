@@ -2,24 +2,31 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Complex Compound Sentence",
-        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [Clause t5] [Clause t6 [Obj t7]] [Clause t8] [Clause t9] [Clause t10] [Clause t11] [Clause t12]]]",
+        "id": "P1",
+        "structure_type": "Header + Fragments",
+        "bracket_notation": "[ROOT [HEADER [TITLE [N t1] [NUM t2]] [ID [N t3] [NUM t4]]] [BODY [NP t5] [NP t6] [NP t7] [NP t8] [NP t9] [NP t10] [NP t11] [NP t12]]]",
         "dependencies": [
-          "t5->t1 (meta)",
-          "t5->t2 (meta)",
-          "t5->t3 (meta)",
-          "t5->t4 (meta)",
-          "root->t5 (root)",
-          "t5->t6 (coordination)",
-          "t6->t7 (object)",
-          "t7->t8 (coordination)",
-          "t8->t9 (object)",
-          "t9->t10 (instrumental)",
-          "t10->t11 (modifier)",
-          "t11->t12 (result)"
+          "t1->t2 (mod)",
+          "t3->t4 (mod)"
         ],
-        "notes": "Adversative structure describing transgression."
+        "notes": "Safe parse assuming a metadata header followed by a flat list of body fragments. No verb was tagged in this segment."
+      },
+      {
+        "id": "P2",
+        "structure_type": "Nominal Coordination",
+        "bracket_notation": "[ROOT [HEADER [TITLE [N t1] [NUM t2]] [ID [N t3] [NUM t4]]] [NP [NP t5] [CONJ] [NP t6] [CONJ] [NP t7] [CONJ] [NP t8] [CONJ] [NP t9] [CONJ] [NP t10] [CONJ] [NP t11] [CONJ] [NP t12]]]",
+        "dependencies": [
+          "t1->t2 (mod)",
+          "t3->t4 (mod)",
+          "t5->t6 (conj)",
+          "t5->t7 (conj)",
+          "t5->t8 (conj)",
+          "t5->t9 (conj)",
+          "t5->t10 (conj)",
+          "t5->t11 (conj)",
+          "t5->t12 (conj)"
+        ],
+        "notes": "Assumes coordination between the noun phrases, with implicit conjunctions, as no verb was tagged in the segment."
       }
     ]
   }

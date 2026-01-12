@@ -3,18 +3,18 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The text identifies with 1 Enoch 3:1 regarding the observation of trees in winter. Although the provided text contains abbreviations or scribal errors (e.g., 'መ፡ሉ' for 'ኲሎ' [all], 'እምልኤ' for 'እምክልኤ' [from two]), the semantic coherence regarding the 'fourteen trees' (፲ወ፬ዕፀው) that remain 'without shedding' (ዘኢይትነገፍ) is historically well-attested in the Ethiopic tradition. The VSO structure indicated in the parse supports the narrative flow of observation followed by description.",
+      "reasoning": "The parse correctly identifies a Verb-Subject-Object (VSO) structure common in Ge'ez and accurately models the complex chain of adjectival and relative clauses modifying 'trees'. The semantic content aligns perfectly with known texts, specifically 1 Enoch 3.",
       "parallels": [
         {
-          "ref": "1 Enoch 3:1 (Ethiopic Tradition)",
-          "note": "Matches standard recensions (e.g., Knibb, Charles) describing evergreen trees."
+          "ref": "1 Enoch 3:1-2",
+          "note": "The passage directly corresponds to the opening of 1 Enoch chapter 3, which describes trees appearing withered and shedding leaves, with the specific exception of fourteen trees that retain their old leaves for two to three years until new ones grow. This parallel is strongly attested in all critical editions and translations of the Ethiopic text (e.g., Dillmann, Charles, Nickelsburg)."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And I observed and saw all the trees, how they appear as if withered, and all their leaves are shed, except fourteen trees which do not shed, but wait from the old until the new comes, in two and three winters."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Accepted S1 as the primary reading. Corrected minor OCR/transcription artifacts in semantic interpretation (e.g., reading 'መ፡ሉ' as 'ኲሎ'). Confirmed the specific detail of '14 trees' against 1 Enoch critical editions.",
+  "decision_log": "Only one hypothesis (S1) was provided. The structural analysis is consistent with Ge'ez syntax. The semantic content is directly and unambiguously attested in historical manuscripts of 1 Enoch, chapter 3. No alternative parses were available for comparison, but S1 is evaluated as sound and contextually valid.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",

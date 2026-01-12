@@ -2,15 +2,13 @@
   "syntax": {
     "parses": [
       {
-        "id": "S3-P1",
-        "structure_type": "Main Clause with Subordinate",
-        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [S [NP [PRO.DEM t5]] [SBAR [CONJ.SUB t6]]]]",
+        "id": "S3_P1",
+        "structure_type": "Sentence",
+        "bracket_notation": "[S [CLAUSE t5] [SBAR t6]]",
         "dependencies": [
-          "t1->t2 (mod)",
-          "t3->t4 (mod)",
-          "t5->t6 (advcl)"
+          "t5->t6 (advcl:cause)"
         ],
-        "notes": "t5 acts as the main predication carrier (demonstrative subject/predicate) with t6 introducing a subordinate clause."
+        "notes": "The main clause in t5 ('These were great giants...') is explained by the subordinate clause of reason in t6."
       }
     ]
   }

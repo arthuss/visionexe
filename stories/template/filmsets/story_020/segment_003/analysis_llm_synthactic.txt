@@ -2,13 +2,13 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Nominal Sentence / List Item",
-        "bracket_notation": "[S [Meta t1 t2 t3 t4] [NP_Subj t5] [NP_Compl t6]]",
+        "id": "P3_S1",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP [PN t5] [NP t6]]",
         "dependencies": [
-          "t5->t6 (complement/apposition)"
+          "t6 (noun) is in apposition to t5 (proper_noun)"
         ],
-        "notes": "t5 (Raphael...) and t6 (...angels...) form a continuous nominal chain describing the entity and function."
+        "notes": "Appositional structure. 'መላእት፡ዘመናፍስተ፡ሰብእ፨' (the angel of the spirits of men) in t6 specifies 'ሩፋኤል' (Raphael) in t5."
       }
     ]
   }

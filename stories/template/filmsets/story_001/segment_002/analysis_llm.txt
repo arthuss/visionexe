@@ -2,105 +2,48 @@
 {
   "actors": [
     {
-      "name": "እግዚብሔር",
+      "name": "Enoch",
+      "visualTraits": "A righteous man whose eyes are opened, enabling him to see a holy vision.",
+      "changes": [],
+      "role": "visionary"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Angels",
       "visualTraits": null,
-      "changes": null,
-      "role": "deity"
+      "changes": [],
+      "role": "divine messengers who reveal the vision"
     },
     {
-      "name": "መላእት",
+      "name": "The Elect",
       "visualTraits": null,
-      "changes": null,
-      "role": "angel"
-    },
-    {
-      "name": "እምኀቤሆሙ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "lord"
-    },
-    {
-      "name": "ኅሩያን",
-      "visualTraits": null,
-      "changes": null,
-      "role": "saint"
+      "changes": [],
+      "role": "the distant future generation for whom the prophecy is intended"
     }
   ],
   "props": [],
-  "environments": [
+  "places": [
     {
-      "name": "ሰማያት",
-      "visualTraits": null,
-      "changes": null,
-      "role": "setting"
+      "name": "The Heavens",
+      "visualTraits": "The source of the holy vision; a celestial realm.",
+      "changes": [],
+      "role": "setting_of_vision"
     }
   ],
+  "locations": [],
+  "environments": [],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Verse 1",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
-    },
-    {
-      "title": "Verse 2",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
-    },
-    {
-      "title": "Verse 3",
-      "location": null,
-      "action": null,
-      "actorsInvolved": ["እግዚብሔር"]
-    },
-    {
-      "title": "Verse 4",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
-    },
-    {
-      "title": "Verse 5",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
-    },
-    {
-      "title": "Verse 6",
-      "location": null,
-      "action": null,
-      "actorsInvolved": ["መላእት"]
-    },
-    {
-      "title": "Verse 7",
-      "location": null,
-      "action": null,
-      "actorsInvolved": ["እምኀቤሆሙ"]
-    },
-    {
-      "title": "Verse 8",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
-    },
-    {
-      "title": "Verse 9",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
-    },
-    {
-      "title": "Verse 10",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
-    },
-    {
-      "title": "Verse 11",
-      "location": null,
-      "action": null,
-      "actorsInvolved": ["ኅሩያን"]
+      "title": "Enoch Receives the Heavenly Vision",
+      "location": "The Heavens (in vision)",
+      "action": "Enoch, a righteous man in a state of vision, sees a holy revelation of the heavens shown to him by angels. He hears and understands that the message is not for his own time, but for a remote future generation known as 'the elect'.",
+      "actorsInvolved": [
+        "Enoch",
+        "Angels",
+        "The Elect"
+      ]
     }
   ],
   "blocking": {

@@ -1,10 +1,39 @@
+```json
 {
   "actors": [],
+  "characters": [
+    {
+      "name": "The Blessed",
+      "visualTraits": "unknown",
+      "changes": [],
+      "role": "The subjects of a prophecy who will live long, complete lives in peace and joy."
+    }
+  ],
   "props": [],
-  "environments": [],
-  "scenes": [],
+  "places": [],
+  "locations": [],
+  "environments": [
+    {
+      "name": "Perpetual Peace and Joy",
+      "visualTraits": "A state defined by peace (ሰላም), joy (ፍሥሓ), and gladness (ሐሤት), where life is long and not cut short by calamity.",
+      "changes": [],
+      "role": "The setting for the lives of the blessed."
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Promise of Unending Life",
+      "location": "unknown",
+      "action": "A declaration is made that a group of people will not have their lives diminished or die by plague or wrath, but will complete their days and live long lives in peace and abundant joy.",
+      "actorsInvolved": [
+        "The Blessed"
+      ]
+    }
+  ],
   "blocking": {
     "anchors": [],
     "paths": []
   }
 }
+```

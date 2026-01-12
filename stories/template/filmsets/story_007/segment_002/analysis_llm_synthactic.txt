@@ -2,16 +2,22 @@
   "syntax": {
     "parses": [
       {
-        "id": "S2-P1",
-        "structure_type": "Nominal Sentence / Subject-Predicate",
-        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [S [NP [PRO.PERS t5]] [NP [N t6] [NUM t7]]]]",
+        "id": "S2_P1",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [VP t5] [NP t6]]",
         "dependencies": [
-          "t1->t2 (mod)",
-          "t3->t4 (mod)",
-          "t6->t5 (subj)",
-          "t6->t7 (mod)"
+          "t5->t6 (obj)"
         ],
-        "notes": "t5 (Pronoun) acts as subject for the complex nominal/verbal content in t6."
+        "notes": "The verbs in t5 ('...conceived and bore') take the noun phrase in t6 ('giants') as a direct object."
+      },
+      {
+        "id": "S2_P2",
+        "structure_type": "Nominal Clause",
+        "bracket_notation": "[S [NP_Subj t6] [NP_pred t7]]",
+        "dependencies": [
+          "t6->t7 (pred)"
+        ],
+        "notes": "A nominal clause where the noun phrase in t6 ('...their height') is the subject and the noun phrase in t7 ('3000 cubits') is the predicate."
       }
     ]
   }

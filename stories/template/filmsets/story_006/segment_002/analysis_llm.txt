@@ -1,29 +1,43 @@
 ```json
 {
-  "actors": [
+  "actors": [],
+  "characters": [
     {
-      "name": "ወርእዩ",
-      "visualTraits": "angelic",
-      "changes": null,
-      "role": "angel"
+      "name": "Sons of Heaven",
+      "visualTraits": "unknown",
+      "changes": [],
+      "role": "divine beings"
+    },
+    {
+      "name": "Daughters of Men",
+      "visualTraits": "unknown",
+      "changes": [],
+      "role": "human"
     }
   ],
   "props": [],
-  "environments": [
+  "places": [
     {
-      "name": "ሰማያት",
-      "visualTraits": "vast sky",
-      "changes": null,
-      "role": "environment"
-    },
-    {
-      "name": "ውሉደ",
-      "visualTraits": "worldly",
-      "changes": null,
-      "role": "environment"
+      "name": "Heaven",
+      "visualTraits": "unknown",
+      "changes": [],
+      "role": "origin_realm"
     }
   ],
-  "scenes": [],
+  "locations": [],
+  "environments": [],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Decision of the Sons of Heaven",
+      "location": "unknown",
+      "action": "The Sons of Heaven see the Daughters of Men, desire them, and decide to take them as wives to beget children.",
+      "actorsInvolved": [
+        "Sons of Heaven",
+        "Daughters of Men"
+      ]
+    }
+  ],
   "blocking": {
     "anchors": [],
     "paths": []

@@ -2,14 +2,14 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Nominal Sentence",
-        "bracket_notation": "[S [PP t5] [VP t5] [NP t6] [RelCl t7]]",
+        "id": "seg018_flat",
+        "structure_type": "Flat Phrase/Clause Chain",
+        "bracket_notation": "[S [CONJ_U t5] [U t6] [REL_U t7]]",
         "dependencies": [
-          "t5->t6 (subject)",
-          "t6->t7 (relative)"
+          "t5 -> t6 (sequence)",
+          "t6 -> t7 (adjunct:relative)"
         ],
-        "notes": "Description of what is under the throne."
+        "notes": "Parse based on sequential relationship with dependencies from initial markers."
       }
     ]
   }

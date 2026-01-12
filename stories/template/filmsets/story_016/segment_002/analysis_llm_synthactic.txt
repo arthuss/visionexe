@@ -2,16 +2,16 @@
   "syntax": {
     "parses": [
       {
-        "id": "S2_P1",
-        "structure_type": "Discourse Segment",
-        "bracket_notation": "[META [N t1] [NUM t2]] [META [N t3] [NUM t4]] [S [PP t5] [VP t6] [SBAR t7]]",
+        "id": "S1",
+        "structure_type": "Sentence",
+        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [CLAUSE [PP [P t5] [NP t6]] [VP [V t7]]]]",
         "dependencies": [
           "t1->t2 (nummod)",
           "t3->t4 (nummod)",
-          "t6->t5 (iobj)",
-          "t6->t7 (acl:relcl)"
+          "t7->t6 (obl)",
+          "t6->t5 (case)"
         ],
-        "notes": "t5 'And now to the watchers...' functions as the indirect object focus for the implied main verb."
+        "notes": "Structural analysis based on token position and generic POS tags, enumerating a plausible parse without semantic validation."
       }
     ]
   }

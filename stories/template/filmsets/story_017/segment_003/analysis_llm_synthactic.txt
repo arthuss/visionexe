@@ -2,19 +2,16 @@
   "syntax": {
     "parses": [
       {
-        "id": "P1",
-        "structure_type": "Coordination",
-        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP t5 [NP t7] [PP t9] [NP t11] [NP t13]]]",
+        "id": "S3.A",
+        "structure_type": "Verb Phrase with Coordinated Objects",
+        "bracket_notation": "[S [VP t5 [NP [NP (in t5)], [NP t7], [PP t9 [NP [NP], [NP t11], [NP t13]]]]]]",
         "dependencies": [
-          "t1->t2 (numeral_mod)",
-          "t3->t4 (numeral_mod)",
-          "ROOT->t5 (main_verb)",
-          "t5->t7 (obj_coord)",
-          "t5->t9 (obl_coord)",
-          "t5->t11 (obj_coord)",
-          "t5->t13 (obj_coord)"
+          "t5 -> t7 (coord-obj)",
+          "t5 -> t9 (coord-obj)",
+          "t5 -> t11 (coord-obj)",
+          "t5 -> t13 (coord-obj)"
         ],
-        "notes": "t5 'I saw' governs a list of coordinated objects/locatives (t7, t9, t11, t13). Punctuation tokens t6, t8, t10, t12 are separators."
+        "notes": "The verb 'I saw' (in t5) governs a list of coordinated noun phrases, which serve as its direct objects, separated by conjunctions (ወ) and punctuation."
       }
     ]
   }

@@ -2,16 +2,15 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Complex Sentence",
-        "bracket_notation": "[S [NP t5] [VP t5] [NP t5] [NP t6] [S [Conj t6] [VP t6] [NP t7] [PP t8]]]",
+        "id": "seg015_flat",
+        "structure_type": "Flat Phrase/Clause Chain",
+        "bracket_notation": "[S [CONJ_U t5] [CONJ_U t6] [U t7] [CONJ_U t8]]",
         "dependencies": [
-          "t5->t6 (coordination)",
-          "t5->t6 (result clause)",
-          "t6->t7 (object)",
-          "t7->t8 (specification)"
+          "t5 -> t6 (coordination)",
+          "t6 -> t7 (sequence)",
+          "t7 -> t8 (coordination)"
         ],
-        "notes": "Comparison of excellence/glory."
+        "notes": "Parse based on sequential relationship with dependencies from initial markers."
       }
     ]
   }

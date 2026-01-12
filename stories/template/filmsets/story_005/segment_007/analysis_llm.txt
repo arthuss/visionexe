@@ -1,9 +1,58 @@
 ```json
 {
   "actors": [],
+  "characters": [
+    {
+      "name": "the chosen",
+      "visualTraits": {
+        "description": "Associated with light, joy, and peace."
+      },
+      "changes": [],
+      "role": "group"
+    },
+    {
+      "name": "the wicked",
+      "visualTraits": {
+        "description": "Associated with a curse."
+      },
+      "changes": [],
+      "role": "group"
+    }
+  ],
   "props": [],
-  "environments": [],
-  "scenes": [],
+  "places": [
+    {
+      "name": "the earth",
+      "visualTraits": {
+        "description": "A domain to be inherited by 'the chosen'."
+      },
+      "changes": [],
+      "role": "setting"
+    }
+  ],
+  "locations": [],
+  "environments": [
+    {
+      "name": "Light",
+      "visualTraits": {
+        "description": "An environment of light, joy, and peace destined for 'the chosen'."
+      },
+      "changes": [],
+      "role": "ambient"
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Fate of the Chosen and the Wicked",
+      "location": "the earth",
+      "action": "A pronouncement dictates the future state: 'the chosen' will receive light, joy, peace, and inherit the earth, while 'the wicked' will receive a curse.",
+      "actorsInvolved": [
+        "the chosen",
+        "the wicked"
+      ]
+    }
+  ],
   "blocking": {
     "anchors": [],
     "paths": []

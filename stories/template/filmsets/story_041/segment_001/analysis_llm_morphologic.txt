@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T06:56:54Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_041/segment_001",
+    "graphematic_string": "Chapter 41 Segment 1\n\nወእምድኅረዝ፡ርኢኩ፡ሎ፡\nኅብቲሁ፡ለሰማያት፡\nወመንግሥት፡እፎ፡ትትፈል፡\nወተግባረ፡ሰብእ፡መ፡\nመዳልው፡ይደለዉ፨",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "chapter",
+            "lemma": "chapter",
+            "pattern": "singular"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "standard_english"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "41",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "numeric",
+            "root": "41",
+            "lemma": "41",
+            "pattern": "integer"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "n/a",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "segment",
+            "lemma": "segment",
+            "pattern": "singular"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "standard_english"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "1",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "numeric",
+            "root": "1",
+            "lemma": "1",
+            "pattern": "integer"
+          },
+          "confidence": {
+            "type": "high",
+            "score": 1.0
+          },
+          "evidence": {
+            "lexicon_status": "n/a",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወእምድኅረዝ፡ርኢኩ፡ሎ፡",
+      "span": {
+        "start": 22,
+        "end": 36
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "unresolved",
+            "lemma": "unresolved",
+            "pattern": "unresolved"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "not_found_in_lexicon",
+            "attestation": [
+              "Analysis limited by environmental constraints."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ኅብቲሁ፡ለሰማያት፡",
+      "span": {
+        "start": 37,
+        "end": 48
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "unresolved",
+            "lemma": "unresolved",
+            "pattern": "unresolved"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "not_found_in_lexicon",
+            "attestation": [
+              "Analysis limited by environmental constraints."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ወመንግሥት፡እፎ፡ትትፈል፡",
+      "span": {
+        "start": 49,
+        "end": 64
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "unresolved",
+            "lemma": "unresolved",
+            "pattern": "unresolved"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "not_found_in_lexicon",
+            "attestation": [
+              "Analysis limited by environmental constraints."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ወተግባረ፡ሰብእ፡መ፡",
+      "span": {
+        "start": 65,
+        "end": 77
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "unresolved",
+            "lemma": "unresolved",
+            "pattern": "unresolved"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "not_found_in_lexicon",
+            "attestation": [
+              "Analysis limited by environmental constraints."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "መዳልው፡ይደለዉ፨",
+      "span": {
+        "start": 78,
+        "end": 88
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "unresolved",
+            "lemma": "unresolved",
+            "pattern": "unresolved"
+          },
+          "confidence": {
+            "type": "low",
+            "score": 0.1
+          },
+          "evidence": {
+            "lexicon_status": "not_found_in_lexicon",
+            "attestation": [
+              "Analysis limited by environmental constraints."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

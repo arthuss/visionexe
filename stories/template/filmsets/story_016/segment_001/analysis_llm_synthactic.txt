@@ -2,21 +2,21 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1_P1",
-        "structure_type": "Discourse Segment",
-        "bracket_notation": "[META [N t1] [NUM t2]] [META [N t3] [NUM t4]] [S [NP t5] [VP [VP t6] [SBAR [S t7] [ADV t8]]] [PP [P t9] [NP t10]] [PP [P t11] [VP t12]]]",
+        "id": "S1",
+        "structure_type": "Sentence",
+        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [CLAUSE [NP t5] [VP [V t6] [NP t7] [SBAR [S [NP t8] [VP [V t9] [NP t10] [PP [P t11] [NP t12]]]]]]]]",
         "dependencies": [
           "t1->t2 (nummod)",
           "t3->t4 (nummod)",
           "t6->t5 (nsubj)",
-          "t6->t7 (ccomp)",
-          "t7->t8 (advcl)",
-          "t7->t9 (obl:tmod)",
-          "t9->t10 (acl:relcl)",
-          "t10->t11 (obl:agent)",
-          "t12->t11 (parataxis)"
+          "t6->t7 (obj)",
+          "t7->t9 (acl:relcl)",
+          "t9->t8 (nsubj)",
+          "t9->t10 (obj)",
+          "t9->t12 (obl)",
+          "t12->t11 (case)"
         ],
-        "notes": "Tokens are multi-word phrases. Dependency relations approximate the semantic connection between chunks."
+        "notes": "Structural analysis based on token position and generic POS tags, enumerating a plausible parse without semantic validation."
       }
     ]
   }

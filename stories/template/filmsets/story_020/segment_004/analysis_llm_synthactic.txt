@@ -2,14 +2,14 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Nominal Sentence / List Item",
-        "bracket_notation": "[S [Meta t1 t2 t3 t4] [NP_Subj t5] [RelCl t6 [Coord t7]]]",
+        "id": "P4_S1",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP [PN t5] [ADJP t6] [CONJ+ NP t7]]",
         "dependencies": [
-          "t5->t6 (modifier/relative)",
-          "t6->t7 (coordination)"
+          "t6 (adj) modifies 'መላእት' (noun) within t5",
+          "t7 (noun) is coordinated with 'ዓለም' (noun) within t6"
         ],
-        "notes": "t5 (Raguel) is modified by the relative clause in t6 (who avenges), which is extended by t7 (and luminaries)."
+        "notes": "Appositional phrase describing 'Raguel' (t5). 'ቅዱሳን' (holy) in t6 modifies 'angels' in t5. 'ወለብርሃናት፨' (and on the luminaries) in t7 is coordinated with 'ለዓለም' (on the world) in t6."
       }
     ]
   }

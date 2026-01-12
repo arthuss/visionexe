@@ -3,16 +3,25 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The parse correctly identifies the incipit structure typical of Enochic literature ('This is the book...'). The nested relative clauses align with the Ge'ez construct state usage.",
-      "parallels": [],
+      "reasoning": "The parse correctly identifies the structure as a complex, multi-part title, which is characteristic of ancient documents, especially pseudepigrapha. It chains together nominal phrases ('The book of...') and relative clauses ('which...') to establish the work's authority and subject matter (righteousness, rebuke of the Watchers, Enoch's vision).",
+      "parallels": [
+        {
+          "ref": "Daniel 7:1",
+          "note": "A vision account is introduced: 'Daniel had a dream and visions of his head upon his bed: then he wrote the dream, and told the sum of the matters.'"
+        },
+        {
+          "ref": "Revelation 1:1",
+          "note": "Similar opening formula establishing divine origin and content: 'The Revelation of Jesus Christ, which God gave unto him, to shew unto his servants things which must shortly come to pass...'"
+        }
+      ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Standard title formula validated against genre conventions.",
+  "decision_log": "The single provided hypothesis (S1) accurately reflects the standard titulary conventions of apocalyptic literature. Its grammatical breakdown is sound and aligns with known parallels. Confidence is high.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T1",
+    "translation_id": "T1_001",
     "confidence": "high"
   }
 }

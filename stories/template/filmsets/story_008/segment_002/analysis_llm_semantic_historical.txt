@@ -3,21 +3,21 @@
     {
       "hypothesis_ref": "S2-P1",
       "plausibility": "high",
-      "reasoning": "The compound structure captures the progression of moral decay: existence of impiety -> action of fornication -> result of corruption. The reading 'rasʿān' (impiety/godlessness) is standard.",
+      "reasoning": "The parse accurately identifies a series of three consequential clauses describing the moral corruption ('great impiety', 'fornication and error', 'corrupt ways') that resulted from the teachings in the previous segment. This sequence of cause and moral effect is a central theme.",
       "parallels": [
         {
-          "ref": "1 Enoch 8:2 (Greek Panopolitanus)",
-          "note": "Corresponds to 'kai egeneto asebeia pollē' (and there was much impiety)."
+          "ref": "1 Enoch 8:2",
+          "note": "This segment corresponds directly to the description of the consequences of the watchers' teachings. The themes of impiety, going astray, and corruption are attested here."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And there was great and much impiety, and they committed fornication and erred, and all their ways were corrupt."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Parse accurately delineates the paratactic structure common in Ge'ez narrative describing a sequence of states and events.",
+  "decision_log": "The compound sentence structure is correct. The 'wa-' conjunctions link the states and actions in a sequence of degradation. The parse correctly identifies this flow.",
   "final_decision": {
     "hypothesis_ref": "S2-P1",
-    "translation_id": "T1",
+    "translation_id": "T2",
     "confidence": "high"
   }
 }

@@ -3,21 +3,25 @@
     {
       "hypothesis_ref": "S2_P1",
       "plausibility": "high",
-      "reasoning": "Correctly identifies the nominal sentence structure common in Ge'ez for describing states. 'His work [was] with the Watchers'.",
+      "reasoning": "The parse correctly identifies the structure as parallel nominal clauses, a hallmark of Semitic poetry and prose ('His work with X, his days with Y'). The verb 'to be' is correctly inferred. 'Watchers' (ትጉሃን) and 'Holy Ones' (ቅዱሳን) are key attested terms for divine beings in Enochic literature.",
       "parallels": [
         {
-          "ref": "1 Enoch 12:2",
-          "note": "Attested description of Enoch's association with the 'Egregoro' (Watchers)."
+          "ref": "1 Enoch 1:9",
+          "note": "Reference to 'Holy Ones' accompanying the Lord."
+        },
+        {
+          "ref": "Daniel 4:17",
+          "note": "Decree of the 'Watchers' and demand of the 'Holy Ones,' showing the terms used in parallel for celestial beings."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And his work was with the Watchers, and his days with the holy ones."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Parse S2_P1 accurately reflects the verbless clause structure utilized in the source.",
+  "decision_log": "S2_P1 is a straightforward and accurate parse. It correctly identifies the parallel structure and the relationship between the entities, which is crucial for the historical context of the angelic hierarchy in 1 Enoch.",
   "final_decision": {
     "hypothesis_ref": "S2_P1",
-    "translation_id": "T1",
+    "translation_id": "T2",
     "confidence": "high"
   }
 }

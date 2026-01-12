@@ -2,15 +2,15 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Complex Nominal Sentence",
-        "bracket_notation": "[S [Meta t1 t2 t3 t4] [NP_Subj t5] [RelCl t6 [NP_Gen t7 [RelCl t8]]]]",
+        "id": "P6_S1",
+        "structure_type": "Nominal Phrase with embedded clauses",
+        "bracket_notation": "[NP [PN t5] [Rel.Clause [ADJP t6] [Gen.Phrase [N t7] [Rel.Clause [V t8]]]]]",
         "dependencies": [
-          "t5->t6 (modifier)",
-          "t6->t7 (genitive chain)",
-          "t7->t8 (relative modifier)"
+          "t6 (adj) modifies 'መላእት' (noun) within t5, introducing a relative clause",
+          "t7 (noun) modifies a noun within t6 ('እጓለ')",
+          "t8 (verb) is the verb of a relative clause modifying a noun within t7 ('መናፍስተ')"
         ],
-        "notes": "Complex embedding: t5 (Saraqael) -> t6 (over spirits) -> t7 (of men) -> t8 (who sin)."
+        "notes": "A deeply embedded structure describing 'Saraqael' (t5), featuring a chain of relative clauses and genitive relationships."
       }
     ]
   }

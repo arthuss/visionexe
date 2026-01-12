@@ -3,22 +3,18 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The syntactic structure correctly identifies 'ሄኖ' (Enoch) as the agent of the motion and speech verbs. The phrase 'ኢይውነ፡ሰላም' (there shall be no peace) is a recognized prophetic formula of judgment, structurally functioning as the content of the speech.",
+      "reasoning": "The parse correctly identifies a discourse sequence where 'ይቤሎ' (he said to him) introduces quoted content. The dependencies accurately reflect 'ዓቢይ፡ነ፡ወፅ፡ላዕሌ' as the subject of the main predicate 'ይእሥር' (to bind) and 'ለዛዝኤል' as the indirect object. This structure is common in Ethiopic narrative for reporting speech.",
       "parallels": [
         {
-          "ref": "Isaiah 48:22",
-          "note": "Parallel to 'There is no peace... for the wicked'."
-        },
-        {
-          "ref": "Isaiah 57:21",
-          "note": "Recurrence of the 'no peace' formula."
+          "ref": "ATTESTATION_DATA_UNAVAILABLE",
+          "note": "No parallel corpus was available to verify attestation for this specific syntactic construction in this context."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And Enoch, having gone, said to Azazel: 'There shall not be peace unto you; a great sentence has gone out against you to bind you.'"
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Parse S1 aligns with the narrative flow of the Watchers' judgment. No anomalies detected.",
+  "decision_log": "The single hypothesis (S1) presents a standard and highly plausible analysis of a narrative quote. The agent-predicate-recipient structure is clear and well-formed. The lack of external parallels is a data limitation, not a flaw in the parse.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",

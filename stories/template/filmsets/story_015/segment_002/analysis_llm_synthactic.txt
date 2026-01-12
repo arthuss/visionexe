@@ -2,17 +2,15 @@
   "syntax": {
     "parses": [
       {
-        "id": "S2_P1",
-        "structure_type": "Imperative Clause with Relative Clause",
-        "bracket_notation": "[S [V t5] [NP [PRO.REL t6] [PREP t7] [N t8] [N t9] [PRO.PERS t10]]]",
+        "id": "P1",
+        "structure_type": "Complex Sentence followed by Verbless Clause",
+        "bracket_notation": "[S1 [VP t5 [RC t6 [PP t7]]]] [S2 [NP-SUBJ (part of t7)] [PRED-ADJ t8] [PP [PREP (part of t8)] [NP t9]]]",
         "dependencies": [
-          "t5 -> t6 (modifier/relative)",
-          "t6 -> t7 (complement)",
-          "t8 -> t7 (subject/topic)",
-          "t8 -> t9 (object)",
-          "t9 -> t10 (possessor/modifier)"
+          "t5->t6 (relative_clause_modifier)",
+          "t6->t7 (prepositional_modifier)",
+          "t8->t9 (prepositional_object)"
         ],
-        "notes": "t5 is the main imperative 'Go'. t6 introduces the relative clause describing the target."
+        "notes": "The first sentence is an imperative with a complex noun phrase destination. The second is a verbless clause stating an obligation."
       }
     ]
   }

@@ -1,23 +1,23 @@
 {
   "evaluation": [
     {
-      "hypothesis_ref": "S4",
+      "hypothesis_ref": "S4-P1",
       "plausibility": "high",
-      "reasoning": "Corresponds to 1 Enoch 7:4. The serial/consecutive verb construction fits: 'Turned' (ተመይጡ) -> 'Against them' (to men) -> 'To eat' (ይብልዕዎሙ). Represents the shift from consuming produce to consuming humans.",
+      "reasoning": "The parse correctly identifies a serial verb construction, a highly characteristic feature of Ge'ez. The main verb 'ተመይጡ' (they turned) is followed by a consecutive verb in the imperfect 'ይብልዕዎሙ' ('that they might eat them' or 'to eat them'), which expresses purpose or result. This is a classic and unambiguous structure.",
       "parallels": [
         {
-          "ref": "1 Enoch 7:4",
-          "note": "Text: ወተመይጡ፡ረዓይት፡ላዕሌሆሙ፡ከመ፡ይብልዕዎሙ፡ለሰብእ።"
+          "ref": "General Attestation: Ge'ez Narrative Syntax",
+          "note": "This construction (perfect + imperfect/subjunctive) to show purpose or result is extremely common across all genres of Ge'ez literature."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And the giants turned against them in order to eat men."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Syntactic parse correctly identifies the purpose clause.",
+  "decision_log": "The identification of the serial verb construction is the key insight for this segment, and parse S4-P1 captures it correctly. The analysis is definitive.",
   "final_decision": {
-    "hypothesis_ref": "S4",
-    "translation_id": "T1",
+    "hypothesis_ref": "S4-P1",
+    "translation_id": "T4",
     "confidence": "high"
   }
 }

@@ -2,21 +2,28 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Verbal Clause",
-        "bracket_notation": "[S [V t5] [Obj_Speech [S_Nom [Pred t6] [Subj_Expl t6]] [Coord t7] [Coord t8] [Coord t9 [Mod t10 [Mod t11]]] [S_Nom_Coord [Subj t11] [Mod t12 [Mod t13]] [Pred t13]]]]",
+        "id": "S4.meta",
+        "structure_type": "Header",
+        "bracket_notation": "[META [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]",
         "dependencies": [
-          "t5->ROOT",
-          "t6->t5 (object_speech_start)",
-          "t7->t6 (appositive_coordination)",
-          "t8->t7 (appositive_coordination)",
-          "t9->t8 (appositive_coordination)",
-          "t10->t9 (modifier_prep)",
-          "t11->t10 (complement)",
-          "t12->t11 (modifier_prep)",
-          "t13->t12 (complement)"
+          "t1->t2 (modifies)",
+          "t3->t4 (modifies)"
         ],
-        "notes": "Complex direct speech. t5 'They said'. t6-t9 'Lord of Kings, God of Gods...' series of nominal predicates/vocatives. t10-t13 continues description of 'Throne of Glory' and 'Holy Name'."
+        "notes": "Segment metadata."
+      },
+      {
+        "id": "S4.1",
+        "structure_type": "Verb with Quoted Nominal Phrases",
+        "bracket_notation": "[S [V t5] [S-COMP [NP [N t6]] [NP [N t7]] [NP [N t8]] [NP [N t9]] [PP [PREP t10] [NP [N t11]]] [PP [PREP t12] [NP [N t13]]]]]",
+        "dependencies": [
+          "t5->t6 (ccomp)",
+          "t6->t7 (conj)",
+          "t7->t8 (conj)",
+          "t8->t9 (conj)",
+          "t9->t11 (nmod, via-prep=t10)",
+          "t11->t13 (nmod, via-prep=t12, conj)"
+        ],
+        "notes": "The verb t5 ('they said') introduces a long direct quote. The quote consists of a series of coordinated nominal phrases (t6, t7, t8, t9) and prepositional phrases (introduced by t10, t12) acting as predicates in a praise."
       }
     ]
   }

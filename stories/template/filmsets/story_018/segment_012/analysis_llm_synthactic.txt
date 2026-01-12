@@ -2,17 +2,23 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Complex Sentence",
-        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [VP t5 [Adj t5] [NP t5 [NP t6 [Adj t6]]]] [SBAR [Rel t7] [VP t7]] [SBAR [Conj t7] [NP t7] [SBAR [Rel t7] [VP t8]]]]]",
+        "id": "P12_S1",
+        "structure_type": "Verbal Clause",
+        "bracket_notation": "[S [VP [V ርኢኩ (in t5)] [ADJ ወግሩመ (in t5)]] [NP [NUM ፯ (in t6)] [N ዋብተ (in t5)]] [S_REL [VP t7]]]",
         "dependencies": [
-          "t1->t2 (numeral_mod)",
-          "t3->t4 (numeral_mod)",
-          "t5->t6 (appositive_obj)",
-          "t6->t7 (relative_mod)",
-          "t7->t8 (relative_mod)"
+          "t5 -> t6 (obj)",
+          "t6 -> t7 (mod)"
         ],
-        "notes": ""
+        "notes": "'And I saw a terrifying thing there (t5), seven great mountains (t6) that were burning (t7).'"
+      },
+      {
+        "id": "P12_S2",
+        "structure_type": "Relative Clause",
+        "bracket_notation": "[NP [N መንፈስ (in t7)] [S_REL [VP t8]]]",
+        "dependencies": [
+          "t7 -> t8 (mod)"
+        ],
+        "notes": "An object described by a relative clause: 'and a spirit (t7) that was questioning me (t8).'"
       }
     ]
   }

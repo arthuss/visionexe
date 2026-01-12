@@ -2,18 +2,18 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Narrative Sequence",
-        "bracket_notation": "[S [S [VP t5] [NP t6]] [S [Conj t7] [VP t8] [NP [NP t9] [AdjP t10]]] [VP t11]]",
+        "id": "seg003_flat",
+        "structure_type": "Flat Phrase/Clause Chain",
+        "bracket_notation": "[S [U t5] [CONJ_U t6] [SUB_U t7] [U t8] [CONJ_U t9] [U t10] [CONJ_U t11]]",
         "dependencies": [
-          "t5->t6 (coordination)",
-          "t5->t7 (causal clause)",
-          "t7->t8 (predicate)",
-          "t8->t9 (temporal adjunct)",
-          "t9->t10 (modifier)",
-          "t8->t11 (coordination)"
+          "t5 -> t6 (coordination)",
+          "t6 -> t7 (subordination:cause)",
+          "t7 -> t8 (sequence)",
+          "t8 -> t9 (coordination)",
+          "t9 -> t10 (sequence)",
+          "t10 -> t11 (coordination)"
         ],
-        "notes": "Statement of action followed by the content of the decree."
+        "notes": "Parse based on sequential relationship with dependencies from initial markers."
       }
     ]
   }

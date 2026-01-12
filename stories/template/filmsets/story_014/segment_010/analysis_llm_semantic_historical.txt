@@ -3,16 +3,21 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The nominal chain correctly links the ceiling, the paths of stars/lightning, and the presence of Cherubim. The water/ice imagery ('sea of water' above) is cosmologically standard for 1 Enoch.",
-      "parallels": [],
+      "reasoning": "The parse correctly identifies a chain of nominal descriptions for the ceiling and what is seen there: 'its ceiling was like the path of stars and lightning, and between them were cherubim of fire, and their heaven was water.' This is a classic example of 'Merkabah' (throne-chariot) imagery, blending architectural and cosmological elements.",
+      "parallels": [
+        {
+          "ref": "Ezekiel 1 & 10",
+          "note": "The foundational text for throne-chariot mysticism, featuring lightning, fire, and the cherubim (living creatures) as central elements of the divine apparition."
+        }
+      ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Cosmological elements (water above, fire/stars) correctly linked.",
+  "decision_log": "S1 accurately parses the complex, chained description, which is heavily reliant on imagery from Ezekiel's visions. The structure reflects the blending of celestial and architectural features.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T1",
+    "translation_id": "T1_010",
     "confidence": "high"
   }
 }

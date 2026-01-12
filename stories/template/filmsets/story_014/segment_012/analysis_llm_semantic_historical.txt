@@ -3,16 +3,25 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The paradox of 'hot as fire, cold as ice' is a hallmark of this passage. The parse correctly coordinates these opposing adjectival phrases before the resulting emotional state (fear).",
-      "parallels": [],
+      "reasoning": "The parse correctly identifies a compound sentence describing the seer's experience upon entering the house. It links the sensory paradox ('hot as fire and cold as ice'), the existential void ('no delight of life therein'), and the resulting emotional-physiological reaction ('fear covered me, and trembling seized me'). This sequence is psychologically and narratologically sound for a supernatural encounter.",
+      "parallels": [
+        {
+          "ref": "Daniel 10:8-9",
+          "note": "Daniel's physical and emotional reaction to a vision: 'no strength remained in me... and I fell into a deep sleep on my face, with my face toward the ground.'"
+        },
+        {
+          "ref": "Revelation 1:17",
+          "note": "John's reaction to the glorified Christ: 'And when I saw him, I fell at his feet as dead.'"
+        }
+      ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Paradoxical sensory data handled correctly.",
+  "decision_log": "S1 correctly parses the sequence of perception, assessment, and reaction, which is a standard trope in apocalyptic and prophetic vision accounts.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T1",
+    "translation_id": "T1_012",
     "confidence": "high"
   }
 }

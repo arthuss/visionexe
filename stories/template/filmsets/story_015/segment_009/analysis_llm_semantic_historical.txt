@@ -3,16 +3,21 @@
     {
       "hypothesis_ref": "S9_P1",
       "plausibility": "high",
-      "reasoning": "Complex chain involving origin (from holy Watchers) and nature (evil spirits) is correctly mapped.",
-      "parallels": [],
+      "reasoning": "The parse correctly maps a complex sentence explaining the origin of evil spirits. It correctly identifies 'waḍʾu' (they came forth) as a key verb, followed by 'ʾǝsmä' (because) which introduces the reason for their nature, tracing their origin 'ʾǝm-qǝddusan tǝguhan' (from the Holy Watchers). The structure is complex but the dependencies are logically sound.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 15:8",
+          "note": "The theology here is central to Enochic literature, and the grammar reflects explanatory narrative style."
+        }
+      ],
       "context_invariance": "stable",
-      "back_translation": "Evil spirits have proceeded from their bodies; because they are born from men and from the holy Watchers is their beginning and primal origin; they shall be evil spirits on earth, and evil spirits shall they be called."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Matches 1 Enoch 15:9.",
+  "decision_log": "The complexity of the sentence is well-handled by parse S9_P1. It correctly identifies the causal chain which is crucial for the segment's meaning.",
   "final_decision": {
     "hypothesis_ref": "S9_P1",
-    "translation_id": "T1",
+    "translation_id": "T9",
     "confidence": "high"
   }
 }

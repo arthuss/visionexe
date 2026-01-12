@@ -2,13 +2,13 @@
   "syntax": {
     "parses": [
       {
-        "id": "S4-P1",
-        "structure_type": "Temporal/Result Clause",
-        "bracket_notation": "[S [SBAR [t5]] [S [t6]]]",
+        "id": "S4_P1",
+        "structure_type": "Coordinated Clauses",
+        "bracket_notation": "[S [CLAUSE t5] [CONJ] [CLAUSE t6]]",
         "dependencies": [
-          "t5->t6 (consequence)"
+          "t5->t6 (coordination)"
         ],
-        "notes": "t5 'As men perished, they cried' acts as the temporal/causal context for t6 'their voice went up to heaven'."
+        "notes": "The segment consists of two coordinated clauses, each contained entirely within a single token. t5: 'and the cry of man went up', t6: 'and their voice reached heaven'."
       }
     ]
   }

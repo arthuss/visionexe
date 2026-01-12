@@ -1,9 +1,27 @@
 ```json
 {
   "actors": [],
+  "characters": [
+    {
+      "name": "The Transgressors",
+      "visualTraits": "unknown",
+      "changes": [],
+      "role": "group_bound"
+    }
+  ],
   "props": [],
+  "places": [],
+  "locations": [],
   "environments": [],
-  "scenes": [],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "Binding of Transgressors",
+      "location": "unknown",
+      "action": "An implied entity is angry with and binds the transgressors until the completion of their sin, for a year of mystery.",
+      "actorsInvolved": ["The Transgressors"]
+    }
+  ],
   "blocking": {
     "anchors": [],
     "paths": []

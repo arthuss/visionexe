@@ -1,40 +1,76 @@
 ```json
 {
-  "actors": [
-    {"name":"ወዳግመ","visualTraits":"unknown","changes":null,"role":"unknown"},
-    {"name":"ጠየቁ","visualTraits":"unknown","changes":null,"role":"unknown"},
-    {"name":"ሐጋይ","visualTraits":"unknown","changes":null,"role":"unknown"},
-    {"name":"ምጽላለ","visualTraits":"unknown","changes":null,"role":"unknown"},
-    {"name":"ወጽላሎተ","visualTraits":"unknown","changes":null,"role":"unknown"},
-    {"name":"ተኀሥሡ","visualTraits":"unknown","changes":null,"role":"unknown"},
-    {"name":"ቅድሜሃ","visualTraits":"unknown","changes":null,"role":"unknown"},
-    {"name":"ወንትሙሰ","visualTraits":"unknown","changes":null,"role":"unknown"},
-    {"name":"እሙቀተ","visualTraits":"unknown","changes":null,"role":"unknown"},
-    {"name":"ሐሩር","visualTraits":"unknown","changes":null,"role":"unknown"},
-    {"name":"ኢትሉ","visualTraits":"unknown","changes":null,"role":"unknown"},
-    {"name":"ዪዶታ","visualTraits":"unknown","changes":null,"role":"unknown"},
-    {"name":"ዋዐያ","visualTraits":"unknown","changes":null,"role":"unknown"}
+  "actors": [],
+  "characters": [
+    {
+      "name": "Observers",
+      "visualTraits": "unknown",
+      "changes": [],
+      "role": "observers_of_the_environment"
+    }
   ],
   "props": [],
-  "environments": [
-    {"name":"ፀሐይ","visualTraits":"unknown","changes":null,"role":"environment"},
-    {"name":"ምድር","visualTraits":"unknown","changes":null,"role":"environment"}
+  "places": [],
+  "locations": [
+    {
+      "name": "Shade / Shadow",
+      "visualTraits": "An area shielded from direct sunlight.",
+      "changes": [],
+      "role": "refuge_from_heat"
+    }
   ],
+  "environments": [
+    {
+      "name": "Summer",
+      "visualTraits": "Period of intense, scorching heat.",
+      "changes": [],
+      "role": "temporal_setting"
+    },
+    {
+      "name": "Sun",
+      "visualTraits": "Intensely hot and scorching.",
+      "changes": [],
+      "role": "environmental_hazard"
+    },
+    {
+      "name": "Earth",
+      "visualTraits": "A surface that burns with deep, scorching heat.",
+      "changes": [],
+      "role": "heated_surface"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title":"Chapter 4 Segment 1",
-      "location":"unknown",
-      "action":"unknown",
-      "actorsInvolved":[
-        "ወዳግመ","ጠየቁ","ሐጋይ","ምጽላለ","ወጽላሎተ",
-        "ተኀሥሡ","ቅድሜሃ","ወንትሙሰ","እሙቀተ","ሐሩር",
-        "ኢትሉ","ዪዶታ","ዋዐያ"
+      "title": "The Heat of a Summer Day",
+      "location": "A sun-scorched landscape",
+      "action": "Observers are instructed to seek shade and shadow to escape the scorching heat of the sun, as the earth itself burns.",
+      "actorsInvolved": [
+        "Observers"
       ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "sunlit_area",
+        "description": "An undefined, sun-exposed area experiencing intense heat."
+      },
+      {
+        "id": "shaded_area",
+        "description": "A location of refuge providing shade from the sun."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Observers",
+        "start_anchor": "sunlit_area",
+        "end_anchor": "shaded_area",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The observers are instructed to move from the exposed area to a shaded one to find relief from the heat."
+      }
+    ]
   }
 }
 ```

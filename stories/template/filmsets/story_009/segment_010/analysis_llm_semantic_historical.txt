@@ -3,18 +3,22 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "Corresponds to 1 Enoch 9:10. The cry of the souls and their inability to escape is well-attested.",
+      "reasoning": "The parse correctly handles a complex sentence describing the appeal of the dead. It identifies the subjects ('the souls of those who have died'), their actions ('crying out and making suit'), the destination ('to the gate of heaven'), and the inability to escape the ongoing injustice.",
       "parallels": [
         {
-          "ref": "1 Enoch 9:10",
-          "note": null
+          "ref": "Revelation 6:9-10",
+          "note": "This is a powerful and direct parallel, where the souls of martyrs under the altar cry out to God asking 'how long' until judgment and vengeance. This demonstrates a shared apocalyptic trope."
+        },
+        {
+          "ref": "Missing",
+          "note": "While the general theme of a cry reaching God is common (e.g., Exodus 3:7), the specific image of souls of the dead collectively suing at heaven's gate is most clearly attested within apocalyptic literature itself, as in Revelation."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And now behold, the souls which have died cry out and appeal to the gate of heaven, and their groan has ascended; and they cannot escape from before the face of the lawlessness which is being wrought on the earth."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Complex clause chain handled well.",
+  "decision_log": "The parse is structurally sound. The strong parallel with Revelation 6 confirms the interpretation of this passage as a key apocalyptic theme of heavenly justice being demanded by the victims on earth.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",

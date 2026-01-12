@@ -2,18 +2,23 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Descriptive List",
-        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [NP t5 [PP t5]] [NP t6 [PP t6]] [NP t7 [PP t7]] [Punct t8] [NP t9 [PP t9 [Adj t10]]]]]",
+        "id": "P6_S1",
+        "structure_type": "Coordinated Nominal Phrases",
+        "bracket_notation": "[NP [NP [PP t5] [NP t6]] [CONJ [NP t7]]]",
         "dependencies": [
-          "t1->t2 (numeral_mod)",
-          "t3->t4 (numeral_mod)",
-          "t5->t6 (coord_list)",
-          "t6->t7 (coord_list)",
-          "t7->t8 (punctuation)",
-          "t9->t10 (adjectival_mod)"
+          "t5 -> t6 (conj)",
+          "t6 -> t7 (conj)"
         ],
-        "notes": "Elliptical structures describing stones."
+        "notes": "A list of mountains: 'And towards the east, (one) of colored stone (t5, t6), and one of jacinth (t7)...'"
+      },
+      {
+        "id": "P6_S2",
+        "structure_type": "Prepositional Phrase",
+        "bracket_notation": "[PP t9 [ADJ t10]]",
+        "dependencies": [
+          "t9 -> t10 (mod)"
+        ],
+        "notes": "Describes the mountains to the south: 'And those towards the south (were) of red stone (t9, t10).'"
       }
     ]
   }

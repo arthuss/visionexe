@@ -2,18 +2,24 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Verbal Clause with Adverbial",
-        "bracket_notation": "[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [ADVP t5] [VP [V t8] [NP t6] [PP t7]]]]",
+        "id": "S3_1",
+        "structure_type": "Verbal Phrase",
+        "bracket_notation": "[VP [V ነገርዎሙ(t5)] [IOBJ ለሎሙ(t6)] [ADJUNCT ኅቡረ(t6)]]",
         "dependencies": [
-          "t2->t1 (nummod)",
-          "t4->t3 (nummod)",
-          "t8->root",
-          "t5->t8 (advmod)",
-          "t6->t8 (obj)",
-          "t7->t8 (obl)"
+          "t5->t6 (indirect_object)",
+          "t5->t6 (adjunct)"
         ],
-        "notes": "t8 (verb) is the main predicate taking t6 (indefinite pron) and t7 (prep phrase) as arguments."
+        "notes": "The verb 'ነገርዎሙ' (I told them) in t5 is directed at 'ለሎሙ' (to all of them) in t6, modified by the adverb 'ኅቡረ' (together)."
+      },
+      {
+        "id": "S3_2",
+        "structure_type": "Verbal Phrase",
+        "bracket_notation": "[S [NP [N ፍርህት(t7)], [N ረዓድ(t8)]] [VP [V ነሥኦሙ(t8)]]]",
+        "dependencies": [
+          "t7->t8 (subject)",
+          "t8->t8 (subject)"
+        ],
+        "notes": "'Fear' (t7) and 'trembling' (t8) act as a compound subject for the verb 'ነሥኦሙ' (seized them) in t8."
       }
     ]
   }

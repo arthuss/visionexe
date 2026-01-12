@@ -2,22 +2,26 @@
   "evaluation": [
     {
       "hypothesis_ref": "S1",
-      "plausibility": "high",
-      "reasoning": "Matches 1 Enoch 9:2. The construction 'The earth, empty, cries out' is a known difficult reading often emended, but the parse handles the extant text well.",
+      "plausibility": "moderate",
+      "reasoning": "The parse simplifies the Ge'ez phrase 'ቃለ ጽራኃቲሆሙ፡ዕራቃ፡ጸርኀት፡ ምድር' ('The voice of their cries—the naked earth cries out'). It treats 'Voice of their crying' as the direct object of 'They said', which is plausible but misses the poetic apposition where the 'voice' is equated with the 'earth's cry'. The structure is grammatically possible but may not capture the full rhetorical force.",
       "parallels": [
         {
-          "ref": "1 Enoch 9:2",
-          "note": "Variations exist regarding 'voice of their crying'."
+          "ref": "Genesis 4:10",
+          "note": "The theme of the earth itself crying out is a strong parallel."
+        },
+        {
+          "ref": "Genesis 28:17",
+          "note": "The destination of the cry, 'the gate of heaven' (ንቀጸ፡ሰማይ), is a direct reference."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And they said to one another: The voice of their crying, the earth, empty, has cried out to the gate of heaven."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Accepted as standard interpretation of the Ethiopic text.",
+  "decision_log": "S1 is a functional but simplified parse. It's retained as the best available option, with the noted semantic nuance that a more detailed parse might capture the appositional relationship between 'voice' and 'earth's cry'.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",
-    "confidence": "high"
+    "confidence": "moderate"
   }
 }

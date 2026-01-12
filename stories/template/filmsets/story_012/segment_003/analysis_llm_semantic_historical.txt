@@ -3,21 +3,25 @@
     {
       "hypothesis_ref": "S3_P1",
       "plausibility": "high",
-      "reasoning": "The coordination of the imperfect 'I was blessing' (እባርክ) with the sudden narrative 'the Watchers called me' (ይጼውዑኒ) is syntactically sound. The apposition 'Enoch the scribe' is correctly attached.",
+      "reasoning": "The parse correctly identifies two sequential actions joined by 'and' (ወ): Enoch's act of blessing, followed by the Watchers' act of summoning him. The apposition 'Enoch the scribe' is a critical identifier, and the parse correctly associates it with the second clause.",
       "parallels": [
         {
-          "ref": "1 Enoch 12:3",
-          "note": "Canonical transition from prayer to commission."
+          "ref": "1 Enoch 81:5-6",
+          "note": "Enoch is referred to as the 'scribe of righteousness,' confirming his title and role."
+        },
+        {
+          "ref": "Jubilees 4:23",
+          "note": "Describes Enoch's role as a scribe who testifies against the Watchers."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And I, Enoch, was blessing the Lord of Majesty and the King of the World, and behold the Watchers called me, Enoch the Scribe, and said to me:"
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Standard narrative sequence evaluated as historically accurate to the textual tradition.",
+  "decision_log": "The parse correctly delineates the two coordinated clauses, which represent a pivotal narrative shift from Enoch's worship to his prophetic calling. The identification of his role as 'scribe' is semantically critical and well-attested.",
   "final_decision": {
     "hypothesis_ref": "S3_P1",
-    "translation_id": "T1",
+    "translation_id": "T3",
     "confidence": "high"
   }
 }

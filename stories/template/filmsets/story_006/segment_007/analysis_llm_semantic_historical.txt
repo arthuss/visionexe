@@ -3,18 +3,18 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "Correctly treats the segment as a list of proper nouns (names of the Watchers) following an introductory phrase. The dependency structure 'list_item' is semantically appropriate for this catalogue.",
+      "reasoning": "The structure is unambiguously a list. The parse correctly identifies the introductory phrase ('And these are the names of their leaders...') and the subsequent series of items that form the list of names. The fragmentation noted is minor punctuation.",
       "parallels": [
         {
-          "ref": "1 Enoch 6:7 (Ethiopic)",
-          "note": "Standard list of the chiefs of tens/hundreds (Semjaza, Urakiba, Rameel, etc.)."
+          "ref": "1 Enoch 6:7",
+          "note": "The chapter explicitly provides a list of the leaders of the rebellious angels. This literary form (a catalogue of names) is well-attested in ancient texts, and the parse correctly identifies it."
         }
       ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "The list structure is clear. S1 reflects this accurately.",
+  "decision_log": "S1 is the only hypothesis and it perfectly models a list structure. This is a non-narrative, informational segment, and the parse reflects its function correctly.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",

@@ -2,21 +2,25 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Compound Sentence",
-        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [S1 [VP t5 [NP t5] [Adj t5] [PP t6 [NP t6 [NP t7]]]]] [S2 [VP t7 [PP t7] [NP t8 [PP t8] [SBAR t9 [S [VP t9] [NP t9]]]]]] [S3 [Conj t10] [Conj t11] [Punct t12]]]]",
+        "id": "P10_S1",
+        "structure_type": "Verbal Clause",
+        "bracket_notation": "[S [VP t5] [NP [NP t6] [NP_GEN t7]]]",
         "dependencies": [
-          "t1->t2 (numeral_mod)",
-          "t3->t4 (numeral_mod)",
-          "t5->t6 (prep_mod)",
-          "t6->t7 (genitive_mod)",
-          "t7->t8 (obj_complement)",
-          "t8->t9 (relative_mod)",
-          "t9->t10 (coord_negation)",
-          "t10->t11 (coord_negation)",
-          "t11->t12 (punctuation)"
+          "t5 -> t6 (obj)",
+          "t6 -> t7 (nmod:gen)"
         ],
-        "notes": ""
+        "notes": "'And I saw a deep chasm of the earth (t5) with pillars of heavenly fire (t6, t7).'"
+      },
+      {
+        "id": "P10_S2",
+        "structure_type": "Verbal Clause with Coordination",
+        "bracket_notation": "[S [VP [V (in t7)] [NP t8] [S_REL [VP t9]]] [CONJ [PP t10] [CONJ [PP t11]]]]",
+        "dependencies": [
+          "t8 -> t9 (mod)",
+          "t9 -> t10 (conj)",
+          "t10 -> t11 (conj)"
+        ],
+        "notes": "A complex description of the pillars: 'I saw in them pillars of fire (t8) which descended (t9) and had no measure, neither upwards (t10) nor downwards (t11).'"
       }
     ]
   }

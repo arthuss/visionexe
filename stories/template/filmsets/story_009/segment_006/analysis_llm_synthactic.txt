@@ -2,16 +2,25 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Verbal Clause",
-        "bracket_notation": "[S [V t5] [Obj_Clause [V t6] [Obj t7] [Rel t8]]]",
+        "id": "S6.meta",
+        "structure_type": "Header",
+        "bracket_notation": "[META [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]",
         "dependencies": [
-          "t5->ROOT",
-          "t6->t5 (object_clause)",
-          "t7->t6 (object_direct)",
-          "t8->t7 (relative_modifier)"
+          "t1->t2 (modifies)",
+          "t3->t4 (modifies)"
         ],
-        "notes": "t5 'See what Azazel done'. t6 'He taught lawlessness'. t7 'And revealed secrets'. t8 'Which are done in heaven'."
+        "notes": "Segment metadata."
+      },
+      {
+        "id": "S6.1",
+        "structure_type": "Imperative with Object Clauses",
+        "bracket_notation": "[S [VP [V t5] [S-COMP [VP [V t6] [NP-OBJ [N t7] [SBAR [NP-SUBJ [N t8]]]]]]]]",
+        "dependencies": [
+          "t5->t6 (ccomp)",
+          "t6->t7 (ccomp)",
+          "t7->t8 (acl:relcl)"
+        ],
+        "notes": "The imperative verb t5 ('See!') takes a clausal complement describing what Azazel has done. The first verb of the complement is t6 ('taught'), and the second is 'revealed' (in t7 surface). The object of 'revealed' is 'the eternal secrets' (t7), which is modified by a relative clause whose subject is 'the heavens' (t8)."
       }
     ]
   }

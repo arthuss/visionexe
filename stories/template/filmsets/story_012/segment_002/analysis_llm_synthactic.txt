@@ -2,15 +2,20 @@
   "syntax": {
     "parses": [
       {
-        "id": "S2_P1",
-        "structure_type": "Nominal Sentence / Fragment",
-        "bracket_notation": "[NP [N t5] [PP [PREP t6] [NP t7]]]",
+        "id": "S2-P1",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP [CONJ ወ] [NP [N t5] [POSS -ኡ]] [PP [PREP ምስለ] [NP ትጉሃን]]]",
         "dependencies": [
-          "t5 (ROOT)",
-          "t5->t6 (prepositional modifier)",
-          "t6->t7 (prepositional object)"
+          "t5->(ትጉሃን) (comitative)"
         ],
-        "notes": "Describes the 'work' and 'time'."
+        "notes": "Phrase 1: 'And his work was with the Watchers.'"
+      },
+      {
+        "id": "S2-P2",
+        "structure_type": "Prepositional Phrase",
+        "bracket_notation": "[PP [CONJ ወ] [PREP ምስለ] [NP ቅዱሳን] [NP መዋዕለ]]",
+        "dependencies": [],
+        "notes": "Phrase 2: 'and with the holy ones his days.'"
       }
     ]
   }

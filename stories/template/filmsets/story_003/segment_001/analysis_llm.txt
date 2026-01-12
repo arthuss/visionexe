@@ -1,9 +1,59 @@
 ```json
 {
   "actors": [],
-  "props": [],
-  "environments": [],
-  "scenes": [],
+  "characters": [
+    {
+      "name": "Withered Trees",
+      "visualTraits": "Appear dry, their leaves are shed.",
+      "changes": [],
+      "role": "character"
+    },
+    {
+      "name": "Fourteen Evergreen Trees",
+      "visualTraits": "A specific group of fourteen trees that do not shed their leaves like the others.",
+      "changes": [
+        {
+          "phase_label": "Phase 1: Old Leaves Persist",
+          "description": "The trees retain their old leaves, not shedding them seasonally."
+        },
+        {
+          "phase_label": "Phase 2: New Growth",
+          "description": "After a period of two to three years, new leaves emerge, replacing the old."
+        }
+      ],
+      "role": "character"
+    }
+  ],
+  "props": [
+    {
+      "name": "Leaves",
+      "visualTraits": "Described as being shed from most trees, but remaining on the fourteen evergreen trees.",
+      "changes": [],
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [],
+  "environments": [
+    {
+      "name": "Arboreal Setting",
+      "visualTraits": "A setting defined by the presence of trees in different states of foliage (withered vs. evergreen).",
+      "changes": [],
+      "role": "environment"
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Observation of the Trees",
+      "location": "Arboreal Setting",
+      "action": "A contrast is observed between trees that appear withered and shed their leaves, and a specific group of fourteen trees that retain their old leaves for two to three years until new leaves appear.",
+      "actorsInvolved": [
+        "Withered Trees",
+        "Fourteen Evergreen Trees"
+      ]
+    }
+  ],
   "blocking": {
     "anchors": [],
     "paths": []

@@ -2,15 +2,24 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Headers",
-        "bracket_notation": "[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]",
+        "id": "S11-1",
+        "structure_type": "Noun Phrase",
+        "bracket_notation": "[NP [N t1] [NUM t2]]",
         "dependencies": [
-          "t1->t2 (nummod)",
-          "t3->t4 (nummod)"
+          "t1 -> t2 (num_mod)"
         ],
-        "notes": "Parsed headers only; Ge'ez tokens (t5-t10) have no valid lexical options."
+        "notes": "Analysis of 'Chapter 10'"
+      },
+      {
+        "id": "S11-2",
+        "structure_type": "Noun Phrase",
+        "bracket_notation": "[NP [N t3] [NUM t4]]",
+        "dependencies": [
+          "t3 -> t4 (num_mod)"
+        ],
+        "notes": "Analysis of 'Segment 11'"
       }
-    ]
+    ],
+    "notes": "Syntactic analysis for tokens t5, t6, t7, t8, t9, t10 is not possible due to missing morphological information."
   }
 }

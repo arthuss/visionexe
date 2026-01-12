@@ -3,16 +3,21 @@
     {
       "hypothesis_ref": "S6_P1",
       "plausibility": "high",
-      "reasoning": "The nominal predication structure fits the description of the Watchers' original state.",
-      "parallels": [],
+      "reasoning": "This is a classic nominal sentence (verbless clause) in Ge'ez. The parse correctly identifies the subject ('ʾantǝmusä', you) and the complex nominal predicate ('mänfäsawiyan...', spiritual beings of eternal life). This structure is used for stating essential identity.",
+      "parallels": [
+        {
+          "ref": "Dillmann, Grammatik §160",
+          "note": "Formation and use of nominal sentences."
+        }
+      ],
       "context_invariance": "stable",
-      "back_translation": "But you were formerly spiritual, living the eternal life, and immortal for all generations of the world."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Matches 1 Enoch 15:6.",
+  "decision_log": "S6_P1 correctly identifies the verbless clause structure, which is the only plausible interpretation of this line.",
   "final_decision": {
     "hypothesis_ref": "S6_P1",
-    "translation_id": "T1",
+    "translation_id": "T6",
     "confidence": "high"
   }
 }

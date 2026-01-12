@@ -3,16 +3,21 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "Parse effectively separates the narrative action ('I wrote') from the legal verdict content. The causal clause 'Because your petition...' is correctly subordinated.",
-      "parallels": [],
+      "reasoning": "The parse structures the segment as a narrative sequence: Enoch writes down the petition, but the vision reveals that their plea will not be granted for all eternity. This use of a causal clause ('for their petition will not...') to explain the outcome is a common rhetorical device.",
+      "parallels": [
+        {
+          "ref": "Missing",
+          "note": "Direct parallels for a petition being eternally denied in this specific format are not immediately apparent, but the theme of irreversible divine judgment is common (e.g., Genesis 6:3)."
+        }
+      ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Narrative boundary clearly established.",
+  "decision_log": "S1 correctly identifies the narrative flow from action (writing) to divine revelation (denial of the petition). The causal relationship is well-formed.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T1",
-    "confidence": "high"
+    "translation_id": "T1_003",
+    "confidence": "moderate"
   }
 }

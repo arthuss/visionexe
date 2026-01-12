@@ -2,19 +2,17 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Compound Sentence",
-        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [S1 [NP t5 [SBAR [Rel t5] [VP t5 [PP t6]]]]] [S2 [NP t6] [VP t6 [NP t7 [SBAR [Rel t7] [VP t7 [NP t7 [NP t8]]]]]] [PP t8 [NP t9 [SBAR [Conj t9] [VP t9 [NP t10]]]]]]]",
+        "id": "P14_S1",
+        "structure_type": "Nominal Clause with Relative",
+        "bracket_notation": "[S_NOM [NP [NP t5] [PP t6]] [S_REL [NP t7] [VP [V ኃለፉ (in t7)] [NP [N ትእዛዘ (in t7)] [NP_GEN t8]]] [S_ADV [CONJ እስመ (in t9)] [VP ኢመጽኡ (in t9)] [NP t10]]]]",
         "dependencies": [
-          "t1->t2 (numeral_mod)",
-          "t3->t4 (numeral_mod)",
-          "t5->t6 (locative_mod)",
-          "t6->t7 (pred_nom)",
-          "t7->t8 (temporal_adjunct)",
-          "t8->t9 (genitive_mod)",
-          "t9->t10 (causal_adjunct)"
+          "t5 -> t6 (loc)",
+          "t5 -> t7 (appos)",
+          "t7 -> t8 (obj)",
+          "t7 -> t9 (advcl)",
+          "t9 -> t10 (tmp)"
         ],
-        "notes": ""
+        "notes": "A complex apposition identifying the stars: 'And the stars that roll over the fire (t5, t6), these are they (t7) who transgressed the command of God (t8), because they did not come at their proper time (t9, t10).'"
       }
     ]
   }

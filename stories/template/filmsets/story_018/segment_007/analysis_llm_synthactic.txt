@@ -2,18 +2,23 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Descriptive Sentence",
-        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [S1 [NP t5] [VP t5 [PP t5] [PP t6 [NP t6 [NP t7]]]]] [S2 [NP t8] [PP t8 [NP t9]]]]]",
+        "id": "P7_S1",
+        "structure_type": "Complex Predicate",
+        "bracket_notation": "[S [NP t5] [VP [PP t6] [PP [NP t7]]]]",
         "dependencies": [
-          "t1->t2 (numeral_mod)",
-          "t3->t4 (numeral_mod)",
-          "t5->t6 (prep_complement)",
-          "t6->t7 (genitive_chain)",
-          "t7->t8 (coord_subject)",
-          "t8->t9 (genitive_mod)"
+          "t5 -> t6 (pred)",
+          "t6 -> t7 (nmod:gen)"
         ],
-        "notes": "Comparative construction 'like throne'."
+        "notes": "'And the middle one (t5) reaches to heaven (t6) like the throne of God (t7).'"
+      },
+      {
+        "id": "P7_S2",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP [NP t8] [NP_GEN t9]]",
+        "dependencies": [
+          "t8 -> t9 (nmod:gen)"
+        ],
+        "notes": "Describes the throne: 'and its top (is) of sapphire (t8, t9).'"
       }
     ]
   }

@@ -2,17 +2,18 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Complex Sentence",
-        "bracket_notation": "[S [VP t5] [PP t6] [VP t7] [S [Conj t9] [NP t10] [VP t10] [NP t11]]]",
+        "id": "seg020_flat",
+        "structure_type": "Flat Phrase/Clause Chain",
+        "bracket_notation": "[S [CONJ_U t5] [U t6] [U t7] [U t8] [CONJ_U t9] [CONJ_U t10] [U t11]]",
         "dependencies": [
-          "t5->t6 (partitive)",
-          "t5->t7 (complement)",
-          "t5->t9 (coordination)",
-          "t9->t10 (subject)",
-          "t10->t11 (object)"
+          "t5 -> t6 (adjunct)",
+          "t6 -> t7 (sequence)",
+          "t7 -> t8 (sequence)",
+          "t8 -> t9 (coordination)",
+          "t9 -> t10 (coordination)",
+          "t10 -> t11 (sequence)"
         ],
-        "notes": "Inability of angels or flesh to behold Him."
+        "notes": "Parse based on sequential relationship with dependencies from initial markers."
       }
     ]
   }

@@ -2,38 +2,41 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Noun Phrase (Object)",
-        "bracket_notation": "[NP [Adj t24] [Conj t26.m1] [Adj t26.m2]]",
+        "id": "S1-P1",
+        "structure_type": "Appositional Phrase",
+        "bracket_notation": "[NP [NP t6] [Appo t7]]",
         "dependencies": [
-          "t26.m2->t24 (coordination)",
-          "t24->(head) (object)"
+          "t6->t7 (apposition)"
         ],
-        "notes": "Refers to 'the elect and righteous'"
+        "notes": "Describes 'The book of Enoch' (t6) as belonging to 'the prophet' (t7)."
       },
       {
-        "id": "S2",
-        "structure_type": "Relative Clause",
-        "bracket_notation": "[RelCl [Rel t28] [VP [Aux t30] [V t32] [AdvP [N t34] [N t36]]]]",
+        "id": "S1-P2",
+        "structure_type": "Coordinated Phrase",
+        "bracket_notation": "[AdjP [ADJ t24] [Coord t26]]",
         "dependencies": [
-          "t32->t28 (relative_complement)",
-          "t30->t32 (auxiliary)",
-          "t36->t34 (genitive_modifier)",
-          "t34->t32 (temporal_adjunct)"
+          "t24->t26 (coordination)"
         ],
-        "notes": "'Who will be existing in the day of tribulation'"
+        "notes": "Coordinates 'the chosen' (t24) and 'the righteous' (t26)."
       },
       {
-        "id": "S3",
-        "structure_type": "Prepositional Phrase (Purpose)",
-        "bracket_notation": "[PP [Prep t38.m1] [N t38.m2] [NP [Det? t40] [NP [Adj t42] [Conj t44.m1] [Adj t44.m2]]]]",
+        "id": "S1-P3",
+        "structure_type": "Nominal Phrase (Construct)",
+        "bracket_notation": "[NP [N t34] [Gen t36]]",
         "dependencies": [
-          "t38.m2->t38.m1 (complement)",
-          "t40->t38.m2 (object_marker/recipient?)",
-          "t42->t40 (modifier/apposition)",
-          "t44.m2->t42 (coordination)"
+          "t34->t36 (genitive)"
         ],
-        "notes": "'For the removal of [all] the wicked and godless'. 'lo' (t40) functioning as quantifier or corrupt."
+        "notes": "Forms the construct state 'day of tribulation'."
+      },
+      {
+        "id": "S1-P4",
+        "structure_type": "Verbal Phrase",
+        "bracket_notation": "[VP [V t38] [Obj [AdjP [ADJ t42] [Coord t44]]]]",
+        "dependencies": [
+          "t38->t42 (object)",
+          "t42->t44 (coordination)"
+        ],
+        "notes": "The verbal noun 'to destroy' (t38) takes the coordinated phrase 'the wicked and the impious' (t42, t44) as its object."
       }
     ]
   }

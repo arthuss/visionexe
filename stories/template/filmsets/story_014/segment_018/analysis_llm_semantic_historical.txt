@@ -3,21 +3,25 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The 'Stream of Fire' (Daniel 7:10) is a direct parallel. The inability to look at it emphasizes the divine radiance.",
+      "reasoning": "The parse correctly identifies a locative phrase ('And from beneath the throne') followed by the main verb ('came forth') and the subject ('rivers of burning fire'). This image is a standard element of the divine throne room scene.",
       "parallels": [
         {
           "ref": "Daniel 7:10",
-          "note": "A stream of fire issued and came forth from before him"
+          "note": "'A fiery stream issued and came forth from before him...'"
+        },
+        {
+          "ref": "Revelation 22:1",
+          "note": "'And he shewed me a pure river of water of life, clear as crystal, proceeding out of the throne of God and of the Lamb.'"
         }
       ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Direct biblical parallel (Dan 7) validates the 'stream of fire' parse.",
+  "decision_log": "S1 correctly parses the description of the river of fire, a well-attested motif in apocalyptic literature symbolizing God's power and judgment. The syntax is straightforward.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T1",
+    "translation_id": "T1_018",
     "confidence": "high"
   }
 }

@@ -1,27 +1,49 @@
 {
   "evaluation": [
     {
-      "hypothesis_ref": "S2",
+      "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "Matches 1 Enoch 1:9. 'Wa-nāhu yimaṣṣi...' (And behold He comes...). The following verbs are infinitives/purpose clauses: 'kama yigbar' (to execute judgment) and 'wa-yaḥagwel' (and to destroy). S2/S3 correctly identify these as subordinate/purpose clauses dependent on the main verb 'Comes'.",
+      "reasoning": "Correctly parses the introductory 'ወናሁ' ('And behold') and the main clause 'He comes with myriads of holy ones'. 'ትእልፊተ ቅዱሳን' ('a myriad of holy ones') is a well-known phrase from this passage.",
       "parallels": [
         {
-          "ref": "1 Enoch 1:9",
-          "note": "The famous prophecy quoted in Jude 1:14-15."
-        },
-        {
           "ref": "Jude 1:14-15",
-          "note": "Behold, the Lord cometh with ten thousands of his holy ones, to execute judgment upon all..."
+          "note": "A direct quotation of this passage in the New Testament."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "To execute judgment upon them..."
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "high",
+      "reasoning": "Correctly identifies the purpose clause 'to execute judgment upon them,' with 'ከመ' ('to,' 'in order to') + verb.",
+      "parallels": [
+        {
+          "ref": "Jude 1:15",
+          "note": "Directly quoted 'ለገቢረ ፍትሕ ላዕለ ኵሉ' ('to execute judgment upon all')."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S3",
+      "plausibility": "high",
+      "reasoning": "Correctly parses the coordinated purpose clause 'and to destroy the wicked.' The structure mirrors S2.",
+      "parallels": [
+        {
+          "ref": "Jude 1:15",
+          "note": "The parallel purpose is 'to convict all the ungodly'."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "The structure is Main Verb + Purpose Clause (kama + subj/inf).",
+  "decision_log": "The parses correctly identify the components of the famous prophecy quoted in the Epistle of Jude. The analysis of the main clause and the two coordinated purpose clauses is accurate and historically significant.",
   "final_decision": {
-    "hypothesis_ref": "S2",
-    "translation_id": "T-Seg09-Purpose",
+    "hypothesis_ref": "S1+S2+S3",
+    "translation_id": "T9",
     "confidence": "high"
   }
 }

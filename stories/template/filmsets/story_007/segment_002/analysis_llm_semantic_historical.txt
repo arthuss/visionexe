@@ -1,23 +1,27 @@
 {
   "evaluation": [
     {
-      "hypothesis_ref": "S2",
+      "hypothesis_ref": "S2-P1",
       "plausibility": "high",
-      "reasoning": "Corresponds to 1 Enoch 7:2. The nominal sentence structure identifies the subject 'They' (referring to the wives) and the result 'Giant/Giants' (ረዐይተ). The numerical phrase '፴፻፡እመት' (3000 cubits) is a classic textual variant describing the height of the giants.",
+      "reasoning": "The parse correctly identifies 'እማንቱሰ' ('and as for them') as the topicalized subject of the clause. The following verbs, 'ፀንሳ' (conceived) and 'ወወለዳ' (and gave birth), form the predicate, culminating in the object 'ረዐይተ' (giants). This Subject-Predicate structure is clear and unambiguous.",
       "parallels": [
         {
-          "ref": "1 Enoch 7:2",
-          "note": "Attested reading for giant's height varies (300 vs 3000), but '3000 cubits' is a well-known reading in Ethiopic MSS."
+          "ref": "1 Enoch Literature",
+          "note": "The birth of 'ረዐይት' (giants) is a cornerstone of the Enochic narrative. The term itself is a key lexical item in this context."
+        },
+        {
+          "ref": "General Attestation: Ge'ez Grammar",
+          "note": "The use of the suffix '-ሰ' for topicalization is a widely attested feature."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And they conceived and bore giants, whose height was 3000 cubits."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "The parse correctly links the pronoun subject to the action of bearing giants. The modifier '3000 cubits' is correctly associated with the giants.",
+  "decision_log": "The provided parse (P1) accurately reflects the simple, declarative nature of the sentence. The identification of 'እማንቱሰ' as the subject is correct. The analysis is straightforward.",
   "final_decision": {
-    "hypothesis_ref": "S2",
-    "translation_id": "T1",
+    "hypothesis_ref": "S2-P1",
+    "translation_id": "T2",
     "confidence": "high"
   }
 }

@@ -3,18 +3,22 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "Corresponds to 1 Enoch 9:1. 'Wemeha' (And then/When) and 'Hewetsu' (looked down) are attested variants or valid synonyms for the standard 'We'emze' and 'Re'yu'. The list of archangels (Michael, Uriel, Gabriel) is consistent with the Ethiopic tradition.",
+      "reasoning": "The parse correctly identifies a standard narrative structure: a compound subject (Michael, Uriel, Gabriel), a verb of perception (ኅወጹ, 'looked'), and a coordinated verb phrase (ወርእዩ, 'and saw') with its own objects. This construction is well-attested in Ge'ez and other Semitic narrative texts.",
       "parallels": [
         {
-          "ref": "1 Enoch 9:1 (Ethiopic)",
-          "note": "Standard text lists Michael, Gabriel, Suriel/Uriel, Raphael."
+          "ref": "Genesis 4:10",
+          "note": "The concept of shed blood crying out from the earth, which is implied here by the angels seeing the blood, is a direct thematic parallel."
+        },
+        {
+          "ref": "Genesis 6:11-12",
+          "note": "The mention of 'all lawlessness' (ዐመፃ) on earth directly echoes the description of the world before the flood, which is the foundational context for the Watchers story in Enoch."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "Then Michael and Uriel and Gabriel looked down from heaven and saw much blood that was shed upon the earth and all lawlessness that was wrought upon the earth."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Parse accurately reflects the verbal structure and coordination of the archangels and the object clauses.",
+  "decision_log": "The provided parse (S1) is syntactically sound and aligns with known literary parallels for the content. No alternative parse is necessary.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",

@@ -2,19 +2,23 @@
   "syntax": {
     "parses": [
       {
-        "id": "S5-P1",
-        "structure_type": "Complex Coordination",
-        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [S [VP [V t5] [NP t6]] [VP [V t7]] [VP [NP t8] [V t9] [ADV t10]]]]",
+        "id": "S5_P1",
+        "structure_type": "Coordinated Phrase",
+        "bracket_notation": "[XP [X t5] [CONJ t6] [CONJ t7]]",
         "dependencies": [
-          "t1->t2 (mod)",
-          "t3->t4 (mod)",
-          "t5->t6 (obj)",
-          "t5->t7 (coord)",
-          "t7->t9 (coord)",
-          "t9->t8 (obj)",
-          "t9->t10 (mod)"
+          "t5->t6 (conj)",
+          "t5->t7 (conj)"
         ],
-        "notes": "Multi-clausal structure with shared subject or sequential events."
+        "notes": "A coordinated phrase where the action in t5 ('...sin against birds') is continued with a list of other entities in t6 and t7."
+      },
+      {
+        "id": "S5_P2",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [CLAUSE t9] [ADV t10]]",
+        "dependencies": [
+          "t9->t10 (advmod)"
+        ],
+        "notes": "The clausal action in t9 ('...they devoured, and blood they drank') is temporally modified by the adverb in t10 ('then')."
       }
     ]
   }

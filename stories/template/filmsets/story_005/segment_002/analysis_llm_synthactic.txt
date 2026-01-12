@@ -2,22 +2,29 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Compound Sentence",
-        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [Clause t5 [Punct t6]] [Clause t7] [Clause t8] [Clause t9] [Clause t10]]]",
+        "id": "P1",
+        "structure_type": "Header + Fragments",
+        "bracket_notation": "[ROOT [HEADER [TITLE [N t1] [NUM t2]] [ID [N t3] [NUM t4]]] [BODY [FRAG t5] [PUNC t6] [FRAG t7] [FRAG t8] [FRAG t9] [FRAG t10]]]",
         "dependencies": [
-          "t5->t1 (meta)",
-          "t5->t2 (meta)",
-          "t5->t3 (meta)",
-          "t5->t4 (meta)",
-          "root->t5 (root)",
-          "t5->t6 (punct)",
-          "t5->t7 (appositive)",
-          "t7->t8 (predication)",
-          "t8->t9 (adversative)",
-          "t9->t10 (result)"
+          "t1->t2 (mod)",
+          "t3->t4 (mod)"
         ],
-        "notes": "Linear flow of clauses."
+        "notes": "Safe parse assuming a metadata header followed by a flat list of body fragments."
+      },
+      {
+        "id": "P2",
+        "structure_type": "Clausal Structure",
+        "bracket_notation": "[ROOT [HEADER [TITLE [N t1] [NUM t2]] [ID [N t3] [NUM t4]]] [S [NP t5] [PUNC t6] [S [NP t7] [VP [V t8] [NP t9] [NP t10]]]]]",
+        "dependencies": [
+          "t1->t2 (mod)",
+          "t3->t4 (mod)",
+          "ROOT->t8 (root)",
+          "t8->t7 (nsubj)",
+          "t8->t9 (obj)",
+          "t8->t10 (obj2)",
+          "t8->t5 (dislocated)"
+        ],
+        "notes": "Assumes t8 ('ይትቀነዩ፡ሎቱ፡ወኢይትመየጥ፡') is the main verb. The parse speculatively treats t7 as subject and t9/t10 as objects, with t5 as a preceding, dislocated topic."
       }
     ]
   }

@@ -3,16 +3,21 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The somatic reaction (shaking, falling on face) serves as the bridge to the next level of vision. The circumstantial 'while I quaked' is parsed correctly.",
-      "parallels": [],
+      "reasoning": "The parse identifies a circumstantial clause ('And as I trembled and quaked') leading to the main action ('I fell upon my face and I saw a vision'). This is a classic posture of submission and revelation in the presence of the divine. The physical act of falling precedes the reception of a deeper vision.",
+      "parallels": [
+        {
+          "ref": "Ezekiel 1:28",
+          "note": "The prophet's reaction to the divine glory: 'This was the appearance of the likeness of the glory of the LORD. And when I saw it, I fell upon my face, and I heard a voice of one that spake.'"
+        }
+      ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Transition via physical reaction confirmed.",
+  "decision_log": "S1 accurately captures the cause-and-effect relationship between Enoch's overwhelming fear and the transition into a new state of vision, marked by the act of falling on his face. The structure is strongly attested.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T1",
+    "translation_id": "T1_013",
     "confidence": "high"
   }
 }

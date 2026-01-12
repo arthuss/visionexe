@@ -2,15 +2,33 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Verbal Sentence",
-        "bracket_notation": "[ROOT [Label t1 t2 t3 t4] [S [NP t5] [VP t6 [PP t7 [NP t8]]]]]",
+        "id": "S2_H1",
+        "structure_type": "Header Phrase",
+        "bracket_notation": "[NP-HEADER [N t1] [NUM t2]]",
         "dependencies": [
-          "t6->t5 (subject)",
-          "t6->t7 (temporal_modifier)",
-          "t7->t8 (genitive)"
+          "t1->t2 (num_mod)"
         ],
-        "notes": "t6 (verb) is the root; t5 acts as the compound subject/complement phrase; t7 provides temporal context, modified by the genitive t8."
+        "notes": "Chapter 11"
+      },
+      {
+        "id": "S2_H2",
+        "structure_type": "Header Phrase",
+        "bracket_notation": "[NP-HEADER [N t3] [NUM t4]]",
+        "dependencies": [
+          "t3->t4 (num_mod)"
+        ],
+        "notes": "Segment 2"
+      },
+      {
+        "id": "S2_C1",
+        "structure_type": "Copular Clause",
+        "bracket_notation": "[S [NP-SUBJ-PRED t5] [VP t6] [PP-ADV t7] [NP-MOD t8]]",
+        "dependencies": [
+          "t6->t5 (subject_and_predicate_nominative)",
+          "t6->t7 (temporal_adjunct)",
+          "t7->t8 (genitive_modifier)"
+        ],
+        "notes": "Clause where 'peace and righteousness' are the subject and 'partners' is the predicate, both contained in t5, linked by the copular verb 'they will be' in t6."
       }
     ]
   }

@@ -2,17 +2,14 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Complex Sentence",
-        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [VP t5 [NP [NP t5] [SBAR [Rel t5] [S [VP t6 [NP t6] [SBAR [Rel t6] [S [VP t7 [NP t7 [Coord t7 t8]]]]]]]]]]]]",
+        "id": "P4_S1",
+        "structure_type": "Clause with Coordinated Verbs",
+        "bracket_notation": "[S [VP t5] [S_REL [VP t6] [CONJ [VP t7]] [NP t8]]]",
         "dependencies": [
-          "t1->t2 (numeral_mod)",
-          "t3->t4 (numeral_mod)",
-          "t5->t6 (relative_clause)",
-          "t6->t7 (relative_clause)",
-          "t7->t8 (coord_obj)"
+          "t6 -> t7 (conj)",
+          "t7 -> t8 (obj)"
         ],
-        "notes": "Nested relative clauses."
+        "notes": "A complex sentence where a relative clause contains coordinated verbs (t6 'turn' and t7 'cause to set'), which share a coordinated object (the sun and the stars t8)."
       }
     ]
   }

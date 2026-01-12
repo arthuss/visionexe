@@ -15,6 +15,13 @@ SEGMENT_RE = re.compile(r"segment_(\d+)", re.IGNORECASE)
 SCENE_RE = re.compile(r"scene_(\d+)", re.IGNORECASE)
 PART_RE = re.compile(r"part_(\d+)", re.IGNORECASE)
 
+ANALYSIS_LAYER_FILES = {
+    "graphematic": "analysis_llm_graphematic.txt",
+    "morphologic": "analysis_llm_morphologic.txt",
+    "synthactic": "analysis_llm_synthactic.txt",
+    "semantic_historical": "analysis_llm_semantic_historical.txt",
+}
+
 
 def parse_int(value):
     if value is None:
@@ -56,6 +63,74 @@ def extract_json_blocks(text):
         except json.JSONDecodeError:
             continue
     return blocks
+
+
+def load_json_text(text):
+    if not text:
+        return None
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        return None
+
+
+def resolve_segment_dir(
+    source_path,
+    filmsets_root,
+    chapter_label,
+    chapter_padding,
+    chapter_value,
+    segment_label,
+):
+    if source_path:
+        try:
+            source_path = Path(source_path)
+        except TypeError:
+            source_path = None
+        if source_path and source_path.exists():
+            parent = source_path.parent
+            if segment_label and parent.name == segment_label:
+                return parent
+            if segment_label:
+                candidate = parent / segment_label
+                if candidate.exists():
+                    return candidate
+            return parent
+
+    if not filmsets_root or not chapter_value or not segment_label:
+        return None
+    try:
+        chapter_int = int(chapter_value)
+    except (ValueError, TypeError):
+        return None
+    chapter_folder = f"{chapter_label}_{chapter_int:0{chapter_padding}d}"
+    candidate = Path(filmsets_root) / chapter_folder / segment_label
+    if candidate.exists():
+        return candidate
+    return None
+
+
+def load_analysis_layers(segment_dir):
+    if not segment_dir:
+        return {}
+    layers = {}
+    for key, filename in ANALYSIS_LAYER_FILES.items():
+        path = segment_dir / filename
+        if not path.exists():
+            continue
+        try:
+            raw = path.read_text(encoding="utf-8").strip()
+        except OSError:
+            continue
+        payload = load_json_text(raw)
+        if payload is None:
+            blocks = extract_json_blocks(raw)
+            payload = blocks[0] if len(blocks) == 1 else (blocks or None)
+        if payload is None:
+            layers[key] = {"path": str(path), "raw": raw}
+        else:
+            layers[key] = {"path": str(path), "payload": payload}
+    return layers
 
 
 def extract_from_path(source_path):
@@ -154,6 +229,9 @@ def main():
     segment_padding = int(story_config.get("segment_index_padding", 3))
     scene_label = story_config.get("scene_label", "scene")
     scene_padding = int(story_config.get("scene_index_padding", 3))
+    chapter_label = story_config.get("chapter_label", "chapter")
+    chapter_padding = int(story_config.get("chapter_index_padding", 3))
+    filmsets_root = resolve_path(story_config.get("filmsets_root"), repo_root)
 
     analysis_dir = args.analysis_dir
     analysis_index = {}
@@ -214,6 +292,18 @@ def main():
                 key = (chapter, segment_index, segment_type)
                 if key in analysis_index:
                     record["analysis_paths"] = analysis_index[key]
+
+            segment_dir = resolve_segment_dir(
+                source_path,
+                filmsets_root,
+                chapter_label,
+                chapter_padding,
+                chapter,
+                segment_label_value,
+            )
+            analysis_layers = load_analysis_layers(segment_dir)
+            if analysis_layers:
+                record["analysis_layers"] = analysis_layers
 
             out.write(json.dumps(record, ensure_ascii=False) + "\n")
 

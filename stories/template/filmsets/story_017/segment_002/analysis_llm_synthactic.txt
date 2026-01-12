@@ -2,18 +2,16 @@
   "syntax": {
     "parses": [
       {
-        "id": "P1",
-        "structure_type": "Complex Sentence",
-        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [VP t5 [NP t6 [SBAR t7 [VP t8]]]]]",
+        "id": "S2.A",
+        "structure_type": "Verb Phrase with Coordinated Complements",
+        "bracket_notation": "[S [VP [V (in t5)] [PP [NP (in t5)] [SBAR [REL (in t6)]]] [CONJ (in t6)] [PP [NP (in t6)] [SBAR [REL t7] [S [VP t8]]]]]]",
         "dependencies": [
-          "t1->t2 (numeral_mod)",
-          "t3->t4 (numeral_mod)",
-          "ROOT->t5 (main_verb)",
-          "t5->t6 (obl_arg)",
-          "t6->t7 (relative_mod)",
-          "t7->t8 (relative_comp)"
+          "t5 -> t6 (coord-comp)",
+          "t5 <- (REL in t6) (adj-clause)",
+          "t6 <- t7 (adj-clause)",
+          "t7 <- t8 (predicate)"
         ],
-        "notes": "t5 'took' -> t6 'place/mountain' -> t7 'whose/which' -> t8 'reached'."
+        "notes": "The main verb in t5 governs two coordinated prepositional phrases. The first is 'to a place of a whirlwind' (t5, t6). The second is 'and to a mountain whose summit reaches to heaven' (t6, t7, t8)."
       }
     ]
   }

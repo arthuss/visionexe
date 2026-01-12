@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0.0",
-    "created_at": "2026-01-11T03:29:50Z",
+    "created_at": "2026-01-11T06:41:14Z",
     "created_by": "worker_llm_analysis_Morphologic",
     "language": "gez",
     "tagset_id": "GEZ-POS-1",
@@ -28,16 +28,16 @@
           "analysis": {
             "kind": "lexical",
             "root": "chapter",
-            "lemma": "Chapter",
-            "pattern": "N"
+            "lemma": "chapter",
+            "pattern": "foreign"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": "Meta",
+            "lexicon_status": "not_in_lexicon",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -58,15 +58,15 @@
             "kind": "lexical",
             "root": "12",
             "lemma": "12",
-            "pattern": "NUM"
+            "pattern": "foreign"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": "Meta",
+            "lexicon_status": "not_in_lexicon",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -86,16 +86,16 @@
           "analysis": {
             "kind": "lexical",
             "root": "segment",
-            "lemma": "Segment",
-            "pattern": "N"
+            "lemma": "segment",
+            "pattern": "foreign"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": "Meta",
+            "lexicon_status": "not_in_lexicon",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -116,15 +116,15 @@
             "kind": "lexical",
             "root": "3",
             "lemma": "3",
-            "pattern": "NUM"
+            "pattern": "foreign"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": "Meta",
+            "lexicon_status": "not_in_lexicon",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -143,17 +143,17 @@
           "pos": "V",
           "analysis": {
             "kind": "lexical",
-            "root": "BRK",
+            "root": "√brk",
             "lemma": "ባረከ",
-            "pattern": "ebarek"
+            "pattern": "CONJ+?+N+?+V"
           },
           "confidence": {
-            "type": "medium",
-            "score": 0.6
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": "phrase_component",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -172,17 +172,17 @@
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "GZ'",
-            "lemma": "እግዚአ",
-            "pattern": "egzi'"
+            "root": "√ngs",
+            "lemma": "ንጉሥ",
+            "pattern": "PREP+N+N+CONJ+PREP+N"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.8
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": "phrase_head",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -201,17 +201,17 @@
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "LM",
+            "root": "√'lm",
             "lemma": "ዓለም",
-            "pattern": "alam"
+            "pattern": "N+CONJ+?+N"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.9
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": "phrase_head",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -230,17 +230,17 @@
           "pos": "V",
           "analysis": {
             "kind": "lexical",
-            "root": "CW",
+            "root": "√ṣw'",
             "lemma": "ጸውዐ",
-            "pattern": "yisew'u-ni"
+            "pattern": "V+PRO.PERS+PREP+N"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.8
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": "phrase_head",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -256,20 +256,20 @@
       "options": [
         {
           "option_id": "A",
-          "pos": "N",
+          "pos": "V",
           "analysis": {
             "kind": "lexical",
-            "root": "SHF",
-            "lemma": "ጸሓፊ",
-            "pattern": "sehafi"
+            "root": "√bhl",
+            "lemma": "በለ",
+            "pattern": "N+CONJ+V"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.8
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": "phrase_head",
+            "attestation": [],
             "constraints_checked": []
           }
         }

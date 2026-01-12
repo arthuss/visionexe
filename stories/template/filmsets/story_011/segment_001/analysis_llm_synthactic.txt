@@ -2,16 +2,48 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Complex Sentence",
-        "bracket_notation": "[ROOT [Label t1 t2 t3 t4] [S [VP t5 [NP t6] [S_sub [VP t7 [PP t8 [NP t9]]]]]]]",
+        "id": "S1_H1",
+        "structure_type": "Header Phrase",
+        "bracket_notation": "[NP-HEADER [N t1] [NUM t2]]",
         "dependencies": [
-          "t5->t6 (object)",
-          "t5->t7 (adverbial_clause)",
-          "t7->t8 (oblique)",
-          "t8->t9 (genitive)"
+          "t1->t2 (num_mod)"
         ],
-        "notes": "t5 functions as the main predicate block; t6 is the direct object theme; t7 introduces a purposive/consecutive clause governing the prepositional complex t8, which is modified by t9."
+        "notes": "Chapter 11"
+      },
+      {
+        "id": "S1_H2",
+        "structure_type": "Header Phrase",
+        "bracket_notation": "[NP-HEADER [N t3] [NUM t4]]",
+        "dependencies": [
+          "t3->t4 (num_mod)"
+        ],
+        "notes": "Segment 1"
+      },
+      {
+        "id": "S1_C1",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [S-MAIN t5] [NP-OBJ t6] [PP-BEN t9] [ADJ-PURP t7] [ADJ-PURP t8]]",
+        "dependencies": [
+          "t5->t6 (direct_object)",
+          "t5->t9 (benefactive_adjunct)",
+          "t5->t7 (purpose_adjunct)",
+          "t5->t8 (purpose_adjunct)",
+          "t7->t8 (coordination)"
+        ],
+        "notes": "Primary analysis where the purpose clauses ('for their descent', 'for their work') modify the main verb ('I will open')."
+      },
+      {
+        "id": "S1_C2",
+        "structure_type": "Clause with Elaborated Adjunct",
+        "bracket_notation": "[S [S-MAIN t5] [NP-OBJ t6] [PP-BEN t9 [ADJ-PURP t7] [ADJ-PURP t8]]]",
+        "dependencies": [
+          "t5->t6 (direct_object)",
+          "t5->t9 (benefactive_adjunct)",
+          "t9->t7 (elaboration)",
+          "t9->t8 (elaboration)",
+          "t7->t8 (coordination)"
+        ],
+        "notes": "Alternative analysis where the purpose clauses elaborate on the benefactive phrase 'for the children of men'."
       }
     ]
   }

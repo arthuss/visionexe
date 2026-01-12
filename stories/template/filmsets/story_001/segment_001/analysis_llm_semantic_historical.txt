@@ -1,31 +1,49 @@
 {
   "evaluation": [
     {
-      "hypothesis_ref": "S1-Parse2",
+      "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The segment corresponds to the incipit of 1 Enoch (1:1). The phrase 'Qaala Barakat' (The word of the blessing) is a Construct State Nominal Phrase serving as the title/header of the book. S1-Parse1's interpretation of 'He left' (taking 'ret' as a verb or corrupt form) disrupts the standard incipit formula. The OCR artifact 'ret' is widely attested as 'Barakat' in critical editions.",
+      "reasoning": "This parse correctly identifies a standard coordination of two accusative nouns, 'ኅሩያነ ወጻድቃነ' ('the elect and righteous'), which function as the logical object of the discourse introduced by 'ቃለ በረከት' ('word of blessing') in the preceding (but unincluded) title. The morphology is correct.",
       "parallels": [
         {
-          "ref": "1 Enoch 1:1 (Ethiopic)",
-          "note": "Standard reading: 'Qāla barakat za-Hēnok' (The word of the blessing of Enoch)."
+          "ref": "Jude 1:1",
+          "note": "Similar construction 'ለእิለ... ኅሩያን' ('to those who are chosen')."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "The word of the blessing of Enoch..."
+      "back_translation": "pass"
     },
     {
-      "hypothesis_ref": "S1-Parse1",
-      "plausibility": "low",
-      "reasoning": "Treating the initial token as a verb (VSO) forces a narrative reading too early. The first line is traditionally a nominal title heading.",
-      "parallels": [],
-      "context_invariance": "unstable",
-      "back_translation": "He left the word of Enoch..."
+      "hypothesis_ref": "S2",
+      "plausibility": "high",
+      "reasoning": "Correctly identifies a relative clause introduced by 'እለ' ('who'). The periphrastic future 'ሀለው ይኩኑ' ('will be') is a common formation. The temporal adjunct 'ዕለተ መንዳቢ' ('day of tribulation') is also parsed correctly as a construct phrase.",
+      "parallels": [
+        {
+          "ref": "Zephaniah 1:15",
+          "note": "The phrase 'ዕለተ ምንዳቤ' is a calque from biblical descriptions of the Day of the Lord."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S3",
+      "plausibility": "moderate",
+      "reasoning": "The parse correctly identifies a purpose clause starting with 'ለ-' + infinitive ('ለሰስሎ', 'for the removal of'). The main issue is the particle 'ሎ' (t40), which is grammatically awkward. The note correctly suggests it may be a corruption of 'ኵሎ' ('all'). With this emendation, the phrase 'for the removal of all the wicked and godless' is perfectly coherent and contextually expected. As is, the parse is uncertain.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 1:9",
+          "note": "Thematically consistent with the purpose of the theophany, 'to destroy all the wicked'."
+        }
+      ],
+      "context_invariance": "context-dependent",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Comparison with standard text reveals 'ret' is a corruption of 'barakat'. Parse 2 accommodates the nominal construct chain typical of book titles.",
+  "decision_log": "The three parses are not alternatives but a sequential breakdown of the verse. S1 and S2 are highly plausible and represent standard Ge'ez syntax. S3 is plausible but relies on a widely accepted emendation of 'lo' to 'kwello' ('all'). The combined reading is the standard scholarly understanding of this verse.",
   "final_decision": {
-    "hypothesis_ref": "S1-Parse2",
-    "translation_id": "T-Seg01-Nominal",
+    "hypothesis_ref": "S1+S2+S3",
+    "translation_id": "T1",
     "confidence": "high"
   }
 }

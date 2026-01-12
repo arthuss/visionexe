@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0.0",
-    "created_at": "2026-01-11T03:29:50Z",
+    "created_at": "2026-01-11T06:41:14Z",
     "created_by": "worker_llm_analysis_Morphologic",
     "language": "gez",
     "tagset_id": "GEZ-POS-1",
@@ -28,16 +28,16 @@
           "analysis": {
             "kind": "lexical",
             "root": "chapter",
-            "lemma": "Chapter",
-            "pattern": "N"
+            "lemma": "chapter",
+            "pattern": "foreign"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": "Meta",
+            "lexicon_status": "not_in_lexicon",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -58,15 +58,15 @@
             "kind": "lexical",
             "root": "12",
             "lemma": "12",
-            "pattern": "NUM"
+            "pattern": "foreign"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": "Meta",
+            "lexicon_status": "not_in_lexicon",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -86,16 +86,16 @@
           "analysis": {
             "kind": "lexical",
             "root": "segment",
-            "lemma": "Segment",
-            "pattern": "N"
+            "lemma": "segment",
+            "pattern": "foreign"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": "Meta",
+            "lexicon_status": "not_in_lexicon",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -116,15 +116,15 @@
             "kind": "lexical",
             "root": "2",
             "lemma": "2",
-            "pattern": "NUM"
+            "pattern": "foreign"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": "Meta",
+            "lexicon_status": "not_in_lexicon",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -143,17 +143,17 @@
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "GBR",
+            "root": "√gbr",
             "lemma": "ግብር",
-            "pattern": "gibr-u"
+            "pattern": "CONJ+?+N+PREP+N"
           },
           "confidence": {
-            "type": "medium",
-            "score": 0.7
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": "phrase_head",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -169,20 +169,20 @@
       "options": [
         {
           "option_id": "A",
-          "pos": "PREP",
+          "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "MSL",
-            "lemma": "ምስለ",
-            "pattern": "misla"
+            "root": "√w'l",
+            "lemma": "መዋዕል",
+            "pattern": "CONJ+PREP+N+N"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.8
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": "phrase_head",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -198,20 +198,20 @@
       "options": [
         {
           "option_id": "A",
-          "pos": "N",
+          "pos": "PRO.DEM",
           "analysis": {
             "kind": "lexical",
-            "root": "GZ",
-            "lemma": "ጊዜ",
-            "pattern": "gize-hu"
+            "root": "√zy",
+            "lemma": "ዝ",
+            "pattern": "PRO.DEM"
           },
           "confidence": {
-            "type": "low",
-            "score": 0.4
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "inferred",
-            "attestation": "fragment",
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
             "constraints_checked": []
           }
         }

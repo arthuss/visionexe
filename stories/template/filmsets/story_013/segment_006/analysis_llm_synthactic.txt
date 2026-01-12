@@ -2,20 +2,23 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Nominalized Narrative Sequence",
-        "bracket_notation": "[S [NP [N t1] [NUM t2] [N t3] [NUM t4]] [S [ADVP t5] [NP [N t6] [SBAR [REL t7] [NP t8]] [SBAR [REL t9] [VP [N t10]]]]]]",
+        "id": "S6_1",
+        "structure_type": "Verbal Phrase with Coordinated Objects",
+        "bracket_notation": "[VP [V ጸሐፍኩ(t5)] [OBJ [NP [N ስዕለቶሙ(t6)] [CONJ ወ(t6)] [N ስተብቍዖቶሙ(t6)]]]]",
         "dependencies": [
-          "t2->t1 (nummod)",
-          "t4->t3 (nummod)",
-          "t5->root (adverbial_head)",
-          "t6->t5 (dep)",
-          "t7->t6 (case)",
-          "t8->t6 (nmod)",
-          "t9->t8 (acl)",
-          "t10->t9 (obj)"
+          "t5->t6 (object)"
         ],
-        "notes": "Main verb is absorbed in t5 or implied. Structure relies on t5 modifying the sequence of nominals t6, t8, t10 linked by t7, t9."
+        "notes": "The verb 'ጸሐፍኩ' (I wrote) in t5 governs the coordinated direct objects 'ስዕለቶሙ' (their petition) and 'ስተብቍዖቶሙ' (their supplication) in t6."
+      },
+      {
+        "id": "S6_2",
+        "structure_type": "Relative Clause",
+        "bracket_notation": "[S' [PRO.REL ዘ(t9)] [VP [V ይስእሉ(t9)] [OBJ [S' [V ይኩኖሙ(t9)] [OBJ [NP t10]]]]]]",
+        "dependencies": [
+          "t9->t8 (relative_clause_modifies)",
+          "t9->t10 (object)"
+        ],
+        "notes": "A complex relative clause 'that which they ask', where the requested item itself is a clause: 'that there might be for them forgiveness and length of days'."
       }
     ]
   }

@@ -1,23 +1,71 @@
 ```json
 {
-  "actors": [
-    {
-      "name": "እምላህብ",
-      "visualTraits": [],
-      "changes": [],
-      "role": "actor"
-    }
-  ],
+  "actors": [],
+  "characters": [],
   "props": [
     {
-      "name": "ድባር",
-      "visualTraits": [],
+      "name": "wax",
+      "visualTraits": "A substance that melts easily with heat, used in a simile to describe the mountains.",
       "changes": [],
-      "role": "prop"
+      "role": "scene_prop"
+    },
+    {
+      "name": "flame",
+      "visualTraits": "A source of intense heat that causes the wax-like melting.",
+      "changes": [],
+      "role": "scene_prop"
     }
   ],
-  "environments": [],
-  "scenes": [],
+  "places": [],
+  "locations": [
+    {
+      "name": "high mountains",
+      "visualTraits": "Tall, imposing mountain ranges.",
+      "changes": [
+        {
+          "phase": "Phase 1: Static",
+          "description": "The mountains exist in their solid state."
+        },
+        {
+          "phase": "Phase 2: Unstable",
+          "description": "The mountains are shaken, dismayed, and begin to melt and be thrown down."
+        }
+      ],
+      "role": "dynamic_scenery"
+    },
+    {
+      "name": "high hills",
+      "visualTraits": "Large hills, secondary to the high mountains.",
+      "changes": [
+        {
+          "phase": "Phase 1: Static",
+          "description": "The hills exist in their solid state."
+        },
+        {
+          "phase": "Phase 2: Unstable",
+          "description": "The hills are lowered and humbled, contributing to the overall landscape transformation."
+        }
+      ],
+      "role": "dynamic_scenery"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Theophanic Pressure",
+      "visualTraits": "An intense, invisible force causing geological structures to destabilize and melt.",
+      "changes": [],
+      "role": "ambient_phenomenon"
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Mountains Melt",
+      "location": "A mountainous region",
+      "action": "As a result of a powerful theophany, high mountains are violently shaken and hills are brought low, melting away like wax in a fire.",
+      "actorsInvolved": []
+    }
+  ],
   "blocking": {
     "anchors": [],
     "paths": []

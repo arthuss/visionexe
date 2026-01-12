@@ -2,15 +2,15 @@
   "syntax": {
     "parses": [
       {
-        "id": "S6_P1",
-        "structure_type": "Nominal Predication",
-        "bracket_notation": "[S [NP [PRO.PERS t5]] [NP_pred [ADJ t6] [ADJ t7] [N t8]]]",
+        "id": "P1",
+        "structure_type": "Verbal Clause with Complex Predicate Complement",
+        "bracket_notation": "[S [NP-SUBJ t5] [VP t5 [NP-PRED-COMP t6 [RC t7 [PP t8]]]]]",
         "dependencies": [
-          "t5 -> t6 (predicate)",
-          "t6 -> t7 (modifier)",
-          "t7 -> t8 (complement/scope)"
+          "t5->t6 (predicate_complement)",
+          "t6->t7 (relative_clause_modifier)",
+          "t7->t8 (prepositional_object)"
         ],
-        "notes": "Stative/equational sentence structure describing the nature of 'you' (t5)."
+        "notes": "A single clause describing the original state of the addressees, with a complex predicate noun phrase modified by a relative clause."
       }
     ]
   }

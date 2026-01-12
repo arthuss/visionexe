@@ -3,16 +3,21 @@
     {
       "hypothesis_ref": "S2_P1",
       "plausibility": "high",
-      "reasoning": "Correctly parses the imperative 'Go' (`ḥur`) and the relative clause defining the 'Watchers'. The distinction between the mission of the Watchers and Enoch is preserved.",
-      "parallels": [],
+      "reasoning": "The parse accurately identifies the imperative verb 'ḥora' (Go) as the main predicate, followed by a prepositional phrase indicating the recipients and a relative clause ('ʾǝlla...') modifying 'tǝguhānä sämay' (the Watchers of heaven). This is a standard way to construct a command with a specified target.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 10:4",
+          "note": "Similar imperative structures are used for divine commands to angels."
+        }
+      ],
       "context_invariance": "stable",
-      "back_translation": "And go, say to the Watchers of heaven, who sent thee to intercede for them: 'You should intercede for men, and not men for you.'"
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Matches 1 Enoch 15:2 structure.",
+  "decision_log": "S2_P1 is the most straightforward reading of the text. The use of the relative pronoun 'ʾǝlla' to introduce a clause describing the antecedent is fundamental Ge'ez syntax.",
   "final_decision": {
     "hypothesis_ref": "S2_P1",
-    "translation_id": "T1",
+    "translation_id": "T2",
     "confidence": "high"
   }
 }

@@ -2,17 +2,18 @@
   "syntax": {
     "parses": [
       {
-        "id": "S5_P1",
-        "structure_type": "Causal/Result Clause",
-        "bracket_notation": "[S [ADV t5] [N t6] [PREP t7] [PREP t8] [V t9] [PREP t10]]",
+        "id": "P1",
+        "structure_type": "Main Clause with Subordinate Purpose Clauses",
+        "bracket_notation": "[S [ADV t5] [VP t5 [NP-OBJ t6]] [S-PURP1 [CONJ (part of t6)] [VP t6 [PP t7]]] [S-PURP1-COORD [CONJ (part of t7)] [VP t7 [NP-SUBJ (part of t7)]]] [S-PURP2 [CONJ (part of t8)] [VP t9 [NP-SUBJ (part of t9)]] [PP t10]]]",
         "dependencies": [
-          "t5 -> t6 (object/theme)",
-          "t6 -> t7 (modifier/purpose)",
-          "t9 -> t5 (reason/cause)",
-          "t9 -> t8 (adjunct)",
-          "t9 -> t10 (location)"
+          "t5->t6 (direct_object)",
+          "t5->t6 (purpose_clause)",
+          "t6->t7 (coordinated_clause)",
+          "t5->t8 (purpose_clause)",
+          "t8->t9 (clause_content)",
+          "t9->t10 (locative_modifier)"
         ],
-        "notes": "t5 'Therefore/Because of this' links to previous context. t9 is the main result verb."
+        "notes": "A single complex sentence where the main verb 'gave' is followed by a series of purpose/result clauses explaining the reason."
       }
     ]
   }

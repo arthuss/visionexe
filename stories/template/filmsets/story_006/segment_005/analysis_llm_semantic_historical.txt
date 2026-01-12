@@ -2,22 +2,22 @@
   "evaluation": [
     {
       "hypothesis_ref": "S1",
-      "plausibility": "moderate",
-      "reasoning": "Captures the completion of the oath and the count of the angels. Input 'ሜሃ' is likely 'አሜሃ' (Then) or 'ሶቤሃ'. 'ኑ' is likely 'ኮኑ' (they were). The parse of 'VP [NP]' for the quantity '፪፻' (200) is appropriate.",
+      "plausibility": "high",
+      "reasoning": "The analysis correctly identifies a simple sequence of narrative actions (swore, bound) followed by a concluding stative clause specifying the number of individuals. This is a common pattern for concluding an episode.",
       "parallels": [
         {
-          "ref": "1 Enoch 6:5 (Ethiopic)",
-          "note": "Standard: '...ወኮኑ፡ ኵሎሙ፡ ፪፻...'"
+          "ref": "1 Enoch 6:6a",
+          "note": "Attested narrative sequence. The action of swearing the oath is immediately followed by a statement of the number of participants ('and they were in all two hundred'). The parse reflects this summary statement."
         }
       ],
-      "context_invariance": "variant_text",
+      "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Structural analysis is robust against the likely typos in the function words.",
+  "decision_log": "The single hypothesis, S1, provides a standard, well-formed parse for a narrative action sequence followed by a summary count. The reading is straightforward and requires no alternative.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",
-    "confidence": "moderate"
+    "confidence": "high"
   }
 }

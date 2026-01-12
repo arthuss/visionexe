@@ -2,14 +2,22 @@
   "syntax": {
     "parses": [
       {
-        "id": "S2-P1",
-        "structure_type": "Compound Sentence",
-        "bracket_notation": "[S [S [NP t5]] [S [VP t6]] [S [VP t7]]]",
+        "id": "S2_P1",
+        "structure_type": "Noun Phrase with Coordination",
+        "bracket_notation": "[NP [N t5] [CONJ+ADJ t6]]",
         "dependencies": [
-          "t5->t6 (conj)",
-          "t6->t7 (conj)"
+          "t5->t6 (coordination)"
         ],
-        "notes": "Sequential clauses connected by 'wa-' (and). t5 predicates 'great impiety'. t6 describes the actions 'committed fornication and erred'. t7 describes the result 'ways were corrupt'."
+        "notes": "The concept in t5 ('great wickedness') is continued and expanded by t6 ('and much...')."
+      },
+      {
+        "id": "S2_P2",
+        "structure_type": "Coordinated Verb Clauses",
+        "bracket_notation": "[S [VP-in-t6] [CONJ] [VP t7]]",
+        "dependencies": [
+          "t6->t7 (coordination)"
+        ],
+        "notes": "A sequence of clauses describing negative actions. The verbs are located within tokens t6 ('they fornicated and went astray') and t7 ('and they corrupted their ways')."
       }
     ]
   }

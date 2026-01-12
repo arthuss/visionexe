@@ -2,23 +2,23 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Narrative Sequence",
-        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [S1 t5 t6] [S2 t6 t7] [S3 t7 t8 t9] [S4 t9 t10] [S5 t10 t11 t12 t13 t14]]]",
+        "id": "P5_S1",
+        "structure_type": "Verbal Clause with Relative",
+        "bracket_notation": "[S [VP t5] [NP [S_REL [VP t6]]]]",
         "dependencies": [
-          "t1->t2 (numeral_mod)",
-          "t3->t4 (numeral_mod)",
-          "t5->t6 (relative_mod)",
-          "t6->t7 (obj_sequence)",
-          "t7->t8 (locative_sequence)",
-          "t8->t9 (genitive_mod)",
-          "t9->t10 (directional_adjunct)",
-          "t10->t11 (temporal_adjunct)",
-          "t11->t12 (locative_adjunct)",
-          "t12->t13 (distributive_mod)",
-          "t13->t14 (distributive_mod)"
+          "t5 -> t6 (obj_rel)"
         ],
-        "notes": "Long narrative chain."
+        "notes": "The verb phrase in t5 ('I saw the winds of the earth') is the main clause, with a relative clause initiated by t6 ('that carry the clouds')."
+      },
+      {
+        "id": "P5_S2",
+        "structure_type": "Prepositional Phrase",
+        "bracket_notation": "[S [VP [V (in t9)]] [PP t8] [PP t10]]",
+        "dependencies": [
+          "t8 -> t9 (obj)",
+          "t9 -> t10 (advl)"
+        ],
+        "notes": "A sequence of actions: 'I saw at the end of the earth (t8) the firmness of heaven above (t9), and I passed (in t9) towards the south (t10)'."
       }
     ]
   }

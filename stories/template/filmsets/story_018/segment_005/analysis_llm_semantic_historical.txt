@@ -2,22 +2,26 @@
   "evaluation": [
     {
       "hypothesis_ref": "S1",
-      "plausibility": "moderate",
-      "reasoning": "Corresponds to 1 Enoch 18:5-6. Text contains likely abbreviations/typos ('ዘዲ' for 'ዘዲበ'?, 'ኀ' for 'ኀበ'?). Describes winds carrying clouds and paths of angels.",
+      "plausibility": "high",
+      "reasoning": "The parse correctly identifies a long narrative chain of visionary travel. The journey to the 'ends of the earth' and the description of 'seven mountains' are hallmark features of Enoch's cosmic tour.",
       "parallels": [
         {
-          "ref": "1 Enoch 18:5",
-          "note": "Standard: 'I saw the winds on the earth which carry the clouds...'"
+          "ref": "1 Enoch 24-25",
+          "note": "Description of seven magnificent mountains in the west, one of which reaches heaven like a throne."
+        },
+        {
+          "ref": "1 Enoch 32",
+          "note": "Description of the journey to the Garden of Righteousness, which also involves passing mountains."
         }
       ],
-      "context_invariance": "variable",
-      "back_translation": "And I saw the winds on the earth which carry the clouds; and I saw the paths of angels. I saw at the end of the earth the firmament of heaven above. And I passed towards the south, and it burns day and night where there are 7 mountains..."
+      "context_invariance": "stable",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Input 'ዘዲ' interpreted as 'on/over' (di-be). 'ዜብ' is 'South' (azeb). Accepted.",
+  "decision_log": "S1 correctly models the sequential nature of the visionary journey. The geographical and cosmological details, particularly the seven mountains, are strongly attested within 1 Enoch itself, confirming the reading.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",
-    "confidence": "moderate"
+    "confidence": "high"
   }
 }

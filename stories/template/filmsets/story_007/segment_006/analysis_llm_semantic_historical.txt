@@ -1,23 +1,27 @@
 {
   "evaluation": [
     {
-      "hypothesis_ref": "S6",
+      "hypothesis_ref": "S6-P1",
       "plausibility": "high",
-      "reasoning": "Corresponds to 1 Enoch 7:6. 'እምሃ' (Then/From there) initiates the consequence. 'ምድር' (Earth) is the subject. 'ሰየቶሙ' is a variant of 'ሰከየቶሙ' (accused/complained against). Fits the conclusion of the pericope.",
+      "reasoning": "The parse correctly identifies 'ሜሃ' ('Then') as a sentence-initial temporal adverb marking a narrative transition. The following clause, 'ምድር፡ሰየቶሙ፡ለዐማፅያን' ('the earth accused the transgressors'), follows a standard Adverb-Subject-Verb-Object word order. The analysis is straightforward.",
       "parallels": [
         {
-          "ref": "1 Enoch 7:6",
-          "note": "Text: ወእምዝ፡ምድር፡ሰከየቶሙ፡ለዐማፅያን።"
+          "ref": "Genesis 4:10",
+          "note": "Provides a strong thematic parallel of the earth itself bearing witness against wrongdoing ('the voice of thy brother's blood crieth unto me from the ground')."
+        },
+        {
+          "ref": "General Attestation",
+          "note": "Starting a sentence with a temporal adverb like 'ሜሃ' or 'እምሃ' is a very common device for sequencing events in Ge'ez narratives."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "Then the earth laid accusation against the lawless ones."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Standard conclusion to the chapter. 'ሰየቶሙ' is accepted as an orthographic variant for the accusatory action of the Earth.",
+  "decision_log": "Parse S6-P1 is correct. The identification of the initial adverb and the subsequent simple clause structure is accurate. The meaning of 'ሰየተ' ('to accuse, complain against') is critical and fits the context of divine judgment that follows.",
   "final_decision": {
-    "hypothesis_ref": "S6",
-    "translation_id": "T1",
+    "hypothesis_ref": "S6-P1",
+    "translation_id": "T6",
     "confidence": "high"
   }
 }

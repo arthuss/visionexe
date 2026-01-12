@@ -10,6 +10,7 @@ import urllib.request
 from pathlib import Path
 
 from visionexe_paths import ensure_dir, load_story_config, resolve_path
+from vertex_gemini import call_vertex_gemini
 
 
 MODEL_NAME = "gpt-oss:20b"
@@ -103,6 +104,10 @@ def parse_args():
     parser.add_argument("--model", help="Override model name.")
     parser.add_argument("--ollama-url", help="Override Ollama URL.")
     parser.add_argument("--use-gemini", action="store_true", help="Use Gemini CLI instead of Ollama.")
+    parser.add_argument("--use-vertex", action="store_true", help="Use Vertex AI Gemini via ADC.")
+    parser.add_argument("--vertex-project", help="Override Vertex project ID.")
+    parser.add_argument("--vertex-location", help="Override Vertex location (default: us-central1).")
+    parser.add_argument("--vertex-model", help="Override Vertex model name.")
     parser.add_argument("--force", action="store_true", help="Force re-run, ignoring progress CSV.")
     parser.add_argument("--chapter-batch", action="store_true", help="Process all segments per chapter in one request.")
     return parser.parse_args()
@@ -417,9 +422,13 @@ def collect_segment_inputs(chapter_id, chapter_name, chapter_dir, segment_label,
 
 def main():
     args = parse_args()
-    use_gemini = bool(args.use_gemini)
+    use_vertex = bool(args.use_vertex)
+    use_gemini = bool(args.use_gemini) and not use_vertex
     model_name = args.model or MODEL_NAME
     gemini_model = args.model or os.environ.get("GEMINI_MODEL", "")
+    vertex_model = args.vertex_model or args.model or os.environ.get("VERTEX_MODEL", "")
+    vertex_project = args.vertex_project
+    vertex_location = args.vertex_location
     ollama_url = args.ollama_url or OLLAMA_API_URL
 
     story_config, _, repo_root = load_story_config(
@@ -452,7 +461,12 @@ def main():
     else:
         completed = load_completed(progress_csv, args.per_segment)
 
-    if use_gemini:
+    if use_vertex:
+        log(
+            "LLM: Vertex (model=%s, project=%s, location=%s)"
+            % (vertex_model or "default", vertex_project or "auto", vertex_location or "auto")
+        )
+    elif use_gemini:
         log(f"LLM: Gemini ({gemini_model or 'default'})")
     else:
         log(f"LLM: Ollama ({model_name})")
@@ -505,7 +519,15 @@ def main():
 
             prompt = build_batch_prompt(story_text, segment_inputs)
             start_time = time.time()
-            if use_gemini:
+            if use_vertex:
+                result = call_vertex_gemini(
+                    prompt,
+                    model=vertex_model or None,
+                    project=vertex_project,
+                    location=vertex_location,
+                    log_fn=log,
+                )
+            elif use_gemini:
                 result = call_gemini(prompt, gemini_model)
             else:
                 result = call_ollama(prompt, model_name, ollama_url)
@@ -587,7 +609,15 @@ def main():
                 key_lemmas = load_key_lemmas(segment_dir)
                 prompt = build_prompt(text_content, phase_limit, parses, key_lemmas)
                 start_time = time.time()
-                if use_gemini:
+                if use_vertex:
+                    result = call_vertex_gemini(
+                        prompt,
+                        model=vertex_model or None,
+                        project=vertex_project,
+                        location=vertex_location,
+                        log_fn=log,
+                    )
+                elif use_gemini:
                     result = call_gemini(prompt, gemini_model)
                 else:
                     result = call_ollama(prompt, model_name, ollama_url)
@@ -634,7 +664,15 @@ def main():
             key_lemmas = load_key_lemmas(chapter_dir)
             prompt = build_prompt(text_content, phase_limit, parses, key_lemmas)
             start_time = time.time()
-            if use_gemini:
+            if use_vertex:
+                result = call_vertex_gemini(
+                    prompt,
+                    model=vertex_model or None,
+                    project=vertex_project,
+                    location=vertex_location,
+                    log_fn=log,
+                )
+            elif use_gemini:
                 result = call_gemini(prompt, gemini_model)
             else:
                 result = call_ollama(prompt, model_name, ollama_url)

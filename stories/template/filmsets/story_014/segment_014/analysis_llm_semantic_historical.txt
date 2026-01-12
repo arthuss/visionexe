@@ -3,16 +3,25 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "Presentation of the 'Second House'. The comparative 'greater than the former' is implicit in the context of the progressive revelation. The parse identifies the new object of focus.",
-      "parallels": [],
+      "reasoning": "The parse correctly identifies a presentational structure ('And behold, another house...') using the particle 'nahu'. It describes a second, greater house, with a portal open, built of 'tongues of fire.' This signifies a transition deeper into the heavenly realm, to a place of greater holiness.",
+      "parallels": [
+        {
+          "ref": "Ezekiel 41:1",
+          "note": "Progression from an outer to an inner sanctuary: 'Afterward he brought me to the temple, and measured the posts...'"
+        },
+        {
+          "ref": "1 Kings 6-7",
+          "note": "Description of the Temple in Jerusalem, moving from outer courts to the Holy of Holies, representing increasing sanctity."
+        }
+      ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Progression to the inner sanctum identified.",
+  "decision_log": "S1 correctly parses the introduction of the second house, representing a deeper level of revelation. The structure is typical for guiding a seer through a heavenly temple complex.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T1",
+    "translation_id": "T1_014",
     "confidence": "high"
   }
 }

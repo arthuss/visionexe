@@ -2,17 +2,31 @@
   "syntax": {
     "parses": [
       {
-        "id": "S2_P1",
-        "structure_type": "Imperative with Complement",
-        "bracket_notation": "[ROOT [V t5] [OBJ [N t6] [ADJUNCT [PREP t7]]] [COMP [V t8] [SUBJ [N t9]] [ADJUNCT [V t10]]]]",
+        "id": "P2-1",
+        "structure_type": "Imperative Clause",
+        "bracket_notation": "[S.IMP [VP [VP [V t5]] [VP [V t5]]] [S.OBJ t6]]",
         "dependencies": [
-          "t5->t6 (object)",
-          "t6->t7 (adjunct)",
-          "t5->t8 (complement)",
-          "t8->t9 (subject)",
-          "t8->t10 (adverbial)"
+          "t5->t6 (object_clause)"
         ],
-        "notes": "Link t5 'See/Understand' to t8 'that it does not change'."
+        "notes": "Coordinated imperative verbs 'ርእይዋ' and 'ለብዉ' (in t5) taking the relative clause 'እንተ፡ምግባር' (t6) as an object."
+      },
+      {
+        "id": "P2-2",
+        "structure_type": "Declarative Clause",
+        "bracket_notation": "[S [VP [V.NEG t8]] [PP t7]]",
+        "dependencies": [
+          "t8->t7 (modifier)"
+        ],
+        "notes": "The verb 'ኢይትመየጥ' (t8) is modified by the prepositional phrase 'ላዕሌሃ፡እምቀዳሚ' (t7)."
+      },
+      {
+        "id": "P2-3",
+        "structure_type": "Subordinate Clause",
+        "bracket_notation": "[S.SUB [CONJ t9] [VP [V t10]]]",
+        "dependencies": [
+          "t10->t9 (subordinator)"
+        ],
+        "notes": "Subordinate clause 'እንዘ፡ያስተርኢ' (t9, t10)."
       }
     ]
   }

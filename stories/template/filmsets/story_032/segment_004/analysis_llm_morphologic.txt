@@ -1,0 +1,468 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T06:39:22Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_032/segment_004",
+    "graphematic_string": "Chapter 32 Segment 4\n\nወይመስል፡ሐመረ፡ጽራእ፡\nወፍሬሁ፡መ፡ስለ፡ወይን፡\nጥቀ፡ሠናይ።ወፄናሁ፡ለውእቱ፡\nዕፅ፡የሐውር፡ወይጽሕ፡ነዊኃ፡",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "32",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "4",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "MISSING",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": null,
+            "pattern": null,
+            "affixes": {
+              "prefixes": [],
+              "suffixes": [],
+              "clitics": []
+            },
+            "features": {},
+            "gloss": null
+          },
+          "confidence": {
+            "type": "ruled_out",
+            "score": 0.0
+          },
+          "evidence": {
+            "lexicon_status": "unattested",
+            "attestation": [],
+            "constraints_checked": [
+              "root_pattern_compatibility",
+              "evidence_minimum"
+            ],
+            "notes": "LLM missing token options"
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወይመስል፡ሐመረ፡ጽራእ፡",
+      "span": {
+        "start": 22,
+        "end": 36
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "phrasal_decomposition",
+            "components": [
+              {
+                "surface": "ወይመስል",
+                "pos": "V",
+                "analysis": {
+                  "kind": "lexical",
+                  "components": [
+                    {
+                      "surface": "ወ",
+                      "pos": "CONJ.COORD"
+                    },
+                    {
+                      "surface": "ይመስል",
+                      "pos": "V",
+                      "root": "መሰለ"
+                    }
+                  ]
+                }
+              },
+              {
+                "surface": "ሐመረ",
+                "pos": "N",
+                "analysis": {
+                  "kind": "lexical",
+                  "root": "?",
+                  "lemma": "?"
+                }
+              },
+              {
+                "surface": "ጽራእ",
+                "pos": "N",
+                "analysis": {
+                  "kind": "lexical",
+                  "root": "?",
+                  "lemma": "?"
+                }
+              }
+            ]
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "requires_lexical_lookup",
+            "attestation": [
+              "Analysis assumes phrasal decomposition of the token."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ወፍሬሁ፡መ፡ስለ፡ወይን፡",
+      "span": {
+        "start": 37,
+        "end": 51
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "phrasal_decomposition",
+            "components": [
+              {
+                "surface": "ወፍሬሁ",
+                "pos": "N",
+                "analysis": {
+                  "kind": "lexical",
+                  "components": [
+                    {
+                      "surface": "ወ",
+                      "pos": "CONJ.COORD"
+                    },
+                    {
+                      "surface": "ፍሬሁ",
+                      "pos": "N",
+                      "root": "ፈረየ"
+                    }
+                  ]
+                }
+              },
+              {
+                "surface": "መ፡ስለ",
+                "pos": "PREP",
+                "analysis": {
+                  "kind": "lexical",
+                  "root": "?",
+                  "lemma": "?"
+                }
+              },
+              {
+                "surface": "ወይን",
+                "pos": "N",
+                "analysis": {
+                  "kind": "lexical",
+                  "root": null,
+                  "lemma": "ወይን"
+                }
+              }
+            ]
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "requires_lexical_lookup",
+            "attestation": [
+              "Analysis assumes phrasal decomposition of the token."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ጥቀ፡ሠናይ።ወፄናሁ፡ለውእቱ፡",
+      "span": {
+        "start": 52,
+        "end": 69
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "phrasal_decomposition",
+            "components": [
+              {
+                "surface": "ጥቀ",
+                "pos": "ADV",
+                "analysis": {
+                  "kind": "lexical",
+                  "root": "ጠቀቀ",
+                  "lemma": "ጥቀ"
+                }
+              },
+              {
+                "surface": "ሠናይ",
+                "pos": "ADJ",
+                "analysis": {
+                  "kind": "lexical",
+                  "root": "ሠነየ",
+                  "lemma": "ሠናይ"
+                }
+              },
+              {
+                "surface": "ወፄናሁ",
+                "pos": "N",
+                "analysis": {
+                  "kind": "lexical",
+                  "components": [
+                    {
+                      "surface": "ወ",
+                      "pos": "CONJ.COORD"
+                    },
+                    {
+                      "surface": "ፄናሁ",
+                      "pos": "N",
+                      "root": "ጸነወ"
+                    }
+                  ]
+                }
+              },
+              {
+                "surface": "ለውእቱ",
+                "pos": "PRO.PERS",
+                "analysis": {
+                  "kind": "lexical",
+                  "components": [
+                    {
+                      "surface": "ለ",
+                      "pos": "CLIT.PREP"
+                    },
+                    {
+                      "surface": "ውእቱ",
+                      "pos": "PRO.PERS"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "requires_lexical_lookup",
+            "attestation": [
+              "Analysis assumes phrasal decomposition of the token."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ዕፅ፡የሐውር፡ወይጽሕ፡ነዊኃ፡",
+      "span": {
+        "start": 70,
+        "end": 87
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "phrasal_decomposition",
+            "components": [
+              {
+                "surface": "ዕፅ",
+                "pos": "N",
+                "analysis": {
+                  "kind": "lexical",
+                  "root": "ዐጸወ",
+                  "lemma": "ዕፅ"
+                }
+              },
+              {
+                "surface": "የሐውር",
+                "pos": "V",
+                "analysis": {
+                  "kind": "lexical",
+                  "root": "ሖረ",
+                  "lemma": "ሖረ"
+                }
+              },
+              {
+                "surface": "ወይጽሕ",
+                "pos": "V",
+                "analysis": {
+                  "kind": "lexical",
+                  "components": [
+                    {
+                      "surface": "ወ",
+                      "pos": "CONJ.COORD"
+                    },
+                    {
+                      "surface": "ይጽሕ",
+                      "pos": "V",
+                      "root": "ጸሐ"
+                    }
+                  ]
+                }
+              },
+              {
+                "surface": "ነዊኃ",
+                "pos": "ADV",
+                "analysis": {
+                  "kind": "lexical",
+                  "root": "ነወኀ",
+                  "lemma": "ነዊኅ"
+                }
+              }
+            ]
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "requires_lexical_lookup",
+            "attestation": [
+              "Analysis assumes phrasal decomposition of the token."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -2,18 +2,45 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Fragmented",
-        "bracket_notation": "[ROOT [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [FRAG [PN t5]] [FRAG [N t10]] [FRAG [PN t14]]]",
+        "id": "S5-1",
+        "structure_type": "Noun Phrase",
+        "bracket_notation": "[NP [N t1] [NUM t2]]",
         "dependencies": [
-          "t1->t2 (nummod)",
-          "t3->t4 (nummod)",
-          "root->t5 (fragment)",
-          "root->t10 (fragment)",
-          "root->t14 (fragment)"
+          "t1 -> t2 (num_mod)"
         ],
-        "notes": "Headers parsed. Intervening tokens (t6-t9, t11-t13, t15-t23) missing. Available Ge'ez tokens treated as fragments."
+        "notes": "Analysis of 'Chapter 10'"
+      },
+      {
+        "id": "S5-2",
+        "structure_type": "Noun Phrase",
+        "bracket_notation": "[NP [N t3] [NUM t4]]",
+        "dependencies": [
+          "t3 -> t4 (num_mod)"
+        ],
+        "notes": "Analysis of 'Segment 5'"
+      },
+      {
+        "id": "S5-3",
+        "structure_type": "Noun Phrase",
+        "bracket_notation": "[NP [PN t5]]",
+        "dependencies": [],
+        "notes": "Analysis of 'በዱድኤል'"
+      },
+      {
+        "id": "S5-4",
+        "structure_type": "Noun Phrase",
+        "bracket_notation": "[NP [N t10]]",
+        "dependencies": [],
+        "notes": "Analysis of 'ድድ'"
+      },
+      {
+        "id": "S5-5",
+        "structure_type": "Noun Phrase",
+        "bracket_notation": "[NP [PN t14]]",
+        "dependencies": [],
+        "notes": "Analysis of 'ኤል'"
       }
-    ]
+    ],
+    "notes": "Syntactic analysis for tokens t6, t7, t8, t9, t11, t12, t13, t15, t16, t17, t18, t19, t20, t21, t22, t23 is not possible due to missing morphological information or because they are punctuation."
   }
 }

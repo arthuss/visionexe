@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0.0",
-    "created_at": "2026-01-11T03:08:11Z",
+    "created_at": "2026-01-11T06:24:49Z",
     "created_by": "worker_llm_analysis_Morphologic",
     "language": "gez",
     "tagset_id": "GEZ-POS-1",
@@ -23,7 +23,7 @@
       },
       "options": [
         {
-          "option_id": "t1_opt1",
+          "option_id": "A",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
@@ -33,11 +33,13 @@
           },
           "confidence": {
             "type": "weak",
-            "score": 0.99
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "foreign_latin_script",
-            "attestation": [],
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [
+              "Foreign word (English)"
+            ],
             "constraints_checked": [
               "root_pattern_compatibility"
             ]
@@ -54,7 +56,7 @@
       },
       "options": [
         {
-          "option_id": "t2_opt1",
+          "option_id": "A",
           "pos": "NUM",
           "analysis": {
             "kind": "lexical",
@@ -64,11 +66,13 @@
           },
           "confidence": {
             "type": "weak",
-            "score": 0.99
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "foreign_digit",
-            "attestation": [],
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [
+              "Arabic numeral"
+            ],
             "constraints_checked": [
               "root_pattern_compatibility"
             ]
@@ -85,7 +89,7 @@
       },
       "options": [
         {
-          "option_id": "t3_opt1",
+          "option_id": "A",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
@@ -95,11 +99,13 @@
           },
           "confidence": {
             "type": "weak",
-            "score": 0.99
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "foreign_latin_script",
-            "attestation": [],
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [
+              "Foreign word (English)"
+            ],
             "constraints_checked": [
               "root_pattern_compatibility"
             ]
@@ -116,7 +122,7 @@
       },
       "options": [
         {
-          "option_id": "t4_opt1",
+          "option_id": "A",
           "pos": "NUM",
           "analysis": {
             "kind": "lexical",
@@ -126,11 +132,13 @@
           },
           "confidence": {
             "type": "weak",
-            "score": 0.99
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "foreign_digit",
-            "attestation": [],
+            "lexicon_status": "unattested_in_lexicon",
+            "attestation": [
+              "Arabic numeral"
+            ],
             "constraints_checked": [
               "root_pattern_compatibility"
             ]
@@ -147,26 +155,60 @@
       },
       "options": [
         {
-          "option_id": "t5_opt1",
+          "option_id": "A",
           "pos": "V",
           "analysis": {
             "kind": "lexical",
+            "root": "ṬYQ",
+            "lemma": "ጠየቀ",
+            "pattern": "CaCaC-u"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "CONJ.COORD",
+          "analysis": {
+            "kind": "functional",
             "root": null,
-            "lemma": null,
+            "lemma": "ወ",
             "pattern": null
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.1
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "unattested_compound_token",
-            "attestation": [
-              "Token appears to contain multiple merged words (ጠየቁ, ወርኢኩ, etc.) due to whitespace tokenization."
-            ],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "lexicon_status": "function_word",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "RʾY",
+            "lemma": "ርእየ",
+            "pattern": "CaC-iku"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
           }
         }
       ]
@@ -180,26 +222,62 @@
       },
       "options": [
         {
-          "option_id": "t6_opt1",
+          "option_id": "A",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
+            "root": "ʿṢW",
+            "lemma": "ዕፅ",
+            "pattern": "CaCaw"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "ADV",
+          "analysis": {
+            "kind": "lexical",
             "root": null,
-            "lemma": "ዐፀው",
+            "lemma": "እፎ",
             "pattern": null
           },
           "confidence": {
             "type": "weak",
-            "score": 0.1
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "unattested_compound_token",
-            "attestation": [
-              "Token contains merged words starting with Noun ዐፀው."
-            ],
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
             "constraints_checked": [
               "root_pattern_compatibility"
             ]
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "RʾY",
+            "lemma": "አስተርአየ",
+            "pattern": "y-astä-CaCCiC-u"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
           }
         }
       ]
@@ -213,26 +291,60 @@
       },
       "options": [
         {
-          "option_id": "t7_opt1",
+          "option_id": "A",
           "pos": "ADJ",
           "analysis": {
             "kind": "lexical",
-            "root": null,
+            "root": "YBS",
             "lemma": "ይቡስ",
+            "pattern": "CiCuC-n"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "CONJ.COORD",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ወ",
             "pattern": null
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.1
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "unattested_compound_token",
-            "attestation": [
-              "Token contains merged words starting with Adjective ይቡስን."
-            ],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "lexicon_status": "function_word",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "QṢL",
+            "lemma": "ቍጽል",
+            "pattern": "CiCC-i-homu"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
           }
         }
       ]
@@ -246,26 +358,81 @@
       },
       "options": [
         {
-          "option_id": "t8_opt1",
+          "option_id": "A",
           "pos": "ADJ",
           "analysis": {
             "kind": "lexical",
+            "root": "NGF",
+            "lemma": "ንጉፍ",
+            "pattern": "CiCuC-at"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
             "root": null,
-            "lemma": "ንጉፋት",
+            "lemma": "ዘእንበለ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "፲ወ፬",
             "pattern": null
           },
           "confidence": {
             "type": "weak",
-            "score": 0.1
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "unattested_compound_token",
-            "attestation": [
-              "Token contains merged words starting with Adjective/Participle ንጉፋት."
-            ],
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
             "constraints_checked": [
               "root_pattern_compatibility"
             ]
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ʿṢW",
+            "lemma": "ዕፅ",
+            "pattern": "CaCaw"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
           }
         }
       ]
@@ -279,23 +446,78 @@
       },
       "options": [
         {
-          "option_id": "t9_opt1",
+          "option_id": "A",
           "pos": "PRO.REL",
           "analysis": {
-            "kind": "lexical",
+            "kind": "functional",
             "root": null,
             "lemma": "ዘ",
             "pattern": null
           },
           "confidence": {
             "type": "undecided",
-            "score": 0.1
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "unattested_compound_token",
-            "attestation": [
-              "Token contains merged words starting with Relative Particle ዘ."
-            ],
+            "lexicon_status": "function_word",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "NGF",
+            "lemma": "ተነግፈ",
+            "pattern": "i-yit-CaCCaC"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "PRO.REL",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "እለ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "function_word",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ṢNḤ",
+            "lemma": "ጸንሐ",
+            "pattern": "yi-CaCCiC-u"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -310,23 +532,78 @@
       },
       "options": [
         {
-          "option_id": "t10_opt1",
+          "option_id": "A",
           "pos": "PREP",
           "analysis": {
-            "kind": "lexical",
+            "kind": "functional",
             "root": null,
             "lemma": "እም",
             "pattern": null
           },
           "confidence": {
             "type": "undecided",
-            "score": 0.1
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "unattested_compound_token",
-            "attestation": [
-              "Token contains merged words starting with Preposition እም."
-            ],
+            "lexicon_status": "function_word",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "ADJ",
+          "analysis": {
+            "kind": "lexical",
+            "root": "BLY",
+            "lemma": "ብሉይ",
+            "pattern": "CiCuC"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "CONJ.SUB",
+          "analysis": {
+            "kind": "lexical",
+            "root": null,
+            "lemma": "እስከ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "MṢʾ",
+            "lemma": "መጽአ",
+            "pattern": "yi-CaCCiʿ"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -341,26 +618,117 @@
       },
       "options": [
         {
-          "option_id": "t11_opt1",
+          "option_id": "A",
           "pos": "ADJ",
           "analysis": {
             "kind": "lexical",
-            "root": null,
+            "root": "ḤDS",
             "lemma": "ሐዲስ",
+            "pattern": "CaCCiC"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "እም",
             "pattern": null
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.1
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "unattested_compound_token",
-            "attestation": [
-              "Token contains merged words starting with Adjective ሐዲስ."
-            ],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "lexicon_status": "function_word",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "LʾY",
+            "lemma": "ልኤ",
+            "pattern": "Ciʿe"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "D",
+          "pos": "CONJ.COORD",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ወ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "function_word",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "E",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "እም",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "function_word",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "F",
+          "pos": "NUM",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ŚLS",
+            "lemma": "ሠለስቱ",
+            "pattern": "CaCaCtu"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
           }
         }
       ]
@@ -374,26 +742,22 @@
       },
       "options": [
         {
-          "option_id": "t12_opt1",
+          "option_id": "A",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": null,
-            "lemma": "ረምት",
-            "pattern": null
+            "root": "RMT",
+            "lemma": "ረመት",
+            "pattern": "CaCaC"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.1
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": [
-              "Possible valid word separator at end or single word."
-            ],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "attestation": [],
+            "constraints_checked": []
           }
         }
       ]

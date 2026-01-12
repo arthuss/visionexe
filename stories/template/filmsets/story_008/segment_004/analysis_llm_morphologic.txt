@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0.0",
-    "created_at": "2026-01-11T03:19:35Z",
+    "created_at": "2026-01-11T06:34:49Z",
     "created_by": "worker_llm_analysis_Morphologic",
     "language": "gez",
     "tagset_id": "GEZ-POS-1",
@@ -26,17 +26,17 @@
           "option_id": "A",
           "pos": "N",
           "analysis": {
-            "kind": "lexical",
-            "root": "chapter",
+            "kind": "foreign",
+            "root": null,
             "lemma": "Chapter",
-            "pattern": "unknown"
+            "pattern": "latin"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.9
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "foreign",
             "attestation": [],
             "constraints_checked": []
           }
@@ -55,17 +55,17 @@
           "option_id": "A",
           "pos": "NUM",
           "analysis": {
-            "kind": "lexical",
-            "root": "8",
+            "kind": "foreign",
+            "root": null,
             "lemma": "8",
-            "pattern": "digit"
+            "pattern": "latin"
           },
           "confidence": {
-            "type": "high",
-            "score": 1.0
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "foreign",
             "attestation": [],
             "constraints_checked": []
           }
@@ -84,17 +84,17 @@
           "option_id": "A",
           "pos": "N",
           "analysis": {
-            "kind": "lexical",
-            "root": "segment",
+            "kind": "foreign",
+            "root": null,
             "lemma": "Segment",
-            "pattern": "unknown"
+            "pattern": "latin"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.9
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "foreign",
             "attestation": [],
             "constraints_checked": []
           }
@@ -113,17 +113,17 @@
           "option_id": "A",
           "pos": "NUM",
           "analysis": {
-            "kind": "lexical",
-            "root": "4",
+            "kind": "foreign",
+            "root": null,
             "lemma": "4",
-            "pattern": "digit"
+            "pattern": "latin"
           },
           "confidence": {
-            "type": "high",
-            "score": 1.0
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
+            "lexicon_status": "foreign",
             "attestation": [],
             "constraints_checked": []
           }
@@ -143,13 +143,51 @@
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "ሐጐለ",
-            "lemma": "ሕጕለት",
-            "pattern": "nominal"
+            "root": "ሕ-ጕ-ል",
+            "lemma": "ሕጕል",
+            "pattern": "CONJ.COORD_cliticized + N.construct"
           },
           "confidence": {
-            "type": "medium",
-            "score": 0.7
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ስ-ብ-እ",
+            "lemma": "ሰብእ",
+            "pattern": "N.masc.sg"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ጸ-ር-ሕ",
+            "lemma": "ጸርሐ",
+            "pattern": "V.perf.3pl"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
@@ -172,13 +210,51 @@
           "pos": "V",
           "analysis": {
             "kind": "lexical",
-            "root": "ወፅአ",
-            "lemma": "ወፅአ",
-            "pattern": "perfect"
+            "root": "ጽ-ሕ-አ",
+            "lemma": "ጽሕአ",
+            "pattern": "CONJ.COORD_cliticized + V.perf.3ms"
           },
           "confidence": {
-            "type": "medium",
-            "score": 0.8
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ቅ-ል",
+            "lemma": "ቃል",
+            "pattern": "N.masc.sg.poss.suff.3pl"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "C",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሰ-ም-ይ",
+            "lemma": "ሰማይ",
+            "pattern": "N.masc.sg.acc"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",

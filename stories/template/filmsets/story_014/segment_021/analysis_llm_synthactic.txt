@@ -2,18 +2,20 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Descriptive Sequence",
-        "bracket_notation": "[S [NP t5] [S [NP t6] [VP t6] [PP t7]] [S [NP t8] [PP t8]] [S [NP t10] [PP t11]] [VP t12]]",
+        "id": "seg021_flat",
+        "structure_type": "Flat Phrase/Clause Chain",
+        "bracket_notation": "[S [REL_U t5] [CONJ_U t6] [CONJ_U t7] [PREP_U t8] [U t9] [U t10] [CONJ_U t11] [U t12] [U t13]]",
         "dependencies": [
-          "t5->t6 (coordination)",
-          "t6->t7 (location)",
-          "t7->t8 (coordination)",
-          "t8->t10 (apposition/quantifier)",
-          "t10->t11 (location)",
-          "t11->t12 (predicate)"
+          "t5 -> t6 (coordination)",
+          "t6 -> t7 (coordination)",
+          "t7 -> t8 (adjunct)",
+          "t8 -> t9 (sequence)",
+          "t9 -> t10 (sequence)",
+          "t10 -> t11 (coordination)",
+          "t11 -> t12 (sequence)",
+          "t12 -> t13 (sequence)"
         ],
-        "notes": "Description of the fire around Him and the multitude."
+        "notes": "Parse based on sequential relationship with dependencies from initial markers."
       }
     ]
   }

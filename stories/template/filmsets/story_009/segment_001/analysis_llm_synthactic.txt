@@ -2,19 +2,29 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Verbal Clause",
-        "bracket_notation": "[S [V t5] [Subj t6] [V_Coord [V t7] [Obj t8 [Mod t9]] [Obj_Coord t10 [Mod t11]]]]",
+        "id": "S1.meta",
+        "structure_type": "Header",
+        "bracket_notation": "[META [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]",
         "dependencies": [
-          "t5->ROOT",
-          "t6->t5 (subject)",
-          "t7->t5 (coordination)",
-          "t8->t7 (object)",
-          "t9->t8 (modifier_location)",
-          "t10->t7 (object_coordination)",
-          "t11->t10 (modifier_location)"
+          "t1->t2 (modifies)",
+          "t3->t4 (modifies)"
         ],
-        "notes": "t5 contains 'Then looked Michael' (V+S). t6 'Uriel and Gabriel' adds to subject. t7 'from heaven and saw' is coordinated verb phrase. t8 'blood that is shed' is object. t10 'and all lawlessness' is coordinated object."
+        "notes": "Segment metadata."
+      },
+      {
+        "id": "S1.1",
+        "structure_type": "Coordinated Clauses",
+        "bracket_notation": "[S [NP-SUBJ [PN t6]] [VP [VP [V t5]] [CONJ] [VP [V t7] [NP-OBJ [NP [N t8] [PP [N t9]]] [NP [N t10] [PP [N t11]]]]]]]",
+        "dependencies": [
+          "t5->t6 (nsubj)",
+          "t7->t6 (nsubj)",
+          "t5->t7 (conj)",
+          "t7->t8 (dobj)",
+          "t7->t10 (dobj, conj)",
+          "t8->t9 (nmod)",
+          "t10->t11 (nmod)"
+        ],
+        "notes": "A complex sentence with coordinated verbs (t5, t7) and objects (t8, t10). The provided tokenization is not granular, making precise analysis difficult. The conjoined subject ('Michael, Uriel, Gabriel') is split across the surface strings of t5 and t6; t6 is used here to represent the subject group. Adverbial 'from heaven' is in t7 surface but modifies t5. Objects t8 and t10 are modified by relative clauses contained in their surface strings and by locative PPs (t9, t11)."
       }
     ]
   }

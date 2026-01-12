@@ -3,16 +3,25 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The negative capability ('cannot describe') is a standard apophatic device. The parse structures the 'excess of glory' effectively.",
-      "parallels": [],
+      "reasoning": "The parse correctly identifies a complex sentence of comparison and result. It states that the second house surpasses the first in glory, honor, and size, to the extent that it is impossible to describe ('so that I cannot describe...'). This inexpressibility topos is a standard feature when describing the divine realm.",
+      "parallels": [
+        {
+          "ref": "2 Corinthians 12:4",
+          "note": "Paul's account of being 'caught up into paradise, and heard unspeakable words, which it is not lawful for a man to utter.'"
+        },
+        {
+          "ref": "1 Corinthians 2:9",
+          "note": "'Eye hath not seen, nor ear heard, neither have entered into the heart of man, the things which God hath prepared for them that love him.'"
+        }
+      ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Ineffability topos recognized.",
+  "decision_log": "S1 accurately parses the sentence, correctly identifying the comparative structure and the subordinate clause of result, which introduces the well-attested 'inexpressibility topos'.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T1",
+    "translation_id": "T1_015",
     "confidence": "high"
   }
 }

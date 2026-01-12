@@ -3,25 +3,22 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The parse structure correctly identifies the complex subordination characteristic of 1 Enoch 19:1. The main verb 'stand' (yəqawwəmu) governs the description of the angels, while the consecutive clauses describe the actions of their spirits (defiling, leading astray). The 'Sbar' (t13) aligns with the 'until' (əska) clause regarding the day of judgment.",
+      "reasoning": "The discourse structure correctly models Uriel's speech, which details the corrupting influence of angelic spirits on humanity. This theme is central to Enochic literature.",
       "parallels": [
         {
-          "ref": "Greek Syncellus (Chron. 11.21)",
-          "note": "Matches 'hoi migentes gynaisin' (those who mixed with women)."
-        },
-        {
-          "ref": "Gizeh Fragment (Gr. Panop.)",
-          "note": "Attests the sequence of defilement and sacrifice to demons ('thuousin tois daimoisin')."
+          "ref": "1 Enoch 19:1",
+          "note": "This segment is a close parallel to 1 Enoch 19:1, where Uriel explains that the spirits of the giants born from angels and women will lead mankind astray to worship demons."
         }
       ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "The input text contains scribal abbreviations or OCR artifacts (e.g., 'መ፡' for 'kama', 'ነ፡ዘ፡' for 'ba-za'). Despite these, the semantic flow matches the critical text of 1 Enoch 19:1. The identification of the 'spirits assuming many forms' (manafəstihomu bəzuḫa ra'ya) is historically significant for demonology. The parse robustly handles the 'until the great day' eschatological limit.",
+  "decision_log": "The provided parse (S1) is the sole hypothesis. Its structure aligns with the narrative function of a revelatory speech by an angel. The content finds a direct and strong parallel in 1 Enoch 19:1, confirming the interpretation and the roles of the entities (Uriel, angels, spirits, mankind).",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",
+    "translation": "And Uriel said to me: 'Here the angels who have joined themselves with women are gathered; their spirits, becoming numerous visions, stand and lead men astray, and cause them to sacrifice to demons as gods, until the great day of judgment when they shall be judged until they are finished.'",
     "confidence": "high"
   }
 }

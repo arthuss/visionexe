@@ -2,21 +2,19 @@
   "syntax": {
     "parses": [
       {
-        "id": "S9_P1",
-        "structure_type": "Complex Narrative Chain",
-        "bracket_notation": "[S [N t5] [V t7] [PREP t8] [CONJ.SUB t10] [PREP t11] [PREP t12] [V t14] [N t15] [N t16] [N t17] [V t18]]",
+        "id": "P1",
+        "structure_type": "Sequence of Clauses with Subordination",
+        "bracket_notation": "[S1 [NP-SUBJ t5] [VP t7 [PP t8]]] [S-REASON [CONJ t10] [S2 [VP t11 [PP t11] [PP t12]]]] [S3 [VP t14 [NP-PRED-NOM t15]]] [S4 [VP t16 [PP t16]] [PP t17]] [S-COORD [VP t18]]",
         "dependencies": [
-          "t7 -> t5 (subject)",
-          "t7 -> t8 (source)",
-          "t7 -> t10 (cause)",
-          "t10 -> t11 (subordinate_clause)",
-          "t11 -> t12 (source)",
-          "t14 -> t15 (subject)",
-          "t16 -> t14 (predicate/complement)",
-          "t18 -> t17 (subject)",
-          "t18 -> t16 (coordination)"
+          "t7->t5 (subject)",
+          "t7->t8 (source_complement)",
+          "t7->t11 (reason_clause)",
+          "t11->t12 (source_complement)",
+          "t14->t15 (predicate_nominative)",
+          "t16->t17 (locative_complement)",
+          "t16->t18 (coordinated_verb)"
         ],
-        "notes": "Describes the origin (t7-t12) and future nature (t14-t18) of the evil spirits."
+        "notes": "A complex series of clauses explaining the origin and nature of evil spirits."
       }
     ]
   }

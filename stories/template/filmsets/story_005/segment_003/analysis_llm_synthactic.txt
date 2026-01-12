@@ -2,19 +2,26 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Imperative Clause",
-        "bracket_notation": "[ROOT [Meta t1 t2 t3 t4] [S [VP t5 [Obj t6 [Mod t7]]]]]",
+        "id": "P1",
+        "structure_type": "Header + Fragments",
+        "bracket_notation": "[ROOT [HEADER [TITLE [N t1] [NUM t2]] [ID [N t3] [NUM t4]]] [BODY [NP t5] [NP t6] [NP t7]]]",
         "dependencies": [
-          "t5->t1 (meta)",
-          "t5->t2 (meta)",
-          "t5->t3 (meta)",
-          "t5->t4 (meta)",
-          "root->t5 (root)",
-          "t5->t6 (object)",
-          "t6->t7 (modifier)"
+          "t1->t2 (mod)",
+          "t3->t4 (mod)"
         ],
-        "notes": "Imperative structure 'See...'"
+        "notes": "Safe parse assuming a metadata header followed by a flat list of body fragments. No verb was tagged in this segment."
+      },
+      {
+        "id": "P2",
+        "structure_type": "Nominal Coordination",
+        "bracket_notation": "[ROOT [HEADER [TITLE [N t1] [NUM t2]] [ID [N t3] [NUM t4]]] [NP [NP t5] [CONJ] [NP t6] [CONJ] [NP t7]]]",
+        "dependencies": [
+          "t1->t2 (mod)",
+          "t3->t4 (mod)",
+          "t5->t6 (conj)",
+          "t5->t7 (conj)"
+        ],
+        "notes": "Assumes coordination between the noun phrases, with implicit conjunctions, as no verb was tagged in the segment."
       }
     ]
   }

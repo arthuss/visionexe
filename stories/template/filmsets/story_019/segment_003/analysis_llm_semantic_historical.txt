@@ -3,21 +3,22 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The compound structure accurately reflects the two distinct assertions: Enoch's reception of the vision and the exclusivity of that vision relative to other humans. The comparative clause 'as I saw' is correctly mapped.",
+      "reasoning": "The compound sentence structure accurately captures the narrator's concluding declaration of the uniqueness of his vision, a common trope in apocalyptic texts to assert authority.",
       "parallels": [
         {
-          "ref": "1 Enoch 19:3 (General Tradition)",
-          "note": "Standard closing formula for the section."
+          "ref": "1 Enoch 19:3",
+          "note": "The text is a direct and almost verbatim match for 1 Enoch 19:3: 'And I, Enoch, alone saw the vision, the ends of all things: and no man shall see as I have seen.'"
         }
       ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "The text 'baḥtitye' (I alone) is emphatic, supporting the separation in the parse. The phrase 'ends of all' (ṣənafa kwellu) is a direct object of the vision, which the parse respects. No significant variation in the manuscript tradition undermines this structural reading.",
+  "decision_log": "S1 is the only hypothesis and is strongly supported. The parse as a compound sentence correctly identifies the two main clauses: the narrator's sight and the inability of others to see the same. The direct parallel with 1 Enoch 19:3 provides maximum confidence in the interpretation.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",
-    "confidence": "very_high"
+    "translation": "And I, Enoch, alone saw a vision of the end of all, and no one among men will see as I have seen.",
+    "confidence": "high"
   }
 }

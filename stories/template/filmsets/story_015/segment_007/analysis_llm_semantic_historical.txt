@@ -3,16 +3,21 @@
     {
       "hypothesis_ref": "S7_P1",
       "plausibility": "high",
-      "reasoning": "Accurately parses the negative causation: 'Therefore I did not appoint... because...'.",
-      "parallels": [],
+      "reasoning": "The parse correctly identifies the main negative clause ('i-räsäyku läkkəmu ʾanǝstä', I did not appoint wives for you) and the subsequent causal clause introduced by 'ʾǝsmä' ('because...'). This is a standard syntactic construction for explaining a negative action.",
+      "parallels": [
+        {
+          "ref": "Genesis 2:5",
+          "note": "Use of 'ʾǝsmä' to provide a reason for a preceding negative statement."
+        }
+      ],
       "context_invariance": "stable",
-      "back_translation": "And therefore I have not appointed wives for you; for as for the spiritual ones of the heaven, in heaven is their dwelling."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Matches 1 Enoch 15:7.",
+  "decision_log": "The structure is clear and the parse S7_P1 accurately reflects the relationship between the main clause and the subordinate causal clause.",
   "final_decision": {
     "hypothesis_ref": "S7_P1",
-    "translation_id": "T1",
+    "translation_id": "T7",
     "confidence": "high"
   }
 }

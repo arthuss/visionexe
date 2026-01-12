@@ -1,13 +1,15 @@
 {
   "source": {
     "witness_id": "story_056/segment_003",
-    "graphematic_string": "ወይቤለኒ፡ለኅሩያነ፡ዚሆሙ፡\nወለፍቁራነሆሙ፡መ፡ይትወደዩ፡\nውስተ፡ንቅዓተ፡ማዕምቅ፡ዘቈላ፨",
+    "graphematic_string": "ወይቤለኒ፡ለኅሩያነ፡ዚሆሙ፡ ወለፍቁራነሆሙ፡መ፡ይትወደዩ፡ ውስተ፡ንቅዓተ፡ማዕምቅ፡ዘቈላ፨",
     "normalization_policy": "none",
     "punctuation_markers": [
-      "፡",
-      "፨"
+      "word_separator",
+      "full_stop"
     ],
-    "removed_artifacts": [],
+    "removed_artifacts": [
+      "newline"
+    ],
     "uncertainties": []
   }
 }

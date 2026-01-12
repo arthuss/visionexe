@@ -1,22 +1,26 @@
 {
   "evaluation": [
     {
-      "hypothesis_ref": "S1",
+      "hypothesis_ref": "S1-P1",
       "plausibility": "high",
-      "reasoning": "The segment corresponds to 1 Enoch 7:1. The coordination structure correctly identifies the sequence of actions: 'taking wives' (ነሥኡ፡ሎሙ፡ንስት), 'mixing' (ተደመሩ), and 'teaching' (መህርዎን) sorcery (ሥራያተ) and root-cutting (መቲረ፡ሥርው). The parse aligns with the standard Ethiopic version where the Watchers instruct humanity in forbidden arts.",
+      "reasoning": "The parse correctly identifies a series of coordinated clauses initiated by 'ወ-' (and), a canonical feature of Ge'ez narrative syntax. The sequence of actions ('take wives', 'choose', 'begin to go in', 'teach') is logically and grammatically sound. The subject shifts from plural (ወነሥኡ - 'they took') to a distributive singular implied by 'ለለ፡ርእሱ' ('for each one'), which is a common and acceptable construction.",
       "parallels": [
         {
-          "ref": "1 Enoch 7:1 (Knibb/Charles)",
-          "note": "Standard Ge'ez text: ወነሥኡ፡ሎሙ፡አንስተ... ወመሀርዎን፡ሥራያተ፡ወስብዐታተ..."
+          "ref": "General Attestation: Ge'ez Narrative Syntax",
+          "note": "The conjunctive use of 'ወ-' to chain clauses is ubiquitous in Ethiopic literature, including biblical and hagiographical texts. The distributive phrase 'ለለ፡ርእሱ' is also standard. While the specific event is unique to Enochic literature, the grammatical structure is highly attested."
+        },
+        {
+          "ref": "Genesis 6:2",
+          "note": "Offers a thematic parallel ('sons of God saw the daughters of man... and they took them wives of all which they chose'), though the specific Ge'ez phrasing differs."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And they took for themselves wives, and each chose one for himself... and they began to go in unto them and mixed with them, and taught them charms and enchantments, and the cutting of roots and trees."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Input text contains minor orthographic variations (e.g., 'ንስት' for 'አንስተ', 'መህርዎን' for 'መሀርዎን'), but the syntactic relationships in the parse correctly map the governing verbs to their direct objects (sorcery, roots).",
+  "decision_log": "Only one parse (P1) was provided. Its identification of a standard coordination structure is accurate and well-supported by the morphology and syntax of the text. No alternative interpretations are required.",
   "final_decision": {
-    "hypothesis_ref": "S1",
+    "hypothesis_ref": "S1-P1",
     "translation_id": "T1",
     "confidence": "high"
   }

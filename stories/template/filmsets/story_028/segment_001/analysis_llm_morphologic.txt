@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2026-01-11T06:31:42Z",
+    "created_by": "worker_llm_analysis_Morphologic",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_028/segment_001",
+    "graphematic_string": "Chapter 28 Segment 1\n\nወእምህየ፡ሖርኩ፡መንገለ፡ጽባሕ፡\nማእሉ፡ለደብረ፡ምብዳራ፡\nወርኢኩ፡ገዳመ፡ወባሕቲቶ፡\nምሉእ፡ዕፀወ፡እምነ፡ዝንቱ፡\nዘርእ፨ወማይ፡ላዕሉ፡\nይፈለፍል፡እምላዕሉ፡",
+    "normalization_policy": "none",
+    "uncertainties": []
+  },
+  "tokens": [
+    {
+      "token_id": "t1",
+      "surface": "Chapter",
+      "span": {
+        "start": 0,
+        "end": 7
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "ADV",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ህየ",
+            "lemma": "ህየ",
+            "pattern": "base_with_clitics"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_construction",
+            "attestation": [
+              "Constructed from base ህየ ('there') with clitics ወ- ('and', CONJ.COORD) and እም- ('from', PREP)."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t2",
+      "surface": "28",
+      "span": {
+        "start": 8,
+        "end": 10
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ሖር",
+            "lemma": "ሖረ",
+            "pattern": "Perfect_1S"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_form",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t3",
+      "surface": "Segment",
+      "span": {
+        "start": 11,
+        "end": 18
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "PREP",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ን፡ግ፡ል",
+            "lemma": "መንገለ",
+            "pattern": "maCCaCa"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t4",
+      "surface": "1",
+      "span": {
+        "start": 19,
+        "end": 20
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ጽ፡ብ፡ሕ",
+            "lemma": "ጽባሕ",
+            "pattern": "CəCaC"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Noun: 'morning'"
+            ],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "ADV",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ጽ፡ብ፡ሕ",
+            "lemma": "ጽባሕ",
+            "pattern": "CəCaC"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [
+              "Adverb: 'tomorrow'"
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t5",
+      "surface": "ወእምህየ፡ሖርኩ፡መንገለ፡ጽባሕ፡",
+      "span": {
+        "start": 22,
+        "end": 41
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ም፡እ፡ል",
+            "lemma": "ማእል",
+            "pattern": "base_with_suffix"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_construction",
+            "attestation": [
+              "Constructed from base ማእል ('middle') with 3rd person masc. singular possessive suffix -ኡ."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t6",
+      "surface": "ማእሉ፡ለደብረ፡ምብዳራ፡",
+      "span": {
+        "start": 42,
+        "end": 56
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ድ፡ብ፡ር",
+            "lemma": "ደብር",
+            "pattern": "accusative_with_clitic"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_construction",
+            "attestation": [
+              "Constructed from accusative form ደብረ of noun ደብር ('mountain') with prepositional clitic ለ- ('to/for')."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t7",
+      "surface": "ወርኢኩ፡ገዳመ፡ወባሕቲቶ፡",
+      "span": {
+        "start": 57,
+        "end": 72
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ብ፡ድ፡ር",
+            "lemma": "ምብዳር",
+            "pattern": "base_with_suffix"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_construction",
+            "attestation": [
+              "Constructed from base ምብዳር ('place of dispersion') with 3rd person fem. singular possessive suffix -አ."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t8",
+      "surface": "ምሉእ፡ዕፀወ፡እምነ፡ዝንቱ፡",
+      "span": {
+        "start": 73,
+        "end": 89
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "V",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ር፡እ፡ይ",
+            "lemma": "ርእየ",
+            "pattern": "Perfect_1S_with_clitic"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_construction",
+            "attestation": [
+              "Constructed from ርኢኩ (1S Perfect of ርእየ, 'to see') with coordinating conjunction clitic ወ- ('and')."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t9",
+      "surface": "ዘርእ፨ወማይ፡ላዕሉ፡",
+      "span": {
+        "start": 90,
+        "end": 102
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "N",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ግ፡ድ፡ም",
+            "lemma": "ገዳም",
+            "pattern": "accusative"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_form",
+            "attestation": [
+              "Accusative form of ገዳም ('wilderness')."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    },
+    {
+      "token_id": "t10",
+      "surface": "ይፈለፍል፡እምላዕሉ፡",
+      "span": {
+        "start": 103,
+        "end": 115
+      },
+      "options": [
+        {
+          "option_id": "A",
+          "pos": "ADV",
+          "analysis": {
+            "kind": "lexical",
+            "root": "ብ፡ሕ፡ት",
+            "lemma": "ባሕቲት",
+            "pattern": "adverbial_form"
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "plausible_construction",
+            "attestation": [
+              "Constructed from base ባሕቲት ('alone') with clitic ወ- ('and') and adverbial ending -ኦ."
+            ],
+            "constraints_checked": []
+          }
+        }
+      ]
+    }
+  ]
+}

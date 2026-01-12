@@ -2,22 +2,22 @@
   "evaluation": [
     {
       "hypothesis_ref": "S1",
-      "plausibility": "low",
-      "reasoning": "Corresponds to 1 Enoch 9:7, but the text 'Wemere seb'atata' (And he showed/taught spells?) diverges from the standard 'Wele-Semyaza' (And to Semyaza). The parse attempts to fit this into a relative structure modifying Semyaza, but the text is likely corrupt or a distinct variant.",
+      "plausibility": "high",
+      "reasoning": "The parse correctly identifies this as a nominal/verbal fragment, not a complete sentence. It functions as a continuation of the object of 'See!' from the previous segment, adding Semyaza to the list of culprits. This appositional, list-like structure is common.",
       "parallels": [
         {
-          "ref": "1 Enoch 9:7",
-          "note": "Standard: 'And Semyaza, to whom You have given authority...'"
+          "ref": "1 Enoch 6:3",
+          "note": "Names Semyaza (Shemihazah) as the leader of the Watchers who swore an oath, confirming his high rank and 'authority' over the others."
         }
       ],
-      "context_invariance": "unstable",
-      "back_translation": "And [he taught spells?] Semyaza, to whom you gave authority to rule those who are with him together."
+      "context_invariance": "context-dependent",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "High uncertainty due to textual deviation 'Wemere seb'atata'. Parse logic regarding the relative clause is sound for the remaining text.",
+  "decision_log": "The fragment's dependence on the previous verb 'See!' is correctly handled by the parse. The identification of Semyaza as a leader is a core part of the Enochic tradition.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",
-    "confidence": "low"
+    "confidence": "high"
   }
 }

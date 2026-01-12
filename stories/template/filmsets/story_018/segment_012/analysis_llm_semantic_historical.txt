@@ -2,22 +2,26 @@
   "evaluation": [
     {
       "hypothesis_ref": "S1",
-      "plausibility": "moderate",
-      "reasoning": "Corresponds to 1 Enoch 18:13. '፯መ፡ድባር' is strange syntactically, usually '7 stars like great mountains' ('፯ከዋክብተ፡ከመ፡ድባር'). Input text seems corrupted here or uses 'መ' for 'like' (kame).",
+      "plausibility": "high",
+      "reasoning": "The parse correctly identifies the vision of 'seven stars' that are 'like great burning mountains'. This is a key image in 1 Enoch, explicitly identifying stars with angelic beings who are later revealed to be imprisoned.",
       "parallels": [
         {
-          "ref": "1 Enoch 18:13",
-          "note": "Standard: 'I saw there seven stars like great burning mountains...'"
+          "ref": "1 Enoch 21:3",
+          "note": "And there I saw seven stars of the heaven bound together in it, like great mountains and burning with fire."
+        },
+        {
+          "ref": "Revelation 1:20",
+          "note": "As for the mystery of the seven stars that you saw in my right hand... the seven stars are the angels of the seven churches."
         }
       ],
-      "context_invariance": "variable",
-      "back_translation": "And a terrible thing I saw there: seven [stars] like mountains great, which burn, and like a spirit questioning [me]."
+      "context_invariance": "stable",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Reconstructed meaning based on '7' + 'mountains' + 'burn'. Accepted with note on 'stars' omission in literal text.",
+  "decision_log": "S1 correctly structures the complex sentence with its appositive and relative clauses. The vision of the seven stars as mountains is a direct parallel to other passages in 1 Enoch and is central to its angelology and cosmology.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",
-    "confidence": "moderate"
+    "confidence": "high"
   }
 }

@@ -1,22 +1,58 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [
+  "actors": [
     {
-      "name": "ሰማይ",
+      "name": "Enoch",
       "visualTraits": null,
-      "changes": null,
-      "role": "sky"
-    },
-    {
-      "name": "አለም",
-      "visualTraits": null,
-      "changes": null,
-      "role": "world"
+      "changes": [],
+      "role": "Prophet"
     }
   ],
-  "scenes": [],
+  "characters": [
+    {
+      "name": "The Elect and The Righteous",
+      "visualTraits": null,
+      "changes": [],
+      "role": "A group who will exist on the Day of Tribulation."
+    },
+    {
+      "name": "The Wicked and The Godless",
+      "visualTraits": null,
+      "changes": [],
+      "role": "A group to be removed."
+    }
+  ],
+  "props": [
+    {
+      "name": "The Book of Enoch",
+      "visualTraits": null,
+      "changes": [],
+      "role": "actor_prop:Enoch"
+    }
+  ],
+  "places": [],
+  "locations": [],
+  "environments": [
+    {
+      "name": "Day of Tribulation",
+      "visualTraits": null,
+      "changes": [],
+      "role": "A future time of judgment."
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "Prologue: The Blessing of Enoch",
+      "location": null,
+      "action": "The text introduces a blessing from Enoch, the prophet. This blessing is for a future generation—the elect and righteous—who will be present during a 'Day of Tribulation' when all wicked and godless individuals will be removed.",
+      "actorsInvolved": [
+        "Enoch",
+        "The Elect and The Righteous",
+        "The Wicked and The Godless"
+      ]
+    }
+  ],
   "blocking": {
     "anchors": [],
     "paths": []

@@ -1,1 +1,49 @@
-{"actors":[],"props":[],"environments":[],"scenes":[],"blocking":{"anchors":[],"paths":[]}}
+```json
+{
+  "actors": [],
+  "characters": [
+    {
+      "name": "Narrator",
+      "visualTraits": "unknown",
+      "changes": [],
+      "role": "speaker/seer"
+    },
+    {
+      "name": "Men",
+      "visualTraits": "unknown",
+      "changes": [],
+      "role": "audience/receivers"
+    },
+    {
+      "name": "Watchers",
+      "visualTraits": "unknown",
+      "changes": [],
+      "role": "subject of rebuke"
+    }
+  ],
+  "props": [
+    {
+      "name": "Book",
+      "visualTraits": "unknown",
+      "changes": [],
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [],
+  "environments": [],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "Declaration of the Vision",
+      "location": "Unknown",
+      "action": "An unnamed Narrator describes seeing a great vision ('ራእይ') and declares its content, which is a book of righteousness and rebuke concerning the Watchers. Men are expected to speak about it and understand it with their hearts.",
+      "actorsInvolved": ["Narrator", "Men", "Watchers"]
+    }
+  ],
+  "blocking": {
+    "anchors": [],
+    "paths": []
+  }
+}
+```

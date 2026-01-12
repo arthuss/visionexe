@@ -2,22 +2,26 @@
   "evaluation": [
     {
       "hypothesis_ref": "S6_P1",
-      "plausibility": "high",
-      "reasoning": "The fronting of 'the murder of their beloved ones' (ቀትለ፡ፍቁራኒሆሙ) before the verb 'they shall see' is a crucial stylistic feature correctly identified. The chiastic structure of the judgment is preserved.",
+      "plausibility": "medium",
+      "reasoning": "The description 'Fronted Object with Consequences' is semantically astute, capturing the rhetorical emphasis on the 'slaughter'. However, the bracket notation is imprecise regarding the verb's placement. While simplified, the parse correctly groups the sequence of consequences (seeing slaughter, lamenting, petitioning) and the final, overriding judgment (no mercy or peace). The core meaning is preserved.",
       "parallels": [
         {
-          "ref": "1 Enoch 12:6",
-          "note": "Matches the specific punishment of witnessing the mutual destruction of the Giants."
+          "ref": "1 Enoch 14:6",
+          "note": "'...you will not have peace.'"
+        },
+        {
+          "ref": "Missing",
+          "note": "While the themes of judgment are pervasive, a direct syntactic parallel for this specific sequence of lament and petition followed by denial is not immediately attested in the primary Enochic corpus, though the sentiment is consistent."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "For they shall not rejoice in their children; the murder of their beloved ones they shall see, and over the destruction of their children they shall lament..."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "The focus on the object 'murder' in the dependency tree aligns with the emphatic nature of the Ge'ez text.",
+  "decision_log": "The parse captures the correct semantic flow, especially the fronting of the object for emphasis, but is syntactically loose. Given the 'coarse-grained' approach, it is an acceptable, if not perfect, model. The lack of a direct structural parallel makes this parse slightly less certain than the others, but the thematic content is strongly attested.",
   "final_decision": {
     "hypothesis_ref": "S6_P1",
-    "translation_id": "T1",
-    "confidence": "high"
+    "translation_id": "T6",
+    "confidence": "moderate"
   }
 }

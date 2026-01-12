@@ -3,18 +3,22 @@
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "Corresponds to 1 Enoch 9:3. The vocative address to the 'holy ones of heaven' and the plea for judgment are clear.",
+      "reasoning": "The parse correctly identifies the main verb 'ይሰዩ' ('they make suit/appeal') and the surrounding adjuncts. It properly structures the vocative address ('to you, O holy ones') and the circumstantial clause ('እንዘ፡ይብሉ', 'while saying') that introduces the direct quotation. This is a classic construction for recording a petition.",
       "parallels": [
         {
-          "ref": "1 Enoch 9:3",
-          "note": null
+          "ref": "Tobit 12:15",
+          "note": "Depicts angels ('the seven holy angels') who 'present the prayers of the saints' before God, which is precisely the intercessory role shown here."
+        },
+        {
+          "ref": "Zechariah 1:12",
+          "note": "An angel intercedes on behalf of Jerusalem, asking God for mercy, showing a clear parallel of angelic appeal."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "And now to you, holy ones of heaven, the souls of men appeal, saying: Bring our judgment before the Most High."
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Syntactic analysis of the speech introduction and content is correct.",
+  "decision_log": "The parse aligns perfectly with the grammatical structure and the well-documented theme of angelic intercession. Confidence is high.",
   "final_decision": {
     "hypothesis_ref": "S1",
     "translation_id": "T1",

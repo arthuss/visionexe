@@ -1,9 +1,46 @@
 ```json
 {
-  "actors": [],
+  "actors": [
+    {
+      "name": "God",
+      "visualTraits": "unspecified",
+      "changes": [],
+      "role": "creator_of_works"
+    }
+  ],
+  "characters": [
+    {
+      "name": "The Observers",
+      "visualTraits": "unspecified",
+      "changes": [],
+      "role": "audience"
+    }
+  ],
   "props": [],
+  "places": [],
+  "locations": [
+    {
+      "name": "The Earth",
+      "visualTraits": [
+        "Its work is unchanging from the beginning to the end."
+      ],
+      "changes": [],
+      "role": "domain_of_observation"
+    }
+  ],
   "environments": [],
-  "scenes": [],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Unchanging Works on Earth",
+      "location": "The Earth",
+      "action": "The Observers are instructed to see and understand the Earth, noting that its work does not change from the beginning to the end, as the works of God are made manifest.",
+      "actorsInvolved": [
+        "The Observers",
+        "God"
+      ]
+    }
+  ],
   "blocking": {
     "anchors": [],
     "paths": []

@@ -2,15 +2,15 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Narrative Sequence",
-        "bracket_notation": "[S [VP t5] [NP t6] [NP t7] [RelCl t8]]",
+        "id": "seg017_flat",
+        "structure_type": "Flat Phrase/Clause Chain",
+        "bracket_notation": "[S [CONJ_U t5] [U t6] [U t7] [REL_U t8]]",
         "dependencies": [
-          "t5->t6 (object)",
-          "t6->t7 (description)",
-          "t7->t8 (relative)"
+          "t5 -> t6 (sequence)",
+          "t6 -> t7 (sequence)",
+          "t7 -> t8 (adjunct:relative)"
         ],
-        "notes": "Seeing the high throne."
+        "notes": "Parse based on sequential relationship with dependencies from initial markers."
       }
     ]
   }

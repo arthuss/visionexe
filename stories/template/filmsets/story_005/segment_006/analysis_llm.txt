@@ -1,9 +1,49 @@
 ```json
 {
   "actors": [],
+  "characters": [
+    {
+      "name": "The Righteous",
+      "visualTraits": "unknown",
+      "changes": [],
+      "role": "group"
+    },
+    {
+      "name": "The Sinners",
+      "visualTraits": "unknown",
+      "changes": [],
+      "role": "group"
+    }
+  ],
   "props": [],
-  "environments": [],
-  "scenes": [],
+  "places": [],
+  "locations": [],
+  "environments": [
+    {
+      "name": "Those Days",
+      "visualTraits": "A prophesied time of judgment.",
+      "changes": [],
+      "role": "temporal_setting"
+    },
+    {
+      "name": "Eternity",
+      "visualTraits": "The state of everlasting fate following judgment.",
+      "changes": [],
+      "role": "temporal_setting"
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "Chapter 5 Segment 6: A Prophecy of Fates",
+      "location": "Abstract prophetic space",
+      "action": "A prophecy declares that in 'those days,' peace will be given to the righteous, while the sinners will be cursed for eternity, sharing a common fate.",
+      "actorsInvolved": [
+        "The Righteous",
+        "The Sinners"
+      ]
+    }
+  ],
   "blocking": {
     "anchors": [],
     "paths": []

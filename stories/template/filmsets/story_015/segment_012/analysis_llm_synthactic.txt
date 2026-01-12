@@ -2,15 +2,15 @@
   "syntax": {
     "parses": [
       {
-        "id": "S12_P1",
-        "structure_type": "Negative Verbal Clause with Cause",
-        "bracket_notation": "[S [V t5] [PREP t6] [N t7] [N t8]]",
+        "id": "P1",
+        "structure_type": "Verbal Clause with Subordinate Reason Clause",
+        "bracket_notation": "[S [VP t5 [NP-SUBJ (part of t5)] [PP t6]]] [S-REASON [CONJ (part of t7)] [VP t7 [PP t8]]]",
         "dependencies": [
-          "t5 -> t6 (target/adversative)",
-          "t5 -> t7 (cause)",
-          "t7 -> t8 (modifier/time)"
+          "t5->t6 (prepositional_complement)",
+          "t5->t7 (reason_clause)",
+          "t7->t8 (prepositional_complement)"
         ],
-        "notes": "t5 'They will not rise' (or similar negative action). t7 'because they came forth' provides the reason."
+        "notes": "A main clause stating that 'these spirits' will rise up against people, followed by a subordinate clause explaining they came from a time of destruction."
       }
     ]
   }

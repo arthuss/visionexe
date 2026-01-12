@@ -2,22 +2,22 @@
   "evaluation": [
     {
       "hypothesis_ref": "P1",
-      "plausibility": "High",
-      "reasoning": "The segment follows the standard 1 Enoch 17:1 narrative structure: a journey to a specific place ('they took me'), a description of its inhabitants ('like burning fire'), and their shapeshifting capability ('when they wished, they appeared like men'). The textual abbreviations ('መ' for 'ከመ', 'ወሶ' for 'ወሶበ') are noted but the syntax is standard. The Complex Sentence structure in P1 accurately maps the main clause and the temporal/conditional sub-clauses.",
+      "plausibility": "high",
+      "reasoning": "The parse correctly identifies a complex sentence structure. `ወነሥኡኒ` (and they took me) is the main clause, followed by a prepositional phrase `ውስተ፡፩መን` (to a place). This location is modified by a relative clause introduced by `እለ` (who/which), describing 'beings of fire' (`መ፡እሳት`). The following verbs `ይነድድ` (it burns) and the clause `ወሶ፡ይፈቅዱ፡ያስተርእዩ` (and when they wish, they appear) correctly describe the actions and nature of these beings. This structure is consistent with Ge'ez narrative syntax.",
       "parallels": [
         {
-          "ref": "1 Enoch 17:1",
-          "note": "Attested in standard Ethiopic MSS (e.g., Abbadian 55). Corresponds to Greek fragment 'καὶ παρέλαβόν με εἰς ἕνα τόπον...'."
+          "ref": "1 Enoch passim",
+          "note": "The use of `እለ` to introduce relative clauses modifying a noun (here, an implied 'beings' in the place) is a foundational element of Ge'ez syntax, frequently attested in visionary texts like 1 Enoch."
         }
       ],
-      "context_invariance": "Stable",
-      "back_translation": "And they took me to a certain place where there were [beings] like burning fire, and when they wished, they appeared like men."
+      "context_invariance": "stable",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "Confirmed against critical text of 1 Enoch 17:1. Structural parse supports the semantic dependencies.",
+  "decision_log": "The proposed parse (P1) accurately models the relationships between the main verb, the locative phrase, and the subsequent descriptive relative and temporal clauses. The dependencies are logical and reflect standard Ge'ez grammar.",
   "final_decision": {
     "hypothesis_ref": "P1",
-    "translation_id": "T1",
-    "confidence": "High"
+    "translation_id": "TBD",
+    "confidence": "high"
   }
 }

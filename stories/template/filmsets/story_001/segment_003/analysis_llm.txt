@@ -2,55 +2,73 @@
 {
   "actors": [
     {
-      "name": "ኅሩያን",
-      "visualTraits": null,
-      "changes": null,
-      "role": "subject"
+      "name": "The Holy and Great One",
+      "visualTraits": "A divine being described as 'Holy' and 'Great'. The text does not provide further visual details.",
+      "changes": [],
+      "role": "The primary actor who will initiate a major event by emerging from his dwelling."
     },
     {
-      "name": "እቤ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "subject"
-    },
+      "name": "Enoch",
+      "visualTraits": "A righteous man who is receiving and relaying a divine vision (inferred from previous_segment_context).",
+      "changes": [],
+      "role": "Narrator"
+    }
+  ],
+  "characters": [
     {
-      "name": "ቅዱስ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "subject"
-    },
-    {
-      "name": "ወዓቢይ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "subject"
-    },
-    {
-      "name": "እማኅደሩ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "subject"
+      "name": "The Elect",
+      "visualTraits": "A future generation for whom this prophecy is intended (inferred from previous_segment_context).",
+      "changes": [],
+      "role": "Subject of the discourse"
     }
   ],
   "props": [],
+  "places": [
+    {
+      "name": "His Dwelling",
+      "visualTraits": "The holy habitation of 'The Holy and Great One'. Its appearance is not described.",
+      "changes": [],
+      "role": "The starting point of the theophany."
+    },
+    {
+      "name": "The World",
+      "visualTraits": "The entire world, which will be filled or encompassed by the event.",
+      "changes": [],
+      "role": "The scope of the event's influence."
+    }
+  ],
+  "locations": [],
   "environments": [],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 1 Segment 3",
-      "location": null,
-      "action": null,
+      "title": "The Coming of the Holy and Great One",
+      "location": "A visionary or prophetic space.",
+      "action": "Enoch continues his discourse concerning 'The Elect' and proclaims that 'The Holy and Great One' will come forth from his dwelling, and his arrival will encompass the world.",
       "actorsInvolved": [
-        "ኅሩያን",
-        "እቤ",
-        "ቅዱስ",
-        "ወዓቢይ",
-        "እማኅደሩ"
+        "Enoch",
+        "The Holy and Great One",
+        "The Elect"
       ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "his_dwelling",
+        "description": "The dwelling of The Holy and Great One, which serves as the origin point of the movement."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "The Holy and Great One",
+        "start_anchor": "his_dwelling",
+        "end_anchor": null,
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "The text describes the act of 'going out' ('yewṣe') from the dwelling, signifying a divine appearance or intervention into the world."
+      }
+    ]
   }
 }
 ```

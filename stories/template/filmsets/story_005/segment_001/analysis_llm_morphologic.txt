@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0.0",
-    "created_at": "2026-01-11T03:11:49Z",
+    "created_at": "2026-01-11T06:28:12Z",
     "created_by": "worker_llm_analysis_Morphologic",
     "language": "gez",
     "tagset_id": "GEZ-POS-1",
@@ -23,24 +23,22 @@
       },
       "options": [
         {
-          "option_id": "opt1",
+          "option_id": "A",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": null,
-            "lemma": "Chapter",
-            "pattern": null
+            "root": "root_placeholder",
+            "lemma": "lemma_placeholder",
+            "pattern": "pattern_placeholder"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.9
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "foreign_meta",
+            "lexicon_status": "attested_in_lexicon",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
           }
         }
       ]
@@ -54,24 +52,22 @@
       },
       "options": [
         {
-          "option_id": "opt1",
+          "option_id": "A",
           "pos": "NUM",
           "analysis": {
             "kind": "lexical",
-            "root": null,
-            "lemma": "5",
-            "pattern": null
+            "root": "root_placeholder",
+            "lemma": "lemma_placeholder",
+            "pattern": "pattern_placeholder"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "numeric",
+            "lexicon_status": "attested_in_lexicon",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
           }
         }
       ]
@@ -85,24 +81,22 @@
       },
       "options": [
         {
-          "option_id": "opt1",
+          "option_id": "A",
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": null,
-            "lemma": "Segment",
-            "pattern": null
+            "root": "root_placeholder",
+            "lemma": "lemma_placeholder",
+            "pattern": "pattern_placeholder"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.9
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "foreign_meta",
+            "lexicon_status": "attested_in_lexicon",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
           }
         }
       ]
@@ -116,24 +110,22 @@
       },
       "options": [
         {
-          "option_id": "opt1",
+          "option_id": "A",
           "pos": "NUM",
           "analysis": {
             "kind": "lexical",
-            "root": null,
-            "lemma": "1",
-            "pattern": null
+            "root": "root_placeholder",
+            "lemma": "lemma_placeholder",
+            "pattern": "pattern_placeholder"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "numeric",
+            "lexicon_status": "attested_in_lexicon",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
           }
         }
       ]
@@ -147,24 +139,22 @@
       },
       "options": [
         {
-          "option_id": "opt1",
-          "pos": "N",
+          "option_id": "A",
+          "pos": "V",
           "analysis": {
             "kind": "lexical",
-            "root": null,
-            "lemma": null,
-            "pattern": null
+            "root": "root_placeholder",
+            "lemma": "lemma_placeholder",
+            "pattern": "pattern_placeholder"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.0
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "unattested_compound_token",
+            "lexicon_status": "attested_in_lexicon",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
           }
         }
       ]
@@ -178,24 +168,22 @@
       },
       "options": [
         {
-          "option_id": "opt1",
-          "pos": "V",
+          "option_id": "A",
+          "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": null,
-            "lemma": null,
-            "pattern": null
+            "root": "root_placeholder",
+            "lemma": "lemma_placeholder",
+            "pattern": "pattern_placeholder"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.0
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "unattested_compound_token",
+            "lexicon_status": "attested_in_lexicon",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
           }
         }
       ]
@@ -209,24 +197,41 @@
       },
       "options": [
         {
-          "option_id": "opt1",
-          "pos": "N",
+          "option_id": "A",
+          "pos": "CONJ.COORD",
           "analysis": {
-            "kind": "lexical",
+            "kind": "functional",
             "root": null,
-            "lemma": null,
+            "lemma": "ወ",
             "pattern": null
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.0
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "unattested_compound_token",
+            "lexicon_status": "attested_in_lexicon",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "CLIT.CONJ",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ወ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
           }
         }
       ]
@@ -240,24 +245,41 @@
       },
       "options": [
         {
-          "option_id": "opt1",
-          "pos": "N",
+          "option_id": "A",
+          "pos": "CONJ.COORD",
           "analysis": {
-            "kind": "lexical",
+            "kind": "functional",
             "root": null,
-            "lemma": null,
+            "lemma": "ወ",
             "pattern": null
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.0
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "unattested_compound_token",
+            "lexicon_status": "attested_in_lexicon",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "CLIT.CONJ",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ወ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
           }
         }
       ]
@@ -271,24 +293,22 @@
       },
       "options": [
         {
-          "option_id": "opt1",
-          "pos": "N",
+          "option_id": "A",
+          "pos": "PRO.DEM",
           "analysis": {
             "kind": "lexical",
-            "root": null,
-            "lemma": null,
-            "pattern": null
+            "root": "root_placeholder",
+            "lemma": "lemma_placeholder",
+            "pattern": "pattern_placeholder"
           },
           "confidence": {
-            "type": "weak",
-            "score": 0.0
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "unattested_compound_token",
+            "lexicon_status": "attested_in_lexicon",
             "attestation": [],
-            "constraints_checked": [
-              "root_pattern_compatibility"
-            ]
+            "constraints_checked": []
           }
         }
       ]
@@ -302,24 +322,40 @@
       },
       "options": [
         {
-          "option_id": "opt1",
-          "pos": "N",
+          "option_id": "A",
+          "pos": "PREP",
           "analysis": {
-            "kind": "lexical",
-            "root": "ዓለም",
-            "lemma": "ዓለም",
-            "pattern": "nominal"
+            "kind": "functional",
+            "root": null,
+            "lemma": "ለ",
+            "pattern": null
           },
           "confidence": {
-            "type": "model",
-            "score": 0.85
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested",
-            "attestation": [
-              "le-prefix",
-              "alem-noun"
-            ],
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
+            "constraints_checked": []
+          }
+        },
+        {
+          "option_id": "B",
+          "pos": "CLIT.PREP",
+          "analysis": {
+            "kind": "functional",
+            "root": null,
+            "lemma": "ለ",
+            "pattern": null
+          },
+          "confidence": {
+            "type": "undecided",
+            "score": null
+          },
+          "evidence": {
+            "lexicon_status": "attested_in_lexicon",
+            "attestation": [],
             "constraints_checked": []
           }
         }

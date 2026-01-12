@@ -2,17 +2,18 @@
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Descriptive Narrative",
-        "bracket_notation": "[S [VP t5] [NP t6] [VP t6] [PP t6] [NP [NP t7] [PART t8] [NP t9] [NP t10]] [S [NP t11]]]",
+        "id": "seg009_flat",
+        "structure_type": "Flat Phrase/Clause Chain",
+        "bracket_notation": "[S [CONJ_U t5] [CONJ_U t6] [REL_U t7] [U t8] [CONJ_U t9] [U t10] [CONJ_U t11]]",
         "dependencies": [
-          "t5->t6 (coordination/sequence)",
-          "t6->t7 (apposition/modifier)",
-          "t7->t9 (description)",
-          "t9->t10 (genitive)",
-          "t9->t11 (coordination)"
+          "t5 -> t6 (coordination)",
+          "t6 -> t7 (adjunct:relative)",
+          "t7 -> t8 (sequence)",
+          "t8 -> t9 (coordination)",
+          "t9 -> t10 (sequence)",
+          "t10 -> t11 (coordination)"
         ],
-        "notes": "Entry and description of the wall materials."
+        "notes": "Parse based on sequential relationship with dependencies from initial markers."
       }
     ]
   }

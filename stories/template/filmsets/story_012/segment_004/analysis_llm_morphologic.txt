@@ -1,7 +1,7 @@
 {
   "meta": {
     "schema_version": "1.0.0",
-    "created_at": "2026-01-11T03:29:50Z",
+    "created_at": "2026-01-11T06:41:14Z",
     "created_by": "worker_llm_analysis_Morphologic",
     "language": "gez",
     "tagset_id": "GEZ-POS-1",
@@ -28,16 +28,16 @@
           "analysis": {
             "kind": "lexical",
             "root": "chapter",
-            "lemma": "Chapter",
-            "pattern": "N"
+            "lemma": "chapter",
+            "pattern": "foreign"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": "Meta",
+            "lexicon_status": "not_in_lexicon",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -58,15 +58,15 @@
             "kind": "lexical",
             "root": "12",
             "lemma": "12",
-            "pattern": "NUM"
+            "pattern": "foreign"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": "Meta",
+            "lexicon_status": "not_in_lexicon",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -86,16 +86,16 @@
           "analysis": {
             "kind": "lexical",
             "root": "segment",
-            "lemma": "Segment",
-            "pattern": "N"
+            "lemma": "segment",
+            "pattern": "foreign"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": "Meta",
+            "lexicon_status": "not_in_lexicon",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -116,15 +116,15 @@
             "kind": "lexical",
             "root": "4",
             "lemma": "4",
-            "pattern": "NUM"
+            "pattern": "foreign"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.99
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
-            "lexicon_status": "attested_in_lexicon",
-            "attestation": "Meta",
+            "lexicon_status": "not_in_lexicon",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -140,20 +140,20 @@
       "options": [
         {
           "option_id": "A",
-          "pos": "V",
+          "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "HR",
-            "lemma": "ሖረ",
-            "pattern": "hur"
+            "root": "√ṣdq",
+            "lemma": "ጽድቅ",
+            "pattern": "N+N+N+V"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.8
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": "imperative",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -172,17 +172,17 @@
           "pos": "V",
           "analysis": {
             "kind": "lexical",
-            "root": "YD'",
-            "lemma": "አይድዐ",
-            "pattern": "ayde'"
+            "root": "√yd'",
+            "lemma": "አודיዐ",
+            "pattern": "V+PREP+N+N+PRO.REL"
           },
           "confidence": {
-            "type": "medium",
-            "score": 0.7
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": "phrase_head",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -201,17 +201,17 @@
           "pos": "V",
           "analysis": {
             "kind": "lexical",
-            "root": "HDG",
+            "root": "√hdg",
             "lemma": "ኀደገ",
-            "pattern": "hadagu"
+            "pattern": "V+N+ADJ+CONJ+N"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.9
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": "phrase_head",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -227,20 +227,20 @@
       "options": [
         {
           "option_id": "A",
-          "pos": "ADJ",
+          "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "QDS",
-            "lemma": "ቅዱስ",
-            "pattern": "qiddus"
+            "root": "√'lm",
+            "lemma": "ዓለም",
+            "pattern": "ADJ+PART.REL+N+CONJ+PREP"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.8
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": "phrase_head",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -259,17 +259,17 @@
           "pos": "V",
           "analysis": {
             "kind": "lexical",
-            "root": "MSN",
+            "root": "√msn",
             "lemma": "ማሰነ",
-            "pattern": "masanu"
+            "pattern": "N+V+CONJ+V+PART.REL"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.8
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": "phrase_component",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -288,17 +288,17 @@
           "pos": "V",
           "analysis": {
             "kind": "lexical",
-            "root": "GBR",
+            "root": "√gbr",
             "lemma": "ገብረ",
-            "pattern": "yigebru"
+            "pattern": "V+N+N+CONJ+V"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.8
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": "phrase_head",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -317,17 +317,17 @@
           "pos": "V",
           "analysis": {
             "kind": "lexical",
-            "root": "MSN",
+            "root": "√msn",
             "lemma": "ማሰነ",
-            "pattern": "wa-masanu"
+            "pattern": "CLIT.PRON+N+CONJ+V+ADJ"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.8
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": "phrase_component",
+            "attestation": [],
             "constraints_checked": []
           }
         }
@@ -346,17 +346,17 @@
           "pos": "N",
           "analysis": {
             "kind": "lexical",
-            "root": "MSN",
-            "lemma": "ሙስና",
-            "pattern": "musina"
+            "root": "√mdr",
+            "lemma": "ምድር",
+            "pattern": "N+?+N"
           },
           "confidence": {
-            "type": "high",
-            "score": 0.9
+            "type": "undecided",
+            "score": null
           },
           "evidence": {
             "lexicon_status": "attested_in_lexicon",
-            "attestation": "phrase_head",
+            "attestation": [],
             "constraints_checked": []
           }
         }
