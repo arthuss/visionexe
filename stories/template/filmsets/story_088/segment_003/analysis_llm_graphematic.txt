@@ -1,21 +1,44 @@
+```json
 {
   "source": {
-    "witness_id": "story_088/segment_003",
-    "graphematic_string": "ወሶ፡ርኢኩ፡ዘንተ፡ራእይ፡\nወነዋ፡እን፡ሐዱ፡እምእልኩ፡\nርባ ቱ፡እምእለ፡ወጽኡ፡\nወወገረ፡እምሰማይ፡\nወስተጋብኡ፡ወነሥኡ፡ሎ፡\nዋብት፡ዐቢያነ፡እለ፡\nኀፍረቶሙ፡መ፡ኃፍረተ፡\nፍራስ፡ወሠሮሙ፡ለሎሙ፡\nእደዊሆሙ፡ወእገሪሆሙ፡\nወወደዮሙ፡ንቅዐተ፡ምድር፨",
+    "witness_id": "chapter_XXX/segment_YYY",
+    "graphematic_string": "ወርኢኩ፡¡ሐዱ፡እምእልኩ፡ ርዕቱ፡እለ፡ወፅኡ፡እምቀዳሚ፡ ወ¡ዘ፡ለዝኩ፡œ…ብ፡ቀዳማይ፡ ዘወድቀ፡እምሰማይ፡ወ¡ሰሮ፡ እደዊሁ፡ወእገሪሁ፡ወወደዮ፡ ውስተ፡ማዕምቅ፨ወዝኩ፡ ማዕምቅ፡ጸቢብ፡ወዕሙቅ፡ወዕፅ፡ ወጽልመት፡ወ¡ሐዱ፡እምµሆሙ፡መልሐ፡ ሰይፎ፡ወወሀቦሙ፡ለእልኩ፡ ንገያት፡ወ¡እዱግ፡ወ¡ኀዙ፡ እንዘ፡ይጐድኦ፡¡ሐዱ፡ለÃልኡ፡ ወ÷ላ፡ምድር፡¡ንቀልቀለት፡ ዲቤሆሙ፨ወሶÅ፡ርኢኩ፡ዘንተ፡Åራእይ፡ ወነዋ፡እን…፡¡ሐዱ፡እምእልኩ፡ ርባ ቱ፡እምእለ፡ወጽኡ፡ ወወገረ፡እምሰማይ፡ ወ¡ስተጋብኡ፡ወነሥኡ፡÷ሎ፡ ዋŒብት፡ዐቢያነ፡እለ፡ ኀፍረቶሙ፡…መ፡ኃፍረተ፡ ፍራስ፡ወ¡ሠሮሙ፡ለ÷ሎሙ፡ እደዊሆሙ፡ወእገሪሆሙ፡ ወወደዮሙ፡Åንቅዐተ፡ምድር፨",
     "normalization_policy": "none",
     "punctuation_markers": [
       "፡",
-      "፨"
+      "¡",
+      "፨",
+      "÷"
     ],
     "removed_artifacts": [
-      "segment_header"
+      "line_numbering"
     ],
     "uncertainties": [
       {
-        "type": "spacing",
-        "description": "Internal space in 'ርባ ቱ'",
-        "position": "line 3"
+        "span": {
+          "start": 46,
+          "end": 47
+        },
+        "type": "damaged",
+        "note": "Illegible characters represented by '…'."
+      },
+      {
+        "span": {
+          "start": 265,
+          "end": 266
+        },
+        "type": "damaged",
+        "note": "Illegible characters represented by '…'."
+      },
+      {
+        "span": {
+          "start": 339,
+          "end": 340
+        },
+        "type": "damaged",
+        "note": "Illegible characters represented by '…'."
       }
     ]
   }
 }
+```

@@ -1,12 +1,182 @@
 ```json
 {
-  "actors": [],
+  "actors": [
+    {
+      "name": "Enoch (narrator)",
+      "visualTraits": {
+        "description": "The first-person narrator of the vision."
+      },
+      "changes": null,
+      "role": "protagonist"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Combatants",
+      "visualTraits": {
+        "description": "Unspecified beings on Earth."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: dynamic",
+          "description": "Engaged in mutual conflict, striking one another."
+        }
+      ],
+      "role": "antagonist_group"
+    },
+    {
+      "name": "Four White Beings",
+      "visualTraits": {
+        "description": "Beings in the likeness of white men who emerge from heaven. The semantic analysis confirms the total number is four, appearing sequentially (1+3)."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: dynamic",
+          "description": "Emerge from heaven and appear on Earth."
+        }
+      ],
+      "role": "guide_group"
+    },
+    {
+      "name": "Three White Beings",
+      "visualTraits": {
+        "description": "A subset of the Four White Beings, described as those who 'came out last'. They are in the likeness of white men."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: dynamic",
+          "description": "Seize the narrator's hand and lift him from the Earth."
+        }
+      ],
+      "role": "guide_group"
+    }
+  ],
   "props": [],
+  "places": [
+    {
+      "name": "Heaven",
+      "visualTraits": {
+        "description": "The sky, from which the white beings emerge."
+      },
+      "changes": null,
+      "role": "origin_point"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Earth",
+      "visualTraits": {
+        "description": "The ground or world where the initial conflict takes place."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: dynamic",
+          "description": "The Earth is personified as crying out."
+        }
+      ],
+      "role": "setting"
+    },
+    {
+      "name": "High Place",
+      "visualTraits": {
+        "description": "A high location to which the narrator is lifted."
+      },
+      "changes": null,
+      "role": "vantage_point"
+    },
+    {
+      "name": "High Tower",
+      "visualTraits": {
+        "description": "A high tower shown to the narrator."
+      },
+      "changes": null,
+      "role": "landmark"
+    },
+    {
+      "name": "Hill",
+      "visualTraits": {
+        "description": "A hill that, from the vantage of the high tower, 'stood low'. This interpretation is based on the semantic analysis resolving a potential contradiction."
+      },
+      "changes": null,
+      "role": "landscape_feature"
+    }
+  ],
   "environments": [],
-  "scenes": [],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "Conflict on Earth",
+      "location": "Earth",
+      "action": "The narrator observes beings on Earth fighting one another, and the Earth itself cries out.",
+      "actorsInvolved": [
+        "Enoch (narrator)",
+        "Combatants"
+      ]
+    },
+    {
+      "title": "Arrival from Heaven",
+      "location": "Earth",
+      "action": "The narrator looks up to heaven and sees a vision of four white beings, in the likeness of men, emerging.",
+      "actorsInvolved": [
+        "Enoch (narrator)",
+        "Four White Beings"
+      ]
+    },
+    {
+      "title": "Ascension to the Tower",
+      "location": "Earth -> High Place",
+      "action": "Three of the white beings seize the narrator, lift him from the Earth to a high place, and show him a high tower from which the surrounding hill appears low.",
+      "actorsInvolved": [
+        "Enoch (narrator)",
+        "Three White Beings"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "earth",
+        "description": "The surface of the Earth, the initial setting and starting point for the narrator's ascension."
+      },
+      {
+        "id": "heaven",
+        "description": "The sky, the origin point of the white beings."
+      },
+      {
+        "id": "high_place",
+        "description": "A high elevation point, the destination of the narrator's ascension."
+      },
+      {
+        "id": "high_tower",
+        "description": "A tall structure located at or near the 'high_place', serving as a new vantage point."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Four White Beings",
+        "start_anchor": "heaven",
+        "end_anchor": "earth",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "The beings 'came out from heaven'."
+      },
+      {
+        "actor": "Enoch (narrator)",
+        "start_anchor": "earth",
+        "end_anchor": "high_place",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Was seized by the hand and lifted from the Earth by the Three White Beings."
+      },
+      {
+        "actor": "Three White Beings",
+        "start_anchor": "earth",
+        "end_anchor": "high_place",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Lifted the narrator from the Earth to the high place."
+      }
+    ]
   }
 }
 ```

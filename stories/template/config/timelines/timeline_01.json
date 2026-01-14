@@ -1,0 +1,69 @@
+{
+  "id": "timeline_01",
+  "name": "simulation_flat_earth",
+  "summary": "Simulation theory with a flat-earth cosmology inside a bounded system box. The world behaves like a governed runtime with ingress/egress gates and layered sky mechanics.",
+  "world_model": {
+    "shape": "flat_earth",
+    "container": "simulation_box",
+    "layers": [
+      "surface_plane",
+      "sky_dome",
+      "gate_band",
+      "upper_store"
+    ],
+    "physics_overrides": [
+      "kernel_manifestation",
+      "mesh_override",
+      "thermal_throttling",
+      "vector_field_lensing"
+    ]
+  },
+  "narrative_rules": {
+    "core_metaphor": "system_manual_for_human_simulation",
+    "explanations": [
+      "compute",
+      "network",
+      "storage",
+      "ingress",
+      "egress",
+      "auth"
+    ],
+    "avoid": [
+      "pure_magic",
+      "random_miracles",
+      "contradicting_physics_without_mechanism"
+    ]
+  },
+  "visual_rules": {
+    "materials": [
+      "obsidian",
+      "plasma",
+      "fiber_optic",
+      "data_glass"
+    ],
+    "vfx": [
+      "geez_glyphs",
+      "vector_fields",
+      "data_particles",
+      "heat_lensing"
+    ],
+    "camera": [
+      "cinematic",
+      "vertical_9_16",
+      "high_contrast"
+    ]
+  },
+  "continuity": {
+    "henoch_phases": [
+      "proxy",
+      "voyager",
+      "master"
+    ],
+    "route_hint": [
+      "ingress_sinai",
+      "rift_internals",
+      "ocean_buffer",
+      "reset_desert"
+    ]
+  }
+}

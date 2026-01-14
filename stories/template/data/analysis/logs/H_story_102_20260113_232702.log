@@ -1,0 +1,11 @@
+﻿[2026-01-13 23:27:02] START engine/workers/worker_llm_analysis_semantic-historical.py 102 --per-segment --use-vertex --vertex-model gemini-2.5-pro --vertex-project wallpaper-management-hub --vertex-location europe-west4 --force
+[23:27:02] Force enabled: Ignoring previous progress.
+[23:27:02] LLM: Vertex (model=gemini-2.5-pro, project=wallpaper-management-hub, location=europe-west4)
+[23:27:02] Filmsets: C:\Users\sasch\visionexe\stories\template\filmsets
+[23:27:02] Progress CSV: C:\Users\sasch\visionexe\stories\template\data\analysis\analysis_progress_python_semantic_historical_v2.csv
+[23:27:02] Chapter Label: story
+[23:27:02] Found 108 chapters.
+[23:28:00] Analyzed story_102 (58.1s).
+[23:28:00] Wrote analysis to 16 folders.
+[23:28:00] All tasks completed.
+[2026-01-13 23:28:00] EXIT 0

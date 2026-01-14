@@ -1,18 +1,17 @@
-{
-  "syntax": {
-    "parses": [
-      {
-        "id": "S2.A",
-        "structure_type": "Verb Phrase with Coordinated Complements",
-        "bracket_notation": "[S [VP [V (in t5)] [PP [NP (in t5)] [SBAR [REL (in t6)]]] [CONJ (in t6)] [PP [NP (in t6)] [SBAR [REL t7] [S [VP t8]]]]]]",
-        "dependencies": [
-          "t5 -> t6 (coord-comp)",
-          "t5 <- (REL in t6) (adj-clause)",
-          "t6 <- t7 (adj-clause)",
-          "t7 <- t8 (predicate)"
-        ],
-        "notes": "The main verb in t5 governs two coordinated prepositional phrases. The first is 'to a place of a whirlwind' (t5, t6). The second is 'and to a mountain whose summit reaches to heaven' (t6, t7, t8)."
-      }
-    ]
-  }
-}
+An enumeration of all valid syntactic parses for the provided Ge'ez text, following the specified scientific rules.
+
+### Principles of Analysis
+
+1.  **No Ambiguity Reduction**: All syntactically valid structural ambiguities are presented as distinct parses. This includes ambiguities in coordination scope, adjunct attachment, and the relationship between clauses (e.g., apposition vs. coordination).
+2.  **Token Fidelity**: The analysis respects the provided tokenization. The internal structure of each sentence-token is analyzed, but the token itself is the unit of reference. Words within the `surface` string of a token are treated as the terminal nodes of the parse trees.
+3.  **Formal Notation**: Each parse is represented using bracket notation to show constituency and a list of head-dependent relations to specify the grammatical functions.
+4.  **No World Knowledge**: The analysis is based exclusively on the grammatical properties of Ge'ez, without recourse to semantic plausibility or external context.
+
+---
+
+### Syntactic Analysis
+
+The analysis is provided for each token containing Ge'ez sentential or clausal text. Verse number tokens (`t1`, `t3`, `t5`, `t7`, `t9`, `t11`, `t13`, `t15`) are treated as extra-syntactic labels and are not included in the syntactic structures.
+
+#### **Token: t2**
+*   **Surface**: `ወነሥኡኒ፡​ውስተ፡​፩መካን፡​ኀበ፡​ሀለዉ፡​ህየ፡​ከመ፡

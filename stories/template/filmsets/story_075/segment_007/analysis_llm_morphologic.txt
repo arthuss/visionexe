@@ -1,0 +1,17 @@
+An analysis of the provided Ge'ez text, adhering to the specified scientific rules and outputting a JSON object that conforms to the `gez_morphology.schema.json` schema.
+
+The provided tokenization appears to be based on line breaks or another non-linguistic criterion, resulting in many tokens being concatenations of multiple words, punctuation, and word fragments. According to the rule "Use the provided tokens as-is; do not create or merge tokens," this analysis processes each string as a single unit. For these concatenated tokens, the analysis is based on the first complete linguistic unit (word) found at the beginning of the token string. A note is added to the evidence for each such case to document the token's composite nature and the resulting limitation of the analysis. This approach is a necessary compromise to satisfy the conflicting constraints of performing a "rigorous, scientific" analysis while strictly adhering to the given tokenization.
+
+```json
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2024-07-30T12:00:00Z",
+    "created_by": "llm",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_075",
+    "graphematic_string": "75:1 መራ

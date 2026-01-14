@@ -1,0 +1,16 @@
+An analysis of the Ge'ez text provided, following the specified scientific rules.
+
+### Methodological Note
+
+The input JSON provides tokens at the verse level (e.g., `t2` contains an entire sentence). To perform a meaningful syntactic analysis of the Ge'ez text as requested, the analysis proceeds by parsing the internal structure of the sentence-level tokens (`t2`, `t4`, `t6`). The "TOKEN FIDELITY" rule is interpreted as applying to the word-level units within these sentences (e.g., not splitting the token `ወላዕሌሁ፡` into `ወ` and `ላዕሌሁ`). The verse number tokens (`t1`, `t3`, `t5`) are treated as metadata and excluded from the linguistic analysis of the sentences.
+
+The analysis enumerates all syntactically valid parses to account for structural ambiguities, as required by the "NO AMBIGUITY REDUCTION" rule. Each sentence is analyzed independently, and its possible parse trees are presented. For clarity, word-level tokens within each sentence are assigned hierarchical IDs (e.g., `t2w1` for the first word in token `t2`).
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "T2_P1",
+        "structure_type": "Sentence",
+        "bracket_notation": "[S [AdvP [PP t2w1] [PP [P t2w2] [NP t2w3]] [PP [

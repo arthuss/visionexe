@@ -1,19 +1,401 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
-  "scenes": [
+  "actors": [
     {
-      "title": "Chapter 60 Segment 22",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
+      "name": "Enoch",
+      "visualTraits": [
+        "Human narrator of the vision",
+        "Experiences extreme physical and spiritual distress (trembling, fear, collapse, spirit departing and returning)"
+      ],
+      "changes": null,
+      "role": "prophet"
+    },
+    {
+      "name": "The Most High",
+      "visualTraits": [
+        "Described only by his 'power' which shakes the heavens"
+      ],
+      "changes": null,
+      "role": "divine_being"
+    },
+    {
+      "name": "Head of Days",
+      "visualTraits": [
+        "Sits on the Throne of Glory"
+      ],
+      "changes": null,
+      "role": "divine_being"
+    },
+    {
+      "name": "Holy Michael",
+      "visualTraits": null,
+      "changes": null,
+      "role": "archangel"
+    },
+    {
+      "name": "Angel of Peace",
+      "visualTraits": [
+        "A holy angel",
+        "Acts as a guide who walks with Enoch"
+      ],
+      "changes": null,
+      "role": "angel_guide"
+    },
+    {
+      "name": "Lord of Spirits",
+      "visualTraits": null,
+      "changes": null,
+      "role": "divine_being"
+    },
+    {
+      "name": "Leviathan",
+      "visualTraits": [
+        "A great female monster"
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-separation",
+          "description": "Created alongside Behemoth."
+        },
+        {
+          "phase": "Phase 2: Separated",
+          "description": "Separated and placed in the 'depths of the sea, above the springs of the waters'."
+        }
+      ],
+      "role": "monster"
+    },
+    {
+      "name": "Behemoth",
+      "visualTraits": [
+        "A great male monster",
+        "Occupies a vast, invisible desert with his chest"
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-separation",
+          "description": "Created alongside Leviathan."
+        },
+        {
+          "phase": "Phase 2: Separated",
+          "description": "Separated and placed in the desert of Dundayn."
+        }
+      ],
+      "role": "monster"
+    },
+    {
+      "name": "Adam",
+      "visualTraits": [
+        "The first man"
+      ],
+      "changes": null,
+      "role": "ancestor"
     }
   ],
-  "blocking": {
-    "anchors": [],
-    "paths": []
-  }
-}
-```
+  "characters": [
+    {
+      "name": "Angels",
+      "visualTraits": [
+        "Countless myriads ('ten thousand times ten thousand')",
+        "In a state of great commotion",
+        "Stand around the Throne of Glory"
+      ],
+      "changes": null,
+      "role": "celestial_being_group"
+    },
+    {
+      "name": "The Righteous",
+      "visualTraits": [
+        "Stand around the Throne of Glory",
+        "Dwell in the Garden of Righteousness"
+      ],
+      "changes": null,
+      "role": "human_group"
+    },
+    {
+      "name": "Son of Man",
+      "visualTraits": null,
+      "changes": null,
+      "role": "title"
+    },
+    {
+      "name": "The Elect",
+      "visualTraits": [
+        "Dwell in the Garden of Righteousness"
+      ],
+      "changes": null,
+      "role": "human_group"
+    },
+    {
+      "name": "Sinners",
+      "visualTraits": null,
+      "changes": null,
+      "role": "human_group"
+    },
+    {
+      "name": "Inhabitants of the dry land",
+      "visualTraits": null,
+      "changes": null,
+      "role": "human_group"
+    },
+    {
+      "name": "Families",
+      "visualTraits": [
+        "Comprised of children, mothers, sons, and fathers"
+      ],
+      "changes": null,
+      "role": "human_group"
+    },
+    {
+      "name": "Angel of hoarfrost",
+      "visualTraits": null,
+      "changes": null,
+      "role": "angel"
+    },
+    {
+      "name": "Angel of hail",
+      "visualTraits": [
+        "A good angel"
+      ],
+      "changes": null,
+      "role": "angel"
+    },
+    {
+      "name": "Spirit of Drought (Dedek)",
+      "visualTraits": [
+        "Ascends like smoke"
+      ],
+      "changes": null,
+      "role": "spirit"
+    },
+    {
+      "name": "Angel of mist",
+      "visualTraits": null,
+      "changes": null,
+      "role": "angel"
+    }
+  ],
+  "props": [
+    {
+      "name": "Throne of Glory",
+      "visualTraits": null,
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Bridle",
+      "visualTraits": [
+        "Used to restrain and guide spirits (thunder, lightning, sea)"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Garden of Righteousness",
+      "visualTraits": [
+        "Dwelling place of the elect and the righteous"
+      ],
+      "changes": null,
+      "role": "celestial_location"
+    },
+    {
+      "name": "Dundayn",
+      "visualTraits": [
+        "An invisible desert",
+        "Located east of the Garden of Righteousness"
+      ],
+      "changes": null,
+      "role": "mythical_location"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Heaven of Heavens",
+      "visualTraits": [
+        "The highest heaven",
+        "Shaking violently"
+      ],
+      "changes": null,
+      "role": "celestial_location"
+    },
+    {
+      "name": "Throne-area",
+      "visualTraits": [
+        "The area where the Head of Days is seated and surrounded by angels and the righteous"
+      ],
+      "changes": null,
+      "role": "celestial_location"
+    },
+    {
+      "name": "Depths of the sea",
+      "visualTraits": [
+        "Leviathan's dwelling"
+      ],
+      "changes": null,
+      "role": "terrestrial_location"
+    },
+    {
+      "name": "Springs of the waters",
+      "visualTraits": [
+        "Located beneath the depths of the sea"
+      ],
+      "changes": null,
+      "role": "terrestrial_location"
+    },
+    {
+      "name": "Dry land",
+      "visualTraits": [
+        "The earth inhabited by people"
+      ],
+      "changes": null,
+      "role": "terrestrial_location"
+    },
+    {
+      "name": "Ends of heaven",
+      "visualTraits": [
+        "Dwelling place of the spirit of dew"
+      ],
+      "changes": null,
+      "role": "celestial_location"
+    },
+    {
+      "name": "Foundation of heaven",
+      "visualTraits": null,
+      "changes": null,
+      "role": "celestial_location"
+    },
+    {
+      "name": "Storehouses",
+      "visualTraits": [
+        "Contain winds, rain, and mist"
+      ],
+      "changes": null,
+      "role": "celestial_location"
+    },
+    {
+      "name": "Mountains of the earth",
+      "visualTraits": null,
+      "changes": null,
+      "role": "terrestrial_location"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Heaven",
+      "visualTraits": null,
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "Sea",
+      "visualTraits": [
+        "Has a male and strong spirit"
+      ],
+      "changes": null,
+      "role": "natural_element"
+    },
+    {
+      "name": "Desert",
+      "visualTraits": [
+        "An invisible desert"
+      ],
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "Thunder",
+      "visualTraits": [
+        "Has resting-places",
+        "Paired with lightning"
+      ],
+      "changes": null,
+      "role": "weather_phenomenon"
+    },
+    {
+      "name": "Lightning",
+      "visualTraits": [
+        "Paired with thunder"
+      ],
+      "changes": null,
+      "role": "weather_phenomenon"
+    },
+    {
+      "name": "Wind",
+      "visualTraits": [
+        "Kept in storehouses"
+      ],
+      "changes": null,
+      "role": "weather_phenomenon"
+    },
+    {
+      "name": "Hoarfrost",
+      "visualTraits": [
+        "Has its own angel"
+      ],
+      "changes": null,
+      "role": "weather_phenomenon"
+    },
+    {
+      "name": "Hail",
+      "visualTraits": [
+        "Has a good angel"
+      ],
+      "changes": null,
+      "role": "weather_phenomenon"
+    },
+    {
+      "name": "Mist",
+      "visualTraits": [
+        "Has its own storehouse and angel"
+      ],
+      "changes": null,
+      "role": "weather_phenomenon"
+    },
+    {
+      "name": "Dew",
+      "visualTraits": [
+        "Its dwelling is at the ends of heaven",
+        "Connected to the storehouses of rain"
+      ],
+      "changes": null,
+      "role": "weather_phenomenon"
+    },
+    {
+      "name": "Rain",
+      "visualTraits": [
+        "Kept in storehouses which angels open"
+      ],
+      "changes": null,
+      "role": "weather_phenomenon"
+    },
+    {
+      "name": "Light",
+      "visualTraits": null,
+      "changes": null,
+      "role": "natural_element"
+    },
+    {
+      "name": "Darkness",
+      "visualTraits": null,
+      "changes": null,
+      "role": "natural_element"
+    },
+    {
+      "name": "Cloud",
+      "visualTraits": [
+        "The cloud of mist and the cloud of dew are associated"
+      ],
+      "changes": null,
+      "role": "weather_phenomenon"
+    }
+  ],
+  "geo_environments": [
+    {
+      "name": "Gold_Master_Eden",
+      "visualTraits": [
+        "Referred to as the 'Garden of Righteousness'"
+      ],
+      "changes": null,
+      "role": "canonical_geo_location"
+    }

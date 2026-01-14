@@ -1,0 +1,16 @@
+An analysis of the provided text according to the specified scientific rules reveals significant structural ambiguity at the highest level, concerning the relationship between the verse number tokens (`t1`, `t3`, `t5`, `t7`) and the sentence tokens (`t2`, `t4`, `t6`, `t8`). The text consists of four such pairs. The relationship within each pair is ambiguous, and the overall structure is a paratactic (asyndetic) coordination of these four pairs.
+
+The primary ambiguity for each pair `(t_id, t_sentence)` lies in the head-dependent relationship:
+1.  The verse ID is the head, and the sentence is a dependent (modifier).
+2.  The sentence is the head, and the verse ID is a dependent (modifier).
+
+This leads to three distinct syntactic models for each pair, which can be combined in `3^4 = 81` ways for the entire text. The full structure space is composed of these 81 possibilities. We present the three "uniform" parses where all pairs are treated identically, and a fourth entry describing the hybrid possibilities that comprise the rest of the structure space.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "P1",
+        "structure_type": "Coordinated Appositional Phrases",
+        "bracket_notation": "[Coord [ApposP [NP t1] [S t2]] [ApposP [NP t3] [S t4]] [

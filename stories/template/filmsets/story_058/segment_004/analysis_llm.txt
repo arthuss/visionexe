@@ -2,20 +2,280 @@
 {
   "actors": [
     {
-      "name": "God",
-      "visualTraits": null,
-      "changes": null,
-      "role": "deity"
+      "name": "I (Speaker)",
+      "visualTraits": {
+        "description": "The narrator of the parable.",
+        "age": "unknown",
+        "gender": "unknown",
+        "ethnicity": "unknown",
+        "height": "unknown",
+        "body_type": "unknown"
+      },
+      "changes": [],
+      "role": "narrator"
+    },
+    {
+      "name": "Lord of Spirits",
+      "visualTraits": {
+        "description": "A divine being, also referred to as the Lord of the World.",
+        "age": "unknown",
+        "gender": "unknown",
+        "ethnicity": "unknown",
+        "height": "unknown",
+        "body_type": "unknown"
+      },
+      "changes": [],
+      "role": "divine_authority"
     }
   ],
-  "props": [],
-  "environments": [],
+  "characters": [
+    {
+      "name": "The Righteous",
+      "visualTraits": {
+        "description": "A group of blessed people destined to exist in the light of the sun.",
+        "age": "unknown",
+        "gender": "unknown",
+        "ethnicity": "unknown",
+        "height": "unknown",
+        "body_type": "unknown"
+      },
+      "changes": [],
+      "role": "blessed_group"
+    },
+    {
+      "name": "The Chosen",
+      "visualTraits": {
+        "description": "A group of blessed people, mentioned alongside the Righteous, destined to exist in the light of eternal life.",
+        "age": "unknown",
+        "gender": "unknown",
+        "ethnicity": "unknown",
+        "height": "unknown",
+        "body_type": "unknown"
+      },
+      "changes": [],
+      "role": "blessed_group"
+    },
+    {
+      "name": "The Holy Ones",
+      "visualTraits": {
+        "description": "A group of blessed people, seemingly synonymous with the Righteous and Chosen, who are instructed to seek righteousness in the heavens.",
+        "age": "unknown",
+        "gender": "unknown",
+        "ethnicity": "unknown",
+        "height": "unknown",
+        "body_type": "unknown"
+      },
+      "changes": [],
+      "role": "blessed_group"
+    }
+  ],
+  "props": [
+    {
+      "name": "Third Parable",
+      "visualTraits": {
+        "description": "A spoken parable concerning the righteous and the chosen.",
+        "material": "intangible",
+        "color": "unknown",
+        "size": "unknown"
+      },
+      "changes": [],
+      "role": "unknown"
+    },
+    {
+      "name": "Portion",
+      "visualTraits": {
+        "description": "The glorious reward or destiny for the righteous and chosen.",
+        "material": "intangible",
+        "color": "unknown",
+        "size": "unknown"
+      },
+      "changes": [],
+      "role": "unknown"
+    },
+    {
+      "name": "Sun",
+      "visualTraits": {
+        "description": "The celestial body, a source of light for the righteous and a metaphor for a new revelation.",
+        "material": "unknown",
+        "color": "unknown",
+        "size": "unknown"
+      },
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Eternal Life",
+      "visualTraits": {
+        "description": "A state of being and a source of light for the chosen, with no end to its days.",
+        "material": "intangible",
+        "color": "unknown",
+        "size": "unknown"
+      },
+      "changes": [],
+      "role": "unknown"
+    },
+    {
+      "name": "Righteousness",
+      "visualTraits": {
+        "description": "An abstract concept that is sought and found with the Lord of Spirits. Also referred to as 'uprightness'.",
+        "material": "intangible",
+        "color": "unknown",
+        "size": "unknown"
+      },
+      "changes": [],
+      "role": "unknown"
+    },
+    {
+      "name": "Peace",
+      "visualTraits": {
+        "description": "A state of being for the righteous with the Lord of the World.",
+        "material": "intangible",
+        "color": "unknown",
+        "size": "unknown"
+      },
+      "changes": [],
+      "role": "unknown"
+    },
+    {
+      "name": "Hidden things of righteousness",
+      "visualTraits": {
+        "description": "Secret aspects of righteousness that the holy ones are to seek in the heavens.",
+        "material": "intangible",
+        "color": "unknown",
+        "size": "unknown"
+      },
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Portion of faith",
+      "visualTraits": {
+        "description": "An aspect of faith to be sought by the holy ones.",
+        "material": "intangible",
+        "color": "unknown",
+        "size": "unknown"
+      },
+      "changes": [],
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "The Heavens",
+      "visualTraits": {
+        "description": "A celestial realm where the holy ones are to seek the hidden things of righteousness.",
+        "size": "vast",
+        "features": []
+      },
+      "changes": [],
+      "role": "setting"
+    }
+  ],
+  "locations": [
+    {
+      "name": "The Dry Land",
+      "visualTraits": {
+        "description": "The earth, upon which a new light rises like the sun.",
+        "size": "unknown",
+        "features": [
+          "dry"
+        ]
+      },
+      "changes": [],
+      "role": "setting"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Light",
+      "visualTraits": {
+        "description": "A pervasive, un-numerable, and eternal element that is sought by the blessed and established before the Lord of Spirits. It replaces darkness.",
+        "state": "luminous"
+      },
+      "changes": [],
+      "role": "dominant_element"
+    },
+    {
+      "name": "Light of the Sun",
+      "visualTraits": {
+        "description": "The specific environmental state for the righteous.",
+        "state": "luminous"
+      },
+      "changes": [],
+      "role": "ambient_condition"
+    },
+    {
+      "name": "Light of Eternal Life",
+      "visualTraits": {
+        "description": "The specific environmental state for the chosen.",
+        "state": "luminous"
+      },
+      "changes": [],
+      "role": "ambient_condition"
+    },
+    {
+      "name": "Light of Uprightness",
+      "visualTraits": {
+        "description": "A form of light that is established forever before the Lord of Spirits.",
+        "state": "luminous"
+      },
+      "changes": [],
+      "role": "ambient_condition"
+    },
+    {
+      "name": "Darkness",
+      "visualTraits": {
+        "description": "An environmental element that is overcome and removed.",
+        "state": "absence of light"
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-revelation",
+          "description": "Darkness is present (implied as the 'former darkness')."
+        },
+        {
+          "phase": "Phase 2: Post-revelation",
+          "description": "Darkness has passed away and been destroyed."
+        }
+      ],
+      "role": "transitional_element"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 58 Segment 4 Prayer",
-      "location": "unknown",
-      "action": "recitation of prayer",
-      "actorsInvolved": ["God"]
+      "title": "The Third Parable's Introduction",
+      "location": "unspecified",
+      "action": "The speaker begins to deliver a third parable concerning the destiny of the righteous and the chosen.",
+      "actorsInvolved": [
+        "I (Speaker)"
+      ]
+    },
+    {
+      "title": "The Blessed State",
+      "location": "unspecified future realm",
+      "action": "The glorious portion of the righteous and chosen is described, where they will exist in the light of the sun and the light of eternal life, with their days being without end.",
+      "actorsInvolved": [
+        "The Righteous",
+        "The Chosen",
+        "The Holy Ones"
+      ]
+    },
+    {
+      "title": "The Quest in the Heavens",
+      "location": "The Heavens",
+      "action": "The holy ones are instructed to seek the hidden things of righteousness and faith in the heavens, because a new light has dawned and darkness has passed away.",
+      "actorsInvolved": [
+        "The Holy Ones"
+      ]
+    },
+    {
+      "title": "The Establishment of Eternal Light",
+      "location": "Before the Lord of Spirits",
+      "action": "It is declared that the former darkness has been destroyed and an un-numerable light is established forever before the Lord of Spirits.",
+      "actorsInvolved": [
+        "Lord of Spirits"
+      ]
     }
   ],
   "blocking": {

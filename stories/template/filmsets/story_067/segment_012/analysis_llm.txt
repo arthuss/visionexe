@@ -2,26 +2,240 @@
 {
   "actors": [
     {
-      "name": "Michael",
-      "visualTraits": null,
+      "name": "The Lord",
+      "visualTraits": {
+        "description": "A divine being who speaks. Referred to as 'Lord' (እግዚአብሔር) and 'Lord of Spirits' (እግዚአ፡​መናፍስት)."
+      },
       "changes": null,
-      "role": "recipient"
+      "role": "speaker"
     },
     {
-      "name": "Messenger (angel)",
-      "visualTraits": null,
+      "name": "Noah",
+      "visualTraits": {
+        "description": "A man to whom the Lord speaks. He is the narrator of the segment."
+      },
       "changes": null,
-      "role": "messenger"
+      "role": "protagonist"
+    },
+    {
+      "name": "Enoch",
+      "visualTraits": {
+        "description": "A man mentioned as having previously seen the burning valley."
+      },
+      "changes": null,
+      "role": "historical_figure"
+    },
+    {
+      "name": "Michael",
+      "visualTraits": {
+        "description": "A holy angel who speaks and explains the judgment."
+      },
+      "changes": null,
+      "role": "speaker"
     }
   ],
-  "props": [],
-  "environments": [],
+  "characters": [
+    {
+      "name": "Angels (builders)",
+      "visualTraits": {
+        "description": "A group of angels tasked with constructing a wooden structure."
+      },
+      "changes": null,
+      "role": "worker"
+    },
+    {
+      "name": "Angels (fallen/judged)",
+      "visualTraits": {
+        "description": "A group of angels who showed unrighteousness and led astray those who dwell on the earth. They are imprisoned and judged in a burning valley."
+      },
+      "changes": null,
+      "role": "antagonist"
+    },
+    {
+      "name": "Those who dwell with Noah",
+      "visualTraits": {
+        "description": "The people and beings who will be with Noah on the surface of the earth."
+      },
+      "changes": null,
+      "role": "background"
+    },
+    {
+      "name": "Kings and Mighty Ones",
+      "visualTraits": {
+        "description": "Rulers and powerful people who possess the earth. The judgment of the angels serves as a testimony to them, and the waters are initially for their healing."
+      },
+      "changes": null,
+      "role": "observer"
+    },
+    {
+      "name": "Dwellers on the dry land",
+      "visualTraits": {
+        "description": "The general inhabitants of the earth who were led astray by the fallen angels."
+      },
+      "changes": null,
+      "role": "background"
+    }
+  ],
+  "props": [
+    {
+      "name": "Wooden Structure",
+      "visualTraits": {
+        "description": "A structure made of wood (ዕፀወ) built by angels. Noah is to lay his hand upon it."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Seed of Life",
+      "visualTraits": {
+        "description": "A 'seed of life' (ዘርአ፡​ሕይወት) that will come from the wooden structure to ensure the earth is not left bare."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "The Burning Valley",
+      "visualTraits": {
+        "description": "A valley (ቈላ) in the west, near mountains of precious metals. It is characterized by a great commotion, agitated waters, a smell of sulfur, and streams of fire. It serves as the prison for the fallen angels."
+      },
+      "changes": null,
+      "role": "location"
+    }
+  ],
+  "locations": [
+    {
+      "name": "The Dry Land",
+      "visualTraits": {
+        "description": "The surface of the earth (የብስ / ምድር), where Noah's descendants will live and multiply."
+      },
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "Mountains of Metal",
+      "visualTraits": {
+        "description": "Mountains of gold, silver, iron, lead, and tin, located in the west near the burning valley."
+      },
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "Waters of the Valley",
+      "visualTraits": {
+        "description": "Waters within the burning valley that are in turmoil. They originate from springs."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Healing",
+          "description": "The waters serve as a cure for the body and soul of kings and the mighty."
+        },
+        {
+          "phase": "Phase 2: Cold",
+          "description": "The water from the springs becomes cold when the judged angels ascend from it."
+        },
+        {
+          "phase": "Phase 3: Fire",
+          "description": "The waters will transform into a fire that burns for eternity."
+        }
+      ],
+      "role": "dynamic_prop"
+    },
+    {
+      "name": "Streams of Fire",
+      "visualTraits": {
+        "description": "Streams of fire (አፍላገ፡​እሰት) that issue forth from the valley, in the place where the angels are judged."
+      },
+      "changes": null,
+      "role": "environment_feature"
+    },
+    {
+      "name": "Springs of Water",
+      "visualTraits": {
+        "description": "The sources (አንቅዕተ) of the waters in the valley. Their output changes from hot/healing to cold."
+      },
+      "changes": null,
+      "role": "environment_feature"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Sulfurous Atmosphere",
+      "visualTraits": {
+        "description": "A smell of sulfur (ፄና፡​ተይ) is generated from the molten lead and commotion in the valley."
+      },
+      "changes": null,
+      "role": "sensory_descriptor"
+    }
+  ],
+  "geo_environments": [
+    {
+      "name": "Gehenna_Data_Sink",
+      "visualTraits": {
+        "description": "A burning valley of judgment, identified as the location for the punishment of fallen angels."
+      },
+      "changes": null,
+      "role": "location"
+    }
+  ],
   "scenes": [
     {
-      "title": "Message Delivery",
-      "location": null,
-      "action": "Messenger delivers a message to Michael",
-      "actorsInvolved": ["Michael", "Messenger (angel)"]
+      "title": "The Lord's Word to Noah",
+      "location": "Unspecified",
+      "action": "The Lord speaks to Noah, identifying his righteous portion and instructing him regarding a wooden structure being built by angels, from which a 'seed of life' will come.",
+      "actorsInvolved": [
+        "The Lord",
+        "Noah",
+        "Angels (builders)"
+      ]
+    },
+    {
+      "title": "Promise of Posterity",
+      "location": "The Dry Land",
+      "action": "The Lord promises to establish Noah's seed and the seed of those with him, so they will be blessed and multiply upon the earth.",
+      "actorsInvolved": [
+        "The Lord",
+        "Noah",
+        "Those who dwell with Noah"
+      ]
+    },
+    {
+      "title": "The Valley of Judgment",
+      "location": "The Burning Valley",
+      "action": "Noah describes the burning valley where the angels who showed unrighteousness will be imprisoned, recalling that Enoch had previously seen this place in the west, near mountains of precious metals.",
+      "actorsInvolved": [
+        "Noah",
+        "Enoch",
+        "Angels (fallen/judged)"
+      ]
+    },
+    {
+      "title": "The Nature of the Valley",
+      "location": "The Burning Valley",
+      "action": "The valley is described as a place of great commotion, with agitated waters, a smell of sulfur, and streams of fire where the fallen angels are judged.",
+      "actorsInvolved": [
+        "Angels (fallen/judged)"
+      ]
+    },
+    {
+      "title": "The Changing Waters",
+      "location": "The Burning Valley",
+      "action": "The waters are described as a healing agent for kings and the mighty, but also a means of judgment for the angels. The text states the waters will change, becoming cold and eventually an eternal fire, as a consequence of the angels' judgment.",
+      "actorsInvolved": [
+        "Kings and Mighty Ones",
+        "Angels (fallen/judged)"
+      ]
+    },
+    {
+      "title": "Michael's Explanation",
+      "location": "The Burning Valley",
+      "action": "The angel Michael explains that the judgment of the angels is a testimony for the kings and rulers of the earth. He confirms that the waters of healing will become an eternal, burning fire.",
+      "actorsInvolved": [
+        "Michael",
+        "Angels (fallen/judged)",
+        "Kings and Mighty Ones"
+      ]
     }
   ],
   "blocking": {

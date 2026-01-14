@@ -1,0 +1,74 @@
+An analysis of the provided Ge'ez text at Syntactic Level C, adhering to the specified scientific rules.
+
+**Analysis Notes:**
+
+1.  **Tokenization:** The input text is divided into four tokens: two verse numbers (`t1`, `t3`) and two tokens containing the full text of each verse (`t2`, `t4`). According to the "Token Fidelity" rule, these tokens are treated as indivisible units. Therefore, the analysis focuses on the syntactic relationships *between* these tokens, not the internal structure of `t2` and `t4`.
+2.  **Structure:** The input consists of two independent sentences, each composed of a verse number and its corresponding text. The analysis enumerates the possible syntactic relationships for each pair.
+3.  **Ambiguity:** For each verse-pair (e.g., `t1` and `t2`), there are three primary syntactic possibilities for their relationship:
+    *   **Nominal Chain:** The verse number is the head of a nominal phrase, and the text is a genitive-like modifier specifying its content.
+    *   **Apposition:** The verse number (as a nominal phrase) and the text (as a clausal phrase) are placed in an appositive relationship.
+    *   **Clausal Adjunct:** The text is the head clause, and the verse number is a nominal adjunct that labels it.
+4.  **Enumeration:** In accordance with the "No Ambiguity Reduction" rule, all six resulting parses (three for the first verse, three for the second) are listed to represent the full structure space.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "P1",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t1] [Gen t2]]",
+        "dependencies": [
+          "t1->t2 (genitive)"
+        ],
+        "notes": "Analysis of verse 64:1. The verse number (t1) is the head of a nominal phrase, with the verse text (t2) as its genitive/content modifier. This represents a labeling relationship."
+      },
+      {
+        "id": "P2",
+        "structure_type": "Apposition",
+        "bracket_notation": "[Frag [NP t1] [CP t2]]",
+        "dependencies": [
+          "t1->t2 (apposition)"
+        ],
+        "notes": "Analysis of verse 64:1. The verse number (t1) as a nominal phrase and the verse text (t2) as a clausal phrase are in apposition."
+      },
+      {
+        "id": "P3",
+        "structure_type": "Clausal Adjunct",
+        "bracket_notation": "[CP [NP_Adjunct t1] [C' t2]]",
+        "dependencies": [
+          "t2->t1 (adjunct)"
+        ],
+        "notes": "Analysis of verse 64:1. The verse text (t2) is the head clause, with the verse number (t1) functioning as a nominal adjunct that provides a label."
+      },
+      {
+        "id": "P4",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t3] [Gen t4]]",
+        "dependencies": [
+          "t3->t4 (genitive)"
+        ],
+        "notes": "Analysis of verse 64:2. The verse number (t3) is the head of a nominal phrase, with the verse text (t4) as its genitive/content modifier. This represents a labeling relationship."
+      },
+      {
+        "id": "P5",
+        "structure_type": "Apposition",
+        "bracket_notation": "[Frag [NP t3] [CP t4]]",
+        "dependencies": [
+          "t3->t4 (apposition)"
+        ],
+        "notes": "Analysis of verse 64:2. The verse number (t3) as a nominal phrase and the verse text (t4) as a clausal phrase are in apposition."
+      },
+      {
+        "id": "P6",
+        "structure_type": "Clausal Adjunct",
+        "bracket_notation": "[CP [NP_Adjunct t3] [C' t4]]",
+        "dependencies": [
+          "t4->t3 (adjunct)"
+        ],
+        "notes": "Analysis of verse 64:2. The verse text (t4) is the head clause, with the verse number (t3) functioning as a nominal adjunct that provides a label."
+      }
+    ]
+  }
+}
+```

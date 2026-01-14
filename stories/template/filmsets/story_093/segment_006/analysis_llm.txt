@@ -1,1 +1,217 @@
-{"actors":[],"props":[],"environments":[],"scenes":[],"blocking":{"anchors":[],"paths":[]}}
+```json
+{
+  "actors": [
+    {
+      "name": "Enoch",
+      "visualTraits": {
+        "description": "A man who identifies himself as the seventh born in the first week. He has authority from seeing heaven, hearing the holy angels, and learning from the heavenly tablet."
+      },
+      "changes": null,
+      "role": "actor"
+    },
+    {
+      "name": "The Holy One",
+      "visualTraits": {
+        "description": "A divine being whose voice is so powerful that no human can hear it and not be disturbed."
+      },
+      "changes": null,
+      "role": "actor"
+    }
+  ],
+  "characters": [
+    {
+      "name": "children of righteousness",
+      "visualTraits": {
+        "description": "A group whom Enoch addresses in his prophecy."
+      },
+      "changes": null,
+      "role": "character_group"
+    },
+    {
+      "name": "the chosen of the world",
+      "visualTraits": {
+        "description": "A group whom Enoch addresses in his prophecy."
+      },
+      "changes": null,
+      "role": "character_group"
+    },
+    {
+      "name": "my children",
+      "visualTraits": {
+        "description": "The direct audience of Enoch's speech."
+      },
+      "changes": null,
+      "role": "character_group"
+    },
+    {
+      "name": "holy angels",
+      "visualTraits": {
+        "description": "Beings in heaven from whose words Enoch gained knowledge."
+      },
+      "changes": null,
+      "role": "character_group"
+    },
+    {
+      "name": "a man",
+      "visualTraits": {
+        "description": "A symbolic figure who is saved in the first week (93:4), is chosen as a plant of righteous judgment in the third week (93:5), and ascends in the sixth week (93:8)."
+      },
+      "changes": null,
+      "role": "character"
+    },
+    {
+      "name": "sinners",
+      "visualTraits": {
+        "description": "A group for whom a law is made after the first week."
+      },
+      "changes": null,
+      "role": "character_group"
+    },
+    {
+      "name": "holy and righteous ones",
+      "visualTraits": {
+        "description": "A group who will be shown visions in the fourth week."
+      },
+      "changes": null,
+      "role": "character_group"
+    },
+    {
+      "name": "the blinded ones",
+      "visualTraits": {
+        "description": "All those who will be in the sixth week, whose hearts will be blinded and forget wisdom."
+      },
+      "changes": null,
+      "role": "character_group"
+    },
+    {
+      "name": "the whole race of the chosen root",
+      "visualTraits": {
+        "description": "A group that will be scattered during the sixth week."
+      },
+      "changes": null,
+      "role": "character_group"
+    },
+    {
+      "name": "a perverse generation",
+      "visualTraits": {
+        "description": "The generation that will arise in the seventh week, whose deeds are many and perverse."
+      },
+      "changes": null,
+      "role": "character_group"
+    },
+    {
+      "name": "chosen righteous ones",
+      "visualTraits": {
+        "description": "Righteous individuals chosen from the eternal plant of righteousness at the end of the seventh week, who will be given sevenfold instruction."
+      },
+      "changes": null,
+      "role": "character_group"
+    },
+    {
+      "name": "children of men",
+      "visualTraits": {
+        "description": "Humanity in general, questioned for their ability to comprehend divine and cosmic matters."
+      },
+      "changes": null,
+      "role": "character_group"
+    }
+  ],
+  "props": [
+    {
+      "name": "the books",
+      "visualTraits": {
+        "description": "Writings from which Enoch begins to speak."
+      },
+      "changes": null,
+      "role": "actor_prop:Enoch"
+    },
+    {
+      "name": "heavenly tablet",
+      "visualTraits": {
+        "description": "The source of Enoch's knowledge, mentioned as 'tablet of heaven' (ጸፍጸፈ፡ሰማይ)."
+      },
+      "changes": null,
+      "role": "actor_prop:Enoch"
+    }
+  ],
+  "places": [
+    {
+      "name": "House of the Kingdom / House of Glory",
+      "visualTraits": {
+        "description": "A great structure of glory and kingship."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Built",
+          "description": "In the fifth week, the house is built to last forever."
+        },
+        {
+          "phase": "Phase 2: Burned",
+          "description": "At the end of the sixth week, the house is burned with fire."
+        }
+      ],
+      "role": "place"
+    }
+  ],
+  "locations": [
+    {
+      "name": "enclosure",
+      "visualTraits": {
+        "description": "An enclosure (or courtyard) made for the generations of generations in the fourth week."
+      },
+      "changes": null,
+      "role": "location"
+    }
+  ],
+  "environments": [
+    {
+      "name": "heaven",
+      "visualTraits": {
+        "description": "A realm of visions, holy angels, stars, and lights. Its height, foundation, and workings are described as being beyond human comprehension."
+      },
+      "changes": null,
+      "role": "environment"
+    },
+    {
+      "name": "earth",
+      "visualTraits": {
+        "description": "The world, whose breadth and length are questioned as being beyond human measurement."
+      },
+      "changes": null,
+      "role": "environment"
+    },
+    {
+      "name": "stars",
+      "visualTraits": {
+        "description": "Celestial bodies in the sky, whose number is questioned."
+      },
+      "changes": null,
+      "role": "environment_component"
+    },
+    {
+      "name": "lights",
+      "visualTraits": {
+        "description": "Celestial sources of light, whose resting places are questioned."
+      },
+      "changes": null,
+      "role": "environment_component"
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "Enoch's Prophecy of the Apocalypse of Weeks",
+      "location": "An unspecified location where Enoch addresses his children.",
+      "action": "Enoch, speaking from 'the books' and with authority from heavenly visions, addresses his children. He delivers a prophecy detailing the history and future of the world through the framework of seven symbolic 'weeks,' describing the rise and fall of righteousness, the building and burning of a holy house, and the coming of judgment. He concludes by posing a series of rhetorical questions emphasizing the vast, unknowable nature of God's creation (heaven, earth, stars) compared to the limits of human understanding.",
+      "actorsInvolved": [
+        "Enoch",
+        "my children"
+      ]
+    }
+  ],
+  "blocking": {
+    "anchors": [],
+    "paths": []
+  }
+}
+```

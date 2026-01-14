@@ -1,10 +1,90 @@
+```json
 {
-  "actors": [],
-  "props": [],
+  "actors": [
+    {
+      "name": "Narrator",
+      "visualTraits": null,
+      "changes": null,
+      "role": "narrator"
+    }
+  ],
+  "characters": [],
+  "props": [
+    {
+      "name": "beautiful tree",
+      "visualTraits": [
+        "beautiful",
+        "fragrance like a mastic tree"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "fragrant cinnamon",
+      "visualTraits": [
+        "fragrant"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "mountain of the east",
+      "visualTraits": null,
+      "changes": null,
+      "role": "scene_setting"
+    }
+  ],
+  "locations": [
+    {
+      "name": "valleys of water",
+      "visualTraits": [
+        "inexhaustible"
+      ],
+      "changes": null,
+      "role": "scene_setting"
+    },
+    {
+      "name": "sides of the valleys",
+      "visualTraits": null,
+      "changes": null,
+      "role": "scene_setting"
+    }
+  ],
   "environments": [],
-  "scenes": [],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Inexhaustible Valleys of the East",
+      "location": "A vantage point above the mountain of the east",
+      "action": "The narrator observes a landscape with inexhaustible valleys of water, a beautiful fragrant tree, and cinnamon, before continuing his journey eastward.",
+      "actorsInvolved": [
+        "Narrator"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "anchor_1",
+        "description": "An observation point above the mountain of the east, overlooking the valleys of water."
+      },
+      {
+        "id": "anchor_2",
+        "description": "A location eastward, beyond the valleys."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Narrator",
+        "start_anchor": "anchor_1",
+        "end_anchor": "anchor_2",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The narrator 'drew near' in an eastward direction, moving beyond the valleys he had observed."
+      }
+    ]
   }
 }
+```

@@ -1,28 +1,30 @@
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "S10.meta",
-        "structure_type": "Header",
-        "bracket_notation": "[META [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]",
+        "id": "S1",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t1] [Gen t2]]",
         "dependencies": [
-          "t1->t2 (modifies)",
-          "t3->t4 (modifies)"
+          "t1->t2 (genitive)"
         ],
-        "notes": "Segment metadata."
+        "notes": "Analysis of the verse number as the head of a construct chain, with the verse text as its genitive dependent. This structure implies possession, e.g., 'the text of the verse'."
       },
       {
-        "id": "S10.1",
-        "structure_type": "Sequence of Clauses",
-        "bracket_notation": "[S [S1 [VP [V t5] [NP-SUBJ-in-surface]]] [S2 [NP-SUBJ [N t8]] [VP [V-in-surface] [PP [N t7]]]] [S3 [NEG-VP [V-in-surface] [PP [PREP t9] [NP [N-in-surface]] [SBAR [NP [N t10]]]]]]]",
+        "id": "S2",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [HEAD t1] [APP t2]]",
         "dependencies": [
-          "t5->t6 (nsubj)",
-          "t5->t8 (parataxis)",
-          "t8->t7 (nmod)",
-          "t8->t9 (parataxis)"
+          "t1->t2 (apposition)"
         ],
-        "notes": "A series of clauses. 1. 'the souls of those who have died (t6) are crying out (t5)'. 2. 'and their cry (t8) has gone up (verb in t8 surface) to the gate of heaven (t7)'. 3. 'and they cannot escape (verb in t8 surface) from the face of the iniquity (t9) which is done on earth (t10)'."
-      }
-    ]
-  }
-}
+        "notes": "Analysis of the verse text as an appositive modifier to the verse number. This structure provides an explanation or restatement, e.g., 'verse 9:1, which is \"...\"'."
+      },
+      {
+        "id": "S3",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [APP t1] [HEAD t2]]",
+        "dependencies": [
+          "t2->t1 (apposition)"
+        ],
+        "notes": "Analysis of the verse number as an appositive

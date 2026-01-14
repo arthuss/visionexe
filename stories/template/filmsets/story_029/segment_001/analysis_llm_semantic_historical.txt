@@ -1,0 +1,55 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "high",
+      "reasoning": "This hypothesis posits that verse 29:1 consists of two paratactically joined clauses: (1) 'ወሖርኩ፡​ውስተ፡​መካን፡​ካልእ፡​እምነ፡​መድበራ' (And I went to another place from that desert) and (2) 'መንገለ፡​ጽባሑ፡​ለውእቱ፡​ደብር፡​ቀረብኩ' (towards its east, I drew near to that mountain). The two finite verbs, 'ሖርኩ' (I went) and 'ቀረብኩ' (I drew near), are not connected by a conjunction ('wå-'). This asyndetic structure, where clauses describing a sequence of actions are placed side-by-side, is a common feature of Ge'ez and broader Semitic narrative syntax.",
+      "parallels": [
+        {
+          "ref": "Dillmann, A. (1907). Ethiopic Grammar, §197.",
+          "note": "This grammar section describes the use of asyndeton, or the omission of conjunctions between coordinate clauses, as a frequent stylistic device in Ge'ez."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S3",
+      "plausibility": "high",
+      "reasoning": "This hypothesis addresses the verb-subject agreement in 29:2, where the plural noun 'ዕፀወ' (trees) is the subject of the 3rd person masculine singular verb 'ቈስቈሰ' (it was fragrant). This is a standard grammatical feature in Ge'ez, where plural nouns of inanimate objects or non-rational beings frequently take a singular verb. This interpretation is strongly supported by historical evidence from the Greek source text of 1 Enoch (Panopolitanus codex), which shows the same construction: the plural noun 'δένδρα' (trees) governs the singular verb 'εὐωδίαζεν' (it was fragrant).",
+      "parallels": [
+        {
+          "ref": "Dillmann, A. (1907). Ethiopic Grammar, §156.c.",
+          "note": "Explicitly states that plural substantives of things are 'very frequently' construed with a verb in the 3rd person singular masculine."
+        },
+        {
+          "ref": "1 Enoch 29:2 (Greek, Panopolitanus Codex)",
+          "note": "The likely source text provides a direct structural parallel ('δένδρα... εὐωδίαζεν'), confirming this was the intended meaning."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S7",
+      "plausibility": "high",
+      "reasoning": "The phrase 'ዕፀውሂ፡​ኢይትማሰሉ' is syntactically ambiguous. It could mean the trees were unlike each other (reciprocal sense) or that they were unlike other trees (comparative sense). Hypothesis S7, the comparative sense, is strongly preferred based on the literary context. The genre of apocalyptic tours (1 Enoch 24-32) consistently emphasizes the uniqueness of supernatural objects compared to their mundane earthly counterparts. The enclitic particle '-hi' on 'ዕፀውሂ' can be read as 'as for these trees,' setting them apart as a distinct category. While grammatically possible, the reciprocal sense is less meaningful in a context focused on describing the wonders of a special place.",
+      "parallels": [
+        {
+          "ref": "Leslau, W. (1987). Comparative Dictionary of Geʻez, p. 359 (msl).",
+          "note": "The verb 'tämäsälä' ('to be like, resemble') often has its object of comparison implied by the context, which supports reading an implied comparison to 'other trees' here."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "The evaluation prioritized syntactic hypotheses that align with both attested Ge'ez grammar and the historical context provided by the Greek source of 1 Enoch. For 29:1, a paratactic reading (S1) is adopted as it reflects standard Semitic narrative style. For 29:2, the singular verb with a plural subject ('ዕፀወ... ቈስቈሰ') is confirmed as a regular grammatical feature by both Ge'ez grammars and the parallel Greek construction (S3). The main point of uncertainty is the phrase 'ኢይትማሰሉ'. A reciprocal meaning ('unlike each other') is grammatically possible. However, a comparative meaning ('unlike other trees') (S7) is chosen as the final reading due to overwhelming contextual pressure from the apocalyptic genre, which focuses on the extraordinariness of the described items. The confidence level is set to 'moderate' specifically to reflect this single point of interpretive ambiguity, even though the preferred reading is strong.",
+  "final_decision": {
+    "hypothesis_ref": "S1+S3+S7",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}
+```

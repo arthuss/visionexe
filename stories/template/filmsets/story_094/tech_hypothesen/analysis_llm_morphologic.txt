@@ -1,0 +1,15 @@
+An extremely rigorous, scientific morphological analysis requires acknowledging the limitations imposed by the provided tokenization. The input text contains several tokens that appear to be concatenations of multiple distinct words, likely due to the tokenization policy applied to the source manuscript. According to the specified rules, these tokens must be analyzed as single units. This analysis will therefore describe the internal components of such composite tokens within the notes for each option, while assigning a primary Part-of-Speech (POS) tag based on the most syntactically dominant element within the token. Lacunae and scribal abbreviations present in the text are noted and reconstructed where the context makes the reading highly probable.
+
+```json
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2024-07-29T15:00:00Z",
+    "created_by": "llm",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_094",
+    "graphematic_string": "94:1 ሙ፡ደቂቅየ፡¡ፍቅርዋ፡ ለጽድቅ፡ወባቲ፡ሑሩ፡እስመ፡ ፍናዋተ፡ጽድቅ፡ይደሉ፡ ወይትወ…ፍ፡ወፍናዋተ፡ዐመፃ፡

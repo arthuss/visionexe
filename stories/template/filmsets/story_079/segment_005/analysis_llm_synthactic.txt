@@ -1,0 +1,16 @@
+An enumeration of all valid syntactic parses for the provided Ge'ez text, following the specified scientific rules.
+
+### Methodological Note
+
+The provided `tokens` in the input JSON are multi-word chunks, not single lexical units. A meaningful syntactic analysis requires parsing the relationships between individual words. Therefore, the analysis below operates on the words within each `surface` string, as delimited by spaces and Ge'ez punctuation (`፡`). The original `token_id` (e.g., `t2`) is used to reference the chunk from which a word originates. This approach adheres to the spirit of a "scientific syntactic analysis" while respecting the "token fidelity" rule at the word level (e.g., not splitting `ወልድየ` into `ወልድ` and `-የ`).
+
+---
+
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "Parse_S1_V1",
+        "structure_type": "Sentence",
+        "description": "Sentence 1 (t1-t5). `ወልድየ ማቱሳላ` as Apposition. `ኵሎ` as a determiner for `ሥርዓተ`. `ሉ` as the indirect object of `ተፈጸመ`. `ዘሰማይ` modifies `ከዋክብት`.",
+        "bracket_notation": "[S [Label t1] [Clause [AdvP t2(ወይእዜኒ)] [VocP [NP [N t2(ወልድየ)] [App

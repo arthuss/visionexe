@@ -1,0 +1,38 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "low",
+      "reasoning": "This hypothesis models the relationship as genitive, which is syntactically unattested and historically anachronistic. Verse numbers are a late, extra-grammatical addition to Ethiopic texts, influenced by European printed editions. They function as external labels and do not participate in the syntax of the Ge'ez clause they precede. There is no known Ge'ez construction where a numeral acts as a noun taking an entire clause as a genitive dependent. This parse incorrectly applies a syntactic category to a meta-textual, organizational feature.",
+      "parallels": [
+        {
+          "ref": "UNATTESTED",
+          "note": "A construction where a numeral governs a subsequent clause in a genitive relationship is not attested in Ge'ez literature or grammar."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "fail"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "high",
+      "reasoning": "This hypothesis correctly models the relationship as appositive, where the verse number is a label and the following clause is its content. While the verse number is not syntactically integrated into the clause, its function is appositional at the discourse level: it identifies the textual unit that follows. This is historically analogous to the well-attested practice of using headings (ርእስ, rǝʾs) in Ethiopic manuscripts, where a title is placed in apposition to the text it introduces. The verse number is a more granular form of such a heading.",
+      "parallels": [
+        {
+          "ref": "Ethiopic Manuscript Tradition (e.g., Psalters, Gospels)",
+          "note": "The relationship is analogous to a chapter or section heading (e.g., 'መዝሙር፡ ለዳዊት፡', 'A Psalm of David') and the subsequent text of the psalm. The heading and the text are coreferential (one is the title, the other is the work itself) and thus in apposition."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "The core issue is the grammatical status of verse numbers. Historical evidence shows they are not part of the original composition or its syntax, but are later, non-integrated reference markers. Hypothesis S1 (Genitive) fails because it imposes a syntactic relationship (genitive) that is impossible in Ge'ez grammar for this structure; it mistakes a modern data modeling concept for a linguistic feature. Hypothesis S2 (Apposition) provides a much better functional description. Although it's not a classic intra-sentential apposition, it correctly captures the relationship between a label and its referent. This is analogous to the established use of headings in the Ethiopic manuscript tradition. Therefore, S2 is preferred as it provides a historically and functionally sound model for this meta-textual feature.",
+  "final_decision": {
+    "hypothesis_ref": "S2",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}
+```

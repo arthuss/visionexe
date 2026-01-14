@@ -1,0 +1,15 @@
+An analysis of the provided Ge'ez text follows. The tokenization in the source text is highly irregular, frequently concatenating multiple distinct words into a single token. As per the instructions to use the provided tokens as-is, the analysis of these concatenated tokens is based on the first identifiable word within the string. This approach is a necessary compromise, and a note is included in the analysis of each affected token to document the issue and the reconstructed sequence of words.
+
+```json
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2024-07-29T14:00:00Z",
+    "created_by": "llm",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_095",
+    "graphematic_string": "95:1 መኑ፡ይሁÅኒ፡ለ¡ዕይንትየ፡…መ፡ ይኩና፡ደመና፡ማይ፨ወእብÀ፡ ዲቤŒሙ፡ወእŒዐው፡¡ንብዕየ፡ መ፡ደመና፡ማይ፡ወ¡ዕርፍ፡ እምሐዘነ፡ልብየ፨\n95:2 መኑ፡የሀÅŒሙ፡…መ፡ትግÅሩ፡ ጽል¡፨ወእ…የ፡ወይረ…ብሙ፡ ለኃጥƒን፡÷ነµ፨\n95:3 ኢትፍርሁ፡ጻድቃን፡እምኃጥ¡ን፡ እስመ፡ÃዕÅ፡ያገብኦ

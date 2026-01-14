@@ -1,0 +1,38 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "moderate",
+      "reasoning": "This hypothesis proposes that the repeated phrases in 55:3 ('my punishment and my chastisement... my chastisement and my wrath') form an emphatic apposition, not a scribal error. The first phrase introduces the topic, and the second intensifies it by replacing the general 'punishment' (መዓርየ) with the more potent 'wrath' (መዓትየ). This reading respects the manuscript text as is. The primary grammatical difficulty is the singular verb የኃድር ('it will dwell') with a compound subject. However, this is plausible if the compound subject is treated as a single conceptual unit ('the event of my retribution'), or if the verb agrees with the nearest subject, a known feature in Semitic syntax. Alternative theories, like simple dittography, fail to account for the deliberate substitution of words between the two phrases.",
+      "parallels": [
+        {
+          "ref": "General Semitic Syntax (e.g., Hebrew Bible, Gen 1:14)",
+          "note": "The principle of a singular verb being used with a plural or compound subject, while not the norm in Ge'ez, is attested in related Semitic languages, often when the subject follows the verb or represents a conceptual unity. The Ge'ez translators of the Old Testament sometimes regularized this to a plural verb (as in their rendering of Gen 1:14), but its presence in 1 Enoch may reflect a more literal translation of a Semitic original or a native stylistic variant. The usage here is therefore considered 'partially attested' as a grammatical principle, though the specific phrasing is unique."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "high",
+      "reasoning": "This hypothesis interprets the verbal phrase ትርአይዎ፡​ሀለወክሙ (tǝrʾaywo halawakǝmu) in 55:4 as a non-standard but emphatic future construction, meaning 'You shall certainly see him' or 'You are destined to see him.' A simple future reading ('you will see him') fails to account for the presence of ሀለወክሙ ('you were/have been'). Reading them as two separate clauses is syntactically and semantically incoherent. The construction is best explained as a 'Semiticism,' an idiom from the book's lost Aramaic or Hebrew source language rendered literally into Ge'ez. This emphatic sense perfectly fits the prophetic and judgmental tone of the address to the 'powerful kings.'",
+      "parallels": [
+        {
+          "ref": "Knibb, M. A., The Ethiopic Book of Enoch (1978), Vol. 2, p. 138.",
+          "note": "Direct grammatical parallels for the specific construction (Imperfect + Perfect of ሀሎ) are unattested in standard Ge'ez grammars, making it an anomaly. However, scholarly consensus (e.g., Knibb, Charles, Dillmann) supports an emphatic future meaning based on context and the likelihood of translation influence. The existence of the phrase in this key text serves as its own attestation of a rare, likely loan-translated, idiom."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "The evaluation focused on two primary syntactic ambiguities in 1 Enoch 55. \n1. In 55:3, the complex and repetitive phrasing of divine punishment was analyzed. A hypothesis of dittography was considered but rejected in favor of S1 (emphatic apposition), as it provides a better explanation for the specific textual variations and respects the manuscript evidence, despite the grammatical irregularity of the singular verb.\n2. In 55:4, the verbal construction ትርአይዎ፡​ሀለወክሙ was examined. Its structure does not conform to standard Ge'ez tense formation. Hypothesis S2 proposes it is an emphatic future, likely a calque from a Semitic original. This interpretation is strongly supported by the literary context and is the consensus view among specialists, making it the most plausible solution.\nOther lexical points, such as the translation of ነስሐ ('repented' vs. 'regretted') in 55:1 and ሃይማኖቱ ('faith' vs. 'pledge') in 55:2, were noted as significant for translation but represent semantic choices rather than syntactic ambiguities and were thus not formulated as primary hypotheses.",
+  "final_decision": {
+    "hypothesis_ref": "S2",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}
+```

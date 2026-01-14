@@ -1,27 +1,7 @@
+```json
 {
   "evaluation": [
     {
-      "hypothesis_ref": "S1",
-      "plausibility": "high",
-      "reasoning": "The parse correctly identifies a long narrative chain of visionary travel. The journey to the 'ends of the earth' and the description of 'seven mountains' are hallmark features of Enoch's cosmic tour.",
-      "parallels": [
-        {
-          "ref": "1 Enoch 24-25",
-          "note": "Description of seven magnificent mountains in the west, one of which reaches heaven like a throne."
-        },
-        {
-          "ref": "1 Enoch 32",
-          "note": "Description of the journey to the Garden of Righteousness, which also involves passing mountains."
-        }
-      ],
-      "context_invariance": "stable",
-      "back_translation": "pass"
-    }
-  ],
-  "decision_log": "S1 correctly models the sequential nature of the visionary journey. The geographical and cosmological details, particularly the seven mountains, are strongly attested within 1 Enoch itself, confirming the reading.",
-  "final_decision": {
-    "hypothesis_ref": "S1",
-    "translation_id": "T1",
-    "confidence": "high"
-  }
-}
+      "hypothesis_ref": "S6",
+      "plausibility": "very high",
+      "reasoning": "The Ge'ez phrase 'እምቅድመ፡ ጽባሆሙ' (ʾəm-qədma ṣəbāḥomu) in 1 Enoch 18:15 literally translates to 'before their morning/rising'. This reading presents a logical difficulty: the stars' sin was not transgressing *before* they were supposed to rise, but rather failing to rise *at* their appointed time, as the following clause clarifies ('እስመ፡ ኢመጽኡ፡ በጊዜሆሙ' - 'because they did not come at their proper time'). The hypothesis posits that 'እምቅድመ' is a slightly imprecise translation of an underlying Greek phrase. This is strongly supported by the extant Greek text of this verse preserved by Georgius Syncellus, which reads 'ἐν ἀρχῇ τῆς ἀνατολῆς αὐτῶν' (en archē tēs anatolēs autōn), meaning 'at the beginning of their rising'. The Ge'ez preposition 'እምቅድመ' (ʾəm-qədma) typically means 'before', whereas a more faithful rendering of the Greek 'ἐν ἀρχῇ' (in the beginning) would have been 'በቀዳሚ' (ba-qadāmi) or a similar construction. This type of minor translational variance, where a common preposition is used for a slightly different

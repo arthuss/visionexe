@@ -1,0 +1,15 @@
+An automated morphological analysis of the provided Ge'ez text has been performed according to the specified scientific rules. The analysis adheres to the `GEZ-POS-1` tagset and the "whitespace" tokenization policy, treating each provided token as an indivisible graphematic unit. For tokens that represent a concatenation of multiple words, the analysis focuses on the initial word within the token, with a note explaining the non-standard tokenization.
+
+```json
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2024-07-30T12:00:00Z",
+    "created_by": "llm",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_077",
+    "graphematic_string": "77:1 ይጼውዕዎ፡ለነፋስ፡ቀዳማዊ፡ ለጽባሓዊ፡እስመ፡ቀዳማዊ፡ ውእቱ፡ወይጼውዕዎ፡ለÃልእ፡ ዜብ፨እስመ፡ልዑል፡ህየ፡ ይወርድ፡ወፈድፋደ፡ህየ፡ ይወርድ፡ቡሩŒ፡ለዓለም፨=፨\n77:2 ወለነፋ

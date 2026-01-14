@@ -1,51 +1,121 @@
 ```json
 {
-  "actors": [],
-  "props": [
+  "actors": [
     {
-      "name": "ደብር",
+      "name": "Enoch",
       "visualTraits": null,
       "changes": null,
-      "role": "rock"
-    },
-    {
-      "name": "ዕፀው",
-      "visualTraits": null,
-      "changes": null,
-      "role": "eye"
-    },
-    {
-      "name": "ወውስቴቱ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "inside"
+      "role": "narrator"
     }
   ],
-  "environments": [],
+  "characters": [
+    {
+      "name": "Unnamed group",
+      "visualTraits": null,
+      "changes": null,
+      "role": "agent"
+    }
+  ],
+  "props": [
+    {
+      "name": "Trees (first mountain)",
+      "visualTraits": [],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Water",
+      "visualTraits": [
+        "flows out from the first mountain"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Sarara and Galbanum",
+      "visualTraits": [
+        "a substance like a fragrant gum",
+        "comes forth from the first mountain"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Aloe Trees",
+      "visualTraits": [
+        "full like almonds",
+        "hard"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Fruit (of the Aloe Trees)",
+      "visualTraits": [
+        "its fragrance is better than any other"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "First Mountain",
+      "visualTraits": [
+        "contains trees",
+        "is a source of flowing water",
+        "produces a fragrant substance"
+      ],
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "Second Mountain",
+      "visualTraits": [
+        "located upon the First Mountain",
+        "contains hard, full aloe trees"
+      ],
+      "changes": null,
+      "role": "location"
+    }
+  ],
+  "locations": [],
+  "environments": [
+    {
+      "name": "Mountainous Landscape",
+      "visualTraits": [
+        "contains multiple mountains, one on top of another",
+        "features unique, fragrant flora"
+      ],
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Line 1",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
+      "title": "Vision of the First Mountain",
+      "location": "First Mountain",
+      "action": "The narrator observes a mountain with trees, from which flows water and a fragrant substance named Sarara and Galbanum.",
+      "actorsInvolved": [
+        "Enoch"
+      ]
     },
     {
-      "title": "Line 2",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
+      "title": "Vision of the Second Mountain",
+      "location": "Second Mountain",
+      "action": "The narrator observes a second mountain situated on top of the first, this one bearing hard, full aloe trees.",
+      "actorsInvolved": [
+        "Enoch"
+      ]
     },
     {
-      "title": "Line 3",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
-    },
-    {
-      "title": "Line 4",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
+      "title": "The Quality of the Fruit",
+      "location": "Second Mountain",
+      "action": "It is described that when an unnamed group takes the fruit from the trees, its fragrance is superior to all others.",
+      "actorsInvolved": [
+        "Unnamed group"
+      ]
     }
   ],
   "blocking": {

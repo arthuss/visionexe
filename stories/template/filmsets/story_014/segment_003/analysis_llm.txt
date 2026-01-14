@@ -1,45 +1,286 @@
 ```json
 {
-  "actors": [],
+  "actors": [
+    {
+      "name": "Enoch",
+      "visualTraits": {
+        "description": "The narrator, referred to as 'I' (አነ) until being named in 14:24. Possesses a 'tongue of flesh' (ልሳን፡​ዘሥጋ) and a 'spirit' (መንፈስየ) given by the Great One.",
+        "age": "unknown",
+        "build": "unknown",
+        "race": "human"
+      },
+      "changes": null,
+      "role": "narrator_prophet"
+    },
+    {
+      "name": "The Great One",
+      "visualTraits": {
+        "description": "A divine being referred to as the 'Holy and Great One' (ቅዱስ፡​ወዓቢይ), 'the Great One' (ዓቢይ), 'Great Glory' (ዓቢየ፡​ስብሐት), and 'the Lord' (እግዚእ). Sits on a high throne. His garments (አጽፉ) are brighter than the sun and whiter than all snow. His face is glorious and honored, but cannot be looked upon by any of flesh. He is surrounded by burning fire.",
+        "age": "unknown",
+        "build": "unknown",
+        "race": "divine_being"
+      },
+      "changes": null,
+      "role": "divine_judge"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Watchers",
+      "visualTraits": {
+        "description": "A group of celestial beings referred to as 'Watchers' (ትጉሃን) and 'children of heaven' (ውሉደ፡​ሰማይ). They are from heaven but are now bound on earth.",
+        "quantity": "group"
+      },
+      "changes": null,
+      "role": "fallen_celestial_beings"
+    },
+    {
+      "name": "Watchers' Children",
+      "visualTraits": {
+        "description": "The 'beloved children' (ውሉድክሙ፡​ፍቁራን) of the Watchers, who are destined to fall by the sword.",
+        "quantity": "group"
+      },
+      "changes": null,
+      "role": "doomed_offspring"
+    },
+    {
+      "name": "Humanity",
+      "visualTraits": {
+        "description": "Referred to as 'men' or 'humanity' (ሰብእ). They were created and given the ability to understand.",
+        "quantity": "group"
+      },
+      "changes": null,
+      "role": "mortals"
+    },
+    {
+      "name": "Cherubim",
+      "visualTraits": {
+        "description": "Beings of fire (ኪሩቤል፡​ዘእሳት) seen in the ceiling of the first house. Their voice (ቃለ፡​ኪሩቤል) is heard around the throne in the second house.",
+        "quantity": "group"
+      },
+      "changes": null,
+      "role": "celestial_beings"
+    },
+    {
+      "name": "Angels",
+      "visualTraits": {
+        "description": "A group of celestial beings (መላእክት) who are unable to enter the second house to see the face of the Great One.",
+        "quantity": "group"
+      },
+      "changes": null,
+      "role": "celestial_beings"
+    },
+    {
+      "name": "The Holy Ones",
+      "visualTraits": {
+        "description": "Beings (ቅዱሳን) who are near the Great One and do not depart day or night.",
+        "quantity": "group"
+      },
+      "changes": null,
+      "role": "celestial_attendants"
+    },
+    {
+      "name": "The Heavenly Host",
+      "visualTraits": {
+        "description": "A vast multitude, 'ten thousand times ten thousand' (ትእልፊተ፡​ትእልፊት), standing before the Great One.",
+        "quantity": "100,000,000"
+      },
+      "changes": null,
+      "role": "celestial_army"
+    }
+  ],
   "props": [
     {
-      "name": "ስእለት",
-      "visualTraits": null,
+      "name": "Book of Rebuke",
+      "visualTraits": {
+        "description": "A written work (መጽሐፍ) containing the 'word of righteousness and of rebuke' for the Watchers, written by Enoch."
+      },
       "changes": null,
-      "role": "prop"
+      "role": "actor_prop:Enoch"
     },
     {
-      "name": "ጸሐፍ",
-      "visualTraits": null,
+      "name": "Sword",
+      "visualTraits": {
+        "description": "A sword (ሰይፍ) by which the children of the Watchers will fall."
+      },
       "changes": null,
-      "role": "prop"
+      "role": "scene_prop"
     },
     {
-      "name": "ፍጽምት",
-      "visualTraits": null,
+      "name": "Throne",
+      "visualTraits": {
+        "description": "A high throne (መንበረ፡​ሌዑለ) in the second house. Its appearance is like frost (አስሐትያ) and its circumference is like the shining sun (ፀሐይ፡​ዘያበርህ)."
+      },
       "changes": null,
-      "role": "prop"
+      "role": "scene_prop"
+    },
+    {
+      "name": "Garments of the Great One",
+      "visualTraits": {
+        "description": "The clothing (አጽፍ) of the Great One, which is brighter than the sun and whiter than all snow."
+      },
+      "changes": null,
+      "role": "actor_prop:The Great One"
+    }
+  ],
+  "places": [
+    {
+      "name": "Heaven",
+      "visualTraits": {
+        "description": "The celestial realm (ሰማይ) which the Watchers are forbidden to re-enter and into which Enoch is lifted."
+      },
+      "changes": null,
+      "role": "celestial_realm"
+    },
+    {
+      "name": "Earth",
+      "visualTraits": {
+        "description": "The terrestrial realm (ምድር) where the Watchers are to be bound for all the days of the world."
+      },
+      "changes": null,
+      "role": "terrestrial_realm"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Wall of Hailstones",
+      "visualTraits": {
+        "description": "A wall (ጥቅም) built of hailstones (ዕብነ፡​በረድ) and surrounded by a tongue of fire (ልሳነ፡​እሳት)."
+      },
+      "changes": null,
+      "role": "boundary"
+    },
+    {
+      "name": "The Great House (First House)",
+      "visualTraits": {
+        "description": "A large house (ቤት፡​ዓቢይ) built of hailstones (አዕባነ፡​በረድ). Its floor is like paving slabs of hailstone, and its ground is hail. Its ceiling is like shooting stars and lightning, with fiery Cherubim in their midst, and its 'sky' is water. Its doorways burn with fire. It is as hot as fire and as cold as hail."
+      },
+      "changes": null,
+      "role": "antechamber"
+    },
+    {
+      "name": "The Second House (Inner House)",
+      "visualTraits": {
+        "description": "A second house (ከልእ፡​ቤት) larger than the first, with all its doorways open. It is built with a tongue of fire (ልሳነ፡​እሳት). Its floor is fire, and above it is lightning and shooting stars. Its ceiling is also burning fire."
+      },
+      "changes": null,
+      "role": "throne_room"
+    },
+    {
+      "name": "Doorway",
+      "visualTraits": {
+        "description": "The doorway (ኆኅት) of the second house, to which Enoch is brought."
+      },
+      "changes": null,
+      "role": "threshold"
     }
   ],
   "environments": [
     {
-      "name": "ዓለም",
-      "visualTraits": null,
+      "name": "Vision",
+      "visualTraits": {
+        "description": "The mode of perception (ራእይ) for the entire experience."
+      },
+      "changes": {
+        "is_dynamic": true,
+        "phases": [
+          {
+            "phase_label": "Phase 1: Sleep",
+            "description": "The vision begins in sleep (በንዋምየ)."
+          },
+          {
+            "phase_label": "Phase 2: Waking Vision",
+            "description": "The narrator is now awake ('what I now speak') but still experiencing the vision."
+          }
+        ]
+      },
+      "role": "perceptual_state"
+    },
+    {
+      "name": "Atmospheric Phenomena",
+      "visualTraits": {
+        "description": "Clouds (ደመናት), mist (ጊሜ), shooting stars (ሩጸተ፡​ከዋክብት), lightning (መባርቅት), and winds (ነፋሳት) that call, hurry, and transport the narrator."
+      },
+      "changes": {
+        "is_dynamic": true,
+        "phases": [
+          {
+            "phase_label": "Phase 1: Summons",
+            "description": "Clouds and mist call to Enoch."
+          },
+          {
+            "phase_label": "Phase 2: Propulsion",
+            "description": "Shooting stars and lightning hurry him."
+          },
+          {
+            "phase_label": "Phase 3: Transport",
+            "description": "Winds lift him into the sky."
+          }
+        ]
+      },
+      "role": "visionary_vehicle"
+    },
+    {
+      "name": "Fire",
+      "visualTraits": {
+        "description": "A pervasive element (እሳት). Appears as a 'tongue of fire' (ልሳነ፡​እሳት) around the wall and as the building material of the second house. The first house's door burns with fire, and the house is hot as fire. The second house's floor and ceiling are fire. Streams of fire (አፍላገ፡​እሳት) flow from the throne, and a great fire surrounds and stands before the Great One."
+      },
       "changes": null,
-      "role": "environment"
+      "role": "elemental_substance"
+    },
+    {
+      "name": "Hail/Frost/Snow",
+      "visualTraits": {
+        "description": "A pervasive cold element. Appears as hailstones (ዕብነ፡​በረድ) used to build the wall and first house. The ground of the first house is hail (በረድ), and it is as cold as hail. The throne's appearance is like frost (አስሐትያ). The Great One's garments are whiter than snow (በረድ)."
+      },
+      "changes": null,
+      "role": "elemental_substance"
     }
   ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 14 Segment 3",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
-    }
-  ],
-  "blocking": {
-    "anchors": [],
-    "paths": []
-  }
-}
-```
+      "title": "The Proclamation of Judgment",
+      "location": "Earth (implied)",
+      "action": "Enoch recounts the divine decree he received in a vision, writing down the irrevocable judgment against the Watchers and their children, who will be bound on Earth and whose offspring will be slain.",
+      "actorsInvolved": [
+        "Enoch",
+        "The Great One",
+        "Watchers",
+        "Watchers' Children"
+      ]
+    },
+    {
+      "title": "The Ascent",
+      "location": "Sky",
+      "action": "In his vision, Enoch is called by clouds and mist, hurried by stars and lightning, and then lifted up into the heavens by winds.",
+      "actorsInvolved": [
+        "Enoch"
+      ]
+    },
+    {
+      "title": "The First Heavenly House",
+      "location": "The Great House (First House)",
+      "action": "Enoch approaches a wall of hailstone surrounded by fire, enters, and comes to a house made of hailstone. Overcome by the environment, which is both hot as fire and cold as hail, he is filled with fear and falls on his face.",
+      "actorsInvolved": [
+        "Enoch"
+      ]
+    },
+    {
+      "title": "The Second Heavenly House and Throne",
+      "location": "The Second House (Inner House)",
+      "action": "Enoch beholds a second, greater house made of fire. Inside, he sees a high throne and the Great Glory seated upon it, surrounded by fire, his host, and the Holy Ones. No angel can approach.",
+      "actorsInvolved": [
+        "Enoch",
+        "The Great One",
+        "Cherubim",
+        "Angels",
+        "The Holy Ones",
+        "The Heavenly Host"
+      ]
+    },
+    {
+      "title": "The Divine Summons",
+      "location": "Doorway of the Second House",
+      "action": "While prostrate and trembling, Enoch is called by name by the Lord. The Lord raises him and brings him to the doorway of the second house, where Enoch looks down.",
+      "

@@ -1,33 +1,30 @@
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "S2-P1",
-        "structure_type": "Appositional Phrase",
-        "bracket_notation": "[S [VP t5] [Appo t6]]",
+        "id": "P1",
+        "structure_type": "Genitive Phrase",
+        "bracket_notation": "[NP [N t1] [Gen t2]]",
         "dependencies": [
-          "t5->t6 (apposition)"
+          "t1->t2 (genitive)"
         ],
-        "notes": "The phrase 'a righteous man' (t6) is in apposition to the subject 'Enoch' within the verbal phrase 'and Enoch said' (t5)."
+        "notes": "One possible analysis of the relationship between the verse number (t1) and the verse text (t2). The text, a nominal phrase, is treated as a genitive modifier of the verse number, akin to a title's content."
       },
       {
-        "id": "S2-P2",
-        "structure_type": "Verbal Phrase",
-        "bracket_notation": "[VP [V t8] [Obj t9]]",
+        "id": "P2",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [NP t1] [NP t2]]",
         "dependencies": [
-          "t8->t9 (object)"
+          "t1->t2 (apposition)"
         ],
-        "notes": "The verb 'and he saw a vision' (t8) takes 'a holy (vision) of the heavens' (t9) as its object."
+        "notes": "An alternative analysis for the pair (t1, t2). The nominal phrase (t2) is treated as being in apposition to the verse number (t1), renaming or specifying it."
       },
       {
-        "id": "S2-P3",
-        "structure_type": "Verbal Phrase",
-        "bracket_notation": "[VP [V t10] [PP t11]]",
+        "id": "P3",
+        "structure_type": "Apposition",
+        "bracket_notation": "[FRAG [NP t3] [S t4]]",
         "dependencies": [
-          "t10->t11 (prep_mod)"
+          "t3->t4 (apposition)"
         ],
-        "notes": "The verb 'and I heard' (t10) is modified by the prepositional phrase 'from them' (t11)."
-      }
-    ]
-  }
-}
+        "notes": "Analysis of the relationship

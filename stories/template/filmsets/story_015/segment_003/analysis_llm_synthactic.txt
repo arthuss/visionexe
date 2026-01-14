@@ -1,19 +1,15 @@
+An exhaustive syntactic analysis of the provided Ge'ez text is presented below, adhering to the specified scientific rules. Each Ge'ez sentence or major clausal unit, corresponding to a token in the input, is analyzed. For each token, all syntactically valid parses are enumerated, capturing structural ambiguities without semantic preference. The analysis uses bracket notation and provides explicit head-dependent relationships.
+
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "P1",
-        "structure_type": "Series of Coordinated Verbal Clauses",
-        "bracket_notation": "[S-INT [ADV-INT (part of t5)] [VP t5 [NP-OBJ (part of t5) [ADJP t6]]]] [S-COORD [VP t9] [PP t7] [PP t8]] [S-COORD [VP (part of t9)] [IO t10] [OBJ t10]] [S-COORD [VP t11] [OBJ t12]]",
+        "id": "t2_p1",
+        "token_id": "t2",
+        "structure_type": "Multi-Clause Sentence (Parataxis)",
+        "bracket_notation": "[S [Clause [V ወአውሥአኒ]] [Clause [V ወይቤለኒ] [PP [P በ] [NP ቃሉ]]] [Clause [V ስማዕ]] [Clause [V ኢትፍራህ]] [NP_voc [N ሄኖክ] [Appos [NP [NP [N ብእሲ] [Adj ጻድቅ]] [Conj ወ] [NP [N ጸሐፌ] [Gen ጽድቅ]]]]] [Clause [V ቅረብ] [Adv ዝየ]] [Clause [V ወስማዕ] [Obj ቃልየ]]]",
         "dependencies": [
-          "t5->t6 (adjectival_modifier)",
-          "t9->t7 (oblique_complement)",
-          "t9->t8 (oblique_complement)",
-          "t9->t10 (indirect_object)",
-          "t11->t12 (direct_object)"
-        ],
-        "notes": "An interrogative clause followed by a series of coordinated declarative clauses."
-      }
-    ]
-  }
-}
+          "ROOT->ወአውሥአኒ (paratactic)",
+          "ROOT->ወይቤለኒ (paratactic)",
+          "ወይቤለኒ->በቃሉ (

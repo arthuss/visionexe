@@ -1,35 +1,331 @@
 ```json
 {
   "actors": [
-    {"name":"ወተናገሮሙ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ለሎሙ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ውሉዱ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ጽድቆ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ወይቤ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ስምዑ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ደቂቀ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ሄኖ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ነገረ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ብሙ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ወጽምኡ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ርት","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ቃለ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ፉየ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"እስመ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ሰምዕ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ዲቤሙ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ወእነግረሙ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ፍቅርዋ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ለርትዕ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ወባቲ","visualTraits":"unknown","changes":[],"role":"unknown"},
-    {"name":"ሑሩ","visualTraits":"unknown","changes":[],"role":"unknown"}
+    {
+      "name": "Enoch",
+      "visualTraits": {
+        "description": "The speaker of the prophecy. Father of Methuselah."
+      },
+      "changes": null,
+      "role": "prophet"
+    },
+    {
+      "name": "Methuselah",
+      "visualTraits": {
+        "description": "Son of Enoch."
+      },
+      "changes": null,
+      "role": "messenger"
+    },
+    {
+      "name": "The Holy Lord",
+      "visualTraits": {
+        "description": "A divine being who executes judgment."
+      },
+      "changes": null,
+      "role": "judge"
+    },
+    {
+      "name": "The Great King",
+      "visualTraits": {
+        "description": "A royal figure for whom a house will be built in glory."
+      },
+      "changes": null,
+      "role": "ruler"
+    }
   ],
-  "props": [],
-  "environments": [],
-  "scenes": [],
+  "characters": [
+    {
+      "name": "Children of Enoch",
+      "visualTraits": {
+        "description": "The collective audience of Enoch's speech, including his son Methuselah, his brothers, and his kinsmen."
+      },
+      "changes": null,
+      "role": "audience"
+    },
+    {
+      "name": "The Wicked",
+      "visualTraits": {
+        "description": "A collective group encompassing sinners, those of a double heart, oppressors, blasphemers, and the unrighteous."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Flourishing",
+          "description": "Violence, lawlessness, sin, and blasphemy increase on the earth."
+        },
+        {
+          "phase": "Phase 2: Judged",
+          "description": "Uprooted, delivered into the hands of the righteous, destroyed by the sword, and cast into a pit of fire."
+        },
+        {
+          "phase": "Phase 3: Eradicated",
+          "description": "Their works depart from the earth and they are destroyed forever."
+        }
+      ],
+      "role": "antagonist_group"
+    },
+    {
+      "name": "The Righteous",
+      "visualTraits": {
+        "description": "A collective group encompassing the righteous, the wise, and the chosen."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Oppressed",
+          "description": "Subject to the violence and lawlessness on Earth."
+        },
+        {
+          "phase": "Phase 2: Empowered",
+          "description": "They arise, are given a sword for judgment, and build houses of their possessions."
+        },
+        {
+          "phase": "Phase 3: Eternal",
+          "description": "Live forever in goodness and righteousness."
+        }
+      ],
+      "role": "protagonist_group"
+    },
+    {
+      "name": "Angels",
+      "visualTraits": {
+        "description": "Mentioned in the context of the great judgment."
+      },
+      "changes": null,
+      "role": "divine_being"
+    },
+    {
+      "name": "Powers of the Heavens",
+      "visualTraits": {
+        "description": "Entities that will shine in the new heaven."
+      },
+      "changes": null,
+      "role": "celestial_being"
+    }
+  ],
+  "props": [
+    {
+      "name": "Word/Voice",
+      "visualTraits": {
+        "description": "An intangible voice that calls to Enoch."
+      },
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "Spirit",
+      "visualTraits": {
+        "description": "An intangible spirit poured out upon Enoch."
+      },
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "Sword",
+      "visualTraits": {
+        "description": "A weapon given to the righteous for executing judgment."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Slaughtering-instrument",
+      "visualTraits": {
+        "description": "An instrument of destruction for those who devise violence and blasphemy."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "House for the Great King",
+      "visualTraits": {
+        "description": "A glorious house to be built for eternity."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "Earth",
+      "visualTraits": {
+        "description": "The setting for the rise of iniquity and the subsequent judgment and purification."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Corrupt",
+          "description": "A state where violence, lawlessness, sin, and blasphemy are rampant."
+        },
+        {
+          "phase": "Phase 2: Judged",
+          "description": "A great plague and judgment from the Holy Lord purges the world of iniquity."
+        },
+        {
+          "phase": "Phase 3: Renewed",
+          "description": "A place of eternal righteousness where sin is no longer mentioned."
+        }
+      ],
+      "role": "setting"
+    },
+    {
+      "name": "Heaven",
+      "visualTraits": {
+        "description": "The celestial realm, which undergoes a transformation."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: First Heaven",
+          "description": "The initial state of the heavens, which passes away after the great judgment."
+        },
+        {
+          "phase": "Phase 2: New Heaven",
+          "description": "A new heaven appears, where the celestial powers shine eternally."
+        }
+      ],
+      "role": "setting"
+    },
+    {
+      "name": "Pit of burning fire",
+      "visualTraits": {
+        "description": "A place of judgment where the wicked are thrown."
+      },
+      "changes": null,
+      "role": "location"
+    }
+  ],
+  "environments": [
+    {
+      "name": "First Heaven",
+      "visualTraits": {
+        "description": "The original heaven that exists before the final judgment."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Existing",
+          "description": "The state of the heavens prior to the Tenth Week."
+        },
+        {
+          "phase": "Phase 2: Passed Away",
+          "description": "The first heaven departs and passes away."
+        }
+      ],
+      "role": "celestial_environment"
+    },
+    {
+      "name": "New Heaven",
+      "visualTraits": {
+        "description": "A new celestial realm that appears after the first has passed away."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Non-existent",
+          "description": "Does not exist prior to the final judgment."
+        },
+        {
+          "phase": "Phase 2: Appears",
+          "description": "Appears after the first heaven passes away, shining with eternal light."
+        }
+      ],
+      "role": "celestial_environment"
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Summons",
+      "location": "An unspecified gathering place.",
+      "action": "Enoch, compelled by a voice and spirit, instructs his son Methuselah to gather all their kinsmen. Methuselah departs and fulfills the request.",
+      "actorsInvolved": [
+        "Enoch",
+        "Methuselah"
+      ]
+    },
+    {
+      "title": "Enoch's Address: The Two Paths",
+      "location": "The gathering place.",
+      "action": "Enoch addresses his assembled family, urging them to love and walk in righteousness and to avoid duplicity and association with the double-hearted.",
+      "actorsInvolved": [
+        "Enoch",
+        "Methuselah",
+        "Children of Enoch"
+      ]
+    },
+    {
+      "title": "Prophecy of Rising Iniquity",
+      "location": "The gathering place (in speech).",
+      "action": "Enoch foretells a future where violence and lawlessness will grow strong on Earth, culminating in a great plague.",
+      "actorsInvolved": [
+        "Enoch"
+      ]
+    },
+    {
+      "title": "Prophecy of Divine Judgment",
+      "location": "Earth (in prophecy).",
+      "action": "Enoch prophesies that the Holy Lord will emerge in wrath to execute judgment. Iniquity will be uprooted, and the wicked will be cast into a fiery judgment.",
+      "actorsInvolved": [
+        "The Holy Lord",
+        "The Wicked"
+      ]
+    },
+    {
+      "title": "Prophecy of the Rise of the Righteous",
+      "location": "Earth (in prophecy).",
+      "action": "Enoch foretells that the righteous and wise will arise. Sinners and evildoers will be destroyed by the sword and other instruments of slaughter.",
+      "actorsInvolved": [
+        "The Righteous",
+        "The Wicked"
+      ]
+    },
+    {
+      "title": "Prophecy of the Weeks",
+      "location": "Earth and Heaven (in prophecy).",
+      "action": "Enoch details a chronology of future epochs: the eighth week brings a sword of judgment and building; the ninth brings universal righteous judgment; the tenth brings the great eternal judgment, the passing of the first heaven, and the appearance of a new heaven.",
+      "actorsInvolved": [
+        "The Righteous",
+        "The Wicked",
+        "The Great King",
+        "Angels"
+      ]
+    },
+    {
+      "title": "Final Exhortation",
+      "location": "The gathering place.",
+      "action": "Enoch concludes by reiterating his purpose: to show his children the paths of righteousness and violence, and he urges them to choose the former to avoid eternal destruction.",
+      "actorsInvolved": [
+        "Enoch",
+        "Children of Enoch"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "gathering_place",
+        "description": "Implied location where Enoch is speaking to his family."
+      },
+      {
+        "id": "kinsmen_location",
+        "description": "Implied location(s) of Methuselah's brothers and kinsmen, away from the gathering place."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Methuselah",
+        "start_anchor": "gathering_place",
+        "end_anchor": "kinsmen_location",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Goes ('ሖረ') to call his brothers and kinsmen as instructed by Enoch."
+      },
+      {
+        "actor": "Methuselah",
+        "start_anchor": "kinsmen_location",
+        "end_anchor": "gathering_place",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Gathers ('¡ስተጋብ¡ሙ') his kinsmen and brings them to Enoch."
+      }
+    ]
   }
 }
 ```

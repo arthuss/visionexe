@@ -1,23 +1,323 @@
 ```json
 {
   "actors": [
-    {"name":"ወጻድቃነ","visualTraits":null,"changes":null,"role":null},
-    {"name":"ዚሙ","visualTraits":null,"changes":null,"role":null},
-    {"name":"ይውኑ","visualTraits":null,"changes":null,"role":null},
-    {"name":"እማንቱ","visualTraits":null,"changes":null,"role":null},
-    {"name":"መዋዕል","visualTraits":null,"changes":null,"role":null},
-    {"name":"ጽዕለተ","visualTraits":null,"changes":null,"role":null},
-    {"name":"ለኃጥን","visualTraits":null,"changes":null,"role":null},
-    {"name":"ወለረረሲዓን","visualTraits":null,"changes":null,"role":null}
+    {
+      "name": "The Creator",
+      "visualTraits": {
+        "description": "Referred to as 'the Most High' (ልዑል), 'He who created you' (ዘፈጠረŒሙ), and 'your Creator' (ፈጣሪŒሙ). No physical description is provided."
+      },
+      "changes": null,
+      "role": "Divine judge who will destroy the wicked and rejoice in their ruin."
+    }
   ],
-  "props": [],
-  "environments": [],
+  "characters": [
+    {
+      "name": "My Children",
+      "visualTraits": {
+        "description": "The addressees of the speech, referred to as 'my children' (ደቂቅየ). Likely synonymous with 'the righteous'."
+      },
+      "changes": null,
+      "role": "Audience"
+    },
+    {
+      "name": "The Righteous",
+      "visualTraits": {
+        "description": "A group of people (ጻድቃን) who are instructed to follow the path of righteousness and peace to attain life."
+      },
+      "changes": null,
+      "role": "Protagonist group"
+    },
+    {
+      "name": "Chosen Men",
+      "visualTraits": {
+        "description": "A group from a generation (ሰብእ፡እሙራን፡ እምትውልድ) who will be uprooted."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-judgment",
+          "description": "Existing within a generation."
+        },
+        {
+          "phase": "Phase 2: Judged",
+          "description": "Uprooted (ይት…ሠቱ) from their generation."
+        }
+      ],
+      "role": "Antagonist group"
+    },
+    {
+      "name": "Sinners",
+      "visualTraits": {
+        "description": "A group (ኃጥƒን) who mislead people into doing evil. They are destined for tribulation."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-judgment",
+          "description": "Actively misleading others."
+        },
+        {
+          "phase": "Phase 2: Judged",
+          "description": "Will face tribulation (ጽዕለተ) on the day of judgment."
+        }
+      ],
+      "role": "Antagonist group"
+    },
+    {
+      "name": "Builders of Injustice",
+      "visualTraits": {
+        "description": "Those who build oppression (ዐመፃ) and injustice (ግፍዕ) and establish deceit (ጕሕሉት)."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-judgment",
+          "description": "Actively building injustice and deceit."
+        },
+        {
+          "phase": "Phase 2: Judged",
+          "description": "Will be suddenly uprooted (ፍጡነ፡ ይትነሠቱ) and have no peace."
+        }
+      ],
+      "role": "Antagonist group"
+    },
+    {
+      "name": "Builders of Houses with Sin",
+      "visualTraits": {
+        "description": "Those who build their houses with sin (የሐንጹ፡ ብያቶሙ፡Åኀጢ¡ት)."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-judgment",
+          "description": "Building houses founded on sin."
+        },
+        {
+          "phase": "Phase 2: Judged",
+          "description": "Will be uprooted from their foundations (እም÷ሉ፡መሠረቶሙ፡ይትነሠቱ) and fall by the sword."
+        }
+      ],
+      "role": "Antagonist group"
+    },
+    {
+      "name": "Acquirers of Gold and Silver",
+      "visualTraits": {
+        "description": "Those who acquire gold and silver (እለ፡ ያጠርይዎ፡ለወርቅ፡ወለብሩር)."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-judgment",
+          "description": "Acquiring wealth."
+        },
+        {
+          "phase": "Phase 2: Judged",
+          "description": "Will suddenly perish (ፍጡነ፡ይትሐጐሉ)."
+        }
+      ],
+      "role": "Antagonist group"
+    },
+    {
+      "name": "The Rich",
+      "visualTraits": {
+        "description": "The wealthy (¡ብዕልት) who trust in their riches."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-judgment",
+          "description": "Possessing and trusting in wealth (ብዕልŒሙ)."
+        },
+        {
+          "phase": "Phase 2: Judged",
+          "description": "Will depart from their riches (እምነ፡ብዕልŒሙ፡ትወጽኡ) because they did not remember the Most High."
+        }
+      ],
+      "role": "Antagonist group"
+    },
+    {
+      "name": "The Wicked",
+      "visualTraits": {
+        "description": "A group (ረሲዓን) mentioned alongside sinners as those for whom the day of judgment will be a tribulation."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-judgment",
+          "description": "Existing in a state of wickedness."
+        },
+        {
+          "phase": "Phase 2: Judged",
+          "description": "Will face tribulation (ጽዕለተ) on the day of judgment."
+        }
+      ],
+      "role": "Antagonist group"
+    }
+  ],
+  "props": [
+    {
+      "name": "Houses of Sin",
+      "visualTraits": {
+        "description": "Houses (ብያቶሙ) built with sin as their material."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Built",
+          "description": "Constructed by a group of sinners."
+        },
+        {
+          "phase": "Phase 2: Destroyed",
+          "description": "Uprooted from their foundations."
+        }
+      ],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Sword",
+      "visualTraits": {
+        "description": "A sword (ሰይፍ) by which the 'Builders of Houses with Sin' will fall."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Gold",
+      "visualTraits": {
+        "description": "Gold (ወርቅ) acquired by a group of sinners."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Silver",
+      "visualTraits": {
+        "description": "Silver (ብሩር) acquired by a group of sinners."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "Foundations",
+      "visualTraits": {
+        "description": "The foundations (መሠረቶሙ) of the 'Houses of Sin', from which they will be uprooted."
+      },
+      "changes": null,
+      "role": "part_of_structure"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Paths of Righteousness",
+      "visualTraits": {
+        "description": "A metaphorical path (ፍናዋተ፡ጽድቅ) described as fitting and profitable."
+      },
+      "changes": null,
+      "role": "metaphorical_setting"
+    },
+    {
+      "name": "Paths of Oppression",
+      "visualTraits": {
+        "description": "A metaphorical path (ፍናዋተ፡ዐመፃ) that will quickly perish and be cut short."
+      },
+      "changes": null,
+      "role": "metaphorical_setting"
+    },
+    {
+      "name": "Paths of Injustice and Death",
+      "visualTraits": {
+        "description": "A metaphorical path (ፍናዋተ፡ግፍዕ፡ወሞት) from which one should stay far away."
+      },
+      "changes": null,
+      "role": "metaphorical_setting"
+    },
+    {
+      "name": "Paths of Evil and Injustice",
+      "visualTraits": {
+        "description": "A metaphorical path (ፍናዋተ፡ እኩይ፡ወግፍዕ) that the righteous are commanded not to walk."
+      },
+      "changes": null,
+      "role": "metaphorical_setting"
+    },
+    {
+      "name": "Paths of Death",
+      "visualTraits": {
+        "description": "A metaphorical path (Åፍናዋተ፡ ሞት) that the righteous are commanded not to approach, lest they perish."
+      },
+      "changes": null,
+      "role": "metaphorical_setting"
+    },
+    {
+      "name": "Paths of Peace",
+      "visualTraits": {
+        "description": "A metaphorical path (ፍናዋተ፡ሰላም) that the righteous are commanded to walk in order to live."
+      },
+      "changes": null,
+      "role": "metaphorical_setting"
+    },
+    {
+      "name": "Day of Blood",
+      "visualTraits": {
+        "description": "A temporal environment (ዕለተ፡Œዕወተ፡ደም), part of the great judgment."
+      },
+      "changes": null,
+      "role": "temporal_setting"
+    },
+    {
+      "name": "Day of Darkness",
+      "visualTraits": {
+        "description": "A temporal environment (ዕለተ፡ ጽልመት), part of the great judgment."
+      },
+      "changes": null,
+      "role": "temporal_setting"
+    },
+    {
+      "name": "Day of Great Judgment",
+      "visualTraits": {
+        "description": "A temporal environment (ዕለተ፡÷ነµ፡ዐባይ) of destruction for the wicked."
+      },
+      "changes": null,
+      "role": "temporal_setting"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title":"Segment 11",
-      "location":null,
-      "action":null,
-      "actorsInvolved":["ወጻድቃነ","ዚሙ","ይውኑ","እማንቱ","መዋዕል","ጽዕለተ","ለኃጥን","ወለረረሲዓን"]
+      "title": "Exhortation to the Paths of Righteousness",
+      "location": "Abstract instructional setting",
+      "action": "An unnamed speaker instructs 'My Children' to love and walk in the path of righteousness and peace, and to avoid the paths of evil, injustice, and death.",
+      "actorsInvolved": [
+        "My Children",
+        "The Righteous"
+      ]
+    },
+    {
+      "title": "Warning Against the Deceit of Sinners",
+      "location": "Abstract instructional setting",
+      "action": "The speaker warns his audience not to be led astray by sinners who teach them to do evil.",
+      "actorsInvolved": [
+        "My Children",
+        "Sinners"
+      ]
+    },
+    {
+      "title": "Woes Pronounced on the Wicked",
+      "location": "Abstract prophetic setting",
+      "action": "A series of woes are pronounced against various groups: those who build injustice, those who build houses with sin, those who acquire wealth, and the rich, detailing their sudden destruction and dispossession.",
+      "actorsInvolved": [
+        "Builders of Injustice",
+        "Builders of Houses with Sin",
+        "Acquirers of Gold and Silver",
+        "The Rich",
+        "The Creator"
+      ]
+    },
+    {
+      "title": "The Day of Judgment",
+      "location": "Abstract prophetic setting",
+      "action": "The speaker describes the coming day of judgment as one of blood, darkness, and great tribulation, where the Creator will destroy the wicked without mercy and rejoice in their ruin. The righteous of that time will be a spectacle for the sinners and wicked.",
+      "actorsInvolved": [
+        "The Creator",
+        "The Rich",
+        "The Righteous",
+        "Sinners",
+        "The Wicked"
+      ]
     }
   ],
   "blocking": {

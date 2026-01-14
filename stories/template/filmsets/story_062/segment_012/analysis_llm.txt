@@ -1,12 +1,318 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
-  "scenes": [],
+  "actors": [
+    {
+      "name": "Lord of Spirits",
+      "visualTraits": [
+        "Sits on the throne of glory.",
+        "His face causes the lawless to perish.",
+        "His word slays all sinners."
+      ],
+      "changes": null,
+      "role": "The ultimate judge who commands the scene."
+    },
+    {
+      "name": "The Elect One / Son of Man",
+      "visualTraits": [
+        "Referred to as 'the Elect One', 'Son of a woman', and 'Son of Man'."
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Hidden",
+          "description": "Was hidden from the beginning by the Most High before being revealed."
+        },
+        {
+          "phase": "Phase 2: Revealed Judge",
+          "description": "Revealed to the elect and sits on the throne of glory to execute judgment."
+        },
+        {
+          "phase": "Phase 3: Transformed into Garment",
+          "description": "Becomes the 'Garment of Life' for the righteous, based on the analysis that 'He will be a garment of life' (v.16)."
+        }
+      ],
+      "role": "The central figure of judgment and salvation, who was hidden and is now revealed."
+    },
+    {
+      "name": "The Most High",
+      "visualTraits": [
+        "Possesses 'power' before which the Son of Man was preserved."
+      ],
+      "changes": null,
+      "role": "The one who preserved and hid the Son of Man. Appears to be an epithet for the Lord of Spirits."
+    }
+  ],
+  "characters": [
+    {
+      "name": "Kings, the Mighty, and the Exalted",
+      "visualTraits": [
+        "Described as kings, the mighty, the exalted, and those who possess the earth/dry land.",
+        "Possess metaphorical 'horns'."
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Powerful",
+          "description": "Rulers of the earth."
+        },
+        {
+          "phase": "Phase 2: Judged and Shamed",
+          "description": "Experience pain like a woman in labor, have downcast faces, and their faces are filled with shame and darkness."
+        }
+      ],
+      "role": "The earthly rulers who are brought to judgment."
+    },
+    {
+      "name": "Sinners and the Lawless",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Those who are destroyed by the word and presence of the enthroned judge."
+    },
+    {
+      "name": "The Righteous and the Elect",
+      "visualTraits": [
+        "Referred to as the 'congregation of the holy and elect'."
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Terrestrial",
+          "description": "Dwell on earth with downcast faces."
+        },
+        {
+          "phase": "Phase 2: Resurrected and Glorified",
+          "description": "Rise from the earth, no longer have downcast faces, are saved, and wear the 'Garment of Life'. Their glory does not perish."
+        }
+      ],
+      "role": "The group that is saved and exalted."
+    },
+    {
+      "name": "Woman in Travail",
+      "visualTraits": [
+        "In the pains of childbirth when her child comes to the mouth of the womb."
+      ],
+      "changes": null,
+      "role": "A simile for the pain experienced by the kings."
+    },
+    {
+      "name": "Angels of Punishment",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Entities who take the condemned kings to exact retribution for their oppression of the righteous."
+    }
+  ],
+  "props": [
+    {
+      "name": "Throne of Glory",
+      "visualTraits": [
+        "A throne upon which the Lord of Spirits and the Son of Man sit."
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Horns",
+      "visualTraits": [
+        "A metaphorical attribute of the kings and mighty, which they are commanded to raise."
+      ],
+      "changes": null,
+      "role": "actor_prop:Kings, the Mighty, and the Exalted"
+    },
+    {
+      "name": "Garment of Life",
+      "visualTraits": [
+        "A garment that does not wear out.",
+        "A source of imperishable glory."
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Bestowed Clothing",
+          "description": "Given to and worn by the risen righteous and elect."
+        },
+        {
+          "phase": "Phase 2: Personified Garment",
+          "description": "Is revealed to be the Son of Man himself."
+        }
+      ],
+      "role": "actor_prop:The Righteous and the Elect"
+    }
+  ],
+  "places": [
+    {
+      "name": "Earth",
+      "visualTraits": [
+        "The dwelling place of the kings and the initial location of the righteous.",
+        "Also referred to as 'dry land'."
+      ],
+      "changes": null,
+      "role": "The terrestrial realm from which judgment and salvation proceed."
+    }
+  ],
+  "locations": [
+    {
+      "name": "Before the Throne of Glory",
+      "visualTraits": [
+        "The area in front of the Throne of Glory where judgment occurs."
+      ],
+      "changes": null,
+      "role": "The primary stage for the judgment scene."
+    }
+  ],
+  "environments": [
+    {
+      "name": "Divine Judgment Court",
+      "visualTraits": [
+        "A setting centered around a throne where judgment is dispensed."
+      ],
+      "changes": null,
+      "role": "The overall setting of the chapter."
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Command to the Rulers",
+      "location": "Divine Judgment Court",
+      "action": "The Lord commands the kings and mighty of the earth to open their eyes and recognize the Elect One.",
+      "actorsInvolved": [
+        "Lord of Spirits",
+        "The Elect One / Son of Man",
+        "Kings, the Mighty, and the Exalted"
+      ]
+    },
+    {
+      "title": "The Enthroned Judge",
+      "location": "Before the Throne of Glory",
+      "action": "The Lord of Spirits sits on his throne of glory, and the spirit of righteousness is poured out upon the Elect One. The word from his mouth slays all sinners and the lawless.",
+      "actorsInvolved": [
+        "Lord of Spirits",
+        "The Elect One / Son of Man",
+        "Sinners and the Lawless"
+      ]
+    },
+    {
+      "title": "The Terror of the Kings",
+      "location": "Before the Throne of Glory",
+      "action": "The kings and mighty stand and see the Son of Man enthroned. They are seized with pain, like a woman in childbirth, and their faces are downcast.",
+      "actorsInvolved": [
+        "Kings, the Mighty, and the Exalted",
+        "The Elect One / Son of Man"
+      ]
+    },
+    {
+      "title": "The Revelation of the Hidden One",
+      "location": "Divine Judgment Court",
+      "action": "It is explained that the Son of Man was hidden from the beginning but is now revealed to the elect, who stand before him. The congregation of the holy is sown.",
+      "actorsInvolved": [
+        "The Elect One / Son of Man",
+        "The Most High",
+        "The Righteous and the Elect"
+      ]
+    },
+    {
+      "title": "The Condemnation of the Kings",
+      "location": "Before the Throne of Glory",
+      "action": "The kings and mighty fall on their faces, worship, and beg for mercy from the Son of Man. The Lord of Spirits drives them away in haste, their faces filling with shame and darkness. The Angels of Punishment take them to exact retribution.",
+      "actorsInvolved": [
+        "Kings, the Mighty, and the Exalted",
+        "The Elect One / Son of Man",
+        "Lord of Spirits",
+        "Angels of Punishment"
+      ]
+    },
+    {
+      "title": "The Exaltation of the Righteous",
+      "location": "Divine Judgment Court",
+      "action": "The righteous and elect are saved and rejoice. They rise from the earth, are clothed in the Garment of Life (which is the Son of Man), and will dwell, eat, and rise with the Lord of Spirits and the Son of Man forever.",
+      "actorsInvolved": [
+        "The Righteous and the Elect",
+        "Lord of Spirits",
+        "The Elect One / Son of Man"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "throne",
+        "description": "The Throne of Glory, the central point of the scene."
+      },
+      {
+        "id": "before_throne",
+        "description": "The area directly in front of the throne where beings stand for judgment."
+      },
+      {
+        "id": "earth",
+        "description": "The terrestrial realm, the starting point for the righteous and the domain of the kings."
+      },
+      {
+        "id": "away_from_presence",
+        "description": "An unspecified location away from the throne where the condemned are driven."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Lord of Spirits",
+        "start_anchor": "throne",
+        "end_anchor": "throne",
+        "motion": "stand",
+        "duration_sec": null,
+        "notes": "Sits/dwells ('ነበረ') on the throne of glory."
+      },
+      {
+        "actor": "The Elect One / Son of Man",
+        "start_anchor": "throne",
+        "end_anchor": "throne",
+        "motion": "stand",
+        "duration_sec": null,
+        "notes": "Sits/dwells ('ይነብር') on the throne of glory."
+      },
+      {
+        "actor": "Kings, the Mighty, and the Exalted",
+        "start_anchor": "earth",
+        "end_anchor": "before_throne",
+        "motion": "stand",
+        "duration_sec": null,
+        "notes": "They stand ('ይቀውሙ') before the throne on the day of judgment."
+      },
+      {
+        "actor": "Kings, the Mighty, and the Exalted",
+        "start_anchor": "before_throne",
+        "end_anchor": "before_throne",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "They fall ('ይወድቁ') on their faces before the throne."
+      },
+      {
+        "actor": "Kings, the Mighty, and the Exalted",
+        "start_anchor": "before_throne",
+        "end_anchor": "away_from_presence",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "They are driven out ('ያጔጕዖሙ... ይፃኡ') from His presence."
+      },
+      {
+        "actor": "The Righteous and the Elect",
+        "start_anchor": "before_throne",
+        "end_anchor": "before_throne",
+        "motion": "stand",
+        "duration_sec": null,
+        "notes": "All the elect stand ('ይቀውሙ') before him on that day."
+      },
+      {
+        "actor": "The Righteous and the Elect",
+        "start_anchor": "earth",
+        "end_anchor": "before_throne",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "They rise ('ተንሥኡ') from the earth to a glorified state."
+      },
+      {
+        "actor": "Angels of Punishment",
+        "start_anchor": "unknown",
+        "end_anchor": "away_from_presence",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "They seize ('ይትሜጠውዎሙ') the kings after they have been driven out."
+      }
+    ]
   }
 }
 ```

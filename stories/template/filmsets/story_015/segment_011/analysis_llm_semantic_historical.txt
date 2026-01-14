@@ -1,23 +1,64 @@
+```json
 {
   "evaluation": [
     {
-      "hypothesis_ref": "S11_P1",
+      "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The parse correctly identifies a main noun ('mänfäsä raʿāytni', and the spirits of the giants) followed by a long chain of relative clauses/participles ('ʾǝllä yǝgäfʿu, yǝmasǝnu, wäyǝwäddǝqu...'), which describe the destructive actions of these spirits. This is a common way to elaborate on the nature of a subject.",
+      "reasoning": "In 1 Enoch 15:9, the text reads 'ወነፍላት፡​እኩያን፡​ወፅኡ፡​እምሥጋሆሙ' (And evil giants came forth from their flesh). This is logically incoherent, as the giants *are* the beings with flesh; it is their disembodied spirits that come forth after death. The preceding verse (15:8) introduces the topic as 'መናፍስተ፡​እኩያነ' (evil spirits). Hypothesis S1 posits that 'ነፍላት' (giants, cf. Hebrew Nephilim) is a scribal error for 'መናፍስት' (spirits). This emendation resolves the logical contradiction and aligns the verse perfectly with its immediate context (vv. 8, 10-12) which is entirely about the origin and nature of these evil spirits.",
       "parallels": [
         {
-          "ref": "missing",
-          "note": "While the specific list of actions is unique, the use of a chain of participles or relative verbs to modify a noun is a well-attested stylistic feature in Ge'ez narrative."
+          "ref": "George Syncellus, Chronographia (ed. Dindorf, p. 47)",
+          "note": "The Greek fragment of this verse preserved by Syncellus reads 'πνεύματα πονηρὰ ἐξελθόντα ἀπὸ τοῦ σώματος' (evil spirits coming out from the body [of their flesh]). This provides strong external attestation for the reading 'spirits' (መናፍስት) instead of 'giants' (ነፍላት)."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "high",
+      "reasoning": "In 1 Enoch 15:4, the phrase 'ወበደመ፡​ሰብእ፡​ፈተውክሙ' (and in/with the blood of man you desired) is syntactically ambiguous. It could mean 'you desired human blood' or 'you desired in a human, blood-based manner'. Hypothesis S2 posits the latter interpretation. The preposition 'በ-' (in, with, by) indicates the sphere or manner of the action, not the direct object. This reading is supported by the parallelism with the preceding clause, 'ወበደመ፡​ሥጋ፡​አውለድክሙ' (and in the blood of flesh you begot). The point is not that they are vampires, but that the spiritual Watchers engaged in carnal lust ('ፈተውክሙ') and procreation, activities defined by flesh and blood ('ደመ፡​ሰብእ'), which are alien to their spiritual nature.",
+      "parallels": [
+        {
+          "ref": "Galatians 5:16 (Ge'ez Version)",
+          "note": "The construction is paralleled by phrases like 'ሑሩ በመንፈስ' (walk in the Spirit), where 'በ-' denotes the sphere of activity, not an instrument. The contrast in 1 Enoch 15:4 is between the Watchers' spiritual nature and their acting 'in the sphere of human blood/carnality'."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S3",
+      "plausibility": "moderate",
+      "reasoning": "In 1 Enoch 15:11, the word 'ደመናተ' (clouds), accusative plural, appears after 'ወመንፈሰ፡​ረአይት' (and the spirits of the giants). Its syntactic function is unclear. Hypothesis S3 proposes that 'ደመናተ' is a metaphorical appositive: 'And the spirits of the giants, [who are like] clouds...'. The subsequent verbs describe destructive actions ('oppress', 'fall upon', 'crush') that are analogous to a violent storm. The spirits, like storm clouds, bring destruction but are themselves incorporeal, neither eating nor drinking. While the metaphor is unusual, it is plausible within apocalyptic imagery.",
+      "parallels": [
+        {
+          "ref": "Jude 1:12 (Ge'ez Version)",
+          "note": "Jude, which quotes Enoch, uses a similar metaphor, describing false teachers as 'ደመና ዘአልቦ ማየ' (waterless clouds). This attests to the use of 'cloud' imagery for harmful, non-productive spiritual or human agents in the same literary tradition, lending plausibility to the metaphor in 1 Enoch 15:11."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S4",
+      "plausibility": "high",
+      "reasoning": "In 1 Enoch 15:12, many manuscripts read 'ወኢይትነሥኡ፡​እሎንቱ፡​ነፍሳት፡​ዲበ፡​ውሉደ፡​ሰብእ' (And these spirits will *not* rise up against the children of men). This directly contradicts the preceding verse (15:11), which details the spirits' violent attacks on the earth. Hypothesis S4 posits that the negative particle 'ኢ-' is a scribal error and the correct reading, supported by other manuscripts and the context, is 'ወይትነሥኡ' (And they rise up). This correction makes the verse a logical continuation of v. 11, specifying the victims of the spirits' attacks.",
+      "parallels": [
+        {
+          "ref": "1 Enoch Critical Editions (e.g., R.H. Charles, A. Dillmann)",
+          "note": "Major critical editions of 1 Enoch note the manuscript variation and adopt the positive reading 'ወይትነሥኡ' (And they rise up) based on overwhelming contextual and logical demands. The negative reading creates an insoluble contradiction."
         }
       ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "S11_P1 accurately reflects the syntax of the description, where a single subject is modified by a list of its characteristic actions.",
+  "decision_log": "The evaluation focused on four key points of syntactic and semantic difficulty in 1 Enoch 15. S1 addresses a probable scribal error ('ነፍላት' for 'መናፍስት' in v. 9) that obscures the meaning; the emendation is strongly supported by Greek evidence and internal logic. S2 clarifies a theological point in v. 4 by analyzing the function of the preposition 'በ-', preferring a 'sphere of action' reading over a 'direct object' reading. S3 tackles the strange word 'ደመናተ' (clouds) in v. 11, arguing for a metaphorical appositive reading, which is the most economical explanation of the received text, despite its oddity. S4 proposes a necessary textual correction in v. 12 ('ወይትነሥኡ' for 'ወኢይትነሥኡ') to resolve a blatant contradiction with the preceding verse. All hypotheses were checked for contextual stability and parallels. The highest confidence is placed in S1 and S4, which are text-critical corrections essential for coherence. S2 is a robust grammatical interpretation. S3 remains the most uncertain, but is the best available option without emending the text against manuscript evidence.",
   "final_decision": {
-    "hypothesis_ref": "S11_P1",
-    "translation_id": "T11",
+    "hypothesis_ref": "S1",
+    "translation_id": "T1",
     "confidence": "high"
   }
 }
+```

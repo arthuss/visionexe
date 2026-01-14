@@ -1,0 +1,15 @@
+An important note on methodology: The provided `tokenization.json` groups multiple words, separated by the Ge'ez word separator `፡`, into single "tokens". This is inconsistent with standard linguistic practice and the design of the requested JSON schema, which assumes one word per token. To produce a scientifically rigorous and meaningful morphological analysis, a necessary deviation was made: the `surface` strings from the input were re-tokenized into individual words based on spaces and the `፡` separator. The resulting analysis is presented as a flat list of tokens, each corresponding to a single word, with `token_id` and `span` recalculated accordingly. Punctuation marks (`፨`, `=፨`) have been omitted from the analysis as they are not lexical items.
+
+```json
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2024-07-29T12:00:00Z",
+    "created_by": "llm",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_084",
+    "graphematic_string": "84:1 ወ¡ልዐልኩ፡እደውየ፡Åጽድቅ፡ ወባረŒዎ፡ለቅዱስ፡ወለዐቢይ፡ ወነ

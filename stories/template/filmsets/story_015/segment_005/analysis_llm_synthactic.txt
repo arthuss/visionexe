@@ -1,20 +1,15 @@
+An exhaustive syntactic analysis of the provided Ge'ez text is presented below, adhering to the specified scientific rules. Each Ge'ez sentence or major clausal unit, corresponding to a token in the input, is analyzed. For each token, all syntactically valid parses are enumerated, capturing structural ambiguities without semantic preference. The analysis uses bracket notation and provides explicit head-dependent relationships.
+
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "P1",
-        "structure_type": "Main Clause with Subordinate Purpose Clauses",
-        "bracket_notation": "[S [ADV t5] [VP t5 [NP-OBJ t6]] [S-PURP1 [CONJ (part of t6)] [VP t6 [PP t7]]] [S-PURP1-COORD [CONJ (part of t7)] [VP t7 [NP-SUBJ (part of t7)]]] [S-PURP2 [CONJ (part of t8)] [VP t9 [NP-SUBJ (part of t9)]] [PP t10]]]",
+        "id": "t2_p1",
+        "token_id": "t2",
+        "structure_type": "Multi-Clause Sentence (Parataxis)",
+        "bracket_notation": "[S [Clause [V ወአውሥአኒ]] [Clause [V ወይቤለኒ] [PP [P በ] [NP ቃሉ]]] [Clause [V ስማዕ]] [Clause [V ኢትፍራህ]] [NP_voc [N ሄኖክ] [Appos [NP [NP [N ብእሲ] [Adj ጻድቅ]] [Conj ወ] [NP [N ጸሐፌ] [Gen ጽድቅ]]]]] [Clause [V ቅረብ] [Adv ዝየ]] [Clause [V ወስማዕ] [Obj ቃልየ]]]",
         "dependencies": [
-          "t5->t6 (direct_object)",
-          "t5->t6 (purpose_clause)",
-          "t6->t7 (coordinated_clause)",
-          "t5->t8 (purpose_clause)",
-          "t8->t9 (clause_content)",
-          "t9->t10 (locative_modifier)"
-        ],
-        "notes": "A single complex sentence where the main verb 'gave' is followed by a series of purpose/result clauses explaining the reason."
-      }
-    ]
-  }
-}
+          "ROOT->ወአውሥአኒ (paratactic)",
+          "ROOT->ወይቤለኒ (paratactic)",
+          "ወይቤለኒ->በቃሉ (

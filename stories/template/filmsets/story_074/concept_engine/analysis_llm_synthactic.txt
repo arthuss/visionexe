@@ -1,0 +1,19 @@
+An enumeration of all possible scientific syntactic analyses for the provided Ge'ez text, adhering to the principles of full structure space enumeration without ambiguity reduction.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S74_1",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [CONJ (conj t2)] [VP [V (head t3)] [NP (obj t2)] [PP (advl t3)] [SBAR (mod t3, t4, t5)]]]",
+        "dependencies": [
+          "t3 (ርኢኩ) -> t2 (ወÃልእ፡ምሕዋረ፡ወትእዛዘ፡) (object)",
+          "t3 (ርኢኩ) -> t3 (ሎቱ) (adverbial)",
+          "t2 (ወÃልእ፡ምሕዋረ፡ወትእዛዘ፡) -> t3 (እንተ) (relative_clause_modifier)",
+          "t3 (እንተ) -> t4 (ይገብር) (clause_head)",
+          "t4 (ይገብር) -> t3 (Åውእቱ) (adverbial)",
+          "t4 (ይገብር) -> t4 (ትእዛዝ) (subject)",
+          "t4 (ይገብር) -> t4 (ምሕዋሮ) (object)",
+          "t4 (ምሕዋ

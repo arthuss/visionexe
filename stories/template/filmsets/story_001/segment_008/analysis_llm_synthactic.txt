@@ -1,33 +1,30 @@
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "S8-P1",
-        "structure_type": "Verbal Clause",
-        "bracket_notation": "[S [VP t5] [Coord [VP t7]]]",
+        "id": "P1",
+        "structure_type": "Genitive Phrase",
+        "bracket_notation": "[NP [N t1] [Gen t2]]",
         "dependencies": [
-          "t5->t7 (coordination)"
+          "t1->t2 (genitive)"
         ],
-        "notes": "The clause 'to the righteous he will give peace' (t5) is coordinated with 'and he will protect the chosen' (t7)."
+        "notes": "One possible analysis of the relationship between the verse number (t1) and the verse text (t2). The text, a nominal phrase, is treated as a genitive modifier of the verse number, akin to a title's content."
       },
       {
-        "id": "S8-P2",
-        "structure_type": "Verbal Clause",
-        "bracket_notation": "[S [VP t9] [Coord [VP t10]]]",
+        "id": "P2",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [NP t1] [NP t2]]",
         "dependencies": [
-          "t9->t10 (coordination)"
+          "t1->t2 (apposition)"
         ],
-        "notes": "The clause 'and they will be' (t9) is coordinated with 'and they will prosper' (t10)."
+        "notes": "An alternative analysis for the pair (t1, t2). The nominal phrase (t2) is treated as being in apposition to the verse number (t1), renaming or specifying it."
       },
       {
-        "id": "S8-P3",
-        "structure_type": "Verbal Phrase",
-        "bracket_notation": "[VP [V t11] [Obj t12]]",
+        "id": "P3",
+        "structure_type": "Apposition",
+        "bracket_notation": "[FRAG [NP t3] [S t4]]",
         "dependencies": [
-          "t11->t12 (object)"
+          "t3->t4 (apposition)"
         ],
-        "notes": "The verb 'and he will give light' (t11) takes 'light of fullness' (t12) as its object."
-      }
-    ]
-  }
-}
+        "notes": "Analysis of the relationship

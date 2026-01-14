@@ -1,0 +1,26 @@
+An analysis of the provided text reveals that the tokenization is not based on linguistic word units but rather on larger chunks of text, often containing multiple words, punctuation, and lacunae. This makes a standard morphological analysis impossible for a significant portion of the tokens.
+
+The following analysis adheres strictly to the provided rules:
+1.  **Graphematic Fidelity**: Each token's `surface` is preserved exactly as given.
+2.  **Token Integrity**: The provided tokens are not split or merged.
+3.  **Analysis Strategy**:
+    *   **Single-Word Tokens**: Tokens that represent a single linguistic unit (e.g., `ወስማንቱ`, `ባግዕ፡`) are given a full morphological analysis with one or more options.
+    *   **Multi-Word / Fragmented Tokens**: Tokens containing internal word separators (`፡`), sentence separators (`፨`), lacunae (`…`), or multiple distinct words (e.g., `መዝ፡ይርዕዩ፡`, `ሠሉሰ፨ወስብዐቱ፡`) are deemed unanalyzable as a single morphological unit. For these, a single option is provided with `confidence: "ruled_out"` and a note explaining the issue, as per the scientific requirement to acknowledge the limits of the analysis under the given constraints.
+    *   **Special Characters**: Non-standard characters (e.g., `¡`, `Å`, `¢`) are treated as part of the graphematic surface, with their likely linguistic value noted in the analysis where applicable.
+    *   **Verse Numbers/Punctuation**: Tokens representing only verse numbers or punctuation are identified as such.
+
+This approach ensures that the output is both scientifically rigorous and honest about the challenges posed by the non-standard tokenization of the input text.
+
+```json
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2024-07-30T12:00:00Z",
+    "created_by": "llm",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_090",
+    "graphematic_string": "90:1 ወርኢኩ፡እስ…፡ዘመን፡…መ፡ መዝ፡ይርዕዩ፡ ሠሉሰ፨ወስብዐቱ፡ ኖላዊያን፨ወፈጸሙ፨÷ሎሙ፡ ፡ጊዜሆሙ፡…መ፡ቀዳሚያን፡ ወÅዕድ፡ተመጠዎሙ፡ውስተ፡ እደዊሆሙ፡…መ፡ይርዐይዎሙ፡ ፡ጊዜሆሙ፡÷ሉ፡ኖላዊ፡ ጊዜሁ፨=፨\n90:2 ወእምዝ፡ርኢኩ፡Åራዕይ፡÷ሉ፡ ዕዋፈ፡ሰማይ፡መጽኡ፡ ንስርት፡ወ¡ውስት፡ወሆባይ፡ ወቋዓት፡ወ¡ንስርት፡ ይመርሕዎሙ፡ለ÷ሎሙ፡ ዕዋፍ፨ወ¡ኀዙ፡ይብልዕዎሙ፡ ለእልኩ፡¡ባግዕ፡ወይ…ርዩ፡ ዕይንቲሆሙ፡ወይብልዕዎ፡ ለሥጋሆሙ፨\n90:3 ወ¡ባግዕ፡ጸርሑ፡እስመ፡ተÅልዑ፡ ሥጋሆሙ፡እምነ፡¡ዕዋፍ፡ወ¡ነ፡ ጸራኅኩ፡ወ¡ውየውኩ፡Åንዋምየ፡ ዲÅ፡ውእቱ፡ኖላዊ፡ዘይርእዮሙ፡ ለ¡ባግዕ፨\n90:4 ወርኢኩ፡እስ…፡ተÅልዑ፡ዝኩ፡ ባግዕ፡እም¡Œላብ፡ ወእም¡ንስርት፡ወእምሆባይ፡ ወኢኀደጉ፡ሎሙ፡ሥጋ፡ግሙራ፡ ወኢማዕሰ፡ወኢሥርወ፡እስ…፡ ቆመ፡ባሕቲቱ፡¡ዕጽምቲሆሙ፡ ወ¡ዕጽምቲሆሙሰ፡ወድቁ፡ ውስተ፡ምድር፨ወንእሱ፡¡ባግዕ፡\n90:5 ወርኢኩ፡እስ…፡ዘመን፡እስ…፡ ዕሥራ፡ወሠለስቱ፡ይርዕዩ፡ ወፈጸሙ፡ÅÅ፡ጊዜሆሙ፡ሐምስ፡ ወስማንቱ ጊዜያተ፨=፨\n90:6 ወነዋ፡መኃስእት፡ተወልዱ፡ እምዝኩ፡¡ባግዕት፡ ጸዓድ፨ወ¡ኀዙ፡¡ዕይንቲሆሙ፡ ይŒሥቱ፡ወይር¡ዩ፡ወይጽር¢፡ ኀÅ፡¡ባግዕ፡\n90:7 ወ¡ባግዕ፡ኢጸርሕዎሙ፡ ወኢያጽምኡ፡ነገርሙ፡¡ላ፡ ፈድፋደ፡ተጸመሙ፡ወተጸለለ፡ ዕይንቲሆሙ፡ፈድፋደ፡ወኀያለ፨\n90:8 ወርኢኩ፡Åራእይ፡ቋዓተ፡…መ፡ ሠረረ፡ዲÅ፡እልኩ፡መሐስእ፡ ወ¡ኀዝዎ፡እም¡ሐዱ፡ለዝኩ፡ መሐስእ፡ወቀጥቀጥቀዎሙ፡ ለ¡ባግዕ፡ወÅልዕዎሙ፨\n90:9 ወርኢኩ፡እስ…፡ወጽ¡፡ሎሙ፡ ቅርነት፡ለዝኩመሐስእ፡ወቋት፡ ያዳቅዎሙ፡ ለ¡ቅርንቲሆሙ፨=፨ወርኢኩ፡ እስ…፡Åቈለ፡¡ሐዱ፡ቀርን፡ ዐቢይ፡¡ሐዱ፡እምነ፡ዝኩ፡ ባግዕ፡ወተ…ሥተ፡¡ዕይንቲሆሙ ።\n90:10 ወርእየ፡¡ዕይንቲሆሙ፡ወርእየ፡ ቦሙ፡ወተፈትሑ፡¡ዕይንቲሆሙ፡ ወጸር¢፡ሎሙ፡ለ¡ባግዕ፡ ወዳቤለት፡ርእይዎ፡ወሮጹ፡ ሎሙ፡ኀቤሁ፡\n90:11 ወምስለዝ፡÷ሉ፡እልኩ፡ ንስርት፡ወዐውስት፡ወቋዐት፡ ወሆባይ፡እስ…፡ይእዜ፡ ይመሥጥዎሙ፡ለ¡ባግዕ፡ ወይስርፉ፡ዲቤሆሙ፡ ወይÅልዕዎሙ፨ወ¡ባግዕሰ፡ ያረምሙ፡ወዳቤላት፡የ¡ወይዉ፡ ወይጸር¢፨\n90:12 ወእልኩ፡ቋዓት፡ይትጋደሉ፡ ወይትÅ¡ሱ፡ምስሌሁ፨ወፈቀዱ፡ ያእትቱ

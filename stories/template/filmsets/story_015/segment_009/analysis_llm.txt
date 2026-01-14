@@ -1,46 +1,161 @@
+```json
 {
   "actors": [
     {
-      "name": "እምሥጋሆሙ",
-      "visualTraits": [],
-      "changes": [],
-      "role": "Creator"
+      "name": "The Voice",
+      "visualTraits": {
+        "description": "An unnamed entity that speaks to Enoch with its word ('በቃሉ')."
+      },
+      "changes": null,
+      "role": "divine messenger"
     },
     {
-      "name": "እምቅዱሳን",
-      "visualTraits": [],
-      "changes": [],
-      "role": "Holy"
+      "name": "Enoch",
+      "visualTraits": {
+        "description": "Described as a 'righteous man' ('ብእሲ ጻድቅ') and 'scribe of righteousness' ('ጸሐፌ ጽድቅ')."
+      },
+      "changes": null,
+      "role": "prophet"
     }
   ],
-  "props": [],
-  "environments": [
+  "characters": [
     {
-      "name": "ምድር",
-      "visualTraits": [],
-      "changes": [],
-      "role": "Earth"
+      "name": "Watchers of Heaven",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-Fall",
+          "description": "Described as 'holy spiritual beings' ('መንፈሰውያን ቅዱሳን'), 'living an eternal life' ('ሕያዋነ ሕይወት ዘለዓለም'), and immortal. Their dwelling was in Heaven."
+        },
+        {
+          "phase": "Phase 2: Fallen",
+          "description": "They left Heaven, became defiled with women, and acted like mortal 'children of the earth' ('ውሉደ ምድር') who are defined by flesh and blood. They procreated with human women, fathering the Giants."
+        }
+      ],
+      "role": "fallen angels"
     },
     {
-      "name": "ወነፍሳት",
-      "visualTraits": [],
-      "changes": [],
-      "role": "Wind"
+      "name": "Women",
+      "visualTraits": {
+        "description": "Also referred to as 'daughters of men' ('አዋልደ ሰብእ'). They are mortal humans with whom the Watchers procreated."
+      },
+      "changes": null,
+      "role": "human"
+    },
+    {
+      "name": "Giants",
+      "visualTraits": {
+        "description": "The offspring of the Watchers and human women, described as 'children of the giants' ('ውሉደ ረአይተ'). They are mortal beings of flesh and blood who die and decay."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Corporeal",
+          "description": "Physical beings of flesh and blood."
+        },
+        {
+          "phase": "Phase 2: Post-Mortem Transformation",
+          "description": "After death, their spirits emerge from their flesh to become 'Evil Spirits'."
+        }
+      ],
+      "role": "offspring"
+    },
+    {
+      "name": "Evil Spirits",
+      "visualTraits": {
+        "description": "Spirits that originated from the flesh of the dead Giants. They are also called 'spirits of the giants' ('መንፈሰ ረአይት'). Their dwelling is on Earth. They are described metaphorically as 'clouds' ('ደመናተ') that oppress, corrupt, fall, struggle, and crush on the earth, causing sorrow. They do not eat or drink, are invisible, and rise up against humans."
+      },
+      "changes": null,
+      "role": "malevolent entity"
+    },
+    {
+      "name": "Spirits of Heaven",
+      "visualTraits": {
+        "description": "Spiritual beings whose dwelling is in Heaven, mentioned in contrast to the Evil Spirits whose dwelling is on Earth."
+      },
+      "changes": null,
+      "role": "heavenly beings"
+    },
+    {
+      "name": "Children of Men",
+      "visualTraits": {
+        "description": "The general human population ('ውሉደ ሰብእ'), who are victims of the Evil Spirits."
+      },
+      "changes": null,
+      "role": "human"
     }
   ],
+  "props": [
+    {
+      "name": "Flesh and Blood",
+      "visualTraits": {
+        "description": "The substance ('ሥጋ ወደመ') that defines mortal life, procreation, and death. The Watchers transgressed by acting in the sphere of flesh and blood."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Heaven",
+      "visualTraits": {
+        "description": "Described as 'high, holy, and eternal' ('ሰማየ ልዑለ ወቅዱሰ ዘለዓለም'). It is the dwelling place of the Spirits of Heaven and the original home of the Watchers."
+      },
+      "changes": null,
+      "role": "celestial realm"
+    },
+    {
+      "name": "Earth",
+      "visualTraits": {
+        "description": "The realm where mortal deeds are done, and the designated dwelling place ('ማኅደሪሆሙ') for the Evil Spirits."
+      },
+      "changes": null,
+      "role": "terrestrial realm"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Here",
+      "visualTraits": {
+        "description": "An unspecified location ('ዝየ') where The Voice is present and to which Enoch is commanded to approach."
+      },
+      "changes": null,
+      "role": "point of audience"
+    }
+  ],
+  "environments": [],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 15 Segment 9",
-      "location": "unknown",
-      "action": "Invocation/Prayer",
+      "title": "The Judgment on the Watchers",
+      "location": "Here",
+      "action": "The Voice commands Enoch to approach and then delivers a divine judgment, explaining why the Watchers' request for intercession is denied. The speech details their fall from a spiritual to a carnal state, the creation of the Giants, and the origin and destructive nature of the Evil Spirits that arise from the Giants' dead bodies.",
       "actorsInvolved": [
-        "እምሥጋሆሙ",
-        "እምቅዱሳን"
+        "The Voice",
+        "Enoch"
       ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "anchor_enoch_start",
+        "description": "Enoch's initial position before being addressed."
+      },
+      {
+        "id": "anchor_voice",
+        "description": "The location of The Voice, designated as 'Here' ('ዝየ')."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Enoch",
+        "start_anchor": "anchor_enoch_start",
+        "end_anchor": "anchor_voice",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Enoch is commanded to 'Approach here' ('ቅረብ ዝየ')."
+      }
+    ]
   }
 }
+```

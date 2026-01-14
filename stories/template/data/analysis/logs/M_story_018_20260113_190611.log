@@ -1,0 +1,17 @@
+﻿[2026-01-13 19:06:11] START engine/workers/worker_llm_analysis_Morphologic.py 18 --chapter-batch --use-vertex --vertex-model gemini-2.5-pro --vertex-project wallpaper-management-hub --vertex-location europe-west4
+[19:06:11] LLM: Vertex (model=gemini-2.5-pro, project=wallpaper-management-hub, location=europe-west4)
+[19:06:11] Filmsets: C:\Users\sasch\visionexe\stories\template\filmsets
+[19:06:11] Progress CSV: C:\Users\sasch\visionexe\stories\template\data\analysis\analysis_progress_python_morphologic_v2.csv
+[19:06:11] Chapter Label: story
+[19:06:11] Found 108 chapters.
+[19:06:28] Vertex HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.",
+    "status": "RESOURCE_EXHAUSTED"
+  }
+}
+
+[19:06:28] No response for story_018.
+[19:06:28] All tasks completed.
+[2026-01-13 19:06:28] EXIT 0

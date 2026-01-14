@@ -1,10 +1,180 @@
+```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
-  "scenes": [],
+  "actors": [
+    {
+      "name": "Lord of Spirits",
+      "visualTraits": {
+        "description": "A divine being to whom prayers ascend and before whom judgment is sought."
+      },
+      "changes": null,
+      "role": "divine_judge"
+    },
+    {
+      "name": "Head of Days",
+      "visualTraits": {
+        "description": "A divine being seated on a throne of glory."
+      },
+      "changes": null,
+      "role": "divine_ruler"
+    }
+  ],
+  "characters": [
+    {
+      "name": "the righteous",
+      "visualTraits": {
+        "description": "Dwellers on Earth whose prayers and shed blood cry out for justice. They are not physically present in the main scene."
+      },
+      "changes": null,
+      "role": "victims"
+    },
+    {
+      "name": "the holy ones",
+      "visualTraits": {
+        "description": "Beings who dwell above the heavens. They intercede on behalf of the righteous and rejoice when their prayers are answered."
+      },
+      "changes": null,
+      "role": "intercessors"
+    },
+    {
+      "name": "the heavenly host",
+      "visualTraits": {
+        "description": "The entire host and council from above the heavens who stand before the throne of the Head of Days."
+      },
+      "changes": null,
+      "role": "attendants"
+    }
+  ],
+  "props": [
+    {
+      "name": "prayer of the righteous",
+      "visualTraits": {
+        "state": "dynamic",
+        "description": "An entity that ascends from Earth to the presence of the Lord of Spirits."
+      },
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "blood of the righteous",
+      "visualTraits": {
+        "state": "dynamic",
+        "description": "An entity representing the lives of the slain righteous, which was shed on Earth and ascends/cries out to the presence of the Lord of Spirits."
+      },
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "books of the living",
+      "visualTraits": {
+        "state": "static",
+        "description": "Books that are opened before the Head of Days on his throne."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Earth",
+      "visualTraits": {
+        "description": "The place from which the prayer and blood of the righteous ascend."
+      },
+      "changes": null,
+      "role": "origin_point"
+    },
+    {
+      "name": "throne of glory",
+      "visualTraits": {
+        "description": "The seat upon which the Head of Days sits in the heavens."
+      },
+      "changes": null,
+      "role": "seat_of_power"
+    }
+  ],
+  "locations": [
+    {
+      "name": "above the heavens",
+      "visualTraits": {
+        "description": "The dwelling place of the holy ones."
+      },
+      "changes": null,
+      "role": "dwelling_area"
+    },
+    {
+      "name": "before the throne",
+      "visualTraits": {
+        "description": "The area in front of the Lord of Spirits / Head of Days where heavenly beings stand and where prayers are received."
+      },
+      "changes": null,
+      "role": "court_area"
+    }
+  ],
+  "environments": [
+    {
+      "name": "heavens",
+      "visualTraits": {
+        "description": "The celestial setting for the main scene, where the throne and heavenly beings are located."
+      },
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Heavenly Court Receives the Cry of the Righteous",
+      "location": "Heavens, before the Throne of Glory",
+      "action": "The prayer and blood of the righteous ascend from Earth to the Lord of Spirits. In response, the holy ones in heaven intercede for judgment. The Head of Days is seen on his throne, with the books of the living opened and the heavenly host in attendance. The plea of the righteous is heard and their blood is vindicated, causing the holy ones to rejoice.",
+      "actorsInvolved": [
+        "Lord of Spirits",
+        "Head of Days",
+        "the righteous",
+        "the holy ones",
+        "the heavenly host"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "earth",
+        "description": "The world below, from which the cries of the righteous ascend."
+      },
+      {
+        "id": "throne",
+        "description": "The throne of glory where the Head of Days is seated."
+      },
+      {
+        "id": "before_the_throne",
+        "description": "The space in front of the throne where the heavenly host stands."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Head of Days",
+        "start_anchor": "throne",
+        "end_anchor": "throne",
+        "motion": "stand",
+        "duration_sec": null,
+        "notes": "The text states he 'sat' (ነበረ) on the throne."
+      },
+      {
+        "actor": "the heavenly host",
+        "start_anchor": "before_the_throne",
+        "end_anchor": "before_the_throne",
+        "motion": "stand",
+        "duration_sec": null,
+        "notes": "The text states they 'stand' (ይቀውሙ) before him."
+      },
+      {
+        "actor": "the holy ones",
+        "start_anchor": "before_the_throne",
+        "end_anchor": "before_the_throne",
+        "motion": "stand",
+        "duration_sec": null,
+        "notes": "Positioned in the heavenly court, interceding and observing the proceedings."
+      }
+    ]
   }
 }
+```

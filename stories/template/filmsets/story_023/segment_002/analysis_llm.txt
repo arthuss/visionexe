@@ -1,12 +1,127 @@
 ```json
 {
-  "actors": [],
-  "props": [],
+  "actors": [
+    {
+      "name": "Narrator",
+      "visualTraits": {
+        "description": "The first-person narrator, identified only as 'I' in the text.",
+        "age": "unknown",
+        "ethnicity": "unknown",
+        "gender": "male"
+      },
+      "changes": null,
+      "role": "observer"
+    },
+    {
+      "name": "Raguel",
+      "visualTraits": {
+        "description": "An angel described as one of the holy angels.",
+        "age": "unknown",
+        "ethnicity": "unknown",
+        "gender": "unknown"
+      },
+      "changes": null,
+      "role": "guide"
+    }
+  ],
+  "characters": [
+    {
+      "name": "The Holy Angels",
+      "visualTraits": {
+        "description": "A group of angels to which Raguel belongs.",
+        "age": "unknown",
+        "ethnicity": "unknown",
+        "gender": "unknown"
+      },
+      "changes": null,
+      "role": "group"
+    }
+  ],
+  "props": [
+    {
+      "name": "Running Fire",
+      "visualTraits": {
+        "description": "A fire that is perpetually burning and running without rest, day or night. It is located towards the west.",
+        "state": "dynamic"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Luminaries of Heaven",
+      "visualTraits": {
+        "description": "All the celestial bodies of the sky. The text implies they are in constant motion, pursued by the Running Fire.",
+        "state": "dynamic"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "The West",
+      "visualTraits": {
+        "description": "A cardinal direction functioning as a region, where the vision takes place.",
+        "state": "static"
+      },
+      "changes": null,
+      "role": "region"
+    },
+    {
+      "name": "Ends of the Earth",
+      "visualTraits": {
+        "description": "The furthest boundary of the world, the destination of the narrator's journey.",
+        "state": "static"
+      },
+      "changes": null,
+      "role": "boundary"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Another Place",
+      "visualTraits": {
+        "description": "An unspecified location towards the west, at the ends of the earth, where the narrator observes the running fire.",
+        "state": "static"
+      },
+      "changes": null,
+      "role": "setting"
+    }
+  ],
   "environments": [],
-  "scenes": [],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Running Fire at the Ends of the Earth",
+      "location": "Another Place, towards the West",
+      "action": "The Narrator travels to a new location at the ends of the earth. There, he sees a fire that runs without rest and asks about its nature. The angel Raguel explains that this fire is the cosmic force that pursues all the luminaries of heaven.",
+      "actorsInvolved": [
+        "Narrator",
+        "Raguel"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "start_location",
+        "description": "An implied starting point from the previous segment, referred to as 'from there'."
+      },
+      {
+        "id": "another_place",
+        "description": "The destination of the journey, described as 'another place, towards the west, to the ends of the earth'."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Narrator",
+        "start_anchor": "start_location",
+        "end_anchor": "another_place",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The narrator travels from an unspecified prior location to the place of the vision."
+      }
+    ]
   }
 }
 ```

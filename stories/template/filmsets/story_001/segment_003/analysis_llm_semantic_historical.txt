@@ -1,39 +1,37 @@
+```json
 {
   "evaluation": [
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "Correctly identifies 'እንተ ኅሩያን' as a prepositional phrase meaning 'concerning the elect'. The preposition 'እንተ' is frequently used in this sense in Enochic literature.",
-      "parallels": [],
+      "reasoning": "Hypothesis S1 posits that the periphrastic construction 'ሀለዉ፡​ይኩኑ' (hallawu yəkunu) in 1:1 functions as a future-in-the-past, meaning 'who were to be' or 'who were destined to be'. This is a recognized, though infrequent, grammatical feature in Classical Ethiopic, formed by the perfect of 'ሀሎ' (hallo, to be/exist) and the imperfect/subjunctive of 'ኮነ' (kona, to be/become). It conveys a sense of predestination, fitting the eschatological context. The extant Greek text (Panopolitanus) has a simpler present participle, 'τοῖς οὖσιν' (tois ousin, 'to those who are'). The Ge'ez translator's choice adds a specific theological nuance, emphasizing that the righteous were designated in the past for a future event.",
+      "parallels": [
+        {
+          "ref": "Dillmann, A. *Ethiopic Grammar*, 2nd ed., trans. J. Crichton (London: Williams & Norgate, 1907), §170.",
+          "note": "Dillmann describes periphrastic conjugations, including combinations of 'hallo' and 'kona' to express complex temporal relationships, which supports this analysis."
+        }
+      ],
       "context_invariance": "stable",
       "back_translation": "pass"
     },
     {
       "hypothesis_ref": "S2",
       "plausibility": "high",
-      "reasoning": "Correctly parses the verbal phrase 'I said and I answered'. 'እንቲሆሙ' is a standard pronominal object of the preposition '(በ)እንተ', meaning 'concerning them'.",
-      "parallels": [],
+      "reasoning": "Hypothesis S2 proposes that the phrase 'ብእሲ፡​ጻድቅ፡​ዘእምኀበ፡​እግዚአብሔር፡​እንዘ፡​አዕይንቲሁ፡​ክሡታት' (bəʾsi ṣādəq za-ʾəm-ḫaba ʾəgziʾabḥer ʾənza ʾaʿyəntihu kəśutāt) in 1:2 is a long nominative clause in apposition to the subject, 'ሄኖክ' (Henok). The alternative reading—that this phrase begins Enoch's direct speech—is contradicted by the following 3rd person verb 'ወይሬኢ' (wa-yəreʾi, 'and he saw'). The appositional structure ('And Enoch answered and said—a righteous man...who saw...') is grammatically sound and aligns with the narrative logic. The Greek text supports this by clearly identifying Enoch as a righteous man whose eyes were opened before relating his vision.",
+      "paralleles": [
+        {
+          "ref": "1 Enoch 1:2 (Greek, Panopolitanus MS)",
+          "note": "The Greek text reads: 'Ἑνὼχ ἄνθρωπος δίκαιος ὢν καὶ ὀφθαλμοὶ αὐτοῦ ἠνεώχθησαν ὑπὸ Κυρίου' ('Enoch, being a righteous man, and his eyes were opened by the Lord'), which confirms the descriptive, appositional nature of the phrase."
+        }
+      ],
       "context_invariance": "stable",
       "back_translation": "pass"
     },
     {
       "hypothesis_ref": "S3",
-      "plausibility": "high",
-      "reasoning": "This parse correctly identifies the main clause of a key theological statement. 'ቅዱስ ወዐቢይ' ('The Holy and Great One') acts as the compound subject for the verb 'ይወፅእ' ('will go out'). The source prepositional phrase 'እማኅደሩ' ('from his dwelling') is also correctly identified. This is a classic theophany description.",
+      "plausibility": "moderate",
+      "reasoning": "Hypothesis S3 addresses the unusual function of the preposition 'ምስለ' (məslä) in 1:3. Its standard meaning is 'with', which creates a difficult reading: 'I took up my parable... with the one who comes forth'. The Greek text presents two separate clauses: 'I will speak... and the Holy One went out'. The Ge'ez translator appears to have syntactically linked Enoch's speech to the divine theophany. The most plausible hypothesis is that 'ምስለ' is used in a secondary, attested sense of 'secundum' ('according to', 'in conformity with'). This would mean: 'I took up my parable... in accordance with the [prophecy of the] one who comes forth'. This reading is semantically coherent but relies on a non-primary meaning of the preposition, indicating a point of interpretive uncertainty. It may reflect a calque from a lost Semitic original or a deliberate theological choice by the translator.",
       "parallels": [
         {
-          "ref": "Micah 1:3",
-          "note": "Describes God 'coming forth out of his place' ('ይወፅእ... እም መካኑ')."
-        }
-      ],
-      "context_invariance": "stable",
-      "back_translation": "pass"
-    }
-  ],
-  "decision_log": "The parses are sequential. S1 likely concludes a thought from the previous segment. S2 and S3 begin the new declaration about the coming of the 'Holy and Great One'. The analysis of each component is sound.",
-  "final_decision": {
-    "hypothesis_ref": "S1+S2+S3",
-    "translation_id": "T3",
-    "confidence": "high"
-  }
-}
+          "ref": "Dillmann, A. *Lexicon Linguae Aethiopicae* (Leipzig, 1865), col. 637.",
+          "note": "Dillmann's lexicon

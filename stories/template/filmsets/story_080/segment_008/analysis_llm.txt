@@ -1,12 +1,305 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
-  "scenes": [],
+  "actors": [
+    {
+      "name": "Uriel",
+      "visualTraits": null,
+      "changes": null,
+      "role": "angel and guide"
+    },
+    {
+      "name": "Enoch",
+      "visualTraits": null,
+      "changes": null,
+      "role": "seer/prophet"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Sinners",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Normal State",
+          "description": "Inhabitants of the earth living under a regular cosmic order."
+        },
+        {
+          "phase": "Phase 2: State of Judgment",
+          "description": "Their years are shortened, their thoughts go astray, and they are afflicted by evil and a destructive plague."
+        }
+      ],
+      "role": "inhabitants of earth"
+    },
+    {
+      "name": "Leaders of the stars of command",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Normal Order",
+          "description": "Celestial beings who guide the stars according to their prescribed paths and times."
+        },
+        {
+          "phase": "Phase 2: Disrupted Order",
+          "description": "They go astray, alter their paths and deeds, and fail to appear at their appointed times."
+        }
+      ],
+      "role": "celestial guides"
+    },
+    {
+      "name": "Those who dwell on earth",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Normal State",
+          "description": "Inhabitants of the earth."
+        },
+        {
+          "phase": "Phase 2: State of Error",
+          "description": "Their thoughts go astray, they turn from their paths, and they mistakenly worship stars as gods."
+        }
+      ],
+      "role": "inhabitants of earth"
+    }
+  ],
+  "props": [
+    {
+      "name": "Great Chariot(s)",
+      "visualTraits": [
+        "Described as 'great' (ዐቢይ)."
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "Earth",
+      "visualTraits": [
+        "Contains fields and ploughed lands for seed."
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Normal Order",
+          "description": "A place where works, seasons, and agriculture function normally."
+        },
+        {
+          "phase": "Phase 2: Disrupted Order",
+          "description": "All works upon it are altered, seed is late, and fruit fails to grow in its season."
+        }
+      ],
+      "role": "setting"
+    },
+    {
+      "name": "Heaven",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Normal Order",
+          "description": "The domain of the stars, from which rain falls."
+        },
+        {
+          "phase": "Phase 2: Disrupted Order",
+          "description": "It 'stands still' and withholds rain."
+        }
+      ],
+      "role": "setting"
+    },
+    {
+      "name": "The West",
+      "visualTraits": null,
+      "changes": null,
+      "role": "directional location"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Sun",
+      "visualTraits": [
+        "A source of light."
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Normal Order",
+          "description": "Follows a prescribed order of light."
+        },
+        {
+          "phase": "Phase 2: Disrupted Order",
+          "description": "Appears aberrantly in the west and shines more brightly than its prescribed order of light."
+        }
+      ],
+      "role": "celestial body"
+    },
+    {
+      "name": "Moon",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Normal Order",
+          "description": "Follows its prescribed order and appears in its proper time."
+        },
+        {
+          "phase": "Phase 2: Disrupted Order",
+          "description": "Alters its order and does not appear in its proper time."
+        }
+      ],
+      "role": "celestial body"
+    },
+    {
+      "name": "Stars of heaven",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Normal Order",
+          "description": "Follow a commanded order and paths."
+        },
+        {
+          "phase": "Phase 2: Disrupted Order",
+          "description": "Their entire order is 'closed' to sinners, and many go astray from their paths. They are mistaken for gods by people on earth."
+        }
+      ],
+      "role": "celestial body"
+    },
+    {
+      "name": "Rain",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Normal Order",
+          "description": "Falls in its proper time."
+        },
+        {
+          "phase": "Phase 2: Disrupted Order",
+          "description": "Is withheld."
+        }
+      ],
+      "role": "weather phenomenon"
+    },
+    {
+      "name": "Seed",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Normal Order",
+          "description": "Grows in its proper time."
+        },
+        {
+          "phase": "Phase 2: Disrupted Order",
+          "description": "Is late for the fields and ploughed lands."
+        }
+      ],
+      "role": "agricultural element"
+    },
+    {
+      "name": "Fruit of the earth",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Normal Order",
+          "description": "Grows and is harvested in its proper season."
+        },
+        {
+          "phase": "Phase 2: Disrupted Order",
+          "description": "Is late and does not grow in its time."
+        }
+      ],
+      "role": "agricultural element"
+    },
+    {
+      "name": "Fruit of the trees",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Normal Order",
+          "description": "Grows in its proper season."
+        },
+        {
+          "phase": "Phase 2: Disrupted Order",
+          "description": "Is withheld in its season."
+        }
+      ],
+      "role": "agricultural element"
+    },
+    {
+      "name": "Barrenness",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Normal State",
+          "description": "Not present."
+        },
+        {
+          "phase": "Phase 2: Manifestation",
+          "description": "Appears from the west, associated with a great chariot."
+        }
+      ],
+      "role": "phenomenon"
+    },
+    {
+      "name": "Evil",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Normal State",
+          "description": "Implicitly at a baseline level."
+        },
+        {
+          "phase": "Phase 2: Manifestation",
+          "description": "Increases upon the sinners."
+        }
+      ],
+      "role": "phenomenon"
+    },
+    {
+      "name": "Plague",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Normal State",
+          "description": "Not present."
+        },
+        {
+          "phase": "Phase 2: Manifestation",
+          "description": "Comes upon the sinners to destroy them."
+        }
+      ],
+      "role": "phenomenon"
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "Uriel's Prophecy of Cosmic Disorder",
+      "location": "An abstract visionary space encompassing Heaven and Earth.",
+      "action": "Uriel reveals to Enoch a future time of judgment ('the days of the sinners') when the laws of nature and the cosmos will be disrupted. Celestial bodies will alter their courses, seasons will fail, agriculture will become barren, and humanity will fall into error, culminating in a destructive plague.",
+      "actorsInvolved": [
+        "Uriel",
+        "Enoch",
+        "Sinners",
+        "Leaders of the stars of command",
+        "Sun",
+        "Moon",
+        "Stars of heaven"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "west",
+        "description": "The western direction, from which an aberrant celestial body and barrenness appear."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Sun",
+        "start_anchor": "unknown",
+        "end_anchor": "west",
+        "motion": "appear",
+        "duration_sec": null,
+        "notes": "The Sun appears aberrantly in the west. This is based on the analysis_context (Hypothesis S1) correcting the literal text's 'heaven' to 'sun' as the subject of the verb 'to appear' and 'to shine'."
+      }
+    ]
   }
 }
 ```

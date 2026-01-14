@@ -1,32 +1,147 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [
+  "actors": [
     {
-      "name": "sun",
-      "visualTraits": null,
-      "changes": null,
-      "role": "celestial body"
+      "name": "Moon (ወርኅ)",
+      "visualTraits": [
+        "A lesser light (ብርሃን፡ንኡስ)",
+        "Has a circular circumference (ŒÅÅ)",
+        "Its light is given to it from the Sun"
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: New Moon",
+          "description": "Circumference is empty and without light (v. 5). Becomes dark at night (v. 7)."
+        },
+        {
+          "phase": "Phase 2: Waxing Crescent",
+          "description": "Rises with exactly a seventh part of its light (v. 8). Receives half a part of light (v. 7)."
+        },
+        {
+          "phase": "Phase 3: Waxing Gibbous",
+          "description": "Receives a seventh part of half of its light, becoming a seventh part and a half (v. 6)."
+        }
+      ],
+      "role": "celestial_body"
     },
     {
-      "name": "day",
-      "visualTraits": null,
-      "changes": null,
-      "role": "time of day"
+      "name": "Sun (ፀሐይ)",
+      "visualTraits": [
+        "The source of the Moon's light (እምብርሃነ፡ፀሐይ)"
+      ],
+      "changes": [],
+      "role": "celestial_body"
     }
   ],
+  "characters": [
+    {
+      "name": "Wind (ነፋስ)",
+      "visualTraits": [
+        "Blows (ትነፋኅ)",
+        "Drives the chariot of the Moon"
+      ],
+      "changes": [],
+      "role": "elemental_force"
+    }
+  ],
+  "props": [
+    {
+      "name": "Chariot (ስረገላተ)",
+      "visualTraits": [
+        "Is ridden/mounted (ይጼዓን)",
+        "Driven by the wind"
+      ],
+      "changes": [],
+      "role": "actor_prop:Moon (ወርኅ)"
+    }
+  ],
+  "places": [
+    {
+      "name": "The East (መንገለ፡ጽባሕ)",
+      "visualTraits": [
+        "The direction from which the Moon comes forth"
+      ],
+      "changes": [],
+      "role": "celestial_origin_point"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Sunrise Point (ሥራቀ፡ፀሐይ)",
+      "visualTraits": [
+        "The place from which the Sun rises"
+      ],
+      "changes": [],
+      "role": "relative_location"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Sky (ሰማይ)",
+      "visualTraits": [
+        "The domain of the Moon's chariot and its circuit"
+      ],
+      "changes": [],
+      "role": "setting"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 73 Segment 8",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
+      "title": "The Law of the Moon",
+      "location": "Sky (ሰማይ)",
+      "action": "The mechanics of the Moon are observed, including its chariot driven by wind, its changing phases of light (waxing and waning in 'seventh parts'), and its cycle of rising and setting in relation to the Sun.",
+      "actorsInvolved": [
+        "Moon (ወርኅ)",
+        "Sun (ፀሐይ)"
+      ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "east",
+        "description": "The East (መንገለ፡ጽባሕ), where the Moon begins its appearance (v. 4)."
+      },
+      {
+        "id": "sunrise_point",
+        "description": "The point of sunrise (ሥራቀ፡ፀሐይ), from which the Sun and Moon emerge (v. 8)."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Moon (ወርኅ)",
+        "start_anchor": "east",
+        "end_anchor": "unknown",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Comes forth from the east to become visible (v. 4)."
+      },
+      {
+        "actor": "Moon (ወርኅ)",
+        "start_anchor": "unknown",
+        "end_anchor": "unknown",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Sets with the Sun (v. 6, v. 7)."
+      },
+      {
+        "actor": "Sun (ፀሐይ)",
+        "start_anchor": "sunrise_point",
+        "end_anchor": "unknown",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Rises (v. 7)."
+      },
+      {
+        "actor": "Moon (ወርኅ)",
+        "start_anchor": "sunrise_point",
+        "end_anchor": "unknown",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Rises with the Sun, coming forth from the point of sunrise (v. 7, v. 8)."
+      }
+    ]
   }
 }
 ```

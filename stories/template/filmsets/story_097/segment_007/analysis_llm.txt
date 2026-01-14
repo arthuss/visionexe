@@ -1,32 +1,252 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
+  "actors": [
+    {
+      "name": "The Lord",
+      "visualTraits": {
+        "description": "A divine being referred to by the nomen sacrum 'እ(ግዚ)' and the title 'እግዚእ'. Remembers the affliction of the righteous and is the recipient of their prayers."
+      },
+      "changes": null,
+      "role": "divine_judge"
+    },
+    {
+      "name": "The Great and Holy One",
+      "visualTraits": {
+        "description": "A divine authority ('ዐቢይ፡ወቅዱስ') before whom the iniquity of the sinners is read out."
+      },
+      "changes": null,
+      "role": "divine_judge"
+    }
+  ],
+  "characters": [
+    {
+      "name": "the righteous",
+      "visualTraits": {
+        "description": "A group of people ('ጻድቃን') who are afflicted and whose prayers are heard."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Affliction",
+          "description": "In a state of affliction ('ሐጕለŒሙ')."
+        },
+        {
+          "phase": "Phase 2: Vindication",
+          "description": "Their prayers ascend and are heard ('ጸሎቶሙ፡ለጻድቃን፡ኀÅ፡ እግዚእ'), leading to the judgment of their oppressors."
+        }
+      ],
+      "role": "protagonist_group"
+    },
+    {
+      "name": "the sinners",
+      "visualTraits": {
+        "description": "A group of people ('ኃጥƒን') who acquire wealth unrighteously, boast of their possessions, and whose faces will be shamed."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Present Wealth",
+          "description": "Possess great, unrighteously-gained wealth ('ብሩረ፡ ወወርቀ'), fill their storehouses, and boast of their power (97:8-9)."
+        },
+        {
+          "phase": "Phase 2: Future Judgment",
+          "description": "Will be destroyed ('ይ…ውኑ'), their faces shamed ('ይትኃፈር፡ገጽŒሙ'), their deeds exposed, and their wealth will rapidly disappear from them ('ፍጡነ፡ የዓርግ፡እምµŒሙ') (97:1, 97:6, 97:10)."
+        }
+      ],
+      "role": "antagonist_group"
+    },
+    {
+      "name": "angels of heaven",
+      "visualTraits": {
+        "description": "Celestial beings ('መላእŒት፡ስማይ') who rejoice over the fate of the righteous."
+      },
+      "changes": null,
+      "role": "celestial_beings"
+    },
+    {
+      "name": "witnesses",
+      "visualTraits": {
+        "description": "A group referred to as 'ሰማዕተ' in the context of a 'matter' or 'word' ('ነገር') coming upon them."
+      },
+      "changes": null,
+      "role": "observer"
+    },
+    {
+      "name": "partners of the sinners",
+      "visualTraits": {
+        "description": "Those who are partners ('ሱቱፋነ') with the sinners."
+      },
+      "changes": null,
+      "role": "accomplice"
+    }
+  ],
+  "props": [
+    {
+      "name": "prayer of the righteous",
+      "visualTraits": {
+        "description": "The prayer ('ጸሎቶሙ') of the righteous, which ascends to the Lord."
+      },
+      "changes": null,
+      "role": "actor_prop:the righteous"
+    },
+    {
+      "name": "silver",
+      "visualTraits": {
+        "description": "Precious metal ('ብሩረ') acquired unrighteously by the sinners."
+      },
+      "changes": null,
+      "role": "actor_prop:the sinners"
+    },
+    {
+      "name": "gold",
+      "visualTraits": {
+        "description": "Precious metal ('ወርቀ') acquired unrighteously by the sinners."
+      },
+      "changes": null,
+      "role": "actor_prop:the sinners"
+    },
+    {
+      "name": "possessions",
+      "visualTraits": {
+        "description": "General wealth and goods ('ንዋይ', 'ብዕል') held by the sinners."
+      },
+      "changes": null,
+      "role": "actor_prop:the sinners"
+    },
+    {
+      "name": "storehouses",
+      "visualTraits": {
+        "description": "Storehouses ('መዛግብቲነ') that the sinners have filled."
+      },
+      "changes": null,
+      "role": "actor_prop:the sinners"
+    },
+    {
+      "name": "water",
+      "visualTraits": {
+        "description": "Water ('ማይ') used as a simile for the abundance in the sinners' storehouses and the flow of their falsehoods."
+      },
+      "changes": null,
+      "role": "actor_prop:the sinners"
+    }
+  ],
+  "places": [
+    {
+      "name": "heaven",
+      "visualTraits": {
+        "description": "The celestial realm ('ስማይ'), home to the angels."
+      },
+      "changes": null,
+      "role": "celestial_realm"
+    }
+  ],
+  "locations": [],
+  "environments": [
+    {
+      "name": "sea",
+      "visualTraits": {
+        "description": "The sea ('ባሕር'), mentioned as a place where sinners are found."
+      },
+      "changes": null,
+      "role": "setting_element"
+    },
+    {
+      "name": "dry land",
+      "visualTraits": {
+        "description": "The dry land ('የብስ'), mentioned as a place where sinners are found."
+      },
+      "changes": null,
+      "role": "setting_element"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "ሌለሙ፡ኃጥን፡እለ፡",
-      "location": null,
-      "action": null,
-      "actorsInvolved": null
+      "title": "A Promise of Judgment",
+      "location": "unspecified",
+      "action": "The righteous are told to be confident, for the sinners will be destroyed on the day of iniquity.",
+      "actorsInvolved": [
+        "the righteous",
+        "the sinners"
+      ]
     },
     {
-      "title": "ማእለ፡ባሕር፡ወዲ፡የብስ፡",
-      "location": null,
-      "action": null,
-      "actorsInvolved": null
+      "title": "Divine Remembrance and Heavenly Joy",
+      "location": "heaven",
+      "action": "The Lord is declared to remember the affliction of the righteous, causing the angels of heaven to rejoice.",
+      "actorsInvolved": [
+        "The Lord",
+        "the righteous",
+        "angels of heaven"
+      ]
     },
     {
-      "title": "እለ፡ዝሮሙ፡እኩይ፡",
-      "location": null,
-      "action": null,
-      "actorsInvolved": null
+      "title": "The Sinners' Flight",
+      "location": "unspecified",
+      "action": "A rhetorical question is posed to the sinners about where they will flee on the day they hear the prayer of the righteous.",
+      "actorsInvolved": [
+        "the sinners",
+        "the righteous"
+      ]
     },
     {
-      "title": "ዲቤሙ፨",
-      "location": null,
-      "action": null,
-      "actorsInvolved": null
+      "title": "Warning Against Partnership",
+      "location": "unspecified",
+      "action": "An admonition is given not to be partners with the sinners, as a 'matter' will come upon the witnesses.",
+      "actorsInvolved": [
+        "partners of the sinners",
+        "witnesses",
+        "the sinners"
+      ]
+    },
+    {
+      "title": "The Ascending Prayer",
+      "location": "unspecified",
+      "action": "In those days, the prayer of the righteous will reach the Lord, and the days of judgment will reach the sinners.",
+      "actorsInvolved": [
+        "the righteous",
+        "The Lord",
+        "the sinners"
+      ]
+    },
+    {
+      "title": "The Public Reckoning",
+      "location": "unspecified",
+      "action": "Every word of the sinners' iniquity will be read before the Great and Holy One, shaming their faces and casting down their works.",
+      "actorsInvolved": [
+        "the sinners",
+        "The Great and Holy One"
+      ]
+    },
+    {
+      "title": "Woe to the Sinners",
+      "location": "sea and dry land",
+      "action": "A woe is pronounced upon the sinners, who are found in the sea and on dry land.",
+      "actorsInvolved": [
+        "the sinners"
+      ]
+    },
+    {
+      "title": "The Boast of Ill-Gotten Wealth",
+      "location": "unspecified",
+      "action": "The sinners are described as having acquired silver and gold unrighteously, boasting of their wealth, possessions, and ability to do as they please.",
+      "actorsInvolved": [
+        "the sinners"
+      ]
+    },
+    {
+      "title": "The Filled Storehouses",
+      "location": "unspecified",
+      "action": "The sinners continue their boast, claiming to have gathered silver and filled their storehouses as if with plentiful water.",
+      "actorsInvolved": [
+        "the sinners"
+      ]
+    },
+    {
+      "title": "The Ephemeral Wealth",
+      "location": "unspecified",
+      "action": "A prophecy is made that the sinners' falsehoods flow like water and their wealth will not remain, but will quickly ascend from them because it was all acquired through iniquity, leading to a great curse.",
+      "actorsInvolved": [
+        "the sinners"
+      ]
     }
   ],
   "blocking": {

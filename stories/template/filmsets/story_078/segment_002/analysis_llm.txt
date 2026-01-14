@@ -1,31 +1,241 @@
 ```json
 {
   "actors": [
-    {"name": "ወለወርኅ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ርባዕቱ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ስማት", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ቦቱ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ሶንያ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ወልእ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "እብላ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ወሣልስ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ብናሴ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ወራብዕ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ኤራእ", "visualTraits": null, "changes": null, "role": null}
+    {
+      "name": "Uriel",
+      "visualTraits": "An instructor or guide who reveals cosmic laws.",
+      "changes": null,
+      "role": "guide"
+    },
+    {
+      "name": "Enoch (implied)",
+      "visualTraits": "The recipient of Uriel's revelations, referred to as 'me'.",
+      "changes": null,
+      "role": "observer"
+    }
   ],
-  "props": [],
-  "environments": [],
+  "characters": [
+    {
+      "name": "two great luminaries",
+      "visualTraits": "A collective term for the Sun and Moon. Their circumference is described as being like the circumference of the sky.",
+      "changes": null,
+      "role": "celestial_body_group"
+    },
+    {
+      "name": "a man",
+      "visualTraits": "A form the moon is said to resemble at night.",
+      "changes": null,
+      "role": "simile"
+    }
+  ],
+  "props": [
+    {
+      "name": "Sun",
+      "visualTraits": "A great luminary. Has two names: Oryares and Tomas. Its circumference is like that of the sky. It is the source of light for the moon. It sets in the west and rises in the east.",
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Moon",
+      "visualTraits": "A great luminary. Has four names: Sonya, Ebla, Benase, and Era'e. Its circumference is like that of the sky. At night, it appears 'like a man'; by day, 'like the sky'. Its cycle includes months of 28, 29, and 30 days.",
+      "changes": [
+        {
+          "phase": "Phase 1: Waxing",
+          "description": "Begins as the 'new moon' (ሠርቀ). Light first appears on it, starting with a 'half of a seventh part' and increasing over 14 days as it receives light from the sun."
+        },
+        {
+          "phase": "Phase 2: Full",
+          "description": "On the 14th or 15th day, its light is 'completed'. It shines the entire night, rising in the east as the sun sets in the west."
+        },
+        {
+          "phase": "Phase 3: Waning",
+          "description": "Its light decreases daily over 15 days until it is all gone. Its orbit is described as 'empty, without light' at the end of this phase."
+        }
+      ],
+      "role": "scene_prop"
+    },
+    {
+      "name": "light",
+      "visualTraits": "A substance that is transferred from the Sun to the Moon. It is measured in 'parts', such as 'seven parts', 'three-fifths', and 'a seventh part'.",
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "gates of the west",
+      "visualTraits": "Celestial portals in the west through which the luminaries enter when they set.",
+      "changes": null,
+      "role": "celestial_portal"
+    },
+    {
+      "name": "the north",
+      "visualTraits": "A celestial region that the luminaries 'circle around' after setting in the west.",
+      "changes": null,
+      "role": "celestial_region"
+    },
+    {
+      "name": "gates of the east",
+      "visualTraits": "Celestial portals in the east through which the luminaries 'go forth' to rise.",
+      "changes": null,
+      "role": "celestial_portal"
+    },
+    {
+      "name": "face of the sky",
+      "visualTraits": "The visible expanse across which the luminaries travel after rising.",
+      "changes": null,
+      "role": "celestial_path"
+    },
+    {
+      "name": "west",
+      "visualTraits": "The direction where the sun sets.",
+      "changes": null,
+      "role": "direction"
+    },
+    {
+      "name": "east",
+      "visualTraits": "The direction from which the sun and moon rise.",
+      "changes": null,
+      "role": "direction"
+    }
+  ],
+  "environments": [
+    {
+      "name": "sky",
+      "visualTraits": "The environment for all celestial events. It has a circumference. The moon is said to look 'like the sky' during the day.",
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 78 Segment 2",
-      "location": null,
-      "action": null,
-      "actorsInvolved": null
+      "title": "The Naming of the Luminaries",
+      "location": "Implied observational space",
+      "action": "The names of the Sun (Oryares, Tomas) and the Moon (Sonya, Ebla, Benase, Era'e) are listed.",
+      "actorsInvolved": [
+        "Sun",
+        "Moon"
+      ]
+    },
+    {
+      "title": "The Celestial Circuit",
+      "location": "sky",
+      "action": "The two great luminaries set by entering the 'gates of the west', circle 'the north', and rise through the 'gates of the east' to cross the 'face of the sky'.",
+      "actorsInvolved": [
+        "two great luminaries"
+      ]
+    },
+    {
+      "title": "Uriel's Revelation of Light Transfer",
+      "location": "Implied observational space",
+      "action": "Uriel shows and explains how light is transferred from the Sun into the Moon.",
+      "actorsInvolved": [
+        "Uriel",
+        "Enoch (implied)",
+        "Sun",
+        "Moon",
+        "light"
+      ]
+    },
+    {
+      "title": "The Lunar Cycle",
+      "location": "sky",
+      "action": "The moon's cycle is detailed: it waxes for 14 days to become full, then wanes for 15 days until its light is gone. Its appearance at night ('like a man') and day ('like the sky') is described.",
+      "actorsInvolved": [
+        "Moon",
+        "Sun",
+        "light"
+      ]
+    },
+    {
+      "title": "Opposition of Sun and Full Moon",
+      "location": "sky",
+      "action": "At the time of the full moon, the sun sets in the west, and the moon rises from the east to shine all night until the sun rises before it.",
+      "actorsInvolved": [
+        "Sun",
+        "Moon"
+      ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "gates_of_the_west",
+        "description": "Celestial portals in the west where luminaries set."
+      },
+      {
+        "id": "the_north",
+        "description": "A celestial region the luminaries circle."
+      },
+      {
+        "id": "gates_of_the_east",
+        "description": "Celestial portals in the east where luminaries rise."
+      },
+      {
+        "id": "face_of_the_sky",
+        "description": "The visible expanse of the sky for celestial travel."
+      },
+      {
+        "id": "west",
+        "description": "The western horizon."
+      },
+      {
+        "id": "east",
+        "description": "The eastern horizon."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "two great luminaries",
+        "start_anchor": "unknown",
+        "end_anchor": "gates_of_the_west",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Verse 78:5: The luminaries 'set and enter' the western gates."
+      },
+      {
+        "actor": "two great luminaries",
+        "start_anchor": "gates_of_the_west",
+        "end_anchor": "the_north",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Verse 78:5: The luminaries 'circle around' the north after setting."
+      },
+      {
+        "actor": "two great luminaries",
+        "start_anchor": "gates_of_the_east",
+        "end_anchor": "face_of_the_sky",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Verse 78:5: The luminaries 'go forth' from the eastern gates across the sky."
+      },
+      {
+        "actor": "Sun",
+        "start_anchor": "unknown",
+        "end_anchor": "west",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Verse 78:13: The sun 'sets' in the west."
+      },
+      {
+        "actor": "Moon",
+        "start_anchor": "east",
+        "end_anchor": "unknown",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Verse 78:13: The moon 'rises' from the east at night."
+      },
+      {
+        "actor": "Sun",
+        "start_anchor": "east",
+        "end_anchor": "unknown",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Verse 78:13: The sun 'rises' before the moon."
+      }
+    ]
   }
 }
 ```

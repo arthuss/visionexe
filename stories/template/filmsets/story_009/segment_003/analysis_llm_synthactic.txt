@@ -1,26 +1,30 @@
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "S3.meta",
-        "structure_type": "Header",
-        "bracket_notation": "[META [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]",
+        "id": "S1",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t1] [Gen t2]]",
         "dependencies": [
-          "t1->t2 (modifies)",
-          "t3->t4 (modifies)"
+          "t1->t2 (genitive)"
         ],
-        "notes": "Segment metadata."
+        "notes": "Analysis of the verse number as the head of a construct chain, with the verse text as its genitive dependent. This structure implies possession, e.g., 'the text of the verse'."
       },
       {
-        "id": "S3.1",
-        "structure_type": "Main Clause with Adverbial Clause",
-        "bracket_notation": "[S [VP [ADVP [ADV t5]] [V t6]] [SBAR [MARK [CONJ.SUB t7]] [S [VP [V t8]]]]]",
+        "id": "S2",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [HEAD t1] [APP t2]]",
         "dependencies": [
-          "t6->t5 (advmod)",
-          "t6->t8 (advcl, mark=t7)"
+          "t1->t2 (apposition)"
         ],
-        "notes": "The main verb is t6 ('they are accusing'), modified by the adverb t5 ('now'). t7 introduces a subordinate adverbial clause ('while they say...'), which contains a direct quote whose main verb is the imperative t8 ('bring!'). Subjects and objects of the verbs are contained within the surface strings and are not available as separate tokens."
-      }
-    ]
-  }
-}
+        "notes": "Analysis of the verse text as an appositive modifier to the verse number. This structure provides an explanation or restatement, e.g., 'verse 9:1, which is \"...\"'."
+      },
+      {
+        "id": "S3",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [APP t1] [HEAD t2]]",
+        "dependencies": [
+          "t2->t1 (apposition)"
+        ],
+        "notes": "Analysis of the verse number as an appositive

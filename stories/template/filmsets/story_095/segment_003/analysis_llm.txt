@@ -2,39 +2,146 @@
 {
   "actors": [
     {
-      "name": "ኢትፍርሁ",
-      "visualTraits": null,
-      "changes": [],
-      "role": null
+      "name": "እግዚ¡ብሔር",
+      "visualTraits": "Not described.",
+      "changes": null,
+      "role": "divine_agent"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Speaker",
+      "visualTraits": "Not described. Expresses profound sorrow and a desire to weep.",
+      "changes": null,
+      "role": "narrator"
     },
     {
       "name": "ጻድቃን",
-      "visualTraits": null,
-      "changes": [],
-      "role": null
+      "visualTraits": "Not described. They are persecuted by sinners.",
+      "changes": null,
+      "role": "group"
     },
     {
-      "name": "እምኃጥን",
-      "visualTraits": null,
-      "changes": [],
-      "role": null
+      "name": "ኃጥ¡ን",
+      "visualTraits": "Not described. Characterized by their actions: persecuting the righteous.",
+      "changes": null,
+      "role": "group"
     },
     {
-      "name": "እስመ፡ዕ፡ያገብኦሙ",
-      "visualTraits": null,
-      "changes": [],
-      "role": null
+      "name": "እለ፡ታወግዙ፡ ግዘታተ",
+      "visualTraits": "Not described. A group defined by their action of pronouncing curses.",
+      "changes": null,
+      "role": "subgroup_of_sinners"
     },
     {
-      "name": "እግዚብሔር",
-      "visualTraits": null,
-      "changes": [],
-      "role": null
+      "name": "እለ፡ትፈድዩ፡እኩየ",
+      "visualTraits": "Not described. A group defined by their action of repaying evil to their neighbors.",
+      "changes": null,
+      "role": "subgroup_of_sinners"
+    },
+    {
+      "name": "ቢጽ",
+      "visualTraits": "Not described.",
+      "changes": null,
+      "role": "victim"
+    },
+    {
+      "name": "ሰማዕተ፡ሐሰት",
+      "visualTraits": "Not described. A group defined by their action of bearing false witness and 'weighing out iniquity'.",
+      "changes": null,
+      "role": "subgroup_of_sinners"
     }
   ],
-  "props": [],
+  "props": [
+    {
+      "name": "ደመና፡ማይ",
+      "visualTraits": "A metaphorical 'cloud of water' representing an endless source of tears.",
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "ንብዕ",
+      "visualTraits": "Tears that flow like a 'cloud of water'.",
+      "changes": null,
+      "role": "actor_prop:Speaker"
+    },
+    {
+      "name": "ልብ",
+      "visualTraits": "A metaphorical heart, afflicted with sorrow.",
+      "changes": null,
+      "role": "actor_prop:Speaker"
+    },
+    {
+      "name": "እድ",
+      "visualTraits": "Metaphorical hands representing power and control, into which sinners will be delivered.",
+      "changes": null,
+      "role": "actor_prop:ጻድቃን"
+    },
+    {
+      "name": "ርዕ",
+      "visualTraits": "A metaphorical yoke of iniquity described as heavy.",
+      "changes": null,
+      "role": "unknown"
+    }
+  ],
+  "places": [],
+  "locations": [],
   "environments": [],
-  "scenes": [],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Speaker's Lament",
+      "location": "not specified",
+      "action": "A speaker wishes their eyes were a 'cloud of water' so they could weep over an unspecified group and find rest from the sorrow of their heart.",
+      "actorsInvolved": [
+        "Speaker"
+      ]
+    },
+    {
+      "title": "Exhortation to the Righteous",
+      "location": "not specified",
+      "action": "The righteous are instructed not to fear the sinners, as the Lord will deliver the sinners into their hands, allowing the righteous to act as they please.",
+      "actorsInvolved": [
+        "ጻድቃን",
+        "ኃጥ¡ን",
+        "እግዚ¡ብሔር"
+      ]
+    },
+    {
+      "title": "Woe to the Curse-Pronouncers",
+      "location": "not specified",
+      "action": "A woe is pronounced against those who utter curses, stating that healing is far from them because of their sin.",
+      "actorsInvolved": [
+        "እለ፡ታወግዙ፡ ግዘታተ"
+      ]
+    },
+    {
+      "title": "Woe to Those Who Repay Evil",
+      "location": "not specified",
+      "action": "A woe is pronounced against those who repay their neighbors with evil, warning that they will be repaid according to their own deeds.",
+      "actorsInvolved": [
+        "እለ፡ትፈድዩ፡እኩየ",
+        "ቢጽ"
+      ]
+    },
+    {
+      "title": "Woe to the False Witnesses",
+      "location": "not specified",
+      "action": "A woe is pronounced against false witnesses who 'weigh out iniquity', warning them of their sudden destruction.",
+      "actorsInvolved": [
+        "ሰማዕተ፡ሐሰት"
+      ]
+    },
+    {
+      "title": "Woe to the Persecutors",
+      "location": "not specified",
+      "action": "A woe is pronounced against sinners for persecuting the righteous, warning that they themselves will be handed over, persecuted, and burdened by the heavy yoke of their iniquity.",
+      "actorsInvolved": [
+        "ኃጥ¡ን",
+        "ጻድቃን"
+      ]
+    }
+  ],
   "blocking": {
     "anchors": [],
     "paths": []

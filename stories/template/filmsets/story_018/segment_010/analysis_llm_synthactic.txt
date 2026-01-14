@@ -1,27 +1,16 @@
+An analysis of the provided tokens according to the specified rules reveals that the primary syntactic relationship to be analyzed is between the verse number tokens (e.g., `t1`) and the subsequent Ge'ez text tokens (e.g., `t2`). Given the constraint of "TOKEN FIDELITY" (not splitting the provided tokens), the analysis must operate at the level of these high-level tokens rather than parsing the internal grammatical structure of the Ge'ez sentences.
+
+The relationship between a verse number and its corresponding text can be interpreted in several syntactically valid ways, without recourse to semantic preference. The following parses enumerate the full structure space for these relationships across the entire text.
+
+1.  **Nominal Head (Construct Chain)**: The verse number is treated as a noun, and the verse text is its genitive modifier in a construct state relationship. This is a common structure in Semitic languages.
+2.  **Nominal Head (Apposition)**: The verse text is treated as a noun phrase in apposition to the verse number, clarifying or specifying it.
+3.  **Clausal Head (Labeling)**: The verse text is treated as a clausal unit (the head of the construction), and the verse number acts as a non-syntactic label or adjunct, similar to a title or a numbered list item.
+
+The following JSON enumerates all three possibilities for each pair of verse number and verse text tokens.
+
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "P10_S1",
-        "structure_type": "Verbal Clause",
-        "bracket_notation": "[S [VP t5] [NP [NP t6] [NP_GEN t7]]]",
-        "dependencies": [
-          "t5 -> t6 (obj)",
-          "t6 -> t7 (nmod:gen)"
-        ],
-        "notes": "'And I saw a deep chasm of the earth (t5) with pillars of heavenly fire (t6, t7).'"
-      },
-      {
-        "id": "P10_S2",
-        "structure_type": "Verbal Clause with Coordination",
-        "bracket_notation": "[S [VP [V (in t7)] [NP t8] [S_REL [VP t9]]] [CONJ [PP t10] [CONJ [PP t11]]]]",
-        "dependencies": [
-          "t8 -> t9 (mod)",
-          "t9 -> t10 (conj)",
-          "t10 -> t11 (conj)"
-        ],
-        "notes": "A complex description of the pillars: 'I saw in them pillars of fire (t8) which descended (t9) and had no measure, neither upwards (t10) nor downwards (t11).'"
-      }
-    ]
-  }
-}
+        "id": "P1a

@@ -1,0 +1,51 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "high",
+      "reasoning": "This hypothesis interprets the opening of 30:1, 'ወላዕሌሁ፡​ላዕለ፡​እሎንቱ፡​ላዕለ፡​ደብረ፡​ጽባሕ' (wäläʿlehu laʿlä ʾǝllontu laʿlä däbrä ṣǝbaḥ), as a chain of appositional locative phrases. This is a common Semitic syntactic feature where a pronoun is resumed and clarified. 'Above it' (-hu, referring to the mountains in ch. 29) is specified as 'above these' (ʾǝllontu, the seven mountains) and further as 'above the mountain of the east'. The phrase 'ቈላተ፡​ማይ፡​ከመ፡​ዘኢይትዌዳዕ' (qʷällatä may kämä zäʾiyǝtweddaʿ) is read as 'valleys of water like that which does not end,' an idiomatic expression for 'inexhaustible.'",
+      "parallels": [
+        {
+          "ref": "Semitic Resumptive Pronominalization",
+          "note": "The principle of a resumptive pronoun followed by an appositive is well-attested in Semitic languages, including Ge'ez. However, a specific parallel for a threefold repetition of the preposition 'laʿlä' in this manner is unattested and marked as stylistically unusual, though grammatically possible and likely a feature of translationese."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "high",
+      "reasoning": "This hypothesis identifies 'ሰኪኖን' (säkinon) in 30:2 as a loanword from Greek σχῖνος (schinos), meaning the mastic tree (*Pistacia lentiscus*), known for its fragrant resin. The context of a 'beautiful tree' (ዕፀ ሠናየ) with a distinct 'fragrance' (መዓዛ) strongly supports the identification of this non-native Ge'ez word as a type of aromatic plant. The minor phonological variation ('-on' vs '-os') is common in loanwords.",
+      "parallels": [
+        {
+          "ref": "Leslau, W. (1987). *Comparative Dictionary of Geʻez*. p. 493, entry 'säkinos'.",
+          "note": "Leslau attests the borrowing of Gk. σχῖνος as 'säkinos' for the mastic tree, confirming the root. The '-on' ending in the text is likely a scribal or transmission variant."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S3",
+      "plausibility": "high",
+      "reasoning": "This hypothesis parses the final clause of 30:3, 'ወዲበ፡​እልክቱ፡​ቀረብኩ፡​ዘመንገለ፡​ጽባሕ' (wädibä ʾǝlkǝttu qärräbku zämängälä ṣǝbaḥ), as three distinct units: an adverbial of place 'And beyond those (valleys)' (wädibä ʾǝlkǝttu), the main verb 'I drew near' (qärräbku), and an adverbial of direction 'eastward' (zämängälä ṣǝbaḥ). This reading provides the most logical narrative progression, continuing Enoch's eastward journey. The preposition 'dibä' can mean 'beyond' or 'past' in addition to 'upon'.",
+      "parallels": [
+        {
+          "ref": "Dillmann, A. (1865). *Lexicon Linguae Aethiopicae*. col. 573, entry 'ዲበ'.",
+          "note": "Dillmann's lexicon confirms the meaning of 'dibä' as 'ultra, praeter' (beyond, past), supporting its use here to mean moving past the previously mentioned valleys."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "The analysis proceeded verse by verse. For 30:1, the repetitive 'laʿlä' phrase was identified as the main syntactic challenge; it was resolved as a case of Semitic-style appositional clarification (S1). The phrase 'kämä zäʾiyǝtweddaʿ' was identified as an idiom for 'inexhaustible.' For 30:2, the word 'säkinon' was identified via etymology as a Greek loanword for an aromatic tree (S2). For 30:3, the ambiguity of the final clause was resolved by parsing 'zämängälä ṣǝbaḥ' as an adverb of direction modifying the verb 'qärräbku', which aligns with the narrative context (S3). All hypotheses were found to be of high plausibility and mutually compatible. The primary source of uncertainty, which lowers overall confidence, is the lack of a Greek or Aramaic Vorlage for this specific passage, making the interpretation reliant on the internal logic of the Ge'ez text and comparative evidence.",
+  "final_decision": {
+    "hypothesis_ref": "S-FINAL (composite of S1, S2, S3)",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}
+```

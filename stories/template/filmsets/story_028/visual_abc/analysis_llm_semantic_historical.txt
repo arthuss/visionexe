@@ -1,0 +1,32 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "high",
+      "reasoning": "This hypothesis posits that 'አስራብ' (ʾasrāb, 'channels') in 28:3 is the nominative subject of the verb 'ያስተርኢ' (yāstärʾi, 'appears/is seen'), forming a standard Verb-Subject clause: 'Channels appear...'. This reading is grammatically direct and semantically coherent, as the appearance of water channels is a logical consequence of the water gushing forth described in the preceding verse (28:2). An alternative hypothesis (S2, not detailed here), that 'ያስተርኢ' is an impersonal verb with 'አስራብ' as an accusative of specification ('It appears with respect to channels...'), is grammatically more convoluted and semantically less direct. Therefore, S1 represents the most parsimonious and contextually sound parsing of the clause.",
+      "parallels": [
+        {
+          "ref": "Dillmann, A. (1907). Ethiopic Grammar, §176.1.a",
+          "note": "Documents the common Verb-Subject word order in Ge'ez, which supports the 'ያስተርኢ አስራብ' (verb-subject) reading as standard syntax."
+        },
+        {
+          "ref": "Genesis 12:7 (Ge'ez)",
+          "note": "Provides a typical example of the verb 'አስተርአየ' (ʾastärʾayä) used to mean 'to appear, be seen' with a clear subject: 'ወአስተርአዮ እግዚአብሔር ለአብራም' (And the LORD appeared to Abram). This supports reading 'አስራብ' as the subject of the same verb form."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "The primary syntactic question in this text is the relationship between the verb 'ያስተርኢ' (yāstärʾi) and the noun 'አስራብ' (ʾasrāb) in verse 28:3. Hypothesis S1 proposes a standard Verb-Subject construction ('channels appear'), which is common in Ge'ez. An alternative (S2) would be to read 'ያስተርኢ' as an impersonal verb with 'አስራብ' as an accusative of specification ('it appears with respect to channels'). S1 was preferred for several reasons: 1) Grammatical Parsimony: It is the simplest and most direct reading. 2) Semantic Coherence: The narrative describes water flowing in v. 2, making the subsequent appearance of 'channels' a logical and clear description. 3) Attestation: The V-S structure is ubiquitous, and the use of 'አስተርአየ' with a clear subject is well-attested, whereas the impersonal construction in this context would be unusual. The remainder of the text presents fewer syntactic challenges. The phrase 'ማዕከላ ለደብረ መድበራ' (28:1) is a standard adverbial accusative with a genitive 'ለ-'. The phrase 'ምሉእ ዕፀወ' (28:2) is a standard construction of an adjective of fullness governing an accusative. The final clause 'የዓርግ ማይ ወጠል' (28:3) shows a common singular verb with a compound subject. Based on the strong preference for S1, the entire passage can be translated with high confidence in its syntactic structure.",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T1",
+    "confidence": "high"
+  },
+  "translations": {
+    "T1": "28:1 And from there I went towards the east, into the middle of the mountain of the desert, and I saw it, a solitary wilderness. 28:2 But it was full of trees from this seed, and water gushed from its top upon it. 28:3 Channels appeared, like a great multitude that flows, towards the north and towards the west; and from all of them, water and dew ascended."
+  }
+}
+```

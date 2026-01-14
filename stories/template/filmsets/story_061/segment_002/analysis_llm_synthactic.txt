@@ -1,0 +1,20 @@
+An automated syntactic analysis of the provided Ge'ez text has been performed according to the specified scientific rules. The analysis adheres to the principles of enumerating all valid parses without ambiguity reduction, maintaining token fidelity, using formal notation, and relying solely on syntactic information.
+
+The analysis is structured by the `token_id`s from the input. For each text-bearing token, a set of possible syntactic parses is provided. Each parse includes:
+- A unique identifier.
+- A bracketed representation of the constituent structure.
+- A list of head-dependent relations, using the original Ge'ez words as identifiers to maintain fidelity to the source.
+- Notes describing the specific syntactic interpretation or ambiguity represented by the parse.
+
+This method allows for a comprehensive representation of the syntactic possibilities within the text, including attachment ambiguities (e.g., prepositional phrase placement), coordination scope, and alternative readings of clausal relationships (e.g., apposition vs. separate clauses), as mandated by the Level C analysis guidelines.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "token_id": "t2",
+        "parses": [
+          {
+            "id": "t2_p1",
+            "bracket_notation": "[S_Para [S (head ወርኢኩ) [PP (adjunct በእማንቱ) [NP (obj መዋዕል)]] [S' (comp [S (head ተውህበ) [PP (iobj ለእልኩ) [NP (obj

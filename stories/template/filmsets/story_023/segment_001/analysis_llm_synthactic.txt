@@ -1,0 +1,18 @@
+An account of the syntactic analysis of the provided Ge'ez text, following the specified scientific rules.
+
+### Methodological Notes
+
+1.  **Verse Numbering**: Tokens representing verse numbers (e.g., `t1`, `t3`) are treated as the head of a nominal construction. The subsequent token containing the verse's text is analyzed as its dependent, notionally equivalent to a genitive or descriptive modifier. This reflects the relationship "the text of verse X.X is...".
+2.  **Ambiguity Enumeration**: In compliance with the rule against ambiguity reduction, multiple valid syntactic interpretations are provided for complex sentences. This is particularly relevant for the sentence in `t8`, which allows for several structural analyses due to its complex nominal phrases and appositions. Each distinct parse is enumerated.
+3.  **Formalism**: The analysis uses bracket notation to represent constituent structure. Head-dependent relationships are explicitly listed for each parse, identifying the syntactic function of each dependent (e.g., subject, object, modifier).
+4.  **Token Integrity**: The analysis adheres strictly to the tokenization provided in the input JSON. Multi-word expressions or words with clitics are treated as single, unanalyzed tokens at the highest level of the parse, with their internal structure being a matter of morphological rather than syntactic analysis for the purpose of this task.
+
+### Syntactic Analysis
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "P1",
+        "structure_type": "Nominal Construction

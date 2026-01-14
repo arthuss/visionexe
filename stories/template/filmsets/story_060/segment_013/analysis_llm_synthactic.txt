@@ -1,0 +1,10 @@
+An enumeration of the full syntactic structure space for the provided Ge'ez text, following the specified scientific rules.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "t1_t2_parse",
+        "structure_type": "Sentence Group",
+        "bracket_notation": "[S-GROUP [S [ADJ [PP [P በ] [NP [N-const ዓመት] [Num ፭፻]]]] [CONJ ወ] [ADJ [PP [P በ] [NP [N ወርኅ] [ADJ ሳብዕ]]]] [ADJ [PP [P እም] [NP [N ዓሱሩ] [CONJ ወ] [N ረቡዑ]]]] [ADJ [PP [P ለ] [N ወርኅ]]] [ADJ [PP [P በ] [NP [N-const ሕይወተ] [Gen ሄኖክ]]]] [ADJ [PP [P በ] [NP [Det ውእቱ] [N ኣምሰል]]]] [PRED ርኢኩ] [OBJ [S-COMP [COMP ከመ] [S [PRED ታድለቅልቅ] [SUBJ [NP [N-const ሰማየ] [Gen ሰማያት]]] [OBJ-cognate [NP [N ድልቅልቀ] [ADJ ዓቢየ]]]]]]] [S [CONJ ወ] [SUBJ [NP [N ኃይሉ] [Gen [

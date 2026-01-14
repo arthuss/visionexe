@@ -1,23 +1,33 @@
+```json
 {
   "evaluation": [
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The parse is correct for the header structure. The failure to analyze the Ge'ez text, as stated in the note, makes a semantic evaluation impossible.",
+      "reasoning": "This hypothesis posits that the syntactically awkward phrase 'እሙንቱ፡ ወለሊሆሙ፡ በቀትል፡ ይትኃጐሉ' (emuntu wa-lālihomu ba-qatl yətḫāgʷalu) in 1 Enoch 10:9 is not a textual error but a deliberate, if clumsy, translation strategy. The goal is to render the reciprocal action ('destroy one another') present in the Greek source text. Ge'ez lacks a simple reciprocal pronoun equivalent to Greek ἀλλήλους (allēlous). To compensate, the translator combined several elements: 1) the prepositional phrase 'በበይናቲሆሙ' (ba-ba-baynātihomu - 'among/against one another') earlier in the clause, 2) the reflexive/passive verb 'ይትኃጐሉ' (yətḫāgʷalu - 'they will be destroyed'), and 3) a redundant, emphatic double pronoun 'እሙንቱ፡ ወለሊሆሙ' (emuntu wa-lālihomu - 'they and themselves') as the subject. This piling up of reflexive and reciprocal markers, while redundant, effectively conveys the intended meaning of mutual destruction.",
       "parallels": [
         {
-          "ref": "Standard Textual Redaction",
-          "note": "Consistent with modern editorial practices for ancient texts."
+          "ref": "Greek Enoch (Syncellus) 10:9",
+          "note": "The source text confirms the intended meaning: 'καὶ ἔκπεμψον αὐτοὺς εἰς ἀλλήλους, ἵνα ἀλλήλους ἀπολέσωσιν ἐν μάχῃ' ('and send them against one another, so that they may destroy one another in battle'). The Ge'ez phrase is a direct, albeit grammatically distinct, rendering of 'ἵνα ἀλλήλους ἀπολέσωσιν' ('so that they may destroy one another')."
+        },
+        {
+          "ref": "General Ge'ez Grammar",
+          "note": "The use of the reflexive/passive verbal stem (ተ- prefix) to express reciprocal action is a common feature in Ge'ez. For example, 'ተቃተለ' (taqātala) means 'to fight one another'. This supports the interpretation of 'ይትኃጐሉ' (yətḫāgʷalu) as having a reciprocal sense in this context."
+        },
+        {
+          "ref": "Attested Ge'ez Usage",
+          "note": "The specific construction of a redundant double pronoun ('እሙንቱ፡ ወለሊሆሙ') acting as the subject for a reflexive verb to express reciprocity is marked as 'unattested'. While the emphatic pronoun 'ለሊ-' (lāli-) is common for emphasis, this particular combination appears to be a unique solution by the translator for this specific passage. The uncertainty lies in its uniqueness, not its incomprehensibility."
         }
       ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "S1 is selected due to a lack of alternatives. The analysis is superficial, only covering the segment's label.",
+  "decision_log": "The primary analytical challenge is the phrase 'ወፈንዎሙ፡​በበይናቲሆሙ፡​እሙንቱ፡​ወለሊሆሙ፡​በቀትል፡​ይትኃጐሉ' in 1 Enoch 10:9. The sequence 'እሙንቱ፡ ወለሊሆሙ' ('they and themselves') is redundant and syntactically unusual as the subject of the reflexive verb 'ይትኃጐሉ' ('they will be destroyed'). An alternative hypothesis of textual corruption (e.g., 'ወለሊሆሙ' as a later gloss) was considered but dismissed due to the lack of supporting manuscript variants. The preferred hypothesis (S1) interprets the phrase as a calque on the Greek source text. It argues that the translator, faced with rendering the reciprocal 'ἀλλήλους ἀπολέσωσιν' ('destroy one another'), employed a multi-part strategy: the standard reciprocal marker 'በበይናቲሆሙ' ('against one another'), a reflexive verb, and a unique, emphatic double pronoun to reinforce the idea that the giants would be the agents and patients of their own destruction. This reading aligns perfectly with the Greek source and the narrative context. The primary uncertainty, which lowers confidence from 'high' to 'moderate', is the lack of direct attested parallels for this specific syntactic combination, suggesting it may be a 'hapax legomenon' of translation technique.",
   "final_decision": {
     "hypothesis_ref": "S1",
-    "translation_id": "T13",
-    "confidence": "low"
+    "translation_id": "T1",
+    "confidence": "moderate"
   }
 }
+```

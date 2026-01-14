@@ -1,19 +1,227 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
+  "actors": [
+    {
+      "name": "Michael",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Archangel"
+    },
+    {
+      "name": "Gabriel",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Archangel"
+    },
+    {
+      "name": "Suriel",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Archangel"
+    },
+    {
+      "name": "Urian",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Archangel"
+    },
+    {
+      "name": "The Most High",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Deity"
+    },
+    {
+      "name": "Azazel",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Fallen Angel"
+    },
+    {
+      "name": "Semyaza",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Fallen Angel"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Holy ones of heaven",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Angelic Beings"
+    },
+    {
+      "name": "Souls of those who have died",
+      "visualTraits": [
+        "Disembodied souls crying out for justice."
+      ],
+      "changes": null,
+      "role": "Deceased Humans"
+    },
+    {
+      "name": "Men",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Humans"
+    },
+    {
+      "name": "Semyaza's companions",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Fallen Angels"
+    },
+    {
+      "name": "Daughters of men",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Human Women"
+    },
+    {
+      "name": "Giants",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Nephilim"
+    }
+  ],
+  "props": [
+    {
+      "name": "Blood",
+      "visualTraits": [
+        "Seen in great quantity, being shed upon the earth."
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Throne of His glory",
+      "visualTraits": null,
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Eternal secrets",
+      "visualTraits": [
+        "Hidden knowledge from the heavens."
+      ],
+      "changes": null,
+      "role": "unknown"
+    }
+  ],
+  "places": [
+    {
+      "name": "Heaven",
+      "visualTraits": null,
+      "changes": null,
+      "role": "celestial_realm"
+    },
+    {
+      "name": "Earth",
+      "visualTraits": [
+        "Initially described as 'made empty' and crying out."
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-corruption",
+          "description": "The state of the Earth before the events described (implied)."
+        },
+        {
+          "phase": "Phase 2: Corrupted",
+          "description": "Filled with shed blood and lawlessness."
+        }
+      ],
+      "role": "terrestrial_realm"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Gate of Heaven",
+      "visualTraits": [
+        "A boundary point of Heaven to which cries and pleas ascend."
+      ],
+      "changes": null,
+      "role": "boundary"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Lawlessness",
+      "visualTraits": [
+        "An abstract condition of sin and injustice."
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Contained",
+          "description": "Not pervasive on Earth (implied)."
+        },
+        {
+          "phase": "Phase 2: Pervasive",
+          "description": "Taught by Azazel and filling the entire Earth."
+        }
+      ],
+      "role": "pervasive_condition"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 9 Segment 8",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
+      "title": "The Archangels' Indictment",
+      "location": "Heaven",
+      "action": "Michael, Gabriel, Suriel, and Urian look down from Heaven, see the Earth filled with blood and lawlessness, and report to the Most High. They convey the cries of the dead, indict Azazel for teaching forbidden knowledge and Semyaza for leading his followers to mate with human women, which produced Giants and filled the Earth with violence. They ask God what should be done.",
+      "actorsInvolved": [
+        "Michael",
+        "Gabriel",
+        "Suriel",
+        "Urian",
+        "The Most High",
+        "Azazel",
+        "Semyaza"
+      ],
+      "charactersInvolved": [
+        "Souls of those who have died",
+        "Semyaza's companions",
+        "Daughters of men",
+        "Giants"
+      ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "heaven",
+        "description": "The celestial realm from which the archangels observe."
+      },
+      {
+        "id": "earth",
+        "description": "The terrestrial realm, site of corruption and bloodshed."
+      },
+      {
+        "id": "gate_of_heaven",
+        "description": "The boundary of Heaven, the destination for the cries of the wronged."
+      },
+      {
+        "id": "location_of_daughters_of_men",
+        "description": "A relative location on Earth where the daughters of men were."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Semyaza's companions",
+        "start_anchor": "earth",
+        "end_anchor": "location_of_daughters_of_men",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The text states Semyaza and his companions 'went to the daughters of men'."
+      },
+      {
+        "actor": "Souls of those who have died",
+        "start_anchor": "earth",
+        "end_anchor": "gate_of_heaven",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "A metaphorical path representing the ascent of their cries ('their cry has ascended')."
+      }
+    ]
   }
 }
 ```

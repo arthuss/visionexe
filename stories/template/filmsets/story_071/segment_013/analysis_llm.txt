@@ -1,41 +1,443 @@
+```json
 {
   "actors": [
     {
-      "name": "ወመጽ፡ውእቱ፡ርእሰ፡መዋዕል፡",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
+      "name": "Enoch",
+      "visualTraits": {
+        "body": "Human form, whose flesh melts and spirit is transformed during the vision."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Human",
+          "description": "Implied state before the vision."
+        },
+        {
+          "phase": "Phase 2: Spirit Ascended",
+          "description": "His spirit is caught up and ascends into the heavens."
+        },
+        {
+          "phase": "Phase 3: Transformed/Revealed",
+          "description": "His flesh melts, his spirit is changed, and he is identified by an angel as the 'Son of Man' (ወልደ፡​ብእሲ) who was born for righteousness. He is also associated with the title 'Son of the Living' (ወልደ፡​እጓለ፡​እመሕያው)."
+        }
+      ],
+      "role": "Narrator and central figure of the vision."
     },
     {
-      "name": "ምስለ፡ሚኤል፡ወሩፋኤል፡",
+      "name": "Lord of Spirits",
       "visualTraits": null,
-      "changes": null,
-      "role": null
+      "changes": [],
+      "role": "A divine authority before whom Enoch falls."
     },
     {
-      "name": "ወገብርኤል፡ወፋኑኤል፡እላፍ፡",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
+      "name": "Michael",
+      "visualTraits": {
+        "species": "Angel"
+      },
+      "changes": [],
+      "role": "One of the chief angels who acts as a guide for Enoch."
     },
     {
-      "name": "ወትእልፊተ፡መላእት፡እለ፡",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
+      "name": "Raphael",
+      "visualTraits": {
+        "species": "Angel"
+      },
+      "changes": [],
+      "role": "One of the chief angels, mentioned in a group."
     },
     {
-      "name": "ልቦሙ፡ልቈ፨",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
+      "name": "Gabriel",
+      "visualTraits": {
+        "species": "Angel"
+      },
+      "changes": [],
+      "role": "One of the chief angels, mentioned in a group."
+    },
+    {
+      "name": "Phanuel",
+      "visualTraits": {
+        "species": "Angel"
+      },
+      "changes": [],
+      "role": "One of the chief angels, mentioned in a group."
+    },
+    {
+      "name": "Head of Days",
+      "visualTraits": {
+        "hair": "Like white, pure wool.",
+        "clothing": "An indescribable garment."
+      },
+      "changes": [],
+      "role": "A primary divine figure, also referred to as 'Ancient of Days'."
     }
   ],
-  "props": [],
-  "environments": [],
-  "scenes": [],
+  "characters": [
+    {
+      "name": "Sons of the holy angels",
+      "visualTraits": {
+        "clothing": "White garments and raiment.",
+        "face": "Bright like hail."
+      },
+      "changes": [],
+      "role": "Beings seen walking on a flame of fire in the heavens."
+    },
+    {
+      "name": "Seraphim",
+      "visualTraits": {
+        "species": "Angelic beings"
+      },
+      "changes": [],
+      "role": "A class of sleepless angels who guard the Throne of Glory."
+    },
+    {
+      "name": "Cherubim",
+      "visualTraits": {
+        "species": "Angelic beings"
+      },
+      "changes": [],
+      "role": "A class of sleepless angels who guard the Throne of Glory."
+    },
+    {
+      "name": "Ophannin",
+      "visualTraits": {
+        "species": "Angelic beings"
+      },
+      "changes": [],
+      "role": "A class of sleepless angels who guard the Throne of Glory."
+    },
+    {
+      "name": "Innumerable angels",
+      "visualTraits": {
+        "species": "Angelic beings",
+        "quantity": "Myriads of myriads."
+      },
+      "changes": [],
+      "role": "A vast host surrounding the House of Fire."
+    },
+    {
+      "name": "Holy angels who are above the heavens",
+      "visualTraits": {
+        "species": "Angelic beings"
+      },
+      "changes": [],
+      "role": "Angels who enter and exit the House of Fire."
+    },
+    {
+      "name": "The angel",
+      "visualTraits": {
+        "species": "Angel"
+      },
+      "changes": [],
+      "role": "An unnamed angel who approaches Enoch and reveals his identity as the Son of Man."
+    },
+    {
+      "name": "The righteous",
+      "visualTraits": null,
+      "changes": [],
+      "role": "A group destined for peace and an eternal portion with the Son of Man."
+    }
+  ],
+  "props": [
+    {
+      "name": "White garments",
+      "visualTraits": {
+        "color": "White"
+      },
+      "changes": [],
+      "role": "actor_prop:Sons of the holy angels"
+    },
+    {
+      "name": "Raiment",
+      "visualTraits": {
+        "color": "White"
+      },
+      "changes": [],
+      "role": "actor_prop:Sons of the holy angels"
+    },
+    {
+      "name": "Indescribable garment",
+      "visualTraits": {
+        "description": "A garment that cannot be described."
+      },
+      "changes": [],
+      "role": "actor_prop:Head of Days"
+    },
+    {
+      "name": "Throne of Glory",
+      "visualTraits": null,
+      "changes": [],
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Heavens",
+      "visualTraits": null,
+      "changes": [],
+      "role": "The initial celestial realm of the vision."
+    },
+    {
+      "name": "Heaven of Heavens",
+      "visualTraits": null,
+      "changes": [],
+      "role": "The highest celestial realm, location of the House of Fire."
+    }
+  ],
+  "locations": [
+    {
+      "name": "Before the Lord of Spirits",
+      "visualTraits": null,
+      "changes": [],
+      "role": "A location of reverence where Enoch falls."
+    },
+    {
+      "name": "Secret places of mercy and righteousness",
+      "visualTraits": null,
+      "changes": [],
+      "role": "Hidden celestial locations shown to Enoch."
+    },
+    {
+      "name": "Secret ends of heaven",
+      "visualTraits": null,
+      "changes": [],
+      "role": "Hidden celestial locations shown to Enoch."
+    },
+    {
+      "name": "Storehouses of the stars and the lights",
+      "visualTraits": null,
+      "changes": [],
+      "role": "Hidden celestial locations shown to Enoch."
+    },
+    {
+      "name": "House of Fire",
+      "visualTraits": {
+        "material": "Built from crystal stones (stones of hailstone).",
+        "features": "Surrounded by a circle of fire and four rivers of living fire. Tongues of living fire are within it."
+      },
+      "changes": [],
+      "role": "A central structure in the Heaven of Heavens, housing the Throne of Glory."
+    }
+  ],
+  "environments": [
+    {
+      "name": "Flame of fire",
+      "visualTraits": {
+        "state": "A fiery surface."
+      },
+      "changes": [],
+      "role": "A surface upon which the sons of the holy angels walk."
+    },
+    {
+      "name": "Two rivers of fire",
+      "visualTraits": {
+        "light": "Shines like hyacinth."
+      },
+      "changes": [],
+      "role": "Fiery rivers seen by Enoch in the Heavens."
+    },
+    {
+      "name": "Tongues of living fire",
+      "visualTraits": {
+        "state": "Living, moving flames."
+      },
+      "changes": [],
+      "role": "Fire seen amidst the crystal stones of the House of Fire."
+    },
+    {
+      "name": "Rivers of living fire",
+      "visualTraits": {
+        "quantity": "Four rivers.",
+        "state": "Full of living fire."
+      },
+      "changes": [],
+      "role": "Rivers that surround the House of Fire."
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "Ascension and First Vision",
+      "location": "Heavens",
+      "action": "Enoch's spirit ascends and he sees the sons of the holy angels walking on a flame of fire, and two rivers of fire. He falls on his face before the Lord of Spirits.",
+      "actorsInvolved": [
+        "Enoch",
+        "Lord of Spirits",
+        "Sons of the holy angels"
+      ]
+    },
+    {
+      "title": "Michael's Guidance",
+      "location": "Heavens",
+      "action": "The angel Michael lifts Enoch and shows him all the secret places of mercy, righteousness, the ends of heaven, and the storehouses of the stars and lights.",
+      "actorsInvolved": [
+        "Enoch",
+        "Michael"
+      ]
+    },
+    {
+      "title": "The House of Fire",
+      "location": "Heaven of Heavens",
+      "action": "Enoch is taken to the Heaven of Heavens and sees a house built of crystal stones, surrounded by rivers of living fire and guarded by the Seraphim, Cherubim, and Ophannin who watch over the Throne of Glory.",
+      "actorsInvolved": [
+        "Enoch",
+        "Seraphim",
+        "Cherubim",
+        "Ophannin"
+      ]
+    },
+    {
+      "title": "The Heavenly Host",
+      "location": "House of Fire",
+      "action": "Enoch sees innumerable angels surrounding the house, and the four archangels with other holy angels entering and exiting it.",
+      "actorsInvolved": [
+        "Enoch",
+        "Michael",
+        "Raphael",
+        "Gabriel",
+        "Phanuel",
+        "Innumerable angels",
+        "Holy angels who are above the heavens"
+      ]
+    },
+    {
+      "title": "Appearance of the Head of Days and Enoch's Transformation",
+      "location": "House of Fire",
+      "action": "The Head of Days emerges with the four archangels and a countless host. Upon seeing him, Enoch falls, his flesh melts, and his spirit is transformed.",
+      "actorsInvolved": [
+        "Enoch",
+        "Head of Days",
+        "Michael",
+        "Raphael",
+        "Gabriel",
+        "Phanuel",
+        "Innumerable angels"
+      ]
+    },
+    {
+      "title": "The Revelation of the Son of Man",
+      "location": "Before the Head of Days",
+      "action": "An angel approaches the transformed Enoch, addresses him as the 'Son of Man' born for righteousness, and proclaims that the righteousness of the Head of Days will never forsake him.",
+      "actorsInvolved": [
+        "Enoch",
+        "Head of Days",
+        "The angel"
+      ]
+    },
+    {
+      "title": "The Promise of Eternal Peace",
+      "location": "Before the Head of Days",
+      "action": "The angel promises Enoch, as the Son of Man, eternal peace and a permanent dwelling and portion with the righteous.",
+      "actorsInvolved": [
+        "Enoch",
+        "The angel",
+        "The righteous"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "A1",
+        "description": "Enoch's initial vantage point in the Heavens."
+      },
+      {
+        "id": "A2",
+        "description": "The position on the ground before the Lord of Spirits."
+      },
+      {
+        "id": "A3",
+        "description": "The various secret places of heaven (a conceptual area)."
+      },
+      {
+        "id": "A4",
+        "description": "The vantage point in the Heaven of Heavens, before the House of Fire."
+      },
+      {
+        "id": "A5",
+        "description": "The Throne of Glory, guarded by angels."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Enoch",
+        "start_anchor": "unknown",
+        "end_anchor": "A1",
+        "motion": "hover",
+        "duration_sec": null,
+        "notes": "Enoch's spirit is caught up and ascends into the Heavens."
+      },
+      {
+        "actor": "Sons of the holy angels",
+        "start_anchor": "unknown",
+        "end_anchor": "unknown",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Walking on a flame of fire."
+      },
+      {
+        "actor": "Enoch",
+        "start_anchor": "A1",
+        "end_anchor": "A2",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Falls on his face before the Lord of Spirits."
+      },
+      {
+        "actor": "Michael",
+        "start_anchor": "unknown",
+        "end_anchor": "A2",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Approaches Enoch, takes his hand, and lifts him up."
+      },
+      {
+        "actor": "Enoch",
+        "start_anchor": "A2",
+        "end_anchor": "A3",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Is led by Michael to see the secret places."
+      },
+      {
+        "actor": "Enoch",
+        "start_anchor": "A3",
+        "end_anchor": "A4",
+        "motion": "hover",
+        "duration_sec": null,
+        "notes": "His spirit is caught up into the Heaven of Heavens."
+      },
+      {
+        "actor": "Holy angels who are above the heavens",
+        "start_anchor": "unknown",
+        "end_anchor": "unknown",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Continuously entering and exiting the House of Fire."
+      },
+      {
+        "actor": "Head of Days",
+        "start_anchor": "House of Fire",
+        "end_anchor": "A4",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Emerges from the House of Fire with Michael, Raphael, Gabriel, Phanuel, and a host of angels."
+      },
+      {
+        "actor": "Enoch",
+        "start_anchor": "A4",
+        "end_anchor": "A4",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Falls on his face upon seeing the Head of Days."
+      },
+      {
+        "actor": "The angel",
+        "start_anchor": "A4",
+        "end_anchor": "A4",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Approaches the fallen Enoch to speak to him."
+      }
+    ]
   }
 }
+```

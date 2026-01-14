@@ -1,0 +1,13 @@
+An enumeration of all possible scientific syntactic analyses for the provided Ge'ez text, adhering to the specified rules.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "p1.1",
+        "structure_type": "Sentence",
+        "bracket_notation": "[S-Coord [S [Adjunct [PP [P ወበእማንቱ] [NP [N መዋዕል]]]] [Subj [NP [N ሚጠት]]] [VP [V ትከውን] [IO [PP-Coord [PP [P ለቅዱሳን]] [PP [P ወለኅሩያን]]]]]] [S [Subj [NP [N-const ወብርሃነ] [N-gen መዋዕል]]] [Adjunct [PP [P ዲቤሆሙ]]] [VP [V የኃድር]]] [S [Subj [NP-Coord [NP [N ወስብሐት]] [NP [N ወክብር]]]] [IO [PP [P ለቅዱሳን]]] [VP [V ይትመየጥ]] [Adjunct [PP [P ወበዕለት] [RelCl [RelPron እንተ] [VP [V ጻሕብ]]]]]]]",
+        "dependencies": [
+          "t2(ወበእማንቱ)->t2(መዋዕል) (obj)",
+          "t2(ትከውን)->t2(ወበእማንቱ) (adjunct)",

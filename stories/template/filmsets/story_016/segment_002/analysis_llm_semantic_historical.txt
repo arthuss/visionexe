@@ -1,27 +1,42 @@
+```json
 {
   "evaluation": [
     {
-      "hypothesis_ref": "S2_P1",
+      "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "This segment refers to the Watchers ('təguhan') who dispatched Enoch on a mission. The phrase 'who sent you' (ʾəlla fanawu) is a direct reference to the narrative context where the fallen Watchers ask Enoch to intercede on their behalf. The mention of their 'likeness which formerly was in heaven' alludes to their original, pre-fallen angelic state.",
+      "reasoning": "This hypothesis posits that the clause 'ለይኩን፡​ዘይማስን፡​ዘእንበለ፡​ኵነኔ' (la-yəkun za-yəmāsən za-ʾənbəla kʷənane) refers to the preceding noun 'ሥጋሆሙ' (śəgāhomu, 'their flesh'). The interpretation is: 'their flesh shall be that which is destroyed without judgment.' This reading is syntactically superior because the singular verb 'ለይኩን' (la-yəkun) agrees with the conceptually singular 'flesh', whereas the alternative subject, 'መናፍስት' (manāfəst, 'spirits'), is plural. Theologically, it establishes a crucial distinction: the physical bodies of the giants decay naturally ('without judgment'), while their spirits, which are the focus of the subsequent verses, persist to cause destruction and will face the final judgment. This aligns with the narrative logic where the spirits are the primary concern, not their decayed corpses.",
       "parallels": [
         {
-          "ref": "1 Enoch 13:3-4",
-          "note": "The Watchers explicitly ask Enoch to write a petition and 'go and say' it to the Lord of heaven, effectively 'sending' him as their envoy."
+          "ref": "Ecclesiastes 12:7",
+          "note": "The concept of the body returning to dust while the spirit faces a separate fate is a strong thematic parallel. Eccl. 12:7 states, 'And the dust returns to the earth as it was, and the spirit returns to God who gave it.' While the context (human death) differs from the giants' death in Enoch, the underlying dualistic principle of a separate disposition for body and spirit supports the interpretation that the giants' flesh would perish without the formal 'judgment' reserved for their spirits."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "high",
+      "reasoning": "This hypothesis interprets 'ወምኑነ፡​ምሥጢረ፡​አእመርክሙ' (wa-mənuna məśṭira ʾaʾmarkəmu) in 16:3 as 'And you learned a worthless mystery.' It identifies 'ምኑነ' (mənuna) not as an interrogative, but as the accusative form of the adjective 'ምኑን' (mənun), meaning 'worthless, vain, useless,' which is attested in classical Ge'ez (cf. Dillmann, Lexicon, col. 241). This reading fits the condemnatory context of the divine speech to the Watchers. It frames their great transgression not as the acquisition of profound knowledge, but as the pursuit of a 'worthless' secret for which they forfeited their heavenly status. This ironic condemnation is more rhetorically powerful than a simple interrogative ('What sort of mystery...?').",
+      "parallels": [
+        {
+          "ref": "Jeremiah 10:15 (Ge'ez version)",
+          "note": "The use of adjectives for 'vanity' or 'worthlessness' to condemn illicit spiritual knowledge or objects is a common biblical trope. The Ge'ez Jeremiah 10:15 describes idols as 'ከንቱ፡​ውእቱ፡​ግብረ፡​ስሕተት' ('They are vanity, a work of delusion'). 'ከንቱ' (kantu) is a close synonym of 'ምኑን' (mənun), demonstrating a parallel conceptual and lexical pattern for denigrating forbidden spiritual things as inherently worthless."
         },
         {
-          "ref": "1 Enoch 15:3-7",
-          "note": "Contrasts the Watchers' former spiritual and heavenly existence with their current defiled state, providing the context for 'what you were formerly in heaven'."
+          "ref": "Greek Enoch (Panopolitanus fragment) at 16:3",
+          "note": "The corresponding Greek text reads 'καὶ μυστήριον ἄξιον ἐγνωρίσατε' ('and you knew a worthy mystery'), which is widely interpreted as ironic. The Ge'ez reading 'a worthless mystery' is a plausible, non-ironic rendering of the same condemnatory sentiment, suggesting the Ge'ez translator opted for a direct pejorative rather than preserving the irony of the Greek source text. This supports the idea that a qualitative judgment on the mystery is intended."
         }
       ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "The single hypothesis accurately reflects a key plot point in the narrative. The language is unambiguous and locks into the surrounding story of Enoch's intercession mission.",
+  "decision_log": "The evaluation focused on two primary ambiguities in 1 Enoch 16. The first, in v. 1, concerns the subject of the clause 'la-yəkun za-yəmāsən...'. Hypothesis S1, which assigns 'śəgāhomu' (their flesh) as the subject, was preferred for its syntactic and theological coherence over the alternative of 'manāfəst' (spirits). The second ambiguity, in v. 3, is the meaning of 'mənuna'. Hypothesis S2 argues it is the adjective 'worthless' (from 'mənun'), not an interrogative. This is supported by Ge'ez lexicography and the passage's condemnatory tone. Both hypotheses resolve significant textual difficulties and are well-supported by contextual and parallel evidence. S2 was chosen as the final decision because it resolves a specific lexical-syntactic crux with strong evidence, whereas S1 resolves a broader clausal ambiguity. Both evaluations document the uncertainty inherent in the text (e.g., manuscript variations, potential translation choices from a lost original) while presenting the most probable reading based on available evidence.",
   "final_decision": {
-    "hypothesis_ref": "S2_P1",
-    "translation_id": "T2",
+    "hypothesis_ref": "S2",
+    "translation_id": "T1",
     "confidence": "high"
   }
 }
+```

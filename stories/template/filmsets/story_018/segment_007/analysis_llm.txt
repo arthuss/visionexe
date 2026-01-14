@@ -2,53 +2,118 @@
 {
   "actors": [
     {
-      "name": "እግዚብ",
-      "visualTraits": null,
+      "name": "Enoch",
+      "visualTraits": "The first-person narrator, referred to as 'I' ('-ኩ').",
+      "changes": null,
+      "role": "narrator"
+    },
+    {
+      "name": "The Lord",
+      "visualTraits": "Referred to as 'እግዚአብሔር' (ʾəgziʾabḥer). Not seen directly, but possesses a throne.",
       "changes": null,
       "role": "deity"
     },
     {
-      "name": "ሰንፔር",
-      "visualTraits": null,
+      "name": "The Angel",
+      "visualTraits": "A being who speaks to the narrator to explain the vision. Also referred to as a 'spirit that was asking me'.",
       "changes": null,
-      "role": "spirit"
+      "role": "guide"
     }
   ],
-  "props": [],
-  "environments": [
+  "characters": [
     {
-      "name": "ሰማይ",
-      "visualTraits": null,
+      "name": "The Winds",
+      "visualTraits": "A collective cosmic force. Described as the 'four winds' that bear the earth and firmament, as pillars of heaven standing between heaven and earth, as the force that turns the heavens and sets the orbits of the sun and stars, and as the winds upon the earth that carry the clouds.",
       "changes": null,
-      "role": "sky"
+      "role": "cosmic_force"
     },
     {
-      "name": "ወድማሑ",
-      "visualTraits": null,
+      "name": "Angels",
+      "visualTraits": "Beings who have 'paths' in the cosmos.",
       "changes": null,
-      "role": "gate"
-    }
-  ],
-  "scenes": [
+      "role": "inhabitant"
+    },
     {
-      "title": "Chant Segment 7",
-      "location": "unknown",
-      "action": "Praise to God",
-      "actorsInvolved": ["እግዚብ", "ሰንፔር"]
+      "name": "The Seven Stars",
+      "visualTraits": "Appear like great burning mountains. They roll over fire after transgressing.",
+      "changes": [
+        {
+          "phase": "Phase 1: In Orbit",
+          "description": "Implied state of following their appointed celestial paths before transgression."
+        },
+        {
+          "phase": "Phase 2: Transgressing",
+          "description": "Failed to appear at their appointed time ('ኢመጽኡ፡ በጊዜሆሙ')."
+        },
+        {
+          "phase": "Phase 3: Imprisoned",
+          "description": "Bound in a desolate place until the time of the consummation of their sin in the 'year of mystery'."
+        }
+      ],
+      "role": "celestial_being"
+    },
+    {
+      "name": "The Powers of Heaven",
+      "visualTraits": "No visual traits provided.",
+      "changes": [
+        {
+          "phase": "Phase 1: Free",
+          "description": "Implied state of freedom."
+        },
+        {
+          "phase": "Phase 2: Imprisoned",
+          "description": "Bound along with the seven stars in the prison at the end of heaven and earth."
+        }
+      ],
+      "role": "celestial_being"
     }
   ],
-  "blocking": {
-    "anchors": [
-      {
-        "id": "A1",
-        "description": "sky"
-      },
-      {
-        "id": "A2",
-        "description": "gate"
-      }
-    ],
-    "paths": []
-  }
-}
-```
+  "props": [
+    {
+      "name": "Corner stone of the earth",
+      "visualTraits": "A foundational stone ('ዕብነ፡ ማእዘንተ') of the earth.",
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Throne of the Lord",
+      "visualTraits": "Made of alabaster ('እብነ፡​ፔከ'), with a top made of sapphire ('እብነ፡​ሰንፔር'). The middle mountain is described as being like this throne.",
+      "changes": null,
+      "role": "actor_prop:The Lord"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "The South",
+      "visualTraits": "A direction of travel ('መንገለ፡ አዜብ') leading to a burning place.",
+      "changes": null,
+      "role": "region"
+    },
+    {
+      "name": "The East",
+      "visualTraits": "The location ('መንገለ፡ ጸባሕ') of three of the seven mountains.",
+      "changes": null,
+      "role": "region"
+    },
+    {
+      "name": "The Middle Mountain",
+      "visualTraits": "The central ('ማዕከላይ') of the seven mountains. It reaches to heaven and is compared to the Throne of the Lord.",
+      "changes": null,
+      "role": "feature"
+    },
+    {
+      "name": "The Great Earth",
+      "visualTraits": "A large landmass ('ዓቢይ፡ ምድር') for which there is a 'place of crossing over'.",
+      "changes": null,
+      "role": "landmass"
+    },
+    {
+      "name": "The Abyss of the Earth",
+      "visualTraits": "A deep chasm ('ንቅዐተ፡ ምድር፡ ዕሙቀ') containing innumerable descending pillars of fire.",
+      "changes": null,
+      "role": "chasm"
+    },
+    {
+      "name": "The Desolate and Terrible Place",
+      "visualTraits": "A place ('መካነ፡ በድው፡ ውእቱ፡ ወግሩመ') located above the abyss. It has no firmament of heaven above it, no earth foundation below it, no water, and no

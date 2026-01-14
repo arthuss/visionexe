@@ -2,30 +2,170 @@
 {
   "actors": [
     {
-      "name": "ጻሕብ",
-      "visualTraits": null,
+      "name": "Lord of Spirits",
+      "visualTraits": {
+        "description": "A being of great glory, mercy, and righteous judgment. His presence defines the location of judgment. (Ge'ez: እግዚአ፡ መናፍስት)",
+        "age": null,
+        "ethnicity": null,
+        "gender": "male"
+      },
       "changes": null,
-      "role": "priest"
-    },
-    {
-      "name": "እግዚ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "deity"
+      "role": "judge"
     }
   ],
-  "props": [],
+  "characters": [
+    {
+      "name": "The Righteous",
+      "visualTraits": {
+        "description": "A group also referred to as 'the holy' (ቅዱሳን) and 'the chosen' (ኅሩያን). They are victorious and have the 'light of days' dwell upon them. (Ge'ez: ጻድቃን)"
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-Restoration",
+          "description": "An implied state before their restoration."
+        },
+        {
+          "phase": "Phase 2: Restored",
+          "description": "Glory, honor, and the light of days return to them and dwell upon them."
+        }
+      ],
+      "role": "protagonist_group"
+    },
+    {
+      "name": "The Sinners",
+      "visualTraits": {
+        "description": "A group upon whom evil is gathered. They perform the 'work of their hands' which they are urged to abandon. (Ge'ez: ኃጥኣን)"
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-Judgment",
+          "description": "The state before evil is gathered upon them."
+        },
+        {
+          "phase": "Phase 2: Judged",
+          "description": "Evil is gathered upon them on the day of tribulation."
+        }
+      ],
+      "role": "antagonist_group"
+    },
+    {
+      "name": "The Others",
+      "visualTraits": {
+        "description": "A group who observes the victory of the righteous, intended to make them repent. (Ge'ez: ካልኣን)"
+      },
+      "changes": null,
+      "role": "observer_group"
+    },
+    {
+      "name": "The Unrepentant",
+      "visualTraits": {
+        "description": "Those who do not repent and are consequently destroyed. (Ge'ez: ዘኢይኔስሕ)"
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-Destruction",
+          "description": "A state of unrepentance before judgment."
+        },
+        {
+          "phase": "Phase 2: Destroyed",
+          "description": "They are destroyed before the Lord of Spirits."
+        }
+      ],
+      "role": "antagonist_subgroup"
+    }
+  ],
+  "props": [
+    {
+      "name": "Light of Days",
+      "visualTraits": {
+        "description": "A form of light that dwells upon the righteous. (Ge'ez: ብርሃነ፡ መዋዕል)"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Glory",
+      "visualTraits": {
+        "description": "An abstract quality that returns to the holy. (Ge'ez: ስብሐት)"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Honor",
+      "visualTraits": {
+        "description": "An abstract quality that returns to the holy. (Ge'ez: ክብር)"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Evil",
+      "visualTraits": {
+        "description": "An abstract force that is 'gathered' upon the sinners. (Ge'ez: እኪት)"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Work of their hands",
+      "visualTraits": {
+        "description": "The deeds of the sinners which they are called to abandon. (Ge'ez: ምግባረ፡ እደዊሆሙ)"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "Presence of the Lord of Spirits",
+      "visualTraits": {
+        "description": "The conceptual space 'before' the Lord of Spirits where judgment occurs and unrighteousness cannot stand. (Ge'ez: በቅድመ፡ እግዚአ፡ መናፍስት)"
+      },
+      "changes": null,
+      "role": "judgement_site"
+    }
+  ],
   "environments": [],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 50 Segment 2",
-      "location": null,
-      "action": null,
-      "actorsInvolved": ["ጻሕብ", "እግዚ"]
+      "title": "The Restoration of the Righteous",
+      "location": "unspecified",
+      "action": "In 'those days', a return is made for the holy and chosen. The light of days dwells upon them, and glory and honor return to them.",
+      "actorsInvolved": [
+        "The Righteous"
+      ]
+    },
+    {
+      "title": "The Day of Tribulation",
+      "location": "unspecified",
+      "action": "On the day of tribulation, evil is gathered upon the sinners. The righteous are victorious in the name of the Lord of Spirits, and this is shown to 'the others' so that they might repent and abandon the work of their hands.",
+      "actorsInvolved": [
+        "The Righteous",
+        "The Sinners",
+        "The Others",
+        "Lord of Spirits"
+      ]
+    },
+    {
+      "title": "The Final Verdict",
+      "location": "Presence of the Lord of Spirits",
+      "action": "The Lord of Spirits, in his righteous judgment and glory, declares that those who do not repent will be destroyed before him. He states that from that point on, he will no longer have mercy on them.",
+      "actorsInvolved": [
+        "Lord of Spirits",
+        "The Unrepentant"
+      ]
     }
   ],
   "blocking": {
-    "anchors": [],
+    "anchors": [
+      {
+        "id": "presence_of_the_lord",
+        "description": "The area before the Lord of Spirits where judgment occurs."
+      }
+    ],
     "paths": []
   }
 }

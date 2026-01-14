@@ -1,0 +1,7 @@
+An analysis of the provided text according to the specified rules is not possible due to a fundamental contradiction in the instructions. The request is to perform a "rigorous, scientific Morphological Analysis (Level B)" on a "token"-by-"token" basis. However, the provided `tokens` array in the input JSON defines each "token" as an entire verse (e.g., `t2` is the full text of verse 54:1).
+
+Morphological analysis is the study of the internal structure of words (morphemes), not sentences. A single verse is a syntactic unit composed of multiple words (tokens), and it is impossible to assign a single Part-of-Speech tag, a single lemma, or a single root to an entire sentence. Attempting to do so would violate the scientific principles of linguistics and the very definition of morphological analysis.
+
+The instruction "Use the provided tokens as-is; do not create or merge tokens" is in direct conflict with the goal of performing a valid morphological analysis. To proceed, one would have to violate one of these core instructions: either ignore the provided tokenization and break the verses into words, or produce a scientifically invalid analysis of entire sentences.
+
+Given this unresolvable conflict, a valid JSON output conforming to the schema and the scientific requirements cannot be generated. The request is ill-posed.

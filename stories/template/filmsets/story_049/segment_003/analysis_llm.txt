@@ -1,12 +1,97 @@
 ```json
 {
-  "actors": [],
-  "props": [],
+  "actors": [
+    {
+      "name": "Elect One",
+      "visualTraits": "Described as mighty, possessing eternal glory and might. The spirit of wisdom, insight, instruction, might, and of the righteous dead dwells within him.",
+      "changes": null,
+      "role": "judge"
+    },
+    {
+      "name": "Lord of Spirits",
+      "visualTraits": "A supreme divine being before whom the Elect One stands and whose will is followed.",
+      "changes": null,
+      "role": "deity"
+    }
+  ],
+  "characters": [
+    {
+      "name": "The Righteous Dead",
+      "visualTraits": "Described as 'those who have fallen asleep in righteousness'. Their spirit is said to dwell in the Elect One.",
+      "changes": null,
+      "role": "group"
+    },
+    {
+      "name": "People (generic)",
+      "visualTraits": "Unspecified. Described as being unable to speak a vain word before the Elect One.",
+      "changes": null,
+      "role": "group"
+    }
+  ],
+  "props": [
+    {
+      "name": "Water",
+      "visualTraits": "Used in a simile to describe how wisdom is 'poured out'.",
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Shadow",
+      "visualTraits": "Used in a simile to describe unrighteousness as transient and having 'no standing'.",
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "Presence of the Lord of Spirits",
+      "visualTraits": "A conceptual, non-physical space defined by proximity to the Lord of Spirits, where the Elect One stands.",
+      "changes": null,
+      "role": "divine_court"
+    }
+  ],
   "environments": [],
-  "scenes": [],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Nature and Qualities of the Elect One",
+      "location": "Presence of the Lord of Spirits",
+      "action": "The text describes the eternal nature of the Elect One, who stands before the Lord of Spirits. Wisdom is poured out like water, and various spirits (wisdom, insight, instruction, might, and of the righteous dead) dwell within him. Unrighteousness is contrasted as being transient like a shadow.",
+      "actorsInvolved": [
+        "Elect One",
+        "Lord of Spirits",
+        "The Righteous Dead"
+      ]
+    },
+    {
+      "title": "The Elect One as Judge",
+      "location": "Presence of the Lord of Spirits",
+      "action": "The Elect One is established as the judge of secret things, before whom no one can speak a vain word. This role is affirmed by his position before the Lord of Spirits and by divine will.",
+      "actorsInvolved": [
+        "Elect One",
+        "Lord of Spirits",
+        "People (generic)"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "anchor_1",
+        "description": "The space before the Lord of Spirits"
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Elect One",
+        "start_anchor": "anchor_1",
+        "end_anchor": "anchor_1",
+        "motion": "stand",
+        "duration_sec": null,
+        "notes": "The text states the Elect One 'has stood' (ቆመ), implying a continuous and established position before the Lord of Spirits."
+      }
+    ]
   }
 }
 ```

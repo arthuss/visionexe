@@ -2,31 +2,159 @@
 {
   "actors": [
     {
-      "name": "ወርኢዋ",
+      "name": "Narrator (Enoch)",
       "visualTraits": null,
       "changes": null,
-      "role": "deity"
+      "role": "narrator"
     },
     {
-      "name": "መላእት",
-      "visualTraits": null,
+      "name": "Angel",
+      "visualTraits": [
+        "accompanies the narrator"
+      ],
       "changes": null,
-      "role": "messenger"
+      "role": "guide"
+    },
+    {
+      "name": "Lord of Spirits",
+      "visualTraits": [
+        "unseen presence who calls celestial bodies by name"
+      ],
+      "changes": null,
+      "role": "deity"
     }
   ],
-  "props": [],
-  "environments": [],
+  "characters": [
+    {
+      "name": "Angels",
+      "visualTraits": [
+        "unseen, their number corresponds to the revolution of stars"
+      ],
+      "changes": null,
+      "role": "group"
+    },
+    {
+      "name": "The Righteous",
+      "visualTraits": [
+        "dwell on the dry ground",
+        "believe in the name of the Lord of Spirits"
+      ],
+      "changes": null,
+      "role": "group"
+    }
+  ],
+  "props": [
+    {
+      "name": "Lightnings",
+      "visualTraits": [
+        "celestial flashes of light"
+      ],
+      "changes": [
+        {
+          "phase": "Dynamic",
+          "description": "Described as begetting more lightning, indicating active generation and movement."
+        }
+      ],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Stars of Heaven",
+      "visualTraits": [
+        "celestial bodies with individual lights"
+      ],
+      "changes": [
+        {
+          "phase": "Dynamic",
+          "description": "Undergo revolution, are called by name, and are weighed, indicating active, governed movement and identity."
+        }
+      ],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Balance of Righteousness",
+      "visualTraits": [
+        "a celestial scale"
+      ],
+      "changes": [
+        {
+          "phase": "Dynamic",
+          "description": "Actively weighs the stars according to their light and other properties."
+        }
+      ],
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "Heaven",
+      "visualTraits": [
+        "the celestial expanse containing stars and lightnings"
+      ],
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "Dry Ground",
+      "visualTraits": [
+        "the terrestrial dwelling place of the righteous"
+      ],
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Cosmic Vision",
+      "visualTraits": [
+        "a visionary space where celestial mechanics are revealed"
+      ],
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Praising Weriwa",
-      "location": "unknown",
-      "action": "chant",
-      "actorsInvolved": ["ወርኢዋ", "መላእት"]
+      "title": "Vision of Celestial Order",
+      "location": "Heaven",
+      "action": "The narrator observes lightnings and stars being called by name, and sees the Balance of Righteousness weighing them according to their light, place, and revolution. This revolution is linked to the number of angels.",
+      "actorsInvolved": [
+        "Narrator (Enoch)",
+        "Lord of Spirits"
+      ]
+    },
+    {
+      "title": "Interpretation of the Vision",
+      "location": "Cosmic Vision",
+      "action": "The narrator asks his angelic guide about the things he has seen. The angel explains that the Lord of Spirits has shown him a parable, and that the celestial bodies are the names of the righteous who dwell on the dry ground.",
+      "actorsInvolved": [
+        "Narrator (Enoch)",
+        "Angel",
+        "Lord of Spirits"
+      ]
     }
   ],
   "blocking": {
     "anchors": [],
-    "paths": []
+    "paths": [
+      {
+        "actor": "Angel",
+        "start_anchor": "unknown",
+        "end_anchor": "unknown",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The angel is described as 'who went with me' (ዘየሐውር ምስሌየ), implying movement alongside the narrator through the visionary space."
+      },
+      {
+        "actor": "Narrator (Enoch)",
+        "start_anchor": "unknown",
+        "end_anchor": "unknown",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Moves with the angel, as implied by the phrase 'the angel who went with me'."
+      }
+    ]
   }
 }
 ```

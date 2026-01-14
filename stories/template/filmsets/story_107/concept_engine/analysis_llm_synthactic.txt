@@ -1,0 +1,15 @@
+An enumeration of all valid syntactic parses for the provided Ge'ez text, following the specified scientific rules.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "P107_1_A1",
+        "verse": "107:1",
+        "structure_type": "Complex Sentence",
+        "bracket_notation": "[S [VocP (t2) ወልድየ] [AdvP (t2) ወይእዜኒ] [VP [V (t2) ሐር] [Coord [S [VP [V (t2) ይድዖ] [IO (t3) ለወልድ…ላሜŒ]] [AdvCl [SubConj (t3) እስመ] [S [Subj (t4) ዘወልድ፡ዘተወልደ] [Pred [Cop (t5) ውእቱ] [Pnom (t4,t5) ወልደ፡ዚ¡ሁ]] [AdvP (t5) ¡ምን] [Coord [Conj (t5) ወ-] [NegP [Neg (t5) ኢœነ] [Obj (t6) ሐሰተ]]]]]]]]]]",
+        "dependencies": [
+          "t2(ሐር)->t2(ወልድየ) (vocative)",
+          "t2(ሐር)->t2(ወይእዜኒ) (advmod)",
+          "t2(ሐር

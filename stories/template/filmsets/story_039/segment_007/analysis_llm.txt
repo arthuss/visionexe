@@ -2,81 +2,317 @@
 {
   "actors": [
     {
-      "name": "I",
-      "visualTraits": null,
-      "changes": null,
-      "role": "speaker"
+      "name": "Enoch",
+      "visualTraits": [
+        "His face is transformed to the point he is unable to see."
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: pre-transformation",
+          "description": "Normal appearance."
+        },
+        {
+          "phase": "Phase 2: transformed",
+          "description": "Face is transformed, becomes unable to see."
+        }
+      ],
+      "role": "Narrator, visionary"
     },
     {
-      "name": "God",
-      "visualTraits": null,
-      "changes": null,
-      "role": "deity"
+      "name": "Lord of Spirits",
+      "visualTraits": [
+        "Has wings under which the righteous dwell.",
+        "Is associated with glory."
+      ],
+      "changes": [],
+      "role": "Divine being, judge"
+    },
+    {
+      "name": "the Lord",
+      "visualTraits": [],
+      "changes": [],
+      "role": "Divine being who is blessed (likely the Lord of Spirits)"
+    }
+  ],
+  "characters": [
+    {
+      "name": "chosen and holy children",
+      "visualTraits": [
+        "Descend from the high heavens."
+      ],
+      "changes": [],
+      "role": "Heavenly beings who will unite with humanity"
+    },
+    {
+      "name": "children of men",
+      "visualTraits": [],
+      "changes": [],
+      "role": "Inhabitants of the earth"
+    },
+    {
+      "name": "the righteous",
+      "visualTraits": [],
+      "changes": [],
+      "role": "Inhabitants of a heavenly dwelling"
+    },
+    {
+      "name": "the holy",
+      "visualTraits": [],
+      "changes": [],
+      "role": "Inhabitants of heavenly resting places"
+    },
+    {
+      "name": "angels",
+      "visualTraits": [],
+      "changes": [],
+      "role": "Heavenly beings dwelling with the holy and righteous"
+    },
+    {
+      "name": "the chosen ones",
+      "visualTraits": [],
+      "changes": [],
+      "role": "Inhabitants of a place of righteousness and faith"
+    },
+    {
+      "name": "the righteous and chosen",
+      "visualTraits": [
+        "Shine like the light of fire.",
+        "Mouths are full of blessing.",
+        "Lips praise the Lord of Spirits."
+      ],
+      "changes": [],
+      "role": "A group of blessed beings in heaven"
+    },
+    {
+      "name": "Those who do not sleep",
+      "visualTraits": [
+        "They stand and do not sleep."
+      ],
+      "changes": [],
+      "role": "Beings who eternally praise the Lord of Spirits"
     }
   ],
   "props": [
     {
-      "name": "spirit",
-      "visualTraits": null,
-      "changes": null,
-      "role": "spiritual element"
+      "name": "books of zeal and anger",
+      "visualTraits": [],
+      "changes": [],
+      "role": "actor_prop:Enoch"
     },
     {
-      "name": "light",
-      "visualTraits": null,
-      "changes": null,
-      "role": "light source"
+      "name": "books of commotion and disturbance",
+      "visualTraits": [],
+      "changes": [],
+      "role": "actor_prop:Enoch"
+    }
+  ],
+  "places": [
+    {
+      "name": "high heavens",
+      "visualTraits": [],
+      "changes": [],
+      "role": "Origin point of the chosen and holy children"
     },
     {
-      "name": "fire",
-      "visualTraits": null,
-      "changes": null,
-      "role": "fire element"
+      "name": "earth",
+      "visualTraits": [
+        "Has a 'face'."
+      ],
+      "changes": [],
+      "role": "Realm of the children of men; Enoch's point of departure"
     },
     {
-      "name": "flame",
-      "visualTraits": null,
-      "changes": null,
-      "role": "flame element"
+      "name": "end of the heavens",
+      "visualTraits": [],
+      "changes": [],
+      "role": "Destination of Enoch's ascent"
+    },
+    {
+      "name": "the world",
+      "visualTraits": [],
+      "changes": [],
+      "role": "The created realm"
+    },
+    {
+      "name": "earth of spirits",
+      "visualTraits": [
+        "Filled with spirits."
+      ],
+      "changes": [],
+      "role": "A place mentioned in a hymn of praise"
+    }
+  ],
+  "locations": [
+    {
+      "name": "dwelling of the righteous",
+      "visualTraits": [],
+      "changes": [],
+      "role": "A heavenly habitation"
+    },
+    {
+      "name": "resting places of the holy",
+      "visualTraits": [],
+      "changes": [],
+      "role": "Heavenly resting places"
+    },
+    {
+      "name": "place of the chosen ones",
+      "visualTraits": [
+        "A place of righteousness and faith."
+      ],
+      "changes": [],
+      "role": "A specific location in heaven"
+    },
+    {
+      "name": "under the wings of the Lord of Spirits",
+      "visualTraits": [],
+      "changes": [],
+      "role": "The dwelling place of the righteous and chosen"
+    },
+    {
+      "name": "before the glory",
+      "visualTraits": [],
+      "changes": [],
+      "role": "The location where the sleepless ones stand and praise"
     }
   ],
   "environments": [
     {
-      "name": "world",
-      "visualTraits": null,
-      "changes": null,
-      "role": "global environment"
+      "name": "cloud",
+      "visualTraits": [],
+      "changes": [
+        {
+          "phase": "Phase 1: static",
+          "description": "A cloud."
+        },
+        {
+          "phase": "Phase 2: dynamic",
+          "description": "Acts as a force to snatch and transport Enoch."
+        }
+      ],
+      "role": "Atmospheric phenomenon and transport mechanism"
     },
     {
-      "name": "sanctuary",
-      "visualTraits": null,
-      "changes": null,
-      "role": "sanctuary"
+      "name": "whirlwind",
+      "visualTraits": [],
+      "changes": [
+        {
+          "phase": "Phase 1: static",
+          "description": "A whirlwind."
+        },
+        {
+          "phase": "Phase 2: dynamic",
+          "description": "Acts as a force to snatch and transport Enoch."
+        }
+      ],
+      "role": "Atmospheric phenomenon and transport mechanism"
     },
     {
-      "name": "temple",
-      "visualTraits": null,
-      "changes": null,
-      "role": "temple"
+      "name": "righteousness",
+      "visualTraits": [
+        "Flows like water."
+      ],
+      "changes": [],
+      "role": "Abstract concept described as a physical element"
     },
     {
-      "name": "gate",
-      "visualTraits": null,
-      "changes": null,
-      "role": "gate"
+      "name": "mercy",
+      "visualTraits": [
+        "Like dew upon the earth."
+      ],
+      "changes": [],
+      "role": "Abstract concept described as a physical element"
+    },
+    {
+      "name": "light of fire",
+      "visualTraits": [],
+      "changes": [],
+      "role": "The appearance of the righteous and chosen"
     }
   ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Prayer to God",
-      "location": "sanctuary/temple",
-      "action": "Speaker addresses God, invokes spirit, light, and fire, praises God.",
-      "actorsInvolved": ["I", "God"]
+      "title": "The Descent of the Heavenly Children",
+      "location": "high heavens, earth",
+      "action": "The chosen and holy children descend from the heavens and their seed becomes one with the children of men.",
+      "actorsInvolved": [
+        "chosen and holy children",
+        "children of men"
+      ]
+    },
+    {
+      "title": "Enoch's Commission and Ascent",
+      "location": "earth, end of the heavens",
+      "action": "Enoch takes books of judgment, the Lord of Spirits declares no mercy, and Enoch is snatched from earth to the end of the heavens by a cloud and whirlwind.",
+      "actorsInvolved": [
+        "Enoch",
+        "Lord of Spirits"
+      ]
+    },
+    {
+      "title": "Vision of the Heavenly Dwellings",
+      "location": "end of the heavens",
+      "action": "Enoch sees the dwellings of the righteous, holy, and angels, who pray for humanity. He sees them shining and praising the Lord of Spirits under His wings.",
+      "actorsInvolved": [
+        "Enoch",
+        "Lord of Spirits",
+        "the righteous",
+        "the holy",
+        "angels",
+        "the righteous and chosen"
+      ]
+    },
+    {
+      "title": "Enoch's Predestined Portion",
+      "location": "the dwelling of the righteous",
+      "action": "Enoch desires to dwell in the heavenly place, recognizing it as his pre-ordained portion, and praises the Lord of Spirits.",
+      "actorsInvolved": [
+        "Enoch",
+        "Lord of Spirits"
+      ]
+    },
+    {
+      "title": "The Unsleeping Praise",
+      "location": "before the glory",
+      "action": "Enoch sees beings who do not sleep as they stand and eternally praise the Lord of Spirits.",
+      "actorsInvolved": [
+        "Enoch",
+        "Lord of Spirits",
+        "Those who do not sleep",
+        "the Lord"
+      ]
+    },
+    {
+      "title": "Enoch's Transformation",
+      "location": "before the glory",
+      "action": "Enoch's face is transformed to the point that he is unable to see.",
+      "actorsInvolved": [
+        "Enoch"
+      ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "earth",
+        "description": "The face of the earth, Enoch's starting point."
+      },
+      {
+        "id": "heavens_end",
+        "description": "The end of the heavens, Enoch's destination."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Enoch",
+        "start_anchor": "earth",
+        "end_anchor": "heavens_end",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Snatched by a cloud and a whirlwind."
+      }
+    ]
   }
 }
 ```

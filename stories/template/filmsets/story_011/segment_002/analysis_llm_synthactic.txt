@@ -1,35 +1,48 @@
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "S2_H1",
-        "structure_type": "Header Phrase",
-        "bracket_notation": "[NP-HEADER [N t1] [NUM t2]]",
+        "id": "S1",
+        "structure_type": "Discourse",
+        "bracket_notation": "[Discourse [NP [N t1] [S,appos t2]] [NP [N t3] [S,appos t4]]]",
         "dependencies": [
-          "t1->t2 (num_mod)"
+          "t1->t2 (apposition)",
+          "t3->t4 (apposition)"
         ],
-        "notes": "Chapter 11"
+        "notes": "This analysis treats the verse numbers (t1, t3) as nominal heads, with the verse text (t2, t4) as clausal appositives. This is one of two primary interpretations of the relationship between a verse number and its text, treating the number as a label and the text as its content."
       },
       {
-        "id": "S2_H2",
-        "structure_type": "Header Phrase",
-        "bracket_notation": "[NP-HEADER [N t3] [NUM t4]]",
+        "id": "S2",
+        "structure_type": "Discourse",
+        "bracket_notation": "[Discourse [S [S t2] [advmod t1]] [S [S t4] [advmod t3]]]",
         "dependencies": [
-          "t3->t4 (num_mod)"
+          "t2->t1 (adverbial_modifier)",
+          "t4->t3 (adverbial_modifier)"
         ],
-        "notes": "Segment 2"
+        "notes": "This analysis treats the verse texts (t2, t4) as main clauses, with the verse numbers (t1, t3) acting as adverbial modifiers of location (i.e., 'at verse 11:1'). This is the second primary interpretation of the relationship, treating the number as a citation reference."
       },
       {
-        "id": "S2_C1",
-        "structure_type": "Copular Clause",
-        "bracket_notation": "[S [NP-SUBJ-PRED t5] [VP t6] [PP-ADV t7] [NP-MOD t8]]",
+        "id": "S3",
+        "structure_type": "Discourse",
+        "bracket_notation": "[Discourse [NP [N t1] [S,appos t2]] [S [S t4] [advmod t3]]]",
         "dependencies": [
-          "t6->t5 (subject_and_predicate_nominative)",
-          "t6->t7 (temporal_adjunct)",
-          "t7->t8 (genitive_modifier)"
+          "t1->t2 (apposition)",
+          "t4->t3 (adverbial_modifier)"
         ],
-        "notes": "Clause where 'peace and righteousness' are the subject and 'partners' is the predicate, both contained in t5, linked by the copular verb 'they will be' in t6."
+        "notes": "This analysis presents a hybrid structure, combining the appositional reading for the first verse (t1, t2) and the adverbial reading for the second verse (t3, t4). Enumerating such mixed parses is necessary to represent the full structural space without ambiguity reduction."
+      },
+      {
+        "id": "S4",
+        "structure_type": "Discourse",
+        "bracket_notation": "[Discourse [S [S t2] [advmod t1]] [NP [N t3] [S,appos t4]]]",
+        "dependencies": [
+          "t2->t1 (adverbial_modifier)",
+          "t3->t4 (apposition)"
+        ],
+        "notes": "This analysis presents the other hybrid structure, combining the adverbial reading for the first verse (t1, t2) and the appositional reading for the second verse (t3, t4). This completes the enumeration of the structural possibilities arising from the ambiguity."
       }
     ]
   }
 }
+```

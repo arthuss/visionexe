@@ -1,0 +1,22 @@
+An enumeration of all valid syntactic parses for the provided Ge'ez text, following the specified scientific rules.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "P1",
+        "structure_type": "Chained Clause Structure",
+        "bracket_notation": "[S [REF t1] [S1 [VP [V t2] [ADVP [S-CIRC [VP [V t3] [COORD [VP [V t4] [OBJ t5]]]]]]]] [S2 [VP [V t5] [XCOMP t6]]]]]",
+        "dependencies": [
+          "t2->t3 (adv-mod)",
+          "t3->t4 (coord)",
+          "t4->t5 (obj)",
+          "t5->t6 (xcomp)"
+        ],
+        "notes": "Represents a tightly chained structure where tokens are sequentially dependent. t3, a circumstantial clause, modifies t2. t4 is coordinated with t3. t5 serves as the object for t4 while also heading a new clause that takes t6 as its complement. This parse prioritizes local dependencies despite the syntactic strain caused by the tokenization."
+      },
+      {
+        "id": "P2",
+        "structure_type": "Coordinated Clause Structure",
+        "bracket_notation": "[S [REF t1] [COORD [S1 [VP [V t2] [ADVP t3]]] [

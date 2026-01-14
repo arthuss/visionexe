@@ -1,0 +1,18 @@
+An analysis of the provided Ge'ez text follows.
+
+The analysis adheres to the specified scientific rules, including:
+- **Graphematic Fidelity**: All token surfaces, including punctuation and diacritics, are preserved exactly as provided in the input.
+- **Tokenization**: The analysis is performed on whitespace-separated tokens derived from the larger verse-level chunks in the input, as implied by the `tokenization_policy` and the goal of a meaningful morphological breakdown.
+- **POS Tagging**: All Part-of-Speech tags are from the specified `GEZ-POS-1` tagset.
+- **Layered Analysis**: Each potential interpretation of a token is presented as a distinct option, detailing its graphematic, morphemic, and lexical properties.
+- **Morphemic Segmentation**: Tokens are segmented into constituent morphemes (prefixes, stems, suffixes, clitics).
+- **Lexical Detail**: For each option, the consonantal root, lemma, morphological pattern, grammatical features, and an English gloss are provided.
+- **Evidence and Confidence**: Each analysis is supported by its lexicon status (based on standard Ge'ez lexicons like Leslau's) and assigned a confidence level.
+
+This structured approach provides a comprehensive and transparent morphological matrix for each token in the text.
+
+```json
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2024-07-30T12:00:00Z",

@@ -1,37 +1,161 @@
+An analysis of the provided tokens reveals a repeating structure where a nominal token representing a verse number (e.g., `t1`: "6:1") is immediately followed by a clausal token containing the text of that verse (e.g., `t2`: "ወኮነ፡..."). This juxtaposition creates a syntactic relationship between the verse number and its content.
+
+From a purely syntactic perspective, without recourse to semantics or world knowledge, this relationship can be interpreted in at least two ways:
+
+1.  **Apposition**: The verse number acts as a nominal head, and the following clause is an appositive modifier that specifies the content of the head. This is a common structure for labels and their corresponding text.
+2.  **Construct Chain (Genitive)**: The verse number is treated as a noun in the construct state, with the following clause functioning as its genitive modifier. This implies a relationship of "the text *of* verse X," which is syntactically realized through juxtaposition, a hallmark of the construct state in Ge'ez.
+
+Adhering to the principle of "NO AMBIGUITY REDUCTION," both valid syntactic interpretations are enumerated for each of the eight verse-number/verse-text pairs found in the input. The analysis treats each verse text as a single, unanalyzed clausal token (`S'`) as per the "TOKEN FIDELITY" rule.
+
+```json
 {
   "syntax": {
     "parses": [
       {
         "id": "S1",
-        "structure_type": "Nominal Phrase",
-        "bracket_notation": "[NP [N t1] [NUM t2]]",
+        "structure_type": "Apposition",
+        "bracket_notation": "[ApposP [NP t1] [S' t2]]",
         "dependencies": [
-          "t1->t2 (numeric_modifier)"
+          "t1->t2 (apposition)"
         ],
-        "notes": "Chapter 6"
+        "notes": "The verse number t1 is in an appositional relationship with the clausal content of the verse t2."
       },
       {
         "id": "S2",
-        "structure_type": "Nominal Phrase",
-        "bracket_notation": "[NP [N t3] [NUM t4]]",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t1] [Gen t2]]",
         "dependencies": [
-          "t3->t4 (numeric_modifier)"
+          "t1->t2 (genitive)"
         ],
-        "notes": "Segment 2"
+        "notes": "The verse number t1 is the head of a construct chain, with the clausal content of the verse t2 as its genitive modifier."
       },
       {
         "id": "S3",
-        "structure_type": "Coordinated Nominal Phrases",
-        "bracket_notation": "[NP-COORD [NP t5] [NP t6] [NP t7] [NP t8] [NP t9] [NP t10]]",
+        "structure_type": "Apposition",
+        "bracket_notation": "[ApposP [NP t3] [S' t4]]",
         "dependencies": [
-          "t5->t6 (coord)",
-          "t6->t7 (coord)",
-          "t7->t8 (coord)",
-          "t8->t9 (coord)",
-          "t9->t10 (coord)"
+          "t3->t4 (apposition)"
         ],
-        "notes": "A sequence of coordinated nominal phrases."
+        "notes": "The verse number t3 is in an appositional relationship with the clausal content of the verse t4."
+      },
+      {
+        "id": "S4",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t3] [Gen t4]]",
+        "dependencies": [
+          "t3->t4 (genitive)"
+        ],
+        "notes": "The verse number t3 is the head of a construct chain, with the clausal content of the verse t4 as its genitive modifier."
+      },
+      {
+        "id": "S5",
+        "structure_type": "Apposition",
+        "bracket_notation": "[ApposP [NP t5] [S' t6]]",
+        "dependencies": [
+          "t5->t6 (apposition)"
+        ],
+        "notes": "The verse number t5 is in an appositional relationship with the clausal content of the verse t6."
+      },
+      {
+        "id": "S6",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t5] [Gen t6]]",
+        "dependencies": [
+          "t5->t6 (genitive)"
+        ],
+        "notes": "The verse number t5 is the head of a construct chain, with the clausal content of the verse t6 as its genitive modifier."
+      },
+      {
+        "id": "S7",
+        "structure_type": "Apposition",
+        "bracket_notation": "[ApposP [NP t7] [S' t8]]",
+        "dependencies": [
+          "t7->t8 (apposition)"
+        ],
+        "notes": "The verse number t7 is in an appositional relationship with the clausal content of the verse t8."
+      },
+      {
+        "id": "S8",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t7] [Gen t8]]",
+        "dependencies": [
+          "t7->t8 (genitive)"
+        ],
+        "notes": "The verse number t7 is the head of a construct chain, with the clausal content of the verse t8 as its genitive modifier."
+      },
+      {
+        "id": "S9",
+        "structure_type": "Apposition",
+        "bracket_notation": "[ApposP [NP t9] [S' t10]]",
+        "dependencies": [
+          "t9->t10 (apposition)"
+        ],
+        "notes": "The verse number t9 is in an appositional relationship with the clausal content of the verse t10."
+      },
+      {
+        "id": "S10",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t9] [Gen t10]]",
+        "dependencies": [
+          "t9->t10 (genitive)"
+        ],
+        "notes": "The verse number t9 is the head of a construct chain, with the clausal content of the verse t10 as its genitive modifier."
+      },
+      {
+        "id": "S11",
+        "structure_type": "Apposition",
+        "bracket_notation": "[ApposP [NP t11] [S' t12]]",
+        "dependencies": [
+          "t11->t12 (apposition)"
+        ],
+        "notes": "The verse number t11 is in an appositional relationship with the clausal content of the verse t12."
+      },
+      {
+        "id": "S12",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t11] [Gen t12]]",
+        "dependencies": [
+          "t11->t12 (genitive)"
+        ],
+        "notes": "The verse number t11 is the head of a construct chain, with the clausal content of the verse t12 as its genitive modifier."
+      },
+      {
+        "id": "S13",
+        "structure_type": "Apposition",
+        "bracket_notation": "[ApposP [NP t13] [S' t14]]",
+        "dependencies": [
+          "t13->t14 (apposition)"
+        ],
+        "notes": "The verse number t13 is in an appositional relationship with the clausal content of the verse t14."
+      },
+      {
+        "id": "S14",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t13] [Gen t14]]",
+        "dependencies": [
+          "t13->t14 (genitive)"
+        ],
+        "notes": "The verse number t13 is the head of a construct chain, with the clausal content of the verse t14 as its genitive modifier."
+      },
+      {
+        "id": "S15",
+        "structure_type": "Apposition",
+        "bracket_notation": "[ApposP [NP t15] [S' t16]]",
+        "dependencies": [
+          "t15->t16 (apposition)"
+        ],
+        "notes": "The verse number t15 is in an appositional relationship with the clausal content of the verse t16."
+      },
+      {
+        "id": "S16",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t15] [Gen t16]]",
+        "dependencies": [
+          "t15->t16 (genitive)"
+        ],
+        "notes": "The verse number t15 is the head of a construct chain, with the clausal content of the verse t16 as its genitive modifier."
       }
     ]
   }
 }
+```

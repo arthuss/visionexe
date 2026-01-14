@@ -1,0 +1,20 @@
+An enumeration of all valid syntactic parses for the provided Ge'ez text is presented below, adhering to the specified scientific rules.
+
+### Methodological Notes
+
+1.  **Tokenization**: The analysis is strictly bound by the provided tokenization. Many tokens contain multiple grammatical words (e.g., verbs, nouns, conjunctions), making them multi-functional syntactic units. The analysis reflects this by assigning dependencies between these complex tokens.
+2.  **Ambiguity**: In accordance with the rules, syntactic ambiguities (e.g., attachment of modifiers, coordination scope) are not resolved. Instead, each plausible interpretation is presented as a distinct parse.
+3.  **Notation**: Structures are represented using bracket notation `[XP [Head] [Dependent]]` and a list of directed dependencies `Head->Dependent (relation_type)`.
+4.  **Non-Ge'ez Content**: Tokens `t19` through `t59` consist of English-language commentary and linguistic analysis, not Ge'ez text. As per the instruction to analyze the "Ge'ez text," this segment is identified as `COMMENTARY` and is not syntactically parsed. It is treated as a single, extra-sentential block.
+
+---
+
+### Syntactic Analysis
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "P1",
+        "description": "Sentence 1 (tokens t2-t4). t2 contains the main imperative verb and introduces a subordinate clause of reason ('esma'). This subordinate

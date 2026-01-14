@@ -1,12 +1,236 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
-  "scenes": [],
+  "actors": [
+    {
+      "name": "I (The Speaker)",
+      "visualTraits": {
+        "description": "An individual who has read the heavenly tablets and is revealing their secrets."
+      },
+      "changes": null,
+      "role": "actor"
+    },
+    {
+      "name": "The Great One",
+      "visualTraits": {
+        "description": "A supreme being, before whose face the spirits of the righteous are remembered."
+      },
+      "changes": null,
+      "role": "actor"
+    }
+  ],
+  "characters": [
+    {
+      "name": "The Righteous",
+      "visualTraits": {
+        "description": "A group of good people who suffer during their lives."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Living",
+          "description": "Experience toil, suffering, oppression, and diminishment. Their spirits are described as 'small'."
+        },
+        {
+          "phase": "Phase 2: Deceased",
+          "description": "After dying in righteousness, their spirits live, rejoice, are joyful, and their memory does not perish. They receive a great reward."
+        }
+      ],
+      "role": "character"
+    },
+    {
+      "name": "The Holy Ones",
+      "visualTraits": {
+        "description": "The authors of the heavenly tablets."
+      },
+      "changes": null,
+      "role": "character"
+    },
+    {
+      "name": "The Sinners",
+      "visualTraits": {
+        "description": "A group who are prosperous in life and oppress the righteous. Also referred to as the lawless, those who hate, pierce, devour, and kill."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Living",
+          "description": "Live in goodness and wealth, without affliction or murder being seen in their lives. They are considered blessed by their companions."
+        },
+        {
+          "phase": "Phase 2: Deceased",
+          "description": "After death, their spirits are brought down to Sheol to experience evil, great tribulation, darkness, snares, and a burning flame for all generations."
+        }
+      ],
+      "role": "character"
+    },
+    {
+      "name": "Companions of the Sinners",
+      "visualTraits": {
+        "description": "Associates of the sinners who declare the sinners to be blessed throughout their lives."
+      },
+      "changes": null,
+      "role": "character"
+    },
+    {
+      "name": "The Living",
+      "visualTraits": {
+        "description": "A general group of living people whose portion is less than that of the righteous dead."
+      },
+      "changes": null,
+      "role": "character"
+    },
+    {
+      "name": "Rulers / Angels",
+      "visualTraits": {
+        "description": "Powerful beings to whom the righteous complain and cry out, but who do not listen or see their plight. They instead help the oppressors."
+      },
+      "changes": null,
+      "role": "character"
+    }
+  ],
+  "props": [
+    {
+      "name": "Heavenly Tablets",
+      "visualTraits": {
+        "description": "Tablets in the expanse of heaven containing the 'writing of the holy ones'. They detail the fates of souls."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Yoke",
+      "visualTraits": {
+        "description": "A metaphorical yoke of oppression placed upon the righteous by the sinners and lawless."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Sheol",
+      "visualTraits": {
+        "description": "An underworld destination for the spirits of sinners, characterized by great tribulation, darkness, snares, and a burning flame."
+      },
+      "changes": null,
+      "role": "place"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Expanse of Heaven",
+      "visualTraits": {
+        "description": "The location where the speaker viewed the Heavenly Tablets."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "Before the face of the Great One",
+      "visualTraits": {
+        "description": "A conceptual space of honor where the spirits of the righteous are remembered."
+      },
+      "changes": null,
+      "role": "location"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Darkness",
+      "visualTraits": {
+        "description": "An environmental condition within Sheol."
+      },
+      "changes": null,
+      "role": "environment"
+    },
+    {
+      "name": "Snare",
+      "visualTraits": {
+        "description": "A trapping or entangling environment within Sheol."
+      },
+      "changes": null,
+      "role": "environment"
+    },
+    {
+      "name": "Burning Flame",
+      "visualTraits": {
+        "description": "A fiery, consuming environment within Sheol."
+      },
+      "changes": null,
+      "role": "environment"
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Heavenly Revelation",
+      "location": "Expanse of Heaven (conceptually)",
+      "action": "The speaker declares he has read the secrets of the future from the Heavenly Tablets written by the Holy Ones and will now reveal them.",
+      "actorsInvolved": [
+        "I (The Speaker)",
+        "The Holy Ones"
+      ]
+    },
+    {
+      "title": "The Reward of the Righteous",
+      "location": "Afterlife (conceptual)",
+      "action": "The fate of the righteous after death is described: their spirits will live, rejoice, and receive a great reward for their earthly toil, remembered before the Great One.",
+      "actorsInvolved": [
+        "The Righteous",
+        "The Great One"
+      ]
+    },
+    {
+      "title": "The Punishment of the Sinners",
+      "location": "Sheol",
+      "action": "The fate of the sinners is described: after a prosperous life, their spirits are brought down into Sheol to face eternal tribulation in darkness and fire.",
+      "actorsInvolved": [
+        "The Sinners",
+        "Companions of the Sinners"
+      ]
+    },
+    {
+      "title": "The Lament of the Living",
+      "location": "The World (unspecified)",
+      "action": "The righteous lament their suffering in life, describing how they are oppressed, devoured, and killed by the sinners, and how their cries to rulers for help go unheard.",
+      "actorsInvolved": [
+        "The Righteous",
+        "The Sinners",
+        "Rulers / Angels"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "sheol",
+        "description": "The underworld location of Sheol."
+      },
+      {
+        "id": "oppressors_presence",
+        "description": "The general area where the oppressors are located."
+      },
+      {
+        "id": "place_of_refuge",
+        "description": "A hypothetical place of safety the righteous seek."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "The Sinners",
+        "start_anchor": "unknown",
+        "end_anchor": "sheol",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "The spirits of the sinners are brought down into Sheol after death."
+      },
+      {
+        "actor": "The Righteous",
+        "start_anchor": "oppressors_presence",
+        "end_anchor": "place_of_refuge",
+        "motion": "run",
+        "duration_sec": null,
+        "notes": "The righteous desired to flee from their oppressors to find rest, but could not find a place to run to and be safe."
+      }
+    ]
   }
 }
 ```

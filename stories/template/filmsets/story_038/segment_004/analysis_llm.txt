@@ -1,14 +1,270 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
+  "actors": [
+    {
+      "name": "Lord of Spirits",
+      "visualTraits": {
+        "description": "A divine being who possesses a light that can shine upon the faces of the holy, righteous, and chosen. The deeds of the righteous are stored with him."
+      },
+      "changes": null,
+      "role": "divine_judge"
+    }
+  ],
+  "characters": [
+    {
+      "name": "congregation of the righteous",
+      "visualTraits": {
+        "description": "A collective group whose appearance signals the time of judgment."
+      },
+      "changes": null,
+      "role": "collective_protagonist"
+    },
+    {
+      "name": "sinners",
+      "visualTraits": {
+        "description": "A group defined by their sins, who are judged and driven away."
+      },
+      "changes": null,
+      "role": "antagonist_group"
+    },
+    {
+      "name": "the righteous one",
+      "visualTraits": {
+        "description": "A singular righteous figure who appears before the chosen righteous."
+      },
+      "changes": null,
+      "role": "protagonist_figure"
+    },
+    {
+      "name": "the righteous and the chosen",
+      "visualTraits": {
+        "description": "A group of chosen righteous individuals who dwell on the dry ground and for whom a light appears. Their deeds are stored with the Lord of Spirits."
+      },
+      "changes": null,
+      "role": "protagonist_group"
+    },
+    {
+      "name": "those who have denied the Lord of Spirits",
+      "visualTraits": {
+        "description": "A group whose fate is questioned, with the text stating it would have been better if they had not been born. They are equated with sinners."
+      },
+      "changes": null,
+      "role": "antagonist_group"
+    },
+    {
+      "name": "the wicked",
+      "visualTraits": {
+        "description": "A group, synonymous with sinners, who are driven from the presence of the righteous and chosen."
+      },
+      "changes": null,
+      "role": "antagonist_group"
+    },
+    {
+      "name": "those who possess the earth",
+      "visualTraits": {
+        "description": "A group characterized by their power and high status on Earth."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: pre-judgment",
+          "description": "Strong and exalted."
+        },
+        {
+          "phase": "Phase 2: post-judgment",
+          "description": "No longer strong or exalted; unable to look upon the holy ones."
+        }
+      ],
+      "role": "antagonist_group"
+    },
+    {
+      "name": "the holy ones",
+      "visualTraits": {
+        "description": "A group whose faces shine with the light of the Lord of Spirits. They are seen alongside the righteous and chosen."
+      },
+      "changes": null,
+      "role": "protagonist_group"
+    },
+    {
+      "name": "the kings and the mighty",
+      "visualTraits": {
+        "description": "Powerful rulers, likely the same as 'those who possess the earth'."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: pre-judgment",
+          "description": "Mighty and in power."
+        },
+        {
+          "phase": "Phase 2: post-judgment",
+          "description": "Perished and given into the hands of the righteous and holy."
+        }
+      ],
+      "role": "antagonist_group"
+    },
+    {
+      "name": "the righteous and the holy",
+      "visualTraits": {
+        "description": "A combined group into whose hands the kings and the mighty are delivered."
+      },
+      "changes": null,
+      "role": "protagonist_group"
+    }
+  ],
+  "props": [
+    {
+      "name": "deeds",
+      "visualTraits": {
+        "description": "The deeds of the righteous, which are described metaphorically as being 'hung up' or stored by the Lord of Spirits."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "light",
+      "visualTraits": {
+        "description": "A light that appears for the righteous and chosen. It is later identified as the light of the Lord of Spirits, which shines on the faces of the holy, righteous, and chosen."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "hidden things of the righteous",
+      "visualTraits": {
+        "description": "Unspecified hidden things belonging to the righteous that are revealed at the time of judgment."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "the face of the dry ground",
+      "visualTraits": {
+        "description": "A location from which sinners are driven away."
+      },
+      "changes": null,
+      "role": "area_of_expulsion"
+    },
+    {
+      "name": "dwelling of the sinners",
+      "visualTraits": {
+        "description": "A hypothetical dwelling place for sinners, mentioned in a rhetorical question."
+      },
+      "changes": null,
+      "role": "residence"
+    },
+    {
+      "name": "resting-place",
+      "visualTraits": {
+        "description": "A hypothetical resting-place for those who denied the Lord of Spirits, mentioned in a rhetorical question."
+      },
+      "changes": null,
+      "role": "residence"
+    },
+    {
+      "name": "the face of the righteous and the chosen",
+      "visualTraits": {
+        "description": "The presence of the righteous, from which the wicked are driven."
+      },
+      "changes": null,
+      "role": "area_of_expulsion"
+    },
+    {
+      "name": "the earth",
+      "visualTraits": {
+        "description": "The realm possessed by the strong and exalted rulers before their fall."
+      },
+      "changes": null,
+      "role": "domain"
+    },
+    {
+      "name": "the face of the holy, the righteous, and the chosen",
+      "visualTraits": {
+        "description": "The location where the light of the Lord of Spirits is made visible."
+      },
+      "changes": null,
+      "role": "area_of_revelation"
+    },
+    {
+      "name": "the hands of the righteous and the holy",
+      "visualTraits": {
+        "description": "A metaphorical location representing the capture and subjugation of the kings and the mighty."
+      },
+      "changes": null,
+      "role": "area_of_capture"
+    }
+  ],
+  "environments": [
+    {
+      "name": "dry ground",
+      "visualTraits": {
+        "description": "The terrain upon which the righteous and chosen dwell."
+      },
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 38 Segment 4",
-      "location": null,
-      "action": "Recitation of a liturgical verse",
-      "actorsInvolved": []
+      "title": "Appearance of the Righteous and Judgment of Sinners",
+      "location": "the dry ground",
+      "action": "When the congregation of the righteous appears, sinners are judged for their sins and driven from the face of the dry ground.",
+      "actorsInvolved": [
+        "congregation of the righteous",
+        "sinners"
+      ]
+    },
+    {
+      "title": "Revelation of Light and the Fate of Deniers",
+      "location": "the dry ground",
+      "action": "The righteous one appears, light is revealed for the righteous and chosen, and the fate of those who denied the Lord of Spirits is lamented.",
+      "actorsInvolved": [
+        "the righteous one",
+        "the righteous and the chosen",
+        "Lord of Spirits",
+        "sinners",
+        "those who have denied the Lord of Spirits"
+      ]
+    },
+    {
+      "title": "Expulsion of the Wicked",
+      "location": "presence of the righteous and chosen",
+      "action": "When the hidden things of the righteous are revealed, the wicked are judged and driven from the presence of the righteous and chosen.",
+      "actorsInvolved": [
+        "the righteous and the chosen",
+        "sinners",
+        "the wicked"
+      ]
+    },
+    {
+      "title": "The Fall of the Powerful",
+      "location": "the earth",
+      "action": "Those who possess the earth lose their power and cannot behold the holy ones, as the light of the Lord of Spirits shines upon the righteous.",
+      "actorsInvolved": [
+        "those who possess the earth",
+        "the holy ones",
+        "the righteous and the chosen",
+        "Lord of Spirits"
+      ]
+    },
+    {
+      "title": "Surrender of the Kings",
+      "location": "the hands of the righteous and the holy",
+      "action": "The kings and the mighty perish and are delivered into the hands of the righteous and the holy.",
+      "actorsInvolved": [
+        "the kings and the mighty",
+        "the righteous and the holy"
+      ]
+    },
+    {
+      "title": "Finality of Judgment",
+      "location": "unspecified",
+      "action": "No one can seek mercy from the Lord of Spirits any longer, because their life has ended.",
+      "actorsInvolved": [
+        "Lord of Spirits"
+      ]
     }
   ],
   "blocking": {

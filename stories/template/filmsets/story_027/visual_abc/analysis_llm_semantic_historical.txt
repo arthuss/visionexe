@@ -1,0 +1,38 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "P1",
+      "plausibility": "high",
+      "reasoning": "This parse correctly models the hierarchical structure of the text. It identifies the verse numbers (e.g., '27:1') not as grammatical components of the Ge'ez sentences, but as meta-textual 'Labels' for the 'Content' of each verse. This accurately reflects their function in any modern or ancient edition of a text. The 'sequence' dependency between the content nodes (t2, t4, t6, etc.) also correctly captures the narrative flow of the discourse. This model is both structurally sound and semantically insightful.",
+      "parallels": [
+        {
+          "ref": "General Ethiopic Manuscript Tradition",
+          "note": "The division of texts into sense-units or paragraphs, known as 'nəbab' (ንባብ), is a fundamental and ancient feature of Ge'ez scribal practice. These units are often demarcated by punctuation (e.g., '።' or '፡') or decorative elements. While the specific Arabic numeral system for chapters and verses is a later, Western-influenced convention (popularized by editions like A. Dillmann's *Liber Henoch Aethiopice*, 1851), the underlying principle of a label or marker attached to a block of text is well-attested. P1's structure is a formal representation of this native organizational principle."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "P2",
+      "plausibility": "low",
+      "reasoning": "This parse represents the text as a simple, flat sequence of tokens. It fails to capture any of the text's syntactic or discourse-level structure. Critically, it treats the verse number tokens (t1, t3, etc.) as having the same syntactic status as the Ge'ez words (t2, t4, etc.). This is incorrect, as the verse numbers are external reference markers, not part of the grammatical clauses. This model is syntactically impoverished and offers no analytical insight.",
+      "parallels": [
+        {
+          "ref": "unattested",
+          "note": "No system of grammatical analysis, ancient or modern, would treat meta-textual apparatus like verse numbers as syntactically equivalent to the words of the text itself in a simple linear sequence. This model ignores the universally recognized boundaries between text and paratext."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "fail"
+    }
+  ],
+  "decision_log": "The evaluation compares two hypotheses for the high-level structure of 1 Enoch 27:1-5. Hypothesis P1 proposes a hierarchical 'Discourse' structure, where verse numbers function as 'Labels' for the textual 'Content' of each verse, and the verses themselves are linked in a 'sequence'. Hypothesis P2 proposes a minimal, flat 'Sequence' of all tokens. P1 is demonstrably superior. It correctly identifies the extra-grammatical, meta-textual function of the verse numbers, a feature essential for understanding the text's organization as an edited work. This structure aligns with historical scribal practices in the Ge'ez tradition, which consistently divides texts into discrete sense-units ('nəbab'). P2, by contrast, is analytically trivial and syntactically incorrect, as it conflates the text with its reference apparatus. It offers no meaningful interpretation of the structure. Therefore, P1 is the only plausible syntactic hypothesis of the two.",
+  "final_decision": {
+    "hypothesis_ref": "P1",
+    "translation_id": "T1",
+    "confidence": "high"
+  }
+}
+```

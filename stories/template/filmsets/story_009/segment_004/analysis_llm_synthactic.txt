@@ -1,30 +1,30 @@
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "S4.meta",
-        "structure_type": "Header",
-        "bracket_notation": "[META [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]",
+        "id": "S1",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t1] [Gen t2]]",
         "dependencies": [
-          "t1->t2 (modifies)",
-          "t3->t4 (modifies)"
+          "t1->t2 (genitive)"
         ],
-        "notes": "Segment metadata."
+        "notes": "Analysis of the verse number as the head of a construct chain, with the verse text as its genitive dependent. This structure implies possession, e.g., 'the text of the verse'."
       },
       {
-        "id": "S4.1",
-        "structure_type": "Verb with Quoted Nominal Phrases",
-        "bracket_notation": "[S [V t5] [S-COMP [NP [N t6]] [NP [N t7]] [NP [N t8]] [NP [N t9]] [PP [PREP t10] [NP [N t11]]] [PP [PREP t12] [NP [N t13]]]]]",
+        "id": "S2",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [HEAD t1] [APP t2]]",
         "dependencies": [
-          "t5->t6 (ccomp)",
-          "t6->t7 (conj)",
-          "t7->t8 (conj)",
-          "t8->t9 (conj)",
-          "t9->t11 (nmod, via-prep=t10)",
-          "t11->t13 (nmod, via-prep=t12, conj)"
+          "t1->t2 (apposition)"
         ],
-        "notes": "The verb t5 ('they said') introduces a long direct quote. The quote consists of a series of coordinated nominal phrases (t6, t7, t8, t9) and prepositional phrases (introduced by t10, t12) acting as predicates in a praise."
-      }
-    ]
-  }
-}
+        "notes": "Analysis of the verse text as an appositive modifier to the verse number. This structure provides an explanation or restatement, e.g., 'verse 9:1, which is \"...\"'."
+      },
+      {
+        "id": "S3",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [APP t1] [HEAD t2]]",
+        "dependencies": [
+          "t2->t1 (apposition)"
+        ],
+        "notes": "Analysis of the verse number as an appositive

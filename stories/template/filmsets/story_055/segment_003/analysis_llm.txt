@@ -2,86 +2,162 @@
 {
   "actors": [
     {
-      "name": "እግዚብሔር",
-      "visualTraits": "divine",
-      "changes": null,
-      "role": "deity"
+      "name": "Head of Days",
+      "visualTraits": {
+        "description": "A divine being, also referred to as 'Lord God, Lord of Spirits'. The text does not provide a physical description."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Regret",
+          "description": "Repents/regrets having destroyed the dwellers on the dry land."
+        },
+        {
+          "phase": "Phase 2: Covenant",
+          "description": "Swears an oath by his great name to never again destroy the dwellers on the dry land."
+        }
+      ],
+      "role": "The primary speaker, a supreme divine authority who makes a covenant and decrees judgment."
     },
     {
-      "name": "መላእት",
-      "visualTraits": "angelic",
+      "name": "My Elect One",
+      "visualTraits": {
+        "description": "A chosen figure destined for a position of authority."
+      },
       "changes": null,
-      "role": "messenger"
+      "role": "The designated judge who will be enthroned to pass sentence on Azazel and his followers."
+    },
+    {
+      "name": "Azazel",
+      "visualTraits": {
+        "description": "A figure who is the primary subject of judgment, with associated companies and hosts."
+      },
+      "changes": null,
+      "role": "The antagonist to be judged by the Elect One."
+    }
+  ],
+  "characters": [
+    {
+      "name": "dwellers on the dry land",
+      "visualTraits": {
+        "description": "All the inhabitants of the earth."
+      },
+      "changes": null,
+      "role": "The subjects of the Head of Days' regret and the beneficiaries of his new covenant."
+    },
+    {
+      "name": "angels",
+      "visualTraits": {
+        "description": "A group of beings acting under divine command."
+      },
+      "changes": null,
+      "role": "Instruments of divine power, tasked with seizing others on the day of tribulation."
+    },
+    {
+      "name": "powerful kings",
+      "visualTraits": {
+        "description": "Rulers who dwell on the dry land."
+      },
+      "changes": null,
+      "role": "The audience commanded to witness the enthronement and judgment by the Elect One."
+    },
+    {
+      "name": "Azazel's associates and hosts",
+      "visualTraits": {
+        "description": "All the company and hosts associated with Azazel."
+      },
+      "changes": null,
+      "role": "A group to be judged alongside Azazel."
     }
   ],
   "props": [
     {
-      "name": "ትእዛዝ",
-      "visualTraits": "spoken",
+      "name": "sign",
+      "visualTraits": {
+        "description": "A sign to be placed in the sky."
+      },
       "changes": null,
-      "role": "instruction"
+      "role": "scene_prop"
     },
     {
-      "name": "ወሕማም",
-      "visualTraits": "air",
+      "name": "throne of glory",
+      "visualTraits": {
+        "description": "A glorious throne belonging to the Head of Days."
+      },
       "changes": null,
-      "role": "environmental element"
+      "role": "scene_prop"
     }
   ],
-  "environments": [],
+  "places": [],
+  "locations": [
+    {
+      "name": "sky",
+      "visualTraits": {
+        "description": "The heavens, where a sign will be placed."
+      },
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "earth",
+      "visualTraits": {
+        "description": "The world upon which the 'days of heaven' are measured."
+      },
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "throne of glory",
+      "visualTraits": {
+        "description": "A specific location of judgment and authority."
+      },
+      "changes": null,
+      "role": "blocking_anchor"
+    }
+  ],
+  "environments": [
+    {
+      "name": "dry land",
+      "visualTraits": {
+        "description": "The terrestrial world inhabited by humans and kings."
+      },
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Beat 1",
-      "location": null,
-      "action": "ወእምዝ፡ትእዛዝየ፡ውእቱ፡ሶ፡",
-      "actorsInvolved": []
-    },
-    {
-      "title": "Beat 2",
-      "location": null,
-      "action": "ፈቀድኩ፡መ፡ጽንዖሙ፡እደ፡",
-      "actorsInvolved": []
-    },
-    {
-      "title": "Beat 3",
-      "location": null,
-      "action": "መላእት፡ዕለተ፡ምንዳቤ፡",
-      "actorsInvolved": ["መላእት"]
-    },
-    {
-      "title": "Beat 4",
-      "location": null,
-      "action": "ወሕማም፡ቅድመዝ፡መቅስፍትየ፡",
-      "actorsInvolved": []
-    },
-    {
-      "title": "Beat 5",
-      "location": null,
-      "action": "ወመዓትየ፡ኀድር፡ላዕሌሆሙ፡",
-      "actorsInvolved": []
-    },
-    {
-      "title": "Beat 6",
-      "location": null,
-      "action": "መቅሠፍትየ፡ወመዓትየ፡ይቤ፡",
-      "actorsInvolved": []
-    },
-    {
-      "title": "Beat 7",
-      "location": null,
-      "action": "እግዚብሔር፡እግዚ፡",
-      "actorsInvolved": ["እግዚብሔር"]
-    },
-    {
-      "title": "Beat 8",
-      "location": null,
-      "action": "መናፍስት፨",
-      "actorsInvolved": []
+      "title": "The Declaration of the Head of Days",
+      "location": "An unspecified divine space, encompassing the concepts of heaven and earth.",
+      "action": "The Head of Days regrets a past destruction, swears an oath to establish a new covenant with the dwellers of the earth, and decrees a future judgment. This judgment will be executed by angels and will culminate in the powerful kings witnessing the Elect One sitting on the throne of glory to judge Azazel and his followers.",
+      "actorsInvolved": [
+        "Head of Days",
+        "My Elect One",
+        "Azazel",
+        "dwellers on the dry land",
+        "angels",
+        "powerful kings",
+        "Azazel's associates and hosts"
+      ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "throne_of_glory",
+        "description": "The throne of glory upon which the Elect One sits to execute judgment."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "My Elect One",
+        "start_anchor": "unknown",
+        "end_anchor": "throne_of_glory",
+        "motion": "stand",
+        "duration_sec": null,
+        "notes": "The text states the Elect One 'sits' (ይነብር) on the throne of glory. This represents the state of being seated in the position of judgment."
+      }
+    ]
   }
 }
 ```

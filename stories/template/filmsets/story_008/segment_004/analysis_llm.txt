@@ -2,56 +2,319 @@
 {
   "actors": [
     {
-      "name": "ወሕጕለተ",
-      "visualTraits": null,
+      "name": "Azazel",
+      "visualTraits": {
+        "description": "An entity who teaches forbidden knowledge.",
+        "source_text_ref": "ወአዛዝኤል፡​መሐሮሙ"
+      },
       "changes": null,
-      "role": null
+      "role": "Teacher of forbidden arts (metallurgy, weaponry, cosmetics)"
     },
     {
-      "name": "ሰብእ",
-      "visualTraits": null,
+      "name": "Amezarak",
+      "visualTraits": {
+        "description": "An entity who teaches forbidden knowledge.",
+        "source_text_ref": "አሜዛራክ፡​መሐረ"
+      },
       "changes": null,
-      "role": null
+      "role": "Teacher of enchantments and root-cutting"
     },
     {
-      "name": "ጸርሑ",
-      "visualTraits": null,
+      "name": "Armaros",
+      "visualTraits": {
+        "description": "An entity who teaches forbidden knowledge.",
+        "source_text_ref": "አርማኖስ፡​ፈትሐ"
+      },
       "changes": null,
-      "role": null
+      "role": "Teacher of the resolving of enchantments"
     },
     {
-      "name": "ወጽሐ",
-      "visualTraits": null,
+      "name": "Baraqel",
+      "visualTraits": {
+        "description": "An entity who teaches forbidden knowledge.",
+        "source_text_ref": "በረቀዓል፡​ረአይያነ፡​ከዋክብት"
+      },
       "changes": null,
-      "role": null
+      "role": "Teacher of astrology"
     },
     {
-      "name": "ቃሎሙ",
-      "visualTraits": null,
+      "name": "Kokabel",
+      "visualTraits": {
+        "description": "An entity who teaches forbidden knowledge.",
+        "source_text_ref": "ወኮከብኢል፡​ትእምርታተ"
+      },
       "changes": null,
-      "role": null
+      "role": "Teacher of signs/constellations"
     },
     {
-      "name": "ሰማየ",
-      "visualTraits": null,
+      "name": "Tamiel",
+      "visualTraits": {
+        "description": "An entity who teaches forbidden knowledge.",
+        "source_text_ref": "ወጥምኤል፡​መሀረ"
+      },
       "changes": null,
-      "role": null
+      "role": "Teacher of astronomy"
+    },
+    {
+      "name": "Asradel",
+      "visualTraits": {
+        "description": "An entity who teaches forbidden knowledge.",
+        "source_text_ref": "ወአስራድኤል፡​መሐረ"
+      },
+      "changes": null,
+      "role": "Teacher of the course of the moon"
     }
   ],
-  "props": [],
-  "environments": [],
+  "characters": [
+    {
+      "name": "Mankind",
+      "visualTraits": {
+        "description": "Humanity, the recipients of forbidden knowledge.",
+        "source_text_ref": "ሰብእ"
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-teaching",
+          "description": "The state of mankind before receiving forbidden knowledge."
+        },
+        {
+          "phase": "Phase 2: Corrupted",
+          "description": "After receiving forbidden knowledge, they became characterized by 'great godlessness', 'fornication', went astray, and were corrupted in all their ways. They cry out in their ruin.",
+          "source_text_ref": "ወኮነ፡​ርስአት፡​ዓቢይ፡​ወብዙኅ፡​ዘምዎ፡​ወስሕቱ፡​ወማሰና፡​ኵሉ፡​ፍናቂሆሙ።"
+        }
+      ],
+      "role": "Student/Victim"
+    },
+    {
+      "name": "Enchanters",
+      "visualTraits": {
+        "description": "Those who practice enchantments.",
+        "source_text_ref": "መሳብእያን"
+      },
+      "changes": null,
+      "role": "Practitioner of forbidden arts"
+    },
+    {
+      "name": "Root-cutters",
+      "visualTraits": {
+        "description": "Those who cut roots for magical or medicinal purposes.",
+        "source_text_ref": "መታርያን፡​ሥርዋት"
+      },
+      "changes": null,
+      "role": "Practitioner of forbidden arts"
+    },
+    {
+      "name": "Astrologers",
+      "visualTraits": {
+        "description": "Observers of the stars.",
+        "source_text_ref": "ረአይያነ፡​ከዋክብት"
+      },
+      "changes": null,
+      "role": "Practitioner of forbidden arts"
+    }
+  ],
+  "props": [
+    {
+      "name": "Swords",
+      "visualTraits": {
+        "description": "A type of weapon.",
+        "source_text_ref": "አስይፍት"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Knives",
+      "visualTraits": {
+        "description": "A type of weapon/tool.",
+        "source_text_ref": "መጥባሕት"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Shields",
+      "visualTraits": {
+        "description": "A piece of personal armor.",
+        "source_text_ref": "ወልታ"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Breastplates",
+      "visualTraits": {
+        "description": "A piece of personal armor for the torso.",
+        "source_text_ref": "ድርዓ፡​እንግድዓ"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Metals",
+      "visualTraits": {
+        "description": "Raw metallic materials. Interpreted from 'ዘእምድኅሬሆሙ' (that which is from after them) based on Greek source parallels in analysis_context.",
+        "source_text_ref": "ዘእምድኅሬሆሙ"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Bracelets",
+      "visualTraits": {
+        "description": "Items of jewelry worn on the arm.",
+        "source_text_ref": "አውቃፋተ"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Ornaments",
+      "visualTraits": {
+        "description": "Decorative items.",
+        "source_text_ref": "ሰርጐ"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Antimony",
+      "visualTraits": {
+        "description": "A substance used as a cosmetic to beautify the eyelids (kohl).",
+        "source_text_ref": "ተኵህሎተ"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Precious stones",
+      "visualTraits": {
+        "description": "All manner of valuable and choice stones.",
+        "source_text_ref": "እምኵሉ፡​ዕብን፡​ክቡር፡​ወኅሩይ"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Dyes",
+      "visualTraits": {
+        "description": "All coloring tinctures.",
+        "source_text_ref": "ጥምዐታተ፡​ኅብር"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Roots",
+      "visualTraits": {
+        "description": "Plant roots used by 'root-cutters'.",
+        "source_text_ref": "ሥርዋት"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Stars",
+      "visualTraits": {
+        "description": "Celestial bodies observed by astrologers.",
+        "source_text_ref": "ከዋክብት"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Signs",
+      "visualTraits": {
+        "description": "Celestial signs or constellations.",
+        "source_text_ref": "ትእምርታተ"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Moon",
+      "visualTraits": {
+        "description": "The Earth's moon, whose course is studied.",
+        "source_text_ref": "ወርኅ"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "Heaven",
+      "visualTraits": {
+        "description": "A celestial realm which the cry of mankind reaches.",
+        "source_text_ref": "ሰማየ"
+      },
+      "changes": null,
+      "role": "destination"
+    }
+  ],
+  "environments": [
+    {
+      "name": "World",
+      "visualTraits": {
+        "description": "The entire world or age.",
+        "source_text_ref": "ዓለም"
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-transformation",
+          "description": "The state of the world before the introduction of forbidden knowledge."
+        },
+        {
+          "phase": "Phase 2: Transformed",
+          "description": "The world after the introduction of forbidden knowledge, described as a 'transformation of the world'.",
+          "source_text_ref": "ተውላጠ፡​ዓለም"
+        }
+      ],
+      "role": "setting"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 8 Segment 4",
-      "location": null,
-      "action": null,
+      "title": "Azazel's Teachings",
+      "location": "Implied Earth",
+      "action": "Azazel teaches mankind the art of making swords, knives, shields, breastplates, and the knowledge of metals, bracelets, ornaments, antimony, precious stones, and dyes.",
       "actorsInvolved": [
-        "ወሕጕለተ",
-        "ሰብእ",
-        "ጸርሑ",
-        "ወጽሐ",
-        "ቃሎሙ",
-        "ሰማየ"
+        "Azazel",
+        "Mankind"
+      ]
+    },
+    {
+      "title": "The Great Corruption",
+      "location": "Implied Earth",
+      "action": "Great godlessness and fornication spread, and mankind goes astray and becomes corrupt in all their ways.",
+      "actorsInvolved": [
+        "Mankind"
+      ]
+    },
+    {
+      "title": "The Watchers' Lessons",
+      "location": "Implied Earth",
+      "action": "Amezarak teaches enchanters and root-cutters; Armaros teaches the resolving of enchantments; Baraqel teaches astrology; Kokabel teaches signs; Tamiel teaches astronomy; and Asradel teaches the course of the moon.",
+      "actorsInvolved": [
+        "Amezarak",
+        "Armaros",
+        "Baraqel",
+        "Kokabel",
+        "Tamiel",
+        "Asradel",
+        "Enchanters",
+        "Root-cutters",
+        "Astrologers"
+      ]
+    },
+    {
+      "title": "The Cry of Mankind",
+      "location": "Implied Earth",
+      "action": "As mankind is destroyed, they cry out, and their voice ascends to heaven.",
+      "actorsInvolved": [
+        "Mankind"
       ]
     }
   ],

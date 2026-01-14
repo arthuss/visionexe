@@ -12,6 +12,7 @@ from pathlib import Path
 from geez_morphology_filter import apply_morphology_filters, load_json as load_filter_json, parse_json_payload
 from visionexe_paths import ensure_dir, load_story_config, resolve_path
 from vertex_gemini import call_vertex_gemini
+from progress_lock import progress_lock
 
 
 MODEL_NAME = "gpt-oss:20b"
@@ -286,22 +287,23 @@ def load_completed(progress_csv, per_segment):
 
 
 def append_progress(progress_csv, row):
-    file_exists = os.path.exists(progress_csv)
     ensure_dir(os.path.dirname(progress_csv))
     try:
-        with open(progress_csv, "a", newline="", encoding="utf-8") as f:
-            fieldnames = [
-                "ChapterID",
-                "SegmentLabel",
-                "SegmentType",
-                "Status",
-                "SourcePath",
-                "RawContent",
-            ]
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
-            if not file_exists:
-                writer.writeheader()
-            writer.writerow(row)
+        with progress_lock(progress_csv):
+            file_exists = os.path.exists(progress_csv)
+            with open(progress_csv, "a", newline="", encoding="utf-8") as f:
+                fieldnames = [
+                    "ChapterID",
+                    "SegmentLabel",
+                    "SegmentType",
+                    "Status",
+                    "SourcePath",
+                    "RawContent",
+                ]
+                writer = csv.DictWriter(f, fieldnames=fieldnames)
+                if not file_exists:
+                    writer.writeheader()
+                writer.writerow(row)
     except Exception as e:
         log(f"Failed to write progress CSV: {e}")
 

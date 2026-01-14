@@ -1,36 +1,241 @@
 ```json
 {
   "actors": [
-    {"name":"ወእማንቱ","visualTraits":"unknown","changes":"unknown","role":"mentioned"},
-    {"name":"መዋዕል","visualTraits":"unknown","changes":"unknown","role":"mentioned"},
-    {"name":"ብፁዓን","visualTraits":"unknown","changes":"unknown","role":"mentioned"},
-    {"name":"ሎሙ","visualTraits":"unknown","changes":"unknown","role":"mentioned"},
-    {"name":"እለ","visualTraits":"unknown","changes":"unknown","role":"mentioned"},
-    {"name":"ይትሜጠዉ","visualTraits":"unknown","changes":"unknown","role":"mentioned"},
-    {"name":"ነገረ","visualTraits":"unknown","changes":"unknown","role":"mentioned"},
-    {"name":"ጥቦብ","visualTraits":"unknown","changes":"unknown","role":"mentioned"},
-    {"name":"ወየምርዋ","visualTraits":"unknown","changes":"unknown","role":"mentioned"},
-    {"name":"ወይገብርዎን","visualTraits":"unknown","changes":"unknown","role":"mentioned"},
-    {"name":"ለፍናወተ","visualTraits":"unknown","changes":"unknown","role":"mentioned"},
-    {"name":"ልዑል","visualTraits":"unknown","changes":"unknown","role":"mentioned"},
-    {"name":"ወየሐውሩ","visualTraits":"unknown","changes":"unknown","role":"mentioned"},
-    {"name":"ፍኖዋተ","visualTraits":"unknown","changes":"unknown","role":"mentioned"},
-    {"name":"ጽድቅ","visualTraits":"unknown","changes":"unknown","role":"mentioned"},
-    {"name":"ዚሁ","visualTraits":"unknown","changes":"unknown","role":"mentioned"},
-    {"name":"ወኢይሬስዑ","visualTraits":"unknown","changes":"unknown","role":"mentioned"},
-    {"name":"እስመ","visualTraits":"unknown","changes":"unknown","role":"mentioned"},
-    {"name":"እሙንቱ","visualTraits":"unknown","changes":"unknown","role":"mentioned"},
-    {"name":"ይድንኑ","visualTraits":"unknown","changes":"unknown","role":"mentioned"}
+    {
+      "name": "The Most High",
+      "visualTraits": {
+        "description": "An ultimate, supreme being before whom judgment occurs. No physical description is provided."
+      },
+      "changes": [],
+      "role": "judge"
+    }
   ],
-  "props": [],
-  "environments": [],
+  "characters": [
+    {
+      "name": "The Unrighteous",
+      "visualTraits": {
+        "description": "A collective term for those who commit various sins: they praise falsehood (99:1), pervert justice (99:2), build houses on exploitation (99:13), remove ancient landmarks (99:14), and commit violence against their neighbors (99:15). They are characterized by their wicked actions."
+      },
+      "changes": [],
+      "role": "antagonist"
+    },
+    {
+      "name": "The Righteous and Wise",
+      "visualTraits": {
+        "description": "A group defined by their actions: they pray for justice (99:3), receive and understand wisdom, and walk in the paths of the Most High and of righteousness (99:10). They are promised salvation and will remember the sins of the wicked (99:16)."
+      },
+      "changes": [],
+      "role": "protagonist"
+    },
+    {
+      "name": "The Angels",
+      "visualTraits": {
+        "description": "Celestial beings who act as intermediaries. They receive the prayers of the righteous as a memorial and place them as a testimony before the Most High."
+      },
+      "changes": [],
+      "role": "mediator"
+    },
+    {
+      "name": "Peoples and Kindreds",
+      "visualTraits": {
+        "description": "The general population of the earth, described as being in a state of turmoil and rising up against one another on the 'day of ruin'."
+      },
+      "changes": [],
+      "role": "background"
+    },
+    {
+      "name": "The Child-Abandoners",
+      "visualTraits": {
+        "description": "A specific group of sinners, described as those who become pregnant, then go forth to miscarry, snatch away, and abandon their own children, including nursing infants. They show no mercy to their offspring."
+      },
+      "changes": [],
+      "role": "antagonist"
+    },
+    {
+      "name": "Abandoned Children",
+      "visualTraits": {
+        "description": "Infants and children who are cast out and abandoned by their parents, even while nursing."
+      },
+      "changes": [],
+      "role": "victim"
+    },
+    {
+      "name": "The Idolaters",
+      "visualTraits": {
+        "description": "A group of sinners who worship inanimate objects (stone, images of gold, silver, wood, clay) and malevolent entities (evil spirits, demons, all kinds of idols). Their hearts are foolish and their eyes are blinded."
+      },
+      "changes": [],
+      "role": "antagonist"
+    },
+    {
+      "name": "Evil Spirits and Demons",
+      "visualTraits": {
+        "description": "Incorporeal, malevolent entities that are the object of worship for idolaters."
+      },
+      "changes": [],
+      "role": "object_of_worship"
+    },
+    {
+      "name": "Neighbor",
+      "visualTraits": {
+        "description": "A generic term for a person in relation to another, who is the victim of evil, oppression, and murder."
+      },
+      "changes": [],
+      "role": "victim"
+    }
+  ],
+  "props": [
+    {
+      "name": "Prayers of the Righteous",
+      "visualTraits": {
+        "description": "The supplications of the righteous, which are raised up and set as a memorial and testimony before the angels and the Most High."
+      },
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Idols and Images",
+      "visualTraits": {
+        "description": "Objects of false worship, including carved images made of gold, silver, wood, and clay, as well as unworked stone."
+      },
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Sword",
+      "visualTraits": {
+        "description": "A weapon mentioned as the instrument of destruction for the sinners in the final judgment."
+      },
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Houses of Sin",
+      "visualTraits": {
+        "description": "Buildings constructed through the exploited labor of others, with their very building materials described as 'brick and stone of sin'."
+      },
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Ancestral Landmark",
+      "visualTraits": {
+        "description": "The 'eternal inheritance of their ancestors', a boundary or measure that is wrongfully removed by the unrighteous."
+      },
+      "changes": [],
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Sheol",
+      "visualTraits": {
+        "description": "The underworld or place of the dead, mentioned as the destination where the unrighteous will be slain."
+      },
+      "changes": [],
+      "role": "destination"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Upon the Earth",
+      "visualTraits": {
+        "description": "The general setting for the actions of the sinners, such as perverting justice and oppressing others."
+      },
+      "changes": [],
+      "role": "setting"
+    },
+    {
+      "name": "Before the Most High",
+      "visualTraits": {
+        "description": "A conceptual space of judgment where the sins of sinners are brought for remembrance."
+      },
+      "changes": [],
+      "role": "judicial_setting"
+    },
+    {
+      "name": "Paths of the Most High",
+      "visualTraits": {
+        "description": "A metaphorical course of action and life that the righteous and wise follow."
+      },
+      "changes": [],
+      "role": "metaphorical_location"
+    }
+  ],
+  "environments": [
+    {
+      "name": "The Days of Judgment",
+      "visualTraits": {
+        "description": "A future period characterized by social chaos ('peoples will be in turmoil'), unnatural behavior ('parents abandoning children'), and the ultimate execution of justice ('day of slaughter', 'great day of destruction')."
+      },
+      "changes": [],
+      "role": "temporal_setting"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 99 Segment 10",
-      "location": "unknown",
-      "action": "chant",
+      "title": "Condemnation of Deceivers and Perverters of Justice",
+      "location": "Upon the Earth",
+      "action": "A woe is pronounced against those who practice unrighteousness, praise falsehood, alter the words of righteousness, and transgress the eternal statute, all while declaring themselves sinless.",
       "actorsInvolved": [
-        "ወእማንቱ","መዋዕል","ብፁዓን","ሎሙ","እለ","ይትሜጠዉ","ነገረ","ጥቦብ","ወየምርዋ","ወይገብርዎን","ለፍናወተ","ልዑል","ወየሐውሩ","ፍኖዋተ","ጽድቅ","ዚሁ","ወኢይሬስዑ","እስመ","እሙንቱ","ይድንኑ"
+        "The Unrighteous"
+      ]
+    },
+    {
+      "title": "The Righteous Appeal for Judgment",
+      "location": "Before the Most High",
+      "action": "In those days, the prayers of the righteous will be raised as a memorial and testimony before the angels, who will in turn place the sins of the sinners before the Most High for remembrance.",
+      "actorsInvolved": [
+        "The Righteous and Wise",
+        "The Angels",
+        "The Most High"
+      ]
+    },
+    {
+      "title": "Prophecy of Social Collapse",
+      "location": "Upon the Earth",
+      "action": "A prophecy that in those days, nations will be in turmoil, families will rise up against each other, and parents will abandon their own children, showing no mercy.",
+      "actorsInvolved": [
+        "Peoples and Kindreds",
+        "The Child-Abandoners",
+        "Abandoned Children"
+      ]
+    },
+    {
+      "title": "The Folly of Idolatry",
+      "location": "Upon the Earth",
+      "action": "A woe is pronounced against sinners as the day of slaughter is prepared. They are condemned for worshipping stone, man-made images, evil spirits, and demons, from which they receive no help. Their foolish hearts and blind eyes lead them to ruin.",
+      "actorsInvolved": [
+        "The Idolaters",
+        "Evil Spirits and Demons"
+      ]
+    },
+    {
+      "title": "Blessing of the Wise",
+      "location": "Paths of the Most High",
+      "action": "A blessing is given to those who receive the word of wisdom, understand it, and walk in the paths of the Most High and of righteousness, for they will be saved.",
+      "actorsInvolved": [
+        "The Righteous and Wise"
+      ]
+    },
+    {
+      "title": "Condemnation of Social and Economic Sins",
+      "location": "Upon the Earth",
+      "action": "A series of woes are pronounced against those who harm their neighbor, build on foundations of sin, construct their houses with the exploited labor of others, and wrongfully remove ancestral landmarks to follow idols.",
+      "actorsInvolved": [
+        "The Unrighteous",
+        "Neighbor"
+      ]
+    },
+    {
+      "title": "The Final Judgment",
+      "location": "Upon the Earth",
+      "action": "On the great day of destruction, the glory of the violent sinners will be cast down. The spirit of the Most High's anger will rise to destroy them all with the sword, while the holy and righteous remember their sins.",
+      "actorsInvolved": [
+        "The Most High",
+        "The Unrighteous",
+        "The Righteous and Wise"
       ]
     }
   ],

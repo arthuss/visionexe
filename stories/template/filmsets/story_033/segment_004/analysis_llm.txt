@@ -1,1 +1,174 @@
-{"actors":[],"props":[],"environments":[],"scenes":[],"blocking":{"anchors":[],"paths":[]}}
+```json
+{
+  "actors": [
+    {
+      "name": "Enoch",
+      "visualTraits": null,
+      "changes": null,
+      "role": "narrator, scribe"
+    },
+    {
+      "name": "Uriel",
+      "visualTraits": [
+        "angel"
+      ],
+      "changes": null,
+      "role": "guide, scribe"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Great Beasts",
+      "visualTraits": [
+        "large",
+        "each one is different from the other"
+      ],
+      "changes": [
+        {
+          "phase": "dynamic",
+          "description": "The text states 'one was different from the other' (ይትዌለጥ፩እምካልኡ), implying a state of continuous variation or change within the group."
+        }
+      ],
+      "role": "fauna"
+    },
+    {
+      "name": "Birds",
+      "visualTraits": [
+        "their appearance, form, and voice are different from one another"
+      ],
+      "changes": [
+        {
+          "phase": "dynamic",
+          "description": "The text states their appearance, form, and voice 'was different, one from the other' (ይትዌለጥ፡ ፩እምካልኡ), implying a state of continuous variation or change."
+        }
+      ],
+      "role": "fauna"
+    },
+    {
+      "name": "Stars of Heaven",
+      "visualTraits": [
+        "celestial bodies"
+      ],
+      "changes": [
+        {
+          "phase": "dynamic",
+          "description": "They actively move, 'coming out' (ይወፅዑ) from the Gates of Heaven."
+        }
+      ],
+      "role": "celestial phenomena"
+    }
+  ],
+  "props": [
+    {
+      "name": "Writing Materials",
+      "visualTraits": [
+        "unspecified writing implement and surface"
+      ],
+      "changes": null,
+      "role": "actor_prop:Enoch, actor_prop:Uriel"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "Ends of the Earth",
+      "visualTraits": [
+        "a vast, remote region"
+      ],
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "Foundation of Heaven",
+      "visualTraits": [
+        "the place at the ends of the earth where the heaven rests"
+      ],
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "Gates of Heaven",
+      "visualTraits": [
+        "portals in the sky",
+        "open"
+      ],
+      "changes": [
+        {
+          "phase": "dynamic",
+          "description": "Function as active portals through which the stars emerge, making them part of a dynamic celestial system."
+        }
+      ],
+      "role": "celestial feature"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Heaven/Sky",
+      "visualTraits": [
+        "celestial expanse containing stars and gates"
+      ],
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "geo_environments": [
+    {
+      "name": "Astronomical_Desert",
+      "visualTraits": [
+        "a remote, vast location suitable for observing celestial phenomena, corresponding to the 'ends of the earth'"
+      ],
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Observation of the Changing Fauna",
+      "location": "Ends of the Earth",
+      "action": "The narrator travels to the ends of the earth and observes great beasts and birds, each distinct and different from the others in form, appearance, and sound.",
+      "actorsInvolved": [
+        "Enoch"
+      ]
+    },
+    {
+      "title": "The Open Gates of Heaven",
+      "location": "Foundation of Heaven",
+      "action": "At the ends of the earth, the narrator observes the place where the sky rests and sees that the gates of heaven are open.",
+      "actorsInvolved": [
+        "Enoch"
+      ]
+    },
+    {
+      "title": "Scribing the Celestial Order",
+      "location": "Gates of Heaven",
+      "action": "Guided by the angel Uriel, the narrator observes, counts, and writes down the details of the stars as they emerge from the gates. Uriel also shows him everything and writes down their names, laws, and works.",
+      "actorsInvolved": [
+        "Enoch",
+        "Uriel"
+      ]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "a1",
+        "description": "An unspecified location prior to the journey ('from there')."
+      },
+      {
+        "id": "a2",
+        "description": "The Ends of the Earth."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Enoch",
+        "start_anchor": "a1",
+        "end_anchor": "a2",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Travels from a previous, unspecified location to the ends of the earth (v. 1)."
+      }
+    ]
+  }
+}
+```

@@ -1,0 +1,20 @@
+An enumeration of all valid syntactic parses for the provided Ge'ez text, following the specified scientific rules.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "p1_t1",
+        "structure_type": "Nominal",
+        "bracket_notation": "[NP [N t1]]",
+        "dependencies": [],
+        "notes": "The verse number '98:1' is treated as a nominal element."
+      },
+      {
+        "id": "p2_t2_t3_t4_a",
+        "structure_type": "Complex Sentence",
+        "bracket_notation": "[S [CONJ t2(ወ)] [S [AdvP t2(ይእዜኒ)] [NP t2(¡ነ)] [VP [V t2(እምሕል)] [PP t2(ለŒሙ)] [PP [CoordP [PP t3(ለጠቢባን)] [CONJ t3(ወ)] [PP t3(ለ¡ብዳን)]]] [SBAR [CONJ t3(እስመ)] [S [VP [V t4(ትሬእዩ)] [AdvP t4(ብዙኀ)] [PP t4(ዲÅ፡ምድር)]]]]]]]",
+        "dependencies": [
+          "t2(እምሕል)->t2(ወ) (coord)",
+          "t2(እምሕል)->t2

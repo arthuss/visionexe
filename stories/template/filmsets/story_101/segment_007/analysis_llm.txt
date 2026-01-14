@@ -2,141 +2,290 @@
 {
   "actors": [
     {
-      "name": "ወተግሠጹ",
+      "name": "Most High",
       "visualTraits": null,
       "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ትፈርህ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ወትየብስ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ወሉ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ዓሣቲሃ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ዘሀሎ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ውስቴታ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ወንትሙ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ኃጥን",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ዲ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ምድር",
-      "visualTraits": null,
-      "changes": null,
-      "role": "environment"
-    },
-    {
-      "name": "ኢትፈርህዎ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
+      "role": "creator and controller of the cosmos"
     }
   ],
-  "props": [],
-  "environments": [
+  "characters": [
     {
-      "name": "ምድር",
+      "name": "children of heaven",
       "visualTraits": null,
       "changes": null,
-      "role": "environment"
+      "role": "group being addressed"
     },
     {
-      "name": "ውስቴታ",
-      "visualTraits": null,
+      "name": "sinners",
+      "visualTraits": [
+        "reside on earth",
+        "do not fear the Most High",
+        "speak great and hard words",
+        "have no peace in their hearts"
+      ],
       "changes": null,
-      "role": "environment"
+      "role": "group used in contrast"
     },
     {
-      "name": "ወንትሙ",
-      "visualTraits": null,
+      "name": "kings of the sea",
+      "visualTraits": [
+        "possess ships and good possessions",
+        "fear the sea"
+      ],
       "changes": null,
-      "role": "environment"
+      "role": "group used as an example of fear"
     },
     {
-      "name": "ኃጥን",
+      "name": "fish",
+      "visualTraits": [
+        "live in the sea"
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Alive",
+          "description": "Alive and in the sea."
+        },
+        {
+          "phase": "Phase 2: Dead",
+          "description": "Die when the sea dries up."
+        }
+      ],
+      "role": "inhabitant of the sea"
+    },
+    {
+      "name": "all who move on the earth",
       "visualTraits": null,
       "changes": null,
-      "role": "environment"
+      "role": "inhabitants of the earth"
+    },
+    {
+      "name": "those in the sea",
+      "visualTraits": null,
+      "changes": null,
+      "role": "inhabitants of the sea"
     }
   ],
+  "props": [
+    {
+      "name": "rain",
+      "visualTraits": [
+        "descends from heaven"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "dew",
+      "visualTraits": [
+        "descends from heaven"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "wrath",
+      "visualTraits": [
+        "is sent by the Most High"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "ships",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Intact",
+          "description": "Belonging to the kings of the sea."
+        },
+        {
+          "phase": "Phase 2: Broken",
+          "description": "Broken by waves and winds."
+        }
+      ],
+      "role": "actor_prop:kings of the sea"
+    },
+    {
+      "name": "waves",
+      "visualTraits": [
+        "toss ships"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "winds",
+      "visualTraits": [
+        "shake ships"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "good possessions",
+      "visualTraits": null,
+      "changes": null,
+      "role": "actor_prop:kings of the sea"
+    },
+    {
+      "name": "waters",
+      "visualTraits": [
+        "are part of the sea"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "instruction",
+      "visualTraits": [
+        "is given by the Creator"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "wisdom",
+      "visualTraits": [
+        "is given by the Creator"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "heaven",
+      "visualTraits": [
+        "has windows"
+      ],
+      "changes": null,
+      "role": "celestial realm"
+    },
+    {
+      "name": "earth",
+      "visualTraits": [
+        "receives rain and dew",
+        "is inhabited by sinners and other beings"
+      ],
+      "changes": null,
+      "role": "terrestrial realm"
+    },
+    {
+      "name": "the sea",
+      "visualTraits": [
+        "has waters, waves, and fish",
+        "can be tossed by winds"
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Normal",
+          "description": "A body of water with fish and ships."
+        },
+        {
+          "phase": "Phase 2: Dried up",
+          "description": "Dries up at the rebuke of the Most High."
+        }
+      ],
+      "role": "aquatic realm"
+    }
+  ],
+  "locations": [
+    {
+      "name": "windows of heaven",
+      "visualTraits": [
+        "can be shut to withhold rain"
+      ],
+      "changes": null,
+      "role": "feature of heaven"
+    }
+  ],
+  "environments": [],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 101 Segment 7",
-      "location": null,
-      "action": null,
+      "title": "Admonition to the Children of Heaven",
+      "location": "unspecified, facing heaven",
+      "action": "An unnamed speaker commands the 'children of heaven' to ask heaven, fear the Most High, and do no evil.",
       "actorsInvolved": [
-        "ወተግሠጹ",
-        "ትፈርህ",
-        "ወትየብስ",
-        "ወሉ",
-        "ዓሣቲሃ",
-        "ዘሀሎ",
-        "ውስቴታ",
-        "ወንትሙ",
-        "ኃጥን",
-        "ዲ",
-        "ምድር",
-        "ኢትፈርህዎ"
+        "Most High",
+        "children of heaven"
+      ]
+    },
+    {
+      "title": "The Withholding of Rain",
+      "location": "earth",
+      "action": "A hypothetical scenario where the Most High shuts the windows of heaven, stopping rain and dew from falling on the earth.",
+      "actorsInvolved": [
+        "Most High",
+        "children of heaven"
+      ]
+    },
+    {
+      "title": "The Sending of Wrath",
+      "location": "earth",
+      "action": "A hypothetical scenario where the Most High sends his wrath upon people for their deeds and hard words against his righteousness.",
+      "actorsInvolved": [
+        "Most High",
+        "sinners"
+      ]
+    },
+    {
+      "title": "The Peril of the Sea Kings",
+      "location": "the sea",
+      "action": "The kings of the sea are tossed by waves and winds, and their ships are broken.",
+      "actorsInvolved": [
+        "kings of the sea"
+      ]
+    },
+    {
+      "title": "The Fear of the Sea Kings",
+      "location": "the sea",
+      "action": "The kings of the sea fear for their possessions and their lives, anticipating that the sea will swallow them and they will be destroyed.",
+      "actorsInvolved": [
+        "kings of the sea"
+      ]
+    },
+    {
+      "title": "The Dominion over the Sea",
+      "location": "the sea",
+      "action": "A declaration that the sea, its waters, and its movements are the work of the Most High, who has sealed and bound it.",
+      "actorsInvolved": [
+        "Most High"
+      ]
+    },
+    {
+      "title": "The Rebuke of the Sea",
+      "location": "the sea",
+      "action": "At the Most High's rebuke, the sea is afraid and dries up, killing all its fish and everything within it. This is contrasted with the sinners on earth who do not fear him.",
+      "actorsInvolved": [
+        "Most High",
+        "sinners",
+        "fish"
+      ]
+    },
+    {
+      "title": "The Creator's Wisdom",
+      "location": "heaven, earth, the sea",
+      "action": "A rhetorical question affirming that the Most High created heaven, earth, and all within them, and gave instruction and wisdom to all beings on land and in the sea.",
+      "actorsInvolved": [
+        "Most High",
+        "all who move on the earth",
+        "those in the sea"
+      ]
+    },
+    {
+      "title": "A Contrast of Fear",
+      "location": "the sea, earth",
+      "action": "A final statement contrasting the fear the kings of the sea have for the sea with the sinners' lack of fear for the Most High.",
+      "actorsInvolved": [
+        "Most High",
+        "kings of the sea",
+        "sinners"
       ]
     }
   ],
   "blocking": {
-    "anchors": [
-      {
-        "id": "anchor1",
-        "description": "inside (ውስቴታ)"
-      },
-      {
-        "id": "anchor2",
-        "description": "gate (ወንትሙ)"
-      },
-      {
-        "id": "anchor3",
-        "description": "threshold (ኃጥን)"
-      }
-    ],
+    "anchors": [],
     "paths": []
   }
 }

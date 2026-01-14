@@ -2,104 +2,288 @@
 {
   "actors": [
     {
-      "name": "ወርኢኩ",
-      "visualTraits": null,
+      "name": "Uriel",
+      "visualTraits": {
+        "description": "An angel.",
+        "type": "angel"
+      },
+      "changes": [],
+      "role": "actor"
+    },
+    {
+      "name": "Lord of Glory",
+      "visualTraits": {
+        "description": "The being who sent Uriel.",
+        "type": "deity"
+      },
+      "changes": [],
+      "role": "actor"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Leaders of the thousands",
+      "visualTraits": {
+        "description": "Leaders for all creation and all stars.",
+        "type": "celestial being"
+      },
       "changes": [],
       "role": "character"
     },
     {
-      "name": "ሰረገላተ",
-      "visualTraits": null,
+      "name": "Four intercalary leaders",
+      "visualTraits": {
+        "description": "Four leaders associated with the four intercalary days of the year. They are not separated from their fixed celestial station/function.",
+        "type": "celestial being",
+        "count": 4
+      },
       "changes": [],
       "role": "character"
     },
     {
-      "name": "ኃዋኅው",
-      "visualTraits": null,
-      "changes": [],
-      "role": "character"
-    },
-    {
-      "name": "ቦሙ",
-      "visualTraits": null,
-      "changes": [],
-      "role": "character"
-    },
-    {
-      "name": "ዋብት",
-      "visualTraits": null,
-      "changes": [],
-      "role": "character"
-    },
-    {
-      "name": "ኢየዐርቡ",
-      "visualTraits": null,
-      "changes": [],
-      "role": "character"
-    },
-    {
-      "name": "እመልዕልቶሙ",
-      "visualTraits": null,
-      "changes": [],
-      "role": "character"
-    },
-    {
-      "name": "ለእልኩ",
-      "visualTraits": null,
+      "name": "Men",
+      "visualTraits": {
+        "description": "Humans on Earth who err in their calculation of the year.",
+        "type": "human"
+      },
       "changes": [],
       "role": "character"
     }
   ],
-  "props": [],
+  "props": [
+    {
+      "name": "Sun",
+      "visualTraits": {
+        "description": "A celestial luminary, a ruler of the day, which emits heat and travels in a chariot.",
+        "type": "celestial body"
+      },
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Moon",
+      "visualTraits": {
+        "description": "A celestial luminary, a ruler of the night.",
+        "type": "celestial body"
+      },
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Stars",
+      "visualTraits": {
+        "description": "Celestial luminaries, rulers of the night. Some emerge from and set in the gates, while others (circumpolar) never set.",
+        "type": "celestial body"
+      },
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Chariots of heaven",
+      "visualTraits": {
+        "description": "Celestial vehicles that run in the cosmos, associated with the luminaries. The Sun has a specific chariot.",
+        "type": "vehicle"
+      },
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Windows",
+      "visualTraits": {
+        "description": "Many open portals located to the left and right of the celestial gates. One, in its season, emits heat.",
+        "type": "architectural feature"
+      },
+      "changes": [],
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "Twelve Gates of Heaven",
+      "visualTraits": {
+        "description": "Twelve portals located at the extremities of the earth, open in their appointed seasons. They are the points of egress for the sun, moon, stars, winds, and dew. They are located in the east and west.",
+        "type": "portal",
+        "count": 12
+      },
+      "changes": [],
+      "role": "location"
+    },
+    {
+      "name": "East",
+      "visualTraits": {
+        "description": "The direction from which the celestial bodies emerge through the gates.",
+        "type": "direction"
+      },
+      "changes": [],
+      "role": "location"
+    },
+    {
+      "name": "West",
+      "visualTraits": {
+        "description": "The direction associated with the setting of celestial bodies.",
+        "type": "direction"
+      },
+      "changes": [],
+      "role": "location"
+    },
+    {
+      "name": "Left of the Gates",
+      "visualTraits": {
+        "description": "The location of many open windows, relative to the celestial gates.",
+        "type": "relative position"
+      },
+      "changes": [],
+      "role": "location"
+    },
+    {
+      "name": "Right of the Gates",
+      "visualTraits": {
+        "description": "The location of many open windows, relative to the celestial gates.",
+        "type": "relative position"
+      },
+      "changes": [],
+      "role": "location"
+    }
+  ],
   "environments": [
     {
-      "name": "ሰማይ",
-      "visualTraits": null,
+      "name": "Heaven",
+      "visualTraits": {
+        "description": "The celestial realm where the luminaries, chariots, and gates are situated.",
+        "type": "celestial realm"
+      },
       "changes": [],
       "role": "environment"
     },
     {
-      "name": "ዓለም",
-      "visualTraits": null,
+      "name": "Earth",
+      "visualTraits": {
+        "description": "The terrestrial realm upon which the celestial luminaries are seen and their effects (e.g., heat) are felt.",
+        "type": "terrestrial realm"
+      },
+      "changes": [],
+      "role": "environment"
+    },
+    {
+      "name": "World",
+      "visualTraits": {
+        "description": "The ordered cosmos as a whole, which is circled by a great star and in which the chariots run.",
+        "type": "cosmos"
+      },
+      "changes": [],
+      "role": "environment"
+    },
+    {
+      "name": "Extremities of the Earth",
+      "visualTraits": {
+        "description": "The boundary region of the Earth where the twelve gates of heaven are located.",
+        "type": "boundary"
+      },
       "changes": [],
       "role": "environment"
     }
   ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Line 1",
-      "location": null,
-      "action": null,
-      "actorsInvolved": ["ወርኢኩ", "ሰረገላተ", "ሰማይ"]
+      "title": "The Celestial Divisions and Intercalary Days",
+      "location": "World",
+      "action": "The text describes the leaders of the stars and the four special leaders for the intercalary days, noting that men err in their yearly count because of them.",
+      "actorsInvolved": [
+        "Leaders of the thousands",
+        "Four intercalary leaders",
+        "Men"
+      ]
     },
     {
-      "title": "Line 2",
-      "location": null,
-      "action": null,
-      "actorsInvolved": ["እንዘ", "ዓለም"]
+      "title": "Uriel's Revelation of the Luminaries",
+      "location": "Heaven",
+      "action": "Uriel, sent by the Lord of Glory, reveals to the narrator the purpose of the celestial luminaries (Sun, Moon, Stars) as signs for seasons, years, and days, and as rulers of day and night.",
+      "actorsInvolved": [
+        "Uriel",
+        "Lord of Glory",
+        "Sun",
+        "Moon",
+        "Stars"
+      ]
     },
     {
-      "title": "Line 3",
-      "location": null,
-      "action": null,
-      "actorsInvolved": ["እመልዕልቶሙ", "ለእልኩ"]
+      "title": "The Twelve Gates of Heaven",
+      "location": "Extremities of the Earth",
+      "action": "Uriel shows the narrator twelve gates through which the Sun's chariot, heat, winds, dew, and all celestial bodies emerge from east to west according to their seasons. Many windows are also described near these gates.",
+      "actorsInvolved": [
+        "Uriel",
+        "Sun"
+      ]
     },
     {
-      "title": "Line 4",
-      "location": null,
-      "action": null,
-      "actorsInvolved": ["ኃዋኅው", "ቦሙ"]
-    },
-    {
-      "title": "Line 5",
-      "location": null,
-      "action": null,
-      "actorsInvolved": ["ዋብት", "ኢየዐርቡ"]
+      "title": "The Celestial Chariots and Unsetting Stars",
+      "location": "Heaven",
+      "action": "The narrator sees the chariots of heaven running in the cosmos above the gates, carrying the stars that never set. One star is described as the greatest, circling the entire world.",
+      "actorsInvolved": [
+        "Chariots of heaven",
+        "Stars"
+      ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "eastern_gates",
+        "description": "The twelve gates of heaven on the eastern side of the world."
+      },
+      {
+        "id": "western_gates",
+        "description": "The twelve gates of heaven on the western side of the world."
+      },
+      {
+        "id": "celestial_circuit",
+        "description": "The path in the cosmos above the gates."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Sun",
+        "start_anchor": "eastern_gates",
+        "end_anchor": "western_gates",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Emerges from the eastern gates and its heat is released when the gates are opened. Setting in the west is implied by the east-west description of the gates."
+      },
+      {
+        "actor": "Moon",
+        "start_anchor": "eastern_gates",
+        "end_anchor": "western_gates",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Emerges from the eastern gates. Setting in the west is implied."
+      },
+      {
+        "actor": "Stars",
+        "start_anchor": "eastern_gates",
+        "end_anchor": "western_gates",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Emerge from the eastern gates and set according to their number. A group of these stars do not set."
+      },
+      {
+        "actor": "Chariots of heaven",
+        "start_anchor": "celestial_circuit",
+        "end_anchor": "celestial_circuit",
+        "motion": "run",
+        "duration_sec": null,
+        "notes": "Run/race in the world/cosmos above the gates, carrying the stars that do not set."
+      },
+      {
+        "actor": "Stars",
+        "start_anchor": "celestial_circuit",
+        "end_anchor": "celestial_circuit",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "A specific group of stars that do not set travel on the chariots. One among them is the greatest and circles the entire world."
+      }
+    ]
   }
 }
 ```

@@ -1,27 +1,7 @@
+```json
 {
   "evaluation": [
     {
-      "hypothesis_ref": "S1",
-      "plausibility": "high",
-      "reasoning": "The parse correctly identifies the reason for the stars' imprisonment: they 'transgressed the commandment of the Lord' by not appearing 'at their proper time'. This specifies the nature of their sin as a disruption of the divinely ordained cosmic order.",
-      "parallels": [
-        {
-          "ref": "1 Enoch 21:6",
-          "note": "the stars which transgress the commandment of the Lord and are bound here till ten thousand years, the time entailed by their sins, are consummated."
-        },
-        {
-          "ref": "Jude 1:13",
-          "note": "'wandering stars, for whom the gloom of utter darkness has been reserved forever.' This reflects the idea of stars that have abandoned their proper course."
-        }
-      ],
-      "context_invariance": "stable",
-      "back_translation": "pass"
-    }
-  ],
-  "decision_log": "S1 correctly parses the compound sentence, linking the identification of the stars with the reason for their punishment. This linkage of cosmic disorder with moral transgression is a foundational theme of 1 Enoch.",
-  "final_decision": {
-    "hypothesis_ref": "S1",
-    "translation_id": "T1",
-    "confidence": "high"
-  }
-}
+      "hypothesis_ref": "S6",
+      "plausibility": "very high",
+      "reasoning": "The Ge'ez phrase 'እምቅድመ፡ ጽባሆሙ' (ʾəm-qədma ṣəbāḥomu) in 1 Enoch 18:15 literally translates to 'before their morning/rising'. This reading presents a logical difficulty: the stars' sin was not transgressing *before* they were supposed to rise, but rather failing to rise *at* their appointed time, as the following clause clarifies ('እስመ፡ ኢመጽኡ፡ በጊዜሆሙ' - 'because they did not come at their proper time'). The hypothesis posits that 'እምቅድመ' is a slightly imprecise translation of an underlying Greek phrase. This is strongly supported by the extant Greek text of this verse preserved by Georgius Syncellus, which reads 'ἐν ἀρχῇ τῆς ἀνατολῆς αὐτῶν' (en archē tēs anatolēs autōn), meaning 'at the beginning of their rising'. The Ge'ez preposition 'እምቅድመ' (ʾəm-qədma) typically means 'before', whereas a more faithful rendering of the Greek 'ἐν ἀρχῇ' (in the beginning) would have been 'በቀዳሚ' (ba-qadāmi) or a similar construction. This type of minor translational variance, where a common preposition is used for a slightly different

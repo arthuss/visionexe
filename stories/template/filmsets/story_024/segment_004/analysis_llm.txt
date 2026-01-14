@@ -1,12 +1,197 @@
 ```json
 {
-  "actors": [],
-  "props": [],
+  "actors": [
+    {
+      "name": "Narrator",
+      "visualTraits": null,
+      "changes": null,
+      "role": "protagonist"
+    },
+    {
+      "name": "Michael",
+      "visualTraits": [
+        "one of the holy and glorious angels"
+      ],
+      "changes": null,
+      "role": "guide"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Holy and glorious angels",
+      "visualTraits": null,
+      "changes": null,
+      "role": "group"
+    }
+  ],
+  "props": [
+    {
+      "name": "Precious stones",
+      "visualTraits": [
+        "glorious",
+        "beautiful"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Fragrant trees",
+      "visualTraits": null,
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Tree of Fragrance",
+      "visualTraits": [
+        "more fragrant than any other",
+        "its leaf, flower, and wood never wither",
+        "fruit is beautiful",
+        "fruit resembles clusters of a date-palm",
+        "leaves are lovely"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Mountain of Fire",
+      "visualTraits": [
+        "burns day and night"
+      ],
+      "changes": null,
+      "role": "landmark"
+    },
+    {
+      "name": "The Seven Mountains",
+      "visualTraits": [
+        "glorious",
+        "each one is different from the other",
+        "composed of precious and beautiful stones",
+        "three are towards the east, stacked one upon another",
+        "three are towards the north, stacked one upon another",
+        "all seven resemble the seat of a throne in their height"
+      ],
+      "changes": null,
+      "role": "landmark_group"
+    },
+    {
+      "name": "The Seventh Mountain",
+      "visualTraits": [
+        "located in the middle of the other six",
+        "surrounded by fragrant trees"
+      ],
+      "changes": null,
+      "role": "landmark"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Another place of the earth",
+      "visualTraits": null,
+      "changes": null,
+      "role": "region"
+    },
+    {
+      "name": "The East",
+      "visualTraits": null,
+      "changes": null,
+      "role": "relative_area"
+    },
+    {
+      "name": "The North",
+      "visualTraits": null,
+      "changes": null,
+      "role": "relative_area"
+    },
+    {
+      "name": "Deep and winding valleys",
+      "visualTraits": [
+        "separates the mountains so they do not approach each other"
+      ],
+      "changes": null,
+      "role": "topography"
+    },
+    {
+      "name": "The Center",
+      "visualTraits": [
+        "location of the seventh mountain"
+      ],
+      "changes": null,
+      "role": "relative_area"
+    }
+  ],
   "environments": [],
-  "scenes": [],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "Journey to the Fiery Mountain",
+      "location": "Another place of the earth",
+      "action": "The Narrator travels from a previous location to a new place where his guide shows him a mountain of fire that burns continuously.",
+      "actorsInvolved": [
+        "Narrator",
+        "Michael"
+      ]
+    },
+    {
+      "title": "Discovery of the Seven Mountains",
+      "location": "The Seven Mountains",
+      "action": "The Narrator approaches the fiery mountain and sees seven glorious, jewel-like mountains, arranged symmetrically with three to the east, three to the north, and one in the center, separated by deep valleys.",
+      "actorsInvolved": [
+        "Narrator"
+      ]
+    },
+    {
+      "title": "The Central Mountain and the Unique Tree",
+      "location": "The Center",
+      "action": "The Narrator observes the seventh, central mountain, which resembles a throne and is surrounded by fragrant trees. Among them is a unique tree with an unparalleled scent, eternal leaves, flowers, and wood, and beautiful fruit.",
+      "actorsInvolved": [
+        "Narrator"
+      ]
+    },
+    {
+      "title": "The Guide Revealed",
+      "location": "The Center",
+      "action": "The Narrator expresses his admiration for the beautiful tree, and his guide, who is revealed to be the angel Michael, responds to him.",
+      "actorsInvolved": [
+        "Narrator",
+        "Michael"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "previous_location",
+        "description": "An unspecified location from which the Narrator begins his journey in this segment."
+      },
+      {
+        "id": "fiery_mountain_viewpoint",
+        "description": "A location in 'another place of the earth' where the Mountain of Fire is first seen."
+      },
+      {
+        "id": "seven_mountains_region",
+        "description": "The area near the Mountain of Fire containing the seven glorious mountains."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Narrator",
+        "start_anchor": "previous_location",
+        "end_anchor": "fiery_mountain_viewpoint",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The text states 'And from there I went to another place of the earth'."
+      },
+      {
+        "actor": "Narrator",
+        "start_anchor": "fiery_mountain_viewpoint",
+        "end_anchor": "seven_mountains_region",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The text states 'And I went towards it [the mountain of fire] and I saw seven glorious mountains'."
+      }
+    ]
   }
 }
 ```

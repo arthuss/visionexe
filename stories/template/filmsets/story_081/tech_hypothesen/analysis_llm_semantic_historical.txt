@@ -1,0 +1,46 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "high",
+      "reasoning": "In 1 Enoch 81:6, the phrase 'እስ…፡ትእዛዝ፡ÃዕÅ' (ǝskä tǝʾǝzaz täʿǝdä) literally translates to 'until the command has passed/transgressed,' which is semantically problematic in context. The hypothesis proposes that 'ÃዕÅ' (täʿǝdä, 3fs perfect) is a plausible scribal corruption of 'ትዕድው' (tǝʿǝdǝw, 2ms jussive of ʿadäwä, 'to pass over/transmit'). This minimal emendation changes the phrase to 'until you pass on the command.' This reading aligns perfectly with the surrounding text, where the angels explicitly grant Enoch one year for the purpose of teaching his children and writing down his instructions ('…መ፡ ትምሀሮሙ፡ለውሉድ…፡ ወትጽሐፍ፡ሎሙ'). The condition for his final departure would thus logically be the completion of this transmission of knowledge.",
+      "parallels": [
+        {
+          "ref": "Dillmann, Lexicon Linguae Aethiopicae, col. 518",
+          "note": "The verb 'ዐደወ' (ʿadäwä) is attested with the meaning 'tradere' (to hand over, transmit), supporting the proposed semantic function."
+        },
+        {
+          "ref": "Testamentary Literature (e.g., Testaments of the Twelve Patriarchs)",
+          "note": "The concept of a patriarch passing on a final command or testament to his children before his death/departure is a core trope of the genre, making this reading thematically consistent. (Attestation of concept, not exact phrase)."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "moderate",
+      "reasoning": "1 Enoch 81:9 presents a difficult statement: 'ወእለ፡ይገብሩ፡ጽድቀ፡ይመውቱ፡ እንተ፡ምግባረ፡ሰብእ፡ ወይትጋብኡ፡Åእንተ፡ግባሮሙ፡ ለረሲዓን' ('And those who do righteousness die on account of the deeds of men, and are gathered on account of the deeds of the wicked'). This hypothesis posits that the verse describes the unjust death of the righteous, which is then recorded as evidence against the wicked. 'ምግባረ፡ሰብእ' (deeds of men) is interpreted not as 'the normal way of men' but as 'the deeds of [sinful] humanity.' The key is the interpretation of 'ወይትጋብኡ' (wä-yǝtgabǝʾu, 'and they are gathered'). While it can mean 'to be gathered unto one's people' (i.e., to die), in the immediate context of the heavenly tablets (81:1-2) which record all deeds, it can take on a forensic meaning: 'their case/story is gathered' or 'entered into the record.' This reading resolves the apparent contradiction and aligns with the Enochic theme of the suffering righteous whose martyrdom contributes to the condemnation of their oppressors.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 94-104 (Epistle of Enoch)",
+          "note": "The theme of the righteous being oppressed and killed by the wicked is central to this section, providing a strong thematic parallel for the proposed interpretation of unjust death."
+        },
+        {
+          "ref": "Revelation 6:9-10",
+          "note": "The concept of the souls of martyrs under the altar crying out for judgment is a close conceptual parallel, where the death of the righteous is directly linked to the coming judgment on the wicked."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "flag"
+    }
+  ],
+  "decision_log": "The evaluation focused on two primary cruxes. The first, in 81:6, involves a likely scribal error ('ÃዕÅ') which makes the text nonsensical. Hypothesis S1 proposes a minimal and contextually sound emendation to 'ትዕድው' ('you pass on'), resolving the issue with high confidence. The second, more complex crux is in 81:9, which describes the death of the righteous. A literal reading is theologically puzzling. Hypothesis S2 interprets the verse through the lens of martyrdom and forensic judgment, suggesting the righteous die due to the wicked, and their deaths are 'gathered' as evidence for the final judgment. This reading is thematically consistent with the book of 1 Enoch, especially given the immediate context of the heavenly tablets that record all deeds. However, it requires interpreting the verb 'ይትጋብኡ' (are gathered) in a specific, forensic sense that is implied by context rather than explicitly stated. The back-translation for S2 is flagged because rendering 'gathered' as 'gathered into the record' adds an interpretive layer, though one strongly supported by the preceding verses.",
+  "final_decision": {
+    "hypothesis_ref": "S2",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}
+```

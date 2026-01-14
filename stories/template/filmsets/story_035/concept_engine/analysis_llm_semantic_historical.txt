@@ -1,0 +1,38 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "low",
+      "reasoning": "This hypothesis interprets the relationship between the verse number (t1) and the verse text (t2) as a genitive construct chain. While conceptually plausible as an analogy (e.g., 'the text *of* verse 1'), this is syntactically unmotivated in Ge'ez. A full, independent clause does not typically function as a genitive complement to a noun (the number) via simple juxtaposition. This structure is not a recognized grammatical construction, making the hypothesis highly improbable from a syntactic standpoint.",
+      "parallels": [
+        {
+          "ref": "UNATTESTED",
+          "note": "The structure of a full, non-relative clause acting as a genitive complement to a number/label via simple juxtaposition is not an attested syntactic pattern in standard Ge'ez grammar."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "fail"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "high",
+      "reasoning": "This hypothesis correctly identifies the relationship as apposition. The verse number (t1) is a label, and the text (t2) is the content it identifies. This co-referential relationship is standardly expressed by juxtaposition in Ge'ez, making it a syntactically simple and direct analysis. This structure accurately reflects the meta-textual function of verse numbering in manuscripts and printed editions.",
+      "parallels": [
+        {
+          "ref": "Lambdin 1978, §82",
+          "note": "Simple juxtaposition is the standard method for indicating apposition in Ge'ez (e.g., 'P̣ēṭros, ḥawāryā' - 'Peter, the apostle'). The relationship between a label/title and its content is a classic instance of apposition."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "Hypothesis S2 (Apposition) is strongly preferred over S1 (Genitive). The relationship between a verse number and the text it labels is fundamentally one of identification, where both elements refer to the same textual unit. Apposition, marked by simple juxtaposition, is the most direct and syntactically attested way to describe this relationship in Ge'ez. In contrast, Hypothesis S1 (Genitive) is syntactically problematic and unattested for this type of structure (a full clause as a genitive complement via juxtaposition). The back-translation check confirms this preference: the appositional reading ('Verse 35:1, namely...') is natural, while the genitive reading ('Verse 35:1's text...') is awkward and adds a nuance of possession not present in the source. Therefore, the appositional analysis is more parsimonious and correct.",
+  "final_decision": {
+    "hypothesis_ref": "S2",
+    "translation_id": "T1",
+    "confidence": "high"
+  }
+}
+```

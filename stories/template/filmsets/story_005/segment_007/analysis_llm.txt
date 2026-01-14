@@ -1,55 +1,124 @@
 ```json
 {
-  "actors": [],
+  "actors": [
+    {
+      "name": "God",
+      "visualTraits": {
+        "description": "Described through titles and actions rather than physical appearance. Referred to as 'He who lives forever' (ዘሕያው፡​ለዓለም), 'God' (አምላክ), and 'Lord' (እግዚእ). His works are orderly and unchanging year by year."
+      },
+      "changes": null,
+      "role": "The eternal creator and lawgiver whose commands are followed by nature."
+    }
+  ],
   "characters": [
     {
-      "name": "the chosen",
+      "name": "The Sinners",
       "visualTraits": {
-        "description": "Associated with light, joy, and peace."
+        "description": "Addressed as 'you' (አንትሙ). Described metaphorically as 'hard of heart' (ይቡሳነ፡​ልብ) and having 'unclean mouths' (አፍ፡​ርኩሳት). They speak 'great and hard words' against God."
       },
-      "changes": [],
-      "role": "group"
+      "changes": [
+        {
+          "phase": "Phase 1: Present Disobedience",
+          "description": "They do not show patience, do not perform the Lord's command, and transgress his law."
+        },
+        {
+          "phase": "Phase 2: Future Cursed State",
+          "description": "They will curse their own days, have their years of life cut short, receive eternal curses without mercy, and be cursed by the righteous."
+        }
+      ],
+      "role": "The disobedient addressees of the discourse, contrasted with the righteous and with obedient nature."
     },
     {
-      "name": "the wicked",
+      "name": "The Elect/Righteous",
       "visualTraits": {
-        "description": "Associated with a curse."
+        "description": "No physical description is provided. They are defined by their righteousness and status as 'the chosen' (ኅሩያን) and 'the righteous' (ጻድቃን)."
       },
-      "changes": [],
-      "role": "group"
+      "changes": [
+        {
+          "phase": "Phase 1: Present State",
+          "description": "Implied to be obedient and righteous, in contrast to the sinners."
+        },
+        {
+          "phase": "Phase 2: Future Blessed State",
+          "description": "They will receive light, joy, peace, and wisdom. They will inherit the earth, live long lives without sin, judgment, plague, or wrath, and their joy will increase eternally."
+        }
+      ],
+      "role": "The group destined for blessing and salvation."
     }
   ],
   "props": [],
   "places": [
     {
-      "name": "the earth",
+      "name": "The Earth",
       "visualTraits": {
-        "description": "A domain to be inherited by 'the chosen'."
+        "description": "Mentioned as 'the earth' (ለምድር) which will be inherited."
       },
-      "changes": [],
-      "role": "setting"
+      "changes": null,
+      "role": "scene_prop"
     }
   ],
   "locations": [],
   "environments": [
     {
-      "name": "Light",
+      "name": "Trees",
       "visualTraits": {
-        "description": "An environment of light, joy, and peace destined for 'the chosen'."
+        "description": "Described as being covered with 'green leaves' (ሐመልማለ፡​አቍጽል) and providing shade."
       },
-      "changes": [],
-      "role": "ambient"
+      "changes": null,
+      "role": "A static example of nature's obedience to God's eternal law."
+    },
+    {
+      "name": "Seas",
+      "visualTraits": {
+        "description": "No visual details provided. Mentioned as 'seas' (አብሕርት)."
+      },
+      "changes": null,
+      "role": "A static example of nature's obedience, accomplishing its work."
+    },
+    {
+      "name": "Rivers",
+      "visualTraits": {
+        "description": "No visual details provided. Mentioned as 'rivers' (አፍላግ)."
+      },
+      "changes": null,
+      "role": "A static example of nature's obedience, accomplishing its work together with the seas."
     }
   ],
   "geo_environments": [],
   "scenes": [
     {
-      "title": "The Fate of the Chosen and the Wicked",
-      "location": "the earth",
-      "action": "A pronouncement dictates the future state: 'the chosen' will receive light, joy, peace, and inherit the earth, while 'the wicked' will receive a curse.",
+      "title": "Nature's Obedience as a Rebuke",
+      "location": "Unknown",
+      "action": "A speaker questions how trees are covered in green leaves and how all of God's works are performed annually without change, and how seas and rivers complete their tasks together, contrasting this order with the disobedience of the addressees.",
       "actorsInvolved": [
-        "the chosen",
-        "the wicked"
+        "God",
+        "The Sinners"
+      ]
+    },
+    {
+      "title": "Judgment on the Impatient and Hard-hearted",
+      "location": "Unknown",
+      "action": "The speaker directly accuses the addressees ('you') of impatience, disobedience to the Lord's command, and speaking arrogant words against God's majesty. They are declared 'hard of heart' and told they will have no peace.",
+      "actorsInvolved": [
+        "The Sinners",
+        "God"
+      ]
+    },
+    {
+      "title": "Pronouncement of Curses and Blessings",
+      "location": "Unknown",
+      "action": "The speaker pronounces that the sinners will curse their own days and shorten their lives, receiving an eternal curse without mercy. In contrast, the elect will receive light, joy, and peace, and will inherit the earth. The sinners will be cursed by the righteous.",
+      "actorsInvolved": [
+        "The Sinners",
+        "The Elect/Righteous"
+      ]
+    },
+    {
+      "title": "The Fate of the Elect",
+      "location": "Unknown",
+      "action": "The speaker elaborates on the blessings for the elect: they will be given wisdom, live without repeating sin through wickedness or pride, not be judged, and not die by plague or wrath. They will complete their lifespan in peace and joy for all their days.",
+      "actorsInvolved": [
+        "The Elect/Righteous"
       ]
     }
   ],

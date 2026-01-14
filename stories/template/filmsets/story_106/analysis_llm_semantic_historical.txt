@@ -1,0 +1,16 @@
+An evaluation of the Ge'ez text of 1 Enoch 106, following the specified scientific rules.
+
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "high",
+      "reasoning": "Hypothesis S1b (translationese) is the most plausible explanation for the redundant pronouns. This stylistic feature, while not strictly ungrammatical, is awkward and uncommon in native Ge'ez compositions. It strongly suggests a literal translation from a Semitic source language (like Aramaic) that uses casus pendens or similar topicalization structures. The Aramaic fragments of Enoch from Qumran (4QEn) exhibit such structures. Hypothesis S1a (dialectal feature) is possible but lacks specific evidence, while S1c (scribal error) is less likely given the repetition of the pattern across multiple verses, suggesting it is integral to this layer of the text.",
+      "parallels": [
+        {
+          "ref": "Aramaic 4Q204 (4QEnb ar) 1 ii, line 16",
+          "note": "The Aramaic fragments of Enoch show frequent use of resumptive pronouns in topic-comment structures, which would produce this effect in a literal translation into Ge'ez. For example, a phrase like 'As for X, he did Y' translates literally as 'X, he did Y'."
+        },
+        {
+          "ref": "Genesis 1

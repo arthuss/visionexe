@@ -2,86 +2,320 @@
 {
   "actors": [
     {
-      "name": "ኢያሌዕሉ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "speaker"
+      "name": "Narrator",
+      "visualTraits": {
+        "description": "The first-person seer of the vision, referred to as 'I'."
+      },
+      "changes": [],
+      "role": "actor"
+    },
+    {
+      "name": "Head of Days",
+      "visualTraits": {
+        "description": "A divine figure whose head is like white wool. Also called the 'Ancient of Days'.",
+        "head": "like white wool"
+      },
+      "changes": [],
+      "role": "actor"
+    },
+    {
+      "name": "Son of Man",
+      "visualTraits": {
+        "description": "A being with a face like the appearance of a man, full of grace, and like one of the holy angels. Righteousness dwells with him.",
+        "face": "like the appearance of a man, full of grace, like a holy angel"
+      },
+      "changes": [],
+      "role": "actor"
+    },
+    {
+      "name": "Lord of Spirits",
+      "visualTraits": {
+        "description": "The ultimate divine authority who chose the Son of Man. No physical description is provided."
+      },
+      "changes": [],
+      "role": "actor"
+    },
+    {
+      "name": "Accompanying Angel",
+      "visualTraits": {
+        "description": "One of the holy angels who walks with the narrator and reveals secret things."
+      },
+      "changes": [],
+      "role": "actor"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Holy Angels",
+      "visualTraits": {
+        "description": "A class of divine beings. The Son of Man's face is compared to one of them."
+      },
+      "changes": [],
+      "role": "character"
+    },
+    {
+      "name": "Kings",
+      "visualTraits": {
+        "description": "Earthly rulers who are judged, raised from their beds, and cast down from their thrones."
+      },
+      "changes": [],
+      "role": "character"
+    },
+    {
+      "name": "The Mighty",
+      "visualTraits": {
+        "description": "Powerful individuals on earth who are judged alongside the kings."
+      },
+      "changes": [],
+      "role": "character"
+    },
+    {
+      "name": "The Strong",
+      "visualTraits": {
+        "description": "Powerful individuals whose faces are cast down in shame and whose dwelling becomes darkness."
+      },
+      "changes": [],
+      "role": "character"
+    },
+    {
+      "name": "Sinners",
+      "visualTraits": {
+        "description": "A group whose teeth are broken by the Son of Man."
+      },
+      "changes": [],
+      "role": "character"
+    },
+    {
+      "name": "The Congregation of the Faithful",
+      "visualTraits": {
+        "description": "The followers of the Lord of Spirits, from whose houses the wicked are driven out. Identified in analysis_context as a single group ('His congregation, that is, of the faithful')."
+      },
+      "changes": [],
+      "role": "character"
+    },
+    {
+      "name": "The Hanged/Martyrs",
+      "visualTraits": {
+        "description": "Those who are persecuted ('hung/crucified') for the name of the Lord of Spirits."
+      },
+      "changes": [],
+      "role": "character"
     }
   ],
   "props": [
     {
-      "name": "ወገጸ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "gate"
+      "name": "Hidden Treasures",
+      "visualTraits": {
+        "description": "All the hidden treasures that the Son of Man reveals."
+      },
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Reins of the Strong",
+      "visualTraits": {
+        "description": "Metaphorical restraints on the strong that are loosened by the Son of Man."
+      },
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Teeth of Sinners",
+      "visualTraits": {
+        "description": "The teeth of sinners that are broken by the Son of Man."
+      },
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Beds",
+      "visualTraits": {
+        "description": "The resting places of kings and the mighty, from which they are raised. Later becomes the resting place of the judged, filled with worms."
+      },
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Thrones",
+      "visualTraits": {
+        "description": "The seats of power for kings and the strong, from which they are cast down."
+      },
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Worms",
+      "visualTraits": {
+        "description": "Creatures that will become the bed for the judged strong ones."
+      },
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Handmade Idols",
+      "visualTraits": {
+        "description": "Gods made by the hands of the wicked, which they worship instead of the Lord of Spirits."
+      },
+      "changes": [],
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Houses of His Congregation",
+      "visualTraits": {
+        "description": "The gathering places of the faithful, from which the wicked are driven out."
+      },
+      "changes": [],
+      "role": "setting"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Visionary Space",
+      "visualTraits": {
+        "description": "The location of the vision, referred to as 'There' (በህየ), where the narrator sees the divine figures."
+      },
+      "changes": [],
+      "role": "setting"
+    },
+    {
+      "name": "Dry Land",
+      "visualTraits": {
+        "description": "The earthly realm upon which the wicked walk and establish their power."
+      },
+      "changes": [],
+      "role": "setting"
     }
   ],
   "environments": [
     {
-      "name": "ኀፍረት",
-      "visualTraits": null,
-      "changes": null,
-      "role": "location"
+      "name": "Heaven",
+      "visualTraits": {
+        "description": "The celestial realm, mentioned in the context of its stars ('stars of heaven')."
+      },
+      "changes": [],
+      "role": "setting"
     },
     {
-      "name": "ወዕፀያት",
-      "visualTraits": null,
-      "changes": null,
-      "role": "location"
-    },
-    {
-      "name": "ምስቦሙ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "location"
-    },
-    {
-      "name": "ወኢይሴፈዉ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "location"
-    },
-    {
-      "name": "እምስባቲሆሙ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "location"
-    },
-    {
-      "name": "ስሞ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "location"
-    },
-    {
-      "name": "ለእግዚ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "location"
-    },
-    {
-      "name": "መናፍስት",
-      "visualTraits": null,
-      "changes": null,
-      "role": "location"
+      "name": "Darkness",
+      "visualTraits": {
+        "description": "The future dwelling place for the judged strong ones."
+      },
+      "changes": [],
+      "role": "setting"
     }
   ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 46 Segment 6",
-      "location": null,
-      "action": "ወገጸ፡ጽኑዓን፡ይገፈትእ፡ ወይመልኦሙ፡ኀፍረት፡ ወጽልመት፡ይውኖሙ፡ መኃድሪሆሙ፡ወዕፀያት፡ ይውኖሙ፡ምስቦሙ፡ ወኢይሴፈዉ፡መ፡ይትነሥኡ፡ እምስባቲሆሙ፡እስመ፡ ኢያሌዕሉ፡ስሞ፡ለእግዚ፡ መናፍስት፨",
-      "actorsInvolved": ["ኢያሌዕሉ"]
+      "title": "Vision of the Head of Days and the Son of Man",
+      "location": "Visionary Space",
+      "action": "The narrator beholds a vision of the Head of Days and, with him, another being identified as the Son of Man.",
+      "actorsInvolved": [
+        "Narrator",
+        "Head of Days",
+        "Son of Man"
+      ]
+    },
+    {
+      "title": "Inquiry about the Son of Man",
+      "location": "Visionary Space",
+      "action": "The narrator asks his angelic guide about the identity of the Son of Man and why he is with the Ancient of Days.",
+      "actorsInvolved": [
+        "Narrator",
+        "Accompanying Angel"
+      ]
+    },
+    {
+      "title": "Prophecy of the Son of Man's Judgment",
+      "location": "Visionary Space",
+      "action": "The angel explains that the Son of Man was chosen by the Lord of Spirits to execute judgment upon the wicked kings, the mighty, and the strong, casting them down from power and into darkness.",
+      "actorsInvolved": [
+        "Accompanying Angel",
+        "Son of Man",
+        "Lord of Spirits",
+        "Kings",
+        "The Mighty",
+        "The Strong",
+        "Sinners"
+      ]
+    },
+    {
+      "title": "Expulsion of the Wicked",
+      "location": "Houses of His Congregation",
+      "action": "The wicked, who worship idols and deny the Lord of Spirits, are driven out from the houses of the faithful.",
+      "actorsInvolved": [
+        "The Congregation of the Faithful",
+        "The Hanged/Martyrs"
+      ]
     }
   ],
   "blocking": {
     "anchors": [
       {
-        "id": "anchor_gate",
-        "description": "gate"
+        "id": "visionary_locus",
+        "description": "The non-physical space where the narrator sees the Head of Days and the Son of Man."
+      },
+      {
+        "id": "seats_of_power",
+        "description": "The thrones and beds representing the authority and comfort of earthly rulers."
+      },
+      {
+        "id": "houses_of_the_faithful",
+        "description": "The gathering places of the congregation of the Lord of Spirits."
+      },
+      {
+        "id": "place_of_judgment",
+        "description": "The destination for the judged wicked, described as darkness and a bed of worms."
+      },
+      {
+        "id": "earthly_domain",
+        "description": "The 'dry land' where the wicked act and dwell before judgment."
       }
     ],
-    "paths": []
+    "paths": [
+      {
+        "actor": "Accompanying Angel",
+        "start_anchor": "visionary_locus",
+        "end_anchor": "visionary_locus",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Moves alongside the narrator: 'who walks with me' (ዘየሐውር፡ ምስሌየ)."
+      },
+      {
+        "actor": "Son of Man",
+        "start_anchor": "visionary_locus",
+        "end_anchor": "visionary_locus",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Moves alongside the Ancient of Days: 'walks with the Ancient of Days' (ምስለ፡ ብሉየ፡ መዋዕል፡ የሐውር)."
+      },
+      {
+        "actor": "The Wicked",
+        "start_anchor": "earthly_domain",
+        "end_anchor": "earthly_domain",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Their movement in their sphere of influence: 'walk upon the dry land' (ይከይዱ፡ ዲበ፡ የብስ)."
+      },
+      {
+        "actor": "Kings, The Mighty, The Strong",
+        "start_anchor": "seats_of_power",
+        "end_anchor": "place_of_judgment",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Forcibly displaced by the Son of Man: 'he will...cast them down from their thrones' (ያነሥኦሙ...ወይገፈትዖሙ...እምናብርቲሆሙ)."
+      },
+      {
+        "actor": "The Wicked",
+        "start_anchor": "houses_of_the_faithful",
+        "end_anchor": "unknown",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Forcibly expelled: 'they are driven out from the houses of His congregation' (ይሰደዱ፡ እምአብያተ፡ ምስትጉቡአ፡ ዚአሁ)."
+      }
+    ]
   }
 }
 ```

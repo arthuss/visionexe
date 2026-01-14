@@ -1,12 +1,137 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
-  "scenes": [],
+  "actors": [
+    {
+      "name": "Narrator",
+      "visualTraits": {
+        "description": "The first-person narrator ('I') undertaking a journey."
+      },
+      "changes": null,
+      "role": "protagonist"
+    }
+  ],
+  "characters": [],
+  "props": [
+    {
+      "name": "trees",
+      "visualTraits": {
+        "description": "The wilderness is full of trees."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "seed",
+      "visualTraits": {
+        "description": "The origin of the trees, referred to as 'this seed'."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "water",
+      "visualTraits": {
+        "description": "Water that gushes, flows in channels, and ascends."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "channels",
+      "visualTraits": {
+        "description": "Water channels that appear and flow towards the north and west."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "dew",
+      "visualTraits": {
+        "description": "Dew that ascends from the water channels."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "mountain of the desert",
+      "visualTraits": {
+        "description": "A mountain that contains a verdant, watered wilderness. Water gushes from its top."
+      },
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "locations": [
+    {
+      "name": "middle of the mountain",
+      "visualTraits": {
+        "description": "The central area of the 'mountain of the desert' where the narrator arrives."
+      },
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "top of the mountain",
+      "visualTraits": {
+        "description": "The upper part or summit of the mountain, from which water gushes."
+      },
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "environments": [
+    {
+      "name": "solitary wilderness",
+      "visualTraits": {
+        "description": "A landscape that appears solitary but is dynamically filled with trees, gushing water, channels, and ascending dew."
+      },
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "geo_environments": [
+    {
+      "name": "Desert_Transition",
+      "visualTraits": {
+        "description": "The desert region in which the 'mountain of the desert' is located."
+      },
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Discovery of the Watered Wilderness",
+      "location": "mountain of the desert",
+      "action": "The narrator travels east into a mountain within a desert, discovering a place that, while described as a 'solitary wilderness', is paradoxically full of trees, gushing water, flowing channels, and ascending dew.",
+      "actorsInvolved": [
+        "Narrator"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "anchor_0",
+        "description": "An unspecified starting location ('from there')."
+      },
+      {
+        "id": "anchor_1",
+        "description": "The middle of the mountain of the desert."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Narrator",
+        "start_anchor": "anchor_0",
+        "end_anchor": "anchor_1",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The narrator travels towards the east to arrive at the mountain."
+      }
+    ]
   }
 }
 ```

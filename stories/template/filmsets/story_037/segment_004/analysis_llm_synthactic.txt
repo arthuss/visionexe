@@ -1,0 +1,19 @@
+An analysis of the provided Ge'ez text according to the specified scientific rules.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "t2_p1",
+        "token_id": "t2",
+        "structure_type": "Nominal Sentence",
+        "bracket_notation": "[S_Nom [Subj [NP [NP ራእይ [Srel ዘርእየ]] [Appos [NP [AdjP ካልእ] [NP ራእየ ጥበብ] [Srel ዘርእየ [NP ሄኖክ [Appos [NP ወልደ ያሬድ]] [Appos [NP ወልድ መላልኤል]] [Appos [NP ወልደ ቃይናን]] [Appos [NP ወልደ ሄኖስ]] [Appos [NP ወልደ ሴት]] [Appos [NP ወልደ አዳም]]]]]]]]]]",
+        "dependencies": [
+          "ራእይ -> ዘርእየ (relative_clause)",
+          "ራእይ -> ራእየ (apposition)",
+          "ራእየ -> ካልእ (adjective)",
+          "ራእየ -> ጥበብ (genitive_construct)",
+          "ራእየ -> ዘርእየ (relative_clause)",
+          "ዘርእየ -> ሄኖክ (subject)",
+          "ሄኖክ -> ወልደ (apposition)",

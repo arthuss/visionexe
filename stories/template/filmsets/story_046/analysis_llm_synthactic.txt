@@ -1,0 +1,10 @@
+An official Level C Syntactic Analysis of the provided Ge'ez text is performed below. The analysis adheres to the specified scientific rules: no ambiguity reduction, token fidelity, formal notation, and exclusion of world knowledge.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "t1_t2_parse",
+        "structure_type": "Sentence",
+        "bracket_notation": "[S [S.Coord [S1 [Conj ወ] [AdvP በህየ] [VP [V ርኢኩ] [Obj [NP [RelCl [RelPro ዘ] [PP ሎቱ]] [Obj [NP [N ርእሰ] [Gen [N መዋዕል]]]]]]]] [Conj ወ] [S2 [Subj [NP ርእሱ]] [Pred [PP [P ከመ] [NP [N ፀምር] [Adj ፀዓዳ]]]]] [Conj ወ] [S3 [AdvP ምስሌሁ] [Subj [NP [N ከልእ] [RelCl [RelPro ዘ] [Subj [NP ገጹ]] [Pred [PP [P ከመ] [NP [N ርእየተ] [Gen [N ሰብእ]]]]]]]]] [Conj ወ] [S4 [Subj [NP [AdjP [Adj ምሉአ] [Gen [N ጸጋ]]] [N ገጹ]]] [Pred [PP [P ከመ] [NP [N ፩እመላእክት]

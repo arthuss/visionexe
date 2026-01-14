@@ -1,1 +1,257 @@
-{"actors":[],"props":[],"environments":[],"scenes":[],"blocking":{"anchors":[],"paths":[]}}
+```json
+{
+  "actors": [
+    {
+      "name": "Narrator",
+      "visualTraits": "First-person observer, not physically described.",
+      "changes": null,
+      "role": "observer_scribe"
+    },
+    {
+      "name": "Uriel",
+      "visualTraits": "A holy angel.",
+      "changes": null,
+      "role": "guide"
+    },
+    {
+      "name": "Moon",
+      "visualTraits": "A luminary that possesses light which it receives from the Sun.",
+      "changes": [
+        {
+          "phase": "Phase 1: Acquiring Light",
+          "description": "The Moon's light is transferred from the Sun ('ይጸንን፡እምፀሐይ')."
+        },
+        {
+          "phase": "Phase 2: Full Light",
+          "description": "The Moon completes all its light ('ይፌጽም፡÷ሎ፡ ብርሃኖ') in the east and west over fifteen days."
+        }
+      ],
+      "role": "luminary"
+    },
+    {
+      "name": "Sun",
+      "visualTraits": "A luminary that rises from and returns to celestial gates. It is the source of the Moon's light.",
+      "changes": null,
+      "role": "luminary"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Stars",
+      "visualTraits": "Celestial bodies mentioned in calendrical calculations.",
+      "changes": null,
+      "role": "celestial_body"
+    }
+  ],
+  "props": [],
+  "places": [],
+  "locations": [
+    {
+      "name": "Celestial Gates",
+      "visualTraits": "A system of portals through which the Sun and Moon rise and set. Specific gates are numbered.",
+      "changes": null,
+      "role": "celestial_portal_system"
+    },
+    {
+      "name": "First Gate",
+      "visualTraits": "A celestial portal used by the Sun.",
+      "changes": null,
+      "role": "celestial_portal"
+    },
+    {
+      "name": "Third Gate",
+      "visualTraits": "A celestial portal used by the Moon and Sun.",
+      "changes": null,
+      "role": "celestial_portal"
+    },
+    {
+      "name": "Fourth Gate",
+      "visualTraits": "A primary celestial portal for the Sun's and Moon's movements and interactions.",
+      "changes": null,
+      "role": "celestial_portal"
+    },
+    {
+      "name": "Fifth Gate",
+      "visualTraits": "A celestial portal from which the Sun rises.",
+      "changes": null,
+      "role": "celestial_portal"
+    },
+    {
+      "name": "Sixth Gate",
+      "visualTraits": "A celestial portal used by the Moon.",
+      "changes": null,
+      "role": "celestial_portal"
+    },
+    {
+      "name": "East",
+      "visualTraits": "A celestial direction associated with the completion of the Moon's light.",
+      "changes": null,
+      "role": "celestial_direction"
+    },
+    {
+      "name": "West",
+      "visualTraits": "A celestial direction associated with the completion of the Moon's light.",
+      "changes": null,
+      "role": "celestial_direction"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Celestial Sphere",
+      "visualTraits": "The cosmic realm governed by fixed laws ('ትእዛዝ'), orders ('ሥርዓተ'), and stations ('ምንባሮሙ') for the luminaries.",
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Law of the Moon's Orbit",
+      "location": "Celestial Sphere",
+      "action": "The Narrator observes another law and ordinance for the Moon, concerning its monthly orbit.",
+      "actorsInvolved": [
+        "Narrator",
+        "Moon"
+      ]
+    },
+    {
+      "title": "Uriel's Revelation",
+      "location": "Celestial Sphere",
+      "action": "The holy angel Uriel shows the Narrator the complete system of the luminaries, their stations, and their months, which the Narrator then records.",
+      "actorsInvolved": [
+        "Uriel",
+        "Narrator"
+      ]
+    },
+    {
+      "title": "The Moon's Light Cycle",
+      "location": "Celestial Sphere",
+      "action": "The Moon's light is described, how it becomes full in fifteen days, completing its light in the east and west.",
+      "actorsInvolved": [
+        "Moon"
+      ]
+    },
+    {
+      "title": "The Moon's Path Through the Gates",
+      "location": "Celestial Sphere",
+      "action": "The Moon's specific path is detailed: it sets with the Sun in the third and fourth gates, emerges for seven days, returns to the Sun's rising gate, and travels to the sixth gate.",
+      "actorsInvolved": [
+        "Moon",
+        "Sun"
+      ]
+    },
+    {
+      "title": "The Sun's Path Through the Gates",
+      "location": "Celestial Sphere",
+      "action": "The Sun's path is detailed: it rises from the fourth gate, moves to the fifth, returns to the fourth, goes to the first, and returns again to the fourth.",
+      "actorsInvolved": [
+        "Sun"
+      ]
+    },
+    {
+      "title": "Calendrical Reconciliation",
+      "location": "Celestial Sphere",
+      "action": "The text explains the numerical discrepancies between the solar, lunar, and stellar years, providing calculations for 3, 5, and 8-year cycles to show how the years are brought into alignment.",
+      "actorsInvolved": [
+        "Sun",
+        "Moon",
+        "Stars"
+      ]
+    }
+  ],
+  "blocking": {
+    "anchors": [
+      {
+        "id": "anchor_gate1",
+        "description": "The first celestial gate."
+      },
+      {
+        "id": "anchor_gate3",
+        "description": "The third celestial gate."
+      },
+      {
+        "id": "anchor_gate4",
+        "description": "The fourth celestial gate."
+      },
+      {
+        "id": "anchor_gate5",
+        "description": "The fifth celestial gate."
+      },
+      {
+        "id": "anchor_gate6",
+        "description": "The sixth celestial gate."
+      },
+      {
+        "id": "anchor_sun_rise_point",
+        "description": "The gate from which the Sun is currently rising."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Moon",
+        "start_anchor": "unknown",
+        "end_anchor": "anchor_gate3",
+        "motion": "travel",
+        "duration_sec": null,
+        "notes": "The Moon sets with the Sun in the third and fourth gates."
+      },
+      {
+        "actor": "Moon",
+        "start_anchor": "anchor_gate3",
+        "end_anchor": "anchor_gate4",
+        "motion": "travel",
+        "duration_sec": null,
+        "notes": "The Moon sets with the Sun in the third and fourth gates."
+      },
+      {
+        "actor": "Moon",
+        "start_anchor": "anchor_sun_rise_point",
+        "end_anchor": "anchor_sun_rise_point",
+        "motion": "travel",
+        "duration_sec": null,
+        "notes": "Emerges for seven days, then turns and returns to the gate from which the Sun rises."
+      },
+      {
+        "actor": "Moon",
+        "start_anchor": "anchor_sun_rise_point",
+        "end_anchor": "anchor_gate6",
+        "motion": "travel",
+        "duration_sec": null,
+        "notes": "Travels for a week to the sixth gate."
+      },
+      {
+        "actor": "Sun",
+        "start_anchor": "anchor_gate4",
+        "end_anchor": "anchor_gate5",
+        "motion": "travel",
+        "duration_sec": null,
+        "notes": "Rises from the fourth gate and emerges for seven days until it rises from the fifth."
+      },
+      {
+        "actor": "Sun",
+        "start_anchor": "anchor_gate5",
+        "end_anchor": "anchor_gate4",
+        "motion": "travel",
+        "duration_sec": null,
+        "notes": "Returns for seven days to the fourth gate."
+      },
+      {
+        "actor": "Sun",
+        "start_anchor": "anchor_gate4",
+        "end_anchor": "anchor_gate1",
+        "motion": "travel",
+        "duration_sec": null,
+        "notes": "Goes to the first gate for a week."
+      },
+      {
+        "actor": "Sun",
+        "start_anchor": "anchor_gate1",
+        "end_anchor": "anchor_gate4",
+        "motion": "travel",
+        "duration_sec": null,
+        "notes": "Returns again for seven days to the fourth gate."
+      }
+    ]
+  }
+}
+```

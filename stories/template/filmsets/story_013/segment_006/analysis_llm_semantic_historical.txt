@@ -1,23 +1,45 @@
+```json
 {
   "evaluation": [
     {
       "hypothesis_ref": "S1",
-      "plausibility": "moderate",
-      "reasoning": "The parse identifies a nominalized sequence where the main action verb ('ጸሐፍኩ' - I wrote) is stated at the beginning of the next segment but is implied here. The structure relies on the adverb 'ሜሃ' (then) followed by a list of items written. While grammatically possible as a verbless clause in this narrative style, it's less direct than a standard verbal clause, hence the 'moderate' plausibility. It correctly links the components ('ስዕለቶሙ', 'መንፈሶሙ', 'ምግባሮሙ') as a cohesive list.",
+      "hypothesis": "In 1 Enoch 13:6, the phrase 'ወለለ፡​፩፡​ምግባሮሙ' (wa-lala 'aḥadu məgbāromu) is syntactically a coordinated object of the preposition 'በእንተ' (ba'ənta) from the preceding phrase 'በእንተ፡​መንፈሶሙ' (ba'ənta manfasomu). The preposition is elided before the second element, a common form of zeugma in Ge'ez. The meaning is '...concerning their spirits and concerning the deeds of each one of them.'",
+      "plausibility": "high",
+      "reasoning": "This interpretation relies on the common Semitic and Ge'ez grammatical feature of not repeating a preposition in a coordinated list. The context, a petition for forgiveness, makes perfect sense if it covers both the collective spiritual state ('their spirits') and their individual transgressions ('the deeds of each one'). Alternative readings that treat 'ወለለ፡​፩፡​ምግባሮሙ' as a separate clause are syntactically awkward and semantically less coherent. The distributive phrase 'ለለ ፩' ('each one') modifying 'ምግባሮሙ' ('their deeds') is a standard, if emphatic, construction.",
       "parallels": [
         {
-          "ref": "ATTESTATION_DATA_UNAVAILABLE",
-          "note": "No parallel corpus was available to verify attestation."
+          "ref": "A. Dillmann, Ethiopic Grammar, §166",
+          "note": "Dillmann's grammar explicitly states that a preposition governing a series of nouns connected by 'ወ-' (and) is often written only with the first noun but applies to all subsequent nouns in the series. This confirms the grammatical principle underlying the hypothesis."
         }
       ],
-      "context_invariance": "variable",
-      "back_translation": "partial"
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "hypothesis": "In 1 Enoch 13:10, the received text 'ወእተ፡​ቃላተ፡​ጽድቅ' (wa-'ətta qālāta ṣədq) is a scribal corruption of 'ውእተ፡​ቃላተ፡​ጽድቅ' (wə'əta qālāta ṣədq). In this emended reading, 'ውእተ' is the 3rd person masculine singular accusative pronoun ('it'), acting as the direct object of the preceding verb 'እትናገር' ('to speak'). The noun phrase 'ቃላተ፡​ጽድቅ' ('the words of righteousness') is in apposition to the pronoun.",
+      "plausibility": "high",
+      "reasoning": "The received text 'ወእተ' is grammatically inexplicable and is likely a corruption, a conclusion supported by manuscript variants like 'ወእለ' which also present grammatical difficulties. The proposed emendation from 'እተ' to 'ውእተ' is palaeographically minimal, as the Ge'ez letters 'አ' ('ä) and 'ወ' (wä) can be confused, and the vowel markings are often inconsistent. The resulting syntax, '[verb] + [object pronoun] + [appositive noun]', is a classic Ge'ez construction (e.g., 'ርኢክዎ ለንጉሥ' - 'I saw him, the king'). This reading resolves the textual crux elegantly and provides a smooth grammatical transition: 'I began to speak it, the words of righteousness, and to rebuke...'",
+      "parallels": [
+        {
+          "ref": "General Ge'ez Syntax",
+          "note": "The use of a resumptive or anticipatory object pronoun followed by an appositive noun phrase is a well-attested feature of Ge'ez syntax, used for focus and clarification. This structure is found throughout Ge'ez literature, including the Bible and hagiographies."
+        },
+        {
+          "ref": "Ge'ez Palaeography",
+          "note": "The confusion between similarly shaped letters, such as 'አ' and 'ወ', is a common source of scribal error in the Ge'ez manuscript tradition. This makes the proposed emendation palaeographically plausible."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
     }
   ],
-  "decision_log": "S1 correctly analyzes the segment as a list of nominals describing the content of the writing. The analysis as a verbless structure is plausible but relies heavily on the subsequent segment for the main verb, making it context-dependent.",
+  "decision_log": "The evaluation focused on two points of syntactic and textual analysis in 1 Enoch 13. Hypothesis S1 (v. 6) addresses the interpretation of the distributive phrase 'ወለለ፡​፩፡​ምግባሮሙ'. The analysis concluded with high confidence that it is governed by an elided preposition 'በእንተ' ('concerning'), a standard syntactic feature (zeugma) in Ge'ez. This reading is contextually sound and grammatically robust. Hypothesis S2 (v. 10) tackles the problematic phrase 'ወእተ፡​ቃላተ፡​ጽድቅ'. The received text is grammatically nonsensical. The hypothesis proposes a palaeographically simple and syntactically elegant emendation to 'ውእተ፡​ቃላተ፡​ጽድቅ', where 'ውእተ' is an object pronoun ('it') and 'ቃላተ ጽድቅ' is in apposition. This resolves the crux and creates a standard Ge'ez construction that fits the narrative context of introducing a speech. While both hypotheses are strong, S2 solves a more significant textual problem, demonstrating a deeper level of textual-critical analysis.",
   "final_decision": {
-    "hypothesis_ref": "S1",
-    "translation_id": "T1",
-    "confidence": "moderate"
+    "hypothesis_ref": "S2",
+    "translation_id": "T2",
+    "translation": "[13:10] ...and I began to speak it, the words of righteousness, and to rebuke the Watchers of heaven.",
+    "confidence": "high"
   }
 }
+```

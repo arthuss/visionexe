@@ -1,0 +1,38 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "low",
+      "reasoning": "This hypothesis posits a genitive relationship, where the verse text (t2) is a modifier of the verse number (t1). While semantically plausible (the text is the 'content of' the verse), this relationship lacks any morphosyntactic marking in Ge'ez. A true genitive construction would require the head noun to be in the construct state and the dependent to be in the genitive case (or nominative/accusative after a construct). Here, '44:1' is a modern numerical symbol, not a Ge'ez noun, and the following clause (t2) is not marked as a dependent noun. This analysis incorrectly applies a semantic category ('ofness') as a syntactic one.",
+      "parallels": [
+        {
+          "ref": "UNATTESTED",
+          "note": "A construction where a full clause functions as a direct genitive modifier of a preceding noun or symbol without any relativizer (e.g., 'za-') or other grammatical marker is not a standard feature of Ge'ez syntax."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "fail"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "high",
+      "reasoning": "This hypothesis treats the verse number (t1) and the verse text (t2) as two constituents in apposition. This is a strong analysis because both elements refer to the same entity: the specific verse. The number acts as a label or designator, and the text (treated as a nominalized quotation) provides the content of that label. This structure, where a general designator is followed by its specific content, is a common function of apposition in language.",
+      "parallels": [
+        {
+          "ref": "General Ge'ez Grammar",
+          "note": "The structure is analogous to list introductions in Ge'ez, where a summary noun phrase is placed in apposition to the list of items it enumerates (e.g., 'ሠለስቱ ሊቃነ አበው፡ አብርሃም ወይስሐቅ ወያዕቆብ' / 'The three patriarchs: Abraham, Isaac, and Jacob'). In this parallel, the summary NP ('The three patriarchs') is the designator and the list of names is the content, just as '44:1' is the designator and the verse text is the content."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "The evaluation assesses the syntactic relationship between a modern verse number (t1) and the verse text (t2). Hypothesis S1 (Genitive) is deemed implausible because it lacks any morphosyntactic evidence for a genitive construction in Ge'ez; it mistakes a semantic relationship for a grammatical one. Hypothesis S2 (Apposition) is highly plausible as it correctly identifies the structure as two juxtaposed, co-referential elements (a label and its content). This appositive structure is well-attested in Ge'ez for similar functions, such as list introductions. The primary uncertainty stems from applying classical grammatical analysis to a modern editorial convention (chapter:verse numbering), which is not native to the Ge'ez manuscript tradition. However, within this framework, apposition is the most accurate and defensible syntactic description. Therefore, S2 is selected as the final decision.",
+  "final_decision": {
+    "hypothesis_ref": "S2",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}
+```

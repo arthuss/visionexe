@@ -1,0 +1,33 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "high",
+      "reasoning": "This hypothesis addresses the primary syntactic difficulty in 1 Enoch 23:4, which is the use of the accusative case for the predicate phrase 'ኵሉ፡ ብርሃናተ፡ ሰማይ' (kʷəllu bərhanātä sämay, 'all the luminaries of heaven') following the copula 'ውእቱ' (wəʾətu, 'it is'). A simple equative sentence ('the fire is the luminaries') is both cosmologically illogical and would typically require the nominative case for the predicate. The accusative case strongly implies that 'the luminaries' are the object of an action performed by the subject ('the fire'). This hypothesis posits that an original Greek participle (e.g., τὸ διῶκον, 'the one pursuing/driving') was either untranslated or rendered simply by the copula, leaving its object in the accusative as a calque. The fire is thus not identical to the luminaries, but is the cosmic force that drives or pursues them, explaining why it 'runs without rest' (v. 2). This interpretation provides the most coherent reading of the passage in its immediate and broader literary context.",
+      "parallels": [
+        {
+          "ref": "R.H. Charles, The Book of Enoch (1912), p. 51, n. 4 on 23:4",
+          "note": "Charles notes the grammatical difficulty and translates the phrase as 'the fire...which pursues all the luminaries of heaven,' explicitly supplying the verb implied by the accusative case."
+        },
+        {
+          "ref": "A. Dillmann, Ethiopic Grammar, 2nd ed. (trans. J. Crichton, 1907), §178.c",
+          "note": "Dillmann discusses the use of the accusative for the predicate, particularly with verbs of 'making,' 'naming,' or 'considering.' While not a direct match, it demonstrates that the predicate accusative is a feature of Ge'ez syntax, often under the influence of source languages, making the calque hypothesis plausible."
+        },
+        {
+          "ref": "1 Enoch 18:15-16; 21:3-6",
+          "note": "These passages establish a thematic link between fire and the stars/luminaries. In those sections, fire serves as a place of punishment for stars that transgress their ordained paths. In 23:4, the fire appears to be a mechanism of control or propulsion, a related cosmological concept of fire governing celestial bodies."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass with clarification"
+    }
+  ],
+  "decision_log": "The core analytical challenge is the syntax of the final clause in 1 Enoch 23:4: '...ውእቱ፡ ኵሉ፡ ብርሃናተ፡ ሰማይ' (...wəʾətu kʷəllu bərhanātä sämay). A literal translation, '...it is all the luminaries of heaven,' is problematic because the predicate is in the accusative case, not the expected nominative, and the statement is semantically nonsensical. The evaluation focused on explaining the accusative case. Hypothesis S1 proposes that the accusative reflects the object of an implied verb, a syntactic remnant from the lost Greek source text. This reading ('it is [the one that drives/pursues] all the luminaries of heaven') resolves both the grammatical anomaly and the semantic difficulty. It aligns with scholarly commentary (R.H. Charles) and is consistent with Ge'ez translation practices and the book's overall cosmology. Alternative hypotheses, such as a simple scribal error, are less compelling as they fail to offer a positive explanation that integrates grammar and context. Therefore, S1 was selected as the most robust explanation.",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}
+```

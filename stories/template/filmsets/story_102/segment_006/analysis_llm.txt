@@ -1,19 +1,156 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
+  "actors": [
+    {
+      "name": "Great Glory",
+      "visualTraits": "An entity of 'great glory' from whom others wish to hide.",
+      "changes": null,
+      "role": "actor"
+    }
+  ],
+  "characters": [
+    {
+      "name": "The Sinners",
+      "visualTraits": "Cursed for eternity, they eat, drink, strip men, acquire possessions, and live for good days. They mock the dead righteous, believing death is the final end for all.",
+      "changes": null,
+      "role": "character"
+    },
+    {
+      "name": "The Righteous",
+      "visualTraits": "They die in righteousness and sorrow. Their end is described as perishing without any injustice found in them.",
+      "changes": null,
+      "role": "character"
+    },
+    {
+      "name": "Souls of the Righteous",
+      "visualTraits": "Spirits of the dead righteous who are told not to fear or be sad.",
+      "changes": null,
+      "role": "character"
+    },
+    {
+      "name": "Angels",
+      "visualTraits": "They execute their commands and wish to hide from the Great Glory.",
+      "changes": null,
+      "role": "character"
+    },
+    {
+      "name": "Children of the Earth",
+      "visualTraits": "They tremble and are thrown into confusion.",
+      "changes": null,
+      "role": "character"
+    }
+  ],
+  "props": [
+    {
+      "name": "Fiery Wood",
+      "visualTraits": "A substance of fire that is cast down.",
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "His Word",
+      "visualTraits": "A spoken command that descends upon people.",
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Sheol",
+      "visualTraits": "An underworld destination described as a place of great tribulation, crying, groaning, sorrow, and darkness.",
+      "changes": null,
+      "role": "place"
+    }
+  ],
+  "locations": [],
+  "environments": [
+    {
+      "name": "The Luminaries",
+      "visualTraits": "Celestial bodies that are terrified.",
+      "changes": null,
+      "role": "environment"
+    },
+    {
+      "name": "The Earth",
+      "visualTraits": "The world, which is terrified, trembles, and is shaken.",
+      "changes": null,
+      "role": "environment"
+    },
+    {
+      "name": "Darkness",
+      "visualTraits": "Associated with the state of the dead in Sheol.",
+      "changes": null,
+      "role": "environment"
+    }
+  ],
+  "geo_environments": [
+    {
+      "name": "Gehenna_Data_Sink",
+      "visualTraits": "The canonical name for Sheol, a place of post-mortem sorrow and tribulation.",
+      "changes": null,
+      "role": "geo_environment"
+    }
+  ],
   "scenes": [
     {
-      "title": "Chapter 102 Segment 6",
-      "location": null,
-      "action": "chanting or recitation",
-      "actorsInvolved": []
+      "title": "The Day of Judgment's Terror",
+      "location": "The Earth",
+      "action": "A divine judgment descends with fire and words, causing the luminaries, the earth, angels, and humanity to tremble in great fear. The sinners are declared cursed and without peace.",
+      "actorsInvolved": [
+        "Great Glory",
+        "The Sinners",
+        "Angels",
+        "Children of the Earth",
+        "The Luminaries",
+        "The Earth"
+      ]
+    },
+    {
+      "title": "The Fate of the Righteous Souls",
+      "location": "Sheol",
+      "action": "The souls of the righteous are addressed and told not to fear or be sad that they have descended into Sheol in sorrow, as this happened on the day of cursing and punishment for sinners.",
+      "actorsInvolved": [
+        "Souls of the Righteous",
+        "The Sinners"
+      ]
+    },
+    {
+      "title": "The Sinners' Mockery",
+      "location": "The Earth",
+      "action": "Living sinners observe the death of the righteous and conclude that death is the final end, seeing no advantage in righteousness and declaring themselves equal in fate. They believe the righteous will never see light again.",
+      "actorsInvolved": [
+        "The Sinners",
+        "The Righteous"
+      ]
+    },
+    {
+      "title": "Rebuke to the Sinners",
+      "location": "The Earth (discourse)",
+      "action": "The sinners are rebuked for their indulgent and violent lives. They are told to look at the true end of the righteous: they perished, became as though they had not been, and their souls descended into Sheol in tribulation.",
+      "actorsInvolved": [
+        "The Sinners",
+        "The Righteous",
+        "Souls of the Righteous"
+      ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "sheol",
+        "description": "The underworld, a destination for the souls of the dead."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Souls of the Righteous",
+        "start_anchor": "unknown",
+        "end_anchor": "sheol",
+        "motion": "descend",
+        "duration_sec": null,
+        "notes": "The souls of the righteous descend into Sheol after death (v. 5, 11)."
+      }
+    ]
   }
 }
 ```

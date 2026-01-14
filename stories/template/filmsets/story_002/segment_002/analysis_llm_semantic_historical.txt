@@ -1,23 +1,51 @@
+```json
 {
   "evaluation": [
     {
-      "hypothesis_ref": "S2_P1",
+      "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "This parse correctly identifies the paired imperatives 'ርእይዋ' (see it) and 'ለብዉ' (understand) governing the object 'ለምድር' (the earth). The following clauses describe the works on the earth. The structure 'imperative + object + descriptive clause' is consistent with the preceding and following segments. The statement that its work 'does not change' ('ኢይትመየጥ') from beginning to end ('እምቀዳሚ እስከ ተፍጻሜቱ') is a core thematic point, directly contrasting with human inconsistency.",
+      "reasoning": "This hypothesis posits that the initial imperative 'ጠየቁ' (Observe) governs the rest of the verse. The subsequent clauses, introduced by 'እፎ' (how) and 'ከመ' (how/that), function as indirect questions or object clauses that specify the content of the observation. This creates a coherent didactic instruction: 'Observe [the work], namely, how the luminaries do not change...' This structure is logical and common in wisdom and instructional literature.",
       "parallels": [
         {
-          "ref": "1 Enoch 2:1, 5:1",
-          "note": "Follows the same literary pattern as 1 Enoch 2:1 ('Observe...'). 1 Enoch 5:1 provides a closer thematic parallel: 'Observe and see the earth: from the beginning to the end, no work upon it has changed, but all the works of God are visible to you.'"
+          "ref": "Job 37:14",
+          "note": "The structure of imperative + object is found in '...ጠይቅ፡ መንክሮ፡ ለእግዚአብሔር' ('...consider the wondrous works of God'). While Job doesn't have the subsequent 'how' clauses, it establishes the pattern of a command to consider a specific object (God's works), which 1 Enoch 2:1 expands upon."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "high",
+      "reasoning": "This hypothesis interprets the verse as a command parallel to 2:1, with 'ርእይዋ...ወለብዉ' (Behold...and understand) followed by a declarative 'ከመ' (that) clause. The central interpretive issue is the final question mark ('፧'). This hypothesis argues that the mark is rhetorical or a pausal indicator, not a literal question. A literal question ('...does it not change as it appears?') would disrupt the didactic certainty of the passage, which contrasts the fixed order of nature with human sin. Interpreting the mark rhetorically aligns with the consistent theme and the often non-grammatical use of punctuation in Ge'ez manuscripts.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 1-5 (thematic)",
+          "note": "The entire opening section of Enoch contrasts the unwavering obedience of creation with the transgression of sinners. A genuine question expressing doubt about creation's stability would contradict the core argument of the immediate context."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S3",
+      "plausibility": "high",
+      "reasoning": "This hypothesis reads the verse as a single, continuous command: 'Behold...how the earth is full of water, and [how] cloud, dew, and rain rest upon her.' The main syntactic ambiguity is the singular verb 'የአርፍ' (it rests) with a compound subject ('cloud and dew and rain'). This is a common feature in Ge'ez and other Semitic languages, where the verb may agree in number with the nearest noun ('ዝናም', rain) or treat the collective group as a singular conceptual unit. The clause 'የአርፍ ላዕሌሃ' is best understood as continuing the description initiated by 'መልአት ማየ', explaining the source of the water.",
+      "parallels": [
+        {
+          "ref": "Genesis 1:14 (Ge'ez)",
+          "note": "The text has 'ወይኩን፡ ብርሃናት፡' ('And let there be lights'), using a singular jussive verb ('ወይኩን') with a plural subject ('ብርሃናት'). This demonstrates that strict grammatical number agreement is not always required, supporting the reading of the singular 'የአርፍ' with its compound subject in Enoch 2:3."
         }
       ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "The single provided hypothesis, S2_P1, is well-formed and strongly supported by contextual and intertextual evidence from the Book of Enoch. Its structure is consistent and semantically sound.",
+  "decision_log": "The evaluation prioritized a coherent reading across the three verses, which exhibit strong parallelism. The structure is: Command to observe the heavens (2:1), command to observe the earth (2:2), and a specific example of the earth's order (2:3). This overarching structure informed the resolution of local ambiguities. The primary challenge in 2:1 was the relation of the clauses; an object-clause reading (S1) is most natural. The key issue in 2:2 was the question mark; a rhetorical interpretation (S2) was preferred to maintain thematic consistency. The ambiguity in 2:3 concerned subject-verb agreement; this was resolved by citing attested patterns of flexible agreement in Ge'ez (S3). The chosen hypotheses (S1, S2, S3) combine to form the most syntactically and thematically coherent interpretation of the passage.",
   "final_decision": {
-    "hypothesis_ref": "S2_P1",
-    "translation_id": "T2_20260111_D",
+    "hypothesis_ref": "S1 & S2 & S3",
+    "translation_id": "T1",
     "confidence": "high"
   }
 }
+```

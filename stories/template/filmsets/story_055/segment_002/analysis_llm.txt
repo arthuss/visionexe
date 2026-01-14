@@ -2,50 +2,162 @@
 {
   "actors": [
     {
-      "name": "Wemahala (Abiy)",
-      "visualTraits": null,
+      "name": "Head of Days",
+      "visualTraits": {
+        "description": "A divine being, also referred to as 'Lord God, Lord of Spirits'. The text does not provide a physical description."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Regret",
+          "description": "Repents/regrets having destroyed the dwellers on the dry land."
+        },
+        {
+          "phase": "Phase 2: Covenant",
+          "description": "Swears an oath by his great name to never again destroy the dwellers on the dry land."
+        }
+      ],
+      "role": "The primary speaker, a supreme divine authority who makes a covenant and decrees judgment."
+    },
+    {
+      "name": "My Elect One",
+      "visualTraits": {
+        "description": "A chosen figure destined for a position of authority."
+      },
       "changes": null,
-      "role": "protagonist"
+      "role": "The designated judge who will be enthroned to pass sentence on Azazel and his followers."
+    },
+    {
+      "name": "Azazel",
+      "visualTraits": {
+        "description": "A figure who is the primary subject of judgment, with associated companies and hosts."
+      },
+      "changes": null,
+      "role": "The antagonist to be judged by the Elect One."
     }
   ],
-  "props": [],
+  "characters": [
+    {
+      "name": "dwellers on the dry land",
+      "visualTraits": {
+        "description": "All the inhabitants of the earth."
+      },
+      "changes": null,
+      "role": "The subjects of the Head of Days' regret and the beneficiaries of his new covenant."
+    },
+    {
+      "name": "angels",
+      "visualTraits": {
+        "description": "A group of beings acting under divine command."
+      },
+      "changes": null,
+      "role": "Instruments of divine power, tasked with seizing others on the day of tribulation."
+    },
+    {
+      "name": "powerful kings",
+      "visualTraits": {
+        "description": "Rulers who dwell on the dry land."
+      },
+      "changes": null,
+      "role": "The audience commanded to witness the enthronement and judgment by the Elect One."
+    },
+    {
+      "name": "Azazel's associates and hosts",
+      "visualTraits": {
+        "description": "All the company and hosts associated with Azazel."
+      },
+      "changes": null,
+      "role": "A group to be judged alongside Azazel."
+    }
+  ],
+  "props": [
+    {
+      "name": "sign",
+      "visualTraits": {
+        "description": "A sign to be placed in the sky."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "throne of glory",
+      "visualTraits": {
+        "description": "A glorious throne belonging to the Head of Days."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "sky",
+      "visualTraits": {
+        "description": "The heavens, where a sign will be placed."
+      },
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "earth",
+      "visualTraits": {
+        "description": "The world upon which the 'days of heaven' are measured."
+      },
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "throne of glory",
+      "visualTraits": {
+        "description": "A specific location of judgment and authority."
+      },
+      "changes": null,
+      "role": "blocking_anchor"
+    }
+  ],
   "environments": [
     {
-      "name": "Sky",
-      "visualTraits": null,
+      "name": "dry land",
+      "visualTraits": {
+        "description": "The terrestrial world inhabited by humans and kings."
+      },
       "changes": null,
-      "role": "environment"
-    },
-    {
-      "name": "Earth",
-      "visualTraits": null,
-      "changes": null,
-      "role": "environment"
-    },
-    {
-      "name": "World",
-      "visualTraits": null,
-      "changes": null,
-      "role": "environment"
-    },
-    {
-      "name": "Heaven",
-      "visualTraits": null,
-      "changes": null,
-      "role": "environment"
+      "role": "setting"
     }
   ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 55 Segment 2",
-      "location": null,
-      "action": null,
-      "actorsInvolved": ["Wemahala (Abiy)"]
+      "title": "The Declaration of the Head of Days",
+      "location": "An unspecified divine space, encompassing the concepts of heaven and earth.",
+      "action": "The Head of Days regrets a past destruction, swears an oath to establish a new covenant with the dwellers of the earth, and decrees a future judgment. This judgment will be executed by angels and will culminate in the powerful kings witnessing the Elect One sitting on the throne of glory to judge Azazel and his followers.",
+      "actorsInvolved": [
+        "Head of Days",
+        "My Elect One",
+        "Azazel",
+        "dwellers on the dry land",
+        "angels",
+        "powerful kings",
+        "Azazel's associates and hosts"
+      ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "throne_of_glory",
+        "description": "The throne of glory upon which the Elect One sits to execute judgment."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "My Elect One",
+        "start_anchor": "unknown",
+        "end_anchor": "throne_of_glory",
+        "motion": "stand",
+        "duration_sec": null,
+        "notes": "The text states the Elect One 'sits' (ይነብር) on the throne of glory. This represents the state of being seated in the position of judgment."
+      }
+    ]
   }
 }
 ```

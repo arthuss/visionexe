@@ -1,21 +1,15 @@
+An exhaustive syntactic analysis of the provided Ge'ez text is presented below, adhering to the specified scientific rules. Each Ge'ez sentence or major clausal unit, corresponding to a token in the input, is analyzed. For each token, all syntactically valid parses are enumerated, capturing structural ambiguities without semantic preference. The analysis uses bracket notation and provides explicit head-dependent relationships.
+
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "P1",
-        "structure_type": "Sequence of Clauses with Subordination",
-        "bracket_notation": "[S1 [NP-SUBJ t5] [VP t7 [PP t8]]] [S-REASON [CONJ t10] [S2 [VP t11 [PP t11] [PP t12]]]] [S3 [VP t14 [NP-PRED-NOM t15]]] [S4 [VP t16 [PP t16]] [PP t17]] [S-COORD [VP t18]]",
+        "id": "t2_p1",
+        "token_id": "t2",
+        "structure_type": "Multi-Clause Sentence (Parataxis)",
+        "bracket_notation": "[S [Clause [V ወአውሥአኒ]] [Clause [V ወይቤለኒ] [PP [P በ] [NP ቃሉ]]] [Clause [V ስማዕ]] [Clause [V ኢትፍራህ]] [NP_voc [N ሄኖክ] [Appos [NP [NP [N ብእሲ] [Adj ጻድቅ]] [Conj ወ] [NP [N ጸሐፌ] [Gen ጽድቅ]]]]] [Clause [V ቅረብ] [Adv ዝየ]] [Clause [V ወስማዕ] [Obj ቃልየ]]]",
         "dependencies": [
-          "t7->t5 (subject)",
-          "t7->t8 (source_complement)",
-          "t7->t11 (reason_clause)",
-          "t11->t12 (source_complement)",
-          "t14->t15 (predicate_nominative)",
-          "t16->t17 (locative_complement)",
-          "t16->t18 (coordinated_verb)"
-        ],
-        "notes": "A complex series of clauses explaining the origin and nature of evil spirits."
-      }
-    ]
-  }
-}
+          "ROOT->ወአውሥአኒ (paratactic)",
+          "ROOT->ወይቤለኒ (paratactic)",
+          "ወይቤለኒ->በቃሉ (

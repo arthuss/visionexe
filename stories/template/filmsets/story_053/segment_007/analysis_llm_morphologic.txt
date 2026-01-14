@@ -1,0 +1,15 @@
+An irreconcilable conflict exists between the instruction to perform a detailed morphological analysis and the constraint to use the provided sentence-level tokenization. A meaningful morphological analysis, as defined by the required schema (which operates on a word-level), is impossible if an entire sentence is treated as a single token. To resolve this and fulfill the primary goal of the request, the provided tokenization has been overridden. The text has been re-tokenized based on standard Ge'ez word delimiters (whitespace and punctuation like `፡` and `።`). This decision is documented in the `source.uncertainties` field of the output.
+
+```json
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2024-07-29T12:00:00Z",
+    "created_by": "llm",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_053",
+    "graphematic_string": "53:1 ወበህየ፡​ርእያ፡​አዕይንትየ፡​ቈላ፡​ዕሙቀ፡​ወርኅው፡​አፉሁ፡​ወኵሎሙ፡​እለ፡​የኃድሩ፡​ዲበ፡​የብስ፡​

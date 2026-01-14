@@ -1,12 +1,268 @@
 ```json
 {
-  "actors": [],
-  "props": [],
+  "actors": [
+    {
+      "name": "Noah",
+      "visualTraits": [
+        "Described as 'pure' and 'good'."
+      ],
+      "changes": null,
+      "role": "Protagonist who witnesses the earth's distress and receives a divine promise."
+    },
+    {
+      "name": "Enoch",
+      "visualTraits": [
+        "Identified as Noah's ancestor."
+      ],
+      "changes": null,
+      "role": "Messenger and intercessor who explains the divine judgment and consoles Noah."
+    },
+    {
+      "name": "The Lord / Lord of Spirits",
+      "visualTraits": [
+        "A non-corporeal divine authority, referred to as 'The Lord' (እግዚእ) and 'Lord of Spirits' (እግዚአ፡ መናፍስት)."
+      ],
+      "changes": null,
+      "role": "The ultimate authority who issues judgment and makes promises."
+    }
+  ],
+  "characters": [
+    {
+      "name": "Inhabitants of the dry ground",
+      "visualTraits": null,
+      "changes": null,
+      "role": "The collective group of people on Earth doomed to destruction."
+    },
+    {
+      "name": "Angels",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Beings whose secrets were illicitly learned by humanity."
+    },
+    {
+      "name": "Satans",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Beings whose 'violence' or 'oppression' was illicitly learned by humanity."
+    },
+    {
+      "name": "Sorcerers",
+      "visualTraits": null,
+      "changes": null,
+      "role": "A group whose hidden powers were learned by humanity."
+    },
+    {
+      "name": "Charm-makers",
+      "visualTraits": null,
+      "changes": null,
+      "role": "A group whose powers were learned by humanity."
+    },
+    {
+      "name": "Casters of molten images",
+      "visualTraits": null,
+      "changes": null,
+      "role": "A group whose powers were learned by humanity."
+    },
+    {
+      "name": "An Angel (in the fountain)",
+      "visualTraits": [
+        "Stands within a specific fountain."
+      ],
+      "changes": null,
+      "role": "An entity that presides over the creation of lead and tin."
+    },
+    {
+      "name": "The condemned",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Those who have been judged and for whom there is no return."
+    },
+    {
+      "name": "The holy ones",
+      "visualTraits": null,
+      "changes": null,
+      "role": "A group among whom Noah's name will be established."
+    },
+    {
+      "name": "Noah's Descendants",
+      "visualTraits": [
+        "Described as a 'fountain of the righteous and holy'."
+      ],
+      "changes": null,
+      "role": "The future lineage of Noah, destined for kingship and glory."
+    }
+  ],
+  "props": [
+    {
+      "name": "Silver",
+      "visualTraits": null,
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Lead",
+      "visualTraits": null,
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Tin",
+      "visualTraits": null,
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Secrets / The hidden thing",
+      "visualTraits": [
+        "Forbidden knowledge of angels, Satans, and magic."
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Earth",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-disturbance",
+          "description": "Stable (implied)."
+        },
+        {
+          "phase": "Phase 2: Disturbance",
+          "description": "The Earth has tilted, become wearisome, and is violently shaken. Its destruction is near."
+        }
+      ],
+      "role": "The primary setting for the events."
+    },
+    {
+      "name": "Heaven",
+      "visualTraits": null,
+      "changes": null,
+      "role": "The origin of a divine voice."
+    }
+  ],
+  "locations": [
+    {
+      "name": "Ends of the earth",
+      "visualTraits": null,
+      "changes": null,
+      "role": "A remote destination Noah travels to."
+    },
+    {
+      "name": "Dry ground",
+      "visualTraits": null,
+      "changes": null,
+      "role": "The dwelling place of the condemned inhabitants."
+    },
+    {
+      "name": "Fountain",
+      "visualTraits": [
+        "A specific spring or source."
+      ],
+      "changes": null,
+      "role": "The secret origin point for lead and tin, presided over by an angel."
+    }
+  ],
   "environments": [],
-  "scenes": [],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "Noah's Vision of a Doomed Earth",
+      "location": "Earth",
+      "action": "Noah observes that the Earth has tilted and its destruction is imminent.",
+      "actorsInvolved": [
+        "Noah"
+      ]
+    },
+    {
+      "title": "Noah's Journey and Cry",
+      "location": "Ends of the earth",
+      "action": "Noah travels to the ends of the earth and cries out with a bitter voice to his ancestor, Enoch.",
+      "actorsInvolved": [
+        "Noah",
+        "Enoch"
+      ]
+    },
+    {
+      "title": "Enoch's Arrival",
+      "location": "Ends of the earth",
+      "action": "Following a great disturbance and a voice from heaven, Enoch appears beside Noah and asks why he is crying.",
+      "actorsInvolved": [
+        "Noah",
+        "Enoch"
+      ]
+    },
+    {
+      "title": "The Divine Decree",
+      "location": "Ends of the earth",
+      "action": "Enoch explains that a command has been issued from the Lord for the destruction of the inhabitants of the earth because they have learned the forbidden secrets of angels, Satans, and sorcery.",
+      "actorsInvolved": [
+        "Enoch",
+        "The Lord / Lord of Spirits"
+      ]
+    },
+    {
+      "title": "The Secret of Metals",
+      "location": "Ends of the earth",
+      "action": "The narrative explains that metals like lead and tin are not born from the earth in the usual way, but from a special fountain overseen by an angel.",
+      "actorsInvolved": []
+    },
+    {
+      "title": "Enoch's Consolation",
+      "location": "Ends of the earth",
+      "action": "Enoch takes Noah by the hand, raises him up, and tells him that he has petitioned the Lord of Spirits concerning the earth's disturbance.",
+      "actorsInvolved": [
+        "Noah",
+        "Enoch",
+        "The Lord / Lord of Spirits"
+      ]
+    },
+    {
+      "title": "The Promise to Noah",
+      "location": "Ends of the earth",
+      "action": "Enoch relays the Lord of Spirits' message that Noah, being pure and good, will be saved from the judgment. His name and descendants will be established in righteousness for all time.",
+      "actorsInvolved": [
+        "Noah",
+        "Enoch",
+        "The Lord / Lord of Spirits"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "a1",
+        "description": "Noah's initial position before his journey."
+      },
+      {
+        "id": "a2",
+        "description": "Ends of the earth."
+      },
+      {
+        "id": "a3",
+        "description": "The position beside Noah where Enoch stands."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Noah",
+        "start_anchor": "a1",
+        "end_anchor": "a2",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Noah 'lifted up his feet from there and went to the ends of the earth'."
+      },
+      {
+        "actor": "Enoch",
+        "start_anchor": "unknown",
+        "end_anchor": "a3",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Enoch 'came... and stood beside me'."
+      }
+    ]
   }
 }
 ```

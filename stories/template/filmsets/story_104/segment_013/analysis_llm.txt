@@ -1,17 +1,258 @@
+```json
 {
-  "actors": [],
-  "props": [
+  "actors": [
     {
-      "name": "መጸሕፍተ",
-      "visualTraits": "unknown",
-      "changes": "none",
-      "role": "prop"
+      "name": "The Great One",
+      "visualTraits": {
+        "description": "A being of immense glory, referred to as 'the Great One' (ዐቢይ). His presence defines a location in heaven ('before his glory')."
+      },
+      "changes": null,
+      "role": "divine_authority"
+    },
+    {
+      "name": "Angels",
+      "visualTraits": {
+        "description": "Heavenly beings (መለእŒት) who act as scribes and intercessors. They are associated with the 'host of heaven'."
+      },
+      "changes": null,
+      "role": "divine_agent"
+    },
+    {
+      "name": "The Righteous",
+      "visualTraits": {
+        "description": "A group of people (ጻድቃን) who have suffered on earth but are promised a glorious future."
+      },
+      "changes": {
+        "type": "transformation",
+        "description": "They will be transformed from a state of suffering to a state of glory.",
+        "phases": [
+          {
+            "label": "Phase 1: Earthly Suffering",
+            "description": "Described as having experienced 'former suffering' (ቀዳሚ፡ ሐሰርŒሙ)."
+          },
+          {
+            "label": "Phase 2: Glorified",
+            "description": "Promised to 'shine like the light of heaven' (ትÅርሁ፡ መ፡ብርሃነ፡ሰማይ) and become 'companions of the host of heaven' (ለኃራ፡ሰማይ፡ሀሎወŒሙ፡ ሱቱፋነ)."
+          }
+        ]
+      },
+      "role": "protagonist_group"
+    },
+    {
+      "name": "The Wise",
+      "visualTraits": {
+        "description": "A group of people (ጠቢባን) who are given books of wisdom. They appear to be synonymous with 'the Righteous'."
+      },
+      "changes": null,
+      "role": "protagonist_subgroup"
+    },
+    {
+      "name": "Sinners",
+      "visualTraits": {
+        "description": "A group of people (ኃጥƒን) who are powerful and prosperous on earth. They are characterized by their deceit, falsehood, and creation of false writings."
+      },
+      "changes": null,
+      "role": "antagonist_group"
     }
   ],
-  "environments": [],
-  "scenes": [],
+  "characters": [
+    {
+      "name": "Host of Heaven",
+      "visualTraits": {
+        "description": "A celestial group (ኃራ፡ሰማይ) that the Righteous will join as companions."
+      },
+      "changes": null,
+      "role": "celestial_beings"
+    }
+  ],
+  "props": [
+    {
+      "name": "Memorial of the Righteous",
+      "visualTraits": {
+        "description": "A record or 'memorial' (እንቲ¡Œሙ) of the righteous that is mentioned by the angels for good."
+      },
+      "changes": null,
+      "role": "actor_prop:The Righteous"
+    },
+    {
+      "name": "Names of the Righteous",
+      "visualTraits": {
+        "description": "The names (¡ስማቲŒሙ) of the righteous, which are written down in heaven."
+      },
+      "changes": null,
+      "role": "actor_prop:The Righteous"
+    },
+    {
+      "name": "Gates of Heaven",
+      "visualTraits": {
+        "description": "The gates (ßኅተ፡ሰማይ) of heaven, which will be opened for the righteous."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Idols",
+      "visualTraits": {
+        "description": "Idols (ጣዖትŒሙ) that the sinners praise."
+      },
+      "changes": null,
+      "role": "actor_prop:Sinners"
+    },
+    {
+      "name": "Word of Truth",
+      "visualTraits": {
+        "description": "The 'word of truth' (ነገረ፡ርትዕ) and the 'holy and great word' (ነገረ፡ቅዱስ፡ወዐቢይ), which sinners twist and falsify."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "False Books",
+      "visualTraits": {
+        "description": "Books (መጻሕፍተ) written by sinners based on their own wicked words (ዲÅ፡ነገራቲሆሙ)."
+      },
+      "changes": null,
+      "role": "actor_prop:Sinners"
+    },
+    {
+      "name": "Books of Wisdom",
+      "visualTraits": {
+        "description": "Books (መጻሕፍታት) given to the righteous and the wise, which contain joy, righteousness, and great wisdom."
+      },
+      "changes": null,
+      "role": "actor_prop:The Righteous"
+    },
+    {
+      "name": "My Words",
+      "visualTraits": {
+        "description": "The words of the speaker (implied Enoch) (ናገራትየ), which are to be written down truthfully by the righteous."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Heaven",
+      "visualTraits": {
+        "description": "A celestial realm (ሰማይ) that is the setting for divine record-keeping and the future home of the righteous. It contains light and a host of angels."
+      },
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Before the Glory of the Great One",
+      "visualTraits": {
+        "description": "A specific location in Heaven (ቅድመ፡ ስብሐቲሁ፡ለዐቢይ) where the names and memorials of the righteous are recorded."
+      },
+      "changes": null,
+      "role": "divine_court"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Light of Heaven",
+      "visualTraits": {
+        "description": "A brilliant light (ብርሃነ፡ሰማይ) that the righteous will resemble in their glorified state."
+      },
+      "changes": null,
+      "role": "symbolic_element"
+    },
+    {
+      "name": "Light and Darkness",
+      "visualTraits": {
+        "description": "Light (ብርሃን) and darkness (ጽልመት), associated with Day and Night, are personified as witnesses that see and record all the sins of the sinners."
+      },
+      "changes": null,
+      "role": "witnessing_element"
+    },
+    {
+      "name": "Day and Night",
+      "visualTraits": {
+        "description": "The cycle of day (ዕለት) and night (ሌሊት) is described as constantly seeing the sins of sinners."
+      },
+      "changes": null,
+      "role": "temporal_witness"
+    },
+    {
+      "name": "Day of Great Judgment",
+      "visualTraits": {
+        "description": "A future event (ዕለተ፡ ነµ፡ዐÅይ) on which sinners will be judged and cannot hide."
+      },
+      "changes": null,
+      "role": "eschatological_event"
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Heavenly Record",
+      "location": "Before the Glory of the Great One",
+      "action": "Angels make mention of the righteous' memorial and write their names before the Great One.",
+      "actorsInvolved": [
+        "Angels",
+        "The Great One",
+        "The Righteous"
+      ]
+    },
+    {
+      "title": "Promise of Glorification",
+      "location": "Heaven",
+      "action": "The righteous are promised that their suffering will end, they will shine like the light of heaven, the gates of heaven will open for them, and they will have great joy like the angels.",
+      "actorsInvolved": [
+        "The Righteous",
+        "Angels"
+      ]
+    },
+    {
+      "title": "Warning against Association with Sinners",
+      "location": "Earth (implied)",
+      "action": "The righteous are warned not to fear the prosperity of sinners, not to be their companions, and to stay away from their violence, because the destiny of the righteous is to be companions of the host of heaven.",
+      "actorsInvolved": [
+        "The Righteous",
+        "Sinners",
+        "Host of Heaven"
+      ]
+    },
+    {
+      "title": "The Unseen Record of Sin",
+      "location": "Everywhere (implied)",
+      "action": "Sinners are addressed, who believe their sins are not recorded. They are told that all their sins are written down daily, and that light and darkness (day and night) witness all their sins.",
+      "actorsInvolved": [
+        "Sinners"
+      ]
+    },
+    {
+      "title": "The Falsehood of Sinners",
+      "location": "Earth (implied)",
+      "action": "Sinners are described as falsifying the word of truth, lying, creating great fabrications, and writing their own false books while praising their idols.",
+      "actorsInvolved": [
+        "Sinners"
+      ]
+    },
+    {
+      "title": "The True Scribes",
+      "location": "Earth (implied)",
+      "action": "In contrast to the sinners, the righteous are instructed to write down all the speaker's words truthfully in their own languages, without altering or diminishing them.",
+      "actorsInvolved": [
+        "The Righteous"
+      ]
+    },
+    {
+      "title": "The Gift of Wisdom",
+      "location": "Earth (implied)",
+      "action": "Books of joy, righteousness, and wisdom are given to the righteous and the wise. They believe in them, rejoice, and are rewarded for learning the paths of righteousness from them.",
+      "actorsInvolved": [
+        "The Righteous",
+        "The Wise"
+      ]
+    }
+  ],
   "blocking": {
     "anchors": [],
     "paths": []
   }
 }
+```

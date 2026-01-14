@@ -1,26 +1,7 @@
-{
-  "syntax": {
-    "parses": [
-      {
-        "id": "S3_1",
-        "structure_type": "Verbal Phrase",
-        "bracket_notation": "[VP [V ነገርዎሙ(t5)] [IOBJ ለሎሙ(t6)] [ADJUNCT ኅቡረ(t6)]]",
-        "dependencies": [
-          "t5->t6 (indirect_object)",
-          "t5->t6 (adjunct)"
-        ],
-        "notes": "The verb 'ነገርዎሙ' (I told them) in t5 is directed at 'ለሎሙ' (to all of them) in t6, modified by the adverb 'ኅቡረ' (together)."
-      },
-      {
-        "id": "S3_2",
-        "structure_type": "Verbal Phrase",
-        "bracket_notation": "[S [NP [N ፍርህት(t7)], [N ረዓድ(t8)]] [VP [V ነሥኦሙ(t8)]]]",
-        "dependencies": [
-          "t7->t8 (subject)",
-          "t8->t8 (subject)"
-        ],
-        "notes": "'Fear' (t7) and 'trembling' (t8) act as a compound subject for the verb 'ነሥኦሙ' (seized them) in t8."
-      }
-    ]
-  }
-}
+An analysis of the provided tokens reveals a consistent pattern of a numerical identifier token (e.g., `t1`: "13:1") followed by a large text block token (e.g., `t2`: "ወሄኖክ፡..."). The primary syntactic ambiguity lies in the relationship between these identifier-text pairs and the relationship between the text blocks themselves. The `TOKEN FIDELITY` rule is critical, as it prohibits breaking down the large text blocks, forcing the analysis to occur at the inter-token level. The text blocks (t2, t4, t6, etc.) often begin with the conjunction `ወ-` ("and"), indicating a coordinate or paratactic relationship between them.
+
+The analysis enumerates four distinct, syntactically valid parses that capture the full structure space without resorting to semantic disambiguation.
+
+1.  **Adverbial Parse**: This parse interprets each numerical identifier as an adverbial modifier specifying the location of the following text block. The text blocks, as clausal units, are the heads of these constructions and are linked to each other in a paratactic chain.
+2.  **Appositional Parse (Identifier-Head)**: This parse treats each identifier-text pair as a single nominal constituent where the numerical identifier is the head, and the text block is in apposition to it, elaborating on its content. The entire text is thus a paratactic sequence of these nominal phrases.
+3.  **Appositional Parse (Text-Head)**: This parse also treats each pair as a single constituent, but

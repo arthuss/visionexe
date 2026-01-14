@@ -1,0 +1,61 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S_Construct (P1, P4, P7, P10, P13, P16)",
+      "plausibility": "low",
+      "reasoning": "This hypothesis posits that the verse number is a noun in the construct state and the following sentence is its genitive complement. This is syntactically and historically untenable. First, in Ge'ez, a full, independent sentence cannot function as a genitive complement to a noun. Second, the numeral itself shows no morphological marking of the construct state. Third, and most decisively, the chapter and verse numbering system (e.g., '26:1') is a modern editorial convention imposed on the text for reference. It was not part of the original composition or the early manuscript tradition. Therefore, analyzing it as an integral grammatical component of the sentence is anachronistic.",
+      "parallels": [
+        {
+          "ref": "unattested",
+          "note": "There are no attested examples in Classical Ge'ez where a numeral functions as a construct-state head taking a full sentence as its genitive complement."
+        }
+      ],
+      "context_invariance": "unstable",
+      "reasoning_context_invariance": "The hypothesis posits a grammatical dependency (genitive) that does not exist. Removing the verse number leaves a perfectly complete and independent sentence, demonstrating that the sentence's structure is not dependent on the number. The hypothesis is therefore not stable when context (the number) is removed.",
+      "back_translation_check": "fail",
+      "reasoning_back_translation": "This analysis would require a translation like \"Verse 26:1 of 'And from there I went...'\". This introduces the concept of possession or specification ('of') which is not present in the source, which simply juxtaposes a label and a text."
+    },
+    {
+      "hypothesis_ref": "S_Apposition (P2, P5, P8, P11, P14, P17)",
+      "plausibility": "low",
+      "reasoning": "This hypothesis suggests the verse number and the verse text are in apposition. While semantically more plausible than the construct-chain analysis (i.e., 'verse 26:1, namely, ...'), it suffers from the same fundamental flaws. Syntactically, treating a full sentence as an appositive to a numeral is not a standard construction in Ge'ez. Historically, the verse number is an external editorial addition, not a co-constituent of a noun phrase within the original text's grammar. The relationship is paratextual, not syntactic.",
+      "parallels": [
+        {
+          "ref": "unattested",
+          "note": "A structure where a numeral is in a direct appositional relationship with a full sentence is not a standard attested feature of Ge'ez syntax."
+        }
+      ],
+      "context_invariance": "unstable",
+      "reasoning_context_invariance": "Similar to the construct hypothesis, this analysis posits a syntactic relationship (apposition) that is not inherent to the text. The sentence is grammatically independent of the numerical label, so the proposed appositional structure is not stable.",
+      "back_translation_check": "fail",
+      "reasoning_back_translation": "A translation reflecting apposition would be \"Verse 26:1, that is, 'And from there I went...'\". This adds an explanatory concept ('that is', 'namely') which is an interpretation of the juxtaposition, not an explicit element in the source text."
+    },
+    {
+      "hypothesis_ref": "S_LabeledSentence (P3, P6, P9, P12, P15, P18)",
+      "plausibility": "high",
+      "reasoning": "This hypothesis correctly identifies the relationship as metatextual or paratextual. The verse text is a complete sentence (S), and the verse number is an adjunct or label that sits outside its core grammatical structure. This aligns perfectly with the historical reality of textual transmission and modern editorial practice. The verse numbers were added to the manuscript tradition and printed editions centuries after the text was composed, solely for the purpose of citation and reference. They are not grammatically integrated into the sentences they identify.",
+      "parallels": [
+        {
+          "ref": "A. Dillmann, Liber Henoch Aethiopice (Leipzig: Vogel, 1851)",
+          "note": "The practice of adding verse numbers as marginal or preceding labels, external to the sentence's grammar, is standard in critical editions of Ge'ez texts. Dillmann's foundational edition of 1 Enoch, which established this versification, treats the numbers as referential labels, not as grammatical parts of the Ge'ez sentences. This editorial practice is an attested parallel for this type of analysis."
+        },
+        {
+          "ref": "Ethiopic Manuscript Tradition (General)",
+          "note": "In Ethiopic manuscripts, rubrics (headings or instructions written in red ink) often precede sections of text without being grammatically integrated into the following sentence. This provides a native parallel for the concept of a metatextual label preceding a block of text."
+        }
+      ],
+      "context_invariance": "stable",
+      "reasoning_context_invariance": "This analysis remains stable regardless of context. The sentence 'ወእምህየ፡​ሖርኩ...' is a complete grammatical unit on its own. The presence or absence of the '26:1' label does not alter the internal syntax or meaning of the sentence whatsoever.",
+      "back_translation_check": "pass",
+      "reasoning_back_translation": "This analysis leads to a direct translation: \"26:1 And from there I went...\". The number is rendered as a label, and the sentence is translated directly, without adding any un-sourced grammatical or semantic concepts."
+    }
+  ],
+  "decision_log": "The evaluation considered three hypotheses for the relationship between verse numbers and verse text: Genitive Construct, Apposition, and Labeled Sentence. The Genitive Construct (S_Construct) and Apposition (S_Apposition) hypotheses were rejected. Both attempt to force a syntactic relationship (possession or equivalence) onto elements that are historically and functionally distinct. They are anachronistic, as verse numbers are later editorial additions, and they propose syntactic structures that are unattested in Ge'ez. The Labeled Sentence hypothesis (S_LabeledSentence) is strongly preferred. It correctly analyzes the verse number as a metatextual label, external to the grammar of the sentence itself. This model is consistent with the history of the text, standard editorial practice for ancient literature, and provides the most parsimonious and accurate account of the structure. It is the only hypothesis that passes both the context invariance and back-translation checks.",
+  "final_decision": {
+    "hypothesis_ref": "S_LabeledSentence (P3, P6, P9, P12, P15, P18)",
+    "translation_id": "T1",
+    "confidence": "high"
+  }
+}
+```

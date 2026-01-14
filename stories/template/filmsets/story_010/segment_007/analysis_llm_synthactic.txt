@@ -1,25 +1,20 @@
+An enumeration of all valid syntactic parses for the provided Ge'ez text, following the specified scientific rules.
+
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "S7-1",
-        "structure_type": "Noun Phrase",
-        "bracket_notation": "[NP [N t1] [NUM t2]]",
+        "id": "p1_t1_t2",
+        "structure_type": "Sentence",
+        "bracket_notation": "[S [REF t1] [S [AdvP ወአሜሃ] [NP (subj) [NP (coord) [ADJ ልዑል] [ADJ ዓቢይ]] [ADJ ወቅዱስ]] [VP (coord) [VP [V ተናገረ]] [VP [V ወፈነዎ] [NP (obj) ለአርስየላልዩር] [PP (dir) [P ኀበ] [NP [N ወልደ] [Gen ላሜክ]]]] [VP [V ወይቤሎ]]]]]",
         "dependencies": [
-          "t1 -> t2 (num_mod)"
-        ],
-        "notes": "Analysis of 'Chapter 10'"
-      },
-      {
-        "id": "S7-2",
-        "structure_type": "Noun Phrase",
-        "bracket_notation": "[NP [N t3] [NUM t4]]",
-        "dependencies": [
-          "t3 -> t4 (num_mod)"
-        ],
-        "notes": "Analysis of 'Segment 7'"
-      }
-    ],
-    "notes": "Syntactic analysis for tokens t5, t6, t7, t8, t9, t10, t11 is not possible due to missing morphological information."
-  }
-}
+          "t2->t1 (reference)",
+          "ተናገረ->ወአሜሃ (adv-mod)",
+          "ተናገረ->ልዑል (subject)",
+          "ልዑል->ዓቢይ (coordinate)",
+          "ልዑል->ወቅዱስ (coordinate)",
+          "ተናገረ->ወፈነዎ (coordinate)",
+          "ወፈነዎ->ለአርስየላልዩር (object)",
+          "ወፈነዎ->ኀበ (adv-mod)",
+          "ኀበ->ወልደ (obj

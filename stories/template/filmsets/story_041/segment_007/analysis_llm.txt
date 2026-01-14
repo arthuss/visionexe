@@ -2,44 +2,244 @@
 {
   "actors": [
     {
-      "name": "ተቶሙ",
-      "visualTraits": null,
+      "name": "Enoch",
+      "visualTraits": {
+        "description": "The first-person narrator of the vision, identified by the phrase 'I saw' (ርኢኩ)."
+      },
       "changes": null,
-      "role": null
+      "role": "narrator"
     },
     {
-      "name": "ዕረፍት",
-      "visualTraits": null,
+      "name": "Lord of Spirits",
+      "visualTraits": {
+        "description": "A supreme being who commands the cosmos, is the source of judgment, and before whom all beings give thanks. Referred to as 'Lord of Spirits' (እግዚአ፡ መናፍስት), 'The Lord' (እግዚእ), and 'The Judge' (መኰንን)."
+      },
       "changes": null,
-      "role": null
-    },
-    {
-      "name": "ወኢያዐርፉ",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
-    },
-    {
-      "name": "ወይሴብሑ",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
-    },
-    {
-      "name": "ሎሙ",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
+      "role": "deity"
     }
   ],
-  "props": [],
-  "environments": [],
+  "characters": [
+    {
+      "name": "Mankind",
+      "visualTraits": {
+        "description": "Humans whose deeds are weighed in balances."
+      },
+      "changes": null,
+      "role": "subject_of_judgment"
+    },
+    {
+      "name": "The elect",
+      "visualTraits": {
+        "description": "A group of righteous individuals who have specific dwellings in the heavens."
+      },
+      "changes": null,
+      "role": "righteous_group"
+    },
+    {
+      "name": "The holy",
+      "visualTraits": {
+        "description": "A group of righteous individuals who have specific resting-places in the heavens."
+      },
+      "changes": null,
+      "role": "righteous_group"
+    },
+    {
+      "name": "Sinners",
+      "visualTraits": {
+        "description": "Those who deny the name of the Lord of Spirits. They are driven away and have no place to stand. The moon's path is darkness for them."
+      },
+      "changes": null,
+      "role": "wicked_group"
+    },
+    {
+      "name": "The righteous",
+      "visualTraits": {
+        "description": "Those for whom the moon's path is a light."
+      },
+      "changes": null,
+      "role": "righteous_group"
+    },
+    {
+      "name": "Angel",
+      "visualTraits": {
+        "description": "A being who cannot hinder the Judge."
+      },
+      "changes": null,
+      "role": "celestial_being"
+    },
+    {
+      "name": "The Judge",
+      "visualTraits": {
+        "description": "A being who sees and judges all things. This is a role/title for the Lord of Spirits."
+      },
+      "changes": null,
+      "role": "adjudicator"
+    }
+  ],
+  "props": [
+    {
+      "name": "Balances",
+      "visualTraits": {
+        "description": "Scales (መዳልው) used for weighing the deeds of mankind."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Sun",
+      "visualTraits": {
+        "description": "A bright celestial body that follows a prescribed path, bringing blessing and curse. It is dynamic, moving along its orbit.",
+        "is_dynamic": true
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Moon",
+      "visualTraits": {
+        "description": "A celestial body that follows a hidden and revealed path, providing light for the righteous and darkness for sinners. It is dynamic, moving along its orbit.",
+        "is_dynamic": true
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Cloud",
+      "visualTraits": {
+        "description": "A specific cloud (or the concept of cloud) that has dwelled over the earth since before the world began."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "The Heavens",
+      "visualTraits": {
+        "description": "The celestial realm where the vision takes place, containing secrets and various storehouses."
+      },
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Secrets of the heavens",
+      "visualTraits": {
+        "description": "The hidden knowledge and mechanisms of the cosmos that Enoch is shown."
+      },
+      "changes": null,
+      "role": "visionary_space"
+    },
+    {
+      "name": "Dwellings of the elect",
+      "visualTraits": {
+        "description": "The residences (ማኅደሪሆሙ) for the chosen ones."
+      },
+      "changes": null,
+      "role": "celestial_abode"
+    },
+    {
+      "name": "Resting-places of the holy",
+      "visualTraits": {
+        "description": "The resting-places (ምስካባቲሆሙ) for the sacred ones."
+      },
+      "changes": null,
+      "role": "celestial_abode"
+    },
+    {
+      "name": "That Place",
+      "visualTraits": {
+        "description": "A recurring term (በህየ, ውእቱ መካን) for the location of the vision from which Enoch observes these secrets."
+      },
+      "changes": null,
+      "role": "observation_point"
+    },
+    {
+      "name": "Storehouses of lightning and thunder",
+      "visualTraits": {
+        "description": "Chambers (ኅብአተ) where lightning and thunder are kept."
+      },
+      "changes": null,
+      "role": "celestial_repository"
+    },
+    {
+      "name": "Storehouses of the winds",
+      "visualTraits": {
+        "description": "Chambers (ኅብአተ) from which the winds are divided and distributed."
+      },
+      "changes": null,
+      "role": "celestial_repository"
+    },
+    {
+      "name": "Storehouses of the clouds and of the dew",
+      "visualTraits": {
+        "description": "Chambers (ኅብኣተ) where clouds and dew originate."
+      },
+      "changes": null,
+      "role": "celestial_repository"
+    },
+    {
+      "name": "Storehouses of wooden beams",
+      "visualTraits": {
+        "description": "Storehouses (መዛግብተ) for wooden beams (ዕፅዋነ)."
+      },
+      "changes": null,
+      "role": "celestial_repository"
+    },
+    {
+      "name": "Storehouse of hail",
+      "visualTraits": {
+        "description": "A storehouse (መዝገበ) for hail."
+      },
+      "changes": null,
+      "role": "celestial_repository"
+    },
+    {
+      "name": "Storehouse of mist",
+      "visualTraits": {
+        "description": "A storehouse (መዝገበ) for mist."
+      },
+      "changes": null,
+      "role": "celestial_repository"
+    },
+    {
+      "name": "Storehouse of the clouds",
+      "visualTraits": {
+        "description": "A storehouse (መዝገበ) for the clouds."
+      },
+      "changes": null,
+      "role": "celestial_repository"
+    },
+    {
+      "name": "Storehouses of the sun and moon",
+      "visualTraits": {
+        "description": "Chambers (መዛግብተ) from which the sun and moon emerge and to which they return."
+      },
+      "changes": null,
+      "role": "celestial_repository"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Earth",
+      "visualTraits": {
+        "description": "The terrestrial world (ምድር) upon which winds, dew, and clouds are distributed."
+      },
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 41 Segment 7",
-      "location": null,
-      "action": null,
-      "actorsInvolved": null
+      "title": "Vision of Celestial Secrets and Judgment",
+      "location": "The Heavens",
+      "action": "Enoch witnesses the secrets of the heavens: how the kingdom is divided for judgment, how human deeds are weighed, the separate abodes for the righteous and the fate of sinners. He then sees the celestial storehouses for weather phenomena like lightning, wind, clouds, dew, hail, and mist, and observes the precise, ordained paths of the sun and moon, all operating under the ultimate authority and judgment of the Lord of Spirits.",
+      "actorsInvolved": [
+        "Enoch",
+        "Lord of Spirits"
+      ]
     }
   ],
   "blocking": {

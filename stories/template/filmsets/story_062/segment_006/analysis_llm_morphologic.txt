@@ -1,0 +1,11 @@
+An automated Level B Morphological Analysis has been performed on the provided Ge'ez text in accordance with the specified scientific rules. The analysis adheres to the following principles:
+
+1.  **Graphematic Fidelity**: The `surface` of each token is an exact representation from the source text, with no normalization or modification. Punctuation marks attached to words (`።`, `፧`) are retained in the surface form.
+2.  **Tokenization**: The input text, provided as verse-level tokens, has been segmented into word-level tokens based on the Ethiopic word separator (`፡`) and whitespace. Each resulting word-token has been assigned a unique ID and its character span within the complete source text has been calculated.
+3.  **Morphemic Segmentation**: Each token is broken down into its constituent morphemes (prefixes, suffixes, clitics) within the `segmentation` and `analysis.affixes` fields, without altering the token's surface integrity.
+4.  **Lexical Analysis**: Each token is assigned one or more possible interpretations (`options`). Each option includes a POS tag from the `GEZ-POS-1` tagset, a consonantal root (or `null` for function words), lemma, grammatical features, and a gloss.
+5.  **Evidence and Confidence**: Each analytical option is supported by a confidence level and evidence, noting its status in standard Ge'ez lexicons.
+
+The resulting JSON object provides a comprehensive, multi-layered analysis for each word in the text, suitable for rigorous computational and linguistic research.
+
+```

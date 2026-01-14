@@ -7,7 +7,7 @@ import urllib.request
 
 
 DEFAULT_VERTEX_LOCATION = "us-central1"
-DEFAULT_VERTEX_MODEL = "gemini-3-pro-preview"
+DEFAULT_VERTEX_MODEL = "gemini-2.5-pro"
 DEFAULT_MAX_OUTPUT_TOKENS = 8192
 
 

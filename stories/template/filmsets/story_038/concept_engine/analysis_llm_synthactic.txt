@@ -1,0 +1,16 @@
+An enumeration of all valid syntactic parses for the provided Ge'ez text, following the specified scientific rules.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1",
+        "structure_type": "Sentence",
+        "bracket_notation": "[S [NP.topic [N t1]] [S.pred [S [S.advcl [Conj ሶበ] [S [V ያስተርኢ] [NP.obj [N.const ማኅበረ] [Gen ጻድቃን]]]] [S.coord [S [V ይትኴነኑ] [NP.sbj ኃጥኣን] [PP.advl [P በ] [NP ኃጢአቶሙ]]] [Conj ወ] [S [V ይትሐወኩ] [PP.advl [P እም] [NP.const [N ገጸ] [Gen የብስ]]]]]]]]",
+        "dependencies": [
+          "t2->t1 (predicate)",
+          "ምሳሌ፡​ቀዳሚ፡->t2 (topic)",
+          "ሶበ፡​ያስተርኢ፡​ማኅበረ፡​ጻድቃን፡->ይትኴነኑ (advcl:temporal)",
+          "ሶበ፡​ያስተርኢ፡​ማኅበረ፡​ጻድቃን፡->ይትሐወኩ (advcl:temporal)",
+          "ያስተርኢ->ሶበ (head)",

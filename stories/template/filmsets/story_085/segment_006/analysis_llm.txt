@@ -1,10 +1,260 @@
+```json
 {
-  "actors": [],
+  "actors": [
+    {
+      "name": "Enoch",
+      "visualTraits": {
+        "description": "The narrator of the dream, father of Methuselah and husband of Edna."
+      },
+      "changes": null,
+      "role": "actor"
+    },
+    {
+      "name": "Methuselah",
+      "visualTraits": {
+        "description": "The son of Enoch, to whom the dream is recounted."
+      },
+      "changes": null,
+      "role": "actor"
+    },
+    {
+      "name": "Edna",
+      "visualTraits": {
+        "description": "The mother of Methuselah and wife of Enoch."
+      },
+      "changes": null,
+      "role": "actor"
+    }
+  ],
+  "characters": [
+    {
+      "name": "First White Cow",
+      "visualTraits": {
+        "description": "A white cow (ላህም፡ ፀዓዳ) that comes forth from the earth. Referred to as the 'first cow' (ላህም፡ቀዳማዊ)."
+      },
+      "changes": null,
+      "role": "character"
+    },
+    {
+      "name": "First Female Heifer",
+      "visualTraits": {
+        "description": "A female heifer (ጣዕዋ፡¡ንስቲያዊት) that appears after the First White Cow. Referred to as the 'first female calf' (እጒልት፡ ንስቲያይት፡ ቀዳሚ)."
+      },
+      "changes": null,
+      "role": "character"
+    },
+    {
+      "name": "Black Bull-Calf",
+      "visualTraits": {
+        "description": "A black bull-calf (ጣዕዋ፡ ጸሊመ) that appears with the Red Bull-Calf."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Calf",
+          "description": "Appears as a bull-calf."
+        },
+        {
+          "phase": "Phase 2: Grown",
+          "description": "Grows up (ልህቀ)."
+        }
+      ],
+      "role": "character"
+    },
+    {
+      "name": "Red Bull-Calf",
+      "visualTraits": {
+        "description": "A red bull-calf (ጣዕዋ፡ ቀዪሐ) that appears with the Black Bull-Calf. It is gored and disappears."
+      },
+      "changes": null,
+      "role": "character"
+    },
+    {
+      "name": "Second Female Heifer",
+      "visualTraits": {
+        "description": "A female heifer (እንትኩ፡ጣዕዋ ፡¡ንስቲያይት) that appears with the grown Black Bull-Calf."
+      },
+      "changes": null,
+      "role": "character"
+    },
+    {
+      "name": "Many Bulls (like the black one)",
+      "visualTraits": {
+        "description": "Many bulls (¡ልህምተ፡ብዙኃነ) that are born from the grown Black Bull-Calf and resemble it."
+      },
+      "changes": null,
+      "role": "character"
+    },
+    {
+      "name": "The Great White Bull",
+      "visualTraits": {
+        "description": "A white bull (ላህመ፡ ፀዓዳ / ሥረ፡ ጸዓዳ) born from the First White Cow."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Bull",
+          "description": "Born as a white bull."
+        },
+        {
+          "phase": "Phase 2: Great Bull",
+          "description": "Grows up (ልህቀ) and becomes a 'great white bull' (œነ፡ሶረ፡ጸዓዳ፡ዐቢየ)."
+        }
+      ],
+      "role": "character"
+    },
+    {
+      "name": "Many Bulls and Black Heifers",
+      "visualTraits": {
+        "description": "Many bulls and black heifers (¡ልህምተ፡ብዙኃነ፡ ወጐልተ፡ጸሊማነ) born from the First White Cow."
+      },
+      "changes": null,
+      "role": "character"
+    },
+    {
+      "name": "Many White Bulls (like the great one)",
+      "visualTraits": {
+        "description": "Many white bulls (¡ልህምት፡ ብዙኃ፡ጸዓዳ) born from The Great White Bull, which they resemble."
+      },
+      "changes": null,
+      "role": "character"
+    }
+  ],
   "props": [],
-  "environments": [],
-  "scenes": [],
+  "places": [],
+  "locations": [
+    {
+      "name": "The Earth",
+      "visualTraits": {
+        "description": "The ground or land (ምድር) from which the first cow emerges and over which a pursuit occurs."
+      },
+      "changes": null,
+      "role": "location"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Dream Vision",
+      "visualTraits": {
+        "description": "The setting of the animal narrative, described as a dream (ሕልመ) and a vision of sleep (Åራእየ፡ምስÃቢየ)."
+      },
+      "changes": null,
+      "role": "environment"
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "Enoch's Address to Methuselah",
+      "location": "unspecified",
+      "action": "Enoch tells his son Methuselah to listen to the account of a dream he saw.",
+      "actorsInvolved": [
+        "Enoch",
+        "Methuselah"
+      ]
+    },
+    {
+      "title": "The Vision Begins: The First Cattle",
+      "location": "Dream Vision",
+      "action": "A white cow emerges from the earth, followed by a female heifer and two bull-calves, one black and one red.",
+      "actorsInvolved": [
+        "First White Cow",
+        "First Female Heifer",
+        "Black Bull-Calf",
+        "Red Bull-Calf"
+      ]
+    },
+    {
+      "title": "The First Conflict",
+      "location": "Dream Vision",
+      "action": "The black bull-calf gores the red one and pursues it, after which the red bull-calf is no longer seen.",
+      "actorsInvolved": [
+        "Black Bull-Calf",
+        "Red Bull-Calf"
+      ]
+    },
+    {
+      "title": "The Black Bull's Progeny",
+      "location": "Dream Vision",
+      "action": "The black bull-calf grows up and, with another heifer, sires many bulls that resemble it and follow it.",
+      "actorsInvolved": [
+        "Black Bull-Calf",
+        "Second Female Heifer",
+        "Many Bulls (like the black one)"
+      ]
+    },
+    {
+      "title": "The Heifer's Lament",
+      "location": "Dream Vision",
+      "action": "The first heifer searches for the lost red bull-calf, lamenting, until the first cow comes and quiets her.",
+      "actorsInvolved": [
+        "First Female Heifer",
+        "First White Cow"
+      ]
+    },
+    {
+      "title": "The White Lineage Begins",
+      "location": "Dream Vision",
+      "action": "The first cow gives birth to another white bull, and then to many other bulls and black heifers.",
+      "actorsInvolved": [
+        "First White Cow",
+        "The Great White Bull",
+        "Many Bulls and Black Heifers"
+      ]
+    },
+    {
+      "title": "The Great White Bull's Progeny",
+      "location": "Dream Vision",
+      "action": "The white bull grows into a great white bull and fathers many white bulls that resemble him, which then continue to multiply.",
+      "actorsInvolved": [
+        "The Great White Bull",
+        "Many White Bulls (like the great one)"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "A1",
+        "description": "The Earth (ምድር)"
+      },
+      {
+        "id": "A2",
+        "description": "Position of the First Female Heifer during her lament"
+      }
+    ],
+    "paths": [
+      {
+        "actor": "First White Cow",
+        "start_anchor": "A1",
+        "end_anchor": "A1",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Emerges 'from the earth' (እምድር)."
+      },
+      {
+        "actor": "Black Bull-Calf",
+        "start_anchor": "A1",
+        "end_anchor": "A1",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Pursues (ተለዎ) the Red Bull-Calf 'over the earth' (ዲÅ፡ ምድር)."
+      },
+      {
+        "actor": "First Female Heifer",
+        "start_anchor": "A1",
+        "end_anchor": "A1",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Moves around searching (ኀሠሠቶ) for the Red Bull-Calf."
+      },
+      {
+        "actor": "First White Cow",
+        "start_anchor": "A1",
+        "end_anchor": "A2",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Comes to (መጽ¡...ኀቤሃ) the First Female Heifer to quiet her."
+      }
+    ]
   }
 }
+```

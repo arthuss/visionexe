@@ -2,83 +2,243 @@
 {
   "actors": [
     {
-      "name": "ወቃለ",
-      "visualTraits": null,
+      "name": "Enoch",
+      "visualTraits": {
+        "description": "The first-person narrator of the vision. He sees, hears, asks questions, and writes down what he experiences."
+      },
       "changes": null,
-      "role": null
+      "role": "narrator"
     },
     {
-      "name": "ራብዐ",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
-    },
-    {
-      "name": "ሰማዕኩ",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
-    },
-    {
-      "name": "ሰይጣናት",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
-    },
-    {
-      "name": "ወኢየኀድጎሙ",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
-    },
-    {
-      "name": "እግዚ",
-      "visualTraits": null,
+      "name": "Lord of Spirits",
+      "visualTraits": {
+        "description": "A supreme divine being, enthroned in glory, before whom countless multitudes stand. He is the object of praise and the source of authority."
+      },
       "changes": null,
       "role": "deity"
     },
     {
-      "name": "መንፈሳት",
-      "visualTraits": null,
+      "name": "Angel of Peace",
+      "visualTraits": {
+        "description": "An angelic guide who accompanies the narrator, showing him hidden things and explaining the identities and roles of the other angels."
+      },
       "changes": null,
-      "role": "spirit"
+      "role": "guide"
     },
     {
-      "name": "የኀድሩ",
-      "visualTraits": null,
+      "name": "The Elect One",
+      "visualTraits": {
+        "description": "A singular, chosen figure who is blessed by the second of the four angelic voices."
+      },
       "changes": null,
-      "role": null
+      "role": "messianic_figure"
     },
     {
-      "name": "የብስ",
-      "visualTraits": null,
+      "name": "Michael",
+      "visualTraits": {
+        "description": "The first of the four great angels. He is described as 'merciful and long-suffering'."
+      },
       "changes": null,
-      "role": null
+      "role": "archangel"
+    },
+    {
+      "name": "Raphael",
+      "visualTraits": {
+        "description": "The second of the four great angels. He is set 'over all the diseases and all the wounds of the children of men'."
+      },
+      "changes": null,
+      "role": "archangel"
+    },
+    {
+      "name": "Gabriel",
+      "visualTraits": {
+        "description": "The third of the four great angels. He is set 'over all the powers'."
+      },
+      "changes": null,
+      "role": "archangel"
+    },
+    {
+      "name": "Phanuel",
+      "visualTraits": {
+        "description": "The fourth of the four great angels. He is set 'over the repentance unto hope of those who inherit eternal life'."
+      },
+      "changes": null,
+      "role": "archangel"
+    },
+    {
+      "name": "God the Most High",
+      "visualTraits": {
+        "description": "A title for the supreme deity, identified as the one to whom the four great angels belong."
+      },
+      "changes": null,
+      "role": "deity"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Innumerable Multitude",
+      "visualTraits": {
+        "description": "A countless host ('thousands of thousands and ten thousand times ten thousand') who stand before the Lord of Spirits."
+      },
+      "changes": null,
+      "role": "celestial_host"
+    },
+    {
+      "name": "Four Faces",
+      "visualTraits": {
+        "description": "Four distinct beings seen on the four sides of the Lord of Spirits. They are later identified as the archangels Michael, Raphael, Gabriel, and Phanuel."
+      },
+      "changes": null,
+      "role": "celestial_being"
+    },
+    {
+      "name": "The Elect Ones",
+      "visualTraits": {
+        "description": "A group of chosen ones who are 'preserved/hidden' by the Lord of Spirits and are blessed by the second angelic voice."
+      },
+      "changes": null,
+      "role": "righteous_group"
+    },
+    {
+      "name": "Dwellers on the dry ground",
+      "visualTraits": {
+        "description": "Humans living on Earth, for whom the third angelic voice intercedes and whom the satans seek to accuse."
+      },
+      "changes": null,
+      "role": "humanity"
+    },
+    {
+      "name": "Satans",
+      "visualTraits": {
+        "description": "A group of accusers who are driven away by the fourth angelic voice, preventing them from approaching the Lord of Spirits to accuse the dwellers on Earth."
+      },
+      "changes": null,
+      "role": "antagonist"
+    },
+    {
+      "name": "Children of men",
+      "visualTraits": {
+        "description": "Humanity, whose diseases and wounds are under the purview of the angel Raphael."
+      },
+      "changes": null,
+      "role": "humanity"
     }
   ],
   "props": [],
-  "environments": [],
+  "places": [],
+  "locations": [
+    {
+      "name": "Before the Glory of the Lord of Spirits",
+      "visualTraits": {
+        "description": "The central area of the vision, a position of reverence and proximity to the divine presence."
+      },
+      "changes": null,
+      "role": "celestial_location"
+    },
+    {
+      "name": "The Four Sides of the Lord of Spirits",
+      "visualTraits": {
+        "description": "The specific positions occupied by the Four Faces, surrounding the central presence of the Lord of Spirits."
+      },
+      "changes": null,
+      "role": "celestial_location"
+    },
+    {
+      "name": "Dry Ground",
+      "visualTraits": {
+        "description": "The realm of mortals (Earth), contrasted with the heavenly scene. It is the place where the 'dwellers' reside."
+      },
+      "changes": null,
+      "role": "terrestrial_realm"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Heavenly Court",
+      "visualTraits": {
+        "description": "A celestial, non-physical environment defined by the 'Glory of the Lord of Spirits' and populated by a countless angelic host."
+      },
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 40 Segment 7",
-      "location": null,
-      "action": null,
+      "title": "Vision of the Four Angels before the Lord of Spirits",
+      "location": "Heavenly Court",
+      "action": "The narrator witnesses a countless multitude before the Lord of Spirits. He sees four glorious beings on the four sides of the Lord, and hears their four distinct voices: the first blesses the Lord of Spirits, the second blesses the Elect One and the Elect Ones, the third intercedes for those on Earth, and the fourth repels the satans. The narrator asks his guide, the Angel of Peace, about their identities, and is told they are the archangels Michael, Raphael, Gabriel, and Phanuel.",
       "actorsInvolved": [
-        "ወቃለ",
-        "ራብዐ",
-        "ሰማዕኩ",
-        "ሰይጣናት",
-        "ወኢየኀድጎሙ",
-        "እግዚ",
-        "መንፈሳት",
-        "የኀድሩ",
-        "የብስ"
+        "Enoch",
+        "Lord of Spirits",
+        "Angel of Peace",
+        "The Elect One",
+        "Michael",
+        "Raphael",
+        "Gabriel",
+        "Phanuel",
+        "God the Most High",
+        "Innumerable Multitude",
+        "Four Faces",
+        "The Elect Ones",
+        "Dwellers on the dry ground",
+        "Satans"
       ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "center_presence",
+        "description": "The central point of the vision, defined as 'Before the Glory of the Lord of Spirits'."
+      },
+      {
+        "id": "four_sides",
+        "description": "The four cardinal positions surrounding the 'center_presence', occupied by the Four Faces."
+      },
+      {
+        "id": "observer_pos",
+        "description": "The narrator's point of view, from which he observes the scene."
+      },
+      {
+        "id": "periphery",
+        "description": "The outer boundary of the holy space, from which the satans attempt to enter."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Innumerable Multitude",
+        "start_anchor": "center_presence",
+        "end_anchor": "center_presence",
+        "motion": "stand",
+        "duration_sec": null,
+        "notes": "The multitude is in a static formation, standing before the Lord of Spirits."
+      },
+      {
+        "actor": "Four Faces",
+        "start_anchor": "four_sides",
+        "end_anchor": "four_sides",
+        "motion": "stand",
+        "duration_sec": null,
+        "notes": "The four beings are in a static formation, standing on the four sides of the Lord of Spirits."
+      },
+      {
+        "actor": "Angel of Peace",
+        "start_anchor": "observer_pos",
+        "end_anchor": "observer_pos",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The text states the angel 'walks with' the narrator, implying continuous movement and accompaniment rather than a specific A-to-B path in this scene."
+      },
+      {
+        "actor": "Satans",
+        "start_anchor": "periphery",
+        "end_anchor": "periphery",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "The fourth voice 'drives them away' and does not let them 'enter' to accuse, implying a repelling force that pushes them back from the 'center_presence' toward the 'periphery'."
+      }
+    ]
   }
 }
 ```

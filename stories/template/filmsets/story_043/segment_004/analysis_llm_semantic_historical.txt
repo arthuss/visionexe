@@ -1,0 +1,38 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1 (P2, P4, P6, P8)",
+      "plausibility": "moderate",
+      "reasoning": "This hypothesis posits that the verse text is in apposition to the verse number. While the premise of a direct syntactic link is anachronistic (verse numbers are a modern editorial apparatus not present in the original manuscripts), this analysis is the more plausible of the two options. Apposition correctly models the relationship between a label (the number) and its content (the text), functioning as a specification (e.g., 'Verse 1, *namely*, ...'). This is a common discourse structure and is grammatically more acceptable than a genitive analysis, which would require a finite clause to act as a nominal modifier.",
+      "parallels": [
+        {
+          "ref": "Scribal Practice",
+          "note": "This specific structure (modern numeral + ancient text) is unattested in original Ge'ez manuscripts (e.g., Ṭānāsee 9, Kebrān 95), where section numbering, if present, is paratextual (in the margin) and not syntactically integrated into the sentence. The analysis treats a modern editorial feature as an ancient syntactic one."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S2 (P1, P3, P5, P7)",
+      "plausibility": "low",
+      "reasoning": "This hypothesis posits a genitive relationship, with the verse text modifying the verse number. This is syntactically highly improbable in Classical Ethiopic (Ge'ez). A full, finite clause (like 'ወርኢኩ... / and I saw...') cannot typically function as a direct genitive modifier of a noun in a construct chain. Such subordination would normally require a relative pronoun (e.g., 'ዘ- / za-'). The proposed structure violates standard Ge'ez grammar.",
+      "parallels": [
+        {
+          "ref": "Ge'ez Grammar (Dillmann 1907, §167)",
+          "note": "The formation of the genitive relationship does not support a finite clause as the 'rectum' (the second, modifying element). This structure is unattested."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "fail"
+    }
+  ],
+  "decision_log": "The evaluation assesses two competing hypotheses for the relationship between modern verse numbers and the subsequent Ge'ez text: Genitive (S2) vs. Apposition (S1).\n\n1.  **Historical & Scribal Context**: The primary finding is that this syntactic question is anachronistic. Verse numbers in the 'CHAPTER:VERSE' format are a modern editorial convention, absent from the original Ge'ez manuscript tradition of 1 Enoch. In manuscripts, section breaks are marked by punctuation or, rarely, by marginal notations that are not syntactically part of the text. Therefore, any analysis that integrates the verse number into the sentence grammar is fundamentally artificial.\n\n2.  **Grammatical Evaluation**: Despite the artificial premise, the hypotheses are evaluated on grammatical grounds. The **Genitive Hypothesis (S2)** is syntactically untenable. It requires a full, finite clause to act as a genitive modifier, a construction not supported by Ge'ez grammar. This would be equivalent to an ungrammatical English phrase like 'the verse *of* I saw a star'. The **Apposition Hypothesis (S1)** is grammatically more plausible. Apposition is a looser relationship that can link a label or topic (the verse number) to its specification or content (the verse text). This accurately reflects the function of the verse number, even if it is an editorial addition.\n\n3.  **Conclusion**: The Apposition hypothesis (S1) is preferred as the 'least wrong' analysis. It provides a better grammatical and functional model for the relationship between a label and its content, whereas the Genitive hypothesis (S2) proposes a syntactically anomalous structure. The overall confidence remains limited by the artificial nature of the parsing problem itself.",
+  "final_decision": {
+    "hypothesis_ref": "S1 (P2, P4, P6, P8)",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}
+```

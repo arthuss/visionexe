@@ -1,22 +1,14 @@
+An analysis of the provided JSON reveals that the text is structured as pairs of tokens, where one token is a verse number (e.g., `t1: "12:1"`) and the subsequent token is the text of that verse (e.g., `t2: "ወእምቅድመ፡​..."`). This labeling structure is syntactically ambiguous and can be parsed in at least two valid ways according to the rules of scientific analysis, which require enumerating all possibilities without semantic preference.
+
+1.  **Construct Chain (Nominal Chain):** The verse number can be interpreted as the head noun (nomen regens) in a construct state, with the verse text functioning as the genitive dependent (nomen rectum). This implies a relationship of possession or specification, akin to "the text *of* 12:1". This is a common functional extension of the genitive construction.
+
+2.  **Apposition:** The verse number and the verse text can be seen as two nominal elements placed side-by-side, where the second element (`t2`) renames or specifies the first (`t1`). The relationship is one of equivalence: "12:1, *that is*, the following text...".
+
+Both interpretations are syntactically plausible. Therefore, to adhere to the principle of "NO AMBIGUITY REDUCTION," the full structure space must include both parses for each verse-text pair.
+
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "S2-P1",
-        "structure_type": "Nominal Phrase",
-        "bracket_notation": "[NP [CONJ ወ] [NP [N t5] [POSS -ኡ]] [PP [PREP ምስለ] [NP ትጉሃን]]]",
-        "dependencies": [
-          "t5->(ትጉሃን) (comitative)"
-        ],
-        "notes": "Phrase 1: 'And his work was with the Watchers.'"
-      },
-      {
-        "id": "S2-P2",
-        "structure_type": "Prepositional Phrase",
-        "bracket_notation": "[PP [CONJ ወ] [PREP ምስለ] [NP ቅዱሳን] [NP መዋዕለ]]",
-        "dependencies": [],
-        "notes": "Phrase 2: 'and with the holy ones his days.'"
-      }
-    ]
-  }
-}
+        "

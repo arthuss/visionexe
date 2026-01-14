@@ -1,56 +1,136 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [
+  "actors": [
     {
-      "name": "ወእምሐቲ",
-      "visualTraits": null,
+      "name": "Narrator (I)",
+      "visualTraits": "First-person observer, traveler.",
       "changes": null,
-      "role": "environment"
+      "role": "protagonist"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Winds",
+      "visualTraits": "Invisible forces emerging from celestial gates. Can be gentle or violent. They carry meteorological phenomena.",
+      "changes": null,
+      "role": "environmental_force"
+    }
+  ],
+  "props": [
+    {
+      "name": "Gates of Heaven",
+      "visualTraits": "Three open portals located in the heaven. One releases gentle winds, while the other two release forceful winds.",
+      "changes": null,
+      "role": "scene_prop"
     },
     {
-      "name": "ምድር",
-      "visualTraits": null,
+      "name": "Cold",
+      "visualTraits": "A meteorological phenomenon that emerges when the winds blow.",
       "changes": null,
-      "role": "environment"
+      "role": "scene_prop"
+    },
+    {
+      "name": "Hail",
+      "visualTraits": "A meteorological phenomenon that emerges when the winds blow.",
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Frost",
+      "visualTraits": "A meteorological phenomenon that emerges when the winds blow.",
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Dew",
+      "visualTraits": "A meteorological phenomenon that emerges when the winds blow.",
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Rain",
+      "visualTraits": "A meteorological phenomenon that emerges when the winds blow.",
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "Ends of the Earth",
+      "visualTraits": "A remote, vast region in the east where celestial wonders are visible.",
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "Heaven",
+      "visualTraits": "The celestial realm where the Gates are located.",
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "Earth",
+      "visualTraits": "The terrestrial world that receives the effects of the winds.",
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "environments": [
+    {
+      "name": "East",
+      "visualTraits": "A cardinal direction indicating the location of the Ends of the Earth and the direction the winds blow.",
+      "changes": null,
+      "role": "directional_descriptor"
+    }
+  ],
+  "geo_environments": [
+    {
+      "name": "Atmospheric_IO_Gates",
+      "visualTraits": "A cosmological location at the eastern ends of the earth containing three open gates in the sky from which winds and weather phenomena emerge.",
+      "changes": null,
+      "role": "cosmological_feature"
     }
   ],
   "scenes": [
     {
-      "title": "Verse 1",
-      "location": "ወእምሐቲ",
-      "action": "unknown",
-      "actorsInvolved": []
+      "title": "Journey to the Eastern Edge",
+      "location": "Ends of the Earth",
+      "action": "The narrator travels towards the east to the ends of the earth and beholds a great and glorious wonder.",
+      "actorsInvolved": [
+        "Narrator (I)"
+      ]
     },
     {
-      "title": "Verse 2",
-      "location": "unknown",
-      "action": "unknown",
-      "actorsInvolved": []
-    },
-    {
-      "title": "Verse 3",
-      "location": "unknown",
-      "action": "unknown",
-      "actorsInvolved": []
-    },
-    {
-      "title": "Verse 4",
-      "location": "ምድር",
-      "action": "unknown",
-      "actorsInvolved": []
-    },
-    {
-      "title": "Verse 5",
-      "location": "unknown",
-      "action": "unknown",
-      "actorsInvolved": []
+      "title": "The Gates of the Winds",
+      "location": "Ends of the Earth",
+      "action": "The narrator observes three open gates in heaven. Winds emerge from them towards the east, bringing cold, hail, frost, dew, and rain. A wind from one gate is gentle, while winds from the other two are forceful and violent upon the earth.",
+      "actorsInvolved": [
+        "Narrator (I)",
+        "Winds"
+      ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "start_point",
+        "description": "An unspecified location from which the journey begins ('from there')."
+      },
+      {
+        "id": "ends_of_earth",
+        "description": "The destination at the eastern ends of the earth where the observation takes place."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Narrator (I)",
+        "start_anchor": "start_point",
+        "end_anchor": "ends_of_earth",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Travels towards the east ('ወንገለ፡​መስዕ') to reach the ends of the earth."
+      }
+    ]
   }
 }
 ```

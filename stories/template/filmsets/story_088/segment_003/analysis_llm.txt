@@ -1,12 +1,212 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
-  "scenes": [],
+  "actors": [
+    {
+      "name": "Narrator",
+      "visualTraits": [
+        "Implied first-person observer ('I saw')"
+      ],
+      "changes": null,
+      "role": "observer"
+    },
+    {
+      "name": "First Ram",
+      "visualTraits": [
+        "One of the first rams"
+      ],
+      "changes": null,
+      "role": "agent"
+    },
+    {
+      "name": "First Star",
+      "visualTraits": [
+        "The first star that had fallen from heaven",
+        "Has hands and feet"
+      ],
+      "changes": null,
+      "role": "patient"
+    },
+    {
+      "name": "Ram with Sword",
+      "visualTraits": [
+        "One of the rams"
+      ],
+      "changes": null,
+      "role": "agent"
+    },
+    {
+      "name": "Fallen Ram",
+      "visualTraits": [
+        "One of the rams that had come forth"
+      ],
+      "changes": null,
+      "role": "patient"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Sheep",
+      "visualTraits": [
+        "A group of sheep"
+      ],
+      "changes": null,
+      "role": "group_agent"
+    },
+    {
+      "name": "The Rams (group)",
+      "visualTraits": [
+        "A group of rams who gather together"
+      ],
+      "changes": null,
+      "role": "group_agent"
+    },
+    {
+      "name": "Great Stars",
+      "visualTraits": [
+        "Great stars",
+        "Their shame was like the shame of horses",
+        "Have hands and feet"
+      ],
+      "changes": null,
+      "role": "group_patient"
+    }
+  ],
+  "props": [
+    {
+      "name": "Sword",
+      "visualTraits": null,
+      "changes": null,
+      "role": "actor_prop:Ram with Sword"
+    }
+  ],
+  "places": [
+    {
+      "name": "Heaven",
+      "visualTraits": [
+        "A place from which beings fall or are thrown"
+      ],
+      "changes": null,
+      "role": "origin_point"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Deep Place",
+      "visualTraits": [
+        "narrow",
+        "deep",
+        "dark",
+        "gloomy"
+      ],
+      "changes": null,
+      "role": "prison"
+    },
+    {
+      "name": "Chasm of the Earth",
+      "visualTraits": [
+        "An abyss/chasm in the earth"
+      ],
+      "changes": null,
+      "role": "prison"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Earth",
+      "visualTraits": [
+        "The whole earth, which is capable of quaking"
+      ],
+      "changes": {
+        "is_dynamic": true,
+        "description": "The earth quakes in response to the violence of the sheep."
+      },
+      "role": "setting"
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "Imprisonment of the First Star",
+      "location": "An unspecified area near the Deep Place",
+      "action": "A ram seizes, binds, and throws the first fallen star into a deep, dark place.",
+      "actorsInvolved": [
+        "First Ram",
+        "First Star"
+      ]
+    },
+    {
+      "title": "The Sword and the Sheep",
+      "location": "Earth",
+      "action": "A ram gives a sword to a group of sheep, who then begin to harm one another, causing the earth to quake.",
+      "actorsInvolved": [
+        "Ram with Sword",
+        "Sheep"
+      ]
+    },
+    {
+      "title": "Imprisonment of the Great Stars",
+      "location": "An unspecified area near a chasm",
+      "action": "After a ram is cast down from heaven, a group of rams gather, bind, and throw a group of great stars into a chasm in the earth.",
+      "actorsInvolved": [
+        "Fallen Ram",
+        "The Rams (group)",
+        "Great Stars"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "heaven",
+        "description": "The sky, an origin point for falling entities."
+      },
+      {
+        "id": "earth_surface",
+        "description": "The general location on Earth where events unfold."
+      },
+      {
+        "id": "deep_place",
+        "description": "A narrow, deep, dark, and gloomy place of imprisonment."
+      },
+      {
+        "id": "chasm_of_the_earth",
+        "description": "An abyss in the earth used for imprisonment."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "First Star",
+        "start_anchor": "heaven",
+        "end_anchor": "earth_surface",
+        "motion": "fall",
+        "duration_sec": null,
+        "notes": "Past action stated as context: 'that had fallen from heaven'."
+      },
+      {
+        "actor": "First Ram",
+        "start_anchor": "earth_surface",
+        "end_anchor": "deep_place",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Throws the 'First Star' into the 'Deep Place' after seizing and binding it."
+      },
+      {
+        "actor": "Fallen Ram",
+        "start_anchor": "heaven",
+        "end_anchor": "earth_surface",
+        "motion": "fall",
+        "duration_sec": null,
+        "notes": "Was thrown from heaven."
+      },
+      {
+        "actor": "The Rams (group)",
+        "start_anchor": "earth_surface",
+        "end_anchor": "chasm_of_the_earth",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Throws the 'Great Stars' into the 'Chasm of the Earth' after gathering and binding them."
+      }
+    ]
   }
 }
 ```

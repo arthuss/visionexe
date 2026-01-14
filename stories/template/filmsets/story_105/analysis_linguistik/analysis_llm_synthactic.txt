@@ -1,0 +1,21 @@
+An enumeration of all valid syntactic parses for the provided Ge'ez text, adhering to the specified scientific rules.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "P1_S1",
+        "structure_type": "Clause with Subject",
+        "description": "Token t2, containing the verb 'yəbe' (he said), is the predicate of a clause, and token t3, beginning with the noun 'ʾəgziʾ' (Lord), functions as its subject.",
+        "bracket_notation": "[S [PRED t2] [SUBJ t3]]",
+        "dependencies": [
+          "t2 -> t3 (subject)"
+        ],
+        "notes": "This parse treats the entirety of token t3 as a nominal unit acting as the subject, despite its internal verbal components."
+      },
+      {
+        "id": "P2_S1",
+        "structure_type": "Verbal Phrase with Oblique Argument",
+        "description": "Token t4, containing the prepositional phrase 'la-wəludä mədr' (to the children of earth), functions as an oblique argument/adjunct modifying the verbal content of token t3 ('yəṣäwwəʿu wä-yəsməʿu' - they will call and they will hear).",
+        "bracket_notation": "[VP [V t3] [OBL t4]]",

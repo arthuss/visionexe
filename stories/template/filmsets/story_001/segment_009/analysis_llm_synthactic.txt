@@ -1,33 +1,30 @@
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "S9-P1",
-        "structure_type": "Verbal Phrase",
-        "bracket_notation": "[VP [V t5] [Obj t6]]",
+        "id": "P1",
+        "structure_type": "Genitive Phrase",
+        "bracket_notation": "[NP [N t1] [Gen t2]]",
         "dependencies": [
-          "t5->t6 (object)"
+          "t1->t2 (genitive)"
         ],
-        "notes": "The verb 'comes' (t5) takes 'a multitude of holy ones' (t6) as its object/complement."
+        "notes": "One possible analysis of the relationship between the verse number (t1) and the verse text (t2). The text, a nominal phrase, is treated as a genitive modifier of the verse number, akin to a title's content."
       },
       {
-        "id": "S9-P2",
-        "structure_type": "Verbal Phrase",
-        "bracket_notation": "[VP [V t8] [Obj t9]]",
+        "id": "P2",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [NP t1] [NP t2]]",
         "dependencies": [
-          "t8->t9 (object)"
+          "t1->t2 (apposition)"
         ],
-        "notes": "The verb 'and he will rebuke' (t8) takes 'all that they have done of the flesh' (t9) as its object."
+        "notes": "An alternative analysis for the pair (t1, t2). The nominal phrase (t2) is treated as being in apposition to the verse number (t1), renaming or specifying it."
       },
       {
-        "id": "S9-P3",
-        "structure_type": "Verbal Clause",
-        "bracket_notation": "[S [VP t10] [Coord [S t11]]]",
+        "id": "P3",
+        "structure_type": "Apposition",
+        "bracket_notation": "[FRAG [NP t3] [S t4]]",
         "dependencies": [
-          "t10->t11 (coordination)"
+          "t3->t4 (apposition)"
         ],
-        "notes": "The clause 'and they wrought upon him sin' (t10) is coordinated with 'and the impious' (t11)."
-      }
-    ]
-  }
-}
+        "notes": "Analysis of the relationship

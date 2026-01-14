@@ -1,13 +1,14 @@
+```json
 {
   "evaluation": [
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "This correctly parses the common narrative structure 'And he answered and said, [Subject]...'. The coordination of two verbs before the subject is standard in Semitic narrative style.",
+      "reasoning": "Hypothesis S1 posits that the periphrastic construction 'ሀለዉ፡​ይኩኑ' (hallawu yəkunu) in 1:1 functions as a future-in-the-past, meaning 'who were to be' or 'who were destined to be'. This is a recognized, though infrequent, grammatical feature in Classical Ethiopic, formed by the perfect of 'ሀሎ' (hallo, to be/exist) and the imperfect/subjunctive of 'ኮነ' (kona, to be/become). It conveys a sense of predestination, fitting the eschatological context. The extant Greek text (Panopolitanus) has a simpler present participle, 'τοῖς οὖσιν' (tois ousin, 'to those who are'). The Ge'ez translator's choice adds a specific theological nuance, emphasizing that the righteous were designated in the past for a future event.",
       "parallels": [
         {
-          "ref": "Genesis 18:27",
-          "note": "The 'answer and say' formula ('ወአውሥአ... ወይቤ') is frequent in biblical narrative."
+          "ref": "Dillmann, A. *Ethiopic Grammar*, 2nd ed., trans. J. Crichton (London: Williams & Norgate, 1907), §170.",
+          "note": "Dillmann describes periphrastic conjugations, including combinations of 'hallo' and 'kona' to express complex temporal relationships, which supports this analysis."
         }
       ],
       "context_invariance": "stable",
@@ -16,42 +17,21 @@
     {
       "hypothesis_ref": "S2",
       "plausibility": "high",
-      "reasoning": "Correctly identifies an appositional noun phrase describing Enoch. The structure 'Noun + Adjective + Relative Clause' is perfectly grammatical.",
-      "parallels": [],
+      "reasoning": "Hypothesis S2 proposes that the phrase 'ብእሲ፡​ጻድቅ፡​ዘእምኀበ፡​እግዚአብሔር፡​እንዘ፡​አዕይንቲሁ፡​ክሡታት' (bəʾsi ṣādəq za-ʾəm-ḫaba ʾəgziʾabḥer ʾənza ʾaʿyəntihu kəśutāt) in 1:2 is a long nominative clause in apposition to the subject, 'ሄኖክ' (Henok). The alternative reading—that this phrase begins Enoch's direct speech—is contradicted by the following 3rd person verb 'ወይሬኢ' (wa-yəreʾi, 'and he saw'). The appositional structure ('And Enoch answered and said—a righteous man...who saw...') is grammatically sound and aligns with the narrative logic. The Greek text supports this by clearly identifying Enoch as a righteous man whose eyes were opened before relating his vision.",
+      "paralleles": [
+        {
+          "ref": "1 Enoch 1:2 (Greek, Panopolitanus MS)",
+          "note": "The Greek text reads: 'Ἑνὼχ ἄνθρωπος δίκαιος ὢν καὶ ὀφθαλμοὶ αὐτοῦ ἠνεώχθησαν ὑπὸ Κυρίου' ('Enoch, being a righteous man, and his eyes were opened by the Lord'), which confirms the descriptive, appositional nature of the phrase."
+        }
+      ],
       "context_invariance": "stable",
       "back_translation": "pass"
     },
     {
       "hypothesis_ref": "S3",
-      "plausibility": "high",
-      "reasoning": "A correct parse of a circumstantial clause introduced by 'እንዘ'. The predicate 'ሡታት' (opened) correctly agrees in gender/number with the subject 'ዕይንቲሁ' (his eyes).",
+      "plausibility": "moderate",
+      "reasoning": "Hypothesis S3 addresses the unusual function of the preposition 'ምስለ' (məslä) in 1:3. Its standard meaning is 'with', which creates a difficult reading: 'I took up my parable... with the one who comes forth'. The Greek text presents two separate clauses: 'I will speak... and the Holy One went out'. The Ge'ez translator appears to have syntactically linked Enoch's speech to the divine theophany. The most plausible hypothesis is that 'ምስለ' is used in a secondary, attested sense of 'secundum' ('according to', 'in conformity with'). This would mean: 'I took up my parable... in accordance with the [prophecy of the] one who comes forth'. This reading is semantically coherent but relies on a non-primary meaning of the preposition, indicating a point of interpretive uncertainty. It may reflect a calque from a lost Semitic original or a deliberate theological choice by the translator.",
       "parallels": [
         {
-          "ref": "Numbers 24:3-4",
-          "note": "Parallels the description of Balaam as 'the man whose eyes are open'."
-        }
-      ],
-      "context_invariance": "stable",
-      "back_translation": "pass"
-    },
-    {
-      "hypothesis_ref": "S4",
-      "plausibility": "high",
-      "reasoning": "A standard verbal clause. The parse correctly identifies the verb 'ወይሬኢ' (and he saw), its direct object 'ራእየ ቅዱስ' (a holy vision), and the subsequent relative clause 'ዘበሰማያት' (which is in the heavens) modifying the object.",
-      "parallels": [
-        {
-          "ref": "Ezekiel 1:1",
-          "note": "The theme of seeing 'visions of God' ('ራእየ... እግዚአብሔር')."
-        }
-      ],
-      "context_invariance": "stable",
-      "back_translation": "pass"
-    }
-  ],
-  "decision_log": "As with the first segment, these four parses break down a complex sentence into its constituent, non-competing clauses. Each parse is grammatically sound and they combine to form a coherent, stylistically conventional introduction to the visionary.",
-  "final_decision": {
-    "hypothesis_ref": "S1+S2+S3+S4",
-    "translation_id": "T2",
-    "confidence": "high"
-  }
-}
+          "ref": "Dillmann, A. *Lexicon Linguae Aethiopicae* (Leipzig, 1865), col. 637.",
+          "note": "Dillmann's lexicon

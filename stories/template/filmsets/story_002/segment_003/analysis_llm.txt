@@ -1,63 +1,130 @@
 ```json
 {
-  "actors": [],
-  "characters": [],
+  "actors": [
+    {
+      "name": "God",
+      "visualTraits": {
+        "description": "An unseen entity whose work is visible on Earth."
+      },
+      "changes": null,
+      "role": "actor"
+    }
+  ],
+  "characters": [
+    {
+      "name": "The Observers",
+      "visualTraits": {
+        "description": "The implicit audience commanded to observe creation."
+      },
+      "changes": null,
+      "role": "character"
+    }
+  ],
   "props": [
     {
-      "name": "water",
-      "visualTraits": "fills the whole earth",
-      "changes": [],
+      "name": "Luminaries",
+      "visualTraits": {
+        "description": "Celestial bodies in the sky that rise and set in an orderly fashion."
+      },
+      "changes": null,
       "role": "scene_prop"
     },
     {
-      "name": "clouds",
-      "visualTraits": "rests upon the earth",
-      "changes": [],
+      "name": "Water",
+      "visualTraits": {
+        "description": "A substance that fills the earth."
+      },
+      "changes": null,
       "role": "scene_prop"
     },
     {
-      "name": "dew",
-      "visualTraits": "rests upon the earth",
-      "changes": [],
+      "name": "Cloud",
+      "visualTraits": {
+        "description": "A form of precipitation that rests upon the earth."
+      },
+      "changes": null,
       "role": "scene_prop"
     },
     {
-      "name": "rain",
-      "visualTraits": "rests upon the earth",
-      "changes": [],
+      "name": "Dew",
+      "visualTraits": {
+        "description": "A form of precipitation that rests upon the earth."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Rain",
+      "visualTraits": {
+        "description": "A form of precipitation that rests upon the earth."
+      },
+      "changes": null,
       "role": "scene_prop"
     }
   ],
   "places": [
     {
-      "name": "earth",
-      "visualTraits": "The whole earth, filled with water.",
-      "changes": [],
-      "role": "location"
+      "name": "Heaven",
+      "visualTraits": {
+        "description": "The celestial realm containing the luminaries and their paths."
+      },
+      "changes": null,
+      "role": "place"
+    },
+    {
+      "name": "Earth",
+      "visualTraits": {
+        "description": "The terrestrial world, upon which God's work is performed and which is filled with water, clouds, dew, and rain according to the seasons."
+      },
+      "changes": null,
+      "role": "place"
     }
   ],
   "locations": [],
   "environments": [
     {
-      "name": "summer",
-      "visualTraits": "A season to be observed.",
-      "changes": [],
-      "role": "temporal"
+      "name": "Summer",
+      "visualTraits": {
+        "description": "A season during which the earth is described as being filled with water."
+      },
+      "changes": null,
+      "role": "environment"
     },
     {
-      "name": "winter",
-      "visualTraits": "A season to be observed.",
-      "changes": [],
-      "role": "temporal"
+      "name": "Winter",
+      "visualTraits": {
+        "description": "A season during which the earth is described as being filled with water."
+      },
+      "changes": null,
+      "role": "environment"
     }
   ],
   "geo_environments": [],
   "scenes": [
     {
-      "title": "Observation of the Seasons",
-      "location": "earth",
-      "action": "The whole earth is observed to be filled with water, while clouds, dew, and rain rest upon it during summer and winter.",
-      "actorsInvolved": []
+      "title": "The Unchanging Order of the Heavens",
+      "location": "Heaven",
+      "action": "The luminaries in heaven are observed to follow their prescribed paths, rising and setting in their seasons without changing or transgressing their commands.",
+      "actorsInvolved": [
+        "The Observers"
+      ]
+    },
+    {
+      "title": "The Unchanging Work on Earth",
+      "location": "Earth",
+      "action": "The work of God upon the earth is observed and understood to be constant and unchanging from its beginning to its end.",
+      "actorsInvolved": [
+        "The Observers",
+        "God"
+      ]
+    },
+    {
+      "title": "The Order of the Seasons on Earth",
+      "location": "Earth",
+      "action": "During summer and winter, the earth is observed to be filled with water, and cloud, dew, and rain rest upon it.",
+      "actorsInvolved": [
+        "The Observers"
+      ]
     }
   ],
   "blocking": {

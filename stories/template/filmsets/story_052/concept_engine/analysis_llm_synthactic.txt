@@ -1,0 +1,17 @@
+An enumeration of all valid scientific syntactic parses for the Ge'ez text.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "t2_p1",
+        "structure_type": "Complex Sentence",
+        "bracket_notation": "[S [Conj ወ] [AdvP [PP [P እምድኅረ] [NP [Det እማንቱ] [N መዋዕል]]]] [AdvP [PP [P በውእቱ] [N መካን]]] [AdvP ኀበ] [V ርኢኩ] [Obj [NP [Det ኵሎ] [N' [N ራእየተ] [RelCl [Pro ዘኅቡእ]]]]] [SubCl [Conj እስመ] [S [S [V ተመሠጥኩ] [PP [P በነኰርኳረ] [Gen [N ነፋስ]]]] [Conj ወ] [S [V+Obj ወሰዱኒ] [PP [P ውስተ] [N ዓረብ]]]]]]",
+        "dependencies": [
+          "ርኢኩ->ወ (coordination)",
+          "ርኢኩ->እምድኅረ (adverbial)",
+          "እምድኅረ->መዋዕል (prepositional_object)",
+          "መዋዕል->እማንቱ (determiner)",
+          "ርኢኩ->በውእቱ (adverbial)",
+          "በውእቱ

@@ -1,10 +1,11 @@
 {
   "enabled": true,
   "pause": false,
-  "mode": "chapter-batch",
-  "use_gemini": true,
+  "mode": "pipeline-parallel",
+  "analysis_scope": "chapter",
+  "use_gemini": false,
   "gemini_model": "",
-  "force": false,
+  "force": true,
   "poll_seconds": 10,
   "max_retries": 1,
   "retry_delay_seconds": 10,
@@ -12,5 +13,17 @@
   "carry_location": true,
   "include_prev_segment": true,
   "prev_context_chars": 2000,
-  "wait_analysis_layers": false
+  "wait_analysis_layers": false,
+  "use_vertex": true,
+  "vertex_project": "wallpaper-management-hub",
+  "vertex_location": "europe-west4",
+  "vertex_model": "gemini-2.5-pro",
+  "max_parallel_chapters": 4,
+  "max_parallel_calls": 16,
+  "status_log_workers": true,
+  "status_interval_seconds": 10,
+  "auto_self_heal": true,
+  "auto_self_heal_mode": "missing-only",
+  "self_heal_verse_root": "docs/ethiopic_1enoch_p",
+  "log_root": "stories/template/data/analysis/logs"
 }

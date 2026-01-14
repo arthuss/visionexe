@@ -1,0 +1,10 @@
+An analysis of the provided text according to the specified scientific rules requires enumerating all possible syntactic structures without resorting to semantic or contextual disambiguation. The output below represents this "structure space" by providing multiple parse trees (`id: "P1"`, `id: "P2"`, etc.) where significant structural ambiguities exist. Minor or highly localized ambiguities (like PP-attachment) are described in the `notes` field within a single parse to maintain clarity and avoid a combinatorial explosion of otherwise identical trees. Each parse provides a full constituency analysis using bracket notation and a list of head-dependent relations.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "P1",
+        "structure_type": "Discourse",
+        "bracket_notation": "[Discourse [S1 [S_coord [S_imp t2 t3] [S_imp t4]] [S_reason t5 t6] [S_purpose t7 t8]] [S2 t10 t11 t12 t13 t14] [S3 t16] [S4 [V t17] [Quote t17 t18 t19 t20 t21 t22]] [S5 t24 t25 t26 t27] [S6 t27 t28] [S7 t29 t30] [S8 [S_sub t32 t33] [S_coord [S t3

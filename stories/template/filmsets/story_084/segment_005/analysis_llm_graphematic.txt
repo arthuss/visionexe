@@ -1,15 +1,7 @@
+An automated graphematic analysis requires a precise, non-interpretive documentation of the text's physical state. This process involves transcribing the text exactly as it appears, identifying and separating punctuation, noting any non-native elements (artifacts), and marking areas of physical damage or illegibility. The following JSON object represents a Level A Graphematic Analysis of the provided Ge'ez text, adhering strictly to the specified scientific rules.
+
+```json
 {
   "source": {
-    "witness_id": "story_084/segment_005",
-    "graphematic_string": "ወይእዜኒ፡ምላ፡ወእግዚእ፡\nወንጉሥ፡ዐቢይ፡ስተቍዕ፡\nወእስእል፡መ፡ታቅም፡ሊተ፡\nስእለትየ፡መ፡ታትርፍ፡ሊተ፡\nደኃሪተ፡ውስተ፡ምድር፡\nወኢታጥፍእ፡ሎ፡ሥጋ፡ሰብእ፡\nወኢታዕርቃ፡ለምድር፡\nወይውን፡ሐጕል፡ለዓለም፨",
-    "normalization_policy": "none",
-    "punctuation_markers": [
-      "፡",
-      "፨"
-    ],
-    "removed_artifacts": [
-      "Chapter 84 Segment 5\n\n"
-    ],
-    "uncertainties": []
-  }
-}
+    "witness_id": "1_Enoch_84",
+    "graphematic_string": "ወ¡ልዐልኩ፡እደውየ፡Åጽድቅ፡ወባረŒዎ፡ለቅዱስ፡ወለዐቢይ፡ወነገርኩ፡Åመንፈሰ፡¡ፉየ፡ወÅልሳነ፡ሥጋ፡እንተ፡ገብረ፡ምላŒ፡ለውሉደ፡ሥጋ፡ሰብእ፡መ፡ይትናገሩ፡ባቲ፨ወወሀቦሙ፡መንፈሰ፡ወልሳነ፡ወ¡ፈ፡…መ፡ይትናገሩ፡ቦቱ፡ቡሩŒ፡¡ንተ፡እግዚኦ፡ንጉሥ፡ወዐቢይ፡ወኃያል፡ÅዕÅየ፡ዚ¡…፡እግዚ¡፡÷ሉ፡ፍጥረተ፡ሰማይ፡ንጉሠ፡ነገሥት፡ወ¡ምላ…፡÷ሉ፡ዓለም፨ወመለœት…፡ወመንግ

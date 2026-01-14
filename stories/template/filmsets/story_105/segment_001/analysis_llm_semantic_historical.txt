@@ -1,0 +1,52 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "high",
+      "reasoning": "This hypothesis posits that the subject of the initial 3rd person plural verbs in 105:1 (`ይጸውዑ ወይስምዑ` - 'they will call and they will hear/listen') is an unstated group, likely heavenly messengers or the righteous acting as teachers. This is supported by the subsequent address to a 2nd person plural audience (`ርእዩ... አንትሙ` - 'You, show... for you are...') who are identified as `መራሕያኒሆሙ` ('their guides'). This reading establishes a coherent, though stylistically abrupt, shift from a 3rd person prophecy to a 2nd person command within a single divine speech introduced by `ይቤ እግዚእ` ('says the Lord').",
+      "parallels": [
+        {
+          "ref": "1 Enoch passim",
+          "note": "The concept of angels or righteous scribes acting as divine messengers and guides to humanity is a foundational theme of the book (e.g., the role of Uriel, Raphael, and Enoch himself)."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "very high",
+      "reasoning": "This hypothesis addresses the phrase `ወዕሴያተ፡ዲÅ፡ ሉ፡ምድር` in 105:1. It proposes a textual emendation of the hapax legomenon `ሉ` to `ኵሉ` ('all'), a common palaeographic confusion. This yields the reading `ወዕሴያተ ዲበ ኵሉ ምድር` ('and the rewards over all the earth'). Syntactically, `ዕሴያተ` ('rewards', acc. pl.) is interpreted as the second object of the imperative `ርእዩ` ('Show them'), parallel to the implied object of wisdom. The intervening `እስመ` ('for') clause acts as a parenthetical justification. This emendation is supported by major critical editions (e.g., Knibb, Charles) and resolves a nonsensical phrase into a meaningful one that fits the apocalyptic context.",
+      "parallels": [
+        {
+          "ref": "MSS variants in Knibb, 'The Ethiopic Book of Enoch' (1978)",
+          "note": "Critical editions note manuscript support for `ኵሉ` over the problematic `ሉ`, confirming the high probability of a scribal error."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S3",
+      "plausibility": "high",
+      "reasoning": "This hypothesis concerns 105:2, specifically the phrase `እስመ፡¡ነ፡ወወልድየ፡ንደመር` ('For I and my Son, we will be joined'). The syntax is unambiguous: a compound subject ('I and my Son') followed by a 1st person plural verb. The significance is historical and theological, providing a unique and explicit link between God ('I') and 'my Son'—a clear reference to the Son of Man figure from the Parables of Enoch (chs. 37-71). This verse acts as the theological climax of the book's promise of salvation.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 62:14",
+          "note": "The theme of the righteous being united with the Son of Man is central to the Parables: 'And the righteous and elect will be saved in that day, and they will never again see the face of the sinners and the unrighteous... For the Lord of Spirits has chosen him, and his lot has surpassed all before the Lord of Spirits in righteousness forever.'"
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "The evaluation proceeded by analyzing syntactic and semantic units. \n1. **Verse 105:1a (`ይጸውዑ ወይስምዑ`):** The subject is not explicit. Hypothesis S1, which assumes an implied subject (heavenly messengers/guides), was preferred as it creates a logical antecedent for the group addressed as 'you' (`አንትሙ`) and 'their guides' (`መራሕያኒሆሙ`) later in the verse. \n2. **Verse 105:1b (Syntactic Shift):** The shift from 3rd person imperfect (`ይጸውዑ`) to 2nd person imperative (`ርእዩ`) is abrupt but explainable as a feature of prophetic discourse, where a divine pronouncement contains both prediction and command. This reading was adopted. \n3. **Verse 105:1c (`ዲÅ፡ ሉ፡ምድር`):** The reading `ሉ` is nonsensical. Hypothesis S2, which emends `ሉ` to `ኵሉ` ('all') based on manuscript evidence and palaeographic probability, was accepted. This makes `ዕሴያተ` ('rewards') a coherent second object of the command `ርእዩ` ('Show them'). \n4. **Verse 105:2a (`ይ…ውን`):** The damaged verb was reconstructed as `ይከውን` ('it will be') based on context and critical editions, yielding 'and peace will be to them'. \n5. **Verse 105:2b (`አነ ወወልድየ`):** The grammar is clear and the theological importance is noted in Hypothesis S3. The phrase 'I and my Son' is a direct and significant statement, forming the core of the promise in this chapter. \nUncertainty remains moderate for verse 1, as the interpretation relies on identifying an implied subject and accepting a textual emendation, though both are strongly supported. Confidence for verse 2 is high due to its grammatical clarity.",
+  "final_decision": {
+    "hypothesis_ref": "S1, S2, S3",
+    "translation_id": "T1",
+    "confidence": "moderate",
+    "translation": "105:1 And in those days, says the Lord: They will call and listen to the children of the earth in their wisdom. Show them, for you are their guides, and the rewards over all the earth. \n105:2 For I and my Son, we will be joined with them forever in the paths of righteousness in their life. And peace will be to them. Rejoice, children of righteousness! Amen."
+  }
+}
+```

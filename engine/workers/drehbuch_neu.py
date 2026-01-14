@@ -79,6 +79,105 @@ def parse_gemini_response(raw_output):
         return raw_output.strip()
     return None
 
+def extract_json_block(raw_text):
+    if not raw_text:
+        return None
+    json_start = raw_text.find("{")
+    if json_start == -1:
+        return None
+    json_end = raw_text.rfind("}")
+    if json_end == -1 or json_end <= json_start:
+        return None
+    json_text = raw_text[json_start:json_end + 1]
+    try:
+        return json.loads(json_text)
+    except json.JSONDecodeError:
+        return None
+
+def dedupe_names(items):
+    seen = set()
+    deduped = []
+    for item in items:
+        key = item.strip()
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        deduped.append(item)
+    return deduped
+
+def collect_names(entries):
+    names = []
+    for entry in entries or []:
+        if isinstance(entry, dict):
+            name = str(entry.get("name") or "").strip()
+        else:
+            name = str(entry or "").strip()
+        if name:
+            names.append(name)
+    return names
+
+def format_segment_entities(segment_entities, max_names=12):
+    if not segment_entities:
+        return "(none)"
+    lines = []
+    for segment_id, entities in segment_entities.items():
+        actors = ", ".join(entities.get("actors", [])[:max_names]) or "none"
+        props = ", ".join(entities.get("props", [])[:max_names]) or "none"
+        envs = ", ".join(entities.get("environments", [])[:max_names]) or "none"
+        lines.append(f"{segment_id}: actors=[{actors}] props=[{props}] envs=[{envs}]")
+    return "\n".join(lines)
+
+def load_registry_summary(subjects_root, max_chars=20000):
+    registry_path = Path(subjects_root) / "registry.json"
+    if not registry_path.exists():
+        return "[Warning: registry.json not found]"
+    try:
+        registry = json.loads(registry_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        return f"[Warning: registry.json unreadable: {exc}]"
+    groups = {}
+    for entry in registry:
+        subject_type = str(entry.get("type") or "unknown").strip() or "unknown"
+        subject_id = str(entry.get("id") or "").strip()
+        name = str(entry.get("name") or "").strip()
+        if not subject_id and not name:
+            continue
+        label = subject_id or name
+        if subject_id and name and name != subject_id:
+            label = f"{subject_id} ({name})"
+        groups.setdefault(subject_type, []).append(label)
+    lines = []
+    for subject_type in sorted(groups):
+        lines.append(f"[{subject_type}]")
+        chunk = []
+        for item in groups[subject_type]:
+            chunk.append(item)
+            if len(chunk) >= 10:
+                lines.append("  - " + ", ".join(chunk))
+                chunk = []
+        if chunk:
+            lines.append("  - " + ", ".join(chunk))
+    summary = "\n".join(lines)
+    if max_chars and len(summary) > max_chars:
+        summary = summary[:max_chars].rstrip() + "\n...[truncated]"
+    return summary
+
+def load_timeline_profile(story_root, story_config, repo_root, timeline_id):
+    if not timeline_id:
+        return "[Warning: timeline id not set]"
+    profile_map = story_config.get("timeline_profiles") or {}
+    profile_path = profile_map.get(timeline_id)
+    resolved = resolve_path(profile_path, repo_root) if profile_path else None
+    if not resolved:
+        resolved = story_root / "config" / "timelines" / f"{timeline_id}.json"
+    if not resolved or not Path(resolved).exists():
+        return f"[Warning: timeline profile not found for {timeline_id}]"
+    try:
+        payload = json.loads(Path(resolved).read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        return f"[Warning: timeline profile unreadable: {exc}]"
+    return json.dumps(payload, ensure_ascii=True, indent=2)
+
 def get_chapter_data(chapter_path, include_wave=False, segment_label="segment"):
     data = {}
     
@@ -117,6 +216,7 @@ def get_chapter_data(chapter_path, include_wave=False, segment_label="segment"):
     # 4. Segmente/Verse (Rohmaterial)
     data["verses"] = {}
     data["segment_analysis"] = {}
+    data["segment_entities"] = {}
     segment_prefix = f"{segment_label}_"
     segment_folders = sorted([d for d in os.listdir(chapter_path) if d.startswith(segment_prefix)])
     if not segment_folders:
@@ -139,13 +239,24 @@ def get_chapter_data(chapter_path, include_wave=False, segment_label="segment"):
             if os.path.exists(analysis_path):
                 with open(analysis_path, "r", encoding="utf-8") as f:
                     analysis_text = f.read().strip()
+            analysis_payload = extract_json_block(analysis_text) if analysis_text else None
             if analysis_text:
                 data["segment_analysis"][seg] = analysis_text
                 seg_text = f"{seg_text}\n\n[ANALYSIS]\n{analysis_text}"
+            if analysis_payload:
+                actors = collect_names(analysis_payload.get("actors"))
+                actors += collect_names(analysis_payload.get("characters"))
+                props = collect_names(analysis_payload.get("props"))
+                envs = collect_names(analysis_payload.get("environments"))
+                data["segment_entities"][seg] = {
+                    "actors": dedupe_names(actors),
+                    "props": dedupe_names(props),
+                    "environments": dedupe_names(envs),
+                }
             data["verses"][seg] = seg_text
     return data
 
-def load_knowledge_base(story_root: Path, story_config: dict, repo_root: Path):
+def load_knowledge_base(story_root: Path, story_config: dict, repo_root: Path, timeline_id: str):
     """Load global definitions to keep consistency across chapters."""
     kb = {}
     search_paths = [
@@ -185,6 +296,15 @@ def load_knowledge_base(story_root: Path, story_config: dict, repo_root: Path):
         if briefing_path and briefing_path.exists():
             with open(briefing_path, "r", encoding="utf-8") as f:
                 kb[f"BRIEFING_{idx:02d}"] = f.read()
+
+    subjects_root = resolve_path(story_config.get("subjects_root"), repo_root)
+    if subjects_root:
+        kb["SUBJECT_REGISTRY"] = load_registry_summary(subjects_root)
+    else:
+        kb["SUBJECT_REGISTRY"] = "[Warning: subjects_root not configured]"
+
+    kb["TIMELINE_ID"] = timeline_id or ""
+    kb["TIMELINE_PROFILE"] = load_timeline_profile(story_root, story_config, repo_root, timeline_id)
     
     return kb
 
@@ -197,6 +317,7 @@ def load_existing_content(path):
 def build_concept_prompt(data, kb, chapter_num, existing_concept=None):
     verses_str = "\n".join([f"[{k}]: {v}" for k, v in data["verses"].items()])
     segment_analysis_str = "\n".join([f"[{k}]: {v}" for k, v in data.get("segment_analysis", {}).items()])
+    segment_entities_str = format_segment_entities(data.get("segment_entities", {}))
     
     # Falls ein altes Konzept existiert, bauen wir es in den Prompt ein
     refinement_instruction = ""
@@ -230,6 +351,12 @@ Gib NUR den reinen Text des Konzepts zurück.
 [LOCATIONS & ENVIRONMENTS]:
 {kb.get('LOCATIONS', '')}
 
+[TIMELINE PROFILE]:
+{kb.get('TIMELINE_PROFILE', '')}
+
+[SUBJECT REGISTRY]:
+{kb.get('SUBJECT_REGISTRY', '')}
+
 
 ### KAPITEL DATEN ###
 Linguistik: {data.get('analysis_linguistik', '')}
@@ -239,6 +366,8 @@ Verse:
 {verses_str}
 Segment Analysis:
 {segment_analysis_str}
+Segment Entities (from analysis):
+{segment_entities_str}
 
 AUFGABE (The Visionary Worker):
 Entwickle ein radikales visuelles Konzept. Ignoriere "Wunder". Erkläre "Technologie".
@@ -254,7 +383,7 @@ BEANTWORTE DIESE FRAGEN:
 7. DIALOG-CHECK: Bietet sich hier ein Dialog an? (Henoch spricht mit Uriel/Wächtern). Wenn ja, plane Shot-Reverse-Shot Sequenzen ein (kostet extra Clips).
 8. SPATIAL CONTEXT (ARRIVAL): Wie kommt Henoch an? (Beam? Portal? Flug?). Brauchen wir einen Establishing Shot (Panorama), bevor die Action beginnt?
 9. lets make an example   "The camera pans over a hyper-realistic forest. Enoch touches a tree; we see the code flowing perfectly. The system is stable." means we need a generation for :"The camera pans over a hyper-realistic forest."  dann noch eine generation  für "Enoch touches a tree" , und dann würde es sinn machen für " we see the code flowing perfectly." enoch am baum aus einer anderen perspktive zu zeigen evtl paning camera für dieses beispiel. so sollte auch die planung fürs drehbuch ausgerichtet werden , wir brauchen dann 3 videos  also 3 prompts für dieses element der szene daher können wir da kein hardcap setzen, es benötigt eben so viele videos wie es benötigt, wir halten uns trotzdem an die etwa 1 minute, 
-10. beispiel für einen prompt für wan 2.2 - 2.5 für EIN video damit der umfang ganz klar ist den das drehbuch dann aufzeigen soll  **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
+10. beispiel für einen prompt für LTX v2 (ltx-2-19b) für EIN video (T2V bevorzugt, deklarativ/chronologisch) damit der umfang ganz klar ist den das drehbuch dann aufzeigen soll  **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
 > **Actor:** Noah (System Prototype Build 2.0). **Physique:** Peak athletic human male, age 25, symmetrical Hellenistic features, sharp chiseled jawline, stoic expression. **Skin-Shader:** `MARBLE_SHIMMER_V3`. Surface is translucent white Parian marble with internal subsurface scattering, ultra-smooth zero-entropy texture, faint blue micro-circuitry tracing the pulse points on the neck. **Optics:** `SOLAR_APERTURE_EYES`. No pupils; glowing white-gold circular apertures emitting two steady beams of parallel volumetric light (6000K). **Hair:** Waist-length, silken fiber-optic white hair, individual strands glowing faintly, reacting to zero-gravity physics.
 
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]**
@@ -302,6 +431,8 @@ Output Format: Reiner Text, strukturiert.
 
 def build_script_structure_prompt(data, kb, concept_output, chapter_num):
     verses_str = "\n".join([f"[{k}]: {v}" for k, v in data["verses"].items()])
+    segment_analysis_str = "\n".join([f"[{k}]: {v}" for k, v in data.get("segment_analysis", {}).items()])
+    segment_entities_str = format_segment_entities(data.get("segment_entities", {}))
     return f"""
 {DIRECTOR_MANUAL}
 
@@ -324,6 +455,12 @@ ANTWORTE OHNE JEGLICHEN KOMMENTAR. KEIN "Hier ist der Plan". NUR DER INHALT.
 [FORMAT TEMPLATE]:
 {kb.get('FORMAT_TEMPLATE', '')}
 
+[TIMELINE PROFILE]:
+{kb.get('TIMELINE_PROFILE', '')}
+
+[SUBJECT REGISTRY]:
+{kb.get('SUBJECT_REGISTRY', '')}
+
 ---
 INPUT PHASE 1 (TECHNISCHES KONZEPT):
 {concept_output}
@@ -339,6 +476,8 @@ CHAPTER RAW TEXT:
 {data.get('raw_text', '')}
 SEGMENT ANALYSIS:
 {segment_analysis_str}
+SEGMENT ENTITIES (from analysis):
+{segment_entities_str}
 STORYTELLING Q1/Q2/Q3:
 {data.get('visual_abc', '')}
 
@@ -373,7 +512,7 @@ Hier ist die vorherige Version des Drehbuchs:
 {existing_script}
 
 DEINE AUFGABE: Optimiere dieses Drehbuch. 
-1. Schärfe die visuellen Prompts für Midjourney/Wan 2.5 (mehr Details, bessere Lichtsetzung).
+1. Schärfe die visuellen Prompts für Midjourney/LTX v2 (mehr Details, bessere Lichtsetzung).
 2. Achte auf noch bessere Übergänge (Transitions).
 3. Maximiere die "Industrial Mysticism" Stimmung.
 Liefere das komplette, verbesserte Drehbuch zurück.
@@ -392,6 +531,15 @@ Liefere das komplette, verbesserte Drehbuch zurück.
 
 [AUDIO SPECS]:
 {kb.get('AUDIO_SPECS', '')}
+
+[TIMELINE PROFILE]:
+{kb.get('TIMELINE_PROFILE', '')}
+
+[SUBJECT REGISTRY]:
+{kb.get('SUBJECT_REGISTRY', '')}
+
+[SEGMENT ENTITIES]:
+{format_segment_entities(data.get('segment_entities', {}))}
 
 ---
 TASK: FINAL PRODUCTION ASSET GENERATION (The "Prompter")
@@ -413,12 +561,12 @@ OUTPUT FORMAT (Markdown):
 
 
 ### 0. REGIE DATA (JSON)
-REGIE_JSON: {{"subject": "actor|environment|prop|interface|mixed", "shot_type": "establishing|insert|close_up|medium|wide|full_body", "framing": "extreme_close_up|close_up|medium|wide|full_body", "environment": "Scene location or system set", "env_change": true, "actors": [{{"name": "Name", "phase": "Phase", "presence": "on_screen|off_screen", "focus": "primary|secondary"}}], "props": ["Prop A", "Prop B"], "camera": "Lens / angle short note", "mood": ["awe", "tension"], "director_intent": "Short, poetic intent sentence for the shot.", "start_image_keywords": ["keyword1", "keyword2"], "start_image_mode": "env_only|actor_in_env|actor_only|prop_only|ui_only|composite", "video_plan": {{"start_comp": {{"mode": "actor_first|env_first|composite", "actor_pose_id": "POSE_ID", "env_id": "ENV_ID", "props": ["PROP_ID"], "notes": ""}}, "motion_driver": {{"type": "a2f|pose|liveportrait|none", "audio_id": "scene_audio_id", "pose_source": "data/capture/poses/pose_id.mp4", "driver_notes": ""}}, "reference_footage": {{"id": "ref_id", "path": "data/reference/clip.mp4", "use": "lighting|motion|palette|none", "notes": ""}}, "overlay_badge": {{"asset": "media/badges/geez_logo_v1.mov", "blend": "screen|overlay|normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}}, "provenance": {{"source": "ai_assisted|live_action|mixed", "notes": ""}}}}, "voice_words_max": 10}}
+REGIE_JSON: {{"subject": "actor|environment|prop|interface|mixed", "shot_type": "establishing|insert|close_up|medium|wide|full_body", "framing": "extreme_close_up|close_up|medium|wide|full_body", "environment": "Scene location or system set", "env_change": true, "actors": [{{"name": "Name", "phase": "Phase", "presence": "on_screen|off_screen", "focus": "primary|secondary"}}], "props": ["Prop A", "Prop B"], "camera": "Lens / angle short note", "camera_motion": "static|dolly_in|dolly_out|dolly_left|dolly_right|jib_up|jib_down", "camera_lora": "ltx-2-19b-lora-camera-control-static", "mood": ["awe", "tension"], "director_intent": "Short, poetic intent sentence for the shot.", "start_image_keywords": ["keyword1", "keyword2"], "start_image_mode": "env_only|actor_in_env|actor_only|prop_only|ui_only|composite", "video_plan": {{"start_comp": {{"mode": "actor_first|env_first|composite", "actor_pose_id": "POSE_ID", "env_id": "ENV_ID", "props": ["PROP_ID"], "notes": ""}}, "motion_driver": {{"type": "a2f|pose|liveportrait|none", "audio_id": "scene_audio_id", "pose_source": "data/capture/poses/pose_id.mp4", "driver_notes": ""}}, "reference_footage": {{"id": "ref_id", "path": "data/reference/clip.mp4", "use": "lighting|motion|palette|none", "notes": ""}}, "overlay_badge": {{"asset": "media/badges/geez_logo_v1.mov", "blend": "screen|overlay|normal", "opacity": 0.0, "position": "top_right", "safe_margin": 0.04}}, "provenance": {{"source": "ai_assisted|live_action|mixed", "notes": ""}}}}, "voice_words_max": 10}}
 ### 1. START IMAGE PROMPT (Midjourney/Flux)
 [Hier den Prompt einfügen - Fokus auf Licht, Textur, Komposition, Actor Details]
 
-### 2. VIDEO PROMPT (Wan 2.5)
-[Hier den Prompt einfügen - Fokus auf Bewegung, Kamerafahrt, Physics]
+### 2. VIDEO PROMPT (LTX v2)
+[Hier den Prompt einfügen - Fokus auf Bewegung, Kamerafahrt, Physics; Aktionen in chronologischer Reihenfolge beschreiben]
 **[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]** ...
 **[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]** ...
 **[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]** ...
@@ -438,6 +586,9 @@ WICHTIG:
 - Generiere wirklich ALLE Szenen aus der Struktur.
 - director_intent: eine kurze Szene-Absicht in einem Satz, keine Tags.
 - start_image_keywords: kurze Prompt-Trigger fuer Startbilder, optional leere Liste.
+- LTX v2 ist deklarativ: Aktionen in Reihenfolge; T2V bevorzugen, I2V nur bei echter Kontinuitäts-Notwendigkeit (dann start_image_mode setzen).
+- Kamera-Controls: genau eine Bewegung pro Clip wählen und als camera_motion + camera_lora angeben.
+  Verfügbare LoRAs: ltx-2-19b-lora-camera-control-static, -dolly-in, -dolly-out, -dolly-left, -dolly-right, -jib-up, -jib-down.
 - video_plan nur fuellen wenn bekannt; sonst leere Strings und leere Arrays nutzen.
 """
 
@@ -486,6 +637,7 @@ def main():
     parser.add_argument("--story-root", help="Story root path (defaults to engine_config default_story_root).")
     parser.add_argument("--story-config", help="Path to story_config.json (overrides story-root).")
     parser.add_argument("--include-wave", action="store_true", help="Include WAVE sections in inputs.")
+    parser.add_argument("--timeline", help="Timeline id (e.g. timeline_01).")
     args = parser.parse_args()
     story_config, story_root, repo_root = load_story_config(
         story_root=args.story_root,
@@ -521,7 +673,8 @@ def main():
     
     # Globale Knowledge Base laden
     print("Lade globale Knowledge Base...")
-    kb = load_knowledge_base(story_root, story_config, repo_root)
+    timeline_id = args.timeline or story_config.get("timeline_default") or "timeline_01"
+    kb = load_knowledge_base(story_root, story_config, repo_root, timeline_id)
 
     # --- SCHRITT 1: KONZEPT ---
     concept_file = os.path.join(concept_dir, "mechanic_concept.txt")

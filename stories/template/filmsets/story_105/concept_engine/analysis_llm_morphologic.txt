@@ -1,0 +1,16 @@
+An analysis of the provided Ge'ez text, adhering to the specified scientific rules and output schema.
+
+```json
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2024-07-29T12:00:00Z",
+    "created_by": "llm",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_105",
+    "graphematic_string": "105:1 ወÅእማንቱ፡መዋዕል፡ይቤ፡ እግዚእ፡ይጸውዑ፡ወይስምዑ፡ ለውሉደ፡ምድር፡ÅጥÅቦሙ፡ ር¡ዩ፡ሎሙ፡እስመ፡¡ንትሙ፡ መራሕያኒሆሙ፡ወዕሴያተ፡ዲÅ፡ ሉ፡ምድር፨\n105:2 እስመ፡¡ነ፡ወወልድየ፡ንደመር፡ ምስሌሆሙ፡ለዓለም፡Åፍናዋተ፡ ርትዕ፡Åሕይወቶሙ፡ወሰላም፡ ይ…ውን፡ለŒሙ፡ተፈሥሑ፡ ውሉደ፡ርትዕ፡¡ሜን ፧",
+    "normalization_policy

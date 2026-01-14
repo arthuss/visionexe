@@ -1,0 +1,38 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S6",
+      "plausibility": "high",
+      "reasoning": "This hypothesis addresses the anomalous word 'በሕረ' (bäḥrä) in 63:7. It posits that 'በሕረ' is a paleographically plausible scribal error for 'በትረ' (bäträ), the construct form of 'በትር' (bätr), meaning 'scepter'. The arguments for this emendation are: 1. Contextual Coherence: The verse lists items in which the kings placed their trust. A 'scepter' ('በትር') is a perfect parallel to the 'throne of our kingdom' ('መንበረ መንግሥትነ'). The standard meaning of 'በሕር' ('sea') is semantically obscure here. 2. Lexical Attestation: The phrase 'በትረ መንግሥት' (bäträ mängǝśt), 'scepter of the kingdom', is a well-attested and natural collocation in Ge'ez. In contrast, 'በሕረ መንግሥት' ('sea of the kingdom') is unattested and awkward. 3. Paleographic Similarity: The Ge'ez letters 'ሐ' (ḥ) and 'ተ' (t) are graphically similar and can be confused by scribes. The alternative hypothesis (S5), that 'በሕረ' is a semantic extension from its secondary meaning 'pearl' to 'scepter', is plausible but entirely unattested in Ge'ez literature, making it less parsimonious than a common type of scribal error.",
+      "parallels": [
+        {
+          "ref": "Ge'ez Psalm 44:7 (Heb. 45:6)",
+          "note": "The phrase 'በትረ፡ መንግሥትከ፡ በትረ፡ ርትዕ።' ('The scepter of your kingdom is a scepter of righteousness.') provides a clear precedent for the collocation of 'በትር' (scepter) and 'መንግሥት' (kingdom), supporting the proposed emendation."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S11",
+      "plausibility": "very high",
+      "reasoning": "This hypothesis addresses the verb 'ይቤልዎሙ' (yǝbelwomu, 'he will say to them') in 63:10, which disrupts the flow of the kings' lament. It posits that the original reading was 'ይብሉ' (yǝblu, 'they will say'). 1. Manuscript Evidence: This reading is attested in important manuscripts of 1 Enoch (e.g., manuscript 'g' in R.H. Charles's apparatus) and is adopted by most modern critical editions and translations (e.g., Knibb, Charlesworth). 2. Narrative Coherence: Reading 'ይብሉ' allows the kings to continue their speech from the preceding verses (63:4-9) without an abrupt, unannounced change of speaker. The alternative reading ('ይቤልዎሙ') forces a complex and unlikely interpretation where an anonymous figure (he) speaks to the kings (them) but uses the kings' own first-person voice ('our soul').",
+      "parallels": [
+        {
+          "ref": "R.H. Charles, The Ethiopic Version of the Book of Enoch, 1912, p. 113.",
+          "note": "Charles's critical apparatus for 63:10 documents the variant 'ይብሉ' (yeblu) and adopts it into his main text, demonstrating that this is a well-established textual issue with a clear, superior reading available in the manuscript tradition."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "Two significant textual issues were analyzed. For 63:7, the word 'በሕረ' (bäḥrä) is best explained as an ancient scribal error for 'በትረ' (bäträ), 'scepter'. This emendation is based on strong internal evidence (contextual fit, attested collocations) and paleographic plausibility. The primary uncertainty stems from the fact that extant critical editions do not list manuscript variants for this word, suggesting the error is very old and was widely copied. Nevertheless, the emendation provides a far more coherent reading than any interpretation of the transmitted text. For 63:10, the reading 'ይቤልዎሙ' ('he will say to them') is a demonstrable scribal error for 'ይብሉ' ('they will say'). This conclusion is supported by direct manuscript evidence and is the consensus of modern scholarship. It restores the narrative logic of the passage. The evaluation prefers text-critical solutions that align with attested linguistic usage and improve narrative coherence.",
+  "final_decision": {
+    "hypothesis_ref": "S6",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}
+```

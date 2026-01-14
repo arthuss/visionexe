@@ -1,12 +1,226 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
-  "scenes": [],
+  "actors": [
+    {
+      "name": "Semyaza",
+      "visualTraits": "Ge'ez: ሰምያዛ / ሰሞያዛ",
+      "changes": null,
+      "role": "Leader (መልአኮመ) and chief (ኃበይቶሙ) of the 200 angels."
+    },
+    {
+      "name": "Urakibarameel",
+      "visualTraits": "Ge'ez: ኡራኪበራሜኤል",
+      "changes": null,
+      "role": "Chief of the 200 angels."
+    },
+    {
+      "name": "Akibeel",
+      "visualTraits": "Ge'ez: አኪቤኤል",
+      "changes": null,
+      "role": "Chief of the 200 angels."
+    },
+    {
+      "name": "Tamiel",
+      "visualTraits": "Ge'ez: ጣሚኤል",
+      "changes": null,
+      "role": "Chief of the 200 angels."
+    },
+    {
+      "name": "Ramuel",
+      "visualTraits": "Ge'ez: ራሙኤል",
+      "changes": null,
+      "role": "Chief of the 200 angels."
+    },
+    {
+      "name": "Daniel",
+      "visualTraits": "Ge'ez: ዳንኤል",
+      "changes": null,
+      "role": "Chief of the 200 angels."
+    },
+    {
+      "name": "Ezeqeel",
+      "visualTraits": "Ge'ez: ኤዜቄኤል",
+      "changes": null,
+      "role": "Chief of the 200 angels."
+    },
+    {
+      "name": "Saraquyal",
+      "visualTraits": "Ge'ez: ሰራቍያል",
+      "changes": null,
+      "role": "Chief of the 200 angels."
+    },
+    {
+      "name": "Akael",
+      "visualTraits": "Ge'ez: አካኤል",
+      "changes": null,
+      "role": "Chief of the 200 angels."
+    },
+    {
+      "name": "Armers",
+      "visualTraits": "Ge'ez: አርሞርስ",
+      "changes": null,
+      "role": "Chief of the 200 angels."
+    },
+    {
+      "name": "Bemor'al",
+      "visualTraits": "Ge'ez: በሞረአል",
+      "changes": null,
+      "role": "Chief of the 200 angels."
+    },
+    {
+      "name": "Ananel",
+      "visualTraits": "Ge'ez: አናንኤል",
+      "changes": null,
+      "role": "Chief of the 200 angels."
+    },
+    {
+      "name": "Zaqebe",
+      "visualTraits": "Ge'ez: ዘቄቤ",
+      "changes": null,
+      "role": "Chief of the 200 angels."
+    },
+    {
+      "name": "Samsapeel",
+      "visualTraits": "Ge'ez: ሰምሳፔኤል",
+      "changes": null,
+      "role": "Chief of the 200 angels."
+    },
+    {
+      "name": "Sartael",
+      "visualTraits": "Ge'ez: ሰርተኤል",
+      "changes": null,
+      "role": "Chief of the 200 angels."
+    },
+    {
+      "name": "Turel",
+      "visualTraits": "Ge'ez: ጡርኤል",
+      "changes": null,
+      "role": "Chief of the 200 angels."
+    },
+    {
+      "name": "Yomyael",
+      "visualTraits": "Ge'ez: ዮምያኤል",
+      "changes": null,
+      "role": "Chief of the 200 angels."
+    },
+    {
+      "name": "Arazyal",
+      "visualTraits": "Ge'ez: አራዝያል",
+      "changes": null,
+      "role": "Chief of the 200 angels."
+    }
+  ],
+  "characters": [
+    {
+      "name": "Children of Men",
+      "visualTraits": "Ge'ez: ውሉደ፡​ሰብእ. A multiplying population of humans.",
+      "changes": null,
+      "role": "The human population on Earth."
+    },
+    {
+      "name": "Daughters",
+      "visualTraits": "Ge'ez: አዋልድ. Human females described as beautiful and comely (ሠናያት፡​ወላህያት).",
+      "changes": null,
+      "role": "The object of the angels' desire."
+    },
+    {
+      "name": "Angels / Children of Heaven",
+      "visualTraits": "Ge'ez: መለእክት፡​ውሉደ፡​ሰማያት. A group of two hundred (፪፻).",
+      "changes": null,
+      "role": "A group of celestial beings who conspire to descend to Earth."
+    }
+  ],
+  "props": [
+    {
+      "name": "Oath",
+      "visualTraits": "Ge'ez: መሐላ. A binding oath with mutual imprecations (ወንትዋግዝ፡በበይናቲነ).",
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Mount Hermon",
+      "visualTraits": "Ge'ez: ደብረ፡​አርሞን. A mountain named because the angels swore their oath upon it.",
+      "changes": null,
+      "role": "The location of the angels' descent and oath."
+    }
+  ],
+  "locations": [
+    {
+      "name": "Ardis",
+      "visualTraits": "Ge'ez: አርዲስ. The summit (ድማሁ) of Mount Hermon.",
+      "changes": null,
+      "role": "The specific site where the angels descended."
+    }
+  ],
+  "environments": [
+    {
+      "name": "Those Days",
+      "visualTraits": "Ge'ez: በእማንቱ፡​መዋዕል. A past era.",
+      "changes": null,
+      "role": "Temporal setting for the multiplication of humanity."
+    }
+  ],
+  "geo_environments": [
+    {
+      "name": "Hermon_Ingress_Hub",
+      "visualTraits": "Corresponds to Mount Hermon.",
+      "changes": null,
+      "role": "Canonical geographic location."
+    }
+  ],
+  "scenes": [
+    {
+      "title": "The Descent and Pact",
+      "location": "Begins in an unspecified celestial realm, concludes on Ardis, the summit of Mount Hermon.",
+      "action": "A group of 200 angels, called the Children of Heaven, see and desire the beautiful daughters of men. Led by Semyaza, who initially expresses fear of the sin, they agree to bind themselves with a mutual oath. They descend to Ardis on Mount Hermon and swear the oath, giving the mountain its name. The text then lists the names of the chiefs of this group.",
+      "actorsInvolved": [
+        "Semyaza",
+        "Urakibarameel",
+        "Akibeel",
+        "Tamiel",
+        "Ramuel",
+        "Daniel",
+        "Ezeqeel",
+        "Saraquyal",
+        "Akael",
+        "Armers",
+        "Bemor'al",
+        "Ananel",
+        "Zaqebe",
+        "Samsapeel",
+        "Sartael",
+        "Turel",
+        "Yomyael",
+        "Arazyal",
+        "Angels / Children of Heaven",
+        "Daughters",
+        "Children of Men"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "unspecified_celestial_realm",
+        "description": "An unspecified higher realm, the starting point of the angels."
+      },
+      {
+        "id": "ardis",
+        "description": "Ardis, the summit of Mount Hermon."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Angels / Children of Heaven",
+        "start_anchor": "unspecified_celestial_realm",
+        "end_anchor": "ardis",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "The text states the 200 angels 'descended' (ወወረዱ) to Ardis."
+      }
+    ]
   }
 }
 ```

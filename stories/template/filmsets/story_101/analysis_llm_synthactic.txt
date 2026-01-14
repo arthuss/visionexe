@@ -1,0 +1,21 @@
+An enumeration of all valid syntactic parses for the provided Ge'ez text, following the specified scientific rules.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "p1_s1",
+        "structure_type": "Coordinated Clauses",
+        "bracket_notation": "[S_Coord [S [VocP [NP [NP t3] [Gen t4]]] [VP [V t2] [Obj t2]]] [Conj t4] [S [VP t4]] [Conj t5] [S [VP t5]]]",
+        "dependencies": [
+          "t3->t4 (construct_genitive, 'work of the Most High')",
+          "t2->t3 (vocative, 'O children of heaven...')",
+          "t4->t2 (coord, coordination of imperative clauses)",
+          "t4->t5 (coord, coordination of imperative clauses)"
+        ],
+        "notes": "Sentence 1 (t2-t5). A series of three coordinated imperative clauses. The phrase 'ውሉደ፡ሰማይ፡...ልዑል' (t3-t4) is analyzed as a vocative phrase addressing the 'children of heaven'. The first clause is in t2, the second in t4, and the third in t5."
+      },
+      {
+        "id": "p2_s1",
+        "structure_type": "Coordinated Clauses with App

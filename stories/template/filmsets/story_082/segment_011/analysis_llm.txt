@@ -1,14 +1,403 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
+  "actors": [
+    {
+      "name": "Methuselah",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Son of the speaker (Enoch), recipient of the books of wisdom."
+    },
+    {
+      "name": "Enoch (speaker)",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Father of Methuselah, author of the books, narrator of the revelation."
+    },
+    {
+      "name": "Uriel",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Angel who revealed the celestial order to Enoch."
+    },
+    {
+      "name": "The Lord",
+      "visualTraits": null,
+      "changes": null,
+      "role": "The ultimate authority who commanded Uriel to reveal all of creation."
+    },
+    {
+      "name": "Melkiel",
+      "visualTraits": [
+        "Also called Melkiyal.",
+        "Associated with the 'bright sun'."
+      ],
+      "changes": null,
+      "role": "One of the four primary leaders of the seasons, rules the first quarter of the year."
+    },
+    {
+      "name": "Helämmemelek",
+      "visualTraits": [
+        "Associated with the 'bright sun'."
+      ],
+      "changes": null,
+      "role": "One of the four primary leaders of the seasons, rules the second quarter of the year."
+    },
+    {
+      "name": "Mel'eyel",
+      "visualTraits": null,
+      "changes": null,
+      "role": "One of the four primary leaders of the seasons."
+    },
+    {
+      "name": "Narel",
+      "visualTraits": null,
+      "changes": null,
+      "role": "One of the four primary leaders of the seasons."
+    },
+    {
+      "name": "'Adnar'el",
+      "visualTraits": null,
+      "changes": null,
+      "role": "A subordinate leader who follows the 'leaders of the orders'."
+    },
+    {
+      "name": "'Iyesusa'el",
+      "visualTraits": null,
+      "changes": null,
+      "role": "A subordinate leader who follows the 'leaders of the orders'."
+    },
+    {
+      "name": "'Iylumi'el",
+      "visualTraits": null,
+      "changes": null,
+      "role": "A subordinate leader who follows the 'leaders of the orders'."
+    },
+    {
+      "name": "Berke'el",
+      "visualTraits": null,
+      "changes": null,
+      "role": "A subordinate leader under Melkiel."
+    },
+    {
+      "name": "Zelbs'el",
+      "visualTraits": null,
+      "changes": null,
+      "role": "A subordinate leader under Melkiel."
+    },
+    {
+      "name": "Heloyasaf",
+      "visualTraits": null,
+      "changes": null,
+      "role": "A subordinate leader under Melkiel, designated as a 'chief of a thousand'."
+    },
+    {
+      "name": "Gede'iyel",
+      "visualTraits": null,
+      "changes": null,
+      "role": "A subordinate leader under Helämmemelek, a 'head of thousands'."
+    },
+    {
+      "name": "K'el",
+      "visualTraits": null,
+      "changes": null,
+      "role": "A subordinate leader under Helämmemelek."
+    },
+    {
+      "name": "Asfa'el",
+      "visualTraits": null,
+      "changes": null,
+      "role": "A subordinate leader under Helämmemelek, designated as a 'chief of a thousand'."
+    }
+  ],
+  "characters": [
+    {
+      "name": "Future Generations",
+      "visualTraits": null,
+      "changes": null,
+      "role": "The intended recipients of the wisdom contained in the books."
+    },
+    {
+      "name": "The Wise",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Those who will listen and learn the transmitted wisdom."
+    },
+    {
+      "name": "The Righteous",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Blessed people who walk on the path of righteousness."
+    },
+    {
+      "name": "Sinners",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Contrasted with the righteous, their days are numbered."
+    },
+    {
+      "name": "Men / People",
+      "visualTraits": null,
+      "changes": null,
+      "role": "General term for humans who err in their calculation of the year."
+    },
+    {
+      "name": "Heads of Thousands",
+      "visualTraits": null,
+      "changes": null,
+      "role": "A class of celestial leaders who divide the days."
+    },
+    {
+      "name": "Leaders of the Orders",
+      "visualTraits": null,
+      "changes": null,
+      "role": "A class of twelve celestial leaders who divide the months."
+    },
+    {
+      "name": "Leaders of the Stations",
+      "visualTraits": null,
+      "changes": null,
+      "role": "A class of celestial leaders who divide the four parts of the year."
+    },
+    {
+      "name": "The Led",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Beings who are guided by a leader."
+    }
+  ],
+  "props": [
+    {
+      "name": "Books of his father's hand",
+      "visualTraits": [
+        "Handwritten texts"
+      ],
+      "changes": null,
+      "role": "actor_prop:Methuselah"
+    },
+    {
+      "name": "Wisdom (as a teaching)",
+      "visualTraits": [
+        "Described as more pleasing than good food."
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Sun",
+      "visualTraits": [
+        "A luminary that provides light to mankind.",
+        "Described as 'bright'."
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Moon",
+      "visualTraits": [
+        "A luminary that provides light to mankind."
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Stars",
+      "visualTraits": [
+        "Luminaries that have their own order, seasons, and names."
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Fruit",
+      "visualTraits": [
+        "Grows on trees.",
+        "Becomes ripe and is gathered."
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Leaf",
+      "visualTraits": [
+        "Grows on all trees in the first season."
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Wheat",
+      "visualTraits": [
+        "Harvested in the first season."
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Rose",
+      "visualTraits": [
+        "A flower that blooms in the first season."
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Flowers of the field",
+      "visualTraits": [
+        "Bloom in the first season."
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Trees of winter",
+      "visualTraits": [
+        "Become dry."
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Sheep",
+      "visualTraits": null,
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Wine",
+      "visualTraits": null,
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "Heaven / Sky",
+      "visualTraits": [
+        "Contains the sun, moon, stars, and celestial powers.",
+        "Has gates through which the sun passes."
+      ],
+      "changes": null,
+      "role": "Setting for celestial movements."
+    },
+    {
+      "name": "Earth",
+      "visualTraits": [
+        "The realm where the signs of the seasons manifest."
+      ],
+      "changes": null,
+      "role": "Setting for terrestrial events."
+    },
+    {
+      "name": "Celestial Gates",
+      "visualTraits": [
+        "Four specific gates are mentioned: a first, third, fourth, and sixth."
+      ],
+      "changes": null,
+      "role": "Portals that regulate the 364-day year and the seasons."
+    },
+    {
+      "name": "Field / Wilderness",
+      "visualTraits": [
+        "A place where flowers grow."
+      ],
+      "changes": null,
+      "role": "A type of landscape on Earth."
+    },
+    {
+      "name": "Threshing Floors",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Location for processing harvested grain."
+    },
+    {
+      "name": "Wine-presses",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Location for making wine."
+    }
+  ],
+  "environments": [
+    {
+      "name": "First Season (under Melkiel)",
+      "visualTraits": [
+        "Characterized by heat and warmth.",
+        "Trees grow leaves and bear fruit.",
+        "Wheat is harvested.",
+        "Roses and field flowers bloom.",
+        "Winter trees become dry."
+      ],
+      "changes": null,
+      "role": "The first 91-day quarter of the year."
+    },
+    {
+      "name": "Second Season (under Helämmemelek)",
+      "visualTraits": [
+        "Characterized by scorching heat and dryness.",
+        "Trees produce ripe fruit.",
+        "Sheep mate and conceive.",
+        "All fruits of the earth are gathered, including grapes for wine."
+      ],
+      "changes": null,
+      "role": "The second 91-day quarter of the year."
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 82 Segment 11",
-      "location": "unknown",
-      "action": "unknown",
-      "actorsInvolved": []
+      "title": "Enoch's Charge to Methuselah",
+      "location": "unspecified",
+      "action": "Enoch addresses his son Methuselah, commanding him to guard the books he has written and to transmit them to all future generations.",
+      "actorsInvolved": [
+        "Enoch (speaker)",
+        "Methuselah"
+      ]
+    },
+    {
+      "title": "The Legacy of Wisdom",
+      "location": "unspecified",
+      "action": "The purpose of the books is explained: to provide wisdom for future generations, who will value it above fine food.",
+      "actorsInvolved": [],
+      "charactersInvolved": [
+        "Future Generations",
+        "The Wise"
+      ]
+    },
+    {
+      "title": "The True Calendar Revealed",
+      "location": "Heaven / Sky (conceptual)",
+      "action": "The speaker outlines the 364-day solar year, its division by celestial gates, the four intercalary days, and the error of men who miscalculate it. This knowledge is credited to the angel Uriel, commanded by the Lord.",
+      "actorsInvolved": [
+        "Uriel",
+        "The Lord"
+      ],
+      "charactersInvolved": [
+        "The Righteous",
+        "Sinners",
+        "Men / People"
+      ]
+    },
+    {
+      "title": "The First Quarter of the Year",
+      "location": "Earth",
+      "action": "A description of the first 91-day season, led by Melkiel, detailing its earthly signs (heat, plant growth, harvest) and its subordinate leaders.",
+      "actorsInvolved": [
+        "Melkiel",
+        "Berke'el",
+        "Zelbs'el",
+        "Heloyasaf"
+      ]
+    },
+    {
+      "title": "The Second Quarter of the Year",
+      "location": "Earth",
+      "action": "A description of the second 91-day season, led by Helämmemelek, detailing its earthly signs (scorching heat, dryness, ripening, animal mating) and its subordinate leaders.",
+      "actorsInvolved": [
+        "Helämmemelek",
+        "Gede'iyel",
+        "K'el",
+        "Asfa'el"
+      ]
     }
   ],
   "blocking": {

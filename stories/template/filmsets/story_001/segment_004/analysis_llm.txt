@@ -2,88 +2,235 @@
 {
   "actors": [
     {
-      "name": "The Holy and Great One",
-      "visualTraits": "A being whose power ('the strength of his power') is visibly manifested from Heaven. No other physical description is provided.",
+      "name": "Enoch",
+      "visualTraits": "A righteous man whose eyes are open, enabling him to see a holy vision.",
       "changes": [],
-      "role": "The central figure of the theophany, who travels and appears."
+      "role": "prophet"
+    },
+    {
+      "name": "God",
+      "visualTraits": "A being referred to as 'the Lord' (እግዚአብሔር), 'the Holy and Great One' (ቅዱስ፡​ወዓቢይ), and 'the God of the world' (አምላከ፡​ዓለም). Appears with the power of His strength from heaven. His arrival is accompanied by ten thousands of holy ones and causes universal fear, trembling, and geological upheaval.",
+      "changes": [],
+      "role": "divine_judge"
     }
   ],
   "characters": [
     {
-      "name": "The Host",
-      "visualTraits": "An appearing group ('his camp/host') that accompanies The Holy and Great One. Their specific appearance is not detailed.",
+      "name": "The Elect",
+      "visualTraits": "A group destined to be present on the day of tribulation. They are blessed by Enoch and will be protected and receive mercy from God.",
       "changes": [],
-      "role": "Entourage or army accompanying the main actor."
+      "role": "protagonist_group"
+    },
+    {
+      "name": "The Righteous",
+      "visualTraits": "A group blessed by Enoch. They will receive peace from God during the judgment.",
+      "changes": [],
+      "role": "protagonist_group"
+    },
+    {
+      "name": "The Evil",
+      "visualTraits": null,
+      "changes": [],
+      "role": "antagonist_group"
+    },
+    {
+      "name": "The Impious",
+      "visualTraits": null,
+      "changes": [],
+      "role": "antagonist_group"
+    },
+    {
+      "name": "Angels",
+      "visualTraits": "Beings in the heavens who reveal a holy vision to Enoch.",
+      "changes": [],
+      "role": "messenger"
+    },
+    {
+      "name": "This generation",
+      "visualTraits": null,
+      "changes": [],
+      "role": "audience_group"
+    },
+    {
+      "name": "A remote generation",
+      "visualTraits": "The future generation for whom Enoch's prophecy is intended.",
+      "changes": [],
+      "role": "audience_group"
+    },
+    {
+      "name": "The Watchers",
+      "visualTraits": "A group that will tremble and be seized with great fear and trembling at God's appearance.",
+      "changes": [],
+      "role": "observer_group"
+    },
+    {
+      "name": "Holy Ones",
+      "visualTraits": "A myriad (ten thousands) who accompany God when He comes to execute judgment.",
+      "changes": [],
+      "role": "divine_retinue"
+    },
+    {
+      "name": "All of flesh",
+      "visualTraits": null,
+      "changes": [],
+      "role": "judged_group"
+    },
+    {
+      "name": "Sinners",
+      "visualTraits": null,
+      "changes": [],
+      "role": "antagonist_group"
     }
   ],
   "props": [],
   "places": [
     {
-      "name": "Mount Sinai",
-      "visualTraits": "A mountain that serves as the destination for the theophany.",
+      "name": "Heaven",
+      "visualTraits": "The location of the holy vision shown to Enoch.",
       "changes": [],
-      "role": "The stage for the divine appearance."
+      "role": "divine_realm"
     },
     {
-      "name": "Heaven",
-      "visualTraits": "The sky or celestial realm, described as the source from which power emanates.",
+      "name": "Dwelling Place",
+      "visualTraits": "The abode from which the Holy and Great One comes forth.",
       "changes": [],
-      "role": "The origin point of the manifested power."
+      "role": "divine_realm"
+    },
+    {
+      "name": "Earth",
+      "visualTraits": "A realm whose ends tremble with fear. It is subject to judgment.",
+      "changes": [
+        {
+          "phase": "Phase 1: pre-judgment",
+          "description": "A stable world."
+        },
+        {
+          "phase": "Phase 2: judgment",
+          "description": "The Earth is submerged, and everything within it is destroyed."
+        }
+      ],
+      "role": "setting"
     }
   ],
   "locations": [
     {
-      "name": "The Dwelling (origin point)",
-      "visualTraits": "An unspecified starting location, referred to as 'from there' (እምህየ), which implies continuity from the 'dwelling' mentioned in the previous segment.",
+      "name": "Ends of the earth",
+      "visualTraits": "The furthest extent of the world, which is reached by great fear and trembling.",
       "changes": [],
-      "role": "The starting point of the movement."
+      "role": "boundary"
     }
   ],
   "environments": [
     {
-      "name": "Manifestation of Power",
-      "visualTraits": "The appearance of the 'strength of his power' from the sky, suggesting a powerful, visible, and possibly overwhelming atmospheric or energetic event.",
+      "name": "Day of Tribulation",
+      "visualTraits": "A future time designated for the removal of all evil and impious people.",
       "changes": [],
-      "role": "A key descriptor of the scene's atmosphere."
+      "role": "temporal_setting"
+    },
+    {
+      "name": "High mountains",
+      "visualTraits": "Tall geological formations.",
+      "changes": [
+        {
+          "phase": "Phase 1: pre-judgment",
+          "description": "Standing tall."
+        },
+        {
+          "phase": "Phase 2: judgment",
+          "description": "Shaken and thrown down."
+        }
+      ],
+      "role": "geographical_feature"
+    },
+    {
+      "name": "High hills",
+      "visualTraits": "Elevated landforms.",
+      "changes": [
+        {
+          "phase": "Phase 1: pre-judgment",
+          "description": "Standing tall."
+        },
+        {
+          "phase": "Phase 2: judgment",
+          "description": "Brought low and melted like wax before a flame."
+        }
+      ],
+      "role": "geographical_feature"
     }
   ],
   "geo_environments": [
     {
       "name": "Sinai_Port_V1",
-      "visualTraits": "A mountainous region that is the focal point of a divine event.",
+      "visualTraits": "A mountain upon which the God of the world will tread and manifest His power.",
       "changes": [],
-      "role": "The canonical geographical setting for the event."
+      "role": "theophany_site"
     }
   ],
   "scenes": [
     {
-      "title": "The Theophany at Sinai",
-      "location": "Mount Sinai",
-      "action": "The Holy and Great One travels from his dwelling to Mount Sinai, where his host appears and his power is manifested from heaven.",
+      "title": "Enoch's Prophetic Commission",
+      "location": "Unspecified (visionary space)",
+      "action": "Enoch delivers words of blessing, recounting how he, a righteous man, saw a holy vision from the heavens shown by angels. He understands the vision is for a remote generation, not his own.",
       "actorsInvolved": [
-        "The Holy and Great One"
+        "Enoch",
+        "Angels"
+      ]
+    },
+    {
+      "title": "The Theophany on Sinai",
+      "location": "From a divine Dwelling Place to Mount Sinai, with effects felt across the Earth.",
+      "action": "The Holy and Great One, the God of the world, comes forth from His dwelling, treads upon Mount Sinai, and appears with power from heaven. This event causes universal fear, making the Watchers tremble and the mountains and hills collapse and melt.",
+      "actorsInvolved": [
+        "God",
+        "The Watchers"
+      ]
+    },
+    {
+      "title": "The Universal Judgment",
+      "location": "Earth",
+      "action": "The Earth is submerged and everything on it is destroyed. Judgment is executed upon all. God provides peace and protection for the Righteous and the Elect, who will be blessed with His light. God arrives with ten thousands of His Holy Ones to destroy the impious and reprove all flesh for their sinful deeds.",
+      "actorsInvolved": [
+        "God",
+        "The Righteous",
+        "The Elect",
+        "Holy Ones",
+        "The Impious",
+        "Sinners",
+        "All of flesh"
       ]
     }
   ],
   "blocking": {
     "anchors": [
       {
-        "id": "anchor_start",
-        "description": "An unspecified origin point, 'from there', understood as 'His Dwelling' from the prior context."
+        "id": "dwelling_place",
+        "description": "The dwelling place of the Holy and Great One."
       },
       {
-        "id": "anchor_end",
+        "id": "mount_sinai",
         "description": "Mount Sinai."
+      },
+      {
+        "id": "earth",
+        "description": "The Earth, as the location of judgment."
       }
     ],
     "paths": [
       {
-        "actor": "The Holy and Great One",
-        "start_anchor": "anchor_start",
-        "end_anchor": "anchor_end",
+        "actor": "God",
+        "start_anchor": "dwelling_place",
+        "end_anchor": "mount_sinai",
         "motion": "walk",
         "duration_sec": null,
-        "notes": "The text states 'he will go to' (ይይድ), indicating direct travel between the two points."
+        "notes": "The text states the God of the world 'will tread upon Mount Sinai' (ይከይድ፡​ዲበ፡​ሲና፡​ደብር)."
+      },
+      {
+        "actor": "God",
+        "start_anchor": "unknown",
+        "end_anchor": "earth",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "The text states 'Behold, he came with ten thousands of his holy ones to execute judgment' (ናሁ፡​መጽአ፡​በትእልፊት፡​ቅዱሳን፡​ከመ፡​ይግበር፡​ፍትሐ). The starting point is implied to be His heavenly dwelling."
       }
     ]
   }

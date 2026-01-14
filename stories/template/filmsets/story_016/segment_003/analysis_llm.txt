@@ -1,27 +1,150 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [
+  "actors": [
     {
-      "name": "ሰማይ",
-      "visualTraits": "expansive, blue",
-      "changes": null,
-      "role": "setting"
-    },
-    {
-      "name": "ምድር",
-      "visualTraits": "solid, ground",
-      "changes": null,
-      "role": "setting"
+      "name": "Watchers",
+      "visualTraits": [
+        "Formerly dwelt in heaven"
+      ],
+      "changes": [],
+      "role": "Fallen celestial beings who revealed a forbidden mystery"
     }
   ],
+  "characters": [
+    {
+      "name": "spirits",
+      "visualTraits": [
+        "Disembodied entities that emerge from flesh"
+      ],
+      "changes": [],
+      "role": "Agents of destruction"
+    },
+    {
+      "name": "the wicked",
+      "visualTraits": [
+        "unspecified"
+      ],
+      "changes": [],
+      "role": "Group destined for judgment alongside the Watchers"
+    },
+    {
+      "name": "you (intercessor)",
+      "visualTraits": [
+        "unspecified"
+      ],
+      "changes": [],
+      "role": "An individual sent to ask on behalf of the Watchers"
+    },
+    {
+      "name": "women",
+      "visualTraits": [
+        "unspecified"
+      ],
+      "changes": [],
+      "role": "Recipients of the worthless mystery"
+    },
+    {
+      "name": "men",
+      "visualTraits": [
+        "unspecified"
+      ],
+      "changes": [],
+      "role": "Agents who multiply evil on earth"
+    }
+  ],
+  "props": [
+    {
+      "name": "flesh",
+      "visualTraits": [
+        "Physical bodies that are subject to decay"
+      ],
+      "changes": [],
+      "role": "actor_prop:spirits"
+    },
+    {
+      "name": "worthless mystery",
+      "visualTraits": [
+        "A form of hidden, forbidden knowledge"
+      ],
+      "changes": [],
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "heaven",
+      "visualTraits": [
+        "The former dwelling place of the Watchers"
+      ],
+      "changes": [],
+      "role": "celestial_realm"
+    },
+    {
+      "name": "earth",
+      "visualTraits": [
+        "The realm upon which evil is multiplied"
+      ],
+      "changes": [],
+      "role": "terrestrial_realm"
+    }
+  ],
+  "locations": [],
+  "environments": [
+    {
+      "name": "days of slaughter, destruction, and death",
+      "visualTraits": [
+        "A period of time characterized by killing and ruin"
+      ],
+      "changes": [],
+      "role": "temporal_setting"
+    },
+    {
+      "name": "great day of consummation",
+      "visualTraits": [
+        "A future time of final judgment"
+      ],
+      "changes": [],
+      "role": "temporal_setting"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 16 Segment 3",
-      "location": "sky and earth",
-      "action": "unknown",
-      "actorsInvolved": []
+      "title": "The Fate of the Spirits",
+      "location": "unspecified",
+      "action": "In a time of death and destruction, spirits emerge from their flesh, which decays without judgment. These spirits will continue to cause destruction until the great day of consummation, when the Watchers and the wicked will also face their end.",
+      "actorsInvolved": [
+        "spirits",
+        "Watchers",
+        "the wicked"
+      ]
+    },
+    {
+      "title": "The Recalled Intercession",
+      "location": "heaven (past)",
+      "action": "An intercessor is reminded that they were sent to plead on behalf of the Watchers, who were formerly in heaven.",
+      "actorsInvolved": [
+        "you (intercessor)",
+        "Watchers"
+      ]
+    },
+    {
+      "title": "The Condemnation for the Revealed Mystery",
+      "location": "earth",
+      "action": "The Watchers are condemned for having learned a worthless mystery while in heaven and revealing it to women, which has caused women and men to multiply evil on earth.",
+      "actorsInvolved": [
+        "Watchers",
+        "women",
+        "men"
+      ]
+    },
+    {
+      "title": "Declaration of No Peace",
+      "location": "unspecified",
+      "action": "A final sentence is delivered to the Watchers, declaring that they will have no peace.",
+      "actorsInvolved": [
+        "Watchers"
+      ]
     }
   ],
   "blocking": {

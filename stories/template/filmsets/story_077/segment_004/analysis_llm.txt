@@ -1,69 +1,346 @@
 ```json
 {
-  "actors": [],
+  "actors": [
+    {
+      "name": "Most High",
+      "visualTraits": {
+        "description": "A being who descends from above."
+      },
+      "changes": null,
+      "role": "divine_being"
+    },
+    {
+      "name": "Narrator",
+      "visualTraits": {
+        "description": "An observer, implied by the first-person verb 'I saw' (ርኢኩ)."
+      },
+      "changes": null,
+      "role": "observer"
+    }
+  ],
+  "characters": [
+    {
+      "name": "They",
+      "visualTraits": {
+        "description": "An unspecified group who names the winds."
+      },
+      "changes": null,
+      "role": "unnamed_group"
+    },
+    {
+      "name": "Men",
+      "visualTraits": {
+        "description": "Inhabitants of the earth."
+      },
+      "changes": null,
+      "role": "inhabitants"
+    }
+  ],
   "props": [
     {
-      "name": "ድባር",
-      "visualTraits": "drum",
+      "name": "First Wind (Eastern)",
+      "visualTraits": {
+        "description": "The first wind, associated with the east (ጽባሓዊ)."
+      },
       "changes": null,
-      "role": "instrument"
+      "role": "scene_prop"
     },
     {
-      "name": "ነዋኃት",
-      "visualTraits": "fire",
+      "name": "Second Wind (Zeb)",
+      "visualTraits": {
+        "description": "A wind named Zeb (ዜብ)."
+      },
       "changes": null,
-      "role": "element"
+      "role": "scene_prop"
     },
     {
-      "name": "እምሉ",
-      "visualTraits": "light",
+      "name": "West Wind (Netug)",
+      "visualTraits": {
+        "description": "The wind from the west (ምዕራብ), named Netug (ንቱግ). The luminaries of heaven set where it is."
+      },
       "changes": null,
-      "role": "element"
+      "role": "scene_prop"
     },
     {
-      "name": "ስሐትያ",
-      "visualTraits": "unknown",
+      "name": "Fourth Wind (Mes'e)",
+      "visualTraits": {
+        "description": "A wind named Mes'e (መስዕ) which is divided into three parts, governing different regions of the world."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Luminaries of heaven",
+      "visualTraits": {
+        "description": "Celestial bodies (ብርሃናተ፡ሰማይ) that diminish and set in the west."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Garden of Righteousness",
+      "visualTraits": {
+        "description": "A garden (ገነተ፡ጽድቅ) that constitutes one of the three divisions of the world under the fourth wind."
+      },
       "changes": null,
       "role": "place"
+    }
+  ],
+  "locations": [
+    {
+      "name": "The Earth",
+      "visualTraits": {
+        "description": "The world (ምድር), containing mountains, rivers, and dwellings for men."
+      },
+      "changes": null,
+      "role": "location"
     },
     {
-      "name": "ወእምሆሙ",
-      "visualTraits": "unknown",
+      "name": "Dwelling of Men",
+      "visualTraits": {
+        "description": "A region (ማኅደር፡ለሰብእ) that is one of the three divisions of the world."
+      },
       "changes": null,
-      "role": "unknown"
+      "role": "location"
     },
     {
-      "name": "ወየኀልፍ",
-      "visualTraits": "unknown",
+      "name": "Seven High Mountains",
+      "visualTraits": {
+        "description": "A range of seven mountains (፯ƒድባር፡ነዋኃት) higher than all others on earth, from which hoarfrost originates."
+      },
       "changes": null,
-      "role": "unknown"
+      "role": "location"
+    },
+    {
+      "name": "Seven Great Rivers",
+      "visualTraits": {
+        "description": "A system of seven large rivers (፯፡¡ፍላገ፡...፡ዐÅይተ) on the earth."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "The Great Sea",
+      "visualTraits": {
+        "description": "A large body of water (ባሕር፡ዐቢይ) into which three of the seven great rivers flow."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "Sea of Erythra",
+      "visualTraits": {
+        "description": "A sea (ባሕረ፡ኤርትራ) into which four of the seven great rivers flow."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "Seven Great Islands",
+      "visualTraits": {
+        "description": "Seven large islands (ሰቡዑ፡ደሰያተ፡ዐÅይተ), some in the sea and some on land. Two are specified to be in the Sea of Erythra."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "The West",
+      "visualTraits": {
+        "description": "A cardinal direction (ዐረብ) that is the origin point of one of the great rivers."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "The North",
+      "visualTraits": {
+        "description": "A cardinal direction (መስዕ) that is the origin point for six of the great rivers."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "A Desert",
+      "visualTraits": {
+        "description": "A desert (መድÅራ) region."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Formation",
+          "description": "The area becomes a desert where two rivers terminate in the Great Sea and are 'changed'."
+        }
+      ],
+      "role": "location"
     }
   ],
   "environments": [
     {
-      "name": "ምድር",
-      "visualTraits": "earth",
+      "name": "Seas of waters",
+      "visualTraits": {
+        "description": "Large bodies of salt water (¡ብሕርተ፡ዘማያት)."
+      },
       "changes": null,
-      "role": "ground"
+      "role": "environment"
     },
     {
-      "name": "ስሐትያ",
-      "visualTraits": "unknown",
+      "name": "Oceans",
+      "visualTraits": {
+        "description": "Oceans (Åቀላያት)."
+      },
       "changes": null,
-      "role": "place"
+      "role": "environment"
+    },
+    {
+      "name": "Rivers",
+      "visualTraits": {
+        "description": "Flowing bodies of water (Åኦም, Å¡ፍላግ)."
+      },
+      "changes": null,
+      "role": "environment"
+    },
+    {
+      "name": "Darkness",
+      "visualTraits": {
+        "description": "An environment of darkness (Åጽልመት)."
+      },
+      "changes": null,
+      "role": "environment"
+    },
+    {
+      "name": "Mist",
+      "visualTraits": {
+        "description": "An environment of mist (Åጊሜ)."
+      },
+      "changes": null,
+      "role": "environment"
+    },
+    {
+      "name": "Hoarfrost",
+      "visualTraits": {
+        "description": "Hoarfrost (¡ስሐትያ) that comes forth from the seven high mountains."
+      },
+      "changes": null,
+      "role": "environment"
+    }
+  ],
+  "geo_environments": [
+    {
+      "name": "Gold_Master_Eden",
+      "visualTraits": {
+        "description": "Referred to as the 'Garden of Righteousness'."
+      },
+      "changes": null,
+      "role": "geo_environment"
     }
   ],
   "scenes": [
     {
-      "title": "Chapter 77 Segment 4",
-      "location": "unknown",
-      "action": "unknown",
+      "title": "The Naming of the Winds",
+      "location": "Conceptual Space",
+      "action": "The first and second winds are named, and the descent of the Most High is described.",
+      "actorsInvolved": [
+        "Most High",
+        "They"
+      ]
+    },
+    {
+      "title": "The West Wind's Domain",
+      "location": "The West",
+      "action": "The west wind, Netug, is described as the place where the luminaries of heaven set.",
       "actorsInvolved": []
+    },
+    {
+      "title": "The Division of the World",
+      "location": "The Earth",
+      "action": "The fourth wind, Mes'e, is described as dividing the world into three parts: the dwelling of men, the waters/darkness, and the Garden of Righteousness.",
+      "actorsInvolved": [
+        "Men"
+      ]
+    },
+    {
+      "title": "Vision of the Seven Mountains",
+      "location": "The Earth",
+      "action": "The Narrator sees seven mountains, higher than all others, from which hoarfrost emerges.",
+      "actorsInvolved": [
+        "Narrator"
+      ]
+    },
+    {
+      "title": "The Course of the Seven Rivers",
+      "location": "The Earth",
+      "action": "The Narrator observes the seven great rivers, tracing their paths from the west and north to the Great Sea and the Sea of Erythra.",
+      "actorsInvolved": [
+        "Narrator"
+      ]
+    },
+    {
+      "title": "Vision of the Seven Islands",
+      "location": "The Sea and The Land",
+      "action": "The Narrator sees seven great islands located on land and in the sea, with two specifically in the Sea of Erythra.",
+      "actorsInvolved": [
+        "Narrator"
+      ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "west",
+        "description": "The West, origin of one river."
+      },
+      {
+        "id": "great_sea",
+        "description": "The Great Sea, destination for three rivers."
+      },
+      {
+        "id": "north",
+        "description": "The North, origin of two rivers."
+      },
+      {
+        "id": "side_of_north",
+        "description": "The side of the North, origin of four rivers."
+      },
+      {
+        "id": "sea_of_erythra",
+        "description": "The Sea of Erythra, destination for four rivers."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "river_1_of_7",
+        "start_anchor": "west",
+        "end_anchor": "great_sea",
+        "motion": "flow",
+        "duration_sec": null,
+        "notes": "One river comes from the west and flows into the great sea."
+      },
+      {
+        "actor": "rivers_2_and_3_of_7",
+        "start_anchor": "north",
+        "end_anchor": "sea_of_erythra",
+        "motion": "flow",
+        "duration_sec": null,
+        "notes": "Two rivers come from the north and pour their water into the Sea of Erythra from the east."
+      },
+      {
+        "actor": "rivers_4_to_7_of_7",
+        "start_anchor": "side_of_north",
+        "end_anchor": "sea_of_erythra",
+        "motion": "flow",
+        "duration_sec": null,
+        "notes": "The remaining four rivers come out from the side of the north to the Sea of Erythra."
+      },
+      {
+        "actor": "two_diverted_rivers",
+        "start_anchor": "side_of_north",
+        "end_anchor": "great_sea",
+        "motion": "flow",
+        "duration_sec": null,
+        "notes": "Two of the four rivers from the north divert to the Great Sea, where they are 'changed' and become a desert."
+      }
+    ]
   }
 }
 ```

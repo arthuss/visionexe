@@ -1,45 +1,190 @@
 ```json
 {
   "actors": [
-    {"name":"ወሎሙ","visualTraits":null,"changes":null,"role":"chanting"},
-    {"name":"እልኩ","visualTraits":null,"changes":null,"role":"chanting"},
-    {"name":"እባግዕ","visualTraits":null,"changes":null,"role":"chanting"},
-    {"name":"ይፈርሁ","visualTraits":null,"changes":null,"role":"chanting"},
-    {"name":"ወይርዕዱ","visualTraits":null,"changes":null,"role":"chanting"},
-    {"name":"እምሁ","visualTraits":null,"changes":null,"role":"chanting"},
-    {"name":"ወይጸር","visualTraits":null,"changes":null,"role":"chanting"},
-    {"name":"ድኅሬሁ","visualTraits":null,"changes":null,"role":"chanting"},
-    {"name":"ለዝኩ","visualTraits":null,"changes":null,"role":"chanting"},
-    {"name":"ግዕ","visualTraits":null,"changes":null,"role":"chanting"},
-    {"name":"ዘሀሎ","visualTraits":null,"changes":null,"role":"chanting"},
-    {"name":"ምስሌሁ","visualTraits":null,"changes":null,"role":"chanting"},
-    {"name":"ለልእ","visualTraits":null,"changes":null,"role":"chanting"},
-    {"name":"ሙሴ","visualTraits":null,"changes":null,"role":"chanting"},
-    {"name":"ር፡ተውና","visualTraits":null,"changes":null,"role":"chanting"},
-    {"name":"እግዚ","visualTraits":null,"changes":null,"role":"chanting"},
-    {"name":"ዘነ","visualTraits":null,"changes":null,"role":"chanting"},
-    {"name":"ማእሎሙ፨እስመ፡","visualTraits":null,"changes":null,"role":"chanting"},
-    {"name":"ኢንል፡ቀዊመ፡ቅድመ፡","visualTraits":null,"changes":null,"role":"chanting"},
-    {"name":"እግዚእነ፡ወኢነጽሮቶ፡","visualTraits":null,"changes":null,"role":"chanting"}
-  ],
-  "props": [],
-  "environments": [],
-  "scenes": [
     {
-      "title":"Chapter 89 Segment 31",
-      "location":null,
-      "action":"chanting verses",
-      "actorsInvolved":[
-        "ወሎሙ","እልኩ","እባግዕ","ይፈርሁ","ወይርዕዱ","እምሁ",
-        "ወይጸር","ድኅሬሁ","ለዝኩ","ግዕ","ዘሀሎ","ምስሌሁ",
-        "ለልእ","ሙሴ","ር፡ተውና","እግዚ","ዘነ","ማእሎሙ፨እስመ፡",
-        "ኢንል፡ቀዊመ፡ቅድመ፡","እግዚእነ፡ወኢነጽሮቶ፡"
-      ]
+      "name": "White Lamb (Noah)",
+      "visualTraits": [
+        "A white lamb"
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Lamb",
+          "description": "Appears as a white lamb who is taught a secret."
+        },
+        {
+          "phase": "Phase 2: Man",
+          "description": "Is born and becomes a man (ወœነ፡ሰብ¡), builds an ark, and survives a great flood."
+        }
+      ],
+      "role": "Patriarch who builds an ark to survive a flood."
+    },
+    {
+      "name": "Lord of the sheep",
+      "visualTraits": [
+        "His countenance is glorious, honored, and terrible to behold.",
+        "His appearance is great, terrible, and mighty."
+      ],
+      "changes": null,
+      "role": "The divine owner and ultimate authority over the sheep."
+    },
+    {
+      "name": "Ram (Moses)",
+      "visualTraits": [
+        "A ram saved from wolves."
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Ram",
+          "description": "A ram who leads the sheep out of oppression."
+        },
+        {
+          "phase": "Phase 2: Man",
+          "description": "Becomes a man (œነ፡ብእሴ) and builds a house for the Lord of the sheep."
+        }
+      ],
+      "role": "Leader and lawgiver for the sheep, explicitly named 'ሙሴ' (Moses)."
+    },
+    {
+      "name": "Other Ram (Aaron)",
+      "visualTraits": [
+        "A ram."
+      ],
+      "changes": null,
+      "role": "A companion ram who assists the lead Ram (Moses)."
+    },
+    {
+      "name": "Scribing One",
+      "visualTraits": [
+        "An entity who writes."
+      ],
+      "changes": null,
+      "role": "An observer tasked by the Lord of the sheep to record the actions of the shepherds and the fate of the sheep."
     }
   ],
-  "blocking": {
-    "anchors": [],
-    "paths": []
-  }
-}
-```
+  "characters": [
+    {
+      "name": "Three Lambs",
+      "visualTraits": [
+        "One is white, one is red like blood, and one is black."
+      ],
+      "changes": null,
+      "role": "The three companions of the White Lamb (Noah) in the ark."
+    },
+    {
+      "name": "Sheep",
+      "visualTraits": [
+        "A flock of sheep, including lambs and rams."
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Sighted",
+          "description": "Normal vision."
+        },
+        {
+          "phase": "Phase 2: Blinded",
+          "description": "Their eyes become blinded or veiled, causing them to go astray."
+        },
+        {
+          "phase": "Phase 3: Sighted (intermittent)",
+          "description": "Their eyes are sometimes opened and sometimes blinded again."
+        }
+      ],
+      "role": "The primary group of protagonists, representing a nation or people."
+    },
+    {
+      "name": "Wild Beasts",
+      "visualTraits": [
+        "A collective term for various predatory animals."
+      ],
+      "changes": null,
+      "role": "Antagonists that attack and devour the sheep."
+    },
+    {
+      "name": "Birds",
+      "visualTraits": [
+        "Various species of birds."
+      ],
+      "changes": null,
+      "role": "Part of the animal population."
+    },
+    {
+      "name": "Lions",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Predators that attack the sheep."
+    },
+    {
+      "name": "Tigers",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Predators that attack the sheep."
+    },
+    {
+      "name": "Wolves",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Predators that oppress and attack the sheep."
+    },
+    {
+      "name": "Dogs",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Predators that attack the sheep."
+    },
+    {
+      "name": "Hyenas",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Predators that attack the sheep."
+    },
+    {
+      "name": "Wild Boars",
+      "visualTraits": [
+        "One is described as black."
+      ],
+      "changes": null,
+      "role": "Predators that attack the sheep."
+    },
+    {
+      "name": "Bears",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Predators that attack the sheep."
+    },
+    {
+      "name": "Eagles",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Birds of prey."
+    },
+    {
+      "name": "Kites",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Birds of prey."
+    },
+    {
+      "name": "Ravens",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Birds."
+    },
+    {
+      "name": "Phoenixes",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Birds."
+    },
+    {
+      "name": "White Bull",
+      "visualTraits": [
+        "A white bull."
+      ],
+      "changes": null,
+      "role": "An ancestor in the lineage of the sheep."
+    },
+    {
+      "name": "Wild Asses",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Animals in the lineage

@@ -1,32 +1,170 @@
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "P1",
-        "structure_type": "Header + Fragments",
-        "bracket_notation": "[ROOT [HEADER [TITLE [N t1] [NUM t2]] [ID [N t3] [NUM t4]]] [BODY [NP t5] [NP t6] [NP t7] [PUNC t8] [NP t9] [NP t10] [NP t11] [NP t12]]]",
+        "id": "S1a",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t1] [Gen t2]]",
         "dependencies": [
-          "t1->t2 (mod)",
-          "t3->t4 (mod)"
+          "t1->t2 (genitive)"
         ],
-        "notes": "Safe parse assuming a metadata header followed by a flat list of body fragments. No verb was tagged in this segment."
+        "notes": "Analysis of the verse number (t1) as the head of a construct chain, with the verse text (t2) as its genitive modifier. This is one of two possible parses for this token pair."
       },
       {
-        "id": "P2",
-        "structure_type": "Nominal Coordination with Punctuation",
-        "bracket_notation": "[ROOT [HEADER [TITLE [N t1] [NUM t2]] [ID [N t3] [NUM t4]]] [CLAUSE [NP t5] [NP t6] [NP t7]] [PUNC t8] [CLAUSE [NP t9] [NP t10] [NP t11] [NP t12]]]",
+        "id": "S1b",
+        "structure_type": "Apposition",
+        "bracket_notation": "[Fragment [NP t1] [S t2]]",
         "dependencies": [
-          "t1->t2 (mod)",
-          "t3->t4 (mod)",
-          "t5->t6 (conj)",
-          "t5->t7 (conj)",
-          "t9->t10 (conj)",
-          "t9->t11 (conj)",
-          "t9->t12 (conj)",
-          "ROOT->t8 (punct)"
+          "t1->t2 (apposition)"
         ],
-        "notes": "Assumes the punctuation mark t8 separates two coordinated nominal clauses."
+        "notes": "Analysis of the verse number (t1) as a label in apposition to the verse text (t2). This is one of two possible parses for this token pair."
+      },
+      {
+        "id": "S2a",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t3] [Gen t4]]",
+        "dependencies": [
+          "t3->t4 (genitive)"
+        ],
+        "notes": "Analysis of the verse number (t3) as the head of a construct chain, with the verse text (t4) as its genitive modifier. This is one of two possible parses for this token pair."
+      },
+      {
+        "id": "S2b",
+        "structure_type": "Apposition",
+        "bracket_notation": "[Fragment [NP t3] [S t4]]",
+        "dependencies": [
+          "t3->t4 (apposition)"
+        ],
+        "notes": "Analysis of the verse number (t3) as a label in apposition to the verse text (t4). This is one of two possible parses for this token pair."
+      },
+      {
+        "id": "S3a",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t5] [Gen t6]]",
+        "dependencies": [
+          "t5->t6 (genitive)"
+        ],
+        "notes": "Analysis of the verse number (t5) as the head of a construct chain, with the verse text (t6) as its genitive modifier. This is one of two possible parses for this token pair."
+      },
+      {
+        "id": "S3b",
+        "structure_type": "Apposition",
+        "bracket_notation": "[Fragment [NP t5] [S t6]]",
+        "dependencies": [
+          "t5->t6 (apposition)"
+        ],
+        "notes": "Analysis of the verse number (t5) as a label in apposition to the verse text (t6). This is one of two possible parses for this token pair."
+      },
+      {
+        "id": "S4a",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t7] [Gen t8]]",
+        "dependencies": [
+          "t7->t8 (genitive)"
+        ],
+        "notes": "Analysis of the verse number (t7) as the head of a construct chain, with the verse text (t8) as its genitive modifier. This is one of two possible parses for this token pair."
+      },
+      {
+        "id": "S4b",
+        "structure_type": "Apposition",
+        "bracket_notation": "[Fragment [NP t7] [S t8]]",
+        "dependencies": [
+          "t7->t8 (apposition)"
+        ],
+        "notes": "Analysis of the verse number (t7) as a label in apposition to the verse text (t8). This is one of two possible parses for this token pair."
+      },
+      {
+        "id": "S5a",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t9] [Gen t10]]",
+        "dependencies": [
+          "t9->t10 (genitive)"
+        ],
+        "notes": "Analysis of the verse number (t9) as the head of a construct chain, with the verse text (t10) as its genitive modifier. This is one of two possible parses for this token pair."
+      },
+      {
+        "id": "S5b",
+        "structure_type": "Apposition",
+        "bracket_notation": "[Fragment [NP t9] [S t10]]",
+        "dependencies": [
+          "t9->t10 (apposition)"
+        ],
+        "notes": "Analysis of the verse number (t9) as a label in apposition to the verse text (t10). This is one of two possible parses for this token pair."
+      },
+      {
+        "id": "S6a",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t11] [Gen t12]]",
+        "dependencies": [
+          "t11->t12 (genitive)"
+        ],
+        "notes": "Analysis of the verse number (t11) as the head of a construct chain, with the verse text (t12) as its genitive modifier. This is one of two possible parses for this token pair."
+      },
+      {
+        "id": "S6b",
+        "structure_type": "Apposition",
+        "bracket_notation": "[Fragment [NP t11] [S t12]]",
+        "dependencies": [
+          "t11->t12 (apposition)"
+        ],
+        "notes": "Analysis of the verse number (t11) as a label in apposition to the verse text (t12). This is one of two possible parses for this token pair."
+      },
+      {
+        "id": "S7a",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t13] [Gen t14]]",
+        "dependencies": [
+          "t13->t14 (genitive)"
+        ],
+        "notes": "Analysis of the verse number (t13) as the head of a construct chain, with the verse text (t14) as its genitive modifier. This is one of two possible parses for this token pair."
+      },
+      {
+        "id": "S7b",
+        "structure_type": "Apposition",
+        "bracket_notation": "[Fragment [NP t13] [S t14]]",
+        "dependencies": [
+          "t13->t14 (apposition)"
+        ],
+        "notes": "Analysis of the verse number (t13) as a label in apposition to the verse text (t14). This is one of two possible parses for this token pair."
+      },
+      {
+        "id": "S8a",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t15] [Gen t16]]",
+        "dependencies": [
+          "t15->t16 (genitive)"
+        ],
+        "notes": "Analysis of the verse number (t15) as the head of a construct chain, with the verse text (t16) as its genitive modifier. This is one of two possible parses for this token pair."
+      },
+      {
+        "id": "S8b",
+        "structure_type": "Apposition",
+        "bracket_notation": "[Fragment [NP t15] [S t16]]",
+        "dependencies": [
+          "t15->t16 (apposition)"
+        ],
+        "notes": "Analysis of the verse number (t15) as a label in apposition to the verse text (t16). This is one of two possible parses for this token pair."
+      },
+      {
+        "id": "S9a",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t17] [Gen t18]]",
+        "dependencies": [
+          "t17->t18 (genitive)"
+        ],
+        "notes": "Analysis of the verse number (t17) as the head of a construct chain, with the verse text (t18) as its genitive modifier. This is one of two possible parses for this token pair."
+      },
+      {
+        "id": "S9b",
+        "structure_type": "Apposition",
+        "bracket_notation": "[Fragment [NP t17] [S t18]]",
+        "dependencies": [
+          "t17->t18 (apposition)"
+        ],
+        "notes": "Analysis of the verse number (t17) as a label in apposition to the verse text (t18). This is one of two possible parses for this token pair."
       }
     ]
   }
 }
+```

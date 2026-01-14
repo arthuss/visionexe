@@ -1,12 +1,285 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
-  "scenes": [],
+  "actors": [
+    {
+      "name": "Narrator",
+      "visualTraits": {
+        "description": "The identity of the narrator is implied through first-person verbs ('I saw', 'I went', 'I came')."
+      },
+      "changes": null,
+      "role": "protagonist"
+    },
+    {
+      "name": "Zutu'el",
+      "visualTraits": {
+        "description": "An angel whom the narrator passes on his journey."
+      },
+      "changes": null,
+      "role": "guidepost"
+    },
+    {
+      "name": "Raphael",
+      "visualTraits": {
+        "description": "A holy angel who accompanies the narrator."
+      },
+      "changes": null,
+      "role": "guide"
+    },
+    {
+      "name": "Adam",
+      "visualTraits": {
+        "description": "The ancient father."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-Wisdom",
+          "description": "Resided in the Garden of Righteousness before eating from the Tree of Wisdom."
+        },
+        {
+          "phase": "Phase 2: Post-Wisdom",
+          "description": "After eating the fruit, his eyes were opened, he gained great wisdom, became aware of his nakedness, and was exiled from the Garden."
+        }
+      ],
+      "role": "historical_figure"
+    },
+    {
+      "name": "Eve",
+      "visualTraits": {
+        "description": "The ancient mother, described as 'ʿǝberawit' (ancient woman) based on analysis_context."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-Wisdom",
+          "description": "Resided in the Garden of Righteousness before eating from the Tree of Wisdom."
+        },
+        {
+          "phase": "Phase 2: Post-Wisdom",
+          "description": "After eating the fruit, her eyes were opened, she gained great wisdom, became aware of her nakedness, and was exiled from the Garden."
+        }
+      ],
+      "role": "historical_figure"
+    }
+  ],
+  "characters": [],
+  "props": [
+    {
+      "name": "Ears of corn",
+      "visualTraits": {
+        "description": "Growing on the seven mountains."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Spices",
+      "visualTraits": {
+        "description": "Growing on the seven mountains."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Fragrant wood",
+      "visualTraits": {
+        "description": "Trees with a pleasant scent, growing on the seven mountains."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Papyrus",
+      "visualTraits": {
+        "description": "Growing on the seven mountains."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Tree of Wisdom",
+      "visualTraits": {
+        "description": "A tree in the Garden of Righteousness that imparts great wisdom to those who eat its fruit. It resembles a carob tree, and its fragrance travels a great distance.",
+        "state": "static"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Fruit of the Tree of Wisdom",
+      "visualTraits": {
+        "description": "The fruit of the Tree of Wisdom, described as resembling a cluster of grapes and being very good.",
+        "state": "static"
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Erythraean Sea",
+      "visualTraits": {
+        "description": "A sea the narrator passes over on his journey."
+      },
+      "changes": null,
+      "role": "geographic_feature"
+    },
+    {
+      "name": "Garden of Righteousness",
+      "visualTraits": {
+        "description": "The destination of the narrator's journey. It contains many great, beautiful, and fragrant trees, including the Tree of Wisdom."
+      },
+      "changes": null,
+      "role": "mythical_location"
+    }
+  ],
+  "locations": [
+    {
+      "name": "The Seven Mountains",
+      "visualTraits": {
+        "description": "A range of seven mountains full of fragrant plants."
+      },
+      "changes": null,
+      "role": "topographical_feature"
+    },
+    {
+      "name": "Tops of the mountains",
+      "visualTraits": {
+        "description": "The summits of the seven mountains, over which the narrator travels."
+      },
+      "changes": null,
+      "role": "relative_area"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Fragrant Mountain Flora",
+      "visualTraits": {
+        "description": "The environment of the seven mountains is characterized by being full of ears of corn, spices, fragrant wood, and papyrus."
+      },
+      "changes": null,
+      "role": "setting_descriptor"
+    },
+    {
+      "name": "Lush Garden Flora",
+      "visualTraits": {
+        "description": "The environment of the Garden of Righteousness is characterized by many great, beautiful, and fragrant trees."
+      },
+      "changes": null,
+      "role": "setting_descriptor"
+    }
+  ],
+  "geo_environments": [
+    {
+      "name": "Atmospheric_IO_Gates",
+      "visualTraits": {
+        "description": "Referenced as the 'Erythraean Sea', which is mapped to the Indian Ocean alias for this canonical environment."
+      },
+      "changes": null,
+      "role": "canonical_geo_environment"
+    },
+    {
+      "name": "Gold_Master_Eden",
+      "visualTraits": {
+        "description": "Referenced as the 'Garden of Righteousness'."
+      },
+      "changes": null,
+      "role": "canonical_geo_environment"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "The Seven Fragrant Mountains",
+      "location": "The Seven Mountains",
+      "action": "The narrator observes and then travels over seven mountains covered in fragrant plants.",
+      "actorsInvolved": [
+        "Narrator"
+      ]
+    },
+    {
+      "title": "Journey to the Garden",
+      "location": "Region east of the mountains, over the Erythraean Sea",
+      "action": "The narrator travels far to the east, passing over the Erythraean Sea and beyond the angel Zutu'el.",
+      "actorsInvolved": [
+        "Narrator",
+        "Zutu'el"
+      ]
+    },
+    {
+      "title": "Arrival in the Garden of Righteousness",
+      "location": "Garden of Righteousness",
+      "action": "The narrator arrives in the Garden, observes its many great and fragrant trees, and takes special note of the Tree of Wisdom and its fruit.",
+      "actorsInvolved": [
+        "Narrator"
+      ]
+    },
+    {
+      "title": "The Story of the Tree",
+      "location": "Garden of Righteousness",
+      "action": "The angel Raphael explains that the Tree of Wisdom is the one from which Adam and Eve ate, causing their eyes to be opened and their subsequent exile from the Garden.",
+      "actorsInvolved": [
+        "Narrator",
+        "Raphael",
+        "Adam",
+        "Eve"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "a1",
+        "description": "An implied vantage point from which the narrator first observes the seven mountains."
+      },
+      {
+        "id": "a2",
+        "description": "The tops of the seven mountains."
+      },
+      {
+        "id": "a3",
+        "description": "A location over the Erythraean Sea."
+      },
+      {
+        "id": "a4",
+        "description": "A location beyond the angel Zutu'el."
+      },
+      {
+        "id": "a5",
+        "description": "The Garden of Righteousness."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Narrator",
+        "start_anchor": "a1",
+        "end_anchor": "a2",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Travels over the tops of the mountains."
+      },
+      {
+        "actor": "Narrator",
+        "start_anchor": "a2",
+        "end_anchor": "a3",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Travels far to the east and passes over the Erythraean Sea."
+      },
+      {
+        "actor": "Narrator",
+        "start_anchor": "a3",
+        "end_anchor": "a4",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Passes beyond the angel Zutu'el."
+      },
+      {
+        "actor": "Narrator",
+        "start_anchor": "a4",
+        "end_anchor": "a5",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Arrives in the Garden of Righteousness."
+      }
+    ]
   }
 }
 ```

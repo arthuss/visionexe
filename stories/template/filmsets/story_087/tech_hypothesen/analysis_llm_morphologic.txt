@@ -1,0 +1,10 @@
+An important methodological note on this analysis: The provided tokenization is severely flawed, likely due to an automated process that failed to correctly segment words, especially in the presence of non-standard characters (font encoding errors). Many "tokens" are concatenations of multiple distinct Ge'ez words. The instruction "Use the provided tokens as-is; do not create or merge tokens" presents a direct conflict with the goal of a "rigorous, scientific Morphological Analysis," as a single concatenated token cannot scientifically be assigned a single Part-of-Speech or a single morphological breakdown.
+
+To resolve this conflict while adhering to the rules, the following strategy has been employed:
+1.  The `surface` of each token is preserved exactly as given, per Rule #1.
+2.  For concatenated tokens, the analysis identifies the most grammatically significant word within the string (usually the main verb).
+3.  The morphological analysis (`pos`, `analysis`, `segmentation`) is performed on this identified primary word.
+4.  A detailed note is included in the `evidence` section for each affected token, explicitly stating that the token is a concatenation, identifying the likely constituent words, and explaining the assumptions made (e.g., character corrections like `¡` -> `አ`).
+5.  The `confidence` for these analyses is appropriately lowered to `moderate` or `weak` to reflect the uncertainty introduced by the corrupt tokenization and graphemes.
+
+This approach maintains graphematic fidelity at the token level while still providing a meaningful, albeit compromised, linguistic analysis as requested. A more scientifically valid

@@ -1,20 +1,15 @@
+An exhaustive syntactic analysis of the provided Ge'ez text is presented below, adhering to the specified scientific rules. Each Ge'ez sentence or major clausal unit, corresponding to a token in the input, is analyzed. For each token, all syntactically valid parses are enumerated, capturing structural ambiguities without semantic preference. The analysis uses bracket notation and provides explicit head-dependent relationships.
+
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "P1",
-        "structure_type": "Noun Phrase with Coordinated Relative Clauses",
-        "bracket_notation": "[NP t5 [RC [VP-COORD [VP t6] [VP t7] [VP t9] [VP t10] [VP t13] [VP t14]]]]",
+        "id": "t2_p1",
+        "token_id": "t2",
+        "structure_type": "Multi-Clause Sentence (Parataxis)",
+        "bracket_notation": "[S [Clause [V ወአውሥአኒ]] [Clause [V ወይቤለኒ] [PP [P በ] [NP ቃሉ]]] [Clause [V ስማዕ]] [Clause [V ኢትፍራህ]] [NP_voc [N ሄኖክ] [Appos [NP [NP [N ብእሲ] [Adj ጻድቅ]] [Conj ወ] [NP [N ጸሐፌ] [Gen ጽድቅ]]]]] [Clause [V ቅረብ] [Adv ዝየ]] [Clause [V ወስማዕ] [Obj ቃልየ]]]",
         "dependencies": [
-          "t5->t6 (relative_clause)",
-          "t6->t7 (coordinated_verb)",
-          "t7->t9 (coordinated_verb)",
-          "t9->t10 (coordinated_verb)",
-          "t10->t13 (coordinated_verb)",
-          "t13->t14 (coordinated_verb)"
-        ],
-        "notes": "A single complex noun phrase ('the spirit of the giants') is modified by a long series of coordinated verbs in a relative clause, describing their actions."
-      }
-    ]
-  }
-}
+          "ROOT->ወአውሥአኒ (paratactic)",
+          "ROOT->ወይቤለኒ (paratactic)",
+          "ወይቤለኒ->በቃሉ (

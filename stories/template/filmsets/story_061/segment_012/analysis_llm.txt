@@ -1,105 +1,222 @@
 ```json
 {
-  "actors": [],
+  "actors": [
+    {
+      "name": "Narrator",
+      "visualTraits": "First-person observer of the vision.",
+      "changes": null,
+      "role": "vision_recipient"
+    },
+    {
+      "name": "Angels",
+      "visualTraits": "A group of angelic beings.",
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-mission",
+          "description": "Angelic beings without specific equipment mentioned."
+        },
+        {
+          "phase": "Phase 2: Equipped",
+          "description": "Given long cords and have taken wings for flight."
+        }
+      ],
+      "role": "messenger"
+    },
+    {
+      "name": "Guiding Angel",
+      "visualTraits": "An angel who accompanies the Narrator and explains the meaning of the visions.",
+      "changes": null,
+      "role": "guide"
+    },
+    {
+      "name": "Lord of Spirits",
+      "visualTraits": "The supreme being, the ultimate source of judgment, mercy, and power, who is praised by all creation.",
+      "changes": null,
+      "role": "deity"
+    },
+    {
+      "name": "Elect One",
+      "visualTraits": "A chosen individual who is placed on the 'throne of glory' to execute judgment over the works of the holy ones.",
+      "changes": null,
+      "role": "judge"
+    },
+    {
+      "name": "God the Most High",
+      "visualTraits": "A name associated with the 'righteous judgment'.",
+      "changes": null,
+      "role": "deity"
+    }
+  ],
+  "characters": [
+    {
+      "name": "The righteous",
+      "visualTraits": "A group of people for whom an inheritance is measured and prepared.",
+      "changes": null,
+      "role": "beneficiary"
+    },
+    {
+      "name": "The elect",
+      "visualTraits": "A chosen group who will dwell together; a portion of them reside in the 'garden of life'.",
+      "changes": null,
+      "role": "beneficiary"
+    },
+    {
+      "name": "Those destroyed by the desert",
+      "visualTraits": "Deceased individuals whose remains are in the desert, destined to be resurrected.",
+      "changes": null,
+      "role": "resurrection_candidate"
+    },
+    {
+      "name": "Those devoured by the fish of the sea",
+      "visualTraits": "Deceased individuals consumed by sea creatures, destined to be resurrected.",
+      "changes": null,
+      "role": "resurrection_candidate"
+    },
+    {
+      "name": "Those devoured by wild beasts",
+      "visualTraits": "Deceased individuals consumed by wild animals, destined to be resurrected.",
+      "changes": null,
+      "role": "resurrection_candidate"
+    },
+    {
+      "name": "Those in the heavens above",
+      "visualTraits": "Celestial beings who receive a unified command, power, voice, and light.",
+      "changes": null,
+      "role": "worshiper"
+    },
+    {
+      "name": "The holy ones",
+      "visualTraits": "Beings in heaven whose works are weighed and judged.",
+      "changes": null,
+      "role": "subject_of_judgment"
+    },
+    {
+      "name": "Host of the heavens",
+      "visualTraits": "A celestial assembly summoned to praise.",
+      "changes": null,
+      "role": "worshiper"
+    },
+    {
+      "name": "Host of God",
+      "visualTraits": "A celestial assembly, including Cherubim, Seraphim, and Ophannim.",
+      "changes": null,
+      "role": "worshiper"
+    },
+    {
+      "name": "Cherubim",
+      "visualTraits": "A class of high-ranking angels in the Host of God.",
+      "changes": null,
+      "role": "worshiper"
+    },
+    {
+      "name": "Seraphim",
+      "visualTraits": "A class of high-ranking angels in the Host of God.",
+      "changes": null,
+      "role": "worshiper"
+    },
+    {
+      "name": "Ophannim",
+      "visualTraits": "A class of high-ranking angels in the Host of God.",
+      "changes": null,
+      "role": "worshiper"
+    },
+    {
+      "name": "Angels of power",
+      "visualTraits": "A class of angels summoned to praise.",
+      "changes": null,
+      "role": "worshiper"
+    },
+    {
+      "name": "Angels of principalities",
+      "visualTraits": "A class of angels summoned to praise.",
+      "changes": null,
+      "role": "worshiper"
+    },
+    {
+      "name": "The other power",
+      "visualTraits": "An entity or force located on the dry land and over the water.",
+      "changes": null,
+      "role": "worshiper"
+    },
+    {
+      "name": "All who do not sleep",
+      "visualTraits": "Vigilant celestial beings in heaven who constantly bless the Lord of Spirits.",
+      "changes": null,
+      "role": "worshiper"
+    },
+    {
+      "name": "Every spirit of light",
+      "visualTraits": "Luminous spiritual beings capable of praise.",
+      "changes": null,
+      "role": "worshiper"
+    },
+    {
+      "name": "All flesh",
+      "visualTraits": "All corporeal beings, who will praise beyond their own power.",
+      "changes": null,
+      "role": "worshiper"
+    }
+  ],
   "props": [
     {
-      "name": "ብርሃን",
-      "visualTraits": [],
-      "changes": [],
-      "role": "prop"
+      "name": "Long cords / Measures",
+      "visualTraits": "Long cords given to angels, used to measure for the righteous and to reveal secrets.",
+      "changes": null,
+      "role": "actor_prop:Angels"
+    },
+    {
+      "name": "Wings",
+      "visualTraits": "Wings that the angels take for themselves to enable flight.",
+      "changes": null,
+      "role": "actor_prop:Angels"
+    },
+    {
+      "name": "Inheritance of the righteous",
+      "visualTraits": "The rightful portion of the righteous, which is brought by the angels.",
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "One power, voice, and light",
+      "visualTraits": "A unified power, voice, and a light like fire, given to all beings in the heavens above.",
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "The balance",
+      "visualTraits": "A scale used to weigh the works of the holy ones during judgment.",
+      "changes": null,
+      "role": "actor_prop:Elect One"
     }
   ],
-  "environments": [
+  "places": [
     {
-      "name": "ሰማይ",
-      "visualTraits": [],
-      "changes": [],
-      "role": "environment"
-    },
-    {
-      "name": "ገነተ",
-      "visualTraits": [],
-      "changes": [],
-      "role": "environment"
-    },
-    {
-      "name": "ዓለም",
-      "visualTraits": [],
-      "changes": [],
-      "role": "environment"
+      "name": "Garden of life",
+      "visualTraits": "A celestial dwelling place for the elect.",
+      "changes": null,
+      "role": "dwelling"
     }
   ],
-  "scenes": [
+  "locations": [
     {
-      "title": "Line 1",
-      "location": "unknown",
-      "action": "",
-      "actorsInvolved": []
+      "name": "The North",
+      "visualTraits": "A direction or region that is the destination of the angels with the cords.",
+      "changes": null,
+      "role": "destination"
     },
     {
-      "title": "Line 2",
-      "location": "Sky",
-      "action": "",
-      "actorsInvolved": []
+      "name": "Depths of the earth",
+      "visualTraits": "The hidden, deep places within the earth whose secrets are to be revealed.",
+      "changes": null,
+      "role": "container"
     },
     {
-      "title": "Line 3",
-      "location": "Inside",
-      "action": "",
-      "actorsInvolved": []
+      "name": "The desert",
+      "visualTraits": "A desolate area where some people have perished.",
+      "changes": null,
+      "role": "graveyard"
     },
     {
-      "title": "Line 4",
-      "location": "Sky",
-      "action": "",
-      "actorsInvolved": []
-    },
-    {
-      "title": "Line 5",
-      "location": "Inside Garden",
-      "action": "",
-      "actorsInvolved": []
-    },
-    {
-      "title": "Line 6",
-      "location": "Light",
-      "action": "",
-      "actorsInvolved": []
-    },
-    {
-      "title": "Line 7",
-      "location": "unknown",
-      "action": "",
-      "actorsInvolved": []
-    },
-    {
-      "title": "Line 8",
-      "location": "unknown",
-      "action": "",
-      "actorsInvolved": []
-    },
-    {
-      "title": "Line 9",
-      "location": "unknown",
-      "action": "",
-      "actorsInvolved": []
-    },
-    {
-      "title": "Line 10",
-      "location": "unknown",
-      "action": "",
-      "actorsInvolved": []
-    },
-    {
-      "title": "Line 11",
-      "location": "World",
-      "action": "",
-      "actorsInvolved": []
-    }
-  ],
-  "blocking": {
-    "anchors": [],
-    "paths": []
-  }
-}
-```
+      "name": "The sea",
+      "visualTraits": "A body of water where people have been devoured by its creatures.",
+      "changes": null,

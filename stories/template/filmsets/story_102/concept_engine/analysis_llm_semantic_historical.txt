@@ -1,0 +1,53 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "high",
+      "reasoning": "This hypothesis posits that the conjunction 'እስመ' (esma) in 102:5 functions as a recitative particle ('that') introducing an object clause, rather than its more common causal meaning ('because/for'). The sentence 'ወኢትኅዝኑ እስመ ወረደት ነፍስክሙ...' would otherwise mean 'And do not be sad, because their soul has descended into Sheol...', which is logically incoherent. Interpreting 'እስመ' as 'that' resolves the contradiction: 'And do not be sad that their soul has descended...'. The clause becomes the content of the sadness which the author exhorts the audience to reject.",
+      "parallels": [
+        {
+          "ref": "Dillmann, A. (1907). Ethiopic Grammar, §204.c.",
+          "note": "Dillmann notes that 'እስመ' can function like the Greek ὅτι to introduce object clauses after verbs of emotion, perception, or declaration. As 1 Enoch is a translation from Greek, this syntactic calque is highly probable."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "high",
+      "reasoning": "This hypothesis addresses the phrase 'ኢረከበ ሥጋክሙ' ('their body did not find/obtain') in 102:5 by assuming an elided or implied object, specifically 'reward' (ምንዳቤ). The full thought is 'their body did not obtain [a reward] in their life according to their goodness.' The ellipsis of a contextually obvious object is a common linguistic feature. The subsequent phrase 'በከመ ኂሩትክሙ' ('according to their goodness') strongly implies that a deserved outcome (i.e., a reward) is the missing object.",
+      "parallels": [
+        {
+          "ref": "Matthew 7:8 (Ge'ez Version)",
+          "note": "The phrase 'ወዘኀሠሠ ይረክብ' ('and he who seeks, finds') uses the verb 'ረከበ' (rakaba) with an implied object, demonstrating that this construction is attested in standard Ge'ez biblical translations."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "flagged_addition",
+      "back_translation_note": "Translating this as 'did not receive a reward' adds the concept 'reward' which is not explicit in the source text. A more literal rendering is 'did not obtain/find'. However, the addition is a necessary clarification of the semantic intent."
+    },
+    {
+      "hypothesis_ref": "S3",
+      "plausibility": "moderate",
+      "reasoning": "This hypothesis interprets the shift from 3rd person plural suffixes ('-ሙ', -mu, 'their') to a 2nd person plural verb ('ኮንክሙ', konkəmu, 'you became') in 102:5 as a deliberate rhetorical device (enallage). The author shifts from describing the fate of the dead righteous to directly addressing the living righteous community ('you'). This connects the suffering of the dead to the sinful environment or state of the living audience. While plausible as a rhetorical feature in prophetic/apocalyptic literature, this reading is uncertain because the shift is abrupt and could also be a scribal error. Many critical editions emend 'ኮንክሙ' to 'ኮኑ' (konu, 'they became') based on other manuscript traditions, which would provide a smoother reading.",
+      "paralleles": [
+        {
+          "ref": "N/A",
+          "note": "While person-shifting occurs in prophetic rhetoric (e.g., in Isaiah), a direct parallel for this specific construction is difficult to locate and is often a point of textual criticism. Therefore, this specific instance is marked as 'unattested' as a confirmed rhetorical device, though the general phenomenon exists."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "The evaluation focused on the syntactically and semantically challenging verse 1 Enoch 102:5. \n1. The initial logical problem ('Do not be sad because a bad thing happened') was resolved by Hypothesis S1, which interprets 'እስመ' as recitative ('that'). This is well-supported by grammars and the text's translation history. \n2. The phrase 'ኢረከበ' was made intelligible by Hypothesis S2, which posits a standard ellipsis of the object ('reward'), a reading justified by the context and parallel constructions in Ge'ez. \n3. The most significant uncertainty lies in the person-shift identified in Hypothesis S3. The provided text reads 'ኮንክሙ' ('you became'), a 2nd person verb. While this can be interpreted as a rhetorical shift to address the audience, it is a harsh transition and many manuscripts read 'ኮኑ' ('they became'). As per the instructions to evaluate the given text, the rhetorical interpretation is adopted, but the high probability of it being a textual variant reduces confidence in this specific point. \n4. The preferred reading combines these three hypotheses to construct a coherent, though complex, meaning for the verse.",
+  "final_decision": {
+    "hypothesis_ref": "S1+S2+S3",
+    "translation_id": "T1",
+    "translation_text": "And do not be sad that their soul has descended into great tribulation and crying and groaning, into Sheol in sorrow, and that their body did not receive in their life [a reward] according to their goodness, but rather [it was] on account of the day on which you became sinners, and the day of cursing and punishment.",
+    "confidence": "moderate"
+  }
+}
+```

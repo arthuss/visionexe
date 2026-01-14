@@ -1,19 +1,184 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [
+  "actors": [
     {
-      "name": "earth",
+      "name": "Enoch",
       "visualTraits": null,
       "changes": null,
-      "role": "setting"
+      "role": "prophet, messenger"
+    },
+    {
+      "name": "Azazel",
+      "visualTraits": null,
+      "changes": null,
+      "role": "fallen angel, subject of judgment"
+    },
+    {
+      "name": "God",
+      "visualTraits": null,
+      "changes": null,
+      "role": "divine authority, judge"
     }
   ],
-  "scenes": [],
+  "characters": [
+    {
+      "name": "the fallen angels",
+      "visualTraits": [
+        "gathered together",
+        "weeping",
+        "faces are covered in shame"
+      ],
+      "changes": null,
+      "role": "group being judged, petitioners"
+    },
+    {
+      "name": "children of men",
+      "visualTraits": null,
+      "changes": null,
+      "role": "recipients of forbidden knowledge"
+    }
+  ],
+  "props": [
+    {
+      "name": "petition",
+      "visualTraits": [
+        "a written document containing a memorial and supplication"
+      ],
+      "changes": null,
+      "role": "actor_prop:Enoch"
+    }
+  ],
+  "places": [
+    {
+      "name": "Heaven",
+      "visualTraits": [
+        "a celestial realm"
+      ],
+      "changes": null,
+      "role": "destination, divine realm"
+    },
+    {
+      "name": "Dan",
+      "visualTraits": null,
+      "changes": null,
+      "role": "geographical location"
+    },
+    {
+      "name": "Armon",
+      "visualTraits": null,
+      "changes": null,
+      "role": "geographical landmark"
+    },
+    {
+      "name": "Ublesyael",
+      "visualTraits": [
+        "located between Lebanon and Seneser"
+      ],
+      "changes": null,
+      "role": "gathering place"
+    },
+    {
+      "name": "Lebanon",
+      "visualTraits": null,
+      "changes": null,
+      "role": "geographical landmark"
+    },
+    {
+      "name": "Seneser",
+      "visualTraits": null,
+      "changes": null,
+      "role": "geographical landmark"
+    }
+  ],
+  "locations": [
+    {
+      "name": "waters of Dan",
+      "visualTraits": [
+        "a body of water located in Dan, south of the west of Armon"
+      ],
+      "changes": null,
+      "role": "place of rest and vision"
+    }
+  ],
+  "environments": [],
+  "geo_environments": [
+    {
+      "name": "Hermon_Ingress_Hub",
+      "visualTraits": null,
+      "changes": null,
+      "role": "landmark for orientation"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "The Judgment of Azazel",
+      "location": "unspecified",
+      "action": "Enoch passes on and speaks to Azazel, informing him that a great judgment has gone out against him and there will be no peace, mercy, or supplication for him because of the iniquity he taught.",
+      "actorsInvolved": [
+        "Enoch",
+        "Azazel"
+      ]
+    },
+    {
+      "title": "The Petition of the Fallen Angels",
+      "location": "unspecified gathering place",
+      "action": "Enoch goes and speaks to all the other fallen angels together. They become terrified and ask him to write a memorial petition for them for forgiveness, so that he might take it up to the God of heaven, as they are too ashamed to speak or look up to heaven.",
+      "actorsInvolved": [
+        "Enoch",
+        "the fallen angels"
+      ]
+    },
+    {
+      "title": "The Vision at the Waters of Dan",
+      "location": "waters of Dan",
+      "action": "Enoch writes their petition. He then goes and sits down at the waters of Dan, south of the west of Armon, and reads their petition until he falls asleep. He dreams a vision of chastisement to deliver to the children of heaven.",
+      "actorsInvolved": [
+        "Enoch"
+      ]
+    },
+    {
+      "title": "The Rebuke at Ublesyael",
+      "location": "Ublesyael",
+      "action": "Enoch awakens and goes to the fallen angels, finding them gathered together, weeping with their faces covered. He stands before them and begins to recount the vision and speak words of righteousness to rebuke them.",
+      "actorsInvolved": [
+        "Enoch",
+        "the fallen angels"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "initial_location",
+        "description": "An unspecified location where Enoch confronts Azazel and then speaks to the other angels."
+      },
+      {
+        "id": "waters_of_dan",
+        "description": "The location by the waters of Dan where Enoch sits, reads, and sleeps."
+      },
+      {
+        "id": "ublesyael",
+        "description": "The place between Lebanon and Seneser where the angels are gathered weeping."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Enoch",
+        "start_anchor": "initial_location",
+        "end_anchor": "waters_of_dan",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Implied by the sequence of actions and the phrase 'And I went' (ወሐዊርየ) in verse 7 after writing the petition."
+      },
+      {
+        "actor": "Enoch",
+        "start_anchor": "waters_of_dan",
+        "end_anchor": "ublesyael",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Stated in verse 9: 'And waking, I came to them' (ወነቂህየ፡​መጻእኩ፡​ኀቤሆሙ)."
+      }
+    ]
   }
 }
 ```

@@ -1,10 +1,189 @@
+```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
-  "scenes": [],
+  "actors": [
+    {
+      "name": "I (Narrator)",
+      "visualTraits": null,
+      "changes": null,
+      "role": "observer"
+    },
+    {
+      "name": "Lord of Spirits",
+      "visualTraits": null,
+      "changes": null,
+      "role": "deity"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Men",
+      "visualTraits": [
+        "ride upon chariots"
+      ],
+      "changes": null,
+      "role": "chariot_riders"
+    },
+    {
+      "name": "Holy Ones",
+      "visualTraits": [
+        "from heaven"
+      ],
+      "changes": null,
+      "role": "observers"
+    },
+    {
+      "name": "All (Worshippers)",
+      "visualTraits": null,
+      "changes": null,
+      "role": "worshippers"
+    }
+  ],
+  "props": [
+    {
+      "name": "Chariots",
+      "visualTraits": [
+        "numerous",
+        "produce a loud sound",
+        "travel on the wind"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Pillar of the Earth",
+      "visualTraits": [
+        "foundational support of the earth"
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: stable",
+          "description": "Stands in its place (nǝbaru)."
+        },
+        {
+          "phase": "Phase 2: shaken",
+          "description": "Shaken (taḥawsa) from its place."
+        }
+      ],
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "East",
+      "visualTraits": null,
+      "changes": null,
+      "role": "origin_point"
+    },
+    {
+      "name": "West",
+      "visualTraits": null,
+      "changes": null,
+      "role": "origin_point"
+    },
+    {
+      "name": "Ends of the Earth",
+      "visualTraits": null,
+      "changes": null,
+      "role": "boundary"
+    },
+    {
+      "name": "Ends of Heaven",
+      "visualTraits": null,
+      "changes": null,
+      "role": "boundary"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Wind",
+      "visualTraits": null,
+      "changes": null,
+      "role": "transport_medium"
+    },
+    {
+      "name": "Heaven",
+      "visualTraits": null,
+      "changes": null,
+      "role": "domain"
+    },
+    {
+      "name": "Earth",
+      "visualTraits": null,
+      "changes": null,
+      "role": "domain"
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "Vision of the Chariots",
+      "location": "An unspecified vantage point observing the sky",
+      "action": "The narrator witnesses a vision of men on chariots arriving on the wind from the east and west until midday.",
+      "actorsInvolved": [
+        "I (Narrator)",
+        "Men"
+      ]
+    },
+    {
+      "title": "The Cosmic Tumult",
+      "location": "Across Earth and Heaven",
+      "action": "The sound of the chariots creates a tumult, which is perceived by the Holy Ones in heaven and shakes the Pillar of the Earth from its place. The sound is heard from the ends of the earth to the ends of heaven.",
+      "actorsInvolved": [
+        "Holy Ones"
+      ]
+    },
+    {
+      "title": "Universal Worship",
+      "location": "An unspecified gathering place on Earth",
+      "action": "Everyone falls down and worships the Lord of Spirits.",
+      "actorsInvolved": [
+        "All (Worshippers)",
+        "Lord of Spirits"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "east",
+        "description": "The eastern direction, an origin point for the chariots."
+      },
+      {
+        "id": "west",
+        "description": "The western direction, an origin point for the chariots."
+      },
+      {
+        "id": "center",
+        "description": "An implied central arrival and worship location."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Men",
+        "start_anchor": "east",
+        "end_anchor": "center",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Travel upon the wind (diba nafās)."
+      },
+      {
+        "actor": "Men",
+        "start_anchor": "west",
+        "end_anchor": "center",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Travel upon the wind (diba nafās)."
+      },
+      {
+        "actor": "All (Worshippers)",
+        "start_anchor": "center",
+        "end_anchor": "center",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Perform the action of falling down (yǝwaddǝqu) to worship."
+      }
+    ]
   }
 }
+```

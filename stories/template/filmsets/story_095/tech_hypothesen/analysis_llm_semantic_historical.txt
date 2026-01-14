@@ -1,0 +1,33 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "high",
+      "reasoning": "The hypothesis concerns the interpretation of the phrase 'እለ፡ይደልውዋ፡ለዐመፃ' (ʾəllä yədälləwwəwā la-ʿamäṣā) in 1 Enoch 95:6. The verb root d-l-w (ደለወ) can mean 'to prepare' or 'to weigh/make equal'. Hypothesis S1 posits that the meaning is 'to weigh'.\n1. **Semantic Coherence**: The context is a 'woe' oracle against 'sämāʿtä ḥassät' (false witnesses). The interpretation 'who weigh out iniquity' powerfully evokes the common biblical and Ancient Near Eastern metaphor of the scales of justice being perverted (e.g., a 'false balance'). This fits the theme of judicial corruption better than the more general 'prepare iniquity'.\n2. **Syntactic Resolution**: This reading provides the best explanation for the feminine object suffix '-wā' on the verb 'yədälləwwəwā'. The suffix can be understood as a pleonastic or resumptive pronoun referring to the feminine noun 'ʿamäṣā' (iniquity), which follows. The construction is thus 'they weigh it, the iniquity'. The alternative, 'to prepare', struggles with this suffix: if it refers to 'ʿamäṣā', the phrase is highly redundant ('they prepare iniquity for iniquity'); if it refers to an implied masculine noun like 'səmc' (testimony), it creates a grammatical gender mismatch.",
+      "parallels": [
+        {
+          "ref": "Job 31:6",
+          "note": "The Ge'ez text of Job 31:6 uses the same verb root d-l-w in a clear context of weighing for justice: 'በሚዛነ፡ጽድቅ፡ይድለወኒ' (bä-mizānä ṣədq yədläwäni), 'Let him weigh me in a just balance.' This provides strong internal evidence for the verb's usage in this semantic domain."
+        },
+        {
+          "ref": "Proverbs 11:1",
+          "note": "Provides a thematic parallel for the metaphor of perverted justice and weighing: 'ሚዛን፡ሐሰት፡ርኵሰት፡በቅድመ፡እግዚአብሔር' (mizān ḥassät rəkwəsät bä-qədmä ʾəgziʾabḥer), 'A false balance is an abomination before God.'"
+        },
+        {
+          "ref": "Dillmann, A., Lexicon Linguae Aethiopicae, col. 1211",
+          "note": "The lexicon attests the meaning 'aequavit' (he made equal, weighed) for the root d-l-w, supporting the lexical basis for this hypothesis. It specifically notes the sense of weighing on scales."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "The primary analytical challenge in the provided text is the phrase 'ይደልውዋ፡ለዐመፃ' (yədälləwwəwā la-ʿamäṣā) in verse 95:6. The verb root is ambiguous. An initial hypothesis considered the common meaning 'to prepare', but this created syntactic problems: the feminine object suffix '-wā' either referred to 'ʿamäṣā' (iniquity) redundantly or disagreed in gender with an implied masculine antecedent ('testimony'). A second hypothesis (S1) proposed the meaning 'to weigh', based on a secondary but attested meaning of the root d-l-w. This hypothesis proved superior as it resolves the syntactic issue by interpreting the suffix as a pleonastic pronoun, a known feature of Ge'ez. Furthermore, it aligns the phrase with the powerful and contextually appropriate metaphor of the scales of justice. The attestation of this specific verb root in the Ge'ez text of Job 31:6 in an identical context of weighing and justice provides compelling evidence. Therefore, S1 was selected as the most plausible scientific reading, despite the lack of a source text in Greek or Aramaic for direct comparison.",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}
+```

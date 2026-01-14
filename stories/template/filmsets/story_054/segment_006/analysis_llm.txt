@@ -1,53 +1,312 @@
 ```json
 {
   "actors": [
-    {"name":"ወሚኤል","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ወሩፋኤል","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ወገብርኤል","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ወፋኑኤል","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ውእቶ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ሙ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ያጸንዕዎሙ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ይእቲ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ዕለት","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ዐባይ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ወውስተ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"እቶነ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ዘይነድድ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ይወድይዎሙ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ውእተ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ዕለተ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"መ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ይትቤቀል","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"እምሆሙ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"እግዚ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"መናፍስት","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ዓመፃሆሙ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"እንተ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ዘኑ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ላእ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ለሰይጣን","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ወስሐትዎሙ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ለእለ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"የኀድሩ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"ዲ","visualTraits":null,"changes":null,"role":"unknown"},
-    {"name":"የብስ","visualTraits":null,"changes":null,"role":"unknown"}
+    {
+      "name": "Narrator",
+      "visualTraits": {
+        "description": "The first-person observer of the vision."
+      },
+      "changes": null,
+      "role": "protagonist"
+    },
+    {
+      "name": "angel of peace",
+      "visualTraits": {
+        "description": "An angelic being who accompanies and explains the vision to the Narrator."
+      },
+      "changes": null,
+      "role": "guide"
+    },
+    {
+      "name": "Azazel",
+      "visualTraits": null,
+      "changes": null,
+      "role": "antagonist_leader"
+    },
+    {
+      "name": "Lord of Spirits",
+      "visualTraits": null,
+      "changes": null,
+      "role": "deity"
+    },
+    {
+      "name": "Michael",
+      "visualTraits": null,
+      "changes": null,
+      "role": "archangel"
+    },
+    {
+      "name": "Gabriel",
+      "visualTraits": null,
+      "changes": null,
+      "role": "archangel"
+    },
+    {
+      "name": "Raphael",
+      "visualTraits": null,
+      "changes": null,
+      "role": "archangel"
+    },
+    {
+      "name": "Phanuel",
+      "visualTraits": null,
+      "changes": null,
+      "role": "archangel"
+    },
+    {
+      "name": "Satan",
+      "visualTraits": null,
+      "changes": null,
+      "role": "antagonist"
+    }
   ],
-  "props": [],
-  "environments": [],
+  "characters": [
+    {
+      "name": "the kings",
+      "visualTraits": null,
+      "changes": null,
+      "role": "condemned"
+    },
+    {
+      "name": "the mighty",
+      "visualTraits": null,
+      "changes": null,
+      "role": "condemned"
+    },
+    {
+      "name": "the hosts of Azazel",
+      "visualTraits": {
+        "description": "Described as servants of Satan."
+      },
+      "changes": null,
+      "role": "condemned"
+    },
+    {
+      "name": "those who dwell upon the dry land",
+      "visualTraits": {
+        "description": "Inhabitants of the earth who were led astray."
+      },
+      "changes": null,
+      "role": "victim"
+    },
+    {
+      "name": "those who dwell beneath the ends of the heaven",
+      "visualTraits": {
+        "description": "Inhabitants of the world, destroyed by a flood."
+      },
+      "changes": null,
+      "role": "victim"
+    }
+  ],
+  "props": [
+    {
+      "name": "fire",
+      "visualTraits": {
+        "description": "Burning in the valley and furnace."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "fetters of iron",
+      "visualTraits": {
+        "description": "Made of iron and have no weight."
+      },
+      "changes": null,
+      "role": "actor_prop:the_hosts_of_Azazel"
+    },
+    {
+      "name": "sharp stones",
+      "visualTraits": {
+        "description": "Used to cover the jaws of the condemned."
+      },
+      "changes": null,
+      "role": "actor_prop:the_hosts_of_Azazel"
+    },
+    {
+      "name": "punishment of the Lord of Spirits",
+      "visualTraits": {
+        "description": "An abstract force of punishment that 'goes forth'."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "the waters",
+      "visualTraits": {
+        "description": "Flood waters, described as 'male' (from above the heavens) and 'female' (from beneath the earth)."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "another part of the earth",
+      "visualTraits": {
+        "description": "The general setting for the vision."
+      },
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "deep valley",
+      "visualTraits": {
+        "description": "A deep valley that is burning with fire."
+      },
+      "changes": null,
+      "role": "location_punishment"
+    },
+    {
+      "name": "the lowest part of all condemnation",
+      "visualTraits": {
+        "description": "The ultimate destination for the condemned hosts of Azazel."
+      },
+      "changes": null,
+      "role": "location_punishment"
+    },
+    {
+      "name": "furnace of fire",
+      "visualTraits": {
+        "description": "A burning furnace where the condemned are cast."
+      },
+      "changes": null,
+      "role": "location_punishment"
+    },
+    {
+      "name": "dry land",
+      "visualTraits": {
+        "description": "The inhabited surface of the earth."
+      },
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "storehouses of the waters",
+      "visualTraits": {
+        "description": "Cosmic reservoirs located above the heavens."
+      },
+      "changes": null,
+      "role": "cosmic_location"
+    },
+    {
+      "name": "fountains",
+      "visualTraits": {
+        "description": "Sources of water located beneath the heavens and the earth."
+      },
+      "changes": null,
+      "role": "cosmic_location"
+    },
+    {
+      "name": "beneath the ends of the heaven",
+      "visualTraits": {
+        "description": "A term for the inhabited world."
+      },
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "environments": [
+    {
+      "name": "heavens",
+      "visualTraits": {
+        "description": "The celestial realm, above which are storehouses of water."
+      },
+      "changes": null,
+      "role": "cosmic_setting"
+    },
+    {
+      "name": "earth",
+      "visualTraits": {
+        "description": "The terrestrial realm, which is flooded."
+      },
+      "changes": null,
+      "role": "cosmic_setting"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title":"Chapter 54 Segment 6",
-      "location":null,
-      "action":null,
-      "actorsInvolved":[
-        "ወሚኤል","ወሩፋኤል","ወገብርኤል","ወፋኑኤል","ውእቶ","ሙ","ያጸንዕዎሙ","ይእቲ","ዕለት","ዐባይ","ወውስተ","እቶነ","ዘይነድድ","ይወድይዎሙ","ውእተ","ዕለተ","መ","ይትቤቀል","እምሆሙ","እግዚ","መናፍስት","ዓመፃሆሙ","እንተ","ዘኑ","ላእ","ለሰይጣን","ወስሐትዎሙ","ለእለ","የኀድሩ","ዲ","የብስ"
+      "title": "Vision of the Fiery Valley",
+      "location": "deep valley",
+      "action": "The Narrator sees a deep, fiery valley. The kings and the mighty are brought and cast into it. The Narrator then sees their weightless iron fetters being made.",
+      "actorsInvolved": [
+        "Narrator",
+        "the kings",
+        "the mighty"
+      ]
+    },
+    {
+      "title": "Inquiry about the Punishment",
+      "location": "deep valley",
+      "action": "The Narrator asks the angel of peace about the purpose of the fetters. The angel explains they are for the hosts of Azazel, who will be seized, cast down, and have their jaws covered with stones as commanded by the Lord of Spirits.",
+      "actorsInvolved": [
+        "Narrator",
+        "angel of peace",
+        "Azazel",
+        "Lord of Spirits"
+      ]
+    },
+    {
+      "title": "The Great Day of Judgment",
+      "location": "furnace of fire",
+      "action": "Michael, Gabriel, Raphael, and Phanuel cast the condemned (servants of Satan) into a burning furnace to enact the vengeance of the Lord of Spirits for leading astray the inhabitants of the earth.",
+      "actorsInvolved": [
+        "Michael",
+        "Gabriel",
+        "Raphael",
+        "Phanuel",
+        "Lord of Spirits",
+        "Satan",
+        "the hosts of Azazel",
+        "those who dwell upon the dry land"
+      ]
+    },
+    {
+      "title": "The Cosmic Flood",
+      "location": "earth",
+      "action": "The punishment of the Lord of Spirits is unleashed. The storehouses of water above and below are opened, and the resulting flood destroys all inhabitants on the dry land, who perish after recognizing their unrighteousness.",
+      "actorsInvolved": [
+        "Lord of Spirits",
+        "those who dwell upon the dry land",
+        "those who dwell beneath the ends of the heaven"
       ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "A1",
+        "description": "An unspecified location off-scene from which the condemned are brought."
+      },
+      {
+        "id": "A2",
+        "description": "The deep, fiery valley where the condemned are first cast."
+      },
+      {
+        "id": "A3",
+        "description": "The furnace of fire, a specific place of punishment within the valley."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "the kings, the mighty",
+        "start_anchor": "A1",
+        "end_anchor": "A2",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "They are 'brought' and 'cast' into the valley, indicating a passive movement."
+      },
+      {
+        "actor": "the hosts of Azazel",
+        "start_anchor": "A2",
+        "end_anchor": "A3",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "They are 'cast' into the furnace of fire by the four archangels."
+      }
+    ]
   }
 }
 ```

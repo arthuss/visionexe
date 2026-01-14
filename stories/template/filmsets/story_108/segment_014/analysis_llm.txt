@@ -1,41 +1,320 @@
+```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
+  "actors": [
+    {
+      "name": "Enoch",
+      "visualTraits": null,
+      "changes": null,
+      "role": "narrator and author"
+    },
+    {
+      "name": "Methuselah",
+      "visualTraits": null,
+      "changes": null,
+      "role": "son of Enoch, recipient of the book"
+    },
+    {
+      "name": "The Lord",
+      "visualTraits": null,
+      "changes": null,
+      "role": "divine judge and savior"
+    }
+  ],
+  "characters": [
+    {
+      "name": "The Righteous",
+      "visualTraits": [
+        "afflicted bodies",
+        "spirits are pure"
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Mortal Suffering",
+          "description": "Suffer affliction, are reviled by evil men, reject worldly goods and earthly food, and give their bodies to torment."
+        },
+        {
+          "phase": "Phase 2: Post-Mortem Glory",
+          "description": "Spirits are brought into shining light, set on thrones of honor, and shine for innumerable ages."
+        }
+      ],
+      "role": "group of faithful humans"
+    },
+    {
+      "name": "The Wicked",
+      "visualTraits": [
+        "mighty"
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Mortal Power",
+          "description": "Do evil and possess power."
+        },
+        {
+          "phase": "Phase 2: Post-Mortem Punishment",
+          "description": "Their names are blotted out from the holy books, their seed is destroyed, and their spirits are killed. They cry, wail, and are in great pain within a fiery abyss. They are seen shining (v. 15) before being led into darkness."
+        }
+      ],
+      "role": "group of sinners and oppressors"
+    },
+    {
+      "name": "Spirits of the Wicked",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Condemned",
+          "description": "Spirits of sinners, the insolent, and those who do evil."
+        },
+        {
+          "phase": "Phase 2: Punished",
+          "description": "They are destroyed, killed, cry out, and wail in a desolate, fiery place."
+        }
+      ],
+      "role": "the damned souls"
+    },
+    {
+      "name": "Guiding Angel",
+      "visualTraits": [
+        "holy"
+      ],
+      "changes": null,
+      "role": "angelic guide accompanying Enoch"
+    },
+    {
+      "name": "Prophets",
+      "visualTraits": null,
+      "changes": null,
+      "role": "mouthpieces of the Lord"
+    },
+    {
+      "name": "Angels",
+      "visualTraits": null,
+      "changes": null,
+      "role": "celestial beings who record sins"
+    },
+    {
+      "name": "Those born in darkness",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Origin in Darkness",
+          "description": "Born into a state of darkness."
+        },
+        {
+          "phase": "Phase 2: Transformed into Light",
+          "description": "Are transformed by the Lord and brought into a shining light."
+        }
+      ],
+      "role": "a specific group of the redeemed"
+    }
+  ],
+  "props": [
+    {
+      "name": "Book of Enoch",
+      "visualTraits": null,
+      "changes": null,
+      "role": "actor_prop:Enoch"
+    },
+    {
+      "name": "Holy Books",
+      "visualTraits": null,
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Heavenly Records",
+      "visualTraits": [
+        "writings in heaven"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Gold",
+      "visualTraits": null,
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Silver",
+      "visualTraits": null,
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Earthly Food",
+      "visualTraits": null,
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Fiery Abyss",
+      "visualTraits": [
+        "desolate place (መካነ፡ ድው)",
+        "cannot be seen (ዘኢያስተርኢ)",
+        "contains a burning fire (በእሳት፡ ነዱ)",
+        "has no earth (ኢሀሎ፡ ህየ፡ ምድር)",
+        "filled with sounds of weeping, crying, wailing, and strong pain",
+        "appears like an unseeable cloud (ከመ፡ ደመና፡ ዘኢይትረአይ)",
+        "deep (ዕመቁ)",
+        "surrounded by what look like glorious mountains in turmoil (ከመ፡ ድባር፡ ስቡሐን)"
+      ],
+      "changes": null,
+      "role": "place of punishment"
+    },
+    {
+      "name": "Heaven",
+      "visualTraits": null,
+      "changes": null,
+      "role": "celestial realm"
+    },
+    {
+      "name": "Throne of Honor",
+      "visualTraits": null,
+      "changes": null,
+      "role": "place of reward for the righteous"
+    },
+    {
+      "name": "The World",
+      "visualTraits": null,
+      "changes": null,
+      "role": "the mortal realm of worldly goods"
+    },
+    {
+      "name": "The Earth",
+      "visualTraits": null,
+      "changes": null,
+      "role": "the mortal realm of earthly food"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Dwelling of Righteous Paths",
+      "visualTraits": null,
+      "changes": null,
+      "role": "final habitation for the faithful"
+    }
+  ],
+  "environments": [
+    {
+      "name": "The Last Days",
+      "visualTraits": null,
+      "changes": null,
+      "role": "temporal setting"
+    },
+    {
+      "name": "Burning Fire",
+      "visualTraits": [
+        "flaming",
+        "brightly burning"
+      ],
+      "changes": null,
+      "role": "element of punishment"
+    },
+    {
+      "name": "Light",
+      "visualTraits": [
+        "shining"
+      ],
+      "changes": null,
+      "role": "environment of the redeemed"
+    },
+    {
+      "name": "Darkness",
+      "visualTraits": null,
+      "changes": null,
+      "role": "environment of punishment and origin"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Line 1",
-      "location": null,
-      "action": "ወይሬእዮሙ፡ለእለ፡ተወልዱ፡",
-      "actorsInvolved": null
+      "title": "Enoch's Inscription",
+      "location": "unknown",
+      "action": "Enoch writes a book for his son Methuselah and for future generations of the righteous.",
+      "actorsInvolved": [
+        "Enoch",
+        "Methuselah"
+      ]
     },
     {
-      "title": "Line 2",
-      "location": null,
-      "action": "ጽልመት፡ይትወሰዲ ፧",
-      "actorsInvolved": null
+      "title": "Vision of the Fiery Abyss",
+      "location": "Fiery Abyss",
+      "action": "Enoch sees a vision of a desolate, fiery place of punishment, filled with wailing and turmoil.",
+      "actorsInvolved": [
+        "Enoch"
+      ]
     },
     {
-      "title": "Line 3",
-      "location": null,
-      "action": "ጽልመት፨ወእንዘ፡",
-      "actorsInvolved": null
+      "title": "The Angel's Explanation",
+      "location": "Fiery Abyss",
+      "action": "A guiding angel explains to Enoch that the place he sees is the prison for the spirits of sinners.",
+      "actorsInvolved": [
+        "Enoch",
+        "Guiding Angel"
+      ]
     },
     {
-      "title": "Line 4",
-      "location": null,
-      "action": "ይትወሐውሑ፡ጻድቃን፡",
-      "actorsInvolved": null
+      "title": "The Lord's Proclamation of Salvation",
+      "location": "unknown",
+      "action": "The Lord declares that He will transform those born in darkness, bring them into light, and set them on thrones of honor.",
+      "actorsInvolved": [
+        "The Lord"
+      ]
     },
     {
-      "title": "Line 5",
-      "location": null,
-      "action": "ይጸርሑ፨",
-      "actorsInvolved": null
+      "title": "The Final Judgment",
+      "location": "unknown",
+      "action": "The righteous are seen shining while the wicked are led into darkness and go to their appointed place of doom.",
+      "actorsInvolved": []
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "origin",
+        "description": "An unspecified starting point for souls after death."
+      },
+      {
+        "id": "fiery_abyss",
+        "description": "The place of punishment for the spirits of sinners, as described in the vision."
+      },
+      {
+        "id": "darkness_destination",
+        "description": "The state or place of darkness into which the wicked are led."
+      },
+      {
+        "id": "appointed_place",
+        "description": "The location where the days and seasons of the sinners are written for them."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Spirits of the Wicked",
+        "start_anchor": "origin",
+        "end_anchor": "fiery_abyss",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "The text states they 'are taken' (ይትወሰዱ) to this place (108:6)."
+      },
+      {
+        "actor": "The Wicked",
+        "start_anchor": "origin",
+        "end_anchor": "darkness_destination",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "The text states those born in darkness (here interpreted as the wicked) 'are led' (ይትወሰዱ) into darkness (108:14)."
+      },
+      {
+        "actor": "The Wicked",
+        "start_anchor": "origin",
+        "end_anchor": "appointed_place",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The text states the sinners 'go' (የሐውሩ) to the place written for them (108:15)."
+      }
+    ]
   }
 }
+```

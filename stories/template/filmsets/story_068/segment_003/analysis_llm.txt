@@ -1,30 +1,138 @@
 ```json
 {
   "actors": [
-    {"name": "ወውሥ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ዕ ሚኤል", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ለሩፋኤል", "visualTraits": null, "changes": null, "role": null},
-    {"name": "መኑ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ውእቱ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ዘኢይረስሕ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ልቦ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ዲቤሃ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ወኢይትሀወ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ልያቲሁ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "እምዛቲ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ቃል", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ነ፡ወጽት", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ዲቤሆሙ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "እምሆሙ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ዘውፅእዎሙ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "መዝ፨", "visualTraits": null, "changes": null, "role": null}
+    {
+      "name": "Enoch",
+      "visualTraits": {
+        "description": "The narrator, referred to as 'me' (ኒ)."
+      },
+      "changes": null,
+      "role": "narrator"
+    },
+    {
+      "name": "Michael",
+      "visualTraits": {
+        "description": "An angel referred to as 'Holy Michael' (ቅዱስ፡​ሚካኤል)."
+      },
+      "changes": null,
+      "role": "archangel"
+    },
+    {
+      "name": "Raphael",
+      "visualTraits": {
+        "description": "An angel to whom Michael speaks."
+      },
+      "changes": null,
+      "role": "archangel"
+    },
+    {
+      "name": "Lord of Spirits",
+      "visualTraits": {
+        "description": "A divine being, also referred to as 'the Lord' (እግዚእ)."
+      },
+      "changes": null,
+      "role": "divine judge"
+    }
   ],
-  "props": [],
+  "characters": [
+    {
+      "name": "judged angels",
+      "visualTraits": {
+        "description": "A group of angels who are the subject of a severe, secret, and eternal judgment. They are described as 'melting' before the judgment."
+      },
+      "changes": {
+        "type": "status",
+        "description": "They are subjected to an eternal judgment for acting in the likeness of the Lord.",
+        "phases": [
+          {
+            "label": "Phase 1: Pre-judgment",
+            "description": "Acted in the likeness of the Lord."
+          },
+          {
+            "label": "Phase 2: Judged",
+            "description": "A severe and secret judgment has gone out upon them for ever and ever."
+          }
+        ]
+      },
+      "role": "antagonist"
+    },
+    {
+      "name": "angel",
+      "visualTraits": {
+        "description": "A general class of being, mentioned as not receiving the portion of the judged angels."
+      },
+      "changes": null,
+      "role": "bystander"
+    },
+    {
+      "name": "man",
+      "visualTraits": {
+        "description": "A general class of being, mentioned as not receiving the portion of the judged angels."
+      },
+      "changes": null,
+      "role": "bystander"
+    }
+  ],
+  "props": [
+    {
+      "name": "Book of Parables and Secrets",
+      "visualTraits": {
+        "description": "A book (መጽሐፍ) containing 'the sign of all the secrets' (ትእምርተ፡​ኵሎሙ፡​ኅቡኣት) and 'parables' (ምሳሌያተ)."
+      },
+      "changes": null,
+      "role": "actor_prop:Enoch"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "Presence of the Lord of Spirits",
+      "visualTraits": {
+        "description": "The area 'before the Lord of Spirits' (በቅድመ፡​እግዚአ፡​መናፍስት), where Michael stands."
+      },
+      "changes": null,
+      "role": "divine court"
+    }
+  ],
   "environments": [],
-  "scenes": [],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Handover of Secrets",
+      "location": "Unspecified",
+      "action": "Enoch is given a book that combines the secrets and parables previously revealed to him.",
+      "actorsInvolved": [
+        "Enoch"
+      ]
+    },
+    {
+      "title": "The Archangels' Dialogue on Judgment",
+      "location": "Unspecified, including the Presence of the Lord of Spirits",
+      "action": "Michael expresses his distress to Raphael over the severe, eternal judgment passed on a group of angels. He recounts standing before the Lord of Spirits and explains the judgment is because they acted with divine likeness. The finality of their sentence is affirmed.",
+      "actorsInvolved": [
+        "Michael",
+        "Raphael",
+        "Lord of Spirits"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "presence_of_the_lord",
+        "description": "The area before the Lord of Spirits."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Michael",
+        "start_anchor": "presence_of_the_lord",
+        "end_anchor": "presence_of_the_lord",
+        "motion": "stand",
+        "duration_sec": null,
+        "notes": "The text states 'when he stood before the Lord of Spirits' (ሶበ፡​ቆመ፡​በቅድመ፡​እግዚአ፡​መናፍስት) while recounting his words to Raphael."
+      }
+    ]
   }
 }
 ```

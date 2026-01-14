@@ -1,12 +1,242 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
-  "scenes": [],
+  "actors": [
+    {
+      "name": "Lord of Spirits",
+      "visualTraits": {
+        "description": "A divine being to whom worship, praise, and confession are directed. Referred to as Lord of Kings, Lord of the Mighty, Lord of the rich, Lord of glory, and Lord of wisdom. His secrets are deep, his power is for all generations, and his righteousness is unsearchable."
+      },
+      "changes": null,
+      "role": "divine judge"
+    },
+    {
+      "name": "Son of Man",
+      "visualTraits": {
+        "description": "A divine being before whom judgment occurs. His face is a source of judgment from which the condemned are driven away."
+      },
+      "changes": null,
+      "role": "divine judge"
+    }
+  ],
+  "characters": [
+    {
+      "name": "The Kings, the Mighty, and the High Ones",
+      "visualTraits": {
+        "description": "A group of powerful rulers who possess the dry land. They are also referred to as 'the mighty' (አዚዛን), 'kings' (ነገሥት), and 'the high ones' (ልዑላን)."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: In Power",
+          "description": "Rulers who possess the dry land, placing their hope in their thrones and scepters."
+        },
+        {
+          "phase": "Phase 2: Judged",
+          "description": "Held by the Angels of Punishment, they are cast down. Their faces are filled with darkness and shame, and they are driven into an eternal dwelling of darkness."
+        }
+      ],
+      "role": "the judged"
+    },
+    {
+      "name": "Angels of Punishment",
+      "visualTraits": {
+        "description": "Angels who are holding the kings and the mighty in the place of their torment."
+      },
+      "changes": null,
+      "role": "jailer"
+    }
+  ],
+  "props": [
+    {
+      "name": "Scepter of our kingdom",
+      "visualTraits": {
+        "description": "A scepter in which the kings and mighty placed their hope. This is based on the emendation in the analysis_context from 'sea' (በሕረ) to 'scepter' (በትረ)."
+      },
+      "changes": null,
+      "role": "actor_prop:The Kings, the Mighty, and the High Ones"
+    },
+    {
+      "name": "Throne of our kingdom",
+      "visualTraits": {
+        "description": "A throne in which the kings and mighty placed their hope."
+      },
+      "changes": null,
+      "role": "actor_prop:The Kings, the Mighty, and the High Ones"
+    },
+    {
+      "name": "Sword",
+      "visualTraits": {
+        "description": "A sword that dwells among the judged before the face of the Son of Man."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Sheol",
+      "visualTraits": {
+        "description": "A place of punishment characterized by the 'flame of its pain' (ላህባ፡​ለክበደ፡​ሲኦል)."
+      },
+      "changes": null,
+      "role": "underworld"
+    }
+  ],
+  "locations": [
+    {
+      "name": "The dry land",
+      "visualTraits": {
+        "description": "The earthly realm possessed by the kings and the mighty."
+      },
+      "changes": null,
+      "role": "domain"
+    },
+    {
+      "name": "Presence of the Lord of Spirits",
+      "visualTraits": {
+        "description": "A conceptual space where worship, praise, and confession occur."
+      },
+      "changes": null,
+      "role": "site_of_worship"
+    },
+    {
+      "name": "Presence of the Son of Man",
+      "visualTraits": {
+        "description": "A conceptual space where judgment is executed."
+      },
+      "changes": null,
+      "role": "site_of_judgment"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Darkness",
+      "visualTraits": {
+        "description": "An environmental condition that fills the faces of the judged and becomes their eternal dwelling place."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Absent",
+          "description": "The kings and mighty are not in darkness."
+        },
+        {
+          "phase": "Phase 2: Present",
+          "description": "Darkness fills their faces and becomes their eternal dwelling."
+        }
+      ],
+      "role": "state_of_judgment"
+    },
+    {
+      "name": "Light",
+      "visualTraits": {
+        "description": "An environmental condition that has passed away from the kings and mighty."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Present",
+          "description": "Implied to be present for the kings and mighty."
+        },
+        {
+          "phase": "Phase 2: Absent",
+          "description": "The light has passed away from them."
+        }
+      ],
+      "role": "state_of_grace"
+    },
+    {
+      "name": "Flame of Sheol",
+      "visualTraits": {
+        "description": "The fire associated with the pain of Sheol, from which the kings cannot prevent their descent."
+      },
+      "changes": null,
+      "role": "hazard"
+    }
+  ],
+  "geo_environments": [
+    {
+      "name": "Gehenna_Data_Sink",
+      "visualTraits": {
+        "description": "The text refers to 'Sheol' (ሲኦል), a place of punishment and descent, mapped to the canonical Gehenna."
+      },
+      "changes": null,
+      "role": "underworld"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Plea for Respite",
+      "location": "Place of torment",
+      "action": "The Kings and the Mighty, held by the Angels of Punishment, petition for a brief rest so they can fall down, worship, and confess their sins before the Lord of Spirits.",
+      "actorsInvolved": [
+        "The Kings, the Mighty, and the High Ones",
+        "Angels of Punishment",
+        "Lord of Spirits"
+      ]
+    },
+    {
+      "title": "Lament and Confession",
+      "location": "Place of torment",
+      "action": "The Kings and the Mighty praise the Lord of Spirits, acknowledge his righteousness, and lament their own state. They confess they did not praise God and put their trust in their thrones and scepters, which now cannot save them. They express their despair as light has passed from them and darkness is their eternal home.",
+      "actorsInvolved": [
+        "The Kings, the Mighty, and the High Ones",
+        "Lord of Spirits"
+      ]
+    },
+    {
+      "title": "Descent into Sheol",
+      "location": "Threshold of Sheol",
+      "action": "Continuing their lament (based on the emendation in analysis_context), the Kings and Mighty state that their souls are full of ill-gotten wealth and that this cannot prevent their descent into the flame and pain of Sheol.",
+      "actorsInvolved": [
+        "The Kings, the Mighty, and the High Ones"
+      ]
+    },
+    {
+      "title": "Judgment before the Son of Man",
+      "location": "Presence of the Son of Man",
+      "action": "The faces of the Kings and Mighty are filled with darkness and shame. They are driven away from the presence of the Son of Man, and a sword appears among them.",
+      "actorsInvolved": [
+        "The Kings, the Mighty, and the High Ones",
+        "Son of Man"
+      ]
+    },
+    {
+      "title": "The Lord's Decree",
+      "location": "Presence of the Lord of Spirits",
+      "action": "The Lord of Spirits speaks, confirming that this is the ordinance and judgment for the mighty, the kings, the high ones, and those who possess the dry land.",
+      "actorsInvolved": [
+        "Lord of Spirits",
+        "The Kings, the Mighty, and the High Ones"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "A1",
+        "description": "Presence of the Lord of Spirits"
+      },
+      {
+        "id": "A2",
+        "description": "Presence of the Son of Man"
+      }
+    ],
+    "paths": [
+      {
+        "actor": "The Kings, the Mighty, and the High Ones",
+        "start_anchor": "unknown",
+        "end_anchor": "A1",
+        "motion": "bow",
+        "duration_sec": null,
+        "notes": "The text states they wish to 'fall down and worship before the Lord of Spirits' (ይደቁ፡​ወይሰግዱ፡​ቅድመ፡​እግዚአ፡​መናፍስት)."
+      },
+      {
+        "actor": "The Kings, the Mighty, and the High Ones",
+        "start_anchor": "A2",
+        "end_anchor": "unknown",
+        "motion": "driven",
+        "duration_sec": null,
+        "notes": "The text states they 'are driven away from before his face' (እምቅድመ፡​ገጹ፡​ይሰደዱ)."
+      }
+    ]
   }
 }
 ```

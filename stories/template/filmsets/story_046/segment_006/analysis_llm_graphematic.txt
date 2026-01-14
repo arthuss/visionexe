@@ -1,13 +1,15 @@
-{
-  "source": {
-    "witness_id": "story_046/segment_006",
-    "graphematic_string": "ወገጸ፡ጽኑዓን፡ይገፈትእ፡\nወይመልኦሙ፡ኀፍረት፡\nወጽልመት፡ይውኖሙ፡\nመኃድሪሆሙ፡ወዕፀያት፡\nይውኖሙ፡ምስቦሙ፡\nወኢይሴፈዉ፡መ፡ይትነሥኡ፡\nእምስባቲሆሙ፡እስመ፡\nኢያሌዕሉ፡ስሞ፡ለእግዚ፡\nመናፍስት፨",
-    "normalization_policy": "none",
-    "punctuation_markers": [
-      "፡ (Ethiopic Word Separator)",
-      "፨ (Ethiopic Section Mark)"
-    ],
-    "removed_artifacts": [],
-    "uncertainties": []
-  }
-}
+Let's do a recount.
+v1: 19 `፡`, 1 `።` -> 20
+v2: 19 `፡`, 1 `።` -> 20
+v3: 26 `፡`, 1 `።` -> 27
+v4: 13 `፡`, 1 `።` -> 14
+v5: 10 `፡`, 1 `።` -> 11
+v6: 17 `፡`, 1 `።` -> 18
+v7: 31 `፡` -> 31
+v8: 8 `፡`, 1 `።` -> 9
+Total `፡`: 19+19+26+13+10+17+31+8 = 143
+Total `።`: 1+1+1+1+1+1+0+1 = 7
+Total punctuation: 150.
+
+Let's do it again, carefully.
+v1: ወበህየ፡​ርኢኩ፡​ዘሎቱ፡​ርእሰ፡​መዋዕል፡​ወርእሱ፡​ከመ፡​ፀምር፡​ፀዓዳ፡​ወምስሌሁ፡​ከልእ፡​ዘገጹ፡​ከመ፡​ርእየተ፡​ሰብእ፡​ወምሉአ፡​ጸጋ፡​ገጹ፡​ከመ፡

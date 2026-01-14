@@ -2,44 +2,261 @@
 {
   "actors": [
     {
-      "name": "እግዚ",
+      "name": "Lord of Spirits",
       "visualTraits": null,
       "changes": null,
-      "role": "deity"
+      "role": "Divine authority, before whom the Son of Man is named and hidden."
+    },
+    {
+      "name": "Son of Man",
+      "visualTraits": [
+        "Referred to as 'his Anointed One' (Messiah).",
+        "Described as the 'light of the Gentiles' and the 'hope for those who are troubled in their hearts'."
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-Creation",
+          "description": "Name was called before the Lord of Spirits prior to the creation of the sun, signs, and stars. Was chosen and hidden before the creation of the world."
+        },
+        {
+          "phase": "Phase 2: Revealed",
+          "description": "Revealed by the Wisdom of the Lord of Spirits to the holy and righteous."
+        }
+      ],
+      "role": "Central figure of the vision, pre-existent, object of worship, and agent of salvation."
+    },
+    {
+      "name": "Wisdom of the Lord of Spirits",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Personified agent that reveals the Son of Man to the holy and righteous."
     }
   ],
-  "props": [],
+  "characters": [
+    {
+      "name": "The Righteous, Holy, and Elect",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Group to whom the Son of Man is revealed and whose lot is preserved. They hate and forsake the world of unrighteousness."
+    },
+    {
+      "name": "The Thirsty",
+      "visualTraits": null,
+      "changes": null,
+      "role": "A group that drinks from the fountains of wisdom, becoming filled with it, and dwelling with the righteous."
+    },
+    {
+      "name": "The Gentiles",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Group for whom the Son of Man will be a light."
+    },
+    {
+      "name": "Those who are troubled in their hearts",
+      "visualTraits": null,
+      "changes": null,
+      "role": "Group for whom the Son of Man will be a hope."
+    },
+    {
+      "name": "All who dwell on the dry ground",
+      "visualTraits": null,
+      "changes": null,
+      "role": "All inhabitants of the earth who will fall down, worship, bless, and glorify the Son of Man."
+    },
+    {
+      "name": "Kings of the earth and the Strong",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Powerful",
+          "description": "Described as 'strong' and those who 'possess the dry ground'."
+        },
+        {
+          "phase": "Phase 2: Humbled",
+          "description": "Their faces become downcast. They are unable to save themselves on the day of their anguish. They are destroyed like grass in fire and lead in water, and fall with no one to raise them."
+        }
+      ],
+      "role": "Antagonistic group who are judged and destroyed for their deeds and for denying the Lord of Spirits and His Anointed."
+    }
+  ],
+  "props": [
+    {
+      "name": "Fountain of Righteousness",
+      "visualTraits": [
+        "Inexhaustible."
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Fountains of Wisdom",
+      "visualTraits": [
+        "Numerous.",
+        "Surround the Fountain of Righteousness."
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Staff",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "Fire",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "Lead",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    },
+    {
+      "name": "Water",
+      "visualTraits": null,
+      "changes": null,
+      "role": "unknown"
+    }
+  ],
+  "places": [
+    {
+      "name": "Presence of the Lord of Spirits",
+      "visualTraits": null,
+      "changes": null,
+      "role": "A transcendent location where the Son of Man was named and hidden before creation."
+    }
+  ],
+  "locations": [
+    {
+      "name": "Dwelling place of the Righteous",
+      "visualTraits": null,
+      "changes": null,
+      "role": "The place where the thirsty reside after drinking from the fountains of wisdom."
+    }
+  ],
   "environments": [
     {
-      "name": "ዕረፍት",
+      "name": "The Dry Ground / The Earth",
       "visualTraits": null,
       "changes": null,
-      "role": "sky"
+      "role": "The realm inhabited by people and ruled by the kings and the strong."
     },
     {
-      "name": "ምድር",
-      "visualTraits": null,
+      "name": "Heaven",
+      "visualTraits": [
+        "Contains stars."
+      ],
       "changes": null,
-      "role": "earth"
+      "role": "The celestial realm, mentioned in the context of pre-creation."
     },
     {
-      "name": "ትውን",
+      "name": "The World",
       "visualTraits": null,
       "changes": null,
-      "role": "wind"
+      "role": "The created order, established after the Son of Man was named."
+    },
+    {
+      "name": "This world of unrighteousness",
+      "visualTraits": [
+        "Characterized by unrighteous works and ways."
+      ],
+      "changes": null,
+      "role": "The earthly system that is hated and forsaken by the righteous."
     }
   ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 48 Segment 10",
-      "location": null,
-      "action": "Praising God",
-      "actorsInvolved": ["እግዚ"]
+      "title": "The Vision of the Fountains",
+      "location": "A visionary space containing the Fountains of Righteousness and Wisdom.",
+      "action": "The narrator sees an inexhaustible Fountain of Righteousness surrounded by many Fountains of Wisdom. The thirsty drink from them, are filled with wisdom, and come to dwell with the righteous, holy, and elect.",
+      "actorsInvolved": [
+        "The Thirsty",
+        "The Righteous, Holy, and Elect"
+      ]
+    },
+    {
+      "title": "The Naming of the Son of Man",
+      "location": "Presence of the Lord of Spirits",
+      "action": "The Son of Man is named in the presence of the Lord of Spirits, before the sun, signs, and stars were created.",
+      "actorsInvolved": [
+        "Son of Man",
+        "Lord of Spirits"
+      ]
+    },
+    {
+      "title": "The Role of the Son of Man",
+      "location": "not specified",
+      "action": "The Son of Man's purpose is declared: he will be a staff (of a spiritual kind) for the righteous, a light for the Gentiles, and a hope for the troubled. All who dwell on earth will fall down and worship before him.",
+      "actorsInvolved": [
+        "Son of Man",
+        "The Righteous, Holy, and Elect",
+        "The Gentiles",
+        "Those who are troubled in their hearts",
+        "All who dwell on the dry ground",
+        "Lord of Spirits"
+      ]
+    },
+    {
+      "title": "The Revelation of the Hidden One",
+      "location": "not specified",
+      "action": "It is explained that the Son of Man was chosen and hidden before the world's creation. The Wisdom of the Lord of Spirits reveals him to the holy and righteous, whose portion has been preserved because they rejected the world of unrighteousness.",
+      "actorsInvolved": [
+        "Son of Man",
+        "Lord of Spirits",
+        "Wisdom of the Lord of Spirits",
+        "The Righteous, Holy, and Elect"
+      ]
+    },
+    {
+      "title": "The Judgment of the Rulers",
+      "location": "The Dry Ground / The Earth",
+      "action": "The kings of the earth and the strong are described as becoming humbled and downcast. On the day of their anguish, they cannot save themselves and are destroyed like grass in fire and lead in water before the righteous and holy.",
+      "actorsInvolved": [
+        "Kings of the earth and the Strong",
+        "The Righteous, Holy, and Elect"
+      ]
+    },
+    {
+      "title": "The Final Fall",
+      "location": "The Dry Ground / The Earth",
+      "action": "On the day of their trouble, the kings and the strong fall down and do not rise again. No one is there to lift them because they denied the Lord of Spirits and his Anointed.",
+      "actorsInvolved": [
+        "Kings of the earth and the Strong",
+        "Lord of Spirits",
+        "Son of Man"
+      ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "son_of_man_presence",
+        "description": "The position before the Son of Man where worship and judgment occur."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "All who dwell on the dry ground",
+        "start_anchor": "unknown",
+        "end_anchor": "son_of_man_presence",
+        "motion": "fall down",
+        "duration_sec": null,
+        "notes": "They fall down and worship before the Son of Man."
+      },
+      {
+        "actor": "Kings of the earth and the Strong",
+        "start_anchor": "unknown",
+        "end_anchor": "son_of_man_presence",
+        "motion": "fall down",
+        "duration_sec": null,
+        "notes": "They fall down before him and do not rise again."
+      }
+    ]
   }
 }
 ```

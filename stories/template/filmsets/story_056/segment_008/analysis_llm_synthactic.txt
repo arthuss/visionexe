@@ -1,0 +1,21 @@
+An enumeration of all valid syntactic parses for the provided Ge'ez text, following the specified scientific rules.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "t1_p1",
+        "token_id": "t1",
+        "structure_type": "Nominal Phrase",
+        "bracket_notation": "[NP [N t1]]",
+        "dependencies": [],
+        "notes": "The verse number '56:1' is treated as a standalone nominal phrase functioning as a label."
+      },
+      {
+        "id": "t2_p1",
+        "token_id": "t2",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [Conj ወ] [VP [V ርኢኩ] [AdvP [Prep በ] [Adv ህየ]] [Obj [NP [N ትዕይንተ] [Gen [NP [N መላእክት] [RelCl [Rel ዘ] [Pred [N መቅሠፍት]]] [Mod [AdvP [Conj እንዘ] [S [VP [V የሐውሩ] [Conj ወ] [PartP [Part እሁዛን] [Obj [NP [N መሣግረ] [Gen [NP [N ሐፂን] [Conj ወ] [N ብርት]]]]]]]]]]]]]]]]]",
+        "dependencies": [
+          "ርኢኩ -> ወ (coordination)",

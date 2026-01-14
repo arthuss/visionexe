@@ -1,0 +1,12 @@
+﻿[2026-01-13 21:36:53] START engine/workers/worker_llm_analysis_Morphologic.py 21 --per-segment --use-vertex --vertex-model gemini-2.5-pro --vertex-project wallpaper-management-hub --vertex-location europe-west4 --force
+[21:36:53] Force enabled: Ignoring previous progress.
+[21:36:53] LLM: Vertex (model=gemini-2.5-pro, project=wallpaper-management-hub, location=europe-west4)
+[21:36:53] Filmsets: C:\Users\sasch\visionexe\stories\template\filmsets
+[21:36:53] Progress CSV: C:\Users\sasch\visionexe\stories\template\data\analysis\analysis_progress_python_morphologic_v2.csv
+[21:36:53] Chapter Label: story
+[21:36:53] Found 108 chapters.
+[21:37:57] Filter skipped: LLM output is not valid JSON.
+[21:37:57] Analyzed story_021 (64.5s).
+[21:37:57] Wrote analysis to 15 folders.
+[21:37:57] All tasks completed.
+[2026-01-13 21:37:57] EXIT 0

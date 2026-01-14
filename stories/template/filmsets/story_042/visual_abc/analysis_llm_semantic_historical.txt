@@ -1,0 +1,226 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "very_low",
+      "reasoning": "This hypothesis posits a genitive relationship with the verse number as the head. This is grammatically impossible in Ge'ez. A genitive construction requires either the head noun to be in the construct state or the use of the proclitic particle 'za-'. Neither of these markers is present between the verse number (t1) and the first word of the text (t2). The structure is syntactically and historically unattested.",
+      "parallels": [
+        {
+          "ref": "Lambdin, T. O. 2006. Introduction to Classical Ethiopic (Ge'ez). §60-65.",
+          "note": "The rules for genitive formation in Ge'ez are strict and are not met here. This proposed structure is unattested."
+        }
+      ],
+      "context_invariance": "unstable",
+      "back_translation": "fail"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "very_low",
+      "reasoning": "This hypothesis posits a genitive relationship with the verse text as the head. As with S1, this is grammatically impossible as it lacks the required genitive markers (construct state on the head noun 'ṭəbab' or the particle 'za-').",
+      "parallels": [
+        {
+          "ref": "unattested",
+          "note": "A syntactic structure where a verse number functions as a genitive modifier to the verse text is not attested in Ge'ez."
+        }
+      ],
+      "context_invariance": "unstable",
+      "back_translation": "fail"
+    },
+    {
+      "hypothesis_ref": "S3",
+      "plausibility": "low",
+      "reasoning": "This hypothesis suggests the verse text is in apposition to the verse number. While grammatically less constrained than the genitive, this analysis is functionally incorrect. Verse numbers are paratextual labels, not grammatical nouns that can be put in apposition with an entire clause. This misinterprets the function of versification.",
+      "parallels": [
+        {
+          "ref": "unattested",
+          "note": "Apposition between a numerical label and a full clause is not a standard syntactic pattern in Ge'ez."
+        }
+      ],
+      "context_invariance": "unstable",
+      "back_translation": "fail"
+    },
+    {
+      "hypothesis_ref": "S4",
+      "plausibility": "low",
+      "reasoning": "This hypothesis suggests the verse number is in apposition to the verse text. This is functionally incorrect for the same reasons as S3. The number is an external label for the text, not an appositive modifier within its grammatical structure.",
+      "parallels": [
+        {
+          "ref": "unattested",
+          "note": "Apposition of a numerical label to a clause is not a standard syntactic pattern in Ge'ez."
+        }
+      ],
+      "context_invariance": "unstable",
+      "back_translation": "fail"
+    },
+    {
+      "hypothesis_ref": "S5",
+      "plausibility": "high",
+      "reasoning": "This parse correctly identifies the relationship as juxtaposition. Historically, verse numbers in Ge'ez manuscripts (and their modern transcriptions) are paratextual elements—labels for reference, not syntactic components of the sentence. They are often rubricated or placed in the margin. Treating the number as a 'Fragment' and the text as a 'Sentence' in simple sequence is the most accurate analysis.",
+      "parallels": [
+        {
+          "ref": "Dillmann, A. 1851. Liber Henoch Aethiopice. p. 28.",
+          "note": "In critical editions and the manuscript tradition they represent, chapter and verse numbers are consistently treated as extra-textual markers, often placed in the margins, confirming they are not syntactically integrated into the sentences."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S6",
+      "plausibility": "high",
+      "reasoning": "This parse correctly identifies the sentence-final punctuation '።' (t2) as a major syntactic boundary, after which the next unit (the verse number t3) begins a new, independent fragment. This reinforces the conclusion that verse units are syntactically separate, linked only by sequence.",
+      "parallels": [
+        {
+          "ref": "General Ge'ez paleography",
+          "note": "The 'ʾəssāt' punctuation mark (።) universally functions as a full stop, marking the end of a sentence. Any subsequent text begins a new syntactic unit."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S7",
+      "plausibility": "very_low",
+      "reasoning": "This hypothesis posits a genitive relationship with the verse number as the head. This is grammatically impossible in Ge'ez. A genitive construction requires either the head noun to be in the construct state or the use of the proclitic particle 'za-'. Neither of these markers is present. The structure is syntactically and historically unattested.",
+      "parallels": [
+        {
+          "ref": "Lambdin, T. O. 2006. Introduction to Classical Ethiopic (Ge'ez). §60-65.",
+          "note": "The rules for genitive formation in Ge'ez are strict and are not met here. This proposed structure is unattested."
+        }
+      ],
+      "context_invariance": "unstable",
+      "back_translation": "fail"
+    },
+    {
+      "hypothesis_ref": "S8",
+      "plausibility": "very_low",
+      "reasoning": "This hypothesis posits a genitive relationship with the verse text as the head. As with S7, this is grammatically impossible as it lacks the required genitive markers (construct state on the head noun or the particle 'za-').",
+      "parallels": [
+        {
+          "ref": "unattested",
+          "note": "A syntactic structure where a verse number functions as a genitive modifier to the verse text is not attested in Ge'ez."
+        }
+      ],
+      "context_invariance": "unstable",
+      "back_translation": "fail"
+    },
+    {
+      "hypothesis_ref": "S9",
+      "plausibility": "low",
+      "reasoning": "This hypothesis suggests the verse text is in apposition to the verse number. This analysis is functionally incorrect. Verse numbers are paratextual labels, not grammatical nouns that can be put in apposition with an entire clause. This misinterprets the function of versification.",
+      "parallels": [
+        {
+          "ref": "unattested",
+          "note": "Apposition between a numerical label and a full clause is not a standard syntactic pattern in Ge'ez."
+        }
+      ],
+      "context_invariance": "unstable",
+      "back_translation": "fail"
+    },
+    {
+      "hypothesis_ref": "S10",
+      "plausibility": "low",
+      "reasoning": "This hypothesis suggests the verse number is in apposition to the verse text. This is functionally incorrect for the same reasons as S9. The number is an external label for the text, not an appositive modifier within its grammatical structure.",
+      "parallels": [
+        {
+          "ref": "unattested",
+          "note": "Apposition of a numerical label to a clause is not a standard syntactic pattern in Ge'ez."
+        }
+      ],
+      "context_invariance": "unstable",
+      "back_translation": "fail"
+    },
+    {
+      "hypothesis_ref": "S11",
+      "plausibility": "high",
+      "reasoning": "This parse correctly identifies the relationship as juxtaposition. Historically, verse numbers are paratextual labels, not syntactic components of the sentence. Treating the number as a 'Fragment' and the text as a 'Sentence' in simple sequence is the most accurate analysis, consistent with manuscript practice.",
+      "parallels": [
+        {
+          "ref": "Dillmann, A. 1851. Liber Henoch Aethiopice. p. 28.",
+          "note": "In critical editions and the manuscript tradition they represent, chapter and verse numbers are consistently treated as extra-textual markers, confirming they are not syntactically integrated."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S12",
+      "plausibility": "high",
+      "reasoning": "This parse correctly identifies the sentence-final punctuation '።' (t4) as a major syntactic boundary, after which the next unit (the verse number t5) begins a new, independent fragment. This reinforces the conclusion that verse units are syntactically separate.",
+      "parallels": [
+        {
+          "ref": "General Ge'ez paleography",
+          "note": "The 'ʾəssāt' punctuation mark (።) universally functions as a full stop, marking the end of a sentence. Any subsequent text begins a new syntactic unit."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S13",
+      "plausibility": "very_low",
+      "reasoning": "This hypothesis posits a genitive relationship with the verse number as the head. This is grammatically impossible in Ge'ez. A genitive construction requires either the head noun to be in the construct state or the use of the proclitic particle 'za-'. Neither of these markers is present. The structure is syntactically and historically unattested.",
+      "parallels": [
+        {
+          "ref": "Lambdin, T. O. 2006. Introduction to Classical Ethiopic (Ge'ez). §60-65.",
+          "note": "The rules for genitive formation in Ge'ez are strict and are not met here. This proposed structure is unattested."
+        }
+      ],
+      "context_invariance": "unstable",
+      "back_translation": "fail"
+    },
+    {
+      "hypothesis_ref": "S14",
+      "plausibility": "very_low",
+      "reasoning": "This hypothesis posits a genitive relationship with the verse text as the head. As with S13, this is grammatically impossible as it lacks the required genitive markers (construct state on the head noun or the particle 'za-').",
+      "parallels": [
+        {
+          "ref": "unattested",
+          "note": "A syntactic structure where a verse number functions as a genitive modifier to the verse text is not attested in Ge'ez."
+        }
+      ],
+      "context_invariance": "unstable",
+      "back_translation": "fail"
+    },
+    {
+      "hypothesis_ref": "S15",
+      "plausibility": "low",
+      "reasoning": "This hypothesis suggests the verse text is in apposition to the verse number. This analysis is functionally incorrect. Verse numbers are paratextual labels, not grammatical nouns that can be put in apposition with an entire clause. This misinterprets the function of versification.",
+      "parallels": [
+        {
+          "ref": "unattested",
+          "note": "Apposition between a numerical label and a full clause is not a standard syntactic pattern in Ge'ez."
+        }
+      ],
+      "context_invariance": "unstable",
+      "back_translation": "fail"
+    },
+    {
+      "hypothesis_ref": "S16",
+      "plausibility": "low",
+      "reasoning": "This hypothesis suggests the verse number is in apposition to the verse text. This is functionally incorrect for the same reasons as S15. The number is an external label for the text, not an appositive modifier within its grammatical structure.",
+      "parallels": [
+        {
+          "ref": "unattested",
+          "note": "Apposition of a numerical label to a clause is not a standard syntactic pattern in Ge'ez."
+        }
+      ],
+      "context_invariance": "unstable",
+      "back_translation": "fail"
+    },
+    {
+      "hypothesis_ref": "S17",
+      "plausibility": "high",
+      "reasoning": "This parse correctly identifies the relationship as juxtaposition. Historically, verse numbers are paratextual labels, not syntactic components of the sentence. Treating the number as a 'Fragment' and the text as a 'Sentence' in simple sequence is the most accurate analysis, consistent with manuscript practice.",
+      "parallels": [
+        {
+          "ref": "Dillmann, A. 1851. Liber Henoch Aethiopice. p. 28.",
+          "note": "In critical editions and the manuscript tradition they represent, chapter and verse numbers are consistently treated as extra-textual markers, confirming they are not syntactically integrated."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "The core question is the syntactic relationship between a verse number (e.g., t1: '42:1') and the subsequent verse text (e.g., t2). The provided hypotheses explore genitive, apposition, and juxtaposition relationships. The genitive hypotheses (S1, S2, S7, S8, S13, S14) are immediately ruled out on grammatical grounds; they lack the mandatory morphological marking (construct state or 'za-') required for a genitive in Ge'ez. The apposition hypotheses (S3, S4, S9, S10, S15, S16) are ruled out on functional and historical grounds; verse numbers are paratextual labels, not grammatical constituents that stand in apposition to a clause. This leaves the juxtaposition hypotheses (S5, S6, S11, S12, S17) as the only viable option. This analysis aligns perfectly with the historical evidence from manuscripts, where numbers are physically and functionally separate from the text block (e.g., rubricated, in margins). They are labels, not part of the sentence grammar. Therefore, the relationship is one of simple sequence, not syntactic dependency.",

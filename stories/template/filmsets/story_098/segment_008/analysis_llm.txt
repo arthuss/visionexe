@@ -1,10 +1,207 @@
+```json
 {
-  "actors": [],
-  "props": [],
+  "actors": [
+    {
+      "name": "The Most High",
+      "visualTraits": "Referred to as 'Our Lord, the Most High' (እግዚእነ፡ ልዑል) and 'the Great Holy One' (ቅዱስ፡ ዐቢይ). A supreme, holy being who is aware of all deeds on Earth.",
+      "changes": [],
+      "role": "divinity"
+    }
+  ],
+  "characters": [
+    {
+      "name": "The Speaker",
+      "visualTraits": "An unidentified narrator who speaks in the first person, swearing oaths ('I have sworn' - መሐልኩ).",
+      "changes": [],
+      "role": "prophet"
+    },
+    {
+      "name": "Sinners",
+      "visualTraits": "A group addressed throughout the text. Described as 'foolish' (¡ብዳን), 'stubborn of heart' (ግዙፋነ፡ልብ), 'wicked' (ረሲዓን), and those who love violence and write falsehoods. They adorn themselves with riches, consume good things, and create sin.",
+      "changes": [],
+      "role": "antagonist"
+    },
+    {
+      "name": "The Wise",
+      "visualTraits": "A group of people (ጠቢባን) contrasted with the foolish sinners.",
+      "changes": [],
+      "role": "unknown"
+    },
+    {
+      "name": "The Righteous",
+      "visualTraits": "A group of people (ጻድቃን) who suffer at the hands of sinners but will ultimately be their executioners.",
+      "changes": [],
+      "role": "protagonist"
+    },
+    {
+      "name": "Men",
+      "visualTraits": "People (ሰብእ) who are identified as the creators of sin from their own minds.",
+      "changes": [],
+      "role": "unknown"
+    },
+    {
+      "name": "A Woman",
+      "visualTraits": "A generic woman (ብእሲት) mentioned in the context that sin was not sent for her, and she dies for the work of her hands, without children.",
+      "changes": [],
+      "role": "unknown"
+    },
+    {
+      "name": "Women",
+      "visualTraits": "A group (¡ንስት) mentioned as a point of comparison for the adornments of sinners.",
+      "changes": [],
+      "role": "unknown"
+    },
+    {
+      "name": "Virgins",
+      "visualTraits": "A group (ድንግል) mentioned as a point of comparison for the colorful adornments of sinners.",
+      "changes": [],
+      "role": "unknown"
+    },
+    {
+      "name": "Children",
+      "visualTraits": "Offspring (ውሉድ) mentioned in the context of the woman who dies without them.",
+      "changes": [],
+      "role": "unknown"
+    }
+  ],
+  "props": [
+    {
+      "name": "Ornaments",
+      "visualTraits": "Adornments (ዕደው) worn by sinners.",
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Silver",
+      "visualTraits": "Precious metal (ብሩር) possessed by sinners.",
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Gold",
+      "visualTraits": "Precious metal (ወርቅ) possessed by sinners.",
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Fine Cloth",
+      "visualTraits": "Garments or textiles (ሜላት) possessed by sinners.",
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Precious Stones",
+      "visualTraits": "Gems (Œብር) possessed by sinners.",
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Food",
+      "visualTraits": "Sustenance (መባልዕት) consumed by sinners.",
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Water",
+      "visualTraits": "Drink (ማይ) consumed by sinners.",
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Possessions",
+      "visualTraits": "General goods and wealth (ንዋያቲሆሙ) with which sinners will perish.",
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Heavenly Record of Deeds",
+      "visualTraits": "A record that is written (ይጸሐፍ) daily in the Heavens before the Most High, documenting all the injustice and evil deeds of sinners.",
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Writings of Falsehood",
+      "visualTraits": "Written words of falsehood (ነገረ፡ ሐሰት) and words of the wicked (ነገረ፡ ረሲዓን) that are authored by sinners.",
+      "changes": [],
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Earth",
+      "visualTraits": "The world (ምድር) where sinners see many things, create sin, and enjoy wealth provided by the Most High.",
+      "changes": [],
+      "role": "setting"
+    },
+    {
+      "name": "Heavens",
+      "visualTraits": "The celestial realm (ሰማያት) where the evil deeds of sinners are openly revealed and recorded daily before the Most High.",
+      "changes": [],
+      "role": "setting"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Mountain",
+      "visualTraits": "A generic mountain (ደብር) mentioned in an oath to state that it was not created to become a servant.",
+      "changes": [],
+      "role": "setting"
+    },
+    {
+      "name": "Grave",
+      "visualTraits": "A tomb or burial place (መቃብር) which is said will not be found for the sinners who rejoice in the suffering of the righteous.",
+      "changes": [],
+      "role": "setting"
+    }
+  ],
   "environments": [],
-  "scenes": [],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "Pronouncement on Sinners' Wealth and Doom",
+      "location": "Earth (implied)",
+      "action": "The Speaker addresses the wise and foolish, describing how sinners adorn themselves with wealth and possessions, and prophesies that they and their riches will perish together.",
+      "actorsInvolved": [
+        "The Speaker",
+        "Sinners",
+        "The Wise"
+      ]
+    },
+    {
+      "title": "Oath on the Human Origin of Sin",
+      "location": "Earth (implied)",
+      "action": "The Speaker swears an oath that sin was not sent upon the earth but was created by men themselves, and a great curse is for those who practice it.",
+      "actorsInvolved": [
+        "The Speaker",
+        "Men",
+        "A Woman"
+      ]
+    },
+    {
+      "title": "Oath on the Heavenly Record of Sin",
+      "location": "Heavens (conceptual)",
+      "action": "The Speaker swears by the Great Holy One that all the evil deeds of sinners are openly known and recorded daily in the Heavens before the Most High.",
+      "actorsInvolved": [
+        "The Speaker",
+        "The Most High",
+        "Sinners"
+      ]
+    },
+    {
+      "title": "Woes and Prophecies of Judgment",
+      "location": "Unspecified",
+      "action": "The Speaker delivers a series of woes to sinners, warning them of the coming 'day of destruction' and 'great condemnation'. They are told they will be handed over to the righteous to be killed, will find no grave, and will die a sudden death for their evil deeds and false words.",
+      "actorsInvolved": [
+        "The Speaker",
+        "Sinners",
+        "The Righteous",
+        "The Most High"
+      ]
+    }
+  ],
   "blocking": {
     "anchors": [],
     "paths": []
   }
 }
+```

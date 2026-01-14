@@ -1,0 +1,10 @@
+An enumeration of all valid syntactic parses for the provided Ge'ez text, following the specified scientific rules.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "P1",
+        "structure_type": "Clause",
+        "bracket_notation": "[S [VP [V እምሕል (t2)] [IO [PP [P ለ (t2)] [NP Œሙ (t2)]]]] [Ccomp [SBAR [CONJ እስመ (t2)] [S [S [VP [V ይዜ…ሩ (t3)] [Subj [NP [N መለእŒት (t3)]]] [Obj [NP [N እንቲ¡Œሙ (t4)]]] [Adj [PP [P Å (t2)] [NP ሰማይ (t2)]]] [Adj [PP [P ለ (t4)] [NP ሠናይ (t4)]]] [Adj [PP [P Åቅድመ (t4)] [NP [N ስብሐቲሁ (t5)] [Gen [PP [P ለ (t5)] [NP ዐቢይ (t5)]]]]]]]] [CONJ ወ (t6)] [S [VP [V ይጽሕፉ (t6)] [Obj [NP [N ¡ስማቲŒሙ (t6)]]] [Adj [PP [P ቅድመ (t7)] [NP [N ስብሐቲሁ (t7)] [Gen [PP

@@ -1,20 +1,15 @@
+An exhaustive syntactic analysis of the provided Ge'ez text is presented below, adhering to the specified scientific rules. Each Ge'ez sentence or major clausal unit, corresponding to a token in the input, is analyzed. For each token, all syntactically valid parses are enumerated, capturing structural ambiguities without semantic preference. The analysis uses bracket notation and provides explicit head-dependent relationships.
+
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "P1",
-        "structure_type": "Complex Sentence with Multiple Clauses",
-        "bracket_notation": "[S1 [NP-SUBJ t10 [ADJP t11] [MOD t12]] [VP [VP t13] [VP t14] [VP t15]]] [S2 [PRED t16 [RC t17 [CONJ t18]]]]",
+        "id": "t2_p1",
+        "token_id": "t2",
+        "structure_type": "Multi-Clause Sentence (Parataxis)",
+        "bracket_notation": "[S [Clause [V ወአውሥአኒ]] [Clause [V ወይቤለኒ] [PP [P በ] [NP ቃሉ]]] [Clause [V ስማዕ]] [Clause [V ኢትፍራህ]] [NP_voc [N ሄኖክ] [Appos [NP [NP [N ብእሲ] [Adj ጻድቅ]] [Conj ወ] [NP [N ጸሐፌ] [Gen ጽድቅ]]]]] [Clause [V ቅረብ] [Adv ዝየ]] [Clause [V ወስማዕ] [Obj ቃልየ]]]",
         "dependencies": [
-          "t10->t11 (apposition)",
-          "t11->t12 (modifier)",
-          "t13->t14 (coordinated_verb)",
-          "t14->t15 (coordinated_verb)",
-          "t16->t17 (relative_clause)",
-          "t17->t18 (coordinated_verb)"
-        ],
-        "notes": "A series of clauses contrasting the nature of the addressees with mortals. t5-t9 are fragments/punctuation and not included in the main parse."
-      }
-    ]
-  }
-}
+          "ROOT->ወአውሥአኒ (paratactic)",
+          "ROOT->ወይቤለኒ (paratactic)",
+          "ወይቤለኒ->በቃሉ (

@@ -1,12 +1,156 @@
 ```json
 {
-  "actors": [],
-  "props": [],
+  "actors": [
+    {
+      "name": "Enoch",
+      "visualTraits": null,
+      "changes": null,
+      "role": "narrator"
+    },
+    {
+      "name": "Raphael",
+      "visualTraits": [
+        "one of the holy angels"
+      ],
+      "changes": null,
+      "role": "guide"
+    },
+    {
+      "name": "The Lord",
+      "visualTraits": [
+        "Lord of Glory",
+        "eternal King"
+      ],
+      "changes": null,
+      "role": "divine_being"
+    }
+  ],
+  "characters": [
+    {
+      "name": "The Accursed",
+      "visualTraits": [
+        "those who speak an unseemly word against the Lord with their mouths",
+        "those who speak hard things concerning His glory"
+      ],
+      "changes": null,
+      "role": "antagonist_group"
+    },
+    {
+      "name": "The Righteous",
+      "visualTraits": null,
+      "changes": null,
+      "role": "observer_group"
+    },
+    {
+      "name": "The Merciful",
+      "visualTraits": null,
+      "changes": null,
+      "role": "observer_group"
+    },
+    {
+      "name": "Holy Angels",
+      "visualTraits": null,
+      "changes": null,
+      "role": "divine_group"
+    }
+  ],
+  "props": [
+    {
+      "name": "Trees",
+      "visualTraits": [
+        "filling the blessed land"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "Blessed Land",
+      "visualTraits": [
+        "blessed in its entirety",
+        "full of trees"
+      ],
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "Accursed Valley",
+      "visualTraits": [
+        "accursed",
+        "located in the midst of the blessed lands",
+        "designated as a future gathering place for the accursed",
+        "designated as a place of judgment"
+      ],
+      "changes": null,
+      "role": "setting"
+    }
+  ],
   "environments": [],
-  "scenes": [],
+  "geo_environments": [
+    {
+      "name": "Gehenna_Data_Sink",
+      "visualTraits": [
+        "An accursed valley, located in the midst of a blessed, tree-filled land, which serves as a place of judgment."
+      ],
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "scenes": [
+    {
+      "title": "The Question of the Accursed Valley",
+      "location": "Blessed Land",
+      "action": "Enoch observes a blessed, tree-filled land with an accursed valley in its midst and asks Raphael for an explanation.",
+      "actorsInvolved": [
+        "Enoch",
+        "Raphael"
+      ]
+    },
+    {
+      "title": "The Valley of Judgment",
+      "location": "Accursed Valley",
+      "action": "Raphael explains that the accursed valley is reserved for the eternal judgment of those who blaspheme the Lord, and that the righteous will witness this judgment and bless the Lord from there.",
+      "actorsInvolved": [
+        "Raphael",
+        "Enoch"
+      ]
+    },
+    {
+      "title": "Enoch's Blessing",
+      "location": "Blessed Land",
+      "action": "After hearing Raphael's explanation, Enoch blesses the Lord of Glory for his greatness.",
+      "actorsInvolved": [
+        "Enoch"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "observation_point",
+        "description": "A vantage point within the Blessed Land from which the Accursed Valley is visible."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Enoch",
+        "start_anchor": "observation_point",
+        "end_anchor": "observation_point",
+        "motion": "stand",
+        "duration_sec": null,
+        "notes": "Stands with Raphael, observing the landscape and conversing."
+      },
+      {
+        "actor": "Raphael",
+        "start_anchor": "observation_point",
+        "end_anchor": "observation_point",
+        "motion": "stand",
+        "duration_sec": null,
+        "notes": "Stands with Enoch, responding to his questions."
+      }
+    ]
   }
 }
 ```

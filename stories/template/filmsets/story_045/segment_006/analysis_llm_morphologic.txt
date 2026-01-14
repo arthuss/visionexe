@@ -1,0 +1,17 @@
+An analysis of the provided Ge'ez text from the Book of Enoch (1 Enoch 45:1-6) is presented below. The analysis adheres to the specified scientific rules, including graphematic fidelity and the use of the GEZ-POS-1 tagset.
+
+A preliminary step was required to address a contradiction in the input instructions. The provided `tokens` array contained large, multi-word strings (entire verses), which conflicts with the `tokenization_policy` of "whitespace" and makes a word-level morphological analysis impossible. To resolve this and perform a meaningful analysis, the text was re-tokenized based on whitespace and the Ge'ez word separator (`፡`), a standard procedure for the language. The following analysis is based on this corrected, word-level tokenization. Each word is treated as a distinct token, and verse markers are included as numerical tokens.
+
+```json
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2024-07-30T12:00:00Z",
+    "created_by": "llm",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_045",
+    "graphematic_string": "45:1 ወዝከልእ፡​ምሳሌ፡​

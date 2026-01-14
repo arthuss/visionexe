@@ -1,0 +1,64 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "low",
+      "reasoning": "Hypothesis: The phrase 'ዝኩሉ፡ትእምርተ፡ጥበብ፡እምኩሉ፡ሰብእ፡ስቡሕ' (this whole sign of wisdom, praised more than any man) describes the book itself. This reading is syntactically possible but creates an awkward apposition, separating the main relative clause 'ዘተጽሕፈ' (that which was written) from its antecedent content. It makes the flow disjointed: 'That which was written... this sign of wisdom... for all my children.'",
+      "parallels": [
+        {
+          "ref": "1 Enoch (Knibb 1978)",
+          "note": "Marked as unattested. Critical editions present a different syntax where the descriptive phrases clearly refer to Enoch, not the book. For example, Knibb's edition reads '...Enoch the scribe... who was chosen from among men and praised...' (ዘተሐርየ፡ እምሰብእ፡ ወስቡሕ፡). The input text appears to be a corruption of this more common structure."
+        }
+      ],
+      "context_invariance": "unstable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "high",
+      "reasoning": "Hypothesis: The phrases 'ዝኩሉ፡ትእምርተ፡ጥበብ' (this whole sign of wisdom) and 'እምኩሉ፡ሰብእ፡ስቡሕ' (praised more than any man) are in apposition to 'ሄኖክ፡ጸሐፊ' (Enoch the scribe). The reading would be: 'That which was written by Enoch the scribe, (who is) this whole sign of wisdom, praised more than any man...'. This creates a coherent adjectival description of Enoch, establishing his authority. This syntactic structure is common in honorific introductions.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 92:1 (M. Knibb, The Ethiopic Book of Enoch, 1978)",
+          "note": "This hypothesis aligns with the syntax found in critical editions, which have relative clauses modifying Enoch (e.g., 'ዘተሐርየ' - 'who was chosen'). This indicates that describing Enoch, rather than the book, is the intended structure."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S3",
+      "plausibility": "moderate",
+      "reasoning": "Hypothesis: In 92:2, 'ዝማን' (zǝ-mān) functions as an adverbial accusative of time, meaning 'at this time'. The text reads 'ኢትሕዘን፡መንፈስክሙ፡ዝማን' (Let not your spirit grieve at this time). This reading is proposed despite two textual difficulties: 1) The verb 'ኢትሕዘን' is 2nd masc. sg. jussive, while the subject 'መንፈስክሙ' (your spirit) is plural possessive, suggesting a grammatical mismatch (expecting 'ኢይሕዘን' or 'ኢትሕዘኑ'). 2) The use of 'ዝማን' as a bare accusative of time is less common than prepositional phrases like 'በዝ፡ጊዜ' (at this time). However, given the context, this remains the most semantically plausible interpretation of the received text.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 92:2 (M. Knibb, 1978)",
+          "note": "Better manuscripts clarify this ambiguity, reading 'ኢትሕዘን፡ መንፈሰ፡ ጻድቅ፡ በዝ፡ ጊዜ' (Let not the spirit of the righteous grieve at this time). This parallel strongly supports the interpretation of 'ዝማን' as a temporal adverb, even if the form in the input text is unusual or corrupt."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S4",
+      "plausibility": "high",
+      "reasoning": "Hypothesis: Verse 92:4 contains a subject shift. The verse begins with God as the implicit subject of 'ይሣሀሎ' (He will have mercy) and 'ይሁብ' (He will give). It then shifts to the righteous as the subject(s) for 'ወይዴውን' (and he will judge - a plausible reconstruction of 'ወይ…ውን') and 'ወየሐውሩ' (and they will walk). The final verb is plural, indicating that the singular 'ጻድቅ' (righteous one) from v. 3 is now understood collectively. This type of subject shift, often unmarked, is a common feature of prophetic and apocalyptic literature in Ge'ez.",
+      "parallels": [
+        {
+          "ref": "Isaiah 40:3-4 (Ethiopic)",
+          "note": "Similar shifts between God's actions and the response or subsequent state of the people are frequent. For example, a voice cries out (divine/prophetic action), and then paths are made straight (human/resultant action)."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "The primary evaluation focused on resolving the syntactic ambiguity in the opening of 1 Enoch 92:1. Hypothesis S1 posits that the descriptive phrases refer to the written work, while S2 posits they refer to Enoch himself. S2 is strongly preferred for several reasons. First, it creates a much smoother and more logical introductory statement, establishing the authority of the speaker. Second, it aligns with the textual evidence from critical editions (e.g., Knibb), which use relative clauses that explicitly modify Enoch. The input text appears to be a slightly corrupted version of this structure, but the underlying intent is best captured by S2. The lacuna 'መ—ንነ' is reconstructed as 'መክብበ' (ruler of), which fits this descriptive context perfectly. Other hypotheses were evaluated: S3 addresses a grammatical anomaly in 92:2, with the proposed reading supported by better manuscripts. S4 identifies a subject shift in 92:4, a key feature of the genre's style. Uncertainty remains regarding the exact original wording of the input text, which shows signs of scribal error (e.g., verb agreement in 92:2) and lacunae, but the proposed hypotheses represent the most coherent readings based on internal and external evidence.",
+  "final_decision": {
+    "hypothesis_ref": "S2",
+    "translation_id": "T1",
+    "confidence": "high"
+  }
+}
+```

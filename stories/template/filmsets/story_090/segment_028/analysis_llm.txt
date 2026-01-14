@@ -1,41 +1,538 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [
+  "actors": [
     {
-      "name": "ቤት",
-      "visualTraits": null,
+      "name": "Enoch",
+      "visualTraits": {
+        "description": "The narrator of the vision. His physical form is not described, but his actions of seeing, crying out, sleeping, and waking are central.",
+        "age": "unknown",
+        "gender": "male"
+      },
       "changes": null,
+      "role": "narrator"
+    },
+    {
+      "name": "Lord of the sheep",
+      "visualTraits": {
+        "description": "A divine figure who owns the sheep. Appears in anger, holds a rod, sits for judgment, and rejoices over his flock.",
+        "age": "unknown",
+        "gender": "male"
+      },
+      "changes": null,
+      "role": "divine_judge"
+    },
+    {
+      "name": "The man who writes",
+      "visualTraits": {
+        "description": "A scribe figure who records the names of the shepherds and reads from a book of destruction during the judgment. He is identified as one of the seven white men.",
+        "age": "unknown",
+        "gender": "male"
+      },
+      "changes": null,
+      "role": "scribe"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Shepherds",
+      "visualTraits": {
+        "description": "A succession of seventy, then twelve, then twenty-three shepherds tasked with tending the sheep. They are ultimately judged as corrupt.",
+        "count": "multiple groups (70, 12, 23)"
+      },
+      "changes": null,
+      "role": "antagonist"
+    },
+    {
+      "name": "Sheep",
+      "visualTraits": {
+        "description": "A flock of white sheep with thick, pure wool.",
+        "count": "large flock"
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Persecuted",
+          "description": "Attacked by birds of prey, their flesh is devoured, leaving only bones scattered on the ground. Some become blind."
+        },
+        {
+          "phase": "Phase 2: Vindicated",
+          "description": "After the rise of the horned ram, their eyes are opened. They are given a great sword to defeat their enemies and are gathered into a new, larger house."
+        },
+        {
+          "phase": "Phase 3: Transformed",
+          "description": "All the surviving sheep are transformed into white bulls."
+        }
+      ],
+      "role": "protagonist_group"
+    },
+    {
+      "name": "Birds of heaven",
+      "visualTraits": {
+        "description": "A collective group of predatory birds, including eagles, vultures, kites, and ravens, that attack and devour the sheep.",
+        "count": "large flock"
+      },
+      "changes": null,
+      "role": "antagonist_group"
+    },
+    {
+      "name": "Eagles",
+      "visualTraits": {
+        "description": "Predatory birds that lead the other birds of heaven in attacking the sheep.",
+        "count": "multiple"
+      },
+      "changes": null,
+      "role": "antagonist"
+    },
+    {
+      "name": "Vultures",
+      "visualTraits": {
+        "description": "Predatory birds that participate in devouring the sheep.",
+        "count": "multiple"
+      },
+      "changes": null,
+      "role": "antagonist"
+    },
+    {
+      "name": "Kites",
+      "visualTraits": {
+        "description": "Predatory birds that participate in devouring the sheep.",
+        "count": "multiple"
+      },
+      "changes": null,
+      "role": "antagonist"
+    },
+    {
+      "name": "Ravens",
+      "visualTraits": {
+        "description": "Predatory birds that attack the lambs and later fight against the great horned ram.",
+        "count": "multiple"
+      },
+      "changes": null,
+      "role": "antagonist"
+    },
+    {
+      "name": "Lambs",
+      "visualTraits": {
+        "description": "Young sheep born from the white flock.",
+        "count": "multiple"
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Nascent",
+          "description": "Born from the white sheep."
+        },
+        {
+          "phase": "Phase 2: Developing",
+          "description": "Their eyes begin to open and they grow horns."
+        }
+      ],
+      "role": "protagonist_group"
+    },
+    {
+      "name": "The Ram",
+      "visualTraits": {
+        "description": "A specific sheep (ram) from the flock who becomes a leader.",
+        "count": "1"
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Emergent Leader",
+          "description": "A single great horn grows on him, and his eyes are opened."
+        },
+        {
+          "phase": "Phase 2: Transformed Bull",
+          "description": "Along with the other sheep, he is transformed into a white bull."
+        },
+        {
+          "phase": "Phase 3: Final Form",
+          "description": "He becomes a 'great wild beast' with large black horns on his head, inspiring fear and reverence."
+        }
+      ],
+      "role": "messianic_figure"
+    },
+    {
+      "name": "Wild Animals of the desert",
+      "visualTraits": {
+        "description": "Beasts from the desert that join the birds of prey to attack the sheep.",
+        "count": "multiple"
+      },
+      "changes": null,
+      "role": "antagonist_group"
+    },
+    {
+      "name": "Seven White Men",
+      "visualTraits": {
+        "description": "Seven men, described as white, who assist the Lord of the sheep in the judgment.",
+        "count": "7"
+      },
+      "changes": null,
+      "role": "divine_agent"
+    },
+    {
+      "name": "Blind Sheep",
+      "visualTraits": {
+        "description": "A group of sheep whose eyes were blinded. They are judged as sinners.",
+        "count": "multiple"
+      },
+      "changes": null,
+      "role": "antagonist_group"
+    },
+    {
+      "name": "White Bulls",
+      "visualTraits": {
+        "description": "The final, transformed state of the righteous sheep.",
+        "count": "large herd"
+      },
+      "changes": null,
+      "role": "protagonist_group"
+    }
+  ],
+  "props": [
+    {
+      "name": "Bones",
+      "visualTraits": {
+        "description": "The skeletal remains of the sheep after they are devoured by the birds of prey."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Horns",
+      "visualTraits": {
+        "description": "Horns that grow on the young lambs."
+      },
+      "changes": null,
+      "role": "character_prop:Lambs"
+    },
+    {
+      "name": "Great Horn",
+      "visualTraits": {
+        "description": "A single, large horn that grows on one of the sheep, turning him into the Ram leader."
+      },
+      "changes": null,
+      "role": "character_prop:The Ram"
+    },
+    {
+      "name": "Rod of Anger",
+      "visualTraits": {
+        "description": "A rod or staff wielded by the Lord of the sheep, which he uses to strike the earth."
+      },
+      "changes": null,
+      "role": "actor_prop:Lord of the sheep"
+    },
+    {
+      "name": "Great Sword",
+      "visualTraits": {
+        "description": "A large sword given to the sheep, which they use to kill the wild animals."
+      },
+      "changes": null,
+      "role": "character_prop:Sheep"
+    },
+    {
+      "name": "Sealed Books",
+      "visualTraits": {
+        "description": "Books with seals that are brought before the Lord of the sheep and opened."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Book of Destruction",
+      "visualTraits": {
+        "description": "A book detailing the transgressions of the last twelve shepherds, showing they caused more destruction than their predecessors."
+      },
+      "changes": null,
+      "role": "actor_prop:The man who writes"
+    },
+    {
+      "name": "Pillars",
+      "visualTraits": {
+        "description": "The structural supports of the house. The old pillars are removed, and new ones are installed for the new house."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Timbers",
+      "visualTraits": {
+        "description": "The wooden beams of the old house, which are removed along with the pillars."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Great Black Horns",
+      "visualTraits": {
+        "description": "Large, black horns that appear on the head of the leader (The Ram) after his final transformation into a 'great wild beast'."
+      },
+      "changes": null,
+      "role": "character_prop:The Ram"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "The Ground",
+      "visualTraits": {
+        "description": "The earth where the sheep are devoured, their bones fall, and the judgment takes place."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Defiled",
+          "description": "Covered with the bones of the devoured sheep."
+        },
+        {
+          "phase": "Phase 2: Judged",
+          "description": "The earth is struck by the Lord's rod and splits open to swallow the wicked."
+        }
+      ],
       "role": "setting"
     },
     {
-      "name": "ምድር",
-      "visualTraits": null,
+      "name": "Fiery Abyss",
+      "visualTraits": {
+        "description": "A deep place in the middle of the earth, full of fire and pillars of fire, used for punishment."
+      },
       "changes": null,
-      "role": "setting"
+      "role": "location_of_punishment"
+    },
+    {
+      "name": "The House",
+      "visualTraits": {
+        "description": "A central structure for the sheep."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Old House",
+          "description": "An old house that is eventually dismantled."
+        },
+        {
+          "phase": "Phase 2: New House",
+          "description": "A new house is built in the place of the old one. It is larger, taller, and has new pillars and timbers. It is filled with all the righteous sheep and animals."
+        }
+      ],
+      "role": "sanctuary"
+    },
+    {
+      "name": "A place to the south of the earth",
+      "visualTraits": {
+        "description": "A location to the south where the dismantled old house is thrown."
+      },
+      "changes": null,
+      "role": "disposal_site"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Pleasant Land",
+      "visualTraits": {
+        "description": "A pleasant, beautiful area of the earth where a throne is erected for the Lord of the sheep."
+      },
+      "changes": null,
+      "role": "setting_of_judgment"
+    }
+  ],
+  "geo_environments": [
+    {
+      "name": "Desert_Transition",
+      "visualTraits": {
+        "description": "The habitat of the 'wild animals of the desert' that attack the sheep."
+      },
+      "changes": null,
+      "role": "origin_of_antagonists"
     }
   ],
   "scenes": [
     {
-      "title": "Chapter 90 Segment 28",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
+      "title": "The Predation of the Birds",
+      "location": "The Ground",
+      "action": "Seventy shepherds finish their time. Birds of prey (eagles, vultures, kites, ravens) are given charge over the sheep and begin to devour them, leaving only their bones.",
+      "actorsInvolved": [
+        "Enoch"
+      ],
+      "charactersInvolved": [
+        "Shepherds",
+        "Sheep",
+        "Birds of heaven",
+        "Eagles",
+        "Vultures",
+        "Kites",
+        "Ravens"
+      ]
+    },
+    {
+      "title": "The Rise of the Lambs and the Horned Ram",
+      "location": "The Ground",
+      "action": "Lambs are born to the sheep and begin to grow horns. Ravens attack them. A great horn grows on one sheep (the Ram), whose eyes are opened. The other sheep see him and run to him. The birds continue their attacks, but the Ram fights back.",
+      "actorsInvolved": [
+        "Enoch"
+      ],
+      "charactersInvolved": [
+        "Sheep",
+        "Lambs",
+        "Ravens",
+        "The Ram",
+        "Eagles",
+        "Vultures",
+        "Kites"
+      ]
+    },
+    {
+      "title": "Divine Intervention",
+      "location": "The Ground",
+      "action": "The man who writes appears and ascends to the Lord of the sheep. The Lord descends in wrath, striking the earth with his rod. The earth swallows the predatory birds and animals. The sheep are given a great sword and they drive off their remaining enemies.",
+      "actorsInvolved": [
+        "Enoch",
+        "The man who writes",
+        "Lord of the sheep"
+      ],
+      "charactersInvolved": [
+        "The Ram",
+        "Shepherds",
+        "Eagles",
+        "Vultures",
+        "Kites",
+        "Ravens",
+        "Sheep",
+        "Wild Animals of the desert"
+      ]
+    },
+    {
+      "title": "The Judgment",
+      "location": "Pleasant Land",
+      "action": "A throne is set up. The Lord of the sheep opens sealed books. The seven white men bring the sinful shepherds and the blind sheep for judgment. They are all found guilty and cast into a fiery abyss.",
+      "actorsInvolved": [
+        "Enoch",
+        "Lord of the sheep",
+        "The man who writes"
+      ],
+      "charactersInvolved": [
+        "Seven White Men",
+        "Shepherds",
+        "Blind Sheep"
+      ]
+    },
+    {
+      "title": "The New House",
+      "location": "The House",
+      "action": "The old house is dismantled and cast away. The Lord of the sheep brings a new house, larger and taller than the first, and places it on the site of the old one. All the surviving sheep are gathered inside.",
+      "actorsInvolved": [
+        "Enoch",
+        "Lord of the sheep"
+      ],
+      "charactersInvolved": [
+        "Sheep"
+      ]
+    },
+    {
+      "title": "The Great Assembly and Transformation",
+      "location": "New House",
+      "action": "All surviving animals and birds gather and worship the sheep. The narrator, Enoch, is placed among them. The sheep are all white, with thick wool, and their eyes are opened. They are all transformed into white bulls.",
+      "actorsInvolved": [
+        "Enoch",
+        "Lord of the sheep"
+      ],
+      "charactersInvolved": [
+        "Sheep",
+        "Wild Animals of the desert",
+        "Birds of heaven",
+        "The Ram",
+        "White Bulls"
+      ]
+    },
+    {
+      "title": "The Final Leader",
+      "location": "New House",
+      "action": "A leader emerges from the transformed bulls (the former Ram), who becomes a 'great wild beast' with large black horns. The Lord of the sheep rejoices over them all. Enoch awakens from his vision.",
+      "actorsInvolved": [
+        "Enoch",
+        "Lord of the sheep"
+      ],
+      "charactersInvolved": [
+        "White Bulls",
+        "The Ram"
+      ]
     }
   ],
   "blocking": {
     "anchors": [
       {
-        "id": "anchor1",
-        "description": "ቤት"
+        "id": "ground",
+        "description": "The general field where the sheep live and are attacked."
       },
       {
-        "id": "anchor2",
-        "description": "ምድር"
+        "id": "judgment_site",
+        "description": "A location in a pleasant land where the Lord of the sheep sets up a throne for judgment."
+      },
+      {
+        "id": "fiery_abyss",
+        "description": "A pit of fire in the middle of the earth where the wicked are cast."
+      },
+      {
+        "id": "old_house_site",
+        "description": "The location of the original house."
+      },
+      {
+        "id": "new_house",
+        "description": "The new, larger house built on the site of the old one."
+      },
+      {
+        "id": "disposal_site_south",
+        "description": "A place to the south of the earth where the old house is thrown."
       }
     ],
-    "paths": []
-  }
-}
-```
+    "paths": [
+      {
+        "actor": "Birds of heaven",
+        "start_anchor": "unknown",
+        "end_anchor": "ground",
+        "motion": "fly",
+        "duration_sec": null,
+        "notes": "The birds of heaven come to prey on the sheep (90:2)."
+      },
+      {
+        "actor": "Sheep",
+        "start_anchor": "ground",
+        "end_anchor": "The Ram",
+        "motion": "run",
+        "duration_sec": null,
+        "notes": "The sheep run to the newly-horned Ram (90:10)."
+      },
+      {
+        "actor": "Lord of the sheep",
+        "start_anchor": "unknown",
+        "end_anchor": "ground",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The Lord of the sheep comes to the flock in anger (90:15, 90:18)."
+      },
+      {
+        "actor": "Shepherds",
+        "start_anchor": "judgment_site",
+        "end_anchor": "fiery_abyss",
+        "motion": "cast",
+        "duration_sec": null,
+        "notes": "The sinful shepherds are judged and thrown into the fiery abyss (90:25)."
+      },
+      {
+        "actor": "Blind Sheep",
+        "start_anchor": "judgment_site",
+        "end_anchor": "fiery_abyss",
+        "motion": "cast",
+        "duration_sec": null,
+        "notes": "The blind sheep are judged and thrown into the fiery abyss (90:26)."
+      },
+      {
+        "actor": "Old House",
+        "start_anchor": "old_house_site",
+        "end_anchor": "disposal_site_south",
+        "motion": "cast",
+        "duration_sec": null,
+        "notes": "The dismantled old house is taken out and thrown into a place in the south (90:28)."
+      },
+      {
+        "actor": "Enoch",
+        "start_anchor": "unknown",
+        "end_anchor": "new_house",
+        "motion": "hover",
+        "duration_sec": null,
+        "notes": "The narrator is lifted up and placed in the

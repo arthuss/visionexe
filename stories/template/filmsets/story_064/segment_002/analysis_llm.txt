@@ -2,72 +2,125 @@
 {
   "actors": [
     {
-      "name": "ሰማዕኩ",
-      "visualTraits": null,
+      "name": "Narrator",
+      "visualTraits": {
+        "description": "The first-person observer, implied by 'I saw' (ርኢኩ) and 'I heard' (ሰማዕኩ)."
+      },
       "changes": null,
-      "role": "speaker"
+      "role": "narrator"
     },
     {
-      "name": "መላእት",
-      "visualTraits": null,
+      "name": "Speaking Angel",
+      "visualTraits": {
+        "description": "An angel (መልኣክ) whose voice is heard explaining the scene."
+      },
       "changes": null,
-      "role": "messenger"
+      "role": "guide"
     },
     {
-      "name": "ምድር",
-      "visualTraits": null,
-      "changes": null,
-      "role": "receiver"
-    },
+      "name": "Fallen Angels",
+      "visualTraits": {
+        "description": "A group of angels (መላእክት) initially seen as 'hidden faces' (ገጻተ...ኅቡኣተ)."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Celestial",
+          "description": "Resided in Heaven (ሰማይ)."
+        },
+        {
+          "phase": "Phase 2: Terrestrial",
+          "description": "Descended (ወረዱ) from Heaven to Earth (ምድር)."
+        }
+      ],
+      "role": "antagonist"
+    }
+  ],
+  "characters": [
     {
-      "name": "ሰብእ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "receiver"
+      "name": "Children of Men",
+      "visualTraits": {
+        "description": "Humanity (ውሉደ፡​ሰብእ)."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-corruption",
+          "description": "Lived without knowledge of what was hidden (ዘኅቡእ)."
+        },
+        {
+          "phase": "Phase 2: Corrupted",
+          "description": "Were revealed hidden things and led astray (አስሐትዎሙ) to commit sin (ኃጢአተ)."
+        }
+      ],
+      "role": "victim"
     }
   ],
   "props": [],
-  "environments": [
+  "places": [
     {
-      "name": "ሰማዕኩ",
-      "visualTraits": null,
+      "name": "Heaven",
+      "visualTraits": {
+        "description": "The celestial realm (ሰማይ) from which the angels descended."
+      },
       "changes": null,
-      "role": "environment"
+      "role": "place_of_origin"
     },
     {
-      "name": "ምድር",
-      "visualTraits": null,
+      "name": "Earth",
+      "visualTraits": {
+        "description": "The terrestrial realm (ምድር) upon which the angels descended."
+      },
       "changes": null,
-      "role": "environment"
+      "role": "place_of_action"
     }
   ],
+  "locations": [
+    {
+      "name": "That Place",
+      "visualTraits": {
+        "description": "A specific, unnamed location (ውእቱ፡​መካን) where hidden beings are present."
+      },
+      "changes": null,
+      "role": "scene_location"
+    }
+  ],
+  "environments": [],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Heavenly Message",
-      "location": "Heaven and Earth",
-      "action": "Heaven speaks; an angel descends; earth and people receive the message.",
-      "actorsInvolved": ["ሰማዕኩ", "መላእት", "ምድር", "ሰብእ"]
+      "title": "The Identification of the Fallen",
+      "location": "That Place",
+      "action": "The narrator observes hidden faces in a specific location. A nearby angel identifies these beings as the angels who descended from Heaven to Earth, revealed forbidden knowledge to humanity, and caused them to sin.",
+      "actorsInvolved": [
+        "Narrator",
+        "Speaking Angel",
+        "Fallen Angels",
+        "Children of Men"
+      ]
     }
   ],
   "blocking": {
     "anchors": [
       {
-        "id": "anchor_heaven",
-        "description": "heaven"
+        "id": "heaven",
+        "description": "The celestial realm, origin point of the Fallen Angels."
       },
       {
-        "id": "anchor_earth",
-        "description": "earth"
+        "id": "earth",
+        "description": "The terrestrial realm, destination of the Fallen Angels."
+      },
+      {
+        "id": "that_place",
+        "description": "The specific location where the Narrator observes the Fallen Angels and hears the Speaking Angel."
       }
     ],
     "paths": [
       {
-        "actor": "መላእት",
-        "start_anchor": "anchor_heaven",
-        "end_anchor": "anchor_earth",
-        "motion": "unknown",
+        "actor": "Fallen Angels",
+        "start_anchor": "heaven",
+        "end_anchor": "earth",
+        "motion": "descend",
         "duration_sec": null,
-        "notes": "angel descends from heaven to earth"
+        "notes": "Describes the past mass descent from Heaven to Earth, as recounted by the Speaking Angel."
       }
     ]
   }

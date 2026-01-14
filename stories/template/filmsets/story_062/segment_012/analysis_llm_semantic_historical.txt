@@ -1,0 +1,59 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1_62.9",
+      "plausibility": "high",
+      "reasoning": "The hypothesis posits that 'ወይሴፈውዎ' (wə-yəseffäwəwwo) means 'and they will place their hope in him'. This interpretation is strongly supported by established Ge'ez lexicography. The root is 'ሰፈወ' (säfäwä), 'to hope'. The form is a standard 3rd person plural imperfect (A-type) with a 3rd person masculine singular object suffix ('-wo'). The context, where the condemned kings and mighty ones fall down and worship the Son of Man before begging for mercy (62:9b), makes 'placing hope' a logical and coherent action in their desperate situation. An alternative reading is not supported by lexical or contextual evidence.",
+      "parallels": [
+        {
+          "ref": "Dillmann, Lexicon Linguae Aethiopicae, col. 333",
+          "note": "Dillmann directly cites this verse (as 61,9 in his edition) as a prime example for the root 'ሰፈወ' meaning 'speravit, spem posuit in' (he hoped, he placed hope in)."
+        },
+        {
+          "ref": "Psalm 30:25 (Ge'ez numbering)",
+          "note": "The verb 'ተሰፈወ' (täsäfäwä), the reflexive-passive stem of the same root, is used to mean 'to hope in': 'ተሰፈዉ፡ በእግዚአብሔር' (täsäfäwu bə-ʾəgziʾabḥer), 'Hope in the Lord'. This confirms the root's meaning in a well-known corpus."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S1_62.16",
+      "plausibility": "high",
+      "reasoning": "This hypothesis posits that the pronoun 'ውእቱ' (wəʾətu, 'he') in 'ወውእቱ፡ ይከውን፡ ልብሰ፡ ሕይወት' refers to the Son of Man, last mentioned in v.14. The translation would be 'And He [the Son of Man] will be a garment of life'. This reading provides a profound theological statement, identifying the Son of Man as the very source of the righteous' glorified state. It avoids the tautology of the main alternative hypothesis (S2_62.16), where 'ውእቱ' ('it') would refer back to the 'garment of life' in v.15, resulting in the weak statement 'And it [the garment of life] will be a garment of life'. While the antecedent is in v.14, separated by v.15, the Son of Man is the central figure of the pericope, making him a very likely referent.",
+      "parallels": [
+        {
+          "ref": "Galatians 3:27 (Greek NT)",
+          "note": "A strong conceptual parallel exists in the New Testament: '...ὅσοι γὰρ εἰς Χριστὸν ἐβαπτίσθητε, Χριστὸν ἐνεδύσασθε' (...for as many of you as were baptized into Christ have put on Christ). The idea of a divine personage being a 'garment' for believers is attested in this historically relevant theological tradition, lending plausibility to the interpretation in Enoch."
+        },
+        {
+          "ref": "Romans 13:14 (Greek NT)",
+          "note": "Similar to Galatians, this verse commands believers to '...ἀλλὰ ἐνδύσασθε τὸν κύριον Ἰησοῦν Χριστόν...' (...but put on the Lord Jesus Christ). This attests to the currency of the 'person-as-garment' metaphor in early Christian thought, which was heavily influenced by the Enochic Son of Man tradition."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S2_62.16",
+      "plausibility": "low",
+      "reasoning": "This alternative hypothesis posits that 'ውእቱ' ('it') refers to the 'ልብሰ፡ ሕይወት' (garment of life) from the preceding verse (v.15). This would render the phrase 'And it [the garment of life] will be a garment of life...'. While grammatically possible (pronoun agrees in gender and number with its antecedent), this reading is semantically redundant and lacks explanatory power. It is a simple tautology that adds no new information, which is uncharacteristic of the text's style. It is therefore considered a much less likely interpretation than S1_62.16.",
+      "parallels": [
+        {
+          "ref": "unattested",
+          "note": "While simple pronoun-antecedent agreement is common, a direct parallel for this specific kind of tautological predication ('X will be X') as a meaningful statement is not readily found in this corpus."
+        }
+      ],
+      "context_invariance": "unstable",
+      "back_translation": "fail"
+    }
+  ],
+  "decision_log": "Two key syntactic ambiguities were evaluated. For 1 Enoch 62:9, the meaning of 'ወይሴፈውዎ' as 'they will place their hope in him' (S1_62.9) is confirmed by lexicography and context, making it the only viable reading. For 1 Enoch 62:16, the referent of 'ውእቱ' presents a more significant choice. Hypothesis S2_62.16, which reads 'ውእቱ' as 'it' (referring to the garment), results in a weak tautology ('the garment will be a garment'). Hypothesis S1_62.16, which reads 'ውእቱ' as 'He' (referring to the Son of Man from v.14), is syntactically plausible and creates a theologically significant statement that fits the broader context of the Parables of Enoch and has conceptual parallels in the New Testament. The semantic and theological strength of S1_62.16 makes it the highly preferred reading, despite the syntactic distance of the pronoun from its antecedent. The ambiguity is noted, but the evidence weighs heavily in favor of S1_62.16.",
+  "final_decision": {
+    "hypothesis_ref": "S1_62.16",
+    "translation_id": "T1_62.16",
+    "confidence": "moderate"
+  }
+}
+```

@@ -1,25 +1,194 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [
+  "actors": [
     {
-      "name": "ምድር",
+      "name": "Enoch",
       "visualTraits": null,
       "changes": null,
-      "role": "environment"
+      "role": "protagonist"
     },
     {
-      "name": "ቤት",
+      "name": "The Lord",
+      "visualTraits": [
+        "great",
+        "king of glory",
+        "eternal"
+      ],
+      "changes": null,
+      "role": "deity"
+    },
+    {
+      "name": "Methuselah",
       "visualTraits": null,
       "changes": null,
-      "role": "environment"
+      "role": "son_of_enoch"
+    },
+    {
+      "name": "Adam",
+      "visualTraits": null,
+      "changes": null,
+      "role": "progenitor"
     }
   ],
-  "scenes": [],
+  "characters": [
+    {
+      "name": "Angelic Guide",
+      "visualTraits": null,
+      "changes": null,
+      "role": "guide"
+    },
+    {
+      "name": "The Holy Ones",
+      "visualTraits": null,
+      "changes": null,
+      "role": "escort"
+    },
+    {
+      "name": "Mankind",
+      "visualTraits": null,
+      "changes": null,
+      "role": "group"
+    },
+    {
+      "name": "Enoch's Children",
+      "visualTraits": null,
+      "changes": null,
+      "role": "group"
+    },
+    {
+      "name": "Enoch's People",
+      "visualTraits": null,
+      "changes": null,
+      "role": "group"
+    },
+    {
+      "name": "The Righteous",
+      "visualTraits": null,
+      "changes": null,
+      "role": "group"
+    },
+    {
+      "name": "The Sinner",
+      "visualTraits": null,
+      "changes": null,
+      "role": "group"
+    },
+    {
+      "name": "The Apostate",
+      "visualTraits": null,
+      "changes": null,
+      "role": "group"
+    },
+    {
+      "name": "The Wicked",
+      "visualTraits": null,
+      "changes": null,
+      "role": "group"
+    }
+  ],
+  "props": [
+    {
+      "name": "Heavenly Tablets",
+      "visualTraits": [
+        "written upon"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "The Book of Deeds",
+      "visualTraits": [
+        "contains all the deeds of mankind"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Book of Lawlessness",
+      "visualTraits": [
+        "a record of sin"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Heaven",
+      "visualTraits": null,
+      "changes": null,
+      "role": "celestial_realm"
+    },
+    {
+      "name": "Earth",
+      "visualTraits": null,
+      "changes": null,
+      "role": "terrestrial_realm"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Door of Enoch's House",
+      "visualTraits": null,
+      "changes": null,
+      "role": "threshold"
+    }
+  ],
+  "environments": [],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "Reading the Heavenly Records",
+      "location": "Heaven",
+      "action": "An angelic guide instructs Enoch to observe and read the Heavenly Tablets. Enoch reads the tablets, which contain a book detailing all the deeds of mankind throughout all generations. He then blesses the Lord and declares the righteous man blessed.",
+      "actorsInvolved": [
+        "Enoch",
+        "The Lord"
+      ]
+    },
+    {
+      "title": "The Mandate on Earth",
+      "location": "Earth, at the Door of Enoch's House",
+      "action": "The Holy Ones bring Enoch back to earth, placing him at the door of his house. They instruct him to inform his son Methuselah and all his children of what he has seen, granting him one year to teach them. They prophesy about the fates of the righteous and the wicked. Afterwards, Enoch goes in to his people, blessing the Lord.",
+      "actorsInvolved": [
+        "Enoch",
+        "Methuselah"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "heaven",
+        "description": "The celestial realm where Enoch reads the tablets."
+      },
+      {
+        "id": "door_of_house",
+        "description": "The entrance to Enoch's dwelling on Earth."
+      },
+      {
+        "id": "among_my_people",
+        "description": "The community or family group to which Enoch belongs."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Enoch",
+        "start_anchor": "heaven",
+        "end_anchor": "door_of_house",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Brought and placed on Earth by 'The Holy Ones'."
+      },
+      {
+        "actor": "Enoch",
+        "start_anchor": "door_of_house",
+        "end_anchor": "among_my_people",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Enters to be with his people after the Holy Ones finish speaking."
+      }
+    ]
   }
 }
 ```

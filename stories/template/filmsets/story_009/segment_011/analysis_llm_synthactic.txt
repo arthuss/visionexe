@@ -1,27 +1,30 @@
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "S11.meta",
-        "structure_type": "Header",
-        "bracket_notation": "[META [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]",
+        "id": "S1",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t1] [Gen t2]]",
         "dependencies": [
-          "t1->t2 (modifies)",
-          "t3->t4 (modifies)"
+          "t1->t2 (genitive)"
         ],
-        "notes": "Segment metadata."
+        "notes": "Analysis of the verse number as the head of a construct chain, with the verse text as its genitive dependent. This structure implies possession, e.g., 'the text of the verse'."
       },
       {
-        "id": "S11.1",
-        "structure_type": "Series of Questions",
-        "bracket_notation": "[S [S1 [VP [V t5] [SBAR [MARK-in-surface] [S [VP [V t6]]]]]] [S2 [VP [V t7]]] [S3 [WHNP [N t8]] [VP [V-in-surface] [NP-IO-in-surface] [PP [PREP-in-surface] [PRO.DEM t9]]]]]",
+        "id": "S2",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [HEAD t1] [APP t2]]",
         "dependencies": [
-          "t5->t6 (ccomp)",
-          "t6->t7 (conj)",
-          "t7->t8 (ccomp)"
+          "t1->t2 (apposition)"
         ],
-        "notes": "A sequence of clauses forming questions. 1. 'You know (t5) all things before they happen (t6)'. 2. 'and you see (verb in t6 surface) these things... and do not tell us (t7)'. 3. 'what ought we to do (t8) to them for this (t9)?'."
-      }
-    ]
-  }
-}
+        "notes": "Analysis of the verse text as an appositive modifier to the verse number. This structure provides an explanation or restatement, e.g., 'verse 9:1, which is \"...\"'."
+      },
+      {
+        "id": "S3",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [APP t1] [HEAD t2]]",
+        "dependencies": [
+          "t2->t1 (apposition)"
+        ],
+        "notes": "Analysis of the verse number as an appositive

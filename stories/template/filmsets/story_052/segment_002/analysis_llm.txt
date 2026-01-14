@@ -1,170 +1,325 @@
+```json
 {
   "actors": [
     {
-      "name": "ህየ",
-      "visualTraits": null,
+      "name": "Enoch",
+      "visualTraits": "The narrator, who is having a vision.",
       "changes": null,
-      "role": "unknown"
+      "role": "visionary"
     },
     {
-      "name": "ርእዩ",
-      "visualTraits": null,
+      "name": "The Angel of Peace",
+      "visualTraits": "An angel who guides the narrator and explains the vision.",
       "changes": null,
-      "role": "unknown"
+      "role": "guide"
     },
     {
-      "name": "ዕይንትየ",
-      "visualTraits": null,
+      "name": "The Elect One",
+      "visualTraits": "A messianic figure before whom the mountains will melt. His appearance on earth will trigger a great change.",
       "changes": null,
-      "role": "unknown"
+      "role": "agent_of_change"
     },
     {
-      "name": "ሎ",
-      "visualTraits": null,
+      "name": "The Lord of Spirits",
+      "visualTraits": "The ultimate divine authority who has ordained all hidden things.",
       "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ኅቡተ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ሰማይ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ወዘይኩን",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ሀሎ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ደብረ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ኃጺን",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ወደብረ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ጸሪቅ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ብሩር",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ወርቅ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ነጠብጣብ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ዐረር",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
+      "role": "deity"
     }
   ],
-  "props": [],
-  "environments": [],
+  "characters": [],
+  "props": [
+    {
+      "name": "Iron",
+      "visualTraits": "A metal, forming a mountain. It will become useless for war.",
+      "changes": [
+        {
+          "phase": "Phase 1: Static",
+          "description": "Exists as a mountain and a material for war (ፀብእ) and armor (ድርዓ)."
+        },
+        {
+          "phase": "Phase 2: Nullified",
+          "description": "Becomes useless for war and is ultimately removed from the earth."
+        }
+      ],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Copper",
+      "visualTraits": "A metal, forming a mountain.",
+      "changes": [
+        {
+          "phase": "Phase 1: Static",
+          "description": "Exists as a mountain."
+        },
+        {
+          "phase": "Phase 2: Nullified",
+          "description": "Is removed from the earth."
+        }
+      ],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Silver",
+      "visualTraits": "A precious metal, forming a mountain.",
+      "changes": [
+        {
+          "phase": "Phase 1: Static",
+          "description": "Exists as a mountain and a form of wealth."
+        },
+        {
+          "phase": "Phase 2: Nullified",
+          "description": "Becomes unable to provide salvation or escape and is removed from the earth."
+        }
+      ],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Gold",
+      "visualTraits": "A precious metal, forming a mountain.",
+      "changes": [
+        {
+          "phase": "Phase 1: Static",
+          "description": "Exists as a mountain and a form of wealth."
+        },
+        {
+          "phase": "Phase 2: Nullified",
+          "description": "Becomes unable to provide salvation or escape and is removed from the earth."
+        }
+      ],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Soft Metal / Tin",
+      "visualTraits": "A metal, forming a mountain.",
+      "changes": [
+        {
+          "phase": "Phase 1: Static",
+          "description": "Exists as a mountain."
+        },
+        {
+          "phase": "Phase 2: Nullified",
+          "description": "Is removed from the earth."
+        }
+      ],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Lead",
+      "visualTraits": "A metal, forming a mountain. Also referred to as 'na'ek'.",
+      "changes": [
+        {
+          "phase": "Phase 1: Static",
+          "description": "Exists as a mountain."
+        },
+        {
+          "phase": "Phase 2: Nullified",
+          "description": "Becomes undesired, unvalued ('not counted'), and useless. It is removed from the earth."
+        }
+      ],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Armor",
+      "visualTraits": "Garments for battle, specifically mentioned as not being made of iron in the future.",
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Bronze",
+      "visualTraits": "A metal mentioned as becoming useless for strength ('bǝrt').",
+      "changes": [
+        {
+          "phase": "Phase 1: Static",
+          "description": "A material used for its strength."
+        },
+        {
+          "phase": "Phase 2: Nullified",
+          "description": "Becomes useless for providing strength."
+        }
+      ],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Wax of a comb",
+      "visualTraits": "Used in a simile to describe how the mountains will melt before a fire.",
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Fire",
+      "visualTraits": "Used in a simile as the agent that melts wax.",
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Water",
+      "visualTraits": "Used in a simile to describe how the mountains will flow downwards.",
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "The West",
+      "visualTraits": "A location to which the narrator is transported. It is where he sees the vision of the mountains.",
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "locations": [
+    {
+      "name": "The place of vision",
+      "visualTraits": "The initial location where the narrator had previously seen all the hidden visions.",
+      "changes": null,
+      "role": "origin_point"
+    },
+    {
+      "name": "The Mountains",
+      "visualTraits": "A collective of six mountains made of different metals.",
+      "changes": [
+        {
+          "phase": "Phase 1: Solid",
+          "description": "Six distinct, solid mountains made of iron, copper, silver, gold, soft metal, and lead."
+        },
+        {
+          "phase": "Phase 2: Dissolved",
+          "description": "The mountains melt like wax before fire and flow down like water, becoming weak beneath the feet of the Elect One."
+        }
+      ],
+      "role": "symbolic_landscape"
+    },
+    {
+      "name": "Mountain of Iron",
+      "visualTraits": "A mountain made entirely of iron.",
+      "changes": null,
+      "role": "symbolic_location"
+    },
+    {
+      "name": "Mountain of Copper",
+      "visualTraits": "A mountain made entirely of copper.",
+      "changes": null,
+      "role": "symbolic_location"
+    },
+    {
+      "name": "Mountain of Silver",
+      "visualTraits": "A mountain made entirely of silver.",
+      "changes": null,
+      "role": "symbolic_location"
+    },
+    {
+      "name": "Mountain of Gold",
+      "visualTraits": "A mountain made entirely of gold.",
+      "changes": null,
+      "role": "symbolic_location"
+    },
+    {
+      "name": "Mountain of Soft Metal",
+      "visualTraits": "A mountain made entirely of soft metal or tin.",
+      "changes": null,
+      "role": "symbolic_location"
+    },
+    {
+      "name": "Mountain of Lead",
+      "visualTraits": "A mountain made entirely of lead.",
+      "changes": null,
+      "role": "symbolic_location"
+    },
+    {
+      "name": "Earth",
+      "visualTraits": "The terrestrial realm where the Messiah will have dominion and from which the metals will be destroyed.",
+      "changes": null,
+      "role": "domain"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Whirlwind",
+      "visualTraits": "A powerful wind that seizes the narrator and transports him.",
+      "changes": null,
+      "role": "transport"
+    },
+    {
+      "name": "The secrets of heaven",
+      "visualTraits": "The hidden things that are being revealed to the narrator in the vision.",
+      "changes": null,
+      "role": "visionary_concept"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "ህየ፡ርእዩ፡ዕይንትየ፡ሎ፡",
-      "location": null,
-      "action": null,
+      "title": "Transport by Whirlwind",
+      "location": "From the place of vision to The West",
+      "action": "The narrator, Enoch, is seized by a whirlwind and transported to the West.",
       "actorsInvolved": [
-        "ህየ",
-        "ርእዩ",
-        "ዕይንትየ",
-        "ሎ"
+        "Enoch"
       ]
     },
     {
-      "title": "ኅቡተ፡ሰማይ፡ወዘይኩን፡",
-      "location": null,
-      "action": null,
+      "title": "Vision of the Metal Mountains",
+      "location": "The West",
+      "action": "Enoch sees the secrets of heaven, including six mountains made of iron, copper, silver, gold, soft metal, and lead.",
       "actorsInvolved": [
-        "ኅቡተ",
-        "ሰማይ",
-        "ወዘይኩን"
+        "Enoch"
       ]
     },
     {
-      "title": "ሀሎ፨ደብረ፡ኃጺን፨ወደብረ፡",
-      "location": null,
-      "action": null,
+      "title": "Explanation of the Vision",
+      "location": "The West",
+      "action": "Enoch asks the accompanying angel about the mountains. The angel explains they are for the dominion of the Messiah on earth.",
       "actorsInvolved": [
-        "ሀሎ",
-        "ደብረ",
-        "ኃጺን",
-        "ወደብረ"
+        "Enoch",
+        "The Angel of Peace"
       ]
     },
     {
-      "title": "ጸሪቅ፨ደብረ፡ብሩር፨ወደብረ፡",
-      "location": null,
-      "action": null,
+      "title": "Prophecy of Dissolution",
+      "location": "The West",
+      "action": "The Angel of Peace elaborates that before the Elect One, these mountains will melt like wax before fire and flow like water, becoming weak. The metals will become useless for wealth or war.",
       "actorsInvolved": [
-        "ጸሪቅ",
-        "ደብረ",
-        "ብሩር",
-        "ወደብረ"
+        "The Angel of Peace",
+        "Enoch"
       ]
     },
     {
-      "title": "ወርቅ፨ወደብረ፡",
-      "location": null,
-      "action": null,
+      "title": "The Day of the Elect One",
+      "location": "Earth",
+      "action": "A prophecy that when the Elect One appears before the Lord of Spirits, all these metals will be denied and destroyed from the face of the earth.",
       "actorsInvolved": [
-        "ወርቅ",
-        "ወደብረ"
-      ]
-    },
-    {
-      "title": "ነጠብጣብ፨ወደብረ፡ዐረር፨",
-      "location": null,
-      "action": null,
-      "actorsInvolved": [
-        "ነጠብጣብ",
-        "ወደብረ",
-        "ዐረር"
+        "The Elect One",
+        "The Lord of Spirits"
       ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "place_of_vision",
+        "description": "The initial location where Enoch had his visions."
+      },
+      {
+        "id": "the_west",
+        "description": "The destination of Enoch's transport, where he sees the metal mountains."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Enoch",
+        "start_anchor": "place_of_vision",
+        "end_anchor": "the_west",
+        "motion": "hover",
+        "duration_sec": null,
+        "notes": "The text states he was 'seized by a whirlwind and it took me to the west'."
+      },
+      {
+        "actor": "The Angel of Peace",
+        "start_anchor": "unknown",
+        "end_anchor": "unknown",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The text describes the angel as 'the angel who went with me', implying shared movement during the vision."
+      }
+    ]
   }
 }
+```

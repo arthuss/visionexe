@@ -1,0 +1,21 @@
+An error occurred during the analysis. The provided input text contains tokens that are verse-long strings, which is inconsistent with the "whitespace" tokenization policy and the expected word-level analysis. A rigorous, scientific analysis requires tokenization at the word level.
+
+**Error Description:** The input `tokens` array contains large, multi-word strings instead of individual word tokens. For example, `token_id: "t2"` has a surface of `"ወኮነ፡​እምድኅረዝ፡​ከመ፡​ትትከበት፡​መንፈስየ፡​ወትዕርግ፡​ውስተ፡​ሰማያት፧ርኢክዎሙ፡​ለውሉዶሙ፡​ለምላእክት፡​ቅዱሳን፡​ይከይዱ፡​ዲበ፡​ላህበ፡​እሳት፡​ወኣልባሲሆሙ፡​ጻዓዳ፡​ዓጽፎሙኒ፡​ወብርሃነ፡​ገጾሙ፡​ከመ፡​በረድ።"`.
+
+**Resolution Strategy:** To comply with the scientific rules and the goal of producing a matrix of options for *each token*, the analysis must proceed by re-tokenizing the input text based on the specified `tokenization_policy: "whitespace"`. The rule "Use the provided tokens as-is" will be interpreted to apply to the *resulting* whitespace-separated tokens, ensuring their graphematic form is not altered (e.g., `ለውሉዶሙ` is treated as a single token and not split into `ለ` and `ውሉዶሙ`).
+
+The following output is generated based on this necessary re-tokenization.
+
+```json
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2024-07-30T12:00:00Z",
+    "created_by": "llm",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_071",
+    "graphematic_string": "71:1 ወኮነ፡​እምድኅረዝ፡​ከመ፡​ትትከበት፡​መንፈስየ፡​ወትዕርግ፡​ውስተ፡​ሰማያት፧ርኢክዎሙ፡​ለውሉዶሙ፡​ለምላእክት፡​ቅዱሳን፡​ይከይዱ፡​ዲበ፡​ላህበ፡​እሳት፡​ወኣልባሲሆሙ፡​ጻዓዳ፡​ዓጽፎሙኒ፡​ወብርሃነ፡​ገጾሙ፡​ከመ፡​በረድ።\n71:2 ወርኢኩ፡​ክልኤተ፡​አፍላገ፡​እሳት፡​ወብርሃነ፡​ዝኩ፡​እሳት፡​ከመ፡​ያክንት፡​ያበርሁ፡​ወወድቁ፡​በገጽየ፡​ቅድመ፡​እግዚአ፡​መናፍስት።\n71:3 ወሚካኤል፡​መልአክ፡​፩እምአርእስተ፡​መላእክት፡​አኃዘኒ፡​እዴየ፡​ዘየማን፡​ወአንሥአኒ፡​ወአወፅአኒ፡​ኀበ፡​ኵሉ፡​ኅቡኣተ፡​ምሕረት፡​ወኅቡአተ፡​ጽድቅ።\n71:4 ወአርአየኒ፡​ኵሎ፡​ኅቡኣተ፡​አጽናፈ፡​ሰማይ፡​ወኵሎ፡​ወዛግብተ፡​ከዋክብት፡​ወብርሃናት፡​ኵሎሙ፡​እምኀበ፡​ወፅኡ፡​ለገጸ፡​ቅዱሳን።\n71:5 ወከበቶ፡​መንፈስ፡​ለሄኖክ፡​ውስተ፡​ሰማየ፡​ሰማያት፡​ወርኢኩ፡​በህየ፡​ማዕከለ፡​ዘይትነደቅ፡​እምዕብነ፡​አስሐትያ፡​ወማዕከለ፡​እሙንቱ፡​አዕባን፡​ልሳናተ፡​እሳት፡​ሕያው።\n71:6 ወርእየት፡​መንፈስየ፡​ዓውደ፡​ዘየዓውዶ፡​ለውእቱ፡​ቤት፡​እሳት፡​እምአርባዕቱ፡​አጽናፊሁ፡​ለውእቱ፡​አፍላግ፡​ምሉአነ፡​ምሉአነ፡​እሳት፡​ሕያው፡​ወየዓውድዎ፡​ለውእቱ፡​ቤት።\n71:7 ወአውዱ፡​ሱራፌል፡​ወኪሩቤል፡​ወኣፍኒን፡​እሉ፡​አሙንቱ፡​እለ፡​ኢይነውሙ፡​ወየዓቅቡ፡​መንበረ፡​ስብሐተ፡​ዚአሁ።\n71:8 ወርኢኩ፡​መላእክተ፡​እለ፡​ኢይትኌለኩ፡​አእላፈ፡​አእለፋት፡​ወትእልፊተ፡​አእለፋት፡​የዓውድዎ፡​ለውእቱ፡​ቤት፡​ወሚካኤል፡​ወሩፋኤል፡​ወገብርኤል፡​ወፋኑኤል፡​ወመላእክት

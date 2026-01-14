@@ -1,19 +1,16 @@
+An analysis of the provided tokens according to the specified rules reveals that the primary syntactic relationship to be analyzed is between the verse number tokens (e.g., `t1`) and the subsequent Ge'ez text tokens (e.g., `t2`). Given the constraint of "TOKEN FIDELITY" (not splitting the provided tokens), the analysis must operate at the level of these high-level tokens rather than parsing the internal grammatical structure of the Ge'ez sentences.
+
+The relationship between a verse number and its corresponding text can be interpreted in several syntactically valid ways, without recourse to semantic preference. The following parses enumerate the full structure space for these relationships across the entire text.
+
+1.  **Nominal Head (Construct Chain)**: The verse number is treated as a noun, and the verse text is its genitive modifier in a construct state relationship. This is a common structure in Semitic languages.
+2.  **Nominal Head (Apposition)**: The verse text is treated as a noun phrase in apposition to the verse number, clarifying or specifying it.
+3.  **Clausal Head (Labeling)**: The verse text is treated as a clausal unit (the head of the construction), and the verse number acts as a non-syntactic label or adjunct, similar to a title or a numbered list item.
+
+The following JSON enumerates all three possibilities for each pair of verse number and verse text tokens.
+
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "P14_S1",
-        "structure_type": "Nominal Clause with Relative",
-        "bracket_notation": "[S_NOM [NP [NP t5] [PP t6]] [S_REL [NP t7] [VP [V ኃለፉ (in t7)] [NP [N ትእዛዘ (in t7)] [NP_GEN t8]]] [S_ADV [CONJ እስመ (in t9)] [VP ኢመጽኡ (in t9)] [NP t10]]]]",
-        "dependencies": [
-          "t5 -> t6 (loc)",
-          "t5 -> t7 (appos)",
-          "t7 -> t8 (obj)",
-          "t7 -> t9 (advcl)",
-          "t9 -> t10 (tmp)"
-        ],
-        "notes": "A complex apposition identifying the stars: 'And the stars that roll over the fire (t5, t6), these are they (t7) who transgressed the command of God (t8), because they did not come at their proper time (t9, t10).'"
-      }
-    ]
-  }
-}
+        "id": "P1a

@@ -1,23 +1,25 @@
+```json
 {
   "evaluation": [
     {
-      "hypothesis_ref": "S1",
-      "plausibility": "high",
-      "reasoning": "The complex compound structure accurately reflects the chain of transgressions described. The sequence of coordinated clauses ending in a result is a logical interpretation of the passage's meaning.",
+      "hypothesis_ref": "S1-S9",
+      "plausibility": "The 'b' hypotheses (Apposition) are highly plausible; the 'a' hypotheses (Nominal Chain/Genitive) are highly implausible.",
+      "reasoning": "The relationship between a verse number and the subsequent text in Ethiopic manuscripts is one of labeling, not grammatical possession. The apposition model (S1b, S2b, etc.) correctly identifies the number as a label ([Fragment [NP t_num] [S t_text]]) that stands outside the core syntax of the following clause. This structure is analogous to headings and titles. Conversely, the genitive model (S1a, S2a, etc.) is syntactically and morphologically unsupported. There are no genitive markers on the numeral, and treating a full sentence as a genitive modifier of a number is not an attested construction in Ge'ez for this function. The punctuation mark `፡` (or `።` in other contexts) serves as a separator between the label and the text, not as an indicator of a genitive construct state.",
       "parallels": [
         {
-          "ref": "ATTESTATION_CORPUS:NONE",
-          "note": "No attestations found for this multi-part clausal chain in the reference corpus."
+          "ref": "Ethiopic Scribal Practice",
+          "note": "The demarcation of textual units (chapters 'mǝʿrāf', verses 'fǝqd') with numerals—often in red ink—followed by punctuation is a standard, widely attested feature in Ge'ez manuscripts. This structure consistently functions as a labeling system, where the number is in apposition to the text it identifies. This is not treated as a genitive relationship within the grammar of the text itself."
         }
       ],
       "context_invariance": "stable",
-      "back_translation": "pass"
+      "back_translation": "The apposition model ('b' hypotheses) passes, as it correctly represents the number as a label (e.g., '5:1: They asked...'). The genitive model ('a' hypotheses) fails, as it introduces an un-sourced concept of possession or a part-whole relationship (e.g., 'The verse 5:1 of 'They asked...''), which is not implied by the Ge'ez syntax."
     }
   ],
-  "decision_log": "S1 is the only parse available. It provides a coherent, albeit complex, syntactic map of the sentence that aligns with the semantic content. It is accepted in the absence of alternatives.",
+  "decision_log": "For all nine pairs of hypotheses (S1 through S9), the apposition model ('b' parses) is decisively preferred over the nominal chain/genitive model ('a' parses). The genitive analysis is syntactically implausible and historically unattested for the function of versification or textual labeling in Ge'ez. The apposition analysis correctly models the relationship as a standard labeling convention, which is well-documented in the Ethiopic manuscript tradition. The level of uncertainty in this decision is very low.",
   "final_decision": {
-    "hypothesis_ref": "S1",
-    "translation_id": "T1",
-    "confidence": "moderate"
+    "hypothesis_ref": "S1b",
+    "translation_id": "T_Verse_Numbering_Convention",
+    "confidence": "high"
   }
 }
+```

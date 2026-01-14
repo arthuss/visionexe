@@ -1,0 +1,15 @@
+An important note on tokenization: The provided input JSON contains large, verse-level strings in the `tokens` array, which contradicts the `tokenization_policy: "whitespace"` also present in the input. Analyzing an entire verse as a single token is not feasible or meaningful for morphological analysis. Therefore, this output follows the `tokenization_policy` and standard linguistic practice by splitting the verse strings into word-level tokens based on whitespace and punctuation (`፡`, `።`). The verse markers (e.g., `57:1`) are treated as individual tokens.
+
+```json
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2024-07-29T15:00:00Z",
+    "created_by": "llm",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_057",
+    "graphematic_string": "57:1 ወኮነ፡​እምድኅረዝ፡​ርኢኩ፡​ካልአ፡​ትዕይንተ፡​ሰረገላተ፡​እንዘ፡​ይጼዓኑ፡​ሰብእ፡​ዲቤሆሙ፡​ወይመጽኡ፡​ዲበ፡​ነፋስ፡​እምሥ

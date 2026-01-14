@@ -1,27 +1,30 @@
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "S6.meta",
-        "structure_type": "Header",
-        "bracket_notation": "[META [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]",
+        "id": "S1",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t1] [Gen t2]]",
         "dependencies": [
-          "t1->t2 (modifies)",
-          "t3->t4 (modifies)"
+          "t1->t2 (genitive)"
         ],
-        "notes": "Segment metadata."
+        "notes": "Analysis of the verse number as the head of a construct chain, with the verse text as its genitive dependent. This structure implies possession, e.g., 'the text of the verse'."
       },
       {
-        "id": "S6.1",
-        "structure_type": "Imperative with Object Clauses",
-        "bracket_notation": "[S [VP [V t5] [S-COMP [VP [V t6] [NP-OBJ [N t7] [SBAR [NP-SUBJ [N t8]]]]]]]]",
+        "id": "S2",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [HEAD t1] [APP t2]]",
         "dependencies": [
-          "t5->t6 (ccomp)",
-          "t6->t7 (ccomp)",
-          "t7->t8 (acl:relcl)"
+          "t1->t2 (apposition)"
         ],
-        "notes": "The imperative verb t5 ('See!') takes a clausal complement describing what Azazel has done. The first verb of the complement is t6 ('taught'), and the second is 'revealed' (in t7 surface). The object of 'revealed' is 'the eternal secrets' (t7), which is modified by a relative clause whose subject is 'the heavens' (t8)."
-      }
-    ]
-  }
-}
+        "notes": "Analysis of the verse text as an appositive modifier to the verse number. This structure provides an explanation or restatement, e.g., 'verse 9:1, which is \"...\"'."
+      },
+      {
+        "id": "S3",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [APP t1] [HEAD t2]]",
+        "dependencies": [
+          "t2->t1 (apposition)"
+        ],
+        "notes": "Analysis of the verse number as an appositive

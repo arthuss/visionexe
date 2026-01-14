@@ -1,0 +1,18 @@
+An analysis of the provided Ge'ez text according to the specified scientific rules, enumerating the full structure space without ambiguity reduction, based on the given tokenization.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "P1",
+        "structure_type": "Sequential Clause Chaining",
+        "bracket_notation": "[ROOT [CL t2] [SBAR [S [PRED t3] [COP t4]]] [COORD [CL t4] [OBJ t5]] [SBAR [S [PRED t5] [V t6]]] [COORD [V t6] [V t7]] [PHRASE t7]]",
+        "dependencies": [
+          "t2->t3 (apposition)",
+          "t3->t4 (predicate)",
+          "t4->t5 (object)",
+          "t5->t6 (predicate)",
+          "t6->t7 (coordination)"
+        ],
+        "notes": "This parse represents a right-branching interpretation where each token is syntactically linked to the following one. The unusual tokenization, which splits clauses and phrases across tokens, forces a chain-like dependency structure. For example, t3 ('ለጽባሓዊ፡እስመ፡ቀዳማዊ፡') functions both as an apposition to a phrase in t2 and as the predicate of a subordinate clause completed by t4. This multi-functionality is noted in the dependencies."

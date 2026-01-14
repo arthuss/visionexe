@@ -1,19 +1,361 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
+  "actors": [
+    {
+      "name": "Narrator (I)",
+      "visualTraits": null,
+      "changes": null,
+      "role": "observer"
+    },
+    {
+      "name": "Angel of Peace",
+      "visualTraits": null,
+      "changes": null,
+      "role": "guide"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Angels of Punishment",
+      "visualTraits": [
+        "holding chains of iron and bronze"
+      ],
+      "changes": null,
+      "role": "enforcers"
+    },
+    {
+      "name": "The Chosen and Beloved",
+      "visualTraits": null,
+      "changes": null,
+      "role": "protected_group"
+    },
+    {
+      "name": "Kings",
+      "visualTraits": [
+        "reside on thrones"
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Enthroned",
+          "description": "Sitting on their thrones."
+        },
+        {
+          "phase": "Phase 2: Agitated",
+          "description": "Stirred up by a spirit of disturbance, they emerge from their thrones and resting places like lions from their dens and hungry wolves."
+        }
+      ],
+      "role": "antagonists"
+    },
+    {
+      "name": "People of Parthia and Media",
+      "visualTraits": [
+        "located in the East"
+      ],
+      "changes": null,
+      "role": "instigators"
+    },
+    {
+      "name": "The Righteous",
+      "visualTraits": null,
+      "changes": null,
+      "role": "protected_group"
+    },
+    {
+      "name": "A man",
+      "visualTraits": null,
+      "changes": null,
+      "role": "combatant"
+    },
+    {
+      "name": "His brother",
+      "visualTraits": null,
+      "changes": null,
+      "role": "combatant"
+    },
+    {
+      "name": "A son",
+      "visualTraits": null,
+      "changes": null,
+      "role": "combatant"
+    },
+    {
+      "name": "His father",
+      "visualTraits": null,
+      "changes": null,
+      "role": "combatant"
+    },
+    {
+      "name": "His mother",
+      "visualTraits": null,
+      "changes": null,
+      "role": "victim"
+    },
+    {
+      "name": "The Sinners",
+      "visualTraits": null,
+      "changes": null,
+      "role": "judged_group"
+    }
+  ],
+  "props": [
+    {
+      "name": "Chains of iron and bronze",
+      "visualTraits": null,
+      "changes": null,
+      "role": "actor_prop:Angels of Punishment"
+    }
+  ],
+  "places": [
+    {
+      "name": "Land of His Chosen",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Intact",
+          "description": "The land belonging to the chosen."
+        },
+        {
+          "phase": "Phase 2: Trampled",
+          "description": "Becomes a threshing floor and a path for the invading kings."
+        }
+      ],
+      "role": "battleground"
+    },
+    {
+      "name": "City of My Righteous",
+      "visualTraits": [
+        "Becomes an obstacle for the invaders' horses."
+      ],
+      "changes": null,
+      "role": "obstacle"
+    },
+    {
+      "name": "Sheol",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Closed",
+          "description": "A place of confinement."
+        },
+        {
+          "phase": "Phase 2: Open",
+          "description": "Its mouth opens to swallow the sinners."
+        }
+      ],
+      "role": "place_of_destruction"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Deep valley of the lowlands",
+      "visualTraits": [
+        "A deep place where the wicked are to be cast."
+      ],
+      "changes": null,
+      "role": "place_of_punishment"
+    },
+    {
+      "name": "The East",
+      "visualTraits": [
+        "The direction where angels go to stir up the kings of Parthia and Media."
+      ],
+      "changes": null,
+      "role": "origin_point"
+    },
+    {
+      "name": "Thrones",
+      "visualTraits": null,
+      "changes": null,
+      "role": "seat_of_power"
+    },
+    {
+      "name": "Beds/Dens",
+      "visualTraits": null,
+      "changes": null,
+      "role": "place_of_rest"
+    },
+    {
+      "name": "Their pasture",
+      "visualTraits": null,
+      "changes": null,
+      "role": "territory"
+    }
+  ],
+  "environments": [
+    {
+      "name": "A vision of punishment",
+      "visualTraits": null,
+      "changes": null,
+      "role": "narrative_frame"
+    }
+  ],
+  "geo_environments": [
+    {
+      "name": "Gehenna_Data_Sink",
+      "visualTraits": [
+        "A place of destruction that opens its mouth to swallow sinners."
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Closed",
+          "description": "A place of confinement."
+        },
+        {
+          "phase": "Phase 2: Open",
+          "description": "Its mouth opens."
+        }
+      ],
+      "role": "place_of_destruction"
+    }
+  ],
   "scenes": [
     {
-      "title": "Chapter 56 Segment 4",
-      "location": null,
-      "action": "Poetic verse",
-      "actorsInvolved": null
+      "title": "Vision of the Angels of Punishment",
+      "location": "unknown",
+      "action": "The Narrator sees a vision of angels of punishment walking and holding chains of iron and bronze.",
+      "actorsInvolved": [
+        "Narrator (I)",
+        "Angels of Punishment"
+      ]
+    },
+    {
+      "title": "The Narrator's Inquiry",
+      "location": "unknown",
+      "action": "The Narrator asks the Angel of Peace, who is walking with him, for whom the angels with chains are going.",
+      "actorsInvolved": [
+        "Narrator (I)",
+        "Angel of Peace",
+        "Angels of Punishment"
+      ]
+    },
+    {
+      "title": "The Valley of Judgment",
+      "location": "Deep valley of the lowlands",
+      "action": "The Angel of Peace explains that the wicked are to be thrown into the deep valley for the sake of the Lord's chosen and beloved, and the day of their life and error will end.",
+      "actorsInvolved": [
+        "Angel of Peace",
+        "The Chosen and Beloved"
+      ]
+    },
+    {
+      "title": "The Stirring of the Eastern Kings",
+      "location": "The East",
+      "action": "Angels gather and go to the East to incite the kings of Parthia and Media, putting a spirit of disturbance upon them and driving them from their thrones.",
+      "actorsInvolved": [
+        "Angels",
+        "Kings",
+        "People of Parthia and Media"
+      ]
+    },
+    {
+      "title": "Invasion of the Land of the Chosen",
+      "location": "Land of His Chosen",
+      "action": "The agitated kings, like lions and wolves, ascend and trample the Land of the Chosen, turning it into a threshing floor and a path.",
+      "actorsInvolved": [
+        "Kings",
+        "The Chosen and Beloved"
+      ]
+    },
+    {
+      "title": "The Self-Destruction of the Invaders",
+      "location": "Land of His Chosen",
+      "action": "The City of the Righteous becomes an obstacle for the invaders' horses. They turn on one another in slaughter, with no man recognizing his brother, and no son his father or mother, until a great number of corpses is amassed.",
+      "actorsInvolved": [
+        "Kings",
+        "A man",
+        "His brother",
+        "A son",
+        "His father",
+        "His mother"
+      ]
+    },
+    {
+      "title": "Sheol Swallows the Sinners",
+      "location": "Sheol",
+      "action": "Sheol opens its mouth and swallows the sinners, destroying them in front of the chosen.",
+      "actorsInvolved": [
+        "The Sinners",
+        "The Chosen and Beloved"
+      ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "narrator_pov",
+        "description": "The vantage point of the Narrator observing the vision."
+      },
+      {
+        "id": "valley",
+        "description": "The deep valley of the lowlands designated for punishment."
+      },
+      {
+        "id": "east",
+        "description": "The region of Parthia and Media."
+      },
+      {
+        "id": "thrones",
+        "description": "The seats of power for the kings."
+      },
+      {
+        "id": "land_of_chosen",
+        "description": "The territory belonging to the righteous, which becomes the invasion route."
+      },
+      {
+        "id": "sheol_mouth",
+        "description": "The opening of Sheol."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Angels of Punishment",
+        "start_anchor": "unknown",
+        "end_anchor": "unknown",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The angels are seen walking while carrying chains."
+      },
+      {
+        "actor": "Angel of Peace",
+        "start_anchor": "unknown",
+        "end_anchor": "unknown",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The angel walks alongside the Narrator."
+      },
+      {
+        "actor": "Angels",
+        "start_anchor": "unknown",
+        "end_anchor": "east",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Angels gather and go towards the East to incite the kings."
+      },
+      {
+        "actor": "Kings",
+        "start_anchor": "thrones",
+        "end_anchor": "unknown",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "They are stirred from their thrones and emerge from their resting places."
+      },
+      {
+        "actor": "Kings",
+        "start_anchor": "unknown",
+        "end_anchor": "land_of_chosen",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "They ascend to and trample upon the Land of the Chosen."
+      },
+      {
+        "actor": "The Sinners",
+        "start_anchor": "unknown",
+        "end_anchor": "sheol_mouth",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "They sink into Sheol after it opens its mouth."
+      }
+    ]
   }
 }
 ```

@@ -1,25 +1,10 @@
-{
-  "source": {
-    "witness_id": "story_103/segment_010",
-    "graphematic_string": "Chapter 103 Segment 10\n\nወተሐጐልነ፡ወልቦ፡ዘረድነ፡\nነገር፡ወምግባር፡ስእነ፡\nወኢምንተኒ፡ኢረብነ፡\nወተፅዕርነ፡ወተኃጐልነ፡\nወኢተሰፈውነ፡መ፡ንርይ፡\nሕይወተ፡ዕለተ፡እምዕለት ፤",
-    "normalization_policy": "none",
-    "punctuation_markers": [
-      "፡",
-      "፡",
-      "፡",
-      "፡",
-      "፡",
-      "፡",
-      "፡",
-      "፡",
-      "፡",
-      "፡",
-      "፡",
-      "፡",
-      "፡",
-      "፤"
-    ],
-    "removed_artifacts": [],
-    "uncertainties": []
-  }
-}
+ን፡ ወለ•ራን፡እለ፡ሀለዉ፡ውስተ፡ ሕይወት፡Åመዋዕለ፡ሥራኅነ፡ ፃማ፡ፃመውነ፡ወ÷ሎ፡ሥራሐ፡ ርኢነ፡ወእኩያተ፡ብዙኀ፡ረ…ብነ፡ ወተወዳዕነ፡ወውሕድነ፡ወንዕሰት፡ መንፈስነ ፤"`
+    Index of `…` within `lines[8]`: `...፡(98)ረ(99)`. The `…` is the 100th character (index 99).
+    Total offset: `823 + 99` = `922`.
+    So, `{"span": {"start": 922, "end": 923}, ...}`.
+
+6.  `ኢረ…ብነ` in line 10.
+    Length of lines 0-8 + 9 spaces:
+    `len(lines[8])` = 128
+    Total length before line 10: `823 + 128 + 1` = `952`.
+    `lines[9]` is `"ወተሐጐልነ፡ወ¡ልቦ፡ዘረድ¡ነ፡ ነገር፡ወÅምግባር፡ስእነ፡ ወኢምንተኒ፡ኢረ…ብነ፡ ወተፅዕርነ፡ወተኃጐልነ፡ ወኢተ

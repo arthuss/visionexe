@@ -1,0 +1,11 @@
+An enumeration of all valid scientific syntactic parses for the provided Ge'ez text is presented below in JSON format. The analysis adheres to the specified rules: no ambiguity reduction, fidelity to the original tokenization, use of formal bracket notation with explicit head-dependent relations, and exclusion of world knowledge or semantic preference.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "t2_p1",
+        "token_id": "t2",
+        "structure_type": "Coordinated Clauses",
+        "bracket_notation": "[S (head ርኢኩ) [CoordCl (head ርኢኩ) [Coord ወ] [V ርኢኩ] [AdvP (dep ርኢኩ) እምድኅረዝ] [Obj (dep ርኢኩ) [NP (head አእላፈ፡​አዕላፋት) [NP (head አእላፈ፡​አዕላፋት) [N አእላፈ፡​አዕላፋት]] [Coord ወ] [NP (head ትዕልፊተ፡​ትእልፊት) [N ትዕልፊተ፡​ትእልፊት]] [RelCl (dep አእላፈ፡​አዕላፋት,ትዕልፊተ፡​ትእልፊት) [RelPro እለ] [VP (head ይቀውሙ) [V ይቀውሙ] [AdvP (dep ይቀውሙ) [PP (head ቅድመ)

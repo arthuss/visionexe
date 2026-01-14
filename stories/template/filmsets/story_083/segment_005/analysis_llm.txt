@@ -1,33 +1,332 @@
 ```json
 {
-  "actors": [],
+  "actors": [
+    {
+      "name": "Enoch",
+      "visualTraits": {
+        "description": "The narrator, referred to as 'I'.",
+        "age": "unknown",
+        "ethnicity": "unknown",
+        "gender": "male"
+      },
+      "changes": null,
+      "role": "narrator"
+    },
+    {
+      "name": "Methuselah",
+      "visualTraits": {
+        "description": "Son of Enoch.",
+        "age": "unknown",
+        "ethnicity": "unknown",
+        "gender": "male"
+      },
+      "changes": null,
+      "role": "addressee"
+    },
+    {
+      "name": "Mahalalel",
+      "visualTraits": {
+        "description": "Grandfather of Enoch.",
+        "age": "unknown",
+        "ethnicity": "unknown",
+        "gender": "male"
+      },
+      "changes": null,
+      "role": "counselor"
+    },
+    {
+      "name": "Lord of Glory",
+      "visualTraits": {
+        "description": "A divine being to whom Enoch is advised to pray.",
+        "age": "ageless",
+        "ethnicity": "unknown",
+        "gender": "unknown"
+      },
+      "changes": null,
+      "role": "deity"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Enoch's wife",
+      "visualTraits": {
+        "description": "Mentioned in the context of a past event, before which Enoch had a vision.",
+        "age": "unknown",
+        "ethnicity": "unknown",
+        "gender": "female"
+      },
+      "changes": null,
+      "role": "historical_figure"
+    },
+    {
+      "name": "Generations of the world",
+      "visualTraits": {
+        "description": "The future people for whom Enoch writes down his prayer.",
+        "age": "all",
+        "ethnicity": "all",
+        "gender": "all"
+      },
+      "changes": null,
+      "role": "audience"
+    }
+  ],
   "props": [
     {
-      "name": "fire",
-      "visualTraits": null,
+      "name": "Book",
+      "visualTraits": {
+        "description": "A book Enoch was learning from before a past vision.",
+        "material": "unknown",
+        "state": "intact"
+      },
       "changes": null,
-      "role": "prop"
+      "role": "actor_prop:Enoch"
+    },
+    {
+      "name": "Written Prayer",
+      "visualTraits": {
+        "description": "The prayer that Enoch wrote down for future generations.",
+        "material": "unknown",
+        "state": "newly_created"
+      },
+      "changes": null,
+      "role": "actor_prop:Enoch"
+    }
+  ],
+  "places": [
+    {
+      "name": "House of Mahalalel",
+      "visualTraits": {
+        "description": "The house of Enoch's grandfather, where Enoch was lying when he had his vision.",
+        "size": "unknown",
+        "state": "intact"
+      },
+      "changes": null,
+      "role": "scene_location"
+    }
+  ],
+  "locations": [
+    {
+      "name": "East",
+      "visualTraits": {
+        "description": "The direction from which the sun rises."
+      },
+      "changes": null,
+      "role": "celestial_marker"
+    },
+    {
+      "name": "West",
+      "visualTraits": {
+        "description": "The direction in which the moon sets."
+      },
+      "changes": null,
+      "role": "celestial_marker"
+    },
+    {
+      "name": "Face of the Sky",
+      "visualTraits": {
+        "description": "The expanse of the sky across which the sun travels."
+      },
+      "changes": null,
+      "role": "celestial_path"
+    },
+    {
+      "name": "Path of the Sun",
+      "visualTraits": {
+        "description": "The ordained course the sun travels."
+      },
+      "changes": null,
+      "role": "celestial_path"
+    },
+    {
+      "name": "Outside",
+      "visualTraits": {
+        "description": "An exterior location, referred to as 'below', from which Enoch observes the sky after his prayer."
+      },
+      "changes": null,
+      "role": "scene_location"
     }
   ],
   "environments": [
     {
-      "name": "earth",
-      "visualTraits": null,
+      "name": "Heaven/Sky",
+      "visualTraits": {
+        "description": "The sky above the earth."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Vision",
+          "description": "In the vision, the sky is cleansed, collapses, and falls upon the earth."
+        },
+        {
+          "phase": "Phase 2: Post-Vision",
+          "description": "After the vision, the sky is observed in its normal state, with the sun traveling across it."
+        }
+      ],
+      "role": "dynamic_setting"
+    },
+    {
+      "name": "Earth",
+      "visualTraits": {
+        "description": "The world inhabited by people."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Vision",
+          "description": "In the vision, the earth is swallowed by a great abyss and undergoes great destruction."
+        },
+        {
+          "phase": "Phase 2: Post-Vision",
+          "description": "After the vision, the earth is observed in its normal, pre-creation state ('as it was at the first')."
+        }
+      ],
+      "role": "dynamic_setting"
+    },
+    {
+      "name": "Great Abyss",
+      "visualTraits": {
+        "description": "A vast chasm or deep."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Vision",
+          "description": "In the vision, it opens up and swallows the earth, mountains, hills, and trees."
+        }
+      ],
+      "role": "dynamic_setting"
+    },
+    {
+      "name": "Mountains",
+      "visualTraits": {
+        "description": "Large landforms."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Vision",
+          "description": "In the vision, mountains are suspended and fall upon other mountains."
+        }
+      ],
+      "role": "dynamic_setting"
+    },
+    {
+      "name": "Hills",
+      "visualTraits": {
+        "description": "Smaller landforms."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Vision",
+          "description": "In the vision, hills sink upon other hills."
+        }
+      ],
+      "role": "dynamic_setting"
+    },
+    {
+      "name": "Tall Trees",
+      "visualTraits": {
+        "description": "Large, high trees."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Vision",
+          "description": "In the vision, they are cut from their stumps, thrown down, and sink into the abyss."
+        }
+      ],
+      "role": "dynamic_setting"
+    },
+    {
+      "name": "Sun",
+      "visualTraits": {
+        "description": "The celestial body that rises in the east."
+      },
       "changes": null,
-      "role": "environment"
+      "role": "static_setting"
+    },
+    {
+      "name": "Moon",
+      "visualTraits": {
+        "description": "The celestial body that sets in the west."
+      },
+      "changes": null,
+      "role": "static_setting"
+    },
+    {
+      "name": "Stars",
+      "visualTraits": {
+        "description": "A few stars are mentioned as being visible."
+      },
+      "changes": null,
+      "role": "static_setting"
     }
   ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 83 Segment 5",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
+      "title": "Address to Methuselah",
+      "location": "Unspecified",
+      "action": "Enoch begins to recount two visions to his son, Methuselah.",
+      "actorsInvolved": [
+        "Enoch",
+        "Methuselah"
+      ]
+    },
+    {
+      "title": "The Vision of Cataclysm",
+      "location": "House of Mahalalel (in a vision)",
+      "action": "Enoch describes a vision he had while lying in his grandfather's house, wherein the sky fell, the earth was swallowed by an abyss, and mountains, hills, and trees were destroyed.",
+      "actorsInvolved": [
+        "Enoch"
+      ]
+    },
+    {
+      "title": "Distress and Counsel",
+      "location": "House of Mahalalel",
+      "action": "Enoch cries out in terror after the vision. His grandfather, Mahalalel, raises him, asks why he is crying, and after hearing the vision, confirms its gravity and urges Enoch to pray for a remnant to be saved.",
+      "actorsInvolved": [
+        "Enoch",
+        "Mahalalel"
+      ]
+    },
+    {
+      "title": "Prayer and Record",
+      "location": "Unspecified (implied inside)",
+      "action": "Enoch rises, prays, and writes his prayer down for future generations, concluding his account of the vision to Methuselah.",
+      "actorsInvolved": [
+        "Enoch",
+        "Lord of Glory",
+        "Methuselah"
+      ]
+    },
+    {
+      "title": "Observing Cosmic Order",
+      "location": "Outside",
+      "action": "Enoch goes outside and observes the normal, orderly movement of the sun, moon, and stars, and praises the Lord.",
+      "actorsInvolved": [
+        "Enoch",
+        "Lord of Glory"
+      ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "inside_location",
+        "description": "An interior location, the House of Mahalalel, where Enoch has his vision, is comforted, and then prays."
+      },
+      {
+        "id": "outside_location",
+        "description": "An exterior location ('below') from which the sky, sun, and moon are observed."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Enoch",
+        "start_anchor": "inside_location",
+        "end_anchor": "outside_location",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "After praying, Enoch 'went out below' to observe the sky."
+      }
+    ]
   }
 }
 ```

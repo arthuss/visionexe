@@ -1,12 +1,317 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
-  "scenes": [],
+  "actors": [
+    {
+      "name": "The Speaker (Enoch)",
+      "visualTraits": [
+        "Narrator of a vision"
+      ],
+      "changes": [],
+      "role": "narrator"
+    },
+    {
+      "name": "Matusala",
+      "visualTraits": [
+        "Son of the speaker"
+      ],
+      "changes": [],
+      "role": "recipient_of_knowledge"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Inhabitants of the Earth",
+      "visualTraits": [
+        "Dwell on land and in water"
+      ],
+      "changes": [],
+      "role": "affected_by_winds"
+    }
+  ],
+  "props": [
+    {
+      "name": "Winds",
+      "visualTraits": [
+        "Emerge from twelve heavenly gates and blow upon the Earth."
+      ],
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Beneficial Winds",
+      "visualTraits": [
+        "A group of four winds that bring blessing and peace."
+      ],
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Destructive Winds",
+      "visualTraits": [
+        "A group of eight winds that bring plague and destruction."
+      ],
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Eastern Wind (Ṣ́əbāḥay)",
+      "visualTraits": [
+        "The first wind from the eastern gates; brings desolation, heat, and drought."
+      ],
+      "changes": [],
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "The Ends of the Earth",
+      "visualTraits": [
+        "The location where the heavenly gates are seen."
+      ],
+      "changes": [],
+      "role": "setting"
+    },
+    {
+      "name": "Twelve Gates of Heaven",
+      "visualTraits": [
+        "Twelve openings in the sky from which winds emerge. They are grouped in threes at the four cardinal directions."
+      ],
+      "changes": [],
+      "role": "cosmological_structure"
+    },
+    {
+      "name": "Eastern Gates",
+      "visualTraits": [
+        "A set of three gates on the east side of the sky."
+      ],
+      "changes": [],
+      "role": "cosmological_structure"
+    },
+    {
+      "name": "Northern Gates",
+      "visualTraits": [
+        "A set of three gates on the north side of the sky."
+      ],
+      "changes": [],
+      "role": "cosmological_structure"
+    },
+    {
+      "name": "Southern Gates",
+      "visualTraits": [
+        "A set of three gates on the south side of the sky."
+      ],
+      "changes": [],
+      "role": "cosmological_structure"
+    },
+    {
+      "name": "Western Gates",
+      "visualTraits": [
+        "A set of three gates on the west side of the sky."
+      ],
+      "changes": [],
+      "role": "cosmological_structure"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Earth",
+      "visualTraits": [
+        "The world below the sky, consisting of land and water, which is subject to the effects of the winds."
+      ],
+      "changes": [],
+      "role": "setting"
+    },
+    {
+      "name": "Sky",
+      "visualTraits": [
+        "The firmament containing the twelve gates."
+      ],
+      "changes": [],
+      "role": "setting"
+    },
+    {
+      "name": "Dry Land",
+      "visualTraits": [
+        "The solid ground of the Earth."
+      ],
+      "changes": [],
+      "role": "part_of_environment"
+    },
+    {
+      "name": "Water",
+      "visualTraits": [
+        "The bodies of water on Earth."
+      ],
+      "changes": [],
+      "role": "part_of_environment"
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Vision of the Twelve Gates and the Winds",
+      "location": "The Ends of the Earth",
+      "action": "The speaker observes twelve heavenly gates at the four cardinal directions. He details the types of winds that emerge from each gate—some beneficial, some destructive—and their effects upon the Earth, its inhabitants, and its ecosystems. He describes the gates of the East, North, South, and West in sequence, before concluding his explanation to his son, Matusala.",
+      "actorsInvolved": [
+        "The Speaker (Enoch)",
+        "Matusala"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "gate_E1",
+        "description": "First eastern gate, which inclines to the north."
+      },
+      {
+        "id": "gate_E2",
+        "description": "Middle eastern gate."
+      },
+      {
+        "id": "gate_E3",
+        "description": "Third eastern gate, which is towards the south."
+      },
+      {
+        "id": "gate_N1",
+        "description": "First northern gate, which inclines to the east."
+      },
+      {
+        "id": "gate_N2",
+        "description": "Middle northern gate."
+      },
+      {
+        "id": "gate_N3",
+        "description": "Third northern gate, which is towards the west."
+      },
+      {
+        "id": "gate_S1",
+        "description": "First southern gate, described as the 'third-seventh' gate, located towards the east and inclining to the north."
+      },
+      {
+        "id": "gate_S2",
+        "description": "Middle southern gate."
+      },
+      {
+        "id": "gate_S3",
+        "description": "Third southern gate, located towards the west and inclining to the south."
+      },
+      {
+        "id": "gate_W1",
+        "description": "First western gate, which is towards the south."
+      },
+      {
+        "id": "gate_W2",
+        "description": "Middle western gate."
+      },
+      {
+        "id": "gate_W3",
+        "description": "Third western gate, which is towards the north."
+      },
+      {
+        "id": "earth",
+        "description": "The surface of the Earth, including land and water."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Eastern Wind (Ṣ́əbāḥay)",
+        "start_anchor": "gate_E1",
+        "end_anchor": "earth",
+        "motion": "blow",
+        "duration_sec": null,
+        "notes": "Brings desolation of the dry land, heat, and drought."
+      },
+      {
+        "actor": "Wind",
+        "start_anchor": "gate_E2",
+        "end_anchor": "earth",
+        "motion": "blow",
+        "duration_sec": null,
+        "notes": "Brings rain, fruit, blessing, and dew."
+      },
+      {
+        "actor": "Wind",
+        "start_anchor": "gate_E3",
+        "end_anchor": "earth",
+        "motion": "blow",
+        "duration_sec": null,
+        "notes": "Brings cold and dryness."
+      },
+      {
+        "actor": "Wind",
+        "start_anchor": "gate_N1",
+        "end_anchor": "earth",
+        "motion": "blow",
+        "duration_sec": null,
+        "notes": "Brings heat."
+      },
+      {
+        "actor": "Wind",
+        "start_anchor": "gate_N2",
+        "end_anchor": "earth",
+        "motion": "blow",
+        "duration_sec": null,
+        "notes": "Brings good scent, dew, rain, peace, and life."
+      },
+      {
+        "actor": "Wind",
+        "start_anchor": "gate_N3",
+        "end_anchor": "earth",
+        "motion": "blow",
+        "duration_sec": null,
+        "notes": "Brings dew, rain, locusts, and desolation."
+      },
+      {
+        "actor": "Wind",
+        "start_anchor": "gate_S1",
+        "end_anchor": "earth",
+        "motion": "blow",
+        "duration_sec": null,
+        "notes": "Brings dew, rain, locusts, and desolation. The text describes this gate with the nonsensical term 'third-seventh'."
+      },
+      {
+        "actor": "Wind",
+        "start_anchor": "gate_S2",
+        "end_anchor": "earth",
+        "motion": "blow",
+        "duration_sec": null,
+        "notes": "Brings life, rain, dew, and peace."
+      },
+      {
+        "actor": "Wind",
+        "start_anchor": "gate_S3",
+        "end_anchor": "earth",
+        "motion": "blow",
+        "duration_sec": null,
+        "notes": "Brings mist, hoarfrost, dust, rain, dew, and locusts."
+      },
+      {
+        "actor": "Wind",
+        "start_anchor": "gate_W1",
+        "end_anchor": "earth",
+        "motion": "blow",
+        "duration_sec": null,
+        "notes": "Brings dew, hoarfrost, cold, dust, and desolation."
+      },
+      {
+        "actor": "Wind",
+        "start_anchor": "gate_W2",
+        "end_anchor": "earth",
+        "motion": "blow",
+        "duration_sec": null,
+        "notes": "Brings dew, rain, peace, and blessing."
+      },
+      {
+        "actor": "Wind",
+        "start_anchor": "gate_W3",
+        "end_anchor": "earth",
+        "motion": "blow",
+        "duration_sec": null,
+        "notes": "Brings dryness, desolation, burning, and drought."
+      }
+    ]
   }
 }
 ```

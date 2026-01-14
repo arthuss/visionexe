@@ -1,60 +1,24 @@
+An analysis of the Ge'ez text provided, adhering to the specified scientific rules.
+
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "S3_P1",
-        "structure_type": "Clause",
-        "bracket_notation": "[S [V-SUBJ t5] [OBJ t6]]",
+        "id": "P1",
+        "structure_type": "Parataxis of Nominal Chains",
+        "bracket_notation": "[Text [Unit [NP [N t1] [Gen t2]]] [Unit [NP [N t3] [Gen t4]]] [Unit [NP [N t5] [Gen t6]]] [Unit [NP [N t7] [Gen t8]]]]",
         "dependencies": [
-          "t5->t6 (object)"
+          "t1->t2 (genitive)",
+          "t3->t4 (genitive)",
+          "t5->t6 (genitive)",
+          "t7->t8 (genitive)",
+          "t2->t4 (parataxis)",
+          "t4->t6 (parataxis)",
+          "t6->t8 (parataxis)"
         ],
-        "notes": "Clause 1: 'Mizarael (t5) taught them sorcerers (t6)'."
+        "notes": "This parse models the entire text as a paratactic sequence of verse units. Each unit is interpreted as a nominal chain, where the verse number token (e.g., t1) is the head noun and the corresponding text token (e.g., t2) is its genitive modifier. This represents the relationship as 'the text of verse X:Y'."
       },
       {
-        "id": "S3_P2",
-        "structure_type": "Clause",
-        "bracket_notation": "[S [V-SUBJ-in-t7] [OBJ-in-t8]]",
-        "dependencies": [
-          "t7->t8 (object)"
-        ],
-        "notes": "Clause 2: 'Armaros (in t7) revealed spells (in t8)'. Tokenization splits the clause across tokens."
-      },
-      {
-        "id": "S3_P3",
-        "structure_type": "Clause",
-        "bracket_notation": "[S [SUBJ-in-t8] [OBJ t9]]",
-        "dependencies": [
-          "t8->t9 (object)"
-        ],
-        "notes": "Clause 3 (verb implied): 'Raqael (in t8) [taught] seers (t9)'."
-      },
-      {
-        "id": "S3_P4",
-        "structure_type": "Genitive Noun Phrase",
-        "bracket_notation": "[NP [N t9] [GEN-in-t10]]",
-        "dependencies": [
-          "t9->t10 (genitive_modifier)"
-        ],
-        "notes": "A noun phrase: 'seers (t9) of the stars (in t10)'."
-      },
-      {
-        "id": "S3_P5",
-        "structure_type": "Clause",
-        "bracket_notation": "[S [V-SUBJ-in-t11] [OBJ-in-t12]]",
-        "dependencies": [
-          "t11->t12 (object)"
-        ],
-        "notes": "Clause 4: 'Tumiel (in t11) taught the vision (in t12)'."
-      },
-      {
-        "id": "S3_P6",
-        "structure_type": "Clause",
-        "bracket_notation": "[S [SUBJ-in-t12] [PRED t13]]",
-        "dependencies": [
-          "t12->t13 (predicate)"
-        ],
-        "notes": "Clause 5: 'Sariel (in t12) taught the course of the moon (t13)'."
-      }
-    ]
-  }
-}
+        "id": "P2",
+        "structure_type": "

@@ -1,26 +1,30 @@
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "S7.meta",
-        "structure_type": "Header",
-        "bracket_notation": "[META [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]",
+        "id": "S1",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t1] [Gen t2]]",
         "dependencies": [
-          "t1->t2 (modifies)",
-          "t3->t4 (modifies)"
+          "t1->t2 (genitive)"
         ],
-        "notes": "Segment metadata."
+        "notes": "Analysis of the verse number as the head of a construct chain, with the verse text as its genitive dependent. This structure implies possession, e.g., 'the text of the verse'."
       },
       {
-        "id": "S7.1",
-        "structure_type": "Verb with Subject and Object",
-        "bracket_notation": "[S [NP-SUBJ [PN t5]] [VP [V-in-surface] [NP-OBJ [N t6]] [SBAR [MARK [PRO.REL t7]]]]]",
+        "id": "S2",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [HEAD t1] [APP t2]]",
         "dependencies": [
-          "t6->t5 (nsubj)",
-          "t6->t7 (acl:relcl)"
+          "t1->t2 (apposition)"
         ],
-        "notes": "A verb 'taught' is present in the surface of t5, with t5 ('Semyaza') as subject and t6 ('authority') as object. t7 ('who') introduces a relative clause modifying the associates of Semyaza, who are mentioned in the surface of t7."
-      }
-    ]
-  }
-}
+        "notes": "Analysis of the verse text as an appositive modifier to the verse number. This structure provides an explanation or restatement, e.g., 'verse 9:1, which is \"...\"'."
+      },
+      {
+        "id": "S3",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [APP t1] [HEAD t2]]",
+        "dependencies": [
+          "t2->t1 (apposition)"
+        ],
+        "notes": "Analysis of the verse number as an appositive

@@ -1,10 +1,371 @@
+```json
 {
-  "actors": [],
-  "props": [],
+  "actors": [
+    {
+      "name": "The Most High",
+      "visualTraits": "Referred to as 'the Most High, the Great and Holy One', 'the Lord', and 'God'. No physical description provided.",
+      "changes": null,
+      "role": "Divine authority issuing commands."
+    },
+    {
+      "name": "Arsyalalyur",
+      "visualTraits": "No description provided.",
+      "changes": null,
+      "role": "Messenger angel."
+    },
+    {
+      "name": "Son of Lamech",
+      "visualTraits": "No description provided.",
+      "changes": null,
+      "role": "Recipient of a divine warning."
+    },
+    {
+      "name": "Raphael",
+      "visualTraits": "No description provided.",
+      "changes": null,
+      "role": "Angel tasked with imprisoning Azazel."
+    },
+    {
+      "name": "Azazel",
+      "visualTraits": "No description provided.",
+      "changes": [
+        {
+          "phase": "Phase 1: Free",
+          "description": "Active in the world, teaching his works."
+        },
+        {
+          "phase": "Phase 2: Imprisoned",
+          "description": "Bound hand and foot, cast into darkness in the desert of Dudael, covered with stones, with his face covered."
+        }
+      ],
+      "role": "Fallen angel who taught corruption."
+    },
+    {
+      "name": "Gabriel",
+      "visualTraits": "No description provided.",
+      "changes": null,
+      "role": "Angel tasked with inciting the Giants to destroy each other."
+    },
+    {
+      "name": "Michael",
+      "visualTraits": "No description provided.",
+      "changes": null,
+      "role": "Angel tasked with imprisoning Semyaza and his followers."
+    },
+    {
+      "name": "Semyaza",
+      "visualTraits": "No description provided.",
+      "changes": [
+        {
+          "phase": "Phase 1: Free",
+          "description": "Leading a group of angels who consorted with human women."
+        },
+        {
+          "phase": "Phase 2: Imprisoned",
+          "description": "Bound under the hills of the earth until the final judgment."
+        }
+      ],
+      "role": "Leader of the fallen Watchers."
+    }
+  ],
+  "characters": [
+    {
+      "name": "Watchers",
+      "visualTraits": "Referred to as 'angels who corrupted the earth' and 'Watchers'. No physical description provided.",
+      "changes": [
+        {
+          "phase": "Phase 1: Free",
+          "description": "Consorting with women and teaching their children secrets."
+        },
+        {
+          "phase": "Phase 2: Imprisoned",
+          "description": "Bound under the hills of the earth until the final judgment."
+        }
+      ],
+      "role": "A group of fallen angels who corrupted humanity."
+    },
+    {
+      "name": "Children of Men",
+      "visualTraits": "Humanity in general.",
+      "changes": null,
+      "role": "Victims of the Watchers' corruption, later to become righteous."
+    },
+    {
+      "name": "The Giants",
+      "visualTraits": "Referred to as 'the bastards', 'the reprobates', 'the children of fornication', and 'the children of the Watchers'. No physical description provided.",
+      "changes": [
+        {
+          "phase": "Phase 1: Alive",
+          "description": "Living among humans."
+        },
+        {
+          "phase": "Phase 2: Destroyed",
+          "description": "Incited to destroy one another in battle."
+        }
+      ],
+      "role": "The offspring of the Watchers and human women."
+    },
+    {
+      "name": "Women",
+      "visualTraits": "Human women.",
+      "changes": null,
+      "role": "Mothers of the Giants, having consorted with the Watchers."
+    },
+    {
+      "name": "Spirits of Deceit",
+      "visualTraits": "Described as 'spirits of the show/deceit'. Implied to be the disembodied spirits of the destroyed Giants.",
+      "changes": null,
+      "role": "Spirits to be destroyed."
+    },
+    {
+      "name": "The Righteous",
+      "visualTraits": "Humans who survive the judgment.",
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-renewal",
+          "description": "Subject to the injustice and corruption of the world."
+        },
+        {
+          "phase": "Phase 2: Post-renewal",
+          "description": "Become long-lived (until they beget a thousand children), prosperous, and live in peace."
+        }
+      ],
+      "role": "The future inhabitants of the renewed earth."
+    },
+    {
+      "name": "All Nations",
+      "visualTraits": "All the peoples of the renewed earth.",
+      "changes": null,
+      "role": "Future worshippers of God."
+    }
+  ],
+  "props": [
+    {
+      "name": "Rough and sharp stones",
+      "visualTraits": "Described as 'rough and sharp'.",
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Plant of Righteousness",
+      "visualTraits": "A plant that is a sign of righteousness and truth.",
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Trees",
+      "visualTraits": "General trees planted on the renewed earth.",
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Trees of Joy",
+      "visualTraits": "Specific type of tree planted on the renewed earth.",
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Vines",
+      "visualTraits": "Planted on the renewed earth, producing fruit for wine.",
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Seed",
+      "visualTraits": "Sown on the renewed earth, producing a thousandfold.",
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Olives",
+      "visualTraits": "A measure of olives will produce ten presses of oil.",
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Dudael",
+      "visualTraits": "A location that contains a desert.",
+      "changes": null,
+      "role": "Location of Azazel's imprisonment."
+    }
+  ],
+  "locations": [
+    {
+      "name": "The Earth",
+      "visualTraits": "The world, the face of the earth.",
+      "changes": [
+        {
+          "phase": "Phase 1: Corrupted",
+          "description": "Corrupted by the works of Azazel and the Watchers, filled with injustice, lawlessness, sin, and impurity."
+        },
+        {
+          "phase": "Phase 2: Cleansed and Renewed",
+          "description": "Cleansed of all corruption and sin. Becomes a place of righteousness, peace, and extreme fertility, filled with trees, vines, and abundant crops."
+        }
+      ],
+      "role": "The primary setting of the narrative."
+    },
+    {
+      "name": "Darkness",
+      "visualTraits": "A place of total darkness where light cannot be seen.",
+      "changes": null,
+      "role": "The specific prison for Azazel."
+    },
+    {
+      "name": "The Desert in Dudael",
+      "visualTraits": "A desert where a hole is made to imprison Azazel.",
+      "changes": null,
+      "role": "The site of Azazel's prison."
+    },
+    {
+      "name": "Prison under the Earth",
+      "visualTraits": "A prison located 'under the hills of the earth'.",
+      "changes": null,
+      "role": "The prison for Semyaza and the Watchers until the final judgment."
+    },
+    {
+      "name": "Abyss of Fire",
+      "visualTraits": "Described as 'the fire', 'abyss of fire', and a 'prison house'. A place of torment.",
+      "changes": null,
+      "role": "The final prison for the condemned after judgment."
+    }
+  ],
   "environments": [],
-  "scenes": [],
+  "geo_environments": [
+    {
+      "name": "Cold_Storage_Caves",
+      "visualTraits": "A desert region, identified as Dudael.",
+      "changes": null,
+      "role": "The geographical location of Azazel's imprisonment."
+    },
+    {
+      "name": "Gehenna_Data_Sink",
+      "visualTraits": "A place of fiery judgment, referred to as 'the fire' (ዋዕይ).",
+      "changes": null,
+      "role": "The geographical location of the final judgment."
+    }
+  ],
+  "scenes": [
+    {
+      "title": "Command to Arsyalalyur",
+      "location": "Unspecified (divine realm), Earth",
+      "action": "The Most High commands Arsyalalyur to go to the son of Lamech and warn him of the coming flood and how to preserve his seed for the earth.",
+      "actorsInvolved": [
+        "The Most High",
+        "Arsyalalyur",
+        "Son of Lamech"
+      ]
+    },
+    {
+      "title": "Command to Raphael",
+      "location": "Dudael",
+      "action": "The Lord commands Raphael to bind Azazel, cast him into a hole in the desert of Dudael, cover him with stones and darkness, and leave him there until the great day of judgment when he will be cast into the fire.",
+      "actorsInvolved": [
+        "The Most High",
+        "Raphael",
+        "Azazel"
+      ]
+    },
+    {
+      "title": "Command to Gabriel",
+      "location": "Earth",
+      "action": "God commands Gabriel to go to the Giants and incite them to destroy one another in battle, as they will not be granted long life.",
+      "actorsInvolved": [
+        "The Most High",
+        "Gabriel"
+      ],
+      "charactersInvolved": [
+        "The Giants"
+      ]
+    },
+    {
+      "title": "Command to Michael",
+      "location": "Earth",
+      "action": "God commands Michael to inform Semyaza and his companions of their impending doom, and to bind them under the hills of the earth until the final judgment, when they will be led into the abyss of fire.",
+      "actorsInvolved": [
+        "The Most High",
+        "Michael",
+        "Semyaza"
+      ],
+      "charactersInvolved": [
+        "Watchers"
+      ]
+    },
+    {
+      "title": "The Prophecy of Renewal",
+      "location": "The Earth",
+      "action": "A prophecy is given describing the cleansing of the earth from all injustice and impurity, and its transformation into a place of righteousness, peace, and supernatural abundance for the righteous.",
+      "actorsInvolved": [],
+      "charactersInvolved": [
+        "The Righteous",
+        "All Nations"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
-  }
-}
+    "anchors": [
+      {
+        "id": "divine_presence",
+        "description": "The unspecified location where The Most High issues commands."
+      },
+      {
+        "id": "son_of_lamech_loc",
+        "description": "The location of the Son of Lamech."
+      },
+      {
+        "id": "dudael_desert",
+        "description": "A hole in the desert in Dudael, which serves as Azazel's prison."
+      },
+      {
+        "id": "giants_loc",
+        "description": "The location where the Giants are living among humans."
+      },
+      {
+        "id": "battleground",
+        "description": "The place where the Giants are sent to fight each other."
+      },
+      {
+        "id": "semyaza_loc",
+        "description": "The location of Semyaza and his companions."
+      },
+      {
+        "id": "earth_prison",
+        "description": "The prison under the hills of the earth for the Watchers."
+      },
+      {
+        "id": "fire_abyss",
+        "description": "The final prison, the abyss of fire."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Arsyalalyur",
+        "start_anchor": "divine_presence",
+        "end_anchor": "son_of_lamech_loc",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Commanded to go ('sent') to the Son of Lamech."
+      },
+      {
+        "actor": "Azazel",
+        "start_anchor": "unknown",
+        "end_anchor": "dudael_desert",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Is bound by Raphael and 'cast' into the desert prison."
+      },
+      {
+        "actor": "Gabriel",
+        "start_anchor": "divine_presence",
+        "end_anchor": "giants_loc",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Commanded to 'go' against the Giants."
+      },
+      {
+        "actor": "The Giants",
+        "start_anchor": "giants_loc",
+        "end_anchor": "battleground",
+        "motion": "unknown",

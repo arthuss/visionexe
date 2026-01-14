@@ -1,16 +1,14 @@
-{
-  "syntax": {
-    "parses": [
-      {
-        "id": "P7_S1",
-        "structure_type": "Nominal Phrase",
-        "bracket_notation": "[NP [PN t5] [ADJP t6] [CONJ+ NP t7]]",
-        "dependencies": [
-          "t6 (adj) modifies 'መላእት' (noun) within t5",
-          "t7 (noun) is coordinated with 'ገነት' (noun) within t6"
-        ],
-        "notes": "Appositional phrase describing 'Gabriel' (t5). 'ወዘይስት፡ወሩቤል፨፨' (and the serpents and the cherubim) in t7 is coordinated with 'ገነት' (Paradise) in t6."
-      }
-    ]
-  }
-}
+`).
+*   `ቅዱሳን`: "holy".
+*   `ዘይትቤቀሎ`: `ዘ-` (relative) + `ይትቤቀል` (verb, 3sg imperfect "he takes vengeance") + `-o` (object suffix, 3sg masc "him/it"). "who takes vengeance on it".
+*   `ለኣለም`: `ለ-` (preposition "on/for") + `ኣለም` ("world").
+*   `ወለብርሃናት`: `ወ-` (and) + `ለ-` (on/for) + `ብርሃናት` ("lights").
+*   Structure: "Raguel (is) one of the holy angels, who takes vengeance on the world and on the lights."
+*   The relative clause `ዘይትቤቀሎ፡​ለኣለም፡​ወለብርሃናት` modifies `ራጉኤል`.
+*   Inside the relative clause: `ይትቤቀሎ` is the verb. The subject is `ዘ-` (who). The object is `-o`. The indirect objects are `ለኣለም` and `ለብርሃናት`.
+*   **Ambiguities**:
+    1.  `ምላእክት፡​ቅዱሳን`: Adjective vs. Construct.
+    2.  `፩እምነ...`: Predicate vs. Apposition.
+
+**Parse T8.1 (Predicate + Adj + RelCl)**:
+`[S [S-main [

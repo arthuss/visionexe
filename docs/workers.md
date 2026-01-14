@@ -12,16 +12,20 @@ This document summarizes the worker scripts in `engine/workers` and how they fit
 - `worker_llm_analysis.py`: LLM analysis per segment/chapter.
 - `analysis_master_builder.py`: aggregates analysis into a master index.
 - `chapter_briefing_builder.py`: chapter briefings used before script generation.
-- `drehbuch.py` / `drehbuch_gemini.py`: screenplay generation.
+- `drehbuch.py` / `drehbuch_gemini.py`: screenplay generation (loads timeline profile + subject registry; override with `--timeline`).
 - `scene_instruction_builder.py`: extracts per-scene instructions and layouts.
 - `regie_worker.py`: fills/regenerates REGIE blocks when needed.
 
 ## Ge'ez Linguistic Analysis
-- The A-D workers support `--chapter-batch` to process one request per chapter and write per-segment outputs.
+- The A-D workers support three modes: per-segment (default when run directly), chapter-batch (single request that
+  returns per-segment JSON), and chapter-level (single request + distribute outputs).
+- Note: G/M/S/H use a legacy inverted `--per-segment` flag (it disables per-segment). Prefer the orchestrator control
+  `analysis_scope` in `stories/<story>/data/analysis/analysis_orchestrator_control.json` to avoid flag confusion.
 - `worker_llm_analysis_graphematic.py`: Level A graphematic capture (no normalization).
 - `worker_llm_analysis_Morphologic.py`: Level B morphology matrix output (waits for graphematic output when running per segment).
 - `worker_llm_analysis_synthactic.py`: Level C syntactic hypothesis enumeration (waits for morphology output; prefers `analysis_llm_morphologic.txt` tokens when present).
 - `worker_llm_analysis_semantic-historical.py`: Level D semantic/historical evaluation (waits for synthactic output; uses parses + morphology lemmas when available).
+- `segment_self_healer.py`: backfills missing segments and can refresh segment.txt from verse sources (`--refresh-existing`).
 - `geez_morphology_filter.py`: rule-based filter for morphology output (see `docs/geez_analysis_methodology.md`).
 - `worker_rule_filter.py`: apply rule filters to JSON artifacts.
 - `worker_tests.py`: summarize validation + test status for analysis artifacts.

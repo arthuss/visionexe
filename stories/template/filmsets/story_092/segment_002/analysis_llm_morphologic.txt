@@ -1,0 +1,15 @@
+An analysis of the provided Ge'ez text, adhering to the specified scientific rules and outputting in the required JSON format.
+
+```json
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2024-07-29T15:00:00Z",
+    "created_by": "llm",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_092",
+    "graphematic_string": "92:1 ዘተጽሕፈ፡እምሄኖŒ፡ጸሐፊ፡ ዝ÷ሉ፡ትእምርተ፡ጥÅብ፡ እም÷ሉ፡ሰብእ፡ስቡሕ፡መ—ንነ፡ ሉ፡ምድር፡ለ÷ሎሙ፡ ውሉድየ፡እለ፡የኀድሩ፡ዲÅ፡ ምድር፡ወለትውልድ፡ ዳኃራውያን፡እለ፡ይገብሩ፡ርትዐ፡ ወሰላመ፨\n92:2 ኢትሕዘን፡መንፈስŒሙ፡ ዝማን፡እስመ፡መዋዕለ፡ወሀÅ፡ ቅዱስ፡ዐቢይ፡ለ÷ሉ፡\n92:3 ወይትነሣ

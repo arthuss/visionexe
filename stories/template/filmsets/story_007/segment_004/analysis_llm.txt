@@ -2,25 +2,220 @@
 {
   "actors": [
     {
-      "name": "Speaker",
-      "visualTraits": null,
+      "name": "Giants",
+      "visualTraits": [
+        "great in size",
+        "height of 3000 ells"
+      ],
       "changes": null,
-      "role": "speaker"
+      "role": "antagonist"
+    },
+    {
+      "name": "The Earth",
+      "visualTraits": [
+        "personified planet"
+      ],
+      "changes": null,
+      "role": "accuser"
     }
   ],
-  "props": [],
-  "environments": [],
+  "characters": [
+    {
+      "name": "The Others",
+      "visualTraits": null,
+      "changes": null,
+      "role": "progenitors of the Giants"
+    },
+    {
+      "name": "Wives",
+      "visualTraits": [
+        "human women"
+      ],
+      "changes": null,
+      "role": "mothers of the Giants"
+    },
+    {
+      "name": "Mankind",
+      "visualTraits": [
+        "human"
+      ],
+      "changes": null,
+      "role": "victim"
+    },
+    {
+      "name": "Birds",
+      "visualTraits": null,
+      "changes": null,
+      "role": "victim"
+    },
+    {
+      "name": "Beasts",
+      "visualTraits": null,
+      "changes": null,
+      "role": "victim"
+    },
+    {
+      "name": "Reptiles",
+      "visualTraits": [
+        "creeping things"
+      ],
+      "changes": null,
+      "role": "victim"
+    },
+    {
+      "name": "Fish",
+      "visualTraits": null,
+      "changes": null,
+      "role": "victim"
+    },
+    {
+      "name": "The Lawless Ones",
+      "visualTraits": [
+        "A collective term for the antagonists"
+      ],
+      "changes": null,
+      "role": "antagonist"
+    }
+  ],
+  "props": [
+    {
+      "name": "Charms",
+      "visualTraits": null,
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Enchantments",
+      "visualTraits": null,
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Roots",
+      "visualTraits": [
+        "plant roots"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Plants",
+      "visualTraits": [
+        "generic plants"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Human Provisions",
+      "visualTraits": [
+        "all the acquisitions of men"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Flesh",
+      "visualTraits": [
+        "flesh of the giants"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Blood",
+      "visualTraits": [
+        "blood"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [],
+  "environments": [
+    {
+      "name": "The Earth",
+      "visualTraits": [
+        "The general setting for all events"
+      ],
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 7 Segment 4",
-      "location": null,
-      "action": "ወተመይጡ፡ረዓይት፡ላዕሌሆሙ፡ ይብልዕዎሙ፡ለሰብእ፨",
-      "actorsInvolved": ["Speaker"]
+      "title": "The Union and Forbidden Knowledge",
+      "location": "The Earth",
+      "action": "'The Others' take human wives, cohabit with them, and teach them forbidden knowledge (charms, enchantments, and knowledge of plants and roots).",
+      "actorsInvolved": [
+        "The Others",
+        "Wives"
+      ]
+    },
+    {
+      "title": "The Birth of Giants",
+      "location": "The Earth",
+      "action": "The human wives become pregnant and give birth to great Giants, three thousand ells in height.",
+      "actorsInvolved": [
+        "Wives",
+        "Giants"
+      ]
+    },
+    {
+      "title": "The Great Consumption",
+      "location": "The Earth",
+      "action": "The Giants consume all of mankind's provisions, to the point where humanity can no longer sustain them.",
+      "actorsInvolved": [
+        "Giants",
+        "Mankind"
+      ]
+    },
+    {
+      "title": "The Rampage",
+      "location": "The Earth",
+      "action": "The Giants turn against mankind and devour them. They then begin to sin against all animal life (birds, beasts, reptiles, fish), devour each other's flesh, and drink blood.",
+      "actorsInvolved": [
+        "Giants",
+        "Mankind",
+        "Birds",
+        "Beasts",
+        "Reptiles",
+        "Fish"
+      ]
+    },
+    {
+      "title": "The Earth's Accusation",
+      "location": "The Earth",
+      "action": "The personified Earth lays accusation against the Lawless Ones for their transgressions.",
+      "actorsInvolved": [
+        "The Earth",
+        "The Lawless Ones"
+      ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "others_area",
+        "description": "The general area of 'The Others' before approaching the women."
+      },
+      {
+        "id": "women_area",
+        "description": "The general area of the women who were chosen as wives."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "The Others",
+        "start_anchor": "others_area",
+        "end_anchor": "women_area",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "They began to go in unto them (ወወጠኑ፡ ​ይባኡ፡ ​ኀቤሆን) and mix with them."
+      }
+    ]
   }
 }
 ```

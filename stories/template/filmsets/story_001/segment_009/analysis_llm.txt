@@ -1,46 +1,238 @@
 ```json
 {
-  "actors": [],
+  "actors": [
+    {
+      "name": "Enoch",
+      "visualTraits": "A righteous man whose eyes are open, enabling him to see a holy vision.",
+      "changes": [],
+      "role": "prophet"
+    },
+    {
+      "name": "God",
+      "visualTraits": "A being referred to as 'the Lord' (እግዚአብሔር), 'the Holy and Great One' (ቅዱስ፡​ወዓቢይ), and 'the God of the world' (አምላከ፡​ዓለም). Appears with the power of His strength from heaven. His arrival is accompanied by ten thousands of holy ones and causes universal fear, trembling, and geological upheaval.",
+      "changes": [],
+      "role": "divine_judge"
+    }
+  ],
   "characters": [
     {
-      "name": "The Judge",
-      "visualTraits": "unknown",
+      "name": "The Elect",
+      "visualTraits": "A group destined to be present on the day of tribulation. They are blessed by Enoch and will be protected and receive mercy from God.",
       "changes": [],
-      "role": "Protagonist"
+      "role": "protagonist_group"
     },
     {
-      "name": "The Holy Ones",
-      "visualTraits": "described as a 'myriad' or 'multitude'",
+      "name": "The Righteous",
+      "visualTraits": "A group blessed by Enoch. They will receive peace from God during the judgment.",
       "changes": [],
-      "role": "Entourage"
+      "role": "protagonist_group"
     },
     {
-      "name": "The Wicked",
-      "visualTraits": "unknown",
+      "name": "The Evil",
+      "visualTraits": null,
       "changes": [],
-      "role": "Antagonists"
+      "role": "antagonist_group"
+    },
+    {
+      "name": "The Impious",
+      "visualTraits": null,
+      "changes": [],
+      "role": "antagonist_group"
+    },
+    {
+      "name": "Angels",
+      "visualTraits": "Beings in the heavens who reveal a holy vision to Enoch.",
+      "changes": [],
+      "role": "messenger"
+    },
+    {
+      "name": "This generation",
+      "visualTraits": null,
+      "changes": [],
+      "role": "audience_group"
+    },
+    {
+      "name": "A remote generation",
+      "visualTraits": "The future generation for whom Enoch's prophecy is intended.",
+      "changes": [],
+      "role": "audience_group"
+    },
+    {
+      "name": "The Watchers",
+      "visualTraits": "A group that will tremble and be seized with great fear and trembling at God's appearance.",
+      "changes": [],
+      "role": "observer_group"
+    },
+    {
+      "name": "Holy Ones",
+      "visualTraits": "A myriad (ten thousands) who accompany God when He comes to execute judgment.",
+      "changes": [],
+      "role": "divine_retinue"
+    },
+    {
+      "name": "All of flesh",
+      "visualTraits": null,
+      "changes": [],
+      "role": "judged_group"
+    },
+    {
+      "name": "Sinners",
+      "visualTraits": null,
+      "changes": [],
+      "role": "antagonist_group"
     }
   ],
   "props": [],
-  "places": [],
-  "locations": [],
-  "environments": [],
-  "geo_environments": [],
+  "places": [
+    {
+      "name": "Heaven",
+      "visualTraits": "The location of the holy vision shown to Enoch.",
+      "changes": [],
+      "role": "divine_realm"
+    },
+    {
+      "name": "Dwelling Place",
+      "visualTraits": "The abode from which the Holy and Great One comes forth.",
+      "changes": [],
+      "role": "divine_realm"
+    },
+    {
+      "name": "Earth",
+      "visualTraits": "A realm whose ends tremble with fear. It is subject to judgment.",
+      "changes": [
+        {
+          "phase": "Phase 1: pre-judgment",
+          "description": "A stable world."
+        },
+        {
+          "phase": "Phase 2: judgment",
+          "description": "The Earth is submerged, and everything within it is destroyed."
+        }
+      ],
+      "role": "setting"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Ends of the earth",
+      "visualTraits": "The furthest extent of the world, which is reached by great fear and trembling.",
+      "changes": [],
+      "role": "boundary"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Day of Tribulation",
+      "visualTraits": "A future time designated for the removal of all evil and impious people.",
+      "changes": [],
+      "role": "temporal_setting"
+    },
+    {
+      "name": "High mountains",
+      "visualTraits": "Tall geological formations.",
+      "changes": [
+        {
+          "phase": "Phase 1: pre-judgment",
+          "description": "Standing tall."
+        },
+        {
+          "phase": "Phase 2: judgment",
+          "description": "Shaken and thrown down."
+        }
+      ],
+      "role": "geographical_feature"
+    },
+    {
+      "name": "High hills",
+      "visualTraits": "Elevated landforms.",
+      "changes": [
+        {
+          "phase": "Phase 1: pre-judgment",
+          "description": "Standing tall."
+        },
+        {
+          "phase": "Phase 2: judgment",
+          "description": "Brought low and melted like wax before a flame."
+        }
+      ],
+      "role": "geographical_feature"
+    }
+  ],
+  "geo_environments": [
+    {
+      "name": "Sinai_Port_V1",
+      "visualTraits": "A mountain upon which the God of the world will tread and manifest His power.",
+      "changes": [],
+      "role": "theophany_site"
+    }
+  ],
   "scenes": [
     {
-      "title": "The Execution of Judgment",
-      "location": "unknown",
-      "action": "A divine Judge comes with a multitude of Holy Ones to execute judgment upon the Wicked and rebuke them for their sinful deeds.",
+      "title": "Enoch's Prophetic Commission",
+      "location": "Unspecified (visionary space)",
+      "action": "Enoch delivers words of blessing, recounting how he, a righteous man, saw a holy vision from the heavens shown by angels. He understands the vision is for a remote generation, not his own.",
       "actorsInvolved": [
-        "The Judge",
-        "The Holy Ones",
-        "The Wicked"
+        "Enoch",
+        "Angels"
+      ]
+    },
+    {
+      "title": "The Theophany on Sinai",
+      "location": "From a divine Dwelling Place to Mount Sinai, with effects felt across the Earth.",
+      "action": "The Holy and Great One, the God of the world, comes forth from His dwelling, treads upon Mount Sinai, and appears with power from heaven. This event causes universal fear, making the Watchers tremble and the mountains and hills collapse and melt.",
+      "actorsInvolved": [
+        "God",
+        "The Watchers"
+      ]
+    },
+    {
+      "title": "The Universal Judgment",
+      "location": "Earth",
+      "action": "The Earth is submerged and everything on it is destroyed. Judgment is executed upon all. God provides peace and protection for the Righteous and the Elect, who will be blessed with His light. God arrives with ten thousands of His Holy Ones to destroy the impious and reprove all flesh for their sinful deeds.",
+      "actorsInvolved": [
+        "God",
+        "The Righteous",
+        "The Elect",
+        "Holy Ones",
+        "The Impious",
+        "Sinners",
+        "All of flesh"
       ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "dwelling_place",
+        "description": "The dwelling place of the Holy and Great One."
+      },
+      {
+        "id": "mount_sinai",
+        "description": "Mount Sinai."
+      },
+      {
+        "id": "earth",
+        "description": "The Earth, as the location of judgment."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "God",
+        "start_anchor": "dwelling_place",
+        "end_anchor": "mount_sinai",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The text states the God of the world 'will tread upon Mount Sinai' (ይከይድ፡​ዲበ፡​ሲና፡​ደብር)."
+      },
+      {
+        "actor": "God",
+        "start_anchor": "unknown",
+        "end_anchor": "earth",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "The text states 'Behold, he came with ten thousands of his holy ones to execute judgment' (ናሁ፡​መጽአ፡​በትእልፊት፡​ቅዱሳን፡​ከመ፡​ይግበር፡​ፍትሐ). The starting point is implied to be His heavenly dwelling."
+      }
+    ]
   }
 }
 ```

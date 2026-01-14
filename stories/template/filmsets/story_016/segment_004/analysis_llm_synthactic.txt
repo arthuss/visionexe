@@ -1,17 +1,134 @@
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "S1",
-        "structure_type": "Sentence",
-        "bracket_notation": "[S [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]] [CLAUSE [NP t5] [NP t6]]]",
+        "id": "P1_1",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t1] [Gen t2]]",
         "dependencies": [
-          "t1->t2 (nummod)",
-          "t3->t4 (nummod)",
-          "t6->t5 (nsubj)"
+          "t1->t2 (genitive)"
         ],
-        "notes": "Structural analysis based on token position and generic POS tags, enumerating a plausible parse without semantic validation."
-      }
-    ]
-  }
-}
+        "notes": "Verse number as head of a genitive construct chain with the verse text as the dependent."
+      },
+      {
+        "id": "P1_2",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [N t1] [Appos t2]]",
+        "dependencies": [
+          "t1->t2 (apposition)"
+        ],
+        "notes": "Verse text as an appositive modifier specifying the verse number."
+      },
+      {
+        "id": "P1_3",
+        "structure_type": "Verbless Clause",
+        "bracket_notation": "[S [Pred t1] [Subj t2]]",
+        "dependencies": [
+          "t1->t2 (subject)"
+        ],
+        "notes": "Verbless clause where the verse number is the predicate and the verse text is the subject."
+      },
+      {
+        "id": "P1_4",
+        "structure_type": "Adverbial Clause",
+        "bracket_notation": "[S [AdvP t1] [S t2]]",
+        "dependencies": [
+          "t2->t1 (adverbial)"
+        ],
+        "notes": "Verse number as an adverbial modifier (e.g., a label) for the clause represented by the verse text."
+      },
+      {
+        "id": "P2_1",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t3] [Gen t4]]",
+        "dependencies": [
+          "t3->t4 (genitive)"
+        ],
+        "notes": "Verse number as head of a genitive construct chain with the verse text as the dependent."
+      },
+      {
+        "id": "P2_2",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [N t3] [Appos t4]]",
+        "dependencies": [
+          "t3->t4 (apposition)"
+        ],
+        "notes": "Verse text as an appositive modifier specifying the verse number."
+      },
+      {
+        "id": "P2_3",
+        "structure_type": "Verbless Clause",
+        "bracket_notation": "[S [Pred t3] [Subj t4]]",
+        "dependencies": [
+          "t3->t4 (subject)"
+        ],
+        "notes": "Verbless clause where the verse number is the predicate and the verse text is the subject."
+      },
+      {
+        "id": "P2_4",
+        "structure_type": "Adverbial Clause",
+        "bracket_notation": "[S [AdvP t3] [S t4]]",
+        "dependencies": [
+          "t4->t3 (adverbial)"
+        ],
+        "notes": "Verse number as an adverbial modifier (e.g., a label) for the clause represented by the verse text."
+      },
+      {
+        "id": "P3_1",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t5] [Gen t6]]",
+        "dependencies": [
+          "t5->t6 (genitive)"
+        ],
+        "notes": "Verse number as head of a genitive construct chain with the verse text as the dependent."
+      },
+      {
+        "id": "P3_2",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [N t5] [Appos t6]]",
+        "dependencies": [
+          "t5->t6 (apposition)"
+        ],
+        "notes": "Verse text as an appositive modifier specifying the verse number."
+      },
+      {
+        "id": "P3_3",
+        "structure_type": "Verbless Clause",
+        "bracket_notation": "[S [Pred t5] [Subj t6]]",
+        "dependencies": [
+          "t5->t6 (subject)"
+        ],
+        "notes": "Verbless clause where the verse number is the predicate and the verse text is the subject."
+      },
+      {
+        "id": "P3_4",
+        "structure_type": "Adverbial Clause",
+        "bracket_notation": "[S [AdvP t5] [S t6]]",
+        "dependencies": [
+          "t6->t5 (adverbial)"
+        ],
+        "notes": "Verse number as an adverbial modifier (e.g., a label) for the clause represented by the verse text."
+      },
+      {
+        "id": "P4_1",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t7] [Gen t8]]",
+        "dependencies": [
+          "t7->t8 (genitive)"
+        ],
+        "notes": "Verse number as head of a genitive construct chain with the verse text as the dependent."
+      },
+      {
+        "id": "P4_2",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [N t7] [Appos t8]]",
+        "dependencies": [
+          "t7->t8 (apposition)"
+        ],
+        "notes": "Verse text as an appositive modifier specifying the verse number."
+      },
+      {
+        "id": "P4_3",
+        "structure_type": "Verbless Clause",
+        "bracket_notation": "[S [Pred t7] [

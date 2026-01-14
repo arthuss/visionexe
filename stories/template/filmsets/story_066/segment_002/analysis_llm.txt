@@ -2,55 +2,153 @@
 {
   "actors": [
     {
-      "name": "እግዚ",
-      "visualTraits": null,
+      "name": "Narrator",
+      "visualTraits": {
+        "description": "The first-person observer of the vision, referred to as 'I' and 'me'. The text distinguishes this entity from Enoch in the final verse."
+      },
       "changes": null,
-      "role": "deity"
+      "role": "observer"
     },
     {
-      "name": "መላእተ",
-      "visualTraits": null,
+      "name": "Guiding Angel",
+      "visualTraits": {
+        "description": "An unnamed entity, referred to as 'he', who shows the vision to the narrator."
+      },
       "changes": null,
-      "role": "angel"
+      "role": "guide"
+    },
+    {
+      "name": "Lord of Spirits",
+      "visualTraits": {
+        "description": "A divine authority figure who issues commands to the angels."
+      },
+      "changes": null,
+      "role": "divine authority"
+    },
+    {
+      "name": "Enoch",
+      "visualTraits": {
+        "description": "A person from whose presence the narrator departs."
+      },
+      "changes": null,
+      "role": "prophet"
     }
   ],
-  "props": [],
-  "environments": [],
+  "characters": [
+    {
+      "name": "Angels of Punishment",
+      "visualTraits": {
+        "description": "A group of angels described as 'ready' to act. They are tasked with unleashing the waters and are positioned 'over the power of the waters'."
+      },
+      "changes": null,
+      "role": "agents of judgment"
+    },
+    {
+      "name": "Dwellers on the dry land",
+      "visualTraits": {
+        "description": "All the people who live on the surface of the earth, who are the intended subjects of the judgment."
+      },
+      "changes": null,
+      "role": "inhabitants of Earth"
+    }
+  ],
+  "props": [
+    {
+      "name": "Power of the Waters",
+      "visualTraits": {
+        "description": "A powerful force of water located 'under the earth', intended to be used for judgment and destruction."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Contained",
+          "description": "The waters are held 'under the earth', watched over by the angels."
+        },
+        {
+          "phase": "Phase 2: Awaiting Release",
+          "description": "The angels are ready to 'unleash' the waters, but are commanded to wait."
+        }
+      ],
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "Under the earth",
+      "visualTraits": {
+        "description": "A subterranean region where the 'Power of the Waters' is located."
+      },
+      "changes": null,
+      "role": "container"
+    },
+    {
+      "name": "Before the face of Enoch",
+      "visualTraits": {
+        "description": "The immediate vicinity of the person Enoch."
+      },
+      "changes": null,
+      "role": "staging area"
+    }
+  ],
+  "environments": [
+    {
+      "name": "The dry land",
+      "visualTraits": {
+        "description": "The surface of the earth, where people dwell."
+      },
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Verse 1",
-      "location": null,
-      "action": null,
-      "actorsInvolved": ["እግዚ"]
+      "title": "Vision of the Angels of Punishment",
+      "location": "Visionary space",
+      "action": "The Narrator is shown the Angels of Punishment who are ready to come and unleash all the power of the water from under the earth for judgment and destruction upon all who live on the dry land.",
+      "actorsInvolved": [
+        "Narrator",
+        "Guiding Angel",
+        "Angels of Punishment",
+        "Dwellers on the dry land"
+      ]
     },
     {
-      "title": "Verse 2",
-      "location": null,
-      "action": null,
-      "actorsInvolved": ["መላእተ"]
+      "title": "The Divine Command to Wait",
+      "location": "Visionary space",
+      "action": "The Lord of Spirits commands the angels who were going out to not act but to keep watch, as they are in charge of the power of the waters.",
+      "actorsInvolved": [
+        "Lord of Spirits",
+        "Angels of Punishment"
+      ]
     },
     {
-      "title": "Verse 3",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
-    },
-    {
-      "title": "Verse 4",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
-    },
-    {
-      "title": "Verse 5",
-      "location": null,
-      "action": null,
-      "actorsInvolved": []
+      "title": "Departure from Enoch",
+      "location": "Before the face of Enoch",
+      "action": "The Narrator goes out from the presence of Enoch.",
+      "actorsInvolved": [
+        "Narrator",
+        "Enoch"
+      ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "anchor_1",
+        "description": "Before the face of Enoch"
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Narrator",
+        "start_anchor": "anchor_1",
+        "end_anchor": "unknown",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The narrator 'went out from' the presence of Enoch."
+      }
+    ]
   }
 }
 ```

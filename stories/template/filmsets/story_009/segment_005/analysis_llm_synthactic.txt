@@ -1,28 +1,30 @@
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "S5.meta",
-        "structure_type": "Header",
-        "bracket_notation": "[META [NP [N t1] [NUM t2]] [NP [N t3] [NUM t4]]]",
+        "id": "S1",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t1] [Gen t2]]",
         "dependencies": [
-          "t1->t2 (modifies)",
-          "t3->t4 (modifies)"
+          "t1->t2 (genitive)"
         ],
-        "notes": "Segment metadata."
+        "notes": "Analysis of the verse number as the head of a construct chain, with the verse text as its genitive dependent. This structure implies possession, e.g., 'the text of the verse'."
       },
       {
-        "id": "S5.1",
-        "structure_type": "Coordinated Clauses",
-        "bracket_notation": "[S [S1 [NP [N t5]] [PP [PREP t6]]] [S2 [ADJP [ADJ t7]] [VP [V t8]]] [S3 [VP [V t9]]]]",
+        "id": "S2",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [HEAD t1] [APP t2]]",
         "dependencies": [
-          "t5->t8 (nsubj)",
-          "t5->t6 (nmod)",
-          "t8->t7 (advmod)",
-          "t8->t9 (conj)"
+          "t1->t2 (apposition)"
         ],
-        "notes": "A series of clauses praising God. The structure is ambiguous. One possible reading: 'You (t5) who has power (t6)... you see (t8) what is manifest (t7), and there is nothing that can hide (t9) from you.' t5 acts as the subject for t8. The sentence is a coordination of predicates describing God."
-      }
-    ]
-  }
-}
+        "notes": "Analysis of the verse text as an appositive modifier to the verse number. This structure provides an explanation or restatement, e.g., 'verse 9:1, which is \"...\"'."
+      },
+      {
+        "id": "S3",
+        "structure_type": "Apposition",
+        "bracket_notation": "[NP [APP t1] [HEAD t2]]",
+        "dependencies": [
+          "t2->t1 (apposition)"
+        ],
+        "notes": "Analysis of the verse number as an appositive

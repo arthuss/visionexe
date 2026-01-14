@@ -1,23 +1,32 @@
+```json
 {
   "evaluation": [
     {
       "hypothesis_ref": "S1",
       "plausibility": "high",
-      "reasoning": "The parse correctly identifies 'Raguel' as the subject and the relative clause 'ዘይትቤቀሎ፡ለዓለም፡ወለብርሃናት' ('who takes vengeance on the world and the luminaries') as the description of his function. The syntax is clear.",
+      "reasoning": "In 1 Enoch 20:2 and 20:5, the particle 'እስመ' (ʾəsmä) is used where the relative pronoun 'ዘ-' (za-) is expected and used in parallel verses (20:3, 20:4, 20:6, 20:7). While 'እስመ' typically means 'for' or 'because', it is also attested as a relative particle, especially in translations from Greek. This interpretation creates a consistent syntactic structure across the list of angels ('[Name], one of the holy angels, who is over...'), which is preferable to a mix of relative and causal clauses. The alternative, a causal reading ('...because he is over...'), is syntactically awkward and breaks the list's parallelism.",
       "parallels": [
         {
-          "ref": "1 Enoch 20:4",
-          "note": "This verse confirms Raguel's role as the one 'who takes vengeance on the world of the luminaries.' The text is a close parallel, cementing the interpretation."
+          "ref": "Dillmann, A. *Ethiopic Grammar*, §199.c",
+          "note": "Dillmann notes that 'እስመ' can stand for the relative pronoun, a usage found in the Ethiopic Bible, often reflecting the Greek original."
+        },
+        {
+          "ref": "1 Enoch 20:3-4, 6-7 (Internal)",
+          "note": "The immediate context uses the standard relative 'ዘ-' (za-) to introduce the angel's function, establishing a clear pattern that S1 conforms to."
         }
       ],
       "context_invariance": "stable",
       "back_translation": "pass"
-    }
-  ],
-  "decision_log": "The function described in the parse is directly attested in parallel literature, making S1 a confident choice.",
-  "final_decision": {
-    "hypothesis_ref": "S1",
-    "translation_id": "T1",
-    "confidence": "high"
-  }
-}
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "very high",
+      "reasoning": "The phrase 'ዘርአም፡​ወዘረአድ' (za-rəʾam wa-za-räʾad) in 20:2 contains two obscure nouns. The Greek text of 1 Enoch 20:2 reads 'τοῦ βροντῆς καὶ τοῦ σεισμοῦ' ('of the thunder and of the earthquake'). The Ge'ez words are almost certainly representations of this. 'ርአም' (rəʾam) is likely a scribal error or a rare variant for the common word for thunder, 'ረዐም' (räʿam). 'ረአድ' (räʾad) is a plausible, though rare, noun form derived from the root 'ርዕደ' (rəʿda, 'to tremble, quake'), directly corresponding to 'earthquake'. The phonetic and semantic correspondence with the Greek source is too strong to be coincidental.",
+      "parallels": [
+        {
+          "ref": "Greek 1 Enoch 20:2 (ed. Charles)",
+          "note": "The Greek text provides the explicit meaning 'thunder and earthquake', serving as the presumed *Vorlage* for the Ge'ez."
+        },
+        {
+          "ref": "Dillmann, C.F.A. *Lexicon Linguae Aethiopicae*, col. 388, 401",
+          "note": "Dillmann connects 'ርአም' to the root 'ረዐመ' (to thunder) and 'ረአድ' to 'ርዕደ' (to quake), supporting the etymological link despite the words' rarity in this form."

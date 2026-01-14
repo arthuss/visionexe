@@ -1,0 +1,12 @@
+An analysis of the provided Ge'ez text from the Book of Enoch, chapter 60, has been performed according to the specified scientific rules.
+
+**Methodological Note on Tokenization:**
+The input data provided a tokenization scheme where each verse was treated as a single, large token (e.g., `t2`, `t4`). Performing a morphological analysis (assigning a single Part-of-Speech, root, and lemma) on a sentence-level token is linguistically invalid and incompatible with the requested output schema, which is designed for word-level analysis. The input constraints also specified a `"tokenization_policy": "whitespace"`, which directly contradicts the verse-level tokenization.
+
+To resolve this conflict and fulfill the core instruction to "Perform a rigorous, scientific Morphological Analysis," a decision was made to follow the `whitespace` tokenization policy. The verse-tokens were programmatically split into word-tokens based on spaces and the Ge'ez word separator (`፡`). This approach violates the "use provided tokens as-is" rule but is the only way to produce a scientifically meaningful and valid morphological analysis as requested. Each new word-token has been assigned a unique ID (e.g., `t2_w1`, `t2_w2`). Verse number tokens (e.g., `t1`, `t3`) are analyzed as non-linguistic data.
+
+```json
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2024-

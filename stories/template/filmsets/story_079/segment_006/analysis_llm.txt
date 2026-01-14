@@ -2,33 +2,125 @@
 {
   "actors": [
     {
-      "name": "መዝ፡ርያ፡ወምሳል፡",
+      "name": "Speaker",
       "visualTraits": null,
       "changes": null,
-      "role": null
+      "role": "narrator and father of Methuselah"
     },
     {
-      "name": "እምሉ፡ብርሃን፡ዘርየኒ፡",
+      "name": "Methuselah",
       "visualTraits": null,
       "changes": null,
-      "role": null
+      "role": "son of the Speaker, recipient of the revelation"
     },
     {
-      "name": "ኡርኤል፡መል፡ዓቢይ፡",
-      "visualTraits": null,
+      "name": "Uriel",
+      "visualTraits": [
+        "great angel"
+      ],
       "changes": null,
-      "role": null
-    },
-    {
-      "name": "ዘውእቱ፡መራኂሆሙ፨",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
+      "role": "revealer of celestial laws, leader of the stars"
     }
   ],
-  "props": [],
-  "environments": [],
-  "scenes": [],
+  "characters": [],
+  "props": [
+    {
+      "name": "Law of the Stars of Heaven",
+      "visualTraits": [
+        "a complete system of rules governing celestial bodies"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Moon",
+      "visualTraits": [
+        "its light decreases and is completed at specific gates"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Light",
+      "visualTraits": [
+        "the illumination of the moon, which is completed at the sixth gate"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Sun",
+      "visualTraits": null,
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Sign and Pattern",
+      "visualTraits": [
+        "a representation of the celestial laws and light"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "Sixth Gate",
+      "visualTraits": [
+        "a celestial portal where the moon's light is completed"
+      ],
+      "changes": null,
+      "role": "celestial_portal"
+    },
+    {
+      "name": "First Gate",
+      "visualTraits": [
+        "a celestial portal associated with the moon's decrease"
+      ],
+      "changes": null,
+      "role": "celestial_portal"
+    },
+    {
+      "name": "Position",
+      "visualTraits": [
+        "a specific, observable point in a celestial cycle"
+      ],
+      "changes": null,
+      "role": "celestial_marker"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Heaven",
+      "visualTraits": [
+        "the realm of the stars"
+      ],
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "Temporal Domain",
+      "visualTraits": [
+        "the conceptual domain of time, encompassing ages, years, months, and weeks, over which the celestial laws have authority"
+      ],
+      "changes": null,
+      "role": "conceptual_setting"
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Revelation of the Celestial Law",
+      "location": "A visionary space related to Heaven",
+      "action": "The Speaker recounts to his son, Methuselah, the complete celestial law that was revealed to him by the angel Uriel. The lesson details the laws governing all time, the cycles of the moon through celestial gates, and the calendrical discrepancy between the lunar and solar years, presenting it all as a divine sign and pattern.",
+      "actorsInvolved": [
+        "Speaker",
+        "Methuselah",
+        "Uriel"
+      ]
+    }
+  ],
   "blocking": {
     "anchors": [],
     "paths": []

@@ -2,100 +2,306 @@
 {
   "actors": [
     {
-      "name": "ወመጻእኩ",
-      "visualTraits": null,
+      "name": "Narrator",
+      "visualTraits": {
+        "description": "The first-person protagonist of the journey. No physical description is provided."
+      },
       "changes": null,
-      "role": "unknown"
+      "role": "protagonist"
     },
     {
-      "name": "እስ፡ፈለገ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ዘይውኅዝ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ወይትዐው",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ዐቢይ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "መንገለ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ዐረብ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
+      "name": "Fiery Beings",
+      "visualTraits": {
+        "description": "Guides who transport the Narrator. Their default appearance is 'like a burning fire'."
+      },
+      "changes": {
+        "description": "They can alter their appearance at will.",
+        "phases": [
+          {
+            "label": "Phase 1: Fiery Form",
+            "description": "Their natural state, described as being 'like a burning fire'."
+          },
+          {
+            "label": "Phase 2: Human Form",
+            "description": "When they desire, they can appear 'like men'."
+          }
+        ]
+      },
+      "role": "guide"
     }
   ],
+  "characters": [],
   "props": [
     {
-      "name": "እሳት",
-      "visualTraits": "fire",
+      "name": "Bow of Fire",
+      "visualTraits": {
+        "description": "A bow made of fire, located in the abyss at the ends of the earth."
+      },
       "changes": null,
-      "role": "prop"
+      "role": "scene_prop"
     },
     {
-      "name": "እሳቱ",
-      "visualTraits": "fire",
+      "name": "Arrow",
+      "visualTraits": {
+        "description": "Arrows stored with the Bow of Fire."
+      },
       "changes": null,
-      "role": "prop"
+      "role": "scene_prop"
     },
     {
-      "name": "መ፡ማይ",
-      "visualTraits": "water",
+      "name": "Quivers",
+      "visualTraits": {
+        "description": "Quivers associated with the fiery bow and arrows."
+      },
       "changes": null,
-      "role": "prop"
+      "role": "scene_prop"
+    },
+    {
+      "name": "Sword of Fire",
+      "visualTraits": {
+        "description": "A sword made of fire, seen with the other fiery weapons."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "Place of Fiery Beings",
+      "visualTraits": {
+        "description": "A location where the Fiery Beings dwell."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "Place of Whirlwind",
+      "visualTraits": {
+        "description": "A location characterized by a whirlwind."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "Mountain reaching to Heaven",
+      "visualTraits": {
+        "description": "A mountain whose summit reaches to the sky."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "Shining Places",
+      "visualTraits": {
+        "description": "Luminous locations seen at the ends of the earth."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "The Abyss",
+      "visualTraits": {
+        "description": "A deep place at the extremities, containing fiery weapons."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "Water of Life",
+      "visualTraits": {
+        "description": "A body of water described as 'roaring' or 'resounding'."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "Fire of the West",
+      "visualTraits": {
+        "description": "A fire that encompasses the entire western horizon at sunset."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "River of Fire",
+      "visualTraits": {
+        "description": "A river whose fiery substance flows like water."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "Great Sea of the West",
+      "visualTraits": {
+        "description": "A large sea in the west, into which the River of Fire flows."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "Great Rivers",
+      "visualTraits": {
+        "description": "All of the great rivers of the world."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "Great Darkness",
+      "visualTraits": {
+        "description": "A place of profound darkness."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "Place where all flesh moves",
+      "visualTraits": {
+        "description": "A location where all living creatures are said to move about."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "Mountains of Hoarfrost",
+      "visualTraits": {
+        "description": "Mountains covered in the frost of winter."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "Outpouring of the Abyss's Water",
+      "visualTraits": {
+        "description": "The source from which all the water of the abyss pours out."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "Mouths of the Earth's Rivers",
+      "visualTraits": {
+        "description": "The estuaries or sources of all rivers on Earth."
+      },
+      "changes": null,
+      "role": "location"
+    },
+    {
+      "name": "Mouth of the Abyss",
+      "visualTraits": {
+        "description": "The opening or source of the abyss itself."
+      },
+      "changes": null,
+      "role": "location"
     }
   ],
   "environments": [
     {
-      "name": "ባሕር",
-      "visualTraits": "sea",
+      "name": "Heaven / Sky",
+      "visualTraits": {
+        "description": "The upper expanse, which a great mountain's summit reaches."
+      },
+      "changes": null,
+      "role": "environment"
+    },
+    {
+      "name": "Thunder",
+      "visualTraits": {
+        "description": "The sound of thunder is present at the ends of the earth."
+      },
+      "changes": null,
+      "role": "environment"
+    },
+    {
+      "name": "Lightning",
+      "visualTraits": {
+        "description": "Flashes of lightning are present at the ends of the earth."
+      },
+      "changes": null,
+      "role": "environment"
+    },
+    {
+      "name": "Sunset",
+      "visualTraits": {
+        "description": "The setting of the sun, which is encompassed by the Fire of the West."
+      },
+      "changes": null,
+      "role": "environment"
+    },
+    {
+      "name": "Winter",
+      "visualTraits": {
+        "description": "The season associated with the hoarfrost on certain mountains."
+      },
       "changes": null,
       "role": "environment"
     }
   ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 17 Segment 5",
-      "location": "unknown",
-      "action": "Observational description of fire and sea",
+      "title": "Arrival at the Fiery Beings' Dwelling",
+      "location": "Place of Fiery Beings",
+      "action": "The Fiery Beings take the Narrator to their dwelling, where they are seen in their fiery state and can change their form to that of men.",
       "actorsInvolved": [
-        "ወመጻእኩ",
-        "እስ፡ፈለገ",
-        "ዘይውኅዝ",
-        "ወይትዐው",
-        "ዐቢይ",
-        "መንገለ",
-        "ዐረብ"
+        "Narrator",
+        "Fiery Beings"
+      ]
+    },
+    {
+      "title": "Journey to the Cosmic Mountain",
+      "location": "Place of Whirlwind, Mountain reaching to Heaven",
+      "action": "The Narrator is taken through a whirlwind to a mountain so tall its summit reaches the sky. From this vantage, he sees shining places, thunder, and a celestial armory.",
+      "actorsInvolved": [
+        "Narrator",
+        "Fiery Beings"
+      ]
+    },
+    {
+      "title": "Journey to the Western Limits",
+      "location": "Water of Life, Fire of the West",
+      "action": "The Fiery Beings transport the Narrator to the roaring Water of Life and the Fire of the West, which contains the entire sunset.",
+      "actorsInvolved": [
+        "Narrator",
+        "Fiery Beings"
+      ]
+    },
+    {
+      "title": "The River of Fire",
+      "location": "River of Fire, Great Sea of the West",
+      "action": "The Narrator arrives at a river whose fire flows like water and empties into the Great Sea of the West.",
+      "actorsInvolved": [
+        "Narrator"
+      ]
+    },
+    {
+      "title": "Journey to the Great Darkness",
+      "location": "Great Rivers, Great Darkness, Place where all flesh moves",
+      "action": "After seeing all the great rivers, the Narrator reaches a great darkness and then proceeds to a place where all flesh moves.",
+      "actorsInvolved": [
+        "Narrator"
+      ]
+    },
+    {
+      "title": "Observation of the World's Fountains",
+      "location": "Mountains of Hoarfrost, Outpouring of the Abyss's Water, Mouths of the Earth's Rivers, Mouth of the Abyss",
+      "action": "The Narrator observes mountains of winter frost and the sources of all waters: the outpouring of the abyss, the mouths of all rivers, and the mouth of the abyss itself.",
+      "actorsInvolved": [
+        "Narrator"
       ]
     }
   ],
   "blocking": {
     "anchors": [
       {
-        "id": "anchor1",
-        "description": "center of stage"
-      }
-    ],
-    "paths": []
-  }
-}
-```
+        "id": "start_unspecified",
+        "description": "The unspecified starting point of the journey."
+      },
+      {
+        "id": "place_fiery_beings",
+        "description": "The dwelling place of the Fiery Beings."
+      },
+      {
+        "id": "place_whirlwind",
+        "description": "A

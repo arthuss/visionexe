@@ -2,83 +2,164 @@
 {
   "actors": [
     {
-      "name": "ኢትሕዘን",
-      "visualTraits": null,
+      "name": "Enoch",
+      "visualTraits": [
+        "A sign of wisdom",
+        "Praised more than any man",
+        "Ruler of the earth"
+      ],
       "changes": null,
-      "role": "unknown"
+      "role": "scribe"
     },
     {
-      "name": "መንፈስሙ",
+      "name": "The Holy and Great One",
       "visualTraits": null,
       "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ዝማን",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "እስመ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "መዋዕለ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ወሀ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ቅዱስ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ዐቢይ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
-    },
-    {
-      "name": "ለሉ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "unknown"
+      "role": "divine benefactor"
     }
   ],
-  "props": [],
-  "environments": [],
+  "characters": [
+    {
+      "name": "Enoch's children",
+      "visualTraits": [
+        "Dwellers on the earth"
+      ],
+      "changes": null,
+      "role": "addressee"
+    },
+    {
+      "name": "Later generations",
+      "visualTraits": [
+        "Those who will do righteousness and peace"
+      ],
+      "changes": null,
+      "role": "addressee"
+    },
+    {
+      "name": "The Righteous",
+      "visualTraits": null,
+      "changes": null,
+      "role": "protagonist_group"
+    },
+    {
+      "name": "Sin",
+      "visualTraits": null,
+      "changes": null,
+      "role": "antagonist_concept"
+    }
+  ],
+  "props": [
+    {
+      "name": "The Writing of Enoch",
+      "visualTraits": [
+        "A written text containing a prophecy"
+      ],
+      "changes": null,
+      "role": "actor_prop:Enoch"
+    }
+  ],
+  "places": [
+    {
+      "name": "Earth",
+      "visualTraits": [
+        "The dwelling place of humanity"
+      ],
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Paths of Righteousness",
+      "visualTraits": [
+        "Characterized by goodness and mercy"
+      ],
+      "changes": null,
+      "role": "metaphorical_route"
+    }
+  ],
+  "environments": [
+    {
+      "name": "Eternal Light",
+      "visualTraits": null,
+      "changes": null,
+      "role": "metaphorical_environment"
+    },
+    {
+      "name": "Darkness",
+      "visualTraits": null,
+      "changes": null,
+      "role": "metaphorical_environment"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 92 Segment 2",
-      "location": null,
-      "action": "chant or prayer",
+      "title": "Enoch's Proclamation",
+      "location": "Earth",
+      "action": "Enoch, through his written work, delivers a message of wisdom and prophecy to his descendants and all future generations who will live righteously.",
       "actorsInvolved": [
-        "ኢትሕዘን",
-        "መንፈስሙ",
-        "ዝማን",
-        "እስመ",
-        "መዋዕለ",
-        "ወሀ",
-        "ቅዱስ",
-        "ዐቢይ",
-        "ለሉ"
+        "Enoch",
+        "Enoch's children",
+        "Later generations"
+      ]
+    },
+    {
+      "title": "The Rise of the Righteous",
+      "location": "Metaphorical space (Paths of Righteousness, Eternal Light)",
+      "action": "A prophecy is given about the future: the Righteous will arise, walk in paths of righteousness and eternal light, and receive authority, while Sin will be destroyed in darkness.",
+      "actorsInvolved": [
+        "The Holy and Great One",
+        "The Righteous",
+        "Sin"
       ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "anchor_1",
+        "description": "The state of sleep, an abstract starting point from which the Righteous arise."
+      },
+      {
+        "id": "anchor_2",
+        "description": "The Paths of Righteousness, a metaphorical route for the Righteous to walk."
+      },
+      {
+        "id": "anchor_3",
+        "description": "The environment of Eternal Light, where the Righteous will walk."
+      },
+      {
+        "id": "anchor_4",
+        "description": "The environment of Darkness, the final destination where Sin perishes."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "The Righteous",
+        "start_anchor": "anchor_1",
+        "end_anchor": "anchor_2",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The Righteous one will arise from sleep and walk in the paths of righteousness (v. 3)."
+      },
+      {
+        "actor": "The Righteous",
+        "start_anchor": "anchor_3",
+        "end_anchor": "anchor_3",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The Righteous will walk in eternal light, indicating movement within that environment (v. 4)."
+      },
+      {
+        "actor": "Sin",
+        "start_anchor": "unknown",
+        "end_anchor": "anchor_4",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Sin will perish in darkness, implying a final movement to this state of destruction (v. 5)."
+      }
+    ]
   }
 }
 ```

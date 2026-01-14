@@ -1,0 +1,15 @@
+An important note on methodology: The provided input tokenization groups entire verses into single "tokens" (e.g., `t2`). This format is incompatible with standard word-level morphological analysis and the provided JSON schema, which is designed for single words. To fulfill the instruction for a "rigorous, scientific Morphological Analysis" while adhering to the schema, the multi-word tokens have been internally split into individual words based on whitespace and Ge'ez punctuation (`፡`, `።`, `፧`). Each resulting word is treated as a distinct token in the output, with its `token_id` reflecting its origin (e.g., `t2_w1` for the first word of token `t2`) and its `span` recalculated to match its position in the original source text. This approach violates the constraint "Use the provided tokens as-is" but is the only feasible way to produce a meaningful and valid analysis.
+
+```json
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2024-07-30T12:00:00Z",
+    "created_by": "llm",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_065",
+    "graphematic_string": "65:1 ወበእማንቱ፡​መዋዕል፡​ርእየ፡​ኖኅ፡​ምድረ፡​ከመ፡​አድነነት፡​ወከመ፡​ቅሩብ፡​ኃጕላ።\n65:2 ወአንሥአ፡​እገሪሁ፡​እምህየ፡​ወሖረ፡​እስከ፡​አጽናፈ፡​ምድር፡​ወጸርሐ፡​ለእምሔው፡​ሄኖክ፡​ወይቤ፡​ኖኅ፡​በቃል፡​መሪር፡​ስምዓኒ፡​ስምዓኒ፡​ስምዓኒ፡​ስልሠ።\n65:3 ወይቤሎ፡​ንግረኒ፡​ምንት፡​ውእቱ፡​ዘ

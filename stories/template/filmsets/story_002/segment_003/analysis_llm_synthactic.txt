@@ -1,31 +1,35 @@
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "P3-1",
-        "structure_type": "Imperative Clause",
-        "bracket_notation": "[S.IMP [VP [V t5]]]",
-        "dependencies": [],
-        "notes": "Imperative verb 'ርእይዎ' (t5) with coordinated objects 'ለሐጋይ፡ወለረምት'."
+        "id": "P1A",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t1] [Gen t2]]",
+        "dependencies": [
+          "t1->t2 (genitive)"
+        ],
+        "notes": "First possible analysis for the relationship between the verse number (t1) and the verse text (t2). This parse treats the structure as a nominal chain, where the verse number is the head noun and the text is its genitive modifier. This is a valid interpretation of nominal juxtaposition."
       },
       {
-        "id": "P3-2",
-        "structure_type": "Declarative Clause",
-        "bracket_notation": "[S [NP.SUBJ [N ምድር]] [VP [V t6] [NP.OBJ t6]]]",
+        "id": "P1B",
+        "structure_type": "Appositional Phrase",
+        "bracket_notation": "[NP [N t1] [Appos t2]]",
         "dependencies": [
-          "t6->t6 (subject/object)"
+          "t1->t2 (apposition)"
         ],
-        "notes": "Clause 'ምድር፡መልት፡ማየ' (t6) where the verb 'መልአት' has a subject 'ምድር' and object 'ማየ'."
+        "notes": "Second possible analysis for the relationship between the verse number (t1) and the verse text (t2). This parse treats the structure as an apposition, where the text (t2) specifies or renames the verse number (t1). This is another valid interpretation of nominal juxtaposition."
       },
       {
-        "id": "P3-3",
-        "structure_type": "Declarative Clause",
-        "bracket_notation": "[S [NP.SUBJ t7] [VP [V t8] [PP t8]]]",
+        "id": "P2A",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t3] [Gen t4]]",
         "dependencies": [
-          "t8->t7 (subject)"
+          "t3->t4 (genitive)"
         ],
-        "notes": "Coordinated noun phrase 'ወደመና፡ወጠል፡ወዝናም' (t7) serves as the subject for the verb 'የዓርፍ' (t8)."
-      }
-    ]
-  }
-}
+        "notes": "First possible analysis for the relationship between the verse number (t3) and the verse text (t4). This parse treats the structure as a nominal chain, where the verse number is the head noun and the text is its genitive modifier. This is a valid interpretation of nominal juxtaposition."
+      },
+      {
+        "id": "P2B",
+        "structure_type": "Appositional Phrase",
+        "bracket_notation": "[NP [N t3] [Appos t4]]

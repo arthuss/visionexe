@@ -2,117 +2,171 @@
 {
   "actors": [
     {
-      "name": "ወርኢኩ",
-      "visualTraits": null,
-      "changes": [],
-      "role": "character"
-    },
-    {
-      "name": "ዘይነውኅ",
-      "visualTraits": null,
-      "changes": [],
-      "role": "character"
-    },
-    {
-      "name": "ወማእሎሙ",
-      "visualTraits": null,
-      "changes": [],
-      "role": "character"
-    },
-    {
-      "name": "ወልቦው",
-      "visualTraits": null,
-      "changes": [],
-      "role": "character"
-    },
-    {
-      "name": "ወላቲኒ",
-      "visualTraits": null,
-      "changes": [],
-      "role": "character"
-    },
-    {
-      "name": "ዘየሐውር",
-      "visualTraits": null,
-      "changes": [],
-      "role": "character"
+      "name": "Narrator (I)",
+      "visualTraits": "unspecified",
+      "changes": null,
+      "role": "protagonist"
     }
   ],
+  "characters": [],
   "props": [
     {
-      "name": "ጽባሕ",
-      "visualTraits": null,
-      "changes": [],
-      "role": "musical"
+      "name": "cut tree",
+      "visualTraits": "A tree that has been cut, from which other trees sprout.",
+      "changes": null,
+      "role": "scene_prop"
     },
     {
-      "name": "መዝ",
-      "visualTraits": null,
-      "changes": [],
-      "role": "musical"
+      "name": "sprouting trees",
+      "visualTraits": "Trees that abide and sprout from the cut tree.",
+      "changes": [
+        {
+          "phase": "Phase 1: dynamic",
+          "description": "The trees are actively sprouting and abiding."
+        }
+      ],
+      "role": "scene_prop"
     },
     {
-      "name": "ዕሙቅ",
-      "visualTraits": null,
-      "changes": [],
-      "role": "musical"
+      "name": "water (by holy mountain)",
+      "visualTraits": "Water located to the east of the holy mountain.",
+      "changes": [
+        {
+          "phase": "Phase 1: dynamic",
+          "description": "The water is flowing towards the north."
+        }
+      ],
+      "role": "scene_prop"
+    },
+    {
+      "name": "water (in valley)",
+      "visualTraits": "Water located in the deep valley between the first two mountains.",
+      "changes": [
+        {
+          "phase": "Phase 1: dynamic",
+          "description": "The water is flowing towards the holy mountain."
+        }
+      ],
+      "role": "scene_prop"
+    },
+    {
+      "name": "trees (in valleys)",
+      "visualTraits": "Trees planted upon the hard rock of the deep valleys.",
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "holy mountain",
+      "visualTraits": "A sacred mountain.",
+      "changes": null,
+      "role": "landmark"
+    },
+    {
+      "name": "second mountain",
+      "visualTraits": "A mountain located to the east of the holy mountain, of a similar height.",
+      "changes": null,
+      "role": "landmark"
+    },
+    {
+      "name": "third mountain (lower)",
+      "visualTraits": "A mountain to the west of the second mountain, described as lower and not high.",
+      "changes": null,
+      "role": "landmark"
+    }
+  ],
+  "locations": [
+    {
+      "name": "middle of the earth",
+      "visualTraits": "A central region containing a blessed place, mountains, and valleys.",
+      "changes": null,
+      "role": "region"
+    },
+    {
+      "name": "blessed and shaded place",
+      "visualTraits": "A specific location within the 'middle of the earth', containing miraculous trees.",
+      "changes": null,
+      "role": "sub-location"
+    },
+    {
+      "name": "valley (between first and second mountains)",
+      "visualTraits": "A deep, narrow valley located between the holy mountain and the second mountain, containing water.",
+      "changes": null,
+      "role": "sub-location"
+    },
+    {
+      "name": "valley (between second and third mountains)",
+      "visualTraits": "A valley located below the third, lower mountain.",
+      "changes": null,
+      "role": "sub-location"
+    },
+    {
+      "name": "deep and dry valleys",
+      "visualTraits": "Multiple deep, dry valleys located at the extremity of the three mountains.",
+      "changes": null,
+      "role": "sub-location"
     }
   ],
   "environments": [
     {
-      "name": "ደብረ",
-      "visualTraits": null,
-      "changes": [],
-      "role": "location"
-    },
+      "name": "hard rock",
+      "visualTraits": "The hard, rocky ground forming the deep valleys.",
+      "changes": null,
+      "role": "terrain"
+    }
+  ],
+  "geo_environments": [
     {
-      "name": "ደብር",
-      "visualTraits": null,
-      "changes": [],
-      "role": "location"
-    },
-    {
-      "name": "ማይ",
-      "visualTraits": null,
-      "changes": [],
-      "role": "location"
+      "name": "Gehenna_Data_Sink",
+      "visualTraits": "A central, holy region ('middle of the earth') featuring a primary mountain ('holy mountain'), a second mountain to the east, and a third, lower one to the west, with deep valleys between them. This topography strongly parallels that of Jerusalem and its surrounding valleys (Kidron, Tyropoeon, Hinnom/Gehenna).",
+      "changes": null,
+      "role": "setting"
     }
   ],
   "scenes": [
     {
-      "title": "Beat 1",
-      "location": null,
-      "action": null,
-      "actorsInvolved": ["ወርኢኩ"]
+      "title": "Arrival at the Blessed Place",
+      "location": "blessed and shaded place",
+      "action": "The narrator travels to the 'middle of the earth' and discovers a blessed, shaded spot featuring a cut tree from which other trees miraculously sprout.",
+      "actorsInvolved": [
+        "Narrator (I)"
+      ]
     },
     {
-      "title": "Beat 2",
-      "location": null,
-      "action": null,
-      "actorsInvolved": ["ዘይነውኅ"]
-    },
-    {
-      "title": "Beat 3",
-      "location": null,
-      "action": null,
-      "actorsInvolved": ["ወማእሎሙ"]
-    },
-    {
-      "title": "Beat 4",
-      "location": null,
-      "action": null,
-      "actorsInvolved": ["ወልቦው", "ወላቲኒ"]
-    },
-    {
-      "title": "Beat 5",
-      "location": null,
-      "action": null,
-      "actorsInvolved": ["ዘየሐውር"]
+      "title": "Survey of the Holy Mountains and Valleys",
+      "location": "middle of the earth",
+      "action": "From a vantage point, the narrator observes a holy mountain with a northward-flowing stream, a second mountain to the east, a third lower mountain to the west, and the deep, rocky valleys between them. The narrator marvels at the sight.",
+      "actorsInvolved": [
+        "Narrator (I)"
+      ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "start_point",
+        "description": "An unspecified location 'from there' where the segment begins."
+      },
+      {
+        "id": "middle_of_earth",
+        "description": "The central region containing the mountains and valleys, which is the destination of the narrator's journey."
+      },
+      {
+        "id": "observation_point",
+        "description": "A static vantage point within the 'middle of the earth' from which the narrator observes the entire landscape after arriving."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Narrator (I)",
+        "start_anchor": "start_point",
+        "end_anchor": "middle_of_earth",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The narrator travels from a previous, unstated location to the 'middle of the earth'."
+      }
+    ]
   }
 }
 ```

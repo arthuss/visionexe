@@ -2,112 +2,464 @@
 {
   "actors": [
     {
-      "name": "ወይእዜኒ",
-      "visualTraits": null,
-      "changes": [],
-      "role": null
-    },
-    {
-      "name": "እምሩ",
-      "visualTraits": null,
-      "changes": [],
-      "role": null
-    },
-    {
-      "name": "እስመ",
-      "visualTraits": null,
-      "changes": [],
-      "role": null
-    },
-    {
-      "name": "እመለእት",
-      "visualTraits": null,
-      "changes": [],
-      "role": null
-    },
-    {
-      "name": "ይትኀሠሥ",
-      "visualTraits": null,
-      "changes": [],
-      "role": null
-    },
-    {
-      "name": "ምግሪሙ",
-      "visualTraits": null,
-      "changes": [],
-      "role": null
-    },
-    {
-      "name": "ወእምፀሐይ",
-      "visualTraits": null,
-      "changes": [],
-      "role": null
-    },
-    {
-      "name": "ወእምወርኅ",
-      "visualTraits": null,
-      "changes": [],
-      "role": null
-    },
-    {
-      "name": "ወእምነ፡ዋብት",
-      "visualTraits": null,
-      "changes": [],
-      "role": null
-    },
-    {
-      "name": "ኀጢተሙ",
-      "visualTraits": null,
-      "changes": [],
-      "role": null
+      "name": "The Most High",
+      "visualTraits": {
+        "description": "Not described."
+      },
+      "changes": null,
+      "role": "judge"
     }
   ],
-  "props": [],
+  "characters": [
+    {
+      "name": "Fathers",
+      "visualTraits": {
+        "description": "Not described."
+      },
+      "changes": null,
+      "role": "combatant"
+    },
+    {
+      "name": "Sons",
+      "visualTraits": {
+        "description": "Not described."
+      },
+      "changes": null,
+      "role": "combatant"
+    },
+    {
+      "name": "Brothers",
+      "visualTraits": {
+        "description": "Not described."
+      },
+      "changes": null,
+      "role": "combatant"
+    },
+    {
+      "name": "Fellows",
+      "visualTraits": {
+        "description": "Not described."
+      },
+      "changes": null,
+      "role": "combatant"
+    },
+    {
+      "name": "Man",
+      "visualTraits": {
+        "description": "A generic man who kills his own family."
+      },
+      "changes": null,
+      "role": "perpetrator"
+    },
+    {
+      "name": "Son's son",
+      "visualTraits": {
+        "description": "Not described."
+      },
+      "changes": null,
+      "role": "victim"
+    },
+    {
+      "name": "The Sinners",
+      "visualTraits": {
+        "description": "A general group encompassing those who do evil, are hard of heart, and whose deeds are recorded. They are the target of judgment."
+      },
+      "changes": null,
+      "role": "judged"
+    },
+    {
+      "name": "Honored Brother",
+      "visualTraits": {
+        "description": "Not described."
+      },
+      "changes": null,
+      "role": "victim"
+    },
+    {
+      "name": "Angels",
+      "visualTraits": {
+        "description": "Beings who descend from heaven to gather sinners and investigate their deeds."
+      },
+      "changes": null,
+      "role": "enforcer"
+    },
+    {
+      "name": "Those who brought down sin",
+      "visualTraits": {
+        "description": "A group of sinners gathered for judgment."
+      },
+      "changes": null,
+      "role": "judged"
+    },
+    {
+      "name": "Holy Angels (Guards)",
+      "visualTraits": {
+        "description": "Angels assigned to protect the righteous."
+      },
+      "changes": null,
+      "role": "protector"
+    },
+    {
+      "name": "The Righteous and Holy",
+      "visualTraits": {
+        "description": "A group who are afflicted by sinners and protected by angels. They sleep a long sleep without fear."
+      },
+      "changes": null,
+      "role": "protected"
+    },
+    {
+      "name": "Wise Men",
+      "visualTraits": {
+        "description": "Not described."
+      },
+      "changes": null,
+      "role": "observer"
+    },
+    {
+      "name": "Children of Men",
+      "visualTraits": {
+        "description": "Not described."
+      },
+      "changes": null,
+      "role": "observer"
+    },
+    {
+      "name": "The Hard of Heart",
+      "visualTraits": {
+        "description": "A type of sinner who devises evil."
+      },
+      "changes": null,
+      "role": "perpetrator"
+    }
+  ],
+  "props": [
+    {
+      "name": "Stream of blood",
+      "visualTraits": {
+        "description": "A flowing stream formed from the blood of those slain."
+      },
+      "changes": {
+        "is_dynamic": true,
+        "description": "Forms and flows as a result of the slaughter."
+      },
+      "role": "scene_prop"
+    },
+    {
+      "name": "Horse",
+      "visualTraits": {
+        "description": "A horse that walks through blood up to its chest."
+      },
+      "changes": {
+        "is_dynamic": true,
+        "description": "Moves through the battlefield."
+      },
+      "role": "scene_prop"
+    },
+    {
+      "name": "Chariot",
+      "visualTraits": {
+        "description": "A chariot that becomes submerged in blood."
+      },
+      "changes": {
+        "is_dynamic": true,
+        "description": "Becomes submerged in the rising blood."
+      },
+      "role": "scene_prop"
+    },
+    {
+      "name": "This Book",
+      "visualTraits": {
+        "description": "A book containing words that the wise will understand."
+      },
+      "changes": {
+        "is_dynamic": false
+      },
+      "role": "scene_prop"
+    },
+    {
+      "name": "Riches",
+      "visualTraits": {
+        "description": "Wealth (e.g., gold and silver) that cannot save the sinners."
+      },
+      "changes": {
+        "is_dynamic": false
+      },
+      "role": "scene_prop"
+    },
+    {
+      "name": "Fire",
+      "visualTraits": {
+        "description": "A burning flame used to punish sinners."
+      },
+      "changes": {
+        "is_dynamic": true,
+        "description": "Used to burn the sinners."
+      },
+      "role": "scene_prop"
+    },
+    {
+      "name": "Gift",
+      "visualTraits": {
+        "description": "A symbolic offering given to the rain."
+      },
+      "changes": {
+        "is_dynamic": false
+      },
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "Hidden Places",
+      "visualTraits": {
+        "description": "Secret or concealed locations on Earth where sinners are found."
+      },
+      "changes": {
+        "is_dynamic": false
+      },
+      "role": "scene_prop"
+    },
+    {
+      "name": "One Place",
+      "visualTraits": {
+        "description": "A gathering point where angels bring all the sinners for judgment."
+      },
+      "changes": {
+        "is_dynamic": false
+      },
+      "role": "scene_prop"
+    },
+    {
+      "name": "Heaven",
+      "visualTraits": {
+        "description": "The celestial realm where angels are, and from which they observe Earth."
+      },
+      "changes": {
+        "is_dynamic": false
+      },
+      "role": "scene_prop"
+    },
+    {
+      "name": "Earth",
+      "visualTraits": {
+        "description": "The terrestrial realm where the slaughter and judgment occur."
+      },
+      "changes": {
+        "is_dynamic": false
+      },
+      "role": "scene_prop"
+    }
+  ],
   "environments": [
     {
-      "name": "ሰማይ",
-      "visualTraits": null,
-      "changes": [],
-      "role": "sky"
+      "name": "Those Days",
+      "visualTraits": {
+        "description": "A future period of time characterized by chaos and judgment."
+      },
+      "changes": {
+        "is_dynamic": false
+      },
+      "role": "temporal_marker"
     },
     {
-      "name": "ምድር",
-      "visualTraits": null,
-      "changes": [],
-      "role": "earth"
+      "name": "Sun",
+      "visualTraits": {
+        "description": "The celestial body, which acts as a witness to the sinners' deeds."
+      },
+      "changes": {
+        "is_dynamic": true,
+        "description": "Its setting marks the duration of the daily slaughter."
+      },
+      "role": "witness"
+    },
+    {
+      "name": "Moon",
+      "visualTraits": {
+        "description": "The celestial body, which acts as a witness to the sinners' deeds."
+      },
+      "changes": {
+        "is_dynamic": false
+      },
+      "role": "witness"
+    },
+    {
+      "name": "Stars",
+      "visualTraits": {
+        "description": "The celestial bodies, which act as witnesses to the sinners' deeds."
+      },
+      "changes": {
+        "is_dynamic": false
+      },
+      "role": "witness"
+    },
+    {
+      "name": "Cloud",
+      "visualTraits": {
+        "description": "Atmospheric phenomenon that testifies against sinners."
+      },
+      "changes": {
+        "is_dynamic": true,
+        "description": "Is withheld from the sinners."
+      },
+      "role": "agent_of_judgment"
+    },
+    {
+      "name": "Mist",
+      "visualTraits": {
+        "description": "Atmospheric phenomenon that testifies against sinners."
+      },
+      "changes": {
+        "is_dynamic": true,
+        "description": "Is withheld from the sinners."
+      },
+      "role": "agent_of_judgment"
+    },
+    {
+      "name": "Dew",
+      "visualTraits": {
+        "description": "Atmospheric phenomenon that testifies against sinners."
+      },
+      "changes": {
+        "is_dynamic": true,
+        "description": "Is withheld from the sinners."
+      },
+      "role": "agent_of_judgment"
+    },
+    {
+      "name": "Rain",
+      "visualTraits": {
+        "description": "Atmospheric phenomenon that testifies against sinners."
+      },
+      "changes": {
+        "is_dynamic": true,
+        "description": "Is withheld from the sinners."
+      },
+      "role": "agent_of_judgment"
+    },
+    {
+      "name": "Frost",
+      "visualTraits": {
+        "description": "A form of cold that falls upon the sinners."
+      },
+      "changes": {
+        "is_dynamic": true,
+        "description": "Falls upon the sinners as a form of attack."
+      },
+      "role": "agent_of_judgment"
+    },
+    {
+      "name": "Snow",
+      "visualTraits": {
+        "description": "A form of cold that falls upon the sinners."
+      },
+      "changes": {
+        "is_dynamic": true,
+        "description": "Falls upon the sinners as a form of attack."
+      },
+      "role": "agent_of_judgment"
+    },
+    {
+      "name": "Snow-winds",
+      "visualTraits": {
+        "description": "Winds carrying snow that attack the sinners."
+      },
+      "changes": {
+        "is_dynamic": true,
+        "description": "Blow against the sinners as a form of attack."
+      },
+      "role": "agent_of_judgment"
+    },
+    {
+      "name": "Scourges",
+      "visualTraits": {
+        "description": "Unspecified afflictions associated with the snow-winds."
+      },
+      "changes": {
+        "is_dynamic": true,
+        "description": "Fall upon the sinners as a form of attack."
+      },
+      "role": "agent_of_judgment"
     }
   ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 100 Segment 10",
-      "location": null,
-      "action": null,
+      "title": "The Great Slaughter",
+      "location": "Earth",
+      "action": "In a time of great chaos, family members and friends kill one another from dawn to dusk, causing a stream of blood to form that is deep enough to reach a horse's chest and submerge a chariot.",
       "actorsInvolved": [
-        "ወይእዜኒ",
-        "እምሩ",
-        "እስመ",
-        "እመለእት",
-        "ይትኀሠሥ",
-        "ምግሪሙ",
-        "ወእምፀሐይ",
-        "ወእምወርኅ",
-        "ወእምነ፡ዋብት",
-        "ኀጢተሙ"
+        "Fathers",
+        "Sons",
+        "Brothers",
+        "Fellows",
+        "Man",
+        "The Sinners"
+      ]
+    },
+    {
+      "title": "The Gathering for Judgment",
+      "location": "Hidden Places",
+      "action": "Angels descend to Earth, find all the sinners in hidden places, and gather them into one location. The Most High arises to execute a great judgment upon them.",
+      "actorsInvolved": [
+        "Angels",
+        "Those who brought down sin",
+        "The Most High"
+      ]
+    },
+    {
+      "title": "Protection of the Righteous",
+      "location": "Earth",
+      "action": "Holy angels are assigned as guards to protect the righteous and holy until all evil and sin are destroyed, ensuring they have nothing to fear.",
+      "actorsInvolved": [
+        "Holy Angels (Guards)",
+        "The Righteous and Holy"
+      ]
+    },
+    {
+      "title": "Cosmic and Natural Judgment",
+      "location": "Earth",
+      "action": "The sinners are told their deeds are known in heaven, witnessed by the sun, moon, and stars. They will be judged with fire, and natural elements like rain, dew, frost, and snow will be withheld or turned against them as punishment.",
+      "actorsInvolved": [
+        "The Sinners",
+        "The Hard of Heart",
+        "Angels"
       ]
     }
   ],
   "blocking": {
     "anchors": [
       {
-        "id": "sky",
-        "description": "sky"
+        "id": "anchor_1",
+        "description": "Heaven, the starting point for divine agents."
       },
       {
-        "id": "earth",
-        "description": "earth"
+        "id": "anchor_2",
+        "description": "The hidden places on Earth where sinners are located."
+      },
+      {
+        "id": "anchor_3",
+        "description": "The battlefield, which becomes filled with a deep pool of blood."
       }
     ],
-    "paths": []
+    "paths": [
+      {
+        "actor": "Angels",
+        "start_anchor": "anchor_1",
+        "end_anchor": "anchor_2",
+        "motion": "descend",
+        "duration_sec": null,
+        "notes": "Angels descend from Heaven into the hidden places to gather sinners."
+      },
+      {
+        "actor": "Horse",
+        "start_anchor": null,
+        "end_anchor": "anchor_3",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "A horse walks into the pool of blood until it reaches its chest."
+      }
+    ]
   }
 }
 ```

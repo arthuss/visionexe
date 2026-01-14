@@ -1,0 +1,14 @@
+An enumeration of the full syntactic structure space for the provided Ge'ez text is presented below. The analysis adheres to the scientific rules of no ambiguity reduction, token fidelity, and formal notation, focusing exclusively on syntactic relationships without recourse to world knowledge. Each parse represents a syntactically valid interpretation of a clausal or phrasal unit within the text.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1_v89_1_c1",
+        "structure_type": "Coordinated Clauses",
+        "bracket_notation": "[S [Clause [Subj [NP t2]] [Pred [VP [V t3] [Mod [Adj t4]]]]] [Conj t4] [Clause [Subj [pro]] [Pred [VP [V t4] [Obj [NP t4]] [AdvCl [Conj t4] [S [Pred [V t5]] [Subj [NP t5]]]]]]]]",
+        "dependencies": [
+          "t3 (ሖረ፡ኀÅ፡እልኩ፡¡ልህምት፡) -> t2 (ወ¡ሐዱ፡እምእልኩ፡¡ባዕቱ፡) (subject)",
+          "t3 (ሖረ፡ኀÅ፡እልኩ፡¡ልህምት፡) -> t4 (ፀዐዳ፡) (adjunct)",
+          "t4 (ወመሀሮ፡) -> t3 (ሖረ፡ኀÅ፡እልኩ

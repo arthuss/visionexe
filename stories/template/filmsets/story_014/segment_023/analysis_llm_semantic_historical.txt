@@ -1,27 +1,30 @@
+```json
 {
   "evaluation": [
     {
-      "hypothesis_ref": "S1",
+      "hypothesis_ref": "S1-14:2",
       "plausibility": "high",
-      "reasoning": "The parse correctly identifies a narrative sequence. It starts with Enoch's state ('my face was covered, and I was trembling'), which is interrupted by the main event: 'the Lord called me with His own mouth' and gives a command ('Come hither, Enoch...'). This is a classic divine commission scene.",
+      "reasoning": "The syntactic hypothesis concerns the phrase 'ወበመንፈስየ፡​ዘወሀበ፡​ዓቢይ፡​አፈ፡​ለሰብእ' (and with my spirit, which the Great One gave as a mouth to men) in 1 Enoch 14:2. The most direct grammatical reading (S1) parses 'ዘወሀበ፡​ዓቢይ፡​አፈ፡​ለሰብእ' as a standard relative clause modifying 'መንፈስየ' (my spirit). In this structure, 'ዘ' is the relative pronoun, 'ዓቢይ' is the subject, 'ወሀበ' is the verb, and 'አፈ' (mouth) functions as a second/predicate object, a construction attested in Ge'ez with verbs of giving, making, or appointing (cf. Dillmann, Ethiopic Grammar, §183.c). This yields the meaning '...my spirit, which the Great One gave as a mouth to men'. While semantically condensed, this creates a powerful metaphor identifying the divine spirit with the faculty of inspired speech. This reading is strongly supported by historical evidence from the Greek version of Enoch preserved by Georgius Syncellus, which reads '...τῷ πνεύματί μου, ὃ ἔδωκεν ὁ μέγας εἰς τὸ στόμα τῶν ἀνθρώπων' (...my spirit, which the Great One gave into the mouth of men). The Ge'ez translator appears to have rendered the Greek prepositional phrase 'εἰς τὸ στόμα' (into the mouth) as a predicate object 'አፈ' (a mouth). This translation shift from a literal placement to a metaphorical identification explains the specific phrasing in the Ge'ez text. The resulting metaphor in Ge'ez is theologically coherent with the context.",
       "parallels": [
         {
-          "ref": "Genesis 12:1",
-          "note": "Divine call to Abram: 'Now the LORD had said unto Abram, Get thee out of thy country...'"
+          "ref": "Georgius Syncellus, Chronographia (ed. Dindorf, p. 24)",
+          "note": "Provides the likely Greek source text (Vorlage) '...ὃ ἔδωκεν ὁ μέγας εἰς τὸ στόμα τῶν ἀνθρώπων', showing the shift from a prepositional phrase ('into the mouth') to a predicate object ('a mouth') in the Ge'ez translation."
         },
         {
-          "ref": "Exodus 3:4",
-          "note": "'God called unto him out of the midst of the bush, and said, Moses, Moses. And he said, Here am I.'"
+          "ref": "2 Samuel 23:2 (Ge'ez: 2 ሳሙኤል 23:2)",
+          "note": "Provides a strong thematic parallel for the connection between God's spirit and the act of speaking: 'መንፈሰ፡​እግዚአብሔር፡​ተናገረ፡​በላዕሌየ፡​ወቃሉ፡​ዲበ፡​ልሳንየ።' ('The Spirit of the LORD spoke by me, and His word is on my tongue.') This supports the metaphorical interpretation of the spirit as the source/faculty of speech."
         }
       ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "S1 correctly structures the scene as a transition from the seer's state of fear to a direct divine summons, which is a foundational trope for prophetic commissioning.",
+  "decision_log": "The analysis focused on the syntactically and semantically dense phrase in 1 Enoch 14:2: 'ዘወሀበ፡​ዓቢይ፡​አፈ፡​ለሰብእ'. A purely grammatical analysis of the Ge'ez text suggests 'አፈ' (mouth) is a predicate object, meaning the spirit was given 'as a mouth'. This reading, while creating a slightly unusual metaphor, is grammatically sound. An alternative hypothesis, that 'ዘ' introduces a new clause, was rejected as syntactically less probable. The key to resolving the semantic nuance was found by comparing the Ge'ez with its attested Greek parallel in Syncellus. The Greek text uses a prepositional phrase, 'into the mouth', which the Ge'ez translator rendered as a predicate object, 'a mouth'. This demonstrates a common type of translation shift and provides a historical explanation for the Ge'ez phrasing. The final decision integrates the direct grammatical reading of the Ge'ez with the historical evidence from its source language, confirming that the metaphor in Ge'ez is a deliberate or resultant feature of the translation process.",
   "final_decision": {
-    "hypothesis_ref": "S1",
-    "translation_id": "T1_023",
-    "confidence": "high"
+    "hypothesis_ref": "S1-14:2",
+    "translation_id": "T1-14:2",
+    "translation": "I saw in my sleep what I now speak with a tongue of flesh and with my spirit, which the Great One gave to humanity as a mouth, that they might speak with it and understand with the heart.",
+    "confidence": "moderate"
   }
 }
+```

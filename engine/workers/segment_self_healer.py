@@ -23,6 +23,11 @@ def parse_args():
     parser.add_argument("--chapters", nargs="*", type=int, help="Limit to specific chapters.")
     parser.add_argument("--report", help="Write a JSON report to this path.")
     parser.add_argument("--dry-run", action="store_true", help="Print actions without writing.")
+    parser.add_argument(
+        "--refresh-existing",
+        action="store_true",
+        help="Overwrite existing segment.txt with verse file content when available.",
+    )
     return parser.parse_args()
 
 
@@ -66,6 +71,25 @@ def resolve_verse_file(verse_root: Path, chapter_num: int) -> Path | None:
     return None
 
 
+def load_verse_overrides(verse_root: Path) -> dict[int, int]:
+    overrides_path = verse_root / "verse_overrides.json"
+    if not overrides_path.exists():
+        return {}
+    try:
+        data = json.loads(overrides_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+    raw = data.get("max_verse_by_chapter", {})
+    overrides: dict[int, int] = {}
+    for chapter_key, max_verse in raw.items():
+        try:
+            chapter_num = int(chapter_key)
+            overrides[chapter_num] = int(max_verse)
+        except (TypeError, ValueError):
+            continue
+    return overrides
+
+
 def load_verse_lines(path: Path) -> dict[int, str]:
     verses: dict[int, str] = {}
     for raw_line in path.read_text(encoding="utf-8", errors="replace").splitlines():
@@ -92,6 +116,7 @@ def main():
 
     verse_root_value = args.verse_root or "docs/ethiopic_1enoch_p"
     verse_root = resolve_path(verse_root_value, repo_root)
+    verse_overrides = load_verse_overrides(verse_root)
 
     chapter_label = story_config.get("chapter_label", "chapter")
     segment_label = story_config.get("segment_label", "segment")
@@ -103,7 +128,14 @@ def main():
     timeline_tag = "1".zfill(timeline_padding)
 
     chapter_filter = set(args.chapters or [])
-    report = {"created": [], "skipped": [], "missing_verses": []}
+    report = {
+        "created": [],
+        "refreshed": [],
+        "refresh_skipped": [],
+        "skipped": [],
+        "missing_segments": [],
+        "extra_segments": [],
+    }
 
     chapter_dirs = sorted([d for d in filmsets_root.iterdir() if d.is_dir() and d.name.startswith(f"{chapter_label}_")])
     for chapter_dir in chapter_dirs:
@@ -122,6 +154,9 @@ def main():
         if not verses:
             report["skipped"].append({"chapter": chapter_num, "reason": "verse file empty"})
             continue
+        target_max = max(verses)
+        if chapter_num in verse_overrides:
+            target_max = verse_overrides[chapter_num]
 
         segment_dirs = []
         for seg in chapter_dir.iterdir():
@@ -138,19 +173,47 @@ def main():
 
         segment_dirs.sort(key=lambda item: item[0])
         segment_indices = [idx for idx, _ in segment_dirs]
-        min_idx = segment_indices[0]
-        max_idx = segment_indices[-1]
-        missing = [idx for idx in range(min_idx, max_idx + 1) if idx not in segment_indices]
+        missing = [idx for idx in range(1, target_max + 1) if idx not in segment_indices]
+        for extra_index in [idx for idx in segment_indices if idx > target_max]:
+            report["extra_segments"].append({"chapter": chapter_num, "segment": extra_index})
         if not missing:
-            continue
+            if not args.refresh_existing:
+                continue
 
         header_prefix = find_header_prefix(segment_dirs) or chapter_label.capitalize()
 
+        if args.refresh_existing:
+            for seg_index, seg_dir in segment_dirs:
+                if seg_index > target_max:
+                    continue
+                verse_text = verses.get(seg_index)
+                if not verse_text:
+                    report["refresh_skipped"].append(
+                        {"chapter": chapter_num, "segment": seg_index, "reason": "verse missing"}
+                    )
+                    continue
+                if args.dry_run:
+                    print(f"[dry-run] refresh {seg_dir / 'segment.txt'}")
+                else:
+                    segment_text = build_segment_text(header_prefix, chapter_num, seg_index, verse_text)
+                    (seg_dir / "segment.txt").write_text(segment_text, encoding="utf-8")
+                report["refreshed"].append(
+                    {
+                        "chapter": chapter_num,
+                        "segment": seg_index,
+                        "segment_label": seg_dir.name,
+                        "verse_source": str(verse_path),
+                        "method": "verse_file",
+                    }
+                )
+
         for seg_index in missing:
-            verse_text = verses.get(seg_index)
-            if not verse_text:
-                report["missing_verses"].append({"chapter": chapter_num, "segment": seg_index})
+            if seg_index not in verses:
+                report["missing_segments"].append(
+                    {"chapter": chapter_num, "segment": seg_index, "reason": "verse missing"}
+                )
                 continue
+            verse_text = verses[seg_index]
 
             seg_label = f"{segment_label}_{seg_index:0{segment_padding}d}"
             seg_dir = chapter_dir / seg_label

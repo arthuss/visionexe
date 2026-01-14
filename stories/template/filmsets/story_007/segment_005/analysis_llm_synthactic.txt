@@ -1,25 +1,26 @@
+```json
 {
   "syntax": {
     "parses": [
       {
-        "id": "S5_P1",
-        "structure_type": "Coordinated Phrase",
-        "bracket_notation": "[XP [X t5] [CONJ t6] [CONJ t7]]",
+        "id": "P1",
+        "structure_type": "Nominal Chain",
+        "bracket_notation": "[NP [N t1] [Gen t2]]",
         "dependencies": [
-          "t5->t6 (conj)",
-          "t5->t7 (conj)"
+          "t1->t2 (genitive)"
         ],
-        "notes": "A coordinated phrase where the action in t5 ('...sin against birds') is continued with a list of other entities in t6 and t7."
+        "notes": "This parse represents one of two possible analyses for the relationship between a verse number token and its corresponding text token. Due to the tokenization, the text of each verse is a single, unanalyzable token. In this parse, the verse text (t2) is treated as a genitive modifier of the verse number (t1), expressing a relationship of possession or specification (e.g., 'the text of 7:1'). This analysis applies analogously to all subsequent verse number/text pairs: (t3, t4), (t5, t6), (t7, t8), (t9, t10), and (t11, t12)."
       },
       {
-        "id": "S5_P2",
-        "structure_type": "Clause",
-        "bracket_notation": "[S [CLAUSE t9] [ADV t10]]",
+        "id": "P2",
+        "structure_type": "Appositional Phrase",
+        "bracket_notation": "[NP [N t1] [App t2]]",
         "dependencies": [
-          "t9->t10 (advmod)"
+          "t1->t2 (apposition)"
         ],
-        "notes": "The clausal action in t9 ('...they devoured, and blood they drank') is temporally modified by the adverb in t10 ('then')."
+        "notes": "This parse represents the second of two possible analyses for the relationship between a verse number token and its corresponding text token. In this parse, the verse text (t2) is treated as being in apposition to the verse number (t1), where one element specifies or renames the other (e.g., '7:1, namely, the following text...'). This analysis applies analogously to all subsequent verse number/text pairs: (t3, t4), (t5, t6), (t7, t8), (t9, t10), and (t11, t12)."
       }
     ]
   }
 }
+```

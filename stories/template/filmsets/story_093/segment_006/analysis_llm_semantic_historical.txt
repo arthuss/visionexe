@@ -1,0 +1,46 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1",
+      "plausibility": "high",
+      "reasoning": "The hypothesis proposes that the verb `ወሀለኒ` (wa-hallani, lit. 'and it was to me') in 93:1 is a scribal error for `ወአኀዘ` (wa-ʾaḫaza, 'and he began'). The received text, 'And it was to me, Enoch, to speak from the books,' is syntactically awkward in Ge'ez. The verb `ሀለወ` (hallawa, 'to be') is not typically used to introduce an action in this manner. In contrast, `አኀዘ` (ʾaḫaza) followed by an imperfect verb is the standard Ge'ez idiom for inception, meaning 'to begin to do something.' This proposed reading creates a smooth, idiomatic introduction to Enoch's speech.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 93:3a",
+          "note": "The phrase `ወአኀዘ፡ሄኖክ፡ይትናገር፡እመጻሕፍት` (wa-ʾaḫaza Hēnok yətnāggar ʾəma-maṣāḥəft), 'And Enoch began to speak from the books,' appears just two verses later. This identical construction, used for the same introductory purpose within the same pericope, provides exceptionally strong evidence for the proposed emendation in 93:1."
+        },
+        {
+          "ref": "1 Enoch 92:1a",
+          "note": "The introduction to the broader literary section (The Epistle of Enoch) uses a similar formula: `...ወዘአኀዘ፡ ይትናገር፡ በምሳሌ` (...wa-za-ʾaḫaza yətnāggar ba-məssālē), '...and he who began to speak in a parable.' This further establishes `አኀዘ ይትናገር` as the standard formula for initiating Enoch's discourse in this part of the book."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "moderate",
+      "reasoning": "The hypothesis concerns the phrase `ትልህቅ፡ዐማፃዎ፡ወሥርዐተ፡ይገብር` (təlḥəq ʿammāṣāwo wa-śərʿata yəgabbər) in 93:4. There is a syntactic clash: `ትልህቅ` (təlḥəq) is a feminine singular adjective ('great'), while the verb `ተፈጸሙ` (tafaṣṣamu, 'they were accomplished') preceding it is plural. Furthermore, `ዐማፃዎ` (ʿammāṣāwo) is an unusual plural form, possibly 'his iniquities.' The hypothesis suggests a corruption from an original reading like `ትልህቅ ዐመፃ` (təlḥəq ʿamäṣā, 'great iniquity'), which would be a feminine singular noun phrase. This would require the preceding verb to be emended to `ትትፈጸም` (tətfaṣṣam, 'it will be accomplished').",
+      "parallels": [
+        {
+          "ref": "Greek Syncellus A (on 1 Enoch 93:4)",
+          "note": "The corresponding Greek text reads `ἀδικία μεγάλη τελεσθήσεται` (adikia megalē telesthēsetai), meaning 'a great iniquity will be accomplished.' This external attestation supports the idea that the original concept was a singular 'great iniquity,' matching the proposed emendation `ትልህቅ ዐመፃ`."
+        },
+        {
+          "ref": "Unattested",
+          "note": "The specific form `ዐማፃዎ` (ʿammāṣāwo) as a standard plural of `ዐመፃ` (ʿamäṣā, 'iniquity') is not well-attested in classical Ge'ez lexicons, increasing the likelihood that it is either a unique formation or a corruption."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "The primary focus of this evaluation is the introductory phrase of the Apocalypse of Weeks in 1 Enoch 93:1. The received text presents a syntactic anomaly with the verb `ወሀለኒ` (wa-hallani). Hypothesis S1 proposes an emendation to `ወአኀዘ` (wa-ʾaḫaza), which is the standard Ge'ez idiom for 'he began.' This hypothesis is strongly supported by an identical phrase used for the same purpose in 93:3 and a similar one in 92:1. The contextual evidence is so compelling that it outweighs the lack of a simple paleographic explanation for the corruption (`ሀለኒ` vs. `አኀዘ`). The emendation is widely accepted in critical scholarship and resolves the textual difficulty cleanly. A secondary hypothesis (S2) was evaluated for 93:4, where a syntactic disagreement and an unusual noun form suggest textual corruption. The parallel in the Greek fragments supports the idea of an original singular noun phrase ('great iniquity'), lending plausibility to an emendation, though the exact original Ge'ez wording is less certain than in S1. Given the strength of the evidence, the decision is to adopt the reading proposed in S1.",
+  "final_decision": {
+    "hypothesis_ref": "S1",
+    "translation_id": "T1",
+    "confidence": "high"
+  }
+}
+```

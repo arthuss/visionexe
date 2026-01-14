@@ -1,17 +1,17 @@
-{
-  "syntax": {
-    "parses": [
-      {
-        "id": "S5.A",
-        "structure_type": "Complex Sentence",
-        "bracket_notation": "[S [VP t5] [SBAR [REL 'ዘ'] [S [VP t6] [CONJ 'ወ'] [VP t7 [PP [ADJ t8]]]]]]",
-        "dependencies": [
-          "t5 <- t6 (adj-clause)",
-          "t6 -> t7 (coord-pred)",
-          "t7 <- t8 (adj-mod)"
-        ],
-        "notes": "A main clause (t5: 'And I came...') is modified by a long relative clause describing the 'river'. This relative clause contains two coordinated verbs (t6 and t7)."
-      }
-    ]
-  }
-}
+An enumeration of all valid syntactic parses for the provided Ge'ez text, following the specified scientific rules.
+
+### Principles of Analysis
+
+1.  **No Ambiguity Reduction**: All syntactically valid structural ambiguities are presented as distinct parses. This includes ambiguities in coordination scope, adjunct attachment, and the relationship between clauses (e.g., apposition vs. coordination).
+2.  **Token Fidelity**: The analysis respects the provided tokenization. The internal structure of each sentence-token is analyzed, but the token itself is the unit of reference. Words within the `surface` string of a token are treated as the terminal nodes of the parse trees.
+3.  **Formal Notation**: Each parse is represented using bracket notation to show constituency and a list of head-dependent relations to specify the grammatical functions.
+4.  **No World Knowledge**: The analysis is based exclusively on the grammatical properties of Ge'ez, without recourse to semantic plausibility or external context.
+
+---
+
+### Syntactic Analysis
+
+The analysis is provided for each token containing Ge'ez sentential or clausal text. Verse number tokens (`t1`, `t3`, `t5`, `t7`, `t9`, `t11`, `t13`, `t15`) are treated as extra-syntactic labels and are not included in the syntactic structures.
+
+#### **Token: t2**
+*   **Surface**: `ወነሥኡኒ፡​ውስተ፡​፩መካን፡​ኀበ፡​ሀለዉ፡​ህየ፡​ከመ፡

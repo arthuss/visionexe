@@ -1,0 +1,63 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S1.1",
+      "plausibility": "high",
+      "reasoning": "The phrase 'ወ፩ይከውን' (w-ḥad yǝkӓwwǝn) meaning 'and will become one' is a well-attested Ge'ez idiom using the verb 'kona' (to be/become) with the numeral 'ḥad' (one) to express union. The context of the verse, which describes the mingling of heavenly 'chosen and holy children' with earthly 'children of men', strongly supports a reading of unification. An alternative hypothesis of scribal error (S1.2: '፩' for 'ወ') is less parsimonious as it assumes a mistake where a valid and meaningful idiom exists.",
+      "parallels": [
+        {
+          "ref": "Genesis 2:24 (Ge'ez)",
+          "note": "The phrase 'ወይከውኑ፡ ክልኤሆሙ፡ ፩፡ ሥጋ' (w-yǝkӓwwǝnu kǝlʾehomu ḥad śǝga), 'and the two of them shall become one flesh', provides a direct parallel for 'kona' + 'ḥad' to mean 'become one'."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "S10.2",
+      "plausibility": "moderate",
+      "reasoning": "The term 'ጕንዱየ' (gʷǝnduya) is a hapax legomenon or extremely rare, making its interpretation uncertain. Hypothesis S10.2 posits it means 'my duration' or 'my lot', a metaphorical extension of the root's primary meaning 'trunk/log'. This fits the context, where Enoch sees his predestined place (v. 8: 'my portion') among the righteous. An alternative (S10.1), conjectural emendation to 'that which was there', resolves the lexical difficulty but lacks any textual support. S10.2 is preferred as it respects the manuscript tradition, despite the semantic leap.",
+      "parallels": [
+        {
+          "ref": "Metaphorical Extension",
+          "note": "The metaphorical extension from a physical object ('trunk') to an abstract concept ('duration', 'lifespan') is a plausible, though in this specific case unattested, semantic development in a mystical text. The connection is the 'stock' or 'base' of one's existence."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "flag"
+    },
+    {
+      "hypothesis_ref": "S12.1",
+      "plausibility": "high",
+      "reasoning": "The phrase 'መናፍስት፡ ይመልዕ፡ ምድረ፡ መንፈሰሳተ' (manāfǝst yǝmalǝʿ mǝdra manfasasāta) at the end of the Trisagion is syntactically and morphologically problematic. The form 'መንፈሰሳተ' (manfasasāta) is unattested and appears to be a corruption. The phrase deviates significantly from the biblical source (Isaiah 6:3), which has 'the whole earth is full of his glory'. The repetition of 'spirits' (መናፍስት) likely stems from a scribal error influenced by the preceding title 'Lord of Spirits' (እግዚአ፡ መናፍስት). The text as it stands is likely corrupt.",
+      "parallels": [
+        {
+          "ref": "Isaiah 6:3 (LXX/Ge'ez Bible)",
+          "note": "The standard text of the Sanctus ends with 'πλήρης πᾶσα ἡ γῆ τῆς δόξης αὐτοῦ' (the whole earth is full of his glory) or the Ge'ez equivalent. The Enochic version's substitution of 'glory' with a garbled form of 'spirits' is a major, and likely corrupt, deviation."
+        }
+      ],
+      "context_invariance": "unstable",
+      "back_translation": "fail"
+    }
+  ],
+  "decision_log": "The evaluation focused on three key points of syntactic and semantic difficulty. For 39:1, the idiomatic use of 'ወ፩ይከውን' ('and will become one') was confirmed through parallels (Gen 2:24), making it the most plausible reading over a scribal error hypothesis. For 39:10, the rare word 'ጕንዱየ' presents significant uncertainty. While conjectural emendation is an option (S10.1), the decision was made to favor the manuscript reading and interpret it metaphorically as 'my duration/lot' (S10.2), acknowledging this is an unattested extension of the root's meaning. This maintains textual integrity but lowers confidence. For 39:12, the end of the verse is judged to be textually corrupt (S12.1). The form 'መንፈሰሳተ' is unparalleled, and the phrase breaks the established pattern of the Trisagion. The corruption is likely influenced by the book's key epithet 'Lord of Spirits'. A literal translation is nonsensical, and any fluent translation requires emendation or significant interpretive glossing. Uncertainty here is very high.",
+  "final_decision": {
+    "verse_39:1": {
+      "hypothesis_ref": "S1.1",
+      "translation": "and their seed will become one with the children of men.",
+      "confidence": "high"
+    },
+    "verse_39:10": {
+      "hypothesis_ref": "S10.2",
+      "translation": "And my eyes saw my duration [or: lot] in that place,",
+      "confidence": "low"
+    },
+    "verse_39:12": {
+      "hypothesis_ref": "S12.1",
+      "translation": "Holy, Holy, Holy is the Lord of Spirits; the spirits fill the earth of spirits [text likely corrupt].",
+      "confidence": "very_low"
+    }
+  }
+}
+```

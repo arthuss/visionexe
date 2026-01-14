@@ -19,7 +19,7 @@ Goals:
 - Sync is handled by the audio pipeline; drivers are just sources.
 
 3) Video Synthesis
-- Wan/Flux video generation uses start/end/keyframes.
+- LTX v2 video generation uses declarative prompts; start frames are optional (T2V preferred, I2V for continuity).
 
 4) Post Comp
 - Relight, layered split, and overlays (badges/UI) are applied here.
@@ -70,6 +70,7 @@ Example:
 Notes:
 - director_intent should be a single, strong sentence (no tags).
 - start_image_keywords are short prompt triggers for start image LoRAs.
+- camera_motion/camera_lora indicate LTX camera-control LoRAs (static/dolly/jib).
 - reference_footage is optional and should only guide lighting/motion.
 - overlay_badge is for on-screen UI/branding elements.
 

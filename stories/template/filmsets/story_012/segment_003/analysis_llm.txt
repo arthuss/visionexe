@@ -1,12 +1,176 @@
 ```json
 {
-  "actors": [],
+  "actors": [
+    {
+      "name": "Enoch",
+      "visualTraits": {
+        "description": "A man who was hidden from humanity and lived with celestial beings."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Hidden Prophet",
+          "description": "Was hidden from the children of men, his location and fate unknown to them."
+        },
+        {
+          "phase": "Phase 2: Scribe of Righteousness",
+          "description": "Identified and called upon by the Watchers as 'Enoch the scribe' and 'scribe of righteousness', tasked with delivering a divine message."
+        }
+      ],
+      "role": "actor"
+    },
+    {
+      "name": "The Great Lord",
+      "visualTraits": {
+        "description": "A divine being, also referred to as the 'King of the world', whom Enoch blesses."
+      },
+      "changes": [],
+      "role": "actor"
+    }
+  ],
+  "characters": [
+    {
+      "name": "children of men",
+      "visualTraits": {
+        "description": "Humanity in general, from whom Enoch was hidden."
+      },
+      "changes": [],
+      "role": "character"
+    },
+    {
+      "name": "Holy Ones",
+      "visualTraits": {
+        "description": "A group of celestial beings with whom Enoch associated."
+      },
+      "changes": [],
+      "role": "character"
+    },
+    {
+      "name": "Watchers (loyal)",
+      "visualTraits": {
+        "description": "A group of celestial beings who remained in heaven and commissioned Enoch."
+      },
+      "changes": [],
+      "role": "character"
+    },
+    {
+      "name": "Watchers (fallen)",
+      "visualTraits": {
+        "description": "The Watchers of heaven who descended to Earth."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Celestial",
+          "description": "Resided in the 'high heaven' and 'the holy eternal place'."
+        },
+        {
+          "phase": "Phase 2: Fallen and Defiled",
+          "description": "Left heaven, descended to Earth, defiled themselves with women, and caused great destruction."
+        }
+      ],
+      "role": "character"
+    },
+    {
+      "name": "women",
+      "visualTraits": {
+        "description": "Human women taken as wives by the fallen Watchers."
+      },
+      "changes": [],
+      "role": "character"
+    },
+    {
+      "name": "children of the Watchers",
+      "visualTraits": {
+        "description": "The offspring of the fallen Watchers and human women, referred to as 'their children' and 'their beloved ones'."
+      },
+      "changes": [],
+      "role": "character"
+    }
+  ],
   "props": [],
+  "places": [
+    {
+      "name": "high heaven",
+      "visualTraits": {
+        "description": "The celestial dwelling place which the fallen Watchers abandoned."
+      },
+      "changes": [],
+      "role": "place"
+    },
+    {
+      "name": "the holy eternal place",
+      "visualTraits": {
+        "description": "A sacred and eternal station, seemingly synonymous with or part of high heaven, which the fallen Watchers left."
+      },
+      "changes": [],
+      "role": "place"
+    },
+    {
+      "name": "the earth",
+      "visualTraits": {
+        "description": "The terrestrial realm where the fallen Watchers descended, caused destruction, and are denied peace."
+      },
+      "changes": [],
+      "role": "place"
+    }
+  ],
+  "locations": [],
   "environments": [],
-  "scenes": [],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Hidden Life of Enoch",
+      "location": "Unknown (hidden from humanity)",
+      "action": "The narrator recounts that before these events, Enoch was taken and hidden from mankind, living his days among the Holy Ones and the Watchers.",
+      "actorsInvolved": [
+        "Enoch",
+        "children of men",
+        "Holy Ones",
+        "Watchers (loyal)"
+      ]
+    },
+    {
+      "title": "The Commission of Enoch",
+      "location": "Celestial Realm (implied)",
+      "action": "While Enoch is blessing the Lord, the loyal Watchers call to him, addressing him as 'Enoch the scribe', and command him to deliver a message to their fallen brethren.",
+      "actorsInvolved": [
+        "Enoch",
+        "The Great Lord",
+        "Watchers (loyal)"
+      ]
+    },
+    {
+      "title": "The Judgment on the Fallen",
+      "location": "the earth (as subject of the message)",
+      "action": "The message for the fallen Watchers is detailed: they will have no peace or forgiveness on Earth, they will witness the slaughter of their children, and their eternal supplication will not bring them mercy.",
+      "actorsInvolved": [
+        "Enoch",
+        "Watchers (fallen)",
+        "women",
+        "children of the Watchers"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "celestial_realm",
+        "description": "The implied location where Enoch is with the loyal Watchers when he receives his commission."
+      },
+      {
+        "id": "earth_location",
+        "description": "The implied location on Earth where the fallen Watchers reside and where Enoch is to deliver his message."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Enoch",
+        "start_anchor": "celestial_realm",
+        "end_anchor": "earth_location",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Enoch is commanded to 'go' (ሑር) to deliver a message to the fallen Watchers who are on the Earth."
+      }
+    ]
   }
 }
 ```

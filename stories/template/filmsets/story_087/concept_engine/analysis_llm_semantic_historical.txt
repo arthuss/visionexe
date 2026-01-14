@@ -1,0 +1,42 @@
+```json
+{
+  "evaluation": [
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "high",
+      "reasoning": "This hypothesis posits that the phrase in 87:2, '¡ርባዕቱ፡ወፅኡ... ወሰለስቱ፡ ምስሌሁሙ' ('four came out... and three with them'), describes a total of four figures appearing sequentially (1+3), not seven (4+3). This reading is strongly supported by the immediate context of verse 87:3, which specifies 'those three who came out last/afterwards' ('እሙንቱ፡፫እለ፡ወፅኡ፡ድኅረ'). The adverb 'ድኅረ' (dəḥra, 'after/last') makes a sequential appearance almost certain. The plural suffix '-ሁሙ' (-humu, 'them') in 'ምስሌሁሙ' (məslehəmu), which causes the ambiguity, is consistently attested in major manuscripts, making a simple scribal error for singular '-ሁ' (-hu, 'him') less likely than a 'constructio ad sensum' (agreement with the implied group/mission) or a literal but awkward translation of a lost source text. Given the narrative clarification in v.3, this hypothesis provides the most coherent reading of the passage as a whole.",
+      "parallels": [
+        {
+          "ref": "1 Enoch 87:3",
+          "note": "The phrase 'ወእሙንቱ፡፫እለ፡ወፅኡ፡ድኅረ' ('And those three who came out last') serves as the primary internal evidence, clarifying the sequence implied in the preceding verse."
+        },
+        {
+          "ref": "Unattested",
+          "note": "A direct grammatical parallel where 'four... and three with them' is idiomatically used to mean a total of four is not attested. The argument relies on contextual inference over syntactic precedent."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    },
+    {
+      "hypothesis_ref": "H3d",
+      "plausibility": "moderate",
+      "reasoning": "This hypothesis addresses the difficult final clause of 87:3, 'ወœነ፡ሕፁፀ፡÷ሉ፡ ውግር' (wa-qoma ḥəṣuṣa qolu wəgər). It proposes that the subject of the verb 'qoma' (it stood) is 'qolu wəgər' (the whole hill), not the tower mentioned previously. The meaning would be: 'And the whole hill stood low.' This resolves the semantic contradiction of a 'high tower' ('ማኅፈደ፡ነዋኃ') being described as 'low' ('ሕፁፀ'). The interpretation describes the perspective from the high tower, from which the hills below would appear low. Syntactically, this requires reading 'ḥəṣuṣa' (accusative) as a predicative accusative of state, a construction that is attested in Ge'ez grammar, though less common than a nominative predicate. This reading is preferable to emending the text or accepting a logical contradiction.",
+      "parallels": [
+        {
+          "ref": "Dillmann, A. 'Ethiopic Grammar,' 1907, §173.c",
+          "note": "Provides grammatical attestation for the use of a predicative accusative to define a state or condition, which is the key syntactic feature required by this hypothesis."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "pass"
+    }
+  ],
+  "decision_log": "The evaluation focused on two main cruxes. For 87:2, the phrase 'four came out... and three with them' literally suggests seven figures, but this creates a narrative inconsistency with 87:3, which refers to 'the three who came out last.' Hypothesis S2, which argues for a 1+3=4 sequence, is adopted as it harmonizes the verses, treating the awkward syntax as a 'constructio ad sensum' or translation artifact. For 87:3, the clause 'and it stood low, all the hill' presents a semantic contradiction, as a 'high tower' was just mentioned. Hypothesis H3d resolves this by interpreting the clause as a description of the view from the tower ('and the whole hill stood low'). This relies on a plausible, if uncommon, syntactic construction (predicative accusative of state) and is superior to emendation. Uncertainty for H3d is 'moderate' due to the syntactic rarity, but its semantic elegance makes it the preferred reading.",
+  "final_decision": {
+    "hypothesis_ref": "S2",
+    "translation_id": "T1",
+    "confidence": "moderate"
+  }
+}
+```

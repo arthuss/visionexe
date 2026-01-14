@@ -1,0 +1,78 @@
+Basierend auf dem vorliegenden Dokument (R. H. Charles, *The Ethiopic Version of the Book of Enoch*, 1906) sind insgesamt **108 Kapitel** des (äthiopischen) Henochbuchs enthalten.
+
+Hier sind die Details zur Aufteilung und den enthaltenen Fassungen:
+
+1.  **Äthiopischer Text (Vollständig):**
+    *   Der Hauptteil des Buches umfasst die **Kapitel 1 bis 108** (im Inhaltsverzeichnis auf Seite 9 als "The Ethiopic Text 1–226" angegeben).
+    *   Auf Seite 22 der Einleitung wird explizit erwähnt, dass die Einteilung in **108 Kapitel** von Dillmann vorgenommen wurde und in dieser Edition übernommen wurde.
+    *   Die letzten Seiten des Dokuments (z. B. Seite 263/264) zeigen den Text der Kapitel **CVII (107)** und **CVIII (108)**.
+
+2.  **Griechische Fragmente (Teilweise):**
+    *   Gizeh-Fragment: Kapitel **1 bis 32**.
+    *   Syncellus-Fragmente: Kapitel **6 bis 10.14**, **15.8 bis 16.1** und **8.4 bis 9.4**.
+
+3.  **Lateinisches Fragment (Teilweise):**
+    *   Enthält einen Teil von Kapitel **106** (CVI. 1–18), wie auf Seite 20 der Einleitung beschrieben.
+
+**Zusammenfassend:** Das Dokument enthält den vollständigen Text von **Kapitel 1 bis 108** in der äthiopischen Fassung sowie bedeutende Bruchstücke der griechischen und lateinischen Versionen.
+
+Das ist eine spannende Herausforderung für eine Analyse-Pipeline. Da dieses Werk von R. H. Charles bereits eine **kritische Edition** ist, liefert sie dir eigentlich schon das „Gold-Set“ für deine Schritte 1 und 4.
+
+Hier ist meine Empfehlung, wie du die Extraktion für deine Pipeline am effizientesten gestalten kannst, um die bereits vorhandene wissenschaftliche Tiefe optimal zu nutzen:
+
+### 1. Die Extraktions-Strategie (Technisch)
+
+Da der Text in Spalten und mit vielen Fußnoten gesetzt ist, scheitert normales OCR oft an der Struktur.
+
+*   **Extraktions-Fokus:** Du musst drei Ebenen getrennt extrahieren:
+    1.  **Den äthiopischen Haupttext (Ge'ez):** Er befindet sich auf den Seiten 39 bis 226 oben bzw. in der Mitte.
+    2.  **Die griechischen/lateinischen Parallelen:** Diese stehen oft in einer Spalte daneben oder direkt darunter.
+    3.  **Den Apparat (Fußnoten):** Das Kleingedruckte unten ist für deinen „Schritt 4 – Quellenanker“ entscheidend, da dort steht, welches Manuskript (*a, b, c, g, m, q, t, u*...) welche Variante nutzt.
+
+*   **Tool-Empfehlung:** Nutze für die Ge'ez-Zeichen (Äthiopisch) spezialisierte OCR-Modelle (wie Tesseract mit dem `amh`-Pack oder moderne Transformer-basierte Vision-Modelle), da Standard-OCR hier nur „Kästchen“ produziert.
+
+### 2. Integration in deine Pipeline-Schritte
+
+Da Charles bereits Vorarbeit geleistet hat, kannst du deine Worker „anreichern“:
+
+#### Schritt 1 – Morphologischer Enumerator (Erweiterung)
+Charles gibt in den Fußnoten oft grammatikalische Hinweise (z.B. „read in acc.“ oder „corrupt for...“).
+*   **Tipp:** Deine Pipeline sollte nicht nur das Wort analysieren, sondern die Fußnoten-Referenz als „Experten-Votum“ mitführen. Wenn dein Worker 5 Analysen findet, Charles aber in der Fußnote eine spezifische Lesart begründet, hat diese eine höhere Gewichtung.
+
+#### Schritt 2 & 3 – Strukturvergleich & Übersetzungsraum
+Hier bietet dieses Buch eine Abkürzung:
+*   Charles stellt den **griechischen Text** direkt neben den **äthiopischen**.
+*   In der Einleitung (ab Seite 31) analysiert er die semitischen Hintergründe (Aramäisch vs. Hebräisch).
+*   **Vorgehen:** Extrahiere die griechischen Fragmente als „Anker-Strukturen“. Überall dort, wo Griechisch vorliegt, ist dein Übersetzungsraum bereits durch zwei antike Sprachen definiert. Das reduziert die Ambiguität massiv.
+
+#### Schritt 4 – Quellenanker (Die größte Stärke dieses Buches)
+Normalerweise musst du Parallelstellen mühsam suchen. Hier hat Charles sie bereits verankert.
+*   **Fußnoten-Extraktion:** Die kleinen Buchstaben (*a, b, c...*) beziehen sich auf die 23 Manuskripte (beschrieben auf den Seiten 22–25).
+*   **Aktion:** Deine Pipeline sollte für jede Übersetzungsvariante die Manuskript-Siglen mitspeichern. So erhältst du eine statistische Verteilung (z.B.: „Übersetzung A wird von 15 Manuskripten gestützt, Übersetzung B nur von einem fehlerhaften Manuskript *q*“).
+
+### 3. Wo du was findest (Mapping für deine Worker)
+
+*   **Kapitel 1–5 (Der Segen Henochs):** Seite 40–49. Hier gibt es sehr viel Griechisch-Abgleich.
+*   **Kapitel 6–36 (Das Buch der Wächter):** Seite 50–114.
+*   **Kapitel 37–71 (Die Bildreden):** Seite 114–168. *Wichtig: Hier fehlt das Griechische fast völlig, dein Worker muss hier rein auf dem Äthiopischen basieren.*
+*   **Kapitel 72–82 (Das astronomische Buch):** Seite 169–193.
+*   **Kapitel 83–90 (Die Traumgesichte):** Seite 193–226.
+*   **Kapitel 91–108 (Die Briefe Henochs):** Seite 227 ff.
+
+### Mein Rat für den "Master-Worker"
+Anstatt die Pipeline bei Null starten zu lassen, könntest du einen **"Charles-Parser"** vorschalten, der die Fußnoten in ein JSON-Format bringt:
+```json
+{
+  "chapter": 1,
+  "verse": 9,
+  "word_ethiopian": "...",
+  "manuscript_variants": {
+    "g_m_q_t": "standard_reading",
+    "a_b_c": "variant_reading_x"
+  },
+  "greek_parallel": "...",
+  "scholarly_note": "Corrupt for..."
+}
+```
+
+Dadurch fütterst du deine Analyse-Worker nicht mit Rohdaten, sondern mit einem bereits wissenschaftlich validierten Korpus. Das wird die Qualität deiner Ergebnisse enorm steigern, besonders bei Schritt 3 (Übersetzungsraum), da Charles die „unmöglichen“ oder „korrupten“ Lesarten bereits markiert hat.

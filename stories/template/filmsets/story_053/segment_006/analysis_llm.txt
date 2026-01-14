@@ -1,47 +1,288 @@
 ```json
 {
   "actors": [
-    {"name": "ወእምድኅረ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ዝንቱ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ያስተርኢ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ጻድቅ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ወኅሩይ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ቤተ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ምስትጉቡ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ዚሁ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "እምይእዜ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ይትልኡ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ስሙ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "ለእግዚ", "visualTraits": null, "changes": null, "role": null},
-    {"name": "መናፍስት", "visualTraits": null, "changes": null, "role": null}
+    {
+      "name": "Enoch (narrator)",
+      "visualTraits": {
+        "description": "The observer of the vision, referred to as 'I' and 'my eyes'."
+      },
+      "changes": null,
+      "role": "protagonist"
+    },
+    {
+      "name": "Lord of Spirits",
+      "visualTraits": {
+        "description": "A divine being whose presence ('face') is a location from which sinners are removed."
+      },
+      "changes": null,
+      "role": "deity"
+    },
+    {
+      "name": "Satan",
+      "visualTraits": null,
+      "changes": null,
+      "role": "antagonist"
+    },
+    {
+      "name": "angel of peace",
+      "visualTraits": {
+        "description": "An angelic being who serves as a guide, walking with the narrator."
+      },
+      "changes": null,
+      "role": "guide"
+    }
   ],
-  "props": [],
-  "environments": [],
+  "characters": [
+    {
+      "name": "Dwellers of the Earth",
+      "visualTraits": {
+        "description": "All inhabitants of the dry land, sea, and islands."
+      },
+      "changes": null,
+      "role": "group"
+    },
+    {
+      "name": "Sinners",
+      "visualTraits": {
+        "description": "A group defined by their sinful works. They are destined for judgment."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: On Earth",
+          "description": "Living on the earth, performing sinful works."
+        },
+        {
+          "phase": "Phase 2: Judged",
+          "description": "Destroyed from the presence of the Lord of Spirits and driven from the face of His earth, existing in a state of eternal punishment without perishing."
+        }
+      ],
+      "role": "antagonist_group"
+    },
+    {
+      "name": "angels of punishment",
+      "visualTraits": {
+        "description": "A group of angels seen walking and preparing instruments of punishment."
+      },
+      "changes": null,
+      "role": "antagonist_group"
+    },
+    {
+      "name": "kings and the mighty",
+      "visualTraits": {
+        "description": "The powerful rulers of the earth, specifically targeted for destruction."
+      },
+      "changes": null,
+      "role": "antagonist_group"
+    },
+    {
+      "name": "the righteous and chosen",
+      "visualTraits": {
+        "description": "A group who will appear after the judgment and find rest."
+      },
+      "changes": null,
+      "role": "protagonist_group"
+    }
+  ],
+  "props": [
+    {
+      "name": "gifts and offerings",
+      "visualTraits": {
+        "description": "Items brought by the Dwellers of the Earth to the deep valley."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "instruments of Satan",
+      "visualTraits": {
+        "description": "Tools of punishment being prepared by the angels of punishment."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "Deep Valley",
+      "visualTraits": {
+        "description": "A valley described as deep and having a wide mouth, which never becomes full. It is the place of destruction for the kings and the mighty."
+      },
+      "changes": null,
+      "role": "location_of_judgment"
+    },
+    {
+      "name": "house of his congregation",
+      "visualTraits": {
+        "description": "A dwelling place for the righteous and chosen that will appear in the future."
+      },
+      "changes": null,
+      "role": "sanctuary"
+    },
+    {
+      "name": "fountain of water",
+      "visualTraits": {
+        "description": "The form that hills will take in the eschatological future."
+      },
+      "changes": null,
+      "role": "transformed_environment"
+    }
+  ],
+  "environments": [
+    {
+      "name": "dry land",
+      "visualTraits": null,
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "sea",
+      "visualTraits": null,
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "islands",
+      "visualTraits": null,
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "earth (of the Lord of Spirits)",
+      "visualTraits": {
+        "description": "The world from which sinners are driven."
+      },
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "mountains",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Present State",
+          "description": "Exist as mountains."
+        },
+        {
+          "phase": "Phase 2: Transformed State",
+          "description": "Become leveled, 'like the earth'."
+        }
+      ],
+      "role": "dynamic_setting"
+    },
+    {
+      "name": "hills",
+      "visualTraits": null,
+      "changes": [
+        {
+          "phase": "Phase 1: Present State",
+          "description": "Exist as hills."
+        },
+        {
+          "phase": "Phase 2: Transformed State",
+          "description": "Become like a fountain of water."
+        }
+      ],
+      "role": "dynamic_setting"
+    }
+  ],
+  "geo_environments": [
+    {
+      "name": "Gehenna_Data_Sink",
+      "visualTraits": {
+        "description": "A deep valley used for judgment, which receives offerings but never becomes full. Interpreted as the location of the 'Deep Valley'."
+      },
+      "changes": null,
+      "role": "location_of_judgment"
+    }
+  ],
   "scenes": [
     {
-      "title": "Chapter 53 Segment 6",
-      "location": null,
-      "action": null,
+      "title": "The Vision of the Insatiable Valley",
+      "location": "A vantage point overlooking the Deep Valley",
+      "action": "The narrator observes a deep, wide-mouthed valley that never fills, despite all the inhabitants of the world bringing offerings to it.",
       "actorsInvolved": [
-        "ወእምድኅረ",
-        "ዝንቱ",
-        "ያስተርኢ",
-        "ጻድቅ",
-        "ወኅሩይ",
-        "ቤተ",
-        "ምስትጉቡ",
-        "ዚሁ",
-        "እምይእዜ",
-        "ይትልኡ",
-        "ስሙ",
-        "ለእግዚ",
-        "መናፍስት"
+        "Enoch (narrator)",
+        "Dwellers of the Earth"
+      ]
+    },
+    {
+      "title": "The Fate of the Sinners",
+      "location": "Visionary space",
+      "action": "The narrator perceives the fate of sinners: they will be destroyed from the presence of the Lord of Spirits and driven from His earth into eternal punishment.",
+      "actorsInvolved": [
+        "Lord of Spirits",
+        "Sinners"
+      ]
+    },
+    {
+      "title": "Preparation for Judgment",
+      "location": "Visionary space",
+      "action": "The narrator sees angels of punishment preparing instruments for Satan. He asks his guide, the angel of peace, who the instruments are for, and is told they are for the kings and the mighty to be destroyed in the valley.",
+      "actorsInvolved": [
+        "Enoch (narrator)",
+        "angels of punishment",
+        "angel of peace",
+        "Satan",
+        "kings and the mighty"
+      ]
+    },
+    {
+      "title": "The Future Transformation",
+      "location": "Visionary space (depicting the future)",
+      "action": "The narrator learns that after the judgment, the house of the righteous will appear, mountains will be leveled, hills will become fountains, and the righteous will find rest.",
+      "actorsInvolved": [
+        "Lord of Spirits",
+        "the righteous and chosen",
+        "Sinners"
       ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "anchor_1",
+        "description": "The Deep Valley, which is the destination for offerings and judgment."
+      },
+      {
+        "id": "anchor_2",
+        "description": "The visionary path along which the narrator and angels move."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Dwellers of the Earth",
+        "start_anchor": null,
+        "end_anchor": "anchor_1",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Bringing gifts and offerings from all over the world to the Deep Valley."
+      },
+      {
+        "actor": "angels of punishment",
+        "start_anchor": "anchor_2",
+        "end_anchor": "anchor_2",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Walking within the visionary scene while preparing instruments."
+      },
+      {
+        "actor": "angel of peace",
+        "start_anchor": "anchor_2",
+        "end_anchor": "anchor_2",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Walking alongside the narrator."
+      },
+      {
+        "actor": "Enoch (narrator)",
+        "start_anchor": "anchor_2",
+        "end_anchor": "anchor_2",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Implied to be walking with the angel of peace."
+      }
+    ]
   }
 }
 ```

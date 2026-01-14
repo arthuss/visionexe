@@ -1,37 +1,204 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [
+  "actors": [
     {
-      "name": "ወርኅ",
-      "visualTraits": null,
+      "name": "Uriel",
+      "visualTraits": [
+        "holy angel"
+      ],
       "changes": null,
-      "role": "source of light"
+      "role": "guide"
     },
     {
-      "name": "ቀዳማዊ",
-      "visualTraits": null,
+      "name": "Enoch (narrator)",
+      "visualTraits": [
+        "human (implied)"
+      ],
       "changes": null,
-      "role": "time of day"
+      "role": "observer"
     },
     {
-      "name": "ዐባይ",
-      "visualTraits": null,
+      "name": "Lord",
+      "visualTraits": [
+        "divine being (implied)"
+      ],
       "changes": null,
-      "role": "sky"
-    },
-    {
-      "name": "ፀሐይ",
-      "visualTraits": null,
-      "changes": null,
-      "role": "sun"
+      "role": "commander"
     }
   ],
-  "scenes": [],
-  "blocking": {
-    "anchors": [],
-    "paths": []
-  }
-}
-```
+  "characters": [
+    {
+      "name": "Leaders of the stars",
+      "visualTraits": [
+        "celestial beings"
+      ],
+      "changes": null,
+      "role": "guides"
+    }
+  ],
+  "props": [
+    {
+      "name": "Book of the courses of the luminaries",
+      "visualTraits": [
+        "a book containing the laws, divisions, powers, times, names, origins, and months of the celestial luminaries"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Sun",
+      "visualTraits": [
+        "great luminary",
+        "circumference is like the circumference of heaven",
+        "full of illuminating and heating fire",
+        "light is seven times brighter than the moon"
+      ],
+      "changes": [
+        {
+          "phase": "Dynamic: Positional",
+          "description": "Continuously moves across the sky daily and shifts its rising/setting position through a series of twelve gates over the course of a year."
+        }
+      ],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Moon",
+      "visualTraits": [
+        "luminary"
+      ],
+      "changes": [
+        {
+          "phase": "Dynamic: Positional",
+          "description": "Rises and sets through the same gates as the sun."
+        }
+      ],
+      "role": "scene_prop"
+    },
+    {
+      "name": "Stars",
+      "visualTraits": [
+        "celestial bodies"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Chariot",
+      "visualTraits": [
+        "vehicle upon which the sun ascends"
+      ],
+      "changes": null,
+      "role": "actor_prop:Sun"
+    },
+    {
+      "name": "Wind",
+      "visualTraits": [
+        "motive force that drives the sun's chariot"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Flame",
+      "visualTraits": [
+        "issues from the windows of the fourth gate"
+      ],
+      "changes": null,
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Heaven",
+      "visualTraits": [
+        "celestial realm",
+        "contains gates in the east and west"
+      ],
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Eastern Gates",
+      "visualTraits": [
+        "six portals in the east of heaven through which the sun rises"
+      ],
+      "changes": null,
+      "role": "portal"
+    },
+    {
+      "name": "Western Gates",
+      "visualTraits": [
+        "six portals in the west of heaven through which the sun sets"
+      ],
+      "changes": null,
+      "role": "portal"
+    },
+    {
+      "name": "Fourth Gate",
+      "visualTraits": [
+        "A great gate in the east and west, containing twelve open windows from which flame issues when they are opened."
+      ],
+      "changes": null,
+      "role": "portal"
+    },
+    {
+      "name": "Fifth Gate",
+      "visualTraits": [
+        "A gate in the east and west used by the sun."
+      ],
+      "changes": null,
+      "role": "portal"
+    },
+    {
+      "name": "Sixth Gate",
+      "visualTraits": [
+        "A gate in the east and west used by the sun at the summer solstice."
+      ],
+      "changes": null,
+      "role": "portal"
+    },
+    {
+      "name": "Third Gate",
+      "visualTraits": [
+        "A gate in the east and west used by the sun."
+      ],
+      "changes": null,
+      "role": "portal"
+    },
+    {
+      "name": "Second Gate",
+      "visualTraits": [
+        "A gate in the east and west used by the sun."
+      ],
+      "changes": null,
+      "role": "portal"
+    },
+    {
+      "name": "First Gate",
+      "visualTraits": [
+        "A gate in the east and west used by the sun at the winter solstice."
+      ],
+      "changes": null,
+      "role": "portal"
+    },
+    {
+      "name": "The East",
+      "visualTraits": [
+        "The direction of sunrise, where the sun returns to after setting."
+      ],
+      "changes": null,
+      "role": "region"
+    },
+    {
+      "name": "The West",
+      "visualTraits": [
+        "The direction of sunset."
+      ],
+      "changes": null,
+      "role": "region"
+    }
+  ],
+  "environments": [
+    {

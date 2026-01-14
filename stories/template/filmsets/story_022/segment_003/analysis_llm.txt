@@ -2,102 +2,284 @@
 {
   "actors": [
     {
-      "name": "ሩፋኤል",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
+      "name": "Narrator",
+      "visualTraits": [
+        "The 'I' of the text"
+      ],
+      "changes": [],
+      "role": "protagonist"
     },
     {
-      "name": "እመቅዱሳን",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
+      "name": "Raphael",
+      "visualTraits": [
+        "One of the holy angels"
+      ],
+      "changes": [],
+      "role": "guide"
     },
     {
-      "name": "መላእት",
-      "visualTraits": null,
-      "changes": null,
-      "role": "angel"
+      "name": "Abel",
+      "visualTraits": [
+        "A spirit whose voice reaches to heaven and makes accusation"
+      ],
+      "changes": [],
+      "role": "figure_of_interest"
     },
     {
-      "name": "ምስሌየ",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
+      "name": "Cain",
+      "visualTraits": [
+        "Abel's brother"
+      ],
+      "changes": [],
+      "role": "antagonist_mentioned"
     },
     {
-      "name": "ወይቤለኒ",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
+      "name": "Lord of Glory",
+      "visualTraits": [
+        "Also referred to as 'my Lord' and 'Lord of Glory and Righteousness'"
+      ],
+      "changes": [],
+      "role": "deity"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Holy Angels",
+      "visualTraits": [
+        "The group to which Raphael belongs"
+      ],
+      "changes": [],
+      "role": "group"
     },
     {
-      "name": "ዝመናት",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
+      "name": "Spirits of the Dead",
+      "visualTraits": [
+        "Spirits of the souls of the children of men"
+      ],
+      "changes": [],
+      "role": "group"
     },
     {
-      "name": "ሠናያት",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
+      "name": "The Righteous",
+      "visualTraits": [
+        "Souls separated into a place with a spring of water and light"
+      ],
+      "changes": [],
+      "role": "group"
     },
     {
-      "name": "ዲቤሁ",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
+      "name": "Sinners",
+      "visualTraits": [
+        "Souls separated into a place of tribulation awaiting judgment"
+      ],
+      "changes": [],
+      "role": "group"
     },
     {
-      "name": "ለነፍሶሙ",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
+      "name": "Murdered Accusers",
+      "visualTraits": [
+        "Souls of those who were killed and now make accusation"
+      ],
+      "changes": [],
+      "role": "group"
     },
     {
-      "name": "ለምዉታን",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
+      "name": "Consummate Sinners",
+      "visualTraits": [
+        "Souls of those who were complete in sin",
+        "Will not be slain at judgment or raised from their place"
+      ],
+      "changes": [],
+      "role": "group"
     },
     {
-      "name": "ዝንቱ",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
+      "name": "The Lawless",
+      "visualTraits": [
+        "Companions of the consummate sinners"
+      ],
+      "changes": [],
+      "role": "group"
     },
     {
-      "name": "ዝየ",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
-    },
-    {
-      "name": "ነፍሰ",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
-    },
-    {
-      "name": "ውሉደ",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
-    },
-    {
-      "name": "ሰብእ",
-      "visualTraits": null,
-      "changes": null,
-      "role": null
+      "name": "Children of Men",
+      "visualTraits": [
+        "The living humans from whom the spirits of the dead originate"
+      ],
+      "changes": [],
+      "role": "group_mentioned"
     }
   ],
   "props": [],
-  "environments": [],
-  "scenes": [],
+  "places": [
+    {
+      "name": "Earth",
+      "visualTraits": [
+        "The surface from which Cain's seed is to be destroyed",
+        "Where sinners are buried"
+      ],
+      "changes": [],
+      "role": "origin_location"
+    },
+    {
+      "name": "Heaven",
+      "visualTraits": [
+        "The destination reached by the crying voice of Abel's spirit"
+      ],
+      "changes": [],
+      "role": "destination_location"
+    }
+  ],
+  "locations": [
+    {
+      "name": "Mountain in the West",
+      "visualTraits": [
+        "A great and high mountain",
+        "A hard rock"
+      ],
+      "changes": [],
+      "role": "setting"
+    },
+    {
+      "name": "Hollow for the Righteous",
+      "visualTraits": [
+        "One of four beautiful places",
+        "Deep, wide, and very smooth",
+        "Contains a spring of water",
+        "Contains light"
+      ],
+      "changes": [],
+      "role": "containment_area"
+    },
+    {
+      "name": "Hollow for Sinners Awaiting Judgment",
+      "visualTraits": [
+        "One of four beautiful places",
+        "Deep, wide, and very smooth",
+        "Dark to look at",
+        "A place of great tribulation"
+      ],
+      "changes": [],
+      "role": "containment_area"
+    },
+    {
+      "name": "Hollow for the Murdered Accusers",
+      "visualTraits": [
+        "One of four beautiful places",
+        "Deep, wide, and very smooth",
+        "Dark to look at"
+      ],
+      "changes": [],
+      "role": "containment_area"
+    },
+    {
+      "name": "Hollow for Consummate Sinners",
+      "visualTraits": [
+        "One of four beautiful places",
+        "Deep, wide, and very smooth",
+        "Dark to look at"
+      ],
+      "changes": [],
+      "role": "containment_area"
+    }
+  ],
+  "environments": [
+    {
+      "name": "The West",
+      "visualTraits": [
+        "The cardinal direction where the mountain is located"
+      ],
+      "changes": [],
+      "role": "directional_qualifier"
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "Arrival at the Mountain of the Dead",
+      "location": "A mountain in the west",
+      "action": "The Narrator travels to a new place and is shown a great, high mountain made of hard rock, containing four beautiful, deep, and wide hollows.",
+      "actorsInvolved": [
+        "Narrator"
+      ]
+    },
+    {
+      "title": "The Purpose of the Hollows",
+      "location": "Mountain in the West",
+      "action": "Raphael explains to the Narrator that the hollows were created to gather the spirits of the souls of all the children of men until their appointed time of judgment.",
+      "actorsInvolved": [
+        "Narrator",
+        "Raphael"
+      ]
+    },
+    {
+      "title": "The Crying Spirit",
+      "location": "Mountain in the West",
+      "action": "The Narrator sees the spirits of the dead and hears one voice crying out and accusing, its sound reaching to heaven. He asks Raphael who this spirit is.",
+      "actorsInvolved": [
+        "Narrator",
+        "Raphael"
+      ],
+      "charactersInvolved": [
+        "Spirits of the Dead"
+      ]
+    },
+    {
+      "title": "The Accusation of Abel",
+      "location": "Mountain in the West",
+      "action": "Raphael reveals the crying spirit is Abel, who was murdered by his brother Cain. Abel's spirit accuses Cain until his lineage is destroyed from the face of the earth.",
+      "actorsInvolved": [
+        "Narrator",
+        "Raphael",
+        "Abel",
+        "Cain"
+      ]
+    },
+    {
+      "title": "The Fourfold Division of Souls",
+      "location": "The four hollows within the Mountain in the West",
+      "action": "In response to the Narrator's question about the separation of spirits, Raphael details the four distinct holding places: one for the righteous with light and a spring of water; one for sinners who died without judgment and now await it in great tribulation; one for the souls of the murdered who make accusation; and one for consummate sinners who will never be raised.",
+      "actorsInvolved": [
+        "Narrator",
+        "Raphael"
+      ],
+      "charactersInvolved": [
+        "The Righteous",
+        "Sinners",
+        "Murdered Accusers",
+        "Consummate Sinners"
+      ]
+    },
+    {
+      "title": "Blessing the Lord of Glory",
+      "location": "Mountain in the West",
+      "action": "Having understood the system of judgment, the Narrator blesses the Lord of Glory and Righteousness, who reigns over all forever.",
+      "actorsInvolved": [
+        "Narrator",
+        "Lord of Glory"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "previous_location",
+        "description": "The unspecified location from which the Narrator departed at the start of the segment."
+      },
+      {
+        "id": "mountain_in_west",
+        "description": "The location of the great mountain with the hollows for the dead."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Narrator",
+        "start_anchor": "previous_location",
+        "end_anchor": "mountain_in_west",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "Explicit movement from a prior location to the new one: 'And from there I went to another place' (22:1)."
+      }
+    ]
   }
 }
 ```

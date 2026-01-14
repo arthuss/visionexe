@@ -1,0 +1,15 @@
+An analysis of the provided tokenization instructions reveals a conflict: the `tokens` array in the input JSON lists entire verses as single tokens, while the `tokenization_policy` is specified as "whitespace". Performing a morphological analysis on a whole verse as a single token is not linguistically meaningful. To fulfill the core scientific goal of the task, a decision was made to re-tokenize the input text based on the specified "whitespace" policy. This involves splitting the text into individual words and punctuation-marked units, which is the standard prerequisite for morphological analysis. The verse markers (e.g., "52:1") are treated as distinct tokens as per the input format.
+
+```json
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2024-05-06T14:30:00Z",
+    "created_by": "llm",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_052",
+    "graphematic_string": "52:1 ወእምድኅረ፡​እማንቱ፡​መዋዕል፡​በውእቱ፡​መካን፡​ኀበ፡​ርኢኩ፡​ኵሎ፡​ራእየተ፡​ዘኅቡ

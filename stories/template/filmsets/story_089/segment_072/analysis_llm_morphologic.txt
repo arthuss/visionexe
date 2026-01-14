@@ -1,0 +1,11 @@
+An analysis of the provided Ge'ez text according to the specified scientific rules.
+
+**Methodological Note:**
+
+The provided tokenization, based on whitespace, results in tokens that are frequently multi-word phrases, sentence fragments, or words combined with punctuation. The instruction to "use the provided tokens as-is; do not create or merge tokens" is a primary constraint. A single token that represents multiple words (e.g., `ሖረ፡ኀÅ፡እልኩ፡¡ልህምት፡`) cannot be assigned a single, valid morphological analysis (one POS, one root, one lemma).
+
+Therefore, the following rigorous procedure was applied:
+1.  Each token was evaluated to determine if it constitutes a single, analyzable morphological unit (a word, potentially with affixes or clitics).
+2.  Tokens that are multi-word phrases (identifiable by internal `፡` word separators), combinations of words and punctuation (`፨`, `።`, `፧`), non-Ge'ez text, or solely punctuation marks were deemed unanalyzable as single morphological units. For these tokens, a single option with `confidence.type: "ruled_out"` is provided, with a note explaining the reason. This is the only scientifically honest approach that respects the "graphematic fidelity" and "do not split tokens" rules.
+3.  For the few tokens that represent a single Ge'ez word, a full morphological analysis was performed.
+4.  Textual irregularities such as `¡` (analyzed as `አ`), `œ` (analy

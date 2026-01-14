@@ -1,0 +1,15 @@
+An extremely rigorous, scientific morphological analysis of the provided Ge'ez text has been performed according to the specified rules (Level B). The analysis adheres strictly to the provided tokenization, even where it appears to be a concatenation of multiple words, and maintains graphematic fidelity, including non-standard characters and lacunae. Each option provides a detailed breakdown at the Graphematic, Morphemic, and Lexical layers, with evidence and confidence levels as required.
+
+```json
+{
+  "meta": {
+    "schema_version": "1.0.0",
+    "created_at": "2024-07-29T12:00:00Z",
+    "created_by": "llm",
+    "language": "gez",
+    "tagset_id": "GEZ-POS-1",
+    "tokenization_policy": "whitespace"
+  },
+  "source": {
+    "witness_id": "story_098",
+    "graphematic_string": "98:1 ወይእዜኒ፡¡ነ፡እምሕል፡ለŒሙ፡ ለጠቢባን፡ወለ¡ብዳን፡እስመ፡ ብዙኀ፡ትሬእዩ፡ዲÅ፡ምድር፡\n98:2 እስመ፡ስነ፡ትወድዩ፡ላዕሌŒሙ፡ ንትሙ፡ዕደው፡ፈድፋደ፡ እም¡ንስት፡ወሕብረ፡ፈድ

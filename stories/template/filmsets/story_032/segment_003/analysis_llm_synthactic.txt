@@ -1,0 +1,19 @@
+An analysis of the provided Ge'ez text from the Book of Enoch (32:1-6) is performed below, adhering to the specified scientific rules. The analysis enumerates all syntactically valid parses for ambiguous constructions without semantic reduction, uses the provided tokenization, and employs formal bracket notation to represent the syntactic structures.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "p_t1_1",
+        "token_id": "t1",
+        "structure_type": "Label",
+        "bracket_notation": "[LBL t1]",
+        "dependencies": [],
+        "notes": "Verse number, treated as a non-syntactic label."
+      },
+      {
+        "id": "p_t2_1",
+        "token_id": "t2",
+        "structure_type": "Sentence",
+        "bracket_notation": "[S [AdvP [P ወእምድኅረ] [NP [Det እሉ] [N አፈው [Gen [PP [P ל] [N መስዕ]]]]]] [S_circ [Conj እንዘ] [VP [V እኔጽር] [PP [P መልዕልተ] [N አድባር]]]] [VP [V ርኢኩ] [Obj [NP [Num ፯] [N አድባረ] [AdjP [Adj ምሉኣነ] [Gen [N ሰንበል

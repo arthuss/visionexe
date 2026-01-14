@@ -1,12 +1,282 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [],
-  "scenes": [],
+  "actors": [
+    {
+      "name": "The Elect One",
+      "visualTraits": [
+        "Glorified by the Lord of Spirits"
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Pre-manifestation",
+          "description": "State before arising and taking his throne."
+        },
+        {
+          "phase": "Phase 2: Enthroned Judge",
+          "description": "Has arisen, sits upon his throne of glory, and speaks with wisdom given by the Lord of Spirits."
+        }
+      ],
+      "role": "Central figure of judgment and salvation."
+    },
+    {
+      "name": "Lord of Spirits",
+      "visualTraits": [],
+      "changes": [],
+      "role": "Ultimate authority who empowers and glorifies the Elect One."
+    }
+  ],
+  "characters": [
+    {
+      "name": "destruction",
+      "visualTraits": [],
+      "changes": [
+        {
+          "phase": "Phase 1: Holding debt",
+          "description": "A personified force that holds a debt."
+        },
+        {
+          "phase": "Phase 2: Releasing debt",
+          "description": "Returns that which it owes."
+        }
+      ],
+      "role": "Personified force that must release its claim."
+    },
+    {
+      "name": "the righteous",
+      "visualTraits": [],
+      "changes": [
+        {
+          "phase": "Phase 1: Among the dead",
+          "description": "Held within the Earth or Sheol."
+        },
+        {
+          "phase": "Phase 2: Saved and on Earth",
+          "description": "Chosen for salvation and now dwell upon the Earth."
+        }
+      ],
+      "role": "A group of people chosen for salvation."
+    },
+    {
+      "name": "the holy",
+      "visualTraits": [],
+      "changes": [
+        {
+          "phase": "Phase 1: Among the dead",
+          "description": "Held within the Earth or Sheol."
+        },
+        {
+          "phase": "Phase 2: Saved",
+          "description": "Chosen for salvation."
+        }
+      ],
+      "role": "A group of people chosen for salvation alongside the righteous."
+    },
+    {
+      "name": "all the angels",
+      "visualTraits": [
+        "Faces shine with joy"
+      ],
+      "changes": [],
+      "role": "Celestial beings who rejoice."
+    },
+    {
+      "name": "the elect",
+      "visualTraits": [],
+      "changes": [
+        {
+          "phase": "Phase 1: Unspecified",
+          "description": "State before the final events."
+        },
+        {
+          "phase": "Phase 2: Inhabiting the Earth",
+          "description": "Walk and tread upon the Earth."
+        }
+      ],
+      "role": "A group of people who inhabit the renewed Earth."
+    }
+  ],
+  "props": [
+    {
+      "name": "deposit",
+      "visualTraits": [
+        "A metaphor for the dead held by Earth and Sheol."
+      ],
+      "changes": [],
+      "role": "scene_prop"
+    },
+    {
+      "name": "throne",
+      "visualTraits": [],
+      "changes": [],
+      "role": "actor_prop:The Elect One"
+    },
+    {
+      "name": "secrets of wisdom",
+      "visualTraits": [
+        "Described as issuing from the mouth of the Elect One."
+      ],
+      "changes": [],
+      "role": "scene_prop"
+    }
+  ],
+  "places": [
+    {
+      "name": "Earth",
+      "visualTraits": [
+        "Personified as a being with a 'deposit' (womb)."
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Holding the dead",
+          "description": "Contains the dead within it."
+        },
+        {
+          "phase": "Phase 2: Releasing and rejoicing",
+          "description": "Returns its deposit and rejoices. Becomes the dwelling place for the righteous."
+        }
+      ],
+      "role": "A primary setting and personified entity."
+    },
+    {
+      "name": "Sheol",
+      "visualTraits": [
+        "Personified as a being with a 'deposit' (womb)."
+      ],
+      "changes": [
+        {
+          "phase": "Phase 1: Holding the dead",
+          "description": "Contains the dead it has received."
+        },
+        {
+          "phase": "Phase 2: Releasing the dead",
+          "description": "Returns its deposit."
+        }
+      ],
+      "role": "The realm of the dead."
+    },
+    {
+      "name": "heaven",
+      "visualTraits": [],
+      "changes": [],
+      "role": "The dwelling place of the angels."
+    }
+  ],
+  "locations": [],
+  "environments": [
+    {
+      "name": "those days",
+      "visualTraits": [],
+      "changes": [],
+      "role": "Temporal setting for the eschatological events."
+    },
+    {
+      "name": "mountains",
+      "visualTraits": [],
+      "changes": [
+        {
+          "phase": "Phase 1: Static",
+          "description": "Normal geological state."
+        },
+        {
+          "phase": "Phase 2: Dynamic",
+          "description": "Leap like rams in joy."
+        }
+      ],
+      "role": "Part of the rejoicing landscape."
+    },
+    {
+      "name": "hills",
+      "visualTraits": [],
+      "changes": [
+        {
+          "phase": "Phase 1: Static",
+          "description": "Normal geological state."
+        },
+        {
+          "phase": "Phase 2: Dynamic",
+          "description": "Skip like lambs in joy."
+        }
+      ],
+      "role": "Part of the rejoicing landscape."
+    }
+  ],
+  "geo_environments": [],
+  "scenes": [
+    {
+      "title": "The Surrender of the Dead",
+      "location": "Earth / Sheol",
+      "action": "The personified Earth, Sheol, and destruction return the dead they have been holding.",
+      "actorsInvolved": [
+        "destruction"
+      ]
+    },
+    {
+      "title": "The Enthronement of the Elect One",
+      "location": "unknown",
+      "action": "The Elect One arises, sits on his throne, and is glorified by the Lord of Spirits. He chooses the righteous and holy for salvation.",
+      "actorsInvolved": [
+        "The Elect One",
+        "Lord of Spirits",
+        "the righteous",
+        "the holy"
+      ]
+    },
+    {
+      "title": "Cosmic Rejoicing",
+      "location": "Earth / heaven",
+      "action": "In response to the Elect One's manifestation, mountains and hills leap and skip, and the angels' faces shine with joy.",
+      "actorsInvolved": [
+        "all the angels"
+      ]
+    },
+    {
+      "title": "The New Habitation",
+      "location": "Earth",
+      "action": "The Earth rejoices as the righteous and the elect dwell, walk, and tread upon it.",
+      "actorsInvolved": [
+        "The Elect One",
+        "the righteous",
+        "the elect"
+      ]
+    }
+  ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "throne",
+        "description": "The throne upon which the Elect One sits."
+      },
+      {
+        "id": "earth_surface",
+        "description": "The surface of the Earth where the righteous and elect live."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "The Elect One",
+        "start_anchor": "unknown",
+        "end_anchor": "throne",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "The text states he 'will sit upon his throne'."
+      },
+      {
+        "actor": "the righteous",
+        "start_anchor": "earth_surface",
+        "end_anchor": "earth_surface",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "The text states they 'will dwell upon it'."
+      },
+      {
+        "actor": "the elect",
+        "start_anchor": "earth_surface",
+        "end_anchor": "earth_surface",
+        "motion": "walk",
+        "duration_sec": null,
+        "notes": "The text states they 'will walk and tread upon it'."
+      }
+    ]
   }
 }
 ```

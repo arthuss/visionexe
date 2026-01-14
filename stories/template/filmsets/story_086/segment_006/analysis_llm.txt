@@ -1,26 +1,232 @@
 ```json
 {
-  "actors": [],
-  "props": [],
-  "environments": [
+  "actors": [
     {
-      "name": "earth",
-      "visualTraits": null,
+      "name": "Narrator",
+      "visualTraits": {
+        "description": "The first-person observer of the vision, who is dreaming/sleeping."
+      },
+      "changes": null,
+      "role": "narrator"
+    }
+  ],
+  "characters": [
+    {
+      "name": "Fallen Star (singular)",
+      "visualTraits": {
+        "description": "A single star that falls from the sky."
+      },
+      "changes": null,
+      "role": "antagonist"
+    },
+    {
+      "name": "Bulls",
+      "visualTraits": {
+        "description": "A herd of bulls, some of which are described as large and black. They possess horns and teeth."
+      },
+      "changes": null,
+      "role": "victim"
+    },
+    {
+      "name": "Fallen Stars (plural)",
+      "visualTraits": {
+        "description": "A group of stars that fall from the sky."
+      },
+      "changes": [
+        {
+          "phase": "Phase 1: Celestial",
+          "description": "Appeared as bright stars in the sky."
+        },
+        {
+          "phase": "Phase 2: Terrestrial",
+          "description": "After falling to earth, they revealed having private parts like those of horses."
+        }
+      ],
+      "role": "antagonist"
+    },
+    {
+      "name": "Cows",
+      "visualTraits": {
+        "description": "Female cattle (heifers) who are part of the herd."
+      },
+      "changes": null,
+      "role": "victim"
+    },
+    {
+      "name": "Elephants",
+      "visualTraits": {
+        "description": "Monstrous offspring born from the union of the Fallen Stars and the Cows."
+      },
+      "changes": null,
+      "role": "antagonist"
+    },
+    {
+      "name": "Camels",
+      "visualTraits": {
+        "description": "Monstrous offspring born from the union of the Fallen Stars and the Cows."
+      },
+      "changes": null,
+      "role": "antagonist"
+    },
+    {
+      "name": "Asses",
+      "visualTraits": {
+        "description": "Monstrous offspring born from the union of the Fallen Stars and the Cows."
+      },
+      "changes": null,
+      "role": "antagonist"
+    },
+    {
+      "name": "Children of the Earth",
+      "visualTraits": {
+        "description": "Humans who witness the events and react with fear."
+      },
+      "changes": null,
+      "role": "observer"
+    }
+  ],
+  "props": [
+    {
+      "name": "Stall",
+      "visualTraits": {
+        "description": "The enclosure or manger for the cattle, which the bulls changed."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Pasture",
+      "visualTraits": {
+        "description": "The grazing ground for the cattle, which the bulls changed."
+      },
+      "changes": null,
+      "role": "scene_prop"
+    },
+    {
+      "name": "Horns",
+      "visualTraits": {
+        "description": "The horns of the bulls, used to gore."
+      },
+      "changes": null,
+      "role": "actor_prop:Bulls"
+    },
+    {
+      "name": "Teeth",
+      "visualTraits": {
+        "description": "The teeth of the bulls, which they grind in aggression."
+      },
+      "changes": null,
+      "role": "actor_prop:Bulls"
+    }
+  ],
+  "places": [],
+  "locations": [
+    {
+      "name": "Among the cattle",
+      "visualTraits": {
+        "description": "The area within the herd of bulls and cows where the stars land and graze."
+      },
       "changes": null,
       "role": "setting"
     }
   ],
+  "environments": [
+    {
+      "name": "Sky / Heaven",
+      "visualTraits": {
+        "description": "The celestial expanse from which the stars fall."
+      },
+      "changes": null,
+      "role": "setting"
+    },
+    {
+      "name": "Earth",
+      "visualTraits": {
+        "description": "The terrestrial setting where the events unfold, inhabited by cattle and the 'Children of the Earth'."
+      },
+      "changes": null,
+      "role": "setting"
+    }
+  ],
+  "geo_environments": [],
   "scenes": [
     {
-      "title": "Chapter 86 Segment 6",
-      "location": null,
-      "action": "chant",
-      "actorsInvolved": null
+      "title": "The Corruption of the Herd",
+      "location": "Earth",
+      "action": "A star falls from the sky and joins a herd of bulls. More bright stars fall, reveal horse-like sexual organs, mount the cows, and cause them to give birth to elephants, camels, and asses.",
+      "actorsInvolved": [
+        "Narrator",
+        "Fallen Star (singular)",
+        "Bulls",
+        "Fallen Stars (plural)",
+        "Cows",
+        "Elephants",
+        "Camels",
+        "Asses"
+      ]
+    },
+    {
+      "title": "The Devouring",
+      "location": "Earth",
+      "action": "The bulls, terrified of the monstrous offspring, react with aggression by goring and grinding their teeth. The offspring then begin to devour the bulls, causing the Children of the Earth to tremble, quake, and flee.",
+      "actorsInvolved": [
+        "Bulls",
+        "Elephants",
+        "Camels",
+        "Asses",
+        "Children of the Earth"
+      ]
     }
   ],
   "blocking": {
-    "anchors": [],
-    "paths": []
+    "anchors": [
+      {
+        "id": "sky",
+        "description": "The sky, from which the stars originate."
+      },
+      {
+        "id": "herd_center",
+        "description": "The area on the ground in the midst of the herd of cattle."
+      },
+      {
+        "id": "observation_point",
+        "description": "The implied location on the ground from which the Children of the Earth witness the events."
+      }
+    ],
+    "paths": [
+      {
+        "actor": "Fallen Star (singular)",
+        "start_anchor": "sky",
+        "end_anchor": "herd_center",
+        "motion": "fall",
+        "duration_sec": null,
+        "notes": "A single star fell from the sky."
+      },
+      {
+        "actor": "Fallen Stars (plural)",
+        "start_anchor": "sky",
+        "end_anchor": "herd_center",
+        "motion": "fall",
+        "duration_sec": null,
+        "notes": "Bright stars fell and were thrown down into the midst of the cattle."
+      },
+      {
+        "actor": "Fallen Stars (plural)",
+        "start_anchor": "herd_center",
+        "end_anchor": "herd_center",
+        "motion": "unknown",
+        "duration_sec": null,
+        "notes": "Began to mount the cows."
+      },
+      {
+        "actor": "Children of the Earth",
+        "start_anchor": "observation_point",
+        "end_anchor": "unknown",
+        "motion": "run",
+        "duration_sec": null,
+        "notes": "Began to tremble, quake, and flee from the monstrous offspring."
+      }
+    ]
   }
 }
 ```

@@ -28,16 +28,29 @@ Core data flow (minimal):
      `python engine/workers/extract_geez_verses_from_pdf.py --pdf docs/ethiopic_1enoch_p/Henoch_from_Geez_text.pdf --use-gemini --model gemini-3-pro-preview`
    - Segment integrity/self-heal (fills missing segment folders from verse files):
      `python engine/workers/segment_self_healer.py --story-config stories/template/config/story_config.json --verse-root docs/ethiopic_1enoch_p`
+     - Uses verse max (plus optional overrides) to backfill gaps + end segments and reports extras to the analysis report JSON.
+   - Refresh existing segment.txt files from verse sources:
+     `python engine/workers/segment_self_healer.py --story-config stories/template/config/story_config.json --verse-root docs/ethiopic_1enoch_p --refresh-existing`
    - Optional: run the Ge'ez linguistic analysis workers (Levels A-D) for graphematic/morphologic/synthactic/semantic-historical passes. See `docs/geez_analysis_methodology.md`.
    - The A-D workers wait for upstream outputs (B waits for A, C waits for B, D waits for C).
-   - Use `--chapter-batch` to process one request per chapter and write per-segment outputs.
+   - Chapter-level mode (default): run without `--chapter-batch`/`--per-segment` to analyze the chapter root once and
+     distribute outputs to segment folders.
+   - Use `--chapter-batch` to process all segments in one request and emit per-segment JSON (can exceed output limits).
    - Vertex AI backend for A-D workers: add `--use-vertex` (optional `--vertex-model`, `--vertex-project`, `--vertex-location`).
      Environment overrides: `VERTEX_MODEL`, `VERTEX_PROJECT`, `VERTEX_LOCATION`,
      `GOOGLE_CLOUD_PROJECT`, `GOOGLE_CLOUD_LOCATION`, `VERTEX_MAX_OUTPUT_TOKENS`.
-     Default Vertex model is `gemini-3-pro-preview` unless overridden.
+     Default Vertex model is `gemini-2.5-pro` unless overridden.
    - Vertex smoke test: `python engine/workers/vertex_gemini_smoke_test.py --prompt "Ping"`.
    - Starter script: `engine/scripts/Linguistic_quad_worker.ps1`.
      Orchestrator control supports `use_vertex`, `vertex_model`, `vertex_project`, `vertex_location`.
+     Pipeline-parallel mode: set `mode` to `pipeline-parallel`, then tune `max_parallel_chapters` (active chapters)
+     and `max_parallel_calls` (global slot cap across stages).
+     Optional: `analysis_scope` (`chapter`, `chapter-batch`, `segment`) controls per-chapter vs per-segment requests.
+     Optional: `auto_self_heal` (true/false) plus `auto_self_heal_mode` (`always`/`missing-only`) and
+     `self_heal_verse_root` to backfill missing segments before analysis.
+     Active chapters are selected with stage-priority (L/H/S/M/G) to avoid later stages starving behind large G backlogs.
+     Optional: `stage_slot_limits` can cap per-stage starts per loop (keys: `L`, `H`, `S`, `M`, `G`).
+     Optional: `log_root` writes per-job logs (stdout+stderr) for each stage run.
    - End-to-end pipeline runner: `README_pipeline.md`.
 1. `worker_llm_analysis.py` -> analysis CSV at `analysis_progress_csv_path` (story_config).
    - Use `--use-gemini` to run via Gemini CLI (model from `--model` or `GEMINI_MODEL`).
@@ -122,6 +135,8 @@ Batch scripts:
 - `engine/scripts/run_all_chapters.ps1` and `engine/scripts/run_all_chapters_gemini.ps1` support `-Resume` to skip chapters with an existing `DREHBUCH_HOLLYWOOD.md`.
   - Optional: `-Sanitize` trims junk prefixes after each chapter.
   - Optional: `-FixHeaders` normalizes malformed ACT/SCENE headers after each chapter.
+  - Timeline profiles live in `stories/<story>/config/timelines/` and are referenced by `timeline_profiles` + `timeline_default`
+    in `stories/<story>/config/story_config.json`. `drehbuch*.py` loads the profile + subject registry; override with `--timeline`.
 - `engine/scripts/run_missing_chapters.ps1` regenerates chapters with missing/invalid scene headers (uses `scene_preflight_check.py`).
   - Example: `engine/scripts/run_missing_chapters.ps1 -StoryConfig stories/template/config/story_config.json -Start 1 -End 108 -DryRun`
   - Optional: `-SanitizeFirst` trims log/command garbage before preflight.
@@ -212,6 +227,7 @@ Audio (Monologue/TTS):
 
 Video docking:
 - `docs/video_docking.md` describes REGIE_JSON video_plan metadata and capture inputs.
+- Drehbuch/Regie prompts target LTX v2 (T2V preferred); use `camera_motion` + `camera_lora` for camera-control LoRAs (see `docs/video_docking.md`).
 - REGIE_JSON can include `start_image_keywords` to inject LoRA trigger words into start image prompts.
 - LoRAs are injected as prompt tags (e.g. `<lora:folder/name.safetensors:0.8>`) by the chapter asset generators.
 - Capture library lives under `stories/<story>/data/capture`.

@@ -1,0 +1,23 @@
+An enumeration of all valid syntactic parses for the provided Ge'ez text, following the specified scientific rules.
+
+```json
+{
+  "syntax": {
+    "parses": [
+      {
+        "id": "S1_P1",
+        "structure_type": "Clause Coordination and Subordination",
+        "bracket_notation": "[S [S [H t2] [dep t3(advcl)]] [conj [S [H t5] [dep t4(nsubj)] [dep t6(conj)]]]]",
+        "dependencies": [
+          "t2 -> t3 (adverbial clause modifier)",
+          "t5 -> t4 (subject)",
+          "t5 -> t6 (conjunct)",
+          "t6 -> t7 (oblique complement)",
+          "t2 -> t5 (conjunct, via coordinators in t2, t3, or t4)"
+        ],
+        "notes": "Sentence 1 (t2-t7). A complex sentence with a main clause (t2), a subordinate clause (t3), and a coordinated main clause (t5) whose subject is in a preceding token (t4) and which is itself the head of a verb coordination (t6). The coordinator linking the main clauses is ambiguous but present."
+      },
+      {
+        "id": "S2_P1",
+        "structure_type": "Clause Coordination",
+        "bracket_notation": "[S [S [H t

@@ -1,27 +1,38 @@
+```json
 {
   "evaluation": [
     {
-      "hypothesis_ref": "S6-P1",
-      "plausibility": "high",
-      "reasoning": "The parse correctly identifies 'ሜሃ' ('Then') as a sentence-initial temporal adverb marking a narrative transition. The following clause, 'ምድር፡ሰየቶሙ፡ለዐማፅያን' ('the earth accused the transgressors'), follows a standard Adverb-Subject-Verb-Object word order. The analysis is straightforward.",
+      "hypothesis_ref": "S1",
+      "plausibility": "low",
+      "reasoning": "This hypothesis, which posits a genitive relationship (P1), is syntactically unsupported in Classical Ge'ez. A genitive construction requires specific grammatical marking: either the head noun must be in the construct state (e.g., 'bēta nəguś', house of the king) or the genitive particle 'za-' must be used. The simple juxtaposition of a numeral and a full clause, as presented in the tokenization, does not conform to any attested genitive pattern in the language. The relationship is a modern editorial convention, not a native syntactic structure.",
       "parallels": [
         {
-          "ref": "Genesis 4:10",
-          "note": "Provides a strong thematic parallel of the earth itself bearing witness against wrongdoing ('the voice of thy brother's blood crieth unto me from the ground')."
-        },
+          "ref": "unattested",
+          "note": "The formation of a genitive by simple juxtaposition of a numeral and a following clause is not an attested syntactic pattern in Classical Ge'ez."
+        }
+      ],
+      "context_invariance": "stable",
+      "back_translation": "flag"
+    },
+    {
+      "hypothesis_ref": "S2",
+      "plausibility": "moderate",
+      "reasoning": "This hypothesis, which posits an appositional relationship (P2), offers a more plausible functional description, despite being anachronistic. The verse number acts as a nominal label, and the subsequent text serves as its content or specification (e.g., 'Verse 7:1, namely, the following text...'). This relationship of specification is a core function of apposition. While applying this analysis to a modern numbering system is not native to classical syntax, the structure is functionally analogous to a noun followed by an explanatory clause or a direct quotation, which serves an appositional purpose.",
+      "parallels": [
         {
-          "ref": "General Attestation",
-          "note": "Starting a sentence with a temporal adverb like 'ሜሃ' or 'እምሃ' is a very common device for sequencing events in Ge'ez narratives."
+          "ref": "General Syntactic Principle",
+          "note": "The structure is conceptually parallel to a noun followed by a direct quotation (e.g., 'He said this word: \"...\"), where the quotation stands in apposition to the noun by specifying its content. This is a common feature in narrative texts across many languages, including Ge'ez."
         }
       ],
       "context_invariance": "stable",
       "back_translation": "pass"
     }
   ],
-  "decision_log": "Parse S6-P1 is correct. The identification of the initial adverb and the subsequent simple clause structure is accurate. The meaning of 'ሰየተ' ('to accuse, complain against') is critical and fits the context of divine judgment that follows.",
+  "decision_log": "The primary analytical challenge is that the verse numbering ('7:1', '7:2', etc.) is a modern editorial artifact, external to the original Ge'ez syntax. Both hypotheses attempt to map this modern convention onto classical grammatical categories. Hypothesis S1 (Genitive) is decisively rejected because it is grammatically incorrect; Ge'ez syntax does not form genitives through this type of unmarked juxtaposition. Hypothesis S2 (Apposition) is preferred as a better functional and analogical description. The relationship between the number (label) and the text (content) is one of specification, a primary role of apposition. Although this represents an anachronistic analysis of a non-native feature, apposition is the most fitting grammatical analogy among the given choices. The confidence is therefore 'moderate' rather than 'high', acknowledging the artificial nature of the structure being analyzed.",
   "final_decision": {
-    "hypothesis_ref": "S6-P1",
-    "translation_id": "T6",
-    "confidence": "high"
+    "hypothesis_ref": "S2",
+    "translation_id": "T1",
+    "confidence": "moderate"
   }
 }
+```
