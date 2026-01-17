@@ -1,0 +1,67 @@
+{
+  "id": "timeline_02",
+  "name": "simulation_holographic_sphere",
+  "summary": "The 'Copernican Patch'. Earth is rendered as a sphere with simulated gravity and physics, but exists within a hyper-computational container ('The Box'). Celestial bodies (Sun/Moon) are injected via legacy I/O gates onto the atmospheric dome, creating a hybrid between ancient cosmology and modern astrophysics.",
+  "world_model": {
+    "shape": "holographic_sphere",
+    "container": "hyper_cube_runtime",
+    "layers": [
+      "planetary_surface_mesh",
+      "curved_atmosphere_display",
+      "legacy_gate_layer",
+      "outer_boundary_shell"
+    ],
+    "physics_overrides": [
+      "gravity_simulation_v2",
+      "relativity_patch",
+      "quantum_rendering",
+      "horizon_culling"
+    ]
+  },
+  "narrative_rules": {
+    "core_metaphor": "advanced_physics_engine_update",
+    "explanations": [
+      "procedural_curvature",
+      "orbital_mechanics_emulation",
+      "legacy_api_calls_for_luminaries",
+      "observer_dependent_rendering"
+    ],
+    "avoid": [
+      "flat_plane_physics",
+      "infinite_void_without_boundary",
+      "hard_edge_of_world"
+    ]
+  },
+  "visual_rules": {
+    "materials": [
+      "liquid_mirror",
+      "volumetric_clouds",
+      "holographic_overlay",
+      "fractal_geometry"
+    ],
+    "vfx": [
+      "curvature_bending",
+      "atmospheric_scattering",
+      "orbital_grid_lines",
+      "data_stream_aurora"
+    ],
+    "camera": [
+      "orbital_cam",
+      "fish_eye_distortion",
+      "dynamic_dof"
+    ]
+  },
+  "continuity": {
+    "henoch_phases": [
+      "observer",
+      "analyst",
+      "admin"
+    ],
+    "route_hint": [
+      "surface_launch",
+      "atmospheric_transition",
+      "gate_inspection",
+      "boundary_event"
+    ]
+  }
+}

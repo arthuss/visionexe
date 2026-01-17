@@ -1,240 +1,225 @@
-CONCEPT ANALYSIS: CHAPTER 2 - SYSTEM STABILITY & OBSERVABLES (VERSION 2.0)
+CONCEPT ANALYSIS: CHAPTER 2 - SYSTEM BASELINE & INTEGRITY CHECK (VERSION 2.0)
 
 1. BIO-INJECTION (PHYSICAL MANIFESTATION)
-Technologie: RETINAL_HUD_OVERLAY (Class 4).
-Physischer Effekt: Keine äußere Veränderung der Iris-Farbe. Stattdessen projiziert sich ein feines, goldenes Gitter direkt auf die Hornhaut (Cornea). Enoch blinzelt nicht mehr. Seine Mikrosakkaden (Augenzittern) stoppen vollständig. Der Blick verriegelt sich mechanisch auf Ziele (Target Lock).
+Technologie: ACTIVE_LIDAR_PROJECTION [OCULAR_REPLACEMENT].
+Mechanism: Die organischen Augen wurden durch `SOLAR_APERTURE_EMITTERS` ersetzt. Henoch sieht nicht passiv; er projiziert einen aktiven LIDAR-Scan (6000K). Die Realität wird nur dort gerendert, wo sein Blick auftrifft (Raycast-Abfrage). Die physische Schnittstelle am Schädel zeigt Hitzeverfärbungen (Thermal Stress) an den Implantat-Rändern.
 
 2. MESH-BREAK (GEOMETRY FAILURE)
-Technologie: WIREFRAME_DEBUG_VIEW.
-Visueller Effekt: Die Realität wird nicht "schwarz", sondern transparent. Wenn der Render-Modus wechselt, sehen wir durch die Berge hindurch. Wir sehen die Polygone der Rückseite (Backface Culling disabled). Die "Fülle" der Materie verschwindet, nur die Kanten (Edges) bleiben als leuchtende Vektoren sichtbar.
+Technologie: FRUSTUM_CULLING_VISUALIZATION.
+Mechanism: Die Simulation spart Ressourcen durch aggressives Culling. Objekte außerhalb des `Active_User_View` degradieren sofort zu Low-Poly-Proxies oder Wireframes. Bei schnellen Kamerabewegungen ist der "Draw-Call-Lag" sichtbar: Die Welt baut sich erst Millisekunden nach dem Blick auf. Der Berg (Sinai) ist ein `STATIC_MESH` mit deaktivierter Physik, um Kollisionsberechnungen zu minimieren.
 
 3. PACING-STRATEGIE
-Technologie: LINEAR_SCAN_MOTION.
-Kamera-Verhalten: Die Kamera imitiert einen Flachbettscanner. Konstante Geschwindigkeit. Kein Beschleunigen, kein Abbremsen. Wenn ein Objekt fokussiert wird, stoppt die Kamera abrupt (0 Frames Deceleration). Das Gefühl ist unnatürlich präzise, maschinell.
+Technologie: SYSTEM_DIAGNOSTIC_RUN.
+Rhythmus: 120 BPM (Hard Sync).
+Mechanism: Kein narrativer Fluss. Eine Sequenz von Testfällen. Jeder Clip beginnt mit einem harten `DATA_INJECT` (Frame 1) und endet mit einem `VALIDATION_TOKEN`. Stakkato-Schnitt. Keine Überblendungen (Cross-Fades), nur Hard Cuts oder Glitch-Transitions.
 
 4. AUDIO-DESIGN
-Technologie: SERVER_ROOM_AMBIENCE.
-Soundscape: Tiefes, konstantes Dröhnen von Kühlaggregaten (White Noise). Darüber ein rhythmisches "Pingen" (Sonar-Sound), jedes Mal wenn ein Himmelskörper seinen Weg-Punkt erreicht. Keine Musik.
+Technologie: DATACENTER_AMBIENCE.
+Soundscape: Das konstante, tiefe Dröhnen von `HVAC_COOLING_SYSTEMS` (Server-Kühlung). Statt Wind hören wir "White Noise". Interaktionen mit Materie erzeugen digitale "Handshake"-Geräusche (Modem-Screech, Ping). Himmelskörper rasten mit dem Sound schwerer hydraulischer Verriegelungen ein (Clunk-Hiss).
 
 5. ÜBERGÄNGE
-Technologie: UI_PANEL_SWITCH.
-Effekt: Der Wechsel zwischen Szenen erfolgt oft durch einen extrem schnellen Zoom-Out auf einen virtuellen Monitor, gefolgt von einem Zoom-In in ein anderes Fenster. Enoch betrachtet diese Dinge nicht "live", sondern auf Screens innerhalb der Merkabah.
+Technologie: CONTEXT_SWITCHING [BUFFER_FLUSH].
+Mechanism: Der Wechsel zwischen Himmel (Scene 1) und Erde (Scene 2) erfolgt über `PIXEL_SORTING` und `DATAMOSHING`. Das Bild friert ein (I-Frame abuse), Pixel "bluten" in die nächste Szene. Es visualisiert den Speicher-Dump des alten Levels und den Load des neuen.
 
 6. FRAMEWORK & TIMING
-Total Duration: 60 Seconds.
-Clip Count: 16 Clips (Erhöhte Granularität für Detail-Scans).
-Struktur:
-- 00-20s: Segment 1 (The Orbital Rails / Sky) - 6 Clips
-- 20-40s: Segment 2 (The Static Mesh / Earth) - 5 Clips
-- 40-60s: Segment 3 (The Fluid Sim / Seasons) - 5 Clips
+Total Duration: 65 Seconds.
+Clip Count: 15 Clips (High Density).
+Structure:
+- SCENE 1: SKYBOX_CALIBRATION (Vers 2:1) - Clips 01-05.
+- SCENE 2: TERRAIN_IMMUTABILITY (Vers 2:2) - Clips 06-10.
+- SCENE 3: HYDRO_VARIABLES (Vers 2:3) - Clips 11-15.
 
-7. DIALOG-CHECK
-Status: NEGATIV.
-Begründung: System-Audit. Reine Beobachtung. Keine Interaktion mit NPCs (Engeln) erforderlich. Interne Monologe werden als Text-Logs auf dem Display angezeigt, nicht gesprochen.
-
-8. SPATIAL CONTEXT (ARRIVAL)
-Status: MERKABAH_GEOSTATIONARY.
-Position: Enoch befindet sich in einer tetraedrischen Kraftfeld-Struktur im Orbit. Er schwebt. Er geht nicht.
-Etablierung: Wir starten mit einer Totalen der Erde, dann Zoom auf den winzigen, leuchtenden Tetraeder.
+7. SPATIAL CONTEXT
+Status: MERKABAH_UPLINK.
+Location: Henoch befindet sich im "Orbital Observation Deck" der Merkabah (Tetraeder-Konstrukt im LEO). Er betrachtet die Erde durch das Bodenfenster (Orthographic View). Für Detail-Checks (Baum) projiziert er einen Avatar an die Oberfläche (Remote Session).
 
 ---
 
-DREHBUCH & PROMPT-GENERIERUNG (WAN 2.2 SPECS)
+DREHBUCH & PROMPT-GENERIERUNG (LTX-2 SPECS)
 
-SCENE 1: THE ORBITAL RAILS (HEAVENLY ORDER)
+SCENE 1: CELESTIAL KINEMATICS (VERS 2:1)
 
-CLIP 01: ORBITAL_ESTABLISHING
+CLIP 01: BOOT_SEQUENCE_MACRO
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: N/A (Environment Focus).
+Actor: N/A (UI Focus). Subject: System Terminal Interface.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-N/A
+Prop: `MERKABAH_LOGO_WIRE`. A rotating 3D tetrahedron wireframe, glowing neon green.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Low Earth Orbit. Background: The curvature of the Earth, the terminator line separating day and night. Foreground: A translucent, glowing tetrahedron (Merkabah) hovering motionless.
+Location: Void / Kernel Shell. Background: Absolute Black (`#000000`).
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Harsh sunlight from the right. Deep space blackness on the left.
+Lighting: Emission Green only. No external light source.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Long Shot (LS). Movement: Slow, majestic drift. Style: 8k Sci-Fi VFX.
+Camera: Macro 1:1. Action: Command line text executes rapidly: `> SUDO_RUN: CHAPTER_02_BASELINE`. The Merkabah logo spins up to 10.000 RPM and glitches into a solid shape via compression artifacts.
 
-CLIP 02: ENOCH_INTERFACE_BOOT
+CLIP 02: ENOCH_ORBITAL_VIEW
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Enoch (System Prototype Build 2.0). Physique: Athletic, synthetic skin texture. Optics: Normal initially.
+Actor: Enoch (Admin Build). Physique: Bald, pale cybernetic skin, visible cranial data-ports. Eyes are mechanical `SOLAR_APERTURES` emitting light.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Garment: `ZERO_G_FLIGHT_SUIT`. White polymer, glowing cyan seams. Prop: Floating holographic screens surrounding him.
+Garment: `ZERO_G_FLIGHT_SUIT`. Matte white ceramic plating, haptic feedback nodes on fingertips. Prop: Holographic Control Sphere.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Inside the Merkabah Tetrahedron. Background: Earth spinning below.
+Location: Merkabah Cockpit. A dark, triangular room. Floor is reinforced glass, showing the glowing blue curvature of Earth below.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Blue spill light from the holograms.
+Lighting: Cool blue earth-shine from below. Amber UI lights reflecting on visor.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Medium Close-Up (MCU). Action: Enoch opens his eyes wide. A golden grid pattern projects onto his cornea. Text overlay: "SYSTEM_DIAGNOSTIC_INIT".
+Camera: High Angle (Crane Down). Action: Enoch floats in zero-g above the floor-window. He spreads his hands, expanding the holographic view of the starfield like a touch interface.
 
-CLIP 03: SKY_DOME_ANALYSIS_A
+CLIP 03: STAR_GRID_LOCK
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Subject: The Star Field.
+Subject: The Constellations (`LUMINARY_OBJECTS`).
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Overlay: `ORBITAL_PATH_VECTORS`.
+Overlay: `VECTOR_GRID_LINES` (Neon Green). Labels: `LUM_001`, `LUM_002`.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Deep Space View.
+Location: Deep Space (Skybox).
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: High contrast stars.
+Lighting: Pin-point starlight contrast against the green grid.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Static POV. Action: The realistic stars fade out. They are replaced by glowing white vertices connected by thin blue vector lines forming a perfect geodesic dome.
+Camera: Pan Right (Mechanical lock). Action: The stars are snapped to a visible 3D grid. They move in perfect unison, locked to the grid lines, executing a hardcoded orbit without deviation. Movement is jerky, like a stepper motor (15fps).
 
-CLIP 04: SKY_DOME_ANALYSIS_B
+CLIP 04: SUN_OBJECT_INSPECTION
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Subject: A specific Star (Luminary).
+Subject: The Sun (`SOLAR_PLASMA_ENTITY`).
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-N/A
+Overlay: `BOUNDING_BOX_YELLOW`. Data-Scroll: `ORBIT_DEVIATION: 0.000%`.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Zoomed in on the grid.
+Location: Stratosphere / LEO view.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Neon vector glow.
+Lighting: Blinding White/Gold, sharp horizontal lens flares (Anamorphic).
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Zoom In. Action: The star is revealed to be a code-block moving along a rail. Text overlay follows it: "PID: 4921_ALPHA // NO_DEVIATION".
+Camera: Rapid Zoom In (Snap Zoom). Action: We see the sun not as a ball of fire, but as a perfect sphere of white plasma contained within a wireframe cube. It pulses rhythmically like a heartbeat (Server Status LED).
 
-CLIP 05: SUN_MECHANISM_REVEAL
+CLIP 05: ALGORITHM_VALIDATION
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Subject: The Sun.
+Actor: Enoch (Close Up).
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-N/A
+Apparel: Visor retracted. Eyes are glowing projectors.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Solar Orbit.
+Location: Merkabah Cockpit.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Blinding white.
+Lighting: Strobe effect from data processing. High contrast.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Extreme Close-Up with filters. Action: The surface of the sun is not plasma, but billions of hexagonal LED panels glowing at max brightness. A slight glitch reveals the panel edges.
+Camera: Extreme Close Up on Eye. Action: Enoch's iris rotates like a hard drive platter. A solid beam of coherent light projects forward from the pupil. Text overlay in the beam: `SKY_LAYER: VERIFIED`.
 
-CLIP 06: ENOCH_LOGGING_DATA
+SCENE 2: TERRA FIRMA (VERS 2:2)
+
+CLIP 06: TRANSITION_GLITCH_DATAMOSH
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Enoch.
+Subject: Abstract Data / Terrain Transition.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Prop: `OBSIDIAN_SLATE`. A black tablet in his hand.
+N/A.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Merkabah Interior.
+Location: UI Layer / Transition Void.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Amber light from the tablet.
+Lighting: RGB Split / Artifacting.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Over-The-Shoulder. Action: He swipes a data-stream from the air into the tablet. The tablet glows green: "SEGMENT_1_VERIFIED".
+Camera: Static. Action: Screen tears vertically. Pixel sorting effect transforms the Starfield into a Mountain Range. The data "melts" from one state to another. Overlay Text: `LOAD_MESH: SINAI_REGION`.
 
-SCENE 2: THE STATIC MESH (EARTHLY STABILITY)
-
-CLIP 07: EARTH_SCAN_INIT
+CLIP 07: MOUNTAIN_IMMUTABILITY_TIMELAPSE
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Subject: The Earth from Orbit.
+Subject: Mount Sinai (`HIGH_POLY_MESH`).
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Overlay: `GLOBAL_MESH_GRID`.
+N/A.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: High Orbit.
+Location: Desert Valley.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Sunlight.
+Lighting: Rapid Day/Night Cycle (Strobe). Shadows race across the ground.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Top-Down. Action: A laser-scan sweep moves across the planet. Where it passes, the texture is stripped, leaving a grey polygon mesh.
+Camera: Locked Tripod. Action: Extremely fast time-lapse. Clouds boil. But the mountain geometry remains absolutely frozen, down to the pixel. No erosion, no movement. It is a static asset.
 
-CLIP 08: MOUNTAIN_TOPO_VIEW
+CLIP 08: TREE_ALGORITHM_APPROACH
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Subject: The Himalayas.
+Actor: Enoch (Avatar Manifestation).
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-N/A
+Apparel: Flowing white robes with digital noise at the hem.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Aerial View.
+Location: Digital Forest (Hyper-real).
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Wireframe neon green on black.
+Lighting: Dappled sunlight through leaves (Ray-traced).
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Flyover. Action: We fly through the wireframe mountains. We can see through the peaks to the valleys behind them. It is a pure geometry check.
+Camera: Tracking Shot (Behind Enoch). Action: Enoch walks towards a massive Oak tree. As he steps, the grass generates just in front of his feet (LOD pop-in), highlighting the rendering horizon.
 
-CLIP 09: IMMUTABLE_ASSET_FOCUS_A
+CLIP 09: TREE_ALGORITHM_CONTACT
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Subject: A massive ancient tree.
+Actor: Enoch's Hand.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-N/A
+Glove: Ceramic white armor with haptic sensors.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Forest Ground Level.
+Location: Tree Bark (Macro).
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Realistic daylight.
+Lighting: Contact glow (Cyan).
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Static Shot. Action: Time-lapse. Clouds race by, shadows move, but the tree trunk remains perfectly pixel-static. No sway, no growth.
+Camera: Extreme Close Up. Action: His fingertips touch the rough bark. Where he touches, the texture renders into wireframe for a split second, revealing the underlying polygon structure, then resolves back to bark.
 
-CLIP 10: IMMUTABLE_ASSET_FOCUS_B
+CLIP 10: TREE_ALGORITHM_REVEAL
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Subject: The same tree.
+Subject: The Tree Structure (`FRACTAL_L_SYSTEM`).
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-Overlay: `HITBOX_BOUNDING_BOX`.
+Overlay: `L_SYSTEM_FORMULA`.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Forest Ground Level.
+Location: Forest.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Digital overlay.
+Lighting: X-Ray Blue transparency.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Same angle. Action: A green bounding box appears around the tree. It flashes "STATIC_MESH_COLLIDER: OK".
+Camera: Orbit 360. Action: The tree's organic bark fades to 50% opacity. Inside, we see glowing green mathematical formulas generating the branches. Procedural generation visualized.
 
-CLIP 11: ENOCH_NOD
+SCENE 3: HYDROLOGY & STATE MACHINE (VERS 2:3)
+
+CLIP 11: SEASONAL_SWAP_SCANLINE
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Enoch.
+Subject: Landscape (Wide Valley).
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-N/A
+N/A.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Merkabah Interior.
+Location: Wide Valley.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Neutral.
+Lighting: Split (Warm Left / Cold Right).
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Close Up. Action: Minimal movement. He blinks once, capturing a screenshot.
+Camera: Static Wide Shot. Action: A visible digital scan-line sweeps across the valley from left to right. Behind the line, green summer textures are instantly replaced by white snow assets. Hard replacement (Texture Swap), no fade.
 
-SCENE 3: HYDRO-SIMULATION (SEASONS & FLUIDS)
-
-CLIP 12: RAIN_SIMULATION_WIDE
+CLIP 12: RAIN_MATRIX_GRID
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Subject: Heavy Rainstorm.
+Subject: Raindrops (`FLUID_PARTICLES`).
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-N/A
+N/A.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Dark Jungle.
+Location: Dark Void / Night Scene.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Strobe lightning.
+Lighting: Backlit Strobe.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Slow Motion Pan. Action: The rain is frozen in mid-air. We see the drops are perfect identical spheres.
+Camera: Slow Motion (Frozen). Action: Raindrops hang in the air. They are not random. They are arranged in a perfect cubic grid, spaced exactly 10cm apart. Each drop is a perfect sphere reflecting binary code.
 
-CLIP 13: RAIN_SIMULATION_MACRO
+CLIP 13: WATER_LEVEL_CONSTRAINT
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Subject: Single Raindrop.
+Subject: Ocean Surface.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-N/A
+Overlay: `LEVEL_LIMIT_LINE` (Red dashed line).
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Jungle Leaf Macro.
+Location: Open Ocean during Storm.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Bioluminescent blue.
+Lighting: Stormy Grey, lightning flashes.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Macro Zoom. Action: The drop hits the leaf. Instead of splashing chaotically, it subdivides into smaller spheres according to a fractal pattern. It is mathematical fluid dynamics.
+Camera: Surface Level. Action: The ocean waves are chaotic, but they all hit an invisible "glass ceiling" (a flat plane) and flatten out instantly. The water cannot exceed the programmed `MAX_HEIGHT` variable.
 
-CLIP 14: SEASONAL_TEXTURE_SWAP_A
+CLIP 14: SUBSURFACE_CABLES
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Subject: A grassy meadow.
+Subject: Underground Roots / Cables.
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-N/A
+N/A.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Rolling hills.
+Location: Subsurface (Under the dirt).
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Summer Golden Hour.
+Lighting: Bioluminescent Orange in darkness.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Dolly forward. Action: The grass is green and lush.
+Camera: Crane Down (Clipping through ground). Action: The camera clips through the wet soil. The "roots" of the earth are revealed to be fiber-optic cables connecting the hydration system to a global grid.
 
-CLIP 15: SEASONAL_TEXTURE_SWAP_B
+CLIP 15: ENOCH_SIGNOFF_HUD
 [BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Subject: The same meadow.
+Actor: Enoch (Close Up).
 [BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-N/A
-[BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
-Location: Rolling hills.
-[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Winter Overcast.
-[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Dolly forward (continued perfectly). Action: A "refresh line" sweeps down the screen. Instantly, the green grass is replaced by a white snow texture. No transition, hard swap.
-
-CLIP 16: SYSTEM_STANDBY
-[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]
-Actor: Enoch.
-[BLOCK 2: APPAREL_&_EQUIPMENT_LOADOUT]
-N/A
+Apparel: Visor retracted.
 [BLOCK 3: ENVIRONMENT_&_SPATIAL_CONTEXT]
 Location: Merkabah Interior.
 [BLOCK 4: LIGHTING_&_CHROMATIC_DATA]
-Lighting: Fading to black.
+Lighting: Dark cockpit, face illuminated by tablet.
 [BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]
-Camera: Frontal Close Up. Action: The golden grid on his eyes fades. The pupils return. The "RECORDING" tally light turns off. Cut to Black.
+Camera: Extreme Close Up on Eye. Action: The mechanical aperture in his pupil rotates and locks shut. The projection beam retracts into his eye.
+Overlay Text (In-World): `BASELINE: VERIFIED`. `SYSTEM: STABLE`. `READY_FOR_NEXT_PHASE`. Fade to Black.

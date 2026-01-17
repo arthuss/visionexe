@@ -2,6 +2,11 @@
 
 Quick lookup for the most-used documentation. For the full list, see `REFERENCES.md`.
 
+## Compendium
+- `docs/WORKSPACE_COMPENDIUM.md`
+- `docs/compendium_sections/00_overview.md`
+- `docs/compendium_sections/10_structure.md`
+
 ## Pipelines
 - `README.md`
 - `README_pipeline.md`

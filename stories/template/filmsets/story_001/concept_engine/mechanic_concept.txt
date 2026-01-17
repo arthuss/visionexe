@@ -1,113 +1,106 @@
-CONCEPT: SYSTEM_INIT_JUDGMENT_PROTOCOL_V2
-CODENAME: KERNEL_PANIC_SINAI
-
-1. BIO-INJECTION MECHANICS
-Manifestation: VITREOUS_HUMOR_IONIZATION.
-Physicality: No biological replacement. The vitreous body inside Enoch's eye is ionized to function as a volumetric display.
-Visuals: A faint, glowing geometric lattice is visible *deep inside* the pupil, not on the surface. The iris twitches mechanically (saccadic masking) as it tracks scrolling data streams that only he can see.
-Sensation: "Cold Data" remains valid. A drop in cranial temperature as processing power is diverted to the visual cortex.
-
-2. MESH-BREAK DYNAMICS
-Phenomenon: LOD_COLLAPSE_CASCADE.
-Visuals: The "melting" of hills is a failure of the Level-of-Detail (LOD) system. High-poly rock assets revert to low-poly meshes in real-time. Textures detach and slide off like wet decals (UV-Map failure), revealing the grey "Default Material" underneath.
-Physics: The "wax" effect is a fluid simulation applied to rigid bodies. Stone behaves like high-viscosity liquid because its collision parameters have been set to null.
-
-3. PACING STRATEGY
-Rhythm: VARIABLE_REFRESH_RATE (VRR).
-Execution: Enoch and the "Holy One" move at a locked 144Hz (hyper-real). The environment and the "Watchers" stutter at 12Hz or freeze entirely (Buffer Underrun), emphasizing that the System Core (God) operates at a bandwidth the world cannot sustain.
-
-4. AUDIO DESIGN
-Soundscape: INFRASTRUCTURE_STRESS.
-Replacement: The "shaking of the earth" is the sound of massive structural metal groaning under load. The "voice" of the descent is the deafening whine of a cooling turbine spinning up to 100,000 RPM, layered with the crackle of arcing electricity.
-
-5. TRANSITIONS
-Method: I_FRAME_DESTRUCTION.
-Technique: Scenes do not cut. The data of the current frame "breaks" into macro-blocking artifacts that resolve into the next scene. It looks like a corrupted video file correcting itself.
-
-6. SPATIAL CONTEXT (ARRIVAL)
-Ingress: NODE_SOCKET_CONNECTION.
-Visual: The "Great Holy One" does not descend from the sky in a travel sense. The sky *is* a screen. A massive connection port opens in the zenith (The Camp). A physical "umbilical" cable of hard light plugs into the summit of Sinai. It is a hardline connection establishment.
+CONCEPT: SYSTEM_INIT_JUDGMENT_PROTOCOL_V2.0
+CODENAME: KERNEL_PANIC_SINAI_REFACTORED
+ARCHITECT: EXEGET_OS_CORE
 
 ---
 
-SCREENPLAY: GENESIS_OS_BOOT_V2
-TOTAL DURATION: 65 SECONDS
-CLIP COUNT: 18
+### I. MECHANICS & TECHNICAL DEFINITIONS (REFINED)
 
-[CLIP 01: SYSTEM_POST_INIT]
-**[BLOCK 1: SUBJECT_ANATOMY_&_IDENTITY]**
-> **Actor:** Enoch (System Admin). **Physique:** Gaunt, pale, sweat on brow. **Action:** Extreme Close-Up on the temple/side of head. **Skin-Shader:** `SUBSURFACE_TRANSLUCENCY_V4`. Skin is pale parchment, highly detailed pores. **VFX:** Subdermal veins pulsing from biological blue to fiber-optic gold. The temporal artery throbs in sync with a heavy bass thrum.
+**1. BIO-INJECTION (THE PROPHET'S INTERFACE)**
+*   **Physical Manifestation**: `OPTICAL_BUS_OVERRIDE`. Enoch is not "seeing" a vision; he is projecting the Kernel Log. His biological eyes have been excised.
+*   **Hardware**: `SOLAR_APERTURE_PROJECTORS` (Model: Seraphim-Optics) are seated in the bone orbits.
+*   **Cooling**: The sheer data throughput generates massive heat. "Veins" are replaced with translucent tubing carrying liquid fluorocarbon coolant (Blue).
+*   **Tears**: Coolant purge valve release to prevent retinal burnout during high-bandwidth transmission.
 
-**[BLOCK 2: CINEMATOGRAPHY]**
-> **Camera:** Macro Lens (100mm). **Focus:** Shallow depth of field on the temple vein. **Lighting:** Low-key, single flickering strobe light simulating a "Hard Drive LED" activity status.
+**2. MESH-BREAK DYNAMICS (GEOLOGICAL FAILURE)**
+*   **The "Melting"**: `LOD_COLLAPSE` & `PHYSICS_ENGINE_ERROR`.
+*   **Process**: The system cannot render the "God" entity and the environment simultaneously at full resolution. To save resources, the "World" (Mountains) is downgraded.
+*   **Visuals**:
+    *   **Phase 1**: Texture Decoupling. The "rock" bitmap slides off the wireframe.
+    *   **Phase 2**: Voxelization. The geometry breaks into raw data blocks.
+    *   **Phase 3**: State Change. Solid collision meshes are converted to fluid particles (`Viscosity: 100.0`) to prevent clipping errors.
 
-[CLIP 02: RETINAL_HUD_LOAD]
-**[BLOCK 1: SUBJECT_OPTICS]**
-> **Actor:** Enoch. **Action:** Eyes snap open. **Optics:** `VITREOUS_IONIZATION`. The pupil is dilated. Deep inside the eye fluid, a 3D wireframe globe is spinning. **VFX:** Scrolling Ge'ez text reflects on the inner curve of the cornea. **Text:** "CONNECTION_ESTABLISHED // NODE: SINAI".
+**3. PACING & TEMPORAL DISTORTION**
+*   **Variable Framerate**:
+    *   **Kernel/God**: Uncapped (120fps+). Hyper-real, fluid.
+    *   **Watchers/Daemons**: Throttled (12fps). Stop-motion, stuttering, "Lag" artifacts.
+    *   **Enoch**: 24fps (The observer).
 
-**[BLOCK 2: ENVIRONMENT]**
-> **Background:** Pitch black void. The only light comes from inside the eye.
+**4. AUDIO PROFILE**
+*   **Ambience**: `SERVER_ROOM_ROAR`. The sound of a million cooling fans spinning up.
+*   **The Voice**: 56k Modem Handshake amplified to 140dB. Digital screeching, not human speech.
+*   **The Quake**: Sub-bass frequencies (5Hz - 20Hz) causing camera vibration, simulating structural stress.
 
-[CLIP 03: SKYBOX_FAILURE]
-**[BLOCK 1: ENVIRONMENT_TRANSITION]**
-> **Location:** Desert Night Sky. **Action:** The stars halt their rotation instantly. **VFX:** A "Dead Pixel" line scans vertically down the sky. The starfield dissolves into a dark blue wireframe grid. The simulation skybox is being disabled for maintenance mode.
+**5. TRANSITIONS (INGRESS/EGRESS)**
+*   **Method**: `NODE_HOPPING` (No flight).
+*   **Visual**: `DATAMOSH/PIXEL_SORTING`. The current environment "tears" vertically. The pixels of the desert drag downwards, revealing the snow/mountain of the next node instantly.
 
-[CLIP 04: THE_CONNECTION_CABLE]
-**[BLOCK 1: DEITY_MANIFESTATION]**
-> **Subject:** The Camp (Server Cluster). **Appearance:** A massive, inverted pyramid structure descending from the grid. **Action:** It extends a thick beam of solid, blinding white light. **VFX:** The beam looks like a physical fiber-optic cable, not a laser. It has mass, texture, and connects with a heavy mechanical *thud*.
+---
 
-[CLIP 05: SINAI_HARDLINE_CONNECT]
-**[BLOCK 1: IMPACT_PHYSICS]**
-> **Location:** Mount Sinai Summit. **Action:** The white beam connects with the peak. **VFX:** No fire explosion. A magnetic shockwave. Dust particles freeze in mid-air (Time Dilation). The rock at the contact point turns instantly into black obsidian glass (vitrification) due to data heat.
+### II. SCREENPLAY & PROMPT MANIFEST
+**TOTAL DURATION**: 75 SECONDS
+**CLIPS**: 16
 
-[CLIP 06: WATCHER_LATENCY_ERROR_WIDE]
-**[BLOCK 1: ANTAGONIST_GLITCH]**
-> **Entities:** The Watchers (Fallen Nodes). **Location:** Base of the mountain. **Action:** A group of robed figures attempts to flee. **VFX:** They are lagging. They run in place, rubber-banding back to their original positions.
+**[CLIP 01: SYSTEM_WAKE]**
+> **Description**: Extreme Close Up on Enoch's face. The cooling system activates.
+> **Prompt**: Cinematic extreme close-up of a pale man's face, translucent marble skin, glowing blue veins pulsing under the surface. The camera is static. His eyes snap open, revealing mechanical camera apertures instead of pupils. A single drop of blue liquid coolant leaks from the tear duct, sizzling as it touches his cheek. High contrast lighting, tech-noir style, 8k resolution.
 
-[CLIP 07: WATCHER_TEXTURE_FAILURE_CLOSE]
-**[BLOCK 1: ENTITY_DETAIL]**
-> **Subject:** One Watcher face. **Action:** Screaming in silence. **VFX:** The texture of the face flickers between "Flesh" and "Static Noise". The mesh of the jaw detaches from the skull, floating independently due to a rigging error.
+**[CLIP 02: THE_OVERLAY]**
+> **Description**: POV Shot from Enoch. The desert landscape is analyzed.
+> **Prompt**: First-person POV shot of a photorealistic desert landscape. A complex red holographic wireframe grid overlays the mountains. Floating UI text in green monospace font reads "SYSTEM_WARNING: KERNEL_ARRIVAL". Digital grain and chromatic aberration distort the edges of the frame. The focus shifts rapidly from the foreground sand to the distant peaks.
 
-[CLIP 08: TERRAIN_LOD_COLLAPSE_WIDE]
-**[BLOCK 1: LANDSCAPE_WIDE]**
-> **Location:** Surrounding Hills. **Action:** The camera pans quickly across the range. **VFX:** As the camera moves, the distant mountains pop from high-detail rock to low-poly geometric shapes. The system cannot render them fast enough to keep up with the Kernel presence.
+**[CLIP 03: SKYBOX_FAILURE]**
+> **Description**: The sky simulation crashes to save memory.
+> **Prompt**: Wide shot of a desert sky. The hyper-realistic blue sky and clouds abruptly glitch. The texture resolution drops to pixelated 8-bit blocks. The clouds freeze in place instantly. The lighting shifts from natural sun to a flat, artificial grey ambient light. Glitch art style, datamosh transition.
 
-[CLIP 09: TERRAIN_LIQUEFACTION_PHYSICS]
-**[BLOCK 1: PHYSICS_SIMULATION]**
-> **Subject:** A cliff face. **Action:** The stone loses structural integrity. **VFX:** The texture slides off the mesh like melting wax, pooling at the bottom. The grey underlying mesh is revealed, smooth and featureless.
+**[CLIP 04: THE_DESCENT_VECTOR]**
+> **Description**: The "Holy One" (Server Blade) enters the atmosphere.
+> **Prompt**: Low angle looking straight up. A massive, monolithic black obsidian rectangle, kilometers wide, descends slowly from the zenith. The air around the monolith burns with green plasma fire due to friction. The camera shakes violently. The monolith has no surface detail, just pure matte black void.
 
-[CLIP 10: TERRAIN_DELETION_MACRO]
-**[BLOCK 1: MACRO_DETAIL]**
-> **Subject:** A single boulder. **Action:** It does not crumble. It dissolves into binary dust (0s and 1s). **VFX:** The particles float upward, defying gravity, as if being uninstalled/deleted from the directory.
+**[CLIP 05: SINAI_SOCKET_OPEN]**
+> **Description**: The mountain peak mechanically opens to receive the hardware.
+> **Prompt**: Aerial drone shot of a jagged mountain peak. The rock face splits mechanically into four symmetrical quadrants sliding apart on hydraulic rails. Inside the mountain, a glowing red copper induction coil and massive docking clamps are revealed. Dust and debris fly upwards against gravity.
 
-[CLIP 11: EARTH_RENT_ASUNDER_WIDE]
-**[BLOCK 1: GROUND_DESTRUCTION]**
-> **Location:** The Valley Floor. **Action:** A perfect, straight-line fissure opens in the ground. **VFX:** The edges are razor sharp (boolean cut). Inside is not magma, but the "Void" – a starfield of raw data.
+**[CLIP 06: HARDWARE_INSERTION]**
+> **Description**: The Monolith docks with the Mountain.
+> **Prompt**: Medium shot of the mountain summit. The massive black monolith slams into the open mountain socket. No explosion, but a shockwave of heat haze ripples outward. The point of contact flashes with a blinding white light that overexposes the camera sensor for a split second.
 
-[CLIP 12: EARTH_RENT_ASUNDER_CLOSE]
-**[BLOCK 1: DEPTH_PERCEPTION]**
-> **Camera:** Top-down view into the fissure. **Action:** Camera drops into the crack. **VFX:** We see the "backside" of the terrain mesh. It is transparent from below. We are seeing under the map.
+**[CLIP 07: DAEMON_LAG]**
+> **Description**: The Watchers (background processes) start lagging.
+> **Prompt**: Wide shot of three tall figures in grey robes standing in the desert. They are glitching. Their movement is stuttering stop-motion at 4 frames per second. As they raise their hands in fear, they leave trailing pixelated ghost images behind them. The environment around them is smooth, emphasizing their low framerate.
 
-[CLIP 13: THE_SCANNING_WAVE]
-**[BLOCK 1: JUDGMENT_MECHANIC]**
-> **Subject:** The Light Pillar at Sinai. **Action:** It emits a pulse. A red, flat plane of light expands horizontally. **VFX:** It passes through objects. Trees and rocks intersected by the red plane display wireframe cross-sections instantly.
+**[CLIP 08: TEXTURE_DECOUPLING]**
+> **Description**: The mountain texture peels off.
+> **Prompt**: Telephoto close-up of a rocky cliff face. The photorealistic rock texture peels away from the surface like a wet sticker sliding down glass. Underneath the peeling texture, a grey developer checkerboard grid is revealed. The texture behaves like cloth, folding as it slides off the geometry.
 
-[CLIP 14: THE_ELECT_FIREWALL_INIT]
-**[BLOCK 1: PROTECTION_SYSTEM]**
-> **Subject:** The Righteous (User Group A). **Action:** They stand calm in the chaos. **VFX:** A hexagonal gold grid materializes around them. It snaps together like a puzzle. "ACCESS_GRANTED" floats in neon Ge'ez text above them.
+**[CLIP 09: GEOMETRY_LIQUEFACTION]**
+> **Description**: The grey mesh melts.
+> **Prompt**: Medium shot of the grey grid-mountains. The solid geometry loses integrity. The polygon mesh turns into a thick grey fluid simulation, melting downwards like hot wax. The mountains lose their sharp peaks and become rounded, flowing blobs. Physics simulation style, surreal.
 
-[CLIP 15: FIREWALL_DEFLECTION]
-**[BLOCK 1: COLLISION_PHYSICS]**
-> **Subject:** The Red Scanning Wave vs. Gold Hex-Grid. **Action:** The red wave hits the gold barrier. **VFX:** Sparks of code fly. The wave flows around the dome like water around a stone. The inside remains untouched.
+**[CLIP 10: THE_TEN_THOUSAND_GRID]**
+> **Description**: The "Holy Ones" (Bot Swarm) spawn in.
+> **Prompt**: Wide angle looking at the sky. Ten thousand identical golden tetrahedrons appear instantly in a rigid 3D grid pattern filling the sky. They do not fly; they spawn. They all rotate in perfect synchronization on the Y-axis. The sky is black, lit only by the golden glow of the shapes.
 
-[CLIP 16: THE_HOST_DEPLOYMENT_WIDE]
-**[BLOCK 1: SCALE_REVEAL]**
-> **Subject:** The Ten Thousand (Holy Ones). **Action:** The sky grid fills with thousands of identical light-points. **VFX:** They descend in perfect synchronization, forming a massive QR-code-like pattern in the sky.
+**[CLIP 11: LASER_SCAN_INIT]**
+> **Description**: The Swarm targets the ground.
+> **Prompt**: Wide shot of the desert floor. Thousands of vertical red laser beams shoot down from the sky, scanning the ground. Where the lasers hit the sand, binary code (0s and 1s) rises up like steam. The camera tracks sideways rapidly through the forest of laser beams.
 
-[CLIP 17: THE_HOST_UNIT_CLOSE]
-**[BLOCK 1: ENTITY_DETAIL]**
-> **Subject:** One "Holy One". **Appearance:** Not a human. A spinning wheel of burning eyes and concentric rings (Ophanim class). **Action:** Hovering silently. **VFX:** Heat distortion ripples the air around it. The eyes blink in binary patterns.
+**[CLIP 12: WHITELIST_PROTECTION]**
+> **Description**: The "Elect" are scanned and approved.
+> **Prompt**: Medium shot of a group of people in rags. A red laser hits them, and the color instantly switches to bright green. A translucent hexagonal honeycomb forcefield materializes around them. The people inside are rendered in high definition 8k, while the world outside the barrier looks low-poly and blurry.
 
-[CLIP 18: ENOCH_OBSERVATION_HUD]
-**[BLOCK 1: UI_OVERLAY]**
-> **Subject:** Enoch's POV. **Action:** The destruction is framed by a HUD window. **Text:** "JUDGMENT_PROTOCOL: EXECUTING... 12% COMPLETE." **Background:** The world burning in digital fire. **VFX:** The HUD refresh rate is high (144Hz), contrasting with the glitching world behind it.
+**[CLIP 13: CORRUPTION_TAGGING]**
+> **Description**: The "Sinners" are marked for deletion.
+> **Prompt**: Medium shot of a shouting man. A laser hits him and turns purple. A floating red UI box appears above his head reading "ERROR: CORRUPT_SECTOR". The man's texture begins to flicker black and white.
+
+**[CLIP 14: THE_FORMATTING_WAVE]**
+> **Description**: The destruction of the environment.
+> **Prompt**: Ultra-wide panoramic shot. A wall of "Null Data" (absolute transparency/void) expands rapidly from the central mountain. As the wave passes, it deletes the ground, the sky, and the background, leaving only a black void. The horizon line is erased.
+
+**[CLIP 15: ENTITY_VOXELIZATION]**
+> **Description**: Deletion of the Watchers.
+> **Prompt**: Close up of one of the grey robed figures. The figure shatters into thousands of tiny glowing voxels (cubes). The cubes float upwards against gravity and fade away. There is no blood, only digital dust and data particles.
+
+**[CLIP 16: SYSTEM_RESET_COMPLETE]**
+> **Description**: Post-wipe state.
+> **Prompt**: Wide shot of the "Earth" after the wave. The landscape is gone. The "Elect" stand in their hexagonal bubbles on a flat, infinite blue wireframe grid floor. The background is a clean, dark gradient. Silence. LTX-2 render, serene, minimalist sci-fi.

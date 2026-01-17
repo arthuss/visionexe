@@ -200,6 +200,13 @@ def get_chapter_data(chapter_path, include_wave=False, segment_label="segment"):
             raw_text = strip_wave_sections(raw_text)
         data["raw_text"] = raw_text
 
+    narration_path = os.path.join(chapter_path, "DREHBUCH_NARRATIV.md")
+    if os.path.exists(narration_path):
+        with open(narration_path, "r", encoding="utf-8") as f:
+            data["narration_script"] = f.read()
+    else:
+        data["narration_script"] = ""
+
     # 3. Story Analysen aus den Unterordnern
     sub_folders = ["analysis_linguistik", "tech_hypothesen", "visual_abc", "einleitung"]
     if include_wave:
@@ -212,6 +219,21 @@ def get_chapter_data(chapter_path, include_wave=False, segment_label="segment"):
             if not include_wave:
                 story_text = strip_wave_sections(story_text)
             data[folder] = story_text
+
+    analysis_layers = {}
+    analysis_root_files = [
+        "analysis_llm.txt",
+        "analysis_llm_graphematic.txt",
+        "analysis_llm_morphologic.txt",
+        "analysis_llm_synthactic.txt",
+        "analysis_llm_semantic_historical.txt",
+    ]
+    for filename in analysis_root_files:
+        path = os.path.join(chapter_path, filename)
+        if os.path.exists(path):
+            with open(path, "r", encoding="utf-8") as f:
+                analysis_layers[filename] = f.read()
+    data["analysis_layers"] = analysis_layers
 
     # 4. Segmente/Verse (Rohmaterial)
     data["verses"] = {}
@@ -433,6 +455,10 @@ def build_script_structure_prompt(data, kb, concept_output, chapter_num):
     verses_str = "\n".join([f"[{k}]: {v}" for k, v in data["verses"].items()])
     segment_analysis_str = "\n".join([f"[{k}]: {v}" for k, v in data.get("segment_analysis", {}).items()])
     segment_entities_str = format_segment_entities(data.get("segment_entities", {}))
+    analysis_layers = data.get("analysis_layers", {})
+    analysis_layers_str = "\n".join(
+        [f"[{name}]\n{value}" for name, value in analysis_layers.items() if value]
+    ) or "(none)"
     return f"""
 {DIRECTOR_MANUAL}
 
@@ -460,6 +486,14 @@ ANTWORTE OHNE JEGLICHEN KOMMENTAR. KEIN "Hier ist der Plan". NUR DER INHALT.
 
 [SUBJECT REGISTRY]:
 {kb.get('SUBJECT_REGISTRY', '')}
+
+[NARRATION SCRIPT]:
+{data.get('narration_script', '')}
+
+[ANALYSIS LAYERS]:
+{analysis_layers_str}
+
+INSTRUCTION: Use the narration script as the primary storyline when present; keep it consistent with raw text and analysis.
 
 ---
 INPUT PHASE 1 (TECHNISCHES KONZEPT):
@@ -518,6 +552,10 @@ DEINE AUFGABE: Optimiere dieses Drehbuch.
 Liefere das komplette, verbesserte Drehbuch zurück.
 '''
 
+    analysis_layers = data.get("analysis_layers", {})
+    analysis_layers_str = "\n".join(
+        [f"[{name}]\n{value}" for name, value in analysis_layers.items() if value]
+    ) or "(none)"
     return f"""
 {DIRECTOR_MANUAL}
 {refinement_instruction}
@@ -537,6 +575,12 @@ Liefere das komplette, verbesserte Drehbuch zurück.
 
 [SUBJECT REGISTRY]:
 {kb.get('SUBJECT_REGISTRY', '')}
+
+[NARRATION SCRIPT]:
+{data.get('narration_script', '')}
+
+[ANALYSIS LAYERS]:
+{analysis_layers_str}
 
 [SEGMENT ENTITIES]:
 {format_segment_entities(data.get('segment_entities', {}))}

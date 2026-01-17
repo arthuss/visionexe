@@ -782,7 +782,10 @@ def run(
         return False
 
     script_text = load_text(script_path)
-    narrator_text = parse_narrator_text(script_text)
+    narration_source_path = os.path.join(chapter_path, "chapter_narration.txt")
+    narrator_text = load_text(narration_source_path) if os.path.exists(narration_source_path) else ""
+    if not narrator_text:
+        narrator_text = parse_narrator_text(script_text)
     monologue_plan = parse_monologue_plan(script_text)
     monologue_lookup = build_monologue_lookup(monologue_plan)
     scenes = parse_scenes(script_text)

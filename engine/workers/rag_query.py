@@ -1,19 +1,23 @@
 import argparse
 import json
 import os
+from pathlib import Path
 
 from rag_utils import load_config, embed_texts, request_json, qdrant_headers
+from visionexe_paths import resolve_repo_root
 
-ROOT_PATH = os.path.dirname(os.path.abspath(__file__))
+REPO_ROOT = resolve_repo_root()
+DEFAULT_CONFIG_PATH = REPO_ROOT / "engine" / "workers" / "rag_config_small.json"
+FALLBACK_CONFIG_PATH = REPO_ROOT / "engine" / "scripts" / "rag_config_small.json"
 
 
-def normalize_chapter(value):
+def normalize_chapter(value, chapter_label, chapter_padding):
     if not value:
         return ""
-    if value.startswith("chapter_"):
+    if value.startswith(f"{chapter_label}_"):
         return value
     if value.isdigit():
-        return f"chapter_{int(value):03d}"
+        return f"{chapter_label}_{int(value):0{chapter_padding}d}"
     return value
 
 
@@ -67,15 +71,20 @@ def main():
     parser = argparse.ArgumentParser(description="Query chapter memory (Qdrant).")
     parser.add_argument("query", help="Search query")
     parser.add_argument("--chapter", help="Chapter filter (e.g. 96 or chapter_096)")
+    parser.add_argument("--chapter-label", default="chapter", help="Chapter label prefix (default: chapter).")
+    parser.add_argument("--chapter-padding", type=int, default=3, help="Chapter number padding (default: 3).")
     parser.add_argument("--scene", help="Scene filter (e.g. 1.1 or 01_01)")
     parser.add_argument("--kind", help="Kind filter (screenplay, analysis, concept, audio_meta, monologue, media, checklist)")
     parser.add_argument("--limit", type=int, default=6, help="Max results")
-    parser.add_argument("--config", default=os.path.join(ROOT_PATH, "rag_config.json"), help="Config JSON path")
+    parser.add_argument("--config", default="", help="Config JSON path")
     parser.add_argument("--json", action="store_true", help="Print raw JSON response")
     args = parser.parse_args()
 
-    config = load_config(args.config)
-    chapter = normalize_chapter(args.chapter) if args.chapter else ""
+    config_path = args.config
+    if not config_path:
+        config_path = str(DEFAULT_CONFIG_PATH if DEFAULT_CONFIG_PATH.exists() else FALLBACK_CONFIG_PATH)
+    config = load_config(config_path)
+    chapter = normalize_chapter(args.chapter, args.chapter_label, args.chapter_padding) if args.chapter else ""
     scene = normalize_scene(args.scene) if args.scene else ""
 
     results = search(config, args.query, chapter, scene, args.kind, args.limit)

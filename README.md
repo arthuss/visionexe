@@ -6,6 +6,7 @@ Repo layout (engine + stories).
 - stories/       One folder per story.
   - template/    Empty story template (copy or clone).
 - Hard-state docs (append-only, versioned): `STATE.md`, `ARCHITECTURE.md`, `CONSTRAINTS.md`.
+- Workspace compendium: `docs/WORKSPACE_COMPENDIUM.md` (generated via `engine/tools/build_workspace_compendium.py`, source sections in `docs/compendium_sections/`).
 
 Story layout:
 - Filmsets: `<chapter_label>_###/segment_###/scene_###/timeline_##/` (chapter_label defaults to `chapter`, template uses `story`).
@@ -66,6 +67,8 @@ Core data flow (minimal):
    - Run: `python engine/workers/chapter_briefing_builder.py --story-config stories/template/config/story_config.json --use-gemini --model pro`
    - Use `pro`/`flash` or explicit `gemini-3-pro`/`gemini-3-flash`. `auto` skips `--model` (CLI default). `gemini_3_pro` is normalized to `gemini-3-pro`.
    - If Gemini fails, falls back to Copilot CLI (set `COPILOT_CMD`/`LLM_CMD` or install `copilot`). Copilot maps `gemini-3-pro` to `gemini-3-pro-preview`.
+2.5. `drehbuch_narration_worker.py` -> narrative spec script.
+   - Outputs `DREHBUCH_NARRATIV.md` per chapter.
 3. `analysis_master_builder.py` -> `data/analysis/analysis_master.jsonl`
 4. `subject_registry_builder.py` -> subjects registry + profiles + occurrences + scenes
 5. `asset_bible_builder.py` -> `subjects/asset_bible.json`
@@ -149,6 +152,7 @@ Batch scripts:
   - Example: `engine/scripts/run_screenplay_sanitizer.ps1 -StoryConfig stories/template/config/story_config.json -Start 1 -End 108 -DryRun`
 - `engine/scripts/run_scene_header_fixer.ps1` normalizes malformed ACT/SCENE headers in DREHBUCH files.
   - Example: `engine/scripts/run_scene_header_fixer.ps1 -StoryConfig stories/template/config/story_config.json -Start 1 -End 108 -DryRun`
+- Legacy wrappers live under `engine/scripts/_legacy` (kept for reference only).
 
 Reallusion library:
 - `engine/workers/reallusion_library_indexer.py` indexes Reallusion assets (Motion Director, Motion Plus, iTalk, paths, terrains, ccAvatar/iAvatar).

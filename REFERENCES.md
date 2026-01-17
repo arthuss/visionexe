@@ -4,6 +4,9 @@ Index of docs and config files referenced across the repo. (Not constraints.)
 
 ## Docs
 - `docs/_index.md`
+- `docs/WORKSPACE_COMPENDIUM.md`
+- `docs/compendium_sections/00_overview.md`
+- `docs/compendium_sections/10_structure.md`
 - `docs/geez_analysis_methodology.md`
 - `docs/iclone_bridge.md`
 - `docs/motion_director_flow.md`

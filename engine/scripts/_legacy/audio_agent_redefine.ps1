@@ -1,6 +1,6 @@
 param(
     [int]$Start = 1,
-    [int]$End = 39,
+    [int]$End = 2,
     [string]$StoryRoot = "",
     [string]$StoryConfig = ""
 )

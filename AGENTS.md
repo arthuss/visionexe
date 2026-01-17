@@ -6,7 +6,8 @@
 # Bei Konflikt: Hard-State gewinnt
 ## Operating Rules
 - Log every change in STATE.md (see Log) with date/time and a short summary.
-- After each task, add a Log entry in STATE.md and update GEMINI.md.
+- After each task, add a Log entry in STATE.md. Appending logs to STATE.md does not require asking.
+- GEMINI.md is a pointer to the router in AGENTS.md and should only change if that link changes.
 - Keep README.md updated whenever behavior, usage, or workflow changes.
 - When reporting changes, link relevant files by path instead of duplicating content.
 - Reminder: Before finishing, log the change in STATE.md by appending a log entry, update ARCHITECTURE.md(if needed), and confirm CONSTRAINTS.md(if needed) and README.md(if needed) is current.
@@ -26,7 +27,7 @@
 - `CONSTRAINTS.md` (non-negotiables, append-only).
 - `REFERENCES.md` (docs/config index).
 - `docs/_index.md` (doc lookup shortcuts).
-- `GEMINI.md` (change log mirror).
+- `GEMINI.md` (pointer to AGENTS.md router).
 - `COPILOT.md` (Copilot hints).
 
 Docs under `docs/` are lookup material; prefer `docs/_index.md` and `REFERENCES.md` for navigation.
@@ -36,6 +37,7 @@ Docs under `docs/` are lookup material; prefer `docs/_index.md` and `REFERENCES.
 Safe to edit without asking: docs/* (ausser Hard-state), tests, new files
 
 Ask before editing: Hard-state markdowns + core configs
+Exception: appending log entries to STATE.md is allowed without asking.
 
 # Parallel Sessions Policy
 

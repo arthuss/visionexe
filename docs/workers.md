@@ -12,6 +12,7 @@ This document summarizes the worker scripts in `engine/workers` and how they fit
 - `worker_llm_analysis.py`: LLM analysis per segment/chapter.
 - `analysis_master_builder.py`: aggregates analysis into a master index.
 - `chapter_briefing_builder.py`: chapter briefings used before script generation.
+- `drehbuch_narration_worker.py`: narrative spec-script generation (writes `DREHBUCH_NARRATIV.md`).
 - `drehbuch.py` / `drehbuch_gemini.py`: screenplay generation (loads timeline profile + subject registry; override with `--timeline`).
 - `scene_instruction_builder.py`: extracts per-scene instructions and layouts.
 - `regie_worker.py`: fills/regenerates REGIE blocks when needed.
