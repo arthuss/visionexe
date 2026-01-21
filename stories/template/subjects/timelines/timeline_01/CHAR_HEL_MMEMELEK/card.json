@@ -1,0 +1,80 @@
+{
+  "id": "CHAR_HEL_MMEMELEK",
+  "name": "Helämmemelek",
+  "type": "character",
+  "card": {
+    "description": "Helämmemelek functions as the primary thermal regulator for the simulation's second processing quarter, a role analogous to a season of high solar intensity. He is not a mystical deity of summer but a senior administrator of the system's thermal throttling protocols, burdened with the heavy responsibility of managing the runtime's peak energy output. His existence is defined by the blinding, merciless clarity of the 'bright sun' subroutine—a massive, directional light source that traverses the upper store rails. Within the flat-earth container, he ensures that surface-level assets do not suffer from texture degradation or mesh failure due to simulated overheating. He carries himself with the weary, heavy-footed gravity of a technician working constantly near an exposed reactor core, his movements slow and deliberate to minimize kinetic heat generation.",
+    "visual_anatomy": [
+      "His physical form acts as a living heat sink, clad in heavy, layered vestments of matte-black obsidian weave and industrial cooling textiles. These garments are not decorative but functional, laced with fiber-optic capillaries that circulate liquid coolant, glowing with a faint, deep-red pulse as they transport waste heat away from his core. The textures are hyper-realistic, showing the microscopic wear of constant thermal expansion and contraction—tiny stress fractures in the armor plates and bleached patches on the fabric where the simulated UV index has exceeded safety limits.",
+      "The face of Helämmemelek is rarely seen without the protection of a heavy, polarized data-glass visor. This eyewear is opaque to the observer, reflecting the high-contrast glare of the artificial sky dome with perfect ray-traced fidelity. When the visor is raised, his skin appears parched and synthetic, resembling cured leather or overheated silicon, etched with fine, gold-circuitry scars that hint at the internal strain of interfacing directly with the sun's kernel manifestation. His eyes, if visible, are clouded by cataracts of digital noise, a consequence of staring too long into the raw code of the light source.",
+      "Surrounding him is a persistent zone of atmospheric distortion. The air ripples with heat lensing, bending the straight lines of the simulation's background grid into waving, organic curves. Dust motes that drift into his proximity do not merely settle; they incinerate into microscopic flashes of data-ash. His silhouette is often backlit by the harsh, vertical light of the noon cursor, casting long, razor-sharp shadows that emphasize the solitude of his station."
+    ],
+    "evolution": [
+      "In his default state, Helämmemelek is fixed in a perpetual high-noon vigilance. There is no narrative arc of transformation here, but rather a deepening of his static burden. As the quarter progresses, the cooling fluid in his suit cycles faster, the hum of his personal thermal exchangers growing louder. He represents the system under load—stoic, straining, but holding the operational parameters within the green zone."
+    ],
+    "props": [
+      "He manipulates a 'Solar Index Slate,' a rectangular pane of semi-transparent obsidian that displays real-time heat maps of the terrain sectors below. The interface is minimal—amber glyphs in Ge'ez script scrolling rapidly down the glass, warning of localized hotspots or texture pop-in risks.",
+      "Attached to his belt are 'Coolant Cells,' cylindrical canisters resembling thermos flasks but constructed from heavy aerospace ceramics. They vent small puffs of liquid nitrogen steam when he swaps them out, a tactile, physical act of maintenance that grounds his god-like role in mundane, mechanical labor."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic obsidian armor",
+      "heat haze distortion",
+      "polarized data visor",
+      "fiber-optic cooling tubes",
+      "scorched synthetic skin",
+      "high-contrast noon lighting",
+      "simulation glitch artifacts",
+      "atmospheric particles",
+      "matte black textures",
+      "cinematic depth of field"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic medium shot of Helämmemelek, the administrator of the bright sun, standing against a blindingly bright, high-contrast sky dome background. He wears heavy, matte-black protective robes made of obsidian-weave fabric, detailed with glowing red fiber-optic cooling lines. His face is shielded by a thick, opaque data-glass visor reflecting the harsh overhead light. The air around him ripples with intense heat haze and thermal lensing effects. The lighting is vertical and unforgiving (noon lighting), casting deep, pitch-black shadows. The texture of his gear shows signs of heat stress and wear. 8k resolution, Octane render, physically based rendering.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "The Solar Administrator",
+        "summary": "Helämmemelek stands amidst the shimmering heat of the second quarter, monitoring the system's thermal load with stoic exhaustion.",
+        "prompt_keywords": [
+          "heat waves",
+          "noon sun",
+          "administrative fatigue"
+        ],
+        "prompt_block": "A photorealistic close-up of Helämmemelek, a figure in heavy black cooling-suit armor, standing in a desert-like simulation environment under a blinding white sun. Heat waves distort the horizon. He holds a translucent tablet displaying amber Ge'ez data streams. His visor reflects the stark geometry of the artificial sky. The mood is oppressive and silent. High dynamic range, cinematic lighting, distinct textures of scorched fabric and glass."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_HEL_MMEMELEK",
+    "name": "Helämmemelek",
+    "type": "character",
+    "aliases": [
+      "Helämmemelek"
+    ],
+    "roles": [
+      "One of the four primary leaders of the seasons, rules the second quarter of the year."
+    ],
+    "visual_traits": [
+      "Associated with the 'bright sun'."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1175"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 82,
+        "chapter_end": 82,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

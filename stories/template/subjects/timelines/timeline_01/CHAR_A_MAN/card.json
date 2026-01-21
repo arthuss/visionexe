@@ -1,0 +1,75 @@
+{
+  "id": "CHAR_A_MAN",
+  "name": "A man",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for A man.",
+    "visual_anatomy": [
+      "Traits: A form the moon is said to resemble at night., {'description': 'A symbolic figure who is saved in the first week (93:4), is chosen as a plant of righteous judgment in the third week (93:5), and ascends in the sixth week (93:8).'}",
+      "Roles: character, combatant, simile"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A form the moon is said to resemble at night.",
+      "{'description': 'A symbolic figure who is saved in the first week (93:4), is chosen as a plant of righteous judgment in the third week (93:5), and ascends in the sixth week (93:8).'}"
+    ],
+    "prompt_block": "A man, A form the moon is said to resemble at night., {'description': 'A symbolic figure who is saved in the first week (93:4), is chosen as a plant of righteous judgment in the third week (93:5), and ascends in the sixth week (93:8).'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A form the moon is said to resemble at night.",
+          "{'description': 'A symbolic figure who is saved in the first week (93:4), is chosen as a plant of righteous judgment in the third week (93:5), and ascends in the sixth week (93:8).'}"
+        ],
+        "prompt_block": "A man, A form the moon is said to resemble at night., {'description': 'A symbolic figure who is saved in the first week (93:4), is chosen as a plant of righteous judgment in the third week (93:5), and ascends in the sixth week (93:8).'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_A_MAN",
+    "name": "A man",
+    "type": "character",
+    "aliases": [
+      "A man",
+      "a man"
+    ],
+    "roles": [
+      "character",
+      "combatant",
+      "simile"
+    ],
+    "visual_traits": [
+      "A form the moon is said to resemble at night.",
+      "{'description': 'A symbolic figure who is saved in the first week (93:4), is chosen as a plant of righteous judgment in the third week (93:5), and ascends in the sixth week (93:8).'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1149",
+      "row_1171",
+      "row_1186"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 56,
+        "chapter_end": 93,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

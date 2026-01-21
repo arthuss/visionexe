@@ -1,0 +1,72 @@
+{
+  "id": "SETENV_DAY_OF_GREAT_JUDGMENT",
+  "name": "Day of Great Judgment",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Day of Great Judgment.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A future event (ዕለተ፡ ነµ፡ዐÅይ) on which sinners will be judged and cannot hide.'}, {'description': 'A temporal environment (ዕለተ፡÷ነµ፡ዐባይ) of destruction for the wicked.'}",
+      "Roles: eschatological_event, temporal_setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A future event (ዕለተ፡ ነµ፡ዐÅይ) on which sinners will be judged and cannot hide.'}",
+      "{'description': 'A temporal environment (ዕለተ፡÷ነµ፡ዐባይ) of destruction for the wicked.'}"
+    ],
+    "prompt_block": "Day of Great Judgment, {'description': 'A future event (ዕለተ፡ ነµ፡ዐÅይ) on which sinners will be judged and cannot hide.'}, {'description': 'A temporal environment (ዕለተ፡÷ነµ፡ዐባይ) of destruction for the wicked.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A future event (ዕለተ፡ ነµ፡ዐÅይ) on which sinners will be judged and cannot hide.'}",
+          "{'description': 'A temporal environment (ዕለተ፡÷ነµ፡ዐባይ) of destruction for the wicked.'}"
+        ],
+        "prompt_block": "Day of Great Judgment, {'description': 'A future event (ዕለተ፡ ነµ፡ዐÅይ) on which sinners will be judged and cannot hide.'}, {'description': 'A temporal environment (ዕለተ፡÷ነµ፡ዐባይ) of destruction for the wicked.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_DAY_OF_GREAT_JUDGMENT",
+    "name": "Day of Great Judgment",
+    "type": "set_environment",
+    "aliases": [
+      "Day of Great Judgment"
+    ],
+    "roles": [
+      "eschatological_event",
+      "temporal_setting"
+    ],
+    "visual_traits": [
+      "{'description': 'A future event (ዕለተ፡ ነµ፡ዐÅይ) on which sinners will be judged and cannot hide.'}",
+      "{'description': 'A temporal environment (ዕለተ፡÷ነµ፡ዐባይ) of destruction for the wicked.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1188",
+      "row_1197"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 94,
+        "chapter_end": 104,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

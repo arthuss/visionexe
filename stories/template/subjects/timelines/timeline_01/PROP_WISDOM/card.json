@@ -1,0 +1,69 @@
+{
+  "id": "PROP_WISDOM",
+  "name": "wisdom",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for wisdom.",
+    "visual_anatomy": [
+      "Traits: Personified female entity (ጥበብ, ṭəbab)., is given by the Creator",
+      "Roles: scene_prop, seeker"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Personified female entity (ጥበብ, ṭəbab).",
+      "is given by the Creator"
+    ],
+    "prompt_block": "wisdom, Personified female entity (ጥበብ, ṭəbab)., is given by the Creator",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Personified female entity (ጥበብ, ṭəbab).",
+          "is given by the Creator"
+        ],
+        "prompt_block": "wisdom, Personified female entity (ጥበብ, ṭəbab)., is given by the Creator"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_WISDOM",
+    "name": "wisdom",
+    "type": "prop",
+    "aliases": [
+      "wisdom"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "is given by the Creator"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1194"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 101,
+        "chapter_end": 101,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

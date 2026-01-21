@@ -1,0 +1,103 @@
+{
+  "id": "CHAR_THOSE_WHO_DWELL_ON_EARTH",
+  "name": "Those who dwell on earth",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Those who dwell on earth.",
+    "visual_anatomy": [
+      "Roles: inhabitants of earth"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Those who dwell on earth, inhabitants of earth",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Those who dwell on earth, inhabitants of earth, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Those who dwell on earth, inhabitants of earth, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Those who dwell on earth, inhabitants of earth, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THOSE_WHO_DWELL_ON_EARTH",
+    "name": "Those who dwell on earth",
+    "type": "character",
+    "aliases": [
+      "Those who dwell on earth"
+    ],
+    "roles": [
+      "inhabitants of earth"
+    ],
+    "visual_traits": [],
+    "changes": [
+      "{'phase': 'Phase 1: Normal State', 'description': 'Inhabitants of the earth.'}",
+      "{'phase': 'Phase 2: State of Error', 'description': 'Their thoughts go astray, they turn from their paths, and they mistakenly worship stars as gods.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1173"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 80,
+        "chapter_end": 79,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 80,
+        "chapter_end": 79,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Normal State', 'description': 'Inhabitants of the earth.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 80,
+        "chapter_end": 80,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: State of Error', 'description': 'Their thoughts go astray, they turn from their paths, and they mistakenly worship stars as gods.'}"
+        ]
+      }
+    ]
+  }
+}

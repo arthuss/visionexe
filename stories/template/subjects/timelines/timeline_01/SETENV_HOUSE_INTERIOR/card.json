@@ -3,70 +3,25 @@
   "name": "house interior",
   "type": "set_environment",
   "card": {
-    "description": "A cathedral‑like hall within a high‑tech house, featuring a seamless blue superconductor glass floor, a rigid grid of fiber‑optic cables pulsing white light, walls etched with ancient Ethiopian and Egyptian crystalline glyphs, liquid nitrogen fog creeping across the floor, a small figure kneeling shivering, digital frost covering the figure, breath forming floating zeroes and ones, and a massive rectangular doorway emitting blinding golden light. The atmosphere is sterile, freezing, and saturated with volumetric lighting and bio‑luminescent veins.",
-    "tags": [
-      "ancient-tech",
-      "industrial mysticism",
-      "photorealistic",
-      "blue superconductor glass",
-      "fiber‑optic grid",
-      "liquid nitrogen fog",
-      "digital frost",
-      "zeroes and ones",
-      "golden doorway",
-      "Ethiopian motifs",
-      "Egyptian glyphs"
-    ],
+    "description": "Auto-generated asset card for house interior.",
     "visual_anatomy": [
-      "**Floor:** seamless polished blue superconductor glass, reflective, temperature gradient, faint frost condensation.",
-      "**Ceiling:** rigid grid of fiber‑optic cables, white light pulses, embedded ancient glyphs in crystalline lattice, bioluminescent veins.",
-      "**Walls:** smooth concrete with translucent panels, ancient Ethiopian/Egyptian motifs etched in crystalline hardware, faint phosphorescent glow.",
-      "**Lighting:** volumetric cold blue ambient, white fiber‑optic pulses, golden doorway illumination, digital frost glow.",
-      "**Atmosphere:** liquid nitrogen fog, static electric hum, breath forming zeroes and ones."
+      "Roles: setting"
     ],
     "evolution": [
-      "Phase 1 (Default): A vast cathedral‑like hall with blue superconductor glass floor, fiber‑optic grid ceiling, crystalline glyph walls, liquid nitrogen fog, digital frost, and a golden doorway."
+      "Phase (Default)"
     ],
     "props": [
-      "Liquid nitrogen fog generator",
-      "Fiber‑optic grid panels",
-      "Crystalline glyph panels",
-      "Digital frost emitter",
-      "Golden doorway light source"
+      "TBD."
     ],
-    "prompt_keywords": [
-      "ancient-tech",
-      "industrial mysticism",
-      "photorealistic",
-      "blue superconductor glass",
-      "fiber‑optic grid",
-      "liquid nitrogen fog",
-      "digital frost",
-      "zeroes and ones",
-      "golden doorway",
-      "Ethiopian motifs",
-      "Egyptian glyphs"
-    ],
-    "prompt_block": "A vast cathedral‑like hall inside a high‑tech house, seamless blue superconductor glass floor, rigid grid of fiber‑optic cables pulsing white light, walls etched with ancient Ethiopian and Egyptian crystalline glyphs, liquid nitrogen fog creeping across the floor, a small figure kneeling shivering, digital frost covering the figure, breath forming floating zeroes and ones, massive rectangular doorway emitting blinding golden light, sterile freezing atmosphere, photorealistic, tactile, industrial mysticism, ancient‑tech fusion, volumetric lighting, bio‑luminescent veins, crystalline hardware, photorealistic detail.",
+    "prompt_keywords": [],
+    "prompt_block": "house interior, setting",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "The baseline cathedral‑like hall with blue glass floor, fiber‑optic grid ceiling, crystalline glyph walls, liquid nitrogen fog, digital frost, and a golden doorway.",
-        "prompt_keywords": [
-          "ancient-tech",
-          "industrial mysticism",
-          "photorealistic",
-          "blue superconductor glass",
-          "fiber‑optic grid",
-          "liquid nitrogen fog",
-          "digital frost",
-          "zeroes and ones",
-          "golden doorway",
-          "Ethiopian motifs",
-          "Egyptian glyphs"
-        ],
-        "prompt_block": "A vast cathedral‑like hall inside a high‑tech house, seamless blue superconductor glass floor, rigid grid of fiber‑optic cables pulsing white light, walls etched with ancient Ethiopian and Egyptian crystalline glyphs, liquid nitrogen fog creeping across the floor, a small figure kneeling shivering, digital frost covering the figure, breath forming floating zeroes and ones, massive rectangular doorway emitting blinding golden light, sterile freezing atmosphere, photorealistic, tactile, industrial mysticism, ancient‑tech fusion, volumetric lighting, bio‑luminescent veins, crystalline hardware, photorealistic detail."
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "house interior, setting"
       }
     ]
   },
@@ -86,7 +41,7 @@
     "sources": [
       "row_979"
     ],
-    "occurrence_count": 1,
+    "occurrence_count": 2,
     "is_dynamic": false,
     "state_policy": "static",
     "states": [

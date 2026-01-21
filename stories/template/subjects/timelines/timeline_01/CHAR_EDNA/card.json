@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_EDNA",
+  "name": "Edna",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Edna.",
+    "visual_anatomy": [
+      "Traits: {'description': 'The mother of Methuselah and wife of Enoch.'}",
+      "Roles: actor"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The mother of Methuselah and wife of Enoch.'}"
+    ],
+    "prompt_block": "Edna, {'description': 'The mother of Methuselah and wife of Enoch.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The mother of Methuselah and wife of Enoch.'}"
+        ],
+        "prompt_block": "Edna, {'description': 'The mother of Methuselah and wife of Enoch.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_EDNA",
+    "name": "Edna",
+    "type": "character",
+    "aliases": [
+      "Edna"
+    ],
+    "roles": [
+      "actor"
+    ],
+    "visual_traits": [
+      "{'description': 'The mother of Methuselah and wife of Enoch.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1178"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 85,
+        "chapter_end": 85,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_THEOPHANIC_PRESSURE",
+  "name": "Theophanic Pressure",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Theophanic Pressure.",
+    "visual_anatomy": [
+      "Traits: An intense, invisible force causing geological structures to destabilize and melt.",
+      "Roles: ambient_phenomenon"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "An intense, invisible force causing geological structures to destabilize and melt."
+    ],
+    "prompt_block": "Theophanic Pressure, An intense, invisible force causing geological structures to destabilize and melt.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "An intense, invisible force causing geological structures to destabilize and melt."
+        ],
+        "prompt_block": "Theophanic Pressure, An intense, invisible force causing geological structures to destabilize and melt."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THEOPHANIC_PRESSURE",
+    "name": "Theophanic Pressure",
+    "type": "set_environment",
+    "aliases": [
+      "Theophanic Pressure"
+    ],
+    "roles": [
+      "ambient_phenomenon"
+    ],
+    "visual_traits": [
+      "An intense, invisible force causing geological structures to destabilize and melt."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1079"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 1,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

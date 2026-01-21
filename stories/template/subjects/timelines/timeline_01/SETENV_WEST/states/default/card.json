@@ -4,8 +4,8 @@
   "state": {
     "state_id": "default",
     "label": "Default",
-    "chapter_start": 72,
-    "chapter_end": 75,
+    "chapter_start": 57,
+    "chapter_end": 83,
     "segment_labels": [],
     "scene_labels": [],
     "source_ids": [],
@@ -14,17 +14,15 @@
   "phase_prompt": {
     "state_id": "default",
     "label": "Default",
-    "summary": "Base environment of West sector: obsidian monolith, wireframe desert, ferrofluid pits, chrome piping, LED strips, frost.",
+    "summary": "",
     "prompt_keywords": [
-      "obsidian",
-      "monolith",
-      "wireframe",
-      "ferrofluid",
-      "chrome",
-      "LED",
-      "frost",
-      "photorealistic"
+      "A celestial direction associated with the completion of the Moon's light.",
+      "The direction where the sun sets.",
+      "directional",
+      "directional, twilight",
+      "{'description': 'The direction associated with the setting of celestial bodies.', 'type': 'direction'}",
+      "{'description': 'The direction in which the moon sets.'}"
     ],
-    "prompt_block": "A photorealistic, tactile depiction of West sector: a vast grey wireframe-grid desert under a dead static‑white void sky, dominated by an infinite black obsidian monolith rising vertically. The base shows a subtle digital heat haze (DISTORTION_WAVE) blurring the horizon, with sterile uniform ambient occlusion lighting and no direct sun shadows. The floor features four concave depressions filled with jet‑black ferrofluid, rimmed by industrial chrome piping and cold blue LED strips, with frost collecting on the pipes (CRYOGENIC_DETAIL). The black liquid reflects the chrome perfectly, creating a high‑contrast, tactile visual field. The environment exudes ancient‑tech mysticism with a grounded realism, avoiding generic sci‑fi aesthetics."
+    "prompt_block": "West, A celestial direction associated with the completion of the Moon's light., The direction where the sun sets., directional, directional, twilight, {'description': 'The direction associated with the setting of celestial bodies.', 'type': 'direction'}, {'description': 'The direction in which the moon sets.'}"
   }
 }

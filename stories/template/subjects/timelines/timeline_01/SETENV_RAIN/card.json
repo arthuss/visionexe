@@ -3,65 +3,54 @@
   "name": "rain",
   "type": "set_environment",
   "card": {
-    "description": "A surreal, photorealistic rain environment where each droplet is a perfect glass sphere, etched with faint ancient Ethiopian and Egyptian glyphs, suspended mid‑air in a dark jungle illuminated by bioluminescent flora. The droplets reflect the surrounding environment, creating a shimmering, otherworldly canopy that blends ancient mysticism with incomprehensible technology.",
-    "tags": [
-      "rain",
-      "environment",
-      "ancient-tech",
-      "photorealistic",
-      "glass",
-      "bioluminescent",
-      "Ethiopian",
-      "Egyptian",
-      "spherical",
-      "glittering",
-      "volumetric"
-    ],
+    "description": "Auto-generated asset card for rain.",
     "visual_anatomy": [
-      "**Body/Form:** A volumetric field of perfectly spherical glass droplets, each 2–5 mm in diameter, suspended in mid‑air with subtle micro‑gravity drift, forming a dense rain curtain.",
-      "**Face/Sensors:** N/A",
-      "**Clothing/Armor:** N/A",
-      "**Key Features:** Each sphere is etched with faint, translucent hieroglyphic patterns in a copper‑bronze hue; the glass refracts and reflects bioluminescent jungle light, creating a dynamic, shimmering effect. Droplets are slightly charged, producing a faint static glow at their poles, and the entire field exhibits a subtle volumetric glow from embedded micro‑LEDs hidden within the glass.",
-      "**Lighting:** Soft, diffused bioluminescent glow from surrounding flora, with high‑contrast rim lighting on the droplets to accentuate their refractive quality."
+      "Traits: {'description': \"Rain ('ዝናም') that emerges from the southern gates.\", 'state': 'dynamic', 'details': \"It 'comes out' ('ይወፅእ') from the gates.\"}, {'description': 'Atmospheric phenomenon that testifies against sinners.'}",
+      "Roles: agent_of_judgment, setting, weather phenomenon, weather_phenomenon"
     ],
     "evolution": [
-      "Phase 1 (Spherical Glass Rain): Initial state with individual glass spheres, each etched with ancient glyphs and reflecting the environment.",
-      "Phase 2 (Crystalline Rainfall): Droplets fuse into larger crystalline lattices, forming translucent pillars that channel ambient light into fractal patterns."
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
     ],
     "props": [
-      "Rain Spheres",
-      "Bioluminescent Flora",
-      "Ancient Glyphs"
+      "TBD."
     ],
     "prompt_keywords": [
-      "glass droplets",
-      "bioluminescent",
-      "ancient glyphs",
-      "Ethiopian",
-      "Egyptian",
-      "photorealistic",
-      "volumetric",
-      "spherical",
-      "reflective"
+      "{'description': \"Rain ('ዝናም') that emerges from the southern gates.\", 'state': 'dynamic', 'details': \"It 'comes out' ('ይወፅእ') from the gates.\"}",
+      "{'description': 'Atmospheric phenomenon that testifies against sinners.'}"
     ],
-    "prompt_block": "A cinematic, photorealistic 9:16 vertical composition of a dark jungle canopy, where rain falls as perfect glass spheres, each etched with faint Ethiopian and Egyptian glyphs, reflecting bioluminescent flora and the surrounding mist; the droplets hang suspended in mid‑air, creating a shimmering, volumetric rain curtain that blends ancient mysticism with incomprehensible technology, high depth of field, 8k resolution, Unreal Engine 5 style",
+    "prompt_block": "rain, {'description': \"Rain ('ዝናም') that emerges from the southern gates.\", 'state': 'dynamic', 'details': \"It 'comes out' ('ይወፅእ') from the gates.\"}, {'description': 'Atmospheric phenomenon that testifies against sinners.'}",
     "phase_prompts": [
       {
-        "state_id": "default",
-        "label": "Default",
-        "summary": "Spherical glass rain in dark jungle with bioluminescent glow",
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
         "prompt_keywords": [
-          "glass droplets",
-          "bioluminescent",
-          "ancient glyphs",
-          "Ethiopian",
-          "Egyptian",
-          "photorealistic",
-          "volumetric",
-          "spherical",
-          "reflective"
+          "{'description': \"Rain ('ዝናም') that emerges from the southern gates.\", 'state': 'dynamic', 'details': \"It 'comes out' ('ይወፅእ') from the gates.\"}",
+          "{'description': 'Atmospheric phenomenon that testifies against sinners.'}"
         ],
-        "prompt_block": "A cinematic, photorealistic 9:16 vertical composition of a dark jungle canopy, where rain falls as perfect glass spheres, each etched with faint Ethiopian and Egyptian glyphs, reflecting bioluminescent flora and the surrounding mist; the droplets hang suspended in mid‑air, creating a shimmering, volumetric rain curtain that blends ancient mysticism with incomprehensible technology, high depth of field, 8k resolution, Unreal Engine 5 style"
+        "prompt_block": "rain, {'description': \"Rain ('ዝናም') that emerges from the southern gates.\", 'state': 'dynamic', 'details': \"It 'comes out' ('ይወፅእ') from the gates.\"}, {'description': 'Atmospheric phenomenon that testifies against sinners.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"Rain ('ዝናም') that emerges from the southern gates.\", 'state': 'dynamic', 'details': \"It 'comes out' ('ይወፅእ') from the gates.\"}",
+          "{'description': 'Atmospheric phenomenon that testifies against sinners.'}"
+        ],
+        "prompt_block": "rain, {'description': \"Rain ('ዝናም') that emerges from the southern gates.\", 'state': 'dynamic', 'details': \"It 'comes out' ('ይወፅእ') from the gates.\"}, {'description': 'Atmospheric phenomenon that testifies against sinners.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"Rain ('ዝናም') that emerges from the southern gates.\", 'state': 'dynamic', 'details': \"It 'comes out' ('ይወፅእ') from the gates.\"}",
+          "{'description': 'Atmospheric phenomenon that testifies against sinners.'}"
+        ],
+        "prompt_block": "rain, {'description': \"Rain ('ዝናም') that emerges from the southern gates.\", 'state': 'dynamic', 'details': \"It 'comes out' ('ይወፅእ') from the gates.\"}, {'description': 'Atmospheric phenomenon that testifies against sinners.'}, Phase 3"
       }
     ]
   },
@@ -70,30 +59,70 @@
     "name": "rain",
     "type": "set_environment",
     "aliases": [
+      "Rain",
       "rain"
     ],
     "roles": [
-      "setting"
+      "agent_of_judgment",
+      "setting",
+      "weather phenomenon",
+      "weather_phenomenon"
     ],
-    "visual_traits": [],
-    "changes": [],
+    "visual_traits": [
+      "{'description': \"Rain ('ዝናም') that emerges from the southern gates.\", 'state': 'dynamic', 'details': \"It 'comes out' ('ይወፅእ') from the gates.\"}",
+      "{'description': 'Atmospheric phenomenon that testifies against sinners.'}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Normal Order', 'description': 'Falls in its proper time.'}",
+      "{'phase': 'Phase 2: Disrupted Order', 'description': 'Is withheld.'}",
+      "{'is_dynamic': True, 'description': 'Is withheld from the sinners.'}"
+    ],
     "notes": [],
     "sources": [
+      "row_1129",
+      "row_1173",
+      "row_1193",
       "row_7"
     ],
-    "occurrence_count": 1,
-    "is_dynamic": false,
-    "state_policy": "static",
+    "occurrence_count": 8,
+    "is_dynamic": true,
+    "state_policy": "phases",
     "states": [
       {
-        "state_id": "default",
-        "label": "Default",
+        "state_id": "phase_01",
+        "label": "Phase 1",
         "chapter_start": 1,
-        "chapter_end": 1,
+        "chapter_end": 33,
         "segment_labels": [],
         "scene_labels": [],
         "source_ids": [],
-        "notes": []
+        "notes": [
+          "{'phase': 'Phase 1: Normal Order', 'description': 'Falls in its proper time.'}"
+        ]
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 34,
+        "chapter_end": 66,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Disrupted Order', 'description': 'Is withheld.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 67,
+        "chapter_end": 100,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'is_dynamic': True, 'description': 'Is withheld from the sinners.'}"
+        ]
       }
     ]
   }

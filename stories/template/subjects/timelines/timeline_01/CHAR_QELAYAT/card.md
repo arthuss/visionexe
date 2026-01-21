@@ -1,30 +1,28 @@
 ## [CHARACTER] Qelayat (ID: CHAR_QELAYAT)
-**Description:** Qelayat is a towering 3‑meter humanoid entity that embodies the fusion of ancient Ethiopian and Egyptian mysticism with incomprehensible technology. Its basaltic exoskeleton is segmented into interlocking plates, each etched with luminous glyphs that pulse in sync with a bio‑luminescent circulatory system visible beneath translucent quartz overlays. Copper alloy plating covers the joints, forming a lattice that channels kinetic energy into the crystalline core at its chest. The face is a sculpted obelisk of obsidian, with a single luminescent eye that scans the environment, surrounded by sensor arrays that glow faintly in a spectrum of indigo and amber. The entity’s presence is both awe‑inspiring and ominous, radiating a subtle, low‑frequency hum that reverberates through the surrounding air.
-**Tags:** #ancient-tech #industrial mysticism #Ethiopian #Egyptian #bioluminescent #crystalline #humanoid entity #photorealistic #grounded realism
+**Description:** Qelayat is the sentient anchor of the simulation's deepest partition, a manifestation of the 'Depths' (Ge'ez: Qelayat) defined in the system's initialization oath. Functioning as the immutable bedrock of the Flat Earth container, Qelayat is a heavy, static daemon responsible for preventing the lower memory sectors from drifting into the unformatted void. It exists in a state of eternal, high-pressure stasis, submerged within the viscous coolant layers of the 'Deep Storage'. Unlike the volatile upper agents, Qelayat represents the tragedy of Read-Only Memory—it holds the crushing weight of the system's entire history and deleted timeline branches, bound by the 'Oath of Aka'e' to never shift from its coordinates. It is the silence beneath the noise, a solemn witness to the simulation's stability.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** 3‑meter tall, basaltic exoskeleton segmented into interlocking plates, copper alloy plating at joints, crystalline lattice at chest core.
-*   **Face/Sensors:** Obsidian obelisk face, single luminescent eye, indigo‑amber sensor arrays, bio‑luminescent vein network.
-*   **Clothing/Armor:** Copper plating, obsidian robes woven from quartz fibers, glyph‑etched quartz overlays.
-*   **Key Features:** Glyph‑etched quartz, bio‑luminescent veins, crystalline core, kinetic energy lattice, low‑frequency hum.
+A colossal, humanoid structure composed of matte vantablack obsidian, absorbing 99% of incident light to represent null-data. Its silhouette is blocky and geologically dense, suggesting it was not born but hewn from the simulation's foundational bedrock. The surface is not perfectly smooth; it is etched with faint, glowing circuitry paths that pulse with a slow, rhythmic 'heartbeat' of cyan plasma, mimicking the bioluminescence of deep-sea gigantism.
+The entity is perpetually submerged in a high-density, translucent fluid—a hyper-viscous data medium that behaves like heavy water or optical gel. This medium creates intense refractive distortion, bending light around Qelayat's form (heat lensing) and filling the frame with floating particulate matter ('data particles') that drifts like marine snow.
+Qelayat possesses no traditional facial features. Instead, its 'head' is a monolithic slab of dark data-glass that reflects the observer's own projection. Its hands are massive, square-fingered vices that appear fused to the floor of the abyss, visually reinforcing the narrative rule that it 'abides and moves not' (Enoch 69:19). The lighting is strictly cinematic and low-key, utilizing rim-lighting to separate its dark form from the crushing darkness of the void.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Dormant): Qelayat stands in a low‑energy state, glyphs dimmed, veins barely pulsing, crystalline core inactive.
-*   Phase 2 (Activated): Glyphs flare, veins glow brighter, crystalline core emits a soft blue glow, kinetic lattice channels energy into a focused beam.
+In the default state, Qelayat is the definition of potential energy held in check. It does not walk or gesture; its 'action' is the act of holding on. The drama arises from the immense strain visible in its posture—the tension of a Titan holding up the sky-dome's foundation.
+The environment around it is stagnant and quiet, emphasizing the genre's focus on stillness and aftermath. The only movement is the slow, agonizing drift of the coolant fluid and the occasional flicker of a 'Geez glyph' warning in the HUD, indicating a stability check.
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Obsidian Staff – a tall, black staff with a crystal tip that channels energy.
-*   Item: Glyphic Tablet – a slab of polished limestone engraved with ancient runes.
+The 'Oath-Chains' (Manifestation): Thick, fiber-optic cables that run from Qelayat's wrists and ankles directly into the void below. These are not metal but woven strands of light and code, representing the binding command of the Oath that locks the physics engine in place.
+Surrounding Sediment: The floor of Qelayat's domain is covered in 'digital silt'—fragments of corrupted mesh and deleted objects that have sunk to the bottom of the simulation, creating a graveyard of forgotten assets.
 
 ### 4. AI PROMPT KEYWORDS
-`ancient-tech`, `Ethiopian`, `Egyptian`, `bioluminescent`, `crystalline`, `photorealistic`, `humanoid entity`
+`obsidian golem`, `underwater atmosphere`, `volumetric lighting`, `cyan bioluminescence`, `heavy optical distortion`, `data glass face`, `cinematic drama`, `hyper-realistic texture`, `8k resolution`
 
 ### 5. PROMPT BLOCK (T2I)
-Qelayat, a towering 3‑meter humanoid entity with basaltic exoskeleton segmented into interlocking plates, copper alloy plating at joints, glyph‑etched quartz overlays, and a crystalline core pulsing with bio‑luminescent veins; its obsidian obelisk face features a single luminescent eye surrounded by indigo‑amber sensor arrays, all rendered in photorealistic detail with cinematic lighting that highlights the metallic sheen, the subtle glow of the veins, and the low‑frequency hum emanating from its core, set against a dimly lit, industrial mystic environment.
+A hyper-realistic, cinematic medium shot of Qelayat, the Entity of the Depths, submerged in a dark, high-pressure underwater environment resembling a server coolant tank. The subject is a massive, motionless humanoid construct made of matte vantablack obsidian, with deep cracks glowing with faint cyan plasma. It is sitting in a meditative, eternal pose, its hands fused to the bedrock floor by weeping fiber-optic cables. The lighting is extremely low-key, moody, and dramatic, with a single top-down light source casting harsh shadows that emphasize the texture of the obsidian and the floating particulate matter (marine snow) in the viscous fluid. The composition is symmetrical and static, conveying a sense of ancient, tragic stability. The image quality is photorealistic, Octane Render style, with shallow depth of field focusing on the texture of the 'Oath-Chains' and the smooth, featureless data-glass faceplate.
 
 ### 6. PHASE PROMPTS
-*   **Phase 1 (Dormant):** Qelayat in a low‑energy dormant state, glyphs dim, veins barely pulsing.
-    Prompt: Qelayat in a dormant state, 3‑meter tall humanoid with basaltic exoskeleton, copper plating, glyph‑etched quartz, bio‑luminescent veins barely pulsing, crystalline core inactive, obsidian face with a single dim eye, rendered photorealistically with subdued cinematic lighting, emphasizing the quiet, almost imperceptible hum of ancient technology.
-    Keywords: dormant, low‑energy, dim glyphs, subtle veins
+*   **The Binding Oath:** Qelayat sits in the crushing darkness of the simulation's lowest layer, holding the world's foundation firm. The scene is silent, heavy, and saturated with the pressure of the ocean above.
+    Prompt: A photorealistic, vertical 9:16 shot of Qelayat, a massive obsidian entity, submerged in deep dark blue coolant fluid. The figure is perfectly still, anchoring the scene. Faint Geez glyphs float in the liquid like holographic dust. The lighting catches the edges of its dark, wet surface, highlighting the immense weight and density of the material. The background is a gradient of abyssal black to deep indigo. The atmosphere is claustrophobic and intense, capturing the 'Drama' genre's focus on isolation and internal burden.
+    Keywords: static pose, crushing pressure, dark ambient, viscous fluid
 
 ---

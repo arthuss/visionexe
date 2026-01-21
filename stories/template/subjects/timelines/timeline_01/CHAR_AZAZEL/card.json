@@ -1,0 +1,78 @@
+{
+  "id": "CHAR_AZAZEL",
+  "name": "Azazel",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Azazel.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A figure who is the primary subject of judgment, with associated companies and hosts.'}, {'description': 'An entity who teaches forbidden knowledge.', 'source_text_ref': 'ወአዛዝኤል፡\\u200bመሐሮሙ'}",
+      "Roles: Fallen Angel, Teacher of forbidden arts (metallurgy, weaponry, cosmetics), The antagonist to be judged by the Elect One., antagonist_leader, fallen angel, subject of judgment"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A figure who is the primary subject of judgment, with associated companies and hosts.'}",
+      "{'description': 'An entity who teaches forbidden knowledge.', 'source_text_ref': 'ወአዛዝኤል፡\\u200bመሐሮሙ'}"
+    ],
+    "prompt_block": "Azazel, {'description': 'A figure who is the primary subject of judgment, with associated companies and hosts.'}, {'description': 'An entity who teaches forbidden knowledge.', 'source_text_ref': 'ወአዛዝኤል፡\\u200bመሐሮሙ'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A figure who is the primary subject of judgment, with associated companies and hosts.'}",
+          "{'description': 'An entity who teaches forbidden knowledge.', 'source_text_ref': 'ወአዛዝኤል፡\\u200bመሐሮሙ'}"
+        ],
+        "prompt_block": "Azazel, {'description': 'A figure who is the primary subject of judgment, with associated companies and hosts.'}, {'description': 'An entity who teaches forbidden knowledge.', 'source_text_ref': 'ወአዛዝኤል፡\\u200bመሐሮሙ'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_AZAZEL",
+    "name": "Azazel",
+    "type": "character",
+    "aliases": [
+      "Azazel"
+    ],
+    "roles": [
+      "Fallen Angel",
+      "Teacher of forbidden arts (metallurgy, weaponry, cosmetics)",
+      "The antagonist to be judged by the Elect One.",
+      "antagonist_leader",
+      "fallen angel, subject of judgment"
+    ],
+    "visual_traits": [
+      "{'description': 'A figure who is the primary subject of judgment, with associated companies and hosts.'}",
+      "{'description': 'An entity who teaches forbidden knowledge.', 'source_text_ref': 'ወአዛዝኤል፡\\u200bመሐሮሙ'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1101",
+      "row_1102",
+      "row_1106",
+      "row_1147",
+      "row_1148"
+    ],
+    "occurrence_count": 10,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 8,
+        "chapter_end": 55,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

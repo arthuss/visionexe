@@ -1,0 +1,60 @@
+{
+  "id": "SETENV_END_OF_THE_HEAVENS",
+  "name": "end of the heavens",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for end of the heavens.",
+    "visual_anatomy": [
+      "Roles: Destination of Enoch's ascent"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "end of the heavens, Destination of Enoch's ascent",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "end of the heavens, Destination of Enoch's ascent"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_END_OF_THE_HEAVENS",
+    "name": "end of the heavens",
+    "type": "set_environment",
+    "aliases": [
+      "end of the heavens"
+    ],
+    "roles": [
+      "Destination of Enoch's ascent"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1132"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 39,
+        "chapter_end": 39,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

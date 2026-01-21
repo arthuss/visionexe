@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_WOMAN_IN_TRAVAIL",
+  "name": "Woman in Travail",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Woman in Travail.",
+    "visual_anatomy": [
+      "Traits: In the pains of childbirth when her child comes to the mouth of the womb.",
+      "Roles: A simile for the pain experienced by the kings."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "In the pains of childbirth when her child comes to the mouth of the womb."
+    ],
+    "prompt_block": "Woman in Travail, In the pains of childbirth when her child comes to the mouth of the womb.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "In the pains of childbirth when her child comes to the mouth of the womb."
+        ],
+        "prompt_block": "Woman in Travail, In the pains of childbirth when her child comes to the mouth of the womb."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_WOMAN_IN_TRAVAIL",
+    "name": "Woman in Travail",
+    "type": "character",
+    "aliases": [
+      "Woman in Travail"
+    ],
+    "roles": [
+      "A simile for the pain experienced by the kings."
+    ],
+    "visual_traits": [
+      "In the pains of childbirth when her child comes to the mouth of the womb."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1155"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 62,
+        "chapter_end": 62,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

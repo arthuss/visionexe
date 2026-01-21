@@ -1,0 +1,71 @@
+{
+  "id": "PROP_BLOOD",
+  "name": "Blood",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Blood.",
+    "visual_anatomy": [
+      "Traits: Seen in great quantity, being shed upon the earth., blood",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Seen in great quantity, being shed upon the earth.",
+      "blood"
+    ],
+    "prompt_block": "Blood, Seen in great quantity, being shed upon the earth., blood",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Seen in great quantity, being shed upon the earth.",
+          "blood"
+        ],
+        "prompt_block": "Blood, Seen in great quantity, being shed upon the earth., blood"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_BLOOD",
+    "name": "Blood",
+    "type": "prop",
+    "aliases": [
+      "Blood"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "Seen in great quantity, being shed upon the earth.",
+      "blood"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1099",
+      "row_1102"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 7,
+        "chapter_end": 9,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

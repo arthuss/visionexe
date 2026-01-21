@@ -3,82 +3,54 @@
   "name": "sea",
   "type": "set_environment",
   "card": {
-    "description": "A vast, ancient sea that serves as a living conduit of forgotten technology and mystic data. Its surface is etched with luminous glyphs and crystalline sensor arrays that pulse with bio‑luminescent light, while bio‑luminescent plankton swirls beneath. The environment shifts from serene, turquoise calm to turbulent, indigo storm, culminating in a mysterious data‑fortress vortex. The setting blends Ethiopian‑Egyptian stone architecture with incomprehensible, advanced tech, rendered in photorealistic, tactile detail.",
-    "tags": [
-      "sea",
-      "ancient-tech",
-      "industrial mysticism",
-      "photorealistic",
-      "Ethiopian",
-      "Egyptian",
-      "bio-luminescence",
-      "crystalline hardware",
-      "data stream",
-      "glowing glyphs"
-    ],
+    "description": "Auto-generated asset card for sea.",
     "visual_anatomy": [
-      "**Body/Form:** The sea spans a vast expanse, with a depth gradient from shallow turquoise to deep indigo. Waves form fractal patterns, and a subtle rippling lattice of translucent crystalline nodes is embedded in the water column, acting as structural and sensory elements.",
-      "**Face/Sensors:** Embedded within the surface are crystalline lattices that refract light into holographic glyphs, shifting with currents. These nodes pulse faintly, emitting a low-frequency hum that resonates through the water.",
-      "**Clothing/Armor:** The shoreline is bordered by ancient stone obelisks and basaltic archways, their surfaces etched with hieroglyphic circuitry. These structures form a protective lattice that channels energy and data, giving the sea a fortified, almost armored appearance.",
-      "**Key Features:** Bio‑luminescent plankton blooms glow in azure and violet, creating a living light show. Data currents manifest as shimmering filaments that weave through the waves, and a central crystalline core pulses with a rhythmic glow, acting as the sea’s heart."
+      "Traits: unknown, {'description': \"The sea ('ባሕር'), mentioned as a place where sinners are found.\"}",
+      "Roles: natural environment, setting, setting_element"
     ],
     "evolution": [
-      "Phase 1 (Ch60‑65): Calm, turquoise surface with subtle crystalline nodes and faint glyphs. Gentle waves ripple, and the ambient light is soft, highlighting the ancient stone obelisks in the background.",
-      "Phase 2 (Ch66‑71): Turbulent, indigo storm. Waves crash, bio‑luminescent plankton glows intensely, crystalline nodes refract light into dynamic glyphs, and data currents form visible filaments. The sky is stormy, adding dramatic lighting."
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
     ],
     "props": [
-      "Item: Crystalline Wavelet Array – a lattice of translucent crystal nodes embedded in the sea surface, acting as sensor and energy conduit.",
-      "Item: Bio‑luminescent Plankton Cloud – swirling masses of bioluminescent organisms that illuminate the water with azure and violet hues."
+      "TBD."
     ],
     "prompt_keywords": [
-      "ancient",
-      "tech",
-      "sea",
-      "glyph",
-      "crystalline",
-      "bio-luminescence",
-      "data stream"
+      "unknown",
+      "{'description': \"The sea ('ባሕር'), mentioned as a place where sinners are found.\"}"
     ],
-    "prompt_block": "A photorealistic, cinematic depiction of an ancient Ethiopian‑Egyptian styled sea, its surface etched with luminous glyphs and crystalline sensor arrays, bio‑luminescent plankton swirling, data currents pulsing, shifting from calm to turbulent, all rendered with tactile realism and grounded industrial mysticism.",
+    "prompt_block": "sea, unknown, {'description': \"The sea ('ባሕር'), mentioned as a place where sinners are found.\"}",
     "phase_prompts": [
       {
         "state_id": "phase_01",
         "label": "Phase 1",
-        "summary": "Calm, turquoise sea with subtle crystalline nodes and faint glyphs.",
+        "summary": "",
         "prompt_keywords": [
-          "calm",
-          "turquoise",
-          "crystalline nodes",
-          "glyphs",
-          "soft lighting"
+          "unknown",
+          "{'description': \"The sea ('ባሕር'), mentioned as a place where sinners are found.\"}"
         ],
-        "prompt_block": "A serene, photorealistic sea with turquoise surface, gentle waves, subtle crystalline nodes embedded in the water column, faint luminous glyphs etched on the surface, soft ambient lighting, ancient stone obelisks in the background, Ethiopian‑Egyptian aesthetic."
+        "prompt_block": "sea, unknown, {'description': \"The sea ('ባሕር'), mentioned as a place where sinners are found.\"}, Phase 1"
       },
       {
         "state_id": "phase_02",
         "label": "Phase 2",
-        "summary": "Turbulent, indigo storm with bio‑luminescent plankton and data currents.",
+        "summary": "",
         "prompt_keywords": [
-          "turbulent",
-          "indigo",
-          "bio‑luminescence",
-          "data currents",
-          "dramatic lighting"
+          "unknown",
+          "{'description': \"The sea ('ባሕር'), mentioned as a place where sinners are found.\"}"
         ],
-        "prompt_block": "A turbulent sea with rolling indigo waves, bio‑luminescent plankton glowing intensely, crystalline nodes refracting light into dynamic glyphs, shimmering data filaments weaving through the water, stormy sky overhead, ancient stone archways glowing, cinematic photorealism."
+        "prompt_block": "sea, unknown, {'description': \"The sea ('ባሕር'), mentioned as a place where sinners are found.\"}, Phase 2"
       },
       {
         "state_id": "phase_03",
         "label": "Phase 3",
-        "summary": "Sea transforms into a living data fortress vortex.",
+        "summary": "",
         "prompt_keywords": [
-          "data fortress",
-          "vortex",
-          "crystalline core",
-          "portal",
-          "dark indigo"
+          "unknown",
+          "{'description': \"The sea ('ባሕር'), mentioned as a place where sinners are found.\"}"
         ],
-        "prompt_block": "The sea becomes a living data fortress, a swirling vortex of crystalline nodes and bio‑luminescent glyphs, data currents forming a portal, deep indigo water with a black void center, ancient stone obelisks glowing, cinematic photorealistic rendering with tactile detail."
+        "prompt_block": "sea, unknown, {'description': \"The sea ('ባሕር'), mentioned as a place where sinners are found.\"}, Phase 3"
       }
     ]
   },
@@ -92,28 +64,32 @@
     ],
     "roles": [
       "natural environment",
-      "setting"
+      "setting",
+      "setting_element"
     ],
     "visual_traits": [
-      "unknown"
+      "unknown",
+      "{'description': \"The sea ('ባሕር'), mentioned as a place where sinners are found.\"}"
     ],
     "changes": [
       "unknown"
     ],
     "notes": [],
     "sources": [
+      "row_1146",
+      "row_1190",
       "row_397",
       "row_627"
     ],
-    "occurrence_count": 2,
+    "occurrence_count": 8,
     "is_dynamic": true,
     "state_policy": "phases",
     "states": [
       {
         "state_id": "phase_01",
         "label": "Phase 1",
-        "chapter_start": 60,
-        "chapter_end": 65,
+        "chapter_start": 53,
+        "chapter_end": 67,
         "segment_labels": [],
         "scene_labels": [],
         "source_ids": [],
@@ -122,8 +98,8 @@
       {
         "state_id": "phase_02",
         "label": "Phase 2",
-        "chapter_start": 66,
-        "chapter_end": 71,
+        "chapter_start": 68,
+        "chapter_end": 82,
         "segment_labels": [],
         "scene_labels": [],
         "source_ids": [],
@@ -132,8 +108,8 @@
       {
         "state_id": "phase_03",
         "label": "Phase 3",
-        "chapter_start": 72,
-        "chapter_end": 77,
+        "chapter_start": 83,
+        "chapter_end": 97,
         "segment_labels": [],
         "scene_labels": [],
         "source_ids": [],

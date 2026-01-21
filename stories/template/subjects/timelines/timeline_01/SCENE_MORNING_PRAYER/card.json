@@ -3,59 +3,25 @@
   "name": "Morning Prayer",
   "type": "scene",
   "card": {
-    "description": "A towering monolithic altar carved from weathered basalt, its surface etched with intricate Ethiopian and Egyptian hieroglyphs that pulse with bioluminescent light. Embedded within the stone is a lattice of crystalline circuitry, faintly glowing as it channels energy into a holographic scroll projecting celestial coordinates above the altar. The altar serves as the focal point for the Morning Prayer ritual, radiating a serious, cinematic atmosphere of ancient mysticism fused with incomprehensible technology.",
-    "tags": [
-      "ritual",
-      "altar",
-      "ancient-tech",
-      "Ethiopian",
-      "Egyptian",
-      "bioluminescent",
-      "crystalline",
-      "glyphs",
-      "holographic",
-      "ceremonial"
-    ],
+    "description": "Auto-generated asset card for Morning Prayer.",
     "visual_anatomy": [
-      "**Body/Form:** Monolithic basalt base with tiered platforms, integrated crystalline circuitry forming a lattice that extends from the base to the central glyph array.",
-      "**Face/Sensors:** Central glyph array of bioluminescent quartz, sensor nodes that detect ritualistic vibrations and emit soft pulsing light.",
-      "**Clothing/Armor:** N/A",
-      "**Key Features:** Pulsating hieroglyphic glyphs, crystalline lattice, holographic scroll projector, bio‑luminescent veins, tactile stone texture, subtle reflections on quartz"
+      "Roles: መዋዕል"
     ],
     "evolution": [
-      "Phase 1 (Initial Setup): Basalt base with carved stone, no visible circuitry, glyphs etched but dormant.",
-      "Phase 2 (Activation): Crystalline circuitry lights up, glyphs glow, holographic scroll projects celestial coordinates, energy flows through bio‑luminescent veins."
+      "Phase (Default)"
     ],
     "props": [
-      "Item: Holographic Scroll of Celestial Coordinates",
-      "Item: Ceremonial Chalice of Obsidian"
+      "TBD."
     ],
-    "prompt_keywords": [
-      "monolithic altar",
-      "basalt",
-      "crystalline circuitry",
-      "bioluminescent glyphs",
-      "holographic projection",
-      "ancient Ethiopian",
-      "Egyptian motifs",
-      "industrial mysticism"
-    ],
-    "prompt_block": "A towering monolithic altar carved from basalt, its surface etched with ancient Ethiopian and Egyptian hieroglyphs that pulse with bioluminescent light. Embedded within the stone is a lattice of crystalline circuitry, glowing faintly as it channels energy into a holographic scroll projecting celestial coordinates above the altar. The scene is rendered in photorealistic detail, with tactile stone textures, subtle reflections on the crystalline veins, and a serious, cinematic atmosphere.",
+    "prompt_keywords": [],
+    "prompt_block": "Morning Prayer, መዋዕል",
     "phase_prompts": [
       {
         "state_id": "default",
-        "label": "Morning Prayer Ritual",
-        "summary": "The altar in full activation, projecting celestial coordinates during the morning prayer.",
-        "prompt_keywords": [
-          "altar",
-          "basalt",
-          "glyphs",
-          "bioluminescent",
-          "holographic",
-          "ceremonial",
-          "ritual"
-        ],
-        "prompt_block": "A towering monolithic altar carved from basalt, its surface etched with ancient Ethiopian and Egyptian hieroglyphs that pulse with bioluminescent light. Embedded within the stone is a lattice of crystalline circuitry, glowing faintly as it channels energy into a holographic scroll projecting celestial coordinates above the altar. The scene is rendered in photorealistic detail, with tactile stone textures, subtle reflections on the crystalline veins, and a serious, cinematic atmosphere."
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Morning Prayer, መዋዕል"
       }
     ]
   },
@@ -75,7 +41,7 @@
     "sources": [
       "row_915"
     ],
-    "occurrence_count": 1,
+    "occurrence_count": 2,
     "is_dynamic": false,
     "state_policy": "static",
     "states": [

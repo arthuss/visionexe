@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_CAIN",
+  "name": "Cain",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Cain.",
+    "visual_anatomy": [
+      "Traits: Abel's brother",
+      "Roles: antagonist_mentioned"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Abel's brother"
+    ],
+    "prompt_block": "Cain, Abel's brother",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Abel's brother"
+        ],
+        "prompt_block": "Cain, Abel's brother"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_CAIN",
+    "name": "Cain",
+    "type": "character",
+    "aliases": [
+      "Cain"
+    ],
+    "roles": [
+      "antagonist_mentioned"
+    ],
+    "visual_traits": [
+      "Abel's brother"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1115"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 22,
+        "chapter_end": 22,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

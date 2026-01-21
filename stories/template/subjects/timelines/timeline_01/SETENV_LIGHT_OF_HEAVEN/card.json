@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_LIGHT_OF_HEAVEN",
+  "name": "Light of Heaven",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Light of Heaven.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A brilliant light (ብርሃነ፡ሰማይ) that the righteous will resemble in their glorified state.'}",
+      "Roles: symbolic_element"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A brilliant light (ብርሃነ፡ሰማይ) that the righteous will resemble in their glorified state.'}"
+    ],
+    "prompt_block": "Light of Heaven, {'description': 'A brilliant light (ብርሃነ፡ሰማይ) that the righteous will resemble in their glorified state.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A brilliant light (ብርሃነ፡ሰማይ) that the righteous will resemble in their glorified state.'}"
+        ],
+        "prompt_block": "Light of Heaven, {'description': 'A brilliant light (ብርሃነ፡ሰማይ) that the righteous will resemble in their glorified state.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_LIGHT_OF_HEAVEN",
+    "name": "Light of Heaven",
+    "type": "set_environment",
+    "aliases": [
+      "Light of Heaven"
+    ],
+    "roles": [
+      "symbolic_element"
+    ],
+    "visual_traits": [
+      "{'description': 'A brilliant light (ብርሃነ፡ሰማይ) that the righteous will resemble in their glorified state.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1197"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 104,
+        "chapter_end": 104,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

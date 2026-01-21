@@ -1,0 +1,72 @@
+{
+  "id": "CHAR_THE_JUDGE",
+  "name": "The Judge",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Judge.",
+    "visual_anatomy": [
+      "Traits: unknown, {'description': 'A being who sees and judges all things. This is a role/title for the Lord of Spirits.'}",
+      "Roles: Protagonist, adjudicator"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "unknown",
+      "{'description': 'A being who sees and judges all things. This is a role/title for the Lord of Spirits.'}"
+    ],
+    "prompt_block": "The Judge, unknown, {'description': 'A being who sees and judges all things. This is a role/title for the Lord of Spirits.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "unknown",
+          "{'description': 'A being who sees and judges all things. This is a role/title for the Lord of Spirits.'}"
+        ],
+        "prompt_block": "The Judge, unknown, {'description': 'A being who sees and judges all things. This is a role/title for the Lord of Spirits.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_JUDGE",
+    "name": "The Judge",
+    "type": "character",
+    "aliases": [
+      "The Judge"
+    ],
+    "roles": [
+      "Protagonist",
+      "adjudicator"
+    ],
+    "visual_traits": [
+      "unknown",
+      "{'description': 'A being who sees and judges all things. This is a role/title for the Lord of Spirits.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1055",
+      "row_1136"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 41,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

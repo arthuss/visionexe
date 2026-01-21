@@ -1,9 +1,0 @@
-Basierend auf der Interpretation des "Astronomischen Buches" als **System-Clock & Timing (Sun/Moon logic)**:
-
-*   **Die Tore (The Gates):** Dies sind keine physischen Öffnungen, sondern **Adressbereiche** oder **Ports** im Himmels-Server (Sky-Dome). Es gibt 6 im Osten (Input-Ports) und 6 im Westen (Output-Ports). Die Sonne (das primäre Beleuchtungs-Asset) wird durch Routing-Tabellen von einem Port zum anderen geschickt.
-*   **Der Wagen & Der Wind:** Der "Wagen" ist der **Container** oder Thread, in dem die Instanz "Sonne" läuft. Der "Wind", der den Wagen treibt, ist die **Prozess-Priorität** oder der CPU-Zyklus, der die Bewegung rendert.
-*   **Die Teile (Parts):** Der Text teilt den Tag in 18 "Teile" (Micro-Ticks). Dies ist die **Tick-Rate** der Simulation.
-    *   Wenn Tag = 10 Teile und Nacht = 8 Teile, läuft das System im "Sommer-Modus" (High Performance Rendering).
-    *   Wenn Tag = 9 Teile und Nacht = 9 Teile (Äquinoktium), ist das System im Balance-Modus.
-*   **Uriel (Der Sysadmin):** Uriel fungiert hier nicht als mystischer Bote, sondern als **Interface** oder **Debugger**, der dem User (Henoch) den Quellcode der Zeitsteuerung zeigt ("Ich habe dir alles gezeigt, Henoch").
-*   **Der Zyklus (The Loop):** Das ganze Kapitel beschreibt eine `while(true)` Schleife, die inkrementell die `DayLength` Variable anpasst, bis ein Überlauf stattfindet (Jahresende) und der Zähler resettet wird.

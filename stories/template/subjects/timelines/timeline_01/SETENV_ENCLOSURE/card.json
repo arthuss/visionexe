@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_ENCLOSURE",
+  "name": "enclosure",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for enclosure.",
+    "visual_anatomy": [
+      "Traits: {'description': 'An enclosure (or courtyard) made for the generations of generations in the fourth week.'}",
+      "Roles: location"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'An enclosure (or courtyard) made for the generations of generations in the fourth week.'}"
+    ],
+    "prompt_block": "enclosure, {'description': 'An enclosure (or courtyard) made for the generations of generations in the fourth week.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'An enclosure (or courtyard) made for the generations of generations in the fourth week.'}"
+        ],
+        "prompt_block": "enclosure, {'description': 'An enclosure (or courtyard) made for the generations of generations in the fourth week.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_ENCLOSURE",
+    "name": "enclosure",
+    "type": "set_environment",
+    "aliases": [
+      "enclosure"
+    ],
+    "roles": [
+      "location"
+    ],
+    "visual_traits": [
+      "{'description': 'An enclosure (or courtyard) made for the generations of generations in the fourth week.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1186"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 93,
+        "chapter_end": 93,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

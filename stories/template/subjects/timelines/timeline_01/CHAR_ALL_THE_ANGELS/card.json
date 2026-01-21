@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_ALL_THE_ANGELS",
+  "name": "all the angels",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for all the angels.",
+    "visual_anatomy": [
+      "Traits: Faces shine with joy",
+      "Roles: Celestial beings who rejoice."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Faces shine with joy"
+    ],
+    "prompt_block": "all the angels, Faces shine with joy",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Faces shine with joy"
+        ],
+        "prompt_block": "all the angels, Faces shine with joy"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ALL_THE_ANGELS",
+    "name": "all the angels",
+    "type": "character",
+    "aliases": [
+      "all the angels"
+    ],
+    "roles": [
+      "Celestial beings who rejoice."
+    ],
+    "visual_traits": [
+      "Faces shine with joy"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1144"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 51,
+        "chapter_end": 51,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

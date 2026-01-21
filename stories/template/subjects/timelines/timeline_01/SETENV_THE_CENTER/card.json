@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_THE_CENTER",
+  "name": "The Center",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for The Center.",
+    "visual_anatomy": [
+      "Traits: location of the seventh mountain",
+      "Roles: relative_area"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "location of the seventh mountain"
+    ],
+    "prompt_block": "The Center, location of the seventh mountain",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "location of the seventh mountain"
+        ],
+        "prompt_block": "The Center, location of the seventh mountain"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_CENTER",
+    "name": "The Center",
+    "type": "set_environment",
+    "aliases": [
+      "The Center"
+    ],
+    "roles": [
+      "relative_area"
+    ],
+    "visual_traits": [
+      "location of the seventh mountain"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1117"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 24,
+        "chapter_end": 24,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

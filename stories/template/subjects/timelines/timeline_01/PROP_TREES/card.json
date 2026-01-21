@@ -1,0 +1,72 @@
+{
+  "id": "PROP_TREES",
+  "name": "Trees",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Trees.",
+    "visual_anatomy": [
+      "Traits: filling the blessed land, {'description': 'The wilderness is full of trees.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "filling the blessed land",
+      "{'description': 'The wilderness is full of trees.'}"
+    ],
+    "prompt_block": "Trees, filling the blessed land, {'description': 'The wilderness is full of trees.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "filling the blessed land",
+          "{'description': 'The wilderness is full of trees.'}"
+        ],
+        "prompt_block": "Trees, filling the blessed land, {'description': 'The wilderness is full of trees.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_TREES",
+    "name": "Trees",
+    "type": "prop",
+    "aliases": [
+      "Trees",
+      "trees"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "filling the blessed land",
+      "{'description': 'The wilderness is full of trees.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1119",
+      "row_1121"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 27,
+        "chapter_end": 28,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

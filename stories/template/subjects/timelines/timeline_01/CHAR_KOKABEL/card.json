@@ -1,0 +1,85 @@
+{
+  "id": "CHAR_KOKABEL",
+  "name": "Kokabel",
+  "type": "character",
+  "card": {
+    "description": "Kokabel manifests as a weary architect of the simulation's upper firmament, a rogue administrator who has chosen to expose the raw diagnostic layers of the sky_dome to unauthorized sub-routines. Within the flat-earth cosmology of the simulation_box, he does not teach astrology, but rather the decryption of the system's error logs—the 'signs'—and the rigid, pixelated grid logic that governs the artificial luminaries of the 'constellations'. He exists in the sombre, high-contrast shadows of the gate_band, a figure defined by isolation and the crushing burden of forbidden kernel knowledge. His presence is marked by a palpable thermal throttling, the air around him shimmering with heat lensing as he processes vast streams of ingress data. He represents the archetype of the disillusioned mentor, stripping away the render mask to show the terrifying, mathematical truth of the container's ceiling. The drama of his existence lies in the quiet, desperate intimacy of his instruction; he offers the code to the stars knowing that such awareness is a fatal error in the runtime.",
+    "visual_anatomy": [
+      "He appears as a humanoid figure of intense, photorealistic detail, his skin bearing the texture of matte obsidian that seems to absorb the ambient plasma light of the rift_internals. His face is etched with the lines of deep, systemic exhaustion, captured often in extreme close-up with a shallow depth of field to emphasize the micro-expressions of regret and determination. His eyes are not organic, but deep-set apertures of dark fiber_optic glass, constantly reflecting the scrolling, golden Ge'ez glyphs of the system's debug console which only he can see.",
+      "His attire is a utilitarian layering of dataglass-infused fabric, heavy and structured, reminiscent of a technician's environmental suit but worn down to the threadbare quality of a monk's habit. The materials interact with the environment, catching the harsh, vertical light of the simulation's overhead projectors, creating a silhouette that is often stark and solitary against the void. Subtle vector fields ripple across the surface of his clothing, suggesting a connection to the mesh_override mechanics he manipulates.",
+      "The environment he inhabits is characterized by the cold, cinematic realism of a server floor turned sanctuary. The lighting is strictly diegetic—the glow of data streams, the harsh white of a system warning light—casting long, dramatic shadows that obscure his hands as they manipulate the air. There is no magical glow, only the physics-based rendering of light passing through the translucent, holographic interfaces he summons to demonstrate the falsity of the sky."
+    ],
+    "evolution": [
+      "In his default state, Kokabel is captured in moments of stillness and subtle interaction, embodying the 'Teacher' role through gesture rather than speech. He is often framed viewing the sky_dome not with wonder, but with the critical gaze of an engineer inspecting a faulty display. As he imparts knowledge, his posture shifts from the rigid authority of a system guardian to the slumped resignation of a conspirator, the heat lensing around him intensifying as he violates the core narrative rules of the kernel."
+    ],
+    "props": [
+      "**The Debug Slate:** A fractured pane of data_glass that acts as a window into the raw code of the simulation. It does not glow with magical energy but refracts background light, overlaying the physical world with a wireframe mesh of the 'constellations'—revealing them as addressable LED clusters rather than distant suns.",
+      "**The Vector Stylus:** A simple, obsidian tool used to trace lines in the air, leaving temporary trails of distortion (heat lensing) that illustrate the geometry of the flat earth's boundaries. It looks heavy, cold, and strictly functional."
+    ],
+    "prompt_keywords": [
+      "photorealistic",
+      "cinematic lighting",
+      "obsidian skin texture",
+      "fiber optic eyes",
+      "holographic data overlay",
+      "vertical 9:16 aspect ratio",
+      "shallow depth of field",
+      "dramatic shadows",
+      "Ge'ez glyphs",
+      "system error aesthetic",
+      "simulation theory",
+      "melancholy",
+      "technician robe"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic close-up of Kokabel, a sorrowful instructor of forbidden system knowledge, standing within the dark, reflective void of a simulation boundary layer. His skin has the texture of matte obsidian, detailed with realistic pores and imperfections, absorbing the cold, blue plasma light of the environment. He wears a heavy, worn technical garment woven with fiber optics that catch the light. His eyes are dark glass, reflecting floating, golden Ge'ez glyphs that hang in the air like augmented reality debug logs. The background is out of focus (bokeh), hinting at a vast, grid-lined sky dome. The lighting is high-contrast, reminiscent of a dramatic character study, emphasizing the emotional weight of his face. The atmosphere is heavy, distorted by subtle heat lensing effects. 8k resolution, octane render, physically based rendering.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "The Teacher of Signs",
+        "summary": "Kokabel stands in the quiet hum of the simulation's periphery, pointing out the dead pixels in the artificial sky. He is a sombre figure, illuminated by the harsh, diagnostic light of the star-grid he is decoding for his students.",
+        "prompt_keywords": [
+          "teaching gesture",
+          "pointing at sky",
+          "diagnostic grid",
+          "sombre mood",
+          "technological realism"
+        ],
+        "prompt_block": "A photorealistic, vertical 9:16 shot of Kokabel standing in a dim, industrial environment, pointing upward towards a dark sky where the stars are visible as distinct, pixelated LED nodes on a wireframe grid. He is illuminated by the faint, cold light of a holographic interface floating before him, displaying complex vector diagrams and Ge'ez error codes. His expression is grave and focused. The camera uses a shallow depth of field, focusing on his weathered hand and the obsidian texture of his skin, while the artificial constellations blur in the background. The scene conveys a sense of quiet, forbidden discovery within a high-tech simulation. Cinematic lighting, dramatic atmosphere."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_KOKABEL",
+    "name": "Kokabel",
+    "type": "character",
+    "aliases": [
+      "Kokabel"
+    ],
+    "roles": [
+      "Teacher of signs/constellations"
+    ],
+    "visual_traits": [
+      "{'description': 'An entity who teaches forbidden knowledge.', 'source_text_ref': 'ወኮከብኢል፡\\u200bትእምርታተ'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1101"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 8,
+        "chapter_end": 8,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

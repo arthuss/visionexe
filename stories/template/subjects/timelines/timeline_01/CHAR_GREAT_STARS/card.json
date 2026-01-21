@@ -1,0 +1,86 @@
+{
+  "id": "CHAR_GREAT_STARS",
+  "name": "Great Stars",
+  "type": "character",
+  "card": {
+    "description": "The Great Stars are fallen system administrators, kernel-level entities forced into a degrading, high-fidelity manifestation within the simulation's surface plane. No longer abstract points of luminance in the sky dome, they have been compiled into heavy, grotesque anatomical forms to endure the physics of the quarantine sector. They possess a tragic, hyper-realistic corporeality, bearing the weight of hands and feet that look ancient and weary, sculpted from cooling data-glass and matte obsidian. Their tragedy is defined by their exposure; stripped of their celestial abstraction, they suffer the 'shame of horses'—a metaphor for their sudden, humiliating acquisition of raw, biological density and ungainly reproductive or input/output appendages that drag heavily against the simulation floor. They are silent, brooding figures, huddled in the dark recesses of the render, vibrating with the heat of thermal throttling as their high-energy cores struggle against their limiting mesh containers.",
+    "visual_anatomy": [
+      "Their primary composition is a unsettling hybrid of geological permanence and volatile software. The skin reads as hyper-realistic volcanic glass or carbon fiber, etched with dormant Geez glyphs that once shone bright but now appear as scars. This outer shell is not uniform; it cracks and shifts, revealing glimpses of the blinding, hot plasma of their original code beneath, creating a stark, high-contrast visual of light bleeding through a broken vessel.",
+      "The defining trauma of their design is the manifestation of 'hands and feet.' These appendages are rendered with excruciating, photorealistic detail—calloused, wrinkled, and human, yet scaled up to a terrifying magnitude. The hands are often depicted clutching their own bodies or the earth in gestures of despair, utilizing the slow, cinematic language of drama. The texture of the skin on these limbs suggests centuries of wear, contradicting their digital origin, grounding them in a reality of suffering and gravity.",
+      "The 'shame of horses' manifests as a grotesque over-articulation of their lower anatomy. Where there should be smooth, sexless geometry appropriate for an angel, there is instead a heavy, primal biological complexity. This area is often obscured by shadow or rendered with a heat-lensing distortion, suggesting a raw, unshielded connection to the simulation's generative subroutines. It represents their degradation from pure logic to instinctual beast, a heavy, dragging weight that prevents them from returning to the upper store."
+    ],
+    "evolution": [
+      "Initially, they exist as blinding singularities in the upper sky dome, purely optical phenomena without mass. As the quarantine protocols of Chapter 88 initiate, they undergo a violent 'mesh override,' condensing rapidly into solid matter.",
+      "In their final state on the surface plane, they are sluggish and heavy. Their movement is restricted by the new physics overrides, forcing them to crawl or hunch. The light within them dims to a sullen, ember-like glow, shifting the visual palette from high-key exposure to deep, dramatic chiaroscuro."
+    ],
+    "props": [
+      "Heavy chains forged from 'dead geometry'—untextured, grey polygons that bind their hands and feet, contrasting with the hyper-realism of their bodies.",
+      "Pools of leaked data-fluid, appearing as black oil or mercury, surrounding their resting spots in the abyss."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic fallen stars",
+      "obsidian skin texture",
+      "bioluminescent cracks",
+      "cinematic lighting",
+      "tragic posture",
+      "hands and feet detail",
+      "shame of horses metaphor",
+      "volumetric fog",
+      "8k resolution",
+      "ARRI camera aesthetics"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic wide shot of the Great Stars, fallen entities manifesting as colossal, obsidian-skinned humanoids in a desolate simulation wasteland. They are hunched over, their forms heavy and burdened by gravity. The camera focuses on the intricate, photorealistic texture of their massive hands covering their faces in despair. Their skin is like dark glass, cracking to reveal faint, dying plasma light beneath. They possess distinct, heavy feet that grip the barren digital terrain. The lighting is low-key, dramatic, and moody, emphasizing the tragedy of their fall. The atmosphere is thick with dust and heat distortion. 8k, octane render, pbr textures, extremely detailed anatomy.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "The Bound Manifestation",
+        "summary": "The Stars are fully incarnated in their punishment forms, heavy with matter and shame, waiting in the quarantine of the abyss. The scene is quiet, dramatic, and focused on their physical heaviness.",
+        "prompt_keywords": [
+          "fallen angel anatomy",
+          "obsidian and flesh",
+          "cinematic despair",
+          "floor level camera",
+          "detailed feet",
+          "heavy atmosphere"
+        ],
+        "prompt_block": "A slow, cinematic close-up tracking shot moving across the weary, obsidian hands of a Great Star, resting heavily on the dusty ground of the simulation floor. The creature is humanoid but massive, its skin a mix of matte black rock and hyper-realistic bruised flesh. The lighting is soft and melancholic, highlighting the 'shame' of its heavy, beast-like anatomy. The background is a blur of dark, vertical gate bands and data fog. The figure is motionless, radiating a sense of ancient, silent tragedy. Photorealistic, shallow depth of field, 35mm film grain, emotional weight."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_GREAT_STARS",
+    "name": "Great Stars",
+    "type": "character",
+    "aliases": [
+      "Great Stars"
+    ],
+    "roles": [
+      "group_patient"
+    ],
+    "visual_traits": [
+      "Great stars",
+      "Have hands and feet",
+      "Their shame was like the shame of horses"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1181"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 88,
+        "chapter_end": 88,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

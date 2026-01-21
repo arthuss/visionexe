@@ -1,0 +1,81 @@
+{
+  "id": "SETENV_THE_DRY_LAND",
+  "name": "The Dry Land",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for The Dry Land.",
+    "visual_anatomy": [
+      "Traits: {'description': \"The surface of the earth (የብስ / ምድር), where Noah's descendants will live and multiply.\"}, {'description': 'The earth, upon which a new light rises like the sun.', 'size': 'unknown', 'features': ['dry']}, {'description': 'The earthly realm possessed by the kings and the mighty.'}, {'description': 'The surface of the earth, where people dwell.'}",
+      "Roles: domain, setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"The surface of the earth (የብስ / ምድር), where Noah's descendants will live and multiply.\"}",
+      "{'description': 'The earth, upon which a new light rises like the sun.', 'size': 'unknown', 'features': ['dry']}",
+      "{'description': 'The earthly realm possessed by the kings and the mighty.'}",
+      "{'description': 'The surface of the earth, where people dwell.'}"
+    ],
+    "prompt_block": "The Dry Land, {'description': \"The surface of the earth (የብስ / ምድር), where Noah's descendants will live and multiply.\"}, {'description': 'The earth, upon which a new light rises like the sun.', 'size': 'unknown', 'features': ['dry']}, {'description': 'The earthly realm possessed by the kings and the mighty.'}, {'description': 'The surface of the earth, where people dwell.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"The surface of the earth (የብስ / ምድር), where Noah's descendants will live and multiply.\"}",
+          "{'description': 'The earth, upon which a new light rises like the sun.', 'size': 'unknown', 'features': ['dry']}",
+          "{'description': 'The earthly realm possessed by the kings and the mighty.'}",
+          "{'description': 'The surface of the earth, where people dwell.'}"
+        ],
+        "prompt_block": "The Dry Land, {'description': \"The surface of the earth (የብስ / ምድር), where Noah's descendants will live and multiply.\"}, {'description': 'The earth, upon which a new light rises like the sun.', 'size': 'unknown', 'features': ['dry']}, {'description': 'The earthly realm possessed by the kings and the mighty.'}, {'description': 'The surface of the earth, where people dwell.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_DRY_LAND",
+    "name": "The Dry Land",
+    "type": "set_environment",
+    "aliases": [
+      "The Dry Land",
+      "The dry land"
+    ],
+    "roles": [
+      "domain",
+      "setting"
+    ],
+    "visual_traits": [
+      "{'description': \"The surface of the earth (የብስ / ምድር), where Noah's descendants will live and multiply.\"}",
+      "{'description': 'The earth, upon which a new light rises like the sun.', 'size': 'unknown', 'features': ['dry']}",
+      "{'description': 'The earthly realm possessed by the kings and the mighty.'}",
+      "{'description': 'The surface of the earth, where people dwell.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1151",
+      "row_1156",
+      "row_1158",
+      "row_1161"
+    ],
+    "occurrence_count": 10,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 58,
+        "chapter_end": 67,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

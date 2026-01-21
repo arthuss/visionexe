@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_VALLEYS_OF_WATER",
+  "name": "valleys of water",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for valleys of water.",
+    "visual_anatomy": [
+      "Traits: inexhaustible",
+      "Roles: scene_setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "inexhaustible"
+    ],
+    "prompt_block": "valleys of water, inexhaustible",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "inexhaustible"
+        ],
+        "prompt_block": "valleys of water, inexhaustible"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_VALLEYS_OF_WATER",
+    "name": "valleys of water",
+    "type": "set_environment",
+    "aliases": [
+      "valleys of water"
+    ],
+    "roles": [
+      "scene_setting"
+    ],
+    "visual_traits": [
+      "inexhaustible"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1123"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 30,
+        "chapter_end": 30,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

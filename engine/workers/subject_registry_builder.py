@@ -11,6 +11,7 @@ JSON_BLOCK_RE = re.compile(r"```(?:json)?\s*([\[{].*?[\]}])\s*```", re.DOTALL | 
 TYPE_PREFIX = {
     "character": "CHAR",
     "prop": "PROP",
+    "requisite": "REQ",
     "environment": "ENV",
     "set_environment": "SETENV",
     "geo_environment": "GEOENV",
@@ -20,6 +21,18 @@ TYPE_PREFIX = {
 
 DYNAMIC_POLICIES = {"per_segment", "per_scene", "per_occurrence"}
 PHASE_POLICY = "phases"
+PROP_OWNER_FIELDS = {
+    "owner",
+    "owners",
+    "owner_subject",
+    "owner_subjects",
+    "held_by",
+    "carried_by",
+    "wielded_by",
+    "belongs_to",
+}
+PROP_ROLE_ACTOR_PREFIXES = ("actor_prop:", "character_prop:")
+PROP_ROLE_SCENE_PREFIXES = ("scene_prop", "set_prop", "environment_prop")
 
 
 def split_sequence(values, parts):
@@ -145,6 +158,51 @@ def normalize_list(value):
     return [str(value).strip()] if str(value).strip() else []
 
 
+def normalize_key(value: str) -> str:
+    if value is None:
+        return ""
+    return re.sub(r"\s+", " ", str(value)).strip().lower()
+
+
+def split_owner_names(value: str):
+    if not value:
+        return []
+    parts = re.split(r"[|,/;]+", value)
+    return [part.strip() for part in parts if part.strip()]
+
+
+def extract_prop_owners(item):
+    owners = []
+    if not isinstance(item, dict):
+        return owners
+    for field in PROP_OWNER_FIELDS:
+        if field not in item:
+            continue
+        raw = item.get(field)
+        if isinstance(raw, list):
+            owners.extend([str(val).strip() for val in raw if str(val).strip()])
+        elif isinstance(raw, str):
+            owners.extend(split_owner_names(raw))
+        elif raw:
+            owners.append(str(raw).strip())
+    return owners
+
+
+def parse_prop_role(role_value: str):
+    if not role_value:
+        return [], None
+    raw = str(role_value).strip()
+    lowered = raw.lower()
+    for prefix in PROP_ROLE_ACTOR_PREFIXES:
+        if lowered.startswith(prefix):
+            owner_part = raw.split(":", 1)[-1]
+            return split_owner_names(owner_part), "prop"
+    for prefix in PROP_ROLE_SCENE_PREFIXES:
+        if lowered.startswith(prefix):
+            return [], "requisite"
+    return [], None
+
+
 def extract_name(item, fields):
     if isinstance(item, str):
         return item.strip()
@@ -176,6 +234,8 @@ def add_subject(subjects, subject_id, name, subject_type):
             "state_policy": None,
             "seed_states": None,
             "dynamic_override": None,
+            "owner_names": set(),
+            "owner_subject_ids": set(),
         }
         subjects[subject_id] = subject
     if name:
@@ -216,6 +276,7 @@ def main():
     parser.add_argument("--analysis-master", help="Path to analysis_master.jsonl.")
     parser.add_argument("--keymap", help="Subjects keymap JSON path.")
     parser.add_argument("--seed", help="Optional seed profiles JSON.")
+    parser.add_argument("--timeline", help="Timeline id (kept for CLI compatibility).")
     parser.add_argument("--registry-out", help="Output registry.json path.")
     parser.add_argument("--profiles-out", help="Output profiles.jsonl path.")
     parser.add_argument("--occurrences-out", help="Output occurrences.jsonl path.")
@@ -280,6 +341,10 @@ def main():
                 subject["state_policy"] = str(profile.get("state_policy"))
             if profile.get("states"):
                 subject["seed_states"] = profile.get("states")
+            for owner_name in normalize_list(profile.get("owner_names")):
+                subject["owner_names"].add(owner_name)
+            for owner_id in normalize_list(profile.get("owner_subject_ids")):
+                subject["owner_subject_ids"].add(owner_id)
             for field in ["roles", "visual_traits", "notes"]:
                 values = normalize_list(profile.get(field))
                 subject[field].update(values)
@@ -346,10 +411,26 @@ def main():
                     continue
 
                 for item in items:
+                    subject_type_effective = subject_type
+                    owner_names = []
+                    if subject_type == "prop":
+                        owner_names = extract_prop_owners(item)
+                        role_value = item.get("role") if isinstance(item, dict) else None
+                        role_owners, role_kind = parse_prop_role(role_value)
+                        if role_owners:
+                            owner_names.extend(role_owners)
+                        owner_names = [name for name in owner_names if name]
+                        if role_kind == "requisite":
+                            subject_type_effective = "requisite"
+                        elif owner_names:
+                            subject_type_effective = "prop"
+                        else:
+                            subject_type_effective = "requisite"
+
                     name = extract_name(item, name_fields)
                     if name:
-                        subject_id = build_subject_id(subject_type, name)
-                        subject = add_subject(subjects, subject_id, name, subject_type)
+                        subject_id = build_subject_id(subject_type_effective, name)
+                        subject = add_subject(subjects, subject_id, name, subject_type_effective)
                         for field_name in role_fields:
                             if isinstance(item, dict) and item.get(field_name):
                                 subject["roles"].update(normalize_list(item.get(field_name)))
@@ -371,6 +452,8 @@ def main():
                         subject["sources"].add(record.get("source_id"))
                         update_chapter_range(subject, record.get("chapter"))
                         subject["occurrence_count"] += 1
+                        if subject_type_effective == "prop" and owner_names:
+                            subject["owner_names"].update(owner_names)
 
                         occurrence = {
                             "subject_id": subject_id,
@@ -407,6 +490,23 @@ def main():
     registry = []
     profiles = []
     dynamic_registry = []
+    name_index = {}
+    for subject_id, subject in subjects.items():
+        for alias in subject.get("aliases") or []:
+            key = normalize_key(alias)
+            if not key:
+                continue
+            name_index.setdefault(key, subject_id)
+
+    for subject_id, subject in subjects.items():
+        if subject.get("type") != "prop":
+            continue
+        owner_ids = set(subject.get("owner_subject_ids") or [])
+        for owner_name in subject.get("owner_names") or []:
+            owner_id = name_index.get(normalize_key(owner_name))
+            if owner_id:
+                owner_ids.add(owner_id)
+        subject["owner_subject_ids"] = owner_ids
     for subject_id, subject in sorted(subjects.items(), key=lambda x: x[0]):
         state_policy = subject.get("state_policy")
         dynamic_override = subject.get("dynamic_override")
@@ -568,6 +668,8 @@ def main():
             "is_dynamic": is_dynamic,
             "state_policy": state_policy,
             "states": states,
+            "owner_names": sorted(subject.get("owner_names") or []),
+            "owner_subject_ids": sorted(subject.get("owner_subject_ids") or []),
         }
         profiles.append(profile)
         if is_dynamic:

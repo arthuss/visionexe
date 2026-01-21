@@ -1,0 +1,114 @@
+{
+  "id": "SETENV_LAWLESSNESS",
+  "name": "Lawlessness",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Lawlessness.",
+    "visual_anatomy": [
+      "Traits: An abstract condition of sin and injustice.",
+      "Roles: pervasive_condition"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "An abstract condition of sin and injustice."
+    ],
+    "prompt_block": "Lawlessness, An abstract condition of sin and injustice.",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "An abstract condition of sin and injustice."
+        ],
+        "prompt_block": "Lawlessness, An abstract condition of sin and injustice., Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "An abstract condition of sin and injustice."
+        ],
+        "prompt_block": "Lawlessness, An abstract condition of sin and injustice., Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "An abstract condition of sin and injustice."
+        ],
+        "prompt_block": "Lawlessness, An abstract condition of sin and injustice., Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_LAWLESSNESS",
+    "name": "Lawlessness",
+    "type": "set_environment",
+    "aliases": [
+      "Lawlessness"
+    ],
+    "roles": [
+      "pervasive_condition"
+    ],
+    "visual_traits": [
+      "An abstract condition of sin and injustice."
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Contained', 'description': 'Not pervasive on Earth (implied).'}",
+      "{'phase': 'Phase 2: Pervasive', 'description': 'Taught by Azazel and filling the entire Earth.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1102"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 9,
+        "chapter_end": 8,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 9,
+        "chapter_end": 8,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Contained', 'description': 'Not pervasive on Earth (implied).'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 9,
+        "chapter_end": 9,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Pervasive', 'description': 'Taught by Azazel and filling the entire Earth.'}"
+        ]
+      }
+    ]
+  }
+}

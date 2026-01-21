@@ -1,0 +1,10 @@
+## [STATE] Darkness :: Phase 1
+**State ID:** phase_01
+**Chapters:** 46 - 66
+**Notes:** {'phase': 'Phase 1: Pre-revelation', 'description': "Darkness is present (implied as the 'former darkness')."}
+
+**Phase Keywords:** Associated with the state of the dead in Sheol., {'description': 'An environment of darkness (Åጽልመት).'}, {'description': 'An environmental condition that fills the faces of the judged and becomes their eternal dwelling place.'}, {'description': 'An environmental condition within Sheol.'}, {'description': 'An environmental element that is overcome and removed.', 'state': 'absence of light'}, {'description': 'The future dwelling place for the judged strong ones.'}
+**Phase Prompt:**
+Darkness, Associated with the state of the dead in Sheol., {'description': 'An environment of darkness (Åጽልመት).'}, {'description': 'An environmental condition that fills the faces of the judged and becomes their eternal dwelling place.'}, {'description': 'An environmental condition within Sheol.'}, {'description': 'An environmental element that is overcome and removed.', 'state': 'absence of light'}, {'description': 'The future dwelling place for the judged strong ones.'}, Phase 1
+
+---

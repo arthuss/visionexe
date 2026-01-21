@@ -1,0 +1,60 @@
+{
+  "id": "CHAR_ENOCH_S_PEOPLE",
+  "name": "Enoch's People",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Enoch's People.",
+    "visual_anatomy": [
+      "Roles: group"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Enoch's People, group",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Enoch's People, group"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ENOCH_S_PEOPLE",
+    "name": "Enoch's People",
+    "type": "character",
+    "aliases": [
+      "Enoch's People"
+    ],
+    "roles": [
+      "group"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1174"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 81,
+        "chapter_end": 81,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

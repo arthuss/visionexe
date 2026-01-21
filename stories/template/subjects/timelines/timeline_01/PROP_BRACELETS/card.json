@@ -1,0 +1,67 @@
+{
+  "id": "PROP_BRACELETS",
+  "name": "Bracelets",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Bracelets.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Items of jewelry worn on the arm.', 'source_text_ref': 'አውቃፋተ'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Items of jewelry worn on the arm.', 'source_text_ref': 'አውቃፋተ'}"
+    ],
+    "prompt_block": "Bracelets, {'description': 'Items of jewelry worn on the arm.', 'source_text_ref': 'አውቃፋተ'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Items of jewelry worn on the arm.', 'source_text_ref': 'አውቃፋተ'}"
+        ],
+        "prompt_block": "Bracelets, {'description': 'Items of jewelry worn on the arm.', 'source_text_ref': 'አውቃፋተ'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_BRACELETS",
+    "name": "Bracelets",
+    "type": "prop",
+    "aliases": [
+      "Bracelets"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'Items of jewelry worn on the arm.', 'source_text_ref': 'አውቃፋተ'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1101"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 8,
+        "chapter_end": 8,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

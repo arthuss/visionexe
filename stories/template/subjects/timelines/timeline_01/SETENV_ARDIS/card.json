@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_ARDIS",
+  "name": "Ardis",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Ardis.",
+    "visual_anatomy": [
+      "Traits: Ge'ez: አርዲስ. The summit (ድማሁ) of Mount Hermon.",
+      "Roles: The specific site where the angels descended."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Ge'ez: አርዲስ. The summit (ድማሁ) of Mount Hermon."
+    ],
+    "prompt_block": "Ardis, Ge'ez: አርዲስ. The summit (ድማሁ) of Mount Hermon.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Ge'ez: አርዲስ. The summit (ድማሁ) of Mount Hermon."
+        ],
+        "prompt_block": "Ardis, Ge'ez: አርዲስ. The summit (ድማሁ) of Mount Hermon."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_ARDIS",
+    "name": "Ardis",
+    "type": "set_environment",
+    "aliases": [
+      "Ardis"
+    ],
+    "roles": [
+      "The specific site where the angels descended."
+    ],
+    "visual_traits": [
+      "Ge'ez: አርዲስ. The summit (ድማሁ) of Mount Hermon."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1100"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 6,
+        "chapter_end": 6,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

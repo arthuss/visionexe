@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_VALLEY_BETWEEN_SECOND_AND_THIRD_MOUNTAINS",
+  "name": "valley (between second and third mountains)",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for valley (between second and third mountains).",
+    "visual_anatomy": [
+      "Traits: A valley located below the third, lower mountain.",
+      "Roles: sub-location"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A valley located below the third, lower mountain."
+    ],
+    "prompt_block": "valley (between second and third mountains), A valley located below the third, lower mountain.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A valley located below the third, lower mountain."
+        ],
+        "prompt_block": "valley (between second and third mountains), A valley located below the third, lower mountain."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_VALLEY_BETWEEN_SECOND_AND_THIRD_MOUNTAINS",
+    "name": "valley (between second and third mountains)",
+    "type": "set_environment",
+    "aliases": [
+      "valley (between second and third mountains)"
+    ],
+    "roles": [
+      "sub-location"
+    ],
+    "visual_traits": [
+      "A valley located below the third, lower mountain."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1120"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 26,
+        "chapter_end": 26,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

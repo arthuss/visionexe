@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_MOUNTAIN_OF_GOLD",
+  "name": "Mountain of Gold",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Mountain of Gold.",
+    "visual_anatomy": [
+      "Traits: A mountain made entirely of gold.",
+      "Roles: symbolic_location"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A mountain made entirely of gold."
+    ],
+    "prompt_block": "Mountain of Gold, A mountain made entirely of gold.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A mountain made entirely of gold."
+        ],
+        "prompt_block": "Mountain of Gold, A mountain made entirely of gold."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_MOUNTAIN_OF_GOLD",
+    "name": "Mountain of Gold",
+    "type": "set_environment",
+    "aliases": [
+      "Mountain of Gold"
+    ],
+    "roles": [
+      "symbolic_location"
+    ],
+    "visual_traits": [
+      "A mountain made entirely of gold."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1145"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 52,
+        "chapter_end": 52,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_WINDOWS_OF_HEAVEN",
+  "name": "windows of heaven",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for windows of heaven.",
+    "visual_anatomy": [
+      "Traits: can be shut to withhold rain",
+      "Roles: feature of heaven"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "can be shut to withhold rain"
+    ],
+    "prompt_block": "windows of heaven, can be shut to withhold rain",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "can be shut to withhold rain"
+        ],
+        "prompt_block": "windows of heaven, can be shut to withhold rain"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_WINDOWS_OF_HEAVEN",
+    "name": "windows of heaven",
+    "type": "set_environment",
+    "aliases": [
+      "windows of heaven"
+    ],
+    "roles": [
+      "feature of heaven"
+    ],
+    "visual_traits": [
+      "can be shut to withhold rain"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1194"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 101,
+        "chapter_end": 101,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

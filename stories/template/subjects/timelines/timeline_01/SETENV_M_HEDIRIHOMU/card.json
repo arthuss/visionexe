@@ -3,55 +3,25 @@
   "name": "Mähedirihomu",
   "type": "set_environment",
   "card": {
-    "description": "Mähedirihomu is a towering threshold that serves as the entrance to the subterranean sanctum of the Asterian Order. Constructed from a basalt‑quartz composite fused with iridescent quartz, the gate is a 30‑meter tall archway segmented into three tiers, each bearing Ethiopian‑inspired lion‑serpent hieroglyphs, sun disks, and spiraling motifs. Embedded within the stone are ancient mechanical gears and a central crystalline core that channels energy from ley lines. The surface is etched with bioluminescent algae channels that pulse with azure and gold light when the gate is activated, while titanium alloy ribs reinforce the structure and shield it from electromagnetic interference.",
-    "tags": [
-      "ancient-tech",
-      "gate",
-      "threshold",
-      "Ethiopian",
-      "Egyptian",
-      "bioluminescent",
-      "crystalline",
-      "mechanical",
-      "industrial mysticism"
-    ],
+    "description": "Auto-generated asset card for Mähedirihomu.",
     "visual_anatomy": [
-      "**Body/Form:** 30‑meter tall archway of basalt‑quartz composite, ribbed with titanium alloy plates, segmented into three tiers of glyph panels.",
-      "**Face/Sensors:** Translucent crystal prisms embedded in the central tier act as sensors, detecting vibrational signatures and aligning with celestial coordinates; they refract light into a living map of azure and gold.",
-      "**Clothing/Armor:** Titanium alloy lattice etched with runic patterns provides structural integrity and electromagnetic shielding.",
-      "**Key Features:** Central crystalline core, bioluminescent algae channels, ancient mechanical gear system, glyph panels, sensor prisms, titanium lattice."
+      "Roles: gate/threshold"
     ],
     "evolution": [
-      "Phase 1 (Construction): Initial assembly of basalt‑quartz arch, installation of titanium ribs, embedding of mechanical gear system, carving of glyph panels.",
-      "Phase 2 (Activation): Activation of crystalline core, integration of bioluminescent algae, calibration of sensor prisms, energizing of ley line conduits."
+      "Phase (Default)"
     ],
     "props": [
-      "Item: Obsidian Obelisk – a polished black relic placed at the gate’s base, reflecting the bioluminescent glow.",
-      "Item: Runic Tablet – a hovering holographic tablet projecting glyphs and energy signatures."
+      "TBD."
     ],
-    "prompt_keywords": [
-      "ancient gate",
-      "bioluminescent",
-      "crystalline core",
-      "Ethiopian motifs",
-      "mechanical gears",
-      "obsidian quartz",
-      "towering arch"
-    ],
-    "prompt_block": "towering obsidian‑quartz archway gate, 30 meters tall, carved with Ethiopian lion‑serpent hieroglyphs, titanium alloy ribs, central crystalline core pulsing with bioluminescent algae, ancient mechanical gears visible in the stone, sensor prisms refracting light into azure and gold, industrial mysticism, photorealistic, tactile, cinematic lighting",
+    "prompt_keywords": [],
+    "prompt_block": "Mähedirihomu, gate/threshold",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Gate in its activated state, glowing glyphs, humming with energy.",
-        "prompt_keywords": [
-          "activated gate",
-          "glowing glyphs",
-          "humming energy",
-          "bioluminescent",
-          "crystalline core"
-        ],
-        "prompt_block": "activated towering obsidian‑quartz archway gate, 30 meters tall, glyph panels glowing in azure and gold, central crystalline core humming with low‑frequency vibrations, bioluminescent algae channels pulsing, ancient mechanical gears exposed, sensor prisms refracting light, cinematic photorealism, tactile industrial mysticism"
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Mähedirihomu, gate/threshold"
       }
     ]
   },
@@ -71,7 +41,7 @@
     "sources": [
       "row_126"
     ],
-    "occurrence_count": 2,
+    "occurrence_count": 4,
     "is_dynamic": false,
     "state_policy": "static",
     "states": [

@@ -1,0 +1,60 @@
+{
+  "id": "SCENE_FINAL_EXHORTATION",
+  "name": "Final Exhortation",
+  "type": "scene",
+  "card": {
+    "description": "Auto-generated asset card for Final Exhortation.",
+    "visual_anatomy": [
+      "Roles: The gathering place."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Final Exhortation, The gathering place.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Final Exhortation, The gathering place."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_FINAL_EXHORTATION",
+    "name": "Final Exhortation",
+    "type": "scene",
+    "aliases": [
+      "Final Exhortation"
+    ],
+    "roles": [
+      "The gathering place."
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1184"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 91,
+        "chapter_end": 91,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

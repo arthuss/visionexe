@@ -1,0 +1,111 @@
+{
+  "id": "CHAR_COMBATANTS",
+  "name": "Combatants",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Combatants.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Unspecified beings on Earth.'}",
+      "Roles: antagonist_group"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Unspecified beings on Earth.'}"
+    ],
+    "prompt_block": "Combatants, {'description': 'Unspecified beings on Earth.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Unspecified beings on Earth.'}"
+        ],
+        "prompt_block": "Combatants, {'description': 'Unspecified beings on Earth.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Unspecified beings on Earth.'}"
+        ],
+        "prompt_block": "Combatants, {'description': 'Unspecified beings on Earth.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Unspecified beings on Earth.'}"
+        ],
+        "prompt_block": "Combatants, {'description': 'Unspecified beings on Earth.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_COMBATANTS",
+    "name": "Combatants",
+    "type": "character",
+    "aliases": [
+      "Combatants"
+    ],
+    "roles": [
+      "antagonist_group"
+    ],
+    "visual_traits": [
+      "{'description': 'Unspecified beings on Earth.'}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: dynamic', 'description': 'Engaged in mutual conflict, striking one another.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1180"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 87,
+        "chapter_end": 86,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 87,
+        "chapter_end": 86,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 87,
+        "chapter_end": 87,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: dynamic', 'description': 'Engaged in mutual conflict, striking one another.'}"
+        ]
+      }
+    ]
+  }
+}

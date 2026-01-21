@@ -1,0 +1,78 @@
+{
+  "id": "SETENV_WINTER",
+  "name": "winter",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for winter.",
+    "visual_anatomy": [
+      "Traits: A season to be observed., {'description': 'A recurring season, lasting for a duration of two or three cycles, during which environmental changes in flora are observed.'}, {'description': 'A season during which the earth is described as being filled with water.'}",
+      "Roles: environment, natural element, setting_descriptor, temporal"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A season to be observed.",
+      "{'description': 'A recurring season, lasting for a duration of two or three cycles, during which environmental changes in flora are observed.'}",
+      "{'description': 'A season during which the earth is described as being filled with water.'}"
+    ],
+    "prompt_block": "winter, A season to be observed., {'description': 'A recurring season, lasting for a duration of two or three cycles, during which environmental changes in flora are observed.'}, {'description': 'A season during which the earth is described as being filled with water.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A season to be observed.",
+          "{'description': 'A recurring season, lasting for a duration of two or three cycles, during which environmental changes in flora are observed.'}",
+          "{'description': 'A season during which the earth is described as being filled with water.'}"
+        ],
+        "prompt_block": "winter, A season to be observed., {'description': 'A recurring season, lasting for a duration of two or three cycles, during which environmental changes in flora are observed.'}, {'description': 'A season during which the earth is described as being filled with water.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_WINTER",
+    "name": "winter",
+    "type": "set_environment",
+    "aliases": [
+      "Winter",
+      "winter"
+    ],
+    "roles": [
+      "environment",
+      "setting_descriptor",
+      "temporal"
+    ],
+    "visual_traits": [
+      "A season to be observed.",
+      "{'description': 'A recurring season, lasting for a duration of two or three cycles, during which environmental changes in flora are observed.'}",
+      "{'description': 'A season during which the earth is described as being filled with water.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1058",
+      "row_1094",
+      "row_1096"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 2,
+        "chapter_end": 3,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

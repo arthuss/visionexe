@@ -1,0 +1,60 @@
+{
+  "id": "SETENV_HEAVEN_OF_HEAVENS",
+  "name": "Heaven of Heavens",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Heaven of Heavens.",
+    "visual_anatomy": [
+      "Roles: The highest celestial realm, location of the House of Fire."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Heaven of Heavens, The highest celestial realm, location of the House of Fire.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Heaven of Heavens, The highest celestial realm, location of the House of Fire."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_HEAVEN_OF_HEAVENS",
+    "name": "Heaven of Heavens",
+    "type": "set_environment",
+    "aliases": [
+      "Heaven of Heavens"
+    ],
+    "roles": [
+      "The highest celestial realm, location of the House of Fire."
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1164"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 71,
+        "chapter_end": 71,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

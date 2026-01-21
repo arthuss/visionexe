@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_PATHS_OF_THE_MOST_HIGH",
+  "name": "Paths of the Most High",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Paths of the Most High.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A metaphorical course of action and life that the righteous and wise follow.'}",
+      "Roles: metaphorical_location"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A metaphorical course of action and life that the righteous and wise follow.'}"
+    ],
+    "prompt_block": "Paths of the Most High, {'description': 'A metaphorical course of action and life that the righteous and wise follow.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A metaphorical course of action and life that the righteous and wise follow.'}"
+        ],
+        "prompt_block": "Paths of the Most High, {'description': 'A metaphorical course of action and life that the righteous and wise follow.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_PATHS_OF_THE_MOST_HIGH",
+    "name": "Paths of the Most High",
+    "type": "set_environment",
+    "aliases": [
+      "Paths of the Most High"
+    ],
+    "roles": [
+      "metaphorical_location"
+    ],
+    "visual_traits": [
+      "{'description': 'A metaphorical course of action and life that the righteous and wise follow.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1192"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 99,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

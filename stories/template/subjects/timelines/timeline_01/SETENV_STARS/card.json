@@ -3,65 +3,62 @@
   "name": "stars",
   "type": "set_environment",
   "card": {
-    "description": "A cinematic 9:16 vertical environment of a desert night sky, where a dense field of square pixel stars is embedded in a black void. Each star is a luminous LED node, crystalline and slightly pulsing, connected by a precise blue CAD‑style wireframe that forms a geodesic dome over the horizon. A vertical dead‑pixel scanline tears through the image, revealing a dark blue wireframe grid behind the stars, creating a glitch art aesthetic. Ancient Ethiopian and Egyptian motifs are subtly integrated into the star nodes, and holographic Ge'ez characters flicker across the sky, adding a layer of industrial mysticism to the grounded realism of the scene.",
-    "tags": [
-      "celestial",
-      "wireframe",
-      "glitch",
-      "geodesic",
-      "ancient-tech",
-      "Ethiopian",
-      "Egyptian",
-      "photorealistic",
-      "LED",
-      "holographic"
-    ],
+    "description": "Auto-generated asset card for stars.",
     "visual_anatomy": [
-      "**Body/Form:** A vertical 9:16 frame of a black void sky, densely populated with square pixel stars forming a geodesic dome.",
-      "**Face/Sensors:** Not applicable.",
-      "**Clothing/Armor:** Not applicable.",
-      "**Key Features:** Square pixel stars, luminous LED nodes, blue CAD‑style wireframe, vertical dead‑pixel scanline, glitch artifacts, holographic Ge'ez characters, ancient motifs embedded in star nodes."
+      "Traits: A collective of celestial bodies that serve as the origin for lightning., {'description': \"The celestial bodies, which act as witnesses to the sinners' deeds.\"}, {'description': 'A few stars are mentioned as being visible.'}, {'description': 'Celestial bodies in the sky, whose number is questioned.'}",
+      "Roles: environment_component, setting, static_setting, witness"
     ],
     "evolution": [
-      "Phase 1 (Default): Initial star field with glitch and wireframe overlay.",
-      "Phase 2 (Laser Scan): A red laser scan reveals a glass barrier, digital ripples, and holographic ALERT text across the sky."
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
     ],
     "props": [
-      "Item: Vector Grid Overlay",
-      "Item: Wireframe Sky",
-      "Item: Alert Text"
+      "TBD."
     ],
     "prompt_keywords": [
-      "glitch",
-      "wireframe",
-      "geodesic",
-      "ancient-tech",
-      "photorealistic",
-      "LED",
-      "black void",
-      "blue CAD",
-      "holographic",
-      "Ge'ez"
+      "A collective of celestial bodies that serve as the origin for lightning.",
+      "{'description': \"The celestial bodies, which act as witnesses to the sinners' deeds.\"}",
+      "{'description': 'A few stars are mentioned as being visible.'}",
+      "{'description': 'Celestial bodies in the sky, whose number is questioned.'}"
     ],
-    "prompt_block": "A cinematic 9:16 vertical shot of a desert night sky, featuring a dense field of square pixel stars embedded in a black void, each star a luminous LED node connected by a precise blue CAD‑style wireframe forming a geodesic dome; a vertical dead‑pixel scanline tears through the image revealing a dark blue wireframe grid behind the stars, glitch art style, photorealistic, 8k resolution, ancient Ethiopian/Egyptian motifs subtly integrated into the star nodes, holographic Ge'ez characters flickering across the sky.",
+    "prompt_block": "stars, A collective of celestial bodies that serve as the origin for lightning., {'description': \"The celestial bodies, which act as witnesses to the sinners' deeds.\"}, {'description': 'A few stars are mentioned as being visible.'}, {'description': 'Celestial bodies in the sky, whose number is questioned.'}",
     "phase_prompts": [
       {
-        "state_id": "default",
-        "label": "Default",
-        "summary": "Default star field with glitch and wireframe overlay.",
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
         "prompt_keywords": [
-          "glitch",
-          "wireframe",
-          "geodesic",
-          "ancient-tech",
-          "photorealistic",
-          "LED",
-          "black void",
-          "blue CAD",
-          "holographic",
-          "Ge'ez"
+          "A collective of celestial bodies that serve as the origin for lightning.",
+          "{'description': \"The celestial bodies, which act as witnesses to the sinners' deeds.\"}",
+          "{'description': 'A few stars are mentioned as being visible.'}",
+          "{'description': 'Celestial bodies in the sky, whose number is questioned.'}"
         ],
-        "prompt_block": "A cinematic 9:16 vertical shot of a desert night sky, featuring a dense field of square pixel stars embedded in a black void, each star a luminous LED node connected by a precise blue CAD‑style wireframe forming a geodesic dome; a vertical dead‑pixel scanline tears through the image revealing a dark blue wireframe grid behind the stars, glitch art style, photorealistic, 8k resolution, ancient Ethiopian/Egyptian motifs subtly integrated into the star nodes, holographic Ge'ez characters flickering across the sky."
+        "prompt_block": "stars, A collective of celestial bodies that serve as the origin for lightning., {'description': \"The celestial bodies, which act as witnesses to the sinners' deeds.\"}, {'description': 'A few stars are mentioned as being visible.'}, {'description': 'Celestial bodies in the sky, whose number is questioned.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "A collective of celestial bodies that serve as the origin for lightning.",
+          "{'description': \"The celestial bodies, which act as witnesses to the sinners' deeds.\"}",
+          "{'description': 'A few stars are mentioned as being visible.'}",
+          "{'description': 'Celestial bodies in the sky, whose number is questioned.'}"
+        ],
+        "prompt_block": "stars, A collective of celestial bodies that serve as the origin for lightning., {'description': \"The celestial bodies, which act as witnesses to the sinners' deeds.\"}, {'description': 'A few stars are mentioned as being visible.'}, {'description': 'Celestial bodies in the sky, whose number is questioned.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "A collective of celestial bodies that serve as the origin for lightning.",
+          "{'description': \"The celestial bodies, which act as witnesses to the sinners' deeds.\"}",
+          "{'description': 'A few stars are mentioned as being visible.'}",
+          "{'description': 'Celestial bodies in the sky, whose number is questioned.'}"
+        ],
+        "prompt_block": "stars, A collective of celestial bodies that serve as the origin for lightning., {'description': \"The celestial bodies, which act as witnesses to the sinners' deeds.\"}, {'description': 'A few stars are mentioned as being visible.'}, {'description': 'Celestial bodies in the sky, whose number is questioned.'}, Phase 3"
       }
     ]
   },
@@ -70,30 +67,67 @@
     "name": "stars",
     "type": "set_environment",
     "aliases": [
+      "Stars",
       "stars"
     ],
     "roles": [
-      "setting"
+      "environment_component",
+      "setting",
+      "static_setting",
+      "witness"
     ],
-    "visual_traits": [],
-    "changes": [],
+    "visual_traits": [
+      "A collective of celestial bodies that serve as the origin for lightning.",
+      "{'description': \"The celestial bodies, which act as witnesses to the sinners' deeds.\"}",
+      "{'description': 'A few stars are mentioned as being visible.'}",
+      "{'description': 'Celestial bodies in the sky, whose number is questioned.'}"
+    ],
+    "changes": [
+      "{'is_dynamic': False}"
+    ],
     "notes": [],
     "sources": [
+      "row_1137",
+      "row_1176",
+      "row_1186",
+      "row_1193",
       "row_70"
     ],
-    "occurrence_count": 1,
-    "is_dynamic": false,
-    "state_policy": "static",
+    "occurrence_count": 10,
+    "is_dynamic": true,
+    "state_policy": "phases",
     "states": [
       {
-        "state_id": "default",
-        "label": "Default",
+        "state_id": "phase_01",
+        "label": "Phase 1",
         "chapter_start": 10,
-        "chapter_end": 10,
+        "chapter_end": 39,
         "segment_labels": [],
         "scene_labels": [],
         "source_ids": [],
         "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 40,
+        "chapter_end": 69,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 70,
+        "chapter_end": 100,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'is_dynamic': False}"
+        ]
       }
     ]
   }

@@ -1,0 +1,71 @@
+{
+  "id": "SETENV_SIXTH_GATE",
+  "name": "Sixth Gate",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Sixth Gate.",
+    "visual_anatomy": [
+      "Traits: A celestial portal used by the Moon., a celestial portal where the moon's light is completed",
+      "Roles: celestial_portal"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A celestial portal used by the Moon.",
+      "a celestial portal where the moon's light is completed"
+    ],
+    "prompt_block": "Sixth Gate, A celestial portal used by the Moon., a celestial portal where the moon's light is completed",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A celestial portal used by the Moon.",
+          "a celestial portal where the moon's light is completed"
+        ],
+        "prompt_block": "Sixth Gate, A celestial portal used by the Moon., a celestial portal where the moon's light is completed"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_SIXTH_GATE",
+    "name": "Sixth Gate",
+    "type": "set_environment",
+    "aliases": [
+      "Sixth Gate"
+    ],
+    "roles": [
+      "celestial_portal"
+    ],
+    "visual_traits": [
+      "A celestial portal used by the Moon.",
+      "a celestial portal where the moon's light is completed"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1167",
+      "row_1172"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 74,
+        "chapter_end": 79,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 62 - 91
 
-**Phase Summary:** The king’s face in a simulation window, screaming with a detached jaw revealing a green wireframe interior.
-**Phase Keywords:** king, glitch, wireframe, ancient-tech, simulation, bioluminescence, digital-horror
+**Phase Summary:** The King stands before the Lord of Spirits, his administrative privileges suspended. He attempts to maintain the posture of a ruler, but his avatar is suffering from thermal throttling and data loss.
+**Phase Keywords:** judgment hall, fearful expression, decaying texture, glitching crown
 **Phase Prompt:**
-A vertical 9:16 extreme close‑up of a regal Ethiopian king in a simulation window, his face screaming, lower jaw detaching and floating sideways, revealing a green crystalline wireframe space inside his skull, skin tearing like wet paper, pixels falling off like sand, photorealistic, ancient‑tech, industrial mysticism, tactile, bioluminescent glyphs, grounded realism, cinematic
+Extreme close-up on the King's face, hyper-realistic style. Sweat beads on his forehead, illuminated by harsh, vertical top-down lighting. His eyes, usually impassive black glass, are wide with human fear, reflecting a blinding white light source off-camera. The 'plasma' elements of his collar are flickering out, leaving cold, dark glass. The background is pitch black, isolating him in his moment of judgment. The image quality is pristine, capturing the fine details of his fraying fiber-optic collar. Cinematic drama, slow shutter speed effect, emotional authenticity.
 
 ---

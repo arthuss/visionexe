@@ -1,0 +1,126 @@
+{
+  "id": "SETENV_MOON",
+  "name": "Moon",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Moon.",
+    "visual_anatomy": [
+      "Traits: {'description': \"The celestial body, which acts as a witness to the sinners' deeds.\"}, {'description': 'The celestial body that sets in the west.'}",
+      "Roles: celestial body, static_setting, witness"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"The celestial body, which acts as a witness to the sinners' deeds.\"}",
+      "{'description': 'The celestial body that sets in the west.'}"
+    ],
+    "prompt_block": "Moon, {'description': \"The celestial body, which acts as a witness to the sinners' deeds.\"}, {'description': 'The celestial body that sets in the west.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"The celestial body, which acts as a witness to the sinners' deeds.\"}",
+          "{'description': 'The celestial body that sets in the west.'}"
+        ],
+        "prompt_block": "Moon, {'description': \"The celestial body, which acts as a witness to the sinners' deeds.\"}, {'description': 'The celestial body that sets in the west.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"The celestial body, which acts as a witness to the sinners' deeds.\"}",
+          "{'description': 'The celestial body that sets in the west.'}"
+        ],
+        "prompt_block": "Moon, {'description': \"The celestial body, which acts as a witness to the sinners' deeds.\"}, {'description': 'The celestial body that sets in the west.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"The celestial body, which acts as a witness to the sinners' deeds.\"}",
+          "{'description': 'The celestial body that sets in the west.'}"
+        ],
+        "prompt_block": "Moon, {'description': \"The celestial body, which acts as a witness to the sinners' deeds.\"}, {'description': 'The celestial body that sets in the west.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_MOON",
+    "name": "Moon",
+    "type": "set_environment",
+    "aliases": [
+      "Moon"
+    ],
+    "roles": [
+      "celestial body",
+      "static_setting",
+      "witness"
+    ],
+    "visual_traits": [
+      "{'description': \"The celestial body, which acts as a witness to the sinners' deeds.\"}",
+      "{'description': 'The celestial body that sets in the west.'}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Normal Order', 'description': 'Follows its prescribed order and appears in its proper time.'}",
+      "{'phase': 'Phase 2: Disrupted Order', 'description': 'Alters its order and does not appear in its proper time.'}",
+      "{'is_dynamic': False}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1173",
+      "row_1176",
+      "row_1193"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 80,
+        "chapter_end": 86,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Normal Order', 'description': 'Follows its prescribed order and appears in its proper time.'}"
+        ]
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 87,
+        "chapter_end": 93,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Disrupted Order', 'description': 'Alters its order and does not appear in its proper time.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 94,
+        "chapter_end": 100,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'is_dynamic': False}"
+        ]
+      }
+    ]
+  }
+}

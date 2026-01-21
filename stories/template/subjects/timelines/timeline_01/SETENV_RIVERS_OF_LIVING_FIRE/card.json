@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_RIVERS_OF_LIVING_FIRE",
+  "name": "Rivers of living fire",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Rivers of living fire.",
+    "visual_anatomy": [
+      "Traits: {'quantity': 'Four rivers.', 'state': 'Full of living fire.'}",
+      "Roles: Rivers that surround the House of Fire."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'quantity': 'Four rivers.', 'state': 'Full of living fire.'}"
+    ],
+    "prompt_block": "Rivers of living fire, {'quantity': 'Four rivers.', 'state': 'Full of living fire.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'quantity': 'Four rivers.', 'state': 'Full of living fire.'}"
+        ],
+        "prompt_block": "Rivers of living fire, {'quantity': 'Four rivers.', 'state': 'Full of living fire.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_RIVERS_OF_LIVING_FIRE",
+    "name": "Rivers of living fire",
+    "type": "set_environment",
+    "aliases": [
+      "Rivers of living fire"
+    ],
+    "roles": [
+      "Rivers that surround the House of Fire."
+    ],
+    "visual_traits": [
+      "{'quantity': 'Four rivers.', 'state': 'Full of living fire.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1164"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 71,
+        "chapter_end": 71,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

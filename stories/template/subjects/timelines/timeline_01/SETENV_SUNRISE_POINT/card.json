@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_SUNRISE_POINT",
+  "name": "Sunrise Point (ሥራቀ፡ፀሐይ)",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Sunrise Point (ሥራቀ፡ፀሐይ).",
+    "visual_anatomy": [
+      "Traits: The place from which the Sun rises",
+      "Roles: relative_location"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "The place from which the Sun rises"
+    ],
+    "prompt_block": "Sunrise Point (ሥራቀ፡ፀሐይ), The place from which the Sun rises",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "The place from which the Sun rises"
+        ],
+        "prompt_block": "Sunrise Point (ሥራቀ፡ፀሐይ), The place from which the Sun rises"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_SUNRISE_POINT",
+    "name": "Sunrise Point (ሥራቀ፡ፀሐይ)",
+    "type": "set_environment",
+    "aliases": [
+      "Sunrise Point (ሥራቀ፡ፀሐይ)"
+    ],
+    "roles": [
+      "relative_location"
+    ],
+    "visual_traits": [
+      "The place from which the Sun rises"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1166"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 73,
+        "chapter_end": 73,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

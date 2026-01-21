@@ -74,6 +74,8 @@ def main():
             "changes": profile.get("changes") or [],
             "notes": profile.get("notes") or [],
             "sources": profile.get("sources") or [],
+            "owner_names": profile.get("owner_names") or [],
+            "owner_subject_ids": profile.get("owner_subject_ids") or [],
             "occurrence_count": profile.get("occurrence_count", len(occs)),
             "is_dynamic": profile.get("is_dynamic", False),
             "state_policy": profile.get("state_policy"),

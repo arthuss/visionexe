@@ -1,0 +1,87 @@
+{
+  "id": "CHAR_MAN",
+  "name": "man",
+  "type": "character",
+  "card": {
+    "description": "The Man represents the fundamental runtime instance of the simulation's surface plane, a sentient variable subject to the harsh physics overrides of the containment box. Unlike the privileged celestial kernels who face specific administrative judgment, this entity operates within the chaotic friction of the terrestrial layer, bearing the brunt of the system's thermal throttling. He embodies the simulation's descent into entropy, transitioning from a passive bystander of cosmic ingress events to an active agent of the system's social breakdown. Defined by high-fidelity suffering and the capacity for fatal error, he is the tragedy of the code made flesh, driven by unseen script failures to dismantle his own local clusters in acts of intimate violence.",
+    "visual_anatomy": [
+      "His physical form is rendered with hyper-realistic grit, the skin texture porous and weathered by the 'reset_desert' winds, accumulating dust that behaves like data particles. Under the harsh, high-contrast lighting of the plasma sky dome, his features cast deep, dramatic shadows, highlighting the exhaustion in his eyes which reflect the artificial horizon of the gate bands. There is a subtle uncanniness to his presence; under extreme close-up, the seemingly organic imperfections of his dermis align in faint, recursive grid patterns, betraying the mesh override beneath the biological facade.",
+      "He is clad in garments of coarse, heavy weave, materials that absorb light similar to matte obsidian. The fabric hangs with the weight of wet clay, frayed at the edges where the simulation's level of detail begins to falter. The clothing offers no protection against the 'vector_field_lensing' that occasionally ripples through the air around him, a visual manifestation of the anxiety and atmospheric pressure that defines the Drama genre of his existence.",
+      "In moments of high tension, the space immediately surrounding him seems to suffer from heat lensing, blurring the background into a bokeh of nervous energy. This visual distortion isolates him within the frame, emphasizing his role as a singular processing thread disconnected from the greater network, left to execute a corrupted loop of fratricide and loss."
+    ],
+    "evolution": [
+      "Initially, he appears as a static element of the background simulation, a bystander witnessing the ingress of higher-order entities. His posture is submissive, head bowed against the radiance of the sky dome, a simple registered user within the system's log.",
+      "As the narrative logic degrades towards Chapter 100, he evolves into a perpetrator of the system's collapse. The lighting around him shifts to darker, vertical 9:16 compositions that entrap him. His hands, once idle, become focal points of tension, stained with the dark fluid of broken lineage, symbolizing the fatal exception error where the simulation turns upon itself."
+    ],
+    "props": [
+      "He wields primitive implements that carry the unnatural density of 'storage' artifacts—blunt stones or tools that feel heavier than physics should allow, composed of dark, light-drinking matter.",
+      "In the aftermath of violence, he is often surrounded by shards of 'data_glass' or scattered 'geez_glyphs' that lie dormant in the dust, remnants of the broken covenants he has shattered."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic portrait",
+      "simulation glitch aesthetics",
+      "obsidian textures",
+      "dramatic lighting",
+      "emotional weight",
+      "cinematic realism",
+      "35mm film grain",
+      "surface plane dweller",
+      "despair",
+      "high contrast"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic medium shot of a weary man standing on a barren, flat-earth surface plane under a dark, oppressive simulation sky. The lighting is high-contrast drama, casting deep shadows across his weathered face, revealing skin texture that hints at procedural generation. He wears tattered, heavy robes made of a material resembling matte obsidian fiber. The background features a blurred 'gate_band' horizon with subtle heat lensing effects. The atmosphere is thick with dread and the weight of a system error, captured with the visual fidelity of an Octane Render at 8k resolution.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "The Corrupted Runtime",
+        "summary": "The man stands as a solitary figure amidst the social collapse of the simulation, burdened by the guilt of a corrupted script. He transitions from a passive observer of the sky dome to the perpetrator of a familial deletion event.",
+        "prompt_keywords": [
+          "guilt",
+          "blood on hands",
+          "dark atmosphere",
+          "system failure",
+          "intimate tragedy"
+        ],
+        "prompt_block": "A hyper-realistic close-up of a man's face, etched with the tragedy of a fatal system error. The lighting is severe and dramatic, reminiscent of high-stakes cinema, isolating his expression of horror and resignation. His skin is illuminated by the faint, cold glow of a 'plasma' moon, while the surrounding darkness feels like a void in the data. Subtle 'vector_field' distortions ripple the air around him. He looks down, implied to be viewing the aftermath of his own violence, with the heavy, obsidian-like fabric of his garment weighing down his frame. The image quality is photorealistic, capturing the raw, unvarnished texture of a simulation running a tragedy protocol."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_MAN",
+    "name": "man",
+    "type": "character",
+    "aliases": [
+      "Man",
+      "man"
+    ],
+    "roles": [
+      "bystander",
+      "perpetrator"
+    ],
+    "visual_traits": [
+      "{'description': 'A general class of being, mentioned as not receiving the portion of the judged angels.'}",
+      "{'description': 'A generic man who kills his own family.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1160",
+      "row_1193"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 68,
+        "chapter_end": 100,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

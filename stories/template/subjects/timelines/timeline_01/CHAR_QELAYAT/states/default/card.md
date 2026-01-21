@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 69 - 69
 
-**Phase Summary:** Qelayat in a low‑energy dormant state, glyphs dim, veins barely pulsing.
-**Phase Keywords:** dormant, low‑energy, dim glyphs, subtle veins
+**Phase Summary:** Qelayat sits in the crushing darkness of the simulation's lowest layer, holding the world's foundation firm. The scene is silent, heavy, and saturated with the pressure of the ocean above.
+**Phase Keywords:** static pose, crushing pressure, dark ambient, viscous fluid
 **Phase Prompt:**
-Qelayat in a dormant state, 3‑meter tall humanoid with basaltic exoskeleton, copper plating, glyph‑etched quartz, bio‑luminescent veins barely pulsing, crystalline core inactive, obsidian face with a single dim eye, rendered photorealistically with subdued cinematic lighting, emphasizing the quiet, almost imperceptible hum of ancient technology.
+A photorealistic, vertical 9:16 shot of Qelayat, a massive obsidian entity, submerged in deep dark blue coolant fluid. The figure is perfectly still, anchoring the scene. Faint Geez glyphs float in the liquid like holographic dust. The lighting catches the edges of its dark, wet surface, highlighting the immense weight and density of the material. The background is a gradient of abyssal black to deep indigo. The atmosphere is claustrophobic and intense, capturing the 'Drama' genre's focus on isolation and internal burden.
 
 ---

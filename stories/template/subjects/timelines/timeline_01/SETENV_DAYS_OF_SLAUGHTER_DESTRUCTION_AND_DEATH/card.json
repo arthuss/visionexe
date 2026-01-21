@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_DAYS_OF_SLAUGHTER_DESTRUCTION_AND_DEATH",
+  "name": "days of slaughter, destruction, and death",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for days of slaughter, destruction, and death.",
+    "visual_anatomy": [
+      "Traits: A period of time characterized by killing and ruin",
+      "Roles: temporal_setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A period of time characterized by killing and ruin"
+    ],
+    "prompt_block": "days of slaughter, destruction, and death, A period of time characterized by killing and ruin",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A period of time characterized by killing and ruin"
+        ],
+        "prompt_block": "days of slaughter, destruction, and death, A period of time characterized by killing and ruin"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_DAYS_OF_SLAUGHTER_DESTRUCTION_AND_DEATH",
+    "name": "days of slaughter, destruction, and death",
+    "type": "set_environment",
+    "aliases": [
+      "days of slaughter, destruction, and death"
+    ],
+    "roles": [
+      "temporal_setting"
+    ],
+    "visual_traits": [
+      "A period of time characterized by killing and ruin"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1108"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 16,
+        "chapter_end": 16,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

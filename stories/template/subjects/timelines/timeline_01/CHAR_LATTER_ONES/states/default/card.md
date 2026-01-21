@@ -1,0 +1,10 @@
+## [STATE] Latter ones :: Default
+**State ID:** default
+**Chapters:** 37 - 37
+
+**Phase Summary:** The group receives the transmission from the kernel past. They stand in the shadows of the simulation, illuminated by the wisdom logs.
+**Phase Keywords:** reading data log, emotional realization, amber glow on face, obsidian slate, dark atmosphere
+**Phase Prompt:**
+A photorealistic, vertical 9:16 shot of a 'Latter one' holding a heavy obsidian slate. The subject's face is illuminated from below by the amber light of scrolling Ge'ez text embedded deep within the stone. The background is a dark, undefined void characteristic of the simulation's edge, hinted at by faint grid lines in the bokeh. The expression is one of solemn realization and deep focus. The texture of the obsidian is perfect, reflecting the user's eye. The image quality is cinematic, ISO 100, with a shallow depth of field that blurs the surrounding 'system architecture' into abstract, high-contrast shapes.
+
+---

@@ -3,52 +3,25 @@
   "name": "Music",
   "type": "prop",
   "card": {
-    "description": "A towering, ornately carved resonator that channels harmonic frequencies through a lattice of crystal and bronze, its surface etched with ancient Ethiopian and Egyptian glyphs that pulse with bioluminescent light, producing music that reverberates through an industrial setting.",
-    "tags": [
-      "ancient-tech",
-      "sound device",
-      "orchestrion",
-      "Ethiopian",
-      "Egyptian",
-      "crystalline",
-      "bioluminescent",
-      "industrial mysticism"
-    ],
+    "description": "Auto-generated asset card for Music.",
     "visual_anatomy": [
-      "**Body/Form:** 3.5m tall obelisk‑shaped structure, bronze circular base, tapering obsidian shaft embedded with quartz crystal nodes and bronze tuning rods.",
-      "**Face/Sensors:** No facial features; a ring of iridescent glass panels along the shaft act as vibration sensors and light conduits.",
-      "**Clothing/Armor:** Not applicable.",
-      "**Key Features:** Embedded crystal resonators, bioluminescent glyphs etched in ancient script, bronze tuning rods, sound‑diffusion lattice, polished obsidian surface."
+      "Roles: sound element"
     ],
     "evolution": [
-      "Phase 1 (Prototype): Crude bronze housing, limited crystal tuning, rudimentary glyph illumination.",
-      "Phase 2 (Operational): Polished obsidian shaft, advanced crystal lattice, integrated bioluminescent glyphs, refined sound diffusion."
+      "Phase (Default)"
     ],
     "props": [
-      "Item: Sonic Resonator",
-      "Item: Crystal Tuning Rods"
+      "TBD."
     ],
-    "prompt_keywords": [
-      "ancient instrument",
-      "crystalline resonator",
-      "bioluminescent glyphs",
-      "industrial mysticism",
-      "Ethiopian",
-      "Egyptian"
-    ],
-    "prompt_block": "A towering, ornately carved resonator that channels harmonic frequencies through a lattice of crystal and bronze, its surface etched with ancient Ethiopian and Egyptian glyphs that pulse with bioluminescent light, producing music that reverberates through an industrial setting, photorealistic, tactile, grounded realism, cinematic lighting, intricate metalwork, polished obsidian, quartz crystal nodes, bioluminescent glow, ancient-tech aesthetic",
+    "prompt_keywords": [],
+    "prompt_block": "Music, sound element",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Standing resonator emitting ambient music",
-        "prompt_keywords": [
-          "ancient instrument",
-          "crystalline resonator",
-          "bioluminescent glyphs",
-          "industrial mysticism"
-        ],
-        "prompt_block": "A towering, ornately carved resonator that channels harmonic frequencies through a lattice of crystal and bronze, its surface etched with ancient Ethiopian and Egyptian glyphs that pulse with bioluminescent light, producing music that reverberates through an industrial setting, photorealistic, tactile, grounded realism, cinematic lighting, intricate metalwork, polished obsidian, quartz crystal nodes, bioluminescent glow, ancient-tech aesthetic"
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Music, sound element"
       }
     ]
   },
@@ -68,7 +41,7 @@
     "sources": [
       "row_74"
     ],
-    "occurrence_count": 1,
+    "occurrence_count": 2,
     "is_dynamic": false,
     "state_policy": "static",
     "states": [

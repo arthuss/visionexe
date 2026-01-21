@@ -1,0 +1,71 @@
+{
+  "id": "PROP_HEAVENLY_TABLETS",
+  "name": "Heavenly Tablets",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Heavenly Tablets.",
+    "visual_anatomy": [
+      "Traits: written upon, {'description': \"Tablets in the expanse of heaven containing the 'writing of the holy ones'. They detail the fates of souls.\"}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "written upon",
+      "{'description': \"Tablets in the expanse of heaven containing the 'writing of the holy ones'. They detail the fates of souls.\"}"
+    ],
+    "prompt_block": "Heavenly Tablets, written upon, {'description': \"Tablets in the expanse of heaven containing the 'writing of the holy ones'. They detail the fates of souls.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "written upon",
+          "{'description': \"Tablets in the expanse of heaven containing the 'writing of the holy ones'. They detail the fates of souls.\"}"
+        ],
+        "prompt_block": "Heavenly Tablets, written upon, {'description': \"Tablets in the expanse of heaven containing the 'writing of the holy ones'. They detail the fates of souls.\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_HEAVENLY_TABLETS",
+    "name": "Heavenly Tablets",
+    "type": "prop",
+    "aliases": [
+      "Heavenly Tablets"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "written upon",
+      "{'description': \"Tablets in the expanse of heaven containing the 'writing of the holy ones'. They detail the fates of souls.\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1174",
+      "row_1196"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 81,
+        "chapter_end": 103,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

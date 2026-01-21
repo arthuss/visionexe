@@ -1,0 +1,81 @@
+{
+  "id": "CHAR_HUMANITY",
+  "name": "Humanity",
+  "type": "character",
+  "card": {
+    "description": "Within the bounded architecture of the Simulation Box, Humanity constitutes the biological runtime—the 'Children of the Flesh' functioning as the central processing load of the system. They are soft, entropic entities introduced into a pristine environment of obsidian bedrock and data-glass sky domes. Unlike the static geometry of the surface plane, humans are volatile and warm, defined by their 'Spirit'—a kernel-level authorization to generate autonomous intent—and their 'Tongue,' a dedicated input peripheral designed to articulate commands into the system's acoustic layer. In this flat-earth cosmology, they are the only unauthorized variable capable of inducing heat lensing through emotional resonance, existing in a perpetual state of dramatic friction against the cold, governed logic of the Upper Store.",
+    "visual_anatomy": [
+      "The visual rendering of Humanity prioritizes hyper-realistic organic texture to contrast with the synthetic environment. Their skin is a canvas of micro-details—pores, scars, and subsurface scattering that catches the harsh, high-contrast lighting of the simulation's 'gate bands.' They are framed through the lens of intimate drama: extreme close-ups that capture the tremor of a lip or the dilation of a pupil, emphasizing their fragility. The 'flesh' is not just material but a heavy, grounding aesthetic choice, appearing almost wet or feverish against the dry, matte-black void of the simulation's boundaries.",
+      "The 'Mouth' and 'Tongue' are visualized as active interfaces. When a human speaks, it is not merely sound but an injection of code; the air immediately in front of their lips distorts with faint refractive heat shimmers or microscopic floating particles that resemble dissolving Geez glyphs. This visualizes their power to 'speak' reality, distinguishing them from the background assets. Their movement is fluid but heavy, burdened by the 'thermal throttling' of the physics engine, making every gesture feel significant and exhausted.",
+      "Costuming adheres to a 'timeless utilitarian' aesthetic—natural fibers, linens, and worn leathers that absorb light, contrasting with the reflective 'plasma' and 'fiber optic' materials of the world. The fabrics show sweat stains and fraying, reinforcing the drama genre's focus on authenticity and the passage of time within the runtime. They look like weary operators of a machine they no longer understand, draped in the remnants of a forgotten access level."
+    ],
+    "evolution": [
+      "In their default state, Humanity is depicted in a mode of searching or pleading. They are the 'users' who have lost their manual, often found gazing upward toward the Sky Dome, their faces illuminated by the passing data-streams of the celestial layers. The narrative arc captures them realizing their agency—understanding that their 'Spirit' and 'Tongue' are administrative tools capable of overriding the simulation's local physics."
+    ],
+    "props": [
+      "Biological byproducts serve as key props to ground the hyper-realism: breath vapor that lingers too long, sweat that beads on the forehead during interrogation by the system's agents, and tears that refract the neon light of the egress gates. These fluids act as the 'ink' of their existence.",
+      "The 'Tongue' is conceptually treated as a prop—an instrument of power. In close-ups, the interior of the mouth might appear slightly too perfect or luminous, suggesting it is a manufactured interface insert given by the 'God' admin, capable of bridging the gap between biological thought and digital execution."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic portrait",
+      "subsurface scattering",
+      "cinematic lighting",
+      "obsidian reflection",
+      "heat lensing",
+      "emotional exhaustion",
+      "35mm film grain",
+      "shallow depth of field",
+      "sweat texture"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic close-up of a Human face within a dark, reflective simulation environment. The skin texture is incredibly detailed, showing pores, vellus hair, and a sheen of sweat, illuminated by a cold, vertical strip of blue light from a distant server rack or sky gate. The eyes are watery and expressive, conveying deep existential dread. The background is a bokeh blur of sharp, obsidian geometric shapes and faint neon data lines. When the mouth opens to speak, the air in front of the lips distorts with a subtle heat-haze effect, hinting at the power of the spoken word. The aesthetic is gritty, grounded drama shot on a 85mm lens with a wide aperture, focusing entirely on the emotional weight of the biological subject against the digital void.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default State",
+        "summary": "The human subject stands as the vulnerable biological user within the hard-surface simulation, possessing the latent tools of spirit and speech.",
+        "prompt_keywords": [
+          "vulnerable",
+          "speaking interface",
+          "heat shimmer",
+          "obsidian void",
+          "flesh texture"
+        ],
+        "prompt_block": "A photorealistic medium shot of a Human figure standing on a polished black obsidian floor that reflects their weary silhouette. They are dressed in simple, textured natural fabrics that contrast with the sleek, data-glass walls surrounding them. The lighting is high-contrast, 'chiaroscuro' style, sculpting the face and hands. The subject is in the act of speaking, with the mouth slightly open, and a visible refractive ripple in the air suggests the power of their voice interacting with the simulation's atmosphere. The mood is solemn and intense, capturing the isolation of the organic mind inside the synthetic machine."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_HUMANITY",
+    "name": "Humanity",
+    "type": "character",
+    "aliases": [
+      "Humanity"
+    ],
+    "roles": [
+      "group"
+    ],
+    "visual_traits": [
+      "Referred to as 'children of the flesh of man' and 'flesh of man'. They were given spirit, tongue, and mouth by God to speak."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1177"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 84,
+        "chapter_end": 84,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

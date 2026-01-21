@@ -1,0 +1,72 @@
+{
+  "id": "PROP_RIGHTEOUSNESS",
+  "name": "Righteousness",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Righteousness.",
+    "visual_anatomy": [
+      "Traits: {'description': \"An abstract concept that is sought and found with the Lord of Spirits. Also referred to as 'uprightness'.\", 'material': 'intangible', 'color': 'unknown', 'size': 'unknown'}, {'description': 'An abstract concept personified as a partner to Peace.'}",
+      "Roles: scene_prop, unknown"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"An abstract concept that is sought and found with the Lord of Spirits. Also referred to as 'uprightness'.\", 'material': 'intangible', 'color': 'unknown', 'size': 'unknown'}",
+      "{'description': 'An abstract concept personified as a partner to Peace.'}"
+    ],
+    "prompt_block": "Righteousness, {'description': \"An abstract concept that is sought and found with the Lord of Spirits. Also referred to as 'uprightness'.\", 'material': 'intangible', 'color': 'unknown', 'size': 'unknown'}, {'description': 'An abstract concept personified as a partner to Peace.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"An abstract concept that is sought and found with the Lord of Spirits. Also referred to as 'uprightness'.\", 'material': 'intangible', 'color': 'unknown', 'size': 'unknown'}",
+          "{'description': 'An abstract concept personified as a partner to Peace.'}"
+        ],
+        "prompt_block": "Righteousness, {'description': \"An abstract concept that is sought and found with the Lord of Spirits. Also referred to as 'uprightness'.\", 'material': 'intangible', 'color': 'unknown', 'size': 'unknown'}, {'description': 'An abstract concept personified as a partner to Peace.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_RIGHTEOUSNESS",
+    "name": "Righteousness",
+    "type": "prop",
+    "aliases": [
+      "Righteousness"
+    ],
+    "roles": [
+      "scene_prop",
+      "unknown"
+    ],
+    "visual_traits": [
+      "{'description': \"An abstract concept that is sought and found with the Lord of Spirits. Also referred to as 'uprightness'.\", 'material': 'intangible', 'color': 'unknown', 'size': 'unknown'}",
+      "{'description': 'An abstract concept personified as a partner to Peace.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1103",
+      "row_1151"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 11,
+        "chapter_end": 58,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

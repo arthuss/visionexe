@@ -1,0 +1,73 @@
+{
+  "id": "PROP_HEAVENLY_TABLET",
+  "name": "heavenly tablet",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for heavenly tablet.",
+    "visual_anatomy": [
+      "Traits: Contains writing about the fate of future generations., {'description': \"The source of Enoch's knowledge, mentioned as 'tablet of heaven' (ጸፍጸፈ፡ሰማይ).\"}",
+      "Roles: actor_prop:Enoch, scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Contains writing about the fate of future generations.",
+      "{'description': \"The source of Enoch's knowledge, mentioned as 'tablet of heaven' (ጸፍጸፈ፡ሰማይ).\"}"
+    ],
+    "prompt_block": "heavenly tablet, Contains writing about the fate of future generations., {'description': \"The source of Enoch's knowledge, mentioned as 'tablet of heaven' (ጸፍጸፈ፡ሰማይ).\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Contains writing about the fate of future generations.",
+          "{'description': \"The source of Enoch's knowledge, mentioned as 'tablet of heaven' (ጸፍጸፈ፡ሰማይ).\"}"
+        ],
+        "prompt_block": "heavenly tablet, Contains writing about the fate of future generations., {'description': \"The source of Enoch's knowledge, mentioned as 'tablet of heaven' (ጸፍጸፈ፡ሰማይ).\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_HEAVENLY_TABLET",
+    "name": "heavenly tablet",
+    "type": "prop",
+    "aliases": [
+      "Heavenly Tablet",
+      "heavenly tablet"
+    ],
+    "roles": [
+      "actor_prop:Enoch",
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "Contains writing about the fate of future generations.",
+      "{'description': \"The source of Enoch's knowledge, mentioned as 'tablet of heaven' (ጸፍጸፈ፡ሰማይ).\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1186",
+      "row_1199"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 93,
+        "chapter_end": 106,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

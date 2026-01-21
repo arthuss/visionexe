@@ -1,0 +1,67 @@
+{
+  "id": "PROP_CUT_TREE",
+  "name": "cut tree",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for cut tree.",
+    "visual_anatomy": [
+      "Traits: A tree that has been cut, from which other trees sprout.",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A tree that has been cut, from which other trees sprout."
+    ],
+    "prompt_block": "cut tree, A tree that has been cut, from which other trees sprout.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A tree that has been cut, from which other trees sprout."
+        ],
+        "prompt_block": "cut tree, A tree that has been cut, from which other trees sprout."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_CUT_TREE",
+    "name": "cut tree",
+    "type": "prop",
+    "aliases": [
+      "cut tree"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "A tree that has been cut, from which other trees sprout."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1120"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 26,
+        "chapter_end": 26,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

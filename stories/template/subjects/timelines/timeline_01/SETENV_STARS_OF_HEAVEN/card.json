@@ -1,0 +1,103 @@
+{
+  "id": "SETENV_STARS_OF_HEAVEN",
+  "name": "Stars of heaven",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Stars of heaven.",
+    "visual_anatomy": [
+      "Roles: celestial body"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Stars of heaven, celestial body",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Stars of heaven, celestial body, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Stars of heaven, celestial body, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Stars of heaven, celestial body, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_STARS_OF_HEAVEN",
+    "name": "Stars of heaven",
+    "type": "set_environment",
+    "aliases": [
+      "Stars of heaven"
+    ],
+    "roles": [
+      "celestial body"
+    ],
+    "visual_traits": [],
+    "changes": [
+      "{'phase': 'Phase 1: Normal Order', 'description': 'Follow a commanded order and paths.'}",
+      "{'phase': 'Phase 2: Disrupted Order', 'description': \"Their entire order is 'closed' to sinners, and many go astray from their paths. They are mistaken for gods by people on earth.\"}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1173"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 80,
+        "chapter_end": 79,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 80,
+        "chapter_end": 79,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Normal Order', 'description': 'Follow a commanded order and paths.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 80,
+        "chapter_end": 80,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Disrupted Order', 'description': \"Their entire order is 'closed' to sinners, and many go astray from their paths. They are mistaken for gods by people on earth.\"}"
+        ]
+      }
+    ]
+  }
+}

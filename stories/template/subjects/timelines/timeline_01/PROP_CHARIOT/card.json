@@ -1,0 +1,124 @@
+{
+  "id": "PROP_CHARIOT",
+  "name": "Chariot (ስረገላተ)",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Chariot (ስረገላተ).",
+    "visual_anatomy": [
+      "Traits: Driven by the wind, Is ridden/mounted (ይጼዓን), {'description': 'A chariot that becomes submerged in blood.'}",
+      "Roles: actor_prop:Moon (ወርኅ), scene_prop"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Driven by the wind",
+      "Is ridden/mounted (ይጼዓን)",
+      "{'description': 'A chariot that becomes submerged in blood.'}"
+    ],
+    "prompt_block": "Chariot (ስረገላተ), Driven by the wind, Is ridden/mounted (ይጼዓን), {'description': 'A chariot that becomes submerged in blood.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "Driven by the wind",
+          "Is ridden/mounted (ይጼዓን)",
+          "{'description': 'A chariot that becomes submerged in blood.'}"
+        ],
+        "prompt_block": "Chariot (ስረገላተ), Driven by the wind, Is ridden/mounted (ይጼዓን), {'description': 'A chariot that becomes submerged in blood.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "Driven by the wind",
+          "Is ridden/mounted (ይጼዓን)",
+          "{'description': 'A chariot that becomes submerged in blood.'}"
+        ],
+        "prompt_block": "Chariot (ስረገላተ), Driven by the wind, Is ridden/mounted (ይጼዓን), {'description': 'A chariot that becomes submerged in blood.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "Driven by the wind",
+          "Is ridden/mounted (ይጼዓን)",
+          "{'description': 'A chariot that becomes submerged in blood.'}"
+        ],
+        "prompt_block": "Chariot (ስረገላተ), Driven by the wind, Is ridden/mounted (ይጼዓን), {'description': 'A chariot that becomes submerged in blood.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_CHARIOT",
+    "name": "Chariot (ስረገላተ)",
+    "type": "prop",
+    "aliases": [
+      "Chariot",
+      "Chariot (ስረገላተ)"
+    ],
+    "roles": [
+      "actor_prop:Moon (ወርኅ)",
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "Driven by the wind",
+      "Is ridden/mounted (ይጼዓን)",
+      "{'description': 'A chariot that becomes submerged in blood.'}"
+    ],
+    "changes": [
+      "{'is_dynamic': True, 'description': 'Becomes submerged in the rising blood.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1166",
+      "row_1193"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 73,
+        "chapter_end": 81,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 82,
+        "chapter_end": 90,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 91,
+        "chapter_end": 100,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'is_dynamic': True, 'description': 'Becomes submerged in the rising blood.'}"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_SKY_HEAVEN",
+  "name": "Sky / Heaven",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Sky / Heaven.",
+    "visual_anatomy": [
+      "Traits: {'description': 'The celestial expanse from which the stars fall.'}",
+      "Roles: setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The celestial expanse from which the stars fall.'}"
+    ],
+    "prompt_block": "Sky / Heaven, {'description': 'The celestial expanse from which the stars fall.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The celestial expanse from which the stars fall.'}"
+        ],
+        "prompt_block": "Sky / Heaven, {'description': 'The celestial expanse from which the stars fall.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_SKY_HEAVEN",
+    "name": "Sky / Heaven",
+    "type": "set_environment",
+    "aliases": [
+      "Sky / Heaven"
+    ],
+    "roles": [
+      "setting"
+    ],
+    "visual_traits": [
+      "{'description': 'The celestial expanse from which the stars fall.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1179"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 86,
+        "chapter_end": 86,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

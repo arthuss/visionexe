@@ -1,0 +1,72 @@
+{
+  "id": "SETENV_CELESTIAL_GATES",
+  "name": "Celestial Gates",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Celestial Gates.",
+    "visual_anatomy": [
+      "Traits: A system of portals through which the Sun and Moon rise and set. Specific gates are numbered., Four specific gates are mentioned: a first, third, fourth, and sixth.",
+      "Roles: Portals that regulate the 364-day year and the seasons., celestial_portal_system"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A system of portals through which the Sun and Moon rise and set. Specific gates are numbered.",
+      "Four specific gates are mentioned: a first, third, fourth, and sixth."
+    ],
+    "prompt_block": "Celestial Gates, A system of portals through which the Sun and Moon rise and set. Specific gates are numbered., Four specific gates are mentioned: a first, third, fourth, and sixth.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A system of portals through which the Sun and Moon rise and set. Specific gates are numbered.",
+          "Four specific gates are mentioned: a first, third, fourth, and sixth."
+        ],
+        "prompt_block": "Celestial Gates, A system of portals through which the Sun and Moon rise and set. Specific gates are numbered., Four specific gates are mentioned: a first, third, fourth, and sixth."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_CELESTIAL_GATES",
+    "name": "Celestial Gates",
+    "type": "set_environment",
+    "aliases": [
+      "Celestial Gates"
+    ],
+    "roles": [
+      "Portals that regulate the 364-day year and the seasons.",
+      "celestial_portal_system"
+    ],
+    "visual_traits": [
+      "A system of portals through which the Sun and Moon rise and set. Specific gates are numbered.",
+      "Four specific gates are mentioned: a first, third, fourth, and sixth."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1167",
+      "row_1175"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 74,
+        "chapter_end": 82,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

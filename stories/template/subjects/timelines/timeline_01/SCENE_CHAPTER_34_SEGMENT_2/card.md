@@ -1,15 +1,14 @@
 ## [SCENE] Chapter 34 Segment 2 (ID: SCENE_CHAPTER_34_SEGMENT_2)
 **Description:** Auto-generated asset card for Chapter 34 Segment 2.
-**Tags:** #unknown
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   Roles: unknown
+Roles: unknown
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase (Default)
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   TBD
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
 Chapter 34 Segment 2, unknown

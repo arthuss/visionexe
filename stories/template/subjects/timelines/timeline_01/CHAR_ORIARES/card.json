@@ -3,73 +3,49 @@
   "name": "Oriares",
   "type": "character",
   "card": {
-    "description": "Oriares is the Sun Unit, a colossal mechanical sphere that functions as a containment vessel for a star‑like energy source. Its surface is a blinding white plasma, while a glowing hexagonal magnetic net—etched with ancient Ethiopian glyphs—holds the plasma in place. The sphere’s core is crystalline, pulsing with a deep blue light, and its interior is a void of black, visible through the net. Steam and heat distortion emanate from the sphere as it rolls down a titanium rail into a rectangular stone monolith gate, which is illuminated by flashing red warning lights. The entire construct is rendered photorealistically, with tactile textures, high contrast, bloom, and industrial mysticism infused with ancient motifs.",
-    "tags": [
-      "Sun Unit",
-      "Mechanical Sphere",
-      "Ancient Tech",
-      "Containment Field",
-      "Plasma",
-      "Hexagonal Net",
-      "Ethiopian Glyphs",
-      "Crystalline Core",
-      "Titanium Rail",
-      "Stargate",
-      "Industrial Mysticism"
-    ],
+    "description": "Oriares is not a star, but a prisoner of the simulation's runtime—a colossal, thirty-meter sphere of blinding white plasma, confined within a hexagonal magnetic cage of copper-bronze filaments. In the cold, high-contrast silence of the upper atmosphere's 'storehouse,' Oriares functions as the system's primary illuminator, yet its existence is defined by restriction and industrial weight. It does not float gracefully through the void; it rolls, heavy and grinding, along a reinforced titanium rail system that screams under the immense thermal and gravitational load. The heat distortion radiating from its surface warps the obsidian darkness of the surrounding hangar, blurring the ancient Ethiopian glyphs etched into its containment field—glyphs that serve not as decoration, but as compiled code for thermal throttling and spectral output.",
     "visual_anatomy": [
-      "**Body/Form:** A 30‑meter diameter sphere composed of layered composite alloy and reinforced titanium, with a 1‑meter thick outer shell that is semi‑transparent to plasma.",
-      "**Face/Sensors:** No traditional face; integrated sensor arrays are embedded within the hexagonal net, projecting holographic glyphs and diagnostic readouts.",
-      "**Clothing/Armor:** The hexagonal magnetic net acts as armor, constructed from copper‑bronze filaments etched with hieroglyphic patterns that glow faintly in the plasma’s light.",
-      "**Key Features:** Glowing white plasma surface, crystalline core pulsing with blue light, black interior visible through the net, steam vents, titanium rail ramp, flashing red aviation warning lights on the gate, ancient Ethiopian glyphs, bio‑luminescent glyphs, containment field."
+      "The sphere's surface is a volatile ocean of superheated plasma, held in check by a 'hex-net' overlay—a physical manifestation of the simulation's boundary logic. These hexagonal segments are constructed from a darkened, heat-stressed composite that resembles meteoric iron, glowing faintly with the red-orange hue of cooling lava where they contact the plasma. Between these ribs, the blinding white light of the artificial sun pushes outward, creating a high-contrast chiaroscuro effect that emphasizes the machine's immense scale and potential for violence.",
+      "Embedded within the hexagonal frame are arrays of sensor clusters and optical lenses, resembling the compound eyes of an insect, constructed from layered data-glass. These sensors continuously monitor the internal fusion reactions, projecting holographic diagnostic readouts in glowing Geez script that float in the superheated air surrounding the unit. The core, visible only through deep fissures in the plasma turbulence, pulses with a cold, crystalline blue light—the visual signature of the simulation's kernel access.",
+      "The contact point between Oriares and its environment is a heavy-duty industrial rail system. The sphere does not hover; it possesses crushing mass. As it moves, the titanium rails beneath it buckle slightly, emitting showers of sparks and dense clouds of steam as cooling systems struggle to mitigate the heat transfer. The friction creates a visceral, grounding connection to the 'surface plane' physics, reinforcing the reality that this celestial body is a manufactured object subject to wear, tear, and entropy."
     ],
     "evolution": [
-      "Phase 1 (Prototype): Sphere assembled, containment field activated, plasma stabilized within the hexagonal net.",
-      "Phase 2 (Operational): Sphere deployed onto titanium rail, interacts with rectangular stone monolith gate, emits steam and heat distortion."
+      "In its default state, Oriares is a dormant giant, its plasma output dimmed to a 'standby' ember glow to conserve system resources. The hexagonal cage appears tight and restrictive, the cooling vents fully open, releasing jets of pressurized vapor into the cold void.",
+      "When active or 'unmasked' for the day-cycle, the plasma expands, pressing dangerously against the magnetic containment. The blue core brilliance intensifies, washing out the diagnostic holograms with sheer luminosity, while the rail system vibrates with the frequency of the contained energy, creating a low-frequency hum that resonates through the entire gate band structure."
     ],
     "props": [
-      "Sun_Unit_Oriares",
-      "Titanium_Rail_Ramp",
-      "Stargate_Stone_Monolith",
-      "Red_Warning_Lights",
-      "Steam_Clouds"
+      "**Titanium Rail Ramp:** A massive, dual-track guideway constructed from brushed titanium and scorched concrete, flanked by yellow hazard lines and hydraulic dampeners. It physically guides the Sun Unit from its storage hangar to the launch aperture.",
+      "**Western Gate Monolith:** A rectangular ingress/egress aperture framed in black obsidian and polished basalt. It features active aviation warning lights (red flashing strobes) and heavy blast doors that slide horizontally, revealing the simulated sky-dome beyond."
     ],
     "prompt_keywords": [
-      "ancient",
-      "Ethiopian",
-      "glyphs",
-      "plasma",
-      "hexagonal",
-      "magnetic",
-      "containment",
-      "black interior",
-      "crystalline core",
-      "titanium rail",
-      "stargate",
-      "red lights",
-      "steam",
-      "photorealistic",
-      "tactile",
-      "industrial mysticism"
+      "mechanical sun sphere",
+      "hexagonal magnetic cage",
+      "blinding white plasma",
+      "Ethiopian geez glyphs",
+      "industrial rail system",
+      "titanium tracks",
+      "obsidian hangar",
+      "cinematic lighting",
+      "heat distortion",
+      "atmospheric steam",
+      "hyper-realistic",
+      "8k",
+      "intricate textures"
     ],
-    "prompt_block": "A colossal mechanical sphere, the Sun Unit Oriares, glows with white plasma, encased in a hexagonal magnetic net etched with ancient Ethiopian glyphs, its crystalline core pulsing, black interior visible, steam rising as it rolls down a titanium rail into a rectangular stone monolith gate with flashing red warning lights, set against a pitch‑black space void, high contrast, bloom, heat distortion, photorealistic, tactile, ancient‑tech, industrial mysticism",
+    "prompt_block": "A hyper-realistic, cinematic wide shot of Oriares, a 30-meter mechanical sun-sphere resting heavily on a titanium industrial rail system inside a dark, obsidian hangar. The sphere is composed of blinding white plasma contained behind a hexagonal cage of heat-stressed copper-bronze metal. Ancient Ethiopian Geez glyphs glow as holographic overlays on the metal surface. The scene is lit by the stark, high-contrast light of the plasma itself, casting long, sharp shadows. Steam vents from the undercarriage, blurring the air with heat distortion. The texture of the metal is worn and scorched. The camera angle is low, looking up at the massive sphere to emphasize its scale and weight. 8k resolution, photorealistic, drama film still.",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "The Sun Unit Oriares in its default containment state, a glowing white plasma sphere encased in a hexagonal magnetic net, floating in a pitch‑black void.",
+        "summary": "Oriares in its standard containment mode, rolling heavily along the tracks, a prisoner of its own function.",
         "prompt_keywords": [
-          "ancient",
-          "Ethiopian",
-          "glyphs",
-          "plasma",
-          "hexagonal",
-          "magnetic",
-          "containment",
-          "black interior",
-          "crystalline core"
+          "contained plasma",
+          "hexagonal cage",
+          "rolling on rails",
+          "industrial hangar",
+          "heavy machinery"
         ],
-        "prompt_block": "A colossal mechanical sphere, the Sun Unit Oriares, glows with white plasma, encased in a hexagonal magnetic net etched with ancient Ethiopian glyphs, its crystalline core pulsing, black interior visible, steam rising as it rolls down a titanium rail into a rectangular stone monolith gate with flashing red warning lights, set against a pitch‑black space void, high contrast, bloom, heat distortion, photorealistic, tactile, ancient‑tech, industrial mysticism"
+        "prompt_block": "A photorealistic eye-level shot of the massive mechanical sun-sphere Oriares rolling slowly along a heavy titanium rail track. The sphere glows with contained white plasma behind a dark, hexagonal metal lattice. Sparks fly from the contact point between the sphere and the rails. The background is a dark, industrial void of the simulation's upper storage layer, defined by reflective black obsidian floors and distant red warning lights. The lighting is dramatic and high-contrast, highlighting the texture of the scorched metal and the atmospheric steam. Cinematic composition, depth of field."
       }
     ]
   },
@@ -87,7 +63,7 @@
     "sources": [
       "row_629"
     ],
-    "occurrence_count": 1,
+    "occurrence_count": 2,
     "is_dynamic": false,
     "state_policy": "static",
     "states": [

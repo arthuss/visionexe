@@ -1,30 +1,20 @@
 ## [SCENE] Chapter 69 Segment 19 (ID: SCENE_CHAPTER_69_SEGMENT_19)
-**Description:** The Obsidian Ankh Engine is a towering monolith, 12 meters tall, carved from black basalt and embedded with a lattice of translucent quartz that channels solar energy into a central crystalline core. The surface is etched with ancient Ge'ez glyphs that pulse faintly with bioluminescent algae, revealing a hidden circuitry of interwoven copper and silver filaments. The device emits a low, resonant hum as it harvests light, its base anchored by a network of iron girders and stone pillars that echo the architectural motifs of Axumite temples. When activated, the glyphs flare into a radiant blue glow, and the quartz lattice refracts light into a spectrum of iridescent colors, casting prismatic shadows across the surrounding stone floor.
-**Tags:** #ancient-tech #Ethiopian #Egyptian #industrial-mysticism #photorealistic #tactile #bioluminescent #crystalline-hardware
+**Description:** Auto-generated asset card for Chapter 69 Segment 19.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** 12‑meter basalt monolith with a central quartz core, surrounded by a lattice of copper‑silver filaments and iron girders, resembling an Axumite obelisk.
-*   **Face/Sensors:** A central eye of polished obsidian, embedded with a bioluminescent algae matrix that displays Ge'ez glyphs; the eye functions as a solar‑sensing array and a data interface.
-*   **Clothing/Armor:** None; the monolith’s exterior is raw stone and metal, with no protective covering, but the quartz lattice acts as a protective shield against thermal and electromagnetic fluctuations.
-*   **Key Features:** Bioluminescent glyphs, crystalline core, copper‑silver circuitry, iron girders, solar‑sensing obsidian eye, resonant humming mechanism, prismatic light refractor.
+TBD.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Dormant): The monolith stands silent, glyphs faintly glowing, quartz lattice in a low‑energy state, no ambient light refracted.
-*   Phase 2 (Activated): Glyphs flare, quartz lattice refracts light into a spectrum, resonant hum intensifies, central eye emits a focused beam of energy.
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Ancient Ge'ez Scroll, inked with luminescent pigments
-*   Item: Solar Lens Array, a set of polished quartz lenses that focus sunlight onto the monolith
-
-### 4. AI PROMPT KEYWORDS
-`obsidian`, `quartz lattice`, `bioluminescent glyphs`, `copper‑silver circuitry`, `Axumite obelisk`, `solar energy`, `prismatic light`, `photorealistic`, `tactile`
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
-A towering 12‑meter basalt obelisk, carved with intricate Ge'ez glyphs that glow bioluminescently, embedded with a lattice of translucent quartz and copper‑silver filaments, surrounded by iron girders, emitting a low resonant hum as it channels solar energy into a central crystalline core, photorealistic, tactile, ancient Ethiopian and Egyptian aesthetic, industrial mysticism, cinematic lighting with prismatic shadows
+Chapter 69 Segment 19,
 
 ### 6. PHASE PROMPTS
-*   **Default:** Monolith in dormant state, faint glyph glow, low energy
-    Prompt: A 12‑meter basalt obelisk with faintly glowing Ge'ez glyphs, a lattice of translucent quartz and copper‑silver filaments, iron girders anchoring the structure, emitting a subtle hum as it passively channels solar energy into a central crystalline core, photorealistic, tactile, ancient Ethiopian and Egyptian aesthetic, industrial mysticism, cinematic lighting with soft shadows
-    Keywords: obsidian, quartz lattice, bioluminescent glyphs, copper‑silver circuitry, Axumite obelisk, solar energy, prismatic light, photorealistic, tactile
+*   **Default:**
+    Prompt: Chapter 69 Segment 19,
 
 ---

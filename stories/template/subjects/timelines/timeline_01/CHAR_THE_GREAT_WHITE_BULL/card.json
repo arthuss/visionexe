@@ -1,0 +1,114 @@
+{
+  "id": "CHAR_THE_GREAT_WHITE_BULL",
+  "name": "The Great White Bull",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Great White Bull.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A white bull (ላህመ፡ ፀዓዳ / ሥረ፡ ጸዓዳ) born from the First White Cow.'}",
+      "Roles: character"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A white bull (ላህመ፡ ፀዓዳ / ሥረ፡ ጸዓዳ) born from the First White Cow.'}"
+    ],
+    "prompt_block": "The Great White Bull, {'description': 'A white bull (ላህመ፡ ፀዓዳ / ሥረ፡ ጸዓዳ) born from the First White Cow.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A white bull (ላህመ፡ ፀዓዳ / ሥረ፡ ጸዓዳ) born from the First White Cow.'}"
+        ],
+        "prompt_block": "The Great White Bull, {'description': 'A white bull (ላህመ፡ ፀዓዳ / ሥረ፡ ጸዓዳ) born from the First White Cow.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A white bull (ላህመ፡ ፀዓዳ / ሥረ፡ ጸዓዳ) born from the First White Cow.'}"
+        ],
+        "prompt_block": "The Great White Bull, {'description': 'A white bull (ላህመ፡ ፀዓዳ / ሥረ፡ ጸዓዳ) born from the First White Cow.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A white bull (ላህመ፡ ፀዓዳ / ሥረ፡ ጸዓዳ) born from the First White Cow.'}"
+        ],
+        "prompt_block": "The Great White Bull, {'description': 'A white bull (ላህመ፡ ፀዓዳ / ሥረ፡ ጸዓዳ) born from the First White Cow.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_GREAT_WHITE_BULL",
+    "name": "The Great White Bull",
+    "type": "character",
+    "aliases": [
+      "The Great White Bull"
+    ],
+    "roles": [
+      "character"
+    ],
+    "visual_traits": [
+      "{'description': 'A white bull (ላህመ፡ ፀዓዳ / ሥረ፡ ጸዓዳ) born from the First White Cow.'}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Bull', 'description': 'Born as a white bull.'}",
+      "{'phase': 'Phase 2: Great Bull', 'description': \"Grows up (ልህቀ) and becomes a 'great white bull' (œነ፡ሶረ፡ጸዓዳ፡ዐቢየ).\"}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1178"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 85,
+        "chapter_end": 84,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 85,
+        "chapter_end": 84,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Bull', 'description': 'Born as a white bull.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 85,
+        "chapter_end": 85,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Great Bull', 'description': \"Grows up (ልህቀ) and becomes a 'great white bull' (œነ፡ሶረ፡ጸዓዳ፡ዐቢየ).\"}"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "SETENV_DRY_GROUND",
+  "name": "Dry Ground",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Dry Ground.",
+    "visual_anatomy": [
+      "Traits: The physical earth, contrasted with the spiritual realm., the terrestrial dwelling place of the righteous, {'description': \"The realm of mortals (Earth), contrasted with the heavenly scene. It is the place where the 'dwellers' reside.\"}, {'description': 'The terrain upon which the righteous and chosen dwell.'}",
+      "Roles: Dwelling place of humanity., The dwelling place of the condemned inhabitants., setting, terrestrial_realm"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "The physical earth, contrasted with the spiritual realm.",
+      "the terrestrial dwelling place of the righteous",
+      "{'description': \"The realm of mortals (Earth), contrasted with the heavenly scene. It is the place where the 'dwellers' reside.\"}",
+      "{'description': 'The terrain upon which the righteous and chosen dwell.'}"
+    ],
+    "prompt_block": "Dry Ground, The physical earth, contrasted with the spiritual realm., the terrestrial dwelling place of the righteous, {'description': \"The realm of mortals (Earth), contrasted with the heavenly scene. It is the place where the 'dwellers' reside.\"}, {'description': 'The terrain upon which the righteous and chosen dwell.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "The physical earth, contrasted with the spiritual realm.",
+          "the terrestrial dwelling place of the righteous",
+          "{'description': \"The realm of mortals (Earth), contrasted with the heavenly scene. It is the place where the 'dwellers' reside.\"}",
+          "{'description': 'The terrain upon which the righteous and chosen dwell.'}"
+        ],
+        "prompt_block": "Dry Ground, The physical earth, contrasted with the spiritual realm., the terrestrial dwelling place of the righteous, {'description': \"The realm of mortals (Earth), contrasted with the heavenly scene. It is the place where the 'dwellers' reside.\"}, {'description': 'The terrain upon which the righteous and chosen dwell.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_DRY_GROUND",
+    "name": "Dry Ground",
+    "type": "set_environment",
+    "aliases": [
+      "Dry Ground",
+      "Dry ground",
+      "dry ground"
+    ],
+    "roles": [
+      "Dwelling place of humanity.",
+      "The dwelling place of the condemned inhabitants.",
+      "setting",
+      "terrestrial_realm"
+    ],
+    "visual_traits": [
+      "The physical earth, contrasted with the spiritual realm.",
+      "the terrestrial dwelling place of the righteous",
+      "{'description': \"The realm of mortals (Earth), contrasted with the heavenly scene. It is the place where the 'dwellers' reside.\"}",
+      "{'description': 'The terrain upon which the righteous and chosen dwell.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1130",
+      "row_1131",
+      "row_1133",
+      "row_1134",
+      "row_1159"
+    ],
+    "occurrence_count": 10,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 37,
+        "chapter_end": 65,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

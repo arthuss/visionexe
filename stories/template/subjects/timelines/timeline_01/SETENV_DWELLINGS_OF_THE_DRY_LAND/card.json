@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_DWELLINGS_OF_THE_DRY_LAND",
+  "name": "Dwellings of the Dry Land",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Dwellings of the Dry Land.",
+    "visual_anatomy": [
+      "Traits: A terrestrial location revealed to the narrator by the sound of thunder.",
+      "Roles: setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A terrestrial location revealed to the narrator by the sound of thunder."
+    ],
+    "prompt_block": "Dwellings of the Dry Land, A terrestrial location revealed to the narrator by the sound of thunder.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A terrestrial location revealed to the narrator by the sound of thunder."
+        ],
+        "prompt_block": "Dwellings of the Dry Land, A terrestrial location revealed to the narrator by the sound of thunder."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_DWELLINGS_OF_THE_DRY_LAND",
+    "name": "Dwellings of the Dry Land",
+    "type": "set_environment",
+    "aliases": [
+      "Dwellings of the Dry Land"
+    ],
+    "roles": [
+      "setting"
+    ],
+    "visual_traits": [
+      "A terrestrial location revealed to the narrator by the sound of thunder."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1152"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 59,
+        "chapter_end": 59,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

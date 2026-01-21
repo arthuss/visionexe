@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_DAY_OF_DARKNESS",
+  "name": "Day of Darkness",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Day of Darkness.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A temporal environment (ዕለተ፡ ጽልመት), part of the great judgment.'}",
+      "Roles: temporal_setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A temporal environment (ዕለተ፡ ጽልመት), part of the great judgment.'}"
+    ],
+    "prompt_block": "Day of Darkness, {'description': 'A temporal environment (ዕለተ፡ ጽልመት), part of the great judgment.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A temporal environment (ዕለተ፡ ጽልመት), part of the great judgment.'}"
+        ],
+        "prompt_block": "Day of Darkness, {'description': 'A temporal environment (ዕለተ፡ ጽልመት), part of the great judgment.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_DAY_OF_DARKNESS",
+    "name": "Day of Darkness",
+    "type": "set_environment",
+    "aliases": [
+      "Day of Darkness"
+    ],
+    "roles": [
+      "temporal_setting"
+    ],
+    "visual_traits": [
+      "{'description': 'A temporal environment (ዕለተ፡ ጽልመት), part of the great judgment.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1188"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 94,
+        "chapter_end": 94,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "id": "SETENV_BEFORE_THE_LORD_OF_SPIRITS",
+  "name": "Before the Lord of Spirits",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Before the Lord of Spirits.",
+    "visual_anatomy": [
+      "Roles: A conceptual space of divine presence where Enoch speaks., A location of reverence where Enoch falls."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Before the Lord of Spirits, A conceptual space of divine presence where Enoch speaks., A location of reverence where Enoch falls.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Before the Lord of Spirits, A conceptual space of divine presence where Enoch speaks., A location of reverence where Enoch falls."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_BEFORE_THE_LORD_OF_SPIRITS",
+    "name": "Before the Lord of Spirits",
+    "type": "set_environment",
+    "aliases": [
+      "Before the Lord of Spirits"
+    ],
+    "roles": [
+      "A conceptual space of divine presence where Enoch speaks.",
+      "A location of reverence where Enoch falls."
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1130",
+      "row_1151",
+      "row_1164"
+    ],
+    "occurrence_count": 8,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 37,
+        "chapter_end": 71,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

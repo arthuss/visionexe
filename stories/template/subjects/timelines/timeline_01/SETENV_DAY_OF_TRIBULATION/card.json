@@ -1,0 +1,74 @@
+{
+  "id": "SETENV_DAY_OF_TRIBULATION",
+  "name": "day of tribulation",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for day of tribulation.",
+    "visual_anatomy": [
+      "Traits: A future period of judgment, A future time designated for the removal of all evil and impious people.",
+      "Roles: A future time of judgment., temporal_setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A future period of judgment",
+      "A future time designated for the removal of all evil and impious people."
+    ],
+    "prompt_block": "day of tribulation, A future period of judgment, A future time designated for the removal of all evil and impious people.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A future period of judgment",
+          "A future time designated for the removal of all evil and impious people."
+        ],
+        "prompt_block": "day of tribulation, A future period of judgment, A future time designated for the removal of all evil and impious people."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_DAY_OF_TRIBULATION",
+    "name": "day of tribulation",
+    "type": "set_environment",
+    "aliases": [
+      "Day of Tribulation",
+      "day of tribulation"
+    ],
+    "roles": [
+      "A future time of judgment.",
+      "temporal_setting"
+    ],
+    "visual_traits": [
+      "A future period of judgment",
+      "A future time designated for the removal of all evil and impious people."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1047",
+      "row_1074",
+      "row_1097"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 1,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "SETENV_THE_MOUNTAINS",
+  "name": "The Mountains",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for The Mountains.",
+    "visual_anatomy": [
+      "Traits: A collective of six mountains made of different metals.",
+      "Roles: symbolic_landscape"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A collective of six mountains made of different metals."
+    ],
+    "prompt_block": "The Mountains, A collective of six mountains made of different metals.",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "A collective of six mountains made of different metals."
+        ],
+        "prompt_block": "The Mountains, A collective of six mountains made of different metals., Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "A collective of six mountains made of different metals."
+        ],
+        "prompt_block": "The Mountains, A collective of six mountains made of different metals., Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "A collective of six mountains made of different metals."
+        ],
+        "prompt_block": "The Mountains, A collective of six mountains made of different metals., Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_MOUNTAINS",
+    "name": "The Mountains",
+    "type": "set_environment",
+    "aliases": [
+      "The Mountains"
+    ],
+    "roles": [
+      "symbolic_landscape"
+    ],
+    "visual_traits": [
+      "A collective of six mountains made of different metals."
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Solid', 'description': 'Six distinct, solid mountains made of iron, copper, silver, gold, soft metal, and lead.'}",
+      "{'phase': 'Phase 2: Dissolved', 'description': 'The mountains melt like wax before fire and flow down like water, becoming weak beneath the feet of the Elect One.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1145"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 52,
+        "chapter_end": 51,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 52,
+        "chapter_end": 51,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Solid', 'description': 'Six distinct, solid mountains made of iron, copper, silver, gold, soft metal, and lead.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 52,
+        "chapter_end": 52,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Dissolved', 'description': 'The mountains melt like wax before fire and flow down like water, becoming weak beneath the feet of the Elect One.'}"
+        ]
+      }
+    ]
+  }
+}

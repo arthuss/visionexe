@@ -1,0 +1,67 @@
+{
+  "id": "PROP_NAMES_OF_THE_RIGHTEOUS",
+  "name": "Names of the Righteous",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Names of the Righteous.",
+    "visual_anatomy": [
+      "Traits: {'description': 'The names (¡ስማቲŒሙ) of the righteous, which are written down in heaven.'}",
+      "Roles: actor_prop:The Righteous"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The names (¡ስማቲŒሙ) of the righteous, which are written down in heaven.'}"
+    ],
+    "prompt_block": "Names of the Righteous, {'description': 'The names (¡ስማቲŒሙ) of the righteous, which are written down in heaven.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The names (¡ስማቲŒሙ) of the righteous, which are written down in heaven.'}"
+        ],
+        "prompt_block": "Names of the Righteous, {'description': 'The names (¡ስማቲŒሙ) of the righteous, which are written down in heaven.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_NAMES_OF_THE_RIGHTEOUS",
+    "name": "Names of the Righteous",
+    "type": "prop",
+    "aliases": [
+      "Names of the Righteous"
+    ],
+    "roles": [
+      "actor_prop:The Righteous"
+    ],
+    "visual_traits": [
+      "{'description': 'The names (¡ስማቲŒሙ) of the righteous, which are written down in heaven.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1197"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 104,
+        "chapter_end": 104,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

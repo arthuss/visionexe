@@ -1,0 +1,85 @@
+{
+  "id": "CHAR_GUIDES",
+  "name": "Guides",
+  "type": "character",
+  "card": {
+    "description": "The Guides function as the runtime administrators and authorized pedagogical interfaces within the simulation box, bridging the immense processing gap between the Kernel's directive and the instantiated user base on the surface plane. They are not celestial apparitions of unapproachable light, but rather solemn, high-fidelity manifestations grounded in the dust and grit of the environment. Tasked with the calibration and instruction of the 'children of the earth'—a metaphor for the newly compiled consciousnesses navigating the system—they bear the crushing latency of translation, converting raw, absolute truth into comprehensible data packets. They operate under the direct, root-level command of the Lord, standing as the firewall against entropy and error. Their existence is defined by a weary, stoic functionality; they do not perform miracles but execute complex system overrides to maintain the moral physics of the simulation, ensuring the runtime stability of those entrusted to their cache.",
+    "visual_anatomy": [
+      "They manifest with a visual fidelity that exceeds the standard render settings of the surrounding world. Their topology is flawless, rendered in hyper-realistic detail where every pore and iris striation is visible, creating a subtle, unnerving distinction from the slightly compressed textures of the standard populace. Their skin possesses the cool, light-absorbing properties of matte obsidian, lending them a density and gravitas that anchors them visually in the scene, resisting the wash of the sky dome's plasma diffuse.",
+      "Their attire appears at a distance to be the rough, homespun linen common to the era, blending seamlessly with the historical aesthetic. However, under the scrutiny of a cinematic close-up, the fabric reveals itself to be a complex weave of dormant fiber-optic cabling and dark data-glass filaments. These robes hang with the heavy, calculated physics of high-density storage media, moving with a fluid drag that suggests they are grounded in a layer of physics inaccessible to ordinary users.",
+      "Framed often in high-contrast chiaroscuro, they inhabit the shadows of the 'gate_band' regions. Lighting design treats them with reverence and fear; they are rarely fully illuminated, defined instead by sharp rim-lighting that cuts their silhouettes against the void. When they engage in speech or instruction, the air immediately surrounding them shimmers with heat lensing—a visual cue of the thermal throttling required to downstep their immense data throughput into the limited bandwidth of human language."
+    ],
+    "evolution": [
+      "In their default state of reception, they stand perfectly static, minimizing system resources to prioritize the ingress of the Lord's command packet. They form a unified, synchronized array, their individual identities submerged into a single, multi-threaded process listening to the root signal.",
+      "As the instruction integrates, their visual demeanor shifts from passive receivers to active agents. The fiber-optic threads in their garments may pulse with a faint, deep-register luminescence—not magical, but indicative of data transfer—as they prepare to disperse and execute the logic of the admonition upon the simulation's inhabitants."
+    ],
+    "props": [
+      "They hold what appear to be ancient scrolls or tablets, heavy and weathered. Yet, the material is clearly semi-translucent obsidian glass. These are not static documents but read/write interfaces linked to the upper store.",
+      "Upon the surface of these tablets, vector field lines and Geez glyphs scroll vertically, representing the raw source code of the wisdom they are to impart. The text does not glow with holy fire but burns with the cold, steady intensity of a terminal command line."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic",
+      "cinematic lighting",
+      "obsidian skin texture",
+      "fiber-optic linen robes",
+      "data-glass tablets",
+      "heat lensing",
+      "Geez glyphs",
+      "somber mood",
+      "high contrast",
+      "simulation glitch details",
+      "matte texture",
+      "35mm film grain"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic medium shot of the Guides, standing in a solemn, dark formation. They appear as weary, high-fidelity human figures with matte obsidian-toned skin that absorbs light. They wear heavy robes that look like ancient linen but are woven from dark, dormant fiber-optic threads. They hold tablets of translucent dark glass displaying scrolling Geez glyphs in a faint, amber terminal light. The lighting is high-contrast drama, rim-lighting their silhouettes against a deep shadow background. The air around them is distorted by subtle heat lensing. Captured with a 85mm lens, shallow depth of field, focused on the texture of the robes and the stoic expression of the central figure.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Receiving Instruction",
+        "summary": "The Guides stand in a static, receptive array, listening to the root command. They are motionless, heavy with purpose, and lit by the harsh contrast of the system's ingress light.",
+        "prompt_keywords": [
+          "static pose",
+          "listening",
+          "rim light",
+          "dark atmosphere",
+          "receptive"
+        ],
+        "prompt_block": "Cinematic close-up of a group of Guides standing perfectly still in darkness. They are listening intensely, eyes focused on an unseen point. Their matte, realistic skin highlights are sharp and cold. They wear dark, textured robes that hint at synthetic materials. The background is a void of deep blacks. Subtle vector field particles float dust-like in the single shaft of harsh, cool light illuminating them from above. 8k resolution, photorealistic, dramatic shadows."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_GUIDES",
+    "name": "Guides",
+    "type": "character",
+    "aliases": [
+      "Guides"
+    ],
+    "roles": [
+      "character"
+    ],
+    "visual_traits": [
+      "An unspecified group, initially referred to as 'They', who are tasked with teaching the 'children of the earth'. Addressed as 'you' by the Lord."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1198"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 105,
+        "chapter_end": 105,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "SCENE_ARRIVAL_AT_THE_BLESSED_PLACE",
+  "name": "Arrival at the Blessed Place",
+  "type": "scene",
+  "card": {
+    "description": "Auto-generated asset card for Arrival at the Blessed Place.",
+    "visual_anatomy": [
+      "Roles: blessed and shaded place"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Arrival at the Blessed Place, blessed and shaded place",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Arrival at the Blessed Place, blessed and shaded place"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_ARRIVAL_AT_THE_BLESSED_PLACE",
+    "name": "Arrival at the Blessed Place",
+    "type": "scene",
+    "aliases": [
+      "Arrival at the Blessed Place"
+    ],
+    "roles": [
+      "blessed and shaded place"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1120"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 26,
+        "chapter_end": 26,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

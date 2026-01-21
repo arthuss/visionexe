@@ -1,10 +1,10 @@
 ## [STATE] light :: Phase 1
 **State ID:** phase_01
-**Chapters:** 1 - 24
+**Chapters:** 1 - 36
+**Notes:** unknown
 
-**Phase Summary:** Ambient glow and bioluminescent veins in a dark temple
-**Phase Keywords:** ambient, bioluminescent, temple, soft rim lighting, photorealistic
+**Phase Keywords:** bright, shining, unknown, {'description': "An environment of light, joy, and peace destined for 'the chosen'."}, {'description': 'A pervasive, un-numerable, and eternal element that is sought by the blessed and established before the Lord of Spirits. It replaces darkness.', 'state': 'luminous'}, {'description': 'An environmental condition that has passed away from the kings and mighty.'}
 **Phase Prompt:**
-A cinematic, photorealistic dark void temple with subtle ambient glow, faint bioluminescent veins pulsing across stone, soft rim lighting, high contrast, tactile textures, ancient Ethiopian motifs, 8k resolution
+light, bright, shining, unknown, {'description': "An environment of light, joy, and peace destined for 'the chosen'."}, {'description': 'A pervasive, un-numerable, and eternal element that is sought by the blessed and established before the Lord of Spirits. It replaces darkness.', 'state': 'luminous'}, {'description': 'An environmental condition that has passed away from the kings and mighty.'}, Phase 1
 
 ---

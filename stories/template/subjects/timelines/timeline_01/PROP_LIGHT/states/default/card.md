@@ -1,10 +1,9 @@
 ## [STATE] light :: Default
 **State ID:** default
-**Chapters:** 38 - 78
+**Chapters:** 38 - 79
 
-**Phase Summary:** The light source as a crystalline core with gold veins and blue wireframe, integrated into obsidian structures.
-**Phase Keywords:** ancient-tech, obsidian, crystalline, golden-veins, blue-wireframe, hard-light, bioluminescent, mystic
+**Phase Keywords:** A substance that is transferred from the Sun to the Moon. It is measured in 'parts', such as 'seven parts', 'three-fifths', and 'a seventh part'., abstract, the illumination of the moon, which is completed at the sixth gate, unknown, {'description': 'A light that appears for the righteous and chosen. It is later identified as the light of the Lord of Spirits, which shines on the faces of the holy, righteous, and chosen.'}
 **Phase Prompt:**
-Cinematic photorealistic depiction of the default state of the light source: a 30 cm obsidian crystalline core with pulsing gold veins, a central blue 3D wireframe sphere, emitting a hard white beam that transforms stone into obsidian glass, surrounded by ancient Ethiopian glyphs, high contrast rim lighting, 8k resolution, no markdown
+light, A substance that is transferred from the Sun to the Moon. It is measured in 'parts', such as 'seven parts', 'three-fifths', and 'a seventh part'., abstract, the illumination of the moon, which is completed at the sixth gate, unknown, {'description': 'A light that appears for the righteous and chosen. It is later identified as the light of the Lord of Spirits, which shines on the faces of the holy, righteous, and chosen.'}
 
 ---

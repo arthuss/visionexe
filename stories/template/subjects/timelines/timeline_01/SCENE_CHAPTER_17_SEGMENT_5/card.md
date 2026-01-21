@@ -1,30 +1,20 @@
 ## [SCENE] Chapter 17 Segment 5 (ID: SCENE_CHAPTER_17_SEGMENT_5)
-**Description:** The Obelisk of the Scribe is a towering 3‑meter monolith that blends basaltic stone with polished obsidian panels, etched with ancient Ethiopian and Egyptian glyphs that pulse with bioluminescent light. Beneath the stone surface lies a crystalline core emitting a soft azure glow, surrounded by a lattice of metal filaments that appear to be both circuitry and ceremonial filigree. The obelisk’s surface is weathered, with dust and mineral deposits, yet the glyphs remain sharp, hinting at an advanced, incomprehensible technology.
-**Tags:** #ancient-tech #industrial-mysticism #Ethiopian #Egyptian #photorealistic #tactile #bioluminescent-glyphs #crystalline-core #metal-filaments #weathered-stone
+**Description:** Auto-generated asset card for Chapter 17 Segment 5.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** 3‑meter tall monolith of basaltic stone fused with polished obsidian panels, weathered with dust and mineral deposits.
-*   **Face/Sensors:** Intricate glyphs of Ethiopian and Egyptian origin glow with bioluminescent light; embedded sensor arrays form a subtle lattice beneath the glyphs.
-*   **Clothing/Armor:** Not applicable.
-*   **Key Features:** Crystalline core emitting a soft azure glow; metal filaments that blend circuitry and ceremonial filigree; weathered stone surface with sharp glyphs; bio‑luminescent glyphs that pulse in rhythm with the core.
+Roles: unknown
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Discovery): The obelisk is found in a ruined temple, its stone surface covered in dust, glyphs faint and barely discernible.
-*   Phase 2 (Activation): Glyphs glow, core pulses, metal filaments extend, the obelisk hums with an unseen power.
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Obsidian Lens – a handheld, black glass lens that magnifies the glyphs and reveals hidden circuitry.
-*   Item: Ancient Scroll – a brittle scroll containing prayers and technical schematics in a hybrid script.
-
-### 4. AI PROMPT KEYWORDS
-`obelisks`, `bioluminescent glyphs`, `crystalline core`, `ancient Ethiopian`, `Egyptian motifs`, `industrial mysticism`
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
-A towering 3-meter obelisk of basaltic stone fused with polished obsidian panels, etched with ancient Ethiopian and Egyptian glyphs that pulse with bioluminescent light, a crystalline core emitting a soft azure glow surrounded by a lattice of metal filaments that blend circuitry and ceremonial filigree, weathered surface with dust and mineral deposits, photorealistic, tactile, cinematic lighting, grounded realism, industrial mysticism, no cartoon or generic sci‑fi elements
+Chapter 17 Segment 5, unknown
 
 ### 6. PHASE PROMPTS
-*   **Default:** The obelisk in its discovered, dormant state with faint glyphs and a weathered stone surface.
-    Prompt: A 3-meter tall obelisk of basaltic stone and obsidian panels, covered in dust and mineral deposits, with faint Ethiopian and Egyptian glyphs etched into the surface, no bioluminescent glow, photorealistic, tactile, cinematic lighting, grounded realism, industrial mysticism
-    Keywords: obelisks, faded glyphs, weathered stone, ancient Ethiopian, Egyptian motifs
+*   **Default:**
+    Prompt: Chapter 17 Segment 5, unknown
 
 ---

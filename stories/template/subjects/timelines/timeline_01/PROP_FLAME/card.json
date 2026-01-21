@@ -3,53 +3,32 @@
   "name": "flame",
   "type": "prop",
   "card": {
-    "description": "A crystalline flame core, a toroidal obsidian‑quartz construct that emits a cold blue plasma flame. The core is etched with ancient Ge'ez glyphs that pulse with bioluminescent light, and its surface is studded with micro‑crystalline filaments that refract the flame’s glow. Set upon a polished obsidian pedestal, the flame reflects onto a mirrored obsidian floor, creating a hyper‑realistic, tactile interplay of light and shadow that fuses ancient Ethiopian/Egyptian mysticism with incomprehensible, industrial‑tech power.",
-    "tags": [
-      "flame",
-      "crystalline",
-      "ancient-tech",
-      "industrial-mysticism",
-      "photorealistic",
-      "tactile"
-    ],
+    "description": "Auto-generated asset card for flame.",
     "visual_anatomy": [
-      "**Body/Form:** Torodial obsidian core with embedded quartz lattice, 30 cm in diameter, 10 cm thick, featuring a central void that channels plasma.",
-      "**Face/Sensors:** No facial features; integrated Ge'ez glyphic sensors along the rim that glow when the flame is active.",
-      "**Clothing/Armor:** None; the core’s surface is a seamless, polished obsidian‑quartz composite.",
-      "**Key Features:** Cold blue plasma flame, bioluminescent glyphs, micro‑crystalline filaments, reflective obsidian pedestal, high‑contrast cinematic lighting."
+      "Traits: A source of intense heat that causes the wax-like melting., Source of intense heat and light.",
+      "Roles: flame element, scene_prop, simile_prop"
     ],
     "evolution": [
-      "Phase 1 (Dormant): The core emits a faint, pulsing glow; glyphs are dim, and the plasma is barely visible.",
-      "Phase 2 (Active): The flame erupts into a bright cold blue plasma, glyphs flare, and bioluminescent crystals refract light across the obsidian floor."
+      "Phase (Default)"
     ],
     "props": [
-      "Item: Flame Core – the toroidal obsidian‑quartz construct.",
-      "Item: Glyphic Ember – a detachable fragment of the core that can be used as a portable flame source."
+      "TBD."
     ],
     "prompt_keywords": [
-      "crystalline flame",
-      "cold blue plasma",
-      "Ge'ez glyphs",
-      "obsidian pedestal",
-      "bioluminescent filaments",
-      "industrial mysticism",
-      "photorealistic",
-      "tactile"
+      "A source of intense heat that causes the wax-like melting.",
+      "Source of intense heat and light."
     ],
-    "prompt_block": "A photorealistic, cinematic depiction of a crystalline flame core, a toroidal obsidian‑quartz construct emitting a cold blue plasma flame that glows with embedded Ge'ez glyphs, set on a polished obsidian pedestal, surrounded by swirling bioluminescent crystals, with light reflecting off the obsidian floor, rendered in 8K with high contrast cinematic lighting and a tactile sense of ancient mysticism fused with incomprehensible technology.",
+    "prompt_block": "flame, A source of intense heat that causes the wax-like melting., Source of intense heat and light.",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Dormant flame core with faint bioluminescent glow.",
+        "summary": "",
         "prompt_keywords": [
-          "dormant",
-          "faint glow",
-          "crystalline core",
-          "obsidian",
-          "Ge'ez glyphs"
+          "A source of intense heat that causes the wax-like melting.",
+          "Source of intense heat and light."
         ],
-        "prompt_block": "A photorealistic, cinematic depiction of a dormant crystalline flame core, a toroidal obsidian‑quartz construct emitting a faint, pulsing bioluminescent glow from embedded Ge'ez glyphs, set on a polished obsidian pedestal, with subtle reflections on the obsidian floor, rendered in 8K with high contrast lighting and a tactile sense of ancient mysticism."
+        "prompt_block": "flame, A source of intense heat that causes the wax-like melting., Source of intense heat and light."
       }
     ]
   },
@@ -58,25 +37,33 @@
     "name": "flame",
     "type": "prop",
     "aliases": [
+      "Flame",
       "flame"
     ],
     "roles": [
-      "flame element"
+      "flame element",
+      "scene_prop",
+      "simile_prop"
     ],
-    "visual_traits": [],
+    "visual_traits": [
+      "A source of intense heat that causes the wax-like melting.",
+      "Source of intense heat and light."
+    ],
     "changes": [],
     "notes": [],
     "sources": [
+      "row_1052",
+      "row_1079",
       "row_262"
     ],
-    "occurrence_count": 1,
+    "occurrence_count": 6,
     "is_dynamic": false,
     "state_policy": "static",
     "states": [
       {
         "state_id": "default",
         "label": "Default",
-        "chapter_start": 39,
+        "chapter_start": 1,
         "chapter_end": 39,
         "segment_labels": [],
         "scene_labels": [],

@@ -1,0 +1,88 @@
+{
+  "id": "SETENV_THE_WEST",
+  "name": "The West",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for The West.",
+    "visual_anatomy": [
+      "Traits: A location to which the narrator is transported. It is where he sees the vision of the mountains., The cardinal direction where the mountain is located, {'description': \"A cardinal direction and region; the destination of the narrator's journey.\"}, {'description': 'A cardinal direction (ዐረብ) that is the origin point of one of the great rivers.'}, {'description': 'A cardinal direction functioning as a region, where the vision takes place.', 'state': 'static'}",
+      "Roles: directional location, directional_qualifier, location, region, setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A location to which the narrator is transported. It is where he sees the vision of the mountains.",
+      "The cardinal direction where the mountain is located",
+      "{'description': \"A cardinal direction and region; the destination of the narrator's journey.\"}",
+      "{'description': 'A cardinal direction (ዐረብ) that is the origin point of one of the great rivers.'}",
+      "{'description': 'A cardinal direction functioning as a region, where the vision takes place.', 'state': 'static'}"
+    ],
+    "prompt_block": "The West, A location to which the narrator is transported. It is where he sees the vision of the mountains., The cardinal direction where the mountain is located, {'description': \"A cardinal direction and region; the destination of the narrator's journey.\"}, {'description': 'A cardinal direction (ዐረብ) that is the origin point of one of the great rivers.'}, {'description': 'A cardinal direction functioning as a region, where the vision takes place.', 'state': 'static'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A location to which the narrator is transported. It is where he sees the vision of the mountains.",
+          "The cardinal direction where the mountain is located",
+          "{'description': \"A cardinal direction and region; the destination of the narrator's journey.\"}",
+          "{'description': 'A cardinal direction (ዐረብ) that is the origin point of one of the great rivers.'}",
+          "{'description': 'A cardinal direction functioning as a region, where the vision takes place.', 'state': 'static'}"
+        ],
+        "prompt_block": "The West, A location to which the narrator is transported. It is where he sees the vision of the mountains., The cardinal direction where the mountain is located, {'description': \"A cardinal direction and region; the destination of the narrator's journey.\"}, {'description': 'A cardinal direction (ዐረብ) that is the origin point of one of the great rivers.'}, {'description': 'A cardinal direction functioning as a region, where the vision takes place.', 'state': 'static'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_WEST",
+    "name": "The West",
+    "type": "set_environment",
+    "aliases": [
+      "The West"
+    ],
+    "roles": [
+      "directional location",
+      "directional_qualifier",
+      "location",
+      "region",
+      "setting"
+    ],
+    "visual_traits": [
+      "A location to which the narrator is transported. It is where he sees the vision of the mountains.",
+      "The cardinal direction where the mountain is located",
+      "{'description': \"A cardinal direction and region; the destination of the narrator's journey.\"}",
+      "{'description': 'A cardinal direction (ዐረብ) that is the origin point of one of the great rivers.'}",
+      "{'description': 'A cardinal direction functioning as a region, where the vision takes place.', 'state': 'static'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1115",
+      "row_1116",
+      "row_1126",
+      "row_1145",
+      "row_1170",
+      "row_1173"
+    ],
+    "occurrence_count": 20,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 22,
+        "chapter_end": 80,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

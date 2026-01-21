@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_MIDDLE_OF_THE_EARTH",
+  "name": "middle of the earth",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for middle of the earth.",
+    "visual_anatomy": [
+      "Traits: A central region containing a blessed place, mountains, and valleys.",
+      "Roles: region"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A central region containing a blessed place, mountains, and valleys."
+    ],
+    "prompt_block": "middle of the earth, A central region containing a blessed place, mountains, and valleys.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A central region containing a blessed place, mountains, and valleys."
+        ],
+        "prompt_block": "middle of the earth, A central region containing a blessed place, mountains, and valleys."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_MIDDLE_OF_THE_EARTH",
+    "name": "middle of the earth",
+    "type": "set_environment",
+    "aliases": [
+      "middle of the earth"
+    ],
+    "roles": [
+      "region"
+    ],
+    "visual_traits": [
+      "A central region containing a blessed place, mountains, and valleys."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1120"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 26,
+        "chapter_end": 26,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

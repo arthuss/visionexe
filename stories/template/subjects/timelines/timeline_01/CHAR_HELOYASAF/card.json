@@ -1,0 +1,83 @@
+{
+  "id": "CHAR_HELOYASAF",
+  "name": "Heloyasaf",
+  "type": "character",
+  "card": {
+    "description": "Heloyasaf manifests as a specialized sub-governor within the southern celestial quadrant of the simulation, operating directly under the command architecture of Melkiel. Designated as a 'Chief of a Thousand,' he functions as a high-density load balancer, tasked with synchronizing one thousand distinct atmospheric micro-processes that constitute the sensory details of the transitional seasons. Unlike the radiant, untouchable architects of the upper store, Heloyasaf bears the visual weight of operational fatigue, embodying the relentless grind of maintaining physics fidelity within the simulation's bounding box. He exists in the dark, quiet sectors of the data-stratosphere, ensuring that the mathematical precision of the stars translates flawlessly into the chaotic beauty of the surface world's weather patterns. His presence is defined by a quiet, brooding intensity, reflecting the immense computational burden required to keep the simulation's illusion intact for its inhabitants.",
+    "visual_anatomy": [
+      "His physical form is a masterpiece of hyper-realistic bio-synthetic engineering, appearing as a tall, stoic figure clad in a tailored, utilitarian uniform of matte-black memory fabric that absorbs ambient light. The texture of his attire suggests high-end aerospace composites, rigid at the shoulders to support heavy data-cabling that disappears into the nape of his neck, yet fluid at the extremities to allow for precise manual adjustments of the interface arrays. Faint, amber-hued fiber optic tracery runs beneath the seams of his coat, pulsing rhythmically with the server tick-rate, providing the only warmth in his otherwise cold, monochromatic palette.",
+      "The face of Heloyasaf is startlingly human, rendered with pore-level photorealism, yet cast in a permanent expression of focused exhaustion. His skin possesses a subtle, subsurface scattering effect reminiscent of polished onyx or cold ceramic, flawless but unnatural in its stillness. His eyes do not possess irises but are instead solid orbs of dark data-glass, constantly flickering with the reflection of scrolling vector fields and error logs. When he moves, the air around him shimmers with heat lensing, a byproduct of the intense thermal throttling required to process the 'thousand' simultaneous directives he commands.",
+      "He is often framed against the stark, geometric vastness of the Gate Band—the transition zone between the surface sky and the upper machinery. Here, the lighting is dramatic and high-contrast, with harsh rim-lighting cutting his silhouette out of the deep void. He interacts with the world not through magic, but through haptic manipulation of hard-light projections, his gloved hands moving with the grace of a conductor and the precision of a surgeon as he realigns drifting star-coordinates."
+    ],
+    "evolution": [
+      "In the default state, Heloyasaf is observed in a moment of operational stasis, hovering near the ingress gates of the southern sky. He is fully immersed in his duty, his posture rigid as he audits the flow of seasonal data. There is no decay in his form, but the sheer density of the information he processes creates a gravitational heaviness around him, bending the light of nearby simulated stars."
+    ],
+    "props": [
+      "He wields a 'Tablet of the Thousand,' which in this reality manifests as a slab of translucent obsidian glass. This device is not merely a screen but a physical manifest of the thousand processes he controls. The surface is etched with shifting Geez glyphs that glow with a cold, plasma-blue luminescence, representing the active status of his subordinates. The edges of the device are worn, suggesting aeons of usage.",
+      "Surrounding him is a localized constellation of floating data-particles—dust motes that are actually suspended bits of code. These particles drift in his wake, reacting to his emotional state; they swirl violently when system errors occur and drift lazily when the simulation is stable."
+    ],
+    "prompt_keywords": [
+      "Heloyasaf",
+      "Chief of a Thousand",
+      "simulation pilot",
+      "obsidian uniform",
+      "matte black aesthetic",
+      "data-glass eyes",
+      "fiber optic accents",
+      "atmospheric processing",
+      "hyper-realistic texture",
+      "cinematic lighting",
+      "moody atmosphere",
+      "technological angel",
+      "8k resolution",
+      "unreal engine 5 style"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic medium shot of Heloyasaf, a stoic simulation administrator, standing on a translucent platform in the upper atmosphere. He wears a structured, matte-black coat made of aerospace material with faint amber fiber-optic trim. His skin is pale and flawless like ceramic, with eyes made of solid dark glass reflecting scrolling blue code. He holds a tablet of obsidian glass displaying glowing Geez glyphs. The background is a deep, dark blue void of the upper simulation layer, punctuated by geometric star-grids. The lighting is low-key and dramatic, with strong rim lighting highlighting the textures of his clothing and the weary expression on his face. Photorealistic rendering, depth of field, 85mm lens.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Heloyasaf stands as the silent custodian of the southern seasonal algorithms, auditing the data streams of his thousand subordinates with heavy, stoic grace.",
+        "prompt_keywords": [
+          "stoic pose",
+          "monitoring duties",
+          "atmospheric void background",
+          "amber interface lights"
+        ],
+        "prompt_block": "A hyper-realistic portrait of Heloyasaf, the Chief of a Thousand, framed against the dark, infinite grid of the simulation's night sky. He is looking down at a holographic display projecting from an obsidian slate in his hands. His expression is one of intense concentration and subtle fatigue. The ambient lighting is cool and blue, contrasted by the warm amber pulse of the fiber optics embedded in his high collar. The materials of his coat are rendered with extreme fidelity, showing the weave of the smart-fabric. Volumetric fog swirls around his legs, illuminated by the digital glow of the interface."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_HELOYASAF",
+    "name": "Heloyasaf",
+    "type": "character",
+    "aliases": [
+      "Heloyasaf"
+    ],
+    "roles": [
+      "A subordinate leader under Melkiel, designated as a 'chief of a thousand'."
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1175"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 82,
+        "chapter_end": 82,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

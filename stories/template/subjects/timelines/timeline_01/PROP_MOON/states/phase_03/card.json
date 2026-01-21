@@ -1,0 +1,30 @@
+{
+  "subject_id": "PROP_MOON",
+  "subject_name": "Moon",
+  "state": {
+    "state_id": "phase_03",
+    "label": "Phase 3",
+    "chapter_start": 58,
+    "chapter_end": 82,
+    "segment_labels": [],
+    "scene_labels": [],
+    "source_ids": [],
+    "notes": [
+      "{'phase': 'Phase 3: Waning', 'description': \"Its light decreases daily over 15 days until it is all gone. Its orbit is described as 'empty, without light' at the end of this phase.\"}"
+    ]
+  },
+  "phase_prompt": {
+    "state_id": "phase_03",
+    "label": "Phase 3",
+    "summary": "",
+    "prompt_keywords": [
+      "A great luminary. Has four names: Sonya, Ebla, Benase, and Era'e. Its circumference is like that of the sky. At night, it appears 'like a man'; by day, 'like the sky'. Its cycle includes months of 28, 29, and 30 days.",
+      "A luminary that provides light to mankind.",
+      "its light decreases and is completed at specific gates",
+      "{'description': \"The Earth's moon, whose course is studied.\", 'source_text_ref': 'ወርኅ'}",
+      "{'description': 'A celestial body that follows a hidden and revealed path, providing light for the righteous and darkness for sinners. It is dynamic, moving along its orbit.', 'is_dynamic': True}",
+      "{'description': 'A celestial luminary, a ruler of the night.', 'type': 'celestial body'}"
+    ],
+    "prompt_block": "Moon, A great luminary. Has four names: Sonya, Ebla, Benase, and Era'e. Its circumference is like that of the sky. At night, it appears 'like a man'; by day, 'like the sky'. Its cycle includes months of 28, 29, and 30 days., A luminary that provides light to mankind., its light decreases and is completed at specific gates, {'description': \"The Earth's moon, whose course is studied.\", 'source_text_ref': 'ወርኅ'}, {'description': 'A celestial body that follows a hidden and revealed path, providing light for the righteous and darkness for sinners. It is dynamic, moving along its orbit.', 'is_dynamic': True}, {'description': 'A celestial luminary, a ruler of the night.', 'type': 'celestial body'}, Phase 3"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "PROP_SEED",
+  "name": "seed",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for seed.",
+    "visual_anatomy": [
+      "Traits: A metaphorical seed from which the 'flesh of righteousness and uprightness' will be established as a 'plant'., {'description': \"The origin of the trees, referred to as 'this seed'.\"}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A metaphorical seed from which the 'flesh of righteousness and uprightness' will be established as a 'plant'.",
+      "{'description': \"The origin of the trees, referred to as 'this seed'.\"}"
+    ],
+    "prompt_block": "seed, A metaphorical seed from which the 'flesh of righteousness and uprightness' will be established as a 'plant'., {'description': \"The origin of the trees, referred to as 'this seed'.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A metaphorical seed from which the 'flesh of righteousness and uprightness' will be established as a 'plant'.",
+          "{'description': \"The origin of the trees, referred to as 'this seed'.\"}"
+        ],
+        "prompt_block": "seed, A metaphorical seed from which the 'flesh of righteousness and uprightness' will be established as a 'plant'., {'description': \"The origin of the trees, referred to as 'this seed'.\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_SEED",
+    "name": "seed",
+    "type": "prop",
+    "aliases": [
+      "Seed",
+      "seed"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "A metaphorical seed from which the 'flesh of righteousness and uprightness' will be established as a 'plant'.",
+      "{'description': \"The origin of the trees, referred to as 'this seed'.\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1121",
+      "row_1177"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 28,
+        "chapter_end": 84,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

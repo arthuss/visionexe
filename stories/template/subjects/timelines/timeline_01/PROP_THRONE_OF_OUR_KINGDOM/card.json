@@ -1,0 +1,67 @@
+{
+  "id": "PROP_THRONE_OF_OUR_KINGDOM",
+  "name": "Throne of our kingdom",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Throne of our kingdom.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A throne in which the kings and mighty placed their hope.'}",
+      "Roles: actor_prop:The Kings, the Mighty, and the High Ones"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A throne in which the kings and mighty placed their hope.'}"
+    ],
+    "prompt_block": "Throne of our kingdom, {'description': 'A throne in which the kings and mighty placed their hope.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A throne in which the kings and mighty placed their hope.'}"
+        ],
+        "prompt_block": "Throne of our kingdom, {'description': 'A throne in which the kings and mighty placed their hope.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_THRONE_OF_OUR_KINGDOM",
+    "name": "Throne of our kingdom",
+    "type": "prop",
+    "aliases": [
+      "Throne of our kingdom"
+    ],
+    "roles": [
+      "actor_prop:The Kings, the Mighty, and the High Ones"
+    ],
+    "visual_traits": [
+      "{'description': 'A throne in which the kings and mighty placed their hope.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1156"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 63,
+        "chapter_end": 63,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

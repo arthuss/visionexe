@@ -1,0 +1,72 @@
+{
+  "id": "SETENV_FACE_OF_THE_SKY",
+  "name": "face of the sky",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for face of the sky.",
+    "visual_anatomy": [
+      "Traits: The visible expanse across which the luminaries travel after rising., {'description': 'The expanse of the sky across which the sun travels.'}",
+      "Roles: celestial_path"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "The visible expanse across which the luminaries travel after rising.",
+      "{'description': 'The expanse of the sky across which the sun travels.'}"
+    ],
+    "prompt_block": "face of the sky, The visible expanse across which the luminaries travel after rising., {'description': 'The expanse of the sky across which the sun travels.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "The visible expanse across which the luminaries travel after rising.",
+          "{'description': 'The expanse of the sky across which the sun travels.'}"
+        ],
+        "prompt_block": "face of the sky, The visible expanse across which the luminaries travel after rising., {'description': 'The expanse of the sky across which the sun travels.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_FACE_OF_THE_SKY",
+    "name": "face of the sky",
+    "type": "set_environment",
+    "aliases": [
+      "Face of the Sky",
+      "face of the sky"
+    ],
+    "roles": [
+      "celestial_path"
+    ],
+    "visual_traits": [
+      "The visible expanse across which the luminaries travel after rising.",
+      "{'description': 'The expanse of the sky across which the sun travels.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1171",
+      "row_1176"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 78,
+        "chapter_end": 83,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

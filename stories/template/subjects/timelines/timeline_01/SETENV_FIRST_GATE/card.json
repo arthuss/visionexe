@@ -1,0 +1,71 @@
+{
+  "id": "SETENV_FIRST_GATE",
+  "name": "First Gate",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for First Gate.",
+    "visual_anatomy": [
+      "Traits: A celestial portal used by the Sun., a celestial portal associated with the moon's decrease",
+      "Roles: celestial_portal"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A celestial portal used by the Sun.",
+      "a celestial portal associated with the moon's decrease"
+    ],
+    "prompt_block": "First Gate, A celestial portal used by the Sun., a celestial portal associated with the moon's decrease",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A celestial portal used by the Sun.",
+          "a celestial portal associated with the moon's decrease"
+        ],
+        "prompt_block": "First Gate, A celestial portal used by the Sun., a celestial portal associated with the moon's decrease"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_FIRST_GATE",
+    "name": "First Gate",
+    "type": "set_environment",
+    "aliases": [
+      "First Gate"
+    ],
+    "roles": [
+      "celestial_portal"
+    ],
+    "visual_traits": [
+      "A celestial portal used by the Sun.",
+      "a celestial portal associated with the moon's decrease"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1167",
+      "row_1172"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 74,
+        "chapter_end": 79,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

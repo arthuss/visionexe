@@ -1,0 +1,10 @@
+## [STATE] Leaders of the thousands :: Default
+**State ID:** default
+**Chapters:** 75 - 75
+
+**Phase Summary:** The Leader stands at the eastern gate, monitoring the ingress of star-threads with stoic intensity.
+**Phase Keywords:** Eastern gate background, monitoring posture, heavy atmosphere
+**Phase Prompt:**
+A photorealistic close-up of a celestial administrator, the Leader of the Thousands, standing before the complex geometry of a sky-dome ingress gate. The subject's face, made of dark, light-absorbing material, is illuminated by the harsh blue light of an incoming star. The expression is one of deep concentration and fatigue. Around the head, a ring of amber Geez data-glyphs rotates in the air. The background is a blur of mechanical aperture blades and atmospheric haze. High contrast, cinematic drama, 35mm film grain simulation.
+
+---

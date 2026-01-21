@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_DWELLING_OF_THE_HOLY_ONES",
+  "name": "dwelling of the holy ones",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for dwelling of the holy ones.",
+    "visual_anatomy": [
+      "Traits: {'description': \"A place, 'ማኅደረ፡ ቅዱሳን', which is denied by the sinners.\"}",
+      "Roles: location"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"A place, 'ማኅደረ፡ ቅዱሳን', which is denied by the sinners.\"}"
+    ],
+    "prompt_block": "dwelling of the holy ones, {'description': \"A place, 'ማኅደረ፡ ቅዱሳን', which is denied by the sinners.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"A place, 'ማኅደረ፡ ቅዱሳን', which is denied by the sinners.\"}"
+        ],
+        "prompt_block": "dwelling of the holy ones, {'description': \"A place, 'ማኅደረ፡ ቅዱሳን', which is denied by the sinners.\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_DWELLING_OF_THE_HOLY_ONES",
+    "name": "dwelling of the holy ones",
+    "type": "set_environment",
+    "aliases": [
+      "dwelling of the holy ones"
+    ],
+    "roles": [
+      "location"
+    ],
+    "visual_traits": [
+      "{'description': \"A place, 'ማኅደረ፡ ቅዱሳን', which is denied by the sinners.\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1139"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 45,
+        "chapter_end": 45,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

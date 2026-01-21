@@ -1,0 +1,79 @@
+{
+  "id": "PROP_TREE_OF_FRAGRANCE",
+  "name": "Tree of Fragrance",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Tree of Fragrance.",
+    "visual_anatomy": [
+      "Traits: fruit is beautiful, fruit resembles clusters of a date-palm, its leaf, flower, and wood never wither, leaves are lovely, more fragrant than any other",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "fruit is beautiful",
+      "fruit resembles clusters of a date-palm",
+      "its leaf, flower, and wood never wither",
+      "leaves are lovely",
+      "more fragrant than any other"
+    ],
+    "prompt_block": "Tree of Fragrance, fruit is beautiful, fruit resembles clusters of a date-palm, its leaf, flower, and wood never wither, leaves are lovely, more fragrant than any other",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "fruit is beautiful",
+          "fruit resembles clusters of a date-palm",
+          "its leaf, flower, and wood never wither",
+          "leaves are lovely",
+          "more fragrant than any other"
+        ],
+        "prompt_block": "Tree of Fragrance, fruit is beautiful, fruit resembles clusters of a date-palm, its leaf, flower, and wood never wither, leaves are lovely, more fragrant than any other"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_TREE_OF_FRAGRANCE",
+    "name": "Tree of Fragrance",
+    "type": "prop",
+    "aliases": [
+      "Tree of Fragrance"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "fruit is beautiful",
+      "fruit resembles clusters of a date-palm",
+      "its leaf, flower, and wood never wither",
+      "leaves are lovely",
+      "more fragrant than any other"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1117"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 24,
+        "chapter_end": 24,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

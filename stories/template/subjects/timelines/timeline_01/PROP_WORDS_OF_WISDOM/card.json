@@ -1,0 +1,67 @@
+{
+  "id": "PROP_WORDS_OF_WISDOM",
+  "name": "Words of Wisdom",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Words of Wisdom.",
+    "visual_anatomy": [
+      "Traits: The content of Enoch's speech, which he 'lifted up to speak'.",
+      "Roles: actor_prop:Enoch"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "The content of Enoch's speech, which he 'lifted up to speak'."
+    ],
+    "prompt_block": "Words of Wisdom, The content of Enoch's speech, which he 'lifted up to speak'.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "The content of Enoch's speech, which he 'lifted up to speak'."
+        ],
+        "prompt_block": "Words of Wisdom, The content of Enoch's speech, which he 'lifted up to speak'."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_WORDS_OF_WISDOM",
+    "name": "Words of Wisdom",
+    "type": "prop",
+    "aliases": [
+      "Words of Wisdom"
+    ],
+    "roles": [
+      "actor_prop:Enoch"
+    ],
+    "visual_traits": [
+      "The content of Enoch's speech, which he 'lifted up to speak'."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1130"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 37,
+        "chapter_end": 37,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "PROP_HEAVENLY_RECORDS",
+  "name": "Heavenly Records",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Heavenly Records.",
+    "visual_anatomy": [
+      "Traits: writings in heaven",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "writings in heaven"
+    ],
+    "prompt_block": "Heavenly Records, writings in heaven",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "writings in heaven"
+        ],
+        "prompt_block": "Heavenly Records, writings in heaven"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_HEAVENLY_RECORDS",
+    "name": "Heavenly Records",
+    "type": "prop",
+    "aliases": [
+      "Heavenly Records"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "writings in heaven"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1201"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 108,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

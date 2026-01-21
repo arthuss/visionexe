@@ -1,0 +1,76 @@
+{
+  "id": "SETENV_ACCURSED_VALLEY",
+  "name": "Accursed Valley",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Accursed Valley.",
+    "visual_anatomy": [
+      "Traits: accursed, designated as a future gathering place for the accursed, designated as a place of judgment, located in the midst of the blessed lands",
+      "Roles: setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "accursed",
+      "designated as a future gathering place for the accursed",
+      "designated as a place of judgment",
+      "located in the midst of the blessed lands"
+    ],
+    "prompt_block": "Accursed Valley, accursed, designated as a future gathering place for the accursed, designated as a place of judgment, located in the midst of the blessed lands",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "accursed",
+          "designated as a future gathering place for the accursed",
+          "designated as a place of judgment",
+          "located in the midst of the blessed lands"
+        ],
+        "prompt_block": "Accursed Valley, accursed, designated as a future gathering place for the accursed, designated as a place of judgment, located in the midst of the blessed lands"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_ACCURSED_VALLEY",
+    "name": "Accursed Valley",
+    "type": "set_environment",
+    "aliases": [
+      "Accursed Valley"
+    ],
+    "roles": [
+      "setting"
+    ],
+    "visual_traits": [
+      "accursed",
+      "designated as a future gathering place for the accursed",
+      "designated as a place of judgment",
+      "located in the midst of the blessed lands"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1119"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 27,
+        "chapter_end": 27,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

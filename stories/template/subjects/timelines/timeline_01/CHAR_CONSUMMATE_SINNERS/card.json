@@ -1,0 +1,70 @@
+{
+  "id": "CHAR_CONSUMMATE_SINNERS",
+  "name": "Consummate Sinners",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Consummate Sinners.",
+    "visual_anatomy": [
+      "Traits: Souls of those who were complete in sin, Will not be slain at judgment or raised from their place",
+      "Roles: group"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Souls of those who were complete in sin",
+      "Will not be slain at judgment or raised from their place"
+    ],
+    "prompt_block": "Consummate Sinners, Souls of those who were complete in sin, Will not be slain at judgment or raised from their place",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Souls of those who were complete in sin",
+          "Will not be slain at judgment or raised from their place"
+        ],
+        "prompt_block": "Consummate Sinners, Souls of those who were complete in sin, Will not be slain at judgment or raised from their place"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_CONSUMMATE_SINNERS",
+    "name": "Consummate Sinners",
+    "type": "character",
+    "aliases": [
+      "Consummate Sinners"
+    ],
+    "roles": [
+      "group"
+    ],
+    "visual_traits": [
+      "Souls of those who were complete in sin",
+      "Will not be slain at judgment or raised from their place"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1115"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 22,
+        "chapter_end": 22,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

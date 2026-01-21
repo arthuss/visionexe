@@ -1,0 +1,84 @@
+{
+  "id": "CHAR_REPTILES",
+  "name": "Reptiles",
+  "type": "character",
+  "card": {
+    "description": "The reptiles of the surface plane manifest not merely as biological fauna, but as grounded, low-latency sub-routines essential to the simulation's terrestrial texture. They are the creeping logic of the dust, clad in high-fidelity obsidian scales that absorb the harsh light of the gate band. Designed for stealth and persistence within the lower bounds of the container, these entities usually regulate the background noise of the desolate biomes. However, under the oppression of the Watchers' offspring, they have been reduced to panicked resource packets, scurrying into the crevices of the simulated bedrock to escape the unauthorized consumption protocols of the giants. Their existence is now defined by a frantic latency, a desperate attempt to remain strictly within the physics overrides of the kernel manifestation while being hunted.",
+    "visual_anatomy": [
+      "Their skins are rendered with a hyper-realistic, physically based perfection, resembling wet anthracite or polished data glass. Each scale functions as a tiny, semi-translucent polarizing filter, catching the cool, artificial luminescence of the simulation's sky dome. The geometry is dense and tessellated, suggesting a heavy computational cost to render their intricate, serpentine movements. When they move, the friction against the surface plane generates faint, heat-lensed trails, marking their vector paths in the dust.",
+      "The eyes of these creatures are voids of high-contrast sensor data, reflecting the terrifying verticality of the giants above. They possess a fiber-optic sheen, blinking with the rapid, erratic rhythm of a system under stress. There is no warmth in their gaze, only the cold, hard logic of survival in a runtime environment that has turned hostile. Their breathing is visible as minute distortions in the air, thermal throttling manifested as rhythmic puffs of vapor.",
+      "In the darkness of the simulation's shadows, their silhouettes are sharp and jagged. They do not blend softly into the environment but stand out with the crisp edge-lighting of a cinematic render. The textures of their bodies—rough bellies against smooth dorsal ridges—are captured with microscopic fidelity, emphasizing their vulnerability as they press themselves flat against the ground, trying to minimize their signature within the vector field."
+    ],
+    "evolution": [
+      "Initially functioning as autonomous ambient agents, they have transitioned into a state of acute system distress. Their idle animations have been replaced by erratic, high-frequency trembling, a visual representation of their terror. They no longer bask in the simulated solar rays but cling to the obsidian outcroppings, their movements jerky and desperate.",
+      "As victims of the giants' insatiable resource consumption, they appear physically diminished, as if their very mesh integrity is failing. Scratches on their glass-like hides reveal not blood, but a leakage of raw, glowing plasma—the underlying code bleeding out into the physical layer. They are the bottom of the food chain in a hierarchy that has broken its own rules."
+    ],
+    "props": [
+      "They possess no external tools, but their immediate environment often includes fragments of the 'rift internals'—sharp, geometric shards of rock where they seek shelter. These hiding spots are often framed with high-contrast shadows, emphasizing the claustrophobic nature of their existence."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic reptiles",
+      "obsidian scales",
+      "data glass texture",
+      "cinematic lighting",
+      "dark atmosphere",
+      "simulation glitch",
+      "fearful creature",
+      "ground level camera",
+      "high contrast",
+      "volcanic glass skin",
+      "fiber optic eyes"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic close-up of a reptile hiding in the shadows of a rocky crevice. The creature's skin is made of polished obsidian and data glass, reflecting the cold, harsh light of a simulated sky. Its eyes are dark fiber-optic sensors, wide with terror. The environment is a desolate, flat-earth landscape with sharp, geometric rock formations. The lighting is low-key, high-contrast, emphasizing the texture of the scales and the fear in the creature's posture. 8k resolution, octane render, photorealistic, dramatic atmosphere, depth of field focused on the eye.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "The Creeping Fear",
+        "summary": "The reptiles cower in the crevices of the simulation, their obsidian bodies trembling as they attempt to evade the giants.",
+        "prompt_keywords": [
+          "cowering reptile",
+          "obsidian texture",
+          "trembling",
+          "shadowy crevice",
+          "cinematic dark",
+          "photorealistic scales"
+        ],
+        "prompt_block": "A low-angle, macro shot of a reptile pressed flat against dark, geometric rock. The creature's scales gleam like wet volcanic glass, catching the faint, eerie glow of the simulation's horizon. Its body is tense, coiled in fear, with visible thermal distortion around its nostrils. The background is a blur of dark, oppressive shapes, suggesting the presence of something massive and threatening above. The image is hyper-realistic, with sharp focus on the texture of the skin and the reflection in the eye. Cinematic lighting, cool color temperature, high drama."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_REPTILES",
+    "name": "Reptiles",
+    "type": "character",
+    "aliases": [
+      "Reptiles"
+    ],
+    "roles": [
+      "victim"
+    ],
+    "visual_traits": [
+      "creeping things"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1099"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 7,
+        "chapter_end": 7,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

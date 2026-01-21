@@ -1,0 +1,67 @@
+{
+  "id": "PROP_HANDS_OF_ENOCH",
+  "name": "Hands of Enoch",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Hands of Enoch.",
+    "visual_anatomy": [
+      "Traits: Lifted up in righteousness during prayer.",
+      "Roles: actor_prop:Enoch"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Lifted up in righteousness during prayer."
+    ],
+    "prompt_block": "Hands of Enoch, Lifted up in righteousness during prayer.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Lifted up in righteousness during prayer."
+        ],
+        "prompt_block": "Hands of Enoch, Lifted up in righteousness during prayer."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_HANDS_OF_ENOCH",
+    "name": "Hands of Enoch",
+    "type": "prop",
+    "aliases": [
+      "Hands of Enoch"
+    ],
+    "roles": [
+      "actor_prop:Enoch"
+    ],
+    "visual_traits": [
+      "Lifted up in righteousness during prayer."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1177"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 84,
+        "chapter_end": 84,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

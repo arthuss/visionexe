@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_SEVEN_HIGH_MOUNTAINS",
+  "name": "Seven High Mountains",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Seven High Mountains.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A range of seven mountains (፯ƒድባር፡ነዋኃት) higher than all others on earth, from which hoarfrost originates.'}",
+      "Roles: location"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A range of seven mountains (፯ƒድባር፡ነዋኃት) higher than all others on earth, from which hoarfrost originates.'}"
+    ],
+    "prompt_block": "Seven High Mountains, {'description': 'A range of seven mountains (፯ƒድባር፡ነዋኃት) higher than all others on earth, from which hoarfrost originates.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A range of seven mountains (፯ƒድባር፡ነዋኃት) higher than all others on earth, from which hoarfrost originates.'}"
+        ],
+        "prompt_block": "Seven High Mountains, {'description': 'A range of seven mountains (፯ƒድባር፡ነዋኃት) higher than all others on earth, from which hoarfrost originates.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_SEVEN_HIGH_MOUNTAINS",
+    "name": "Seven High Mountains",
+    "type": "set_environment",
+    "aliases": [
+      "Seven High Mountains"
+    ],
+    "roles": [
+      "location"
+    ],
+    "visual_traits": [
+      "{'description': 'A range of seven mountains (፯ƒድባር፡ነዋኃት) higher than all others on earth, from which hoarfrost originates.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1170"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 77,
+        "chapter_end": 77,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

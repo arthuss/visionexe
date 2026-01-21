@@ -1,0 +1,81 @@
+{
+  "id": "PROP_SWORD",
+  "name": "Sword",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Sword.",
+    "visual_anatomy": [
+      "Traits: {'description': \"A sword (ሰይፍ) by which the 'Builders of Houses with Sin' will fall.\"}, {'description': 'A sword that dwells among the judged before the face of the Son of Man.'}, {'description': 'A weapon given to the righteous for executing judgment.'}, {'description': 'A weapon mentioned as the instrument of destruction for the sinners in the final judgment.'}",
+      "Roles: actor_prop:Ram with Sword, scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"A sword (ሰይፍ) by which the 'Builders of Houses with Sin' will fall.\"}",
+      "{'description': 'A sword that dwells among the judged before the face of the Son of Man.'}",
+      "{'description': 'A weapon given to the righteous for executing judgment.'}",
+      "{'description': 'A weapon mentioned as the instrument of destruction for the sinners in the final judgment.'}"
+    ],
+    "prompt_block": "Sword, {'description': \"A sword (ሰይፍ) by which the 'Builders of Houses with Sin' will fall.\"}, {'description': 'A sword that dwells among the judged before the face of the Son of Man.'}, {'description': 'A weapon given to the righteous for executing judgment.'}, {'description': 'A weapon mentioned as the instrument of destruction for the sinners in the final judgment.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"A sword (ሰይፍ) by which the 'Builders of Houses with Sin' will fall.\"}",
+          "{'description': 'A sword that dwells among the judged before the face of the Son of Man.'}",
+          "{'description': 'A weapon given to the righteous for executing judgment.'}",
+          "{'description': 'A weapon mentioned as the instrument of destruction for the sinners in the final judgment.'}"
+        ],
+        "prompt_block": "Sword, {'description': \"A sword (ሰይፍ) by which the 'Builders of Houses with Sin' will fall.\"}, {'description': 'A sword that dwells among the judged before the face of the Son of Man.'}, {'description': 'A weapon given to the righteous for executing judgment.'}, {'description': 'A weapon mentioned as the instrument of destruction for the sinners in the final judgment.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_SWORD",
+    "name": "Sword",
+    "type": "prop",
+    "aliases": [
+      "Sword"
+    ],
+    "roles": [
+      "actor_prop:Ram with Sword",
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': \"A sword (ሰይፍ) by which the 'Builders of Houses with Sin' will fall.\"}",
+      "{'description': 'A sword that dwells among the judged before the face of the Son of Man.'}",
+      "{'description': 'A weapon given to the righteous for executing judgment.'}",
+      "{'description': 'A weapon mentioned as the instrument of destruction for the sinners in the final judgment.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1156",
+      "row_1181",
+      "row_1184",
+      "row_1188",
+      "row_1192"
+    ],
+    "occurrence_count": 10,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 63,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

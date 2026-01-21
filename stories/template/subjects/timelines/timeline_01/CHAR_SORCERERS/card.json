@@ -1,0 +1,83 @@
+{
+  "id": "CHAR_SORCERERS",
+  "name": "Sorcerers",
+  "type": "character",
+  "card": {
+    "description": "Within the bounded system of the Flat Earth simulation, the Sorcerers are not mystics but unauthorized power-users who have accessed the kernel-level instructions of the reality engine. Having ingested the forbidden 'secrets of the angels'—leaked administrative protocols and debug tools—they exist as heavy, destabilizing nodes in the network. They are tragic, burdened figures, aware that their execution of command-line overrides (sorcery) causes sector-wide latency and thermal throttling, evidenced by the heat distortion that perpetually surrounds them. Their existence validates the system's need for a hard reset, marking them as walking errors in the runtime log, somber and resigned to their deletion.",
+    "visual_anatomy": [
+      "They are draped in garments of light-absorbing vantablack fabric that mimics the texture of cooling obsidian or heavy, industrial-grade fiber optics. This attire does not flow with the wind but moves with a simulated lag, trailing milliseconds behind their physical coordinates, emphasizing their disjointed relationship with the standard physics engine. The fabric swallows ambient light, creating a silhouette of null-data against the simulation's sky dome.",
+      "Their skin possesses the translucency of smoked data-glass, revealing a subsurface network of pulsing, plasma-like veins that glow with a faint, corrupted violet hue. This internal luminescence represents the 'violence of the Satans'—the raw, unshielded energy of the system's power supply running through unoptimized biological hardware. Their faces are often obscured by deep, high-contrast shadows, highlighting only the reflective sheen of their eyes, which mirror the grid-lines of the gate band.",
+      "Surrounding their hands and heads are localized fields of vector distortion and heat lensing, visual manifests of the intense computational load their presence places on the immediate environment. Faint, golden Geez glyphs—the original source code of the simulation—flicker and dissolve in the air around them like dying pixels, symbolizing the leakage of forbidden knowledge into the public directory."
+    ],
+    "evolution": [
+      "Initially, they stand with the rigid, imposing posture of system architects, their obsidian robes pristine and their data-glass skin clear, reflecting their initial belief in their mastery over the simulation's parameters.",
+      "As the system instability peaks (Chapter 65), their forms begin to suffer from visual degradation. The obsidian textures crack to reveal blinding white void-light beneath, and their movements become jerky and frame-dropped. They appear exhausted, their internal plasma dimming as the thermal throttling of the simulation aggressively downclocks their existence prior to the final reset."
+    ],
+    "props": [
+      "They clutch 'Tablets of Root Access', thick slabs of dark, volcanic glass that display scrolling terminal commands in phosphorescent orange. These are not stone, but petrified solid-state drives containing the leaked instruction sets of the Watchers.",
+      "Some carry 'Plasma Spheres', heavy, handheld containment units of magnetic glass that house unstable vector fields. These spheres hum with the sound of high-voltage servers and cast a harsh, artificial light on their faces, serving as the tools through which they execute their physics-defying overrides."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic",
+      "octane render",
+      "simulation glitch",
+      "obsidian texture",
+      "data-glass skin",
+      "heat lensing",
+      "vantablack robes",
+      "fiber optic weaving",
+      "Geez glyphs",
+      "cinematic lighting",
+      "high contrast",
+      "system error aesthetic",
+      "volumetric fog"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic medium shot of a Sorcerer figure standing on the cracked surface of the simulation plane. The figure wears heavy, light-absorbing robes with the texture of matte obsidian and woven fiber optics, which seem to lag behind the figure's movement. The skin is translucent, smoked glass, revealing faint, violet plasma veins beneath. The air around the figure is distorted by heat lensing and floating, dissolving golden Geez glyphs. The lighting is moody and dramatic, with a low angle emphasizing the figure's tragic dominance. 8k resolution, ray-tracing enabled, photorealistic textures.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The Sorcerers stand as solemn icons of system corruption, their physical forms burdened by the unauthorized privileges they hold. They are static, heavy, and surrounded by the visual noise of a struggling reality engine.",
+        "prompt_keywords": [
+          "solemn pose",
+          "heavy atmosphere",
+          "heat distortion",
+          "glowing veins"
+        ],
+        "prompt_block": "A hyper-realistic close-up of a Sorcerer's hand hovering over a dark glass tablet. The hand is translucent, showing glowing violet veins, and the air warps around the fingers due to heat distortion. The tablet displays scrolling, phosphorescent orange command lines. The background is a blurred, high-contrast landscape of the simulation's edge. The lighting is dark and cinematic, focusing on the texture of the skin and the digital artifacts floating in the air. 8k resolution, macro photography style, physically based rendering."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_SORCERERS",
+    "name": "Sorcerers",
+    "type": "character",
+    "aliases": [
+      "Sorcerers"
+    ],
+    "roles": [
+      "A group whose hidden powers were learned by humanity."
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1159"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 65,
+        "chapter_end": 65,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

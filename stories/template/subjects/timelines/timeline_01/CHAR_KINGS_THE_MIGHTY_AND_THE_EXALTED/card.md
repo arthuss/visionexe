@@ -1,0 +1,34 @@
+## [CHARACTER] Kings, the Mighty, and the Exalted (ID: CHAR_KINGS_THE_MIGHTY_AND_THE_EXALTED)
+**Description:** They are the Superusers of the Simulation, the high-priority processes granted dominion over the surface plane sectors. Within the bounded system box, these entities do not merely govern; they embody the kernel's authority, draped in the heavy, lustrous textures of compiled privilege. Their existence is defined by an abundance of resource allocation—infinite compute, unthrottled bandwidth, and absolute permissions. They stand as pillars of the runtime, their presence stabilizing the local reality mesh. However, the narrative arc bends towards a system-wide audit. As the judgment sequence initiates, their privileges are revoked. The metaphor of 'kings' dissolves into the reality of terrified users facing a terminal admin purge. Their once-pristine avatars undergo a horrifying degradation, mirroring the biological agony of labor as their data structures are forcibly decompiled. They are the mighty brought low, stripped of their obsidian armor, left shivering in the cold void of a memory leak.
+
+### 1. VISUAL ANATOMY / DESIGN
+Their attire is a marvel of procedural generation, consisting of high-density obsidian weave and ballistic data-glass that shimmers with sub-surface scattering. Instead of organic bone, the 'horns' mentioned in the source code manifest as vertical, semi-translucent antennas or rigid head-mounted displays integrated into their skulls, glowing with the faint blue pulse of active uplinks. These protrusions serve as their crowns, signaling their direct line to the upper store.
+Physically, they are rendered with hyper-realistic fidelity (ISO 100 clarity). Their skin possesses a synthetic perfection, poreless yet textured like expensive polymer, capable of sweating coolant-like fluid when under stress. Their robes are heavy, simulating the weight of leadership, flowing with the physics of liquid mercury or heavy velvet depending on the lighting conditions.
+In their prime state, they occupy the center of the frame, bathed in the golden hour of the simulation's sky dome. The lighting highlights the sharp edges of their data-glass accessories and the deep, absorbing blacks of their attire. Their posture is rigid, symmetrical, and imposing, dominating the negative space around them.
+
+### 2. EVOLUTION / VARIANTS
+Initially, they appear as static, unshakeable monuments of the system, backlit by the radiant plasma of the gate bands. The camera captures them in low-angle shots, emphasizing their scale and the stability of their rendering. They are the architects of the dry land, their gestures summoning vector fields that reorganize the environment.
+As the judgment phase executes (Phase 3), the visual language shifts to horror and corruption. The system throttles their rendering, causing their textures to flicker and their meshes to sag. The 'pain like a woman in labor' is visualized as a physical system reject; they hunch over, clutching their abdomens as if their internal code is being rewritten in real-time. The light dies around them, plunging them into high-contrast shadows where only their fear is illuminated.
+
+### 3. PROPS & EQUIPMENT
+They wield 'scepters' that appear as solid bars of fiber-optic cable, pulsing with data streams. These serve as authentication keys for the simulation's ingress/egress gates.
+Surrounding them are floating interface glyphs—Geez characters rendered in neon wireframes—that respond to their mental commands, representing their administrative decrees.
+
+### 4. AI PROMPT KEYWORDS
+`hyper-realistic portrait`, `obsidian texture`, `data-glass horns`, `cinematic lighting`, `Octane render`, `simulation glitch`, `emotional agony`, `dark atmosphere`, `8k resolution`
+
+### 5. PROMPT BLOCK (T2I)
+A hyper-realistic cinematic shot of a high-ranking system administrator within a simulation boundary. The subject wears elaborate robes made of woven obsidian and matte black polymer. On their head, rigid, translucent data-glass protrusions resemble stylized horns, glowing faintly with internal fiber-optic light. The skin texture is incredibly lifelike, showing minute details and pores, rendered in 8k resolution with PBR materials. The lighting is dramatic and high-contrast, typical of a serious drama, focusing on the stoic and arrogant expression of the ruler. The background suggests a flat-earth cosmology with a visible digital sky dome.
+
+### 6. PHASE PROMPTS
+*   **Phase 1: The Architects:** The Kings stand at the zenith of their power, overseeing the simulation with absolute authority. They are pristine, bathed in the artificial warmth of the system's sun.
+    Prompt: Low angle, wide shot of a powerful ruler standing on a polished surface within a simulation environment. The ruler wears majestic, heavy black robes with glossy highlights. Translucent, tech-noir horns rise from their forehead. The lighting is warm and golden, creating a halo effect. The face is unblemished, projecting absolute authority and calm. Background features abstract geometric horizons of the flat earth system. Photorealistic, depth of field, cinematic composition.
+    Keywords: arrogant posture, low angle, golden hour lighting, perfect rendering, pristine obsidian
+*   **Phase 2: The Latency:** A transitional state where the weight of command begins to bear down. The lighting shifts to a cooler, more sterile tone, hinting at the impending audit.
+    Prompt: Close-up portrait of the ruler's face. The expression is serious and contemplative. The data-glass horns are sharp and clear. The lighting has shifted to a cold, clinical white, revealing the texture of the skin and the weave of the obsidian fabric. The background is a blurred, dark void. The atmosphere is tense and quiet, capturing the moment before the fall. 85mm lens, hyper-realistic, ISO 100.
+    Keywords: neutral expression, cool lighting, symmetric composition, detailed textures, static frame
+*   **Phase 3: The Crash:** Stripped of privilege, they experience the agony of deletion. They are hunched, sweating, and terrified, surrounded by the darkness of a system purge.
+    Prompt: A harrowing cinematic shot of the fallen ruler in deep shadow. The subject is hunched over in pain, clutching their stomach, expression twisted in agony and shame. The pristine robes are now dull and disheveled. The data-glass horns are cracked or flickering. Sweat beads on their forehead, catching the scant, harsh light. The environment is pitch black, with only faint, dying embers of system light illuminating the tragedy. The visual quality remains hyper-realistic but focuses on the grotesque detail of suffering. 35mm, emotional drama, high contrast.
+    Keywords: agony, sweat, glitching textures, darkness, volumetric shadows, fetal position
+
+---

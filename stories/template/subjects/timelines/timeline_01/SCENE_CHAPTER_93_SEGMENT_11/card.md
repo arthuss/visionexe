@@ -1,30 +1,20 @@
 ## [SCENE] Chapter 93 Segment 11 (ID: SCENE_CHAPTER_93_SEGMENT_11)
-**Description:** A towering obelisk of polished basalt, its surface etched with spiraling Ethiopian and Egyptian glyphs that pulse with bio‑luminescent light. The core is a crystalline lattice of unknown alloy, refracting the ambient light into a spectrum of shifting colors. The obelisk stands in a cavernous chamber, its base carved into a stone altar that hums with low-frequency resonance. The structure is both a relic and a machine, its ancient motifs fused with invisible conduits that channel energy into the glyphs, turning the obelisk into a celestial engine that manipulates the very fabric of the sky above.
-**Tags:** #ancient-tech #industrial-mysticism #Ethiopian #Egyptian #photorealistic #tactile
+**Description:** Auto-generated asset card for Chapter 93 Segment 11.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Massive basalt obelisk, 12 m tall, tapering to a sharp apex, base carved into a stone altar with embedded runes.
-*   **Face/Sensors:** Glyphic panels along the shaft, each panel a translucent crystal that emits soft, pulsing bioluminescence; embedded micro‑sensors detect atmospheric changes and adjust light patterns accordingly.
-*   **Clothing/Armor:** The obelisk is encased in a lattice of interlocking metal plates etched with ancient symbols, forming a protective shell that shimmers with faint iridescence when activated.
-*   **Key Features:** Central crystalline core of unknown alloy, bio‑luminescent glyphs, low‑frequency resonance chamber, invisible conduits that channel energy into the glyphs, and a sky‑aligned aperture at the apex that projects a beam of concentrated light into the heavens.
+Roles: ሰማይ
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Activation): The glyphs flicker to life, emitting a soft blue glow as the crystalline core hums to a low frequency, aligning the obelisk with the celestial axis.
-*   Phase 2 (Resonance): The core reaches full resonance, the glyphs blaze with a spectrum of colors, and the sky‑aligned aperture projects a focused beam that manipulates atmospheric currents.
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Scepter of the Sky – a bronze staff with a crystal tip that channels the obelisk’s energy, used by the character ሰማይ to activate the obelisk.
-*   Item: Runic Tablet – a stone tablet engraved with additional glyphs that, when placed on the altar, amplify the obelisk’s resonance.
-
-### 4. AI PROMPT KEYWORDS
-`oblivion`, `celestial`, `glyphs`, `crystalline`, `bio-luminescence`
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
-A towering basalt obelisk, 12 m tall, etched with spiraling Ethiopian and Egyptian glyphs that pulse with bio‑luminescent light, its core a crystalline lattice of unknown alloy refracting ambient light into shifting colors, standing in a cavernous chamber with a stone altar base humming low‑frequency resonance, the structure a fusion of ancient motifs and invisible conduits channeling energy into the glyphs, photorealistic, tactile, cinematic, grounded realism, industrial mysticism, ancient-tech, Ethiopian and Egyptian aesthetics, cinematic lighting, detailed textures, realistic stone and metal surfaces, subtle glow effects, atmospheric depth, high resolution.
+Chapter 93 Segment 11, ሰማይ
 
 ### 6. PHASE PROMPTS
-*   **Default:** Initial state of the obelisk before activation, glyphs dim, core dormant, chamber quiet.
-    Prompt: A towering basalt obelisk, 12 m tall, etched with spiraling Ethiopian and Egyptian glyphs that are dimly illuminated by faint bioluminescence, its core a crystalline lattice of unknown alloy barely visible, standing in a cavernous chamber with a stone altar base humming low‑frequency resonance, the structure a fusion of ancient motifs and invisible conduits channeling energy into the glyphs, photorealistic, tactile, cinematic, grounded realism, industrial mysticism, ancient-tech, Ethiopian and Egyptian aesthetics, cinematic lighting, detailed textures, realistic stone and metal surfaces, subtle glow effects, atmospheric depth, high resolution.
-    Keywords: dim, dormant, quiet, ancient, stone
+*   **Default:**
+    Prompt: Chapter 93 Segment 11, ሰማይ
 
 ---

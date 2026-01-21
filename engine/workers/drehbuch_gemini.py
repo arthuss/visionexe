@@ -5,61 +5,19 @@ import time
 import shutil
 import json
 import re
+import urllib.error
+import urllib.request
 from pathlib import Path
 
-from visionexe_paths import load_story_config, resolve_path
+from visionexe_paths import load_engine_config, load_story_config, resolve_path
 
 # --- KONSTANTEN & REGELWERKE ---
-
-RULE_OF_MECHANISM = """
-### RULE OF MECHANISM (The "No-Magic" Clause) ###
-1. NO MAGIC: Nothing happens "just because". Every vision is an Ingress, every miracle is a Physics-Engine-Override.
-2. BIOMETRIC REACTION: Tech manifestation is a biological struggle. Actors must react with muscle spasms, iris-dilation, or skin-conductivity changes.
-3. NANOBOT LOGIC: If gear appears, describe the microscopic assembly (dark roots under skin, metallic crystallization).
-4. THE 1-SECOND HOOK: Start with a high-speed, high-impact visual shock before establishing the scene.
-5. CAMERA AGGRESSION: Use "Shaky Cam" for shocks and "Slow-Motion Tracking" for awe.
-"""
-
-DIRECTOR_MANUAL = f"""
-### EXEGET:OS DIRECTOR'S MANUAL - HOLLYWOOD STANDARDS & SYSTEM LOGIC ###
-
-1. GENRE & VIBE: Industrial Mysticism / Simulation-Forensics. Ancient settings meet ultra-tech.
-2. CORE METAPHOR: The Book of Enoch is the System Manual for the Human-Simulation.
-3. SEMANTIC MAPPING (Content-Anchor):
-   - Miracles are V-FX (Visual Effects). 
-   - God's Presence = Kernel Manifestation / Root Login.
-   - Sins = Malware / Data Corruption / Entropy.
-   - Melting/Shaking = Thermal Throttling / Mesh Instability.
-4. TRANSITION PROTOCOL (Interpolation):
-   Henoch doesn't just "appear". Interpolate logical system-movements between verses:
-   - PORTAL INGRESS: Vertical rift, heat-lensing interference, stepping from dust into sterile mainframe.
-   - GRAVITY SHIFT: Dust lifting, robe fluttering upward, vector-based levitation.
-   - TOUCHDOWN: Macro shot of feet hitting floor, golden data-sync ripples on contact.
-5. ACTOR EVOLUTION (Gear Tracking):
-   - Kap 1-13 (PROXY): Human, weathered, simple linen, "Opened Eye" effect (overload).
-   - Kap 14-70 (VOYAGER): Silver-skin shader, HUD-Visor, Idris-Gloves (golden light), floating in spheres.
-   - Kap 71-108 (MASTER): White plasma body, translucent glass-like tissue, integrated with the mainframe.
-6. VISUAL LAYERS (ABC Integration):
-   - LAYER A (FLESH): Bio-detail, sweat, textures, 85mm+ Macro.
-   - LAYER B (STRUCTURE/LIGHT): Environmental light geometry, laser-vectors, 14mm God-Eye.
-   - LAYER C (TERMINAL): After Effects UI-Overlays. Use Ge'ez roots as system commands (e.g. B-R-K for Blessing).
-7. DRAMATURGY: 3-Act Structure for 60s TikTok. Hook (0-15s), Conflict (15-45s), Sync/Resolution (45-60s).
-
-{RULE_OF_MECHANISM}
-"""
-
-STRICT_SOURCE_RULES = """
-### SOURCE-OF-TRUTH (EXEGETICAL LOCK) ###
-1. Verwende ausschliesslich Informationen aus dem Kapiteltext/Versen und den gelieferten Analysen.
-2. Keine neuen Szenen, Actors, Props oder Orte erfinden. Keine modernen Analogien hinzufuegen.
-3. Wenn Details fehlen: weglassen oder als "unknown" markieren, nicht auffuellen.
-4. Szene-/Vers-Reihenfolge beibehalten. Keine Umstellungen ohne Textbasis.
-"""
 
 WAVE_SECTION_RE = re.compile(
     r"^###\s+.*Integration in WAVE.*?(?=^###\s|\Z)",
     re.IGNORECASE | re.MULTILINE | re.DOTALL,
 )
+DEFAULT_LLM_TEMPERATURE = 0.35
 
 # --- HELPER FUNKTIONEN ---
 
@@ -80,6 +38,18 @@ def resolve_gemini_command():
 
     return None
 
+
+def resolve_llm_profiles(repo_root: Path) -> tuple[dict, str]:
+    engine_config = load_engine_config()
+    profiles_path = resolve_path(engine_config.get("llm_profiles_path"), repo_root)
+    if not profiles_path or not Path(profiles_path).exists():
+        return {}, engine_config.get("default_llm_profile") or ""
+    try:
+        profiles = json.loads(Path(profiles_path).read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        profiles = {}
+    return profiles, engine_config.get("default_llm_profile") or ""
+
 def parse_gemini_response(raw_output):
     if not raw_output:
         return None
@@ -97,6 +67,63 @@ def parse_gemini_response(raw_output):
             return response.strip()
     except json.JSONDecodeError:
         return raw_output.strip()
+    return None
+
+
+def openai_compat_chat(prompt: str, profile: dict, temperature: float) -> str | None:
+    base_url = (profile.get("base_url") or "").rstrip("/")
+    if not base_url:
+        print("LLM profile base_url fehlt.")
+        return None
+    if base_url.endswith("/v1"):
+        endpoint = f"{base_url}/chat/completions"
+    else:
+        endpoint = f"{base_url}/v1/chat/completions"
+    payload = {
+        "model": profile.get("model") or "",
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": temperature,
+    }
+    extra_body = profile.get("extra_body") or profile.get("request") or {}
+    if not isinstance(extra_body, dict):
+        extra_body = {}
+    thinking = profile.get("thinking")
+    if thinking and "thinking" not in extra_body:
+        extra_body["thinking"] = thinking
+    reasoning = profile.get("reasoning")
+    if reasoning and "reasoning" not in extra_body:
+        extra_body["reasoning"] = reasoning
+    if extra_body:
+        payload.update(extra_body)
+    headers = {"Content-Type": "application/json"}
+    api_key = profile.get("api_key") or ""
+    if api_key:
+        headers["Authorization"] = f"Bearer {api_key}"
+    req = urllib.request.Request(endpoint, data=json.dumps(payload).encode("utf-8"), headers=headers)
+    try:
+        with urllib.request.urlopen(req, timeout=180) as response:
+            data = json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        try:
+            body = exc.read().decode("utf-8", errors="replace")
+        except Exception:
+            body = str(exc)
+        print(f"LLM request error: {body}")
+        return None
+    except Exception as exc:
+        print(f"LLM request failed: {exc}")
+        return None
+    if isinstance(data, dict):
+        choices = data.get("choices") or []
+        if choices:
+            message = choices[0].get("message") or {}
+            content = message.get("content")
+            if isinstance(content, str):
+                return content.strip()
+            text = choices[0].get("text")
+            if isinstance(text, str):
+                return text.strip()
+    print("LLM response missing content.")
     return None
 
 def extract_json_block(raw_text):
@@ -196,6 +223,19 @@ def load_timeline_profile(story_root, story_config, repo_root, timeline_id):
         payload = json.loads(Path(resolved).read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
         return f"[Warning: timeline profile unreadable: {exc}]"
+    return json.dumps(payload, ensure_ascii=True, indent=2)
+
+def load_mechanism_profile(story_root, story_config, repo_root):
+    profile_path = story_config.get("mechanism_profile")
+    resolved = resolve_path(profile_path, repo_root) if profile_path else None
+    if not resolved:
+        resolved = story_root / "config" / "timelines" / "rule_of_machanism.json"
+    if not resolved or not Path(resolved).exists():
+        return "[Warning: mechanism profile not found]"
+    try:
+        payload = json.loads(Path(resolved).read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        return f"[Warning: mechanism profile unreadable: {exc}]"
     return json.dumps(payload, ensure_ascii=True, indent=2)
 
 def get_chapter_data(chapter_path, include_wave=False, segment_label="segment"):
@@ -344,6 +384,23 @@ def load_knowledge_base(story_root: Path, story_config: dict, repo_root: Path, t
             with open(briefing_path, "r", encoding="utf-8") as f:
                 kb[f"BRIEFING_{idx:02d}"] = f.read()
 
+    def read_profile(value):
+        if not value:
+            return ""
+        if isinstance(value, list):
+            parts = [read_profile(item) for item in value]
+            return "\n\n".join([p for p in parts if p]).strip()
+        if isinstance(value, dict):
+            return json.dumps(value, ensure_ascii=False, indent=2)
+        candidate = resolve_path(str(value), repo_root)
+        if candidate and candidate.exists():
+            return candidate.read_text(encoding="utf-8", errors="replace")
+        return str(value)
+
+    kb["GENRE_PROFILE"] = read_profile(story_config.get("genre_profile"))
+    kb["STYLE_PROFILE"] = read_profile(story_config.get("style_profiles"))
+    kb["TONE_DIALS"] = str(story_config.get("tone_dials") or "").strip()
+
     subjects_root = resolve_path(story_config.get("subjects_root"), repo_root)
     if subjects_root:
         kb["SUBJECT_REGISTRY"] = load_registry_summary(subjects_root)
@@ -352,8 +409,43 @@ def load_knowledge_base(story_root: Path, story_config: dict, repo_root: Path, t
 
     kb["TIMELINE_ID"] = timeline_id or ""
     kb["TIMELINE_PROFILE"] = load_timeline_profile(story_root, story_config, repo_root, timeline_id)
-    
+    kb["MECHANISM_PROFILE"] = load_mechanism_profile(story_root, story_config, repo_root)
+    kb["SUBJECT_OVERLAYS"] = load_subject_overlays(subjects_root, timeline_id)
+
     return kb
+
+
+def load_subject_overlays(subjects_root: Path, timeline_id: str, max_chars: int = 20000) -> str:
+    if not subjects_root or not timeline_id:
+        return ""
+    overlay_path = subjects_root / "timelines" / timeline_id / "overlays.jsonl"
+    if not overlay_path.exists():
+        return ""
+    lines = []
+    try:
+        with overlay_path.open("r", encoding="utf-8", errors="replace") as handle:
+            for line in handle:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    record = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                subject_id = record.get("subject_id") or ""
+                overlay_type = record.get("overlay_type") or "general"
+                content = record.get("content") or ""
+                if not subject_id or not content:
+                    continue
+                lines.append(f"[{subject_id}:{overlay_type}] {content}")
+                if max_chars and sum(len(item) for item in lines) > max_chars:
+                    break
+    except OSError:
+        return ""
+    summary = "\n".join(lines).strip()
+    if max_chars and len(summary) > max_chars:
+        summary = summary[:max_chars].rstrip() + "\n...[truncated]"
+    return summary
 
 def load_existing_content(path):
     if os.path.exists(path):
@@ -365,7 +457,6 @@ def build_concept_prompt(data, kb, chapter_num, existing_concept=None, strict_so
     verses_str = "\n".join([f"[{k}]: {v}" for k, v in data["verses"].items()])
     segment_analysis_str = "\n".join([f"[{k}]: {v}" for k, v in data.get("segment_analysis", {}).items()])
     segment_entities_str = format_segment_entities(data.get("segment_entities", {}))
-    strict_rules = STRICT_SOURCE_RULES if strict_source else ""
     
     # Falls ein altes Konzept existiert, bauen wir es in den Prompt ein
     refinement_instruction = ""
@@ -382,7 +473,6 @@ Erstelle eine verbesserte VERSION 2.0, die noch präziser dem 'Rule of Mechanism
     return f"""
 Du bist der 'Chief Systems Architect' von exeget:os.
 {refinement_instruction}
-{strict_rules}
 Analysiere Kapitel {chapter_num} und entwickle die TECHNISCHE MECHANIK.
 
 ### SYSTEM-HINWEIS (CRITICAL) ###
@@ -402,6 +492,18 @@ Gib NUR den reinen Text des Konzepts zurück.
 
 [TIMELINE PROFILE]:
 {kb.get('TIMELINE_PROFILE', '')}
+
+[MECHANISM PROFILE]:
+{kb.get('MECHANISM_PROFILE', '')}
+
+[GENRE PROFILE]:
+{kb.get('GENRE_PROFILE', '')}
+
+[STYLE PROFILE]:
+{kb.get('STYLE_PROFILE', '')}
+
+[TONE DIALS]:
+{kb.get('TONE_DIALS', '')}
 
 [SUBJECT REGISTRY]:
 {kb.get('SUBJECT_REGISTRY', '')}
@@ -659,11 +761,7 @@ def build_script_structure_prompt(data, kb, concept_output, chapter_num, strict_
     analysis_layers_str = "\n".join(
         [f"[{name}]\n{value}" for name, value in analysis_layers.items() if value]
     ) or "(none)"
-    strict_rules = STRICT_SOURCE_RULES if strict_source else ""
     return f"""
-{DIRECTOR_MANUAL}
-{strict_rules}
-
 ### SYSTEM-HINWEIS ###
 Du bist ein Text-Generator. Dein Output wird von einem Python-Script automatisch weiterverarbeitet.
 Du musst und kannst NICHT selbst auf die Festplatte zugreifen.
@@ -686,8 +784,20 @@ ANTWORTE OHNE JEGLICHEN KOMMENTAR. KEIN "Hier ist der Plan". NUR DER INHALT.
 [TIMELINE PROFILE]:
 {kb.get('TIMELINE_PROFILE', '')}
 
+[GENRE PROFILE]:
+{kb.get('GENRE_PROFILE', '')}
+
+[STYLE PROFILE]:
+{kb.get('STYLE_PROFILE', '')}
+
+[TONE DIALS]:
+{kb.get('TONE_DIALS', '')}
+
 [SUBJECT REGISTRY]:
 {kb.get('SUBJECT_REGISTRY', '')}
+
+[SUBJECT OVERLAYS]:
+{kb.get('SUBJECT_OVERLAYS', '')}
 
 [LTX2 PROMPT GUIDE]:
 {kb.get('LTX2_PROMPT_GUIDE', '')}
@@ -759,14 +869,11 @@ DEINE AUFGABE: Optimiere dieses Drehbuch.
 Liefere das komplette, verbesserte Drehbuch zurück.
 '''
 
-    strict_rules = STRICT_SOURCE_RULES if strict_source else ""
     analysis_layers = data.get("analysis_layers", {})
     analysis_layers_str = "\n".join(
         [f"[{name}]\n{value}" for name, value in analysis_layers.items() if value]
     ) or "(none)"
     return f"""
-{DIRECTOR_MANUAL}
-{strict_rules}
 {refinement_instruction}
 
 ### INPUT DATA ###
@@ -782,8 +889,20 @@ Liefere das komplette, verbesserte Drehbuch zurück.
 [TIMELINE PROFILE]:
 {kb.get('TIMELINE_PROFILE', '')}
 
+[MECHANISM PROFILE]:
+{kb.get('MECHANISM_PROFILE', '')}
+
 [SUBJECT REGISTRY]:
 {kb.get('SUBJECT_REGISTRY', '')}
+
+[GENRE PROFILE]:
+{kb.get('GENRE_PROFILE', '')}
+
+[STYLE PROFILE]:
+{kb.get('STYLE_PROFILE', '')}
+
+[TONE DIALS]:
+{kb.get('TONE_DIALS', '')}
 
 [LTX2 PROMPT GUIDE]:
 {kb.get('LTX2_PROMPT_GUIDE', '')}
@@ -857,9 +976,16 @@ WICHTIG:
 - video_plan nur fuellen wenn bekannt; sonst leere Strings und leere Arrays nutzen.
 """
 
-def call_ai_agent(prompt, label="AI Task", model=None):
+def call_ai_agent(prompt, label="AI Task", model=None, llm_profile=None, temperature=DEFAULT_LLM_TEMPERATURE):
     print(f"\n--- Starte: {label} ---")
     try:
+        if llm_profile:
+            response = openai_compat_chat(prompt, llm_profile, temperature)
+            if not response:
+                print(f"\nFehler bei {label}: Keine Antwort erhalten.")
+                return None
+            print(f"[{label}] Fertig.")
+            return response
         cmd = resolve_gemini_command()
         if not cmd:
             print("Gemini CLI nicht gefunden (gemini/npx).")
@@ -901,6 +1027,9 @@ def call_ai_agent(prompt, label="AI Task", model=None):
 def main():
     parser = argparse.ArgumentParser(description="Exeget:OS Double-Think Script Generator")
     parser.add_argument("chapter", type=int, help="Kapitelnummer (z.B. 1)")
+    parser.add_argument("--use-lmstudio", action="store_true", help="Use LM Studio via OpenAI-compatible API.")
+    parser.add_argument("--llm-profile", default="", help="LLM profile name (engine/config/llm_profiles.json).")
+    parser.add_argument("--llm-temperature", type=float, default=DEFAULT_LLM_TEMPERATURE, help="LLM temperature.")
     parser.add_argument(
         "--model",
         default=os.environ.get("GEMINI_MODEL", ""),
@@ -932,6 +1061,23 @@ def main():
         story_root=args.story_root,
         story_config_path=args.story_config,
     )
+    use_lmstudio = bool(args.use_lmstudio or args.llm_profile)
+    llm_profile = None
+    if use_lmstudio:
+        profiles, default_profile = resolve_llm_profiles(repo_root)
+        llm_profile_name = args.llm_profile or (
+            "lmstudio_local" if "lmstudio_local" in profiles else default_profile
+        )
+        if not llm_profile_name:
+            raise SystemExit("LM Studio erfordert ein LLM-Profil.")
+        llm_profile = profiles.get(llm_profile_name)
+        if not llm_profile:
+            raise SystemExit(f"LLM profile not found: {llm_profile_name}")
+        profile_type = str(llm_profile.get("type") or "").lower()
+        if profile_type not in {"openai_compat", "openai-compatible", "openai"}:
+            raise SystemExit(f"LLM profile '{llm_profile_name}' is not openai_compat.")
+        if args.model:
+            llm_profile = dict(llm_profile, model=args.model)
     filmsets_root = resolve_path(story_config.get("filmsets_root"), repo_root)
     if not filmsets_root:
         raise SystemExit("filmsets_root missing in story_config.json")
@@ -967,7 +1113,13 @@ def main():
     
     print(f"Generiere/Verbessere Konzept für Kapitel {args.chapter}...")
     concept_prompt = build_concept_prompt(data, kb, args.chapter, old_concept, strict_source=args.strict_source)
-    concept_text = call_ai_agent(concept_prompt, "Visionary Concept Generation", model=args.model)
+    concept_text = call_ai_agent(
+        concept_prompt,
+        "Visionary Concept Generation",
+        model=args.model,
+        llm_profile=llm_profile,
+        temperature=args.llm_temperature,
+    )
     
     if concept_text:
         with open(concept_file, "w", encoding="utf-8") as f:
@@ -980,7 +1132,13 @@ def main():
     # --- SCHRITT 2: DREHBUCH STRUKTUR (DRAFT) ---
     print("Erstelle Drehbuch-Struktur (12-18 Szenen)...")
     script_structure_prompt = build_script_structure_prompt(data, kb, concept_text, args.chapter, strict_source=args.strict_source)
-    script_structure_text = call_ai_agent(script_structure_prompt, "Script Structure Generation", model=args.model)
+    script_structure_text = call_ai_agent(
+        script_structure_prompt,
+        "Script Structure Generation",
+        model=args.model,
+        llm_profile=llm_profile,
+        temperature=args.llm_temperature,
+    )
 
     if not script_structure_text:
         print("Fehler beim Erstellen der Struktur.")
@@ -1000,7 +1158,13 @@ def main():
         old_script,
         strict_source=args.strict_source,
     )
-    final_script_text = call_ai_agent(production_prompt, "Final Asset Generation", model=args.model)
+    final_script_text = call_ai_agent(
+        production_prompt,
+        "Final Asset Generation",
+        model=args.model,
+        llm_profile=llm_profile,
+        temperature=args.llm_temperature,
+    )
 
     if final_script_text:
         with open(output_path, "w", encoding="utf-8") as f:

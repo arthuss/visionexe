@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_AMEZARAK",
+  "name": "Amezarak",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Amezarak.",
+    "visual_anatomy": [
+      "Traits: {'description': 'An entity who teaches forbidden knowledge.', 'source_text_ref': 'አሜዛራክ፡\\u200bመሐረ'}",
+      "Roles: Teacher of enchantments and root-cutting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'An entity who teaches forbidden knowledge.', 'source_text_ref': 'አሜዛራክ፡\\u200bመሐረ'}"
+    ],
+    "prompt_block": "Amezarak, {'description': 'An entity who teaches forbidden knowledge.', 'source_text_ref': 'አሜዛራክ፡\\u200bመሐረ'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'An entity who teaches forbidden knowledge.', 'source_text_ref': 'አሜዛራክ፡\\u200bመሐረ'}"
+        ],
+        "prompt_block": "Amezarak, {'description': 'An entity who teaches forbidden knowledge.', 'source_text_ref': 'አሜዛራክ፡\\u200bመሐረ'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_AMEZARAK",
+    "name": "Amezarak",
+    "type": "character",
+    "aliases": [
+      "Amezarak"
+    ],
+    "roles": [
+      "Teacher of enchantments and root-cutting"
+    ],
+    "visual_traits": [
+      "{'description': 'An entity who teaches forbidden knowledge.', 'source_text_ref': 'አሜዛራክ፡\\u200bመሐረ'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1101"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 8,
+        "chapter_end": 8,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

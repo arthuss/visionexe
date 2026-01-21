@@ -2,9 +2,7 @@
 **State ID:** default
 **Chapters:** 10 - 10
 
-**Phase Summary:** A dimly lit sanctum with chanting figures and a glowing obsidian altar.
-**Phase Keywords:** ritual, chant, ancient, tech, mystic, photorealistic, Ethiopian, Egyptian, bio-luminescence, crystalline
 **Phase Prompt:**
-A cinematic, photorealistic shot of a dimly lit cavernous sanctum where a circle of hooded figures chant in unison, their bodies adorned with bio‑luminescent glyphs pulsing in sync with the rhythm, standing before a towering obsidian altar etched with ancient Ethiopian hieroglyphs that rearrange themselves as the chant intensifies, crystalline particles swirling in the air, bioluminescent fungi casting a soft glow, the scene exudes ancient‑tech industrial mysticism with grounded realism, detailed textures of basalt fibers, copper filaments, tempered obsidian armor, and a faint, otherworldly glow emanating from the altar.
+Ritual Chant,
 
 ---

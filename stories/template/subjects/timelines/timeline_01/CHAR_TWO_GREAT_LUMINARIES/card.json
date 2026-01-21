@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_TWO_GREAT_LUMINARIES",
+  "name": "two great luminaries",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for two great luminaries.",
+    "visual_anatomy": [
+      "Traits: A collective term for the Sun and Moon. Their circumference is described as being like the circumference of the sky.",
+      "Roles: celestial_body_group"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A collective term for the Sun and Moon. Their circumference is described as being like the circumference of the sky."
+    ],
+    "prompt_block": "two great luminaries, A collective term for the Sun and Moon. Their circumference is described as being like the circumference of the sky.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A collective term for the Sun and Moon. Their circumference is described as being like the circumference of the sky."
+        ],
+        "prompt_block": "two great luminaries, A collective term for the Sun and Moon. Their circumference is described as being like the circumference of the sky."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_TWO_GREAT_LUMINARIES",
+    "name": "two great luminaries",
+    "type": "character",
+    "aliases": [
+      "two great luminaries"
+    ],
+    "roles": [
+      "celestial_body_group"
+    ],
+    "visual_traits": [
+      "A collective term for the Sun and Moon. Their circumference is described as being like the circumference of the sky."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1171"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 78,
+        "chapter_end": 78,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_DWELLING_OF_THE_SINNERS",
+  "name": "dwelling of the sinners",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for dwelling of the sinners.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A hypothetical dwelling place for sinners, mentioned in a rhetorical question.'}",
+      "Roles: residence"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A hypothetical dwelling place for sinners, mentioned in a rhetorical question.'}"
+    ],
+    "prompt_block": "dwelling of the sinners, {'description': 'A hypothetical dwelling place for sinners, mentioned in a rhetorical question.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A hypothetical dwelling place for sinners, mentioned in a rhetorical question.'}"
+        ],
+        "prompt_block": "dwelling of the sinners, {'description': 'A hypothetical dwelling place for sinners, mentioned in a rhetorical question.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_DWELLING_OF_THE_SINNERS",
+    "name": "dwelling of the sinners",
+    "type": "set_environment",
+    "aliases": [
+      "dwelling of the sinners"
+    ],
+    "roles": [
+      "residence"
+    ],
+    "visual_traits": [
+      "{'description': 'A hypothetical dwelling place for sinners, mentioned in a rhetorical question.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1131"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 38,
+        "chapter_end": 38,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

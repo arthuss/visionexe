@@ -2,22 +2,25 @@
   "state_id": "phase_01",
   "label": "Phase 1",
   "chapter_start": 1,
-  "chapter_end": 24,
+  "chapter_end": 36,
   "segment_labels": [],
   "scene_labels": [],
   "source_ids": [],
-  "notes": [],
+  "notes": [
+    "unknown"
+  ],
   "phase_prompt": {
     "state_id": "phase_01",
     "label": "Phase 1",
-    "summary": "Ambient glow and bioluminescent veins in a dark temple",
+    "summary": "",
     "prompt_keywords": [
-      "ambient",
-      "bioluminescent",
-      "temple",
-      "soft rim lighting",
-      "photorealistic"
+      "bright",
+      "shining",
+      "unknown",
+      "{'description': \"An environment of light, joy, and peace destined for 'the chosen'.\"}",
+      "{'description': 'A pervasive, un-numerable, and eternal element that is sought by the blessed and established before the Lord of Spirits. It replaces darkness.', 'state': 'luminous'}",
+      "{'description': 'An environmental condition that has passed away from the kings and mighty.'}"
     ],
-    "prompt_block": "A cinematic, photorealistic dark void temple with subtle ambient glow, faint bioluminescent veins pulsing across stone, soft rim lighting, high contrast, tactile textures, ancient Ethiopian motifs, 8k resolution"
+    "prompt_block": "light, bright, shining, unknown, {'description': \"An environment of light, joy, and peace destined for 'the chosen'.\"}, {'description': 'A pervasive, un-numerable, and eternal element that is sought by the blessed and established before the Lord of Spirits. It replaces darkness.', 'state': 'luminous'}, {'description': 'An environmental condition that has passed away from the kings and mighty.'}, Phase 1"
   }
 }

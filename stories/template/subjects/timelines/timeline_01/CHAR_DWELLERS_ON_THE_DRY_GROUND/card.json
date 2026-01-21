@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_DWELLERS_ON_THE_DRY_GROUND",
+  "name": "Dwellers on the dry ground",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Dwellers on the dry ground.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Humans living on Earth, for whom the third angelic voice intercedes and whom the satans seek to accuse.'}",
+      "Roles: humanity"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Humans living on Earth, for whom the third angelic voice intercedes and whom the satans seek to accuse.'}"
+    ],
+    "prompt_block": "Dwellers on the dry ground, {'description': 'Humans living on Earth, for whom the third angelic voice intercedes and whom the satans seek to accuse.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Humans living on Earth, for whom the third angelic voice intercedes and whom the satans seek to accuse.'}"
+        ],
+        "prompt_block": "Dwellers on the dry ground, {'description': 'Humans living on Earth, for whom the third angelic voice intercedes and whom the satans seek to accuse.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_DWELLERS_ON_THE_DRY_GROUND",
+    "name": "Dwellers on the dry ground",
+    "type": "character",
+    "aliases": [
+      "Dwellers on the dry ground"
+    ],
+    "roles": [
+      "humanity"
+    ],
+    "visual_traits": [
+      "{'description': 'Humans living on Earth, for whom the third angelic voice intercedes and whom the satans seek to accuse.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1133"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 40,
+        "chapter_end": 40,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

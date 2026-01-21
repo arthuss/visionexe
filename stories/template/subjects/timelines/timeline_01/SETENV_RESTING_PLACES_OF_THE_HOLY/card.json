@@ -1,0 +1,70 @@
+{
+  "id": "SETENV_RESTING_PLACES_OF_THE_HOLY",
+  "name": "resting places of the holy",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for resting places of the holy.",
+    "visual_anatomy": [
+      "Traits: {'description': 'The resting-places (ምስካባቲሆሙ) for the sacred ones.'}",
+      "Roles: Heavenly resting places, celestial_abode"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The resting-places (ምስካባቲሆሙ) for the sacred ones.'}"
+    ],
+    "prompt_block": "resting places of the holy, {'description': 'The resting-places (ምስካባቲሆሙ) for the sacred ones.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The resting-places (ምስካባቲሆሙ) for the sacred ones.'}"
+        ],
+        "prompt_block": "resting places of the holy, {'description': 'The resting-places (ምስካባቲሆሙ) for the sacred ones.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_RESTING_PLACES_OF_THE_HOLY",
+    "name": "resting places of the holy",
+    "type": "set_environment",
+    "aliases": [
+      "Resting-places of the holy",
+      "resting places of the holy"
+    ],
+    "roles": [
+      "Heavenly resting places",
+      "celestial_abode"
+    ],
+    "visual_traits": [
+      "{'description': 'The resting-places (ምስካባቲሆሙ) for the sacred ones.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1132",
+      "row_1136"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 39,
+        "chapter_end": 41,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

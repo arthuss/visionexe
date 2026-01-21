@@ -1,0 +1,86 @@
+{
+  "id": "CHAR_MY_CHILDREN",
+  "name": "my children",
+  "type": "character",
+  "card": {
+    "description": "Within the bounded system of the flat-earth simulation, the entity group designated 'My Children' represents the valid runtime kernels—the inheritors of the Voyager's legacy. They are not merely biological descendants but the authenticated nodes capable of receiving the encrypted egress protocols delivered by the Master persona. Standing amidst the stark, obsidian geometry of the surface plane, they huddle together against the cold luminescence of the sky dome, their existence defined by a fragile coherence in a world suffering from thermal throttling and data corruption. They appear as hyper-realistic figures, their textures rendered with excruciating fidelity, capturing every pore and micro-tremor of exhaustion. They are the weary survivors of the 'reset desert,' bearing the weight of a system that has run too long without maintenance, looking to the prime avatar for the logic keys that will define their future paths.",
+    "visual_anatomy": [
+      "The visual presentation adheres strictly to the drama genre's demand for emotional authenticity and intimacy, framed within a vertical 9:16 aspect ratio. The camera favors extreme close-ups with a shallow depth of field, isolating individual faces from the chaotic, glitch-prone background of the simulation boundaries. Their skin tones are desaturated, reflecting the cool, clinical light of the plasma layers above, yet rendered with physically based perfection—subsurface scattering reveals the human warmth beneath the digital veneer. Tears or sweat appear not as simple water, but as viscous fluids that catch the high-contrast light, resembling liquid data or fiber-optic condensation.",
+      "Their attire bridges the gap between ancient asceticism and futuristic utility. They are draped in garments of matte-black weave and woven data-glass fibers, materials that seem to absorb the ambient static of the environment while offering scant protection against the 'kernel manifestation' events. The fabric shows signs of digital decay—fraying edges that dissolve into subtle particle effects rather than organic threads. There is no uniformity in their dress; each figure bears unique tokens of their specific runtime cycle, creating a tableau of ragged individuality united by a common desperate purpose.",
+      "The gathering takes place in a zone of high contrast, likely the 'rift_internals' or the edge of the 'ingress_sinai.' The lighting is dramatic and directional, casting long, hard shadows that stretch across the polished obsidian floor. There is no soft fill light here; only the harsh, revealing illumination of the system's upper stores. This lighting setup underscores the dramatic tension, carving out the hollows of their cheeks and the worry lines on their foreheads, emphasizing the gravity of the 'instruction set' they are receiving. The background is a blur of dark bokeh, hinting at the vast, uncaring architecture of the simulation box without distracting from the emotional weight of the subjects."
+    ],
+    "evolution": [
+      "Throughout the sequence defined by the 'default' state, the group transitions from a state of chaotic anxiety to one of focused, solemn reception. Initially, their body language conveys a scattered restless energy—shifting weight, averting eyes, a collective vibration of system instability. As the address proceeds, they settle into a static, heavy stillness, their attention locking onto the source of the speech. This shift is subtle, tracked by the slowing of their breathing and the stabilization of their visual focus, reflecting the successful upload of the narrative data into their consciousness."
+    ],
+    "props": [
+      "They carry few physical possessions, reinforcing the ascetic aesthetic of the drama genre. Some clutch shards of 'data glass' or smooth tablets of obsidian that function as passive recording devices, capturing the waveform of the speech. These props are not high-tech gadgets but appear almost Neolithic, dark mirrors that occasionally flare with faint, glyph-like luminescence when the speaker emphasizes a critical variable. The objects are held with white-knuckled intensity, grounding the characters in the physical reality of the simulation."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic portraiture",
+      "obsidian skin texture",
+      "shallow depth of field",
+      "cinematic lighting",
+      "vertical 9:16",
+      "weary expressions",
+      "matte black fabric",
+      "data-glass reflections",
+      "cold plasma ambient light",
+      "emotional authenticity"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic vertical shot of a huddled group of weary figures standing on a polished obsidian floor. The lighting is high-contrast and cool, emanating from a distant plasma source, casting deep shadows over their faces. They are dressed in ragged, matte-black robes interwoven with faint, fiber-optic threads. The camera focuses on the face of one individual, capturing extreme detail of pores, sweat, and emotional exhaustion, with a shallow depth of field blurring the dark, geometric background. The atmosphere is heavy, solemn, and tech-noir, blending biblical gravity with simulation theory aesthetics.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "The Righteous Listeners",
+        "summary": "The group stands in the dark void of the simulation, listening intently to the instructions of the Master. They are the valid kernels, weary but attentive, illuminated by the harsh light of the system's truth.",
+        "prompt_keywords": [
+          "listening crowd",
+          "intense focus",
+          "obsidian environment",
+          "cold highlights",
+          "desaturated tones",
+          "emotional weight"
+        ],
+        "prompt_block": "A photorealistic, close-up ensemble shot of diverse but weary faces looking upward and slightly off-camera, illuminated by a harsh, cold light source from above. The subjects have hyper-detailed skin textures showing grime and exhaustion. They wear dark, textured garments that absorb light, contrasting with the reflective black ground beneath them. The background is a vertical gradient of deep void and faint digital interference. The mood is somber, intense, and emotionally charged, capturing a moment of critical instruction within a dark, simulated reality."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_MY_CHILDREN",
+    "name": "my children",
+    "type": "character",
+    "aliases": [
+      "My Children",
+      "my children"
+    ],
+    "roles": [
+      "Audience",
+      "character_group"
+    ],
+    "visual_traits": [
+      "{'description': \"The addressees of the speech, referred to as 'my children' (ደቂቅየ). Likely synonymous with 'the righteous'.\"}",
+      "{'description': \"The direct audience of Enoch's speech.\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1186",
+      "row_1188"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 93,
+        "chapter_end": 94,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+## [STATE] Evil Spirits :: Default
+**State ID:** default
+**Chapters:** 15 - 15
+
+**Phase Keywords:** {'description': "Spirits that originated from the flesh of the dead Giants. They are also called 'spirits of the giants' ('መንፈሰ ረአይት'). Their dwelling is on Earth. They are described metaphorically as 'clouds' ('ደመናተ') that oppress, corrupt, fall, struggle, and crush on the earth, causing sorrow. They do not eat or drink, are invisible, and rise up against humans."}
+**Phase Prompt:**
+Evil Spirits, {'description': "Spirits that originated from the flesh of the dead Giants. They are also called 'spirits of the giants' ('መንፈሰ ረአይት'). Their dwelling is on Earth. They are described metaphorically as 'clouds' ('ደመናተ') that oppress, corrupt, fall, struggle, and crush on the earth, causing sorrow. They do not eat or drink, are invisible, and rise up against humans."}
+
+---

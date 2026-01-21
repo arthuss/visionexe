@@ -1,0 +1,10 @@
+## [STATE] Sheol :: Phase 2
+**State ID:** phase_02
+**Chapters:** 68 - 85
+**Notes:** {'phase': 'Phase 2: Releasing the dead', 'description': 'Returns its deposit.'}
+
+**Phase Keywords:** An underworld destination described as a place of great tribulation, crying, groaning, sorrow, and darkness., Personified as a being with a 'deposit' (womb)., {'description': "A place of punishment characterized by the 'flame of its pain' (ላህባ፡\u200bለክበደ፡\u200bሲኦል)."}, {'description': 'An underworld destination for the spirits of sinners, characterized by great tribulation, darkness, snares, and a burning flame.'}, {'description': 'The underworld or place of the dead, mentioned as the destination where the unrighteous will be slain.'}
+**Phase Prompt:**
+Sheol, An underworld destination described as a place of great tribulation, crying, groaning, sorrow, and darkness., Personified as a being with a 'deposit' (womb)., {'description': "A place of punishment characterized by the 'flame of its pain' (ላህባ፡\u200bለክበደ፡\u200bሲኦል)."}, {'description': 'An underworld destination for the spirits of sinners, characterized by great tribulation, darkness, snares, and a burning flame.'}, {'description': 'The underworld or place of the dead, mentioned as the destination where the unrighteous will be slain.'}, Phase 2
+
+---

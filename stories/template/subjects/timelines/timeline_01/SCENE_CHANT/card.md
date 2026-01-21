@@ -1,36 +1,20 @@
 ## [SCENE] Chant (ID: SCENE_CHANT)
-**Description:** A vertical 9:16 cinematic close‑up of a Treasury Vault that fuses ancient Ethiopian and Egyptian motifs with incomprehensible technology. The vault walls are carved with hieroglyphic circuitry, the floor is a polished obsidian‑black concrete that reflects the glow of floating liquid gold. Merchant_Unit_7, a gaunt figure with bloated pale skin, wears ornate gold rings and a gilded PROFIT_MASK that displays scrolling numbers. He places a DATA_INGOT—an ingot of liquid gold etched with circuit lines—onto a heavy table. Red strobe lights flare, holographic alerts float, and streams of liquid gold rise like reverse rain, creating a surreal, tactile atmosphere of industrial mysticism.
-**Tags:** #ancient-tech #industrial-mysticism #Ethiopian #Egyptian #photorealistic #vault #gold #hologram #liquid-gold #red-strobe #data-ingot
+**Description:** Auto-generated asset card for Chant.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Merchant_Unit_7's hands, pale and bloated, grip a DATA_INGOT with a trembling precision; his torso is hunched, shoulders squared against the heavy table.
-*   **Face/Sensors:** A gilded PROFIT_MASK covers his features, its surface a reflective gold alloy with embedded micro‑LEDs that scroll numerical data; the mask's eye apertures are replaced by digital displays showing real‑time metrics.
-*   **Clothing/Armor:** Ornate gold rings encircle his fingers, each ring etched with miniature glyphs that pulse faintly; his clothing is a heavy, dark leather vest reinforced with metal studs, echoing ancient armor.
-*   **Key Features:** The vault walls are carved with hieroglyphic circuitry; the floor is obsidian‑black concrete that reflects the liquid gold; a red strobe illuminates the scene; holographic alerts float above the table; streams of liquid gold rise from the racks toward the ceiling vents.
+Roles: Unknown
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Calm Vault): The vault is bathed in subdued, amber lighting; Merchant_Unit_7 places a DATA_INGOT onto the heavy table, the gold bar's etched circuit lines catching the light.
-*   Phase 2 (Emergency Strobe & Liquid Gold): Red strobe lights flare, holographic alerts appear, and streams of liquid gold rise like reverse rain, creating a chaotic, surreal atmosphere.
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   Item: DATA_INGOTS – gold bars etched with intricate circuit lines that glow faintly.
-*   Item: HEAVY_TABLE – a massive, obsidian‑black concrete table that bows under the weight of the ingots.
-*   Item: PROFIT_MASK – a gilded mask with digital displays for scrolling numbers.
-*   Item: HOLOGRAM_UI – floating holographic overlays with red text alerts.
-*   Item: RED_STROBE – harsh red emergency lighting that bathes the vault.
-*   Item: ALERT_UI – holographic warning messages floating in mid‑air.
-*   Item: LIQUID_GOLD – molten gold that behaves like a liquid, forming streams and blobs.
-*   Item: LIQUID_GOLD_STREAMS – thousands of reverse‑rain streams rising from the racks.
-
-### 4. AI PROMPT KEYWORDS
-`vault`, `gold`, `hologram`, `red strobe`, `liquid gold`, `ancient-tech`, `Ethiopian`, `Egyptian`, `photorealistic`, `industrial mysticism`
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
-Vertical 9:16 cinematic close‑up of a Treasury Vault blending ancient Ethiopian and Egyptian motifs with advanced technology, featuring a gaunt Merchant_Unit_7 with bloated pale skin, ornate gold rings, and a gilded PROFIT_MASK displaying scrolling numbers; he places a DATA_INGOT etched with circuit lines onto a heavy obsidian‑black table, while red strobe lights flare, holographic alerts float, and streams of liquid gold rise like reverse rain, all rendered photorealistically with tactile textures and reflective surfaces.
+Chant, Unknown
 
 ### 6. PHASE PROMPTS
-*   **Default:** A single, continuous scene capturing the vault from calm to emergency.
-    Prompt: Vertical 9:16 cinematic close‑up of a Treasury Vault that fuses ancient Ethiopian and Egyptian motifs with incomprehensible technology; Merchant_Unit_7, pale and bloated, wears ornate gold rings and a gilded PROFIT_MASK with digital displays, placing a DATA_INGOT etched with circuit lines onto a heavy obsidian‑black table; the vault walls are carved with hieroglyphic circuitry, the floor reflects floating liquid gold, red strobe lights flare, holographic alerts float, and streams of liquid gold rise like reverse rain, all rendered photorealistically with tactile textures.
-    Keywords: vault, gold, hologram, red strobe, liquid gold, ancient-tech, Ethiopian, Egyptian, photorealistic, industrial mysticism
+*   **Default:**
+    Prompt: Chant, Unknown
 
 ---

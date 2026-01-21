@@ -1,0 +1,67 @@
+{
+  "id": "PROP_SHADOW",
+  "name": "Shadow",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Shadow.",
+    "visual_anatomy": [
+      "Traits: Used in a simile to describe unrighteousness as transient and having 'no standing'.",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Used in a simile to describe unrighteousness as transient and having 'no standing'."
+    ],
+    "prompt_block": "Shadow, Used in a simile to describe unrighteousness as transient and having 'no standing'.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Used in a simile to describe unrighteousness as transient and having 'no standing'."
+        ],
+        "prompt_block": "Shadow, Used in a simile to describe unrighteousness as transient and having 'no standing'."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_SHADOW",
+    "name": "Shadow",
+    "type": "prop",
+    "aliases": [
+      "Shadow"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "Used in a simile to describe unrighteousness as transient and having 'no standing'."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1142"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 49,
+        "chapter_end": 49,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

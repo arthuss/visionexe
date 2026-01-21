@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_ARAZYAL",
+  "name": "Arazyal",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Arazyal.",
+    "visual_anatomy": [
+      "Traits: Ge'ez: አራዝያል",
+      "Roles: Chief of the 200 angels."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Ge'ez: አራዝያል"
+    ],
+    "prompt_block": "Arazyal, Ge'ez: አራዝያል",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Ge'ez: አራዝያል"
+        ],
+        "prompt_block": "Arazyal, Ge'ez: አራዝያል"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ARAZYAL",
+    "name": "Arazyal",
+    "type": "character",
+    "aliases": [
+      "Arazyal"
+    ],
+    "roles": [
+      "Chief of the 200 angels."
+    ],
+    "visual_traits": [
+      "Ge'ez: አራዝያል"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1100"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 6,
+        "chapter_end": 6,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

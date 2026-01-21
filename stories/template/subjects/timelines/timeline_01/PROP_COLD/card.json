@@ -1,0 +1,67 @@
+{
+  "id": "PROP_COLD",
+  "name": "Cold",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Cold.",
+    "visual_anatomy": [
+      "Traits: A meteorological phenomenon that emerges when the winds blow.",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A meteorological phenomenon that emerges when the winds blow."
+    ],
+    "prompt_block": "Cold, A meteorological phenomenon that emerges when the winds blow.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A meteorological phenomenon that emerges when the winds blow."
+        ],
+        "prompt_block": "Cold, A meteorological phenomenon that emerges when the winds blow."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_COLD",
+    "name": "Cold",
+    "type": "prop",
+    "aliases": [
+      "Cold"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "A meteorological phenomenon that emerges when the winds blow."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1127"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 34,
+        "chapter_end": 34,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

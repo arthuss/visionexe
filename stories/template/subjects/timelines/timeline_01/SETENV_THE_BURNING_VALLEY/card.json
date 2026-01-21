@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_THE_BURNING_VALLEY",
+  "name": "The Burning Valley",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for The Burning Valley.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A valley (ቈላ) in the west, near mountains of precious metals. It is characterized by a great commotion, agitated waters, a smell of sulfur, and streams of fire. It serves as the prison for the fallen angels.'}",
+      "Roles: location"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A valley (ቈላ) in the west, near mountains of precious metals. It is characterized by a great commotion, agitated waters, a smell of sulfur, and streams of fire. It serves as the prison for the fallen angels.'}"
+    ],
+    "prompt_block": "The Burning Valley, {'description': 'A valley (ቈላ) in the west, near mountains of precious metals. It is characterized by a great commotion, agitated waters, a smell of sulfur, and streams of fire. It serves as the prison for the fallen angels.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A valley (ቈላ) in the west, near mountains of precious metals. It is characterized by a great commotion, agitated waters, a smell of sulfur, and streams of fire. It serves as the prison for the fallen angels.'}"
+        ],
+        "prompt_block": "The Burning Valley, {'description': 'A valley (ቈላ) in the west, near mountains of precious metals. It is characterized by a great commotion, agitated waters, a smell of sulfur, and streams of fire. It serves as the prison for the fallen angels.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_BURNING_VALLEY",
+    "name": "The Burning Valley",
+    "type": "set_environment",
+    "aliases": [
+      "The Burning Valley"
+    ],
+    "roles": [
+      "location"
+    ],
+    "visual_traits": [
+      "{'description': 'A valley (ቈላ) in the west, near mountains of precious metals. It is characterized by a great commotion, agitated waters, a smell of sulfur, and streams of fire. It serves as the prison for the fallen angels.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1161"
+    ],
+    "occurrence_count": 10,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 67,
+        "chapter_end": 67,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

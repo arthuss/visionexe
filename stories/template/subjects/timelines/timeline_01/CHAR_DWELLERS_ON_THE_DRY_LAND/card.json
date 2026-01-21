@@ -1,0 +1,78 @@
+{
+  "id": "CHAR_DWELLERS_ON_THE_DRY_LAND",
+  "name": "dwellers on the dry land",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for dwellers on the dry land.",
+    "visual_anatomy": [
+      "Traits: {'description': 'All the inhabitants of the earth.'}, {'description': 'All the people who live on the surface of the earth, who are the intended subjects of the judgment.'}, {'description': 'The general inhabitants of the earth who were led astray by the fallen angels.'}",
+      "Roles: The subjects of the Head of Days' regret and the beneficiaries of his new covenant., background, inhabitants of Earth"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'All the inhabitants of the earth.'}",
+      "{'description': 'All the people who live on the surface of the earth, who are the intended subjects of the judgment.'}",
+      "{'description': 'The general inhabitants of the earth who were led astray by the fallen angels.'}"
+    ],
+    "prompt_block": "dwellers on the dry land, {'description': 'All the inhabitants of the earth.'}, {'description': 'All the people who live on the surface of the earth, who are the intended subjects of the judgment.'}, {'description': 'The general inhabitants of the earth who were led astray by the fallen angels.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'All the inhabitants of the earth.'}",
+          "{'description': 'All the people who live on the surface of the earth, who are the intended subjects of the judgment.'}",
+          "{'description': 'The general inhabitants of the earth who were led astray by the fallen angels.'}"
+        ],
+        "prompt_block": "dwellers on the dry land, {'description': 'All the inhabitants of the earth.'}, {'description': 'All the people who live on the surface of the earth, who are the intended subjects of the judgment.'}, {'description': 'The general inhabitants of the earth who were led astray by the fallen angels.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_DWELLERS_ON_THE_DRY_LAND",
+    "name": "dwellers on the dry land",
+    "type": "character",
+    "aliases": [
+      "Dwellers on the dry land",
+      "dwellers on the dry land"
+    ],
+    "roles": [
+      "The subjects of the Head of Days' regret and the beneficiaries of his new covenant.",
+      "background",
+      "inhabitants of Earth"
+    ],
+    "visual_traits": [
+      "{'description': 'All the inhabitants of the earth.'}",
+      "{'description': 'All the people who live on the surface of the earth, who are the intended subjects of the judgment.'}",
+      "{'description': 'The general inhabitants of the earth who were led astray by the fallen angels.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1148",
+      "row_1158",
+      "row_1161"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 55,
+        "chapter_end": 67,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

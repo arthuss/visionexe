@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_THE_HOLY_PLACE",
+  "name": "The Holy Place",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for The Holy Place.",
+    "visual_anatomy": [
+      "Traits: sacred location",
+      "Roles: future location of the Fragrant Tree"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "sacred location"
+    ],
+    "prompt_block": "The Holy Place, sacred location",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "sacred location"
+        ],
+        "prompt_block": "The Holy Place, sacred location"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_HOLY_PLACE",
+    "name": "The Holy Place",
+    "type": "set_environment",
+    "aliases": [
+      "The Holy Place"
+    ],
+    "roles": [
+      "future location of the Fragrant Tree"
+    ],
+    "visual_traits": [
+      "sacred location"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1118"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 25,
+        "chapter_end": 25,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

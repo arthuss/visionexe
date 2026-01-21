@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_ABEL",
+  "name": "Abel",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Abel.",
+    "visual_anatomy": [
+      "Traits: A spirit whose voice reaches to heaven and makes accusation",
+      "Roles: figure_of_interest"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A spirit whose voice reaches to heaven and makes accusation"
+    ],
+    "prompt_block": "Abel, A spirit whose voice reaches to heaven and makes accusation",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A spirit whose voice reaches to heaven and makes accusation"
+        ],
+        "prompt_block": "Abel, A spirit whose voice reaches to heaven and makes accusation"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ABEL",
+    "name": "Abel",
+    "type": "character",
+    "aliases": [
+      "Abel"
+    ],
+    "roles": [
+      "figure_of_interest"
+    ],
+    "visual_traits": [
+      "A spirit whose voice reaches to heaven and makes accusation"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1115"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 22,
+        "chapter_end": 22,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

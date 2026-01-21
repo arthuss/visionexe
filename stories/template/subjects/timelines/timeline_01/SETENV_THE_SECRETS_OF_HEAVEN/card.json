@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_THE_SECRETS_OF_HEAVEN",
+  "name": "The secrets of heaven",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for The secrets of heaven.",
+    "visual_anatomy": [
+      "Traits: The hidden things that are being revealed to the narrator in the vision.",
+      "Roles: visionary_concept"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "The hidden things that are being revealed to the narrator in the vision."
+    ],
+    "prompt_block": "The secrets of heaven, The hidden things that are being revealed to the narrator in the vision.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "The hidden things that are being revealed to the narrator in the vision."
+        ],
+        "prompt_block": "The secrets of heaven, The hidden things that are being revealed to the narrator in the vision."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_SECRETS_OF_HEAVEN",
+    "name": "The secrets of heaven",
+    "type": "set_environment",
+    "aliases": [
+      "The secrets of heaven"
+    ],
+    "roles": [
+      "visionary_concept"
+    ],
+    "visual_traits": [
+      "The hidden things that are being revealed to the narrator in the vision."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1145"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 52,
+        "chapter_end": 52,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

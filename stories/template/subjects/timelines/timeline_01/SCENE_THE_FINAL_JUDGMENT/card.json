@@ -1,0 +1,62 @@
+{
+  "id": "SCENE_THE_FINAL_JUDGMENT",
+  "name": "The Final Judgment",
+  "type": "scene",
+  "card": {
+    "description": "Auto-generated asset card for The Final Judgment.",
+    "visual_anatomy": [
+      "Roles: Upon the Earth, unknown"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "The Final Judgment, Upon the Earth, unknown",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "The Final Judgment, Upon the Earth, unknown"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_THE_FINAL_JUDGMENT",
+    "name": "The Final Judgment",
+    "type": "scene",
+    "aliases": [
+      "The Final Judgment"
+    ],
+    "roles": [
+      "Upon the Earth",
+      "unknown"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1192",
+      "row_1201"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 99,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "PROP_WINDS",
+  "name": "Winds",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Winds.",
+    "visual_anatomy": [
+      "Traits: Emerge from twelve heavenly gates and blow upon the Earth., shake ships",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Emerge from twelve heavenly gates and blow upon the Earth.",
+      "shake ships"
+    ],
+    "prompt_block": "Winds, Emerge from twelve heavenly gates and blow upon the Earth., shake ships",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Emerge from twelve heavenly gates and blow upon the Earth.",
+          "shake ships"
+        ],
+        "prompt_block": "Winds, Emerge from twelve heavenly gates and blow upon the Earth., shake ships"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_WINDS",
+    "name": "Winds",
+    "type": "prop",
+    "aliases": [
+      "Winds",
+      "winds"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "Emerge from twelve heavenly gates and blow upon the Earth.",
+      "shake ships"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1169",
+      "row_1194"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 76,
+        "chapter_end": 101,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

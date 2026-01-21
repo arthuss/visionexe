@@ -1,0 +1,86 @@
+{
+  "id": "CHAR_THE_CURSED",
+  "name": "The Cursed",
+  "type": "character",
+  "card": {
+    "description": "In the bounded runtime of the simulation, The Cursed appears not as a monster of folklore, but as a tragic system anomaly—a deprecated user instance denied egress and marked for eventual garbage collection. They stand as a solemn testament to the kernel’s harsh judgment, existing in the liminal spaces between the surface plane and the gate bands. The curse manifests as a physiological corruption of their avatar, a slow-motion desynchronization from the master clock. They carry the heavy atmosphere of a drama protagonist, burdened by an invisible, crushing weight. Their existence is a quiet study in isolation; they are fully rendered but functionally orphaned, wandering the reset deserts or the edges of the vector fields, aware of their own obsolescence. The air around them seems to warp with heat lensing, a visual symptom of the thermal throttling applied to their processing allocation.",
+    "visual_anatomy": [
+      "The avatar's skin possesses a hyper-realistic, unnerving translucency, revealing a vascular system that resembles dim, pulsing fiber optics rather than organic veins. Where the 'curse' has taken hold, the dermal mesh hardens into patches of matte obsidian, cracking like dry earth to reveal faint, cooling plasma beneath—a literal manifestation of burnout. These blackened patches creep up the neck and across the hands, suggesting a creeping necrosis of their digital identity.",
+      "Their attire is a distressed composite of high-fidelity fabrics, perhaps once a standard-issue tunic or worker's jumpsuit, now bleached by the harsh light of the sky dome. The weave of the cloth is coarse and tangible, fraying at the edges where the simulation's level-of-detail reducing algorithms have begun to aggressively optimize them. Dust from the reset desert clings to the fibers, grounding them in a gritty, tactile reality despite their digital nature.",
+      "The eyes are the focal point of the dramatic framing—milky and high-contrast, lacking the specular highlight that denotes an active connection to the central network. They are often rimmed red, not from biological weeping, but from the strain of parsing a reality they can no longer fully interact with. Their posture is permanently stooped, a physical reaction to the 'downward' pressure of the system's gravity overrides, framing them constantly in low-angle shots that emphasize their diminishment against the vast, indifferent architecture of the simulation box."
+    ],
+    "evolution": [
+      "Initially, The Cursed may appear indistinguishable from standard voyager instances, marked only by a slight latency in their movement or a subtle flickering in their shadow. As the state persists, the 'curse'—the system's revocation of their authentication—begins to physically degrade the mesh.",
+      "In the final stages of the default phase, the obsidian corruption dominates, and their movements become heavy and jerky, simulating a low framerate struggle against an infinite load. The drama lies in this visible decay, a slow, agonizing erasure of self that plays out in silence and shadow."
+    ],
+    "props": [
+      "They clutch a fractured data-glass tablet, an artifact of their former status. The screen is dead, a slab of inert black glass that reflects the environment but offers no interface. They hold it with the desperation of a believer clutching a rosary, turning it over in their obsidian-crusted fingers as if seeking a signal that will never come.",
+      "A makeshift rebreather or filter mask hangs loosely around their neck, fashioned from scavenged parts of the rift internals. It serves no functional purpose in the simulation's atmosphere but acts as a psychological crutch, a desperate attempt to filter out the 'bad data' they believe is poisoning them."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic portrait",
+      "obsidian skin corruption",
+      "fiber optic veins",
+      "thermal throttling visual",
+      "cinematic lighting",
+      "high contrast monochrome",
+      "simulation glitch aesthetics",
+      "tragic posture",
+      "fraying fabric texture",
+      "milky eyes",
+      "shallow depth of field",
+      "reset desert background"
+    ],
+    "prompt_block": "A hyper-realistic cinematic close-up of The Cursed, a tragic figure within a simulation environment. The subject is a humanoid avatar suffering from system degradation. Their skin is pale and translucent, revealing subsurface veins that glow faintly like dying fiber optics. Patches of the skin have hardened into cracked, matte obsidian scales, particularly around the neck and hands, with faint ember-like plasma glowing in the fissures. They wear a tattered, heavy-weave tunic covered in desert dust, the fabric fraying at the edges. The lighting is dramatic and high-contrast, simulating a harsh sun from the sky dome, casting deep shadows that obscure the eyes. The eyes themselves are milky and dull, lacking specular highlights. The background is a blurred, heat-hazed expanse of a barren data-desert. The atmosphere is heavy, sorrowful, and textured, captured with the sharpness of an 85mm lens at f/1.8, focusing intently on the texture of the corrupted skin.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The Cursed in their persistent state of degradation, wandering the simulation boundaries. They exhibit the physical symptoms of system rejection—hardening skin and thermal stress—while maintaining a somber, human dignity.",
+        "prompt_keywords": [
+          "obsidian patches",
+          "cracked skin",
+          "translucent flesh",
+          "faded clothing",
+          "desert dust",
+          "sorrowful expression"
+        ],
+        "prompt_block": "A hyper-realistic, eye-level medium shot of The Cursed standing in a desolate simulation landscape. The subject's face is weathered and weary, with patches of skin turning into cracked black obsidian rock. Underneath the cracks, a faint, sickly heat glows. They are looking down, their posture defeated. The clothing is realistic, coarse linen in muted greys, stained with the dust of the 'reset desert'. The lighting creates a 'thermal throttling' effect, with heat waves visibly distorting the air around them. The image quality is pristine, 8k resolution, capturing every pore and thread, contrasting the digital perfection of the render with the organic decay of the subject. The color palette is desaturated, leaning towards cold blues and harsh whites, punctuated by the black of the corruption."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_CURSED",
+    "name": "The Cursed",
+    "type": "character",
+    "aliases": [
+      "The Cursed"
+    ],
+    "roles": [
+      "recipient of curse"
+    ],
+    "visual_traits": [
+      "Not specified in text."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1065"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 5,
+        "chapter_end": 5,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

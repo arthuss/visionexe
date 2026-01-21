@@ -1,10 +1,10 @@
 ## [STATE] world :: Phase 2
 **State ID:** phase_02
-**Chapters:** 62 - 84
+**Chapters:** 41 - 74
+**Notes:** {'phase': 'Phase 1: Pre-transformation', 'description': 'The state of the world before the introduction of forbidden knowledge.'}
 
-**Phase Summary:** Glitch forest dissolving into data streams and basalt walls.
-**Phase Keywords:** glitch, static fog, data streams, basalt walls, green luminous cluster, photorealistic, 9:16
+**Phase Keywords:** cosmic expanse, unknown, vast, {'description': 'The entire world or age.', 'source_text_ref': 'ዓለም'}, {'description': 'The ordered cosmos as a whole, which is circled by a great star and in which the chariots run.', 'type': 'cosmos'}
 **Phase Prompt:**
-8k, 9:16 cinematic shot of a glitch forest: dense grey static fog fractures into point‑cloud data streams forming vertical blue basalt walls, a distant green luminous cluster pulses, heavy chromatic aberration and broken geometry create a disorienting, tactile environment.
+world, cosmic expanse, unknown, vast, {'description': 'The entire world or age.', 'source_text_ref': 'ዓለም'}, {'description': 'The ordered cosmos as a whole, which is circled by a great star and in which the chariots run.', 'type': 'cosmos'}, Phase 2
 
 ---

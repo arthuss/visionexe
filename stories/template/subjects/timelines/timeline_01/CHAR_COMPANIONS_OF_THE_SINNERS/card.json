@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_COMPANIONS_OF_THE_SINNERS",
+  "name": "Companions of the Sinners",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Companions of the Sinners.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Associates of the sinners who declare the sinners to be blessed throughout their lives.'}",
+      "Roles: character"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Associates of the sinners who declare the sinners to be blessed throughout their lives.'}"
+    ],
+    "prompt_block": "Companions of the Sinners, {'description': 'Associates of the sinners who declare the sinners to be blessed throughout their lives.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Associates of the sinners who declare the sinners to be blessed throughout their lives.'}"
+        ],
+        "prompt_block": "Companions of the Sinners, {'description': 'Associates of the sinners who declare the sinners to be blessed throughout their lives.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_COMPANIONS_OF_THE_SINNERS",
+    "name": "Companions of the Sinners",
+    "type": "character",
+    "aliases": [
+      "Companions of the Sinners"
+    ],
+    "roles": [
+      "character"
+    ],
+    "visual_traits": [
+      "{'description': 'Associates of the sinners who declare the sinners to be blessed throughout their lives.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1196"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 103,
+        "chapter_end": 103,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

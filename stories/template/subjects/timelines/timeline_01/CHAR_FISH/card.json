@@ -1,0 +1,117 @@
+{
+  "id": "CHAR_FISH",
+  "name": "Fish",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Fish.",
+    "visual_anatomy": [
+      "Traits: live in the sea",
+      "Roles: inhabitant of the sea, victim"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "live in the sea"
+    ],
+    "prompt_block": "Fish, live in the sea",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "live in the sea"
+        ],
+        "prompt_block": "Fish, live in the sea, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "live in the sea"
+        ],
+        "prompt_block": "Fish, live in the sea, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "live in the sea"
+        ],
+        "prompt_block": "Fish, live in the sea, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_FISH",
+    "name": "Fish",
+    "type": "character",
+    "aliases": [
+      "Fish",
+      "fish"
+    ],
+    "roles": [
+      "inhabitant of the sea",
+      "victim"
+    ],
+    "visual_traits": [
+      "live in the sea"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Alive', 'description': 'Alive and in the sea.'}",
+      "{'phase': 'Phase 2: Dead', 'description': 'Die when the sea dries up.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1099",
+      "row_1194"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 7,
+        "chapter_end": 37,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 38,
+        "chapter_end": 69,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Alive', 'description': 'Alive and in the sea.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 70,
+        "chapter_end": 101,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Dead', 'description': 'Die when the sea dries up.'}"
+        ]
+      }
+    ]
+  }
+}

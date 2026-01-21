@@ -1,0 +1,67 @@
+{
+  "id": "PROP_DEPOSIT",
+  "name": "deposit",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for deposit.",
+    "visual_anatomy": [
+      "Traits: A metaphor for the dead held by Earth and Sheol.",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A metaphor for the dead held by Earth and Sheol."
+    ],
+    "prompt_block": "deposit, A metaphor for the dead held by Earth and Sheol.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A metaphor for the dead held by Earth and Sheol."
+        ],
+        "prompt_block": "deposit, A metaphor for the dead held by Earth and Sheol."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_DEPOSIT",
+    "name": "deposit",
+    "type": "prop",
+    "aliases": [
+      "deposit"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "A metaphor for the dead held by Earth and Sheol."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1144"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 51,
+        "chapter_end": 51,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

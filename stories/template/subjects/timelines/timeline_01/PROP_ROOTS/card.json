@@ -1,0 +1,71 @@
+{
+  "id": "PROP_ROOTS",
+  "name": "Roots",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Roots.",
+    "visual_anatomy": [
+      "Traits: plant roots, {'description': \"Plant roots used by 'root-cutters'.\", 'source_text_ref': 'ሥርዋት'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "plant roots",
+      "{'description': \"Plant roots used by 'root-cutters'.\", 'source_text_ref': 'ሥርዋት'}"
+    ],
+    "prompt_block": "Roots, plant roots, {'description': \"Plant roots used by 'root-cutters'.\", 'source_text_ref': 'ሥርዋት'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "plant roots",
+          "{'description': \"Plant roots used by 'root-cutters'.\", 'source_text_ref': 'ሥርዋት'}"
+        ],
+        "prompt_block": "Roots, plant roots, {'description': \"Plant roots used by 'root-cutters'.\", 'source_text_ref': 'ሥርዋት'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_ROOTS",
+    "name": "Roots",
+    "type": "prop",
+    "aliases": [
+      "Roots"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "plant roots",
+      "{'description': \"Plant roots used by 'root-cutters'.\", 'source_text_ref': 'ሥርዋት'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1099",
+      "row_1101"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 7,
+        "chapter_end": 8,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

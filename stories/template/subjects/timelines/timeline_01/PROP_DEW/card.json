@@ -1,0 +1,88 @@
+{
+  "id": "PROP_DEW",
+  "name": "dew",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for dew.",
+    "visual_anatomy": [
+      "Traits: A meteorological phenomenon that emerges when the winds blow., Used in a simile to describe Iniquity's arrival (ጠል, ṭal)., descends from heaven, rests upon the earth, {'description': 'A form of precipitation that rests upon the earth.'}, {'description': 'Dew that ascends from the water channels.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A meteorological phenomenon that emerges when the winds blow.",
+      "Used in a simile to describe Iniquity's arrival (ጠል, ṭal).",
+      "descends from heaven",
+      "rests upon the earth",
+      "{'description': 'A form of precipitation that rests upon the earth.'}",
+      "{'description': 'Dew that ascends from the water channels.'}"
+    ],
+    "prompt_block": "dew, A meteorological phenomenon that emerges when the winds blow., Used in a simile to describe Iniquity's arrival (ጠል, ṭal)., descends from heaven, rests upon the earth, {'description': 'A form of precipitation that rests upon the earth.'}, {'description': 'Dew that ascends from the water channels.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A meteorological phenomenon that emerges when the winds blow.",
+          "Used in a simile to describe Iniquity's arrival (ጠል, ṭal).",
+          "descends from heaven",
+          "rests upon the earth",
+          "{'description': 'A form of precipitation that rests upon the earth.'}",
+          "{'description': 'Dew that ascends from the water channels.'}"
+        ],
+        "prompt_block": "dew, A meteorological phenomenon that emerges when the winds blow., Used in a simile to describe Iniquity's arrival (ጠል, ṭal)., descends from heaven, rests upon the earth, {'description': 'A form of precipitation that rests upon the earth.'}, {'description': 'Dew that ascends from the water channels.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_DEW",
+    "name": "dew",
+    "type": "prop",
+    "aliases": [
+      "Dew",
+      "dew"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "A meteorological phenomenon that emerges when the winds blow.",
+      "Used in a simile to describe Iniquity's arrival (ጠል, ṭal).",
+      "descends from heaven",
+      "rests upon the earth",
+      "{'description': 'A form of precipitation that rests upon the earth.'}",
+      "{'description': 'Dew that ascends from the water channels.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1058",
+      "row_1096",
+      "row_1121",
+      "row_1127",
+      "row_1135",
+      "row_1194"
+    ],
+    "occurrence_count": 12,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 2,
+        "chapter_end": 101,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

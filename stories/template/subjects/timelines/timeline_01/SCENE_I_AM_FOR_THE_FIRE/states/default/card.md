@@ -2,9 +2,7 @@
 **State ID:** default
 **Chapters:** 18 - 18
 
-**Phase Summary:** The ritual fire at the altar
-**Phase Keywords:** ancient Ethiopian, Egyptian, fire, crystalline, glyphs, industrial mysticism, photorealistic, tactile, bio‑luminescence
 **Phase Prompt:**
-In a cavernous chamber lit by a bio‑luminescent blaze, a towering obsidian altar with crystalline hardware hums, ancient Ethiopian and Egyptian glyphs glow along the stone walls, participants in woven robes with subtle circuitry perform a solemn ritual, the flame spirals with metallic sparks, photorealistic, tactile, industrial mysticism, grounded realism
+I am for the Fire, Fire
 
 ---

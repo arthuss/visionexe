@@ -1,0 +1,67 @@
+{
+  "id": "PROP_WEST_WIND_NETUG",
+  "name": "West Wind (Netug)",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for West Wind (Netug).",
+    "visual_anatomy": [
+      "Traits: {'description': 'The wind from the west (ምዕራብ), named Netug (ንቱግ). The luminaries of heaven set where it is.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The wind from the west (ምዕራብ), named Netug (ንቱግ). The luminaries of heaven set where it is.'}"
+    ],
+    "prompt_block": "West Wind (Netug), {'description': 'The wind from the west (ምዕራብ), named Netug (ንቱግ). The luminaries of heaven set where it is.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The wind from the west (ምዕራብ), named Netug (ንቱግ). The luminaries of heaven set where it is.'}"
+        ],
+        "prompt_block": "West Wind (Netug), {'description': 'The wind from the west (ምዕራብ), named Netug (ንቱግ). The luminaries of heaven set where it is.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_WEST_WIND_NETUG",
+    "name": "West Wind (Netug)",
+    "type": "prop",
+    "aliases": [
+      "West Wind (Netug)"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'The wind from the west (ምዕራብ), named Netug (ንቱግ). The luminaries of heaven set where it is.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1170"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 77,
+        "chapter_end": 77,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

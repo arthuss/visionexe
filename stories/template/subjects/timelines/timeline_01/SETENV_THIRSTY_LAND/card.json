@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_THIRSTY_LAND",
+  "name": "thirsty land",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for thirsty land.",
+    "visual_anatomy": [
+      "Traits: A dry land mentioned in a simile (ምድር፡​ጽምእት, mədr ṣəmʾət).",
+      "Roles: metaphorical_setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A dry land mentioned in a simile (ምድር፡​ጽምእት, mədr ṣəmʾət)."
+    ],
+    "prompt_block": "thirsty land, A dry land mentioned in a simile (ምድር፡​ጽምእት, mədr ṣəmʾət).",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A dry land mentioned in a simile (ምድር፡​ጽምእት, mədr ṣəmʾət)."
+        ],
+        "prompt_block": "thirsty land, A dry land mentioned in a simile (ምድር፡​ጽምእት, mədr ṣəmʾət)."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THIRSTY_LAND",
+    "name": "thirsty land",
+    "type": "set_environment",
+    "aliases": [
+      "thirsty land"
+    ],
+    "roles": [
+      "metaphorical_setting"
+    ],
+    "visual_traits": [
+      "A dry land mentioned in a simile (ምድር፡​ጽምእት, mədr ṣəmʾət)."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1135"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 42,
+        "chapter_end": 42,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

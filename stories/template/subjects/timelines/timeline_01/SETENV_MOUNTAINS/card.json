@@ -1,0 +1,125 @@
+{
+  "id": "SETENV_MOUNTAINS",
+  "name": "mountains",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for mountains.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Large landforms.'}",
+      "Roles: Part of the rejoicing landscape., dynamic_setting"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Large landforms.'}"
+    ],
+    "prompt_block": "mountains, {'description': 'Large landforms.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Large landforms.'}"
+        ],
+        "prompt_block": "mountains, {'description': 'Large landforms.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Large landforms.'}"
+        ],
+        "prompt_block": "mountains, {'description': 'Large landforms.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Large landforms.'}"
+        ],
+        "prompt_block": "mountains, {'description': 'Large landforms.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_MOUNTAINS",
+    "name": "mountains",
+    "type": "set_environment",
+    "aliases": [
+      "Mountains",
+      "mountains"
+    ],
+    "roles": [
+      "Part of the rejoicing landscape.",
+      "dynamic_setting"
+    ],
+    "visual_traits": [
+      "{'description': 'Large landforms.'}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Static', 'description': 'Normal geological state.'}",
+      "{'phase': 'Phase 2: Dynamic', 'description': 'Leap like rams in joy.'}",
+      "{'phase': 'Phase 1: Present State', 'description': 'Exist as mountains.'}",
+      "{'phase': 'Phase 2: Transformed State', 'description': \"Become leveled, 'like the earth'.\"}",
+      "{'phase': 'Phase 1: Vision', 'description': 'In the vision, mountains are suspended and fall upon other mountains.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1144",
+      "row_1146",
+      "row_1176"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 51,
+        "chapter_end": 61,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Static', 'description': 'Normal geological state.'}"
+        ]
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 62,
+        "chapter_end": 72,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Dynamic', 'description': 'Leap like rams in joy.'}",
+          "{'phase': 'Phase 1: Present State', 'description': 'Exist as mountains.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 73,
+        "chapter_end": 83,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Transformed State', 'description': \"Become leveled, 'like the earth'.\"}",
+          "{'phase': 'Phase 1: Vision', 'description': 'In the vision, mountains are suspended and fall upon other mountains.'}"
+        ]
+      }
+    ]
+  }
+}

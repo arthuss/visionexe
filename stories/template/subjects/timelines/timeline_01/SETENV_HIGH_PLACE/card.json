@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_HIGH_PLACE",
+  "name": "High Place",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for High Place.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A high location to which the narrator is lifted.'}",
+      "Roles: vantage_point"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A high location to which the narrator is lifted.'}"
+    ],
+    "prompt_block": "High Place, {'description': 'A high location to which the narrator is lifted.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A high location to which the narrator is lifted.'}"
+        ],
+        "prompt_block": "High Place, {'description': 'A high location to which the narrator is lifted.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_HIGH_PLACE",
+    "name": "High Place",
+    "type": "set_environment",
+    "aliases": [
+      "High Place"
+    ],
+    "roles": [
+      "vantage_point"
+    ],
+    "visual_traits": [
+      "{'description': 'A high location to which the narrator is lifted.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1180"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 87,
+        "chapter_end": 87,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

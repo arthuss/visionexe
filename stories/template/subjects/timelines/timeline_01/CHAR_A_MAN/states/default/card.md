@@ -1,0 +1,9 @@
+## [STATE] A man :: Default
+**State ID:** default
+**Chapters:** 56 - 93
+
+**Phase Keywords:** A form the moon is said to resemble at night., {'description': 'A symbolic figure who is saved in the first week (93:4), is chosen as a plant of righteous judgment in the third week (93:5), and ascends in the sixth week (93:8).'}
+**Phase Prompt:**
+A man, A form the moon is said to resemble at night., {'description': 'A symbolic figure who is saved in the first week (93:4), is chosen as a plant of righteous judgment in the third week (93:5), and ascends in the sixth week (93:8).'}
+
+---

@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_GREAT_FEAR_AND_TREMBLING",
+  "name": "Great Fear and Trembling",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Great Fear and Trembling.",
+    "visual_anatomy": [
+      "Traits: An overwhelming, pervasive atmosphere of cosmic terror affecting all beings.",
+      "Roles: emotional atmosphere"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "An overwhelming, pervasive atmosphere of cosmic terror affecting all beings."
+    ],
+    "prompt_block": "Great Fear and Trembling, An overwhelming, pervasive atmosphere of cosmic terror affecting all beings.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "An overwhelming, pervasive atmosphere of cosmic terror affecting all beings."
+        ],
+        "prompt_block": "Great Fear and Trembling, An overwhelming, pervasive atmosphere of cosmic terror affecting all beings."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_GREAT_FEAR_AND_TREMBLING",
+    "name": "Great Fear and Trembling",
+    "type": "set_environment",
+    "aliases": [
+      "Great Fear and Trembling"
+    ],
+    "roles": [
+      "emotional atmosphere"
+    ],
+    "visual_traits": [
+      "An overwhelming, pervasive atmosphere of cosmic terror affecting all beings."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1078"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 1,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "SETENV_VISIONARY_SPACE",
+  "name": "Visionary Space",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Visionary Space.",
+    "visual_anatomy": [
+      "Traits: A non-physical, revelatory setting where celestial secrets are observed., {'description': \"The location of the vision, referred to as 'There' (በህየ), where the narrator sees the divine figures.\"}",
+      "Roles: setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A non-physical, revelatory setting where celestial secrets are observed.",
+      "{'description': \"The location of the vision, referred to as 'There' (በህየ), where the narrator sees the divine figures.\"}"
+    ],
+    "prompt_block": "Visionary Space, A non-physical, revelatory setting where celestial secrets are observed., {'description': \"The location of the vision, referred to as 'There' (በህየ), where the narrator sees the divine figures.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A non-physical, revelatory setting where celestial secrets are observed.",
+          "{'description': \"The location of the vision, referred to as 'There' (በህየ), where the narrator sees the divine figures.\"}"
+        ],
+        "prompt_block": "Visionary Space, A non-physical, revelatory setting where celestial secrets are observed., {'description': \"The location of the vision, referred to as 'There' (በህየ), where the narrator sees the divine figures.\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_VISIONARY_SPACE",
+    "name": "Visionary Space",
+    "type": "set_environment",
+    "aliases": [
+      "Visionary Space",
+      "Visionary space"
+    ],
+    "roles": [
+      "setting"
+    ],
+    "visual_traits": [
+      "A non-physical, revelatory setting where celestial secrets are observed.",
+      "{'description': \"The location of the vision, referred to as 'There' (በህየ), where the narrator sees the divine figures.\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1140",
+      "row_1146",
+      "row_1152",
+      "row_1158"
+    ],
+    "occurrence_count": 24,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 46,
+        "chapter_end": 66,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

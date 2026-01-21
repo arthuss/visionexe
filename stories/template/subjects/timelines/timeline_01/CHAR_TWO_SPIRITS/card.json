@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_TWO_SPIRITS",
+  "name": "Two Spirits",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Two Spirits.",
+    "visual_anatomy": [
+      "Traits: spirit form",
+      "Roles: celestial guardians"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "spirit form"
+    ],
+    "prompt_block": "Two Spirits, spirit form",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "spirit form"
+        ],
+        "prompt_block": "Two Spirits, spirit form"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_TWO_SPIRITS",
+    "name": "Two Spirits",
+    "type": "character",
+    "aliases": [
+      "Two Spirits"
+    ],
+    "roles": [
+      "celestial guardians"
+    ],
+    "visual_traits": [
+      "spirit form"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1162"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 70,
+        "chapter_end": 70,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

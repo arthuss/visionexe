@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_ASSES",
+  "name": "Asses",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Asses.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Monstrous offspring born from the union of the Fallen Stars and the Cows.'}",
+      "Roles: antagonist"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Monstrous offspring born from the union of the Fallen Stars and the Cows.'}"
+    ],
+    "prompt_block": "Asses, {'description': 'Monstrous offspring born from the union of the Fallen Stars and the Cows.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Monstrous offspring born from the union of the Fallen Stars and the Cows.'}"
+        ],
+        "prompt_block": "Asses, {'description': 'Monstrous offspring born from the union of the Fallen Stars and the Cows.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ASSES",
+    "name": "Asses",
+    "type": "character",
+    "aliases": [
+      "Asses"
+    ],
+    "roles": [
+      "antagonist"
+    ],
+    "visual_traits": [
+      "{'description': 'Monstrous offspring born from the union of the Fallen Stars and the Cows.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1179"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 86,
+        "chapter_end": 86,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

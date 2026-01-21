@@ -1,0 +1,62 @@
+{
+  "id": "CHAR_THOSE_WHO_DWELL_ON_THE_DRY_GROUND",
+  "name": "Those who dwell on the dry ground",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Those who dwell on the dry ground.",
+    "visual_anatomy": [
+      "Roles: The audience for Enoch's proclamation; inhabitants of the earth., inhabitants of earth"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Those who dwell on the dry ground, The audience for Enoch's proclamation; inhabitants of the earth., inhabitants of earth",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Those who dwell on the dry ground, The audience for Enoch's proclamation; inhabitants of the earth., inhabitants of earth"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THOSE_WHO_DWELL_ON_THE_DRY_GROUND",
+    "name": "Those who dwell on the dry ground",
+    "type": "character",
+    "aliases": [
+      "Those who dwell on the dry ground"
+    ],
+    "roles": [
+      "The audience for Enoch's proclamation; inhabitants of the earth.",
+      "inhabitants of earth"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1130",
+      "row_1162"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 37,
+        "chapter_end": 70,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

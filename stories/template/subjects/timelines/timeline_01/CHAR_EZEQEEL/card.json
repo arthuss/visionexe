@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_EZEQEEL",
+  "name": "Ezeqeel",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Ezeqeel.",
+    "visual_anatomy": [
+      "Traits: Ge'ez: ኤዜቄኤል",
+      "Roles: Chief of the 200 angels."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Ge'ez: ኤዜቄኤል"
+    ],
+    "prompt_block": "Ezeqeel, Ge'ez: ኤዜቄኤል",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Ge'ez: ኤዜቄኤል"
+        ],
+        "prompt_block": "Ezeqeel, Ge'ez: ኤዜቄኤል"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_EZEQEEL",
+    "name": "Ezeqeel",
+    "type": "character",
+    "aliases": [
+      "Ezeqeel"
+    ],
+    "roles": [
+      "Chief of the 200 angels."
+    ],
+    "visual_traits": [
+      "Ge'ez: ኤዜቄኤል"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1100"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 6,
+        "chapter_end": 6,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

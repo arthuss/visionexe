@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_WIVES",
+  "name": "Wives",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Wives.",
+    "visual_anatomy": [
+      "Traits: human women",
+      "Roles: mothers of the Giants"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "human women"
+    ],
+    "prompt_block": "Wives, human women",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "human women"
+        ],
+        "prompt_block": "Wives, human women"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_WIVES",
+    "name": "Wives",
+    "type": "character",
+    "aliases": [
+      "Wives"
+    ],
+    "roles": [
+      "mothers of the Giants"
+    ],
+    "visual_traits": [
+      "human women"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1099"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 7,
+        "chapter_end": 7,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

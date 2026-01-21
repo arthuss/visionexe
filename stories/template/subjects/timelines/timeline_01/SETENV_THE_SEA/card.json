@@ -1,0 +1,119 @@
+{
+  "id": "SETENV_THE_SEA",
+  "name": "the sea",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for the sea.",
+    "visual_anatomy": [
+      "Traits: can be tossed by winds, has waters, waves, and fish",
+      "Roles: aquatic realm"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "can be tossed by winds",
+      "has waters, waves, and fish"
+    ],
+    "prompt_block": "the sea, can be tossed by winds, has waters, waves, and fish",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "can be tossed by winds",
+          "has waters, waves, and fish"
+        ],
+        "prompt_block": "the sea, can be tossed by winds, has waters, waves, and fish, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "can be tossed by winds",
+          "has waters, waves, and fish"
+        ],
+        "prompt_block": "the sea, can be tossed by winds, has waters, waves, and fish, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "can be tossed by winds",
+          "has waters, waves, and fish"
+        ],
+        "prompt_block": "the sea, can be tossed by winds, has waters, waves, and fish, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_SEA",
+    "name": "the sea",
+    "type": "set_environment",
+    "aliases": [
+      "the sea"
+    ],
+    "roles": [
+      "aquatic realm"
+    ],
+    "visual_traits": [
+      "can be tossed by winds",
+      "has waters, waves, and fish"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Normal', 'description': 'A body of water with fish and ships.'}",
+      "{'phase': 'Phase 2: Dried up', 'description': 'Dries up at the rebuke of the Most High.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1194"
+    ],
+    "occurrence_count": 10,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 101,
+        "chapter_end": 100,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 101,
+        "chapter_end": 100,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Normal', 'description': 'A body of water with fish and ships.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 101,
+        "chapter_end": 101,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Dried up', 'description': 'Dries up at the rebuke of the Most High.'}"
+        ]
+      }
+    ]
+  }
+}

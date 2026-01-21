@@ -1,0 +1,64 @@
+{
+  "id": "SCENE_THE_VALLEY_OF_JUDGMENT",
+  "name": "The Valley of Judgment",
+  "type": "scene",
+  "card": {
+    "description": "Auto-generated asset card for The Valley of Judgment.",
+    "visual_anatomy": [
+      "Roles: Accursed Valley, Deep valley of the lowlands, The Burning Valley"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "The Valley of Judgment, Accursed Valley, Deep valley of the lowlands, The Burning Valley",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "The Valley of Judgment, Accursed Valley, Deep valley of the lowlands, The Burning Valley"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_THE_VALLEY_OF_JUDGMENT",
+    "name": "The Valley of Judgment",
+    "type": "scene",
+    "aliases": [
+      "The Valley of Judgment"
+    ],
+    "roles": [
+      "Accursed Valley",
+      "Deep valley of the lowlands",
+      "The Burning Valley"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1119",
+      "row_1149",
+      "row_1161"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 27,
+        "chapter_end": 67,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

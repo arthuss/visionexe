@@ -1,0 +1,60 @@
+{
+  "id": "SETENV_THRONES",
+  "name": "Thrones",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Thrones.",
+    "visual_anatomy": [
+      "Roles: seat_of_power"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Thrones, seat_of_power",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Thrones, seat_of_power"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THRONES",
+    "name": "Thrones",
+    "type": "set_environment",
+    "aliases": [
+      "Thrones"
+    ],
+    "roles": [
+      "seat_of_power"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1149"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 56,
+        "chapter_end": 56,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

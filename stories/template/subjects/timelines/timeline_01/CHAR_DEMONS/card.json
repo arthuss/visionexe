@@ -1,0 +1,60 @@
+{
+  "id": "CHAR_DEMONS",
+  "name": "Demons",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Demons.",
+    "visual_anatomy": [
+      "Roles: object_of_worship"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Demons, object_of_worship",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Demons, object_of_worship"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_DEMONS",
+    "name": "Demons",
+    "type": "character",
+    "aliases": [
+      "Demons"
+    ],
+    "roles": [
+      "object_of_worship"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1110"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 19,
+        "chapter_end": 19,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

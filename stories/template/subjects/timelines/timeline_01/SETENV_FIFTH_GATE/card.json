@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_FIFTH_GATE",
+  "name": "Fifth Gate",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Fifth Gate.",
+    "visual_anatomy": [
+      "Traits: A celestial portal from which the Sun rises.",
+      "Roles: celestial_portal"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A celestial portal from which the Sun rises."
+    ],
+    "prompt_block": "Fifth Gate, A celestial portal from which the Sun rises.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A celestial portal from which the Sun rises."
+        ],
+        "prompt_block": "Fifth Gate, A celestial portal from which the Sun rises."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_FIFTH_GATE",
+    "name": "Fifth Gate",
+    "type": "set_environment",
+    "aliases": [
+      "Fifth Gate"
+    ],
+    "roles": [
+      "celestial_portal"
+    ],
+    "visual_traits": [
+      "A celestial portal from which the Sun rises."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1167"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 74,
+        "chapter_end": 74,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

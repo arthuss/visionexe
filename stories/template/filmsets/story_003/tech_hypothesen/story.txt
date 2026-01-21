@@ -1,7 +1,0 @@
-Der Text beschreibt einen **System-Wartungszyklus (Garbage Collection & Cache Flush)**.
-
-1.  **Der Winter (System-Ruhezustand):** Die simulierte Umgebung geht in einen Energiesparmodus oder Wartungszustand.
-2.  **Verdorrte Bäume (Standard-Knoten):** Der Großteil der Datenstrukturen ("Bäume") wird bereinigt. "Blätter abwerfen" entspricht dem Leeren des temporären Speichers (Cache Flush) oder dem Zurücksetzen von Session-Daten am Ende eines Zyklus. Sie erscheinen "tot" (offline/inaktiv), um Ressourcen zu sparen.
-3.  **Die 14 Immergrünen (Persistente Server/Kernel-Module):** Es gibt 14 spezifische Systemkomponenten, die als "Always-On"-Cluster fungieren. Sie sind **Non-Volatile Memory (NVM)**.
-    *   **Funktion:** Sie bewahren den "alten" Zustand (Legacy Data/Core Config), damit das System nach dem Neustart ("wenn das Neue kommt") nicht bei Null beginnt.
-    *   **Dauer (2-3 Winter):** Dies deutet auf Long-Term Support (LTS) Versionierung hin. Diese Knoten überdauern mehrere Update-Zyklen ohne Reset.

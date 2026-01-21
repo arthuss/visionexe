@@ -1,0 +1,60 @@
+{
+  "id": "CHAR_THOSE_IN_THE_SEA",
+  "name": "those in the sea",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for those in the sea.",
+    "visual_anatomy": [
+      "Roles: inhabitants of the sea"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "those in the sea, inhabitants of the sea",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "those in the sea, inhabitants of the sea"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THOSE_IN_THE_SEA",
+    "name": "those in the sea",
+    "type": "character",
+    "aliases": [
+      "those in the sea"
+    ],
+    "roles": [
+      "inhabitants of the sea"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1194"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 101,
+        "chapter_end": 101,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

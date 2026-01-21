@@ -1,0 +1,114 @@
+{
+  "id": "SETENV_FIRST_HEAVEN",
+  "name": "First Heaven",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for First Heaven.",
+    "visual_anatomy": [
+      "Traits: {'description': 'The original heaven that exists before the final judgment.'}",
+      "Roles: celestial_environment"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The original heaven that exists before the final judgment.'}"
+    ],
+    "prompt_block": "First Heaven, {'description': 'The original heaven that exists before the final judgment.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The original heaven that exists before the final judgment.'}"
+        ],
+        "prompt_block": "First Heaven, {'description': 'The original heaven that exists before the final judgment.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The original heaven that exists before the final judgment.'}"
+        ],
+        "prompt_block": "First Heaven, {'description': 'The original heaven that exists before the final judgment.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The original heaven that exists before the final judgment.'}"
+        ],
+        "prompt_block": "First Heaven, {'description': 'The original heaven that exists before the final judgment.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_FIRST_HEAVEN",
+    "name": "First Heaven",
+    "type": "set_environment",
+    "aliases": [
+      "First Heaven"
+    ],
+    "roles": [
+      "celestial_environment"
+    ],
+    "visual_traits": [
+      "{'description': 'The original heaven that exists before the final judgment.'}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Existing', 'description': 'The state of the heavens prior to the Tenth Week.'}",
+      "{'phase': 'Phase 2: Passed Away', 'description': 'The first heaven departs and passes away.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1184"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 91,
+        "chapter_end": 90,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 91,
+        "chapter_end": 90,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Existing', 'description': 'The state of the heavens prior to the Tenth Week.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 91,
+        "chapter_end": 91,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Passed Away', 'description': 'The first heaven departs and passes away.'}"
+        ]
+      }
+    ]
+  }
+}

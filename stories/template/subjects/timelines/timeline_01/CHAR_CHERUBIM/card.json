@@ -1,0 +1,69 @@
+{
+  "id": "CHAR_CHERUBIM",
+  "name": "Cherubim",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Cherubim.",
+    "visual_anatomy": [
+      "Traits: {'species': 'Angelic beings'}",
+      "Roles: A class of angels over which Gabriel is set., A class of sleepless angels who guard the Throne of Glory."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'species': 'Angelic beings'}"
+    ],
+    "prompt_block": "Cherubim, {'species': 'Angelic beings'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'species': 'Angelic beings'}"
+        ],
+        "prompt_block": "Cherubim, {'species': 'Angelic beings'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_CHERUBIM",
+    "name": "Cherubim",
+    "type": "character",
+    "aliases": [
+      "Cherubim"
+    ],
+    "roles": [
+      "A class of angels over which Gabriel is set.",
+      "A class of sleepless angels who guard the Throne of Glory."
+    ],
+    "visual_traits": [
+      "{'species': 'Angelic beings'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1113",
+      "row_1164"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 20,
+        "chapter_end": 71,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

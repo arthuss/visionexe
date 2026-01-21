@@ -1,0 +1,70 @@
+{
+  "id": "SETENV_BURNING_FIRE",
+  "name": "Burning Fire",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Burning Fire.",
+    "visual_anatomy": [
+      "Traits: brightly burning, flaming",
+      "Roles: element of punishment"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "brightly burning",
+      "flaming"
+    ],
+    "prompt_block": "Burning Fire, brightly burning, flaming",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "brightly burning",
+          "flaming"
+        ],
+        "prompt_block": "Burning Fire, brightly burning, flaming"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_BURNING_FIRE",
+    "name": "Burning Fire",
+    "type": "set_environment",
+    "aliases": [
+      "Burning Fire"
+    ],
+    "roles": [
+      "element of punishment"
+    ],
+    "visual_traits": [
+      "brightly burning",
+      "flaming"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1201"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 108,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

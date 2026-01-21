@@ -1,16 +1,15 @@
 ## [PROP] red (ID: PROP_RED)
 **Description:** Auto-generated asset card for red.
-**Tags:** #prop
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   Traits: {}
-*   Roles: prop
+Traits: {}
+Roles: prop
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase (Default)
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   TBD
+TBD.
 
 ### 4. AI PROMPT KEYWORDS
 `{}`

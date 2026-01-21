@@ -1,0 +1,60 @@
+{
+  "id": "CHAR_ADNAR_EL",
+  "name": "'Adnar'el",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for 'Adnar'el.",
+    "visual_anatomy": [
+      "Roles: A subordinate leader who follows the 'leaders of the orders'."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "'Adnar'el, A subordinate leader who follows the 'leaders of the orders'.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "'Adnar'el, A subordinate leader who follows the 'leaders of the orders'."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ADNAR_EL",
+    "name": "'Adnar'el",
+    "type": "character",
+    "aliases": [
+      "'Adnar'el"
+    ],
+    "roles": [
+      "A subordinate leader who follows the 'leaders of the orders'."
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1175"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 82,
+        "chapter_end": 82,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

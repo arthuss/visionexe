@@ -10,12 +10,14 @@ from visionexe_paths import ensure_dir, load_story_config, resolve_path
 QUEUE_TYPE_MAP = {
     "character": "actor",
     "prop": "prop",
+    "requisite": "asset",
     "set_environment": "asset",
 }
 
 PLACEHOLDER_IDS = {
     "CHAR_",
     "PROP_",
+    "REQ_",
     "SETENV_",
     "ENV_",
     "GEOENV_",

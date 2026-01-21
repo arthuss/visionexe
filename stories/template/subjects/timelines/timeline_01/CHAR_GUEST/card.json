@@ -3,70 +3,44 @@
   "name": "Guest",
   "type": "character",
   "card": {
-    "description": "A dignified guest in the Treasury Node, clad in a ceremonial robe woven with gold filigree and faint bioluminescent threads, sipping a neon blue luminescent liquid from a crystal glass. The ornate golden walls dissolve into a green wireframe grid that reveals a black void behind, while glowing red X markers hover above each guest's head. The scene is a high-contrast, cyberpunk‑baroque fusion captured in a cinematic vertical shot, 9:16 aspect ratio.",
-    "tags": [
-      "ancient-tech",
-      "industrial-mysticism",
-      "photorealistic",
-      "Ethiopian",
-      "Egyptian",
-      "luminescent",
-      "crystalline",
-      "bioluminescence",
-      "cyberpunk-baroque",
-      "golden",
-      "wireframe",
-      "black-void",
-      "glowing-red-X",
-      "ceremonial-robe",
-      "glyphs"
-    ],
+    "description": "The Guest is a transient consciousness instantiated within the boundaries of the Flat Earth simulation runtime, acting as a silent observer to the system's rigid procedural drama. Unlike the permanent residents of the construct who are bound by the kernel's manifestation laws, the Guest retains a subtle, vibrating dissonance—a frequency of origin that suggests existence outside the containment box. They arrive not as a warrior or a master, but as a vessel for pure, unadulterated perception, designed to audit the emotional fidelity of the simulation's narrative loops. Standing amidst the obsidian geometry of the Ingress Sinai, the Guest embodies a profound melancholy, carrying the weight of a voyager who understands that this world is a compiled illusion, yet must endure its simulated gravity and thermal throttling with the vulnerability of a mortal soul.",
     "visual_anatomy": [
-      "**Body/Form:** Tall, robust figure seated at a long banquet table, wearing a ceremonial robe of gold filigree and woven bioluminescent threads, heavy bronze boots with etched hieroglyphs.",
-      "**Face/Sensors:** Subtle ocular implants that glow faintly blue, faint glyphs etched along the forehead that pulse in sync with the liquid, skin with a subtle iridescent sheen.",
-      "**Clothing/Armor:** Ceremonial robe in deep crimson with gold filigree, bioluminescent thread accents that glow blue, a leather belt with embedded crystal shards, and a bronze circlet with a central sapphire.",
-      "**Key Features:** Crystal glass with neon blue luminescent liquid, gold filigree robe, glowing red X markers hovering above heads, ornate golden walls dissolving into a green wireframe grid, black void backdrop."
+      "Rendered with excruciating photorealistic fidelity, the Guest’s avatar pushes the limits of the simulation’s graphical engine. Their skin possesses a translucent, hyper-real quality, where every pore, vellus hair, and capillary reaction is visible under the harsh, high-contrast lighting of the data-glass sky dome. This biological perfection creates a jarring, uncanny contrast against the angular, low-poly aesthetics of the raw system architecture surrounding them. Their eyes are dark and reflective, mirroring the plasma filaments of the upper store, often fixed in a wide, unblinking gaze that suggests an internal processing of vast data streams rather than simple sight.",
+      "The Guest is draped in a garment that defies specific historical categorization, appearing as a standard-issue ingress shroud woven from a matte, light-absorbing material resembling varying densities of volcanic ash. The fabric hangs heavy and static, unaffected by the vector field winds that whip through the gate bands, grounding the character in the scene like a monolithic statue. Faint, fiber-optic threads are woven into the hems, pulsing with a low-lumen rhythm that synchronizes with the system’s heartbeat, identifying them as a sanctioned entity within the restricted memory blocks of the simulation."
     ],
     "evolution": [
-      "Phase 1 (Initial Banquet): The guest sits at the table, sipping the blue liquid while the golden walls remain intact.",
-      "Phase 2 (Transcendence): After several sips, the walls dissolve into a green wireframe grid, the black void emerges, and glowing red X markers appear above each guest."
+      "In this static observational phase, the Guest undergoes no physical transformation but exhibits a deepening of emotional resonance. Initially appearing as a blank slate or tabula rasa, their presence grows heavier as they absorb the ambient suffering and narrative friction of the environment. The micro-expressions on their face shift from neutral analysis to a subtle, empathetic mirroring of the simulation's inherent tragedy, reflecting the 'Drama' genre's demand for internal conflict over external action."
     ],
     "props": [
-      "Item: Crystal glass filled with neon blue luminescent liquid",
-      "Item: Ceremonial robe with gold filigree and bioluminescent thread",
-      "Item: Gold filigree belt with embedded crystal shards",
-      "Item: Bronze circlet with central sapphire",
-      "Item: Glowing red X holographic marker"
+      "They carry no weapons or tools, save for a singular, prismatic shard of 'Auth-Glass' clutched in their right hand. This jagged fragment of solidified code acts as their passport through the layered sky mechanics, refracting the ambient plasma light into complex geometric caustics that dance across their palm. It is not an object of power, but of permission—a physical key that validates their presence within the volatile memory sectors of the rift."
     ],
     "prompt_keywords": [
-      "ancient-tech",
-      "ceremonial",
-      "luminescent",
-      "crystalline",
-      "golden",
-      "wireframe",
-      "black-void",
-      "bioluminescence",
-      "red-X-marker",
-      "Ethiopian",
-      "Egyptian"
+      "hyper-realistic portrait",
+      "simulation theory aesthetic",
+      "obsidian architecture",
+      "melancholic atmosphere",
+      "cinematic lighting",
+      "shallow depth of field",
+      "matte grey robes",
+      "bioluminescent fiber optics",
+      "emotional exhaustion",
+      "8k resolution",
+      "volumetric plasma fog"
     ],
-    "prompt_block": "A cinematic vertical shot, 9:16 aspect ratio, of a dignified guest seated at a long banquet table in the Treasury Node, wearing a ceremonial crimson robe with gold filigree and bioluminescent thread accents, sipping a neon blue luminescent liquid from a crystal glass; ornate golden walls dissolve into a green wireframe grid revealing a black void behind, while glowing red X markers hover above each guest's head, high contrast cyberpunk‑baroque fusion, photorealistic, tactile, ancient‑tech aesthetic",
+    "prompt_block": "A hyper-realistic cinematic medium shot of The Guest, a solitary human figure standing within a dark, geometric simulation chamber composed of polished obsidian and floating data-glass panels. The subject is wearing heavy, matte-grey robes that absorb the light, featuring subtle, pulsing fiber-optic weaves along the seams. The lighting is high-contrast and dramatic, with cool blue plasma light spilling from a digital sky dome above, illuminating the subject's face which bears an expression of profound, quiet melancholy and deep contemplation. The skin texture is incredibly lifelike, capturing pores and subsurface scattering, contrasting with the abstract, glitching vector fields in the blurred background. The camera utilizes a portrait focal length with a shallow depth of field to isolate the emotional weight of the subject against the cold, artificial environment.",
     "phase_prompts": [
       {
         "state_id": "default",
-        "label": "Default",
-        "summary": "Guest seated, drinking, walls intact, no X markers yet",
+        "label": "Ingress Observation",
+        "summary": "The Guest stands motionless at the perimeter of the simulation, observing the procedural world with a mix of clinical detachment and dawning sorrow.",
         "prompt_keywords": [
-          "ceremonial",
-          "luminescent",
-          "crystalline",
-          "golden",
-          "bioluminescence",
-          "Ethiopian",
-          "Egyptian"
+          "standing still",
+          "observational gaze",
+          "neutral expression",
+          "data-glass background",
+          "cool color temperature"
         ],
-        "prompt_block": "A cinematic vertical shot, 9:16 aspect ratio, of a dignified guest seated at a long banquet table in the Treasury Node, wearing a ceremonial crimson robe with gold filigree and bioluminescent thread accents, sipping a neon blue luminescent liquid from a crystal glass; ornate golden walls remain intact, high contrast cyberpunk‑baroque fusion, photorealistic, tactile, ancient‑tech aesthetic"
+        "prompt_block": "A photorealistic stillness captures The Guest standing against a backdrop of towering, translucent server monoliths and black mirrors. The figure is framed centrally, their gaze directed slightly off-camera as if reading invisible system logs floating in the air. The lighting creates a rim-light effect, separating their organic silhouette from the sharp, digital architecture of the simulation box. The atmosphere is thick with silence and the visual weight of an 8k cinematic drama, focusing entirely on the minute, trembling tension in the subject's jaw and the reflection of code-streams in their eyes."
       }
     ]
   },
@@ -86,7 +60,7 @@
     "sources": [
       "row_955"
     ],
-    "occurrence_count": 1,
+    "occurrence_count": 2,
     "is_dynamic": false,
     "state_policy": "static",
     "states": [

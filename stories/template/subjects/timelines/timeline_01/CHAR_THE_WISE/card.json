@@ -1,0 +1,74 @@
+{
+  "id": "CHAR_THE_WISE",
+  "name": "The Wise",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Wise.",
+    "visual_anatomy": [
+      "Traits: A group of people (ጠቢባን) contrasted with the foolish sinners., {'description': \"A group of people (ጠቢባን) who are given books of wisdom. They appear to be synonymous with 'the Righteous'.\"}",
+      "Roles: Those who will listen and learn the transmitted wisdom., protagonist_subgroup, unknown"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A group of people (ጠቢባን) contrasted with the foolish sinners.",
+      "{'description': \"A group of people (ጠቢባን) who are given books of wisdom. They appear to be synonymous with 'the Righteous'.\"}"
+    ],
+    "prompt_block": "The Wise, A group of people (ጠቢባን) contrasted with the foolish sinners., {'description': \"A group of people (ጠቢባን) who are given books of wisdom. They appear to be synonymous with 'the Righteous'.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A group of people (ጠቢባን) contrasted with the foolish sinners.",
+          "{'description': \"A group of people (ጠቢባን) who are given books of wisdom. They appear to be synonymous with 'the Righteous'.\"}"
+        ],
+        "prompt_block": "The Wise, A group of people (ጠቢባን) contrasted with the foolish sinners., {'description': \"A group of people (ጠቢባን) who are given books of wisdom. They appear to be synonymous with 'the Righteous'.\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_WISE",
+    "name": "The Wise",
+    "type": "character",
+    "aliases": [
+      "The Wise"
+    ],
+    "roles": [
+      "Those who will listen and learn the transmitted wisdom.",
+      "protagonist_subgroup",
+      "unknown"
+    ],
+    "visual_traits": [
+      "A group of people (ጠቢባን) contrasted with the foolish sinners.",
+      "{'description': \"A group of people (ጠቢባን) who are given books of wisdom. They appear to be synonymous with 'the Righteous'.\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1175",
+      "row_1191",
+      "row_1197"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 82,
+        "chapter_end": 104,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

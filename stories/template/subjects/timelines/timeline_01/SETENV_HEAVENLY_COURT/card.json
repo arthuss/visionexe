@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_HEAVENLY_COURT",
+  "name": "Heavenly Court",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Heavenly Court.",
+    "visual_anatomy": [
+      "Traits: {'description': \"A celestial, non-physical environment defined by the 'Glory of the Lord of Spirits' and populated by a countless angelic host.\"}",
+      "Roles: setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"A celestial, non-physical environment defined by the 'Glory of the Lord of Spirits' and populated by a countless angelic host.\"}"
+    ],
+    "prompt_block": "Heavenly Court, {'description': \"A celestial, non-physical environment defined by the 'Glory of the Lord of Spirits' and populated by a countless angelic host.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"A celestial, non-physical environment defined by the 'Glory of the Lord of Spirits' and populated by a countless angelic host.\"}"
+        ],
+        "prompt_block": "Heavenly Court, {'description': \"A celestial, non-physical environment defined by the 'Glory of the Lord of Spirits' and populated by a countless angelic host.\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_HEAVENLY_COURT",
+    "name": "Heavenly Court",
+    "type": "set_environment",
+    "aliases": [
+      "Heavenly Court"
+    ],
+    "roles": [
+      "setting"
+    ],
+    "visual_traits": [
+      "{'description': \"A celestial, non-physical environment defined by the 'Glory of the Lord of Spirits' and populated by a countless angelic host.\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1133"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 40,
+        "chapter_end": 40,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

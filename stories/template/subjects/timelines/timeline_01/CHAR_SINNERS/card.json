@@ -1,0 +1,294 @@
+{
+  "id": "CHAR_SINNERS",
+  "name": "Sinners",
+  "type": "character",
+  "card": {
+    "description": "The Sinners represent the corrupted user base of the simulation, a collective of entities who have exploited the runtime environment to hoard system resources and bypass the kernel's ethical protocols. They are the Lawless, the architects of a destabilized reality who have rewritten the surface plane's local code to favor their own accumulation of bandwidth and high-fidelity assets. Far from being chaotic, they are coldly calculated in their oppression, presenting themselves with the polished veneer of system administrators while denying the authority of the Prime Architect. Their existence is a paradox of high-resolution luxury built upon a decaying codebase; they feast on digital ambrosia and adorn themselves in data-glass finery, oblivious that their unchecked consumption is triggering a thermal throttling event that will inevitably lead to their deletion. They are the 'hard of heart,' effectively read-only memory blocks that refuse to accept the update patches sent by the Watchers.",
+    "visual_anatomy": [
+      "In the flourishing phase, the Sinners are visually distinct through their hyper-realistic rendering, contrasting sharply with the lower-fidelity existence of the righteous. Their skin possesses a flawless, almost synthetic perfection, exhibiting calculated subsurface scattering that speaks of excessive resource allocation. They are draped in garments of woven fiber-optics and liquid obsidian, materials that do not merely reflect light but seem to absorb and repurpose it. They inhabit the upper registers of the simulation box, dwelling in architectural structures of glass and chrome that pierce the lower cloud layers, physically elevating them above the common runtime.",
+      "Their movements are characterized by a cinematic smoothness, a high-frame-rate fluidity that implies a lack of friction or resistance from the world physics. However, this perfection is a façade. Close-ups reveal a coldness in the eyes—a lack of connection to the central network, a void where empathy should reside. The 'great and hard words' they speak materialize as dissonant glyphs in the air, jagged vectors of corrupted data that disturb the atmosphere around them. They hold tablets of dark glass, inscribed with the 'falsehoods' of their own making, rewriting the logs of the simulation to justify their theft.",
+      "As judgment initiates, the visual stability of the Sinners begins to degrade. The hyper-realism fractures. We see compression artifacts manifesting on their fine clothing; their movements begin to drop frames, stuttering in a tragic loop of denial. The warm, golden lighting that once bathed their banquets shifts to a harsh, diagnostic red, exposing the wireframes beneath their skin. The 'wealth' they clung to—glowing orbs of raw compute and crystallized data—begins to evaporate, leaking into the atmosphere as meaningless noise, leaving them grasping at null pointers."
+    ],
+    "evolution": [
+      "The arc of the Sinners is a descent from absolute control to total system rejection. Initially, they are the masters of the frame, occupying the center with static, symmetrical compositions that emphasize their dominance and stability. They are filmed with wide lenses that exaggerate their stature against the curvature of the dome. The camera lingers on the textures of their excess—the heavy rings, the fine fabrics—establishing the weight of their materialism.",
+      "As the narrative shifts to judgment, the cinematography destabilizes. The static frames are replaced by handheld, uneasy motion, reflecting the tremor in the simulation's foundation. The focus becomes shallow, isolating individual Sinners as their collective power dissolves. We witness the 'thermal throttling' of their avatars—sweat that looks like melting silicon, skin that greys into untextured clay. The final phase is a descent into the 'null void,' where they are stripped of all rendering, reduced to silhouette and shadow, screaming into a darkness that offers no bandwidth for their pleas."
+    ],
+    "props": [
+      "They carry 'Tablets of Falsehood,' slim panes of black glass that emit a pale, sickly light, displaying the rewritten code of the simulation which they use to enforce their unjust laws. These devices are sleek, finger-print magnets that serve as symbols of their administrative overreach.",
+      "Their 'Wealth' is depicted not just as gold, but as containers of raw luminance—sealed vials of plasma and compressed light that hum with the energy stolen from the system's grid. These artifacts are heavy, burdening their owners even as they display them with pride."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic corruption",
+      "obsidian suits",
+      "fiber-optic weave",
+      "data-glass jewelry",
+      "calculated arrogance",
+      "system exploiters",
+      "thermal throttling",
+      "compression artifacts",
+      "glitching avatars",
+      "wireframe exposure",
+      "cinematic lighting",
+      "shallow depth of field",
+      "cold luxury"
+    ],
+    "prompt_block": "A hyper-realistic cinematic shot of a group of wealthy antagonists, the Sinners, standing in a high-contrast, modern architectural space made of dark glass and polished stone. They are dressed in sharp, futuristic suits made of material that resembles liquid obsidian and woven fiber-optics. The lighting is moody and dramatic, highlighting the textures of their clothing and the cold, arrogant expressions on their faces. They hold slim tablets of black glass that emit a faint, corrupting glow. The atmosphere is heavy with the tension of a system pushed to its limit, with subtle visual cues of digital distortion beginning to manifest at the edges of the frame. 8k resolution, octane render, ray-tracing enabled.",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1: Flourishing / The Exploiters",
+        "summary": "The Sinners are at the height of their power, living in a golden age of unbridled consumption. They appear flawless, dominating the simulation with high-resolution assets and perfect rendering.",
+        "prompt_keywords": [
+          "flawless skin",
+          "golden hour lighting",
+          "opulent luxury",
+          "obsidian and gold",
+          "arrogant posture",
+          "high fidelity",
+          "sharp focus"
+        ],
+        "prompt_block": "Cinematic close-up of the Sinners in a luxurious penthouse overlooking the simulation dome. The lighting is warm and golden, emphasizing the perfection of their skin and the richness of their attire. They wear tailored suits of dark, glossy material accented with data-glass jewelry. Their expressions are smug and self-assured. The background is a sharp, detailed vista of the flat earth plane below. The image quality is pristine, resembling a high-budget drama production."
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2: Judged / Thermal Throttling",
+        "summary": "The system begins to reject the Sinners. Their reality destabilizes, manifesting as visual glitches, heat distortion, and the decay of their digital assets.",
+        "prompt_keywords": [
+          "visual glitches",
+          "digital artifacts",
+          "sweat and fear",
+          "harsh red lighting",
+          "tearing meshes",
+          "corruption",
+          "instability"
+        ],
+        "prompt_block": "Medium shot of the Sinners in a state of panic. The lighting has shifted to a harsh, diagnostic red. Their perfect suits are tearing, revealing wireframe structures beneath. The air around them is distorted by heat waves and digital noise. Their faces show fear as their reality begins to fragment. Subtle chromatic aberration and motion blur convey the instability of the simulation. The environment is dark and oppressive."
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3: Eradicated / The Null Void",
+        "summary": "The final deletion. The Sinners are stripped of all assets and cast into the darkness of the system's recycle bin.",
+        "prompt_keywords": [
+          "dissolution",
+          "darkness",
+          "wireframe silhouettes",
+          "void",
+          "fading data",
+          "blue screen glow",
+          "emptiness"
+        ],
+        "prompt_block": "A stark, high-contrast shot of the Sinners dissolving into the void. They are reduced to glowing silhouettes and wireframe meshes against a pitch-black background. Particles of data drift away from their forms like smoke. The lighting is minimal, a cold blue rim light that highlights their disintegration. They are alone in the emptiness, separated from the simulation they once ruled. The mood is tragic and final."
+      },
+      {
+        "state_id": "default",
+        "label": "Default / The Collective",
+        "summary": "The standard representation of the Sinners as the wealthy, oppressive elite of the simulation.",
+        "prompt_keywords": [
+          "wealthy elite",
+          "cold expressions",
+          "dark suits",
+          "futuristic architecture",
+          "cinematic drama",
+          "oppression"
+        ],
+        "prompt_block": "Group shot of the Sinners standing in a formation that suggests power and exclusion. They are dressed in dark, expensive-looking clothing with futuristic textures. The setting is a cold, sterile environment of glass and steel. The lighting is high-contrast, casting long shadows. They look directly at the camera with expressions of disdain. The aesthetic is hyper-realistic and serious."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_SINNERS",
+    "name": "Sinners",
+    "type": "character",
+    "aliases": [
+      "Sinners",
+      "sinners",
+      "The Impious",
+      "the impious",
+      "The Sinners",
+      "the sinners",
+      "The Unrighteous",
+      "The Wicked",
+      "the wicked"
+    ],
+    "roles": [
+      "Antagonist group",
+      "Contrasted with the righteous, their days are numbered.",
+      "antagonist",
+      "antagonist_group",
+      "character",
+      "character_group",
+      "group",
+      "group used in contrast",
+      "inhabitants of earth",
+      "wicked_group",
+      "subject_of_judgment",
+      "The disobedient addressees of the discourse, contrasted with the righteous and with obedient nature.",
+      "judged",
+      "judged_group",
+      "Antagonists",
+      "Group destined for judgment alongside the Watchers",
+      "group of sinners and oppressors"
+    ],
+    "visual_traits": [
+      "A group addressed throughout the text. Described as 'foolish' (¡ብዳን), 'stubborn of heart' (ግዙፋነ፡ልብ), 'wicked' (ረሲዓን), and those who love violence and write falsehoods. They adorn themselves with riches, consume good things, and create sin.",
+      "Souls separated into a place of tribulation awaiting judgment",
+      "do not fear the Most High",
+      "have no peace in their hearts",
+      "reside on earth",
+      "speak great and hard words",
+      "{'description': \"A group referred to as 'እለ፡ ይክሕዱ' (those who deny) and 'ኃጥኣን' (sinners). They deny the name of the Lord of Spirits. They are judged and removed from the earth.\"}",
+      "{'description': \"Those who deny the name of the Lord of Spirits. They are driven away and have no place to stand. The moon's path is darkness for them.\"}",
+      "{'description': 'A group (ኃጥƒን) who mislead people into doing evil. They are destined for tribulation.'}",
+      "{'description': 'A group defined by their sinful works. They are destined for judgment.'}",
+      "{'description': 'A group defined by their sins, who are judged and driven away.'}",
+      "{'description': 'A group for whom a law is made after the first week.'}",
+      "{'description': 'A group of people (ኃጥƒን) who are powerful and prosperous on earth. They are characterized by their deceit, falsehood, and creation of false writings.'}",
+      "{'description': 'A group whose teeth are broken by the Son of Man.'}",
+      "A composite group also referred to as 'the lawless' (ዓማፅያን).",
+      "Cursed for eternity, they eat, drink, strip men, acquire possessions, and live for good days. They mock the dead righteous, believing death is the final end for all.",
+      "Subgroups include: the wealthy who eat fine food and oppress the humble; those who commit iniquity, guile, and blasphemy; and the mighty (ኀያላን) who oppress the righteous.",
+      "Their wealth makes them appear righteous (ብዕልŒሙ፡ያመስለŒሙ፡ጻድቃነ).",
+      "unknown",
+      "{'description': \"A group of people ('ኃጥƒን') who acquire wealth unrighteously, boast of their possessions, and whose faces will be shamed.\"}",
+      "{'description': \"A group upon whom evil is gathered. They perform the 'work of their hands' which they are urged to abandon. (Ge'ez: ኃጥኣን)\"}",
+      "{'description': \"Addressed as 'you' (አንትሙ). Described metaphorically as 'hard of heart' (ይቡሳነ፡\\u200bልብ) and having 'unclean mouths' (አፍ፡\\u200bርኩሳት). They speak 'great and hard words' against God.\"}",
+      "{'description': 'A general group encompassing those who do evil, are hard of heart, and whose deeds are recorded. They are the target of judgment.'}",
+      "{'description': 'A group who are prosperous in life and oppress the righteous. Also referred to as the lawless, those who hate, pierce, devour, and kill.'}",
+      "{'description': 'A collective term for those who commit various sins: they praise falsehood (99:1), pervert justice (99:2), build houses on exploitation (99:13), remove ancient landmarks (99:14), and commit violence against their neighbors (99:15). They are characterized by their wicked actions.'}",
+      "mighty",
+      "unspecified",
+      "{'description': 'A collective group encompassing sinners, those of a double heart, oppressors, blasphemers, and the unrighteous.'}",
+      "{'description': 'A group (ረሲዓን) mentioned alongside sinners as those for whom the day of judgment will be a tribulation.'}",
+      "{'description': 'A group, synonymous with sinners, who are driven from the presence of the righteous and chosen.'}",
+      "{'description': 'Associated with a curse.'}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: On Earth', 'description': 'Living on the earth, performing sinful works.'}",
+      "{'phase': 'Phase 2: Judged', 'description': 'Destroyed from the presence of the Lord of Spirits and driven from the face of His earth, existing in a state of eternal punishment without perishing.'}",
+      "{'phase': 'Phase 1: Normal State', 'description': 'Inhabitants of the earth living under a regular cosmic order.'}",
+      "{'phase': 'Phase 2: State of Judgment', 'description': 'Their years are shortened, their thoughts go astray, and they are afflicted by evil and a destructive plague.'}",
+      "{'phase': 'Phase 1: Pre-judgment', 'description': 'Actively misleading others.'}",
+      "{'phase': 'Phase 2: Judged', 'description': 'Will face tribulation (ጽዕለተ) on the day of judgment.'}",
+      "{'phase': 'Phase 1: Present Disobedience', 'description': \"They do not show patience, do not perform the Lord's command, and transgress his law.\"}",
+      "{'phase': 'Phase 2: Future Cursed State', 'description': 'They will curse their own days, have their years of life cut short, receive eternal curses without mercy, and be cursed by the righteous.'}",
+      "{'phase': 'Phase 1: Pre-Judgment', 'description': 'The state before evil is gathered upon them.'}",
+      "{'phase': 'Phase 2: Judged', 'description': 'Evil is gathered upon them on the day of tribulation.'}",
+      "{'phase': 'Phase 1: Present Power', 'description': 'Powerful, wealthy, and oppressive.'}",
+      "{'phase': 'Phase 2: Future Destruction', 'description': 'They will be swiftly destroyed (ይትሐጐሉ), trampled like stubble (…መ፡ጼዴናታት), and dry up. Their actions will become an evil memorial (ተዝÃረ፡እ…ያት).'}",
+      "{'phase': 'Phase 1: Present Wealth', 'description': \"Possess great, unrighteously-gained wealth ('ብሩረ፡ ወወርቀ'), fill their storehouses, and boast of their power (97:8-9).\"}",
+      "{'phase': 'Phase 2: Future Judgment', 'description': \"Will be destroyed ('ይ…ውኑ'), their faces shamed ('ይትኃፈር፡ገጽŒሙ'), their deeds exposed, and their wealth will rapidly disappear from them ('ፍጡነ፡ የዓርግ፡እምµŒሙ') (97:1, 97:6, 97:10).\"}",
+      "{'phase': 'Phase 1: Living', 'description': 'Live in goodness and wealth, without affliction or murder being seen in their lives. They are considered blessed by their companions.'}",
+      "{'phase': 'Phase 2: Deceased', 'description': 'After death, their spirits are brought down to Sheol to experience evil, great tribulation, darkness, snares, and a burning flame for all generations.'}",
+      "{'phase': 'Phase 1: Flourishing', 'description': 'Violence, lawlessness, sin, and blasphemy increase on the earth.'}",
+      "{'phase': 'Phase 2: Judged', 'description': 'Uprooted, delivered into the hands of the righteous, destroyed by the sword, and cast into a pit of fire.'}",
+      "{'phase': 'Phase 3: Eradicated', 'description': 'Their works depart from the earth and they are destroyed forever.'}",
+      "{'phase': 'Phase 1: Pre-judgment', 'description': 'Existing in a state of wickedness.'}",
+      "{'phase': 'Phase 1: Mortal Power', 'description': 'Do evil and possess power.'}",
+      "{'phase': 'Phase 2: Post-Mortem Punishment', 'description': 'Their names are blotted out from the holy books, their seed is destroyed, and their spirits are killed. They cry, wail, and are in great pain within a fiery abyss. They are seen shining (v. 15) before being led into darkness.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1097",
+      "row_1115",
+      "row_1131",
+      "row_1136",
+      "row_1139",
+      "row_1140",
+      "row_1146",
+      "row_1173",
+      "row_1175",
+      "row_1186",
+      "row_1188",
+      "row_1191",
+      "row_1194",
+      "row_1197",
+      "row_1047",
+      "row_1066",
+      "row_1098",
+      "row_1143",
+      "row_1149",
+      "row_1189",
+      "row_1190",
+      "row_1193",
+      "row_1195",
+      "row_1196",
+      "row_1192",
+      "row_1055",
+      "row_1067",
+      "row_1108",
+      "row_1174",
+      "row_1184",
+      "row_1201"
+    ],
+    "occurrence_count": 49,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 1,
+        "chapter_end": 37,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: On Earth', 'description': 'Living on the earth, performing sinful works.'}",
+          "{'phase': 'Phase 2: Judged', 'description': 'Destroyed from the presence of the Lord of Spirits and driven from the face of His earth, existing in a state of eternal punishment without perishing.'}",
+          "{'phase': 'Phase 1: Present Disobedience', 'description': \"They do not show patience, do not perform the Lord's command, and transgress his law.\"}",
+          "{'phase': 'Phase 2: Future Cursed State', 'description': 'They will curse their own days, have their years of life cut short, receive eternal curses without mercy, and be cursed by the righteous.'}",
+          "{'phase': 'Phase 1: Pre-Judgment', 'description': 'The state before evil is gathered upon them.'}",
+          "{'phase': 'Phase 1: Flourishing', 'description': 'Violence, lawlessness, sin, and blasphemy increase on the earth.'}",
+          "{'phase': 'Phase 2: Judged', 'description': 'Uprooted, delivered into the hands of the righteous, destroyed by the sword, and cast into a pit of fire.'}"
+        ]
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 35,
+        "chapter_end": 72,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Normal State', 'description': 'Inhabitants of the earth living under a regular cosmic order.'}",
+          "{'phase': 'Phase 2: State of Judgment', 'description': 'Their years are shortened, their thoughts go astray, and they are afflicted by evil and a destructive plague.'}",
+          "{'phase': 'Phase 2: Judged', 'description': 'Evil is gathered upon them on the day of tribulation.'}",
+          "{'phase': 'Phase 1: Present Power', 'description': 'Powerful, wealthy, and oppressive.'}",
+          "{'phase': 'Phase 2: Future Destruction', 'description': 'They will be swiftly destroyed (ይትሐጐሉ), trampled like stubble (…መ፡ጼዴናታት), and dry up. Their actions will become an evil memorial (ተዝÃረ፡እ…ያት).'}",
+          "{'phase': 'Phase 3: Eradicated', 'description': 'Their works depart from the earth and they are destroyed forever.'}",
+          "{'phase': 'Phase 1: Pre-judgment', 'description': 'Existing in a state of wickedness.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 70,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Pre-judgment', 'description': 'Actively misleading others.'}",
+          "{'phase': 'Phase 2: Judged', 'description': 'Will face tribulation (ጽዕለተ) on the day of judgment.'}",
+          "{'phase': 'Phase 1: Present Wealth', 'description': \"Possess great, unrighteously-gained wealth ('ብሩረ፡ ወወርቀ'), fill their storehouses, and boast of their power (97:8-9).\"}",
+          "{'phase': 'Phase 2: Future Judgment', 'description': \"Will be destroyed ('ይ…ውኑ'), their faces shamed ('ይትኃፈር፡ገጽŒሙ'), their deeds exposed, and their wealth will rapidly disappear from them ('ፍጡነ፡ የዓርግ፡እምµŒሙ') (97:1, 97:6, 97:10).\"}",
+          "{'phase': 'Phase 1: Living', 'description': 'Live in goodness and wealth, without affliction or murder being seen in their lives. They are considered blessed by their companions.'}",
+          "{'phase': 'Phase 2: Deceased', 'description': 'After death, their spirits are brought down to Sheol to experience evil, great tribulation, darkness, snares, and a burning flame for all generations.'}",
+          "{'phase': 'Phase 1: Mortal Power', 'description': 'Do evil and possess power.'}",
+          "{'phase': 'Phase 2: Post-Mortem Punishment', 'description': 'Their names are blotted out from the holy books, their seed is destroyed, and their spirits are killed. They cry, wail, and are in great pain within a fiery abyss. They are seen shining (v. 15) before being led into darkness.'}"
+        ]
+      },
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,31 +1,20 @@
 ## [SET_ENVIRONMENT] red (ID: SETENV_RED)
-**Description:** A towering, translucent wall of crystalline lattice, etched with ancient Ethiopian and Egyptian glyphs, emits a continuous, searing red laser that slices through the air like a living blade. The wall's surface is a complex network of interlocking quartz prisms that refract the laser into a shimmering, almost liquid ribbon of light. Embedded within the lattice are micro-emitters that pulse in sync with the glyphs, creating a rhythmic glow that hints at forgotten rituals. The structure is anchored by heavy, rusted steel ribs, giving it an industrial, grounded feel, while the surrounding environment—whether a forest, mountain range, or celestial sky—reacts to the laser with glowing blue wireframes, sparks of binary code, and swirling heat distortion. This asset embodies the fusion of ancient mysticism and incomprehensible technology, serving as a dramatic focal point in cinematic scenes that demand a serious, photorealistic tone.
-**Tags:** #laser-wall #ancient-tech #Ethiopian #Egyptian #crystalline #glyphs #industrial-mysticism #photorealistic #red-light
+**Description:** Auto-generated asset card for red.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Translucent crystalline lattice panel, 30m tall, 5m wide, embedded with quartz prisms and rusted steel ribs. The lattice forms a honeycomb pattern with variable cell sizes, allowing light diffusion and structural integrity.
-*   **Face/Sensors:** Array of micro-emitters along the lattice edges, each housing a miniature laser diode. Embedded sensors detect ambient temperature and pressure, adjusting laser intensity accordingly. Glyphs glow faintly when the laser is active, acting as visual feedback.
-*   **Clothing/Armor:** Not applicable; the wall itself is the protective structure. The surrounding environment may include energy shields or reflective surfaces that interact with the laser.
-*   **Key Features:** Continuous red laser beam (λ≈650nm) with adjustable intensity; crystalline lattice refracts and amplifies light; ancient glyphs embedded in quartz; micro-emitters pulse in rhythm; rusted steel ribs provide industrial grounding; heat distortion and blue binary code sparks at impact points.
+TBD.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Construction): The wall is assembled from quarried quartz, cut into hexagonal prisms and arranged into a honeycomb lattice. Steel ribs are welded to the base, and micro-emitters are installed along the edges. Glyphs are etched into the quartz using laser engraving, then sealed with a protective resin.
-*   Phase 2 (Activation): Power is supplied via a hidden conduit. Micro-emitters ignite, projecting a steady red laser that cuts through the air. Glyphs illuminate in sync, creating a rhythmic pattern. The crystalline lattice refracts the beam, forming a liquid ribbon of light. The wall reacts to environmental changes, adjusting laser intensity and emitting heat distortion.
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Red Laser Beam (continuous, 650nm, 30m length)
-*   Item: Crystalline Glyphs (etched quartz, glowing when active)
-*   Item: Energy Shield (gold hexagonal grid, interacts with laser)
-
-### 4. AI PROMPT KEYWORDS
-`red laser`, `crystalline lattice`, `ancient glyphs`, `Ethiopian motifs`, `Egyptian motifs`, `industrial ribs`, `heat distortion`, `photorealistic`, `mystical technology`
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
-A towering translucent crystalline wall, 30 meters tall and 5 meters wide, etched with ancient Ethiopian and Egyptian glyphs, emits a continuous searing red laser that slices through the air like a living blade. The wall's surface is a complex network of interlocking quartz prisms refracting the laser into a shimmering liquid ribbon of light. Embedded micro-emitters pulse in sync with the glyphs, creating rhythmic glow. Rusted steel ribs anchor the structure, giving it an industrial, grounded feel. The surrounding environment reacts with glowing blue wireframes, sparks of binary code, and swirling heat distortion, all rendered in photorealistic detail, cinematic tone, serious mood, 8k resolution, 9:16 aspect ratio.
+red,
 
 ### 6. PHASE PROMPTS
-*   **Default:** The red laser wall in its fully activated, photorealistic state, interacting with the environment.
-    Prompt: A towering translucent crystalline wall, 30 meters tall and 5 meters wide, etched with ancient Ethiopian and Egyptian glyphs, emits a continuous searing red laser that slices through the air like a living blade. The wall's surface is a complex network of interlocking quartz prisms refracting the laser into a shimmering liquid ribbon of light. Embedded micro-emitters pulse in sync with the glyphs, creating rhythmic glow. Rusted steel ribs anchor the structure, giving it an industrial, grounded feel. The surrounding environment reacts with glowing blue wireframes, sparks of binary code, and swirling heat distortion, all rendered in photorealistic detail, cinematic tone, serious mood, 8k resolution, 9:16 aspect ratio.
-    Keywords: red laser, crystalline lattice, ancient glyphs, Ethiopian motifs, Egyptian motifs, industrial ribs, heat distortion, photorealistic
+*   **Default:**
+    Prompt: red,
 
 ---

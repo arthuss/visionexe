@@ -3,60 +3,45 @@
   "name": "Spirit of the Sky",
   "type": "character",
   "card": {
-    "description": "The Spirit of the Sky is an ethereal, luminous entity that manifests as a translucent, shimmering form, adorned with intricate crystalline glyphs reminiscent of ancient Ethiopian and Egyptian motifs. Its presence is accompanied by a faint, resonant hum and a subtle glow that bathes the surrounding environment in a soft, azure light. Though intangible, the spirit's form is defined by flowing, feather‑like tendrils that ripple with the wind, and its eyes are luminous orbs that reflect the sky's shifting colors.",
-    "tags": [
-      "intangible",
-      "luminous",
-      "ancient-tech",
-      "industrial mysticism",
-      "photorealistic",
-      "Ethiopian",
-      "Egyptian",
-      "crystalline",
-      "glyphs",
-      "celestial"
-    ],
+    "description": "Within the bounded system of the flat-earth runtime, the Spirit of the Sky functions not as a biological entity, but as a high-level kernel manifestation governing the atmospheric layers and the vector fields of the upper store. It appears as a sentient anomaly within the sky dome's logic, a conscious subroutine detached from the standard weather rendering cycles to interface directly with authorized voyagers like Henoch. It carries the weight of the system’s constraints, an intangible overseer that embodies the vast, cold data streams of the firmament. Its presence is marked by a sudden drop in local thermal throttling and a stabilization of the surrounding light transport, suggesting it draws directly from the simulation’s core power reserves to project its avatar.",
     "visual_anatomy": [
-      "**Body/Form:** Translucent, semi‑transparent body composed of layered, iridescent membranes that shift in hue from cobalt to indigo, with subtle crystalline lattice structures embedded within, resembling ancient stone carvings.",
-      "**Face/Sensors:** Eyes are luminous orbs of pure white light, surrounded by faint, pulsing glyphs that act as sensory nodes, projecting a soft, holographic interface of star maps.",
-      "**Clothing/Armor:** No conventional clothing; instead, a series of floating, crystalline sigils orbit the spirit, forming a protective aura that refracts light into prismatic patterns.",
-      "**Key Features:** Feather‑like tendrils that extend from the core, each ending in a crystalline tip that emits a faint bioluminescent glow; a faint hum emanates from the core, resonating with the ambient atmosphere; the spirit's presence subtly lowers local temperature, creating a chill."
+      "The entity possesses no fixed polygonal mesh; instead, it renders as a concentrated volume of suspended data particles and high-energy plasma filaments that approximate a humanoid silhouette. This luminous form fluctuates in density, occasionally revealing the wireframe grid of the sky dome behind it through its translucent torso. The edges of its form are defined by heat lensing effects and chromatic aberration, mimicking the visual distortion of a corrupted display or a high-pressure energy vent.",
+      "Internally, the spirit glows with the cool, clinical cyan and deep violet hues typical of the gate band’s fiber optic cabling. There is no skin or fabric, only layers of shifting light and flowing code glyphs—Ge'ez characters rendered in raw light—that cascade down its form like rain on a windowpane. These glyphs represent the real-time telemetry of the atmospheric strata it controls, giving the impression that the entity is literally composed of the laws of physics it enforces.",
+      "Its 'face' is a mask of polished data glass, devoid of human features but capable of conveying profound gravity through subtle shifts in opacity and internal refraction. When it speaks or communicates, the surrounding air ripples with vector field distortions, and the ambient light in the scene dims to prioritize the entity’s emissive signature, creating a natural, high-contrast spotlight effect consistent with the production's dramatic lighting protocols."
     ],
     "evolution": [
-      "Phase 1 (Default): Initial manifestation – translucent body, crystalline glyphs, luminous eyes, feather‑like tendrils.",
-      "Phase 2 (Ethereal Ascension): Post‑manifestation – intensified glyphs, increased luminescence, tendrils become more fluid, subtle aurora effect."
+      "In its default state during the Chapter 15 sequence, the Spirit remains largely stationary, hovering slightly above the obsidian-like surface plane or suspended against the backdrop of the upper store. Its luminosity pulses in rhythm with the system's clock cycle, appearing stable yet constantly refreshing.",
+      "As the interaction deepens, the particle density of the spirit may tighten, resolving into a sharper, more hyper-realistic focus to denote the seriousness of the transmission, before dissipating back into a loose cloud of atmospheric data when its function is complete."
     ],
     "props": [
-      "Item: Radiant Glyphs",
-      "Item: Aetheric Resonator"
+      "The entity requires no handheld props, as it effectively wields the environment itself. However, it is visually tethered to the 'Sky Dome'—the massive, curved display surface that acts as the ceiling of the world. Faint, glowing tethers or data-streams may be seen connecting the spirit's dorsal region to the zenith of the dome, reinforcing its status as a tethered system process."
     ],
     "prompt_keywords": [
-      "intangible luminous entity",
-      "ancient Ethiopian motifs",
-      "crystalline glyphs",
-      "photorealistic",
-      "cinematic",
-      "feather‑like tendrils",
-      "bioluminescent glow",
-      "aurora effect"
+      "volumetric data ghost",
+      "luminescent system daemon",
+      "fiber optic nervous system",
+      "Ge'ez glyphs hologram",
+      "holographic humanoid",
+      "atmospheric vector field",
+      "cyan plasma glow",
+      "obsidian reflection",
+      "translucent data glass",
+      "simulation artifact",
+      "heat lensing distortion",
+      "cinematic depth of field"
     ],
-    "prompt_block": "A photorealistic cinematic depiction of the Spirit of the Sky, an intangible luminous entity manifesting as a translucent, semi‑transparent form with iridescent membranes shifting from cobalt to indigo, embedded with crystalline lattice structures echoing ancient Ethiopian and Egyptian motifs; luminous white orbs for eyes surrounded by pulsing glyphs projecting star maps; feather‑like tendrils ending in crystalline tips emitting bioluminescent glow; a faint hum and subtle aurora effect, all bathed in soft azure light, with a subtle temperature drop, rendered with grounded realism and industrial mysticism.",
+    "prompt_block": "A hyper-realistic, cinematic wide shot of the Spirit of the Sky, manifested as a translucent, humanoid volume of cyan plasma light and floating data particles against the dark, starry grid of the simulation's sky dome. The entity has no solid skin, only a dense cloud of glowing fiber-optic filaments and cascading Ge'ez glyphs defining its shape. It hovers elegantly above a reflective obsidian ground plane. The lighting is moody and dramatic, with the spirit acting as the primary light source, casting long, sharp shadows. The image quality is pristine, 8k resolution, resembling a high-budget sci-fi drama, with subtle chromatic aberration and heat lensing around the edges of the spirit to suggest raw energy.",
     "phase_prompts": [
       {
         "state_id": "default",
-        "label": "Default",
-        "summary": "Initial manifestation of the Spirit of the Sky",
+        "label": "Default Manifestation",
+        "summary": "The Spirit hovers as a stable, luminous projection of atmospheric code, interfacing with the environment.",
         "prompt_keywords": [
-          "intangible luminous entity",
-          "ancient Ethiopian motifs",
-          "crystalline glyphs",
-          "photorealistic",
-          "cinematic",
-          "feather‑like tendrils",
-          "bioluminescent glow",
-          "aurora effect"
+          "stable projection",
+          "cyan glow",
+          "data particle cloud"
         ],
-        "prompt_block": "A photorealistic cinematic depiction of the Spirit of the Sky, an intangible luminous entity manifesting as a translucent, semi‑transparent form with iridescent membranes shifting from cobalt to indigo, embedded with crystalline lattice structures echoing ancient Ethiopian and Egyptian motifs; luminous white orbs for eyes surrounded by pulsing glyphs projecting star maps; feather‑like tendrils ending in crystalline tips emitting bioluminescent glow; a faint hum and subtle aurora effect, all bathed in soft azure light, with a subtle temperature drop, rendered with grounded realism and industrial mysticism."
+        "prompt_block": "A hyper-realistic medium shot of the Spirit of the Sky, a glowing, intangible humanoid form composed of blue data particles and vertical light streaks. The figure is translucent, revealing the dark, geometric structure of the sky dome behind it. Its face is a smooth pane of dark data glass reflecting the scene. The atmosphere is cold and digital, with a sharp focus on the texture of the light particles. Rendered in Octane with a 50mm lens, ISO 100, cinematic color grading."
       }
     ]
   },
@@ -79,7 +64,7 @@
     "sources": [
       "row_126"
     ],
-    "occurrence_count": 1,
+    "occurrence_count": 2,
     "is_dynamic": false,
     "state_policy": "static",
     "states": [

@@ -1,0 +1,62 @@
+{
+  "id": "SCENE_ENOCH_S_PROCLAMATION",
+  "name": "Enoch's Proclamation",
+  "type": "scene",
+  "card": {
+    "description": "Auto-generated asset card for Enoch's Proclamation.",
+    "visual_anatomy": [
+      "Roles: Before the Lord of Spirits, Earth"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Enoch's Proclamation, Before the Lord of Spirits, Earth",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Enoch's Proclamation, Before the Lord of Spirits, Earth"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_ENOCH_S_PROCLAMATION",
+    "name": "Enoch's Proclamation",
+    "type": "scene",
+    "aliases": [
+      "Enoch's Proclamation"
+    ],
+    "roles": [
+      "Before the Lord of Spirits",
+      "Earth"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1130",
+      "row_1185"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 37,
+        "chapter_end": 92,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

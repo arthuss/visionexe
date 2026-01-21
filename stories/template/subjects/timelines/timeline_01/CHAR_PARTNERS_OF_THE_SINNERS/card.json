@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_PARTNERS_OF_THE_SINNERS",
+  "name": "partners of the sinners",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for partners of the sinners.",
+    "visual_anatomy": [
+      "Traits: {'description': \"Those who are partners ('ሱቱፋነ') with the sinners.\"}",
+      "Roles: accomplice"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"Those who are partners ('ሱቱፋነ') with the sinners.\"}"
+    ],
+    "prompt_block": "partners of the sinners, {'description': \"Those who are partners ('ሱቱፋነ') with the sinners.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"Those who are partners ('ሱቱፋነ') with the sinners.\"}"
+        ],
+        "prompt_block": "partners of the sinners, {'description': \"Those who are partners ('ሱቱፋነ') with the sinners.\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_PARTNERS_OF_THE_SINNERS",
+    "name": "partners of the sinners",
+    "type": "character",
+    "aliases": [
+      "partners of the sinners"
+    ],
+    "roles": [
+      "accomplice"
+    ],
+    "visual_traits": [
+      "{'description': \"Those who are partners ('ሱቱፋነ') with the sinners.\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1190"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 97,
+        "chapter_end": 97,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

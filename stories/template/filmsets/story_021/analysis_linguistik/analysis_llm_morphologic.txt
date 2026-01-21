@@ -1,5 +1,0 @@
-An error occurred during the analysis. The provided input defines tokens as entire verses, which is incompatible with the standard definition of a token for morphological analysis (typically a word). The instruction "Use the provided tokens as-is" directly conflicts with the goal of producing a "matrix of options for each token" and the specified `tokenization_policy: "whitespace"`.
-
-A morphological analysis requires breaking the text into its smallest meaningful units (words or punctuation), not analyzing entire sentences as single entities. To proceed, the input text must be re-tokenized according to the "whitespace" policy, where each word and punctuation mark is treated as a separate token.
-
-Because the input structure is fundamentally flawed for the requested task, a valid morphological analysis cannot be generated. Please provide the input text pre-tokenized by word.

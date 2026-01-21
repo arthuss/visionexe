@@ -1,0 +1,67 @@
+{
+  "id": "PROP_EASTERN_WIND_B_AY",
+  "name": "Eastern Wind (Ṣ́əbāḥay)",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Eastern Wind (Ṣ́əbāḥay).",
+    "visual_anatomy": [
+      "Traits: The first wind from the eastern gates; brings desolation, heat, and drought.",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "The first wind from the eastern gates; brings desolation, heat, and drought."
+    ],
+    "prompt_block": "Eastern Wind (Ṣ́əbāḥay), The first wind from the eastern gates; brings desolation, heat, and drought.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "The first wind from the eastern gates; brings desolation, heat, and drought."
+        ],
+        "prompt_block": "Eastern Wind (Ṣ́əbāḥay), The first wind from the eastern gates; brings desolation, heat, and drought."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_EASTERN_WIND_B_AY",
+    "name": "Eastern Wind (Ṣ́əbāḥay)",
+    "type": "prop",
+    "aliases": [
+      "Eastern Wind (Ṣ́əbāḥay)"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "The first wind from the eastern gates; brings desolation, heat, and drought."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1169"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 76,
+        "chapter_end": 76,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

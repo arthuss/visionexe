@@ -1,11 +1,10 @@
 ## [STATE] world :: Phase 3
 **State ID:** phase_03
-**Chapters:** 85 - 108
-**Notes:** unknown
+**Chapters:** 75 - 108
+**Notes:** {'phase': 'Phase 2: Transformed', 'description': "The world after the introduction of forbidden knowledge, described as a 'transformation of the world'.", 'source_text_ref': 'ተውላጠ፡\u200bዓለም'}
 
-**Phase Summary:** World dissolves into wireframe mesh and void.
-**Phase Keywords:** wireframe, void, gold glyphs, holographic symbols, ancient-tech, photorealistic, 9:16
+**Phase Keywords:** cosmic expanse, unknown, vast, {'description': 'The entire world or age.', 'source_text_ref': 'ዓለም'}, {'description': 'The ordered cosmos as a whole, which is circled by a great star and in which the chariots run.', 'type': 'cosmos'}
 **Phase Prompt:**
-8k, 9:16 cinematic shot of the final phase: the forest collapses into a blue wireframe mesh that dissolves into a black void, leaving only floating gold Geʼez glyphs and holographic symbols orbiting the remnants, rendered with ancient Ethiopian motifs fused with incomprehensible high‑tech hardware, tactile textures, and dramatic lighting.
+world, cosmic expanse, unknown, vast, {'description': 'The entire world or age.', 'source_text_ref': 'ዓለም'}, {'description': 'The ordered cosmos as a whole, which is circled by a great star and in which the chariots run.', 'type': 'cosmos'}, Phase 3
 
 ---

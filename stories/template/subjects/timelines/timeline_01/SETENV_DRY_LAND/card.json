@@ -1,0 +1,87 @@
+{
+  "id": "SETENV_DRY_LAND",
+  "name": "Dry Land",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Dry Land.",
+    "visual_anatomy": [
+      "Traits: The solid ground of the Earth., {'description': \"The dry land ('የብስ'), mentioned as a place where sinners are found.\"}, {'description': 'The earthly realm upon which the wicked walk and establish their power.'}, {'description': 'The inhabited surface of the earth.'}, {'description': 'The terrestrial world inhabited by humans and kings.'}",
+      "Roles: part_of_environment, setting, setting_element"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "The solid ground of the Earth.",
+      "{'description': \"The dry land ('የብስ'), mentioned as a place where sinners are found.\"}",
+      "{'description': 'The earthly realm upon which the wicked walk and establish their power.'}",
+      "{'description': 'The inhabited surface of the earth.'}",
+      "{'description': 'The terrestrial world inhabited by humans and kings.'}"
+    ],
+    "prompt_block": "Dry Land, The solid ground of the Earth., {'description': \"The dry land ('የብስ'), mentioned as a place where sinners are found.\"}, {'description': 'The earthly realm upon which the wicked walk and establish their power.'}, {'description': 'The inhabited surface of the earth.'}, {'description': 'The terrestrial world inhabited by humans and kings.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "The solid ground of the Earth.",
+          "{'description': \"The dry land ('የብስ'), mentioned as a place where sinners are found.\"}",
+          "{'description': 'The earthly realm upon which the wicked walk and establish their power.'}",
+          "{'description': 'The inhabited surface of the earth.'}",
+          "{'description': 'The terrestrial world inhabited by humans and kings.'}"
+        ],
+        "prompt_block": "Dry Land, The solid ground of the Earth., {'description': \"The dry land ('የብስ'), mentioned as a place where sinners are found.\"}, {'description': 'The earthly realm upon which the wicked walk and establish their power.'}, {'description': 'The inhabited surface of the earth.'}, {'description': 'The terrestrial world inhabited by humans and kings.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_DRY_LAND",
+    "name": "Dry Land",
+    "type": "set_environment",
+    "aliases": [
+      "Dry Land",
+      "dry land"
+    ],
+    "roles": [
+      "part_of_environment",
+      "setting",
+      "setting_element"
+    ],
+    "visual_traits": [
+      "The solid ground of the Earth.",
+      "{'description': \"The dry land ('የብስ'), mentioned as a place where sinners are found.\"}",
+      "{'description': 'The earthly realm upon which the wicked walk and establish their power.'}",
+      "{'description': 'The inhabited surface of the earth.'}",
+      "{'description': 'The terrestrial world inhabited by humans and kings.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1140",
+      "row_1146",
+      "row_1147",
+      "row_1148",
+      "row_1169",
+      "row_1190"
+    ],
+    "occurrence_count": 12,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 46,
+        "chapter_end": 97,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

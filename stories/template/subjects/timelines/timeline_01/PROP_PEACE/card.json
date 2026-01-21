@@ -1,0 +1,72 @@
+{
+  "id": "PROP_PEACE",
+  "name": "Peace",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Peace.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A state of being for the righteous with the Lord of the World.', 'material': 'intangible', 'color': 'unknown', 'size': 'unknown'}, {'description': 'An abstract concept personified as a partner to Righteousness.'}",
+      "Roles: scene_prop, unknown"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A state of being for the righteous with the Lord of the World.', 'material': 'intangible', 'color': 'unknown', 'size': 'unknown'}",
+      "{'description': 'An abstract concept personified as a partner to Righteousness.'}"
+    ],
+    "prompt_block": "Peace, {'description': 'A state of being for the righteous with the Lord of the World.', 'material': 'intangible', 'color': 'unknown', 'size': 'unknown'}, {'description': 'An abstract concept personified as a partner to Righteousness.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A state of being for the righteous with the Lord of the World.', 'material': 'intangible', 'color': 'unknown', 'size': 'unknown'}",
+          "{'description': 'An abstract concept personified as a partner to Righteousness.'}"
+        ],
+        "prompt_block": "Peace, {'description': 'A state of being for the righteous with the Lord of the World.', 'material': 'intangible', 'color': 'unknown', 'size': 'unknown'}, {'description': 'An abstract concept personified as a partner to Righteousness.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_PEACE",
+    "name": "Peace",
+    "type": "prop",
+    "aliases": [
+      "Peace"
+    ],
+    "roles": [
+      "scene_prop",
+      "unknown"
+    ],
+    "visual_traits": [
+      "{'description': 'A state of being for the righteous with the Lord of the World.', 'material': 'intangible', 'color': 'unknown', 'size': 'unknown'}",
+      "{'description': 'An abstract concept personified as a partner to Righteousness.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1103",
+      "row_1151"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 11,
+        "chapter_end": 58,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

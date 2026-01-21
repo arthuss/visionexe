@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_ARBOREAL_SETTING",
+  "name": "Arboreal Setting",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Arboreal Setting.",
+    "visual_anatomy": [
+      "Traits: A setting defined by the presence of trees in different states of foliage (withered vs. evergreen).",
+      "Roles: environment"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A setting defined by the presence of trees in different states of foliage (withered vs. evergreen)."
+    ],
+    "prompt_block": "Arboreal Setting, A setting defined by the presence of trees in different states of foliage (withered vs. evergreen).",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A setting defined by the presence of trees in different states of foliage (withered vs. evergreen)."
+        ],
+        "prompt_block": "Arboreal Setting, A setting defined by the presence of trees in different states of foliage (withered vs. evergreen)."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_ARBOREAL_SETTING",
+    "name": "Arboreal Setting",
+    "type": "set_environment",
+    "aliases": [
+      "Arboreal Setting"
+    ],
+    "roles": [
+      "environment"
+    ],
+    "visual_traits": [
+      "A setting defined by the presence of trees in different states of foliage (withered vs. evergreen)."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1059"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 3,
+        "chapter_end": 3,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

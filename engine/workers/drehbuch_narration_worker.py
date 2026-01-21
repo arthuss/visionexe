@@ -7,6 +7,7 @@ import re
 from pathlib import Path
 
 from rag_utils import embed_texts, load_config, request_json, qdrant_headers
+from vertex_gemini import call_vertex_gemini
 from visionexe_paths import load_engine_config, load_story_config, resolve_repo_root, resolve_path
 
 
@@ -41,6 +42,30 @@ def resolve_llm_profiles() -> tuple[dict, str]:
     return profiles, engine_config.get("default_llm_profile") or ""
 
 
+def load_profile_value(value, repo_root: Path, story_root: Path) -> str:
+    if not value:
+        return ""
+    if isinstance(value, list):
+        chunks = [load_profile_value(item, repo_root, story_root) for item in value]
+        return "\n\n".join([chunk for chunk in chunks if chunk]).strip()
+    if isinstance(value, dict):
+        return json.dumps(value, ensure_ascii=False, indent=2)
+    raw = str(value).strip()
+    if not raw:
+        return ""
+    candidate = Path(raw)
+    if not candidate.is_absolute():
+        repo_candidate = repo_root / candidate
+        story_candidate = story_root / candidate
+        if repo_candidate.exists():
+            candidate = repo_candidate
+        elif story_candidate.exists():
+            candidate = story_candidate
+    if candidate.exists():
+        return read_text(candidate)
+    return raw
+
+
 def openai_compat_chat(profile: dict, prompt: str, temperature: float) -> str:
     base_url = (profile.get("base_url") or "").rstrip("/")
     if base_url.endswith("/v1"):
@@ -52,6 +77,17 @@ def openai_compat_chat(profile: dict, prompt: str, temperature: float) -> str:
         "messages": [{"role": "user", "content": prompt}],
         "temperature": temperature,
     }
+    extra_body = profile.get("extra_body") or profile.get("request") or {}
+    if not isinstance(extra_body, dict):
+        extra_body = {}
+    thinking = profile.get("thinking")
+    if thinking and "thinking" not in extra_body:
+        extra_body["thinking"] = thinking
+    reasoning = profile.get("reasoning")
+    if reasoning and "reasoning" not in extra_body:
+        extra_body["reasoning"] = reasoning
+    if extra_body:
+        payload.update(extra_body)
     headers = {}
     api_key = profile.get("api_key") or ""
     if api_key:
@@ -167,12 +203,18 @@ def main() -> int:
     parser.add_argument("--story-root", help="Story root (defaults to engine_config default_story_root).")
     parser.add_argument("--story-config", help="Path to story_config.json (overrides story-root).")
     parser.add_argument("--prompt-path", default=str(DEFAULT_PROMPT_PATH), help="Path to narration prompt file.")
-    parser.add_argument("--genre-profile", default="drama", help="Genre profile label.")
+    parser.add_argument("--genre-profile", default="", help="Genre profile label or path.")
+    parser.add_argument("--style-profile", default="", help="Style profile label or path.")
     parser.add_argument("--worldview-profile", default="", help="Worldview profile label.")
-    parser.add_argument("--tone-dials", default="pacing=slow;dialogue_density=low;darkness=dark", help="Tone dials.")
+    parser.add_argument("--tone-dials", default="", help="Tone dials.")
+    parser.add_argument("--use-lmstudio", action="store_true", help="Force LM Studio profile (lmstudio_local).")
     parser.add_argument("--llm-profile", default="", help="LLM profile name (engine/config/llm_profiles.json).")
     parser.add_argument("--model", default="", help="Override model name.")
     parser.add_argument("--temperature", type=float, default=0.4, help="LLM temperature.")
+    parser.add_argument("--use-vertex", action="store_true", help="Use Vertex AI Gemini via ADC.")
+    parser.add_argument("--vertex-project", help="Override Vertex project ID.")
+    parser.add_argument("--vertex-location", help="Override Vertex location (default: us-central1).")
+    parser.add_argument("--vertex-model", help="Override Vertex model name (e.g. gemini-2.5-pro).")
     parser.add_argument("--use-rag", action="store_true", help="Attach RAG context per chapter.")
     parser.add_argument("--rag-config", default="", help="RAG config path.")
     parser.add_argument("--rag-query", action="append", help="Custom RAG query (repeatable).")
@@ -188,19 +230,57 @@ def main() -> int:
     timeline_profile_path = story_config.get("timeline_profiles", {}).get(timeline_id)
     timeline_profile_path = resolve_path(timeline_profile_path, repo_root) if timeline_profile_path else None
     timeline_profile = read_text(timeline_profile_path) if timeline_profile_path else ""
+    mechanism_profile = load_profile_value(story_config.get("mechanism_profile"), repo_root, story_root)
 
     prompt_templates = extract_prompt_templates(Path(args.prompt_path))
     if len(prompt_templates) < 3:
         raise SystemExit("Prompt file must contain at least 3 fenced code blocks.")
     prompt_blueprint, prompt_draft, prompt_polish = prompt_templates[:3]
 
+    use_vertex = bool(args.use_vertex)
+    vertex_project = args.vertex_project
+    vertex_location = args.vertex_location
+    vertex_model = args.vertex_model or (args.model if use_vertex else "")
+
     profiles, default_profile = resolve_llm_profiles()
-    llm_profile_name = args.llm_profile or ("lmstudio_local" if "lmstudio_local" in profiles else default_profile)
-    llm_profile = profiles.get(llm_profile_name)
-    if not llm_profile:
-        raise SystemExit(f"LLM profile not found: {llm_profile_name}")
-    if args.model:
-        llm_profile = dict(llm_profile, model=args.model)
+    llm_profile = None
+    if not use_vertex:
+        if args.use_lmstudio:
+            llm_profile_name = args.llm_profile or (
+                "lmstudio_local" if "lmstudio_local" in profiles else default_profile
+            )
+        else:
+            llm_profile_name = args.llm_profile or default_profile
+        llm_profile = profiles.get(llm_profile_name)
+        if not llm_profile:
+            raise SystemExit(f"LLM profile not found: {llm_profile_name}")
+        if args.model:
+            llm_profile = dict(llm_profile, model=args.model)
+    else:
+        print("[narration] Backend: Vertex AI (billing: Vertex/GenAI credits).")
+
+    def run_llm(prompt: str, stage: str) -> str:
+        if use_vertex:
+            response = call_vertex_gemini(
+                prompt,
+                model=vertex_model or None,
+                project=vertex_project,
+                location=vertex_location,
+                temperature=args.temperature,
+                log_fn=print,
+            )
+            if not response:
+                raise SystemExit(f"Vertex LLM failed for {stage}.")
+            return response
+        return openai_compat_chat(llm_profile, prompt, args.temperature)
+
+    default_genre = load_profile_value(story_config.get("genre_profile"), repo_root, story_root)
+    default_style = load_profile_value(story_config.get("style_profiles"), repo_root, story_root)
+    default_tone = str(story_config.get("tone_dials") or "").strip()
+
+    genre_profile = load_profile_value(args.genre_profile, repo_root, story_root) or default_genre or "drama"
+    style_profile = load_profile_value(args.style_profile, repo_root, story_root) or default_style
+    tone_dials = args.tone_dials or default_tone or "pacing=slow;dialogue_density=low;darkness=dark"
 
     start = args.chapter or args.start
     end = args.chapter or args.end or start
@@ -232,6 +312,10 @@ def main() -> int:
         worldview_profile = args.worldview_profile or timeline_id
         if timeline_profile:
             worldview_profile = f"{worldview_profile}\n{timeline_profile}"
+        if mechanism_profile:
+            worldview_profile = f"{worldview_profile}\n[MECHANISM_PROFILE]\n{mechanism_profile}"
+        if style_profile:
+            worldview_profile = f"{worldview_profile}\n[STYLE_PROFILE]\n{style_profile}"
 
         rag_context = ""
         if args.use_rag:
@@ -241,33 +325,33 @@ def main() -> int:
 
         prompt1 = prompt_blueprint.format(
             CHAPTER_NUM=str(chapter_num),
-            GENRE_PROFILE=args.genre_profile,
+            GENRE_PROFILE=genre_profile,
             WORLDVIEW_PROFILE=worldview_profile,
-            TONE_DIALS=args.tone_dials,
+            TONE_DIALS=tone_dials,
             RAW_TEXT=raw_text,
             ANALYSIS_TEXT=analysis_text,
         )
-        blueprint = openai_compat_chat(llm_profile, prompt1, args.temperature)
+        blueprint = run_llm(prompt1, "blueprint")
 
         prompt2 = prompt_draft.format(
             CHAPTER_NUM=str(chapter_num),
             SCENE_PLAN_FROM_PROMPT_1=blueprint,
-            GENRE_PROFILE=args.genre_profile,
+            GENRE_PROFILE=genre_profile,
             WORLDVIEW_PROFILE=worldview_profile,
-            TONE_DIALS=args.tone_dials,
+            TONE_DIALS=tone_dials,
             RAW_TEXT=raw_text,
             ANALYSIS_TEXT=analysis_text,
         )
-        draft_script = openai_compat_chat(llm_profile, prompt2, args.temperature)
+        draft_script = run_llm(prompt2, "draft")
 
         prompt3 = prompt_polish.format(
             DRAFT_SCRIPT_TEXT=draft_script,
-            GENRE_PROFILE=args.genre_profile,
+            GENRE_PROFILE=genre_profile,
             WORLDVIEW_PROFILE=worldview_profile,
-            TONE_DIALS=args.tone_dials,
+            TONE_DIALS=tone_dials,
             RAW_TEXT=raw_text,
         )
-        final_script = openai_compat_chat(llm_profile, prompt3, args.temperature)
+        final_script = run_llm(prompt3, "polish")
 
         output_path = chapter_path / "DREHBUCH_NARRATIV.md"
         output_path.write_text(final_script.strip() + "\n", encoding="utf-8")

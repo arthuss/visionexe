@@ -1,100 +1,93 @@
-<think>用户现在需要输出最终处理后的剧本文本。首先，回顾之前的分析，已经将18个clip转化为符合Spec Script格式的场景列表，然后按照要求输出。
+AUFBLENDE:
 
-首先检查所有规则是否满足：
-- 首字AUFBLENDE，末字ABBLENDE。
-- 场景标题格式正确（INT./EXT. - ORT - DETAILORT - TAGESZEIT）。
-- 行动描述简洁，现在时，无隐喻、诗意等。
-- 无场景编号，符合Spec Script。
-- 没有对话行（因为输入中没有对话），所以只有行动描述。
+INT. VISIONÄRER RAUM - TAG
 
-然后确认生成的文本是否正确。现在输出最终结果。</think>
-AUFBLENDE
-EXT. WÜSTENLANDSCHAFT - TAG
-Henochs Gesicht im Detail, Augen als LED-Array.
-Seine Augen öffnen sich mechanisch, blinder Lichtstrahl, Kühlmittel tropft.
+Ein grenzenloser Raum. Kalter, grauer Boden verliert sich in undurchdringlicher Finsternis.
 
-POV SHOT - Henochs Vision
-Horizont wird mit rotem Wireframe-Topologie überlagert, Text "WARNING: KERNEL_ARRIVAL // SECTOR_UNSTABLE".
-Scanning des Horizons, Identifizierung von Sinai als Ziel.
-Reduzierung der Ressourcen; Hindernis: Verlust von Realitätsdetails.
+In der Mitte kniet ENOCH (365). Ausgemergelt, als hätte der reine Datenfluss seinen Körper verbraucht. Sein Gesicht ist eine Landkarte tiefer Furchen.
 
-SINAI DESERT SKY
-Simulation lowers graphical settings to save memory, high-res starfield switches to low-res 8-bit jpeg.
-Atmosphäre wird flach und kalt.
+Seine Augen sind weit geöffnet, die Pupillen zu Nadelspitzen verengt. Sie starren auf etwas, das nicht in diesem Raum ist.
 
-THE "GREAT HOLY ONE" DESCENT
-Monolithisches Server-Blatt (2km breit) fällt aus dem Himmel, um Sinai zu treffen.
-Free-fall Insertion des Kernels.
-Start der Hauptaktion; Ziel: Verbindung zum System herstellen.
+Ein feiner Schweißfilm überzieht seine Haut. Die Lippen trocken, rissig. Er hebt langsam den Kopf. Seine Stimme ist ein heiseres Flüstern, das im Nichts verhallt.
 
-SUMMIT OF MOUNT SINAI
-Bergspitze teilt sich in vier symmetrische Quadranten, offenbar ein Docking-Clamp.
-Mechanische Vorbereitung des Sockets.
-Vorbereitung für den Kernel-Anschluss; Hindernis: Ungeplante Geologie.
+ENOCH
+Ein Segen. Für die Auserwählten und die Gerechten. Jene, die da sein werden am Tag der Heimsuchung. Wenn alle Gottlosen und Verdorbenen ausgemerzt werden.
 
-INSERTION IMPACT
-Monolith trifft Bergspitze, keine Explosion, Refraktionswelle aus Licht.
-Hard-Connection des Kernels.
-Abschluss der physischen Verbindung; Ziel: System-Reset starten.
+Er schließt die Augen. Ein Zittern durchläuft seinen Körper, ein kurzer, unkontrollierbarer Krampf.
 
-WATCHERS REACTION
-Wächter (Daemons) in grauen Roben, starrer Angstanimation, stottern bei 4fps mit Ghosting-Effekten.
-Reaktion der Daemons auf den Anschluss.
-Erkennen von Systeminstabilität; Hindernis: Instabile Prozesse.
+INT. VISIONÄRER RAUM - TAG
 
-MOUNTAIN TEXTURE DECOUPLING
-Photorealistischer Felsentextur vom Geometry-Grid abgeschraubt, sterile Checkered-Pattern darunter sichtbar.
-Material-Fehler bei den Bergen.
-Identifizierung von Geometrie-Problemen; Ziel: Neurendereung der Struktur.
+Enoch öffnet die Augen wieder. In seiner Iris tanzen für den Bruchteil einer Sekunde leuchtende, geometrische Glyphen. Ein Datenstrom, zu schnell für das menschliche Auge.
 
-GEOMETRY LIQUEFACTION
-Exponierte Geometry schmilzt wie Lava, flüssige Simulation.
-Schmelzvorgang der Berge.
-Zerstörung der alten Geometrie; Hindernis: Kontrollverlust über die Materie.
+ENOCH
+Ich sah eine heilige Vision. In den Himmeln. Die Engel zeigten sie mir. Ich hörte alles von ihnen und verstand, was ich sah.
 
-THE TEN THOUSAND INSTANCING
-10.000 goldene Tetraeder in einem Raster im Himmel erscheinen, synchron rotieren.
-Masseninstanziierung der Heiligen.
-Start der Bereinigung-Armee; Ziel: Identifizierung von "gottlosen" Daten.
+Eine Pause. Er atmet schwer, die Erinnerung eine physische Last.
 
-SCANNING LASER SWEEP
-Rotierende Laserstrahlen vom Schwarm abwärts, Binärdaten als Rauch auf dem Boden.
-Ziel-Akquisition der Bereinigung.
-Scannen aller Objekte; Hindernis: Unterscheidung von Gerechten und Gottlosen.
+ENOCH
+(FORTS.)
+Doch nicht für diese Generation sprach ich, sondern für eine ferne. Eine, die noch kommen wird.
 
-THE ELECT WHITELIST
-Rot-Laser auf die Gerechten treffen, grüner Schutzfelder um sie herum.
-Identifizierung der Whitelist.
-Schutz für die Auserwählten; Ziel: Sicherung von Daten.
+EXT. BERG SINAI - TAG
 
-THE WICKED ERROR LOG
-Laserscan auf "gottlose" Objekte, rote Textboxen mit "DELETE_FLAG: TRUE".
-Identifizierung der zu löschenen Daten.
-Markierung für Bereinigung; Hindernis: Risiko von Fehlmarkierungen.
+Die Luft über dem Sinai flimmert. Eine thermische Verzerrung ohne Quelle. Der Himmel darüber krümmt sich, ein Gravitationslinsen-Effekt bricht das Licht.
 
-THE JUDGMENT PULSE
-Wall aus "Null-Daten" vom Berg aus, alles wird gelöscht.
-Auslösen des Reset-Pulses.
-Zerstörung der alten Realität; Ziel: Neubeginn.
+Ein tiefes, subsonisches DRÖHNEN durchdringt die Stille.
 
-DAEMON VOXELIZATION
-Wächter zerfallen in Voxel-Kuben und schweben aufwärts.
-Löschen der Daemons.
-Entfernung von Instabilen Prozessen; Hindernis: Datenverlust.
+Ein Ingress-Punkt manifestiert sich. Eine vertikale Spalte reiner, weißer Energie schneidet sich in den Zenit. Kein Feuer, keine Explosion. Nur eine saubere, geometrische Wunde im Gefüge der Welt.
 
-GLOBAL FORMAT COMPLETE
-Landschaft ist verschwunden, nur blauer Wireframe-Grid bleibt. Die Auserwählten stehen auf dem Grid in ihren Schutzfeldern.
-Abschluss des Resets.
-Neue Phase beginnt; Ziel: Neustrukturierung der Welt.
+Aus der Spalte strömt keine Gestalt, sondern eine Präsenz. Eine Welle gravitatorischer Verzerrung rauscht auf den Berg herab.
 
-ENOCH_LOG_CLOSE
-Henochs Augen aperture schließt, Licht geht aus.
-Beobachtung des Ergebnisses.
-Abschluss des Prozesses; Hindernis: Abschaltung des Systems.
+Der Fels des Sinai knirscht, ächzt unter unvorstellbarer Last. Das System-Kernel greift direkt auf die Realität zu. Der Gott dieser Welt betritt die Oberfläche.
 
-SYSTEM REBOOT TERMINAL
-Black Screen mit Blinkender Cursor und Text "SYSTEM_REBOOT_INITIATED... OK."
-System-Neustart.
-Start der neuen Phase; Ziel: Neue Simulation.
+EXT. GLOBALE MONTAGE - TAG
 
-ABBLENDE
+Ein WÄCHTER auf einer Klippe erstarrt. Sein Körper wird von einem gewaltigen Schock durchzuckt. Er bricht zitternd zusammen.
+
+Überall auf der flachen Ebene der Erde halten Menschen inne. Sie blicken zum Himmel, ihre Gesichter von namenloser Furcht gezeichnet.
+
+Ein Beben, nicht aus der Erde, sondern aus der Luft, erfasst alles. Eine Schockwelle bis an die äußersten Enden der Welt.
+
+EXT. GEBIRGSZUG - TAG
+
+Ein gewaltiger Berg erzittert. Seine Felswände zeigen plötzlich sichtbare, polygonale Risse. Die Textur der Welt versagt.
+
+Riesige, geometrisch perfekte Blöcke aus Stein lösen sich in unnatürlicher Stille. Sie stürzen lautlos in die Tiefe.
+
+Eine Kette hoher Hügel beginnt zu schmelzen. Nicht durch Hitze, sondern durch eine Auflösung der Materie selbst.
+
+Der Stein verflüssigt sich, fließt wie heißes Wachs in die Täler. Er erstarrt zu einer glatten, obsidianschwarzen Oberfläche.
+
+EXT. VERSUNKENE ERDE - TAG
+
+Der Boden bricht auf. Nicht an einer Stelle, sondern überall. Die Oberflächen-Ebene versinkt, verschluckt von einer darunterliegenden, schwarzen Leere.
+
+Alles, was auf ihr ist – Bäume, Tiere, Bauten – wird ausgelöscht, in die Nichtexistenz gezogen.
+
+Inmitten der universellen Vernichtung steht eine kleine Gruppe Menschen unversehrt. Die Gerechten. Die Auserwählten.
+
+Eine unsichtbare Sphäre wehrt die Zerstörung ab, ein Schutzfeld aus sanftem, kühlem Licht.
+
+Sie blicken mit ruhigen Augen auf die Apokalypse. Ihnen wurde Frieden gewährt.
+
+EXT. GERICHTSFELD - TAG
+
+Die Zerstörung endet. Was bleibt, ist eine unendlich weite, sterile Ebene aus schwarzem, glattem Material. Der Himmel ist ein leeres, digitales Weiß.
+
+Die Präsenz manifestiert sich erneut. Kein Körper, sondern ein unermessliches Kraftfeld, das den Horizont ausfüllt.
+
+Mit ihr erscheinen ZEHNTAUSENDE IHRER HEILIGEN. Keine Engel mit Flügeln. Identische, leuchtende Konstrukte aus Licht und Geometrie.
+
+Sie bewegen sich in perfekter, lautloser Synchronität. Eine Armee aus reinem Code, die sich materialisiert.
+
+Die Heiligen schwärmen aus. Sie bewegen sich auf die letzten Überreste der Gottlosen zu, die verstreut auf der Ebene kauern.
+
+Es gibt keinen Kampf. Keine Gnade.
+
+Ein Heiliger streckt eine Hand aus. Bei Berührung zerfällt ein Gottloser zu Datenstaub, vom Wind verweht.
+
+Eine stille, effiziente Säuberung.
+
+Das Gericht ist vollzogen. Die Prophezeiung ist erfüllt. Die Ebene ist rein.
+
+ABBLENDE.

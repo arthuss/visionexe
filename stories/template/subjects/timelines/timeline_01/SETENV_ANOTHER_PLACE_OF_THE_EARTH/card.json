@@ -1,0 +1,60 @@
+{
+  "id": "SETENV_ANOTHER_PLACE_OF_THE_EARTH",
+  "name": "Another place of the earth",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Another place of the earth.",
+    "visual_anatomy": [
+      "Roles: region"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Another place of the earth, region",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Another place of the earth, region"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_ANOTHER_PLACE_OF_THE_EARTH",
+    "name": "Another place of the earth",
+    "type": "set_environment",
+    "aliases": [
+      "Another place of the earth"
+    ],
+    "roles": [
+      "region"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1117"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 24,
+        "chapter_end": 24,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

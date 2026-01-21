@@ -1,0 +1,98 @@
+{
+  "id": "CHAR_THE_HOLY_ONES",
+  "name": "The Holy Ones",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Holy Ones.",
+    "visual_anatomy": [
+      "Traits: described as a 'myriad' or 'multitude', {'description': \"A group referred to as 'ቅዱሳን' (the holy ones), mentioned via their dwelling place which the sinners deny.\"}, {'description': 'A group of blessed people, seemingly synonymous with the Righteous and Chosen, who are instructed to seek righteousness in the heavens.', 'age': 'unknown', 'gender': 'unknown', 'ethnicity': 'unknown', 'height': 'unknown', 'body_type': 'unknown'}, {'description': 'A group whose faces shine with the light of the Lord of Spirits. They are seen alongside the righteous and chosen.'}, {'description': 'Beings who dwell above the heavens. They intercede on behalf of the righteous and rejoice when their prayers are answered.'}, {'description': 'The authors of the heavenly tablets.'}",
+      "Roles: A group among whom Noah's name will be established., Entourage, blessed_group, character, escort, group, intercessors, protagonist_group"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "described as a 'myriad' or 'multitude'",
+      "{'description': \"A group referred to as 'ቅዱሳን' (the holy ones), mentioned via their dwelling place which the sinners deny.\"}",
+      "{'description': 'A group of blessed people, seemingly synonymous with the Righteous and Chosen, who are instructed to seek righteousness in the heavens.', 'age': 'unknown', 'gender': 'unknown', 'ethnicity': 'unknown', 'height': 'unknown', 'body_type': 'unknown'}",
+      "{'description': 'A group whose faces shine with the light of the Lord of Spirits. They are seen alongside the righteous and chosen.'}",
+      "{'description': 'Beings who dwell above the heavens. They intercede on behalf of the righteous and rejoice when their prayers are answered.'}",
+      "{'description': 'The authors of the heavenly tablets.'}"
+    ],
+    "prompt_block": "The Holy Ones, described as a 'myriad' or 'multitude', {'description': \"A group referred to as 'ቅዱሳን' (the holy ones), mentioned via their dwelling place which the sinners deny.\"}, {'description': 'A group of blessed people, seemingly synonymous with the Righteous and Chosen, who are instructed to seek righteousness in the heavens.', 'age': 'unknown', 'gender': 'unknown', 'ethnicity': 'unknown', 'height': 'unknown', 'body_type': 'unknown'}, {'description': 'A group whose faces shine with the light of the Lord of Spirits. They are seen alongside the righteous and chosen.'}, {'description': 'Beings who dwell above the heavens. They intercede on behalf of the righteous and rejoice when their prayers are answered.'}, {'description': 'The authors of the heavenly tablets.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "described as a 'myriad' or 'multitude'",
+          "{'description': \"A group referred to as 'ቅዱሳን' (the holy ones), mentioned via their dwelling place which the sinners deny.\"}",
+          "{'description': 'A group of blessed people, seemingly synonymous with the Righteous and Chosen, who are instructed to seek righteousness in the heavens.', 'age': 'unknown', 'gender': 'unknown', 'ethnicity': 'unknown', 'height': 'unknown', 'body_type': 'unknown'}",
+          "{'description': 'A group whose faces shine with the light of the Lord of Spirits. They are seen alongside the righteous and chosen.'}",
+          "{'description': 'Beings who dwell above the heavens. They intercede on behalf of the righteous and rejoice when their prayers are answered.'}",
+          "{'description': 'The authors of the heavenly tablets.'}"
+        ],
+        "prompt_block": "The Holy Ones, described as a 'myriad' or 'multitude', {'description': \"A group referred to as 'ቅዱሳን' (the holy ones), mentioned via their dwelling place which the sinners deny.\"}, {'description': 'A group of blessed people, seemingly synonymous with the Righteous and Chosen, who are instructed to seek righteousness in the heavens.', 'age': 'unknown', 'gender': 'unknown', 'ethnicity': 'unknown', 'height': 'unknown', 'body_type': 'unknown'}, {'description': 'A group whose faces shine with the light of the Lord of Spirits. They are seen alongside the righteous and chosen.'}, {'description': 'Beings who dwell above the heavens. They intercede on behalf of the righteous and rejoice when their prayers are answered.'}, {'description': 'The authors of the heavenly tablets.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_HOLY_ONES",
+    "name": "The Holy Ones",
+    "type": "character",
+    "aliases": [
+      "The Holy Ones",
+      "The holy ones",
+      "the holy ones"
+    ],
+    "roles": [
+      "A group among whom Noah's name will be established.",
+      "Entourage",
+      "blessed_group",
+      "character",
+      "escort",
+      "group",
+      "intercessors",
+      "protagonist_group"
+    ],
+    "visual_traits": [
+      "described as a 'myriad' or 'multitude'",
+      "{'description': \"A group referred to as 'ቅዱሳን' (the holy ones), mentioned via their dwelling place which the sinners deny.\"}",
+      "{'description': 'A group of blessed people, seemingly synonymous with the Righteous and Chosen, who are instructed to seek righteousness in the heavens.', 'age': 'unknown', 'gender': 'unknown', 'ethnicity': 'unknown', 'height': 'unknown', 'body_type': 'unknown'}",
+      "{'description': 'A group whose faces shine with the light of the Lord of Spirits. They are seen alongside the righteous and chosen.'}",
+      "{'description': 'Beings who dwell above the heavens. They intercede on behalf of the righteous and rejoice when their prayers are answered.'}",
+      "{'description': 'The authors of the heavenly tablets.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1055",
+      "row_1131",
+      "row_1138",
+      "row_1139",
+      "row_1151",
+      "row_1159",
+      "row_1174",
+      "row_1196"
+    ],
+    "occurrence_count": 16,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 103,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

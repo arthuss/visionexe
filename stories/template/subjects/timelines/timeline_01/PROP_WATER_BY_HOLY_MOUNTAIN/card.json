@@ -1,0 +1,111 @@
+{
+  "id": "PROP_WATER_BY_HOLY_MOUNTAIN",
+  "name": "water (by holy mountain)",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for water (by holy mountain).",
+    "visual_anatomy": [
+      "Traits: Water located to the east of the holy mountain.",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Water located to the east of the holy mountain."
+    ],
+    "prompt_block": "water (by holy mountain), Water located to the east of the holy mountain.",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "Water located to the east of the holy mountain."
+        ],
+        "prompt_block": "water (by holy mountain), Water located to the east of the holy mountain., Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "Water located to the east of the holy mountain."
+        ],
+        "prompt_block": "water (by holy mountain), Water located to the east of the holy mountain., Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "Water located to the east of the holy mountain."
+        ],
+        "prompt_block": "water (by holy mountain), Water located to the east of the holy mountain., Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_WATER_BY_HOLY_MOUNTAIN",
+    "name": "water (by holy mountain)",
+    "type": "prop",
+    "aliases": [
+      "water (by holy mountain)"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "Water located to the east of the holy mountain."
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: dynamic', 'description': 'The water is flowing towards the north.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1120"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 26,
+        "chapter_end": 25,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 26,
+        "chapter_end": 25,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 26,
+        "chapter_end": 26,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: dynamic', 'description': 'The water is flowing towards the north.'}"
+        ]
+      }
+    ]
+  }
+}

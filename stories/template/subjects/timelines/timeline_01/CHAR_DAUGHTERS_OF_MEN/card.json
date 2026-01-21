@@ -1,0 +1,70 @@
+{
+  "id": "CHAR_DAUGHTERS_OF_MEN",
+  "name": "Daughters of Men",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Daughters of Men.",
+    "visual_anatomy": [
+      "Traits: unknown",
+      "Roles: Human Women, human"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "unknown"
+    ],
+    "prompt_block": "Daughters of Men, unknown",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "unknown"
+        ],
+        "prompt_block": "Daughters of Men, unknown"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_DAUGHTERS_OF_MEN",
+    "name": "Daughters of Men",
+    "type": "character",
+    "aliases": [
+      "Daughters of Men",
+      "Daughters of men"
+    ],
+    "roles": [
+      "Human Women",
+      "human"
+    ],
+    "visual_traits": [
+      "unknown"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1071",
+      "row_1102"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 6,
+        "chapter_end": 9,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

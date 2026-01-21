@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_FIRST_WHITE_COW",
+  "name": "First White Cow",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for First White Cow.",
+    "visual_anatomy": [
+      "Traits: {'description': \"A white cow (ላህም፡ ፀዓዳ) that comes forth from the earth. Referred to as the 'first cow' (ላህም፡ቀዳማዊ).\"}",
+      "Roles: character"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"A white cow (ላህም፡ ፀዓዳ) that comes forth from the earth. Referred to as the 'first cow' (ላህም፡ቀዳማዊ).\"}"
+    ],
+    "prompt_block": "First White Cow, {'description': \"A white cow (ላህም፡ ፀዓዳ) that comes forth from the earth. Referred to as the 'first cow' (ላህም፡ቀዳማዊ).\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"A white cow (ላህም፡ ፀዓዳ) that comes forth from the earth. Referred to as the 'first cow' (ላህም፡ቀዳማዊ).\"}"
+        ],
+        "prompt_block": "First White Cow, {'description': \"A white cow (ላህም፡ ፀዓዳ) that comes forth from the earth. Referred to as the 'first cow' (ላህም፡ቀዳማዊ).\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_FIRST_WHITE_COW",
+    "name": "First White Cow",
+    "type": "character",
+    "aliases": [
+      "First White Cow"
+    ],
+    "roles": [
+      "character"
+    ],
+    "visual_traits": [
+      "{'description': \"A white cow (ላህም፡ ፀዓዳ) that comes forth from the earth. Referred to as the 'first cow' (ላህም፡ቀዳማዊ).\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1178"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 85,
+        "chapter_end": 85,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

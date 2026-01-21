@@ -1,0 +1,114 @@
+{
+  "id": "SETENV_HOUSE_OF_THE_KINGDOM_HOUSE_OF_GLORY",
+  "name": "House of the Kingdom / House of Glory",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for House of the Kingdom / House of Glory.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A great structure of glory and kingship.'}",
+      "Roles: place"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A great structure of glory and kingship.'}"
+    ],
+    "prompt_block": "House of the Kingdom / House of Glory, {'description': 'A great structure of glory and kingship.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A great structure of glory and kingship.'}"
+        ],
+        "prompt_block": "House of the Kingdom / House of Glory, {'description': 'A great structure of glory and kingship.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A great structure of glory and kingship.'}"
+        ],
+        "prompt_block": "House of the Kingdom / House of Glory, {'description': 'A great structure of glory and kingship.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A great structure of glory and kingship.'}"
+        ],
+        "prompt_block": "House of the Kingdom / House of Glory, {'description': 'A great structure of glory and kingship.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_HOUSE_OF_THE_KINGDOM_HOUSE_OF_GLORY",
+    "name": "House of the Kingdom / House of Glory",
+    "type": "set_environment",
+    "aliases": [
+      "House of the Kingdom / House of Glory"
+    ],
+    "roles": [
+      "place"
+    ],
+    "visual_traits": [
+      "{'description': 'A great structure of glory and kingship.'}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Built', 'description': 'In the fifth week, the house is built to last forever.'}",
+      "{'phase': 'Phase 2: Burned', 'description': 'At the end of the sixth week, the house is burned with fire.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1186"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 93,
+        "chapter_end": 92,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 93,
+        "chapter_end": 92,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Built', 'description': 'In the fifth week, the house is built to last forever.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 93,
+        "chapter_end": 93,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Burned', 'description': 'At the end of the sixth week, the house is burned with fire.'}"
+        ]
+      }
+    ]
+  }
+}

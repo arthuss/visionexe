@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_PROPHETIC_TIME",
+  "name": "prophetic time",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for prophetic time.",
+    "visual_anatomy": [
+      "Traits: A future time period referred to as 'in those days'.",
+      "Roles: environment"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A future time period referred to as 'in those days'."
+    ],
+    "prompt_block": "prophetic time, A future time period referred to as 'in those days'.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A future time period referred to as 'in those days'."
+        ],
+        "prompt_block": "prophetic time, A future time period referred to as 'in those days'."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_PROPHETIC_TIME",
+    "name": "prophetic time",
+    "type": "set_environment",
+    "aliases": [
+      "prophetic time"
+    ],
+    "roles": [
+      "environment"
+    ],
+    "visual_traits": [
+      "A future time period referred to as 'in those days'."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1198"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 105,
+        "chapter_end": 105,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

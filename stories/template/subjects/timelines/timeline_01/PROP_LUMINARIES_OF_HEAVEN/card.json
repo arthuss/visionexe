@@ -1,0 +1,72 @@
+{
+  "id": "PROP_LUMINARIES_OF_HEAVEN",
+  "name": "Luminaries of Heaven",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Luminaries of Heaven.",
+    "visual_anatomy": [
+      "Traits: {'description': 'All the celestial bodies of the sky. The text implies they are in constant motion, pursued by the Running Fire.', 'state': 'dynamic'}, {'description': 'Celestial bodies (ብርሃናተ፡ሰማይ) that diminish and set in the west.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'All the celestial bodies of the sky. The text implies they are in constant motion, pursued by the Running Fire.', 'state': 'dynamic'}",
+      "{'description': 'Celestial bodies (ብርሃናተ፡ሰማይ) that diminish and set in the west.'}"
+    ],
+    "prompt_block": "Luminaries of Heaven, {'description': 'All the celestial bodies of the sky. The text implies they are in constant motion, pursued by the Running Fire.', 'state': 'dynamic'}, {'description': 'Celestial bodies (ብርሃናተ፡ሰማይ) that diminish and set in the west.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'All the celestial bodies of the sky. The text implies they are in constant motion, pursued by the Running Fire.', 'state': 'dynamic'}",
+          "{'description': 'Celestial bodies (ብርሃናተ፡ሰማይ) that diminish and set in the west.'}"
+        ],
+        "prompt_block": "Luminaries of Heaven, {'description': 'All the celestial bodies of the sky. The text implies they are in constant motion, pursued by the Running Fire.', 'state': 'dynamic'}, {'description': 'Celestial bodies (ብርሃናተ፡ሰማይ) that diminish and set in the west.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_LUMINARIES_OF_HEAVEN",
+    "name": "Luminaries of Heaven",
+    "type": "prop",
+    "aliases": [
+      "Luminaries of Heaven",
+      "Luminaries of heaven"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'All the celestial bodies of the sky. The text implies they are in constant motion, pursued by the Running Fire.', 'state': 'dynamic'}",
+      "{'description': 'Celestial bodies (ብርሃናተ፡ሰማይ) that diminish and set in the west.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1116",
+      "row_1170"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 23,
+        "chapter_end": 77,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

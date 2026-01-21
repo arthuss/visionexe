@@ -1,0 +1,114 @@
+{
+  "id": "PROP_POWER_OF_THE_WATERS",
+  "name": "Power of the Waters",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Power of the Waters.",
+    "visual_anatomy": [
+      "Traits: {'description': \"A powerful force of water located 'under the earth', intended to be used for judgment and destruction.\"}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"A powerful force of water located 'under the earth', intended to be used for judgment and destruction.\"}"
+    ],
+    "prompt_block": "Power of the Waters, {'description': \"A powerful force of water located 'under the earth', intended to be used for judgment and destruction.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"A powerful force of water located 'under the earth', intended to be used for judgment and destruction.\"}"
+        ],
+        "prompt_block": "Power of the Waters, {'description': \"A powerful force of water located 'under the earth', intended to be used for judgment and destruction.\"}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"A powerful force of water located 'under the earth', intended to be used for judgment and destruction.\"}"
+        ],
+        "prompt_block": "Power of the Waters, {'description': \"A powerful force of water located 'under the earth', intended to be used for judgment and destruction.\"}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"A powerful force of water located 'under the earth', intended to be used for judgment and destruction.\"}"
+        ],
+        "prompt_block": "Power of the Waters, {'description': \"A powerful force of water located 'under the earth', intended to be used for judgment and destruction.\"}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_POWER_OF_THE_WATERS",
+    "name": "Power of the Waters",
+    "type": "prop",
+    "aliases": [
+      "Power of the Waters"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': \"A powerful force of water located 'under the earth', intended to be used for judgment and destruction.\"}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Contained', 'description': \"The waters are held 'under the earth', watched over by the angels.\"}",
+      "{'phase': 'Phase 2: Awaiting Release', 'description': \"The angels are ready to 'unleash' the waters, but are commanded to wait.\"}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1158"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 66,
+        "chapter_end": 65,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 66,
+        "chapter_end": 65,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Contained', 'description': \"The waters are held 'under the earth', watched over by the angels.\"}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 66,
+        "chapter_end": 66,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Awaiting Release', 'description': \"The angels are ready to 'unleash' the waters, but are commanded to wait.\"}"
+        ]
+      }
+    ]
+  }
+}

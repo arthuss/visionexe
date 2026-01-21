@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_GRAVE",
+  "name": "Grave",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Grave.",
+    "visual_anatomy": [
+      "Traits: A tomb or burial place (መቃብር) which is said will not be found for the sinners who rejoice in the suffering of the righteous.",
+      "Roles: setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A tomb or burial place (መቃብር) which is said will not be found for the sinners who rejoice in the suffering of the righteous."
+    ],
+    "prompt_block": "Grave, A tomb or burial place (መቃብር) which is said will not be found for the sinners who rejoice in the suffering of the righteous.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A tomb or burial place (መቃብር) which is said will not be found for the sinners who rejoice in the suffering of the righteous."
+        ],
+        "prompt_block": "Grave, A tomb or burial place (መቃብር) which is said will not be found for the sinners who rejoice in the suffering of the righteous."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_GRAVE",
+    "name": "Grave",
+    "type": "set_environment",
+    "aliases": [
+      "Grave"
+    ],
+    "roles": [
+      "setting"
+    ],
+    "visual_traits": [
+      "A tomb or burial place (መቃብር) which is said will not be found for the sinners who rejoice in the suffering of the righteous."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1191"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 98,
+        "chapter_end": 98,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

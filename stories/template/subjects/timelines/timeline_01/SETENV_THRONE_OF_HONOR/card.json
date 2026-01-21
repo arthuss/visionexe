@@ -1,0 +1,60 @@
+{
+  "id": "SETENV_THRONE_OF_HONOR",
+  "name": "Throne of Honor",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Throne of Honor.",
+    "visual_anatomy": [
+      "Roles: place of reward for the righteous"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Throne of Honor, place of reward for the righteous",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Throne of Honor, place of reward for the righteous"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THRONE_OF_HONOR",
+    "name": "Throne of Honor",
+    "type": "set_environment",
+    "aliases": [
+      "Throne of Honor"
+    ],
+    "roles": [
+      "place of reward for the righteous"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1201"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 108,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

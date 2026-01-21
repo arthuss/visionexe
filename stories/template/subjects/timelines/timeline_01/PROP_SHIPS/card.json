@@ -1,0 +1,103 @@
+{
+  "id": "PROP_SHIPS",
+  "name": "ships",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for ships.",
+    "visual_anatomy": [
+      "Roles: actor_prop:kings of the sea"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "ships, actor_prop:kings of the sea",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "ships, actor_prop:kings of the sea, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "ships, actor_prop:kings of the sea, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "ships, actor_prop:kings of the sea, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_SHIPS",
+    "name": "ships",
+    "type": "prop",
+    "aliases": [
+      "ships"
+    ],
+    "roles": [
+      "actor_prop:kings of the sea"
+    ],
+    "visual_traits": [],
+    "changes": [
+      "{'phase': 'Phase 1: Intact', 'description': 'Belonging to the kings of the sea.'}",
+      "{'phase': 'Phase 2: Broken', 'description': 'Broken by waves and winds.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1194"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 101,
+        "chapter_end": 100,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 101,
+        "chapter_end": 100,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Intact', 'description': 'Belonging to the kings of the sea.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 101,
+        "chapter_end": 101,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Broken', 'description': 'Broken by waves and winds.'}"
+        ]
+      }
+    ]
+  }
+}

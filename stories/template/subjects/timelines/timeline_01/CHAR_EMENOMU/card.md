@@ -1,28 +1,20 @@
 ## [CHARACTER] Emenomu (ID: CHAR_EMENOMU)
-**Description:** Emenomu is a towering, sentient construct standing 12 m tall, forged from interlocking basalt plates and a core of polished obsidian. Its body is a lattice of translucent quartz that refracts light into a spectrum of warm amber and cool indigo, while ancient Ethiopian and Egyptian glyphs are etched into every surface, pulsing with bioluminescent luminescence. The construct’s limbs are articulated by hidden hydraulic pistons, and its head is crowned by a crystalline crown that channels energy into a central oracular eye. Emenomu serves as the guardian of the forgotten temple, its presence a fusion of ancient mysticism and incomprehensible technology.
-**Tags:** #ancient-tech #Ethiopian #Egyptian #mystical #industrial #sentient #crystalline #bioluminescent #glyph-etched
+**Description:** Auto-generated asset card for Emenomu.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** 12 m tall, segmented basalt plates fused with a translucent quartz lattice, each plate bearing intricate hieroglyphic etchings that glow with bioluminescent veins; the core is a polished obsidian sphere that pulses with internal light.
-*   **Face/Sensors:** A central oracular eye composed of a multi-faceted quartz lens, surrounded by concentric glyphic rings that act as sensor arrays; ocular light shifts from amber to indigo based on environmental stimuli.
-*   **Clothing/Armor:** No external clothing; armor is integrated into the basalt plates, reinforced with titanium alloy ribs and a layer of graphene for impact absorption.
-*   **Key Features:** 1) Bioluminescent glyph lattice that animates with data flow; 2) Hydraulic piston system hidden beneath plates; 3) Obsidian core that acts as power reservoir; 4) Crystalline crown that channels energy into the eye; 5) Embedded sensor arrays that read ambient energy signatures.
+Roles: entity
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Activation): Basalt core ignites, glyphs glow faintly, limbs stiff; Phase 2 (Full Operation): Glyphs blaze, hydraulic pistons extend, crystalline crown activates, eye projects a focused beam of energy.
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Scepter of Ankh – a bronze staff topped with a sapphire that resonates with Emenomu’s core; Item: Obsidian Orb – a polished black sphere that serves as a control interface for the construct.
-
-### 4. AI PROMPT KEYWORDS
-`crystalline`, `hieroglyphic`, `bioluminescent`, `basalt`, `obsidian`, `hydraulic`, `ancient-tech`
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
-towering 12‑meter sentient construct of basalt and translucent quartz lattice, etched with ancient Ethiopian and Egyptian glyphs that glow bioluminescent amber and indigo, featuring a central oracular eye of multi‑faceted quartz, hydraulic pistons hidden beneath plates, a polished obsidian core pulsing with internal light, crystalline crown channeling energy, photorealistic, grounded realism, industrial mysticism, cinematic lighting, photorealistic textures, high detail, cinematic depth of field
+Emenomu, entity
 
 ### 6. PHASE PROMPTS
-*   **Default:** Emenomu in its fully activated state, guardian of the temple
-    Prompt: towering 12‑meter sentient construct of basalt and translucent quartz lattice, etched with ancient Ethiopian and Egyptian glyphs that glow bioluminescent amber and indigo, featuring a central oracular eye of multi‑faceted quartz, hydraulic pistons hidden beneath plates, a polished obsidian core pulsing with internal light, crystalline crown channeling energy, photorealistic, grounded realism, industrial mysticism, cinematic lighting, photorealistic textures, high detail, cinematic depth of field
-    Keywords: crystalline, hieroglyphic, bioluminescent, basalt, obsidian
+*   **Default:**
+    Prompt: Emenomu, entity
 
 ---

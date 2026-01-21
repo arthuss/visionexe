@@ -1,0 +1,80 @@
+{
+  "id": "CHAR_LEADERS_OF_THE_STATIONS",
+  "name": "Leaders of the Stations",
+  "type": "character",
+  "card": {
+    "description": "The Leaders of the Stations exist as the cardinal anchors of the simulation's temporal runtime, functioning as the heavy, load-bearing pillars that divide the year into its four distinct processing quadrants. Far from being ethereal or weightless, these entities possess a dense, industrial gravity, manifesting within the Gate Band as the solemn administrators of the system's chronology. They are the manifestations of the kernel's scheduling logic, tasked with the high-friction labor of switching the world-state between seasons. Their existence is defined by a sense of eternal, weary duty; they do not fly, but stand immovable at the ingress points of the sky dome, monitoring the thermal throttling and vector fields that dictate the environmental parameters for the inhabitants below. In the high-contrast gloom of the upper atmosphere, they appear as tragic, stoic figures, burdened with the knowledge of the simulation's finite cycles and the precise mathematical degradation of the timeline.",
+    "visual_anatomy": [
+      "Their physical forms are rendered with hyper-realistic fidelity, blending the texture of human anatomy with the rigidity of geological and synthetic materials. Their skin possesses the light-absorbing quality of matte obsidian or rough-hewn basalt, deeply porous and etched with the history of the system's uptime, appearing almost like stone that has been softened by heat. This dark, organic substrate is contrasted by their eyes, which are not biological organs but flat, circular lenses of data-glass that reflect the cold, vertical interface lines of the firmament, devoid of whites or pupils.",
+      "They are draped in heavy, ceremonial vestments that drape with the weight of lead-lined curtains, designed to shield their cores from the intense radiation of the solar ingress gates. These robes are not woven from thread but are comprised of millions of dormant fiber-optic cables and heat-sink filaments, appearing as a coarse, matte-black textile in shadow but flaring with faint, sub-surface plasma veins when they move. The fabric gathers in thick, sculptural folds around their shoulders, giving them a silhouette that is both regal and architectural, reminiscent of ancient statues wrapped in industrial insulation.",
+      "The lighting around them is strictly diegetic and dramatic, often stemming from the harsh, single-source glare of a nearby portal or the ambient bioluminescence of the data-glass panels they consult. This creates a chiaroscuro effect where deep blacks dominate the frame, and only the ridges of their brows, the knuckles of their hands, and the edges of their robes catch the light, emphasizing the tactile reality of their presence. There is no magical glow; instead, there is the heat of computation, visible as a shimmering thermal lensing effect in the air immediately surrounding their bodies."
+    ],
+    "evolution": [
+      "In their idle state, the Leaders of the Stations appear almost statuesque, blending into the dark architecture of the Gate Band, their internal temperatures low and their fiber-optic weaves dormant and gray. They resemble forgotten monuments in a dark server room, covered in the dust of the upper atmosphere.",
+      "As a seasonal shift approaches, their visual signature transitions to one of intense activity. The plasma veins within their robes ignite with amber and crimson warning lights, and the heat radiating from their obsidian skin creates visible distortion in the air. Their movements become slow and deliberate, weighted by the increased processing load required to calculate the intercalary days, effectively physically straining under the burden of the time-correction algorithms."
+    ],
+    "props": [
+      "They carry heavy, slate-like tablets composed of layered data-glass, which function not as mystical tomes but as system diagnostics terminals. These surfaces display the running code of the calendar in burning, orange Geez glyphs, scrolling rapidly downwards. The glass is often cracked or scratched at the edges, suggesting eons of use and physical handling.",
+      "Attached to their belts are large, iron-colored keys and primitive mechanical levers, used to physically manually override the locking mechanisms of the celestial gates. These tools look utilitarian and worn, stripped of ornamentation, emphasizing the Leaders' role as the working-class maintainers of the cosmos rather than distant deities."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic",
+      "obsidian skin texture",
+      "matte black fiber optic robes",
+      "chiaroscuro lighting",
+      "Geez glyphs on data glass",
+      "cinematic drama",
+      "vertical aspect ratio",
+      "thermal lensing",
+      "Octane render",
+      "8k resolution"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic vertical shot of a Leader of the Stations, a massive humanoid figure standing in the deep shadows of a technological construct. The figure's skin is textured like matte, porous obsidian, absorbing light, while their heavy robes are woven from thick, dormant fiber-optic cables that drape like leaden velvet. The lighting is high-contrast and dramatic, with a single harsh light source illuminating the side of the face and the heavy folds of the garment, leaving the rest in deep shadow. The figure holds a cracked data-glass tablet displaying scrolling orange Geez glyphs, the light from the tablet illuminating their stoic, weary face. The atmosphere is thick, with visible heat distortion and dust particles floating in the hard light. The background implies the industrial architecture of a simulation gate, constructed from dark metal and glass. 8k resolution, photorealistic textures, emotional weight.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The Leader stands at the threshold of the season, a stoic administrator of time checking the system diagnostics before a gate transition.",
+        "prompt_keywords": [
+          "standing pose",
+          "checking tablet",
+          "atmospheric gloom",
+          "industrial silence"
+        ],
+        "prompt_block": "A hyper-realistic medium shot of a celestial administrator standing before a massive, dark gate structure. The subject has skin resembling rough basalt stone and wears heavy, layered robes made of black cabling and industrial fabric. They are looking down at a rectangular slate of transparent glass held in their hands, upon which glowing amber Geez script is vertically scrolling. The light from the tablet casts a warm, under-lit glow on their severe, tired features, highlighting the pores and weathering on their face. The background is a void of dark mechanical shapes, suggesting a vast, enclosed machine. The depth of field is shallow, focusing entirely on the character's expression of concentration and burden. Cinematic lighting, dramatic shadows, photorealistic details."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_LEADERS_OF_THE_STATIONS",
+    "name": "Leaders of the Stations",
+    "type": "character",
+    "aliases": [
+      "Leaders of the Stations"
+    ],
+    "roles": [
+      "A class of celestial leaders who divide the four parts of the year."
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1175"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 82,
+        "chapter_end": 82,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

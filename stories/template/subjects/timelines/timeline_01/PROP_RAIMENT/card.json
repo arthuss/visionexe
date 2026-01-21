@@ -1,0 +1,67 @@
+{
+  "id": "PROP_RAIMENT",
+  "name": "Raiment",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Raiment.",
+    "visual_anatomy": [
+      "Traits: {'color': 'White'}",
+      "Roles: actor_prop:Sons of the holy angels"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'color': 'White'}"
+    ],
+    "prompt_block": "Raiment, {'color': 'White'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'color': 'White'}"
+        ],
+        "prompt_block": "Raiment, {'color': 'White'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_RAIMENT",
+    "name": "Raiment",
+    "type": "prop",
+    "aliases": [
+      "Raiment"
+    ],
+    "roles": [
+      "actor_prop:Sons of the holy angels"
+    ],
+    "visual_traits": [
+      "{'color': 'White'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1164"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 71,
+        "chapter_end": 71,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

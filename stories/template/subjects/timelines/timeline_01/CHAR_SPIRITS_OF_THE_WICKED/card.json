@@ -1,0 +1,137 @@
+{
+  "id": "CHAR_SPIRITS_OF_THE_WICKED",
+  "name": "Spirits of the Wicked",
+  "type": "character",
+  "card": {
+    "description": "In the rigorously governed runtime of the simulation, the Spirits of the Wicked are identified not merely as sinners, but as corrupted user instances flagged for critical system purging. These are the 'insolent'—unauthorized subroutines and jagged executables that violated the core operational logic of the Creator's kernel. Having rejected the standard protocols of the Law, they are now isolated in a quarantine buffer, a desolate sector of the hard drive where the physics engine deliberately fails. Their existence is a harrowing drama of digital decay, a slow-motion crash of consciousness where the terror is not merely pain, but the absolute, irreversible cessation of data continuity and the stripping of identity privileges.",
+    "visual_anatomy": [
+      "Visually, these entities appear as high-fidelity avatars suffering from catastrophic texture degradation and mesh instability. Their skin, once mimicking organic warmth with subsurface scattering, now resembles cold, cracked obsidian or darkening data-glass, beneath which pulses a volatile, unauthorized plasma—the 'fire' of their internal corruption. They are often framed in tight, claustrophobic close-ups that emphasize the profound horror in their eyes—eyes that leak black binary tears or static noise instead of saline, reflecting the void of the deletion queue.",
+      "The environment around them reacts with aggressive thermal throttling; heat lensing warps the air, and the global illumination logic bends unnaturally, casting them in harsh, unforgiving silhouettes. The 'fire' that torments them is a visual manifestation of error correction: aggressive pixelation, chromatic aberration, and the violent ripping of their polygonal structure as the system attempts to resolve their conflicting data. They are entities caught between rendering and erasure, flickering in and out of the visible spectrum with a haunting, stuttering frame rate.",
+      "Their movement is characterized by 'lag' and desperate loops of animation. A scream might be frozen in a buffer stall, stretching the facial geometry into grotesque, impossible proportions before snapping back. The darkness surrounding them is not just shadow, but the absence of rendering capability—a flat, crushing null-space that consumes their edges. The aesthetic is one of high-contrast tragedy, utilizing the visual language of cinematic drama—shallow depth of field, sombre color palettes, and intimate lens choices—to ground this metaphysical execution in a visceral, photorealistic reality."
+    ],
+    "evolution": [
+      "In the initial 'Condemned' state, the spirits retain their human silhouette but bear the heavy, oppressive weight of impending termination. They appear desaturated, their textures muddy and low-resolution compared to the crispness of the righteous. Crimson Geez glyphs, functioning as system warnings or 'FATAL EXCEPTION' markers, may float subtly near their heads or appear etched into their skin like digital scars.",
+      "As they transition into the 'Punished' phase, the simulation's deletion protocols fully engage. The containment field activates, and their forms begin to violently de-compile. The 'burning' is a radiant fragmentation; they dissolve not into organic ash, but into raw, glowing voxels and floating data particles. Their wailing is visualized as jagged, over-modulated audio waveforms ripping through the visual plane, disrupting the very air around them as they are reduced to null values."
+    ],
+    "props": [
+      "They possess no material goods, for their inventory access has been revoked. However, they may be surrounded by the shattered remnants of their former status—glitching shards of 'data glass' that reflect the life they lost.",
+      "Occasionally, they might clutch at phantom objects—corrupted file handles or broken links—that dissolve upon contact, emphasizing their complete dispossession and the futility of their attachment to the simulated world."
+    ],
+    "prompt_keywords": [
+      "corrupted user instances",
+      "digital decay",
+      "obsidian skin",
+      "magma plasma veins",
+      "thermal throttling",
+      "chromatic aberration",
+      "glitch art realism",
+      "cinematic despair",
+      "data-glass shards",
+      "Geez error glyphs",
+      "vertical 9:16 aspect ratio"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic vertical shot of a Spirit of the Wicked, a corrupted human soul trapped in a digital simulation buffer. The subject is backlit by a harsh, cold light that emphasizes the texture of their skin, which is cracking like obsidian to reveal glowing, unstable plasma beneath. The face is twisted in a silent scream, with digital artifacts and mesh tearing distorting the mouth and eyes. The background is a void of null-space, interrupted only by heat lensing and floating particles of deleted data. The image has a shallow depth of field, focusing intensely on the despair in the subject's eyes, rendered with Octane-level physical accuracy. Subtle crimson Geez glyphs float in the negative space, indicating a fatal system error.",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1: Condemned",
+        "summary": "The spirits await judgment in a cold, high-contrast limbo. They look human but burdened, marked by the system for deletion.",
+        "prompt_keywords": [
+          "desaturated tones",
+          "heavy shadows",
+          "anticipation of dread",
+          "low-res texture overlay",
+          "warning glyphs"
+        ],
+        "prompt_block": "A cinematic close-up of a Condemned Spirit, a human figure shrouded in deep, crushing shadows within a stark, minimalist environment. The subject's skin appears grey and desaturated, with subtle digital noise grain overlaying their features. Their expression is one of heavy, exhausted dread. Above their head, a faint, translucent Geez glyph glows in a warning red. The lighting is cold and top-down, creating skull-like shadows in the eye sockets. The camera utilizes a portrait focal length, isolating the subject from the dark, undefined background, capturing the quiet moment before the system purge begins."
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2: Punished (Active)",
+        "summary": "The deletion process begins. The spirits are actively fragmented and burned by the system's error correction protocols.",
+        "prompt_keywords": [
+          "active de-compilation",
+          "digital fire",
+          "voxel fragmentation",
+          "screaming face",
+          "motion blur",
+          "heat distortion"
+        ],
+        "prompt_block": "A dynamic, terrifying shot of a Punished Spirit in the throes of system deletion. The subject's form is tearing apart, with chunks of the mesh dissolving into glowing orange and red voxels. 'Fire' envelops them, but it is rendered as aggressive chromatic aberration and pixel sorting effects that mimic flames. The mouth is open in a wide, distorted wail, with the jaw geometry stretching unnaturally. Heat waves ripple across the frame, blurring the boundaries between the subject and the black void. The lighting is intense and flickering, simulating the strobe of a dying server rack. Photorealistic textures clash with violent digital destruction."
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3: Punished (Desolation)",
+        "summary": "The aftermath of the purge. The spirits are reduced to wandering glitches in a fiery, desolate landscape.",
+        "prompt_keywords": [
+          "desolate landscape",
+          "wandering glitches",
+          "fading signals",
+          "embers of data",
+          "long shot",
+          "loneliness"
+        ],
+        "prompt_block": "A wide, atmospheric shot of the Desolate Place, a flat, endless plane of obsidian glass under a sky of static noise. Scattered across the horizon are the fading remnants of the Wicked—glowing, translucent silhouettes that flicker in and out of existence. They are no longer fully defined human shapes but wandering columns of corrupted code and ember-like data particles. The lighting is dim and ambient, provided only by the weak glow of the spirits themselves. The composition emphasizes isolation and the vastness of the system's garbage collection sector. The mood is sombre, final, and hauntingly quiet."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_SPIRITS_OF_THE_WICKED",
+    "name": "Spirits of the Wicked",
+    "type": "character",
+    "aliases": [
+      "Spirits of the Wicked"
+    ],
+    "roles": [
+      "the damned souls"
+    ],
+    "visual_traits": [],
+    "changes": [
+      "{'phase': 'Phase 1: Condemned', 'description': 'Spirits of sinners, the insolent, and those who do evil.'}",
+      "{'phase': 'Phase 2: Punished', 'description': 'They are destroyed, killed, cry out, and wail in a desolate, fiery place.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1201"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 108,
+        "chapter_end": 107,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 108,
+        "chapter_end": 107,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Condemned', 'description': 'Spirits of sinners, the insolent, and those who do evil.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 108,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Punished', 'description': 'They are destroyed, killed, cry out, and wail in a desolate, fiery place.'}"
+        ]
+      }
+    ]
+  }
+}

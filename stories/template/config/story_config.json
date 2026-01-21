@@ -50,6 +50,14 @@
   "timeline_index_padding": 2,
   "timeline_default": "timeline_01",
   "timeline_profiles": {
-    "timeline_01": "stories/template/config/timelines/timeline_01.json"
-  }
+    "timeline_01": "stories/template/config/timelines/timeline_01.json",
+    "timeline_02": "stories/template/config/timelines/timeline_02.json",
+    "timeline_03": "stories/template/config/timelines/timeline_03.json"
+  },
+  "genre_profile": "stories/template/config/genre/drama.json",
+  "style_profiles": [
+    "stories/template/config/styles/hyperrealistic__photorealistic.json"
+  ],
+  "tone_dials": "pacing=slow;dialogue_density=low;darkness=dark",
+  "mechanism_profile": "stories/template/config/timelines/rule_of_machanism.json"
 }

@@ -1,0 +1,34 @@
+## [CHARACTER] The Angels (imprisoned) (ID: CHAR_THE_ANGELS_IMPRISONED)
+**Description:** Within the simulation's restricted partition, the Imprisoned Angels exist not as mythical beings, but as deprecated kernel processes locked in a permanent thermal throttling cycle. They are quarantined in the Rift Internals, a sector of the system where data degradation is halted only by intense, paralyzing heat. These entities, once high-level administrators of the runtime, are now static figures of corrupted code and data-glass. Their imprisonment is a literal suspension of execution; they are bound by heavy obsidian limiters that prevent any interaction with the main surface plane. The 'fire' that surrounds them is a visual manifestation of excessive computational friction—a plasma field that distorts light and physics around their coordinates, rendering their confinement an eternal, silent scream of system resource exhaustion.
+
+### 1. VISUAL ANATOMY / DESIGN
+Their physical forms possess the translucency of smoked data-glass, internalizing a volatile, magma-like luminance that pulses with the rhythm of a failing server rack. The skin—if it can be called that—is etched with Geez glyphs that flicker erratically, indicating runtime errors and unauthorized access attempts. These glyphs do not glow with holy light but burn with the harsh, orange-red hue of overheated silicon. Their silhouettes are often broken by digital artifacts and mesh overrides, making them appear as if they are constantly buffering or failing to render completely.
+The environment immediately surrounding them is a vacuum of high-contrast lighting. The plasma fire does not flicker like organic flame; it flows like liquid neon or superheated fluid dynamics, creating intense heat lensing that warps the visual field. This distortion acts as a privacy filter, blurring their exact features into tragic, elongated smears of light and shadow. They are anchored to the simulation's floor by thick, matte-black cabling resembling fused fiber optics, which pulses faintly as it siphons their remaining processing power.
+Atmospherically, the prison sector is dominated by a sense of heavy, oppressive stillness typical of a drama-focused tableau. The lighting is exclusively diegetic, emanating from the angels themselves and the plasma pools they stand in. Shadows are absolute, void-like pools of black where the simulation's rendering budget has been cut to zero. The overall aesthetic is one of cold technological judgment applied to beings of immense potential power, creating a tragic contrast between their radiant internal energy and the crushing, dark weight of their restraints.
+
+### 2. EVOLUTION / VARIANTS
+In their initial observed state, the confinement appears active; the plasma fields are turbulent, and the entities strain against their obsidian bonds, their internal glow flaring white-hot with resistance. The heat lensing is severe, suggesting a system under maximum load trying to contain a breach.
+As time—or the simulation's cycle count—progresses towards the concept of 'eternity,' the turbulence settles into a stagnant, crushing weight. The angels become statuesque, their struggle replaced by a resonant, low-frequency hum of despair. The plasma fire thickens into a slow-moving viscous fluid, and their internal light dims to a deep, smoldering ember, signifying their transition from active threats to archived, read-only tragedies.
+
+### 3. PROPS & EQUIPMENT
+Obsidian Binders: Massive, non-reflective geometric shackles that clamp around the entities' limbs. These appear less like metal and more like voids in the mesh, absorbing all light.
+Fiber-Optic Tethers: Bundles of translucent cabling that run from the binders into the floor of the rift, pulsating with the same orange data-light as the plasma, grounding the entities to the simulation's bedrock.
+
+### 4. AI PROMPT KEYWORDS
+`imprisoned angels`, `simulation glitch`, `thermal throttling`, `plasma fire`, `obsidian shackles`, `data glass skin`, `heat haze`, `volumetric lighting`, `cinematic drama`, `hyper-realistic`, `octane render`, `8k`
+
+### 5. PROMPT BLOCK (T2I)
+A hyper-realistic cinematic shot of imprisoned angelic entities inside a dark simulation void. The angels are composed of cracked, translucent data-glass, glowing internally with the orange-red heat of burning silicon. They are bound by matte black obsidian shackles and thick fiber-optic cables that anchor them to a reflective, digital floor. Surrounding them is a field of liquid plasma fire, not natural flame, but a viscous, flowing light source that creates intense heat lensing and distortion. The lighting is high-contrast, moody, and dramatic, emphasizing the isolation and suffering of the figures. The background is a deep, infinite darkness. 8k resolution, photorealistic textures, ray-traced reflections.
+
+### 6. PHASE PROMPTS
+*   **Phase 1: Active Confinement:** The prisoners struggle against the system's constraints; the heat is intense and turbulent.
+    Prompt: Hyper-realistic close-up of a data-glass angel straining against obsidian bonds. The internal light is blindingly bright, white-hot, casting harsh shadows. The surrounding plasma fire is turbulent, whipping around the figure like a solar flare. Heat ripples distort the air heavily. The expression is one of digital anguish. Cinematic lighting, dramatic shadows, 8k.
+    Keywords: struggling, turbulent plasma, white-hot glow, intense heat distortion
+*   **Phase 2: Static Resignation:** The struggle ceases, replaced by a heavy, static endurance of the eternal heat.
+    Prompt: Wide cinematic shot of multiple imprisoned angels standing motionless in a dark void. The plasma fire around them has slowed to a thick, viscous crawl, glowing a deep, sullen red. The angels' internal light is dim, like dying embers. They hang limp in their obsidian shackles, defeated by the simulation. The atmosphere is heavy, oppressive, and silent. Photorealistic, moody, high contrast.
+    Keywords: static, resignation, viscous plasma, ember glow, heavy atmosphere
+*   **Phase 3: The Eternal Archive:** Confinement until the end of time; they are now permanent fixtures of the prison.
+    Prompt: A hyper-realistic shot of an angel that has almost merged with its prison. The data-glass skin is dull and covered in static noise. The obsidian shackles look fused to the body. The plasma fire is a low, constant pool of light, providing the only illumination in the pitch-black void. A sense of infinite time and abandoned data. Cinematic realism, 8k, highly detailed textures.
+    Keywords: fossilized data, permanent, obsidian merger, deep storage, low light
+
+---

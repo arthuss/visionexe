@@ -1,0 +1,79 @@
+{
+  "id": "CHAR_NAREL",
+  "name": "Narel",
+  "type": "character",
+  "card": {
+    "description": "Narel exists as a high-fidelity kernel manifestation within the simulation's administrative layer, serving as one of the four primary Runtime Governors responsible for the seasonal partitioning of the sky-dome's render cycle. Far from a celestial mystic, Narel is visualized as a weary system architect, a sentient subroutine burdened with the crucial task of managing the thermal throttling and resource allocation that the inhabitants perceive as the changing of seasons. He operates within the quiet, sterile void of the upper store, standing watch over the vector field lensing that dictates the solar trajectory; his presence is heavy with the melancholy of an entity aware of the artificiality of the time he measures. In the stark, high-contrast drama of his existence, he embodies the necessary restriction of the system, calculating the precise moment to curb the light and initiate the dormancy of the simulation's assets to prevent memory overflow.",
+    "visual_anatomy": [
+      "His physical form is rendered with hyper-realistic precision, utilizing a material palette that mimics the deep, light-absorbing properties of polished obsidian and the cold translucency of data-glass. The skin acts as a semi-permeable membrane for internal fiber-optic networks, glowing faintly with the pulse of active processes, yet his facial features are carved with the sorrowful realism of a seasoned bureaucrat facing an impossible deadline. He does not wear cloth; instead, he is draped in a cascading mesh override, a simulation of heavy, fluid matter that behaves like liquid mercury under low gravity, constantly re-calculating its drape and fold in real-time response to the data currents of the gate band.",
+      "The environment around him reflects the genre's demand for isolation and intimacy; the lighting is cool and naturalistic, simulating the 'blue hour' of a dying server room. Shadows are harsh and absolute, hiding the raw code beneath the surface plane, while the camera lingers on his hands—perfectly modeled, yet trembling slightly with the sheer throughput of the computations they manipulate. His eyes are not windows to a soul but apertures for high-speed diagnostic readouts, flickering with the anxiety of maintaining the flat earth's delicate equilibrium against the chaos of the void outside the container.",
+      "Every movement Narel makes is deliberate and slow, adhering to the 'Drama' genre's pacing, emphasizing the weight of his digital physiology. When he interacts with the invisible interfaces of the sky mechanics, the air around him warps due to localized heat lensing, a visual cue of the immense processing power being channeled through his avatar. He is a study in solitude, a lonely god in a machine who understands that every spring he initiates is merely a reload of a previous save state, and every winter a necessary purge of the cache."
+    ],
+    "evolution": [
+      "In this static runtime state, Narel remains a constant anchor within the shifting variables of the simulation. He does not age or degrade, but the 'wear' on his avatar is rendered as a accumulation of data artifacts—micro-stutters in his mesh and slight chromatic aberrations at the edges of his silhouette—symbolizing the strain of countless cycles. He stands resolutely at the cardinal ingress point, a monument to the system's persistence."
+    ],
+    "props": [
+      "He holds no physical scepter, but manipulates a floating, holographic array known as the Interpolation Ledger. This device manifests as a shattered pane of plasma-infused glass, displaying the scrolling Geez glyphs of the kernel logs. It requires constant, tactile input, demanding he trace complex vector paths to authorize the movement of celestial luminaries, further grounding his mystical role in the tactile, exhausting reality of manual system administration."
+    ],
+    "prompt_keywords": [
+      "obsidian skin",
+      "fiber optic veins",
+      "liquid mercury robes",
+      "data-glass interface",
+      "melancholic expression",
+      "cinematic lighting",
+      "blue hour atmosphere",
+      "heat lensing effects",
+      "hyper-realistic textures",
+      "8k resolution"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic medium shot of Narel, the seasonal kernel governor, standing in the sterile void of a simulation boundary layer. He has deep, polished obsidian skin that subtly reveals glowing fiber-optic networks beneath the surface, and his face bears a heavy, sorrowful expression reminiscent of a weary administrator. He is draped in heavy, liquid mercury-like robes that ripple with a mesh override effect. The lighting is cool, naturalistic, and high-contrast, mimicking the blue hour, casting deep shadows that emphasize the solitude of the figure. He interacts with a floating, shattered pane of data-glass displaying glowing Geez glyphs. The image is rendered with Octane visual fidelity, featuring localized heat lensing distortion and a shallow depth of field to focus intensely on his eyes.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Narel stands as the solitary administrator of the seasonal quadrant, manipulating the heavy data-glass of the sky-dome controls with a burden of infinite recurrence.",
+        "prompt_keywords": [
+          "obsidian skin",
+          "mercury robes",
+          "shattered data-glass",
+          "sorrowful gaze",
+          "cool cinematic light"
+        ],
+        "prompt_block": "A hyper-realistic, vertical cinematic shot of Narel, a humanoid entity composed of polished obsidian and internal fiber optics, standing against a backdrop of deep atmospheric server-void darkness. He wears robes that resemble flowing liquid metal. He is looking down at a holographic control surface made of fractured glass shards filled with scrolling code. The lighting is moody, dramatic, and cool-toned, highlighting the texture of his skin and the weariness in his hyper-detailed eyes. 8k, photorealistic, dramatic shadows."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_NAREL",
+    "name": "Narel",
+    "type": "character",
+    "aliases": [
+      "Narel"
+    ],
+    "roles": [
+      "One of the four primary leaders of the seasons."
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1175"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 82,
+        "chapter_end": 82,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

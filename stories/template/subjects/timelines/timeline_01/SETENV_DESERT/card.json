@@ -3,65 +3,30 @@
   "name": "desert",
   "type": "set_environment",
   "card": {
-    "description": "A vast, sun-scorched desert that blends ancient Ethiopian and Egyptian stonework with incomprehensible, glowing technology. The dunes are etched with luminous glyphs, and towering ruins of basalt and obsidian are interlaced with fiber‑optic cables that pulse with blue‑white light. In the foreground, a massive boulder shatters into floating binary code, its particles drifting upward against the heat haze. The scene is rendered in hyper‑realistic 8K, with cinematic lighting that emphasizes the tactile textures of sand, stone, and metal.",
-    "tags": [
-      "desert",
-      "ancient-tech",
-      "industrial mysticism",
-      "photorealistic",
-      "cinematic",
-      "tactile",
-      "Ethiopian",
-      "Egyptian",
-      "fiber‑optic",
-      "binary‑code",
-      "glowing",
-      "8k",
-      "9:16"
-    ],
+    "description": "Auto-generated asset card for desert.",
     "visual_anatomy": [
-      "**Body/Form:** Expansive dunes with rippled sand, cracked basalt outcrops, and towering obsidian monoliths bearing ancient glyphs.",
-      "**Face/Sensors:** Integrated solar‑panel lattices and bio‑luminescent glyphs embedded in stone, glowing faintly under the desert sun.",
-      "**Clothing/Armor:** Not applicable to the environment; the ruins themselves serve as armor, with metallic plating and gold inlay.",
-      "**Key Features:** Glowing blue‑white fiber‑optic cables snaking through ruins, a colossal boulder disintegrating into floating binary code particles, heat‑haze distortion, and reflective metallic surfaces."
+      "Traits: An arid landscape mentioned in a simile (በድው, badw).",
+      "Roles: landscape, metaphorical_setting"
     ],
     "evolution": [
-      "Phase 1 (Initial Landscape): Sun‑baked dunes, ancient basalt and obsidian ruins, subtle glyphs etched into stone, and a quiet, tactile desert ambience.",
-      "Phase 2 (Tech Overlay): Fiber‑optic cables pulse with light, a massive boulder shatters into floating binary code, and the environment is bathed in cinematic, hyper‑realistic lighting."
+      "Phase (Default)"
     ],
     "props": [
-      "Item: Boulder",
-      "Item: Fiber Optic Cables"
+      "TBD."
     ],
     "prompt_keywords": [
-      "desert",
-      "dunes",
-      "ancient ruins",
-      "fiber‑optic cables",
-      "glowing binary code",
-      "photorealistic",
-      "cinematic",
-      "8k",
-      "9:16"
+      "An arid landscape mentioned in a simile (በድው, badw)."
     ],
-    "prompt_block": "A hyper‑realistic 8K cinematic shot of a sun‑baked desert landscape in 9:16 aspect ratio, featuring towering dunes etched with luminous Ethiopian and Egyptian glyphs, ancient basalt and obsidian ruins interwoven with glowing blue‑white fiber‑optic cables, a massive boulder disintegrating into floating blue binary code particles that drift upward against a heat haze, all rendered with tactile sand textures, reflective metal surfaces, and dramatic cinematic lighting that emphasizes the fusion of ancient mysticism and incomprehensible technology.",
+    "prompt_block": "desert, An arid landscape mentioned in a simile (በድው, badw).",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Desert landscape with ancient ruins and advanced tech overlay.",
+        "summary": "",
         "prompt_keywords": [
-          "desert",
-          "dunes",
-          "ancient ruins",
-          "fiber‑optic cables",
-          "glowing binary code",
-          "photorealistic",
-          "cinematic",
-          "8k",
-          "9:16"
+          "An arid landscape mentioned in a simile (በድው, badw)."
         ],
-        "prompt_block": "A hyper‑realistic 8K cinematic shot of a sun‑baked desert landscape in 9:16 aspect ratio, featuring towering dunes etched with luminous Ethiopian and Egyptian glyphs, ancient basalt and obsidian ruins interwoven with glowing blue‑white fiber‑optic cables, a massive boulder disintegrating into floating blue binary code particles that drift upward against a heat haze, all rendered with tactile sand textures, reflective metal surfaces, and dramatic cinematic lighting that emphasizes the fusion of ancient mysticism and incomprehensible technology."
+        "prompt_block": "desert, An arid landscape mentioned in a simile (በድው, badw)."
       }
     ]
   },
@@ -73,23 +38,27 @@
       "desert"
     ],
     "roles": [
-      "landscape"
+      "landscape",
+      "metaphorical_setting"
     ],
-    "visual_traits": [],
+    "visual_traits": [
+      "An arid landscape mentioned in a simile (በድው, badw)."
+    ],
     "changes": [],
     "notes": [],
     "sources": [
+      "row_1135",
       "row_567",
       "row_586"
     ],
-    "occurrence_count": 2,
+    "occurrence_count": 6,
     "is_dynamic": false,
     "state_policy": "static",
     "states": [
       {
         "state_id": "default",
         "label": "Default",
-        "chapter_start": 72,
+        "chapter_start": 42,
         "chapter_end": 74,
         "segment_labels": [],
         "scene_labels": [],

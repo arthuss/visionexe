@@ -3,61 +3,25 @@
   "name": "Drum Chant",
   "type": "scene",
   "card": {
-    "description": "A cinematic, photorealistic depiction of a massive basalt drum carved with spiraling ancient Ethiopian and Egyptian glyphs, resting on a stone platform, surrounded by a reflective water basin. The drum emits a low-frequency hum, its rim lined with quartz crystal arrays pulsing with bioluminescent light. Performers in flowing linen robes embroidered with phosphorescent sigils chant, their movements synchronized with the resonant field. Bioluminescent moss clings to the stone, casting a soft glow, while crystal conduits snake across the platform, channeling energy. The scene is grounded in industrial mysticism, with tactile textures of stone, metal, and water, and a serious, cinematic tone.",
-    "tags": [
-      "drum",
-      "chant",
-      "earth",
-      "water",
-      "ancient-tech",
-      "industrial-mysticism",
-      "photorealistic",
-      "Ethiopian",
-      "Egyptian"
-    ],
+    "description": "Auto-generated asset card for Drum Chant.",
     "visual_anatomy": [
-      "**Body/Form:** Massive basalt drum, 3 m diameter, carved with concentric spirals and reinforced with obsidian ribs.",
-      "**Face/Sensors:** Quartz crystal arrays embedded along the rim, pulsing with bioluminescent light and emitting low‑frequency resonant pulses.",
-      "**Clothing/Armor:** Performers wear flowing linen robes with silver thread, embroidered with phosphorescent glyphs that glow in sync with the drum’s hum.",
-      "**Key Features:** Reflective water basin, crystal conduits snaking across the platform, bioluminescent moss, subtle mist, tactile stone and metal textures."
+      "Roles: earth and water"
     ],
     "evolution": [
-      "Phase 1 (Initial): Basalt drum with carved glyphs and basic resonant properties.",
-      "Phase 2 (Advanced): Integrated crystal conduits, bioluminescent moss, and a low‑frequency resonant field."
+      "Phase (Default)"
     ],
     "props": [
-      "Item: Drum of Resonance – a basalt drum with quartz crystal arrays.",
-      "Item: Water Vessel – a reflective basin that amplifies the drum’s vibrations."
+      "TBD."
     ],
-    "prompt_keywords": [
-      "ancient",
-      "Ethiopian",
-      "Egyptian",
-      "tech",
-      "drum",
-      "chant",
-      "earth",
-      "water",
-      "photorealistic",
-      "bioluminescent",
-      "crystal",
-      "moss"
-    ],
-    "prompt_block": "A cinematic, photorealistic depiction of a massive basalt drum carved with spiraling ancient Ethiopian and Egyptian glyphs, resting on a stone platform, surrounded by a reflective water basin. The drum emits a low-frequency hum, its rim lined with quartz crystal arrays pulsing with bioluminescent light. Performers in flowing linen robes embroidered with phosphorescent sigils chant, their movements synchronized with the resonant field. Bioluminescent moss clings to the stone, casting a soft glow, while crystal conduits snake across the platform, channeling energy. The scene is grounded in industrial mysticism, with tactile textures of stone, metal, and water, and a serious, cinematic tone.",
+    "prompt_keywords": [],
+    "prompt_block": "Drum Chant, earth and water",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Initial drum chant scene with basic resonant properties.",
-        "prompt_keywords": [
-          "basalt",
-          "glyphs",
-          "quartz",
-          "bioluminescent",
-          "water",
-          "moss"
-        ],
-        "prompt_block": "A cinematic, photorealistic depiction of a massive basalt drum carved with spiraling ancient Ethiopian and Egyptian glyphs, resting on a stone platform, surrounded by a reflective water basin. The drum emits a low-frequency hum, its rim lined with quartz crystal arrays pulsing with bioluminescent light. Performers in flowing linen robes embroidered with phosphorescent sigils chant, their movements synchronized with the resonant field. Bioluminescent moss clings to the stone, casting a soft glow, while crystal conduits snake across the platform, channeling energy. The scene is grounded in industrial mysticism, with tactile textures of stone, metal, and water, and a serious, cinematic tone."
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Drum Chant, earth and water"
       }
     ]
   },
@@ -77,7 +41,7 @@
     "sources": [
       "row_354"
     ],
-    "occurrence_count": 1,
+    "occurrence_count": 2,
     "is_dynamic": false,
     "state_policy": "static",
     "states": [

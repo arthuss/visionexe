@@ -1,10 +1,9 @@
 ## [STATE] Rain :: Default
 **State ID:** default
-**Chapters:** 14 - 89
+**Chapters:** 2 - 101
 
-**Phase Summary:** Spherical glass rain droplets with ancient glyphs, reflecting environment, bioluminescent glow.
-**Phase Keywords:** glassy spheres, ancient glyphs, bioluminescent core, reflective surface, Ethiopian motifs, Egyptian motifs, industrial mysticism, photorealistic, cinematic, high contrast, 8k
+**Phase Keywords:** A meteorological phenomenon that emerges when the winds blow., Used in a simile to describe Iniquity's arrival (ዝናም, zənām)., descends from heaven, drops, rests upon the earth, {'description': 'A form of precipitation that rests upon the earth.'}
 **Phase Prompt:**
-Vertical 9:16 macro shot of rain frozen in mid‑air in a dark jungle, each droplet a perfectly spherical glass marble 3–5 cm in diameter, etched with ancient Ethiopian and Egyptian glyphs and faint gold filigree, reflecting the surrounding foliage with photorealistic fidelity, a subtle bioluminescent core glowing softly, high depth of field, cinematic lighting, 8k resolution, industrial mysticism aesthetic, no cartoon or generic sci‑fi elements
+Rain, A meteorological phenomenon that emerges when the winds blow., Used in a simile to describe Iniquity's arrival (ዝናም, zənām)., descends from heaven, drops, rests upon the earth, {'description': 'A form of precipitation that rests upon the earth.'}
 
 ---

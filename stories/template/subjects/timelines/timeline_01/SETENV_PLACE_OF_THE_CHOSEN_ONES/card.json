@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_PLACE_OF_THE_CHOSEN_ONES",
+  "name": "place of the chosen ones",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for place of the chosen ones.",
+    "visual_anatomy": [
+      "Traits: A place of righteousness and faith.",
+      "Roles: A specific location in heaven"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A place of righteousness and faith."
+    ],
+    "prompt_block": "place of the chosen ones, A place of righteousness and faith.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A place of righteousness and faith."
+        ],
+        "prompt_block": "place of the chosen ones, A place of righteousness and faith."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_PLACE_OF_THE_CHOSEN_ONES",
+    "name": "place of the chosen ones",
+    "type": "set_environment",
+    "aliases": [
+      "place of the chosen ones"
+    ],
+    "roles": [
+      "A specific location in heaven"
+    ],
+    "visual_traits": [
+      "A place of righteousness and faith."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1132"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 39,
+        "chapter_end": 39,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_BEMOR_AL",
+  "name": "Bemor'al",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Bemor'al.",
+    "visual_anatomy": [
+      "Traits: Ge'ez: በሞረአል",
+      "Roles: Chief of the 200 angels."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Ge'ez: በሞረአል"
+    ],
+    "prompt_block": "Bemor'al, Ge'ez: በሞረአል",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Ge'ez: በሞረአል"
+        ],
+        "prompt_block": "Bemor'al, Ge'ez: በሞረአል"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_BEMOR_AL",
+    "name": "Bemor'al",
+    "type": "character",
+    "aliases": [
+      "Bemor'al"
+    ],
+    "roles": [
+      "Chief of the 200 angels."
+    ],
+    "visual_traits": [
+      "Ge'ez: በሞረአል"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1100"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 6,
+        "chapter_end": 6,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

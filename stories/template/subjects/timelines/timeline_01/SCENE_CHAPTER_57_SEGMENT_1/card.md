@@ -1,28 +1,20 @@
 ## [SCENE] Chapter 57 Segment 1 (ID: SCENE_CHAPTER_57_SEGMENT_1)
-**Description:** The Abyssal Monolith, a towering stone relic at the center of the chamber, merges ancient Ethiopian and Egyptian motifs with incomprehensible technology. Its basalt surface is etched with Amharic and hieroglyphic glyphs that pulse in a bioluminescent blue, revealing hidden circuitry beneath. Embedded within the monolith are crystalline cores that refract light into a spectrum of shifting colors, while a network of copper and obsidian conduits snakes across its base, connecting to unseen power sources. The monolith emits a low, resonant hum, hinting at a vast, dormant engine that could rewrite reality. Its presence dominates the scene, drawing the characters into a moment of awe and dread as the ancient tech awakens.
-**Tags:** #ancient-tech #industrial-mysticism #Ethiopian #Egyptian #bioluminescence #crystalline #glyphs #photorealistic #grounded realism
+**Description:** Auto-generated asset card for Chapter 57 Segment 1.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** A monolithic structure of dark basalt, 12 meters tall, with four towering columns that taper into a central spire. The stone is weathered yet pristine, with veins of translucent quartz running through its core. The surface is covered in intricate Amharic and Egyptian glyphs that glow softly, revealing faint circuitry beneath.
-*   **Face/Sensors:** The central spire houses a crystalline core that emits a soft blue bioluminescence. Embedded sensor arrays—tiny silver prisms—are scattered across the columns, reflecting light and reacting to touch. The glyphs pulse rhythmically, indicating data transmission.
-*   **Clothing/Armor:** Not applicable; the monolith is a static artifact, not a wearable entity.
-*   **Key Features:** 1) Bioluminescent glyphs that shift in color and intensity. 2) Embedded crystalline cores that refract light. 3) Copper and obsidian conduits forming a network of power lines. 4) A resonant hum emanating from the core, suggesting an active engine. 5) Weathered stone with a faint, almost imperceptible, metallic sheen.
+TBD.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Activation): The monolith's glyphs flicker to life, emitting a low hum as the crystalline cores begin to glow. The copper conduits light up, indicating power flow. 2) Phase 2 (Full Operation): The glyphs pulse in a synchronized pattern, the crystalline cores flare, and the monolith projects a holographic map of the surrounding environment, revealing hidden chambers and pathways.
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Ancient Scroll of Amharic Glyphs, bound in leather and etched with the same symbols as the monolith. 2) Item: Runic Key, a polished obsidian blade with a crystalline core, used to activate the monolith.
-
-### 4. AI PROMPT KEYWORDS
-`stone monolith`, `crystalline circuitry`, `bioluminescent glyphs`, `Ethiopian`, `Egyptian`, `industrial mysticism`, `photorealistic`, `grounded realism`
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
-A towering stone monolith, 12 meters tall, made of dark basalt with veins of translucent quartz, stands in a dimly lit chamber. The surface is etched with intricate Amharic and Egyptian glyphs that glow in a soft blue bioluminescence, revealing hidden circuitry beneath. Embedded crystalline cores refract light into shifting colors, while copper and obsidian conduits snake across the base, connecting to unseen power sources. The monolith emits a low, resonant hum, hinting at a dormant engine. The scene is rendered photorealistically, with a grounded, industrial mysticism tone, emphasizing tactile textures and realistic light behavior.
+Chapter 57 Segment 1,
 
 ### 6. PHASE PROMPTS
-*   **Default:** The monolith is in its dormant state, glyphs faintly glowing, conduits dark.
-    Prompt: A towering stone monolith, 12 meters tall, made of dark basalt with veins of translucent quartz, stands in a dimly lit chamber. The surface is etched with intricate Amharic and Egyptian glyphs that glow faintly in a soft blue bioluminescence, revealing hidden circuitry beneath. Embedded crystalline cores refract light into subtle colors, while copper and obsidian conduits snake across the base, mostly dark and dormant. The monolith emits a barely audible hum, hinting at a dormant engine. The scene is rendered photorealistically, with a grounded, industrial mysticism tone, emphasizing tactile textures and realistic light behavior.
-    Keywords: stone monolith, faint bioluminescence, dark conduits, ancient-tech
+*   **Default:**
+    Prompt: Chapter 57 Segment 1,
 
 ---

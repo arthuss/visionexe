@@ -1,0 +1,83 @@
+{
+  "id": "CHAR_THE_BLINDED_ONES",
+  "name": "the blinded ones",
+  "type": "character",
+  "card": {
+    "description": "In the processing cycle designated as the Sixth Week, the Blinded Ones manifest as a corrupted user class within the simulation container, their read/write permissions to the kernel's wisdom continuously denied. They represent a tragic demographic of the runtime, entities whose internal 'hearts'—the core processing nodes responsible for intuitive logic and ethical routing—have been throttled by a system-wide obfuscation layer. Unlike the corrupted avatars of the Rift, these figures are victims of a specific firmware degradation; they wander the procedural geometry of the surface plane, physically present but digitally sequestered. They cannot perceive the intricate lattice of the Sky Dome or the functioning of the Gate Bands, for their rendering pipelines have been hijacked by localized noise and false heuristic data. They are the forgotten executables, looping in a state of spiritual buffer underrun, disconnected from the central network truth and condemned to process only the immediate, low-fidelity input of their surroundings.",
+    "visual_anatomy": [
+      "Their physical avatars are draped in heavy, layered synthetics that suggest deprecated fashion protocols from previous simulation epochs—muted charcoals, deep navies, and oxidized greys that absorb the harsh plasma lighting of the environment. The fabrics appear high-quality but neglected, with microscopic fraying along the seams visible in close-up, symbolizing their drift from system maintenance.",
+      "The defining visual characteristic of the Blinded Ones is the occlusion of their optical sensors. Many wear seamless bands of matte obsidian fused directly to their cranial geometry, completely blocking external light and forcing reliance on a degraded, internal HUD that displays only static. Others reveal eyes that have calcified into milky, opaque data-glass, swirling with faint, illegible vector fields that prevent focus on any external object. Their facial expressions are slack, marked by the vacant neutrality of a suspended process.",
+      "The lighting around them is consistently dramatic and isolating. They are often framed in high-contrast chiaroscuro, with cool, artificial light sources—like the neon hum of data kiosks or the distant glow of the egress gates—rim-lighting their silhouettes while their faces remain obscured in shadow. This visual treatment emphasizes their profound solitude even when they congregate in dense clusters."
+    ],
+    "evolution": [
+      "The state of 'blindness' is a progressive corruption rather than a sudden glitch. Initially initialized as standard Voyagers with full network access, these entities suffered from the thermal throttling of the Sixth Week's high-computational demand. The system's 'forget wisdom' subroutine slowly overwrote their long-term memory banks and ethical subroutines with short-term, reactive loops.",
+      "Over time, their avatars ceased to update. The vibrant, light-emitting accents typical of connected users dimmed and solidified into inert matter. Their movement patterns shifted from purposeful navigation to random walks, driven by algorithmic noise rather than intent. They eventually became fixtures of the background simulation, cautionary static meshes that the active Henoch-phases must navigate around."
+    ],
+    "props": [
+      "They are frequently seen clutching obsolete interface tablets—'slates' of cracked polymer and dead glass. These devices display only garbled telemetry or comforting, false feedback loops in low-resolution amber text, which the Blinded Ones stare at obsessively, preferring the comfortable lie of the screen to the reality they can no longer see.",
+      "Severed fiber-optic tethers often drag behind them or dangle uselessly from ports at their wrists and necks. These cables, once used for high-bandwidth uplink to the upper store, now trail on the ground like vestigial tails, gathering dust and serving as a poignant symbol of their permanent disconnection from the host."
+    ],
+    "prompt_keywords": [
+      "cinematic drama",
+      "obsidian eyewear",
+      "opaque data-glass eyes",
+      "high contrast lighting",
+      "muted cold tones",
+      "technological tragedy",
+      "severed fiber-optics",
+      "shallow depth of field",
+      "hyper-realistic textures",
+      "simulation glitch aesthetics"
+    ],
+    "prompt_block": "photorealistic cinematic shot of The Blinded Ones, a group of tragic figures in a dystopian simulation environment, wearing heavy deprecated synthetic clothing in muted charcoal and navy. Their eyes are completely obscured by seamless bands of matte obsidian or replaced by milky opaque data-glass. They stand slumped in a high-contrast environment, lit by harsh cool neon plasma lights, deep shadows obscuring their faces. They hold cracked, obsolete data tablets displaying static. Severed fiber-optic cables dangle from their wrists. The atmosphere is heavy with isolation and digital decay, dramatic lighting, 8k resolution, highly detailed textures.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "The Sixth Week Degradation",
+        "summary": "The Blinded Ones wandering the simulation in a state of disconnected stupor, their optical sensors blocked by obsidian or noise. They are isolated figures in a crowded system, clutching useless devices.",
+        "prompt_keywords": [
+          "matte black visors",
+          "milky eyes",
+          "severed cables",
+          "static screens",
+          "loneliness"
+        ],
+        "prompt_block": "medium shot, cinematic drama, The Blinded Ones wandering a sleek but cold simulation corridor, wearing matte obsidian visors that cover their eyes, heavy textured dark clothing, clutching glowing tablets with cracked screens showing noise, severed fiber optic cables dragging on the floor, high contrast lighting, cool color palette, shallow depth of field, hyper-realistic, octane render."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_BLINDED_ONES",
+    "name": "the blinded ones",
+    "type": "character",
+    "aliases": [
+      "the blinded ones"
+    ],
+    "roles": [
+      "character_group"
+    ],
+    "visual_traits": [
+      "{'description': 'All those who will be in the sixth week, whose hearts will be blinded and forget wisdom.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1186"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 93,
+        "chapter_end": 93,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

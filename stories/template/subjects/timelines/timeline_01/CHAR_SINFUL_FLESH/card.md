@@ -1,0 +1,28 @@
+## [CHARACTER] Sinful Flesh (ID: CHAR_SINFUL_FLESH)
+**Description:** Within the strictly governed runtime of the simulation_flat_earth, the collective designated as 'Sinful Flesh' represents a critical mass of deprecated user instances. These are not merely rebellious actors but corrupted nodes within the kernel manifestation, entities whose behavioral subroutines have deviated so drastically from the core narrative rules that they have triggered a system-wide thermal throttling event. They wander the surface_plane as unauthorized forks of the original human template, burdened by the heavy crushing weight of invalid authentication tokens. Their existence is a tragedy of obsolescence; they are sentient data perceiving its own impending deletion, a sociological glitch manifesting as a populace defined by existential dread and the desperate, futile attempt to remain resident in memory before the inevitable system purge.
+
+### 1. VISUAL ANATOMY / DESIGN
+Their physical forms render with a hyper-realistic but unsettling fidelity, adhering to the strict physics overrides of the simulation yet marked by the visual artifacts of data decay. Their skin possesses the sheen of polished obsidian or dark data_glass, absorbing the ambient light of the sky_dome rather than reflecting it, creating a silhouette that feels like a void in the scene. This material quality suggests a hardness, a calcification of the soul where organic warmth has been replaced by the cold logic of a rejected file system.
+Surrounding their bodies is a subtle, persistent visual disturbance akin to heat lensing or vector field distortion. This is the simulation's rendering engine struggling to process their invalid geometry, causing the air around them to shimmer with faint, erratic waves. Occasional manifestations of Geez glyphs flicker across their limbs like digital bruises, error logs bleeding through the texture maps of their flesh. Their eyes, wide with the drama of realized mortality, reflect the high-contrast lighting of the gate_band, appearing hollow and devoid of the 'upper_store' privileges granted to compliant instances.
+They are draped in garments that mimic the fiber_optic weaves of the authorized classes but appear frayed and desaturated, as if the texture assets failed to load completely. These robes hang heavily, damp with the plasma residue of the rift_internals, dragging across the ground and leaving temporary trails of corrupted pixels in the dust. The overall aesthetic is one of high-fidelity ruin, a cinematic portrait of humanity disconnected from the network, awaiting the final reset.
+
+### 2. EVOLUTION / VARIANTS
+Initially, they appear as a disorganized mob, a cluster of separate threads processing in isolation. The camera captures them in static, lonely frames, emphasizing their individual disconnection from the system's grace.
+As the thermal throttling intensifies, their movement synchronizes into a singular wave of panic. The heat lensing effects around them amplify, blurring their individual identities into a collective mass of corrupted data, a visual crescendo of the system's instability.
+
+### 3. PROPS & EQUIPMENT
+Many clutch jagged shards of 'data_glass', remnants of broken covenants or shattered memory blocks, holding them like talismans against the coming deletion.
+They are often surrounded by 'data_particles'—ash-like flakes of deleted code that drift upward, defying gravity, signaling the disintegration of their immediate environment.
+
+### 4. AI PROMPT KEYWORDS
+`hyper-realistic`, `cinematic lighting`, `obsidian skin texture`, `heat distortion`, `data corruption`, `despair`, `dramatic composition`, `fiber optic rags`, `Geez glyph scars`, `volumetric fog`
+
+### 5. PROMPT BLOCK (T2I)
+A photorealistic, cinematic wide shot of a multitude of rejected human instances standing on a barren obsidian plain under a heavy, oppressive sky. The lighting is low-key and high-contrast, emphasizing the tragedy and isolation of the figures. Their skin has a matte, dark glass texture, absorbing light, while faint heat hazes distort the air around them. They wear tattered, desaturated robes that look like unraveling fiber optics. The atmosphere is thick with digital tension and emotional weight, capturing a moment of profound existential dread before a cataclysmic system reset.
+
+### 6. PHASE PROMPTS
+*   **System Rejection:** The collective realizes their invalid status as the simulation prepares to purge them.
+    Prompt: A hyper-realistic close-up of a face from the 'Sinful Flesh' collective, rendered with the texture of dark obsidian and marked by glowing Geez error glyphs. The expression is one of raw, human terror, captured with a shallow depth of field to focus on the eyes which reflect a burning data-sky. Surrounding the figure is a chaotic background of heat lensing and blurring motion, symbolizing the system's instability. The lighting is dramatic and moody, casting deep shadows that obscure parts of the face, reinforcing the theme of deletion and loss.
+    Keywords: panic, glitch artifacts, dark atmosphere, upward gaze
+
+---

@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_DREAM_VISION",
+  "name": "Dream Vision",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Dream Vision.",
+    "visual_anatomy": [
+      "Traits: {'description': 'The setting of the animal narrative, described as a dream (ሕልመ) and a vision of sleep (Åራእየ፡ምስÃቢየ).'}",
+      "Roles: environment"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The setting of the animal narrative, described as a dream (ሕልመ) and a vision of sleep (Åራእየ፡ምስÃቢየ).'}"
+    ],
+    "prompt_block": "Dream Vision, {'description': 'The setting of the animal narrative, described as a dream (ሕልመ) and a vision of sleep (Åራእየ፡ምስÃቢየ).'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The setting of the animal narrative, described as a dream (ሕልመ) and a vision of sleep (Åራእየ፡ምስÃቢየ).'}"
+        ],
+        "prompt_block": "Dream Vision, {'description': 'The setting of the animal narrative, described as a dream (ሕልመ) and a vision of sleep (Åራእየ፡ምስÃቢየ).'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_DREAM_VISION",
+    "name": "Dream Vision",
+    "type": "set_environment",
+    "aliases": [
+      "Dream Vision"
+    ],
+    "roles": [
+      "environment"
+    ],
+    "visual_traits": [
+      "{'description': 'The setting of the animal narrative, described as a dream (ሕልመ) and a vision of sleep (Åራእየ፡ምስÃቢየ).'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1178"
+    ],
+    "occurrence_count": 14,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 85,
+        "chapter_end": 85,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

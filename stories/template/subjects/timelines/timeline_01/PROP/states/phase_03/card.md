@@ -3,9 +3,8 @@
 **Chapters:** 73 - 108
 **Notes:** none
 
-**Phase Summary:** Fully powered, energy output, used as light source.
-**Phase Keywords:** energy core, light source, industrial
+**Phase Keywords:** A metaphorical 'cloud of water' representing an endless source of tears., A metaphorical heart, afflicted with sorrow., A metaphorical yoke of iniquity described as heavy., Metaphorical hands representing power and control, into which sinners will be delivered., Tears that flow like a 'cloud of water'., air, bright, burning, drum, fire, flaming, glowing
 **Phase Prompt:**
-The drum’s core now channels intense blue light, illuminating the chamber, glyphs glow brighter, mechanical drumhead visible, photorealistic, cinematic, tactile.
+ድባር, A metaphorical 'cloud of water' representing an endless source of tears., A metaphorical heart, afflicted with sorrow., A metaphorical yoke of iniquity described as heavy., Metaphorical hands representing power and control, into which sinners will be delivered., Tears that flow like a 'cloud of water'., air, bright, burning, drum, fire, flaming, glowing, gold, image, light, luminous, spoken, stack of books, sun, unknown, water, Phase 3
 
 ---

@@ -1,0 +1,82 @@
+{
+  "id": "CHAR_ROOT_CUTTERS",
+  "name": "Root-cutters",
+  "type": "character",
+  "card": {
+    "description": "In the unauthorized sub-processes of the simulation's runtime, the Root-cutters operate as the original hackers of the biological kernel. Tutored by the Watcher-daemons who first breached the sky-dome's firewall, these practitioners do not merely harvest organic matter; they excavate the substrate of the flat-earth system to access the hard-lines buried beneath the texture maps. They are the illicit engineers of the surface plane, seeking the 'roots'—the glowing, fiber-optic arteries and data-buses that carry the raw variable definitions for the world's physics. By severing and splicing these conduits, they bypass the authorized thermal throttling of the system, injecting unauthorized command sequences directly into the environment's logic. Their trade is one of dangerous precision; a single slip with their obsidian blades can trigger a kernel panic or unleash a localized vector field collapse, yet they persist, driven by the forbidden knowledge that the world is a construct that can be rewritten from the bottom up.",
+    "visual_anatomy": [
+      "The Root-cutters are defined by the grime of the substrate; their hands and garments are stained with the digital loam of the simulation's deep layers. They wear utilitarian, high-friction gear—repurposed fabrics that absorb light to evade the gaze of the upper-store monitoring algorithms. Their silhouettes are hunched and predatory, often framed against the stark, high-contrast void of the unrendered boundaries where they do their work. They appear not as mystics, but as desperate technicians working in the shadows of a massive server farm, their faces illuminated only by the unstable flicker of the data-streams they unearth.",
+      "The 'roots' they seek are visualized as bioluminescent cables pulsing with plasma-like data flow, half-organic and half-synthetic, embedded deep within the rocky mesh of the earth. When exposed, these roots cast a harsh, unnatural light—neon violets and sickly greens—that throws the cutters' features into sharp relief. The act of cutting is visceral; it requires immense physical force and delicate handling of volatile energy. The severed ends of the roots leak viscous code, a glowing fluid that defies standard fluid dynamics, evaporating into floating geez-glyphs and error particles.",
+      "Their tools are primitive yet terrifyingly effective interface devices fashioned from obsidian and scavenged data-glass. These blades are not metal but crystallized void, sharpened to a mono-molecular edge capable of slicing through the simulation's collision geometry. Some carry modified inductive couplers that hum with low-frequency resonance, used to detect the magnetic fields of active data-lines buried meters beneath the surface. The visual language is one of crude industrial espionage meets ancient ritual—fiber optics spliced with stone knives, system overrides executed with blood and dirt."
+    ],
+    "evolution": [
+      "In this static phase of the narrative, the Root-cutters are captured in the initial spread of the contagion—the moment the forbidden APIs were first exposed to the human runtime instances. They are diligent, almost trancelike, obsessed with the new input methods provided by the Watchers. There is no remorse, only the intoxicating feedback loop of gaining read/write access to a universe that was previously read-only."
+    ],
+    "props": [
+      "The primary tool is the 'Root-Severing Blade,' a jagged shard of volcanic glass or obsidian that functions as a hardware interrupt key. It does not reflect light but absorbs it, appearing as a tear in the video feed until it strikes the glowing root. Upon contact, the blade may spark with discharged plasma, acting as a ground for the surge of raw data released from the severed cable.",
+      "The 'Roots' themselves act as props within the scene—tangled, glowing networks that resemble nervous systems stripped bare. They are the physical manifestation of the simulation's dependency injection lines. When handled, they pulse in response to the bio-electric field of the cutter, suggesting a parasitic compatibility between the user and the system's backend."
+    ],
+    "prompt_keywords": [
+      "cyber-archaeology",
+      "obsidian blade",
+      "glowing fiber-optic roots",
+      "underground server cables",
+      "plasma bleed",
+      "high contrast chiaroscuro",
+      "gritty realism",
+      "unauthorized access",
+      "data-glass",
+      "system manual aesthetic"
+    ],
+    "prompt_block": "Hyper-realistic cinematic shot, 9:16 vertical frame. Low-angle close-up of a Root-cutter's hands, stained with dark earth and grease, gripping a jagged obsidian knife. The blade is buried into the ground, severing a thick, pulsing root that glows with intense violet plasma light. The root looks like a biological fiber-optic cable, leaking liquid data that vaporizes into faint, floating Ge'ez glyphs. The lighting is extremely high contrast—deep, crushed blacks in the shadows and blinding highlights from the severed data-vein. The texture of the dirt is hyper-detailed, showing individual pebbles and the synthetic mesh underlying the soil. The atmosphere is tense, heavy with the feeling of illicit industrial sabotage. Photorealistic octane render, pbr textures, volumetric fog, dramatic noir lighting.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "The Severing",
+        "summary": "The Root-cutters are shown in the act of breaching the simulation's floor, exposing the glowing infrastructure beneath. They use primitive obsidian tools to hack into the advanced photonic cabling of the world-system.",
+        "prompt_keywords": [
+          "digging",
+          "severed cable",
+          "liquid light",
+          "hacking the earth",
+          "forbidden tech"
+        ],
+        "prompt_block": "Cinematic wide shot, camera positioned at ground level. A figure hunched over in a dark, rocky landscape, illuminated solely by the glow of a severed root in the ground. The root emits a sputtering, neon-blue plasma light that illuminates the figure's intense, focused face. The figure holds a shard of black glass, preparing to make another cut. The surrounding darkness suggests a void, with only the immediate area rendered in high fidelity. The aesthetic is gritty, grounded sci-fi meets ancient earth. ISO 100, sharp focus, physically based rendering of wet earth and glowing plasma."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ROOT_CUTTERS",
+    "name": "Root-cutters",
+    "type": "character",
+    "aliases": [
+      "Root-cutters"
+    ],
+    "roles": [
+      "Practitioner of forbidden arts"
+    ],
+    "visual_traits": [
+      "{'description': 'Those who cut roots for magical or medicinal purposes.', 'source_text_ref': 'መታርያን፡\\u200bሥርዋት'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1101"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 8,
+        "chapter_end": 8,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_THE_HEAVENLY_HOST",
+  "name": "the heavenly host",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for the heavenly host.",
+    "visual_anatomy": [
+      "Traits: {'description': 'The entire host and council from above the heavens who stand before the throne of the Head of Days.'}",
+      "Roles: attendants"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The entire host and council from above the heavens who stand before the throne of the Head of Days.'}"
+    ],
+    "prompt_block": "the heavenly host, {'description': 'The entire host and council from above the heavens who stand before the throne of the Head of Days.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The entire host and council from above the heavens who stand before the throne of the Head of Days.'}"
+        ],
+        "prompt_block": "the heavenly host, {'description': 'The entire host and council from above the heavens who stand before the throne of the Head of Days.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_HEAVENLY_HOST",
+    "name": "the heavenly host",
+    "type": "character",
+    "aliases": [
+      "the heavenly host"
+    ],
+    "roles": [
+      "attendants"
+    ],
+    "visual_traits": [
+      "{'description': 'The entire host and council from above the heavens who stand before the throne of the Head of Days.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1138"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 47,
+        "chapter_end": 47,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

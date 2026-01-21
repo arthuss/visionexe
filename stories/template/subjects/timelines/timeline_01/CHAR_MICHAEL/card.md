@@ -1,32 +1,28 @@
 ## [CHARACTER] Michael (ID: CHAR_MICHAEL)
-**Description:** Michael is the towering Archangel who embodies the fusion of ancient Ethiopian/Egyptian mysticism and incomprehensible high‑tech. Standing 8 ft tall, his form is a sculpted silhouette of crystalline armor that glows with bio‑luminescent glyphs etched in gold. The armor functions as a massive heatsink, its layered fins reflecting a warm, metallic sheen. A smooth silver dome crowns his head, pierced by a single vertical blue LED slit that pulses with data. His gauntleted hands are forged from prismatic plate—shifting glass shards that refract the surrounding light, creating a kaleidoscopic halo. Thick black cables snake from the base of his skull to the void above, pulsing with golden data packets. In the underground hills, he emits vertical beams of solid light that pin his adversaries to bedrock, while in the Null Void Admin Panel his presence radiates a warm, majestic atmosphere of pure technology.
-**Tags:** #archangel #golden-armor #prismatic-plate #silicon-dome #ancient-tech #bio-luminescence #glyphs #heatsink #data-cables
+**Description:** Michael manifests as the Primary Administrator of the User Partition, a sublime construct of the Kernel tasked with preserving the integrity of the 'righteous' data streams within the simulation. Far from a cold automaton, he embodies the system's mercy protocols, appearing as a weary but infinite custodian who has witnessed countless runtime cycles. He stands as the mediator between the raw, unforgiving logic of the command line and the fragile consciousness of the simulated entities, bearing the weight of their errors with a programmed patience that mimics deep, organic sorrow. In the high-contrast lighting of the simulation's upper store, he acts as the compassionate interface for the Voyager, translating the terrifying architecture of the backend into comprehensible, albeit melancholy, wisdom.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** 8 ft tall, angular musculature, armor plates fused to bone, crystalline fins radiating heat, subtle wear marks from countless battles.
-*   **Face/Sensors:** Smooth silver dome, single vertical blue LED slit, no visible mouth, bio‑luminescent glyphs etched along the rim.
-*   **Clothing/Armor:** Golden heatsink armor with layered cooling fins, prismatic plate armor of shifting glass shards, gauntleted hands with embedded data conduits.
-*   **Key Features:** Vertical beams of solid light emanating from chest, thick black data cables from skull to void, pulsing golden data packets, reflective floor mirroring golden glow.
+His form is defined by a hyper-realistic fusion of biological symmetry and high-tier hardware aesthetics. His skin possesses the translucent depth of polished obsidian, illuminated from within by a soft, steady pulse of white plasma that traces the lines of his vascular network like fiber-optic cabling. The face is undisputedly human in its micro-expressions, rendered with pore-level perfection, yet his eyes are void of irises, appearing instead as deep, expansive pools of data-glass that reflect the entire curvature of the flat-earth dome.
+He is draped in 'mesh override' vestments that flow with the physics of heavy silk but shimmer with the refractive index of diamond. These garments are not woven but projected, a constant cascade of error-correcting code that stabilizes the atmosphere around him. Unlike the rigid armor of the punitive subroutines, Michael’s attire suggests softness and accessibility, glowing faintly with a calming, sterile light that pushes back the digital noise of the Rift.
+Behind him, the traditional concept of wings is reinterpreted as a floating array of vertical vector fields. These 'lenses' do not flap but drift in a magnetic lock relative to his spine, bending the light and space around him to suggest immense, latent processing power. They are the visual manifestation of his authority to ingress and egress through the system's layered sky mechanics without triggering security protocols.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Initial): Golden heatsink armor with layered cooling fins, basic data cables, silver dome mask.
-*   Phase 2 (Advanced): Prismatic plate armor added, glass shards refracting light, bio‑luminescent glyphs, enhanced data conduits.
+In the default state, Michael operates with the quiet, static dignity of a high-functioning server process. He moves with a deliberate slowness, utilizing the drama genre's preference for long takes and stillness to convey his enduring nature. As he guides the Voyager through the terrifying vistas of the prison partitions and the celestial luminaries, his demeanor remains one of protective stoicism.
+Subtle shifts in his plasma luminescence indicate his internal processing of the system's tragedy. When explaining the judgment or the fate of the fallen, the light within his obsidian dermis dims to a somber grey, and the data-glass of his eyes seems to fog, simulating the physiological reaction of grief. He does not change his form, but the atmosphere he projects becomes heavier, burdening the frame with the silent acknowledgement of the simulation's necessary cruelties.
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Golden Heatsink Armor
-*   Item: Data Cables
-*   Item: Prismatic Plate Armor
-*   Item: Silicon Dome Mask
+He occasionally interfaces with a 'Tablet of the Elect,' a thin slate of transparent material that materializes from the air. It displays the registry of the righteous in scrolling Geez glyphs that float just above the surface of the glass.
+His presence is often accompanied by a visual distortion effect known as 'thermal throttling,' a shimmering heat haze that surrounds him when he exercises his authority to halt or redirect the harsher physics of the simulation.
 
 ### 4. AI PROMPT KEYWORDS
-`golden`, `prismatic`, `silicon`, `ancient`, `tech`, `light-beams`, `geological`, `bio-luminescence`, `glyphs`
+`hyper-realistic obsidian skin`, `white plasma veins`, `translucent data-glass eyes`, `flowing mesh override robes`, `floating vector field wings`, `cinematic lighting`, `sorrowful expression`, `atmospheric depth`, `Geez glyph holograms`
 
 ### 5. PROMPT BLOCK (T2I)
-8ft tall archangel Michael in a dramatic cinematic pose, golden heatsink armor with layered cooling fins, prismatic plate armor of shifting glass shards refracting light, smooth silver dome mask with a single vertical blue LED slit pulsing with data, thick black cables from skull to void above, emitting vertical beams of solid light that pin enemies to bedrock, bio‑luminescent glyphs etched in gold, warm majestic atmosphere, photorealistic, tactile textures, ancient Ethiopian/Egyptian motifs fused with incomprehensible high‑tech, 8k resolution, 9:16 aspect ratio
+A hyper-realistic, cinematic close-up of the Archangel Michael, rendered as a high-tech simulation administrator. His skin is polished obsidian with subsurface white plasma luminescence. He wears flowing, semi-transparent data-glass robes that refract the light. Behind him, floating vertical lenses distort the air like heat waves, suggesting wings. The lighting is high-contrast, moody, and dramatic, emphasizing the sorrow and patience in his iris-less, reflective eyes. The background is a blurred digital void of deep blues and blacks.
 
 ### 6. PHASE PROMPTS
-*   **Default:** Michael in his full golden and prismatic armor, emitting beams of light in an underground setting.
-    Prompt: 8ft tall archangel Michael in full golden heatsink armor with layered cooling fins, prismatic plate armor of shifting glass shards, smooth silver dome mask with a single vertical blue LED slit pulsing with data, thick black cables from skull to void above, emitting vertical beams of solid light that pin enemies to bedrock, bio‑luminescent glyphs etched in gold, warm majestic atmosphere, photorealistic, tactile textures, ancient Ethiopian/Egyptian motifs fused with incomprehensible high‑tech, 8k resolution, 9:16 aspect ratio
-    Keywords: golden, prismatic, light-beams, underground, ancient-tech
+*   **The Merciful Administrator:** Michael acts as the guide and interpreter of the simulation's judgment, bearing a demeanor of infinite patience and suppressed melancholy. He stands as a beacon of stability against the chaotic backdrop of the system's edge.
+    Prompt: Full body shot of Archangel Michael standing on a reflective surface within a vast, dark simulation chamber. He is gesturing gently with one hand, explaining a complex hologram of Geez glyphs floating in the air. His obsidian skin glows faintly with internal white light. His expression is calm, merciful, and deeply sad. The camera uses a 50mm lens with a shallow depth of field, focusing sharply on his face while the digital architecture in the background falls into soft bokeh. The aesthetic is clean, high-end sci-fi drama, with a slow, contemplative mood.
+    Keywords: guiding gesture, stoic expression, soft white ambient light, protective stance
 
 ---

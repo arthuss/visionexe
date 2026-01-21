@@ -1,0 +1,77 @@
+{
+  "id": "PROP_STARS",
+  "name": "Stars",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Stars.",
+    "visual_anatomy": [
+      "Traits: Luminaries that have their own order, seasons, and names., sparkling, {'description': 'Celestial bodies observed by astrologers.', 'source_text_ref': 'ከዋክብት'}, {'description': 'Celestial luminaries, rulers of the night. Some emerge from and set in the gates, while others (circumpolar) never set.', 'type': 'celestial body'}",
+      "Roles: natural element, scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Luminaries that have their own order, seasons, and names.",
+      "sparkling",
+      "{'description': 'Celestial bodies observed by astrologers.', 'source_text_ref': 'ከዋክብት'}",
+      "{'description': 'Celestial luminaries, rulers of the night. Some emerge from and set in the gates, while others (circumpolar) never set.', 'type': 'celestial body'}"
+    ],
+    "prompt_block": "Stars, Luminaries that have their own order, seasons, and names., sparkling, {'description': 'Celestial bodies observed by astrologers.', 'source_text_ref': 'ከዋክብት'}, {'description': 'Celestial luminaries, rulers of the night. Some emerge from and set in the gates, while others (circumpolar) never set.', 'type': 'celestial body'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Luminaries that have their own order, seasons, and names.",
+          "sparkling",
+          "{'description': 'Celestial bodies observed by astrologers.', 'source_text_ref': 'ከዋክብት'}",
+          "{'description': 'Celestial luminaries, rulers of the night. Some emerge from and set in the gates, while others (circumpolar) never set.', 'type': 'celestial body'}"
+        ],
+        "prompt_block": "Stars, Luminaries that have their own order, seasons, and names., sparkling, {'description': 'Celestial bodies observed by astrologers.', 'source_text_ref': 'ከዋክብት'}, {'description': 'Celestial luminaries, rulers of the night. Some emerge from and set in the gates, while others (circumpolar) never set.', 'type': 'celestial body'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_STARS",
+    "name": "Stars",
+    "type": "prop",
+    "aliases": [
+      "Stars"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "Luminaries that have their own order, seasons, and names.",
+      "{'description': 'Celestial bodies observed by astrologers.', 'source_text_ref': 'ከዋክብት'}",
+      "{'description': 'Celestial luminaries, rulers of the night. Some emerge from and set in the gates, while others (circumpolar) never set.', 'type': 'celestial body'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1101",
+      "row_1168",
+      "row_1175"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 8,
+        "chapter_end": 82,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

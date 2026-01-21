@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_THE_LAWLESS",
+  "name": "The Lawless",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Lawless.",
+    "visual_anatomy": [
+      "Traits: Companions of the consummate sinners",
+      "Roles: group"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Companions of the consummate sinners"
+    ],
+    "prompt_block": "The Lawless, Companions of the consummate sinners",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Companions of the consummate sinners"
+        ],
+        "prompt_block": "The Lawless, Companions of the consummate sinners"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_LAWLESS",
+    "name": "The Lawless",
+    "type": "character",
+    "aliases": [
+      "The Lawless"
+    ],
+    "roles": [
+      "group"
+    ],
+    "visual_traits": [
+      "Companions of the consummate sinners"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1115"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 22,
+        "chapter_end": 22,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

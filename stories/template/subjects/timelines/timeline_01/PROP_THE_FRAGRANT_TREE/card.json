@@ -1,0 +1,114 @@
+{
+  "id": "PROP_THE_FRAGRANT_TREE",
+  "name": "The Fragrant Tree",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for The Fragrant Tree.",
+    "visual_anatomy": [
+      "Traits: a tree with a pleasant fragrance",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "a tree with a pleasant fragrance"
+    ],
+    "prompt_block": "The Fragrant Tree, a tree with a pleasant fragrance",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "a tree with a pleasant fragrance"
+        ],
+        "prompt_block": "The Fragrant Tree, a tree with a pleasant fragrance, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "a tree with a pleasant fragrance"
+        ],
+        "prompt_block": "The Fragrant Tree, a tree with a pleasant fragrance, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "a tree with a pleasant fragrance"
+        ],
+        "prompt_block": "The Fragrant Tree, a tree with a pleasant fragrance, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_THE_FRAGRANT_TREE",
+    "name": "The Fragrant Tree",
+    "type": "prop",
+    "aliases": [
+      "The Fragrant Tree"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "a tree with a pleasant fragrance"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Present Location', 'description': 'Located on the high mountain; it is forbidden for any of flesh to touch it until the great judgment.'}",
+      "{'phase': 'Phase 2: Transplanted', 'description': 'After the judgment, it is transplanted to the north, in the Holy Place, near the House of the Lord.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1118"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 25,
+        "chapter_end": 24,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 25,
+        "chapter_end": 24,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Present Location', 'description': 'Located on the high mountain; it is forbidden for any of flesh to touch it until the great judgment.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 25,
+        "chapter_end": 25,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Transplanted', 'description': 'After the judgment, it is transplanted to the north, in the Holy Place, near the House of the Lord.'}"
+        ]
+      }
+    ]
+  }
+}

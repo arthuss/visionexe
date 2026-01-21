@@ -1,0 +1,70 @@
+{
+  "id": "SETENV_THE_SEVENTH_MOUNTAIN",
+  "name": "The Seventh Mountain",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for The Seventh Mountain.",
+    "visual_anatomy": [
+      "Traits: located in the middle of the other six, surrounded by fragrant trees",
+      "Roles: landmark"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "located in the middle of the other six",
+      "surrounded by fragrant trees"
+    ],
+    "prompt_block": "The Seventh Mountain, located in the middle of the other six, surrounded by fragrant trees",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "located in the middle of the other six",
+          "surrounded by fragrant trees"
+        ],
+        "prompt_block": "The Seventh Mountain, located in the middle of the other six, surrounded by fragrant trees"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_SEVENTH_MOUNTAIN",
+    "name": "The Seventh Mountain",
+    "type": "set_environment",
+    "aliases": [
+      "The Seventh Mountain"
+    ],
+    "roles": [
+      "landmark"
+    ],
+    "visual_traits": [
+      "located in the middle of the other six",
+      "surrounded by fragrant trees"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1117"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 24,
+        "chapter_end": 24,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

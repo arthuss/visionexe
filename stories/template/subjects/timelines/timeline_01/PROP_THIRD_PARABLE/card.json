@@ -1,0 +1,67 @@
+{
+  "id": "PROP_THIRD_PARABLE",
+  "name": "Third Parable",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Third Parable.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A spoken parable concerning the righteous and the chosen.', 'material': 'intangible', 'color': 'unknown', 'size': 'unknown'}",
+      "Roles: unknown"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A spoken parable concerning the righteous and the chosen.', 'material': 'intangible', 'color': 'unknown', 'size': 'unknown'}"
+    ],
+    "prompt_block": "Third Parable, {'description': 'A spoken parable concerning the righteous and the chosen.', 'material': 'intangible', 'color': 'unknown', 'size': 'unknown'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A spoken parable concerning the righteous and the chosen.', 'material': 'intangible', 'color': 'unknown', 'size': 'unknown'}"
+        ],
+        "prompt_block": "Third Parable, {'description': 'A spoken parable concerning the righteous and the chosen.', 'material': 'intangible', 'color': 'unknown', 'size': 'unknown'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_THIRD_PARABLE",
+    "name": "Third Parable",
+    "type": "prop",
+    "aliases": [
+      "Third Parable"
+    ],
+    "roles": [
+      "unknown"
+    ],
+    "visual_traits": [
+      "{'description': 'A spoken parable concerning the righteous and the chosen.', 'material': 'intangible', 'color': 'unknown', 'size': 'unknown'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1151"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 58,
+        "chapter_end": 58,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

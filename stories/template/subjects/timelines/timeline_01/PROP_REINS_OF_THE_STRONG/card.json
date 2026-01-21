@@ -1,0 +1,67 @@
+{
+  "id": "PROP_REINS_OF_THE_STRONG",
+  "name": "Reins of the Strong",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Reins of the Strong.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Metaphorical restraints on the strong that are loosened by the Son of Man.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Metaphorical restraints on the strong that are loosened by the Son of Man.'}"
+    ],
+    "prompt_block": "Reins of the Strong, {'description': 'Metaphorical restraints on the strong that are loosened by the Son of Man.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Metaphorical restraints on the strong that are loosened by the Son of Man.'}"
+        ],
+        "prompt_block": "Reins of the Strong, {'description': 'Metaphorical restraints on the strong that are loosened by the Son of Man.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_REINS_OF_THE_STRONG",
+    "name": "Reins of the Strong",
+    "type": "prop",
+    "aliases": [
+      "Reins of the Strong"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'Metaphorical restraints on the strong that are loosened by the Son of Man.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1140"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 46,
+        "chapter_end": 46,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "SCENE_BLESSING_OF_THE_WISE",
+  "name": "Blessing of the Wise",
+  "type": "scene",
+  "card": {
+    "description": "Auto-generated asset card for Blessing of the Wise.",
+    "visual_anatomy": [
+      "Roles: Paths of the Most High"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Blessing of the Wise, Paths of the Most High",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Blessing of the Wise, Paths of the Most High"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_BLESSING_OF_THE_WISE",
+    "name": "Blessing of the Wise",
+    "type": "scene",
+    "aliases": [
+      "Blessing of the Wise"
+    ],
+    "roles": [
+      "Paths of the Most High"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1192"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 99,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

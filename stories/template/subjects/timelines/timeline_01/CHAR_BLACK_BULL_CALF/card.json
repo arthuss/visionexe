@@ -1,0 +1,114 @@
+{
+  "id": "CHAR_BLACK_BULL_CALF",
+  "name": "Black Bull-Calf",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Black Bull-Calf.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A black bull-calf (ጣዕዋ፡ ጸሊመ) that appears with the Red Bull-Calf.'}",
+      "Roles: character"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A black bull-calf (ጣዕዋ፡ ጸሊመ) that appears with the Red Bull-Calf.'}"
+    ],
+    "prompt_block": "Black Bull-Calf, {'description': 'A black bull-calf (ጣዕዋ፡ ጸሊመ) that appears with the Red Bull-Calf.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A black bull-calf (ጣዕዋ፡ ጸሊመ) that appears with the Red Bull-Calf.'}"
+        ],
+        "prompt_block": "Black Bull-Calf, {'description': 'A black bull-calf (ጣዕዋ፡ ጸሊመ) that appears with the Red Bull-Calf.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A black bull-calf (ጣዕዋ፡ ጸሊመ) that appears with the Red Bull-Calf.'}"
+        ],
+        "prompt_block": "Black Bull-Calf, {'description': 'A black bull-calf (ጣዕዋ፡ ጸሊመ) that appears with the Red Bull-Calf.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A black bull-calf (ጣዕዋ፡ ጸሊመ) that appears with the Red Bull-Calf.'}"
+        ],
+        "prompt_block": "Black Bull-Calf, {'description': 'A black bull-calf (ጣዕዋ፡ ጸሊመ) that appears with the Red Bull-Calf.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_BLACK_BULL_CALF",
+    "name": "Black Bull-Calf",
+    "type": "character",
+    "aliases": [
+      "Black Bull-Calf"
+    ],
+    "roles": [
+      "character"
+    ],
+    "visual_traits": [
+      "{'description': 'A black bull-calf (ጣዕዋ፡ ጸሊመ) that appears with the Red Bull-Calf.'}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Calf', 'description': 'Appears as a bull-calf.'}",
+      "{'phase': 'Phase 2: Grown', 'description': 'Grows up (ልህቀ).'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1178"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 85,
+        "chapter_end": 84,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 85,
+        "chapter_end": 84,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Calf', 'description': 'Appears as a bull-calf.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 85,
+        "chapter_end": 85,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Grown', 'description': 'Grows up (ልህቀ).'}"
+        ]
+      }
+    ]
+  }
+}

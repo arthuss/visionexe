@@ -2,9 +2,7 @@
 **State ID:** default
 **Chapters:** 108 - 108
 
-**Phase Summary:** Emdeheru in his default state, standing in a dimly lit chamber of stone and metal.
-**Phase Keywords:** ancient-tech, Ethiopian, Egyptian, crystalline, bio-luminescence, industrial mysticism, photorealistic, cinematic
 **Phase Prompt:**
-Emdeheru, a towering guardian, stands in a dimly lit stone chamber; his body is a fusion of obsidian basalt plates and translucent quartz crystals that pulse with bio‑luminescent glyphs, his half‑mask of polished obsidian etched with cobalt‑blue hieroglyphic sigils, and iridescent ocular sensors emitting a faint green scan beam; the armor features copper filigree and ancient Ethiopian and Egyptian motifs, all rendered in photorealistic, cinematic detail with tactile textures and realistic light behavior.
+Emdeheru, unknown
 
 ---

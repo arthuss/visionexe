@@ -1,0 +1,114 @@
+{
+  "id": "PROP_BRONZE",
+  "name": "Bronze",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Bronze.",
+    "visual_anatomy": [
+      "Traits: A metal mentioned as becoming useless for strength ('bǝrt').",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A metal mentioned as becoming useless for strength ('bǝrt')."
+    ],
+    "prompt_block": "Bronze, A metal mentioned as becoming useless for strength ('bǝrt').",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "A metal mentioned as becoming useless for strength ('bǝrt')."
+        ],
+        "prompt_block": "Bronze, A metal mentioned as becoming useless for strength ('bǝrt')., Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "A metal mentioned as becoming useless for strength ('bǝrt')."
+        ],
+        "prompt_block": "Bronze, A metal mentioned as becoming useless for strength ('bǝrt')., Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "A metal mentioned as becoming useless for strength ('bǝrt')."
+        ],
+        "prompt_block": "Bronze, A metal mentioned as becoming useless for strength ('bǝrt')., Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_BRONZE",
+    "name": "Bronze",
+    "type": "prop",
+    "aliases": [
+      "Bronze"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "A metal mentioned as becoming useless for strength ('bǝrt')."
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Static', 'description': 'A material used for its strength.'}",
+      "{'phase': 'Phase 2: Nullified', 'description': 'Becomes useless for providing strength.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1145"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 52,
+        "chapter_end": 51,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 52,
+        "chapter_end": 51,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Static', 'description': 'A material used for its strength.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 52,
+        "chapter_end": 52,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Nullified', 'description': 'Becomes useless for providing strength.'}"
+        ]
+      }
+    ]
+  }
+}

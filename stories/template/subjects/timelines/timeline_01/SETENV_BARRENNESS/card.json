@@ -1,0 +1,103 @@
+{
+  "id": "SETENV_BARRENNESS",
+  "name": "Barrenness",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Barrenness.",
+    "visual_anatomy": [
+      "Roles: phenomenon"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Barrenness, phenomenon",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Barrenness, phenomenon, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Barrenness, phenomenon, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Barrenness, phenomenon, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_BARRENNESS",
+    "name": "Barrenness",
+    "type": "set_environment",
+    "aliases": [
+      "Barrenness"
+    ],
+    "roles": [
+      "phenomenon"
+    ],
+    "visual_traits": [],
+    "changes": [
+      "{'phase': 'Phase 1: Normal State', 'description': 'Not present.'}",
+      "{'phase': 'Phase 2: Manifestation', 'description': 'Appears from the west, associated with a great chariot.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1173"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 80,
+        "chapter_end": 79,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 80,
+        "chapter_end": 79,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Normal State', 'description': 'Not present.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 80,
+        "chapter_end": 80,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Manifestation', 'description': 'Appears from the west, associated with a great chariot.'}"
+        ]
+      }
+    ]
+  }
+}

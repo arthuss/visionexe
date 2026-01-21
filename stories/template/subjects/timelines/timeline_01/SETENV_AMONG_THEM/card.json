@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_AMONG_THEM",
+  "name": "among them",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for among them.",
+    "visual_anatomy": [
+      "Traits: The location among the children of men where Iniquity dwells (ውስቴቶሙ, wəstetomu).",
+      "Roles: destination"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "The location among the children of men where Iniquity dwells (ውስቴቶሙ, wəstetomu)."
+    ],
+    "prompt_block": "among them, The location among the children of men where Iniquity dwells (ውስቴቶሙ, wəstetomu).",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "The location among the children of men where Iniquity dwells (ውስቴቶሙ, wəstetomu)."
+        ],
+        "prompt_block": "among them, The location among the children of men where Iniquity dwells (ውስቴቶሙ, wəstetomu)."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_AMONG_THEM",
+    "name": "among them",
+    "type": "set_environment",
+    "aliases": [
+      "among them"
+    ],
+    "roles": [
+      "destination"
+    ],
+    "visual_traits": [
+      "The location among the children of men where Iniquity dwells (ውስቴቶሙ, wəstetomu)."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1135"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 42,
+        "chapter_end": 42,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

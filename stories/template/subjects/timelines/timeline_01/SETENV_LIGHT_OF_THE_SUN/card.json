@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_LIGHT_OF_THE_SUN",
+  "name": "Light of the Sun",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Light of the Sun.",
+    "visual_anatomy": [
+      "Traits: {'description': 'The specific environmental state for the righteous.', 'state': 'luminous'}",
+      "Roles: ambient_condition"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The specific environmental state for the righteous.', 'state': 'luminous'}"
+    ],
+    "prompt_block": "Light of the Sun, {'description': 'The specific environmental state for the righteous.', 'state': 'luminous'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The specific environmental state for the righteous.', 'state': 'luminous'}"
+        ],
+        "prompt_block": "Light of the Sun, {'description': 'The specific environmental state for the righteous.', 'state': 'luminous'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_LIGHT_OF_THE_SUN",
+    "name": "Light of the Sun",
+    "type": "set_environment",
+    "aliases": [
+      "Light of the Sun"
+    ],
+    "roles": [
+      "ambient_condition"
+    ],
+    "visual_traits": [
+      "{'description': 'The specific environmental state for the righteous.', 'state': 'luminous'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1151"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 58,
+        "chapter_end": 58,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_CELESTIAL_ORDER",
+  "name": "Celestial Order",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Celestial Order.",
+    "visual_anatomy": [
+      "Traits: A setting defined by perfect, predictable movement and unbreakable rules.",
+      "Roles: conceptual_environment"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A setting defined by perfect, predictable movement and unbreakable rules."
+    ],
+    "prompt_block": "Celestial Order, A setting defined by perfect, predictable movement and unbreakable rules.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A setting defined by perfect, predictable movement and unbreakable rules."
+        ],
+        "prompt_block": "Celestial Order, A setting defined by perfect, predictable movement and unbreakable rules."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_CELESTIAL_ORDER",
+    "name": "Celestial Order",
+    "type": "set_environment",
+    "aliases": [
+      "Celestial Order"
+    ],
+    "roles": [
+      "conceptual_environment"
+    ],
+    "visual_traits": [
+      "A setting defined by perfect, predictable movement and unbreakable rules."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1056"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 2,
+        "chapter_end": 2,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "CHAR_WATCHERS_FALLEN",
+  "name": "Watchers (fallen)",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Watchers (fallen).",
+    "visual_anatomy": [
+      "Traits: {'description': 'The Watchers of heaven who descended to Earth.'}",
+      "Roles: character"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The Watchers of heaven who descended to Earth.'}"
+    ],
+    "prompt_block": "Watchers (fallen), {'description': 'The Watchers of heaven who descended to Earth.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The Watchers of heaven who descended to Earth.'}"
+        ],
+        "prompt_block": "Watchers (fallen), {'description': 'The Watchers of heaven who descended to Earth.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The Watchers of heaven who descended to Earth.'}"
+        ],
+        "prompt_block": "Watchers (fallen), {'description': 'The Watchers of heaven who descended to Earth.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The Watchers of heaven who descended to Earth.'}"
+        ],
+        "prompt_block": "Watchers (fallen), {'description': 'The Watchers of heaven who descended to Earth.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_WATCHERS_FALLEN",
+    "name": "Watchers (fallen)",
+    "type": "character",
+    "aliases": [
+      "Watchers (fallen)"
+    ],
+    "roles": [
+      "character"
+    ],
+    "visual_traits": [
+      "{'description': 'The Watchers of heaven who descended to Earth.'}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Celestial', 'description': \"Resided in the 'high heaven' and 'the holy eternal place'.\"}",
+      "{'phase': 'Phase 2: Fallen and Defiled', 'description': 'Left heaven, descended to Earth, defiled themselves with women, and caused great destruction.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1104"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 12,
+        "chapter_end": 11,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 12,
+        "chapter_end": 11,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Celestial', 'description': \"Resided in the 'high heaven' and 'the holy eternal place'.\"}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 12,
+        "chapter_end": 12,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Fallen and Defiled', 'description': 'Left heaven, descended to Earth, defiled themselves with women, and caused great destruction.'}"
+        ]
+      }
+    ]
+  }
+}

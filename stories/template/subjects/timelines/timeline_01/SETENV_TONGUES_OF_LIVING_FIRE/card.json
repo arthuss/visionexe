@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_TONGUES_OF_LIVING_FIRE",
+  "name": "Tongues of living fire",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Tongues of living fire.",
+    "visual_anatomy": [
+      "Traits: {'state': 'Living, moving flames.'}",
+      "Roles: Fire seen amidst the crystal stones of the House of Fire."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'state': 'Living, moving flames.'}"
+    ],
+    "prompt_block": "Tongues of living fire, {'state': 'Living, moving flames.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'state': 'Living, moving flames.'}"
+        ],
+        "prompt_block": "Tongues of living fire, {'state': 'Living, moving flames.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_TONGUES_OF_LIVING_FIRE",
+    "name": "Tongues of living fire",
+    "type": "set_environment",
+    "aliases": [
+      "Tongues of living fire"
+    ],
+    "roles": [
+      "Fire seen amidst the crystal stones of the House of Fire."
+    ],
+    "visual_traits": [
+      "{'state': 'Living, moving flames.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1164"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 71,
+        "chapter_end": 71,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

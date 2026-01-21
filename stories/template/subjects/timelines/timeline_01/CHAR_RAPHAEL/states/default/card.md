@@ -1,10 +1,10 @@
 ## [STATE] Raphael :: Default
 **State ID:** default
-**Chapters:** 68 - 68
+**Chapters:** 20 - 71
 
-**Phase Summary:** Default state of Raphael in desert and Null Void, showcasing his hybrid form.
-**Phase Keywords:** ancient-tech, angelic, translucent polymer, fiber‑optic, golden halo, holographic, DNA, obsidian, magnetic dust, silvery skin, Ge'ez glyphs, photorealistic, 8k, 9:16
+**Phase Summary:** Raphael as the compassionate administrator of system integrity, bridging the gap between cold code and human suffering.
+**Phase Keywords:** compassionate expression, healing gesture, digital particles, amber glow, moody atmosphere
 **Phase Prompt:**
-Raphael, an archangel rendered as a towering humanoid with metallic silver skin etched with luminous Ge'ez glyphs, a translucent polymer covering revealing blue bio‑luminescent veins and fiber‑optic cables, wearing robes woven from data cables that shimmer with flowing data streams, crowned by a glitching golden halo projecting holographic HUDs and fragmented DNA helix, standing calm in harsh desert sunlight with sharp jagged obsidian rocks clamping onto his limbs and magnetic dust distorting the air, cinematic photorealistic 8k, 9:16 aspect ratio
+A hyper-realistic close-up of Raphael, the Healer, looking down with an expression of profound, weary compassion. His face is illuminated by the warm, amber glow of the 'healing code' emanating from his hands, contrasting with the cool, blue ambient light of the simulation's 'sky dome'. His skin shows microscopic pores and imperfections, grounded in reality, but his eyes reflect scrolling streams of data. The background is a dark, abstract void of 'gate band' architecture, out of focus. The image captures the emotional weight of a doctor losing a patient, rendered with the fidelity of a high-budget cinema production. PBR textures, ray-traced reflections in his obsidian collar.
 
 ---

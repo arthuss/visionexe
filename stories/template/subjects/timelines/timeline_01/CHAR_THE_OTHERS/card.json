@@ -1,0 +1,69 @@
+{
+  "id": "CHAR_THE_OTHERS",
+  "name": "The Others",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Others.",
+    "visual_anatomy": [
+      "Traits: {'description': \"A group who observes the victory of the righteous, intended to make them repent. (Ge'ez: ካልኣን)\"}",
+      "Roles: observer_group, progenitors of the Giants"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"A group who observes the victory of the righteous, intended to make them repent. (Ge'ez: ካልኣን)\"}"
+    ],
+    "prompt_block": "The Others, {'description': \"A group who observes the victory of the righteous, intended to make them repent. (Ge'ez: ካልኣን)\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"A group who observes the victory of the righteous, intended to make them repent. (Ge'ez: ካልኣን)\"}"
+        ],
+        "prompt_block": "The Others, {'description': \"A group who observes the victory of the righteous, intended to make them repent. (Ge'ez: ካልኣን)\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_OTHERS",
+    "name": "The Others",
+    "type": "character",
+    "aliases": [
+      "The Others"
+    ],
+    "roles": [
+      "observer_group",
+      "progenitors of the Giants"
+    ],
+    "visual_traits": [
+      "{'description': \"A group who observes the victory of the righteous, intended to make them repent. (Ge'ez: ካልኣን)\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1099",
+      "row_1143"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 7,
+        "chapter_end": 50,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "PROP_ROSE",
+  "name": "Rose",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Rose.",
+    "visual_anatomy": [
+      "Traits: A flower that blooms in the first season.",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A flower that blooms in the first season."
+    ],
+    "prompt_block": "Rose, A flower that blooms in the first season.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A flower that blooms in the first season."
+        ],
+        "prompt_block": "Rose, A flower that blooms in the first season."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_ROSE",
+    "name": "Rose",
+    "type": "prop",
+    "aliases": [
+      "Rose"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "A flower that blooms in the first season."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1175"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 82,
+        "chapter_end": 82,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

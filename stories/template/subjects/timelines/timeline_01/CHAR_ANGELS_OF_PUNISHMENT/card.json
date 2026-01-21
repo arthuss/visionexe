@@ -1,0 +1,85 @@
+{
+  "id": "CHAR_ANGELS_OF_PUNISHMENT",
+  "name": "angels of punishment",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for angels of punishment.",
+    "visual_anatomy": [
+      "Traits: holding chains of iron and bronze, {'description': \"A group of angels described as 'ready' to act. They are tasked with unleashing the waters and are positioned 'over the power of the waters'.\"}, {'description': 'A group of angels seen walking and preparing instruments of punishment.'}, {'description': 'Angels who are holding the kings and the mighty in the place of their torment.'}",
+      "Roles: Entities who take the condemned kings to exact retribution for their oppression of the righteous., agents of judgment, antagonist_group, enforcers, jailer"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "holding chains of iron and bronze",
+      "{'description': \"A group of angels described as 'ready' to act. They are tasked with unleashing the waters and are positioned 'over the power of the waters'.\"}",
+      "{'description': 'A group of angels seen walking and preparing instruments of punishment.'}",
+      "{'description': 'Angels who are holding the kings and the mighty in the place of their torment.'}"
+    ],
+    "prompt_block": "angels of punishment, holding chains of iron and bronze, {'description': \"A group of angels described as 'ready' to act. They are tasked with unleashing the waters and are positioned 'over the power of the waters'.\"}, {'description': 'A group of angels seen walking and preparing instruments of punishment.'}, {'description': 'Angels who are holding the kings and the mighty in the place of their torment.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "holding chains of iron and bronze",
+          "{'description': \"A group of angels described as 'ready' to act. They are tasked with unleashing the waters and are positioned 'over the power of the waters'.\"}",
+          "{'description': 'A group of angels seen walking and preparing instruments of punishment.'}",
+          "{'description': 'Angels who are holding the kings and the mighty in the place of their torment.'}"
+        ],
+        "prompt_block": "angels of punishment, holding chains of iron and bronze, {'description': \"A group of angels described as 'ready' to act. They are tasked with unleashing the waters and are positioned 'over the power of the waters'.\"}, {'description': 'A group of angels seen walking and preparing instruments of punishment.'}, {'description': 'Angels who are holding the kings and the mighty in the place of their torment.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ANGELS_OF_PUNISHMENT",
+    "name": "angels of punishment",
+    "type": "character",
+    "aliases": [
+      "Angels of Punishment",
+      "angels of punishment"
+    ],
+    "roles": [
+      "Entities who take the condemned kings to exact retribution for their oppression of the righteous.",
+      "agents of judgment",
+      "antagonist_group",
+      "enforcers",
+      "jailer"
+    ],
+    "visual_traits": [
+      "holding chains of iron and bronze",
+      "{'description': \"A group of angels described as 'ready' to act. They are tasked with unleashing the waters and are positioned 'over the power of the waters'.\"}",
+      "{'description': 'A group of angels seen walking and preparing instruments of punishment.'}",
+      "{'description': 'Angels who are holding the kings and the mighty in the place of their torment.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1146",
+      "row_1149",
+      "row_1155",
+      "row_1156",
+      "row_1158"
+    ],
+    "occurrence_count": 10,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 53,
+        "chapter_end": 66,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

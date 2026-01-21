@@ -1,0 +1,73 @@
+{
+  "id": "SETENV_FIRST_MOUNTAIN",
+  "name": "First Mountain",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for First Mountain.",
+    "visual_anatomy": [
+      "Traits: contains trees, is a source of flowing water, produces a fragrant substance",
+      "Roles: location"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "contains trees",
+      "is a source of flowing water",
+      "produces a fragrant substance"
+    ],
+    "prompt_block": "First Mountain, contains trees, is a source of flowing water, produces a fragrant substance",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "contains trees",
+          "is a source of flowing water",
+          "produces a fragrant substance"
+        ],
+        "prompt_block": "First Mountain, contains trees, is a source of flowing water, produces a fragrant substance"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_FIRST_MOUNTAIN",
+    "name": "First Mountain",
+    "type": "set_environment",
+    "aliases": [
+      "First Mountain"
+    ],
+    "roles": [
+      "location"
+    ],
+    "visual_traits": [
+      "contains trees",
+      "is a source of flowing water",
+      "produces a fragrant substance"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1124"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 31,
+        "chapter_end": 31,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -3,65 +3,25 @@
   "name": "Chant of Sky and Wind",
   "type": "scene",
   "card": {
-    "description": "A cinematic, photorealistic ritual set on a high plateau where a colossal stone obelisk—carved with intertwined Ethiopian and Egyptian glyphs—stands beneath a swirling vortex of wind and luminous energy threads. The obelisk’s surface is embedded with crystalline conduits that pulse with bioluminescent light, projecting glyphs into the sky. Ancient stone steps lead to the obelisk, dust swirling around, and the atmosphere is charged with industrial mysticism and grounded realism.",
-    "tags": [
-      "ritual",
-      "sky",
-      "wind",
-      "ancient-tech",
-      "Ethiopian",
-      "Egyptian",
-      "mysticism",
-      "photorealistic",
-      "industrial",
-      "bioluminescence"
-    ],
+    "description": "Auto-generated asset card for Chant of Sky and Wind.",
     "visual_anatomy": [
-      "**Body/Form:** 30‑meter tall stone obelisk, basalt core with carved glyphs, integrated crystalline lattice radiating light.",
-      "**Face/Sensors:** Obelisk apex acts as a sensor, projecting glyphs into the sky and modulating wind patterns.",
-      "**Clothing/Armor:** Not applicable.",
-      "**Key Features:** Bioluminescent glyphs, crystalline conduits, wind vortex, luminous energy threads, ancient stone steps, dust‑laden air, dramatic chiaroscuro lighting."
+      "Roles: sky/earth"
     ],
     "evolution": [
-      "Phase 1 (Dawn): Obelisk dormant, glyphs faint, wind calm.",
-      "Phase 2 (Chant): Glyphs glow, crystalline conduits flare, wind vortex intensifies, energy threads swirl around the obelisk."
+      "Phase (Default)"
     ],
     "props": [
-      "Item: Obelisk of Asterion",
-      "Item: Wind Scepter",
-      "Item: Celestial Harp"
+      "TBD."
     ],
-    "prompt_keywords": [
-      "ancient",
-      "tech",
-      "wind",
-      "sky",
-      "ritual",
-      "photorealistic",
-      "bioluminescent",
-      "crystalline",
-      "Ethiopian",
-      "Egyptian"
-    ],
-    "prompt_block": "A cinematic, photorealistic scene of a colossal stone obelisk carved with Ethiopian and Egyptian glyphs, integrated with crystalline conduits that pulse with bioluminescent light, standing on a high plateau under a swirling vortex of wind and luminous energy threads, ancient stone steps leading to the obelisk, dust swirling, dramatic lighting, tactile textures, industrial mysticism, grounded realism",
+    "prompt_keywords": [],
+    "prompt_block": "Chant of Sky and Wind, sky/earth",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "The Chant of Sky and Wind in its initial ritual state.",
-        "prompt_keywords": [
-          "ancient",
-          "tech",
-          "wind",
-          "sky",
-          "ritual",
-          "photorealistic",
-          "bioluminescent",
-          "crystalline",
-          "Ethiopian",
-          "Egyptian"
-        ],
-        "prompt_block": "A cinematic, photorealistic scene of a colossal stone obelisk carved with Ethiopian and Egyptian glyphs, integrated with crystalline conduits that pulse with bioluminescent light, standing on a high plateau under a swirling vortex of wind and luminous energy threads, ancient stone steps leading to the obelisk, dust swirling, dramatic lighting, tactile textures, industrial mysticism, grounded realism"
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Chant of Sky and Wind, sky/earth"
       }
     ]
   },
@@ -81,7 +41,7 @@
     "sources": [
       "row_143"
     ],
-    "occurrence_count": 1,
+    "occurrence_count": 2,
     "is_dynamic": false,
     "state_policy": "static",
     "states": [

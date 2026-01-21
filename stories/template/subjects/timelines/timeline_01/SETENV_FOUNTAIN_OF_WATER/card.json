@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_FOUNTAIN_OF_WATER",
+  "name": "fountain of water",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for fountain of water.",
+    "visual_anatomy": [
+      "Traits: {'description': 'The form that hills will take in the eschatological future.'}",
+      "Roles: transformed_environment"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The form that hills will take in the eschatological future.'}"
+    ],
+    "prompt_block": "fountain of water, {'description': 'The form that hills will take in the eschatological future.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The form that hills will take in the eschatological future.'}"
+        ],
+        "prompt_block": "fountain of water, {'description': 'The form that hills will take in the eschatological future.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_FOUNTAIN_OF_WATER",
+    "name": "fountain of water",
+    "type": "set_environment",
+    "aliases": [
+      "fountain of water"
+    ],
+    "roles": [
+      "transformed_environment"
+    ],
+    "visual_traits": [
+      "{'description': 'The form that hills will take in the eschatological future.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1146"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 53,
+        "chapter_end": 53,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

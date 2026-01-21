@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_AZAZEL_S_ASSOCIATES_AND_HOSTS",
+  "name": "Azazel's associates and hosts",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Azazel's associates and hosts.",
+    "visual_anatomy": [
+      "Traits: {'description': 'All the company and hosts associated with Azazel.'}",
+      "Roles: A group to be judged alongside Azazel."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'All the company and hosts associated with Azazel.'}"
+    ],
+    "prompt_block": "Azazel's associates and hosts, {'description': 'All the company and hosts associated with Azazel.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'All the company and hosts associated with Azazel.'}"
+        ],
+        "prompt_block": "Azazel's associates and hosts, {'description': 'All the company and hosts associated with Azazel.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_AZAZEL_S_ASSOCIATES_AND_HOSTS",
+    "name": "Azazel's associates and hosts",
+    "type": "character",
+    "aliases": [
+      "Azazel's associates and hosts"
+    ],
+    "roles": [
+      "A group to be judged alongside Azazel."
+    ],
+    "visual_traits": [
+      "{'description': 'All the company and hosts associated with Azazel.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1148"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 55,
+        "chapter_end": 55,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

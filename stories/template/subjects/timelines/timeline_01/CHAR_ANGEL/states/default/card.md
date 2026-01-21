@@ -1,10 +1,9 @@
 ## [STATE] angel :: Default
 **State ID:** default
-**Chapters:** 53 - 70
+**Chapters:** 41 - 70
 
-**Phase Summary:** The Angel as a floating hard‑light lattice, messenger and UI interface.
-**Phase Keywords:** hard‑light lattice, obsidian glass, Ge'ez glyphs, holographic UI, photorealistic, tactile
+**Phase Keywords:** accompanies the narrator, {'description': 'A being who cannot hinder the Judge.'}, {'description': 'A general class of being, mentioned as not receiving the portion of the judged angels.'}
 **Phase Prompt:**
-A cinematic, photorealistic depiction of the Angel as a floating lattice of obsidian‑glass facets etched with Ge'ez glyphs, interlaced with copper filigree and bioluminescent crystal veins. The Angel hovers at eye level, projecting a holographic UI with red status text, data rings, and a glowing vector line pointing toward the void, all rendered with tactile detail and grounded realism.
+angel, accompanies the narrator, {'description': 'A being who cannot hinder the Judge.'}, {'description': 'A general class of being, mentioned as not receiving the portion of the judged angels.'}
 
 ---

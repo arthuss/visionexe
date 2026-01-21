@@ -1,0 +1,111 @@
+{
+  "id": "SETENV_HIDDEN_PLACES",
+  "name": "Hidden Places",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Hidden Places.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Secret or concealed locations on Earth where sinners are found.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Secret or concealed locations on Earth where sinners are found.'}"
+    ],
+    "prompt_block": "Hidden Places, {'description': 'Secret or concealed locations on Earth where sinners are found.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Secret or concealed locations on Earth where sinners are found.'}"
+        ],
+        "prompt_block": "Hidden Places, {'description': 'Secret or concealed locations on Earth where sinners are found.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Secret or concealed locations on Earth where sinners are found.'}"
+        ],
+        "prompt_block": "Hidden Places, {'description': 'Secret or concealed locations on Earth where sinners are found.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Secret or concealed locations on Earth where sinners are found.'}"
+        ],
+        "prompt_block": "Hidden Places, {'description': 'Secret or concealed locations on Earth where sinners are found.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_HIDDEN_PLACES",
+    "name": "Hidden Places",
+    "type": "set_environment",
+    "aliases": [
+      "Hidden Places"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'Secret or concealed locations on Earth where sinners are found.'}"
+    ],
+    "changes": [
+      "{'is_dynamic': False}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1193"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 100,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 100,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 100,
+        "chapter_end": 100,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'is_dynamic': False}"
+        ]
+      }
+    ]
+  }
+}

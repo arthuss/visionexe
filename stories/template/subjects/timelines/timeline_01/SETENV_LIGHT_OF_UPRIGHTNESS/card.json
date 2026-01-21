@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_LIGHT_OF_UPRIGHTNESS",
+  "name": "Light of Uprightness",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Light of Uprightness.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A form of light that is established forever before the Lord of Spirits.', 'state': 'luminous'}",
+      "Roles: ambient_condition"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A form of light that is established forever before the Lord of Spirits.', 'state': 'luminous'}"
+    ],
+    "prompt_block": "Light of Uprightness, {'description': 'A form of light that is established forever before the Lord of Spirits.', 'state': 'luminous'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A form of light that is established forever before the Lord of Spirits.', 'state': 'luminous'}"
+        ],
+        "prompt_block": "Light of Uprightness, {'description': 'A form of light that is established forever before the Lord of Spirits.', 'state': 'luminous'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_LIGHT_OF_UPRIGHTNESS",
+    "name": "Light of Uprightness",
+    "type": "set_environment",
+    "aliases": [
+      "Light of Uprightness"
+    ],
+    "roles": [
+      "ambient_condition"
+    ],
+    "visual_traits": [
+      "{'description': 'A form of light that is established forever before the Lord of Spirits.', 'state': 'luminous'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1151"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 58,
+        "chapter_end": 58,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

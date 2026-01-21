@@ -1,0 +1,78 @@
+{
+  "id": "SETENV_PATHS_OF_RIGHTEOUSNESS",
+  "name": "Paths of Righteousness",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Paths of Righteousness.",
+    "visual_anatomy": [
+      "Traits: A metaphorical path or way of life where the divine union occurs., Characterized by goodness and mercy, {'description': 'A metaphorical path (ፍናዋተ፡ጽድቅ) described as fitting and profitable.'}",
+      "Roles: location, metaphorical_route, metaphorical_setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A metaphorical path or way of life where the divine union occurs.",
+      "Characterized by goodness and mercy",
+      "{'description': 'A metaphorical path (ፍናዋተ፡ጽድቅ) described as fitting and profitable.'}"
+    ],
+    "prompt_block": "Paths of Righteousness, A metaphorical path or way of life where the divine union occurs., Characterized by goodness and mercy, {'description': 'A metaphorical path (ፍናዋተ፡ጽድቅ) described as fitting and profitable.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A metaphorical path or way of life where the divine union occurs.",
+          "Characterized by goodness and mercy",
+          "{'description': 'A metaphorical path (ፍናዋተ፡ጽድቅ) described as fitting and profitable.'}"
+        ],
+        "prompt_block": "Paths of Righteousness, A metaphorical path or way of life where the divine union occurs., Characterized by goodness and mercy, {'description': 'A metaphorical path (ፍናዋተ፡ጽድቅ) described as fitting and profitable.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_PATHS_OF_RIGHTEOUSNESS",
+    "name": "Paths of Righteousness",
+    "type": "set_environment",
+    "aliases": [
+      "Paths of Righteousness",
+      "paths of righteousness"
+    ],
+    "roles": [
+      "location",
+      "metaphorical_route",
+      "metaphorical_setting"
+    ],
+    "visual_traits": [
+      "A metaphorical path or way of life where the divine union occurs.",
+      "Characterized by goodness and mercy",
+      "{'description': 'A metaphorical path (ፍናዋተ፡ጽድቅ) described as fitting and profitable.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1185",
+      "row_1188",
+      "row_1198"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 92,
+        "chapter_end": 105,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_OCEANS",
+  "name": "Oceans",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Oceans.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Oceans (Åቀላያት).'}",
+      "Roles: environment"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Oceans (Åቀላያት).'}"
+    ],
+    "prompt_block": "Oceans, {'description': 'Oceans (Åቀላያት).'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Oceans (Åቀላያት).'}"
+        ],
+        "prompt_block": "Oceans, {'description': 'Oceans (Åቀላያት).'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_OCEANS",
+    "name": "Oceans",
+    "type": "set_environment",
+    "aliases": [
+      "Oceans"
+    ],
+    "roles": [
+      "environment"
+    ],
+    "visual_traits": [
+      "{'description': 'Oceans (Åቀላያት).'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1170"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 77,
+        "chapter_end": 77,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,30 +1,20 @@
 ## [SCENE] Chapter 69 Segment 13 (ID: SCENE_CHAPTER_69_SEGMENT_13)
-**Description:** The Celestial Obelisk of Asterion is a towering monolith of polished obsidian and gold alloy ribs, standing 30 meters tall and tapering to a pointed apex. Its surface is etched with bioluminescent hieroglyphic glyphs that pulse in a soft azure rhythm, while a central crystalline lattice core refracts light into intricate fractal patterns. Gold filigree and silver runic inscriptions form a protective energy lattice, and the obelisk channels ancient Ethiopian and Egyptian mysticism into incomprehensible advanced technology, powering the industrial machinery of the surrounding city.
-**Tags:** #ancient-tech #industrial-mysticism #Ethiopian #Egyptian #photorealistic #tactile #obsidian #crystalline #bioluminescent
+**Description:** Auto-generated asset card for Chapter 69 Segment 13.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Monolithic obelisk, 30 m tall, tapering to a pointed apex, constructed from polished obsidian reinforced with gold alloy ribs.
-*   **Face/Sensors:** Array of bioluminescent glyphs embedded in the obelisk’s face, each glowing azure and acting as a sensor and energy conduit.
-*   **Clothing/Armor:** Gold filigree and silver runic inscriptions form a protective lattice that channels energy across the surface.
-*   **Key Features:** Central crystalline lattice core, bioluminescent veins, gold filigree, runic inscriptions, energy conduits, ancient glyphs, reflective obsidian surface.
+TBD.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Activation): The glyphs flare to bright white, the crystalline lattice hums, and the obelisk’s base emits a low‑frequency vibration.
-*   Phase 2 (Full Operation): The obelisk channels energy into surrounding machinery, glyphs pulse in complex patterns, and the crystalline lattice refracts light into a kaleidoscopic display.
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Ancient Tablet of Kemet – a basalt slab inscribed with hieroglyphs, placed at the obelisk’s base.
-*   Item: Runic Crystal of Amharic – a translucent crystal with embedded runes, positioned atop the obelisk’s apex.
-
-### 4. AI PROMPT KEYWORDS
-`obsidian`, `crystalline`, `hieroglyphic`, `bioluminescent`, `gold filigree`, `runic`, `energy conduit`, `industrial`, `ancient`, `mysticism`
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
-A towering 30‑meter obelisk of polished obsidian and gold alloy ribs, tapering to a pointed apex, its surface etched with bioluminescent hieroglyphic glyphs that pulse in azure light, a central crystalline lattice core refracting light into fractal patterns, gold filigree and silver runic inscriptions forming a protective energy lattice, low‑frequency vibrations emanating from the base, photorealistic cinematic lighting, tactile textures, ancient Ethiopian and Egyptian aesthetic fused with incomprehensible advanced technology, cinematic depth of field, realistic light behavior, dramatic shadows.
+Chapter 69 Segment 13,
 
 ### 6. PHASE PROMPTS
-*   **Default:** Initial state of the Celestial Obelisk before activation.
-    Prompt: A towering 30‑meter obelisk of polished obsidian and gold alloy ribs, tapering to a pointed apex, its surface etched with bioluminescent hieroglyphic glyphs that pulse in azure light, a central crystalline lattice core refracting light into fractal patterns, gold filigree and silver runic inscriptions forming a protective energy lattice, low‑frequency vibrations emanating from the base, photorealistic cinematic lighting, tactile textures, ancient Ethiopian and Egyptian aesthetic fused with incomprehensible advanced technology, cinematic depth of field, realistic light behavior, dramatic shadows.
-    Keywords: obsidian, crystalline, hieroglyphic, bioluminescent, gold filigree, runic, energy conduit, industrial, ancient, mysticism
+*   **Default:**
+    Prompt: Chapter 69 Segment 13,
 
 ---

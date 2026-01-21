@@ -3,73 +3,30 @@
   "name": "Storm",
   "type": "prop",
   "card": {
-    "description": "Storm is a colossal, photorealistic weather phenomenon prop that embodies ancient Ethiopian/Egyptian mysticism fused with incomprehensible technology. It manifests as a swirling cloud mass studded with crystalline glyphs, bioluminescent veins, and metallic rain droplets, designed for high‑resolution cinematic shots.",
-    "tags": [
-      "weather phenomenon",
-      "storm",
-      "cloud",
-      "rain",
-      "ancient-tech",
-      "bioluminescence",
-      "glyphs",
-      "crystalline",
-      "photorealistic",
-      "tactile"
-    ],
+    "description": "Auto-generated asset card for Storm.",
     "visual_anatomy": [
-      "**Body/Form:** A vast, semi‑transparent cloud mass with fractal edges, interwoven with a lattice of translucent crystal shards that refract light into a spectrum of warm gold and cool azure.",
-      "**Face/Sensors:** Embedded photonic sensors in the crystal lattice emit soft pulsing glyphs, reacting to atmospheric pressure and moisture.",
-      "**Clothing/Armor:** Not applicable.",
-      "**Key Features:** Central crystal core radiating a steady pulse, bioluminescent veins tracing ancient patterns, metallic rain droplets with engraved glyphs, holographic data streams swirling within the cloud."
+      "Traits: cloudy mass",
+      "Roles: weather phenomenon that can carry rain"
     ],
     "evolution": [
-      "Phase 1 (Genesis): Vapor condenses into a misty swirl, faint phosphorescence appears along the edges.",
-      "Phase 2 (Maturation): Crystalline lattice forms, glyphs glow, metallic rain begins to form, storm intensifies."
+      "Phase (Default)"
     ],
     "props": [
-      "Storm Core Crystal",
-      "Glyphic Veins",
-      "Metallic Rain Droplets"
+      "TBD."
     ],
     "prompt_keywords": [
-      "ancient",
-      "Ethiopian",
-      "Egyptian",
-      "crystalline",
-      "glyphs",
-      "bioluminescent",
-      "storm",
-      "cloud",
-      "rain",
-      "photorealistic",
-      "tactile",
-      "8k",
-      "9:16",
-      "cinematic"
+      "cloudy mass"
     ],
-    "prompt_block": "A colossal storm cloud hovering over a barren plateau, its surface studded with translucent crystalline glyphs that pulse with bioluminescent light, veins of luminous energy tracing ancient Ethiopian and Egyptian motifs, metallic rain droplets glinting like tiny shards of obsidian, photorealistic 8k, 9:16 vertical, cinematic, tactile, high‑contrast, NASA‑style atmospheric detail, advanced tech elements woven into the cloud.",
+    "prompt_block": "Storm, cloudy mass",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Massive storm cloud with crystalline glyphs, bioluminescent veins, and metallic rain.",
+        "summary": "",
         "prompt_keywords": [
-          "ancient",
-          "Ethiopian",
-          "Egyptian",
-          "crystalline",
-          "glyphs",
-          "bioluminescent",
-          "storm",
-          "cloud",
-          "rain",
-          "photorealistic",
-          "tactile",
-          "8k",
-          "9:16",
-          "cinematic"
+          "cloudy mass"
         ],
-        "prompt_block": "A towering storm cloud over a desolate landscape, its surface studded with translucent crystalline glyphs pulsing with bioluminescent light, veins of luminous energy tracing ancient Ethiopian and Egyptian motifs, metallic rain droplets glinting like obsidian shards, photorealistic 8k, 9:16 vertical, cinematic, tactile, high‑contrast, NASA‑style atmospheric detail, advanced tech elements woven into the cloud."
+        "prompt_block": "Storm, cloudy mass"
       }
     ]
   },
@@ -91,7 +48,7 @@
     "sources": [
       "row_731"
     ],
-    "occurrence_count": 1,
+    "occurrence_count": 2,
     "is_dynamic": false,
     "state_policy": "static",
     "states": [

@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_GATES_OF_THE_EAST",
+  "name": "gates of the east",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for gates of the east.",
+    "visual_anatomy": [
+      "Traits: Celestial portals in the east through which the luminaries 'go forth' to rise.",
+      "Roles: celestial_portal"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Celestial portals in the east through which the luminaries 'go forth' to rise."
+    ],
+    "prompt_block": "gates of the east, Celestial portals in the east through which the luminaries 'go forth' to rise.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Celestial portals in the east through which the luminaries 'go forth' to rise."
+        ],
+        "prompt_block": "gates of the east, Celestial portals in the east through which the luminaries 'go forth' to rise."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_GATES_OF_THE_EAST",
+    "name": "gates of the east",
+    "type": "set_environment",
+    "aliases": [
+      "gates of the east"
+    ],
+    "roles": [
+      "celestial_portal"
+    ],
+    "visual_traits": [
+      "Celestial portals in the east through which the luminaries 'go forth' to rise."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1171"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 78,
+        "chapter_end": 78,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "SETENV_THE_LUMINARIES",
+  "name": "the luminaries",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for the luminaries.",
+    "visual_anatomy": [
+      "Traits: Celestial bodies that are terrified.",
+      "Roles: environment, setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Celestial bodies that are terrified."
+    ],
+    "prompt_block": "the luminaries, Celestial bodies that are terrified.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Celestial bodies that are terrified."
+        ],
+        "prompt_block": "the luminaries, Celestial bodies that are terrified."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_LUMINARIES",
+    "name": "the luminaries",
+    "type": "set_environment",
+    "aliases": [
+      "The Luminaries",
+      "the luminaries"
+    ],
+    "roles": [
+      "environment",
+      "setting"
+    ],
+    "visual_traits": [
+      "Celestial bodies that are terrified."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1113",
+      "row_1195"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 20,
+        "chapter_end": 102,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

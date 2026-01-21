@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_BEFORE_THE_THRONE_OF_GLORY",
+  "name": "Before the Throne of Glory",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Before the Throne of Glory.",
+    "visual_anatomy": [
+      "Traits: The area in front of the Throne of Glory where judgment occurs.",
+      "Roles: The primary stage for the judgment scene."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "The area in front of the Throne of Glory where judgment occurs."
+    ],
+    "prompt_block": "Before the Throne of Glory, The area in front of the Throne of Glory where judgment occurs.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "The area in front of the Throne of Glory where judgment occurs."
+        ],
+        "prompt_block": "Before the Throne of Glory, The area in front of the Throne of Glory where judgment occurs."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_BEFORE_THE_THRONE_OF_GLORY",
+    "name": "Before the Throne of Glory",
+    "type": "set_environment",
+    "aliases": [
+      "Before the Throne of Glory"
+    ],
+    "roles": [
+      "The primary stage for the judgment scene."
+    ],
+    "visual_traits": [
+      "The area in front of the Throne of Glory where judgment occurs."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1155"
+    ],
+    "occurrence_count": 8,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 62,
+        "chapter_end": 62,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

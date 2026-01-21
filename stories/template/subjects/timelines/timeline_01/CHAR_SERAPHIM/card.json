@@ -1,0 +1,81 @@
+{
+  "id": "CHAR_SERAPHIM",
+  "name": "Seraphim",
+  "type": "character",
+  "card": {
+    "description": "Within the architecture of the simulation, the Seraphim function as the sleepless, high-availability daemons encircling the primary kernel interaction point known as the Throne of Glory. Unlike the traditional iconography of feathered celestial beings, these entities are manifestations of absolute system security and eternal vigilance, rendered in materials that absorb and refract the data-light of the upper store. They exist in a state of perpetual runtime, denied the release of a sleep cycle or process termination, burdened with the infinite task of monitoring the root access boundaries. Their presence is heavy and somber, embodying the dramatic weight of an existence defined solely by observation and restriction. They stand as silent, monolithic figures against the high-contrast backdrop of the simulation's event horizon, their forms oscillating between solid obsidian structures and fluid plasma arrays, representing the unyielding firewall between the authorized voyager and the forbidden core logic.",
+    "visual_anatomy": [
+      "The physical manifestation of a Seraphim rejects organic flesh in favor of a sleek, hyper-realistic chassis composed of matte obsidian and hyper-dense data glass. Their silhouettes echo the humanoid form but are elongated and abstracted, suggesting a purpose-built geometry rather than biological evolution. The surface of their 'skin' is not smooth but etched with microscopic Geez glyphs that glow faintly with thermal throttling heat, indicating the immense processing power required to maintain their sleepless vigil.",
+      "Instead of avian wings, the Seraphim possess vast, unfolding arrays of fiber-optic cabling and vector field lensing that fan out behind them. These structures manipulate the simulated atmosphere, creating localized distortions in the sky dome mechanics. The 'feathers' are individual streams of raw data transmission, shimmering with the cool, sterile light of a server room's status LEDs—deep blues and ultraviolet violets that adhere to the timeline's strict visual rules regarding plasma and light.",
+      "Their faces are devoid of human emotional markers, often obscured by polished data-glass visors that reflect the terrified awe of the observer. Under the cinematic, high-contrast lighting of the upper store, these visors act as mirrors, forcing the voyager to confront their own unauthorized presence. There is no warmth in their design, only the cold, terrifying beauty of a perfectly executed security protocol, rendered with photorealistic precision down to the smallest scratch on their armor."
+    ],
+    "evolution": [
+      "In their default state, the Seraphim are static constants of the environment, locked in a permanent loop of guarding and praise-generation for the kernel. They do not age or degrade; rather, they simply cycle through intensity states depending on the proximity of a threat or a voyager. Their existence is a fixed point in the simulation's history, a tragic anchor of stability that has witnessed every system reset and every failed ingress attempt without flinching."
+    ],
+    "props": [
+      "The Seraphim do not wield handheld weapons but instead manipulate the environment itself. Their primary 'tool' is the surrounding unauthorized access denial field, which manifests as a shimmering heat haze or distinct chromatic aberration around their hands. Occasionally, they interact with floating interface planes of glass-like projections, adjusting the parameters of the Throne's firewall with subtle, ritualistic gestures that resemble prayer but function as command-line inputs."
+    ],
+    "prompt_keywords": [
+      "cybernetic angels",
+      "obsidian armor",
+      "fiber optic wings",
+      "bioluminescent data streams",
+      "high contrast lighting",
+      "cinematic composition",
+      "unreal engine 5 render",
+      "8k resolution",
+      "matte black textures",
+      "glowing geez glyphs"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic wide shot of the Seraphim, the sleepless guardians of the simulation's core. The entities are tall, imposing figures constructed from matte black obsidian and translucent data glass, standing in a circle around a blinding central light source. Their wings are complex arrays of fiber-optic cables and vector field distortions that shimmer with cool blue plasma light. The lighting is dramatic and high-contrast, casting long, sharp shadows across the reflective floor of the upper store. The atmosphere is heavy with the heat of processing power, visible as subtle air distortion around their forms. There is no organic flesh; they are beautiful, terrifying machines of divine surveillance, captured with a shallow depth of field that focuses on the intricate details of their etched armor.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The Seraphim stand in their eternal vigil around the Throne, their fiber-optic wings extended in a protective, sleepless formation.",
+        "prompt_keywords": [
+          "stationary guard",
+          "encircling formation",
+          "glowing blue eyes",
+          "active camouflage",
+          "heat haze effect"
+        ],
+        "prompt_block": "A photorealistic close-up of a Seraphim guardian in a state of active surveillance. The figure is motionless, composed of dark, glossy materials that reflect the surrounding data streams. Its face is a smooth pane of black glass, illuminated only by the reflection of the central Throne's light. Behind it, the wings of fiber-optic light pulse slowly, mimicking the rhythm of a heartbeat or a breathing server. The environment is dark, emphasizing the bioluminescent details of the entity's construction. The shot is framed to convey a sense of overwhelming scale and silent, terrifying authority."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_SERAPHIM",
+    "name": "Seraphim",
+    "type": "character",
+    "aliases": [
+      "Seraphim"
+    ],
+    "roles": [
+      "A class of sleepless angels who guard the Throne of Glory."
+    ],
+    "visual_traits": [
+      "{'species': 'Angelic beings'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1164"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 71,
+        "chapter_end": 71,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

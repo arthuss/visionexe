@@ -1,0 +1,81 @@
+Project: KI Knowledge Base & Asset Manager
+Version: 2.0.0
+Last Updated: 2025-06-12
+
+1. Project Vision & Goal
+Eine zentrale, lokale und intelligente Wissensdatenbank zur Verwaltung aller digitalen Assets (3D-Modelle, API-Dokumentationen, Entwicklungschats). Das System soll semantische Suchen in natürlicher Sprache ermöglichen und als "externes Gehirn" für alle kreativen und technischen Projekte dienen.
+
+2. Core Technologies
+Datenbank: PostgreSQL 16 mit pgvector-Erweiterung (via Docker)
+Sprache: Python 3.11+
+Kern-Bibliotheken: psycopg2-binary (DB-Verbindung), pandas (Datenverarbeitung), python-dotenv (Konfiguration), sentence-transformers (Text-Embeddings)
+Workflow: Modulare Ingest-Skripte für verschiedene Datenquellen, interaktives Query-Tool für die Suche.
+Plattform: Windows (primär), mit Synchronisierungsstrategie für Multi-Maschinen-Setup (via Syncthing).
+
+3. Current Status & Pinned Task
+Status: ✅ Das erweiterte Fundament steht! Die lokale PostgreSQL/pgvector-Datenbank läuft über Docker mit automatischem Migrationssystem (Version 4). Alle Core-Tabellen sind implementiert mit Performance-Indizes, Audit-Triggern und erweiterten Features wie Suchanalyse und Asset-Beziehungen. Die Ingest-Pipeline für Assets funktioniert perfekt. Ein verbessertes Query-Interface mit Multi-Source-Suche ist verfügbar.
+
+🎯 PINNED TASK: Implementierung der nächsten Ingest-Pipeline: Verarbeitung der gescrapten API-Dokumentationen aus dem advanced_web_scraper/data/raw-Verzeichnis und Befüllung der api_documentation-Tabelle.
+
+4. Quick Start Guide
+🚀 NEUER BENUTZER - KOMPLETTE EINRICHTUNG:
+1. Führe `quick_setup.bat` aus (installiert alles automatisch)
+2. Starte `python manage_database.py` für Verwaltung
+
+🔍 NUR SUCHEN:
+1. Starte `start_knowledge_base.bat` (startet DB-Container)
+2. Führe `python query_database_new.py` aus
+
+📊 VERWALTUNG:
+- `python manage_database.py` - Zentrales Management-Tool
+- `python setup_database.py` - Datenbanksetup/Migrationen
+- `python ingest_assets.py` - Asset-Import
+
+5. New Features in Version 2.0
+✨ Zentrales Management-Tool (`manage_database.py`)
+- Übersichtliches Menü für alle Funktionen
+- Status-Dashboard mit Tabellen-Übersicht
+- Benutzer-Management mit GUI
+- Statistiken und Analytics
+- Wartungsfunktionen
+
+🔍 Verbessertes Query-Interface (`query_database_new.py`)
+- Multi-Source-Suche (Assets, API-Docs, Dev-Logs)
+- Universelle Suche über alle Tabellen
+- Formatierte Ergebnisanzeige mit Emojis
+- Such-Statistiken und Analytics
+- Benutzerfreundliche Menüführung
+
+🚀 Automatisierte Setup-Skripte
+- `quick_setup.bat` - Komplette Einrichtung mit einem Klick
+- `start_knowledge_base.bat` - Docker-Container starten
+- `requirements.txt` - Alle Python-Dependencies
+
+🗃️ Erweiterte Datenbank (Schema v4)
+- Migrationssystem für sichere Updates
+- Performance-Indizes für alle Embeddings
+- Audit-Trigger für automatische Timestamps
+- Suchanalyse-Tabelle für Query-Tracking
+- Asset-Relationship-Tabelle für Verknüpfungen
+
+6. Agent Instructions & Rules
+WICHTIG: Jede KI-Instanz, die an diesem Projekt arbeitet, MUSS diese Regeln befolgen.
+
+Lies dieses Dokument zuerst. Beginne jede neue Interaktion damit, dieses Briefing zu verstehen.
+Fokus auf den Pinned Task. Konzentriere dich auf die unter Punkt 3 definierte Aufgabe. Schlage keine alternativen Aufgaben vor, es sei denn, sie sind für die Lösung des Pinned Tasks zwingend erforderlich.
+Vollständiger Code. Gib immer den vollständigen Code für eine Datei aus, keine gekürzten Schnipsel oder Platzhalter.
+Protokolliere deine Änderungen. Jede signifikante Änderung, die erfolgreich umgesetzt wird, MUSS unten im Changelog (Punkt 7) eingetragen werden.
+Sicherheit zuerst. Passwörter und sensible Daten dürfen niemals hartcodiert werden. Alle Konfigurationen müssen über die .env-Datei geladen werden.
+
+7. Changelog
+Format: YYYY-MM-DD - [Modul/Datei] - Kurzbeschreibung der Änderung. (Agent: Name)
+
+2025-06-12 - [manage_database.py] - Zentrales Management-Tool erstellt mit Menüsystem, Status-Dashboard, Benutzer-Management und Statistiken. (Agent: GitHub Copilot)
+2025-06-12 - [query_database_new.py] - Komplett überarbeitetes Query-Interface mit Multi-Source-Suche, verbesserter UI und Such-Analytics. (Agent: GitHub Copilot)
+2025-06-12 - [setup_database.py] - Auf Version 4 aktualisiert mit Migrationssystem, Performance-Indizes, Audit-Triggern und erweiterten Features. (Agent: GitHub Copilot)
+2025-06-12 - [Batch-Skripte] - quick_setup.bat und start_knowledge_base.bat für automatisierte Windows-Installation erstellt. (Agent: GitHub Copilot)
+2025-06-12 - [requirements.txt] - Vollständige Dependency-Liste für einfache Python-Installation hinzugefügt. (Agent: GitHub Copilot)
+2025-06-10 - [ingest_assets.py] - DatatypeMismatch-Fehler behoben durch Hinzufügen einer clean_and_validate_json-Funktion, die NaN-Werte aus der CSV abfängt und in gültige JSON-Strings umwandelt. (Agent: Gemini)
+2025-06-10 - [setup_database.py] - value too long-Fehler behoben durch Ändern des Spaltentyps asset_id von VARCHAR(64) zu VARCHAR(255) mittels ALTER TABLE. (Agent: Gemini)
+2025-06-10 - [query_database.py] - password authentication failed-Fehler behoben durch Umstellung aller Skripte auf eine zentrale .env-Datei für die sichere Verwaltung von Passwörtern. (Agent: Gemini)
+2025-06-10 - [Projekt-Setup] - Lokale PostgreSQL/pgvector-Datenbank via Docker aufgesetzt und mit einem Python-Skript initialisiert (Tabellen, schreibgeschützter User). (Agent: Gemini)

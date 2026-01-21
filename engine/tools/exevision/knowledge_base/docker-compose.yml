@@ -1,0 +1,19 @@
+# docker-compose.yml
+# Konfiguration für unsere lokale Wissensdatenbank.
+# Startet einen PostgreSQL-Container mit der pgvector-Erweiterung.
+
+version: '3.8'
+
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: local_ai_knowledge_base
+    environment:
+      - POSTGRES_DB=ai_docs
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=Lacrimamosa1!
+    ports:
+      - "5433:5432" # Leitet den DB-Port 5432 auf den Port 5433 deines PCs um.
+    volumes:
+      - ./pgdata:/var/lib/postgresql/data # Speichert alle Datenbankdaten im Ordner 'pgdata'.
+    restart: unless-stopped

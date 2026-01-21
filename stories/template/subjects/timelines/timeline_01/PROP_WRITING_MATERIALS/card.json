@@ -1,0 +1,67 @@
+{
+  "id": "PROP_WRITING_MATERIALS",
+  "name": "Writing Materials",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Writing Materials.",
+    "visual_anatomy": [
+      "Traits: unspecified writing implement and surface",
+      "Roles: actor_prop:Enoch, actor_prop:Uriel"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "unspecified writing implement and surface"
+    ],
+    "prompt_block": "Writing Materials, unspecified writing implement and surface",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "unspecified writing implement and surface"
+        ],
+        "prompt_block": "Writing Materials, unspecified writing implement and surface"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_WRITING_MATERIALS",
+    "name": "Writing Materials",
+    "type": "prop",
+    "aliases": [
+      "Writing Materials"
+    ],
+    "roles": [
+      "actor_prop:Enoch, actor_prop:Uriel"
+    ],
+    "visual_traits": [
+      "unspecified writing implement and surface"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1128"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 33,
+        "chapter_end": 33,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

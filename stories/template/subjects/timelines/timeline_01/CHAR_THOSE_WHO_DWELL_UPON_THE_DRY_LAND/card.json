@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_THOSE_WHO_DWELL_UPON_THE_DRY_LAND",
+  "name": "those who dwell upon the dry land",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for those who dwell upon the dry land.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Inhabitants of the earth who were led astray.'}",
+      "Roles: victim"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Inhabitants of the earth who were led astray.'}"
+    ],
+    "prompt_block": "those who dwell upon the dry land, {'description': 'Inhabitants of the earth who were led astray.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Inhabitants of the earth who were led astray.'}"
+        ],
+        "prompt_block": "those who dwell upon the dry land, {'description': 'Inhabitants of the earth who were led astray.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THOSE_WHO_DWELL_UPON_THE_DRY_LAND",
+    "name": "those who dwell upon the dry land",
+    "type": "character",
+    "aliases": [
+      "those who dwell upon the dry land"
+    ],
+    "roles": [
+      "victim"
+    ],
+    "visual_traits": [
+      "{'description': 'Inhabitants of the earth who were led astray.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1147"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 54,
+        "chapter_end": 54,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

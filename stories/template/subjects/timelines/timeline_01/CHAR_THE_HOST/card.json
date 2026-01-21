@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_THE_HOST",
+  "name": "The Host",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Host.",
+    "visual_anatomy": [
+      "Traits: An appearing group ('his camp/host') that accompanies The Holy and Great One. Their specific appearance is not detailed.",
+      "Roles: Entourage or army accompanying the main actor."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "An appearing group ('his camp/host') that accompanies The Holy and Great One. Their specific appearance is not detailed."
+    ],
+    "prompt_block": "The Host, An appearing group ('his camp/host') that accompanies The Holy and Great One. Their specific appearance is not detailed.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "An appearing group ('his camp/host') that accompanies The Holy and Great One. Their specific appearance is not detailed."
+        ],
+        "prompt_block": "The Host, An appearing group ('his camp/host') that accompanies The Holy and Great One. Their specific appearance is not detailed."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_HOST",
+    "name": "The Host",
+    "type": "character",
+    "aliases": [
+      "The Host"
+    ],
+    "roles": [
+      "Entourage or army accompanying the main actor."
+    ],
+    "visual_traits": [
+      "An appearing group ('his camp/host') that accompanies The Holy and Great One. Their specific appearance is not detailed."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1077"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 1,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

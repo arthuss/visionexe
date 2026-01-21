@@ -1,0 +1,67 @@
+{
+  "id": "PROP_BENEFICIAL_WINDS",
+  "name": "Beneficial Winds",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Beneficial Winds.",
+    "visual_anatomy": [
+      "Traits: A group of four winds that bring blessing and peace.",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A group of four winds that bring blessing and peace."
+    ],
+    "prompt_block": "Beneficial Winds, A group of four winds that bring blessing and peace.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A group of four winds that bring blessing and peace."
+        ],
+        "prompt_block": "Beneficial Winds, A group of four winds that bring blessing and peace."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_BENEFICIAL_WINDS",
+    "name": "Beneficial Winds",
+    "type": "prop",
+    "aliases": [
+      "Beneficial Winds"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "A group of four winds that bring blessing and peace."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1169"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 76,
+        "chapter_end": 76,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

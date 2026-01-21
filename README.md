@@ -7,6 +7,7 @@ Repo layout (engine + stories).
   - template/    Empty story template (copy or clone).
 - Hard-state docs (append-only, versioned): `STATE.md`, `ARCHITECTURE.md`, `CONSTRAINTS.md`.
 - Workspace compendium: `docs/WORKSPACE_COMPENDIUM.md` (generated via `engine/tools/build_workspace_compendium.py`, source sections in `docs/compendium_sections/`).
+- Quickstart workflow order: `QUICKSTART.md`.
 
 Story layout:
 - Filmsets: `<chapter_label>_###/segment_###/scene_###/timeline_##/` (chapter_label defaults to `chapter`, template uses `story`).
@@ -14,7 +15,18 @@ Story layout:
   - Per-timeline subject roots live under `subjects/timelines/` by default and are created by `asset_bible_enricher.py`.
   - Default timeline root is `subjects/timelines/<timeline_label>_<tag>/` (tag defaults to `01`).
   - Override the root via `subject_dir_root` in `story_config.json` (use `{timeline_label}`, `{timeline_tag}`, `{timeline_folder}` tokens if you want interpolation).
-  - Subject folders are the canonical home for assets, masks, LoRA training, and notes used when building start images and chapters.
+- Subject folders are the canonical home for assets, masks, LoRA training, and notes used when building start images and chapters.
+- Optional vector store (pgvector + Qdrant + MCP): `engine/tools/exevision/vector_mcp` (see `engine/tools/exevision/QUICKSTART.md`).
+  - Start stack: `engine/tools/exevision/scripts/start_vector_stack.ps1`.
+  - Start MCP server: `engine/tools/exevision/scripts/run_mcp_server.ps1`.
+  - Subject registry MCP tools were in the legacy `knowledge_base` drop-in; those scripts are retired with the cleanup.
+  - Raw subject extraction helpers remain: `engine/workers/subject_corpus_builder.py` + `engine/workers/subject_registry_prompt_builder.py` (require MCP tool-calls).
+
+Style/genre controls:
+- `story_config.json` supports `genre_profile`, `style_profiles` (array), and `tone_dials`.
+- Profiles can point to JSON files in `stories/template/config/genre` and `stories/template/config/styles`.
+- Default local LLM profile lives in `engine/config/engine_config.json` (now `lmstudio_local` -> `nvidia/nemotron-3-nano`).
+- OpenAI-compatible profiles can include `thinking`/`reasoning` or `extra_body` fields in `engine/config/llm_profiles.json` to pass through to LM Studio.
 
 Core data flow (minimal):
 0. `setup_filmsets_from_geez.py` -> scaffold `filmsets/chapter_###/segment_###/scene_###/timeline_##/` from Ge'ez verse JSONL.
@@ -69,12 +81,34 @@ Core data flow (minimal):
    - If Gemini fails, falls back to Copilot CLI (set `COPILOT_CMD`/`LLM_CMD` or install `copilot`). Copilot maps `gemini-3-pro` to `gemini-3-pro-preview`.
 2.5. `drehbuch_narration_worker.py` -> narrative spec script.
    - Outputs `DREHBUCH_NARRATIV.md` per chapter.
+   - Vertex option (GenAI/App-Builder credits): `--use-vertex --vertex-project <id> --vertex-location us-central1 --vertex-model gemini-2.5-pro`
+   - LM Studio option: `--use-lmstudio` (uses `lmstudio_local` or `--llm-profile` from `engine/config/llm_profiles.json`).
 3. `analysis_master_builder.py` -> `data/analysis/analysis_master.jsonl`
+Analysis-Master flow (composition-first):
 4. `subject_registry_builder.py` -> subjects registry + profiles + occurrences + scenes
+4.1 `subject_registry_validate.py` -> Gemini audit against full story, outputs `registry_merge_log.json`
+4.2 `subject_registry_normalizer.py` -> applies merge log to registry/profiles/occurrences
+4.3 MCP-Registry flow (raw corpus + MCP): `subject_corpus_builder.py` + `subject_registry_prompt_builder.py` -> feed prompt to Gemini CLI (MCP tool-calls).
 5. `asset_bible_builder.py` -> `subjects/asset_bible.json`
 6. `asset_bible_enricher.py` -> `subjects/ASSET_BIBLE.md` + `subjects/asset_bible_cards.jsonl`
    - Uses analysis + screenplay snippets to generate dense prompt-ready asset cards for every subject.
    - Defaults to Ollama (`gpt-oss:20b`), or pass `--use-gemini` + `--model`.
+   - Default types now include `scene` + `requisite` (use `--types` to override).
+   - `prop` is subject-bound (role `actor_prop:<name>`). Scene dressing goes to `requisite`.
+   - Prop profiles now carry `owner_subject_ids` (resolved from the subject registry).
+   - Local LM Studio option: `--use-lmstudio` (optionally `--llm-profile`, `--llm-temperature`).
+   - Optional Gemini cache (paid API): set `GEMINI_API_KEY` (or `GOOGLE_API_KEY`) and pass
+     `--gemini-cache` plus `--allow-gemini-api` (or `ALLOW_GEMINI_API=1`). Cache metadata defaults
+     to `subjects/gemini_cache.json` and can be overridden with `--gemini-cache-path`.
+   - Use `--gemini-api-model` (or `GEMINI_API_MODEL`) to target API-only models like
+     `gemini-2.5-pro`/`gemini-2.5-flash` while keeping `--model` for the CLI.
+   - For Gemini CLI on Workspace/Companion accounts, set `GOOGLE_CLOUD_PROJECT` (or pass
+     `--gemini-project`) to avoid auth errors. If unset, workers default to
+     `VISIONEXE_GCP_PROJECT` or `wallpaper-management-hub` (disable with
+     `VISIONEXE_GEMINI_PROJECT_DISABLE=1`, `VISIONEXE_GCP_PROJECT_DISABLE=1`, or per-run
+     `--no-gemini-project`).
+   - To bill Vertex/GenAI credits instead of Companion, use `--use-vertex` plus
+     `--vertex-project`/`--vertex-location`/`--vertex-model`.
    - If Gemini fails, falls back to Copilot CLI (set `COPILOT_CMD`/`LLM_CMD` or install `copilot`). Copilot maps `gemini-3-pro` to `gemini-3-pro-preview`.
    - Pulls story briefings from `story_config.json` (`briefings`), capped by `--briefing-max-chars`.
   - Writes per-subject folders under `subjects/timelines/<timeline_label>_<tag>/<id>/` with `card.md`, `card.json`, `images/`, and `states/`.
@@ -140,6 +174,7 @@ Batch scripts:
   - Optional: `-FixHeaders` normalizes malformed ACT/SCENE headers after each chapter.
   - Timeline profiles live in `stories/<story>/config/timelines/` and are referenced by `timeline_profiles` + `timeline_default`
     in `stories/<story>/config/story_config.json`. `drehbuch*.py` loads the profile + subject registry; override with `--timeline`.
+  - `drehbuch.py` and `drehbuch_gemini.py` support LM Studio (`--use-lmstudio`, `--llm-profile`, `--llm-temperature`).
 - `engine/scripts/run_missing_chapters.ps1` regenerates chapters with missing/invalid scene headers (uses `scene_preflight_check.py`).
   - Example: `engine/scripts/run_missing_chapters.ps1 -StoryConfig stories/template/config/story_config.json -Start 1 -End 108 -DryRun`
   - Optional: `-SanitizeFirst` trims log/command garbage before preflight.
@@ -242,6 +277,8 @@ Scene building:
 
 RAG (small):
 - `engine/scripts/run_rag_small.ps1` indexes `<data_root>/raw` (from story_config) into Qdrant; override with `-Root` or `-StoryConfig`.
+- Optional local Qwen3-VL embedding server (no Ollama): `engine/tools/exevision/model_workers/README.md`.
+  - Launcher: `engine/scripts/start_qwen_embedder.ps1` (wraps `engine/tools/exevision/scripts/run_qwen3_vl_embed.ps1`).
 
 Pose extraction (BVH):
 - `engine/workers/pose_bvh_importer.py` converts SAM3 BVH output into a pose JSON + mapping stub for CC4/iClone.

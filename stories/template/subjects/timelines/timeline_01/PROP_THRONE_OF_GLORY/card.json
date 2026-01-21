@@ -1,0 +1,77 @@
+{
+  "id": "PROP_THRONE_OF_GLORY",
+  "name": "throne of glory",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for throne of glory.",
+    "visual_anatomy": [
+      "Traits: A throne upon which the Lord of Spirits and the Son of Man sit., {'description': \"A throne, 'መንበረ፡ ስብሐት', upon which the Chosen One sits to enact judgment.\"}, {'description': 'A glorious throne belonging to the Head of Days.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A throne upon which the Lord of Spirits and the Son of Man sit.",
+      "{'description': \"A throne, 'መንበረ፡ ስብሐት', upon which the Chosen One sits to enact judgment.\"}",
+      "{'description': 'A glorious throne belonging to the Head of Days.'}"
+    ],
+    "prompt_block": "throne of glory, A throne upon which the Lord of Spirits and the Son of Man sit., {'description': \"A throne, 'መንበረ፡ ስብሐት', upon which the Chosen One sits to enact judgment.\"}, {'description': 'A glorious throne belonging to the Head of Days.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A throne upon which the Lord of Spirits and the Son of Man sit.",
+          "{'description': \"A throne, 'መንበረ፡ ስብሐት', upon which the Chosen One sits to enact judgment.\"}",
+          "{'description': 'A glorious throne belonging to the Head of Days.'}"
+        ],
+        "prompt_block": "throne of glory, A throne upon which the Lord of Spirits and the Son of Man sit., {'description': \"A throne, 'መንበረ፡ ስብሐት', upon which the Chosen One sits to enact judgment.\"}, {'description': 'A glorious throne belonging to the Head of Days.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_THRONE_OF_GLORY",
+    "name": "throne of glory",
+    "type": "prop",
+    "aliases": [
+      "Throne of Glory",
+      "throne of glory"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "A throne upon which the Lord of Spirits and the Son of Man sit.",
+      "{'description': \"A throne, 'መንበረ፡ ስብሐት', upon which the Chosen One sits to enact judgment.\"}",
+      "{'description': 'A glorious throne belonging to the Head of Days.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1139",
+      "row_1148",
+      "row_1155",
+      "row_1164"
+    ],
+    "occurrence_count": 8,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 45,
+        "chapter_end": 71,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

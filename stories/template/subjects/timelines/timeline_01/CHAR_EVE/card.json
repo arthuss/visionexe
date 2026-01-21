@@ -1,0 +1,114 @@
+{
+  "id": "CHAR_EVE",
+  "name": "Eve",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Eve.",
+    "visual_anatomy": [
+      "Traits: {'description': \"The ancient mother, described as 'ʿǝberawit' (ancient woman) based on analysis_context.\"}",
+      "Roles: historical_figure"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"The ancient mother, described as 'ʿǝberawit' (ancient woman) based on analysis_context.\"}"
+    ],
+    "prompt_block": "Eve, {'description': \"The ancient mother, described as 'ʿǝberawit' (ancient woman) based on analysis_context.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"The ancient mother, described as 'ʿǝberawit' (ancient woman) based on analysis_context.\"}"
+        ],
+        "prompt_block": "Eve, {'description': \"The ancient mother, described as 'ʿǝberawit' (ancient woman) based on analysis_context.\"}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"The ancient mother, described as 'ʿǝberawit' (ancient woman) based on analysis_context.\"}"
+        ],
+        "prompt_block": "Eve, {'description': \"The ancient mother, described as 'ʿǝberawit' (ancient woman) based on analysis_context.\"}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"The ancient mother, described as 'ʿǝberawit' (ancient woman) based on analysis_context.\"}"
+        ],
+        "prompt_block": "Eve, {'description': \"The ancient mother, described as 'ʿǝberawit' (ancient woman) based on analysis_context.\"}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_EVE",
+    "name": "Eve",
+    "type": "character",
+    "aliases": [
+      "Eve"
+    ],
+    "roles": [
+      "historical_figure"
+    ],
+    "visual_traits": [
+      "{'description': \"The ancient mother, described as 'ʿǝberawit' (ancient woman) based on analysis_context.\"}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Pre-Wisdom', 'description': 'Resided in the Garden of Righteousness before eating from the Tree of Wisdom.'}",
+      "{'phase': 'Phase 2: Post-Wisdom', 'description': 'After eating the fruit, her eyes were opened, she gained great wisdom, became aware of her nakedness, and was exiled from the Garden.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1125"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 32,
+        "chapter_end": 31,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 32,
+        "chapter_end": 31,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Pre-Wisdom', 'description': 'Resided in the Garden of Righteousness before eating from the Tree of Wisdom.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 32,
+        "chapter_end": 32,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Post-Wisdom', 'description': 'After eating the fruit, her eyes were opened, she gained great wisdom, became aware of her nakedness, and was exiled from the Garden.'}"
+        ]
+      }
+    ]
+  }
+}

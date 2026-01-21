@@ -1,0 +1,67 @@
+{
+  "id": "PROP_EARS_OF_CORN",
+  "name": "Ears of corn",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Ears of corn.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Growing on the seven mountains.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Growing on the seven mountains.'}"
+    ],
+    "prompt_block": "Ears of corn, {'description': 'Growing on the seven mountains.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Growing on the seven mountains.'}"
+        ],
+        "prompt_block": "Ears of corn, {'description': 'Growing on the seven mountains.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_EARS_OF_CORN",
+    "name": "Ears of corn",
+    "type": "prop",
+    "aliases": [
+      "Ears of corn"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'Growing on the seven mountains.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1125"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 32,
+        "chapter_end": 32,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

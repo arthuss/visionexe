@@ -2,9 +2,7 @@
 **State ID:** default
 **Chapters:** 78 - 78
 
-**Phase Summary:** Chamber in full activation, bathed in radiant golden light.
-**Phase Keywords:** ancient-tech, solar, crystalline, glyph, Ethiopian, Egyptian, photorealistic, industrial, mystic
 **Phase Prompt:**
-The solar ascension chamber is bathed in a radiant golden light, the crystalline arrays have expanded to their full lattice, the sunstone altar glows intensely with warm amber, and the glyphic carvings pulse in sync with a low‑frequency hum, creating a dramatic interplay of light and shadow across the weathered basalt columns.
+Uriel's Journey to Light and Sun, Wale'ete Sir'ate R'yni
 
 ---

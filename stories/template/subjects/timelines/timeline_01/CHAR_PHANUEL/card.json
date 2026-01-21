@@ -1,0 +1,89 @@
+{
+  "id": "CHAR_PHANUEL",
+  "name": "Phanuel",
+  "type": "character",
+  "card": {
+    "description": "Phanuel manifests as the Fourth Kernel Daemon within the simulation's administrative hierarchy, explicitly designated to manage the 'Repentance' subroutine—a critical rollback protocol for corrupted user-instances. In a runtime governed by strict input/output logic, he functions as the Auditor of State Recovery, overseeing the delicate process by which a fragmented entity can repair its checksums and qualify for migration to the persistent storage of the Upper Store. Unlike the militant firewalls or the patch-deploying healers, Phanuel represents the quiet, bureaucratic solemnity of data salvage. He exists in the high-latency zones of the simulation, the waiting rooms of the code, where he patiently reviews the error logs of those seeking to avoid deletion. His presence is heavy with the gravitational pull of a black hole, yet he offers the only valid egress key for entities that have violated their core programming.",
+    "visual_anatomy": [
+      "His physical avatar is a masterpiece of hyper-realistic industrial design, blending the aesthetics of high-end server architecture with the silhouette of a classical seraph. He is clad in layered plating of matte obsidian and polarizing data-glass, materials that drink in the ambient light and reflect only the essential telemetry of the system. These plates do not behave like fabric but like sliding tectonic shifts, reconfiguring around his frame to optimize cooling and data throughput. Etched into the obsidian are scrolling streams of Geez script—not mystical incantations, but live debugger output, glowing with a faint, clinical cyan luminescence that pulses with the rhythm of a heartbeat.",
+      "The dramatic visual language frames him in extreme close-up, utilizing a shallow depth of field to isolate his visage from the chaotic noise of the simulation. His face is a perfect, synthetic sculpt, devoid of pores but rich in micro-texture—brushed titanium ridges and semi-translucent polymer skin that hints at the fiber-optic neural network beneath. His eyes are not organic orbs but complex optical sensors, multi-lensed apertures that constantly adjust focus, shuttering and dilating as they scan the source code of the entities before him. The lighting is always moody and high-contrast, utilizing 'God rays' that are actually projected volumetric light paths from the system's overhead grid.",
+      "Instead of organic wings, Phanuel utilizes advanced vector field lensing for mobility and status display. The space behind his shoulders is distorted by intense heat shimmering and gravitational warping, creating a phantom plumage of refracted light. Fiber-optic bundles trail from his cranial ports like dreadlocks or a halo of wires, plugging directly into the atmospheric data-fog that permeates the simulation. When he moves, the air around him crackles with static discharge, the sound of a high-voltage server room amplified to a sacred hum."
+    ],
+    "evolution": [
+      "Throughout the narrative loop, Phanuel remains a constant, immutable variable—a fixed point of reference in a decaying system. His visual state does not degrade, reinforcing his role as the anchor of hope. However, the intensity of his internal processing manifests as an increase in thermal throttling; as the volume of 'repentance' requests spikes, the heat distortion around him becomes more violent, and the cyan glow of his debugger scripts brightens to a blinding white, casting harsh, dramatic shadows that carve his features into a mask of intense concentration."
+    ],
+    "props": [
+      "He interacts constantly with the *Ledger of Inheritors*, which is not a physical book but a suspended holographic interface generated from his gauntlets. It manifests as a cascading waterfall of node graphs and dependency trees, representing the intricate web of user choices and system consequences. He manipulates these hard-light structures with precise, pianist-like finger movements, literally untangling the 'spaghetti code' of a sinner's life to find the salvageable core.",
+      "Phanuel is often framed alongside the *Gateway Buffer*, a structural element of the simulation environment that resembles a confession booth constructed from server racks and privacy glass. This is his domain of operation, a space where the background noise of the world is dampened to absolute digital silence, allowing for the intimate, whispered exchange of authentication tokens between the fallen and the restorer."
+    ],
+    "prompt_keywords": [
+      "Phanuel archangel cyborg",
+      "matte obsidian armor",
+      "bioluminescent circuitry cyan",
+      "vector field wings",
+      "optical sensor eyes",
+      "holographic interface data",
+      "cinematic lighting",
+      "shallow depth of field",
+      "8k resolution",
+      "octane render",
+      "melancholic atmosphere",
+      "server room aesthetic",
+      "Geez glyphs texture"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic close-up of the archangel Phanuel interpreted as a high-tech system daemon within a dark simulation. He has flawless, matte grey synthetic skin and complex optical sensor eyes with multiple apertures. He is wearing ceremonial armor made of layered obsidian and translucent data-glass, etched with glowing cyan Geez glyphs that scroll like computer code. Behind him, instead of wings, the air is distorted by heat shimmers and vector field lensing. The lighting is moody and dramatic, with a single harsh light source highlighting the texture of his armor and the sorrowful, patient expression on his artificial face. The background is a blurred server-room void, dark and atmospheric. Shot on 70mm lens, shallow depth of field, pbr textures, raytracing.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "Phanuel stands as the stoic auditor of the system, reviewing the code of the fallen in the quiet, dark buffer zones of the simulation. His form is pristine, lit by the cool glow of his own internal diagnostics and the holographic ledgers he maintains.",
+        "prompt_keywords": [
+          "stoic pose",
+          "examining holographic data",
+          "cool cyan lighting",
+          "dark atmosphere",
+          "intimate framing"
+        ],
+        "prompt_block": "A medium shot of Phanuel the System Auditor in a dark, quiet void. He is looking down at a floating holographic display of complex node graphs and data streams, his face illuminated by the cool cyan light of the interface. His obsidian armor reflects the data. His expression is focused and calm. The background is deep shadow, emphasizing his isolation and importance. Hyper-realistic, 8k, cinematic composition."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_PHANUEL",
+    "name": "Phanuel",
+    "type": "character",
+    "aliases": [
+      "Phanuel"
+    ],
+    "roles": [
+      "One of the chief angels, mentioned in a group.",
+      "archangel"
+    ],
+    "visual_traits": [
+      "{'description': \"The fourth of the four great angels. He is set 'over the repentance unto hope of those who inherit eternal life'.\"}",
+      "{'species': 'Angel'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1133",
+      "row_1147",
+      "row_1164"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 40,
+        "chapter_end": 71,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

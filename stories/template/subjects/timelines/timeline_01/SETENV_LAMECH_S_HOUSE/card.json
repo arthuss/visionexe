@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_LAMECH_S_HOUSE",
+  "name": "Lamech's House",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Lamech's House.",
+    "visual_anatomy": [
+      "Traits: The entire house is illuminated as if by the sun when the newborn Noah opens his eyes.",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "The entire house is illuminated as if by the sun when the newborn Noah opens his eyes."
+    ],
+    "prompt_block": "Lamech's House, The entire house is illuminated as if by the sun when the newborn Noah opens his eyes.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "The entire house is illuminated as if by the sun when the newborn Noah opens his eyes."
+        ],
+        "prompt_block": "Lamech's House, The entire house is illuminated as if by the sun when the newborn Noah opens his eyes."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_LAMECH_S_HOUSE",
+    "name": "Lamech's House",
+    "type": "set_environment",
+    "aliases": [
+      "Lamech's House"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "The entire house is illuminated as if by the sun when the newborn Noah opens his eyes."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1199"
+    ],
+    "occurrence_count": 8,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 106,
+        "chapter_end": 106,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

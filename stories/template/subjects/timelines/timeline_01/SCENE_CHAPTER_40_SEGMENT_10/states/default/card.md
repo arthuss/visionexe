@@ -2,9 +2,7 @@
 **State ID:** default
 **Chapters:** 40 - 40
 
-**Phase Summary:** The engine in its idle state, glyphs dim, mist faint, silver lattice subtle.
-**Phase Keywords:** idle, dim, mist, silver lattice, ancient
 **Phase Prompt:**
-A towering obsidian monolith, 12 meters tall, carved into an ancient ankh shape, its black basalt surface etched with spiraling bioluminescent glyphs that glow faintly in muted azure, surrounded by a lattice of hammered silver filaments etched with subtle runic patterns, crystalline energy conduits pulsing softly within the ankh loop, emitting a low, almost inaudible hum, a thin phosphorescent mist hovering at its base, set in a dimly lit subterranean temple with an ancient scroll and obsidian lens nearby, cinematic photorealistic, grounded realism, ancient-tech, industrial mysticism, Ethiopian-Egyptian aesthetics, tactile textures, dramatic lighting, high detail, photorealistic rendering.
+Chapter 40 Segment 10,
 
 ---

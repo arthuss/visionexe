@@ -1,0 +1,67 @@
+{
+  "id": "PROP_BOOKS_OF_HIS_FATHER_S_HAND",
+  "name": "Books of his father's hand",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Books of his father's hand.",
+    "visual_anatomy": [
+      "Traits: Handwritten texts",
+      "Roles: actor_prop:Methuselah"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Handwritten texts"
+    ],
+    "prompt_block": "Books of his father's hand, Handwritten texts",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Handwritten texts"
+        ],
+        "prompt_block": "Books of his father's hand, Handwritten texts"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_BOOKS_OF_HIS_FATHER_S_HAND",
+    "name": "Books of his father's hand",
+    "type": "prop",
+    "aliases": [
+      "Books of his father's hand"
+    ],
+    "roles": [
+      "actor_prop:Methuselah"
+    ],
+    "visual_traits": [
+      "Handwritten texts"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1175"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 82,
+        "chapter_end": 82,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

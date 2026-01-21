@@ -1,0 +1,26 @@
+## [CHARACTER] Honored Brother (ID: CHAR_HONORED_BROTHER)
+**Description:** The Honored Brother functions as a tragic variable within the simulation's bounded runtime, representing the compliant subset of entities who have suffered critical integrity loss at the hands of corrupted operator classes. He is not merely a passive victim but a localized cluster of system sorrow, his existence defined by the heavy, unauthorized write-operations etched into his avatar. Standing within the stark, high-contrast lighting of the judgment buffer, he embodies the emotional weight of a deleted history. His presence validates the system's need for a judicial reset, serving as forensic evidence of the cruelty inflicted by the rogue sovereign processes. He appears less as a warrior and more as a fragmented witness, his data-integrity barely holding against the entropy of the environment.
+
+### 1. VISUAL ANATOMY / DESIGN
+His physical manifestation is rendered with excruciating hyper-realism, adhering strictly to the simulation’s highest fidelity protocols despite his damaged state. The skin texture is porous and translucent, revealing faint, sub-dermal fiber-optic networks that pulse with a weakening amber light, suggesting a depleted power cycle. Bruises on his face and hands do not appear as organic hematomas but as patches of absolute obsidian void, where the rendering engine has ceased to calculate light return—a visual metaphor for data that has been forcibly redacted.
+He is draped in garments that mimic the physics of heavy, coarse linen, yet the fabric behaves with a slight lag, trailing behind his movements like a high-latency simulation of cloth. The weave is embedded with microscopic Geez glyphs that act as run-time logs, glowing faintly in the deep shadows of the scene. The attire is torn not by physical force, but by vector-shearing, leaving edges that pixelate into dissolving data particles rather than frayed threads, reinforcing the artificial nature of his confinement.
+The lighting around him is strictly cinematic and dramatic, adhering to the 'Drama' genre profile. Key lights frame his weary expression, casting deep, hollow shadows into his eye sockets, while a cold, data-glass rim light separates him from the void background. There is no magical aura, only the stark, indifferent physics of the simulation box highlighting the moisture of digital tears and the grime of a simulated desert on his brow.
+
+### 2. EVOLUTION / VARIANTS
+In his default state, the Honored Brother remains static in his suffering, a frozen snapshot of persecution awaiting the system administrator's review. He does not heal; rather, the artifacts of his injury—the obsidian patches and vector shears—become fixed parts of his topology. He represents a archived state of 'injustice' that the system cannot auto-correct without external intervention.
+
+### 3. PROPS & EQUIPMENT
+He clutches a fractured data-slate, a shard of the simulation's floor material that resembles black glass. It reflects the overhead gate-bands of the sky dome. This object is not a weapon but a record-keeper, its surface scratched with manual inputs that detail the transgressions committed against his kin. It catches the ambient plasma light, flaring with anamorphic streaks that cut across the vertical frame.
+
+### 4. AI PROMPT KEYWORDS
+`hyper-realistic portrait`, `simulation victim`, `obsidian bruising`, `fiber-optic veins`, `torn data-cloth`, `cinematic lighting`, `emotional exhaustion`, `Geez glyph texture`, `shallow depth of field`, `vertical composition`
+
+### 5. PROMPT BLOCK (T2I)
+A hyper-realistic, vertical 9:16 cinematic close-up of the Honored Brother, a tragic figure inside a dark simulation environment. He has translucent skin with underlying fiber-optic vascular systems glowing faintly amber. His face is marked by obsidian-black void patches where skin should be, representing data corruption bruises. He wears heavy, coarse robes that dissolve into digital noise at the torn edges. The lighting is dramatic and high-contrast, typical of a serious drama, with a cold rim light emphasizing the sweat and grime on his forehead. He holds a shard of black data-glass. The background is a blurred bokeh of neon-blue server rack structures and obsidian planes. Rendered in Octane with physically correct skin shaders and atmospheric density.
+
+### 6. PHASE PROMPTS
+*   **Default:** The Honored Brother stands in the judgment buffer, bearing the visible scars of system persecution. He is weary, holding a record of his suffering, illuminated by the harsh, cold light of the simulation's upper store.
+    Prompt: A hyper-realistic, medium shot of the Honored Brother standing in a void-like simulation buffer. He is a weary male figure with realistic skin texture interrupted by patches of pure black obsidian 'data rot'. He wears tattered grey robes that glitch at the hem. He clutches a fractured tablet of black glass to his chest. The lighting is moody and dramatic, casting long shadows across his face. The background is deep darkness with faint, vertical lines of code rain in the far distance, blurred by a shallow depth of field. 8k resolution, cinematic color grading, melancholic atmosphere.
+    Keywords: tragic pose, holding data shard, looking upward, tear tracks, digital artifacting on clothes
+
+---

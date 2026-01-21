@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_YOU_INTERCESSOR",
+  "name": "you (intercessor)",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for you (intercessor).",
+    "visual_anatomy": [
+      "Traits: unspecified",
+      "Roles: An individual sent to ask on behalf of the Watchers"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "unspecified"
+    ],
+    "prompt_block": "you (intercessor), unspecified",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "unspecified"
+        ],
+        "prompt_block": "you (intercessor), unspecified"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_YOU_INTERCESSOR",
+    "name": "you (intercessor)",
+    "type": "character",
+    "aliases": [
+      "you (intercessor)"
+    ],
+    "roles": [
+      "An individual sent to ask on behalf of the Watchers"
+    ],
+    "visual_traits": [
+      "unspecified"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1108"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 16,
+        "chapter_end": 16,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

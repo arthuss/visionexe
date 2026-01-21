@@ -3,88 +3,70 @@
   "name": "light",
   "type": "set_environment",
   "card": {
-    "description": "Light is a dynamic, ancient‑tech environment that morphs from subtle ambient glow to hard, crystalline beams that reshape stone into obsidian glass, culminating in a network of bioluminescent circuitry embedded in the landscape. It serves as a backdrop that amplifies the mysticism of the setting, casting tactile, photorealistic illumination that feels both primordial and incomprehensibly advanced.",
-    "tags": [
-      "ancient-tech",
-      "hard-light",
-      "obsidian",
-      "bioluminescent",
-      "crystalline",
-      "photorealistic",
-      "cinematic",
-      "industrial mysticism"
-    ],
+    "description": "Auto-generated asset card for light.",
     "visual_anatomy": [
-      "**Body/Form:** Solid beam of light, hard‑light cable, obsidian glass transformation, crystalline lattice",
-      "**Face/Sensors:** Not applicable",
-      "**Clothing/Armor:** Not applicable",
-      "**Key Features:** Thick white hard‑light cable extending from an inverted obsidian pyramid, a glowing blue 3D wireframe sphere within a human eye, bioluminescent veins pulsing across stone, dust particles suspended around impact points"
+      "Traits: bright, shining, unknown, {'description': \"An environment of light, joy, and peace destined for 'the chosen'.\"}, {'description': 'A pervasive, un-numerable, and eternal element that is sought by the blessed and established before the Lord of Spirits. It replaces darkness.', 'state': 'luminous'}, {'description': 'An environmental condition that has passed away from the kings and mighty.'}",
+      "Roles: ambient, background, dominant_element, environment, environment of the redeemed, setting, state_of_grace"
     ],
     "evolution": [
-      "Phase 1 (ch1‑24): Ambient soft glow emanating from bioluminescent veins across temple stone, subtle rim lighting, high‑contrast photorealism",
-      "Phase 2 (ch25‑48): Introduction of hard‑light elements—obsidian inverted pyramid, solid beam striking mountain peak, obsidian glass transformation, dust cloud",
-      "Phase 3 (ch49‑72, unknown): Expansion into a crystalline lattice of nodes pulsing bioluminescent light, interwoven hard‑light beams, landscape fully integrated into obsidian‑glass architecture"
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
     ],
     "props": [
-      "Item: Obsidian Inverted Pyramid",
-      "Item: Hard‑Light Cable",
-      "Item: Solid Beam of Light",
-      "Item: Glowing Blue 3D Wireframe Sphere",
-      "Item: Bioluminescent Veins"
+      "TBD."
     ],
     "prompt_keywords": [
-      "ancient-tech",
-      "obsidian",
-      "hard-light",
-      "bioluminescent",
-      "crystalline",
-      "photorealistic",
-      "cinematic",
-      "tactile"
+      "bright",
+      "shining",
+      "unknown",
+      "{'description': \"An environment of light, joy, and peace destined for 'the chosen'.\"}",
+      "{'description': 'A pervasive, un-numerable, and eternal element that is sought by the blessed and established before the Lord of Spirits. It replaces darkness.', 'state': 'luminous'}",
+      "{'description': 'An environmental condition that has passed away from the kings and mighty.'}"
     ],
-    "prompt_block": "A cinematic, photorealistic environment featuring a massive black obsidian inverted pyramid hovering in the sky, extending a thick solid cable of blinding white hard‑light downwards, a mountain peak struck by a solid beam of light turning rock into smooth black obsidian glass, dust particles suspended, a glowing blue 3D wireframe sphere within a human eye, bioluminescent veins pulsing across stone, all rendered in 8k resolution with high contrast, tactile textures, ancient Ethiopian and Egyptian motifs, industrial mysticism, and an overarching sense of ancient‑tech awe",
+    "prompt_block": "light, bright, shining, unknown, {'description': \"An environment of light, joy, and peace destined for 'the chosen'.\"}, {'description': 'A pervasive, un-numerable, and eternal element that is sought by the blessed and established before the Lord of Spirits. It replaces darkness.', 'state': 'luminous'}, {'description': 'An environmental condition that has passed away from the kings and mighty.'}",
     "phase_prompts": [
       {
         "state_id": "phase_01",
         "label": "Phase 1",
-        "summary": "Ambient glow and bioluminescent veins in a dark temple",
+        "summary": "",
         "prompt_keywords": [
-          "ambient",
-          "bioluminescent",
-          "temple",
-          "soft rim lighting",
-          "photorealistic"
+          "bright",
+          "shining",
+          "unknown",
+          "{'description': \"An environment of light, joy, and peace destined for 'the chosen'.\"}",
+          "{'description': 'A pervasive, un-numerable, and eternal element that is sought by the blessed and established before the Lord of Spirits. It replaces darkness.', 'state': 'luminous'}",
+          "{'description': 'An environmental condition that has passed away from the kings and mighty.'}"
         ],
-        "prompt_block": "A cinematic, photorealistic dark void temple with subtle ambient glow, faint bioluminescent veins pulsing across stone, soft rim lighting, high contrast, tactile textures, ancient Ethiopian motifs, 8k resolution"
+        "prompt_block": "light, bright, shining, unknown, {'description': \"An environment of light, joy, and peace destined for 'the chosen'.\"}, {'description': 'A pervasive, un-numerable, and eternal element that is sought by the blessed and established before the Lord of Spirits. It replaces darkness.', 'state': 'luminous'}, {'description': 'An environmental condition that has passed away from the kings and mighty.'}, Phase 1"
       },
       {
         "state_id": "phase_02",
         "label": "Phase 2",
-        "summary": "Hard‑light pyramid and mountain impact",
+        "summary": "",
         "prompt_keywords": [
-          "hard-light",
-          "obsidian",
-          "pyramid",
-          "solid beam",
-          "mountain",
-          "dust",
-          "photorealistic"
+          "bright",
+          "shining",
+          "unknown",
+          "{'description': \"An environment of light, joy, and peace destined for 'the chosen'.\"}",
+          "{'description': 'A pervasive, un-numerable, and eternal element that is sought by the blessed and established before the Lord of Spirits. It replaces darkness.', 'state': 'luminous'}",
+          "{'description': 'An environmental condition that has passed away from the kings and mighty.'}"
         ],
-        "prompt_block": "A cinematic, photorealistic environment featuring a massive black obsidian inverted pyramid hovering in the sky, extending a thick solid cable of blinding white hard‑light downwards, a mountain peak struck by a solid beam of light turning rock into smooth black obsidian glass, dust particles suspended, brutalist architecture, ancient Egyptian motifs, 8k resolution"
+        "prompt_block": "light, bright, shining, unknown, {'description': \"An environment of light, joy, and peace destined for 'the chosen'.\"}, {'description': 'A pervasive, un-numerable, and eternal element that is sought by the blessed and established before the Lord of Spirits. It replaces darkness.', 'state': 'luminous'}, {'description': 'An environmental condition that has passed away from the kings and mighty.'}, Phase 2"
       },
       {
         "state_id": "phase_03",
         "label": "Phase 3",
-        "summary": "Crystalline lattice and bioluminescent network",
+        "summary": "",
         "prompt_keywords": [
-          "crystalline",
-          "bioluminescent",
-          "network",
-          "hard-light",
-          "obsidian glass",
-          "photorealistic"
+          "bright",
+          "shining",
+          "unknown",
+          "{'description': \"An environment of light, joy, and peace destined for 'the chosen'.\"}",
+          "{'description': 'A pervasive, un-numerable, and eternal element that is sought by the blessed and established before the Lord of Spirits. It replaces darkness.', 'state': 'luminous'}",
+          "{'description': 'An environmental condition that has passed away from the kings and mighty.'}"
         ],
-        "prompt_block": "A cinematic, photorealistic environment of a sprawling crystalline lattice spanning the sky, with nodes pulsing bioluminescent light, hard‑light beams interweaving, transforming the landscape into obsidian glass, dust suspended, tactile textures, ancient‑tech motifs, 8k resolution"
+        "prompt_block": "light, bright, shining, unknown, {'description': \"An environment of light, joy, and peace destined for 'the chosen'.\"}, {'description': 'A pervasive, un-numerable, and eternal element that is sought by the blessed and established before the Lord of Spirits. It replaces darkness.', 'state': 'luminous'}, {'description': 'An environmental condition that has passed away from the kings and mighty.'}, Phase 3"
       }
     ]
   },
@@ -97,25 +79,39 @@
       "light"
     ],
     "roles": [
+      "ambient",
       "background",
+      "dominant_element",
       "environment",
-      "setting"
+      "environment of the redeemed",
+      "setting",
+      "state_of_grace"
     ],
     "visual_traits": [
       "bright",
-      "unknown"
+      "shining",
+      "unknown",
+      "{'description': \"An environment of light, joy, and peace destined for 'the chosen'.\"}",
+      "{'description': 'A pervasive, un-numerable, and eternal element that is sought by the blessed and established before the Lord of Spirits. It replaces darkness.', 'state': 'luminous'}",
+      "{'description': 'An environmental condition that has passed away from the kings and mighty.'}"
     ],
     "changes": [
-      "unknown"
+      "unknown",
+      "{'phase': 'Phase 1: Present', 'description': 'Implied to be present for the kings and mighty.'}",
+      "{'phase': 'Phase 2: Absent', 'description': 'The light has passed away from them.'}"
     ],
     "notes": [],
     "sources": [
+      "row_1067",
+      "row_1151",
+      "row_1156",
+      "row_1201",
       "row_425",
       "row_538",
       "row_572",
       "row_7"
     ],
-    "occurrence_count": 4,
+    "occurrence_count": 16,
     "is_dynamic": true,
     "state_policy": "phases",
     "states": [
@@ -123,32 +119,36 @@
         "state_id": "phase_01",
         "label": "Phase 1",
         "chapter_start": 1,
-        "chapter_end": 24,
-        "segment_labels": [],
-        "scene_labels": [],
-        "source_ids": [],
-        "notes": []
-      },
-      {
-        "state_id": "phase_02",
-        "label": "Phase 2",
-        "chapter_start": 25,
-        "chapter_end": 48,
-        "segment_labels": [],
-        "scene_labels": [],
-        "source_ids": [],
-        "notes": []
-      },
-      {
-        "state_id": "phase_03",
-        "label": "Phase 3",
-        "chapter_start": 49,
-        "chapter_end": 72,
+        "chapter_end": 36,
         "segment_labels": [],
         "scene_labels": [],
         "source_ids": [],
         "notes": [
           "unknown"
+        ]
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 37,
+        "chapter_end": 72,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Present', 'description': 'Implied to be present for the kings and mighty.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 73,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Absent', 'description': 'The light has passed away from them.'}"
         ]
       }
     ]

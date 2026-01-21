@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_SECRETS_OF_THE_HEAVENS",
+  "name": "Secrets of the heavens",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Secrets of the heavens.",
+    "visual_anatomy": [
+      "Traits: {'description': 'The hidden knowledge and mechanisms of the cosmos that Enoch is shown.'}",
+      "Roles: visionary_space"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The hidden knowledge and mechanisms of the cosmos that Enoch is shown.'}"
+    ],
+    "prompt_block": "Secrets of the heavens, {'description': 'The hidden knowledge and mechanisms of the cosmos that Enoch is shown.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The hidden knowledge and mechanisms of the cosmos that Enoch is shown.'}"
+        ],
+        "prompt_block": "Secrets of the heavens, {'description': 'The hidden knowledge and mechanisms of the cosmos that Enoch is shown.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_SECRETS_OF_THE_HEAVENS",
+    "name": "Secrets of the heavens",
+    "type": "set_environment",
+    "aliases": [
+      "Secrets of the heavens"
+    ],
+    "roles": [
+      "visionary_space"
+    ],
+    "visual_traits": [
+      "{'description': 'The hidden knowledge and mechanisms of the cosmos that Enoch is shown.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1136"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 41,
+        "chapter_end": 41,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

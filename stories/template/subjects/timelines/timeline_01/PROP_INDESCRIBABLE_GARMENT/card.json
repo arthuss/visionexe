@@ -1,0 +1,67 @@
+{
+  "id": "PROP_INDESCRIBABLE_GARMENT",
+  "name": "Indescribable garment",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Indescribable garment.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A garment that cannot be described.'}",
+      "Roles: actor_prop:Head of Days"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A garment that cannot be described.'}"
+    ],
+    "prompt_block": "Indescribable garment, {'description': 'A garment that cannot be described.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A garment that cannot be described.'}"
+        ],
+        "prompt_block": "Indescribable garment, {'description': 'A garment that cannot be described.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_INDESCRIBABLE_GARMENT",
+    "name": "Indescribable garment",
+    "type": "prop",
+    "aliases": [
+      "Indescribable garment"
+    ],
+    "roles": [
+      "actor_prop:Head of Days"
+    ],
+    "visual_traits": [
+      "{'description': 'A garment that cannot be described.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1164"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 71,
+        "chapter_end": 71,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

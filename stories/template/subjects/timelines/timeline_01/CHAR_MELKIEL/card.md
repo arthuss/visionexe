@@ -1,0 +1,27 @@
+## [CHARACTER] Melkiel (ID: CHAR_MELKIEL)
+**Description:** Melkiel, designated as the Prime Initiator of the annual runtime, governs the first quadrant of the simulation's temporal cycle. Within the bounded system of the flat-earth cosmology, he functions as the administrator of the 'Bright Sun' protocol, a high-intensity phase responsible for jumpstarting the kernel's manifestation layers after the dormant reset. He is not merely a seasonal figurehead but a thermal regulator, bearing the immense computational load required to ignite the world-state. His existence is one of radiant solitude, standing as the firewall between the system's cold storage and the scorching vitality of the active process. The burden of this energy transfer is etched into his posture, a stoic acceptance of the blinding luminance he must channel to sustain the simulation's early harvest of data.
+
+### 1. VISUAL ANATOMY / DESIGN
+Melkiel's physical form is a masterpiece of high-contrast engineering, clad in vestments that seamlessly blend archaic nobility with functional system hardware. His outer casing resembles polished obsidian and matte ceramic, materials chosen for their heat-resistant properties, while deep fissures in the armor reveal pulsing fiber-optic veins glowing with the golden hue of raw solar data. The 'bright sun' association manifests not as a halo, but as a persistent, localized thermal bloom that distorts the air around him, creating a natural heat-lensing effect that ripples across his silhouette.
+His facial features are hyper-realistic yet uncanny, possessing the flawless texture of synthetic skin that has been exposed to extreme radiation. His eyes do not have pupils but are instead pools of liquid plasma, casting a harsh, directional light that illuminates the dust motes and data particles floating in his vicinity. The lighting on his figure is always dramatic, mimicking the vertical drop of a high-noon sun, casting long, sharp shadows that obscure his lower features while highlighting the intricate circuitry embedded in his brow.
+The textures of his attire suggest a history of thermal stress; the edges of his data-glass epaulets are slightly scorched, and the velvet-like materials of his under-robes appear faded from constant exposure to high-lumen output. He moves with a heavy, deliberate grace, as if the gravity in his specific sector of the simulation is amplified to counteract the immense energy he generates.
+
+### 2. EVOLUTION / VARIANTS
+In his default state, Melkiel is operating at peak efficiency, representing the surge of the vernal equinox. The light emanating from his core is blindingly white-gold, signifying the system's fresh boot sequence. There is no decay in his form yet, only the high-tension vibration of a machine running at maximum capacity.
+
+### 3. PROPS & EQUIPMENT
+He carries a tabular interface resembling a slate of black glass, which displays the 'Vernal Manifest', a rolling code of weather subroutines and asset allocation tables for the coming season. This device requires no touch; it reacts to the proximity of his thermal signature, scrolling through data streams in rapid bursts of amber text.
+Surrounding his station are floating geometric monoliths that act as heat sinks. These obelisks absorb the excess radiation he emits, glowing faintly red as they process the waste heat from the sun's simulated trajectory.
+
+### 4. AI PROMPT KEYWORDS
+`obsidian skin texture`, `liquid plasma eyes`, `thermal heat haze`, `high contrast lighting`, `cinematic drama`, `fiber optic veins`, `scorched elegant robes`, `system administrator`, `photorealistic portrait`
+
+### 5. PROMPT BLOCK (T2I)
+A hyper-realistic, cinematic medium shot of Melkiel, the administrator of the sun, standing within a minimalist obsidian chamber. His skin is a deep, polished matte black, contrasted by veins of glowing golden light that pulse beneath the surface. His eyes are solid orbs of liquid plasma, casting a harsh, dramatic illumination onto his high cheekbones. He wears structured, heat-dissipating vestments that look like a blend of high-fashion couture and server hardware, with edges that appear slightly scorched. The air around him is distorted by a visible heat haze. The lighting is vertical and severe, creating deep shadows (chiaroscuro) that emphasize the texture of his attire and the solemn weight of his expression. Shot on 70mm film, shallow depth of field, incredibly detailed textures.
+
+### 6. PHASE PROMPTS
+*   **The Bright Sun Administrator:** Melkiel stands at the zenith of his power, managing the initial high-energy output of the simulation's solar cycle. He is a conduit of blinding light and immense heat.
+    Prompt: A hyper-realistic close-up portrait of Melkiel, his face illuminated by the internal glow of his plasma eyes. The skin texture reveals microscopic circuitry beneath a layer of synthetic dermis. The lighting is extremely high-contrast, with the key light mimicking a noon sun directly overhead. Heat waves distort the background, which is a blur of dark data-glass structures. He looks down with a heavy, burdened expression, the golden light from his veins reflecting off the collar of his heat-shielded robes. The atmosphere is thick with dust and data particles caught in the light beams. Photorealistic, 8k resolution, octane render, dramatic mood.
+    Keywords: blinding solar light, thermal distortion, golden data particles, stoic expression
+
+---

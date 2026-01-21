@@ -1,0 +1,29 @@
+{
+  "subject_id": "CHAR_MOON",
+  "subject_name": "Moon",
+  "state": {
+    "state_id": "phase_01",
+    "label": "Phase 1",
+    "chapter_start": 18,
+    "chapter_end": 45,
+    "segment_labels": [],
+    "scene_labels": [],
+    "source_ids": [],
+    "notes": [
+      "{'phase': 'Phase 1: New Moon', 'description': 'Circumference is empty and without light (v. 5). Becomes dark at night (v. 7).'}"
+    ]
+  },
+  "phase_prompt": {
+    "state_id": "phase_01",
+    "label": "Phase 1: The Null Witness",
+    "summary": "The Moon is in its 'New' state, a dark void in the sky. It is an empty vessel, an obsidian circle that blocks the stars, waiting for the solar transfer.",
+    "prompt_keywords": [
+      "new moon void",
+      "matte black disc",
+      "occlusion",
+      "starless sky",
+      "menacing silhouette"
+    ],
+    "prompt_block": "Cinematic night shot of the New Moon as a terrifying negative space in the sky. A perfect, matte-black circle occluding the background star-field. The object has no internal light; it is a void in the simulation's canopy. The rim is barely defined by the faint ambient glow of the city/desert below, creating a rim-light effect on black glass. The mood is silent, heavy, and expectant. 8k, photorealistic, low-key lighting."
+  }
+}

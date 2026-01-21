@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_PLACE_OF_JUDGMENT",
+  "name": "Place of Judgment",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Place of Judgment.",
+    "visual_anatomy": [
+      "Traits: An unspecified location referred to as 'Here' (በዝየ), where spirits are gathered for judgment.",
+      "Roles: scene_location"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "An unspecified location referred to as 'Here' (በዝየ), where spirits are gathered for judgment."
+    ],
+    "prompt_block": "Place of Judgment, An unspecified location referred to as 'Here' (በዝየ), where spirits are gathered for judgment.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "An unspecified location referred to as 'Here' (በዝየ), where spirits are gathered for judgment."
+        ],
+        "prompt_block": "Place of Judgment, An unspecified location referred to as 'Here' (በዝየ), where spirits are gathered for judgment."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_PLACE_OF_JUDGMENT",
+    "name": "Place of Judgment",
+    "type": "set_environment",
+    "aliases": [
+      "Place of Judgment"
+    ],
+    "roles": [
+      "scene_location"
+    ],
+    "visual_traits": [
+      "An unspecified location referred to as 'Here' (በዝየ), where spirits are gathered for judgment."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1110"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 19,
+        "chapter_end": 19,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

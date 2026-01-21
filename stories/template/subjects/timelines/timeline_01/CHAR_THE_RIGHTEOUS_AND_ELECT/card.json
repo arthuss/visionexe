@@ -1,0 +1,114 @@
+{
+  "id": "CHAR_THE_RIGHTEOUS_AND_ELECT",
+  "name": "The Righteous and Elect",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Righteous and Elect.",
+    "visual_anatomy": [
+      "Traits: human",
+      "Roles: beneficiaries of salvation"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "human"
+    ],
+    "prompt_block": "The Righteous and Elect, human",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "human"
+        ],
+        "prompt_block": "The Righteous and Elect, human, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "human"
+        ],
+        "prompt_block": "The Righteous and Elect, human, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "human"
+        ],
+        "prompt_block": "The Righteous and Elect, human, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_RIGHTEOUS_AND_ELECT",
+    "name": "The Righteous and Elect",
+    "type": "character",
+    "aliases": [
+      "The Righteous and Elect"
+    ],
+    "roles": [
+      "beneficiaries of salvation"
+    ],
+    "visual_traits": [
+      "human"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Mortal Life', 'description': 'Standard human existence, subject to suffering.'}",
+      "{'phase': 'Phase 2: Eschatological Life', 'description': \"After the judgment, they are given the fruit of the tree, live long lives on earth, and are free from sorrow, sickness, toil, and plague. The tree's fragrance permeates their bodies ('into their bones').\"}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1118"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 25,
+        "chapter_end": 24,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 25,
+        "chapter_end": 24,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Mortal Life', 'description': 'Standard human existence, subject to suffering.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 25,
+        "chapter_end": 25,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Eschatological Life', 'description': \"After the judgment, they are given the fruit of the tree, live long lives on earth, and are free from sorrow, sickness, toil, and plague. The tree's fragrance permeates their bodies ('into their bones').\"}"
+        ]
+      }
+    ]
+  }
+}

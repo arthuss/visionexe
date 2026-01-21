@@ -1,0 +1,114 @@
+{
+  "id": "CHAR_THE_UNREPENTANT",
+  "name": "The Unrepentant",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Unrepentant.",
+    "visual_anatomy": [
+      "Traits: {'description': \"Those who do not repent and are consequently destroyed. (Ge'ez: ዘኢይኔስሕ)\"}",
+      "Roles: antagonist_subgroup"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"Those who do not repent and are consequently destroyed. (Ge'ez: ዘኢይኔስሕ)\"}"
+    ],
+    "prompt_block": "The Unrepentant, {'description': \"Those who do not repent and are consequently destroyed. (Ge'ez: ዘኢይኔስሕ)\"}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"Those who do not repent and are consequently destroyed. (Ge'ez: ዘኢይኔስሕ)\"}"
+        ],
+        "prompt_block": "The Unrepentant, {'description': \"Those who do not repent and are consequently destroyed. (Ge'ez: ዘኢይኔስሕ)\"}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"Those who do not repent and are consequently destroyed. (Ge'ez: ዘኢይኔስሕ)\"}"
+        ],
+        "prompt_block": "The Unrepentant, {'description': \"Those who do not repent and are consequently destroyed. (Ge'ez: ዘኢይኔስሕ)\"}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"Those who do not repent and are consequently destroyed. (Ge'ez: ዘኢይኔስሕ)\"}"
+        ],
+        "prompt_block": "The Unrepentant, {'description': \"Those who do not repent and are consequently destroyed. (Ge'ez: ዘኢይኔስሕ)\"}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_UNREPENTANT",
+    "name": "The Unrepentant",
+    "type": "character",
+    "aliases": [
+      "The Unrepentant"
+    ],
+    "roles": [
+      "antagonist_subgroup"
+    ],
+    "visual_traits": [
+      "{'description': \"Those who do not repent and are consequently destroyed. (Ge'ez: ዘኢይኔስሕ)\"}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Pre-Destruction', 'description': 'A state of unrepentance before judgment.'}",
+      "{'phase': 'Phase 2: Destroyed', 'description': 'They are destroyed before the Lord of Spirits.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1143"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 50,
+        "chapter_end": 49,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 50,
+        "chapter_end": 49,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Pre-Destruction', 'description': 'A state of unrepentance before judgment.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 50,
+        "chapter_end": 50,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Destroyed', 'description': 'They are destroyed before the Lord of Spirits.'}"
+        ]
+      }
+    ]
+  }
+}

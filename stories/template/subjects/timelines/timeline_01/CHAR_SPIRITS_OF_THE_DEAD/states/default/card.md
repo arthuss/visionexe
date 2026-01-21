@@ -1,0 +1,10 @@
+## [STATE] Spirits of the Dead :: Default
+**State ID:** default
+**Chapters:** 22 - 22
+
+**Phase Summary:** The spirits waiting in the hollow places, static and heavy with data.
+**Phase Keywords:** hollow mountain interior, glass people, static pose, obsidian walls, melancholy
+**Phase Prompt:**
+Wide cinematic shot inside a vast, cavernous hollow within a black mountain. The floor is covered in huddled human figures made of semi-transparent, milky glass or dense plasma. They are motionless, heavy, and sorrowful. The walls of the cave are sharp, geometric obsidian, reflecting the faint blue glow emanating from the figures. The air is filled with a subtle haze of data particles. The lighting is dramatic and moody, emphasizing the isolation and storage-like nature of the space. Photorealistic, 8k, octane render style.
+
+---

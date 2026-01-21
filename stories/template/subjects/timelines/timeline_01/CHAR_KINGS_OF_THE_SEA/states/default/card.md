@@ -1,0 +1,10 @@
+## [STATE] kings of the sea :: Default
+**State ID:** default
+**Chapters:** 101 - 101
+
+**Phase Summary:** The Kings of the Sea, on their high-tech vessels, witness the ocean turning against them, realizing their wealth offers no protection against the system's wrath.
+**Phase Keywords:** terrified captain, storm deck, digital ocean, wet robes, panic
+**Phase Prompt:**
+Close-up, hyper-realistic portrait of a wealthy maritime King gripping the railing of a dark metal ship, screaming into a raging storm. The rain is heavy, blurring the background of towering, black waves that look like liquid data. His expensive, heavy garments are soaked, clinging to his frame. The scene is lit by the cold, blue light of a glitching sky dome. The focus is on the raw emotion in his eyes—sheer, existential terror—captured with perfect skin texture and subsurface scattering. The background hints at other massive ships tossing helplessly in the distance. Cinematic composition, shallow depth of field, dramatic shadows.
+
+---

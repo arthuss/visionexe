@@ -1,0 +1,111 @@
+{
+  "id": "PROP_HORSE",
+  "name": "Horse",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Horse.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A horse that walks through blood up to its chest.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A horse that walks through blood up to its chest.'}"
+    ],
+    "prompt_block": "Horse, {'description': 'A horse that walks through blood up to its chest.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A horse that walks through blood up to its chest.'}"
+        ],
+        "prompt_block": "Horse, {'description': 'A horse that walks through blood up to its chest.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A horse that walks through blood up to its chest.'}"
+        ],
+        "prompt_block": "Horse, {'description': 'A horse that walks through blood up to its chest.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A horse that walks through blood up to its chest.'}"
+        ],
+        "prompt_block": "Horse, {'description': 'A horse that walks through blood up to its chest.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_HORSE",
+    "name": "Horse",
+    "type": "prop",
+    "aliases": [
+      "Horse"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'A horse that walks through blood up to its chest.'}"
+    ],
+    "changes": [
+      "{'is_dynamic': True, 'description': 'Moves through the battlefield.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1193"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 100,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 100,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 100,
+        "chapter_end": 100,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'is_dynamic': True, 'description': 'Moves through the battlefield.'}"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_FLAME_OF_FIRE",
+  "name": "Flame of fire",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Flame of fire.",
+    "visual_anatomy": [
+      "Traits: {'state': 'A fiery surface.'}",
+      "Roles: A surface upon which the sons of the holy angels walk."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'state': 'A fiery surface.'}"
+    ],
+    "prompt_block": "Flame of fire, {'state': 'A fiery surface.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'state': 'A fiery surface.'}"
+        ],
+        "prompt_block": "Flame of fire, {'state': 'A fiery surface.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_FLAME_OF_FIRE",
+    "name": "Flame of fire",
+    "type": "set_environment",
+    "aliases": [
+      "Flame of fire"
+    ],
+    "roles": [
+      "A surface upon which the sons of the holy angels walk."
+    ],
+    "visual_traits": [
+      "{'state': 'A fiery surface.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1164"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 71,
+        "chapter_end": 71,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

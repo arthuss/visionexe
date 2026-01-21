@@ -1,0 +1,103 @@
+{
+  "id": "CHAR_THOSE_BORN_IN_DARKNESS",
+  "name": "Those born in darkness",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Those born in darkness.",
+    "visual_anatomy": [
+      "Roles: a specific group of the redeemed"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Those born in darkness, a specific group of the redeemed",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Those born in darkness, a specific group of the redeemed, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Those born in darkness, a specific group of the redeemed, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Those born in darkness, a specific group of the redeemed, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THOSE_BORN_IN_DARKNESS",
+    "name": "Those born in darkness",
+    "type": "character",
+    "aliases": [
+      "Those born in darkness"
+    ],
+    "roles": [
+      "a specific group of the redeemed"
+    ],
+    "visual_traits": [],
+    "changes": [
+      "{'phase': 'Phase 1: Origin in Darkness', 'description': 'Born into a state of darkness.'}",
+      "{'phase': 'Phase 2: Transformed into Light', 'description': 'Are transformed by the Lord and brought into a shining light.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1201"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 108,
+        "chapter_end": 107,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 108,
+        "chapter_end": 107,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Origin in Darkness', 'description': 'Born into a state of darkness.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 108,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Transformed into Light', 'description': 'Are transformed by the Lord and brought into a shining light.'}"
+        ]
+      }
+    ]
+  }
+}

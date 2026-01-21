@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_ARMERS",
+  "name": "Armers",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Armers.",
+    "visual_anatomy": [
+      "Traits: Ge'ez: አርሞርስ",
+      "Roles: Chief of the 200 angels."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Ge'ez: አርሞርስ"
+    ],
+    "prompt_block": "Armers, Ge'ez: አርሞርስ",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Ge'ez: አርሞርስ"
+        ],
+        "prompt_block": "Armers, Ge'ez: አርሞርስ"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ARMERS",
+    "name": "Armers",
+    "type": "character",
+    "aliases": [
+      "Armers"
+    ],
+    "roles": [
+      "Chief of the 200 angels."
+    ],
+    "visual_traits": [
+      "Ge'ez: አርሞርስ"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1100"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 6,
+        "chapter_end": 6,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

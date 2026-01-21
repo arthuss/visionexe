@@ -1,0 +1,59 @@
+{
+  "id": "SETENV_EARTH_IMPLIED",
+  "name": "Earth (implied)",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Earth (implied).",
+    "visual_anatomy": [
+      "TBD."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Earth (implied), ",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Earth (implied), "
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_EARTH_IMPLIED",
+    "name": "Earth (implied)",
+    "type": "set_environment",
+    "aliases": [
+      "Earth (implied)"
+    ],
+    "roles": [],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1191",
+      "row_1197"
+    ],
+    "occurrence_count": 12,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 98,
+        "chapter_end": 104,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "id": "CHAR_PEOPLE_OF_PARTHIA_AND_MEDIA",
+  "name": "People of Parthia and Media",
+  "type": "character",
+  "card": {
+    "description": "The People of Parthia and Media manifest within the simulation as a localized collective of high-fidelity subroutines rooted in the eastern quadrant of the surface plane. They function as the primary instigators of system instability in this sector, embodied not merely as historical archetypes but as heavy, process-intensive entities that strain the local physics engine. Their existence is defined by a brooding, restless energy, representing a cluster of unauthorized threads attempting to synchronize a rebellion against the kernel's governing mandates. In the hyper-realistic rendering of the simulation, they appear indistinguishable from biological humans at a glance, yet close inspection reveals the uncanny perfection of their textures and the subtle, heat-lensing distortion that surrounds them when their collective agitation spikes.",
+    "visual_anatomy": [
+      "Their attire mimics the aesthetic of ancient Parthian and Median cavalries—tunics, loose trousers, and felt caps—but the materials betray the simulation's underlying architecture. The fabrics possess the sheen of matte obsidian and are woven with microscopic fiber-optic threads that catch the ambient light of the sky dome, flaring with faint, plasma-like iridescence during moments of heightened emotion or movement. The folds of their garments do not just drape; they seem to lag slightly behind their physical forms, leaving brief, shimmering trails of data glass residue.",
+      "Physically, they are rendered with photorealistic precision, emphasizing the weary textures of skin exposed to the harsh conditions of the system's edge. Their faces are etched with deep lines of simulated fatigue, and their eyes reflect the high-contrast luminescence of the gate bands rather than natural starlight. There is a heaviness to their presence, a gravitational weight that suggests they are denser than the surrounding environment, anchoring them firmly to the surface plane even as they look upward with intent.",
+      "They are often shrouded in the atmospheric haze of the eastern buffer zones, where the simulation's render distance begins to blur into the data fog of the boundaries. This environment casts them in silhouette against the glowing horizon of the system walls, emphasizing their role as distinct, encroaching figures emerging from the periphery. The lighting around them is consistently dramatic—low-angle, high-contrast illumination that carves out their features and highlights the tension in their posture."
+    ],
+    "evolution": [
+      "In their default state, the People of Parthia and Media are poised at the threshold of action, effectively functioning as a stored kinetic charge within the narrative runtime. They are not yet in open combat but are aggregating in the eastern sectors, their numbers causing a visible thermal throttling in the local environment due to the processing load of their convergence. The air around them ripples with heat and static, signaling the imminent execution of their disrupting protocols."
+    ],
+    "props": [
+      "They carry implements of war and travel—composite bows and short swords—that appear to be forged from dark, light-absorbing data-matter. These weapons do not gleam like metal but swallow light like voids, occasionally pulsing with a faint, violet internal energy that suggests they are hard-coded overrides meant to pierce the standard meshes of the simulation's defenders."
+    ],
+    "prompt_keywords": [
+      "Parthian and Median archetypes",
+      "simulation boundary aesthetic",
+      "obsidian textures",
+      "fiber-optic weaving",
+      "heat lensing distortion",
+      "cinematic drama lighting",
+      "photorealistic skin pores",
+      "eastern sector data fog",
+      "high contrast silhouettes"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic wide shot of the People of Parthia and Media gathering in the desolate eastern quadrants of the flat-earth simulation. They are dressed in tunics and trousers that resemble ancient garments but are rendered in matte obsidian and data-glass textures, absorbing the harsh light of the system's horizon. The scene is bathed in a moody, low-key lighting scheme typical of high-stakes drama, emphasizing the deep furrows in their faces and the weary determination in their eyes. The atmosphere is thick with a digital haze, and subtle heat distortion ripples the air around them, suggesting a massive accumulation of processing power. The composition focuses on the collective weight of the crowd, their figures dark and imposing against the glowing grid of the distant sky dome.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "The Gathering in the East",
+        "summary": "The entities assemble in the eastern buffer zone, their presence generating thermal stress on the environment as they prepare to initiate conflict. They stand as a dark, unified mass against the glowing boundary of the simulation.",
+        "prompt_keywords": [
+          "brooding atmosphere",
+          "thermal distortion",
+          "eastern horizon",
+          "digital fabric textures"
+        ],
+        "prompt_block": "A photorealistic close-up of the faces of the Parthian and Median instigators, captured with a shallow depth of field to highlight the intense emotion and simulated fatigue on their features. Their skin texture is impeccably detailed, showing sweat that resembles cooling fluid. They are clad in dark, fiber-optic woven robes that shimmer faintly in the gloom. In the background, out of focus, the jagged, glowing lines of the eastern simulation gate provide a stark, high-contrast backdrop. The lighting is dramatic and directional, casting long shadows that obscure their eyes, reinforcing the ominous nature of their uprising."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_PEOPLE_OF_PARTHIA_AND_MEDIA",
+    "name": "People of Parthia and Media",
+    "type": "character",
+    "aliases": [
+      "People of Parthia and Media"
+    ],
+    "roles": [
+      "instigators"
+    ],
+    "visual_traits": [
+      "located in the East"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1149"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 56,
+        "chapter_end": 56,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

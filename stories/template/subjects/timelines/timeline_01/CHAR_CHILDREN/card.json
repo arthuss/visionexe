@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_CHILDREN",
+  "name": "Children",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Children.",
+    "visual_anatomy": [
+      "Traits: Offspring (ውሉድ) mentioned in the context of the woman who dies without them.",
+      "Roles: unknown"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Offspring (ውሉድ) mentioned in the context of the woman who dies without them."
+    ],
+    "prompt_block": "Children, Offspring (ውሉድ) mentioned in the context of the woman who dies without them.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Offspring (ውሉድ) mentioned in the context of the woman who dies without them."
+        ],
+        "prompt_block": "Children, Offspring (ውሉድ) mentioned in the context of the woman who dies without them."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_CHILDREN",
+    "name": "Children",
+    "type": "character",
+    "aliases": [
+      "Children"
+    ],
+    "roles": [
+      "unknown"
+    ],
+    "visual_traits": [
+      "Offspring (ውሉድ) mentioned in the context of the woman who dies without them."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1191"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 98,
+        "chapter_end": 98,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

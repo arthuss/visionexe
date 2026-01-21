@@ -3,63 +3,40 @@
   "name": "Wind",
   "type": "scene",
   "card": {
-    "description": "A cinematic, photorealistic depiction of wind as a living veil of crystalline glyphs and luminescent dust, swirling gently across a vast meadow dominated by a solitary ancient oak tree. The wind manifests as a translucent, motion‑blurred field that ripples through the grass and clouds while the oak’s bark and branches remain sharply defined, evoking a sense of ancient mysticism fused with incomprehensible, advanced technology.",
-    "tags": [
-      "wind",
-      "ancient-tech",
-      "mystical",
-      "photorealistic",
-      "tactile",
-      "cinematic",
-      "grounded realism"
-    ],
+    "description": "Auto-generated asset card for Wind.",
     "visual_anatomy": [
-      "**Body/Form:** A volumetric, semi‑transparent column of swirling crystalline glyphs and fine dust particles, extending from the horizon to the canopy of the oak, with subtle gradients of blue‑green luminescence.",
-      "**Face/Sensors:** No literal face; the wind’s “eyes” are faint, iridescent glyphs that pulse in sync with ambient sound, acting as sensory nodes that detect temperature and pressure changes.",
-      "**Clothing/Armor:** Not applicable.",
-      "**Key Features:** Motion‑blurred grass blades, soft cloud movement, crystalline glyphs that refract light, faint auroral glow, tactile bark texture, subtle ambient hum."
+      "Traits: blowing, invisible, invisible, airy, invisible, moving air, moving air, unknown",
+      "Roles: Wind, environmental element, narrator/protagonist, natural element, natural element that moves and interacts with other elements, unknown"
     ],
     "evolution": [
-      "Phase 1 (Gentle Breeze): Soft, barely perceptible ripples in the grass and a faint shimmer of crystalline dust, maintaining the oak’s stillness.",
-      "Phase 2 (Storm Surge): Intensified vortex of glyphs, accelerated motion blur, and a dramatic play of light on the oak’s bark, yet the tree remains a fixed, almost artificial anchor."
+      "Phase (Default)"
     ],
     "props": [
-      "Ancient Oak Tree",
-      "Fiber Optic Cables (background)",
-      "Holographic Windows (ambient)",
-      "Crystalline Glyphs (wind)"
+      "TBD."
     ],
     "prompt_keywords": [
-      "wind",
-      "ancient oak",
-      "crystalline glyphs",
-      "luminescent dust",
-      "photorealistic",
-      "tactile",
-      "cinematic",
-      "vertical 9:16",
-      "timelapse",
-      "motion blur"
+      "blowing",
+      "invisible",
+      "invisible, airy",
+      "invisible, moving air",
+      "moving air",
+      "unknown"
     ],
-    "prompt_block": "A cinematic, photorealistic vertical 9:16 timelapse of a solitary ancient oak tree standing in a vast meadow under a sky swirling with moving clouds. The wind is rendered as a translucent veil of crystalline glyphs and fine luminescent dust that ripples through the grass, creating a subtle motion blur while the oak's trunk and branches remain perfectly sharp and motionless, evoking a sense of ancient mysticism intertwined with advanced, incomprehensible technology. The scene is grounded in realism, with tactile textures on bark, stone, and foliage, illuminated by soft golden hour light, and a subtle ambient hum of unseen currents.",
+    "prompt_block": "Wind, blowing, invisible, invisible, airy, invisible, moving air, moving air, unknown",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Gentle breeze across the meadow, wind as crystalline glyphs.",
+        "summary": "",
         "prompt_keywords": [
-          "wind",
-          "ancient oak",
-          "crystalline glyphs",
-          "luminescent dust",
-          "photorealistic",
-          "tactile",
-          "cinematic",
-          "vertical 9:16",
-          "timelapse",
-          "motion blur"
+          "blowing",
+          "invisible",
+          "invisible, airy",
+          "invisible, moving air",
+          "moving air",
+          "unknown"
         ],
-        "prompt_block": "A cinematic, photorealistic vertical 9:16 timelapse of a solitary ancient oak tree in a meadow, with wind rendered as a translucent veil of crystalline glyphs and luminescent dust. The grass ripples in soft motion blur while the oak remains still, under a sky of moving clouds, evoking ancient mysticism and advanced technology."
+        "prompt_block": "Wind, blowing, invisible, invisible, airy, invisible, moving air, moving air, unknown"
       }
     ]
   },
@@ -79,7 +56,7 @@
     "sources": [
       "row_150"
     ],
-    "occurrence_count": 1,
+    "occurrence_count": 2,
     "is_dynamic": false,
     "state_policy": "static",
     "states": [

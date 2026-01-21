@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_THE_MOUNTAIN",
+  "name": "the mountain",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for the mountain.",
+    "visual_anatomy": [
+      "Traits: located to the east of the desert",
+      "Roles: landmark"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "located to the east of the desert"
+    ],
+    "prompt_block": "the mountain, located to the east of the desert",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "located to the east of the desert"
+        ],
+        "prompt_block": "the mountain, located to the east of the desert"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_MOUNTAIN",
+    "name": "the mountain",
+    "type": "set_environment",
+    "aliases": [
+      "the mountain"
+    ],
+    "roles": [
+      "landmark"
+    ],
+    "visual_traits": [
+      "located to the east of the desert"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1122"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 29,
+        "chapter_end": 29,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

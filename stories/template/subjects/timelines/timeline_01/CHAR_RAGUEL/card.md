@@ -1,0 +1,26 @@
+## [CHARACTER] Raguel (ID: CHAR_RAGUEL)
+**Description:** Raguel manifests as the sombre executioner of the simulation's kernel, a high-level process authorized to enforce critical error handling upon the runtime environment and its lighting arrays. In a reality defined by governed physics and bounded sky mechanics, he functions not merely as a guide, but as the inevitable consequence of systemic corruption. He patrols the buffer zones between the surface plane and the upper store, tasked with 'taking vengeance'—a metaphor for executing hard resets on destabilized luminaries and purging sectors of the simulation that have deviated from the core narrative parameters. His existence is heavy with the burden of maintenance; he is the silence that follows a system crash, the sudden darkness when the sky dome undergoes thermal throttling.
+
+### 1. VISUAL ANATOMY / DESIGN
+He appears encapsulated in a protective chassis formed from polished obsidian and matte-black composite materials, designed to absorb the intense radiation of the luminaries he regulates. The surface of this armor is not static; it ripples with the faint, iridescent sheen of oil on water, suggesting active data shielding against the raw plasma of the simulation's upper layers. His silhouette is stark and vertical, adhering to the 9:16 cinematic framing of the world's visual rules, often obscuring the light sources behind him to create high-contrast, silhouette-heavy compositions.
+Where a face would be, Raguel wears a monolithic visor of opaque data glass. This surface reflects the ge'ez glyphs of the running code, scrolling in amber and deep red, effectively dehumanizing him while emphasizing his role as an impartial observer and enforcer. His movements are deliberate and weighted, lacking the erratic jitter of lower-tier entities; he moves with the smooth, terrifying precision of a pre-rendered cinematic, displacing the atmosphere around him with palpable heat lensing effects.
+The 'vengeance' he carries is visualized through the instability of the air surrounding his hands—fingers tipped with fiber-optic terminals that can interface directly with the fabric of the simulation. When he is active, the environment dims as if resources are being rerouted to his command, and the ambient sound drops to a heavy, pressurized silence, consistent with the drama genre's focus on auditory minimalism and tension.
+
+### 2. EVOLUTION / VARIANTS
+In his default state, traversing the liminal spaces of chapters 20 through 23, Raguel is a figure of latent potential energy. He is not currently purging a sector but is in active monitoring mode. The wear on his obsidian casing suggests aeons of exposure to the friction of the rift internals and the searing heat of the gate bands. He stands as a dormant firewall, his mere presence signaling to the viewer that the physics of this scene are being strictly monitored for deviations.
+
+### 3. PROPS & EQUIPMENT
+He carries no physical weapon, for his toolset is integrated into the simulation's admin privileges. However, he is often framed alongside 'The Calibrator'—a metaphorical rod or staff composed of suspended data particles and vector fields. This object does not strike; it overwrites. It serves as a visual anchor for his authority over the luminaries, glowing with the same hazardous plasma intensity as the stars he is tasked with disciplining.
+
+### 4. AI PROMPT KEYWORDS
+`Raguel angel of vengeance`, `obsidian armor`, `data glass visor`, `heat lensing effects`, `simulation theory aesthetic`, `cinematic lighting`, `vertical 9:16 composition`, `dark atmospheric drama`, `fiber optic details`, `geez glyphs reflection`
+
+### 5. PROMPT BLOCK (T2I)
+A hyper-realistic, cinematic vertical shot of Raguel, the angel of vengeance, standing within the simulation's twilight buffer zone. He is clad in sleek, light-absorbing obsidian armor that reflects the environment with perfect ray-traced fidelity. His face is concealed behind a curved plate of opaque data glass, reflecting scrolling amber ge'ez glyphs. The atmosphere around him is heavy, distorted by heat lensing and subtle vector field aberrations. Lighting is dramatic and high-contrast, emphasizing the glossy texture of his suit against the matte darkness of the void. The image evokes a sense of solemn duty and technological mysticism, rendered with Octane-level photorealism.
+
+### 6. PHASE PROMPTS
+*   **Default (Chapters 20-23):** Raguel acts as a stoic guide and observer, monitoring the integrity of the simulation's physics and lighting systems.
+    Prompt: A medium-full shot of Raguel standing still in a desolate, digital landscape under a synthetic sky. His obsidian armor is dusty with the grey silt of the reset desert. He looks slightly upward, his data-glass visor reflecting the complex geometry of the simulation's sky dome. His posture is rigid and authoritative, hands resting at his sides, fingers twitching slightly as if interacting with an invisible interface. The lighting is moody, casting long shadows that blend into the dark geometry of the world, capturing the essence of a high-stakes sci-fi drama.
+    Keywords: monitoring pose, passive stance, reflective visor, ambient data particles, ominous calm
+
+---

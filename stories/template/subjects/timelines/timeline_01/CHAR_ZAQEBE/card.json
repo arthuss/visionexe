@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_ZAQEBE",
+  "name": "Zaqebe",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Zaqebe.",
+    "visual_anatomy": [
+      "Traits: Ge'ez: ዘቄቤ",
+      "Roles: Chief of the 200 angels."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Ge'ez: ዘቄቤ"
+    ],
+    "prompt_block": "Zaqebe, Ge'ez: ዘቄቤ",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Ge'ez: ዘቄቤ"
+        ],
+        "prompt_block": "Zaqebe, Ge'ez: ዘቄቤ"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ZAQEBE",
+    "name": "Zaqebe",
+    "type": "character",
+    "aliases": [
+      "Zaqebe"
+    ],
+    "roles": [
+      "Chief of the 200 angels."
+    ],
+    "visual_traits": [
+      "Ge'ez: ዘቄቤ"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1100"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 6,
+        "chapter_end": 6,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+## [STATE] The Idolaters :: Default
+**State ID:** default
+**Chapters:** 99 - 99
+
+**Phase Keywords:** {'description': 'A group of sinners who worship inanimate objects (stone, images of gold, silver, wood, clay) and malevolent entities (evil spirits, demons, all kinds of idols). Their hearts are foolish and their eyes are blinded.'}
+**Phase Prompt:**
+The Idolaters, {'description': 'A group of sinners who worship inanimate objects (stone, images of gold, silver, wood, clay) and malevolent entities (evil spirits, demons, all kinds of idols). Their hearts are foolish and their eyes are blinded.'}
+
+---

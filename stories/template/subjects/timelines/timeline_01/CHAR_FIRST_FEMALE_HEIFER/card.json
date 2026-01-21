@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_FIRST_FEMALE_HEIFER",
+  "name": "First Female Heifer",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for First Female Heifer.",
+    "visual_anatomy": [
+      "Traits: {'description': \"A female heifer (ጣዕዋ፡¡ንስቲያዊት) that appears after the First White Cow. Referred to as the 'first female calf' (እጒልት፡ ንስቲያይት፡ ቀዳሚ).\"}",
+      "Roles: character"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"A female heifer (ጣዕዋ፡¡ንስቲያዊት) that appears after the First White Cow. Referred to as the 'first female calf' (እጒልት፡ ንስቲያይት፡ ቀዳሚ).\"}"
+    ],
+    "prompt_block": "First Female Heifer, {'description': \"A female heifer (ጣዕዋ፡¡ንስቲያዊት) that appears after the First White Cow. Referred to as the 'first female calf' (እጒልት፡ ንስቲያይት፡ ቀዳሚ).\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"A female heifer (ጣዕዋ፡¡ንስቲያዊት) that appears after the First White Cow. Referred to as the 'first female calf' (እጒልት፡ ንስቲያይት፡ ቀዳሚ).\"}"
+        ],
+        "prompt_block": "First Female Heifer, {'description': \"A female heifer (ጣዕዋ፡¡ንስቲያዊት) that appears after the First White Cow. Referred to as the 'first female calf' (እጒልት፡ ንስቲያይት፡ ቀዳሚ).\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_FIRST_FEMALE_HEIFER",
+    "name": "First Female Heifer",
+    "type": "character",
+    "aliases": [
+      "First Female Heifer"
+    ],
+    "roles": [
+      "character"
+    ],
+    "visual_traits": [
+      "{'description': \"A female heifer (ጣዕዋ፡¡ንስቲያዊት) that appears after the First White Cow. Referred to as the 'first female calf' (እጒልት፡ ንስቲያይት፡ ቀዳሚ).\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1178"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 85,
+        "chapter_end": 85,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

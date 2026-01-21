@@ -1,30 +1,20 @@
 ## [SCENE] Chapter 84 Segment 4 (ID: SCENE_CHAPTER_84_SEGMENT_4)
-**Description:** A towering obsidian monolith, 12 m tall and tapering to a 1.5 m base, carved from black stone with a polished, reflective finish. Its surface is etched with spiraling hieroglyphs that glow faint teal, while translucent crystal conduits run vertically, pulsing with bioluminescent light. At the apex sits a domed aperture lined with iridescent quartz lenses that act as energy sensors, refracting ambient light into a lattice of crystalline prisms. The structure fuses austere Ethiopian stonework with inscrutable circuitry of a lost civilization, serving as the heart of a forgotten solar engine.
-**Tags:** #obsidian #ancient-tech #hieroglyphs #luminescent #crystalline #solar engine #industrial mysticism #photorealistic #tactile
+**Description:** Auto-generated asset card for Chapter 84 Segment 4.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** 12 m monolithic pillar, tapered, polished obsidian, etched teal glyphs, embedded translucent crystal conduits pulsing bioluminescence.
-*   **Face/Sensors:** Domed aperture with iridescent quartz lenses, acting as energy sensors and refracting light into crystalline prisms.
-*   **Clothing/Armor:** Not applicable.
-*   **Key Features:** Luminous glyphs, crystal conduits, quartz sensor dome, phosphorescent core, solar-absorption facets.
+Roles: unknown
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Activation): The monolith is dormant; glyphs faint, conduits dark, core inactive.
-*   Phase 2 (Operation): Glyphs blaze, conduits glow, core pulses, solar facets open, energy flows.
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Ancient Scroll of Activation
-*   Item: Crystal Lens Array
-
-### 4. AI PROMPT KEYWORDS
-`obsidian`, `hieroglyphs`, `luminescent`, `crystal conduits`, `solar engine`, `ancient Ethiopian`, `phosphorescent`, `bioluminescent`, `industrial mysticism`
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
-A towering obsidian monolith, 12 meters tall, etched with luminous teal hieroglyphs, embedded with translucent crystal conduits pulsing bioluminescent light, topped with an iridescent quartz sensor dome, reflecting a faint phosphorescent glow, set against a dimly lit cavern, cinematic photorealistic, tactile textures, ancient Ethiopian stonework fused with incomprehensible advanced circuitry, dramatic lighting, high detail
+Chapter 84 Segment 4, unknown
 
 ### 6. PHASE PROMPTS
-*   **Default:** Dormant monolith with faint glyphs and dark conduits
-    Prompt: A 12m tall obsidian monolith, dormant, faint teal glyphs, dark crystal conduits, subtle phosphorescence, set in a dim cavern, cinematic photorealistic, tactile textures, ancient Ethiopian style, industrial mysticism
-    Keywords: obsidian, hieroglyphs, faint teal glow, dark crystal conduits, phosphorescence, ancient Ethiopian, industrial mysticism
+*   **Default:**
+    Prompt: Chapter 84 Segment 4, unknown
 
 ---

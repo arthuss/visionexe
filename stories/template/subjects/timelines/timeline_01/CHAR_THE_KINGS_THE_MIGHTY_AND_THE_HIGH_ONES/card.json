@@ -1,0 +1,114 @@
+{
+  "id": "CHAR_THE_KINGS_THE_MIGHTY_AND_THE_HIGH_ONES",
+  "name": "The Kings, the Mighty, and the High Ones",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Kings, the Mighty, and the High Ones.",
+    "visual_anatomy": [
+      "Traits: {'description': \"A group of powerful rulers who possess the dry land. They are also referred to as 'the mighty' (አዚዛን), 'kings' (ነገሥት), and 'the high ones' (ልዑላን).\"}",
+      "Roles: the judged"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"A group of powerful rulers who possess the dry land. They are also referred to as 'the mighty' (አዚዛን), 'kings' (ነገሥት), and 'the high ones' (ልዑላን).\"}"
+    ],
+    "prompt_block": "The Kings, the Mighty, and the High Ones, {'description': \"A group of powerful rulers who possess the dry land. They are also referred to as 'the mighty' (አዚዛን), 'kings' (ነገሥት), and 'the high ones' (ልዑላን).\"}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"A group of powerful rulers who possess the dry land. They are also referred to as 'the mighty' (አዚዛን), 'kings' (ነገሥት), and 'the high ones' (ልዑላን).\"}"
+        ],
+        "prompt_block": "The Kings, the Mighty, and the High Ones, {'description': \"A group of powerful rulers who possess the dry land. They are also referred to as 'the mighty' (አዚዛን), 'kings' (ነገሥት), and 'the high ones' (ልዑላን).\"}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"A group of powerful rulers who possess the dry land. They are also referred to as 'the mighty' (አዚዛን), 'kings' (ነገሥት), and 'the high ones' (ልዑላን).\"}"
+        ],
+        "prompt_block": "The Kings, the Mighty, and the High Ones, {'description': \"A group of powerful rulers who possess the dry land. They are also referred to as 'the mighty' (አዚዛን), 'kings' (ነገሥት), and 'the high ones' (ልዑላን).\"}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"A group of powerful rulers who possess the dry land. They are also referred to as 'the mighty' (አዚዛን), 'kings' (ነገሥት), and 'the high ones' (ልዑላን).\"}"
+        ],
+        "prompt_block": "The Kings, the Mighty, and the High Ones, {'description': \"A group of powerful rulers who possess the dry land. They are also referred to as 'the mighty' (አዚዛን), 'kings' (ነገሥት), and 'the high ones' (ልዑላን).\"}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_KINGS_THE_MIGHTY_AND_THE_HIGH_ONES",
+    "name": "The Kings, the Mighty, and the High Ones",
+    "type": "character",
+    "aliases": [
+      "The Kings, the Mighty, and the High Ones"
+    ],
+    "roles": [
+      "the judged"
+    ],
+    "visual_traits": [
+      "{'description': \"A group of powerful rulers who possess the dry land. They are also referred to as 'the mighty' (አዚዛን), 'kings' (ነገሥት), and 'the high ones' (ልዑላን).\"}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: In Power', 'description': 'Rulers who possess the dry land, placing their hope in their thrones and scepters.'}",
+      "{'phase': 'Phase 2: Judged', 'description': 'Held by the Angels of Punishment, they are cast down. Their faces are filled with darkness and shame, and they are driven into an eternal dwelling of darkness.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1156"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 63,
+        "chapter_end": 62,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 63,
+        "chapter_end": 62,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: In Power', 'description': 'Rulers who possess the dry land, placing their hope in their thrones and scepters.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 63,
+        "chapter_end": 63,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Judged', 'description': 'Held by the Angels of Punishment, they are cast down. Their faces are filled with darkness and shame, and they are driven into an eternal dwelling of darkness.'}"
+        ]
+      }
+    ]
+  }
+}

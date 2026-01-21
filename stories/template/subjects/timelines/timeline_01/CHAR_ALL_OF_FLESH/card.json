@@ -1,0 +1,60 @@
+{
+  "id": "CHAR_ALL_OF_FLESH",
+  "name": "All of flesh",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for All of flesh.",
+    "visual_anatomy": [
+      "Roles: judged_group"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "All of flesh, judged_group",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "All of flesh, judged_group"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ALL_OF_FLESH",
+    "name": "All of flesh",
+    "type": "character",
+    "aliases": [
+      "All of flesh"
+    ],
+    "roles": [
+      "judged_group"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1097"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 1,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

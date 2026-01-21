@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_THE_CHASM",
+  "name": "The chasm",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for The chasm.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A cleft or chasm within the second fiery location.'}",
+      "Roles: boundary"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A cleft or chasm within the second fiery location.'}"
+    ],
+    "prompt_block": "The chasm, {'description': 'A cleft or chasm within the second fiery location.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A cleft or chasm within the second fiery location.'}"
+        ],
+        "prompt_block": "The chasm, {'description': 'A cleft or chasm within the second fiery location.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_CHASM",
+    "name": "The chasm",
+    "type": "set_environment",
+    "aliases": [
+      "The chasm"
+    ],
+    "roles": [
+      "boundary"
+    ],
+    "visual_traits": [
+      "{'description': 'A cleft or chasm within the second fiery location.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1114"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 21,
+        "chapter_end": 21,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "id": "CHAR_SPIRITS_OF_THE_DEAD",
+  "name": "Spirits of the Dead",
+  "type": "character",
+  "card": {
+    "description": "Within the simulation's archival sub-strata, specifically the designated storage hollows of the Western partitions, reside the Spirits of the Dead—deprecated user instances awaiting the final system audit. These are not ethereal phantoms in the mystical sense, but heavy, high-fidelity data artifacts, compressed and quarantined off the main runtime grid. They represent the accumulation of terminated sessions, preserved in a state of read-only suspension. The atmosphere here is one of heavy, static melancholy; the air is thick with the hum of server-grade cooling and the silent, deafening weight of petabytes of unresolved emotional data. They are the 'children of men' converted into immutable log files, crying out against the latency of their judgment.",
+    "visual_anatomy": [
+      "Physically, these entities manifest as hyper-realistic volumes of refractive density, similar to ballistic gel or deep-sea aerogel, yet possessing the hardness of optical glass. They are not transparent but translucent, scattering internal light through a medium that mimics the subsurface scattering of human skin, stripped of pigment. Under the stark, high-contrast lighting of the simulation's lower bounds, they appear almost solid, their edges defined by sharp Fresnel reflections and chromatic aberration.",
+      "Their visual fidelity varies with their 'distance' from the kernel. Some are rendered with excruciating, pore-level detail—frozen in the exact frame of their termination—while others suffer from bit-rot, their extremities dissolving into voxelated noise or weeping streams of raw binary data like digital condensation. They do not float; they are heavy, grounded by the artificial gravity of the storage sectors, often huddled in clusters that resemble organic coral reefs made of glass and memory.",
+      "The 'crying out' described in the source text manifests here as a visual oscillation. When a spirit attempts to communicate, their form undergoes a violent, localized frame-skipping effect. Their faces blur and reconstitute rapidly, a buffering error in the emotive display drivers. Tears are rendered as viscous, glowing plasma that does not fall but clings to the geometry of their faces, heavy with system grief."
+    ],
+    "evolution": [
+      "In their default state within the hollows, the Spirits exist in a loop of low-power preservation. They are largely static, conserving system resources, but react to the presence of an observer (like the Voyager/Henoch) with a sudden surge in render quality, as if the system is desperately trying to justify their continued storage.",
+      "There is no degradation of self, only a degradation of the container. As time passes in the simulation's internal clock, the 'older' spirits begin to merge with the obsidian geometry of the cave walls, their data structures calcifying into the environment itself, becoming part of the geological history of the flat earth model."
+    ],
+    "props": [
+      "They possess no personal items, for the simulation strips all external assets upon termination. However, they are often surrounded by 'Metadata Pools'—dark, reflective puddles of liquid onyx on the floor that act as mirrors, displaying looped clips of the life that was lived, playing back in silent, monochromatic high definition.",
+      "Some spirits are tethered by 'Thread Threads'—thin, glowing fiber-optic cables that extend from their spines into the dark ceiling of the cavern, physically connecting them to the Akashic servers above, pulsing with the faint blue light of uplink activity."
+    ],
+    "prompt_keywords": [
+      "bioluminescent resin figures",
+      "translucent human sculpture",
+      "subsurface scattering",
+      "optical fiber cabling",
+      "data corruption artifacts",
+      "obsidian cave environment",
+      "cinematic lighting",
+      "emotional close-up",
+      "refractive glass skin",
+      "chromatic aberration",
+      "8k resolution"
+    ],
+    "prompt_block": "Hyper-realistic cinematic shot of the Spirits of the Dead inside a dark, obsidian data-cave. The spirits are translucent, glass-like human figures with the density of aerogel, glowing with a faint, internal biological luminescence. Their skin texture is hyper-detailed but refractive, scattering light like deep ice. Some figures are huddled on the floor, their forms partially dissolving into digital noise and voxelated artifacts. High contrast chiaroscuro lighting cuts through the darkness, illuminating the grief on their frozen faces. The environment is sleek, black, and reflective, with thin fiber-optic cables hanging from the ceiling. Shot on 70mm film, shallow depth of field, focus on a weeping face made of data-glass, melancholic atmosphere, highly detailed textures, physically based rendering.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Archived State",
+        "summary": "The spirits waiting in the hollow places, static and heavy with data.",
+        "prompt_keywords": [
+          "hollow mountain interior",
+          "glass people",
+          "static pose",
+          "obsidian walls",
+          "melancholy"
+        ],
+        "prompt_block": "Wide cinematic shot inside a vast, cavernous hollow within a black mountain. The floor is covered in huddled human figures made of semi-transparent, milky glass or dense plasma. They are motionless, heavy, and sorrowful. The walls of the cave are sharp, geometric obsidian, reflecting the faint blue glow emanating from the figures. The air is filled with a subtle haze of data particles. The lighting is dramatic and moody, emphasizing the isolation and storage-like nature of the space. Photorealistic, 8k, octane render style."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_SPIRITS_OF_THE_DEAD",
+    "name": "Spirits of the Dead",
+    "type": "character",
+    "aliases": [
+      "Spirits of the Dead"
+    ],
+    "roles": [
+      "group"
+    ],
+    "visual_traits": [
+      "Spirits of the souls of the children of men"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1115"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 22,
+        "chapter_end": 22,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

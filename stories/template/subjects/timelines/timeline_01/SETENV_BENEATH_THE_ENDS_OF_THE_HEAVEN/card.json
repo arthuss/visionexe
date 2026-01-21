@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_BENEATH_THE_ENDS_OF_THE_HEAVEN",
+  "name": "beneath the ends of the heaven",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for beneath the ends of the heaven.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A term for the inhabited world.'}",
+      "Roles: setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A term for the inhabited world.'}"
+    ],
+    "prompt_block": "beneath the ends of the heaven, {'description': 'A term for the inhabited world.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A term for the inhabited world.'}"
+        ],
+        "prompt_block": "beneath the ends of the heaven, {'description': 'A term for the inhabited world.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_BENEATH_THE_ENDS_OF_THE_HEAVEN",
+    "name": "beneath the ends of the heaven",
+    "type": "set_environment",
+    "aliases": [
+      "beneath the ends of the heaven"
+    ],
+    "roles": [
+      "setting"
+    ],
+    "visual_traits": [
+      "{'description': 'A term for the inhabited world.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1147"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 54,
+        "chapter_end": 54,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

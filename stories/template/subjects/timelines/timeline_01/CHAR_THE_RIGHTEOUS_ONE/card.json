@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_THE_RIGHTEOUS_ONE",
+  "name": "the righteous one",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for the righteous one.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A singular righteous figure who appears before the chosen righteous.'}",
+      "Roles: protagonist_figure"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A singular righteous figure who appears before the chosen righteous.'}"
+    ],
+    "prompt_block": "the righteous one, {'description': 'A singular righteous figure who appears before the chosen righteous.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A singular righteous figure who appears before the chosen righteous.'}"
+        ],
+        "prompt_block": "the righteous one, {'description': 'A singular righteous figure who appears before the chosen righteous.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_RIGHTEOUS_ONE",
+    "name": "the righteous one",
+    "type": "character",
+    "aliases": [
+      "the righteous one"
+    ],
+    "roles": [
+      "protagonist_figure"
+    ],
+    "visual_traits": [
+      "{'description': 'A singular righteous figure who appears before the chosen righteous.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1131"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 38,
+        "chapter_end": 38,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "id": "CHAR_PROPHETS",
+  "name": "Prophets",
+  "type": "character",
+  "card": {
+    "description": "In the bounded runtime of the simulation, the Prophets are not merely messengers but high-bandwidth input/output terminals for the Kernel. They exist as the solitary bridges between the governed surface plane and the inscrutable logic of the Upper Store, carrying the immense burden of system-level awareness. These figures are authorized users with elevated privileges, tasked with decrypting and vocalizing the executable scripts—prophecies—that dictate the future state of the world model. Their existence is a constant struggle against 'thermal throttling,' as the influx of raw administrative data strains their human manifestations, leaving them physically weary and emotionally isolated. They wander the render zones like walking anomalies, their presence often distorting the local physics grid, causing subtle heat lensing and data particle displacement around them.",
+    "visual_anatomy": [
+      "Their attire bridges the gap between ancient asceticism and high-fidelity futurism. They are draped in heavy, layered garments that resemble traditional rough-spun wool at a distance but reveal themselves to be complex, non-woven fiber-optic meshes upon close inspection. These robes absorb ambient light like obsidian, creating a stark, silhouette-heavy contrast against the often over-exposed sky dome. Embedded within the fabric are subtle veins of dormant plasma that flare faintly when a transmission is active, suggesting an internal power routing system independent of the local environment.",
+      "Physically, the Prophets bear the scars of their function. Their skin texture is hyper-realistic, capturing every pore and wrinkle, yet marked by a subtle, unnatural translucence akin to subsurface scattering pushed beyond standard parameters. Their eyes are the most arresting feature—often obscured by shadows or cataracts that shift to reveal data-glass irises, reflecting the geometric grid of the Gate Band rather than the immediate surroundings. This visual disconnect emphasizes their dual residency in both the physical simulation and the underlying code layer.",
+      "The atmosphere around them is heavy with static. Dust motes and environmental debris do not drift randomly but align along invisible magnetic vector fields radiating from their bodies. In moments of quietude, faint, gold-hued Geez glyphs can be seen sublimating from their breath like condensation in cold air, dissolving rapidly into the simulation's background noise. This effect is understated, requiring a slow, cinematic focus to appreciate, reinforcing the drama of their silent, internal processing."
+    ],
+    "evolution": [
+      "As the conduits of the 'Lord'—the System Administrator—their state is constant but heavy. They do not evolve in the traditional sense of character growth but rather endure. The 'Default' state captures them in the act of transmission or burdened waiting. There is no triumphant arc, only the persistent, crushing duty of maintaining data integrity between the Creator and the created. The drama lies in their stoic endurance of this latency, the lag between divine command and human comprehension."
+    ],
+    "props": [
+      "The Prophets carry 'Tablets of Authority,' which appear as jagged slabs of black obsidian. These are not carved stone but solid-state storage devices. When activated by the Prophet's touch, the matte surface liquifies into a deep, scrolling plasma display, projecting the 'Word'—system logs and command scripts—in sharp, high-contrast light that illuminates their weary faces from below."
+    ],
+    "prompt_keywords": [
+      "cinematic lighting",
+      "hyper-realistic texture",
+      "obsidian robes",
+      "fiber-optic weave",
+      "data-glass eyes",
+      "subsurface scattering",
+      "heat lensing",
+      "Geez glyphs",
+      "chiaroscuro",
+      "moody atmosphere",
+      "8k resolution",
+      "Octane render"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic close-up of a Prophet within a flat-earth simulation environment. The subject is an elderly figure with weathered, highly detailed skin, wearing heavy robes made of a matte, light-absorbing material resembling dark fiber-optic mesh. The lighting is dramatic and high-contrast, highlighting the texture of the face while casting deep shadows into the eye sockets. The eyes themselves glint with a digital, data-glass quality, reflecting a geometric sky grid. Faint, golden Geez glyphs drift like vapor from the subject's breath. The background is a blurred, desaturated landscape, emphasizing the subject's isolation. The image quality is photorealistic, 8k, with perfect physically based rendering and a shallow depth of field.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Mouthpiece of the Kernel",
+        "summary": "The Prophet stands as a weary vessel of system truth, burdened by the weight of administrative knowledge.",
+        "prompt_keywords": [
+          "weary expression",
+          "heavy shadows",
+          "glowing breath",
+          "obsidian tablet"
+        ],
+        "prompt_block": "A medium shot of a Prophet standing alone in a barren, high-contrast landscape under a simulated sky dome. The figure holds a jagged slab of black obsidian that emits a soft, amber plasma glow, illuminating the under-planes of the face. The expression is one of profound exhaustion and solemn duty. The robes appear heavy and static, absorbing the harsh environmental light. Subtle heat distortion waves radiate from the figure's shoulders. The composition is centered and static, evoking a sense of dramatic stillness and isolation."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_PROPHETS",
+    "name": "Prophets",
+    "type": "character",
+    "aliases": [
+      "Prophets"
+    ],
+    "roles": [
+      "mouthpieces of the Lord"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1201"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 108,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

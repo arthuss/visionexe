@@ -1,0 +1,69 @@
+{
+  "id": "SETENV_MOUNTAIN",
+  "name": "Mountain",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Mountain.",
+    "visual_anatomy": [
+      "Traits: A generic mountain (ደብር) mentioned in an oath to state that it was not created to become a servant.",
+      "Roles: setting, setting_descriptor"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A generic mountain (ደብር) mentioned in an oath to state that it was not created to become a servant."
+    ],
+    "prompt_block": "Mountain, A generic mountain (ደብር) mentioned in an oath to state that it was not created to become a servant.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A generic mountain (ደብር) mentioned in an oath to state that it was not created to become a servant."
+        ],
+        "prompt_block": "Mountain, A generic mountain (ደብር) mentioned in an oath to state that it was not created to become a servant."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_MOUNTAIN",
+    "name": "Mountain",
+    "type": "set_environment",
+    "aliases": [
+      "Mountain"
+    ],
+    "roles": [
+      "setting",
+      "setting_descriptor"
+    ],
+    "visual_traits": [
+      "A generic mountain (ደብር) mentioned in an oath to state that it was not created to become a servant."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1050",
+      "row_1191"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 98,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

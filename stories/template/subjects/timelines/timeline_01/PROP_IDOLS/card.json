@@ -1,0 +1,67 @@
+{
+  "id": "PROP_IDOLS",
+  "name": "Idols",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Idols.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Idols (ጣዖትŒሙ) that the sinners praise.'}",
+      "Roles: actor_prop:Sinners"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Idols (ጣዖትŒሙ) that the sinners praise.'}"
+    ],
+    "prompt_block": "Idols, {'description': 'Idols (ጣዖትŒሙ) that the sinners praise.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Idols (ጣዖትŒሙ) that the sinners praise.'}"
+        ],
+        "prompt_block": "Idols, {'description': 'Idols (ጣዖትŒሙ) that the sinners praise.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_IDOLS",
+    "name": "Idols",
+    "type": "prop",
+    "aliases": [
+      "Idols"
+    ],
+    "roles": [
+      "actor_prop:Sinners"
+    ],
+    "visual_traits": [
+      "{'description': 'Idols (ጣዖትŒሙ) that the sinners praise.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1197"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 104,
+        "chapter_end": 104,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

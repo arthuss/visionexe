@@ -1,30 +1,20 @@
 ## [SCENE] Chapter 89 Segment 6 (ID: SCENE_CHAPTER_89_SEGMENT_6)
-**Description:** A subterranean chamber carved into basalt, where ancient Ethiopian stonework intertwines with incomprehensible machinery. The circular room is illuminated by bioluminescent green glyphs etched into the walls, casting a soft glow over polished obsidian surfaces. At the center rises a towering obelisk, its crystalline core pulsing with a faint blue light, surrounded by a ring of runic tablets that hum with low-frequency vibrations. The air is thick with the scent of incense and ozone, and a thin mist lingers, adding a tactile, industrial mysticism to the grounded realism of the scene.
-**Tags:** #ancient-tech #industrial mysticism #Ethiopian #photorealistic #bioluminescent #crystalline hardware #grounded realism
+**Description:** Auto-generated asset card for Chapter 89 Segment 6.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Subterranean chamber, circular layout, basalt walls with hieroglyphic patterns, central obelisk, surrounding runic tablet array.
-*   **Face/Sensors:** Obelisk's crystalline core functions as a sensor array, emitting pulsing light; runic tablets display shifting glyphs in response to energy flow.
-*   **Clothing/Armor:** Protective dust cover of obsidian panels reinforced with metal filaments; ambient mist acts as a subtle shield.
-*   **Key Features:** Bioluminescent glyphs, pulsing crystalline core, humming runic tablets, low-frequency vibrations, ambient mist.
+Roles: unknown
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Initial): Chamber in dormant state, walls etched, obelisk inert, runic tablets blank, faint green glyphs barely visible.
-*   Phase 2 (Activated): Glyphs glow brightly, obelisk pulses with blue light, runic tablets display shifting symbols, ambient mist thickens, low-frequency hum intensifies.
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Obelisk of Luminous Core
-*   Item: Runic Tablet Array
-
-### 4. AI PROMPT KEYWORDS
-`ancient Ethiopian`, `industrial mysticism`, `photorealistic`, `bioluminescent glyphs`, `crystalline core`, `grounded realism`
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
-A subterranean chamber carved into basalt, ancient Ethiopian stonework fused with incomprehensible machinery, bioluminescent green glyphs etched into walls casting soft light, a towering obelisk with a pulsing blue crystalline core at the center, surrounded by a ring of runic tablets that hum and display shifting symbols, polished obsidian surfaces reflecting the glow, low-frequency vibrations resonating through the stone, ambient mist swirling, photorealistic, tactile, grounded realism, industrial mysticism, cinematic lighting
+Chapter 89 Segment 6, unknown
 
 ### 6. PHASE PROMPTS
-*   **Default:** Dormant chamber with subtle glow.
-    Prompt: A subterranean chamber carved into basalt, ancient Ethiopian stonework fused with incomprehensible machinery, walls etched with hieroglyphic patterns, a central obelisk with a dormant crystalline core, runic tablets blank, faint green bioluminescent glyphs barely visible, low ambient light, photorealistic, tactile, grounded realism, industrial mysticism
-    Keywords: ancient Ethiopian, industrial mysticism, photorealistic, bioluminescent glyphs, crystalline core, grounded realism
+*   **Default:**
+    Prompt: Chapter 89 Segment 6, unknown
 
 ---

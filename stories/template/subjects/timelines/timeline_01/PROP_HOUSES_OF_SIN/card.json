@@ -1,0 +1,120 @@
+{
+  "id": "PROP_HOUSES_OF_SIN",
+  "name": "Houses of Sin",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Houses of Sin.",
+    "visual_anatomy": [
+      "Traits: {'description': \"Buildings constructed through the exploited labor of others, with their very building materials described as 'brick and stone of sin'.\"}, {'description': 'Houses (ብያቶሙ) built with sin as their material.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"Buildings constructed through the exploited labor of others, with their very building materials described as 'brick and stone of sin'.\"}",
+      "{'description': 'Houses (ብያቶሙ) built with sin as their material.'}"
+    ],
+    "prompt_block": "Houses of Sin, {'description': \"Buildings constructed through the exploited labor of others, with their very building materials described as 'brick and stone of sin'.\"}, {'description': 'Houses (ብያቶሙ) built with sin as their material.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"Buildings constructed through the exploited labor of others, with their very building materials described as 'brick and stone of sin'.\"}",
+          "{'description': 'Houses (ብያቶሙ) built with sin as their material.'}"
+        ],
+        "prompt_block": "Houses of Sin, {'description': \"Buildings constructed through the exploited labor of others, with their very building materials described as 'brick and stone of sin'.\"}, {'description': 'Houses (ብያቶሙ) built with sin as their material.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"Buildings constructed through the exploited labor of others, with their very building materials described as 'brick and stone of sin'.\"}",
+          "{'description': 'Houses (ብያቶሙ) built with sin as their material.'}"
+        ],
+        "prompt_block": "Houses of Sin, {'description': \"Buildings constructed through the exploited labor of others, with their very building materials described as 'brick and stone of sin'.\"}, {'description': 'Houses (ብያቶሙ) built with sin as their material.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"Buildings constructed through the exploited labor of others, with their very building materials described as 'brick and stone of sin'.\"}",
+          "{'description': 'Houses (ብያቶሙ) built with sin as their material.'}"
+        ],
+        "prompt_block": "Houses of Sin, {'description': \"Buildings constructed through the exploited labor of others, with their very building materials described as 'brick and stone of sin'.\"}, {'description': 'Houses (ብያቶሙ) built with sin as their material.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_HOUSES_OF_SIN",
+    "name": "Houses of Sin",
+    "type": "prop",
+    "aliases": [
+      "Houses of Sin"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': \"Buildings constructed through the exploited labor of others, with their very building materials described as 'brick and stone of sin'.\"}",
+      "{'description': 'Houses (ብያቶሙ) built with sin as their material.'}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Built', 'description': 'Constructed by a group of sinners.'}",
+      "{'phase': 'Phase 2: Destroyed', 'description': 'Uprooted from their foundations.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1188",
+      "row_1192"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 94,
+        "chapter_end": 95,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 96,
+        "chapter_end": 97,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Built', 'description': 'Constructed by a group of sinners.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 98,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Destroyed', 'description': 'Uprooted from their foundations.'}"
+        ]
+      }
+    ]
+  }
+}

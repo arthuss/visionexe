@@ -1,11 +1,10 @@
 ## [STATE] Uriel :: Phase 3
 **State ID:** phase_03
-**Chapters:** 59 - 78
+**Chapters:** 61 - 82
 **Notes:** unknown
 
-**Phase Summary:** Fully integrated with environment; wings expand, data streams merge with heat.
-**Phase Keywords:** integrated, radiant halo, thermal interface, glyphs pulse, desert heat
+**Phase Keywords:** A holy angel., An instructor or guide who reveals cosmic laws., angel, great angel, holy, unknown, {'description': 'An angel.', 'type': 'angel'}, {'description': 'One of the holy angels, who guides Enoch.'}
 **Phase Prompt:**
-Uriel's crystalline wings spread wide, glyphs glow in deep blue‑green, he channels the desert's heat into a radiant halo, the thermal UI overlays his form, photorealistic, cinematic, 9:16 vertical, 8k, industrial mysticism, grounded realism.
+Uriel, A holy angel., An instructor or guide who reveals cosmic laws., angel, great angel, holy, unknown, {'description': 'An angel.', 'type': 'angel'}, {'description': 'One of the holy angels, who guides Enoch.'}, Phase 3
 
 ---

@@ -1,0 +1,111 @@
+{
+  "id": "PROP_FOURTEEN_TREES",
+  "name": "Fourteen Trees",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Fourteen Trees.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A specific group of fourteen trees that are evergreen.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A specific group of fourteen trees that are evergreen.'}"
+    ],
+    "prompt_block": "Fourteen Trees, {'description': 'A specific group of fourteen trees that are evergreen.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A specific group of fourteen trees that are evergreen.'}"
+        ],
+        "prompt_block": "Fourteen Trees, {'description': 'A specific group of fourteen trees that are evergreen.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A specific group of fourteen trees that are evergreen.'}"
+        ],
+        "prompt_block": "Fourteen Trees, {'description': 'A specific group of fourteen trees that are evergreen.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A specific group of fourteen trees that are evergreen.'}"
+        ],
+        "prompt_block": "Fourteen Trees, {'description': 'A specific group of fourteen trees that are evergreen.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_FOURTEEN_TREES",
+    "name": "Fourteen Trees",
+    "type": "prop",
+    "aliases": [
+      "Fourteen Trees"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'A specific group of fourteen trees that are evergreen.'}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Unchanging State', 'description': 'They do not shed their leaves and remain from the old state until the new state comes.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1094"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 3,
+        "chapter_end": 2,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 3,
+        "chapter_end": 2,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 3,
+        "chapter_end": 3,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Unchanging State', 'description': 'They do not shed their leaves and remain from the old state until the new state comes.'}"
+        ]
+      }
+    ]
+  }
+}

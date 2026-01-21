@@ -1,0 +1,74 @@
+{
+  "id": "SETENV_THE_ENDS_OF_THE_EARTH",
+  "name": "The ends of the earth",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for The ends of the earth.",
+    "visual_anatomy": [
+      "Traits: The location where the heavenly gates are seen., {'description': 'A remote location in the west where the three gates are found.'}",
+      "Roles: scope_of_effect, setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "The location where the heavenly gates are seen.",
+      "{'description': 'A remote location in the west where the three gates are found.'}"
+    ],
+    "prompt_block": "The ends of the earth, The location where the heavenly gates are seen., {'description': 'A remote location in the west where the three gates are found.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "The location where the heavenly gates are seen.",
+          "{'description': 'A remote location in the west where the three gates are found.'}"
+        ],
+        "prompt_block": "The ends of the earth, The location where the heavenly gates are seen., {'description': 'A remote location in the west where the three gates are found.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_ENDS_OF_THE_EARTH",
+    "name": "The ends of the earth",
+    "type": "set_environment",
+    "aliases": [
+      "The Ends of the Earth",
+      "The ends of the earth"
+    ],
+    "roles": [
+      "scope_of_effect",
+      "setting"
+    ],
+    "visual_traits": [
+      "The location where the heavenly gates are seen.",
+      "{'description': 'A remote location in the west where the three gates are found.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1051",
+      "row_1126",
+      "row_1169"
+    ],
+    "occurrence_count": 12,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 76,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

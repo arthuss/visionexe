@@ -1,0 +1,72 @@
+{
+  "id": "PROP_HORNS",
+  "name": "Horns",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Horns.",
+    "visual_anatomy": [
+      "Traits: A metaphorical attribute of the kings and mighty, which they are commanded to raise., {'description': 'The horns of the bulls, used to gore.'}",
+      "Roles: actor_prop:Bulls, actor_prop:Kings, the Mighty, and the Exalted"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A metaphorical attribute of the kings and mighty, which they are commanded to raise.",
+      "{'description': 'The horns of the bulls, used to gore.'}"
+    ],
+    "prompt_block": "Horns, A metaphorical attribute of the kings and mighty, which they are commanded to raise., {'description': 'The horns of the bulls, used to gore.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A metaphorical attribute of the kings and mighty, which they are commanded to raise.",
+          "{'description': 'The horns of the bulls, used to gore.'}"
+        ],
+        "prompt_block": "Horns, A metaphorical attribute of the kings and mighty, which they are commanded to raise., {'description': 'The horns of the bulls, used to gore.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_HORNS",
+    "name": "Horns",
+    "type": "prop",
+    "aliases": [
+      "Horns"
+    ],
+    "roles": [
+      "actor_prop:Bulls",
+      "actor_prop:Kings, the Mighty, and the Exalted"
+    ],
+    "visual_traits": [
+      "A metaphorical attribute of the kings and mighty, which they are commanded to raise.",
+      "{'description': 'The horns of the bulls, used to gore.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1155",
+      "row_1179"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 62,
+        "chapter_end": 86,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

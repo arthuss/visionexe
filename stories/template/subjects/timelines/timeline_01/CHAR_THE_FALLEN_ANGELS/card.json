@@ -1,0 +1,73 @@
+{
+  "id": "CHAR_THE_FALLEN_ANGELS",
+  "name": "the fallen angels",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for the fallen angels.",
+    "visual_anatomy": [
+      "Traits: faces are covered in shame, gathered together, weeping",
+      "Roles: group being judged, petitioners"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "faces are covered in shame",
+      "gathered together",
+      "weeping"
+    ],
+    "prompt_block": "the fallen angels, faces are covered in shame, gathered together, weeping",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "faces are covered in shame",
+          "gathered together",
+          "weeping"
+        ],
+        "prompt_block": "the fallen angels, faces are covered in shame, gathered together, weeping"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_FALLEN_ANGELS",
+    "name": "the fallen angels",
+    "type": "character",
+    "aliases": [
+      "the fallen angels"
+    ],
+    "roles": [
+      "group being judged, petitioners"
+    ],
+    "visual_traits": [
+      "faces are covered in shame",
+      "gathered together",
+      "weeping"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1106"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 13,
+        "chapter_end": 13,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+## [STATE] angels of punishment :: Default
+**State ID:** default
+**Chapters:** 53 - 66
+
+**Phase Keywords:** holding chains of iron and bronze, {'description': "A group of angels described as 'ready' to act. They are tasked with unleashing the waters and are positioned 'over the power of the waters'."}, {'description': 'A group of angels seen walking and preparing instruments of punishment.'}, {'description': 'Angels who are holding the kings and the mighty in the place of their torment.'}
+**Phase Prompt:**
+angels of punishment, holding chains of iron and bronze, {'description': "A group of angels described as 'ready' to act. They are tasked with unleashing the waters and are positioned 'over the power of the waters'."}, {'description': 'A group of angels seen walking and preparing instruments of punishment.'}, {'description': 'Angels who are holding the kings and the mighty in the place of their torment.'}
+
+---

@@ -1,0 +1,67 @@
+{
+  "id": "PROP_WORTHLESS_MYSTERY",
+  "name": "worthless mystery",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for worthless mystery.",
+    "visual_anatomy": [
+      "Traits: A form of hidden, forbidden knowledge",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A form of hidden, forbidden knowledge"
+    ],
+    "prompt_block": "worthless mystery, A form of hidden, forbidden knowledge",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A form of hidden, forbidden knowledge"
+        ],
+        "prompt_block": "worthless mystery, A form of hidden, forbidden knowledge"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_WORTHLESS_MYSTERY",
+    "name": "worthless mystery",
+    "type": "prop",
+    "aliases": [
+      "worthless mystery"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "A form of hidden, forbidden knowledge"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1108"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 16,
+        "chapter_end": 16,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

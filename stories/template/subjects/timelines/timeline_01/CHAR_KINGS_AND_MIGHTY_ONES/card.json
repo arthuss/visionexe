@@ -1,0 +1,84 @@
+{
+  "id": "CHAR_KINGS_AND_MIGHTY_ONES",
+  "name": "Kings and Mighty Ones",
+  "type": "character",
+  "card": {
+    "description": "They are the authorized superusers of the planetary runtime, residing in the upper echelons of the Surface Plane where the rendering resolution is infinite and the physics are absolute. These 'Kings and Mighty Ones' are not merely political figureheads but structural anchors of the simulation, holding the cryptographic keys to the earth's material manifestations. They exist in a state of high-contrast entitlement, viewing the world through the lens of ownership, their avatars optimized for longevity and resource consumption. In the context of the simulation's thermal throttling, they are the primary beneficiaries of the system's cooling fluids—the 'waters'—which they initially perceive as a rejuvenating data-stream meant to patch their own degradation. However, their role shifts from consumers to witnesses as they observe the system's kernel-level judgment against the corrupted 'Angels,' serving as the silent, terrified audience to a fatal error log scrolling across the horizon.",
+    "visual_anatomy": [
+      "Their attire is a seamless fusion of archaic majesty and functional hardware, drapes of obsidian silk woven with dormant fiber-optic threads that catch the cold light of the simulated Sky Dome. The fabric behaves with hyper-realistic weight, heavy and sound dampening, absorbing the ambient noise of the processing hum. They do not wear crowns of gold, but rather halos of refractive data-glass that distort the air around their heads, suggesting a direct link to the Upper Store.",
+      "Physically, they are rendered with excruciating photorealism (ISO 100). Every pore, micro-expression, and sign of aging is preserved to emphasize their 'human' burden within the artificial container. Their skin has the pallor of those who live under artificial sky-layers, illuminated by the harsh, cinematic lighting of the simulation's gate bands. Their eyes are often fixed on the middle distance, reflecting the vector field lensing of the horizon.",
+      "They are framed in static, symmetrical compositions, often standing on balconies of black glass that overlook the Rift Internals. The environment around them is sterile and high-value, composed of materials that mimic polished basalt and dark mirrors. The lighting is low-key, utilizing the 'darkness' tone dial to cast deep shadows across their faces, highlighting only the sharp ridges of their expressions as they process the visual data of the judgment unfolding below."
+    ],
+    "evolution": [
+      "Initially, the Kings are depicted in states of passive reception, bathing in the thermal glow of the system's fluid dynamics. The 'waters' appear as viscous, luminescent streams of plasma that stabilize their avatars. The camera captures them in slow, lingering takes, emphasizing their reliance on these resources for their continued dominance.",
+      "As the narrative arc bends toward Chapter 67, their demeanor fractures. The healing waters turn volatile, reacting to the corruption of the Angels. The Kings are stripped of their confident repose, forced into the role of helpless observers. The cinematography shifts to extreme close-ups of their reactions—eyes widening, sweat forming on high-resolution skin textures—as the realization of the 'System Manual's' punitive protocols becomes undeniable. They stand as a testimony to the severity of the purge, their power rendered null by the kernel manifestation."
+    ],
+    "props": [
+      "Data-glass chalices or tablets that display scrolling Geez glyphs, representing their access to the simulation's resource logs. These items emit a faint, internal phosphorescence.",
+      "Heavy, monolithic furniture made of dark matter composites, grounding them in the scene and emphasizing the 'gravity' of their station."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic cinema",
+      "obsidian texture",
+      "data-glass artifacts",
+      "moody lighting",
+      "men in dark formal wear",
+      "flat earth horizon",
+      "vector field sky",
+      "dark basalt architecture",
+      "thermal plasma water",
+      "Arri Alexa 65",
+      "dramatic shadows"
+    ],
+    "prompt_block": "Cinematic wide shot, hyper-realistic 8k. A group of imposing figures, the Kings of the Earth, standing on a monolithic balcony of polished obsidian. They are dressed in dark, structured coats with subtle fiber-optic weaves. The background shows the curvature of the flat earth simulation dome, with vector lines faintly visible in the sky. The lighting is moody, deep shadows, single cold light source. In the distance, thermal vents release columns of glowing plasma steam. The atmosphere is heavy, oppressive, and silent. Photorealistic textures, physically based rendering.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "The Silent Witnesses",
+        "summary": "The Kings stand at the edge of the habitable zone, watching the thermal waters shift from healing streams to instruments of judgment. They are paralyzed by the unfolding system purge.",
+        "prompt_keywords": [
+          "shocked expressions",
+          "extreme close-up",
+          "sweat on skin",
+          "glowing steam reflection",
+          "dark atmosphere"
+        ],
+        "prompt_block": "Close-up portrait, hyper-realistic. The face of an old, powerful ruler, skin texture highly detailed, pores visible. He is looking off-camera with an expression of dawning horror. The lighting is high-contrast, 'Rembrandt' style, highlighting the fear in his eyes. In the blurred background, a massive column of steam and digital distortion rises from a rift. Reflections of blue system errors visible in the moisture on his face. Cinematic drama, slow shutter feel, depth of field focus on eyes."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_KINGS_AND_MIGHTY_ONES",
+    "name": "Kings and Mighty Ones",
+    "type": "character",
+    "aliases": [
+      "Kings and Mighty Ones"
+    ],
+    "roles": [
+      "observer"
+    ],
+    "visual_traits": [
+      "{'description': 'Rulers and powerful people who possess the earth. The judgment of the angels serves as a testimony to them, and the waters are initially for their healing.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1161"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 67,
+        "chapter_end": 67,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

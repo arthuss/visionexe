@@ -2,13 +2,13 @@
 **Description:** Auto-generated asset card for Chapter 48 Segment 6.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   TBD
+TBD.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase (Default)
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   TBD
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
 Chapter 48 Segment 6,

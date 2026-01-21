@@ -1,0 +1,67 @@
+{
+  "id": "PROP_FINE_CLOTH",
+  "name": "Fine Cloth",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Fine Cloth.",
+    "visual_anatomy": [
+      "Traits: Garments or textiles (ሜላት) possessed by sinners.",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Garments or textiles (ሜላት) possessed by sinners."
+    ],
+    "prompt_block": "Fine Cloth, Garments or textiles (ሜላት) possessed by sinners.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Garments or textiles (ሜላት) possessed by sinners."
+        ],
+        "prompt_block": "Fine Cloth, Garments or textiles (ሜላት) possessed by sinners."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_FINE_CLOTH",
+    "name": "Fine Cloth",
+    "type": "prop",
+    "aliases": [
+      "Fine Cloth"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "Garments or textiles (ሜላት) possessed by sinners."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1191"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 98,
+        "chapter_end": 98,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

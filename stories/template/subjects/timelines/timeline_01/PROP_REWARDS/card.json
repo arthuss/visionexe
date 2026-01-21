@@ -1,0 +1,67 @@
+{
+  "id": "PROP_REWARDS",
+  "name": "rewards",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for rewards.",
+    "visual_anatomy": [
+      "Traits: Unspecified rewards that are to be shown over all the earth.",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Unspecified rewards that are to be shown over all the earth."
+    ],
+    "prompt_block": "rewards, Unspecified rewards that are to be shown over all the earth.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Unspecified rewards that are to be shown over all the earth."
+        ],
+        "prompt_block": "rewards, Unspecified rewards that are to be shown over all the earth."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_REWARDS",
+    "name": "rewards",
+    "type": "prop",
+    "aliases": [
+      "rewards"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "Unspecified rewards that are to be shown over all the earth."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1198"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 105,
+        "chapter_end": 105,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

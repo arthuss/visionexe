@@ -1,0 +1,134 @@
+{
+  "id": "SETENV_HEAVEN_SKY",
+  "name": "Heaven/Sky",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Heaven/Sky.",
+    "visual_anatomy": [
+      "Traits: Contains the sun, moon, stars, and celestial powers., Has gates through which the sun passes., celestial expanse containing stars and gates, {'description': 'The sky above the earth.'}",
+      "Roles: Setting for celestial movements., dynamic_setting, setting"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Contains the sun, moon, stars, and celestial powers.",
+      "Has gates through which the sun passes.",
+      "celestial expanse containing stars and gates",
+      "{'description': 'The sky above the earth.'}"
+    ],
+    "prompt_block": "Heaven/Sky, Contains the sun, moon, stars, and celestial powers., Has gates through which the sun passes., celestial expanse containing stars and gates, {'description': 'The sky above the earth.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "Contains the sun, moon, stars, and celestial powers.",
+          "Has gates through which the sun passes.",
+          "celestial expanse containing stars and gates",
+          "{'description': 'The sky above the earth.'}"
+        ],
+        "prompt_block": "Heaven/Sky, Contains the sun, moon, stars, and celestial powers., Has gates through which the sun passes., celestial expanse containing stars and gates, {'description': 'The sky above the earth.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "Contains the sun, moon, stars, and celestial powers.",
+          "Has gates through which the sun passes.",
+          "celestial expanse containing stars and gates",
+          "{'description': 'The sky above the earth.'}"
+        ],
+        "prompt_block": "Heaven/Sky, Contains the sun, moon, stars, and celestial powers., Has gates through which the sun passes., celestial expanse containing stars and gates, {'description': 'The sky above the earth.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "Contains the sun, moon, stars, and celestial powers.",
+          "Has gates through which the sun passes.",
+          "celestial expanse containing stars and gates",
+          "{'description': 'The sky above the earth.'}"
+        ],
+        "prompt_block": "Heaven/Sky, Contains the sun, moon, stars, and celestial powers., Has gates through which the sun passes., celestial expanse containing stars and gates, {'description': 'The sky above the earth.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_HEAVEN_SKY",
+    "name": "Heaven/Sky",
+    "type": "set_environment",
+    "aliases": [
+      "Heaven / Sky",
+      "Heaven/Sky"
+    ],
+    "roles": [
+      "Setting for celestial movements.",
+      "dynamic_setting",
+      "setting"
+    ],
+    "visual_traits": [
+      "Contains the sun, moon, stars, and celestial powers.",
+      "Has gates through which the sun passes.",
+      "celestial expanse containing stars and gates",
+      "{'description': 'The sky above the earth.'}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Vision', 'description': 'In the vision, the sky is cleansed, collapses, and falls upon the earth.'}",
+      "{'phase': 'Phase 2: Post-Vision', 'description': 'After the vision, the sky is observed in its normal state, with the sun traveling across it.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1128",
+      "row_1175",
+      "row_1176"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 33,
+        "chapter_end": 49,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 50,
+        "chapter_end": 66,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Vision', 'description': 'In the vision, the sky is cleansed, collapses, and falls upon the earth.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 67,
+        "chapter_end": 83,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Post-Vision', 'description': 'After the vision, the sky is observed in its normal state, with the sun traveling across it.'}"
+        ]
+      }
+    ]
+  }
+}

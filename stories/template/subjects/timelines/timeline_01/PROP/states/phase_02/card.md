@@ -3,9 +3,8 @@
 **Chapters:** 37 - 72
 **Notes:** unknown
 
-**Phase Summary:** Crystalline core and algae chamber added, glowing.
-**Phase Keywords:** crystalline core, bio‑luminescent, glow
+**Phase Keywords:** A metaphorical 'cloud of water' representing an endless source of tears., A metaphorical heart, afflicted with sorrow., A metaphorical yoke of iniquity described as heavy., Metaphorical hands representing power and control, into which sinners will be delivered., Tears that flow like a 'cloud of water'., air, bright, burning, drum, fire, flaming, glowing
 **Phase Prompt:**
-The basalt drum now contains a central quartz crystal core emitting blue light, surrounded by a sealed algae chamber, glyphs glow faintly, set in a dim chamber, photorealistic, cinematic.
+ድባር, A metaphorical 'cloud of water' representing an endless source of tears., A metaphorical heart, afflicted with sorrow., A metaphorical yoke of iniquity described as heavy., Metaphorical hands representing power and control, into which sinners will be delivered., Tears that flow like a 'cloud of water'., air, bright, burning, drum, fire, flaming, glowing, gold, image, light, luminous, spoken, stack of books, sun, unknown, water, Phase 2
 
 ---

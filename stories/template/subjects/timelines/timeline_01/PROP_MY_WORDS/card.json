@@ -1,0 +1,67 @@
+{
+  "id": "PROP_MY_WORDS",
+  "name": "My Words",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for My Words.",
+    "visual_anatomy": [
+      "Traits: {'description': 'The words of the speaker (implied Enoch) (ናገራትየ), which are to be written down truthfully by the righteous.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The words of the speaker (implied Enoch) (ናገራትየ), which are to be written down truthfully by the righteous.'}"
+    ],
+    "prompt_block": "My Words, {'description': 'The words of the speaker (implied Enoch) (ናገራትየ), which are to be written down truthfully by the righteous.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The words of the speaker (implied Enoch) (ናገራትየ), which are to be written down truthfully by the righteous.'}"
+        ],
+        "prompt_block": "My Words, {'description': 'The words of the speaker (implied Enoch) (ናገራትየ), which are to be written down truthfully by the righteous.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_MY_WORDS",
+    "name": "My Words",
+    "type": "prop",
+    "aliases": [
+      "My Words"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'The words of the speaker (implied Enoch) (ናገራትየ), which are to be written down truthfully by the righteous.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1197"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 104,
+        "chapter_end": 104,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_WITHERED_TREES",
+  "name": "Withered Trees",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Withered Trees.",
+    "visual_anatomy": [
+      "Traits: Appear dry, their leaves are shed.",
+      "Roles: character"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Appear dry, their leaves are shed."
+    ],
+    "prompt_block": "Withered Trees, Appear dry, their leaves are shed.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Appear dry, their leaves are shed."
+        ],
+        "prompt_block": "Withered Trees, Appear dry, their leaves are shed."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_WITHERED_TREES",
+    "name": "Withered Trees",
+    "type": "character",
+    "aliases": [
+      "Withered Trees"
+    ],
+    "roles": [
+      "character"
+    ],
+    "visual_traits": [
+      "Appear dry, their leaves are shed."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1059"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 3,
+        "chapter_end": 3,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_STOREHOUSE_OF_THE_CLOUDS",
+  "name": "Storehouse of the clouds",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Storehouse of the clouds.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A storehouse (መዝገበ) for the clouds.'}",
+      "Roles: celestial_repository"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A storehouse (መዝገበ) for the clouds.'}"
+    ],
+    "prompt_block": "Storehouse of the clouds, {'description': 'A storehouse (መዝገበ) for the clouds.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A storehouse (መዝገበ) for the clouds.'}"
+        ],
+        "prompt_block": "Storehouse of the clouds, {'description': 'A storehouse (መዝገበ) for the clouds.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_STOREHOUSE_OF_THE_CLOUDS",
+    "name": "Storehouse of the clouds",
+    "type": "set_environment",
+    "aliases": [
+      "Storehouse of the clouds"
+    ],
+    "roles": [
+      "celestial_repository"
+    ],
+    "visual_traits": [
+      "{'description': 'A storehouse (መዝገበ) for the clouds.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1136"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 41,
+        "chapter_end": 41,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

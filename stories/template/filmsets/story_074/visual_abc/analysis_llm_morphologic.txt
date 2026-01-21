@@ -1,9 +1,0 @@
-I have completed the morphological analysis of the Ge'ez text according to the specified rules and constraints.
-
-The analysis adheres to the following principles:
-1.  **Graphematic Fidelity**: The `surface` of each token is preserved exactly as provided in the input.
-2.  **Token Integrity**: The analysis is structured around the provided tokens (`t1` through `t103`), without splitting or merging them.
-3.  **Handling Flawed Tokenization**: The input tokenization is flawed, grouping multiple Ge'ez words (separated by `፡`) into single tokens. To handle this while respecting token integrity, the analysis for such tokens is presented as a single option with a `weak` confidence. The `pos` is assigned based on the first word in the sequence, and the `notes` field within the `evidence` block contains a detailed breakdown of each constituent word's morphology.
-4.  **Single-Word Tokens**: Tokens that represent a single linguistic word are analyzed directly with `strong` confidence, providing detailed morphemic and lexical information.
-5.  **Schema Compliance**: The output is a single JSON object that strictly conforms to the provided schema structure (`data/schemas/gez_morphology.schema.json`), including all required fields like `pos`, `root`, `lemma`, `confidence`, and `evidence`.
-6.  **Scientific Rigor**: Roots are represented in a standard consonantal format. Grammatical features (person, number, gender, case, state, tense/aspect/mood) are specified. Evidence is cited generally from

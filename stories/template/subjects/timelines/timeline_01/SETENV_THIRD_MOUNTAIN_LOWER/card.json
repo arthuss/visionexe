@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_THIRD_MOUNTAIN_LOWER",
+  "name": "third mountain (lower)",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for third mountain (lower).",
+    "visual_anatomy": [
+      "Traits: A mountain to the west of the second mountain, described as lower and not high.",
+      "Roles: landmark"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A mountain to the west of the second mountain, described as lower and not high."
+    ],
+    "prompt_block": "third mountain (lower), A mountain to the west of the second mountain, described as lower and not high.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A mountain to the west of the second mountain, described as lower and not high."
+        ],
+        "prompt_block": "third mountain (lower), A mountain to the west of the second mountain, described as lower and not high."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THIRD_MOUNTAIN_LOWER",
+    "name": "third mountain (lower)",
+    "type": "set_environment",
+    "aliases": [
+      "third mountain (lower)"
+    ],
+    "roles": [
+      "landmark"
+    ],
+    "visual_traits": [
+      "A mountain to the west of the second mountain, described as lower and not high."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1120"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 26,
+        "chapter_end": 26,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

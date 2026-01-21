@@ -1,0 +1,117 @@
+{
+  "id": "PROP_LIGHTNINGS",
+  "name": "Lightnings",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Lightnings.",
+    "visual_anatomy": [
+      "Traits: Dynamic celestial phenomena that flash. Their purpose is for blessing, curse, or abundance., celestial flashes of light",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Dynamic celestial phenomena that flash. Their purpose is for blessing, curse, or abundance.",
+      "celestial flashes of light"
+    ],
+    "prompt_block": "Lightnings, Dynamic celestial phenomena that flash. Their purpose is for blessing, curse, or abundance., celestial flashes of light",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "Dynamic celestial phenomena that flash. Their purpose is for blessing, curse, or abundance.",
+          "celestial flashes of light"
+        ],
+        "prompt_block": "Lightnings, Dynamic celestial phenomena that flash. Their purpose is for blessing, curse, or abundance., celestial flashes of light, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "Dynamic celestial phenomena that flash. Their purpose is for blessing, curse, or abundance.",
+          "celestial flashes of light"
+        ],
+        "prompt_block": "Lightnings, Dynamic celestial phenomena that flash. Their purpose is for blessing, curse, or abundance., celestial flashes of light, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "Dynamic celestial phenomena that flash. Their purpose is for blessing, curse, or abundance.",
+          "celestial flashes of light"
+        ],
+        "prompt_block": "Lightnings, Dynamic celestial phenomena that flash. Their purpose is for blessing, curse, or abundance., celestial flashes of light, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_LIGHTNINGS",
+    "name": "Lightnings",
+    "type": "prop",
+    "aliases": [
+      "Lightnings"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "Dynamic celestial phenomena that flash. Their purpose is for blessing, curse, or abundance.",
+      "celestial flashes of light"
+    ],
+    "changes": [
+      "{'phase': 'Dynamic', 'description': 'Described as begetting more lightning, indicating active generation and movement.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1134",
+      "row_1152"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 43,
+        "chapter_end": 47,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 48,
+        "chapter_end": 53,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 54,
+        "chapter_end": 59,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Dynamic', 'description': 'Described as begetting more lightning, indicating active generation and movement.'}"
+        ]
+      }
+    ]
+  }
+}

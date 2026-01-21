@@ -1,0 +1,9 @@
+## [STATE] That Place :: Default
+**State ID:** default
+**Chapters:** 41 - 64
+
+**Phase Keywords:** {'description': 'A recurring term (በህየ, ውእቱ መካን) for the location of the vision from which Enoch observes these secrets.'}, {'description': 'A specific, unnamed location (ውእቱ፡\u200bመካን) where hidden beings are present.'}
+**Phase Prompt:**
+That Place, {'description': 'A recurring term (በህየ, ውእቱ መካን) for the location of the vision from which Enoch observes these secrets.'}, {'description': 'A specific, unnamed location (ውእቱ፡\u200bመካን) where hidden beings are present.'}
+
+---

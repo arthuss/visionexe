@@ -1,0 +1,26 @@
+## [CHARACTER] Ram with Sword (ID: CHAR_RAM_WITH_SWORD)
+**Description:** In the bounded runtime of the flat-earth simulation, the entity designated as the Ram with Sword manifests not merely as livestock, but as a high-level administrative process clad in the avatar of a patriarch. It stands heavy on the obsidian surface plane, its presence causing localized thermal throttling in the surrounding air. This is no beast of the field; it is a sentient kernel manifestation, burdened with the sombre duty of introducing the purge protocol—the Sword—into the corrupted sectors of the simulation. Its posture exudes the weary gravity of a drama protagonist who understands that restoring balance requires a violent subtraction of data. The Ram does not seek conflict, yet carries the deletion key with a solemn, ritualistic necessity, its very existence vibrating with the hum of a system pushed to its thermal limits.
+
+### 1. VISUAL ANATOMY / DESIGN
+The creature's fleece appears at first glance to be organic wool, dense and matted, but under the scrutiny of the cinematic, vertical 9:16 lens, the fibers reveal themselves as tightly coiled fiber-optic strands. They shimmer with a faint, subsurface scattering of data-light, pulsing rhythmically like a cooling server. The horns are magnificent spirals of dark glass—obsidian or unauthorized void material—curling around a skull that seems too heavy for its neck, etched with microscopic Geez glyphs that glow when the system audits its position.
+The Sword is not held in a hoof, but floats in a magnetic lock parallel to the Ram's flank, suspended by vector field lensing. It is a jagged tear in the renderer, a blade of absolute null-value blackness that drinks the ambient plasma light of the sky dome. The edges of the weapon distort the background, creating a heat-lensing effect that suggests the sword is actively unmaking the mesh it touches. It is an artifact of pure egress, a tool meant to sever the connection between the simulation and its rogue instances.
+Its eyes are the emotional anchor of the scene, framed by the stark, high-contrast lighting of the simulation's artificial sun. They are rectangular-pupiled reservoirs of liquid crystal, reflecting the chaotic architecture of the Rift Internals with a mournful clarity. In the shallow depth of field, typical of the drama genre, the background dissolves into a bokeh of grid lines and static, isolating the Ram in its moment of terrible decision.
+
+### 2. EVOLUTION / VARIANTS
+Initially, the Ram materializes near the Ingress Sinai, its form flickering as the mesh overrides stabilize. It moves with a slow, deliberate cadence, the 'Sword' protocol buffering into existence beside it—a clouded assemblage of pixels sharpening into the lethal obsidian shard. As it approaches the target sector, the surrounding environment dims, the system diverting power to the weapon's physics engine, highlighting the isolation and weight of the task at hand.
+
+### 3. PROPS & EQUIPMENT
+The Sword (Purge Protocol): A visual anomaly within the simulation, appearing as a long, tapering void of Vantablack. It does not reflect light; it absorbs the rendering information of anything in its proximity. When active, it trails a wake of data particles and de-rezzed geometry, symbolizing the finality of the administrative command it represents.
+
+### 4. AI PROMPT KEYWORDS
+`hyper-realistic 8k`, `white ram avatar`, `floating obsidian sword`, `cinematic lighting`, `shallow depth of field`, `fiber-optic fleece`, `glowing geez glyphs`, `simulation glitch artifacts`, `melancholy atmosphere`, `vertical 9:16 aspect ratio`
+
+### 5. PROMPT BLOCK (T2I)
+A hyper-realistic, vertical cinematic shot of a majestic white Ram standing on a reflective black obsidian floor under a digital sky dome. The Ram's fleece is detailed with fiber-optic texture, glowing faintly from within. Floating beside the Ram, suspended by invisible physics, is a jagged, pitch-black sword that distorts the air around it like a heat mirage. The lighting is high-contrast and dramatic, casting long shadows that emphasize the texture of the floor. The Ram's eye is in sharp focus, rectangular pupil reflecting a complex array of glowing blue data streams. The background blurs into a bokeh of neon grid lines and atmospheric haze. The mood is somber and heavy, capturing a moment of silent, dramatic contemplation before violence.
+
+### 6. PHASE PROMPTS
+*   **The Burden of Admin:** The Ram stands solitary on the surface plane, the Sword hovering in magnetic suspension, awaiting the command to execute the purge.
+    Prompt: A close-up, low-angle shot of the Ram's face and the floating Sword beside it. The Ram looks weary, its fiber-optic wool matted and heavy. The Sword is a slice of void blackness against the plasma-colored sky. The camera focuses on the tension between the animal and the weapon, the air shimmering with heat lensing between them. The environment is dark, lit by the bioluminescent glow of the Ram's own code and the distant, cold light of the simulation's upper store. Rendered in 8k photorealism with an emotional, dramatic color grading.
+    Keywords: solitary figure, magnetic suspension, heavy atmosphere, waiting
+
+---

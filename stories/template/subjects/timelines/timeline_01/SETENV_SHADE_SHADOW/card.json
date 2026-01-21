@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_SHADE_SHADOW",
+  "name": "Shade / Shadow",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Shade / Shadow.",
+    "visual_anatomy": [
+      "Traits: An area shielded from direct sunlight.",
+      "Roles: refuge_from_heat"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "An area shielded from direct sunlight."
+    ],
+    "prompt_block": "Shade / Shadow, An area shielded from direct sunlight.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "An area shielded from direct sunlight."
+        ],
+        "prompt_block": "Shade / Shadow, An area shielded from direct sunlight."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_SHADE_SHADOW",
+    "name": "Shade / Shadow",
+    "type": "set_environment",
+    "aliases": [
+      "Shade / Shadow"
+    ],
+    "roles": [
+      "refuge_from_heat"
+    ],
+    "visual_traits": [
+      "An area shielded from direct sunlight."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1060"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 4,
+        "chapter_end": 4,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_CELESTIAL_SPACE",
+  "name": "Celestial Space",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Celestial Space.",
+    "visual_anatomy": [
+      "Traits: The expanse where stars and lightning are visible.",
+      "Roles: setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "The expanse where stars and lightning are visible."
+    ],
+    "prompt_block": "Celestial Space, The expanse where stars and lightning are visible.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "The expanse where stars and lightning are visible."
+        ],
+        "prompt_block": "Celestial Space, The expanse where stars and lightning are visible."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_CELESTIAL_SPACE",
+    "name": "Celestial Space",
+    "type": "set_environment",
+    "aliases": [
+      "Celestial Space"
+    ],
+    "roles": [
+      "setting"
+    ],
+    "visual_traits": [
+      "The expanse where stars and lightning are visible."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1137"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 44,
+        "chapter_end": 44,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

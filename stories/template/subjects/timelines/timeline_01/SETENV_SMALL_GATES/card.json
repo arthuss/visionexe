@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_SMALL_GATES",
+  "name": "small gates",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for small gates.",
+    "visual_anatomy": [
+      "Traits: {'description': \"Smaller portals ('ኃዋኅው፡ ንኡሳን') located 'upon' ('ላዕሌሆሙ') the three eastern gates.\", 'state': 'static'}",
+      "Roles: portal"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"Smaller portals ('ኃዋኅው፡ ንኡሳን') located 'upon' ('ላዕሌሆሙ') the three eastern gates.\", 'state': 'static'}"
+    ],
+    "prompt_block": "small gates, {'description': \"Smaller portals ('ኃዋኅው፡ ንኡሳን') located 'upon' ('ላዕሌሆሙ') the three eastern gates.\", 'state': 'static'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"Smaller portals ('ኃዋኅው፡ ንኡሳን') located 'upon' ('ላዕሌሆሙ') the three eastern gates.\", 'state': 'static'}"
+        ],
+        "prompt_block": "small gates, {'description': \"Smaller portals ('ኃዋኅው፡ ንኡሳን') located 'upon' ('ላዕሌሆሙ') the three eastern gates.\", 'state': 'static'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_SMALL_GATES",
+    "name": "small gates",
+    "type": "set_environment",
+    "aliases": [
+      "small gates"
+    ],
+    "roles": [
+      "portal"
+    ],
+    "visual_traits": [
+      "{'description': \"Smaller portals ('ኃዋኅው፡ ንኡሳን') located 'upon' ('ላዕሌሆሙ') the three eastern gates.\", 'state': 'static'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1129"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 36,
+        "chapter_end": 36,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

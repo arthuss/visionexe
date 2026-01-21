@@ -2,9 +2,8 @@
 **State ID:** default
 **Chapters:** 14 - 102
 
-**Phase Summary:** Earth in its default state, a living ground with ancient‑tech integration.
-**Phase Keywords:** ancient Ethiopian, Egyptian, crystalline lattice, bio‑luminescent, industrial mysticism, photorealistic, ground
+**Phase Keywords:** A surface that burns with deep, scorching heat., The whole earth, which is capable of quaking, The world below the sky, consisting of land and water, which is subject to the effects of the winds., ground, ground, terrestrial, natural ground, solid, solid ground, unknown, {'description': "The earth or dry land, referred to as 'ምድር' and 'የብስ'."}, {'description': "The terrestrial setting where the events unfold, inhabited by cattle and the 'Children of the Earth'."}, {'description': 'The earth (ለምድር) which Noah is prophesied to comfort from destruction (ሐጕል).'}
 **Phase Prompt:**
-High‑resolution 8k cinematic shot of Earth's ground: basaltic plains interlaced with luminous crystalline lattices, rune‑etched stone, bio‑luminescent moss, obsidian obelisks with translucent conduits, orbital spirograph trails, industrial mysticism aesthetic, tactile textures, no cartoon style
+Earth, A surface that burns with deep, scorching heat., The whole earth, which is capable of quaking, The world below the sky, consisting of land and water, which is subject to the effects of the winds., ground, ground, terrestrial, natural ground, solid, solid ground, unknown, {'description': "The earth or dry land, referred to as 'ምድር' and 'የብስ'."}, {'description': "The terrestrial setting where the events unfold, inhabited by cattle and the 'Children of the Earth'."}, {'description': 'The earth (ለምድር) which Noah is prophesied to comfort from destruction (ሐጕል).'}, {'description': 'The terrestrial realm upon which the celestial luminaries are seen and their effects (e.g., heat) are felt.', 'type': 'terrestrial realm'}, {'description': 'The terrestrial realm, which is flooded.'}, {'description': 'The terrestrial world (ምድር) upon which winds, dew, and clouds are distributed.'}, {'description': 'The world inhabited by people.'}, {'description': 'The world, whose breadth and length are questioned as being beyond human measurement.'}
 
 ---

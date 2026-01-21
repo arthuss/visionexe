@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_POSITION",
+  "name": "Position",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Position.",
+    "visual_anatomy": [
+      "Traits: a specific, observable point in a celestial cycle",
+      "Roles: celestial_marker"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "a specific, observable point in a celestial cycle"
+    ],
+    "prompt_block": "Position, a specific, observable point in a celestial cycle",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "a specific, observable point in a celestial cycle"
+        ],
+        "prompt_block": "Position, a specific, observable point in a celestial cycle"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_POSITION",
+    "name": "Position",
+    "type": "set_environment",
+    "aliases": [
+      "Position"
+    ],
+    "roles": [
+      "celestial_marker"
+    ],
+    "visual_traits": [
+      "a specific, observable point in a celestial cycle"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1172"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 79,
+        "chapter_end": 79,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -2,9 +2,7 @@
 **State ID:** default
 **Chapters:** 9 - 9
 
-**Phase Summary:** Moon fracturing into a Death‑Star with glitch line.
-**Phase Keywords:** glitch, moon, death-star, ancient, metallic, crystalline, glyphs, bio-luminescent, chromatic aberration, red NO SIGNAL, simulation
 **Phase Prompt:**
-Vertical 9:16 POV shot of a night sky where the moon is breaking into a dark, metallic Death‑Star‑like sphere. Half of the celestial body is a realistic grey cratered rock, the other half glitching into a dark, industrial sphere adorned with ancient Ethiopian/Egyptian glyphs, crystalline hardware, and bio‑luminescent veins. Digital artifacts, chromatic aberration, and a red ‘NO SIGNAL’ texture overlay the transition line, creating a surreal simulation glitch effect. The scene is rendered photorealistically with tactile textures and grounded realism.
+death, antagonist
 
 ---

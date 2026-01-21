@@ -1,0 +1,67 @@
+{
+  "id": "PROP_CHANNELS",
+  "name": "channels",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for channels.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Water channels that appear and flow towards the north and west.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Water channels that appear and flow towards the north and west.'}"
+    ],
+    "prompt_block": "channels, {'description': 'Water channels that appear and flow towards the north and west.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Water channels that appear and flow towards the north and west.'}"
+        ],
+        "prompt_block": "channels, {'description': 'Water channels that appear and flow towards the north and west.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_CHANNELS",
+    "name": "channels",
+    "type": "prop",
+    "aliases": [
+      "channels"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'Water channels that appear and flow towards the north and west.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1121"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 28,
+        "chapter_end": 28,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_ROCK",
+  "name": "rock",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for rock.",
+    "visual_anatomy": [
+      "Traits: Rocky ground that is too hot to walk on.",
+      "Roles: location"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Rocky ground that is too hot to walk on."
+    ],
+    "prompt_block": "rock, Rocky ground that is too hot to walk on.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Rocky ground that is too hot to walk on."
+        ],
+        "prompt_block": "rock, Rocky ground that is too hot to walk on."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_ROCK",
+    "name": "rock",
+    "type": "set_environment",
+    "aliases": [
+      "rock"
+    ],
+    "roles": [
+      "location"
+    ],
+    "visual_traits": [
+      "Rocky ground that is too hot to walk on."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1095"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 4,
+        "chapter_end": 4,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

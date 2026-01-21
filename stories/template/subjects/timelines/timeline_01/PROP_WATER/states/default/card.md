@@ -1,0 +1,9 @@
+## [STATE] water :: Default
+**State ID:** default
+**Chapters:** 2 - 98
+
+**Phase Keywords:** Drink (ማይ) consumed by sinners., Ordinary water (ማየ) consumed by a group of sinners., Used in a simile to describe how the mountains will flow downwards., Used in a simile to describe how wisdom is 'poured out'., fills the whole earth, flows out from the first mountain, liquid, unknown, {'description': "Water ('ማይ') used as a simile for the abundance in the sinners' storehouses and the flow of their falsehoods."}, {'description': 'A substance that fills the earth.'}, {'description': 'Water that gushes, flows in channels, and ascends.'}
+**Phase Prompt:**
+water, Drink (ማይ) consumed by sinners., Ordinary water (ማየ) consumed by a group of sinners., Used in a simile to describe how the mountains will flow downwards., Used in a simile to describe how wisdom is 'poured out'., fills the whole earth, flows out from the first mountain, liquid, unknown, {'description': "Water ('ማይ') used as a simile for the abundance in the sinners' storehouses and the flow of their falsehoods."}, {'description': 'A substance that fills the earth.'}, {'description': 'Water that gushes, flows in channels, and ascends.'}
+
+---

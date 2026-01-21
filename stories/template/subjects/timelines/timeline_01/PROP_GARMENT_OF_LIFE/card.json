@@ -1,0 +1,119 @@
+{
+  "id": "PROP_GARMENT_OF_LIFE",
+  "name": "Garment of Life",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Garment of Life.",
+    "visual_anatomy": [
+      "Traits: A garment that does not wear out., A source of imperishable glory.",
+      "Roles: actor_prop:The Righteous and the Elect"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A garment that does not wear out.",
+      "A source of imperishable glory."
+    ],
+    "prompt_block": "Garment of Life, A garment that does not wear out., A source of imperishable glory.",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "A garment that does not wear out.",
+          "A source of imperishable glory."
+        ],
+        "prompt_block": "Garment of Life, A garment that does not wear out., A source of imperishable glory., Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "A garment that does not wear out.",
+          "A source of imperishable glory."
+        ],
+        "prompt_block": "Garment of Life, A garment that does not wear out., A source of imperishable glory., Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "A garment that does not wear out.",
+          "A source of imperishable glory."
+        ],
+        "prompt_block": "Garment of Life, A garment that does not wear out., A source of imperishable glory., Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_GARMENT_OF_LIFE",
+    "name": "Garment of Life",
+    "type": "prop",
+    "aliases": [
+      "Garment of Life"
+    ],
+    "roles": [
+      "actor_prop:The Righteous and the Elect"
+    ],
+    "visual_traits": [
+      "A garment that does not wear out.",
+      "A source of imperishable glory."
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Bestowed Clothing', 'description': 'Given to and worn by the risen righteous and elect.'}",
+      "{'phase': 'Phase 2: Personified Garment', 'description': 'Is revealed to be the Son of Man himself.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1155"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 62,
+        "chapter_end": 61,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 62,
+        "chapter_end": 61,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Bestowed Clothing', 'description': 'Given to and worn by the risen righteous and elect.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 62,
+        "chapter_end": 62,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Personified Garment', 'description': 'Is revealed to be the Son of Man himself.'}"
+        ]
+      }
+    ]
+  }
+}

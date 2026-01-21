@@ -1,0 +1,87 @@
+{
+  "id": "SETENV_THE_SEVEN_MOUNTAINS",
+  "name": "The Seven Mountains",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for The Seven Mountains.",
+    "visual_anatomy": [
+      "Traits: all seven resemble the seat of a throne in their height, composed of precious and beautiful stones, each one is different from the other, glorious, three are towards the east, stacked one upon another, three are towards the north, stacked one upon another, {'description': 'A range of seven mountains full of fragrant plants.'}",
+      "Roles: landmark_group, topographical_feature"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "all seven resemble the seat of a throne in their height",
+      "composed of precious and beautiful stones",
+      "each one is different from the other",
+      "glorious",
+      "three are towards the east, stacked one upon another",
+      "three are towards the north, stacked one upon another",
+      "{'description': 'A range of seven mountains full of fragrant plants.'}"
+    ],
+    "prompt_block": "The Seven Mountains, all seven resemble the seat of a throne in their height, composed of precious and beautiful stones, each one is different from the other, glorious, three are towards the east, stacked one upon another, three are towards the north, stacked one upon another, {'description': 'A range of seven mountains full of fragrant plants.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "all seven resemble the seat of a throne in their height",
+          "composed of precious and beautiful stones",
+          "each one is different from the other",
+          "glorious",
+          "three are towards the east, stacked one upon another",
+          "three are towards the north, stacked one upon another",
+          "{'description': 'A range of seven mountains full of fragrant plants.'}"
+        ],
+        "prompt_block": "The Seven Mountains, all seven resemble the seat of a throne in their height, composed of precious and beautiful stones, each one is different from the other, glorious, three are towards the east, stacked one upon another, three are towards the north, stacked one upon another, {'description': 'A range of seven mountains full of fragrant plants.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_SEVEN_MOUNTAINS",
+    "name": "The Seven Mountains",
+    "type": "set_environment",
+    "aliases": [
+      "The Seven Mountains"
+    ],
+    "roles": [
+      "landmark_group",
+      "topographical_feature"
+    ],
+    "visual_traits": [
+      "all seven resemble the seat of a throne in their height",
+      "composed of precious and beautiful stones",
+      "each one is different from the other",
+      "glorious",
+      "three are towards the east, stacked one upon another",
+      "three are towards the north, stacked one upon another",
+      "{'description': 'A range of seven mountains full of fragrant plants.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1117",
+      "row_1125"
+    ],
+    "occurrence_count": 8,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 24,
+        "chapter_end": 32,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

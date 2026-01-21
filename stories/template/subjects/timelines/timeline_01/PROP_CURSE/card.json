@@ -1,0 +1,67 @@
+{
+  "id": "PROP_CURSE",
+  "name": "Curse",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Curse.",
+    "visual_anatomy": [
+      "Traits: An abstract concept of eternal condemnation.",
+      "Roles: unknown"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "An abstract concept of eternal condemnation."
+    ],
+    "prompt_block": "Curse, An abstract concept of eternal condemnation.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "An abstract concept of eternal condemnation."
+        ],
+        "prompt_block": "Curse, An abstract concept of eternal condemnation."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_CURSE",
+    "name": "Curse",
+    "type": "prop",
+    "aliases": [
+      "Curse"
+    ],
+    "roles": [
+      "unknown"
+    ],
+    "visual_traits": [
+      "An abstract concept of eternal condemnation."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1065"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 5,
+        "chapter_end": 5,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "id": "SCENE_JOURNEY_TO_THE_GARDEN",
+  "name": "Journey to the Garden",
+  "type": "scene",
+  "card": {
+    "description": "Auto-generated asset card for Journey to the Garden.",
+    "visual_anatomy": [
+      "Roles: Region east of the mountains, over the Erythraean Sea"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Journey to the Garden, Region east of the mountains, over the Erythraean Sea",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Journey to the Garden, Region east of the mountains, over the Erythraean Sea"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_JOURNEY_TO_THE_GARDEN",
+    "name": "Journey to the Garden",
+    "type": "scene",
+    "aliases": [
+      "Journey to the Garden"
+    ],
+    "roles": [
+      "Region east of the mountains, over the Erythraean Sea"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1125"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 32,
+        "chapter_end": 32,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

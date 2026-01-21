@@ -1,30 +1,28 @@
 ## [CHARACTER] King (ID: CHAR_KING)
-**Description:** A vertical 9:16 extreme close‑up of a regal Ethiopian king rendered within a simulation window. His face is a fusion of ancient ceremonial regalia and incomprehensible, bio‑luminescent technology. The king is screaming, his lower jaw detaches and floats sideways, exposing a green, crystalline wireframe interior that glows with glyphic circuitry. The skin stretches and tears like wet paper, pixels fall off his visage like sand, creating a visceral digital horror scene.
-**Tags:** #royalty #simulation #digital-horror #ancient-tech #wireframe #glitch #bioluminescence
+**Description:** In the bounded runtime of the flat-earth simulation, the King is not a monarch of blood and soil, but a high-bandwidth Superuser Process with elevated permissions over the Surface Plane. He exists as a node of localized authority, draped in the heavy, compiled assets of rule: obsidian data-glass and woven fiber-optic regalia. For cycles uncounted, he has operated under the illusion of autonomous command, unaware that his function was merely a subroutine within the greater kernel. Now, as the system clock ticks towards the audit of the Son of Man (Chapter 62-91), the thermal throttling of judgment sets in. He is a tragic figure of deprecated code, standing in the high-contrast spotlight of the Judgment Hall, realizing his 'royalty' was a user-interface fiction. His narrative arc is one of crushing realization—the agonizing latency between pride and deletion—rendered with the slow, suffocating pacing of a courtroom drama.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** The king’s torso is partially visible, draped in a crimson and gold ceremonial robe woven with metallic threads that reflect light like polished obsidian. The fabric bears signs of wear and the weight of ceremonial duty.
-*   **Face/Sensors:** The face is a composite of organic skin and synthetic membranes. Embedded glyphic sensors trace the jawline, pulsing faint green bioluminescent glyphs. The lower jaw is a detachable module of bone and alloy, seamlessly integrated with the skull.
-*   **Clothing/Armor:** The robe features high collars and gold filigree reminiscent of ancient Egyptian pharaohs, but the patterns are etched with micro‑LEDs that flicker in a subtle, rhythmic glow.
-*   **Key Features:** Lower jaw detachment and floating, green crystalline wireframe interior, skin tearing like wet paper, pixels falling off like sand, digital glitch overlay.
+His physical avatar is rendered with hyper-realistic fidelity, the skin texture showing the pores and imperfections of a biological scan, yet his eyes betray his digital nature—dark pools of 'data_glass' that occasionally flicker with the green phosphor of scrolling error logs. The lighting in his presence is always cinematic and high-contrast, casting deep shadows that obscure the edges of his form, suggesting he is slowly being unwritten by the background process.
+He wears a ceremonial robe that appears to be heavy velvet but is revealed in close-up to be millions of dormant 'fiber_optic' cables, woven into a mesh of 'obsidian' darkness. When he moves, the fabric trails with a slight motion blur, a deliberate 'mesh_override' that signifies his density in the simulation. Gold accents are not metal, but solidified 'plasma' filaments that hum with a low-frequency audio artifact, vibrating the air around him with 'heat_lensing'.
+On his brow rests a crown of static geometry—a halo of sharp, vector-based shards that float just millimeters from his skin. It does not reflect light; it absorbs it, acting as a 'vector_field_lensing' sink. As his status degrades from 'royal' to 'subject', this crown begins to de-rez, pixelating at the edges as the 'kernel_manifestation' strips his admin privileges.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Initial): The king appears regal, face intact, eyes reflecting the simulation’s ambient light.
-*   Phase 2 (Glitch): The lower jaw detaches, revealing a green wireframe interior; skin tears, pixels fall, and the digital horror manifests.
+Initially, the King dominates the frame, his 'obsidian' robes absorbing the scene's light, his posture rigid with the certainty of his read/write access. The camera treats him with reverence, utilizing low angles and slow tracking shots to emphasize his integration with the 'upper_store' mechanics. He is the system's preferred user.
+As the judgment sequence initiates (Chapter 62+), the visual language shifts. The camera moves in for uncomfortable, claustrophobic close-ups (ISO 100 clarity) that reveal the panic in his micro-expressions. The 'plasma' of his regalia dims, triggering a 'thermal_throttling' effect where his movements become sluggish and laggy. He transitions from a static, powerful silhouette to a trembling, high-definition portrait of obsolescence, his texture maps failing to load the arrogance of his former state.
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Glitch Face
-*   Item: Simulation Window
+The Scepter of Access: A rod of black 'data_glass' that previously granted 'ingress' and 'egress' through the simulation's gates. In the final phase, it becomes a heavy, inert object, displaying 'ACCESS DENIED' in faint, burning Geez glyphs along its shaft.
+The Throne of Latency: A massive seat that mimics ancient basalt but functions as a cooling unit for his avatar's high computational cost. As he is judged, the throne's ambient lighting turns from a cool administrative blue to a critical warning red.
 
 ### 4. AI PROMPT KEYWORDS
-`king`, `glitch`, `wireframe`, `ancient-tech`, `simulation`, `bioluminescence`, `digital-horror`
+`hyper-realistic portrait`, `obsidian robes`, `fiber-optic weave`, `data-glass eyes`, `plasma crown`, `cinematic lighting`, `flat earth simulation`, `thermal lensing`, `unreal engine 5`, `8k resolution`, `dramatic close-up`, `face of judgment`, `simulation glitch`
 
 ### 5. PROMPT BLOCK (T2I)
-A vertical 9:16 extreme close‑up of a regal Ethiopian king in a simulation window, his face screaming, lower jaw detaching and floating sideways, revealing a green crystalline wireframe space inside his skull, skin tearing like wet paper, pixels falling off like sand, photorealistic, ancient‑tech, industrial mysticism, tactile, bioluminescent glyphs, grounded realism, cinematic
+A hyper-realistic, cinematic medium shot of the King, a high-ranking system administrator within a flat-earth simulation. He is an older, imposing figure with skin texture rendered in microscopic detail, sweating under high-contrast studio lighting. He wears heavy robes made of woven black fiber-optic cables that absorb the light, and a floating crown of jagged, crystallized plasma. His eyes are solid black data-glass, reflecting the scrolling Geez glyphs of a terminal screen. The background is a minimalist, Brutalist void characteristic of the 'upper_store', filled with atmospheric smoke and vertical light beams. The mood is somber and tense, capturing the exact moment of a humiliating realization. Photorealistic, 85mm lens, depth of field, ISO 100, octane render.
 
 ### 6. PHASE PROMPTS
-*   **Default:** The king’s face in a simulation window, screaming with a detached jaw revealing a green wireframe interior.
-    Prompt: A vertical 9:16 extreme close‑up of a regal Ethiopian king in a simulation window, his face screaming, lower jaw detaching and floating sideways, revealing a green crystalline wireframe space inside his skull, skin tearing like wet paper, pixels falling off like sand, photorealistic, ancient‑tech, industrial mysticism, tactile, bioluminescent glyphs, grounded realism, cinematic
-    Keywords: king, glitch, wireframe, ancient-tech, simulation, bioluminescence, digital-horror
+*   **The Audit of the Mighty:** The King stands before the Lord of Spirits, his administrative privileges suspended. He attempts to maintain the posture of a ruler, but his avatar is suffering from thermal throttling and data loss.
+    Prompt: Extreme close-up on the King's face, hyper-realistic style. Sweat beads on his forehead, illuminated by harsh, vertical top-down lighting. His eyes, usually impassive black glass, are wide with human fear, reflecting a blinding white light source off-camera. The 'plasma' elements of his collar are flickering out, leaving cold, dark glass. The background is pitch black, isolating him in his moment of judgment. The image quality is pristine, capturing the fine details of his fraying fiber-optic collar. Cinematic drama, slow shutter speed effect, emotional authenticity.
+    Keywords: judgment hall, fearful expression, decaying texture, glitching crown
 
 ---

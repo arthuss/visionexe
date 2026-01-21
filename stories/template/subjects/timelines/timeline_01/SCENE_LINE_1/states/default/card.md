@@ -2,9 +2,7 @@
 **State ID:** default
 **Chapters:** 1 - 108
 
-**Phase Summary:** Monolithic sky‑house with basalt core, obsidian spire, glyph‑etched walls, quartz canopy, bio‑luminescent conduits, crystal sensor array, magnetic field generators, and auroral sky.
-**Phase Keywords:** skyhouse, ancient-tech, bioluminescent, glyphs, crystalline canopy
 **Phase Prompt:**
-A towering sky‑house rising from a rugged plateau, monolithic basalt and obsidian structure 200 meters tall, its walls etched with luminous glyphs that pulse in sync with the planet's magnetic field. The roof is a vast translucent canopy of woven quartz that refracts sunlight into a living spectrum, while a crystal lattice sensor array at the apex projects the glyphs onto the walls. Weathered stone panels with embedded copper filaments and titanium alloy lattice reinforce the exterior. Bio‑luminescent conduits snake along the façade, glowing softly in deep blues and greens. The sky above is a living tapestry of shifting auroras, each feathered plume a conduit for the building's bio‑luminescent power grid. Rendered in photorealistic, tactile detail, grounded realism, fusing ancient Ethiopian/Egyptian aesthetics with incomprehensible advanced technology.
+Line 1, Sky, house, unknown, መዋዕል, ቤት, ወቀዳሚ, ወውእቱ, ዓለም
 
 ---

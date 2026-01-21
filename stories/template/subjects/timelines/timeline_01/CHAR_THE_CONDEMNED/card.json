@@ -1,0 +1,79 @@
+{
+  "id": "CHAR_THE_CONDEMNED",
+  "name": "The condemned",
+  "type": "character",
+  "card": {
+    "description": "Within the bounded runtime of the simulation, The Condemned represent a class of entities flagged for permanent deletion, existing in a state of resource throttling and ontological decay. They are the anomalies and corrupted instances identified by the kernel during the pre-reset scans of Chapter 65, stripped of their write-access permissions and confined to the lower logic layers of the flat-earth construct. No longer fully integrated into the system's global illumination or physics engine, they appear as tragic, desaturated figures, wandering the buffer zones like ghosts in a machine that has already ceased to calculate their future. Their existence is a harrowing display of digital entropy; they are conscious variables awaiting the inevitable purge of the Great Reset, embodying a profound, silent despair that aligns with the drama genre's focus on inescapable trauma and existential isolation.",
+    "visual_anatomy": [
+      "The physical manifestation of The Condemned is characterized by a deliberate withdrawal of rendering resources. While their topology remains hyper-realistic, mimicking the intricate skin pores and subsurface scattering of valid subjects, their textures suffer from a procedural graying, as if the color saturation is being leached away by the system to conserve memory. This 'throttling' effect manifests visually as a slight temporal lag in their movement, a ghosting artifact where their silhouette trails behind them in moments of emotional distress. Their eyes, once vibrant, are now opaque, filled with a static-like noise or the dull sheen of unpolished obsidian, signifying their disconnection from the central light source of the upper store.",
+      "They are clad in the remnants of their previous roles—tattered weaves of simulation fabric that now glitch and artifact, dissolving into coarse voxels at the frayed edges. Instead of traditional shackles, they are bound by local vector field distortions—heavy, invisible crushing weights that force them into postures of submission and fatigue. Occasionally, faint, glowing Geez glyphs manifest on their skin like branding irons, marking their specific violation codes (corruption, unauthorized egress, kernel panic). These sigils burn with a cold, low-energy plasma, providing the only stark contrast to their otherwise dim and cold aesthetic.",
+      "The environment reacts to their presence with subtle hostility; light bends away from them (heat lensing), and the ground beneath their feet often renders at a lower resolution, symbolizing their lack of grounding in the reality of the simulation. In close-up, the camera captures the micro-expressions of terror and resignation with uncomfortable clarity, adhering to the cinematic rules of high-contrast drama, emphasizing the human cost of a cold, unfeeling administrative judgment."
+    ],
+    "evolution": [
+      "In their default state, The Condemned are static in their degradation. They do not evolve toward redemption but rather dissolve further into background noise. As the 'Reset' approaches (the flood metaphor), their physical integrity flickers more violently, their meshes tearing to reveal the wireframe underpinnings of the simulation, a visual metaphor for the stripping away of the soul before deletion."
+    ],
+    "props": [
+      "The Condemned possess no functional inventory; their ownership pointers have been nullified. However, they are often seen clutching 'corrupted data shards'—jagged fragments of data glass that reflect memories of the pre-judgment world, which they guard with obsessive, tragic reverence."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic portrait",
+      "desaturated cinema",
+      "glitch aesthetic",
+      "obsidian eyes",
+      "weeping plasma",
+      "data artifacting",
+      "suffering",
+      "monochromatic mood",
+      "volumetric fog",
+      "Geez branding"
+    ],
+    "prompt_block": "Cinematic vertical 9:16 shot, hyper-realistic close-up of a Condemned entity within a simulation void. The subject is a human figure with desaturated, greyscale skin tone, showing high-detail pores and wrinkles indicative of deep trauma. The eyes are entirely black obsidian, reflecting no light. Faint, cold-blue plasma burns in the shape of ancient Geez glyphs mar the neck and forehead. The clothing is a tattered, procedural mesh that is dissolving into digital dust at the edges. The lighting is harsh, top-down 'interrogation' style, casting deep shadows that obscure the eyes, emphasizing the mouth's expression of silent scream. Subtle chromatic aberration and heat lensing effects distort the air around them. Background is a dark, abstract data-void. Octane render, ISO 100, 85mm lens.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Judged State",
+        "summary": "The entity stands in the shadow of judgment, physically intact but digitally marked for termination. The weight of the system's rejection is visible in their posture and the dullness of their materials.",
+        "prompt_keywords": [
+          "judgment",
+          "weight",
+          "grayscale",
+          "obsidian",
+          "shackled"
+        ],
+        "prompt_block": "Full body shot, low angle, hyper-realistic. A lone figure stands on a reflective black surface that ripples like liquid data. The figure is stooped, burdened by invisible heavy gravity. Skin is pale and grey, covered in microscopic digital noise. They wear rags of a once-fine garment, now glitching. The atmosphere is cold, filled with floating dust motes that look like dead pixels. Lighting is moody, high-contrast, focusing on the texture of the skin and the despair in the body language. 8k resolution, cinematic composition."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_CONDEMNED",
+    "name": "The condemned",
+    "type": "character",
+    "aliases": [
+      "The condemned"
+    ],
+    "roles": [
+      "Those who have been judged and for whom there is no return."
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1159"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 65,
+        "chapter_end": 65,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

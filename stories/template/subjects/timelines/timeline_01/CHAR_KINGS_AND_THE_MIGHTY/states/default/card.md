@@ -1,0 +1,10 @@
+## [STATE] kings and the mighty :: Default
+**State ID:** default
+**Chapters:** 53 - 53
+
+**Phase Summary:** The mighty rulers are shown in the deep valley, physically weighed down by the iron chains of the judgment protocol. They are static, heavy, and defeated.
+**Phase Keywords:** heavy chains, deep valley, oppressive atmosphere, weighed down
+**Phase Prompt:**
+A hyper-realistic, low-angle medium shot of a group of powerful men in futuristic executive armor, struggling under the weight of massive, matte-black chains. The chains appear to be made of condensed gravity, distorting the background. The men are in a deep, dark canyon with walls made of layered server-rock. The lighting is dim and blue-tinted, emphasizing the texture of the cold stone and the sweat on their skin. Their expressions are of silent, crushing despair. The camera is static, observing their struggle with clinical detachment. 8k, photorealistic, cinematic drama style.
+
+---

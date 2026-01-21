@@ -1,0 +1,79 @@
+{
+  "id": "CHAR_ANGELS_OF_HEAVEN",
+  "name": "Angels of Heaven",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Angels of Heaven.",
+    "visual_anatomy": [
+      "Traits: Celestial beings who reside in heaven and are making an accusation concerning humanity., Their likeness is compared to the newborn Noah., {'description': \"Celestial beings ('መላእŒት፡ስማይ') who rejoice over the fate of the righteous.\"}",
+      "Roles: antagonist, celestial_beings, group"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Celestial beings who reside in heaven and are making an accusation concerning humanity.",
+      "Their likeness is compared to the newborn Noah.",
+      "{'description': \"Celestial beings ('መላእŒት፡ስማይ') who rejoice over the fate of the righteous.\"}"
+    ],
+    "prompt_block": "Angels of Heaven, Celestial beings who reside in heaven and are making an accusation concerning humanity., Their likeness is compared to the newborn Noah., {'description': \"Celestial beings ('መላእŒት፡ስማይ') who rejoice over the fate of the righteous.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Celestial beings who reside in heaven and are making an accusation concerning humanity.",
+          "Their likeness is compared to the newborn Noah.",
+          "{'description': \"Celestial beings ('መላእŒት፡ስማይ') who rejoice over the fate of the righteous.\"}"
+        ],
+        "prompt_block": "Angels of Heaven, Celestial beings who reside in heaven and are making an accusation concerning humanity., Their likeness is compared to the newborn Noah., {'description': \"Celestial beings ('መላእŒት፡ስማይ') who rejoice over the fate of the righteous.\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ANGELS_OF_HEAVEN",
+    "name": "Angels of Heaven",
+    "type": "character",
+    "aliases": [
+      "Angels of Heaven",
+      "Angels of heaven",
+      "angels of heaven"
+    ],
+    "roles": [
+      "antagonist",
+      "celestial_beings",
+      "group"
+    ],
+    "visual_traits": [
+      "Celestial beings who reside in heaven and are making an accusation concerning humanity.",
+      "Their likeness is compared to the newborn Noah.",
+      "{'description': \"Celestial beings ('መላእŒት፡ስማይ') who rejoice over the fate of the righteous.\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1177",
+      "row_1190",
+      "row_1199"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 84,
+        "chapter_end": 106,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

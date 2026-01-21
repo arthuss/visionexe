@@ -1,0 +1,114 @@
+{
+  "id": "CHAR_THE_KINGS_AND_THE_MIGHTY",
+  "name": "the kings and the mighty",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for the kings and the mighty.",
+    "visual_anatomy": [
+      "Traits: {'description': \"Powerful rulers, likely the same as 'those who possess the earth'.\"}",
+      "Roles: antagonist_group"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"Powerful rulers, likely the same as 'those who possess the earth'.\"}"
+    ],
+    "prompt_block": "the kings and the mighty, {'description': \"Powerful rulers, likely the same as 'those who possess the earth'.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"Powerful rulers, likely the same as 'those who possess the earth'.\"}"
+        ],
+        "prompt_block": "the kings and the mighty, {'description': \"Powerful rulers, likely the same as 'those who possess the earth'.\"}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"Powerful rulers, likely the same as 'those who possess the earth'.\"}"
+        ],
+        "prompt_block": "the kings and the mighty, {'description': \"Powerful rulers, likely the same as 'those who possess the earth'.\"}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"Powerful rulers, likely the same as 'those who possess the earth'.\"}"
+        ],
+        "prompt_block": "the kings and the mighty, {'description': \"Powerful rulers, likely the same as 'those who possess the earth'.\"}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_KINGS_AND_THE_MIGHTY",
+    "name": "the kings and the mighty",
+    "type": "character",
+    "aliases": [
+      "the kings and the mighty"
+    ],
+    "roles": [
+      "antagonist_group"
+    ],
+    "visual_traits": [
+      "{'description': \"Powerful rulers, likely the same as 'those who possess the earth'.\"}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: pre-judgment', 'description': 'Mighty and in power.'}",
+      "{'phase': 'Phase 2: post-judgment', 'description': 'Perished and given into the hands of the righteous and holy.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1131"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 38,
+        "chapter_end": 37,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 38,
+        "chapter_end": 37,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: pre-judgment', 'description': 'Mighty and in power.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 38,
+        "chapter_end": 38,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: post-judgment', 'description': 'Perished and given into the hands of the righteous and holy.'}"
+        ]
+      }
+    ]
+  }
+}

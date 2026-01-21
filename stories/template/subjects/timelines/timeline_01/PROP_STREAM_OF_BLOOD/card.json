@@ -1,0 +1,111 @@
+{
+  "id": "PROP_STREAM_OF_BLOOD",
+  "name": "Stream of blood",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Stream of blood.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A flowing stream formed from the blood of those slain.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A flowing stream formed from the blood of those slain.'}"
+    ],
+    "prompt_block": "Stream of blood, {'description': 'A flowing stream formed from the blood of those slain.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A flowing stream formed from the blood of those slain.'}"
+        ],
+        "prompt_block": "Stream of blood, {'description': 'A flowing stream formed from the blood of those slain.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A flowing stream formed from the blood of those slain.'}"
+        ],
+        "prompt_block": "Stream of blood, {'description': 'A flowing stream formed from the blood of those slain.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A flowing stream formed from the blood of those slain.'}"
+        ],
+        "prompt_block": "Stream of blood, {'description': 'A flowing stream formed from the blood of those slain.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_STREAM_OF_BLOOD",
+    "name": "Stream of blood",
+    "type": "prop",
+    "aliases": [
+      "Stream of blood"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'A flowing stream formed from the blood of those slain.'}"
+    ],
+    "changes": [
+      "{'is_dynamic': True, 'description': 'Forms and flows as a result of the slaughter.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1193"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 100,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 100,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 100,
+        "chapter_end": 100,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'is_dynamic': True, 'description': 'Forms and flows as a result of the slaughter.'}"
+        ]
+      }
+    ]
+  }
+}

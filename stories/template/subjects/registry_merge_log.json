@@ -1,0 +1,337 @@
+{
+  "merges": [
+    {
+      "canonical_id": "CHAR_GOD",
+      "merge_ids": [
+        "CHAR_THE_LORD",
+        "CHAR_THE_MOST_HIGH",
+        "CHAR_LORD_OF_SPIRITS",
+        "CHAR_THE_HOLY_AND_GREAT_ONE",
+        "CHAR_THE_GREAT_ONE",
+        "CHAR_THE_HOLY_ONE",
+        "CHAR_THE_CREATOR"
+      ],
+      "reason": "Consolidating divine titles referring to the same entity."
+    },
+    {
+      "canonical_id": "CHAR_SON_OF_MAN",
+      "merge_ids": [
+        "CHAR_THE_ELECT_ONE",
+        "CHAR_THE_CHOSEN_ONE"
+      ],
+      "reason": "Messianic titles for the same figure in the Similitudes."
+    },
+    {
+      "canonical_id": "CHAR_EDNA",
+      "merge_ids": [
+        "CHAR_ENOCH_S_WIFE"
+      ],
+      "reason": "Edna is identified as Enoch's wife/Methuselah's mother in tradition and implied in text."
+    },
+    {
+      "canonical_id": "GEOENV_MOUNT_SINAI",
+      "merge_ids": [
+        "SETENV_MOUNT_SINAI",
+        "SETENV_THE_THEOPHANY_AT_SINAI",
+        "SETENV_THE_THEOPHANY_ON_SINAI"
+      ],
+      "reason": "Merging setting/event references into the geographical entity."
+    },
+    {
+      "canonical_id": "GEOENV_MOUNT_HERMON",
+      "merge_ids": [
+        "SETENV_MOUNT_HERMON",
+        "SETENV_ARMON",
+        "SETENV_ARDIS"
+      ],
+      "reason": "Merging setting/location variations (Ardis is the summit)."
+    },
+    {
+      "canonical_id": "GEOENV_SHEOL",
+      "merge_ids": [
+        "SETENV_SHEOL",
+        "SETENV_THE_BURNING_VALLEY",
+        "SETENV_DEEP_VALLEY",
+        "SETENV_FIERY_ABYSS",
+        "SETENV_FURNACE_OF_FIRE"
+      ],
+      "reason": "Merging related infernal locations and settings."
+    },
+    {
+      "canonical_id": "GEOENV_GARDEN_OF_RIGHTEOUSNESS",
+      "merge_ids": [
+        "SETENV_GARDEN_OF_RIGHTEOUSNESS",
+        "SETENV_PARADISE"
+      ],
+      "reason": "Merging Edenic locations."
+    },
+    {
+      "canonical_id": "GEOENV_RED_SEA",
+      "merge_ids": [
+        "SETENV_SEA_OF_ERITREA",
+        "SETENV_ERYTHRAEAN_SEA",
+        "SETENV_ERITREA"
+      ],
+      "reason": "Consolidating Red Sea references (Eritrea)."
+    }
+  ],
+  "renames": [
+    {
+      "old_id": "GEOENV_SINAI_PORT_V1",
+      "new_id": "GEOENV_MOUNT_SINAI",
+      "reason": "Standardizing creative ID to scriptural name."
+    },
+    {
+      "old_id": "GEOENV_HERMON_INGRESS_HUB",
+      "new_id": "GEOENV_MOUNT_HERMON",
+      "reason": "Standardizing creative ID to scriptural name."
+    },
+    {
+      "old_id": "GEOENV_GEHENNA_DATA_SINK",
+      "new_id": "GEOENV_SHEOL",
+      "reason": "Standardizing creative ID to scriptural name."
+    },
+    {
+      "old_id": "GEOENV_GOLD_MASTER_EDEN",
+      "new_id": "GEOENV_GARDEN_OF_RIGHTEOUSNESS",
+      "reason": "Standardizing creative ID to scriptural name."
+    },
+    {
+      "old_id": "GEOENV_ATMOSPHERIC_IO_GATES",
+      "new_id": "GEOENV_GATES_OF_HEAVEN",
+      "reason": "Standardizing creative ID to scriptural name."
+    },
+    {
+      "old_id": "GEOENV_ASTRONOMICAL_DESERT",
+      "new_id": "GEOENV_DESERT_OF_ASTRONOMY",
+      "reason": "Clarifying name to match context of Ch 33."
+    }
+  ],
+  "aliases": [
+    {
+      "canonical_id": "CHAR_GOD",
+      "aliases": [
+        "እግዚብሔር",
+        "Egziabher",
+        "Lord of Spirits",
+        "እግዚአ፡​መናፍስት",
+        "Most High",
+        "ልዑል"
+      ],
+      "reason": "Ge'ez and English titles"
+    },
+    {
+      "canonical_id": "CHAR_ENOCH",
+      "aliases": [
+        "ሄኖክ",
+        "Henok",
+        "Scribe of Righteousness",
+        "ጸሐፌ፡​ጽድቅ"
+      ],
+      "reason": "Ge'ez name and title"
+    },
+    {
+      "canonical_id": "CHAR_SON_OF_MAN",
+      "aliases": [
+        "ወልደ፡​ሰብእ",
+        "The Elect One",
+        "ኅሩይ"
+      ],
+      "reason": "Ge'ez titles"
+    },
+    {
+      "canonical_id": "CHAR_WATCHERS",
+      "aliases": [
+        "ትጉሃን",
+        "Egregoroi",
+        "Children of Heaven"
+      ],
+      "reason": "Ge'ez name"
+    },
+    {
+      "canonical_id": "GEOENV_MOUNT_SINAI",
+      "aliases": [
+        "ደብረ፡​ሲና",
+        "Sinai"
+      ],
+      "reason": "Ge'ez name"
+    },
+    {
+      "canonical_id": "GEOENV_MOUNT_HERMON",
+      "aliases": [
+        "ደብረ፡​አርሞን",
+        "Hermon"
+      ],
+      "reason": "Ge'ez name"
+    },
+    {
+      "canonical_id": "GEOENV_SHEOL",
+      "aliases": [
+        "ሲኦል",
+        "Gehenna",
+        "ደይን"
+      ],
+      "reason": "Ge'ez name"
+    }
+  ],
+  "invalid": [
+    {
+      "id": "SETENV_UNKNOWN",
+      "reason": "Placeholder"
+    },
+    {
+      "id": "SETENV_UNSPECIFIED",
+      "reason": "Placeholder"
+    },
+    {
+      "id": "SCENE_LINE_1",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_LINE_2",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_LINE_3",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_LINE_4",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_LINE_5",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_LINE_6",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_LINE_7",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_LINE_8",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_LINE_9",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_LINE_10",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_LINE_11",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_LINE_12",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_LINE_13",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_BEAT_1",
+      "reason": "Structural marker"
+    },
+    {
+      "id": "SCENE_BEAT_2",
+      "reason": "Structural marker"
+    },
+    {
+      "id": "SCENE_BEAT_3",
+      "reason": "Structural marker"
+    },
+    {
+      "id": "SCENE_BEAT_4",
+      "reason": "Structural marker"
+    },
+    {
+      "id": "SCENE_BEAT_5",
+      "reason": "Structural marker"
+    },
+    {
+      "id": "SCENE_BEAT_6",
+      "reason": "Structural marker"
+    },
+    {
+      "id": "SCENE_BEAT_7",
+      "reason": "Structural marker"
+    },
+    {
+      "id": "SCENE_BEAT_8",
+      "reason": "Structural marker"
+    },
+    {
+      "id": "SCENE_BEAT_9",
+      "reason": "Structural marker"
+    },
+    {
+      "id": "SCENE_BEAT_10",
+      "reason": "Structural marker"
+    },
+    {
+      "id": "SCENE_VERSE_1",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_VERSE_2",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_VERSE_3",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_VERSE_4",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_VERSE_5",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_VERSE_6",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_VERSE_7",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_VERSE_8",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_VERSE_9",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_VERSE_10",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_VERSE_11",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_VERSE_12",
+      "reason": "Parsing artifact"
+    },
+    {
+      "id": "SCENE_UNKNOWN",
+      "reason": "Placeholder"
+    }
+  ],
+  "notes": [
+    "Normalized creative/techno-theological GEOENV IDs (e.g., SINAI_PORT_V1) to standard scriptural names found in the text.",
+    "Consolidated Divine titles under CHAR_GOD and messianic titles under CHAR_SON_OF_MAN.",
+    "Merged setting placeholders into their respective geographical entities.",
+    "Marked parsing artifacts (LINE_X, VERSE_X, BEAT_X) as invalid to clean up the registry."
+  ]
+}

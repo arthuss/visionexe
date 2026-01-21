@@ -1,0 +1,67 @@
+{
+  "id": "PROP_GATES_OF_THE_EAST",
+  "name": "Gates of the East",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Gates of the East.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Gates with exits, previously seen by the narrator in the east. They serve as a point of comparison for the size of the western gates.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Gates with exits, previously seen by the narrator in the east. They serve as a point of comparison for the size of the western gates.'}"
+    ],
+    "prompt_block": "Gates of the East, {'description': 'Gates with exits, previously seen by the narrator in the east. They serve as a point of comparison for the size of the western gates.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Gates with exits, previously seen by the narrator in the east. They serve as a point of comparison for the size of the western gates.'}"
+        ],
+        "prompt_block": "Gates of the East, {'description': 'Gates with exits, previously seen by the narrator in the east. They serve as a point of comparison for the size of the western gates.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_GATES_OF_THE_EAST",
+    "name": "Gates of the East",
+    "type": "prop",
+    "aliases": [
+      "Gates of the East"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'Gates with exits, previously seen by the narrator in the east. They serve as a point of comparison for the size of the western gates.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1126"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 35,
+        "chapter_end": 35,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

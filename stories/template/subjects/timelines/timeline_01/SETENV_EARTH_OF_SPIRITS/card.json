@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_EARTH_OF_SPIRITS",
+  "name": "earth of spirits",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for earth of spirits.",
+    "visual_anatomy": [
+      "Traits: Filled with spirits.",
+      "Roles: A place mentioned in a hymn of praise"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Filled with spirits."
+    ],
+    "prompt_block": "earth of spirits, Filled with spirits.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Filled with spirits."
+        ],
+        "prompt_block": "earth of spirits, Filled with spirits."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_EARTH_OF_SPIRITS",
+    "name": "earth of spirits",
+    "type": "set_environment",
+    "aliases": [
+      "earth of spirits"
+    ],
+    "roles": [
+      "A place mentioned in a hymn of praise"
+    ],
+    "visual_traits": [
+      "Filled with spirits."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1132"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 39,
+        "chapter_end": 39,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

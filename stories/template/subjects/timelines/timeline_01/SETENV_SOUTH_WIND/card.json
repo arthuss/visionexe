@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_SOUTH_WIND",
+  "name": "south wind",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for south wind.",
+    "visual_anatomy": [
+      "Traits: {'description': \"The south wind ('አዜብ') that emerges from the southern gates.\", 'state': 'dynamic', 'details': \"It 'comes out' ('ይወፅእ') from the gates.\"}",
+      "Roles: weather_phenomenon"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"The south wind ('አዜብ') that emerges from the southern gates.\", 'state': 'dynamic', 'details': \"It 'comes out' ('ይወፅእ') from the gates.\"}"
+    ],
+    "prompt_block": "south wind, {'description': \"The south wind ('አዜብ') that emerges from the southern gates.\", 'state': 'dynamic', 'details': \"It 'comes out' ('ይወፅእ') from the gates.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"The south wind ('አዜብ') that emerges from the southern gates.\", 'state': 'dynamic', 'details': \"It 'comes out' ('ይወፅእ') from the gates.\"}"
+        ],
+        "prompt_block": "south wind, {'description': \"The south wind ('አዜብ') that emerges from the southern gates.\", 'state': 'dynamic', 'details': \"It 'comes out' ('ይወፅእ') from the gates.\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_SOUTH_WIND",
+    "name": "south wind",
+    "type": "set_environment",
+    "aliases": [
+      "south wind"
+    ],
+    "roles": [
+      "weather_phenomenon"
+    ],
+    "visual_traits": [
+      "{'description': \"The south wind ('አዜብ') that emerges from the southern gates.\", 'state': 'dynamic', 'details': \"It 'comes out' ('ይወፅእ') from the gates.\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1129"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 36,
+        "chapter_end": 36,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "CHAR_LATTER_ONES",
+  "name": "Latter ones",
+  "type": "character",
+  "card": {
+    "description": "Within the architecture of the simulation box, the 'Latter ones' represent the active session users currently instantiated on the Surface Plane. They are the inheritors of the legacy code, the target audience for the decrypted System Manual transmitted by the Admin-proxy, Enoch. These are not merely future descendants in a biological sense, but rather the terminal nodes of the current runtime cycle, burdened by the accumulated thermal throttling and logic errors of a decaying system. They exist in a state of quiet desperation, sensing the artificial boundaries of the sky dome without understanding the mechanics of the Gate Band. Addressed directly by the kernel logs, they are the weary voyagers seeking the egress protocols hidden within the encrypted parables, their existence defined by a longing for the source code.",
+    "visual_anatomy": [
+      "Their visual presentation leans heavily into the 'Drama' genre profile: hyper-realistic, raw, and intimate. We see them primarily through tight close-ups that emphasize the texture of human skin—pores, scars, and lines of exhaustion—contrasted against the cold, inorganic perfection of the simulation's materials. They are draped in attire that suggests a scavenged functionality, heavy fabrics interwoven with dormant fiber-optic threads that only flicker when data flows nearby. The aesthetic is one of high-fidelity decay; dust settles on obsidian data-glass, and the air around them is thick with the particulate matter of a tired rendering engine.",
+      "Lighting is crucial to their depiction, adhering to a high-contrast, cinematic drama style. There is no flat ambient light; instead, illumination comes from diegetic sources—the harsh, monochromatic glow of handheld terminals, the bioluminescent hum of plasma conduits, or the jagged, vector-field lensing of a compromised sky. This chiaroscuro effect isolates their faces in the darkness, turning every glance at the 'Books of Wisdom' into a spiritual encounter. The color palette is desaturated, dominated by deep blacks and slate greys, punctured only by the amber and cyan radiation of the Ge'ez glyphs manifesting in the air."
+    ],
+    "evolution": [
+      "In the default state of Chapter 37, they are captured in the precise moment of reception. They transition from passive background processes to active listeners. The narrative weight is on their realization that the ancient logs are not myths but technical documentation for their specific runtime instance. The camera lingers on micro-expressions—the widening of eyes as a vector field aligns, the trembling of a hand reaching for a holographic interface—grounding the high-concept simulation theory in profound, human emotion."
+    ],
+    "props": [
+      "The primary props associated with the Latter ones are the 'Wisdom Slates'—slabs of polished obsidian that function as storage devices for the Enochian parables. These are not futuristic touchscreens but heavy, stone-like artifacts that project data through internal refraction. When active, they emit a localized heat-lensing effect, distorting the air around the user's hands. Floating Ge'ez glyphs serve as the user interface, rotating slowly in the vertical space, requiring physical interaction to decrypt the layered meanings of the text."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic portrait",
+      "simulation theory refugees",
+      "obsidian data tablet",
+      "cinematic lighting",
+      "weary travelers",
+      "fiber optic clothing",
+      "floating geez glyphs",
+      "emotional close-up",
+      "high contrast chiaroscuro",
+      "octane render",
+      "pbr textures",
+      "volumetric dust",
+      "system manual interface"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic close-up of the 'Latter ones,' a group of weary survivors inside a dark simulation construct. They are huddled around a slab of black obsidian that glows with internal amber data streams. The lighting is dramatic and low-key, casting deep shadows across their faces, revealing pore-level detail, sweat, and exhaustion. The atmosphere is thick with volumetric fog and floating data particles. Their clothing is a mix of heavy, natural fabrics and frayed fiber-optic cabling. In the air, translucent Ge'ez glyphs float like augmented reality overlays, casting a soft, digital light on their skin. The scene is rendered with Octane precision, focusing on emotional authenticity and the contrast between human fragility and the rigid, digital geometry of the flat-earth containment field.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Reception of the Parables",
+        "summary": "The group receives the transmission from the kernel past. They stand in the shadows of the simulation, illuminated by the wisdom logs.",
+        "prompt_keywords": [
+          "reading data log",
+          "emotional realization",
+          "amber glow on face",
+          "obsidian slate",
+          "dark atmosphere"
+        ],
+        "prompt_block": "A photorealistic, vertical 9:16 shot of a 'Latter one' holding a heavy obsidian slate. The subject's face is illuminated from below by the amber light of scrolling Ge'ez text embedded deep within the stone. The background is a dark, undefined void characteristic of the simulation's edge, hinted at by faint grid lines in the bokeh. The expression is one of solemn realization and deep focus. The texture of the obsidian is perfect, reflecting the user's eye. The image quality is cinematic, ISO 100, with a shallow depth of field that blurs the surrounding 'system architecture' into abstract, high-contrast shapes."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_LATTER_ONES",
+    "name": "Latter ones",
+    "type": "character",
+    "aliases": [
+      "Latter ones"
+    ],
+    "roles": [
+      "A group from the future or present, addressed by Enoch."
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1130"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 37,
+        "chapter_end": 37,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

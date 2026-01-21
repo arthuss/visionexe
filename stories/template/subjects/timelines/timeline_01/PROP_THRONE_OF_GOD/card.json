@@ -1,0 +1,67 @@
+{
+  "id": "PROP_THRONE_OF_GOD",
+  "name": "Throne of God",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Throne of God.",
+    "visual_anatomy": [
+      "Traits: A symbol of God's kingdom and majesty. The heavens are described as being this throne.",
+      "Roles: actor_prop:God"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A symbol of God's kingdom and majesty. The heavens are described as being this throne."
+    ],
+    "prompt_block": "Throne of God, A symbol of God's kingdom and majesty. The heavens are described as being this throne.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A symbol of God's kingdom and majesty. The heavens are described as being this throne."
+        ],
+        "prompt_block": "Throne of God, A symbol of God's kingdom and majesty. The heavens are described as being this throne."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_THRONE_OF_GOD",
+    "name": "Throne of God",
+    "type": "prop",
+    "aliases": [
+      "Throne of God"
+    ],
+    "roles": [
+      "actor_prop:God"
+    ],
+    "visual_traits": [
+      "A symbol of God's kingdom and majesty. The heavens are described as being this throne."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1177"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 84,
+        "chapter_end": 84,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

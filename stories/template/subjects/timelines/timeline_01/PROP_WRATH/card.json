@@ -1,0 +1,67 @@
+{
+  "id": "PROP_WRATH",
+  "name": "wrath",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for wrath.",
+    "visual_anatomy": [
+      "Traits: is sent by the Most High",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "is sent by the Most High"
+    ],
+    "prompt_block": "wrath, is sent by the Most High",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "is sent by the Most High"
+        ],
+        "prompt_block": "wrath, is sent by the Most High"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_WRATH",
+    "name": "wrath",
+    "type": "prop",
+    "aliases": [
+      "wrath"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "is sent by the Most High"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1194"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 101,
+        "chapter_end": 101,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

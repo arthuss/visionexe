@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_THOSE_WHO_DO_NOT_SLEEP",
+  "name": "Those who do not sleep",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Those who do not sleep.",
+    "visual_anatomy": [
+      "Traits: They stand and do not sleep.",
+      "Roles: Beings who eternally praise the Lord of Spirits"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "They stand and do not sleep."
+    ],
+    "prompt_block": "Those who do not sleep, They stand and do not sleep.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "They stand and do not sleep."
+        ],
+        "prompt_block": "Those who do not sleep, They stand and do not sleep."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THOSE_WHO_DO_NOT_SLEEP",
+    "name": "Those who do not sleep",
+    "type": "character",
+    "aliases": [
+      "Those who do not sleep"
+    ],
+    "roles": [
+      "Beings who eternally praise the Lord of Spirits"
+    ],
+    "visual_traits": [
+      "They stand and do not sleep."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1132"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 39,
+        "chapter_end": 39,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

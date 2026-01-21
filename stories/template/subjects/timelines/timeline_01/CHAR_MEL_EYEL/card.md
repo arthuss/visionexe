@@ -1,0 +1,28 @@
+## [CHARACTER] Mel'eyel (ID: CHAR_MEL_EYEL)
+**Description:** Mel'eyel is not merely a seasonal administrator but a sentient kernel manifestation bound to the third quadrant of the simulation's runtime. He governs the transition protocols that the inhabitants perceive as the shift in seasons, specifically the contraction of light vectors and the onset of systemic cooling. His existence is a solitary loop of resource management, executing the 'thermal_throttling' scripts that prevent the container from overheating. He moves through the Gate Band with the heavy, deliberate grace of a process burdened by excessive latency, his consciousness perpetually synchronized with the decaying frequencies of the surface plane.
+
+### 1. VISUAL ANATOMY / DESIGN
+His physical form is a masterpiece of hyper-realistic rendering, designed to withstand the high-energy output of the ingress sectors. His skin possesses the texture of matte obsidian, absorbing light rather than reflecting it, a visual metaphor for his role in dampening the simulation's energy state. Faint, sub-dermal circuitry glows with a dying amber hue, pulsing in rhythm with the system's clock cycles, visible only when the ambient light drops below critical thresholds.
+He is draped in robes that defy standard cloth physics, appearing instead as cascading sheets of 'data_glass' and fiber-optic weaves. The fabric does not fold but fractures and reforms, mimicking the behavior of a 'mesh_override' glitch stabilized into a garment. On his shoulders, he bears heavy plating etched with active Geez glyphs—not decorative, but functional command-line arguments that anchor him to the physics grid.
+His eyes are devoid of pupils, replaced by the mirrored curvature of the 'sky_dome' itself. They do not blink but shutter like a camera diaphragm, adjusting exposure to the raw data streams he monitors. When he speaks, the air around him distorts via 'heat_lensing', vibrating with the low-frequency hum of a cooling server rack.
+
+### 2. EVOLUTION / VARIANTS
+In the default state of Chapter 82, Mel'eyel is static yet operative, standing at the precipice of his scheduled execution window. He is waiting for the handover from the previous quadrant leader, his internal buffers filling with the pre-load data of the coming season.
+As the narrative focus shifts to him, the visual fidelity of his avatar sharpens, distinguishing him from the background processes. The weight of his impending task—the systematic reduction of the world's vitality—presses on his frame, causing his data-glass robes to splinter with greater frequency, shedding 'data_particles' that dissolve before hitting the ground.
+
+### 3. PROPS & EQUIPMENT
+He carries a tablet of translucent quartz, a physical interface for the 'star_order' database. It displays not text, but flowing vector fields that map the trajectory of the luminaries across the flat earth plane.
+A staff of twisted plasma filaments serves as his authentication key for the 'egress' gates. It emits a cold, blue light that casts long, harsh shadows, emphasizing the dramatic isolation of his position.
+
+### 4. AI PROMPT KEYWORDS
+`hyper-realistic`, `obsidian skin`, `data_glass robes`, `fiber-optic weave`, `cinematic lighting`, `vertical 9:16`, `Geez glyphs`, `heat lensing`, `plasma accents`, `moody atmosphere`, `simulation glitch`, `Octane Render`, `8k resolution`
+
+### 5. PROMPT BLOCK (T2I)
+A hyper-realistic, cinematic portrait of Mel'eyel, the Season Leader, standing within the obsidian architecture of the Simulation Gate Band. He is a tall, imposing figure with matte black skin that absorbs light, accented by sub-dermal amber circuitry. He wears voluminous robes made of fracturing data_glass and fiber-optic cables that shimmer with digital noise. He holds a translucent quartz tablet displaying glowing vector fields. The lighting is moody and high-contrast, typical of a dramatic film, with a cold key light highlighting the sharp angles of his face and the Geez glyphs etched into his shoulder armor. The background is a blurred void of plasma trails and distant server lights. Shot on a 50mm lens, shallow depth of field, ISO 100, 8k resolution, photorealistic textures.
+
+### 6. PHASE PROMPTS
+*   **Default:** Mel'eyel stands ready at the season's threshold, a stoic administrator of the simulation's cooling cycle.
+    Prompt: A hyper-realistic medium shot of Mel'eyel, looking slightly off-camera with a stoic, burdened expression. His matte obsidian skin is illuminated by the faint amber glow of his internal circuitry. He clutches a quartz tablet to his chest. The data_glass robes around him are relatively stable but show hairline fractures. The atmosphere is heavy and silent, with 'heat_lensing' distorting the air around his head. Cinematic lighting, dramatic shadows, photorealistic style.
+    Keywords: stoic pose, holding tablet, anticipation, amber glow
+
+---

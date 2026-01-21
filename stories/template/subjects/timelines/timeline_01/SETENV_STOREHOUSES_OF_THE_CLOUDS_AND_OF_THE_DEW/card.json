@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_STOREHOUSES_OF_THE_CLOUDS_AND_OF_THE_DEW",
+  "name": "Storehouses of the clouds and of the dew",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Storehouses of the clouds and of the dew.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Chambers (ኅብኣተ) where clouds and dew originate.'}",
+      "Roles: celestial_repository"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Chambers (ኅብኣተ) where clouds and dew originate.'}"
+    ],
+    "prompt_block": "Storehouses of the clouds and of the dew, {'description': 'Chambers (ኅብኣተ) where clouds and dew originate.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Chambers (ኅብኣተ) where clouds and dew originate.'}"
+        ],
+        "prompt_block": "Storehouses of the clouds and of the dew, {'description': 'Chambers (ኅብኣተ) where clouds and dew originate.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_STOREHOUSES_OF_THE_CLOUDS_AND_OF_THE_DEW",
+    "name": "Storehouses of the clouds and of the dew",
+    "type": "set_environment",
+    "aliases": [
+      "Storehouses of the clouds and of the dew"
+    ],
+    "roles": [
+      "celestial_repository"
+    ],
+    "visual_traits": [
+      "{'description': 'Chambers (ኅብኣተ) where clouds and dew originate.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1136"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 41,
+        "chapter_end": 41,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

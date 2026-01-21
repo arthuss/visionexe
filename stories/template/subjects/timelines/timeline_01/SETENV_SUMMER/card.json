@@ -1,0 +1,78 @@
+{
+  "id": "SETENV_SUMMER",
+  "name": "summer",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for summer.",
+    "visual_anatomy": [
+      "Traits: A season to be observed., Period of intense, scorching heat., {'description': 'A season during which the earth is described as being filled with water.'}",
+      "Roles: environment, temporal, temporal_setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A season to be observed.",
+      "Period of intense, scorching heat.",
+      "{'description': 'A season during which the earth is described as being filled with water.'}"
+    ],
+    "prompt_block": "summer, A season to be observed., Period of intense, scorching heat., {'description': 'A season during which the earth is described as being filled with water.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A season to be observed.",
+          "Period of intense, scorching heat.",
+          "{'description': 'A season during which the earth is described as being filled with water.'}"
+        ],
+        "prompt_block": "summer, A season to be observed., Period of intense, scorching heat., {'description': 'A season during which the earth is described as being filled with water.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_SUMMER",
+    "name": "summer",
+    "type": "set_environment",
+    "aliases": [
+      "Summer",
+      "summer"
+    ],
+    "roles": [
+      "environment",
+      "temporal",
+      "temporal_setting"
+    ],
+    "visual_traits": [
+      "A season to be observed.",
+      "Period of intense, scorching heat.",
+      "{'description': 'A season during which the earth is described as being filled with water.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1058",
+      "row_1060",
+      "row_1096"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 2,
+        "chapter_end": 4,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

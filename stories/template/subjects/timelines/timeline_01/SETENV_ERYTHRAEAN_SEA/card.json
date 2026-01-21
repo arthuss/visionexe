@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_ERYTHRAEAN_SEA",
+  "name": "Erythraean Sea",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Erythraean Sea.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A sea the narrator passes over on his journey.'}",
+      "Roles: geographic_feature"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A sea the narrator passes over on his journey.'}"
+    ],
+    "prompt_block": "Erythraean Sea, {'description': 'A sea the narrator passes over on his journey.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A sea the narrator passes over on his journey.'}"
+        ],
+        "prompt_block": "Erythraean Sea, {'description': 'A sea the narrator passes over on his journey.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_ERYTHRAEAN_SEA",
+    "name": "Erythraean Sea",
+    "type": "set_environment",
+    "aliases": [
+      "Erythraean Sea"
+    ],
+    "roles": [
+      "geographic_feature"
+    ],
+    "visual_traits": [
+      "{'description': 'A sea the narrator passes over on his journey.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1125"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 32,
+        "chapter_end": 32,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

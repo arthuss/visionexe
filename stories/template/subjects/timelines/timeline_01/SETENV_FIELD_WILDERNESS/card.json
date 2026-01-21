@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_FIELD_WILDERNESS",
+  "name": "Field / Wilderness",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Field / Wilderness.",
+    "visual_anatomy": [
+      "Traits: A place where flowers grow.",
+      "Roles: A type of landscape on Earth."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A place where flowers grow."
+    ],
+    "prompt_block": "Field / Wilderness, A place where flowers grow.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A place where flowers grow."
+        ],
+        "prompt_block": "Field / Wilderness, A place where flowers grow."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_FIELD_WILDERNESS",
+    "name": "Field / Wilderness",
+    "type": "set_environment",
+    "aliases": [
+      "Field / Wilderness"
+    ],
+    "roles": [
+      "A type of landscape on Earth."
+    ],
+    "visual_traits": [
+      "A place where flowers grow."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1175"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 82,
+        "chapter_end": 82,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

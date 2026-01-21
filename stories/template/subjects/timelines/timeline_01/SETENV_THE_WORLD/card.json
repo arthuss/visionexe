@@ -1,0 +1,85 @@
+{
+  "id": "SETENV_THE_WORLD",
+  "name": "the world",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for the world.",
+    "visual_anatomy": [
+      "Traits: The entire world, which will be filled or encompassed by the event., unspecified, {'description': 'The setting for the eternal partnership of Peace and Righteousness.'}",
+      "Roles: The created order, established after the Son of Man was named., The created realm, The scope of the event's influence., location, setting, the mortal realm of worldly goods"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "The entire world, which will be filled or encompassed by the event.",
+      "unspecified",
+      "{'description': 'The setting for the eternal partnership of Peace and Righteousness.'}"
+    ],
+    "prompt_block": "the world, The entire world, which will be filled or encompassed by the event., unspecified, {'description': 'The setting for the eternal partnership of Peace and Righteousness.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "The entire world, which will be filled or encompassed by the event.",
+          "unspecified",
+          "{'description': 'The setting for the eternal partnership of Peace and Righteousness.'}"
+        ],
+        "prompt_block": "the world, The entire world, which will be filled or encompassed by the event., unspecified, {'description': 'The setting for the eternal partnership of Peace and Righteousness.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_WORLD",
+    "name": "the world",
+    "type": "set_environment",
+    "aliases": [
+      "The World",
+      "the world"
+    ],
+    "roles": [
+      "The created order, established after the Son of Man was named.",
+      "The created realm",
+      "The scope of the event's influence.",
+      "location",
+      "setting",
+      "the mortal realm of worldly goods"
+    ],
+    "visual_traits": [
+      "The entire world, which will be filled or encompassed by the event.",
+      "unspecified",
+      "{'description': 'The setting for the eternal partnership of Peace and Righteousness.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1049",
+      "row_1076",
+      "row_1103",
+      "row_1113",
+      "row_1132",
+      "row_1141",
+      "row_1201"
+    ],
+    "occurrence_count": 16,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

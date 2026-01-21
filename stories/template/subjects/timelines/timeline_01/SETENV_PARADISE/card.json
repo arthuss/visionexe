@@ -1,0 +1,60 @@
+{
+  "id": "SETENV_PARADISE",
+  "name": "Paradise",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Paradise.",
+    "visual_anatomy": [
+      "Roles: location"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Paradise, location",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Paradise, location"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_PARADISE",
+    "name": "Paradise",
+    "type": "set_environment",
+    "aliases": [
+      "Paradise"
+    ],
+    "roles": [
+      "location"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1113"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 20,
+        "chapter_end": 20,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

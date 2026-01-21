@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_FOUNTAIN",
+  "name": "Fountain",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Fountain.",
+    "visual_anatomy": [
+      "Traits: A specific spring or source.",
+      "Roles: The secret origin point for lead and tin, presided over by an angel."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A specific spring or source."
+    ],
+    "prompt_block": "Fountain, A specific spring or source.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A specific spring or source."
+        ],
+        "prompt_block": "Fountain, A specific spring or source."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_FOUNTAIN",
+    "name": "Fountain",
+    "type": "set_environment",
+    "aliases": [
+      "Fountain"
+    ],
+    "roles": [
+      "The secret origin point for lead and tin, presided over by an angel."
+    ],
+    "visual_traits": [
+      "A specific spring or source."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1159"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 65,
+        "chapter_end": 65,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

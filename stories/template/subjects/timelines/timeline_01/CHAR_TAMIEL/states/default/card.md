@@ -1,0 +1,10 @@
+## [STATE] Tamiel :: Default
+**State ID:** default
+**Chapters:** 6 - 8
+
+**Phase Summary:** Tamiel stands as the sombre custodian of the simulation's sky, explaining the grid logic of the heavens to a human audience. He is a figure of heavy burdens, revealing the walls of the world.
+**Phase Keywords:** teaching astronomy, holographic star charts, sombre mood, night scene, vector field distortion
+**Phase Prompt:**
+A photorealistic close-up of Tamiel, an ancient yet futuristic entity, his face illuminated by the cool glow of a holographic star chart floating just above his open palm. The chart is not a chaotic swirl but a rigid, wireframe grid of the flat earth dome, rendered in sharp lines of light. His eyes are downcast, conveying a deep sense of resignation and gravity. The skin texture is hyper-detailed, showing the tension in his jaw. The background is a deep, velvety black, suggesting a desert night, with the horizon line looking suspiciously artificial, like a matte painting. The atmosphere is quiet and tense, captured with the visual language of a serious character drama, utilizing slow-shutter aesthetics and high dynamic range to capture the interplay between the dark robes and the bright data overlays.
+
+---

@@ -3,9 +3,8 @@
 **Chapters:** 73 - 108
 **Notes:** none
 
-**Phase Summary:** Dusk, indigo sky with stars and bioluminescent filaments
-**Phase Keywords:** dusk, indigo, bioluminescent filaments
+**Phase Keywords:** arid, sandy, azure, blue, cloudless, bright, bright, glowing, dark, silent, dawn, daytime, desert, directional, earth, earth/ground
 **Phase Prompt:**
-A cinematic dusk scene over an ancient city, deep indigo sky, stars forming miniature glyphs, bioluminescent filaments glowing in the lattice, monoliths dimming, air humming with ancient machinery, photorealistic, tactile textures, industrial mysticism
+ሰማይ, arid, sandy, azure, blue, cloudless, bright, bright, glowing, dark, silent, dawn, daytime, desert, directional, earth, earth/ground, expansive, blue, fire, first light, horizon, house, interior/inside, night, radiant, sea, sky, soft, pale, solid, ground, sun, tiny, glittering, unknown, vast, vast sky, wind, world, worldly, Phase 3
 
 ---

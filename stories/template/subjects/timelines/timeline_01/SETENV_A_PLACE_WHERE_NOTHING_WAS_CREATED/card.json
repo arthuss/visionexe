@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_A_PLACE_WHERE_NOTHING_WAS_CREATED",
+  "name": "A place where nothing was created",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for A place where nothing was created.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A location described as having no high heaven above it and no firm-founded earth beneath it. It is a chaotic and terrible place.'}",
+      "Roles: prison"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A location described as having no high heaven above it and no firm-founded earth beneath it. It is a chaotic and terrible place.'}"
+    ],
+    "prompt_block": "A place where nothing was created, {'description': 'A location described as having no high heaven above it and no firm-founded earth beneath it. It is a chaotic and terrible place.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A location described as having no high heaven above it and no firm-founded earth beneath it. It is a chaotic and terrible place.'}"
+        ],
+        "prompt_block": "A place where nothing was created, {'description': 'A location described as having no high heaven above it and no firm-founded earth beneath it. It is a chaotic and terrible place.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_A_PLACE_WHERE_NOTHING_WAS_CREATED",
+    "name": "A place where nothing was created",
+    "type": "set_environment",
+    "aliases": [
+      "A place where nothing was created"
+    ],
+    "roles": [
+      "prison"
+    ],
+    "visual_traits": [
+      "{'description': 'A location described as having no high heaven above it and no firm-founded earth beneath it. It is a chaotic and terrible place.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1114"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 21,
+        "chapter_end": 21,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "id": "PROP_SILVER",
+  "name": "Silver",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Silver.",
+    "visual_anatomy": [
+      "Traits: A precious metal, forming a mountain., Precious metal (ብሩር) possessed by sinners., {'description': \"Precious metal ('ብሩረ') acquired unrighteously by the sinners.\"}, {'description': 'Silver (ብሩር) acquired by a group of sinners.'}",
+      "Roles: actor_prop:the sinners, scene_prop"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A precious metal, forming a mountain.",
+      "Precious metal (ብሩር) possessed by sinners.",
+      "{'description': \"Precious metal ('ብሩረ') acquired unrighteously by the sinners.\"}",
+      "{'description': 'Silver (ብሩር) acquired by a group of sinners.'}"
+    ],
+    "prompt_block": "Silver, A precious metal, forming a mountain., Precious metal (ብሩር) possessed by sinners., {'description': \"Precious metal ('ብሩረ') acquired unrighteously by the sinners.\"}, {'description': 'Silver (ብሩር) acquired by a group of sinners.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "A precious metal, forming a mountain.",
+          "Precious metal (ብሩር) possessed by sinners.",
+          "{'description': \"Precious metal ('ብሩረ') acquired unrighteously by the sinners.\"}",
+          "{'description': 'Silver (ብሩር) acquired by a group of sinners.'}"
+        ],
+        "prompt_block": "Silver, A precious metal, forming a mountain., Precious metal (ብሩር) possessed by sinners., {'description': \"Precious metal ('ብሩረ') acquired unrighteously by the sinners.\"}, {'description': 'Silver (ብሩር) acquired by a group of sinners.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "A precious metal, forming a mountain.",
+          "Precious metal (ብሩር) possessed by sinners.",
+          "{'description': \"Precious metal ('ብሩረ') acquired unrighteously by the sinners.\"}",
+          "{'description': 'Silver (ብሩር) acquired by a group of sinners.'}"
+        ],
+        "prompt_block": "Silver, A precious metal, forming a mountain., Precious metal (ብሩር) possessed by sinners., {'description': \"Precious metal ('ብሩረ') acquired unrighteously by the sinners.\"}, {'description': 'Silver (ብሩር) acquired by a group of sinners.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "A precious metal, forming a mountain.",
+          "Precious metal (ብሩር) possessed by sinners.",
+          "{'description': \"Precious metal ('ብሩረ') acquired unrighteously by the sinners.\"}",
+          "{'description': 'Silver (ብሩር) acquired by a group of sinners.'}"
+        ],
+        "prompt_block": "Silver, A precious metal, forming a mountain., Precious metal (ብሩር) possessed by sinners., {'description': \"Precious metal ('ብሩረ') acquired unrighteously by the sinners.\"}, {'description': 'Silver (ብሩር) acquired by a group of sinners.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_SILVER",
+    "name": "Silver",
+    "type": "prop",
+    "aliases": [
+      "Silver",
+      "silver"
+    ],
+    "roles": [
+      "actor_prop:the sinners",
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "A precious metal, forming a mountain.",
+      "Precious metal (ብሩር) possessed by sinners.",
+      "{'description': \"Precious metal ('ብሩረ') acquired unrighteously by the sinners.\"}",
+      "{'description': 'Silver (ብሩር) acquired by a group of sinners.'}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Static', 'description': 'Exists as a mountain and a form of wealth.'}",
+      "{'phase': 'Phase 2: Nullified', 'description': 'Becomes unable to provide salvation or escape and is removed from the earth.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1145",
+      "row_1159",
+      "row_1188",
+      "row_1190",
+      "row_1191",
+      "row_1201"
+    ],
+    "occurrence_count": 12,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 52,
+        "chapter_end": 70,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 71,
+        "chapter_end": 89,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Static', 'description': 'Exists as a mountain and a form of wealth.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 90,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Nullified', 'description': 'Becomes unable to provide salvation or escape and is removed from the earth.'}"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "id": "CHAR_PEOPLE_GENERIC",
+  "name": "People (generic)",
+  "type": "character",
+  "card": {
+    "description": "Within the bounded constraints of the simulation box, the collective designation 'People' represents the standard runtime instances of the human population. They exist not merely as background geometry but as high-fidelity, autonomous agents subject to the strict governance of the system's logic. Under the high-contrast lighting of the surface plane, their presence is heavy and tangible, rendered with hyper-realistic texture—sweat on brows, fraying threads on mundane garments, and the subtle subsurface scattering of skin under cold, data-glass sky light. In the presence of the Elect One, their input/output privileges are overridden; they are visually and systemically silenced, standing in a state of forced synchronization where the capacity for 'vain words'—corrupt data or falsehoods—is chemically and digitally suppressed by the atmosphere itself.",
+    "visual_anatomy": [
+      "They appear as a diverse array of hyper-realistic figures, cast in the sombre, dramatic lighting of a runtime nearing its cycle's end. Their clothing is a mix of natural fibers and synthetic, obsidian-like weaves that suggest a seamless integration with the simulation's architecture. There is no uniformity in dress, but a uniformity in condition: weathered, weary, and rendered with exacting detail, from the micro-scratches on their buttons to the specific, tired dilation of their pupils.",
+      "The inability to speak 'vain words' manifests physically. When in proximity to the kernel manifestation of the Elect One, their mouths may appear slightly blurred by heat lensing or locked in a grimace of involuntary silence. Their breath creates visible vapor in the thermal-throttled air, but no sound emerges that contradicts the system's truth. They are often framed in static, vertical compositions, emphasizing their isolation and the immense verticality of the system hierarchy above them.",
+      "Lighting plays a crucial role in their depiction. They are rarely fully illuminated; instead, they are sculpted by rim lights and harsh shadows, typical of a high-drama cinematic language. Reflections of the 'gate band' and 'upper store' luminaries can be seen caught in the moisture of their eyes or the glossy texture of their personal effects, grounding them firmly within the flat-earth cosmology of the simulation."
+    ],
+    "evolution": [
+      "In this specific state (Chapter 49), the crowd is not a chaotic mob but a structured array of observers. They are frozen in a moment of processing, their individual wills suspended by the proximity of the Elect One. There is no riot or celebration, only the profound, resonant stillness of a system waiting for a command, their physical forms acting as the heavy, grounding ballast against the ethereal light of the judgment."
+    ],
+    "props": [
+      "They clutch mundane personal artifacts that shimmer with a 'data_glass' quality—worn identification cards, prayer beads made of fiber-optic filament, or tools of labor that look dangerously sharp and heavy. These objects serve as anchors to their simulated reality, rendered with the same PBR exactitude as their skin, catching the glint of the obsidian environment."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic crowd",
+      "cinematic lighting",
+      "obsidian reflections",
+      "heat lensing effects",
+      "silent observers",
+      "simulation glitch aesthetics",
+      "dramatic shadows",
+      "subsurface scattering",
+      "35mm film grain",
+      "muted tones"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic wide shot of a diverse group of people standing in a dark, obsidian-floored environment. The lighting is high-contrast, dramatic, and cool, casting long shadows. They look toward a central, unseen light source with expressions of awe and involuntary silence. The atmosphere is thick, heavy with thermal throttling and faint data-fog. Details are excruciatingly sharp: the texture of skin, the weave of clothing, the moisture in eyes. The aesthetic combines a grounded, gritty drama with the sleek, artificial perfection of a high-end simulation. No fantastical elements, only the oppressive realism of a governed system.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "The Silent Witness",
+        "summary": "The population stands paralyzed before the Elect One, their capacity for speech overridden by the system's proximity to Truth. They are rendered with heavy dramatic weight, distinct individuals bound by a collective restriction.",
+        "prompt_keywords": [
+          "locked mouths",
+          "fear and awe",
+          "vertical composition",
+          "system override",
+          "atmospheric density"
+        ],
+        "prompt_block": "Photorealistic cinematic shot, medium distance. A crowd of diverse humans standing still in a dim, reflective obsidian expanse. Their faces are illuminated by a cold, harsh light from above. They attempt to speak but their expressions are frozen, mouths sealed or blurred by subtle digital heat lensing. The air around them is filled with microscopic data particles. High dynamic range, deep blacks, wet surfaces. The scene conveys a heavy, dramatic silence, the weight of judgment in a simulated reality. 8k resolution, Octane render style."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_PEOPLE_GENERIC",
+    "name": "People (generic)",
+    "type": "character",
+    "aliases": [
+      "People (generic)"
+    ],
+    "roles": [
+      "group"
+    ],
+    "visual_traits": [
+      "Unspecified. Described as being unable to speak a vain word before the Elect One."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1142"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 49,
+        "chapter_end": 49,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

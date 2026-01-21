@@ -1,0 +1,67 @@
+{
+  "id": "PROP_BEDS",
+  "name": "Beds",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Beds.",
+    "visual_anatomy": [
+      "Traits: {'description': 'The resting places of kings and the mighty, from which they are raised. Later becomes the resting place of the judged, filled with worms.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The resting places of kings and the mighty, from which they are raised. Later becomes the resting place of the judged, filled with worms.'}"
+    ],
+    "prompt_block": "Beds, {'description': 'The resting places of kings and the mighty, from which they are raised. Later becomes the resting place of the judged, filled with worms.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The resting places of kings and the mighty, from which they are raised. Later becomes the resting place of the judged, filled with worms.'}"
+        ],
+        "prompt_block": "Beds, {'description': 'The resting places of kings and the mighty, from which they are raised. Later becomes the resting place of the judged, filled with worms.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_BEDS",
+    "name": "Beds",
+    "type": "prop",
+    "aliases": [
+      "Beds"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'The resting places of kings and the mighty, from which they are raised. Later becomes the resting place of the judged, filled with worms.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1140"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 46,
+        "chapter_end": 46,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

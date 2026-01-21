@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_THE_LAWLESS_ONES",
+  "name": "The Lawless Ones",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Lawless Ones.",
+    "visual_anatomy": [
+      "Traits: A collective term for the antagonists",
+      "Roles: antagonist"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A collective term for the antagonists"
+    ],
+    "prompt_block": "The Lawless Ones, A collective term for the antagonists",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A collective term for the antagonists"
+        ],
+        "prompt_block": "The Lawless Ones, A collective term for the antagonists"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_LAWLESS_ONES",
+    "name": "The Lawless Ones",
+    "type": "character",
+    "aliases": [
+      "The Lawless Ones"
+    ],
+    "roles": [
+      "antagonist"
+    ],
+    "visual_traits": [
+      "A collective term for the antagonists"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1099"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 7,
+        "chapter_end": 7,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

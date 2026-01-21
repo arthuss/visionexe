@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_THOSE_WHO_DWELL_BENEATH_THE_ENDS_OF_THE_HEAVEN",
+  "name": "those who dwell beneath the ends of the heaven",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for those who dwell beneath the ends of the heaven.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Inhabitants of the world, destroyed by a flood.'}",
+      "Roles: victim"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Inhabitants of the world, destroyed by a flood.'}"
+    ],
+    "prompt_block": "those who dwell beneath the ends of the heaven, {'description': 'Inhabitants of the world, destroyed by a flood.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Inhabitants of the world, destroyed by a flood.'}"
+        ],
+        "prompt_block": "those who dwell beneath the ends of the heaven, {'description': 'Inhabitants of the world, destroyed by a flood.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THOSE_WHO_DWELL_BENEATH_THE_ENDS_OF_THE_HEAVEN",
+    "name": "those who dwell beneath the ends of the heaven",
+    "type": "character",
+    "aliases": [
+      "those who dwell beneath the ends of the heaven"
+    ],
+    "roles": [
+      "victim"
+    ],
+    "visual_traits": [
+      "{'description': 'Inhabitants of the world, destroyed by a flood.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1147"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 54,
+        "chapter_end": 54,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

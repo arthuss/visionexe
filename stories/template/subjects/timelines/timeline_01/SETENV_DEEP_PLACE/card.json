@@ -1,0 +1,76 @@
+{
+  "id": "SETENV_DEEP_PLACE",
+  "name": "Deep Place",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Deep Place.",
+    "visual_anatomy": [
+      "Traits: dark, deep, gloomy, narrow",
+      "Roles: prison"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "dark",
+      "deep",
+      "gloomy",
+      "narrow"
+    ],
+    "prompt_block": "Deep Place, dark, deep, gloomy, narrow",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "dark",
+          "deep",
+          "gloomy",
+          "narrow"
+        ],
+        "prompt_block": "Deep Place, dark, deep, gloomy, narrow"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_DEEP_PLACE",
+    "name": "Deep Place",
+    "type": "set_environment",
+    "aliases": [
+      "Deep Place"
+    ],
+    "roles": [
+      "prison"
+    ],
+    "visual_traits": [
+      "dark",
+      "deep",
+      "gloomy",
+      "narrow"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1181"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 88,
+        "chapter_end": 88,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_CELESTIAL_SPHERE",
+  "name": "Celestial Sphere",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Celestial Sphere.",
+    "visual_anatomy": [
+      "Traits: The cosmic realm governed by fixed laws ('ትእዛዝ'), orders ('ሥርዓተ'), and stations ('ምንባሮሙ') for the luminaries.",
+      "Roles: setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "The cosmic realm governed by fixed laws ('ትእዛዝ'), orders ('ሥርዓተ'), and stations ('ምንባሮሙ') for the luminaries."
+    ],
+    "prompt_block": "Celestial Sphere, The cosmic realm governed by fixed laws ('ትእዛዝ'), orders ('ሥርዓተ'), and stations ('ምንባሮሙ') for the luminaries.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "The cosmic realm governed by fixed laws ('ትእዛዝ'), orders ('ሥርዓተ'), and stations ('ምንባሮሙ') for the luminaries."
+        ],
+        "prompt_block": "Celestial Sphere, The cosmic realm governed by fixed laws ('ትእዛዝ'), orders ('ሥርዓተ'), and stations ('ምንባሮሙ') for the luminaries."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_CELESTIAL_SPHERE",
+    "name": "Celestial Sphere",
+    "type": "set_environment",
+    "aliases": [
+      "Celestial Sphere"
+    ],
+    "roles": [
+      "setting"
+    ],
+    "visual_traits": [
+      "The cosmic realm governed by fixed laws ('ትእዛዝ'), orders ('ሥርዓተ'), and stations ('ምንባሮሙ') for the luminaries."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1167"
+    ],
+    "occurrence_count": 14,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 74,
+        "chapter_end": 74,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

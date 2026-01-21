@@ -2,9 +2,9 @@
 **State ID:** default
 **Chapters:** 78 - 78
 
-**Phase Summary:** The Sun Unit Oriares in its default containment state, a glowing white plasma sphere encased in a hexagonal magnetic net, floating in a pitch‑black void.
-**Phase Keywords:** ancient, Ethiopian, glyphs, plasma, hexagonal, magnetic, containment, black interior, crystalline core
+**Phase Summary:** Oriares in its standard containment mode, rolling heavily along the tracks, a prisoner of its own function.
+**Phase Keywords:** contained plasma, hexagonal cage, rolling on rails, industrial hangar, heavy machinery
 **Phase Prompt:**
-A colossal mechanical sphere, the Sun Unit Oriares, glows with white plasma, encased in a hexagonal magnetic net etched with ancient Ethiopian glyphs, its crystalline core pulsing, black interior visible, steam rising as it rolls down a titanium rail into a rectangular stone monolith gate with flashing red warning lights, set against a pitch‑black space void, high contrast, bloom, heat distortion, photorealistic, tactile, ancient‑tech, industrial mysticism
+A photorealistic eye-level shot of the massive mechanical sun-sphere Oriares rolling slowly along a heavy titanium rail track. The sphere glows with contained white plasma behind a dark, hexagonal metal lattice. Sparks fly from the contact point between the sphere and the rails. The background is a dark, industrial void of the simulation's upper storage layer, defined by reflective black obsidian floors and distant red warning lights. The lighting is dramatic and high-contrast, highlighting the texture of the scorched metal and the atmospheric steam. Cinematic composition, depth of field.
 
 ---

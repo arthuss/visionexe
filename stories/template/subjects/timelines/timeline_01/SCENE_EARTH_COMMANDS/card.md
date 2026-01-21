@@ -1,30 +1,20 @@
 ## [SCENE] Earth Commands (ID: SCENE_EARTH_COMMANDS)
-**Description:** The Terra Nexus Core is a colossal stone monolith that serves as the central command node for Earth. Carved from weathered basalt and reinforced with dark iron alloys, its surface is etched with intricate Ethiopian and Egyptian glyphs that glow bioluminescently. A crystalline lattice of translucent quartz veins weaves through the monolith, channeling a pulsing azure energy that emanates from its core. The structure sits in a dimly lit subterranean chamber, surrounded by ancient runic tablets and a scepter of Earth, creating a tableau of grounded realism and industrial mysticism.
-**Tags:** #command_center #ancient-tech #earth_control #crystalline #glyphs #bioluminescent #stone_monolith #industrial_mysticism
+**Description:** Auto-generated asset card for Earth Commands.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Massive basalt monolith, 12 meters tall, 6 meters wide, reinforced with dark iron alloy ribs, weathered stone texture with deep fissures and mineral veins.
-*   **Face/Sensors:** Central core chamber visible through a translucent quartz dome; bioluminescent glyphs form a luminous lattice, pulsing with soft azure light; embedded crystal sensors emit faint green phosphorescence.
-*   **Clothing/Armor:** None.
-*   **Key Features:** Crystalline quartz lattice interwoven with iron alloy; bioluminescent glyphs that shift patterns; pulsing energy core; ancient runic tablets surrounding the base; scepter of Earth resting on a stone pedestal.
+Roles: earth
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Activation): Glyphs glow faintly, subtle vibrations ripple through the quartz lattice, the core emits a low hum.
-*   Phase 2 (Full Activation): Glyphs blaze with intense bioluminescence, the core pulses with bright azure light, stone cracks reveal hidden circuitry, the chamber hums with powerful energy.
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Scepter of Earth – a bronze staff topped with a polished obsidian sphere, etched with runes.
-*   Item: Runic Tablet – a slate slab bearing ancient Ethiopian and Egyptian inscriptions, placed beside the monolith.
-
-### 4. AI PROMPT KEYWORDS
-`ancient Ethiopian`, `Egyptian`, `crystalline lattice`, `bioluminescent glyphs`, `basalt monolith`, `subterranean chamber`, `photorealistic`, `tactile textures`
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
-A colossal basalt monolith sits in a dimly lit subterranean chamber, its surface etched with intricate Ethiopian and Egyptian glyphs that glow bioluminescently. A crystalline lattice of translucent quartz veins weaves through the stone, channeling a pulsing azure energy from its core. The monolith is reinforced with dark iron alloy ribs, weathered stone texture, and deep fissures. Surrounding the base are ancient runic tablets and a bronze scepter of Earth, all rendered in photorealistic detail with tactile textures of weathered stone, slick metal alloys, and translucent crystal veins, evoking a sense of ancient mysticism fused with incomprehensible technology.
+Earth Commands, earth
 
 ### 6. PHASE PROMPTS
-*   **Default:** Earth Commands central monolith in subterranean chamber
-    Prompt: A colossal basalt monolith sits in a dimly lit subterranean chamber, its surface etched with intricate Ethiopian and Egyptian glyphs that glow bioluminescently. A crystalline lattice of translucent quartz veins weaves through the stone, channeling a pulsing azure energy from its core. The monolith is reinforced with dark iron alloy ribs, weathered stone texture, and deep fissures. Surrounding the base are ancient runic tablets and a bronze scepter of Earth, all rendered in photorealistic detail with tactile textures of weathered stone, slick metal alloys, and translucent crystal veins, evoking a sense of ancient mysticism fused with incomprehensible technology.
-    Keywords: ancient Ethiopian, Egyptian, crystalline lattice, bioluminescent glyphs, basalt monolith, subterranean chamber
+*   **Default:**
+    Prompt: Earth Commands, earth
 
 ---

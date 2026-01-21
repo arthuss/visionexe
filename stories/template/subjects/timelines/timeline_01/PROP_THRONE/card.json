@@ -1,0 +1,60 @@
+{
+  "id": "PROP_THRONE",
+  "name": "throne",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for throne.",
+    "visual_anatomy": [
+      "Roles: actor_prop:The Elect One"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "throne, actor_prop:The Elect One",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "throne, actor_prop:The Elect One"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_THRONE",
+    "name": "throne",
+    "type": "prop",
+    "aliases": [
+      "throne"
+    ],
+    "roles": [
+      "actor_prop:The Elect One"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1144"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 51,
+        "chapter_end": 51,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

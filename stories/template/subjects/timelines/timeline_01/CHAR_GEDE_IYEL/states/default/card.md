@@ -1,0 +1,10 @@
+## [STATE] Gede'iyel :: Default
+**State ID:** default
+**Chapters:** 82 - 82
+
+**Phase Summary:** Gede'iyel stands in the upper store, monitoring the thousands of threads under his command, his form illuminated by the cold glow of system diagnostics.
+**Phase Keywords:** obsidian skin, fiber optic glow, heat sink robes, data glass interface, stoic expression, cinematic dark mood
+**Phase Prompt:**
+A hyper-realistic, photorealistic portrait of Gede'iyel as a simulation overseer. He is a humanoid figure composed of dark, glossy obsidian material, with faint violet fiber-optic lines pulsing beneath the surface. He wears ceremonial robes that resemble matte black cooling fins. He stands in a dark, high-contrast environment, surrounded by floating, holographic Geez command scripts. The camera angle is low, emphasizing his authority, with a shallow depth of field blurring the distant, grid-like structure of the simulation dome. The atmosphere is heavy, filled with digital particulates and heat distortion. 8k resolution, cinematic lighting, moody drama aesthetic.
+
+---

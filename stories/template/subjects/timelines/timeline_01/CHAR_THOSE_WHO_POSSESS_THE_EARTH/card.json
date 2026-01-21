@@ -1,0 +1,114 @@
+{
+  "id": "CHAR_THOSE_WHO_POSSESS_THE_EARTH",
+  "name": "those who possess the earth",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for those who possess the earth.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A group characterized by their power and high status on Earth.'}",
+      "Roles: antagonist_group"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A group characterized by their power and high status on Earth.'}"
+    ],
+    "prompt_block": "those who possess the earth, {'description': 'A group characterized by their power and high status on Earth.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A group characterized by their power and high status on Earth.'}"
+        ],
+        "prompt_block": "those who possess the earth, {'description': 'A group characterized by their power and high status on Earth.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A group characterized by their power and high status on Earth.'}"
+        ],
+        "prompt_block": "those who possess the earth, {'description': 'A group characterized by their power and high status on Earth.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A group characterized by their power and high status on Earth.'}"
+        ],
+        "prompt_block": "those who possess the earth, {'description': 'A group characterized by their power and high status on Earth.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THOSE_WHO_POSSESS_THE_EARTH",
+    "name": "those who possess the earth",
+    "type": "character",
+    "aliases": [
+      "those who possess the earth"
+    ],
+    "roles": [
+      "antagonist_group"
+    ],
+    "visual_traits": [
+      "{'description': 'A group characterized by their power and high status on Earth.'}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: pre-judgment', 'description': 'Strong and exalted.'}",
+      "{'phase': 'Phase 2: post-judgment', 'description': 'No longer strong or exalted; unable to look upon the holy ones.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1131"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 38,
+        "chapter_end": 37,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 38,
+        "chapter_end": 37,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: pre-judgment', 'description': 'Strong and exalted.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 38,
+        "chapter_end": 38,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: post-judgment', 'description': 'No longer strong or exalted; unable to look upon the holy ones.'}"
+        ]
+      }
+    ]
+  }
+}

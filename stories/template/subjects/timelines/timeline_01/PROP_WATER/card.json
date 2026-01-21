@@ -1,0 +1,107 @@
+{
+  "id": "PROP_WATER",
+  "name": "water",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for water.",
+    "visual_anatomy": [
+      "Traits: Drink (ማይ) consumed by sinners., Ordinary water (ማየ) consumed by a group of sinners., Used in a simile to describe how the mountains will flow downwards., Used in a simile to describe how wisdom is 'poured out'., fills the whole earth, flows out from the first mountain, liquid, unknown, {'description': \"Water ('ማይ') used as a simile for the abundance in the sinners' storehouses and the flow of their falsehoods.\"}, {'description': 'A substance that fills the earth.'}, {'description': 'Water that gushes, flows in channels, and ascends.'}",
+      "Roles: actor_prop:the sinners, natural element, natural element that can be moved by wind or storm, scene_prop, subject, unknown"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Drink (ማይ) consumed by sinners.",
+      "Ordinary water (ማየ) consumed by a group of sinners.",
+      "Used in a simile to describe how the mountains will flow downwards.",
+      "Used in a simile to describe how wisdom is 'poured out'.",
+      "fills the whole earth",
+      "flows out from the first mountain",
+      "liquid",
+      "unknown",
+      "{'description': \"Water ('ማይ') used as a simile for the abundance in the sinners' storehouses and the flow of their falsehoods.\"}",
+      "{'description': 'A substance that fills the earth.'}",
+      "{'description': 'Water that gushes, flows in channels, and ascends.'}"
+    ],
+    "prompt_block": "water, Drink (ማይ) consumed by sinners., Ordinary water (ማየ) consumed by a group of sinners., Used in a simile to describe how the mountains will flow downwards., Used in a simile to describe how wisdom is 'poured out'., fills the whole earth, flows out from the first mountain, liquid, unknown, {'description': \"Water ('ማይ') used as a simile for the abundance in the sinners' storehouses and the flow of their falsehoods.\"}, {'description': 'A substance that fills the earth.'}, {'description': 'Water that gushes, flows in channels, and ascends.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Drink (ማይ) consumed by sinners.",
+          "Ordinary water (ማየ) consumed by a group of sinners.",
+          "Used in a simile to describe how the mountains will flow downwards.",
+          "Used in a simile to describe how wisdom is 'poured out'.",
+          "fills the whole earth",
+          "flows out from the first mountain",
+          "liquid",
+          "unknown",
+          "{'description': \"Water ('ማይ') used as a simile for the abundance in the sinners' storehouses and the flow of their falsehoods.\"}",
+          "{'description': 'A substance that fills the earth.'}",
+          "{'description': 'Water that gushes, flows in channels, and ascends.'}"
+        ],
+        "prompt_block": "water, Drink (ማይ) consumed by sinners., Ordinary water (ማየ) consumed by a group of sinners., Used in a simile to describe how the mountains will flow downwards., Used in a simile to describe how wisdom is 'poured out'., fills the whole earth, flows out from the first mountain, liquid, unknown, {'description': \"Water ('ማይ') used as a simile for the abundance in the sinners' storehouses and the flow of their falsehoods.\"}, {'description': 'A substance that fills the earth.'}, {'description': 'Water that gushes, flows in channels, and ascends.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_WATER",
+    "name": "water",
+    "type": "prop",
+    "aliases": [
+      "Water",
+      "water"
+    ],
+    "roles": [
+      "actor_prop:the sinners",
+      "scene_prop",
+      "unknown"
+    ],
+    "visual_traits": [
+      "Drink (ማይ) consumed by sinners.",
+      "Ordinary water (ማየ) consumed by a group of sinners.",
+      "Used in a simile to describe how the mountains will flow downwards.",
+      "Used in a simile to describe how wisdom is 'poured out'.",
+      "fills the whole earth",
+      "flows out from the first mountain",
+      "{'description': \"Water ('ማይ') used as a simile for the abundance in the sinners' storehouses and the flow of their falsehoods.\"}",
+      "{'description': 'A substance that fills the earth.'}",
+      "{'description': 'Water that gushes, flows in channels, and ascends.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1058",
+      "row_1096",
+      "row_1121",
+      "row_1124",
+      "row_1141",
+      "row_1142",
+      "row_1145",
+      "row_1189",
+      "row_1190",
+      "row_1191"
+    ],
+    "occurrence_count": 20,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 2,
+        "chapter_end": 98,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

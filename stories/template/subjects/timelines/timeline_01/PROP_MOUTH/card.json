@@ -1,0 +1,67 @@
+{
+  "id": "PROP_MOUTH",
+  "name": "Mouth",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Mouth.",
+    "visual_anatomy": [
+      "Traits: A part of the body given to humanity by God for speech.",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A part of the body given to humanity by God for speech."
+    ],
+    "prompt_block": "Mouth, A part of the body given to humanity by God for speech.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A part of the body given to humanity by God for speech."
+        ],
+        "prompt_block": "Mouth, A part of the body given to humanity by God for speech."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_MOUTH",
+    "name": "Mouth",
+    "type": "prop",
+    "aliases": [
+      "Mouth"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "A part of the body given to humanity by God for speech."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1177"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 84,
+        "chapter_end": 84,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

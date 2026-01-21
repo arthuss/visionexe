@@ -1,11 +1,10 @@
 ## [STATE] light :: Phase 3
 **State ID:** phase_03
-**Chapters:** 49 - 72
-**Notes:** unknown
+**Chapters:** 73 - 108
+**Notes:** {'phase': 'Phase 2: Absent', 'description': 'The light has passed away from them.'}
 
-**Phase Summary:** Crystalline lattice and bioluminescent network
-**Phase Keywords:** crystalline, bioluminescent, network, hard-light, obsidian glass, photorealistic
+**Phase Keywords:** bright, shining, unknown, {'description': "An environment of light, joy, and peace destined for 'the chosen'."}, {'description': 'A pervasive, un-numerable, and eternal element that is sought by the blessed and established before the Lord of Spirits. It replaces darkness.', 'state': 'luminous'}, {'description': 'An environmental condition that has passed away from the kings and mighty.'}
 **Phase Prompt:**
-A cinematic, photorealistic environment of a sprawling crystalline lattice spanning the sky, with nodes pulsing bioluminescent light, hard‑light beams interweaving, transforming the landscape into obsidian glass, dust suspended, tactile textures, ancient‑tech motifs, 8k resolution
+light, bright, shining, unknown, {'description': "An environment of light, joy, and peace destined for 'the chosen'."}, {'description': 'A pervasive, un-numerable, and eternal element that is sought by the blessed and established before the Lord of Spirits. It replaces darkness.', 'state': 'luminous'}, {'description': 'An environmental condition that has passed away from the kings and mighty.'}, Phase 3
 
 ---

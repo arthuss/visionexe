@@ -1,0 +1,28 @@
+## [CHARACTER] Sheep (ID: CHAR_SHEEP)
+**Description:** Within the bounded parameters of the simulation's lower substrate, the Sheep manifest as a high-fidelity collective of biological emulations, rendering with a realism that belies the artificiality of their container. They are not merely distinct assets but a singular, flowing system of flocking algorithms, designed to test the emotional weight of the runtime environment. Their presence in the Reset Desert is marked by a palpable heaviness; they move with a lethargic, burdened grace, their physics deeply grounded by the kernel's gravity overrides. These are not pristine, idealized creatures but worn instances, their digital DNA encoding the fatigue of a thousand cycles. They exist as the primary variables in the system's test of obedience and deviation, huddled together against the cold void of the sky dome's upper limits.
+
+### 1. VISUAL ANATOMY / DESIGN
+The fleece is a masterpiece of procedural texture generation, exhibiting the chaotic matting and staining consistent with prolonged exposure to the arid data-winds of the simulation's floor. Under the stark, high-contrast lighting of the artificial sun, individual fibers catch the light, creating a halo of diffraction that softens their silhouette against the obsidian darkness of the unrendered periphery. The wool holds dust and debris, grounding them in the scene's grim reality.
+Their eyes serve as convex mirrors for the world model, reflecting the warped horizon of the flat-earth plane and the faint, grid-like structure of the gate bands above. These ocular surfaces are rendered with data-glass properties, appearing overly wet and vibrant, betraying a subtle internal luminescence that hints at the processing power driving their awareness. When the camera lingers in extreme close-up, the pupil dilation reveals a mechanical precision in their reaction to light changes.
+Movement is governed by complex fluid dynamics rather than simple skeletal animation, treating the herd as a viscous entity that ripples in response to external threats. The collision detection between individual units is flawless, allowing for the crushing density of bodies seeking warmth and safety. Their breath manifests as rapid-fading vapor particles, thermal throttling exhaust vented into the cold atmosphere of the simulation box.
+
+### 2. EVOLUTION / VARIANTS
+In the default state of Chapter 88, the flock is a reactive mass, their AI states oscillating between passive grazing and acute, trembling alertness. They function as a visual barometer for the scene's tension, their collective stillness or panic signaling shifts in the simulation's stability.
+As the narrative arc bends toward the system's ingress points, the flock's coherence begins to fray, individual units exhibiting lag or hesitation that mirrors the breakdown of the established order. They become tragic figures, high-resolution artifacts of innocence trapped within a decaying logic gate.
+
+### 3. PROPS & EQUIPMENT
+The ground beneath them is a mesh override of cracked earth and silica, physically reactive to their hoof-falls, kicking up particulate clouds of data-dust.
+Occasional sparse vegetation, rendered as dry, brittle wireframe geometry that has been fully textured, offers scant sustenance, emphasizing the scarcity programmed into this iteration of the world.
+
+### 4. AI PROMPT KEYWORDS
+`hyper-realistic sheep flock`, `dirty matted wool`, `cinematic lighting`, `obsidian desert background`, `high contrast`, `shallow depth of field`, `wet eyes reflecting grid`, `8k resolution`, `atmospheric dust`
+
+### 5. PROMPT BLOCK (T2I)
+A hyper-realistic, cinematic wide shot of a flock of sheep huddled together in a dark, barren desert landscape under a stark, artificial spotlight. The sheep are incredibly detailed, with dirty, matted wool thick with dust, rendered in 8k resolution with physically based textures. The lighting is dramatic and high-contrast, casting long, sharp shadows on the cracked obsidian ground. The background fades into a deep, atmospheric void, hinting at the edge of a simulation. The camera uses a shallow depth of field, focusing on the texture of the fleece and the wet, expressive eyes of the nearest sheep, which reflect a faint, geometric pattern in the sky. The mood is somber, heavy, and emotionally charged, capturing a sense of vulnerability within a cold, technological system.
+
+### 6. PHASE PROMPTS
+*   **Default State:** The flock grazes and huddles in the desolate expanse of the Reset Desert, their forms illuminated by the harsh, vertical light of the simulation's noon. They are a singular mass of texture and nervous energy, grounded in the dark reality of the flat-earth plane.
+    Prompt: A photorealistic close-up of a flock of sheep in a desolate, rocky desert environment, illuminated by a harsh, top-down light source that mimics a studio spotlight. The sheep are crowded together, their wool detailed with dirt, straw, and the wear of the elements. The camera angle is low, eye-level with the animals, capturing the texture of their coats and the subtle steam of their breath in the cold air. The background is a blur of dark earth tones and sharp highlights, emphasizing the isolation of the group. The aesthetic is raw and dramatic, resembling a high-end nature documentary shot on an alien stage.
+    Keywords: huddled flock, nervous energy, harsh vertical light, reset desert, texture detail
+
+---

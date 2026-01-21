@@ -2,9 +2,7 @@
 **State ID:** default
 **Chapters:** 14 - 106
 
-**Phase Summary:** Unified depiction of the human group across multiple mystical tech environments.
-**Phase Keywords:** ancient, Ethiopian, Egyptian, golden, obsidian, metallic, holographic, light, forcefield, liquid, wireframe, monolith, moonlight, photorealistic, cinematic
 **Phase Prompt:**
-A cinematic, photorealistic vertical 9:16 shot of a diverse human group standing in a chaotic desert, surrounded by a translucent golden hexagonal forcefield, with glowing Ge'ez holographic glyphs floating above them, while a massive obsidian hand sweeps through the crowd, liquifying them into bright red metallic fluid droplets that scatter toward the camera, a wall of light passes through them revealing a glowing blue‑white wireframe mesh behind the light, all under a sharp moonlight beam that illuminates the righteous group, contrasted against dark shadowed sinners, with matte black monoliths rising like firewall blocks, rendered with ancient Ethiopian and Egyptian motifs fused with incomprehensible advanced technology, cinematic 8k, 50mm lens, high speed photography, motion blur, dramatic lighting, tactile textures, realistic light behavior.
+People, audience, human, human group, object
 
 ---

@@ -1,0 +1,117 @@
+{
+  "id": "SETENV_WATERS_OF_THE_VALLEY",
+  "name": "Waters of the Valley",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Waters of the Valley.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Waters within the burning valley that are in turmoil. They originate from springs.'}",
+      "Roles: dynamic_prop"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Waters within the burning valley that are in turmoil. They originate from springs.'}"
+    ],
+    "prompt_block": "Waters of the Valley, {'description': 'Waters within the burning valley that are in turmoil. They originate from springs.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Waters within the burning valley that are in turmoil. They originate from springs.'}"
+        ],
+        "prompt_block": "Waters of the Valley, {'description': 'Waters within the burning valley that are in turmoil. They originate from springs.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Waters within the burning valley that are in turmoil. They originate from springs.'}"
+        ],
+        "prompt_block": "Waters of the Valley, {'description': 'Waters within the burning valley that are in turmoil. They originate from springs.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Waters within the burning valley that are in turmoil. They originate from springs.'}"
+        ],
+        "prompt_block": "Waters of the Valley, {'description': 'Waters within the burning valley that are in turmoil. They originate from springs.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_WATERS_OF_THE_VALLEY",
+    "name": "Waters of the Valley",
+    "type": "set_environment",
+    "aliases": [
+      "Waters of the Valley"
+    ],
+    "roles": [
+      "dynamic_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'Waters within the burning valley that are in turmoil. They originate from springs.'}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Healing', 'description': 'The waters serve as a cure for the body and soul of kings and the mighty.'}",
+      "{'phase': 'Phase 2: Cold', 'description': 'The water from the springs becomes cold when the judged angels ascend from it.'}",
+      "{'phase': 'Phase 3: Fire', 'description': 'The waters will transform into a fire that burns for eternity.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1161"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 67,
+        "chapter_end": 66,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Healing', 'description': 'The waters serve as a cure for the body and soul of kings and the mighty.'}"
+        ]
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 67,
+        "chapter_end": 66,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Cold', 'description': 'The water from the springs becomes cold when the judged angels ascend from it.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 67,
+        "chapter_end": 67,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 3: Fire', 'description': 'The waters will transform into a fire that burns for eternity.'}"
+        ]
+      }
+    ]
+  }
+}

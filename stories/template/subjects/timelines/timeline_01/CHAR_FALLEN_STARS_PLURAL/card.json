@@ -1,0 +1,114 @@
+{
+  "id": "CHAR_FALLEN_STARS_PLURAL",
+  "name": "Fallen Stars (plural)",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Fallen Stars (plural).",
+    "visual_anatomy": [
+      "Traits: {'description': 'A group of stars that fall from the sky.'}",
+      "Roles: antagonist"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A group of stars that fall from the sky.'}"
+    ],
+    "prompt_block": "Fallen Stars (plural), {'description': 'A group of stars that fall from the sky.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A group of stars that fall from the sky.'}"
+        ],
+        "prompt_block": "Fallen Stars (plural), {'description': 'A group of stars that fall from the sky.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A group of stars that fall from the sky.'}"
+        ],
+        "prompt_block": "Fallen Stars (plural), {'description': 'A group of stars that fall from the sky.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A group of stars that fall from the sky.'}"
+        ],
+        "prompt_block": "Fallen Stars (plural), {'description': 'A group of stars that fall from the sky.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_FALLEN_STARS_PLURAL",
+    "name": "Fallen Stars (plural)",
+    "type": "character",
+    "aliases": [
+      "Fallen Stars (plural)"
+    ],
+    "roles": [
+      "antagonist"
+    ],
+    "visual_traits": [
+      "{'description': 'A group of stars that fall from the sky.'}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Celestial', 'description': 'Appeared as bright stars in the sky.'}",
+      "{'phase': 'Phase 2: Terrestrial', 'description': 'After falling to earth, they revealed having private parts like those of horses.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1179"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 86,
+        "chapter_end": 85,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 86,
+        "chapter_end": 85,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Celestial', 'description': 'Appeared as bright stars in the sky.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 86,
+        "chapter_end": 86,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Terrestrial', 'description': 'After falling to earth, they revealed having private parts like those of horses.'}"
+        ]
+      }
+    ]
+  }
+}

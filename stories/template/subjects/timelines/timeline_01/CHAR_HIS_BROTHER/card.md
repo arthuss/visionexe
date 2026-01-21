@@ -1,0 +1,28 @@
+## [CHARACTER] His brother (ID: CHAR_HIS_BROTHER)
+**Description:** A tragic combatant unit within the invading Parthian-Mede array, rendered as a high-fidelity warrior operating under a corrupted identification protocol. In the simulation’s narrative layer, he represents the ultimate failure of kinship—a node in the network that, due to an injected 'spirit of disturbance' (a viral kernel panic), ceases to recognize its paired node. He stands amidst the chaotic data-storms of the battle for the Elect's surface plane, his cognition clouded by a vector field lensing that overlays enemy signatures onto his own bloodline. He is both the executioner and the victim of a system-wide authentication error, driven to slaughter his kin not out of malice, but through a tragic, programmed blindness where the metadata of 'family' has been stripped from his HUD.
+
+### 1. VISUAL ANATOMY / DESIGN
+The combatant is clad in armor that fuses ancient Mesopotamian aesthetics with the cold precision of the simulation's hardware. His cuirass is composed of tessellated obsidian plates that shift subtly like data-glass, reflecting the harsh, high-contrast lighting of the simulation's sky dome. Underneath, muscle fibers are visible as tight bundles of fiber-optic cabling, pulsing with a feverish, overheated orange plasma that signifies his agitated state.
+His face is the focal point of the dramatic horror—hyper-realistic skin textures rendered with PBR perfection, slick with sweat and grime, but partially obscured by a digital 'glitch' effect. This isn't a cartoonish pixelation, but a terrifying 'heat lensing' distortion around the eyes, suggesting the thermal throttling of his cognitive processors. The eyes themselves are wide, dilated, and devoid of recognition, reflecting the terrifying emptiness of a system that has deleted the concept of 'brother'.
+The environment around him is a dark, atmospheric theater of war. The ground is the 'surface plane' grid, cracked and bleeding raw data. The air is thick with 'data particles'—dust motes that glow with faint Geez glyphs, swirling in the turbulence of the melee. The lighting is cinematic and low-key, utilizing the 'vertical 9:16' framing to isolate him in his vertical slice of hell, emphasizing his solitude even in a crowd.
+
+### 2. EVOLUTION / VARIANTS
+Initially, the Brother moves with the synchronized precision of the invading swarm, his movements fluid and calculated, driven by the standard 'wolf' algorithm described in the source code. His IFF (Identification Friend or Foe) tags are green, signaling unity with his unit.
+As the 'spirit of disturbance' executes, his posture breaks. The smooth animation rig stutters. The plasma in his veins flares to a critical white-hot intensity. He enters the 'fratricide' state: movements become jagged, desperate, and heavy with the weight of the simulated physics overrides. He strikes out not with military efficiency, but with a horrifying, intimate brutality, unaware that the target he is dismantling is his own mirror image.
+
+### 3. PROPS & EQUIPMENT
+A heavy, two-handed weapon formed from 'kernel manifestation' matter—a dark, matte-black shaft that terminates in a jagged blade of unstable, violet plasma. It hums with a menacing, low-frequency audio artifact, sounding like a server rack straining under load.
+A fragmented helmet or head-wrap, torn during the conflict, revealing the damp, matted hair and the hyper-realistic texture of human desperation underneath. The fabric weaves mimic carbon fiber but drape like ancient linen.
+
+### 4. AI PROMPT KEYWORDS
+`hyper-realistic combatant`, `obsidian armor`, `fiber-optic muscle`, `glitch distortion face`, `thermal lensing eyes`, `fratricide tragedy`, `atmospheric battlefield`, `cinematic lighting`, `Octane render`, `8k resolution`
+
+### 5. PROMPT BLOCK (T2I)
+A hyper-realistic close-up of a Parthian warrior in a simulation-theory sci-fi setting, mid-battle. The subject is screaming in anguish, eyes wide and distorted by a heat-haze effect that represents cognitive failure. His armor is a mix of ancient lamellar and futuristic obsidian data-glass. Sweat beads on his forehead are rendered with macro-photography precision. The lighting is moody, high-contrast chiaroscuro, illuminating his face while the background falls into deep shadow filled with floating, glowing Geez glyph particles. The composition is vertical, emphasizing his isolation. The mood is tragic, dark, and intense, capturing the moment of unrecognized betrayal.
+
+### 6. PHASE PROMPTS
+*   **The Glitched Fratricide:** The combatant in the moment of tragic error, striking down his kin due to a system-blindness.
+    Prompt: Cinematic shot of a warrior striking downwards, his face twisted in a mix of rage and confusion. The target of his strike is obscured in shadow, but the attacker's face is lit by the violet glow of his plasma weapon. The air around his head is warped by a visual distortion field (simulated heat lensing). His armor plates reflect the chaotic battlefield data-stream. Shot on 35mm lens, f/1.8, hyper-detailed textures, emotional and raw.
+    Keywords: tragic hero, system error, brother against brother, obsidian and plasma, emotional anguish
+
+---

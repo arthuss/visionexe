@@ -1,0 +1,95 @@
+{
+  "id": "CHAR_NOAH",
+  "name": "Noah",
+  "type": "character",
+  "card": {
+    "description": "Noah manifests as a high-fidelity avatar instantiated directly from the kernel to witness the terminal instability of the simulation box. Unlike standard user proxies who navigate the surface plane in ignorance, Noah carries the burden of administrative foresight; he perceives the thermal throttling and mesh corruption of the flat earth as a personal tragedy. His existence is defined by a solemn, dramatic isolation, born from an initial compilation event where his sheer data luminosity overwhelmed the local rendering environment. He walks the obsidian wastes of the system boundaries not merely as a prophet, but as a living backup protocol, his physical form glowing with the raw code of the upper store while the world around him dissolves into entropy. The narrative frame treats him with the reverence of a tragic hero in a slow-burn cinema piece, emphasizing the emotional weight of being the sole observer of an impending hard reset.",
+    "visual_anatomy": [
+      "His dermal rendering defies standard environmental lighting, presenting an albedo of absolute white that mimics the properties of compressed snow, yet it is deeply underscored by a vascular vibrancy resembling the crimson subsurface scattering of a rose petal. This duality creates a hyper-realistic skin texture that appears almost translucent, suggesting a chassis barely containing the energy within. In the low-light conditions of the simulation's edge, his skin acts as a soft-light source, separating him from the crushed blacks of the background.",
+      "The ocular units are his most arresting feature; they do not merely reflect light but emit a calibrated, high-lumen beam capable of illuminating an entire interior cell. This biological projection functions like a localized floodlight, casting harsh, dramatic shadows that obscure his own expressions while revealing the flaws in the architecture around him. When his eyes are open, the scene's dynamic range is pushed to its limit, forcing the virtual camera to expose for his gaze while crushing the surrounding data-void into darkness.",
+      "Crowning this luminescent visage is a mane of hair possessing the texture of raw wool but the optical properties of fiber-optic cabling. It holds a static white charge, framing a face that bears the heavy, weary expression of a man who listens to the voice of the system administrator. The overall visual impact is one of beautiful, terrifying purity—a glitch in the darkness that refuses to be corrected."
+    ],
+    "evolution": [
+      "Originally instantiated as a 'child' process with unregulated output, his birth was a blinding event where his internal radiance flooded the geometry of his parent-node's dwelling, simulating the intensity of the sun within a closed room. This initial unrestrained state marked him as a deviation from the standard human template.",
+      "As the simulation cycle degrades toward the flood event, his radiance has tempered into a controlled, functional glow. He has matured from the passive, illuminating anomaly into the 'Voyager' phase, moving with the heavy, deliberate gait of a man burdened by the architectural blueprints of survival. His interaction with the world has shifted from unconscious irradiation to deliberate observation, witnessing the 'earth's distress' as a systemic failure he is destined to survive."
+    ],
+    "props": [
+      "He utilizes no physical instrumentation, as his connection to the 'Lord' (the external system admin) is an integrated wireless uplink. However, the environment responds to his proximity; surfaces of data-glass and obsidian often clear of condensation or interference patterns when he approaches, acting as a passive extension of his clearance level."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic portrait",
+      "bioluminescent eyes",
+      "translucent pale skin",
+      "crimson subsurface scattering",
+      "fiber-optic white hair",
+      "obsidian environment",
+      "cinematic lighting",
+      "volumetric god-rays",
+      "simulation glitch aesthetic",
+      "emotional drama",
+      "8k resolution",
+      "octane render"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic medium shot of Noah standing in a dark, high-contrast void within the simulation boundary. His skin is impossibly pale, textured like snow but glowing with deep red subsurface scattering, creating a vibrant, living translucency. His hair is a dense shock of white wool-like fibers that catch the ambient plasma light. His eyes are wide open, emitting powerful, blinding beams of light that cut through the volumetric fog of the scene, illuminating floating data particles and the jagged obsidian ground. The lighting is dramatic and moody, utilizing the character's own luminescence as the key light against a background of deep, crushed blacks and faint digital artifacts. The atmosphere is heavy with sorrow and anticipation, captured with a shallow depth of field and sharp focus on the texture of his weathering face.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "The Luminous Witness",
+        "summary": "Noah as the adult protagonist and burdened observer, carrying the visual traits of his miraculous origin while navigating the failing system.",
+        "prompt_keywords": [
+          "adult Noah",
+          "glowing eyes",
+          "dramatic shadows",
+          "system failure background"
+        ],
+        "prompt_block": "A hyper-realistic close-up of Noah, an adult figure with the visual intensity of a solar flare contained in human form. His skin is a stark white with rose-red undertones, glowing faintly in the dark, cavernous space of a failing simulation gate. His eyes emit a steady, piercing light that creates a lens-flare effect, casting long shadows behind him. He looks upward, his expression one of tragic acceptance, as faint geez glyphs and vector lines glitch in the air around him. The aesthetic is gritty, grounded sci-fi drama, with sweat beading on his glowing forehead, rendered in 8k with perfect physical light behavior."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_NOAH",
+    "name": "Noah",
+    "type": "character",
+    "aliases": [
+      "Noah"
+    ],
+    "roles": [
+      "Protagonist who witnesses the earth's distress and receives a divine promise.",
+      "newborn_child",
+      "protagonist",
+      "protagonist_family"
+    ],
+    "visual_traits": [
+      "Body is white as snow and red as a rose flower.",
+      "Described as 'pure' and 'good'.",
+      "Eyes are beautiful.",
+      "Hair of his head is white like wool.",
+      "When he opens his eyes, they shine and illuminate the whole house like the sun.",
+      "{'description': \"A newborn son, initially referred to as 'this son who is born' (ዘወልድ፡ዘተወልደ).\"}",
+      "{'description': 'A man to whom the Lord speaks. He is the narrator of the segment.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1159",
+      "row_1161",
+      "row_1199",
+      "row_1200"
+    ],
+    "occurrence_count": 8,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 65,
+        "chapter_end": 107,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

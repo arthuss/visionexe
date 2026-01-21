@@ -1,0 +1,17 @@
+{
+  "signature": "5c10d68a16ebd16e8e87f190e8d8a3b461c9612d",
+  "collection": "visionexe_small_memory",
+  "qdrant_url": "http://localhost:6337",
+  "embedding_model": "dengcao/Qwen3-Embedding-0.6B:Q8_0",
+  "embedding_endpoint": "http://localhost:11434/api/embeddings",
+  "max_chars": 1800,
+  "overlap": 200,
+  "batch_size": 8,
+  "include_media": true,
+  "chapters": [
+    "story_001"
+  ],
+  "total_docs": 28287,
+  "next_index": 8776,
+  "updated_at": 1768720575
+}

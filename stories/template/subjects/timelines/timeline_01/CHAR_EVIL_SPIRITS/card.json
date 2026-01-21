@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_EVIL_SPIRITS",
+  "name": "Evil Spirits",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Evil Spirits.",
+    "visual_anatomy": [
+      "Traits: {'description': \"Spirits that originated from the flesh of the dead Giants. They are also called 'spirits of the giants' ('መንፈሰ ረአይት'). Their dwelling is on Earth. They are described metaphorically as 'clouds' ('ደመናተ') that oppress, corrupt, fall, struggle, and crush on the earth, causing sorrow. They do not eat or drink, are invisible, and rise up against humans.\"}",
+      "Roles: malevolent entity"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"Spirits that originated from the flesh of the dead Giants. They are also called 'spirits of the giants' ('መንፈሰ ረአይት'). Their dwelling is on Earth. They are described metaphorically as 'clouds' ('ደመናተ') that oppress, corrupt, fall, struggle, and crush on the earth, causing sorrow. They do not eat or drink, are invisible, and rise up against humans.\"}"
+    ],
+    "prompt_block": "Evil Spirits, {'description': \"Spirits that originated from the flesh of the dead Giants. They are also called 'spirits of the giants' ('መንፈሰ ረአይት'). Their dwelling is on Earth. They are described metaphorically as 'clouds' ('ደመናተ') that oppress, corrupt, fall, struggle, and crush on the earth, causing sorrow. They do not eat or drink, are invisible, and rise up against humans.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"Spirits that originated from the flesh of the dead Giants. They are also called 'spirits of the giants' ('መንፈሰ ረአይት'). Their dwelling is on Earth. They are described metaphorically as 'clouds' ('ደመናተ') that oppress, corrupt, fall, struggle, and crush on the earth, causing sorrow. They do not eat or drink, are invisible, and rise up against humans.\"}"
+        ],
+        "prompt_block": "Evil Spirits, {'description': \"Spirits that originated from the flesh of the dead Giants. They are also called 'spirits of the giants' ('መንፈሰ ረአይት'). Their dwelling is on Earth. They are described metaphorically as 'clouds' ('ደመናተ') that oppress, corrupt, fall, struggle, and crush on the earth, causing sorrow. They do not eat or drink, are invisible, and rise up against humans.\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_EVIL_SPIRITS",
+    "name": "Evil Spirits",
+    "type": "character",
+    "aliases": [
+      "Evil Spirits"
+    ],
+    "roles": [
+      "malevolent entity"
+    ],
+    "visual_traits": [
+      "{'description': \"Spirits that originated from the flesh of the dead Giants. They are also called 'spirits of the giants' ('መንፈሰ ረአይት'). Their dwelling is on Earth. They are described metaphorically as 'clouds' ('ደመናተ') that oppress, corrupt, fall, struggle, and crush on the earth, causing sorrow. They do not eat or drink, are invisible, and rise up against humans.\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1109"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 15,
+        "chapter_end": 15,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

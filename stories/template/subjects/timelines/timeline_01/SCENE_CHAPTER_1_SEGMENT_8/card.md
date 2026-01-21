@@ -1,25 +1,20 @@
 ## [SCENE] Chapter 1 Segment 8 (ID: SCENE_CHAPTER_1_SEGMENT_8)
-**Description:** A colossal obsidian monolith, the Obsidian Ankh Reactor, rises from the earth like a forgotten god. Its surface is a labyrinth of deep-carved glyphs—Ethiopian Ge'ez and Egyptian hieroglyphs intertwined—each etched with a faint, pulsing bioluminescence that shifts from cobalt blue to amber as the device awakens. Embedded within the stone are crystalline lattices of quartz and sapphire, their facets refracting light into a spectrum of iridescent hues. The reactor’s core, a pulsating core of black glass, throbs with a low, resonant hum, while faint, translucent filaments of plasma snake across the surface, connecting glyphs to the crystalline network. The entire structure exudes a tangible, metallic scent of ozone and ancient incense, hinting at the fusion of time-honored mysticism and incomprehensible technology.
-**Tags:** #ancient-tech #obsidian #glyphs #crystalline circuitry #bioluminescence #industrial mysticism #Ethiopian #Egyptian
+**Description:** Auto-generated asset card for Chapter 1 Segment 8.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Monolithic obsidian block, 12m tall, 4m wide, carved chambers and conduits; **Face/Sensors:** Glyph-etched panels with bioluminescent sensors, plasma filaments; **Clothing/Armor:** None; **Key Features:** Integrated crystalline lattice, bioluminescent glyphs, pulsating black glass core, plasma conduits, ozone‑infused air
+TBD.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Dormant): Monolith stands silent, glyphs faintly etched, no light, core inert; Phase 2 (Activation): Glyphs glow, plasma filaments ignite, core pulses, the structure emits a low hum and a warm, metallic scent.
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Scribe's Stone – a weathered basalt tablet bearing a complementary set of glyphs; Item: Crystalline Core – a detachable sapphire‑quartz core used to calibrate the reactor.
-
-### 4. AI PROMPT KEYWORDS
-`obsidian`, `ancient-tech`, `glyphs`, `crystalline`, `bioluminescence`, `industrial mysticism`
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
-A colossal obsidian monolith rises from the earth, its surface a labyrinth of intertwined Ethiopian Ge'ez and Egyptian hieroglyphs pulsing with bioluminescent light that shifts from cobalt blue to amber. Embedded crystalline lattices of quartz and sapphire refract the glow into iridescent hues, while a pulsating black glass core emits a low resonant hum. Translucent plasma filaments snake across the surface, connecting glyphs to the crystalline network, and the air around the structure carries a metallic scent of ozone and ancient incense, blending time‑honored mysticism with incomprehensible technology.
+Chapter 1 Segment 8,
 
 ### 6. PHASE PROMPTS
-*   **Default:** The Obsidian Ankh Reactor in its dormant state, with faint glyphs and no active plasma.
-    Prompt: A colossal obsidian monolith stands silent, its surface etched with faint Ethiopian and Egyptian glyphs that glow only in the faintest blue. Embedded crystalline lattices of quartz and sapphire are visible but inactive, and no plasma filaments are present. The air around it carries a subtle metallic scent, hinting at the ancient‑tech fusion that lies dormant within.
-    Keywords: obsidian, glyphs, crystalline, dormant
+*   **Default:**
+    Prompt: Chapter 1 Segment 8,
 
 ---

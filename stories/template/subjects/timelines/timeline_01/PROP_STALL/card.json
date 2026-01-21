@@ -1,0 +1,67 @@
+{
+  "id": "PROP_STALL",
+  "name": "Stall",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Stall.",
+    "visual_anatomy": [
+      "Traits: {'description': 'The enclosure or manger for the cattle, which the bulls changed.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The enclosure or manger for the cattle, which the bulls changed.'}"
+    ],
+    "prompt_block": "Stall, {'description': 'The enclosure or manger for the cattle, which the bulls changed.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The enclosure or manger for the cattle, which the bulls changed.'}"
+        ],
+        "prompt_block": "Stall, {'description': 'The enclosure or manger for the cattle, which the bulls changed.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_STALL",
+    "name": "Stall",
+    "type": "prop",
+    "aliases": [
+      "Stall"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'The enclosure or manger for the cattle, which the bulls changed.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1179"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 86,
+        "chapter_end": 86,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

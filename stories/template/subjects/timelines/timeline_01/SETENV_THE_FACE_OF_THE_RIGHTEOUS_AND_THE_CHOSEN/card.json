@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_THE_FACE_OF_THE_RIGHTEOUS_AND_THE_CHOSEN",
+  "name": "the face of the righteous and the chosen",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for the face of the righteous and the chosen.",
+    "visual_anatomy": [
+      "Traits: {'description': 'The presence of the righteous, from which the wicked are driven.'}",
+      "Roles: area_of_expulsion"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The presence of the righteous, from which the wicked are driven.'}"
+    ],
+    "prompt_block": "the face of the righteous and the chosen, {'description': 'The presence of the righteous, from which the wicked are driven.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The presence of the righteous, from which the wicked are driven.'}"
+        ],
+        "prompt_block": "the face of the righteous and the chosen, {'description': 'The presence of the righteous, from which the wicked are driven.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_FACE_OF_THE_RIGHTEOUS_AND_THE_CHOSEN",
+    "name": "the face of the righteous and the chosen",
+    "type": "set_environment",
+    "aliases": [
+      "the face of the righteous and the chosen"
+    ],
+    "roles": [
+      "area_of_expulsion"
+    ],
+    "visual_traits": [
+      "{'description': 'The presence of the righteous, from which the wicked are driven.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1131"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 38,
+        "chapter_end": 38,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

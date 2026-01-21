@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_HOLY_MOUNTAIN",
+  "name": "holy mountain",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for holy mountain.",
+    "visual_anatomy": [
+      "Traits: A sacred mountain.",
+      "Roles: landmark"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A sacred mountain."
+    ],
+    "prompt_block": "holy mountain, A sacred mountain.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A sacred mountain."
+        ],
+        "prompt_block": "holy mountain, A sacred mountain."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_HOLY_MOUNTAIN",
+    "name": "holy mountain",
+    "type": "set_environment",
+    "aliases": [
+      "holy mountain"
+    ],
+    "roles": [
+      "landmark"
+    ],
+    "visual_traits": [
+      "A sacred mountain."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1120"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 26,
+        "chapter_end": 26,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

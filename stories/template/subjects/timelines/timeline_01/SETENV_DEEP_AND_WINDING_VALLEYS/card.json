@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_DEEP_AND_WINDING_VALLEYS",
+  "name": "Deep and winding valleys",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Deep and winding valleys.",
+    "visual_anatomy": [
+      "Traits: separates the mountains so they do not approach each other",
+      "Roles: topography"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "separates the mountains so they do not approach each other"
+    ],
+    "prompt_block": "Deep and winding valleys, separates the mountains so they do not approach each other",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "separates the mountains so they do not approach each other"
+        ],
+        "prompt_block": "Deep and winding valleys, separates the mountains so they do not approach each other"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_DEEP_AND_WINDING_VALLEYS",
+    "name": "Deep and winding valleys",
+    "type": "set_environment",
+    "aliases": [
+      "Deep and winding valleys"
+    ],
+    "roles": [
+      "topography"
+    ],
+    "visual_traits": [
+      "separates the mountains so they do not approach each other"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1117"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 24,
+        "chapter_end": 24,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

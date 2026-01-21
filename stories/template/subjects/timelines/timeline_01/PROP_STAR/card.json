@@ -3,63 +3,30 @@
   "name": "star",
   "type": "prop",
   "card": {
-    "description": "A photorealistic celestial node rendered as a pixelated star with glitch artifacts, revealing a dark blue CAD‑style wireframe grid adorned with ancient Ethiopian glyphs behind it, set against a desert night sky.",
-    "tags": [
-      "celestial",
-      "glitch",
-      "wireframe",
-      "ancient-tech",
-      "pixelated",
-      "night-sky",
-      "photorealistic",
-      "desert",
-      "bio-luminescent"
-    ],
+    "description": "Auto-generated asset card for star.",
     "visual_anatomy": [
-      "**Body/Form:** A luminous sphere composed of square pixels, rendered with subtle photorealistic shading to simulate a celestial node.",
-      "**Face/Sensors:** None; the star is a pure light source.",
-      "**Clothing/Armor:** None.",
-      "**Key Features:** Glitch artifacts, vertical dead‑pixel scanline, dark blue CAD‑style wireframe grid behind the star, ancient Ethiopian glyphs etched into the grid, crystalline nodes, bio‑luminescent glow, photorealistic desert landscape below."
+      "Traits: sparkling",
+      "Roles: celestial body, celestial object, natural element"
     ],
     "evolution": [
-      "Phase 1 (Initial): A simple luminous sphere representing a celestial node, rendered with a faint ancient glyph pattern etched into its surface.",
-      "Phase 2 (Glitch Overlay): The star transforms into a pixelated glitch artifact composed of square pixels, a vertical dead‑pixel scanline reveals a dark blue wireframe grid behind it, adorned with crystalline nodes and ancient Ethiopian glyphs, emitting bio‑luminescent light."
+      "Phase (Default)"
     ],
     "props": [
-      "Vector Grid Overlay",
-      "Dead-pixel scanline"
+      "TBD."
     ],
     "prompt_keywords": [
-      "glitch",
-      "wireframe",
-      "ancient glyphs",
-      "pixelated star",
-      "night sky",
-      "photorealistic",
-      "desert",
-      "bio-luminescent",
-      "8k",
-      "vertical scanline"
+      "sparkling"
     ],
-    "prompt_block": "A cinematic night sky shot in 8k resolution, featuring a star rendered as a luminous sphere composed of square pixels, glitch artifacts, and a vertical dead‑pixel scanline that tears through the image revealing a dark blue CAD‑style wireframe grid behind the star, the grid adorned with ancient Ethiopian glyphs and crystalline nodes, the star emitting bio‑luminescent glow, photorealistic desert landscape below, --ar 9:16",
+    "prompt_block": "star, sparkling",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Base star with glitch and wireframe overlay",
+        "summary": "",
         "prompt_keywords": [
-          "glitch",
-          "wireframe",
-          "ancient glyphs",
-          "pixelated star",
-          "night sky",
-          "photorealistic",
-          "desert",
-          "bio-luminescent",
-          "8k",
-          "vertical scanline"
+          "sparkling"
         ],
-        "prompt_block": "A cinematic night sky shot in 8k resolution, featuring a star rendered as a luminous sphere composed of square pixels, glitch artifacts, and a vertical dead‑pixel scanline that tears through the image revealing a dark blue CAD‑style wireframe grid behind the star, the grid adorned with ancient Ethiopian glyphs and crystalline nodes, the star emitting bio‑luminescent glow, photorealistic desert landscape below, --ar 9:16"
+        "prompt_block": "star, sparkling"
       }
     ]
   },
@@ -79,7 +46,7 @@
     "sources": [
       "row_567"
     ],
-    "occurrence_count": 1,
+    "occurrence_count": 2,
     "is_dynamic": false,
     "state_policy": "static",
     "states": [

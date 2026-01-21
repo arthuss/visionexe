@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_THE_LIGHTS_OF_HEAVEN",
+  "name": "The Lights of Heaven",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Lights of Heaven.",
+    "visual_anatomy": [
+      "Traits: Celestial bodies that travel in the sky.",
+      "Roles: celestial_body"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Celestial bodies that travel in the sky."
+    ],
+    "prompt_block": "The Lights of Heaven, Celestial bodies that travel in the sky.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Celestial bodies that travel in the sky."
+        ],
+        "prompt_block": "The Lights of Heaven, Celestial bodies that travel in the sky."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_LIGHTS_OF_HEAVEN",
+    "name": "The Lights of Heaven",
+    "type": "character",
+    "aliases": [
+      "The Lights of Heaven"
+    ],
+    "roles": [
+      "celestial_body"
+    ],
+    "visual_traits": [
+      "Celestial bodies that travel in the sky."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1056"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 2,
+        "chapter_end": 2,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

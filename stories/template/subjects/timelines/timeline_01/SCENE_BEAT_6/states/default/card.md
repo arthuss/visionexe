@@ -2,9 +2,7 @@
 **State ID:** default
 **Chapters:** 2 - 99
 
-**Phase Summary:** Initial exploration of the subterranean temple before activation
-**Phase Keywords:** bioluminescent, crystalline, glyphs, basalt, ancient, technology, Ethiopian, Egyptian, industrial, mysticism
 **Phase Prompt:**
-A subterranean basalt chamber with a colossal stone altar etched in bioluminescent Ethiopian and Egyptian glyphs, a crystalline core pulsing with blue light, metallic conduits embedded in jagged stone columns, obsidian lanterns casting fractured reflections, a tattered indigo linen robe draped over a figure placing a bronze scepter onto the altar, dust motes swirling in a low hum, photorealistic, tactile, cinematic lighting
+Beat 6, unknown, ሰማይ
 
 ---

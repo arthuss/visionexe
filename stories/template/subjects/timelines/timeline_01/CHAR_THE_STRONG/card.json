@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_THE_STRONG",
+  "name": "The Strong",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Strong.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Powerful individuals whose faces are cast down in shame and whose dwelling becomes darkness.'}",
+      "Roles: character"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Powerful individuals whose faces are cast down in shame and whose dwelling becomes darkness.'}"
+    ],
+    "prompt_block": "The Strong, {'description': 'Powerful individuals whose faces are cast down in shame and whose dwelling becomes darkness.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Powerful individuals whose faces are cast down in shame and whose dwelling becomes darkness.'}"
+        ],
+        "prompt_block": "The Strong, {'description': 'Powerful individuals whose faces are cast down in shame and whose dwelling becomes darkness.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_STRONG",
+    "name": "The Strong",
+    "type": "character",
+    "aliases": [
+      "The Strong"
+    ],
+    "roles": [
+      "character"
+    ],
+    "visual_traits": [
+      "{'description': 'Powerful individuals whose faces are cast down in shame and whose dwelling becomes darkness.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1140"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 46,
+        "chapter_end": 46,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

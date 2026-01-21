@@ -1,0 +1,72 @@
+{
+  "id": "SETENV_THE_DRY_GROUND",
+  "name": "the dry ground",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for the dry ground.",
+    "visual_anatomy": [
+      "Traits: solid land, terrestrial",
+      "Roles: terrestrial setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "solid land",
+      "terrestrial"
+    ],
+    "prompt_block": "the dry ground, solid land, terrestrial",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "solid land",
+          "terrestrial"
+        ],
+        "prompt_block": "the dry ground, solid land, terrestrial"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_DRY_GROUND",
+    "name": "the dry ground",
+    "type": "set_environment",
+    "aliases": [
+      "The Dry Ground",
+      "the dry ground"
+    ],
+    "roles": [
+      "terrestrial setting"
+    ],
+    "visual_traits": [
+      "solid land",
+      "terrestrial"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1131",
+      "row_1162"
+    ],
+    "occurrence_count": 8,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 38,
+        "chapter_end": 70,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

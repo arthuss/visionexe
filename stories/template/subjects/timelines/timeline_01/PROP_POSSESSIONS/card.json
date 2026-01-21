@@ -1,0 +1,73 @@
+{
+  "id": "PROP_POSSESSIONS",
+  "name": "possessions",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for possessions.",
+    "visual_anatomy": [
+      "Traits: General goods and wealth (ንዋያቲሆሙ) with which sinners will perish., {'description': \"General wealth and goods ('ንዋይ', 'ብዕል') held by the sinners.\"}",
+      "Roles: actor_prop:the sinners, scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "General goods and wealth (ንዋያቲሆሙ) with which sinners will perish.",
+      "{'description': \"General wealth and goods ('ንዋይ', 'ብዕል') held by the sinners.\"}"
+    ],
+    "prompt_block": "possessions, General goods and wealth (ንዋያቲሆሙ) with which sinners will perish., {'description': \"General wealth and goods ('ንዋይ', 'ብዕል') held by the sinners.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "General goods and wealth (ንዋያቲሆሙ) with which sinners will perish.",
+          "{'description': \"General wealth and goods ('ንዋይ', 'ብዕል') held by the sinners.\"}"
+        ],
+        "prompt_block": "possessions, General goods and wealth (ንዋያቲሆሙ) with which sinners will perish., {'description': \"General wealth and goods ('ንዋይ', 'ብዕል') held by the sinners.\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_POSSESSIONS",
+    "name": "possessions",
+    "type": "prop",
+    "aliases": [
+      "Possessions",
+      "possessions"
+    ],
+    "roles": [
+      "actor_prop:the sinners",
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "General goods and wealth (ንዋያቲሆሙ) with which sinners will perish.",
+      "{'description': \"General wealth and goods ('ንዋይ', 'ብዕል') held by the sinners.\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1190",
+      "row_1191"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 97,
+        "chapter_end": 98,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

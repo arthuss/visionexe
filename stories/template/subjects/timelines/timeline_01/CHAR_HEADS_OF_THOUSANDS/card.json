@@ -1,0 +1,85 @@
+{
+  "id": "CHAR_HEADS_OF_THOUSANDS",
+  "name": "Heads of Thousands",
+  "type": "character",
+  "card": {
+    "description": "Within the architecture of the simulation, the Heads of Thousands function as the Grand Schedulers, high-level kernel entities burdened with the granular partition of the system's runtime. They are the overseers of temporal stability, tasked with dividing the massive concurrency of the simulation's processing cycles into comprehensible 'days' for the inhabitants below. Their existence is defined by a stoic, unending vigilance; they stand as the lonely conductors of the celestial mechanism, bearing the crushing weight of synchronization. They do not merely observe time but actively enforce it, managing the egress and ingress of celestial proxies through the gate bands to ensure the physics engine maintains a coherent narrative flow. In the drama of the upper atmosphere, they are the silent, fatigued administrators of reality, ensuring the simulation does not suffer from thermal throttling or frame desynchronization.",
+    "visual_anatomy": [
+      "They manifest as imposing, humanoid pillars of matte obsidian, their surfaces drinking in the ambient light of the sky dome. While their silhouettes suggest a regal authority, their physical composition betrays their synthetic nature; their 'skin' is a high-density composite that resists the thermal intensity of the upper store. Their attire is not fabric but cascading sheets of smart-glass and woven fiber optics, displaying the flowing telemetry of the thousands of sub-processes they command. These garments drape heavily, glowing with faint, rhythmic pulses of plasma blue and amber, visualizing the heartbeat of the calendar they uphold.",
+      "Their faces are hyper-realistic projections of human sternness, rendered with pore-level detail to facilitate an interface of empathy, yet they often remain still, statue-like, conserving system resources. When they move, it is with the slow, deliberate gravity of a creature operating in a different time scale, their limbs leaving faint trails of vector distortion. The 'Thousands' they lead are represented not as individuals but as a complex, swirling halo of data particles and Geez glyphs that orbit their heads, a constant, buzzing swarm of tasks that they must mentally organize and dispatch.",
+      "The environment they inhabit is the stark, high-contrast control deck of the celestial gates—a place of absolute clarity and terrifying height. The floors are transparent data-glass, revealing the surface plane far below, while the air around them shimmers with heat lensing caused by the massive energy transfer of the sun-proxy passing through its gates. The lighting is strictly cinematic, often side-lit by the passing celestial bodies, casting long, sharp shadows that emphasize the isolation of their function."
+    ],
+    "evolution": [
+      "Throughout the standard cycle, their appearance remains largely static, reflecting the immutability of the laws they serve. However, the toll of their function is visible in the subtle 'thermal stress' on their obsidian shells—micro-fractures that glow with excess heat as the system load peaks during the transition between gates. Their posture shifts from commanding erectness at the start of a cycle to a visible, heavy weariness as the 'day' concludes, symbolizing the computational cost of maintaining the simulation's continuity."
+    ],
+    "props": [
+      "Each Head carries a 'Divider's Rod,' a slender, radiant staff formed from hard-light and plasma containment fields. This tool is used to physically interact with the gate mechanisms, prying open the ingress points for the celestial luminaries. It hums with a low frequency, vibrating with the power of the grid.",
+      "Floating autonomously around them are monolithic slates of transparent interface glass. These screens display the 'system manual' entries for the current epoch, scrolling with streams of scheduling data and error logs. The Heads interact with these not by touch, but by gaze, their eyes projecting thin beams of structured light to acknowledge or dismiss alerts."
+    ],
+    "prompt_keywords": [
+      "obsidian skin",
+      "smart-glass robes",
+      "fiber optic weave",
+      "celestial administrator",
+      "hyper-realistic face",
+      "cinematic lighting",
+      "heat lensing",
+      "vector field distortion",
+      "data particles",
+      "Geez glyphs",
+      "simulation sky dome",
+      "grand scale",
+      "moody atmosphere",
+      "8k resolution",
+      "octane render"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic wide shot of a 'Head of Thousands' standing alone on the transparent data-glass floor of the simulation's upper sky dome. The figure is a towering entity with skin of matte obsidian, wearing robes made of flowing fiber optics and smart-glass that display cascading golden telemetry. The face is a stern, photorealistic human visage, illuminated by the harsh, high-contrast light of a nearby plasma sun-proxy. Surrounding the head is a halo of floating Geez glyphs and data particles. The background shows the curvature of the flat-earth containment system and the grid-lines of the gate band. The atmosphere is heavy, dramatic, and laden with heat haze. Rendered in 8k, Octane Render, with a focus on texture details and atmospheric depth.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The Head of Thousands stands vigil at the celestial gate, managing the division of the day with stoic resolve.",
+        "prompt_keywords": [
+          "obsidian administrator",
+          "fiber optic robes",
+          "celestial gate",
+          "plasma sun light",
+          "stoic expression"
+        ],
+        "prompt_block": "A medium cinematic shot of a Head of Thousands, a regal obsidian figure, manipulating a floating holographic interface with a rod of solid light. The figure is framed against the blinding ingress gate of the sun, silhouette sharp against the plasma brilliance. The robes of fiber optic cable glow with internal data streams. The mood is solemn and weighty, emphasizing the burden of timekeeping in the simulation. High contrast, physically based rendering, hyper-realistic textures."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_HEADS_OF_THOUSANDS",
+    "name": "Heads of Thousands",
+    "type": "character",
+    "aliases": [
+      "Heads of Thousands"
+    ],
+    "roles": [
+      "A class of celestial leaders who divide the days."
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1175"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 82,
+        "chapter_end": 82,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_ELECT_ONE",
+  "name": "Elect One",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Elect One.",
+    "visual_anatomy": [
+      "Traits: Described as mighty, possessing eternal glory and might. The spirit of wisdom, insight, instruction, might, and of the righteous dead dwells within him.",
+      "Roles: judge"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Described as mighty, possessing eternal glory and might. The spirit of wisdom, insight, instruction, might, and of the righteous dead dwells within him."
+    ],
+    "prompt_block": "Elect One, Described as mighty, possessing eternal glory and might. The spirit of wisdom, insight, instruction, might, and of the righteous dead dwells within him.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Described as mighty, possessing eternal glory and might. The spirit of wisdom, insight, instruction, might, and of the righteous dead dwells within him."
+        ],
+        "prompt_block": "Elect One, Described as mighty, possessing eternal glory and might. The spirit of wisdom, insight, instruction, might, and of the righteous dead dwells within him."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ELECT_ONE",
+    "name": "Elect One",
+    "type": "character",
+    "aliases": [
+      "Elect One"
+    ],
+    "roles": [
+      "judge"
+    ],
+    "visual_traits": [
+      "Described as mighty, possessing eternal glory and might. The spirit of wisdom, insight, instruction, might, and of the righteous dead dwells within him."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1142"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 49,
+        "chapter_end": 49,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "CHAR_CHILDREN_OF_THE_EARTH",
+  "name": "Children of the Earth",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Children of the Earth.",
+    "visual_anatomy": [
+      "Traits: They tremble and are thrown into confusion., {'description': 'Humans who witness the events and react with fear.'}",
+      "Roles: character, observer"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "They tremble and are thrown into confusion.",
+      "{'description': 'Humans who witness the events and react with fear.'}"
+    ],
+    "prompt_block": "Children of the Earth, They tremble and are thrown into confusion., {'description': 'Humans who witness the events and react with fear.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "They tremble and are thrown into confusion.",
+          "{'description': 'Humans who witness the events and react with fear.'}"
+        ],
+        "prompt_block": "Children of the Earth, They tremble and are thrown into confusion., {'description': 'Humans who witness the events and react with fear.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_CHILDREN_OF_THE_EARTH",
+    "name": "Children of the Earth",
+    "type": "character",
+    "aliases": [
+      "Children of the Earth"
+    ],
+    "roles": [
+      "character",
+      "observer"
+    ],
+    "visual_traits": [
+      "They tremble and are thrown into confusion.",
+      "{'description': 'Humans who witness the events and react with fear.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1179",
+      "row_1195"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 86,
+        "chapter_end": 102,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "PROP_LEAD",
+  "name": "Lead",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Lead.",
+    "visual_anatomy": [
+      "Traits: A metal, forming a mountain. Also referred to as 'na'ek'.",
+      "Roles: scene_prop, unknown"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A metal, forming a mountain. Also referred to as 'na'ek'."
+    ],
+    "prompt_block": "Lead, A metal, forming a mountain. Also referred to as 'na'ek'.",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "A metal, forming a mountain. Also referred to as 'na'ek'."
+        ],
+        "prompt_block": "Lead, A metal, forming a mountain. Also referred to as 'na'ek'., Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "A metal, forming a mountain. Also referred to as 'na'ek'."
+        ],
+        "prompt_block": "Lead, A metal, forming a mountain. Also referred to as 'na'ek'., Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "A metal, forming a mountain. Also referred to as 'na'ek'."
+        ],
+        "prompt_block": "Lead, A metal, forming a mountain. Also referred to as 'na'ek'., Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_LEAD",
+    "name": "Lead",
+    "type": "prop",
+    "aliases": [
+      "Lead"
+    ],
+    "roles": [
+      "scene_prop",
+      "unknown"
+    ],
+    "visual_traits": [
+      "A metal, forming a mountain. Also referred to as 'na'ek'."
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Static', 'description': 'Exists as a mountain.'}",
+      "{'phase': 'Phase 2: Nullified', 'description': \"Becomes undesired, unvalued ('not counted'), and useless. It is removed from the earth.\"}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1141",
+      "row_1145",
+      "row_1159"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 48,
+        "chapter_end": 53,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 54,
+        "chapter_end": 59,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Static', 'description': 'Exists as a mountain.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 60,
+        "chapter_end": 65,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Nullified', 'description': \"Becomes undesired, unvalued ('not counted'), and useless. It is removed from the earth.\"}"
+        ]
+      }
+    ]
+  }
+}

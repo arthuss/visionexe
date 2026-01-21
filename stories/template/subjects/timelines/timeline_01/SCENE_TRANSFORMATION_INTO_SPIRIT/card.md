@@ -1,30 +1,20 @@
 ## [SCENE] Transformation into Spirit (ID: SCENE_TRANSFORMATION_INTO_SPIRIT)
-**Description:** A photorealistic cinematic matte of a lone figure in ancient Ethiopian and Egyptian garb, standing in a dim stone chamber. The figure is surrounded by swirling bio‑luminescent glyphs and crystalline shards that pulse from the joints. As the transformation begins, the body dissolves into a halo of translucent crystalline light, leaving a translucent silhouette that hovers above the stone floor. The scene blends grounded realism with industrial mysticism, featuring tactile textures, worn leather, etched copper plates, and a staff of obsidian and crystal.
-**Tags:** #ancient-tech #industrial mysticism #spirit transformation #Ethiopian #Egyptian #bio-luminescence #crystalline hardware #photorealistic #cinematic
+**Description:** Auto-generated asset card for Transformation into Spirit.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** The figure's torso is partially visible, with cracked leather armor and exposed bone where crystalline shards emerge. The limbs are elongated, ending in translucent, crystalline tendrils that glow with inner light.
-*   **Face/Sensors:** The face is partially obscured by a hood; a faint, pulsing glyph runs across the forehead, acting as a sensor array. The eyes are replaced by luminous orbs that flicker with ancient symbols.
-*   **Clothing/Armor:** Heavy linen robes dyed in deep indigo, reinforced with copper plates etched with turquoise and lapis lazuli motifs. The robes are adorned with ancient symbols that glow as the transformation progresses.
-*   **Key Features:** Swirling bio‑luminescent glyphs, crystalline shards, translucent silhouette, pulsing orbs, and a staff of obsidian with a central crystal that refracts light.
+Roles: unknown
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Pre‑Transformation): The figure stands in a dim stone chamber, holding an obsidian staff with a central crystal. Ancient stone tablets with etched glyphs line the walls. The atmosphere is heavy with dust and the faint hum of unseen machinery.
-*   Phase 2 (Transformation): The body begins to dissolve into crystalline light. The glyphs pulse faster, the staff shatters, and the figure's silhouette becomes translucent, hovering above the stone floor. The crystalline light refracts through the surrounding stone, creating a halo of color.
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Obsidian staff with embedded crystal
-*   Item: Ancient stone tablet with etched glyphs
-
-### 4. AI PROMPT KEYWORDS
-`ancient Ethiopian`, `Egyptian`, `spirit`, `transformation`, `bio-luminescence`, `crystalline`, `glyphs`, `industrial`, `mysticism`
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
-A photorealistic cinematic matte of a figure in ancient Ethiopian and Egyptian attire, standing in a dim stone chamber, surrounded by swirling bio‑luminescent glyphs, as the figure begins to transform into a translucent spirit made of crystalline light, with intricate ancient symbols etched into robes and a staff of obsidian and crystal, grounded realism, tactile textures, industrial mysticism, photorealistic lighting, cinematic depth of field
+Transformation into Spirit, unknown
 
 ### 6. PHASE PROMPTS
-*   **Transformation into Spirit:** The figure dissolves into crystalline light within a dim stone chamber.
-    Prompt: A photorealistic cinematic matte of a lone figure in ancient Ethiopian and Egyptian garb, standing in a dim stone chamber surrounded by swirling bio‑luminescent glyphs, as the figure begins to transform into a translucent spirit made of crystalline light, with intricate ancient symbols etched into robes and a staff of obsidian and crystal, grounded realism, tactile textures, industrial mysticism, cinematic depth of field
-    Keywords: ancient Ethiopian, Egyptian, spirit, transformation, bio-luminescence, crystalline, glyphs, industrial mysticism
+*   **Default:**
+    Prompt: Transformation into Spirit, unknown
 
 ---

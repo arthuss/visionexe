@@ -1,0 +1,10 @@
+## [STATE] Satans :: Default
+**State ID:** default
+**Chapters:** 40 - 65
+
+**Phase Summary:** The Satans stand in a formidable formation, blocking the path to the Admin layer, presenting their logs of human error with cold, mechanical aggression. They are at the height of their intimidating power, their internal systems glowing bright red.
+**Phase Keywords:** blocking the gate, red glowing internal light, holding data tablets, intimidating stance, group composition, obsidian skin
+**Phase Prompt:**
+A wide cinematic shot of a group of Satans standing shoulder to shoulder, forming a blockade in a high-tech, abstract digital corridor. Their bodies are sleek obsidian, reflecting the cold environmental lights. Their chests glow with an intense crimson internal light. They hold up glowing data-glass slates towards the camera, as if presenting a warrant. The atmosphere is oppressive and heavy, with a shallow depth of field focusing on the leader in the center. The air around them shimmers with heat distortion. 8k, hyper-realistic, dramatic shadows.
+
+---

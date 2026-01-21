@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_BEFORE_THE_GLORY_OF_THE_GREAT_ONE",
+  "name": "Before the Glory of the Great One",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Before the Glory of the Great One.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A specific location in Heaven (ቅድመ፡ ስብሐቲሁ፡ለዐቢይ) where the names and memorials of the righteous are recorded.'}",
+      "Roles: divine_court"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A specific location in Heaven (ቅድመ፡ ስብሐቲሁ፡ለዐቢይ) where the names and memorials of the righteous are recorded.'}"
+    ],
+    "prompt_block": "Before the Glory of the Great One, {'description': 'A specific location in Heaven (ቅድመ፡ ስብሐቲሁ፡ለዐቢይ) where the names and memorials of the righteous are recorded.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A specific location in Heaven (ቅድመ፡ ስብሐቲሁ፡ለዐቢይ) where the names and memorials of the righteous are recorded.'}"
+        ],
+        "prompt_block": "Before the Glory of the Great One, {'description': 'A specific location in Heaven (ቅድመ፡ ስብሐቲሁ፡ለዐቢይ) where the names and memorials of the righteous are recorded.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_BEFORE_THE_GLORY_OF_THE_GREAT_ONE",
+    "name": "Before the Glory of the Great One",
+    "type": "set_environment",
+    "aliases": [
+      "Before the Glory of the Great One"
+    ],
+    "roles": [
+      "divine_court"
+    ],
+    "visual_traits": [
+      "{'description': 'A specific location in Heaven (ቅድመ፡ ስብሐቲሁ፡ለዐቢይ) where the names and memorials of the righteous are recorded.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1197"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 104,
+        "chapter_end": 104,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

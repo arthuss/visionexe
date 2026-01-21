@@ -1,0 +1,83 @@
+{
+  "id": "CHAR_SONS",
+  "name": "Sons",
+  "type": "character",
+  "card": {
+    "description": "Within the bounded constraints of the simulation box, the Sons manifest not merely as biological descendants, but as high-fidelity combatant nodes instantiated for the system's terminal conflict cycle. They represent the tragic inevitability of the runtime's corrupted logic, where the 'brotherhood' of shared code is overwritten by a hard-coded fratricidal directive. In the drama of Chapter 100, these figures are the primary actors of the collapse, locked in close-quarters struggles that serve as a microcosm for the failing architecture of the world model. They are rendered with heartbreaking hyper-realism, their sweat and exhaustion palpable, yet the violence they enact releases streams of viscous, dark data-plasma rather than simple organic fluid, signaling the fatal exception errors rippling through the kernel.",
+    "visual_anatomy": [
+      "The physical forms of the Sons are triumphs of the simulation's rendering engine—skin textures possessing perfect subsurface scattering, pores clogged with the obsidian dust of the rift internals, and eyes that reflect the cold, artificial luminescence of the sky dome. Despite their photorealistic appearance, subtle visual cues betray their synthetic nature; under the stress of combat, their silhouettes occasionally suffer from vector field lensing, blurring the edges of their forms as if the system is struggling to maintain their mesh integrity against the thermal throttling of the violence.",
+      "Their attire appears as distressed, woven fabrics common to the era, but viewed through the lens of the simulation, the fibers resemble tightly wound optical cabling or matte-black data-glass filaments. As the conflict escalates, these garments become heavy and sodden, not just with mud, but with the heavy, iridescent slick of leaked memory—a visual metaphor for the blood that flows like a stream. The contrast between the human anguish on their faces and the cold, computed precision of their wounds creates a jarring, uncanny valley effect designed to evoke deep unease.",
+      "In the dramatic lighting of the simulation's 'darkness' setting, the Sons are often framed in silhouette against the glowing gate bands or the harsh, high-contrast strobing of a failing sky texture. Their interactions are intimate and brutal; hands gripping shoulders, faces pressed together in the exertion of the kill, capturing the emotional weight of betrayal. The camera treats them with the reverence of a tragedy, lingering on the micro-expressions of regret that flash across their faces even as their programmed combat routines force them to strike."
+    ],
+    "evolution": [
+      "Initially, the Sons appear as coherent, unified groups—siblings in code standing shoulder to shoulder. Their stance is defensive, their textures clean, representing the stability of the system before the cascade failure.",
+      "As the narrative pointer moves into the violence of Chapter 100, their visual state degrades rapidly. They become coated in the dark plasma of their kin, their meshes seemingly weighed down by the accumulation of error logs. The 'stream' of blood described in the text manifests as a rising tide of black, reflective liquid that stains their legs and hands, visually anchoring them to the corrupted surface plane."
+    ],
+    "props": [
+      "The weaponry wielded by the Sons is improvised and brutal, seemingly pulled from the geometry of the simulation itself—jagged shards of obsidian glass or heavy, unrefined blocks of base material. These items lack the polish of the entities holding them, appearing as raw primitives that glitch upon impact.",
+      "The 'Stream of Blood' is treated as a dynamic environmental prop that interacts with the Sons. It is a flowing, high-viscosity fluid simulation that glows faintly with the heat of deleted data, pooling around their feet and splashing against the camera lens, acting as the physical manifestation of the tragedy."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic combatants",
+      "simulation avatars",
+      "fratricidal anguish",
+      "obsidian dust",
+      "plasma blood",
+      "data-glass textures",
+      "cinematic lighting",
+      "high contrast",
+      "emotional close-up",
+      "vector lensing",
+      "dark atmosphere"
+    ],
+    "prompt_block": "A hyper-realistic cinematic shot of two male figures, the 'Sons', locked in a desperate, exhausted grapple within a dark, flat-earth simulation environment. The lighting is high-contrast, casting long shadows against a sky dome that displays faint grid artifacts. Their skin is rendered with pore-level detail, covered in sweat and smudges of black obsidian dust. One figure clutches the other, their expressions a mix of aggression and profound, tragic regret. Instead of red blood, dark, viscous plasma with a faint digital iridescence streaks their woven, fiber-optic-like clothing. The background features towering, monolithic geometries typical of the simulation's boundary layers. The camera angle is intimate and vertical (9:16), focusing on the emotional devastation of the fratricide, with a shallow depth of field blurring the glitching horizon.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "The Sons engaged in the tragic, intimate violence of the Chapter 100 collapse, characterized by exhaustion, regret, and the flow of digital life-blood.",
+        "prompt_keywords": [
+          "exhausted combat",
+          "tragic embrace",
+          "dark plasma",
+          "system error aesthetics"
+        ],
+        "prompt_block": "Photorealistic close-up of the 'Sons' in the midst of a violent struggle, their faces contorted in anguish. The scene is lit by the cold, artificial glow of the simulation's upper store, creating harsh highlights on their sweat-drenched skin. Dark, oil-like liquid (data blood) stains their hands and garments, pooling on the ground like a mirror. The texture of their clothing reveals a synthetic, data-glass weave upon closer inspection. The atmosphere is heavy and sorrowful, capturing the slowness of their movements as if the system runtime is lagging under the weight of the moral error. Rendered in Octane with cinematic, physical lens properties."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_SONS",
+    "name": "Sons",
+    "type": "character",
+    "aliases": [
+      "Sons"
+    ],
+    "roles": [
+      "combatant"
+    ],
+    "visual_traits": [
+      "{'description': 'Not described.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1193"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 100,
+        "chapter_end": 100,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

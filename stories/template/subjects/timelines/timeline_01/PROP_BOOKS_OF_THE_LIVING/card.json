@@ -1,0 +1,67 @@
+{
+  "id": "PROP_BOOKS_OF_THE_LIVING",
+  "name": "books of the living",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for books of the living.",
+    "visual_anatomy": [
+      "Traits: {'state': 'static', 'description': 'Books that are opened before the Head of Days on his throne.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'state': 'static', 'description': 'Books that are opened before the Head of Days on his throne.'}"
+    ],
+    "prompt_block": "books of the living, {'state': 'static', 'description': 'Books that are opened before the Head of Days on his throne.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'state': 'static', 'description': 'Books that are opened before the Head of Days on his throne.'}"
+        ],
+        "prompt_block": "books of the living, {'state': 'static', 'description': 'Books that are opened before the Head of Days on his throne.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_BOOKS_OF_THE_LIVING",
+    "name": "books of the living",
+    "type": "prop",
+    "aliases": [
+      "books of the living"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'state': 'static', 'description': 'Books that are opened before the Head of Days on his throne.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1138"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 47,
+        "chapter_end": 47,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

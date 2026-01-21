@@ -3,68 +3,40 @@
   "name": "Rain",
   "type": "prop",
   "card": {
-    "description": "Rain is rendered as a cascade of perfectly spherical glass marbles, each 3–5 cm in diameter, etched with ancient Ethiopian and Egyptian glyphs and faint gold filigree. The spheres are translucent, reflecting the surrounding jungle or black‑glass forest with photorealistic fidelity, while a subtle bioluminescent core glows from within, casting a soft halo. The rain appears weightless, suspended mid‑air, and when it contacts the ground it shatters into crystalline shards that scatter like stardust. The entire effect is grounded in industrial mysticism, blending ancient motifs with incomprehensible, high‑tech fabrication.",
-    "tags": [
-      "rain",
-      "prop",
-      "precipitation",
-      "ancient-tech",
-      "glassy",
-      "bioluminescent",
-      "glyphs",
-      "Ethiopian",
-      "Egyptian",
-      "industrial mysticism",
-      "photorealistic",
-      "cinematic"
-    ],
+    "description": "Auto-generated asset card for Rain.",
     "visual_anatomy": [
-      "**Body/Form:** Spherical glass marbles, 3–5 cm diameter, perfectly round, smooth surface, slight iridescence.",
-      "**Face/Sensors:** None; the surface displays etched glyphs and faint gold filigree that act as optical patterns.",
-      "**Clothing/Armor:** Not applicable.",
-      "**Key Features:** Translucent crystalline core, bioluminescent glow, reflective surface, etched ancient motifs, weightless suspension, shards upon impact."
+      "Traits: A meteorological phenomenon that emerges when the winds blow., Used in a simile to describe Iniquity's arrival (ዝናም, zənām)., descends from heaven, drops, rests upon the earth, {'description': 'A form of precipitation that rests upon the earth.'}",
+      "Roles: precipitation that falls from the storm, prop, scene_prop"
     ],
     "evolution": [
-      "Phase 1 (Pre‑fall): Spherical glass droplets suspended in mid‑air, reflecting environment, glowing softly.",
-      "Phase 2 (Impact): Droplets shatter into crystalline shards that scatter and slowly dissolve into mist."
+      "Phase (Default)"
     ],
     "props": [
-      "Item: Rain Spheres – the glass droplets themselves.",
-      "Item: Rain Generator – unseen device that produces the spheres."
+      "TBD."
     ],
     "prompt_keywords": [
-      "glassy spheres",
-      "ancient glyphs",
-      "bioluminescent core",
-      "reflective surface",
-      "Ethiopian motifs",
-      "Egyptian motifs",
-      "industrial mysticism",
-      "photorealistic",
-      "cinematic",
-      "high contrast",
-      "8k"
+      "A meteorological phenomenon that emerges when the winds blow.",
+      "Used in a simile to describe Iniquity's arrival (ዝናም, zənām).",
+      "descends from heaven",
+      "drops",
+      "rests upon the earth",
+      "{'description': 'A form of precipitation that rests upon the earth.'}"
     ],
-    "prompt_block": "Vertical 9:16 macro shot of rain frozen in mid‑air in a dark jungle, each droplet a perfectly spherical glass marble 3–5 cm in diameter, etched with ancient Ethiopian and Egyptian glyphs and faint gold filigree, reflecting the surrounding foliage with photorealistic fidelity, a subtle bioluminescent core glowing softly, high depth of field, cinematic lighting, 8k resolution, industrial mysticism aesthetic, no cartoon or generic sci‑fi elements",
+    "prompt_block": "Rain, A meteorological phenomenon that emerges when the winds blow., Used in a simile to describe Iniquity's arrival (ዝናም, zənām)., descends from heaven, drops, rests upon the earth, {'description': 'A form of precipitation that rests upon the earth.'}",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Spherical glass rain droplets with ancient glyphs, reflecting environment, bioluminescent glow.",
+        "summary": "",
         "prompt_keywords": [
-          "glassy spheres",
-          "ancient glyphs",
-          "bioluminescent core",
-          "reflective surface",
-          "Ethiopian motifs",
-          "Egyptian motifs",
-          "industrial mysticism",
-          "photorealistic",
-          "cinematic",
-          "high contrast",
-          "8k"
+          "A meteorological phenomenon that emerges when the winds blow.",
+          "Used in a simile to describe Iniquity's arrival (ዝናም, zənām).",
+          "descends from heaven",
+          "drops",
+          "rests upon the earth",
+          "{'description': 'A form of precipitation that rests upon the earth.'}"
         ],
-        "prompt_block": "Vertical 9:16 macro shot of rain frozen in mid‑air in a dark jungle, each droplet a perfectly spherical glass marble 3–5 cm in diameter, etched with ancient Ethiopian and Egyptian glyphs and faint gold filigree, reflecting the surrounding foliage with photorealistic fidelity, a subtle bioluminescent core glowing softly, high depth of field, cinematic lighting, 8k resolution, industrial mysticism aesthetic, no cartoon or generic sci‑fi elements"
+        "prompt_block": "Rain, A meteorological phenomenon that emerges when the winds blow., Used in a simile to describe Iniquity's arrival (ዝናም, zənām)., descends from heaven, drops, rests upon the earth, {'description': 'A form of precipitation that rests upon the earth.'}"
       }
     ]
   },
@@ -73,30 +45,42 @@
     "name": "Rain",
     "type": "prop",
     "aliases": [
-      "Rain"
+      "Rain",
+      "rain"
     ],
     "roles": [
       "precipitation that falls from the storm",
-      "prop"
+      "prop",
+      "scene_prop"
     ],
     "visual_traits": [
-      "drops"
+      "A meteorological phenomenon that emerges when the winds blow.",
+      "Used in a simile to describe Iniquity's arrival (ዝናም, zənām).",
+      "descends from heaven",
+      "drops",
+      "rests upon the earth",
+      "{'description': 'A form of precipitation that rests upon the earth.'}"
     ],
     "changes": [],
     "notes": [],
     "sources": [
+      "row_1058",
+      "row_1096",
+      "row_1127",
+      "row_1135",
+      "row_1194",
       "row_731",
       "row_94"
     ],
-    "occurrence_count": 2,
+    "occurrence_count": 14,
     "is_dynamic": false,
     "state_policy": "static",
     "states": [
       {
         "state_id": "default",
         "label": "Default",
-        "chapter_start": 14,
-        "chapter_end": 89,
+        "chapter_start": 2,
+        "chapter_end": 101,
         "segment_labels": [],
         "scene_labels": [],
         "source_ids": [],

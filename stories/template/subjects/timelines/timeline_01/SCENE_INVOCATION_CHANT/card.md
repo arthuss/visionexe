@@ -1,32 +1,20 @@
 ## [SCENE] Invocation Chant (ID: SCENE_INVOCATION_CHANT)
-**Description:** A dimly lit subterranean chamber carved from basalt, its walls etched with luminous glyphs that pulse in sync with a high priest's chant. The priest, draped in a flowing robe woven from obsidian silk and studded with iridescent crystal filaments, holds a staff that channels bio‑luminescent energy into a central obelisk. The obelisk's crystalline core refracts the chant's vibrations into a kaleidoscope of light, while ancient Ethiopian and Egyptian motifs—hieroglyphic spirals, lotus crowns, and the sun disk—merge with unseen circuitry etched into the stone. The scene is rendered photorealistically, with tactile textures of worn stone, slick silk, and the subtle glow of hidden technology.
-**Tags:** #ritual #ancient-tech #industrial mysticism #Ethiopian #Egyptian #photorealistic #bio-luminescence #crystalline #glyphs #ceremony
+**Description:** Auto-generated asset card for Invocation Chant.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** Tall, gaunt figure in obsidian silk robes, elongated limbs, slight muscular build, posture rigid and reverent.
-*   **Face/Sensors:** Face partially veiled, silver ocular implant glowing faintly, interfacing with the chant device.
-*   **Clothing/Armor:** Robe embroidered with gold thread, embedded translucent crystal filaments, hooded, belt of braided copper wire.
-*   **Key Features:** Ceremonial staff with crystal tip emitting soft blue glow, obelisk with crystalline core, luminous glyphs on walls, bio‑luminescent veins along forearms.
+Roles: unknown
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Initiation): The priest raises the staff, glyphs flicker, obelisk hums as the chant begins.
-*   Phase 2 (Amplification): The chant intensifies, glyphs blaze, obelisk pulses, walls vibrate with energy.
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   Obelisk with crystalline core
-*   Ceremonial staff with crystal tip
-*   Ancient scroll with glyphs
-*   Bio‑luminescent wristband
-
-### 4. AI PROMPT KEYWORDS
-`ancient`, `Ethiopian`, `Egyptian`, `ritual`, `crystalline`, `glyphs`, `bio-luminescence`, `industrial mysticism`, `photorealistic`, `subterranean chamber`, `obsidian silk`
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
-Photorealistic cinematic shot of a subterranean basalt chamber illuminated by pulsing glyphs, where a tall high priest in obsidian silk robes with embedded crystal filaments chants into a staff that channels bio‑luminescent energy into a central obelisk with a crystalline core, merging ancient Ethiopian and Egyptian motifs with unseen circuitry, the walls etched with hieroglyphic spirals and lotus crowns, the priest's silver ocular implant glowing faintly, the scene exuding industrial mysticism and tactile realism.
+Invocation Chant, unknown
 
 ### 6. PHASE PROMPTS
-*   **Default:** The initiation of the Invocation Chant in a subterranean chamber.
-    Prompt: Photorealistic cinematic shot of a subterranean basalt chamber illuminated by pulsing glyphs, where a tall high priest in obsidian silk robes with embedded crystal filaments chants into a staff that channels bio‑luminescent energy into a central obelisk with a crystalline core, merging ancient Ethiopian and Egyptian motifs with unseen circuitry, the walls etched with hieroglyphic spirals and lotus crowns, the priest's silver ocular implant glowing faintly, the scene exuding industrial mysticism and tactile realism.
-    Keywords: ancient, Ethiopian, Egyptian, ritual, crystalline, glyphs, bio-luminescence, industrial mysticism, photorealistic, subterranean chamber, obsidian silk
+*   **Default:**
+    Prompt: Invocation Chant, unknown
 
 ---

@@ -2,9 +2,7 @@
 **State ID:** default
 **Chapters:** 81 - 81
 
-**Phase Summary:** The Creation Chant performed in a subterranean sanctum with an obsidian obelisk and crystalline lattice.
-**Phase Keywords:** subterranean sanctum, obsidian obelisk, crystalline lattice, bio‑luminescent glyphs, ancient Ethiopian, Egyptian hieroglyphs, phosphorescent mist
 **Phase Prompt:**
-A photorealistic scene of a subterranean sanctum where a towering obsidian‑quartz obelisk glows with bio‑luminescent glyphs, encircled by a basaltic ring of Egyptian hieroglyphs, and a translucent crystalline lattice arches overhead, channeling energy into a bronze altar, with chanting figures in indigo‑dye robes, all illuminated by a soft phosphorescent mist, rendered in industrial mysticism style
+Creation Chant, መዋዕል
 
 ---

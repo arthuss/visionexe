@@ -1,0 +1,103 @@
+{
+  "id": "SETENV_FRUIT_OF_THE_TREES",
+  "name": "Fruit of the trees",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Fruit of the trees.",
+    "visual_anatomy": [
+      "Roles: agricultural element"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Fruit of the trees, agricultural element",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Fruit of the trees, agricultural element, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Fruit of the trees, agricultural element, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Fruit of the trees, agricultural element, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_FRUIT_OF_THE_TREES",
+    "name": "Fruit of the trees",
+    "type": "set_environment",
+    "aliases": [
+      "Fruit of the trees"
+    ],
+    "roles": [
+      "agricultural element"
+    ],
+    "visual_traits": [],
+    "changes": [
+      "{'phase': 'Phase 1: Normal Order', 'description': 'Grows in its proper season.'}",
+      "{'phase': 'Phase 2: Disrupted Order', 'description': 'Is withheld in its season.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1173"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 80,
+        "chapter_end": 79,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 80,
+        "chapter_end": 79,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Normal Order', 'description': 'Grows in its proper season.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 80,
+        "chapter_end": 80,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Disrupted Order', 'description': 'Is withheld in its season.'}"
+        ]
+      }
+    ]
+  }
+}

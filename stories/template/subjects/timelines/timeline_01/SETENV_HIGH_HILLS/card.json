@@ -1,0 +1,134 @@
+{
+  "id": "SETENV_HIGH_HILLS",
+  "name": "High Hills",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for High Hills.",
+    "visual_anatomy": [
+      "Traits: Elevated landforms., Large hills, secondary to the high mountains.",
+      "Roles: dynamic_scenery, geographical_feature, location"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Elevated landforms.",
+      "Large hills, secondary to the high mountains."
+    ],
+    "prompt_block": "High Hills, Elevated landforms., Large hills, secondary to the high mountains.",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "Elevated landforms.",
+          "Large hills, secondary to the high mountains."
+        ],
+        "prompt_block": "High Hills, Elevated landforms., Large hills, secondary to the high mountains., Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "Elevated landforms.",
+          "Large hills, secondary to the high mountains."
+        ],
+        "prompt_block": "High Hills, Elevated landforms., Large hills, secondary to the high mountains., Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "Elevated landforms.",
+          "Large hills, secondary to the high mountains."
+        ],
+        "prompt_block": "High Hills, Elevated landforms., Large hills, secondary to the high mountains., Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_HIGH_HILLS",
+    "name": "High Hills",
+    "type": "set_environment",
+    "aliases": [
+      "High Hills",
+      "High hills",
+      "high hills"
+    ],
+    "roles": [
+      "dynamic_scenery",
+      "geographical_feature",
+      "location"
+    ],
+    "visual_traits": [
+      "Elevated landforms.",
+      "Large hills, secondary to the high mountains."
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Pre-Theophany', 'description': 'The hills are static and whole.'}",
+      "{'phase': 'Phase 2: Theophany', 'description': 'The hills are thrown down and humbled.'}",
+      "{'phase': 'Phase 1: Static', 'description': 'The hills exist in their solid state.'}",
+      "{'phase': 'Phase 2: Unstable', 'description': 'The hills are lowered and humbled, contributing to the overall landscape transformation.'}",
+      "{'phase': 'Phase 1: pre-judgment', 'description': 'Standing tall.'}",
+      "{'phase': 'Phase 2: judgment', 'description': 'Brought low and melted like wax before a flame.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1052",
+      "row_1079",
+      "row_1097"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 1,
+        "chapter_end": 0,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Pre-Theophany', 'description': 'The hills are static and whole.'}",
+          "{'phase': 'Phase 2: Theophany', 'description': 'The hills are thrown down and humbled.'}"
+        ]
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 1,
+        "chapter_end": 0,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Static', 'description': 'The hills exist in their solid state.'}",
+          "{'phase': 'Phase 2: Unstable', 'description': 'The hills are lowered and humbled, contributing to the overall landscape transformation.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 1,
+        "chapter_end": 1,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: pre-judgment', 'description': 'Standing tall.'}",
+          "{'phase': 'Phase 2: judgment', 'description': 'Brought low and melted like wax before a flame.'}"
+        ]
+      }
+    ]
+  }
+}

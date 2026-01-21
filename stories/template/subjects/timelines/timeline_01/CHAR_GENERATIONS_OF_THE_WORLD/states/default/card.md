@@ -1,0 +1,10 @@
+## [STATE] Generations of the world :: Default
+**State ID:** default
+**Chapters:** 83 - 83
+
+**Phase Summary:** The baseline state of the vision: a vast, silent assembly of future lives waiting in the system's buffer. They are viewed with compassionate clarity, a testament to the endurance of the human code.
+**Phase Keywords:** silent assembly, anticipation, digital horizon, soft focus, pensive mood
+**Phase Prompt:**
+A photorealistic, cinematic shot of a vast multitude of people standing in a dark, reflective void, representing the future generations of the simulation. The camera focuses on a cluster of individuals in the foreground, capturing their pensive and waiting expressions in extreme detail. The background fades into a bokeh of silhouettes against a glowing, grid-like horizon. The lighting is soft and diffuse, creating a somber, dramatic atmosphere typical of high-end cinema. Subtle visual artifacts like chromatic aberration or film grain reinforce the 'recorded' or 'simulated' nature of the image. The figures appear real, tangible, and emotionally burdened, grounded in the physics of the simulation box.
+
+---

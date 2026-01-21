@@ -1,0 +1,10 @@
+## [STATE] The Earth :: Default
+**State ID:** default
+**Chapters:** 7 - 7
+
+**Phase Summary:** The Earth cries out against the lawless ones, her form heavy with the blood of the slain, demanding the system administrators intervene.
+**Phase Keywords:** looking up, screaming in silence, cracked earth skin, mercury tears, obsidian textures
+**Phase Prompt:**
+A hyper-realistic medium shot of The Earth as a woman made of black rock and soil, looking up towards the sky dome with an expression of anguish and accusation. Her face is streaked with glowing mercury tears. Her skin texture is a mix of matte soil and reflective obsidian shards. The lighting is moody and dark, mimicking a storm or system failure. Subtle digital glitches and chromatic aberration edge her silhouette. The atmosphere is heavy, thick with dust and data particles. Cinematic lighting, dramatic shadows, photorealistic masterpiece.
+
+---

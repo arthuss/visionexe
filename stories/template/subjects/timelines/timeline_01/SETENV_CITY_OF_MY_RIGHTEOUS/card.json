@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_CITY_OF_MY_RIGHTEOUS",
+  "name": "City of My Righteous",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for City of My Righteous.",
+    "visual_anatomy": [
+      "Traits: Becomes an obstacle for the invaders' horses.",
+      "Roles: obstacle"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Becomes an obstacle for the invaders' horses."
+    ],
+    "prompt_block": "City of My Righteous, Becomes an obstacle for the invaders' horses.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Becomes an obstacle for the invaders' horses."
+        ],
+        "prompt_block": "City of My Righteous, Becomes an obstacle for the invaders' horses."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_CITY_OF_MY_RIGHTEOUS",
+    "name": "City of My Righteous",
+    "type": "set_environment",
+    "aliases": [
+      "City of My Righteous"
+    ],
+    "roles": [
+      "obstacle"
+    ],
+    "visual_traits": [
+      "Becomes an obstacle for the invaders' horses."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1149"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 56,
+        "chapter_end": 56,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "id": "CHAR_THE_RIGHTEOUS_AND_THE_ELECT",
+  "name": "The Righteous and the Elect",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Righteous and the Elect.",
+    "visual_anatomy": [
+      "Traits: Referred to as the 'congregation of the holy and elect'.",
+      "Roles: The group that is saved and exalted."
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Referred to as the 'congregation of the holy and elect'."
+    ],
+    "prompt_block": "The Righteous and the Elect, Referred to as the 'congregation of the holy and elect'.",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "Referred to as the 'congregation of the holy and elect'."
+        ],
+        "prompt_block": "The Righteous and the Elect, Referred to as the 'congregation of the holy and elect'., Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "Referred to as the 'congregation of the holy and elect'."
+        ],
+        "prompt_block": "The Righteous and the Elect, Referred to as the 'congregation of the holy and elect'., Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "Referred to as the 'congregation of the holy and elect'."
+        ],
+        "prompt_block": "The Righteous and the Elect, Referred to as the 'congregation of the holy and elect'., Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_RIGHTEOUS_AND_THE_ELECT",
+    "name": "The Righteous and the Elect",
+    "type": "character",
+    "aliases": [
+      "The Righteous and the Elect"
+    ],
+    "roles": [
+      "The group that is saved and exalted."
+    ],
+    "visual_traits": [
+      "Referred to as the 'congregation of the holy and elect'."
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Terrestrial', 'description': 'Dwell on earth with downcast faces.'}",
+      "{'phase': 'Phase 2: Resurrected and Glorified', 'description': \"Rise from the earth, no longer have downcast faces, are saved, and wear the 'Garment of Life'. Their glory does not perish.\"}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1155"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 62,
+        "chapter_end": 61,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 62,
+        "chapter_end": 61,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Terrestrial', 'description': 'Dwell on earth with downcast faces.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 62,
+        "chapter_end": 62,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Resurrected and Glorified', 'description': \"Rise from the earth, no longer have downcast faces, are saved, and wear the 'Garment of Life'. Their glory does not perish.\"}"
+        ]
+      }
+    ]
+  }
+}

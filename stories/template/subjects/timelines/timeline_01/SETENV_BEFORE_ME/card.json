@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_BEFORE_ME",
+  "name": "before me",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for before me.",
+    "visual_anatomy": [
+      "Traits: {'description': \"A relative position, 'ቅድሜየ', before the Lord of Spirits where the righteous are placed.\"}",
+      "Roles: relative_position"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"A relative position, 'ቅድሜየ', before the Lord of Spirits where the righteous are placed.\"}"
+    ],
+    "prompt_block": "before me, {'description': \"A relative position, 'ቅድሜየ', before the Lord of Spirits where the righteous are placed.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"A relative position, 'ቅድሜየ', before the Lord of Spirits where the righteous are placed.\"}"
+        ],
+        "prompt_block": "before me, {'description': \"A relative position, 'ቅድሜየ', before the Lord of Spirits where the righteous are placed.\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_BEFORE_ME",
+    "name": "before me",
+    "type": "set_environment",
+    "aliases": [
+      "before me"
+    ],
+    "roles": [
+      "relative_position"
+    ],
+    "visual_traits": [
+      "{'description': \"A relative position, 'ቅድሜየ', before the Lord of Spirits where the righteous are placed.\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1139"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 45,
+        "chapter_end": 45,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

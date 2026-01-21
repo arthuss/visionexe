@@ -1,5 +1,24 @@
 import json
+import os
 from pathlib import Path
+
+DEFAULT_GCP_PROJECT = "wallpaper-management-hub"
+
+
+def ensure_default_gcp_project() -> str | None:
+    project = os.environ.get("GOOGLE_CLOUD_PROJECT") or os.environ.get("GOOGLE_CLOUD_PROJECT_ID")
+    if project:
+        return project
+    fallback = os.environ.get("VISIONEXE_GCP_PROJECT") or DEFAULT_GCP_PROJECT
+    if fallback:
+        os.environ["GOOGLE_CLOUD_PROJECT"] = fallback
+        os.environ["GOOGLE_CLOUD_PROJECT_ID"] = fallback
+        return fallback
+    return None
+
+
+if os.environ.get("VISIONEXE_GCP_PROJECT_DISABLE") != "1":
+    ensure_default_gcp_project()
 
 
 def resolve_engine_root() -> Path:

@@ -1,0 +1,114 @@
+{
+  "id": "PROP_SOFT_METAL_TIN",
+  "name": "Soft Metal / Tin",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Soft Metal / Tin.",
+    "visual_anatomy": [
+      "Traits: A metal, forming a mountain.",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A metal, forming a mountain."
+    ],
+    "prompt_block": "Soft Metal / Tin, A metal, forming a mountain.",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "A metal, forming a mountain."
+        ],
+        "prompt_block": "Soft Metal / Tin, A metal, forming a mountain., Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "A metal, forming a mountain."
+        ],
+        "prompt_block": "Soft Metal / Tin, A metal, forming a mountain., Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "A metal, forming a mountain."
+        ],
+        "prompt_block": "Soft Metal / Tin, A metal, forming a mountain., Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_SOFT_METAL_TIN",
+    "name": "Soft Metal / Tin",
+    "type": "prop",
+    "aliases": [
+      "Soft Metal / Tin"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "A metal, forming a mountain."
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Static', 'description': 'Exists as a mountain.'}",
+      "{'phase': 'Phase 2: Nullified', 'description': 'Is removed from the earth.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1145"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 52,
+        "chapter_end": 51,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 52,
+        "chapter_end": 51,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Static', 'description': 'Exists as a mountain.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 52,
+        "chapter_end": 52,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Nullified', 'description': 'Is removed from the earth.'}"
+        ]
+      }
+    ]
+  }
+}

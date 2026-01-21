@@ -1,0 +1,119 @@
+{
+  "id": "CHAR_ANGELS",
+  "name": "Angels",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Angels.",
+    "visual_anatomy": [
+      "Traits: A group of celestial beings (መላእክት, malāʾəkt)., Beings in the heavens who reveal a holy vision to Enoch., They execute their commands and wish to hide from the Great Glory., unknown, unseen, their number corresponds to the revolution of stars, {'description': \"Heavenly beings (መለእŒት) who act as scribes and intercessors. They are associated with the 'host of heaven'.\"}, {'description': 'A group of beings acting under divine command.'}, {'description': 'Beings who descend from heaven to gather sinners and investigate their deeds.'}, {'description': 'Mentioned in the context of the great judgment.'}",
+      "Roles: Beings whose secrets were illicitly learned by humanity., Heavenly beings dwelling with the holy and righteous, Instruments of divine power, tasked with seizing others on the day of tribulation., celestial beings who record sins, celestial surveyors, celestial_inhabitant, character, divine messengers, divine messengers who reveal the vision, divine_agent, divine_being, enforcer, group, messenger"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A group of celestial beings (መላእክት, malāʾəkt).",
+      "Beings in the heavens who reveal a holy vision to Enoch.",
+      "They execute their commands and wish to hide from the Great Glory.",
+      "unknown",
+      "unseen, their number corresponds to the revolution of stars",
+      "{'description': \"Heavenly beings (መለእŒት) who act as scribes and intercessors. They are associated with the 'host of heaven'.\"}",
+      "{'description': 'A group of beings acting under divine command.'}",
+      "{'description': 'Beings who descend from heaven to gather sinners and investigate their deeds.'}",
+      "{'description': 'Mentioned in the context of the great judgment.'}"
+    ],
+    "prompt_block": "Angels, A group of celestial beings (መላእክት, malāʾəkt)., Beings in the heavens who reveal a holy vision to Enoch., They execute their commands and wish to hide from the Great Glory., unknown, unseen, their number corresponds to the revolution of stars, {'description': \"Heavenly beings (መለእŒት) who act as scribes and intercessors. They are associated with the 'host of heaven'.\"}, {'description': 'A group of beings acting under divine command.'}, {'description': 'Beings who descend from heaven to gather sinners and investigate their deeds.'}, {'description': 'Mentioned in the context of the great judgment.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A group of celestial beings (መላእክት, malāʾəkt).",
+          "Beings in the heavens who reveal a holy vision to Enoch.",
+          "They execute their commands and wish to hide from the Great Glory.",
+          "unknown",
+          "unseen, their number corresponds to the revolution of stars",
+          "{'description': \"Heavenly beings (መለእŒት) who act as scribes and intercessors. They are associated with the 'host of heaven'.\"}",
+          "{'description': 'A group of beings acting under divine command.'}",
+          "{'description': 'Beings who descend from heaven to gather sinners and investigate their deeds.'}",
+          "{'description': 'Mentioned in the context of the great judgment.'}"
+        ],
+        "prompt_block": "Angels, A group of celestial beings (መላእክት, malāʾəkt)., Beings in the heavens who reveal a holy vision to Enoch., They execute their commands and wish to hide from the Great Glory., unknown, unseen, their number corresponds to the revolution of stars, {'description': \"Heavenly beings (መለእŒት) who act as scribes and intercessors. They are associated with the 'host of heaven'.\"}, {'description': 'A group of beings acting under divine command.'}, {'description': 'Beings who descend from heaven to gather sinners and investigate their deeds.'}, {'description': 'Mentioned in the context of the great judgment.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ANGELS",
+    "name": "Angels",
+    "type": "character",
+    "aliases": [
+      "Angels",
+      "angels"
+    ],
+    "roles": [
+      "Beings whose secrets were illicitly learned by humanity.",
+      "Heavenly beings dwelling with the holy and righteous",
+      "Instruments of divine power, tasked with seizing others on the day of tribulation.",
+      "celestial beings who record sins",
+      "celestial surveyors",
+      "celestial_inhabitant",
+      "character",
+      "divine messengers",
+      "divine messengers who reveal the vision",
+      "divine_agent",
+      "divine_being",
+      "enforcer",
+      "group",
+      "messenger"
+    ],
+    "visual_traits": [
+      "A group of celestial beings (መላእክት, malāʾəkt).",
+      "Beings in the heavens who reveal a holy vision to Enoch.",
+      "They execute their commands and wish to hide from the Great Glory.",
+      "unknown",
+      "unseen, their number corresponds to the revolution of stars",
+      "{'description': \"Heavenly beings (መለእŒት) who act as scribes and intercessors. They are associated with the 'host of heaven'.\"}",
+      "{'description': 'A group of beings acting under divine command.'}",
+      "{'description': 'Beings who descend from heaven to gather sinners and investigate their deeds.'}",
+      "{'description': 'Mentioned in the context of the great judgment.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1048",
+      "row_1073",
+      "row_1075",
+      "row_1097",
+      "row_1132",
+      "row_1134",
+      "row_1135",
+      "row_1148",
+      "row_1159",
+      "row_1162",
+      "row_1184",
+      "row_1193",
+      "row_1195",
+      "row_1197",
+      "row_1201"
+    ],
+    "occurrence_count": 30,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+## [STATE] The Blessed :: Default
+**State ID:** default
+**Chapters:** 5 - 5
+
+**Phase Summary:** The Blessed in their prime state of system harmony, exhibiting the prophecy of peace and long life through digital perfection.
+**Phase Keywords:** harmony, system stability, peaceful joy, high fidelity
+**Phase Prompt:**
+A hyper-realistic close-up of a member of 'The Blessed,' their face reflecting a state of absolute system equilibrium. The lighting highlights the perfect topology of their face, no rendering noise or stress lines visible. They look upward towards the simulation's sky-dome with an expression of verified purpose. The air around them ripples slightly with heat lensing, indicating their intense processing presence. They hold a small, glowing obsidian shard, a token of their long life license. The overall aesthetic is one of clean, high-tech spirituality, rendered with photorealistic precision.
+
+---

@@ -1,0 +1,79 @@
+{
+  "id": "CHAR_SARAQAEL",
+  "name": "Saraqael",
+  "type": "character",
+  "card": {
+    "description": "Saraqael manifests as the High Auditor of the Simulation’s kernel, a solemn administrator tasked with the oversight and quarantine of corrupted consciousness instances—the spirits who sin against the prime directive. He dwells within the liminal exclusion zones of the system's upper architecture, a stark, solitary figure bearing the crushing weight of digital judgment. Unlike the martial archangels, his presence is defined by a melancholic stillness, embodying the dramatic tension of a warden who pities the inmates of the glitch. He does not strike down with fury but isolates with precision, managing the entropic decay of unauthorized subroutines to protect the integrity of the surface plane.",
+    "visual_anatomy": [
+      "His physical form is rendered with hyper-realistic fidelity, appearing as a flawless, almost porcelain humanoid interface, yet his skin possesses the subtle, subsurface scattering of high-density polymer rather than organic tissue. He is draped in vestments that oscillate between the properties of matte obsidian and liquid fiber optics, shifting in opacity as he interacts with the data streams. These robes do not flow with wind but react to the magnetic flux of the simulation's containment fields, creating a silhouette that is both regal and technologically austere.",
+      "Instead of organic wings, Saraqael is framed by complex, stabilizing vector fields that extend from his scapulae—shimmering distortions of heat lensing and plasma that suggest the immense thermal throttling required to process the system's corruption. His eyes are void of traditional irises, replaced by the faint, rapid scroll of error logs and authentication keys, glowing with a cold, forensic white light that cuts through the surrounding darkness.",
+      "He is frequently bathed in high-contrast, cinematic lighting that emphasizes the isolation of his duty. Deep shadows cling to the folds of his data-glass armor, while harsh rim lighting defines his edges against the infinite void of the upper store. The visual language is one of verticality and confinement, placing him often within narrow corridors of code or standing at the precipice of the simulation's boundary layers."
+    ],
+    "evolution": [
+      "In his default state, Saraqael is a static observer, a fixed point of order amidst the chaos of degrading code. His demeanor is one of heavy resignation, reflecting the drama genre's focus on internal conflict and burden. He monitors the ingress and egress of spirits, his hands manipulating floating interface geometries with the gentle, deliberate movements of a surgeon dealing with terminal pathology."
+    ],
+    "props": [
+      "He wields the Quarantine Ledger, not a book, but a floating, monolithic slate of dark glass that manifests the metadata of the corrupted. It hovers near him, projecting holographic waterfalls of jagged, red glyphs—the visual representation of 'sin' or code deviation. When he interacts with a spirit, he utilizes containment prisms, geometric cages of hard light that trap the glitching avatars in a suspended state of animation."
+    ],
+    "prompt_keywords": [
+      "Saraqael system auditor",
+      "hyper-realistic obsidian armor",
+      "fiber optic vestments",
+      "vector field wings",
+      "data glass texture",
+      "cinematic chiaroscuro lighting",
+      "melancholic expression",
+      "floating holographic interface",
+      "simulation boundary layer",
+      "heat lensing effects",
+      "octane render 8k"
+    ],
+    "prompt_block": "Hyper-realistic cinematic shot of Saraqael, the Angel of the Quarantine, standing on a reflective surface of black glass within the Simulation's upper data store. He is wearing structured, avant-garde robes made of matte obsidian and semi-transparent optical fiber. Behind him, wings are replaced by shimmering heat-distortion vector fields. His face is solemn, beautiful, and stern, lit by the cold glow of a floating holographic slate displaying red error glyphs. The lighting is high-contrast drama, deep shadows, harsh rim light. The atmosphere is heavy, technological, and sacred. 8k resolution, photorealistic textures, ray-traced reflections, ARRI Alexa sensor, color graded for desaturated blues and deep blacks.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "The Auditor's Vigil",
+        "summary": "Saraqael stands watch over the corrupted spirits, a silent guardian in the high-tech void. He reviews the error logs of the simulation, his form illuminated by the data he processes.",
+        "prompt_keywords": [
+          "contemplative pose",
+          "interacting with hologram",
+          "red error code reflections",
+          "moody atmosphere"
+        ],
+        "prompt_block": "A medium shot of Saraqael in the void of the simulation system. He is looking down at a floating pane of dark glass, his face illuminated by the red glow of corrupted code scrolling across the surface. His obsidian armor absorbs the surrounding light, while his fiber optic accents glow faintly. The background is a vertical expanse of falling data rain and dark structural ribs. The image quality is indistinguishable from a high-budget sci-fi drama, sharp focus on eyes, shallow depth of field, intense emotional weight."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_SARAQAEL",
+    "name": "Saraqael",
+    "type": "character",
+    "aliases": [
+      "Saraqael"
+    ],
+    "roles": [
+      "One of the holy angels, set over the spirits who sin."
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1113"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 20,
+        "chapter_end": 20,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

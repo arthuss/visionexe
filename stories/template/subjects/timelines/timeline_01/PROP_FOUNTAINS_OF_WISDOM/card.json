@@ -1,0 +1,70 @@
+{
+  "id": "PROP_FOUNTAINS_OF_WISDOM",
+  "name": "Fountains of Wisdom",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Fountains of Wisdom.",
+    "visual_anatomy": [
+      "Traits: Numerous., Surround the Fountain of Righteousness.",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Numerous.",
+      "Surround the Fountain of Righteousness."
+    ],
+    "prompt_block": "Fountains of Wisdom, Numerous., Surround the Fountain of Righteousness.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Numerous.",
+          "Surround the Fountain of Righteousness."
+        ],
+        "prompt_block": "Fountains of Wisdom, Numerous., Surround the Fountain of Righteousness."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_FOUNTAINS_OF_WISDOM",
+    "name": "Fountains of Wisdom",
+    "type": "prop",
+    "aliases": [
+      "Fountains of Wisdom"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "Numerous.",
+      "Surround the Fountain of Righteousness."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1141"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 48,
+        "chapter_end": 48,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

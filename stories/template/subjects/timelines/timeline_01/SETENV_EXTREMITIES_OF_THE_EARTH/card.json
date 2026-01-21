@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_EXTREMITIES_OF_THE_EARTH",
+  "name": "Extremities of the Earth",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Extremities of the Earth.",
+    "visual_anatomy": [
+      "Traits: {'description': 'The boundary region of the Earth where the twelve gates of heaven are located.', 'type': 'boundary'}",
+      "Roles: environment"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The boundary region of the Earth where the twelve gates of heaven are located.', 'type': 'boundary'}"
+    ],
+    "prompt_block": "Extremities of the Earth, {'description': 'The boundary region of the Earth where the twelve gates of heaven are located.', 'type': 'boundary'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The boundary region of the Earth where the twelve gates of heaven are located.', 'type': 'boundary'}"
+        ],
+        "prompt_block": "Extremities of the Earth, {'description': 'The boundary region of the Earth where the twelve gates of heaven are located.', 'type': 'boundary'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_EXTREMITIES_OF_THE_EARTH",
+    "name": "Extremities of the Earth",
+    "type": "set_environment",
+    "aliases": [
+      "Extremities of the Earth"
+    ],
+    "roles": [
+      "environment"
+    ],
+    "visual_traits": [
+      "{'description': 'The boundary region of the Earth where the twelve gates of heaven are located.', 'type': 'boundary'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1168"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 75,
+        "chapter_end": 75,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

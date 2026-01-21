@@ -1,30 +1,20 @@
 ## [SCENE] Beat 5 (ID: SCENE_BEAT_5)
-**Description:** A towering obelisk of polished basalt rises from a windswept desert plateau, its surface etched with intricate Ethiopian and Egyptian glyphs that pulse with bioluminescent light. Embedded within the stone are crystalline conduits that glow with a soft azure hue, channeling unseen energy. A hovering platform, suspended by invisible force fields, hovers above the obelisk, its edges lined with metallic filaments that reflect the low sun. The sky above is a bruised violet, streaked with distant auroras, giving the scene a mystical, industrial atmosphere. The obelisk's base is surrounded by a ring of ancient stone pillars, each bearing runes that shift as the obelisk activates, creating a sense of grounded realism and ancient‑tech mysticism.
-**Tags:** #ancient-tech #industrial-mysticism #Ethiopian #Egyptian #sky #oblivion #crystalline #bioluminescent
+**Description:** Auto-generated asset card for Beat 5.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** A 30‑meter tall basalt obelisk with a tapering shaft, base flanked by four stone pillars, and a hovering platform suspended 5 meters above the apex. The shaft is segmented by horizontal bands of polished metal alloy, each band containing a lattice of translucent crystal conduits. The platform is a translucent, hexagonal slab of engineered glass, reinforced with carbon‑fiber ribs and edged with fine metallic filaments.
-*   **Face/Sensors:** The obelisk's face is a mosaic of Ethiopian and Egyptian glyphs that act as sensor arrays. Glyphs glow in a gradient from amber at the base to electric blue at the top, indicating activation status. Embedded within the glyphs are micro‑photonic sensors that detect atmospheric changes and celestial alignment.
-*   **Clothing/Armor:** Not applicable; the obelisk is a singular structure, but its outer surface is coated with a thin, adaptive nano‑gel that reacts to temperature and light, altering its reflectivity to blend with the desert environment.
-*   **Key Features:** • Bioluminescent glyphs and crystal conduits that pulse with energy. • Hovering platform powered by anti‑gravity fields. • Adaptive nano‑gel surface for camouflage. • Embedded runic runes that shift during activation. • Integrated sky‑interface panel that opens to reveal a sky‑borne conduit.
+Roles: Unknown, unknown, ሰማይ
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Activation): Glyphs begin to glow amber, crystal conduits pulse faintly, and the platform remains stationary. The sky above shows subtle auroral flickers.
-*   Phase 2 (Full Activation): Glyphs shift to electric blue, conduits flare with azure light, the platform lifts 5 meters, and a sky‑interface panel opens, projecting a translucent, holographic map of celestial coordinates.
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Crystalline Core – a 2‑meter diameter, sapphire‑colored crystal embedded at the obelisk's apex, acting as the primary energy reservoir.
-*   Item: Sky Interface Panel – a retractable, holographic display panel that projects star maps and energy readouts.
-
-### 4. AI PROMPT KEYWORDS
-`obelisk`, `crystalline`, `bioluminescent`, `ancient`, `Ethiopian`, `Egyptian`, `sky`, `floating platform`
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
-A towering obelisk of polished basalt rises from a windswept desert plateau, its surface etched with intricate Ethiopian and Egyptian glyphs that pulse with bioluminescent light. Embedded within the stone are crystalline conduits that glow with a soft azure hue, channeling unseen energy. A hovering platform, suspended by invisible force fields, hovers above the obelisk, its edges lined with metallic filaments that reflect the low sun. The sky above is a bruised violet, streaked with distant auroras, giving the scene a mystical, industrial atmosphere. The obelisk's base is surrounded by a ring of ancient stone pillars, each bearing runes that shift as the obelisk activates, creating a sense of grounded realism and ancient‑tech mysticism.
+Beat 5, Unknown, unknown, ሰማይ
 
 ### 6. PHASE PROMPTS
-*   **Default:** The obelisk in its resting state, with subtle glyph glow and a hovering platform at rest.
-    Prompt: A towering basalt obelisk with faint amber glyphs and a hovering platform at rest, set against a desert plateau under a bruised violet sky, rendered in photorealistic detail with a focus on ancient‑tech mysticism.
-    Keywords: obelisk, bioluminescent, hovering platform, Ethiopian glyphs, Egyptian hieroglyphs
+*   **Default:**
+    Prompt: Beat 5, Unknown, unknown, ሰማይ
 
 ---

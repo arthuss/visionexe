@@ -1,0 +1,60 @@
+{
+  "id": "CHAR_THE_RIGHTEOUS_FROM_ETERNITY",
+  "name": "The Righteous from Eternity",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Righteous from Eternity.",
+    "visual_anatomy": [
+      "Roles: ancient inhabitants"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "The Righteous from Eternity, ancient inhabitants",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "The Righteous from Eternity, ancient inhabitants"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_RIGHTEOUS_FROM_ETERNITY",
+    "name": "The Righteous from Eternity",
+    "type": "character",
+    "aliases": [
+      "The Righteous from Eternity"
+    ],
+    "roles": [
+      "ancient inhabitants"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1162"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 70,
+        "chapter_end": 70,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

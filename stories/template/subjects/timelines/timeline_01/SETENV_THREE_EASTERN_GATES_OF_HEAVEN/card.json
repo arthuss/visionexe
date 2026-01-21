@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_THREE_EASTERN_GATES_OF_HEAVEN",
+  "name": "three eastern gates of heaven",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for three eastern gates of heaven.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Three portals in the eastern sky.', 'state': 'static', 'details': \"Described as 'open' ('ርኅዋተ').\"}",
+      "Roles: portal"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Three portals in the eastern sky.', 'state': 'static', 'details': \"Described as 'open' ('ርኅዋተ').\"}"
+    ],
+    "prompt_block": "three eastern gates of heaven, {'description': 'Three portals in the eastern sky.', 'state': 'static', 'details': \"Described as 'open' ('ርኅዋተ').\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Three portals in the eastern sky.', 'state': 'static', 'details': \"Described as 'open' ('ርኅዋተ').\"}"
+        ],
+        "prompt_block": "three eastern gates of heaven, {'description': 'Three portals in the eastern sky.', 'state': 'static', 'details': \"Described as 'open' ('ርኅዋተ').\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THREE_EASTERN_GATES_OF_HEAVEN",
+    "name": "three eastern gates of heaven",
+    "type": "set_environment",
+    "aliases": [
+      "three eastern gates of heaven"
+    ],
+    "roles": [
+      "portal"
+    ],
+    "visual_traits": [
+      "{'description': 'Three portals in the eastern sky.', 'state': 'static', 'details': \"Described as 'open' ('ርኅዋተ').\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1129"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 36,
+        "chapter_end": 36,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

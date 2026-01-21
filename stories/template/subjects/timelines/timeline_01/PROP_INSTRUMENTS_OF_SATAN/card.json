@@ -1,0 +1,67 @@
+{
+  "id": "PROP_INSTRUMENTS_OF_SATAN",
+  "name": "instruments of Satan",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for instruments of Satan.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Tools of punishment being prepared by the angels of punishment.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Tools of punishment being prepared by the angels of punishment.'}"
+    ],
+    "prompt_block": "instruments of Satan, {'description': 'Tools of punishment being prepared by the angels of punishment.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Tools of punishment being prepared by the angels of punishment.'}"
+        ],
+        "prompt_block": "instruments of Satan, {'description': 'Tools of punishment being prepared by the angels of punishment.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_INSTRUMENTS_OF_SATAN",
+    "name": "instruments of Satan",
+    "type": "prop",
+    "aliases": [
+      "instruments of Satan"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'Tools of punishment being prepared by the angels of punishment.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1146"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 53,
+        "chapter_end": 53,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

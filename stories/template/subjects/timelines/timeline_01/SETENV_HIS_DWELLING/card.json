@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_HIS_DWELLING",
+  "name": "His Dwelling",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for His Dwelling.",
+    "visual_anatomy": [
+      "Traits: The holy habitation of 'The Holy and Great One'. Its appearance is not described.",
+      "Roles: The starting point of the theophany."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "The holy habitation of 'The Holy and Great One'. Its appearance is not described."
+    ],
+    "prompt_block": "His Dwelling, The holy habitation of 'The Holy and Great One'. Its appearance is not described.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "The holy habitation of 'The Holy and Great One'. Its appearance is not described."
+        ],
+        "prompt_block": "His Dwelling, The holy habitation of 'The Holy and Great One'. Its appearance is not described."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_HIS_DWELLING",
+    "name": "His Dwelling",
+    "type": "set_environment",
+    "aliases": [
+      "His Dwelling"
+    ],
+    "roles": [
+      "The starting point of the theophany."
+    ],
+    "visual_traits": [
+      "The holy habitation of 'The Holy and Great One'. Its appearance is not described."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1076"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 1,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

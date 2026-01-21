@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_THE_DWELLING_ORIGIN_POINT",
+  "name": "The Dwelling (origin point)",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for The Dwelling (origin point).",
+    "visual_anatomy": [
+      "Traits: An unspecified starting location, referred to as 'from there' (እምህየ), which implies continuity from the 'dwelling' mentioned in the previous segment.",
+      "Roles: The starting point of the movement."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "An unspecified starting location, referred to as 'from there' (እምህየ), which implies continuity from the 'dwelling' mentioned in the previous segment."
+    ],
+    "prompt_block": "The Dwelling (origin point), An unspecified starting location, referred to as 'from there' (እምህየ), which implies continuity from the 'dwelling' mentioned in the previous segment.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "An unspecified starting location, referred to as 'from there' (እምህየ), which implies continuity from the 'dwelling' mentioned in the previous segment."
+        ],
+        "prompt_block": "The Dwelling (origin point), An unspecified starting location, referred to as 'from there' (እምህየ), which implies continuity from the 'dwelling' mentioned in the previous segment."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_DWELLING_ORIGIN_POINT",
+    "name": "The Dwelling (origin point)",
+    "type": "set_environment",
+    "aliases": [
+      "The Dwelling (origin point)"
+    ],
+    "roles": [
+      "The starting point of the movement."
+    ],
+    "visual_traits": [
+      "An unspecified starting location, referred to as 'from there' (እምህየ), which implies continuity from the 'dwelling' mentioned in the previous segment."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1077"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 1,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

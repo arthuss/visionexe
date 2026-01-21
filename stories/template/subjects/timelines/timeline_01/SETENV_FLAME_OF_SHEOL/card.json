@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_FLAME_OF_SHEOL",
+  "name": "Flame of Sheol",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Flame of Sheol.",
+    "visual_anatomy": [
+      "Traits: {'description': 'The fire associated with the pain of Sheol, from which the kings cannot prevent their descent.'}",
+      "Roles: hazard"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The fire associated with the pain of Sheol, from which the kings cannot prevent their descent.'}"
+    ],
+    "prompt_block": "Flame of Sheol, {'description': 'The fire associated with the pain of Sheol, from which the kings cannot prevent their descent.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The fire associated with the pain of Sheol, from which the kings cannot prevent their descent.'}"
+        ],
+        "prompt_block": "Flame of Sheol, {'description': 'The fire associated with the pain of Sheol, from which the kings cannot prevent their descent.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_FLAME_OF_SHEOL",
+    "name": "Flame of Sheol",
+    "type": "set_environment",
+    "aliases": [
+      "Flame of Sheol"
+    ],
+    "roles": [
+      "hazard"
+    ],
+    "visual_traits": [
+      "{'description': 'The fire associated with the pain of Sheol, from which the kings cannot prevent their descent.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1156"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 63,
+        "chapter_end": 63,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

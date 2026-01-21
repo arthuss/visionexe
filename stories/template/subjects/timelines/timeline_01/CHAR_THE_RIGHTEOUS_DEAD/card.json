@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_THE_RIGHTEOUS_DEAD",
+  "name": "The Righteous Dead",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Righteous Dead.",
+    "visual_anatomy": [
+      "Traits: Described as 'those who have fallen asleep in righteousness'. Their spirit is said to dwell in the Elect One.",
+      "Roles: group"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Described as 'those who have fallen asleep in righteousness'. Their spirit is said to dwell in the Elect One."
+    ],
+    "prompt_block": "The Righteous Dead, Described as 'those who have fallen asleep in righteousness'. Their spirit is said to dwell in the Elect One.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Described as 'those who have fallen asleep in righteousness'. Their spirit is said to dwell in the Elect One."
+        ],
+        "prompt_block": "The Righteous Dead, Described as 'those who have fallen asleep in righteousness'. Their spirit is said to dwell in the Elect One."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_RIGHTEOUS_DEAD",
+    "name": "The Righteous Dead",
+    "type": "character",
+    "aliases": [
+      "The Righteous Dead"
+    ],
+    "roles": [
+      "group"
+    ],
+    "visual_traits": [
+      "Described as 'those who have fallen asleep in righteousness'. Their spirit is said to dwell in the Elect One."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1142"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 49,
+        "chapter_end": 49,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

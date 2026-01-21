@@ -1,0 +1,73 @@
+{
+  "id": "SETENV_TREES",
+  "name": "trees",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for trees.",
+    "visual_anatomy": [
+      "Traits: Covered with green leaves and bearing fruit., {'description': \"Described as being covered with 'green leaves' (ሐመልማለ፡\\u200bአቍጽል) and providing shade.\"}",
+      "Roles: A static example of nature's obedience to God's eternal law., unknown"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Covered with green leaves and bearing fruit.",
+      "{'description': \"Described as being covered with 'green leaves' (ሐመልማለ፡\\u200bአቍጽል) and providing shade.\"}"
+    ],
+    "prompt_block": "trees, Covered with green leaves and bearing fruit., {'description': \"Described as being covered with 'green leaves' (ሐመልማለ፡\\u200bአቍጽል) and providing shade.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Covered with green leaves and bearing fruit.",
+          "{'description': \"Described as being covered with 'green leaves' (ሐመልማለ፡\\u200bአቍጽል) and providing shade.\"}"
+        ],
+        "prompt_block": "trees, Covered with green leaves and bearing fruit., {'description': \"Described as being covered with 'green leaves' (ሐመልማለ፡\\u200bአቍጽል) and providing shade.\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_TREES",
+    "name": "trees",
+    "type": "set_environment",
+    "aliases": [
+      "Trees",
+      "trees"
+    ],
+    "roles": [
+      "A static example of nature's obedience to God's eternal law.",
+      "unknown"
+    ],
+    "visual_traits": [
+      "Covered with green leaves and bearing fruit.",
+      "{'description': \"Described as being covered with 'green leaves' (ሐመልማለ፡\\u200bአቍጽል) and providing shade.\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1061",
+      "row_1098"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 5,
+        "chapter_end": 5,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

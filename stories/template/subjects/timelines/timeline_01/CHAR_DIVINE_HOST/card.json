@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_DIVINE_HOST",
+  "name": "Divine Host",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Divine Host.",
+    "visual_anatomy": [
+      "Traits: Appears as a 'camp' or 'host' (ትዕይንቱ) on the mountain",
+      "Roles: entourage"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Appears as a 'camp' or 'host' (ትዕይንቱ) on the mountain"
+    ],
+    "prompt_block": "Divine Host, Appears as a 'camp' or 'host' (ትዕይንቱ) on the mountain",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Appears as a 'camp' or 'host' (ትዕይንቱ) on the mountain"
+        ],
+        "prompt_block": "Divine Host, Appears as a 'camp' or 'host' (ትዕይንቱ) on the mountain"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_DIVINE_HOST",
+    "name": "Divine Host",
+    "type": "character",
+    "aliases": [
+      "Divine Host"
+    ],
+    "roles": [
+      "entourage"
+    ],
+    "visual_traits": [
+      "Appears as a 'camp' or 'host' (ትዕይንቱ) on the mountain"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1050"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 1,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+## [STATE] The Angel of Peace :: Default
+**State ID:** default
+**Chapters:** 52 - 52
+
+**Phase Summary:** The Angel stands as a serene guide amidst the metallic mountains of the deep simulation, explaining the nature of the resource heaps to the Voyager.
+**Phase Keywords:** calm guide, pointing gesture, metallic mountains background, data visualization
+**Phase Prompt:**
+A wide cinematic shot of The Angel of Peace standing calmly in a desolate valley surrounded by towering mountains of raw metal (iron, copper, gold). The Angel is pointing with a slender hand towards a mountain of soft metal, explaining its function. The Angel's fiber-optic robes flow gently as if in a liquid medium. The air is thick with the heat-haze of thermal throttling, but the Angel remains cool and unaffected, surrounded by a faint blue vector-field aura. The lighting is low-key, emphasizing the contrast between the dark, sleek Angel and the rough, oxidizing textures of the metal mountains. Hyper-realistic, 8k, cinematic composition, vertical 9:16 aspect ratio.
+
+---

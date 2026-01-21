@@ -3,56 +3,25 @@
   "name": "Message",
   "type": "prop",
   "card": {
-    "description": "The Message is a dynamic, crystalline interface that manifests across various surfaces—digital visors, terminal screens, holographic displays, and obsidian slates—carrying ancient Ge'ez glyphs and modern error codes in a pulsing red glow. Its surface is a layered, translucent obsidian crystal that refracts light, embedding bio‑luminescent filaments that trace the glyphs. The interface is both a relic and a conduit, blending Ethiopian mysticism with incomprehensible tech.",
-    "tags": [
-      "digital-message",
-      "ancient-tech",
-      "geez-glyphs",
-      "holographic",
-      "crystalline-slate",
-      "red-glow",
-      "bio-luminescence",
-      "obsidian",
-      "glitch"
-    ],
+    "description": "Auto-generated asset card for Message.",
     "visual_anatomy": [
-      "**Body/Form:** Translucent obsidian crystal slab, 30cm x 20cm, etched with concentric Ge'ez glyphs, embedded with bioluminescent filaments that pulse in sync with data flow.",
-      "**Face/Sensors:** The glyphs themselves act as read/write nodes; a central Ge'ez symbol glows brighter, serving as a focus point for data input.",
-      "**Clothing/Armor:** Not applicable.",
-      "**Key Features:** Red luminescent code streams, glitching pixelation, holographic overlay, subtle chromatic aberration, reflective surface that mirrors ambient light."
+      "Roles: abstract"
     ],
     "evolution": [
-      "Phase 1 (Initial Glitch): The crystal surface flickers with static, pixelated fragments of the message, red code fragments appear sporadically.",
-      "Phase 2 (Stable Message): The glyphs fully illuminate, the red code scrolls cleanly, and the holographic overlay stabilizes, reflecting the environment."
+      "Phase (Default)"
     ],
     "props": [
-      "Item: Obsidian Slate – a polished black crystal panel that displays the message.",
-      "Item: Holographic Screen – a floating translucent panel projecting the message in 3D.",
-      "Item: Digital Visor – a visor overlay that projects the message onto the user's retina."
+      "TBD."
     ],
-    "prompt_keywords": [
-      "ancient-tech",
-      "obsidian",
-      "geez",
-      "red-glow",
-      "holographic",
-      "glitch",
-      "bio-luminescence",
-      "crystalline"
-    ],
-    "prompt_block": "A translucent obsidian crystal slab, 30cm by 20cm, etched with ancient Ge'ez glyphs that glow with pulsing red bioluminescent filaments, projecting a scrolling error message in a crisp monospace font; the surface is layered with subtle glitching pixelation, holographic overlay, and reflective chromatic aberration, set against a dim industrial backdrop, cinematic lighting, photorealistic, tactile texture, ancient Ethiopian mysticism meets incomprehensible tech.",
+    "prompt_keywords": [],
+    "prompt_block": "Message, abstract",
     "phase_prompts": [
       {
         "state_id": "default",
         "label": "Default",
-        "summary": "Initial glitching message on a crystalline interface",
-        "prompt_keywords": [
-          "glitch",
-          "red-glow",
-          "geez",
-          "obsidian"
-        ],
-        "prompt_block": "A translucent obsidian crystal slab, 30cm by 20cm, etched with ancient Ge'ez glyphs that glow with pulsing red bioluminescent filaments, projecting a scrolling error message in a crisp monospace font; the surface is layered with subtle glitching pixelation, holographic overlay, and reflective chromatic aberration, set against a dim industrial backdrop, cinematic lighting, photorealistic, tactile texture, ancient Ethiopian mysticism meets incomprehensible tech."
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Message, abstract"
       }
     ]
   },
@@ -72,7 +41,7 @@
     "sources": [
       "row_150"
     ],
-    "occurrence_count": 1,
+    "occurrence_count": 2,
     "is_dynamic": false,
     "state_policy": "static",
     "states": [

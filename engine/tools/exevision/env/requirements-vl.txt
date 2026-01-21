@@ -1,0 +1,10 @@
+# Qwen3-VL Python deps (install via uv in the conda env)
+transformers>=4.57.0
+qwen-vl-utils>=0.0.14
+accelerate
+safetensors
+pillow
+opencv-python
+numpy
+fastapi
+uvicorn[standard]

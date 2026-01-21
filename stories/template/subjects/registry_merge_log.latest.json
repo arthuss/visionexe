@@ -1,0 +1,313 @@
+{
+  "merges": [
+    {
+      "canonical_id": "CHAR_ENOCH",
+      "merge_ids": [
+        "CHAR_ENOCH_SPEAKER",
+        "CHAR_ENOCH_NARRATOR",
+        "CHAR_THE_NARRATOR_ENOCH",
+        "CHAR_THE_SPEAKER_ENOCH",
+        "CHAR_ENOCH_IMPLIED",
+        "CHAR_SPEAKER",
+        "CHAR_THE_SPEAKER",
+        "CHAR_NARRATOR",
+        "CHAR_NARRATOR_ENOCH",
+        "CHAR_NARRATOR_I",
+        "CHAR_I",
+        "CHAR_I_NARRATOR",
+        "CHAR_I_SPEAKER",
+        "CHAR_I_THE_SPEAKER",
+        "CHAR_HENO",
+        "CHAR_HENOU"
+      ],
+      "reason": "Consolidating all narrative voices and spelling variations (Heno/Henou) into the primary subject Enoch."
+    },
+    {
+      "canonical_id": "CHAR_GOD",
+      "merge_ids": [
+        "CHAR_",
+        "CHAR_THE_LORD",
+        "CHAR_UNNAMED_DIVINE_FIGURE",
+        "CHAR_THE_CREATOR",
+        "CHAR_THE_GREAT_ONE",
+        "CHAR_THE_HOLY_AND_GREAT_ONE",
+        "CHAR_THE_MOST_HIGH",
+        "CHAR_LORD_OF_GLORY",
+        "CHAR_THE_HOLY_ONE"
+      ],
+      "reason": "Consolidating divine titles and the glitched ID 'CHAR_' (which holds the Ge'ez name) into the canonical God entity."
+    },
+    {
+      "canonical_id": "CHAR_THE_SINNERS",
+      "merge_ids": [
+        "CHAR_SINNERS"
+      ],
+      "reason": "Standardizing plural group name."
+    },
+    {
+      "canonical_id": "CHAR_THE_ELECT",
+      "merge_ids": [
+        "CHAR_THE_ELECT_ONES",
+        "CHAR_THE_CHOSEN",
+        "CHAR_THE_CHOSEN_ONES",
+        "CHAR_THE_ELECT_RIGHTEOUS"
+      ],
+      "reason": "Consolidating synonymous group identifiers."
+    },
+    {
+      "canonical_id": "CHAR_THE_RIGHTEOUS",
+      "merge_ids": [
+        "CHAR_RIGHTEOUS_REMNANT",
+        "CHAR_THE_RIGHTEOUS_ONE"
+      ],
+      "reason": "Consolidating group and individual representative references."
+    },
+    {
+      "canonical_id": "CHAR_THE_WATCHERS",
+      "merge_ids": [
+        "CHAR_WATCHERS",
+        "CHAR_WATCHERS_OF_HEAVEN",
+        "CHAR_WATCHERS_FALLEN",
+        "CHAR_WATCHERS_LOYAL"
+      ],
+      "reason": "Consolidating all references to the Watchers into a single group entity."
+    },
+    {
+      "canonical_id": "CHAR_SON_OF_MAN",
+      "merge_ids": [
+        "CHAR_THE_SON_OF_MAN",
+        "CHAR_THE_ELECT_ONE_SON_OF_MAN"
+      ],
+      "reason": "Consolidating Messianic titles referring to the same figure."
+    },
+    {
+      "canonical_id": "CHAR_THE_ELECT_ONE",
+      "merge_ids": [
+        "CHAR_ELECT_ONE"
+      ],
+      "reason": "Standardizing title capitalization and article."
+    },
+    {
+      "canonical_id": "CHAR_METHUSELAH",
+      "merge_ids": [
+        "CHAR_MATUSALA"
+      ],
+      "reason": "Merging Ge'ez transliteration 'Matusala' into the standard English 'Methuselah'."
+    },
+    {
+      "canonical_id": "CHAR_RAPHAEL",
+      "merge_ids": [
+        "CHAR_RUFAEL"
+      ],
+      "reason": "Merging spelling variant."
+    },
+    {
+      "canonical_id": "CHAR_SEMYAZA",
+      "merge_ids": [
+        "CHAR_SHEMYAZA"
+      ],
+      "reason": "Merging spelling variant."
+    }
+  ],
+  "renames": [],
+  "aliases": [
+    {
+      "canonical_id": "CHAR_ENOCH",
+      "aliases": [
+        "Heno",
+        "Henou",
+        "Scribe of Righteousness"
+      ],
+      "reason": "Attaching variations found in text."
+    },
+    {
+      "canonical_id": "CHAR_GOD",
+      "aliases": [
+        "እግዚብሔር",
+        "The Lord",
+        "The Most High",
+        "The Great One"
+      ],
+      "reason": "Attaching divine titles."
+    },
+    {
+      "canonical_id": "CHAR_METHUSELAH",
+      "aliases": [
+        "Matusala"
+      ],
+      "reason": "Ge'ez transliteration."
+    }
+  ],
+  "invalid": [
+    {
+      "id": "CHAR_SARAH_CHEN",
+      "reason": "Hallucination: Name does not appear in text."
+    },
+    {
+      "id": "CHAR_ESM_H_LO",
+      "reason": "Not a character: Ge'ez phrase 'For there is'."
+    },
+    {
+      "id": "CHAR_EMDEHERU",
+      "reason": "Not a character: Ge'ez preposition 'After him'."
+    },
+    {
+      "id": "CHAR_EMENOMU",
+      "reason": "Not a character: Ge'ez preposition 'From them'."
+    },
+    {
+      "id": "CHAR_EMMALEM",
+      "reason": "Not a character: Ge'ez phrase 'From eternity'."
+    },
+    {
+      "id": "CHAR_ISME",
+      "reason": "Not a character: Ge'ez conjunction 'Because'."
+    },
+    {
+      "id": "CHAR_LELEMU",
+      "reason": "Not a character: Misinterpreted Ge'ez text."
+    },
+    {
+      "id": "CHAR_LE_EY",
+      "reason": "Not a character: Misinterpreted Ge'ez text."
+    },
+    {
+      "id": "CHAR_LE_ALAM",
+      "reason": "Not a character: Ge'ez phrase 'For eternity'."
+    },
+    {
+      "id": "CHAR_SIOL",
+      "reason": "Location: Refers to Sheol, duplicative of SETENV_SHEOL."
+    },
+    {
+      "id": "CHAR_SENA",
+      "reason": "Not a character: Ge'ez noun 'Goodness/Beauty'."
+    },
+    {
+      "id": "CHAR_ZEREM",
+      "reason": "Not a character: Fragment, likely 'Zneam' (Rain)."
+    },
+    {
+      "id": "CHAR_EMINE_MEL_AIT",
+      "reason": "Not a character: Ge'ez phrase 'From the angels'."
+    },
+    {
+      "id": "CHAR_YIMETSU",
+      "reason": "Not a character: Ge'ez verb 'They come'."
+    },
+    {
+      "id": "CHAR_ZEYASTERI",
+      "reason": "Not a character: Ge'ez relative verb 'That which appears'."
+    },
+    {
+      "id": "CHAR_RII",
+      "reason": "Not a character: Ge'ez root 'See/Look'."
+    },
+    {
+      "id": "CHAR_SEMA",
+      "reason": "Not a character: Ge'ez verb 'He heard'."
+    },
+    {
+      "id": "CHAR_SIMO",
+      "reason": "Not a character: Ge'ez noun 'His name'."
+    },
+    {
+      "id": "CHAR_WEIBELENI",
+      "reason": "Not a character: Ge'ez verb phrase 'And he said to me'."
+    },
+    {
+      "id": "CHAR_WEKOMU",
+      "reason": "Not a character: Ge'ez verb phrase 'And he stood'."
+    },
+    {
+      "id": "CHAR_TESEFHEW",
+      "reason": "Not a character: Ge'ez verb 'Hope/Wait'."
+    },
+    {
+      "id": "CHAR_T_TQETELU",
+      "reason": "Not a character: Ge'ez verb 'You shall be killed'."
+    },
+    {
+      "id": "CHAR_ZEYETS",
+      "reason": "Not a character: Text fragment."
+    },
+    {
+      "id": "CHAR_ZEYNEDDE",
+      "reason": "Not a character: Ge'ez phrase 'That burns'."
+    },
+    {
+      "id": "CHAR_WEZERAD",
+      "reason": "Not a character: Ge'ez phrase."
+    },
+    {
+      "id": "CHAR_WEMAHALA_ABIY",
+      "reason": "Not a character: Ge'ez phrase 'And a great oath'."
+    },
+    {
+      "id": "CHAR_WEMDURES",
+      "reason": "Not a character: Ge'ez phrase 'And the earth'."
+    },
+    {
+      "id": "CHAR_WEMIRWATS",
+      "reason": "Not a character: Ge'ez phrase 'And the course'."
+    },
+    {
+      "id": "CHAR_WATEFERUNI",
+      "reason": "Not a character: Ge'ez phrase."
+    },
+    {
+      "id": "CHAR_WE_YE_AQEBU",
+      "reason": "Not a character: Ge'ez verb phrase 'And they keep'."
+    },
+    {
+      "id": "CHAR_WE_ESE",
+      "reason": "Not a character: Ge'ez phrase."
+    },
+    {
+      "id": "CHAR_DEHARI",
+      "reason": "Not a character: Ge'ez adjective 'Latter/Last'."
+    },
+    {
+      "id": "CHAR_MEWAWIL",
+      "reason": "Not a character: Ge'ez noun 'Days'."
+    },
+    {
+      "id": "CHAR_ESME_HALO",
+      "reason": "Not a character: Ge'ez phrase 'For there is'."
+    },
+    {
+      "id": "CHAR_I_HALO",
+      "reason": "Not a character: Ge'ez phrase 'There is not'."
+    },
+    {
+      "id": "CHAR_LEBIT_SUMU",
+      "reason": "Not a character: Ge'ez phrase 'To their neighbor'."
+    },
+    {
+      "id": "CHAR_WOLE",
+      "reason": "Not a character: Ge'ez conjunction 'And to'."
+    },
+    {
+      "id": "CHAR_WE",
+      "reason": "Not a character: Ge'ez conjunction 'And'."
+    },
+    {
+      "id": "CHAR_ABAY",
+      "reason": "Not a character: Ge'ez adjective 'Great'."
+    },
+    {
+      "id": "CHAR_ABIY",
+      "reason": "Not a character: Ge'ez adjective 'Great'."
+    },
+    {
+      "id": "CHAR_ZEMSELYE",
+      "reason": "Not a character: Ge'ez phrase 'Who is with me'."
+    }
+  ],
+  "notes": [
+    "Extensive cleaning required for extracted entities that are actually Ge'ez grammatical particles, verbs, or common nouns detected as proper names.",
+    "Duplicate IDs for 'God' (CHAR_ and CHAR_GOD) must be resolved; chosen CHAR_GOD as primary.",
+    "Multiple variations of narrative voice (I, Speaker, Narrator) consolidated under Enoch.",
+    "Locations like Sheol were incorrectly flagged as characters; moved to invalid list for removal from character registry."
+  ]
+}

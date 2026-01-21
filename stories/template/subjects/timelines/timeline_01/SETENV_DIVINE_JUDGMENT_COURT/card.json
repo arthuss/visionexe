@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_DIVINE_JUDGMENT_COURT",
+  "name": "Divine Judgment Court",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Divine Judgment Court.",
+    "visual_anatomy": [
+      "Traits: A setting centered around a throne where judgment is dispensed.",
+      "Roles: The overall setting of the chapter."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A setting centered around a throne where judgment is dispensed."
+    ],
+    "prompt_block": "Divine Judgment Court, A setting centered around a throne where judgment is dispensed.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A setting centered around a throne where judgment is dispensed."
+        ],
+        "prompt_block": "Divine Judgment Court, A setting centered around a throne where judgment is dispensed."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_DIVINE_JUDGMENT_COURT",
+    "name": "Divine Judgment Court",
+    "type": "set_environment",
+    "aliases": [
+      "Divine Judgment Court"
+    ],
+    "roles": [
+      "The overall setting of the chapter."
+    ],
+    "visual_traits": [
+      "A setting centered around a throne where judgment is dispensed."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1155"
+    ],
+    "occurrence_count": 8,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 62,
+        "chapter_end": 62,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

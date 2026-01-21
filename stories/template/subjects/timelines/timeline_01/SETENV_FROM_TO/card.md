@@ -1,33 +1,20 @@
 ## [SET_ENVIRONMENT] from ምድር to ሰማይ (ID: SETENV_FROM_TO)
-**Description:** A colossal, spiraling spire rises from a weathered limestone courtyard, its basaltic shaft and polished obsidian panels etched with ancient Ge'ez script. Interlaced along the shaft are humming crystalline conduits that pulse with bioluminescent azure light, while verdigris‑corroded copper alloy plates cover the exterior, revealing gold circuitry etched beneath. At the apex sits a crystal core emitting a soft blue glow, its surface studded with glowing glyphs that act as interface panels. The base of the spire is anchored by a towering obelisk that channels energy upward, and bioluminescent vines climb the stone, casting prismatic shadows across the courtyard under a diffused golden sunrise that filters through the spire's crystalline lattice.
-**Tags:** #ancient-tech #industrial mysticism #Ethiopian #Egyptian #skyward spire #ground-to-sky #photorealistic #tactile
+**Description:** Auto-generated asset card for from ምድር to ሰማይ.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** 200 m tall, 30 m diameter spiraling shaft of basaltic stone and polished obsidian, interlaced with crystalline conduits.
-*   **Face/Sensors:** Apex crystal core with glowing Ge'ez glyphs serving as interface panels; embedded sensors within the crystalline lattice.
-*   **Clothing/Armor:** Verdigris‑corroded copper alloy plates covering the exterior, revealing gold circuitry etched beneath.
-*   **Key Features:** Central obelisk conduit, crystalline conduits pulsing with bioluminescent light, bioluminescent vines, weathered stone courtyard, diffused golden sunrise illumination.
+TBD.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Foundation & Courtyard): Weathered limestone courtyard with central obelisk, bioluminescent vines, and initial crystalline conduit installation.
-*   Phase 2 (Tower Construction & Activation): Spiraling shaft erected, copper alloy cladding applied, crystalline conduits integrated, apex crystal core activated, bioluminescent glyphs illuminated.
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Obelisk of Ge'ez script
-*   Item: Crystalline conduit
-*   Item: Bioluminescent vines
-*   Item: Weathered stone altar
-*   Item: Copper alloy plates
-
-### 4. AI PROMPT KEYWORDS
-`skyward spire`, `ancient Ethiopian motifs`, `crystalline conduits`, `bioluminescent glyphs`, `industrial mysticism`, `photorealistic`, `tactile`
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
-A colossal, spiraling spire rising from a weathered limestone courtyard, its basaltic stone and polished obsidian panels etched with ancient Ge'ez script, interlaced with humming crystalline conduits pulsing with bioluminescent azure light, covered in verdigris‑corroded copper alloy plates revealing gold circuitry, illuminated by a diffused golden sunrise filtering through a crystalline lattice, casting prismatic shadows across the courtyard, cinematic photorealistic, tactile, ancient-tech industrial mysticism, grounded realism
+from ምድር to ሰማይ,
 
 ### 6. PHASE PROMPTS
-*   **Default:** Cinematic set of a skyward spire rising from earth, blending ancient Ethiopian/Egyptian motifs with incomprehensible crystalline tech.
-    Prompt: A colossal, spiraling spire rising from a weathered limestone courtyard, its basaltic stone and polished obsidian panels etched with ancient Ge'ez script, interlaced with humming crystalline conduits pulsing with bioluminescent azure light, covered in verdigris‑corroded copper alloy plates revealing gold circuitry, illuminated by a diffused golden sunrise filtering through a crystalline lattice, casting prismatic shadows across the courtyard, cinematic photorealistic, tactile, ancient-tech industrial mysticism, grounded realism
-    Keywords: skyward spire, ancient Ethiopian motifs, crystalline conduits, bioluminescent glyphs, industrial mysticism, photorealistic, tactile
+*   **Default:**
+    Prompt: from ምድር to ሰማይ,
 
 ---

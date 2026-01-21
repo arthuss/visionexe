@@ -2,9 +2,7 @@
 **State ID:** default
 **Chapters:** 14 - 101
 
-**Phase Summary:** Explorers enter the Abyssal Hall, encountering ancient glyphs and advanced technology.
-**Phase Keywords:** obsidian, crystalline, glyphs, hieroglyphic, bioluminescent, industrial, ancient, Ethiopian, Egyptian, photorealistic
 **Phase Prompt:**
-Explorers step into a subterranean hall carved from obsidian, towering basalt pillars, a vaulted ceiling etched with hieroglyphic circuitry, a central monolith with a polished obsidian face embedded with bioluminescent glyphs pulsing in sync with the environment, crystalline conduits along the walls, dust-laden air, metallic resonances, ancient Ethiopian and Egyptian motifs fused with incomprehensible technology, photorealistic, tactile, cinematic lighting
+Scene 6, red, unknown, ባሕር, ቤት
 
 ---

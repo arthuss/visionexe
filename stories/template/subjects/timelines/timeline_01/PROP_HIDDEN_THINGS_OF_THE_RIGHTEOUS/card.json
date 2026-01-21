@@ -1,0 +1,67 @@
+{
+  "id": "PROP_HIDDEN_THINGS_OF_THE_RIGHTEOUS",
+  "name": "hidden things of the righteous",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for hidden things of the righteous.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Unspecified hidden things belonging to the righteous that are revealed at the time of judgment.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Unspecified hidden things belonging to the righteous that are revealed at the time of judgment.'}"
+    ],
+    "prompt_block": "hidden things of the righteous, {'description': 'Unspecified hidden things belonging to the righteous that are revealed at the time of judgment.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Unspecified hidden things belonging to the righteous that are revealed at the time of judgment.'}"
+        ],
+        "prompt_block": "hidden things of the righteous, {'description': 'Unspecified hidden things belonging to the righteous that are revealed at the time of judgment.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_HIDDEN_THINGS_OF_THE_RIGHTEOUS",
+    "name": "hidden things of the righteous",
+    "type": "prop",
+    "aliases": [
+      "hidden things of the righteous"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'Unspecified hidden things belonging to the righteous that are revealed at the time of judgment.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1131"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 38,
+        "chapter_end": 38,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

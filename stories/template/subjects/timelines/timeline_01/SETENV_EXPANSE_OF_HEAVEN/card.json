@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_EXPANSE_OF_HEAVEN",
+  "name": "Expanse of Heaven",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Expanse of Heaven.",
+    "visual_anatomy": [
+      "Traits: {'description': 'The location where the speaker viewed the Heavenly Tablets.'}",
+      "Roles: location"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The location where the speaker viewed the Heavenly Tablets.'}"
+    ],
+    "prompt_block": "Expanse of Heaven, {'description': 'The location where the speaker viewed the Heavenly Tablets.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The location where the speaker viewed the Heavenly Tablets.'}"
+        ],
+        "prompt_block": "Expanse of Heaven, {'description': 'The location where the speaker viewed the Heavenly Tablets.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_EXPANSE_OF_HEAVEN",
+    "name": "Expanse of Heaven",
+    "type": "set_environment",
+    "aliases": [
+      "Expanse of Heaven"
+    ],
+    "roles": [
+      "location"
+    ],
+    "visual_traits": [
+      "{'description': 'The location where the speaker viewed the Heavenly Tablets.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1196"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 103,
+        "chapter_end": 103,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

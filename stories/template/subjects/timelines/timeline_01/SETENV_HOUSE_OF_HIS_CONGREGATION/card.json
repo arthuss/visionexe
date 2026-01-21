@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_HOUSE_OF_HIS_CONGREGATION",
+  "name": "house of his congregation",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for house of his congregation.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A dwelling place for the righteous and chosen that will appear in the future.'}",
+      "Roles: sanctuary"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A dwelling place for the righteous and chosen that will appear in the future.'}"
+    ],
+    "prompt_block": "house of his congregation, {'description': 'A dwelling place for the righteous and chosen that will appear in the future.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A dwelling place for the righteous and chosen that will appear in the future.'}"
+        ],
+        "prompt_block": "house of his congregation, {'description': 'A dwelling place for the righteous and chosen that will appear in the future.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_HOUSE_OF_HIS_CONGREGATION",
+    "name": "house of his congregation",
+    "type": "set_environment",
+    "aliases": [
+      "house of his congregation"
+    ],
+    "roles": [
+      "sanctuary"
+    ],
+    "visual_traits": [
+      "{'description': 'A dwelling place for the righteous and chosen that will appear in the future.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1146"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 53,
+        "chapter_end": 53,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "id": "SETENV_WHIRLWIND",
+  "name": "whirlwind",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for whirlwind.",
+    "visual_anatomy": [
+      "Traits: A powerful wind that seizes the narrator and transports him.",
+      "Roles: Atmospheric phenomenon and transport mechanism, transport"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A powerful wind that seizes the narrator and transports him."
+    ],
+    "prompt_block": "whirlwind, A powerful wind that seizes the narrator and transports him.",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "A powerful wind that seizes the narrator and transports him."
+        ],
+        "prompt_block": "whirlwind, A powerful wind that seizes the narrator and transports him., Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "A powerful wind that seizes the narrator and transports him."
+        ],
+        "prompt_block": "whirlwind, A powerful wind that seizes the narrator and transports him., Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "A powerful wind that seizes the narrator and transports him."
+        ],
+        "prompt_block": "whirlwind, A powerful wind that seizes the narrator and transports him., Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_WHIRLWIND",
+    "name": "whirlwind",
+    "type": "set_environment",
+    "aliases": [
+      "Whirlwind",
+      "whirlwind"
+    ],
+    "roles": [
+      "Atmospheric phenomenon and transport mechanism",
+      "transport"
+    ],
+    "visual_traits": [
+      "A powerful wind that seizes the narrator and transports him."
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: static', 'description': 'A whirlwind.'}",
+      "{'phase': 'Phase 2: dynamic', 'description': 'Acts as a force to snatch and transport Enoch.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1132",
+      "row_1145"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 39,
+        "chapter_end": 42,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 43,
+        "chapter_end": 47,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: static', 'description': 'A whirlwind.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 48,
+        "chapter_end": 52,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: dynamic', 'description': 'Acts as a force to snatch and transport Enoch.'}"
+        ]
+      }
+    ]
+  }
+}

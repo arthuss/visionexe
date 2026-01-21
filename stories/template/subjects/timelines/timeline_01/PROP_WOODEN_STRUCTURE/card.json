@@ -1,0 +1,67 @@
+{
+  "id": "PROP_WOODEN_STRUCTURE",
+  "name": "Wooden Structure",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Wooden Structure.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A structure made of wood (ዕፀወ) built by angels. Noah is to lay his hand upon it.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A structure made of wood (ዕፀወ) built by angels. Noah is to lay his hand upon it.'}"
+    ],
+    "prompt_block": "Wooden Structure, {'description': 'A structure made of wood (ዕፀወ) built by angels. Noah is to lay his hand upon it.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A structure made of wood (ዕፀወ) built by angels. Noah is to lay his hand upon it.'}"
+        ],
+        "prompt_block": "Wooden Structure, {'description': 'A structure made of wood (ዕፀወ) built by angels. Noah is to lay his hand upon it.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_WOODEN_STRUCTURE",
+    "name": "Wooden Structure",
+    "type": "prop",
+    "aliases": [
+      "Wooden Structure"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'A structure made of wood (ዕፀወ) built by angels. Noah is to lay his hand upon it.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1161"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 67,
+        "chapter_end": 67,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

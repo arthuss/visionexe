@@ -1,0 +1,67 @@
+{
+  "id": "PROP_FLESH_AND_BLOOD",
+  "name": "Flesh and Blood",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Flesh and Blood.",
+    "visual_anatomy": [
+      "Traits: {'description': \"The substance ('ሥጋ ወደመ') that defines mortal life, procreation, and death. The Watchers transgressed by acting in the sphere of flesh and blood.\"}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"The substance ('ሥጋ ወደመ') that defines mortal life, procreation, and death. The Watchers transgressed by acting in the sphere of flesh and blood.\"}"
+    ],
+    "prompt_block": "Flesh and Blood, {'description': \"The substance ('ሥጋ ወደመ') that defines mortal life, procreation, and death. The Watchers transgressed by acting in the sphere of flesh and blood.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"The substance ('ሥጋ ወደመ') that defines mortal life, procreation, and death. The Watchers transgressed by acting in the sphere of flesh and blood.\"}"
+        ],
+        "prompt_block": "Flesh and Blood, {'description': \"The substance ('ሥጋ ወደመ') that defines mortal life, procreation, and death. The Watchers transgressed by acting in the sphere of flesh and blood.\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_FLESH_AND_BLOOD",
+    "name": "Flesh and Blood",
+    "type": "prop",
+    "aliases": [
+      "Flesh and Blood"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': \"The substance ('ሥጋ ወደመ') that defines mortal life, procreation, and death. The Watchers transgressed by acting in the sphere of flesh and blood.\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1109"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 15,
+        "chapter_end": 15,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

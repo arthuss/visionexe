@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_SCORCHING_HEAT",
+  "name": "scorching heat",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for scorching heat.",
+    "visual_anatomy": [
+      "Traits: The ambient atmospheric condition, described as a deep, burning heat from the sun.",
+      "Roles: environment"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "The ambient atmospheric condition, described as a deep, burning heat from the sun."
+    ],
+    "prompt_block": "scorching heat, The ambient atmospheric condition, described as a deep, burning heat from the sun.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "The ambient atmospheric condition, described as a deep, burning heat from the sun."
+        ],
+        "prompt_block": "scorching heat, The ambient atmospheric condition, described as a deep, burning heat from the sun."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_SCORCHING_HEAT",
+    "name": "scorching heat",
+    "type": "set_environment",
+    "aliases": [
+      "scorching heat"
+    ],
+    "roles": [
+      "environment"
+    ],
+    "visual_traits": [
+      "The ambient atmospheric condition, described as a deep, burning heat from the sun."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1095"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 4,
+        "chapter_end": 4,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

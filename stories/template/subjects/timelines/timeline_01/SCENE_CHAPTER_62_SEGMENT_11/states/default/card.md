@@ -2,9 +2,7 @@
 **State ID:** default
 **Chapters:** 62 - 62
 
-**Phase Summary:** The sanctum in its activated, humming state with glowing glyphs and crystalline core.
-**Phase Keywords:** obsidian pillars, copper circuitry, crystalline core, bioluminescent glyphs, steam vents, bioluminescent fungi, photorealistic, grounded realism
 **Phase Prompt:**
-A humming subterranean temple with obsidian pillars, copper circuitry, a pulsing crystalline core on a basalt altar, glowing bioluminescent glyphs on stone walls, steam vents releasing mist, bioluminescent fungi lighting the chamber, photorealistic detail, grounded realism, tactile textures, muted metallic sheen.
+Chapter 62 Segment 11, unknown
 
 ---

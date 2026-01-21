@@ -1,0 +1,67 @@
+{
+  "id": "PROP_LUMINARIES",
+  "name": "Luminaries",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Luminaries.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Celestial bodies in the sky that rise and set in an orderly fashion.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Celestial bodies in the sky that rise and set in an orderly fashion.'}"
+    ],
+    "prompt_block": "Luminaries, {'description': 'Celestial bodies in the sky that rise and set in an orderly fashion.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Celestial bodies in the sky that rise and set in an orderly fashion.'}"
+        ],
+        "prompt_block": "Luminaries, {'description': 'Celestial bodies in the sky that rise and set in an orderly fashion.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_LUMINARIES",
+    "name": "Luminaries",
+    "type": "prop",
+    "aliases": [
+      "Luminaries"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'Celestial bodies in the sky that rise and set in an orderly fashion.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1096"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 2,
+        "chapter_end": 2,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

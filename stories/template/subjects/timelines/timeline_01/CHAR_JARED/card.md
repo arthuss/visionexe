@@ -1,0 +1,27 @@
+## [CHARACTER] Jared (ID: CHAR_JARED)
+**Description:** Jared serves as the foundational 'legacy node' within the Hebraic lineage simulation, acting as the stabilizing kernel prior to the volatile system ascension of his son, Enoch. Positioned within the arid, high-contrast zones of the Surface Plane, he embodies the physical toll of a runtime environment approaching its thermal limits. He is not a traveler of the Gate Bands but a custodian of the local instance, bearing the heavy, sorrowful gravity of a father aware that his progeny is compiled for egress. His narrative function is grounded in the 'Drama' genre, utilizing silence and static framing to convey the crushing weight of the simulation's boundaries on the human proxy.
+
+### 1. VISUAL ANATOMY / DESIGN
+His countenance is rendered with hyper-realistic fidelity, capturing the granular texture of skin that has endured cycles of simulated solar exposure. The facial topography is deep and cragged, with pores that seem to trap the digital dust of the environment. His eyes, dark and reflective like polished obsidian, occasionally catch the reflection of the 'Sky Dome' grid, betraying the artificiality of the sky he mourns under.
+The attire is a complex fusion of nomadic austerity and hardware shielding. He wears layered robes of a heavy, matte material resembling basalt fiber or carbon-weave, designed to absorb the harsh light of the simulation's sun-lamp. The fabric does not merely hang; it simulates distinct mass, creating sharp, geometric folds that align with the vertical cinematic framing. At the fraying edges, the material does not tear but pixelates slightly, hinting at a 'mesh_override' failure.
+Lighting is strictly 'cinematic' and 'high_contrast', often placing Jared in the transition zones between the blinding plasma light of the day-cycle and the absolute void of the system's shadow. He is frequently framed in isolation, emphasizing his scale against the vast, flat horizon of the container, utilizing a shallow depth of field to isolate his emotional micro-expressions from the geometric perfection of the background.
+
+### 2. EVOLUTION / VARIANTS
+Jared remains a static constant, the reference variable against which the corruption of the world and the ascension of Enoch are measured. As the timeline progresses toward the deluge event (system flush), his visual presence becomes darker, the lighting around him growing more oppressive as the 'thermal throttling' of the simulation increases visual noise in the atmosphere.
+
+### 3. PROPS & EQUIPMENT
+He carries a staff that appears organic at a distance but reveals itself to be a solidified data-conduit upon close inspection. The wood grain flows in perfect, non-repeating vector lines, and the head of the staff is capped with a shard of raw data-glass that refracts light into spectral components.
+A subtle, localized 'heat lensing' effect often surrounds him, a visual marker of his proximity to the simulation's processing limits, blurring the air around his hands when he gestures.
+
+### 4. AI PROMPT KEYWORDS
+`hyper-realistic portrait`, `biblical patriarch`, `simulation theory aesthetic`, `obsidian texture`, `dramatic lighting`, `shallow depth of field`, `arid landscape`, `melancholy`, `8k resolution`, `octane render`
+
+### 5. PROMPT BLOCK (T2I)
+A hyper-realistic, cinematic vertical shot of Jared, the father of Enoch, standing solitary on the cracked surface of a flat-earth simulation plane. His face is weathered and deeply textured, showing the sorrow of a legacy system generation, lit by a harsh, high-contrast plasma sun. He wears heavy, dark robes made of a carbon-fiber weave that mimics ancient linen, the fabric absorbing light like a black body. The background is a vast, arid desert stretching to a distinct, artificial horizon line where the sky dome meets the ground. Subtle digital artifacts and heat lensing distort the air around him. The lighting is dramatic, casting deep shadows that obscure half his face, emphasizing the emotional gravity of the scene. Shot on 35mm film stock with a shallow depth of field to focus on the micro-details of his eyes and skin.
+
+### 6. PHASE PROMPTS
+*   **The Legacy Keeper:** Jared in his standard state, acting as the grounded, sorrowful father figure within the simulation's arid zones. He represents the stability of the old code before the system update.
+    Prompt: Full body, low-angle shot of Jared, an ancient patriarch in a simulation, standing firm against a digital wind. His robes of matte obsidian-fabric whip around him, revealing boots that merge with the dusty ground. The lighting is severe, mimicking a single point-source sun, creating sharp, dramatic shadows (chiaroscuro). His expression is one of stoic grief. The environment is a barren, flat plane with a visible grid texture fading into the atmospheric haze. Rendered in 8k, photorealistic style with a focus on material textures and emotional weight.
+    Keywords: sorrowful expression, desert silence, system boundary, cinematic lighting
+
+---

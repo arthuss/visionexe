@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_THE_RAMS_GROUP",
+  "name": "The Rams (group)",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Rams (group).",
+    "visual_anatomy": [
+      "Traits: A group of rams who gather together",
+      "Roles: group_agent"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A group of rams who gather together"
+    ],
+    "prompt_block": "The Rams (group), A group of rams who gather together",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A group of rams who gather together"
+        ],
+        "prompt_block": "The Rams (group), A group of rams who gather together"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_RAMS_GROUP",
+    "name": "The Rams (group)",
+    "type": "character",
+    "aliases": [
+      "The Rams (group)"
+    ],
+    "roles": [
+      "group_agent"
+    ],
+    "visual_traits": [
+      "A group of rams who gather together"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1181"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 88,
+        "chapter_end": 88,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

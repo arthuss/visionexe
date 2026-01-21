@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_THE_LORD_OF_SPIRITS",
+  "name": "The Lord of Spirits",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Lord of Spirits.",
+    "visual_anatomy": [
+      "Traits: The ultimate divine authority who has ordained all hidden things.",
+      "Roles: deity"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "The ultimate divine authority who has ordained all hidden things."
+    ],
+    "prompt_block": "The Lord of Spirits, The ultimate divine authority who has ordained all hidden things.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "The ultimate divine authority who has ordained all hidden things."
+        ],
+        "prompt_block": "The Lord of Spirits, The ultimate divine authority who has ordained all hidden things."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_LORD_OF_SPIRITS",
+    "name": "The Lord of Spirits",
+    "type": "character",
+    "aliases": [
+      "The Lord of Spirits"
+    ],
+    "roles": [
+      "deity"
+    ],
+    "visual_traits": [
+      "The ultimate divine authority who has ordained all hidden things."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1145"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 52,
+        "chapter_end": 52,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

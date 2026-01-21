@@ -1,0 +1,70 @@
+{
+  "id": "PROP_ALOE_TREES",
+  "name": "Aloe Trees",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Aloe Trees.",
+    "visual_anatomy": [
+      "Traits: full like almonds, hard",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "full like almonds",
+      "hard"
+    ],
+    "prompt_block": "Aloe Trees, full like almonds, hard",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "full like almonds",
+          "hard"
+        ],
+        "prompt_block": "Aloe Trees, full like almonds, hard"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_ALOE_TREES",
+    "name": "Aloe Trees",
+    "type": "prop",
+    "aliases": [
+      "Aloe Trees"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "full like almonds",
+      "hard"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1124"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 31,
+        "chapter_end": 31,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

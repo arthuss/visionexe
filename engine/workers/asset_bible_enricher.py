@@ -1,5 +1,6 @@
 import argparse
 import glob
+import hashlib
 import json
 import os
 import re
@@ -7,10 +8,12 @@ import shlex
 import shutil
 import subprocess
 import time
+import urllib.error
 import urllib.request
 from pathlib import Path
 
-from visionexe_paths import ensure_dir, load_story_config, resolve_path
+from vertex_gemini import call_vertex_gemini
+from visionexe_paths import ensure_dir, load_engine_config, load_story_config, resolve_path
 
 MODEL_NAME = "gpt-oss:20b"
 OLLAMA_API_URL = "http://127.0.0.1:11434/api/generate"
@@ -22,10 +25,15 @@ DEFAULT_MAX_REGIE = 5
 DEFAULT_MAX_ANALYSIS_SNIPPETS = 6
 DEFAULT_MAX_OCCURRENCES = 12
 DEFAULT_MAX_BRIEFING_CHARS = 4000
+DEFAULT_GEMINI_CACHE_TTL = 21600
+DEFAULT_LLM_TEMPERATURE = 0.35
 
 JSON_BLOCK_RE = re.compile(r"```(?:json)?\s*([\[{].*?[\]}])\s*```", re.DOTALL | re.IGNORECASE)
 SAFE_FOLDER_RE = re.compile(r"[^A-Za-z0-9_.-]+")
 TIMELINE_TAG_RE = re.compile(r"[^0-9]")
+CACHE_VERSION = 1
+PROP_ROLE_ACTOR_PREFIXES = ("actor_prop:", "character_prop:")
+PROP_ROLE_SCENE_PREFIXES = ("scene_prop", "set_prop", "environment_prop")
 
 
 def normalize_key(value: str) -> str:
@@ -52,6 +60,18 @@ def normalize_timeline_tag(value: str, padding: int) -> str:
     if digits:
         return f"{int(digits):0{padding}d}"
     return f"{1:0{padding}d}"
+
+
+def resolve_llm_profiles(repo_root: Path) -> tuple[dict, str]:
+    engine_config = load_engine_config()
+    profiles_path = resolve_path(engine_config.get("llm_profiles_path"), repo_root)
+    if not profiles_path or not Path(profiles_path).exists():
+        return {}, engine_config.get("default_llm_profile") or ""
+    try:
+        profiles = json.loads(Path(profiles_path).read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        profiles = {}
+    return profiles, engine_config.get("default_llm_profile") or ""
 
 
 def load_jsonl(path: Path):
@@ -92,6 +112,50 @@ def load_briefings(story_config, repo_root, max_chars):
     return "\n\n".join(blocks)
 
 
+def read_text(path: Path) -> str:
+    try:
+        return path.read_text(encoding="utf-8", errors="replace").strip()
+    except OSError:
+        return ""
+
+
+def load_profile_value(value, repo_root: Path, story_root: Path) -> str:
+    if not value:
+        return ""
+    if isinstance(value, list):
+        chunks = [load_profile_value(item, repo_root, story_root) for item in value]
+        return "\n\n".join([chunk for chunk in chunks if chunk]).strip()
+    if isinstance(value, dict):
+        return json.dumps(value, ensure_ascii=False, indent=2)
+    raw = str(value).strip()
+    if not raw:
+        return ""
+    candidate = Path(raw)
+    if not candidate.is_absolute():
+        repo_candidate = repo_root / candidate
+        story_candidate = story_root / candidate
+        if repo_candidate.exists():
+            candidate = repo_candidate
+        elif story_candidate.exists():
+            candidate = story_candidate
+    if candidate.exists():
+        return read_text(candidate)
+    return raw
+
+
+def load_timeline_profile(story_config, story_root: Path, repo_root: Path, timeline_id: str) -> str:
+    if not timeline_id:
+        return ""
+    profile_map = story_config.get("timeline_profiles") or {}
+    profile_path = profile_map.get(timeline_id)
+    resolved = resolve_path(profile_path, repo_root) if profile_path else None
+    if not resolved:
+        resolved = story_root / "config" / "timelines" / f"{timeline_id}.json"
+    if not resolved or not Path(resolved).exists():
+        return ""
+    return load_profile_value(str(resolved), repo_root, story_root)
+
+
 def extract_json_blocks(text: str):
     blocks = []
     if not text:
@@ -122,7 +186,89 @@ def normalize_list(value):
     return [str(value).strip()] if str(value).strip() else []
 
 
+def normalize_types(value):
+    if not value:
+        return []
+    if isinstance(value, list):
+        raw = value
+    else:
+        raw = str(value).replace(";", ",").replace("|", ",").split(",")
+    cleaned = []
+    for item in raw:
+        token = str(item).strip().lower()
+        if not token:
+            continue
+        if token in {"requisite", "requisites", "requisiten"}:
+            token = "requisite"
+        if token in {"scene_prop", "scene-prop", "set_prop", "set-prop"}:
+            token = "requisite"
+        cleaned.append(token)
+    return cleaned
+
+
+def infer_gemini_mode(model: str | None, force: bool) -> tuple[bool, str | None]:
+    if force:
+        return True, model
+    if model and "gemini" in str(model).lower():
+        return True, model
+    return False, None
+
+
+def resolve_gemini_api_key() -> str | None:
+    for key in ("GEMINI_API_KEY", "GOOGLE_API_KEY", "GENAI_API_KEY"):
+        value = os.environ.get(key)
+        if value:
+            return value.strip()
+    return None
+
+
+def gemini_api_allowed(flag: bool) -> bool:
+    if flag:
+        return True
+    env_flag = os.environ.get("ALLOW_GEMINI_API") or os.environ.get("GEMINI_ALLOW_API")
+    return str(env_flag).strip() == "1"
+
+
+def resolve_gemini_api_model(model: str | None, override: str | None = None) -> str | None:
+    candidate = override or os.environ.get("GEMINI_API_MODEL") or os.environ.get("GENAI_API_MODEL")
+    if candidate:
+        normalized = normalize_gemini_model(candidate)
+        if not normalized:
+            return None
+        lowered = normalized.lower()
+        if lowered in {"pro", "flash", "flash-lite"}:
+            return None
+        if lowered.startswith("models/"):
+            return normalized[len("models/") :]
+        return normalized
+    normalized = normalize_gemini_model(model)
+    if not normalized:
+        return None
+    lowered = normalized.lower()
+    if lowered in {"pro", "flash", "flash-lite"}:
+        return None
+    if lowered.startswith("models/"):
+        return normalized[len("models/") :]
+    return normalized
+
+
+def hash_cache_key(model: str, static_prompt: str) -> str:
+    payload = f"{CACHE_VERSION}:{model}\n{static_prompt}"
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
+
+
+def resolve_ollama_thinking(model_name: str) -> str | None:
+    env_value = os.environ.get("OLLAMA_THINKING")
+    if env_value:
+        return env_value.strip()
+    normalized = str(model_name or "").lower().replace("_", "-")
+    if "gpt-oss:20b" in normalized or "gptoss" in normalized:
+        return "high"
+    return None
+
+
 def call_ollama(prompt, model_name, ollama_url):
+    thinking = resolve_ollama_thinking(model_name)
     data = {
         "model": model_name,
         "prompt": prompt,
@@ -132,6 +278,8 @@ def call_ollama(prompt, model_name, ollama_url):
             "num_ctx": 16384,
         },
     }
+    if thinking:
+        data["options"]["thinking"] = thinking
     try:
         req = urllib.request.Request(
             ollama_url,
@@ -144,6 +292,63 @@ def call_ollama(prompt, model_name, ollama_url):
     except Exception as exc:
         print(f"[asset_bible] Ollama request failed: {exc}")
         return None
+
+
+def call_openai_compat(prompt: str, profile: dict, temperature: float) -> str | None:
+    base_url = (profile.get("base_url") or "").rstrip("/")
+    if not base_url:
+        print("[asset_bible] OpenAI-compat base_url fehlt im LLM-Profil.")
+        return None
+    if base_url.endswith("/v1"):
+        endpoint = f"{base_url}/chat/completions"
+    else:
+        endpoint = f"{base_url}/v1/chat/completions"
+    payload = {
+        "model": profile.get("model") or "",
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": temperature,
+    }
+    extra_body = profile.get("extra_body") or profile.get("request") or {}
+    if not isinstance(extra_body, dict):
+        extra_body = {}
+    thinking = profile.get("thinking")
+    if thinking and "thinking" not in extra_body:
+        extra_body["thinking"] = thinking
+    reasoning = profile.get("reasoning")
+    if reasoning and "reasoning" not in extra_body:
+        extra_body["reasoning"] = reasoning
+    if extra_body:
+        payload.update(extra_body)
+    headers = {"Content-Type": "application/json"}
+    api_key = profile.get("api_key") or ""
+    if api_key:
+        headers["Authorization"] = f"Bearer {api_key}"
+    req = urllib.request.Request(endpoint, data=json.dumps(payload).encode("utf-8"), headers=headers)
+    try:
+        with urllib.request.urlopen(req, timeout=180) as response:
+            data = json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        try:
+            body = exc.read().decode("utf-8", errors="replace")
+        except Exception:
+            body = str(exc)
+        print(f"[asset_bible] OpenAI-compat error: {body}")
+        return None
+    except Exception as exc:
+        print(f"[asset_bible] OpenAI-compat request failed: {exc}")
+        return None
+    if isinstance(data, dict):
+        choices = data.get("choices") or []
+        if choices:
+            message = choices[0].get("message") or {}
+            content = message.get("content")
+            if isinstance(content, str):
+                return content.strip()
+            text = choices[0].get("text")
+            if isinstance(text, str):
+                return text.strip()
+    print("[asset_bible] OpenAI-compat Antwort ohne Inhalt.")
+    return None
 
 
 def resolve_gemini_command():
@@ -200,6 +405,8 @@ def normalize_gemini_model(model: str | None):
         return None
     if lowered in {"pro", "flash", "flash-lite"}:
         return lowered
+    if lowered in {"gemini-3-pro"}:
+        return "gemini-3-pro-preview"
     if lowered.startswith(("gemini-3", "gemini-2.5")):
         return normalized
     if lowered.startswith(("gemini-2.0", "gemini-1")):
@@ -215,9 +422,38 @@ def normalize_copilot_model(model: str | None):
     lowered = str(model).strip().replace("_", "-").lower()
     if not lowered:
         return None
+    if lowered.startswith("gemini-2."):
+        return None
+    if lowered.startswith("gemini-3-") and lowered not in {"gemini-3-pro", "gemini-3-pro-preview"}:
+        return None
     if lowered in {"gemini-3-pro", "gemini-3-pro-preview"}:
         return "gemini-3-pro-preview"
     return model
+
+
+def resolve_gemini_cli_project(explicit: str | None = None, disable: bool = False) -> str | None:
+    env_disable = os.environ.get("VISIONEXE_GEMINI_PROJECT_DISABLE") or os.environ.get("VISIONEXE_GCP_PROJECT_DISABLE")
+    if disable or str(env_disable).strip() == "1":
+        return None
+    if explicit:
+        return explicit.strip()
+    for key in ("GOOGLE_CLOUD_PROJECT", "GOOGLE_CLOUD_PROJECT_ID"):
+        value = os.environ.get(key)
+        if value:
+            return value.strip()
+    try:
+        result = subprocess.run(
+            ["gcloud", "config", "get-value", "project"],
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        project = result.stdout.strip()
+        if project and project != "(unset)":
+            return project
+    except Exception:
+        return None
+    return None
 
 
 def parse_gemini_response(raw_output):
@@ -240,7 +476,7 @@ def parse_gemini_response(raw_output):
     return None
 
 
-def call_gemini(prompt, model=None):
+def call_gemini(prompt, model=None, project: str | None = None, clear_project: bool = False):
     cmd = resolve_gemini_command()
     if not cmd:
         print("[asset_bible] Gemini CLI nicht gefunden (gemini/npx).")
@@ -253,6 +489,15 @@ def call_gemini(prompt, model=None):
         print(f"[asset_bible] Gemini Modell '{model}' nicht kompatibel, nutze '{normalized_model}'.")
     if normalized_model:
         cmd += ["--model", normalized_model]
+    env = None
+    if project or clear_project:
+        env = os.environ.copy()
+        if project:
+            env.setdefault("GOOGLE_CLOUD_PROJECT", project)
+            env.setdefault("GOOGLE_CLOUD_PROJECT_ID", project)
+        if clear_project:
+            env.pop("GOOGLE_CLOUD_PROJECT", None)
+            env.pop("GOOGLE_CLOUD_PROJECT_ID", None)
     try:
         process = subprocess.Popen(
             cmd,
@@ -261,6 +506,7 @@ def call_gemini(prompt, model=None):
             stderr=subprocess.PIPE,
             text=True,
             encoding="utf-8",
+            env=env,
         )
         stdout, stderr = process.communicate(input=prompt)
         if process.returncode != 0:
@@ -270,6 +516,123 @@ def call_gemini(prompt, model=None):
     except OSError as exc:
         print(f"[asset_bible] Gemini Start fehlgeschlagen: {exc}")
         return None
+
+
+def gemini_api_request(url: str, payload: dict) -> dict | None:
+    data = json.dumps(payload).encode("utf-8")
+    req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
+    try:
+        with urllib.request.urlopen(req) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        try:
+            body = exc.read().decode("utf-8", errors="replace")
+        except Exception:
+            body = str(exc)
+        print(f"[asset_bible] Gemini API error: {body}")
+        return None
+    except Exception as exc:
+        print(f"[asset_bible] Gemini API request failed: {exc}")
+        return None
+
+
+def create_gemini_cache(static_prompt: str, model: str, api_key: str, ttl_seconds: int) -> str | None:
+    url = f"https://generativelanguage.googleapis.com/v1beta/cachedContents?key={api_key}"
+    payload = {
+        "model": f"models/{model}",
+        "displayName": "visionexe-asset-bible",
+        "contents": [
+            {
+                "role": "user",
+                "parts": [{"text": static_prompt}],
+            }
+        ],
+        "ttl": f"{ttl_seconds}s",
+    }
+    response = gemini_api_request(url, payload)
+    if not response:
+        return None
+    name = response.get("name")
+    if not name:
+        print("[asset_bible] Gemini cache did not return a name.")
+        return None
+    return name
+
+
+def call_gemini_api(prompt: str, model: str, api_key: str, cached_content: str | None) -> str | None:
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
+    payload = {
+        "contents": [
+            {
+                "role": "user",
+                "parts": [{"text": prompt}],
+            }
+        ],
+        "generationConfig": {
+            "temperature": 0.35,
+        },
+    }
+    if cached_content:
+        payload["cachedContent"] = cached_content
+    response = gemini_api_request(url, payload)
+    if not response:
+        return None
+    candidates = response.get("candidates") or []
+    if not candidates:
+        return None
+    content = candidates[0].get("content") or {}
+    parts = content.get("parts") or []
+    texts = [part.get("text") for part in parts if isinstance(part, dict) and part.get("text")]
+    return "".join(texts).strip() if texts else None
+
+
+def load_cache_state(path: Path) -> dict:
+    if not path.exists():
+        return {"version": CACHE_VERSION, "entries": {}}
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {"version": CACHE_VERSION, "entries": {}}
+    if data.get("version") != CACHE_VERSION:
+        return {"version": CACHE_VERSION, "entries": {}}
+    if "entries" not in data:
+        data["entries"] = {}
+    return data
+
+
+def save_cache_state(path: Path, state: dict) -> None:
+    ensure_dir(path.parent)
+    path.write_text(json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def get_cached_content(
+    static_prompt: str,
+    model: str,
+    api_key: str,
+    cache_path: Path,
+    ttl_seconds: int,
+    reset: bool,
+) -> str | None:
+    cache_state = load_cache_state(cache_path)
+    cache_key = hash_cache_key(model, static_prompt)
+    if not reset:
+        entry = cache_state.get("entries", {}).get(cache_key)
+        if entry:
+            created_at = entry.get("created_at") or 0
+            ttl = entry.get("ttl_seconds") or 0
+            if ttl and (time.time() - created_at) < ttl:
+                return entry.get("name")
+    cached_name = create_gemini_cache(static_prompt, model, api_key, ttl_seconds)
+    if not cached_name:
+        return None
+    cache_state["entries"][cache_key] = {
+        "name": cached_name,
+        "model": model,
+        "created_at": time.time(),
+        "ttl_seconds": ttl_seconds,
+    }
+    save_cache_state(cache_path, cache_state)
+    return cached_name
 
 
 def call_copilot(prompt: str, model: str | None):
@@ -409,6 +772,20 @@ def build_alias_map(profiles):
     return alias_map
 
 
+def classify_prop_type(item):
+    if not isinstance(item, dict):
+        return "requisite"
+    role_value = str(item.get("role") or "").strip()
+    lowered = role_value.lower()
+    for prefix in PROP_ROLE_ACTOR_PREFIXES:
+        if lowered.startswith(prefix):
+            return "prop"
+    for prefix in PROP_ROLE_SCENE_PREFIXES:
+        if lowered.startswith(prefix):
+            return "requisite"
+    return "requisite"
+
+
 def match_subject_id(name, alias_map, profiles_by_id, preferred_type=None):
     key = normalize_key(name)
     if not key:
@@ -440,11 +817,15 @@ def build_regie_index(entries, alias_map, profiles_by_id):
                 regie_index.setdefault(subject_id, []).append(entry)
         for prop in regie.get("props") or []:
             subject_id = match_subject_id(prop, alias_map, profiles_by_id, "prop")
+            if not subject_id:
+                subject_id = match_subject_id(prop, alias_map, profiles_by_id, "requisite")
             if subject_id:
                 regie_index.setdefault(subject_id, []).append(entry)
         environment = regie.get("environment")
         if environment:
-            subject_id = match_subject_id(environment, alias_map, profiles_by_id, "environment")
+            subject_id = match_subject_id(environment, alias_map, profiles_by_id, "set_environment")
+            if not subject_id:
+                subject_id = match_subject_id(environment, alias_map, profiles_by_id, "geo_environment")
             if subject_id:
                 regie_index.setdefault(subject_id, []).append(entry)
     return regie_index
@@ -467,12 +848,17 @@ def collect_analysis_context(analysis_records, alias_map, profiles_by_id):
                 for category, subject_type in (
                     ("actors", "character"),
                     ("props", "prop"),
-                    ("environments", "environment"),
+                    ("environments", "set_environment"),
                     ("scenes", "scene"),
                 ):
                     for item in block_item.get(category) or []:
                         name = item.get("name") if isinstance(item, dict) else item
-                        subject_id = match_subject_id(name, alias_map, profiles_by_id, subject_type)
+                        resolved_type = subject_type
+                        if category == "props":
+                            resolved_type = classify_prop_type(item)
+                        subject_id = match_subject_id(name, alias_map, profiles_by_id, resolved_type)
+                        if not subject_id and category == "props" and resolved_type != "prop":
+                            subject_id = match_subject_id(name, alias_map, profiles_by_id, "prop")
                         if not subject_id:
                             continue
                         entry = context.setdefault(subject_id, {
@@ -496,31 +882,41 @@ def render_card(profile, card):
     name = profile.get("name") or "Unknown"
     subject_id = profile.get("id")
     subject_type = (profile.get("type") or "subject").upper()
-    tags = card.get("tags") or []
-    tag_str = " ".join([f"#{tag}" for tag in tags])
-
     lines = []
     lines.append(f"## [{subject_type}] {name} (ID: {subject_id})")
     lines.append(f"**Description:** {card.get('description','').strip()}")
-    if tag_str:
-        lines.append(f"**Tags:** {tag_str}")
     lines.append("")
     lines.append("### 1. VISUAL ANATOMY / DESIGN")
-    for item in card.get("visual_anatomy", []):
-        lines.append(f"*   {item}")
+    visual_anatomy = card.get("visual_anatomy", [])
+    if isinstance(visual_anatomy, str):
+        lines.append(visual_anatomy)
+    else:
+        for item in visual_anatomy:
+            lines.append(f"{item}")
     lines.append("")
     lines.append("### 2. EVOLUTION / VARIANTS")
-    for item in card.get("evolution", []):
-        lines.append(f"*   {item}")
+    evolution = card.get("evolution", [])
+    if isinstance(evolution, str):
+        lines.append(evolution)
+    else:
+        for item in evolution:
+            lines.append(f"{item}")
     lines.append("")
     lines.append("### 3. PROPS & EQUIPMENT")
-    for item in card.get("props", []):
-        lines.append(f"*   {item}")
+    props = card.get("props", [])
+    if isinstance(props, str):
+        lines.append(props)
+    else:
+        for item in props:
+            lines.append(f"{item}")
     lines.append("")
     keywords = card.get("prompt_keywords", [])
     if keywords:
         lines.append("### 4. AI PROMPT KEYWORDS")
-        lines.append("`" + "`, `".join(keywords) + "`")
+        if isinstance(keywords, str):
+            lines.append(keywords)
+        else:
+            lines.append("`" + "`, `".join(keywords) + "`")
         lines.append("")
     prompt_block = card.get("prompt_block")
     if prompt_block:
@@ -699,10 +1095,9 @@ def build_fallback_card(profile, context):
         evolution.append(f"Changes: {', '.join(changes)}")
     return {
         "description": description,
-        "tags": roles[:6],
-        "visual_anatomy": visual or ["TBD"],
-        "evolution": evolution or ["No known variants"],
-        "props": ["TBD"],
+        "visual_anatomy": visual or ["TBD."],
+        "evolution": evolution or ["No known variants yet."],
+        "props": ["TBD."],
         "prompt_keywords": traits[:12],
         "prompt_block": f"{name}, {', '.join(traits or roles)}",
         "phase_prompts": phase_prompts,
@@ -735,10 +1130,86 @@ def ensure_phase_prompts(card, profile):
         )
     card["phase_prompts"] = phase_prompts
 
-def build_prompt(profile, context, regie_samples, occ_samples, analysis_snippets, briefing_text):
+def build_prompt(
+    profile,
+    context,
+    regie_samples,
+    occ_samples,
+    analysis_snippets,
+    briefing_text,
+    injection_context,
+    dup_candidates=None,
+):
+    static_prompt = build_prompt_static(briefing_text, injection_context)
+    dynamic_prompt = build_prompt_dynamic(
+        profile,
+        context,
+        regie_samples,
+        occ_samples,
+        analysis_snippets,
+        dup_candidates,
+    )
+    return f"{static_prompt}\n\n{dynamic_prompt}".strip()
+
+
+def build_prompt_static(briefing_text, injection_context):
+    if not briefing_text:
+        briefing_text = "(none)"
+    prompt = f"""
+ROLE: Narrative Asset Bible Author for a high-end cinematic production.
+TASK: Create ONE asset card for the subject below using the provided context.
+
+GOAL (HARD):
+- Write dense, flowing prose. No short tags, no terse bullet fragments.
+- Expand and enrich; do NOT summarize down. If in doubt, add clarifying texture.
+- The card must read like a miniature art/production bible entry.
+
+STYLE/GENRE/TIMELINE INJECTION (HARD):
+Use the injected profiles to steer tone, worldview, era, and visual language.
+Do NOT add new facts; only reframe with consistent style.
+
+INJECTION CONTEXT:
+{injection_context}
+
+OUTPUT FORMAT (JSON ONLY):
+{{
+  "description": "multi-paragraph prose block",
+  "visual_anatomy": ["paragraph 1", "paragraph 2", "paragraph 3"],
+  "evolution": ["paragraph 1", "paragraph 2"],
+  "props": ["paragraph 1", "paragraph 2"],
+  "prompt_keywords": ["optional short phrases for prompts"],
+  "prompt_block": "multi-sentence, rich prompt block (not markdown)",
+  "phase_prompts": [
+    {{
+      "state_id": "default",
+      "label": "Phase name",
+      "summary": "2-4 sentences, literary but precise",
+      "prompt_keywords": ["optional short phrases"],
+      "prompt_block": "multi-sentence prompt block for this phase"
+    }}
+  ]
+}}
+
+RULES:
+- Prioritize unique, visual identifiers (materials, wear, scale, light behavior, motion cues).
+- Use screenplay/regie when available, but convert it into prose.
+- Do NOT output tags or list fragments like "gold, robe, light". Always write full sentences.
+- If traits/roles/changes are sparse, infer only within the injected style and the analysis context.
+- Provide phase_prompts for every state_id listed below. If a phase has no changes, still emit a rich prompt_block.
+- Type rules: prop = subject-bound item (mention owner if provided). requisite = scene dressing (no ownership).
+
+STORY BRIEFING:
+{briefing_text}
+"""
+    return prompt.strip()
+
+
+def build_prompt_dynamic(profile, context, regie_samples, occ_samples, analysis_snippets, dup_candidates=None):
     name = profile.get("name") or "Unknown"
     subject_type = profile.get("type") or "subject"
     aliases = [a for a in (profile.get("aliases") or []) if a]
+    owner_ids = profile.get("owner_subject_ids") or []
+    owner_names = profile.get("owner_names") or []
     roles = sorted(set(profile.get("roles") or []) | context.get("roles", set()))
     traits = sorted(set(profile.get("visual_traits") or []) | context.get("traits", set()))
     changes = sorted(set(profile.get("changes") or []) | context.get("changes", set()))
@@ -766,8 +1237,14 @@ def build_prompt(profile, context, regie_samples, occ_samples, analysis_snippets
         regie_lines = ["(none)"]
     if not occ_lines:
         occ_lines = ["(none)"]
-    if not briefing_text:
-        briefing_text = "(none)"
+
+    dup_lines = []
+    for alias, candidates in dup_candidates or []:
+        if not candidates:
+            continue
+        dup_lines.append(f"- {alias}: {', '.join(candidates)}")
+    if not dup_lines:
+        dup_lines = ["(none)"]
 
     state_lines = []
     for state in states:
@@ -783,52 +1260,15 @@ def build_prompt(profile, context, regie_samples, occ_samples, analysis_snippets
     regie_text = "\n".join(regie_lines)
     occ_text = "\n".join(occ_lines)
     state_text = "\n".join(state_lines)
+    dup_text = "\n".join(dup_lines)
 
     prompt = f"""
-ROLE: Technical Asset Director for a high-end cinematic production.
-TASK: Create ONE asset card for the subject below using the provided context.
-
-VISUAL STYLE GUIDE:
-- Genre: Ancient-tech, industrial mysticism, grounded realism.
-- Tone: Serious, cinematic, photorealistic, tactile.
-- Avoid: Generic sci-fi, cartoon, anime, toy/plastic look.
-- Fusion: Ancient Ethiopian/Egyptian aesthetics with advanced, incomprehensible technology.
-
-OUTPUT FORMAT (JSON ONLY):
-{{
-  "description": "...",
-  "tags": ["tag1","tag2"],
-  "visual_anatomy": ["**Body/Form:** ...", "**Face/Sensors:** ...", "**Clothing/Armor:** ...", "**Key Features:** ..."],
-  "evolution": ["Phase 1 (...): ...", "Phase 2 (...): ..."],
-  "props": ["Item: ...", "Item: ..."],
-  "prompt_keywords": ["keyword1","keyword2"],
-  "prompt_block": "single-paragraph T2I prompt, no markdown",
-  "phase_prompts": [
-    {{
-      "state_id": "default",
-      "label": "Phase name",
-      "summary": "short phase-specific description",
-      "prompt_keywords": ["keyword1","keyword2"],
-      "prompt_block": "phase-specific T2I prompt, no markdown"
-    }}
-  ]
-}}
-
-RULES:
-- Prioritize unique, visual identifiers. No filler.
-- If screenplay/regie is available, use it as highest priority.
-- If traits/roles/changes are sparse, infer plausible details consistent with style.
-- Use Tech-Exegesis language (bio-luminescence, glyphs, crystalline hardware) when it fits the subject.
-- Deliver dense, production-ready specificity (materials, wear, scale, light behavior).
-- Provide phase_prompts for every state_id listed below. If a phase has no changes, still emit a prompt_block.
-
-STORY BRIEFING:
-{briefing_text}
-
 SUBJECT
 name: {name}
 type: {subject_type}
 aliases: {aliases}
+owner_subject_ids: {owner_ids}
+owner_names: {owner_names}
 roles: {roles}
 visual_traits: {traits}
 changes: {changes}
@@ -845,6 +1285,9 @@ REGIE / SCREENPLAY SNIPPETS
 
 OCCURRENCES
 {occ_text}
+
+DUPLICATE CANDIDATES (ALIAS COLLISIONS)
+{dup_text}
 """
     return prompt.strip()
 
@@ -860,15 +1303,43 @@ def main():
     parser.add_argument("--output-jsonl", help="Output JSONL cards path.")
     parser.add_argument("--subject-dir-root", help="Root folder for per-subject directories.")
     parser.add_argument("--timeline", help="Timeline tag (e.g., 1 or r01) for subject directory root.")
+    parser.add_argument("--genre-profile", help="Override genre profile (path or label).")
+    parser.add_argument(
+        "--style-profile",
+        action="append",
+        help="Override style profile (path). Repeat to provide multiple.",
+    )
+    parser.add_argument("--tone-dials", help="Override tone dials (JSON, path, or label).")
+    parser.add_argument(
+        "--types",
+        default="character,prop,requisite,set_environment,scene",
+        help="Comma-separated subject types to include (default: character,prop,requisite,set_environment,scene).",
+    )
     parser.add_argument("--max-regie", type=int, default=DEFAULT_MAX_REGIE, help="Max regie samples per subject.")
     parser.add_argument("--max-analysis", type=int, default=DEFAULT_MAX_ANALYSIS_SNIPPETS, help="Max analysis snippets per subject.")
     parser.add_argument("--max-occurrences", type=int, default=DEFAULT_MAX_OCCURRENCES, help="Max occurrence refs per subject.")
     parser.add_argument("--briefing-max-chars", type=int, default=DEFAULT_MAX_BRIEFING_CHARS, help="Max characters to include from story briefings.")
+    parser.add_argument("--include-regie", action="store_true", help="Include DREHBUCH_HOLLYWOOD regie snippets (default: off).")
     parser.add_argument("--limit", type=int, default=0, help="Limit number of subjects (0 = all).")
     parser.add_argument("--resume", action="store_true", help="Skip subjects already in output JSONL.")
+    parser.add_argument("--use-vertex", action="store_true", help="Use Vertex AI Gemini via ADC.")
+    parser.add_argument("--vertex-project", help="Override Vertex project ID.")
+    parser.add_argument("--vertex-location", help="Override Vertex location (default: us-central1).")
+    parser.add_argument("--vertex-model", help="Override Vertex model name (e.g. gemini-2.5-pro).")
+    parser.add_argument("--use-lmstudio", action="store_true", help="Use LM Studio via OpenAI-compatible API.")
+    parser.add_argument("--llm-profile", default="", help="LLM profile name (engine/config/llm_profiles.json).")
+    parser.add_argument("--llm-temperature", type=float, default=DEFAULT_LLM_TEMPERATURE, help="Temperature for OpenAI-compatible calls.")
     parser.add_argument("--use-gemini", action="store_true", help="Use Gemini CLI instead of Ollama.")
     parser.add_argument("--model", help="Override model name (Gemini model or Ollama model).")
     parser.add_argument("--ollama-url", help="Override Ollama URL.")
+    parser.add_argument("--gemini-cache", action="store_true", help="Use Gemini API cached content (requires API key).")
+    parser.add_argument("--gemini-cache-ttl", type=int, default=DEFAULT_GEMINI_CACHE_TTL, help="Gemini cache TTL in seconds.")
+    parser.add_argument("--gemini-cache-path", help="Path to Gemini cache metadata JSON.")
+    parser.add_argument("--gemini-cache-reset", action="store_true", help="Ignore existing Gemini cache metadata.")
+    parser.add_argument("--gemini-api-model", help="Explicit Gemini API model for cache (e.g. gemini-2.5-pro).")
+    parser.add_argument("--allow-gemini-api", action="store_true", help="Allow paid Gemini API calls for cache.")
+    parser.add_argument("--gemini-project", help="Gemini CLI project (sets GOOGLE_CLOUD_PROJECT).")
+    parser.add_argument("--no-gemini-project", action="store_true", help="Do not pass GOOGLE_CLOUD_PROJECT to Gemini CLI.")
     args = parser.parse_args()
 
     story_config, story_root, repo_root = load_story_config(
@@ -904,17 +1375,114 @@ def main():
     else:
         subject_dir_root = Path(subjects_root) / "timelines" / timeline_folder
 
+    timeline_id = f"{timeline_label}_{timeline_tag}"
+    timeline_profile_text = load_timeline_profile(story_config, story_root, repo_root, timeline_id)
+
+    genre_profile_value = args.genre_profile or story_config.get("genre_profile")
+    genre_profile_text = load_profile_value(genre_profile_value, repo_root, story_root)
+
+    style_profile_values = args.style_profile or story_config.get("style_profiles") or []
+    style_profile_text = load_profile_value(style_profile_values, repo_root, story_root)
+
+    tone_dials_value = args.tone_dials or story_config.get("tone_dials")
+    tone_dials_text = load_profile_value(tone_dials_value, repo_root, story_root)
+
+    injection_parts = []
+    injection_parts.append("[TIMELINE_PROFILE]\n" + (timeline_profile_text or "(none)"))
+    injection_parts.append("[GENRE_PROFILE]\n" + (genre_profile_text or "(none)"))
+    injection_parts.append("[STYLE_PROFILES]\n" + (style_profile_text or "(none)"))
+    injection_parts.append("[TONE_DIALS]\n" + (tone_dials_text or "(none)"))
+    injection_context = "\n\n".join(injection_parts)
+
+    include_types = set(normalize_types(args.types))
+
+    use_vertex = bool(args.use_vertex)
+    use_lmstudio = bool(args.use_lmstudio or args.llm_profile)
+    use_gemini, gemini_model = infer_gemini_mode(args.model, args.use_gemini)
+    if use_vertex and use_lmstudio:
+        print("[asset_bible] Hinweis: --use-vertex deaktiviert LM Studio.")
+        use_lmstudio = False
+    if use_vertex and use_gemini:
+        print("[asset_bible] Hinweis: --use-vertex deaktiviert Gemini CLI.")
+        use_gemini = False
+        gemini_model = None
+    if use_lmstudio and use_gemini:
+        print("[asset_bible] Hinweis: --use-lmstudio deaktiviert Gemini CLI.")
+        use_gemini = False
+        gemini_model = None
+
+    llm_profiles = {}
+    default_llm_profile = ""
+    llm_profile = None
+    if use_lmstudio:
+        llm_profiles, default_llm_profile = resolve_llm_profiles(repo_root)
+        llm_profile_name = args.llm_profile or (
+            "lmstudio_local" if "lmstudio_local" in llm_profiles else default_llm_profile
+        )
+        if not llm_profile_name:
+            raise SystemExit("LM Studio erfordert ein LLM-Profil (engine/config/llm_profiles.json).")
+        llm_profile = llm_profiles.get(llm_profile_name)
+        if not llm_profile:
+            raise SystemExit(f"LLM profile not found: {llm_profile_name}")
+        profile_type = str(llm_profile.get("type") or "").lower()
+        if profile_type not in {"openai_compat", "openai-compatible", "openai"}:
+            raise SystemExit(f"LLM profile '{llm_profile_name}' is not openai_compat.")
+        if args.model:
+            llm_profile = dict(llm_profile, model=args.model)
+
+    ollama_model = args.model or MODEL_NAME
+    gemini_cache_enabled = bool(args.gemini_cache or os.environ.get("GEMINI_CACHE") == "1")
+    gemini_cache_path = resolve_path(
+        args.gemini_cache_path or f"{subjects_root}/gemini_cache.json",
+        repo_root,
+    )
+    allow_gemini_api = gemini_api_allowed(args.allow_gemini_api)
+    gemini_api_key = resolve_gemini_api_key()
+    gemini_api_model = resolve_gemini_api_model(gemini_model, args.gemini_api_model)
+    gemini_project_disabled = bool(
+        args.no_gemini_project
+        or os.environ.get("VISIONEXE_GEMINI_PROJECT_DISABLE") == "1"
+        or os.environ.get("VISIONEXE_GCP_PROJECT_DISABLE") == "1"
+    )
+    gemini_cli_project = resolve_gemini_cli_project(args.gemini_project, gemini_project_disabled)
+    if use_gemini and not gemini_cli_project and not gemini_project_disabled:
+        print("[asset_bible] Gemini CLI braucht GOOGLE_CLOUD_PROJECT (setze --gemini-project).")
+    if gemini_cache_enabled and not allow_gemini_api:
+        print("[asset_bible] Gemini API cache requested without --allow-gemini-api; disabling cache.")
+        gemini_cache_enabled = False
+    if use_vertex and gemini_cache_enabled:
+        print("[asset_bible] Gemini API cache disabled for Vertex backend.")
+        gemini_cache_enabled = False
+    if gemini_cache_enabled and not gemini_api_key:
+        print("[asset_bible] Gemini cache requested but no API key found; disabling cache.")
+        gemini_cache_enabled = False
+    if gemini_cache_enabled and not gemini_api_model:
+        print("[asset_bible] Gemini cache requested but model is not API-compatible; disabling cache.")
+        gemini_cache_enabled = False
+
+    vertex_project = args.vertex_project
+    vertex_location = args.vertex_location
+    vertex_model = args.vertex_model
+
+    if use_vertex:
+        print("[asset_bible] Backend: Vertex AI (billing: Vertex/GenAI credits).")
+    elif use_lmstudio:
+        print("[asset_bible] Backend: LM Studio (OpenAI-compatible).")
+    elif use_gemini:
+        print("[asset_bible] Backend: Gemini CLI (billing: Cloud AI Companion credits).")
+
     profiles = load_jsonl(profiles_path)
     occurrences = load_jsonl(occurrences_path)
     analysis_records = load_jsonl(analysis_master_path)
 
     briefing_text = load_briefings(story_config, repo_root, args.briefing_max_chars)
+    static_prompt = build_prompt_static(briefing_text, injection_context)
 
     profiles_by_id = {p["id"]: p for p in profiles if p.get("id")}
     alias_map = build_alias_map(profiles)
 
     regie_entries = []
-    if filmsets_root.exists():
+    if args.include_regie and filmsets_root.exists():
         for drehbuch in filmsets_root.rglob("DREHBUCH_HOLLYWOOD.md"):
             regie_entries.extend(parse_regie_entries(drehbuch))
     for entry in regie_entries:
@@ -922,6 +1490,19 @@ def main():
 
     regie_index = build_regie_index(regie_entries, alias_map, profiles_by_id)
     analysis_context = collect_analysis_context(analysis_records, alias_map, profiles_by_id)
+
+    gemini_cached_name = None
+    if use_gemini and gemini_cache_enabled and gemini_api_key and gemini_api_model:
+        gemini_cached_name = get_cached_content(
+            static_prompt,
+            gemini_api_model,
+            gemini_api_key,
+            gemini_cache_path,
+            args.gemini_cache_ttl,
+            args.gemini_cache_reset,
+        )
+        if gemini_cached_name:
+            print(f"[asset_bible] Gemini cache active: {gemini_cached_name}")
 
     occ_map = {}
     for occ in occurrences:
@@ -955,15 +1536,44 @@ def main():
     output_md.parent.mkdir(parents=True, exist_ok=True)
     ensure_dir(subject_dir_root)
 
+    def has_existing_card(subject_id: str) -> bool:
+        safe_id = safe_folder_name(subject_id)
+        subject_dir = subject_dir_root / safe_id
+        return (subject_dir / "card.json").exists() or (subject_dir / "card.md").exists()
+
+    total_subjects = 0
+    for profile in profiles:
+        subject_type = str(profile.get("type") or "").strip().lower()
+        if include_types and subject_type not in include_types:
+            continue
+        total_subjects += 1
+
+    resume_from_dir = False
+    if args.resume:
+        print(f"[asset_bible] Resume aktiv: {len(existing)} Eintraege aus JSONL.")
+        if not existing:
+            resume_from_dir = True
+            print("[asset_bible] Resume fallback: nutze vorhandene Subject-Cards auf Disk.")
+
     count = 0
+    resume_hits = 0
     for profile in profiles:
         subject_id = profile.get("id")
         if not subject_id:
             continue
+        subject_type = str(profile.get("type") or "").strip().lower()
+        if include_types and subject_type not in include_types:
+            continue
         if args.limit and count >= args.limit:
             break
-        if args.resume and subject_id in existing:
-            continue
+        if args.resume:
+            if subject_id in existing:
+                resume_hits += 1
+                continue
+            if resume_from_dir and has_existing_card(subject_id):
+                existing.add(subject_id)
+                resume_hits += 1
+                continue
 
         context = analysis_context.get(subject_id, {"roles": set(), "traits": set(), "changes": set(), "snippets": []})
         regie_samples = (regie_index.get(subject_id) or [])[: args.max_regie]
@@ -980,15 +1590,49 @@ def main():
         occ_samples = (occ_map.get(subject_id) or [])[: args.max_occurrences]
 
         analysis_snippets = (context.get("snippets") or [])[: args.max_analysis]
-        prompt = build_prompt(profile, context, regie_samples, occ_samples, analysis_snippets, briefing_text)
-        if args.use_gemini:
-            response = call_gemini(prompt, args.model)
+        dynamic_prompt = build_prompt_dynamic(
+            profile,
+            context,
+            regie_samples,
+            occ_samples,
+            analysis_snippets,
+        )
+        prompt = f"{static_prompt}\n\n{dynamic_prompt}"
+        response = None
+        if use_vertex:
+            response = call_vertex_gemini(
+                prompt,
+                model=vertex_model or None,
+                project=vertex_project,
+                location=vertex_location,
+                temperature=0.25,
+                log_fn=print,
+            )
+            if response is None:
+                print("[asset_bible] Vertex fehlgeschlagen, nutze Fallback-Card.")
+        elif use_lmstudio:
+            response = call_openai_compat(prompt, llm_profile, args.llm_temperature)
+            if response is None:
+                print("[asset_bible] LM Studio fehlgeschlagen, nutze Fallback-Card.")
+        elif use_gemini:
+            if gemini_cached_name:
+                response = call_gemini_api(dynamic_prompt, gemini_api_model, gemini_api_key, gemini_cached_name)
+            if response is None:
+                response = call_gemini(prompt, gemini_model, gemini_cli_project, gemini_project_disabled)
             if response is None:
                 print("[asset_bible] Gemini fehlgeschlagen, versuche Copilot Fallback.")
-                response = call_copilot(prompt, args.model)
+                response = call_copilot(prompt, gemini_model or args.model)
         else:
-            model_name = args.model or MODEL_NAME
-            response = call_ollama(prompt, model_name, args.ollama_url or OLLAMA_API_URL)
+            response = call_ollama(prompt, ollama_model, args.ollama_url or OLLAMA_API_URL)
+            if response is None:
+                if resolve_gemini_command():
+                    print("[asset_bible] Ollama fehlgeschlagen, wechsle zu Gemini-Fallback.")
+                    use_gemini = True
+                    gemini_model = args.model if args.model and "gemini" in args.model.lower() else None
+                    response = call_gemini(prompt, gemini_model, gemini_cli_project, gemini_project_disabled)
+                    if response is None:
+                        print("[asset_bible] Gemini fehlgeschlagen, versuche Copilot Fallback.")
+                        response = call_copilot(prompt, gemini_model or args.model)
 
         card = parse_llm_json(response) if response else None
         if not isinstance(card, dict):
@@ -1008,6 +1652,8 @@ def main():
             "id": subject_id,
             "name": profile.get("name"),
             "type": profile.get("type"),
+            "owner_subject_ids": profile.get("owner_subject_ids") or [],
+            "owner_names": profile.get("owner_names") or [],
             "subject_dir": subject_dir_rel,
             "card_path": card_path_rel,
             "card_json": card_json_rel,
@@ -1018,7 +1664,8 @@ def main():
             f.write(json.dumps(record, ensure_ascii=False) + "\n")
 
         count += 1
-        print(f"[asset_bible] {count}/{len(profiles)} {subject_id}")
+        progress = count + resume_hits
+        print(f"[asset_bible] {progress}/{total_subjects or len(profiles)} {subject_id}")
 
     header = "# EXEGET:OS ASSET BIBLE (AUTO-GENERATED)\n\n"
     with output_md.open("w", encoding="utf-8") as f:

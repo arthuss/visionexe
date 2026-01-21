@@ -1,10 +1,10 @@
 ## [STATE] world :: Phase 1
 **State ID:** phase_01
-**Chapters:** 39 - 61
+**Chapters:** 8 - 40
+**Notes:** unknown
 
-**Phase Summary:** Burning world with pixel fire and cyber‑punk HUD.
-**Phase Keywords:** burning, pixel, holographic, cyberpunk, cracked basalt, 8k, 9:16
+**Phase Keywords:** cosmic expanse, unknown, vast, {'description': 'The entire world or age.', 'source_text_ref': 'ዓለም'}, {'description': 'The ordered cosmos as a whole, which is circled by a great star and in which the chariots run.', 'type': 'cosmos'}
 **Phase Prompt:**
-8k, 9:16 cinematic shot of a burning world: stylized orange pixel fire erupts across a cracked basalt landscape, a blue holographic HUD overlays the sky with the text ‘JUDGMENT_PROTOCOL: EXECUTING…’, harsh fractured light and deep violet sky create a tense, cyber‑punk atmosphere.
+world, cosmic expanse, unknown, vast, {'description': 'The entire world or age.', 'source_text_ref': 'ዓለም'}, {'description': 'The ordered cosmos as a whole, which is circled by a great star and in which the chariots run.', 'type': 'cosmos'}, Phase 1
 
 ---

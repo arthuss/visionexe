@@ -1,0 +1,70 @@
+{
+  "id": "SETENV_ENDS_OF_HEAVEN",
+  "name": "ends of heaven",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for ends of heaven.",
+    "visual_anatomy": [
+      "Traits: {'description': \"The eastern boundary of the sky ('አጽናፈ፡ ሰማይ').\", 'state': 'static'}",
+      "Roles: boundary, region"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"The eastern boundary of the sky ('አጽናፈ፡ ሰማይ').\", 'state': 'static'}"
+    ],
+    "prompt_block": "ends of heaven, {'description': \"The eastern boundary of the sky ('አጽናፈ፡ ሰማይ').\", 'state': 'static'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"The eastern boundary of the sky ('አጽናፈ፡ ሰማይ').\", 'state': 'static'}"
+        ],
+        "prompt_block": "ends of heaven, {'description': \"The eastern boundary of the sky ('አጽናፈ፡ ሰማይ').\", 'state': 'static'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_ENDS_OF_HEAVEN",
+    "name": "ends of heaven",
+    "type": "set_environment",
+    "aliases": [
+      "Ends of Heaven",
+      "ends of heaven"
+    ],
+    "roles": [
+      "boundary",
+      "region"
+    ],
+    "visual_traits": [
+      "{'description': \"The eastern boundary of the sky ('አጽናፈ፡ ሰማይ').\", 'state': 'static'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1129",
+      "row_1150"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 36,
+        "chapter_end": 57,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -3,79 +3,50 @@
   "name": "Eritrea",
   "type": "set_environment",
   "card": {
-    "description": "Eritrea is depicted as a vast, sun-scorched plateau of jagged basalt cliffs, its horizon punctuated by towering monoliths and a central obsidian obelisk. The obelisk, 30 meters tall, is embedded with crystalline cores that pulse with soft bioluminescent glyphs etched in ancient Ethiopian and Egyptian motifs. A network of crystalline conduits snakes across the terrain, channeling unseen energy, while bioluminescent vines creep along stone pylons, casting an ethereal glow against the harsh light. The air carries a faint metallic scent, and shards of obsidian scatter across the ground, reflecting the harsh sun and creating a tapestry of light and shadow that feels both ancient and impossibly advanced.",
-    "tags": [
-      "ancient-tech",
-      "industrial-mysticism",
-      "Eritrea",
-      "desert",
-      "crystalline",
-      "glyphs",
-      "bioluminescence",
-      "photorealistic",
-      "Ethiopian",
-      "Egyptian"
-    ],
+    "description": "Auto-generated asset card for Eritrea.",
     "visual_anatomy": [
-      "**Body/Form:** Vast basalt plateau with jagged cliffs, towering monoliths, stone pylons, and a central obsidian obelisk.",
-      "**Face/Sensors:** Glyphic panels and crystalline arrays embedded in stone, emitting soft bioluminescent light.",
-      "**Clothing/Armor:** Not applicable.",
-      "**Key Features:** Pulsating glyphs, crystalline conduits, bioluminescent vines, obsidian shards, ancient carvings."
+      "Traits: unknown",
+      "Roles: geographical location"
     ],
     "evolution": [
-      "Phase 1 (Initial Landscape): Barren basalt plateau with minimal structures, subtle ancient carvings.",
-      "Phase 2 (Emergence of Monoliths): Introduction of towering stone pylons and the central obelisk, glyphs begin to glow faintly.",
-      "Phase 3 (Activation): Glyphs pulse intensely, crystalline conduits activate, bioluminescent vines spread, environment becomes a nexus of ancient power."
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
     ],
     "props": [
-      "Item: Obelisk of Light – a 30m tall obsidian monolith with embedded crystal cores.",
-      "Item: Stone Tablet of Glyphs – a slab of basalt bearing intricate carvings that glow when activated.",
-      "Item: Crystalline Resonator – a network of crystal nodes embedded in the ground, channeling energy."
+      "TBD."
     ],
     "prompt_keywords": [
-      "ancient Ethiopian",
-      "Egyptian motifs",
-      "crystalline",
-      "bioluminescent",
-      "obscure technology",
-      "photorealistic",
-      "industrial mysticism",
-      "desert plateau"
+      "unknown"
     ],
-    "prompt_block": "A vast, sun-scorched basalt plateau in Eritrea, with jagged cliffs and towering monoliths, a central obsidian obelisk pulsing with bioluminescent glyphs, crystalline conduits snaking across the terrain, ancient Ethiopian and Egyptian carvings, bioluminescent vines, metallic scent, photorealistic, cinematic, grounded realism, industrial mysticism, ancient-tech aesthetic.",
+    "prompt_block": "Eritrea, unknown",
     "phase_prompts": [
       {
         "state_id": "phase_01",
         "label": "Phase 1",
-        "summary": "Barren basalt plateau with subtle ancient carvings.",
+        "summary": "",
         "prompt_keywords": [
-          "barren",
-          "basalt",
-          "ancient carvings"
+          "unknown"
         ],
-        "prompt_block": "A barren basalt plateau in Eritrea, jagged cliffs, minimal stone pylons, faint ancient carvings etched into the rock, no glowing glyphs, photorealistic, cinematic, grounded realism."
+        "prompt_block": "Eritrea, unknown, Phase 1"
       },
       {
         "state_id": "phase_02",
         "label": "Phase 2",
-        "summary": "Emergence of monoliths and faint glowing glyphs.",
+        "summary": "",
         "prompt_keywords": [
-          "monoliths",
-          "oblivion",
-          "faint glow"
+          "unknown"
         ],
-        "prompt_block": "The plateau now features towering stone pylons and a central obsidian obelisk, faint bioluminescent glyphs begin to glow, crystalline conduits start to appear, photorealistic, cinematic, ancient-tech."
+        "prompt_block": "Eritrea, unknown, Phase 2"
       },
       {
         "state_id": "phase_03",
         "label": "Phase 3",
-        "summary": "Activation of glyphs, crystalline conduits, bioluminescent vines.",
+        "summary": "",
         "prompt_keywords": [
-          "activation",
-          "bioluminescent vines",
-          "crystalline conduits"
+          "unknown"
         ],
-        "prompt_block": "The obelisk pulses with intense bioluminescent glyphs, crystalline conduits glow brightly, bioluminescent vines spread across the plateau, the environment becomes a nexus of ancient power, photorealistic, cinematic, industrial mysticism."
+        "prompt_block": "Eritrea, unknown, Phase 3"
       }
     ]
   },
@@ -99,7 +70,7 @@
     "sources": [
       "row_627"
     ],
-    "occurrence_count": 1,
+    "occurrence_count": 2,
     "is_dynamic": true,
     "state_policy": "phases",
     "states": [

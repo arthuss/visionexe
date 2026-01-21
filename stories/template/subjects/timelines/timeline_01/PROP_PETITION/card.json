@@ -1,0 +1,67 @@
+{
+  "id": "PROP_PETITION",
+  "name": "petition",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for petition.",
+    "visual_anatomy": [
+      "Traits: a written document containing a memorial and supplication",
+      "Roles: actor_prop:Enoch"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "a written document containing a memorial and supplication"
+    ],
+    "prompt_block": "petition, a written document containing a memorial and supplication",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "a written document containing a memorial and supplication"
+        ],
+        "prompt_block": "petition, a written document containing a memorial and supplication"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_PETITION",
+    "name": "petition",
+    "type": "prop",
+    "aliases": [
+      "petition"
+    ],
+    "roles": [
+      "actor_prop:Enoch"
+    ],
+    "visual_traits": [
+      "a written document containing a memorial and supplication"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1106"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 13,
+        "chapter_end": 13,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

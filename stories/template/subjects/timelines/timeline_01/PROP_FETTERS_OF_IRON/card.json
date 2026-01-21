@@ -1,0 +1,67 @@
+{
+  "id": "PROP_FETTERS_OF_IRON",
+  "name": "fetters of iron",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for fetters of iron.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Made of iron and have no weight.'}",
+      "Roles: actor_prop:the_hosts_of_Azazel"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Made of iron and have no weight.'}"
+    ],
+    "prompt_block": "fetters of iron, {'description': 'Made of iron and have no weight.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Made of iron and have no weight.'}"
+        ],
+        "prompt_block": "fetters of iron, {'description': 'Made of iron and have no weight.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_FETTERS_OF_IRON",
+    "name": "fetters of iron",
+    "type": "prop",
+    "aliases": [
+      "fetters of iron"
+    ],
+    "roles": [
+      "actor_prop:the_hosts_of_Azazel"
+    ],
+    "visual_traits": [
+      "{'description': 'Made of iron and have no weight.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1147"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 54,
+        "chapter_end": 54,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

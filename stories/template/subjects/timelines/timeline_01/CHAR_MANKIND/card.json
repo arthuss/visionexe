@@ -1,0 +1,147 @@
+{
+  "id": "CHAR_MANKIND",
+  "name": "Mankind",
+  "type": "character",
+  "card": {
+    "description": "In the architecture of the Simulation Flat Earth, Mankind functions as the runtime population—diverse, autonomous user-instances designed to operate within the parameters of the Surface Plane. Viewed through the lens of a high-stakes Drama, they are not merely background extras but the emotional anchor of the system's collapse. Their existence is defined by a tragic deviation from their initial 'Default State' (Phase 2 flashback context) to a 'Corrupted State' (Phase 3) induced by the unauthorized injection of Watcher code. They appear hyper-real, rendered with pores, sweat, and micro-expressions that betray deep-seated trauma and existential confusion. As recipients of forbidden knowledge—represented here as kernel-level exploits manifesting as advanced weaponry, cosmetics, and sorcery—they bear the weight of a system they were never meant to understand. The visual narrative captures their shift from harmonious, agrarian collaboration to a fractured society of isolated, terrified individuals crying out to a locked Sky Dome.",
+    "visual_anatomy": [
+      "The collective physique of Mankind adheres strictly to the 'hyper-realistic' style profile: skin textures are imperfect, showing sun damage, grime, and the wear of labor, rendered with PBR accuracy to ground the simulation in tactile reality. Under the 'Drama' genre rules, the camera favors extreme close-ups (ISO 100 sharpness) to capture the 'inner conflict' and 'social injustice' etched into their features. Their clothing, initially simple woven fibers consistent with a pre-industrial baseline, evolves into disjointed, high-contrast attire mixing traditional drapery with sharp, synthetic materials (data-glass shards, obsidian plating) scavenged from Watcher technology.",
+      "Embedded within their silhouette is the subtle visual language of the simulation's constraints. In moments of high emotion or 'thermal throttling' (stress), the edge-lighting on their forms hints at a fiber-optic subsurface scattering, suggesting their biological reality is a manifestation of data. Their eyes, often turned upward toward the Gate Band, reflect the cold, plasma-blue light of the dome, symbolizing their status as 'subjects of judgment' trapped in a bounded box. The 'forbidden knowledge' they carry manifests physically: intricate tattoos resembling circuit diagrams (Geez glyphs), weaponry that hums with unstable vector fields, and jewelry that refracts light like broken monitor glass.",
+      "The crowd dynamics are governed by 'vector_field_lensing', where groups do not move randomly but flow like data streams bottlenecking at ingress points. In the Corrupted Phase, this flow becomes chaotic and turbulent. The 'balances' mentioned in their profile are interpreted literally and metaphysically: heavy, obsidian scales carried by elders, weighing 'deeds' represented by glowing data-particles. The atmospheric density around them is high, filled with dust and the 'heat lensing' of a system running over capacity, blurring the line between a desert storm and a graphical glitch."
+    ],
+    "evolution": [
+      "**Phase 2 (Pre-teaching / Reference State):** The population exists in a state of 'system manual' compliance. Visuals are characterized by symmetry, soft natural lighting (Golden Hour), and an absence of foreign artifacts. They are the 'Default User', living in harmony with the kernel's original design—agrarian, communal, and devoid of the 'godlessness' that marks the later runtime.",
+      "**Phase 3 (Corrupted / Runtime Error):** The visual baseline fractures. The introduction of Watcher 'exploits' transforms the populace. Faces are hardened by the 'fornication' of natural code with foreign logic. They don ornate, jagged armor made of 'plasma' and 'obsidian', mirroring the Watchers' aesthetic. The atmosphere shifts to 'darkness' and 'high contrast', with harsh floodlight-style illumination from the sky dome highlighting their ruin. They are no longer users but victims of a malware infestation, crying out for a system reset."
+    ],
+    "props": [
+      "**Obsidian Balances:** Heavy, black stone scales with gold inlay, used to weigh 'deeds'. The weights themselves are small, glowing cubes of compressed data.",
+      "**Watcher Artifacts (Forbidden Knowledge):** Items that look out of place in an ancient setting—mirrors made of 'data glass' that show distorted reflections, swords with edges that vibrate like bad anti-aliasing, and vials of 'pharmakeia' that glow with toxic neon hues.",
+      "**Ingress Tokens:** Small, fiber-optic amulets worn by the 'Student' class, marking them as direct recipients of the Watchers' corrupt teachings."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic crowd",
+      "cinematic drama",
+      "emotional close-up",
+      "simulation glitch",
+      "obsidian texture",
+      "ancient levantine attire",
+      "fiber-optic accents",
+      "thermal lensing",
+      "despair",
+      "judgment scales",
+      "dramatic lighting"
+    ],
+    "prompt_block": "photorealistic cinematic shot of a weary ancient human crowd, extreme close-up on faces showing sweat and dirt, hyper-detailed skin texture 8k, expressions of deep existential dread and trauma, attire is a mix of rough burlap and sleek obsidian shards, soft cinematic lighting with high contrast shadows, subtle digital artifacting in the air like heat haze, background features a looming geometric sky dome structure, shot on 35mm lens f/1.8, color graded for drama with desaturated earth tones and piercing blue highlights.",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1: The Descent (Implicit)",
+        "summary": "The transition period where the first seeds of corruption are sown. The crowd is mixed—some innocent, some bearing the first signs of foreign technology.",
+        "prompt_keywords": [
+          "transition",
+          "unease",
+          "first contact",
+          "subtle glitch"
+        ],
+        "prompt_block": "cinematic wide shot of an ancient marketplace, a diverse crowd of humans looking upward in confusion, hyper-realistic style, natural sunlight filtering through dust, some individuals holding strange glowing geometric objects, mixture of fear and curiosity on faces, sharp focus, depth of field, neutral color palette with hints of alien neon reflection."
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2: Pre-teaching (Reference State)",
+        "summary": "The idealized default state of the simulation before the corruption. A vision of agrarian harmony and compliance with the system manual.",
+        "prompt_keywords": [
+          "harmonious",
+          "agrarian",
+          "peaceful",
+          "golden hour",
+          "symmetrical"
+        ],
+        "prompt_block": "peaceful cinematic shot of an ancient human community in harmony, golden hour lighting, simple woven clothing without ornaments, faces are calm and content, agrarian setting with wheat fields, symmetrical composition, soft natural bokeh, no digital artifacts, hyper-realistic photography style, warm color temperature, feeling of safety and order."
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3: Corrupted (The Ruin)",
+        "summary": "The system in critical failure. Mankind is fully corrupted, adorned in jagged technology and crying out in a landscape of ruin.",
+        "prompt_keywords": [
+          "corruption",
+          "ruin",
+          "despair",
+          "jagged armor",
+          "plasma light",
+          "dark atmosphere"
+        ],
+        "prompt_block": "intense dramatic shot of a corrupted human crowd at night, chaotic composition, figures wearing jagged obsidian armor and glowing circuit-tattoos, faces screaming in despair towards a digital sky, harsh cold floodlighting from above, rain mixed with data particles, high contrast chiaroscuro, visual noise and chromatic aberration, hyper-realistic depiction of suffering and ruin."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_MANKIND",
+    "name": "Mankind",
+    "type": "character",
+    "aliases": [
+      "Mankind"
+    ],
+    "roles": [
+      "Student/Victim",
+      "group",
+      "subject_of_judgment",
+      "victim"
+    ],
+    "visual_traits": [
+      "human",
+      "{'description': 'Humanity, the recipients of forbidden knowledge.', 'source_text_ref': 'ሰብእ'}",
+      "{'description': 'Humans whose deeds are weighed in balances.'}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Pre-teaching', 'description': 'The state of mankind before receiving forbidden knowledge.'}",
+      "{'phase': 'Phase 2: Corrupted', 'description': \"After receiving forbidden knowledge, they became characterized by 'great godlessness', 'fornication', went astray, and were corrupted in all their ways. They cry out in their ruin.\", 'source_text_ref': 'ወኮነ፡\\u200bርስአት፡\\u200bዓቢይ፡\\u200bወብዙኅ፡\\u200bዘምዎ፡\\u200bወስሕቱ፡\\u200bወማሰና፡\\u200bኵሉ፡\\u200bፍናቂሆሙ።'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1099",
+      "row_1101",
+      "row_1110",
+      "row_1136",
+      "row_1174"
+    ],
+    "occurrence_count": 10,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 7,
+        "chapter_end": 31,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 32,
+        "chapter_end": 56,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Pre-teaching', 'description': 'The state of mankind before receiving forbidden knowledge.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 57,
+        "chapter_end": 81,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Corrupted', 'description': \"After receiving forbidden knowledge, they became characterized by 'great godlessness', 'fornication', went astray, and were corrupted in all their ways. They cry out in their ruin.\", 'source_text_ref': 'ወኮነ፡\\u200bርስአት፡\\u200bዓቢይ፡\\u200bወብዙኅ፡\\u200bዘምዎ፡\\u200bወስሕቱ፡\\u200bወማሰና፡\\u200bኵሉ፡\\u200bፍናቂሆሙ።'}"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+## [STATE] Righteous Remnant :: Default
+**State ID:** default
+**Chapters:** 84 - 84
+
+**Phase Summary:** The group gathers as the simulation destabilizes, their protective status manifesting as subtle visual distortions and internalized light.
+**Phase Keywords:** group portrait, protective aura, system crash background, anxious expressions, glowing fabric
+**Phase Prompt:**
+A medium cinematic shot of the Righteous Remnant group, huddled together in a 'reset desert' environment. The ground is a flat, grid-like mesh texture transitioning into real earth. The figures are hyper-realistic, their expressions filled with quiet terror and resolve. They hold obsidian 'seed' artifacts close to their chests. Surrounding them is a protective 'vector field lensing' effect that blurs the chaotic, pixelating storm of the simulation collapse outside their circle. The lighting is moody, with a cold, blue 'plasma' ambient light from the sky dome and warm, amber highlights from their fiber-optic garments. Rendered in 8k, Octane style, emphasizing the contrast between the solid human figures and the digital apocalypse.
+
+---

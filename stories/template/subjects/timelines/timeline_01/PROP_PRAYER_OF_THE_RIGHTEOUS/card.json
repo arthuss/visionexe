@@ -1,0 +1,72 @@
+{
+  "id": "PROP_PRAYER_OF_THE_RIGHTEOUS",
+  "name": "prayer of the righteous",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for prayer of the righteous.",
+    "visual_anatomy": [
+      "Traits: {'description': \"The prayer ('ጸሎቶሙ') of the righteous, which ascends to the Lord.\"}, {'state': 'dynamic', 'description': 'An entity that ascends from Earth to the presence of the Lord of Spirits.'}",
+      "Roles: actor_prop:the righteous, unknown"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"The prayer ('ጸሎቶሙ') of the righteous, which ascends to the Lord.\"}",
+      "{'state': 'dynamic', 'description': 'An entity that ascends from Earth to the presence of the Lord of Spirits.'}"
+    ],
+    "prompt_block": "prayer of the righteous, {'description': \"The prayer ('ጸሎቶሙ') of the righteous, which ascends to the Lord.\"}, {'state': 'dynamic', 'description': 'An entity that ascends from Earth to the presence of the Lord of Spirits.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"The prayer ('ጸሎቶሙ') of the righteous, which ascends to the Lord.\"}",
+          "{'state': 'dynamic', 'description': 'An entity that ascends from Earth to the presence of the Lord of Spirits.'}"
+        ],
+        "prompt_block": "prayer of the righteous, {'description': \"The prayer ('ጸሎቶሙ') of the righteous, which ascends to the Lord.\"}, {'state': 'dynamic', 'description': 'An entity that ascends from Earth to the presence of the Lord of Spirits.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_PRAYER_OF_THE_RIGHTEOUS",
+    "name": "prayer of the righteous",
+    "type": "prop",
+    "aliases": [
+      "prayer of the righteous"
+    ],
+    "roles": [
+      "actor_prop:the righteous",
+      "unknown"
+    ],
+    "visual_traits": [
+      "{'description': \"The prayer ('ጸሎቶሙ') of the righteous, which ascends to the Lord.\"}",
+      "{'state': 'dynamic', 'description': 'An entity that ascends from Earth to the presence of the Lord of Spirits.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1138",
+      "row_1190"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 47,
+        "chapter_end": 97,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

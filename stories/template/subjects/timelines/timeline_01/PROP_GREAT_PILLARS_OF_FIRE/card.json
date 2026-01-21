@@ -1,0 +1,67 @@
+{
+  "id": "PROP_GREAT_PILLARS_OF_FIRE",
+  "name": "Great pillars of fire",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Great pillars of fire.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Great pillars of fire whose height and breadth could not be seen or estimated, which are made to descend into an abyss.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Great pillars of fire whose height and breadth could not be seen or estimated, which are made to descend into an abyss.'}"
+    ],
+    "prompt_block": "Great pillars of fire, {'description': 'Great pillars of fire whose height and breadth could not be seen or estimated, which are made to descend into an abyss.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Great pillars of fire whose height and breadth could not be seen or estimated, which are made to descend into an abyss.'}"
+        ],
+        "prompt_block": "Great pillars of fire, {'description': 'Great pillars of fire whose height and breadth could not be seen or estimated, which are made to descend into an abyss.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_GREAT_PILLARS_OF_FIRE",
+    "name": "Great pillars of fire",
+    "type": "prop",
+    "aliases": [
+      "Great pillars of fire"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "{'description': 'Great pillars of fire whose height and breadth could not be seen or estimated, which are made to descend into an abyss.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1114"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 21,
+        "chapter_end": 21,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_THE_WHOLE_RACE_OF_THE_CHOSEN_ROOT",
+  "name": "the whole race of the chosen root",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for the whole race of the chosen root.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A group that will be scattered during the sixth week.'}",
+      "Roles: character_group"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A group that will be scattered during the sixth week.'}"
+    ],
+    "prompt_block": "the whole race of the chosen root, {'description': 'A group that will be scattered during the sixth week.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A group that will be scattered during the sixth week.'}"
+        ],
+        "prompt_block": "the whole race of the chosen root, {'description': 'A group that will be scattered during the sixth week.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_WHOLE_RACE_OF_THE_CHOSEN_ROOT",
+    "name": "the whole race of the chosen root",
+    "type": "character",
+    "aliases": [
+      "the whole race of the chosen root"
+    ],
+    "roles": [
+      "character_group"
+    ],
+    "visual_traits": [
+      "{'description': 'A group that will be scattered during the sixth week.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1186"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 93,
+        "chapter_end": 93,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

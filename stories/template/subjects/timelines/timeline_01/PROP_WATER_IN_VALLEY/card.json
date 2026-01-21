@@ -1,0 +1,111 @@
+{
+  "id": "PROP_WATER_IN_VALLEY",
+  "name": "water (in valley)",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for water (in valley).",
+    "visual_anatomy": [
+      "Traits: Water located in the deep valley between the first two mountains.",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Water located in the deep valley between the first two mountains."
+    ],
+    "prompt_block": "water (in valley), Water located in the deep valley between the first two mountains.",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "Water located in the deep valley between the first two mountains."
+        ],
+        "prompt_block": "water (in valley), Water located in the deep valley between the first two mountains., Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "Water located in the deep valley between the first two mountains."
+        ],
+        "prompt_block": "water (in valley), Water located in the deep valley between the first two mountains., Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "Water located in the deep valley between the first two mountains."
+        ],
+        "prompt_block": "water (in valley), Water located in the deep valley between the first two mountains., Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_WATER_IN_VALLEY",
+    "name": "water (in valley)",
+    "type": "prop",
+    "aliases": [
+      "water (in valley)"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "Water located in the deep valley between the first two mountains."
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: dynamic', 'description': 'The water is flowing towards the holy mountain.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1120"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 26,
+        "chapter_end": 25,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 26,
+        "chapter_end": 25,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 26,
+        "chapter_end": 26,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: dynamic', 'description': 'The water is flowing towards the holy mountain.'}"
+        ]
+      }
+    ]
+  }
+}

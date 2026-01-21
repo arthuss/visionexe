@@ -1,0 +1,77 @@
+{
+  "id": "CHAR_GABRIEL",
+  "name": "Gabriel",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Gabriel.",
+    "visual_anatomy": [
+      "Traits: {'description': \"The third of the four great angels. He is set 'over all the powers'.\"}, {'species': 'Angel'}",
+      "Roles: Archangel, One of the chief angels, mentioned in a group., One of the holy angels, set over Paradise, the serpents, and the Cherubim., archangel"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"The third of the four great angels. He is set 'over all the powers'.\"}",
+      "{'species': 'Angel'}"
+    ],
+    "prompt_block": "Gabriel, {'description': \"The third of the four great angels. He is set 'over all the powers'.\"}, {'species': 'Angel'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"The third of the four great angels. He is set 'over all the powers'.\"}",
+          "{'species': 'Angel'}"
+        ],
+        "prompt_block": "Gabriel, {'description': \"The third of the four great angels. He is set 'over all the powers'.\"}, {'species': 'Angel'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_GABRIEL",
+    "name": "Gabriel",
+    "type": "character",
+    "aliases": [
+      "Gabriel"
+    ],
+    "roles": [
+      "Archangel",
+      "One of the chief angels, mentioned in a group.",
+      "One of the holy angels, set over Paradise, the serpents, and the Cherubim.",
+      "archangel"
+    ],
+    "visual_traits": [
+      "{'description': \"The third of the four great angels. He is set 'over all the powers'.\"}",
+      "{'species': 'Angel'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1102",
+      "row_1113",
+      "row_1133",
+      "row_1147",
+      "row_1164"
+    ],
+    "occurrence_count": 10,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 9,
+        "chapter_end": 71,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

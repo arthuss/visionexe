@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_ETERNITY",
+  "name": "Eternity",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Eternity.",
+    "visual_anatomy": [
+      "Traits: The state of everlasting fate following judgment.",
+      "Roles: temporal_setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "The state of everlasting fate following judgment."
+    ],
+    "prompt_block": "Eternity, The state of everlasting fate following judgment.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "The state of everlasting fate following judgment."
+        ],
+        "prompt_block": "Eternity, The state of everlasting fate following judgment."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_ETERNITY",
+    "name": "Eternity",
+    "type": "set_environment",
+    "aliases": [
+      "Eternity"
+    ],
+    "roles": [
+      "temporal_setting"
+    ],
+    "visual_traits": [
+      "The state of everlasting fate following judgment."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1066"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 5,
+        "chapter_end": 5,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

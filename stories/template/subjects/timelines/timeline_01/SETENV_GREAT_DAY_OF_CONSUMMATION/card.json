@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_GREAT_DAY_OF_CONSUMMATION",
+  "name": "great day of consummation",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for great day of consummation.",
+    "visual_anatomy": [
+      "Traits: A future time of final judgment",
+      "Roles: temporal_setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A future time of final judgment"
+    ],
+    "prompt_block": "great day of consummation, A future time of final judgment",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A future time of final judgment"
+        ],
+        "prompt_block": "great day of consummation, A future time of final judgment"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_GREAT_DAY_OF_CONSUMMATION",
+    "name": "great day of consummation",
+    "type": "set_environment",
+    "aliases": [
+      "great day of consummation"
+    ],
+    "roles": [
+      "temporal_setting"
+    ],
+    "visual_traits": [
+      "A future time of final judgment"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1108"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 16,
+        "chapter_end": 16,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

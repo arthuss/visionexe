@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_ANGELS_FALLEN_JUDGED",
+  "name": "Angels (fallen/judged)",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Angels (fallen/judged).",
+    "visual_anatomy": [
+      "Traits: {'description': 'A group of angels who showed unrighteousness and led astray those who dwell on the earth. They are imprisoned and judged in a burning valley.'}",
+      "Roles: antagonist"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A group of angels who showed unrighteousness and led astray those who dwell on the earth. They are imprisoned and judged in a burning valley.'}"
+    ],
+    "prompt_block": "Angels (fallen/judged), {'description': 'A group of angels who showed unrighteousness and led astray those who dwell on the earth. They are imprisoned and judged in a burning valley.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A group of angels who showed unrighteousness and led astray those who dwell on the earth. They are imprisoned and judged in a burning valley.'}"
+        ],
+        "prompt_block": "Angels (fallen/judged), {'description': 'A group of angels who showed unrighteousness and led astray those who dwell on the earth. They are imprisoned and judged in a burning valley.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ANGELS_FALLEN_JUDGED",
+    "name": "Angels (fallen/judged)",
+    "type": "character",
+    "aliases": [
+      "Angels (fallen/judged)"
+    ],
+    "roles": [
+      "antagonist"
+    ],
+    "visual_traits": [
+      "{'description': 'A group of angels who showed unrighteousness and led astray those who dwell on the earth. They are imprisoned and judged in a burning valley.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1161"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 67,
+        "chapter_end": 67,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,10 +1,9 @@
 ## [STATE] fruit :: Default
 **State ID:** default
-**Chapters:** 25 - 25
+**Chapters:** 5 - 82
 
-**Phase Summary:** Intact offering fruit with ancient-tech features
-**Phase Keywords:** pomegranate, crystalline, glyph, bio-luminescent, decomposition, square-particles, ancient-tech
+**Phase Keywords:** Becomes ripe and is gathered., Grows on trees.
 **Phase Prompt:**
-A pomegranate offering with crystalline shell and glyphs, glowing faintly, ready for ritual, cinematic photorealistic, desaturated palette, ancient-tech aesthetic.
+fruit, Becomes ripe and is gathered., Grows on trees.
 
 ---

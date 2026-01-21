@@ -20,6 +20,13 @@
     "visual_fields": ["visualTraits", "visual_traits"],
     "change_fields": ["changes", "evolution"]
   },
+  "requisites": {
+    "type": "requisite",
+    "name_fields": ["name", "id", "prop"],
+    "role_fields": ["role", "description"],
+    "visual_fields": ["visualTraits", "visual_traits"],
+    "change_fields": ["changes", "evolution"]
+  },
   "places": {
     "type": "set_environment",
     "name_fields": ["name", "location", "place"],

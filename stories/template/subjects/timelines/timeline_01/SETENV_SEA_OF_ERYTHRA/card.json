@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_SEA_OF_ERYTHRA",
+  "name": "Sea of Erythra",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Sea of Erythra.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A sea (ባሕረ፡ኤርትራ) into which four of the seven great rivers flow.'}",
+      "Roles: location"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A sea (ባሕረ፡ኤርትራ) into which four of the seven great rivers flow.'}"
+    ],
+    "prompt_block": "Sea of Erythra, {'description': 'A sea (ባሕረ፡ኤርትራ) into which four of the seven great rivers flow.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A sea (ባሕረ፡ኤርትራ) into which four of the seven great rivers flow.'}"
+        ],
+        "prompt_block": "Sea of Erythra, {'description': 'A sea (ባሕረ፡ኤርትራ) into which four of the seven great rivers flow.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_SEA_OF_ERYTHRA",
+    "name": "Sea of Erythra",
+    "type": "set_environment",
+    "aliases": [
+      "Sea of Erythra"
+    ],
+    "roles": [
+      "location"
+    ],
+    "visual_traits": [
+      "{'description': 'A sea (ባሕረ፡ኤርትራ) into which four of the seven great rivers flow.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1170"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 77,
+        "chapter_end": 77,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

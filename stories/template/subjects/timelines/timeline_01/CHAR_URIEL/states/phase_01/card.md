@@ -1,10 +1,9 @@
 ## [STATE] Uriel :: Phase 1
 **State ID:** phase_01
-**Chapters:** 20 - 38
+**Chapters:** 19 - 39
 
-**Phase Summary:** Emergent holographic form, blue wireframe, translucent data planes.
-**Phase Keywords:** holographic, wireframe, data planes, desert, thermal UI
+**Phase Keywords:** A holy angel., An instructor or guide who reveals cosmic laws., angel, great angel, holy, unknown, {'description': 'An angel.', 'type': 'angel'}, {'description': 'One of the holy angels, who guides Enoch.'}
 **Phase Prompt:**
-A holographic figure flickering into existence in the desert, composed of blue wireframe lines and translucent data planes, pointing authoritatively toward a dark shadow, air distorted, Dutch angle, low shot, 9:16 vertical, photorealistic, cinematic, industrial mysticism.
+Uriel, A holy angel., An instructor or guide who reveals cosmic laws., angel, great angel, holy, unknown, {'description': 'An angel.', 'type': 'angel'}, {'description': 'One of the holy angels, who guides Enoch.'}, Phase 1
 
 ---

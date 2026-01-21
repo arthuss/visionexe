@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_UPON_THE_EARTH",
+  "name": "Upon the Earth",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Upon the Earth.",
+    "visual_anatomy": [
+      "Traits: {'description': 'The general setting for the actions of the sinners, such as perverting justice and oppressing others.'}",
+      "Roles: setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'The general setting for the actions of the sinners, such as perverting justice and oppressing others.'}"
+    ],
+    "prompt_block": "Upon the Earth, {'description': 'The general setting for the actions of the sinners, such as perverting justice and oppressing others.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'The general setting for the actions of the sinners, such as perverting justice and oppressing others.'}"
+        ],
+        "prompt_block": "Upon the Earth, {'description': 'The general setting for the actions of the sinners, such as perverting justice and oppressing others.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_UPON_THE_EARTH",
+    "name": "Upon the Earth",
+    "type": "set_environment",
+    "aliases": [
+      "Upon the Earth"
+    ],
+    "roles": [
+      "setting"
+    ],
+    "visual_traits": [
+      "{'description': 'The general setting for the actions of the sinners, such as perverting justice and oppressing others.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1192"
+    ],
+    "occurrence_count": 12,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 99,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

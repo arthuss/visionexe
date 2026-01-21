@@ -1,0 +1,114 @@
+{
+  "id": "CHAR_FOURTEEN_EVERGREEN_TREES",
+  "name": "Fourteen Evergreen Trees",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Fourteen Evergreen Trees.",
+    "visual_anatomy": [
+      "Traits: A specific group of fourteen trees that do not shed their leaves like the others.",
+      "Roles: character"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A specific group of fourteen trees that do not shed their leaves like the others."
+    ],
+    "prompt_block": "Fourteen Evergreen Trees, A specific group of fourteen trees that do not shed their leaves like the others.",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "A specific group of fourteen trees that do not shed their leaves like the others."
+        ],
+        "prompt_block": "Fourteen Evergreen Trees, A specific group of fourteen trees that do not shed their leaves like the others., Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "A specific group of fourteen trees that do not shed their leaves like the others."
+        ],
+        "prompt_block": "Fourteen Evergreen Trees, A specific group of fourteen trees that do not shed their leaves like the others., Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "A specific group of fourteen trees that do not shed their leaves like the others."
+        ],
+        "prompt_block": "Fourteen Evergreen Trees, A specific group of fourteen trees that do not shed their leaves like the others., Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_FOURTEEN_EVERGREEN_TREES",
+    "name": "Fourteen Evergreen Trees",
+    "type": "character",
+    "aliases": [
+      "Fourteen Evergreen Trees"
+    ],
+    "roles": [
+      "character"
+    ],
+    "visual_traits": [
+      "A specific group of fourteen trees that do not shed their leaves like the others."
+    ],
+    "changes": [
+      "{'phase_label': 'Phase 1: Old Leaves Persist', 'description': 'The trees retain their old leaves, not shedding them seasonally.'}",
+      "{'phase_label': 'Phase 2: New Growth', 'description': 'After a period of two to three years, new leaves emerge, replacing the old.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1059"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 3,
+        "chapter_end": 2,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 3,
+        "chapter_end": 2,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase_label': 'Phase 1: Old Leaves Persist', 'description': 'The trees retain their old leaves, not shedding them seasonally.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 3,
+        "chapter_end": 3,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase_label': 'Phase 2: New Growth', 'description': 'After a period of two to three years, new leaves emerge, replacing the old.'}"
+        ]
+      }
+    ]
+  }
+}

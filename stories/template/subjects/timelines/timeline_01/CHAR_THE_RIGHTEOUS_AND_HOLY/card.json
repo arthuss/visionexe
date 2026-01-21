@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_THE_RIGHTEOUS_AND_HOLY",
+  "name": "The Righteous and Holy",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Righteous and Holy.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A group who are afflicted by sinners and protected by angels. They sleep a long sleep without fear.'}",
+      "Roles: protected"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A group who are afflicted by sinners and protected by angels. They sleep a long sleep without fear.'}"
+    ],
+    "prompt_block": "The Righteous and Holy, {'description': 'A group who are afflicted by sinners and protected by angels. They sleep a long sleep without fear.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A group who are afflicted by sinners and protected by angels. They sleep a long sleep without fear.'}"
+        ],
+        "prompt_block": "The Righteous and Holy, {'description': 'A group who are afflicted by sinners and protected by angels. They sleep a long sleep without fear.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_RIGHTEOUS_AND_HOLY",
+    "name": "The Righteous and Holy",
+    "type": "character",
+    "aliases": [
+      "The Righteous and Holy"
+    ],
+    "roles": [
+      "protected"
+    ],
+    "visual_traits": [
+      "{'description': 'A group who are afflicted by sinners and protected by angels. They sleep a long sleep without fear.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1193"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 100,
+        "chapter_end": 100,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

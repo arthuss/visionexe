@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_GATE_OF_HEAVEN",
+  "name": "Gate of Heaven",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Gate of Heaven.",
+    "visual_anatomy": [
+      "Traits: A boundary point of Heaven to which cries and pleas ascend.",
+      "Roles: boundary"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A boundary point of Heaven to which cries and pleas ascend."
+    ],
+    "prompt_block": "Gate of Heaven, A boundary point of Heaven to which cries and pleas ascend.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A boundary point of Heaven to which cries and pleas ascend."
+        ],
+        "prompt_block": "Gate of Heaven, A boundary point of Heaven to which cries and pleas ascend."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_GATE_OF_HEAVEN",
+    "name": "Gate of Heaven",
+    "type": "set_environment",
+    "aliases": [
+      "Gate of Heaven"
+    ],
+    "roles": [
+      "boundary"
+    ],
+    "visual_traits": [
+      "A boundary point of Heaven to which cries and pleas ascend."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1102"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 9,
+        "chapter_end": 9,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

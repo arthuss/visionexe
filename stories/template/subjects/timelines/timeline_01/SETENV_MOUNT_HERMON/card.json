@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_MOUNT_HERMON",
+  "name": "Mount Hermon",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Mount Hermon.",
+    "visual_anatomy": [
+      "Traits: Ge'ez: ደብረ፡​አርሞን. A mountain named because the angels swore their oath upon it.",
+      "Roles: The location of the angels' descent and oath."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Ge'ez: ደብረ፡​አርሞን. A mountain named because the angels swore their oath upon it."
+    ],
+    "prompt_block": "Mount Hermon, Ge'ez: ደብረ፡​አርሞን. A mountain named because the angels swore their oath upon it.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Ge'ez: ደብረ፡​አርሞን. A mountain named because the angels swore their oath upon it."
+        ],
+        "prompt_block": "Mount Hermon, Ge'ez: ደብረ፡​አርሞን. A mountain named because the angels swore their oath upon it."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_MOUNT_HERMON",
+    "name": "Mount Hermon",
+    "type": "set_environment",
+    "aliases": [
+      "Mount Hermon"
+    ],
+    "roles": [
+      "The location of the angels' descent and oath."
+    ],
+    "visual_traits": [
+      "Ge'ez: ደብረ፡​አርሞን. A mountain named because the angels swore their oath upon it."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1100"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 6,
+        "chapter_end": 6,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

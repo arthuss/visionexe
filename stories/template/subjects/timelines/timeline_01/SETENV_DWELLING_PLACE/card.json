@@ -1,0 +1,73 @@
+{
+  "id": "SETENV_DWELLING_PLACE",
+  "name": "Dwelling Place",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Dwelling Place.",
+    "visual_anatomy": [
+      "Traits: A generic place to reside (መካነ/ማኅደረ/መካና, makāna/māḫdara/makānā)., The abode from which the Holy and Great One comes forth.",
+      "Roles: destination, divine_realm"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A generic place to reside (መካነ/ማኅደረ/መካና, makāna/māḫdara/makānā).",
+      "The abode from which the Holy and Great One comes forth."
+    ],
+    "prompt_block": "Dwelling Place, A generic place to reside (መካነ/ማኅደረ/መካና, makāna/māḫdara/makānā)., The abode from which the Holy and Great One comes forth.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A generic place to reside (መካነ/ማኅደረ/መካና, makāna/māḫdara/makānā).",
+          "The abode from which the Holy and Great One comes forth."
+        ],
+        "prompt_block": "Dwelling Place, A generic place to reside (መካነ/ማኅደረ/መካና, makāna/māḫdara/makānā)., The abode from which the Holy and Great One comes forth."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_DWELLING_PLACE",
+    "name": "Dwelling Place",
+    "type": "set_environment",
+    "aliases": [
+      "Dwelling Place",
+      "dwelling place"
+    ],
+    "roles": [
+      "destination",
+      "divine_realm"
+    ],
+    "visual_traits": [
+      "A generic place to reside (መካነ/ማኅደረ/መካና, makāna/māḫdara/makānā).",
+      "The abode from which the Holy and Great One comes forth."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1097",
+      "row_1135"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 42,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

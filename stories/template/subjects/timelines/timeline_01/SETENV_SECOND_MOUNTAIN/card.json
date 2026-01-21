@@ -1,0 +1,76 @@
+{
+  "id": "SETENV_SECOND_MOUNTAIN",
+  "name": "second mountain",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for second mountain.",
+    "visual_anatomy": [
+      "Traits: A mountain located to the east of the holy mountain, of a similar height., contains hard, full aloe trees, located upon the First Mountain",
+      "Roles: landmark, location"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A mountain located to the east of the holy mountain, of a similar height.",
+      "contains hard, full aloe trees",
+      "located upon the First Mountain"
+    ],
+    "prompt_block": "second mountain, A mountain located to the east of the holy mountain, of a similar height., contains hard, full aloe trees, located upon the First Mountain",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A mountain located to the east of the holy mountain, of a similar height.",
+          "contains hard, full aloe trees",
+          "located upon the First Mountain"
+        ],
+        "prompt_block": "second mountain, A mountain located to the east of the holy mountain, of a similar height., contains hard, full aloe trees, located upon the First Mountain"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_SECOND_MOUNTAIN",
+    "name": "second mountain",
+    "type": "set_environment",
+    "aliases": [
+      "Second Mountain",
+      "second mountain"
+    ],
+    "roles": [
+      "landmark",
+      "location"
+    ],
+    "visual_traits": [
+      "A mountain located to the east of the holy mountain, of a similar height.",
+      "contains hard, full aloe trees",
+      "located upon the First Mountain"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1120",
+      "row_1124"
+    ],
+    "occurrence_count": 8,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 26,
+        "chapter_end": 31,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "id": "CHAR_MEN",
+  "name": "Men",
+  "type": "character",
+  "card": {
+    "description": "The Men of the simulation are not merely biological inhabitants but recursive runtime agents operating upon the surface plane of the flat-earth construct. They function as the primary sources of system entropy, defined by a fundamental cognitive desynchronization—a 'sin' originating from their own processing logic that generates error noise within the kernel. They exist under the oppressive weight of the obsidian sky-dome, moving through a governed reality that renders their suffering with photorealistic cruelty. Their existence is a slow-burning drama of accumulation; they multiply deviations through their interactions, their minds acting as rogue nodes that drift from the master clock, leading to a catastrophic miscalculation of the celestial cycles. They are the tragic, unknowing protagonists of a failing build, unaware that their agency is bounded by the unyielding walls of the simulation box.",
+    "visual_anatomy": [
+      "Visually, these subjects are rendered with hyper-realistic fidelity, their skin textures mapped with microscopic precision to reveal the wear of a harsh, governed environment. Under the high-contrast, cinematic lighting of the simulation's artificial luminaries and data-glass moons, their faces bear the deep etching of trauma and systemic fatigue. They are frequently framed in static, symmetrical compositions that emphasize their isolation against the vast, indifferent geometry of the horizon, often appearing small and crushable beneath the layered sky mechanics.",
+      "Their attire presents a mesh of functional realism and subtle simulation artifacts—fabrics that absorb light like matte velvet or reflect it like oil-slicked plasma, suggesting a collision between ancient tactility and digital synthesis. When they move, there is a tangible weight to their physics, a calculated resistance as if the atmosphere itself imposes thermal throttling, making every gesture of violence or despair feel heavy and deliberate.",
+      "The 'chariots' they utilize are not primitive constructs but metallic vectors of transport that vibrate with heat lensing effects, distorting the air around them. These vehicles reflect the vector fields of the earth, serving as the physical mechanisms through which they traverse the simulation's sectors, spreading their inherent error across the grid."
+    ],
+    "evolution": [
+      "In their default state, they appear as standard biological assets, functioning within the expected parameters of the surface plane yet burdened by an unseen calculation error. As the timeline progresses, the 'multiplication of evil' manifests as a degradation of their visual coherence and social order. The error in their temporal calculation becomes a visible dissonance; their movements seem to lag milliseconds behind the system's refresh rate, and their eyes begin to reflect the cold, hard data of the gate bands rather than organic warmth.",
+      "They evolve from passive inhabitants into active disruptors of the system's harmony, their collective anxiety and moral failure manifesting as a darkening of the world model. The atmosphere around them grows denser, the lighting more severe, until they are silhouetted figures wandering a desaturated landscape, disconnected from the true celestial calendar."
+    ],
+    "props": [
+      "They manipulate objects that bridge the gap between the mundane and the systemic: tablets of stone that function with the density of hard storage, navigational tools that fail to sync with the shifting sky-dome, and weaponry forged from the 'metal of the earth' which glints with the unnatural sheen of fiber-optic inclusions.",
+      "Their chariots and tools often exhibit signs of 'mesh override,' where the physical texture wavers into digital noise at the edges, hinting at the instability of the code that generates them."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic portraits",
+      "cinematic lighting",
+      "obsidian sky",
+      "desynchronized motion",
+      "thermal lensing",
+      "sorrowful expressions",
+      "dusty high-fidelity textures",
+      "intricate skin details",
+      "35mm film grain",
+      "dramatic shadows",
+      "flat earth horizon"
+    ],
+    "prompt_block": "A hyper-realistic cinematic wide shot of a group of men standing on a vast, flat obsidian plain under a heavy, layered sky structure. The lighting is low-key and dramatic, casting long, sharp shadows that seem slightly disconnected from the figures. Their faces are weathered and highly detailed, showing pores, sweat, and the grime of a failing world, their expressions marked by a deep, existential fatigue. The atmosphere is thick, heavy with heat distortion and subtle vector field anomalies. In the background, metallic chariot-like vehicles sit idle, their surfaces reflecting the data-glass shimmer of the horizon. The image has the quality of a high-end drama production, with perfect physical based rendering and a shallow depth of field focusing on the intense emotion of the central figures.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": " The inhabitants of the earth caught in the mundane tragedy of their existence, marked by calculation errors and the multiplication of systemic evil. They are grounded, heavy, and visually defined by the grit of their environment.",
+        "prompt_keywords": [
+          "cinematic portrait",
+          "men in desert",
+          "obsidian horizon",
+          "layered sky",
+          "sorrow",
+          "hyper-detail",
+          "dark atmosphere"
+        ],
+        "prompt_block": "A hyper-realistic, cinematic shot of men in a desolate landscape, the ground flat and extending to a sharp, artificial horizon. The sky above is a layered dome of dark glass and atmospheric haze. The men are dressed in textured, worn garments that drape heavily. Their faces are illuminated by a harsh, side-cast light, revealing deep lines of worry and corruption. They look upwards, as if trying to calculate the time from a sky that does not match their math. The air around them shimmers with faint heat lensing. 8k resolution, octane render style, dramatic mood."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_MEN",
+    "name": "Men",
+    "type": "character",
+    "aliases": [
+      "Men",
+      "men"
+    ],
+    "roles": [
+      "Agents who multiply evil on earth",
+      "Humans",
+      "audience/receivers",
+      "character",
+      "chariot_riders",
+      "inhabitants",
+      "unknown"
+    ],
+    "visual_traits": [
+      "People (ሰብእ) who are identified as the creators of sin from their own minds.",
+      "ride upon chariots",
+      "unknown",
+      "unspecified",
+      "{'description': 'Humans on Earth who err in their calculation of the year.', 'type': 'human'}",
+      "{'description': 'Inhabitants of the earth.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1090",
+      "row_1102",
+      "row_1108",
+      "row_1150",
+      "row_1168",
+      "row_1170",
+      "row_1191"
+    ],
+    "occurrence_count": 14,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 9,
+        "chapter_end": 98,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

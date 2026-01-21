@@ -1,0 +1,67 @@
+{
+  "id": "PROP_WISDOM_AS_A_TEACHING",
+  "name": "Wisdom (as a teaching)",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Wisdom (as a teaching).",
+    "visual_anatomy": [
+      "Traits: Described as more pleasing than good food.",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Described as more pleasing than good food."
+    ],
+    "prompt_block": "Wisdom (as a teaching), Described as more pleasing than good food.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Described as more pleasing than good food."
+        ],
+        "prompt_block": "Wisdom (as a teaching), Described as more pleasing than good food."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_WISDOM_AS_A_TEACHING",
+    "name": "Wisdom (as a teaching)",
+    "type": "prop",
+    "aliases": [
+      "Wisdom (as a teaching)"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "Described as more pleasing than good food."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1175"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 82,
+        "chapter_end": 82,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

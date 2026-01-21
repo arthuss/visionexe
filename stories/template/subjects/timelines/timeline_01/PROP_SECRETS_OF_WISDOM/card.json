@@ -1,0 +1,67 @@
+{
+  "id": "PROP_SECRETS_OF_WISDOM",
+  "name": "secrets of wisdom",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for secrets of wisdom.",
+    "visual_anatomy": [
+      "Traits: Described as issuing from the mouth of the Elect One.",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Described as issuing from the mouth of the Elect One."
+    ],
+    "prompt_block": "secrets of wisdom, Described as issuing from the mouth of the Elect One.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Described as issuing from the mouth of the Elect One."
+        ],
+        "prompt_block": "secrets of wisdom, Described as issuing from the mouth of the Elect One."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_SECRETS_OF_WISDOM",
+    "name": "secrets of wisdom",
+    "type": "prop",
+    "aliases": [
+      "secrets of wisdom"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "Described as issuing from the mouth of the Elect One."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1144"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 51,
+        "chapter_end": 51,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

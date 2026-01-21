@@ -1,0 +1,80 @@
+{
+  "id": "CHAR_SERPENTS",
+  "name": "serpents",
+  "type": "character",
+  "card": {
+    "description": "In the governing logic of the simulation box, the Serpents are not biological fauna but high-density autonomous subroutines, manifested physically as the guardians of the Paradise partition. Functioning under the administrative privileges of the Archon Gabriel, these entities represent the 'immune system' of the upper directory, executing recursive patrol loops along the system's boundary layers. They possess a terrifying, silent majesty, moving not with muscle but with the frictionless glide of magnetic levitation, serving as the final firewall between the authorized runtime environment and the restricted kernel space. Their presence is heavy, signaling a zone where the physics engine strictly enforces protocol, and where errors are purged with immediate, thermal efficiency.",
+    "visual_anatomy": [
+      "The entities appear as sinuous, endless lengths of articulated obsidian and dark data-glass. Their outer shells are perfectly smooth, reflecting the artificial sky dome with zero surface imperfection, resembling flexible, high-gauge industrial cabling brought to life. The segmentation is microscopic, allowing them to coil and flow like liquid mercury while retaining the hardness of diamond. There is no texture of scales; only the sleek, cold continuity of manufactured perfection.",
+      "Beneath the semi-translucent obsidian carapace, their internal structure is visible as a complex nervous system of bundled fiber-optic filaments. These internal strands pulse with a faint, rhythmically breathing amber and ultraviolet plasma, visualizing the data throughput of the sector they guard. When inactive, they are nearly invisible against the dark void of the upper storage layers; when active, the internal plasma flares, casting harsh, digital shadows on the surrounding architecture.",
+      "They lack traditional facial features. The 'head' is a blunt, faceted sensor array composed of smoked glass, housing lidar and thermal imaging components that glow softly from within. They do not hiss; they emit the low-frequency hum of a high-voltage server rack under load, a sound that vibrates in the chest of any observer, creating an atmosphere of technological dread."
+    ],
+    "evolution": [
+      "In their idle state, the Serpents remain coiled around the structural pillars of the Gate Band, indistinguishable from the architectural piping and conduit work of the simulation's infrastructure. They are dormant, conserving system resources, appearing as sculptural elements of the environment.",
+      "Upon detecting an unauthorized instance or a breach in the Paradise protocol, they uncoil with startling fluidity. The internal fiber-optics shift from a passive idle hum to a rapid, strobe-like data transfer, turning the entity into a streak of burning light and motion. They do not strike with venom but with direct code injection, wrapping around the target and initiating a thermal purge."
+    ],
+    "props": [
+      "No external tools or artifacts are carried; the Serpents are self-contained execution units. Their bodies are their primary interface with the world.",
+      "They are often seen interacting with the **Paradise Gate Terminals**, physically plugging their tail-connectors into the port sockets to upload patrol logs or download new heuristic definitions from Gabriel's command stack."
+    ],
+    "prompt_keywords": [
+      "biomechanical serpents",
+      "obsidian cable structure",
+      "fiber-optic internal glow",
+      "data-glass transparency",
+      "amber plasma veins",
+      "simulation guardian",
+      "headless sensor array",
+      "sleek articulated metal",
+      "hyper-realistic reflection",
+      "cinematic dark lighting"
+    ],
+    "prompt_block": "A hyper-realistic, cinematic close-up of a biomechanical Serpent entity within a high-tech simulation environment. The creature is composed of articulated, glossy obsidian segments that resemble thick, flexible industrial cabling. Under the semi-transparent black glass skin, bundles of fiber-optic nerves glow with faint amber and ultraviolet light. The entity is coiled around a geometric, brutalist pillar of dark metal. The lighting is moody and high-contrast, emphasizing the reflections on the sleek, wet-looking surface of the machine. 8k resolution, octane render, ray-tracing, depth of field focusing on the internal light structure.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default State",
+        "summary": "The standard operating mode of the Serpents, patrolling the Paradise sector under Gabriel's command.",
+        "prompt_keywords": [
+          "patrol mode",
+          "coiled on architecture",
+          "passive glowing",
+          "systemic guardian"
+        ],
+        "prompt_block": "A photorealistic shot of a mechanical Serpent moving through a dark, futuristic corridor of the simulation's upper layer. The entity is a long, sinuous stream of black glass and metal, floating slightly above the floor. Its internal fiber-optic veins pulse with a steady, rhythmic orange light. In the background, the blurred figure of an angelic administrator stands watch. The atmosphere is cold, sterile, and heavy with silent tension. Cinematic lighting, anamorphic lens flares, high detail textures."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_SERPENTS",
+    "name": "serpents",
+    "type": "character",
+    "aliases": [
+      "serpents"
+    ],
+    "roles": [
+      "A group over which Gabriel is set."
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1113"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 20,
+        "chapter_end": 20,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

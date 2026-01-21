@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_DEEP_VALLEY_OF_THE_LOWLANDS",
+  "name": "Deep valley of the lowlands",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Deep valley of the lowlands.",
+    "visual_anatomy": [
+      "Traits: A deep place where the wicked are to be cast.",
+      "Roles: place_of_punishment"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A deep place where the wicked are to be cast."
+    ],
+    "prompt_block": "Deep valley of the lowlands, A deep place where the wicked are to be cast.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A deep place where the wicked are to be cast."
+        ],
+        "prompt_block": "Deep valley of the lowlands, A deep place where the wicked are to be cast."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_DEEP_VALLEY_OF_THE_LOWLANDS",
+    "name": "Deep valley of the lowlands",
+    "type": "set_environment",
+    "aliases": [
+      "Deep valley of the lowlands"
+    ],
+    "roles": [
+      "place_of_punishment"
+    ],
+    "visual_traits": [
+      "A deep place where the wicked are to be cast."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1149"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 56,
+        "chapter_end": 56,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

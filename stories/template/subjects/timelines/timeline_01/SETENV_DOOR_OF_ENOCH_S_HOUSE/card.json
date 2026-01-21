@@ -1,0 +1,60 @@
+{
+  "id": "SETENV_DOOR_OF_ENOCH_S_HOUSE",
+  "name": "Door of Enoch's House",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Door of Enoch's House.",
+    "visual_anatomy": [
+      "Roles: threshold"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Door of Enoch's House, threshold",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Door of Enoch's House, threshold"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_DOOR_OF_ENOCH_S_HOUSE",
+    "name": "Door of Enoch's House",
+    "type": "set_environment",
+    "aliases": [
+      "Door of Enoch's House"
+    ],
+    "roles": [
+      "threshold"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1174"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 81,
+        "chapter_end": 81,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

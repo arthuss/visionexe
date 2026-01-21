@@ -1,0 +1,60 @@
+{
+  "id": "SCENE_CALENDRICAL_RECONCILIATION",
+  "name": "Calendrical Reconciliation",
+  "type": "scene",
+  "card": {
+    "description": "Auto-generated asset card for Calendrical Reconciliation.",
+    "visual_anatomy": [
+      "Roles: Celestial Sphere"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Calendrical Reconciliation, Celestial Sphere",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Calendrical Reconciliation, Celestial Sphere"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_CALENDRICAL_RECONCILIATION",
+    "name": "Calendrical Reconciliation",
+    "type": "scene",
+    "aliases": [
+      "Calendrical Reconciliation"
+    ],
+    "roles": [
+      "Celestial Sphere"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1167"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 74,
+        "chapter_end": 74,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

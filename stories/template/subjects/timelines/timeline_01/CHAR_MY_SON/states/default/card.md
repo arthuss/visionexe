@@ -1,0 +1,10 @@
+## [STATE] my Son :: Default
+**State ID:** default
+**Chapters:** 105 - 105
+
+**Phase Summary:** The Son stands as the absolute authority of the system, a calm and high-density entity amidst the simulation's uncertainty.
+**Phase Keywords:** calm expression, standing still, holding data slate, dark atmosphere
+**Phase Prompt:**
+A photorealistic close-up of the 'Son', a perfect human avatar with data-glass skin properties, standing in a dimly lit, undefined space. He holds a heavy slate of black crystal etched with glowing Geez glyphs. The lighting is moody, casting long shadows that emphasize the texture of his high-tech, woven suit. He looks directly into the lens with an expression of infinite patience and systemic authority. The background is a blurred bokeh of digital noise and dark gradients. Rendered in Octane, 8k, extremely detailed textures.
+
+---

@@ -1,0 +1,73 @@
+{
+  "id": "PROP_WAX",
+  "name": "Wax",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Wax.",
+    "visual_anatomy": [
+      "Traits: A substance that melts easily with heat, used in a simile to describe the mountains., Malleable, melts with heat.",
+      "Roles: scene_prop, simile_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A substance that melts easily with heat, used in a simile to describe the mountains.",
+      "Malleable, melts with heat."
+    ],
+    "prompt_block": "Wax, A substance that melts easily with heat, used in a simile to describe the mountains., Malleable, melts with heat.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A substance that melts easily with heat, used in a simile to describe the mountains.",
+          "Malleable, melts with heat."
+        ],
+        "prompt_block": "Wax, A substance that melts easily with heat, used in a simile to describe the mountains., Malleable, melts with heat."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_WAX",
+    "name": "Wax",
+    "type": "prop",
+    "aliases": [
+      "Wax",
+      "wax"
+    ],
+    "roles": [
+      "scene_prop",
+      "simile_prop"
+    ],
+    "visual_traits": [
+      "A substance that melts easily with heat, used in a simile to describe the mountains.",
+      "Malleable, melts with heat."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1052",
+      "row_1079"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 1,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

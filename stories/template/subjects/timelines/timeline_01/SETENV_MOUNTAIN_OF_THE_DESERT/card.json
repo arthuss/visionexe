@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_MOUNTAIN_OF_THE_DESERT",
+  "name": "mountain of the desert",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for mountain of the desert.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A mountain that contains a verdant, watered wilderness. Water gushes from its top.'}",
+      "Roles: setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A mountain that contains a verdant, watered wilderness. Water gushes from its top.'}"
+    ],
+    "prompt_block": "mountain of the desert, {'description': 'A mountain that contains a verdant, watered wilderness. Water gushes from its top.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A mountain that contains a verdant, watered wilderness. Water gushes from its top.'}"
+        ],
+        "prompt_block": "mountain of the desert, {'description': 'A mountain that contains a verdant, watered wilderness. Water gushes from its top.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_MOUNTAIN_OF_THE_DESERT",
+    "name": "mountain of the desert",
+    "type": "set_environment",
+    "aliases": [
+      "mountain of the desert"
+    ],
+    "roles": [
+      "setting"
+    ],
+    "visual_traits": [
+      "{'description': 'A mountain that contains a verdant, watered wilderness. Water gushes from its top.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1121"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 28,
+        "chapter_end": 28,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

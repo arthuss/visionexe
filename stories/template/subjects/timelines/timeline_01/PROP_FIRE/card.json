@@ -3,58 +3,66 @@
   "name": "fire",
   "type": "prop",
   "card": {
-    "description": "A living, crystalline flame that rises from a basalt altar carved with Ethiopian‑Egyptian glyphs. The 3‑meter‑tall blaze is composed of layered, bioluminescent plasma that flickers with golden hieroglyphic patterns. At its core sits a translucent, crystalline ember that hums with unseen energy, casting heat‑distorted ripples across the air. The fire is both elemental and engineered, a fusion of ancient mysticism and incomprehensible technology, rendered photorealistically with volumetric detail and tactile heat haze.",
-    "tags": [
-      "fire",
-      "prop",
-      "ancient-tech",
-      "volumetric",
-      "glyphic",
-      "crystalline"
-    ],
+    "description": "Auto-generated asset card for fire.",
     "visual_anatomy": [
-      "**Body/Form:** 3‑m tall volumetric flame, 1.5‑m base, layered plasma with a central crystalline core, emitting soft orange‑gold glow.",
-      "**Face/Sensors:** Glyphic patterns flicker across the surface, acting as living sigils that pulse with energy.",
-      "**Clothing/Armor:** None; the flame itself is the entity, its surface adorned with etched hieroglyphs that glow in sync with the core.",
-      "**Key Features:** Heat distortion ripples, bioluminescent glyphs, crystalline core humming, subtle metallic hum, crackling sound, tactile heat haze."
+      "Traits: Used in a simile as the agent that melts wax., burning, {'description': 'A burning flame used to punish sinners.'}, {'description': 'Burning in the valley and furnace.'}, {}",
+      "Roles: element, environmental hazard, fire element, natural element, prop, scene_prop, source of heat, source of light, symbolic, unknown"
     ],
     "evolution": [
-      "Phase 1 (Default): Ignition from altar, stable crystalline flame with glyphic patterns.",
-      "Phase 2 (Optional): Flame expands, glyphs intensify, core emits brighter light. (Not used in current asset.)"
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
     ],
     "props": [
-      "Altar of Ember: Carved basalt base with etched glyphs, source of ignition.",
-      "Glyphic Core: Translucent crystalline core powering the flame."
+      "TBD."
     ],
     "prompt_keywords": [
-      "ancient",
-      "Ethiopian",
-      "Egyptian",
-      "crystalline",
-      "glyphic",
-      "volumetric",
-      "photorealistic",
-      "heat distortion",
-      "bioluminescent",
-      "industrial mysticism"
+      "Used in a simile as the agent that melts wax.",
+      "burning",
+      "{'description': 'A burning flame used to punish sinners.'}",
+      "{'description': 'Burning in the valley and furnace.'}",
+      "{}"
     ],
-    "prompt_block": "A towering, crystalline flame rises from a basalt altar, its 3‑meter height illuminated by swirling golden glyphs etched in living fire, emitting heat distortion and a subtle metallic hum, photorealistic, volumetric, 8k, cinematic, 9:16, ancient Ethiopian‑Egyptian aesthetic fused with incomprehensible tech, tactile.",
+    "prompt_block": "fire, Used in a simile as the agent that melts wax., burning, {'description': 'A burning flame used to punish sinners.'}, {'description': 'Burning in the valley and furnace.'}, {}",
     "phase_prompts": [
       {
-        "state_id": "default",
-        "label": "Default",
-        "summary": "Stable crystalline flame with glyphic patterns",
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
         "prompt_keywords": [
-          "ancient",
-          "Ethiopian",
-          "Egyptian",
-          "crystalline",
-          "glyphic",
-          "volumetric",
-          "photorealistic",
-          "heat distortion"
+          "Used in a simile as the agent that melts wax.",
+          "burning",
+          "{'description': 'A burning flame used to punish sinners.'}",
+          "{'description': 'Burning in the valley and furnace.'}",
+          "{}"
         ],
-        "prompt_block": "A towering, crystalline flame rises from a basalt altar, its 3‑meter height illuminated by swirling golden glyphs etched in living fire, emitting heat distortion and a subtle metallic hum, photorealistic, volumetric, 8k, cinematic, 9:16, ancient Ethiopian‑Egyptian aesthetic fused with incomprehensible tech, tactile."
+        "prompt_block": "fire, Used in a simile as the agent that melts wax., burning, {'description': 'A burning flame used to punish sinners.'}, {'description': 'Burning in the valley and furnace.'}, {}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "Used in a simile as the agent that melts wax.",
+          "burning",
+          "{'description': 'A burning flame used to punish sinners.'}",
+          "{'description': 'Burning in the valley and furnace.'}",
+          "{}"
+        ],
+        "prompt_block": "fire, Used in a simile as the agent that melts wax., burning, {'description': 'A burning flame used to punish sinners.'}, {'description': 'Burning in the valley and furnace.'}, {}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "Used in a simile as the agent that melts wax.",
+          "burning",
+          "{'description': 'A burning flame used to punish sinners.'}",
+          "{'description': 'Burning in the valley and furnace.'}",
+          "{}"
+        ],
+        "prompt_block": "fire, Used in a simile as the agent that melts wax., burning, {'description': 'A burning flame used to punish sinners.'}, {'description': 'Burning in the valley and furnace.'}, {}, Phase 3"
       }
     ]
   },
@@ -71,14 +79,21 @@
       "environmental hazard",
       "fire element",
       "prop",
+      "scene_prop",
       "source of heat",
       "source of light",
-      "symbolic"
+      "symbolic",
+      "unknown"
     ],
     "visual_traits": [
-      "burning"
+      "Used in a simile as the agent that melts wax.",
+      "burning",
+      "{'description': 'A burning flame used to punish sinners.'}",
+      "{'description': 'Burning in the valley and furnace.'}"
     ],
-    "changes": [],
+    "changes": [
+      "{'is_dynamic': True, 'description': 'Used to burn the sinners.'}"
+    ],
     "notes": [],
     "sources": [
       "row_101",
@@ -86,6 +101,10 @@
       "row_104",
       "row_108",
       "row_110",
+      "row_1141",
+      "row_1145",
+      "row_1147",
+      "row_1193",
       "row_135",
       "row_262",
       "row_355",
@@ -94,19 +113,41 @@
       "row_693",
       "row_959"
     ],
-    "occurrence_count": 12,
-    "is_dynamic": false,
-    "state_policy": "static",
+    "occurrence_count": 32,
+    "is_dynamic": true,
+    "state_policy": "phases",
     "states": [
       {
-        "state_id": "default",
-        "label": "Default",
+        "state_id": "phase_01",
+        "label": "Phase 1",
         "chapter_start": 14,
-        "chapter_end": 108,
+        "chapter_end": 44,
         "segment_labels": [],
         "scene_labels": [],
         "source_ids": [],
         "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 45,
+        "chapter_end": 76,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 77,
+        "chapter_end": 108,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'is_dynamic': True, 'description': 'Used to burn the sinners.'}"
+        ]
       }
     ]
   }

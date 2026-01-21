@@ -1,0 +1,76 @@
+{
+  "id": "PROP_LEAVES",
+  "name": "Leaves",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Leaves.",
+    "visual_anatomy": [
+      "Traits: Described as being shed from most trees, but remaining on the fourteen evergreen trees., green, {'description': 'The foliage of the deciduous trees, which are shed.'}",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Described as being shed from most trees, but remaining on the fourteen evergreen trees.",
+      "green",
+      "{'description': 'The foliage of the deciduous trees, which are shed.'}"
+    ],
+    "prompt_block": "Leaves, Described as being shed from most trees, but remaining on the fourteen evergreen trees., green, {'description': 'The foliage of the deciduous trees, which are shed.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Described as being shed from most trees, but remaining on the fourteen evergreen trees.",
+          "green",
+          "{'description': 'The foliage of the deciduous trees, which are shed.'}"
+        ],
+        "prompt_block": "Leaves, Described as being shed from most trees, but remaining on the fourteen evergreen trees., green, {'description': 'The foliage of the deciduous trees, which are shed.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_LEAVES",
+    "name": "Leaves",
+    "type": "prop",
+    "aliases": [
+      "Leaves",
+      "leaves"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "Described as being shed from most trees, but remaining on the fourteen evergreen trees.",
+      "green",
+      "{'description': 'The foliage of the deciduous trees, which are shed.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1059",
+      "row_1061",
+      "row_1094"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 3,
+        "chapter_end": 5,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

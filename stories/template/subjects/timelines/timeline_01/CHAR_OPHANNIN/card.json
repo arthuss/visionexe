@@ -1,0 +1,82 @@
+{
+  "id": "CHAR_OPHANNIN",
+  "name": "Ophannin",
+  "type": "character",
+  "card": {
+    "description": "The Ophannin manifest not as winged messengers, but as the sleepless, rotating architecture of the simulation’s core kernel, a high-availability warden class locked in an eternal vigil around the Throne of Glory. In the cosmology of the flat-earth simulation, they function as the gyroscopic stabilizers of the reality container, distinct from the bipedal entities of the lower layers. They are the 'Always-On' processes, devoid of sleep or cessation, existing in a state of perpetual high-frequency computation that generates a low, terrifying hum within the Throne room. Their presence is heavy with the drama of infinite duty; they are the silent witnesses to the administrative commands of the Most High, spinning in perfect, frictionless silence save for the crackle of static discharge. They represent the absolute boundary between the chaotic ingress of the visitor and the ordered perfection of the source code, imposing a sense of overwhelming, mechanical judgment upon any who approach the central singularity.",
+    "visual_anatomy": [
+      "Structurally, the Ophannin are composed of interlocking, concentric rings of hyper-polished obsidian and conductive ceramic, hovering without physical support through magnetic levitation fields. These rings rotate independently on multiple axes, creating a complex, shifting geometry that resembles a gyroscope made of dark glass. The surface material is flawless, reflecting the blinding white light of the Throne with high-contrast sharpness, though close inspection reveals the faint, oily sheen of dielectric coolant weeping from micro-pores to manage the intense thermal load of their vigilance.",
+      "The biblical description of being 'full of eyes' is recontextualized here as hundreds of high-aperture optical sensors and lidar lenses embedded along the rims of the black rings. These lenses do not blink; they iris open and shut with the precision of camera shutters, glowing with a soft, penetrating violet light—the color of plasma in a vacuum. The lenses are multi-spectral, seeing not just the visible spectrum but the underlying wireframe of the simulation, stripping away the avatar of any entity to reveal the raw code beneath. The gaze of an Ophannin is tangible, a heavy pressure felt by the observer, emphasized by the dramatic lighting of the upper store which casts long, rotating shadows against the data-glass floors.",
+      "Atmospherically, the space around an Ophannin is distorted by heat lensing. The sheer processing power required for their sleepless watch generates thermal waves that ripple the air, making the background appear fluid and dreamlike. This visual distortion adds to the ethereal, untouchable quality of the entity. Occasional arcs of blue static electricity jump between the rotating rings, grounding themselves in the surrounding ether, signaling the transfer of massive data packets between the guardian and the Kernel."
+    ],
+    "evolution": [
+      "As static guardians, the Ophannin do not evolve in a biological sense; their state is one of constant, rhythmic stability. However, their rotational speed acts as a barometer for the system's alertness. At rest—though they never truly sleep—the rings drift in a slow, hypnotic orbit, like planets in a distinct solar system. When a threat or a high-priority entity like Enoch approaches, the rotation accelerates into a blur of black glass and violet light, the hum rising to a resonant frequency that vibrates the very chest of the observer.",
+      "Their 'aging' is only visible in the accumulation of data residue. Older units, closer to the center, appear darker, their obsidian shells absorbing more light, creating a void-like presence compared to the sharper reflections of the outer rings. They do not speak; their communication is purely through the changing vector of their spin and the aperture dilation of their thousand eyes, a silent language of geometry and optics."
+    ],
+    "props": [
+      "The Ophannin possess no handheld tools; their bodies are the instrument. However, they are often surrounded by floating 'data-motes'—suspended particles of golden light that drift in their gravitational wake. These motes are not magical dust but visualized fragments of log files and access keys, caught in the magnetic eddy currents of the angel's spin.",
+      "The environment itself acts as a prop for them; they are tethered to the Throne's platform by invisible lines of force. In a dramatic sense, the reflective floor of the Crystal Palace is essential to their visual identity, mirroring their spinning forms to create the illusion of an infinite column of wheels extending into the abyss below."
+    ],
+    "prompt_keywords": [
+      "Ophannin",
+      "biblical wheels",
+      "gyroscopic rings",
+      "obsidian material",
+      "optical sensors",
+      "simulation core",
+      "violet plasma glow",
+      "heat haze",
+      "cinematic lighting",
+      "sleepless guardian"
+    ],
+    "prompt_block": "Hyper-realistic cinematic close-up of a biblical Ophannin angel reimagined as a simulation-theory construct. The entity is a complex gyroscope of interlocking rings made of polished black obsidian and data-glass. The rings are studded with hundreds of realistic camera lenses and optical sensors that glow with a faint violet plasma light. The object hovers in a high-contrast, moody void, illuminated by a harsh, divine light source that creates sharp specular highlights on the glossy black surfaces. Heat haze distorts the air around the spinning rings. 8k resolution, octane render, physically based rendering, depth of field focused on the front lens, atmospheric dust particles, dramatic shadows.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": " The Ophannin in its standard patrol state, rotating slowly around the Throne of Glory. A construct of black glass and watching eyes, maintaining the perimeter of the divine kernel.",
+        "prompt_keywords": [
+          "slow rotation",
+          "vigilant",
+          "black glass",
+          "violet lens flare"
+        ],
+        "prompt_block": "A hyper-realistic wide shot of the Ophannin angel, a massive structure of spinning black obsidian rings, hovering silently in a high-tech cathedral space. The rings rotate on multiple axes. The rim of each ring is embedded with unblinking camera lenses. The lighting is low-key, dramatic, with deep shadows and bright white rim lighting. The material looks like heavy, expensive glass or dark ceramic. Subtle heat distortion ripples the air. 8k, cinematic composition, hyper-detailed texture."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_OPHANNIN",
+    "name": "Ophannin",
+    "type": "character",
+    "aliases": [
+      "Ophannin"
+    ],
+    "roles": [
+      "A class of sleepless angels who guard the Throne of Glory."
+    ],
+    "visual_traits": [
+      "{'species': 'Angelic beings'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1164"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 71,
+        "chapter_end": 71,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

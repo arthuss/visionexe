@@ -1,0 +1,79 @@
+{
+  "id": "SETENV_FIRST_SEASON_UNDER_MELKIEL",
+  "name": "First Season (under Melkiel)",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for First Season (under Melkiel).",
+    "visual_anatomy": [
+      "Traits: Characterized by heat and warmth., Roses and field flowers bloom., Trees grow leaves and bear fruit., Wheat is harvested., Winter trees become dry.",
+      "Roles: The first 91-day quarter of the year."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Characterized by heat and warmth.",
+      "Roses and field flowers bloom.",
+      "Trees grow leaves and bear fruit.",
+      "Wheat is harvested.",
+      "Winter trees become dry."
+    ],
+    "prompt_block": "First Season (under Melkiel), Characterized by heat and warmth., Roses and field flowers bloom., Trees grow leaves and bear fruit., Wheat is harvested., Winter trees become dry.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Characterized by heat and warmth.",
+          "Roses and field flowers bloom.",
+          "Trees grow leaves and bear fruit.",
+          "Wheat is harvested.",
+          "Winter trees become dry."
+        ],
+        "prompt_block": "First Season (under Melkiel), Characterized by heat and warmth., Roses and field flowers bloom., Trees grow leaves and bear fruit., Wheat is harvested., Winter trees become dry."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_FIRST_SEASON_UNDER_MELKIEL",
+    "name": "First Season (under Melkiel)",
+    "type": "set_environment",
+    "aliases": [
+      "First Season (under Melkiel)"
+    ],
+    "roles": [
+      "The first 91-day quarter of the year."
+    ],
+    "visual_traits": [
+      "Characterized by heat and warmth.",
+      "Roses and field flowers bloom.",
+      "Trees grow leaves and bear fruit.",
+      "Wheat is harvested.",
+      "Winter trees become dry."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1175"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 82,
+        "chapter_end": 82,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

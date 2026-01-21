@@ -1,0 +1,85 @@
+{
+  "id": "CHAR_WOMEN",
+  "name": "women",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for women.",
+    "visual_anatomy": [
+      "Traits: A group (¡ንስት) mentioned as a point of comparison for the adornments of sinners., unspecified, {'description': \"Also referred to as 'daughters of men' ('አዋልደ ሰብእ'). They are mortal humans with whom the Watchers procreated.\"}, {'description': 'Human women taken as wives by the fallen Watchers.'}",
+      "Roles: Recipients of the worthless mystery, antagonist_group, character, human, unknown"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A group (¡ንስት) mentioned as a point of comparison for the adornments of sinners.",
+      "unspecified",
+      "{'description': \"Also referred to as 'daughters of men' ('አዋልደ ሰብእ'). They are mortal humans with whom the Watchers procreated.\"}",
+      "{'description': 'Human women taken as wives by the fallen Watchers.'}"
+    ],
+    "prompt_block": "women, A group (¡ንስት) mentioned as a point of comparison for the adornments of sinners., unspecified, {'description': \"Also referred to as 'daughters of men' ('አዋልደ ሰብእ'). They are mortal humans with whom the Watchers procreated.\"}, {'description': 'Human women taken as wives by the fallen Watchers.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A group (¡ንስት) mentioned as a point of comparison for the adornments of sinners.",
+          "unspecified",
+          "{'description': \"Also referred to as 'daughters of men' ('አዋልደ ሰብእ'). They are mortal humans with whom the Watchers procreated.\"}",
+          "{'description': 'Human women taken as wives by the fallen Watchers.'}"
+        ],
+        "prompt_block": "women, A group (¡ንስት) mentioned as a point of comparison for the adornments of sinners., unspecified, {'description': \"Also referred to as 'daughters of men' ('አዋልደ ሰብእ'). They are mortal humans with whom the Watchers procreated.\"}, {'description': 'Human women taken as wives by the fallen Watchers.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_WOMEN",
+    "name": "women",
+    "type": "character",
+    "aliases": [
+      "Women",
+      "women"
+    ],
+    "roles": [
+      "Recipients of the worthless mystery",
+      "antagonist_group",
+      "character",
+      "human",
+      "unknown"
+    ],
+    "visual_traits": [
+      "A group (¡ንስት) mentioned as a point of comparison for the adornments of sinners.",
+      "unspecified",
+      "{'description': \"Also referred to as 'daughters of men' ('አዋልደ ሰብእ'). They are mortal humans with whom the Watchers procreated.\"}",
+      "{'description': 'Human women taken as wives by the fallen Watchers.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1104",
+      "row_1108",
+      "row_1109",
+      "row_1191",
+      "row_1199"
+    ],
+    "occurrence_count": 10,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 12,
+        "chapter_end": 106,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

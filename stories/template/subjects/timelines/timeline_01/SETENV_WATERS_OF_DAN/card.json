@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_WATERS_OF_DAN",
+  "name": "waters of Dan",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for waters of Dan.",
+    "visual_anatomy": [
+      "Traits: a body of water located in Dan, south of the west of Armon",
+      "Roles: place of rest and vision"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "a body of water located in Dan, south of the west of Armon"
+    ],
+    "prompt_block": "waters of Dan, a body of water located in Dan, south of the west of Armon",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "a body of water located in Dan, south of the west of Armon"
+        ],
+        "prompt_block": "waters of Dan, a body of water located in Dan, south of the west of Armon"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_WATERS_OF_DAN",
+    "name": "waters of Dan",
+    "type": "set_environment",
+    "aliases": [
+      "waters of Dan"
+    ],
+    "roles": [
+      "place of rest and vision"
+    ],
+    "visual_traits": [
+      "a body of water located in Dan, south of the west of Armon"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1106"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 13,
+        "chapter_end": 13,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

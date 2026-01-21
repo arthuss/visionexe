@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_IN_THEIR_MIDST",
+  "name": "in their midst",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for in their midst.",
+    "visual_anatomy": [
+      "Traits: {'description': \"A relative position, 'በማዕከሎሙ', among the righteous where the Lord of Spirits places the Chosen One.\"}",
+      "Roles: relative_position"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"A relative position, 'በማዕከሎሙ', among the righteous where the Lord of Spirits places the Chosen One.\"}"
+    ],
+    "prompt_block": "in their midst, {'description': \"A relative position, 'በማዕከሎሙ', among the righteous where the Lord of Spirits places the Chosen One.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"A relative position, 'በማዕከሎሙ', among the righteous where the Lord of Spirits places the Chosen One.\"}"
+        ],
+        "prompt_block": "in their midst, {'description': \"A relative position, 'በማዕከሎሙ', among the righteous where the Lord of Spirits places the Chosen One.\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_IN_THEIR_MIDST",
+    "name": "in their midst",
+    "type": "set_environment",
+    "aliases": [
+      "in their midst"
+    ],
+    "roles": [
+      "relative_position"
+    ],
+    "visual_traits": [
+      "{'description': \"A relative position, 'በማዕከሎሙ', among the righteous where the Lord of Spirits places the Chosen One.\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1139"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 45,
+        "chapter_end": 45,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

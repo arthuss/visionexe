@@ -1,0 +1,95 @@
+{
+  "id": "SETENV_ENDS_OF_THE_EARTH",
+  "name": "Ends of the Earth",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Ends of the Earth.",
+    "visual_anatomy": [
+      "Traits: A remote, vast region in the east where celestial wonders are visible., The farthest imaginable boundaries of the world., The furthest extent of the world, which is reached by great fear and trembling., a vast, remote region, {'description': \"The furthest boundary of the world, the destination of the narrator's journey.\", 'state': 'static'}, {'description': \"The southern boundary of the world ('አጽናፈ፡ ምድር').\", 'state': 'static'}",
+      "Roles: A remote destination Noah travels to., boundary, boundary of effect, region, setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A remote, vast region in the east where celestial wonders are visible.",
+      "The farthest imaginable boundaries of the world.",
+      "The furthest extent of the world, which is reached by great fear and trembling.",
+      "a vast, remote region",
+      "{'description': \"The furthest boundary of the world, the destination of the narrator's journey.\", 'state': 'static'}",
+      "{'description': \"The southern boundary of the world ('አጽናፈ፡ ምድር').\", 'state': 'static'}"
+    ],
+    "prompt_block": "Ends of the Earth, A remote, vast region in the east where celestial wonders are visible., The farthest imaginable boundaries of the world., The furthest extent of the world, which is reached by great fear and trembling., a vast, remote region, {'description': \"The furthest boundary of the world, the destination of the narrator's journey.\", 'state': 'static'}, {'description': \"The southern boundary of the world ('አጽናፈ፡ ምድር').\", 'state': 'static'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A remote, vast region in the east where celestial wonders are visible.",
+          "The farthest imaginable boundaries of the world.",
+          "The furthest extent of the world, which is reached by great fear and trembling.",
+          "a vast, remote region",
+          "{'description': \"The furthest boundary of the world, the destination of the narrator's journey.\", 'state': 'static'}",
+          "{'description': \"The southern boundary of the world ('አጽናፈ፡ ምድር').\", 'state': 'static'}"
+        ],
+        "prompt_block": "Ends of the Earth, A remote, vast region in the east where celestial wonders are visible., The farthest imaginable boundaries of the world., The furthest extent of the world, which is reached by great fear and trembling., a vast, remote region, {'description': \"The furthest boundary of the world, the destination of the narrator's journey.\", 'state': 'static'}, {'description': \"The southern boundary of the world ('አጽናፈ፡ ምድር').\", 'state': 'static'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_ENDS_OF_THE_EARTH",
+    "name": "Ends of the Earth",
+    "type": "set_environment",
+    "aliases": [
+      "Ends of the Earth",
+      "Ends of the earth",
+      "ends of the earth"
+    ],
+    "roles": [
+      "A remote destination Noah travels to.",
+      "boundary",
+      "boundary of effect",
+      "region",
+      "setting"
+    ],
+    "visual_traits": [
+      "A remote, vast region in the east where celestial wonders are visible.",
+      "The farthest imaginable boundaries of the world.",
+      "The furthest extent of the world, which is reached by great fear and trembling.",
+      "a vast, remote region",
+      "{'description': \"The furthest boundary of the world, the destination of the narrator's journey.\", 'state': 'static'}",
+      "{'description': \"The southern boundary of the world ('አጽናፈ፡ ምድር').\", 'state': 'static'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1078",
+      "row_1097",
+      "row_1116",
+      "row_1127",
+      "row_1128",
+      "row_1129",
+      "row_1150",
+      "row_1159"
+    ],
+    "occurrence_count": 36,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 1,
+        "chapter_end": 65,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

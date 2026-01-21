@@ -1,0 +1,103 @@
+{
+  "id": "CHAR_DESTRUCTION",
+  "name": "destruction",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for destruction.",
+    "visual_anatomy": [
+      "Roles: Personified force that must release its claim."
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "destruction, Personified force that must release its claim.",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "destruction, Personified force that must release its claim., Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "destruction, Personified force that must release its claim., Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "destruction, Personified force that must release its claim., Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_DESTRUCTION",
+    "name": "destruction",
+    "type": "character",
+    "aliases": [
+      "destruction"
+    ],
+    "roles": [
+      "Personified force that must release its claim."
+    ],
+    "visual_traits": [],
+    "changes": [
+      "{'phase': 'Phase 1: Holding debt', 'description': 'A personified force that holds a debt.'}",
+      "{'phase': 'Phase 2: Releasing debt', 'description': 'Returns that which it owes.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1144"
+    ],
+    "occurrence_count": 1,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 51,
+        "chapter_end": 50,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 51,
+        "chapter_end": 50,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Holding debt', 'description': 'A personified force that holds a debt.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 51,
+        "chapter_end": 51,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Releasing debt', 'description': 'Returns that which it owes.'}"
+        ]
+      }
+    ]
+  }
+}

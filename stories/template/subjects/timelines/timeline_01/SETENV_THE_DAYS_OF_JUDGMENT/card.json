@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_THE_DAYS_OF_JUDGMENT",
+  "name": "The Days of Judgment",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for The Days of Judgment.",
+    "visual_anatomy": [
+      "Traits: {'description': \"A future period characterized by social chaos ('peoples will be in turmoil'), unnatural behavior ('parents abandoning children'), and the ultimate execution of justice ('day of slaughter', 'great day of destruction').\"}",
+      "Roles: temporal_setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"A future period characterized by social chaos ('peoples will be in turmoil'), unnatural behavior ('parents abandoning children'), and the ultimate execution of justice ('day of slaughter', 'great day of destruction').\"}"
+    ],
+    "prompt_block": "The Days of Judgment, {'description': \"A future period characterized by social chaos ('peoples will be in turmoil'), unnatural behavior ('parents abandoning children'), and the ultimate execution of justice ('day of slaughter', 'great day of destruction').\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"A future period characterized by social chaos ('peoples will be in turmoil'), unnatural behavior ('parents abandoning children'), and the ultimate execution of justice ('day of slaughter', 'great day of destruction').\"}"
+        ],
+        "prompt_block": "The Days of Judgment, {'description': \"A future period characterized by social chaos ('peoples will be in turmoil'), unnatural behavior ('parents abandoning children'), and the ultimate execution of justice ('day of slaughter', 'great day of destruction').\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_DAYS_OF_JUDGMENT",
+    "name": "The Days of Judgment",
+    "type": "set_environment",
+    "aliases": [
+      "The Days of Judgment"
+    ],
+    "roles": [
+      "temporal_setting"
+    ],
+    "visual_traits": [
+      "{'description': \"A future period characterized by social chaos ('peoples will be in turmoil'), unnatural behavior ('parents abandoning children'), and the ultimate execution of justice ('day of slaughter', 'great day of destruction').\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1192"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 99,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

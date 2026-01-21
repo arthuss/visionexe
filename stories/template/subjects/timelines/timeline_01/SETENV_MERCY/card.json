@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_MERCY",
+  "name": "mercy",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for mercy.",
+    "visual_anatomy": [
+      "Traits: Like dew upon the earth.",
+      "Roles: Abstract concept described as a physical element"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Like dew upon the earth."
+    ],
+    "prompt_block": "mercy, Like dew upon the earth.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Like dew upon the earth."
+        ],
+        "prompt_block": "mercy, Like dew upon the earth."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_MERCY",
+    "name": "mercy",
+    "type": "set_environment",
+    "aliases": [
+      "mercy"
+    ],
+    "roles": [
+      "Abstract concept described as a physical element"
+    ],
+    "visual_traits": [
+      "Like dew upon the earth."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1132"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 39,
+        "chapter_end": 39,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "PROP_MEMORIAL_OF_THE_RIGHTEOUS",
+  "name": "Memorial of the Righteous",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Memorial of the Righteous.",
+    "visual_anatomy": [
+      "Traits: {'description': \"A record or 'memorial' (እንቲ¡Œሙ) of the righteous that is mentioned by the angels for good.\"}",
+      "Roles: actor_prop:The Righteous"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"A record or 'memorial' (እንቲ¡Œሙ) of the righteous that is mentioned by the angels for good.\"}"
+    ],
+    "prompt_block": "Memorial of the Righteous, {'description': \"A record or 'memorial' (እንቲ¡Œሙ) of the righteous that is mentioned by the angels for good.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"A record or 'memorial' (እንቲ¡Œሙ) of the righteous that is mentioned by the angels for good.\"}"
+        ],
+        "prompt_block": "Memorial of the Righteous, {'description': \"A record or 'memorial' (እንቲ¡Œሙ) of the righteous that is mentioned by the angels for good.\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_MEMORIAL_OF_THE_RIGHTEOUS",
+    "name": "Memorial of the Righteous",
+    "type": "prop",
+    "aliases": [
+      "Memorial of the Righteous"
+    ],
+    "roles": [
+      "actor_prop:The Righteous"
+    ],
+    "visual_traits": [
+      "{'description': \"A record or 'memorial' (እንቲ¡Œሙ) of the righteous that is mentioned by the angels for good.\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1197"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 104,
+        "chapter_end": 104,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

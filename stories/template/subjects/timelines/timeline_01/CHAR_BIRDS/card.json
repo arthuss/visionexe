@@ -1,0 +1,113 @@
+{
+  "id": "CHAR_BIRDS",
+  "name": "Birds",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Birds.",
+    "visual_anatomy": [
+      "Traits: their appearance, form, and voice are different from one another",
+      "Roles: fauna, victim"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "their appearance, form, and voice are different from one another"
+    ],
+    "prompt_block": "Birds, their appearance, form, and voice are different from one another",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "their appearance, form, and voice are different from one another"
+        ],
+        "prompt_block": "Birds, their appearance, form, and voice are different from one another, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "their appearance, form, and voice are different from one another"
+        ],
+        "prompt_block": "Birds, their appearance, form, and voice are different from one another, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "their appearance, form, and voice are different from one another"
+        ],
+        "prompt_block": "Birds, their appearance, form, and voice are different from one another, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_BIRDS",
+    "name": "Birds",
+    "type": "character",
+    "aliases": [
+      "Birds"
+    ],
+    "roles": [
+      "fauna",
+      "victim"
+    ],
+    "visual_traits": [
+      "their appearance, form, and voice are different from one another"
+    ],
+    "changes": [
+      "{'phase': 'dynamic', 'description': \"The text states their appearance, form, and voice 'was different, one from the other' (ይትዌለጥ፡ ፩እምካልኡ), implying a state of continuous variation or change.\"}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1099",
+      "row_1128"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 7,
+        "chapter_end": 15,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 16,
+        "chapter_end": 24,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 25,
+        "chapter_end": 33,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'dynamic', 'description': \"The text states their appearance, form, and voice 'was different, one from the other' (ይትዌለጥ፡ ፩እምካልኡ), implying a state of continuous variation or change.\"}"
+        ]
+      }
+    ]
+  }
+}

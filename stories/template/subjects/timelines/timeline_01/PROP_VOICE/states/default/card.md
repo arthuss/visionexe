@@ -2,9 +2,8 @@
 **State ID:** default
 **Chapters:** 57 - 57
 
-**Phase Summary:** Floating crystalline voice waveform between Raphael and Henoch
-**Phase Keywords:** glowing blue, crystalline, glyph, ancient, waveform, photorealistic, industrial mysticism
+**Phase Keywords:** audible
 **Phase Prompt:**
-Medium two‑shot of Raphael and Henoch in a lush garden, Raphael pointing a chrome finger toward a towering tree, a floating translucent crystalline waveform of his voice hovering between them, glowing blue with etched ancient glyphs and bio‑luminescent veins, the waveform’s edges sharp yet organic, Raphael’s sensor face active, Henoch listening intently, cinematic lighting, photorealistic, grounded realism, ancient‑tech aesthetic
+Voice, audible
 
 ---

@@ -3,66 +3,21 @@ import subprocess
 import argparse
 import time
 import shutil
-import shlex
 import json
-import glob
 import re
+import urllib.error
+import urllib.request
 from pathlib import Path
 
-from visionexe_paths import load_story_config, resolve_path
+from visionexe_paths import load_engine_config, load_story_config, resolve_path
 
 # --- KONSTANTEN & REGELWERKE ---
-
-RULE_OF_MECHANISM = """
-### RULE OF MECHANISM (The "No-Magic" Clause) ###
-1. NO MAGIC: Nothing happens "just because". Every vision is an Ingress, every miracle is a Physics-Engine-Override.
-2. BIOMETRIC REACTION: Tech manifestation is a biological struggle. Actors must react with muscle spasms, iris-dilation, or skin-conductivity changes.
-3. NANOBOT LOGIC: If gear appears, describe the microscopic assembly (dark roots under skin, metallic crystallization).
-4. THE 1-SECOND HOOK: Start with a high-speed, high-impact visual shock before establishing the scene.
-5. CAMERA AGGRESSION: Use "Shaky Cam" for shocks and "Slow-Motion Tracking" for awe.
-"""
-
-DIRECTOR_MANUAL = f"""
-### EXEGET:OS DIRECTOR'S MANUAL - HOLLYWOOD STANDARDS & SYSTEM LOGIC ###
-
-1. GENRE & VIBE: Industrial Mysticism / Simulation-Forensics. Ancient settings meet ultra-tech.
-2. CORE METAPHOR: The Book of Enoch is the System Manual for the Human-Simulation.
-3. SEMANTIC MAPPING (Content-Anchor):
-   - Miracles are V-FX (Visual Effects). 
-   - God's Presence = Kernel Manifestation / Root Login.
-   - Sins = Malware / Data Corruption / Entropy.
-   - Melting/Shaking = Thermal Throttling / Mesh Instability.
-4. TRANSITION PROTOCOL (Interpolation):
-   Henoch doesn't just "appear". Interpolate logical system-movements between verses:
-   - PORTAL INGRESS: Vertical rift, heat-lensing interference, stepping from dust into sterile mainframe.
-   - GRAVITY SHIFT: Dust lifting, robe fluttering upward, vector-based levitation.
-   - TOUCHDOWN: Macro shot of feet hitting floor, golden data-sync ripples on contact.
-   -just to name some, ideate yourself what makes more sense!
-5. ACTOR EVOLUTION (Gear Tracking):
-   - Kap 1-13 (PROXY): Human, weathered, simple linen, "Opened Eye" effect (overload).
-   - Kap 14-70 (VOYAGER): Silver-skin shader, HUD-Visor, Idris-Gloves (golden light), floating in spheres.
-   - Kap 71-108 (MASTER): White plasma body, translucent glass-like tissue, integrated with the mainframe.
-6. VISUAL LAYERS (ABC Integration):
-   - LAYER A (FLESH): Bio-detail, sweat, textures, 85mm+ Macro.
-   - LAYER B (STRUCTURE/LIGHT): Environmental light geometry, laser-vectors, 14mm God-Eye.
-   - LAYER C (TERMINAL): After Effects UI-Overlays. Use Ge'ez roots as system commands (e.g. B-R-K for Blessing).
-7. DRAMATURGY: 3-Act Structure for 60s TikTok. Hook (0-15s), Conflict (15-45s), Sync/Resolution (45-60s).
-
-{RULE_OF_MECHANISM}
-"""
-
-STRICT_SOURCE_RULES = """
-### SOURCE-OF-TRUTH (EXEGETICAL LOCK) ###
-1. Verwende ausschliesslich Informationen aus dem Kapiteltext/Versen und den gelieferten Analysen.
-2. Keine neuen Szenen, Actors, Props oder Orte erfinden. 
-3. Wenn Details fehlen: weglassen oder als "unknown" markieren, nicht auffuellen.
-4. Szene-/Vers-Reihenfolge beibehalten. Keine Umstellungen ohne Textbasis.
-"""
 
 WAVE_SECTION_RE = re.compile(
     r"^###\s+.*Integration in WAVE.*?(?=^###\s|\Z)",
     re.IGNORECASE | re.MULTILINE | re.DOTALL,
 )
+DEFAULT_LLM_TEMPERATURE = 0.35
 
 # --- HELPER FUNKTIONEN ---
 
@@ -73,32 +28,37 @@ def strip_wave_sections(text):
     return cleaned.strip()
 
 def resolve_copilot_command():
-    override = os.environ.get("COPILOT_CMD") or os.environ.get("LLM_CMD")
-    if override:
-        return shlex.split(override)
+    copilot_cmd = os.environ.get("COPILOT_CMD") or os.environ.get("LLM_CMD")
+    if copilot_cmd:
+        return copilot_cmd.split()
 
     copilot_path = shutil.which("copilot") or shutil.which("copilot.cmd")
     if copilot_path:
         return [copilot_path]
 
-    home_dir = os.path.expanduser("~")
-    npm_loader_glob = os.path.join(home_dir, ".copilot", "pkg", "universal", "*", "npm-loader.js")
-    npm_loaders = glob.glob(npm_loader_glob)
-    if npm_loaders:
-        npm_loaders.sort(key=lambda p: [int(x) if x.isdigit() else x for x in os.path.basename(os.path.dirname(p)).split(".")])
-        return ["node", npm_loaders[-1]]
-
     return None
 
-def is_copilot_cmd(cmd):
-    if not cmd:
-        return False
-    lowered = [os.path.basename(part).lower() for part in cmd]
-    if "copilot" in lowered or "copilot.cmd" in lowered:
-        return True
-    return any(part.lower().endswith("npm-loader.js") for part in cmd)
 
-def parse_gemini_response(raw_output):
+def resolve_llm_profiles(repo_root: Path) -> tuple[dict, str]:
+    engine_config = load_engine_config()
+    profiles_path = resolve_path(engine_config.get("llm_profiles_path"), repo_root)
+    if not profiles_path or not Path(profiles_path).exists():
+        return {}, engine_config.get("default_llm_profile") or ""
+    try:
+        profiles = json.loads(Path(profiles_path).read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        profiles = {}
+    return profiles, engine_config.get("default_llm_profile") or ""
+
+
+
+def is_copilot_cmd(cmd):
+    return bool(cmd) and (
+        (isinstance(cmd, list) and cmd[0].lower().endswith("copilot"))
+        or (isinstance(cmd, str) and "copilot" in cmd.lower())
+    )
+
+def parse_copilot_response(raw_output):
     if not raw_output:
         return None
     json_start = raw_output.find("{")
@@ -115,6 +75,63 @@ def parse_gemini_response(raw_output):
             return response.strip()
     except json.JSONDecodeError:
         return raw_output.strip()
+    return None
+
+
+def openai_compat_chat(prompt: str, profile: dict, temperature: float) -> str | None:
+    base_url = (profile.get("base_url") or "").rstrip("/")
+    if not base_url:
+        print("LLM profile base_url fehlt.")
+        return None
+    if base_url.endswith("/v1"):
+        endpoint = f"{base_url}/chat/completions"
+    else:
+        endpoint = f"{base_url}/v1/chat/completions"
+    payload = {
+        "model": profile.get("model") or "",
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": temperature,
+    }
+    extra_body = profile.get("extra_body") or profile.get("request") or {}
+    if not isinstance(extra_body, dict):
+        extra_body = {}
+    thinking = profile.get("thinking")
+    if thinking and "thinking" not in extra_body:
+        extra_body["thinking"] = thinking
+    reasoning = profile.get("reasoning")
+    if reasoning and "reasoning" not in extra_body:
+        extra_body["reasoning"] = reasoning
+    if extra_body:
+        payload.update(extra_body)
+    headers = {"Content-Type": "application/json"}
+    api_key = profile.get("api_key") or ""
+    if api_key:
+        headers["Authorization"] = f"Bearer {api_key}"
+    req = urllib.request.Request(endpoint, data=json.dumps(payload).encode("utf-8"), headers=headers)
+    try:
+        with urllib.request.urlopen(req, timeout=180) as response:
+            data = json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        try:
+            body = exc.read().decode("utf-8", errors="replace")
+        except Exception:
+            body = str(exc)
+        print(f"LLM request error: {body}")
+        return None
+    except Exception as exc:
+        print(f"LLM request failed: {exc}")
+        return None
+    if isinstance(data, dict):
+        choices = data.get("choices") or []
+        if choices:
+            message = choices[0].get("message") or {}
+            content = message.get("content")
+            if isinstance(content, str):
+                return content.strip()
+            text = choices[0].get("text")
+            if isinstance(text, str):
+                return text.strip()
+    print("LLM response missing content.")
     return None
 
 def extract_json_block(raw_text):
@@ -214,6 +231,19 @@ def load_timeline_profile(story_root, story_config, repo_root, timeline_id):
         payload = json.loads(Path(resolved).read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError) as exc:
         return f"[Warning: timeline profile unreadable: {exc}]"
+    return json.dumps(payload, ensure_ascii=True, indent=2)
+
+def load_mechanism_profile(story_root, story_config, repo_root):
+    profile_path = story_config.get("mechanism_profile")
+    resolved = resolve_path(profile_path, repo_root) if profile_path else None
+    if not resolved:
+        resolved = story_root / "config" / "timelines" / "rule_of_machanism.json"
+    if not resolved or not Path(resolved).exists():
+        return "[Warning: mechanism profile not found]"
+    try:
+        payload = json.loads(Path(resolved).read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        return f"[Warning: mechanism profile unreadable: {exc}]"
     return json.dumps(payload, ensure_ascii=True, indent=2)
 
 def get_chapter_data(chapter_path, include_wave=False, segment_label="segment"):
@@ -337,6 +367,11 @@ def load_knowledge_base(story_root: Path, story_config: dict, repo_root: Path, t
         
     }
 
+    ltx2_guide = story_root / "briefings" / "howtoprompt_LTX2" / "Prompting Guide for LTX-2 _ Ltx-2.html"
+    if ltx2_guide.exists():
+        with open(ltx2_guide, "r", encoding="utf-8", errors="replace") as f:
+            kb["LTX2_PROMPT_GUIDE"] = f.read()
+
     for filename, key in files.items():
         found = None
         for base in search_paths:
@@ -357,6 +392,23 @@ def load_knowledge_base(story_root: Path, story_config: dict, repo_root: Path, t
             with open(briefing_path, "r", encoding="utf-8") as f:
                 kb[f"BRIEFING_{idx:02d}"] = f.read()
 
+    def read_profile(value):
+        if not value:
+            return ""
+        if isinstance(value, list):
+            parts = [read_profile(item) for item in value]
+            return "\n\n".join([p for p in parts if p]).strip()
+        if isinstance(value, dict):
+            return json.dumps(value, ensure_ascii=False, indent=2)
+        candidate = resolve_path(str(value), repo_root)
+        if candidate and candidate.exists():
+            return candidate.read_text(encoding="utf-8", errors="replace")
+        return str(value)
+
+    kb["GENRE_PROFILE"] = read_profile(story_config.get("genre_profile"))
+    kb["STYLE_PROFILE"] = read_profile(story_config.get("style_profiles"))
+    kb["TONE_DIALS"] = str(story_config.get("tone_dials") or "").strip()
+
     subjects_root = resolve_path(story_config.get("subjects_root"), repo_root)
     if subjects_root:
         kb["SUBJECT_REGISTRY"] = load_registry_summary(subjects_root)
@@ -365,8 +417,43 @@ def load_knowledge_base(story_root: Path, story_config: dict, repo_root: Path, t
 
     kb["TIMELINE_ID"] = timeline_id or ""
     kb["TIMELINE_PROFILE"] = load_timeline_profile(story_root, story_config, repo_root, timeline_id)
+    kb["MECHANISM_PROFILE"] = load_mechanism_profile(story_root, story_config, repo_root)
+    kb["SUBJECT_OVERLAYS"] = load_subject_overlays(subjects_root, timeline_id)
     
     return kb
+
+
+def load_subject_overlays(subjects_root: Path, timeline_id: str, max_chars: int = 20000) -> str:
+    if not subjects_root or not timeline_id:
+        return ""
+    overlay_path = subjects_root / "timelines" / timeline_id / "overlays.jsonl"
+    if not overlay_path.exists():
+        return ""
+    lines = []
+    try:
+        with overlay_path.open("r", encoding="utf-8", errors="replace") as handle:
+            for line in handle:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    record = json.loads(line)
+                except json.JSONDecodeError:
+                    continue
+                subject_id = record.get("subject_id") or ""
+                overlay_type = record.get("overlay_type") or "general"
+                content = record.get("content") or ""
+                if not subject_id or not content:
+                    continue
+                lines.append(f"[{subject_id}:{overlay_type}] {content}")
+                if max_chars and sum(len(item) for item in lines) > max_chars:
+                    break
+    except OSError:
+        return ""
+    summary = "\n".join(lines).strip()
+    if max_chars and len(summary) > max_chars:
+        summary = summary[:max_chars].rstrip() + "\n...[truncated]"
+    return summary
 
 def load_existing_content(path):
     if os.path.exists(path):
@@ -378,7 +465,6 @@ def build_concept_prompt(data, kb, chapter_num, existing_concept=None, strict_so
     verses_str = "\n".join([f"[{k}]: {v}" for k, v in data["verses"].items()])
     segment_analysis_str = "\n".join([f"[{k}]: {v}" for k, v in data.get("segment_analysis", {}).items()])
     segment_entities_str = format_segment_entities(data.get("segment_entities", {}))
-    strict_rules = STRICT_SOURCE_RULES if strict_source else ""
     
     # Falls ein altes Konzept existiert, bauen wir es in den Prompt ein
     refinement_instruction = ""
@@ -395,7 +481,6 @@ Erstelle eine verbesserte VERSION 2.0, die noch präziser dem 'Rule of Mechanism
     return f"""
 Du bist der 'Chief Systems Architect' von exeget:os.
 {refinement_instruction}
-{strict_rules}
 Analysiere Kapitel {chapter_num} und entwickle die TECHNISCHE MECHANIK.
 
 ### SYSTEM-HINWEIS (CRITICAL) ###
@@ -415,6 +500,18 @@ Gib NUR den reinen Text des Konzepts zurück.
 
 [TIMELINE PROFILE]:
 {kb.get('TIMELINE_PROFILE', '')}
+
+[MECHANISM PROFILE]:
+{kb.get('MECHANISM_PROFILE', '')}
+
+[GENRE PROFILE]:
+{kb.get('GENRE_PROFILE', '')}
+
+[STYLE PROFILE]:
+{kb.get('STYLE_PROFILE', '')}
+
+[TONE DIALS]:
+{kb.get('TONE_DIALS', '')}
 
 [SUBJECT REGISTRY]:
 {kb.get('SUBJECT_REGISTRY', '')}
@@ -482,7 +579,180 @@ Der Blick ist orthographisch von oben (wie Google Earth Satellite View). Er sieh
 Die Engel (Uriel & Co.) laufen nicht vor ihm her. Sie sind AR-Marker. Sie blenden ihm den Weg ein oder öffnen die "Tore".
 
 WICHTIG - ÜBERTREIB ES NICHT; VERLIER DICH NICHT IN OPTISCHEN UNGEREIMTHEITEN BEFOLGE DIE REGELN DES DREHBUCH SCHREIBENS.
+Prompting Guide for LTX-2
+Master prompting for LTX-2. Discover how to build detailed, story-driven prompts that turn your creative vision into stunning AI-generated videos.
 
+
+Table of contents:
+Key Aspects to Include
+For Best Results
+Additional Helpful Terms
+‍Visual Details
+‍Sound and Voice
+‍Technical Style Markers
+What Works Well with LTX-2
+What to Avoid with LTX-2
+To get the most out of the LTX-2 model, a good prompt will make all the difference. The key is painting a complete picture of the story you’re telling that flows naturally from beginning to end, covering all the elements the model needs to bring your vision to life. If you’re new to writing prompts for video, this guide will help you construct an effective prompt.
+
+
+PROMPT:
+‍
+An action packed, cinematic shot of a monster truck driving fast towards the camera, the truck passes the cameras it pans left to follow the trucks reckless drive. dust and motion blur is around the truck, hand held feel to the camera as it tries to track its ride into the distance. the truck then drifts and turns around, then drives back towards the camera until seen in extreme close up.
+‍
+
+
+PROMPT:
+
+A warm sunny backyard. The camera starts in a tight cinematic close-up of a woman and a man in their 30s, facing each other with serious expressions. The woman, emotional and dramatic, says softly, “That’s it... Dad’s lost it. And we’ve lost Dad.”
+The man exhales, slightly annoyed: “Stop being so dramatic, Jess.”
+A beat. He glances aside, then mutters defensively, “He’s just having fun.”
+The camera slowly pans right, revealing the grandfather in the garden wearing enormous butterfly wings, waving his arms in the air like he’s trying to take off.
+He shouts, “Wheeeew!” as he flaps his wings with full commitment.
+The woman covers her face, on the verge of tears. The tone is deadpan, absurd, and quietly tragic.
+Key Aspects to Include
+Establish the shot. Use cinematography terms that match your preferred film genre. Include aspects like scale or specific category characteristics to further refine the style you’re looking for.
+Set the scene. Describe lighting conditions, color palette, surface textures, and atmosphere to shape the mood. 
+Describe the action. Write the core action as a natural sequence, flowing from beginning to end.
+Define your character(s). Include age, hairstyle, clothing, and distinguishing details. Express emotions through physical cues.
+Identify camera movement(s). Specify when the view should shift and how. Including how subjects or objects appear after the camera motion gives the model a better idea of how to finish the motion.‍
+Describe the audio. Use clear descriptions for ambient sounds, music, audio, and speech. For dialogue, place the text between quotation marks and (if required) mention the language and accent you would like the character to have.
+‍
+
+PROMPT:
+
+INT. OVEN – DAY. Static camera from inside the oven, looking outward through the slightly fogged glass door. Warm golden light glows around freshly baked cookies. The baker’s face fills the frame, eyes wide with focus, his breath fogging the glass as he leans in. Subtle reflections move across the glass as steam rises.
+Baker (whispering dramatically): “Today… I achieve perfection.”
+He leans even closer, nose nearly touching the glass.
+“Golden edges. Soft center. The gods themselves will smell these cookies and weep.”
+Baker: “Wait—”
+(beat)
+“Did I… forget the chocolate chips?”
+Cut to side view — coworker pops into frame, chewing casually.
+Coworker (mouth full): “Nope. You forgot the sugar.”
+Quick zoom back to the baker’s horrified face, pressed against the oven door, as cookies deflate behind the glass. Steam drifts upward in slow motion.
+pixar style acting and timing
+For Best Results
+Keep your prompt in a single flowing paragraph to give the model a cohesive scene to work with. 
+Use present tense verbs to describe movement and action.
+Match your detail to the shot scale. Closeups need more precise detail than wide shots.
+When describing camera movement, focus on the camera’s relationship to the subject. 
+You should expect to write 4 to 8 descriptive sentences to cover all the key aspects of the prompt. 
+Don’t be afraid to iterate! LTX-2 is designed for fast experimentation, so refining your prompt is part of the workflow. 
+
+PROMPT:
+
+NT. DAYTIME TALK SHOW SET – AFTERNOON
+Soft studio lighting glows across a warm-toned set. The audience murmurs faintly as the camera pans to reveal three guests seated on a couch — a middle-aged couple and the show’s host sitting across from them.
+The host leans forward, voice steady but probing:
+Host: “When did you first notice that your daughter, Missy, started to spiral?”
+The woman’s face crumples; she takes a shaky breath and begins to cry. Her husband places a comforting hand on her shoulder, looking down before turning back toward the host.
+Father (quietly, with guilt): “We… we don’t know what we did wrong.”
+The studio falls silent for a moment. The camera cuts to the host, who looks gravely into the lens.
+Host (to camera): “Let’s take a look at a short piece our team prepared — chronicling Missy’s downward path.”
+The lights dim slightly as the camera pushes in on the mother’s tear-streaked face. The studio monitors flicker to life, beginning to play the segment as the audience holds its breath.
+Additional Helpful Terms
+This is not an exhaustive list. Use it to give you some examples of how to craft the result you’re looking for. 
+
+Categories
+Animation: stop-motion, 2D/3D animation, claymation, hand-drawn
+
+
+PROMPT:
+
+Pinocchio is sitting in an interrogation room, looking nervous, and slightly sweating. He's saying very quietly to himself "I didn't do it... I didn't do it... I'm not a murderer". Pinocchio's nose is quickly getting longer and longer. The camera is zooming in on the double sided mirror in the back of the room, The mirror is turning black as the camera approaches it, and exposes a blurry silhouette of two FBI detectives who stand in the dark lit room on the other side. One of them is saying "I'm telling you, I have a feeling something is off with this kiddo
+‍
+
+Stylized: comic book, cyberpunk, 8-bit pixel, surreal, minimalist, painterly, illustrated
+
+
+PROMPT:
+‍
+The young african american woman wearing a futuristic transparent visor and a bodysuit with a tube attached to her neck. she is soldering a robotic arm. she stops and looks to her right as she hears a suspicious strong hit sound from a distance. she gets up slowly from her chair and says with an angry african american accent: "Rick I told you to close that goddamn door after you!". then, a futuristic blue alien explorer with dreadlocks wearing a rugged outfit walks into the scene excitedly holding a futuristic device and says with a low robotic voice: "Fuck the door look what I found!". the alien hands the woman the device, she looks down at it excitedly as the camera zooms in on her intrigued illuminated face. she then says: "is this what I think it is?" she smiles excitedly. sci-fi style cinematic scene
+‍
+
+Cinematic: period drama, film noir, fantasy, epic space opera, thriller, modern romance, experimental film, arthouse, documentary 
+
+
+PROMPT:
+
+Cinematic action packed shot. the man says silently: "We need to run." the camera zooms in on his mouth then immediately screams: "NOW!". the camera zooms back out, he turns around, and starts running away, the camera tracks his run in hand held style. the camera cranes up and show him run into the distance down the street at a busy New York night.
+‍Visual Details
+Lighting conditions: flickering candles, neon glow, natural sunlight, dramatic shadows
+Textures: rough stone, smooth metal, worn fabric, glossy surfaces
+Color palette: vibrant, muted, monochromatic, high contrast
+Atmospheric elements: fog, rain, dust, particles, smoke
+
+PROMPT:
+
+The camera opens in a calm, sunlit frog yoga studio. Warm morning light washes over the wooden floor as incense smoke drifts lazily in the air. The senior frog instructor sits cross-legged at the center, eyes closed, voice deep and calm. “We are one with the pond.” All the frogs answer softly: “Ommm...” “We are one with the mud.” “Ommm...” He smiles faintly. “We are one with the flies.” A quiet pause.
+The camera slowly pans to the side — one frog twitches, eyes darting. Suddenly — *thwip!* — its tongue snaps out, catching a fly mid-air and pulling it into its mouth. The master exhales slowly, still serene.
+“But we do not chase the flies…”
+Beat. “…not during class.” The guilty frog freezes, then lowers its head in visible shame, folding its hands back into the meditative pose. The other frogs resume their chant: “Ommm...” Camera holds for a moment on the embarrassed frog, eyes closed too tightly, pretending nothing happened.
+‍Sound and Voice
+Setting: Ambient coffeeshop noises, dripping rain and wind blowing, forest ambience with birds singing
+Dialogue style: Energetic announcer, resonant voice with gravitas, distorted radio-style, robotic monotone, childlike curiosity
+Volume: quiet whisper, mutters, shouts, screams 
+
+PROMPT:
+
+A warm, intimate cinematic performance inside a cozy, wood-paneled bar, lit with soft amber practical lights and shallow depth of field that creates glowing bokeh in the background. The shot opens in a medium close-up on a young female singer in her 20s with short brown hair and bangs, singing into a microphone while strumming an acoustic guitar, her eyes closed and posture relaxed. The camera slowly arcs left around her, keeping her face and mic in sharp focus as two male band members playing guitars remain softly blurred behind her. Warm light wraps around her face and hair as framed photos and wooden walls drift past in the background. Ambient live music fills the space, led by her clear vocals over gentle acoustic strumming.
+‍Technical Style Markers
+Camera language: follows, tracks, pans across, circles around, tilts upward, pushes in, pulls back, overhead view, handheld movement, over-the-shoulder, wide establishing shot, static frame
+Film characteristics: jittery stop-motion, pixelated edges, lens flares, film grain
+Scale indicators: expansive, epic, intimate, claustrophobic
+Pacing and temporal effects: slow motion, time-lapse, rapid cuts, lingering shot, continuous shot, freeze-frame, fade-in, fade-out, seamless transition, dynamic movement, sudden stop
+Specific visual effects (if relevant): particle systems, motion blur, depth of field
+
+PROMPT:
+
+An animated cinematic shot. a robot, walks slowly, the camera dollys back and keep the robots slow walk in a medium shot. the robot start running slowly and heavily. it then stops, and the camera keeps dollying back, until a blue similiar robot appears in an over the shoulder shot.
+What Works Well with LTX-2
+‍Cinematic compositions:
+‍Wide, medium, and close-up shots with thoughtful lighting, shallow depth of field, and natural motion.
+Emotive human moments:
+‍LTX-2 excels at single-subject emotional expressions, subtle gestures, and facial nuance.
+Atmosphere & setting:
+‍Weather effects like fog, mist, golden hour light, soft shadows, rain, reflections, and ambient textures all help ground the scene.
+Clean, readable camera language:
+‍Clear directions like “slow dolly in,” “handheld tracking,” or “over-the-shoulder” improve consistency.
+Stylized aesthetics:
+‍Painterly, noir, analog film look, fashion editorial, pixelated animation, or surreal art styles work especially well when named early in the prompt.
+Lighting and mood control:
+‍Backlighting, color palettes, soft rim light, flickering lamps — these anchor tone better than generic mood words.
+Voice:
+‍Characters can talk and sing in various languages.
+‍
+
+
+PROMPT:
+
+EXT. SMALL TOWN STREET – MORNING – LIVE NEWS BROADCAST
+The shot opens on a news reporter standing in front of a row of cordoned-off cars, yellow caution tape fluttering behind him. The light is warm, early sun reflecting off the camera lens. The faint hum of chatter and distant drilling fills the air.
+The reporter, composed but visibly excited, looks directly into the camera, microphone in hand.
+Reporter (live):
+“Thank you, Sylvia. And yes — this is a sentence I never thought I’d say on live television — but this morning, here in the quiet town of New Castle, Vermont… black gold has been found!”
+He gestures slightly toward the field behind him.
+Reporter (grinning):
+“If my cameraman can pan over, you’ll see what all the excitement’s about.”
+The camera pans right, slowly revealing a construction site surrounded by workers in hard hats. A beat of silence — then, with a sudden roar, a geyser of oil erupts from the ground, blasting upward in a violent plume.
+Workers cheer and scramble, the black stream glistening in the morning light. The camera shakes slightly, trying to stay focused through the chaos.
+Reporter (off-screen, shouting over the noise):
+“There it is, folks — the moment New Castle will never forget!”
+The camera catches the sunlight gleaming off the oil mist before pulling back, revealing the entire scene — the small-town skyline silhouetted against the wild fountain of oil.
+What to Avoid with LTX-2
+‍‍Internal states:
+‍Avoid emotional labels like “sad” or “confused” without describing visual cues. Use posture, gesture, and facial expression instead.
+
+‍Text and logos:
+‍LTX-2 does not currently generate readable or consistent text. Avoid signage, brand names, or printed material.
+Complex physics or chaotic motion:
+‍Non-linear or fast-twisting motion (e.g.,jumping, juggling) can lead to artifacts or glitches. However, dancing can work well.
+Scene complexity overload:
+‍Too many characters, layered actions, or excessive objects reduce clarity and model accuracy.
+Inconsistent lighting logic:
+‍Avoid mixing conflicting light sources (e.g., “a warm sunset with cold fluorescent glow”) unless clearly motivated.
+Over complicated prompts:
+‍The more actions/ characters/ instructions you add, the higher the chance some of them won’t be seen in the output. Begin with simple things and layer on additional instructions as you iterate.
 ### SYSTEM-HINWEIS ###
 Du bist ein Text-Generator. Dein Output wird von einem Python-Script automatisch weiterverarbeitet.
 Du musst und kannst NICHT selbst auf die Festplatte zugreifen.
@@ -499,11 +769,7 @@ def build_script_structure_prompt(data, kb, concept_output, chapter_num, strict_
     analysis_layers_str = "\n".join(
         [f"[{name}]\n{value}" for name, value in analysis_layers.items() if value]
     ) or "(none)"
-    strict_rules = STRICT_SOURCE_RULES if strict_source else ""
     return f"""
-{DIRECTOR_MANUAL}
-{strict_rules}
-
 ### SYSTEM-HINWEIS ###
 Du bist ein Text-Generator. Dein Output wird von einem Python-Script automatisch weiterverarbeitet.
 Du musst und kannst NICHT selbst auf die Festplatte zugreifen.
@@ -526,8 +792,23 @@ ANTWORTE OHNE JEGLICHEN KOMMENTAR. KEIN "Hier ist der Plan". NUR DER INHALT.
 [TIMELINE PROFILE]:
 {kb.get('TIMELINE_PROFILE', '')}
 
+[GENRE PROFILE]:
+{kb.get('GENRE_PROFILE', '')}
+
+[STYLE PROFILE]:
+{kb.get('STYLE_PROFILE', '')}
+
+[TONE DIALS]:
+{kb.get('TONE_DIALS', '')}
+
 [SUBJECT REGISTRY]:
 {kb.get('SUBJECT_REGISTRY', '')}
+
+[SUBJECT OVERLAYS]:
+{kb.get('SUBJECT_OVERLAYS', '')}
+
+[LTX2 PROMPT GUIDE]:
+{kb.get('LTX2_PROMPT_GUIDE', '')}
 
 [NARRATION SCRIPT]:
 {data.get('narration_script', '')}
@@ -573,7 +854,7 @@ OUTPUT REQUIREMENTS:
      - DIALOG (Falls nötig)
 
 WICHTIG:
-- Nutze Establishing Shots (Panorama) wo nötig.
+- Nutze Establishing Shots (Panorama) sei hier ruhig kreativ.
 - Nutze schnelle Schnitte (2-3s) für Action/Schock.
 - Nutze lange Shots (5-8s) für Atmosphäre/Ingress.
 - Keine Pixel/Low-Poly/Voxel/Minecraft-Optik. Keine blockigen Artefakte, keine Wireframes als Stil.
@@ -589,21 +870,18 @@ Hier ist die vorherige Version des Drehbuchs:
 {existing_script}
 
 DEINE AUFGABE: Optimiere dieses Drehbuch. 
-1. Schärfe die visuellen Prompts für Midjourney/LTX v2 (mehr Details, bessere Lichtsetzung).
+1. Schärfe die visuellen Prompts für LTX2 (mehr Details, bessere Lichtsetzung) sei stets declarative! DU BIST DER DREHBUCHAUTOR EINER SERIE .
 2. Achte auf noch bessere Übergänge (Transitions).
 3 Festige das werk ,halte dich aber strikt an die "Rule of Mechanism". 
 4. Wenn du nicht zumindest eine hypothetische physikalische erklärung für eine idee findest, dann streiche sie.
 Liefere das komplette, verbesserte Drehbuch zurück.
 '''
 
-    strict_rules = STRICT_SOURCE_RULES if strict_source else ""
     analysis_layers = data.get("analysis_layers", {})
     analysis_layers_str = "\n".join(
         [f"[{name}]\n{value}" for name, value in analysis_layers.items() if value]
     ) or "(none)"
     return f"""
-{DIRECTOR_MANUAL}
-{strict_rules}
 {refinement_instruction}
 
 ### INPUT DATA ###
@@ -619,8 +897,23 @@ Liefere das komplette, verbesserte Drehbuch zurück.
 [TIMELINE PROFILE]:
 {kb.get('TIMELINE_PROFILE', '')}
 
+[MECHANISM PROFILE]:
+{kb.get('MECHANISM_PROFILE', '')}
+
 [SUBJECT REGISTRY]:
 {kb.get('SUBJECT_REGISTRY', '')}
+
+[GENRE PROFILE]:
+{kb.get('GENRE_PROFILE', '')}
+
+[STYLE PROFILE]:
+{kb.get('STYLE_PROFILE', '')}
+
+[TONE DIALS]:
+{kb.get('TONE_DIALS', '')}
+
+[LTX2 PROMPT GUIDE]:
+{kb.get('LTX2_PROMPT_GUIDE', '')}
 
 [NARRATION SCRIPT]:
 {data.get('narration_script', '')}
@@ -666,7 +959,7 @@ REGIE_JSON: {{"subject": "actor|environment|prop|interface|mixed", "shot_type": 
 **[BLOCK 4: LIGHTING_&_CHROMATIC_DATA]** ...
 **[BLOCK 5: CINEMATOGRAPHY_&_RENDER_SPECS]** ...
 
-### 3. AUDIO PROMPT (Hunyuan/Foley)
+### 3. AUDIO PROMPT 
 [Beschreibe den Sound für diese spezifische Szene: Ambience, SFX, Footsteps, Interface-Beeps. Keine Musik, nur Sound Design.]
 
 ... (Wiederhole exakt dieses Format für ALLE Szenen der Timeline)
@@ -682,18 +975,25 @@ WICHTIG:
 - Narration and monologue text must be German only.
 - Generiere wirklich ALLE Szenen aus der Struktur.
 - The narration and monologue lines should be introspective and story-driven, not observational.
-- Avoid pixelation, voxels, low-poly, wireframe, or blocky aesthetics. Use continuous high-detail surfaces.
-- director_intent: eine kurze Szene-Absicht in einem Satz, keine Tags.
-- start_image_keywords: kurze Prompt-Trigger fuer Startbilder, optional leere Liste.
-- LTX v2 ist deklarativ: Aktionen in Reihenfolge; T2V bevorzugen, I2V nur bei echter Kontinuitäts-Notwendigkeit (dann start_image_mode setzen).
+- Avoid pixelation, voxels, low-poly, wireframe, or blocky aesthetics. Use continuous high-detail surfaces or prompt in realism.
+- director_intent: eine Szene-Absicht in deklarativen schritten vorwärts durch die szene, keine Tags.
+- start_image_keywords: kurze Prompt-Trigger sätze fuer Startbilder,die auch die semantik des bildes und des spatialen zustandes.
+- LTX v2 ist deklarativ: Aktionen in Reihenfolge; T2V bevorzugen, I2V einfach immer wenn wir ein video fortsetzen müssen, idr generieren wir mit 5 sek 121 frames oder 8 sek 185(durch 8 teilbar 1 anhängen)sobald es für die konstanz der szene also wichtig ist nicht bei 5 oder 8 zu stoppen nimm image to video. frames(dann start_image_mode setzen).
 - Kamera-Controls: genau eine Bewegung pro Clip wählen und als camera_motion + camera_lora angeben.
-  Verfügbare LoRAs: ltx-2-19b-lora-camera-control-static, -dolly-in, -dolly-out, -dolly-left, -dolly-right, -jib-up, -jib-down.
+  Verfügbare LoRAs: ltx-2-19b-lora-camera-control-static, -dolly-in, -dolly-out, -dolly-left, -dolly-right, -jib-up, -jib-down -depth-control, canny-control, deatailer, pose-control,hero-cam. 
 - video_plan nur fuellen wenn bekannt; sonst leere Strings und leere Arrays nutzen.
 """
 
-def call_ai_agent(prompt, label="AI Task", model=None):
+def call_ai_agent(prompt, label="AI Task", model=None, llm_profile=None, temperature=DEFAULT_LLM_TEMPERATURE):
     print(f"\n--- Starte: {label} ---")
     try:
+        if llm_profile:
+            response = openai_compat_chat(prompt, llm_profile, temperature)
+            if not response:
+                print(f"\nFehler bei {label}: Keine Antwort erhalten.")
+                return None
+            print(f"[{label}] Fertig.")
+            return response
         cmd = resolve_copilot_command()
         if not cmd:
             print("Copilot CLI nicht gefunden. Setze COPILOT_CMD oder installiere copilot in PATH.")
@@ -732,7 +1032,7 @@ def call_ai_agent(prompt, label="AI Task", model=None):
             print(f"\nFehler bei {label}: {stderr}")
             return None
 
-        response = parse_gemini_response(stdout)
+        response = parse_copilot_response(stdout)
         if not response:
             print(f"\nFehler bei {label}: Keine Antwort erhalten.")
             return None
@@ -747,12 +1047,15 @@ def call_ai_agent(prompt, label="AI Task", model=None):
 def main():
     parser = argparse.ArgumentParser(description="Exeget:OS Double-Think Script Generator")
     parser.add_argument("chapter", type=int, help="Kapitelnummer (z.B. 1)")
-    parser.add_argument("--timeline", help="Timeline id (e.g. timeline_01).")
+    parser.add_argument("--use-lmstudio", action="store_true", help="Use LM Studio via OpenAI-compatible API.")
+    parser.add_argument("--llm-profile", default="", help="LLM profile name (engine/config/llm_profiles.json).")
+    parser.add_argument("--llm-temperature", type=float, default=DEFAULT_LLM_TEMPERATURE, help="LLM temperature.")
     parser.add_argument(
         "--model",
-        default=os.environ.get("GEMINI_MODEL", ""),
-        help="Gemini model name (e.g. gemini-3-pro-preview).",
+        default=os.environ.get("COPILOT_MODEL", os.environ.get("LLM_MODEL", "")),
+        help="Copilot model name (e.g. copilot-default).",
     )
+    parser.add_argument("--timeline", help="Timeline id (e.g. timeline_01).")
     parser.add_argument(
         "--include-wave",
         action="store_true",
@@ -778,6 +1081,23 @@ def main():
         story_root=args.story_root,
         story_config_path=args.story_config,
     )
+    use_lmstudio = bool(args.use_lmstudio or args.llm_profile)
+    llm_profile = None
+    if use_lmstudio:
+        profiles, default_profile = resolve_llm_profiles(repo_root)
+        llm_profile_name = args.llm_profile or (
+            "lmstudio_local" if "lmstudio_local" in profiles else default_profile
+        )
+        if not llm_profile_name:
+            raise SystemExit("LM Studio erfordert ein LLM-Profil.")
+        llm_profile = profiles.get(llm_profile_name)
+        if not llm_profile:
+            raise SystemExit(f"LLM profile not found: {llm_profile_name}")
+        profile_type = str(llm_profile.get("type") or "").lower()
+        if profile_type not in {"openai_compat", "openai-compatible", "openai"}:
+            raise SystemExit(f"LLM profile '{llm_profile_name}' is not openai_compat.")
+        if args.model:
+            llm_profile = dict(llm_profile, model=args.model)
     filmsets_root = resolve_path(story_config.get("filmsets_root"), repo_root)
     if not filmsets_root:
         raise SystemExit("filmsets_root missing in story_config.json")
@@ -813,7 +1133,13 @@ def main():
     
     print(f"Generiere/Verbessere Konzept für Kapitel {args.chapter}...")
     concept_prompt = build_concept_prompt(data, kb, args.chapter, old_concept, strict_source=args.strict_source)
-    concept_text = call_ai_agent(concept_prompt, "Visionary Concept Generation", model=args.model)
+    concept_text = call_ai_agent(
+        concept_prompt,
+        "Visionary Concept Generation",
+        model=args.model,
+        llm_profile=llm_profile,
+        temperature=args.llm_temperature,
+    )
     
     if concept_text:
         with open(concept_file, "w", encoding="utf-8") as f:
@@ -826,7 +1152,13 @@ def main():
     # --- SCHRITT 2: DREHBUCH STRUKTUR (DRAFT) ---
     print("Erstelle Drehbuch-Struktur (12-18 Szenen)...")
     script_structure_prompt = build_script_structure_prompt(data, kb, concept_text, args.chapter, strict_source=args.strict_source)
-    script_structure_text = call_ai_agent(script_structure_prompt, "Script Structure Generation", model=args.model)
+    script_structure_text = call_ai_agent(
+        script_structure_prompt,
+        "Script Structure Generation",
+        model=args.model,
+        llm_profile=llm_profile,
+        temperature=args.llm_temperature,
+    )
 
     if not script_structure_text:
         print("Fehler beim Erstellen der Struktur.")
@@ -846,7 +1178,13 @@ def main():
         old_script,
         strict_source=args.strict_source,
     )
-    final_script_text = call_ai_agent(production_prompt, "Final Asset Generation", model=args.model)
+    final_script_text = call_ai_agent(
+        production_prompt,
+        "Final Asset Generation",
+        model=args.model,
+        llm_profile=llm_profile,
+        temperature=args.llm_temperature,
+    )
 
     if final_script_text:
         with open(output_path, "w", encoding="utf-8") as f:

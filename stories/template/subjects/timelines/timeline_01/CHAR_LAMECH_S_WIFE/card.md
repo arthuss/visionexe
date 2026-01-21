@@ -1,0 +1,28 @@
+## [CHARACTER] Lamech's wife (ID: CHAR_LAMECH_S_WIFE)
+**Description:** Within the governed runtime of the simulation_flat_earth, Lamech's wife exists as the primary biological interface for a kernel-level manifestation event, bearing a burden that strains the physics overrides of the local domestic partition. She is depicted not merely as a matriarch of the ingress generation, but as a grounded, textural entity witnessing a compile error in the form of her own offspring—a child whose luminance violates standard lighting rendering. Her narrative weight in this dramatic tableau is defined by exhausted stoicism; she sits in the heavy, obsidian shadows of a hewn-stone containment unit, her human silhouette acting as the sole anchor of reality against the blinding, plasma-white anomalies radiating from the cradle. The scene captures the high-contrast tension between the dusty, hyper-realistic textures of her skin and the digital purity of the event she has birthed, framing her confusion as a system alert she cannot dismiss.
+
+### 1. VISUAL ANATOMY / DESIGN
+Her physical form is rendered with excruciating photorealistic detail, emphasizing the sweat-streaked imperfections of labor which stand in stark defiance to the clean, vector-perfect glow of the anomaly she holds. Every pore and strand of dampened hair is visible, grounded in the grit of the surface_plane, while her eyes—wide and reflective—catch the impossible data-glass refraction of the child's gaze, suggesting a mixture of maternal instinct and existential dread.
+She is draped in heavy, layered robes that visually echo the simulation's visual rules; the fabrics appear woven from coarse organic matter yet drape with the heavy, light-absorbing density of matte obsidian, grounding her figure in the scene. The textures are worn and frayed, suggesting a long cycle of operation within the simulation box, contrasting with the crisp, unblemished radiance of the newborn that illuminates the folds of her attire like fiber_optic leakage.
+The lighting design surrounding her isolates her in a dramatic vignette, utilizing the child as the sole, over-exposed light source that casts harsh, cinematic shadows against the walls. This setup creates a 'heat lensing' effect around her silhouette, distorting the background into a vague, vertical blur of Geez glyphs and masonry, forcing the viewer's focus entirely onto her emotional processing of this unauthorized kernel manifestation.
+
+### 2. EVOLUTION / VARIANTS
+Initially, she is presented in a state of post-generative shock, her posture collapsed and defensive, shielding the anomaly from the systemic scrutiny of Lamech. She embodies the protective firewall of the domestic sphere, absorbing the high-frequency visual output of the child.
+As the narrative arc processes the 'fear' signal from Lamech, her demeanor shifts to a weary resolution; she becomes the silent observer of the glitch, her expression hardening into a cryptic acceptance of the simulation's inherent instability, bridging the gap between the mundane surface_plane and the upper_store mechanics.
+
+### 3. PROPS & EQUIPMENT
+The bedding and swaddling cloths she manages are textured like ancient linen but function visually as thermal throttling layers, glowing faintly at the edges where they fail to contain the child's internal radiance.
+The surrounding furniture in the room is sparse and heavy, carved from dark stone that absorbs light, reinforcing the 'black box' nature of the environment and ensuring all visual attention remains on the interaction between her face and the light source.
+
+### 4. AI PROMPT KEYWORDS
+`hyper-realistic portrait`, `chiaroscuro lighting`, `mother gazing at glowing infant`, `simulation glitch aesthetic`, `obsidian textures`, `plasma light source`, `emotional exhaustion`, `cinematic 9:16`, `ancient near east robes`, `fiber optic weaving`, `dramatic shadows`, `Octane render`, `sweat and dust textures`, `vector field background blur`
+
+### 5. PROMPT BLOCK (T2I)
+A hyper-realistic, cinematic close-up of Lamech's wife in a dimly lit, ancient stone chamber, rendered in a dark and dramatic style. She is an exhausted woman with sweat-dampened skin and intricate, realistic pore details, wearing heavy, dark robes that absorb the surrounding light like obsidian. She looks down with a mix of fear and awe at a newborn bundled in her arms; the baby is not visible but emits a blinding, intense plasma-white light that illuminates her face from below, creating extreme high-contrast chiaroscuro. The background is plunged into deep shadow, with subtle hints of vertical Geez glyphs and heat lensing distortion blurring the stone walls. The atmosphere is heavy, silent, and tense, capturing a moment of systemic anomaly within a grounded reality. Shot on 35mm film, ISO 100, with a shallow depth of field focusing sharply on her eyes.
+
+### 6. PHASE PROMPTS
+*   **Default:** The mother sits in the aftermath of the anomaly's arrival, her face an illuminated map of confusion and instinct, lit solely by the impossible radiance of her offspring.
+    Prompt: A hyper-realistic, emotional portrait of Lamech's wife sitting in the dark, her face underlit by the blinding white glow of a swaddled infant in her lap. The light reveals extreme texture on her skin, sweat, and the rough weave of her dark, fiber-optic-like robes. The room around her is a void of deep blacks and subtle simulation artifacts. Her expression is one of weary protection and deep, unsettling confusion. Cinematic lighting, dramatic atmosphere, photorealistic 8k.
+    Keywords: face illuminated from below, intense eye contact with off-screen light, ancient interior, shadowy room, glowing bundle
+
+---

@@ -1,0 +1,119 @@
+{
+  "id": "CHAR_THE_HOLY",
+  "name": "the holy",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for the holy.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A group of righteous individuals who have specific resting-places in the heavens.'}",
+      "Roles: A group of people chosen for salvation alongside the righteous., Inhabitants of heavenly resting places, righteous_group"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A group of righteous individuals who have specific resting-places in the heavens.'}"
+    ],
+    "prompt_block": "the holy, {'description': 'A group of righteous individuals who have specific resting-places in the heavens.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A group of righteous individuals who have specific resting-places in the heavens.'}"
+        ],
+        "prompt_block": "the holy, {'description': 'A group of righteous individuals who have specific resting-places in the heavens.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A group of righteous individuals who have specific resting-places in the heavens.'}"
+        ],
+        "prompt_block": "the holy, {'description': 'A group of righteous individuals who have specific resting-places in the heavens.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A group of righteous individuals who have specific resting-places in the heavens.'}"
+        ],
+        "prompt_block": "the holy, {'description': 'A group of righteous individuals who have specific resting-places in the heavens.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_HOLY",
+    "name": "the holy",
+    "type": "character",
+    "aliases": [
+      "The holy",
+      "the holy"
+    ],
+    "roles": [
+      "A group of people chosen for salvation alongside the righteous.",
+      "Inhabitants of heavenly resting places",
+      "righteous_group"
+    ],
+    "visual_traits": [
+      "{'description': 'A group of righteous individuals who have specific resting-places in the heavens.'}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Among the dead', 'description': 'Held within the Earth or Sheol.'}",
+      "{'phase': 'Phase 2: Saved', 'description': 'Chosen for salvation.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1132",
+      "row_1136",
+      "row_1144"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 39,
+        "chapter_end": 42,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 43,
+        "chapter_end": 46,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Among the dead', 'description': 'Held within the Earth or Sheol.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 47,
+        "chapter_end": 51,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Saved', 'description': 'Chosen for salvation.'}"
+        ]
+      }
+    ]
+  }
+}

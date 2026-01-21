@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_THE_INQUIRERS",
+  "name": "The Inquirers",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Inquirers.",
+    "visual_anatomy": [
+      "Traits: An unnamed group.",
+      "Roles: character"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "An unnamed group."
+    ],
+    "prompt_block": "The Inquirers, An unnamed group.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "An unnamed group."
+        ],
+        "prompt_block": "The Inquirers, An unnamed group."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_INQUIRERS",
+    "name": "The Inquirers",
+    "type": "character",
+    "aliases": [
+      "The Inquirers"
+    ],
+    "roles": [
+      "character"
+    ],
+    "visual_traits": [
+      "An unnamed group."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1095"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 4,
+        "chapter_end": 4,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

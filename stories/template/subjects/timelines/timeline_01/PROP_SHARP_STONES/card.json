@@ -1,0 +1,67 @@
+{
+  "id": "PROP_SHARP_STONES",
+  "name": "sharp stones",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for sharp stones.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Used to cover the jaws of the condemned.'}",
+      "Roles: actor_prop:the_hosts_of_Azazel"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Used to cover the jaws of the condemned.'}"
+    ],
+    "prompt_block": "sharp stones, {'description': 'Used to cover the jaws of the condemned.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Used to cover the jaws of the condemned.'}"
+        ],
+        "prompt_block": "sharp stones, {'description': 'Used to cover the jaws of the condemned.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_SHARP_STONES",
+    "name": "sharp stones",
+    "type": "prop",
+    "aliases": [
+      "sharp stones"
+    ],
+    "roles": [
+      "actor_prop:the_hosts_of_Azazel"
+    ],
+    "visual_traits": [
+      "{'description': 'Used to cover the jaws of the condemned.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1147"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 54,
+        "chapter_end": 54,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

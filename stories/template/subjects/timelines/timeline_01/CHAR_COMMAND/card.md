@@ -1,30 +1,25 @@
 ## [CHARACTER] Command (ID: CHAR_COMMAND)
-**Description:** Command is a towering, cybernetic avatar that embodies the fusion of ancient Ethiopian and Egyptian mysticism with incomprehensible technology. Its body is a lattice of obsidian and polished bronze, etched with glowing Ge'ez glyphs that pulse in sync with its neural interface. The figure's silver skin is interwoven with active blue light lines, while crystalline hardware protrudes from joints, refracting light into a spectrum of colors. Command carries a staff of command—an obsidian shaft crowned with a crystalline orb—and a data tablet of zeal, both pulsing with bio‑luminescent glyphs. The overall aesthetic is serious, cinematic, and photorealistic, with tactile textures of weathered stone, polished metal, and translucent crystal.
-**Tags:** #ancient-tech #industrial-mysticism #photorealistic #Ethiopian #Egyptian #cybernetic #glyphs #crystalline #bio-luminescent
+**Description:** Auto-generated asset card for Command.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** A humanoid frame of 2.5 m height, constructed from interlocking obsidian plates and polished bronze ribs. The plates are etched with Ge'ez glyphs that glow in a soft blue, while bronze ribs provide structural integrity. The joints are reinforced with translucent crystal cores that pulse with light.
-*   **Face/Sensors:** The face is a smooth obsidian mask with a central eye socket that emits a faint green luminescence. Embedded micro‑sensors trace the glyphs, allowing the figure to interface with data streams. The mask is adorned with a silver filigree crown resembling ancient Ethiopian regalia.
-*   **Clothing/Armor:** The figure wears a flowing robe of woven bronze threads, patterned with ancient Egyptian motifs. The robe is reinforced with a lightweight carbon‑fiber lattice, giving it a subtle sheen. The sleeves are lined with bio‑luminescent filaments that glow when Command processes commands.
-*   **Key Features:** 1) Crystalline hardware at joints that refracts light. 2) Glowing Ge'ez glyphs etched across the body. 3) Silver skin with active blue light lines. 4) Staff of command with a crystalline orb. 5) Data tablet of zeal with scrolling red text.
+Traits: unknown
+Roles: unknown
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Emergence): Command's crystalline body begins to form from a swirling data core, with glyphs slowly lighting up.
-*   Phase 2 (Manifestation): The crystalline lattice fully solidifies, glyphs pulse in sync with neural commands, and Command assumes a commanding stance.
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Staff of Command – obsidian shaft crowned with a crystalline orb that emits a soft blue glow.
-*   Item: Data Tablet of Zeal – translucent black obsidian slab with scrolling red Ge'ez script.
+TBD.
 
 ### 4. AI PROMPT KEYWORDS
-`ancient-tech`, `Ethiopian`, `Egyptian`, `crystalline`, `bio-luminescent`, `glyphs`, `silver-skin`, `photorealistic`
+`unknown`
 
 ### 5. PROMPT BLOCK (T2I)
-A towering humanoid figure stands in a dimly lit industrial cavern, its body a lattice of obsidian and polished bronze, etched with glowing Ge'ez glyphs that pulse in sync with its neural interface. The silver skin is interwoven with active blue light lines, while crystalline hardware protrudes from joints, refracting light into a spectrum of colors. Command holds a staff of command—an obsidian shaft crowned with a crystalline orb—and a data tablet of zeal, both pulsing with bio‑luminescent glyphs. The setting is a cavern of ancient stone walls, illuminated by the bioluminescent glyphs and soft holographic data streams, exuding an aura of ancient mysticism fused with incomprehensible technology.
+Command, unknown
 
 ### 6. PHASE PROMPTS
-*   **Default:** Command in its fully manifested state, commanding presence.
-    Prompt: A towering humanoid figure stands in a dimly lit industrial cavern, its body a lattice of obsidian and polished bronze, etched with glowing Ge'ez glyphs that pulse in sync with its neural interface. The silver skin is interwoven with active blue light lines, while crystalline hardware protrudes from joints, refracting light into a spectrum of colors. Command holds a staff of command—an obsidian shaft crowned with a crystalline orb—and a data tablet of zeal, both pulsing with bio‑luminescent glyphs. The setting is a cavern of ancient stone walls, illuminated by the bioluminescent glyphs and soft holographic data streams, exuding an aura of ancient mysticism fused with incomprehensible technology.
-    Keywords: ancient-tech, Ethiopian, Egyptian, crystalline, bio-luminescent, glyphs, silver-skin, photorealistic
+*   **Default:**
+    Prompt: Command, unknown
+    Keywords: unknown
 
 ---

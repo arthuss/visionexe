@@ -1,0 +1,67 @@
+{
+  "id": "PROP_BLOOD_OF_THE_RIGHTEOUS",
+  "name": "blood of the righteous",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for blood of the righteous.",
+    "visual_anatomy": [
+      "Traits: {'state': 'dynamic', 'description': 'An entity representing the lives of the slain righteous, which was shed on Earth and ascends/cries out to the presence of the Lord of Spirits.'}",
+      "Roles: unknown"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'state': 'dynamic', 'description': 'An entity representing the lives of the slain righteous, which was shed on Earth and ascends/cries out to the presence of the Lord of Spirits.'}"
+    ],
+    "prompt_block": "blood of the righteous, {'state': 'dynamic', 'description': 'An entity representing the lives of the slain righteous, which was shed on Earth and ascends/cries out to the presence of the Lord of Spirits.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'state': 'dynamic', 'description': 'An entity representing the lives of the slain righteous, which was shed on Earth and ascends/cries out to the presence of the Lord of Spirits.'}"
+        ],
+        "prompt_block": "blood of the righteous, {'state': 'dynamic', 'description': 'An entity representing the lives of the slain righteous, which was shed on Earth and ascends/cries out to the presence of the Lord of Spirits.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_BLOOD_OF_THE_RIGHTEOUS",
+    "name": "blood of the righteous",
+    "type": "prop",
+    "aliases": [
+      "blood of the righteous"
+    ],
+    "roles": [
+      "unknown"
+    ],
+    "visual_traits": [
+      "{'state': 'dynamic', 'description': 'An entity representing the lives of the slain righteous, which was shed on Earth and ascends/cries out to the presence of the Lord of Spirits.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1138"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 47,
+        "chapter_end": 47,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

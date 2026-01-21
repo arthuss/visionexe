@@ -1,0 +1,80 @@
+{
+  "id": "SETENV_THE_NORTH",
+  "name": "The North",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for The North.",
+    "visual_anatomy": [
+      "Traits: A celestial region that the luminaries 'circle around' after setting in the west., a cardinal direction, {'description': 'A cardinal direction (መስዕ) that is the origin point for six of the great rivers.'}",
+      "Roles: celestial_region, direction of the Holy Place, location, relative_area"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A celestial region that the luminaries 'circle around' after setting in the west.",
+      "a cardinal direction",
+      "{'description': 'A cardinal direction (መስዕ) that is the origin point for six of the great rivers.'}"
+    ],
+    "prompt_block": "The North, A celestial region that the luminaries 'circle around' after setting in the west., a cardinal direction, {'description': 'A cardinal direction (መስዕ) that is the origin point for six of the great rivers.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A celestial region that the luminaries 'circle around' after setting in the west.",
+          "a cardinal direction",
+          "{'description': 'A cardinal direction (መስዕ) that is the origin point for six of the great rivers.'}"
+        ],
+        "prompt_block": "The North, A celestial region that the luminaries 'circle around' after setting in the west., a cardinal direction, {'description': 'A cardinal direction (መስዕ) that is the origin point for six of the great rivers.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_THE_NORTH",
+    "name": "The North",
+    "type": "set_environment",
+    "aliases": [
+      "The North",
+      "the north"
+    ],
+    "roles": [
+      "celestial_region",
+      "direction of the Holy Place",
+      "location",
+      "relative_area"
+    ],
+    "visual_traits": [
+      "A celestial region that the luminaries 'circle around' after setting in the west.",
+      "a cardinal direction",
+      "{'description': 'A cardinal direction (መስዕ) that is the origin point for six of the great rivers.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1117",
+      "row_1118",
+      "row_1170",
+      "row_1171"
+    ],
+    "occurrence_count": 8,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 24,
+        "chapter_end": 78,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

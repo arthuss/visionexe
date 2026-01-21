@@ -1,0 +1,67 @@
+{
+  "id": "PROP_DESTRUCTIVE_WINDS",
+  "name": "Destructive Winds",
+  "type": "prop",
+  "card": {
+    "description": "Auto-generated asset card for Destructive Winds.",
+    "visual_anatomy": [
+      "Traits: A group of eight winds that bring plague and destruction.",
+      "Roles: scene_prop"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A group of eight winds that bring plague and destruction."
+    ],
+    "prompt_block": "Destructive Winds, A group of eight winds that bring plague and destruction.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A group of eight winds that bring plague and destruction."
+        ],
+        "prompt_block": "Destructive Winds, A group of eight winds that bring plague and destruction."
+      }
+    ]
+  },
+  "profile": {
+    "id": "PROP_DESTRUCTIVE_WINDS",
+    "name": "Destructive Winds",
+    "type": "prop",
+    "aliases": [
+      "Destructive Winds"
+    ],
+    "roles": [
+      "scene_prop"
+    ],
+    "visual_traits": [
+      "A group of eight winds that bring plague and destruction."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1169"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 76,
+        "chapter_end": 76,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

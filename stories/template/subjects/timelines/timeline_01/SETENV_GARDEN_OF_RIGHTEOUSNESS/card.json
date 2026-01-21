@@ -1,0 +1,72 @@
+{
+  "id": "SETENV_GARDEN_OF_RIGHTEOUSNESS",
+  "name": "Garden of Righteousness",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Garden of Righteousness.",
+    "visual_anatomy": [
+      "Traits: {'description': \"The destination of the narrator's journey. It contains many great, beautiful, and fragrant trees, including the Tree of Wisdom.\"}, {'description': 'A garden (ገነተ፡ጽድቅ) that constitutes one of the three divisions of the world under the fourth wind.'}",
+      "Roles: mythical_location, place"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"The destination of the narrator's journey. It contains many great, beautiful, and fragrant trees, including the Tree of Wisdom.\"}",
+      "{'description': 'A garden (ገነተ፡ጽድቅ) that constitutes one of the three divisions of the world under the fourth wind.'}"
+    ],
+    "prompt_block": "Garden of Righteousness, {'description': \"The destination of the narrator's journey. It contains many great, beautiful, and fragrant trees, including the Tree of Wisdom.\"}, {'description': 'A garden (ገነተ፡ጽድቅ) that constitutes one of the three divisions of the world under the fourth wind.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"The destination of the narrator's journey. It contains many great, beautiful, and fragrant trees, including the Tree of Wisdom.\"}",
+          "{'description': 'A garden (ገነተ፡ጽድቅ) that constitutes one of the three divisions of the world under the fourth wind.'}"
+        ],
+        "prompt_block": "Garden of Righteousness, {'description': \"The destination of the narrator's journey. It contains many great, beautiful, and fragrant trees, including the Tree of Wisdom.\"}, {'description': 'A garden (ገነተ፡ጽድቅ) that constitutes one of the three divisions of the world under the fourth wind.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_GARDEN_OF_RIGHTEOUSNESS",
+    "name": "Garden of Righteousness",
+    "type": "set_environment",
+    "aliases": [
+      "Garden of Righteousness"
+    ],
+    "roles": [
+      "mythical_location",
+      "place"
+    ],
+    "visual_traits": [
+      "{'description': \"The destination of the narrator's journey. It contains many great, beautiful, and fragrant trees, including the Tree of Wisdom.\"}",
+      "{'description': 'A garden (ገነተ፡ጽድቅ) that constitutes one of the three divisions of the world under the fourth wind.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1125",
+      "row_1170"
+    ],
+    "occurrence_count": 8,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 32,
+        "chapter_end": 77,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

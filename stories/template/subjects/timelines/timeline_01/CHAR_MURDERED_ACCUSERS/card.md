@@ -1,0 +1,26 @@
+## [CHARACTER] Murdered Accusers (ID: CHAR_MURDERED_ACCUSERS)
+**Description:** Within the architecture of the simulation box, the Murdered Accusers are not merely ghosts, but persistent, high-priority error logs manifested as visual entities. They represent user sessions that were forcefully terminated via unauthorized kernel interactions—murder—resulting in corrupted egress data that the system cannot archive. Residing in the quarantined storage sectors of the Rift Internals, these entities are trapped in a loop of forensic reconstruction. They exist as hyper-realistic, sorrowful avatars of their former selves, rendered in materials that suggest cold storage and suspended animation. Their presence is a system-wide alert, a constant broadcast of injustice that manifests as a localized distortion of the simulation's physics, specifically vector field lensing around their fatal wounds.
+
+### 1. VISUAL ANATOMY / DESIGN
+The figures appear composed of high-refractive index data glass and matte obsidian, materials that suggest a frozen, archival state. Unlike the fluid, warm rendering of active participants in the simulation, the Accusers are rendered with a stark, forensic clarity, often lit by the cool, clinical glow of their own internal corruption. Their skin has the sheen of polished fiber optics, translucent enough to reveal a hollow interior where the 'soul' code should be, now replaced by a stagnant, glowing plasma fog.
+The specific trauma that caused their termination—the murder wound—is visualized not as biological gore, but as a violent kernel manifestation. At the site of impact or injury, the simulation mesh is torn, revealing the raw, unrendered void beneath. From these tears leaks a volatile, neon-bright plasma, representing the leaked data of their unfulfilled potential. This 'blood' does not drip; it floats in micro-gravity suspensions, forming complex Geez glyphs that spell out the details of their deletion.
+Their faces are etched with hyper-realistic expressions of anguish, captured in 8k resolution. The eyes are often devoid of pupils, replaced by mirrors reflecting the dark, empty storage partitions they inhabit. When they move, they leave behind trails of data particles and chromatic aberration, as if the rendering engine struggles to update their position in real-time, emphasizing their status as glitches within the perfect order of the flat-earth cosmology.
+
+### 2. EVOLUTION / VARIANTS
+In their default state, they are static and mournful, clustered together in the dark hollows of the simulation's deep storage. They do not interact with the environment but rather stand as monuments to system errors. Their visual intensity pulses in rhythm with the severity of the accusation they broadcast, flaring brighter when the narrative focus shifts to the injustice of their termination.
+
+### 3. PROPS & EQUIPMENT
+They carry no physical objects, for they are stripped of all assets upon termination. However, they are surrounded by floating shards of 'metadata'—fractured planes of glass that display freeze-frames of their final moments. These shards orbit them slowly, like debris in a gravity well, constantly replaying the instant of the fatal error.
+
+### 4. AI PROMPT KEYWORDS
+`hyper-realistic simulation error`, `translucent data glass skin`, `obsidian texture`, `glowing plasma wounds`, `floating geez glyphs`, `forensic lighting`, `cinematic sorrow`, `volumetric void`, `chromatic aberration`, `octane render`
+
+### 5. PROMPT BLOCK (T2I)
+A hyper-realistic, cinematic medium shot of the Murdered Accusers standing in a dark, cavernous storage partition of the simulation. The figures are composed of semi-translucent obsidian and data glass, their surfaces reflecting a cold, clinical light. Their fatal wounds are visualized as tearing glitches in the 3D mesh, leaking bright, neon-blue plasma that floats in the air like zero-gravity liquid. The expressions are deeply human and tragic, captured with the emotional authenticity of a high-end drama. The background is a deep void with faint wireframe grid lines, suggesting the edge of the renderable world. The image has a shallow depth of field, focusing sharply on the anguish in their eyes, with high contrast and moody atmosphere.
+
+### 6. PHASE PROMPTS
+*   **The Cry of the Terminated:** The group of Accusers stands in the hollow storage partition, broadcasting their plea. They are static, glowing faintly with the heat of their unresolved system errors.
+    Prompt: A wide cinematic shot of a group of translucent, glass-like figures standing in a vast, dark cavernous space with smooth, geometric walls. The figures are hyper-realistic but partially transparent, revealing an inner glow of unstable plasma. Each figure bears a glowing, glitching wound that illuminates the surrounding darkness. Floating around them are microscopic particles of data and faint Geez glyphs. The lighting is low-key, emphasizing the silhouette and the internal light of the figures against the deep obsidian shadows of the environment. 8k resolution, photorealistic textures.
+    Keywords: group of translucent spirits, digital ghosts, corrupted data, blue glowing wounds, dark cavern, cinematic drama
+
+---

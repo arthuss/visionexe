@@ -1,0 +1,139 @@
+{
+  "id": "SETENV_HIGH_MOUNTAINS",
+  "name": "High Mountains",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for High Mountains.",
+    "visual_anatomy": [
+      "Traits: Imposing, foundational, tall., Tall geological formations., Tall, imposing mountain ranges.",
+      "Roles: dynamic_scenery, geographical_feature, location"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Imposing, foundational, tall.",
+      "Tall geological formations.",
+      "Tall, imposing mountain ranges."
+    ],
+    "prompt_block": "High Mountains, Imposing, foundational, tall., Tall geological formations., Tall, imposing mountain ranges.",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "Imposing, foundational, tall.",
+          "Tall geological formations.",
+          "Tall, imposing mountain ranges."
+        ],
+        "prompt_block": "High Mountains, Imposing, foundational, tall., Tall geological formations., Tall, imposing mountain ranges., Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "Imposing, foundational, tall.",
+          "Tall geological formations.",
+          "Tall, imposing mountain ranges."
+        ],
+        "prompt_block": "High Mountains, Imposing, foundational, tall., Tall geological formations., Tall, imposing mountain ranges., Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "Imposing, foundational, tall.",
+          "Tall geological formations.",
+          "Tall, imposing mountain ranges."
+        ],
+        "prompt_block": "High Mountains, Imposing, foundational, tall., Tall geological formations., Tall, imposing mountain ranges., Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_HIGH_MOUNTAINS",
+    "name": "High Mountains",
+    "type": "set_environment",
+    "aliases": [
+      "High Mountains",
+      "High mountains",
+      "high mountains"
+    ],
+    "roles": [
+      "dynamic_scenery",
+      "geographical_feature",
+      "location"
+    ],
+    "visual_traits": [
+      "Imposing, foundational, tall.",
+      "Tall geological formations.",
+      "Tall, imposing mountain ranges."
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Pre-Theophany', 'description': 'The mountains are static and whole.'}",
+      "{'phase': 'Phase 2: Theophany', 'description': 'The mountains are dismayed, shaken, and begin to melt.'}",
+      "{'phase': 'Phase 1: Static', 'description': 'The mountains exist in their solid state.'}",
+      "{'phase': 'Phase 2: Unstable', 'description': 'The mountains are shaken, dismayed, and begin to melt and be thrown down.'}",
+      "{'phase': 'Phase 1: pre-judgment', 'description': 'Standing tall.'}",
+      "{'phase': 'Phase 2: judgment', 'description': 'Shaken and thrown down.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1052",
+      "row_1079",
+      "row_1097"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 1,
+        "chapter_end": 0,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Pre-Theophany', 'description': 'The mountains are static and whole.'}",
+          "{'phase': 'Phase 2: Theophany', 'description': 'The mountains are dismayed, shaken, and begin to melt.'}"
+        ]
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 1,
+        "chapter_end": 0,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Static', 'description': 'The mountains exist in their solid state.'}",
+          "{'phase': 'Phase 2: Unstable', 'description': 'The mountains are shaken, dismayed, and begin to melt and be thrown down.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 1,
+        "chapter_end": 1,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: pre-judgment', 'description': 'Standing tall.'}",
+          "{'phase': 'Phase 2: judgment', 'description': 'Shaken and thrown down.'}"
+        ]
+      }
+    ]
+  }
+}

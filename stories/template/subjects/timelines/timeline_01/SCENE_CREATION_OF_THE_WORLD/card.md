@@ -1,30 +1,20 @@
 ## [SCENE] Creation of the World (ID: SCENE_CREATION_OF_THE_WORLD)
-**Description:** A colossal subterranean forge, the heart of the cosmos, where the world is birthed by a fusion of ancient Ethiopian stonework and crystalline, pulsating technology. The scene unfolds within a vast, vaulted chamber lined with basalt columns, illuminated by a blinding aurora as the monolithic engine awakens.
-**Tags:** #cosmic #world-creation #ancient-tech #industrial-mysticism #Ethiopian #Egyptian #photorealistic #tactile
+**Description:** Auto-generated asset card for Creation of the World.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** A 30‑meter tall basalt monolith, carved with spiraling bio‑luminescent quartz glyphs that glow in deep indigo and gold, its core a 5‑meter obsidian sphere pulsing with a faint violet halo.
-*   **Face/Sensors:** Translucent crystal lenses embedded along the monolith’s face project holographic star maps, their edges etched with solar hieroglyphs that flicker in sync with the Core’s hum.
-*   **Clothing/Armor:** The monolith is encased in a lattice of obsidian plates, each etched with ancient Ethiopian and Egyptian motifs, giving the structure a tactile, weathered feel.
-*   **Key Features:** The Core, a pulsating obsidian sphere surrounded by swirling nebular mist; the Glyph Array, a series of runic panels that channel celestial energy; the Creation Chamber, a vaulted space with basalt columns that refract the auroral light.
+Roles: World
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Activation): The glyphs ignite, releasing a cascade of light; the Core hums, drawing in celestial energy, the chamber vibrates with low-frequency resonance.
-*   Phase 2 (Birth): The Core expands, forging the first primordial elements; the chamber erupts with a blinding aurora, shaping the nascent world, the monolith’s surface glows brighter as the world takes form.
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Celestial Orb – a polished obsidian sphere, 1 meter in diameter, used to focus and amplify the Core’s energy.
-*   Item: Scribe’s Tablet – a weathered stone tablet etched with instructions and runes, placed near the monolith’s base.
-
-### 4. AI PROMPT KEYWORDS
-`ancient`, `Ethiopian`, `Egyptian`, `crystalline`, `glyphs`, `world-creation`, `cosmic`, `photorealistic`, `industrial-mysticism`
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
-A colossal subterranean forge, 30 meters tall, basalt monolith carved with spiraling bio‑luminescent quartz glyphs, encased in obsidian plates etched with solar hieroglyphs, a pulsating obsidian Core surrounded by swirling nebular mist, crystal lenses projecting holographic star maps, the chamber filled with vaulted basalt columns, illuminated by a blinding aurora as the world is birthed, photorealistic, tactile, ancient-tech, industrial mysticism, Ethiopian and Egyptian aesthetics, cinematic lighting
+Creation of the World, World
 
 ### 6. PHASE PROMPTS
-*   **Default:** The world‑creation forge in its initial activation state.
-    Prompt: A colossal subterranean forge, 30 meters tall, basalt monolith carved with spiraling bio‑luminescent quartz glyphs, encased in obsidian plates etched with solar hieroglyphs, a pulsating obsidian Core surrounded by swirling nebular mist, crystal lenses projecting holographic star maps, the chamber filled with vaulted basalt columns, illuminated by a blinding aurora as the world is birthed, photorealistic, tactile, ancient-tech, industrial mysticism, Ethiopian and Egyptian aesthetics, cinematic lighting
-    Keywords: ancient, Ethiopian, Egyptian, crystalline, glyphs, world-creation, cosmic, photorealistic, industrial-mysticism
+*   **Default:**
+    Prompt: Creation of the World, World
 
 ---

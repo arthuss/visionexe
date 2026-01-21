@@ -1,0 +1,78 @@
+{
+  "id": "CHAR_THE_RIGHTEOUS_AND_CHOSEN",
+  "name": "the righteous and chosen",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for the righteous and chosen.",
+    "visual_anatomy": [
+      "Traits: Lips praise the Lord of Spirits., Mouths are full of blessing., Shine like the light of fire., {'description': 'A group who will appear after the judgment and find rest.'}",
+      "Roles: A group of blessed beings in heaven, protagonist_group"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Lips praise the Lord of Spirits.",
+      "Mouths are full of blessing.",
+      "Shine like the light of fire.",
+      "{'description': 'A group who will appear after the judgment and find rest.'}"
+    ],
+    "prompt_block": "the righteous and chosen, Lips praise the Lord of Spirits., Mouths are full of blessing., Shine like the light of fire., {'description': 'A group who will appear after the judgment and find rest.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Lips praise the Lord of Spirits.",
+          "Mouths are full of blessing.",
+          "Shine like the light of fire.",
+          "{'description': 'A group who will appear after the judgment and find rest.'}"
+        ],
+        "prompt_block": "the righteous and chosen, Lips praise the Lord of Spirits., Mouths are full of blessing., Shine like the light of fire., {'description': 'A group who will appear after the judgment and find rest.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_RIGHTEOUS_AND_CHOSEN",
+    "name": "the righteous and chosen",
+    "type": "character",
+    "aliases": [
+      "the righteous and chosen"
+    ],
+    "roles": [
+      "A group of blessed beings in heaven",
+      "protagonist_group"
+    ],
+    "visual_traits": [
+      "Lips praise the Lord of Spirits.",
+      "Mouths are full of blessing.",
+      "Shine like the light of fire.",
+      "{'description': 'A group who will appear after the judgment and find rest.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1132",
+      "row_1146"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 39,
+        "chapter_end": 53,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

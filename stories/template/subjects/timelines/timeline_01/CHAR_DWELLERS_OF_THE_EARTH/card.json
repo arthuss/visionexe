@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_DWELLERS_OF_THE_EARTH",
+  "name": "Dwellers of the Earth",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Dwellers of the Earth.",
+    "visual_anatomy": [
+      "Traits: {'description': 'All inhabitants of the dry land, sea, and islands.'}",
+      "Roles: group"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'All inhabitants of the dry land, sea, and islands.'}"
+    ],
+    "prompt_block": "Dwellers of the Earth, {'description': 'All inhabitants of the dry land, sea, and islands.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'All inhabitants of the dry land, sea, and islands.'}"
+        ],
+        "prompt_block": "Dwellers of the Earth, {'description': 'All inhabitants of the dry land, sea, and islands.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_DWELLERS_OF_THE_EARTH",
+    "name": "Dwellers of the Earth",
+    "type": "character",
+    "aliases": [
+      "Dwellers of the Earth"
+    ],
+    "roles": [
+      "group"
+    ],
+    "visual_traits": [
+      "{'description': 'All inhabitants of the dry land, sea, and islands.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1146"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 53,
+        "chapter_end": 53,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "id": "SETENV_LAND_OF_HIS_CHOSEN",
+  "name": "Land of His Chosen",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Land of His Chosen.",
+    "visual_anatomy": [
+      "Roles: battleground"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Land of His Chosen, battleground",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Land of His Chosen, battleground, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Land of His Chosen, battleground, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Land of His Chosen, battleground, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_LAND_OF_HIS_CHOSEN",
+    "name": "Land of His Chosen",
+    "type": "set_environment",
+    "aliases": [
+      "Land of His Chosen"
+    ],
+    "roles": [
+      "battleground"
+    ],
+    "visual_traits": [],
+    "changes": [
+      "{'phase': 'Phase 1: Intact', 'description': 'The land belonging to the chosen.'}",
+      "{'phase': 'Phase 2: Trampled', 'description': 'Becomes a threshing floor and a path for the invading kings.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1149"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 56,
+        "chapter_end": 55,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 56,
+        "chapter_end": 55,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Intact', 'description': 'The land belonging to the chosen.'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 56,
+        "chapter_end": 56,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Trampled', 'description': 'Becomes a threshing floor and a path for the invading kings.'}"
+        ]
+      }
+    ]
+  }
+}

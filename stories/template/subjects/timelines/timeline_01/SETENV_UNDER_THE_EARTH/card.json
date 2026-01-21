@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_UNDER_THE_EARTH",
+  "name": "Under the earth",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Under the earth.",
+    "visual_anatomy": [
+      "Traits: {'description': \"A subterranean region where the 'Power of the Waters' is located.\"}",
+      "Roles: container"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': \"A subterranean region where the 'Power of the Waters' is located.\"}"
+    ],
+    "prompt_block": "Under the earth, {'description': \"A subterranean region where the 'Power of the Waters' is located.\"}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': \"A subterranean region where the 'Power of the Waters' is located.\"}"
+        ],
+        "prompt_block": "Under the earth, {'description': \"A subterranean region where the 'Power of the Waters' is located.\"}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_UNDER_THE_EARTH",
+    "name": "Under the earth",
+    "type": "set_environment",
+    "aliases": [
+      "Under the earth"
+    ],
+    "roles": [
+      "container"
+    ],
+    "visual_traits": [
+      "{'description': \"A subterranean region where the 'Power of the Waters' is located.\"}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1158"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 66,
+        "chapter_end": 66,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

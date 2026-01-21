@@ -1,0 +1,11 @@
+## [STATE] Spirits of the Wicked :: Phase 2
+**State ID:** phase_02
+**Chapters:** 108 - 107
+**Notes:** {'phase': 'Phase 1: Condemned', 'description': 'Spirits of sinners, the insolent, and those who do evil.'}
+
+**Phase Summary:** The deletion process begins. The spirits are actively fragmented and burned by the system's error correction protocols.
+**Phase Keywords:** active de-compilation, digital fire, voxel fragmentation, screaming face, motion blur, heat distortion
+**Phase Prompt:**
+A dynamic, terrifying shot of a Punished Spirit in the throes of system deletion. The subject's form is tearing apart, with chunks of the mesh dissolving into glowing orange and red voxels. 'Fire' envelops them, but it is rendered as aggressive chromatic aberration and pixel sorting effects that mimic flames. The mouth is open in a wide, distorted wail, with the jaw geometry stretching unnaturally. Heat waves ripple across the frame, blurring the boundaries between the subject and the black void. The lighting is intense and flickering, simulating the strobe of a dying server rack. Photorealistic textures clash with violent digital destruction.
+
+---

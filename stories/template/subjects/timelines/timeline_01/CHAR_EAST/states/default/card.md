@@ -2,9 +2,8 @@
 **State ID:** default
 **Chapters:** 72 - 72
 
-**Phase Summary:** Luminous crystalline monolith embodying the direction of sunrise.
-**Phase Keywords:** crystalline monolith, bio‑luminescent, Ethiopian glyphs, Egyptian motifs, glitch art, industrial mysticism, photorealistic, directional beacon
+**Phase Keywords:** A cardinal direction indicating the location of the Ends of the Earth and the direction the winds blow., directional
 **Phase Prompt:**
-A towering 30‑meter crystalline monolith stands on a black basalt grid, its core a living quartz crystal pulsing with bio‑luminescent light; the surface is a polished obsidian lattice etched with ancient Ethiopian and Egyptian glyphs glowing in shifting blue‑green hues, dust spirals rise in perfect Fibonacci patterns, subtle glitch‑like low‑poly distortions ripple across the surface, all rendered in hyper‑realistic detail, cinematic lighting, 8k resolution, photorealistic industrial mysticism style.
+East, A cardinal direction indicating the location of the Ends of the Earth and the direction the winds blow., directional
 
 ---

@@ -1,0 +1,70 @@
+{
+  "id": "SETENV_BLESSED_LAND",
+  "name": "Blessed Land",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Blessed Land.",
+    "visual_anatomy": [
+      "Traits: blessed in its entirety, full of trees",
+      "Roles: setting"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "blessed in its entirety",
+      "full of trees"
+    ],
+    "prompt_block": "Blessed Land, blessed in its entirety, full of trees",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "blessed in its entirety",
+          "full of trees"
+        ],
+        "prompt_block": "Blessed Land, blessed in its entirety, full of trees"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_BLESSED_LAND",
+    "name": "Blessed Land",
+    "type": "set_environment",
+    "aliases": [
+      "Blessed Land"
+    ],
+    "roles": [
+      "setting"
+    ],
+    "visual_traits": [
+      "blessed in its entirety",
+      "full of trees"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1119"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 27,
+        "chapter_end": 27,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -4,8 +4,8 @@
   "state": {
     "state_id": "phase_01",
     "label": "Phase 1",
-    "chapter_start": 60,
-    "chapter_end": 65,
+    "chapter_start": 53,
+    "chapter_end": 67,
     "segment_labels": [],
     "scene_labels": [],
     "source_ids": [],
@@ -14,14 +14,11 @@
   "phase_prompt": {
     "state_id": "phase_01",
     "label": "Phase 1",
-    "summary": "Calm, turquoise sea with subtle crystalline nodes and faint glyphs.",
+    "summary": "",
     "prompt_keywords": [
-      "calm",
-      "turquoise",
-      "crystalline nodes",
-      "glyphs",
-      "soft lighting"
+      "unknown",
+      "{'description': \"The sea ('ባሕር'), mentioned as a place where sinners are found.\"}"
     ],
-    "prompt_block": "A serene, photorealistic sea with turquoise surface, gentle waves, subtle crystalline nodes embedded in the water column, faint luminous glyphs etched on the surface, soft ambient lighting, ancient stone obelisks in the background, Ethiopian‑Egyptian aesthetic."
+    "prompt_block": "sea, unknown, {'description': \"The sea ('ባሕር'), mentioned as a place where sinners are found.\"}, Phase 1"
   }
 }

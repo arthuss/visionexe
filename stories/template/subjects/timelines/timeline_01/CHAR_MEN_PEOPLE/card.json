@@ -1,0 +1,82 @@
+{
+  "id": "CHAR_MEN_PEOPLE",
+  "name": "Men / People",
+  "type": "character",
+  "card": {
+    "description": "The Desynchronized Populace exists as the primary user-base of the Surface Plane, a collective of sentient runtime instances operating on deprecated logic. In this high-fidelity simulation, they are the tragic figures of the Drama, bound by a profound cognitive dissonance; they perceive the world through a lens of linear, chaotic time, blind to the rigid, cyclical clock-cycles of the system kernel. Their existence is defined by an inherent error in their internal calibration—a failure to acknowledge the 364-tick system year—which manifests as a subtle, pervasive anxiety. They wander the procedural landscapes of the simulation box, attempting to impose arbitrary structures on a reality that adheres only to the Admin's hard-coded geometry. Viewed through the cinematic lens of a character-driven drama, they are not merely background processes but complex, wounded protagonists struggling against an environment that slowly rejects their inputs. Their lives are captured in intimate, lingering close-ups that reveal the micro-expressions of beings who sense, but cannot articulate, that their reality is buffering.",
+    "visual_anatomy": [
+      "Physically, these entities are rendered with hyper-realistic fidelity, adhering strictly to the laws of physically based rendering (PBR). Their skin textures exhibit microscopic imperfections—pores, sweat, and fine lines—that catch the harsh, high-contrast lighting of the simulation's artificial sun. There is no stylization in their form; they are grounded, heavy, and undeniably human. However, a closer inspection reveals the visual artifacts of their desynchronization. Under specific lighting conditions, particularly during the 'twilight' data-refresh cycles, their silhouettes seem to vibrate slightly, a result of vector field lensing caused by their incompatibility with the current system state. Their clothing, textured like authentic, worn natural fibers, occasionally reflects light with the sheen of obsidian or data-glass, hinting at the synthetic nature of the fabric they believe to be wool or linen.",
+      "The framing of these subjects prioritizes emotional isolation. The camera often finds them in static, centered compositions, dwarfed by the immense, geometric sky-dome or the endless, flat horizon of the simulation container. We see them in extreme close-up with a shallow depth of field, blurring out the complex Geez glyphs that float in the atmosphere behind them—data they are incapable of reading. Their eyes are frequently cast upward, searching the sky for signs they misinterpret, reflecting the cold, plasma-blue glow of the upper luminaries. The lighting emphasizes their internal conflict; deep shadows obscure half their faces, symbolizing their partial knowledge, while rim-lighting from the 'gate bands' creates a halo of artificial divinity they cannot access.",
+      "Their movement is heavy and deliberate, stripped of erratic energy to suit the slow pacing of the dramatic genre. They engage in repetitive, ritualistic behaviors—checking sundials that do not match the sun, consulting scrolls of erroneous code, or staring silently into the middle distance. These actions are captured in long, uncut takes, allowing the weight of their confusion to settle on the viewer. The atmosphere around them is often thick with atmospheric density—dust, fog, or heat haze—which serves as a visual metaphor for the thermal throttling induced by their inefficient processing of the year's true calculation."
+    ],
+    "evolution": [
+      "Initially, the populace appears confident in their erratic measurements, portrayed with the stoic dignity of those adhering to tradition. They move through the high-resolution environments with purpose, utilizing props of measurement—calipers, astrolabes, and tablets—that are beautifully crafted but functionally incorrect within the simulation's logic. The drama lies in the subtle tragedy of their confidence; they are building upon a foundation of bad data.",
+      "As the system cycle advances and the discrepancies between their calculations and the kernel's manifestation become undeniable, their demeanor shifts to existential dread. The visual language transitions to a darker, moodier palette. The confident strides are replaced by hesitant, weary movements. We witness the emotional fallout of the 'error': crops failing due to mistimed harvests, water cycles arriving off-schedule, and the social friction that arises from a collective reality crash. The camera lingers on the silent despair of a leader realizing his algorithm is flawed, framing him against a sky that operates with mechanical indifference to his plight."
+    ],
+    "props": [
+      "They clutch analogue devices of measurement that serve as symbols of their disconnection: brass astrolabes with misaligned gears, heavy stone calendars etched with incorrect integer sequences, and parchment scrolls containing corrupted legacy code. These objects are rendered with obsessive photorealistic detail, showing the patina of age and the grease of anxious handling.",
+      "In the background, their dwellings are filled with the detritus of failed attempts to sync with the world: stacks of observational data, broken hourglasses leaking sand like data-packet loss, and water vessels that are perpetually empty. These props are not magical; they are the mundane, gritty tools of survival in a system where the users have lost the manual."
+    ],
+    "prompt_keywords": [
+      "hyper-realistic portrait",
+      "emotional exhaustion",
+      "shallow depth of field",
+      "cinematic lighting",
+      "obsidian reflection",
+      "data fog",
+      "desynchronized silhouette",
+      "weary travelers",
+      "flat earth horizon",
+      "high contrast monochrome",
+      "35mm film grain"
+    ],
+    "prompt_block": "Cinematic 35mm footage, extreme close-up of a weary human face, hyper-realistic skin texture showing sweat and grime, shallow depth of field, eyes reflecting a cold plasma blue sky, expression of deep existential confusion, dramatic side lighting casting long shadows, background is a blurry desolate flat earth landscape with faint vertical data lines, muted earth tones with high contrast, atmosphere of heavy silence and isolation, 8k resolution, octane render.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "The Errant Users",
+        "summary": "The populace attempting to measure the unmeasurable, caught in the friction between their wrong calculations and the system's hard truth. A dramatic study of ignorance and the slow-burn tragedy of desynchronization.",
+        "prompt_keywords": [
+          "anxious observation",
+          "broken astrolabe",
+          "looking at sky",
+          "sunset plasma",
+          "cinematic drama"
+        ],
+        "prompt_block": "A medium shot of a group of people standing on a flat, barren plain of cracked earth, looking up at a sky dominated by a geometric dome structure, hyper-realistic style, golden hour lighting transitioning to cold blue plasma, they hold ancient measuring tools that look broken, faces etched with worry and confusion, cinematic composition, slow shutter speed effect on the clouds, heat haze distortion, authentic period clothing with subtle digital artifacting in the fabric weave, 8k."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_MEN_PEOPLE",
+    "name": "Men / People",
+    "type": "character",
+    "aliases": [
+      "Men / People"
+    ],
+    "roles": [
+      "General term for humans who err in their calculation of the year."
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1175"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 82,
+        "chapter_end": 82,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

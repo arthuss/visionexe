@@ -1,0 +1,72 @@
+{
+  "id": "SETENV_TWELVE_GATES_OF_HEAVEN",
+  "name": "Twelve Gates of Heaven",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Twelve Gates of Heaven.",
+    "visual_anatomy": [
+      "Traits: Twelve openings in the sky from which winds emerge. They are grouped in threes at the four cardinal directions., {'description': 'Twelve portals located at the extremities of the earth, open in their appointed seasons. They are the points of egress for the sun, moon, stars, winds, and dew. They are located in the east and west.', 'type': 'portal', 'count': 12}",
+      "Roles: cosmological_structure, location"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Twelve openings in the sky from which winds emerge. They are grouped in threes at the four cardinal directions.",
+      "{'description': 'Twelve portals located at the extremities of the earth, open in their appointed seasons. They are the points of egress for the sun, moon, stars, winds, and dew. They are located in the east and west.', 'type': 'portal', 'count': 12}"
+    ],
+    "prompt_block": "Twelve Gates of Heaven, Twelve openings in the sky from which winds emerge. They are grouped in threes at the four cardinal directions., {'description': 'Twelve portals located at the extremities of the earth, open in their appointed seasons. They are the points of egress for the sun, moon, stars, winds, and dew. They are located in the east and west.', 'type': 'portal', 'count': 12}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "Twelve openings in the sky from which winds emerge. They are grouped in threes at the four cardinal directions.",
+          "{'description': 'Twelve portals located at the extremities of the earth, open in their appointed seasons. They are the points of egress for the sun, moon, stars, winds, and dew. They are located in the east and west.', 'type': 'portal', 'count': 12}"
+        ],
+        "prompt_block": "Twelve Gates of Heaven, Twelve openings in the sky from which winds emerge. They are grouped in threes at the four cardinal directions., {'description': 'Twelve portals located at the extremities of the earth, open in their appointed seasons. They are the points of egress for the sun, moon, stars, winds, and dew. They are located in the east and west.', 'type': 'portal', 'count': 12}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_TWELVE_GATES_OF_HEAVEN",
+    "name": "Twelve Gates of Heaven",
+    "type": "set_environment",
+    "aliases": [
+      "Twelve Gates of Heaven"
+    ],
+    "roles": [
+      "cosmological_structure",
+      "location"
+    ],
+    "visual_traits": [
+      "Twelve openings in the sky from which winds emerge. They are grouped in threes at the four cardinal directions.",
+      "{'description': 'Twelve portals located at the extremities of the earth, open in their appointed seasons. They are the points of egress for the sun, moon, stars, winds, and dew. They are located in the east and west.', 'type': 'portal', 'count': 12}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1168",
+      "row_1169"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 75,
+        "chapter_end": 76,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "id": "SETENV_SCOURGES",
+  "name": "Scourges",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Scourges.",
+    "visual_anatomy": [
+      "Traits: {'description': 'Unspecified afflictions associated with the snow-winds.'}",
+      "Roles: agent_of_judgment"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'Unspecified afflictions associated with the snow-winds.'}"
+    ],
+    "prompt_block": "Scourges, {'description': 'Unspecified afflictions associated with the snow-winds.'}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Unspecified afflictions associated with the snow-winds.'}"
+        ],
+        "prompt_block": "Scourges, {'description': 'Unspecified afflictions associated with the snow-winds.'}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Unspecified afflictions associated with the snow-winds.'}"
+        ],
+        "prompt_block": "Scourges, {'description': 'Unspecified afflictions associated with the snow-winds.'}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'Unspecified afflictions associated with the snow-winds.'}"
+        ],
+        "prompt_block": "Scourges, {'description': 'Unspecified afflictions associated with the snow-winds.'}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_SCOURGES",
+    "name": "Scourges",
+    "type": "set_environment",
+    "aliases": [
+      "Scourges"
+    ],
+    "roles": [
+      "agent_of_judgment"
+    ],
+    "visual_traits": [
+      "{'description': 'Unspecified afflictions associated with the snow-winds.'}"
+    ],
+    "changes": [
+      "{'is_dynamic': True, 'description': 'Fall upon the sinners as a form of attack.'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1193"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 100,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 100,
+        "chapter_end": 99,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 100,
+        "chapter_end": 100,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'is_dynamic': True, 'description': 'Fall upon the sinners as a form of attack.'}"
+        ]
+      }
+    ]
+  }
+}

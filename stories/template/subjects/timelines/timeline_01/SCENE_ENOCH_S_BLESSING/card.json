@@ -1,0 +1,62 @@
+{
+  "id": "SCENE_ENOCH_S_BLESSING",
+  "name": "Enoch's Blessing",
+  "type": "scene",
+  "card": {
+    "description": "Auto-generated asset card for Enoch's Blessing.",
+    "visual_anatomy": [
+      "Roles: Blessed Land, The High Mountain"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Enoch's Blessing, Blessed Land, The High Mountain",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Enoch's Blessing, Blessed Land, The High Mountain"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SCENE_ENOCH_S_BLESSING",
+    "name": "Enoch's Blessing",
+    "type": "scene",
+    "aliases": [
+      "Enoch's Blessing"
+    ],
+    "roles": [
+      "Blessed Land",
+      "The High Mountain"
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1118",
+      "row_1119"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 25,
+        "chapter_end": 27,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

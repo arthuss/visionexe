@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_THE_TRANSGRESSORS",
+  "name": "The Transgressors",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for The Transgressors.",
+    "visual_anatomy": [
+      "Traits: unknown",
+      "Roles: group_bound"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "unknown"
+    ],
+    "prompt_block": "The Transgressors, unknown",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "unknown"
+        ],
+        "prompt_block": "The Transgressors, unknown"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_THE_TRANSGRESSORS",
+    "name": "The Transgressors",
+    "type": "character",
+    "aliases": [
+      "The Transgressors"
+    ],
+    "roles": [
+      "group_bound"
+    ],
+    "visual_traits": [
+      "unknown"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1091"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 18,
+        "chapter_end": 18,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

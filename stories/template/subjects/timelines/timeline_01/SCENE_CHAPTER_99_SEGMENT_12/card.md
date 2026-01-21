@@ -1,30 +1,20 @@
 ## [SCENE] Chapter 99 Segment 12 (ID: SCENE_CHAPTER_99_SEGMENT_12)
-**Description:** The Obelisk of Time is a 12‑meter monolith of weathered basalt and obsidian, its shaft tapering to a copper‑plated apex. Intricate bioluminescent glyphs etched into the stone pulse in a slow, rhythmic cadence, while a lattice of copper conduits and crystalline resonators weave around its base, channeling an unseen temporal energy that warps light and gravity. The obelisk sits in a cavernous chamber, its surface scarred by centuries of use yet still exuding a tactile, industrial mysticism that blends ancient Ethiopian and Egyptian cosmology with incomprehensible quantum circuitry.
-**Tags:** #ancient-tech #industrial-mysticism #temporal-engine #Ethiopian-Egyptian #photorealistic #tactile #bioluminescent-glyphs #crystalline-hardware
+**Description:** Auto-generated asset card for Chapter 99 Segment 12.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** 12‑meter basalt core with a tapering shaft, integrated copper alloy ribs and an obsidian cap.
-*   **Face/Sensors:** Glyphic panels of bioluminescent quartz embedded in the apex, acting as sensor arrays that glow and pulse.
-*   **Clothing/Armor:** Protective copper plating etched with filigree filaments, reinforced with obsidian shards.
-*   **Key Features:** Resonant crystal lattice surrounding the base, pulsing glyphs, copper conduits, basalt core, obsidian cap, bioluminescent glyphs, quantum circuitry hidden within the stone.
+TBD.
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Activation): Glyphs glow faintly, copper conduits hum softly, the obelisk emits a low, resonant hum.
-*   Phase 2 (Full Resonance): Glyphs blaze with intense bioluminescence, crystal lattice vibrates, light refracts into fractal patterns, gravity subtly warps around the base.
+Phase (Default)
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Scribe's Quill of Resonance – a feathered quill with a crystal tip that writes in glyphs.
-*   Item: Ancient Tablet of Chronology – a weathered stone tablet etched with cyclical time glyphs.
-
-### 4. AI PROMPT KEYWORDS
-`obelisk`, `temporal`, `glyphs`, `crystal`, `basalt`, `copper`, `bioluminescence`, `ancient`, `tech`
+TBD.
 
 ### 5. PROMPT BLOCK (T2I)
-A towering obelisk of basalt and obsidian, 12 meters tall, etched with luminous bioluminescent glyphs that pulse in a slow rhythmic cadence, surrounded by copper conduits and crystalline resonators, set in a cavernous chamber, photorealistic, tactile, ancient Ethiopian/Egyptian aesthetic fused with incomprehensible quantum circuitry, light refracting into fractal patterns, cinematic, serious tone
+Chapter 99 Segment 12,
 
 ### 6. PHASE PROMPTS
-*   **Default:** The obelisk in its dormant state, glyphs faintly glowing, copper conduits humming softly.
-    Prompt: A towering obelisk of basalt and obsidian, 12 meters tall, etched with faintly glowing bioluminescent glyphs, copper conduits humming softly, set in a cavernous chamber, photorealistic, tactile, ancient Ethiopian/Egyptian aesthetic fused with incomprehensible quantum circuitry, cinematic, serious tone
-    Keywords: obelisk, temporal, glyphs, crystal, basalt, copper, bioluminescence, ancient, tech
+*   **Default:**
+    Prompt: Chapter 99 Segment 12,
 
 ---

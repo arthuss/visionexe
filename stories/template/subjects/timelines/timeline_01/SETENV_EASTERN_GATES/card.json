@@ -1,0 +1,69 @@
+{
+  "id": "SETENV_EASTERN_GATES",
+  "name": "eastern gates",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for eastern gates.",
+    "visual_anatomy": [
+      "Traits: A set of three gates on the east side of the sky.",
+      "Roles: cosmological_structure"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "A set of three gates on the east side of the sky."
+    ],
+    "prompt_block": "eastern gates, A set of three gates on the east side of the sky.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "A set of three gates on the east side of the sky."
+        ],
+        "prompt_block": "eastern gates, A set of three gates on the east side of the sky."
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_EASTERN_GATES",
+    "name": "eastern gates",
+    "type": "set_environment",
+    "aliases": [
+      "Eastern Gates",
+      "eastern gates"
+    ],
+    "roles": [
+      "cosmological_structure"
+    ],
+    "visual_traits": [
+      "A set of three gates on the east side of the sky."
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1129",
+      "row_1169"
+    ],
+    "occurrence_count": 6,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 36,
+        "chapter_end": 76,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

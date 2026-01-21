@@ -1,0 +1,60 @@
+{
+  "id": "CHAR_ASFA_EL",
+  "name": "Asfa'el",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Asfa'el.",
+    "visual_anatomy": [
+      "Roles: A subordinate leader under Helämmemelek, designated as a 'chief of a thousand'."
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [],
+    "prompt_block": "Asfa'el, A subordinate leader under Helämmemelek, designated as a 'chief of a thousand'.",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [],
+        "prompt_block": "Asfa'el, A subordinate leader under Helämmemelek, designated as a 'chief of a thousand'."
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_ASFA_EL",
+    "name": "Asfa'el",
+    "type": "character",
+    "aliases": [
+      "Asfa'el"
+    ],
+    "roles": [
+      "A subordinate leader under Helämmemelek, designated as a 'chief of a thousand'."
+    ],
+    "visual_traits": [],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1175"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 82,
+        "chapter_end": 82,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

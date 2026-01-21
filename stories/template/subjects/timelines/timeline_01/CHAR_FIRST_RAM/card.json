@@ -1,0 +1,67 @@
+{
+  "id": "CHAR_FIRST_RAM",
+  "name": "First Ram",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for First Ram.",
+    "visual_anatomy": [
+      "Traits: One of the first rams",
+      "Roles: agent"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "One of the first rams"
+    ],
+    "prompt_block": "First Ram, One of the first rams",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "One of the first rams"
+        ],
+        "prompt_block": "First Ram, One of the first rams"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_FIRST_RAM",
+    "name": "First Ram",
+    "type": "character",
+    "aliases": [
+      "First Ram"
+    ],
+    "roles": [
+      "agent"
+    ],
+    "visual_traits": [
+      "One of the first rams"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1181"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 88,
+        "chapter_end": 88,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

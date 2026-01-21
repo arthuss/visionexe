@@ -1,0 +1,67 @@
+{
+  "id": "SETENV_DWELLING_OF_MEN",
+  "name": "Dwelling of Men",
+  "type": "set_environment",
+  "card": {
+    "description": "Auto-generated asset card for Dwelling of Men.",
+    "visual_anatomy": [
+      "Traits: {'description': 'A region (ማኅደር፡ለሰብእ) that is one of the three divisions of the world.'}",
+      "Roles: location"
+    ],
+    "evolution": [
+      "Phase (Default)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "{'description': 'A region (ማኅደር፡ለሰብእ) that is one of the three divisions of the world.'}"
+    ],
+    "prompt_block": "Dwelling of Men, {'description': 'A region (ማኅደር፡ለሰብእ) that is one of the three divisions of the world.'}",
+    "phase_prompts": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "summary": "",
+        "prompt_keywords": [
+          "{'description': 'A region (ማኅደር፡ለሰብእ) that is one of the three divisions of the world.'}"
+        ],
+        "prompt_block": "Dwelling of Men, {'description': 'A region (ማኅደር፡ለሰብእ) that is one of the three divisions of the world.'}"
+      }
+    ]
+  },
+  "profile": {
+    "id": "SETENV_DWELLING_OF_MEN",
+    "name": "Dwelling of Men",
+    "type": "set_environment",
+    "aliases": [
+      "Dwelling of Men"
+    ],
+    "roles": [
+      "location"
+    ],
+    "visual_traits": [
+      "{'description': 'A region (ማኅደር፡ለሰብእ) that is one of the three divisions of the world.'}"
+    ],
+    "changes": [],
+    "notes": [],
+    "sources": [
+      "row_1170"
+    ],
+    "occurrence_count": 2,
+    "is_dynamic": false,
+    "state_policy": "static",
+    "states": [
+      {
+        "state_id": "default",
+        "label": "Default",
+        "chapter_start": 77,
+        "chapter_end": 77,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      }
+    ]
+  }
+}

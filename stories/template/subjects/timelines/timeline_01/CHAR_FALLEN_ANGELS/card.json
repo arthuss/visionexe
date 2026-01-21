@@ -1,0 +1,121 @@
+{
+  "id": "CHAR_FALLEN_ANGELS",
+  "name": "Fallen Angels",
+  "type": "character",
+  "card": {
+    "description": "Auto-generated asset card for Fallen Angels.",
+    "visual_anatomy": [
+      "Traits: Their spirits assume many different forms., {'description': \"A group of angels (መላእክት) initially seen as 'hidden faces' (ገጻተ...ኅቡኣተ).\"}",
+      "Roles: antagonist, corruptor"
+    ],
+    "evolution": [
+      "Phase (Phase 1)",
+      "Phase (Phase 2)",
+      "Phase (Phase 3)"
+    ],
+    "props": [
+      "TBD."
+    ],
+    "prompt_keywords": [
+      "Their spirits assume many different forms.",
+      "{'description': \"A group of angels (መላእክት) initially seen as 'hidden faces' (ገጻተ...ኅቡኣተ).\"}"
+    ],
+    "prompt_block": "Fallen Angels, Their spirits assume many different forms., {'description': \"A group of angels (መላእክት) initially seen as 'hidden faces' (ገጻተ...ኅቡኣተ).\"}",
+    "phase_prompts": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "summary": "",
+        "prompt_keywords": [
+          "Their spirits assume many different forms.",
+          "{'description': \"A group of angels (መላእክት) initially seen as 'hidden faces' (ገጻተ...ኅቡኣተ).\"}"
+        ],
+        "prompt_block": "Fallen Angels, Their spirits assume many different forms., {'description': \"A group of angels (መላእክት) initially seen as 'hidden faces' (ገጻተ...ኅቡኣተ).\"}, Phase 1"
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "summary": "",
+        "prompt_keywords": [
+          "Their spirits assume many different forms.",
+          "{'description': \"A group of angels (መላእክት) initially seen as 'hidden faces' (ገጻተ...ኅቡኣተ).\"}"
+        ],
+        "prompt_block": "Fallen Angels, Their spirits assume many different forms., {'description': \"A group of angels (መላእክት) initially seen as 'hidden faces' (ገጻተ...ኅቡኣተ).\"}, Phase 2"
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "summary": "",
+        "prompt_keywords": [
+          "Their spirits assume many different forms.",
+          "{'description': \"A group of angels (መላእክት) initially seen as 'hidden faces' (ገጻተ...ኅቡኣተ).\"}"
+        ],
+        "prompt_block": "Fallen Angels, Their spirits assume many different forms., {'description': \"A group of angels (መላእክት) initially seen as 'hidden faces' (ገጻተ...ኅቡኣተ).\"}, Phase 3"
+      }
+    ]
+  },
+  "profile": {
+    "id": "CHAR_FALLEN_ANGELS",
+    "name": "Fallen Angels",
+    "type": "character",
+    "aliases": [
+      "Fallen Angels"
+    ],
+    "roles": [
+      "antagonist",
+      "corruptor"
+    ],
+    "visual_traits": [
+      "Their spirits assume many different forms.",
+      "{'description': \"A group of angels (መላእክት) initially seen as 'hidden faces' (ገጻተ...ኅቡኣተ).\"}"
+    ],
+    "changes": [
+      "{'phase': 'Phase 1: Celestial', 'description': 'Resided in Heaven (ሰማይ).'}",
+      "{'phase': 'Phase 2: Terrestrial', 'description': 'Descended (ወረዱ) from Heaven to Earth (ምድር).'}"
+    ],
+    "notes": [],
+    "sources": [
+      "row_1110",
+      "row_1157"
+    ],
+    "occurrence_count": 4,
+    "is_dynamic": true,
+    "state_policy": "phases",
+    "states": [
+      {
+        "state_id": "phase_01",
+        "label": "Phase 1",
+        "chapter_start": 19,
+        "chapter_end": 33,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": []
+      },
+      {
+        "state_id": "phase_02",
+        "label": "Phase 2",
+        "chapter_start": 34,
+        "chapter_end": 48,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 1: Celestial', 'description': 'Resided in Heaven (ሰማይ).'}"
+        ]
+      },
+      {
+        "state_id": "phase_03",
+        "label": "Phase 3",
+        "chapter_start": 49,
+        "chapter_end": 64,
+        "segment_labels": [],
+        "scene_labels": [],
+        "source_ids": [],
+        "notes": [
+          "{'phase': 'Phase 2: Terrestrial', 'description': 'Descended (ወረዱ) from Heaven to Earth (ምድር).'}"
+        ]
+      }
+    ]
+  }
+}

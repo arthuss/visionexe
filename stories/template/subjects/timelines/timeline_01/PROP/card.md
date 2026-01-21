@@ -1,37 +1,33 @@
 ## [PROP] ድባር (ID: PROP_)
-**Description:** The ድባር is a monumental ritual drum that doubles as a luminous altar, forged from basalt and copper, etched with ancient Ethiopian and Egyptian glyphs, and powered by a crystalline core that channels bio‑luminescent energy.
-**Tags:** #ritual #drum #light source #ancient-tech #Ethiopian #Egyptian #glyphs #crystalline #bio-luminescent #industrial mysticism #photorealistic
+**Description:** Auto-generated asset card for ድባር.
 
 ### 1. VISUAL ANATOMY / DESIGN
-*   **Body/Form:** A 3‑meter tall basalt drum with a copper‑lined rim, carved with spiraling motifs and a central aperture for the core.
-*   **Face/Sensors:** Embedded quartz crystal panels radiate soft blue light; sensor arrays detect ambient vibrations.
-*   **Clothing/Armor:** None.
-*   **Key Features:** Carved glyphs, crystalline core, algae chamber, mechanical drumhead, energy conduit.
+Traits: A metaphorical 'cloud of water' representing an endless source of tears., A metaphorical heart, afflicted with sorrow., A metaphorical yoke of iniquity described as heavy., Metaphorical hands representing power and control, into which sinners will be delivered., Tears that flow like a 'cloud of water'., air, bright, burning, drum, fire, flaming, glowing, gold, image, light, luminous, spoken, stack of books, sun, unknown, water
+Roles: actor_prop:Speaker, actor_prop:ጻድቃን, altar, animal, beverage, celestial body, command, communication, concept, door, element, environmental element, eye, face / visage, fire, food, fruit, gate, house, illumination, inside, instruction, instrument, light, light source, material, measurement tool, message, moon, musical, natural element, object, pages, path, place, power, prayer, prop, ritual item, ritual offering, ritual substance, ritual vessel, rock, scripture, soul, spirit, symbolic, system, unknown, work, written text
 
 ### 2. EVOLUTION / VARIANTS
-*   Phase 1 (Ch1‑36): Simple basalt drum used in ceremonial rites, no internal tech.
-*   Phase 2 (Ch37‑72): Integrated crystalline core and bio‑luminescent algae chamber, emits gentle glow.
-*   Phase 3 (Ch73‑108): Fully powered, energy core channels light into surrounding space, used as a power source.
+Phase (Phase 1)
+Phase (Phase 2)
+Phase (Phase 3)
 
 ### 3. PROPS & EQUIPMENT
-*   Item: Crystalline Core (silicate crystal, 30 cm diameter, emits blue light).
-*   Item: Algae Chamber (sealed glass, contains bioluminescent algae).
+TBD.
 
 ### 4. AI PROMPT KEYWORDS
-`basalt drum`, `crystalline core`, `bio‑luminescent algae`, `Ethiopian glyphs`, `Egyptian motifs`, `industrial`, `mystical`, `photorealistic`
+`A metaphorical 'cloud of water' representing an endless source of tears.`, `A metaphorical heart, afflicted with sorrow.`, `A metaphorical yoke of iniquity described as heavy.`, `Metaphorical hands representing power and control, into which sinners will be delivered.`, `Tears that flow like a 'cloud of water'.`, `air`, `bright`, `burning`, `drum`, `fire`, `flaming`, `glowing`
 
 ### 5. PROMPT BLOCK (T2I)
-A colossal basalt drum, 3 m tall, with copper inlay rim, etched with ancient Ethiopian and Egyptian glyphs, a central quartz crystal core glowing blue, surrounded by a sealed algae chamber, set in a dimly lit stone chamber, photorealistic, cinematic lighting, tactile textures, industrial mysticism.
+ድባር, A metaphorical 'cloud of water' representing an endless source of tears., A metaphorical heart, afflicted with sorrow., A metaphorical yoke of iniquity described as heavy., Metaphorical hands representing power and control, into which sinners will be delivered., Tears that flow like a 'cloud of water'., air, bright, burning, drum, fire, flaming, glowing, gold, image, light, luminous, spoken, stack of books, sun, unknown, water
 
 ### 6. PHASE PROMPTS
-*   **Phase 1:** Stone drum used in ritual, no tech.
-    Prompt: A 3 m tall basalt drum with copper rim, etched with simple spirals, no internal tech, set in a stone altar, photorealistic, cinematic lighting, tactile.
-    Keywords: basalt, ceremonial, no tech
-*   **Phase 2:** Crystalline core and algae chamber added, glowing.
-    Prompt: The basalt drum now contains a central quartz crystal core emitting blue light, surrounded by a sealed algae chamber, glyphs glow faintly, set in a dim chamber, photorealistic, cinematic.
-    Keywords: crystalline core, bio‑luminescent, glow
-*   **Phase 3:** Fully powered, energy output, used as light source.
-    Prompt: The drum’s core now channels intense blue light, illuminating the chamber, glyphs glow brighter, mechanical drumhead visible, photorealistic, cinematic, tactile.
-    Keywords: energy core, light source, industrial
+*   **Phase 1:**
+    Prompt: ድባር, A metaphorical 'cloud of water' representing an endless source of tears., A metaphorical heart, afflicted with sorrow., A metaphorical yoke of iniquity described as heavy., Metaphorical hands representing power and control, into which sinners will be delivered., Tears that flow like a 'cloud of water'., air, bright, burning, drum, fire, flaming, glowing, gold, image, light, luminous, spoken, stack of books, sun, unknown, water, Phase 1
+    Keywords: A metaphorical 'cloud of water' representing an endless source of tears., A metaphorical heart, afflicted with sorrow., A metaphorical yoke of iniquity described as heavy., Metaphorical hands representing power and control, into which sinners will be delivered., Tears that flow like a 'cloud of water'., air, bright, burning, drum, fire, flaming, glowing
+*   **Phase 2:**
+    Prompt: ድባር, A metaphorical 'cloud of water' representing an endless source of tears., A metaphorical heart, afflicted with sorrow., A metaphorical yoke of iniquity described as heavy., Metaphorical hands representing power and control, into which sinners will be delivered., Tears that flow like a 'cloud of water'., air, bright, burning, drum, fire, flaming, glowing, gold, image, light, luminous, spoken, stack of books, sun, unknown, water, Phase 2
+    Keywords: A metaphorical 'cloud of water' representing an endless source of tears., A metaphorical heart, afflicted with sorrow., A metaphorical yoke of iniquity described as heavy., Metaphorical hands representing power and control, into which sinners will be delivered., Tears that flow like a 'cloud of water'., air, bright, burning, drum, fire, flaming, glowing
+*   **Phase 3:**
+    Prompt: ድባር, A metaphorical 'cloud of water' representing an endless source of tears., A metaphorical heart, afflicted with sorrow., A metaphorical yoke of iniquity described as heavy., Metaphorical hands representing power and control, into which sinners will be delivered., Tears that flow like a 'cloud of water'., air, bright, burning, drum, fire, flaming, glowing, gold, image, light, luminous, spoken, stack of books, sun, unknown, water, Phase 3
+    Keywords: A metaphorical 'cloud of water' representing an endless source of tears., A metaphorical heart, afflicted with sorrow., A metaphorical yoke of iniquity described as heavy., Metaphorical hands representing power and control, into which sinners will be delivered., Tears that flow like a 'cloud of water'., air, bright, burning, drum, fire, flaming, glowing
 
 ---
