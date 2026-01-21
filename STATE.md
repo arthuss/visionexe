@@ -109,3 +109,5 @@ Codex may always read this file.
 - 2026-01-21 23:03 - Updated exevision story loader defaults/examples to point at data/Story1-Henoch (engine/tools/exevision/story_tools/story_loader.py, engine/tools/exevision/story_tools/README.md, engine/tools/exevision/scripts/README.md).
 - 2026-01-21 23:15 - Audited analysis integration usage and config references; mapped analysis file consumers and engine/analysis usage (no code changes).
 - 2026-01-22 00:18 - Ignored exevision model weights in git (C:\Users\sasch\visionexe\.gitignore).
+- 2026-01-22 00:21 - Ignored exevision Engram and vector_mcp runtime data/build outputs in git (C:\Users\sasch\visionexe\.gitignore).
+- 2026-01-22 00:22 - Ignored vector_mcp Visual Studio artifacts in git (C:\Users\sasch\visionexe\.gitignore).
