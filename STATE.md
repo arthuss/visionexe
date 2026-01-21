@@ -108,3 +108,4 @@ Codex may always read this file.
 - 2026-01-21 22:45 - Reviewed exevision drop-in folders and MCP wiring; noted legacy MCP scripts are stubs and exevision QUICKSTART reference is missing (QUICKSTART.md, README.md, engine/tools/exevision/*).
 - 2026-01-21 23:03 - Updated exevision story loader defaults/examples to point at data/Story1-Henoch (engine/tools/exevision/story_tools/story_loader.py, engine/tools/exevision/story_tools/README.md, engine/tools/exevision/scripts/README.md).
 - 2026-01-21 23:15 - Audited analysis integration usage and config references; mapped analysis file consumers and engine/analysis usage (no code changes).
+- 2026-01-22 00:18 - Ignored exevision model weights in git (C:\Users\sasch\visionexe\.gitignore).
