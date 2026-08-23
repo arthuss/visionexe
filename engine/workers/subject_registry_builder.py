@@ -1,6 +1,9 @@
 import argparse
 import json
+import os
 import re
+import subprocess
+import sys
 from pathlib import Path
 
 from visionexe_paths import ensure_dir, load_story_config, resolve_path
@@ -33,6 +36,173 @@ PROP_OWNER_FIELDS = {
 }
 PROP_ROLE_ACTOR_PREFIXES = ("actor_prop:", "character_prop:")
 PROP_ROLE_SCENE_PREFIXES = ("scene_prop", "set_prop", "environment_prop")
+
+
+class SimpleMcpClient:
+    def __init__(
+        self,
+        *,
+        command: str,
+        args: list[str],
+        cwd: str | None,
+        debug_log: Path | None = None,
+    ) -> None:
+        stderr_target = subprocess.DEVNULL
+        if debug_log is not None:
+            debug_log.parent.mkdir(parents=True, exist_ok=True)
+            stderr_target = debug_log.open("a", encoding="utf-8")
+        self._stderr_handle = stderr_target if hasattr(stderr_target, "write") else None
+        self._proc = subprocess.Popen(
+            [command, *args],
+            stdin=subprocess.PIPE,
+            stdout=subprocess.PIPE,
+            stderr=stderr_target,
+            cwd=cwd,
+            text=True,
+            encoding="utf-8",
+            errors="replace",
+            bufsize=1,
+        )
+        self._next_id = 0
+        self._tools: list[str] = []
+        self._initialize()
+
+    def _initialize(self) -> None:
+        response = self._request(
+            "initialize",
+            {
+                "protocolVersion": "2025-11-25",
+                "capabilities": {},
+                "clientInfo": {"name": "visionexe-subject-registry", "version": "0.1.0"},
+            },
+        )
+        if "error" in response:
+            raise RuntimeError(f"MCP initialize failed: {response['error']}")
+        self._notify("notifications/initialized", {})
+        self._load_tools()
+
+    def close(self) -> None:
+        if self._proc.stdin:
+            try:
+                self._proc.stdin.close()
+            except OSError:
+                pass
+        try:
+            self._proc.terminate()
+            self._proc.wait(timeout=5)
+        except subprocess.TimeoutExpired:
+            try:
+                self._proc.kill()
+                self._proc.wait(timeout=5)
+            except OSError:
+                pass
+        except OSError:
+            pass
+        if self._stderr_handle is not None:
+            try:
+                self._stderr_handle.close()
+            except OSError:
+                pass
+
+    def call_tool(self, name: str, arguments: dict) -> dict:
+        tool_name = self._resolve_tool_name(name)
+        if self._tools and tool_name == name and name not in self._tools:
+            raise RuntimeError(
+                f"MCP tool {name} not found. Available tools: {', '.join(self._tools)}"
+            )
+        response = self._request("tools/call", {"name": tool_name, "arguments": arguments})
+        if "error" in response:
+            raise RuntimeError(f"MCP tool {tool_name} failed: {response['error']}")
+        return response.get("result", {})
+
+    def _notify(self, method: str, params: dict) -> None:
+        self._send({"jsonrpc": "2.0", "method": method, "params": params})
+
+    def _request(self, method: str, params: dict) -> dict:
+        self._next_id += 1
+        request_id = self._next_id
+        self._send({"jsonrpc": "2.0", "id": request_id, "method": method, "params": params})
+        while True:
+            line = self._read_line()
+            if line is None:
+                raise RuntimeError("MCP server closed stdout unexpectedly.")
+            if not line.strip().startswith("{"):
+                continue
+            try:
+                payload = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if payload.get("id") == request_id:
+                return payload
+
+    def _send(self, payload: dict) -> None:
+        if not self._proc.stdin:
+            raise RuntimeError("MCP server stdin unavailable.")
+        self._proc.stdin.write(json.dumps(payload, ensure_ascii=False) + "\n")
+        self._proc.stdin.flush()
+
+    def _read_line(self) -> str | None:
+        if not self._proc.stdout:
+            return None
+        return self._proc.stdout.readline()
+
+    def _load_tools(self) -> None:
+        try:
+            response = self._request("tools/list", {})
+        except Exception:
+            return
+        result = response.get("result")
+        tools = result.get("tools") if isinstance(result, dict) else result
+        if not isinstance(tools, list):
+            return
+        names: list[str] = []
+        for item in tools:
+            if isinstance(item, dict) and "name" in item:
+                names.append(str(item["name"]))
+            elif isinstance(item, str):
+                names.append(item)
+        self._tools = names
+
+    def _resolve_tool_name(self, name: str) -> str:
+        if not self._tools:
+            return name
+        if name in self._tools:
+            return name
+        lowered = name.lower()
+        for candidate in self._tools:
+            if candidate.lower() == lowered:
+                return candidate
+        snake = self._to_snake_case(name)
+        for candidate in self._tools:
+            if candidate.lower() == snake:
+                return candidate
+        compact = lowered.replace("_", "")
+        for candidate in self._tools:
+            if candidate.lower().replace("_", "") == compact:
+                return candidate
+        return name
+
+    @staticmethod
+    def _to_snake_case(value: str) -> str:
+        if not value:
+            return value
+        step1 = re.sub(r"(.)([A-Z][a-z]+)", r"\1_\2", value)
+        step2 = re.sub(r"([a-z0-9])([A-Z])", r"\1_\2", step1)
+        return step2.replace("-", "_").lower()
+
+
+def normalize_chapter_id(value, padding: int) -> str | None:
+    if value in ("", None):
+        return None
+    try:
+        chapter_int = int(value)
+    except (ValueError, TypeError):
+        return None
+    return f"{chapter_int:0{padding}d}"
+
+
+def json_content(value: dict) -> str:
+    return json.dumps(value, ensure_ascii=False)
 
 
 def split_sequence(values, parts):
@@ -283,6 +453,35 @@ def main():
     parser.add_argument("--scenes-out", help="Output scenes.jsonl path.")
     parser.add_argument("--dynamic-out", help="Output dynamic_subjects.json path.")
     parser.add_argument("--env-route-out", help="Output environment_route.jsonl path.")
+    parser.add_argument("--write-files", action="store_true", help="Write output files to subjects_root.")
+    parser.add_argument("--store-via-mcp", action="store_true", help="Store registry/profiles in MCP store.")
+    parser.add_argument("--mcp-command", default="dotnet")
+    parser.add_argument(
+        "--mcp-args",
+        nargs="*",
+        default=[
+            "run",
+            "--project",
+            str(
+                Path(__file__).resolve().parents[2]
+                / "tools"
+                / "exevision"
+                / "vector_mcp"
+                / "VectorMcpServer"
+            ),
+        ],
+    )
+    parser.add_argument(
+        "--mcp-cwd",
+        default=str(
+            Path(__file__).resolve().parents[2]
+            / "tools"
+            / "exevision"
+            / "vector_mcp"
+            / "VectorMcpServer"
+        ),
+    )
+    parser.add_argument("--mcp-debug-log", default=None)
     args = parser.parse_args()
 
     story_config, story_root, repo_root = load_story_config(
@@ -315,6 +514,15 @@ def main():
 
     seed_path = args.seed or f"{subjects_root}/profiles_seed.json"
     seed_path = resolve_path(seed_path, repo_root)
+
+    story_id = story_config.get("story_id") or ""
+    timeline_id = args.timeline or story_config.get("timeline_default") or ""
+    chapter_padding = int(story_config.get("chapter_index_padding", 3))
+    collection = (
+        os.environ.get("QDRANT_TEXT_COLLECTION")
+        or os.environ.get("QDRANT_COLLECTION")
+        or "vx_text_qwen3e2b_v1"
+    )
 
     subjects = {}
     occurrences = []
@@ -676,34 +884,241 @@ def main():
             dynamic_registry.append(registry[-1])
 
     ensure_dir(registry_out.parent)
-    with registry_out.open("w", encoding="utf-8") as f:
-        json.dump(registry, f, ensure_ascii=False, indent=2)
 
-    with profiles_out.open("w", encoding="utf-8") as f:
-        for profile in profiles:
-            f.write(json.dumps(profile, ensure_ascii=False) + "\n")
+    if args.store_via_mcp:
+        debug_log = Path(args.mcp_debug_log) if args.mcp_debug_log else None
+        client = SimpleMcpClient(
+            command=args.mcp_command,
+            args=args.mcp_args,
+            cwd=args.mcp_cwd,
+            debug_log=debug_log,
+        )
+        try:
+            profile_map = {profile.get("id"): profile for profile in profiles}
+            subject_index = {}
+            for subject_id, subject in profile_map.items():
+                subject_index[subject_id] = {
+                    "subject_type": subject.get("type"),
+                    "roles": subject.get("roles", []),
+                }
 
-    with occurrences_out.open("w", encoding="utf-8") as f:
-        for item in occurrences:
-            f.write(json.dumps(item, ensure_ascii=False) + "\n")
+            for item in registry:
+                subject_id = item.get("id")
+                profile = profile_map.get(subject_id) or {}
+                name = profile.get("name") or item.get("name") or subject_id
+                subject_type = profile.get("type") or item.get("type")
+                metadata = {
+                    "aliases": profile.get("aliases", []),
+                    "roles": profile.get("roles", []),
+                    "visual_traits": profile.get("visual_traits", []),
+                    "notes": profile.get("notes", []),
+                    "changes": profile.get("changes", []),
+                    "owner_names": profile.get("owner_names", []),
+                    "owner_subject_ids": profile.get("owner_subject_ids", []),
+                }
+                client.call_tool(
+                    "upsert_subject",
+                    {
+                        "subjectId": subject_id,
+                        "name": name or subject_id,
+                        "subjectType": subject_type,
+                        "metadata": json.dumps(metadata, ensure_ascii=False),
+                    },
+                )
 
-    with scenes_out.open("w", encoding="utf-8") as f:
-        for scene in scenes:
-            f.write(json.dumps(scene, ensure_ascii=False) + "\n")
+            for profile in profiles:
+                subject_id = profile.get("id")
+                metadata = {
+                    "doc_kind": "subject_profile",
+                    "story_id": story_id,
+                    "timeline_id": timeline_id,
+                    "owner_kind": "subject",
+                    "owner_id": subject_id,
+                    "subject_type": profile.get("type"),
+                    "is_dynamic": profile.get("is_dynamic"),
+                    "state_policy": profile.get("state_policy"),
+                }
+                client.call_tool(
+                    "store_document",
+                    {
+                        "collection": collection,
+                        "title": f"profile {subject_id}",
+                        "content": json_content(profile),
+                        "metadata": json.dumps(metadata, ensure_ascii=False),
+                    },
+                )
 
-    with env_route_out.open("w", encoding="utf-8") as f:
-        for entry in env_route:
-            f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+            for item in registry:
+                subject_id = item.get("id")
+                metadata = {
+                    "doc_kind": "subject_registry",
+                    "story_id": story_id,
+                    "timeline_id": timeline_id,
+                    "owner_kind": "subject",
+                    "owner_id": subject_id,
+                    "subject_type": item.get("type"),
+                }
+                client.call_tool(
+                    "store_document",
+                    {
+                        "collection": collection,
+                        "title": f"registry {subject_id}",
+                        "content": json_content(item),
+                        "metadata": json.dumps(metadata, ensure_ascii=False),
+                    },
+                )
 
-    with dynamic_out.open("w", encoding="utf-8") as f:
-        json.dump({"subjects": dynamic_registry}, f, ensure_ascii=False, indent=2)
+            for scene in scenes:
+                scene_id = scene.get("scene_id")
+                chapter_id = normalize_chapter_id(scene.get("chapter"), chapter_padding)
+                metadata = {
+                    "doc_kind": "scene",
+                    "story_id": story_id,
+                    "timeline_id": timeline_id,
+                    "owner_kind": "scene",
+                    "owner_id": scene_id,
+                    "chapter": scene.get("chapter"),
+                    "chapter_id": chapter_id,
+                    "segment_label": scene.get("segment_label"),
+                    "segment_type": scene.get("segment_type"),
+                    "source_id": scene.get("source_id"),
+                    "scene_id": scene_id,
+                }
+                client.call_tool(
+                    "store_document",
+                    {
+                        "collection": collection,
+                        "title": f"scene {scene_id}",
+                        "content": json_content(scene),
+                        "metadata": json.dumps(metadata, ensure_ascii=False),
+                    },
+                )
 
-    print(f"Wrote registry: {registry_out}")
-    print(f"Wrote profiles: {profiles_out}")
-    print(f"Wrote occurrences: {occurrences_out}")
-    print(f"Wrote scenes: {scenes_out}")
-    print(f"Wrote environment route: {env_route_out}")
-    print(f"Wrote dynamic subjects: {dynamic_out}")
+            for entry in env_route:
+                scene_id = entry.get("scene_id")
+                chapter_id = normalize_chapter_id(entry.get("chapter"), chapter_padding)
+                metadata = {
+                    "doc_kind": "environment_route",
+                    "story_id": story_id,
+                    "timeline_id": timeline_id,
+                    "owner_kind": "scene",
+                    "owner_id": scene_id,
+                    "chapter": entry.get("chapter"),
+                    "chapter_id": chapter_id,
+                    "segment_label": entry.get("segment_label"),
+                    "scene_id": scene_id,
+                }
+                client.call_tool(
+                    "store_document",
+                    {
+                        "collection": collection,
+                        "title": f"environment route {scene_id}",
+                        "content": json_content(entry),
+                        "metadata": json.dumps(metadata, ensure_ascii=False),
+                    },
+                )
+
+            for item in dynamic_registry:
+                subject_id = item.get("id")
+                metadata = {
+                    "doc_kind": "dynamic_subject",
+                    "story_id": story_id,
+                    "timeline_id": timeline_id,
+                    "owner_kind": "subject",
+                    "owner_id": subject_id,
+                    "subject_type": item.get("type"),
+                    "is_dynamic": item.get("is_dynamic"),
+                }
+                client.call_tool(
+                    "store_document",
+                    {
+                        "collection": collection,
+                        "title": f"dynamic {subject_id}",
+                        "content": json_content(item),
+                        "metadata": json.dumps(metadata, ensure_ascii=False),
+                    },
+                )
+
+            for occ in occurrences:
+                subject_id = occ.get("subject_id")
+                subject_meta = subject_index.get(subject_id, {})
+                chapter_id = normalize_chapter_id(occ.get("chapter"), chapter_padding)
+                phase_id = occ.get("phase_id") or occ.get("phase")
+                metadata = {
+                    "doc_kind": "occurrence",
+                    "story_id": story_id,
+                    "timeline_id": timeline_id,
+                    "owner_kind": "subject",
+                    "owner_id": subject_id,
+                    "subject_id": subject_id,
+                    "subject_type": subject_meta.get("subject_type"),
+                    "roles": subject_meta.get("roles", []),
+                    "chapter": occ.get("chapter"),
+                    "chapter_id": chapter_id,
+                    "segment_label": occ.get("segment_label"),
+                    "segment_type": occ.get("segment_type"),
+                    "scene_label": occ.get("scene_label"),
+                    "scene_id": occ.get("scene_label"),
+                    "source_id": occ.get("source_id"),
+                }
+                if phase_id:
+                    metadata["phase_id"] = phase_id
+                client.call_tool(
+                    "store_document",
+                    {
+                        "collection": collection,
+                        "title": f"occurrence {subject_id}",
+                        "content": f"subject_id: {subject_id}",
+                        "metadata": json.dumps(metadata, ensure_ascii=False),
+                    },
+                )
+                client.call_tool(
+                    "store_subject_occurrence",
+                    {
+                        "subjectId": subject_id,
+                        "sourceId": occ.get("source_id"),
+                        "chapter": str(occ.get("chapter")) if occ.get("chapter") is not None else None,
+                        "segmentLabel": occ.get("segment_label"),
+                        "segmentType": occ.get("segment_type"),
+                        "phaseId": phase_id,
+                        "sceneLabel": occ.get("scene_label"),
+                        "metadata": json.dumps(metadata, ensure_ascii=False),
+                    },
+                )
+        finally:
+            client.close()
+
+    if args.write_files:
+        with registry_out.open("w", encoding="utf-8") as f:
+            json.dump(registry, f, ensure_ascii=False, indent=2)
+
+        with profiles_out.open("w", encoding="utf-8") as f:
+            for profile in profiles:
+                f.write(json.dumps(profile, ensure_ascii=False) + "\n")
+
+        with occurrences_out.open("w", encoding="utf-8") as f:
+            for item in occurrences:
+                f.write(json.dumps(item, ensure_ascii=False) + "\n")
+
+        with scenes_out.open("w", encoding="utf-8") as f:
+            for scene in scenes:
+                f.write(json.dumps(scene, ensure_ascii=False) + "\n")
+
+        with env_route_out.open("w", encoding="utf-8") as f:
+            for entry in env_route:
+                f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+
+        with dynamic_out.open("w", encoding="utf-8") as f:
+            json.dump({"subjects": dynamic_registry}, f, ensure_ascii=False, indent=2)
+
+        print(f"Wrote registry: {registry_out}")
+        print(f"Wrote profiles: {profiles_out}")
+        print(f"Wrote occurrences: {occurrences_out}")
+        print(f"Wrote scenes: {scenes_out}")
+        print(f"Wrote environment route: {env_route_out}")
+        print(f"Wrote dynamic subjects: {dynamic_out}")
+    else:
+        print("Skipping file writes (use --write-files to enable).")
 
 
 if __name__ == "__main__":

@@ -36,11 +36,15 @@ def env(name, default=None):
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Build inter-collection links using Qdrant search.")
+    parser.add_argument("--collection", default=None, help="Single collection name (same-collection linking).")
     parser.add_argument("--collections", default="*")
+    parser.add_argument("--source-filter", default=None, help="JSON filter for source points (string or @file).")
+    parser.add_argument("--target-filter", default=None, help="JSON filter for target points (string or @file).")
     parser.add_argument("--limit", type=int, default=3)
     parser.add_argument("--threshold", type=float, default=0.75)
     parser.add_argument("--max-points", type=int, default=0)
     parser.add_argument("--output", default="intercollection_links.jsonl")
+    parser.add_argument("--allow-self", action="store_true", help="Allow linking within the same collection.")
     parser.add_argument("--store-db", action="store_true")
     return parser.parse_args()
 
@@ -63,12 +67,26 @@ def qdrant_request(method, url, payload=None):
     return json.loads(body)
 
 
+def load_filter(value):
+    if not value:
+        return None
+    raw = value.strip()
+    if raw.startswith("@"):
+        path = raw[1:]
+        with open(path, "r", encoding="utf-8") as handle:
+            raw = handle.read().strip()
+    try:
+        return json.loads(raw)
+    except json.JSONDecodeError as exc:
+        raise ValueError(f"Invalid filter JSON: {value}") from exc
+
+
 def list_collections(base_url):
     data = qdrant_request("GET", f"{base_url}/collections")
     return [item["name"] for item in data.get("result", {}).get("collections", [])]
 
 
-def scroll_points(base_url, collection, limit=64, max_points=0):
+def scroll_points(base_url, collection, limit=64, max_points=0, qdrant_filter=None):
     url = f"{base_url}/collections/{collection}/points/scroll"
     offset = None
     yielded = 0
@@ -79,6 +97,8 @@ def scroll_points(base_url, collection, limit=64, max_points=0):
             "with_vectors": True,
             "with_payload": True
         }
+        if qdrant_filter:
+            payload["filter"] = qdrant_filter
         if offset is not None:
             payload["offset"] = offset
 
@@ -97,7 +117,7 @@ def scroll_points(base_url, collection, limit=64, max_points=0):
             return
 
 
-def search_points(base_url, collection, vector, limit, threshold):
+def search_points(base_url, collection, vector, limit, threshold, qdrant_filter=None):
     url = f"{base_url}/collections/{collection}/points/search"
     payload = {
         "vector": vector,
@@ -105,6 +125,8 @@ def search_points(base_url, collection, vector, limit, threshold):
         "score_threshold": threshold,
         "with_payload": True
     }
+    if qdrant_filter:
+        payload["filter"] = qdrant_filter
     data = qdrant_request("POST", url, payload)
     return data.get("result", [])
 
@@ -160,7 +182,10 @@ def main():
     qdrant_port = int(env("QDRANT_HTTP_PORT", env("QDRANT_PORT", "6333")))
     qdrant_url = f"http://{qdrant_host}:{qdrant_port}"
 
-    collections = [c.strip() for c in args.collections.split(",") if c.strip()] if args.collections != "*" else None
+    if args.collection:
+        collections = [args.collection]
+    else:
+        collections = [c.strip() for c in args.collections.split(",") if c.strip()] if args.collections != "*" else None
     if collections is None:
         collections = list_collections(qdrant_url)
 
@@ -180,25 +205,49 @@ def main():
         conn = psycopg2.connect(host=db_host, port=db_port, dbname=db_name, user=db_user, password=db_password)
         ensure_link_table(conn)
 
+    source_filter = load_filter(args.source_filter)
+    target_filter = load_filter(args.target_filter)
+
+    if args.collection and not args.allow_self and len(collections) == 1:
+        print("Single collection provided. Use --allow-self to link within the same collection.")
+        return
+
     output = open(args.output, "w", encoding="utf-8")
     link_count = 0
 
     for source_collection in collections:
-        target_collections = [c for c in collections if c != source_collection]
+        if args.allow_self:
+            target_collections = list(collections)
+        else:
+            target_collections = [c for c in collections if c != source_collection]
         if not target_collections:
             continue
 
-        for point in scroll_points(qdrant_url, source_collection, max_points=args.max_points):
+        for point in scroll_points(
+            qdrant_url,
+            source_collection,
+            max_points=args.max_points,
+            qdrant_filter=source_filter,
+        ):
             source_id = str(point.get("id"))
             vector = point.get("vector")
             if vector is None:
                 continue
 
             for target_collection in target_collections:
-                results = search_points(qdrant_url, target_collection, vector, args.limit, args.threshold)
+                results = search_points(
+                    qdrant_url,
+                    target_collection,
+                    vector,
+                    args.limit,
+                    args.threshold,
+                    qdrant_filter=target_filter,
+                )
                 for result in results:
                     target_id = str(result.get("id"))
                     if not target_id:
+                        continue
+                    if not args.allow_self and target_collection == source_collection and target_id == source_id:
                         continue
 
                     link = {

@@ -20,6 +20,14 @@ public class QdrantService : IQdrantService
     private readonly QdrantClient _client;
     private readonly VectorStoreSettings _settings;
     private readonly ILogger<QdrantService> _logger;
+    private static readonly HashSet<string> ReservedPayloadKeys = new(StringComparer.OrdinalIgnoreCase)
+    {
+        "title",
+        "content",
+        "collection",
+        "created_at",
+        "updated_at"
+    };
 
     public QdrantService(VectorStoreSettings settings, ILogger<QdrantService> logger)
     {
@@ -67,15 +75,18 @@ public class QdrantService : IQdrantService
             {
                 Id = new PointId { Uuid = document.Id.ToString() },
                 Vectors = document.Embedding.ToArray(),
-                Payload =
-                {
-                    ["title"] = new Value { StringValue = document.Title },
-                    ["content"] = new Value { StringValue = document.Content },
-                    ["collection"] = new Value { StringValue = document.Collection },
-                    ["created_at"] = new Value { StringValue = document.CreatedAt.ToString("O") },
-                    ["updated_at"] = new Value { StringValue = document.UpdatedAt.ToString("O") }
-                }
+                Payload = { }
             };
+
+            var minimalPayload = IsMinimalPayload();
+            point.Payload["title"] = new Value { StringValue = document.Title };
+            point.Payload["collection"] = new Value { StringValue = document.Collection };
+            point.Payload["created_at"] = new Value { StringValue = document.CreatedAt.ToString("O") };
+            point.Payload["updated_at"] = new Value { StringValue = document.UpdatedAt.ToString("O") };
+            if (!minimalPayload)
+            {
+                point.Payload["content"] = new Value { StringValue = document.Content };
+            }
 
             foreach (var kvp in document.Metadata)
             {
@@ -102,15 +113,25 @@ public class QdrantService : IQdrantService
 
             foreach (var point in searchResult)
             {
+                var payload = point.Payload;
                 var doc = new VectorDocument
                 {
                     Id = Guid.Parse(point.Id.ToString()),
-                    Title = point.Payload["title"].StringValue,
-                    Content = point.Payload["content"].StringValue,
-                    Collection = point.Payload["collection"].StringValue,
-                    CreatedAt = DateTime.Parse(point.Payload["created_at"].StringValue),
-                    UpdatedAt = DateTime.Parse(point.Payload["updated_at"].StringValue)
+                    Title = ReadPayloadString(payload, "title"),
+                    Content = ReadPayloadString(payload, "content"),
+                    Collection = ReadPayloadString(payload, "collection") ?? collectionName,
+                    CreatedAt = ReadPayloadDate(payload, "created_at"),
+                    UpdatedAt = ReadPayloadDate(payload, "updated_at")
                 };
+
+                foreach (var kvp in payload)
+                {
+                    if (ReservedPayloadKeys.Contains(kvp.Key))
+                    {
+                        continue;
+                    }
+                    doc.Metadata[kvp.Key] = ReadPayloadValue(kvp.Value);
+                }
 
                 doc.Metadata["score"] = point.Score;
 
@@ -124,6 +145,59 @@ public class QdrantService : IQdrantService
             _logger.LogWarning(ex, "Failed to search Qdrant collection {Collection}", collectionName);
             return new List<VectorDocument>();
         }
+    }
+
+    private bool IsMinimalPayload()
+    {
+        return string.Equals(_settings.QdrantPayloadMode, "minimal", StringComparison.OrdinalIgnoreCase);
+    }
+
+    private static string? ReadPayloadString(IDictionary<string, Value> payload, string key)
+    {
+        if (!payload.TryGetValue(key, out var value))
+        {
+            return null;
+        }
+        return value.StringValue;
+    }
+
+    private static DateTime ReadPayloadDate(IDictionary<string, Value> payload, string key)
+    {
+        var raw = ReadPayloadString(payload, key);
+        if (raw != null && DateTime.TryParse(raw, out var parsed))
+        {
+            return parsed;
+        }
+        return DateTime.UtcNow;
+    }
+
+    private static object ReadPayloadValue(Value value)
+    {
+        if (!string.IsNullOrWhiteSpace(value.StringValue))
+        {
+            return value.StringValue;
+        }
+        if (value.IntegerValue != 0)
+        {
+            return value.IntegerValue;
+        }
+        if (Math.Abs(value.DoubleValue) > 0)
+        {
+            return value.DoubleValue;
+        }
+        if (value.BoolValue)
+        {
+            return value.BoolValue;
+        }
+        if (value.ListValue is { Values.Count: > 0 })
+        {
+            return value.ListValue.Values.Select(ReadPayloadValue).ToList();
+        }
+        if (value.StructValue is { Fields.Count: > 0 })
+        {
+            return value.StructValue.Fields.ToDictionary(pair => pair.Key, pair => ReadPayloadValue(pair.Value));
+        }
+        return string.Empty;
     }
 
     public async Task<bool> DeletePointAsync(string collectionName, Guid documentId)

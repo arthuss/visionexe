@@ -15,6 +15,7 @@ public sealed class VectorStoreSettings
     public string QdrantHost { get; init; } = "localhost";
     public int QdrantGrpcPort { get; init; } = 6334;
     public int QdrantHttpPort { get; init; } = 6333;
+    public string QdrantPayloadMode { get; init; } = "minimal";
 
     public int EmbeddingDimension { get; init; } = 1024;
     public string? EmbeddingEndpoint { get; init; }
@@ -23,6 +24,8 @@ public sealed class VectorStoreSettings
     public string? EmbeddingQueryPrefix { get; init; }
 
     public string? DeleteToken { get; init; }
+    public string? EngramParamsPath { get; init; }
+    public string? EngramTokenizerDir { get; init; }
 
     public string BuildPostgresConnectionString()
     {
@@ -49,12 +52,15 @@ public sealed class VectorStoreSettings
             QdrantHost = GetSetting(configuration, "QDRANT_HOST") ?? "localhost",
             QdrantGrpcPort = GetIntSetting(configuration, 6334, "QDRANT_GRPC_PORT", "QDRANT_PORT"),
             QdrantHttpPort = GetIntSetting(configuration, 6333, "QDRANT_HTTP_PORT"),
+            QdrantPayloadMode = GetSetting(configuration, "QDRANT_PAYLOAD_MODE") ?? "minimal",
             EmbeddingDimension = GetIntSetting(configuration, 1024, "EMBEDDING_DIMENSION", "VECTOR_EMBEDDING_DIMENSION"),
             EmbeddingEndpoint = GetSetting(configuration, "EMBEDDING_ENDPOINT", "VECTOR_EMBEDDING_ENDPOINT"),
             EmbeddingApiKey = GetSetting(configuration, "EMBEDDING_API_KEY"),
             EmbeddingTimeoutSeconds = GetIntSetting(configuration, 30, "EMBEDDING_TIMEOUT_SECONDS"),
             EmbeddingQueryPrefix = GetSetting(configuration, "EMBEDDING_QUERY_PREFIX"),
-            DeleteToken = GetSetting(configuration, "VECTOR_DELETE_TOKEN")
+            DeleteToken = GetSetting(configuration, "VECTOR_DELETE_TOKEN"),
+            EngramParamsPath = GetSetting(configuration, "ENGRAM_PARAMS_PATH"),
+            EngramTokenizerDir = GetSetting(configuration, "ENGRAM_TOKENIZER_DIR")
         };
     }
 
